@@ -1,0 +1,12 @@
+# Application and spike runtimes.
+[tools]
+node = '24.21.0'
+python = '3.14.7'
+pnpm = '12.6.0'
+uv = '0.12.10'
+
+[tasks.dev]
+run = 'pnpm dev'
+
+[tasks.'spikes:dev']
+run = 'pnpm --dir spikes/web dev'

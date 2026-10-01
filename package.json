@@ -1,0 +1,26 @@
+{
+  "name": "sirah-journey",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.6.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5100",
+    "dev:api": "uv run api.py",
+    "test": "node --test tests/journey-state.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5100",
+    "format": "oxfmt -c .oxfmtrc.json src vite.config.js index.html tests/journey-state.test.js",
+    "format:check": "oxfmt --check -c .oxfmtrc.json src vite.config.js index.html tests/journey-state.test.js"
+  },
+  "dependencies": {
+    "navgo": "6.0.12",
+    "svelte": "5.55.9",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@mustafaj/oxfmt": "0.65.0-svelte.10",
+    "@sveltejs/vite-plugin-svelte": "7.1.2",
+    "vite": "8.0.14"
+  }
+}
