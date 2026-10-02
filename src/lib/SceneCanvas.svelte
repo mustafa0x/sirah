@@ -1,49 +1,49 @@
 <script>
     import { onMount } from 'svelte'
-    import { scene_pois } from './scene-manifest.js'
     import { create_scene } from './scene-renderer.js'
 
-    let { kind, label, on_poi, selected_poi_id } = $props()
-    let focus_scene_poi = () => {}
+    let { label, shot, mood, route, active_poi_id, insets, on_poi } = $props()
     let host
+    let world = $state(null)
     let status = $state('loading')
+    let first_shot = true
 
     onMount(() => {
-        let dispose = () => {}
         let cancelled = false
-        create_scene(
-            host,
-            kind,
-            (next) => {
+        let created
+        create_scene(host, {
+            on_poi,
+            report(next) {
                 if (!cancelled) status = next
             },
-            on_poi,
-            (focus) => {
-                focus_scene_poi = focus
-                const poi = scene_pois[kind]?.find((item) => item.id === selected_poi_id)
-                if (poi) focus_scene_poi(poi)
-            },
-        ).then((cleanup) => {
-            if (cancelled) cleanup()
-            else dispose = cleanup
+        }).then((api) => {
+            created = api
+            if (cancelled) api.dispose()
+            else world = api
         })
         return () => {
             cancelled = true
-            dispose()
+            created?.dispose()
         }
     })
 
     $effect(() => {
-        const poi = scene_pois[kind]?.find((item) => item.id === selected_poi_id)
-        if (poi) focus_scene_poi(poi)
+        if (!world || !shot) return
+        world.set_shot(shot, first_shot ? 0 : 2200)
+        first_shot = false
     })
+    $effect(() => world?.set_mood(mood))
+    $effect(() => world?.set_route(route))
+    $effect(() => world?.set_insets(insets))
+    $effect(() => world?.set_active(active_poi_id))
 </script>
 
-<div class="scene-wrap">
-    <div class="scene-status" role="status" aria-live="polite">
-        {#if status === 'loading'}Loading scene…
-        {:else if status !== 'ready'}The 3D illustration is unavailable. Continue with the reading
-            below.{/if}
-    </div>
-    <div class="scene-canvas" bind:this={host} aria-label={label} role="img"></div>
+<div class="scene-wrap" data-scene-status={status}>
+    <div class="scene-canvas" bind:this={host} aria-label={label} role="group"></div>
+    {#if status === 'failed'}
+        <p class="scene-status" role="status">
+            The 3D illustration is unavailable on this device. The full chapter is still here to
+            read.
+        </p>
+    {/if}
 </div>

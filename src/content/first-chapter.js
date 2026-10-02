@@ -24,7 +24,7 @@ export const chapter = {
             id: 'setting',
             title: 'Before the journey',
             scene: 'overview',
-            duration: 9,
+            duration: 24,
             source_ids: ['E01', 'E11'],
             paragraphs: [
                 {
@@ -43,7 +43,7 @@ export const chapter = {
             id: 'preparations',
             title: 'Preparing to leave',
             scene: 'overview',
-            duration: 11,
+            duration: 24,
             source_ids: ['E02', 'E06'],
             paragraphs: [
                 {
@@ -62,7 +62,7 @@ export const chapter = {
             id: 'thawr',
             title: 'Three nights at Thawr',
             scene: 'thawr',
-            duration: 18,
+            duration: 56,
             source_ids: ['E03', 'E04', 'E05', 'E08', 'E09', 'E10'],
             paragraphs: [
                 {
@@ -96,7 +96,7 @@ export const chapter = {
             id: 'onward',
             title: 'The journey continues',
             scene: 'overview',
-            duration: 9,
+            duration: 26,
             source_ids: ['E06', 'E07'],
             paragraphs: [
                 {
@@ -115,7 +115,7 @@ export const chapter = {
             id: 'arrival',
             title: 'Arrival and a new beginning',
             scene: 'overview',
-            duration: 10,
+            duration: 22,
             source_ids: ['E11', 'E12'],
             paragraphs: [
                 {
@@ -383,6 +383,10 @@ function source(id, work, locator, excerpt, explanation, limits, url) {
     const citation = get_turath_citation(id)
     return {
         id,
+        number: Number(id.slice(1)),
+        reference: /^[\d:]+$/.test(locator.split(' · ')[0])
+            ? `${work} ${locator.split(' · ')[0]}`
+            : work,
         work: citation?.book ?? work,
         locator: citation
             ? `Turath · book ${citation.book_id} · page ${citation.page_id} · vol. ${citation.volume}, p. ${citation.page}`

@@ -182,6 +182,19 @@ export function close_panel(state) {
     state.announcement = 'Panel closed. Press Resume journey to return to the guided position.'
 }
 
+// Closing a source or question leaves the learner at the guided stop; playback may continue.
+export function return_to_guided(state) {
+    if (
+        state.mode !== 'exploring' ||
+        state.navigation_pending ||
+        state.viewed_step_id !== state.guided_position.step_id
+    )
+        return false
+    state.mode = 'guided'
+    state.phase = 'resumed'
+    return true
+}
+
 export function begin_play(state) {
     if (
         state.navigation_pending ||
