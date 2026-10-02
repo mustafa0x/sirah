@@ -215,12 +215,12 @@ export const chapter = {
         ),
         source(
             'E10',
-            'Al-Sa‘di, Taysir al-Karim al-Rahman',
-            'commentary on Quran 9:40',
-            'بعونه ونصره وتأييده',
+            'Ibn Kathir, al-Bidayah wa al-Nihayah',
+            'commentary on Quran 9:40 · Turath 930/764',
+            'فإن الله ناصره ومؤيده ومظفره',
             'Ibn Kathir’s commentary on the Turath page explains the reassurance through Allah’s help, support, and strengthening.',
             'This is commentary in Ibn Kathir, not the Quranic wording itself; the use and wording remain pending scholarly review.',
-            'https://quran.ksu.edu.sa/tafseer/saadi/sura9-aya40.html',
+            'https://api.turath.io/page?book_id=930&pg=764',
         ),
         source(
             'E11',
