@@ -1,10 +1,10 @@
-// Provider seam: the approved runtime endpoint is notified first. This local answer is
-// intentionally finite and source-bounded; it is not a general chat model.
-export function local_guide_answer(question, source_ids = []) {
+import { chapter } from '../content/first-chapter.js'
+
+// Offline chapter notes, not a substitute for model-led research.
+function chapter_note_answer(question, source_ids = []) {
     const text = question.toLowerCase()
     const cited = (...ids) => ids.filter((source_id) => source_ids.includes(source_id))
-    const available = (...ids) =>
-        cited(...ids).length > 0 ? cited(...ids) : source_ids.slice(0, 2)
+    const available = (...ids) => (cited(...ids).length === ids.length ? cited(...ids) : [])
     if (
         text.includes('exact route') ||
         text.includes('precise') ||
@@ -108,34 +108,96 @@ export function local_guide_answer(question, source_ids = []) {
         answer: 'The selected evidence does not establish an answer to that question. The available source records are shown below.',
         status: 'local-bounded',
         confidence: 'bounded',
-        citations: source_ids.slice(0, 2),
+        citations: [],
         action: null,
     }
 }
 
-function valid_answer(value, source_ids) {
+export function local_guide_answer(question, source_ids = []) {
+    const answer = chapter_note_answer(question, source_ids)
+    return answer.citations.length
+        ? { ...answer, provider: 'local', sources: [] }
+        : {
+              answer: 'The offline chapter notes do not establish an answer to that question.',
+              status: 'local-bounded',
+              provider: 'local',
+              confidence: 'bounded',
+              citations: [],
+              sources: [],
+              action: null,
+          }
+}
+
+export function valid_answer(value) {
+    if (
+        !value ||
+        value.provider !== 'openai-turath' ||
+        !['answered', 'not_in_sources', 'clarify', 'out_of_scope'].includes(value.status) ||
+        typeof value.answer !== 'string' ||
+        !value.answer.trim() ||
+        value.answer.length > 12000 ||
+        !Array.isArray(value.sources) ||
+        value.sources.length > 8 ||
+        !Array.isArray(value.citations) ||
+        value.citations.length > 8
+    )
+        return false
+    const ids = new Set()
+    for (const source of value.sources) {
+        if (
+            !source ||
+            typeof source.id !== 'string' ||
+            (!source.id.startsWith('tr_') &&
+                !(source.cached && chapter.sources.some((item) => item.id === source.id))) ||
+            ids.has(source.id) ||
+            !['reference', 'work', 'excerpt', 'url'].every(
+                (key) => typeof source[key] === 'string' && source[key].length,
+            )
+        )
+            return false
+        try {
+            const url = new URL(source.url)
+            if (
+                url.protocol !== 'https:' ||
+                !['app.turath.io', 'turath.io', 'api.turath.io'].includes(url.hostname) ||
+                url.username ||
+                url.password
+            )
+                return false
+        } catch {
+            return false
+        }
+        ids.add(source.id)
+    }
+    if (
+        !value.citations.every((id) => ids.has(id)) ||
+        new Set(value.citations).size !== value.citations.length ||
+        (value.status === 'answered' && !value.citations.length)
+    )
+        return false
     return (
-        value &&
-        typeof value.answer === 'string' &&
-        typeof value.status === 'string' &&
-        Array.isArray(value.citations) &&
-        value.citations.every((source_id) => source_ids.includes(source_id))
+        value.action === null ||
+        (value.status === 'answered' &&
+            value.action?.type === 'detour' &&
+            chapter.steps.some((step) => step.id === value.action.step_id) &&
+            typeof value.action.label === 'string' &&
+            value.action.label.length > 0 &&
+            value.action.label.length <= 120)
     )
 }
 
 export async function ask_guide(question, context) {
     const fallback = local_guide_answer(question, context.source_ids)
-    // The demo endpoint only returns English; use the same bounded local answers in Arabic.
-    if (document.documentElement.lang === 'ar') return fallback
     try {
         const response = await fetch('/api/guide', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ question, context }),
+            signal: AbortSignal.timeout(100000),
         })
         if (!response.ok) return fallback
         const answer = await response.json()
-        return valid_answer(answer, context.source_ids) ? answer : fallback
+        return valid_answer(answer) ? answer : fallback
     } catch {
         return fallback
     }

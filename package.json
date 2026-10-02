@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5100",
     "dev:api": "uv run api.py",
-    "test": "node --test tests/*.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
-    "build": "vite build",
+    "test": "node scripts/export_guide_context.js --check && node --test tests/*.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
+    "guide:context": "node scripts/export_guide_context.js",
+    "build": "node scripts/export_guide_context.js && vite build",
     "i18n:extract": "wuchale --clean",
     "preview": "vite preview --host 127.0.0.1 --port 5100",
     "format": "oxfmt -c .oxfmtrc.json src vite.config.js wuchale.config.js index.html tests/*.test.js",

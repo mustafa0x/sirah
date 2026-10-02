@@ -3,7 +3,10 @@ name = "sirah-journey-api"
 version = "0.1.0"
 description = "Server-side source boundary for the first playable Sirah Journey"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "mcp>=1.30,<2",
+    "openai>=2.0,<3",
+]
 
 [tool.ruff]
 line-length = 100

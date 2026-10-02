@@ -16,6 +16,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, urlencode, urlparse
 from urllib.request import Request, urlopen
 
+from guide import CHAPTER, STEPS, OpenAIGuideProvider
+
 CATEGORY_ID = 24
 MAX_QUERY = 240
 MAX_PAGE = 10
@@ -192,14 +194,14 @@ def configured_allowlist() -> set[str]:
 
 
 class LocalGuideProvider:
-    """Deterministic, source-bounded fallback until a provider is approved."""
+    """Finite offline fallback; never presented as a researched model answer."""
 
     def answer(self, question: str, step_id: str, source_ids: list[str]) -> dict[str, Any]:
         normalized = question.lower()
 
         def cited(*ids: str) -> list[str]:
             result = [source_id for source_id in ids if source_id in source_ids]
-            return result or source_ids[:2]
+            return result if len(result) == len(ids) else []
 
         if "exact route" in normalized or "precise" in normalized:
             text = "The selected evidence does not establish an exact route. It describes a coastal way, while this overview is schematic rather than a measured itinerary."
@@ -235,7 +237,10 @@ class LocalGuideProvider:
             action = None
         else:
             text = "The selected evidence does not establish an answer to that question. The available source records are shown below."
-            citations = source_ids[:2]
+            citations = []
+            action = None
+        if not citations:
+            text = 'The offline chapter notes do not establish an answer to that question.'
             action = None
         return {
             "answer": text,
@@ -243,11 +248,12 @@ class LocalGuideProvider:
             "confidence": "bounded",
             "citations": citations,
             "action": action,
-            "review_status": "working local provider",
+            "provider": "local",
+            "sources": [],
         }
 
 
-def guide_response(payload: Any, provider: LocalGuideProvider | None = None) -> dict[str, Any]:
+def guide_response(payload: Any, provider: LocalGuideProvider | OpenAIGuideProvider | None = None) -> dict[str, Any]:
     if not isinstance(payload, dict):
         raise BoundaryError("guide payload must be an object")
     question = payload.get("question")
@@ -258,10 +264,25 @@ def guide_response(payload: Any, provider: LocalGuideProvider | None = None) -> 
         raise BoundaryError("bounded chapter context is required")
     step_id = context.get("step_id")
     source_ids = context.get("source_ids", [])
-    if not isinstance(step_id, str) or not re.fullmatch(r"[a-z-]+", step_id):
+    if not isinstance(step_id, str) or step_id not in STEPS:
         raise BoundaryError("context step_id is invalid")
-    if not isinstance(source_ids, list) or len(source_ids) > 12 or not all(isinstance(item, str) for item in source_ids):
-        raise BoundaryError("context source_ids are invalid")
+    known_ids = {source['id'] for source in CHAPTER['sources']}
+    if not isinstance(source_ids, list) or len(source_ids) > len(known_ids) or not all(isinstance(item, str) and item in known_ids for item in source_ids):
+        raise BoundaryError('context source_ids are invalid')
+    if context.get('chapter_id', CHAPTER['id']) != CHAPTER['id']:
+        raise BoundaryError('unknown chapter')
+    language = context.get('language', 'en')
+    if not isinstance(language, str) or language not in {'en', 'ar'}:
+        raise BoundaryError('context language is invalid')
+    recent_turns = context.get('recent_turns', [])
+    if not isinstance(recent_turns, list) or len(recent_turns) > 6 or not all(
+        isinstance(turn, dict) and isinstance(turn.get('role'), str) and turn['role'] in {'user', 'assistant'}
+        and isinstance(turn.get('text'), str) and len(turn['text']) <= 4000
+        for turn in recent_turns
+    ):
+        raise BoundaryError('context recent_turns are invalid')
+    if isinstance(provider, OpenAIGuideProvider):
+        return provider.answer(question.strip(), step_id, source_ids, language, recent_turns)
     return (provider or LocalGuideProvider()).answer(question.strip(), step_id, source_ids)
 
 
@@ -270,6 +291,7 @@ def _json(handler: BaseHTTPRequestHandler, value: Any, status: int = 200) -> Non
     handler.send_response(status)
     handler.send_header("Content-Type", "application/json; charset=utf-8")
     handler.send_header("Content-Length", str(len(data)))
+    handler.send_header('Cache-Control', 'no-store')
     handler.send_header("Access-Control-Allow-Origin", "http://127.0.0.1:5100")
     handler.end_headers()
     handler.wfile.write(data)
@@ -277,7 +299,7 @@ def _json(handler: BaseHTTPRequestHandler, value: Any, status: int = 200) -> Non
 
 class APIHandler(BaseHTTPRequestHandler):
     adapter = TurathAdapter()
-    provider = LocalGuideProvider()
+    provider = OpenAIGuideProvider(LocalGuideProvider()) if os.getenv('OPENAI_API_KEY') else LocalGuideProvider()
 
     def log_message(self, _format: str, *_args: Any) -> None:
         return
@@ -311,8 +333,10 @@ class APIHandler(BaseHTTPRequestHandler):
         if self.path != "/api/guide":
             return _json(self, {"error": "Not found"}, 404)
         try:
+            if self.headers.get('Content-Type', '').split(';')[0].strip() != 'application/json':
+                raise BoundaryError('Content-Type must be application/json', 415)
             length = int(self.headers.get("Content-Length", "0"))
-            if length > 20_000:
+            if not 0 < length <= 30_000:
                 raise BoundaryError("request is too large")
             payload = json.loads(self.rfile.read(length))
             _json(self, guide_response(payload, self.provider))

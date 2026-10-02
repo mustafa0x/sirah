@@ -71,6 +71,7 @@
     let active_poi = $state(null)
     let question = $state('')
     let question_input = $state()
+    let recent_turns = $state([])
     let help_open = $state(false)
     let source_origin = $state('none')
     let clock
@@ -105,7 +106,14 @@
                 : null,
     )
     let card_visible = $derived(journey.started && sheet !== 'reading' && !(narrow && sheet))
-    let active_source = $derived(journey.source_id ? get_source(journey.source_id) : null)
+    function find_source(source_id) {
+        return (
+            get_source(source_id) ??
+            journey.answer?.sources?.find((source) => source.id === source_id)
+        )
+    }
+
+    let active_source = $derived(journey.source_id ? find_source(journey.source_id) : null)
     let drawer_sources = $derived(
         !active_source || visible_sources.includes(active_source)
             ? visible_sources
@@ -150,6 +158,7 @@
         cancel_advance()
         active_poi = null
         start_journey(journey, presentation)
+        recent_turns = []
         clock?.set_position(0)
         if (presentation === 'scene') play()
     }
@@ -274,14 +283,23 @@
         )
         journey.answer = null
         journey.question_pending = true
+        const submitted_question = question.trim()
         const context = {
             chapter_id: chapter.id,
             step_id: journey.viewed_step_id,
             source_ids: chapter.sources.map((source) => source.id),
-            objective: chapter.objective,
+            language: document.documentElement.lang,
+            recent_turns,
         }
-        const response = await ask_guide(question.trim(), context)
+        const response = await ask_guide(submitted_question, context)
         if (answer_permission(journey, ticket).text && publish_answer(journey, ticket, response)) {
+            if (response.provider === 'openai-turath') {
+                recent_turns = [
+                    ...recent_turns,
+                    { role: 'user', text: submitted_question },
+                    { role: 'assistant', text: response.answer.slice(0, 4000) },
+                ].slice(-4)
+            }
             announce('Answer ready. Its cited passages are listed with it.')
         }
     }
@@ -301,7 +319,7 @@
     }
 
     function view_source(source_id) {
-        if (!source_id) return
+        if (!source_id || !find_source(source_id)) return
         cancel_advance()
         if (journey.panel !== 'source') source_origin = journey.panel
         clock?.pause()
@@ -434,17 +452,17 @@
 {#snippet citations(source_ids)}
     <div class="flex flex-wrap gap-2">
         {#each source_ids as source_id (source_id)}
-            {@const source = get_source(source_id)}
+            {@const source = find_source(source_id)}
             <button
-                class="inline-flex gap-[7px] items-center py-[3px] pr-[11px] pl-1 text-ink-soft bg-[rgba(232,178,87,0.08)] border border-solid border-line rounded-full text-[0.8125rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold aria-pressed:text-white aria-pressed:border-gold"
+                class="inline-flex max-w-full min-w-0 gap-[7px] items-center py-[3px] pr-[11px] pl-1 text-start text-ink-soft bg-[rgba(232,178,87,0.08)] border border-solid border-line rounded-full text-[0.8125rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold aria-pressed:text-white aria-pressed:border-gold"
                 aria-pressed={journey.source_id === source_id}
                 onclick={() => view_source(source_id)}
                 aria-label={`Source ${source.number}: ${source.reference}`}
             >
                 <span
-                    class="grid min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
+                    class="grid shrink-0 min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
                     >{source.number}</span
-                >{source.reference}
+                ><span class="min-w-0 break-words" dir="auto">{source.reference}</span>
             </button>
         {/each}
     </div>
@@ -857,8 +875,12 @@
                 </header>
                 <div class={sheet_body}>
                     <p class="text-ink-soft text-[0.875rem] leading-[1.5]">
-                        Answers are limited to this chapter’s {chapter.sources.length} cited passages.
-                        When they do not settle a question, the answer says so.
+                        Ask follows this chapter’s context and can research further in Turath.
+                        Answers cite opened passages and explain gaps in the evidence.
+                    </p>
+                    <p class={fine_print}>
+                        OpenAI and Turath process questions and research text. This app does not
+                        save chats.
                     </p>
                     <form class="grid gap-[10px] justify-items-end" onsubmit={submit_question}>
                         <label
@@ -872,6 +894,7 @@
                             bind:value={question}
                             onkeydown={question_keydown}
                             maxlength="1200"
+                            dir="auto"
                             rows="2"
                             placeholder="Ask about this chapter…"></textarea>
                         <button
@@ -879,13 +902,14 @@
                             type="submit"
                             disabled={journey.question_pending || !question.trim()}
                         >
-                            {journey.question_pending ? 'Checking the passages…' : 'Ask'}
+                            {journey.question_pending ? 'Researching in Turath…' : 'Ask'}
                         </button>
                     </form>
                     <div class="flex flex-wrap gap-2" aria-label="Suggested questions">
                         {#each suggested_questions as prompt (prompt)}
                             <button
                                 class="py-[7px] px-[13px] text-ink-soft text-start bg-[rgba(255,244,222,0.05)] border border-solid border-line rounded-full text-[0.875rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold"
+                                disabled={journey.question_pending}
                                 onclick={() => ask_suggested(prompt)}>{prompt}</button
                             >
                         {/each}
@@ -893,8 +917,14 @@
                     <div aria-live="polite">
                         {#if journey.answer}
                             <div class={recap} in:fly={{ y: 10, duration: 250 }}>
-                                <p class={kicker}>From the cited passages</p>
-                                <p class={prose}>{journey.answer.answer}</p>
+                                <p class={kicker}>
+                                    {journey.answer.provider === 'openai-turath'
+                                        ? 'From the sources'
+                                        : 'Chapter notes · offline'}
+                                </p>
+                                <p class="{prose} whitespace-pre-wrap" dir="auto">
+                                    {journey.answer.answer}
+                                </p>
                                 {@render citations(journey.answer.citations ?? [])}
                                 {#if journey.answer.action}
                                     <button class={primary_button} onclick={show_action}>
@@ -950,19 +980,26 @@
                             {#if active_source.volume}
                                 · vol. {active_source.volume}, p. {active_source.page}{/if}
                         </p>
-                        <dl
-                            class="grid gap-[14px] [&>div]:pl-[14px] [&>div]:border-0 [&>div]:border-l-2 [&>div]:border-solid [&>div]:border-[#7fae7a] [&_dt]:mb-1 [&_dt]:text-muted [&_dt]:text-[0.8125rem] [&_dt]:font-semibold [&_dt]:tracking-[0.06em] [&_dt]:uppercase [&_dd]:text-ink [&_dd]:leading-[1.55]"
-                        >
-                            <div>
-                                <dt>What this passage supports</dt>
-                                <dd>{active_source.explanation}</dd>
-                            </div>
-                            <div class="border-l-[#d98a5a]!">
-                                <dt>What it does not establish</dt>
-                                <dd>{active_source.limits}</dd>
-                            </div>
-                        </dl>
-                        <p class={fine_print}>Status: {active_source.review_status}.</p>
+                        {#if !active_source.retrieved}
+                            <dl
+                                class="grid gap-[14px] [&>div]:pl-[14px] [&>div]:border-0 [&>div]:border-l-2 [&>div]:border-solid [&>div]:border-[#7fae7a] [&_dt]:mb-1 [&_dt]:text-muted [&_dt]:text-[0.8125rem] [&_dt]:font-semibold [&_dt]:tracking-[0.06em] [&_dt]:uppercase [&_dd]:text-ink [&_dd]:leading-[1.55]"
+                            >
+                                <div>
+                                    <dt>What this passage supports</dt>
+                                    <dd>{active_source.explanation}</dd>
+                                </div>
+                                <div class="border-l-[#d98a5a]!">
+                                    <dt>What it does not establish</dt>
+                                    <dd>{active_source.limits}</dd>
+                                </div>
+                            </dl>
+                            <p class={fine_print}>Status: {active_source.review_status}.</p>
+                        {:else if active_source.truncated}
+                            <p class={fine_print}>
+                                This passage is shortened. Open the original page for its full
+                                context.
+                            </p>
+                        {/if}
                     </div>
                 {/key}
                 <footer class={sheet_footer}>

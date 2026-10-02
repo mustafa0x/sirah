@@ -317,10 +317,6 @@ msgid "Ask about this chapter…"
 msgstr "اسأل عن هذا الفصل…"
 
 #: src/routes/Journey.svelte
-msgid "Checking the passages…"
-msgstr "جارٍ مراجعة النصوص…"
-
-#: src/routes/Journey.svelte
 msgid "Ask"
 msgstr "اسأل"
 
@@ -331,15 +327,6 @@ msgstr "سؤالك"
 #: src/routes/Journey.svelte
 msgid "Suggested questions"
 msgstr "أسئلة مقترحة"
-
-#: src/routes/Journey.svelte
-msgid "From the cited passages"
-msgstr "من النصوص المستشهد بها"
-
-#. 0: chapter.sources.length
-#: src/routes/Journey.svelte
-msgid "Answers are limited to this chapter’s {0} cited passages. When they do not settle a question, the answer says so."
-msgstr "تقتصر الإجابات على النصوص المستشهد بها في هذا الفصل، وعددها {0}. وإذا لم تحسم النصوص سؤالًا، فستوضّح الإجابة ذلك."
 
 #. 0: active_source.number
 #: src/routes/Journey.svelte
@@ -735,3 +722,31 @@ msgstr "أُغلقت اللوحة. اضغط على استئناف الرحلة �
 #: src/lib/journey-state.js
 msgid "Chapter complete. Recap opened."
 msgstr "اكتمل الفصل. فُتحت الخلاصة."
+
+#: src/routes/Journey.svelte
+msgid "Researching in Turath…"
+msgstr "جارٍ البحث في تراث…"
+
+#: src/routes/Journey.svelte
+msgid "Chapter notes · offline"
+msgstr "ملاحظات الفصل · دون اتصال"
+
+#: src/routes/Journey.svelte
+msgid "Ask follows this chapter’s context and can research further in Turath. Answers cite opened passages and explain gaps in the evidence."
+msgstr "يسترشد المساعد بسياق هذا الفصل، ويمكنه توسيع البحث في تراث. توثّق الإجابات النصوص التي جرى فتحها، وتبيّن ما لا تحسمه الأدلة."
+
+#: src/routes/Journey.svelte
+msgid "This passage is shortened. Open the original page for its full context."
+msgstr "هذا النص مختصر. افتح الصفحة الأصلية للاطّلاع على سياقه الكامل."
+
+#: src/lib/guide-provider.js
+msgid "The offline chapter notes do not establish an answer to that question."
+msgstr "لا تتضمن ملاحظات الفصل المتاحة دون اتصال ما يثبت إجابة عن هذا السؤال."
+
+#: src/routes/Journey.svelte
+msgid "OpenAI and Turath process questions and research text. This app does not save chats."
+msgstr "تعالج OpenAI وتراث الأسئلة ونصوص البحث. لا يحفظ هذا التطبيق المحادثات."
+
+#: src/routes/Journey.svelte
+msgid "From the sources"
+msgstr "من المصادر"

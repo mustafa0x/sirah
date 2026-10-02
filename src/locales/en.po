@@ -317,10 +317,6 @@ msgid "Ask about this chapter…"
 msgstr "Ask about this chapter…"
 
 #: src/routes/Journey.svelte
-msgid "Checking the passages…"
-msgstr "Checking the passages…"
-
-#: src/routes/Journey.svelte
 msgid "Ask"
 msgstr "Ask"
 
@@ -331,15 +327,6 @@ msgstr "Your question"
 #: src/routes/Journey.svelte
 msgid "Suggested questions"
 msgstr "Suggested questions"
-
-#: src/routes/Journey.svelte
-msgid "From the cited passages"
-msgstr "From the cited passages"
-
-#. 0: chapter.sources.length
-#: src/routes/Journey.svelte
-msgid "Answers are limited to this chapter’s {0} cited passages. When they do not settle a question, the answer says so."
-msgstr "Answers are limited to this chapter’s {0} cited passages. When they do not settle a question, the answer says so."
 
 #. 0: active_source.number
 #: src/routes/Journey.svelte
@@ -735,3 +722,31 @@ msgstr "Panel closed. Press Resume journey to return to the guided position."
 #: src/lib/journey-state.js
 msgid "Chapter complete. Recap opened."
 msgstr "Chapter complete. Recap opened."
+
+#: src/routes/Journey.svelte
+msgid "Researching in Turath…"
+msgstr "Researching in Turath…"
+
+#: src/routes/Journey.svelte
+msgid "Chapter notes · offline"
+msgstr "Chapter notes · offline"
+
+#: src/routes/Journey.svelte
+msgid "Ask follows this chapter’s context and can research further in Turath. Answers cite opened passages and explain gaps in the evidence."
+msgstr "Ask follows this chapter’s context and can research further in Turath. Answers cite opened passages and explain gaps in the evidence."
+
+#: src/routes/Journey.svelte
+msgid "This passage is shortened. Open the original page for its full context."
+msgstr "This passage is shortened. Open the original page for its full context."
+
+#: src/lib/guide-provider.js
+msgid "The offline chapter notes do not establish an answer to that question."
+msgstr "The offline chapter notes do not establish an answer to that question."
+
+#: src/routes/Journey.svelte
+msgid "OpenAI and Turath process questions and research text. This app does not save chats."
+msgstr "OpenAI and Turath process questions and research text. This app does not save chats."
+
+#: src/routes/Journey.svelte
+msgid "From the sources"
+msgstr "From the sources"

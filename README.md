@@ -1,6 +1,6 @@
 # Sirah Journey
 
-The root app is the first playable, deliberately draft learner journey: a selected account of the Hijrah from preparations through Thawr, the onward journey, and arrival. It supports scene and readable presentation, a bounded question, source inspection, detour/resume, and recap. Historical wording, source selection, and the procedural illustration are visibly marked as draft pending review; no narration is shipped.
+The root app is a learner journey through selected stages of the Hijrah: preparations, Thawr, the onward journey, and arrival. It supports scene and readable presentation, model-led Turath research, source inspection, detour/resume, and recap. Content review status is recorded in metadata and documentation; no narration is shipped.
 
 ## Run locally
 
@@ -22,7 +22,25 @@ The API boundary is server-only. The hackathon build defaults to the small worki
 TURATH_BOOK_ALLOWLIST=930,13606,9820 mise exec -- pnpm run dev:api
 ```
 
-`cat_id=24` is fixed in `api.py`; an explicitly empty allowlist permits no direct book or page retrieval. `TURATH_BASE_URL`, `TURATH_CLIENT`, `API_HOST`, and `API_PORT` can be set for a deployment. Turath credentials/headers never enter browser code. The deterministic local guide provider is the intentional hackathon choice; an external provider is optional follow-up work.
+`cat_id=24` and the book allowlist apply to the legacy REST `/api/turath/*` endpoints, not Ask's MCP research. An explicitly empty allowlist denies direct REST book/page retrieval. `TURATH_BASE_URL`, `TURATH_CLIENT`, `API_HOST`, and `API_PORT` can be set for a deployment. Credentials never enter browser code.
+
+## Model-backed Ask
+
+Set `OPENAI_API_KEY` in the server environment (or ignored `.mise.local.toml`), then restart the API. The guide defaults to `gpt-5-mini`; `GUIDE_MODEL` overrides a shared `OPENAI_MODEL` setting. Use `GUIDE_MODEL=gpt-5-mini` when other apps use a smaller model. `OPENAI_BASE_URL` optionally selects an OpenAI-compatible Responses endpoint. `MCP_URL` defaults to `https://api.turath.ai/mcp`, with optional server-only `MCP_TOKEN`.
+
+`guide.py` discovers `turath_find` and `turath_open` from the live server. The model chooses books, Arabic search terms, filters, and refinements without a chapter-book or category ceiling. The lesson snapshot (`guide_context.json`, generated from `src/content/first-chapter.js`) supplies context, not an evidence whitelist. The chapter's twelve cached source excerpts are usable evidence for facts they explicitly contain; lesson prose is not. Further claims require MCP research and opened passages. Source metadata and links come from the server-owned packet or opened MCP results, never model-authored bibliography. The interface displays the actual cited passages and links.
+
+Requests have isolated research sessions, at most ten tool calls, a 90-second deadline, no SDK retries, bounded result sizes, and three concurrent research slots. Missing keys, outages, timeouts, or invalid responses use explicitly labelled offline chapter notes. Citation validation checks provenance, not semantic entailment; factual accuracy, relevance, disagreement handling, and source quality still need live evaluation.
+
+Questions, a maximum of two recent Q&A pairs held in browser memory, lesson context, and retrieved passages are sent to OpenAI (or the configured compatible service). Turath receives model-selected research arguments. OpenAI requests use `store=False`; this is not a guarantee about provider retention. This app stores no chats and logs no question/source text. Before public deployment, configure provider spend limits and reverse-proxy abuse/rate controls.
+
+For development-case evaluation (no holdout loaded):
+
+```sh
+mise exec -- uv run python -m scripts.evaluate_guide --ids G01,G02,G09,G15,G20 --output /tmp/sirah-guide-development.json
+```
+
+This makes real model calls and costs API usage. It records answers and citation provenance for human review; it does not claim a semantic accuracy score or learner benefit.
 
 ## Checks
 
@@ -33,13 +51,13 @@ mise exec -- pnpm run test
 mise exec -- pnpm run build
 ```
 
-The focused tests cover journey freshness/detours/media tickets and the Turath boundary’s category enforcement, allowlist, validation, malformed responses, and bounded guide response. A browser smoke should exercise: Start guided journey → Three nights at Thawr → Ask about this → Answer from this chapter → View E07 → Show the onward journey → Resume journey.
+The tests cover journey freshness/detours/media tickets, legacy Turath REST boundaries, model/tool-loop orchestration with fake clients, source provenance and action validation, multilingual API requests, and offline failure behavior. `pnpm guide:context` refreshes the server lesson snapshot; builds refresh it and tests reject a stale snapshot. Restart the API after content changes so it loads the new packet. Fake-client tests are not a live-model evaluation. A browser smoke should exercise Ask → answer → opened source → back to answer → chapter detour → resume, plus a labelled offline answer.
 
 ## Localization
 
 English is the source language. Wuchale extracts Svelte interface text and JavaScript chapter, map-label, and guide-answer text into `src/locales/en.po` and `src/locales/ar.po`. Arabic source quotations remain untouched. The header language selector saves the preference locally and reloads the app; changing languages restarts the journey. Catalogs load before chapter modules are evaluated, and Arabic uses RTL text layout while the geographic scene retains its orientation.
 
-After editing copy, run `pnpm i18n:extract`, fill new Arabic translations in `src/locales/ar.po`, and run `pnpm test && pnpm build`. Commit the catalogs and generated loaders, but not `src/locales/.wuchale/`. Arabic guide questions use the translated, source-bounded local provider because the demo API currently returns English only. Arabic wording, like the English draft, still requires scholarly/editorial review.
+After editing copy, run `pnpm i18n:extract`, fill new Arabic translations in `src/locales/ar.po`, and run `pnpm test && pnpm build`. Commit the catalogs and generated loaders, but not `src/locales/.wuchale/`. Arabic and English questions use the same model-backed endpoint; the model answers in the question's language, with interface language as a fallback. Offline notes are translated by Wuchale. Arabic wording, like the English draft, still requires scholarly/editorial review.
 
 ## Content and evidence boundaries
 
