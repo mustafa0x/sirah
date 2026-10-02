@@ -4,6 +4,7 @@ import stone_large_c from '../assets/kenney/stone_largeC.glb?url'
 import stone_small_flat_a from '../assets/kenney/stone_smallFlatA.glb?url'
 import stone_tall_a from '../assets/kenney/stone_tallA.glb?url'
 import stone_tall_c from '../assets/kenney/stone_tallC.glb?url'
+import cave_asset from '../assets/cave-audition.glb?url'
 
 export const scene_pois = {
     overview: [
@@ -54,11 +55,30 @@ export const scene_pois = {
     ],
 }
 
-export const scene_assets = [
-    stone_large_a,
-    stone_large_b,
-    stone_large_c,
-    stone_small_flat_a,
-    stone_tall_a,
-    stone_tall_c,
-]
+export const scene_beat_pois = {
+    N01a: 'makkah',
+    N01b: 'makkah',
+    N02a: 'makkah',
+    N02b: 'thawr',
+    N03a: 'shelter',
+    N03b: 'night',
+    N03c: 'night',
+    N03d: 'approach',
+    N03e: 'shelter',
+    N04a: 'madinah',
+    N04b: 'madinah',
+    N05a: 'madinah',
+    N05b: 'madinah',
+}
+
+export const scene_assets = {
+    overview: [
+        stone_large_a,
+        stone_large_b,
+        stone_large_c,
+        stone_small_flat_a,
+        stone_tall_a,
+        stone_tall_c,
+    ],
+    thawr: [cave_asset, stone_large_a, stone_large_b, stone_small_flat_a],
+}

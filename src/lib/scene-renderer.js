@@ -104,9 +104,9 @@ export async function create_scene(
         const asset_layout =
             scene_kind === 'thawr'
                 ? [
+                      [0, -0.4, -0.75, 0.58, 0],
                       [-2.7, -0.35, -0.4, 1.45, 0.1],
                       [2.4, -0.35, -0.5, 1.3, -0.15],
-                      [-1.6, -0.35, 1.1, 0.9, 0.35],
                   ]
                 : [
                       [-3.2, -0.35, 1.1, 1.2, 0.2],
@@ -114,7 +114,7 @@ export async function create_scene(
                       [0.4, -0.35, 1.8, 0.85, 0.1],
                   ]
         await Promise.all(
-            scene_assets.slice(0, asset_layout.length).map(
+            (scene_assets[scene_kind] ?? []).slice(0, asset_layout.length).map(
                 (asset_url, index) =>
                     new Promise((resolve) => {
                         loader.load(
@@ -126,6 +126,8 @@ export async function create_scene(
                                     object.position.set(x, y, z)
                                     object.scale.setScalar(scale)
                                     object.rotation.y = rotation
+                                    if (scene_kind === 'thawr' && index === 0)
+                                        object.rotation.x = -Math.PI / 2
                                     object.traverse((child) => {
                                         if (child.isMesh) {
                                             child.castShadow = false

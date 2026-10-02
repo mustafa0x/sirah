@@ -26,7 +26,7 @@
     } from '../lib/journey-state.js'
     import { ask_guide } from '../lib/guide-provider.js'
     import { create_media_clock } from '../lib/media-clock.js'
-    import { scene_pois } from '../lib/scene-manifest.js'
+    import { scene_beat_pois, scene_pois } from '../lib/scene-manifest.js'
 
     let journey = $state(create_journey_state())
     let active_poi = $state(null)
@@ -42,6 +42,8 @@
             ? cue_for(selected_step, journey.guided_position.seconds)
             : null,
     )
+    let auto_poi_id = $derived(current_cue ? scene_beat_pois[current_cue.id] : null)
+    let selected_poi_id = $derived(active_poi?.id ?? auto_poi_id)
     let is_last_step = $derived(selected_step.id === 'arrival')
     let story_text = $derived(current_cue?.text ?? selected_step.paragraphs[0]?.text ?? '')
 
@@ -57,6 +59,7 @@
     }
 
     function play() {
+        active_poi = null
         if (!journey.started) start('scene')
         try {
             const ticket = begin_play(journey)
@@ -232,7 +235,7 @@
                     kind={selected_step.scene}
                     label={`${selected_step.title} illustration`}
                     on_poi={select_poi}
-                    selected_poi_id={active_poi?.id}
+                    {selected_poi_id}
                 />
             {/key}
         </div>
@@ -319,7 +322,7 @@
                 <span>Explore view</span>
                 {#each scene_pois[selected_step.scene] ?? [] as poi (poi.id)}
                     <button
-                        class:active={active_poi?.id === poi.id}
+                        class:active={selected_poi_id === poi.id}
                         onclick={() => select_poi(poi)}
                         title={poi.description}>{poi.label}</button
                     >
