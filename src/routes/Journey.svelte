@@ -746,7 +746,7 @@
             >
                 The Hijrah
             </h1>
-            <ol class="grid gap-[2px] list-none mobile:flex mobile:gap-[6px] mobile:items-center">
+            <ol class="grid gap-[2px] list-none mobile:flex mobile:gap-0 mobile:items-center">
                 {#each chapter.steps as step, index (step.id)}
                     {@const active = journey.viewed_step_id === step.id}
                     <li
@@ -755,13 +755,13 @@
                         data-done={index < selected_index}
                     >
                         <button
-                            class="grid grid-cols-[28px_1fr_auto] gap-3 items-center w-full py-[9px] px-2 text-muted text-start bg-transparent border-0 rounded-[10px] transition-[background,color] duration-150 ease-[ease] hover:text-ink hover:bg-[rgba(255,244,222,0.07)] group-data-[done=true]/stop:text-ink-soft group-data-[done=true]/stop:hover:text-ink-soft group-data-[active=true]/stop:text-ink group-data-[active=true]/stop:hover:text-ink group-data-[active=true]/stop:bg-[rgba(232,178,87,0.13)] group-data-[active=true]/stop:hover:bg-[rgba(232,178,87,0.13)] mobile:flex mobile:gap-2 mobile:p-1 mobile:rounded-full mobile:group-data-[active=true]/stop:pr-[14px]"
+                            class="grid grid-cols-[28px_1fr_auto] gap-3 items-center w-full py-[9px] px-2 text-muted text-start bg-transparent border-0 rounded-[10px] transition-[background,color] duration-150 ease-[ease] hover:text-ink hover:bg-[rgba(255,244,222,0.07)] group-data-[done=true]/stop:text-ink-soft group-data-[done=true]/stop:hover:text-ink-soft group-data-[active=true]/stop:text-ink group-data-[active=true]/stop:hover:text-ink group-data-[active=true]/stop:bg-[rgba(232,178,87,0.13)] group-data-[active=true]/stop:hover:bg-[rgba(232,178,87,0.13)] mobile:flex mobile:gap-2 mobile:p-1 mobile:rounded-full mobile:group-data-[active=true]/stop:pr-[14px] mobile:group-data-[active=false]/stop:grid-cols-1 mobile:group-data-[active=false]/stop:gap-0 mobile:group-data-[active=false]/stop:p-[9px]"
                             onclick={() => select_step(step.id)}
                             aria-current={active ? 'step' : undefined}
                             aria-label={`Stage ${index + 1}: ${step.title}`}
                         >
                             <span
-                                class="relative z-1 grid size-7 place-items-center text-ink-soft bg-[#1b1813] border border-solid border-line-strong rounded-[50%] text-[0.8125rem] font-semibold group-data-[done=true]/stop:text-gold group-data-[done=true]/stop:border-gold group-data-[active=true]/stop:text-gold-ink group-data-[active=true]/stop:bg-gold group-data-[active=true]/stop:border-gold-bright group-data-[active=true]/stop:shadow-[0_0_0_4px_rgba(232,178,87,0.2)]"
+                                class="relative z-1 grid size-7 place-items-center text-ink-soft bg-[#1b1813] border border-solid border-line-strong rounded-[50%] text-[0.8125rem] font-semibold group-data-[done=true]/stop:text-gold group-data-[done=true]/stop:border-gold group-data-[active=true]/stop:text-gold-ink group-data-[active=true]/stop:bg-gold group-data-[active=true]/stop:border-gold-bright group-data-[active=true]/stop:shadow-[0_0_0_4px_rgba(232,178,87,0.2)] mobile:group-data-[active=false]/stop:size-[10px] mobile:group-data-[active=false]/stop:text-[0px] mobile:group-data-[active=false]/stop:[&>svg]:hidden mobile:group-data-[done=true]/stop:bg-gold"
                             >
                                 {#if index < selected_index}{@render icon('check')}{:else}{index +
                                         1}{/if}
