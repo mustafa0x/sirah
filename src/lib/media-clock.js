@@ -1,11 +1,11 @@
-// A small route-owned media clock. It accepts a real media element when one is
-// approved later, but the first playable build deliberately ships without audio.
-// Reading mode therefore has the same seek/cue path and no voice-rights claim.
+// A small route-owned clock on real elapsed time. Captions, camera and narration all
+// follow it, so stages with and without audio share one seek and cue path.
 export function create_media_clock({ duration, get_position, on_tick }) {
     let timer = null
     let disposed = false
     let playing = false
     let current = 0
+    let last = 0
 
     function emit() {
         if (!disposed) on_tick(current, playing)
@@ -21,8 +21,12 @@ export function create_media_clock({ duration, get_position, on_tick }) {
     function play() {
         if (disposed || playing) return false
         playing = true
+        last = performance.now()
         timer = window.setInterval(() => {
-            current = Math.min(duration(), current + 0.1)
+            const now = performance.now()
+            // A stalled tab resumes where it left off instead of jumping ahead.
+            current = Math.min(duration(), current + Math.min(0.5, (now - last) / 1000))
+            last = now
             emit()
             if (current >= duration()) stop()
         }, 100)

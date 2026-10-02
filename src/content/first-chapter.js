@@ -572,6 +572,9 @@ export function sources_for(step) {
 }
 
 export function cue_for(step, seconds) {
+    // Narrated stages carry their own cue boundaries.
+    if (step.paragraphs[0].end !== undefined)
+        return step.paragraphs.find((item) => seconds < item.end) ?? step.paragraphs.at(-1)
     const fraction = Math.max(0, Math.min(1, seconds / step.duration))
     return step.paragraphs[
         Math.min(step.paragraphs.length - 1, Math.floor(fraction * step.paragraphs.length))

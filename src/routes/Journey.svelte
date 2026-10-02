@@ -30,6 +30,7 @@
     import { ask_guide } from '../lib/guide-provider.js'
     import { create_media_clock } from '../lib/media-clock.js'
     import { create_ambience } from '../lib/ambience.js'
+    import { apply_timings, create_narrator } from '../lib/narration.js'
     import {
         beat_passages,
         beat_shots,
@@ -49,6 +50,8 @@
         'Who brought them news?',
         'Is the exact route known?',
     ]
+    const narrated = apply_timings(chapter, saved_language())
+    const narrator = create_narrator(saved_language())
     const total_minutes = Math.round(
         chapter.steps.reduce((sum, step) => sum + step.duration, 0) / 60,
     )
@@ -146,7 +149,16 @@
             : idle_route,
     )
     let cue_progress = $derived(
-        current_cue ? (stop_progress * selected_step.paragraphs.length) % 1 : 0,
+        !current_cue
+            ? 0
+            : current_cue.end === undefined
+              ? (stop_progress * selected_step.paragraphs.length) % 1
+              : (journey.guided_position.seconds - current_cue.start) /
+                (current_cue.end - current_cue.start),
+    )
+    // Narration follows the clock: the paragraph and offset it is at, and whether it runs.
+    $effect(() =>
+        narrator.sync(current_cue, journey.guided_position.seconds, journey.is_playing && !sheet),
     )
     let cycle = $derived(
         current_cue && timelapse_beats[current_cue.id] && !active_poi
@@ -202,6 +214,7 @@
     function set_sound(next) {
         sound_on = next
         ambience.set_enabled(next)
+        narrator.set_muted(!next)
         ambience.set_mood(mood)
     }
 
@@ -444,6 +457,7 @@
             pending_timers.clear()
             clock?.dispose()
             ambience.dispose()
+            narrator.dispose()
         }
     })
 </script>
@@ -617,8 +631,13 @@
                 class="grid gap-[9px] mb-[14px] list-none [&>li]:text-ink-soft [&>li]:text-[0.875rem] [&>li]:leading-[1.5] [&_strong]:text-ink [&_kbd]:py-px [&_kbd]:px-[6px] [&_kbd]:bg-[rgba(255,244,222,0.1)] [&_kbd]:border [&_kbd]:border-solid [&_kbd]:border-line [&_kbd]:rounded-[5px] [&_kbd]:font-sans [&_kbd]:text-[0.8125rem]"
             >
                 <li>
-                    <strong>Play</strong> walks the chapter stage by stage. There is no narration in this
-                    demo; the captions keep time over a quiet wind.
+                    {#if narrated}
+                        <strong>Play</strong> walks the chapter stage by stage. The narration is a synthetic
+                        voice reading draft wording.
+                    {:else}
+                        <strong>Play</strong> walks the chapter stage by stage. There is no narration
+                        in this demo; the captions keep time over a quiet wind.
+                    {/if}
                 </li>
                 <li>
                     <strong>Drag</strong> to look around, <strong>scroll</strong> to zoom, and select
@@ -808,7 +827,7 @@
                             {#each guided_step.paragraphs.slice(1) as paragraph, index (paragraph.id)}
                                 <i
                                     class="absolute top-[-2.5px] w-[2px] h-[5px] bg-[rgba(17,15,12,0.85)]"
-                                    style:left={`${((index + 1) / guided_step.paragraphs.length) * 100}%`}
+                                    style:left={`${((paragraph.start ?? ((index + 1) * guided_step.duration) / guided_step.paragraphs.length) / guided_step.duration) * 100}%`}
                                 ></i>
                             {/each}
                         </div>
