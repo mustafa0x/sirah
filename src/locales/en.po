@@ -111,16 +111,8 @@ msgid "How this works"
 msgstr "How this works"
 
 #: src/routes/Journey.svelte
-msgid "Demo · draft wording"
-msgstr "Demo · draft wording"
-
-#: src/routes/Journey.svelte
 msgid "<0/> Sirah Journey"
 msgstr "<0/> Sirah Journey"
-
-#: src/routes/Journey.svelte
-msgid "<0>Play</0> walks the chapter stage by stage. There is no narration in this demo; the captions keep time over a quiet wind."
-msgstr "<0>Play</0> walks the chapter stage by stage. There is no narration in this demo; the captions keep time over a quiet wind."
 
 #: src/routes/Journey.svelte
 msgid "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place name to fly there."
@@ -130,19 +122,9 @@ msgstr "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place na
 msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
 msgstr "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
 
-#. 0: chapter.sources.length
-#: src/routes/Journey.svelte
-msgid "<0>Ask</0> answers only from this chapter’s {0} cited passages."
-msgstr "<0>Ask</0> answers only from this chapter’s {0} cited passages."
-
 #: src/routes/Journey.svelte
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
-
-#. 0: chapter.release_id; 1: chapter.review_status
-#: src/routes/Journey.svelte
-msgid "The landscape is an illustration, not a measured map, and depicts no person. Release {0}: wording and citations await {1}."
-msgstr "The landscape is an illustration, not a measured map, and depicts no person. Release {0}: wording and citations await {1}."
 
 #. 0: chapter.steps.length
 #: src/routes/Journey.svelte
@@ -178,14 +160,6 @@ msgid "The Hijrah"
 msgstr "The Hijrah"
 
 #: src/routes/Journey.svelte
-msgid "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
-msgstr "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
-
-#: src/routes/Journey.svelte
-msgid "Hackathon demo. The scene is illustrative and the wording is a draft pending scholarly review."
-msgstr "Hackathon demo. The scene is illustrative and the wording is a draft pending scholarly review."
-
-#: src/routes/Journey.svelte
 msgid "Chapter stages"
 msgstr "Chapter stages"
 
@@ -193,10 +167,6 @@ msgstr "Chapter stages"
 #: src/routes/Journey.svelte
 msgid "Stage {0}: {1}"
 msgstr "Stage {0}: {1}"
-
-#: src/routes/Journey.svelte
-msgid "Illustrative scene, not a measured map. Draft wording pending scholarly review."
-msgstr "Illustrative scene, not a measured map. Draft wording pending scholarly review."
 
 #: src/routes/Journey.svelte
 msgid "Guided journey"
@@ -354,11 +324,6 @@ msgstr "What this passage supports"
 msgid "What it does not establish"
 msgstr "What it does not establish"
 
-#. 0: active_source.review_status
-#: src/routes/Journey.svelte
-msgid "Status: {0}."
-msgstr "Status: {0}."
-
 #: src/routes/Journey.svelte
 msgid "Back to the answer"
 msgstr "Back to the answer"
@@ -478,6 +443,11 @@ msgstr "You followed preparations, a period of shelter, the onward journey, and 
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
 msgid "Sahih al-Bukhari"
 msgstr "Sahih al-Bukhari"
 
@@ -486,16 +456,8 @@ msgid "Some Muslims moved to Madinah before this departure; the selected passage
 msgstr "Some Muslims moved to Madinah before this departure; the selected passage also describes Abu Bakr waiting to accompany the Prophet ﷺ."
 
 #: src/content/first-chapter.js
-msgid "The wording and use are draft research material. A Turath page_id and publication-approved edition have not been locked."
-msgstr "The wording and use are draft research material. A Turath page_id and publication-approved edition have not been locked."
-
-#: src/content/first-chapter.js
 msgid "The selected passage describes provisions and Asma bint Abi Bakr using part of her waist-belt to tie the bag."
 msgstr "The selected passage describes provisions and Asma bint Abi Bakr using part of her waist-belt to tie the bag."
-
-#: src/content/first-chapter.js
-msgid "This is a selected Arabic extract, not a final translation or publication clearance."
-msgstr "This is a selected Arabic extract, not a final translation or publication clearance."
 
 #: src/content/first-chapter.js
 msgid "The selected passage supports the cave on Mount Thawr and three nights."
@@ -518,10 +480,6 @@ msgid "The selected passage connects ‘Amir ibn Fuhayrah with tending sheep and
 msgstr "The selected passage connects ‘Amir ibn Fuhayrah with tending sheep and making milk available during the three nights."
 
 #: src/content/first-chapter.js
-msgid "Do not enlarge this passage with an unreviewed footprint-erasing or animal detail."
-msgstr "Do not enlarge this passage with an unreviewed footprint-erasing or animal detail."
-
-#: src/content/first-chapter.js
 msgid "The selected passage describes hiring a skilled guide, entrusting him with two riding animals, and arranging the meeting at Thawr."
 msgstr "The selected passage describes hiring a skilled guide, entrusting him with two riding animals, and arranging the meeting at Thawr."
 
@@ -542,20 +500,12 @@ msgid "Abu Bakr’s account records concern about being seen and the Prophet’s
 msgstr "Abu Bakr’s account records concern about being seen and the Prophet’s reassurance."
 
 #: src/content/first-chapter.js
-msgid "The display is an Arabic extract and draft attribution; it is not a visual depiction of the unseen."
-msgstr "The display is an Arabic extract and draft attribution; it is not a visual depiction of the unseen."
-
-#: src/content/first-chapter.js
 msgid "Quran"
 msgstr "Quran"
 
 #: src/content/first-chapter.js
 msgid "The selected extract recalls the two in the cave and the reassurance to the companion."
 msgstr "The selected extract recalls the two in the cave and the reassurance to the companion."
-
-#: src/content/first-chapter.js
-msgid "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr. No final translation is selected."
-msgstr "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr. No final translation is selected."
 
 #: src/content/first-chapter.js
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
@@ -566,16 +516,8 @@ msgid "Ibn Kathir’s commentary on the Turath page explains the reassurance thr
 msgstr "Ibn Kathir’s commentary on the Turath page explains the reassurance through Allah’s help, support, and strengthening."
 
 #: src/content/first-chapter.js
-msgid "This is commentary in Ibn Kathir, not the Quranic wording itself; the use and wording remain pending scholarly review."
-msgstr "This is commentary in Ibn Kathir, not the Quranic wording itself; the use and wording remain pending scholarly review."
-
-#: src/content/first-chapter.js
 msgid "The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf."
 msgstr "The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf."
-
-#: src/content/first-chapter.js
-msgid "Keep arrival duration and exact geography out of the draft chapter until separately reviewed."
-msgstr "Keep arrival duration and exact geography out of the draft chapter until separately reviewed."
 
 #: src/content/first-chapter.js
 msgid "The selected passage describes the mosque site and the Prophet ﷺ carrying bricks with the builders."
@@ -751,6 +693,39 @@ msgstr "OpenAI and Turath process questions and research text. This app does not
 msgid "From the sources"
 msgstr "From the sources"
 
+#: src/lib/scene-manifest.js
+msgid "What is not shown"
+msgstr "What is not shown"
+
+#: src/lib/scene-manifest.js
+msgid "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
+msgstr "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
+
+#: src/lib/scene-manifest.js
+msgid "Quba"
+msgstr "Quba"
+
+#: src/lib/scene-manifest.js
+msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
+msgstr "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
+
+#: src/routes/Journey.svelte
+msgid "Turn sound off"
+msgstr "Turn sound off"
+
+#: src/routes/Journey.svelte
+msgid "Turn sound on"
+msgstr "Turn sound on"
+
+#. 0: night
+#: src/routes/Journey.svelte
+msgid "Night {0} of 3"
+msgstr "Night {0} of 3"
+
+#: src/routes/Journey.svelte
+msgid "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
+msgstr "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
+
 #: src/content/first-chapter.js
 msgid "A rider on the road"
 msgstr "A rider on the road"
@@ -808,10 +783,6 @@ msgid "The account gives a stay of more than ten nights among Bani ‘Amr ibn �
 msgstr "The account gives a stay of more than ten nights among Bani ‘Amr ibn ‘Awf and the founding of a mosque there."
 
 #: src/content/first-chapter.js
-msgid "The passage does not name the place; identifying it as Quba rests on other reports, pending review."
-msgstr "The passage does not name the place; identifying it as Quba rests on other reports, pending review."
-
-#: src/content/first-chapter.js
 msgid "He rode on with people walking beside him until his camel knelt at the site of the mosque in Madinah."
 msgstr "He rode on with people walking beside him until his camel knelt at the site of the mosque in Madinah."
 
@@ -819,34 +790,46 @@ msgstr "He rode on with people walking beside him until his camel knelt at the s
 msgid "It does not establish the route taken through the town or the appearance of the place."
 msgstr "It does not establish the route taken through the town or the appearance of the place."
 
-#: src/lib/scene-manifest.js
-msgid "What is not shown"
-msgstr "What is not shown"
-
-#: src/lib/scene-manifest.js
-msgid "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
-msgstr "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
-
-#: src/lib/scene-manifest.js
-msgid "Quba"
-msgstr "Quba"
-
-#: src/lib/scene-manifest.js
-msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
-msgstr "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
+msgstr "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
 
 #: src/routes/Journey.svelte
-msgid "Night {0} of 3"
-msgstr "Night {0} of 3"
+msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
+msgstr "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
 
 #: src/routes/Journey.svelte
-msgid "Turn sound off"
-msgstr "Turn sound off"
+msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
+msgstr "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
 
-#: src/routes/Journey.svelte
-msgid "Turn sound on"
-msgstr "Turn sound on"
+#: src/content/first-chapter.js
+msgid "This excerpt does not give an exact departure date."
+msgstr "This excerpt does not give an exact departure date."
 
-#: src/routes/Journey.svelte
-msgid "<0>Play</0> walks the chapter stage by stage. The narration is a synthetic voice reading draft wording."
-msgstr "<0>Play</0> walks the chapter stage by stage. The narration is a synthetic voice reading draft wording."
+#: src/content/first-chapter.js
+msgid "The excerpt describes preparations, not a nightly delivery to the cave."
+msgstr "The excerpt describes preparations, not a nightly delivery to the cave."
+
+#: src/content/first-chapter.js
+msgid "The excerpt does not describe erasing footprints."
+msgstr "The excerpt does not describe erasing footprints."
+
+#: src/content/first-chapter.js
+msgid "The account does not describe the cave’s dimensions or layout."
+msgstr "The account does not describe the cave’s dimensions or layout."
+
+#: src/content/first-chapter.js
+msgid "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr."
+msgstr "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr."
+
+#: src/content/first-chapter.js
+msgid "This is Ibn Kathir’s commentary, not the Quranic wording itself."
+msgstr "This is Ibn Kathir’s commentary, not the Quranic wording itself."
+
+#: src/content/first-chapter.js
+msgid "It does not give an exact location for the stay among Bani ‘Amr ibn ‘Awf."
+msgstr "It does not give an exact location for the stay among Bani ‘Amr ibn ‘Awf."
+
+#: src/content/first-chapter.js
+msgid "The passage does not name the place; identifying it as Quba rests on other reports."
+msgstr "The passage does not name the place; identifying it as Quba rests on other reports."

@@ -182,7 +182,7 @@ export const chapter = {
             '3905 · migration chapter',
             'فَهَاجَرَ مَنْ هَاجَرَ قِبَلَ الْمَدِينَةِ، وَرَجَعَ عَامَّةُ مَنْ كَانَ هَاجَرَ بِأَرْضِ الْحَبَشَةِ إِلَى الْمَدِينَةِ',
             'Some Muslims moved to Madinah before this departure; the selected passage also describes Abu Bakr waiting to accompany the Prophet ﷺ.',
-            'The wording and use are draft research material. A Turath page_id and publication-approved edition have not been locked.',
+            'This excerpt does not give an exact departure date.',
             'https://sunnah.com/bukhari:3905',
         ),
         source(
@@ -191,7 +191,7 @@ export const chapter = {
             '3905 · preparations',
             'فَجَهَّزْنَاهُمَا أَحَثَّ الْجَهَازِ، وَصَنَعْنَا لَهُمَا سُفْرَةً فِي جِرَابٍ، فَقَطَعَتْ أَسْمَاءُ بِنْتُ أَبِي بَكْرٍ قِطْعَةً مِنْ نِطَاقِهَا',
             'The selected passage describes provisions and Asma bint Abi Bakr using part of her waist-belt to tie the bag.',
-            'This is a selected Arabic extract, not a final translation or publication clearance.',
+            'The excerpt describes preparations, not a nightly delivery to the cave.',
             'https://sunnah.com/bukhari:3905',
         ),
         source(
@@ -218,7 +218,7 @@ export const chapter = {
             '3905 · milk',
             'وَيَرْعَى عَلَيْهِمَا عَامِرُ بْنُ فُهَيْرَةَ مِنْحَةً مِنْ غَنَمٍ ... فِي كُلِّ لَيْلَةٍ مِنْ تِلْكَ اللَّيَالِي الثَّلاَثِ',
             'The selected passage connects ‘Amir ibn Fuhayrah with tending sheep and making milk available during the three nights.',
-            'Do not enlarge this passage with an unreviewed footprint-erasing or animal detail.',
+            'The excerpt does not describe erasing footprints.',
             'https://sunnah.com/bukhari:3905',
         ),
         source(
@@ -245,7 +245,7 @@ export const chapter = {
             '3653 · cave reassurance',
             'لَوْ أَنَّ أَحَدَهُمْ نَظَرَ تَحْتَ قَدَمَيْهِ لأَبْصَرَنَا ... اللَّهُ ثَالِثُهُمَا',
             'Abu Bakr’s account records concern about being seen and the Prophet’s reassurance.',
-            'The display is an Arabic extract and draft attribution; it is not a visual depiction of the unseen.',
+            'The account does not describe the cave’s dimensions or layout.',
             'https://sunnah.com/bukhari:3653',
         ),
         source(
@@ -254,7 +254,7 @@ export const chapter = {
             '9:40',
             'إِذْ هُمَا فِي الْغَارِ إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا',
             'The selected extract recalls the two in the cave and the reassurance to the companion.',
-            'This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr. No final translation is selected.',
+            'This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr.',
             'https://quran.com/9/40',
         ),
         source(
@@ -263,7 +263,7 @@ export const chapter = {
             'commentary on Quran 9:40 · Turath 930/764',
             'فإن الله ناصره ومؤيده ومظفره',
             'Ibn Kathir’s commentary on the Turath page explains the reassurance through Allah’s help, support, and strengthening.',
-            'This is commentary in Ibn Kathir, not the Quranic wording itself; the use and wording remain pending scholarly review.',
+            'This is Ibn Kathir’s commentary, not the Quranic wording itself.',
             'https://api.turath.io/page?book_id=930&pg=764',
         ),
         source(
@@ -272,7 +272,7 @@ export const chapter = {
             '3906 · arrival',
             'وَسَمِعَ الْمُسْلِمُونَ بِالْمَدِينَةِ مَخْرَجَ رَسُولِ اللَّهِ ... حَتَّى نَزَلَ بِهِمْ فِي بَنِي عَمْرِو بْنِ عَوْفٍ',
             'The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf.',
-            'Keep arrival duration and exact geography out of the draft chapter until separately reviewed.',
+            'It does not give an exact location for the stay among Bani ‘Amr ibn ‘Awf.',
             'https://sunnah.com/bukhari:3906',
         ),
         source(
@@ -317,7 +317,7 @@ export const chapter = {
             '3906 · Quba',
             'فلبث رسول الله ﷺ في بني عمرو بن عوف بضع عشرة ليلة وأسس المسجد الذي أسس على التقوى',
             'The account gives a stay of more than ten nights among Bani ‘Amr ibn ‘Awf and the founding of a mosque there.',
-            'The passage does not name the place; identifying it as Quba rests on other reports, pending review.',
+            'The passage does not name the place; identifying it as Quba rests on other reports.',
             'https://sunnah.com/bukhari:3906',
         ),
         source(

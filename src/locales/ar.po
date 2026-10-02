@@ -111,16 +111,8 @@ msgid "How this works"
 msgstr "كيفية الاستخدام"
 
 #: src/routes/Journey.svelte
-msgid "Demo · draft wording"
-msgstr "نسخة تجريبية · صياغة أولية"
-
-#: src/routes/Journey.svelte
 msgid "<0/> Sirah Journey"
 msgstr "<0/> رحلة السيرة"
-
-#: src/routes/Journey.svelte
-msgid "<0>Play</0> walks the chapter stage by stage. There is no narration in this demo; the captions keep time over a quiet wind."
-msgstr "<0>تشغيل</0> يعرض الفصل مرحلةً بعد مرحلة. لا يوجد سرد صوتي في هذا العرض؛ والتعليقات النصية تضبط التوقيت على صوت ريح خافت."
 
 #: src/routes/Journey.svelte
 msgid "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place name to fly there."
@@ -130,19 +122,9 @@ msgstr "<0>اسحب</0> للنظر حولك، و<1>مرّر</1> للتكبير �
 msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
 msgstr "<0>المصادر</0> تعرض النص الذي تستند إليه كل فقرة، وما لا يثبته."
 
-#. 0: chapter.sources.length
-#: src/routes/Journey.svelte
-msgid "<0>Ask</0> answers only from this chapter’s {0} cited passages."
-msgstr "<0>اسأل</0> يجيب من النصوص المستشهد بها في هذا الفصل فقط، وعددها {0}."
-
 #: src/routes/Journey.svelte
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>المسافة</0> للتشغيل أو الإيقاف المؤقت · <1/> <2/> لتغيير المرحلة · <3>Esc</3> للإغلاق"
-
-#. 0: chapter.release_id; 1: chapter.review_status
-#: src/routes/Journey.svelte
-msgid "The landscape is an illustration, not a measured map, and depicts no person. Release {0}: wording and citations await {1}."
-msgstr "المشهد توضيحي، وليس خريطة مقيسة، ولا يصوّر أي شخص. الإصدار {0}: الصياغة والإحالات بانتظار {1}."
 
 #. 0: chapter.steps.length
 #: src/routes/Journey.svelte
@@ -178,14 +160,6 @@ msgid "The Hijrah"
 msgstr "الهجرة"
 
 #: src/routes/Journey.svelte
-msgid "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
-msgstr "تتبّع الهجرة من مكة إلى المدينة مرحلةً بعد مرحلة، مع ربط كل فقرة بالنص الذي تستند إليه."
-
-#: src/routes/Journey.svelte
-msgid "Hackathon demo. The scene is illustrative and the wording is a draft pending scholarly review."
-msgstr "نسخة تجريبية للهاكاثون. المشهد توضيحي، والصياغة أولية بانتظار المراجعة العلمية."
-
-#: src/routes/Journey.svelte
 msgid "Chapter stages"
 msgstr "مراحل الفصل"
 
@@ -193,10 +167,6 @@ msgstr "مراحل الفصل"
 #: src/routes/Journey.svelte
 msgid "Stage {0}: {1}"
 msgstr "المرحلة {0}: {1}"
-
-#: src/routes/Journey.svelte
-msgid "Illustrative scene, not a measured map. Draft wording pending scholarly review."
-msgstr "مشهد توضيحي، وليس خريطة مقيسة. صياغة أولية بانتظار المراجعة العلمية."
 
 #: src/routes/Journey.svelte
 msgid "Guided journey"
@@ -354,11 +324,6 @@ msgstr "ما يدعمه هذا النص"
 msgid "What it does not establish"
 msgstr "ما لا يثبته النص"
 
-#. 0: active_source.review_status
-#: src/routes/Journey.svelte
-msgid "Status: {0}."
-msgstr "الحالة: {0}."
-
 #: src/routes/Journey.svelte
 msgid "Back to the answer"
 msgstr "العودة إلى الإجابة"
@@ -478,6 +443,11 @@ msgstr "تابعت الاستعدادات، وفترة الاحتماء، ومت
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
 msgid "Sahih al-Bukhari"
 msgstr "صحيح البخاري"
 
@@ -486,16 +456,8 @@ msgid "Some Muslims moved to Madinah before this departure; the selected passage
 msgstr "انتقل بعض المسلمين إلى المدينة قبل هذا الخروج؛ ويصف النص المختار أيضًا انتظار أبي بكر ليصحب النبي ﷺ."
 
 #: src/content/first-chapter.js
-msgid "The wording and use are draft research material. A Turath page_id and publication-approved edition have not been locked."
-msgstr "الصياغة والاستخدام مادة بحثية أولية. لم يُحسم معرّف الصفحة في تراث ولا الطبعة المعتمدة للنشر."
-
-#: src/content/first-chapter.js
 msgid "The selected passage describes provisions and Asma bint Abi Bakr using part of her waist-belt to tie the bag."
 msgstr "يصف النص المختار الزاد واستخدام أسماء بنت أبي بكر قطعة من نطاقها لربط الجراب."
-
-#: src/content/first-chapter.js
-msgid "This is a selected Arabic extract, not a final translation or publication clearance."
-msgstr "هذا مقتطف عربي مختار، وليس ترجمة نهائية أو إذنًا بالنشر."
 
 #: src/content/first-chapter.js
 msgid "The selected passage supports the cave on Mount Thawr and three nights."
@@ -518,10 +480,6 @@ msgid "The selected passage connects ‘Amir ibn Fuhayrah with tending sheep and
 msgstr "يربط النص المختار عامر بن فهيرة برعي الغنم وتوفير اللبن خلال الليالي الثلاث."
 
 #: src/content/first-chapter.js
-msgid "Do not enlarge this passage with an unreviewed footprint-erasing or animal detail."
-msgstr "لا تُضف إلى هذا النص تفاصيل عن محو الآثار أو الحيوانات لم تخضع للمراجعة."
-
-#: src/content/first-chapter.js
 msgid "The selected passage describes hiring a skilled guide, entrusting him with two riding animals, and arranging the meeting at Thawr."
 msgstr "يصف النص المختار استئجار دليل ماهر وائتمانه على راحلتين وترتيب اللقاء عند ثور."
 
@@ -542,20 +500,12 @@ msgid "Abu Bakr’s account records concern about being seen and the Prophet’s
 msgstr "تسجّل رواية أبي بكر خشيته من أن يُريا وطمأنة النبي له."
 
 #: src/content/first-chapter.js
-msgid "The display is an Arabic extract and draft attribution; it is not a visual depiction of the unseen."
-msgstr "المعروض مقتطف عربي مع نسبة أولية؛ وليس تصويرًا بصريًا للغيب."
-
-#: src/content/first-chapter.js
 msgid "Quran"
 msgstr "القرآن الكريم"
 
 #: src/content/first-chapter.js
 msgid "The selected extract recalls the two in the cave and the reassurance to the companion."
 msgstr "يذكر المقتطف المختار الاثنين في الغار وطمأنة الصاحب."
-
-#: src/content/first-chapter.js
-msgid "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr. No final translation is selected."
-msgstr "هذا المقتطف ليس الآية كاملة، ولا يسمّي بنفسه أبا بكر أو جبل ثور. ولم تُختر ترجمة نهائية."
 
 #: src/content/first-chapter.js
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
@@ -566,16 +516,8 @@ msgid "Ibn Kathir’s commentary on the Turath page explains the reassurance thr
 msgstr "يشرح كلام ابن كثير في صفحة تراث الطمأنينة بنصر الله وتأييده وتقويته."
 
 #: src/content/first-chapter.js
-msgid "This is commentary in Ibn Kathir, not the Quranic wording itself; the use and wording remain pending scholarly review."
-msgstr "هذا شرح لابن كثير، وليس نص القرآن نفسه؛ ولا يزال الاستخدام والصياغة بانتظار المراجعة العلمية."
-
-#: src/content/first-chapter.js
 msgid "The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf."
 msgstr "تصف رواية الوصول المختارة انتظار الناس والإقامة في بني عمرو بن عوف."
-
-#: src/content/first-chapter.js
-msgid "Keep arrival duration and exact geography out of the draft chapter until separately reviewed."
-msgstr "لا تُدرج مدة الإقامة عند الوصول والتفاصيل الجغرافية الدقيقة في مسودة الفصل حتى تُراجع على حدة."
 
 #: src/content/first-chapter.js
 msgid "The selected passage describes the mosque site and the Prophet ﷺ carrying bricks with the builders."
@@ -751,6 +693,39 @@ msgstr "تعالج OpenAI وتراث الأسئلة ونصوص البحث. لا 
 msgid "From the sources"
 msgstr "من المصادر"
 
+#: src/lib/scene-manifest.js
+msgid "What is not shown"
+msgstr "ما لا يظهر هنا"
+
+#: src/lib/scene-manifest.js
+msgid "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
+msgstr "تضيف الروايات المتداولة نسيج عنكبوت وحمامتين عند فم الغار. هذه التفاصيل ليست في الروايات التي يستشهد بها هذا الفصل، ولذلك لا يعرضها المشهد."
+
+#: src/lib/scene-manifest.js
+msgid "Quba"
+msgstr "قباء"
+
+#: src/lib/scene-manifest.js
+msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
+msgstr "أول محطة عند الوصول إلى المدينة، في بني عمرو بن عوف."
+
+#: src/routes/Journey.svelte
+msgid "Turn sound off"
+msgstr "إيقاف الصوت"
+
+#: src/routes/Journey.svelte
+msgid "Turn sound on"
+msgstr "تشغيل الصوت"
+
+#. 0: night
+#: src/routes/Journey.svelte
+msgid "Night {0} of 3"
+msgstr "الليلة {0} من 3"
+
+#: src/routes/Journey.svelte
+msgid "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
+msgstr "تتبّع الهجرة من مكة إلى المدينة مرحلةً بعد مرحلة، مع ربط كل فقرة بالنص الذي تستند إليه."
+
 #: src/content/first-chapter.js
 msgid "A rider on the road"
 msgstr "فارسٌ على الطريق"
@@ -808,10 +783,6 @@ msgid "The account gives a stay of more than ten nights among Bani ‘Amr ibn �
 msgstr "تذكر الرواية إقامة بضع عشرة ليلة في بني عمرو بن عوف وتأسيس مسجد هناك."
 
 #: src/content/first-chapter.js
-msgid "The passage does not name the place; identifying it as Quba rests on other reports, pending review."
-msgstr "لا يسمّي النص الموضع؛ وتحديده بقباء مبنيّ على روايات أخرى، وهو بانتظار المراجعة."
-
-#: src/content/first-chapter.js
 msgid "He rode on with people walking beside him until his camel knelt at the site of the mosque in Madinah."
 msgstr "ركب وسار والناس يمشون معه حتى بركت راحلته عند موضع المسجد بالمدينة."
 
@@ -819,34 +790,57 @@ msgstr "ركب وسار والناس يمشون معه حتى بركت راحل�
 msgid "It does not establish the route taken through the town or the appearance of the place."
 msgstr "لا تحدّد الرواية الطريق الذي سلكه داخل المدينة ولا هيئة المكان."
 
-#: src/lib/scene-manifest.js
-msgid "What is not shown"
-msgstr "ما لا يظهر هنا"
-
-#: src/lib/scene-manifest.js
-msgid "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
-msgstr "تضيف الروايات المتداولة نسيج عنكبوت وحمامتين عند فم الغار. هذه التفاصيل ليست في الروايات التي يستشهد بها هذا الفصل، ولذلك لا يعرضها المشهد."
-
-#: src/lib/scene-manifest.js
-msgid "Quba"
-msgstr "قباء"
-
-#: src/lib/scene-manifest.js
-msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
-msgstr "أول محطة عند الوصول إلى المدينة، في بني عمرو بن عوف."
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
+msgstr "يُرافقك خيار <0>التشغيل</0> عبر مراحل الفصل خطوة بخطوة مع سرد صوتي مُنشأ بواسطة الذكاء الاصطناعي."
 
 #: src/routes/Journey.svelte
-msgid "Night {0} of 3"
-msgstr "الليلة {0} من 3"
+#, ai
+msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
+msgstr "يُرافقك خيار <0>التشغيل</0> عبر مراحل الفصل خطوة بخطوة، مع نصوص توضيحية تتزامن مع صوت رياح هادئة في الخلفية."
 
 #: src/routes/Journey.svelte
-msgid "Turn sound off"
-msgstr "إيقاف الصوت"
+#, ai
+msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
+msgstr "يستخدم خيار <0>اسأل</0> سياق الفصل للبحث في كتب التراث وتقديم الإجابات مع توثيق المصادر."
 
-#: src/routes/Journey.svelte
-msgid "Turn sound on"
-msgstr "تشغيل الصوت"
+#: src/content/first-chapter.js
+#, ai
+msgid "This excerpt does not give an exact departure date."
+msgstr "هذا المقتطف لا يذكر تاريخاً محدداً للمغادرة."
 
-#: src/routes/Journey.svelte
-msgid "<0>Play</0> walks the chapter stage by stage. The narration is a synthetic voice reading draft wording."
-msgstr "<0>تشغيل</0> يعرض الفصل مرحلةً بعد مرحلة. السرد بصوت اصطناعي يقرأ صياغة أولية."
+#: src/content/first-chapter.js
+#, ai
+msgid "The excerpt describes preparations, not a nightly delivery to the cave."
+msgstr "يصف المقتطف الاستعدادات، وليس عملية توصيل ليلية إلى الغار."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The excerpt does not describe erasing footprints."
+msgstr "المقتطف لا يصف مسح آثار الأقدام."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The account does not describe the cave’s dimensions or layout."
+msgstr "الرواية لا تصف أبعاد الغار أو تصميمه."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr."
+msgstr "هذا المقتطف ليس الآية كاملة ولا يذكر في حد ذاته أبا بكر أو جبل ثور."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "This is Ibn Kathir’s commentary, not the Quranic wording itself."
+msgstr "هذا هو تفسير ابن كثير، وليس نص القرآن نفسه."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "It does not give an exact location for the stay among Bani ‘Amr ibn ‘Awf."
+msgstr "لا يذكر موقعاً محدداً للإقامة بين بني عمرو بن عوف."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The passage does not name the place; identifying it as Quba rests on other reports."
+msgstr "النص لا يذكر اسم المكان؛ وتحديده بأنه قباء يعتمد على روايات أخرى."

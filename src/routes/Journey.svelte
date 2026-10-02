@@ -577,10 +577,6 @@
                 <option value="en" lang="en">English</option>
                 <option value="ar" lang="ar">العربية</option>
             </select>
-            <span
-                class="py-[5px] px-[11px] text-ink-soft bg-[rgba(17,15,12,0.5)] border border-solid border-line rounded-full text-[0.8125rem] mobile:hidden"
-                >Demo · draft wording</span
-            >
             <button
                 class={round_button}
                 aria-label={sound_on ? 'Turn sound off' : 'Turn sound on'}
@@ -632,11 +628,10 @@
             >
                 <li>
                     {#if narrated}
-                        <strong>Play</strong> walks the chapter stage by stage. The narration is a synthetic
-                        voice reading draft wording.
+                        <strong>Play</strong> walks the chapter stage by stage with AI-generated narration.
                     {:else}
-                        <strong>Play</strong> walks the chapter stage by stage. There is no narration
-                        in this demo; the captions keep time over a quiet wind.
+                        <strong>Play</strong> walks the chapter stage by stage. The captions keep time
+                        over a quiet wind.
                     {/if}
                 </li>
                 <li>
@@ -648,18 +643,14 @@
                     not establish.
                 </li>
                 <li>
-                    <strong>Ask</strong> answers only from this chapter’s {chapter.sources.length} cited
-                    passages.
+                    <strong>Ask</strong> uses the chapter’s context to research in Turath and answer with
+                    source citations.
                 </li>
                 <li>
                     <kbd>Space</kbd> play or pause · <kbd>←</kbd> <kbd>→</kbd> change stage ·
                     <kbd>Esc</kbd> close
                 </li>
             </ul>
-            <p class={fine_print}>
-                The landscape is an illustration, not a measured map, and depicts no person. Release
-                {chapter.release_id}: wording and citations await {chapter.review_status}.
-            </p>
         </section>
     {/if}
 
@@ -703,10 +694,6 @@
                     {@render icon('read')} Read instead
                 </button>
             </div>
-            <p class="{fine_print} max-w-[26rem]">
-                Hackathon demo. The scene is illustrative and the wording is a draft pending
-                scholarly review.
-            </p>
         </section>
     {:else}
         <aside
@@ -752,11 +739,6 @@
                     </li>
                 {/each}
             </ol>
-            <p
-                class="{fine_print} px-2 mt-[18px] pt-[14px] border-0 border-t border-solid border-line mobile:hidden"
-            >
-                Illustrative scene, not a measured map. Draft wording pending scholarly review.
-            </p>
         </aside>
     {/if}
 
@@ -1090,7 +1072,6 @@
                                     <dd>{active_source.limits}</dd>
                                 </div>
                             </dl>
-                            <p class={fine_print}>Status: {active_source.review_status}.</p>
                         {:else if active_source.truncated}
                             <p class={fine_print}>
                                 This passage is shortened. Open the original page for its full
