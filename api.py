@@ -22,6 +22,7 @@ MAX_PAGE = 10
 MAX_RESULTS = 20
 MAX_EXCERPT = 6000
 DEFAULT_BASE = "https://api.turath.io"
+WORKING_BOOK_ALLOWLIST = {"930", "13606", "9820"}
 
 
 class BoundaryError(Exception):
@@ -184,7 +185,9 @@ class TurathAdapter:
 
 
 def configured_allowlist() -> set[str]:
-    value = os.getenv("TURATH_BOOK_ALLOWLIST", "")
+    value = os.getenv("TURATH_BOOK_ALLOWLIST")
+    if value is None:
+        return set(WORKING_BOOK_ALLOWLIST)
     return {part.strip() for part in value.split(",") if re.fullmatch(r"\d+", part.strip())}
 
 

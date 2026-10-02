@@ -86,7 +86,7 @@ export const chapter = {
                 },
                 {
                     id: 'N03e',
-                    text: 'The Quran also recalls the two in the cave and the reassurance given to the companion. In his commentary, al-Sa‘di explains that reassurance in terms of Allah’s help and support.',
+                    text: 'The Quran also recalls the two in the cave and the reassurance given to the companion. Ibn Kathir’s commentary on the passage explains the reassurance through Allah’s help and support.',
                     source_ids: ['E09', 'E10'],
                 },
             ],
@@ -218,8 +218,8 @@ export const chapter = {
             'Al-Sa‘di, Taysir al-Karim al-Rahman',
             'commentary on Quran 9:40',
             'بعونه ونصره وتأييده',
-            'This draft attributed explanation describes reassurance in terms of Allah’s help, support, and strengthening.',
-            'Commentary use and wording remain pending scholarly review; do not turn it into a literal translation or visual claim.',
+            'Ibn Kathir’s commentary on the Turath page explains the reassurance through Allah’s help, support, and strengthening.',
+            'This is commentary in Ibn Kathir, not the Quranic wording itself; the use and wording remain pending scholarly review.',
             'https://quran.ksu.edu.sa/tafseer/saadi/sura9-aya40.html',
         ),
         source(
@@ -243,22 +243,169 @@ export const chapter = {
     ],
 }
 
+function get_turath_citation(id) {
+    const citations = {
+        E01: {
+            book_id: '9820',
+            page_id: '140',
+            book: 'الرحيق المختوم',
+            author: 'صفي الرحمن المباركفوري',
+            volume: '1',
+            page: '142',
+            heading: 'الهجرة إلى المدينة',
+            excerpt:
+                'فهاجر من هاجر قبل المدينة ... وتجهز أبو بكر قبل المدينة ... فحبس أبو بكر نفسه على رسول الله ﷺ ليصحبه',
+        },
+        E02: {
+            book_id: '13606',
+            page_id: '123',
+            book: 'صحيح السيرة النبوية - إبراهيم العلي',
+            author: 'إبراهيم العلي',
+            volume: '1',
+            page: '124',
+            heading: 'المبحث الثالث: ما يذكر عن أسماء في الهجرة',
+            excerpt:
+                'فجهزناهما أحث الجهاز، وصنعنا لهما سفرة في جراب، فقطعت أسماء بنت أبي بكر قطعة من نطاقها، فربطت به على فم الجراب',
+        },
+        E03: {
+            book_id: '13606',
+            page_id: '122',
+            book: 'صحيح السيرة النبوية - إبراهيم العلي',
+            author: 'إبراهيم العلي',
+            volume: '1',
+            page: '123',
+            heading: 'التخطيط للهجرة والرعاية الربانية',
+            excerpt: 'ثم لحق رسول الله وأبو بكر بغار في جبل ثور ... فكمنا فيه ثلاث ليال',
+        },
+        E04: {
+            book_id: '13606',
+            page_id: '122',
+            book: 'صحيح السيرة النبوية - إبراهيم العلي',
+            author: 'إبراهيم العلي',
+            volume: '1',
+            page: '123',
+            heading: 'التخطيط للهجرة والرعاية الربانية',
+            excerpt:
+                'يبيت عندهما عبد الله بن أبي بكر ... فيصبح مع قريش بمكة ... حتى يأتيهما بخبر ذلك حين يختلط الظلام',
+        },
+        E05: {
+            book_id: '13606',
+            page_id: '122',
+            book: 'صحيح السيرة النبوية - إبراهيم العلي',
+            author: 'إبراهيم العلي',
+            volume: '1',
+            page: '123',
+            heading: 'التخطيط للهجرة والرعاية الربانية',
+            excerpt:
+                'ويرعى عليهما عامر بن فهيرة ... فيريحها عليهما حين تذهب ساعة من العشاء ... يفعل ذلك في كل ليلة من تلك الليالي الثلاث',
+        },
+        E06: {
+            book_id: '13606',
+            page_id: '122',
+            book: 'صحيح السيرة النبوية - إبراهيم العلي',
+            author: 'إبراهيم العلي',
+            volume: '1',
+            page: '123',
+            heading: 'التخطيط للهجرة والرعاية الربانية',
+            excerpt:
+                'واستأجر رسول الله ﷺ وأبو بكر رجلًا من بني الديل ... هاديًا خريتًا ... فدفعا إليه راحلتيهما، وواعداه غار ثور بعد ثلاث ليال',
+        },
+        E07: {
+            book_id: '13606',
+            page_id: '122',
+            book: 'صحيح السيرة النبوية - إبراهيم العلي',
+            author: 'إبراهيم العلي',
+            volume: '1',
+            page: '123',
+            heading: 'التخطيط للهجرة والرعاية الربانية',
+            excerpt: 'وانطلق معهما عامر بن فهيرة والدليل، فأخذ بهما طريق السواحل',
+        },
+        E08: {
+            book_id: '930',
+            page_id: '764',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '242',
+            heading: 'تفسير آية الغار من سورة التوبة',
+            excerpt:
+                'أن أبا بكر حدثه، قال: قلت للنبي ﷺ ونحن في الغار: لو أن أحدهم نظر إلى قدميه لأبصرنا تحت قدميه',
+        },
+        E09: {
+            book_id: '930',
+            page_id: '764',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '242',
+            heading: 'نقل الآية 40 من سورة التوبة',
+            excerpt:
+                'إلا تنصروه فقد نصره الله، إذ أخرجه الذين كفروا ثاني اثنين إذ هما في الغار، إذ يقول لصاحبه لا تحزن إن الله معنا',
+        },
+        E10: {
+            book_id: '930',
+            page_id: '764',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '242',
+            heading: 'شرح معنى النصرة في آية الغار',
+            excerpt:
+                'فإن الله ناصره ومؤيده ومظفره ... ولها قال ثاني اثنين إذ هما في الغار أي وقد لجأ إلى الغار فأقاما فيه ثلاثة أيام',
+        },
+        E11: {
+            book_id: '930',
+            page_id: '772',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '250',
+            heading: 'دخول المدينة وأول الاستقرار',
+            excerpt:
+                'فسمع المسلمون بالمدينة بمخرج رسول الله ﷺ من مكة ... حتى نزل بهم في بني عمرو بن عوف ... فلبث رسول الله ﷺ في بني عمرو بن عوف بضع عشرة ليلة',
+        },
+        E12: {
+            book_id: '930',
+            page_id: '773',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '251',
+            heading: 'بناء المسجد والعمل مع الأنصار',
+            excerpt: 'ثم بناه مسجدًا. فطفق رسول الله ﷺ ينقل معهم اللبن في بنيانه',
+        },
+    }
+    return citations[id]
+}
+
 function source(id, work, locator, excerpt, explanation, limits, url) {
+    const citation = get_turath_citation(id)
     return {
         id,
-        work,
-        locator,
-        excerpt,
+        work: citation?.book ?? work,
+        locator: citation
+            ? `Turath · book ${citation.book_id} · page ${citation.page_id} · vol. ${citation.volume}, p. ${citation.page}`
+            : locator,
+        excerpt: citation?.excerpt ?? excerpt,
         explanation,
         limits,
-        url,
-        author: id === 'E10' ? 'Al-Sa‘di' : 'Attribution recorded in the cited work',
-        volume: null,
-        page: null,
-        book_id: null,
-        page_id: null,
-        review_status: 'draft — scholarly and publication review pending',
-        citation_status: 'exact Turath book_id/page_id not locked for this draft',
+        url: citation
+            ? `https://api.turath.io/page?book_id=${citation.book_id}&pg=${citation.page_id}`
+            : url,
+        author:
+            citation?.author ??
+            (id === 'E10' ? 'Al-Sa‘di' : 'Attribution recorded in the cited work'),
+        volume: citation?.volume ?? null,
+        page: citation?.page ?? null,
+        heading: citation?.heading ?? null,
+        book_id: citation?.book_id ?? null,
+        page_id: citation?.page_id ?? null,
+        review_status: citation
+            ? 'draft — Turath page retrieved; scholarly and publication review pending'
+            : 'draft — scholarly and publication review pending',
+        citation_status: citation
+            ? 'Turath book_id/page_id retrieved from category 24; publication approval pending'
+            : 'exact Turath book_id/page_id not locked for this draft',
     }
 }
 
