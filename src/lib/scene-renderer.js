@@ -112,6 +112,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
     try {
         const THREE = await import('three')
         const { GLTFLoader } = await import('three/addons/loaders/GLTFLoader.js')
+        const { MeshoptDecoder } = await import('three/addons/libs/meshopt_decoder.module.js')
         const { Line2 } = await import('three/addons/lines/Line2.js')
         const { LineGeometry } = await import('three/addons/lines/LineGeometry.js')
         const { LineMaterial } = await import('three/addons/lines/LineMaterial.js')
@@ -443,7 +444,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             const fill = new THREE.PointLight(0xcdd6f0, 0.012, 0.008)
             fill.position.set(sx + 2.6 * METRE, ground(0, 0) + 0.7 * METRE, sz)
             world.group.add(fill)
-            new GLTFLoader().load(
+            new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).load(
                 shelter_asset,
                 (gltf) => {
                     if (disposed) return

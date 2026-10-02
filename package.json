@@ -9,6 +9,7 @@
     "dev:api": "uv run api.py",
     "test": "node scripts/export_guide_context.js --check && node --test tests/*.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
     "guide:context": "node scripts/export_guide_context.js",
+    "models:optimize": "python3 art/thawr/prepare_web.py",
     "build": "node scripts/export_guide_context.js && vite build",
     "i18n:extract": "wuchale --clean",
     "preview": "vite preview --host 127.0.0.1 --port 5100",
@@ -21,6 +22,7 @@
     "three": "0.185.1"
   },
   "devDependencies": {
+    "@gltf-transform/cli": "4.5.1",
     "@mustafaj/oxfmt": "0.65.0-svelte.10",
     "@sveltejs/vite-plugin-svelte": "7.1.2",
     "@tailwindcss/vite": "4.3.3",
