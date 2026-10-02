@@ -23,6 +23,14 @@ const value_noise = (x, z) => {
 export const fbm = (x, z) =>
     0.5 * value_noise(x, z) + 0.25 * value_noise(x * 2, z * 2) + 0.125 * value_noise(x * 4, z * 4)
 
+// Raised hillside behind the shelter (-north), with a clear approach on +north.
+export const shelter_bank = (north, east) =>
+    Math.max(
+        smoothstep(0, 4.5, -north),
+        0.65 * smoothstep(2.3, 4.6, Math.abs(east)) * (1 - smoothstep(-1, 5, north)),
+    ) *
+    (1 - smoothstep(16, 38, Math.hypot(north, east)))
+
 export async function load_grid(definition) {
     const response = await fetch(definition.grid)
     if (!response.ok) throw new Error(`Elevation grid unavailable: ${response.status}`)

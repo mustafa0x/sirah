@@ -6,7 +6,7 @@ import {
     shelter_asset,
     worlds as world_definitions,
 } from './scene-manifest.js'
-import { build_terrain, fbm, hash, load_grid } from './scene-terrain.js'
+import { build_terrain, fbm, hash, load_grid, shelter_bank } from './scene-terrain.js'
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value))
 const mix = (a, b, t) => a + (b - a) * t
@@ -449,22 +449,27 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     METRE *
                         (0.6 +
                             2.2 * shelf * fbm(north * 0.09 + 20, east * 0.09) +
-                            0.25 * fbm(north * 0.7, east * 0.7 + 3) -
+                            0.25 * fbm(north * 0.7, east * 0.7 + 3) +
+                            shelter_bank(north, east) *
+                                (8 + 2 * fbm(north * 0.3, east * 0.3 + 40)) -
                             5 * smoothstep(52, 70, reach))
                 )
             }
-            const patch_geometry = new THREE.PlaneGeometry(0.14, 0.14, 128, 128)
+            const patch_geometry = new THREE.PlaneGeometry(0.14, 0.14, 192, 192)
             patch_geometry.rotateX(-Math.PI / 2)
             const position = patch_geometry.attributes.position
             const colors = new Float32Array(position.count * 3)
             const rock = new THREE.Color(0xb08a5e)
             const dark = new THREE.Color(0x7d5f44)
+            const granite = new THREE.Color(0xa39585)
             const tint = new THREE.Color()
             for (let index = 0; index < position.count; index += 1) {
                 const north = position.getX(index) / METRE
                 const east = position.getZ(index) / METRE
                 position.setXYZ(index, sx + north * METRE, ground(north, east), sz + east * METRE)
                 tint.copy(rock).lerp(dark, fbm(north * 0.35, east * 0.35 + 7) * 1.2)
+                tint.lerp(granite, Math.min(1, shelter_bank(north, east) * 2))
+                tint.multiplyScalar(0.8 + 0.4 * fbm(north * 1.3, east * 1.3))
                 colors.set([tint.r, tint.g, tint.b], index * 3)
             }
             patch_geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3))
@@ -473,6 +478,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                 patch_geometry,
                 new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 }),
             )
+            patch.castShadow = true
             patch.receiveShadow = true
             world.group.add(patch)
 
@@ -523,24 +529,11 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     })
                     // About nine metres across; the model's opening faces +x, which is north.
                     const scale = (9 * METRE) / Math.max(size.x, size.z)
-                    const place = (north, east, grow, turn, sink) => {
-                        const rock = new THREE.Group()
-                        rock.add(north || east ? model.clone() : model)
-                        rock.scale.setScalar(scale * grow)
-                        rock.rotation.y = turn
-                        rock.position.set(
-                            sx + north * METRE,
-                            ground(north, east) - size.y * scale * grow * sink,
-                            sz + east * METRE,
-                        )
-                        world.group.add(rock)
-                    }
-                    place(0, 0, 1, 0, 0.04)
-                    // The same rock, turned away and half buried, becomes the hillside
-                    // behind and beside the shelter, so it sits in the slope, not on it.
-                    place(-7.5, -1.5, 1.7, Math.PI * 0.95, 0.3)
-                    place(-2.5, -8.5, 1.15, Math.PI * 0.6, 0.35)
-                    place(-3, 8, 1.25, -Math.PI * 0.7, 0.35)
+                    const shelter = new THREE.Group()
+                    shelter.add(model)
+                    shelter.scale.setScalar(scale)
+                    shelter.position.set(sx, ground(0, 0) - size.y * scale * 0.1, sz)
+                    world.group.add(shelter)
                 },
                 undefined,
                 () => {
