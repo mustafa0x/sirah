@@ -20,6 +20,8 @@
             on_poi,
             (focus) => {
                 focus_scene_poi = focus
+                const poi = scene_pois[kind]?.find((item) => item.id === selected_poi_id)
+                if (poi) focus_scene_poi(poi)
             },
         ).then((cleanup) => {
             if (cancelled) cleanup()
