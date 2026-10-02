@@ -39,9 +39,9 @@
 
 <div class="scene-wrap">
     <div class="scene-status" role="status" aria-live="polite">
-        {#if status === 'loading'}Loading the draft illustration…
-        {:else if status === 'ready'}Draft illustration · schematic, not a reconstruction
-        {:else}The 3D illustration is unavailable. Continue with the reading below.{/if}
+        {#if status === 'loading'}Loading scene…
+        {:else if status !== 'ready'}The 3D illustration is unavailable. Continue with the reading
+            below.{/if}
     </div>
     <div class="scene-canvas" bind:this={host} aria-label={label} role="img"></div>
 </div>

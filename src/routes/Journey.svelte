@@ -164,7 +164,7 @@
 
     function select_poi(poi) {
         active_poi = poi
-        announce(`${poi.label} view selected. The scene remains schematic.`)
+        announce(`${poi.label} view selected.`)
     }
 
     function view_source(source_id) {
@@ -220,7 +220,7 @@
     <title>{chapter.title} · Sirah Journey</title>
     <meta
         name="description"
-        content="A draft, source-linked first learner journey through selected stages of the Hijrah."
+        content="A source-linked learner journey through selected stages of the Hijrah."
     />
 </svelte:head>
 
@@ -230,7 +230,7 @@
             {#key `${journey.viewed_step_id}-${selected_step.scene}`}
                 <SceneCanvas
                     kind={selected_step.scene}
-                    label={`${selected_step.title} draft illustration`}
+                    label={`${selected_step.title} illustration`}
                     on_poi={select_poi}
                     selected_poi_id={active_poi?.id}
                 />
@@ -244,7 +244,6 @@
                 <span>Sirah Journey</span>
             </a>
             <div class="stage-tools">
-                <span class="draft-chip">Draft chapter</span>
                 <button class="icon-button" aria-label="Help">?</button>
                 <button class="icon-button" aria-label="Experience settings">⋯</button>
             </div>
@@ -299,9 +298,7 @@
                     </li>
                 {/each}
             </ol>
-            <p class="rail-note">
-                A selected account. The world is schematic; the evidence remains explicit.
-            </p>
+            <p class="rail-note">A selected account with an explicit source trail.</p>
         </aside>
 
         <nav class="progress-rail" aria-label="Journey progress">
@@ -335,8 +332,8 @@
                 <p class="card-label">Begin the chapter</p>
                 <h2 id="entry-title">Follow the journey through five connected stages.</h2>
                 <p>
-                    Move through the draft scene, pause to read, and inspect evidence without losing
-                    your place.
+                    Move through the scene, pause to read, and inspect evidence without losing your
+                    place.
                 </p>
                 <div class="card-actions">
                     <button class="gold-button" onclick={() => start('scene')}
@@ -459,7 +456,7 @@
             <section class="overlay-panel question-panel" aria-labelledby="guide-heading">
                 <div class="overlay-heading">
                     <div>
-                        <p class="card-label">Question layer · draft evidence</p>
+                        <p class="card-label">Question layer</p>
                         <h2 id="guide-heading">Ask about this stop</h2>
                     </div>
                     <button class="close-overlay" onclick={close_source} aria-label="Close question"
@@ -516,7 +513,7 @@
         <aside class="source-drawer" aria-labelledby="source-title">
             <div class="drawer-heading">
                 <div>
-                    <p class="card-label">Evidence · draft review</p>
+                    <p class="card-label">Evidence</p>
                     <h2 id="source-title">{active_source?.work}</h2>
                     <p class="source-locator">{active_source?.locator}</p>
                 </div>
@@ -524,10 +521,6 @@
                     >×</button
                 >
             </div>
-            <p class="citation-status">
-                {active_source?.citation_status}. This source slot is visible for honest draft
-                review; it is not publication approval.
-            </p>
             <blockquote dir="rtl">{active_source?.excerpt}</blockquote>
             <p>{active_source?.explanation}</p>
             <p class="source-limits"><strong>Limit:</strong> {active_source?.limits}</p>
