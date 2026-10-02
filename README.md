@@ -35,6 +35,12 @@ mise exec -- pnpm run build
 
 The focused tests cover journey freshness/detours/media tickets and the Turath boundary’s category enforcement, allowlist, validation, malformed responses, and bounded guide response. A browser smoke should exercise: Start guided journey → Three nights at Thawr → Ask about this → Answer from this chapter → View E07 → Show the onward journey → Resume journey.
 
+## Localization
+
+English is the source language. Wuchale extracts Svelte interface text and JavaScript chapter, map-label, and guide-answer text into `src/locales/en.po` and `src/locales/ar.po`. Arabic source quotations remain untouched. The header language selector saves the preference locally and reloads the app; changing languages restarts the journey. Catalogs load before chapter modules are evaluated, and Arabic uses RTL text layout while the geographic scene retains its orientation.
+
+After editing copy, run `pnpm i18n:extract`, fill new Arabic translations in `src/locales/ar.po`, and run `pnpm test && pnpm build`. Commit the catalogs and generated loaders, but not `src/locales/.wuchale/`. Arabic guide questions use the translated, source-bounded local provider because the demo API currently returns English only. Arabic wording, like the English draft, still requires scholarly/editorial review.
+
 ## Content and evidence boundaries
 
 The app-owned contract is `src/content/first-chapter.js`. It is one chapter only. Its draft paragraphs map to the research records in `docs/SOURCES.md`; source panels preserve excerpts, attribution, limits, and working Turath `book_id`/`page_id` citations. The scene is an illustration, not a historical reconstruction. See `docs/SOURCES.md`, `docs/evaluation.md`, and `docs/todo/first-playable-sirah-journey.md` for hackathon gates and post-hackathon gaps.

@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte'
+    import { change_language, saved_language } from '../lib/i18n.js'
     import { SvelteSet } from 'svelte/reactivity'
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
@@ -354,7 +355,7 @@
             return
         }
         if (!journey.started || event.metaKey || event.ctrlKey || event.altKey) return
-        if (event.target.closest?.('input, textarea, button, a, [contenteditable]')) return
+        if (event.target.closest?.('input, textarea, select, button, a, [contenteditable]')) return
         if (event.key === ' ') {
             event.preventDefault()
             if (sheet !== 'reading') toggle_play()
@@ -485,6 +486,15 @@
             Sirah Journey
         </a>
         <div class="flex items-center gap-3">
+            <select
+                class="rounded-full border border-line bg-panel-solid px-3 py-2 text-ink text-sm"
+                aria-label="Interface language"
+                value={saved_language()}
+                onchange={(event) => change_language(event.currentTarget.value)}
+            >
+                <option value="en" lang="en">English</option>
+                <option value="ar" lang="ar">العربية</option>
+            </select>
             <span
                 class="py-[5px] px-[11px] text-ink-soft bg-[rgba(17,15,12,0.5)] border border-solid border-line rounded-full text-[0.8125rem] mobile:hidden"
                 >Demo · draft wording</span
@@ -600,12 +610,12 @@
                 {#each chapter.steps as step, index (step.id)}
                     {@const active = journey.viewed_step_id === step.id}
                     <li
-                        class="group/stop relative [&+li]:before:absolute [&+li]:before:top-[-9px] [&+li]:before:left-[21px] [&+li]:before:w-px [&+li]:before:h-[18px] [&+li]:before:bg-line-strong [&+li]:before:content-[''] mobile:[&+li]:before:hidden mobile:data-[active=true]:flex-1 mobile:data-[active=true]:min-w-0"
+                        class="group/stop relative [&+li]:before:absolute [&+li]:before:top-[-9px] [&+li]:before:start-[21px] [&+li]:before:w-px [&+li]:before:h-[18px] [&+li]:before:bg-line-strong [&+li]:before:content-[''] mobile:[&+li]:before:hidden mobile:data-[active=true]:flex-1 mobile:data-[active=true]:min-w-0"
                         data-active={active}
                         data-done={index < selected_index}
                     >
                         <button
-                            class="grid grid-cols-[28px_1fr_auto] gap-3 items-center w-full py-[9px] px-2 text-muted text-left bg-transparent border-0 rounded-[10px] transition-[background,color] duration-150 ease-[ease] hover:text-ink hover:bg-[rgba(255,244,222,0.07)] group-data-[done=true]/stop:text-ink-soft group-data-[done=true]/stop:hover:text-ink-soft group-data-[active=true]/stop:text-ink group-data-[active=true]/stop:hover:text-ink group-data-[active=true]/stop:bg-[rgba(232,178,87,0.13)] group-data-[active=true]/stop:hover:bg-[rgba(232,178,87,0.13)] mobile:flex mobile:gap-2 mobile:p-1 mobile:rounded-full mobile:group-data-[active=true]/stop:pr-[14px]"
+                            class="grid grid-cols-[28px_1fr_auto] gap-3 items-center w-full py-[9px] px-2 text-muted text-start bg-transparent border-0 rounded-[10px] transition-[background,color] duration-150 ease-[ease] hover:text-ink hover:bg-[rgba(255,244,222,0.07)] group-data-[done=true]/stop:text-ink-soft group-data-[done=true]/stop:hover:text-ink-soft group-data-[active=true]/stop:text-ink group-data-[active=true]/stop:hover:text-ink group-data-[active=true]/stop:bg-[rgba(232,178,87,0.13)] group-data-[active=true]/stop:hover:bg-[rgba(232,178,87,0.13)] mobile:flex mobile:gap-2 mobile:p-1 mobile:rounded-full mobile:group-data-[active=true]/stop:pr-[14px]"
                             onclick={() => select_step(step.id)}
                             aria-current={active ? 'step' : undefined}
                             aria-label={`Stage ${index + 1}: ${step.title}`}
@@ -675,7 +685,7 @@
                 {#if current_cue}
                     {@render citations(current_cue.source_ids)}
                 {/if}
-                <div class="flex gap-[14px] items-center">
+                <div class="flex gap-[14px] items-center" dir="ltr">
                     <button
                         class="grid flex-none size-[46px] place-items-center p-0 text-gold-ink bg-gold border border-solid border-gold-bright rounded-[50%] text-[1.2rem] shadow-[0_0_0_5px_rgba(232,178,87,0.16)] transition-[background,transform] duration-150 ease-[ease] hover:bg-gold-bright active:[transform:scale(0.94)]"
                         onclick={toggle_play}
@@ -875,7 +885,7 @@
                     <div class="flex flex-wrap gap-2" aria-label="Suggested questions">
                         {#each suggested_questions as prompt (prompt)}
                             <button
-                                class="py-[7px] px-[13px] text-ink-soft text-left bg-[rgba(255,244,222,0.05)] border border-solid border-line rounded-full text-[0.875rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold"
+                                class="py-[7px] px-[13px] text-ink-soft text-start bg-[rgba(255,244,222,0.05)] border border-solid border-line rounded-full text-[0.875rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold"
                                 onclick={() => ask_suggested(prompt)}>{prompt}</button
                             >
                         {/each}

@@ -1,0 +1,737 @@
+msgid ""
+msgstr ""
+"Source-Language: en\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6\n"
+"X-Plurals-Order: zero, one, two, few, many, other\n"
+
+#: src/App.svelte
+msgid "Page not found"
+msgstr "الصفحة غير موجودة"
+
+#: src/App.svelte
+msgid "Return to the journey"
+msgstr "العودة إلى الرحلة"
+
+#: src/routes/Journey.svelte
+msgid "How long did they stay in the cave?"
+msgstr "كم مكثوا في الغار؟"
+
+#: src/routes/Journey.svelte
+msgid "Who brought them news?"
+msgstr "من كان يأتيهم بالأخبار؟"
+
+#: src/routes/Journey.svelte
+msgid "Is the exact route known?"
+msgstr "هل المسار الدقيق معروف؟"
+
+#: src/routes/Journey.svelte
+msgid "Return to the guided position before playback."
+msgstr "عُد إلى موضعك في الرحلة الموجّهة قبل التشغيل."
+
+#: src/routes/Journey.svelte
+msgid "Guided presentation is playing."
+msgstr "العرض الموجّه قيد التشغيل."
+
+#: src/routes/Journey.svelte
+msgid "Playback has not started. Continue with the text."
+msgstr "لم يبدأ التشغيل. يمكنك متابعة القراءة."
+
+#: src/routes/Journey.svelte
+msgid "Guided presentation paused. Your position is saved."
+msgstr "توقّف العرض الموجّه مؤقتًا. حُفظ موضعك."
+
+#: src/routes/Journey.svelte
+msgid "That chapter stop is not available."
+msgstr "هذه المحطة من الفصل غير متاحة."
+
+#: src/routes/Journey.svelte
+msgid "Onward stage opened. Your guided position is preserved."
+msgstr "فُتحت مرحلة متابعة الرحلة. موضعك في الرحلة الموجّهة محفوظ."
+
+#. 0: get_step(step_id).title
+#: src/routes/Journey.svelte
+msgid "{0} opened."
+msgstr "فُتحت مرحلة «{0}»."
+
+#: src/routes/Journey.svelte
+msgid "You are back where you left the guided journey. Press Play to continue."
+msgstr "عدت إلى الموضع الذي تركت فيه الرحلة الموجّهة. اضغط على التشغيل للمتابعة."
+
+#: src/routes/Journey.svelte
+msgid "The last stage is complete."
+msgstr "اكتملت المرحلة الأخيرة."
+
+#: src/routes/Journey.svelte
+msgid "Stage complete. Continuing to the next stage."
+msgstr "اكتملت المرحلة. ننتقل إلى المرحلة التالية."
+
+#: src/routes/Journey.svelte
+msgid "Answer ready. Its cited passages are listed with it."
+msgstr "الإجابة جاهزة، ومعها النصوص المستشهد بها."
+
+#: src/routes/Journey.svelte
+msgid "Returned to the guided view."
+msgstr "عدت إلى العرض الموجّه."
+
+#: src/routes/Journey.svelte
+msgid "Panel closed."
+msgstr "أُغلقت اللوحة."
+
+#: src/routes/Journey.svelte
+msgid "A source-linked learner journey through selected stages of the Hijrah."
+msgstr "رحلة تعليمية موثّقة بالمصادر عبر مراحل مختارة من الهجرة."
+
+#. 0: chapter.title
+#: src/routes/Journey.svelte
+msgid "{0} · Sirah Journey"
+msgstr "{0} · رحلة السيرة"
+
+#. 0: source.number; 1: source.reference
+#. 0: source.number; 1: source.reference
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Source {0}: {1}"
+msgstr "المصدر {0}: {1}"
+
+#: src/routes/Journey.svelte
+msgid "Schematic relief of the route from Makkah to Madinah"
+msgstr "تصوّر تضاريسي تخطيطي للطريق من مكة إلى المدينة"
+
+#: src/routes/Journey.svelte
+msgid "Sirah Journey home"
+msgstr "الصفحة الرئيسية لرحلة السيرة"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "How this works"
+msgstr "كيفية الاستخدام"
+
+#: src/routes/Journey.svelte
+msgid "Demo · draft wording"
+msgstr "نسخة تجريبية · صياغة أولية"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Sirah Journey"
+msgstr "<0/> رحلة السيرة"
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the chapter stage by stage. There is no audio in this demo; the captions keep time."
+msgstr "<0>التشغيل</0> يأخذك عبر الفصل مرحلةً مرحلة. لا تتضمن هذه النسخة التجريبية صوتًا؛ وتتتابع النصوص وفق التوقيت."
+
+#: src/routes/Journey.svelte
+msgid "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place name to fly there."
+msgstr "<0>اسحب</0> للنظر حولك، و<1>مرّر</1> للتكبير والتصغير، واختر اسم مكان للانتقال إليه."
+
+#: src/routes/Journey.svelte
+msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
+msgstr "<0>المصادر</0> تعرض النص الذي تستند إليه كل فقرة، وما لا يثبته."
+
+#. 0: chapter.sources.length
+#: src/routes/Journey.svelte
+msgid "<0>Ask</0> answers only from this chapter’s {0} cited passages."
+msgstr "<0>اسأل</0> يجيب من النصوص المستشهد بها في هذا الفصل فقط، وعددها {0}."
+
+#: src/routes/Journey.svelte
+msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
+msgstr "<0>المسافة</0> للتشغيل أو الإيقاف المؤقت · <1/> <2/> لتغيير المرحلة · <3>Esc</3> للإغلاق"
+
+#. 0: chapter.release_id; 1: chapter.review_status
+#: src/routes/Journey.svelte
+msgid "The landscape is an illustration, not a measured map, and depicts no person. Release {0}: wording and citations await {1}."
+msgstr "المشهد توضيحي، وليس خريطة مقيسة، ولا يصوّر أي شخص. الإصدار {0}: الصياغة والإحالات بانتظار {1}."
+
+#. 0: chapter.steps.length
+#: src/routes/Journey.svelte
+msgid "{0} stages"
+msgstr "عدد المراحل: {0}"
+
+#. 0: total_minutes
+#: src/routes/Journey.svelte
+msgid "about {0} minutes"
+msgstr "المدة التقريبية بالدقائق: {0}"
+
+#. 0: chapter.sources.length
+#: src/routes/Journey.svelte
+msgid "{0} cited passages"
+msgstr "عدد النصوص المستشهد بها: {0}"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Begin the journey"
+msgstr "<0/> ابدأ الرحلة"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Read instead"
+msgstr "<0/> اقرأ بدلًا من ذلك"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Chapter one"
+msgstr "الفصل الأول"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "The Hijrah"
+msgstr "الهجرة"
+
+#: src/routes/Journey.svelte
+msgid "Follow the migration from Makkah to Madinah in five stages, with every paragraph linked to the passage it rests on."
+msgstr "تتبّع الهجرة من مكة إلى المدينة في خمس مراحل، مع ربط كل فقرة بالنص الذي تستند إليه."
+
+#: src/routes/Journey.svelte
+msgid "Hackathon demo. The scene is illustrative and the wording is a draft pending scholarly review."
+msgstr "نسخة تجريبية للهاكاثون. المشهد توضيحي، والصياغة أولية بانتظار المراجعة العلمية."
+
+#: src/routes/Journey.svelte
+msgid "Chapter stages"
+msgstr "مراحل الفصل"
+
+#. 0: index + 1; 1: step.title
+#: src/routes/Journey.svelte
+msgid "Stage {0}: {1}"
+msgstr "المرحلة {0}: {1}"
+
+#: src/routes/Journey.svelte
+msgid "Illustrative scene, not a measured map. Draft wording pending scholarly review."
+msgstr "مشهد توضيحي، وليس خريطة مقيسة. صياغة أولية بانتظار المراجعة العلمية."
+
+#: src/routes/Journey.svelte
+msgid "Guided journey"
+msgstr "الرحلة الموجّهة"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "<0/> Return to where you were"
+msgstr "<0/> عُد إلى موضعك السابق"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Read this stage"
+msgstr "<0/> اقرأ هذه المرحلة"
+
+#. 0: selected_step.title
+#: src/routes/Journey.svelte
+msgid "Side trip · {0}"
+msgstr "جولة جانبية · {0}"
+
+#: src/routes/Journey.svelte
+msgid "Pause"
+msgstr "إيقاف مؤقت"
+
+#: src/routes/Journey.svelte
+msgid "Play"
+msgstr "تشغيل"
+
+#: src/routes/Journey.svelte
+msgid "Position in this stage"
+msgstr "الموضع في هذه المرحلة"
+
+#. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
+#: src/routes/Journey.svelte
+msgid "{0} of {1}"
+msgstr "{0} من {1}"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "<0/> Complete the chapter"
+msgstr "<0/> أكمل الفصل"
+
+#. 0: chapter.steps[selected_index + 1].title
+#: src/routes/Journey.svelte
+msgid "Continue: {0} <0/>"
+msgstr "تابع: {0} <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Read"
+msgstr "<0/> اقرأ"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Sources <1/>"
+msgstr "<0/> المصادر <1/>"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "<0/> Ask"
+msgstr "<0/> اسأل"
+
+#. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
+#: src/routes/Journey.svelte
+msgid "Stage {0} of {1} · {2}"
+msgstr "المرحلة {0} من {1} · {2}"
+
+#. 0: selected_index + 1; 1: chapter.steps.length
+#: src/routes/Journey.svelte
+msgid "Reading · stage {0} of {1}"
+msgstr "القراءة · المرحلة {0} من {1}"
+
+#: src/routes/Journey.svelte
+msgid "Close reading"
+msgstr "إغلاق القراءة"
+
+#: src/routes/Journey.svelte
+msgid "Chapter complete"
+msgstr "اكتمل الفصل"
+
+#: src/routes/Journey.svelte
+msgid "What to carry forward"
+msgstr "خلاصة الرحلة"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Start again"
+msgstr "<0/> ابدأ من جديد"
+
+#: src/routes/Journey.svelte
+msgid "Side trip"
+msgstr "جولة جانبية"
+
+#. 0: guided_step.title
+#: src/routes/Journey.svelte
+msgid "Your place in “{0}” is saved."
+msgstr "موضعك في «{0}» محفوظ."
+
+#: src/routes/Journey.svelte
+msgid "Previous stage"
+msgstr "المرحلة السابقة"
+
+#. 0: chapter.steps[selected_index + 1].title
+#: src/routes/Journey.svelte
+msgid "Next: {0}"
+msgstr "التالي: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Ask the sources"
+msgstr "اسأل المصادر"
+
+#: src/routes/Journey.svelte
+msgid "What would you like to know?"
+msgstr "ماذا تود أن تعرف؟"
+
+#: src/routes/Journey.svelte
+msgid "Close question"
+msgstr "إغلاق السؤال"
+
+#: src/routes/Journey.svelte
+msgid "Ask about this chapter…"
+msgstr "اسأل عن هذا الفصل…"
+
+#: src/routes/Journey.svelte
+msgid "Checking the passages…"
+msgstr "جارٍ مراجعة النصوص…"
+
+#: src/routes/Journey.svelte
+msgid "Ask"
+msgstr "اسأل"
+
+#: src/routes/Journey.svelte
+msgid "Your question"
+msgstr "سؤالك"
+
+#: src/routes/Journey.svelte
+msgid "Suggested questions"
+msgstr "أسئلة مقترحة"
+
+#: src/routes/Journey.svelte
+msgid "From the cited passages"
+msgstr "من النصوص المستشهد بها"
+
+#. 0: chapter.sources.length
+#: src/routes/Journey.svelte
+msgid "Answers are limited to this chapter’s {0} cited passages. When they do not settle a question, the answer says so."
+msgstr "تقتصر الإجابات على النصوص المستشهد بها في هذا الفصل، وعددها {0}. وإذا لم تحسم النصوص سؤالًا، فستوضّح الإجابة ذلك."
+
+#. 0: active_source.number
+#: src/routes/Journey.svelte
+msgid "Source {0} · evidence"
+msgstr "المصدر {0} · الدليل"
+
+#: src/routes/Journey.svelte
+msgid "Close source"
+msgstr "إغلاق المصدر"
+
+#: src/routes/Journey.svelte
+msgid "Sources for this stage"
+msgstr "مصادر هذه المرحلة"
+
+#. 0: active_source.volume; 1: active_source.page
+#: src/routes/Journey.svelte
+msgid "· vol. {0}, p. {1}"
+msgstr "· ج {0}، ص {1}"
+
+#: src/routes/Journey.svelte
+msgid "What this passage supports"
+msgstr "ما يدعمه هذا النص"
+
+#: src/routes/Journey.svelte
+msgid "What it does not establish"
+msgstr "ما لا يثبته النص"
+
+#. 0: active_source.review_status
+#: src/routes/Journey.svelte
+msgid "Status: {0}."
+msgstr "الحالة: {0}."
+
+#: src/routes/Journey.svelte
+msgid "Back to the answer"
+msgstr "العودة إلى الإجابة"
+
+#: src/routes/Journey.svelte
+msgid "Back to the journey"
+msgstr "العودة إلى الرحلة"
+
+#: src/routes/Journey.svelte
+msgid "Open the page on Turath <0/>"
+msgstr "افتح الصفحة في تراث <0/>"
+
+#: src/lib/SceneCanvas.svelte
+msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
+msgstr "العرض ثلاثي الأبعاد غير متاح على هذا الجهاز. لا يزال الفصل كاملًا متاحًا للقراءة."
+
+#: src/content/first-chapter.js
+msgid "The Hijrah: a journey in stages"
+msgstr "الهجرة: رحلة على مراحل"
+
+#: src/content/first-chapter.js
+msgid "English working draft; no final narration or translation approved"
+msgstr "مسودة عمل إنجليزية؛ لم يُعتمد سرد أو ترجمة نهائية"
+
+#: src/content/first-chapter.js
+msgid "Connect preparations, the stay at Thawr, the onward journey, and arrival while distinguishing an illustration from its evidence."
+msgstr "اربط بين الاستعدادات والإقامة في ثور ومتابعة الرحلة والوصول، مع التمييز بين التصوّر التوضيحي ودليله."
+
+#: src/content/first-chapter.js
+msgid "How did the journey continue after the cave?"
+msgstr "كيف استمرت الرحلة بعد الغار؟"
+
+#: src/content/first-chapter.js
+#: src/lib/guide-provider.js
+msgid "Show the onward journey"
+msgstr "اعرض مرحلة متابعة الرحلة"
+
+#: src/content/first-chapter.js
+msgid "Before the journey"
+msgstr "قبل الرحلة"
+
+#: src/content/first-chapter.js
+msgid "This chapter follows the Hijrah: the Prophet Muhammad’s ﷺ migration from Makkah to Madinah. We will follow a few connected stages, from preparations for departure to arrival in Madinah."
+msgstr "يتتبّع هذا الفصل الهجرة: هجرة النبي محمد ﷺ من مكة إلى المدينة. سنتابع مراحل مترابطة، من الاستعداد للخروج إلى الوصول إلى المدينة."
+
+#: src/content/first-chapter.js
+msgid "Before the Prophet departed, some Muslims had already moved to Madinah. Abu Bakr was preparing to leave too, but waited to accompany him. This was part of a wider movement, not a departure in which everyone travelled together."
+msgstr "قبل خروج النبي، كان بعض المسلمين قد انتقلوا إلى المدينة. وكان أبو بكر يستعد للخروج أيضًا، لكنه انتظر ليصحبه. كانت هذه الرحلة جزءًا من انتقال أوسع، لا خروجًا سافر فيه الجميع معًا."
+
+#: src/content/first-chapter.js
+msgid "Preparing to leave"
+msgstr "الاستعداد للخروج"
+
+#: src/content/first-chapter.js
+msgid "When permission to depart had been given, preparations were made for the Prophet ﷺ and Abu Bakr. ‘Aishah’s account describes provisions packed in a bag. Asma, Abu Bakr’s daughter, used part of her waist-belt to tie its opening."
+msgstr "حين أُذن بالخروج، جرى تجهيز النبي ﷺ وأبي بكر. وتصف رواية عائشة إعداد الزاد في جراب. واستخدمت أسماء بنت أبي بكر قطعة من نطاقها لربط فمه."
+
+#: src/content/first-chapter.js
+msgid "They also hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr after three nights. The arrangements for the onward journey were already being made."
+msgstr "واستأجرا أيضًا دليلًا ماهرًا، وائتمناه على راحلتين، وواعداه عند ثور بعد ثلاث ليال. فكانت ترتيبات متابعة الرحلة تُعدّ من قبل."
+
+#: src/content/first-chapter.js
+msgid "Three nights at Thawr"
+msgstr "ثلاث ليال في ثور"
+
+#: src/content/first-chapter.js
+msgid "After the preparations, the Prophet ﷺ and Abu Bakr sheltered in a cave on Mount Thawr. ‘Aishah’s account in Sahih al-Bukhari records that they stayed there for three nights. This was a stage within the journey, not its destination."
+msgstr "بعد الاستعدادات، لجأ النبي ﷺ وأبو بكر إلى غار في جبل ثور. وتذكر رواية عائشة في صحيح البخاري أنهما مكثا فيه ثلاث ليال. كانت هذه مرحلة في الرحلة، لا غايتها."
+
+#: src/content/first-chapter.js
+msgid "During the stay, ‘Abdullah ibn Abi Bakr brought news of plans against them. He came after darkness and left before daybreak, returning to Makkah. His contribution was information."
+msgstr "خلال الإقامة، كان عبد الله بن أبي بكر يأتيهما بأخبار ما يُدبّر لهما. كان يأتي بعد حلول الظلام ويغادر قبل الفجر عائدًا إلى مكة. وكان دوره نقل الأخبار."
+
+#: src/content/first-chapter.js
+msgid "Abu Bakr’s own account brings us closer to the danger of discovery. He was concerned that they might be seen if someone looked down. The Prophet reassured him."
+msgstr "تقرّبنا رواية أبي بكر نفسه من خطر انكشاف مكانهما. فقد خشي أن يُريا لو نظر أحد إلى أسفل. فطمأنه النبي."
+
+#: src/content/first-chapter.js
+msgid "The Quran also recalls the two in the cave and the reassurance given to the companion. Ibn Kathir’s commentary on the passage explains the reassurance through Allah’s help and support."
+msgstr "ويذكر القرآن أيضًا الاثنين في الغار والطمأنينة التي بُثّت في نفس الصاحب. ويشرح ابن كثير هذه الطمأنينة بنصر الله وتأييده."
+
+#: src/content/first-chapter.js
+msgid "The journey continues"
+msgstr "تستمر الرحلة"
+
+#: src/content/first-chapter.js
+msgid "The arranged meeting with the guide connects the stay at Thawr to the next stage. When the Prophet ﷺ and Abu Bakr continued, ‘Amir ibn Fuhayrah and the guide went with them. The account says that the guide led them by the coastal way."
+msgstr "يربط الموعد المتفق عليه مع الدليل بين الإقامة في ثور والمرحلة التالية. وحين تابع النبي ﷺ وأبو بكر رحلتهما، انطلق معهما عامر بن فهيرة والدليل. وتذكر الرواية أن الدليل أخذ بهم طريق السواحل."
+
+#: src/content/first-chapter.js
+msgid "That description gives us part of the route’s character, but not every turn or stopping place. The connection shown here is schematic; it is not a measured itinerary."
+msgstr "يعطينا هذا الوصف جانبًا من طبيعة الطريق، لكنه لا يحدّد كل منعطف أو موضع توقف. والمسار المعروض هنا تخطيطي، وليس وصفًا مقيسًا للطريق."
+
+#: src/content/first-chapter.js
+msgid "Arrival and a new beginning"
+msgstr "الوصول وبداية جديدة"
+
+#: src/content/first-chapter.js
+msgid "In Madinah, Muslims went out to wait after hearing that the Prophet ﷺ had left Makkah. The arrival account describes their reception of him and his stay among Bani ‘Amr ibn ‘Awf."
+msgstr "في المدينة، خرج المسلمون ينتظرون بعد أن سمعوا بخروج النبي ﷺ من مكة. وتصف رواية الوصول استقبالهم له وإقامته في بني عمرو بن عوف."
+
+#: src/content/first-chapter.js
+msgid "The account goes on to describe a date-drying yard that became the site of the Prophet’s mosque in Madinah. It records the Prophet carrying bricks with those building it."
+msgstr "ثم تصف الرواية مربدًا للتمر صار موضع مسجد النبي في المدينة. وتذكر أن النبي كان ينقل اللَّبِن مع من يبنونه."
+
+#: src/content/first-chapter.js
+msgid "You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah."
+msgstr "تابعت الاستعدادات، وفترة الاحتماء، ومتابعة الرحلة، والوصول. وتعرّفت إلى صور مختلفة من العون وقرأت روايات عن الطمأنينة. هذا عرض مختار، وليس تاريخًا شاملًا لكل أحداث الهجرة وآثارها."
+
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+msgid "Sahih al-Bukhari"
+msgstr "صحيح البخاري"
+
+#: src/content/first-chapter.js
+msgid "Some Muslims moved to Madinah before this departure; the selected passage also describes Abu Bakr waiting to accompany the Prophet ﷺ."
+msgstr "انتقل بعض المسلمين إلى المدينة قبل هذا الخروج؛ ويصف النص المختار أيضًا انتظار أبي بكر ليصحب النبي ﷺ."
+
+#: src/content/first-chapter.js
+msgid "The wording and use are draft research material. A Turath page_id and publication-approved edition have not been locked."
+msgstr "الصياغة والاستخدام مادة بحثية أولية. لم يُحسم معرّف الصفحة في تراث ولا الطبعة المعتمدة للنشر."
+
+#: src/content/first-chapter.js
+msgid "The selected passage describes provisions and Asma bint Abi Bakr using part of her waist-belt to tie the bag."
+msgstr "يصف النص المختار الزاد واستخدام أسماء بنت أبي بكر قطعة من نطاقها لربط الجراب."
+
+#: src/content/first-chapter.js
+msgid "This is a selected Arabic extract, not a final translation or publication clearance."
+msgstr "هذا مقتطف عربي مختار، وليس ترجمة نهائية أو إذنًا بالنشر."
+
+#: src/content/first-chapter.js
+msgid "The selected passage supports the cave on Mount Thawr and three nights."
+msgstr "يثبت النص المختار الغار في جبل ثور والإقامة ثلاث ليال."
+
+#: src/content/first-chapter.js
+msgid "It does not establish coordinates, dimensions, or the exact arrangement of a visual model."
+msgstr "لا يثبت الإحداثيات أو الأبعاد أو الهيئة الدقيقة لنموذج بصري."
+
+#: src/content/first-chapter.js
+msgid "The selected passage describes ‘Abdullah ibn Abi Bakr bringing news of plans against the two companions after darkness."
+msgstr "يصف النص المختار إتيان عبد الله بن أبي بكر بأخبار ما يُدبّر للصاحبين بعد حلول الظلام."
+
+#: src/content/first-chapter.js
+msgid "It does not establish modern clock times or a mapped trail."
+msgstr "لا يحدّد أوقاتًا بالساعات الحديثة ولا مسارًا مرسومًا على خريطة."
+
+#: src/content/first-chapter.js
+msgid "The selected passage connects ‘Amir ibn Fuhayrah with tending sheep and making milk available during the three nights."
+msgstr "يربط النص المختار عامر بن فهيرة برعي الغنم وتوفير اللبن خلال الليالي الثلاث."
+
+#: src/content/first-chapter.js
+msgid "Do not enlarge this passage with an unreviewed footprint-erasing or animal detail."
+msgstr "لا تُضف إلى هذا النص تفاصيل عن محو الآثار أو الحيوانات لم تخضع للمراجعة."
+
+#: src/content/first-chapter.js
+msgid "The selected passage describes hiring a skilled guide, entrusting him with two riding animals, and arranging the meeting at Thawr."
+msgstr "يصف النص المختار استئجار دليل ماهر وائتمانه على راحلتين وترتيب اللقاء عند ثور."
+
+#: src/content/first-chapter.js
+msgid "The selected passage does not supply the guide’s personal name or a precise route."
+msgstr "لا يذكر النص المختار اسم الدليل ولا يحدّد مسارًا دقيقًا."
+
+#: src/content/first-chapter.js
+msgid "The selected passage says that ‘Amir and the guide went with them and that the guide led them by the coastal way."
+msgstr "يذكر النص المختار أن عامرًا والدليل انطلقا معهما، وأن الدليل أخذ بهم طريق السواحل."
+
+#: src/content/first-chapter.js
+msgid "It does not establish every turn, distance, stopping place, or exact GPS route."
+msgstr "لا يحدّد كل منعطف أو مسافة أو موضع توقف، ولا مسارًا دقيقًا بالإحداثيات."
+
+#: src/content/first-chapter.js
+msgid "Abu Bakr’s account records concern about being seen and the Prophet’s reassurance."
+msgstr "تسجّل رواية أبي بكر خشيته من أن يُريا وطمأنة النبي له."
+
+#: src/content/first-chapter.js
+msgid "The display is an Arabic extract and draft attribution; it is not a visual depiction of the unseen."
+msgstr "المعروض مقتطف عربي مع نسبة أولية؛ وليس تصويرًا بصريًا للغيب."
+
+#: src/content/first-chapter.js
+msgid "Quran"
+msgstr "القرآن الكريم"
+
+#: src/content/first-chapter.js
+msgid "The selected extract recalls the two in the cave and the reassurance to the companion."
+msgstr "يذكر المقتطف المختار الاثنين في الغار وطمأنة الصاحب."
+
+#: src/content/first-chapter.js
+msgid "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr. No final translation is selected."
+msgstr "هذا المقتطف ليس الآية كاملة، ولا يسمّي بنفسه أبا بكر أو جبل ثور. ولم تُختر ترجمة نهائية."
+
+#: src/content/first-chapter.js
+msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
+msgstr "ابن كثير، البداية والنهاية"
+
+#: src/content/first-chapter.js
+msgid "Ibn Kathir’s commentary on the Turath page explains the reassurance through Allah’s help, support, and strengthening."
+msgstr "يشرح كلام ابن كثير في صفحة تراث الطمأنينة بنصر الله وتأييده وتقويته."
+
+#: src/content/first-chapter.js
+msgid "This is commentary in Ibn Kathir, not the Quranic wording itself; the use and wording remain pending scholarly review."
+msgstr "هذا شرح لابن كثير، وليس نص القرآن نفسه؛ ولا يزال الاستخدام والصياغة بانتظار المراجعة العلمية."
+
+#: src/content/first-chapter.js
+msgid "The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf."
+msgstr "تصف رواية الوصول المختارة انتظار الناس والإقامة في بني عمرو بن عوف."
+
+#: src/content/first-chapter.js
+msgid "Keep arrival duration and exact geography out of the draft chapter until separately reviewed."
+msgstr "لا تُدرج مدة الإقامة عند الوصول والتفاصيل الجغرافية الدقيقة في مسودة الفصل حتى تُراجع على حدة."
+
+#: src/content/first-chapter.js
+msgid "The selected passage describes the mosque site and the Prophet ﷺ carrying bricks with the builders."
+msgstr "يصف النص المختار موضع المسجد وحمل النبي ﷺ اللَّبِن مع البنّائين."
+
+#: src/content/first-chapter.js
+msgid "It does not establish the exact appearance of buildings in the scene."
+msgstr "لا يثبت الهيئة الدقيقة للمباني في المشهد."
+
+#: src/content/first-chapter.js
+msgid "Al-Sa‘di"
+msgstr "السعدي"
+
+#: src/content/first-chapter.js
+msgid "Attribution recorded in the cited work"
+msgstr "النسبة مسجّلة في الكتاب المستشهد به"
+
+#: src/content/first-chapter.js
+msgid "Turath book_id/page_id retrieved from category 24; publication approval pending"
+msgstr "جُلب معرّفا الكتاب والصفحة من تراث من التصنيف 24؛ واعتماد النشر قيد الانتظار"
+
+#: src/lib/guide-provider.js
+msgid "The selected evidence does not establish an exact route. It describes a coastal way, while this overview is schematic rather than a measured itinerary."
+msgstr "لا تثبت الأدلة المختارة مسارًا دقيقًا. إنها تصف طريقًا ساحليًا، بينما هذا العرض تخطيطي وليس وصفًا مقيسًا للطريق."
+
+#: src/lib/guide-provider.js
+msgid "They hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr. The account says he led them by the coastal way."
+msgstr "استأجرا دليلًا ماهرًا، وائتمناه على راحلتين، وواعداه عند ثور. وتذكر الرواية أنه أخذ بهم طريق السواحل."
+
+#: src/lib/guide-provider.js
+msgid "The selected account says that they remained in the cave for three nights."
+msgstr "تذكر الرواية المختارة أنهما مكثا في الغار ثلاث ليال."
+
+#: src/lib/guide-provider.js
+msgid "The preparations account describes provisions packed in a bag and Asma bint Abi Bakr using part of her waist-belt to tie its opening."
+msgstr "تصف رواية الاستعدادات وضع الزاد في جراب واستخدام أسماء بنت أبي بكر قطعة من نطاقها لربط فمه."
+
+#: src/lib/guide-provider.js
+msgid "The arrival account describes Muslims waiting, the stay among Bani ‘Amr ibn ‘Awf, and later building work at the mosque site."
+msgstr "تصف رواية الوصول انتظار المسلمين والإقامة في بني عمرو بن عوف، ثم العمل في بناء المسجد لاحقًا."
+
+#: src/lib/guide-provider.js
+msgid "The selected evidence does not establish an answer to that question. The available source records are shown below."
+msgstr "لا تثبت الأدلة المختارة إجابة عن هذا السؤال. وتظهر المصادر المتاحة أدناه."
+
+#: src/lib/scene-manifest.js
+msgid "Makkah"
+msgstr "مكة"
+
+#: src/lib/scene-manifest.js
+msgid "Where the chapter begins, with preparations for departure."
+msgstr "هنا يبدأ الفصل بالاستعداد للخروج."
+
+#: src/lib/scene-manifest.js
+msgid "Mount Thawr"
+msgstr "جبل ثور"
+
+#: src/lib/scene-manifest.js
+msgid "The account places a three-night stay in a cave here."
+msgstr "تذكر الرواية الإقامة ثلاث ليال في غار هنا."
+
+#: src/lib/scene-manifest.js
+msgid "The coastal way"
+msgstr "طريق السواحل"
+
+#: src/lib/scene-manifest.js
+msgid "The guide led them by the coast. This line is schematic, not a measured route."
+msgstr "أخذ بهم الدليل طريق السواحل. هذا الخط تخطيطي، وليس مسارًا مقيسًا."
+
+#: src/lib/scene-manifest.js
+msgid "Madinah"
+msgstr "المدينة"
+
+#: src/lib/scene-manifest.js
+msgid "Where the chapter closes, with arrival and a new beginning."
+msgstr "هنا يُختتم الفصل بالوصول وبداية جديدة."
+
+#: src/routes/Journey.svelte
+msgid "Interface language"
+msgstr "لغة الواجهة"
+
+#: src/lib/guide-provider.js
+msgid "‘Amir ibn Fuhayrah and the guide went with them when they continued, and the guide led them by the coastal way. The guide’s personal name and the precise route are not established here."
+msgstr "انطلق معهما عامر بن فهيرة والدليل حين تابعا الرحلة، وأخذ بهم الدليل طريق السواحل. لا يثبت هنا اسم الدليل ولا المسار الدقيق."
+
+#: src/lib/guide-provider.js
+msgid "‘Abdullah ibn Abi Bakr brought news of plans against them after darkness and returned to Makkah before daybreak."
+msgstr "كان عبد الله بن أبي بكر يأتيهما بأخبار ما يُدبّر لهما بعد حلول الظلام، ويعود إلى مكة قبل الفجر."
+
+#: src/lib/guide-provider.js
+msgid "‘Amir ibn Fuhayrah tended the flock and brought milk near the cave during the three nights."
+msgstr "كان عامر بن فهيرة يرعى الغنم ويوفّر اللبن قرب الغار خلال الليالي الثلاث."
+
+#: src/content/first-chapter.js
+msgid "post-hackathon publication review"
+msgstr "مراجعة النشر بعد الهاكاثون"
+
+#. 0: citation.book_id; 1: citation.page_id; 2: citation.volume; 3: citation.page
+#: src/content/first-chapter.js
+msgid "Turath · book {0} · page {1} · vol. {2}, p. {3}"
+msgstr "تراث · الكتاب {0} · الصفحة {1} · ج {2}، ص {3}"
+
+#: src/content/first-chapter.js
+msgid "draft — Turath page retrieved; scholarly and publication review pending"
+msgstr "مسودة — جُلبت صفحة تراث؛ المراجعة العلمية ومراجعة النشر قيد الانتظار"
+
+#: src/content/first-chapter.js
+msgid "draft — scholarly and publication review pending"
+msgstr "مسودة — المراجعة العلمية ومراجعة النشر قيد الانتظار"
+
+#: src/content/first-chapter.js
+msgid "‘Amir ibn Fuhayrah provided another kind of help. He tended sheep and brought them near after nightfall, making milk available. The account describes this on each of the three nights."
+msgstr "قدّم عامر بن فهيرة نوعًا آخر من العون. كان يرعى الغنم ويدنيها منهما بعد حلول الليل، فيوفّر لهما اللبن. وتذكر الرواية أنه كان يفعل ذلك في كل ليلة من الليالي الثلاث."
+
+#: src/lib/journey-state.js
+#: src/lib/journey-state.js
+msgid "Reading mode selected."
+msgstr "اختير وضع القراءة."
+
+#: src/lib/journey-state.js
+msgid "Guided presentation started."
+msgstr "بدأ العرض الموجّه."
+
+#: src/lib/journey-state.js
+msgid "Guided position restored. Press Play to continue."
+msgstr "استُعيد موضعك في الرحلة الموجّهة. اضغط على التشغيل للمتابعة."
+
+#: src/lib/journey-state.js
+msgid "Reading mode selected. The same chapter is available without narration."
+msgstr "اختير وضع القراءة. الفصل نفسه متاح دون سرد صوتي."
+
+#: src/lib/journey-state.js
+msgid "Scene mode selected."
+msgstr "اختير وضع المشهد."
+
+#: src/lib/journey-state.js
+msgid "Source opened. Guided playback remains paused."
+msgstr "فُتح المصدر. لا يزال العرض الموجّه متوقفًا مؤقتًا."
+
+#: src/lib/journey-state.js
+msgid "Panel closed. Press Resume journey to return to the guided position."
+msgstr "أُغلقت اللوحة. اضغط على استئناف الرحلة للعودة إلى موضعك في الرحلة الموجّهة."
+
+#: src/lib/journey-state.js
+msgid "Chapter complete. Recap opened."
+msgstr "اكتمل الفصل. فُتحت الخلاصة."

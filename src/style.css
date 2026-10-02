@@ -66,8 +66,16 @@
         margin: 0;
         padding: 0;
     }
+    :root:lang(ar) {
+        --font-serif: var(--font-arabic);
+        --font-sans: system-ui, sans-serif;
+    }
+    :lang(ar) :is(h1, h2, h3, p) {
+        letter-spacing: normal;
+    }
     button,
     input,
+    select,
     textarea {
         font: inherit;
         color: inherit;

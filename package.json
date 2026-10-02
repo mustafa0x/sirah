@@ -9,9 +9,10 @@
     "dev:api": "uv run api.py",
     "test": "node --test tests/*.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
     "build": "vite build",
+    "i18n:extract": "wuchale --clean",
     "preview": "vite preview --host 127.0.0.1 --port 5100",
-    "format": "oxfmt -c .oxfmtrc.json src vite.config.js index.html tests/*.test.js",
-    "format:check": "oxfmt --check -c .oxfmtrc.json src vite.config.js index.html tests/*.test.js"
+    "format": "oxfmt -c .oxfmtrc.json src vite.config.js wuchale.config.js index.html tests/*.test.js",
+    "format:check": "oxfmt --check -c .oxfmtrc.json src vite.config.js wuchale.config.js index.html tests/*.test.js"
   },
   "dependencies": {
     "navgo": "6.0.12",
@@ -22,7 +23,9 @@
     "@mustafaj/oxfmt": "0.65.0-svelte.10",
     "@sveltejs/vite-plugin-svelte": "7.1.2",
     "@tailwindcss/vite": "4.3.3",
+    "@wuchale/svelte": "^0.21.4",
     "tailwindcss": "4.3.3",
-    "vite": "8.0.14"
+    "vite": "8.0.14",
+    "wuchale": "^0.26.7"
   }
 }

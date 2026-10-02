@@ -1,9 +1,10 @@
 import tailwindcss from '@tailwindcss/vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 import { defineConfig } from 'vite'
+import { wuchale } from 'wuchale/vite'
 
 export default defineConfig({
-    plugins: [tailwindcss(), svelte()],
+    plugins: [wuchale(), tailwindcss(), svelte()],
     publicDir: false,
     build: {
         assetsInlineLimit: 0,
