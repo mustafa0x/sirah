@@ -29,10 +29,19 @@
     } from '../lib/journey-state.js'
     import { ask_guide } from '../lib/guide-provider.js'
     import { create_media_clock } from '../lib/media-clock.js'
-    import { beat_shots, overview_shot, scene_pois, step_scenes } from '../lib/scene-manifest.js'
+    import { create_ambience } from '../lib/ambience.js'
+    import {
+        beat_passages,
+        beat_shots,
+        overview_shot,
+        route_at,
+        scene_pois,
+        step_scenes,
+        timelapse_beats,
+    } from '../lib/scene-manifest.js'
 
     const poi_shots = Object.fromEntries(
-        scene_pois.map((poi) => [poi.id, { ...poi.camera, place: poi.place, height: 0.3 }]),
+        scene_pois.map((poi) => [poi.id, { height: 0.3, ...poi.camera, place: poi.place }]),
     )
     const suggested_questions = [
         chapter.question.prompt,
@@ -43,7 +52,8 @@
     const total_minutes = Math.round(
         chapter.steps.reduce((sum, step) => sum + step.duration, 0) / 60,
     )
-    const idle_route = [0, 0]
+    const idle_route = [0, 0, 0]
+    const ambience = create_ambience()
     const button_base =
         'inline-flex gap-2 items-center justify-center min-h-10 px-4 py-2 rounded-full text-[0.875rem] font-semibold no-underline whitespace-nowrap border border-solid transition-[background,border-color,color,transform] duration-150 ease-[ease] not-disabled:active:[transform:scale(0.97)]'
     const primary_button = `${button_base} text-gold-ink bg-gold border-gold-bright not-disabled:hover:bg-gold-bright`
@@ -73,6 +83,7 @@
     let question_input = $state()
     let recent_turns = $state([])
     let help_open = $state(false)
+    let sound_on = $state(false)
     let source_origin = $state('none')
     let clock
     let advance_timer = 0
@@ -128,7 +139,29 @@
               : overview_shot,
     )
     let mood = $derived(journey.started ? step_scenes[selected_step.id].mood : 'gold')
-    let route = $derived(journey.started ? step_scenes[selected_step.id].route : idle_route)
+    // The route is drawn as the stage plays, so scrubbing moves the journey with it.
+    let route = $derived(
+        journey.started
+            ? route_at(selected_step.id, on_guided_stop ? stop_progress : 1)
+            : idle_route,
+    )
+    let cue_progress = $derived(
+        current_cue ? (stop_progress * selected_step.paragraphs.length) % 1 : 0,
+    )
+    let cycle = $derived(
+        current_cue && timelapse_beats[current_cue.id] && !active_poi
+            ? stop_finished
+                ? 1
+                : cue_progress
+            : null,
+    )
+    $effect(() => ambience.set_mood(mood))
+    let night = $derived(Math.min(3, Math.floor((cycle ?? 0) * 3) + 1))
+    let passage = $derived(
+        current_cue && beat_passages[current_cue.id] && !active_poi
+            ? get_source(beat_passages[current_cue.id])
+            : null,
+    )
     let insets = $derived(
         narrow
             ? { left: 0, right: 0, top: 120, bottom: journey.started ? card_height + 30 : 300 }
@@ -160,7 +193,16 @@
         start_journey(journey, presentation)
         recent_turns = []
         clock?.set_position(0)
-        if (presentation === 'scene') play()
+        if (presentation === 'scene') {
+            set_sound(true)
+            play()
+        }
+    }
+
+    function set_sound(next) {
+        sound_on = next
+        ambience.set_enabled(next)
+        ambience.set_mood(mood)
     }
 
     function play() {
@@ -401,6 +443,7 @@
             pending_timers.forEach((timer) => window.clearTimeout(timer))
             pending_timers.clear()
             clock?.dispose()
+            ambience.dispose()
         }
     })
 </script>
@@ -445,6 +488,12 @@
             <path d="M10 5H5v14h14v-5M14 4h6v6M20 4l-9 9" />
         {:else if name === 'replay'}
             <path d="M4.5 12a7.5 7.5 0 1 0 2.5-5.600M4 4.5V9h4.5" />
+        {:else if name === 'sound'}
+            <path
+                d="M4 9.5v5h3.5l4.5 4v-13l-4.5 4zM15.5 9a4.5 4.5 0 0 1 0 6M18 6.5a8 8 0 0 1 0 11"
+            />
+        {:else if name === 'muted'}
+            <path d="M4 9.5v5h3.5l4.5 4v-13l-4.5 4zM16 9.5l5 5M21 9.5l-5 5" />
         {/if}
     </svg>
 {/snippet}
@@ -479,6 +528,7 @@
             {shot}
             {mood}
             {route}
+            {cycle}
             {insets}
             active_poi_id={active_poi?.id ?? null}
             on_poi={select_poi}
@@ -519,12 +569,40 @@
             >
             <button
                 class={round_button}
+                aria-label={sound_on ? 'Turn sound off' : 'Turn sound on'}
+                aria-pressed={sound_on}
+                onclick={() => set_sound(!sound_on)}
+            >
+                {@render icon(sound_on ? 'sound' : 'muted')}
+            </button>
+            <button
+                class={round_button}
                 aria-label="How this works"
                 aria-expanded={help_open}
                 onclick={() => (help_open = !help_open)}>?</button
             >
         </div>
     </header>
+
+    {#if card_visible && !sheet && (passage || cycle !== null)}
+        <div
+            class="absolute z-10 top-[88px] right-6 left-[calc(var(--rail)+24px)] grid justify-items-center gap-2 text-center pointer-events-none mobile:top-[112px] mobile:left-6"
+            transition:fade={{ duration: 900 }}
+        >
+            {#if passage}
+                <p
+                    class="max-w-[46rem] font-arabic text-[clamp(1.5rem,2.6vw,2.4rem)] leading-[1.9] text-[#fff6e3] [text-shadow:0_2px_24px_rgba(0,0,0,0.75)]"
+                    dir="rtl"
+                    lang="ar"
+                >
+                    {passage.excerpt}
+                </p>
+                <p class={kicker}>{passage.reference}</p>
+            {:else}
+                <p class={kicker}>Night {night} of 3</p>
+            {/if}
+        </div>
+    {/if}
 
     {#if help_open}
         <section
@@ -539,8 +617,8 @@
                 class="grid gap-[9px] mb-[14px] list-none [&>li]:text-ink-soft [&>li]:text-[0.875rem] [&>li]:leading-[1.5] [&_strong]:text-ink [&_kbd]:py-px [&_kbd]:px-[6px] [&_kbd]:bg-[rgba(255,244,222,0.1)] [&_kbd]:border [&_kbd]:border-solid [&_kbd]:border-line [&_kbd]:rounded-[5px] [&_kbd]:font-sans [&_kbd]:text-[0.8125rem]"
             >
                 <li>
-                    <strong>Play</strong> walks the chapter stage by stage. There is no audio in this
-                    demo; the captions keep time.
+                    <strong>Play</strong> walks the chapter stage by stage. There is no narration in this
+                    demo; the captions keep time over a quiet wind.
                 </li>
                 <li>
                     <strong>Drag</strong> to look around, <strong>scroll</strong> to zoom, and select
@@ -582,7 +660,7 @@
             <p
                 class="max-w-[31rem] text-ink font-serif text-[clamp(1.15rem,1.6vw,1.4rem)] leading-[1.45]"
             >
-                Follow the migration from Makkah to Madinah in five stages, with every paragraph
+                Follow the migration from Makkah to Madinah stage by stage, with every paragraph
                 linked to the passage it rests on.
             </p>
             <p

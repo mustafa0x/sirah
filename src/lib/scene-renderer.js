@@ -1,4 +1,12 @@
-import { overview_shot, places, route_legs, scene_pois, stone_assets } from './scene-manifest.js'
+import {
+    overview_shot,
+    places,
+    routes,
+    scene_pois,
+    shelter_asset,
+    worlds as world_definitions,
+} from './scene-manifest.js'
+import { build_terrain, fbm, hash, load_grid } from './scene-terrain.js'
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value))
 const mix = (a, b, t) => a + (b - a) * t
@@ -6,64 +14,7 @@ const smoothstep = (edge0, edge1, value) => {
     const t = clamp((value - edge0) / (edge1 - edge0), 0, 1)
     return t * t * (3 - 2 * t)
 }
-
-// Deterministic value noise: the relief must look the same on every load.
-const hash = (x, z) => {
-    const s = Math.sin(x * 127.1 + z * 311.7) * 43758.5453
-    return s - Math.floor(s)
-}
-const value_noise = (x, z) => {
-    const xi = Math.floor(x)
-    const zi = Math.floor(z)
-    const xf = x - xi
-    const zf = z - zi
-    const u = xf * xf * (3 - 2 * xf)
-    const v = zf * zf * (3 - 2 * zf)
-    return mix(
-        mix(hash(xi, zi), hash(xi + 1, zi), u),
-        mix(hash(xi, zi + 1), hash(xi + 1, zi + 1), u),
-        v,
-    )
-}
-const fbm = (x, z) =>
-    0.5 * value_noise(x, z) + 0.25 * value_noise(x * 2, z * 2) + 0.125 * value_noise(x * 4, z * 4)
-const bump = (x, z, cx, cz, radius, height) =>
-    height * Math.exp(-((x - cx) ** 2 + (z - cz) ** 2) / radius ** 2)
-
-const coast_z = (x) => -5.7 + 0.7 * Math.sin(x * 0.4 + 1) + 0.5 * Math.sin(x * 0.13)
-const peaks = [
-    [-8.3, 2.6, 1.25, 2.35],
-    [-5.7, 3.7, 1.1, 1.15],
-    [-3.4, 0.8, 1, 1.05],
-    [-6.1, -1, 1, 0.95],
-    [-3.7, 3.1, 0.9, 0.75],
-    [10, -0.4, 1.5, 1.15],
-    [6.2, 3.8, 1.1, 0.6],
-    [-11.5, 5, 1.6, 1.3],
-    [-12.5, -0.5, 1.5, 1],
-]
-
-export function terrain_height(x, z) {
-    const coast = coast_z(x)
-    if (z < coast) return 0.05 - 0.45 * smoothstep(0, 1.6, coast - z)
-    const shore = smoothstep(0, 2.4, z - coast)
-    let height = 0.05 + shore * (0.16 + 0.75 * fbm(x * 0.32, z * 0.32))
-    // The inland range the coastal way goes around.
-    const range =
-        Math.exp(-(((z + 1.7) / 1.5) ** 2)) *
-        smoothstep(-4, -1.5, x) *
-        (1 - smoothstep(3.5, 5.5, x))
-    height += range * 2.1 * fbm(x * 0.55 + 10, z * 0.55) ** 1.4
-    // Open ground around the two towns.
-    const settle = Math.max(
-        Math.exp(-((x - places.makkah[0]) ** 2 + (z - places.makkah[1]) ** 2) / 1.3 ** 2),
-        Math.exp(-((x - places.madinah[0]) ** 2 + (z - places.madinah[1]) ** 2) / 2 ** 2),
-    )
-    height = mix(height, 0.14, settle * 0.9)
-    const rough = 0.72 + 0.6 * fbm(x * 1.4 + 3, z * 1.4)
-    for (const [cx, cz, radius, peak] of peaks) height += bump(x, z, cx, cz, radius, peak) * rough
-    return height
-}
+const METRE = 0.001
 
 const moods = {
     gold: {
@@ -143,10 +94,14 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
     const labels = document.createElement('div')
     labels.className =
         'absolute inset-0 overflow-hidden pointer-events-none transition-opacity duration-[0.6s] ease-[ease] group-data-[started=false]/stage:invisible group-data-[started=false]/stage:opacity-0'
+    // Covers the cut between two scales of terrain.
+    const veil = document.createElement('div')
+    veil.style.cssText = 'position:absolute;inset:0;pointer-events:none;opacity:0'
     const api = {
         set_shot() {},
         set_mood() {},
         set_route() {},
+        set_cycle() {},
         set_active() {},
         set_insets() {},
         dispose() {
@@ -157,21 +112,22 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
     try {
         const THREE = await import('three')
         const { GLTFLoader } = await import('three/addons/loaders/GLTFLoader.js')
+        const { Line2 } = await import('three/addons/lines/Line2.js')
+        const { LineGeometry } = await import('three/addons/lines/LineGeometry.js')
+        const { LineMaterial } = await import('three/addons/lines/LineMaterial.js')
         if (disposed) return api
         const reduced_motion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
-        renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false })
+        // The camera moves between a 400 km overview and a few metres inside the shelter.
+        renderer = new THREE.WebGLRenderer({ antialias: true, logarithmicDepthBuffer: true })
         renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2))
         renderer.toneMapping = THREE.ACESFilmicToneMapping
         renderer.shadowMap.enabled = true
         renderer.shadowMap.type = THREE.PCFShadowMap
         renderer.domElement.style.display = 'block'
-        host.replaceChildren(renderer.domElement, labels)
+        host.replaceChildren(renderer.domElement, veil, labels)
         scene = new THREE.Scene()
         scene.fog = new THREE.Fog(0xf6dcb2, 24, 80)
-
-        const ground_at = (x, z, lift = 0) => new THREE.Vector3(x, terrain_height(x, z) + lift, z)
-        const place_at = (name, lift = 0) => ground_at(places[name][0], places[name][1], lift)
 
         // Sky, stars, light.
         const sky_uniforms = {
@@ -179,10 +135,11 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             horizon: { value: new THREE.Color() },
         }
         const sky = new THREE.Mesh(
-            new THREE.SphereGeometry(80, 24, 16),
+            new THREE.SphereGeometry(150, 24, 16),
             new THREE.ShaderMaterial({
                 side: THREE.BackSide,
                 depthWrite: false,
+                depthTest: false,
                 fog: false,
                 uniforms: sky_uniforms,
                 vertexShader:
@@ -191,17 +148,19 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     'uniform vec3 top; uniform vec3 horizon; varying float h; void main() { float t = pow(smoothstep(-0.05, 0.75, h), 0.6); gl_FragColor = vec4(mix(horizon, top, t), 1.0); }',
             }),
         )
+        sky.renderOrder = -2
+        sky.frustumCulled = false
         scene.add(sky)
 
         const star_positions = []
-        for (let index = 0; index < 900; index += 1) {
+        for (let index = 0; index < 1100; index += 1) {
             const azimuth = hash(index, 1) * Math.PI * 2
-            const height = 0.06 + hash(index, 2) * 0.94
+            const height = 0.04 + hash(index, 2) * 0.96
             const radius = Math.sqrt(1 - height * height)
             star_positions.push(
-                70 * radius * Math.cos(azimuth),
-                70 * height,
-                70 * radius * Math.sin(azimuth),
+                140 * radius * Math.cos(azimuth),
+                140 * height,
+                140 * radius * Math.sin(azimuth),
             )
         }
         const star_geometry = new THREE.BufferGeometry()
@@ -215,24 +174,25 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             depthWrite: false,
             fog: false,
         })
-        scene.add(new THREE.Points(star_geometry, star_material))
+        const stars = new THREE.Points(star_geometry, star_material)
+        stars.renderOrder = -1
+        stars.frustumCulled = false
+        scene.add(stars)
 
         const hemisphere = new THREE.HemisphereLight(0xffffff, 0x000000, 1)
         scene.add(hemisphere)
         const sun = new THREE.DirectionalLight(0xffffff, 2)
         sun.castShadow = true
         sun.shadow.mapSize.set(2048, 2048)
-        sun.shadow.camera.left = -16
-        sun.shadow.camera.right = 16
-        sun.shadow.camera.top = 12
-        sun.shadow.camera.bottom = -12
-        sun.shadow.camera.near = 1
-        sun.shadow.camera.far = 60
-        sun.shadow.bias = -0.0006
-        sun.shadow.normalBias = 0.04
+        sun.shadow.bias = -0.0004
         scene.add(sun, sun.target)
 
         const sea_material = new THREE.MeshStandardMaterial({ roughness: 0.42, metalness: 0 })
+        const sea = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), sea_material)
+        sea.rotation.x = -Math.PI / 2
+        sea.receiveShadow = true
+        scene.add(sea)
+
         const mood = {
             top: new THREE.Color(),
             horizon: new THREE.Color(),
@@ -247,12 +207,21 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             exposure: 1,
         }
         let mood_target = moods.gold
+        // null, or 0..1 through three nights.
+        let cycle = null
+        const night_phases = [
+            [0.5, 'night'],
+            [0.64, 'dusk'],
+            [0.8, 'gold'],
+            [0.92, 'dusk'],
+            [1, 'night'],
+        ]
         const scratch_color = new THREE.Color()
         const scratch_vector = new THREE.Vector3()
-        const blend_mood = (amount) => {
+        const blend_mood = (amount, mood_target) => {
             for (const key of ['top', 'horizon', 'sun', 'sky_light', 'ground_light', 'sea'])
                 mood[key].lerp(scratch_color.setHex(mood_target[key]), amount)
-            mood.sun_at.lerp(scratch_vector.set(...mood_target.sun_at), amount)
+            mood.sun_at.lerp(scratch_vector.set(...mood_target.sun_at).normalize(), amount)
             for (const key of ['sun_power', 'ambient', 'stars', 'exposure'])
                 mood[key] = mix(mood[key], mood_target[key], amount)
             sky_uniforms.top.value.copy(mood.top)
@@ -260,7 +229,6 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             scene.fog.color.copy(mood.horizon)
             sun.color.copy(mood.sun)
             sun.intensity = mood.sun_power
-            sun.position.copy(mood.sun_at).multiplyScalar(4)
             hemisphere.color.copy(mood.sky_light)
             hemisphere.groundColor.copy(mood.ground_light)
             hemisphere.intensity = mood.ambient
@@ -268,125 +236,17 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             sea_material.color.copy(mood.sea)
             renderer.toneMappingExposure = mood.exposure
         }
-        blend_mood(1)
+        blend_mood(1, mood_target)
 
-        // Relief.
-        const terrain_geometry = new THREE.PlaneGeometry(76, 52, 228, 156)
-        terrain_geometry.rotateX(-Math.PI / 2)
-        terrain_geometry.translate(0, 0, 7)
-        const position = terrain_geometry.attributes.position
-        const colors = new Float32Array(position.count * 3)
-        const sand = new THREE.Color(0xcda873)
-        const shore = new THREE.Color(0xe2cb9c)
-        const rock = new THREE.Color(0x8d6b4b)
-        const high_rock = new THREE.Color(0x5e4737)
-        const grove = new THREE.Color(0x77834a)
-        const tint = new THREE.Color()
-        for (let index = 0; index < position.count; index += 1) {
-            const x = position.getX(index) + (hash(index, 7) - 0.5) * 0.22
-            const z = position.getZ(index) + (hash(index, 8) - 0.5) * 0.22
-            const height = terrain_height(x, z)
-            position.setXYZ(index, x, height, z)
-            tint.copy(sand).lerp(shore, 1 - smoothstep(0, 1.6, z - coast_z(x)))
-            tint.lerp(rock, smoothstep(0.35, 1.05, height))
-            tint.lerp(high_rock, smoothstep(1.2, 2.3, height))
-            tint.lerp(
-                grove,
-                0.45 *
-                    Math.exp(
-                        -((x - places.madinah[0]) ** 2 + (z - places.madinah[1]) ** 2) / 1.5 ** 2,
-                    ),
-            )
-            tint.multiplyScalar(0.94 + 0.12 * fbm(x * 0.9, z * 0.9))
-            colors.set([tint.r, tint.g, tint.b], index * 3)
-        }
-        terrain_geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3))
-        terrain_geometry.computeVertexNormals()
-        const terrain = new THREE.Mesh(
-            terrain_geometry,
-            new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: 1 }),
-        )
-        terrain.castShadow = true
-        terrain.receiveShadow = true
-        scene.add(terrain)
-
-        const sea = new THREE.Mesh(new THREE.PlaneGeometry(260, 260), sea_material)
-        sea.rotation.x = -Math.PI / 2
-        sea.receiveShadow = true
-        scene.add(sea)
-
-        // Schematic settlements: plain blocks and palms, no claimed architecture.
-        const add = (geometry, material, x, y, z) => {
-            const mesh = new THREE.Mesh(geometry, material)
-            mesh.position.set(x, y, z)
-            mesh.castShadow = true
-            mesh.receiveShadow = true
-            scene.add(mesh)
-            return mesh
-        }
-        const wall_materials = [0xd8b98c, 0xc9a877, 0xe3c9a0].map(
-            (color) =>
-                new THREE.MeshStandardMaterial({ color, roughness: 0.95, flatShading: true }),
-        )
-        const block_geometry = new THREE.BoxGeometry(1, 1, 1)
-        const add_blocks = (cx, cz, count, spread, seed) => {
-            for (let index = 0; index < count; index += 1) {
-                const angle = hash(index, seed) * Math.PI * 2
-                const reach = spread * Math.sqrt(hash(index, seed + 1))
-                const x = cx + reach * Math.cos(angle)
-                const z = cz + reach * Math.sin(angle)
-                const width = 0.2 + 0.18 * hash(index, seed + 2)
-                const depth = 0.2 + 0.18 * hash(index, seed + 3)
-                const tall = 0.14 + 0.16 * hash(index, seed + 4)
-                const block = add(
-                    block_geometry,
-                    wall_materials[index % wall_materials.length],
-                    x,
-                    terrain_height(x, z) + tall / 2 - 0.01,
-                    z,
-                )
-                block.scale.set(width, tall, depth)
-                block.rotation.y = hash(index, seed + 5) * 0.6
-            }
-        }
-        add_blocks(places.makkah[0], places.makkah[1], 30, 0.95, 11)
-        add_blocks(places.madinah[0] - 0.2, places.madinah[1] + 0.1, 12, 0.7, 41)
-
-        const trunk_geometry = new THREE.CylinderGeometry(0.018, 0.032, 1, 5)
-        const frond_geometry = new THREE.ConeGeometry(0.035, 0.3, 4)
-        frond_geometry.translate(0, 0.15, 0)
-        const trunk_material = new THREE.MeshStandardMaterial({ color: 0x6f4d30, roughness: 1 })
-        const frond_material = new THREE.MeshStandardMaterial({
-            color: 0x5f8040,
-            roughness: 0.9,
-            flatShading: true,
-        })
-        for (let index = 0; index < 34; index += 1) {
-            const angle = hash(index, 71) * Math.PI * 2
-            const reach = 0.35 + 1.25 * Math.sqrt(hash(index, 72))
-            const x = places.madinah[0] + reach * Math.cos(angle)
-            const z = places.madinah[1] + reach * Math.sin(angle) * 0.85
-            const tall = 0.32 + 0.22 * hash(index, 73)
-            const base = terrain_height(x, z)
-            add(trunk_geometry, trunk_material, x, base + tall / 2, z).scale.y = tall
-            for (let leaf = 0; leaf < 7; leaf += 1) {
-                const frond = add(frond_geometry, frond_material, x, base + tall, z)
-                frond.rotation.set(
-                    1.15 + 0.5 * hash(index, leaf),
-                    (leaf / 7) * Math.PI * 2,
-                    0,
-                    'YXZ',
-                )
-            }
-        }
-
-        // The cave: a dark recess framed by boulders on the near face of Thawr.
-        const cave = place_at('cave')
+        // Shared materials and shapes for the hand-built sets.
         const stone_material = new THREE.MeshStandardMaterial({
             color: 0x8f7052,
             roughness: 1,
             flatShading: true,
         })
+        const wall_colors = [0xd8b98c, 0xc9a877, 0xe3c9a0].map((color) => new THREE.Color(color))
+        const wall_material = new THREE.MeshStandardMaterial({ roughness: 0.95, flatShading: true })
+        const block_geometry = new THREE.BoxGeometry(1, 1, 1)
         const boulder_geometry = new THREE.IcosahedronGeometry(1, 1)
         const boulder_position = boulder_geometry.attributes.position
         for (let index = 0; index < boulder_position.count; index += 1) {
@@ -398,184 +258,427 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             boulder_position.setXYZ(index, x * swell, y * swell, z * swell)
         }
         boulder_geometry.computeVertexNormals()
-        const boulder = (x, y, z, scale, turn = 0) => {
-            const mesh = add(boulder_geometry, stone_material, cave.x + x, cave.y + y, cave.z + z)
-            mesh.scale.set(...scale)
-            mesh.rotation.set(turn * 0.7, turn, turn * 0.3)
-        }
-        boulder(-0.42, 0.08, 0.1, [0.3, 0.42, 0.34], 0.6)
-        boulder(0.44, 0.04, 0.08, [0.32, 0.38, 0.36], 2.1)
-        boulder(0.02, 0.5, -0.06, [0.62, 0.24, 0.4], 1.2)
-        boulder(-0.75, -0.1, 0.3, [0.24, 0.2, 0.24], 3.3)
-        boulder(0.8, -0.16, 0.34, [0.2, 0.17, 0.22], 4.4)
-        const recess = new THREE.Mesh(
-            new THREE.SphereGeometry(1, 16, 12),
-            new THREE.MeshBasicMaterial({ color: 0x070504, fog: false }),
-        )
-        recess.position.set(cave.x, cave.y + 0.1, cave.z - 0.02)
-        recess.scale.set(0.34, 0.3, 0.3)
-        scene.add(recess)
-
-        // The route: a faint full trace, and a bright line that grows as the chapter moves.
-        const route_material = new THREE.MeshBasicMaterial({ color: 0xffc56a, fog: false })
-        const trace_material = new THREE.LineDashedMaterial({
-            color: 0xfff1d6,
-            dashSize: 0.16,
-            gapSize: 0.16,
-            transparent: true,
-            opacity: 0.5,
-        })
-        const radial = 6
-        const legs = route_legs.map((points) => {
-            const plan = new THREE.CatmullRomCurve3(
-                points.map(([x, z]) => new THREE.Vector3(x, 0, z)),
-                false,
-                'centripetal',
-            )
-            const segments = Math.round(plan.getLength() * 10)
-            const draped = plan
-                .getSpacedPoints(segments)
-                .map((point) => ground_at(point.x, point.z, 0.07))
-            const curve = new THREE.CatmullRomCurve3(draped)
-            const tube = new THREE.Mesh(
-                new THREE.TubeGeometry(curve, segments, 0.028, radial, false),
-                route_material,
-            )
-            tube.geometry.setDrawRange(0, 0)
-            const trace = new THREE.Line(
-                new THREE.BufferGeometry().setFromPoints(draped),
-                trace_material,
-            )
-            trace.computeLineDistances()
-            scene.add(tube, trace)
-            return { curve, tube, segments, shown: 0, target: 0 }
-        })
-        const traveller = new THREE.Mesh(
-            new THREE.SphereGeometry(0.06, 16, 12),
-            new THREE.MeshBasicMaterial({ color: 0xffe2a0, fog: false }),
-        )
-        traveller.visible = false
-        scene.add(traveller)
-
-        const ring_geometry = new THREE.TorusGeometry(0.22, 0.02, 6, 32)
+        const ring_geometry = new THREE.TorusGeometry(1, 0.09, 6, 32)
         ring_geometry.rotateX(Math.PI / 2)
-        const rings = scene_pois
-            .filter((poi) => poi.ring !== false)
-            .map((poi) => {
-                const ring = new THREE.Mesh(
-                    ring_geometry,
-                    new THREE.MeshBasicMaterial({ color: 0xffd68a, transparent: true, fog: false }),
-                )
-                ring.position.copy(place_at(poi.place, 0.1))
-                scene.add(ring)
-                return ring
-            })
+        const dummy = new THREE.Object3D()
+        const shadowed = (mesh) => {
+            mesh.castShadow = true
+            mesh.receiveShadow = true
+            return mesh
+        }
 
-        // Loose rock, from the promoted CC0 stone kit.
-        const scatter = [
-            [-7.4, 3.9, 0.5],
-            [-9.2, 3.6, 0.6],
-            [-8.9, 4.3, 0.42],
-            [-7.7, 4.6, 0.36],
-            [-6.3, 3.2, 0.5],
-            [-4.1, 2.2, 0.42],
-            [-6.6, 0.1, 0.48],
-            [-9.8, 1.2, 0.55],
-            [-2.2, -1.2, 0.6],
-            [0.8, -1.9, 0.7],
-            [3.6, -1.5, 0.6],
-            [5.6, 2.9, 0.42],
-            [9.2, 1.1, 0.5],
-            [1.5, 2.6, 0.5],
-            [-1.2, 3.8, 0.55],
-        ]
-        const loader = new GLTFLoader()
-        stone_assets.forEach((asset_url, asset_index) => {
-            loader.load(
-                asset_url,
+        // Schematic settlement: plain blocks on the level ground, no claimed architecture.
+        const add_blocks = (world, place, count, radius, seed) => {
+            const mesh = shadowed(new THREE.InstancedMesh(block_geometry, wall_material, count))
+            const [cx, cz] = world.terrain.to_xz(places[place].lat, places[place].lon)
+            for (let index = 0; index < count; index += 1) {
+                const angle = hash(index, seed) * Math.PI * 2
+                const reach = radius * Math.sqrt(hash(index, seed + 1))
+                const x = cx + reach * Math.cos(angle)
+                const z = cz + reach * Math.sin(angle)
+                const tall = 0.016 + 0.024 * hash(index, seed + 4)
+                const level = world.terrain.slope(x, z) < 0.22
+                dummy.position.set(x, world.terrain.height(x, z) + tall / 2 - 0.002, z)
+                dummy.rotation.set(0, hash(index, seed + 5) * 0.7, 0)
+                dummy.scale.set(
+                    0.03 + 0.035 * hash(index, seed + 2),
+                    level ? tall : 0,
+                    0.03 + 0.035 * hash(index, seed + 3),
+                )
+                dummy.updateMatrix()
+                mesh.setMatrixAt(index, dummy.matrix)
+                mesh.setColorAt(index, wall_colors[index % wall_colors.length])
+            }
+            world.group.add(mesh)
+        }
+
+        const add_palms = (world, groves) => {
+            const total = groves.reduce((sum, grove) => sum + grove.count, 0)
+            const fronds_each = 7
+            const trunk_geometry = new THREE.CylinderGeometry(0.0012, 0.002, 1, 5)
+            trunk_geometry.translate(0, 0.5, 0)
+            const frond_geometry = new THREE.ConeGeometry(0.0017, 0.013, 4)
+            frond_geometry.translate(0, 0.0065, 0)
+            const trunks = shadowed(
+                new THREE.InstancedMesh(
+                    trunk_geometry,
+                    new THREE.MeshStandardMaterial({ color: 0x6f4d30, roughness: 1 }),
+                    total,
+                ),
+            )
+            const fronds = shadowed(
+                new THREE.InstancedMesh(
+                    frond_geometry,
+                    new THREE.MeshStandardMaterial({
+                        color: 0x5f8040,
+                        roughness: 0.9,
+                        flatShading: true,
+                    }),
+                    total * fronds_each,
+                ),
+            )
+            let index = 0
+            for (const grove of groves) {
+                const [cx, cz] = world.terrain.to_xz(
+                    places[grove.place].lat,
+                    places[grove.place].lon,
+                )
+                for (let tree = 0; tree < grove.count; tree += 1, index += 1) {
+                    const angle = hash(index, 71) * Math.PI * 2
+                    const reach =
+                        grove.inner + (grove.radius - grove.inner) * Math.sqrt(hash(index, 72))
+                    const x = cx + reach * Math.cos(angle)
+                    const z = cz + reach * Math.sin(angle)
+                    // Groves gather in clumps on level ground.
+                    const grows =
+                        world.terrain.slope(x, z) < 0.1 && fbm(x * 2.2 + 5, z * 2.2) > 0.36
+                    const tall = grows ? 0.018 + 0.016 * hash(index, 73) : 0
+                    const base = world.terrain.height(x, z)
+                    dummy.position.set(x, base, z)
+                    dummy.rotation.set(0, 0, 0)
+                    dummy.scale.set(grows ? 1 : 0, tall, grows ? 1 : 0)
+                    dummy.updateMatrix()
+                    trunks.setMatrixAt(index, dummy.matrix)
+                    for (let leaf = 0; leaf < fronds_each; leaf += 1) {
+                        dummy.position.set(x, base + tall, z)
+                        dummy.rotation.set(
+                            1.15 + 0.5 * hash(index, leaf),
+                            (leaf / fronds_each) * Math.PI * 2 + hash(index, 9),
+                            0,
+                            'YXZ',
+                        )
+                        dummy.scale.setScalar(grows ? 1.1 + 0.7 * hash(index, 74) : 0)
+                        dummy.updateMatrix()
+                        fronds.setMatrixAt(index * fronds_each + leaf, dummy.matrix)
+                    }
+                }
+            }
+            world.group.add(trunks, fronds)
+        }
+
+        // The shelter set: a few dozen metres of detailed ground near the summit of Thawr,
+        // holding the shelter model at true scale. Illustrative, not a reconstruction.
+        const add_cave_set = (world) => {
+            const { terrain } = world
+            const [tx, tz] = terrain.to_xz(places.thawr.lat, places.thawr.lon)
+            const summit = terrain.height(tx, tz)
+            let best = Infinity
+            let sx = tx
+            let sz = tz
+            for (let dx = -0.3; dx <= 0.3; dx += 0.03) {
+                for (let dz = -0.3; dz <= 0.3; dz += 0.03) {
+                    const score =
+                        terrain.slope(tx + dx, tz + dz) +
+                        (summit - terrain.height(tx + dx, tz + dz)) * 0.6
+                    if (score < best) {
+                        best = score
+                        sx = tx + dx
+                        sz = tz + dz
+                    }
+                }
+            }
+            // Local ground, in metres north and east of the site.
+            const ground = (north, east) => {
+                const reach = Math.hypot(north, east)
+                const shelf = mix(0.2, 1, smoothstep(6, 18, reach))
+                return (
+                    terrain.height(sx + north * METRE, sz + east * METRE) +
+                    METRE *
+                        (0.6 +
+                            2.2 * shelf * fbm(north * 0.09 + 20, east * 0.09) +
+                            0.25 * fbm(north * 0.7, east * 0.7 + 3) -
+                            5 * smoothstep(52, 70, reach))
+                )
+            }
+            const patch_geometry = new THREE.PlaneGeometry(0.14, 0.14, 128, 128)
+            patch_geometry.rotateX(-Math.PI / 2)
+            const position = patch_geometry.attributes.position
+            const colors = new Float32Array(position.count * 3)
+            const rock = new THREE.Color(0xb08a5e)
+            const dark = new THREE.Color(0x7d5f44)
+            const tint = new THREE.Color()
+            for (let index = 0; index < position.count; index += 1) {
+                const north = position.getX(index) / METRE
+                const east = position.getZ(index) / METRE
+                position.setXYZ(index, sx + north * METRE, ground(north, east), sz + east * METRE)
+                tint.copy(rock).lerp(dark, fbm(north * 0.35, east * 0.35 + 7) * 1.2)
+                colors.set([tint.r, tint.g, tint.b], index * 3)
+            }
+            patch_geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3))
+            patch_geometry.computeVertexNormals()
+            const patch = new THREE.Mesh(
+                patch_geometry,
+                new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 }),
+            )
+            patch.receiveShadow = true
+            world.group.add(patch)
+
+            const boulder = (north, east, radius, squash = 0.75, sink = 0.35) => {
+                const mesh = shadowed(new THREE.Mesh(boulder_geometry, stone_material))
+                mesh.position.set(
+                    sx + north * METRE,
+                    ground(north, east) + radius * METRE * (squash - sink),
+                    sz + east * METRE,
+                )
+                mesh.scale.set(radius * METRE, radius * squash * METRE, radius * METRE)
+                mesh.rotation.set(north, east, radius)
+                world.group.add(mesh)
+            }
+            // Loose stone on the slope around the shelter.
+            for (let index = 0; index < 34; index += 1) {
+                const angle = hash(index, 31) * Math.PI * 2
+                const reach = 8 + 40 * hash(index, 32)
+                boulder(
+                    reach * Math.cos(angle),
+                    reach * Math.sin(angle),
+                    0.25 + 1.1 * hash(index, 33) ** 2,
+                    0.65,
+                    0.2,
+                )
+            }
+
+            world.cave_site = new THREE.Vector3(sx, ground(0, 0), sz)
+            // A faint fill so the recess reads from inside. Three clamps the falloff of very
+            // near lights, so at this scale the intensity is effectively the illuminance / 100.
+            const fill = new THREE.PointLight(0xcdd6f0, 0.012, 0.008)
+            fill.position.set(sx + 2.6 * METRE, ground(0, 0) + 0.7 * METRE, sz)
+            world.group.add(fill)
+            new GLTFLoader().load(
+                shelter_asset,
                 (gltf) => {
                     if (disposed) return
-                    gltf.scene.traverse((child) => {
+                    const model = gltf.scene
+                    const box = new THREE.Box3().setFromObject(model)
+                    const size = box.getSize(new THREE.Vector3())
+                    const centre = box.getCenter(new THREE.Vector3())
+                    model.position.set(-centre.x, -box.min.y, -centre.z)
+                    model.traverse((child) => {
                         if (!child.isMesh) return
-                        child.material = stone_material
-                        child.castShadow = true
-                        child.receiveShadow = true
+                        shadowed(child)
+                        child.material.normalScale?.setScalar(0.6)
+                        child.material.color.setRGB(1, 0.8, 0.6)
                     })
-                    scatter.forEach(([x, z, scale], index) => {
-                        if (index % stone_assets.length !== asset_index) return
-                        const stone = gltf.scene.clone()
-                        stone.position.copy(ground_at(x, z, -0.03))
-                        stone.scale.setScalar(scale)
-                        stone.rotation.y = hash(index, 5) * Math.PI * 2
-                        scene.add(stone)
-                    })
+                    // About nine metres across; the model's opening faces +x, which is north.
+                    const scale = (9 * METRE) / Math.max(size.x, size.z)
+                    const place = (north, east, grow, turn, sink) => {
+                        const rock = new THREE.Group()
+                        rock.add(north || east ? model.clone() : model)
+                        rock.scale.setScalar(scale * grow)
+                        rock.rotation.y = turn
+                        rock.position.set(
+                            sx + north * METRE,
+                            ground(north, east) - size.y * scale * grow * sink,
+                            sz + east * METRE,
+                        )
+                        world.group.add(rock)
+                    }
+                    place(0, 0, 1, 0, 0.04)
+                    // The same rock, turned away and half buried, becomes the hillside
+                    // behind and beside the shelter, so it sits in the slope, not on it.
+                    place(-7.5, -1.5, 1.7, Math.PI * 0.95, 0.3)
+                    place(-2.5, -8.5, 1.15, Math.PI * 0.6, 0.35)
+                    place(-3, 8, 1.25, -Math.PI * 0.7, 0.35)
                 },
                 undefined,
-                () => {},
+                () => {
+                    // Without the model, a plain recess still marks the place.
+                    boulder(0.5, -3.2, 2.6, 0.9)
+                    boulder(0.5, 3.2, 2.4, 0.9)
+                    boulder(0, 0, 3.6, 0.55, -0.5)
+                },
             )
-        })
+        }
+
+        // Worlds: one group per scale of terrain, built on first use.
+        const route_materials = []
+        const worlds = {}
+        let active = null
+        const leg_target = [0, 0, 0]
+        const ensure_world = (name) => {
+            if (worlds[name]) return worlds[name].ready
+            const definition = world_definitions[name]
+            const world = { name, definition, group: new THREE.Group(), routes: [], rings: [] }
+            worlds[name] = world
+            world.ready = load_grid(definition).then((grid) => {
+                if (disposed) return world
+                world.terrain = build_terrain(THREE, definition, grid)
+                world.group.add(world.terrain.mesh)
+                if (name === 'makkah') {
+                    add_blocks(world, 'makkah', 260, 0.75, 11)
+                    add_cave_set(world)
+                }
+                if (name === 'madinah') {
+                    add_blocks(world, 'madinah', 150, 0.5, 41)
+                    add_palms(world, [
+                        { place: 'madinah', count: 1500, inner: 0.3, radius: 1.7 },
+                        { place: 'quba', count: 1300, inner: 0, radius: 1.1 },
+                    ])
+                }
+
+                const regional = definition.km_per_unit > 1
+                for (const route of routes.filter((item) => item.world === name)) {
+                    const plan = new THREE.CatmullRomCurve3(
+                        route.points.map(([lat, lon]) => {
+                            const [x, z] = world.terrain.to_xz(lat, lon)
+                            return new THREE.Vector3(x, 0, z)
+                        }),
+                        false,
+                        'centripetal',
+                    )
+                    const count = 200
+                    const draped = []
+                    const points = plan.getSpacedPoints(count)
+                    for (const point of points) {
+                        point.y = world.terrain.height(point.x, point.z) + (regional ? 0.05 : 0.012)
+                        draped.push(point.x, point.y, point.z)
+                    }
+                    const trace_material = new LineMaterial({
+                        color: 0xfff1d6,
+                        linewidth: 1.5,
+                        dashed: true,
+                        dashSize: regional ? 0.16 : 0.07,
+                        gapSize: regional ? 0.16 : 0.07,
+                        transparent: true,
+                        opacity: 0.55,
+                    })
+                    const line_material = new LineMaterial({ color: 0xffc56a, linewidth: 4 })
+                    route_materials.push(trace_material, line_material)
+                    const trace = new Line2(new LineGeometry().setPositions(draped), trace_material)
+                    trace.computeLineDistances()
+                    const line = new Line2(new LineGeometry().setPositions(draped), line_material)
+                    line.geometry.instanceCount = 0
+                    world.group.add(trace, line)
+                    world.routes.push({ ...route, line, points, count, shown: 0 })
+                }
+
+                world.anchors = new Map()
+                for (const poi of scene_pois) {
+                    const place = places[poi.anchors[name]]
+                    if (!place) continue
+                    const ground = place.set ? world.cave_site.clone() : new THREE.Vector3()
+                    if (!place.set) {
+                        const [x, z] = world.terrain.to_xz(place.lat, place.lon)
+                        ground.set(x, world.terrain.height(x, z), z)
+                    }
+                    world.anchors.set(
+                        poi.id,
+                        ground.clone().setY(ground.y + (poi.lift ?? definition.label_lift)),
+                    )
+                    if (poi.ring === false) continue
+                    const ring = new THREE.Mesh(
+                        ring_geometry,
+                        new THREE.MeshBasicMaterial({
+                            color: 0xffd68a,
+                            transparent: true,
+                            fog: false,
+                        }),
+                    )
+                    ring.position.copy(ground).setY(ground.y + (regional ? 0.06 : 0.02))
+                    world.group.add(ring)
+                    world.rings.push(ring)
+                }
+
+                world.group.visible = false
+                scene.add(world.group)
+                return world
+            })
+            return world.ready
+        }
+        const activate = (name) => {
+            active = worlds[name]
+            for (const world of Object.values(worlds)) world.group.visible = world === active
+            sea.visible = active.definition.sea
+        }
+        const locate = (name) => {
+            const place = places[name]
+            const world = worlds[place.world]
+            if (place.set === 'cave') return world.cave_site.clone()
+            const [x, z] = world.terrain.to_xz(place.lat, place.lon)
+            return new THREE.Vector3(x, world.terrain.height(x, z), z)
+        }
+
+        await ensure_world('region')
+        if (disposed) return api
+        activate('region')
 
         // Camera.
-        const camera = new THREE.PerspectiveCamera(36, 1, 0.1, 200)
-        const resolve_shot = (wide) => {
-            // A shot may carry its own framing for tall, narrow viewports.
-            const shot = camera.aspect < 0.8 && wide.portrait ? wide.portrait : wide
-            return {
-                azimuth: shot.azimuth,
-                elevation: shot.elevation,
-                distance: shot.distance * (shot === wide.portrait ? 1 : fit),
-                target: shot.target
-                    ? new THREE.Vector3(...shot.target)
-                    : place_at(shot.place, shot.height ?? 0.3),
-            }
-        }
-        let flight = null
+        const camera = new THREE.PerspectiveCamera(36, 1, 0.001, 500)
         let fit = 1
-        const insets = { left: 0, right: 0, bottom: 0 }
-        const inset_target = { left: 0, right: 0, bottom: 0, top: 0 }
-        const set_camera = (sway) => {
-            const distance = view.distance
-            scene.fog.near = Math.max(14, distance * 0.9)
-            scene.fog.far = Math.max(70, distance * 3 + 10)
-            const azimuth = view.azimuth + sway
-            const horizontal = distance * Math.cos(view.elevation)
-            camera.position.set(
-                view.target.x + horizontal * Math.sin(azimuth),
-                view.target.y + distance * Math.sin(view.elevation),
-                view.target.z + horizontal * Math.cos(azimuth),
-            )
-            camera.position.y = Math.max(
-                camera.position.y,
-                terrain_height(camera.position.x, camera.position.z) + 0.35,
-            )
-            camera.lookAt(view.target)
-        }
-        const fly_to = (shot, duration = 2200) => {
-            const end = resolve_shot(shot)
-            if (reduced_motion || duration === 0) {
-                Object.assign(view, end)
-                flight = null
-                return
-            }
-            flight = {
-                start: { ...view, target: view.target.clone() },
-                end,
-                started: performance.now(),
-                duration,
-            }
-        }
-
         const resize = () => {
             if (disposed || !host.clientWidth || !host.clientHeight) return
             renderer.setSize(host.clientWidth, host.clientHeight, true)
             camera.aspect = host.clientWidth / host.clientHeight
             // Narrow, tall viewports need more distance to keep the same ground in frame.
             fit = clamp(1.25 / camera.aspect, 1, 1.9)
+            for (const material of route_materials)
+                material.resolution.set(host.clientWidth, host.clientHeight)
         }
         resize_observer = new ResizeObserver(resize)
         resize_observer.observe(host)
         resize()
-        const view = resolve_shot(overview_shot)
+
+        const resolve_shot = (wide) => {
+            // A shot may carry its own framing for tall, narrow viewports.
+            const shot = camera.aspect < 0.8 && wide.portrait ? wide.portrait : wide
+            const target = locate(shot.place)
+            target.y += shot.height ?? 0.3
+            if (shot.offset) {
+                target.x += shot.offset[0]
+                target.y += shot.offset[1]
+                target.z += shot.offset[2]
+            }
+            return {
+                world: places[shot.place].world,
+                follow: shot.follow ?? null,
+                fov: shot.fov ?? 36,
+                azimuth: shot.azimuth,
+                elevation: shot.elevation,
+                // Close shots are framed in metres and must not be pushed back.
+                distance: shot.distance * (shot === wide.portrait || shot.distance < 1 ? 1 : fit),
+                target,
+            }
+        }
+        const copy_view = (source) => ({ ...source, target: source.target.clone() })
+        let view = resolve_shot(overview_shot)
+        let flight = null
+        let cut = null
+        let veil_level = 0
+        let shot_request = 0
+        const begin_flight = (end, duration) => {
+            const scale_change = Math.abs(Math.log10(end.distance / view.distance))
+            flight = {
+                start: copy_view(view),
+                end,
+                started: performance.now(),
+                duration: duration * (1 + 0.3 * scale_change),
+            }
+        }
+        const fly_to = async (shot, duration = 2200) => {
+            const request = ++shot_request
+            await ensure_world(places[shot.place].world)
+            if (disposed || request !== shot_request) return
+            const end = resolve_shot(shot)
+            if (reduced_motion || duration === 0) {
+                activate(end.world)
+                view = copy_view(end)
+                flight = null
+                cut = null
+                return
+            }
+            if (end.world === view.world) {
+                cut = null
+                begin_flight(end, duration)
+                return
+            }
+            // Push in behind the veil, swap terrain, then descend into the new view.
+            cut = { end, at: performance.now() + 520 }
+            flight = {
+                start: copy_view(view),
+                end: { ...copy_view(view), distance: view.distance * 0.5 },
+                started: performance.now(),
+                duration: 700,
+            }
+        }
 
         // Place labels are real buttons, so the scene is explorable without a pointer.
         let active_id = null
@@ -595,30 +698,38 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             node.append(name, note)
             node.addEventListener('click', () => on_poi(poi))
             labels.append(node)
-            return { poi, node, anchor: place_at(poi.place, poi.lift) }
+            return { poi, node }
         })
+        const insets = { left: 0, right: 0, bottom: 0 }
+        const inset_target = { left: 0, right: 0, bottom: 0, top: 0 }
         const projected = new THREE.Vector3()
         const place_labels = () => {
             const width = host.clientWidth
             const height = host.clientHeight
-            for (const { node, anchor, poi } of label_nodes) {
+            for (const { node, poi } of label_nodes) {
+                const anchor = active.anchors.get(poi.id)
+                if (!anchor || veil_level > 0.5 || view.distance > (poi.within ?? Infinity)) {
+                    node.hidden = true
+                    continue
+                }
                 projected.copy(anchor).project(camera)
                 const x = ((projected.x + 1) / 2) * width
+                const y = ((1 - projected.y) / 2) * height
                 // Labels that would sit under the chapter rail or the side sheet are dropped.
                 const visible =
                     projected.z < 1 &&
                     projected.y < 1.1 &&
                     x > inset_target.left + 30 &&
                     x < width - inset_target.right - 30 &&
-                    ((1 - projected.y) / 2) * height > inset_target.top
+                    y > inset_target.top
                 node.hidden = !visible
                 if (!visible) continue
-                node.style.transform = `translate(${x}px, ${((1 - projected.y) / 2) * height}px)`
+                node.style.transform = `translate(${x}px, ${y}px)`
                 node.setAttribute('aria-pressed', String(poi.id === active_id))
             }
         }
 
-        // Drag to look around.
+        // Drag to look around, scroll to move closer.
         let dragging = false
         let last_x = 0
         let last_y = 0
@@ -631,10 +742,10 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             host.dataset.dragging = 'true'
         }
         const pointer_move = (event) => {
-            if (!dragging) return
+            if (!dragging || cut) return
             flight = null
-            view.azimuth = clamp(view.azimuth - (event.clientX - last_x) * 0.005, -1.7, 1.7)
-            view.elevation = clamp(view.elevation + (event.clientY - last_y) * 0.004, 0.08, 1.25)
+            view.azimuth -= (event.clientX - last_x) * 0.005
+            view.elevation = clamp(view.elevation + (event.clientY - last_y) * 0.004, -0.6, 1.3)
             last_x = event.clientX
             last_y = event.clientY
         }
@@ -644,8 +755,12 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         }
         const wheel = (event) => {
             event.preventDefault()
+            if (cut) return
             flight = null
-            view.distance = clamp(view.distance * (1 + event.deltaY * 0.001), 4, 60)
+            view.distance = clamp(
+                view.distance * (1 + event.deltaY * 0.001),
+                ...active.definition.zoom,
+            )
         }
         host.addEventListener('pointerdown', pointer_down)
         host.addEventListener('pointermove', pointer_move)
@@ -660,6 +775,15 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             host.removeEventListener('wheel', wheel)
         }
 
+        const follow_point = new THREE.Vector3()
+        const traveller = new THREE.Mesh(
+            new THREE.SphereGeometry(1, 16, 12),
+            new THREE.MeshBasicMaterial({ color: 0xffe2a0, fog: false }),
+        )
+        traveller.visible = false
+        scene.add(traveller)
+
+        const ease_in_out = (t) => (t < 0.5 ? 4 * t ** 3 : 1 - (-2 * t + 2) ** 3 / 2)
         let previous = performance.now()
         const render = (now) => {
             if (disposed) return
@@ -667,17 +791,48 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             previous = now
             const ease = reduced_motion ? 1 : 1 - Math.exp(-delta * 2.2)
 
+            if (cut && now >= cut.at) {
+                const { end } = cut
+                cut = null
+                activate(end.world)
+                view = {
+                    ...copy_view(end),
+                    distance: end.distance * 2.4,
+                    elevation: Math.min(end.elevation + 0.3, 1.2),
+                }
+                begin_flight(end, 1500)
+            }
             if (flight) {
                 const progress = clamp((now - flight.started) / flight.duration, 0, 1)
-                const eased = progress < 0.5 ? 4 * progress ** 3 : 1 - (-2 * progress + 2) ** 3 / 2
-                view.azimuth = mix(flight.start.azimuth, flight.end.azimuth, eased)
-                view.elevation = mix(flight.start.elevation, flight.end.elevation, eased)
-                view.distance = mix(flight.start.distance, flight.end.distance, eased)
-                view.target.lerpVectors(flight.start.target, flight.end.target, eased)
+                const eased = ease_in_out(progress)
+                const { start, end } = flight
+                const turn = Math.atan2(
+                    Math.sin(end.azimuth - start.azimuth),
+                    Math.cos(end.azimuth - start.azimuth),
+                )
+                view.azimuth = start.azimuth + turn * eased
+                view.elevation = mix(start.elevation, end.elevation, eased)
+                view.fov = mix(start.fov, end.fov, eased)
+                // Distances span five orders of magnitude, so they are eased on a log scale,
+                // and the target arrives early on the way in and leaves late on the way out.
+                view.distance = Math.exp(
+                    mix(Math.log(start.distance), Math.log(end.distance), eased),
+                )
+                const reach = end.distance < start.distance ? 1 - (1 - eased) ** 3 : eased ** 3
+                view.target.lerpVectors(start.target, end.target, reach)
                 if (progress === 1) flight = null
             }
-            blend_mood(ease)
-            sun.target.position.set(0, 0, 0)
+            veil_level = mix(veil_level, cut ? 1 : 0, reduced_motion ? 1 : 1 - Math.exp(-delta * 8))
+            veil.style.opacity = veil_level < 0.01 ? '0' : veil_level.toFixed(3)
+            veil.style.background = `#${mood.horizon.getHexString()}`
+            if (cycle === null) blend_mood(ease, mood_target)
+            else {
+                const phase = (cycle * 3) % 1
+                const name = cycle >= 1 ? 'night' : night_phases.find(([until]) => phase < until)[1]
+                blend_mood(reduced_motion ? 1 : 1 - Math.exp(-delta * 4), moods[name])
+            }
+            // The sky turns slowly at all times, and through three nights during the time-lapse.
+            stars.rotation.set(0.6, 0, now / 400000 + (cycle ?? 0) * 3.2)
 
             for (const key of ['left', 'right', 'bottom'])
                 insets[key] = mix(insets[key], inset_target[key], reduced_motion ? 1 : ease * 1.6)
@@ -693,31 +848,78 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     height,
                 )
             }
-            set_camera(reduced_motion || dragging ? 0 : Math.sin(now / 9000) * 0.035)
+
+            // Camera, fog and shadows all scale with how close the camera is.
+            const distance = view.distance
+            const azimuth =
+                view.azimuth + (reduced_motion || dragging ? 0 : Math.sin(now / 9000) * 0.035)
+            const horizontal = distance * Math.cos(view.elevation)
+            camera.position.set(
+                view.target.x + horizontal * Math.sin(azimuth),
+                view.target.y + distance * Math.sin(view.elevation),
+                view.target.z + horizontal * Math.cos(azimuth),
+            )
+            camera.position.y = Math.max(
+                camera.position.y,
+                active.terrain.height(camera.position.x, camera.position.z) + distance * 0.02,
+            )
+            camera.lookAt(view.target)
+            camera.near = clamp(distance * 0.02, 0.00005, 0.5)
+            camera.fov = view.fov
+            camera.updateProjectionMatrix()
+            sky.position.copy(camera.position)
+            stars.position.copy(camera.position)
+            const [fog_near, fog_far] = active.definition.fog
+            scene.fog.near = Math.max(fog_near, distance * 0.9)
+            scene.fog.far = Math.max(fog_far, distance * 3 + 10)
+
+            const span = clamp(distance * 1.3, 0.03, 24)
+            sun.target.position.copy(view.target)
+            sun.position.copy(view.target).addScaledVector(mood.sun_at, span * 4)
+            sun.shadow.camera.left = -span
+            sun.shadow.camera.right = span
+            sun.shadow.camera.top = span
+            sun.shadow.camera.bottom = -span
+            sun.shadow.camera.near = span * 0.5
+            sun.shadow.camera.far = span * 9
+            sun.shadow.camera.updateProjectionMatrix()
+            sun.shadow.normalBias = span * 0.003
 
             let tip = null
-            for (const leg of legs) {
-                leg.shown = mix(
-                    leg.shown,
-                    leg.target,
-                    reduced_motion ? 1 : 1 - Math.exp(-delta * 1.1),
-                )
-                if (Math.abs(leg.shown - leg.target) < 0.002) leg.shown = leg.target
-                leg.tube.geometry.setDrawRange(0, Math.floor(leg.shown * leg.segments) * radial * 6)
-                if (leg.shown > 0.002 && leg.shown < 0.998) tip = leg
+            for (const world of Object.values(worlds)) {
+                for (const route of world.routes) {
+                    const target = clamp(
+                        (leg_target[route.leg] - route.from) / (route.to - route.from),
+                        0,
+                        1,
+                    )
+                    route.shown = mix(
+                        route.shown,
+                        target,
+                        reduced_motion ? 1 : 1 - Math.exp(-delta * 2.5),
+                    )
+                    if (Math.abs(route.shown - target) < 0.002) route.shown = target
+                    route.line.geometry.instanceCount = Math.floor(route.shown * route.count)
+                    route.line.visible = route.shown > 0.002
+                    if (world === active && route.shown > 0.002 && route.shown < 0.998) tip = route
+                }
             }
             // The marker shows where the line is still being drawn, not a resting place.
             traveller.visible = Boolean(tip)
             if (tip) {
-                tip.curve.getPointAt(
-                    Math.floor(tip.shown * tip.segments) / tip.segments,
-                    traveller.position,
+                traveller.position.copy(tip.points[Math.floor(tip.shown * tip.count)])
+                // A following shot keeps the camera on the head of the line.
+                if (!flight && !cut && !dragging && view.follow === tip.leg) {
+                    follow_point.copy(traveller.position).setY(traveller.position.y + 0.2)
+                    view.target.lerp(follow_point, reduced_motion ? 1 : 1 - Math.exp(-delta * 1.6))
+                }
+                traveller.scale.setScalar(
+                    distance * 0.007 * (reduced_motion ? 1 : 1 + 0.18 * Math.sin(now / 320)),
                 )
-                traveller.scale.setScalar(reduced_motion ? 1 : 1 + 0.18 * Math.sin(now / 320))
             }
-            rings.forEach((ring, index) => {
+            active.rings.forEach((ring, index) => {
                 const pulse = reduced_motion ? 0 : (now / 2600 + index * 0.25) % 1
-                ring.scale.setScalar(1 + pulse * 0.9)
+                ring.scale.setScalar(distance * 0.012 * (1 + pulse * 0.9))
                 ring.material.opacity = 0.85 * (1 - pulse)
             })
 
@@ -731,12 +933,22 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         api.set_mood = (name) => {
             mood_target = moods[name] ?? moods.gold
         }
-        api.set_route = (progress) => legs.forEach((leg, index) => (leg.target = progress[index]))
+        api.set_route = (progress) => {
+            for (let leg = 0; leg < leg_target.length; leg += 1)
+                leg_target[leg] = progress[leg] ?? 0
+        }
+        api.set_cycle = (value) => {
+            cycle = value
+        }
         api.set_active = (id) => {
             active_id = id
         }
         api.set_insets = (next) => Object.assign(inset_target, next)
         report('ready')
+        // The local terrain is fetched while the learner is still on the opening screen.
+        ensure_world('makkah')
+            .then(() => ensure_world('madinah'))
+            .catch(() => {})
     } catch (error) {
         if (!disposed) report('failed', error)
     }

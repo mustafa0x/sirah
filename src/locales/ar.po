@@ -119,8 +119,8 @@ msgid "<0/> Sirah Journey"
 msgstr "<0/> رحلة السيرة"
 
 #: src/routes/Journey.svelte
-msgid "<0>Play</0> walks the chapter stage by stage. There is no audio in this demo; the captions keep time."
-msgstr "<0>التشغيل</0> يأخذك عبر الفصل مرحلةً مرحلة. لا تتضمن هذه النسخة التجريبية صوتًا؛ وتتتابع النصوص وفق التوقيت."
+msgid "<0>Play</0> walks the chapter stage by stage. There is no narration in this demo; the captions keep time over a quiet wind."
+msgstr "<0>تشغيل</0> يعرض الفصل مرحلةً بعد مرحلة. لا يوجد سرد صوتي في هذا العرض؛ والتعليقات النصية تضبط التوقيت على صوت ريح خافت."
 
 #: src/routes/Journey.svelte
 msgid "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place name to fly there."
@@ -178,8 +178,8 @@ msgid "The Hijrah"
 msgstr "الهجرة"
 
 #: src/routes/Journey.svelte
-msgid "Follow the migration from Makkah to Madinah in five stages, with every paragraph linked to the passage it rests on."
-msgstr "تتبّع الهجرة من مكة إلى المدينة في خمس مراحل، مع ربط كل فقرة بالنص الذي تستند إليه."
+msgid "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
+msgstr "تتبّع الهجرة من مكة إلى المدينة مرحلةً بعد مرحلة، مع ربط كل فقرة بالنص الذي تستند إليه."
 
 #: src/routes/Journey.svelte
 msgid "Hackathon demo. The scene is illustrative and the wording is a draft pending scholarly review."
@@ -750,3 +750,99 @@ msgstr "تعالج OpenAI وتراث الأسئلة ونصوص البحث. لا 
 #: src/routes/Journey.svelte
 msgid "From the sources"
 msgstr "من المصادر"
+
+#: src/content/first-chapter.js
+msgid "A rider on the road"
+msgstr "فارسٌ على الطريق"
+
+#: src/content/first-chapter.js
+msgid "Quraysh had offered a reward for each of the two travellers. Suraqah ibn Malik recounts that a man came to his gathering and said he had just seen figures near the coast. Suraqah recognised who they must be, and set out after them."
+msgstr "كانت قريش قد جعلت جائزة في كل واحد من المسافرَين. يروي سراقة بن مالك أن رجلًا جاء إلى مجلسه وقال إنه رأى للتوّ أشخاصًا قرب الساحل. فعرف سراقة من يكونون، وخرج في أثرهم."
+
+#: src/content/first-chapter.js
+msgid "By his own account, he came close enough to hear the Prophet ﷺ reciting. Then the forelegs of his horse sank into the ground up to the knees, and he was thrown from it."
+msgstr "وبحسب روايته هو، اقترب حتى سمع قراءة النبي ﷺ. ثم ساخت يدا فرسه في الأرض حتى بلغتا الركبتين، فسقط عنها."
+
+#: src/content/first-chapter.js
+msgid "He told them what Quraysh intended and offered them provisions. They took nothing from him and asked only that he keep their news hidden. At his request, ‘Amir ibn Fuhayrah wrote him a guarantee of safety on a piece of leather. Then they went on."
+msgstr "أخبرهم بما تريده قريش وعرض عليهم الزاد. فلم يأخذوا منه شيئًا، ولم يطلبوا إلا أن يُخفي خبرهم. وبطلبٍ منه كتب له عامر بن فهيرة كتاب أمان في رقعة من جلد. ثم مضوا."
+
+#: src/content/first-chapter.js
+msgid "Quba: the first stop"
+msgstr "قباء: المحطة الأولى"
+
+#: src/content/first-chapter.js
+msgid "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
+msgstr "أقام بينهم بضع عشرة ليلة. وهناك أسّس المسجد الذي تصفه الرواية بأنه أُسِّس على التقوى، وصلّى فيه."
+
+#: src/content/first-chapter.js
+msgid "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates."
+msgstr "ثم ركب وسار والناس يمشون معه، حتى بركت راحلته في موضع بالمدينة كان يصلّي فيه بعض المسلمين. وكان مربدًا للتمر."
+
+#: src/content/first-chapter.js
+msgid "Suraqah’s account records the reward offered for each of the two, and a report that figures had been seen near the coast."
+msgstr "تذكر رواية سراقة الجائزة التي جُعلت في كل واحد منهما، وخبرًا عن أشخاص شوهدوا قرب الساحل."
+
+#: src/content/first-chapter.js
+msgid "It does not establish where on the route this happened, and the scene does not place it."
+msgstr "لا تحدّد الرواية موضع ذلك من الطريق، والمشهد لا يعيّنه."
+
+#: src/content/first-chapter.js
+msgid "Suraqah describes the forelegs of his horse sinking into the ground to the knees, and being thrown."
+msgstr "يصف سراقة كيف ساخت يدا فرسه في الأرض حتى الركبتين وكيف سقط عنها."
+
+#: src/content/first-chapter.js
+msgid "This is his own first-person account. The scene shows the road, not the event or any person."
+msgstr "هذه روايته عن نفسه. والمشهد يُظهر الطريق، لا الحادثة ولا أي شخص."
+
+#: src/content/first-chapter.js
+msgid "They asked only that he keep their news hidden; ‘Amir ibn Fuhayrah wrote him a guarantee of safety."
+msgstr "لم يطلبوا منه إلا أن يُخفي خبرهم؛ وكتب له عامر بن فهيرة كتاب أمان."
+
+#: src/content/first-chapter.js
+msgid "The wording of the written guarantee is not given in this passage."
+msgstr "لا يرد نصّ كتاب الأمان في هذا الموضع."
+
+#: src/content/first-chapter.js
+msgid "The account gives a stay of more than ten nights among Bani ‘Amr ibn ‘Awf and the founding of a mosque there."
+msgstr "تذكر الرواية إقامة بضع عشرة ليلة في بني عمرو بن عوف وتأسيس مسجد هناك."
+
+#: src/content/first-chapter.js
+msgid "The passage does not name the place; identifying it as Quba rests on other reports, pending review."
+msgstr "لا يسمّي النص الموضع؛ وتحديده بقباء مبنيّ على روايات أخرى، وهو بانتظار المراجعة."
+
+#: src/content/first-chapter.js
+msgid "He rode on with people walking beside him until his camel knelt at the site of the mosque in Madinah."
+msgstr "ركب وسار والناس يمشون معه حتى بركت راحلته عند موضع المسجد بالمدينة."
+
+#: src/content/first-chapter.js
+msgid "It does not establish the route taken through the town or the appearance of the place."
+msgstr "لا تحدّد الرواية الطريق الذي سلكه داخل المدينة ولا هيئة المكان."
+
+#: src/lib/scene-manifest.js
+msgid "What is not shown"
+msgstr "ما لا يظهر هنا"
+
+#: src/lib/scene-manifest.js
+msgid "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
+msgstr "تضيف الروايات المتداولة نسيج عنكبوت وحمامتين عند فم الغار. هذه التفاصيل ليست في الروايات التي يستشهد بها هذا الفصل، ولذلك لا يعرضها المشهد."
+
+#: src/lib/scene-manifest.js
+msgid "Quba"
+msgstr "قباء"
+
+#: src/lib/scene-manifest.js
+msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
+msgstr "أول محطة عند الوصول إلى المدينة، في بني عمرو بن عوف."
+
+#: src/routes/Journey.svelte
+msgid "Night {0} of 3"
+msgstr "الليلة {0} من 3"
+
+#: src/routes/Journey.svelte
+msgid "Turn sound off"
+msgstr "إيقاف الصوت"
+
+#: src/routes/Journey.svelte
+msgid "Turn sound on"
+msgstr "تشغيل الصوت"

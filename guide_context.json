@@ -128,14 +128,70 @@
       ]
     },
     {
-      "id": "arrival",
-      "title": "Arrival and a new beginning",
+      "id": "pursuit",
+      "title": "A rider on the road",
+      "paragraphs": [
+        {
+          "id": "N06a",
+          "text": "Quraysh had offered a reward for each of the two travellers. Suraqah ibn Malik recounts that a man came to his gathering and said he had just seen figures near the coast. Suraqah recognised who they must be, and set out after them.",
+          "source_ids": [
+            "E13"
+          ]
+        },
+        {
+          "id": "N06b",
+          "text": "By his own account, he came close enough to hear the Prophet ﷺ reciting. Then the forelegs of his horse sank into the ground up to the knees, and he was thrown from it.",
+          "source_ids": [
+            "E14"
+          ]
+        },
+        {
+          "id": "N06c",
+          "text": "He told them what Quraysh intended and offered them provisions. They took nothing from him and asked only that he keep their news hidden. At his request, ‘Amir ibn Fuhayrah wrote him a guarantee of safety on a piece of leather. Then they went on.",
+          "source_ids": [
+            "E15"
+          ]
+        }
+      ],
+      "source_ids": [
+        "E13",
+        "E14",
+        "E15"
+      ]
+    },
+    {
+      "id": "quba",
+      "title": "Quba: the first stop",
       "paragraphs": [
         {
           "id": "N05a",
           "text": "In Madinah, Muslims went out to wait after hearing that the Prophet ﷺ had left Makkah. The arrival account describes their reception of him and his stay among Bani ‘Amr ibn ‘Awf.",
           "source_ids": [
             "E11"
+          ]
+        },
+        {
+          "id": "N07a",
+          "text": "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it.",
+          "source_ids": [
+            "E16"
+          ]
+        }
+      ],
+      "source_ids": [
+        "E11",
+        "E16"
+      ]
+    },
+    {
+      "id": "arrival",
+      "title": "Arrival and a new beginning",
+      "paragraphs": [
+        {
+          "id": "N08a",
+          "text": "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates.",
+          "source_ids": [
+            "E17"
           ]
         },
         {
@@ -147,7 +203,7 @@
         }
       ],
       "source_ids": [
-        "E11",
+        "E17",
         "E12"
       ]
     }
@@ -308,6 +364,71 @@
       "url": "https://api.turath.io/page?book_id=930&pg=773",
       "volume": "2",
       "page": "251"
+    },
+    {
+      "id": "E13",
+      "number": 13,
+      "reference": "Sahih al-Bukhari 3906",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "يجعلون في رسول الله ﷺ وأبي بكر دية كل واحد منهما لمن قتله أو أسره ... فقال: يا سراقة إني رأيت آنفا أسودة بالساحل أراها محمدا وأصحابه. قال سراقة: فعرفت أنهم هم",
+      "book_id": "930",
+      "page_id": "769",
+      "url": "https://api.turath.io/page?book_id=930&pg=769",
+      "volume": "2",
+      "page": "247"
+    },
+    {
+      "id": "E14",
+      "number": 14,
+      "reference": "Sahih al-Bukhari 3906",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "حتى إذا سمعت قراءة رسول الله ﷺ وهو لا يلتفت وأبو بكر يكثر الالتفات، ساخت يدا فرسي في الأرض حتى بلغتا الركبتين، فخررت عنها",
+      "book_id": "930",
+      "page_id": "769",
+      "url": "https://api.turath.io/page?book_id=930&pg=769",
+      "volume": "2",
+      "page": "247"
+    },
+    {
+      "id": "E15",
+      "number": 15,
+      "reference": "Sahih al-Bukhari 3906",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "وعرضت عليهم الزاد والمتاع، فلم يرزآني ولم يسألاني إلا أن قالا: أخف عنا. فسألته أن يكتب لي كتاب أمن، فأمر عامر بن فهيرة فكتب لي رقعة من أدم. ثم مضى رسول الله ﷺ",
+      "book_id": "930",
+      "page_id": "770",
+      "url": "https://api.turath.io/page?book_id=930&pg=770",
+      "volume": "2",
+      "page": "248"
+    },
+    {
+      "id": "E16",
+      "number": 16,
+      "reference": "Sahih al-Bukhari 3906",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "فلبث رسول الله ﷺ في بني عمرو بن عوف بضع عشرة ليلة وأسس المسجد الذي أسس على التقوى، وصلى فيه رسول الله ﷺ",
+      "book_id": "930",
+      "page_id": "772",
+      "url": "https://api.turath.io/page?book_id=930&pg=772",
+      "volume": "2",
+      "page": "250"
+    },
+    {
+      "id": "E17",
+      "number": 17,
+      "reference": "Sahih al-Bukhari 3906",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "ثم ركب راحلته وسار يمشي معه الناس حتى بركت عند مسجد رسول الله ﷺ بالمدينة، وهو يصلي فيه يومئذ رجال من المسلمين. وكان مربدا للتمر",
+      "book_id": "930",
+      "page_id": "772",
+      "url": "https://api.turath.io/page?book_id=930&pg=772",
+      "volume": "2",
+      "page": "250"
     }
   ]
 }
