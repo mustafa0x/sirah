@@ -2,27 +2,88 @@
 // intentionally finite and source-bounded; it is not a general chat model.
 export function local_guide_answer(question, source_ids = []) {
     const text = question.toLowerCase()
+    const cited = (...ids) => ids.filter((source_id) => source_ids.includes(source_id))
+    const available = (...ids) =>
+        cited(...ids).length > 0 ? cited(...ids) : source_ids.slice(0, 2)
     if (text.includes('exact route') || text.includes('precise')) {
         return {
-            answer: 'The draft source packet does not establish an exact route. It describes a coastal way, while this overview is schematic rather than a measured itinerary.',
-            status: 'draft-local-provider',
+            answer: 'The selected evidence does not establish an exact route. It describes a coastal way, while this overview is schematic rather than a measured itinerary.',
+            status: 'local-bounded',
             confidence: 'bounded',
-            citations: ['E07'],
+            citations: available('E07'),
             action: null,
         }
     }
     if (text.includes('after') && (text.includes('cave') || text.includes('thawr'))) {
         return {
-            answer: 'The account says that ‘Amir ibn Fuhayrah and the guide went with them, and that the guide led them by the coastal way. The guide’s personal name and the precise route are not established here.',
-            status: 'draft-local-provider',
+            answer: '‘Amir ibn Fuhayrah and the guide went with them when they continued, and the guide led them by the coastal way. The guide’s personal name and the precise route are not established here.',
+            status: 'local-bounded',
             confidence: 'bounded',
-            citations: ['E06', 'E07'],
+            citations: available('E06', 'E07'),
             action: { type: 'detour', step_id: 'onward', label: 'Show the onward journey' },
         }
     }
+    if (text.includes('news') || text.includes('message')) {
+        return {
+            answer: '‘Abdullah ibn Abi Bakr brought news of plans against them after darkness and returned to Makkah before daybreak.',
+            status: 'local-bounded',
+            confidence: 'bounded',
+            citations: available('E04'),
+            action: null,
+        }
+    }
+    if (text.includes('milk') || text.includes('sheep') || text.includes('amir')) {
+        return {
+            answer: '‘Amir ibn Fuhayrah tended the flock and brought milk near the cave during the three nights.',
+            status: 'local-bounded',
+            confidence: 'bounded',
+            citations: available('E05'),
+            action: null,
+        }
+    }
+    if (text.includes('guide') || text.includes('coastal')) {
+        return {
+            answer: 'They hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr. The account says he led them by the coastal way.',
+            status: 'local-bounded',
+            confidence: 'bounded',
+            citations: available('E06', 'E07'),
+            action: null,
+        }
+    }
+    if (
+        text.includes('how long') ||
+        text.includes('how many nights') ||
+        text.includes('three nights')
+    ) {
+        return {
+            answer: 'The selected account says that they remained in the cave for three nights.',
+            status: 'local-bounded',
+            confidence: 'bounded',
+            citations: available('E03'),
+            action: null,
+        }
+    }
+    if (text.includes('asma') || text.includes('provision') || text.includes('food')) {
+        return {
+            answer: 'The preparations account describes provisions packed in a bag and Asma bint Abi Bakr using part of her waist-belt to tie its opening.',
+            status: 'local-bounded',
+            confidence: 'bounded',
+            citations: available('E01', 'E02'),
+            action: null,
+        }
+    }
+    if (text.includes('arrival') || text.includes('madi') || text.includes('mosque')) {
+        return {
+            answer: 'The arrival account describes Muslims waiting, the stay among Bani ‘Amr ibn ‘Awf, and later building work at the mosque site.',
+            status: 'local-bounded',
+            confidence: 'bounded',
+            citations: available('E11', 'E12'),
+            action: null,
+        }
+    }
     return {
-        answer: 'This draft chapter can answer questions only from its selected evidence. The available passage records are shown below; the source packet does not establish an answer to that question.',
-        status: 'draft-local-provider',
+        answer: 'The selected evidence does not establish an answer to that question. The available source records are shown below.',
+        status: 'local-bounded',
         confidence: 'bounded',
         citations: source_ids.slice(0, 2),
         action: null,
