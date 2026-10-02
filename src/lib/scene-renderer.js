@@ -141,7 +141,8 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
     let renderer
     let scene
     const labels = document.createElement('div')
-    labels.className = 'scene-labels'
+    labels.className =
+        'absolute inset-0 overflow-hidden pointer-events-none transition-opacity duration-[0.6s] ease-[ease] group-data-[started=false]/stage:invisible group-data-[started=false]/stage:opacity-0'
     const api = {
         set_shot() {},
         set_mood() {},
@@ -581,12 +582,15 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         const label_nodes = scene_pois.map((poi) => {
             const node = document.createElement('button')
             node.type = 'button'
-            node.className = 'scene-label'
+            node.className =
+                "group/poi absolute top-0 left-0 grid justify-items-center max-w-[15rem] pt-0 px-0 pb-[26px] bg-transparent border-0 pointer-events-auto [translate:-50%_-100%] [&[hidden]]:hidden after:absolute after:bottom-0 after:left-1/2 after:w-px after:h-6 after:bg-[linear-gradient(rgba(255,240,210,0.9),rgba(255,240,210,0))] after:content-['']"
             const name = document.createElement('span')
-            name.className = 'scene-label-name'
+            name.className =
+                'py-[6px] px-[13px] text-[#fff8ea] bg-[rgba(17,14,10,0.62)] border border-solid border-[rgba(255,236,200,0.4)] rounded-full font-serif text-[1rem] font-medium whitespace-nowrap backdrop-blur-[6px] transition-[background,color,border-color] duration-200 ease-[ease] group-hover/poi:text-gold-ink group-hover/poi:bg-gold group-hover/poi:border-gold-bright group-aria-pressed/poi:text-gold-ink group-aria-pressed/poi:bg-gold group-aria-pressed/poi:border-gold-bright mobile:text-[0.875rem]'
             name.textContent = poi.label
             const note = document.createElement('span')
-            note.className = 'scene-label-note'
+            note.className =
+                'hidden -order-1 mb-2 py-[9px] px-3 text-ink bg-panel-solid border border-solid border-line rounded-[10px] text-[0.8125rem] leading-[1.45] text-left group-aria-pressed/poi:block'
             note.textContent = poi.description
             node.append(name, note)
             node.addEventListener('click', () => on_poi(poi))
@@ -610,7 +614,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                 node.hidden = !visible
                 if (!visible) continue
                 node.style.transform = `translate(${x}px, ${((1 - projected.y) / 2) * height}px)`
-                node.classList.toggle('active', poi.id === active_id)
+                node.setAttribute('aria-pressed', String(poi.id === active_id))
             }
         }
 
@@ -624,7 +628,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             last_x = event.clientX
             last_y = event.clientY
             host.setPointerCapture?.(event.pointerId)
-            host.classList.add('dragging')
+            host.dataset.dragging = 'true'
         }
         const pointer_move = (event) => {
             if (!dragging) return
@@ -636,7 +640,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         }
         const pointer_up = () => {
             dragging = false
-            host.classList.remove('dragging')
+            host.dataset.dragging = 'false'
         }
         const wheel = (event) => {
             event.preventDefault()
