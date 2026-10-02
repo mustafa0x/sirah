@@ -116,6 +116,11 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         const { Line2 } = await import('three/addons/lines/Line2.js')
         const { LineGeometry } = await import('three/addons/lines/LineGeometry.js')
         const { LineMaterial } = await import('three/addons/lines/LineMaterial.js')
+        const { EffectComposer } = await import('three/addons/postprocessing/EffectComposer.js')
+        const { RenderPass } = await import('three/addons/postprocessing/RenderPass.js')
+        const { UnrealBloomPass } = await import('three/addons/postprocessing/UnrealBloomPass.js')
+        const { ShaderPass } = await import('three/addons/postprocessing/ShaderPass.js')
+        const { OutputPass } = await import('three/addons/postprocessing/OutputPass.js')
         if (disposed) return api
         const reduced_motion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
@@ -134,6 +139,10 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         const sky_uniforms = {
             top: { value: new THREE.Color() },
             horizon: { value: new THREE.Color() },
+            sun_at: { value: new THREE.Vector3(0, 1, 0) },
+            sun: { value: new THREE.Color() },
+            // A small hard disc at night, a wide warm glow by day.
+            night: { value: 0 },
         }
         const sky = new THREE.Mesh(
             new THREE.SphereGeometry(150, 24, 16),
@@ -144,9 +153,23 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                 fog: false,
                 uniforms: sky_uniforms,
                 vertexShader:
-                    'varying float h; void main() { h = normalize(position).y; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
-                fragmentShader:
-                    'uniform vec3 top; uniform vec3 horizon; varying float h; void main() { float t = pow(smoothstep(-0.05, 0.75, h), 0.6); gl_FragColor = vec4(mix(horizon, top, t), 1.0); }',
+                    'varying vec3 ray; void main() { ray = position; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
+                fragmentShader: `
+                    uniform vec3 top; uniform vec3 horizon; uniform vec3 sun_at; uniform vec3 sun;
+                    uniform float night;
+                    varying vec3 ray;
+                    void main() {
+                        vec3 dir = normalize(ray);
+                        float t = pow(smoothstep(-0.05, 0.75, dir.y), 0.6);
+                        vec3 color = mix(horizon, top, t);
+                        float facing = max(dot(dir, sun_at), 0.0);
+                        // Light scattered towards the viewer, strongest near the horizon.
+                        float scatter = pow(facing, 6.0) * (1.0 - 0.6 * t) * mix(0.55, 0.12, night);
+                        float halo = pow(facing, mix(90.0, 400.0, night)) * mix(0.9, 0.5, night);
+                        float disc = smoothstep(mix(0.9994, 0.99975, night), mix(0.9998, 0.9999, night), facing);
+                        color += sun * (scatter + halo + disc * 6.0);
+                        gl_FragColor = vec4(color, 1.0);
+                    }`,
             }),
         )
         sky.renderOrder = -2
@@ -188,7 +211,43 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         sun.shadow.bias = -0.0004
         scene.add(sun, sun.target)
 
-        const sea_material = new THREE.MeshStandardMaterial({ roughness: 0.42, metalness: 0 })
+        // Ripples: a tiling normal map built from noise, drifting slowly so the light glints.
+        const ripple_size = 128
+        const ripple_data = new Uint8Array(ripple_size * ripple_size * 4)
+        const swell = (x, y) => {
+            // Sample on a torus so the texture tiles without a seam.
+            const u = (x / ripple_size) * Math.PI * 2
+            const v = (y / ripple_size) * Math.PI * 2
+            return (
+                Math.sin(u * 3 + Math.cos(v * 2) * 1.7) +
+                Math.sin(v * 5 + Math.sin(u * 4) * 1.3) * 0.6 +
+                Math.sin((u + v) * 7) * 0.3
+            )
+        }
+        for (let y = 0; y < ripple_size; y += 1) {
+            for (let x = 0; x < ripple_size; x += 1) {
+                const dx = swell(x + 1, y) - swell(x - 1, y)
+                const dy = swell(x, y + 1) - swell(x, y - 1)
+                const length = Math.hypot(dx, dy, 1)
+                ripple_data.set(
+                    [(dx / length) * 127 + 128, (dy / length) * 127 + 128, (1 / length) * 255, 255],
+                    (y * ripple_size + x) * 4,
+                )
+            }
+        }
+        const ripples = new THREE.DataTexture(ripple_data, ripple_size, ripple_size)
+        ripples.wrapS = ripples.wrapT = THREE.RepeatWrapping
+        ripples.repeat.set(140, 140)
+        ripples.generateMipmaps = true
+        ripples.minFilter = THREE.LinearMipmapLinearFilter
+        ripples.magFilter = THREE.LinearFilter
+        ripples.needsUpdate = true
+        const sea_material = new THREE.MeshStandardMaterial({
+            roughness: 0.22,
+            metalness: 0.05,
+            normalMap: ripples,
+            normalScale: new THREE.Vector2(0.35, 0.35),
+        })
         const sea = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), sea_material)
         sea.rotation.x = -Math.PI / 2
         sea.receiveShadow = true
@@ -227,6 +286,9 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                 mood[key] = mix(mood[key], mood_target[key], amount)
             sky_uniforms.top.value.copy(mood.top)
             sky_uniforms.horizon.value.copy(mood.horizon)
+            sky_uniforms.sun_at.value.copy(mood.sun_at).normalize()
+            sky_uniforms.sun.value.copy(mood.sun)
+            sky_uniforms.night.value = mood.stars
             scene.fog.color.copy(mood.horizon)
             sun.color.copy(mood.sun)
             sun.intensity = mood.sun_power
@@ -549,7 +611,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     const line = new Line2(new LineGeometry().setPositions(draped), line_material)
                     line.geometry.instanceCount = 0
                     world.group.add(trace, line)
-                    world.routes.push({ ...route, line, points, count, shown: 0 })
+                    world.routes.push({ ...route, line, trace, points, count, shown: 0 })
                 }
 
                 world.anchors = new Map()
@@ -605,15 +667,49 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         // Camera.
         const camera = new THREE.PerspectiveCamera(36, 1, 0.001, 500)
         let fit = 1
+        let composer = null
         const resize = () => {
             if (disposed || !host.clientWidth || !host.clientHeight) return
             renderer.setSize(host.clientWidth, host.clientHeight, true)
+            composer?.setPixelRatio(renderer.getPixelRatio())
+            composer?.setSize(host.clientWidth, host.clientHeight)
             camera.aspect = host.clientWidth / host.clientHeight
             // Narrow, tall viewports need more distance to keep the same ground in frame.
             fit = clamp(1.25 / camera.aspect, 1, 1.9)
             for (const material of route_materials)
                 material.resolution.set(host.clientWidth, host.clientHeight)
         }
+        // Finishing: a soft bloom on the brightest light, then a gentle grade, vignette and grain.
+        composer = new EffectComposer(
+            renderer,
+            new THREE.WebGLRenderTarget(1, 1, { type: THREE.HalfFloatType, samples: 4 }),
+        )
+        composer.addPass(new RenderPass(scene, camera))
+        const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.3, 0.7, 0.9)
+        composer.addPass(bloom)
+        const grade = new ShaderPass({
+            uniforms: { tDiffuse: { value: null }, time: { value: 0 }, grain: { value: 0.022 } },
+            vertexShader:
+                'varying vec2 uv_; void main() { uv_ = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
+            fragmentShader: `
+                uniform sampler2D tDiffuse; uniform float time; uniform float grain;
+                varying vec2 uv_;
+                void main() {
+                    vec3 color = texture2D(tDiffuse, uv_).rgb;
+                    float luma = dot(color, vec3(0.2126, 0.7152, 0.0722));
+                    // Slightly richer colour, with warmth in the highlights and cool shadows.
+                    color = mix(vec3(luma), color, 1.08);
+                    color *= mix(vec3(0.96, 0.99, 1.05), vec3(1.04, 1.0, 0.95), smoothstep(0.0, 0.6, luma));
+                    vec2 centre = uv_ - 0.5;
+                    color *= 1.0 - 0.35 * smoothstep(0.25, 0.85, dot(centre, centre) * 2.0);
+                    float noise = fract(sin(dot(uv_ * 1000.0 + time, vec2(12.9898, 78.233))) * 43758.5453);
+                    color += (noise - 0.5) * grain * (0.4 + luma);
+                    gl_FragColor = vec4(color, 1.0);
+                }`,
+        })
+        composer.addPass(grade)
+        composer.addPass(new OutputPass())
+
         resize_observer = new ResizeObserver(resize)
         resize_observer.observe(host)
         resize()
@@ -777,6 +873,28 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         }
 
         const follow_point = new THREE.Vector3()
+        const dust_points = []
+        for (let index = 0; index < 500; index += 1)
+            dust_points.push(
+                hash(index, 91) - 0.5,
+                hash(index, 92) * 0.5 - 0.15,
+                hash(index, 93) - 0.5,
+            )
+        const dust_geometry = new THREE.BufferGeometry()
+        dust_geometry.setAttribute('position', new THREE.Float32BufferAttribute(dust_points, 3))
+        const dust_material = new THREE.PointsMaterial({
+            size: 2,
+            sizeAttenuation: false,
+            transparent: true,
+            opacity: 0,
+            depthWrite: false,
+            fog: false,
+            blending: THREE.AdditiveBlending,
+        })
+        const dust = new THREE.Points(dust_geometry, dust_material)
+        dust.frustumCulled = false
+        scene.add(dust)
+
         const traveller = new THREE.Mesh(
             new THREE.SphereGeometry(1, 16, 12),
             new THREE.MeshBasicMaterial({ color: 0xffe2a0, fog: false }),
@@ -901,7 +1019,10 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     )
                     if (Math.abs(route.shown - target) < 0.002) route.shown = target
                     route.line.geometry.instanceCount = Math.floor(route.shown * route.count)
-                    route.line.visible = route.shown > 0.002
+                    // At human scale the route is a line on a map, not something in the scene.
+                    const mapped = distance > 0.3
+                    route.line.visible = mapped && route.shown > 0.002
+                    route.trace.visible = mapped
                     if (world === active && route.shown > 0.002 && route.shown < 0.998) tip = route
                 }
             }
@@ -924,7 +1045,15 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                 ring.material.opacity = 0.85 * (1 - pulse)
             })
 
-            renderer.render(scene, camera)
+            ripples.offset.set(now / 90000, now / 140000)
+            grade.uniforms.time.value = reduced_motion ? 0 : (now / 1000) % 10
+            // Dust hangs in the air close to the camera and catches the light by day.
+            dust.position.copy(camera.position)
+            dust.scale.setScalar(distance * 0.9)
+            dust.rotation.y = reduced_motion ? 0 : now / 60000
+            dust_material.opacity = 0.5 * (1 - mood.stars) * smoothstep(8, 0.5, distance)
+            dust_material.color.copy(mood.sun)
+            composer.render()
             place_labels()
             frame = window.requestAnimationFrame(render)
         }
