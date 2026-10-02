@@ -35,7 +35,7 @@ export async function create_scene(
         const camera_state = {
             azimuth: scene_kind === 'thawr' ? 0 : 0.72,
             elevation: 0.58,
-            distance: scene_kind === 'thawr' ? 7.2 : 8.1,
+            distance: scene_kind === 'thawr' ? 9 : 8.1,
             target: new THREE.Vector3(0, 0.35, 0),
         }
         const focus_target = (position) =>
@@ -104,7 +104,7 @@ export async function create_scene(
         const asset_layout =
             scene_kind === 'thawr'
                 ? [
-                      [0, -0.4, -0.75, 0.58, 0],
+                      [0, -0.4, -0.75, 0.34, 0],
                       [-2.7, -0.35, -0.4, 1.45, 0.1],
                       [2.4, -0.35, -0.5, 1.3, -0.15],
                   ]
