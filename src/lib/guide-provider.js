@@ -29,13 +29,28 @@ export function local_guide_answer(question, source_ids = []) {
     }
 }
 
+function valid_answer(value, source_ids) {
+    return (
+        value &&
+        typeof value.answer === 'string' &&
+        typeof value.status === 'string' &&
+        Array.isArray(value.citations) &&
+        value.citations.every((source_id) => source_ids.includes(source_id))
+    )
+}
+
 export async function ask_guide(question, context) {
-    // Keep the browser boundary limited to our API. Until a provider is approved,
-    // the deterministic local provider is the authoritative response for this build.
-    void fetch('/api/guide', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question, context }),
-    }).catch(() => {})
-    return local_guide_answer(question, context.source_ids)
+    const fallback = local_guide_answer(question, context.source_ids)
+    try {
+        const response = await fetch('/api/guide', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ question, context }),
+        })
+        if (!response.ok) return fallback
+        const answer = await response.json()
+        return valid_answer(answer, context.source_ids) ? answer : fallback
+    } catch {
+        return fallback
+    }
 }

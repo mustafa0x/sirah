@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte'
+    import { SvelteSet } from 'svelte/reactivity'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
     import {
         chapter,
@@ -25,12 +26,14 @@
     } from '../lib/journey-state.js'
     import { ask_guide } from '../lib/guide-provider.js'
     import { create_media_clock } from '../lib/media-clock.js'
+    import { scene_pois } from '../lib/scene-manifest.js'
 
     let journey = $state(create_journey_state())
+    let active_poi = $state(null)
     let question = $state(chapter.question.prompt)
     let question_input = $state()
     let clock
-    let pending_timers = new Set()
+    let pending_timers = new SvelteSet()
     let selected_step = $derived(get_step(journey.viewed_step_id))
     let visible_sources = $derived(sources_for(selected_step))
     let selected_index = $derived(chapter.steps.findIndex((step) => step.id === selected_step.id))
@@ -47,6 +50,7 @@
     }
 
     function start(presentation) {
+        active_poi = null
         start_journey(journey, presentation)
         clock?.set_position(0)
         if (presentation === 'scene') play()
@@ -79,6 +83,7 @@
 
     function select_step(step_id, purpose = 'guided') {
         if (step_id === journey.viewed_step_id && !journey.navigation_pending) return
+        active_poi = null
         let ticket
         try {
             ticket = begin_navigation(journey, step_id, purpose, 0)
@@ -136,7 +141,9 @@
         const context = {
             chapter_id: chapter.id,
             step_id: journey.viewed_step_id,
-            source_ids: selected_step.source_ids,
+            source_ids: [
+                ...new Set([...selected_step.source_ids, ...chapter.question.expected_sources]),
+            ],
             objective: chapter.objective,
         }
         const response = await ask_guide(question.trim(), context)
@@ -153,6 +160,11 @@
         begin_question(journey, clock?.snapshot().seconds ?? journey.guided_position.seconds)
         question = chapter.question.prompt
         tick().then(() => question_input?.focus())
+    }
+
+    function select_poi(poi) {
+        active_poi = poi
+        announce(`${poi.label} view selected. The scene remains schematic.`)
     }
 
     function view_source(source_id) {
@@ -219,6 +231,8 @@
                 <SceneCanvas
                     kind={selected_step.scene}
                     label={`${selected_step.title} draft illustration`}
+                    on_poi={select_poi}
+                    selected_poi_id={active_poi?.id}
                 />
             {/key}
         </div>
@@ -302,6 +316,19 @@
                 >
             {/each}
         </nav>
+
+        {#if journey.started && journey.panel === 'none' && journey.presentation === 'scene'}
+            <div class="scene-points" aria-label="Explore this scene">
+                <span>Explore view</span>
+                {#each scene_pois[selected_step.scene] ?? [] as poi (poi.id)}
+                    <button
+                        class:active={active_poi?.id === poi.id}
+                        onclick={() => select_poi(poi)}
+                        title={poi.description}>{poi.label}</button
+                    >
+                {/each}
+            </div>
+        {/if}
 
         {#if !journey.started}
             <section class="story-card entry-card" aria-labelledby="entry-title">
@@ -467,7 +494,7 @@
                         <p class="card-label">Answer · {journey.answer.status}</p>
                         <p>{journey.answer.answer}</p>
                         <div class="overlay-actions">
-                            {#each journey.answer.citations ?? [] as source_id}
+                            {#each journey.answer.citations ?? [] as source_id (source_id)}
                                 <button class="citation-link" onclick={() => view_source(source_id)}
                                     >View {source_id}</button
                                 >
