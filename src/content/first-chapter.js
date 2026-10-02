@@ -1,13 +1,14 @@
 // The first playable chapter contract. All learner wording, evidence mapping, and art
 // direction in this file are working drafts pending scholarly/editorial approval.
 /** @typedef {{id: string, title: string, scene: string, duration: number, source_ids: string[], paragraphs: Array<{id: string, text: string, source_ids: string[]}>, recap?: string}} ChapterStep */
-/** @typedef {{id: string, title: string, release_status: string, review_status: string, language: string, objective: string, question: object, steps: ChapterStep[], sources: object[]}} Chapter */
+/** @typedef {{id: string, title: string, release_id: string, release_status: string, review_status: string, language: string, objective: string, question: object, steps: ChapterStep[], sources: object[]}} Chapter */
 /** @type {Chapter} */
 export const chapter = {
     id: 'hijrah-thawr-loop',
     title: 'The Hijrah: a journey in stages',
-    release_status: 'draft',
-    review_status: 'scholarly and publication review pending',
+    release_id: 'hackathon-demo-0.2',
+    release_status: 'hackathon-demo',
+    review_status: 'post-hackathon publication review',
     language: 'English working draft; no final narration or translation approved',
     objective:
         'Connect preparations, the stay at Thawr, the onward journey, and arrival while distinguishing an illustration from its evidence.',
