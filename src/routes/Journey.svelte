@@ -32,6 +32,7 @@
     import { create_ambience } from '../lib/ambience.js'
     import { apply_timings, create_narrator } from '../lib/narration.js'
     import {
+        beat_actors,
         beat_passages,
         beat_shots,
         overview_shot,
@@ -180,7 +181,7 @@
             : {
                   top: 70,
                   left: journey.started ? rail_width + 28 : viewport_width * 0.34,
-                  right: sheet ? sheet_width : 0,
+                  right: sheet ? sheet_width : active_poi?.detail ? 420 : 0,
                   bottom: card_visible ? card_height + 40 : 0,
               },
     )
@@ -370,7 +371,12 @@
 
     function select_poi(poi) {
         active_poi = active_poi?.id === poi.id ? null : poi
-        announce(active_poi ? `${poi.label}. ${poi.description}` : 'Returned to the guided view.')
+        if (active_poi?.detail && journey.is_playing) pause_playback()
+        announce(
+            active_poi
+                ? `${poi.label}. ${poi.detail?.text ?? poi.description}`
+                : 'Returned to the guided view.',
+        )
     }
 
     function view_source(source_id) {
@@ -543,6 +549,7 @@
             {mood}
             {route}
             {cycle}
+            actor={current_cue && !active_poi ? (beat_actors[current_cue.id] ?? null) : null}
             {insets}
             active_poi_id={active_poi?.id ?? null}
             on_poi={select_poi}
@@ -612,6 +619,37 @@
                 <p class={kicker}>Night {night} of 3</p>
             {/if}
         </div>
+    {/if}
+
+    {#if active_poi?.detail && !sheet}
+        <section
+            class="absolute z-20 top-[88px] right-6 grid gap-3 w-[min(380px,calc(100%-48px))] px-6 pt-5 pb-[18px] bg-panel border border-solid border-line-strong rounded-[20px] shadow-[0_18px_60px_rgba(0,0,0,0.35)] backdrop-blur-[18px] backdrop-saturate-[1.2] mobile:top-[112px] mobile:right-3 mobile:left-3 mobile:w-auto mobile:px-4 mobile:pt-4"
+            aria-labelledby="detail-title"
+            transition:fly={{ x: 24, duration: 260 }}
+        >
+            <div class="flex gap-4 items-start justify-between">
+                <div>
+                    <p class={kicker}>Along the way</p>
+                    <h2
+                        class="mt-[6px] font-serif text-[1.5rem] font-medium leading-[1.15]"
+                        id="detail-title"
+                    >
+                        {active_poi.detail.title}
+                    </h2>
+                </div>
+                <button
+                    class={round_button}
+                    onclick={() => (active_poi = null)}
+                    aria-label="Close detail"
+                >
+                    {@render icon('close')}
+                </button>
+            </div>
+            <p class="text-ink font-serif text-[1.0625rem] leading-[1.55] text-pretty">
+                {active_poi.detail.text}
+            </p>
+            {@render citations([active_poi.detail.source_id])}
+        </section>
     {/if}
 
     {#if help_open}

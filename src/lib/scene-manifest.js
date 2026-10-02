@@ -2,6 +2,7 @@ import terrain_index from '../assets/terrain/index.json'
 import madinah_grid from '../assets/terrain/madinah.bin?url'
 import makkah_grid from '../assets/terrain/makkah.bin?url'
 import region_grid from '../assets/terrain/region.bin?url'
+import { details } from '../content/details.js'
 import shelter_asset from '../../art/thawr/shelter-web-v1.glb?url'
 
 // Three nested views of real elevation data. Within a world, x runs south → north and
@@ -54,7 +55,8 @@ export const places = {
     region_makkah: { world: 'region', lat: 21.4225, lon: 39.8262 },
     region_madinah: { world: 'region', lat: 24.4672, lon: 39.6111 },
     coast: { world: 'region', lat: 22.75, lon: 39.2 },
-    road: { world: 'region', lat: 23.2, lon: 39.1 },
+    road: { world: 'region', lat: 21.95, lon: 39.28 },
+    tent: { world: 'region', lat: 22.3, lon: 39.22 },
     makkah: { world: 'makkah', lat: 21.4225, lon: 39.8262 },
     makkah_valley: { world: 'makkah', lat: 21.401, lon: 39.838 },
     thawr: { world: 'makkah', lat: 21.37718, lon: 39.84971 },
@@ -168,18 +170,6 @@ export const scene_pois = [
         camera: { azimuth: 0.9, elevation: 0.3, distance: 4.5 },
     },
     {
-        id: 'not_shown',
-        label: 'What is not shown',
-        description:
-            'Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out.',
-        place: 'cave',
-        anchors: { makkah: 'cave' },
-        ring: false,
-        lift: 0.006,
-        within: 0.027,
-        camera: { azimuth: 1.17, elevation: 0.13, distance: 0.023, height: 0.0018 },
-    },
-    {
         id: 'coast',
         label: 'The coastal way',
         description:
@@ -205,6 +195,31 @@ export const scene_pois = [
         camera: { azimuth: 0.35, elevation: 0.45, distance: 6 },
     },
 ]
+
+// Details are smaller markers, shown only at a middling distance so they neither crowd
+// the overview nor float in front of the close views.
+const detail_view = {
+    region: { within: 16, beyond: 0, camera: { azimuth: 0.25, elevation: 0.5, distance: 6 } },
+    makkah: { within: 9, beyond: 0.4, camera: { azimuth: 0.3, elevation: 0.45, distance: 2.4 } },
+    madinah: { within: 9, beyond: 0.4, camera: { azimuth: 0.3, elevation: 0.45, distance: 1.8 } },
+}
+const cave_camera = { azimuth: 1.17, elevation: 0.13, distance: 0.023, height: 0.0018 }
+for (const item of details) {
+    const key = item.set ?? `detail_${item.id}`
+    if (!item.set) places[key] = { world: item.world, lat: item.lat, lon: item.lon }
+    scene_pois.push({
+        ...detail_view[item.world],
+        ...(item.set ? { camera: cave_camera } : {}),
+        ...(item.within === undefined ? {} : { within: item.within, beyond: item.beyond }),
+        id: `detail_${item.id}`,
+        label: item.title,
+        detail: item,
+        place: key,
+        anchors: { [item.world]: key },
+        ring: false,
+        lift: item.lift ?? (item.world === 'region' ? 0.25 : 0.12),
+    })
+}
 
 // Distances and heights are in the place's world units (kilometres in the two local
 // worlds). `offset` moves the target [north, up, east] from the place.
@@ -235,6 +250,9 @@ export const beat_shots = {
     N02a: shot('makkah', 0.25, 0.42, 3.4, 0.1),
     N02b: shot('makkah_valley', north - 0.25, 0.36, 8.5, 0.1),
     // Outside the shelter, looking at its opening.
+    N09a: shot('makkah', 0.6, 0.5, 2.6, 0.1),
+    N09b: shot('makkah', -0.3, 0.3, 1.3, 0.05),
+    N09c: shot('makkah', north - 0.2, 0.42, 4, 0.1),
     N03a: shot('cave', north - 0.4, 0.13, 0.023, 0.0018),
     // From behind Thawr, towards Makkah.
     N03b: shot('makkah_valley', south + 0.3, 0.3, 8.5, 0.1),
@@ -248,47 +266,28 @@ export const beat_shots = {
     N06a: { ...shot('road', -0.5, 0.42, 7, 0.2), follow: 1 },
     N06b: { ...shot('road', south + 0.5, 0.26, 4.2, 0.2), follow: 1 },
     N06c: { ...shot('road', south + 0.15, 0.5, 9, 0.2), follow: 1 },
+    N10a: shot('tent', -0.3, 0.42, 5, 0.2),
+    N10b: shot('tent', 0.45, 0.3, 3.2, 0.2),
     N05a: shot('quba', 0.5, 0.45, 5.2, 0.1),
     N07a: shot('quba', south + 0.35, 0.07, 0.3, 0.014),
-    N08a: shot('madinah', 0.45, 0.42, 4.6, 0.1),
-    N05b: shot('madinah', north - 0.6, 0.2, 0.9, 0.03),
+    // Close behind the camel as she walks from Quba into the town.
+    N08a: { ...shot('quba', 0.5, 0.32, 0.9, 0.03), follow: 2 },
+    N05b: shot('madinah', north - 0.6, 0.38, 0.5, 0.02),
 }
 
 // Light and route progress per chapter step. The time of day is art direction only. Each
 // route leg runs [from, to] as the step plays, finishing at `span` of the step's length.
+const one = [1, 1]
 export const step_scenes = {
     setting: { mood: 'gold', route: [] },
     preparations: { mood: 'dusk', route: [] },
+    departure: { mood: 'night', route: [] },
     thawr: { mood: 'night', route: [[0, 1, 0.12]] },
-    onward: {
-        mood: 'haze',
-        route: [
-            [1, 1],
-            [0, 0.42],
-        ],
-    },
-    pursuit: {
-        mood: 'day',
-        route: [
-            [1, 1],
-            [0.42, 0.68],
-        ],
-    },
-    quba: {
-        mood: 'gold',
-        route: [
-            [1, 1],
-            [0.68, 1, 0.35],
-        ],
-    },
-    arrival: {
-        mood: 'day',
-        route: [
-            [1, 1],
-            [1, 1],
-            [0, 1, 0.45],
-        ],
-    },
+    onward: { mood: 'haze', route: [one, [0, 0.25]] },
+    pursuit: { mood: 'day', route: [one, [0.25, 0.32]] },
+    tent: { mood: 'gold', route: [one, [0.32, 0.4, 0.4]] },
+    quba: { mood: 'gold', route: [one, [0.4, 1, 0.6]] },
+    arrival: { mood: 'day', route: [one, one, [0, 1, 0.5]] },
 }
 
 export function route_at(step_id, progress) {
@@ -303,5 +302,8 @@ export const timelapse_beats = { N03c: true }
 
 // Beats that set a cited passage in the scene itself.
 export const beat_passages = { N03e: 'E09' }
+
+// Beats during which an animal stands in the scene. No person is ever shown.
+export const beat_actors = { N06b: 'horse' }
 
 export { shelter_asset }

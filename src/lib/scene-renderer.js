@@ -102,6 +102,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         set_mood() {},
         set_route() {},
         set_cycle() {},
+        set_actor() {},
         set_active() {},
         set_insets() {},
         dispose() {
@@ -331,7 +332,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         }
 
         // Schematic settlement: plain blocks on the level ground, no claimed architecture.
-        const add_blocks = (world, place, count, radius, seed) => {
+        const add_blocks = (world, place, count, radius, seed, yard = 0) => {
             const mesh = shadowed(new THREE.InstancedMesh(block_geometry, wall_material, count))
             const [cx, cz] = world.terrain.to_xz(places[place].lat, places[place].lon)
             for (let index = 0; index < count; index += 1) {
@@ -340,7 +341,8 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                 const x = cx + reach * Math.cos(angle)
                 const z = cz + reach * Math.sin(angle)
                 const tall = 0.016 + 0.024 * hash(index, seed + 4)
-                const level = world.terrain.slope(x, z) < 0.22
+                // `yard` keeps open ground at the centre.
+                const level = world.terrain.slope(x, z) < 0.22 && reach > yard
                 dummy.position.set(x, world.terrain.height(x, z) + tall / 2 - 0.002, z)
                 dummy.rotation.set(0, hash(index, seed + 5) * 0.7, 0)
                 dummy.scale.set(
@@ -564,7 +566,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     add_cave_set(world)
                 }
                 if (name === 'madinah') {
-                    add_blocks(world, 'madinah', 150, 0.5, 41)
+                    add_blocks(world, 'madinah', 150, 0.5, 41, 0.13)
                     add_palms(world, [
                         { place: 'madinah', count: 1500, inner: 0.3, radius: 1.7 },
                         { place: 'quba', count: 1300, inner: 0, radius: 1.1 },
@@ -775,6 +777,23 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         const label_nodes = scene_pois.map((poi) => {
             const node = document.createElement('button')
             node.type = 'button'
+            if (poi.detail) {
+                // A small diamond; its name appears on hover, focus, or when it is open.
+                node.className =
+                    'group/poi absolute top-0 left-0 grid justify-items-center gap-[6px] p-[6px] bg-transparent border-0 pointer-events-auto [translate:-50%_-50%] [&[hidden]]:hidden'
+                node.setAttribute('aria-label', poi.label)
+                const mark = document.createElement('span')
+                mark.className =
+                    'size-[13px] rotate-45 rounded-[2px] bg-gold border border-solid border-gold-bright shadow-[0_0_0_4px_rgba(232,178,87,0.25),0_0_14px_rgba(255,214,138,0.7)] transition-transform duration-200 ease-[ease] group-hover/poi:scale-125 group-aria-pressed/poi:scale-125'
+                const name = document.createElement('span')
+                name.className =
+                    'absolute top-full py-[4px] px-[10px] text-[#fff8ea] bg-[rgba(17,14,10,0.78)] border border-solid border-[rgba(255,236,200,0.4)] rounded-full font-serif text-[0.875rem] whitespace-nowrap opacity-0 transition-opacity duration-200 ease-[ease] group-hover/poi:opacity-100 group-focus-visible/poi:opacity-100 group-aria-pressed/poi:opacity-100'
+                name.textContent = poi.label
+                node.append(mark, name)
+                node.addEventListener('click', () => on_poi(poi))
+                labels.append(node)
+                return { poi, node }
+            }
             node.className =
                 "group/poi absolute top-0 left-0 grid justify-items-center max-w-[15rem] pt-0 px-0 pb-[26px] bg-transparent border-0 pointer-events-auto [translate:-50%_-100%] [&[hidden]]:hidden after:absolute after:bottom-0 after:left-1/2 after:w-px after:h-6 after:bg-[linear-gradient(rgba(255,240,210,0.9),rgba(255,240,210,0))] after:content-['']"
             const name = document.createElement('span')
@@ -798,7 +817,12 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             const height = host.clientHeight
             for (const { node, poi } of label_nodes) {
                 const anchor = active.anchors.get(poi.id)
-                if (!anchor || veil_level > 0.5 || view.distance > (poi.within ?? Infinity)) {
+                if (
+                    !anchor ||
+                    veil_level > 0.5 ||
+                    view.distance > (poi.within ?? Infinity) ||
+                    view.distance < (poi.beyond ?? 0)
+                ) {
                     node.hidden = true
                     continue
                 }
@@ -866,6 +890,86 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         }
 
         const follow_point = new THREE.Vector3()
+
+        // Animals are plain low-poly figures, always riderless. Built one unit tall, facing +x.
+        const build_animal = ({ color, body, hump, neck, head, legs }) => {
+            const material = new THREE.MeshStandardMaterial({
+                color,
+                roughness: 1,
+                flatShading: true,
+            })
+            const part = (size, position, tilt = 0, parent) => {
+                const mesh = shadowed(new THREE.Mesh(block_geometry, material))
+                mesh.scale.set(...size)
+                mesh.position.set(...position)
+                mesh.rotation.z = tilt
+                parent.add(mesh)
+                return mesh
+            }
+            const root = new THREE.Group()
+            const torso = new THREE.Group()
+            root.add(torso)
+            part(body.size, body.at, 0, torso)
+            if (hump) part(hump.size, hump.at, 0.5, torso)
+            part(neck.size, neck.at, neck.tilt, torso)
+            part(head.size, head.at, head.tilt ?? 0, torso)
+            const limbs = legs.at.map(([x, z]) => {
+                const hip = new THREE.Group()
+                hip.position.set(x, legs.top, z)
+                part([legs.width, legs.top, legs.width], [0, -legs.top / 2, 0], 0, hip)
+                torso.add(hip)
+                return hip
+            })
+            root.visible = false
+            scene.add(root)
+            return { root, torso, limbs, top: legs.top }
+        }
+        const camel = build_animal({
+            color: 0xc79a62,
+            body: { size: [0.95, 0.36, 0.34], at: [0, 0.74, 0] },
+            hump: { size: [0.3, 0.3, 0.28], at: [-0.05, 0.96, 0] },
+            neck: { size: [0.15, 0.55, 0.15], at: [0.54, 0.98, 0], tilt: -0.55 },
+            head: { size: [0.3, 0.14, 0.15], at: [0.76, 1.22, 0], tilt: -0.1 },
+            legs: {
+                top: 0.6,
+                width: 0.09,
+                at: [
+                    [0.36, 0.11],
+                    [0.36, -0.11],
+                    [-0.36, 0.11],
+                    [-0.36, -0.11],
+                ],
+            },
+        })
+        const horse = build_animal({
+            color: 0x5a4030,
+            body: { size: [0.9, 0.32, 0.28], at: [0, 0.72, 0] },
+            neck: { size: [0.16, 0.48, 0.14], at: [0.48, 0.96, 0], tilt: -0.75 },
+            head: { size: [0.32, 0.15, 0.13], at: [0.72, 1.12, 0], tilt: -0.5 },
+            legs: {
+                top: 0.58,
+                width: 0.08,
+                at: [
+                    [0.36, 0.09],
+                    [0.36, -0.09],
+                    [-0.36, 0.09],
+                    [-0.36, -0.09],
+                ],
+            },
+        })
+        let actor = null
+        const heading = new THREE.Vector3()
+        // Puts an animal on a route at its drawn head, facing along it.
+        const stand_on = (animal, route, size) => {
+            const index = Math.min(route.count - 1, Math.floor(route.shown * route.count))
+            const here = route.points[index]
+            heading.subVectors(route.points[index + 1], here)
+            animal.root.position.copy(here)
+            animal.root.position.y = worlds[route.world].terrain.height(here.x, here.z)
+            animal.root.rotation.y = Math.atan2(-heading.z, heading.x)
+            animal.root.scale.setScalar(size)
+            animal.root.visible = true
+        }
         const dust_points = []
         for (let index = 0; index < 500; index += 1)
             dust_points.push(
@@ -1019,8 +1123,31 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     if (world === active && route.shown > 0.002 && route.shown < 0.998) tip = route
                 }
             }
+            // The camel walks the last leg into Madinah and kneels where it ends.
+            const last_leg = worlds.madinah?.routes.find((route) => route.leg === 2)
+            const walking = active.name === 'madinah' && last_leg?.shown > 0.002
+            camel.root.visible = false
+            if (walking) {
+                stand_on(camel, last_leg, 0.05)
+                const arrived = last_leg.shown >= 0.998
+                const stride = arrived || reduced_motion ? 0 : Math.sin(now / 170) * 0.45
+                camel.limbs.forEach((limb, index) => {
+                    limb.rotation.z = index % 3 === 0 ? stride : -stride
+                    limb.scale.y = mix(limb.scale.y, arrived ? 0.25 : 1, 1 - Math.exp(-delta * 3))
+                })
+                camel.torso.position.y = (camel.limbs[0].scale.y - 1) * camel.top
+            }
+            // The pursuing horse stands at the head of the line, forelegs sunk to the knee.
+            const road_leg = worlds.region?.routes.find((route) => route.leg === 1)
+            horse.root.visible = false
+            if (actor === 'horse' && active.name === 'region' && road_leg) {
+                stand_on(horse, road_leg, 0.22)
+                horse.limbs[0].scale.y = horse.limbs[1].scale.y = 0.45
+                horse.torso.rotation.z = -0.2
+                horse.torso.position.y = -0.06
+            }
             // The marker shows where the line is still being drawn, not a resting place.
-            traveller.visible = Boolean(tip)
+            traveller.visible = Boolean(tip) && !walking && !horse.root.visible
             if (tip) {
                 traveller.position.copy(tip.points[Math.floor(tip.shown * tip.count)])
                 // A following shot keeps the camera on the head of the line.
@@ -1059,6 +1186,9 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         api.set_route = (progress) => {
             for (let leg = 0; leg < leg_target.length; leg += 1)
                 leg_target[leg] = progress[leg] ?? 0
+        }
+        api.set_actor = (name) => {
+            actor = name
         }
         api.set_cycle = (value) => {
             cycle = value

@@ -54,6 +54,7 @@ export default defineConfig({
         js: vanilla({
             files: [
                 'src/content/first-chapter.js',
+                'src/content/details.js',
                 'src/lib/scene-manifest.js',
                 'src/lib/guide-provider.js',
                 'src/lib/journey-state.js',

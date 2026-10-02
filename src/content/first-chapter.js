@@ -1,5 +1,7 @@
 // The first playable chapter contract. All learner wording, evidence mapping, and art
 // direction in this file are working drafts pending scholarly/editorial approval.
+import { details } from './details.js'
+
 /** @typedef {{id: string, title: string, scene: string, duration: number, source_ids: string[], paragraphs: Array<{id: string, text: string, source_ids: string[]}>, recap?: string}} ChapterStep */
 /** @typedef {{id: string, title: string, release_id: string, release_status: string, review_status: string, language: string, objective: string, question: object, steps: ChapterStep[], sources: object[]}} Chapter */
 /** @type {Chapter} */
@@ -55,6 +57,30 @@ export const chapter = {
                     id: 'N02b',
                     text: 'They also hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr after three nights. The arrangements for the onward journey were already being made.',
                     source_ids: ['E06'],
+                },
+            ],
+        },
+        {
+            id: 'departure',
+            title: 'The night of departure',
+            scene: 'overview',
+            duration: 34,
+            source_ids: ['E18', 'E19', 'E20'],
+            paragraphs: [
+                {
+                    id: 'N09a',
+                    text: 'The leaders of Quraysh met in Dar al-Nadwah, the house where they settled their affairs, to decide what to do about the Prophet ﷺ now that they feared him.',
+                    source_ids: ['E18'],
+                },
+                {
+                    id: 'N09b',
+                    text: 'That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him.',
+                    source_ids: ['E19'],
+                },
+                {
+                    id: 'N09c',
+                    text: '‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them.',
+                    source_ids: ['E20'],
                 },
             ],
         },
@@ -132,6 +158,25 @@ export const chapter = {
                     id: 'N06c',
                     text: 'He told them what Quraysh intended and offered them provisions. They took nothing from him and asked only that he keep their news hidden. At his request, ‘Amir ibn Fuhayrah wrote him a guarantee of safety on a piece of leather. Then they went on.',
                     source_ids: ['E15'],
+                },
+            ],
+        },
+        {
+            id: 'tent',
+            title: 'The tent of Umm Ma‘bad',
+            scene: 'overview',
+            duration: 26,
+            source_ids: ['E21'],
+            paragraphs: [
+                {
+                    id: 'N10a',
+                    text: 'Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk.',
+                    source_ids: ['E21'],
+                },
+                {
+                    id: 'N10b',
+                    text: 'The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another.',
+                    source_ids: ['E21'],
                 },
             ],
         },
@@ -329,7 +374,65 @@ export const chapter = {
             'It does not establish the route taken through the town or the appearance of the place.',
             'https://sunnah.com/bukhari:3906',
         ),
+        source(
+            'E18',
+            'Ibn Kathir, al-Bidayah wa al-Nihayah',
+            'the council',
+            'فاجتمعوا له في دار الندوة',
+            'Ibn Ishaq reports that Quraysh met in Dar al-Nadwah to consult about the Prophet ﷺ once they feared him.',
+            'The excerpt covers the meeting, not what was said in it.',
+            'https://api.turath.io/page?book_id=930&pg=749',
+        ),
+        source(
+            'E19',
+            'Ibn Kathir, al-Bidayah wa al-Nihayah',
+            'the bed',
+            'نم على فراشي',
+            'They gathered at his door at night; he told ‘Ali to sleep in his bed under his green cloak and assured him of safety.',
+            'Ibn Kathir notes that al-Waqidi also relates this, combining several narrators’ accounts.',
+            'https://api.turath.io/page?book_id=930&pg=751',
+        ),
+        source(
+            'E20',
+            'Ibn Kathir, al-Bidayah wa al-Nihayah',
+            'the trusts',
+            'الودائع التي كانت عنده للناس',
+            '‘Ali was told to stay behind until he had returned the deposits people had left with the Prophet ﷺ.',
+            'Ibn Ishaq introduces this with “as it has reached me”.',
+            'https://api.turath.io/page?book_id=930&pg=756',
+        ),
+        source(
+            'E21',
+            'Ibn Kathir, al-Bidayah wa al-Nihayah',
+            'the tent',
+            'فنزل رسول الله ﷺ بخيمة أم معبد',
+            'They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance.',
+            'Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood.',
+            'https://api.turath.io/page?book_id=930&pg=779',
+        ),
     ],
+}
+
+// Details found along the way carry their own passages, numbered after the chapter's.
+for (const item of details) {
+    item.source_id = `E${chapter.sources.length + 1}`
+    chapter.sources.push({
+        id: item.source_id,
+        number: chapter.sources.length + 1,
+        reference: item.work,
+        work: item.book,
+        locator: `Turath · book ${item.book_id} · page ${item.page_id} · vol. ${item.volume}, p. ${item.page}`,
+        excerpt: item.excerpt,
+        explanation: item.text,
+        limits: item.limits,
+        url: `https://api.turath.io/page?book_id=${item.book_id}&pg=${item.page_id}`,
+        author: item.author,
+        volume: item.volume,
+        page: item.page,
+        heading: null,
+        book_id: item.book_id,
+        page_id: item.page_id,
+    })
 }
 
 function get_turath_citation(id) {
@@ -517,6 +620,50 @@ function get_turath_citation(id) {
             heading: 'دخول المدينة وأول الاستقرار',
             excerpt:
                 'ثم ركب راحلته وسار يمشي معه الناس حتى بركت عند مسجد رسول الله ﷺ بالمدينة، وهو يصلي فيه يومئذ رجال من المسلمين. وكان مربدا للتمر',
+        },
+        E18: {
+            book_id: '930',
+            page_id: '749',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '227',
+            heading: 'اجتماع دار الندوة',
+            excerpt:
+                'فاجتمعوا له في دار الندوة، وهي دار قصي بن كلاب التي كانت قريش لا تقضي أمرا إلا فيها، يتشاورون فيما يصنعون في أمر رسول الله ﷺ حين خافوه',
+        },
+        E19: {
+            book_id: '930',
+            page_id: '751',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '229',
+            heading: 'ليلة الخروج',
+            excerpt:
+                'فلما رأى رسول الله ﷺ مكانهم قال لعلي بن أبي طالب: نم على فراشي وتسج ببردي هذا الحضرمي الأخضر، فنم فيه فإنه لن يخلص إليك شئ تكرهه منهم',
+        },
+        E20: {
+            book_id: '930',
+            page_id: '756',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '234',
+            heading: 'رد الودائع',
+            excerpt:
+                'أما علي فإن رسول الله ﷺ أمره أن يتخلف حتى يؤدي عن رسول الله ﷺ الودائع التي كانت عنده للناس، وكان رسول الله ﷺ، وليس بمكة أحد عنده شئ يخشى عليه إلا وضعه عنده، لما يعلم من صدقه وأمانته',
+        },
+        E21: {
+            book_id: '930',
+            page_id: '779',
+            book: 'السيرة النبوية من البداية والنهاية - ت عبد الواحد',
+            author: 'ابن كثير',
+            volume: '2',
+            page: '257',
+            heading: 'قصة أم معبد الخزاعية',
+            excerpt:
+                'فنزل رسول الله ﷺ بخيمة أم معبد ... فقالت: والله ما عندنا طعام ولا لنا منحة ولا لنا شاة إلا حائل. فدعا رسول الله ﷺ ببعض غنمها فمسح ضرعها بيده ودعا الله وحلب في العس حتى أرغى وقال: اشربي يا أم معبد',
         },
     }
     return citations[id]

@@ -53,6 +53,38 @@
       ]
     },
     {
+      "id": "departure",
+      "title": "The night of departure",
+      "paragraphs": [
+        {
+          "id": "N09a",
+          "text": "The leaders of Quraysh met in Dar al-Nadwah, the house where they settled their affairs, to decide what to do about the Prophet ﷺ now that they feared him.",
+          "source_ids": [
+            "E18"
+          ]
+        },
+        {
+          "id": "N09b",
+          "text": "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him.",
+          "source_ids": [
+            "E19"
+          ]
+        },
+        {
+          "id": "N09c",
+          "text": "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them.",
+          "source_ids": [
+            "E20"
+          ]
+        }
+      ],
+      "source_ids": [
+        "E18",
+        "E19",
+        "E20"
+      ]
+    },
+    {
       "id": "thawr",
       "title": "Three nights at Thawr",
       "paragraphs": [
@@ -157,6 +189,29 @@
         "E13",
         "E14",
         "E15"
+      ]
+    },
+    {
+      "id": "tent",
+      "title": "The tent of Umm Ma‘bad",
+      "paragraphs": [
+        {
+          "id": "N10a",
+          "text": "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk.",
+          "source_ids": [
+            "E21"
+          ]
+        },
+        {
+          "id": "N10b",
+          "text": "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another.",
+          "source_ids": [
+            "E21"
+          ]
+        }
+      ],
+      "source_ids": [
+        "E21"
       ]
     },
     {
@@ -429,6 +484,214 @@
       "url": "https://api.turath.io/page?book_id=930&pg=772",
       "volume": "2",
       "page": "250"
+    },
+    {
+      "id": "E18",
+      "number": 18,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "فاجتمعوا له في دار الندوة، وهي دار قصي بن كلاب التي كانت قريش لا تقضي أمرا إلا فيها، يتشاورون فيما يصنعون في أمر رسول الله ﷺ حين خافوه",
+      "book_id": "930",
+      "page_id": "749",
+      "url": "https://api.turath.io/page?book_id=930&pg=749",
+      "volume": "2",
+      "page": "227"
+    },
+    {
+      "id": "E19",
+      "number": 19,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "فلما رأى رسول الله ﷺ مكانهم قال لعلي بن أبي طالب: نم على فراشي وتسج ببردي هذا الحضرمي الأخضر، فنم فيه فإنه لن يخلص إليك شئ تكرهه منهم",
+      "book_id": "930",
+      "page_id": "751",
+      "url": "https://api.turath.io/page?book_id=930&pg=751",
+      "volume": "2",
+      "page": "229"
+    },
+    {
+      "id": "E20",
+      "number": 20,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "أما علي فإن رسول الله ﷺ أمره أن يتخلف حتى يؤدي عن رسول الله ﷺ الودائع التي كانت عنده للناس، وكان رسول الله ﷺ، وليس بمكة أحد عنده شئ يخشى عليه إلا وضعه عنده، لما يعلم من صدقه وأمانته",
+      "book_id": "930",
+      "page_id": "756",
+      "url": "https://api.turath.io/page?book_id=930&pg=756",
+      "volume": "2",
+      "page": "234"
+    },
+    {
+      "id": "E21",
+      "number": 21,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "فنزل رسول الله ﷺ بخيمة أم معبد ... فقالت: والله ما عندنا طعام ولا لنا منحة ولا لنا شاة إلا حائل. فدعا رسول الله ﷺ ببعض غنمها فمسح ضرعها بيده ودعا الله وحلب في العس حتى أرغى وقال: اشربي يا أم معبد",
+      "book_id": "930",
+      "page_id": "779",
+      "url": "https://api.turath.io/page?book_id=930&pg=779",
+      "volume": "2",
+      "page": "257"
+    },
+    {
+      "id": "E22",
+      "number": 22,
+      "reference": "Al-Rahiq al-Makhtum",
+      "work": "الرحيق المختوم",
+      "author": "صفي الرحمن المباركفوري",
+      "excerpt": "بينما نحن جلوس في بيت أبي بكر في نحر الظهيرة قال قائل لأبي بكر هذا رسول الله ﷺ متقنعا، في ساعة لم يكن يأتينا فيها ... قال: «فإني قد أذن لي في الخروج» فقال أبو بكر: الصحبة بأبي أنت يا رسول الله؟ قال رسول الله ﷺ: «نعم»",
+      "book_id": "9820",
+      "page_id": "144",
+      "url": "https://api.turath.io/page?book_id=9820&pg=144",
+      "volume": "1",
+      "page": "146"
+    },
+    {
+      "id": "E23",
+      "number": 23,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "احتمل أبو بكر ماله كله معه، خمسة آلاف درهم أو ستة آلاف درهم، فانطلق بها معه ... وأخذت أحجارا فوضعتها في كوة في البيت الذي كان أبي يضع ماله فيها، ثم وضعت عليها ثوبا",
+      "book_id": "930",
+      "page_id": "758",
+      "url": "https://api.turath.io/page?book_id=930&pg=758",
+      "volume": "2",
+      "page": "236"
+    },
+    {
+      "id": "E24",
+      "number": 24,
+      "reference": "Al-Rahiq al-Makhtum",
+      "work": "الرحيق المختوم",
+      "author": "صفي الرحمن المباركفوري",
+      "excerpt": "فقد سلك الطريق الذي يضاده تماما، وهو الطريق الواقع جنوب مكة، والمتجه نحو اليمن. سلك هذا الطريق نحو خمسة أميال، حتى بلغ إلى جبل يعرف بجبل ثور",
+      "book_id": "9820",
+      "page_id": "146",
+      "url": "https://api.turath.io/page?book_id=9820&pg=146",
+      "volume": "1",
+      "page": "148"
+    },
+    {
+      "id": "E25",
+      "number": 25,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "وأتتهما أسماء بنت أبي بكر بسفرتهما، ونسيت أن تجعل لها عصاما ... فتحل نطاقها فتجعله عصاما ثم علقتها به. فكان يقال لها: ذات النطاقين لذلك",
+      "book_id": "930",
+      "page_id": "776",
+      "url": "https://api.turath.io/page?book_id=930&pg=776",
+      "volume": "2",
+      "page": "254"
+    },
+    {
+      "id": "E26",
+      "number": 26,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "فصعدوا الجبل فمروا بالغار، فرأوا على بابه نسج العنكبوت، فقالوا: لو دخل ها هنا أحد لم يكن نسج العنكبوت على بابه، فمكث فيه ثلاث ليال. وهذا إسناد حسن، وهو من أجود ما روي في قصة نسج العنكبوت على فم الغار",
+      "book_id": "930",
+      "page_id": "761",
+      "url": "https://api.turath.io/page?book_id=930&pg=761",
+      "volume": "2",
+      "page": "239"
+    },
+    {
+      "id": "E27",
+      "number": 27,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "سلك بهما أسفل مكة ثم مضى بهما على الساحل حتى عارض الطريق أسفل من عسفان، ثم سلك بهما على أسفل أمج، ثم استجاز بهما حتى عارض الطريق بعد أن أجاز قديدا",
+      "book_id": "930",
+      "page_id": "777",
+      "url": "https://api.turath.io/page?book_id=930&pg=777",
+      "volume": "2",
+      "page": "255"
+    },
+    {
+      "id": "E28",
+      "number": 28,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "أن رسول الله ﷺ لقي الزبير في ركب من المسلمين كانوا تجارا قافلين من الشام، فكسا الزبير رسول الله ﷺ وأبا بكر ثياب بياض",
+      "book_id": "930",
+      "page_id": "771",
+      "url": "https://api.turath.io/page?book_id=930&pg=771",
+      "volume": "2",
+      "page": "249"
+    },
+    {
+      "id": "E29",
+      "number": 29,
+      "reference": "Al-Rahiq al-Makhtum",
+      "work": "الرحيق المختوم",
+      "author": "صفي الرحمن المباركفوري",
+      "excerpt": "فأدركته الجمعة في بني سالم بن عوف فجمع بهم في المسجد الذي في بطن الوادي وكانوا مائة رجل",
+      "book_id": "9820",
+      "page_id": "154",
+      "url": "https://api.turath.io/page?book_id=9820&pg=154",
+      "volume": "1",
+      "page": "156"
+    },
+    {
+      "id": "E30",
+      "number": 30,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "قال: \" خلوا سبيلها فإنها مأمورة \" فخلوا سبيلها. فانطلقت ... حتى إذا أتت دار بني مالك بن النجار بركت",
+      "book_id": "930",
+      "page_id": "794",
+      "url": "https://api.turath.io/page?book_id=930&pg=794",
+      "volume": "2",
+      "page": "272"
+    },
+    {
+      "id": "E31",
+      "number": 31,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "ونزل رسول الله ﷺ في دار أبي أيوب حتى بنى مسجده ومساكنه فعمل فيه رسول الله ﷺ والمسلمون من المهاجرين والأنصار",
+      "book_id": "930",
+      "page_id": "796",
+      "url": "https://api.turath.io/page?book_id=930&pg=796",
+      "volume": "2",
+      "page": "274"
+    },
+    {
+      "id": "E32",
+      "number": 32,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "فصل في مؤاخاة النبي ﷺ بين المهاجرين والانصار ليرتفق المهاجرى بالانصارى",
+      "book_id": "930",
+      "page_id": "846",
+      "url": "https://api.turath.io/page?book_id=930&pg=846",
+      "volume": "2",
+      "page": "324"
+    },
+    {
+      "id": "E33",
+      "number": 33,
+      "reference": "Ibn Kathir, al-Bidayah wa al-Nihayah",
+      "work": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+      "author": "ابن كثير",
+      "excerpt": "سمعت ابن عائشة يقول: لما قدم رسول الله ﷺ المدينة جعل النساء والصبيان يقلن: طلع البدر علينا * من ثنيات الوداع",
+      "book_id": "930",
+      "page_id": "791",
+      "url": "https://api.turath.io/page?book_id=930&pg=791",
+      "volume": "2",
+      "page": "269"
     }
   ]
 }
