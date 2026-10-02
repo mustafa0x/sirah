@@ -13,6 +13,9 @@ export async function create_scene(host, scene_kind, report) {
         if (disposed) return () => {}
         renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false })
         renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2))
+        renderer.domElement.style.display = 'block'
+        renderer.domElement.style.width = '100%'
+        renderer.domElement.style.height = '100%'
         renderer.setClearColor(0x171814)
         host.replaceChildren(renderer.domElement)
         scene = new THREE.Scene()
@@ -71,7 +74,7 @@ export async function create_scene(host, scene_kind, report) {
 
         const resize = () => {
             if (disposed || !host.clientWidth || !host.clientHeight) return
-            renderer.setSize(host.clientWidth, host.clientHeight, false)
+            renderer.setSize(host.clientWidth, host.clientHeight, true)
             camera.aspect = host.clientWidth / host.clientHeight
             camera.updateProjectionMatrix()
         }
