@@ -33,12 +33,14 @@
     let pending_timers = new Set()
     let selected_step = $derived(get_step(journey.viewed_step_id))
     let visible_sources = $derived(sources_for(selected_step))
+    let selected_index = $derived(chapter.steps.findIndex((step) => step.id === selected_step.id))
     let current_cue = $derived(
         journey.guided_position.step_id === journey.viewed_step_id
             ? cue_for(selected_step, journey.guided_position.seconds)
             : null,
     )
     let is_last_step = $derived(selected_step.id === 'arrival')
+    let story_text = $derived(current_cue?.text ?? selected_step.paragraphs[0]?.text ?? '')
 
     function announce(message) {
         journey.announcement = message
@@ -79,7 +81,7 @@
         if (step_id === journey.viewed_step_id && !journey.navigation_pending) return
         let ticket
         try {
-            ticket = begin_navigation(journey, step_id, purpose, purpose === 'detour' ? 0 : 0)
+            ticket = begin_navigation(journey, step_id, purpose, 0)
         } catch {
             announce('That chapter stop is not available.')
             return
@@ -96,6 +98,11 @@
             }
         }, 120)
         pending_timers.add(timer)
+    }
+
+    function move_step(offset) {
+        const next_index = Math.max(0, Math.min(chapter.steps.length - 1, selected_index + offset))
+        select_step(chapter.steps[next_index].id)
     }
 
     function resume_from_detour() {
@@ -149,6 +156,7 @@
     }
 
     function view_source(source_id) {
+        if (!source_id) return
         open_source(
             journey,
             source_id,
@@ -169,8 +177,7 @@
             complete_chapter(journey)
             return
         }
-        const index = chapter.steps.findIndex((step) => step.id === selected_step.id)
-        select_step(chapter.steps[index + 1].id)
+        select_step(chapter.steps[selected_index + 1].id)
     }
 
     function tick() {
@@ -205,162 +212,150 @@
     />
 </svelte:head>
 
-<header class="site-header">
-    <a class="wordmark" href="/" aria-label="Sirah Journey home">Sirah Journey</a>
-    <span class="status-label">First chapter · draft content</span>
-</header>
+<div class="experience-shell">
+    <div class="world-stage" aria-label="Sirah Journey experience">
+        <div class="world-layer">
+            {#key `${journey.viewed_step_id}-${selected_step.scene}`}
+                <SceneCanvas
+                    kind={selected_step.scene}
+                    label={`${selected_step.title} draft illustration`}
+                />
+            {/key}
+        </div>
+        <div class="world-vignette" aria-hidden="true"></div>
 
-{#if !journey.started}
-    <section class="hero" aria-labelledby="journey-title">
-        <p class="eyebrow">A guided interactive documentary · working draft</p>
-        <h1 id="journey-title">The Hijrah,<br /><em>in stages.</em></h1>
-        <p class="intro-copy">
-            Follow a selected account from preparations to arrival. Pause, read, ask a bounded
-            question, inspect the evidence, and return to your place.
-        </p>
-        <div class="hero-actions">
-            <button class="primary" onclick={() => start('scene')}>Start guided journey</button>
-            <button class="secondary" onclick={() => start('reading')}>Read instead</button>
-        </div>
-        <p class="draft-note">
-            <strong>Working draft.</strong> Learner wording, scene art, and source selection remain pending
-            scholarly and publication review. No narration is included.
-        </p>
-    </section>
-{:else}
-    <section class="journey-intro" aria-labelledby="journey-title">
-        <div>
-            <p class="eyebrow">
-                {journey.phase === 'completed' ? 'Chapter complete' : 'Selected chapter · draft'}
-            </p>
-            <h1 id="journey-title">{chapter.title}</h1>
-            <p>{chapter.objective}</p>
-        </div>
-        <div class="mode-note" aria-label="Content status">
-            <span class="status-dot"></span> Text and evidence available · voice not approved
-        </div>
-    </section>
-
-    <div class="journey-layout">
-        <aside class="path-card" aria-labelledby="path-heading">
-            <div class="section-heading">
-                <p class="eyebrow">Chapter path</p>
-                <h2 id="path-heading">Five stages</h2>
+        <header class="stage-header">
+            <a class="stage-brand" href="/" aria-label="Sirah Journey home">
+                <span class="brand-mark" aria-hidden="true">✦</span>
+                <span>Sirah Journey</span>
+            </a>
+            <div class="stage-tools">
+                <span class="draft-chip">Draft chapter</span>
+                <button class="icon-button" aria-label="Help">?</button>
+                <button class="icon-button" aria-label="Experience settings">⋯</button>
             </div>
-            <ol class="stop-list">
+        </header>
+
+        <aside class="story-rail" aria-label="Chapter navigation">
+            <div class="rail-heading">
+                <p class="rail-kicker">Historical log</p>
+                <h1>The Hijrah</h1>
+                <p class="rail-subtitle">A journey in stages</p>
+                <div class="rail-nav">
+                    <button
+                        class="rail-nav-button"
+                        onclick={() => move_step(-1)}
+                        disabled={selected_index === 0}
+                    >
+                        ‹ Prev
+                    </button>
+                    <button
+                        class="rail-nav-button"
+                        onclick={() => move_step(1)}
+                        disabled={is_last_step}
+                    >
+                        Next ›
+                    </button>
+                </div>
+            </div>
+            <div class="rail-current">
+                <div class="rail-avatar" aria-hidden="true">SJ</div>
+                <div>
+                    <strong>{selected_step.title}</strong>
+                    <span
+                        >{selected_step.scene === 'thawr'
+                            ? 'Illustrated shelter'
+                            : 'Schematic overview'}</span
+                    >
+                </div>
+            </div>
+            <ol class="rail-stops">
                 {#each chapter.steps as step, index (step.id)}
                     <li>
                         <button
                             class:active={journey.viewed_step_id === step.id}
                             class:pending={journey.navigation_pending &&
                                 journey.viewed_step_id !== step.id}
-                            class="stop"
                             onclick={() => select_step(step.id)}
                             aria-current={journey.viewed_step_id === step.id ? 'step' : undefined}
                         >
-                            <span class="stop-number">0{index + 1}</span>
-                            <span
-                                ><strong>{step.title}</strong><small
-                                    >{step.scene === 'thawr'
-                                        ? 'Illustrated shelter'
-                                        : 'Schematic overview'}</small
-                                ></span
-                            >
+                            <span>{index + 1}</span>
+                            <strong>{step.title}</strong>
                         </button>
                     </li>
                 {/each}
             </ol>
-            <p class="path-help">
-                You can revisit a stage without changing the selected evidence boundary.
+            <p class="rail-note">
+                A selected account. The world is schematic; the evidence remains explicit.
             </p>
         </aside>
 
-        <main class="journey-main">
-            <section class="presentation-card" aria-labelledby="stop-title">
-                <div class="card-topline">
-                    <span>{journey.presentation === 'reading' ? 'Reading mode' : 'Scene mode'}</span
-                    ><span>Illustration draft · review pending</span>
+        <nav class="progress-rail" aria-label="Journey progress">
+            {#each chapter.steps as step, index (step.id)}
+                <button
+                    class:active={journey.viewed_step_id === step.id}
+                    class:complete={index < selected_index}
+                    onclick={() => select_step(step.id)}
+                    aria-label={`Go to stage ${index + 1}: ${step.title}`}
+                    aria-current={journey.viewed_step_id === step.id ? 'step' : undefined}
+                    >{index + 1}</button
+                >
+            {/each}
+        </nav>
+
+        {#if !journey.started}
+            <section class="story-card entry-card" aria-labelledby="entry-title">
+                <p class="card-label">Begin the chapter</p>
+                <h2 id="entry-title">Follow the journey through five connected stages.</h2>
+                <p>
+                    Move through the draft scene, pause to read, and inspect evidence without losing
+                    your place.
+                </p>
+                <div class="card-actions">
+                    <button class="gold-button" onclick={() => start('scene')}
+                        >Start guided journey</button
+                    >
+                    <button class="outline-button" onclick={() => start('reading')}
+                        >Read instead</button
+                    >
                 </div>
-                {#if journey.presentation === 'scene'}
-                    {#key `${journey.viewed_step_id}-${selected_step.scene}`}
-                        <SceneCanvas
-                            kind={selected_step.scene}
-                            label={`${selected_step.title} draft illustration`}
-                        />
-                    {/key}
-                    <p class="illustration-note">
-                        The scene is a schematic illustration. People, exact architecture, measured
-                        routes, and the unseen are not depicted.
-                    </p>
-                {/if}
-                <div class="reading-content">
-                    <p class="eyebrow">{selected_step.title}</p>
-                    <h2 id="stop-title">{selected_step.title}</h2>
-                    {#each selected_step.paragraphs as paragraph (paragraph.id)}
-                        <p class="narration-paragraph">{paragraph.text}</p>
-                        <div class="paragraph-sources">
-                            {#each paragraph.source_ids as source_id (source_id)}
-                                <button class="citation-link" onclick={() => view_source(source_id)}
-                                    >Source {source_id}</button
-                                >
-                            {/each}
-                        </div>
-                    {/each}
-                    {#if journey.phase === 'completed' && selected_step.recap}
-                        <div class="recap" aria-labelledby="recap-title">
-                            <p class="eyebrow">Recap</p>
-                            <h3 id="recap-title">What to carry forward</h3>
-                            <p>{selected_step.recap}</p>
-                        </div>
+            </section>
+        {:else if journey.panel === 'none' && journey.presentation === 'scene'}
+            <section class="story-card narrative-card" aria-live="polite">
+                <p class="card-label">{selected_step.title}</p>
+                <p class="narrative-text">{story_text}</p>
+                <div class="card-actions">
+                    {#if journey.is_playing}
+                        <button class="outline-button" onclick={pause_playback}>Ⅱ Pause</button>
+                    {:else}
+                        <button class="gold-button" onclick={play}>▶ Play</button>
+                    {/if}
+                    <button class="outline-button" onclick={() => toggle_reading(journey)}
+                        >Read this stop</button
+                    >
+                    {#if journey.viewed_step_id === 'thawr'}
+                        <button class="outline-button" onclick={ask_about_this}
+                            >Ask about this</button
+                        >
                     {/if}
                 </div>
             </section>
+        {:else if journey.panel === 'none' && journey.mode === 'detour'}
+            <section class="story-card narrative-card detour-card" aria-labelledby="detour-heading">
+                <p class="card-label">Onward overview · detour</p>
+                <h2 id="detour-heading">Your guided position is saved.</h2>
+                <p class="narrative-text">
+                    Explore this selected stage, then return explicitly to the original position.
+                </p>
+                <button class="gold-button" onclick={resume_from_detour}>Resume journey</button>
+            </section>
+        {/if}
 
-            <section class="control-card" aria-labelledby="controls-heading">
-                <div class="control-heading">
-                    <div>
-                        <p class="eyebrow">
-                            {journey.presentation === 'reading'
-                                ? 'Readable without audio'
-                                : 'Guided presentation'}
-                        </p>
-                        <h2 id="controls-heading">
-                            {journey.is_playing
-                                ? 'Playing the draft track'
-                                : 'Paused at ' + journey.guided_position.seconds.toFixed(1) + 's'}
-                        </h2>
-                    </div>
-                    <span class="cue-label"
-                        >{journey.guided_position.step_id === journey.viewed_step_id
-                            ? 'Cue: ' + (current_cue?.id ?? selected_step.paragraphs[0].id)
-                            : 'Guided cue paused'}</span
-                    >
-                </div>
-                <div class="control-actions">
-                    {#if journey.is_playing}<button class="secondary" onclick={pause_playback}
-                        >Pause</button
-                    >{:else}<button
-                        class="primary"
-                        onclick={play}>Play</button
-                    >{/if}
-                    <button class="secondary" onclick={() => toggle_reading(journey)}
-                        >{journey.presentation === 'reading'
-                            ? 'Show scene'
-                            : 'Read instead'}</button
-                    >
-                    {#if journey.viewed_step_id === 'thawr'}<button
-                            class="secondary"
-                            onclick={ask_about_this}>Ask about this</button
-                        >{/if}
-                    <button class="text-button" onclick={() => view_source(visible_sources[0]?.id)}
-                        >View sources</button
-                    >
-                </div>
-                <label class="seek-label" for="journey-seek"
-                    >Guided position <span
-                        >{journey.guided_position.seconds.toFixed(1)} / {get_step(journey.guided_position.step_id)
-                            .duration}s</span
-                    ></label
+        {#if journey.started && journey.panel === 'none' && journey.presentation === 'scene'}
+            <div class="stage-footer-controls">
+                <span
+                    >{journey.guided_position.seconds.toFixed(1)} / {get_step(journey.guided_position.step_id)
+                        .duration}s</span
                 >
                 <input
                     id="journey-seek"
@@ -375,157 +370,152 @@
                     }}
                     aria-label="Seek guided position"
                 />
-                <p class="media-note">
-                    Narration is not shipped while voice rights and pronunciation are under review.
-                    This deterministic clock keeps pause, seek, cues, and resume testable.
-                </p>
-            </section>
-
-            {#if journey.viewed_step_id === 'thawr' && !journey.answer && journey.panel === 'none'}
-                <div class="question-invite">
-                    <div>
-                        <p class="eyebrow">Your question</p>
-                        <h2>What happened next?</h2>
-                        <p>
-                            Ask the authored chapter question and inspect the evidence before
-                            choosing an onward detour.
-                        </p>
-                    </div>
-                    <button class="primary" onclick={ask_about_this}>Ask about this</button>
-                </div>
-            {/if}
-
-            {#if journey.panel === 'question'}
-                <section class="guide-card" aria-labelledby="guide-heading">
-                    <p class="eyebrow">
-                        Bounded chapter guide · {journey.question_pending
-                            ? 'checking evidence'
-                            : 'draft local provider'}
-                    </p>
-                    <h2 id="guide-heading">Ask about this stop</h2>
-                    <form onsubmit={submit_question}>
-                        <label for="guide-question">Your question</label>
-                        <textarea
-                            id="guide-question"
-                            bind:this={question_input}
-                            bind:value={question}
-                            maxlength="1200"
-                            rows="3"></textarea>
-                        <div class="form-actions">
-                            <button
-                                class="primary"
-                                type="submit"
-                                disabled={journey.question_pending}
-                                >{journey.question_pending
-                                    ? 'Checking…'
-                                    : 'Answer from this chapter'}</button
-                            ><button class="text-button" type="button" onclick={close_source}
-                                >Close</button
-                            >
-                        </div>
-                    </form>
-                    {#if journey.answer}{@render Answer({
-                            answer: journey.answer,
-                            on_source: view_source,
-                            on_action: show_action,
-                        })}{/if}
-                </section>
-            {/if}
-
-            {#if journey.answer && journey.panel !== 'source'}
-                <section class="answer-card" aria-live="polite">
-                    <p class="eyebrow">Answer · {journey.answer.status}</p>
-                    <p>{journey.answer.answer}</p>
-                    <div class="answer-actions">
-                        {#each journey.answer.citations ?? [] as source_id}<button
-                                class="citation-link"
-                                onclick={() => view_source(source_id)}>View {source_id}</button
-                            >{/each}{#if journey.answer.action}<button
-                                class="primary"
-                                onclick={show_action}>{journey.answer.action.label}</button
-                            >{/if}
-                    </div>
-                </section>
-            {/if}
-
-            {#if journey.viewed_step_id === 'onward' && journey.mode === 'detour'}
-                <section class="detour-card" aria-labelledby="detour-heading">
-                    <p class="eyebrow">Onward overview · detour</p>
-                    <h2 id="detour-heading">Your Thawr position is saved.</h2>
-                    <p>
-                        Explore this selected next stage, then return explicitly. The schematic
-                        coastal connection does not claim an exact route.
-                    </p>
-                    <button class="primary" onclick={resume_from_detour}>Resume journey</button>
-                </section>
-            {/if}
-
-            <div class="continue-row">
-                <span>{is_last_step ? 'Finish with the recap' : 'Continue when ready'}</span><button
-                    class="secondary"
-                    onclick={continue_chapter}
-                    >{is_last_step ? 'Complete chapter' : 'Next stage'}</button
+                <button class="footer-control" onclick={() => toggle_reading(journey)}>Read</button>
+                <button class="footer-control" onclick={() => view_source(visible_sources[0]?.id)}
+                    >Sources</button
                 >
             </div>
-        </main>
+        {/if}
+
+        {#if journey.started && journey.presentation === 'reading' && journey.panel === 'none'}
+            <section class="overlay-panel reading-panel" aria-labelledby="reading-title">
+                <div class="overlay-heading">
+                    <div>
+                        <p class="card-label">Reading mode · {selected_step.title}</p>
+                        <h2 id="reading-title">{selected_step.title}</h2>
+                    </div>
+                    <button
+                        class="close-overlay"
+                        onclick={() => toggle_reading(journey)}
+                        aria-label="Close reading mode">×</button
+                    >
+                </div>
+                <div class="reading-scroll">
+                    {#each selected_step.paragraphs as paragraph (paragraph.id)}
+                        <p>{paragraph.text}</p>
+                        <div class="paragraph-sources">
+                            {#each paragraph.source_ids as source_id (source_id)}
+                                <button class="citation-link" onclick={() => view_source(source_id)}
+                                    >Source {source_id}</button
+                                >
+                            {/each}
+                        </div>
+                    {/each}
+                    {#if journey.phase === 'completed' && selected_step.recap}
+                        <div class="recap-block">
+                            <p class="card-label">Recap</p>
+                            <h3>What to carry forward</h3>
+                            <p>{selected_step.recap}</p>
+                        </div>
+                    {/if}
+                </div>
+                <div class="overlay-actions">
+                    {#if is_last_step}
+                        <button class="gold-button" onclick={continue_chapter}
+                            >Complete chapter</button
+                        >
+                    {:else}
+                        <button class="outline-button" onclick={continue_chapter}
+                            >Next stage →</button
+                        >
+                    {/if}
+                    {#if selected_step.id === 'thawr'}
+                        <button class="outline-button" onclick={ask_about_this}
+                            >Ask about this</button
+                        >
+                    {/if}
+                </div>
+            </section>
+        {/if}
+
+        {#if journey.panel === 'question'}
+            <section class="overlay-panel question-panel" aria-labelledby="guide-heading">
+                <div class="overlay-heading">
+                    <div>
+                        <p class="card-label">Question layer · draft evidence</p>
+                        <h2 id="guide-heading">Ask about this stop</h2>
+                    </div>
+                    <button class="close-overlay" onclick={close_source} aria-label="Close question"
+                        >×</button
+                    >
+                </div>
+                <form onsubmit={submit_question}>
+                    <label for="guide-question">Your question</label>
+                    <textarea
+                        id="guide-question"
+                        bind:this={question_input}
+                        bind:value={question}
+                        maxlength="1200"
+                        rows="4"></textarea>
+                    <div class="overlay-actions">
+                        <button
+                            class="gold-button"
+                            type="submit"
+                            disabled={journey.question_pending}
+                        >
+                            {journey.question_pending
+                                ? 'Checking evidence…'
+                                : 'Answer from this chapter'}
+                        </button>
+                        <button class="outline-button" type="button" onclick={close_source}
+                            >Return to scene</button
+                        >
+                    </div>
+                </form>
+                {#if journey.answer}
+                    <div class="answer-block" aria-live="polite">
+                        <p class="card-label">Answer · {journey.answer.status}</p>
+                        <p>{journey.answer.answer}</p>
+                        <div class="overlay-actions">
+                            {#each journey.answer.citations ?? [] as source_id}
+                                <button class="citation-link" onclick={() => view_source(source_id)}
+                                    >View {source_id}</button
+                                >
+                            {/each}
+                            {#if journey.answer.action}
+                                <button class="gold-button" onclick={show_action}
+                                    >{journey.answer.action.label}</button
+                                >
+                            {/if}
+                        </div>
+                    </div>
+                {/if}
+            </section>
+        {/if}
     </div>
-{/if}
 
-{#if journey.panel === 'source' && journey.source_id}
-    {@const active_source = get_source(journey.source_id)}
-    <aside class="source-drawer" aria-labelledby="source-title">
-        <div class="drawer-heading">
-            <div>
-                <p class="eyebrow">Evidence · {active_source?.review_status}</p>
-                <h2 id="source-title">{active_source?.work}</h2>
-                <p class="source-locator">{active_source?.locator}</p>
+    {#if journey.panel === 'source' && journey.source_id}
+        {@const active_source = get_source(journey.source_id)}
+        <aside class="source-drawer" aria-labelledby="source-title">
+            <div class="drawer-heading">
+                <div>
+                    <p class="card-label">Evidence · draft review</p>
+                    <h2 id="source-title">{active_source?.work}</h2>
+                    <p class="source-locator">{active_source?.locator}</p>
+                </div>
+                <button class="close-overlay" onclick={close_source} aria-label="Close source"
+                    >×</button
+                >
             </div>
-            <button class="close-button" onclick={close_source} aria-label="Close source">×</button>
-        </div>
-        <p class="citation-status">
-            {active_source?.citation_status}. This source slot is visible for honest draft review;
-            it is not a publication approval.
-        </p>
-        <blockquote dir="rtl">{active_source?.excerpt}</blockquote>
-        <p>{active_source?.explanation}</p>
-        <p class="source-limits"><strong>Limit:</strong> {active_source?.limits}</p>
-        <a href={active_source?.url} target="_blank" rel="noreferrer"
-            >Open the working record <span aria-hidden="true">↗</span></a
-        >
-        <button class="secondary drawer-close" onclick={close_source}>Close source</button>
-    </aside>
-{/if}
-
-{#if journey.phase === 'completed'}
-    <section class="completion-banner" aria-labelledby="completion-title">
-        <p class="eyebrow">Journey complete</p>
-        <h2 id="completion-title">You reached the recap.</h2>
-        <p>
-            The chapter remains a selected, draft account. You can revisit any stage and its source
-            trail.
-        </p>
-    </section>
-{/if}
+            <p class="citation-status">
+                {active_source?.citation_status}. This source slot is visible for honest draft
+                review; it is not publication approval.
+            </p>
+            <blockquote dir="rtl">{active_source?.excerpt}</blockquote>
+            <p>{active_source?.explanation}</p>
+            <p class="source-limits"><strong>Limit:</strong> {active_source?.limits}</p>
+            <a href={active_source?.url} target="_blank" rel="noreferrer"
+                >Open the working record ↗</a
+            >
+            <button class="outline-button drawer-close" onclick={close_source}
+                >Return to journey</button
+            >
+        </aside>
+    {/if}
+</div>
 
 <p class="announcement" role="status" aria-live="polite">{journey.announcement}</p>
 
-<footer class="site-footer">
-    <span>First playable chapter · content and visuals remain draft.</span><span
-        >Sources are shown with their limits.</span
-    >
-</footer>
-
-{#snippet Answer({ answer, on_source, on_action })}
-    <div class="inline-answer">
-        <p><strong>{answer.answer}</strong></p>
-        <p class="answer-meta">Status: {answer.status} · Confidence: {answer.confidence}</p>
-        <div class="answer-actions">
-            {#each answer.citations ?? [] as source_id}<button
-                    class="citation-link"
-                    onclick={() => on_source(source_id)}>View {source_id}</button
-                >{/each}{#if answer.action}<button class="primary" onclick={on_action}
-                    >{answer.action.label}</button
-                >{/if}
-        </div>
-    </div>
-{/snippet}
+{#if journey.phase === 'completed'}
+    <div class="completion-status">Chapter complete · recap available in Reading mode</div>
+{/if}
