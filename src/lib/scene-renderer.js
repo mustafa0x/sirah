@@ -80,13 +80,36 @@ export async function create_scene(
         } else {
             rock(-2.5, 0.2, -0.5, [1.4, 1, 1.2])
             rock(2.3, 0.1, -0.3, [1.3, 0.9, 1.1])
+            const overview_pois = scene_pois.overview ?? []
+            const route_points = overview_pois.map(
+                (poi) => new THREE.Vector3(poi.position[0], 0.1, poi.position[2]),
+            )
+            const route_curve = new THREE.CatmullRomCurve3(route_points)
             const route = new THREE.Mesh(
-                new THREE.TorusGeometry(2.15, 0.035, 8, 64, Math.PI * 0.85),
+                new THREE.TubeGeometry(route_curve, 64, 0.045, 6, false),
                 new THREE.MeshBasicMaterial({ color: 0xd89a56 }),
             )
-            route.rotation.x = Math.PI / 2
-            route.position.y = 0.02
             scene.add(route)
+            const island_material = new THREE.MeshStandardMaterial({
+                color: 0x9a7651,
+                roughness: 1,
+            })
+            const island_ring_material = new THREE.MeshBasicMaterial({ color: 0xd7a55f })
+            for (const poi of overview_pois) {
+                const island = new THREE.Mesh(
+                    new THREE.CylinderGeometry(0.48, 0.68, 0.16, 8),
+                    island_material,
+                )
+                island.position.set(poi.position[0], -0.01, poi.position[2])
+                scene.add(island)
+                const ring = new THREE.Mesh(
+                    new THREE.TorusGeometry(0.26, 0.018, 6, 24),
+                    island_ring_material,
+                )
+                ring.rotation.x = Math.PI / 2
+                ring.position.set(poi.position[0], 0.24, poi.position[2])
+                scene.add(ring)
+            }
         }
 
         const poi_targets = []
@@ -109,9 +132,9 @@ export async function create_scene(
                       [2.4, -0.35, -0.5, 1.3, -0.15],
                   ]
                 : [
-                      [-3.2, -0.35, 1.1, 1.2, 0.2],
-                      [2.9, -0.35, 1, 1.15, -0.3],
-                      [0.4, -0.35, 1.8, 0.85, 0.1],
+                      [-3.2, -0.35, 1.1, 0.65, 0.2],
+                      [2.9, -0.35, 1, 0.6, -0.3],
+                      [0.4, -0.35, 1.8, 0.45, 0.1],
                   ]
         await Promise.all(
             (scene_assets[scene_kind] ?? []).slice(0, asset_layout.length).map(
