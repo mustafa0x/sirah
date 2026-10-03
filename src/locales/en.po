@@ -16,14 +16,17 @@ msgstr "Page not found"
 msgid "Return to the journey"
 msgstr "Return to the journey"
 
+#: src/lib/guide-provider.js
 #: src/routes/Journey.svelte
 msgid "How long did they stay in the cave?"
 msgstr "How long did they stay in the cave?"
 
+#: src/lib/guide-provider.js
 #: src/routes/Journey.svelte
 msgid "Who brought them news?"
 msgstr "Who brought them news?"
 
+#: src/lib/guide-provider.js
 #: src/routes/Journey.svelte
 msgid "Is the exact route known?"
 msgstr "Is the exact route known?"
@@ -353,6 +356,7 @@ msgid "Connect preparations, the stay at Thawr, the onward journey, and arrival 
 msgstr "Connect preparations, the stay at Thawr, the onward journey, and arrival while distinguishing an illustration from its evidence."
 
 #: src/content/first-chapter.js
+#: src/lib/guide-provider.js
 msgid "How did the journey continue after the cave?"
 msgstr "How did the journey continue after the cave?"
 
@@ -386,6 +390,7 @@ msgid "They also hired a skilled guide, entrusted him with two riding animals, a
 msgstr "They also hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr after three nights. The arrangements for the onward journey were already being made."
 
 #: src/content/first-chapter.js
+#: src/content/timeline.js
 msgid "Three nights at Thawr"
 msgstr "Three nights at Thawr"
 
@@ -448,6 +453,7 @@ msgstr "You followed preparations, a period of shelter, the onward journey, and 
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
+#: src/content/lenses.js
 msgid "Sahih al-Bukhari"
 msgstr "Sahih al-Bukhari"
 
@@ -500,6 +506,8 @@ msgid "Abu Bakr’s account records concern about being seen and the Prophet’s
 msgstr "Abu Bakr’s account records concern about being seen and the Prophet’s reassurance."
 
 #: src/content/first-chapter.js
+#: src/content/lenses.js
+#: src/content/lenses.js
 msgid "Quran"
 msgstr "Quran"
 
@@ -507,7 +515,13 @@ msgstr "Quran"
 msgid "The selected extract recalls the two in the cave and the reassurance to the companion."
 msgstr "The selected extract recalls the two in the cave and the reassurance to the companion."
 
+#: src/content/details.js
 #: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/timeline.js
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
 msgstr "Ibn Kathir, al-Bidayah wa al-Nihayah"
 
@@ -563,6 +577,8 @@ msgstr "The arrival account describes Muslims waiting, the stay among Bani ‘Am
 msgid "The selected evidence does not establish an answer to that question. The available source records are shown below."
 msgstr "The selected evidence does not establish an answer to that question. The available source records are shown below."
 
+#: src/content/lenses.js
+#: src/content/lenses.js
 #: src/lib/scene-manifest.js
 msgid "Makkah"
 msgstr "Makkah"
@@ -587,6 +603,8 @@ msgstr "The coastal way"
 msgid "The guide led them by the coast. This line is schematic, not a measured route."
 msgstr "The guide led them by the coast. This line is schematic, not a measured route."
 
+#: src/content/lenses.js
+#: src/content/lenses.js
 #: src/lib/scene-manifest.js
 msgid "Madinah"
 msgstr "Madinah"
@@ -693,14 +711,8 @@ msgstr "OpenAI and Turath process questions and research text. This app does not
 msgid "From the sources"
 msgstr "From the sources"
 
-#: src/lib/scene-manifest.js
-msgid "What is not shown"
-msgstr "What is not shown"
-
-#: src/lib/scene-manifest.js
-msgid "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
-msgstr "Popular retellings add a spider’s web and nesting doves at the cave mouth. Those details are not in the accounts this chapter cites, so the scene leaves them out."
-
+#: src/content/lenses.js
+#: src/content/lenses.js
 #: src/lib/scene-manifest.js
 msgid "Quba"
 msgstr "Quba"
@@ -891,6 +903,7 @@ msgid "Ibn Kathir calls the story well known, through routes that support one an
 msgstr "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
 
 #: src/content/details.js
+#: src/content/timeline.js
 msgid "Al-Rahiq al-Makhtum"
 msgstr "Al-Rahiq al-Makhtum"
 
@@ -1363,6 +1376,7 @@ msgid "Short for “peace and blessings of Allah be upon him”, said by Muslims
 msgstr "Short for “peace and blessings of Allah be upon him”, said by Muslims after the Prophet’s name."
 
 #: src/content/lenses.js
+#: src/content/lenses.js
 msgid "Hijrah"
 msgstr "Hijrah"
 
@@ -1370,6 +1384,7 @@ msgstr "Hijrah"
 msgid "The migration of the Prophet ﷺ and his companions from Makkah to Madinah, in 622."
 msgstr "The migration of the Prophet ﷺ and his companions from Makkah to Madinah, in 622."
 
+#: src/content/lenses.js
 #: src/content/lenses.js
 msgid "Quraysh"
 msgstr "Quraysh"
@@ -1387,6 +1402,7 @@ msgid "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name mea
 msgstr "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
 
 #: src/content/lenses.js
+#: src/content/lenses.js
 msgid "Abu Bakr"
 msgstr "Abu Bakr"
 
@@ -1394,6 +1410,7 @@ msgstr "Abu Bakr"
 msgid "The Prophet’s closest friend and companion, who later led the Muslims after him."
 msgstr "The Prophet’s closest friend and companion, who later led the Muslims after him."
 
+#: src/content/lenses.js
 #: src/content/lenses.js
 msgid "Allah"
 msgstr "Allah"
@@ -1411,6 +1428,7 @@ msgid "The collection of hadith that Muslims consider the most reliable."
 msgstr "The collection of hadith that Muslims consider the most reliable."
 
 #: src/content/lenses.js
+#: src/content/lenses.js
 msgid "Ibn Kathir"
 msgstr "Ibn Kathir"
 
@@ -1419,6 +1437,7 @@ msgid "A scholar of the fourteenth century whose history of the Prophet’s life
 msgstr "A scholar of the fourteenth century whose history of the Prophet’s life is widely used."
 
 #: src/content/lenses.js
+#: src/content/lenses.js
 msgid "Ibn Ishaq"
 msgstr "Ibn Ishaq"
 
@@ -1426,6 +1445,7 @@ msgstr "Ibn Ishaq"
 msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
 msgstr "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
 
+#: src/content/lenses.js
 #: src/content/lenses.js
 msgid "Thawr"
 msgstr "Thawr"
@@ -1455,13 +1475,16 @@ msgid "A modern author’s explanation or calculation, built on the early source
 msgstr "A modern author’s explanation or calculation, built on the early sources."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Young learners"
 msgstr "Young learners"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "New to the story"
 msgstr "New to the story"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "In depth"
 msgstr "In depth"
@@ -1486,6 +1509,7 @@ msgstr "Terms explained, and why each stage matters."
 msgid "Every detail, with the evidence and the timeline open."
 msgstr "Every detail, with the evidence and the timeline open."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Why this matters:"
 msgstr "Why this matters:"

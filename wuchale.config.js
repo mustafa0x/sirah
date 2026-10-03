@@ -1,6 +1,7 @@
 import { adapter as svelte } from '@wuchale/svelte'
 import { defaultHeuristic, defineConfig } from 'wuchale'
 import { adapter as vanilla } from 'wuchale/adapter-vanilla'
+import { locales } from './src/lib/locale-config.js'
 
 const heuristic = (message) => {
     const body = Array.isArray(message.body) ? message.body.join(' ') : message.body
@@ -46,9 +47,10 @@ const heuristic = (message) => {
 }
 
 export default defineConfig({
-    locales: ['en', 'ar'],
+    locales: locales.map((locale) => locale.code),
     localesDir: 'src/locales',
     dev: 'read',
+    ai: null,
     adapters: {
         main: svelte({ files: ['src/**/*.svelte'], heuristic, loader: 'svelte' }),
         js: vanilla({

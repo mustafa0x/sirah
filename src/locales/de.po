@@ -1,442 +1,542 @@
 msgid ""
 msgstr ""
 "Source-Language: en\n"
-"Language: ar\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6\n"
-"X-Plurals-Order: zero, one, two, few, many, other\n"
+"Plural-Forms: nplurals=2\n"
+"X-Plurals-Order: one, other\n"
 
 #: src/App.svelte
+#, ai
 msgid "Page not found"
-msgstr "الصفحة غير موجودة"
+msgstr "Seite nicht gefunden"
 
 #: src/App.svelte
+#, ai
 msgid "Return to the journey"
-msgstr "العودة إلى الرحلة"
+msgstr "Zur Reise zurückkehren"
 
 #: src/lib/guide-provider.js
 #: src/routes/Journey.svelte
+#, ai
 msgid "How long did they stay in the cave?"
-msgstr "كم مكثوا في الغار؟"
+msgstr "Wie lange blieben sie in der Höhle?"
 
 #: src/lib/guide-provider.js
 #: src/routes/Journey.svelte
+#, ai
 msgid "Who brought them news?"
-msgstr "من كان يأتيهم بالأخبار؟"
+msgstr "Wer brachte ihnen Nachrichten?"
 
 #: src/lib/guide-provider.js
 #: src/routes/Journey.svelte
+#, ai
 msgid "Is the exact route known?"
-msgstr "هل المسار الدقيق معروف؟"
+msgstr "Ist die genaue Route bekannt?"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Return to the guided position before playback."
-msgstr "عُد إلى موضعك في الرحلة الموجّهة قبل التشغيل."
+msgstr "Kehre vor der Wiedergabe zur geführten Position zurück."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Guided presentation is playing."
-msgstr "العرض الموجّه قيد التشغيل."
+msgstr "Geführte Präsentation wird abgespielt."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Playback has not started. Continue with the text."
-msgstr "لم يبدأ التشغيل. يمكنك متابعة القراءة."
+msgstr "Wiedergabe hat nicht begonnen. Fahre mit dem Text fort."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Guided presentation paused. Your position is saved."
-msgstr "توقّف العرض الموجّه مؤقتًا. حُفظ موضعك."
+msgstr "Geführte Präsentation pausiert. Deine Position wurde gespeichert."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "That chapter stop is not available."
-msgstr "هذه المحطة من الفصل غير متاحة."
+msgstr "Dieser Kapitelstopp ist nicht verfügbar."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Onward stage opened. Your guided position is preserved."
-msgstr "فُتحت مرحلة متابعة الرحلة. موضعك في الرحلة الموجّهة محفوظ."
+msgstr "Nächste Etappe geöffnet. Deine geführte Position bleibt erhalten."
 
 #. 0: get_step(step_id).title
 #: src/routes/Journey.svelte
+#, ai
 msgid "{0} opened."
-msgstr "فُتحت مرحلة «{0}»."
+msgstr "{0} geöffnet."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "You are back where you left the guided journey. Press Play to continue."
-msgstr "عدت إلى الموضع الذي تركت فيه الرحلة الموجّهة. اضغط على التشغيل للمتابعة."
+msgstr "Du bist zurück an dem Punkt, an dem du die geführte Reise verlassen hast. Drücke Wiedergabe, um fortzufahren."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "The last stage is complete."
-msgstr "اكتملت المرحلة الأخيرة."
+msgstr "Die letzte Etappe ist abgeschlossen."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Stage complete. Continuing to the next stage."
-msgstr "اكتملت المرحلة. ننتقل إلى المرحلة التالية."
+msgstr "Etappe abgeschlossen. Weiter zur nächsten Etappe."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Answer ready. Its cited passages are listed with it."
-msgstr "الإجابة جاهزة، ومعها النصوص المستشهد بها."
+msgstr "Antwort bereit. Die zitierten Textstellen sind mit aufgeführt."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Returned to the guided view."
-msgstr "عدت إلى العرض الموجّه."
+msgstr "Zur geführten Ansicht zurückgekehrt."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Panel closed."
-msgstr "أُغلقت اللوحة."
+msgstr "Bereich geschlossen."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "A source-linked learner journey through selected stages of the Hijrah."
-msgstr "رحلة تعليمية موثّقة بالمصادر عبر مراحل مختارة من الهجرة."
+msgstr "Eine quellenbasierte Lernreise durch ausgewählte Etappen der Hidschra."
 
 #. 0: chapter.title
 #: src/routes/Journey.svelte
+#, ai
 msgid "{0} · Sirah Journey"
-msgstr "{0} · رحلة السيرة"
+msgstr "{0} · Sira-Reise"
 
 #. 0: source.number; 1: source.reference
 #. 0: source.number; 1: source.reference
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "Source {0}: {1}"
-msgstr "المصدر {0}: {1}"
+msgstr "Quelle {0}: {1}"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Schematic relief of the route from Makkah to Madinah"
-msgstr "تصوّر تضاريسي تخطيطي للطريق من مكة إلى المدينة"
+msgstr "Schematisches Relief der Route von Mekka nach Medina"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Sirah Journey home"
-msgstr "الصفحة الرئيسية لرحلة السيرة"
+msgstr "Sira-Reise Startseite"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "How this works"
-msgstr "كيفية الاستخدام"
+msgstr "Wie das funktioniert"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Sirah Journey"
-msgstr "<0/> رحلة السيرة"
+msgstr "<0/> Sira-Reise"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place name to fly there."
-msgstr "<0>اسحب</0> للنظر حولك، و<1>مرّر</1> للتكبير والتصغير، واختر اسم مكان للانتقال إليه."
+msgstr "<0>Ziehen</0> zum Umsehen, <1>Scrollen</1> zum Zoomen und einen Ortsnamen auswählen, um dorthin zu fliegen."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
-msgstr "<0>المصادر</0> تعرض النص الذي تستند إليه كل فقرة، وما لا يثبته."
+msgstr "<0>Quellen</0> zeigt die Textstelle hinter jedem Absatz und was sie nicht belegt."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
-msgstr "<0>المسافة</0> للتشغيل أو الإيقاف المؤقت · <1/> <2/> لتغيير المرحلة · <3>Esc</3> للإغلاق"
+msgstr "<0>Leertaste</0> Wiedergabe oder Pause · <1/> <2/> Etappe wechseln · <3>Esc</3> Schließen"
 
 #. 0: chapter.steps.length
 #: src/routes/Journey.svelte
+#, ai
 msgid "{0} stages"
-msgstr "عدد المراحل: {0}"
+msgstr "{0} Etappen"
 
 #. 0: total_minutes
 #: src/routes/Journey.svelte
+#, ai
 msgid "about {0} minutes"
-msgstr "المدة التقريبية بالدقائق: {0}"
+msgstr "ca. {0} Minuten"
 
 #. 0: chapter.sources.length
 #: src/routes/Journey.svelte
+#, ai
 msgid "{0} cited passages"
-msgstr "عدد النصوص المستشهد بها: {0}"
+msgstr "{0} zitierte Textstellen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Begin the journey"
-msgstr "<0/> ابدأ الرحلة"
+msgstr "<0/> Reise beginnen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Read instead"
-msgstr "<0/> اقرأ بدلًا من ذلك"
+msgstr "<0/> Stattdessen lesen"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "Chapter one"
-msgstr "الفصل الأول"
+msgstr "Kapitel eins"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "The Hijrah"
-msgstr "الهجرة"
+msgstr "Die Hidschra"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Chapter stages"
-msgstr "مراحل الفصل"
+msgstr "Kapitelabschnitte"
 
 #. 0: index + 1; 1: step.title
 #: src/routes/Journey.svelte
+#, ai
 msgid "Stage {0}: {1}"
-msgstr "المرحلة {0}: {1}"
+msgstr "Abschnitt {0}: {1}"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Guided journey"
-msgstr "الرحلة الموجّهة"
+msgstr "Geführte Reise"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Return to where you were"
-msgstr "<0/> عُد إلى موضعك السابق"
+msgstr "<0/> Zurück zu deiner Position"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Read this stage"
-msgstr "<0/> اقرأ هذه المرحلة"
+msgstr "<0/> Diesen Abschnitt lesen"
 
 #. 0: selected_step.title
 #: src/routes/Journey.svelte
+#, ai
 msgid "Side trip · {0}"
-msgstr "جولة جانبية · {0}"
+msgstr "Abstecher · {0}"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Pause"
-msgstr "إيقاف مؤقت"
+msgstr "Pause"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Play"
-msgstr "تشغيل"
+msgstr "Abspielen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Position in this stage"
-msgstr "الموضع في هذه المرحلة"
+msgstr "Position in diesem Abschnitt"
 
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
 #: src/routes/Journey.svelte
+#, ai
 msgid "{0} of {1}"
-msgstr "{0} من {1}"
+msgstr "{0} von {1}"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Complete the chapter"
-msgstr "<0/> أكمل الفصل"
+msgstr "<0/> Kapitel abschließen"
 
 #. 0: chapter.steps[selected_index + 1].title
 #: src/routes/Journey.svelte
+#, ai
 msgid "Continue: {0} <0/>"
-msgstr "تابع: {0} <0/>"
+msgstr "Weiter: {0} <0/>"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Read"
-msgstr "<0/> اقرأ"
+msgstr "<0/> Lesen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Sources <1/>"
-msgstr "<0/> المصادر <1/>"
+msgstr "<0/> Quellen <1/>"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Ask"
-msgstr "<0/> اسأل"
+msgstr "<0/> Fragen"
 
 #. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
 #: src/routes/Journey.svelte
+#, ai
 msgid "Stage {0} of {1} · {2}"
-msgstr "المرحلة {0} من {1} · {2}"
+msgstr "Abschnitt {0} von {1} · {2}"
 
 #. 0: selected_index + 1; 1: chapter.steps.length
 #: src/routes/Journey.svelte
+#, ai
 msgid "Reading · stage {0} of {1}"
-msgstr "القراءة · المرحلة {0} من {1}"
+msgstr "Lesen · Abschnitt {0} von {1}"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Close reading"
-msgstr "إغلاق القراءة"
+msgstr "Lesen schließen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Chapter complete"
-msgstr "اكتمل الفصل"
+msgstr "Kapitel abgeschlossen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "What to carry forward"
-msgstr "خلاصة الرحلة"
+msgstr "Was wir mitnehmen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/> Start again"
-msgstr "<0/> ابدأ من جديد"
+msgstr "<0/> Neu starten"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Side trip"
-msgstr "جولة جانبية"
+msgstr "Abstecher"
 
 #. 0: guided_step.title
 #: src/routes/Journey.svelte
+#, ai
 msgid "Your place in “{0}” is saved."
-msgstr "موضعك في «{0}» محفوظ."
+msgstr "Deine Position in „{0}“ ist gespeichert."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Previous stage"
-msgstr "المرحلة السابقة"
+msgstr "Vorheriger Abschnitt"
 
 #. 0: chapter.steps[selected_index + 1].title
 #: src/routes/Journey.svelte
+#, ai
 msgid "Next: {0}"
-msgstr "التالي: {0}"
+msgstr "Weiter: {0}"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Ask the sources"
-msgstr "اسأل المصادر"
+msgstr "Die Quellen fragen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "What would you like to know?"
-msgstr "ماذا تود أن تعرف؟"
+msgstr "Was möchtest du wissen?"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Close question"
-msgstr "إغلاق السؤال"
+msgstr "Frage schließen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Ask about this chapter…"
-msgstr "اسأل عن هذا الفصل…"
+msgstr "Frage zu diesem Kapitel stellen…"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Ask"
-msgstr "اسأل"
+msgstr "Fragen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Your question"
-msgstr "سؤالك"
+msgstr "Deine Frage"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Suggested questions"
-msgstr "أسئلة مقترحة"
+msgstr "Vorgeschlagene Fragen"
 
 #. 0: active_source.number
 #: src/routes/Journey.svelte
+#, ai
 msgid "Source {0} · evidence"
-msgstr "المصدر {0} · الدليل"
+msgstr "Quelle {0} · Beleg"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Close source"
-msgstr "إغلاق المصدر"
+msgstr "Quelle schließen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Sources for this stage"
-msgstr "مصادر هذه المرحلة"
+msgstr "Quellen für diesen Abschnitt"
 
 #. 0: active_source.volume; 1: active_source.page
 #: src/routes/Journey.svelte
+#, ai
 msgid "· vol. {0}, p. {1}"
-msgstr "· ج {0}، ص {1}"
+msgstr "· Bd. {0}, S. {1}"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "What this passage supports"
-msgstr "ما يدعمه هذا النص"
+msgstr "Was diese Passage stützt"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "What it does not establish"
-msgstr "ما لا يثبته النص"
+msgstr "Was sie nicht belegt"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Back to the answer"
-msgstr "العودة إلى الإجابة"
+msgstr "Zurück zur Antwort"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Back to the journey"
-msgstr "العودة إلى الرحلة"
+msgstr "Zurück zur Reise"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Open the page on Turath <0/>"
-msgstr "افتح الصفحة في تراث <0/>"
+msgstr "Öffne die Seite auf Turath <0/>"
 
 #: src/lib/SceneCanvas.svelte
+#, ai
 msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
-msgstr "العرض ثلاثي الأبعاد غير متاح على هذا الجهاز. لا يزال الفصل كاملًا متاحًا للقراءة."
+msgstr "Die 3D-Illustration ist auf diesem Gerät nicht verfügbar. Das vollständige Kapitel kann weiterhin gelesen werden."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The Hijrah: a journey in stages"
-msgstr "الهجرة: رحلة على مراحل"
+msgstr "Die Hidschra: Eine Reise in Etappen"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "English working draft; no final narration or translation approved"
-msgstr "مسودة عمل إنجليزية؛ لم يُعتمد سرد أو ترجمة نهائية"
+msgstr "Englischer Arbeitsentwurf; keine endgültige Erzählung oder Übersetzung freigegeben"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Connect preparations, the stay at Thawr, the onward journey, and arrival while distinguishing an illustration from its evidence."
-msgstr "اربط بين الاستعدادات والإقامة في ثور ومتابعة الرحلة والوصول، مع التمييز بين التصوّر التوضيحي ودليله."
+msgstr "Verbinde die Vorbereitungen, den Aufenthalt in Thawr, die Weiterreise und die Ankunft, während du zwischen einer Illustration und ihren Belegen unterscheidest."
 
 #: src/content/first-chapter.js
 #: src/lib/guide-provider.js
+#, ai
 msgid "How did the journey continue after the cave?"
-msgstr "كيف استمرت الرحلة بعد الغار؟"
+msgstr "Wie ging die Reise nach der Höhle weiter?"
 
 #: src/content/first-chapter.js
 #: src/lib/guide-provider.js
+#, ai
 msgid "Show the onward journey"
-msgstr "اعرض مرحلة متابعة الرحلة"
+msgstr "Zeige die Weiterreise"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Before the journey"
-msgstr "قبل الرحلة"
+msgstr "Vor der Reise"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "This chapter follows the Hijrah: the Prophet Muhammad’s ﷺ migration from Makkah to Madinah. We will follow a few connected stages, from preparations for departure to arrival in Madinah."
-msgstr "يتتبّع هذا الفصل الهجرة: هجرة النبي محمد ﷺ من مكة إلى المدينة. سنتابع مراحل مترابطة، من الاستعداد للخروج إلى الوصول إلى المدينة."
+msgstr "Dieses Kapitel folgt der Hidschra: der Auswanderung des Propheten Muhammad ﷺ von Mekka nach Medina. Wir werden einige miteinander verbundene Etappen verfolgen, von den Vorbereitungen für den Aufbruch bis zur Ankunft in Medina."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Before the Prophet departed, some Muslims had already moved to Madinah. Abu Bakr was preparing to leave too, but waited to accompany him. This was part of a wider movement, not a departure in which everyone travelled together."
-msgstr "قبل خروج النبي، كان بعض المسلمين قد انتقلوا إلى المدينة. وكان أبو بكر يستعد للخروج أيضًا، لكنه انتظر ليصحبه. كانت هذه الرحلة جزءًا من انتقال أوسع، لا خروجًا سافر فيه الجميع معًا."
+msgstr "Bevor der Prophet aufbrach, waren einige Muslime bereits nach Medina gezogen. Auch Abu Bakr bereitete sich auf den Aufbruch vor, wartete jedoch, um ihn zu begleiten. Dies war Teil einer größeren Bewegung, kein Aufbruch, bei dem alle gemeinsam reisten."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Preparing to leave"
-msgstr "الاستعداد للخروج"
+msgstr "Vorbereitung auf den Aufbruch"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "When permission to depart had been given, preparations were made for the Prophet ﷺ and Abu Bakr. ‘Aishah’s account describes provisions packed in a bag. Asma, Abu Bakr’s daughter, used part of her waist-belt to tie its opening."
-msgstr "حين أُذن بالخروج، جرى تجهيز النبي ﷺ وأبي بكر. وتصف رواية عائشة إعداد الزاد في جراب. واستخدمت أسماء بنت أبي بكر قطعة من نطاقها لربط فمه."
+msgstr "Als die Erlaubnis zum Aufbruch gegeben worden war, wurden Vorbereitungen für den Propheten ﷺ und Abu Bakr getroffen. Aischa berichtet von Proviant, der in eine Tasche gepackt wurde. Asma, die Tochter von Abu Bakr, benutzte einen Teil ihres Gürtels, um die Öffnung zuzubinden."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "They also hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr after three nights. The arrangements for the onward journey were already being made."
-msgstr "واستأجرا أيضًا دليلًا ماهرًا، وائتمناه على راحلتين، وواعداه عند ثور بعد ثلاث ليال. فكانت ترتيبات متابعة الرحلة تُعدّ من قبل."
+msgstr "Sie mieteten auch einen kundigen Führer, vertrauten ihm zwei Reittiere an und vereinbarten, ihn nach drei Nächten bei Thawr zu treffen. Die Vorkehrungen für die Weiterreise wurden bereits getroffen."
 
 #: src/content/first-chapter.js
 #: src/content/timeline.js
+#, ai
 msgid "Three nights at Thawr"
-msgstr "ثلاث ليال في ثور"
+msgstr "Drei Nächte in Thawr"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "After the preparations, the Prophet ﷺ and Abu Bakr sheltered in a cave on Mount Thawr. ‘Aishah’s account in Sahih al-Bukhari records that they stayed there for three nights. This was a stage within the journey, not its destination."
-msgstr "بعد الاستعدادات، لجأ النبي ﷺ وأبو بكر إلى غار في جبل ثور. وتذكر رواية عائشة في صحيح البخاري أنهما مكثا فيه ثلاث ليال. كانت هذه مرحلة في الرحلة، لا غايتها."
+msgstr "Nach den Vorbereitungen suchten der Prophet ﷺ und Abu Bakr Zuflucht in einer Höhle auf dem Berg Thawr. Aischas Bericht in Sahih al-Bukhari hält fest, dass sie dort drei Nächte blieben. Dies war eine Etappe auf der Reise, nicht ihr Ziel."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "During the stay, ‘Abdullah ibn Abi Bakr brought news of plans against them. He came after darkness and left before daybreak, returning to Makkah. His contribution was information."
-msgstr "خلال الإقامة، كان عبد الله بن أبي بكر يأتيهما بأخبار ما يُدبّر لهما. كان يأتي بعد حلول الظلام ويغادر قبل الفجر عائدًا إلى مكة. وكان دوره نقل الأخبار."
+msgstr "Während des Aufenthalts brachte Abdullah ibn Abi Bakr Nachrichten über Pläne gegen sie. Er kam nach Einbruch der Dunkelheit und ging vor der Morgendämmerung zurück nach Mekka. Sein Beitrag waren Informationen."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Abu Bakr’s own account brings us closer to the danger of discovery. He was concerned that they might be seen if someone looked down. The Prophet reassured him."
-msgstr "تقرّبنا رواية أبي بكر نفسه من خطر انكشاف مكانهما. فقد خشي أن يُريا لو نظر أحد إلى أسفل. فطمأنه النبي."
+msgstr "Abu Bakrs eigener Bericht bringt uns der Gefahr der Entdeckung näher. Er war besorgt, dass sie gesehen werden könnten, wenn jemand nach unten blickte. Der Prophet beruhigte ihn."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The Quran also recalls the two in the cave and the reassurance given to the companion. Ibn Kathir’s commentary on the passage explains the reassurance through Allah’s help and support."
-msgstr "ويذكر القرآن أيضًا الاثنين في الغار والطمأنينة التي بُثّت في نفس الصاحب. ويشرح ابن كثير هذه الطمأنينة بنصر الله وتأييده."
+msgstr "Der Koran erinnert auch an die beiden in der Höhle und die Beruhigung, die dem Gefährten zuteilwurde. Ibn Kathirs Kommentar zu dieser Passage erklärt die Beruhigung durch Allahs Hilfe und Beistand."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The journey continues"
-msgstr "تستمر الرحلة"
+msgstr "Die Reise geht weiter"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The arranged meeting with the guide connects the stay at Thawr to the next stage. When the Prophet ﷺ and Abu Bakr continued, ‘Amir ibn Fuhayrah and the guide went with them. The account says that the guide led them by the coastal way."
-msgstr "يربط الموعد المتفق عليه مع الدليل بين الإقامة في ثور والمرحلة التالية. وحين تابع النبي ﷺ وأبو بكر رحلتهما، انطلق معهما عامر بن فهيرة والدليل. وتذكر الرواية أن الدليل أخذ بهم طريق السواحل."
+msgstr "Das vereinbarte Treffen mit dem Führer verbindet den Aufenthalt in Thawr mit der nächsten Etappe. Als der Prophet ﷺ und Abu Bakr weiterreisten, gingen Amir ibn Fuhayrah und der Führer mit ihnen. Dem Bericht zufolge führte der Führer sie über den Küstenweg."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "That description gives us part of the route’s character, but not every turn or stopping place. The connection shown here is schematic; it is not a measured itinerary."
-msgstr "يعطينا هذا الوصف جانبًا من طبيعة الطريق، لكنه لا يحدّد كل منعطف أو موضع توقف. والمسار المعروض هنا تخطيطي، وليس وصفًا مقيسًا للطريق."
+msgstr "Diese Beschreibung vermittelt uns einen Teil des Charakters der Route, aber nicht jede Kurve oder jeden Haltepunkt. Die hier gezeigte Verbindung ist schematisch; es handelt sich nicht um eine vermessene Reiseroute."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Arrival and a new beginning"
-msgstr "الوصول وبداية جديدة"
+msgstr "Ankunft und ein Neuanfang"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "In Madinah, Muslims went out to wait after hearing that the Prophet ﷺ had left Makkah. The arrival account describes their reception of him and his stay among Bani ‘Amr ibn ‘Awf."
-msgstr "في المدينة، خرج المسلمون ينتظرون بعد أن سمعوا بخروج النبي ﷺ من مكة. وتصف رواية الوصول استقبالهم له وإقامته في بني عمرو بن عوف."
+msgstr "In Medina gingen die Muslime hinaus, um zu warten, nachdem sie gehört hatten, dass der Prophet ﷺ Mekka verlassen hatte. Der Bericht über die Ankunft beschreibt ihren Empfang und seinen Aufenthalt bei den Bani Amr ibn Awf."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The account goes on to describe a date-drying yard that became the site of the Prophet’s mosque in Madinah. It records the Prophet carrying bricks with those building it."
-msgstr "ثم تصف الرواية مربدًا للتمر صار موضع مسجد النبي في المدينة. وتذكر أن النبي كان ينقل اللَّبِن مع من يبنونه."
+msgstr "Der Bericht beschreibt weiter einen Platz zum Trocknen von Datteln, der zum Standort der Moschee des Propheten in Medina wurde. Er hält fest, wie der Prophet mit den Erbauern Ziegel trug."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah."
-msgstr "تابعت الاستعدادات، وفترة الاحتماء، ومتابعة الرحلة، والوصول. وتعرّفت إلى صور مختلفة من العون وقرأت روايات عن الطمأنينة. هذا عرض مختار، وليس تاريخًا شاملًا لكل أحداث الهجرة وآثارها."
+msgstr "Du hast die Vorbereitungen, eine Zeit des Unterschlupfs, die Weiterreise und die Ankunft verfolgt. Du hast verschiedene Formen der Hilfe kennengelernt und Berichte über Beruhigung gelesen. Dies ist eine ausgewählte Darstellung, keine vollständige Geschichte jedes Ereignisses oder jeder Folge der Hidschra."
 
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
@@ -454,66 +554,81 @@ msgstr "تابعت الاستعدادات، وفترة الاحتماء، ومت
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/lenses.js
+#, ai
 msgid "Sahih al-Bukhari"
-msgstr "صحيح البخاري"
+msgstr "Sahih al-Bukhari"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Some Muslims moved to Madinah before this departure; the selected passage also describes Abu Bakr waiting to accompany the Prophet ﷺ."
-msgstr "انتقل بعض المسلمين إلى المدينة قبل هذا الخروج؛ ويصف النص المختار أيضًا انتظار أبي بكر ليصحب النبي ﷺ."
+msgstr "Einige Muslime zogen vor diesem Aufbruch nach Medina; die ausgewählte Passage beschreibt auch, wie Abu Bakr darauf wartete, den Propheten ﷺ zu begleiten."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected passage describes provisions and Asma bint Abi Bakr using part of her waist-belt to tie the bag."
-msgstr "يصف النص المختار الزاد واستخدام أسماء بنت أبي بكر قطعة من نطاقها لربط الجراب."
+msgstr "Die ausgewählte Passage beschreibt den Proviant und wie Asma bint Abi Bakr einen Teil ihres Gürtels benutzte, um die Tasche zuzubinden."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected passage supports the cave on Mount Thawr and three nights."
-msgstr "يثبت النص المختار الغار في جبل ثور والإقامة ثلاث ليال."
+msgstr "Die ausgewählte Passage stützt die Höhle auf dem Berg Thawr und die drei Nächte."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "It does not establish coordinates, dimensions, or the exact arrangement of a visual model."
-msgstr "لا يثبت الإحداثيات أو الأبعاد أو الهيئة الدقيقة لنموذج بصري."
+msgstr "Sie belegt keine Koordinaten, Dimensionen oder die genaue Anordnung eines visuellen Modells."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected passage describes ‘Abdullah ibn Abi Bakr bringing news of plans against the two companions after darkness."
-msgstr "يصف النص المختار إتيان عبد الله بن أبي بكر بأخبار ما يُدبّر للصاحبين بعد حلول الظلام."
+msgstr "Der ausgewählte Abschnitt beschreibt, wie ‘Abdullah ibn Abi Bakr nach Einbruch der Dunkelheit Nachrichten über Pläne gegen die beiden Gefährten brachte."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "It does not establish modern clock times or a mapped trail."
-msgstr "لا يحدّد أوقاتًا بالساعات الحديثة ولا مسارًا مرسومًا على خريطة."
+msgstr "Er legt keine modernen Uhrzeiten oder einen kartierten Weg fest."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected passage connects ‘Amir ibn Fuhayrah with tending sheep and making milk available during the three nights."
-msgstr "يربط النص المختار عامر بن فهيرة برعي الغنم وتوفير اللبن خلال الليالي الثلاث."
+msgstr "Der ausgewählte Abschnitt bringt ‘Amir ibn Fuhayrah mit dem Hüten von Schafen und dem Bereitstellen von Milch während der drei Nächte in Verbindung."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected passage describes hiring a skilled guide, entrusting him with two riding animals, and arranging the meeting at Thawr."
-msgstr "يصف النص المختار استئجار دليل ماهر وائتمانه على راحلتين وترتيب اللقاء عند ثور."
+msgstr "Der ausgewählte Abschnitt beschreibt die Einstellung eines kundigen Wegweisers, dem zwei Reittiere anvertraut wurden, und die Vereinbarung des Treffens bei Thawr."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected passage does not supply the guide’s personal name or a precise route."
-msgstr "لا يذكر النص المختار اسم الدليل ولا يحدّد مسارًا دقيقًا."
+msgstr "Der ausgewählte Abschnitt nennt weder den persönlichen Namen des Wegweisers noch eine präzise Route."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected passage says that ‘Amir and the guide went with them and that the guide led them by the coastal way."
-msgstr "يذكر النص المختار أن عامرًا والدليل انطلقا معهما، وأن الدليل أخذ بهم طريق السواحل."
+msgstr "Der ausgewählte Abschnitt besagt, dass ‘Amir und der Wegweiser mit ihnen gingen und dass der Wegweiser sie über den Küstenweg führte."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "It does not establish every turn, distance, stopping place, or exact GPS route."
-msgstr "لا يحدّد كل منعطف أو مسافة أو موضع توقف، ولا مسارًا دقيقًا بالإحداثيات."
+msgstr "Er legt nicht jede Kurve, Entfernung, jeden Haltepunkt oder eine exakte GPS-Route fest."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Abu Bakr’s account records concern about being seen and the Prophet’s reassurance."
-msgstr "تسجّل رواية أبي بكر خشيته من أن يُريا وطمأنة النبي له."
+msgstr "Abu Bakrs Bericht hält die Sorge vor dem Entdecktwerden und die Beruhigung durch den Propheten fest."
 
 #: src/content/first-chapter.js
 #: src/content/lenses.js
 #: src/content/lenses.js
+#, ai
 msgid "Quran"
-msgstr "القرآن الكريم"
+msgstr "Koran"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected extract recalls the two in the cave and the reassurance to the companion."
-msgstr "يذكر المقتطف المختار الاثنين في الغار وطمأنة الصاحب."
+msgstr "Der ausgewählte Auszug erinnert an die beiden in der Höhle und die Beruhigung des Gefährten."
 
 #: src/content/details.js
 #: src/content/first-chapter.js
@@ -522,1009 +637,1242 @@ msgstr "يذكر المقتطف المختار الاثنين في الغار و
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/timeline.js
+#, ai
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
-msgstr "ابن كثير، البداية والنهاية"
+msgstr "Ibn Kathir, al-Bidayah wa al-Nihayah"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Ibn Kathir’s commentary on the Turath page explains the reassurance through Allah’s help, support, and strengthening."
-msgstr "يشرح كلام ابن كثير في صفحة تراث الطمأنينة بنصر الله وتأييده وتقويته."
+msgstr "Der Kommentar von Ibn Kathir auf der Turath-Seite erklärt die Beruhigung durch Allahs Hilfe, Beistand und Stärkung."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf."
-msgstr "تصف رواية الوصول المختارة انتظار الناس والإقامة في بني عمرو بن عوف."
+msgstr "Der ausgewählte Bericht über die Ankunft beschreibt die wartenden Menschen und den Aufenthalt bei den Bani ‘Amr ibn ‘Awf."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The selected passage describes the mosque site and the Prophet ﷺ carrying bricks with the builders."
-msgstr "يصف النص المختار موضع المسجد وحمل النبي ﷺ اللَّبِن مع البنّائين."
+msgstr "Der ausgewählte Abschnitt beschreibt den Ort der Moschee und wie der Prophet ﷺ gemeinsam mit den Erbauern Ziegel trug."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "It does not establish the exact appearance of buildings in the scene."
-msgstr "لا يثبت الهيئة الدقيقة للمباني في المشهد."
+msgstr "Er legt das genaue Aussehen der Gebäude in dieser Szene nicht fest."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Al-Sa‘di"
-msgstr "السعدي"
+msgstr "Al-Sa‘di"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Attribution recorded in the cited work"
-msgstr "النسبة مسجّلة في الكتاب المستشهد به"
+msgstr "Zuschreibung im zitierten Werk erfasst"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Turath book_id/page_id retrieved from category 24; publication approval pending"
-msgstr "جُلب معرّفا الكتاب والصفحة من تراث من التصنيف 24؛ واعتماد النشر قيد الانتظار"
+msgstr "Turath-Buch-ID/Seiten-ID aus Kategorie 24 abgerufen; Freigabe der Veröffentlichung steht noch aus"
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "The selected evidence does not establish an exact route. It describes a coastal way, while this overview is schematic rather than a measured itinerary."
-msgstr "لا تثبت الأدلة المختارة مسارًا دقيقًا. إنها تصف طريقًا ساحليًا، بينما هذا العرض تخطيطي وليس وصفًا مقيسًا للطريق."
+msgstr "Die ausgewählten Belege legen keine genaue Route fest. Sie beschreiben einen Küstenweg, während diese Übersicht schematisch und kein vermessener Reiseverlauf ist."
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "They hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr. The account says he led them by the coastal way."
-msgstr "استأجرا دليلًا ماهرًا، وائتمناه على راحلتين، وواعداه عند ثور. وتذكر الرواية أنه أخذ بهم طريق السواحل."
+msgstr "Sie stellten einen kundigen Wegweiser ein, vertrauten ihm zwei Reittiere an und vereinbarten, ihn bei Thawr zu treffen. Dem Bericht zufolge führte er sie über den Küstenweg."
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "The selected account says that they remained in the cave for three nights."
-msgstr "تذكر الرواية المختارة أنهما مكثا في الغار ثلاث ليال."
+msgstr "Der ausgewählte Bericht besagt, dass sie drei Nächte in der Höhle blieben."
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "The preparations account describes provisions packed in a bag and Asma bint Abi Bakr using part of her waist-belt to tie its opening."
-msgstr "تصف رواية الاستعدادات وضع الزاد في جراب واستخدام أسماء بنت أبي بكر قطعة من نطاقها لربط فمه."
+msgstr "Der Bericht über die Vorbereitungen beschreibt, wie Proviant in eine Tasche gepackt wurde und Asma bint Abi Bakr einen Teil ihres Gürtels verwendete, um die Öffnung zuzubinden."
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "The arrival account describes Muslims waiting, the stay among Bani ‘Amr ibn ‘Awf, and later building work at the mosque site."
-msgstr "تصف رواية الوصول انتظار المسلمين والإقامة في بني عمرو بن عوف، ثم العمل في بناء المسجد لاحقًا."
+msgstr "Der Bericht über die Ankunft beschreibt die wartenden Muslime, den Aufenthalt bei den Bani ‘Amr ibn ‘Awf und die späteren Bauarbeiten am Ort der Moschee."
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "The selected evidence does not establish an answer to that question. The available source records are shown below."
-msgstr "لا تثبت الأدلة المختارة إجابة عن هذا السؤال. وتظهر المصادر المتاحة أدناه."
+msgstr "Die ausgewählten Belege liefern keine Antwort auf diese Frage. Die verfügbaren Quellenberichte sind unten aufgeführt."
 
 #: src/content/lenses.js
 #: src/content/lenses.js
 #: src/lib/scene-manifest.js
+#, ai
 msgid "Makkah"
-msgstr "مكة"
+msgstr "Makkah"
 
 #: src/lib/scene-manifest.js
+#, ai
 msgid "Where the chapter begins, with preparations for departure."
-msgstr "هنا يبدأ الفصل بالاستعداد للخروج."
+msgstr "Hier beginnt das Kapitel mit den Vorbereitungen für den Aufbruch."
 
 #: src/lib/scene-manifest.js
+#, ai
 msgid "Mount Thawr"
-msgstr "جبل ثور"
+msgstr "Berg Thawr"
 
 #: src/lib/scene-manifest.js
+#, ai
 msgid "The account places a three-night stay in a cave here."
-msgstr "تذكر الرواية الإقامة ثلاث ليال في غار هنا."
+msgstr "Der Bericht verortet hier einen dreitägigen Aufenthalt in einer Höhle."
 
 #: src/lib/scene-manifest.js
+#, ai
 msgid "The coastal way"
-msgstr "طريق السواحل"
+msgstr "Der Küstenweg"
 
 #: src/lib/scene-manifest.js
+#, ai
 msgid "The guide led them by the coast. This line is schematic, not a measured route."
-msgstr "أخذ بهم الدليل طريق السواحل. هذا الخط تخطيطي، وليس مسارًا مقيسًا."
+msgstr "Der Wegweiser führte sie an der Küste entlang. Diese Linie ist schematisch, kein vermessener Weg."
 
 #: src/content/lenses.js
 #: src/content/lenses.js
 #: src/lib/scene-manifest.js
+#, ai
 msgid "Madinah"
-msgstr "المدينة"
+msgstr "Madinah"
 
 #: src/lib/scene-manifest.js
+#, ai
 msgid "Where the chapter closes, with arrival and a new beginning."
-msgstr "هنا يُختتم الفصل بالوصول وبداية جديدة."
+msgstr "Hier endet das Kapitel mit der Ankunft und einem Neuanfang."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Interface language"
-msgstr "لغة الواجهة"
+msgstr "Sprache der Benutzeroberfläche"
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "‘Amir ibn Fuhayrah and the guide went with them when they continued, and the guide led them by the coastal way. The guide’s personal name and the precise route are not established here."
-msgstr "انطلق معهما عامر بن فهيرة والدليل حين تابعا الرحلة، وأخذ بهم الدليل طريق السواحل. لا يثبت هنا اسم الدليل ولا المسار الدقيق."
+msgstr "‘Amir ibn Fuhayrah und der Wegweiser begleiteten sie bei der Fortsetzung der Reise, und der Wegweiser führte sie über den Küstenweg. Der Name des Wegweisers und die genaue Route sind hier nicht überliefert."
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "‘Abdullah ibn Abi Bakr brought news of plans against them after darkness and returned to Makkah before daybreak."
-msgstr "كان عبد الله بن أبي بكر يأتيهما بأخبار ما يُدبّر لهما بعد حلول الظلام، ويعود إلى مكة قبل الفجر."
+msgstr "‘Abdullah ibn Abi Bakr brachte nach Einbruch der Dunkelheit Nachrichten über Pläne gegen sie und kehrte vor der Morgendämmerung nach Makkah zurück."
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "‘Amir ibn Fuhayrah tended the flock and brought milk near the cave during the three nights."
-msgstr "كان عامر بن فهيرة يرعى الغنم ويوفّر اللبن قرب الغار خلال الليالي الثلاث."
+msgstr "‘Amir ibn Fuhayrah hütete die Herde und brachte während der drei Nächte Milch in die Nähe der Höhle."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "post-hackathon publication review"
-msgstr "مراجعة النشر بعد الهاكاثون"
+msgstr "Veröffentlichungsprüfung nach dem Hackathon"
 
 #. 0: citation.book_id; 1: citation.page_id; 2: citation.volume; 3: citation.page
 #: src/content/first-chapter.js
+#, ai
 msgid "Turath · book {0} · page {1} · vol. {2}, p. {3}"
-msgstr "تراث · الكتاب {0} · الصفحة {1} · ج {2}، ص {3}"
+msgstr "Turath · Buch {0} · Seite {1} · Bd. {2}, S. {3}"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "draft — Turath page retrieved; scholarly and publication review pending"
-msgstr "مسودة — جُلبت صفحة تراث؛ المراجعة العلمية ومراجعة النشر قيد الانتظار"
+msgstr "Entwurf — Turath-Seite abgerufen; wissenschaftliche und Veröffentlichungsprüfung ausstehend"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "draft — scholarly and publication review pending"
-msgstr "مسودة — المراجعة العلمية ومراجعة النشر قيد الانتظار"
+msgstr "Entwurf — wissenschaftliche und Veröffentlichungsprüfung ausstehend"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "‘Amir ibn Fuhayrah provided another kind of help. He tended sheep and brought them near after nightfall, making milk available. The account describes this on each of the three nights."
-msgstr "قدّم عامر بن فهيرة نوعًا آخر من العون. كان يرعى الغنم ويدنيها منهما بعد حلول الليل، فيوفّر لهما اللبن. وتذكر الرواية أنه كان يفعل ذلك في كل ليلة من الليالي الثلاث."
+msgstr "‘Amir ibn Fuhayrah leistete eine andere Art von Hilfe. Er hütete Schafe und brachte sie nach Einbruch der Dunkelheit in die Nähe, um Milch bereitzustellen. Der Bericht beschreibt dies für jede der drei Nächte."
 
 #: src/lib/journey-state.js
 #: src/lib/journey-state.js
+#, ai
 msgid "Reading mode selected."
-msgstr "اختير وضع القراءة."
+msgstr "Lesemodus ausgewählt."
 
 #: src/lib/journey-state.js
+#, ai
 msgid "Guided presentation started."
-msgstr "بدأ العرض الموجّه."
+msgstr "Geführte Präsentation gestartet."
 
 #: src/lib/journey-state.js
+#, ai
 msgid "Guided position restored. Press Play to continue."
-msgstr "استُعيد موضعك في الرحلة الموجّهة. اضغط على التشغيل للمتابعة."
+msgstr "Geführte Position wiederhergestellt. Drücke Wiedergabe, um fortzufahren."
 
 #: src/lib/journey-state.js
+#, ai
 msgid "Reading mode selected. The same chapter is available without narration."
-msgstr "اختير وضع القراءة. الفصل نفسه متاح دون سرد صوتي."
+msgstr "Lesemodus ausgewählt. Dasselbe Kapitel ist ohne Vertonung verfügbar."
 
 #: src/lib/journey-state.js
+#, ai
 msgid "Scene mode selected."
-msgstr "اختير وضع المشهد."
+msgstr "Szenenmodus ausgewählt."
 
 #: src/lib/journey-state.js
+#, ai
 msgid "Source opened. Guided playback remains paused."
-msgstr "فُتح المصدر. لا يزال العرض الموجّه متوقفًا مؤقتًا."
+msgstr "Quelle geöffnet. Geführte Wiedergabe bleibt pausiert."
 
 #: src/lib/journey-state.js
+#, ai
 msgid "Panel closed. Press Resume journey to return to the guided position."
-msgstr "أُغلقت اللوحة. اضغط على استئناف الرحلة للعودة إلى موضعك في الرحلة الموجّهة."
+msgstr "Bereich geschlossen. Drücke Reise fortsetzen, um zur geführten Position zurückzukehren."
 
 #: src/lib/journey-state.js
+#, ai
 msgid "Chapter complete. Recap opened."
-msgstr "اكتمل الفصل. فُتحت الخلاصة."
+msgstr "Kapitel abgeschlossen. Zusammenfassung geöffnet."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Researching in Turath…"
-msgstr "جارٍ البحث في تراث…"
+msgstr "Suche in Turath…"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Chapter notes · offline"
-msgstr "ملاحظات الفصل · دون اتصال"
+msgstr "Kapitelnotizen · offline"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Ask follows this chapter’s context and can research further in Turath. Answers cite opened passages and explain gaps in the evidence."
-msgstr "يسترشد المساعد بسياق هذا الفصل، ويمكنه توسيع البحث في تراث. توثّق الإجابات النصوص التي جرى فتحها، وتبيّن ما لا تحسمه الأدلة."
+msgstr "Fragen richten sich nach dem Kontext dieses Kapitels und können in Turath weiter recherchiert werden. Antworten zitieren geöffnete Textstellen und erklären Lücken in den Belegen."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "This passage is shortened. Open the original page for its full context."
-msgstr "هذا النص مختصر. افتح الصفحة الأصلية للاطّلاع على سياقه الكامل."
+msgstr "Diese Textstelle ist gekürzt. Öffne die Originalseite für den vollständigen Kontext."
 
 #: src/lib/guide-provider.js
+#, ai
 msgid "The offline chapter notes do not establish an answer to that question."
-msgstr "لا تتضمن ملاحظات الفصل المتاحة دون اتصال ما يثبت إجابة عن هذا السؤال."
+msgstr "Die Offline-Kapitelnotizen enthalten keine Antwort auf diese Frage."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "OpenAI and Turath process questions and research text. This app does not save chats."
-msgstr "تعالج OpenAI وتراث الأسئلة ونصوص البحث. لا يحفظ هذا التطبيق المحادثات."
+msgstr "OpenAI und Turath verarbeiten Fragen und Recherchetexte. Diese App speichert keine Chats."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "From the sources"
-msgstr "من المصادر"
+msgstr "Aus den Quellen"
 
 #: src/content/lenses.js
 #: src/content/lenses.js
 #: src/lib/scene-manifest.js
+#, ai
 msgid "Quba"
-msgstr "قباء"
+msgstr "Quba"
 
 #: src/lib/scene-manifest.js
+#, ai
 msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
-msgstr "أول محطة عند الوصول إلى المدينة، في بني عمرو بن عوف."
+msgstr "Die erste Station bei der Ankunft in Medina, bei den Bani ‘Amr ibn ‘Awf."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Turn sound off"
-msgstr "إيقاف الصوت"
+msgstr "Ton ausschalten"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Turn sound on"
-msgstr "تشغيل الصوت"
+msgstr "Ton einschalten"
 
 #. 0: night
 #: src/routes/Journey.svelte
+#, ai
 msgid "Night {0} of 3"
-msgstr "الليلة {0} من 3"
+msgstr "Nacht {0} von 3"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
-msgstr "تتبّع الهجرة من مكة إلى المدينة مرحلةً بعد مرحلة، مع ربط كل فقرة بالنص الذي تستند إليه."
+msgstr "Verfolge die Auswanderung von Makkah nach Madinah Etappe für Etappe, wobei jeder Absatz mit der Textstelle verknüpft ist, auf der er beruht."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "A rider on the road"
-msgstr "فارسٌ على الطريق"
+msgstr "Ein Reiter auf dem Weg"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Quraysh had offered a reward for each of the two travellers. Suraqah ibn Malik recounts that a man came to his gathering and said he had just seen figures near the coast. Suraqah recognised who they must be, and set out after them."
-msgstr "كانت قريش قد جعلت جائزة في كل واحد من المسافرَين. يروي سراقة بن مالك أن رجلًا جاء إلى مجلسه وقال إنه رأى للتوّ أشخاصًا قرب الساحل. فعرف سراقة من يكونون، وخرج في أثرهم."
+msgstr "Die Quraisch hatten eine Belohnung für jeden der beiden Reisenden ausgesetzt. Suraqah ibn Malik erzählt, dass ein Mann zu seiner Versammlung kam und sagte, er habe gerade Gestalten in der Nähe der Küste gesehen. Suraqah erkannte, wer sie sein mussten, und machte sich auf den Weg hinter ihnen her."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "By his own account, he came close enough to hear the Prophet ﷺ reciting. Then the forelegs of his horse sank into the ground up to the knees, and he was thrown from it."
-msgstr "وبحسب روايته هو، اقترب حتى سمع قراءة النبي ﷺ. ثم ساخت يدا فرسه في الأرض حتى بلغتا الركبتين، فسقط عنها."
+msgstr "Nach eigenem Bekunden kam er so nah heran, dass er den Propheten ﷺ rezitieren hören konnte. Dann versanken die Vorderbeine seines Pferdes bis zu den Knien im Boden, und er wurde von ihm abgeworfen."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "He told them what Quraysh intended and offered them provisions. They took nothing from him and asked only that he keep their news hidden. At his request, ‘Amir ibn Fuhayrah wrote him a guarantee of safety on a piece of leather. Then they went on."
-msgstr "أخبرهم بما تريده قريش وعرض عليهم الزاد. فلم يأخذوا منه شيئًا، ولم يطلبوا إلا أن يُخفي خبرهم. وبطلبٍ منه كتب له عامر بن فهيرة كتاب أمان في رقعة من جلد. ثم مضوا."
+msgstr "Er erzählte ihnen, was die Quraisch vorhatten, und bot ihnen Vorräte an. Sie nahmen nichts von ihm an und baten nur darum, ihre Nachricht geheim zu halten. Auf seinen Wunsch hin schrieb ihm ‘Amir ibn Fuhayrah eine Sicherheitsgarantie auf ein Stück Leder. Dann zogen sie weiter."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Quba: the first stop"
-msgstr "قباء: المحطة الأولى"
+msgstr "Quba: die erste Station"
 
 #: src/content/first-chapter.js
+#, ai
 msgid "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
-msgstr "أقام بينهم بضع عشرة ليلة. وهناك أسّس المسجد الذي تصفه الرواية بأنه أُسِّس على التقوى، وصلّى فيه."
+msgstr "Er blieb mehr als zehn Nächte bei ihnen. Dort gründete er die Moschee, die im Bericht als die auf Frömmigkeit gegründete bezeichnet wird, und betete in ihr."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates."
-msgstr "ثم ركب وسار والناس يمشون معه، حتى بركت راحلته في موضع بالمدينة كان يصلّي فيه بعض المسلمين. وكان مربدًا للتمر."
+msgstr "Dann ritt er weiter, während die Menschen neben ihm hergingen, bis sein Kamel an einem Ort in Madinah niederkniete, an dem bereits einige der Muslime beteten. Es war ein Platz zum Trocknen von Datteln."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Suraqah’s account records the reward offered for each of the two, and a report that figures had been seen near the coast."
-msgstr "تذكر رواية سراقة الجائزة التي جُعلت في كل واحد منهما، وخبرًا عن أشخاص شوهدوا قرب الساحل."
+msgstr "Suraqahs Bericht hält die für jeden der beiden ausgesetzte Belohnung fest sowie eine Meldung, dass Gestalten in der Nähe der Küste gesehen worden waren."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "It does not establish where on the route this happened, and the scene does not place it."
-msgstr "لا تحدّد الرواية موضع ذلك من الطريق، والمشهد لا يعيّنه."
+msgstr "Es wird nicht festgestellt, wo auf der Route dies geschah, und die Szene verortet es nicht."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "Suraqah describes the forelegs of his horse sinking into the ground to the knees, and being thrown."
-msgstr "يصف سراقة كيف ساخت يدا فرسه في الأرض حتى الركبتين وكيف سقط عنها."
+msgstr "Suraqah beschreibt, wie die Vorderbeine seines Pferdes bis zu den Knien im Boden versanken und er abgeworfen wurde."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "This is his own first-person account. The scene shows the road, not the event or any person."
-msgstr "هذه روايته عن نفسه. والمشهد يُظهر الطريق، لا الحادثة ولا أي شخص."
+msgstr "Dies ist sein eigener Bericht aus der Ich-Perspektive. Die Szene zeigt den Weg, nicht das Ereignis oder eine Person."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "They asked only that he keep their news hidden; ‘Amir ibn Fuhayrah wrote him a guarantee of safety."
-msgstr "لم يطلبوا منه إلا أن يُخفي خبرهم؛ وكتب له عامر بن فهيرة كتاب أمان."
+msgstr "Sie baten ihn nur, ihre Nachricht geheim zu halten; ‘Amir ibn Fuhayrah schrieb ihm einen Schutzbrief."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The wording of the written guarantee is not given in this passage."
-msgstr "لا يرد نصّ كتاب الأمان في هذا الموضع."
+msgstr "Der Wortlaut des schriftlichen Schutzbriefs wird in dieser Passage nicht wiedergegeben."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "The account gives a stay of more than ten nights among Bani ‘Amr ibn ‘Awf and the founding of a mosque there."
-msgstr "تذكر الرواية إقامة بضع عشرة ليلة في بني عمرو بن عوف وتأسيس مسجد هناك."
+msgstr "Der Bericht nennt einen Aufenthalt von mehr als zehn Nächten bei den Bani ‘Amr ibn ‘Awf und die Gründung einer Moschee dort."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "He rode on with people walking beside him until his camel knelt at the site of the mosque in Madinah."
-msgstr "ركب وسار والناس يمشون معه حتى بركت راحلته عند موضع المسجد بالمدينة."
+msgstr "Er ritt weiter, während die Menschen neben ihm hergingen, bis sein Kamel an der Stelle der Moschee in Medina niederkniete."
 
 #: src/content/first-chapter.js
+#, ai
 msgid "It does not establish the route taken through the town or the appearance of the place."
-msgstr "لا تحدّد الرواية الطريق الذي سلكه داخل المدينة ولا هيئة المكان."
+msgstr "Es wird weder der Weg durch die Stadt noch das Aussehen des Ortes festgelegt."
 
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
-msgstr "يُرافقك خيار <0>التشغيل</0> عبر مراحل الفصل خطوة بخطوة مع سرد صوتي مُنشأ بواسطة الذكاء الاصطناعي."
+msgstr "<0>Abspielen</0> führt mit KI-generierter Erzählung Schritt für Schritt durch das Kapitel."
 
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
-msgstr "يُرافقك خيار <0>التشغيل</0> عبر مراحل الفصل خطوة بخطوة، مع نصوص توضيحية تتزامن مع صوت رياح هادئة في الخلفية."
+msgstr "<0>Abspielen</0> führt Schritt für Schritt durch das Kapitel. Die Untertitel laufen synchron zu leisem Windrauschen."
 
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
-msgstr "يستخدم خيار <0>اسأل</0> سياق الفصل للبحث في كتب التراث وتقديم الإجابات مع توثيق المصادر."
+msgstr "<0>Fragen</0> nutzt den Kontext des Kapitels, um in Turath zu recherchieren und mit Quellenangaben zu antworten."
 
 #: src/content/first-chapter.js
 #, ai
 msgid "This excerpt does not give an exact departure date."
-msgstr "هذا المقتطف لا يذكر تاريخاً محدداً للمغادرة."
+msgstr "Dieser Auszug nennt kein genaues Abreisedatum."
 
 #: src/content/first-chapter.js
 #, ai
 msgid "The excerpt describes preparations, not a nightly delivery to the cave."
-msgstr "يصف المقتطف الاستعدادات، وليس عملية توصيل ليلية إلى الغار."
+msgstr "Der Auszug beschreibt Vorbereitungen, nicht eine nächtliche Versorgung der Höhle."
 
 #: src/content/first-chapter.js
 #, ai
 msgid "The excerpt does not describe erasing footprints."
-msgstr "المقتطف لا يصف مسح آثار الأقدام."
+msgstr "Der Auszug beschreibt nicht das Verwischen von Fußspuren."
 
 #: src/content/first-chapter.js
 #, ai
 msgid "The account does not describe the cave’s dimensions or layout."
-msgstr "الرواية لا تصف أبعاد الغار أو تصميمه."
+msgstr "Der Bericht beschreibt weder die Maße noch die Aufteilung der Höhle."
 
 #: src/content/first-chapter.js
 #, ai
 msgid "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr."
-msgstr "هذا المقتطف ليس الآية كاملة ولا يذكر في حد ذاته أبا بكر أو جبل ثور."
+msgstr "Dieser Auszug ist nicht der vollständige Vers und nennt selbst weder Abu Bakr noch den Berg Thawr."
 
 #: src/content/first-chapter.js
 #, ai
 msgid "This is Ibn Kathir’s commentary, not the Quranic wording itself."
-msgstr "هذا هو تفسير ابن كثير، وليس نص القرآن نفسه."
+msgstr "Dies ist der Kommentar von Ibn Kathir, nicht der koranische Wortlaut selbst."
 
 #: src/content/first-chapter.js
 #, ai
 msgid "It does not give an exact location for the stay among Bani ‘Amr ibn ‘Awf."
-msgstr "لا يذكر موقعاً محدداً للإقامة بين بني عمرو بن عوف."
+msgstr "Es wird kein genauer Ort für den Aufenthalt bei den Bani ‘Amr ibn ‘Awf angegeben."
 
 #: src/content/first-chapter.js
 #, ai
 msgid "The passage does not name the place; identifying it as Quba rests on other reports."
-msgstr "النص لا يذكر اسم المكان؛ وتحديده بأنه قباء يعتمد على روايات أخرى."
-
-#: src/content/first-chapter.js
-msgid "The night of departure"
-msgstr "ليلة الخروج"
-
-#: src/content/first-chapter.js
-msgid "The leaders of Quraysh met in Dar al-Nadwah, the house where they settled their affairs, to decide what to do about the Prophet ﷺ now that they feared him."
-msgstr "اجتمع زعماء قريش في دار الندوة، الدار التي كانوا يقضون فيها أمورهم، ليتشاوروا فيما يصنعون في أمر النبي ﷺ بعد أن خافوه."
-
-#: src/content/first-chapter.js
-msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
-msgstr "وفي تلك الليلة اجتمعوا على بابه يرصدونه حتى ينام. فأمر عليًّا أن ينام على فراشه متسجّيًا ببرده الأخضر، وطمأنه أنه لن يصل إليه منهم شيء يكرهه."
-
-#: src/content/first-chapter.js
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "وتخلّف عليٌّ لسبب آخر أيضًا. فقد كان أهل مكة يضعون ودائعهم عند النبي ﷺ لما يعلمون من صدقه وأمانته، وكان على عليٍّ أن يردّها جميعًا إلى أصحابها."
-
-#: src/content/first-chapter.js
-msgid "The tent of Umm Ma‘bad"
-msgstr "خيمة أم معبد"
-
-#: src/content/first-chapter.js
-msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk."
-msgstr "ثم نزلوا في الطريق بخيمة أم معبد الخزاعية وطلبوا القِرى. فقالت إنه ليس عندها طعام، ولا شاة إلا شاة لا لبن فيها."
-
-#: src/content/first-chapter.js
-msgid "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
-msgstr "فدعا النبي ﷺ بالشاة ومسح ضرعها بيده ودعا الله. وحلب في إناء كبير حتى علته الرغوة، وقال: اشربي يا أم معبد. ويذكر ابن كثير أن قصتها مشهورة مروية من طرق يشدّ بعضها بعضًا."
-
-#: src/content/first-chapter.js
-msgid "Ibn Ishaq reports that Quraysh met in Dar al-Nadwah to consult about the Prophet ﷺ once they feared him."
-msgstr "يروي ابن إسحاق أن قريشًا اجتمعت في دار الندوة تتشاور في أمر النبي ﷺ حين خافوه."
-
-#: src/content/first-chapter.js
-msgid "The excerpt covers the meeting, not what was said in it."
-msgstr "يتناول النص الاجتماع نفسه، لا ما قيل فيه."
-
-#: src/content/first-chapter.js
-msgid "They gathered at his door at night; he told ‘Ali to sleep in his bed under his green cloak and assured him of safety."
-msgstr "اجتمعوا على بابه ليلًا؛ فأمر عليًّا أن ينام على فراشه تحت برده الأخضر وطمأنه على سلامته."
-
-#: src/content/first-chapter.js
-msgid "Ibn Kathir notes that al-Waqidi also relates this, combining several narrators’ accounts."
-msgstr "يذكر ابن كثير أن الواقدي روى هذه القصة أيضًا، وقد دخل حديث بعض رواته في بعض."
-
-#: src/content/first-chapter.js
-msgid "Ibn Ishaq introduces this with “as it has reached me”."
-msgstr "يقدّم ابن إسحاق هذا بقوله: «فيما بلغني»."
-
-#: src/content/first-chapter.js
-msgid "They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance."
-msgstr "نزلوا بخيمة أم معبد؛ ولم يكن عندها إلا شاة لا لبن فيها، فدرّت لبنًا كثيرًا."
-
-#: src/content/first-chapter.js
-msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
-msgstr "يصف ابن كثير القصة بأنها مشهورة مروية من طرق يشدّ بعضها بعضًا. ولا يحدّد النص موضع الخيمة."
-
-#: src/content/details.js
-#: src/content/timeline.js
-msgid "Al-Rahiq al-Makhtum"
-msgstr "الرحيق المختوم"
-
-#: src/content/details.js
-msgid "The noon visit"
-msgstr "زيارة الظهيرة"
-
-#: src/content/details.js
-msgid "At the height of noon, an hour at which he never used to come, the Prophet ﷺ arrived at Abu Bakr’s house with his face covered. He said he had been given permission to leave. Abu Bakr asked to go with him, and he said yes."
-msgstr "في نحر الظهيرة، في ساعة لم يكن يأتي فيها، جاء النبي ﷺ إلى بيت أبي بكر متقنّعًا. وأخبره أنه قد أُذن له في الخروج. فسأله أبو بكر الصحبة، فقال: نعم."
-
-#: src/content/details.js
-msgid "This is ‘Aishah’s account as quoted in a modern sirah. The position of the house is illustrative."
-msgstr "هذه رواية عائشة كما ينقلها كتاب سيرة معاصر. وموضع البيت تقريبي."
-
-#: src/content/details.js
-msgid "Stones in the niche"
-msgstr "أحجار في الكوّة"
-
-#: src/content/details.js
-msgid "Abu Bakr took all his money with him, five or six thousand dirhams. Asma recounts that her blind grandfather feared the family had been left with nothing. She put stones where the money used to be kept, covered them with a cloth, and guided his hand to them so that he would be at ease."
-msgstr "حمل أبو بكر ماله كله معه، خمسة آلاف درهم أو ستة آلاف. وتروي أسماء أن جدّها، وكان قد ذهب بصره، خشي أن يكون قد ترك أهله بلا شيء. فوضعت أحجارًا حيث كان يوضع المال وغطّتها بثوب، ثم أخذت بيده إليها ليطمئن."
-
-#: src/content/details.js
-msgid "Reported by Ibn Ishaq from Asma through her grandson. The position of the house is illustrative."
-msgstr "يرويه ابن إسحاق عن أسماء من طريق حفيدها. وموضع البيت تقريبي."
-
-#: src/content/details.js
-msgid "Why south?"
-msgstr "لماذا إلى الجنوب؟"
-
-#: src/content/details.js
-msgid "Madinah lies to the north, and that is where a search would begin. They left in the opposite direction, on the road towards Yemen, for about five miles to Mount Thawr."
-msgstr "المدينة في الشمال، وهناك يبدأ الطلب. فسلكا الطريق المعاكس، المتجه نحو اليمن، نحو خمسة أميال حتى جبل ثور."
-
-#: src/content/details.js
-msgid "This is a modern author’s reading of the route, not wording from an early report."
-msgstr "هذا فهم مؤلف معاصر لمسار الطريق، وليس من ألفاظ رواية متقدمة."
-
-#: src/content/details.js
-msgid "She of the two belts"
-msgstr "ذات النطاقين"
-
-#: src/content/details.js
-msgid "When the three nights had passed, Asma brought their provisions but had forgotten a strap to hang the bag. She undid her waist-belt and used it. For that she was called Dhat al-Nitaqayn, she of the two belts."
-msgstr "لما مضت الليالي الثلاث جاءتهما أسماء بسفرتهما، ونسيت أن تجعل لها رباطًا تُعلَّق به. فحلّت نطاقها وجعلته رباطًا لها. فلذلك سُمّيت ذات النطاقين."
-
-#: src/content/details.js
-msgid "Ibn Ishaq’s report. ‘Aishah’s account in al-Bukhari places the belt at the packing of the provisions instead."
-msgstr "رواية ابن إسحاق. أما رواية عائشة في البخاري فتجعل النطاق عند تجهيز الزاد."
-
-#: src/content/details.js
-msgid "The spider’s web"
-msgstr "نسج العنكبوت"
-
-#: src/content/details.js
-msgid "One report says the pursuers climbed the mountain, passed the cave, and saw a spider’s web across its opening. No one could have gone in, they reasoned, and they moved on. Ibn Kathir calls its chain good, the best of what is reported on this. The scene does not draw the web."
-msgstr "تذكر رواية أن المطاردين صعدوا الجبل ومرّوا بالغار، فرأوا على بابه نسج العنكبوت. فقالوا: لو دخل هنا أحد لما بقي النسج، ثم مضوا. ويصف ابن كثير إسنادها بأنه حسن وأنه من أجود ما روي في ذلك. والمشهد لا يرسم النسج."
-
-#: src/content/details.js
-msgid "A single report. The nesting doves of popular retellings are not part of it."
-msgstr "رواية واحدة. وليست الحمامتان المذكورتان في الروايات المتداولة جزءًا منها."
-
-#: src/content/details.js
-msgid "The stations of the road"
-msgstr "منازل الطريق"
-
-#: src/content/details.js
-msgid "Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate."
-msgstr "يسمّي ابن إسحاق الطريق الذي سلكه الدليل: أسفل مكة، ثم على الساحل، ثم عارض الطريق أسفل من عسفان، ثم أسفل أمج، ثم بعد قديد، ثم الخرّار، ثم ثنية المرة، ثم لِقف، وما بعدها. وكثير من هذه الأسماء يصعب تحديد موضعه اليوم، ولذلك يبقى الخط المرسوم هنا تقريبيًا."
-
-#: src/content/details.js
-msgid "A list of names, without distances or days."
-msgstr "قائمة أسماء، بلا مسافات ولا أيام."
-
-#: src/content/details.js
-msgid "White garments"
-msgstr "ثياب بيض"
-
-#: src/content/details.js
-msgid "On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear."
-msgstr "لقيا في الطريق الزبير في ركب من المسلمين كانوا تجارًا عائدين من الشام. فكسا النبيَّ ﷺ وأبا بكر ثيابًا بيضًا."
-
-#: src/content/details.js
-msgid "From al-Bukhari, as quoted by Ibn Kathir. The account does not say where on the road they met."
-msgstr "من البخاري كما ينقله ابن كثير. ولا تذكر الرواية أين كان اللقاء من الطريق."
-
-#: src/content/details.js
-msgid "The first Friday"
-msgstr "أول جمعة"
-
-#: src/content/details.js
-msgid "After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men."
-msgstr "بعد خروجه من قباء أدركته الجمعة في بني سالم بن عوف. فصلّاها بهم هناك، في المسجد الذي في بطن الوادي، وكانوا نحو مئة رجل."
-
-#: src/content/details.js
-msgid "Quoted from a modern sirah, which cites Ibn Hisham. The position is illustrative."
-msgstr "منقول من كتاب سيرة معاصر يعزوه إلى ابن هشام. والموضع تقريبي."
-
-#: src/content/details.js
-msgid "Let her go"
-msgstr "خلّوا سبيلها"
-
-#: src/content/details.js
-msgid "Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar."
-msgstr "كانت كل قبيلة تأخذ بزمام ناقته وتدعوه إلى النزول عندها. وكان يجيب في كل مرة: خلّوا سبيلها فإنها مأمورة. فمضت حتى بركت في دار بني مالك بن النجار."
-
-#: src/content/details.js
-msgid "Ibn Ishaq’s report. Her path through the town is not known."
-msgstr "رواية ابن إسحاق. ولا يُعرف مسارها داخل المدينة."
-
-#: src/content/details.js
-msgid "The house of Abu Ayyub"
-msgstr "دار أبي أيوب"
-
-#: src/content/details.js
-msgid "He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar."
-msgstr "نزل في دار أبي أيوب حتى بُني مسجده ومساكنه، وعمل في البناء بنفسه مع المهاجرين والأنصار."
-
-#: src/content/details.js
-msgid "The house is placed beside the mosque site for illustration."
-msgstr "وُضعت الدار بجوار موضع المسجد على سبيل التوضيح."
-
-#: src/content/details.js
-msgid "Brothers"
-msgstr "المؤاخاة"
-
-#: src/content/details.js
-msgid "He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on."
-msgstr "آخى بين الذين هاجروا والذين استقبلوهم، ليكون لكل قادم من يستند إليه."
-
-#: src/content/details.js
-msgid "This is Ibn Kathir’s chapter heading. The individual pairings are listed in the pages that follow it."
-msgstr "هذا عنوان الفصل عند ابن كثير. أما تفاصيل المؤاخاة فمذكورة في الصفحات التالية له."
-
-#: src/content/details.js
-msgid "The full moon has risen"
-msgstr "طلع البدر علينا"
-
-#: src/content/details.js
-msgid "A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there."
-msgstr "تذكر رواية مشهورة أن النساء والصبيان أنشدوا «طلع البدر علينا من ثنيات الوداع» عند قدومه. ويرويها البيهقي عن ابن عائشة، وهو راوٍ متأخر لم يشهد ذلك."
-
-#: src/content/details.js
-msgid "The chain stops short of an eyewitness, and some place the song at a later return to Madinah, not at this arrival."
-msgstr "لا يبلغ الإسناد شاهد عيان، ويجعل بعضهم هذا النشيد عند عودة لاحقة إلى المدينة لا عند هذا القدوم."
+msgstr "Die Passage nennt den Namen des Ortes nicht; die Identifizierung als Quba stützt sich auf andere Berichte."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Along the way"
-msgstr "على الطريق"
+msgstr "Entlang des Weges"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Close detail"
-msgstr "إغلاق التفصيل"
+msgstr "Detailansicht schließen"
 
-#: src/content/timeline.js
-msgid "Leaving Makkah"
-msgstr "الخروج من مكة"
+#: src/content/first-chapter.js
+#, ai
+msgid "The night of departure"
+msgstr "Die Nacht der Abreise"
 
-#: src/content/timeline.js
-msgid "Night of 27 Safar · 12–13 September 622"
-msgstr "ليلة ٢٧ صفر · ١٢–١٣ سبتمبر ٦٢٢"
+#: src/content/first-chapter.js
+#, ai
+msgid "The leaders of Quraysh met in Dar al-Nadwah, the house where they settled their affairs, to decide what to do about the Prophet ﷺ now that they feared him."
+msgstr "Die Anführer der Quraisch kamen im Dar al-Nadwah zusammen, dem Haus, in dem sie ihre Angelegenheiten regelten, um zu entscheiden, was sie mit dem Propheten ﷺ tun sollten, da sie ihn nun fürchteten."
 
-#: src/content/timeline.js
-msgid "The night of departure is in the accounts. Its place in the calendar is a modern reckoning."
-msgstr "ليلة الخروج مذكورة في الروايات، أما موضعها من التقويم فحساب معاصر."
+#: src/content/first-chapter.js
+#, ai
+msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
+msgstr "In jener Nacht versammelten sie sich an seiner Tür und warteten darauf, dass er einschlief. Er trug ‘Ali auf, sich in sein Bett zu legen, gehüllt in seinen grünen Mantel, und versicherte ihm, dass ihm kein Schaden durch sie widerfahren würde."
 
-#: src/content/timeline.js
-msgid "The nights before Friday, Saturday and Sunday"
-msgstr "ليلة الجمعة وليلة السبت وليلة الأحد"
+#: src/content/first-chapter.js
+#, ai
+msgid "The tent of Umm Ma‘bad"
+msgstr "Das Zelt von Umm Ma‘bad"
 
-#: src/content/timeline.js
-msgid "Three nights is in al-Bukhari. Naming them after the days of the week follows a modern reckoning."
-msgstr "الليالي الثلاث في البخاري، وتسميتها بأيام الأسبوع تتبع حسابًا معاصرًا."
+#: src/content/first-chapter.js
+#, ai
+msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk."
+msgstr "Weiter hinten hielten sie am Zelt von Umm Ma‘bad vom Stamm Khuza‘ah und baten um Gastfreundschaft. Sie sagte, sie habe kein Essen anzubieten und kein anderes Schaf als eines, das keine Milch gebe."
 
-#: src/content/timeline.js
-msgid "The guide arrives"
-msgstr "وصول الدليل"
+#: src/content/first-chapter.js
+#, ai
+msgid "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
+msgstr "Der Prophet ﷺ ließ das Mutterschaf bringen, strich mit seiner Hand über sein Euter und rief Allah an. Er molk es in ein großes Gefäß, bis die Milch schäumte, und sagte: Trink, Umm Ma‘bad. Ibn Kathir merkt an, dass ihre Geschichte wohlbekannt ist und über Überlieferungswege berichtet wird, die einander stärken."
 
-#: src/content/timeline.js
-msgid "Night of Monday, 1 Rabi‘ al-Awwal · 16 September 622"
-msgstr "ليلة الإثنين، غرة ربيع الأول · ١٦ سبتمبر ٦٢٢"
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Ishaq reports that Quraysh met in Dar al-Nadwah to consult about the Prophet ﷺ once they feared him."
+msgstr "Ibn Ishaq berichtet, dass die Quraisch im Dar al-Nadwah zusammenkamen, um sich über den Propheten ﷺ zu beraten, als sie ihn zu fürchten begannen."
 
-#: src/content/timeline.js
-msgid "The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning."
-msgstr "جاء الدليل بالراحلتين بعد الليلة الثالثة كما اتُّفق. والتاريخ في التقويم حساب معاصر."
+#: src/content/first-chapter.js
+#, ai
+msgid "The excerpt covers the meeting, not what was said in it."
+msgstr "Der Auszug behandelt das Treffen, nicht das, was darin gesagt wurde."
 
-#: src/content/timeline.js
-msgid "On the coastal road"
-msgstr "على طريق الساحل"
+#: src/content/first-chapter.js
+#, ai
+msgid "They gathered at his door at night; he told ‘Ali to sleep in his bed under his green cloak and assured him of safety."
+msgstr "Sie versammelten sich nachts an seiner Tür; er trug ‘Ali auf, in seinem Bett unter seinem grünen Mantel zu schlafen, und versicherte ihm Sicherheit."
 
-#: src/content/timeline.js
-msgid "About a week"
-msgstr "نحو أسبوع"
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Kathir notes that al-Waqidi also relates this, combining several narrators’ accounts."
+msgstr "Ibn Kathir merkt an, dass al-Waqidi dies ebenfalls berichtet und dabei die Berichte mehrerer Erzähler zusammenführt."
 
-#: src/content/timeline.js
-msgid "The accounts give the order of what happened on the road, but no days. The pursuit and the tent of Umm Ma‘bad fall somewhere in this week."
-msgstr "تذكر الروايات ترتيب ما وقع في الطريق دون أيامه. ويقع لحاق سراقة وخيمة أم معبد في مكان ما من هذا الأسبوع."
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Ishaq introduces this with “as it has reached me”."
+msgstr "Ibn Ishaq leitet dies mit den Worten ‘wie mich erreicht hat’ ein."
 
-#: src/content/timeline.js
-msgid "Arrival at Quba"
-msgstr "الوصول إلى قباء"
+#: src/content/first-chapter.js
+#, ai
+msgid "They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance."
+msgstr "Sie hielten am Zelt von Umm Ma‘bad; sie hatte nur ein Schaf ohne Milch, das daraufhin reichlich Milch gab."
 
-#: src/content/timeline.js
-msgid "Monday · 8 Rabi‘ al-Awwal · 23 September 622"
-msgstr "الإثنين · ٨ ربيع الأول · ٢٣ سبتمبر ٦٢٢"
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
+msgstr "Ibn Kathir nennt die Geschichte wohlbekannt und verweist auf Überlieferungswege, die einander stützen. Der Text legt nicht fest, wo das Zelt stand."
 
-#: src/content/timeline.js
-msgid "The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning."
-msgstr "تذكر رواية البخاري أنه كان يوم الإثنين من شهر ربيع الأول، أما اليوم من الشهر فحساب معاصر."
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "‘Ali blieb auch aus einem anderen Grund zurück. Die Menschen in Mekka vertrauten dem Propheten ﷺ ihre Wertsachen zur Aufbewahrung an, weil sie um seine Ehrlichkeit wussten. ‘Ali sollte jede einzelne davon zurückgeben."
 
+#: src/content/details.js
 #: src/content/timeline.js
-msgid "The stay at Quba"
-msgstr "الإقامة في قباء"
+#, ai
+msgid "Al-Rahiq al-Makhtum"
+msgstr "Al-Rahiq al-Makhtum"
 
-#: src/content/timeline.js
-msgid "Four days, or more than ten nights"
-msgstr "أربعة أيام، أو بضع عشرة ليلة"
+#: src/content/details.js
+#, ai
+msgid "The noon visit"
+msgstr "Der Mittagsbesuch"
 
-#: src/content/timeline.js
-msgid "Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it."
-msgstr "يذكر ابن إسحاق الإثنين إلى الخميس، وفي رواية البخاري بضع عشرة ليلة، وقال بنو عمرو بن عوف ثماني عشرة ليلة. ويورد ابن كثير الروايات جنبًا إلى جنب دون أن يحسم."
+#: src/content/details.js
+#, ai
+msgid "At the height of noon, an hour at which he never used to come, the Prophet ﷺ arrived at Abu Bakr’s house with his face covered. He said he had been given permission to leave. Abu Bakr asked to go with him, and he said yes."
+msgstr "Auf dem Höhepunkt der Mittagshitze, zu einer Stunde, zu der er sonst nie kam, kam der Prophet ﷺ mit verhülltem Gesicht zum Haus von Abu Bakr. Er sagte, ihm sei die Erlaubnis erteilt worden, aufzubrechen. Abu Bakr bat darum, ihn begleiten zu dürfen, und er stimmte zu."
 
-#: src/content/timeline.js
-msgid "The first Friday, and Madinah"
-msgstr "أول جمعة، والمدينة"
+#: src/content/details.js
+#, ai
+msgid "This is ‘Aishah’s account as quoted in a modern sirah. The position of the house is illustrative."
+msgstr "Dies ist der Bericht von Aischa, wie er in einer modernen Sira zitiert wird. Die Lage des Hauses dient der Veranschaulichung."
 
-#: src/content/timeline.js
-msgid "Friday · 12 Rabi‘ al-Awwal · 27 September 622"
-msgstr "الجمعة · ١٢ ربيع الأول · ٢٧ سبتمبر ٦٢٢"
+#: src/content/details.js
+#, ai
+msgid "Stones in the niche"
+msgstr "Steine in der Nische"
 
-#: src/content/timeline.js
-msgid "That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay."
-msgstr "كونه يوم جمعة مذكور في الروايات المتقدمة، أما التاريخ في التقويم فحساب معاصر يتبع الإقامة أربعة أيام."
+#: src/content/details.js
+#, ai
+msgid "Abu Bakr took all his money with him, five or six thousand dirhams. Asma recounts that her blind grandfather feared the family had been left with nothing. She put stones where the money used to be kept, covered them with a cloth, and guided his hand to them so that he would be at ease."
+msgstr "Abu Bakr nahm sein gesamtes Geld mit sich, fünf- oder sechstausend Dirham. Asma berichtet, dass ihr erblindeter Großvater befürchtete, die Familie sei mittellos zurückgelassen worden. Sie legte Steine dorthin, wo das Geld aufbewahrt wurde, bedeckte sie mit einem Tuch und führte seine Hand dorthin, damit er beruhigt war."
+
+#: src/content/details.js
+#, ai
+msgid "Reported by Ibn Ishaq from Asma through her grandson. The position of the house is illustrative."
+msgstr "Berichtet von Ibn Ishaq über Asma durch ihren Enkel. Die Lage des Hauses dient der Veranschaulichung."
+
+#: src/content/details.js
+#, ai
+msgid "Why south?"
+msgstr "Warum nach Süden?"
+
+#: src/content/details.js
+#, ai
+msgid "Madinah lies to the north, and that is where a search would begin. They left in the opposite direction, on the road towards Yemen, for about five miles to Mount Thawr."
+msgstr "Madinah liegt im Norden, und dort würde eine Suche beginnen. Sie reisten in die entgegengesetzte Richtung ab, auf der Straße nach Jemen, etwa fünf Meilen weit zum Berg Thawr."
+
+#: src/content/details.js
+#, ai
+msgid "This is a modern author’s reading of the route, not wording from an early report."
+msgstr "Dies ist die Interpretation der Route durch einen modernen Autor, nicht der Wortlaut eines frühen Berichts."
+
+#: src/content/details.js
+#, ai
+msgid "She of the two belts"
+msgstr "Die mit den zwei Gürteln"
+
+#: src/content/details.js
+#, ai
+msgid "When the three nights had passed, Asma brought their provisions but had forgotten a strap to hang the bag. She undid her waist-belt and used it. For that she was called Dhat al-Nitaqayn, she of the two belts."
+msgstr "Als die drei Nächte vergangen waren, brachte Asma ihren Proviant, hatte aber einen Riemen zum Aufhängen des Beutels vergessen. Sie löste ihren Hüftgürtel und verwendete ihn dafür. Dafür wurde sie Dhat al-Nitaqayn genannt, die mit den zwei Gürteln."
+
+#: src/content/details.js
+#, ai
+msgid "Ibn Ishaq’s report. ‘Aishah’s account in al-Bukhari places the belt at the packing of the provisions instead."
+msgstr "Bericht von Ibn Ishaq. Aischas Bericht in al-Buchari verortet den Gürtel stattdessen beim Packen des Proviants."
+
+#: src/content/details.js
+#, ai
+msgid "The spider’s web"
+msgstr "Das Spinnennetz"
+
+#: src/content/details.js
+#, ai
+msgid "One report says the pursuers climbed the mountain, passed the cave, and saw a spider’s web across its opening. No one could have gone in, they reasoned, and they moved on. Ibn Kathir calls its chain good, the best of what is reported on this. The scene does not draw the web."
+msgstr "Ein Bericht besagt, dass die Verfolger den Berg bestiegen, an der Höhle vorbeikamen und ein Spinnennetz über ihrer Öffnung sahen. Niemand hätte hineingehen können, so folgerten sie, und zogen weiter. Ibn Kathir bezeichnet die Überlieferungskette als gut, als die beste der darüber berichteten. Die Szene stellt das Netz nicht dar."
+
+#: src/content/details.js
+#, ai
+msgid "A single report. The nesting doves of popular retellings are not part of it."
+msgstr "Ein einzelner Bericht. Die nistenden Tauben aus populären Erzählungen sind nicht Teil davon."
+
+#: src/content/details.js
+#, ai
+msgid "The stations of the road"
+msgstr "Die Stationen des Weges"
+
+#: src/content/details.js
+#, ai
+msgid "Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate."
+msgstr "Ibn Ishaq nennt den Weg, den der Führer nahm: unterhalb von Makkah, an der Küste entlang, über die Straße unterhalb von Usfan, unterhalb von Amadsch, vorbei an Qudayd, dann al-Charrar, Thaniyyat al-Marah, Liqf und weiter. Viele dieser Namen sind heute schwer zu lokalisieren, daher bleibt die hier gezeichnete Linie ungenau."
+
+#: src/content/details.js
+#, ai
+msgid "A list of names, without distances or days."
+msgstr "Eine Liste von Namen, ohne Entfernungen oder Tage."
+
+#: src/content/details.js
+#, ai
+msgid "White garments"
+msgstr "Weiße Gewänder"
+
+#: src/content/details.js
+#, ai
+msgid "On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear."
+msgstr "Unterwegs trafen sie al-Zubayr mit einer Gruppe muslimischer Kaufleute, die aus Syrien zurückkehrten. Er gab dem Propheten ﷺ und Abu Bakr weiße Gewänder zum Anziehen."
+
+#: src/content/details.js
+#, ai
+msgid "From al-Bukhari, as quoted by Ibn Kathir. The account does not say where on the road they met."
+msgstr "Aus al-Buchari, zitiert von Ibn Kathir. Der Bericht besagt nicht, wo auf dem Weg sie sich trafen."
+
+#: src/content/details.js
+#, ai
+msgid "The first Friday"
+msgstr "Der erste Freitag"
+
+#: src/content/details.js
+#, ai
+msgid "After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men."
+msgstr "Nach dem Verlassen von Quba brach die Zeit für das Freitagsgebet an, als er sich unter den Banu Salim ibn Awf befand. Er leitete es dort, in der Moschee im Talbett, mit etwa hundert Männern."
+
+#: src/content/details.js
+#, ai
+msgid "Quoted from a modern sirah, which cites Ibn Hisham. The position is illustrative."
+msgstr "Zitiert aus einer modernen Sira, die sich auf Ibn Hischam bezieht. Die Lage dient der Veranschaulichung."
+
+#: src/content/details.js
+#, ai
+msgid "Let her go"
+msgstr "Lasst sie laufen"
+
+#: src/content/details.js
+#, ai
+msgid "Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar."
+msgstr "Sippe um Sippe ergriff das Seil seines Kamels und lud ihn ein, bei ihnen zu bleiben. Jedes Mal antwortete er: Lasst sie laufen, denn sie steht unter Befehl. Sie ging weiter, bis sie im Viertel der Banu Malik ibn al-Najjar niederkniete."
+
+#: src/content/details.js
+#, ai
+msgid "Ibn Ishaq’s report. Her path through the town is not known."
+msgstr "Bericht von Ibn Ishaq. Ihr Weg durch die Stadt ist nicht bekannt."
+
+#: src/content/details.js
+#, ai
+msgid "The house of Abu Ayyub"
+msgstr "Das Haus von Abu Ayyub"
+
+#: src/content/details.js
+#, ai
+msgid "He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar."
+msgstr "Er blieb im Haus von Abu Ayyub, bis seine Moschee und seine Gemächer gebaut waren, und er arbeitete selbst an dem Bau an der Seite der Muhajirun und der Ansar."
+
+#: src/content/details.js
+#, ai
+msgid "The house is placed beside the mosque site for illustration."
+msgstr "Das Haus ist zur Veranschaulichung neben dem Moscheegelände platziert."
+
+#: src/content/details.js
+#, ai
+msgid "Brothers"
+msgstr "Brüder"
+
+#: src/content/details.js
+#, ai
+msgid "He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on."
+msgstr "Er stellte den Ausgewanderten diejenigen, die sie aufnahmen, als Brüder an die Seite, damit jeder Neuankömmling jemanden hatte, auf den er sich stützen konnte."
+
+#: src/content/details.js
+#, ai
+msgid "This is Ibn Kathir’s chapter heading. The individual pairings are listed in the pages that follow it."
+msgstr "Dies ist die Kapitelüberschrift von Ibn Kathir. Die einzelnen Paarungen sind auf den folgenden Seiten aufgeführt."
+
+#: src/content/details.js
+#, ai
+msgid "The full moon has risen"
+msgstr "Der Vollmond ist über uns aufgegangen"
+
+#: src/content/details.js
+#, ai
+msgid "A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there."
+msgstr "Ein bekannter Bericht besagt, dass die Frauen und Kinder bei seiner Ankunft sangen: „Der Vollmond ist über uns aufgegangen, aus den Pässen von al-Wada‘“. Al-Bayhaqi überliefert dies von Ibn ‘Aishah, einem späteren Überlieferer, nicht von einem Augenzeugen."
+
+#: src/content/details.js
+#, ai
+msgid "The chain stops short of an eyewitness, and some place the song at a later return to Madinah, not at this arrival."
+msgstr "Die Überlieferungskette reicht nicht bis zu einem Augenzeugen zurück, und einige verorten das Lied bei einer späteren Rückkehr nach Madinah, nicht bei dieser Ankunft."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Evidence shown. Each point is a cited passage, coloured by kind."
-msgstr "عُرضت الأدلة. كل نقطة نص مستشهد به، ملوّنة بحسب نوعها."
+msgstr "Belege angezeigt. Jeder Punkt ist eine zitierte Textstelle, farblich nach Art gekennzeichnet."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Evidence hidden."
-msgstr "أُخفيت الأدلة."
+msgstr "Belege ausgeblendet."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Hide evidence on the map"
-msgstr "إخفاء الأدلة على الخريطة"
+msgstr "Belege auf der Karte ausblenden"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Show evidence on the map"
-msgstr "عرض الأدلة على الخريطة"
+msgstr "Belege auf der Karte anzeigen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Hide timeline"
-msgstr "إخفاء الخط الزمني"
+msgstr "Zeitachse ausblenden"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Show timeline"
-msgstr "عرض الخط الزمني"
+msgstr "Zeitachse anzeigen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "How each date is known"
-msgstr "كيف يُعرف كل تاريخ"
+msgstr "Wie das jeweilige Datum bekannt ist"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/>Stated in the account"
-msgstr "<0/>مذكور في الرواية"
+msgstr "<0/>Im Bericht genannt"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/>Reckoned later"
-msgstr "<0/>محسوب لاحقًا"
+msgstr "<0/>Später berechnet"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/>Accounts differ"
-msgstr "<0/>الروايات مختلفة"
+msgstr "<0/>Berichte weichen ab"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "<0/>Not dated"
-msgstr "<0/>غير مؤرّخ"
+msgstr "<0/>Nicht datiert"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "The journey day by day · September 622"
-msgstr "الرحلة يومًا بيوم · سبتمبر ٦٢٢"
+msgstr "Die Reise Tag für Tag · September 622"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Scrub through the days of the journey"
-msgstr "تنقّل بين أيام الرحلة"
+msgstr "Durch die Tage der Reise navigieren"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Go to this stage <0/>"
-msgstr "انتقل إلى هذه المرحلة <0/>"
+msgstr "Gehe zu dieser Etappe <0/>"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "The Quran"
-msgstr "القرآن الكريم"
+msgstr "Der Koran"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Hadith collections"
-msgstr "كتب الحديث"
+msgstr "Hadith-Sammlungen"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Classical sirah and history"
-msgstr "كتب السيرة والتاريخ المتقدمة"
+msgstr "Klassische Sira und Geschichtswerke"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Modern authors"
-msgstr "مؤلفون معاصرون"
+msgstr "Moderne Autoren"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Evidence on the map"
-msgstr "الأدلة على الخريطة"
+msgstr "Belege auf der Karte"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "كل نقطة ضوء نصٌّ يستشهد به هذا الفصل، موضوعة حيث يتحدث. اختر نقطة لقراءته."
+msgstr "Jeder Lichtpunkt ist eine in diesem Kapitel zitierte Textstelle, platziert am Ort des Geschehens. Wähle einen Punkt aus, um sie zu lesen."
 
-#: src/content/lenses.js
-msgid "This is the story of the Hijrah: when the Prophet Muhammad ﷺ travelled from Makkah to Madinah, a new home."
-msgstr "هذه قصة الهجرة: حين سافر النبي محمد ﷺ من مكة إلى المدينة، إلى بيت جديد."
+#: src/content/timeline.js
+#, ai
+msgid "Leaving Makkah"
+msgstr "Aufbruch aus Makkah"
 
-#: src/content/lenses.js
-msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
-msgstr "كان كثير من المسلمين قد سبقوه. وانتظر صديقه أبو بكر ليسافرا معًا."
+#: src/content/timeline.js
+#, ai
+msgid "Night of 27 Safar · 12–13 September 622"
+msgstr "Nacht des 27. Safar · 12.–13. September 622"
 
-#: src/content/lenses.js
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "في مكة اجتمع زعماء قريش ليدبّروا أمرًا ضد النبي ﷺ."
+#: src/content/timeline.js
+#, ai
+msgid "The night of departure is in the accounts. Its place in the calendar is a modern reckoning."
+msgstr "Die Nacht des Aufbruchs wird in den Berichten erwähnt. Ihre Einordnung in den Kalender ist eine moderne Berechnung."
 
-#: src/content/lenses.js
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "وفي تلك الليلة انتظروا عند بابه. ونام عليٌّ بشجاعة في فراش النبي، متغطيًا ببرده الأخضر."
+#: src/content/timeline.js
+#, ai
+msgid "The nights before Friday, Saturday and Sunday"
+msgstr "Die Nächte vor Freitag, Samstag und Sonntag"
 
-#: src/content/lenses.js
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "كان الناس يضعون أشياءهم الثمينة عند النبي ﷺ لأنه كان صادقًا أمينًا. فبقي عليٌّ ليردّها كلها إلى أصحابها."
+#: src/content/timeline.js
+#, ai
+msgid "Three nights is in al-Bukhari. Naming them after the days of the week follows a modern reckoning."
+msgstr "Drei Nächte werden bei al-Bukhari erwähnt. Ihre Benennung nach Wochentagen folgt einer modernen Berechnung."
 
-#: src/content/lenses.js
-msgid "The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights."
-msgstr "اختبأ النبي ﷺ وأبو بكر في غار في جبل ثور ثلاث ليال."
+#: src/content/timeline.js
+#, ai
+msgid "The guide arrives"
+msgstr "Der Wegweiser kommt an"
 
-#: src/content/lenses.js
-msgid "Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah."
-msgstr "وكل ليلة كان عبد الله بن أبي بكر يأتيهما في الظلام بأخبار مكة."
+#: src/content/timeline.js
+#, ai
+msgid "Night of Monday, 1 Rabi‘ al-Awwal · 16 September 622"
+msgstr "Nacht auf Montag, 1. Rabi‘ al-Awwal · 16. September 622"
 
-#: src/content/lenses.js
-msgid "A shepherd called ‘Amir brought his sheep close every evening, so that they had milk to drink."
-msgstr "وكان راعٍ اسمه عامر يقرّب غنمه منهما كل مساء ليشربا من لبنها."
+#: src/content/timeline.js
+#, ai
+msgid "The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning."
+msgstr "Der Wegweiser kam wie vereinbart nach der dritten Nacht mit den beiden Reittieren. Das Kalenderdatum ist eine moderne Berechnung."
 
-#: src/content/lenses.js
-msgid "Abu Bakr was worried: if someone looked down, they would be seen! The Prophet ﷺ calmed him."
-msgstr "خاف أبو بكر: لو نظر أحدهم إلى أسفل لرآهما! فطمأنه النبي ﷺ."
+#: src/content/timeline.js
+#, ai
+msgid "On the coastal road"
+msgstr "Auf der Küstenstraße"
 
-#: src/content/lenses.js
-msgid "The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us."
-msgstr "ويذكر القرآن ما قاله النبي ﷺ لصاحبه في الغار: لا تحزن إن الله معنا."
+#: src/content/timeline.js
+#, ai
+msgid "About a week"
+msgstr "Etwa eine Woche"
 
-#: src/content/lenses.js
-msgid "Quraysh offered a big reward to catch them. A rider called Suraqah raced after them on his horse."
-msgstr "جعلت قريش جائزة كبيرة لمن يمسك بهما. فانطلق فارس اسمه سراقة خلفهما على فرسه."
+#: src/content/timeline.js
+#, ai
+msgid "The accounts give the order of what happened on the road, but no days. The pursuit and the tent of Umm Ma‘bad fall somewhere in this week."
+msgstr "Die Berichte nennen die Reihenfolge der Ereignisse auf dem Weg, aber keine Tage. Die Verfolgung und das Zelt von Umm Ma‘bad fallen in diese Woche."
 
-#: src/content/lenses.js
-msgid "As he came close, his horse’s legs sank into the ground, and he fell off!"
-msgstr "ولما اقترب ساخت قوائم فرسه في الأرض، فسقط عنها!"
+#: src/content/timeline.js
+#, ai
+msgid "Arrival at Quba"
+msgstr "Ankunft in Quba"
 
-#: src/content/lenses.js
-msgid "Suraqah gave up the chase. They asked him only to keep their secret, and went on their way."
-msgstr "فترك سراقة المطاردة. ولم يطلبا منه إلا أن يكتم خبرهما، ومضيا في طريقهما."
+#: src/content/timeline.js
+#, ai
+msgid "Monday · 8 Rabi‘ al-Awwal · 23 September 622"
+msgstr "Montag · 8. Rabi‘ al-Awwal · 23. September 622"
 
-#: src/content/lenses.js
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "نزلوا عند خيمة امرأة اسمها أم معبد. لم يكن عندها طعام، ولا إلا شاة هزيلة لا لبن فيها."
+#: src/content/timeline.js
+#, ai
+msgid "The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning."
+msgstr "Der Bericht in al-Buchari besagt, dass es ein Montag im Rabi‘ al-Awwal war. Der genaue Tag des Monats ist eine moderne Berechnung."
 
-#: src/content/lenses.js
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "فدعا النبي ﷺ الله وحلب الشاة، فكان اللبن يكفي الجميع."
+#: src/content/timeline.js
+#, ai
+msgid "The stay at Quba"
+msgstr "Der Aufenthalt in Quba"
 
-#: src/content/lenses.js
-msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
-msgstr "وأخيرًا وصلوا إلى المدينة! ومشت ناقة النبي في البلدة حتى بركت في ساحة واسعة."
+#: src/content/timeline.js
+#, ai
+msgid "Four days, or more than ten nights"
+msgstr "Vier Tage oder mehr als zehn Nächte"
 
-#: src/content/lenses.js
-msgid "That yard became the place of his mosque, and he carried bricks to help build it."
-msgstr "وصارت تلك الساحة موضع مسجده، وحمل اللبن بنفسه ليساعد في بنائه."
+#: src/content/timeline.js
+#, ai
+msgid "Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it."
+msgstr "Ibn Ishaq nennt Montag bis Donnerstag. Der Bericht in al-Buchari spricht von mehr als zehn Nächten, und die Banu ‘Amr ibn ‘Awf nannten achtzehn. Ibn Kathir stellt die Berichte nebeneinander, ohne sich festzulegen."
 
-#: src/content/lenses.js
-msgid "One hot noon, the Prophet ﷺ came to Abu Bakr’s house with big news: it was time to go. Abu Bakr asked to come too, and he said yes."
-msgstr "في ظهيرة حارّة جاء النبي ﷺ إلى بيت أبي بكر بخبر كبير: حان وقت الخروج. فطلب أبو بكر أن يصحبه، فقال: نعم."
+#: src/content/timeline.js
+#, ai
+msgid "The first Friday, and Madinah"
+msgstr "Der erste Freitag und Medina"
 
-#: src/content/lenses.js
-msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
-msgstr "أخذ أبو بكر ماله كله للرحلة. فوضعت ابنته أسماء أحجارًا مكانه لتطمئن جدّها الذي لا يبصر."
+#: src/content/timeline.js
+#, ai
+msgid "Friday · 12 Rabi‘ al-Awwal · 27 September 622"
+msgstr "Freitag · 12. Rabi‘ al-Awwal · 27. September 622"
 
-#: src/content/lenses.js
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "المدينة في الشمال، فاتجها أولًا إلى الجنوب، إلى جبل ثور، حيث لن يبحث أحد."
-
-#: src/content/lenses.js
-msgid "Asma used her belt to tie up their food bag. People called her “the one with two belts”."
-msgstr "ربطت أسماء كيس الطعام بنطاقها، فسمّاها الناس «ذات النطاقين»."
-
-#: src/content/lenses.js
-msgid "One report says the searchers saw a spider’s web across the cave and walked away."
-msgstr "تذكر رواية أن الباحثين رأوا نسج عنكبوت على باب الغار فانصرفوا."
-
-#: src/content/lenses.js
-msgid "Their guide knew the desert well. He led them along the coast, past many places whose names we still know."
-msgstr "كان دليلهم يعرف الصحراء جيدًا، فسار بهم على الساحل، مرورًا بأماكن ما زلنا نعرف أسماءها."
-
-#: src/content/lenses.js
-msgid "On the way, a friend called al-Zubayr gave them new white clothes."
-msgstr "وفي الطريق أهداهما صديق اسمه الزبير ثيابًا بيضًا جديدة."
-
-#: src/content/lenses.js
-msgid "On his way into Madinah, the Prophet ﷺ led Friday prayer with about a hundred people."
-msgstr "وفي طريقه إلى المدينة صلّى النبي ﷺ الجمعة بنحو مئة رجل."
-
-#: src/content/lenses.js
-msgid "Everyone wanted the Prophet ﷺ to stay with them. He said: let the camel go, she has been told where to stop."
-msgstr "كان الجميع يريد أن ينزل النبي ﷺ عندهم. فقال: خلّوا سبيل الناقة، فإنها تعرف أين تقف."
-
-#: src/content/lenses.js
-msgid "He stayed in the house of Abu Ayyub until his mosque and his home were built."
-msgstr "نزل في بيت أبي أيوب حتى بُني مسجده وبيته."
-
-#: src/content/lenses.js
-msgid "He made the people who arrived and the people of Madinah brothers, to help each other."
-msgstr "جعل القادمين وأهل المدينة إخوة، يعين بعضهم بعضًا."
-
-#: src/content/lenses.js
-msgid "Many people remember a happy song sung to welcome him, but we are not sure it was sung that day."
-msgstr "يتذكر كثيرون نشيدًا فرحًا استُقبل به، لكننا لسنا متأكدين أنه أُنشد في ذلك اليوم."
-
-#: src/content/lenses.js
-msgid "The Hijrah is so central that the Islamic calendar counts its years from it."
-msgstr "للهجرة مكانة كبيرة حتى إن التقويم الإسلامي يعدّ سنواته منها."
-
-#: src/content/lenses.js
-msgid "Trust and careful planning sit side by side: the Prophet ﷺ relied on Allah and still prepared every step."
-msgstr "التوكل والتخطيط يسيران معًا: توكّل النبي ﷺ على الله وأعدّ لكل خطوة."
-
-#: src/content/lenses.js
-msgid "Even with people plotting against him, he made sure their property was returned. His honesty did not depend on how he was treated."
-msgstr "مع أن قومًا كانوا يكيدون له، حرص على ردّ أماناتهم. لم تكن أمانته متوقفة على معاملتهم له."
-
-#: src/content/lenses.js
-msgid "In the most frightening moment, the lesson is calm trust: Allah is with us."
-msgstr "في أشد اللحظات خوفًا كان الدرس هو التوكل الهادئ: إن الله معنا."
-
-#: src/content/lenses.js
-msgid "Choosing an unexpected route was wisdom, not doubt. Muslims are taught to trust Allah and still take sensible steps."
-msgstr "لم يكن سلوك طريق غير متوقع شكًّا بل حكمة. فالمسلم يتوكل على الله ويأخذ بالأسباب."
-
-#: src/content/lenses.js
-msgid "A man who set out to capture them left asking for their protection. The story is full of reversals like this."
-msgstr "رجل خرج ليأسرهما عاد طالبًا أمانهما. والقصة مليئة بمثل هذه التحولات."
-
-#: src/content/lenses.js
-msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
-msgstr "إكرام الغرباء، والبركة في القليل، معنيان يسريان في سيرة النبي كلها."
-
-#: src/content/lenses.js
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "أول ما بُني في الموطن الجديد مسجد، مركزًا للمجتمع كله."
-
-#: src/content/lenses.js
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "صارت المدينة أول مجتمع مسلم، قائمًا على الأخوّة بين المهاجرين ومضيفيهم."
-
-#: src/content/lenses.js
-msgid "Short for “peace and blessings of Allah be upon him”, said by Muslims after the Prophet’s name."
-msgstr "اختصار «صلى الله عليه وسلم»، يقولها المسلمون بعد ذكر اسم النبي."
-
-#: src/content/lenses.js
-#: src/content/lenses.js
-msgid "Hijrah"
-msgstr "الهجرة"
-
-#: src/content/lenses.js
-msgid "The migration of the Prophet ﷺ and his companions from Makkah to Madinah, in 622."
-msgstr "هجرة النبي ﷺ وأصحابه من مكة إلى المدينة سنة ٦٢٢م."
-
-#: src/content/lenses.js
-#: src/content/lenses.js
-msgid "Quraysh"
-msgstr "قريش"
-
-#: src/content/lenses.js
-msgid "The leading tribe of Makkah. The Prophet ﷺ himself belonged to it."
-msgstr "القبيلة الأبرز في مكة، وإليها ينتمي النبي ﷺ نفسه."
-
-#: src/content/lenses.js
-msgid "The city where the Prophet ﷺ was born, home of the Ka‘bah."
-msgstr "المدينة التي وُلد فيها النبي ﷺ، وفيها الكعبة."
-
-#: src/content/lenses.js
-msgid "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
-msgstr "كانت تُسمّى يثرب: المدينة التي استقبلت النبي ﷺ. ومعنى اسمها «المدينة»."
-
-#: src/content/lenses.js
-#: src/content/lenses.js
-msgid "Abu Bakr"
-msgstr "أبو بكر"
-
-#: src/content/lenses.js
-msgid "The Prophet’s closest friend and companion, who later led the Muslims after him."
-msgstr "أقرب أصحاب النبي إليه، وقد تولّى أمر المسلمين بعده."
-
-#: src/content/lenses.js
-#: src/content/lenses.js
-msgid "Allah"
-msgstr "الله"
-
-#: src/content/lenses.js
-msgid "The Arabic word for God."
-msgstr "الاسم العربي للإله الواحد."
-
-#: src/content/lenses.js
-msgid "The holy book of Islam, which Muslims believe is the word of Allah."
-msgstr "الكتاب المقدّس في الإسلام، ويؤمن المسلمون أنه كلام الله."
-
-#: src/content/lenses.js
-msgid "The collection of hadith that Muslims consider the most reliable."
-msgstr "كتاب الحديث الذي يعدّه المسلمون أصحّ الكتب."
-
-#: src/content/lenses.js
-#: src/content/lenses.js
-msgid "Ibn Kathir"
-msgstr "ابن كثير"
-
-#: src/content/lenses.js
-msgid "A scholar of the fourteenth century whose history of the Prophet’s life is widely used."
-msgstr "عالم من القرن الثامن الهجري، كتابه في السيرة واسع الاستعمال."
-
-#: src/content/lenses.js
-#: src/content/lenses.js
-msgid "Ibn Ishaq"
-msgstr "ابن إسحاق"
-
-#: src/content/lenses.js
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "مؤرخ من القرن الثاني الهجري، وسيرته أقدم سيرة نبوية وصلت إلينا."
-
-#: src/content/lenses.js
-#: src/content/lenses.js
-msgid "Thawr"
-msgstr "ثور"
-
-#: src/content/lenses.js
-msgid "A mountain south of Makkah, with a small cave near its top."
-msgstr "جبل جنوب مكة، في أعلاه غار صغير."
-
-#: src/content/lenses.js
-msgid "A village on the edge of Madinah, where the Prophet ﷺ stopped first."
-msgstr "قرية على أطراف المدينة، نزل بها النبي ﷺ أولًا."
-
-#: src/content/lenses.js
-msgid "A passage of the Quran, the holy book of Islam."
-msgstr "نص من القرآن الكريم، كتاب الإسلام المقدّس."
-
-#: src/content/lenses.js
-msgid "A hadith: a report of the Prophet’s words or deeds, passed on through named narrators. The collections of al-Bukhari and Muslim are considered the most reliable."
-msgstr "حديث: خبر عن أقوال النبي أو أفعاله، نقله رواة معروفون. ويُعدّ صحيحا البخاري ومسلم أوثق كتبه."
-
-#: src/content/lenses.js
-msgid "A report from the early histories of the Prophet’s life. They gather many accounts, some stronger than others."
-msgstr "خبر من كتب السيرة المتقدمة، وهي تجمع روايات كثيرة بعضها أقوى من بعض."
-
-#: src/content/lenses.js
-msgid "A modern author’s explanation or calculation, built on the early sources."
-msgstr "شرح أو حساب لمؤلف معاصر مبنيّ على المصادر المتقدمة."
+#: src/content/timeline.js
+#, ai
+msgid "That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay."
+msgstr "Dass es ein Freitag war, steht in den frühen Berichten. Das Kalenderdatum ist eine moderne Berechnung und folgt auf den viertägigen Aufenthalt."
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "Young learners"
-msgstr "للصغار"
+msgstr "Für Kinder"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "New to the story"
-msgstr "جديد على القصة"
+msgstr "Neu bei der Geschichte"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "In depth"
-msgstr "بتعمّق"
+msgstr "In der Tiefe"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Mode"
-msgstr "طريقة العرض"
+msgstr "Modus"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "How would you like to follow the journey?"
-msgstr "كيف تحب أن تتابع الرحلة؟"
+msgstr "Wie möchtest du der Reise folgen?"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Six short stages, in simple words."
-msgstr "ست مراحل قصيرة بكلمات سهلة."
+msgstr "Sechs kurze Abschnitte in einfachen Worten."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Terms explained, and why each stage matters."
-msgstr "شرح المصطلحات، ولماذا تهمّ كل مرحلة."
+msgstr "Begriffe erklärt und warum jeder Abschnitt wichtig ist."
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Every detail, with the evidence and the timeline open."
-msgstr "كل التفاصيل، مع الأدلة والخط الزمني ظاهرين."
+msgstr "Jedes Detail, mit Belegen und offener Zeitleiste."
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#, ai
 msgid "Why this matters:"
-msgstr "لماذا يهمّ هذا:"
+msgstr "Warum das wichtig ist:"
 
 #: src/routes/Journey.svelte
+#, ai
 msgid "Terms"
-msgstr "مصطلحات"
+msgstr "Begriffe"
+
+#: src/content/lenses.js
+#, ai
+msgid "This is the story of the Hijrah: when the Prophet Muhammad ﷺ travelled from Makkah to Madinah, a new home."
+msgstr "Dies ist die Geschichte der Hidschra: als der Prophet Muhammad ﷺ von Mekka nach Medina reiste, in ein neues Zuhause."
+
+#: src/content/lenses.js
+#, ai
+msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
+msgstr "Viele Muslime waren schon vorausgegangen. Sein bester Freund, Abu Bakr, wartete, damit sie zusammen reisen konnten."
+
+#: src/content/lenses.js
+#, ai
+msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
+msgstr "In Mekka trafen sich die Führer der Quraisch, um Pläne gegen den Propheten ﷺ zu schmieden."
+
+#: src/content/lenses.js
+#, ai
+msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
+msgstr "In jener Nacht warteten sie vor seiner Tür. Ali schlief mutig im Bett des Propheten, eingehüllt in dessen grünen Mantel."
+
+#: src/content/lenses.js
+#, ai
+msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
+msgstr "Die Menschen gaben dem Propheten ﷺ ihre Wertsachen zur Aufbewahrung, weil er so ehrlich war. Ali blieb zurück, um jedem Einzelnen seine Sachen zurückzugeben."
+
+#: src/content/lenses.js
+#, ai
+msgid "The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights."
+msgstr "Der Prophet ﷺ und Abu Bakr versteckten sich drei Nächte lang in einer Höhle am Berg Thawr."
+
+#: src/content/lenses.js
+#, ai
+msgid "Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah."
+msgstr "Jede Nacht kam Abu Bakrs Sohn Abdullah im Dunkeln, um ihnen die Neuigkeiten aus Mekka zu bringen."
+
+#: src/content/lenses.js
+#, ai
+msgid "A shepherd called ‘Amir brought his sheep close every evening, so that they had milk to drink."
+msgstr "Ein Hirte namens Amir brachte jeden Abend seine Schafe in die Nähe, damit sie Milch zu trinken hatten."
+
+#: src/content/lenses.js
+#, ai
+msgid "Abu Bakr was worried: if someone looked down, they would be seen! The Prophet ﷺ calmed him."
+msgstr "Abu Bakr war besorgt: Wenn jemand nach unten schauen würde, würde man sie sehen! Der Prophet ﷺ beruhigte ihn."
+
+#: src/content/lenses.js
+#, ai
+msgid "The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us."
+msgstr "Der Koran erinnert an das, was der Prophet ﷺ zu seinem Gefährten in der Höhle sagte: Sei nicht traurig, Allah ist mit uns."
+
+#: src/content/lenses.js
+#, ai
+msgid "Quraysh offered a big reward to catch them. A rider called Suraqah raced after them on his horse."
+msgstr "Die Quraisch setzten eine große Belohnung aus, um sie zu fangen. Ein Reiter namens Suraqah jagte ihnen auf seinem Pferd hinterher."
+
+#: src/content/lenses.js
+#, ai
+msgid "As he came close, his horse’s legs sank into the ground, and he fell off!"
+msgstr "Als er näher kam, sanken die Beine seines Pferdes in den Boden und er fiel herunter!"
+
+#: src/content/lenses.js
+#, ai
+msgid "Suraqah gave up the chase. They asked him only to keep their secret, and went on their way."
+msgstr "Suraqah gab die Verfolgung auf. Sie baten ihn nur, ihr Geheimnis zu bewahren, und setzten ihren Weg fort."
+
+#: src/content/lenses.js
+#, ai
+msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
+msgstr "Sie machten Halt am Zelt einer Frau namens Umm Ma‘bad. Sie hatte kein Essen und nur ein mageres Schaf, das keine Milch gab."
+
+#: src/content/lenses.js
+#, ai
+msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "Der Prophet ﷺ betete und molk das Schaf, und es gab Milch für alle."
+
+#: src/content/lenses.js
+#, ai
+msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
+msgstr "Endlich erreichten sie Medina! Das Kamel des Propheten lief durch die Stadt und kniete auf einem freien Platz nieder."
+
+#: src/content/lenses.js
+#, ai
+msgid "That yard became the place of his mosque, and he carried bricks to help build it."
+msgstr "Dieser Platz wurde der Ort für seine Moschee, und er trug selbst Ziegelsteine, um beim Bau zu helfen."
+
+#: src/content/lenses.js
+#, ai
+msgid "One hot noon, the Prophet ﷺ came to Abu Bakr’s house with big news: it was time to go. Abu Bakr asked to come too, and he said yes."
+msgstr "An einem heißen Mittag kam der Prophet ﷺ mit einer großen Nachricht zu Abu Bakrs Haus: Es war Zeit aufzubrechen. Abu Bakr bat darum, ihn begleiten zu dürfen, und er sagte Ja."
+
+#: src/content/lenses.js
+#, ai
+msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
+msgstr "Abu Bakr nahm sein ganzes Geld für die Reise mit. Seine Tochter Asma legte stattdessen Steine hinein, um ihren Großvater zu beruhigen, der nicht sehen konnte."
+
+#: src/content/lenses.js
+#, ai
+msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
+msgstr "Madinah liegt im Norden, also gingen sie zuerst nach Süden, zum Berg Thawr, wo niemand suchen würde."
+
+#: src/content/lenses.js
+#, ai
+msgid "Asma used her belt to tie up their food bag. People called her “the one with two belts”."
+msgstr "Asma benutzte ihren Gürtel, um ihren Proviantsack zuzubinden. Die Menschen nannten sie „die mit den zwei Gürteln“."
+
+#: src/content/lenses.js
+#, ai
+msgid "One report says the searchers saw a spider’s web across the cave and walked away."
+msgstr "Einem Bericht zufolge sahen die Suchenden ein Spinnennetz vor der Höhle und gingen wieder weg."
+
+#: src/content/lenses.js
+#, ai
+msgid "Their guide knew the desert well. He led them along the coast, past many places whose names we still know."
+msgstr "Ihr Wegweiser kannte die Wüste gut. Er führte sie an der Küste entlang, vorbei an vielen Orten, deren Namen wir heute noch kennen."
+
+#: src/content/lenses.js
+#, ai
+msgid "On the way, a friend called al-Zubayr gave them new white clothes."
+msgstr "Unterwegs schenkte ihnen ein Freund namens al-Zubayr neue weiße Kleidung."
+
+#: src/content/lenses.js
+#, ai
+msgid "On his way into Madinah, the Prophet ﷺ led Friday prayer with about a hundred people."
+msgstr "Auf seinem Weg nach Madinah leitete der Prophet ﷺ das Freitagsgebet mit etwa hundert Menschen."
+
+#: src/content/lenses.js
+#, ai
+msgid "Everyone wanted the Prophet ﷺ to stay with them. He said: let the camel go, she has been told where to stop."
+msgstr "Jeder wollte, dass der Prophet ﷺ bei ihm wohnt. Er sagte: Lasst das Kamel gehen, ihm wurde gesagt, wo es anhalten soll."
+
+#: src/content/lenses.js
+#, ai
+msgid "He stayed in the house of Abu Ayyub until his mosque and his home were built."
+msgstr "Er blieb im Haus von Abu Ayyub, bis seine Moschee und sein Haus gebaut waren."
+
+#: src/content/lenses.js
+#, ai
+msgid "He made the people who arrived and the people of Madinah brothers, to help each other."
+msgstr "Er verbrüderte die Ankommenden und die Menschen aus Madinah, damit sie einander helfen."
+
+#: src/content/lenses.js
+#, ai
+msgid "Many people remember a happy song sung to welcome him, but we are not sure it was sung that day."
+msgstr "Viele Menschen erinnern sich an ein fröhliches Lied, das zu seinem Empfang gesungen wurde, aber wir sind uns nicht sicher, ob es an diesem Tag gesungen wurde."
+
+#: src/content/lenses.js
+#, ai
+msgid "The Hijrah is so central that the Islamic calendar counts its years from it."
+msgstr "Die Hidschra ist so zentral, dass der islamische Kalender seine Jahre danach zählt."
+
+#: src/content/lenses.js
+#, ai
+msgid "Trust and careful planning sit side by side: the Prophet ﷺ relied on Allah and still prepared every step."
+msgstr "Vertrauen und sorgfältige Planung gehen Hand in Hand: Der Prophet ﷺ vertraute auf Allah und bereitete dennoch jeden Schritt vor."
+
+#: src/content/lenses.js
+#, ai
+msgid "Even with people plotting against him, he made sure their property was returned. His honesty did not depend on how he was treated."
+msgstr "Selbst als Menschen gegen ihn ränkten, stellte er sicher, dass ihr Eigentum zurückgegeben wurde. Seine Ehrlichkeit hing nicht davon ab, wie er behandelt wurde."
+
+#: src/content/lenses.js
+#, ai
+msgid "In the most frightening moment, the lesson is calm trust: Allah is with us."
+msgstr "Im beängstigendsten Moment ist die Lehre ruhiges Vertrauen: Allah ist mit uns."
+
+#: src/content/lenses.js
+#, ai
+msgid "Choosing an unexpected route was wisdom, not doubt. Muslims are taught to trust Allah and still take sensible steps."
+msgstr "Einen unerwarteten Weg zu wählen, war Weisheit, kein Zweifel. Muslime lernen, auf Allah zu vertrauen und dennoch vernünftige Schritte zu unternehmen."
+
+#: src/content/lenses.js
+#, ai
+msgid "A man who set out to capture them left asking for their protection. The story is full of reversals like this."
+msgstr "Ein Mann, der ausgezogen war, um sie gefangen zu nehmen, bat sie schließlich um Schutz. Die Geschichte ist voller solcher Wendepunkte."
+
+#: src/content/lenses.js
+#, ai
+msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
+msgstr "Gastfreundschaft von Fremden und Segen im sehr Kleinen ziehen sich durch das gesamte Leben des Propheten."
+
+#: src/content/lenses.js
+#, ai
+msgid "The first thing built in the new home was a mosque, a centre for the whole community."
+msgstr "Das Erste, was in der neuen Heimat gebaut wurde, war eine Moschee, ein Zentrum für die gesamte Gemeinschaft."
+
+#: src/content/lenses.js
+#, ai
+msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
+msgstr "Madinah wurde die erste muslimische Gemeinschaft, aufgebaut auf der Brüderlichkeit zwischen den Neuankömmlingen und ihren Gastgebern."
+
+#: src/content/lenses.js
+#, ai
+msgid "Short for “peace and blessings of Allah be upon him”, said by Muslims after the Prophet’s name."
+msgstr "Abkürzung für „Friede und Segen Allahs seien auf ihm“, die von Muslimen nach dem Namen des Propheten gesprochen wird."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Hijrah"
+msgstr "Hidschra"
+
+#: src/content/lenses.js
+#, ai
+msgid "The migration of the Prophet ﷺ and his companions from Makkah to Madinah, in 622."
+msgstr "Die Auswanderung des Propheten ﷺ und seiner Gefährten von Makkah nach Madinah im Jahr 622."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Quraysh"
+msgstr "Quraisch"
+
+#: src/content/lenses.js
+#, ai
+msgid "The leading tribe of Makkah. The Prophet ﷺ himself belonged to it."
+msgstr "Der führende Stamm von Makkah. Der Prophet ﷺ selbst gehörte ihm an."
+
+#: src/content/lenses.js
+#, ai
+msgid "The city where the Prophet ﷺ was born, home of the Ka‘bah."
+msgstr "Die Stadt, in der der Prophet ﷺ geboren wurde, die Heimat der Kaaba."
+
+#: src/content/lenses.js
+#, ai
+msgid "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
+msgstr "Damals Yathrib genannt: die Stadt, die den Propheten ﷺ willkommen hieß. Ihr Name bedeutet „die Stadt“."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Abu Bakr"
+msgstr "Abu Bakr"
+
+#: src/content/lenses.js
+#, ai
+msgid "The Prophet’s closest friend and companion, who later led the Muslims after him."
+msgstr "Der engste Freund und Gefährte des Propheten, der später nach ihm die Muslime anführte."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Allah"
+msgstr "Allah"
+
+#: src/content/lenses.js
+#, ai
+msgid "The Arabic word for God."
+msgstr "Das arabische Wort für Gott."
+
+#: src/content/lenses.js
+#, ai
+msgid "The holy book of Islam, which Muslims believe is the word of Allah."
+msgstr "Das heilige Buch des Islam, von dem die Muslime glauben, dass es das Wort Allahs ist."
+
+#: src/content/lenses.js
+#, ai
+msgid "The collection of hadith that Muslims consider the most reliable."
+msgstr "Die Hadith-Sammlung, die Muslime als die verlässlichste ansehen."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Ibn Kathir"
+msgstr "Ibn Kathir"
+
+#: src/content/lenses.js
+#, ai
+msgid "A scholar of the fourteenth century whose history of the Prophet’s life is widely used."
+msgstr "Ein Gelehrter des vierzehnten Jahrhunderts, dessen Geschichte über das Leben des Propheten weit verbreitet ist."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Ibn Ishaq"
+msgstr "Ibn Ishaq"
+
+#: src/content/lenses.js
+#, ai
+msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
+msgstr "Ein Historiker des achten Jahrhunderts, dessen Biografie des Propheten ﷺ die älteste erhaltene ist."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Thawr"
+msgstr "Thawr"
+
+#: src/content/lenses.js
+#, ai
+msgid "A mountain south of Makkah, with a small cave near its top."
+msgstr "Ein Berg südlich von Mekka mit einer kleinen Höhle nahe dem Gipfel."
+
+#: src/content/lenses.js
+#, ai
+msgid "A village on the edge of Madinah, where the Prophet ﷺ stopped first."
+msgstr "Ein Dorf am Rande von Medina, in dem der Prophet ﷺ zuerst Halt machte."
+
+#: src/content/lenses.js
+#, ai
+msgid "A passage of the Quran, the holy book of Islam."
+msgstr "Eine Passage aus dem Koran, dem heiligen Buch des Islam."
+
+#: src/content/lenses.js
+#, ai
+msgid "A hadith: a report of the Prophet’s words or deeds, passed on through named narrators. The collections of al-Bukhari and Muslim are considered the most reliable."
+msgstr "Ein Hadith: Ein Bericht über die Worte oder Taten des Propheten, überliefert durch namentlich genannte Gewährsleute. Die Sammlungen von al-Buchari und Muslim gelten als die zuverlässigsten."
+
+#: src/content/lenses.js
+#, ai
+msgid "A report from the early histories of the Prophet’s life. They gather many accounts, some stronger than others."
+msgstr "Ein Bericht aus den frühen Chroniken über das Leben des Propheten. Sie tragen viele Berichte zusammen, von denen einige glaubwürdiger sind als andere."
+
+#: src/content/lenses.js
+#, ai
+msgid "A modern author’s explanation or calculation, built on the early sources."
+msgstr "Die Erklärung oder Berechnung eines modernen Autors, die auf den frühen Quellen aufbaut."

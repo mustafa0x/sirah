@@ -11,6 +11,7 @@ import re
 import sys
 from dataclasses import asdict, dataclass
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
 from typing import Any, Callable
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, urlencode, urlparse
@@ -25,6 +26,9 @@ MAX_RESULTS = 20
 MAX_EXCERPT = 6000
 DEFAULT_BASE = "https://api.turath.io"
 WORKING_BOOK_ALLOWLIST = {"930", "13606", "9820"}
+UI_LANGUAGES = {locale['code'] for locale in json.loads(
+    Path(__file__).with_name('locales.config.json').read_text()
+)['locales']}
 
 
 class BoundaryError(Exception):
@@ -272,7 +276,7 @@ def guide_response(payload: Any, provider: LocalGuideProvider | OpenAIGuideProvi
     if context.get('chapter_id', CHAPTER['id']) != CHAPTER['id']:
         raise BoundaryError('unknown chapter')
     language = context.get('language', 'en')
-    if not isinstance(language, str) or language not in {'en', 'ar'}:
+    if not isinstance(language, str) or language not in UI_LANGUAGES:
         raise BoundaryError('context language is invalid')
     recent_turns = context.get('recent_turns', [])
     if not isinstance(recent_turns, list) or len(recent_turns) > 6 or not all(

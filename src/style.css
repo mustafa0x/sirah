@@ -66,11 +66,11 @@
         margin: 0;
         padding: 0;
     }
-    :root:lang(ar) {
+    :root:dir(rtl) {
         --font-serif: var(--font-arabic);
         --font-sans: system-ui, sans-serif;
     }
-    :lang(ar) :is(h1, h2, h3, p) {
+    :is(:lang(ar), :lang(ur), :lang(fa), :lang(ps)) :is(h1, h2, h3, p) {
         letter-spacing: normal;
     }
     button,

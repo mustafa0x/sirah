@@ -1,0 +1,1878 @@
+msgid ""
+msgstr ""
+"Source-Language: en\n"
+"Language: ps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2\n"
+"X-Plurals-Order: one, other\n"
+
+#: src/App.svelte
+#, ai
+msgid "Page not found"
+msgstr "پاڼه ونهوندل شوه"
+
+#: src/App.svelte
+#, ai
+msgid "Return to the journey"
+msgstr "بېرته سفر ته وګرځئ"
+
+#: src/lib/guide-provider.js
+#: src/routes/Journey.svelte
+#, ai
+msgid "How long did they stay in the cave?"
+msgstr "دوی څومره وخت په غار کې پاتې شول؟"
+
+#: src/lib/guide-provider.js
+#: src/routes/Journey.svelte
+#, ai
+msgid "Who brought them news?"
+msgstr "دوی ته چا خبرونه راوړل؟"
+
+#: src/lib/guide-provider.js
+#: src/routes/Journey.svelte
+#, ai
+msgid "Is the exact route known?"
+msgstr "ایا کره لاره معلومه ده؟"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Return to the guided position before playback."
+msgstr "د غږولو دمخه لارښود شوي ځای ته بېرته وګرځئ."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Guided presentation is playing."
+msgstr "لارښود شوی پریزنټیشن چلیږي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Playback has not started. Continue with the text."
+msgstr "غږول نه دي پیل شوي. له متن سره دوام ورکړئ."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Guided presentation paused. Your position is saved."
+msgstr "لارښود شوی پریزنټیشن ودرول شو. ستاسو ځای خوندي شو."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "That chapter stop is not available."
+msgstr "د فصل هغه تمځی شتون نلري."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Onward stage opened. Your guided position is preserved."
+msgstr "د وړاندې تګ مرحله پرانیستل شوه. ستاسو لارښود شوی ځای خوندي دی."
+
+#. 0: get_step(step_id).title
+#: src/routes/Journey.svelte
+#, ai
+msgid "{0} opened."
+msgstr "{0} پرانیستل شو."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "You are back where you left the guided journey. Press Play to continue."
+msgstr "تاسو بېرته هغه ځای ته راغلي یاست چیرته چې تاسو لارښود شوی سفر پریښی و. د دوام لپاره 'Play' کېکاږئ."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The last stage is complete."
+msgstr "وروستۍ مرحله بشپړه شوه."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Stage complete. Continuing to the next stage."
+msgstr "مرحله بشپړه شوه. بلې مرحلې ته دوام ورکول کیږي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Answer ready. Its cited passages are listed with it."
+msgstr "ځواب چمتو دی. د هغې حواله شوي متنونه ورسره لیست شوي دي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Returned to the guided view."
+msgstr "بېرته لارښود شوي لید ته وګرځېدئ."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Panel closed."
+msgstr "پینل وتړل شو."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "A source-linked learner journey through selected stages of the Hijrah."
+msgstr "د هجرت د غوره شویو مرحلو له لارې د سرچینو سره تړلی د زده کونکي سفر."
+
+#. 0: chapter.title
+#: src/routes/Journey.svelte
+#, ai
+msgid "{0} · Sirah Journey"
+msgstr "{0} · د سیرت سفر"
+
+#. 0: source.number; 1: source.reference
+#. 0: source.number; 1: source.reference
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Source {0}: {1}"
+msgstr "سرچینه {0}: {1}"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Schematic relief of the route from Makkah to Madinah"
+msgstr "له مکې څخه مدینې ته د لارې طرحه شوې نقشه"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Sirah Journey home"
+msgstr "د سیرت سفر کورپاڼه"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "How this works"
+msgstr "دا څنګه کار کوي"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Sirah Journey"
+msgstr "<0/> د سیرت سفر"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place name to fly there."
+msgstr "د شاوخوا لیدو لپاره <0>راکاږئ</0>، د نږدې کولو لپاره <1>سکرول</1> کړئ، او هلته د تلو لپاره د ځای نوم وټاکئ."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
+msgstr "<0>سرچینې</0> د هرې فقرې تر شا متن ښیې، او هغه څه چې دا نه ثابتوي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
+msgstr "<0>Space</0> غږول یا ودرول · <1/> <2/> د مرحلې بدلول · <3>Esc</3> تړل"
+
+#. 0: chapter.steps.length
+#: src/routes/Journey.svelte
+#, ai
+msgid "{0} stages"
+msgstr "{0} مرحلې"
+
+#. 0: total_minutes
+#: src/routes/Journey.svelte
+#, ai
+msgid "about {0} minutes"
+msgstr "شاوخوا {0} دقیقې"
+
+#. 0: chapter.sources.length
+#: src/routes/Journey.svelte
+#, ai
+msgid "{0} cited passages"
+msgstr "{0} حواله شوي متنونه"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Begin the journey"
+msgstr "<0/> سفر پیل کړئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Read instead"
+msgstr "<0/> پر ځای یې ولولئ"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Chapter one"
+msgstr "لومړی څپرکی"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Hijrah"
+msgstr "هجرت"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Chapter stages"
+msgstr "د فصل پړاوونه"
+
+#. 0: index + 1; 1: step.title
+#: src/routes/Journey.svelte
+#, ai
+msgid "Stage {0}: {1}"
+msgstr "پړاو {0}: {1}"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Guided journey"
+msgstr "لارښود شوی سفر"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Return to where you were"
+msgstr "<0/> بېرته خپل پخواني ځای ته لاړ شئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Read this stage"
+msgstr "<0/> دا پړاو ولولئ"
+
+#. 0: selected_step.title
+#: src/routes/Journey.svelte
+#, ai
+msgid "Side trip · {0}"
+msgstr "اړخیز سفر · {0}"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Pause"
+msgstr "ځنډول"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Play"
+msgstr "چلول"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Position in this stage"
+msgstr "په دې پړاو کې موقعیت"
+
+#. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
+#: src/routes/Journey.svelte
+#, ai
+msgid "{0} of {1}"
+msgstr "{0} له {1} څخه"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Complete the chapter"
+msgstr "<0/> فصل بشپړ کړئ"
+
+#. 0: chapter.steps[selected_index + 1].title
+#: src/routes/Journey.svelte
+#, ai
+msgid "Continue: {0} <0/>"
+msgstr "دوام ورکړئ: {0} <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Read"
+msgstr "<0/> ولولئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Sources <1/>"
+msgstr "<0/> سرچینې <1/>"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Ask"
+msgstr "<0/> وپوښتئ"
+
+#. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
+#: src/routes/Journey.svelte
+#, ai
+msgid "Stage {0} of {1} · {2}"
+msgstr "پړاو {0} له {1} څخه · {2}"
+
+#. 0: selected_index + 1; 1: chapter.steps.length
+#: src/routes/Journey.svelte
+#, ai
+msgid "Reading · stage {0} of {1}"
+msgstr "لوستل · پړاو {0} له {1} څخه"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Close reading"
+msgstr "لوستل بند کړئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Chapter complete"
+msgstr "فصل بشپړ شو"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "What to carry forward"
+msgstr "له ځان سره څه وړل پکار دي"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/> Start again"
+msgstr "<0/> بیا پیل کړئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Side trip"
+msgstr "اړخیز سفر"
+
+#. 0: guided_step.title
+#: src/routes/Journey.svelte
+#, ai
+msgid "Your place in “{0}” is saved."
+msgstr "په «{0}» کې ستاسو ځای خوندي شو."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Previous stage"
+msgstr "مخکینی پړاو"
+
+#. 0: chapter.steps[selected_index + 1].title
+#: src/routes/Journey.svelte
+#, ai
+msgid "Next: {0}"
+msgstr "بل: {0}"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Ask the sources"
+msgstr "له سرچینو څخه وپوښتئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "What would you like to know?"
+msgstr "تاسو څه غواړئ پوه شئ؟"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Close question"
+msgstr "پوښتنه بنده کړئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Ask about this chapter…"
+msgstr "د دې فصل په اړه وپوښتئ…"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Ask"
+msgstr "وپوښتئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Your question"
+msgstr "ستاسو پوښتنه"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Suggested questions"
+msgstr "وړاندیز شوې پوښتنې"
+
+#. 0: active_source.number
+#: src/routes/Journey.svelte
+#, ai
+msgid "Source {0} · evidence"
+msgstr "سرچینه {0} · شواهد"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Close source"
+msgstr "سرچینه بنده کړئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Sources for this stage"
+msgstr "د دې پړاو سرچینې"
+
+#. 0: active_source.volume; 1: active_source.page
+#: src/routes/Journey.svelte
+#, ai
+msgid "· vol. {0}, p. {1}"
+msgstr "· {0} ټوک، {1} مخ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "What this passage supports"
+msgstr "دا متن د څه شي ملاتړ کوي"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "What it does not establish"
+msgstr "دا متن څه شی نه ثابتوي"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Back to the answer"
+msgstr "بېرته ځواب ته"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Back to the journey"
+msgstr "بېرته سفر ته"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Open the page on Turath <0/>"
+msgstr "په تراث کې پاڼه پرانیزئ <0/>"
+
+#: src/lib/SceneCanvas.svelte
+#, ai
+msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
+msgstr "په دې وسیله کې 3D انځور شتون نلري. بشپړ څپرکی لا هم دلته د لوستلو لپاره شتون لري."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The Hijrah: a journey in stages"
+msgstr "هجرت: په پړاوونو کې یو سفر"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "English working draft; no final narration or translation approved"
+msgstr "انګلیسي کاري مسوده؛ وروستی روایت یا ژباړه نه ده تایید شوې"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Connect preparations, the stay at Thawr, the onward journey, and arrival while distinguishing an illustration from its evidence."
+msgstr "چمتووالی، په ثور کې پاتې کېدل، د سفر دوام او رارسېدل سره ونښلوئ، پداسې حال کې چې یو انځور د هغه له ثبوت څخه جلا کوئ."
+
+#: src/content/first-chapter.js
+#: src/lib/guide-provider.js
+#, ai
+msgid "How did the journey continue after the cave?"
+msgstr "له غار وروسته سفر څنګه دوام وموند؟"
+
+#: src/content/first-chapter.js
+#: src/lib/guide-provider.js
+#, ai
+msgid "Show the onward journey"
+msgstr "د سفر دوام وښایاست"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Before the journey"
+msgstr "له سفر څخه مخکې"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "This chapter follows the Hijrah: the Prophet Muhammad’s ﷺ migration from Makkah to Madinah. We will follow a few connected stages, from preparations for departure to arrival in Madinah."
+msgstr "دا څپرکی هجرت تعقیبوي: له مکې څخه مدینې ته د پیغمبر محمد ﷺ هجرت. موږ به یو څو تړلي پړاوونه تعقیب کړو، له روانېدو لپاره له چمتووالي څخه نیولې په مدینه کې تر رارسېدو پورې."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Before the Prophet departed, some Muslims had already moved to Madinah. Abu Bakr was preparing to leave too, but waited to accompany him. This was part of a wider movement, not a departure in which everyone travelled together."
+msgstr "مخکې له دې چې پیغمبر ﷺ روان شي، ځینې مسلمانان لا دمخه مدینې ته تللي وو. ابو بکر هم د روانېدو چمتووالی نیوه، مګر د هغه د ملګرتیا لپاره یې انتظار وکړ. دا د یوې پراخې لېږدونې برخه وه، نه داسې یو وتل چې هرچا په کې یوځای سفر کړی وي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Preparing to leave"
+msgstr "روانېدو ته چمتووالی"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "When permission to depart had been given, preparations were made for the Prophet ﷺ and Abu Bakr. ‘Aishah’s account describes provisions packed in a bag. Asma, Abu Bakr’s daughter, used part of her waist-belt to tie its opening."
+msgstr "کله چې د وتلو اجازه ورکړل شوه، د پیغمبر ﷺ او ابو بکر لپاره چمتووالی ونیول شو. د عایشې رضی الله عنها روایت په یوه کڅوړه کې د توښې چمتو کول بیانوي. د ابو بکر لور، اسماء، د هغې د خولې د تړلو لپاره د خپل کمربند یوه برخه وکاروله."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "They also hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr after three nights. The arrangements for the onward journey were already being made."
+msgstr "دوی یو تکړه لارښود هم په اجوره ونیوه، دوه سپرلۍ یې ورته وسپارلې، او ژمنه یې وکړه چې له دریو شپو وروسته به ورسره په ثور کې وګوري. د سفر د دوام لپاره ترتیبات لا دمخه نیول شوي وو."
+
+#: src/content/first-chapter.js
+#: src/content/timeline.js
+#, ai
+msgid "Three nights at Thawr"
+msgstr "په ثور کې درې شپې"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "After the preparations, the Prophet ﷺ and Abu Bakr sheltered in a cave on Mount Thawr. ‘Aishah’s account in Sahih al-Bukhari records that they stayed there for three nights. This was a stage within the journey, not its destination."
+msgstr "له چمتووالي وروسته، پیغمبر ﷺ او ابو بکر د ثور غره په یو غار کې پناه واخیسته. په صحیح البخاري کې د عایشې رضی الله عنها روایت کاږي چې دوی هلته درې شپې پاتې شول. دا په سفر کې یو پړاو و، نه د سفر وروستی هدف."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "During the stay, ‘Abdullah ibn Abi Bakr brought news of plans against them. He came after darkness and left before daybreak, returning to Makkah. His contribution was information."
+msgstr "په غار کې د پاتې کېدو پر مهال، عبدالله بن ابي بکر د هغوی پر ضد د پلانونو خبرونه راوړل. هغه به له تیاره وروسته راتله او له سپېدې چاودلو مخکې به بېرته مکې ته ستنېده. د هغه ونډه د معلوماتو رسول وو."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Abu Bakr’s own account brings us closer to the danger of discovery. He was concerned that they might be seen if someone looked down. The Prophet reassured him."
+msgstr "د ابو بکر خپل روایت موږ د موندل کېدو خطر ته نږدې کوي. هغه اندېښمن و چې که څوک لاندې وګوري نو هغوی به وویني. پیغمبر ﷺ هغه ته ډاډ ورکړ."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The Quran also recalls the two in the cave and the reassurance given to the companion. Ibn Kathir’s commentary on the passage explains the reassurance through Allah’s help and support."
+msgstr "قرآن کریم هم په غار کې د هغو دواړو او ملګري ته د ورکړل شوي ډاډ یادونه کوي. په دې متن باندې د ابن کثیر تفسیر دا ډاډ د الله جل جلاله د مرستې او ملاتړ له لارې بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The journey continues"
+msgstr "سفر دوام لري"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The arranged meeting with the guide connects the stay at Thawr to the next stage. When the Prophet ﷺ and Abu Bakr continued, ‘Amir ibn Fuhayrah and the guide went with them. The account says that the guide led them by the coastal way."
+msgstr "له لارښود سره ټاکل شوې لیدنه په ثور کې پاتې کېدل له بل پړاو سره نښلوي. کله چې پیغمبر ﷺ او ابو بکر خپل سفر ته دوام ورکړ، عامر بن فهیره او لارښود هم ورسره لاړل. روایت وايي چې لارښود هغوی د ساحل په لاره بو بوتلل."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "That description gives us part of the route’s character, but not every turn or stopping place. The connection shown here is schematic; it is not a measured itinerary."
+msgstr "دا تفصیل موږ ته د لارې د بڼې یوه برخه راښيي، مګر هر تاو رتاو یا د تمځای ځای نه په ګوته کوي. دلته ښودل شوی تړاو یوازې یو اټکلي انځور دی؛ دا کومه کره اندازه شوې نقشه نه ده."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Arrival and a new beginning"
+msgstr "رارسېدل او یو نوی پیل"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "In Madinah, Muslims went out to wait after hearing that the Prophet ﷺ had left Makkah. The arrival account describes their reception of him and his stay among Bani ‘Amr ibn ‘Awf."
+msgstr "په مدینه کې، مسلمانان وروسته له هغه انتظار ته راووتل چې واورېدل شول پیغمبر ﷺ له مکې څخه وتلی دی. د رارسېدو روایت د هغوی لخوا د هغه استقبال او د بني عمرو بن عوف په منځ کې د هغه پاتې کېدل بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The account goes on to describe a date-drying yard that became the site of the Prophet’s mosque in Madinah. It records the Prophet carrying bricks with those building it."
+msgstr "روایت وړاندې ځي او د خرما د وچولو یو ځای بیانوي چې په مدینه کې د نبوي جومات ځای شو. دا روایت کوي چې پیغمبر ﷺ د جومات د جوړوونکو سره د خښتو په وړلو کې مرسته کوله."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah."
+msgstr "تاسو چمتووالی، د پناه اخیستلو موده، د سفر دوام، او رارسېدل تعقیب کړل. تاسو د مرستې له بېلابېلو بڼو سره بلد شوئ او د ډاډ ورکولو روایتونه مو ولوستل. دا یو غوره شوی روایت دی، نه د هجرت د هرې پېښې یا پایلې بشپړ تاریخ."
+
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/lenses.js
+#, ai
+msgid "Sahih al-Bukhari"
+msgstr "صحیح البخاري"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Some Muslims moved to Madinah before this departure; the selected passage also describes Abu Bakr waiting to accompany the Prophet ﷺ."
+msgstr "ځینې مسلمانان له دې وتلو دمخه مدینې ته تللي وو؛ غوره شوی متن دا هم بیانوي چې ابو بکر د پیغمبر ﷺ د ملګرتیا لپاره انتظار کاوه."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected passage describes provisions and Asma bint Abi Bakr using part of her waist-belt to tie the bag."
+msgstr "غوره شوی متن توښه او د اسماء بنت ابي بکر لخوا د کڅوړې د تړلو لپاره د خپل کمربند د یوې برخې کارول بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected passage supports the cave on Mount Thawr and three nights."
+msgstr "غوره شوی متن د ثور په غره کې د غار او د دریو شپو پاتې کېدو ملاتړ کوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "It does not establish coordinates, dimensions, or the exact arrangement of a visual model."
+msgstr "دا جغرافیایي همغږي، ابعاد، یا د یو بصري ماډل دقیق ترتیب نه ثابتوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected passage describes ‘Abdullah ibn Abi Bakr bringing news of plans against the two companions after darkness."
+msgstr "غوره شوې برخه د شپې له تیاره کېدو وروسته د دواړو ملګرو پر خلاف د پلانونو د خبرونو راوړلو کې د عبدالله بن ابي بکر رول بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "It does not establish modern clock times or a mapped trail."
+msgstr "دا د ساعتونو په حساب عصري وختونه یا په نقشه کې کښل شوې لاره نه مشخص کوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected passage connects ‘Amir ibn Fuhayrah with tending sheep and making milk available during the three nights."
+msgstr "غوره شوې برخه عامر بن فهیره د پسونو له څرولو او په دغو دریو شپو کې د شیدو له چمتو کولو سره تړي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected passage describes hiring a skilled guide, entrusting him with two riding animals, and arranging the meeting at Thawr."
+msgstr "غوره شوې برخه د یو تکړه لارښود په اجاره نیولو، هغه ته د دوو سپرلۍ د څارویو سپارلو، او په ثور غره کې د لیدنې د تنظیمولو په اړه ده."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected passage does not supply the guide’s personal name or a precise route."
+msgstr "غوره شوې برخه د لارښود شخصي نوم یا دقیقه لاره نه ښيي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected passage says that ‘Amir and the guide went with them and that the guide led them by the coastal way."
+msgstr "غوره شوې برخه وايي چې عامر او لارښود له دوی سره لاړل او لارښود دوی د ساحلي لارې څخه بوتلل."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "It does not establish every turn, distance, stopping place, or exact GPS route."
+msgstr "دا هر یو تاوېدونکی ځای، فاصله، د تم کېدو ځای، یا دقیق GPS مسار نه مشخص کوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Abu Bakr’s account records concern about being seen and the Prophet’s reassurance."
+msgstr "د ابو بکر په روایت کې د لیدل کېدو په اړه اندېښنه او د پیغمبر ﷺ ډاډګیرنه ثبت شوې ده."
+
+#: src/content/first-chapter.js
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Quran"
+msgstr "قرآن کریم"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected extract recalls the two in the cave and the reassurance to the companion."
+msgstr "غوره شوی اقتباس په غار کې د دواړو ملګرو شتون او ملګري ته د ډاډ ورکولو یادونه کوي."
+
+#: src/content/details.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/first-chapter.js
+#: src/content/timeline.js
+#, ai
+msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
+msgstr "ابن کثیر، البدایة والنهایة"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Kathir’s commentary on the Turath page explains the reassurance through Allah’s help, support, and strengthening."
+msgstr "په Turath پاڼه کې د ابن کثیر تفسیر د الله تعالی د مرستې، تایید او پیاوړتیا له لارې د ډاډګیرنې تشریح کوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf."
+msgstr "د رارسېدو غوره شوی روایت د خلکو انتظار او د بني عمرو بن عوف په منځ کې پاتې کېدل بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The selected passage describes the mosque site and the Prophet ﷺ carrying bricks with the builders."
+msgstr "غوره شوې برخه د جومات ځای او د پیغمبر ﷺ له بنایانو سره د خښتو لېږدول بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "It does not establish the exact appearance of buildings in the scene."
+msgstr "دا په صحنه کې د ودانیو دقیق شکل نه مشخص کوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Al-Sa‘di"
+msgstr "السعدي"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Attribution recorded in the cited work"
+msgstr "انتساب په حواله شوي اثر کې ثبت شوی دی"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Turath book_id/page_id retrieved from category 24; publication approval pending"
+msgstr "د Turath کتاب_آی‌ډي/پاڼې_آی‌ډي له ۲۴ کټګورۍ څخه ترلاسه شوي؛ د خپرولو تایید پاتې دی"
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "The selected evidence does not establish an exact route. It describes a coastal way, while this overview is schematic rather than a measured itinerary."
+msgstr "غوره شوي شواهد دقیقه لاره نه مشخص کوي. دا یوه ساحلي لاره بیانوي، په داسې حال کې چې دا عمومي لید یوازې یو اټکلي انځور دی، نه د نقشې په تول پېژندل شوې لاره."
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "They hired a skilled guide, entrusted him with two riding animals, and arranged to meet him at Thawr. The account says he led them by the coastal way."
+msgstr "دوی یو تکړه لارښود په اجاره ونیو، هغه ته یې دوه د سپرلۍ څاروي وسپارل، او په ثور غره کې یې ورسره د لیدنې ژمنه وکړه. روایت وايي چې هغه دوی د ساحلي لارې څخه بوتلل."
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "The selected account says that they remained in the cave for three nights."
+msgstr "غوره شوی روایت وايي چې دوی په غار کې درې شپې پاتې شول."
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "The preparations account describes provisions packed in a bag and Asma bint Abi Bakr using part of her waist-belt to tie its opening."
+msgstr "د چمتووالي روایت په کڅوړه کې د توښې اچول او د اسماء بنت ابي بکر لخوا د هغې د خولې د تړلو لپاره د خپل کمربند د یوې برخې کارول بیانوي."
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "The arrival account describes Muslims waiting, the stay among Bani ‘Amr ibn ‘Awf, and later building work at the mosque site."
+msgstr "د رارسېدو روایت د مسلمانانو انتظار، د بني عمرو بن عوف په منځ کې پاتې کېدل، او وروسته د جومات په ځای کې د جوړولو کار بیانوي."
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "The selected evidence does not establish an answer to that question. The available source records are shown below."
+msgstr "غوره شوي شواهد د دې پوښتنې ځواب نه مشخص کوي. شته سرچینې لاندې ښودل شوي دي."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#: src/lib/scene-manifest.js
+#, ai
+msgid "Makkah"
+msgstr "مکه"
+
+#: src/lib/scene-manifest.js
+#, ai
+msgid "Where the chapter begins, with preparations for departure."
+msgstr "چېرته چې څپرکی پیلیږي، د وتلو لپاره له چمتووالي سره."
+
+#: src/lib/scene-manifest.js
+#, ai
+msgid "Mount Thawr"
+msgstr "د ثور غر"
+
+#: src/lib/scene-manifest.js
+#, ai
+msgid "The account places a three-night stay in a cave here."
+msgstr "روایت دلته په یو غار کې د دریو شپو پاتې کېدل ښيي."
+
+#: src/lib/scene-manifest.js
+#, ai
+msgid "The coastal way"
+msgstr "ساحلي لاره"
+
+#: src/lib/scene-manifest.js
+#, ai
+msgid "The guide led them by the coast. This line is schematic, not a measured route."
+msgstr "لارښود دوی د ساحل له لارې بوتلل. دا کرښه اټکلي ده، نه یوه دقیقه اندازه شوې لاره."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#: src/lib/scene-manifest.js
+#, ai
+msgid "Madinah"
+msgstr "مدینه"
+
+#: src/lib/scene-manifest.js
+#, ai
+msgid "Where the chapter closes, with arrival and a new beginning."
+msgstr "چېرته چې څپرکی پای ته رسیږي، په رارسېدو او نوي پیل سره."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Interface language"
+msgstr "د کاروونکي د مخ ژبه"
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "‘Amir ibn Fuhayrah and the guide went with them when they continued, and the guide led them by the coastal way. The guide’s personal name and the precise route are not established here."
+msgstr "کله چې دوی خپل سفر ته دوام ورکړ، عامر بن فهیره او لارښود له دوی سره لاړل، او لارښود دوی د ساحلي لارې څخه بوتلل. دلته د لارښود شخصي نوم او دقیقه لاره نه ده مشخص شوې."
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "‘Abdullah ibn Abi Bakr brought news of plans against them after darkness and returned to Makkah before daybreak."
+msgstr "عبدالله بن ابي بکر به د شپې له تیاره کېدو وروسته د دوی پر خلاف د پلانونو خبرونه راوړل او له سپېدې چاودېدو مخکې به بېرته مکې ته ستنېده."
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "‘Amir ibn Fuhayrah tended the flock and brought milk near the cave during the three nights."
+msgstr "عامر بن فهیره د رمو څرولو او د هغو دریو شپو په جریان کې غار ته نږدې د شیدو راوړلو چاره ترسره کوله."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "post-hackathon publication review"
+msgstr "د هاکاتون څخه وروسته د خپرونې بیاکتنه"
+
+#. 0: citation.book_id; 1: citation.page_id; 2: citation.volume; 3: citation.page
+#: src/content/first-chapter.js
+#, ai
+msgid "Turath · book {0} · page {1} · vol. {2}, p. {3}"
+msgstr "تراث · کتاب {0} · پاڼه {1} · ټوک {2}، مخ {3}"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "draft — Turath page retrieved; scholarly and publication review pending"
+msgstr "مسوده — د تراث پاڼه ترلاسه شوه؛ علمي او د خپرونې بیاکتنه پاتې ده"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "draft — scholarly and publication review pending"
+msgstr "مسوده — علمي او د خپرونې بیاکتنه پاتې ده"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Amir ibn Fuhayrah provided another kind of help. He tended sheep and brought them near after nightfall, making milk available. The account describes this on each of the three nights."
+msgstr "عامر بن فهیره د مرستې یو بل ډول هم وړاندې کړ. هغه به پسونه څرول او د شپې له تیاره کېدو وروسته به یې هغوی نږدې راوستل، ترڅو شیدې چمتو کړي. په روایت کې راغلي چې هغه په هره یوه له دریو شپو کې دغه کار کاوه."
+
+#: src/lib/journey-state.js
+#: src/lib/journey-state.js
+#, ai
+msgid "Reading mode selected."
+msgstr "د لوستلو حالت غوره شو."
+
+#: src/lib/journey-state.js
+#, ai
+msgid "Guided presentation started."
+msgstr "لارښود شوی پریزنټیشن پیل شو."
+
+#: src/lib/journey-state.js
+#, ai
+msgid "Guided position restored. Press Play to continue."
+msgstr "لارښود شوی موقعیت بیرته راغی. د دوام لپاره پلی (Play) کېکاږئ."
+
+#: src/lib/journey-state.js
+#, ai
+msgid "Reading mode selected. The same chapter is available without narration."
+msgstr "د لوستلو حالت غوره شو. همدا څپرکی پرته له غږیز روایت څخه هم شتون لري."
+
+#: src/lib/journey-state.js
+#, ai
+msgid "Scene mode selected."
+msgstr "د صحنې حالت غوره شو."
+
+#: src/lib/journey-state.js
+#, ai
+msgid "Source opened. Guided playback remains paused."
+msgstr "سرچینه پرانیستل شوه. لارښود شوی غږ غږول لاهم ځنډول شوی دی."
+
+#: src/lib/journey-state.js
+#, ai
+msgid "Panel closed. Press Resume journey to return to the guided position."
+msgstr "پینل بند شو. لارښود شوي موقعیت ته د بیرته تګ لپاره د سفر دوام (Resume journey) کېکاږئ."
+
+#: src/lib/journey-state.js
+#, ai
+msgid "Chapter complete. Recap opened."
+msgstr "څپرکی بشپړ شو. خلاصه پرانیستل شوه."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Researching in Turath…"
+msgstr "په تراث کې د څیړنې په حال کې..."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Chapter notes · offline"
+msgstr "د څپرکي یادښتونه · آفلاین"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Ask follows this chapter’s context and can research further in Turath. Answers cite opened passages and explain gaps in the evidence."
+msgstr "پوښتنې د دې څپرکي د متن پر بنسټ ځوابیږي او کولی شي په تراث کې نورې څیړنې هم وکړي. ځوابونه پرانیستل شویو متنونو ته اشاره کوي او په شواهدو کې شته تشې روښانه کوي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "This passage is shortened. Open the original page for its full context."
+msgstr "دا متن لنډ شوی دی. د بشپړ متن لیدلو لپاره اصلي پاڼه پرانیزئ."
+
+#: src/lib/guide-provider.js
+#, ai
+msgid "The offline chapter notes do not establish an answer to that question."
+msgstr "د څپرکي آفلاین یادښتونه د دې پوښتنې لپاره کوم ځواب نه ثابتوي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "OpenAI and Turath process questions and research text. This app does not save chats."
+msgstr "OpenAI او Turath پوښتنې او څیړنیز متنونه پروسس کوي. دا اپلیکیشن خبرې اترې (chats) نه خوندي کوي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "From the sources"
+msgstr "له سرچینو څخه"
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#: src/lib/scene-manifest.js
+#, ai
+msgid "Quba"
+msgstr "قباء"
+
+#: src/lib/scene-manifest.js
+#, ai
+msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
+msgstr "مدینې ته د رسیدو لومړی تمځای، د بني عمرو بن عوف په منځ کې."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Turn sound off"
+msgstr "غږ بند کړئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Turn sound on"
+msgstr "غږ چالان کړئ"
+
+#. 0: night
+#: src/routes/Journey.svelte
+#, ai
+msgid "Night {0} of 3"
+msgstr "له ۳ څخه {0} شپه"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Follow the migration from Makkah to Madinah stage by stage, with every paragraph linked to the passage it rests on."
+msgstr "له مکې څخه مدینې ته هجرت ګام په ګام تعقیب کړئ، چې هر بند یې له هغې سرچینې سره تړلی دی چې پرې تکیه لري."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "A rider on the road"
+msgstr "په لاره یو سپور"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Quraysh had offered a reward for each of the two travellers. Suraqah ibn Malik recounts that a man came to his gathering and said he had just seen figures near the coast. Suraqah recognised who they must be, and set out after them."
+msgstr "قریشو د دواړو مسافرینو څخه د هر یو لپاره انعام ټاکلی و. سراقہ بن مالک روایت کوي چې یو سړی د دوی مجلس ته راغی او ویې ویل چې هغه همدا اوس ساحل ته نږدې ځینې کسان لیدلي دي. سراقہ وپیژندل چې هغوی به څوک وي، او په هغوی پسې روان شو."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "By his own account, he came close enough to hear the Prophet ﷺ reciting. Then the forelegs of his horse sank into the ground up to the knees, and he was thrown from it."
+msgstr "د هغه د خپل روایت له مخې، هغه دومره نږدې شو چې د پیغمبر ﷺ د تلاوت غږ یې اورېده. بیا یې د آس مخکینۍ پښې تر زنګنونو پورې په ځمکه کې ډوبې شوې، او هغه ترې راوغورځېد."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "He told them what Quraysh intended and offered them provisions. They took nothing from him and asked only that he keep their news hidden. At his request, ‘Amir ibn Fuhayrah wrote him a guarantee of safety on a piece of leather. Then they went on."
+msgstr "هغه هغوی ته د قریشو د نیت په اړه خبر ورکړ او د توښې وړاندیز یې ورته وکړ. هغوی له ده څخه هیڅ شی وانخیستل او یوازې یې ترې وغوښتل چې د دوی خبر پټ وساتي. د هغه په غوښتنه، عامر بن فهیره ورته د څرمنې په یوه ټوټه باندې د امان لیک ولیکه. بیا هغوی خپل سفر ته دوام ورکړ."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Quba: the first stop"
+msgstr "قباء: لومړی تمځای"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
+msgstr "هغه د لسو شپو څخه زیات د هغوی په منځ کې پاتې شو. هلته یې هغه جومات جوړ کړ چې روایت یې د تقوا پر بنسټ جوړ شوی جومات بولي، او په هغه کې یې لمونځ وکړ."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates."
+msgstr "بیا هغه سپور شو او روان شو، او خلک ورسره پیاده روان وو، ترڅو چې د هغه اوښه په مدینه کې په داسې ځای کې کښیناسته چیرته چې ځینو مسلمانانو لا دمخه لمونځ کاوه. دا د خرما د وچولو ځای و."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Suraqah’s account records the reward offered for each of the two, and a report that figures had been seen near the coast."
+msgstr "د سراقہ په روایت کې د دواړو څخه د هر یو لپاره د ټاکل شوي انعام یادونه شوې، او داسې راپور شته چې ساحل ته نږدې ځینې کسان لیدل شوي وو."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "It does not establish where on the route this happened, and the scene does not place it."
+msgstr "دا دا لارې په کوم ځای کې پېښ شوي، دا نه په ګوته کوي، او نه هم دا صحنه هغه ځای ښيي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Suraqah describes the forelegs of his horse sinking into the ground to the knees, and being thrown."
+msgstr "سراقه بیانوي چې د هغه د آس مخکني پښې تر زنګنونو پورې په ځمکه کې ډوبې شوې او دی ترې راوغورځېد."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "This is his own first-person account. The scene shows the road, not the event or any person."
+msgstr "دا د هغه خپل لومړی کس بیان دی. صحنه لاره ښيي، نه پېښه یا کوم بل کس."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "They asked only that he keep their news hidden; ‘Amir ibn Fuhayrah wrote him a guarantee of safety."
+msgstr "دوی یوازې دا غوښتنه ترې وکړه چې د دوی خبر پټ وساتي؛ عامر بن فهیره ورته د امان یو سند ولیکه."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The wording of the written guarantee is not given in this passage."
+msgstr "په دې متن کې د لیکل شوي امان د سند الفاظ نه دي راغلي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The account gives a stay of more than ten nights among Bani ‘Amr ibn ‘Awf and the founding of a mosque there."
+msgstr "دا روایت په بني عمرو بن عوف کې د لسو څخه د زیاتو شپو پاتې کېدل او هلته د یو جومات جوړول بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "He rode on with people walking beside him until his camel knelt at the site of the mosque in Madinah."
+msgstr "هغه په داسې حال کې سپور روان شو چې خلک ورسره پلي روان وو، ترڅو چې د هغه اوښه په مدینه کې د جومات په ځای کې کښېناسته."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "It does not establish the route taken through the town or the appearance of the place."
+msgstr "دا په ښار کې دننه تللې لاره یا د هغه ځای بڼه نه په ګوته کوي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
+msgstr "<0>چلول</0> د AI لخوا رامینځته شوي غږ سره د څپرکي پړاوونه ګام په ګام ښيي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
+msgstr "<0>چلول</0> د څپرکي پړاوونه ګام په ګام ښيي. ژباړې د ارام باد په غږ کې وخت ساتي."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
+msgstr "<0>پوښتنه وکړئ</0> د څپرکي له متن څخه په ګټې اخیستنې په تراث (Turath) کې څېړنه کوي او د سرچینو په حواله ځواب ورکوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "This excerpt does not give an exact departure date."
+msgstr "دا اقتباس د وتلو کره نېټه نه ښيي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The excerpt describes preparations, not a nightly delivery to the cave."
+msgstr "دا اقتباس چمتووالی بیانوي، نه غار ته د شپې لخوا د توکو رسول."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The excerpt does not describe erasing footprints."
+msgstr "دا اقتباس د پښو د نښو پاکول نه بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The account does not describe the cave’s dimensions or layout."
+msgstr "دا روایت د غار اندازه یا جوړښت نه بیانوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "This excerpt is not the full verse and does not itself name Abu Bakr or Mount Thawr."
+msgstr "دا اقتباس بشپړ ایت نه دی او په خپله د ابو بکر یا د ثور غره نوم نه اخلي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "This is Ibn Kathir’s commentary, not the Quranic wording itself."
+msgstr "دا د ابن کثیر تفسیر دی، نه پخپله د قران کریم الفاظ."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "It does not give an exact location for the stay among Bani ‘Amr ibn ‘Awf."
+msgstr "دا په بني عمرو بن عوف کې د پاتې کېدو کره ځای نه ښيي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The passage does not name the place; identifying it as Quba rests on other reports."
+msgstr "دا متن د ځای نوم نه اخلي؛ د دې ځای د قبا په توګه پېژندل په نورو روایتونو تکیه لري."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Along the way"
+msgstr "په لاره کې"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Close detail"
+msgstr "تفصیل بند کړئ"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The night of departure"
+msgstr "د وتلو شپه"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The leaders of Quraysh met in Dar al-Nadwah, the house where they settled their affairs, to decide what to do about the Prophet ﷺ now that they feared him."
+msgstr "د قریشو مشرانو په دار الندوه کې غونډه وکړه، هغه ځای چې دوی پکې خپلې چارې حل کولې، ترڅو پرېکړه وکړي چې د پیغمبر ﷺ په اړه څه وکړي ځکه چې دوی ترې وېرېدل."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
+msgstr "په هغه شپه دوی د هغه د دروازې مخې ته راټول شول او د هغه د ویده کېدو په تمه وو. هغه علي ته وویل چې د هغه په بستر کې ویده شي، د هغه په شنه چپن کې ځان ونغاړي، او ډاډ یې ورکړ چې د دوی لخوا به ورته هیڅ زیان ونه رسیږي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The tent of Umm Ma‘bad"
+msgstr "د ام معبد خیمه"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk."
+msgstr "مخکې لاړل او د خزاعه د ام معبد په خیمه کې د مېلمه پالنې لپاره ودرېدل. هغې وویل چې د وړاندې کولو لپاره هیڅ خواړه نلري، او نه هم داسې مېږه لري چې شیدې ورکړي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
+msgstr "پیغمبر ﷺ مېږه راوغوښته، خپل لاس یې د هغې په تیونو تېر کړ او د الله نوم یې یاد کړ. هغه تر هغې په یو لوی لوښي کې ودوښله چې فګ ورباندې راغی، او ویې ویل: وڅښه، ام معبد. ابن کثیر لیکي چې د هغې کیسه مشهوره ده او د داسې لارو څخه راغلې چې یو بل پیاوړی کوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Ishaq reports that Quraysh met in Dar al-Nadwah to consult about the Prophet ﷺ once they feared him."
+msgstr "ابن اسحاق روایت کوي چې قریش په دار الندوه کې راټول شول ترڅو د پیغمبر ﷺ په اړه مشوره وکړي کله چې دوی ترې وېرېدل."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "The excerpt covers the meeting, not what was said in it."
+msgstr "دا اقتباس غونډه پوښي، نه هغه څه چې په کې ویل شوي وو."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "They gathered at his door at night; he told ‘Ali to sleep in his bed under his green cloak and assured him of safety."
+msgstr "دوی د شپې د هغه په دروازه کې راټول شول؛ هغه علي ته وویل چې د هغه په شنه چپن کې د هغه په بستر کې ویده شي او د خوندیتوب ډاډ یې ورکړ."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Kathir notes that al-Waqidi also relates this, combining several narrators’ accounts."
+msgstr "ابن کثیر یادونه کوي چې الواقدي هم دا روایت کړی، چې د څو راویانو روایتونه سره یوځای کوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Ishaq introduces this with “as it has reached me”."
+msgstr "ابن اسحاق د دې پیل په \"لکه څنګه چې ما ته رارسېدلي\" سره کوي."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance."
+msgstr "دوی د ام معبد په خیمه کې ودرېدل؛ هغې یوازې یوه بې شیدو مېږه لرله، چې بیا یې په پراخه کچه شیدې ورکړې."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
+msgstr "ابن کثیر دا کیسه مشهوره بولي، چې د داسې لارو څخه راغلې چې د یو بل ملاتړ کوي. دا نه په ګوته کوي چې خیمه چیرته ولاړه وه."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "علي د یو بل علت له امله هم پاتې شو. په مکه کې خلکو خپل قیمتي شیان د امانت په توګه د پیغمبر ﷺ سره ایښودل، ځکه چې دوی د هغه په ریښتنولۍ پوهېدل. علي باید د هغوی هر یو بیرته خاوند ته سپارلی وای."
+
+#: src/content/details.js
+#: src/content/timeline.js
+#, ai
+msgid "Al-Rahiq al-Makhtum"
+msgstr "الرحیق المختوم"
+
+#: src/content/details.js
+#, ai
+msgid "The noon visit"
+msgstr "د غرمې لیدنه"
+
+#: src/content/details.js
+#, ai
+msgid "At the height of noon, an hour at which he never used to come, the Prophet ﷺ arrived at Abu Bakr’s house with his face covered. He said he had been given permission to leave. Abu Bakr asked to go with him, and he said yes."
+msgstr "د غرمې په ګرمۍ کې، په داسې یو وخت کې چې هغه ﷺ به هېڅکله نه راتلو، پیغمبر ﷺ د ابوبکر رضي الله عنه کور ته په داسې حال کې راغی چې مخ یې پټ کړی و. هغه وویل چې ورته د وتلو اجازه ورکړل شوې ده. ابوبکر رضي الله عنه ورسره د ملګرتیا غوښتنه وکړه، او هغه ﷺ ورته وویل هو."
+
+#: src/content/details.js
+#, ai
+msgid "This is ‘Aishah’s account as quoted in a modern sirah. The position of the house is illustrative."
+msgstr "دا د عایشې رضي الله عنها روایت دی چې په یو نوي سیرت کتاب کې نقل شوی دی. د کور موقعیت تقریبي دی."
+
+#: src/content/details.js
+#, ai
+msgid "Stones in the niche"
+msgstr "په طاقچه کې ډبرې"
+
+#: src/content/details.js
+#, ai
+msgid "Abu Bakr took all his money with him, five or six thousand dirhams. Asma recounts that her blind grandfather feared the family had been left with nothing. She put stones where the money used to be kept, covered them with a cloth, and guided his hand to them so that he would be at ease."
+msgstr "ابوبکر رضي الله عنه خپل ټول مال چې پنځه یا شپږ زره درهمه و، له ځان سره یووړ. اسماء رضي الله عنها روایت کوي چې د هغې نابینا نیکه وېرېده چې کورنۍ ته به هېڅ نه وي پاتې شوي. هغې په هغه ځای کې ډبرې کېښودې چې پیسې به پکې ساتل کېدې، په یوې ټوټې یې پټې کړې، او د هغه لاس یې ور باندې کېښود ترڅو زړه یې ډاډه شي."
+
+#: src/content/details.js
+#, ai
+msgid "Reported by Ibn Ishaq from Asma through her grandson. The position of the house is illustrative."
+msgstr "دا د ابن اسحاق لخوا له اسماء رضي الله عنها څخه د هغې د لمسي په واسطه روایت شوی دی. د کور موقعیت تقریبي دی."
+
+#: src/content/details.js
+#, ai
+msgid "Why south?"
+msgstr "ولې سویل ته؟"
+
+#: src/content/details.js
+#, ai
+msgid "Madinah lies to the north, and that is where a search would begin. They left in the opposite direction, on the road towards Yemen, for about five miles to Mount Thawr."
+msgstr "مدینه په شمال کې ده، او لټون به هم له هغه ځایه پیل کېده. نو هغوی په مخالف لوري کې، د یمن په لاره، شاوخوا پنځه میله د ثور غره په لور روان شول."
+
+#: src/content/details.js
+#, ai
+msgid "This is a modern author’s reading of the route, not wording from an early report."
+msgstr "دا د لارې په اړه د یو نوي لیکوال پوهه ده، نه د کوم لومړني روایت الفاظ."
+
+#: src/content/details.js
+#, ai
+msgid "She of the two belts"
+msgstr "ذات النطاقين (د دوو کمربندونو لرونکې)"
+
+#: src/content/details.js
+#, ai
+msgid "When the three nights had passed, Asma brought their provisions but had forgotten a strap to hang the bag. She undid her waist-belt and used it. For that she was called Dhat al-Nitaqayn, she of the two belts."
+msgstr "کله چې درې شپې تېرې شوې، اسماء رضي الله عنها د هغوی توښه راوړه مګر د کڅوړې د تړلو لپاره یې پړی هېر کړی و. هغې خپل کمربند خلاص کړ او هغه یې وکاراوه. له همدې امله هغې ته ذات النطاقین (د دوو کمربندونو لرونکې) وویل شول."
+
+#: src/content/details.js
+#, ai
+msgid "Ibn Ishaq’s report. ‘Aishah’s account in al-Bukhari places the belt at the packing of the provisions instead."
+msgstr "د ابن اسحاق روایت. په البخاري کې د عایشې رضي الله عنها روایت بیا د کمربند کارول د توښې د تړلو پر مهال ښيي."
+
+#: src/content/details.js
+#, ai
+msgid "The spider’s web"
+msgstr "د غڼې جال"
+
+#: src/content/details.js
+#, ai
+msgid "One report says the pursuers climbed the mountain, passed the cave, and saw a spider’s web across its opening. No one could have gone in, they reasoned, and they moved on. Ibn Kathir calls its chain good, the best of what is reported on this. The scene does not draw the web."
+msgstr "یو روایت وایي چې تعقیبونکي غره ته وختل، له غار څخه تېر شول، او د غار په خوله کې یې د غڼې جال ولید. هغوی وویل چې دلته هېڅوک نشي ننوتلی، او مخکې لاړل. ابن کثیر د دې روایت سند حسن بولي او دا په دې اړه ترټولو غوره روایت ګڼي. په دې صحنه کې جال نه دی انځور شوی."
+
+#: src/content/details.js
+#, ai
+msgid "A single report. The nesting doves of popular retellings are not part of it."
+msgstr "یو واحد روایت. په مشهورو کیسو کې د کوترو د ځالې جوړولو خبره د دې روایت برخه نه ده."
+
+#: src/content/details.js
+#, ai
+msgid "The stations of the road"
+msgstr "د لارې تمځایونه"
+
+#: src/content/details.js
+#, ai
+msgid "Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate."
+msgstr "ابن اسحاق د هغې لارې نومونه اخلي چې لارښود غوره کړې وه: د مکې له ښکته برخې، د ساحل په اوږدو کې، د عسفان لاندې له لارې څخه، د امج لاندې، له قدید څخه تېر، بیا الخرار، ثنیة المرة، لقف او داسې نور. نن ورځ د دې نومونو څخه د ډېرو ځای موندل ګران دي، نو ځکه دلته کښل شوې کرښه تقریبي ده."
+
+#: src/content/details.js
+#, ai
+msgid "A list of names, without distances or days."
+msgstr "د نومونو یو نوملړ، پرته له فاصلو یا ورځو ښودلو."
+
+#: src/content/details.js
+#, ai
+msgid "White garments"
+msgstr "سپینې جامې"
+
+#: src/content/details.js
+#, ai
+msgid "On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear."
+msgstr "په لاره کې هغوی له زبیر رضي الله عنه سره وکتل چې د مسلمانو سوداګرو له یوې ډلې سره له شام څخه راستنېده. هغه پیغمبر ﷺ او ابوبکر رضي الله عنه ته د اغوستلو لپاره سپینې جامې ورکړې."
+
+#: src/content/details.js
+#, ai
+msgid "From al-Bukhari, as quoted by Ibn Kathir. The account does not say where on the road they met."
+msgstr "له البخاري څخه، لکه څنګه چې ابن کثیر نقل کړی دی. په روایت کې دا نه دي ویل شوي چې هغوی په لاره کې په کوم ځای کې سره وکتل."
+
+#: src/content/details.js
+#, ai
+msgid "The first Friday"
+msgstr "لومړنۍ جمعه"
+
+#: src/content/details.js
+#, ai
+msgid "After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men."
+msgstr "له قباء څخه تر وتلو وروسته، د جمعې د لمانځه وخت په داسې حال کې راغی چې هغه د بنو سالم بن عوف په منځ کې و. هغه هلته، د درې په منځ کې په شته جومات کې، د شاوخوا سلو کسانو سره د جمعې لمونځ ادا کړ."
+
+#: src/content/details.js
+#, ai
+msgid "Quoted from a modern sirah, which cites Ibn Hisham. The position is illustrative."
+msgstr "د یو نوي سیرت کتاب څخه اخیستل شوی، چې ابن هشام ته یې منسوبوي. موقعیت تقریبي دی."
+
+#: src/content/details.js
+#, ai
+msgid "Let her go"
+msgstr "پرېږدئ چې ځي"
+
+#: src/content/details.js
+#, ai
+msgid "Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar."
+msgstr "هرې قبیلې به د هغه د اوښې مهار نیوه او له هغوی سره یې د پاتې کېدو بلنه ورکوله. هر ځل به هغه ﷺ ځواب ورکاوه: پرېږدئ چې ځي، ځکه چې هغې ته امر شوی دی. هغه روانه وه ترڅو چې د بنو مالک بن النجار په سیمه کې کښېناسته."
+
+#: src/content/details.js
+#, ai
+msgid "Ibn Ishaq’s report. Her path through the town is not known."
+msgstr "د ابن اسحاق روایت. په ښار کې د هغې د تېرېدو لاره معلومه نه ده."
+
+#: src/content/details.js
+#, ai
+msgid "The house of Abu Ayyub"
+msgstr "د ابو ایوب رضي الله عنه کور"
+
+#: src/content/details.js
+#, ai
+msgid "He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar."
+msgstr "هغه د ابو ایوب رضي الله عنه په کور کې پاتې شو ترڅو چې د هغه جومات او خونې جوړې شوې، او هغه پخپله د مهاجرینو او انصارو سره یوځای په جوړولو کې کار وکړ."
+
+#: src/content/details.js
+#, ai
+msgid "The house is placed beside the mosque site for illustration."
+msgstr "کور د وضاحت لپاره د جومات د ځای تر څنګ ښودل شوی دی."
+
+#: src/content/details.js
+#, ai
+msgid "Brothers"
+msgstr "ورورولي"
+
+#: src/content/details.js
+#, ai
+msgid "He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on."
+msgstr "هغه د هغو کسانو ترمنځ چې هجرت یې کړی و او د هغو کسانو ترمنځ چې د هغوی کوربه توب یې کړی و، ورورولي جوړه کړه، ترڅو هر نوي راغلي کس د ډاډ یو ملګری ولري."
+
+#: src/content/details.js
+#, ai
+msgid "This is Ibn Kathir’s chapter heading. The individual pairings are listed in the pages that follow it."
+msgstr "دا د ابن کثیر د څپرکي سرلیک دی. د افرادو ترمنځ د ورورولۍ تفصیلات په هغو پاڼو کې راغلي چې له دې وروسته دي."
+
+#: src/content/details.js
+#, ai
+msgid "The full moon has risen"
+msgstr "طلع البدر علينا"
+
+#: src/content/details.js
+#, ai
+msgid "A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there."
+msgstr "يو رپوټ وايي چې کله هغه ﷺ راورسېد، نو ښځو او ماشومانو دا سندره وویله: «طلع البدر علينا من ثنيات الوداع». البيهقي دا د ابن عائشه څخه روایت کوي، چې هغه یو وروستی راوي دی او هلته موجود نه و."
+
+#: src/content/details.js
+#, ai
+msgid "The chain stops short of an eyewitness, and some place the song at a later return to Madinah, not at this arrival."
+msgstr "د دې روایت سند تر عیني شاهد پورې نه رسېږي، او ځینې خلک دا سندره مدینې ته په یو بل وروستي ستنېدو پورې تړي، نه په دې لومړي راتګ پورې."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "شواهد وښودل شول. هر ټکی یو نقل شوی متن دی، چې د خپل ډول له مخې رنګ شوی دی."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence hidden."
+msgstr "شواهد پټ شول."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hide evidence on the map"
+msgstr "په نقشه کې شواهد پټ کړئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Show evidence on the map"
+msgstr "په نقشه کې شواهد وښایاست"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hide timeline"
+msgstr "مهالوېش پټ کړئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Show timeline"
+msgstr "مهالوېش وښایاست"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How each date is known"
+msgstr "هر تاریخ څنګه معلوم شوی دی"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Stated in the account"
+msgstr "<0/>په روایت کې ذکر شوی"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Reckoned later"
+msgstr "<0/>وروسته حساب شوی"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Accounts differ"
+msgstr "<0/>روایتونه توپیر لري"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Not dated"
+msgstr "<0/>تاریخ یې نه دی معلوم"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The journey day by day · September 622"
+msgstr "د سفر ورځ په ورځ حال · سپتمبر ۶۲۲"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Scrub through the days of the journey"
+msgstr "د سفر په ورځو کې وګرځئ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Go to this stage <0/>"
+msgstr "دې پړاو ته لاړ شئ <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Quran"
+msgstr "قرآن کریم"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hadith collections"
+msgstr "د احادیثو ټولګې"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Classical sirah and history"
+msgstr "کلاسیکه سیره او تاریخ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Modern authors"
+msgstr "معاصر لیکوالان"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence on the map"
+msgstr "په نقشه کې شواهد"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "د رڼا هر ټکی یو متن دی چې په دې څپرکي کې ورته اشاره شوې، او هلته ځای پر ځای شوی چې په اړه یې خبرې کوي. د لوستلو لپاره یو وټاکئ."
+
+#: src/content/timeline.js
+#, ai
+msgid "Leaving Makkah"
+msgstr "له مکې څخه وتل"
+
+#: src/content/timeline.js
+#, ai
+msgid "Night of 27 Safar · 12–13 September 622"
+msgstr "د صفر ۲۷مه شپه · ۱۲–۱۳ سپتمبر ۶۲۲"
+
+#: src/content/timeline.js
+#, ai
+msgid "The night of departure is in the accounts. Its place in the calendar is a modern reckoning."
+msgstr "د وتلو شپه په روایتونو کې ذکر شوې ده. په تقویم کې د هغې ځای یو معاصر حساب دی."
+
+#: src/content/timeline.js
+#, ai
+msgid "The nights before Friday, Saturday and Sunday"
+msgstr "د جمعې، شنبې او یکشنبې څخه مخکې شپې"
+
+#: src/content/timeline.js
+#, ai
+msgid "Three nights is in al-Bukhari. Naming them after the days of the week follows a modern reckoning."
+msgstr "درې شپې په بخاري کې ذکر شوي دي. د اونۍ د ورځو له مخې د هغوی نومول د معاصر حساب له مخې دي."
+
+#: src/content/timeline.js
+#, ai
+msgid "The guide arrives"
+msgstr "د لارښود رارسېدل"
+
+#: src/content/timeline.js
+#, ai
+msgid "Night of Monday, 1 Rabi‘ al-Awwal · 16 September 622"
+msgstr "د دوشنبې شپه، د ربیع الاول لومړۍ نېټه · ۱۶ سپتمبر ۶۲۲"
+
+#: src/content/timeline.js
+#, ai
+msgid "The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning."
+msgstr "لارښود له دریمې شپې وروسته د ژمنې سره سم له دوو سپرو سره راغی. د تقویم تاریخ یو معاصر حساب دی."
+
+#: src/content/timeline.js
+#, ai
+msgid "On the coastal road"
+msgstr "د ساحل په لاره"
+
+#: src/content/timeline.js
+#, ai
+msgid "About a week"
+msgstr "نږدې یوه اونۍ"
+
+#: src/content/timeline.js
+#, ai
+msgid "The accounts give the order of what happened on the road, but no days. The pursuit and the tent of Umm Ma‘bad fall somewhere in this week."
+msgstr "روایتونه په لاره کې د پېښو ترتیب ښيي، مګر ورځې نه ښيي. د سراقې تعقیب او د ام معبد خیمه په همدې اونۍ کې په کوم وخت کې پېښ شوي دي."
+
+#: src/content/timeline.js
+#, ai
+msgid "Arrival at Quba"
+msgstr "قبا ته رارسېدل"
+
+#: src/content/timeline.js
+#, ai
+msgid "Monday · 8 Rabi‘ al-Awwal · 23 September 622"
+msgstr "دوشنبه · د ربیع الاول ۸مه · ۲۳ سپتمبر ۶۲۲"
+
+#: src/content/timeline.js
+#, ai
+msgid "The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning."
+msgstr "په البخاري کې راغلي چې دا د ربيع الاول مياشتې يوه دوشنبه وه. د مياشتې د ورځې ټاکل يو معاصر حساب دی."
+
+#: src/content/timeline.js
+#, ai
+msgid "The stay at Quba"
+msgstr "په قبا کې پاتې کېدل"
+
+#: src/content/timeline.js
+#, ai
+msgid "Four days, or more than ten nights"
+msgstr "څلور ورځې، يا له لسو څخه زياتې شپې"
+
+#: src/content/timeline.js
+#, ai
+msgid "Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it."
+msgstr "ابن اسحاق له دوشنبې څخه تر پنجشنبې پورې وخت ښيي. په البخاري کې روايت وايي چې له لسو څخه زياتې شپې، او بنو عمرو بن عوف اتلس ورځې ښودلې دي. ابن کثير دا روايتونه پرته له کومې پرېکړې يو د بل تر څنګ وړاندې کوي."
+
+#: src/content/timeline.js
+#, ai
+msgid "The first Friday, and Madinah"
+msgstr "لومړۍ جمعه، او مدينه"
+
+#: src/content/timeline.js
+#, ai
+msgid "Friday · 12 Rabi‘ al-Awwal · 27 September 622"
+msgstr "جمعه · ۱۲ د ربيع الاول · ۲۷ سپتمبر ۶۲۲"
+
+#: src/content/timeline.js
+#, ai
+msgid "That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay."
+msgstr "دا چې دا د جمعې ورځ وه، په لومړنيو روايتونو کې راغلي دي. د تقويم نېټه يو معاصر حساب دی، او دا په قبا کې د څلور ورځني پاتې کېدو څخه وروسته ده."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Young learners"
+msgstr "ځوان زده کوونکي"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "New to the story"
+msgstr "د کيسې لپاره نوي"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "In depth"
+msgstr "په ژوره توګه"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Mode"
+msgstr "حالت"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How would you like to follow the journey?"
+msgstr "تاسو غواړئ سفر څنګه تعقیب کړئ؟"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Six short stages, in simple words."
+msgstr "شپږ لنډ پړاوونه، په ساده کلمو کې."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms explained, and why each stage matters."
+msgstr "د اصطلاحاتو تشریح، او دا چې ولې هر پړاو مهم دی."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "هر جزئيات، د شواهدو او د وخت د کرښې په ښودلو سره."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Why this matters:"
+msgstr "ولې دا مهمه ده:"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms"
+msgstr "اصطلاحات"
+
+#: src/content/lenses.js
+#, ai
+msgid "This is the story of the Hijrah: when the Prophet Muhammad ﷺ travelled from Makkah to Madinah, a new home."
+msgstr "دا د هجرت کیسه ده: کله چې پیغمبر محمد ﷺ له مکې څخه مدینې ته، چې یو نوی کور و، سفر وکړ."
+
+#: src/content/lenses.js
+#, ai
+msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
+msgstr "ډیری مسلمانان لا دمخه مخکې تللي وو. د هغه غوره ملګري، ابو بکر، انتظار وکړ ترڅو دوی وکولی شي یوځای سفر وکړي."
+
+#: src/content/lenses.js
+#, ai
+msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
+msgstr "په مکه کې، د قریشو مشرانو غونډه وکړه ترڅو د پیغمبر ﷺ په خلاف پلان جوړ کړي."
+
+#: src/content/lenses.js
+#, ai
+msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
+msgstr "هغه شپه دوی د هغه د دروازې بهر انتظار وکړ. علي په زړورتیا سره د پیغمبر په بستر کې ویده شو، او د هغه په شنه چپن کې یې ځان ونغښته."
+
+#: src/content/lenses.js
+#, ai
+msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
+msgstr "خلکو خپل قیمتي شیان له پیغمبر ﷺ سره امانت ایښودل ځکه چې هغه خورا ریښتینی و. علي شاته پاتې شو ترڅو دا ټول بیرته خپلو خاوندانو ته وسپاري."
+
+#: src/content/lenses.js
+#, ai
+msgid "The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights."
+msgstr "پیغمبر ﷺ او ابو بکر د دریو شپو لپاره د ثور غره په یو غار کې پټ شول."
+
+#: src/content/lenses.js
+#, ai
+msgid "Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah."
+msgstr "هرې شپې، د ابو بکر زوی عبدالله په تیاره کې راتلو ترڅو دوی ته د مکې خبرونه ورسوي."
+
+#: src/content/lenses.js
+#, ai
+msgid "A shepherd called ‘Amir brought his sheep close every evening, so that they had milk to drink."
+msgstr "یو شپون چې عامر نومېده هر ماښام خپلې پسونه نږدې راوستل، ترڅو دوی د څښلو لپاره شیدې ولري."
+
+#: src/content/lenses.js
+#, ai
+msgid "Abu Bakr was worried: if someone looked down, they would be seen! The Prophet ﷺ calmed him."
+msgstr "ابو بکر اندېښمن و: که چا لاندې وکتل، دوی به ولیدل شي! پیغمبر ﷺ هغه ته ډاډ ورکړ."
+
+#: src/content/lenses.js
+#, ai
+msgid "The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us."
+msgstr "قرآن هغه څه یادوي چې پیغمبر ﷺ په غار کې خپل ملګري ته ویلي وو: مه خفه کېږه، الله له موږ سره دی."
+
+#: src/content/lenses.js
+#, ai
+msgid "Quraysh offered a big reward to catch them. A rider called Suraqah raced after them on his horse."
+msgstr "قریشو د دوی د نیولو لپاره لوی انعام وټاکه. یو سپاره چې سراقہ نومېده په خپل آس پسې منډه کړه."
+
+#: src/content/lenses.js
+#, ai
+msgid "As he came close, his horse’s legs sank into the ground, and he fell off!"
+msgstr "کله چې هغه نږدې شو، د هغه د آس پښې په ځمکه کې ډوبې شوې، او هغه راولوېد!"
+
+#: src/content/lenses.js
+#, ai
+msgid "Suraqah gave up the chase. They asked him only to keep their secret, and went on their way."
+msgstr "سراقہ له تعقیب څخه لاس واخیست. دوی له هغه څخه یوازې دا وغوښتل چې د دوی راز پټ وساتي، او خپلې لارې ته لاړل."
+
+#: src/content/lenses.js
+#, ai
+msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
+msgstr "دوی د یوې ښځې په خیمه کې تم شول چې ام معبد نومېده. هغې سره هیڅ خواړه نه وو، او یوازې یو ډنګر پس و چې شیدې یې نه لرلې."
+
+#: src/content/lenses.js
+#, ai
+msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "پیغمبر ﷺ دعا وکړه او د پس شیدې یې ودوشلې، او د هرچا لپاره شیدې وې."
+
+#: src/content/lenses.js
+#, ai
+msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
+msgstr "په پای کې دوی مدینې ته ورسېدل! د پیغمبر اوښه په ښار کې وګرځېده او په یو خلاص انګړ کې کښېناسته."
+
+#: src/content/lenses.js
+#, ai
+msgid "That yard became the place of his mosque, and he carried bricks to help build it."
+msgstr "هغه انګړ د هغه د جومات ځای شو، او هغه پخپله د دې د جوړولو لپاره د خښتو په وړلو کې مرسته وکړه."
+
+#: src/content/lenses.js
+#, ai
+msgid "One hot noon, the Prophet ﷺ came to Abu Bakr’s house with big news: it was time to go. Abu Bakr asked to come too, and he said yes."
+msgstr "په یوه ګرمه غرمه، پیغمبر ﷺ د ابو بکر کور ته په یو لوی خبر سره راغی: د تګ وخت رارسېدلی و. ابو بکر د ملګرتیا غوښتنه وکړه، او هغه ورته هو وویل."
+
+#: src/content/lenses.js
+#, ai
+msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
+msgstr "ابوبکر د سفر لپاره خپل ټول مال واخیست. د هغه لور اسماء د خپل نیکه د ډاډګیرنې لپاره چې سترګو یې کار نه کاوه، د مال په ځای کاڼي کېښودل."
+
+#: src/content/lenses.js
+#, ai
+msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
+msgstr "مدینه په شمال کې ده، نو ځکه هغوی لومړی سویل ته د ثور غره لور ته لاړل، چیرته چې به هیڅوک لټون ونه کړي."
+
+#: src/content/lenses.js
+#, ai
+msgid "Asma used her belt to tie up their food bag. People called her “the one with two belts”."
+msgstr "اسماء د خپل خوراک کڅوړه په خپل کمربند وتړله. خلکو هغې ته «ذات النطاقين» (د دوو کمربندونو لرونکې) ویل."
+
+#: src/content/lenses.js
+#, ai
+msgid "One report says the searchers saw a spider’s web across the cave and walked away."
+msgstr "په یو روایت کې راغلي چې لټوونکو د غار په خوله کې د غڼې جال ولید او بیرته وګرځېدل."
+
+#: src/content/lenses.js
+#, ai
+msgid "Their guide knew the desert well. He led them along the coast, past many places whose names we still know."
+msgstr "د دوی لارښود په دښته ښه بلد و. هغه هغوی د ساحل په اوږدو کې د داسې ډیرو ځایونو څخه تیر کړل چې نومونه یې موږ ته لا اوس هم معلوم دي."
+
+#: src/content/lenses.js
+#, ai
+msgid "On the way, a friend called al-Zubayr gave them new white clothes."
+msgstr "په لاره کې، د الزبیر په نوم یو ملګري هغوی ته نوي سپین کالي ډالۍ کړل."
+
+#: src/content/lenses.js
+#, ai
+msgid "On his way into Madinah, the Prophet ﷺ led Friday prayer with about a hundred people."
+msgstr "مدینې ته د ننوتلو په لاره کې، پیغمبر ﷺ د نږدې سلو کسانو سره د جمعې لمونځ ادا کړ."
+
+#: src/content/lenses.js
+#, ai
+msgid "Everyone wanted the Prophet ﷺ to stay with them. He said: let the camel go, she has been told where to stop."
+msgstr "هر چا غوښتل چې پیغمبر ﷺ د دوی کره پاتې شي. هغه وفرمایل: اوښه خوشې کړئ، هغې ته امر شوی چې چیرته ودریږي."
+
+#: src/content/lenses.js
+#, ai
+msgid "He stayed in the house of Abu Ayyub until his mosque and his home were built."
+msgstr "هغه د ابو ایوب په کور کې پاتې شو تر هغه چې د هغه جومات او کور جوړ شول."
+
+#: src/content/lenses.js
+#, ai
+msgid "He made the people who arrived and the people of Madinah brothers, to help each other."
+msgstr "هغه د راغلو خلکو او د مدینې د اوسیدونکو ترمنځ ورورولي جوړه کړه ترڅو یو د بل سره مرسته وکړي."
+
+#: src/content/lenses.js
+#, ai
+msgid "Many people remember a happy song sung to welcome him, but we are not sure it was sung that day."
+msgstr "ډیری خلک هغه خوشحاله سندره یادوي چې د هغه د ښه راغلاست لپاره ویل شوې وه، مګر موږ ډاډه نه یو چې ایا دا په هماغه ورځ ویل شوې وه که نه."
+
+#: src/content/lenses.js
+#, ai
+msgid "The Hijrah is so central that the Islamic calendar counts its years from it."
+msgstr "هجرت دومره مهم دی چې اسلامي کلیزه خپل کلونه له هغې څخه حسابوي."
+
+#: src/content/lenses.js
+#, ai
+msgid "Trust and careful planning sit side by side: the Prophet ﷺ relied on Allah and still prepared every step."
+msgstr "توکل او دقیق پلان جوړونه یو ځای دي: پیغمبر ﷺ پر الله توکل وکړ او بیا یې هم د هر ګام لپاره چمتووالی ونیو."
+
+#: src/content/lenses.js
+#, ai
+msgid "Even with people plotting against him, he made sure their property was returned. His honesty did not depend on how he was treated."
+msgstr "سره له دې چې خلکو د هغه په خلاف دسیسې جوړولې، هغه ډاډ ترلاسه کړ چې د هغوی امانتونه ورته بیرته وسپارل شي. د هغه امانتداري د هغوی په چلند پورې تړلې نه وه."
+
+#: src/content/lenses.js
+#, ai
+msgid "In the most frightening moment, the lesson is calm trust: Allah is with us."
+msgstr "په خورا ویرونکي حالت کې، درس ارام توکل دی: الله له موږ سره دی."
+
+#: src/content/lenses.js
+#, ai
+msgid "Choosing an unexpected route was wisdom, not doubt. Muslims are taught to trust Allah and still take sensible steps."
+msgstr "د ناڅاپي لارې غوره کول حکمت و، نه شک. مسلمانانو ته ښوول شوي چې پر الله توکل وکړي او بیا هم معقول ګامونه پورته کړي."
+
+#: src/content/lenses.js
+#, ai
+msgid "A man who set out to capture them left asking for their protection. The story is full of reversals like this."
+msgstr "هغه سړی چې د هغوی د نیولو لپاره راوتلی و، د هغوی څخه د پناه غوښتلو په حال کې بیرته لاړ. کیسه له داسې بدلونونو ډکه ده."
+
+#: src/content/lenses.js
+#, ai
+msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
+msgstr "د ناپیژندل شویو خلکو میلمه پالنه او په خورا لږ څه کې برکت، د پیغمبر ﷺ په ټول ژوند کې لیدل کیږي."
+
+#: src/content/lenses.js
+#, ai
+msgid "The first thing built in the new home was a mosque, a centre for the whole community."
+msgstr "په نوي وطن کې لومړی جوړ شوی شی جومات و، چې د ټولې ټولنې لپاره یو مرکز و."
+
+#: src/content/lenses.js
+#, ai
+msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
+msgstr "مدینه لومړنۍ مسلمانه ټولنه شوه، چې د نویو راغلو کسانو او د هغوی د کوربنو ترمنځ د ورورولۍ پر بنسټ جوړه شوه."
+
+#: src/content/lenses.js
+#, ai
+msgid "Short for “peace and blessings of Allah be upon him”, said by Muslims after the Prophet’s name."
+msgstr "د «صلی الله علیه وسلم» لنډیز، چې مسلمانان یې د پیغمبر له نوم وروسته وایي."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Hijrah"
+msgstr "هجرت"
+
+#: src/content/lenses.js
+#, ai
+msgid "The migration of the Prophet ﷺ and his companions from Makkah to Madinah, in 622."
+msgstr "په ۶۲۲ میلادي کال کې له مکې څخه مدینې ته د پیغمبر ﷺ او د هغه د اصحابو هجرت."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Quraysh"
+msgstr "قریش"
+
+#: src/content/lenses.js
+#, ai
+msgid "The leading tribe of Makkah. The Prophet ﷺ himself belonged to it."
+msgstr "د مکې مخکښه قبیله. پیغمبر ﷺ په خپله هم په همدې قبیلې پورې تړاو درلود."
+
+#: src/content/lenses.js
+#, ai
+msgid "The city where the Prophet ﷺ was born, home of the Ka‘bah."
+msgstr "هغه ښار چې پیغمبر ﷺ پکې زیږیدلی و، او د کعبې کور دی."
+
+#: src/content/lenses.js
+#, ai
+msgid "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
+msgstr "هغه وخت د یثرب په نوم یادیده: هغه ښار چې د پیغمبر ﷺ هرکلی یې وکړ. د دې نوم معنی «ښار» ده."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Abu Bakr"
+msgstr "ابوبکر"
+
+#: src/content/lenses.js
+#, ai
+msgid "The Prophet’s closest friend and companion, who later led the Muslims after him."
+msgstr "د پیغمبر ﷺ تر ټولو نږدې ملګری او ملګری، چې وروسته یې د هغه څخه وروسته د مسلمانانو مشري وکړه."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Allah"
+msgstr "الله"
+
+#: src/content/lenses.js
+#, ai
+msgid "The Arabic word for God."
+msgstr "د خدای لپاره عربي کلیمه."
+
+#: src/content/lenses.js
+#, ai
+msgid "The holy book of Islam, which Muslims believe is the word of Allah."
+msgstr "د اسلام مقدس کتاب، چې مسلمانان باور لري د الله کلام دی."
+
+#: src/content/lenses.js
+#, ai
+msgid "The collection of hadith that Muslims consider the most reliable."
+msgstr "د احادیثو هغه ټولګه چې مسلمانان یې تر ټولو معتبره ګڼي."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Ibn Kathir"
+msgstr "ابن کثیر"
+
+#: src/content/lenses.js
+#, ai
+msgid "A scholar of the fourteenth century whose history of the Prophet’s life is widely used."
+msgstr "د څوارلسمې پیړۍ یو عالم چې د پیغمبر د ژوند په اړه د هغه تاریخي کتاب په پراخه کچه کارول کیږي."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Ibn Ishaq"
+msgstr "ابن اسحاق"
+
+#: src/content/lenses.js
+#, ai
+msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
+msgstr "د اتمې پېړۍ یو تاریخ پوه چې د پیغمبر ﷺ په اړه د هغه لیکل شوې سوانح تر ټولو لومړنۍ پاتې شوې سوانح ده."
+
+#: src/content/lenses.js
+#: src/content/lenses.js
+#, ai
+msgid "Thawr"
+msgstr "ثور"
+
+#: src/content/lenses.js
+#, ai
+msgid "A mountain south of Makkah, with a small cave near its top."
+msgstr "د مکې سویل ته یو غر، چې د سرمشريزې سره نږدې یو کوچنی غار لري."
+
+#: src/content/lenses.js
+#, ai
+msgid "A village on the edge of Madinah, where the Prophet ﷺ stopped first."
+msgstr "د مدینې په څنډه کې یو کلی، چیرته چې پیغمبر ﷺ لومړی تم شو."
+
+#: src/content/lenses.js
+#, ai
+msgid "A passage of the Quran, the holy book of Islam."
+msgstr "د قرآن کریم یو ایت، چې د اسلام مقدس کتاب دی."
+
+#: src/content/lenses.js
+#, ai
+msgid "A hadith: a report of the Prophet’s words or deeds, passed on through named narrators. The collections of al-Bukhari and Muslim are considered the most reliable."
+msgstr "یو حدیث: د پیغمبر ﷺ د خبرو یا عملونو یو راپور، چې د راویانو په واسطه روایت شوی دی. د البخاري او مسلم ټولګې تر ټولو د باور وړ ګڼل کیږي."
+
+#: src/content/lenses.js
+#, ai
+msgid "A report from the early histories of the Prophet’s life. They gather many accounts, some stronger than others."
+msgstr "د پیغمبر ﷺ د ژوند د لومړني تاریخ څخه یو راپور. دوی ډیری روایتونه راټولوي، چې ځینې یې د نورو په پرتله قوي دي."
+
+#: src/content/lenses.js
+#, ai
+msgid "A modern author’s explanation or calculation, built on the early sources."
+msgstr "د لومړنیو سرچینو پر بنسټ د یو عصري لیکوال تشریح یا محاسبه."

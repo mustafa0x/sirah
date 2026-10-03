@@ -1,6 +1,7 @@
 <script>
     import { onMount } from 'svelte'
     import { change_language, saved_language } from '../lib/i18n.js'
+    import { locales } from '../lib/locale-config.js'
     import { SvelteSet } from 'svelte/reactivity'
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
@@ -664,13 +665,16 @@
         </a>
         <div class="flex items-center gap-3">
             <select
-                class="rounded-full border border-line bg-panel-solid px-3 py-2 text-ink text-sm"
+                class="min-w-0 max-w-[12rem] rounded-full border border-line bg-panel-solid px-3 py-2 text-ink text-sm mobile:max-w-[8rem]"
                 aria-label="Interface language"
                 value={saved_language()}
                 onchange={(event) => change_language(event.currentTarget.value)}
             >
-                <option value="en" lang="en">English</option>
-                <option value="ar" lang="ar">العربية</option>
+                {#each locales as locale (locale.code)}
+                    <option value={locale.code} lang={locale.code} dir={locale.direction}
+                        >{locale.label}</option
+                    >
+                {/each}
             </select>
             <button
                 class={round_button}

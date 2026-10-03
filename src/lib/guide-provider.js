@@ -2,10 +2,11 @@ import { chapter } from '../content/first-chapter.js'
 
 // Offline chapter notes, not a substitute for model-led research.
 function chapter_note_answer(question, source_ids = []) {
-    const text = question.toLowerCase()
+    const text = question.trim().toLowerCase()
     const cited = (...ids) => ids.filter((source_id) => source_ids.includes(source_id))
     const available = (...ids) => (cited(...ids).length === ids.length ? cited(...ids) : [])
     if (
+        text === 'Is the exact route known?'.toLowerCase() ||
         text.includes('exact route') ||
         text.includes('precise') ||
         /المسار الدقيق|الطريق الدقيق/.test(text)
@@ -19,6 +20,7 @@ function chapter_note_answer(question, source_ids = []) {
         }
     }
     if (
+        text === 'How did the journey continue after the cave?'.toLowerCase() ||
         (text.includes('after') && (text.includes('cave') || text.includes('thawr'))) ||
         /بعد.*(?:الغار|الكهف|ثور)/.test(text)
     ) {
@@ -30,7 +32,12 @@ function chapter_note_answer(question, source_ids = []) {
             action: { type: 'detour', step_id: 'onward', label: 'Show the onward journey' },
         }
     }
-    if (text.includes('news') || text.includes('message') || /أخبار|الأخبار/.test(text)) {
+    if (
+        text === 'Who brought them news?'.toLowerCase() ||
+        text.includes('news') ||
+        text.includes('message') ||
+        /أخبار|الأخبار/.test(text)
+    ) {
         return {
             answer: '‘Abdullah ibn Abi Bakr brought news of plans against them after darkness and returned to Makkah before daybreak.',
             status: 'local-bounded',
@@ -63,6 +70,7 @@ function chapter_note_answer(question, source_ids = []) {
         }
     }
     if (
+        text === 'How long did they stay in the cave?'.toLowerCase() ||
         text.includes('how long') ||
         text.includes('how many nights') ||
         text.includes('three nights') ||
