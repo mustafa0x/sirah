@@ -22,8 +22,12 @@ export function create_journey_state() {
     }
 }
 
-function time_for(step_id, seconds) {
-    const step = get_step(step_id)
+function step_for(state, step_id) {
+    return state.steps?.find((step) => step.id === step_id) ?? get_step(step_id)
+}
+
+function time_for(state, step_id, seconds) {
+    const step = step_for(state, step_id)
     if (!Number.isFinite(seconds)) throw new Error('Non-finite time')
     return Math.max(0, Math.min(step.duration, seconds))
 }
@@ -44,7 +48,11 @@ export function start_journey(state, presentation = 'scene') {
 
 export function pause(state, actual_seconds) {
     if (actual_seconds !== undefined) {
-        state.guided_position.seconds = time_for(state.guided_position.step_id, actual_seconds)
+        state.guided_position.seconds = time_for(
+            state,
+            state.guided_position.step_id,
+            actual_seconds,
+        )
     }
     state.is_playing = false
     state.media_generation += 1
@@ -83,7 +91,7 @@ export function toggle_reading(state) {
 }
 
 export function begin_navigation(state, step_id, purpose = 'guided', seconds = 0) {
-    const time = time_for(step_id, seconds)
+    const time = time_for(state, step_id, seconds)
     pause(state)
     state.started = true
     state.mode = 'pending_navigation'
@@ -230,8 +238,8 @@ export function complete_chapter(state) {
 }
 
 export function presentation_state(state) {
-    const visible = get_step(state.viewed_step_id)
-    const guided = get_step(state.guided_position.step_id)
+    const visible = step_for(state, state.viewed_step_id)
+    const guided = step_for(state, state.guided_position.step_id)
     return {
         title: visible.title,
         scene: visible.scene,

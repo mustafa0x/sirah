@@ -57,6 +57,7 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "Rehberli sunum duraklatıldı. Konumunuz kaydedildi."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "That chapter stop is not available."
 msgstr "Bu bölüm durağı mevcut değil."
@@ -1040,16 +1041,6 @@ msgstr "Beni Amr bin Avf arasındaki konaklama için kesin bir konum vermemekted
 msgid "The passage does not name the place; identifying it as Quba rests on other reports."
 msgstr "Pasaj yerin adını zikretmez; buranın Kuba olarak tanımlanması diğer rivayetlere dayanmaktadır."
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Along the way"
-msgstr "Yol boyunca"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Close detail"
-msgstr "Detayı kapat"
-
 #: src/content/first-chapter.js
 #, ai
 msgid "The night of departure"
@@ -1064,6 +1055,11 @@ msgstr "Kureyş liderleri, kendisinden korkmaya başladıkları Peygamber ﷺ ha
 #, ai
 msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
 msgstr "O gece, uyumasını bekleyerek kapısında toplandılar. Ali'ye yeşil hırkasına bürünerek yatağına yatmasını söyledi ve onlardan kendisine hiçbir zarar gelmeyeceğine dair güvence verdi."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "Ali başka bir nedenden dolayı da geride kaldı. Mekke'deki insanlar, dürüstlüğünü bildikleri için değerli eşyalarını korunması amacıyla Peygamber'e ﷺ emanet ederlerdi. Ali bunların her birini sahiplerine iade edecekti."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1114,11 +1110,6 @@ msgstr "Ümmü Mabed'in çadırında durdular; sadece sütü olmayan bir koyunu 
 #, ai
 msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
 msgstr "İbn Kesir, hikayeyi birbirini destekleyen yollarla gelen, iyi bilinen bir hikaye olarak nitelendirir. Çadırın nerede durduğunu kesin olarak belirlemez."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "Ali başka bir nedenden dolayı da geride kaldı. Mekke'deki insanlar, dürüstlüğünü bildikleri için değerli eşyalarını korunması amacıyla Peygamber'e ﷺ emanet ederlerdi. Ali bunların her birini sahiplerine iade edecekti."
 
 #: src/content/details.js
 #: src/content/timeline.js
@@ -1308,103 +1299,13 @@ msgstr "Ravi zinciri görgü tanığına ulaşmamaktadır ve bazıları bu ilahi
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence shown. Each point is a cited passage, coloured by kind."
-msgstr "Kanıtlar gösterildi. Her bir nokta, türüne göre renklendirilmiş, kaynak gösterilen bir pasajdır."
+msgid "Along the way"
+msgstr "Yol boyunca"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence hidden."
-msgstr "Kanıtlar gizlendi."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide evidence on the map"
-msgstr "Haritada kanıtları gizle"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show evidence on the map"
-msgstr "Haritada kanıtları göster"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide timeline"
-msgstr "Zaman tünelini gizle"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show timeline"
-msgstr "Zaman tünelini göster"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "How each date is known"
-msgstr "Her tarihin nasıl bilindiği"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Stated in the account"
-msgstr "<0/>Rivayette belirtilen"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Reckoned later"
-msgstr "<0/>Sonradan hesaplanan"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Accounts differ"
-msgstr "<0/>Rivayetlerin farklılık gösterdiği"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Not dated"
-msgstr "<0/>Tarihlendirilmemiş"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The journey day by day · September 622"
-msgstr "Gün gün yolculuk · Eylül 622"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Scrub through the days of the journey"
-msgstr "Yolculuğun günleri arasında geçiş yapın"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Go to this stage <0/>"
-msgstr "Bu aşamaya git <0/>"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The Quran"
-msgstr "Kur'an-ı Kerim"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hadith collections"
-msgstr "Hadis derlemeleri"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Classical sirah and history"
-msgstr "Klasik siyer ve tarih"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Modern authors"
-msgstr "Modern yazarlar"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "Haritadaki kanıtlar"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "Her bir ışık noktası, bu bölümün atıfta bulunduğu ve bahsettiği yere yerleştirilmiş bir pasajdır. Okumak için birini seçin."
+msgid "Close detail"
+msgstr "Detayı kapat"
 
 #: src/content/timeline.js
 #, ai
@@ -1507,58 +1408,104 @@ msgid "That it was a Friday is in the early reports. The calendar date is a mode
 msgstr "Cuma günü olduğu ilk rivayetlerde yer alır. Takvim tarihi modern bir hesaplamadır ve dört günlük kalış süresini takip eder."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 #, ai
-msgid "Young learners"
-msgstr "Küçük yaştaki öğrenciler"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "New to the story"
-msgstr "Hikayeyle yeni tanışanlar"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "In depth"
-msgstr "Derinlemesine"
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "Kanıtlar gösterildi. Her bir nokta, türüne göre renklendirilmiş, kaynak gösterilen bir pasajdır."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Mode"
-msgstr "Mod"
+msgid "Evidence hidden."
+msgstr "Kanıtlar gizlendi."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "How would you like to follow the journey?"
-msgstr "Yolculuğu nasıl takip etmek istersiniz?"
+msgid "Hide evidence on the map"
+msgstr "Haritada kanıtları gizle"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Six short stages, in simple words."
-msgstr "Sade kelimelerle, altı kısa aşamada."
+msgid "Show evidence on the map"
+msgstr "Haritada kanıtları göster"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms explained, and why each stage matters."
-msgstr "Terim açıklamaları ve her aşamanın neden önemli olduğu."
+msgid "Hide timeline"
+msgstr "Zaman tünelini gizle"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Every detail, with the evidence and the timeline open."
-msgstr "Kanıtlar ve zaman çizelgesi açık şekilde, her ayrıntısıyla."
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "Why this matters:"
-msgstr "Bu neden önemli:"
+msgid "Show timeline"
+msgstr "Zaman tünelini göster"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms"
-msgstr "Terimler"
+msgid "How each date is known"
+msgstr "Her tarihin nasıl bilindiği"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Stated in the account"
+msgstr "<0/>Rivayette belirtilen"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Reckoned later"
+msgstr "<0/>Sonradan hesaplanan"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Accounts differ"
+msgstr "<0/>Rivayetlerin farklılık gösterdiği"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Not dated"
+msgstr "<0/>Tarihlendirilmemiş"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The journey day by day · September 622"
+msgstr "Gün gün yolculuk · Eylül 622"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Scrub through the days of the journey"
+msgstr "Yolculuğun günleri arasında geçiş yapın"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Go to this stage <0/>"
+msgstr "Bu aşamaya git <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Quran"
+msgstr "Kur'an-ı Kerim"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hadith collections"
+msgstr "Hadis derlemeleri"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Classical sirah and history"
+msgstr "Klasik siyer ve tarih"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Modern authors"
+msgstr "Modern yazarlar"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence on the map"
+msgstr "Haritadaki kanıtlar"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "Her bir ışık noktası, bu bölümün atıfta bulunduğu ve bahsettiği yere yerleştirilmiş bir pasajdır. Okumak için birini seçin."
 
 #: src/content/lenses.js
 #, ai
@@ -1569,21 +1516,6 @@ msgstr "Bu, Peygamber Efendimiz ﷺ'in yeni bir yurt olan Mekke'den Medine'ye se
 #, ai
 msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
 msgstr "Birçok Müslüman zaten daha önce gitmişti. En yakın arkadaşı Ebu Bekir, birlikte seyahat edebilmeleri için bekledi."
-
-#: src/content/lenses.js
-#, ai
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "Mekke'de Kureyş'in liderleri Peygamberimiz ﷺ'e karşı plan yapmak için toplandılar."
-
-#: src/content/lenses.js
-#, ai
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "O gece kapısının önünde beklediler. Ali cesurca Peygamber'in yatağına yattı ve onun yeşil hırkasına büründü."
-
-#: src/content/lenses.js
-#, ai
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "İnsanlar çok dürüst olduğu için değerli eşyalarını Peygamber ﷺ'e emanet ederlerdi. Ali, her birini geri vermek için geride kaldı."
 
 #: src/content/lenses.js
 #, ai
@@ -1627,16 +1559,6 @@ msgstr "Süraka takibi bıraktı. Onlardan sadece sırlarını saklamasını ist
 
 #: src/content/lenses.js
 #, ai
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "Ümmü Mabed adında bir kadının çadırında durdular. Yiyeceği yoktu, sadece sütü olmayan zayıf bir koyunu vardı."
-
-#: src/content/lenses.js
-#, ai
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "Peygamber ﷺ dua edip koyunu sağdı ve herkese yetecek kadar süt çıktı."
-
-#: src/content/lenses.js
-#, ai
 msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 msgstr "Sonunda Medine'ye ulaştılar! Peygamber'in devesi kasabanın içinden geçerek açık bir avluya çöktü."
 
@@ -1654,11 +1576,6 @@ msgstr "Sıcak bir öğle vakti Peygamber ﷺ, Ebu Bekir'in evine büyük bir ha
 #, ai
 msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
 msgstr "Ebu Bekir yolculuk için bütün parasını yanına almıştı. Kızı Esma, göremeyen dedesini rahatlatmak için paraların yerine taşlar koydu."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "Medine kuzeydeydi, bu yüzden önce kimsenin bakmayacağı güneydeki Sevr Dağı'na doğru gittiler."
 
 #: src/content/lenses.js
 #, ai
@@ -1739,16 +1656,6 @@ msgstr "Onları yakalamak için yola çıkan bir adam, sonunda onlardan güvence
 #, ai
 msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
 msgstr "Yabancılardan gelen misafirperverlik ve çok az şeydeki bereket, Peygamber'in tüm hayatı boyunca görülür."
-
-#: src/content/lenses.js
-#, ai
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "Yeni yurtta inşa edilen ilk şey, tüm topluluk için bir merkez olan bir mescitti."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "Medine, yeni gelenler ile onlara ev sahipliği yapanlar arasındaki kardeşlik üzerine kurulu ilk Müslüman topluluk oldu."
 
 #: src/content/lenses.js
 #, ai
@@ -1837,11 +1744,6 @@ msgid "Ibn Ishaq"
 msgstr "İbn İshak"
 
 #: src/content/lenses.js
-#, ai
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "Hz. Peygamber’in ﷺ günümüze ulaşan en eski siyerini yazmış olan sekizinci yüzyıl tarihçisi."
-
-#: src/content/lenses.js
 #: src/content/lenses.js
 #, ai
 msgid "Thawr"
@@ -1876,3 +1778,178 @@ msgstr "Hz. Peygamber’in hayatını anlatan erken dönem tarih eserlerinden bi
 #, ai
 msgid "A modern author’s explanation or calculation, built on the early sources."
 msgstr "Modern bir yazarın erken dönem kaynaklarına dayanan açıklaması veya hesabı."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Young learners"
+msgstr "Küçük yaştaki öğrenciler"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "New to the story"
+msgstr "Hikayeyle yeni tanışanlar"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "In depth"
+msgstr "Derinlemesine"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Mode"
+msgstr "Mod"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How would you like to follow the journey?"
+msgstr "Yolculuğu nasıl takip etmek istersiniz?"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Six short stages, in simple words."
+msgstr "Sade kelimelerle, altı kısa aşamada."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms explained, and why each stage matters."
+msgstr "Terim açıklamaları ve her aşamanın neden önemli olduğu."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "Kanıtlar ve zaman çizelgesi açık şekilde, her ayrıntısıyla."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Why this matters:"
+msgstr "Bu neden önemli:"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms"
+msgstr "Terimler"
+
+#: src/content/lenses.js
+msgid "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+msgstr "Ebu Bekir iki deve hazırladı. Esma yolculuk için yiyecek hazırlamaya yardım etti."
+
+#: src/content/lenses.js
+msgid "They chose a guide who knew the roads well. He would bring their camels after three nights."
+msgstr "Yolları iyi bilen bir rehber seçtiler. Rehber, üç gece sonra develerini getirecekti."
+
+#: src/content/lenses.js
+msgid "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+msgstr "Erken dönem bir rivayet, Kureyş liderlerinin Mekke'de toplanıp Peygamber ﷺ'e karşı nasıl plan yaptıklarını anlatır."
+
+#: src/content/lenses.js
+msgid "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+msgstr "Rivayet, o gece onlar kapının önünde beklerken, Ali'nin Peygamber'in yeşil hırkasına bürünerek yatağında uyuduğunu söyler."
+
+#: src/content/lenses.js
+msgid "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+msgstr "Üç gecenin ardından rehberleri develeri getirdi. Mağaradan ayrılıp Medine'ye doğru yol aldılar."
+
+#: src/content/lenses.js
+msgid "They took a route near the coast. The journey was long, with many stops along the way."
+msgstr "Kıyıya yakın bir rota izlediler. Yol boyunca birçok mola verilen uzun bir yolculuktu."
+
+#: src/content/lenses.js
+msgid "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+msgstr "Başka bir rivayet, Ümmü Mâbed'in çadırında verilen bir molayı anlatır. Ümmü Mâbed'in süt vermeyen zayıf bir koyunu vardı."
+
+#: src/content/lenses.js
+msgid "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "Rivayete göre Peygamber ﷺ dua edip koyunu sağdı ve herkese yetecek kadar süt oldu."
+
+#: src/content/lenses.js
+msgid "They first stopped at Quba, near Madinah, where a mosque was founded."
+msgstr "İlk olarak Medine yakınlarındaki Kuba'da durdular; burada bir cami kuruldu."
+
+#: src/content/lenses.js
+msgid "Madinah is to the north. They went south first, towards Mount Thawr."
+msgstr "Medine kuzeydedir. Onlar ise önce güneye, Sevr Dağı'na doğru gittiler."
+
+#: src/content/lenses.js
+msgid "A mosque was founded at Quba, making worship a part of life in the new home."
+msgstr "Kuba'da kurulan cami, ibadeti bu yeni yurttaki yaşamın bir parçası haline getirdi."
+
+#: src/content/lenses.js
+msgid "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+msgstr "Medine, büyüyen Müslüman topluluğunun yuvası oldu; yeni gelenlerle onlara kucak açanları bir araya getirdi."
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+msgstr "Peygamber'in hayatına dair rivayetleri sonraki yazarlarca korunan sekizinci yüzyıl tarihçisi."
+
+#: src/routes/Journey.svelte
+msgid "Mode changed. Your place is saved."
+msgstr "Mod değiştirildi. Bulunduğunuz yer kaydedildi."
+
+#: src/content/lenses.js
+msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+msgstr "‘Ali, insanların Peygamber ﷺ'e bıraktığı değerli eşyaları geri vermek için geride kaldı."
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah"
+msgstr "mekke"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah_valley"
+msgstr "mekke vadisi"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "cave"
+msgstr "mağara"
+
+#: src/lib/scene-manifest.js
+msgid "thawr"
+msgstr "sevr"
+
+#: src/lib/scene-manifest.js
+msgid "coast"
+msgstr "sahil"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "road"
+msgstr "yol"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "tent"
+msgstr "çadır"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "quba"
+msgstr "kuba"
+
+#: src/lib/scene-manifest.js
+msgid "madinah"
+msgstr "medine"
+
+#: src/lib/scene-manifest.js
+msgid "E09"
+msgstr "E09"
+
+#: src/lib/scene-manifest.js
+msgid "horse"
+msgstr "at"
+
+#: src/content/lenses.js
+msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+msgstr "Medine'de Müslümanlar, Peygamber ﷺ'i beklemek için dışarı çıktılar. Geliş rivayeti, onu nasıl karşıladıklarını anlatır."

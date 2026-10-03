@@ -37,9 +37,10 @@ const heuristic = (message) => {
         message.path.some(
             (scope) =>
                 scope.type === 'property' &&
-                ['title', 'text', 'description', 'label', 'answer', 'review_status'].includes(
+                (['title', 'text', 'description', 'label', 'answer', 'review_status'].includes(
                     scope.name,
-                ),
+                ) ||
+                    /^N\d{2}[a-z]$/.test(scope.name)),
         )
     )
         return 'message'

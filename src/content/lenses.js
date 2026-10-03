@@ -7,19 +7,25 @@ export const young_stages = ['setting', 'departure', 'thawr', 'pursuit', 'tent',
 export const young_paragraphs = {
     N01a: 'This is the story of the Hijrah: when the Prophet Muhammad ﷺ travelled from Makkah to Madinah, a new home.',
     N01b: 'Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together.',
-    N09a: 'In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ.',
-    N09b: 'That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak.',
-    N09c: 'People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back.',
+    N02a: 'Abu Bakr prepared two camels. Asma helped pack food for the journey.',
+    N02b: 'They chose a guide who knew the roads well. He would bring their camels after three nights.',
+    N09a: 'An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ.',
+    N09b: 'The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak.',
+    N09c: '‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ.',
     N03a: 'The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights.',
     N03b: 'Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah.',
     N03c: 'A shepherd called ‘Amir brought his sheep close every evening, so that they had milk to drink.',
     N03d: 'Abu Bakr was worried: if someone looked down, they would be seen! The Prophet ﷺ calmed him.',
     N03e: 'The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us.',
+    N04a: 'After three nights, their guide brought the camels. They left the cave and travelled towards Madinah.',
+    N04b: 'They took a route near the coast. The journey was long, with many stops along the way.',
     N06a: 'Quraysh offered a big reward to catch them. A rider called Suraqah raced after them on his horse.',
     N06b: 'As he came close, his horse’s legs sank into the ground, and he fell off!',
     N06c: 'Suraqah gave up the chase. They asked him only to keep their secret, and went on their way.',
-    N10a: 'They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk.',
-    N10b: 'The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone.',
+    N10a: 'Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk.',
+    N10b: 'It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone.',
+    N07a: 'They first stopped at Quba, near Madinah, where a mosque was founded.',
+    N05a: 'In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him.',
     N08a: 'At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard.',
     N05b: 'That yard became the place of his mosque, and he carried bricks to help build it.',
 }
@@ -27,7 +33,7 @@ export const young_paragraphs = {
 export const young_details = {
     visit: 'One hot noon, the Prophet ﷺ came to Abu Bakr’s house with big news: it was time to go. Abu Bakr asked to come too, and he said yes.',
     wealth: 'Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see.',
-    south: 'Madinah is to the north, so they went south first, to Mount Thawr, where no one would look.',
+    south: 'Madinah is to the north. They went south first, towards Mount Thawr.',
     belts: 'Asma used her belt to tie up their food bag. People called her “the one with two belts”.',
     web: 'One report says the searchers saw a spider’s web across the cave and walked away.',
     stations:
@@ -53,9 +59,9 @@ export const why_it_matters = {
     pursuit:
         'A man who set out to capture them left asking for their protection. The story is full of reversals like this.',
     tent: 'Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life.',
-    quba: 'The first thing built in the new home was a mosque, a centre for the whole community.',
+    quba: 'A mosque was founded at Quba, making worship a part of life in the new home.',
     arrival:
-        'Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts.',
+        'Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together.',
 }
 
 function term(id, word, meaning, match) {
@@ -118,7 +124,7 @@ export const glossary = [
     term(
         'ibnishaq',
         'Ibn Ishaq',
-        'An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive.',
+        'An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers.',
         ['Ibn Ishaq', 'ابن إسحاق'],
     ),
     term('thawr', 'Thawr', 'A mountain south of Makkah, with a small cave near its top.', [

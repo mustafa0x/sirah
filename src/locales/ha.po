@@ -57,6 +57,7 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "An dakatar da jagorancin tafiyar. An adana matsayinka."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "That chapter stop is not available."
 msgstr "Wannan tasha ta babin ba ta samuwa."
@@ -1040,16 +1041,6 @@ msgstr "Bai bayyana takamaiman wurin da aka zauna ba a tsakanin Bani 'Amr ibn 'A
 msgid "The passage does not name the place; identifying it as Quba rests on other reports."
 msgstr "Nassin bai ambaci sunan wurin ba; gano cewa Quba ne ya dogara ne a kan wasu ruwayoyin daban."
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Along the way"
-msgstr "A kan hanya"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Close detail"
-msgstr "Rufe daki-daki"
-
 #: src/content/first-chapter.js
 #, ai
 msgid "The night of departure"
@@ -1064,6 +1055,11 @@ msgstr "Shugabannin Quraysh sun taru a Dar al-Nadwah, gidan da suke yanke shawar
 #, ai
 msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
 msgstr "A wannan daren suka taru a kofar gidansa, suna jiran ya yi barci. Ya gaya wa 'Ali ya kwanta a gadonsa, ya lullube da koren mayafinsa, kuma ya tabbatar masa da cewa babu wata cutarwa da za ta same shi daga gare su."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "'Ali ya tsaya a baya saboda wani dalili na daban kuma. Mutane a Makkah suna barin kayayyakinsu masu daraja a wurin Annabi ﷺ don tsare musu, saboda sun san gaskiyarsa. 'Ali zai mayar da kowane guda daga cikinsu ga masu shi."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1114,11 +1110,6 @@ msgstr "Suka tsaya a tantin Umm Ma'bad; ba ta da komai face tunkiya marar madara
 #, ai
 msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
 msgstr "Ibn Kathir ya kira labarin da sananne, ta hanyoyin da ke tallafawa juna. Bai kayyade inda tantin yake ba."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "'Ali ya tsaya a baya saboda wani dalili na daban kuma. Mutane a Makkah suna barin kayayyakinsu masu daraja a wurin Annabi ﷺ don tsare musu, saboda sun san gaskiyarsa. 'Ali zai mayar da kowane guda daga cikinsu ga masu shi."
 
 #: src/content/details.js
 #: src/content/timeline.js
@@ -1308,103 +1299,13 @@ msgstr "Sarkar ruwayar ba ta kai ga wanda ya shaida da idonsa ba, kuma wasu suna
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence shown. Each point is a cited passage, coloured by kind."
-msgstr "An nuna hujjoji. Kowane batu nassi ne da aka ambata, an rarrabe su da launi dangane da ire-irensu."
+msgid "Along the way"
+msgstr "A kan hanya"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence hidden."
-msgstr "An ƙoye hujjoji."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide evidence on the map"
-msgstr "Ɛoye hujjoji a kan taswira"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show evidence on the map"
-msgstr "Nuna hujjoji a kan taswira"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide timeline"
-msgstr "Ɛoye jadawalin lokaci"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show timeline"
-msgstr "Nuna jadawalin lokaci"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "How each date is known"
-msgstr "Yadda aka san kowace rana"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Stated in the account"
-msgstr "<0/>An ambata a cikin ruwayar"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Reckoned later"
-msgstr "<0/>An lissafa daga baya"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Accounts differ"
-msgstr "<0/>Ruwayoyi sun bambanta"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Not dated"
-msgstr "<0/>Ba shi da kwanan wata"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The journey day by day · September 622"
-msgstr "Tafiyar rana bayan rana · Satumba 622"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Scrub through the days of the journey"
-msgstr "Bincika kwanakin tafiyar"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Go to this stage <0/>"
-msgstr "Je zuwa wannan matakin <0/>"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The Quran"
-msgstr "Alkur'ani"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hadith collections"
-msgstr "Tarin Hadisai"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Classical sirah and history"
-msgstr "Sira da tarihin gargajiya"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Modern authors"
-msgstr "Marubuta na zamani"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "Hujjoji a kan taswira"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "Kowane haske yana wakiltar nassin da aka ambata a wannan babin, an sanya shi a daidai inda yake magana a kai. Zaɓi ɗaya don karantawa."
+msgid "Close detail"
+msgstr "Rufe daki-daki"
 
 #: src/content/timeline.js
 #, ai
@@ -1507,58 +1408,104 @@ msgid "That it was a Friday is in the early reports. The calendar date is a mode
 msgstr "Kasancewar ranar Juma'a ce yana cikin tsofaffin rahotanni. Ranar kalanda kuwa lissafi ne na zamani, kuma ya biyo bayan zama na kwanaki hudu."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 #, ai
-msgid "Young learners"
-msgstr "Yara kanana"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "New to the story"
-msgstr "Sabo da labarin"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "In depth"
-msgstr "Daki-daki"
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "An nuna hujjoji. Kowane batu nassi ne da aka ambata, an rarrabe su da launi dangane da ire-irensu."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Mode"
-msgstr "Yanayin nuni"
+msgid "Evidence hidden."
+msgstr "An ƙoye hujjoji."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "How would you like to follow the journey?"
-msgstr "Yaya kake son bin tafiyar?"
+msgid "Hide evidence on the map"
+msgstr "Ɛoye hujjoji a kan taswira"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Six short stages, in simple words."
-msgstr "Gajerun matakai guda shida, cikin sauƙaƙan kalmomi."
+msgid "Show evidence on the map"
+msgstr "Nuna hujjoji a kan taswira"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms explained, and why each stage matters."
-msgstr "Bayanin kalmomi, da kuma dalilin da ya sa kowane mataki yake da muhimmanci."
+msgid "Hide timeline"
+msgstr "Ɛoye jadawalin lokaci"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Every detail, with the evidence and the timeline open."
-msgstr "Duk wani daki-daki, tare da hujjoji da jadawalin lokaci a bude."
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "Why this matters:"
-msgstr "Dalilin da ya sa wannan yake da muhimmanci:"
+msgid "Show timeline"
+msgstr "Nuna jadawalin lokaci"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms"
-msgstr "Kalmomi"
+msgid "How each date is known"
+msgstr "Yadda aka san kowace rana"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Stated in the account"
+msgstr "<0/>An ambata a cikin ruwayar"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Reckoned later"
+msgstr "<0/>An lissafa daga baya"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Accounts differ"
+msgstr "<0/>Ruwayoyi sun bambanta"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Not dated"
+msgstr "<0/>Ba shi da kwanan wata"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The journey day by day · September 622"
+msgstr "Tafiyar rana bayan rana · Satumba 622"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Scrub through the days of the journey"
+msgstr "Bincika kwanakin tafiyar"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Go to this stage <0/>"
+msgstr "Je zuwa wannan matakin <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Quran"
+msgstr "Alkur'ani"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hadith collections"
+msgstr "Tarin Hadisai"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Classical sirah and history"
+msgstr "Sira da tarihin gargajiya"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Modern authors"
+msgstr "Marubuta na zamani"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence on the map"
+msgstr "Hujjoji a kan taswira"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "Kowane haske yana wakiltar nassin da aka ambata a wannan babin, an sanya shi a daidai inda yake magana a kai. Zaɓi ɗaya don karantawa."
 
 #: src/content/lenses.js
 #, ai
@@ -1569,21 +1516,6 @@ msgstr "Wannan shi ne labarin Hijrah: lokacin da Annabi Muhammadu ﷺ ya yi hiji
 #, ai
 msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
 msgstr "Musulmai da yawa sun riga sun tafi. Abokinsa na gari, Abu Bakr, ya jira domin su yi tafiyar tare."
-
-#: src/content/lenses.js
-#, ai
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "A Makkah, shugabannin Quraysh sun taru domin kulla makirci ga Annabi ﷺ."
-
-#: src/content/lenses.js
-#, ai
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "A daren nan suka jira a wajen kofarsa. Ali ya kwanta cikin gajartacciyar jarunta a gadon Annabi, sanye da koren mayafinsa."
-
-#: src/content/lenses.js
-#, ai
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "Mutane suna ajiye kayayyakinsu masu daraja a wurin Annabi ﷺ saboda amincinsa. Ali ya tsaya a baya domin ya mayar wa kowa kayansa."
 
 #: src/content/lenses.js
 #, ai
@@ -1627,16 +1559,6 @@ msgstr "Suraqah ya daina binsu. Abin da kawai suka nema a gare shi shi ne ya boy
 
 #: src/content/lenses.js
 #, ai
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "Sun tsaya a tantin wata mace mai suna Umm Ma'bad. Ba ta da abinci, sai tunkiya guda daya kacal siririya wadda ba ta da madara."
-
-#: src/content/lenses.js
-#, ai
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "Annabi ﷺ ya yi addu'a sannan ya tatse madarar tunkiyar, sai madarar ta wadaci kowa."
-
-#: src/content/lenses.js
-#, ai
 msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 msgstr "A karshe sun isa Madinah! Rakumar Annabi ta ratsa ta cikin gari sannan ta durkusa a wani fili."
 
@@ -1654,11 +1576,6 @@ msgstr "Wata rana da rana mai zafi, Annabi ﷺ ya zo gidan Abu Bakr da wani babb
 #, ai
 msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
 msgstr "Abu Bakr ya kwashe dukkan dukiyarsa domin tafiyar. Diyarsa Asma ta sanya duwatsu a madadin kudin domin ta kwantar da hankalin kakanta wanda ba ya gani."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "Madina tana bangaren arewa ne, don haka suka fara nufar kudu, zuwa Dutsen Thawr, inda babu wanda zai yi tunanin nemansu a can."
 
 #: src/content/lenses.js
 #, ai
@@ -1739,16 +1656,6 @@ msgstr "Wani mutum da ya fito domin ya kamo su, ya koma yana neman kariyarsu. La
 #, ai
 msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
 msgstr "Kyakkyawar karbar baki daga baki, da albarka a cikin abu kalilan, suna bayyana a daukacin rayuwar Annabi."
-
-#: src/content/lenses.js
-#, ai
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "Abu na farko da aka gina a sabon gidan shi ne masallaci, wanda ya kasance cibiyar daukacin al'umma."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "Madina ta zama al'ummar Musulmi ta farko, wacce aka gina ta a kan 'yan uwantaka tsakanin baki da masu masaukin baki."
 
 #: src/content/lenses.js
 #, ai
@@ -1837,11 +1744,6 @@ msgid "Ibn Ishaq"
 msgstr "Ibn Ishaq"
 
 #: src/content/lenses.js
-#, ai
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "Masanin tarihi na karni na takwas wanda tarihin rayuwar Annabi ﷺ da ya rubuta shi ne mafi dadewa da ya tsira."
-
-#: src/content/lenses.js
 #: src/content/lenses.js
 #, ai
 msgid "Thawr"
@@ -1876,3 +1778,178 @@ msgstr "Rahoto daga tarihin farko na rayuwar Annabi. Suna tattara bayanai da dam
 #, ai
 msgid "A modern author’s explanation or calculation, built on the early sources."
 msgstr "Bayani ko lissafi na marubucin zamani, wanda aka gina shi a kan tsofaffin majiyoyi."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Young learners"
+msgstr "Yara kanana"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "New to the story"
+msgstr "Sabo da labarin"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "In depth"
+msgstr "Daki-daki"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Mode"
+msgstr "Yanayin nuni"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How would you like to follow the journey?"
+msgstr "Yaya kake son bin tafiyar?"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Six short stages, in simple words."
+msgstr "Gajerun matakai guda shida, cikin sauƙaƙan kalmomi."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms explained, and why each stage matters."
+msgstr "Bayanin kalmomi, da kuma dalilin da ya sa kowane mataki yake da muhimmanci."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "Duk wani daki-daki, tare da hujjoji da jadawalin lokaci a bude."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Why this matters:"
+msgstr "Dalilin da ya sa wannan yake da muhimmanci:"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms"
+msgstr "Kalmomi"
+
+#: src/content/lenses.js
+msgid "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+msgstr "Abubakar ya shirya raƙuma biyu. Asma'u ta taimaka wajen haɗa guzurin tafiya."
+
+#: src/content/lenses.js
+msgid "They chose a guide who knew the roads well. He would bring their camels after three nights."
+msgstr "Sun zaɓi jagora wanda ya san hanyoyi sosai. Zai kawo musu raƙumansu bayan kwana uku."
+
+#: src/content/lenses.js
+msgid "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+msgstr "Wani tsohon labari ya bayyana yadda shugabannin ƙuraishawa suka haɗu a Makka don ƙulla makirci ga Annabi ﷺ."
+
+#: src/content/lenses.js
+msgid "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+msgstr "Labarin ya ce sun jira a wajen ƙofarsa a wannan daren, yayin da Ali yake kwance a gadonsa, a lulluɓe da koren mayafinsa."
+
+#: src/content/lenses.js
+msgid "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+msgstr "Bayan kwana uku, jagoran nasu ya kawo raƙuman. Suka fita daga kogon suka nufi Madina."
+
+#: src/content/lenses.js
+msgid "They took a route near the coast. The journey was long, with many stops along the way."
+msgstr "Sun bi hanyar kusa da gaɓar teku. Tafiyar ta yi tsawo, tare da tsayawa a wurare da yawa a kan hanya."
+
+#: src/content/lenses.js
+msgid "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+msgstr "Wani labarin kuma ya bayyana tsayawarsu a tantin Ummu Ma'bad. Tana da wata siririyar tunkiya da ba ta ba da madara."
+
+#: src/content/lenses.js
+msgid "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "Ya ce Annabi ﷺ ya yi addu'a kuma ya tatsi tunkiyar, aka samu madara ga kowa da kowa."
+
+#: src/content/lenses.js
+msgid "They first stopped at Quba, near Madinah, where a mosque was founded."
+msgstr "Sun fara sauka a Quba, kusa da Madina, inda aka kafa masallaci."
+
+#: src/content/lenses.js
+msgid "Madinah is to the north. They went south first, towards Mount Thawr."
+msgstr "Madina tana wajen arewa ne. Da farko sun nufi kudu, zuwa dutsen Thawr."
+
+#: src/content/lenses.js
+msgid "A mosque was founded at Quba, making worship a part of life in the new home."
+msgstr "An kafa masallaci a Quba, wanda ya mai da bauta wani ɓangare na rayuwa a sabon gida."
+
+#: src/content/lenses.js
+msgid "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+msgstr "Madina ta zama gida ga al'ummar musulmi da ke haɓaka, inda aka haɗa baƙi da masu masaukinsu wuri ɗaya."
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+msgstr "Wani masanin tarihi na ƙarni na takwas wanda marubuta na gaba suka adana labaransa game da rayuwar Annabi."
+
+#: src/routes/Journey.svelte
+msgid "Mode changed. Your place is saved."
+msgstr "An canza yanayi. An ajiye inda kake."
+
+#: src/content/lenses.js
+msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+msgstr "‘Ali ya tsaya a baya domin ya mayar da kayayyaki masu daraja da mutane suka bari a wurin Annabi ﷺ."
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah"
+msgstr "makka"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah_valley"
+msgstr "kwarin makka"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "cave"
+msgstr "kogo"
+
+#: src/lib/scene-manifest.js
+msgid "thawr"
+msgstr "thawr"
+
+#: src/lib/scene-manifest.js
+msgid "coast"
+msgstr "bakin teku"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "road"
+msgstr "hanya"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "tent"
+msgstr "tenti"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "quba"
+msgstr "quba"
+
+#: src/lib/scene-manifest.js
+msgid "madinah"
+msgstr "madina"
+
+#: src/lib/scene-manifest.js
+msgid "E09"
+msgstr "E09"
+
+#: src/lib/scene-manifest.js
+msgid "horse"
+msgstr "doki"
+
+#: src/content/lenses.js
+msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+msgstr "A Madina, Musulmai sun fita domin jiran Annabi ﷺ. Labarin isowar ya bayyana yadda suka tarbe shi."

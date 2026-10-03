@@ -57,6 +57,7 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "Begeleide presentatie gepauzeerd. Je positie is opgeslagen."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "That chapter stop is not available."
 msgstr "Die hoofdstukstop is niet beschikbaar."
@@ -1040,16 +1041,6 @@ msgstr "Het geeft geen exacte locatie voor het verblijf bij Bani ‘Amr ibn ‘A
 msgid "The passage does not name the place; identifying it as Quba rests on other reports."
 msgstr "De passage noemt de plaatsnaam niet; de identificatie als Quba rust op andere overleveringen."
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Along the way"
-msgstr "Langs de weg"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Close detail"
-msgstr "Sluit detail"
-
 #: src/content/first-chapter.js
 #, ai
 msgid "The night of departure"
@@ -1064,6 +1055,11 @@ msgstr "De leiders van Quraysh kwamen bijeen in Dar al-Nadwah, het huis waar zij
 #, ai
 msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
 msgstr "Die nacht verzamelden ze zich bij zijn deur, wachtend tot hij zou slapen. Hij droeg ‘Ali op om in zijn bed te gaan liggen, gewikkeld in zijn groene mantel, en verzekerde hem dat hen geen kwaad van hen zou overkomen."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "‘Ali bleef ook om een andere reden achter. Mensen in Makkah lieten hun waardevolle spullen achter bij de Profeet ﷺ om ze veilig te bewaren, omdat ze zijn eerlijkheid kenden. ‘Ali moest ze allemaal teruggeven."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1114,11 +1110,6 @@ msgstr "Ze stopten bij de tent van Umm Ma‘bad; ze had alleen een ooi zonder me
 #, ai
 msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
 msgstr "Ibn Kathir noemt het verhaal bekend, via wegen die elkaar ondersteunen. Het stelt niet vast waar de tent stond."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "‘Ali bleef ook om een andere reden achter. Mensen in Makkah lieten hun waardevolle spullen achter bij de Profeet ﷺ om ze veilig te bewaren, omdat ze zijn eerlijkheid kenden. ‘Ali moest ze allemaal teruggeven."
 
 #: src/content/details.js
 #: src/content/timeline.js
@@ -1308,103 +1299,13 @@ msgstr "De keten van overlevering stopt v##r een ooggetuige, en sommigen plaatse
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence shown. Each point is a cited passage, coloured by kind."
-msgstr "Bewijs getoond. Elk punt is een geciteerde passage, gekleurd per categorie."
+msgid "Along the way"
+msgstr "Langs de weg"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence hidden."
-msgstr "Bewijs verborgen."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide evidence on the map"
-msgstr "Bewijs verbergen op de kaart"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show evidence on the map"
-msgstr "Bewijs tonen op de kaart"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide timeline"
-msgstr "Tijdlijn verbergen"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show timeline"
-msgstr "Tijdlijn tonen"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "How each date is known"
-msgstr "Hoe elke datum bekend is"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Stated in the account"
-msgstr "<0/>Genemd in het verslag"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Reckoned later"
-msgstr "<0/>Achteraf berekend"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Accounts differ"
-msgstr "<0/>Verslagen verschillen"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Not dated"
-msgstr "<0/>Ongecodeerd"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The journey day by day · September 622"
-msgstr "De reis van dag tot dag · september 622"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Scrub through the days of the journey"
-msgstr "Blader door de dagen van de reis"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Go to this stage <0/>"
-msgstr "Ga naar deze etappe <0/>"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The Quran"
-msgstr "De Koran"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hadith collections"
-msgstr "Hadith-verzamelingen"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Classical sirah and history"
-msgstr "Klassieke sirah en geschiedschrijving"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Modern authors"
-msgstr "Moderne auteurs"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "Bewijs op de kaart"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "Elk lichtpunt is een passage die in dit hoofdstuk wordt geciteerd, geplaatst op de plek waarover het spreekt. Selecteer een punt om het te lezen."
+msgid "Close detail"
+msgstr "Sluit detail"
 
 #: src/content/timeline.js
 #, ai
@@ -1507,58 +1408,104 @@ msgid "That it was a Friday is in the early reports. The calendar date is a mode
 msgstr "Dat het een vrijdag was, staat in de vroege verslagen. De kalenderdatum is een moderne berekening en volgt op het vierdaagse verblijf."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 #, ai
-msgid "Young learners"
-msgstr "Jonge leerlingen"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "New to the story"
-msgstr "Nieuw bij het verhaal"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "In depth"
-msgstr "Diepgaand"
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "Bewijs getoond. Elk punt is een geciteerde passage, gekleurd per categorie."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Mode"
-msgstr "Modus"
+msgid "Evidence hidden."
+msgstr "Bewijs verborgen."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "How would you like to follow the journey?"
-msgstr "Hoe wil je de reis volgen?"
+msgid "Hide evidence on the map"
+msgstr "Bewijs verbergen op de kaart"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Six short stages, in simple words."
-msgstr "Zes korte etappes, in eenvoudige woorden."
+msgid "Show evidence on the map"
+msgstr "Bewijs tonen op de kaart"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms explained, and why each stage matters."
-msgstr "Uitleg van termen en waarom elke etappe belangrijk is."
+msgid "Hide timeline"
+msgstr "Tijdlijn verbergen"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Every detail, with the evidence and the timeline open."
-msgstr "Elk detail, met het bewijs en de tijdlijn open."
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "Why this matters:"
-msgstr "Waarom dit belangrijk is:"
+msgid "Show timeline"
+msgstr "Tijdlijn tonen"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms"
-msgstr "Termen"
+msgid "How each date is known"
+msgstr "Hoe elke datum bekend is"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Stated in the account"
+msgstr "<0/>Genemd in het verslag"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Reckoned later"
+msgstr "<0/>Achteraf berekend"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Accounts differ"
+msgstr "<0/>Verslagen verschillen"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Not dated"
+msgstr "<0/>Ongecodeerd"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The journey day by day · September 622"
+msgstr "De reis van dag tot dag · september 622"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Scrub through the days of the journey"
+msgstr "Blader door de dagen van de reis"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Go to this stage <0/>"
+msgstr "Ga naar deze etappe <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Quran"
+msgstr "De Koran"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hadith collections"
+msgstr "Hadith-verzamelingen"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Classical sirah and history"
+msgstr "Klassieke sirah en geschiedschrijving"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Modern authors"
+msgstr "Moderne auteurs"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence on the map"
+msgstr "Bewijs op de kaart"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "Elk lichtpunt is een passage die in dit hoofdstuk wordt geciteerd, geplaatst op de plek waarover het spreekt. Selecteer een punt om het te lezen."
 
 #: src/content/lenses.js
 #, ai
@@ -1569,21 +1516,6 @@ msgstr "Dit is het verhaal van de Hijrah: toen de Profeet Mohammed ﷺ van Makka
 #, ai
 msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
 msgstr "Veel moslims waren al vooruitgegaan. Zijn beste vriend, Abu Bakr, wachtte zodat ze samen konden reizen."
-
-#: src/content/lenses.js
-#, ai
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "In Makkah kwamen de leiders van Quraysh bijeen om plannen te smeden tegen de Profeet ﷺ."
-
-#: src/content/lenses.js
-#, ai
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "Die nacht wachtten ze buiten zijn deur. ‘Ali sliep dapper in het bed van de Profeet, gewikkeld in zijn groene mantel."
-
-#: src/content/lenses.js
-#, ai
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "Mensen gaven hun kostbare spullen in bewaring bij de Profeet ﷺ omdat hij zo betrouwbaar was. ‘Ali bleef achter om ze allemaal terug te geven."
 
 #: src/content/lenses.js
 #, ai
@@ -1627,16 +1559,6 @@ msgstr "Suraqah gaf de achtervolging op. Ze vroegen hem alleen om hun geheim te 
 
 #: src/content/lenses.js
 #, ai
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "Ze stopten bij de tent van een vrouw genaamd Umm Ma‘bad. Ze had geen eten, en slechts één mager schaap zonder melk."
-
-#: src/content/lenses.js
-#, ai
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "De Profeet ﷺ bad en molk het schaap, en er was melk voor iedereen."
-
-#: src/content/lenses.js
-#, ai
 msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 msgstr "Eindelijk bereikten ze Madinah! De kameel van de Profeet liep door de stad en knielde neer op een open erf."
 
@@ -1654,11 +1576,6 @@ msgstr "Op een hete middag kwam de Profeet ﷺ naar het huis van Abu Bakr met gr
 #, ai
 msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
 msgstr "Abu Bakr nam al zijn geld mee voor de reis. Zijn dochter Asma legde in plaats daarvan stenen neer om haar grootvader, die niet kon zien, gerust te stellen."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "Madinah ligt in het noorden, dus gingen ze eerst naar het zuiden, naar de berg Thawr, waar niemand zou zoeken."
 
 #: src/content/lenses.js
 #, ai
@@ -1739,16 +1656,6 @@ msgstr "Een man die op pad ging om hen gevangen te nemen, vertrok terwijl hij om
 #, ai
 msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
 msgstr "Gastvrijheid van vreemden en zegening in het weinige lopen als een rode draad door het hele leven van de Profeet."
-
-#: src/content/lenses.js
-#, ai
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "Het eerste wat in het nieuwe thuis werd gebouwd was een moskee, een centrum voor de hele gemeenschap."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "Madinah werd de eerste moslimgemeenschap, gebouwd op broederschap tussen de nieuwkomers en hun gastheren."
 
 #: src/content/lenses.js
 #, ai
@@ -1837,11 +1744,6 @@ msgid "Ibn Ishaq"
 msgstr "Ibn Ishaq"
 
 #: src/content/lenses.js
-#, ai
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "Een achtste-eeuwse historicus wiens biografie van de Profeet ﷺ de vroegst overgeleverde is."
-
-#: src/content/lenses.js
 #: src/content/lenses.js
 #, ai
 msgid "Thawr"
@@ -1876,3 +1778,178 @@ msgstr "Een verslag uit de vroege geschiedschrijving over het leven van de Profe
 #, ai
 msgid "A modern author’s explanation or calculation, built on the early sources."
 msgstr "De uitleg of berekening van een moderne auteur, gebaseerd op de vroege bronnen."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Young learners"
+msgstr "Jonge leerlingen"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "New to the story"
+msgstr "Nieuw bij het verhaal"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "In depth"
+msgstr "Diepgaand"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Mode"
+msgstr "Modus"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How would you like to follow the journey?"
+msgstr "Hoe wil je de reis volgen?"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Six short stages, in simple words."
+msgstr "Zes korte etappes, in eenvoudige woorden."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms explained, and why each stage matters."
+msgstr "Uitleg van termen en waarom elke etappe belangrijk is."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "Elk detail, met het bewijs en de tijdlijn open."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Why this matters:"
+msgstr "Waarom dit belangrijk is:"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms"
+msgstr "Termen"
+
+#: src/content/lenses.js
+msgid "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+msgstr "Aboe Bakr maakte twee kamelen klaar. Asma hielp met het inpakken van eten voor de reis."
+
+#: src/content/lenses.js
+msgid "They chose a guide who knew the roads well. He would bring their camels after three nights."
+msgstr "Ze kozen een gids die de wegen goed kende. Hij zou na drie nachten hun kamelen brengen."
+
+#: src/content/lenses.js
+msgid "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+msgstr "Een vroeg verslag vertelt hoe de leiders van Qoeraisj in Mekka bijeenkwamen om plannen te smeden tegen de Profeet ﷺ."
+
+#: src/content/lenses.js
+msgid "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+msgstr "Het verslag zegt dat ze die nacht buiten zijn deur wachtten, terwijl Ali in zijn bed sliep, gewikkeld in zijn groene mantel."
+
+#: src/content/lenses.js
+msgid "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+msgstr "Na drie nachten bracht hun gids de kamelen. Ze verlieten de grot en reisden richting Medina."
+
+#: src/content/lenses.js
+msgid "They took a route near the coast. The journey was long, with many stops along the way."
+msgstr "Ze namen een route dicht bij de kust. De reis was lang, met veel tussenstops onderweg."
+
+#: src/content/lenses.js
+msgid "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+msgstr "Een ander verslag beschrijft een tussenstop bij de tent van Oemm Ma'bad. Ze had een mager schaap dat geen melk gaf."
+
+#: src/content/lenses.js
+msgid "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "Er staat dat de Profeet ﷺ bad en het schaap molk, en er was melk voor iedereen."
+
+#: src/content/lenses.js
+msgid "They first stopped at Quba, near Madinah, where a mosque was founded."
+msgstr "Ze stopten eerst in Qoeba, dicht bij Medina, waar een moskee werd gesticht."
+
+#: src/content/lenses.js
+msgid "Madinah is to the north. They went south first, towards Mount Thawr."
+msgstr "Medina ligt in het noorden. Ze gingen eerst naar het zuiden, richting de berg Thawr."
+
+#: src/content/lenses.js
+msgid "A mosque was founded at Quba, making worship a part of life in the new home."
+msgstr "In Qoeba werd een moskee gesticht, waardoor aanbidding een deel van het leven werd in het nieuwe thuis."
+
+#: src/content/lenses.js
+msgid "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+msgstr "Medina werd een thuis voor de groeiende moslimgemeenschap en bracht nieuwkomers en hun gastheren samen."
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+msgstr "Een achtste-eeuwse historicus wiens verslagen over het leven van de Profeet door latere schrijvers bewaard zijn gebleven."
+
+#: src/routes/Journey.svelte
+msgid "Mode changed. Your place is saved."
+msgstr "Modus gewijzigd. Je plek is opgeslagen."
+
+#: src/content/lenses.js
+msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+msgstr "‘Ali bleef achter om de kostbaarheden terug te geven die mensen bij de Profeet ﷺ hadden achtergelaten."
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah"
+msgstr "mekka"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah_valley"
+msgstr "mekka-vallei"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "cave"
+msgstr "grot"
+
+#: src/lib/scene-manifest.js
+msgid "thawr"
+msgstr "thawr"
+
+#: src/lib/scene-manifest.js
+msgid "coast"
+msgstr "kust"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "road"
+msgstr "weg"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "tent"
+msgstr "tent"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "quba"
+msgstr "quba"
+
+#: src/lib/scene-manifest.js
+msgid "madinah"
+msgstr "medina"
+
+#: src/lib/scene-manifest.js
+msgid "E09"
+msgstr "E09"
+
+#: src/lib/scene-manifest.js
+msgid "horse"
+msgstr "paard"
+
+#: src/content/lenses.js
+msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+msgstr "In Medina gingen moslims naar buiten om te wachten op de Profeet ﷺ. Het verslag van de aankomst vertelt hoe ze hem verwelkomden."

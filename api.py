@@ -286,7 +286,7 @@ def guide_response(payload: Any, provider: LocalGuideProvider | OpenAIGuideProvi
     ):
         raise BoundaryError('context recent_turns are invalid')
     audience = context.get('audience', 'deep')
-    if audience not in {'young', 'new', 'deep'}:
+    if not isinstance(audience, str) or audience not in {'young', 'new', 'deep'}:
         raise BoundaryError('context audience is invalid')
     if isinstance(provider, OpenAIGuideProvider):
         return provider.answer(

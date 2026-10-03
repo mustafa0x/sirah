@@ -57,6 +57,7 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "Soo-bandhigiddii laguu hagayay waa la hakiyay. Booskaagii waa la kaydiyay."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "That chapter stop is not available."
 msgstr "Joogsiga cutubkaas ma heli karo."
@@ -1040,16 +1041,6 @@ msgstr "Ma sheegayso meel sax ah oo ku saabsan joogitaankii dhexdiisa Bani ‘Am
 msgid "The passage does not name the place; identifying it as Quba rests on other reports."
 msgstr "Qoraalku ma magacaabayo meesha; u aqoonsashada inay tahay Quba waxay ku tiirsan tahay warbixinno kale."
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Along the way"
-msgstr "Dabada jidka"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Close detail"
-msgstr "Xidh faahfaahinta"
-
 #: src/content/first-chapter.js
 #, ai
 msgid "The night of departure"
@@ -1064,6 +1055,11 @@ msgstr "Hogaamiyayaashii Quraysh waxay ku kulmeen Dar al-Nadwah, gurigii ay ku x
 #, ai
 msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
 msgstr "Habeenkaas waxay ku soo urureen albaabkiisa, iyagoo sugaya inuu seexdo. Wuxuu ku yiri ‘Ali inuu ku seexdo sariirtiisa, isagoo ku duuban go'iisii cagaarnaa, wuxuuna u xaqiijiyay inaan wax dhib ah oo xaggooda ka imaanaya uusan soo gaari doonin."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "‘Ali wuxuu u dib dhacay sabab kale darteedna. Dadka jooga Makkah waxay agabkooda qaaliga ah u reebi jireen Nabiga ﷺ si uu u ilaaliyo, sababtoo ah waxay ogaayeen runtiisa iyo ammaanadiisa. ‘Ali wuxuu ahaa inuu mid kasta oo iyaga ka mid ah u celiyo."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1114,11 +1110,6 @@ msgstr "Waxay ku joogsadeen teendhadii Umm Ma‘bad; waxay haysatay oo keliya la
 #, ai
 msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
 msgstr "Ibn Kathir wuxuu ugu yeeray sheekada mid caan ah, iyadoo loo marayo waddooyin is taageeraya. Ma go'aaminayso halka ay teendhadu ku taallay."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "‘Ali wuxuu u dib dhacay sabab kale darteedna. Dadka jooga Makkah waxay agabkooda qaaliga ah u reebi jireen Nabiga ﷺ si uu u ilaaliyo, sababtoo ah waxay ogaayeen runtiisa iyo ammaanadiisa. ‘Ali wuxuu ahaa inuu mid kasta oo iyaga ka mid ah u celiyo."
 
 #: src/content/details.js
 #: src/content/timeline.js
@@ -1308,103 +1299,13 @@ msgstr "Silsiladda wariyayaasha ma gaarayso qof goobjoog ahaa, qaarna waxay hees
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence shown. Each point is a cited passage, coloured by kind."
-msgstr "Caddaymaha waa la muujiyey. Qodob kastaa waa nuskho laga soo xigtay ilo, waxaana loo midabeeyey si waafaqsan noociisa."
+msgid "Along the way"
+msgstr "Dabada jidka"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence hidden."
-msgstr "Caddaymaha waa la qariyey."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide evidence on the map"
-msgstr "Ku qari caddaymaha khariidadda"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show evidence on the map"
-msgstr "Ku muuji caddaymaha khariidadda"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide timeline"
-msgstr "Qari khadka waqtiga"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show timeline"
-msgstr "Muuji khadka waqtiga"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "How each date is known"
-msgstr "Sida loo ogaaday taariikh kasta"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Stated in the account"
-msgstr "<0/>Waxay ku xusan tahay wariyada"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Reckoned later"
-msgstr "<0/>Waa la xisaabiyey dambe"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Accounts differ"
-msgstr "<0/>Wariyadaha waa ay ku kala duwan yihiin"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Not dated"
-msgstr "<0/>Ma taariikhaysna"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The journey day by day · September 622"
-msgstr "Safarka maalinba maalin · Sebteembar 622"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Scrub through the days of the journey"
-msgstr "U kala gudub maalmaha safarka"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Go to this stage <0/>"
-msgstr "Aad marxaladdan <0/>"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The Quran"
-msgstr "Qur'aanka"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hadith collections"
-msgstr "Kutubta Xadiiska"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Classical sirah and history"
-msgstr "Siirooyinka qadiimiga ah iyo taariikhda"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Modern authors"
-msgstr "Qorayaasha casriga ah"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "Caddaymaha khariidadda ku yaal"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "Dhibic kasta oo ifaysa waa nuskho laga soo xigtay cutubkan, waxaana la dhigay meesha ay ka hadlayso. Dooro mid si aad u akhrisato."
+msgid "Close detail"
+msgstr "Xidh faahfaahinta"
 
 #: src/content/timeline.js
 #, ai
@@ -1507,58 +1408,104 @@ msgid "That it was a Friday is in the early reports. The calendar date is a mode
 msgstr "Inay ahayd maalin Jimco ah waxay ku jirtaa warbixinnadii hore. Taariikhda kalandarka waa xisaab dambe oo casri ah, waxayna raacaysaa joogitaankii afarta casho ahaa."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 #, ai
-msgid "Young learners"
-msgstr "Ardayda yaryar"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "New to the story"
-msgstr "Kuwa ku cusub sheekada"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "In depth"
-msgstr "Si qoto dheer"
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "Caddaymaha waa la muujiyey. Qodob kastaa waa nuskho laga soo xigtay ilo, waxaana loo midabeeyey si waafaqsan noociisa."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Mode"
-msgstr "Habka"
+msgid "Evidence hidden."
+msgstr "Caddaymaha waa la qariyey."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "How would you like to follow the journey?"
-msgstr "Sideed jeceshahay inaad u raacdo safarka?"
+msgid "Hide evidence on the map"
+msgstr "Ku qari caddaymaha khariidadda"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Six short stages, in simple words."
-msgstr "Lix marxaladood oo gaagaaban, oo lagu qoray ereyo fudud."
+msgid "Show evidence on the map"
+msgstr "Ku muuji caddaymaha khariidadda"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms explained, and why each stage matters."
-msgstr "Ereyada oo la sharraxay, iyo sababta ay marxalad kasta muhiim u tahay."
+msgid "Hide timeline"
+msgstr "Qari khadka waqtiga"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Every detail, with the evidence and the timeline open."
-msgstr "Faahfaahin kasta, iyadoo caddaymaha iyo khadka wakhtiga ay furan yihiin."
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "Why this matters:"
-msgstr "Sababta ay tani muhiim u tahay:"
+msgid "Show timeline"
+msgstr "Muuji khadka waqtiga"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms"
-msgstr "Ereyada"
+msgid "How each date is known"
+msgstr "Sida loo ogaaday taariikh kasta"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Stated in the account"
+msgstr "<0/>Waxay ku xusan tahay wariyada"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Reckoned later"
+msgstr "<0/>Waa la xisaabiyey dambe"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Accounts differ"
+msgstr "<0/>Wariyadaha waa ay ku kala duwan yihiin"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Not dated"
+msgstr "<0/>Ma taariikhaysna"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The journey day by day · September 622"
+msgstr "Safarka maalinba maalin · Sebteembar 622"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Scrub through the days of the journey"
+msgstr "U kala gudub maalmaha safarka"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Go to this stage <0/>"
+msgstr "Aad marxaladdan <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Quran"
+msgstr "Qur'aanka"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hadith collections"
+msgstr "Kutubta Xadiiska"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Classical sirah and history"
+msgstr "Siirooyinka qadiimiga ah iyo taariikhda"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Modern authors"
+msgstr "Qorayaasha casriga ah"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence on the map"
+msgstr "Caddaymaha khariidadda ku yaal"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "Dhibic kasta oo ifaysa waa nuskho laga soo xigtay cutubkan, waxaana la dhigay meesha ay ka hadlayso. Dooro mid si aad u akhrisato."
 
 #: src/content/lenses.js
 #, ai
@@ -1569,21 +1516,6 @@ msgstr "Tani waa sheekadii Hijrada: markii uu Nabiga ﷺ ka safray Makkah isagoo
 #, ai
 msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
 msgstr "Muslimiin badan ayaa horay u sii baxay. Saaxiibkiisii ugu dhawaa, ee Abu Bakar, ayaa sugay si ay u wada safraan."
-
-#: src/content/lenses.js
-#, ai
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "Makkah dhexdeeda, madaxdii Qureysh ayaa ku kulmay si ay shirqool ugu maleegaan Nabiga ﷺ."
-
-#: src/content/lenses.js
-#, ai
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "Habeenkaas waxay ku sugeen albaabkiisa bannaankiisa. Cali wuxuu si geesinnimo leh u seexday sariirtii Nabiga, isagoo isku duubay go'iisii cagaarnaa."
-
-#: src/content/lenses.js
-#, ai
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "Dadku waxay alaabtooda qaaliga ah u dhiiban jireen Nabiga ﷺ sababtoo ah wuxuu ahaa mid aad u aamin ah. Cali ayaa dib u haray si uu mid kasta oo iyaga ka mid ah ugu celiyo alaabtiisa."
 
 #: src/content/lenses.js
 #, ai
@@ -1627,16 +1559,6 @@ msgstr "Suraaqah wuu iska daayay eryashadii. Waxay ka codsadeen oo keliya inuu q
 
 #: src/content/lenses.js
 #, ai
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "Waxay ku horteen teendhada haweenay la oran jiray Umm Macbad. Ma ay haysan wax cunto ah, waxayna lahayd oo keliya hal ari ah oo caato ah oo aan caano lahayn."
-
-#: src/content/lenses.js
-#, ai
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "Nabiga ﷺ ayaa duceeyay ka dibna gartay arigii, waxaana soo baxay caano ku filan qof kasta."
-
-#: src/content/lenses.js
-#, ai
 msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 msgstr "Ugu dambayntii waxay gaareen Madiina! Haladii Nabiga waxay dhex martay magaalada waxayna ku fariisatay barxad bannaan."
 
@@ -1654,11 +1576,6 @@ msgstr "Maalin duhur kulul ah, Nabiga ﷺ ayaa yimid guriga Abu Bakar isagoo wad
 #, ai
 msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
 msgstr "Abuu Bakr wuxuu safarka u qaatay dhammaan lacagtiisii. Gabadhiisa Asma ayaa dhagaxaan ku beddeshay si ay u dhiirigeliso awowgeed oo aan waxba arki karin."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "Madiina waxay xigtaa dhanka waqooyi, sidaas darteed waxay marka hore aadeen dhanka koonfureed, ee Buurta Thawr, halkaas oo aan cidna ka raadin lahayn."
 
 #: src/content/lenses.js
 #, ai
@@ -1739,16 +1656,6 @@ msgstr "Nin u soo baxay inuu soo qabto ayaa ka tagay isagoo weydiisanaya badbaad
 #, ai
 msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
 msgstr "Martisooridda dadka qariibka ah, iyo barakada waxa aadka u yar, waxay dhex maraan nolosha Nabiga oo dhan."
-
-#: src/content/lenses.js
-#, ai
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "Wixii ugu horreeyay ee laga dhisay guriga cusub wuxuu ahaa masaajid, kaas oo xuddun u ahaa bulshada oo dhan."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "Madiina waxay noqotay bulshadii ugu horreysay ee Muslim ah, taas oo ku dhisneyd walaaltinnimo dhexmarta dadka cusub iyo martigeliyayaashooda."
 
 #: src/content/lenses.js
 #, ai
@@ -1837,11 +1744,6 @@ msgid "Ibn Ishaq"
 msgstr "Ibn Isxaaq"
 
 #: src/content/lenses.js
-#, ai
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "Taariikhyahan qarnigii sideedaad noolaa kaas oo taariikh-nololeedkii uu ka qoray Nebiga ﷺ ay tahay tii ugu horreysay ee badbaadday."
-
-#: src/content/lenses.js
 #: src/content/lenses.js
 #, ai
 msgid "Thawr"
@@ -1876,3 +1778,178 @@ msgstr "Warbixin ka timid taariikhihii hore ee nolosha Nebiga. Waxay kulmiyaan w
 #, ai
 msgid "A modern author’s explanation or calculation, built on the early sources."
 msgstr "Sharaxaad ama xisaabin uu sameeyay qoraa casri ah, oo ku dhisana ilaha hore."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Young learners"
+msgstr "Ardayda yaryar"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "New to the story"
+msgstr "Kuwa ku cusub sheekada"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "In depth"
+msgstr "Si qoto dheer"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Mode"
+msgstr "Habka"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How would you like to follow the journey?"
+msgstr "Sideed jeceshahay inaad u raacdo safarka?"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Six short stages, in simple words."
+msgstr "Lix marxaladood oo gaagaaban, oo lagu qoray ereyo fudud."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms explained, and why each stage matters."
+msgstr "Ereyada oo la sharraxay, iyo sababta ay marxalad kasta muhiim u tahay."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "Faahfaahin kasta, iyadoo caddaymaha iyo khadka wakhtiga ay furan yihiin."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Why this matters:"
+msgstr "Sababta ay tani muhiim u tahay:"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms"
+msgstr "Ereyada"
+
+#: src/content/lenses.js
+msgid "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+msgstr "Abu Bakr wuxuu diyaariyey laba halaad. Asma waxay ka caawisay sahayda safarka."
+
+#: src/content/lenses.js
+msgid "They chose a guide who knew the roads well. He would bring their camels after three nights."
+msgstr "Waxay doorteen hage waddooyinka si fiican u yaqaannay. Wuxuu geelooda u keeni doonaa saddex habeen kaddib."
+
+#: src/content/lenses.js
+msgid "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+msgstr "Warbixin hore waxay sheegaysaa sida madaxdii Quraysh ay Makka ugu shireen si ay shirqool ugu maleegaan Nabiga ﷺ."
+
+#: src/content/lenses.js
+msgid "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+msgstr "Warbixintu waxay leedahay waxay habeenkaas taagnaayeen bannaanka albaabkiisa, halka Cali uu ku seexday sariirtiisa isagoo ku duuban go'iisii cagaarnaa."
+
+#: src/content/lenses.js
+msgid "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+msgstr "Saddex habeen kaddib, hagahoodii ayaa geelii keenay. Waxay ka baxeen godkii waxayna u kicitimeen xagga Madiina."
+
+#: src/content/lenses.js
+msgid "They took a route near the coast. The journey was long, with many stops along the way."
+msgstr "Waxay qaadeen waddo dhinaca xeebta ah. Safarku wuu dheeraa, iyagoo meelo badan jidka ku nastay."
+
+#: src/content/lenses.js
+msgid "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+msgstr "Warbixin kale waxay sharraxaysaa joogsi ay ku nasteen teendhada Umm Macbad. Waxay haysatay neef idaad ah oo dhuuban oo aan caano lahayn."
+
+#: src/content/lenses.js
+msgid "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "Waxay leedahay Nabigu ﷺ wuu duceeyey wuuna lisay idadii, qof walbana wuxuu helay caano ku filan."
+
+#: src/content/lenses.js
+msgid "They first stopped at Quba, near Madinah, where a mosque was founded."
+msgstr "Markii hore waxay ku nasteen Quba, oo u dhow Madiina, halkaas oo masaajid laga aasaasay."
+
+#: src/content/lenses.js
+msgid "Madinah is to the north. They went south first, towards Mount Thawr."
+msgstr "Madiina waxay xigtaa woqooyiga. Waxay marka hore aadeen koonfurta, dhinaca Buur Thawr."
+
+#: src/content/lenses.js
+msgid "A mosque was founded at Quba, making worship a part of life in the new home."
+msgstr "Masaajid ayaa laga aasaasay Quba, taasoo cibaadada ka dhigtay qayb ka mid ah nolosha hoyga cusub."
+
+#: src/content/lenses.js
+msgid "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+msgstr "Madiina waxay hoy u noqotay bulshadii muslimiinta ee sii kordhaysay, iyadoo kulmisay dadkii cusbaa iyo kuwii soo dhoweeyey."
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+msgstr "Taariikhyahan qarnigii sideedaad noolaa oo xogtiisii ku saabsanayd nolosha Nabiga ay xafideen qoraayaal dambe."
+
+#: src/routes/Journey.svelte
+msgid "Mode changed. Your place is saved."
+msgstr "Habka waa la beddelay. Meeshaadii waa la kaydiyey."
+
+#: src/content/lenses.js
+msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+msgstr "‘Cali wuxuu dib u haray si uu u soo celiyo alaabtii qaaliga ahayd ee ay dadku kaga tageen Nabiga ﷺ."
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah"
+msgstr "makka"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah_valley"
+msgstr "dooxada makka"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "cave"
+msgstr "god"
+
+#: src/lib/scene-manifest.js
+msgid "thawr"
+msgstr "thawr"
+
+#: src/lib/scene-manifest.js
+msgid "coast"
+msgstr "xeeb"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "road"
+msgstr "waddo"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "tent"
+msgstr "teendho"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "quba"
+msgstr "quba"
+
+#: src/lib/scene-manifest.js
+msgid "madinah"
+msgstr "madiina"
+
+#: src/lib/scene-manifest.js
+msgid "E09"
+msgstr "E09"
+
+#: src/lib/scene-manifest.js
+msgid "horse"
+msgstr "faras"
+
+#: src/content/lenses.js
+msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+msgstr "Madiina gudaheeda, Muslimiintu waxay u baxeen inay sugaan Nabiga ﷺ. Werinta imaatinka waxay sheegaysaa sida ay u soo dhoweeyeen."

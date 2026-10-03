@@ -194,8 +194,17 @@ export function valid_answer(value) {
     )
 }
 
+function available_action(answer, step_ids) {
+    return answer.action && step_ids && !step_ids.includes(answer.action.step_id)
+        ? { ...answer, action: null }
+        : answer
+}
+
 export async function ask_guide(question, context) {
-    const fallback = local_guide_answer(question, context.source_ids)
+    const fallback = available_action(
+        local_guide_answer(question, context.source_ids),
+        context.available_step_ids,
+    )
     try {
         const response = await fetch('/api/guide', {
             method: 'POST',
@@ -205,7 +214,9 @@ export async function ask_guide(question, context) {
         })
         if (!response.ok) return fallback
         const answer = await response.json()
-        return valid_answer(answer) ? answer : fallback
+        return valid_answer(answer)
+            ? available_action(answer, context.available_step_ids)
+            : fallback
     } catch {
         return fallback
     }

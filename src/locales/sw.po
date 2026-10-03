@@ -57,6 +57,7 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "Uwasilishaji unaoongozwa umesitishwa. Nafasi yako imehifadhiwa."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "That chapter stop is not available."
 msgstr "Kituo hicho cha sura hakipatikani."
@@ -1040,16 +1041,6 @@ msgstr "Haitoi eneo kamili la makazi miongoni mwa Bani ‘Amr ibn ‘Awf."
 msgid "The passage does not name the place; identifying it as Quba rests on other reports."
 msgstr "Kifungu hiki hakitaji jina la eneo hilo; kulitambua kama Quba kunategemea ripoti zingine."
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Along the way"
-msgstr "Njiani"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Close detail"
-msgstr "Funga undani"
-
 #: src/content/first-chapter.js
 #, ai
 msgid "The night of departure"
@@ -1064,6 +1055,11 @@ msgstr "Viongozi wa Quraysh walikutana Dar al-Nadwah, nyumba waliyokuwa wakiamul
 #, ai
 msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
 msgstr "Usiku huo walikusanyika mlangoni kwake, wakimsubiri alale. Akamwambia ‘Ali alale kitandani kwake, akiwa amejifunika joho lake la kijani, na akamhakikishia kuwa hakuna madhara yoyote kutoka kwao yatakayomfikia."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "‘Ali alibaki nyuma kwa sababu nyingine pia. Watu wa Makkah walikuwa wakiacha amana zao za thamani kwa Mtume ﷺ ili azitunze, kwa sababu walijua uaminifu wake. ‘Ali alitakiwa kumrudishia kila mmoja wao amana yake."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1114,11 +1110,6 @@ msgstr "Walisimama kwenye hema la Umm Ma‘bad; alikuwa tu na kondoo jike asiye 
 #, ai
 msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
 msgstr "Ibn Kathir analitaja kisa hiki kuwa kinajulikana sana, kupitia njia zinazosaidiana zenyewe kwa zenyewe. Hakitaji wapi hema hilo lilipokuwa limesimama."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "‘Ali alibaki nyuma kwa sababu nyingine pia. Watu wa Makkah walikuwa wakiacha amana zao za thamani kwa Mtume ﷺ ili azitunze, kwa sababu walijua uaminifu wake. ‘Ali alitakiwa kumrudishia kila mmoja wao amana yake."
 
 #: src/content/details.js
 #: src/content/timeline.js
@@ -1308,103 +1299,13 @@ msgstr "Mlolongo wa wapokezi unaishia kabla ya kumfikia shuhuda wa macho, na baa
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence shown. Each point is a cited passage, coloured by kind."
-msgstr "Ushahidi umeonyeshwa. Kila nukta ni kifungu kilichonukuliwa, kikiwa na rangi kulingana na aina yake."
+msgid "Along the way"
+msgstr "Njiani"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence hidden."
-msgstr "Ushahidi umefichwa."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide evidence on the map"
-msgstr "Ficha ushahidi kwenye ramani"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show evidence on the map"
-msgstr "Onyesha ushahidi kwenye ramani"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide timeline"
-msgstr "Ficha mpangilio wa muda"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show timeline"
-msgstr "Onyesha mpangilio wa muda"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "How each date is known"
-msgstr "Jinsi kila tarehe inavyojulikana"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Stated in the account"
-msgstr "<0/>Imeelezwa katika simulizi"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Reckoned later"
-msgstr "<0/>Imekadiriwa baadaye"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Accounts differ"
-msgstr "<0/>Simulizi zinatofautiana"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Not dated"
-msgstr "<0/>Haikupigwa tarehe"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The journey day by day · September 622"
-msgstr "Safari siku hadi siku · Septemba 622"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Scrub through the days of the journey"
-msgstr "Sogeza kupitia siku za safari"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Go to this stage <0/>"
-msgstr "Nenda kwenye hatua hii <0/>"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The Quran"
-msgstr "Kurani"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hadith collections"
-msgstr "Mikusanyiko ya Hadithi"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Classical sirah and history"
-msgstr "Sira za kale na historia"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Modern authors"
-msgstr "Waandishi wa sasa"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "Ushahidi kwenye ramani"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "Kila nukta ya mwanga ni kifungu ambacho sura hii inanukuu, kilichowekwa pale inapozungumzia. Chagua kimoja ili ukisome."
+msgid "Close detail"
+msgstr "Funga undani"
 
 #: src/content/timeline.js
 #, ai
@@ -1507,58 +1408,104 @@ msgid "That it was a Friday is in the early reports. The calendar date is a mode
 msgstr "Kwamba ilikuwa Ijumaa imetajwa katika ripoti za mapema. Tarehe ya kalenda ni makadirio ya kisasa, na inafuatia ukaaji wa siku nne."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 #, ai
-msgid "Young learners"
-msgstr "Wanafunzi wadogo"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "New to the story"
-msgstr "Mgeni kwenye kisa hiki"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "In depth"
-msgstr "Kwa kina"
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "Ushahidi umeonyeshwa. Kila nukta ni kifungu kilichonukuliwa, kikiwa na rangi kulingana na aina yake."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Mode"
-msgstr "Mfumo"
+msgid "Evidence hidden."
+msgstr "Ushahidi umefichwa."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "How would you like to follow the journey?"
-msgstr "Je, ungependa kufuatilia safari hii vipi?"
+msgid "Hide evidence on the map"
+msgstr "Ficha ushahidi kwenye ramani"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Six short stages, in simple words."
-msgstr "Hatua sita fupi, kwa maneno rahisi."
+msgid "Show evidence on the map"
+msgstr "Onyesha ushahidi kwenye ramani"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms explained, and why each stage matters."
-msgstr "Ufafanuzi wa istilahi, na umuhimu wa kila hatua."
+msgid "Hide timeline"
+msgstr "Ficha mpangilio wa muda"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Every detail, with the evidence and the timeline open."
-msgstr "Kila undani, pamoja na ushahidi na mstari wa muda wazi."
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "Why this matters:"
-msgstr "Kwa nini hili ni muhimu:"
+msgid "Show timeline"
+msgstr "Onyesha mpangilio wa muda"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms"
-msgstr "Istilahi"
+msgid "How each date is known"
+msgstr "Jinsi kila tarehe inavyojulikana"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Stated in the account"
+msgstr "<0/>Imeelezwa katika simulizi"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Reckoned later"
+msgstr "<0/>Imekadiriwa baadaye"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Accounts differ"
+msgstr "<0/>Simulizi zinatofautiana"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Not dated"
+msgstr "<0/>Haikupigwa tarehe"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The journey day by day · September 622"
+msgstr "Safari siku hadi siku · Septemba 622"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Scrub through the days of the journey"
+msgstr "Sogeza kupitia siku za safari"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Go to this stage <0/>"
+msgstr "Nenda kwenye hatua hii <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Quran"
+msgstr "Kurani"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hadith collections"
+msgstr "Mikusanyiko ya Hadithi"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Classical sirah and history"
+msgstr "Sira za kale na historia"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Modern authors"
+msgstr "Waandishi wa sasa"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence on the map"
+msgstr "Ushahidi kwenye ramani"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "Kila nukta ya mwanga ni kifungu ambacho sura hii inanukuu, kilichowekwa pale inapozungumzia. Chagua kimoja ili ukisome."
 
 #: src/content/lenses.js
 #, ai
@@ -1569,21 +1516,6 @@ msgstr "Hiki ni kisa cha Hijrah: wakati Mtume Muhammad ﷺ aliposafiri kutoka Ma
 #, ai
 msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
 msgstr "Waislamu wengi walikuwa wameshatangulia. Rafiki yake mkubwa, Abu Bakr, alisubiri ili waweze kusafiri pamoja."
-
-#: src/content/lenses.js
-#, ai
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "Huko Makkah, viongozi wa Maqurayshi walikutana ili kupanga njama dhidi ya Mtume ﷺ."
-
-#: src/content/lenses.js
-#, ai
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "Usiku huo walisubiri nje ya mlango wake. ‘Ali alilala kwa ushujaa katika kitanda cha Mtume, akiwa amejifunika vazi lake la kijani."
-
-#: src/content/lenses.js
-#, ai
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "Watu waliacha vitu vyao vya thamani kwa Mtume ﷺ kwa sababu alikuwa mwaminifu sana. ‘Ali alibaki nyuma ili kuvirudisha vyote kwa wenyewe."
 
 #: src/content/lenses.js
 #, ai
@@ -1627,16 +1559,6 @@ msgstr "Suraqah aliacha kuwafuata. Walimwomba tu afiche siri yao, nao wakaendele
 
 #: src/content/lenses.js
 #, ai
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "Walipumzika kwenye hema la mwanamke aliyeitwa Umm Ma‘bad. Hakuwa na chakula, na alikuwa na kondoo mmoja tu aliyekonda asiye na maziwa."
-
-#: src/content/lenses.js
-#, ai
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "Mtume ﷺ aliomba na akamkamua kondoo yule, na kukawa na maziwa ya kutosha kila mtu."
-
-#: src/content/lenses.js
-#, ai
 msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 msgstr "Hatimaye walifika Madinah! Ngamia wa Mtume alitembea mjini na kupiga magoti kwenye uwanja wazi."
 
@@ -1654,11 +1576,6 @@ msgstr "Mchana mmoja wa jua kali, Mtume ﷺ alikuja nyumbani kwa Abu Bakr akiwa 
 #, ai
 msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
 msgstr "Abu Bakr alichukua pesa zake zote kwa ajili ya safari. Binti yake Asma aliweka mawe mahali pake ili kumfariji babu yake, ambaye alikuwa haoni."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "Madinah ipo upande wa kaskazini, kwa hiyo walielekea kusini kwanza, kwenye Mlima Thawr, ambapo hakuna mtu ambaye angepata wazo la kutafuta huko."
 
 #: src/content/lenses.js
 #, ai
@@ -1739,16 +1656,6 @@ msgstr "Mtu mmoja aliyeondoka kwenda kuwakamata alirudi akiomba ulinzi wao. Hist
 #, ai
 msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
 msgstr "Kukaribishwa vizuri na wageni, na baraka katika kitu kidogo sana, vimejitokeza katika maisha yote ya Mtume."
-
-#: src/content/lenses.js
-#, ai
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "Kitu cha kwanza kujengwa katika makazi mapya kilikuwa msikiti, kitovu cha jamii nzima."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "Madinah ikawa jamii ya kwanza ya Kiislamu, iliyojengwa juu ya udugu kati ya wageni waliofika na wenyeji wao."
 
 #: src/content/lenses.js
 #, ai
@@ -1837,11 +1744,6 @@ msgid "Ibn Ishaq"
 msgstr "Ibn Ishaq"
 
 #: src/content/lenses.js
-#, ai
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "Mwanahistoria wa karne ya nane ambaye wasifu wake wa Mtume ﷺ ndio wa kwanza kabisa kunusurika hadi sasa."
-
-#: src/content/lenses.js
 #: src/content/lenses.js
 #, ai
 msgid "Thawr"
@@ -1876,3 +1778,178 @@ msgstr "Ripoti kutoka katika historia za mapema za maisha ya Mtume. Zinakusanya 
 #, ai
 msgid "A modern author’s explanation or calculation, built on the early sources."
 msgstr "Ufafanuzi au hesabu ya mwandishi wa sasa, iliyojengwa juu ya vyanzo vya mapema."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Young learners"
+msgstr "Wanafunzi wadogo"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "New to the story"
+msgstr "Mgeni kwenye kisa hiki"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "In depth"
+msgstr "Kwa kina"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Mode"
+msgstr "Mfumo"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How would you like to follow the journey?"
+msgstr "Je, ungependa kufuatilia safari hii vipi?"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Six short stages, in simple words."
+msgstr "Hatua sita fupi, kwa maneno rahisi."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms explained, and why each stage matters."
+msgstr "Ufafanuzi wa istilahi, na umuhimu wa kila hatua."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "Kila undani, pamoja na ushahidi na mstari wa muda wazi."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Why this matters:"
+msgstr "Kwa nini hili ni muhimu:"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms"
+msgstr "Istilahi"
+
+#: src/content/lenses.js
+msgid "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+msgstr "Abu Bakr alitayarisha ngamia wawili. Asma alisaidia kufungasha chakula cha safari."
+
+#: src/content/lenses.js
+msgid "They chose a guide who knew the roads well. He would bring their camels after three nights."
+msgstr "Walichagua kiongozi wa njia aliyejua njia vizuri. Angewaletea ngamia wao baada ya masiku matatu."
+
+#: src/content/lenses.js
+msgid "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+msgstr "Simulizi la mapema linaeleza jinsi viongozi wa Maquraishi walivyokutana Makkah kupanga njama dhidi ya Mtume ﷺ."
+
+#: src/content/lenses.js
+msgid "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+msgstr "Simulizi hilo linasema walingoja nje ya mlango wake usiku huo, huku ‘Ali akilala kitandani mwake, akiwa amejifunika vazi lake la kijani."
+
+#: src/content/lenses.js
+msgid "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+msgstr "Baada ya masiku matatu, kiongozi wao wa njia alileta ngamia. Waliondoka pangoni na kusafiri kuelekea Madinah."
+
+#: src/content/lenses.js
+msgid "They took a route near the coast. The journey was long, with many stops along the way."
+msgstr "Walipita njia iliyo karibu na pwani. Safari ilikuwa ndefu, kukiwa na vituo vingi njiani."
+
+#: src/content/lenses.js
+msgid "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+msgstr "Simulizi jingine linaeleza kuhusu kituo kwenye hema la Umm Ma‘bad. Alikuwa na kondoo aliyekonda ambaye hakuwa akitoa maziwa."
+
+#: src/content/lenses.js
+msgid "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "Linasema Mtume ﷺ aliomba na kumkama kondoo huyo, na kukawa na maziwa kwa kila mtu."
+
+#: src/content/lenses.js
+msgid "They first stopped at Quba, near Madinah, where a mosque was founded."
+msgstr "Kwanza walisimama Quba, karibu na Madinah, ambapo msikiti ulianzishwa."
+
+#: src/content/lenses.js
+msgid "Madinah is to the north. They went south first, towards Mount Thawr."
+msgstr "Madinah ipo kaskazini. Walianza kuelekea kusini, kuelekea Mlima Thawr."
+
+#: src/content/lenses.js
+msgid "A mosque was founded at Quba, making worship a part of life in the new home."
+msgstr "Msikiti ulianzishwa huko Quba, na kuifanya ibada kuwa sehemu ya maisha katika makazi mapya."
+
+#: src/content/lenses.js
+msgid "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+msgstr "Madinah ikawa makazi ya jamii ya Waislamu iliyokuwa ikikua, ikiwaleta pamoja wageni na wenyeji wao."
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+msgstr "Mwanahistoria wa karne ya nane ambaye masimulizi yake kuhusu maisha ya Mtume yamehifadhiwa na waandishi wa baadaye."
+
+#: src/routes/Journey.svelte
+msgid "Mode changed. Your place is saved."
+msgstr "Hali imebadilishwa. Mahali pako pamehifadhiwa."
+
+#: src/content/lenses.js
+msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+msgstr "‘Ali alibaki nyuma ili kurudisha vitu vya thamani ambavyo watu walikuwa wamemwachia Mtume ﷺ."
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah"
+msgstr "Makka"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah_valley"
+msgstr "bonde la Makka"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "cave"
+msgstr "pango"
+
+#: src/lib/scene-manifest.js
+msgid "thawr"
+msgstr "Thawr"
+
+#: src/lib/scene-manifest.js
+msgid "coast"
+msgstr "pwani"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "road"
+msgstr "barabara"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "tent"
+msgstr "hema"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "quba"
+msgstr "Quba"
+
+#: src/lib/scene-manifest.js
+msgid "madinah"
+msgstr "Madina"
+
+#: src/lib/scene-manifest.js
+msgid "E09"
+msgstr "E09"
+
+#: src/lib/scene-manifest.js
+msgid "horse"
+msgstr "farasi"
+
+#: src/content/lenses.js
+msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+msgstr "Huko Madinah, Waislamu walitoka kwenda kumsubiri Mtume ﷺ. Simulizi ya kuwasili inaeleza jinsi walivyomkaribisha."

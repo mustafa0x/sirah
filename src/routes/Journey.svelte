@@ -6,10 +6,9 @@
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
     import {
-        chapter,
+        chapter as source_chapter,
         cue_for,
         get_source,
-        get_step,
         sources_for,
     } from '../content/first-chapter.js'
     import {
@@ -34,7 +33,14 @@
     import { evidence_dot, evidence_kinds } from '../lib/evidence.js'
     import { timeline, timeline_days, timeline_start } from '../content/timeline.js'
     import { apply_timings, create_narrator } from '../lib/narration.js'
-    import { apply_mode, change_mode, modes, saved_mode } from '../lib/mode.js'
+    import {
+        change_mode,
+        create_mode_chapter,
+        mode_detail,
+        modes,
+        remap_position,
+        saved_mode,
+    } from '../lib/mode.js'
     import { glossary, kind_notes, why_it_matters } from '../content/lenses.js'
     import {
         beat_actors,
@@ -51,18 +57,20 @@
         scene_pois.map((poi) => [poi.id, { height: 0.3, ...poi.camera, place: poi.place }]),
     )
     const suggested_questions = [
-        chapter.question.prompt,
+        source_chapter.question.prompt,
         'How long did they stay in the cave?',
         'Who brought them news?',
         'Is the exact route known?',
     ]
-    const mode = saved_mode()
-    apply_mode(chapter, mode)
-    // Young learners hear no voice: the recorded narration reads the full wording.
-    const narrated = mode !== 'young' && apply_timings(chapter, saved_language())
-    const narrator = create_narrator(saved_language())
-    const total_minutes = Math.round(
-        chapter.steps.reduce((sum, step) => sum + step.duration, 0) / 60,
+    const language = saved_language()
+    let mode = $state(saved_mode())
+    let chapter = $state(prepare_chapter(mode))
+    let narrated = $derived(
+        chapter.steps.some((step) => step.paragraphs.some((paragraph) => paragraph.narrated)),
+    )
+    const narrator = create_narrator(language)
+    let total_minutes = $derived(
+        Math.round(chapter.steps.reduce((sum, step) => sum + step.duration, 0) / 60),
     )
     const idle_route = [0, 0, 0]
     const ambience = create_ambience()
@@ -89,8 +97,9 @@
         'grid gap-[10px] justify-items-start p-[18px] bg-[rgba(232,178,87,0.09)] border border-solid border-line-strong rounded-[14px]'
     const card_row = 'flex flex-wrap gap-2 items-center'
 
-    let journey = $state(create_journey_state())
+    let journey = $state({ ...create_journey_state(), steps: chapter.steps })
     let active_poi = $state(null)
+    let active_detail = $derived(active_poi?.detail ? mode_detail(active_poi.detail, mode) : null)
     let question = $state('')
     let question_input = $state()
     let recent_turns = $state([])
@@ -230,6 +239,54 @@
               },
     )
 
+    function prepare_chapter(next_mode, keep_steps = []) {
+        const result = create_mode_chapter(source_chapter, next_mode, keep_steps)
+        apply_timings(result, language)
+        return result
+    }
+
+    function get_step(id) {
+        const step = chapter.steps.find((item) => item.id === id)
+        if (!step) throw new Error(`Unknown chapter step: ${id}`)
+        return step
+    }
+
+    function select_mode(next_mode) {
+        if (next_mode === mode) return
+        const previous = get_step(journey.guided_position.step_id)
+        const seconds = clock?.snapshot().seconds ?? journey.guided_position.seconds
+        const was_playing = journey.is_playing
+        pending_timers.forEach((timer) => window.clearTimeout(timer))
+        pending_timers.clear()
+        clock?.pause()
+        cancel_advance()
+        journey.navigation_generation += 1
+        journey.navigation_pending = false
+        if (journey.mode === 'pending_navigation') {
+            journey.mode =
+                journey.viewed_step_id === journey.guided_position.step_id ? 'guided' : 'detour'
+            journey.phase = journey.mode
+        }
+        journey.guide_generation += 1
+        journey.question_pending = false
+        journey.answer = null
+        change_mode(next_mode)
+        mode = next_mode
+        // A shortened tour retains the stop already being read and the saved guided stop.
+        chapter = prepare_chapter(
+            mode,
+            journey.started ? [journey.viewed_step_id, journey.guided_position.step_id] : [],
+        )
+        journey.steps = chapter.steps
+        journey.guided_position.seconds = remap_position(previous, get_step(previous.id), seconds)
+        clock?.set_position(journey.guided_position.seconds)
+        evidence_on = mode === 'deep'
+        timeline_open = mode === 'deep'
+        open_term = null
+        if (was_playing && clock?.play()) journey.is_playing = true
+        announce('Mode changed. Your place is saved.')
+    }
+
     function announce(message) {
         journey.announcement = message
     }
@@ -247,6 +304,8 @@
     function start(presentation) {
         cancel_advance()
         active_poi = null
+        chapter = prepare_chapter(mode)
+        journey.steps = chapter.steps
         start_journey(journey, presentation)
         recent_turns = []
         clock?.set_position(0)
@@ -298,6 +357,10 @@
     }
 
     function select_step(step_id, purpose = 'guided', autoplay = journey.is_playing) {
+        if (!chapter.steps.some((step) => step.id === step_id)) {
+            announce('That chapter stop is not available.')
+            return
+        }
         if (step_id === journey.viewed_step_id && !journey.navigation_pending) return
         cancel_advance()
         active_poi = null
@@ -352,6 +415,7 @@
     function seek_to(seconds) {
         cancel_advance()
         active_poi = null
+        narrator.seek()
         clock?.seek(seconds)
         journey.guided_position.seconds = seconds
     }
@@ -390,6 +454,7 @@
             source_ids: chapter.sources.map((source) => source.id),
             language: document.documentElement.lang,
             audience: mode,
+            available_step_ids: chapter.steps.map((step) => step.id),
             recent_turns,
         }
         const response = await ask_guide(submitted_question, context)
@@ -453,7 +518,7 @@
         if (active_poi?.detail && journey.is_playing) pause_playback()
         announce(
             active_poi
-                ? `${poi.label}. ${poi.detail?.text ?? poi.description}`
+                ? `${poi.label}. ${active_detail?.text ?? poi.description}`
                 : 'Returned to the guided view.',
         )
     }
@@ -528,6 +593,7 @@
     onMount(() => {
         clock = create_media_clock({
             duration: () => get_step(journey.guided_position.step_id).duration,
+            can_advance: () => narrator.can_advance(),
             on_tick(seconds, playing) {
                 if (journey.mode !== 'guided' || journey.navigation_pending) return
                 const was_playing = journey.is_playing
@@ -903,7 +969,7 @@
                 </button>
             </div>
             <p class="text-ink font-serif text-[1.0625rem] leading-[1.55] text-pretty">
-                {active_poi.detail.text}
+                {active_detail.text}
             </p>
             {@render citations([active_poi.detail.source_id])}
         </section>
@@ -952,7 +1018,7 @@
                     <button
                         class="{ghost_button} min-h-8 py-1 aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
                         aria-pressed={item === mode}
-                        onclick={() => item !== mode && change_mode(item)}
+                        onclick={() => select_mode(item)}
                     >
                         {#if item === 'young'}Young learners{:else if item === 'new'}New to the
                             story{:else}In depth{/if}
@@ -998,7 +1064,7 @@
                         class="grid gap-1 content-start py-3 px-4 text-start text-ink bg-[rgba(17,15,12,0.45)] border border-solid border-line-strong rounded-2xl backdrop-blur-[8px] transition-[border-color,background] duration-150 hover:border-gold aria-checked:bg-[rgba(232,178,87,0.16)] aria-checked:border-gold mobile:py-2"
                         role="radio"
                         aria-checked={item === mode}
-                        onclick={() => item !== mode && change_mode(item)}
+                        onclick={() => select_mode(item)}
                     >
                         <strong class="font-serif text-[1.0625rem] font-medium">
                             {#if item === 'young'}Young learners{:else if item === 'new'}New to the
@@ -1107,7 +1173,7 @@
                     class="grid min-h-[6.6rem] content-start [&>*]:[grid-area:1/1] mobile:min-h-[8.6rem]"
                     aria-live="polite"
                 >
-                    {#key story_text}
+                    {#key current_cue?.id ?? selected_step.paragraphs[0]?.id}
                         <p class={caption} in:fade={{ duration: 450 }}>{story_text}</p>
                     {/key}
                 </div>
@@ -1375,7 +1441,7 @@
                                     {journey.answer.answer}
                                 </p>
                                 {@render citations(journey.answer.citations ?? [])}
-                                {#if journey.answer.action}
+                                {#if journey.answer.action && chapter.steps.some((step) => step.id === journey.answer.action.step_id)}
                                     <button class={primary_button} onclick={show_action}>
                                         {journey.answer.action.label}
                                         {@render icon('next')}

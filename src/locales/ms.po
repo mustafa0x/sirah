@@ -57,6 +57,7 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "Persembahan berpandu dijeda. Kedudukan anda disimpan."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "That chapter stop is not available."
 msgstr "Hentian bab itu tidak tersedia."
@@ -1040,16 +1041,6 @@ msgstr "Ia tidak memberikan lokasi yang tepat bagi tempoh tinggal dalam kalangan
 msgid "The passage does not name the place; identifying it as Quba rests on other reports."
 msgstr "Petikan ini tidak menyebut nama tempat tersebut; pengenalpastiannya sebagai Quba bersandarkan kepada riwayat-riwayat lain."
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Along the way"
-msgstr "Di sepanjang jalan"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Close detail"
-msgstr "Butiran terperinci"
-
 #: src/content/first-chapter.js
 #, ai
 msgid "The night of departure"
@@ -1064,6 +1055,11 @@ msgstr "Para pemimpin Quraisy berkumpul di Dar al-Nadwah, rumah tempat mereka me
 #, ai
 msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
 msgstr "Pada malam itu mereka berkumpul di pintu rumah baginda, menunggu baginda tidur. Baginda menyuruh ‘Ali berbaring di tempat tidur baginda, berselimutkan jubah hijau baginda, dan meyakinkannya bahawa tiada bahaya daripada mereka yang akan menimpanya."
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "‘Ali tinggal di belakang atas satu sebab lain juga. Penduduk Makkah sering meninggalkan barang berharga mereka dengan Nabi ﷺ untuk disimpan dengan selamat, kerana mereka mengetahui kejujuran baginda. ‘Ali ditugaskan untuk mengembalikan setiap satu daripadanya."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1114,11 +1110,6 @@ msgstr "Mereka singgah di khemah Umm Ma‘bad; dia hanya mempunyai seekor kambin
 #, ai
 msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
 msgstr "Ibn Kathir menyifatkan kisah ini sebagai terkenal, melalui jalur-jalur yang saling menyokong antara satu sama lain. Ia tidak menetapkan di mana khemah itu berdiri."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "‘Ali tinggal di belakang atas satu sebab lain juga. Penduduk Makkah sering meninggalkan barang berharga mereka dengan Nabi ﷺ untuk disimpan dengan selamat, kerana mereka mengetahui kejujuran baginda. ‘Ali ditugaskan untuk mengembalikan setiap satu daripadanya."
 
 #: src/content/details.js
 #: src/content/timeline.js
@@ -1308,103 +1299,13 @@ msgstr "Rantaian sanadnya terputus sebelum sampai kepada saksi mata, dan seseten
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence shown. Each point is a cited passage, coloured by kind."
-msgstr "Bukti dipaparkan. Setiap titik ialah petikan yang dirujuk, diwarnakan mengikut jenis."
+msgid "Along the way"
+msgstr "Di sepanjang jalan"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence hidden."
-msgstr "Bukti disembunyikan."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide evidence on the map"
-msgstr "Sembunyikan bukti pada peta"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show evidence on the map"
-msgstr "Tunjukkan bukti pada peta"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide timeline"
-msgstr "Sembunyikan garis masa"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show timeline"
-msgstr "Tunjukkan garis masa"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "How each date is known"
-msgstr "Bagaimana setiap tarikh diketahui"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Stated in the account"
-msgstr "<0/>Dinyatakan dalam riwayat"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Reckoned later"
-msgstr "<0/>Dihitung kemudian"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Accounts differ"
-msgstr "<0/>Riwayat berbeza-beza"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Not dated"
-msgstr "<0/>Tiada tarikh"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The journey day by day · September 622"
-msgstr "Perjalanan hari demi hari · September 622"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Scrub through the days of the journey"
-msgstr "Leret untuk melihat hari-hari perjalanan"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Go to this stage <0/>"
-msgstr "Pergi ke peringkat ini <0/>"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The Quran"
-msgstr "Al-Quran"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hadith collections"
-msgstr "Koleksi Hadis"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Classical sirah and history"
-msgstr "Sirah klasik dan sejarah"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Modern authors"
-msgstr "Penulis moden"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "Bukti pada peta"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "Setiap titik cahaya ialah petikan yang dirujuk dalam bab ini, diletakkan di lokasi yang diperkatakan. Pilih satu untuk membacanya."
+msgid "Close detail"
+msgstr "Butiran terperinci"
 
 #: src/content/timeline.js
 #, ai
@@ -1507,58 +1408,104 @@ msgid "That it was a Friday is in the early reports. The calendar date is a mode
 msgstr "Bahawa hari itu hari Jumaat ada dinyatakan dalam laporan-laporan awal. Tarikh kalendar tersebut adalah perkiraan moden, dan ia menyusul selepas tempoh menetap selama empat hari."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 #, ai
-msgid "Young learners"
-msgstr "Pelajar muda"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "New to the story"
-msgstr "Baru mengenali kisah ini"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "In depth"
-msgstr "Secara mendalam"
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "Bukti dipaparkan. Setiap titik ialah petikan yang dirujuk, diwarnakan mengikut jenis."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Mode"
-msgstr "Mod"
+msgid "Evidence hidden."
+msgstr "Bukti disembunyikan."
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "How would you like to follow the journey?"
-msgstr "Bagaimanakah anda ingin mengikuti perjalanan ini?"
+msgid "Hide evidence on the map"
+msgstr "Sembunyikan bukti pada peta"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Six short stages, in simple words."
-msgstr "Enam peringkat pendek, dalam bahasa yang mudah."
+msgid "Show evidence on the map"
+msgstr "Tunjukkan bukti pada peta"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms explained, and why each stage matters."
-msgstr "Istilah dijelaskan, dan mengapa setiap peringkat itu penting."
+msgid "Hide timeline"
+msgstr "Sembunyikan garis masa"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Every detail, with the evidence and the timeline open."
-msgstr "Setiap butiran, dengan bukti dan garis masa yang terbuka."
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "Why this matters:"
-msgstr "Mengapa ini penting:"
+msgid "Show timeline"
+msgstr "Tunjukkan garis masa"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms"
-msgstr "Istilah"
+msgid "How each date is known"
+msgstr "Bagaimana setiap tarikh diketahui"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Stated in the account"
+msgstr "<0/>Dinyatakan dalam riwayat"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Reckoned later"
+msgstr "<0/>Dihitung kemudian"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Accounts differ"
+msgstr "<0/>Riwayat berbeza-beza"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Not dated"
+msgstr "<0/>Tiada tarikh"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The journey day by day · September 622"
+msgstr "Perjalanan hari demi hari · September 622"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Scrub through the days of the journey"
+msgstr "Leret untuk melihat hari-hari perjalanan"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Go to this stage <0/>"
+msgstr "Pergi ke peringkat ini <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Quran"
+msgstr "Al-Quran"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hadith collections"
+msgstr "Koleksi Hadis"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Classical sirah and history"
+msgstr "Sirah klasik dan sejarah"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Modern authors"
+msgstr "Penulis moden"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence on the map"
+msgstr "Bukti pada peta"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "Setiap titik cahaya ialah petikan yang dirujuk dalam bab ini, diletakkan di lokasi yang diperkatakan. Pilih satu untuk membacanya."
 
 #: src/content/lenses.js
 #, ai
@@ -1569,21 +1516,6 @@ msgstr "Ini adalah kisah Hijrah: apabila Nabi Muhammad ﷺ berhijrah dari Makkah
 #, ai
 msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
 msgstr "Ramai orang Islam telah pun pergi terlebih dahulu. Sahabat baik baginda, Abu Bakar, menunggu supaya mereka dapat mengembara bersama-sama."
-
-#: src/content/lenses.js
-#, ai
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "Di Makkah, para pemimpin Quraisy berkumpul untuk merancang pakatan menentang Nabi ﷺ."
-
-#: src/content/lenses.js
-#, ai
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "Pada malam itu mereka menunggu di luar pintu rumah baginda. 'Ali dengan berani tidur di tempat tidur Nabi, berselimutkan jubah hijau baginda."
-
-#: src/content/lenses.js
-#, ai
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "Orang ramai menyerahkan barang-barang berharga mereka untuk disimpan oleh Nabi ﷺ kerana baginda sangat jujur. 'Ali tinggal di Makkah untuk mengembalikan setiap barang tersebut kepada pemiliknya."
 
 #: src/content/lenses.js
 #, ai
@@ -1627,16 +1559,6 @@ msgstr "Suraqah membatalkan pemburuannya. Mereka hanya meminta dia untuk merahsi
 
 #: src/content/lenses.js
 #, ai
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "Mereka berhenti di khemah seorang wanita bernama Umm Ma'bad. Dia tidak mempunyai makanan, dan hanya ada seekor kambing yang kurus tanpa susu."
-
-#: src/content/lenses.js
-#, ai
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "Nabi ﷺ berdoa dan memerah susu kambing itu, lalu susu tersebut mencukupi untuk diminum oleh semua orang."
-
-#: src/content/lenses.js
-#, ai
 msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 msgstr "Akhirnya mereka tiba di Madinah! Unta Nabi berjalan melalui bandar itu dan berlutut di sebuah kawasan lapang."
 
@@ -1654,11 +1576,6 @@ msgstr "Pada suatu tengah hari yang panas, Nabi ﷺ datang ke rumah Abu Bakar me
 #, ai
 msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
 msgstr "Abu Bakr membawa semua wangnya untuk perjalanan tersebut. Anak perempuannya, Asma, meletakkan batu-batu di tempat wang itu untuk menenangkan datuknya yang tidak dapat melihat."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "Madinah terletak di sebelah utara, jadi mereka menuju ke selatan terlebih dahulu, ke Bukit Thawr, tempat yang tidak akan dicari oleh sesiapa pun."
 
 #: src/content/lenses.js
 #, ai
@@ -1739,16 +1656,6 @@ msgstr "Seorang lelaki yang keluar untuk menangkap mereka akhirnya pulang dengan
 #, ai
 msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
 msgstr "Sifat memuliakan tetamu daripada orang yang tidak dikenali, dan keberkatan dalam perkara yang sangat sedikit, mengalir di sepanjang seluruh kehidupan Nabi."
-
-#: src/content/lenses.js
-#, ai
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "Perkara pertama yang dibina di tempat tinggal baharu ialah masjid, yang menjadi pusat bagi seluruh masyarakat."
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "Madinah menjadi masyarakat Islam pertama, yang dibina atas persaudaraan antara golongan pendatang dan tuan rumah mereka."
 
 #: src/content/lenses.js
 #, ai
@@ -1837,11 +1744,6 @@ msgid "Ibn Ishaq"
 msgstr "Ibn Ishaq"
 
 #: src/content/lenses.js
-#, ai
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "Seorang ahli sejarah abad kelapan yang mana biografi Nabi ﷺ karangan beliau merupakan yang paling awal terselamat."
-
-#: src/content/lenses.js
 #: src/content/lenses.js
 #, ai
 msgid "Thawr"
@@ -1876,3 +1778,178 @@ msgstr "Laporan daripada sejarah awal kehidupan Nabi. Ia mengumpulkan banyak riw
 #, ai
 msgid "A modern author’s explanation or calculation, built on the early sources."
 msgstr "Penjelasan atau pengiraan pengarang moden, yang dibina berdasarkan sumber-sumber awal."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Young learners"
+msgstr "Pelajar muda"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "New to the story"
+msgstr "Baru mengenali kisah ini"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "In depth"
+msgstr "Secara mendalam"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Mode"
+msgstr "Mod"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How would you like to follow the journey?"
+msgstr "Bagaimanakah anda ingin mengikuti perjalanan ini?"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Six short stages, in simple words."
+msgstr "Enam peringkat pendek, dalam bahasa yang mudah."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms explained, and why each stage matters."
+msgstr "Istilah dijelaskan, dan mengapa setiap peringkat itu penting."
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "Setiap butiran, dengan bukti dan garis masa yang terbuka."
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Why this matters:"
+msgstr "Mengapa ini penting:"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms"
+msgstr "Istilah"
+
+#: src/content/lenses.js
+msgid "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+msgstr "Abu Bakr menyediakan dua ekor unta. Asma membantu membungkus makanan untuk perjalanan."
+
+#: src/content/lenses.js
+msgid "They chose a guide who knew the roads well. He would bring their camels after three nights."
+msgstr "Mereka memilih seorang penunjuk jalan yang mahir selok-belok jalan. Dia akan membawa unta mereka selepas tiga malam."
+
+#: src/content/lenses.js
+msgid "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+msgstr "Satu riwayat awal menceritakan bagaimana para pembesar Quraisy berkumpul di Makkah untuk merancang rancangan terhadap Nabi ﷺ."
+
+#: src/content/lenses.js
+msgid "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+msgstr "Riwayat itu menyebut mereka menunggu di luar pintu rumahnya pada malam itu, sementara ‘Ali tidur di atas tempat tidurnya berselimutkan kain hijaunya."
+
+#: src/content/lenses.js
+msgid "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+msgstr "Selepas tiga malam, penunjuk jalan membawa unta-unta tersebut. Mereka meninggalkan gua itu dan memulakan perjalanan menuju ke Madinah."
+
+#: src/content/lenses.js
+msgid "They took a route near the coast. The journey was long, with many stops along the way."
+msgstr "Mereka mengambil laluan berhampiran pantai. Perjalanan itu jauh, dengan banyak tempat berhenti di sepanjang jalan."
+
+#: src/content/lenses.js
+msgid "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+msgstr "Satu lagi riwayat menggambarkan persinggahan di khemah Umm Ma‘bad. Beliau mempunyai seekor kambing kurus yang tidak mengeluarkan susu."
+
+#: src/content/lenses.js
+msgid "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "Ia menyebut bahawa Nabi ﷺ berdoa dan memerah susu kambing itu, dan terdapat susu yang mencukupi untuk semua orang."
+
+#: src/content/lenses.js
+msgid "They first stopped at Quba, near Madinah, where a mosque was founded."
+msgstr "Mereka mula-mula berhenti di Quba, berhampiran Madinah, di mana sebuah masjid didirikan."
+
+#: src/content/lenses.js
+msgid "Madinah is to the north. They went south first, towards Mount Thawr."
+msgstr "Madinah terletak di sebelah utara. Mereka menuju ke selatan terlebih dahulu, ke arah Gunung Thawr."
+
+#: src/content/lenses.js
+msgid "A mosque was founded at Quba, making worship a part of life in the new home."
+msgstr "Sebuah masjid didirikan di Quba, menjadikan ibadah sebahagian daripada kehidupan di tempat baharu."
+
+#: src/content/lenses.js
+msgid "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+msgstr "Madinah menjadi tempat kediaman bagi masyarakat Islam yang semakin berkembang, menyatukan pendatang baharu dan tuan rumah mereka."
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+msgstr "Seorang ahli sejarah abad kelapan yang catatannya tentang kehidupan Nabi telah dipelihara oleh para penulis terkemudian."
+
+#: src/routes/Journey.svelte
+msgid "Mode changed. Your place is saved."
+msgstr "Mod ditukar. Kedudukan anda disimpan."
+
+#: src/content/lenses.js
+msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+msgstr "‘Ali tinggal di belakang untuk memulangkan barang-barang berharga yang ditinggalkan orang ramai bersama Nabi ﷺ."
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah"
+msgstr "makkah"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah_valley"
+msgstr "lembah makkah"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "cave"
+msgstr "gua"
+
+#: src/lib/scene-manifest.js
+msgid "thawr"
+msgstr "thawr"
+
+#: src/lib/scene-manifest.js
+msgid "coast"
+msgstr "pesisir"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "road"
+msgstr "jalan"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "tent"
+msgstr "khemah"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "quba"
+msgstr "quba"
+
+#: src/lib/scene-manifest.js
+msgid "madinah"
+msgstr "madinah"
+
+#: src/lib/scene-manifest.js
+msgid "E09"
+msgstr "E09"
+
+#: src/lib/scene-manifest.js
+msgid "horse"
+msgstr "kuda"
+
+#: src/content/lenses.js
+msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+msgstr "Di Madinah, umat Islam keluar untuk menunggu Nabi ﷺ. Riwayat ketibaan menceritakan bagaimana mereka menyambut baginda."

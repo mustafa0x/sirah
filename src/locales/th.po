@@ -57,6 +57,7 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "หยุดการนำเสนอแบบนำทางชั่วคราว บันทึกตำแหน่งของคุณแล้ว"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "That chapter stop is not available."
 msgstr "ไม่พบจุดหยุดของบทนี้"
@@ -1040,16 +1041,6 @@ msgstr "ไม่ได้ระบุตำแหน่งที่แน่น
 msgid "The passage does not name the place; identifying it as Quba rests on other reports."
 msgstr "บทตอนนี้ไม่ได้ระบุชื่อสถานที่ การระบุว่าสถานที่นั้นคือคุบาอ์จึงอาศัยรายงานอื่นประกอบ"
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Along the way"
-msgstr "ระหว่างทาง"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Close detail"
-msgstr "ปิดรายละเอียด"
-
 #: src/content/first-chapter.js
 #, ai
 msgid "The night of departure"
@@ -1064,6 +1055,11 @@ msgstr "บรรดาผู้นำของกุร็อยช์ได้
 #, ai
 msgid "That night they gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak, and assured him that no harm from them would reach him."
 msgstr "ในคืนนั้นพวกเขามารวมตัวกันที่ประตูบ้านของท่านเพื่อรอให้ท่านหลับ ท่านได้บอกให้อะลี้นอนบนเตียงของท่านและห่มผ้าคลุมสีเขียวของท่าน พร้อมทั้งรับรองกับเขาว่าจะไม่มีอันตรายใดๆ จากคนเหล่านั้นมาถึงตัวเขาได้"
+
+#: src/content/first-chapter.js
+#, ai
+msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
+msgstr "อะลี้นั้นอยู่เบื้องหลังด้วยอีกเหตุผลหนึ่งเช่นกัน ผู้คนในมักกะฮ์มักจะฝากของมีค่าไว้กับท่านศาสดา ﷺ เพื่อความปลอดภัย เนื่องจากพวกเขาทราบดีถึงความซื่อสัตย์ของท่าน อะลีจึงต้องอยู่เพื่อส่งคืนของเหล่านั้นให้แก่เจ้าของทุกคน"
 
 #: src/content/first-chapter.js
 #, ai
@@ -1114,11 +1110,6 @@ msgstr "พวกเขาแวะพักที่เต็นท์ของ
 #, ai
 msgid "Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood."
 msgstr "อิบนุ กะษีร เรียกเรื่องราวนี้ว่าเป็นเรื่องที่รู้จักกันดี ผ่านสายรายงานที่สนับสนุนซึ่งกันและกัน ทว่าไม่ได้ระบุตำแหน่งที่ตั้งของเต็นท์ไว้"
-
-#: src/content/first-chapter.js
-#, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "อะลี้นั้นอยู่เบื้องหลังด้วยอีกเหตุผลหนึ่งเช่นกัน ผู้คนในมักกะฮ์มักจะฝากของมีค่าไว้กับท่านศาสดา ﷺ เพื่อความปลอดภัย เนื่องจากพวกเขาทราบดีถึงความซื่อสัตย์ของท่าน อะลีจึงต้องอยู่เพื่อส่งคืนของเหล่านั้นให้แก่เจ้าของทุกคน"
 
 #: src/content/details.js
 #: src/content/timeline.js
@@ -1308,103 +1299,13 @@ msgstr "สายรายงานนี้ขาดตอนไปก่อน
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence shown. Each point is a cited passage, coloured by kind."
-msgstr "แสดงหลักฐานแล้ว แต่ละจุดคือข้อความที่ถูกอ้างอิง โดยจำแนกสีตามประเภท"
+msgid "Along the way"
+msgstr "ระหว่างทาง"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Evidence hidden."
-msgstr "ซ่อนหลักฐานแล้ว"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide evidence on the map"
-msgstr "ซ่อนหลักฐานบนแผนที่"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show evidence on the map"
-msgstr "แสดงหลักฐานบนแผนที่"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hide timeline"
-msgstr "ซ่อนเส้นเวลา"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Show timeline"
-msgstr "แสดงเส้นเวลา"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "How each date is known"
-msgstr "วิธีระบุวันเวลาของแต่ละเหตุการณ์"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Stated in the account"
-msgstr "<0/>มีระบุไว้ในรายงาน"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Reckoned later"
-msgstr "<0/>คำนวณในภายหลัง"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Accounts differ"
-msgstr "<0/>รายงานมีความแตกต่างกัน"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/>Not dated"
-msgstr "<0/>ไม่มีการระบุวันเวลา"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The journey day by day · September 622"
-msgstr "การเดินทางในแต่ละวัน · กันยายน ปี ค.ศ. 622"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Scrub through the days of the journey"
-msgstr "เลื่อนดูวันต่างๆ ของการเดินทาง"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Go to this stage <0/>"
-msgstr "ไปยังช่วงนี้ <0/>"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "The Quran"
-msgstr "อัลกุรอาน"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Hadith collections"
-msgstr "ตำราหะดีษ"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Classical sirah and history"
-msgstr "ตำราชีวประวัติและประวัติศาสตร์ยุคคลาสสิก"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Modern authors"
-msgstr "นักเขียนยุคปัจจุบัน"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "หลักฐานบนแผนที่"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "จุดแสงแต่ละจุดคือข้อความที่บทนี้อ้างอิงถึง ซึ่งถูกจัดวางไว้ตามสถานที่ที่กล่าวถึง เลือกจุดใดจุดหนึ่งเพื่ออ่านข้อความ"
+msgid "Close detail"
+msgstr "ปิดรายละเอียด"
 
 #: src/content/timeline.js
 #, ai
@@ -1507,58 +1408,104 @@ msgid "That it was a Friday is in the early reports. The calendar date is a mode
 msgstr "การที่เป็นวันศุกร์นั้นมีระบุไว้ในรายงานยุคแรก ส่วนวันที่ตามปฏิทินเป็นการคำนวณในยุคปัจจุบัน และเป็นไปตามการพำนักเป็นเวลาสี่วัน"
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 #, ai
-msgid "Young learners"
-msgstr "สำหรับเด็ก ๆ"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "New to the story"
-msgstr "ผู้เริ่มต้นเรียนรู้"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "In depth"
-msgstr "เจาะลึก"
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "แสดงหลักฐานแล้ว แต่ละจุดคือข้อความที่ถูกอ้างอิง โดยจำแนกสีตามประเภท"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Mode"
-msgstr "โหมดการแสดงผล"
+msgid "Evidence hidden."
+msgstr "ซ่อนหลักฐานแล้ว"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "How would you like to follow the journey?"
-msgstr "คุณต้องการติดตามการเดินทางในรูปแบบใด?"
+msgid "Hide evidence on the map"
+msgstr "ซ่อนหลักฐานบนแผนที่"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Six short stages, in simple words."
-msgstr "6 ช่วงสั้น ๆ ด้วยภาษาที่เข้าใจง่าย"
+msgid "Show evidence on the map"
+msgstr "แสดงหลักฐานบนแผนที่"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms explained, and why each stage matters."
-msgstr "อธิบายคำศัพท์ และความสำคัญของแต่ละช่วง"
+msgid "Hide timeline"
+msgstr "ซ่อนเส้นเวลา"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Every detail, with the evidence and the timeline open."
-msgstr "ทุกรายละเอียด พร้อมหลักฐานและเส้นเวลาที่ชัดเจน"
-
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "Why this matters:"
-msgstr "ทำไมสิ่งนี้จึงสำคัญ:"
+msgid "Show timeline"
+msgstr "แสดงเส้นเวลา"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Terms"
-msgstr "คำศัพท์"
+msgid "How each date is known"
+msgstr "วิธีระบุวันเวลาของแต่ละเหตุการณ์"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Stated in the account"
+msgstr "<0/>มีระบุไว้ในรายงาน"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Reckoned later"
+msgstr "<0/>คำนวณในภายหลัง"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Accounts differ"
+msgstr "<0/>รายงานมีความแตกต่างกัน"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "<0/>Not dated"
+msgstr "<0/>ไม่มีการระบุวันเวลา"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The journey day by day · September 622"
+msgstr "การเดินทางในแต่ละวัน · กันยายน ปี ค.ศ. 622"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Scrub through the days of the journey"
+msgstr "เลื่อนดูวันต่างๆ ของการเดินทาง"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Go to this stage <0/>"
+msgstr "ไปยังช่วงนี้ <0/>"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "The Quran"
+msgstr "อัลกุรอาน"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Hadith collections"
+msgstr "ตำราหะดีษ"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Classical sirah and history"
+msgstr "ตำราชีวประวัติและประวัติศาสตร์ยุคคลาสสิก"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Modern authors"
+msgstr "นักเขียนยุคปัจจุบัน"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Evidence on the map"
+msgstr "หลักฐานบนแผนที่"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "จุดแสงแต่ละจุดคือข้อความที่บทนี้อ้างอิงถึง ซึ่งถูกจัดวางไว้ตามสถานที่ที่กล่าวถึง เลือกจุดใดจุดหนึ่งเพื่ออ่านข้อความ"
 
 #: src/content/lenses.js
 #, ai
@@ -1569,21 +1516,6 @@ msgstr "นี่คือเรื่องราวของการฮิจ
 #, ai
 msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
 msgstr "ชาวมุสลิมจำนวนมากได้เดินทางล่วงหน้าไปก่อนแล้ว อบูบักรฺ เพื่อนสนิทของท่านได้รออยู่เพื่อที่จะได้เดินทางไปด้วยกัน"
-
-#: src/content/lenses.js
-#, ai
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "ในมักกะฮ์ เหล่าผู้นำของกุร็อยช์ได้ประชุมกันเพื่อวางแผนร้ายต่อศาสดา ﷺ"
-
-#: src/content/lenses.js
-#, ai
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "ในคืนนั้นพวกเขารออยู่หน้าประตูบ้านของท่าน อาลีผู้กล้าหาญได้นอนบนเตียงของศาสดา โดยห่มคลุมด้วยเสื้อคลุมสีเขียวของท่าน"
-
-#: src/content/lenses.js
-#, ai
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "ผู้คนมักจะฝากของมีค่าไว้กับศาสดา ﷺ เพราะท่านเป็นคนซื่อสัตย์มาก อาลีจึงอยู่ระบบหลังเพื่อส่งคืนของเหล่านั้นให้แก่ทุกคน"
 
 #: src/content/lenses.js
 #, ai
@@ -1627,16 +1559,6 @@ msgstr "สุรอกะฮ์จึงล้มเลิกการไล่
 
 #: src/content/lenses.js
 #, ai
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "พวกเขาได้แวะพักที่เต็นท์ของหญิงคนหนึ่งชื่อ อุมม์ มะอ์บัด นางไม่มีอาหารเลย และมีเพียงแกะผอมโซตัวเดียวที่ไม่มีน้ำนม"
-
-#: src/content/lenses.js
-#, ai
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "ศาสดา ﷺ ได้ขอดุอาอ์และรีดนมแกะตัวนั้น แล้วก็มีน้ำนมเพียงพอสำหรับทุกคน"
-
-#: src/content/lenses.js
-#, ai
 msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 msgstr "ในที่สุดพวกเขาก็เดินทางถึงมะดีนะฮ์! อูฐของศาสดาเดินผ่านเมืองและคุกเข่าลงในลานกว้างแห่งหนึ่ง"
 
@@ -1654,11 +1576,6 @@ msgstr "ในตอนเที่ยงที่ร้อนจัดวัน
 #, ai
 msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
 msgstr "อบูบักรนำเงินทั้งหมดของเขาไปใช้ในการเดินทาง อัสมาอ์ลูกสาวของเขาจึงนำก้อนหินมาใส่ไว้แทนที่เพื่อช่วยให้คุณปู่ของเธอซึ่งมองไม่เห็นรู้สึกสบายใจขึ้น"
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "มะดีนะฮ์อยู่ทางทิศเหนือ ดังนั้นพวกเขาจึงมุ่งหน้าไปทางทิศใต้ก่อนเพื่อไปยังภูเขาษูร ซึ่งเป็นที่ที่ไม่มีใครคิดจะตามหา"
 
 #: src/content/lenses.js
 #, ai
@@ -1739,16 +1656,6 @@ msgstr "ชายผู้หนึ่งที่ออกเดินทาง
 #, ai
 msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
 msgstr "การต้อนรับจากคนแปลกหน้า และความบารอกัต (ความประเสริฐ) ในสิ่งที่มีเพียงน้อยนิด เป็นสิ่งที่ดำเนินอยู่ตลอดชีวิตของท่านศาสดา"
-
-#: src/content/lenses.js
-#, ai
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "สิ่งแรกที่ถูกสร้างขึ้นในบ้านหลังใหม่คือมัสยิด ซึ่งเป็นศูนย์กลางของชุมชนทั้งหมด"
-
-#: src/content/lenses.js
-#, ai
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "มะดีนะฮ์กลายเป็นชุมชนมุสลิมแห่งแรก ซึ่งสร้างขึ้นบนความเป็นพี่น้องระหว่างผู้มาใหม่และผู้ต้อนรับพวกเขา"
 
 #: src/content/lenses.js
 #, ai
@@ -1837,11 +1744,6 @@ msgid "Ibn Ishaq"
 msgstr "อิบนุ อิสฮาก"
 
 #: src/content/lenses.js
-#, ai
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "นักประวัติศาสตร์ในศตวรรษที่แปด ผู้เขียนชีวประวัติของท่านศาสดา ﷺ ที่เก่าแก่ที่สุดที่ยังคงหลงเหลืออยู่"
-
-#: src/content/lenses.js
 #: src/content/lenses.js
 #, ai
 msgid "Thawr"
@@ -1876,3 +1778,178 @@ msgstr "รายงานจากบันทึกประวัติศา
 #, ai
 msgid "A modern author’s explanation or calculation, built on the early sources."
 msgstr "คำอธิบายหรือการคำนวณของนักเขียนยุคปัจจุบัน ซึ่งอ้างอิงจากแหล่งข้อมูลในยุคแรกเริ่ม"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Young learners"
+msgstr "สำหรับเด็ก ๆ"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "New to the story"
+msgstr "ผู้เริ่มต้นเรียนรู้"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "In depth"
+msgstr "เจาะลึก"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Mode"
+msgstr "โหมดการแสดงผล"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "How would you like to follow the journey?"
+msgstr "คุณต้องการติดตามการเดินทางในรูปแบบใด?"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Six short stages, in simple words."
+msgstr "6 ช่วงสั้น ๆ ด้วยภาษาที่เข้าใจง่าย"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms explained, and why each stage matters."
+msgstr "อธิบายคำศัพท์ และความสำคัญของแต่ละช่วง"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "ทุกรายละเอียด พร้อมหลักฐานและเส้นเวลาที่ชัดเจน"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#, ai
+msgid "Why this matters:"
+msgstr "ทำไมสิ่งนี้จึงสำคัญ:"
+
+#: src/routes/Journey.svelte
+#, ai
+msgid "Terms"
+msgstr "คำศัพท์"
+
+#: src/content/lenses.js
+msgid "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+msgstr "อะบูบักรจัดเตรียมอูฐสองตัว อัสมาช่วยจัดเตรียมอาหารสำหรับการเดินทาง"
+
+#: src/content/lenses.js
+msgid "They chose a guide who knew the roads well. He would bring their camels after three nights."
+msgstr "พวกเขาเลือกผู้นำทางที่ชำนาญเส้นทางเป็นอย่างดี เขาจะนำอูฐมาส่งหลังจากผ่านไปสามคืน"
+
+#: src/content/lenses.js
+msgid "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+msgstr "บันทึกยุคแรกเล่าว่า เหล่าผู้นำเผ่ากุร็อยช์ได้พบกันที่มักกะฮ์เพื่อวางแผนต่อต้านท่านศาสดา ﷺ"
+
+#: src/content/lenses.js
+msgid "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+msgstr "บันทึกกล่าวว่า พวกเขารออยู่หน้าประตูห้องในคืนนั้น ขณะที่อะลีนอนอยู่บนเตียงของท่าน โดยคลุมตัวด้วยเสื้อคลุมสีเขียวของท่าน"
+
+#: src/content/lenses.js
+msgid "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+msgstr "หลังจากผ่านไปสามคืน ผู้นำทางก็นำอูฐมา พวกเขาออกจากถ้ำและออกเดินทางสู่มะดีนะฮ์"
+
+#: src/content/lenses.js
+msgid "They took a route near the coast. The journey was long, with many stops along the way."
+msgstr "พวกเขาเลือกใช้เส้นทางเลียบชายฝั่ง การเดินทางยาวนานและมีการหยุดพักหลายครั้งตลอดเส้นทาง"
+
+#: src/content/lenses.js
+msgid "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+msgstr "อีกบันทึกหนึ่งอธิบายถึงการหยุดพักที่กระโจมของอุมม์ มะอ์บัด นางมีแกะผอมตัวหนึ่งที่ไม่มีน้ำนม"
+
+#: src/content/lenses.js
+msgid "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "มีบันทึกกล่าวว่า ท่านศาสดา ﷺ ได้ขอดุอาอ์และรีดนมแกะตัวนั้น และมีน้ำนมเพียงพอสำหรับทุกคน"
+
+#: src/content/lenses.js
+msgid "They first stopped at Quba, near Madinah, where a mosque was founded."
+msgstr "พวกเขาแวะพักจุดแรกที่กุบาอ์ ใกล้มะดีนะฮ์ ซึ่งมีการก่อตั้งมัสยิดขึ้นที่นั่น"
+
+#: src/content/lenses.js
+msgid "Madinah is to the north. They went south first, towards Mount Thawr."
+msgstr "มะดีนะฮ์อยู่ทางทิศเหนือ แต่พวกเขาเดินทางลงไปทางทิศใต้ก่อน มุ่งหน้าสู่ภูเขาเษารร์"
+
+#: src/content/lenses.js
+msgid "A mosque was founded at Quba, making worship a part of life in the new home."
+msgstr "มัสยิดถูกก่อตั้งขึ้นที่กุบาอ์ ทำให้การเคารพสักการะกลายเป็นส่วนหนึ่งของชีวิตในบ้านหลังใหม่"
+
+#: src/content/lenses.js
+msgid "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+msgstr "มะดีนะฮ์กลายเป็นบ้านสำหรับชุมชนมุสลิมที่กำลังเติบโต โดยเชื่อมโยงผู้มาใหม่และผู้ให้ที่พักพิงเข้าด้วยกัน"
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+msgstr "นักประวัติศาสตร์ในศตวรรษที่แปด ผู้ซึ่งบันทึกเรื่องราวเกี่ยวกับชีวิตของท่านศาสดาได้รับการถ่ายทอดและเก็บรักษาไว้โดยนักเขียนรุ่นหลัง"
+
+#: src/routes/Journey.svelte
+msgid "Mode changed. Your place is saved."
+msgstr "เปลี่ยนโหมดแล้ว ตำแหน่งของคุณถูกบันทึกไว้"
+
+#: src/content/lenses.js
+msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+msgstr "ท่านอะลีอยู่รั้งท้ายเพื่อส่งคืนสิ่งของมีค่าที่ผู้คนได้ฝากไว้กับท่านนบี ﷺ"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah"
+msgstr "มักกะฮ์"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah_valley"
+msgstr "หุบเขามักกะฮ์"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "cave"
+msgstr "ถ้ำ"
+
+#: src/lib/scene-manifest.js
+msgid "thawr"
+msgstr "เษาร์"
+
+#: src/lib/scene-manifest.js
+msgid "coast"
+msgstr "ชายฝั่ง"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "road"
+msgstr "ถนน"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "tent"
+msgstr "กระโจม"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "quba"
+msgstr "กุบาอ์"
+
+#: src/lib/scene-manifest.js
+msgid "madinah"
+msgstr "มะดีนะฮ์"
+
+#: src/lib/scene-manifest.js
+msgid "E09"
+msgstr "E09"
+
+#: src/lib/scene-manifest.js
+msgid "horse"
+msgstr "ม้า"
+
+#: src/content/lenses.js
+msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+msgstr "ในมะดีนะฮ์ ชาวมุสลิมได้ออกไปรอท่านนบี ﷺ เรื่องเล่าเกี่ยวกับการมาถึงบอกเล่าว่าพวกเขาต้อนรับท่านอย่างไร"

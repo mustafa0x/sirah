@@ -48,6 +48,7 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "Guided presentation paused. Your position is saved."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "That chapter stop is not available."
 msgstr "That chapter stop is not available."
 
@@ -1228,18 +1229,6 @@ msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so
 msgstr "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
 
 #: src/content/lenses.js
-msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-msgstr "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
-
-#: src/content/lenses.js
-msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-msgstr "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
-
-#: src/content/lenses.js
-msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-msgstr "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
-
-#: src/content/lenses.js
 msgid "The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights."
 msgstr "The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights."
 
@@ -1272,14 +1261,6 @@ msgid "Suraqah gave up the chase. They asked him only to keep their secret, and 
 msgstr "Suraqah gave up the chase. They asked him only to keep their secret, and went on their way."
 
 #: src/content/lenses.js
-msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-msgstr "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
-
-#: src/content/lenses.js
-msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-msgstr "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
-
-#: src/content/lenses.js
 msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 msgstr "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
 
@@ -1294,10 +1275,6 @@ msgstr "One hot noon, the Prophet ﷺ came to Abu Bakr’s house with big news: 
 #: src/content/lenses.js
 msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
 msgstr "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
-
-#: src/content/lenses.js
-msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
-msgstr "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
 
 #: src/content/lenses.js
 msgid "Asma used her belt to tie up their food bag. People called her “the one with two belts”."
@@ -1362,14 +1339,6 @@ msgstr "A man who set out to capture them left asking for their protection. The 
 #: src/content/lenses.js
 msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
 msgstr "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
-
-#: src/content/lenses.js
-msgid "The first thing built in the new home was a mosque, a centre for the whole community."
-msgstr "The first thing built in the new home was a mosque, a centre for the whole community."
-
-#: src/content/lenses.js
-msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
-msgstr "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
 
 #: src/content/lenses.js
 msgid "Short for “peace and blessings of Allah be upon him”, said by Muslims after the Prophet’s name."
@@ -1440,10 +1409,6 @@ msgstr "A scholar of the fourteenth century whose history of the Prophet’s lif
 #: src/content/lenses.js
 msgid "Ibn Ishaq"
 msgstr "Ibn Ishaq"
-
-#: src/content/lenses.js
-msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
-msgstr "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
 
 #: src/content/lenses.js
 #: src/content/lenses.js
@@ -1517,3 +1482,124 @@ msgstr "Why this matters:"
 #: src/routes/Journey.svelte
 msgid "Terms"
 msgstr "Terms"
+
+#: src/content/lenses.js
+msgid "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+msgstr "Abu Bakr prepared two camels. Asma helped pack food for the journey."
+
+#: src/content/lenses.js
+msgid "They chose a guide who knew the roads well. He would bring their camels after three nights."
+msgstr "They chose a guide who knew the roads well. He would bring their camels after three nights."
+
+#: src/content/lenses.js
+msgid "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+msgstr "An early account tells how the leaders of Quraysh met in Makkah to plan against the Prophet ﷺ."
+
+#: src/content/lenses.js
+msgid "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+msgstr "The account says they waited outside his door that night, while ‘Ali slept in his bed, wrapped in his green cloak."
+
+#: src/content/lenses.js
+msgid "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+msgstr "After three nights, their guide brought the camels. They left the cave and travelled towards Madinah."
+
+#: src/content/lenses.js
+msgid "They took a route near the coast. The journey was long, with many stops along the way."
+msgstr "They took a route near the coast. The journey was long, with many stops along the way."
+
+#: src/content/lenses.js
+msgid "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+msgstr "Another account describes a stop at Umm Ma‘bad’s tent. She had a thin sheep that was not giving milk."
+
+#: src/content/lenses.js
+msgid "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "It says the Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+
+#: src/content/lenses.js
+msgid "They first stopped at Quba, near Madinah, where a mosque was founded."
+msgstr "They first stopped at Quba, near Madinah, where a mosque was founded."
+
+#: src/content/lenses.js
+msgid "Madinah is to the north. They went south first, towards Mount Thawr."
+msgstr "Madinah is to the north. They went south first, towards Mount Thawr."
+
+#: src/content/lenses.js
+msgid "A mosque was founded at Quba, making worship a part of life in the new home."
+msgstr "A mosque was founded at Quba, making worship a part of life in the new home."
+
+#: src/content/lenses.js
+msgid "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+msgstr "Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together."
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+msgstr "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
+
+#: src/routes/Journey.svelte
+msgid "Mode changed. Your place is saved."
+msgstr "Mode changed. Your place is saved."
+
+#: src/content/lenses.js
+msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+msgstr "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah"
+msgstr "makkah"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "makkah_valley"
+msgstr "makkah_valley"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "cave"
+msgstr "cave"
+
+#: src/lib/scene-manifest.js
+msgid "thawr"
+msgstr "thawr"
+
+#: src/lib/scene-manifest.js
+msgid "coast"
+msgstr "coast"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "road"
+msgstr "road"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "tent"
+msgstr "tent"
+
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+#: src/lib/scene-manifest.js
+msgid "quba"
+msgstr "quba"
+
+#: src/lib/scene-manifest.js
+msgid "madinah"
+msgstr "madinah"
+
+#: src/lib/scene-manifest.js
+msgid "E09"
+msgstr "E09"
+
+#: src/lib/scene-manifest.js
+msgid "horse"
+msgstr "horse"
+
+#: src/content/lenses.js
+msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+msgstr "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
