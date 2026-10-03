@@ -6,6 +6,8 @@ import {
     shelter_asset,
     worlds as world_definitions,
 } from './scene-manifest.js'
+import { evidence_dot } from './evidence.js'
+import { chapter } from '../content/first-chapter.js'
 import { build_terrain, fbm, hash, load_grid, shelter_bank } from './scene-terrain.js'
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value))
@@ -84,7 +86,10 @@ const moods = {
     },
 }
 
-export async function create_scene(host, { on_poi = () => {}, report = () => {} } = {}) {
+export async function create_scene(
+    host,
+    { on_poi = () => {}, on_source = () => {}, report = () => {} } = {},
+) {
     let disposed = false
     let frame = 0
     let resize_observer
@@ -103,6 +108,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         set_route() {},
         set_cycle() {},
         set_actor() {},
+        set_evidence() {},
         set_active() {},
         set_insets() {},
         dispose() {
@@ -636,6 +642,28 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                     world.rings.push(ring)
                 }
 
+                // Passages from the local views are gathered at their town on the overview.
+                world.evidence = new Map()
+                for (const source of chapter.sources) {
+                    let place = places[source.place]
+                    if (!place) continue
+                    if (place.world !== name) {
+                        if (name !== 'region') continue
+                        place =
+                            places[place.world === 'madinah' ? 'region_madinah' : 'region_makkah']
+                    }
+                    const ground = place.set ? world.cave_site.clone() : new THREE.Vector3()
+                    if (!place.set) {
+                        const [x, z] = world.terrain.to_xz(place.lat, place.lon)
+                        ground.set(x, world.terrain.height(x, z), z)
+                    }
+                    const lift = place.set ? 0.0034 : regional ? 0.12 : 0.04
+                    const key = `${ground.x.toFixed(4)},${ground.z.toFixed(4)}`
+                    if (!world.evidence.has(key))
+                        world.evidence.set(key, { at: ground.setY(ground.y + lift), ids: [] })
+                    world.evidence.get(key).ids.push(source.id)
+                }
+
                 world.group.visible = false
                 scene.add(world.group)
                 return world
@@ -809,6 +837,49 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             labels.append(node)
             return { poi, node }
         })
+        // Evidence: one point of light per cited passage, clustered where they share a place.
+        let evidence_on = false
+        const evidence_nodes = new Map(
+            chapter.sources.map((source) => {
+                const node = document.createElement('button')
+                node.type = 'button'
+                node.className = `absolute top-0 left-0 size-[11px] p-0 rounded-full border border-solid border-[rgba(255,255,255,0.7)] pointer-events-auto [translate:-50%_-50%] transition-transform duration-150 ease-[ease] hover:scale-150 focus-visible:scale-150 [&[hidden]]:hidden ${evidence_dot[source.kind]}`
+                node.title = `${source.number}. ${source.reference}`
+                node.setAttribute('aria-label', node.title)
+                node.hidden = true
+                node.addEventListener('click', () => on_source(source.id))
+                labels.append(node)
+                return [source.id, node]
+            }),
+        )
+        const place_evidence = () => {
+            const width = host.clientWidth
+            const height = host.clientHeight
+            const shown = new Set()
+            if (evidence_on && veil_level < 0.5) {
+                for (const { at, ids } of active.evidence.values()) {
+                    projected.copy(at).project(camera)
+                    if (
+                        projected.z > 1 ||
+                        Math.abs(projected.x) > 1.1 ||
+                        Math.abs(projected.y) > 1.1
+                    )
+                        continue
+                    const x = ((projected.x + 1) / 2) * width
+                    const y = ((1 - projected.y) / 2) * height
+                    // A sunflower spiral keeps a cluster readable at any size.
+                    ids.forEach((id, index) => {
+                        const node = evidence_nodes.get(id)
+                        const radius = 9 * Math.sqrt(index)
+                        const angle = index * 2.39996
+                        node.style.left = `${x + radius * Math.cos(angle)}px`
+                        node.style.top = `${y + radius * Math.sin(angle)}px`
+                        shown.add(id)
+                    })
+                }
+            }
+            for (const [id, node] of evidence_nodes) node.hidden = !shown.has(id)
+        }
         const insets = { left: 0, right: 0, bottom: 0 }
         const inset_target = { left: 0, right: 0, bottom: 0, top: 0 }
         const projected = new THREE.Vector3()
@@ -819,6 +890,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
                 const anchor = active.anchors.get(poi.id)
                 if (
                     !anchor ||
+                    (poi.detail && evidence_on) ||
                     veil_level > 0.5 ||
                     view.distance > (poi.within ?? Infinity) ||
                     view.distance < (poi.beyond ?? 0)
@@ -1175,6 +1247,7 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
             dust_material.color.copy(mood.sun)
             composer.render()
             place_labels()
+            place_evidence()
             frame = window.requestAnimationFrame(render)
         }
         frame = window.requestAnimationFrame(render)
@@ -1186,6 +1259,9 @@ export async function create_scene(host, { on_poi = () => {}, report = () => {} 
         api.set_route = (progress) => {
             for (let leg = 0; leg < leg_target.length; leg += 1)
                 leg_target[leg] = progress[leg] ?? 0
+        }
+        api.set_evidence = (on) => {
+            evidence_on = on
         }
         api.set_actor = (name) => {
             actor = name

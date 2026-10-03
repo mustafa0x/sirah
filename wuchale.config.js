@@ -55,6 +55,8 @@ export default defineConfig({
             files: [
                 'src/content/first-chapter.js',
                 'src/content/details.js',
+                'src/content/timeline.js',
+                'src/content/lenses.js',
                 'src/lib/scene-manifest.js',
                 'src/lib/guide-provider.js',
                 'src/lib/journey-state.js',

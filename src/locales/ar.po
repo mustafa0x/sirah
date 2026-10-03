@@ -1056,3 +1056,451 @@ msgstr "على الطريق"
 #: src/routes/Journey.svelte
 msgid "Close detail"
 msgstr "إغلاق التفصيل"
+
+#: src/content/timeline.js
+msgid "Leaving Makkah"
+msgstr "الخروج من مكة"
+
+#: src/content/timeline.js
+msgid "Night of 27 Safar · 12–13 September 622"
+msgstr "ليلة ٢٧ صفر · ١٢–١٣ سبتمبر ٦٢٢"
+
+#: src/content/timeline.js
+msgid "The night of departure is in the accounts. Its place in the calendar is a modern reckoning."
+msgstr "ليلة الخروج مذكورة في الروايات، أما موضعها من التقويم فحساب معاصر."
+
+#: src/content/timeline.js
+msgid "The nights before Friday, Saturday and Sunday"
+msgstr "ليلة الجمعة وليلة السبت وليلة الأحد"
+
+#: src/content/timeline.js
+msgid "Three nights is in al-Bukhari. Naming them after the days of the week follows a modern reckoning."
+msgstr "الليالي الثلاث في البخاري، وتسميتها بأيام الأسبوع تتبع حسابًا معاصرًا."
+
+#: src/content/timeline.js
+msgid "The guide arrives"
+msgstr "وصول الدليل"
+
+#: src/content/timeline.js
+msgid "Night of Monday, 1 Rabi‘ al-Awwal · 16 September 622"
+msgstr "ليلة الإثنين، غرة ربيع الأول · ١٦ سبتمبر ٦٢٢"
+
+#: src/content/timeline.js
+msgid "The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning."
+msgstr "جاء الدليل بالراحلتين بعد الليلة الثالثة كما اتُّفق. والتاريخ في التقويم حساب معاصر."
+
+#: src/content/timeline.js
+msgid "On the coastal road"
+msgstr "على طريق الساحل"
+
+#: src/content/timeline.js
+msgid "About a week"
+msgstr "نحو أسبوع"
+
+#: src/content/timeline.js
+msgid "The accounts give the order of what happened on the road, but no days. The pursuit and the tent of Umm Ma‘bad fall somewhere in this week."
+msgstr "تذكر الروايات ترتيب ما وقع في الطريق دون أيامه. ويقع لحاق سراقة وخيمة أم معبد في مكان ما من هذا الأسبوع."
+
+#: src/content/timeline.js
+msgid "Arrival at Quba"
+msgstr "الوصول إلى قباء"
+
+#: src/content/timeline.js
+msgid "Monday · 8 Rabi‘ al-Awwal · 23 September 622"
+msgstr "الإثنين · ٨ ربيع الأول · ٢٣ سبتمبر ٦٢٢"
+
+#: src/content/timeline.js
+msgid "The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning."
+msgstr "تذكر رواية البخاري أنه كان يوم الإثنين من شهر ربيع الأول، أما اليوم من الشهر فحساب معاصر."
+
+#: src/content/timeline.js
+msgid "The stay at Quba"
+msgstr "الإقامة في قباء"
+
+#: src/content/timeline.js
+msgid "Four days, or more than ten nights"
+msgstr "أربعة أيام، أو بضع عشرة ليلة"
+
+#: src/content/timeline.js
+msgid "Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it."
+msgstr "يذكر ابن إسحاق الإثنين إلى الخميس، وفي رواية البخاري بضع عشرة ليلة، وقال بنو عمرو بن عوف ثماني عشرة ليلة. ويورد ابن كثير الروايات جنبًا إلى جنب دون أن يحسم."
+
+#: src/content/timeline.js
+msgid "The first Friday, and Madinah"
+msgstr "أول جمعة، والمدينة"
+
+#: src/content/timeline.js
+msgid "Friday · 12 Rabi‘ al-Awwal · 27 September 622"
+msgstr "الجمعة · ١٢ ربيع الأول · ٢٧ سبتمبر ٦٢٢"
+
+#: src/content/timeline.js
+msgid "That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay."
+msgstr "كونه يوم جمعة مذكور في الروايات المتقدمة، أما التاريخ في التقويم فحساب معاصر يتبع الإقامة أربعة أيام."
+
+#: src/routes/Journey.svelte
+msgid "Evidence shown. Each point is a cited passage, coloured by kind."
+msgstr "عُرضت الأدلة. كل نقطة نص مستشهد به، ملوّنة بحسب نوعها."
+
+#: src/routes/Journey.svelte
+msgid "Evidence hidden."
+msgstr "أُخفيت الأدلة."
+
+#: src/routes/Journey.svelte
+msgid "Hide evidence on the map"
+msgstr "إخفاء الأدلة على الخريطة"
+
+#: src/routes/Journey.svelte
+msgid "Show evidence on the map"
+msgstr "عرض الأدلة على الخريطة"
+
+#: src/routes/Journey.svelte
+msgid "Hide timeline"
+msgstr "إخفاء الخط الزمني"
+
+#: src/routes/Journey.svelte
+msgid "Show timeline"
+msgstr "عرض الخط الزمني"
+
+#: src/routes/Journey.svelte
+msgid "How each date is known"
+msgstr "كيف يُعرف كل تاريخ"
+
+#: src/routes/Journey.svelte
+msgid "<0/>Stated in the account"
+msgstr "<0/>مذكور في الرواية"
+
+#: src/routes/Journey.svelte
+msgid "<0/>Reckoned later"
+msgstr "<0/>محسوب لاحقًا"
+
+#: src/routes/Journey.svelte
+msgid "<0/>Accounts differ"
+msgstr "<0/>الروايات مختلفة"
+
+#: src/routes/Journey.svelte
+msgid "<0/>Not dated"
+msgstr "<0/>غير مؤرّخ"
+
+#: src/routes/Journey.svelte
+msgid "The journey day by day · September 622"
+msgstr "الرحلة يومًا بيوم · سبتمبر ٦٢٢"
+
+#: src/routes/Journey.svelte
+msgid "Scrub through the days of the journey"
+msgstr "تنقّل بين أيام الرحلة"
+
+#: src/routes/Journey.svelte
+msgid "Go to this stage <0/>"
+msgstr "انتقل إلى هذه المرحلة <0/>"
+
+#: src/routes/Journey.svelte
+msgid "The Quran"
+msgstr "القرآن الكريم"
+
+#: src/routes/Journey.svelte
+msgid "Hadith collections"
+msgstr "كتب الحديث"
+
+#: src/routes/Journey.svelte
+msgid "Classical sirah and history"
+msgstr "كتب السيرة والتاريخ المتقدمة"
+
+#: src/routes/Journey.svelte
+msgid "Modern authors"
+msgstr "مؤلفون معاصرون"
+
+#: src/routes/Journey.svelte
+msgid "Evidence on the map"
+msgstr "الأدلة على الخريطة"
+
+#: src/routes/Journey.svelte
+msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
+msgstr "كل نقطة ضوء نصٌّ يستشهد به هذا الفصل، موضوعة حيث يتحدث. اختر نقطة لقراءته."
+
+#: src/content/lenses.js
+msgid "This is the story of the Hijrah: when the Prophet Muhammad ﷺ travelled from Makkah to Madinah, a new home."
+msgstr "هذه قصة الهجرة: حين سافر النبي محمد ﷺ من مكة إلى المدينة، إلى بيت جديد."
+
+#: src/content/lenses.js
+msgid "Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together."
+msgstr "كان كثير من المسلمين قد سبقوه. وانتظر صديقه أبو بكر ليسافرا معًا."
+
+#: src/content/lenses.js
+msgid "In Makkah, the leaders of Quraysh met to plan against the Prophet ﷺ."
+msgstr "في مكة اجتمع زعماء قريش ليدبّروا أمرًا ضد النبي ﷺ."
+
+#: src/content/lenses.js
+msgid "That night they waited outside his door. ‘Ali bravely slept in the Prophet’s bed, wrapped in his green cloak."
+msgstr "وفي تلك الليلة انتظروا عند بابه. ونام عليٌّ بشجاعة في فراش النبي، متغطيًا ببرده الأخضر."
+
+#: src/content/lenses.js
+msgid "People kept their precious things with the Prophet ﷺ because he was so honest. ‘Ali stayed behind to give every one of them back."
+msgstr "كان الناس يضعون أشياءهم الثمينة عند النبي ﷺ لأنه كان صادقًا أمينًا. فبقي عليٌّ ليردّها كلها إلى أصحابها."
+
+#: src/content/lenses.js
+msgid "The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights."
+msgstr "اختبأ النبي ﷺ وأبو بكر في غار في جبل ثور ثلاث ليال."
+
+#: src/content/lenses.js
+msgid "Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah."
+msgstr "وكل ليلة كان عبد الله بن أبي بكر يأتيهما في الظلام بأخبار مكة."
+
+#: src/content/lenses.js
+msgid "A shepherd called ‘Amir brought his sheep close every evening, so that they had milk to drink."
+msgstr "وكان راعٍ اسمه عامر يقرّب غنمه منهما كل مساء ليشربا من لبنها."
+
+#: src/content/lenses.js
+msgid "Abu Bakr was worried: if someone looked down, they would be seen! The Prophet ﷺ calmed him."
+msgstr "خاف أبو بكر: لو نظر أحدهم إلى أسفل لرآهما! فطمأنه النبي ﷺ."
+
+#: src/content/lenses.js
+msgid "The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us."
+msgstr "ويذكر القرآن ما قاله النبي ﷺ لصاحبه في الغار: لا تحزن إن الله معنا."
+
+#: src/content/lenses.js
+msgid "Quraysh offered a big reward to catch them. A rider called Suraqah raced after them on his horse."
+msgstr "جعلت قريش جائزة كبيرة لمن يمسك بهما. فانطلق فارس اسمه سراقة خلفهما على فرسه."
+
+#: src/content/lenses.js
+msgid "As he came close, his horse’s legs sank into the ground, and he fell off!"
+msgstr "ولما اقترب ساخت قوائم فرسه في الأرض، فسقط عنها!"
+
+#: src/content/lenses.js
+msgid "Suraqah gave up the chase. They asked him only to keep their secret, and went on their way."
+msgstr "فترك سراقة المطاردة. ولم يطلبا منه إلا أن يكتم خبرهما، ومضيا في طريقهما."
+
+#: src/content/lenses.js
+msgid "They stopped at the tent of a woman called Umm Ma‘bad. She had no food, and only one thin sheep with no milk."
+msgstr "نزلوا عند خيمة امرأة اسمها أم معبد. لم يكن عندها طعام، ولا إلا شاة هزيلة لا لبن فيها."
+
+#: src/content/lenses.js
+msgid "The Prophet ﷺ prayed and milked the sheep, and there was milk for everyone."
+msgstr "فدعا النبي ﷺ الله وحلب الشاة، فكان اللبن يكفي الجميع."
+
+#: src/content/lenses.js
+msgid "At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard."
+msgstr "وأخيرًا وصلوا إلى المدينة! ومشت ناقة النبي في البلدة حتى بركت في ساحة واسعة."
+
+#: src/content/lenses.js
+msgid "That yard became the place of his mosque, and he carried bricks to help build it."
+msgstr "وصارت تلك الساحة موضع مسجده، وحمل اللبن بنفسه ليساعد في بنائه."
+
+#: src/content/lenses.js
+msgid "One hot noon, the Prophet ﷺ came to Abu Bakr’s house with big news: it was time to go. Abu Bakr asked to come too, and he said yes."
+msgstr "في ظهيرة حارّة جاء النبي ﷺ إلى بيت أبي بكر بخبر كبير: حان وقت الخروج. فطلب أبو بكر أن يصحبه، فقال: نعم."
+
+#: src/content/lenses.js
+msgid "Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see."
+msgstr "أخذ أبو بكر ماله كله للرحلة. فوضعت ابنته أسماء أحجارًا مكانه لتطمئن جدّها الذي لا يبصر."
+
+#: src/content/lenses.js
+msgid "Madinah is to the north, so they went south first, to Mount Thawr, where no one would look."
+msgstr "المدينة في الشمال، فاتجها أولًا إلى الجنوب، إلى جبل ثور، حيث لن يبحث أحد."
+
+#: src/content/lenses.js
+msgid "Asma used her belt to tie up their food bag. People called her “the one with two belts”."
+msgstr "ربطت أسماء كيس الطعام بنطاقها، فسمّاها الناس «ذات النطاقين»."
+
+#: src/content/lenses.js
+msgid "One report says the searchers saw a spider’s web across the cave and walked away."
+msgstr "تذكر رواية أن الباحثين رأوا نسج عنكبوت على باب الغار فانصرفوا."
+
+#: src/content/lenses.js
+msgid "Their guide knew the desert well. He led them along the coast, past many places whose names we still know."
+msgstr "كان دليلهم يعرف الصحراء جيدًا، فسار بهم على الساحل، مرورًا بأماكن ما زلنا نعرف أسماءها."
+
+#: src/content/lenses.js
+msgid "On the way, a friend called al-Zubayr gave them new white clothes."
+msgstr "وفي الطريق أهداهما صديق اسمه الزبير ثيابًا بيضًا جديدة."
+
+#: src/content/lenses.js
+msgid "On his way into Madinah, the Prophet ﷺ led Friday prayer with about a hundred people."
+msgstr "وفي طريقه إلى المدينة صلّى النبي ﷺ الجمعة بنحو مئة رجل."
+
+#: src/content/lenses.js
+msgid "Everyone wanted the Prophet ﷺ to stay with them. He said: let the camel go, she has been told where to stop."
+msgstr "كان الجميع يريد أن ينزل النبي ﷺ عندهم. فقال: خلّوا سبيل الناقة، فإنها تعرف أين تقف."
+
+#: src/content/lenses.js
+msgid "He stayed in the house of Abu Ayyub until his mosque and his home were built."
+msgstr "نزل في بيت أبي أيوب حتى بُني مسجده وبيته."
+
+#: src/content/lenses.js
+msgid "He made the people who arrived and the people of Madinah brothers, to help each other."
+msgstr "جعل القادمين وأهل المدينة إخوة، يعين بعضهم بعضًا."
+
+#: src/content/lenses.js
+msgid "Many people remember a happy song sung to welcome him, but we are not sure it was sung that day."
+msgstr "يتذكر كثيرون نشيدًا فرحًا استُقبل به، لكننا لسنا متأكدين أنه أُنشد في ذلك اليوم."
+
+#: src/content/lenses.js
+msgid "The Hijrah is so central that the Islamic calendar counts its years from it."
+msgstr "للهجرة مكانة كبيرة حتى إن التقويم الإسلامي يعدّ سنواته منها."
+
+#: src/content/lenses.js
+msgid "Trust and careful planning sit side by side: the Prophet ﷺ relied on Allah and still prepared every step."
+msgstr "التوكل والتخطيط يسيران معًا: توكّل النبي ﷺ على الله وأعدّ لكل خطوة."
+
+#: src/content/lenses.js
+msgid "Even with people plotting against him, he made sure their property was returned. His honesty did not depend on how he was treated."
+msgstr "مع أن قومًا كانوا يكيدون له، حرص على ردّ أماناتهم. لم تكن أمانته متوقفة على معاملتهم له."
+
+#: src/content/lenses.js
+msgid "In the most frightening moment, the lesson is calm trust: Allah is with us."
+msgstr "في أشد اللحظات خوفًا كان الدرس هو التوكل الهادئ: إن الله معنا."
+
+#: src/content/lenses.js
+msgid "Choosing an unexpected route was wisdom, not doubt. Muslims are taught to trust Allah and still take sensible steps."
+msgstr "لم يكن سلوك طريق غير متوقع شكًّا بل حكمة. فالمسلم يتوكل على الله ويأخذ بالأسباب."
+
+#: src/content/lenses.js
+msgid "A man who set out to capture them left asking for their protection. The story is full of reversals like this."
+msgstr "رجل خرج ليأسرهما عاد طالبًا أمانهما. والقصة مليئة بمثل هذه التحولات."
+
+#: src/content/lenses.js
+msgid "Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life."
+msgstr "إكرام الغرباء، والبركة في القليل، معنيان يسريان في سيرة النبي كلها."
+
+#: src/content/lenses.js
+msgid "The first thing built in the new home was a mosque, a centre for the whole community."
+msgstr "أول ما بُني في الموطن الجديد مسجد، مركزًا للمجتمع كله."
+
+#: src/content/lenses.js
+msgid "Madinah became the first Muslim community, built on brotherhood between the newcomers and their hosts."
+msgstr "صارت المدينة أول مجتمع مسلم، قائمًا على الأخوّة بين المهاجرين ومضيفيهم."
+
+#: src/content/lenses.js
+msgid "Short for “peace and blessings of Allah be upon him”, said by Muslims after the Prophet’s name."
+msgstr "اختصار «صلى الله عليه وسلم»، يقولها المسلمون بعد ذكر اسم النبي."
+
+#: src/content/lenses.js
+msgid "Hijrah"
+msgstr "الهجرة"
+
+#: src/content/lenses.js
+msgid "The migration of the Prophet ﷺ and his companions from Makkah to Madinah, in 622."
+msgstr "هجرة النبي ﷺ وأصحابه من مكة إلى المدينة سنة ٦٢٢م."
+
+#: src/content/lenses.js
+msgid "Quraysh"
+msgstr "قريش"
+
+#: src/content/lenses.js
+msgid "The leading tribe of Makkah. The Prophet ﷺ himself belonged to it."
+msgstr "القبيلة الأبرز في مكة، وإليها ينتمي النبي ﷺ نفسه."
+
+#: src/content/lenses.js
+msgid "The city where the Prophet ﷺ was born, home of the Ka‘bah."
+msgstr "المدينة التي وُلد فيها النبي ﷺ، وفيها الكعبة."
+
+#: src/content/lenses.js
+msgid "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
+msgstr "كانت تُسمّى يثرب: المدينة التي استقبلت النبي ﷺ. ومعنى اسمها «المدينة»."
+
+#: src/content/lenses.js
+msgid "Abu Bakr"
+msgstr "أبو بكر"
+
+#: src/content/lenses.js
+msgid "The Prophet’s closest friend and companion, who later led the Muslims after him."
+msgstr "أقرب أصحاب النبي إليه، وقد تولّى أمر المسلمين بعده."
+
+#: src/content/lenses.js
+msgid "Allah"
+msgstr "الله"
+
+#: src/content/lenses.js
+msgid "The Arabic word for God."
+msgstr "الاسم العربي للإله الواحد."
+
+#: src/content/lenses.js
+msgid "The holy book of Islam, which Muslims believe is the word of Allah."
+msgstr "الكتاب المقدّس في الإسلام، ويؤمن المسلمون أنه كلام الله."
+
+#: src/content/lenses.js
+msgid "The collection of hadith that Muslims consider the most reliable."
+msgstr "كتاب الحديث الذي يعدّه المسلمون أصحّ الكتب."
+
+#: src/content/lenses.js
+msgid "Ibn Kathir"
+msgstr "ابن كثير"
+
+#: src/content/lenses.js
+msgid "A scholar of the fourteenth century whose history of the Prophet’s life is widely used."
+msgstr "عالم من القرن الثامن الهجري، كتابه في السيرة واسع الاستعمال."
+
+#: src/content/lenses.js
+msgid "Ibn Ishaq"
+msgstr "ابن إسحاق"
+
+#: src/content/lenses.js
+msgid "An eighth-century historian whose biography of the Prophet ﷺ is the earliest to survive."
+msgstr "مؤرخ من القرن الثاني الهجري، وسيرته أقدم سيرة نبوية وصلت إلينا."
+
+#: src/content/lenses.js
+msgid "Thawr"
+msgstr "ثور"
+
+#: src/content/lenses.js
+msgid "A mountain south of Makkah, with a small cave near its top."
+msgstr "جبل جنوب مكة، في أعلاه غار صغير."
+
+#: src/content/lenses.js
+msgid "A village on the edge of Madinah, where the Prophet ﷺ stopped first."
+msgstr "قرية على أطراف المدينة، نزل بها النبي ﷺ أولًا."
+
+#: src/content/lenses.js
+msgid "A passage of the Quran, the holy book of Islam."
+msgstr "نص من القرآن الكريم، كتاب الإسلام المقدّس."
+
+#: src/content/lenses.js
+msgid "A hadith: a report of the Prophet’s words or deeds, passed on through named narrators. The collections of al-Bukhari and Muslim are considered the most reliable."
+msgstr "حديث: خبر عن أقوال النبي أو أفعاله، نقله رواة معروفون. ويُعدّ صحيحا البخاري ومسلم أوثق كتبه."
+
+#: src/content/lenses.js
+msgid "A report from the early histories of the Prophet’s life. They gather many accounts, some stronger than others."
+msgstr "خبر من كتب السيرة المتقدمة، وهي تجمع روايات كثيرة بعضها أقوى من بعض."
+
+#: src/content/lenses.js
+msgid "A modern author’s explanation or calculation, built on the early sources."
+msgstr "شرح أو حساب لمؤلف معاصر مبنيّ على المصادر المتقدمة."
+
+#: src/routes/Journey.svelte
+msgid "Young learners"
+msgstr "للصغار"
+
+#: src/routes/Journey.svelte
+msgid "New to the story"
+msgstr "جديد على القصة"
+
+#: src/routes/Journey.svelte
+msgid "In depth"
+msgstr "بتعمّق"
+
+#: src/routes/Journey.svelte
+msgid "Mode"
+msgstr "طريقة العرض"
+
+#: src/routes/Journey.svelte
+msgid "How would you like to follow the journey?"
+msgstr "كيف تحب أن تتابع الرحلة؟"
+
+#: src/routes/Journey.svelte
+msgid "Six short stages, in simple words."
+msgstr "ست مراحل قصيرة بكلمات سهلة."
+
+#: src/routes/Journey.svelte
+msgid "Terms explained, and why each stage matters."
+msgstr "شرح المصطلحات، ولماذا تهمّ كل مرحلة."
+
+#: src/routes/Journey.svelte
+msgid "Every detail, with the evidence and the timeline open."
+msgstr "كل التفاصيل، مع الأدلة والخط الزمني ظاهرين."
+
+#: src/routes/Journey.svelte
+msgid "Why this matters:"
+msgstr "لماذا يهمّ هذا:"
+
+#: src/routes/Journey.svelte
+msgid "Terms"
+msgstr "مصطلحات"

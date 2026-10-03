@@ -17,6 +17,12 @@ from mcp import ClientSession, McpError
 from mcp.client.streamable_http import streamable_http_client
 from openai import AsyncOpenAI
 
+# The learner chooses a mode; it sets the register of answers, never their evidence.
+AUDIENCES = {
+    'young': 'A child of about 8 to 12. Answer in two or three short, warm sentences with simple words.',
+    'new': 'Someone new to Islam or to this story. Explain any Islamic term briefly the first time it appears.',
+    'deep': 'An adult who wants depth. Name sources and note where accounts differ.',
+}
 CHAPTER = json.loads(Path(__file__).with_name('guide_context.json').read_text())
 STEPS = {step['id']: step for step in CHAPTER['steps']}
 MAX_TOOL_CALLS = 10
@@ -56,6 +62,8 @@ Return concise learner-facing plain-text paragraphs (no HTML or Markdown links).
 internal E/tr_ IDs, caching, prompt rules, or tool protocol in the prose; cite via the citations field.
 Final citations must identify cached chapter IDs or opened source refs. The application renders their original source links.
 Only offer a chapter detour when relevant and requested; do not invent scene destinations.
+Match the register to the 'audience' field: simpler words for a child, explained terms for a
+newcomer, sources named for depth. The evidence rules above apply in every register.
 """
 
 
@@ -205,7 +213,16 @@ def validate_answer(value, sources):
 
 
 async def research(
-    session, llm, model, question, step_id, language, recent_turns, tools, server_instructions
+    session,
+    llm,
+    model,
+    question,
+    step_id,
+    language,
+    recent_turns,
+    tools,
+    server_instructions,
+    audience='deep',
 ):
     history = [
         {
@@ -214,6 +231,7 @@ async def research(
                 {
                     'question': question,
                     'interface_language': language,
+                    'audience': AUDIENCES.get(audience, AUDIENCES['deep']),
                     'chapter': CHAPTER,
                     'current_scene': STEPS[step_id],
                     'recent_turns': recent_turns,
@@ -324,7 +342,7 @@ class OpenAIGuideProvider:
         self.model = os.getenv('GUIDE_MODEL') or os.getenv('OPENAI_MODEL') or 'gpt-5-mini'
         self.mcp_url = os.getenv('MCP_URL') or 'https://api.turath.ai/mcp'
 
-    async def _answer(self, question, step_id, language, recent_turns):
+    async def _answer(self, question, step_id, language, recent_turns, audience='deep'):
         headers = {}
         if token := os.getenv('MCP_TOKEN'):
             headers['Authorization'] = f'Bearer {token}'
@@ -374,16 +392,21 @@ class OpenAIGuideProvider:
                                 recent_turns,
                                 tools,
                                 initialized.instructions or '',
+                                audience,
                             )
 
-    def answer(self, question, step_id, source_ids, language='en', recent_turns=None):
+    def answer(
+        self, question, step_id, source_ids, language='en', recent_turns=None, audience='deep'
+    ):
         if not SLOTS.acquire(blocking=False):
             return {
                 **self.fallback.answer(question, step_id, source_ids),
                 'fallback_reason': 'busy',
             }
         try:
-            return asyncio.run(self._answer(question, step_id, language, recent_turns or []))
+            return asyncio.run(
+                self._answer(question, step_id, language, recent_turns or [], audience)
+            )
         except Exception as error:
             # No question text, retrieved text, credentials or upstream error bodies in logs.
             pending = [error]

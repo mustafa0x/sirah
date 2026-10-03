@@ -281,8 +281,13 @@ def guide_response(payload: Any, provider: LocalGuideProvider | OpenAIGuideProvi
         for turn in recent_turns
     ):
         raise BoundaryError('context recent_turns are invalid')
+    audience = context.get('audience', 'deep')
+    if audience not in {'young', 'new', 'deep'}:
+        raise BoundaryError('context audience is invalid')
     if isinstance(provider, OpenAIGuideProvider):
-        return provider.answer(question.strip(), step_id, source_ids, language, recent_turns)
+        return provider.answer(
+            question.strip(), step_id, source_ids, language, recent_turns, audience
+        )
     return (provider or LocalGuideProvider()).answer(question.strip(), step_id, source_ids)
 
 

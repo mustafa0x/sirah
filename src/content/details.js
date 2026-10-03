@@ -13,8 +13,25 @@ const RAHIQ = {
     author: 'صفي الرحمن المباركفوري',
 }
 
+// `kind` is the type of the underlying account: quran, hadith, report (classical sirah
+// and history) or modern (a modern author's own reading).
+const KINDS = {
+    visit: 'hadith',
+    wealth: 'report',
+    south: 'modern',
+    belts: 'report',
+    web: 'report',
+    stations: 'report',
+    garments: 'hadith',
+    friday: 'report',
+    camel: 'report',
+    ayyub: 'report',
+    brothers: 'report',
+    song: 'report',
+}
+
 function detail(id, title, text, limits, place, citation) {
-    return { id, title, text, limits, ...place, ...citation }
+    return { id, title, text, limits, ...place, ...citation, kind: KINDS[id] }
 }
 
 export const details = [

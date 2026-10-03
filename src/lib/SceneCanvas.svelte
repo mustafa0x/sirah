@@ -2,7 +2,19 @@
     import { onMount } from 'svelte'
     import { create_scene } from './scene-renderer.js'
 
-    let { label, shot, mood, route, cycle, actor, active_poi_id, insets, on_poi } = $props()
+    let {
+        label,
+        shot,
+        mood,
+        route,
+        cycle,
+        actor,
+        evidence,
+        active_poi_id,
+        insets,
+        on_poi,
+        on_source,
+    } = $props()
     let host
     let world = $state(null)
     let status = $state('loading')
@@ -13,6 +25,7 @@
         let created
         create_scene(host, {
             on_poi,
+            on_source: (id) => on_source?.(id),
             report(next) {
                 if (!cancelled) status = next
             },
@@ -36,6 +49,7 @@
     $effect(() => world?.set_route(route))
     $effect(() => world?.set_cycle(cycle))
     $effect(() => world?.set_actor(actor))
+    $effect(() => world?.set_evidence(Boolean(evidence)))
     $effect(() => world?.set_insets(insets))
     $effect(() => world?.set_active(active_poi_id))
 </script>

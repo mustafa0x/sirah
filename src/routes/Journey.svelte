@@ -30,7 +30,11 @@
     import { ask_guide } from '../lib/guide-provider.js'
     import { create_media_clock } from '../lib/media-clock.js'
     import { create_ambience } from '../lib/ambience.js'
+    import { evidence_dot, evidence_kinds } from '../lib/evidence.js'
+    import { timeline, timeline_days, timeline_start } from '../content/timeline.js'
     import { apply_timings, create_narrator } from '../lib/narration.js'
+    import { apply_mode, change_mode, modes, saved_mode } from '../lib/mode.js'
+    import { glossary, kind_notes, why_it_matters } from '../content/lenses.js'
     import {
         beat_actors,
         beat_passages,
@@ -51,7 +55,10 @@
         'Who brought them news?',
         'Is the exact route known?',
     ]
-    const narrated = apply_timings(chapter, saved_language())
+    const mode = saved_mode()
+    apply_mode(chapter, mode)
+    // Young learners hear no voice: the recorded narration reads the full wording.
+    const narrated = mode !== 'young' && apply_timings(chapter, saved_language())
     const narrator = create_narrator(saved_language())
     const total_minutes = Math.round(
         chapter.steps.reduce((sum, step) => sum + step.duration, 0) / 60,
@@ -88,6 +95,25 @@
     let recent_turns = $state([])
     let help_open = $state(false)
     let sound_on = $state(false)
+    // In depth, the evidence and the timeline are open from the start.
+    let evidence_on = $state(mode === 'deep')
+    let timeline_open = $state(mode === 'deep')
+    let open_term = $state(null)
+    let timeline_pick = $state(null)
+    const evidence_counts = Object.fromEntries(
+        evidence_kinds.map((kind) => [
+            kind,
+            chapter.sources.filter((source) => source.kind === kind).length,
+        ]),
+    )
+    const certainty_bar = {
+        stated: 'bg-gold border-gold-bright',
+        reckoned: 'bg-[rgba(232,178,87,0.18)] border-gold',
+        differs:
+            'bg-[repeating-linear-gradient(135deg,rgba(232,178,87,0.85)_0_5px,rgba(232,178,87,0.2)_5px_10px)] border-gold',
+        undated: 'bg-transparent border-dashed border-[rgba(255,244,222,0.55)]',
+    }
+    const timeline_ticks = Array.from({ length: timeline_days + 1 }, (_, day) => day)
     let source_origin = $state('none')
     let clock
     let advance_timer = 0
@@ -175,13 +201,30 @@
             ? get_source(beat_passages[current_cue.id])
             : null,
     )
+    // The timeline entry in focus: the one picked, or the one for the stage on screen.
+    let timeline_entry = $derived(
+        timeline.find((item) => item.id === timeline_pick) ??
+            timeline.find((item) => item.stage === journey.viewed_step_id) ??
+            timeline[0],
+    )
+    // For someone new to the story: terms in the current caption, and why the stage matters.
+    let caption_terms = $derived(
+        mode === 'new'
+            ? glossary.filter((item) => item.match.some((word) => story_text.includes(word)))
+            : [],
+    )
+    let stage_why = $derived(
+        mode === 'new' && current_cue?.id === selected_step.paragraphs.at(-1)?.id
+            ? why_it_matters[selected_step.id]
+            : null,
+    )
     let insets = $derived(
         narrow
             ? { left: 0, right: 0, top: 120, bottom: journey.started ? card_height + 30 : 300 }
             : {
-                  top: 70,
+                  top: timeline_open ? 220 : 70,
                   left: journey.started ? rail_width + 28 : viewport_width * 0.34,
-                  right: sheet ? sheet_width : active_poi?.detail ? 420 : 0,
+                  right: sheet ? sheet_width : active_poi?.detail || evidence_on ? 340 : 0,
                   bottom: card_visible ? card_height + 40 : 0,
               },
     )
@@ -345,6 +388,7 @@
             step_id: journey.viewed_step_id,
             source_ids: chapter.sources.map((source) => source.id),
             language: document.documentElement.lang,
+            audience: mode,
             recent_turns,
         }
         const response = await ask_guide(submitted_question, context)
@@ -367,6 +411,40 @@
 
     function question_keydown(event) {
         if (event.key === 'Enter' && !event.shiftKey) submit_question(event)
+    }
+
+    function toggle_evidence() {
+        evidence_on = !evidence_on
+        if (evidence_on) active_poi = null
+        announce(
+            evidence_on
+                ? 'Evidence shown. Each point is a cited passage, coloured by kind.'
+                : 'Evidence hidden.',
+        )
+    }
+
+    function timeline_day(day) {
+        const date = new Date(Date.UTC(2001, timeline_start.month - 1, timeline_start.day + day))
+        return { day: date.getUTCDate(), september: date.getUTCMonth() === 8 }
+    }
+
+    function pick_entry(item, go = false) {
+        timeline_pick = item.id
+        // Young learners follow fewer stages; an entry whose stage is left out stays in view.
+        const shown = chapter.steps.some((step) => step.id === item.stage)
+        if (go && shown && item.stage !== journey.viewed_step_id)
+            select_step(item.stage, 'guided', false)
+    }
+
+    // Scrubbing picks the entry under the handle; letting go moves the journey there.
+    function scrub(event, go) {
+        const day = +event.currentTarget.value
+        const item =
+            timeline.find((entry) => day >= entry.from && day <= entry.to) ??
+            timeline.reduce((best, entry) =>
+                Math.abs(entry.from - day) < Math.abs(best.from - day) ? entry : best,
+            )
+        pick_entry(item, go)
     }
 
     function select_poi(poi) {
@@ -514,6 +592,14 @@
             />
         {:else if name === 'muted'}
             <path d="M4 9.5v5h3.5l4.5 4v-13l-4.5 4zM16 9.5l5 5M21 9.5l-5 5" />
+        {:else if name === 'evidence'}
+            <circle cx="6" cy="8" r="2" /><circle cx="15" cy="6" r="2" /><circle
+                cx="17"
+                cy="15"
+                r="2"
+            /><circle cx="8" cy="17" r="2" />
+        {:else if name === 'timeline'}
+            <path d="M3 12h18M6 9v6M11 7v10M16 10v4M20 8v8" />
         {/if}
     </svg>
 {/snippet}
@@ -553,6 +639,8 @@
             {insets}
             active_poi_id={active_poi?.id ?? null}
             on_poi={select_poi}
+            evidence={evidence_on}
+            on_source={view_source}
         />
     </div>
     <div
@@ -592,6 +680,29 @@
             >
                 {@render icon(sound_on ? 'sound' : 'muted')}
             </button>
+            {#if journey.started}
+                <button
+                    class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
+                    aria-label={evidence_on
+                        ? 'Hide evidence on the map'
+                        : 'Show evidence on the map'}
+                    aria-pressed={evidence_on}
+                    onclick={toggle_evidence}
+                >
+                    {@render icon('evidence')}
+                </button>
+                <button
+                    class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
+                    aria-label={timeline_open ? 'Hide timeline' : 'Show timeline'}
+                    aria-pressed={timeline_open}
+                    onclick={() => {
+                        timeline_open = !timeline_open
+                        timeline_pick = null
+                    }}
+                >
+                    {@render icon('timeline')}
+                </button>
+            {/if}
             <button
                 class={round_button}
                 aria-label="How this works"
@@ -604,6 +715,7 @@
     {#if card_visible && !sheet && (passage || cycle !== null)}
         <div
             class="absolute z-10 top-[88px] right-6 left-[calc(var(--rail)+24px)] grid justify-items-center gap-2 text-center pointer-events-none mobile:top-[112px] mobile:left-6"
+            style:top={timeline_open ? (narrow ? '300px' : '250px') : null}
             transition:fade={{ duration: 900 }}
         >
             {#if passage}
@@ -619,6 +731,147 @@
                 <p class={kicker}>Night {night} of 3</p>
             {/if}
         </div>
+    {/if}
+
+    {#if timeline_open && journey.started && !(narrow && sheet)}
+        <section
+            class="absolute z-20 top-[76px] right-6 left-[calc(var(--rail)+40px)] grid gap-2 px-5 pt-3 pb-3 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:top-[104px] mobile:right-3 mobile:left-3 mobile:px-3"
+            style:right={sheet ? 'calc(var(--sheet) + 8px)' : null}
+            aria-labelledby="timeline-title"
+            transition:fly={{ y: -10, duration: 220 }}
+        >
+            <div class="flex flex-wrap gap-x-4 gap-y-1 items-center">
+                <h2 class="{kicker} me-auto" id="timeline-title">
+                    The journey day by day · September 622
+                </h2>
+                <ul
+                    class="flex flex-wrap gap-x-3 gap-y-1 list-none text-ink-soft text-[0.75rem] mobile:hidden"
+                    aria-label="How each date is known"
+                >
+                    <li class="flex gap-[6px] items-center">
+                        <i class="w-4 h-2 border border-solid rounded-sm {certainty_bar.stated}"
+                        ></i>Stated in the account
+                    </li>
+                    <li class="flex gap-[6px] items-center">
+                        <i class="w-4 h-2 border border-solid rounded-sm {certainty_bar.reckoned}"
+                        ></i>Reckoned later
+                    </li>
+                    <li class="flex gap-[6px] items-center">
+                        <i class="w-4 h-2 border border-solid rounded-sm {certainty_bar.differs}"
+                        ></i>Accounts differ
+                    </li>
+                    <li class="flex gap-[6px] items-center">
+                        <i class="w-4 h-2 border rounded-sm {certainty_bar.undated}"></i>Not dated
+                    </li>
+                </ul>
+            </div>
+            <div class="relative h-[58px] mx-1">
+                {#each timeline_ticks as day (day)}
+                    {@const date = timeline_day(day)}
+                    <div
+                        class="absolute top-0 bottom-[16px] w-px bg-[rgba(255,244,222,0.1)]"
+                        style:left={`${(day / timeline_days) * 100}%`}
+                    ></div>
+                    {#if day % 3 === 0 || day === 15}
+                        <span
+                            class="absolute bottom-0 text-muted text-[0.6875rem] tabular-nums whitespace-nowrap [translate:-50%_0]"
+                            style:left={`${(day / timeline_days) * 100}%`}
+                            >{date.day}{date.september ? '' : ' Oct'}</span
+                        >
+                    {/if}
+                {/each}
+                {#each timeline as item (item.id)}
+                    {#if item.longest > item.to}
+                        <div
+                            class="absolute h-[12px] border border-solid rounded-[4px] opacity-35 pointer-events-none {certainty_bar[
+                                item.certainty
+                            ]}"
+                            style:top={`${4 + item.lane * 18}px`}
+                            style:left={`${(item.to / timeline_days) * 100}%`}
+                            style:width={`${((item.longest - item.to) / timeline_days) * 100}%`}
+                        ></div>
+                    {/if}
+                    <button
+                        class="absolute h-[14px] min-w-[14px] p-0 border border-solid rounded-[4px] transition-[outline-color] duration-150 outline-2 outline-offset-2 outline-transparent hover:outline-[rgba(255,244,222,0.6)] aria-pressed:outline-gold-bright {certainty_bar[
+                            item.certainty
+                        ]}"
+                        style:top={`${3 + item.lane * 18}px`}
+                        style:left={`${(item.from / timeline_days) * 100}%`}
+                        style:width={`${((item.to - item.from) / timeline_days) * 100}%`}
+                        aria-pressed={timeline_entry.id === item.id}
+                        aria-label={`${item.title}: ${item.when}`}
+                        onclick={() => pick_entry(item, true)}
+                    ></button>
+                {/each}
+                <input
+                    class="absolute start-0 end-0 bottom-[14px] h-[4px] w-full m-0 opacity-0 hover:opacity-100 focus-visible:opacity-100 accent-[#e8b257] cursor-ew-resize"
+                    type="range"
+                    min="0"
+                    max={timeline_days}
+                    step="0.1"
+                    value={(timeline_entry.from + timeline_entry.to) / 2}
+                    oninput={(event) => scrub(event, false)}
+                    onchange={(event) => scrub(event, true)}
+                    aria-label="Scrub through the days of the journey"
+                />
+            </div>
+            <div class="grid gap-1" aria-live="polite">
+                <p class="flex flex-wrap gap-x-3 items-baseline">
+                    <strong class="font-serif text-[1.125rem] font-medium"
+                        >{timeline_entry.title}</strong
+                    >
+                    <span class="text-ink-soft text-[0.875rem]">{timeline_entry.when}</span>
+                </p>
+                <p class="text-ink-soft text-[0.875rem] leading-[1.5] text-pretty">
+                    {timeline_entry.note}
+                </p>
+                <div class="flex flex-wrap gap-2 items-center">
+                    {#if timeline_entry.source_id}
+                        {@render citations([timeline_entry.source_id])}
+                    {/if}
+                    {#if timeline_entry.stage !== journey.viewed_step_id && chapter.steps.some((step) => step.id === timeline_entry.stage)}
+                        <button
+                            class="{ghost_button} min-h-8 py-1"
+                            onclick={() => pick_entry(timeline_entry, true)}
+                        >
+                            Go to this stage {@render icon('next')}
+                        </button>
+                    {/if}
+                </div>
+            </div>
+        </section>
+    {/if}
+
+    {#if evidence_on && journey.started && !sheet}
+        <section
+            class="absolute z-20 right-6 w-[300px] grid gap-3 px-5 pt-4 pb-4 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:hidden"
+            style:top={timeline_open ? '262px' : '84px'}
+            aria-labelledby="evidence-title"
+            transition:fly={{ x: 16, duration: 220 }}
+        >
+            <h2 class={kicker} id="evidence-title">Evidence on the map</h2>
+            <p class="text-ink-soft text-[0.875rem] leading-[1.5]">
+                Each point of light is a passage this chapter cites, placed where it speaks of.
+                Select one to read it.
+            </p>
+            <ul class="grid gap-2 list-none">
+                {#each evidence_kinds as kind (kind)}
+                    <li class="flex gap-3 items-center text-[0.9375rem]">
+                        <i
+                            class="size-[11px] rounded-full border border-solid border-[rgba(255,255,255,0.7)] {evidence_dot[
+                                kind
+                            ]}"
+                        ></i>
+                        <span class="me-auto">
+                            {#if kind === 'quran'}The Quran{:else if kind === 'hadith'}Hadith
+                                collections{:else if kind === 'report'}Classical sirah and history{:else}Modern
+                                authors{/if}
+                        </span>
+                        <span class="text-muted tabular-nums">{evidence_counts[kind]}</span>
+                    </li>
+                {/each}
+            </ul>
+        </section>
     {/if}
 
     {#if active_poi?.detail && !sheet}
@@ -689,6 +942,19 @@
                     <kbd>Esc</kbd> close
                 </li>
             </ul>
+            <p class="{kicker} mb-2">Mode</p>
+            <div class="flex flex-wrap gap-2 mb-[14px]">
+                {#each modes as item (item)}
+                    <button
+                        class="{ghost_button} min-h-8 py-1 aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
+                        aria-pressed={item === mode}
+                        onclick={() => item !== mode && change_mode(item)}
+                    >
+                        {#if item === 'young'}Young learners{:else if item === 'new'}New to the
+                            story{:else}In depth{/if}
+                    </button>
+                {/each}
+            </div>
         </section>
     {/if}
 
@@ -718,6 +984,30 @@
                 <span>about {total_minutes} minutes</span>
                 <span>{chapter.sources.length} cited passages</span>
             </p>
+            <div
+                class="grid grid-cols-3 gap-2 mb-5 mobile:grid-cols-1 mobile:mb-4"
+                role="radiogroup"
+                aria-label="How would you like to follow the journey?"
+            >
+                {#each modes as item (item)}
+                    <button
+                        class="grid gap-1 content-start py-3 px-4 text-start text-ink bg-[rgba(17,15,12,0.45)] border border-solid border-line-strong rounded-2xl backdrop-blur-[8px] transition-[border-color,background] duration-150 hover:border-gold aria-checked:bg-[rgba(232,178,87,0.16)] aria-checked:border-gold mobile:py-2"
+                        role="radio"
+                        aria-checked={item === mode}
+                        onclick={() => item !== mode && change_mode(item)}
+                    >
+                        <strong class="font-serif text-[1.0625rem] font-medium">
+                            {#if item === 'young'}Young learners{:else if item === 'new'}New to the
+                                story{:else}In depth{/if}
+                        </strong>
+                        <span class="text-ink-soft text-[0.8125rem] leading-[1.4] mobile:hidden">
+                            {#if item === 'young'}Six short stages, in simple words.{:else if item === 'new'}Terms
+                                explained, and why each stage matters.{:else}Every detail, with the
+                                evidence and the timeline open.{/if}
+                        </span>
+                    </button>
+                {/each}
+            </div>
             <div class="flex flex-wrap gap-3 mb-6 mobile:mb-4 mobile:[&>button]:flex-[1_1_auto]">
                 <button
                     class="{primary_button} min-h-[52px] px-6 py-3 text-[1rem]"
@@ -817,8 +1107,38 @@
                         <p class={caption} in:fade={{ duration: 450 }}>{story_text}</p>
                     {/key}
                 </div>
-                {#if current_cue}
+                {#if current_cue && mode !== 'young'}
                     {@render citations(current_cue.source_ids)}
+                {/if}
+                {#if stage_why}
+                    <p
+                        class="py-2 px-3 text-ink-soft text-[0.9375rem] leading-[1.5] bg-[rgba(232,178,87,0.09)] border-0 border-s-2 border-solid border-gold rounded-e-lg"
+                        in:fade
+                    >
+                        <strong class="text-gold font-semibold">Why this matters:</strong>
+                        {stage_why}
+                    </p>
+                {/if}
+                {#if caption_terms.length}
+                    <div class="grid gap-2">
+                        <div class="flex flex-wrap gap-2 items-center text-[0.8125rem]">
+                            <span class="text-muted">Terms</span>
+                            {#each caption_terms as item (item.id)}
+                                <button
+                                    class="py-[2px] px-[10px] text-ink-soft bg-transparent border border-dashed border-line-strong rounded-full aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-solid"
+                                    aria-pressed={open_term === item.id}
+                                    onclick={() =>
+                                        (open_term = open_term === item.id ? null : item.id)}
+                                    >{item.word}</button
+                                >
+                            {/each}
+                        </div>
+                        {#if caption_terms.some((item) => item.id === open_term)}
+                            <p class="text-ink-soft text-[0.875rem] leading-[1.5]" in:fade>
+                                {glossary.find((item) => item.id === open_term).meaning}
+                            </p>
+                        {/if}
+                    </div>
                 {/if}
                 <div class="flex gap-[14px] items-center" dir="ltr">
                     <button
@@ -950,6 +1270,14 @@
                             <p class={prose}>{paragraph.text}</p>
                             {@render citations(paragraph.source_ids)}
                         {/each}
+                        {#if mode === 'new' && why_it_matters[selected_step.id]}
+                            <p
+                                class="py-2 px-3 text-ink-soft leading-[1.55] bg-[rgba(232,178,87,0.09)] border-0 border-s-2 border-solid border-gold rounded-e-lg"
+                            >
+                                <strong class="text-gold font-semibold">Why this matters:</strong>
+                                {why_it_matters[selected_step.id]}
+                            </p>
+                        {/if}
                     </div>
                 {/key}
                 <footer class={sheet_footer}>
@@ -1097,6 +1425,9 @@
                             {#if active_source.volume}
                                 · vol. {active_source.volume}, p. {active_source.page}{/if}
                         </p>
+                        {#if mode === 'new' && kind_notes[active_source.kind]}
+                            <p class={fine_print}>{kind_notes[active_source.kind]}</p>
+                        {/if}
                         {#if !active_source.retrieved}
                             <dl
                                 class="grid gap-[14px] [&>div]:pl-[14px] [&>div]:border-0 [&>div]:border-l-2 [&>div]:border-solid [&>div]:border-[#7fae7a] [&_dt]:mb-1 [&_dt]:text-muted [&_dt]:text-[0.8125rem] [&_dt]:font-semibold [&_dt]:tracking-[0.06em] [&_dt]:uppercase [&_dd]:text-ink [&_dd]:leading-[1.55]"

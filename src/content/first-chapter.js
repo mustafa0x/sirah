@@ -1,6 +1,7 @@
 // The first playable chapter contract. All learner wording, evidence mapping, and art
 // direction in this file are working drafts pending scholarly/editorial approval.
 import { details } from './details.js'
+import { timeline } from './timeline.js'
 
 /** @typedef {{id: string, title: string, scene: string, duration: number, source_ids: string[], paragraphs: Array<{id: string, text: string, source_ids: string[]}>, recap?: string}} ChapterStep */
 /** @typedef {{id: string, title: string, release_id: string, release_status: string, review_status: string, language: string, objective: string, question: object, steps: ChapterStep[], sources: object[]}} Chapter */
@@ -413,25 +414,80 @@ export const chapter = {
     ],
 }
 
-// Details found along the way carry their own passages, numbered after the chapter's.
-for (const item of details) {
+// What kind of account each passage is, and where in the scene it speaks of.
+const passage_kinds = {
+    E09: 'quran',
+    E10: 'report',
+    E18: 'report',
+    E19: 'report',
+    E20: 'report',
+    E21: 'report',
+}
+const passage_places = {
+    E01: 'makkah',
+    E02: 'makkah',
+    E03: 'cave',
+    E04: 'cave',
+    E05: 'cave',
+    E06: 'makkah',
+    E07: 'coast',
+    E08: 'cave',
+    E09: 'cave',
+    E10: 'cave',
+    E11: 'quba',
+    E12: 'madinah',
+    E13: 'road',
+    E14: 'road',
+    E15: 'road',
+    E16: 'quba',
+    E17: 'madinah',
+    E18: 'makkah',
+    E19: 'makkah',
+    E20: 'makkah',
+    E21: 'tent',
+}
+for (const source of chapter.sources) {
+    source.kind = passage_kinds[source.id] ?? 'hadith'
+    source.place = passage_places[source.id]
+}
+
+// Details and timeline entries carry their own passages, numbered after the chapter's.
+const extras = [
+    ...details.map((item) => ({
+        item,
+        citation: item,
+        explanation: item.text,
+        limits: item.limits,
+    })),
+    ...timeline
+        .filter((item) => item.citation)
+        .map((item) => ({
+            item,
+            citation: item.citation,
+            explanation: item.note,
+            limits: item.when,
+        })),
+]
+for (const { item, citation, explanation, limits } of extras) {
     item.source_id = `E${chapter.sources.length + 1}`
     chapter.sources.push({
         id: item.source_id,
         number: chapter.sources.length + 1,
-        reference: item.work,
-        work: item.book,
-        locator: `Turath · book ${item.book_id} · page ${item.page_id} · vol. ${item.volume}, p. ${item.page}`,
-        excerpt: item.excerpt,
-        explanation: item.text,
-        limits: item.limits,
-        url: `https://api.turath.io/page?book_id=${item.book_id}&pg=${item.page_id}`,
-        author: item.author,
-        volume: item.volume,
-        page: item.page,
+        reference: citation.work,
+        work: citation.book,
+        locator: `Turath · book ${citation.book_id} · page ${citation.page_id} · vol. ${citation.volume}, p. ${citation.page}`,
+        excerpt: citation.excerpt,
+        explanation,
+        limits,
+        url: `https://api.turath.io/page?book_id=${citation.book_id}&pg=${citation.page_id}`,
+        author: citation.author,
+        volume: citation.volume,
+        page: citation.page,
         heading: null,
-        book_id: item.book_id,
-        page_id: item.page_id,
+        book_id: citation.book_id,
+        page_id: citation.page_id,
+        kind: citation.kind,
+        place: citation.place ?? (item.set || `detail_${item.id}`),
     })
 }
 
