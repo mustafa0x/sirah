@@ -5,7 +5,7 @@
   "type": "module",
   "packageManager": "pnpm@12.6.0",
   "scripts": {
-    "dev": "vite --host 127.0.0.1 --port 5100",
+    "dev": "vite",
     "dev:api": "uv run api.py",
     "test": "node scripts/export_guide_context.js --check && node --test tests/*.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
     "guide:context": "node scripts/export_guide_context.js",
@@ -29,6 +29,7 @@
     "@wuchale/svelte": "^0.21.4",
     "tailwindcss": "4.3.3",
     "vite": "8.0.14",
+    "vite-plugin-domain": "2.0.5",
     "wuchale": "^0.26.7"
   }
 }

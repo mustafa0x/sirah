@@ -197,11 +197,20 @@ importers:
       vite:
         specifier: 8.0.14
         version: 8.0.14(@types/node@26.6.3)(jiti@2.7.0)
+      vite-plugin-domain:
+        specifier: 2.0.5
+        version: 2.0.5(vite@8.0.14(@types/node@26.6.3)(jiti@2.7.0))
       wuchale:
         specifier: ^0.26.7
         version: 0.26.7
 
 packages:
+
+  '@clack/core@1.1.0':
+    resolution: {integrity: sha512-SVcm4Dqm2ukn64/8Gub2wnlA5nS2iWJyCkdNHcvNHPIeBTGojpdJ+9cZKwLfmqy7irD4N5qLteSilJlE0WLAtA==}
+
+  '@clack/prompts@1.1.0':
+    resolution: {integrity: sha512-pkqbPGtohJAvm4Dphs2M8xE29ggupihHdy1x84HNojZuMtFsHiUlRvqD24tM2+XmI+61LlfNceM3Wr7U5QES5g==}
 
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -1480,6 +1489,13 @@ packages:
       typescript:
         optional: true
 
+  vite-plugin-domain@2.0.5:
+    resolution: {integrity: sha512-DVYQd0f3YH04x7gc6STLwohcEELgrUoPYy7TvBp3BqIuCiCQmyEzkK6fMB5jzGOtSSGBtswNnlyEWsRl0Aa8hg==}
+    engines: {node: '>=18'}
+    hasBin: true
+    peerDependencies:
+      vite: '>=4'
+
   vite@8.0.14:
     resolution: {integrity: sha512-s4BJJ+5y1pYL6Otw51FHhVJQhPnuRinKig64g/1+EUNaJsd3gCKdD31IPFvswUgW9/60QT9oFHbZHbQK5imcxw==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -1567,6 +1583,15 @@ packages:
     resolution: {integrity: sha512-msJxIvYDYcoNL+PJsu+7qmpDWsYmAxTY+2TNYXXF0hzBzBk0BMecOqDOG/EckUoKCuKwObfbugIl8QpqHDXeFA==}
 
 snapshots:
+
+  '@clack/core@1.1.0':
+    dependencies:
+      sisteransi: 1.0.5
+
+  '@clack/prompts@1.1.0':
+    dependencies:
+      '@clack/core': 1.1.0
+      sisteransi: 1.0.5
 
   '@colors/colors@1.5.0': {}
 
@@ -2697,6 +2722,12 @@ snapshots:
   util-deprecate@1.0.2: {}
 
   valibot@1.5.0: {}
+
+  vite-plugin-domain@2.0.5(vite@8.0.14(@types/node@26.6.3)(jiti@2.7.0)):
+    dependencies:
+      '@clack/prompts': 1.1.0
+      picocolors: 1.1.1
+      vite: 8.0.14(@types/node@26.6.3)(jiti@2.7.0)
 
   vite@8.0.14(@types/node@26.6.3)(jiti@2.7.0):
     dependencies:

@@ -14,7 +14,9 @@ mise exec -- pnpm run dev:api
 mise exec -- pnpm run dev
 ```
 
-Open `http://127.0.0.1:5100/`. The Vite dev server proxies `/api/*` to `127.0.0.1:8000`.
+Open `http://127.0.0.1:5100/`. Set `VITE_PORT` to use another dev port; the server fails if that port is occupied. The Vite dev server proxies `/api/*` to `127.0.0.1:8000`.
+
+With Caddy running and its local CA trusted (`caddy trust`), `vite-plugin-domain` also maps `https://sirahviz.localhost` to the dev server. Direct localhost access works without Caddy. The Svelte inspector is enabled for click-to-source debugging.
 
 The API boundary is server-only. The hackathon build defaults to the small working allowlist `930,13606,9820`; deployments can override it explicitly:
 
