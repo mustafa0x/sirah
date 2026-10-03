@@ -1893,63 +1893,124 @@ msgstr "Habka waa la beddelay. Meeshaadii waa la kaydiyey."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Cali wuxuu dib u haray si uu u soo celiyo alaabtii qaaliga ahayd ee ay dadku kaga tageen Nabiga ﷺ."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "makka"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "dooxada makka"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "god"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "thawr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "xeeb"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "waddo"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "teendho"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "madiina"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "faras"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "Madiina gudaheeda, Muslimiintu waxay u baxeen inay sugaan Nabiga ﷺ. Werinta imaatinka waxay sheegaysaa sida ay u soo dhoweeyeen."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Tababarka waa la furay. {0} su'aalood."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Waa sax."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Jawaabta waa la kaydiyay."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Heerka"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Bilaabe"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Dhexdhexaad"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Khabiir"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Hubi fahamkaaga <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Xir tababarka"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Jawaabaha"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Qari qoraalka"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Akhri qoraalka"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Ma aqaan"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Buug furan: akhrinta qoraalku waa qayb ka mid ah waxbarashada."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Waa la dhaafay. Waa kan waxa qoraalku sheegayo."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Sax ma aha."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Waxaad akhriday qoraalka ka hor inta aadan jawaabin."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Su'aasha xigta"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Eeg sidaad wax u qabatay"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Waxa dib loo dhigay: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Waxaa mudan in dib loo akhriyo"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Mar kale ku celceli"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Ku noqo socdaalka"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Jawaabaha saxda ah, marka loo eego su'aalaha qaybtan. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Hubi fahamkaaga <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Ku celceli waxaad baratay"

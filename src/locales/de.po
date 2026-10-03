@@ -1893,63 +1893,124 @@ msgstr "Modus geändert. Deine Position wurde gespeichert."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali blieb zurück, um die kostbaren Dinge zurückzugeben, die die Menschen beim Propheten ﷺ gelassen hatten."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "Mekka"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "Mekka-Tal"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "Höhle"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "Thaur"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "Küste"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "Straße"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "Zelt"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "Quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "Medina"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "Pferd"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "In Medina gingen die Muslime hinaus, um auf den Propheten ﷺ zu warten. Der Bericht über die Ankunft erzählt, wie sie ihn willkommen hießen."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Übung geöffnet. {0} Fragen."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Richtig."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Antwort gespeichert."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Stufe"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Anfänger"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Fortgeschritten"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Experte"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Verständnis prüfen <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Übung schließen"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Antworten"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Textabschnitt ausblenden"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Textabschnitt lesen"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Ich weiß es nicht"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Offenes Buch: Den Textabschnitt zu lesen, gehört zum Lernen dazu."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Übersprungen. Das steht im Textabschnitt."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Nicht ganz."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Du hast den Textabschnitt vor dem Antworten gelesen."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Nächste Frage"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Ergebnis ansehen"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Für später aufgehoben: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Nochmals lesenswert"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Erneut üben"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Zurück zur Reise"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Richtige Antworten von den Fragen in diesem Set. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Verständnis prüfen <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Gelerntes üben"

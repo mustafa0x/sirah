@@ -1893,63 +1893,124 @@ msgstr "Mod ditukar. Kedudukan anda disimpan."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali tinggal di belakang untuk memulangkan barang-barang berharga yang ditinggalkan orang ramai bersama Nabi ﷺ."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "makkah"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "lembah makkah"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "gua"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "thawr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "pesisir"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "jalan"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "khemah"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "madinah"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "kuda"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "Di Madinah, umat Islam keluar untuk menunggu Nabi ﷺ. Riwayat ketibaan menceritakan bagaimana mereka menyambut baginda."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Latihan dibuka. {0} soalan."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Betul."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Jawapan direkodkan."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Tahap"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Permulaan"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Pertengahan"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Pakar"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Uji kefahaman anda <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Tutup latihan"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Jawapan"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Sembunyikan petikan"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Baca petikan"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Saya tidak tahu"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Buku terbuka: membaca petikan adalah sebahagian daripada pembelajaran."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Dilangkau. Inilah yang dinyatakan dalam petikan."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Kurang tepat."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Anda membaca petikan sebelum menjawab."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Soalan seterusnya"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Lihat pencapaian anda"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Disimpan untuk kemudian: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Wajar dibaca semula"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Berlatih lagi"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Kembali ke perjalanan"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Jawapan betul, daripada soalan dalam set ini. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Uji kefahaman anda <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Berlatih apa yang dipelajari"

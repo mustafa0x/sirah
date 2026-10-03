@@ -1893,63 +1893,124 @@ msgstr "Hali imebadilishwa. Mahali pako pamehifadhiwa."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali alibaki nyuma ili kurudisha vitu vya thamani ambavyo watu walikuwa wamemwachia Mtume ﷺ."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "Makka"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "bonde la Makka"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "pango"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "Thawr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "pwani"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "barabara"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "hema"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "Quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "Madina"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "farasi"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "Huko Madinah, Waislamu walitoka kwenda kumsubiri Mtume ﷺ. Simulizi ya kuwasili inaeleza jinsi walivyomkaribisha."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Mazoezi yamefunguliwa. Maswali {0}."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Sahihi."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Jibu limehifadhiwa."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Kiwango"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Mwanzilishi"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Kati"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Bingwa"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Pima uelewa wako <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Funga mazoezi"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Majibu"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Ficha kifungu"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Soma kifungu"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Sijui"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Kitabu wazi: kusoma kifungu ni sehemu ya kujifunza."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Imerukwa. Hivi ndivyo kifungu kinavyosema."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Bado kidogo."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Umesoma kifungu kabla ya kujibu."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Swali linalofuata"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Tazama ulivyofanya"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Imebakizwa baadaye: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Inafaa kusoma tena"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Fanya mazoezi tena"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Rudi kwenye safari"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Majibu sahihi, kati ya maswali katika seti hii. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Pima uelewa wako <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Fanya mazoezi ya ulichojifunza"

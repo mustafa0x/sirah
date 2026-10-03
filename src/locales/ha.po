@@ -1893,63 +1893,124 @@ msgstr "An canza yanayi. An ajiye inda kake."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali ya tsaya a baya domin ya mayar da kayayyaki masu daraja da mutane suka bari a wurin Annabi ﷺ."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "makka"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "kwarin makka"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "kogo"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "thawr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "bakin teku"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "hanya"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "tenti"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "madina"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "doki"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "A Madina, Musulmai sun fita domin jiran Annabi ﷺ. Labarin isowar ya bayyana yadda suka tarbe shi."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "An buɗe atisaye. Tambayoyi {0}."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Daidai."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "An karɓi amsa."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Mataki"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Matakin farko"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Matsakaici"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Kwararre"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Gwada fahimtarka <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Rufe atisaye"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Amsoshi"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Ɓoye nassin"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Karanta nassin"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Ban sani ba"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Buɗaɗɗen littafi: karanta nassi wani ɓangare ne na koyo."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "An tsallake. Ga abin da nassin ya ce."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Ba daidai ba ne sosai."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Ka karanta nassin kafin amsawa."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Tambaya ta gaba"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Duba yadda ka yi"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "An bari don gaba: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Ya cancanci a sake karantawa"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Sake yin atisaye"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Koma kan tafiyar"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Amsoshi daidai, daga cikin tambayoyin wannan rukuni. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Gwada fahimtarka <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Yi atisayen abin da ka koya"

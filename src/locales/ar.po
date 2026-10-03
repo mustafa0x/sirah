@@ -1893,63 +1893,124 @@ msgstr "تم تغيير الوضع. تم حفظ مكانك."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "بقي عليّ ليعيد الأمانات الثمينة التي تركها الناس عند النبي ﷺ."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "مكة"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "وادي مكة"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "غار"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "ثور"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "ساحل"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "طريق"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "خيمة"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "قباء"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "المدينة"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "حصان"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "في المدينة، خرج المسلمون لانتظار النبي ﷺ. وتروي رواية الوصول كيف استقبلوه."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "بدأ التدريب. {0} أسئلة."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "صحيح."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "تم تسجيل الإجابة."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "المستوى"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "مبتدئ"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "متوسط"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "خبير"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "تحقّق من فهمك <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "إغلاق التدريب"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "الإجابات"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "إخفاء النص"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "اقرأ النص"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "لا أعلم"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "كتاب مفتوح: قراءة النص جزء من التعلّم."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "تم التخطي. إليك ما ورد في النص."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "ليس تمامًا."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "قرأت النص قبل الإجابة."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "السؤال التالي"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "اطّلع على نتيجتك"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "مؤجّلة لوقت لاحق: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "يستحق إعادة القراءة"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> تدرّب مجددًا"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> العودة إلى الرحلة"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "إجابات صحيحة، من مجموع أسئلة هذه المجموعة. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> تحقّق من فهمك <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> تدرّب على ما تعلّمته"

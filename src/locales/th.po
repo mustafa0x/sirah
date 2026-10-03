@@ -1893,63 +1893,124 @@ msgstr "เปลี่ยนโหมดแล้ว ตำแหน่งข�
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "ท่านอะลีอยู่รั้งท้ายเพื่อส่งคืนสิ่งของมีค่าที่ผู้คนได้ฝากไว้กับท่านนบี ﷺ"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "มักกะฮ์"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "หุบเขามักกะฮ์"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "ถ้ำ"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "เษาร์"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "ชายฝั่ง"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "ถนน"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "กระโจม"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "กุบาอ์"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "มะดีนะฮ์"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "ม้า"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "ในมะดีนะฮ์ ชาวมุสลิมได้ออกไปรอท่านนบี ﷺ เรื่องเล่าเกี่ยวกับการมาถึงบอกเล่าว่าพวกเขาต้อนรับท่านอย่างไร"
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "เริ่มแบบฝึกหัดแล้ว ทั้งหมด {0} คำถาม"
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "ถูกต้อง"
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "บันทึกคำตอบแล้ว"
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "ระดับ"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "ระดับเริ่มต้น"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "ระดับปานกลาง"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "ระดับเชี่ยวชาญ"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "ตรวจสอบความเข้าใจของคุณ <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "ปิดแบบฝึกหัด"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "คำตอบ"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "ซ่อนเนื้อหา"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "อ่านเนื้อหา"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "ไม่ทราบ"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "เปิดอ่านได้: การอ่านเนื้อหาเป็นส่วนหนึ่งของการเรียนรู้"
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "ข้ามแล้ว นี่คือสิ่งที่เนื้อหาระบุไว้"
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "ยังไม่ถูกต้อง"
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "คุณได้อ่านเนื้อหาก่อนที่จะตอบ"
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "คำถามถัดไป"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "ดูผลลัพธ์ของคุณ"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "เก็บไว้ทำภายหลัง: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "ควรอ่านทบทวนอีกครั้ง"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> ฝึกฝนอีกครั้ง"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> กลับสู่การเดินทาง"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "คำตอบที่ถูกต้อง จากคำถามทั้งหมดในชุดนี้ <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> ตรวจสอบความเข้าใจของคุณ <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> ฝึกฝนสิ่งที่ได้เรียนรู้"

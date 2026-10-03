@@ -1543,63 +1543,124 @@ msgstr "Mode changed. Your place is saved."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "makkah"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "makkah_valley"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "cave"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "thawr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "coast"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "road"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "tent"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "madinah"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "horse"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Practice opened. {0} questions."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Correct."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Answer recorded."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Level"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Beginner"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Intermediate"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Expert"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Check your understanding <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Close practice"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Answers"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Hide the passage"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Read the passage"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "I don’t know"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Open book: reading the passage is part of learning."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Skipped. Here is what the passage says."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Not quite."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "You read the passage before answering."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Next question"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "See how you did"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Left for later: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Worth rereading"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Practise again"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Back to the journey"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Correct answers, out of the questions in this set. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Check your understanding <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Practise what you learned"

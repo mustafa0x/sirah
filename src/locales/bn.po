@@ -1893,63 +1893,124 @@ msgstr "মোড পরিবর্তিত হয়েছে। আপনি �
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "মানুষজন নবী ﷺ-এর কাছে যে মূল্যবান জিনিসগুলো রেখে গিয়েছিল, তা ফিরিয়ে দিতে ‘আলী পিছনে থেকে গিয়েছিলেন।"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "মক্কা"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "মক্কা উপত্যকা"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "গুহা"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "সাওর"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "উপকূল"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "রাস্তা"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "তাঁবু"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "কুবা"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "মদিনা"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "ঘোড়া"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "মদিনায়, মুসলিমরা নবী ﷺ-এর জন্য অপেক্ষা করতে বাইরে যেতেন। আগমনের বিবরণে বলা হয়েছে কীভাবে তাঁরা তাঁকে স্বাগত জানিয়েছিলেন।"
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "অনুশীলন শুরু হয়েছে। {0}টি প্রশ্ন।"
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "সঠিক।"
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "উত্তর সংরক্ষিত হয়েছে।"
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "স্তর"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "প্রাথমিক"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "মধ্যবর্তী"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "পারদর্শী"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "নিজের বোঝাপড়া যাচাই করুন <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "অনুশীলন বন্ধ করুন"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "উত্তরসমূহ"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "অনুচ্ছেদটি লুকান"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "অনুচ্ছেদটি পড়ুন"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "আমি জানি না"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "উন্মুক্ত পাঠ: অনুচ্ছেদটি পড়াও শেখার একটি অংশ।"
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "এড়িয়ে যাওয়া হয়েছে। অনুচ্ছেদে যা বলা হয়েছে:"
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "পুরোপুরি সঠিক নয়।"
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "উত্তর দেওয়ার আগে আপনি অনুচ্ছেদটি পড়েছেন।"
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "পরবর্তী প্রশ্ন"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "কেমন করলেন দেখুন"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "পরের জন্য বাকি: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "আবার পড়ার মতো"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> আবার অনুশীলন করুন"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> যাত্রায় ফিরে যান"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "এই সেটের প্রশ্নগুলোর মধ্যে সঠিক উত্তর। <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> নিজের বোঝাপড়া যাচাই করুন <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> যা শিখেছেন তা অনুশীলন করুন"

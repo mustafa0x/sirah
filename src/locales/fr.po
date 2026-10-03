@@ -1893,63 +1893,124 @@ msgstr "Mode modifié. Votre progression est enregistrée."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali est resté en arrière pour rendre les objets précieux que les gens avaient confiés au Prophète ﷺ."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "la mecque"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "vallée de la mecque"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "grotte"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "thawr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "côte"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "route"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "tente"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "médine"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "cheval"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "À Médine, les musulmans sont sortis pour attendre le Prophète ﷺ. Le récit de l'arrivée raconte comment ils l'ont accueilli."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Entraînement ouvert. {0} questions."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Correct."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Réponse enregistrée."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Niveau"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Débutant"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Intermédiaire"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Expert"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Vérifiez votre compréhension <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Fermer l'entraînement"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Réponses"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Masquer le passage"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Lire le passage"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Je ne sais pas"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Livre ouvert : lire le passage fait partie de l'apprentissage."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Passé. Voici ce que dit le passage."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Pas tout à fait."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Vous avez lu le passage avant de répondre."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Question suivante"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Voir vos résultats"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Laissé pour plus tard : {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "À relire"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> S'entraîner à nouveau"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Retour au parcours"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Réponses correctes sur l'ensemble des questions de cette série. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Vérifiez votre compréhension <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Entraînez-vous sur ce que vous avez appris"

@@ -1893,63 +1893,124 @@ msgstr "Modus gewijzigd. Je plek is opgeslagen."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali bleef achter om de kostbaarheden terug te geven die mensen bij de Profeet ﷺ hadden achtergelaten."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "mekka"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "mekka-vallei"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "grot"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "thawr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "kust"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "weg"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "tent"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "medina"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "paard"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "In Medina gingen moslims naar buiten om te wachten op de Profeet ﷺ. Het verslag van de aankomst vertelt hoe ze hem verwelkomden."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Oefening geopend. {0} vragen."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Juist."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Antwoord opgeslagen."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Niveau"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Beginner"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Gemiddeld"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Expert"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Controleer je begrip <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Oefening sluiten"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Antwoorden"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Passage verbergen"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Lees de passage"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Ik weet het niet"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Open boek: het lezen van de passage is onderdeel van het leren."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Overgeslagen. Dit is wat de passage zegt."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Niet helemaal."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Je hebt de passage gelezen vóór het antwoorden."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Volgende vraag"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Bekijk hoe je het hebt gedaan"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Bewaard voor later: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Het herlezen waard"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Oefen opnieuw"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Terug naar de reis"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Juiste antwoorden, van de vragen in deze set. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Controleer je begrip <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Oefen wat je hebt geleerd"

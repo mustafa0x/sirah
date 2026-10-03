@@ -1893,63 +1893,124 @@ msgstr "Mode diubah. Posisi Anda tersimpan."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali tetap tinggal untuk mengembalikan barang-barang berharga yang dititipkan orang-orang kepada Nabi ﷺ."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "makkah"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "lembah makkah"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "gua"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "thawr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "pesisir"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "jalan"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "tenda"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "quba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "madinah"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "kuda"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "Di Madinah, kaum Muslim keluar untuk menunggu Nabi ﷺ. Kisah kedatangan menceritakan bagaimana mereka menyambut beliau."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Latihan dibuka. {0} pertanyaan."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Benar."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Jawaban tercatat."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Tingkat"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Pemula"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Menengah"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Mahir"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Uji pemahamanmu <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Tutup latihan"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Jawaban"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Sembunyikan teks"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Baca teks"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Saya tidak tahu"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Buka buku: membaca teks adalah bagian dari proses belajar."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Dilewati. Inilah isi teksnya."
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Kurang tepat."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Kamu membaca teks sebelum menjawab."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Pertanyaan berikutnya"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Lihat hasilmu"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Disimpan untuk nanti: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Perlu dibaca ulang"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Latihan lagi"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Kembali ke perjalanan"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Jawaban benar, dari total pertanyaan di set ini. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Uji pemahamanmu <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Latih apa yang telah kamu pelajari"

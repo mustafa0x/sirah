@@ -43,6 +43,23 @@
     } from '../lib/mode.js'
     import { glossary, kind_notes, why_it_matters } from '../content/lenses.js'
     import {
+        create_practice,
+        current_question,
+        inspect_practice_source,
+        next_practice,
+        practice_feedback,
+        practice_score,
+        return_to_practice,
+        submit_practice,
+    } from '../lib/hijrah-practice.js'
+    import {
+        load_wording,
+        mode_levels,
+        packet,
+        questions_for,
+        worded,
+    } from '../lib/practice-view.js'
+    import {
         beat_actors,
         beat_passages,
         beat_shots,
@@ -156,7 +173,29 @@
                 ? 'reading'
                 : null,
     )
-    let card_visible = $derived(journey.started && sheet !== 'reading' && !(narrow && sheet))
+    // Practice: open-book questions from the Arabic bank, shown in place of the story card.
+    let practice = $state(null)
+    let practice_level = $state(null)
+    let practice_step = $state(null)
+    let practice_units = $state([])
+    let practice_wording = $state(null)
+    // The practice module mutates its object; a new key is not tracked, so changes bump this.
+    let practice_tick = $state(0)
+    load_wording(language).then((wording) => (practice_wording = wording))
+    let stage_questions = $derived(questions_for(mode, { step_id: selected_step.id }))
+    let practice_question = $derived(
+        practice_tick >= 0 && practice ? current_question(practice) : null,
+    )
+    let practice_view = $derived(
+        practice_question ? worded(practice_question, practice_wording) : null,
+    )
+    let practice_result = $derived(
+        practice_tick >= 0 && practice && practice_question ? practice_feedback(practice) : null,
+    )
+    let practice_done = $derived(Boolean(practice) && !practice_question)
+    let card_visible = $derived(
+        journey.started && sheet !== 'reading' && !(narrow && sheet) && !practice,
+    )
     function find_source(source_id) {
         return (
             get_source(source_id) ??
@@ -513,6 +552,55 @@
         pick_entry(item, go)
     }
 
+    function open_practice({ step_id = null, level = null } = {}) {
+        const questions = questions_for(mode, { step_id, level })
+        if (!questions.length) return
+        if (journey.is_playing) pause_playback()
+        if (journey.presentation === 'reading') toggle_reading(journey)
+        active_poi = null
+        practice_step = step_id
+        practice_level = level
+        practice_units = []
+        practice = create_practice(packet, questions)
+        practice_tick += 1
+        announce(`Practice opened. ${questions.length} questions.`)
+    }
+
+    function answer_practice(option_id) {
+        submit_practice(practice, option_id)
+        practice_tick += 1
+        announce(practice_feedback(practice)?.correct ? 'Correct.' : 'Answer recorded.')
+    }
+
+    function toggle_passage() {
+        if (practice.source_open) {
+            return_to_practice(practice)
+            practice_units = []
+        } else practice_units = inspect_practice_source(practice, packet)
+        practice_tick += 1
+    }
+
+    function next_question() {
+        next_practice(practice)
+        practice_units = []
+        practice_tick += 1
+    }
+
+    function close_practice() {
+        practice = null
+        practice_units = []
+    }
+
+    // Stages whose questions were missed or skipped, to reread.
+    function stages_to_reread() {
+        const missed = practice.questions.filter(
+            (question) => practice.answers[question.question_id] !== question.correct_option_id,
+        )
+        return chapter.steps.filter((step) =>
+            missed.some((question) => question.step_id === step.id),
+        )
+    }
+
     function select_poi(poi) {
         active_poi = active_poi?.id === poi.id ? null : poi
         if (active_poi?.detail && journey.is_playing) pause_playback()
@@ -752,7 +840,7 @@
             </button>
             {#if journey.started}
                 <button
-                    class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
+                    class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright mobile:hidden"
                     aria-label={evidence_on
                         ? 'Hide evidence on the map'
                         : 'Show evidence on the map'}
@@ -762,7 +850,7 @@
                     {@render icon('evidence')}
                 </button>
                 <button
-                    class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
+                    class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright mobile:hidden"
                     aria-label={timeline_open ? 'Hide timeline' : 'Show timeline'}
                     aria-pressed={timeline_open}
                     onclick={() => {
@@ -803,7 +891,7 @@
         </div>
     {/if}
 
-    {#if timeline_open && journey.started && !(narrow && sheet)}
+    {#if timeline_open && journey.started && !(narrow && sheet) && !practice}
         <section
             class="absolute z-20 top-[76px] right-6 left-[calc(var(--rail)+40px)] grid gap-2 px-5 pt-3 pb-3 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:top-[104px] mobile:right-3 mobile:left-3 mobile:px-3"
             style:right={sheet ? 'calc(var(--sheet) + 8px)' : null}
@@ -912,7 +1000,7 @@
         </section>
     {/if}
 
-    {#if evidence_on && journey.started && !sheet}
+    {#if evidence_on && journey.started && !sheet && !practice}
         <section
             class="absolute z-20 right-6 w-[300px] grid gap-3 px-5 pt-4 pb-4 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:hidden"
             style:top={timeline_open ? '262px' : '84px'}
@@ -1140,6 +1228,190 @@
         </aside>
     {/if}
 
+    {#if practice && journey.started}
+        <section
+            class="absolute z-20 bottom-[22px] left-[calc(var(--rail)+(100%-var(--rail)-var(--sheet))/2)] grid gap-3 w-[min(680px,calc(100%-var(--rail)-var(--sheet)-40px))] max-h-[calc(100%-110px)] overflow-y-auto px-6 pt-5 pb-[18px] bg-panel-solid border border-solid border-line-strong rounded-[20px] shadow-[0_18px_60px_rgba(0,0,0,0.4)] backdrop-blur-[18px] [translate:-50%_0] mobile:right-3 mobile:bottom-3 mobile:left-3 mobile:w-auto mobile:max-h-[calc(100%-130px)] mobile:px-4 mobile:pt-4 mobile:translate-none"
+            aria-labelledby="practice-title"
+            in:fly={{ y: 24, duration: 300 }}
+        >
+            <header class="flex gap-4 items-start justify-between">
+                <div class="grid gap-2">
+                    <p class={kicker} id="practice-title">
+                        Check your understanding
+                        {#if practice_question}
+                            · {practice.index + 1} / {practice.questions.length}{/if}
+                    </p>
+                    {#if mode_levels[mode].levels.length > 1 && !practice_step}
+                        <div class="flex flex-wrap gap-2" role="group" aria-label="Level">
+                            {#each mode_levels[mode].levels as level (level)}
+                                <button
+                                    class="py-[2px] px-[10px] text-ink-soft text-[0.8125rem] bg-transparent border border-solid border-line-strong rounded-full aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
+                                    aria-pressed={practice_level === level}
+                                    onclick={() =>
+                                        open_practice({
+                                            level: practice_level === level ? null : level,
+                                        })}
+                                >
+                                    {#if level === 'beginner'}Beginner{:else if level === 'intermediate'}Intermediate{:else}Expert{/if}
+                                </button>
+                            {/each}
+                        </div>
+                    {/if}
+                </div>
+                <button class={round_button} onclick={close_practice} aria-label="Close practice">
+                    {@render icon('close')}
+                </button>
+            </header>
+
+            {#if practice_view}
+                {#key practice_question.question_id}
+                    <div class="grid gap-3" in:fade={{ duration: 220 }}>
+                        <p
+                            class="text-ink font-serif text-[1.1875rem] leading-[1.5] text-pretty"
+                            dir="auto"
+                        >
+                            {practice_view.prompt}
+                        </p>
+                        <div class="grid gap-2" role="group" aria-label="Answers">
+                            {#each practice_view.options as option (option.id)}
+                                {@const chosen =
+                                    practice_tick >= 0 &&
+                                    practice.answers[practice_question.question_id] === option.id}
+                                {@const right = option.id === practice_question.correct_option_id}
+                                <button
+                                    class="py-[10px] px-4 text-start text-ink bg-[rgba(255,244,222,0.05)] border border-solid border-line-strong rounded-xl transition-[background,border-color] duration-150 not-disabled:hover:border-gold not-disabled:hover:bg-[rgba(255,244,222,0.1)] disabled:cursor-default disabled:opacity-100 data-[state=right]:border-[#7fd1a0] data-[state=right]:bg-[rgba(127,209,160,0.14)] data-[state=wrong]:border-[#e8a857] data-[state=wrong]:bg-[rgba(232,168,87,0.14)]"
+                                    data-state={practice_result
+                                        ? right
+                                            ? 'right'
+                                            : chosen
+                                              ? 'wrong'
+                                              : 'idle'
+                                        : 'idle'}
+                                    disabled={Boolean(practice_result)}
+                                    aria-pressed={chosen}
+                                    dir="auto"
+                                    onclick={() => answer_practice(option.id)}
+                                >
+                                    {option.text}
+                                </button>
+                            {/each}
+                        </div>
+                        {#if !practice_result}
+                            <div class="flex flex-wrap gap-2 items-center">
+                                <button
+                                    class="{ghost_button} min-h-8 py-1"
+                                    onclick={toggle_passage}
+                                >
+                                    {@render icon('sources')}
+                                    {#if practice.source_open}Hide the passage{:else}Read the passage{/if}
+                                </button>
+                                <button
+                                    class="min-h-8 py-1 px-3 text-ink-soft bg-transparent border-0 underline underline-offset-4"
+                                    onclick={() => answer_practice(null)}
+                                >
+                                    I don’t know
+                                </button>
+                            </div>
+                        {/if}
+                        {#if practice_units.length}
+                            <div class="grid gap-2" in:fade>
+                                {#each practice_units as unit (unit.unit_id)}
+                                    <blockquote
+                                        class="max-h-[180px] overflow-y-auto py-3 px-4 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 border-r-[3px] border-solid border-gold rounded-xl font-arabic text-[1.1875rem] leading-[1.9]"
+                                        dir="rtl"
+                                        lang="ar"
+                                    >
+                                        {unit.text_ar}
+                                    </blockquote>
+                                {/each}
+                                <p class={fine_print}>
+                                    Open book: reading the passage is part of learning.
+                                </p>
+                            </div>
+                        {/if}
+                        {#if practice_result}
+                            {@const picked = practice_view.options.find(
+                                (option) =>
+                                    option.id === practice.answers[practice_question.question_id],
+                            )}
+                            <div
+                                class="grid gap-2"
+                                aria-live="polite"
+                                in:fly={{ y: 8, duration: 220 }}
+                            >
+                                <p class="font-semibold text-[0.9375rem]">
+                                    {#if practice_result.skipped}<span class="text-ink-soft"
+                                            >Skipped. Here is what the passage says.</span
+                                        >{:else if practice_result.correct}<span
+                                            class="text-[#7fd1a0]">Correct.</span
+                                        >{:else}<span class="text-[#e8a857]">Not quite.</span>{/if}
+                                </p>
+                                {#if picked}
+                                    <p class="text-ink-soft leading-[1.5]" dir="auto">
+                                        {picked.feedback}
+                                    </p>
+                                {/if}
+                                <p class="text-ink leading-[1.55]" dir="auto">
+                                    {practice_view.explanation}
+                                </p>
+                                <p class={fine_print} dir="auto">{practice_view.scope_note}</p>
+                                {#if practice_result.used_source}
+                                    <p class={fine_print}>You read the passage before answering.</p>
+                                {/if}
+                                <div>
+                                    <button class={primary_button} onclick={next_question}>
+                                        {#if practice.index + 1 < practice.questions.length}Next question{:else}See how you did{/if}
+                                        {@render icon('next')}
+                                    </button>
+                                </div>
+                            </div>
+                        {/if}
+                    </div>
+                {/key}
+            {:else if practice_done}
+                {@const score = practice_tick >= 0 && practice_score(practice)}
+                {@const reread = stages_to_reread()}
+                <div class="grid gap-3" in:fade>
+                    <p class="font-serif text-[1.5rem] leading-[1.25]">
+                        {score.correct} / {score.total}
+                    </p>
+                    <p class="text-ink-soft">
+                        Correct answers, out of the questions in this set.
+                        {#if score.skipped}
+                            Left for later: {score.skipped}{/if}
+                    </p>
+                    {#if reread.length}
+                        <p class={kicker}>Worth rereading</p>
+                        <div class="flex flex-wrap gap-2">
+                            {#each reread as step (step.id)}
+                                <button
+                                    class="{ghost_button} min-h-8 py-1"
+                                    onclick={() => {
+                                        close_practice()
+                                        select_step(step.id, 'guided', false)
+                                        open_reading()
+                                    }}
+                                >
+                                    {step.title}
+                                </button>
+                            {/each}
+                        </div>
+                    {/if}
+                    <div class="flex flex-wrap gap-2">
+                        <button class={primary_button} onclick={close_practice}>
+                            {@render icon('back')} Back to the journey
+                        </button>
+                        {#if !practice_step}
+                            <button class={ghost_button} onclick={() => open_practice()}>
+                                {@render icon('replay')} Practise again
+                            </button>
+                        {/if}
+                    </div>
+                </div>
+            {/if}
+        </section>
+    {/if}
+
     {#if card_visible}
         <section
             class="absolute z-20 bottom-[22px] left-[calc(var(--rail)+(100%-var(--rail)-var(--sheet))/2)] grid gap-3 w-[min(680px,calc(100%-var(--rail)-var(--sheet)-40px))] px-6 pt-5 pb-[18px] bg-panel border border-solid border-line rounded-[20px] shadow-[0_18px_60px_rgba(0,0,0,0.35)] backdrop-blur-[18px] backdrop-saturate-[1.2] [translate:-50%_0] transition-[left] duration-300 ease-[ease] data-[detour=true]:border-gold compact:group-data-[sheet-open=true]/stage:hidden mobile:right-3 mobile:bottom-3 mobile:left-3 mobile:w-auto mobile:px-4 mobile:pt-4 mobile:pb-[14px] mobile:translate-none"
@@ -1249,6 +1521,18 @@
                     >
                 </div>
                 <div class={card_row}>
+                    {#if stop_finished && !journey.is_playing && stage_questions.length}
+                        <button
+                            class="{ghost_button} border-gold mobile:flex-[1_1_100%]"
+                            onclick={() => open_practice({ step_id: selected_step.id })}
+                        >
+                            {@render icon('ask')} Check your understanding
+                            <span
+                                class="min-w-5 px-[6px] py-px text-gold-bright bg-[rgba(232,178,87,0.16)] rounded-full text-[0.75rem]"
+                                >{stage_questions.length}</span
+                            >
+                        </button>
+                    {/if}
                     {#if stop_finished && !journey.is_playing}
                         <button
                             class="{primary_button} mr-auto mobile:flex-[1_1_100%]"
@@ -1320,9 +1604,14 @@
                                     What to carry forward
                                 </h3>
                                 <p class="text-ink-soft leading-[1.55]">{selected_step.recap}</p>
-                                <button class={ghost_button} onclick={() => start('scene')}>
-                                    {@render icon('replay')} Start again
-                                </button>
+                                <div class="flex flex-wrap gap-2">
+                                    <button class={primary_button} onclick={() => open_practice()}>
+                                        {@render icon('ask')} Practise what you learned
+                                    </button>
+                                    <button class={ghost_button} onclick={() => start('scene')}>
+                                        {@render icon('replay')} Start again
+                                    </button>
+                                </div>
                             </div>
                         {/if}
                         {#if journey.mode === 'detour'}

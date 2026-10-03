@@ -1893,63 +1893,124 @@ msgstr "Mod değiştirildi. Bulunduğunuz yer kaydedildi."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali, insanların Peygamber ﷺ'e bıraktığı değerli eşyaları geri vermek için geride kaldı."
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah"
-msgstr "mekke"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "makkah_valley"
-msgstr "mekke vadisi"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "cave"
-msgstr "mağara"
 
-#: src/lib/scene-manifest.js
-msgid "thawr"
-msgstr "sevr"
 
-#: src/lib/scene-manifest.js
-msgid "coast"
-msgstr "sahil"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "road"
-msgstr "yol"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "tent"
-msgstr "çadır"
 
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-#: src/lib/scene-manifest.js
-msgid "quba"
-msgstr "kuba"
 
-#: src/lib/scene-manifest.js
-msgid "madinah"
-msgstr "medine"
 
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
 
-#: src/lib/scene-manifest.js
-msgid "horse"
-msgstr "at"
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "Medine'de Müslümanlar, Peygamber ﷺ'i beklemek için dışarı çıktılar. Geliş rivayeti, onu nasıl karşıladıklarını anlatır."
+
+#: src/routes/Journey.svelte
+msgid "Practice opened. {0} questions."
+msgstr "Alıştırma açıldı. {0} soru."
+
+#: src/routes/Journey.svelte
+msgid "Correct."
+msgstr "Doğru."
+
+#: src/routes/Journey.svelte
+msgid "Answer recorded."
+msgstr "Cevap kaydedildi."
+
+#: src/routes/Journey.svelte
+msgid "Level"
+msgstr "Seviye"
+
+#: src/routes/Journey.svelte
+msgid "Beginner"
+msgstr "Başlangıç"
+
+#: src/routes/Journey.svelte
+msgid "Intermediate"
+msgstr "Orta"
+
+#: src/routes/Journey.svelte
+msgid "Expert"
+msgstr "Uzman"
+
+#: src/routes/Journey.svelte
+msgid "Check your understanding <0/>"
+msgstr "Anladıklarınızı kontrol edin <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Close practice"
+msgstr "Alıştırmayı kapat"
+
+#: src/routes/Journey.svelte
+msgid "Answers"
+msgstr "Cevaplar"
+
+#: src/routes/Journey.svelte
+msgid "Hide the passage"
+msgstr "Metni gizle"
+
+#: src/routes/Journey.svelte
+msgid "Read the passage"
+msgstr "Metni oku"
+
+#: src/routes/Journey.svelte
+msgid "I don’t know"
+msgstr "Bilmiyorum"
+
+#: src/routes/Journey.svelte
+msgid "Open book: reading the passage is part of learning."
+msgstr "Açık kitap: Metni okumak öğrenmenin bir parçasıdır."
+
+#: src/routes/Journey.svelte
+msgid "Skipped. Here is what the passage says."
+msgstr "Atlandı. Metinde şöyle geçiyor:"
+
+#: src/routes/Journey.svelte
+msgid "Not quite."
+msgstr "Tam olarak değil."
+
+#: src/routes/Journey.svelte
+msgid "You read the passage before answering."
+msgstr "Cevaplamadan önce metni okudunuz."
+
+#: src/routes/Journey.svelte
+msgid "Next question"
+msgstr "Sonraki soru"
+
+#: src/routes/Journey.svelte
+msgid "See how you did"
+msgstr "Nasıl yaptığınızı görün"
+
+#: src/routes/Journey.svelte
+msgid "Left for later: {0}"
+msgstr "Sonraya bırakılan: {0}"
+
+#: src/routes/Journey.svelte
+msgid "Worth rereading"
+msgstr "Tekrar okumaya değer"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise again"
+msgstr "<0/> Tekrar alıştırma yap"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Back to the journey"
+msgstr "<0/> Yolculuğa dön"
+
+#: src/routes/Journey.svelte
+msgid "Correct answers, out of the questions in this set. <0/>"
+msgstr "Bu setteki sorular arasından doğru cevaplar. <0/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Check your understanding <1/>"
+msgstr "<0/> Anladıklarınızı kontrol edin <1/>"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Practise what you learned"
+msgstr "<0/> Öğrendiklerinizi pekiştirin"

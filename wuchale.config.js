@@ -6,6 +6,8 @@ import { locales } from './src/lib/locale-config.js'
 const heuristic = (message) => {
     const body = Array.isArray(message.body) ? message.body.join(' ') : message.body
     // Leave source quotations, keyboard codes, and styling untouched.
+    // Lowercase identifiers (place keys, actor names) are data, never wording.
+    if (/^[a-z][a-z0-9_]*$/.test(body)) return false
     if (
         !/[A-Za-z]/.test(body) ||
         ['Enter', 'Escape', 'ArrowRight', 'ArrowLeft', 'English'].includes(body)
