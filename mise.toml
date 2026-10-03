@@ -5,6 +5,9 @@ python = '3.14.7'
 pnpm = '12.6.0'
 uv = '0.12.10'
 
+[env]
+GUIDE_MODEL = '{{ get_env(name="GUIDE_MODEL", default="gpt-6-luna") }}'
+
 [tasks.dev]
 run = 'pnpm dev'
 
