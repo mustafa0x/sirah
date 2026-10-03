@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "sw",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Kwa riwaya ya Aisha iliyowasilishwa, nani alikuwa akileta habari za mipango ambayo watu waliandaa dhidi ya Mtume ﷺ na Abu Bakr walipokuwa pangoni?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Abd Allah ibn Abi Bakr",
+          "feedback": "Riwaya inataja kwamba anakumbuka anachosikia kisha anawaletea habari zake giza linapoingia."
+        },
+        {
+          "option_id": "milk",
+          "text": "Amir ibn Fuhayra",
+          "feedback": "Riwaya inataja kuchunga kwake kondoo na kuleta maziwa, si kuleta habari."
+        },
+        {
+          "option_id": "guide",
+          "text": "Mwongozaji aliyeajiriwa",
+          "feedback": "Msaada wa mwongozaji umetajwa kwa safari inayofuata; kipande hiki hakimhusishi na kuleta habari."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "Msaada uligawanywa katika majukumu tofauti: katika riwaya hii, kuleta habari kulikuwa kwa Abd Allah ibn Abi Bakr.",
+      "scope_note": "Swali linahusu jukumu katika matini, si njia ya kuingia kwake wala saa maalumu ya kisasa."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Riwaya inaeleza aina gani ya msaada wa Amir ibn Fuhayra kwenye pango?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Kuchunga kondoo na kuwawezesha hao wawili kupata maziwa",
+          "feedback": "Riwaya inaunganisha kuchunga kwake kondoo na maziwa ya kondoo wa maziwa kila usiku."
+        },
+        {
+          "option_id": "boat",
+          "text": "Kuandaa meli ya safari",
+          "feedback": "Riwaya haitaji meli katika msaada wake."
+        },
+        {
+          "option_id": "news",
+          "text": "Kukusanya habari za Quraysh katika mikutano yao",
+          "feedback": "Jukumu linaloelezwa la kupeleka habari ni la Abd Allah ibn Abi Bakr."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Amir ibn Fuhayra anachunga kondoo wa maziwa kisha anawaleta kwa hao wawili. Riwaya inataja maziwa na kurudiwa kwa hayo katika usiku tatu.",
+      "scope_note": "Swali haliongezi kwenye matini dai la kufuta alama za nyayo."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "Katika habari ya Asma iliyowasilishwa, kwa nini alipasua mkanda wake?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "Kufunga kiriba na chakula cha safari, alipokosa kitu cha kuvifungia",
+          "feedback": "Hilo ndilo hitaji analolitaja Asma, naye anaeleza kuvifunga kwa vipande viwili."
+        },
+        {
+          "option_id": "route",
+          "text": "Kutambua njia ambayo mwongozaji angepita",
+          "feedback": "Habari inahusu kuandaa kiriba na chakula cha safari, si kutambua njia."
+        },
+        {
+          "option_id": "letter",
+          "text": "Kuandika hati ya usalama kwa Suraqa",
+          "feedback": "Hati ya Suraqa haitajwi katika habari ya mkanda."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "Matini inaeleza suluhisho la vitendo wakati wa maandalizi: kupasua mkanda ili kutumia vipande viwili kufungia.",
+      "scope_note": "Hii ni habari ya maandalizi; swali haliifanyi kuwa uthibitisho wa kupeleka chakula pangoni kila usiku."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Kuajiri mtu stadi wa kuongoza njia na kisha kutaja njia ya pwani kunafafanua jukumu gani?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Kuongoza kundi njiani baada ya miadi ya pango",
+          "feedback": "Vipande viwili vinaunganisha ustadi wake wa kuongoza njia na kuandamana na kundi kupitia njia ya pwani."
+        },
+        {
+          "option_id": "build",
+          "text": "Kujenga msikiti Madina",
+          "feedback": "Vipande viwili havitaji ujenzi kuwa sehemu ya kazi ya mwongozaji."
+        },
+        {
+          "option_id": "news",
+          "text": "Kupeleka habari za Quraysh pangoni kila usiku",
+          "feedback": "Hili si jukumu linalohusishwa na mwongozaji katika vipande viwili."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "Maandalizi ya mwongozaji na miadi yake yanaunganisha hatua ya pango na kuendelea na safari; ustadi unaotajwa ni wa kuongoza njia.",
+      "scope_note": "Swali halidhanii viwianishi wala jina binafsi lisilotajwa katika vipande hivi viwili."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "Katika riwaya ya Suraqa iliyowasilishwa, aliomba nini alipokutana na Mtume ﷺ baada ya kuacha kuwafukuza?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "Amwandikie hati ya usalama",
+          "feedback": "Suraqa anasema kwamba alimwomba hati ya usalama, naye akamwamuru Amir ibn Fuhayra aandike."
+        },
+        {
+          "option_id": "reward",
+          "text": "Mtume ﷺ ampe zawadi ya Quraysh",
+          "feedback": "Zawadi inatajwa mwanzoni mwa riwaya kama iliyotolewa na Quraysh, si ombi hili."
+        },
+        {
+          "option_id": "provisions",
+          "text": "Mtume ﷺ ampe chakula na vifaa",
+          "feedback": "Suraqa ndiye aliyewapa nafasi ya kuchukua chakula na vifaa, nao hawakuchukua kutoka kwake."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "Habari inatofautisha zawadi iliyotolewa na Quraysh, chakula kilichotolewa na Suraqa, na kuomba kwake hati ya usalama; aliyeomba hati ya usalama ni Suraqa.",
+      "scope_note": "Matini haitaji maneno ya hati iliyoandikwa."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Soma vipande viwili vinavyoungana kuhusu mwongozaji. Kauli ipi inaunganisha maandalizi na kuendelea na safari bila kuongeza maelezo yasiyotajwa?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "Walimwamini na kumkabidhi ngamia wawili wa safari, wakapanga kukutana naye kwenye pango la Thawr baada ya usiku tatu; kisha akaondoka pamoja nao",
+          "feedback": "Chaguo hili linajumuisha ngamia wawili, miadi na kundi kama vilivyotajwa katika vipande viwili."
+        },
+        {
+          "option_id": "waiting",
+          "text": "Mwongozaji alibaki nao ndani ya pango katika usiku tatu",
+          "feedback": "Miadi kwenye pango haithibitishi kwamba mwongozaji alikaa humo usiku tatu."
+        },
+        {
+          "option_id": "water",
+          "text": "Walisafiri baharini kwa sababu riwaya inataja njia ya pwani",
+          "feedback": "Njia ya pwani ni maelezo ya njia; matini haitaji safari ya baharini."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "Kauli «wakakubaliana akutane nao» mwishoni mwa kipande cha kwanza inakamilishwa kwa miadi ya pango katika cha pili. Kisha cha pili kinataja Amir na mwongozaji kuondoka pamoja nao.",
+      "scope_note": "Vipande viwili vinawasilishwa kwa mpangilio wake; ni mwendelezo wa hadithi moja, si ushahidi mbili zinazojitegemea."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Muhtasari upi unahifadhi tofauti ya kazi inayoelezwa kwa Asma na Abd Allah ibn Abi Bakr katika matini mbili?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Asma anaandaa kitu cha kufungia chakula na kiriba; Abd Allah analeta habari wakati wa kukaa pangoni",
+          "feedback": "Chaguo hili linahifadhi kitendo na hatua inayohusishwa na kila mmoja wao."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Abd Allah anapasua mkanda wake kufungia; Asma anakusanya habari za Quraysh",
+          "feedback": "Hili linageuza uhusishaji wa kazi katika matini mbili."
+        },
+        {
+          "option_id": "same",
+          "text": "Matini mbili zinaeleza kazi ileile ya mtu yuleyule",
+          "feedback": "Watu hao na kazi zao ni tofauti, ingawa wote wanasaidia."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "Kushiriki kwa watu wa familia katika kusaidia hakufanyi habari za maandalizi na habari za kukaa kuwa habari moja au jukumu moja.",
+      "scope_note": "Ulinganisho unahusu vipande viwili vilivyowasilishwa, si kukanusha kazi nyingine yoyote waliyofanya nje ya matini hizi mbili."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "Matini inawasilisha jina «Abd Allah ibn Arqat (أرقط)», kisha kauli «Na inasemekana: Abd Allah ibn Urayqit (أريقط)». Matini inaihusisha kauli ya pili waziwazi na nani?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "Ibn Hisham",
+          "feedback": "Matini inaitenga kauli kwa alama ya msemaji «Ibn Hisham alisema»."
+        },
+        {
+          "option_id": "asma",
+          "text": "Asma bint Abi Bakr",
+          "feedback": "Kutajwa kwa Asma katika habari iliyotangulia hakufanyi maelezo ya Ibn Hisham kuwa kauli yake."
+        },
+        {
+          "option_id": "guide",
+          "text": "Mwongozaji anajizungumzia mwenyewe",
+          "feedback": "Matini haionyeshi hapa kauli ya mwongozaji kuhusu yeye mwenyewe."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "Kutenganisha habari na maelezo ya msimulizi kunahifadhiwa: «Ibn Hisham alisema» kunamtambua mwenye umbo mbadala la jina bila kusahihisha mojawapo ya majina kimyakimya.",
+      "scope_note": "Zoezi la hiari la kusoma chanzo; kukariri tofauti ya jina si sharti la kuelewa somo la msingi."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Kauli ipi inatoa muhtasari wa maelezo ya Ibn Ishaq kuhusu mwenyeji wa Quba huku ikihifadhi tahadhari yake?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "Anataja kufikia kwa Kulthum ibn Hidm, analeta pia kauli ya kufikia kwa Sad ibn Khaythama, wala haamui kwa uhakika kati yao",
+          "feedback": "Zipo kauli «kwa wanavyosimulia», «na inasemekana», kisha «Allah ndiye ajuaye zaidi» na «yote tumeyasikia»."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "Anasema kwa uhakika kwamba wapokezi wote walikubaliana kuhusu mwenyeji mmoja",
+          "feedback": "Kule kuleta kauli nyingine na tahadhari kunazuia dai la makubaliano."
+        },
+        {
+          "option_id": "deny",
+          "text": "Anakanusha kwamba Mtume ﷺ alifikia kwa yeyote kati yao wawili",
+          "feedback": "Kuwasilisha kauli mbili si kuzikataa zote mbili."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "Muhtasari unahifadhi kauli mbadala iliyotajwa na kutokuwa na uhakika. Maelezo ya kuketi nyumbani kwa Sad yanatajwa kama kauli ya wanaosimulia kufikia kwa Kulthum, si hukumu ya mwisho ya swali.",
+      "scope_note": "Swali haliombi kumpa uzito mwenyeji kwa kutumia habari za nje ya kipande hiki."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Soma hukumu mbili zilizowasilishwa kuhusu isnadi ya habari ya buibui. Ulinganisho huu unaunga mkono moja kwa moja hitimisho gani?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "Ibn Kathir anaihesabu isnadi kuwa hasan, na wahakiki wa toleo la ar-Risala wanaihesabu kuwa dhaifu; lazima hukumu ihusishwe na aliyeitoa",
+          "feedback": "Hiyo ndiyo mipaka ya kauli mbili za hukumu zilizowasilishwa; ulinganisho hauzibadili kuwa hukumu moja."
+        },
+        {
+          "option_id": "all",
+          "text": "Matini mbili zinakubaliana kwamba riwaya zote za pango ni sahih",
+          "feedback": "Zinatofautiana katika hukumu, na kauli zao si kuhesabu riwaya zote za pango kuwa sahih."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "Kuhesabu kwa Ibn Kathir kuwa hasan hapa ni uamuzi huru wa kuwa sahih kwa njia zote za habari ya njiwa wawili",
+          "feedback": "Kauli inahusu habari ya buibui kusuka utando; hairuhusu kueneza hukumu kwa njia zote za habari ya njiwa wawili."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "Matini ya kwanza inasema «Hii ni isnadi hasan» na inaeleza habari ya buibui; ya pili inaanza «Isnadi yake ni dhaifu». Tofauti ya hukumu iliyowasilishwa inahitaji kuhifadhi mwenye kuitoa na upeo wake, si kubuni makubaliano.",
+      "scope_note": "Ulinganisho unawasilisha hukumu mbili kama kauli zinazohusishwa na wenye kuzitoa, wala haudai kwamba mhariri wa kifurushi anayewajibika kwa uhakiki amechunguza kujitegemea kwa njia au ameamua kwamba ni sahih."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "Katika matini ya kwanza Mtume ﷺ anamwamuru Amir kuandika, na katika ya pili anamwamuru Abu Bakr. Ulinganisho uwasilishwe vipi ili kuhifadhi yaliyomo katika vipande viwili?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "Mwandishi anayetajwa katika kila kipande ahusishwe na riwaya yake, bila kubuni upatanisho kati yao",
+          "feedback": "Kila kipande kinamtaja mwandishi mmoja; vipande viwili havitaji kwamba waliandika hati pamoja."
+        },
+        {
+          "option_id": "together",
+          "text": "Isemwe kwa uhakika kwamba wote wawili waliandika hati moja pamoja",
+          "feedback": "Huo ni upatanisho ambao haujaelezwa wazi katika kipande chochote kati ya hivyo viwili."
+        },
+        {
+          "option_id": "erase",
+          "text": "Jina la Abu Bakr katika matini ya pili libadilishwe kuwa Amir ili riwaya zilingane",
+          "feedback": "Hilo linabadilisha kilichonukuliwa badala ya kueleza tofauti."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "Ulinganisho unaanza kwa kuthibitisha tofauti ya maelezo kama yalivyonukuliwa. Peke yake hautoshi kuamua mwandishi yupi apewe uzito wala kuthibitisha njia mbili zinazojitegemea.",
+      "scope_note": "Zoezi la kulinganisha matini iliyotolewa, si mtihani wa kukariri majina ya wasimulizi wala hukumu ya usahihi wa riwaya mbili."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "Kipande hiki kinasimulia kuvalishwa kwa Suraqa bangili mbili, lakini kinaanza na Umar ibn al-Khattab na mali zilizomfikia. Ni mpaka gani lazima uzingatiwe unapokitumia pamoja na kisa cha kufukuza?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Kuvalishwa hakuwekwi katika taswira ya kufukuza; tukio linalosimuliwa hapa ni la wakati wa Umar",
+          "feedback": "Umar na mali kutoka Iraq ndiyo muktadha wa tukio katika kipande hiki."
+        },
+        {
+          "option_id": "same",
+          "text": "Kuvalishwa kulitokea wakati Suraqa alipokutana na Mtume ﷺ njiani",
+          "feedback": "Hilo linahamishia tukio kwenye wakati na taswira tofauti na zilizotajwa hapa."
+        },
+        {
+          "option_id": "dated",
+          "text": "Kipande kinataja tarehe ya kuondoka pangoni",
+          "feedback": "Mada ya kipande ni mali na bangili mbili wakati wa Umar, si tarehe ya kuondoka pangoni."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "Kuhusiana kwa mtu yuleyule na visa viwili hakufanyi matukio mawili kuwa ya wakati mmoja. Habari hapa inatokana na wenye elimu bila kuwataja majina mahali hapa; kusoma muktadha hakumaanishi kuhesabu habari zote kuwa sahih.",
+      "scope_note": "Sehemu iliyotangulia aya inaonyeshwa yote; dokezo hili halichanganyi habari na aya iliyonukuliwa wala kudai kuthibitisha uaminifu wa watoa habari."
+    }
+  ],
+  "translation_notes": {}
+}

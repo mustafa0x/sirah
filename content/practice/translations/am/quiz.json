@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "am",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "በቀረበው የዓኢሻ ዘገባ መሠረት፣ በዋሻው ቆይታ ጊዜ ሰዎች በነቢዩ ﷺ እና በአቡ በክር ላይ የሚያቅዱትን ዜና ያመጣ የነበረው ማን ነበር?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "ዐብዱላህ ኢብን አቢ በክር",
+          "feedback": "ዘገባው፣ የሚሰማውን እንደሚያስታውስና፣ ጨለማ ሲወርድ ዜናውን ወደ ሁለቱ እንደሚያመጣ ይጠቅሳል።"
+        },
+        {
+          "option_id": "milk",
+          "text": "ዓሚር ኢብን ፉሀይራ",
+          "feedback": "ዘገባው በጎችን ማገዱንና ወተት ማምጣቱን እንጂ፣ ዜና ማምጣቱን አይጠቅስም።"
+        },
+        {
+          "option_id": "guide",
+          "text": "የተቀጠረው መንገድ መሪ",
+          "feedback": "ከመንገድ መሪው እርዳታ መጠየቅ ለቀጣዩ ጉዞ ተጠቅሷል፤ ይህ ክፍል ዜና ማምጣቱን ለእርሱ አይጠቅስም።"
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "እርዳታው በተለያዩ ሚናዎች ተከፋፍሎ ነበር፤ በዚህ ዘገባ ዜና ማስተላለፉ የዐብዱላህ ኢብን አቢ በክር ሚና ነው።",
+      "scope_note": "ጥያቄው በጽሑፉ ያለውን ሚና ይመለከታል፣ የመግቢያ መንገዱን ወይም በዘመናዊ ሰዓት የተወሰነ ጊዜን አይደለም።"
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "ዘገባው ዓሚር ኢብን ፉሀይራ በዋሻው አጠገብ የሰጠውን ምን ዓይነት እርዳታ ይገልጻል?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "በጎችን ማገድና ለሁለቱ ወተት ማቅረብ",
+          "feedback": "ዘገባው በጎችን ማገዱን በእያንዳንዱ ሌሊት ከሚገኘው የሚታለቡ በጎች ወተት ጋር ያያይዛል።"
+        },
+        {
+          "option_id": "boat",
+          "text": "ለጉዞው መርከብ ማዘጋጀት",
+          "feedback": "ዘገባው በእርዳታው ውስጥ መርከብ አይጠቅስም።"
+        },
+        {
+          "option_id": "news",
+          "text": "በቁረይሽ ስብሰባዎች ዜና መሰብሰብ",
+          "feedback": "በዜና ማስተላለፍ የተገለጸው ሚና የዐብዱላህ ኢብን አቢ በክር ነው።"
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "ዓሚር ኢብን ፉሀይራ ወተት የሚሰጡ በጎችን ያግዳል፣ ከዚያም ወደ ሁለቱ ያመጣቸዋል። ዘገባው ወተቱንና፣ ይህ በሦስቱ ሌሊቶች መደገሙን ይጠቅሳል።",
+      "scope_note": "ጥያቄው የእግር ፈለጎችን ማጥፋት የሚል ነገር በጽሑፉ ላይ አይጨምርም።"
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "በቀረበው የአስማ ዘገባ፣ የወገብ መታጠቂያዋን ለምን ቀደደች?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "የውኃ አቁማዳውንና የምግብ ከረጢቱን ለማሰር፣ ሌላ የምታስርበት ስላላገኘች",
+          "feedback": "አስማ የምትጠቅሰው ፍላጎት ይህ ነው፣ በሁለት ቁራጮች ማሰሯንም ትገልጻለች።"
+        },
+        {
+          "option_id": "route",
+          "text": "መንገድ መሪው የሚሄድበትን መንገድ ለመወሰን",
+          "feedback": "ዘገባው የውኃ አቁማዳንና የምግብ ከረጢትን ማዘጋጀት እንጂ፣ መንገዱን መወሰን አይመለከትም።"
+        },
+        {
+          "option_id": "letter",
+          "text": "ለሱራቃ የደህንነት ሰነድ ለመጻፍ",
+          "feedback": "የሱራቃ ሰነድ በመታጠቂያው ዘገባ አይገኝም።"
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "ጽሑፉ በዝግጅት ጊዜ የተጠቀመችበትን ተግባራዊ መፍትሔ ይገልጻል፦ ሁለቱን ቁራጮች ለማሰር ለመጠቀም መታጠቂያውን መቅደድ።",
+      "scope_note": "ይህ የዝግጅት ዘገባ ነው፤ ጥያቄው በየሌሊቱ ምግብ ወደ ዋሻው መድረሱን ማረጋገጫ አያደርገውም።"
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "በመንገድ መምራት የተካነውን ሰው እርዳታ መጠየቅና፣ በመቀጠል የባሕር ዳርቻ መንገድ መጠቀስ፣ ምን ተግባር ያሳያሉ?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "ከዋሻው ቀጠሮ በኋላ ተጓዦቹን በመንገድ መምራት",
+          "feedback": "ሁለቱ ክፍሎች በመንገድ መምራት ያለውን ብቃት፣ ተጓዦቹን በባሕር ዳርቻ መንገድ ከመምራት ጋር ያያይዛሉ።"
+        },
+        {
+          "option_id": "build",
+          "text": "በመዲና መስጊዱን መገንባት",
+          "feedback": "ሁለቱ ክፍሎች ግንባታን በመንገድ መሪው ተግባር ውስጥ አይጠቅሱም።"
+        },
+        {
+          "option_id": "news",
+          "text": "በየሌሊቱ የቁረይሽን ዜና ወደ ዋሻው ማስተላለፍ",
+          "feedback": "ይህ በሁለቱ ክፍሎች ለመንገድ መሪው የተጠቀሰው ተግባር አይደለም።"
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "መንገድ መሪውን ማዘጋጀትና ቀጠሮው፣ የዋሻውን ደረጃ ከጉዞው መቀጠል ጋር ያያይዛሉ፤ የተጠቀሰው ብቃት በመንገድ መምራት ያለ ብቃት ነው።",
+      "scope_note": "ጥያቄው እነዚህ ሁለት ክፍሎች ያልጠቀሱትን መጋጠሚያ ወይም የግል ስም እንዳለ አይገምትም።"
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "በቀረበው የሱራቃ ዘገባ፣ ማሳደዱን ካቆመ በኋላ ከነቢዩ ﷺ ጋር በተገናኘ ጊዜ ምን ጠየቀ?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "የደህንነት ደብዳቤ እንዲጽፉለት",
+          "feedback": "ሱራቃ፣ የደህንነት ደብዳቤ እንደጠየቃቸውና፣ ዓሚር ኢብን ፉሀይራን እንዲጽፍ እንዳዘዙት ይላል።"
+        },
+        {
+          "option_id": "reward",
+          "text": "ነቢዩ ﷺ የቁረይሽን ሽልማት እንዲሰጡት",
+          "feedback": "ሽልማቱ በዘገባው መጀመሪያ ከቁረይሽ የቀረበ እንደሆነ ይገኛል፣ ይህ ጥያቄ አይደለም።"
+        },
+        {
+          "option_id": "provisions",
+          "text": "ነቢዩ ﷺ ምግብና ዕቃ እንዲያቀርቡለት",
+          "feedback": "ምግብና ዕቃ ለሁለቱ ያቀረበው ሱራቃ ነው፣ እነርሱም ከእርሱ አልወሰዱም።"
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "ዘገባው፣ ቁረይሽ ሽልማት ማቅረቧን፣ ሱራቃ ምግብ ማቅረቡንና፣ የደህንነት ደብዳቤ መጠየቁን ይለያል። የደህንነት ደብዳቤውን የጠየቀው ሱራቃ ነው።",
+      "scope_note": "ጽሑፉ የተጻፈውን ሰነድ ቃላት አያቀርብም።"
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "ስለ መንገድ መሪው ያሉትን ሁለት ተያያዥ ክፍሎች አንብብ። ያልተጠቀሰ ዝርዝር ሳይጨምር፣ ዝግጅቱን ከጉዞው መቀጠል ጋር የሚያያይዘው የቱ አገላለጽ ነው?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "ሁለቱን የጉዞ ግመሎች ተማመኑት፣ ከሦስት ሌሊት በኋላ በሠውር ዋሻ እንዲገናኙ ቀጠሩት፣ ከዚያም ከእነርሱ ጋር ተነሣ።",
+          "feedback": "ይህ ምርጫ በሁለቱ ክፍሎች እንደተጠቀሱት፣ ሁለቱን የጉዞ ግመሎች፣ ቀጠሮውንና አብሮ መጓዙን ያጣምራል።"
+        },
+        {
+          "option_id": "waiting",
+          "text": "መንገድ መሪው በሦስቱ ሌሊቶች በዋሻው ውስጥ ከእነርሱ ጋር ቆየ።",
+          "feedback": "በዋሻው አጠገብ ቀጠሮ መኖሩ፣ መንገድ መሪው ሦስቱን ሌሊቶች በውስጡ እንዳሳለፈ አያረጋግጥም።"
+        },
+        {
+          "option_id": "water",
+          "text": "ዘገባው የባሕር ዳርቻ መንገድ ስለሚል፣ በባሕር ተጓዙ።",
+          "feedback": "የባሕር ዳርቻ መንገድ የመንገዱ መግለጫ ነው፤ ጽሑፉ በባሕር መጓዝ አይጠቅስም።"
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "በመጀመሪያው ክፍል መጨረሻ ያለው «ሁለቱ ቀጠሩት» የሚል አገላለጽ፣ በሁለተኛው ክፍል በዋሻው ቀጠሮ ይሟላል። ከዚያ ሁለተኛው ክፍል፣ ዓሚርና መንገድ መሪው ከእነርሱ ጋር መውጣታቸውን ይጠቅሳል።",
+      "scope_note": "ሁለቱ ክፍሎች በቅደም ተከተላቸው ይቀርባሉ፤ የአንዱ ሐዲሥ ቀጣይ ክፍሎች እንጂ፣ ሁለት ገለልተኛ ማስረጃዎች አይደሉም።"
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "በሁለቱ ጽሑፎች ለአስማና ለዐብዱላህ ኢብን አቢ በክር የተገለጸውን የሥራ ልዩነት የሚጠብቀው የቱ ማጠቃለያ ነው?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "አስማ ምግቡንና የውኃ አቁማዳውን የሚያስር መሣሪያ ታዘጋጃለች፤ ዐብዱላህ በዋሻው ቆይታ ወቅት ዜና ያመጣል።",
+          "feedback": "ይህ ምርጫ ለእያንዳንዳቸው የተጠቀሰውን ተግባርና ደረጃ ይጠብቃል።"
+        },
+        {
+          "option_id": "swapped",
+          "text": "ዐብዱላህ ለማሰር መታጠቂያውን ይቀዳል፤ አስማ የቁረይሽን ዜና ትሰበስባለች።",
+          "feedback": "ይህ በሁለቱ ጽሑፎች የሥራ ባለቤቶችን ይገለብጣል።"
+        },
+        {
+          "option_id": "same",
+          "text": "ሁለቱ ጽሑፎች ለአንድ ሰው ተመሳሳይ ሥራ ይገልጻሉ።",
+          "feedback": "በእርዳታ ቢያመሳስሏቸውም፣ ሰዎቹና ሥራዎቹ የተለያዩ ናቸው።"
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "የቤተሰብ አባላት በእርዳታ መሳተፋቸው፣ የዝግጅት ዘገባዎችንና የቆይታ ዘገባዎችን አንድ ዘገባ ወይም አንድ ሚና አያደርጋቸውም።",
+      "scope_note": "ንጽጽሩ በቀረቡት ሁለት ክፍሎች ላይ ነው፣ ከእነዚህ ጽሑፎች ውጭ ሌላ ማንኛውንም ሥራ እንዳልሠሩ መካድ አይደለም።"
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "ጽሑፉ «ዐብዱላህ ኢብን አርቀጥ (عبد الله بن أرقط)» የሚለውን ስም፣ ከዚያም «ዐብዱላህ ኢብን ኡረይቂጥ (عبد الله بن أريقط) ይባላልም» የሚለውን አገላለጽ ያቀርባል። ሁለተኛውን አገላለጽ ጽሑፉ በግልጽ ለማን ይጠቅሳል?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "ኢብን ሂሻም",
+          "feedback": "ጽሑፉ «ኢብን ሂሻም አለ» በሚለው የንግግር ምልክት አገላለጹን ይለያል።"
+        },
+        {
+          "option_id": "asma",
+          "text": "አስማ ቢንት አቢ በክር",
+          "feedback": "በቀደመው ዘገባ አስማ መጠቀሷ፣ የኢብን ሂሻምን አስተያየት የእርሷ ንግግር አያደርገውም።"
+        },
+        {
+          "option_id": "guide",
+          "text": "መንገድ መሪው ስለ ራሱ ይናገራል።",
+          "feedback": "ጽሑፉ እዚህ መንገድ መሪው ስለ ራሱ የተናገረውን አያቀርብም።"
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "በዘገባውና በአስተላላፊው አስተያየት መካከል ያለውን ልዩነት ይጠብቃል፤ «ኢብን ሂሻም አለ» የሚለው፣ ከሁለቱ ስሞች አንዱን በዝምታ ሳያስተካክል፣ አማራጩን ቅርጽ የተናገረውን ይወስናል።",
+      "scope_note": "ይህ ምንጭን ለማንበብ የሚደረግ አማራጭ ልምምድ ነው፤ የስም ልዩነቱን ማስታወስ መሠረታዊውን ትምህርት ለመረዳት ቅድመ ሁኔታ አይደለም።"
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "ኢብን ኢስሐቅ በቁባእ ስለነበረው አስተናጋጅ የተናገረውን፣ ጥንቃቄውን እያስቀረ የሚያጠቃልለው የቱ አገላለጽ ነው?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "በኩልሡም ኢብን ሂድም ዘንድ መስፈራቸውን ይጠቅሳል፣ በሰዕድ ኢብን ኸይሥማ ዘንድ መስፈራቸውን የሚለውንም አስተያየት ያቀርባል፣ ከሁለቱ አንዱንም በእርግጥ አይወስንም።",
+          "feedback": "«እንደሚነግሩት»፣ «ይባላል»፣ ከዚያም «አላህ ይበልጥ ያውቃል» እና «ሁለቱንም ሰምተናል» የሚሉት ይታያሉ።"
+        },
+        {
+          "option_id": "unanimous",
+          "text": "ሁሉም አስተላላፊዎች በአንድ አስተናጋጅ ላይ እንደተስማሙ በእርግጥ ይወስናል።",
+          "feedback": "ሌላውን አስተያየት ማቅረቡና ጥንቃቄው፣ ስምምነት ነበር የሚል አባባል ይከለክላሉ።"
+        },
+        {
+          "option_id": "deny",
+          "text": "ነቢዩ ﷺ በሁለቱም ዘንድ መስፈራቸውን ይክዳል።",
+          "feedback": "ሁለቱን አስተያየቶች ማቅረብ፣ ሁለቱንም መካድ አይደለም።"
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "ማጠቃለያው የተጠቀሰውን አማራጭና በእርግጥ አለመወሰኑን ይጠብቃል። በሰዕድ ቤት ስለ መቀመጥ ያለው ማብራሪያ፣ በኩልሡም ዘንድ ሰፈሩ የሚሉት አስተያየት እንደሆነ ይቀርባል፣ ከጥያቄው የመጣ የመጨረሻ ውሳኔ አይደለም።",
+      "scope_note": "ጥያቄው ከክፍሉ ውጭ በመሄድ አስተናጋጁን ማስበለጥ አይጠይቅም።"
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "ስለ ሸረሪቱ ዘገባ ኢስናድ የቀረቡትን ሁለት ፍርዶች አንብብ። ይህ ንጽጽር በቀጥታ የሚደግፈው ውጤት ምንድን ነው?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "ኢብን ከሢር ኢስናዱን ሐሰን ይላል፣ የአር-ሪሳላ እትም አርታኢዎች ግን ደካማ ይሉታል፤ ፍርዱን ለተናገረው መጥቀስ ያስፈልጋል።",
+          "feedback": "የቀረቡት ሁለት የፍርድ አገላለጾች ገደብ ይህ ነው፤ ንጽጽሩ አንድ ወጥ ፍርድ አይሆንም።"
+        },
+        {
+          "option_id": "all",
+          "text": "ሁለቱ ጽሑፎች ሁሉም የዋሻው ዘገባዎች ሰሒሕ መሆናቸው ላይ ተስማምተዋል።",
+          "feedback": "በፍርዳቸው ይለያያሉ፣ ንግግራቸውም ሁሉንም የዋሻውን ዘገባዎች ሰሒሕ ማለት አይደለም።"
+        },
+        {
+          "option_id": "pigeons",
+          "text": "ኢብን ከሢር እዚህ ሐሰን ማለቱ፣ የሁለቱን ርግቦች የአስተላለፍ መንገዶች ሁሉ በገለልተኛ ሁኔታ ሰሒሕ ማለት ነው።",
+          "feedback": "አገላለጹ ስለ ሸረሪት ድር መሸመን ዘገባ ነው፤ ፍርዱን ለሁለቱ ርግቦች የአስተላለፍ መንገዶች ሁሉ ማሰፋት አያስችልም።"
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "የመጀመሪያው ጽሑፍ «ይህ ኢስናድ ሐሰን ነው» ይላል፣ የሸረሪቱንም ዘገባ ይገልጻል። ሁለተኛው ደግሞ «ኢስናዱ ደካማ ነው» ብሎ ይጀምራል። በቀረበው ፍርድ ያለው ተቃርኖ፣ የተናገረውንና የፍርዱን ወሰን መጠበቅ ይጠይቃል፣ ስምምነት መፍጠርን አይደለም።",
+      "scope_note": "ንጽጽሩ ሁለቱን ፍርዶች ለተናገሯቸው የተጠቀሱ አስተያየቶች እንደሆኑ ያቀርባል። ለግምገማው ኃላፊ የሆነው የጥቅሉ አዘጋጅ፣ መንገዶቹ ገለልተኛ መሆናቸውን መርምሯል ወይም ሰሒሕ መሆናቸውን አስበልጧል አይልም።"
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "በመጀመሪያው ጽሑፍ ነቢዩ ﷺ ዓሚርን እንዲጽፍ ያዛሉ፣ በሁለተኛው ግን አቡ በክርን ያዛሉ። በሁለቱ ክፍሎች ያለውን የሚጠብቀው የቱ የንጽጽር አቀራረብ ነው?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "በእያንዳንዱ ክፍል የተጠቀሰውን ጸሐፊ ለዘገባው ይጠቅሳል፣ ሁለቱን የሚያስማማ ነገር ሳይፈጥር።",
+          "feedback": "እያንዳንዱ ክፍል ጸሐፊ ይሰይማል፤ ሁለቱ ክፍሎች ሰነዱን አብረው ጻፉ አይሉም።"
+        },
+        {
+          "option_id": "together",
+          "text": "አንድ ሰነድ አብረው እንደጻፉ በእርግጥ ይወስናል።",
+          "feedback": "ይህ ሁለቱን ማስማማት በየትኛውም ክፍል በግልጽ አልተነገረም።"
+        },
+        {
+          "option_id": "erase",
+          "text": "ሁለቱ ዘገባዎች እንዲመሳሰሉ፣ በሁለተኛው ጽሑፍ የአቡ በክርን ስም በዓሚር ይተካል።",
+          "feedback": "ይህ ልዩነቱን ከማብራራት ይልቅ፣ የተላለፈውን ጽሑፍ ይቀይራል።"
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "ንጽጽሩ ዝርዝሩ እንደተላለፈው መለያየቱን በማረጋገጥ ይጀምራል። ብቻውን ጸሐፊውን ለማስበለጥ ወይም ሁለት ገለልተኛ የአስተላለፍ መንገዶች ለማረጋገጥ አይበቃም።",
+      "scope_note": "ይህ የቀረበውን ጽሑፍ ለማነጻጸር የሚደረግ ልምምድ ነው፣ የአስተላላፊዎችን ስሞች የማስታወስ ፈተና ወይም ሁለቱ ዘገባዎች ሰሒሕ መሆናቸውን መፍረድ አይደለም።"
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "ይህ ክፍል ሁለቱን አምባሮች ለሱራቃ ስለማልበስ ይዘግባል፣ ግን በዑመር ኢብን አል-ኸጣብና ወደእርሱ በደረሰው ንብረት ይጀምራል። ከማሳደዱ ታሪክ ጋር ሲጠቀሙበት ምን ገደብ ያስፈልጋል?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "አምባሮቹን ማልበስ በማሳደዱ ትዕይንት አይቀመጥም፤ እዚህ የተዘገበው ክስተት በዑመር ዘመን ነው።",
+          "feedback": "ዑመርና ከዒራቅ የመጣው ንብረት በዚህ ክፍል የክስተቱ ዐውድ ናቸው።"
+        },
+        {
+          "option_id": "same",
+          "text": "አምባሮቹን ማልበስ ሱራቃ በመንገድ ላይ ከነቢዩ ﷺ ጋር በተገናኘበት ቅጽበት ተከሰተ።",
+          "feedback": "ይህ ክስተቱን እዚህ ካልተጠቀሱ ወደ ሌላ ጊዜና ትዕይንት ያዛውረዋል።"
+        },
+        {
+          "option_id": "dated",
+          "text": "ክፍሉ ከዋሻው የመውጣት ቀን ይወስናል።",
+          "feedback": "የክፍሉ ርዕስ በዑመር ዘመን ያለው ንብረትና ሁለቱ አምባሮች ነው፣ ከዋሻው የመውጣት ቀን አይደለም።"
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "አንድ ሰው ከሁለቱ ታሪኮች ጋር መያያዙ፣ ሁለቱን ክስተቶች በአንድ ጊዜ አያደርጋቸውም። እዚህ መረጃው በዚህ ቦታ ካልተሰየሙ የዕውቀት ሰዎች ነው፤ ዐውዱን ማንበብ ሁሉንም ዘገባዎች ሰሒሕ ማለት አይደለም።",
+      "scope_note": "ከአንቀጹ በፊት ያለው ክፍል ሙሉ በሙሉ ይታያል። ይህ ማስታወሻ ዘገባውን ከተላለፈው የቁርአን አንቀጽ ጋር አይቀላቅልም፣ አሳዋቂዎቹም ታማኝ መሆናቸው ተረጋግጧል አይልም።"
+    }
+  ],
+  "translation_notes": {}
+}

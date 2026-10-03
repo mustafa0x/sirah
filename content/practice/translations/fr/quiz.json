@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "fr",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Selon le récit d’Aïcha présenté ici, qui apportait les nouvelles de ce que les gens tramaient contre le Prophète ﷺ et Abou Bakr pendant le séjour dans la grotte ?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Abd Allah ibn Abi Bakr",
+          "feedback": "Le récit mentionne qu’il retenait ce qu’il entendait, puis leur en apportait les nouvelles à la tombée de la nuit."
+        },
+        {
+          "option_id": "milk",
+          "text": "Amir ibn Fouhayra",
+          "feedback": "Le récit mentionne qu’il faisait paître les brebis et apportait du lait, non des nouvelles."
+        },
+        {
+          "option_id": "guide",
+          "text": "Le guide engagé",
+          "feedback": "Le guide fut engagé pour l’étape suivante ; ce passage ne lui attribue pas l’apport de nouvelles."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "L’aide se répartissait entre différents rôles : dans ce récit, la transmission des nouvelles revenait à Abd Allah ibn Abi Bakr.",
+      "scope_note": "La question porte sur le rôle indiqué dans le texte, non sur son chemin d’accès ni sur une heure précise exprimée selon nos usages actuels."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Quelle aide le récit attribue-t-il à Amir ibn Fouhayra près de la grotte ?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Faire paître les brebis et leur procurer du lait",
+          "feedback": "Le récit relie le pâturage des brebis au lait qu’elles procuraient chaque nuit."
+        },
+        {
+          "option_id": "boat",
+          "text": "Préparer un bateau pour le voyage",
+          "feedback": "Le récit ne mentionne aucun bateau parmi ses contributions."
+        },
+        {
+          "option_id": "news",
+          "text": "Recueillir les nouvelles des Qouraych dans leurs assemblées",
+          "feedback": "Le rôle de transmission des nouvelles est attribué à Abd Allah ibn Abi Bakr."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Amir ibn Fouhayra faisait paître des brebis laitières puis les ramenait auprès d’eux. Le récit mentionne le lait et la répétition de cette activité durant les trois nuits.",
+      "scope_note": "La question n’ajoute pas au texte l’affirmation selon laquelle il effaçait les traces de pas."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "Dans le récit d’Asma présenté ici, pourquoi a-t-elle partagé sa ceinture ?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "Pour attacher l’outre et les provisions, faute de trouver de quoi les attacher",
+          "feedback": "C’est le besoin qu’Asma mentionne ; elle décrit comment elle les attacha avec deux morceaux."
+        },
+        {
+          "option_id": "route",
+          "text": "Pour déterminer le chemin que prendrait le guide",
+          "feedback": "Le récit porte sur la préparation de l’outre et des provisions, non sur le choix de l’itinéraire."
+        },
+        {
+          "option_id": "letter",
+          "text": "Pour rédiger un document de protection pour Souraqa",
+          "feedback": "Le document de Souraqa ne figure pas dans le récit de la ceinture."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "Le texte décrit une solution pratique pendant les préparatifs : partager la ceinture pour utiliser les deux morceaux comme liens.",
+      "scope_note": "Il s’agit d’un récit de préparatifs ; la question n’en fait pas la preuve d’une livraison de nourriture à la grotte chaque nuit."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Quelle mission ressort du recours à un homme très habile à guider, puis de la mention de la route du littoral ?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Guider le groupe sur la route après le rendez-vous à la grotte",
+          "feedback": "Les deux passages relient son habileté à guider au fait d’accompagner le groupe sur la route du littoral."
+        },
+        {
+          "option_id": "build",
+          "text": "Construire la mosquée à Médine",
+          "feedback": "Les deux passages ne mentionnent pas la construction parmi les tâches du guide."
+        },
+        {
+          "option_id": "news",
+          "text": "Transmettre les nouvelles des Qouraych à la grotte chaque nuit",
+          "feedback": "Ce n’est pas la fonction attribuée au guide dans ces deux passages."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "Le recrutement du guide et le rendez-vous convenu relient l’étape de la grotte à la reprise du voyage ; l’habileté mentionnée concerne le guidage sur la route.",
+      "scope_note": "La question ne suppose ni des coordonnées ni un nom personnel absents de ces deux passages."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "Dans le récit de Souraqa présenté ici, que demanda-t-il lorsqu’il rencontra le Prophète ﷺ après avoir cessé la poursuite ?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "Qu’on lui rédige un écrit de protection",
+          "feedback": "Souraqa dit avoir demandé un écrit de protection ; l’ordre de le rédiger fut donné à Amir ibn Fouhayra."
+        },
+        {
+          "option_id": "reward",
+          "text": "Que le Prophète ﷺ lui remette la récompense promise par les Qouraych",
+          "feedback": "La récompense apparaît au début du récit comme une offre des Qouraych, non comme cette demande."
+        },
+        {
+          "option_id": "provisions",
+          "text": "Que le Prophète ﷺ lui fournisse de la nourriture et des biens",
+          "feedback": "C’est Souraqa qui leur proposa des provisions et des biens ; ils n’en prirent rien."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "Le récit distingue la récompense offerte par les Qouraych, les provisions proposées par Souraqa et sa demande d’un écrit de protection ; c’est Souraqa qui demanda cet écrit.",
+      "scope_note": "Le texte ne reproduit pas les termes du document rédigé."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Lisez les deux passages liés concernant le guide. Quelle proposition relie les préparatifs à la poursuite du voyage sans ajouter un détail absent du texte ?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "Ils lui confièrent les deux montures et lui donnèrent rendez-vous à la grotte de Thawr après trois nuits ; il partit ensuite avec eux",
+          "feedback": "Ce choix réunit les deux montures, le rendez-vous et le groupe tels qu’ils figurent dans les deux passages."
+        },
+        {
+          "option_id": "waiting",
+          "text": "Le guide resta avec eux dans la grotte pendant les trois nuits",
+          "feedback": "Le rendez-vous à la grotte ne prouve pas que le guide y passa les trois nuits."
+        },
+        {
+          "option_id": "water",
+          "text": "Ils voyagèrent en mer puisque le récit nomme la route du littoral",
+          "feedback": "La route du littoral décrit un itinéraire ; le texte ne mentionne pas de voyage en mer."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "La phrase « ils lui donnèrent rendez-vous », à la fin du premier passage, se poursuit dans le deuxième par le rendez-vous à la grotte. Le deuxième mentionne ensuite le départ d’Amir et du guide avec eux.",
+      "scope_note": "Les deux passages sont présentés dans leur ordre : ils appartiennent au même hadith, et ne sont pas deux témoignages indépendants."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Quel résumé préserve la différence entre les tâches attribuées à Asma et à Abd Allah ibn Abi Bakr dans les deux textes ?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Asma prépare de quoi attacher les provisions et l’outre ; Abd Allah apporte les nouvelles pendant le séjour dans la grotte",
+          "feedback": "Ce choix conserve l’action et l’étape attribuées à chacun."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Abd Allah partage sa ceinture pour servir de lien ; Asma recueille les nouvelles des Qouraych",
+          "feedback": "Ce choix inverse l’attribution des tâches dans les deux textes."
+        },
+        {
+          "option_id": "same",
+          "text": "Les deux textes décrivent la même tâche effectuée par la même personne",
+          "feedback": "Les personnes et leurs tâches sont différentes, même si toutes deux apportent une aide."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "La participation des membres de la famille à l’aide ne fait pas des récits des préparatifs et du séjour un seul récit ou un seul rôle.",
+      "scope_note": "La comparaison porte sur les deux passages présentés ; elle ne nie pas d’autres actions de ces personnes en dehors de ces textes."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "Le texte donne le nom « Abd Allah ibn Arqat (أرقط) », puis la formule « On dit aussi : Abd Allah ibn Ourayqit (أريقط) ». À qui attribue-t-il explicitement la deuxième formule ?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "Ibn Hicham",
+          "feedback": "Le texte distingue cette formule par la marque d’attribution « Ibn Hicham a dit »."
+        },
+        {
+          "option_id": "asma",
+          "text": "Asma bint Abi Bakr",
+          "feedback": "La mention d’Asma dans le récit précédent ne fait pas du commentaire d’Ibn Hicham une parole d’Asma."
+        },
+        {
+          "option_id": "guide",
+          "text": "Le guide parle de lui-même",
+          "feedback": "Le texte ne présente pas ici de propos du guide sur lui-même."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "La distinction entre le récit et le commentaire du transmetteur est conservée : « Ibn Hicham a dit » identifie l’auteur de la variante, sans corriger silencieusement l’un des noms.",
+      "scope_note": "Exercice facultatif de lecture des sources : mémoriser cette variation du nom n’est pas nécessaire pour comprendre le cours de base."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Quelle formulation résume les propos d’Ibn Ishaq sur l’hôte à Qouba tout en conservant sa réserve ?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "Il mentionne un séjour chez Koulthoum ibn Hidm, rapporte aussi un séjour chez Sa‘d ibn Khaythama, sans trancher entre les deux",
+          "feedback": "On trouve « selon ce qu’ils rapportent » et « on dit aussi », puis « Allah sait mieux » et « nous les avons toutes entendues »."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "Il affirme que tous les transmetteurs s’accordaient sur un seul hôte",
+          "feedback": "La mention d’un autre avis et la réserve exprimée empêchent de prétendre à un accord."
+        },
+        {
+          "option_id": "deny",
+          "text": "Il nie que le Prophète ﷺ ait logé chez l’un ou l’autre",
+          "feedback": "Présenter les deux avis ne revient pas à les nier tous les deux."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "Le résumé conserve la variante mentionnée et l’absence de certitude. L’explication concernant les rencontres dans la maison de Sa‘d est présentée comme le propos de ceux qui rapportent un séjour chez Koulthoum, non comme un verdict définitif posé par la question.",
+      "scope_note": "La question ne demande pas de choisir l’hôte à l’aide d’informations extérieures au passage."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Lisez les deux jugements présentés sur la chaîne de transmission du récit de l’araignée. Quelle conclusion cette comparaison permet-elle directement ?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "Ibn Kathir juge la chaîne hasan, tandis que les éditeurs scientifiques de l’édition ar-Risala la jugent faible ; il faut attribuer chaque jugement à son auteur",
+          "feedback": "Ce sont les limites des deux jugements présentés ; la comparaison ne les transforme pas en un verdict unique."
+        },
+        {
+          "option_id": "all",
+          "text": "Les deux textes s’accordent sur l’authenticité de tous les récits de la grotte",
+          "feedback": "Leurs jugements diffèrent, et leurs propos ne valident pas tous les récits de la grotte."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "Le jugement hasan d’Ibn Kathir ici valide indépendamment toutes les voies du récit des deux pigeons",
+          "feedback": "La formule porte sur le récit de la toile d’araignée ; elle ne permet pas d’étendre le jugement à toutes les voies du récit des deux pigeons."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "Le premier texte dit « C’est une chaîne hasan » et décrit le récit de l’araignée ; le deuxième commence par « Sa chaîne de transmission est faible ». La divergence des jugements présentés exige de conserver leur auteur et leur portée, non d’inventer un accord.",
+      "scope_note": "La comparaison présente les deux jugements comme des avis attribués. Elle ne prétend pas que le rédacteur responsable de la compilation a établi l’indépendance des voies ou privilégié leur authenticité."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "Dans le premier texte, le Prophète ﷺ ordonne à Amir d’écrire ; dans le deuxième, il en donne l’ordre à Abou Bakr. Quelle présentation préserve le contenu des deux passages ?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "Attribuer le scribe nommé dans chaque passage à son récit, sans inventer une conciliation",
+          "feedback": "Chaque passage nomme un scribe ; les deux ne disent pas qu’ils rédigèrent ensemble le document."
+        },
+        {
+          "option_id": "together",
+          "text": "Affirmer qu’ils rédigèrent ensemble un même document",
+          "feedback": "C’est une conciliation qu’aucun des deux passages n’énonce explicitement."
+        },
+        {
+          "option_id": "erase",
+          "text": "Remplacer le nom d’Abou Bakr par celui d’Amir dans le deuxième texte pour faire concorder les récits",
+          "feedback": "Cela modifie le texte transmis au lieu d’expliquer la divergence."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "La comparaison commence par constater la divergence du détail tel qu’il a été transmis ; elle ne suffit pas, à elle seule, à choisir le scribe ni à établir deux voies indépendantes.",
+      "scope_note": "Exercice de comparaison du texte présenté, non un test de mémorisation des noms des transmetteurs ou du jugement d’authenticité des deux récits."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "Ce passage raconte que l’on fit porter les deux bracelets à Souraqa, mais commence par Omar ibn al-Khattab et les biens qu’il reçut. Quelle réserve s’impose lorsqu’on l’utilise avec le récit de la poursuite ?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Ne pas placer la remise des bracelets dans la scène de la poursuite ; l’événement rapporté ici se situe à l’époque d’Omar",
+          "feedback": "Omar et les biens venus d’Irak constituent le contexte de l’événement dans ce passage."
+        },
+        {
+          "option_id": "same",
+          "text": "La remise des bracelets eut lieu au moment de la rencontre de Souraqa avec le Prophète ﷺ sur la route",
+          "feedback": "Cela déplace l’événement vers une époque et une scène autres que celles mentionnées ici."
+        },
+        {
+          "option_id": "dated",
+          "text": "Le passage donne la date du départ de la grotte",
+          "feedback": "Le passage porte sur les biens et les deux bracelets à l’époque d’Omar, non sur la date du départ de la grotte."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "Le lien d’une même personne avec les deux récits ne situe pas les deux événements à la même époque. L’information vient ici de savants qui ne sont pas nommés à cet endroit ; lire le contexte ne revient pas à authentifier tous les récits.",
+      "scope_note": "La partie précédant le verset est présentée intégralement ; cette note ne confond pas le récit et le verset cité et ne prétend pas établir la fiabilité des informateurs."
+    }
+  ],
+  "translation_notes": {}
+}

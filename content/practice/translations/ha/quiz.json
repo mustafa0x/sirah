@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "ha",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Bisa ruwayar A'isha da aka gabatar, wa yake kawo labarin abin da mutane suke shirya wa Annabi ﷺ da Abu Bakr lokacin zamansu a kogo?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Abdullah ɗan Abu Bakr",
+          "feedback": "Ruwayar ta ambaci cewa yana haddace abin da ya ji, sannan ya kawo musu labarinsa lokacin duhu."
+        },
+        {
+          "option_id": "milk",
+          "text": "Amir ɗan Fuhaira",
+          "feedback": "Ruwayar ta ambaci kiwon tumakinsa da kawo madara, ba kawo labarai ba."
+        },
+        {
+          "option_id": "guide",
+          "text": "Mai nuna hanyar da aka ɗauki hayarsa",
+          "feedback": "An ambaci neman taimakon mai nuna hanya domin tafiya ta gaba; wannan sashe bai danganta kawo labarai gare shi ba."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "An raba taimako tsakanin ayyuka mabambanta: a wannan ruwaya, isar da labarai aikin Abdullah ɗan Abu Bakr ne.",
+      "scope_note": "Tambayar game da aikin da ke cikin nassin ce, ba hanyar shigarsa ko wani takamaiman lokaci bisa agogon zamani ba."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Wane irin taimako ruwayar ta bayyana cewa Amir ɗan Fuhaira ya yi a wajen kogon?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Kiwon tumaki da samar musu da madara",
+          "feedback": "Ruwayar ta haɗa kiwon tumakinsa da madarar tumakin da aka ware a kowane dare."
+        },
+        {
+          "option_id": "boat",
+          "text": "Shirya jirgin ruwa domin tafiyar",
+          "feedback": "Ruwayar ba ta ambaci jirgin ruwa a cikin taimakonsa ba."
+        },
+        {
+          "option_id": "news",
+          "text": "Tattara labaran Ƙuraishawa a tarurrukansu",
+          "feedback": "Aikin da aka bayyana na isar da labarai na Abdullah ɗan Abu Bakr ne."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Amir ɗan Fuhaira yana kiwon tumakin madara, sannan ya komo da su gare su. Ruwayar ta ambaci madara da maimaita hakan a cikin dare ukun.",
+      "scope_note": "Tambayar ba ta ƙara da'awar goge sawun ƙafafu ga nassin ba."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "A labarin Asma da aka gabatar, me ya sa ta raba ɗamararta?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "Don ɗaure jakar ruwa da guzuri lokacin da ba ta sami abin ɗaure su ba",
+          "feedback": "Wannan ita ce buƙatar da Asma ta ambata; ta bayyana ɗaure su da yanki biyu."
+        },
+        {
+          "option_id": "route",
+          "text": "Don tantance hanyar da mai nuna hanya zai bi",
+          "feedback": "Labarin game da shirya jakar ruwa da guzuri ne, ba tantance hanyar tafiya ba."
+        },
+        {
+          "option_id": "letter",
+          "text": "Don rubuta takardar aminci ga Suraƙa",
+          "feedback": "Takardar Suraƙa ba ta zo a labarin ɗamara ba."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "Nassin ya bayyana wata mafita mai amfani lokacin shiri: raba ɗamara don amfani da yankunan biyu wajen ɗaurewa.",
+      "scope_note": "Wannan labarin shiri ne; tambayar ba ta mai da shi tabbacin kai abinci zuwa kogon a kowane dare ba."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Wane aiki neman taimakon mutumin da ya ƙware wajen nuna hanya, sannan ambaton hanyar bakin teku, suka bayyana?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Jagorantar abokan tafiya a hanya bayan alƙawarin haɗuwa a kogo",
+          "feedback": "Sassan biyu sun haɗa ƙwarewarsa wajen nuna hanya da tafiya tare da abokan tafiyar ta hanyar bakin teku."
+        },
+        {
+          "option_id": "build",
+          "text": "Gina masallaci a Madina",
+          "feedback": "Sassan biyu ba su ambaci gini a cikin aikin mai nuna hanya ba."
+        },
+        {
+          "option_id": "news",
+          "text": "Isar da labaran Ƙuraishawa zuwa kogon a kowane dare",
+          "feedback": "Ba wannan ba ne aikin da aka danganta ga mai nuna hanya a cikin sassan biyu."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "Shirya mai nuna hanya da alƙawarin haɗuwa da shi sun haɗa matakin kogon da ci gaba da tafiya; ƙwarewar da aka ambata ƙwarewar jagorantar hanya ce.",
+      "scope_note": "Tambayar ba ta ɗauka cewa akwai daidaitattun lambobin wuri ko sunan mutum da sassan nan biyu ba su ambata ba."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "A ruwayar Suraƙa da aka gabatar, me ya nema lokacin haɗuwarsa da Annabi ﷺ bayan ya daina bin sawunsa?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "A rubuta masa takardar aminci",
+          "feedback": "Suraƙa ya ce ya nemi takardar aminci daga gare shi, sai ya umarci Amir ɗan Fuhaira ya rubuta."
+        },
+        {
+          "option_id": "reward",
+          "text": "Annabi ﷺ ya ba shi ladan Ƙuraishawa",
+          "feedback": "Ladan ya zo a farkon ruwayar a matsayin tayin Ƙuraishawa, ba wannan buƙatar ba."
+        },
+        {
+          "option_id": "provisions",
+          "text": "Annabi ﷺ ya ba shi abinci da kayayyaki",
+          "feedback": "Suraƙa ne ya ba su biyun tayin guzuri da kayayyaki, amma ba su ɗauka daga gare shi ba."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "Labarin ya bambance tayin Ƙuraishawa na lada, tayin Suraƙa na guzuri, da nemansa na takardar aminci; wanda ya nemi takardar aminci shi ne Suraƙa.",
+      "scope_note": "Nassin bai kawo lafuzzan takardar da aka rubuta ba."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Karanta sassan biyu masu alaƙa game da mai nuna hanya. Wace magana ce ta haɗa shirin tafiya da ci gaba da tafiya ba tare da ƙara bayanin da ba a ambata ba?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "Sun amince masa da raƙuman hawa biyu, suka yi alƙawarin haɗuwa da shi a kogon Thawr bayan dare uku, sannan ya tafi tare da su",
+          "feedback": "Wannan zaɓin ya haɗa raƙuman hawa biyu, alƙawarin haɗuwa da abokan tafiya kamar yadda suka zo a sassan biyu."
+        },
+        {
+          "option_id": "waiting",
+          "text": "Mai nuna hanya ya zauna a cikin kogon tare da su a cikin dare ukun",
+          "feedback": "Alƙawarin haɗuwa a kogon ba ya tabbatar da cewa mai nuna hanya ya kwashe dare ukun a cikinsa."
+        },
+        {
+          "option_id": "water",
+          "text": "Sun yi tafiya a cikin teku saboda ruwayar ta kira hanyar hanyar bakin teku",
+          "feedback": "Hanyar bakin teku bayanin hanya ne; nassin bai ambaci tafiya a cikin teku ba."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "Maganar «suka yi alƙawari da shi» a ƙarshen sashe na farko tana cika da alƙawarin haɗuwa a kogon a sashe na biyu, sannan na biyun ya ambaci fitowar Amir da mai nuna hanya tare da su.",
+      "scope_note": "Ana gabatar da sassan biyu bisa jerinsu; ci gaban hadisi guda ne, ba shaidu biyu masu zaman kansu ba."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Wane taƙaitaccen bayani ne ya kiyaye bambancin aikin da aka bayyana na Asma da Abdullah ɗan Abu Bakr a nassosin biyu?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Asma tana shirya abin ɗaure guzuri da jakar ruwa; Abdullah kuma yana kawo labarai lokacin zama a kogo",
+          "feedback": "Wannan zaɓin ya kiyaye aikin da matakin da aka danganta ga kowannensu."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Abdullah yana raba ɗamararsa don ɗaurewa; Asma kuma tana tattara labaran Ƙuraishawa",
+          "feedback": "Wannan ya juya danganta ayyukan da ke cikin nassosin biyu."
+        },
+        {
+          "option_id": "same",
+          "text": "Nassosin biyu suna bayyana aiki guda ga mutum guda",
+          "feedback": "Mutanen biyu da ayyukan biyu sun bambanta, ko da yake sun yi tarayya wajen taimako."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "Haɗin kan 'yan iyali wajen taimako ba ya mai da labaran shirye-shirye da labaran zama labari guda ko aiki guda.",
+      "scope_note": "Kwatancin yana cikin sassan biyu da aka gabatar ne; ba kore duk wani aikin da suka yi a wajen waɗannan nassosin biyu ba."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "Nassin ya gabatar da sunan «Abdullah ɗan Arqaṭ (عبد الله بن أرقط)», sannan maganar «ana kuma cewa: Abdullah ɗan Uraiƙiṭ (عبد الله بن أريقط)». Ga wa nassin ya danganta magana ta biyu a fili?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "Ibn Hisham",
+          "feedback": "Nassin ya ware maganar da alamar faɗa «Ibn Hisham ya ce»."
+        },
+        {
+          "option_id": "asma",
+          "text": "Asma bint Abi Bakr",
+          "feedback": "Ambaton Asma a labarin da ya gabata ba ya mai da sharhin Ibn Hisham maganarta."
+        },
+        {
+          "option_id": "guide",
+          "text": "Mai nuna hanya yana magana game da kansa",
+          "feedback": "Nassin bai gabatar da magana daga mai nuna hanya game da kansa a nan ba."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "Yana kiyaye bambanci tsakanin labari da sharhin mai isar da shi: «Ibn Hisham ya ce» yana bayyana mai sigar sunan ta dabam, ba tare da gyara ɗaya daga sunayen a ɓoye ba.",
+      "scope_note": "Horon karanta tushe ne na zaɓi; haddace bambancin sunan ba sharadi ba ne na fahimtar darasi na asali."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Wace magana ce ta taƙaita abin da Ibn Is'haƙ ya faɗa game da mai masaukin Ƙuba, tare da kiyaye taka-tsantsansa?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "Ya ambaci sauka a wajen Kulthum ɗan Hidm, ya kawo maganar sauka a wajen Sa'd ɗan Khaithama, kuma bai yanke hukunci tsakaninsu ba",
+          "feedback": "An ga «bisa abin da suke ambata» da «ana kuma cewa», sannan «Allah ne mafi sani» da «duka mun ji su»."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "Ya tabbatar da cewa dukan masu ruwaito sun yi ittifaƙi a kan mai masauki guda",
+          "feedback": "Kawo maganar ta dabam da nuna taka-tsantsan suna hana da'awar ittifaƙi."
+        },
+        {
+          "option_id": "deny",
+          "text": "Ya musanta cewa Annabi ﷺ ya sauka a wajen ɗayansu",
+          "feedback": "Gabatar da maganganun biyu ba kore dukansu ba ne."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "Taƙaitaccen bayanin yana kiyaye madadin da aka ambata da rashin yanke hukunci. Bayanin zama a gidan Sa'd ya zo a matsayin maganar masu ambaton sauka a wajen Kulthum, ba hukuncin ƙarshe da tambayar ta bayar ba.",
+      "scope_note": "Tambayar ba ta nemi a fifita wani mai masauki daga wajen wannan sashe ba."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Karanta hukunce-hukuncen biyu da aka gabatar game da isnadin labarin gizo-gizo. Wane sakamako wannan kwatanci yake tallafawa kai tsaye?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "Ibn Kathir ya ɗauki isnadin a matsayin hasan, masu tahƙiƙin bugun ar-Risala kuma sun raunana shi; dole a danganta hukunci ga mai faɗinsa",
+          "feedback": "Waɗannan su ne iyakokin maganganun hukunci biyu da aka gabatar; kada a mai da kwatancin hukunci guda ɗaya."
+        },
+        {
+          "option_id": "all",
+          "text": "Nassosin biyu sun yi ittifaƙi a kan sahihancin dukan ruwayoyin kogon",
+          "feedback": "Sun saɓa a hukunci, kuma maganarsu ba tabbatar da sahihancin dukan ruwayoyin kogon ba ce."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "Ɗaukar Ibn Kathir ruwayar a matsayin hasan a nan, shi kansa tabbatarwa ce dabam ta sahihancin dukan hanyoyin ruwayar tattabarai biyu",
+          "feedback": "Maganar game da labarin saƙar gizo-gizo ce; ba ta halatta faɗaɗa hukuncin ga dukan hanyoyin ruwayar tattabarai biyu ba."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "Nassi na farko ya ce «wannan isnadi hasan ne», ya bayyana labarin gizo-gizo; na biyun kuma ya fara da «isnadinsa mai rauni ne». Saɓanin hukuncin da aka gabatar yana buƙatar kiyaye mai hukuncin da iyakarsa, ba ƙirƙirar ittifaƙi ba.",
+      "scope_note": "Kwatancin yana gabatar da hukunce-hukuncen biyu a matsayin maganganu biyu da aka danganta ga masu su; ba ya da'awar cewa editan kunshin da ke da alhakin bitar ya binciki zaman kansu na hanyoyin ruwaya ko ya fifita sahihancinsu."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "A nassi na farko Annabi ﷺ ya umarci Amir ya rubuta, a na biyun kuma ya umarci Abu Bakr. Wane gabatar da kwatanci ne zai kiyaye abin da ke cikin sassan biyu?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "A danganta marubucin da aka ambata a kowane sashe ga ruwayarsa, ba tare da ƙirƙirar hanyar haɗa su ba",
+          "feedback": "Kowane sashe ya ambaci marubuci; sassan biyu ba su ambaci cewa sun rubuta takardar tare ba."
+        },
+        {
+          "option_id": "together",
+          "text": "A tabbatar da cewa su biyun sun rubuta takarda guda tare",
+          "feedback": "Wannan haɗawa ce da babu ɗaya daga sassan biyu da ya bayyana ta a fili."
+        },
+        {
+          "option_id": "erase",
+          "text": "A maye sunan Abu Bakr a nassi na biyu da Amir don ruwayoyin su yi daidai",
+          "feedback": "Wannan yana canza abin da aka ruwaito maimakon bayyana bambancinsa."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "Kwatancin yana farawa da tabbatar da bambancin bayanin kamar yadda aka ruwaito shi. Shi kaɗai bai isa a fifita marubuci ko a tabbatar da hanyoyi biyu masu zaman kansu ba.",
+      "scope_note": "Horo ne na kwatanta nassin da aka gabatar, ba gwajin haddace sunayen masu ruwaito ko hukunci kan sahihancin ruwayoyin biyu ba."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "Wannan sashe ya ruwaito sanya wa Suraƙa mundaye biyu, amma ya fara da Umar ɗan Khattab da dukiyar da ta iso gare shi. Wane sharadi ya zama dole idan aka yi amfani da shi tare da labarin bin sawu?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Ba a saka sanya mundayen a yanayin bin sawu ba; abin da aka ruwaito a nan ya faru ne a zamanin Umar",
+          "feedback": "Umar da dukiyar da ta zo daga Iraƙi su ne mahallin abin da ya faru a wannan sashe."
+        },
+        {
+          "option_id": "same",
+          "text": "An sanya mundayen a lokacin haɗuwar Suraƙa da Annabi ﷺ a hanya",
+          "feedback": "Wannan yana mayar da abin da ya faru zuwa wani lokaci da yanayi dabam da waɗanda aka ambata a nan."
+        },
+        {
+          "option_id": "dated",
+          "text": "Sashen ya tantance ranar barin kogon",
+          "feedback": "Batun sashen shi ne dukiya da mundaye biyu a zamanin Umar, ba ranar barin kogon ba."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "Alaƙar mutum guda da labaran biyu ba ta mai da abubuwan biyu sun faru a lokaci guda ba. Bayanin a nan daga masu ilimi ne, ba a ambaci sunayensu a wannan wuri ba; karanta mahallin ba yana nufin tabbatar da sahihancin dukan labarai ba.",
+      "scope_note": "An nuna ɓangaren da ya gabaci ayar gaba ɗaya; wannan bayanin ba ya haɗa labarin da ayar da aka kawo, ko da'awar tantance amincin masu sanar da labarin."
+    }
+  ],
+  "translation_notes": {
+    "quiz:HQ-B03:tie:text_ar": "حفظ السقاء بوصفه وعاء ماء لا كوبًا؛ وفي فقرة الاستعداد حذف تعيين مادة الجراب غير المصرح بها في الشرح العربي.",
+    "quiz:HQ-B03:route:feedback_ar": "حفظ السقاء بوصفه وعاء ماء لا كوبًا؛ وفي فقرة الاستعداد حذف تعيين مادة الجراب غير المصرح بها في الشرح العربي.",
+    "quiz:HQ-I02:roles:text_ar": "حفظ السقاء بوصفه وعاء ماء لا كوبًا؛ وفي فقرة الاستعداد حذف تعيين مادة الجراب غير المصرح بها في الشرح العربي."
+  }
+}

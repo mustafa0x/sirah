@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "so",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Sida werinta Caa’isha ee la soo bandhigay sheegto, yaa keeni jiray warka waxa dadku u maleegayaan Nabiga ﷺ iyo Abuu Bakar intii ay godka joogeen?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Cabdullaah bin Abii Bakar",
+          "feedback": "Werintu waxay xustaa inuu xafidi jiray waxa uu maqlo, dabadeed warkiisa u keeni jiray marka mugdigu dego."
+        },
+        {
+          "option_id": "milk",
+          "text": "Caamir bin Fuhayra",
+          "feedback": "Werintu waxay xustaa adhiga uu daajinayey iyo caanaha uu keenayey, ee ma aha inuu wararka keenayey."
+        },
+        {
+          "option_id": "guide",
+          "text": "Hagihii la kiraystay",
+          "feedback": "Caawimada hagaha waxaa lagu xusay safarka xiga; qaybtani uma nisbaynayso keenidda wararka."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "Caawimadu waxay u qaybsanayd doorar kala duwan: gudbinta wararka waxaa werintan leh Cabdullaah bin Abii Bakar.",
+      "scope_note": "Su’aashu waxay ku saabsan tahay doorka qoraalka ku jira, ee ma aha waddadii uu ku soo geli jiray ama saacad casri ah oo cayiman."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Noocee caawimo ah ayay werintu ku tilmaamaysaa Caamir bin Fuhayra godka agtiisa?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Daajinta adhiga iyo u helidda caanaha labadooda",
+          "feedback": "Werintu waxay isku xidhaa daajintiisa adhiga iyo caanaha xoolaha la maalayey habeen kasta."
+        },
+        {
+          "option_id": "boat",
+          "text": "Diyaarinta doon safarka loogu talagalay",
+          "feedback": "Werintu kuma xusto doon caawimadiisa dhexdeeda."
+        },
+        {
+          "option_id": "news",
+          "text": "Ururinta wararka Quraysh fadhiyadooda",
+          "feedback": "Doorka gudbinta wararka ee la tilmaamay wuxuu ahaa kan Cabdullaah bin Abii Bakar."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Caamir bin Fuhayra wuxuu daajin jiray adhig caano laga maalayo, dabadeedna labadooda ayuu u keeni jiray. Werintu waxay xustaa caanaha iyo ku celcelinta taas saddexda habeen.",
+      "scope_note": "Su’aashu qoraalka kuma darayso sheegasho ah in raadadka cagaha la tirtiray."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "Warka Asmaa ee la soo bandhigay, maxay u kala jeexday suunkeeda?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "Si ay ugu xidho sibraarka iyo sahayda markii ay weyday wax ay ku xidho",
+          "feedback": "Tani waa baahida Asmaa xustay, waxayna tilmaamaysaa inay labada cad ku xidhay."
+        },
+        {
+          "option_id": "route",
+          "text": "Si ay u qeexdo waddada haguhu marayo",
+          "feedback": "Warku wuxuu ku saabsan yahay diyaarinta sibraarka iyo sahayda, ee ma aha qeexidda waddada."
+        },
+        {
+          "option_id": "letter",
+          "text": "Si ay u qorto dukumenti nabadgelyo oo Suraaqa ah",
+          "feedback": "Dukumentiga Suraaqa kuma jiro warka suunka."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "Qoraalku wuxuu tilmaamayaa xal wax ku ool ah intii la diyaar-garoobayey: kala jeexidda suunka si labada cad loogu adeegsado xidhidda.",
+      "scope_note": "Tani waa war diyaar-garow; su’aashu kama dhigayso caddayn cunto godka la gaadhsiiyey habeen kasta."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Hawsha noocee ah ayay caddaynayaan kaalmaysiga ninka hagista ku xeeldheer iyo xuska waddada xeebaha ee ku xiga?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Hagidda kooxda waddada ka dib ballanta godka",
+          "feedback": "Labada qaybood waxay isku xidhaan xirfaddiisa hagista iyo kaxaynta kooxda waddada xeebaha."
+        },
+        {
+          "option_id": "build",
+          "text": "Dhismaha masaajidka Madiina",
+          "feedback": "Labada qaybood dhismaha kuma xusaan shaqada hagaha."
+        },
+        {
+          "option_id": "news",
+          "text": "Gudbinta wararka Quraysh ee godka habeen kasta",
+          "feedback": "Tani ma aha shaqada hagaha loogu nisbeeyey labada qaybood."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "Diyaarinta hagaha iyo ballantiisu waxay isku xidhaan marxaladda godka iyo dib u bilaabidda socodka; xirfadda la xusay waa xirfadda hagista waddada.",
+      "scope_note": "Su’aashu ma sii qaadanayso isku-duwayaal ama magac qofeed aan labadaas qaybood xusin."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "Werinta Suraaqa ee la soo bandhigay, muxuu dalbaday markii uu la kulmay Nabiga ﷺ ka dib markuu baacsiga joojiyey?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "In loo qoro qoraal nabadgelyo",
+          "feedback": "Suraaqa wuxuu sheegay inuu ka codsaday qoraal nabadgelyo, markaasna la amray Caamir bin Fuhayra inuu qoro."
+        },
+        {
+          "option_id": "reward",
+          "text": "In Nabiga ﷺ siiyo abaalmarintii Quraysh",
+          "feedback": "Abaalmarintu waxay bilowga werinta ku timid iyadoo ah wax Quraysh soo bandhigtay, ee ma aha codsigan."
+        },
+        {
+          "option_id": "provisions",
+          "text": "In Nabiga ﷺ siiyo cunto iyo alaab",
+          "feedback": "Suraaqa ayaa ah kii labadooda u soo bandhigay sahayda iyo alaabta, waxbana kama qaadan."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "Warku wuxuu kala saarayaa abaalmarinta Quraysh soo bandhigtay, sahayda Suraaqa soo bandhigay iyo codsigiisa qoraal nabadgelyo; qofka qoraalka nabadgelyada dalbaday waa Suraaqa.",
+      "scope_note": "Qoraalku ma soo xigto erayada dukumentiga la qoray."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Akhri labada qaybood ee isku xidhan ee hagaha ku saabsan. Weedhee ayaa diyaar-garowga ku xidha sii wadidda safarka iyadoo aan lagu darin faahfaahin aan la xusin?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "Waxay ku aamineen labada neef ee safarka, godka Thawr ayayna kula ballameen saddex habeen ka dib, dabadeedna wuu la baxay",
+          "feedback": "Doorashadani waxay isku soo ururinaysaa labada neef, ballanta iyo kooxda sidii ay labada qaybood ku yimaadeen."
+        },
+        {
+          "option_id": "waiting",
+          "text": "Haguhu wuxuu kula jiray gudaha godka saddexda habeen",
+          "feedback": "Ballanta godka agtiisu ma caddaynayso in haguhu saddexda habeen halkaas ku qaatay."
+        },
+        {
+          "option_id": "water",
+          "text": "Badda ayay ku safreen, sababta oo ah werintu waxay magacawday waddada xeebaha",
+          "feedback": "Waddada xeebuhu waa tilmaanta waddada; qoraalku ma xusayo safar badda ah."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "Weedha «wayna la ballameen» ee dhammaadka qaybta koowaad waxaa dhammaystiraya ballanta godka ee tan labaad. Dabadeed tan labaad waxay xustaa bixitaankii Caamir iyo hagaha oo la socda iyaga.",
+      "scope_note": "Labada qaybood waxaa loo soo bandhigay sida ay isugu xigaan; waxay sii wadayaan isla xadiiskii, mana aha laba markhaati oo madax bannaan."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Soo koobiddee ayaa ilaalinaysa kala duwanaanshaha hawsha Asmaa iyo Cabdullaah bin Abii Bakar loogu tilmaamay labada qoraal?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Asmaa waxay diyaarinaysaa wax lagu xidho sahayda iyo sibraarka; Cabdullaahna wararka ayuu keenaa inta godka la joogo",
+          "feedback": "Doorashadani waxay ilaalinaysaa falka iyo marxaladda mid kasta loo nisbeeyey."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Cabdullaah wuxuu kala jeexayaa suunkiisa si wax loogu xidho; Asmaa waxay ururinaysaa wararka Quraysh",
+          "feedback": "Tani waxay isweydaarsiinaysaa hawlaha labada qoraal loo nisbeeyey."
+        },
+        {
+          "option_id": "same",
+          "text": "Labada qoraal waxay tilmaamayaan isla hawshii oo isla qofku qabtay",
+          "feedback": "Labada qof iyo labada hawlood way kala duwan yihiin, inkastoo ay caawimada wadaagaan."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "Ka qaybqaadashada xubnaha qoyska ee caawimadu kama dhigayso wararka diyaar-garowga iyo wararka joogitaanka hal war ama hal door.",
+      "scope_note": "Isbarbardhiggu wuxuu ku kooban yahay labada qaybood ee la soo bandhigay, mana diidayo hawl kasta oo kale oo ay qabteen oo ka baxsan labadan qoraal."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "Qoraalku wuxuu soo bandhigayaa magaca «Cabdullaah bin Arqad (أرقط)», dabadeed weedha «waxaa kaloo la yidhaahdaa: Cabdullaah bin Urayqid (أريقط)». Yuu qoraalku weedha labaad si cad ugu nisbeeyaa?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "Ibnu Hishaam",
+          "feedback": "Qoraalku wuxuu weedha ku kala saarayaa calaamadda hadalka «Ibnu Hishaam wuxuu yidhi»."
+        },
+        {
+          "option_id": "asma",
+          "text": "Asmaa bint Abii Bakar",
+          "feedback": "Xuska Asmaa ee warkii hore kama dhigayo faallada Ibnu Hishaam hadal ay iyadu tidhi."
+        },
+        {
+          "option_id": "guide",
+          "text": "Hagaha oo naftiisa ka hadlaya",
+          "feedback": "Qoraalku halkan kuma soo bandhigayo hadal haguhu naftiisa ka sheegayo."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "Kala saariddu waxay ilaalisaa warka iyo faallada soo weriyaha: «Ibnu Hishaam wuxuu yidhi» waxay qeexaysaa cidda leh qaabka kale, iyadoo aan midkood magaca si qarsoodi ah loo sixin.",
+      "scope_note": "Layli ikhtiyaari ah oo akhriska isha ah; xafididda kala duwanaanshaha magacu shuruud uma aha fahamka casharka aasaasiga ah."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Qaabkee ayaa soo koobaya hadalka Ibnu Isxaaq ee martigeliyaha Qubaa, iyadoo taxaddarkiisu sii jiro?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "Wuxuu xusaa degitaanka Kulthuum bin Hidm agtiisa, wuxuuna soo qaataa hadalka ah in la degay Sacd bin Khaythama agtiisa, mana kala go’aamiyo labadooda",
+          "feedback": "Waxaa muuqda «sida ay sheegaan», «waxaa la yidhaahdaa», dabadeed «Alle ayaa og» iyo «labadaba waan maqalnay»."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "Wuxuu si go’an u sheegayaa in dhammaan weriyeyaashu isku raaceen hal martigeliye",
+          "feedback": "Soo qaadidda hadalka kale iyo taxaddarku waxay reebayaan sheegashada heshiis guud."
+        },
+        {
+          "option_id": "deny",
+          "text": "Wuxuu diidayaa in Nabiga ﷺ u degay midkood",
+          "feedback": "Soo bandhigidda labada aragti ma aha diididda labadoodaba."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "Soo koobiddu waxay ilaalinaysaa beddelka la xusay iyo go’aan-la’aanta; sharaxaadda fadhiisashada guriga Sacd waxay timid iyadoo ah hadalka kuwa xusaya degitaanka Kulthuum agtiisa, ee ma aha xukun kama dambays ah oo su’aashu bixisay.",
+      "scope_note": "Su’aashu ma dalbanayso in martigeliyaha laga doorbido xog ka baxsan qaybta."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Akhri labada xukun ee la soo bandhigay ee silsiladda warka caarada ku saabsan. Natiijadee ayuu isbarbardhiggani si toos ah u taageerayaa?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "Ibnu Kathiir wuxuu silsiladda ku darajeeyaa xasan, baarayaasha daabacaadda ar-Risaalana way daciifiyaan; waa in xukunka loo nisbeeyo cidda sheegtay",
+          "feedback": "Kuwani waa xuduudaha labada weedhood ee xukunka la soo bandhigay; isbarbardhiggu ma abuuro hal xukun oo la isku raacsan yahay."
+        },
+        {
+          "option_id": "all",
+          "text": "Labada qoraal waxay isku raaceen saxiixnimada dhammaan werinnada godka",
+          "feedback": "Xukunka way ku kala duwan yihiin, hadalkooduna ma aha saxiix ka dhigista dhammaan werinnada godka."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "Xasan ka dhigista Ibnu Kathiir ee halkan waa saxiixayn madax bannaan oo dhammaan waddooyinka warka labada qoolley",
+          "feedback": "Weedhu waxay ku saabsan tahay warka caaradu shabagga toshayso; ma oggola in xukunka lagu guud mariyo dhammaan waddooyinka warka labada qoolley."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "Qoraalka koowaad wuxuu leeyahay «Tani waa silsilad xasan ah», wuxuuna tilmaamayaa warka caarada; kan labaadna wuxuu ku bilaabmaa «Silsiladdiisu waa daciif». Iskahorimaadka xukunka la soo bandhigay wuxuu u baahan yahay in la ilaaliyo cidda leh iyo xadka uu khuseeyo, ee ma aha in la hindiso heshiis.",
+      "scope_note": "Isbarbardhiggu wuxuu labada xukun u soo bandhigayaa laba hadal oo cidda leh loo nisbeeyey; ma sheeganayo in tifaftiraha masuulka ahi xaqiijiyey madaxbannaanida waddooyinka werinta ama doorbiday saxiixnimadooda."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "Qoraalka koowaad Nabiga ﷺ wuxuu Caamir ku amrayaa qorista, kan labaadna Abuu Bakar. Soo bandhigiddee isbarbardhigga ah ayaa ilaalinaysa waxa labada qaybood ku jira?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "Qoraaga lagu magacaabay qayb kasta waxaa loo nisbeeyaa werintiisa, iyadoo aan la hindisin isu-waafajin labadooda",
+          "feedback": "Qayb kasta waxay magacawdaa qoraa; labada qaybood ma sheegayaan inay dukumentiga wada qoreen."
+        },
+        {
+          "option_id": "together",
+          "text": "Waxaa si go’an loo sheegayaa inay hal dukumenti wada qoreen",
+          "feedback": "Tani waa isu-waafajin aan labada qaybood midkoodna si cad u sheegin."
+        },
+        {
+          "option_id": "erase",
+          "text": "Magaca Abuu Bakar ee qoraalka labaad ayaa lagu beddelaa Caamir si labada werin isugu ekaadaan",
+          "feedback": "Tani waxay beddelaysaa waxa la soo weriyey halkii ay ka sharxi lahayd kala duwanaanshaha."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "Isbarbardhiggu wuxuu ka bilaabmaa xaqiijinta kala duwanaanshaha faahfaahinta sidii loo soo weriyey; keligiis kuma filna doorbididda qoraaga ama caddaynta laba waddo oo werin oo madax bannaan.",
+      "scope_note": "Layli isbarbardhigga qoraalka la keenay, ee ma aha imtixaan xafididda magacyada soo weriyeyaasha ama xukunka saxiixnimada labada werin."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "Qaybtani waxay werinaysaa gelinta Suraaqa labada jijimood, balse waxay ku bilaabmaysaa Cumar bin al-Khaddaab iyo maalkii u soo gaadhay. Xaddidaaddee ayaa loo baahan yahay marka lala adeegsanayo sheekada baacsiga?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Gelinta jijimaha lama geliyo muuqaalka baacsiga; dhacdada halkan lagu soo weriyey waxay ahayd xilligii Cumar",
+          "feedback": "Cumar iyo maalka Ciraaq ka yimid ayaa ah macnaha guud ee dhacdada qaybtan."
+        },
+        {
+          "option_id": "same",
+          "text": "Gelinta jijimuhu waxay dhacday isla markii Suraaqa waddada kula kulmay Nabiga ﷺ",
+          "feedback": "Tani waxay dhacdada u wareejinaysaa waqti iyo muuqaal aan halkan lagu xusin."
+        },
+        {
+          "option_id": "dated",
+          "text": "Qaybtu waxay qeexaysaa taariikhda ka bixitaanka godka",
+          "feedback": "Mawduuca qaybtu waa maalka iyo labada jijimood xilligii Cumar, ee ma aha taariikhda ka bixitaanka godka."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "Xidhiidhka isla qofka ee labada sheeko kama dhigayso labada dhacdo kuwo isku waqti ah. Warka halkan waxaa laga soo xigtay dadka cilmiga leh iyadoo aan magacyadooda halkan lagu sheegin; akhriska macnaha guud ma aha saxiix ka dhigista dhammaan wararka.",
+      "scope_note": "Qaybta aayadda ka horraysa waxaa loo soo bandhigay si buuxda; faalladani iskuma qasayso warka iyo aayadda la soo weriyey, mana sheeganayso inay xaqiijisay kalsoonida war-bixiyeyaasha."
+    }
+  ],
+  "translation_notes": {}
+}

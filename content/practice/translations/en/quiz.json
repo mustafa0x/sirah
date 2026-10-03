@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "en",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "According to Aisha's account presented here, who brought news of what people were plotting against the Prophet ﷺ and Abu Bakr during their stay in the cave?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Abd Allah ibn Abi Bakr",
+          "feedback": "The account says that he remembered what he heard and then brought them news of it after dark."
+        },
+        {
+          "option_id": "milk",
+          "text": "Amir ibn Fuhayrah",
+          "feedback": "The account mentions his tending the sheep and bringing milk, not bringing news."
+        },
+        {
+          "option_id": "guide",
+          "text": "The hired guide",
+          "feedback": "The guide's help is mentioned for the next journey; this passage does not attribute bringing news to him."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "Help was divided among different roles: in this account, conveying news was Abd Allah ibn Abi Bakr's role.",
+      "scope_note": "The question concerns his role in the text, not the route by which he entered or a specified time on a modern clock."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "What kind of help does the account describe Amir ibn Fuhayrah providing at the cave?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Tending the sheep and making milk available to the two",
+          "feedback": "The account connects his tending the sheep with milk provided from sheep each night."
+        },
+        {
+          "option_id": "boat",
+          "text": "Preparing a ship for the journey",
+          "feedback": "The account does not mention a ship as part of his help."
+        },
+        {
+          "option_id": "news",
+          "text": "Gathering news of Quraysh in their assemblies",
+          "feedback": "The role described in conveying news belongs to Abd Allah ibn Abi Bakr."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Amir ibn Fuhayrah tended milking sheep and then brought them to the two. The account mentions milk and repeating this on the three nights.",
+      "scope_note": "The question does not add to the text a claim about erasing footprints."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "In Asma's account presented here, why did she split her waistband?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "To tie the waterskin and provisions when she could find nothing to tie them with",
+          "feedback": "This is the need Asma mentions, and she describes tying them with two pieces."
+        },
+        {
+          "option_id": "route",
+          "text": "To determine the route the guide would take",
+          "feedback": "The account concerns preparing the waterskin and provisions, not determining the route."
+        },
+        {
+          "option_id": "letter",
+          "text": "To write a document of safety for Suraqa",
+          "feedback": "Suraqa's document does not appear in the waistband account."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "The text describes a practical solution during preparations: splitting the waistband to use the two pieces for tying.",
+      "scope_note": "This is a preparations account; the question does not turn it into proof that food was delivered to the cave every night."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "What task is illustrated by hiring the man skilled in guiding and then mentioning the coastal route?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Leading the travelers along the route after the cave rendezvous",
+          "feedback": "The two passages connect his skill in guiding with taking the travelers along the coastal route."
+        },
+        {
+          "option_id": "build",
+          "text": "Building the mosque in Madinah",
+          "feedback": "The two passages do not mention construction as part of the guide's job."
+        },
+        {
+          "option_id": "news",
+          "text": "Conveying news of Quraysh to the cave every night",
+          "feedback": "This is not the task attributed to the guide in the two passages."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "Arranging for the guide and the rendezvous connects the cave stage to resuming the journey; the skill mentioned is route guidance.",
+      "scope_note": "The question does not assume coordinates or a personal name not mentioned in these two passages."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "In Suraqa's account presented here, what did he request when he met the Prophet ﷺ after stopping his pursuit?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "That a document of safety be written for him",
+          "feedback": "Suraqa says that he asked him for a document of safety, and he instructed Amir ibn Fuhayrah to write it."
+        },
+        {
+          "option_id": "reward",
+          "text": "That the Prophet ﷺ give him Quraysh's reward",
+          "feedback": "The reward appears at the beginning of the account as an offer from Quraysh, not as this request."
+        },
+        {
+          "option_id": "provisions",
+          "text": "That the Prophet ﷺ provide him with food and supplies",
+          "feedback": "Suraqa was the one who offered the two provisions and supplies, and they took nothing from him."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "The account distinguishes Quraysh's offer of a reward, Suraqa's offer of provisions, and his request for a document of safety. Suraqa was the one who requested the document of safety.",
+      "scope_note": "The text does not provide the wording of the written document."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Read the two connected passages about the guide. Which statement connects the preparations with continuing the journey without adding an unmentioned detail?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "They entrusted him with the two riding camels and arranged to meet him at the Cave of Thawr after three nights; he then set out with them",
+          "feedback": "This choice brings together the two riding camels, the rendezvous, and the traveling party as stated in the two passages."
+        },
+        {
+          "option_id": "waiting",
+          "text": "The guide stayed inside the cave with them during the three nights",
+          "feedback": "The rendezvous at the cave does not establish that the guide spent the three nights in it."
+        },
+        {
+          "option_id": "water",
+          "text": "They traveled by sea because the account names the coastal route",
+          "feedback": "The coastal route describes the road; the text does not mention traveling by sea."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "The phrase 'and arranged to meet him' at the end of the first passage is completed by the cave rendezvous in the second. The second then mentions Amir and the guide setting out with them.",
+      "scope_note": "The passages are presented in their order; they are a continuation of the same hadith, not two independent supporting reports."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Which summary preserves the difference between the work described for Asma and Abd Allah ibn Abi Bakr in the two texts?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Asma prepares a means of tying the provisions and waterskin; Abd Allah brings news during the stay in the cave",
+          "feedback": "This choice preserves the action and stage attributed to each."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Abd Allah splits his waistband for tying; Asma gathers news of Quraysh",
+          "feedback": "This reverses the attribution of the work in the two texts."
+        },
+        {
+          "option_id": "same",
+          "text": "The two texts describe the same work by the same person",
+          "feedback": "The two people and the two tasks are different, even though both provided help."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "Members of the family sharing in the help does not make the preparations accounts and the cave-stay accounts one report or one role.",
+      "scope_note": "The comparison concerns the two passages presented, not a denial of all their other work outside these texts."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "The text presents the name “Abd Allah ibn Arqat (أرقط),” then the phrase “It is also said: Abd Allah ibn Urayqit (أريقط).” To whom does the text explicitly attribute the second phrase?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "Ibn Hisham",
+          "feedback": "The text separates the phrase with the attribution 'Ibn Hisham said.'"
+        },
+        {
+          "option_id": "asma",
+          "text": "Asma bint Abi Bakr",
+          "feedback": "Asma's mention in the preceding account does not make Ibn Hisham's comment her statement."
+        },
+        {
+          "option_id": "guide",
+          "text": "The guide speaking about himself",
+          "feedback": "The text does not present the guide speaking about himself here."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "Separating the account from the transmitter's comment preserves their distinction: 'Ibn Hisham said' identifies the speaker of the alternative form without silently correcting either name.",
+      "scope_note": "Optional source-reading practice; memorizing the name variation is not a prerequisite for understanding the basic lesson."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Which wording summarizes Ibn Ishaq's discussion of the host in Quba while retaining his qualification?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "He mentions staying with Kulthum ibn Hidm and includes the view that he stayed with Sad ibn Khaythamah, without deciding between them",
+          "feedback": "The phrases 'according to what they relate,' 'it is said,' then 'Allah knows best' and 'we have heard both' appear."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "He states decisively that all narrators agreed on one host",
+          "feedback": "Including the other view and the qualification rules out claiming agreement."
+        },
+        {
+          "option_id": "deny",
+          "text": "He denies that the Prophet ﷺ stayed with either of them",
+          "feedback": "Presenting both views is not a denial of both."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "The summary preserves the stated alternative and the lack of a definitive conclusion. The explanation about sitting in Sad's house is presented as the view of those who say he stayed with Kulthum, not as a final judgment made by the question.",
+      "scope_note": "The question does not ask you to choose the likelier host from outside the passage."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Read the two judgments presented about the chain of transmission of the spider report. What conclusion does this comparison directly support?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "Ibn Kathir grades the chain as hasan, while the editors of the al-Risalah edition grade it as weak; the judgment must be attributed to its speaker",
+          "feedback": "These are the limits of the two judgment statements presented; the comparison does not turn them into a single judgment."
+        },
+        {
+          "option_id": "all",
+          "text": "The two texts agree that all cave accounts are sound",
+          "feedback": "They differ in their judgment, and their words do not authenticate all cave accounts."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "Ibn Kathir's hasan grading here independently authenticates all routes of the two-pigeon report",
+          "feedback": "The statement concerns the spider-weaving report; it does not justify extending the judgment to all routes of the two-pigeon report."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "The first text says 'This is a hasan chain of transmission' and describes the spider report; the second begins 'Its chain of transmission is weak.' The disagreement in the judgment presented requires retaining its speaker and scope, not inventing agreement.",
+      "scope_note": "The comparison presents the judgments as two attributed statements. It does not claim that the packet’s editor has investigated the independence of the transmission routes or decided in favor of their authenticity."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "In the first text, the Prophet ﷺ instructs Amir to write; in the second, he instructs Abu Bakr. Which presentation of the comparison preserves what is in the two passages?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "Attribute the writer named in each passage to its account, without inventing a reconciliation",
+          "feedback": "Each passage names a writer; the two passages do not say that they wrote the document together."
+        },
+        {
+          "option_id": "together",
+          "text": "State decisively that they wrote one document together",
+          "feedback": "This reconciliation is not explicitly stated in either passage."
+        },
+        {
+          "option_id": "erase",
+          "text": "Replace Abu Bakr's name in the second text with Amir's so the accounts match",
+          "feedback": "This changes the transmitted text rather than explaining the difference."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "The comparison begins by establishing the difference in the detail as transmitted. It alone is insufficient to prefer one writer or establish two independent routes.",
+      "scope_note": "Practice in comparing the text provided, not a test of memorizing transmitters' names or judging the authenticity of the two accounts."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "This passage relates Suraqa being given the two bracelets to wear, but it begins with Umar ibn al-Khattab and the wealth brought to him. What qualification is required when using it alongside the pursuit story?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Do not place the putting on of the bracelets in the pursuit scene; the event related here is in Umar's time",
+          "feedback": "Umar and the wealth arriving from Iraq are the context of the event in this passage."
+        },
+        {
+          "option_id": "same",
+          "text": "The bracelets were put on at the moment Suraqa met the Prophet ﷺ on the road",
+          "feedback": "This moves the event to a time and scene other than those mentioned here."
+        },
+        {
+          "option_id": "dated",
+          "text": "The passage specifies the date of departure from the cave",
+          "feedback": "The passage concerns the wealth and the two bracelets in Umar's time, not the date of departure from the cave."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "The same person's connection to both stories does not place the two events at the same time. The information here comes from people of learning without naming them at this point; reading the context does not mean authenticating all the reports.",
+      "scope_note": "The portion preceding the verse is shown in full; this note neither confuses the report with the quoted verse nor claims to establish the informants' reliability."
+    }
+  ],
+  "translation_notes": {
+    "quiz:HQ-B02:milk:feedback_ar": "اختير وصف اللبن من الغنم دون إضافة عدد محدد أو لفظ يوهم حجم مجموعة معلومة.",
+    "quiz:HQ-E01:scope_note_ar": "المسؤول هنا محرر الحزمة، لا المتعلم الذي يجيب؛ أعيد مرجع النسبة دون تغيير الجواب أو المصدر."
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "ms",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Menurut riwayat Aisyah yang dipaparkan, siapakah yang membawa berita tentang rancangan orang ramai terhadap Nabi ﷺ dan Abu Bakr ketika mereka tinggal di gua?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Abdullah bin Abi Bakr",
+          "feedback": "Riwayat itu menyebut bahawa dia mengingati apa yang didengarnya, kemudian membawa beritanya kepada mereka berdua apabila malam gelap."
+        },
+        {
+          "option_id": "milk",
+          "text": "Amir bin Fuhairah",
+          "feedback": "Riwayat itu menyebut dia menggembala ternakan dan membawa susu, bukan membawa berita."
+        },
+        {
+          "option_id": "guide",
+          "text": "Penunjuk jalan yang diupah",
+          "feedback": "Khidmat penunjuk jalan disebut untuk perjalanan berikutnya; petikan ini tidak menisbahkan penyampaian berita kepadanya."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "Bantuan dibahagikan kepada peranan yang berbeza: dalam riwayat ini, penyampaian berita dilakukan oleh Abdullah bin Abi Bakr.",
+      "scope_note": "Soalan ini tentang peranan dalam teks, bukan laluan masuknya atau waktu tertentu menurut jam moden."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Apakah jenis bantuan Amir bin Fuhairah di gua yang dihuraikan oleh riwayat itu?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Menggembala ternakan dan menyediakan susu untuk mereka berdua",
+          "feedback": "Riwayat itu menghubungkan penggembalaan ternakan olehnya dengan susu ternakan yang diberikan setiap malam."
+        },
+        {
+          "option_id": "boat",
+          "text": "Menyediakan kapal untuk perjalanan",
+          "feedback": "Riwayat itu tidak menyebut kapal sebagai sebahagian bantuannya."
+        },
+        {
+          "option_id": "news",
+          "text": "Mengumpulkan berita Quraisy dalam perhimpunan mereka",
+          "feedback": "Peranan penyampaian berita yang dihuraikan adalah milik Abdullah bin Abi Bakr."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Amir bin Fuhairah menggembala ternakan yang susunya diberikan kepada mereka, kemudian membawanya kepada mereka berdua. Riwayat itu menyebut susu dan pengulangan perkara itu selama tiga malam.",
+      "scope_note": "Soalan ini tidak menambahkan dakwaan penghapusan jejak kaki kepada teks."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "Dalam riwayat Asma yang dipaparkan, mengapakah dia membelah ikat pinggangnya?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "Untuk mengikat bekas air dan bekal makanan apabila tidak menemukan sesuatu untuk mengikatnya",
+          "feedback": "Inilah keperluan yang Asma sebutkan; dia menghuraikan pengikatan kedua-duanya dengan dua potongan."
+        },
+        {
+          "option_id": "route",
+          "text": "Untuk menentukan laluan yang akan dilalui penunjuk jalan",
+          "feedback": "Riwayat itu tentang penyediaan bekas air dan bekal makanan, bukan penentuan laluan."
+        },
+        {
+          "option_id": "letter",
+          "text": "Untuk menulis surat jaminan keselamatan bagi Suraqah",
+          "feedback": "Surat Suraqah tidak disebut dalam riwayat ikat pinggang."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "Teks menghuraikan penyelesaian praktikal semasa persiapan: membelah ikat pinggang supaya dua potongannya dapat digunakan untuk mengikat.",
+      "scope_note": "Ini riwayat persiapan; soalan ini tidak mengubahnya menjadi bukti penghantaran makanan ke gua setiap malam."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Apakah tugas yang dijelaskan oleh pengambilan khidmat lelaki yang mahir menunjukkan jalan, kemudian penyebutan jalan pesisir?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Memimpin rombongan dalam perjalanan selepas janji temu di gua",
+          "feedback": "Kedua-dua petikan menghubungkan kemahirannya menunjukkan jalan dengan membawa rombongan melalui jalan pesisir."
+        },
+        {
+          "option_id": "build",
+          "text": "Membina masjid di Madinah",
+          "feedback": "Kedua-dua petikan tidak menyebut pembinaan sebagai tugas penunjuk jalan."
+        },
+        {
+          "option_id": "news",
+          "text": "Menyampaikan berita Quraisy ke gua setiap malam",
+          "feedback": "Ini bukan tugas yang dinisbahkan kepada penunjuk jalan dalam kedua-dua petikan."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "Persiapan khidmat penunjuk jalan dan janji temunya menghubungkan tahap di gua dengan penyambungan perjalanan; kemahiran yang disebut ialah kemahiran memimpin perjalanan.",
+      "scope_note": "Soalan ini tidak mengandaikan koordinat atau nama peribadi yang tidak disebut dalam kedua-dua petikan ini."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "Dalam riwayat Suraqah yang dipaparkan, apakah yang dimintanya ketika menemui Nabi ﷺ setelah berhenti mengejar?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "Supaya baginda menuliskan surat jaminan keselamatan untuknya",
+          "feedback": "Suraqah mengatakan bahawa dia meminta surat jaminan keselamatan daripada baginda, lalu baginda menyuruh Amir bin Fuhairah menulisnya."
+        },
+        {
+          "option_id": "reward",
+          "text": "Supaya Nabi ﷺ menyerahkan ganjaran Quraisy kepadanya",
+          "feedback": "Ganjaran disebut pada awal riwayat sebagai tawaran Quraisy, bukan permintaan ini."
+        },
+        {
+          "option_id": "provisions",
+          "text": "Supaya Nabi ﷺ membekalkannya dengan makanan dan barang keperluan",
+          "feedback": "Suraqahlah yang menawarkan bekal dan barang keperluan kepada mereka berdua, dan mereka tidak mengambilnya."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "Riwayat itu membezakan tawaran ganjaran Quraisy, tawaran bekal Suraqah dan permintaannya untuk surat jaminan keselamatan; orang yang meminta surat jaminan keselamatan itu ialah Suraqah.",
+      "scope_note": "Teks tidak memuatkan lafaz surat yang ditulis."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Baca dua petikan yang bersambung tentang penunjuk jalan. Pernyataan manakah yang menghubungkan persiapan dengan penyambungan perjalanan tanpa menambah butiran yang tidak disebut?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "Mereka berdua mempercayakan dua unta tunggangan kepadanya dan berjanji menemuinya di Gua Thawr selepas tiga malam, kemudian dia berangkat bersama mereka",
+          "feedback": "Pilihan ini menggabungkan dua unta tunggangan, janji temu dan rombongan sebagaimana disebut dalam kedua-dua petikan."
+        },
+        {
+          "option_id": "waiting",
+          "text": "Penunjuk jalan tinggal di dalam gua bersama mereka selama tiga malam",
+          "feedback": "Janji temu di gua tidak membuktikan bahawa penunjuk jalan bermalam di situ selama tiga malam."
+        },
+        {
+          "option_id": "water",
+          "text": "Mereka berlayar di laut kerana riwayat menyebut jalan pesisir",
+          "feedback": "Jalan pesisir ialah penerangan laluan; teks tidak menyebut perjalanan di laut."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "Ungkapan «dan mereka berdua berjanji menemuinya» pada akhir petikan pertama dilengkapkan dengan janji temu di gua dalam petikan kedua. Kemudian petikan kedua menyebut keberangkatan Amir dan penunjuk jalan bersama mereka.",
+      "scope_note": "Kedua-dua petikan dipaparkan mengikut urutannya; kedua-duanya sambungan hadis yang sama, bukan dua bukti bebas."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Ringkasan manakah yang mengekalkan perbezaan kerja Asma dan Abdullah bin Abi Bakr yang dihuraikan dalam kedua-dua teks?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Asma menyediakan alat untuk mengikat bekal dan bekas air; Abdullah membawa berita semasa mereka tinggal di gua",
+          "feedback": "Pilihan ini mengekalkan perbuatan dan tahap yang dinisbahkan kepada setiap seorang."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Abdullah membelah ikat pinggangnya untuk mengikat; Asma mengumpulkan berita Quraisy",
+          "feedback": "Ini membalikkan atribusi kerja dalam kedua-dua teks."
+        },
+        {
+          "option_id": "same",
+          "text": "Kedua-dua teks menghuraikan kerja yang sama oleh orang yang sama",
+          "feedback": "Kedua-dua orang dan kerja mereka berbeza, walaupun sama-sama memberikan bantuan."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "Penglibatan ahli keluarga dalam bantuan tidak menjadikan riwayat persiapan dan riwayat masa tinggal sebagai satu riwayat atau satu peranan.",
+      "scope_note": "Perbandingan ini terbatas kepada kedua-dua petikan yang dipaparkan, bukan penafian semua kerja lain mereka di luar kedua-dua teks ini."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "Teks memaparkan nama «Abdullah bin Arqat (عبد الله بن أرقط)», kemudian ungkapan «dan dikatakan: Abdullah bin Uraiqat (عبد الله بن أريقط)». Kepada siapakah teks secara jelas menisbahkan ungkapan kedua?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "Ibn Hisyam",
+          "feedback": "Teks memisahkan ungkapan itu dengan penanda ucapan «Ibn Hisyam berkata»."
+        },
+        {
+          "option_id": "asma",
+          "text": "Asma bint Abi Bakr",
+          "feedback": "Penyebutan Asma dalam riwayat sebelumnya tidak menjadikan ulasan Ibn Hisyam sebagai kata-katanya."
+        },
+        {
+          "option_id": "guide",
+          "text": "Penunjuk jalan sedang bercakap tentang dirinya",
+          "feedback": "Teks di sini tidak memaparkan kata-kata penunjuk jalan tentang dirinya."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "Ini mengekalkan pemisahan antara riwayat dan ulasan penyampainya: «Ibn Hisyam berkata» menentukan pemilik bentuk alternatif tanpa membetulkan salah satu nama secara senyap.",
+      "scope_note": "Latihan pilihan untuk membaca sumber; menghafal perbezaan nama bukan syarat untuk memahami pelajaran asas."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Rumusan manakah yang merangkum kata-kata Ibn Ishaq tentang tuan rumah di Quba sambil mengekalkan sikap berhati-hatinya?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "Dia menyebut penginapan di rumah Kulthum bin Hidm dan memuatkan pendapat bahawa baginda menginap di rumah Sad bin Khaithamah, tanpa memastikan salah satu daripadanya",
+          "feedback": "Ungkapan «menurut yang mereka ceritakan» dan «dikatakan» muncul, kemudian «Allah lebih mengetahui» dan «kedua-duanya telah kami dengar»."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "Dia menegaskan bahawa semua perawi sepakat tentang seorang tuan rumah",
+          "feedback": "Penyebutan pendapat lain dan sikap berhati-hati menghalang dakwaan kesepakatan."
+        },
+        {
+          "option_id": "deny",
+          "text": "Dia menafikan bahawa Nabi ﷺ menginap di rumah salah seorang daripada mereka",
+          "feedback": "Pemaparan kedua-dua pendapat bukan penafian kedua-duanya."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "Ringkasan ini mengekalkan alternatif yang disebut dan ketiadaan kepastian. Huraian tentang duduk di rumah Sad muncul sebagai kata-kata orang yang menyebut penginapan di rumah Kulthum, bukan keputusan muktamad daripada soalan.",
+      "scope_note": "Soalan ini tidak meminta pemilihan tuan rumah berdasarkan maklumat di luar petikan."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Baca dua penilaian yang dipaparkan tentang sanad riwayat labah-labah. Apakah kesimpulan yang disokong secara langsung oleh perbandingan ini?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "Ibn Kathir menilai sanad itu hasan, manakala pentahkik edisi al-Risalah menilainya daif; penilaian mesti dinisbahkan kepada penilainya",
+          "feedback": "Inilah batas kedua-dua ungkapan penilaian yang dipaparkan; jangan ubah perbandingan menjadi satu penilaian seragam."
+        },
+        {
+          "option_id": "all",
+          "text": "Kedua-dua teks sepakat bahawa semua riwayat gua adalah sahih",
+          "feedback": "Kedua-duanya berbeza dalam penilaian, dan kata-kata mereka bukan pengesahan kesahihan semua riwayat gua."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "Penilaian hasan oleh Ibn Kathir di sini merupakan pengesahan bebas bagi semua jalan periwayatan dua burung merpati",
+          "feedback": "Ungkapan itu tentang riwayat anyaman sarang labah-labah; ia tidak membenarkan perluasan penilaian kepada semua jalan periwayatan dua burung merpati."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "Teks pertama mengatakan «Ini suatu sanad hasan» dan menghuraikan riwayat labah-labah; teks kedua bermula dengan «Sanadnya daif». Pertentangan dalam penilaian yang dipaparkan menuntut pengekalan pemilik dan skopnya, bukan penciptaan kesepakatan.",
+      "scope_note": "Perbandingan ini memaparkan kedua-dua penilaian sebagai dua pendapat yang diatribusi kepada pihak masing-masing. Ia tidak mendakwa bahawa penyunting pakej yang bertanggungjawab telah menyiasat kebebasan jalan periwayatan atau mengutamakan kesahihannya."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "Dalam teks pertama Nabi ﷺ menyuruh Amir menulis, dan dalam teks kedua baginda menyuruh Abu Bakr. Pemaparan perbandingan manakah yang mengekalkan kandungan kedua-dua petikan?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "Menisbahkan penulis yang disebut dalam setiap petikan kepada riwayat masing-masing, tanpa mencipta penyelarasan antara kedua-duanya",
+          "feedback": "Setiap petikan menamakan seorang penulis; kedua-dua petikan tidak menyebut bahawa mereka menulis surat itu bersama-sama."
+        },
+        {
+          "option_id": "together",
+          "text": "Memastikan bahawa mereka berdua menulis satu surat bersama-sama",
+          "feedback": "Ini penyelarasan yang tidak dinyatakan secara jelas oleh mana-mana petikan."
+        },
+        {
+          "option_id": "erase",
+          "text": "Menggantikan nama Abu Bakr dalam teks kedua dengan Amir supaya kedua-dua riwayat sepadan",
+          "feedback": "Ini mengubah petikan, bukannya menjelaskan perbezaan."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "Perbandingan bermula dengan menetapkan perbezaan butiran sebagaimana diriwayatkan. Perbandingan itu sahaja tidak cukup untuk mengutamakan salah seorang penulis atau membuktikan dua jalan periwayatan bebas.",
+      "scope_note": "Latihan membandingkan teks yang diberikan, bukan ujian menghafal nama penyampai atau menilai kesahihan kedua-dua riwayat."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "Petikan ini meriwayatkan pemakaian dua gelang kepada Suraqah, tetapi bermula dengan Umar bin al-Khattab dan harta yang sampai kepadanya. Batasan apakah yang perlu dijaga apabila menggunakannya bersama kisah pengejaran?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Pemakaian gelang tidak ditempatkan dalam adegan pengejaran; kejadian yang diriwayatkan di sini berlaku pada zaman Umar",
+          "feedback": "Umar dan harta yang datang dari Iraq merupakan konteks kejadian dalam petikan ini."
+        },
+        {
+          "option_id": "same",
+          "text": "Pemakaian gelang berlaku ketika Suraqah bertemu Nabi ﷺ di jalan",
+          "feedback": "Ini memindahkan kejadian kepada masa dan adegan yang tidak disebut di sini."
+        },
+        {
+          "option_id": "dated",
+          "text": "Petikan menentukan tarikh meninggalkan gua",
+          "feedback": "Topik petikan ialah harta dan dua gelang pada zaman Umar, bukan tarikh meninggalkan gua."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "Hubungan orang yang sama dengan kedua-dua kisah tidak menjadikan kedua-dua kejadian berlaku pada masa yang sama. Khabar di sini daripada ahli ilmu tanpa menamakan mereka pada tempat ini; membaca konteks tidak bererti mengesahkan kesahihan semua riwayat.",
+      "scope_note": "Bahagian sebelum ayat dipaparkan sepenuhnya; catatan ini tidak mencampuradukkan riwayat dengan ayat yang dipetik atau mendakwa telah mengesahkan kebolehpercayaan pemberi khabar."
+    }
+  ],
+  "translation_notes": {}
+}

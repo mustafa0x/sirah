@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "de",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Wer brachte nach der vorgelegten Überlieferung Aischas während des Höhlenaufenthalts Nachrichten darüber, was die Menschen gegen den Propheten ﷺ und Abu Bakr planten?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Abd Allah ibn Abi Bakr",
+          "feedback": "Die Überlieferung berichtet, dass er sich das Gehörte einprägte und ihnen bei Dunkelheit davon berichtete."
+        },
+        {
+          "option_id": "milk",
+          "text": "Amir ibn Fuhaira",
+          "feedback": "Die Überlieferung erwähnt sein Weiden der Schafe und Bringen der Milch, nicht das Bringen von Nachrichten."
+        },
+        {
+          "option_id": "guide",
+          "text": "Der angestellte Wegführer",
+          "feedback": "Die Hilfe des Wegführers wird für die anschließende Reise erwähnt; dieser Abschnitt schreibt ihm das Bringen von Nachrichten nicht zu."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "Die Hilfe verteilte sich auf unterschiedliche Aufgaben: In dieser Überlieferung überbrachte Abd Allah ibn Abi Bakr die Nachrichten.",
+      "scope_note": "Gefragt wird nach der Aufgabe im Text, nicht nach seinem Zugangsweg oder einer bestimmten modernen Uhrzeit."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Welche Art von Hilfe beschreibt die Überlieferung für Amir ibn Fuhaira an der Höhle?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Die Schafe weiden und die beiden mit Milch versorgen",
+          "feedback": "Die Überlieferung verbindet sein Weiden der Schafe mit der Milch der Milchtiere in jeder Nacht."
+        },
+        {
+          "option_id": "boat",
+          "text": "Ein Schiff für die Reise vorbereiten",
+          "feedback": "Die Überlieferung erwähnt kein Schiff als Teil seiner Hilfe."
+        },
+        {
+          "option_id": "news",
+          "text": "Nachrichten über die Quraisch in ihren Versammlungen sammeln",
+          "feedback": "Die beschriebene Aufgabe des Nachrichtenüberbringens liegt bei Abd Allah ibn Abi Bakr."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Amir ibn Fuhaira weidet Milchschafe und treibt sie dann zu den beiden. Die Überlieferung erwähnt die Milch und die Wiederholung dieses Tuns in den drei Nächten.",
+      "scope_note": "Die Frage fügt dem Text keine Behauptung über das Verwischen von Fußspuren hinzu."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "Warum teilte Asma nach dem vorgelegten Bericht ihren Gürtel?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "Um Wasserschlauch und Proviant zuzubinden, als sie nichts anderes zum Binden fand",
+          "feedback": "Dies ist der Bedarf, den Asma erwähnt; sie beschreibt, wie sie beides mit zwei Stücken zuband."
+        },
+        {
+          "option_id": "route",
+          "text": "Um die Route des Wegführers festzulegen",
+          "feedback": "Der Bericht handelt von der Vorbereitung des Wasserschlauchs und des Proviants, nicht von der Festlegung der Route."
+        },
+        {
+          "option_id": "letter",
+          "text": "Um einen Schutzbrief für Suraqa zu schreiben",
+          "feedback": "Der Schutzbrief Suraqas kommt im Bericht über den Gürtel nicht vor."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "Der Text beschreibt eine praktische Lösung während der Vorbereitung: Der Gürtel wurde geteilt, um beide Stücke zum Binden zu verwenden.",
+      "scope_note": "Dies ist ein Vorbereitungsbericht; die Frage macht daraus keinen Nachweis, dass jede Nacht Nahrung zur Höhle gebracht wurde."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Welche Aufgabe wird durch die Beauftragung des erfahrenen Wegführers und die anschließende Erwähnung des Küstenwegs deutlich?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Die Reisegruppe nach dem vereinbarten Treffen an der Höhle auf dem Weg führen",
+          "feedback": "Die beiden Abschnitte verbinden seine Erfahrung als Wegführer mit der Führung der Reisegruppe auf dem Küstenweg."
+        },
+        {
+          "option_id": "build",
+          "text": "Die Moschee in Medina bauen",
+          "feedback": "Die beiden Abschnitte erwähnen den Bau nicht als Aufgabe des Wegführers."
+        },
+        {
+          "option_id": "news",
+          "text": "Jede Nacht Nachrichten über die Quraisch zur Höhle bringen",
+          "feedback": "Dies ist nicht die Aufgabe, die die beiden Abschnitte dem Wegführer zuschreiben."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "Die Vorbereitung für den Wegführer und seine Verabredung verbinden die Höhlenetappe mit der Fortsetzung der Reise; die genannte Fertigkeit ist die Wegführung.",
+      "scope_note": "Die Frage setzt weder Koordinaten noch einen persönlichen Namen voraus, den diese beiden Abschnitte nicht nennen."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "Was erbat Suraqa nach der vorgelegten Überlieferung, als er nach dem Ende der Verfolgung dem Propheten ﷺ begegnete?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "Dass ihm ein Schutzbrief geschrieben werde",
+          "feedback": "Suraqa sagt, dass er ihn um einen Schutzbrief bat, woraufhin er Amir ibn Fuhaira mit dem Schreiben beauftragte."
+        },
+        {
+          "option_id": "reward",
+          "text": "Dass der Prophet ﷺ ihm die Belohnung der Quraisch aushändige",
+          "feedback": "Die Belohnung erscheint am Anfang der Überlieferung als Angebot der Quraisch, nicht als diese Bitte."
+        },
+        {
+          "option_id": "provisions",
+          "text": "Dass der Prophet ﷺ ihn mit Nahrung und Ausrüstung versorge",
+          "feedback": "Suraqa war derjenige, der den beiden Proviant und Ausrüstung anbot; sie nahmen nichts von ihm."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "Der Bericht unterscheidet zwischen dem Belohnungsangebot der Quraisch, Suraqas Proviantangebot und seiner Bitte um einen Schutzbrief. Suraqa war derjenige, der den Schutzbrief erbat.",
+      "scope_note": "Der Text gibt den Wortlaut der geschriebenen Urkunde nicht wieder."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Lies die beiden zusammenhängenden Abschnitte über den Wegführer. Welche Aussage verbindet die Vorbereitungen mit der Fortsetzung der Reise, ohne eine nicht genannte Einzelheit hinzuzufügen?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "Sie vertrauten ihm die beiden Reitkamele an und verabredeten sich mit ihm nach drei Nächten an der Höhle am Thaur; dann brach er mit ihnen auf.",
+          "feedback": "Diese Antwort verbindet die beiden Reitkamele, die Verabredung und die Reisebegleitung so, wie sie in den beiden Abschnitten vorkommen."
+        },
+        {
+          "option_id": "waiting",
+          "text": "Der Wegführer blieb in den drei Nächten mit ihnen in der Höhle.",
+          "feedback": "Die Verabredung an der Höhle belegt nicht, dass der Wegführer die drei Nächte darin verbrachte."
+        },
+        {
+          "option_id": "water",
+          "text": "Sie reisten auf dem Meer, weil die Überlieferung den Küstenweg nennt.",
+          "feedback": "Der Küstenweg ist eine Beschreibung des Weges; der Text erwähnt keine Seereise."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "Die Wendung «und sie verabredeten mit ihm» am Ende des ersten Abschnitts wird im zweiten durch den Treffpunkt an der Höhle ergänzt. Dann erwähnt der zweite Abschnitt, dass Amir und der Wegführer mit ihnen aufbrachen.",
+      "scope_note": "Die Abschnitte werden in ihrer Reihenfolge vorgelegt; sie sind Fortsetzungen desselben Hadiths, keine zwei unabhängigen Belege."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Welche Zusammenfassung wahrt den Unterschied zwischen den in den beiden Texten beschriebenen Aufgaben Asmas und Abd Allah ibn Abi Bakrs?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Asma bereitet etwas zum Zubinden des Proviants und des Wasserschlauchs vor; Abd Allah bringt während des Höhlenaufenthalts Nachrichten.",
+          "feedback": "Diese Antwort bewahrt die Handlung und die Etappe, die jeweils beiden zugeschrieben werden."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Abd Allah teilt seinen Gürtel zum Binden; Asma sammelt Nachrichten über die Quraisch.",
+          "feedback": "Dies vertauscht die Zuschreibung der Aufgaben in den beiden Texten."
+        },
+        {
+          "option_id": "same",
+          "text": "Die beiden Texte beschreiben dieselbe Aufgabe derselben Person.",
+          "feedback": "Die Personen und die Aufgaben unterscheiden sich, auch wenn beide helfen."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "Die gemeinsame Hilfe von Familienangehörigen macht aus den Vorbereitungsberichten und den Berichten über den Aufenthalt weder einen einzigen Bericht noch eine einzige Aufgabe.",
+      "scope_note": "Verglichen werden die beiden vorgelegten Abschnitte; andere Tätigkeiten beider außerhalb dieser Texte werden nicht ausgeschlossen."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "Der Text nennt «Abd Allah ibn Arqat (أرقط)» und anschließend «Es heißt auch: Abd Allah ibn Uraiqit (أريقط)». Wem schreibt der Text die zweite Aussage ausdrücklich zu?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "Ibn Hischam",
+          "feedback": "Der Text trennt die Aussage durch die Redeeinleitung «Ibn Hischam sagte» ab."
+        },
+        {
+          "option_id": "asma",
+          "text": "Asma bint Abi Bakr",
+          "feedback": "Die Erwähnung Asmas im vorherigen Bericht macht Ibn Hischams Anmerkung nicht zu ihrer Aussage."
+        },
+        {
+          "option_id": "guide",
+          "text": "Der Wegführer spricht über sich selbst.",
+          "feedback": "Der Text zeigt hier keine Aussage des Wegführers über sich selbst."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "Die Trennung zwischen Bericht und Anmerkung des Übermittlers bleibt erhalten: «Ibn Hischam sagte» benennt den Urheber der alternativen Form, ohne einen der Namen stillschweigend zu korrigieren.",
+      "scope_note": "Eine freiwillige Übung zur Quellenlektüre; das Auswendiglernen der Namensvariante ist keine Voraussetzung, um die grundlegende Lektion zu verstehen."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Welche Formulierung fasst Ibn Ishaqs Bericht über den Gastgeber in Quba zusammen und bewahrt dabei seinen Vorbehalt?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "Er erwähnt die Unterkunft bei Kulthum ibn Hidm und führt auch die Angabe einer Unterkunft bei Sad ibn Chaithama an, ohne sich zwischen ihnen festzulegen.",
+          "feedback": "Es stehen dort «wie sie berichten» und «es heißt auch», anschließend «Allah weiß es am besten» und «wir haben beide gehört»."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "Er stellt bestimmt fest, dass alle Überlieferer sich auf einen einzigen Gastgeber geeinigt haben.",
+          "feedback": "Die Nennung der anderen Angabe und der Vorbehalt schließen die Behauptung einer Übereinstimmung aus."
+        },
+        {
+          "option_id": "deny",
+          "text": "Er verneint, dass der Prophet ﷺ bei einem der beiden Unterkunft genommen habe.",
+          "feedback": "Die Darstellung beider Angaben ist keine Verneinung beider."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "Die Zusammenfassung bewahrt die genannte Alternative und die fehlende Festlegung. Die Erklärung des Sitzens in Sads Haus erscheint als Aussage derjenigen, die eine Unterkunft bei Kulthum berichten, nicht als abschließendes Urteil der Frage.",
+      "scope_note": "Die Frage verlangt nicht, außerhalb des Abschnitts einen Gastgeber als wahrscheinlicher zu bestimmen."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Lies die beiden vorgelegten Bewertungen zur Überlieferungskette des Spinnenberichts. Welche Schlussfolgerung trägt dieser Vergleich unmittelbar?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "Ibn Kathir bewertet die Überlieferungskette als hasan, die Herausgeber der ar-Risala-Ausgabe als schwach; das Urteil muss seinem Urheber zugeschrieben werden.",
+          "feedback": "Dies sind die Grenzen der beiden vorgelegten Bewertungen; der Vergleich macht daraus kein einheitliches Urteil."
+        },
+        {
+          "option_id": "all",
+          "text": "Die beiden Texte stimmen darin überein, dass sämtliche Höhlenberichte authentisch sind.",
+          "feedback": "Sie unterscheiden sich im Urteil, und ihre Aussagen erklären nicht sämtliche Höhlenberichte für authentisch."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "Ibn Kathirs hasan-Bewertung ist hier eine eigenständige Authentifizierung sämtlicher Überlieferungswege über die beiden Tauben.",
+          "feedback": "Die Aussage betrifft das Spinnen des Netzes; sie erlaubt keine Verallgemeinerung des Urteils auf sämtliche Überlieferungswege über die beiden Tauben."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "Der erste Text sagt «Dies ist eine hasan-Überlieferungskette» und beschreibt den Spinnenbericht. Der zweite beginnt mit «Seine Überlieferungskette ist schwach». Der Gegensatz der vorgelegten Bewertungen verlangt, ihren Urheber und Geltungsbereich zu bewahren, statt eine Übereinstimmung zu erfinden.",
+      "scope_note": "Der Vergleich zeigt beide Bewertungen als zugeschriebene Aussagen. Er behauptet nicht, dass die für die Prüfung verantwortliche Bündelredaktion die Unabhängigkeit der Überlieferungswege untersucht oder ihre Authentizität als wahrscheinlicher eingestuft hätte."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "Im ersten Text beauftragt der Prophet ﷺ Amir mit dem Schreiben, im zweiten Abu Bakr. Welche Darstellung des Vergleichs bewahrt den Inhalt der beiden Abschnitte?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "Der in jedem Abschnitt genannte Schreiber wird seiner jeweiligen Überlieferung zugeordnet, ohne eine vereinheitlichende Erklärung zu erfinden.",
+          "feedback": "Jeder Abschnitt nennt einen Schreiber; die beiden Abschnitte sagen nicht, dass beide gemeinsam die Urkunde schrieben."
+        },
+        {
+          "option_id": "together",
+          "text": "Es wird bestimmt behauptet, dass beide gemeinsam eine einzige Urkunde schrieben.",
+          "feedback": "Diese Vereinheitlichung wird in keinem der beiden Abschnitte ausdrücklich genannt."
+        },
+        {
+          "option_id": "erase",
+          "text": "Im zweiten Text wird Abu Bakrs Name durch Amir ersetzt, damit die Überlieferungen übereinstimmen.",
+          "feedback": "Dies verändert die Überlieferung, statt den Unterschied zu erläutern."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "Der Vergleich beginnt damit, den überlieferten Unterschied in der Einzelheit festzuhalten. Er allein reicht weder aus, einen der Schreiber als wahrscheinlicher zu bestimmen, noch zwei unabhängige Überlieferungswege nachzuweisen.",
+      "scope_note": "Eine Übung zum Vergleich des vorgelegten Textes, kein Test zum Auswendiglernen der Überlieferernamen oder zur Authentizitätsbewertung beider Überlieferungen."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "Dieser Abschnitt berichtet vom Anlegen der beiden Armreife an Suraqa, beginnt aber mit Umar ibn al-Chattab und dem bei ihm eingetroffenen Vermögen. Welcher Vorbehalt ist bei seiner Verwendung zusammen mit der Verfolgungsgeschichte nötig?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Das Anlegen darf nicht in die Verfolgungsszene versetzt werden; das hier überlieferte Ereignis geschieht zur Zeit Umars.",
+          "feedback": "Umar und das aus dem Irak eingetroffene Vermögen bilden den Zusammenhang des Ereignisses in diesem Abschnitt."
+        },
+        {
+          "option_id": "same",
+          "text": "Das Anlegen geschah im Augenblick der Begegnung Suraqas mit dem Propheten ﷺ auf dem Weg.",
+          "feedback": "Dies versetzt das Ereignis in eine andere Zeit und Szene als die hier genannten."
+        },
+        {
+          "option_id": "dated",
+          "text": "Der Abschnitt bestimmt das Datum des Aufbruchs aus der Höhle.",
+          "feedback": "Der Abschnitt handelt vom Vermögen und den beiden Armreifen zur Zeit Umars, nicht vom Datum des Aufbruchs aus der Höhle."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "Dass dieselbe Person mit beiden Geschichten verbunden ist, macht die Ereignisse nicht gleichzeitig. Hier wird von Gelehrten berichtet, ohne sie an dieser Stelle zu nennen. Das Lesen des Zusammenhangs bedeutet nicht, sämtliche Berichte für authentisch zu erklären.",
+      "scope_note": "Der dem Vers vorausgehende Teil wird vollständig gezeigt. Diese Anmerkung vermischt weder den Bericht mit dem zitierten Vers noch behauptet sie eine Prüfung der Informanten."
+    }
+  ],
+  "translation_notes": {}
+}

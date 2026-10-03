@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "nl",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Wie bracht volgens de weergegeven overlevering van Aïsja tijdens het verblijf in de grot nieuws over wat de mensen tegen de Profeet ﷺ en Abu Bakr beraamden?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Abd Allah ibn Abi Bakr",
+          "feedback": "Het bericht vermeldt dat hij onthield wat hij hoorde en hun daarover bij het invallen van de duisternis kwam berichten."
+        },
+        {
+          "option_id": "milk",
+          "text": "Amir ibn Fuhayra",
+          "feedback": "Het bericht vermeldt dat hij schapen weidde en melk bracht, niet dat hij nieuws bracht."
+        },
+        {
+          "option_id": "guide",
+          "text": "De ingehuurde gids",
+          "feedback": "De hulp van de gids wordt vermeld voor de volgende reisetappe; dit fragment schrijft het brengen van nieuws niet aan hem toe."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "De hulp was over verschillende rollen verdeeld: het overbrengen van nieuws was in deze overlevering de rol van Abd Allah ibn Abi Bakr.",
+      "scope_note": "De vraag gaat over de rol in de tekst, niet over de route waarlangs hij binnenkwam of een tijdstip op een moderne klok."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Welke hulp van Amir ibn Fuhayra bij de grot beschrijft het bericht?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Schapen weiden en hen beiden van melk voorzien",
+          "feedback": "De overlevering verbindt het weiden van de schapen met de melk van de melkschapen, elke nacht."
+        },
+        {
+          "option_id": "boat",
+          "text": "Een schip klaarmaken voor de reis",
+          "feedback": "De overlevering noemt geen schip als onderdeel van zijn hulp."
+        },
+        {
+          "option_id": "news",
+          "text": "Nieuws over Quraysh verzamelen op haar bijeenkomsten",
+          "feedback": "Het beschreven overbrengen van nieuws was de rol van Abd Allah ibn Abi Bakr."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Amir ibn Fuhayra weidde melkgevende schapen en bracht ze 's avonds bij hen. De overlevering vermeldt de melk en dat dit elk van de drie nachten gebeurde.",
+      "scope_note": "De vraag voegt aan de tekst geen bewering toe over het uitwissen van voetsporen."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "Waarom scheurde Asma volgens het weergegeven bericht haar gordel in tweeën?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "Om de waterzak en de proviand vast te binden, toen zij niets vond om ze mee vast te binden",
+          "feedback": "Dit is de behoefte die Asma vermeldt; zij beschrijft dat zij ze met twee stukken vastbond."
+        },
+        {
+          "option_id": "route",
+          "text": "Om de route te bepalen die de gids zou volgen",
+          "feedback": "Het bericht gaat over het klaarmaken van de waterzak en de proviand, niet over het bepalen van de route."
+        },
+        {
+          "option_id": "letter",
+          "text": "Om een schriftelijke vrijgeleide voor Suraqa te schrijven",
+          "feedback": "Suraqa's document komt niet voor in het bericht over de gordel."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "De tekst beschrijft een praktische oplossing tijdens de voorbereiding: de gordel in tweeën scheuren om beide stukken te gebruiken voor het vastbinden.",
+      "scope_note": "Dit is een bericht over de voorbereiding; de vraag maakt er geen bewijs van dat elke nacht voedsel naar de grot werd gebracht."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Welke taak wordt duidelijk uit het inhuren van de man die bedreven was in het wijzen van de weg en de daaropvolgende vermelding van de kustroute?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Het reisgezelschap langs de route leiden na de afspraak bij de grot",
+          "feedback": "De twee fragmenten verbinden zijn vaardigheid als gids met het begeleiden van het gezelschap langs de kustroute."
+        },
+        {
+          "option_id": "build",
+          "text": "De moskee in Medina bouwen",
+          "feedback": "De twee fragmenten noemen bouwen niet als taak van de gids."
+        },
+        {
+          "option_id": "news",
+          "text": "Elke nacht nieuws over Quraysh naar de grot brengen",
+          "feedback": "Dit is niet de taak die de twee fragmenten aan de gids toeschrijven."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "De voorbereiding met de gids en de afspraak met hem verbinden het verblijf in de grot met de voortzetting van de reis. De genoemde vaardigheid is het wijzen van de weg.",
+      "scope_note": "De vraag veronderstelt geen coördinaten of persoonsnaam die de twee fragmenten niet noemen."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "Wat vroeg Suraqa volgens de weergegeven overlevering bij zijn ontmoeting met de Profeet ﷺ, nadat hij de achtervolging had gestaakt?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "Dat hij een schriftelijke vrijgeleide voor hem zou schrijven",
+          "feedback": "Suraqa zegt dat hij hem om een schriftelijke vrijgeleide vroeg, waarna hij Amir ibn Fuhayra opdroeg te schrijven."
+        },
+        {
+          "option_id": "reward",
+          "text": "Dat de Profeet ﷺ hem de beloning van Quraysh zou geven",
+          "feedback": "De beloning staat aan het begin van het bericht als een aanbod van Quraysh, niet als dit verzoek."
+        },
+        {
+          "option_id": "provisions",
+          "text": "Dat de Profeet ﷺ hem voedsel en goederen zou geven",
+          "feedback": "Suraqa was degene die hun beiden proviand en goederen aanbood, maar zij namen niets van hem aan."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "Het bericht onderscheidt de beloning die Quraysh aanbood, de proviand die Suraqa aanbood en zijn verzoek om een schriftelijke vrijgeleide. Suraqa was degene die om die vrijgeleide vroeg.",
+      "scope_note": "De tekst vermeldt niet de bewoordingen van het geschreven document."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Lees de twee samenhangende fragmenten over de gids. Welke uitspraak verbindt de voorbereiding met de voortzetting van de reis zonder een niet-genoemd detail toe te voegen?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "Zij vertrouwden hem de twee rijkamelen toe en spraken met hem af bij de grot van Thawr na drie nachten; daarna vertrok hij met hen.",
+          "feedback": "Deze keuze verenigt de twee rijkamelen, de afspraak en het reisgezelschap zoals ze in de twee fragmenten staan."
+        },
+        {
+          "option_id": "waiting",
+          "text": "De gids bleef tijdens de drie nachten met hen in de grot.",
+          "feedback": "De afspraak bij de grot bewijst niet dat de gids er de drie nachten doorbracht."
+        },
+        {
+          "option_id": "water",
+          "text": "Zij reisden over zee, omdat de overlevering de kustroute noemt.",
+          "feedback": "De kustroute is een beschrijving van de weg; de tekst noemt geen zeereis."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "De woorden «zij spraken met hem af» aan het einde van het eerste fragment worden in het tweede aangevuld met de afspraak bij de grot. Vervolgens vermeldt het tweede dat Amir en de gids met hen vertrokken.",
+      "scope_note": "De fragmenten worden in hun volgorde weergegeven: zij zijn opeenvolgende delen van hetzelfde bericht, geen onafhankelijke getuigenissen."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Welke samenvatting bewaart het verschil tussen de taken van Asma en Abd Allah ibn Abi Bakr die in de twee teksten worden beschreven?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Asma zorgt voor iets om de proviand en de waterzak mee vast te binden; Abd Allah brengt nieuws tijdens het verblijf in de grot.",
+          "feedback": "Deze keuze bewaart de handeling en de etappe die aan ieder van hen worden toegeschreven."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Abd Allah scheurt zijn gordel in tweeën om iets vast te binden; Asma verzamelt nieuws over Quraysh.",
+          "feedback": "Dit verwisselt aan wie de twee teksten de taken toeschrijven."
+        },
+        {
+          "option_id": "same",
+          "text": "De twee teksten beschrijven dezelfde taak voor dezelfde persoon.",
+          "feedback": "Het gaat om verschillende personen en verschillende taken, ook al helpen zij allebei."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "Dat gezinsleden helpen, maakt de berichten over de voorbereiding en de berichten over het verblijf niet tot één bericht of één rol.",
+      "scope_note": "De vergelijking betreft de twee weergegeven fragmenten en ontkent niet alle andere werkzaamheden van hen buiten deze teksten."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "De tekst noemt de naam «Abd Allah ibn Arqat (أرقط)» en daarna de woorden «Er wordt ook gezegd: Abd Allah ibn Urayqit (أريقط)». Aan wie schrijft de tekst die tweede uitspraak uitdrukkelijk toe?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "Ibn Hisham",
+          "feedback": "De tekst onderscheidt de uitspraak met de spreekformule «Ibn Hisham zei»."
+        },
+        {
+          "option_id": "asma",
+          "text": "Asma bint Abi Bakr",
+          "feedback": "Dat Asma in het voorafgaande bericht wordt genoemd, maakt Ibn Hishams opmerking nog niet tot haar woorden."
+        },
+        {
+          "option_id": "guide",
+          "text": "De gids spreekt over zichzelf.",
+          "feedback": "De tekst geeft hier geen woorden weer waarin de gids over zichzelf spreekt."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "Het onderscheid tussen het bericht en de opmerking van de overbrenger blijft behouden: «Ibn Hisham zei» bepaalt van wie de alternatieve naamvorm afkomstig is, zonder een van de twee namen stilzwijgend te corrigeren.",
+      "scope_note": "Een optionele oefening in het lezen van bronnen; het onthouden van het naamverschil is geen voorwaarde om de basisles te begrijpen."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Welke formulering vat Ibn Ishaqs bericht over de gastheer in Quba samen met behoud van zijn voorbehoud?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "Hij vermeldt het verblijf bij Kulthum ibn Hidm, geeft ook de uitspraak over het verblijf bij Saʿd ibn Khaythama weer en beslist niet stellig tussen beide.",
+          "feedback": "De formuleringen «volgens wat zij vertellen» en «er wordt gezegd» komen voor, gevolgd door «Allah weet het het beste» en «wij hebben ze beide gehoord»."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "Hij verklaart stellig dat alle overleveraars het over één gastheer eens waren.",
+          "feedback": "Het vermelden van de andere uitspraak en het voorbehoud sluiten de bewering van overeenstemming uit."
+        },
+        {
+          "option_id": "deny",
+          "text": "Hij ontkent dat de Profeet ﷺ bij een van beiden verbleef.",
+          "feedback": "Het weergeven van beide uitspraken is geen ontkenning van beide."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "De samenvatting bewaart de genoemde alternatieve versie en het ontbreken van een stellige beslissing. De uitleg over het ontvangen van mensen in Saʿds huis wordt weergegeven als de uitspraak van degenen die het verblijf bij Kulthum vermelden, niet als een definitief oordeel van de vraag.",
+      "scope_note": "De vraag verlangt niet dat je op basis van informatie buiten het fragment een gastheer verkiest."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Lees de twee weergegeven beoordelingen van de overleveringsketen van het spinnenbericht. Welke conclusie wordt rechtstreeks door deze vergelijking ondersteund?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "Ibn Kathir beoordeelt de keten als hasan, terwijl de tekstbezorgers van de ar-Risala-editie haar zwak noemen; het oordeel moet aan zijn uitspreker worden toegeschreven.",
+          "feedback": "Dit is het bereik van de twee weergegeven beoordelingen; maak er geen eensluidend oordeel van."
+        },
+        {
+          "option_id": "all",
+          "text": "De twee teksten waren het eens over de authenticiteit van alle overleveringen over de grot.",
+          "feedback": "Zij verschillen in hun oordeel, en hun woorden verklaren niet alle overleveringen over de grot authentiek."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "Ibn Kathirs hasan-beoordeling hier is een onafhankelijke authenticatie van alle overleveringswegen over de twee duiven.",
+          "feedback": "De uitspraak betreft het bericht over het spinnenweb; zij rechtvaardigt niet dat het oordeel op alle overleveringswegen over de twee duiven wordt toegepast."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "De eerste tekst zegt «Dit is een hasan-overleveringsketen» en beschrijft het spinnenbericht; de tweede begint met «De overleveringsketen is zwak». Het verschil in de weergegeven beoordeling vraagt om behoud van de uitspreker en het bereik ervan, niet om het verzinnen van overeenstemming.",
+      "scope_note": "De vergelijking geeft beide beoordelingen weer als toegeschreven uitspraken en beweert niet dat de verantwoordelijke samensteller de onafhankelijkheid van de overleveringswegen heeft onderzocht of hun authenticiteit heeft verkozen."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "In de eerste tekst draagt de Profeet ﷺ Amir op te schrijven, en in de tweede Abu Bakr. Welke weergave van de vergelijking bewaart wat er in de twee fragmenten staat?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "De schrijver die in elk fragment wordt genoemd, wordt aan zijn eigen overlevering toegeschreven, zonder een verzoening tussen beide te verzinnen.",
+          "feedback": "Elk fragment noemt een schrijver; de twee fragmenten zeggen niet dat zij het document samen schreven."
+        },
+        {
+          "option_id": "together",
+          "text": "Er wordt stellig verklaard dat zij samen één document schreven.",
+          "feedback": "Dit is een verzoening die geen van beide fragmenten uitdrukkelijk vermeldt."
+        },
+        {
+          "option_id": "erase",
+          "text": "De naam Abu Bakr in de tweede tekst wordt vervangen door Amir om beide overleveringen gelijk te maken.",
+          "feedback": "Dit verandert de overgeleverde tekst in plaats van het verschil uit te leggen."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "De vergelijking begint met het vaststellen van het verschil in het detail zoals het is overgeleverd. Op zichzelf is zij onvoldoende om een schrijver te verkiezen of twee onafhankelijke overleveringswegen vast te stellen.",
+      "scope_note": "Een oefening in het vergelijken van de aangeboden tekst, geen toets van het onthouden van namen van overleveraars of een oordeel over de authenticiteit van beide overleveringen."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "Dit fragment vertelt over het aandoen van de twee armbanden aan Suraqa, maar begint met Umar ibn al-Khattab en het vermogen dat bij hem aankwam. Welke beperking is nodig wanneer je het samen met het achtervolgingsverhaal gebruikt?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Het aandoen van de armbanden mag niet in het achtervolgingstafereel worden geplaatst; de gebeurtenis die hier wordt overgeleverd, vond plaats in Umars tijd.",
+          "feedback": "Umar en het vermogen dat uit Irak kwam, vormen de context van de gebeurtenis in dit fragment."
+        },
+        {
+          "option_id": "same",
+          "text": "De armbanden werden aangedaan op het moment dat Suraqa de Profeet ﷺ onderweg ontmoette.",
+          "feedback": "Dit verplaatst de gebeurtenis naar een andere tijd en een ander tafereel dan die hier genoemd worden."
+        },
+        {
+          "option_id": "dated",
+          "text": "Het fragment bepaalt de datum van het vertrek uit de grot.",
+          "feedback": "Het onderwerp van het fragment is het vermogen en de twee armbanden in Umars tijd, niet de datum van het vertrek uit de grot."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "Dat dezelfde persoon bij beide verhalen betrokken is, betekent niet dat beide gebeurtenissen in dezelfde tijd plaatsvonden. De mededeling komt hier van geleerden zonder dat zij op deze plaats worden genoemd. Het lezen van de context betekent niet dat alle berichten authentiek worden verklaard.",
+      "scope_note": "Het deel vóór het vers wordt volledig weergegeven. Deze opmerking vermengt het bericht niet met het geciteerde vers en beweert niet de informanten te hebben geverifieerd."
+    }
+  ],
+  "translation_notes": {}
+}

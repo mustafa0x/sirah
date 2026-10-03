@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "status": "main_content_checked_translation_source_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "ar",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "main_source_answer_and_distractor_checked_not_specialist_approval",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt_ar": "بحسب رواية عائشة المعروضة، من كان يأتي بخبر ما يدبره الناس للنبي ﷺ وأبي بكر أثناء الإقامة في الغار؟",
+      "options": [
+        {
+          "option_id": "news",
+          "text_ar": "عبد الله بن أبي بكر",
+          "feedback_ar": "تذكر الرواية أنه يحفظ ما يسمعه ثم يأتيهما بخبره عند الظلام."
+        },
+        {
+          "option_id": "milk",
+          "text_ar": "عامر بن فهيرة",
+          "feedback_ar": "تذكر الرواية رعيه الغنم وإحضار اللبن، لا إحضاره الأخبار."
+        },
+        {
+          "option_id": "guide",
+          "text_ar": "الدليل المستأجر",
+          "feedback_ar": "الاستعانة بالدليل وردت للرحلة التالية؛ لا يسند إليه هذا المقطع إحضار الأخبار."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation_ar": "توزعت المساعدة بين أدوار مختلفة: نقل الأخبار لعبد الله بن أبي بكر في هذه الرواية.",
+      "scope_note_ar": "السؤال عن الدور في النص، لا عن مسار دخوله أو ساعة حديثة محددة."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt_ar": "ما نوع المساعدة الذي تصفه الرواية لعامر بن فهيرة عند الغار؟",
+      "options": [
+        {
+          "option_id": "milk",
+          "text_ar": "رعي الغنم وإتاحة اللبن لهما",
+          "feedback_ar": "تربط الرواية رعيه الغنم بلبن المنحة كل ليلة."
+        },
+        {
+          "option_id": "boat",
+          "text_ar": "إعداد سفينة للرحلة",
+          "feedback_ar": "لا تذكر الرواية سفينة ضمن مساعدته."
+        },
+        {
+          "option_id": "news",
+          "text_ar": "جمع أخبار قريش في مجالسها",
+          "feedback_ar": "الدور الموصوف في نقل الأخبار لعبد الله بن أبي بكر."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation_ar": "عامر بن فهيرة يرعى منحة من غنم ثم يريحها عليهما، وتذكر الرواية اللبن وتكرار ذلك في الليالي الثلاث.",
+      "scope_note_ar": "لا يضيف السؤال إلى النص دعوى محو آثار الأقدام."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt_ar": "في خبر أسماء المعروض، لماذا شقت نطاقها؟",
+      "options": [
+        {
+          "option_id": "tie",
+          "text_ar": "لربط السقاء والسفرة حين لم تجد ما تربطهما به",
+          "feedback_ar": "هذا هو الاحتياج الذي تذكره أسماء، وتصف ربطهما بقطعتين."
+        },
+        {
+          "option_id": "route",
+          "text_ar": "لتحديد الطريق الذي يسلكه الدليل",
+          "feedback_ar": "الخبر عن تجهيز السقاء والسفرة، لا عن تعيين الطريق."
+        },
+        {
+          "option_id": "letter",
+          "text_ar": "لكتابة وثيقة أمان لسراقة",
+          "feedback_ar": "لا ترد وثيقة سراقة في خبر النطاق."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation_ar": "يصف النص حلًا عمليًا أثناء التجهيز: شق النطاق لاستعمال القطعتين في الربط.",
+      "scope_note_ar": "هذا خبر تجهيز؛ لا يحوله السؤال إلى إثبات إيصال طعام إلى الغار كل ليلة."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt_ar": "ما المهمة التي توضحها الاستعانة بالرجل الماهر بالهداية ثم ذكر طريق السواحل؟",
+      "options": [
+        {
+          "option_id": "lead",
+          "text_ar": "قيادة الرفقة في الطريق بعد موعد الغار",
+          "feedback_ar": "المقطعان يصلان مهارته بالهداية باصطحاب الرفقة في طريق السواحل."
+        },
+        {
+          "option_id": "build",
+          "text_ar": "بناء المسجد في المدينة",
+          "feedback_ar": "لا يذكر المقطعان البناء ضمن وظيفة الدليل."
+        },
+        {
+          "option_id": "news",
+          "text_ar": "نقل أخبار قريش إلى الغار كل ليلة",
+          "feedback_ar": "هذه ليست الوظيفة المسندة إلى الدليل في المقطعين."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation_ar": "الاستعداد للدليل وموعده يربطان مرحلة الغار باستئناف السير؛ المهارة المذكورة مهارة قيادة الطريق.",
+      "scope_note_ar": "لا يفترض السؤال إحداثيات أو اسمًا شخصيًا لم يذكره هذان المقطعان."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt_ar": "في رواية سراقة المعروضة، ماذا طلب عند لقائه بالنبي ﷺ بعدما توقف عن المطاردة؟",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text_ar": "أن يكتب له كتاب أمن",
+          "feedback_ar": "يقول سراقة إنه سأله كتاب أمن، فأمر عامر بن فهيرة بالكتابة."
+        },
+        {
+          "option_id": "reward",
+          "text_ar": "أن يسلمه النبي ﷺ مكافأة قريش",
+          "feedback_ar": "المكافأة ترد في أول الرواية باعتبارها عرضًا من قريش، لا هذا الطلب."
+        },
+        {
+          "option_id": "provisions",
+          "text_ar": "أن يزوده النبي ﷺ بالطعام والمتاع",
+          "feedback_ar": "سراقة هو من عرض الزاد والمتاع عليهما، وهما لم يأخذا منه."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation_ar": "يميز الخبر بين عرض قريش للمكافأة وعرض سراقة للزاد وبين طلبه كتاب أمن؛ الذي طلب كتاب الأمن هو سراقة.",
+      "scope_note_ar": "النص لا يورد ألفاظ الوثيقة المكتوبة."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt_ar": "اقرأ المقطعين المتصلين عن الدليل. أي عبارة تربط الاستعداد بمتابعة الرحلة دون إضافة تفصيل غير مذكور؟",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text_ar": "أمناه على الراحلتين وواعداه عند غار ثور بعد ثلاث ليال، ثم انطلق معهم",
+          "feedback_ar": "يجمع هذا الاختيار الراحلتين والموعد والرفقة كما وردت في المقطعين."
+        },
+        {
+          "option_id": "waiting",
+          "text_ar": "بقي الدليل داخل الغار معهم في الليالي الثلاث",
+          "feedback_ar": "الموعد عند الغار لا يثبت أن الدليل قضى فيه الليالي الثلاث."
+        },
+        {
+          "option_id": "water",
+          "text_ar": "سافروا في البحر لأن الرواية تسمي طريق السواحل",
+          "feedback_ar": "طريق السواحل وصف للطريق؛ لا يذكر النص سفرًا في البحر."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation_ar": "تتم عبارة «وواعداه» في نهاية المقطع الأول بموعد الغار في الثاني، ثم يذكر الثاني خروج عامر والدليل معهم.",
+      "scope_note_ar": "يعرض المقطعان بترتيبهما؛ فهما تتمة للحديث نفسه لا شاهدان مستقلان."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt_ar": "أي ملخص يحفظ اختلاف العمل الموصوف لأسماء وعبد الله بن أبي بكر في النصين؟",
+      "options": [
+        {
+          "option_id": "roles",
+          "text_ar": "أسماء تهيئ وسيلة ربط الزاد والسقاء؛ وعبد الله يأتي بالأخبار أثناء الإقامة في الغار",
+          "feedback_ar": "يحفظ هذا الاختيار الفعل والمرحلة المنسوبين إلى كل منهما."
+        },
+        {
+          "option_id": "swapped",
+          "text_ar": "عبد الله يشق نطاقه للربط؛ وأسماء تجمع أخبار قريش",
+          "feedback_ar": "هذا يعكس نسبتي العمل في النصين."
+        },
+        {
+          "option_id": "same",
+          "text_ar": "النصان يصفان العمل نفسه للشخص نفسه",
+          "feedback_ar": "الشخصان والعملان مختلفان وإن اشتركا في المساعدة."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation_ar": "اشتراك أفراد الأسرة في المساعدة لا يجعل أخبار التجهيز وأخبار الإقامة خبرًا واحدًا أو دورًا واحدًا.",
+      "scope_note_ar": "المقارنة في المقطعين المعروضين، لا نفي كل عمل آخر لهما خارج هذين النصين."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt_ar": "يعرض النص اسم «عبد الله بن أرقط»، ثم عبارة «ويقال: عبد الله بن أريقط». إلى من ينسب النص العبارة الثانية صراحة؟",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text_ar": "ابن هشام",
+          "feedback_ar": "يفصل النص العبارة بعلامة القول «قال ابن هشام»."
+        },
+        {
+          "option_id": "asma",
+          "text_ar": "أسماء بنت أبي بكر",
+          "feedback_ar": "ذكر أسماء في الخبر السابق لا يجعل تعليق ابن هشام قولًا لها."
+        },
+        {
+          "option_id": "guide",
+          "text_ar": "الدليل يتحدث عن نفسه",
+          "feedback_ar": "لا يعرض النص هنا كلامًا للدليل عن نفسه."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation_ar": "يحفظ الفصل بين الخبر وتعليق الناقل: «قال ابن هشام» يحدد صاحب الصيغة البديلة دون إصلاح أحد الاسمين صامتًا.",
+      "scope_note_ar": "تدريب اختياري على قراءة المصدر؛ ليس حفظ اختلاف الاسم شرطًا لفهم الدرس الأساسي."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt_ar": "أي صياغة تلخص حديث ابن إسحاق عن المضيف في قباء مع بقاء تحفظه؟",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text_ar": "يذكر النزول على كلثوم بن هدم، ويورد القول بالنزول على سعد بن خيثمة، ولا يجزم بينهما",
+          "feedback_ar": "تظهر «فيما يذكرون» و«ويقال» ثم «فالله أعلم» و«كلًا قد سمعنا»."
+        },
+        {
+          "option_id": "unanimous",
+          "text_ar": "يجزم أن جميع الرواة اتفقوا على مضيف واحد",
+          "feedback_ar": "إيراد القول الآخر والتحفظ يمنع دعوى الاتفاق."
+        },
+        {
+          "option_id": "deny",
+          "text_ar": "ينفي أن النبي ﷺ نزل على أحدهما",
+          "feedback_ar": "عرض القولين ليس نفيًا لكليهما."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation_ar": "يحفظ الملخص البديل المذكور وعدم الجزم؛ وشرح الجلوس في بيت سعد يرد بوصفه قول من يذكر النزول على كلثوم، لا حكمًا نهائيًا من السؤال.",
+      "scope_note_ar": "لا يطلب السؤال ترجيح المضيف من خارج المقطع."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt_ar": "اقرأ الحكمين المعروضين عن إسناد خبر العنكبوت. ما النتيجة التي تسندها هذه المقارنة مباشرة؟",
+      "options": [
+        {
+          "option_id": "difference",
+          "text_ar": "ابن كثير يحسن الإسناد، ومحققو طبعة الرسالة يضعفونه؛ يلزم نسبة الحكم إلى قائله",
+          "feedback_ar": "هذه حدود عبارتي الحكم المعروضتين؛ لا تحول المقارنة إلى حكم موحد."
+        },
+        {
+          "option_id": "all",
+          "text_ar": "اتفق النصان على صحة جميع روايات الغار",
+          "feedback_ar": "هما مختلفان في الحكم، وكلامهما ليس تصحيحًا لجميع روايات الغار."
+        },
+        {
+          "option_id": "pigeons",
+          "text_ar": "تحسين ابن كثير هنا تصحيح مستقل لجميع طرق الحمامتين",
+          "feedback_ar": "العبارة عن خبر نسج العنكبوت؛ لا تسوغ تعميم الحكم على جميع طرق الحمامتين."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation_ar": "النص الأول يقول «وهذا إسناد حسن» ويصف خبر العنكبوت؛ والثاني يبدأ «إسناده ضعيف». التعارض في الحكم المعروض يقتضي حفظ صاحبه ونطاقه، لا اختراع اتفاق.",
+      "scope_note_ar": "المقارنة تعرض الحكمين بوصفهما قولين منسوبين، ولا تدعي أن المسؤول حقق استقلال الطرق أو رجح صحتها."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt_ar": "في النص الأول يأمر النبي ﷺ عامرًا بالكتابة، وفي الثاني يأمر أبا بكر. أي عرض للمقارنة يحفظ ما في المقطعين؟",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text_ar": "ينسب الكاتب المذكور في كل مقطع إلى روايته، دون اختراع جمع بينهما",
+          "feedback_ar": "كل مقطع يسمي كاتبًا؛ لا يذكر المقطعان أنهما كتبا الوثيقة معًا."
+        },
+        {
+          "option_id": "together",
+          "text_ar": "يجزم أنهما كتبا وثيقة واحدة معًا",
+          "feedback_ar": "هذا جمع لا يصرح به أي من المقطعين."
+        },
+        {
+          "option_id": "erase",
+          "text_ar": "يبدل اسم أبي بكر في النص الثاني بعامر لتتطابق الروايتان",
+          "feedback_ar": "هذا يغير النقل بدل أن يشرح الاختلاف."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation_ar": "المقارنة تبدأ بإثبات اختلاف التفصيل كما نُقل، ولا تكفي وحدها لترجيح الكاتب أو لإثبات طريقين مستقلين.",
+      "scope_note_ar": "تدريب على مقارنة النص المقدم، لا اختبار حفظ أسماء الناقلين أو حكم صحة الروايتين."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt_ar": "يروي هذا المقطع عن إلباس سراقة السوارين، لكنه يبدأ بعمر بن الخطاب والمال الذي وصل إليه. أي قيد يلزم عند استعماله مع قصة المطاردة؟",
+      "options": [
+        {
+          "option_id": "later",
+          "text_ar": "لا يوضع الإلباس في مشهد المطاردة؛ الواقعة المنقولة هنا في زمن عمر",
+          "feedback_ar": "عمر والمال القادم من العراق هما سياق الواقعة في هذا المقطع."
+        },
+        {
+          "option_id": "same",
+          "text_ar": "الإلباس حدث في لحظة لقاء سراقة بالنبي ﷺ على الطريق",
+          "feedback_ar": "هذا ينقل الحدث إلى زمن ومشهد غير المذكورين هنا."
+        },
+        {
+          "option_id": "dated",
+          "text_ar": "المقطع يحدد تاريخ مغادرة الغار",
+          "feedback_ar": "موضوع المقطع المال والسواران في زمن عمر، لا تاريخ مغادرة الغار."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation_ar": "صلة الشخص نفسه بالقصتين لا تجعل الواقعتين في زمن واحد. الإخبار هنا عن أهل العلم دون تسميتهم في هذا الموضع؛ قراءة السياق لا تعني تصحيح جميع الأخبار.",
+      "scope_note_ar": "يظهر الجزء السابق للآية كاملًا؛ لا تخلط هذه الملاحظة بين الخبر والآية المنقولة أو تدعي توثيق المخبرين."
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "status": "generated_not_bilingual_reviewed_not_publication_approved",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document": "HIJRAH-20-PAGES.md",
+  "locale": "tr",
+  "question_type": "single_choice",
+  "grading": "one_point_correct_zero_incorrect_or_skipped",
+  "review_status": "generated_not_bilingual_reviewed",
+  "questions": [
+    {
+      "question_id": "HQ-B01",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Sunulan Âişe rivayetine göre, mağarada kaldıkları sırada insanların Peygamber ﷺ ve Ebû Bekir'e karşı planladıklarının haberini kim getiriyordu?",
+      "options": [
+        {
+          "option_id": "news",
+          "text": "Abdullah b. Ebû Bekir",
+          "feedback": "Rivayet, duyduklarını belleğinde tutup karanlık bastığında haberini onlara getirdiğini belirtir."
+        },
+        {
+          "option_id": "milk",
+          "text": "Âmir b. Füheyre",
+          "feedback": "Rivayet, onun koyunları otlatmasını ve süt getirmesini anlatır; haber getirmesini değil."
+        },
+        {
+          "option_id": "guide",
+          "text": "Kiralanan kılavuz",
+          "feedback": "Kılavuzdan yararlanma sonraki yolculuk için anlatılır; bu bölüm haber getirmeyi ona nispet etmez."
+        }
+      ],
+      "correct_option_id": "news",
+      "explanation": "Yardım farklı görevler arasında paylaşılmıştı: Bu rivayette haber aktarma görevi Abdullah b. Ebû Bekir'e aittir.",
+      "scope_note": "Soru, metindeki görev hakkındadır; giriş güzergâhı veya günümüzdeki saat sistemiyle belirli bir saat hakkında değildir."
+    },
+    {
+      "question_id": "HQ-B02",
+      "difficulty": "beginner",
+      "objective_id": "identify_contribution",
+      "step_id": "thawr",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Rivayet, Âmir b. Füheyre'nin mağarada nasıl bir yardımını anlatır?",
+      "options": [
+        {
+          "option_id": "milk",
+          "text": "Koyunları otlatmak ve ikisine süt sağlamak",
+          "feedback": "Rivayet, onun koyunları otlatmasını her gece süt koyunlarından elde edilen sütle ilişkilendirir."
+        },
+        {
+          "option_id": "boat",
+          "text": "Yolculuk için bir gemi hazırlamak",
+          "feedback": "Rivayet onun yardımları arasında bir gemiden söz etmez."
+        },
+        {
+          "option_id": "news",
+          "text": "Kureyş'in toplantılarında haber toplamak",
+          "feedback": "Haber aktarmada anlatılan görev Abdullah b. Ebû Bekir'e aittir."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation": "Âmir b. Füheyre süt veren koyunları otlatır, sonra onların yanına getirir. Rivayet sütten ve bunun üç gece boyunca tekrarlanmasından söz eder.",
+      "scope_note": "Soru, metne ayak izlerini silme iddiasını eklemez."
+    },
+    {
+      "question_id": "HQ-B03",
+      "difficulty": "beginner",
+      "objective_id": "understand_preparation",
+      "step_id": "preparations",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1"
+      ],
+      "prompt": "Sunulan Esmâ haberinde, kuşağını neden ikiye ayırdı?",
+      "options": [
+        {
+          "option_id": "tie",
+          "text": "Bağlayacak başka bir şey bulamadığı için su tulumunu ve azık torbasını bağlamak üzere",
+          "feedback": "Esmâ'nın belirttiği ihtiyaç budur; ikisini iki parçayla bağladığını anlatır."
+        },
+        {
+          "option_id": "route",
+          "text": "Kılavuzun izleyeceği yolu belirlemek için",
+          "feedback": "Haber, su tulumu ve azık torbasının hazırlanması hakkındadır; yolun belirlenmesi hakkında değil."
+        },
+        {
+          "option_id": "letter",
+          "text": "Sürâka'ya bir eman belgesi yazmak için",
+          "feedback": "Sürâka'nın belgesi, kuşak haberinde yer almaz."
+        }
+      ],
+      "correct_option_id": "tie",
+      "explanation": "Metin, hazırlık sırasında pratik bir çözümü anlatır: İki parçayı bağlama işinde kullanmak için kuşağı ikiye ayırmak.",
+      "scope_note": "Bu bir hazırlık haberidir; soru bunu her gece mağaraya yemek götürüldüğünün kanıtına dönüştürmez."
+    },
+    {
+      "question_id": "HQ-B04",
+      "difficulty": "beginner",
+      "objective_id": "understand_guide_role",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Yol göstermekte usta bir kişiden yararlanılması ve ardından sahil yolunun anılması hangi görevi ortaya koyar?",
+      "options": [
+        {
+          "option_id": "lead",
+          "text": "Mağaradaki buluşmadan sonra yolculara yolda kılavuzluk etmek",
+          "feedback": "İki bölüm, onun yol gösterme becerisini yolcuları sahil yolunda götürmesine bağlar."
+        },
+        {
+          "option_id": "build",
+          "text": "Medine'de mescidi yapmak",
+          "feedback": "İki bölüm, inşaatı kılavuzun görevi olarak belirtmez."
+        },
+        {
+          "option_id": "news",
+          "text": "Her gece Kureyş'in haberlerini mağaraya aktarmak",
+          "feedback": "İki bölümde kılavuza verilen görev bu değildir."
+        }
+      ],
+      "correct_option_id": "lead",
+      "explanation": "Kılavuz için yapılan hazırlık ve onunla buluşma zamanı, mağara aşamasını yeniden yola koyuluşa bağlar. Belirtilen beceri, yolda kılavuzluk becerisidir.",
+      "scope_note": "Soru, bu iki bölümün belirtmediği koordinatları veya kişisel bir adı varsaymaz."
+    },
+    {
+      "question_id": "HQ-B05",
+      "difficulty": "beginner",
+      "objective_id": "understand_safety_guarantee",
+      "step_id": "pursuit",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1"
+      ],
+      "prompt": "Sunulan Sürâka rivayetinde, takibi bıraktıktan sonra Peygamber ﷺ ile karşılaşınca ne istedi?",
+      "options": [
+        {
+          "option_id": "guarantee",
+          "text": "Kendisine bir güvence belgesi yazılmasını",
+          "feedback": "Sürâka, kendisine bir güvence belgesi yazmasını istediğini; bunun üzerine Âmir b. Füheyre'ye yazma emri verildiğini söyler."
+        },
+        {
+          "option_id": "reward",
+          "text": "Peygamber'in ﷺ kendisine Kureyş'in ödülünü vermesini",
+          "feedback": "Ödül, rivayetin başında Kureyş'in teklifi olarak geçer; burada istenen şey değildir."
+        },
+        {
+          "option_id": "provisions",
+          "text": "Peygamber'in ﷺ kendisine yiyecek ve eşya vermesini",
+          "feedback": "İkisine azık ve eşya sunan Sürâka'dır; onlar kendisinden bunları almadılar."
+        }
+      ],
+      "correct_option_id": "guarantee",
+      "explanation": "Haber, Kureyş'in ödül teklifini, Sürâka'nın azık teklifini ve onun güvence belgesi istemesini birbirinden ayırır. Güvence belgesini isteyen Sürâka'dır.",
+      "scope_note": "Metin, yazılı belgenin ifadelerini vermez."
+    },
+    {
+      "question_id": "HQ-I01",
+      "difficulty": "intermediate",
+      "objective_id": "connect_preparation_and_departure",
+      "step_id": "onward",
+      "practice_scope": "lesson",
+      "source_unit_ids": [
+        "H-1681-5899-GUIDE:p1",
+        "H-1681-5899-COAST:p1"
+      ],
+      "prompt": "Kılavuza ilişkin birbirini izleyen iki bölümü oku. Hangi ifade, belirtilmeyen bir ayrıntı eklemeden hazırlığı yolculuğun devamına bağlar?",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text": "İki binek devesini ona emanet edip üç gece sonra Sevr Mağarası'nda buluşmak üzere sözleştiler; sonra o da onlarla yola çıktı.",
+          "feedback": "Bu seçenek, iki bölümde geçtiği gibi iki binek devesini, buluşma zamanını ve yol arkadaşlığını bir araya getirir."
+        },
+        {
+          "option_id": "waiting",
+          "text": "Kılavuz üç gece boyunca onlarla birlikte mağaranın içinde kaldı.",
+          "feedback": "Mağaradaki buluşma, kılavuzun üç geceyi orada geçirdiğini kanıtlamaz."
+        },
+        {
+          "option_id": "water",
+          "text": "Rivayet sahil yolundan söz ettiği için denizde yolculuk ettiler.",
+          "feedback": "Sahil yolu, yolun niteliğini anlatır; metin denizde yolculuktan söz etmez."
+        }
+      ],
+      "correct_option_id": "meeting",
+      "explanation": "İlk bölümün sonundaki «onunla buluşmak üzere sözleştiler» ifadesi, ikinci bölümde mağaradaki buluşma zamanıyla tamamlanır. Ardından ikinci bölüm, Âmir ile kılavuzun onlarla çıkışını anlatır.",
+      "scope_note": "İki bölüm kendi sıralarıyla sunulur; aynı hadisin devamıdırlar, birbirinden bağımsız iki tanık değildirler."
+    },
+    {
+      "question_id": "HQ-I02",
+      "difficulty": "intermediate",
+      "objective_id": "distinguish_related_contributions",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-4718-ASMA:p1",
+        "H-1681-5899-CAVE:p1"
+      ],
+      "prompt": "Hangi özet, iki metinde Esmâ ve Abdullah b. Ebû Bekir için anlatılan görevlerin farklılığını korur?",
+      "options": [
+        {
+          "option_id": "roles",
+          "text": "Esmâ azığı ve su tulumunu bağlamak için araç hazırlar; Abdullah ise mağarada kalış sırasında haber getirir.",
+          "feedback": "Bu seçenek, her birine nispet edilen eylemi ve aşamayı korur."
+        },
+        {
+          "option_id": "swapped",
+          "text": "Abdullah bağlamak için kuşağını ikiye ayırır; Esmâ Kureyş'in haberlerini toplar.",
+          "feedback": "Bu, iki metindeki görev nispetlerini tersine çevirir."
+        },
+        {
+          "option_id": "same",
+          "text": "İki metin aynı kişinin aynı işini anlatır.",
+          "feedback": "İkisi de yardım etse de kişiler ve işler farklıdır."
+        }
+      ],
+      "correct_option_id": "roles",
+      "explanation": "Aile bireylerinin yardıma katılması, hazırlık haberleriyle mağarada kalış haberlerini tek bir haber veya tek bir görev hâline getirmez.",
+      "scope_note": "Karşılaştırma, sunulan iki bölümle sınırlıdır; bu metinler dışında yaptıkları her türlü başka işi inkâr etmez."
+    },
+    {
+      "question_id": "HQ-I03",
+      "difficulty": "intermediate",
+      "objective_id": "identify_commentator",
+      "step_id": "onward",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-511-GUIDE:p1",
+        "H-23833-511-GUIDE:p2"
+      ],
+      "prompt": "Metin «Abdullah b. Erkat (أرقط)» adını, ardından «Abdullah b. Ureykıt (أريقط) da denilir» ifadesini sunar. İkinci ifadeyi açıkça kime nispet eder?",
+      "options": [
+        {
+          "option_id": "hisham",
+          "text": "İbn Hişâm",
+          "feedback": "Metin, ifadeyi «İbn Hişâm dedi ki» aktarım işaretiyle ayırır."
+        },
+        {
+          "option_id": "asma",
+          "text": "Esmâ bint Ebû Bekir",
+          "feedback": "Önceki haberde Esmâ'nın anılması, İbn Hişâm'ın yorumunu onun sözü yapmaz."
+        },
+        {
+          "option_id": "guide",
+          "text": "Kılavuz kendisinden söz ediyor.",
+          "feedback": "Metin burada kılavuzun kendisi hakkındaki bir sözünü sunmaz."
+        }
+      ],
+      "correct_option_id": "hisham",
+      "explanation": "Haber ile nakledenin yorumu arasındaki ayrım korunur: «İbn Hişâm dedi ki», adlardan birini sessizce düzeltmeden alternatif biçimin sahibini belirler.",
+      "scope_note": "Kaynak okuma konusunda isteğe bağlı bir alıştırmadır; ad farklılığını ezberlemek temel dersi anlamanın koşulu değildir."
+    },
+    {
+      "question_id": "HQ-I04",
+      "difficulty": "intermediate",
+      "objective_id": "preserve_reported_alternative",
+      "step_id": "quba",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-23833-516-820:p1"
+      ],
+      "prompt": "Hangi ifade, İbn İshak'ın Kubâ'daki ev sahibi hakkındaki anlatımını ihtiyat kaydını koruyarak özetler?",
+      "options": [
+        {
+          "option_id": "qualified",
+          "text": "Külsûm b. Hidm'in yanında konaklamayı anlatır, Sa‘d b. Hayseme'nin yanında konaklandığı görüşünü de aktarır; ikisi arasında kesin karar vermez.",
+          "feedback": "«Anlattıklarına göre» ve «denilir» ifadeleri, ardından «en doğrusunu Allah bilir» ve «her ikisini de duyduk» geçer."
+        },
+        {
+          "option_id": "unanimous",
+          "text": "Bütün râvilerin tek bir ev sahibinde uzlaştığını kesin olarak söyler.",
+          "feedback": "Diğer görüşün aktarılması ve ihtiyat kaydı, uzlaşma iddiasını engeller."
+        },
+        {
+          "option_id": "deny",
+          "text": "Peygamber'in ﷺ ikisinden birinin yanında konakladığını inkâr eder.",
+          "feedback": "İki görüşün sunulması, ikisinin de inkârı değildir."
+        }
+      ],
+      "correct_option_id": "qualified",
+      "explanation": "Özet, belirtilen alternatifi ve kesin karar verilmemesini korur. Sa‘d'ın evinde oturmaya ilişkin açıklama, Külsûm'un yanında konakladığını söyleyenlerin görüşü olarak yer alır; sorunun kesin hükmü olarak değil.",
+      "scope_note": "Soru, bölüm dışındaki bilgilere dayanarak ev sahiplerinden birini tercih etmeni istemez."
+    },
+    {
+      "question_id": "HQ-E01",
+      "difficulty": "expert",
+      "objective_id": "compare_judgment_scope",
+      "step_id": "thawr",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-930-761-JUDGMENT:p1",
+        "H-25794-2309-CRIT-ARNAUTBEGIN:p1",
+        "H-25794-2310-CRIT-ARNAUT:p1"
+      ],
+      "prompt": "Örümcek haberinin isnadı hakkındaki iki hükmü oku. Bu karşılaştırma doğrudan hangi sonucu destekler?",
+      "options": [
+        {
+          "option_id": "difference",
+          "text": "İbn Kesîr isnadı hasen sayar, Risâle baskısının muhakkikleri ise zayıf sayar; hükmü söyleyen kişiye nispet etmek gerekir.",
+          "feedback": "Sunulan iki hüküm ifadesinin sınırları bunlardır; karşılaştırmayı tek bir ortak hükme dönüştürme."
+        },
+        {
+          "option_id": "all",
+          "text": "İki metin, mağara hakkındaki bütün rivayetlerin sahihliğinde uzlaşmıştır.",
+          "feedback": "Hükümleri farklıdır; söyledikleri, mağara hakkındaki bütün rivayetleri sahih saymak değildir."
+        },
+        {
+          "option_id": "pigeons",
+          "text": "İbn Kesîr'in buradaki hasen hükmü, iki güvercin haberinin bütün tariklerini bağımsız olarak sahih sayar.",
+          "feedback": "İfade, örümceğin ağ örmesi haberi hakkındadır; hükmün iki güvercin haberinin bütün tariklerine genellenmesini haklı kılmaz."
+        }
+      ],
+      "correct_option_id": "difference",
+      "explanation": "İlk metin «Bu hasen bir isnaddır» der ve örümcek haberini niteler; ikincisi «İsnadı zayıftır» diye başlar. Sunulan hükümlerdeki karşıtlık, uzlaşma uydurmayı değil, hükmün sahibini ve kapsamını korumayı gerektirir.",
+      "scope_note": "Karşılaştırma, iki hükmü sahiplerine nispet edilmiş görüşler olarak sunar. Paketten sorumlu editörün tariklerin bağımsızlığını araştırdığını veya sahihlikleri konusunda tercih yaptığını iddia etmez."
+    },
+    {
+      "question_id": "HQ-E02",
+      "difficulty": "expert",
+      "objective_id": "compare_narrative_details",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1681-5900-SURAQA:p1",
+        "H-1342-5-MUSA-EARLY-SURAQA:p1"
+      ],
+      "prompt": "İlk metinde Peygamber ﷺ Âmir'e yazmasını emreder, ikincisinde Ebû Bekir'e. Hangi karşılaştırma biçimi iki bölümdeki bilgiyi korur?",
+      "options": [
+        {
+          "option_id": "preserve",
+          "text": "Her bölümde adı geçen kâtibi kendi rivayetine nispet eder; ikisini uzlaştıran bir açıklama uydurmaz.",
+          "feedback": "Her bölüm bir kâtibin adını verir; iki bölüm, belgeyi birlikte yazdıklarını söylemez."
+        },
+        {
+          "option_id": "together",
+          "text": "İkisinin tek bir belgeyi birlikte yazdığını kesin olarak söyler.",
+          "feedback": "Bu, iki bölümden hiçbirinin açıkça belirtmediği bir uzlaştırmadır."
+        },
+        {
+          "option_id": "erase",
+          "text": "İki rivayet eşleşsin diye ikinci metindeki Ebû Bekir adını Âmir ile değiştirir.",
+          "feedback": "Bu, farklılığı açıklamak yerine nakli değiştirir."
+        }
+      ],
+      "correct_option_id": "preserve",
+      "explanation": "Karşılaştırma, ayrıntı farklılığını nakledildiği şekliyle saptamakla başlar; tek başına kâtiplerden birini tercih etmeye veya iki bağımsız tarik bulunduğunu kanıtlamaya yetmez.",
+      "scope_note": "Sunulan metni karşılaştırma alıştırmasıdır; nakledenlerin adlarını ezberleme veya iki rivayetin sahihliğine hükmetme sınavı değildir."
+    },
+    {
+      "question_id": "HQ-E03",
+      "difficulty": "expert",
+      "objective_id": "separate_later_event",
+      "step_id": "pursuit",
+      "practice_scope": "source_study",
+      "source_unit_ids": [
+        "H-1655-1021-CRIT-SHAFIIUMAR:p1"
+      ],
+      "prompt": "Bu bölüm Sürâka'ya iki bileziğin giydirilmesini anlatır, fakat Ömer b. Hattâb ve ona ulaşan mallarla başlar. Takip kıssasıyla birlikte kullanıldığında hangi kaydın korunması gerekir?",
+      "options": [
+        {
+          "option_id": "later",
+          "text": "Bileziklerin giydirilmesi takip sahnesine yerleştirilmez; burada nakledilen olay Ömer zamanındadır.",
+          "feedback": "Ömer ve Irak'tan gelen mallar, bu bölümde olayın bağlamını oluşturur."
+        },
+        {
+          "option_id": "same",
+          "text": "Bileziklerin giydirilmesi, Sürâka'nın yolda Peygamber ﷺ ile karşılaştığı anda gerçekleşti.",
+          "feedback": "Bu, olayı burada belirtilenden başka bir zamana ve sahneye taşır."
+        },
+        {
+          "option_id": "dated",
+          "text": "Bölüm, mağaradan ayrılış tarihini belirler.",
+          "feedback": "Bölümün konusu mağaradan ayrılış tarihi değil, Ömer zamanındaki mallar ve iki bileziktir."
+        }
+      ],
+      "correct_option_id": "later",
+      "explanation": "Aynı kişinin iki kıssayla bağlantılı olması, iki olayı aynı zamana yerleştirmez. Buradaki haber, bu yerde adları verilmeyen ilim ehlinden aktarılır. Bağlamı okumak, bütün haberleri sahih saymak değildir.",
+      "scope_note": "Ayetten önceki kısım eksiksiz gösterilir; bu not haberi nakledilen ayetle karıştırmaz veya habercilerin güvenilirliğini belgelendirdiğini iddia etmez."
+    }
+  ],
+  "translation_notes": {
+    "quiz:HQ-E01:scope_note_ar": "حفظ مرجع المسؤول إلى محرر الحزمة وفق تنبيه العربية، لا المتعلم الذي يجيب؛ لا تغيير للجواب أو المصدر."
+  }
+}
