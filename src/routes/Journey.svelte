@@ -54,7 +54,7 @@
 <script>
     import { onMount } from 'svelte'
     const { route } = window.navgo
-    import { change_language, saved_language } from '../lib/i18n.js'
+    import { change_language, fmt_num, saved_language } from '../lib/i18n.js'
     import { locales } from '../lib/locale-config.js'
     import { SvelteSet } from 'svelte/reactivity'
     import { fade, fly } from 'svelte/transition'
@@ -438,7 +438,7 @@
 
     function format_time(seconds) {
         const whole = Math.floor(seconds)
-        return `${Math.floor(whole / 60)}:${String(whole % 60).padStart(2, '0')}`
+        return fmt_num(`${Math.floor(whole / 60)}:${String(whole % 60).padStart(2, '0')}`)
     }
 
     function cancel_advance() {
@@ -1298,8 +1298,8 @@
             >
                 <span
                     class="grid shrink-0 min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
-                    >{source.number}</span
-                ><span class="min-w-0 break-words" dir="auto">{source.reference}</span>
+                    >{fmt_num(source.number)}</span
+                ><span class="min-w-0 break-words" dir="auto">{fmt_num(source.reference)}</span>
             </a>
         {/each}
     </div>
@@ -1469,7 +1469,7 @@
                         <span
                             class="absolute bottom-0 text-muted text-[0.6875rem] tabular-nums whitespace-nowrap [translate:-50%_0]"
                             style:left={`${(day / timeline_days) * 100}%`}
-                            >{date.day}{date.september ? '' : ' Oct'}</span
+                            >{fmt_num(date.day)}{date.september ? '' : ' Oct'}</span
                         >
                     {/if}
                 {/each}
@@ -1499,7 +1499,7 @@
                     ></a>
                 {/each}
                 <input
-                    class="absolute start-0 end-0 bottom-[14px] h-[4px] w-full m-0 opacity-0 hover:opacity-100 focus-visible:opacity-100 accent-[#e8b257] cursor-ew-resize"
+                    class="absolute start-0 end-0 bottom-[14px] h-[4px] w-full m-0 opacity-60 hover:opacity-100 focus-visible:opacity-100 accent-[#e8b257] cursor-ew-resize"
                     type="range"
                     min="0"
                     max={timeline_days}
@@ -1730,9 +1730,9 @@
             <p
                 class="flex flex-wrap gap-x-0 gap-y-[6px] mt-5 mb-7 text-ink-soft text-[0.875rem] [&>span+span]:before:mx-[10px] [&>span+span]:before:text-gold [&>span+span]:before:content-['·'] mobile:mt-[14px] mobile:mb-5"
             >
-                <span>{chapter.steps.length} stages</span>
-                <span>about {total_minutes} minutes</span>
-                <span>{chapter.sources.length} cited passages</span>
+                <span>{fmt_num(chapter.steps.length)} stages</span>
+                <span>about {fmt_num(total_minutes)} minutes</span>
+                <span>{fmt_num(chapter.sources.length)} cited passages</span>
             </p>
             <div
                 class="grid grid-cols-3 gap-2 mb-5 mobile:grid-cols-1 mobile:mb-4"
@@ -1820,8 +1820,9 @@
                             <span
                                 class="relative z-1 grid size-7 place-items-center text-ink-soft bg-[#1b1813] border border-solid border-line-strong rounded-[50%] text-[0.8125rem] font-semibold group-data-[done=true]/stop:text-gold group-data-[done=true]/stop:border-gold group-data-[active=true]/stop:text-gold-ink group-data-[active=true]/stop:bg-gold group-data-[active=true]/stop:border-gold-bright group-data-[active=true]/stop:shadow-[0_0_0_4px_rgba(232,178,87,0.2)] mobile:group-data-[active=false]/stop:size-[10px] mobile:group-data-[active=false]/stop:text-[0px] mobile:group-data-[active=false]/stop:[&>svg]:hidden mobile:group-data-[done=true]/stop:bg-gold"
                             >
-                                {#if index < selected_index}{@render icon('check')}{:else}{index +
-                                        1}{/if}
+                                {#if index < selected_index}{@render icon('check')}{:else}{fmt_num(
+                                        index + 1,
+                                    )}{/if}
                             </span>
                             <span
                                 class="font-serif text-[1.0625rem] leading-[1.25] mobile:truncate mobile:text-[1rem] mobile:group-data-[active=false]/stop:hidden"
@@ -1848,7 +1849,7 @@
                     <p class={kicker} id="practice-title">
                         Check your understanding
                         {#if practice_question}
-                            · {practice.index + 1} / {practice.questions.length}{/if}
+                            · {fmt_num(practice.index + 1)} / {fmt_num(practice.questions.length)}{/if}
                     </p>
                     {#if mode_levels[mode].levels.length > 1 && !practice_step}
                         <div class="flex flex-wrap gap-2" role="group" aria-label="Level">
@@ -1982,7 +1983,7 @@
                 {@const reread = stages_to_reread()}
                 <div class="grid gap-3" in:fade>
                     <p class="font-serif text-[1.5rem] leading-[1.25]">
-                        {score.correct} / {score.total}
+                        {fmt_num(score.correct)} / {fmt_num(score.total)}
                     </p>
                     <p class="text-ink-soft">
                         Correct answers, out of the questions in this set.
@@ -2048,7 +2049,7 @@
                 </div>
             {:else}
                 <p class={kicker}>
-                    Stage {selected_index + 1} of {chapter.steps.length} · {selected_step.title}
+                    Stage {fmt_num(selected_index + 1)} of {fmt_num(chapter.steps.length)} · {selected_step.title}
                 </p>
                 <div
                     class="grid min-h-[6.6rem] content-start [&>*]:[grid-area:1/1] mobile:min-h-[8.6rem]"
@@ -2140,7 +2141,7 @@
                             {@render icon('ask')} Check your understanding
                             <span
                                 class="min-w-5 px-[6px] py-px text-gold-bright bg-[rgba(232,178,87,0.16)] rounded-full text-[0.75rem]"
-                                >{stage_questions.length}</span
+                                >{fmt_num(stage_questions.length)}</span
                             >
                         </button>
                     {/if}
@@ -2182,7 +2183,7 @@
                         {@render icon('sources')} Sources
                         <span
                             class="min-w-5 py-px px-[6px] text-gold-bright bg-[rgba(232,178,87,0.16)] rounded-full text-[0.75rem]"
-                            >{visible_sources.length}</span
+                            >{fmt_num(visible_sources.length)}</span
                         >
                     </a>
                     <a
@@ -2361,19 +2362,28 @@
                 <!-- All of the stage's sources in one scroll; the one asked for is highlighted. -->
                 <div class={sheet_body} bind:this={source_list} data-scroll-id="journey-sources">
                     {#each drawer_sources as source (source.id)}
+                        <!-- The one the learner opened is marked by a gold edge. -->
                         <article
-                            class="grid gap-3 p-4 border border-solid border-line rounded-2xl scroll-mt-4 transition-[border-color,background] duration-500 data-[active=true]:border-gold data-[active=true]:bg-[rgba(232,178,87,0.07)]"
+                            class="grid gap-3 py-5 ps-4 border-0 border-t border-s-2 border-solid border-line border-s-transparent first:border-t-0 first:pt-1 scroll-mt-4 transition-[border-color] duration-500 data-[active=true]:border-s-gold"
                             data-source={source.id}
                             data-active={source.id === active_source.id}
                         >
-                            <div>
-                                <p class={kicker}>Source {source.number}</p>
-                                <h3
-                                    class="mt-1 font-serif text-[1.25rem] font-medium leading-[1.2]"
+                            <p class="flex gap-[10px] items-center text-muted text-[0.875rem]">
+                                <span
+                                    class="grid shrink-0 min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
+                                    >{fmt_num(source.number)}</span
                                 >
-                                    {source.reference}
-                                </h3>
-                            </div>
+                                <span class="min-w-0"
+                                    ><span
+                                        class="text-ink-soft font-arabic text-[1.0625rem]"
+                                        lang="ar"
+                                        dir="rtl">{source.work}</span
+                                    > {#if source.volume}
+                                        · vol. {fmt_num(source.volume)}, p. {fmt_num(
+                                            source.page,
+                                        )}{/if}</span
+                                >
+                            </p>
                             <blockquote
                                 class="py-4 px-5 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 border-r-[3px] border-solid border-gold rounded-xl font-arabic text-[1.375rem] leading-[2]"
                                 dir="rtl"
@@ -2381,31 +2391,14 @@
                             >
                                 {source.excerpt}
                             </blockquote>
-                            <p class="mt-[-6px] text-muted text-[0.875rem]">
-                                <span
-                                    class="text-ink-soft font-arabic text-[1.0625rem]"
-                                    lang="ar"
-                                    dir="rtl">{source.work}</span
-                                >
-                                {#if source.volume}
-                                    · vol. {source.volume}, p. {source.page}{/if}
-                            </p>
                             {#if mode === 'new' && kind_notes[source.kind]}
                                 <p class={fine_print}>{kind_notes[source.kind]}</p>
                             {/if}
                             {#if !source.retrieved}
-                                <dl
-                                    class="grid gap-[14px] [&>div]:pl-[14px] [&>div]:border-0 [&>div]:border-l-2 [&>div]:border-solid [&>div]:border-[#7fae7a] [&_dt]:mb-1 [&_dt]:text-muted [&_dt]:text-[0.8125rem] [&_dt]:font-semibold [&_dt]:tracking-[0.06em] [&_dt]:uppercase [&_dd]:text-ink [&_dd]:leading-[1.55]"
-                                >
-                                    <div>
-                                        <dt>What this passage supports</dt>
-                                        <dd>{source.explanation}</dd>
-                                    </div>
-                                    <div class="border-l-[#d98a5a]!">
-                                        <dt>What it does not establish</dt>
-                                        <dd>{source.limits}</dd>
-                                    </div>
-                                </dl>
+                                <p class="text-ink-soft text-[0.9375rem] leading-[1.55]">
+                                    {source.explanation}
+                                </p>
+                                <p class={fine_print}>{source.limits}</p>
                             {:else if source.truncated}
                                 <p class={fine_print}>
                                     This passage is shortened. Open the original page for its full
@@ -2413,12 +2406,14 @@
                                 </p>
                             {/if}
                             <a
-                                class="{ghost_button} justify-self-start"
+                                class="inline-flex gap-2 items-center justify-self-end text-gold font-semibold text-[0.9375rem] hover:text-gold-bright"
                                 href={source.url}
                                 target="_blank"
                                 rel="noreferrer"
+                                title={`Open the page on Turath: ${source.reference}`}
                             >
-                                Open the page on Turath {@render icon('external')}
+                                <span dir="auto">{fmt_num(source.reference)}</span>
+                                {@render icon('external')}
                             </a>
                         </article>
                     {/each}

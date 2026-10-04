@@ -2,6 +2,38 @@
 @import 'tailwindcss/theme.css' layer(theme);
 @import 'tailwindcss/utilities.css' layer(utilities) source('./');
 
+/* Kitab, from Nuqayah, for Arabic interface text; its phrase set covers ﷺ and similar. */
+@font-face {
+    font-family: Kitab;
+    src: url(https://fonts.nuqayah.com/kitab-base.woff2?v4);
+    font-display: swap;
+    unicode-range:
+        U+200?, U+60C, U+618-61B, U+61F, U+621-63A, U+640-655, U+65C, U+660-66C, U+670-671,
+        U+6CC, U+6D4, U+6D6-6DD, U+6DF-6E8, U+6EA-6ED, U+8F0-8F3, U+FD3E-FD3F, U+FDF2;
+}
+@font-face {
+    font-family: Kitab;
+    src: url(https://fonts.nuqayah.com/kitab-base-bold.woff2?v4);
+    font-weight: 700;
+    font-display: swap;
+    unicode-range:
+        U+200?, U+60C, U+618-61B, U+61F, U+621-63A, U+640-655, U+65C, U+660-66C, U+670-671,
+        U+6CC, U+6D4, U+6D6-6DD, U+6DF-6E8, U+6EA-6ED, U+8F0-8F3, U+FD3E-FD3F, U+FDF2;
+}
+@font-face {
+    font-family: Kitab;
+    src: url(https://fonts.nuqayah.com/kitab-phrases.woff2?v4);
+    font-display: swap;
+    unicode-range: U+6DE, U+6E9, U+E100-E103, U+FD3E-FD45, U+FD47-FD4F, U+FDFA-FDFB, U+FDFD-FDFF;
+}
+@font-face {
+    font-family: Kitab;
+    src: url(https://fonts.nuqayah.com/kitab-phrases.woff2?v4);
+    font-weight: 700;
+    font-display: swap;
+    unicode-range: U+6DE, U+6E9, U+E100-E103, U+FD3E-FD45, U+FD47-FD4F, U+FDFA-FDFB, U+FDFD-FDFF;
+}
+
 @theme {
     --spacing: 4px;
     --radius-xl: 12px;
@@ -16,9 +48,10 @@
     --color-line-strong: rgba(232, 178, 87, 0.5);
     --color-panel: rgba(17, 15, 12, 0.72);
     --color-panel-solid: rgba(19, 17, 13, 0.94);
-    --font-serif: Newsreader, Georgia, serif;
-    --font-sans: 'DM Sans', system-ui, sans-serif;
-    --font-arabic: Amiri, 'Noto Naskh Arabic', serif;
+    /* Arabic inside Latin text falls through to Amiri (serif) or Kitab (sans). */
+    --font-serif: Newsreader, Amiri, Georgia, serif;
+    --font-sans: 'DM Sans', Kitab, system-ui, sans-serif;
+    --font-arabic: Amiri, Kitab, serif;
     --animate-rise: rise 0.9s ease both;
 
     @keyframes rise {
@@ -68,7 +101,7 @@
     }
     :root:dir(rtl) {
         --font-serif: var(--font-arabic);
-        --font-sans: system-ui, sans-serif;
+        --font-sans: Kitab, system-ui, sans-serif;
     }
     :is(:lang(ar), :lang(ur), :lang(fa), :lang(ps)) :is(h1, h2, h3, p) {
         letter-spacing: normal;

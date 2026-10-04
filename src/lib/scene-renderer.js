@@ -950,8 +950,11 @@ export async function create_scene(
         const wheel = (event) => {
             event.preventDefault()
             flight = null
+            // A trackpad pinch arrives as ctrl+wheel in small steps; scale it to keep pace
+            // with the fingers. Line-based wheels (Firefox) report lines, not pixels.
+            const pixels = event.deltaY * (event.deltaMode === 1 ? 16 : 1)
             view.distance = clamp(
-                view.distance * Math.exp(event.deltaY * 0.001),
+                view.distance * Math.exp(pixels * (event.ctrlKey ? 0.01 : 0.001)),
                 ...world_definitions.region.zoom,
             )
             // An overview target can sit kilometres above ground; close orbit must not.

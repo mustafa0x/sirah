@@ -235,7 +235,7 @@
     dir={chapter?.locale === 'ar' ? 'rtl' : 'ltr'}
     lang={chapter?.locale ?? 'en'}
     style:--font-serif={chapter?.locale === 'ar'
-        ? "Amiri, 'Noto Naskh Arabic', serif"
+        ? 'Amiri, Kitab, serif'
         : 'Newsreader, Georgia, serif'}
     aria-labelledby="chapter-title"
     transition:fly={{ x: 40, duration: 260 }}

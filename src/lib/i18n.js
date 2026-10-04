@@ -1,6 +1,15 @@
 import { loadLocale } from 'wuchale/load-utils'
 import { default_language, language_direction, normalize_language } from './locale-config.js'
 
+const arabic_digits = '٠١٢٣٤٥٦٧٨٩'
+
+// Write numbers in Arabic digits when the interface is Arabic. Changing the
+// language reloads the page, so reading the document language is enough.
+export function fmt_num(value) {
+    if (document.documentElement.lang !== 'ar') return value
+    return String(value).replace(/[0-9]/g, (digit) => arabic_digits[digit])
+}
+
 export function saved_language() {
     const linked = new URL(location.href).searchParams.get('lang')
     if (linked) return normalize_language(linked)
