@@ -1086,7 +1086,7 @@ export async function create_scene(
         let previous = performance.now()
         const render = (now) => {
             if (disposed) return
-            const delta = Math.min(0.1, (now - previous) / 1000)
+            const delta = clamp((now - previous) / 1000, 0, 0.1)
             previous = now
             const ease = reduced_motion ? 1 : 1 - Math.exp(-delta * 2.2)
 
