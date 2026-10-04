@@ -1,0 +1,50 @@
+{
+  "chapter_order": [
+    "hch_thawr"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "hch_thawr",
+      "title_ar": "ثلاث ليال في ثور",
+      "path": "hch_thawr/chapter.ar.json",
+      "revision": 2,
+      "topic_ids": [
+        "thawr.nightly_support",
+        "thawr.companionship",
+        "cave_verse.quoted_verse",
+        "guide.hiring",
+        "guide.appointment"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "place_id": "makkah",
+      "name_ar": "مكة",
+      "chapter_ids": [
+        "hch_thawr"
+      ]
+    },
+    {
+      "place_id": "thawr",
+      "name_ar": "جبل ثور",
+      "chapter_ids": [
+        "hch_thawr"
+      ]
+    },
+    {
+      "place_id": "cave",
+      "name_ar": "الغار",
+      "chapter_ids": [
+        "hch_thawr"
+      ]
+    },
+    {
+      "place_id": "coast",
+      "name_ar": "طريق السواحل",
+      "chapter_ids": [
+        "hch_thawr"
+      ]
+    }
+  ]
+}

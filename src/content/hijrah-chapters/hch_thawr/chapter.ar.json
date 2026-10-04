@@ -1,0 +1,3545 @@
+{
+  "schema_version": 1,
+  "chapter_id": "hch_thawr",
+  "revision": 2,
+  "title_ar": "ثلاث ليال في ثور",
+  "reader_question_ar": "كيف جرى المكث في الغار، ومن أعان على مواصلة الرحلة؟",
+  "core_ids": [
+    "hc_thawr_nightly_support",
+    "hc_thawr_exp_companionship",
+    "hc_caveverse_text",
+    "hc_guide_hiring",
+    "hc_guide_appointment"
+  ],
+  "topic_ids": [
+    "thawr.nightly_support",
+    "thawr.companionship",
+    "cave_verse.quoted_verse",
+    "guide.hiring",
+    "guide.appointment"
+  ],
+  "place_links": [
+    {
+      "place_id": "thawr",
+      "relation": "setting",
+      "claim_ids": [
+        "thawr_stay"
+      ]
+    },
+    {
+      "place_id": "cave",
+      "relation": "setting",
+      "claim_ids": [
+        "thawr_stay"
+      ]
+    },
+    {
+      "place_id": "makkah",
+      "relation": "mentioned",
+      "claim_ids": [
+        "abdullah_pattern"
+      ]
+    },
+    {
+      "place_id": "coast",
+      "relation": "mentioned",
+      "claim_ids": [
+        "appt_coast"
+      ]
+    }
+  ],
+  "related_chapter_ids": [],
+  "overview": [
+    {
+      "paragraph_id": "hch_thawr_overview",
+      "text_ar": "تروي عائشة أن النبي ﷺ وأبا بكر مكثا ثلاث ليال في غار بجبل ثور. تصف روايتها عبد الله بن أبي بكر وهو يحمل الأخبار من مكة، وعامر بن فهيرة وهو يرعى الغنم ويوفر اللبن. وفي خبر يرويه أنس عن أبي بكر، نقرأ خشية أبي بكر حين رأى أقدام القوم، وجواب النبي الذي طمأنه. وتذكر آية الغار الصاحب والتطمين ونصر الله. ثم يعود بنا حديث عائشة إلى موعد الدليل بالراحلتين، وإلى الانطلاق مع عامر والدليل في طريق السواحل.",
+      "claim_ids": [
+        "thawr_stay",
+        "abdullah_pattern",
+        "abdullah_news",
+        "amir_evening",
+        "thawr_exp_fear_bukhari",
+        "caveverse_text_layers",
+        "appt_link",
+        "appt_time",
+        "appt_companions",
+        "appt_coast"
+      ]
+    }
+  ],
+  "account": [
+    {
+      "section_id": "hch_thawr_stay",
+      "title_ar": "المكث في الغار",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_stay_01",
+          "text_ar": "تبدأ هذه الحلقة من الرحلة بوصول النبي ﷺ وأبي بكر إلى غار في جبل ثور. تروي عائشة أنهما مكثا فيه ثلاث ليال. وفي حديثها نتابع ما جرى حول هذا المكث: مبيت عبد الله بن أبي بكر، وعودته إلى مكة، وإحضاره الأخبار، ورعي عامر بن فهيرة الغنم وإتيانه بها. ولكل واحد منهما عمل تصفه الرواية على حدة، فلا تختلط مهمة نقل الأخبار بمهمة توفير اللبن.",
+          "claim_ids": [
+            "thawr_stay",
+            "abdullah_pattern",
+            "abdullah_news",
+            "amir_evening"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_news",
+      "title_ar": "الأخبار من مكة",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_news_01",
+          "text_ar": "كان عبد الله بن أبي بكر يبيت عند النبي ﷺ وأبي بكر. ثم يخرج في آخر الليل ويصبح مع قريش في مكة، كأنه قضى ليلته فيها. فالمبيت عندهما لا يعني أنه بقي في الغار طوال النهار؛ تذكر الرواية حضوره مع قريش في الصباح، ثم رجوعه إليهما بالأخبار حين يختلط الظلام.",
+          "claim_ids": [
+            "abdullah_pattern",
+            "abdullah_news"
+          ]
+        },
+        {
+          "paragraph_id": "hch_thawr_news_02",
+          "text_ar": "أما ما يحمله إليهما فهو ما يسمعه مما يدبر لهما. كان يعي الخبر، ثم يأتيهما به عند حلول الظلام. فالرواية لا تكتفي بذكر حضوره عندهما، بل تصف أيضًا ما يسمعه في مكة وما يحمله من أخبار إلى الغار.",
+          "claim_ids": [
+            "abdullah_pattern",
+            "abdullah_news",
+            "amir_evening"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_milk",
+      "title_ar": "عامر بن فهيرة واللبن",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_milk_01",
+          "text_ar": "تصف عائشة عامر بن فهيرة وهو يرعى غنمًا تأتي باللبن، ثم يأتي بها إلى النبي ﷺ وأبي بكر بعد مضي وقت من العشاء. فيبيتان ومعهما اللبن. ثم ينادي عامر الغنم في ظلمة الصباح، التي تسميها الرواية الغلس. وتذكر عائشة أنه كان يفعل ذلك في كل ليلة من الليالي الثلاث؛ فإحضار الغنم وتوفر اللبن جزء متكرر من خبر المكث، لا زيارة منفردة.",
+          "claim_ids": [
+            "amir_evening",
+            "amir_dawn_and_repetition"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_companionship",
+      "title_ar": "خشية أبي بكر وجواب النبي",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_companionship_01",
+          "text_ar": "وفي خبر آخر عند البخاري، يروي أنس عن أبي بكر مشهدًا داخل الغار. أبو بكر هو الذي يحدث عن رفع رأسه ورؤية أقدام القوم. خشي أن يخفض أحدهم بصره فيراهما، فخاطب النبي ﷺ. وجاءه جواب النبي بأنهما اثنان الله ثالثهما. نقرأ هنا كلام أبي بكر عن المشهد، لا وصف أنس لشيء يقول إنه شاهده بنفسه.",
+          "claim_ids": [
+            "thawr_exp_fear_bukhari",
+            "thawr_exp_fear_chain"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_verse",
+      "title_ar": "آية الغار",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_verse_01",
+          "text_ar": "وتذكر آية الغار، في النص المنقول في تفسير القرطبي، نصر الله لمن أُخرج، ووجود اثنين في الغار، وقوله لصاحبه ألا يحزن لأن الله معهما. ثم تذكر السكينة والتأييد بجنود لم تُر، وعلو كلمة الله. نقرأ الآية إلى جانب خبر أبي بكر، مع إبقاء كل نص بلفظه وصوته؛ فجواب النبي في الحديث ليس اقتباسًا بديلًا عن ألفاظ الآية.",
+          "claim_ids": [
+            "caveverse_text_layers",
+            "caveverse_text_not_speech"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_onward",
+      "title_ar": "الاستعداد لمواصلة الطريق",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_onward_guide",
+          "text_ar": "كان الدليل الذي استأجره النبي ﷺ وأبو بكر ماهرًا بمعرفة الطريق. وتذكر عائشة أنه كان على دين كفار قريش، وأنهما ائتمناه ودفعا إليه راحلتيهما. يجتمع في هذا الجزء من الخبر وصف خبرته، وذكر دينه، وبيان ما عهدا به إليه. ثم يصل الحديث ذلك بالموعد الذي واعداه عند الغار، فتتضح صلته بالراحلتين وبمواصلة الطريق.",
+          "claim_ids": [
+            "hire_expertise",
+            "hire_identity",
+            "hire_trust"
+          ]
+        },
+        {
+          "paragraph_id": "hch_thawr_onward_01",
+          "text_ar": "وتعود تتمة حديث عائشة إلى الموعد مع الدليل: كان الموعد في غار ثور بعد ثلاث ليال، بالراحلتين في الصباح. تنتهي قطعة من الحديث بذكر الموعد، وتأتي القطعة التالية بمكانه ووقته؛ نقرأهما متصلتين لفهم ما اتفق عليه، لا بوصفهما حكايتين منفصلتين عن موعدين مختلفين.",
+          "claim_ids": [
+            "appt_link",
+            "appt_time"
+          ]
+        },
+        {
+          "paragraph_id": "hch_thawr_onward_02",
+          "text_ar": "ثم انطلق مع النبي ﷺ وأبي بكر عامر بن فهيرة والدليل، وأخذ الدليل بهم طريق السواحل. كان عامر حاضرًا في خبر الغنم أثناء المكث، ثم تذكره الرواية مرة أخرى ضمن رفقة الانطلاق. ومن هذا الموعد تنتقل القراءة إلى الطريق: من كان في الرفقة، ومن أخذ بهم المسار الذي تسميه الرواية طريق السواحل.",
+          "claim_ids": [
+            "amir_evening",
+            "appt_companions",
+            "appt_coast"
+          ]
+        }
+      ]
+    }
+  ],
+  "outline": [
+    {
+      "point_id": "hch_thawr_outline_stay",
+      "text_ar": "تروي عائشة المكث ثلاث ليال في غار بجبل ثور.",
+      "claim_ids": [
+        "thawr_stay"
+      ],
+      "section_id": "hch_thawr_stay"
+    },
+    {
+      "point_id": "hch_thawr_outline_news",
+      "text_ar": "عبد الله بن أبي بكر يبيت عندهما، ويعود إلى مكة، ثم يحمل الأخبار ليلًا.",
+      "claim_ids": [
+        "abdullah_pattern",
+        "abdullah_news"
+      ],
+      "section_id": "hch_thawr_news"
+    },
+    {
+      "point_id": "hch_thawr_outline_milk",
+      "text_ar": "عامر بن فهيرة يرعى الغنم ويوفر اللبن، ويتكرر عمله في الليالي الثلاث.",
+      "claim_ids": [
+        "amir_evening",
+        "amir_dawn_and_repetition"
+      ],
+      "section_id": "hch_thawr_milk"
+    },
+    {
+      "point_id": "hch_thawr_outline_companionship",
+      "text_ar": "أبو بكر يحدث عن أقدام القوم وخشيته، وعن جواب النبي ﷺ.",
+      "claim_ids": [
+        "thawr_exp_fear_bukhari"
+      ],
+      "section_id": "hch_thawr_companionship"
+    },
+    {
+      "point_id": "hch_thawr_outline_verse",
+      "text_ar": "نقرأ آية الغار إلى جانب الحديث، من غير تبديل ألفاظ أحدهما بالآخر.",
+      "claim_ids": [
+        "caveverse_text_layers",
+        "caveverse_text_not_speech"
+      ],
+      "section_id": "hch_thawr_verse"
+    },
+    {
+      "point_id": "hch_thawr_outline_onward",
+      "text_ar": "يتصل موعد الدليل بالراحلتين بالانطلاق مع عامر والدليل في طريق السواحل.",
+      "claim_ids": [
+        "appt_link",
+        "appt_time",
+        "appt_companions",
+        "appt_coast"
+      ],
+      "section_id": "hch_thawr_onward"
+    }
+  ],
+  "in_depth": [
+    {
+      "section_id": "hch_thawr_depth_time",
+      "title_ar": "ألفاظ الوقت والمكان",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_depth_time_01",
+          "text_ar": "تذكر رواية عائشة السحر والعشاء والغلس، وتصف التناوب بين الليل والصباح. هذه الألفاظ لا تعطينا جدولًا بالدقائق، ولا تحوّل ذكر ثلاث ليال إلى تاريخ تقويمي محدد للخروج. كذلك يسمي المقطع جبل ثور، لكنه لا يحدد إحداثيات الغار أو مسار رعي الغنم.",
+          "claim_ids": [
+            "abdullah_pattern",
+            "time_precision_limit",
+            "appt_time",
+            "thawr_location_limit"
+          ]
+        },
+        {
+          "paragraph_id": "hch_thawr_depth_time_02",
+          "text_ar": "وتتمة الموعد تذكر طريق السواحل، ولا تسرد في هذا المقطع أسماء جميع منازل الطريق. لذلك نميز بين معرفة الرفقة واتجاه الطريق الذي تصفه الرواية، وبين رسم خريطة تفصيلية لا يقدمها هذا الانتقاء.",
+          "claim_ids": [
+            "appt_companions",
+            "appt_coast"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_depth_words",
+      "title_ar": "من يتكلم، وكيف تختلف الألفاظ؟",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_depth_words_01",
+          "text_ar": "أنس ناقل عن أبي بكر في خبر الأقدام. وعند البيهقي يبدأ الخبر بأن أبا بكر حدثه، ثم يستمر كلام أبي بكر في الصفحة التالية. فلا تنسب عبارة الحضور في الغار إلى أنس لمجرد وروده في الإسناد، ولا تفصل تتمة القول عن المتكلم الذي عينه أول الخبر.",
+          "claim_ids": [
+            "thawr_exp_fear_bukhari",
+            "thawr_exp_fear_chain"
+          ]
+        },
+        {
+          "paragraph_id": "hch_thawr_depth_words_02",
+          "text_ar": "في لفظ البخاري خشي أبو بكر أن يطأطئ أحدهم بصره. وفي الخبر عند البيهقي يأتي النظر إلى القدمين، ثم يورد صيغة أخرى فيها رفع القدم. تعرض القراءات هذه الألفاظ كلًا في موضعه، ولا تصنع منها اقتباسًا جامعًا تنسبه إلى كتاب واحد.",
+          "claim_ids": [
+            "thawr_exp_fear_bukhari",
+            "thawr_exp_fear_chain"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_depth_verse",
+      "title_ar": "ما الذي تسميه الآية؟",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_depth_verse_01",
+          "text_ar": "النص القرآني المعروض يذكر الغار والصاحب، لكنه لا يسمي أبا بكر ولا جبل ثور ولا عدد ليالي المكث. نقرأ هذه التفاصيل في الأخبار المرتبطة، ولا نضيفها داخل نص الآية. وغياب اسم عن ألفاظ الآية لا يجعل الخبر الذي يسميه منفيًا.",
+          "claim_ids": [
+            "caveverse_text_names",
+            "thawr_stay"
+          ]
+        },
+        {
+          "paragraph_id": "hch_thawr_depth_verse_02",
+          "text_ar": "القراءة المعروضة هنا نقل للآية في تفسير القرطبي، لا نص مصحف قابلناه مقابلة مستقلة. ونضع بجانبها حديث مسلم بإسناده وكلام أبي بكر فيه؛ فالتقارب في معنى التطمين لا يزيل الفرق بين النص القرآني والخبر المروي.",
+          "claim_ids": [
+            "caveverse_text_layers",
+            "caveverse_text_not_speech"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_depth_scope",
+      "title_ar": "حدود المقطع المختار",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_depth_scope_01",
+          "text_ar": "مقطع عائشة الذي نقرأه في المساندة يذكر الغنم واللبن، ولا يذكر محو آثار الأقدام. هذا وصف لحدود المقطع، وليس حكمًا بأن هذا التفصيل لم يرد في أي مصدر آخر. كذلك يفسر المقطع الرسل بأنه اللبن، ويورد لفظ الرضيف؛ نحتفظ بهذا اللفظ في القراءة من غير أن نعطيه هنا شرحًا مأخوذًا من الذاكرة.",
+          "claim_ids": [
+            "footprints_fragment_limit",
+            "milk_terms"
+          ]
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "reading_id": "hch_thawr_read_support",
+      "title_ar": "حديث عائشة: المبيت والأخبار والغنم",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "thawr_stay",
+        "abdullah_pattern",
+        "abdullah_news",
+        "amir_evening",
+        "amir_dawn_and_repetition",
+        "milk_terms",
+        "thawr_location_limit",
+        "time_precision_limit",
+        "footprints_fragment_limit"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_thawr_support",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_thawr_read_bukhari_fear",
+      "title_ar": "حديث أبي بكر عند البخاري: مشهد الأقدام",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "thawr_exp_fear_bukhari"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_thawr_read_verse",
+      "title_ar": "نص آية الغار كما نقله تفسير القرطبي",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "caveverse_text_layers",
+        "caveverse_text_names"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_caveverse_qurtubi_verse",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_thawr_read_muslim_fear",
+      "title_ar": "للمقارنة: حديث أبي بكر عند مسلم ونص الآية",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "caveverse_text_not_speech"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_caveverse_muslim",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_caveverse_qurtubi_verse",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_thawr_read_appointment",
+      "title_ar": "حديث عائشة: الدليل والموعد وتتمته ورفقة الانطلاق",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "hire_expertise",
+        "hire_identity",
+        "hire_trust",
+        "appt_link",
+        "appt_time",
+        "appt_companions",
+        "appt_coast"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_guide_bukhari_hire",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_guide_bukhari_coast",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_thawr_read_bayhaqi_fear",
+      "title_ar": "الخبر عند البيهقي: المتكلم وتتمة كلامه واللفظ الآخر",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "thawr_exp_fear_chain"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1001_ra_third",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1002_ra_third",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ]
+        }
+      ]
+    }
+  ],
+  "objective_ids": [
+    "thawr_distinguish_roles",
+    "thawr_read_timing",
+    "thawr_fragment_scope",
+    "thawr_exp_companionship_objective_1",
+    "guide_appointment_join",
+    "guide_appointment_scope",
+    "hc_caveverse_text_objective_1",
+    "hc_caveverse_text_objective_2"
+  ],
+  "questions": [
+    {
+      "question_id": "hch_thawr_q_news",
+      "difficulty": "beginner",
+      "objective_id": "thawr_distinguish_roles",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "abdullah_news",
+        "amir_evening",
+        "appt_link",
+        "appt_companions"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_support",
+        "hch_thawr_read_appointment"
+      ],
+      "prompt_ar": "من كان يحمل إلى النبي ﷺ وأبي بكر أخبار ما يدبر لهما، بحسب رواية عائشة؟",
+      "options": [
+        {
+          "option_id": "amir",
+          "text_ar": "عامر بن فهيرة",
+          "feedback_ar": "عمل عامر في هذا المقطع هو رعي الغنم وإحضارها، لا نقل الأخبار."
+        },
+        {
+          "option_id": "abdullah",
+          "text_ar": "عبد الله بن أبي بكر",
+          "feedback_ar": "نعم؛ تذكر الرواية أنه يعي ما يسمعه ثم يأتيهما بخبره."
+        },
+        {
+          "option_id": "guide",
+          "text_ar": "الدليل",
+          "feedback_ar": "الدليل مذكور في الموعد ورفقة الانطلاق، وليس صاحب مهمة الأخبار في هذا المقطع."
+        }
+      ],
+      "correct_option_id": "abdullah",
+      "explanation_ar": "تنسب عائشة وعي الأخبار وإحضارها إلى عبد الله بن أبي بكر. أما عامر فتذكره مع الغنم واللبن، والدليل مع الموعد والانطلاق.",
+      "scope_note_ar": "نقارن أدوار الأشخاص كما تذكرها المقاطع المعروضة.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_thawr_support:p1",
+        "sp_guide_bukhari_hire:p1",
+        "sp_guide_bukhari_coast:p1"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_milk",
+      "difficulty": "beginner",
+      "objective_id": "thawr_distinguish_roles",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "amir_evening",
+        "amir_dawn_and_repetition",
+        "abdullah_news"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_support"
+      ],
+      "prompt_ar": "ما العمل الذي تصفه رواية عائشة لعامر بن فهيرة أثناء المكث في الغار؟",
+      "options": [
+        {
+          "option_id": "milk",
+          "text_ar": "رعي الغنم والإتيان بها ليتوفر اللبن",
+          "feedback_ar": "نعم؛ تصف الرواية الغنم واللبن، ثم تذكر تكرر عمله."
+        },
+        {
+          "option_id": "news",
+          "text_ar": "نقل أخبار قريش عند حلول الظلام",
+          "feedback_ar": "تنسب الرواية هذه المهمة إلى عبد الله بن أبي بكر."
+        },
+        {
+          "option_id": "one_visit",
+          "text_ar": "إحضار الغنم مرة واحدة فقط",
+          "feedback_ar": "تذكر الرواية تكرر عمل عامر في كل ليلة من الليالي الثلاث."
+        }
+      ],
+      "correct_option_id": "milk",
+      "explanation_ar": "تصف الرواية رعي عامر للغنم وإراحتها عليهما، وتذكر اللبن وتكرر العمل في الليالي الثلاث.",
+      "scope_note_ar": "السؤال عن وصف عمل عامر في هذا النص، لا عن جميع أعماله في سائر المصادر.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_thawr_support:p1"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_cycle",
+      "difficulty": "intermediate",
+      "objective_id": "thawr_read_timing",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "abdullah_pattern",
+        "abdullah_news",
+        "time_precision_limit",
+        "amir_dawn_and_repetition"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_support"
+      ],
+      "prompt_ar": "أي ترتيب يوافق ما تذكره رواية عائشة عن عبد الله بن أبي بكر؟",
+      "options": [
+        {
+          "option_id": "day",
+          "text_ar": "يبقى معهما طوال النهار، ثم يصبح بين قريش من غير عودة إلى مكة.",
+          "feedback_ar": "تذكر الرواية خروجه من عندهما ووجوده مع قريش بمكة صباحًا."
+        },
+        {
+          "option_id": "clock",
+          "text_ar": "يخرج في ساعة حديثة محددة بالدقائق، كما يثبتها النص.",
+          "feedback_ar": "ألفاظ الرواية لا تحدد توقيتًا بالدقائق."
+        },
+        {
+          "option_id": "cycle",
+          "text_ar": "يبيت عندهما، ويصبح مع قريش بمكة، ويأتيهما بالأخبار حين يختلط الظلام.",
+          "feedback_ar": "نعم؛ هذا يربط المبيت والصباح وإحضار الأخبار كما في المقطع."
+        }
+      ],
+      "correct_option_id": "cycle",
+      "explanation_ar": "المقطع يربط المبيت عندهما بالوجود مع قريش صباحًا، ثم إحضار الأخبار ليلًا. ولا يحول ذلك إلى ساعات حديثة دقيقة.",
+      "scope_note_ar": "نقرأ ترتيب الليل والصباح، لا جدولًا تقويميًا أو حسابًا بالدقائق.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_thawr_support:p1"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_appointment",
+      "difficulty": "intermediate",
+      "objective_id": "guide_appointment_join",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "appt_link",
+        "appt_time"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_appointment"
+      ],
+      "prompt_ar": "تنتهي قطعة الحديث بذكر الموعد، وتبدأ التالية بغار ثور. كيف نقرأهما لفهم الموعد؟",
+      "options": [
+        {
+          "option_id": "joined",
+          "text_ar": "نصل ذكر الموعد بتتمته: غار ثور بعد ثلاث ليال، بالراحلتين في الصباح.",
+          "feedback_ar": "نعم؛ تتمة الجملة تعطي المكان والمدة وذكر الراحلتين."
+        },
+        {
+          "option_id": "separate",
+          "text_ar": "نعد كل قطعة خبرًا مستقلًا عن موعد مختلف.",
+          "feedback_ar": "الفعل وتتمته ينتميان إلى الحديث نفسه."
+        },
+        {
+          "option_id": "date",
+          "text_ar": "نستخرج منهما تاريخًا تقويميًا وساعة محددة.",
+          "feedback_ar": "ذكر الصباح وثلاث ليال لا يحدد في هذا الانتقاء تاريخًا تقويميًا أو ساعة حديثة."
+        }
+      ],
+      "correct_option_id": "joined",
+      "explanation_ar": "يتصل فعل الموعد في قطعة الاستئجار بغار ثور بعد ثلاث ليال في التتمة. وليست القطعتان حكايتين عن موعدين مختلفين.",
+      "scope_note_ar": "تُعرض بداية الجملة وتتمتها معًا؛ لا تكتف بالجزء الذي يبدأ باسم الغار.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_guide_bukhari_hire:p1",
+        "sp_guide_bukhari_coast:p1"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_onward",
+      "difficulty": "intermediate",
+      "objective_id": "guide_appointment_scope",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "appt_companions",
+        "appt_coast"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_appointment"
+      ],
+      "prompt_ar": "ماذا نستطيع أن نقول من تتمة حديث عائشة عن الانطلاق؟",
+      "options": [
+        {
+          "option_id": "alone",
+          "text_ar": "انطلق النبي ﷺ وأبو بكر وحدهما، من غير عامر أو دليل.",
+          "feedback_ar": "تذكر التتمة انطلاق عامر والدليل معهما."
+        },
+        {
+          "option_id": "company",
+          "text_ar": "انطلق معهما عامر بن فهيرة والدليل، وأخذ الدليل بهم طريق السواحل.",
+          "feedback_ar": "نعم؛ هذان هما وصف الرفقة والطريق في التتمة."
+        },
+        {
+          "option_id": "map",
+          "text_ar": "تحدد القطعة جميع منازل الطريق وإحداثياتها.",
+          "feedback_ar": "تذكر طريق السواحل، ولا تقدم في هذا المقطع خريطة كاملة للمنازل."
+        }
+      ],
+      "correct_option_id": "company",
+      "explanation_ar": "نقرأ أسماء الرفقة ووصف طريق السواحل. هذا غير الادعاء بأن المقطع يحدد جميع محطات الطريق أو إحداثياتها.",
+      "scope_note_ar": "السؤال عن تتمة عائشة المعروضة، لا عن خريطة جميع منازل الهجرة.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_guide_bukhari_hire:p1",
+        "sp_guide_bukhari_coast:p1"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_voices",
+      "difficulty": "intermediate",
+      "objective_id": "hc_caveverse_text_objective_1",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "caveverse_text_layers",
+        "caveverse_text_not_speech"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_verse",
+        "hch_thawr_read_muslim_fear"
+      ],
+      "prompt_ar": "كيف نقرأ آية الغار وحديث أبي بكر المعروض عند مسلم؟",
+      "options": [
+        {
+          "option_id": "replace",
+          "text_ar": "نستبدل ألفاظ الآية بجواب النبي في الحديث.",
+          "feedback_ar": "للآية لفظها، وللحديث لفظه؛ لا يستبدل أحدهما بالآخر."
+        },
+        {
+          "option_id": "eyewitness",
+          "text_ar": "ننسب كلام أبي بكر إلى أنس بوصفه شاهد الغار.",
+          "feedback_ar": "في الإسناد يروي أنس عن أبي بكر، ولا يصف هنا حضوره بنفسه."
+        },
+        {
+          "option_id": "distinct",
+          "text_ar": "نحتفظ بكل نص بلفظه، ونميز القرآن عن الخبر الذي يرويه أنس عن أبي بكر.",
+          "feedback_ar": "نعم؛ تقارب معنى التطمين لا يجعل النصين اقتباسًا واحدًا."
+        }
+      ],
+      "correct_option_id": "distinct",
+      "explanation_ar": "الآية نص قرآني منقول في التفسير، والحديث خبر يرويه أنس عن أبي بكر. نقرأهما معًا من غير مزج ألفاظهما أو نقل المتكلم.",
+      "scope_note_ar": "نص الآية هنا من المصدر التفسيري، وليس مصحفًا قابلناه مقابلة مستقلة.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_caveverse_qurtubi_verse:p1",
+        "sp_caveverse_muslim:p1",
+        "sp_caveverse_muslim:p2"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_speaker",
+      "difficulty": "expert",
+      "objective_id": "thawr_exp_companionship_objective_1",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "thawr_exp_fear_bukhari",
+        "thawr_exp_fear_chain"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_bukhari_fear",
+        "hch_thawr_read_bayhaqi_fear"
+      ],
+      "prompt_ar": "عند قراءة خبر الأقدام وألفاظه المختلفة، أي وصف يحفظ المتكلم والنصوص؟",
+      "options": [
+        {
+          "option_id": "anas",
+          "text_ar": "أنس هو صاحب الكلام داخل الغار؛ ونجمع الألفاظ في اقتباس واحد.",
+          "feedback_ar": "أنس يروي عن أبي بكر، واختلاف الألفاظ لا يجيز تركيب اقتباس جديد."
+        },
+        {
+          "option_id": "abubakr",
+          "text_ar": "أبو بكر صاحب الكلام، وأنس ناقل عنه؛ ونحفظ كل لفظ في موضعه.",
+          "feedback_ar": "نعم؛ يحفظ هذا الوصف صاحب المشهد وراوي الخبر وحدود الألفاظ."
+        },
+        {
+          "option_id": "identical",
+          "text_ar": "كل المصادر تستعمل عبارة واحدة حرفيًا عن حركة القدم أو البصر.",
+          "feedback_ar": "تظهر القراءات فرقًا بين طأطأة البصر والنظر إلى القدمين ورفع القدم."
+        }
+      ],
+      "correct_option_id": "abubakr",
+      "explanation_ar": "في خبر البخاري يتكلم أبو بكر، ويبدأ خبر البيهقي بأن أبا بكر حدث أنسًا. وتختلف ألفاظ البصر والقدم، فلا نركبها في قول واحد حرفي.",
+      "scope_note_ar": "قارن بداية الخبر وتتمته واللفظ البديل؛ لا تكتف بقراءة جملة منفصلة عن الإسناد.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p3",
+        "sp_thawr_exp_h_7478_1001_ra_third:p1",
+        "sp_thawr_exp_h_7478_1001_ra_third:p2",
+        "sp_thawr_exp_h_7478_1002_ra_third:p1",
+        "sp_thawr_exp_h_7478_1002_ra_third:p2",
+        "sp_thawr_exp_h_7478_1002_ra_third_variant:p1",
+        "sp_thawr_exp_h_7478_1002_ra_third_variant:p2",
+        "sp_thawr_exp_h_7478_1002_ra_third_variant:p3"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_names",
+      "difficulty": "expert",
+      "objective_id": "hc_caveverse_text_objective_2",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "caveverse_text_names",
+        "thawr_stay"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_verse",
+        "hch_thawr_read_support"
+      ],
+      "prompt_ar": "الآية المعروضة لا تسمي جبل ثور ولا عدد ليالي المكث. أي قراءة لهذا الفرق صحيحة؟",
+      "options": [
+        {
+          "option_id": "reject",
+          "text_ar": "غياب هذين التفصيلين ينفي ما ترويه عائشة عن المكان والمدة.",
+          "feedback_ar": "غياب التفصيل عن ألفاظ الآية لا ينفيه من الأخبار."
+        },
+        {
+          "option_id": "insert",
+          "text_ar": "نضيف اسم الجبل وعدد الليالي داخل نص الآية لتكتمل القصة.",
+          "feedback_ar": "التفاصيل المرتبطة لا تضاف إلى الاقتباس القرآني."
+        },
+        {
+          "option_id": "sources",
+          "text_ar": "نبقي الآية بلفظها، وننسب اسم الجبل وثلاث ليال إلى رواية عائشة.",
+          "feedback_ar": "نعم؛ يميز هذا بين ما تسميه الآية وما يذكره الخبر المرتبط."
+        }
+      ],
+      "correct_option_id": "sources",
+      "explanation_ar": "تذكر الآية الغار والصاحب دون اسم جبل ثور أو عدد الليالي. وتذكر رواية عائشة جبل ثور وثلاث ليال، فيبقى كل تفصيل مع مصدره.",
+      "scope_note_ar": "لا نملأ ألفاظ الآية بتفاصيل الخبر، ولا نستدل بسكوتها على نفيها.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_caveverse_qurtubi_verse:p1",
+        "sp_thawr_support:p1"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_scope",
+      "difficulty": "expert",
+      "objective_id": "thawr_fragment_scope",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "footprints_fragment_limit"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_support"
+      ],
+      "prompt_ar": "مقطع عائشة المعروض لا يذكر محو آثار الأقدام. أي استنتاج يجوز من هذا الغياب وحده؟",
+      "options": [
+        {
+          "option_id": "local",
+          "text_ar": "هذا التفصيل غير مذكور في المقطع؛ ولا يكفي ذلك للحكم على جميع المصادر الأخرى.",
+          "feedback_ar": "نعم؛ هذا وصف لحدود المقطع لا نفي عام."
+        },
+        {
+          "option_id": "never",
+          "text_ar": "ثبت أن التفصيل لم يرد في أي مصدر آخر.",
+          "feedback_ar": "المقطع الواحد لا يكفي لنفي جميع النقول الأخرى."
+        },
+        {
+          "option_id": "proved",
+          "text_ar": "ثبت وقوع التفصيل رغم أن المقطع لا يذكره.",
+          "feedback_ar": "غياب التفصيل ليس دليلًا على وقوعه أيضًا."
+        }
+      ],
+      "correct_option_id": "local",
+      "explanation_ar": "نحدد ما يقوله المقطع وما لا يذكره. عدم ذكر محو الآثار هنا لا يثبت التفصيل ولا ينفي وجوده في سائر المصادر.",
+      "scope_note_ar": "السؤال عن الاستدلال من غياب تفصيل في الانتقاء، لا عن حكم تاريخي شامل على أخبار الغار.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_thawr_support:p1"
+      ]
+    }
+  ],
+  "unassessed_objectives": [],
+  "open_issues": [
+    {
+      "issue_id": "hch_thawr_issue_duration",
+      "affected_ids": [
+        "hch_thawr_stay_01"
+      ],
+      "blocking": false,
+      "note_ar": "هذه حلقة مبنية على رواية عائشة في الثلاث؛ ليست جمعًا لجميع أخبار مدد الغار. تبقى مقارنة المدد الأخرى خارج نطاق هذا المثال، ولا تحول الثلاث إلى تاريخ تقويمي."
+    },
+    {
+      "issue_id": "hch_thawr_issue_radif",
+      "affected_ids": [
+        "hch_thawr_depth_scope_01",
+        "hch_thawr_read_support"
+      ],
+      "blocking": false,
+      "note_ar": "لفظ الرضيف محفوظ في القراءة، ولم يدخل شرحه في السرد أو الأسئلة؛ يحتاج الشرح إلى نص مرتبط لا إلى معنى من الذاكرة."
+    },
+    {
+      "issue_id": "hch_thawr_issue_approval",
+      "affected_ids": [
+        "hch_thawr"
+      ],
+      "blocking": false,
+      "note_ar": "المقارنة التحريرية لا تعني اعتمادًا لغويًا أو تاريخيًا مستقلًا، ولا إذنًا بنشر المقتطفات. نقل الآية ليس مقابلة مستقلة للمصحف."
+    }
+  ],
+  "locale": "ar",
+  "status": "arabic_ready",
+  "records": [
+    {
+      "topic_id": "thawr.nightly_support",
+      "core_id": "hc_thawr_nightly_support",
+      "status": "draft_example_source_compared_not_independently_approved",
+      "reader_question_ar": "كيف تصف رواية عائشة المساندة بالأخبار واللبن أثناء المكث في ثور؟",
+      "introduction_ar": "يعرض المقطع المختار من صحيح البخاري أعمالًا مختلفة حول المكث في ثور: عبد الله بن أبي بكر يحمل الأخبار، وعامر بن فهيرة يرعى الغنم ويأتي باللبن. لا تختزل المساعدة في عمل شخص واحد، ولا تتحول أوقات الرواية إلى جدول بساعات حديثة.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_thawr_01",
+          "text_ar": "تروي عائشة أن النبي ﷺ وأبا بكر لحقا بغار في جبل ثور، ومكثا فيه ثلاث ليال. هذا مقدار المكث في هذا المقطع؛ لا يستخرج منه تاريخ تقويمي للخروج أو موضع جغرافي أدق من الوصف الوارد.",
+          "claim_ids": [
+            "thawr_stay",
+            "thawr_location_limit"
+          ]
+        },
+        {
+          "paragraph_id": "hc_thawr_02",
+          "text_ar": "تصف الرواية عبد الله بن أبي بكر بأنه غلام شاب ثقف لقن. كان يبيت عندهما، ثم يخرج بسحر ويصبح مع قريش بمكة كأنه بات فيها. يميز الشرح هنا خبر المبيت عن خبر العودة؛ لا يحولهما إلى توقيت بالدقائق.",
+          "claim_ids": [
+            "abdullah_pattern"
+          ]
+        },
+        {
+          "paragraph_id": "hc_thawr_03",
+          "text_ar": "العمل المعلوماتي في الرواية هو وعي ما يسمعه عبد الله مما يدبر لهما، ثم إحضار الخبر حين يختلط الظلام. هذه نسبة فعل إلى صاحبه في المقطع، لا حوار مؤلف بينه وبين أهل الغار.",
+          "claim_ids": [
+            "abdullah_news"
+          ]
+        },
+        {
+          "paragraph_id": "hc_thawr_04",
+          "text_ar": "أما عامر بن فهيرة، فتصف الرواية رعيه منحة من غنم وإراحتها عليهما بعد مضي ساعة من العشاء، حتى يتوفر اللبن. لفظ الساعة هنا كما في النص؛ لا نجعله ستين دقيقة أو ساعة محددة من جدول حديث.",
+          "claim_ids": [
+            "amir_evening",
+            "time_precision_limit"
+          ]
+        },
+        {
+          "paragraph_id": "hc_thawr_05",
+          "text_ar": "ينعق عامر بالغنم بغلس، وتذكر الرواية أنه يفعل ذلك في كل ليلة من الليالي الثلاث. جملة التكرر تتصل بوصف عمل عامر؛ لا تنقل تلقائيًا إلى تفاصيل أخرى لم يعدد النص تكررها.",
+          "claim_ids": [
+            "amir_dawn_and_repetition"
+          ]
+        },
+        {
+          "paragraph_id": "hc_thawr_06",
+          "text_ar": "يفسر المقطع الرسل بلبن المنحة ويذكر الرضيف. تحفظ الألفاظ المصدرية وتربط بشرحها المنقول المناسب عند توسعة المسرد. ولا يذكر هذا الانتقاء مسار الرعي أو محو آثار الأقدام؛ غياب التفصيل هنا حد لهذا المقطع، لا نفي لجميع ما روي في الباب.",
+          "claim_ids": [
+            "milk_terms",
+            "thawr_location_limit",
+            "footprints_fragment_limit"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "thawr_stay",
+          "text_ar": "تروي عائشة في المقطع المكث ثلاث ليال في غار بجبل ثور.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "abdullah_pattern",
+          "text_ar": "تصف الرواية مبيت عبد الله ثم خروجه بسحر ووجوده مع قريش بمكة صباحًا كأنه بات فيها.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "abdullah_news",
+          "text_ar": "في الرواية يعي عبد الله ما يدبر لهما ويحضر خبره حين يختلط الظلام.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "amir_evening",
+          "text_ar": "تصف الرواية رعي عامر منحة من غنم وإراحتها عليهما بعد ساعة من العشاء مع توفر اللبن.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "amir_dawn_and_repetition",
+          "text_ar": "ينعق عامر بالغنم بغلس؛ وتذكر الرواية تكرر عمله في كل ليلة من الثلاث.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "milk_terms",
+          "text_ar": "يفسر المقطع الرسل بلبن المنحة ويذكر الرضيف.",
+          "kind": "source_wording_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "thawr_location_limit",
+          "text_ar": "لا يحدد هذا الانتقاء إحداثيات الغار أو مسار الرعي.",
+          "kind": "limit_of_displayed_fragment_not_universal_negative",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "time_precision_limit",
+          "text_ar": "لا يحول هذا الانتقاء ألفاظ بسحر وساعة من العشاء وبغلس إلى دقائق أو ساعات حديثة محددة.",
+          "kind": "editorial_precision_limit",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "footprints_fragment_limit",
+          "text_ar": "لا يذكر الانتقاء نفسه محو آثار الأقدام؛ لا ينتج منه نفي عام للخبر في المصادر الأخرى.",
+          "kind": "limit_of_displayed_fragment_not_universal_negative",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_support",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_thawr_support",
+          "evidence_id": "H-1681-5899-CAVE",
+          "scope_ar": "انتقاء من متن رواية عائشة لأدوار المساندة؛ لا يعرض الإسناد الكامل أو بقية الحديث.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "thawr_stay",
+            "abdullah_pattern",
+            "abdullah_news",
+            "amir_evening",
+            "amir_dawn_and_repetition",
+            "milk_terms",
+            "thawr_location_limit",
+            "time_precision_limit",
+            "footprints_fragment_limit"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "عبد الله بن أبي بكر",
+          "role_ar": "المبيت والعودة ووعي الأخبار وإحضارها بحسب الرواية",
+          "claim_ids": [
+            "abdullah_pattern",
+            "abdullah_news"
+          ]
+        },
+        {
+          "name_ar": "عامر بن فهيرة",
+          "role_ar": "الرعي والإراحة واللبن والنعق بالغنم بحسب الرواية",
+          "claim_ids": [
+            "amir_evening",
+            "amir_dawn_and_repetition"
+          ]
+        },
+        {
+          "name_ar": "عائشة",
+          "role_ar": "ناقلة الخبر في النسبة المصدرية، لا ادعاء وجودها في الغار",
+          "claim_ids": [
+            "thawr_stay"
+          ]
+        }
+      ],
+      "place_mentions": [
+        {
+          "name_ar": "ثور",
+          "claim_ids": [
+            "thawr_stay"
+          ],
+          "coordinates": null
+        },
+        {
+          "name_ar": "مكة",
+          "claim_ids": [
+            "abdullah_pattern"
+          ],
+          "coordinates": null
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "thawr_distinguish_roles",
+          "text_ar": "يميز المتعلم بين نقل الأخبار والرعي واللبن كما نسبها هذا النص.",
+          "claim_ids": [
+            "abdullah_news",
+            "amir_evening"
+          ]
+        },
+        {
+          "objective_id": "thawr_read_timing",
+          "text_ar": "يقرأ المتعلم نمط الليل والصباح دون اختراع ساعة دقيقة.",
+          "claim_ids": [
+            "abdullah_pattern",
+            "amir_dawn_and_repetition",
+            "time_precision_limit"
+          ]
+        },
+        {
+          "objective_id": "thawr_fragment_scope",
+          "text_ar": "يفرق المتعلم بين غياب تفصيل عن المقطع ونفي وجوده في سائر المصادر.",
+          "claim_ids": [
+            "footprints_fragment_limit"
+          ]
+        }
+      ],
+      "related_topic_ids": [
+        "provisions.preparation",
+        "guide.appointment",
+        "cave_verse.companion",
+        "source_method.scope"
+      ],
+      "further_questions_ar": [
+        "كيف تتصل قطعة الموعد مع الدليل بالقطعة السابقة لها؟",
+        "ما الذي يضيفه تفسير آية الغار، وما الذي لا تسميه الآية نفسها؟",
+        "ما الشرح المنقول المناسب لألفاظ الرسل والرضيف؟"
+      ],
+      "open_items_ar": [
+        "لم تقارن هنا جميع روايات المساندة أو المدد؛ هذا مثال منتقى لا كامل موضوع ثور.",
+        "توسعة الشرح المعجمي للرضيف تحتاج ربط نص الشارح، لا اعتماد معنى من الذاكرة."
+      ],
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false
+    },
+    {
+      "core_id": "hc_thawr_exp_companionship",
+      "topic_id": "thawr.companionship",
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "reader_question_ar": "مَن صاحب قول الأقدام وما الفرق بين ألفاظه؟",
+      "introduction_ar": "أنس ناقل عن أبي بكر في خبر الأقدام، لا شاهد عيان مصرّح له بالمشهد؛ تعرض المصادر ألفاظ النظر ورفع القدم وطأطأة البصر دون تركيب اقتباس جامع.",
+      "introduction_claim_ids": [
+        "thawr_exp_fear_bukhari",
+        "thawr_exp_fear_chain"
+      ],
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_thawr_exp_companionship_p1",
+          "text_ar": "في البخاري أبو بكر هو المتكلم داخل الغار، وأنس طريق نقل الخبر عنه. لا تنقل عبارة كنت مع النبي إلى أنس لمجرد وروده في السند.",
+          "claim_ids": [
+            "thawr_exp_fear_bukhari",
+            "thawr_exp_fear_chain"
+          ]
+        },
+        {
+          "paragraph_id": "hc_thawr_exp_companionship_p2",
+          "text_ar": "بين طأطأة البصر، والنظر إلى القدمين، ورفع القدم فرق في الألفاظ المنقولة؛ لا ننشئ منها قولًا واحدًا حرفيًا ثم ننسبه إلى مصدر بعينه.",
+          "claim_ids": [
+            "thawr_exp_fear_bukhari",
+            "thawr_exp_fear_chain"
+          ]
+        },
+        {
+          "paragraph_id": "hc_thawr_exp_companionship_p3",
+          "text_ar": "سرد ابن حبان يزيد جملة في صرف أعين المطاردين؛ تقرأ بوصفها تفسير سرده، لا نصًا داخل إسناد أنس. والتقاء طريقي ابن عبد البر عند همام يضبط حد الاستقلال.",
+          "claim_ids": [
+            "thawr_exp_fear_narrative",
+            "thawr_exp_fear_routes"
+          ]
+        },
+        {
+          "paragraph_id": "hc_thawr_exp_companionship_jundub",
+          "text_ar": "خبر جندب قطعة مختلفة بسندها وسياقها: يعقب ذكر الصحبة خبر إصابة يد ومقول شعري. لا ننسب الإصابة أو الشعر لأبي بكر أو للنبي من الذاكرة، ولا تجعل المجاورة لخبر أنس المشهدين مجلسًا واحدًا.",
+          "claim_ids": [
+            "thawr_exp_recall_jundub"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "thawr_exp_fear_bukhari",
+          "text_ar": "في متن البخاري يحدث أبو بكر عن رفع رأسه ورؤية أقدام القوم وخشيته أن يطأطئ بعضهم بصره؛ ويجيبه النبي بأنهما اثنان الله ثالثهما.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "thawr_exp_fear_chain",
+          "text_ar": "في رواية البيهقي يبدأ إسناد أنس بأن أبا بكر حدثه، ثم تتمة القول في الصفحة التالية تجعل الخشية من نظر أحدهم إلى قدميه؛ وفي صيغة حبان عن همام يرد رفع القدم بدل النظر.",
+          "kind": "source_wording_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_exp_h_7478_1001_ra_third",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            },
+            {
+              "packet_id": "sp_thawr_exp_h_7478_1002_ra_third",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            },
+            {
+              "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "thawr_exp_fear_routes",
+          "text_ar": "يذكر ابن عبد البر إسنادين محليين يلتقيان عند همام ثم ثابت عن أنس عن أبي بكر؛ فلا يجعل تعدد صدر الإسناد أصل الخبر حديثين مستقلين.",
+          "kind": "local_attribution_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_exp_h_10695_75_cp6_cave_chains",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "thawr_exp_fear_narrative",
+          "text_ar": "ينسب ابن حبان في سرده مجيء المشركين إلى الجبل وقول أبي بكر وجواب النبي، ثم يسرد تعليلًا بعمى أبصارهم؛ ليس هذا اللفظ نفسه صياغة أبي بكر في حديث أنس.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_exp_h_9898_124_prep_2",
+              "part_ids": [
+                "p2",
+                "p3",
+                "p4"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "thawr_exp_recall_jundub",
+          "text_ar": "في خبر آخر يسنده البيهقي إلى جندب يرد ذكر معية أبي بكر للنبي في الغار، ثم إصابة يد بحجر وشعر إصبع دميت. يحفظ هذا العرض الضمير ولا يسمي المصاب أو قائل الشعر من المعرفة العامة؛ لا يضم إلى حديث الأقدام أو استذكار الإمارة.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_thawr_exp_h_7478_1001_ra_jundub",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+          "evidence_id": "H-1681-5914-HS-CAVE-1",
+          "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "referenced_by_claim_ids": [
+            "thawr_exp_fear_bukhari"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1001_ra_third",
+          "evidence_id": "H-7478-1001-RA-THIRD",
+          "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "thawr_exp_fear_chain"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1002_ra_third",
+          "evidence_id": "H-7478-1002-RA-THIRD",
+          "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "thawr_exp_fear_chain"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
+          "evidence_id": "H-7478-1002-RA-THIRD-VARIANT",
+          "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "referenced_by_claim_ids": [
+            "thawr_exp_fear_chain"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_10695_75_cp6_cave_chains",
+          "evidence_id": "H-10695-75-CP6-CAVE-CHAINS",
+          "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "thawr_exp_fear_routes"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_9898_124_prep_2",
+          "evidence_id": "H-9898-124-prep-2",
+          "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5"
+          ],
+          "referenced_by_claim_ids": [
+            "thawr_exp_fear_narrative"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1001_ra_jundub",
+          "evidence_id": "H-7478-1001-RA-JUNDUB",
+          "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "referenced_by_claim_ids": [
+            "thawr_exp_recall_jundub"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "أبو بكر",
+          "role_ar": "صاحب الكلام داخل الخبر",
+          "claim_ids": [
+            "thawr_exp_fear_bukhari"
+          ]
+        },
+        {
+          "name_ar": "أنس",
+          "role_ar": "يروي عن أبي بكر ولا يذكر حضوره في الغار",
+          "claim_ids": [
+            "thawr_exp_fear_chain"
+          ]
+        },
+        {
+          "name_ar": "ابن حبان",
+          "role_ar": "يسرد رواية الملاحقة والتفسير",
+          "claim_ids": [
+            "thawr_exp_fear_narrative"
+          ]
+        },
+        {
+          "name_ar": "جندب",
+          "role_ar": "راو لخبر مختلف يتضمن الضمير وإصابة اليد والشعر",
+          "claim_ids": [
+            "thawr_exp_recall_jundub"
+          ]
+        }
+      ],
+      "place_mentions": [
+        {
+          "name_ar": "الغار",
+          "claim_ids": [
+            "thawr_exp_fear_bukhari"
+          ],
+          "coordinates": null
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "thawr_exp_companionship_objective_1",
+          "text_ar": "يعين أبا بكر صاحب المشهد وأنس راويًا عنه ويقارن ألفاظ النظر دون اقتباس مركب.",
+          "claim_ids": [
+            "thawr_exp_fear_bukhari",
+            "thawr_exp_fear_chain"
+          ]
+        },
+        {
+          "objective_id": "thawr_exp_companionship_objective_2",
+          "text_ar": "يميز التقاء الأسانيد من استقلال أصل الخبر، ويحفظ عدم حسم الضمير في خبر جندب.",
+          "claim_ids": [
+            "thawr_exp_fear_routes",
+            "thawr_exp_recall_jundub"
+          ]
+        }
+      ],
+      "related_topic_ids": [
+        "thawr.pursuit",
+        "cave_verse.companion",
+        "source_method.chains"
+      ],
+      "further_questions_ar": [
+        "كيف يقارن نص آية الغار بقول التطمين في خبر أبي بكر دون جعلهما نصًا واحدًا؟"
+      ],
+      "open_items_ar": [
+        "لفظ ابن حبان وسياق حديث أنس طريقان مختلفان، ولا يمنح النقل هنا حكمًا شاملاً على روايات الأقدام.",
+        "مرجع الضمير في إصابة اليد وقائل الشعر في H-7478-1001-RA-JUNDUB لم يحسم هنا؛ لا يغني الضمير أو المعرفة العامة عن شرح أو سياق مصدر محدد."
+      ],
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false
+    },
+    {
+      "core_id": "hc_caveverse_text",
+      "topic_id": "cave_verse.quoted_verse",
+      "reader_question_ar": "ماذا يذكر نص آية الغار، وكيف نقرأه بجانب المصادر؟",
+      "introduction_ar": "يمكن البدء بالنص القرآني الذي يذكر الغار والصاحب والتطمين، ثم الانتقال إلى الأخبار والتفسير التي تسمي الأشخاص والمكان. هذا ترتيب للقراءة؛ لا نملأ ألفاظ الآية بتفاصيل الرحلة ولا نجعل شرح المفسر جزءًا منها.",
+      "introduction_claim_ids": [
+        "caveverse_text_layers",
+        "caveverse_text_names",
+        "caveverse_text_two_parts",
+        "caveverse_text_not_speech"
+      ],
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_caveverse_text_text_layers",
+          "text_ar": "الآية المنقولة في تفسير القرطبي تذكر نصر الله لمن أُخرج، وثاني اثنين، والغار، وكلامه لصاحبه عن الحزن والمعية، ثم السكينة والجنود والكلمتين. تعرض هنا بلفظ النسخة المنقول كاملة، لا بإعادة تركيب مقاطع التفسير.",
+          "claim_ids": [
+            "caveverse_text_layers"
+          ]
+        },
+        {
+          "paragraph_id": "hc_caveverse_text_text_names",
+          "text_ar": "لا يسمي هذا النص القرآني المنقول أبا بكر ولا جبل ثور ولا عدد ليالي المكث. تعيين تلك التفاصيل له قراءة أخرى في الأخبار والتفسير؛ غيابها في هذه الألفاظ لا ينفيها من التراث ولا يجعل إضافتها داخل الاقتباس جائزًا.",
+          "claim_ids": [
+            "caveverse_text_names"
+          ]
+        },
+        {
+          "paragraph_id": "hc_caveverse_text_text_two_parts",
+          "text_ar": "يفصل انتقاء الطبري صدر الآية عن تتمتها التي تبدأ بإنزال السكينة؛ بين الموضعين شرح وأخبار في صفحات أخرى. نحفظ كل انتقاء بهويته وترتيبه، ولا نعرض ضم الكلام الواقع بينهما على أنه آية طويلة واحدة.",
+          "claim_ids": [
+            "caveverse_text_two_parts"
+          ]
+        },
+        {
+          "paragraph_id": "hc_caveverse_text_text_not_speech",
+          "text_ar": "كلام التطمين في حديث أبي بكر عند مسلم يأتي ضمن خبر يرويه أنس عنه، وله لفظه الخاص. ليس عدد الكتب ولا تشابه معاني التطمين سببًا لاستبدال لفظ الآية بلفظ الحديث أو العكس.",
+          "claim_ids": [
+            "caveverse_text_not_speech"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "caveverse_text_layers",
+          "text_ar": "الآية المنقولة في تفسير القرطبي تذكر نصر الله لمن أُخرج، وثاني اثنين، والغار، وكلامه لصاحبه عن الحزن والمعية، ثم السكينة والجنود والكلمتين. تعرض هنا بلفظ النسخة المنقول كاملة، لا بإعادة تركيب مقاطع التفسير.",
+          "kind": "source_text_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_caveverse_qurtubi_verse",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "caveverse_text_names",
+          "text_ar": "لا يسمي هذا النص القرآني المنقول أبا بكر ولا جبل ثور ولا عدد ليالي المكث. تعيين تلك التفاصيل له قراءة أخرى في الأخبار والتفسير؛ غيابها في هذه الألفاظ لا ينفيها من التراث ولا يجعل إضافتها داخل الاقتباس جائزًا.",
+          "kind": "fragment_scope",
+          "source_refs": [
+            {
+              "packet_id": "sp_caveverse_qurtubi_verse",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "caveverse_text_two_parts",
+          "text_ar": "يفصل انتقاء الطبري صدر الآية عن تتمتها التي تبدأ بإنزال السكينة؛ بين الموضعين شرح وأخبار في صفحات أخرى. نحفظ كل انتقاء بهويته وترتيبه، ولا نعرض ضم الكلام الواقع بينهما على أنه آية طويلة واحدة.",
+          "kind": "reading_scope",
+          "source_refs": [
+            {
+              "packet_id": "sp_caveverse_tabari_verse_a",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_caveverse_tabari_verse_b",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "caveverse_text_not_speech",
+          "text_ar": "كلام التطمين في حديث أبي بكر عند مسلم يأتي ضمن خبر يرويه أنس عنه، وله لفظه الخاص. ليس عدد الكتب ولا تشابه معاني التطمين سببًا لاستبدال لفظ الآية بلفظ الحديث أو العكس.",
+          "kind": "voice_distinction",
+          "source_refs": [
+            {
+              "packet_id": "sp_caveverse_muslim",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            },
+            {
+              "packet_id": "sp_caveverse_qurtubi_verse",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_caveverse_qurtubi_verse",
+          "evidence_id": "H-20855-3085-VERSE",
+          "scope_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "caveverse_text_layers",
+            "caveverse_text_names",
+            "caveverse_text_not_speech"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_caveverse_tabari_verse_a",
+          "evidence_id": "H-43-7824-VERSE-A",
+          "scope_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "caveverse_text_two_parts"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_caveverse_tabari_verse_b",
+          "evidence_id": "H-43-7828-VERSE-B",
+          "scope_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "caveverse_text_two_parts"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_caveverse_muslim",
+          "evidence_id": "H-1727-6103-CAVE",
+          "scope_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "caveverse_text_not_speech"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [],
+      "place_mentions": [],
+      "learning_objectives": [
+        {
+          "objective_id": "hc_caveverse_text_objective_1",
+          "text_ar": "يفصل النص القرآني المنقول عن التفسير والحديث المرتبط به.",
+          "claim_ids": [
+            "caveverse_text_layers",
+            "caveverse_text_not_speech"
+          ]
+        },
+        {
+          "objective_id": "hc_caveverse_text_objective_2",
+          "text_ar": "يعين حدود ما تسميه ألفاظ الآية، دون الاستدلال بسكوتها على نفي التفاصيل.",
+          "claim_ids": [
+            "caveverse_text_names"
+          ]
+        }
+      ],
+      "related_topic_ids": [
+        "thawr.companionship",
+        "source_method.voices"
+      ],
+      "further_questions_ar": [
+        "هذه النقول من مصادر البحث لا مقابلة مستقلة للمصحف، ولا تحمل اعتمادًا لترجمة قرآنية.",
+        "هوية الصاحب واسم الغار يقرآن من الشواهد المرتبطة، لا يدرجان صامتًا في الآية."
+      ],
+      "open_items_ar": [
+        "هذه النقول من مصادر البحث لا مقابلة مستقلة للمصحف، ولا تحمل اعتمادًا لترجمة قرآنية.",
+        "هوية الصاحب واسم الغار يقرآن من الشواهد المرتبطة، لا يدرجان صامتًا في الآية."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false
+    },
+    {
+      "core_id": "hc_guide_hiring",
+      "topic_id": "guide.hiring",
+      "reader_question_ar": "بأي صفة استؤجر دليل الطريق، وكيف اجتمعت الخبرة والثقة واختلاف الدين في الرواية؟",
+      "introduction_ar": "في رواية عائشة في صحيح البخاري استأجر النبي ﷺ وأبو بكر رجلًا ليهديهما في الطريق. تصف الرواية مهارته ودينه وتذكر ائتمانه على الراحلتين؛ ويستنبط شراح لاحقون أحكامًا من ذلك، فلا ننسب استنباطهم إلى لفظ عائشة.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_guide_hiring_01",
+          "text_ar": "الرجل في هذا الموضع من بني الدِّيل، ومن بني عبد بن عدي، وهاديًا خِرِّيتًا؛ يشرح متن الرواية الخِرِّيت بأنه الماهر بالهداية. هذه وظيفة معرفة الطريق، لا اسم علم للدليل في هذه القطعة من الصحيح.",
+          "claim_ids": [
+            "hire_expertise",
+            "hire_unnamed"
+          ]
+        },
+        {
+          "paragraph_id": "hc_guide_hiring_02",
+          "text_ar": "تذكر عائشة أنه غمس حلفًا في آل العاص بن وائل السهمي، وكان على دين كفار قريش. ثم تقول إنهما أمناه ودفعا إليه راحلتيهما وواعداه. الأمان المذكور في الخبر فعل منهما في هذه الحالة، وليس ادعاءً بأن اختلاف الدين زال أو ضمانًا عامًا لكل عامل.",
+          "claim_ids": [
+            "hire_identity",
+            "hire_trust"
+          ]
+        },
+        {
+          "paragraph_id": "hc_guide_hiring_03",
+          "text_ar": "ينقل القرطبي مقطعًا عن البخاري ثم يقول المهلب إن فيه ائتمان أهل الشرك على السر والمال إذا عُلِم منهم وفاء ومروءة، ويقول ابن المنذر إن فيه استئجار غير المسلمين لهداية الطريق. هذان تعليقان فقهيان منسوبان إلى قائليهما، لا شهادتان مستقلتان على وقوع رحلة أخرى.",
+          "claim_ids": [
+            "hire_fiqh_mahallab",
+            "hire_fiqh_mundhir",
+            "hire_dependence"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "hire_expertise",
+          "text_ar": "في حديث عائشة: استأجرا رجلًا من بني الديل ومن بني عبد بن عدي هاديًا خريتًا؛ والنص يفسر الخريت بالماهر بالهداية.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_bukhari_hire",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "hire_unnamed",
+          "text_ar": "مقطع الاستئجار في الصحيح يسمي نسب الرجل ووظيفته ولا يصرح باسم شخصي له.",
+          "kind": "limit_of_displayed_fragment_not_universal_negative",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_bukhari_hire",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_guide_hani_name",
+              "part_ids": [
+                "p3"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "hire_identity",
+          "text_ar": "تذكر الرواية حلفًا في آل العاص بن وائل السهمي ودين كفار قريش عند الاستئجار.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_bukhari_hire",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "hire_trust",
+          "text_ar": "تقول عائشة: أمناه، ودفعا إليه راحلتيهما وواعداه؛ جملة الموعد تستكمل في المقطع التالي.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_bukhari_hire",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_guide_bukhari_coast",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "hire_fiqh_mahallab",
+          "text_ar": "يعزو القرطبي إلى المهلب استنباط ائتمان أهل الشرك على السر والمال بشرط العلم بالوفاء والمروءة.",
+          "kind": "attributed_interpretation",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_qurtubi",
+              "part_ids": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "hire_fiqh_mundhir",
+          "text_ar": "يعزو القرطبي إلى ابن المنذر الاستدلال بالخبر على استئجار غير المسلمين لهداية الطريق.",
+          "kind": "attributed_interpretation",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_qurtubi",
+              "part_ids": [
+                "p3"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "hire_dependence",
+          "text_ar": "افتتاح القرطبي ينسب الخبر إلى البخاري؛ إعادة الخبر فيه ليست طريقًا مستقلا بمجرد اختلاف الكتاب.",
+          "kind": "source_dependence_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_qurtubi",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_guide_bukhari_hire",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_guide_bukhari_hire",
+          "evidence_id": "H-1681-5899-GUIDE",
+          "scope_ar": "جزء الاستئجار من حديث عائشة في الصحيح؛ الإسناد محفوظ في بيانات السجل، والمتن ينتهي بواعداه ويستكمل في قطعة الساحل، لا طريق مستقل.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "hire_expertise",
+            "hire_unnamed",
+            "hire_identity",
+            "hire_trust",
+            "hire_dependence"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_guide_bukhari_coast",
+          "evidence_id": "H-1681-5899-COAST",
+          "scope_ar": "تتمة جملة الموعد من حديث عائشة نفسه عند حد الصفحة؛ أولها غار ثور، فلا تعرض وحدها جملة تامة.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "hire_trust"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_guide_qurtubi",
+          "evidence_id": "H-20855-3087-GUIDE-FIQH",
+          "scope_ar": "النقل المنسوب إلى البخاري لدى القرطبي ثم استنباطا المهلب وابن المنذر؛ أرقام الحواشي في النقل لا تعني فتح أصولها.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "referenced_by_claim_ids": [
+            "hire_fiqh_mahallab",
+            "hire_fiqh_mundhir",
+            "hire_dependence"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_guide_hani_name",
+          "evidence_id": "H-1054-82-CP4-GUIDE-NAME",
+          "scope_ar": "إطار هاني فقيه ثم اقتباسه عبارة ابن كثير بوسومها كما هي ثم تقييد هاني نفسه للاسم واستنباطه؛ لا ينسب التقييد إلى ابن كثير.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "referenced_by_claim_ids": [
+            "hire_unnamed"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "عائشة",
+          "role_ar": "ناقلة الخبر في إسناد الصحيح، لا شاهدة مصاحبة على الطريق في هذا النص",
+          "claim_ids": [
+            "hire_expertise",
+            "hire_trust"
+          ]
+        },
+        {
+          "name_ar": "الدليل غير المسمى في متن الصحيح",
+          "role_ar": "المستأجر لخبرته بالطريق والمؤتمن على الراحلتين",
+          "claim_ids": [
+            "hire_expertise",
+            "hire_unnamed",
+            "hire_trust"
+          ]
+        },
+        {
+          "name_ar": "المهلب",
+          "role_ar": "صاحب الاستنباط الفقهي المنقول عند القرطبي",
+          "claim_ids": [
+            "hire_fiqh_mahallab"
+          ]
+        },
+        {
+          "name_ar": "ابن المنذر",
+          "role_ar": "صاحب الاستنباط الآخر المنقول عند القرطبي",
+          "claim_ids": [
+            "hire_fiqh_mundhir"
+          ]
+        }
+      ],
+      "place_mentions": [
+        {
+          "name_ar": "غار ثور",
+          "coordinates": null,
+          "claim_ids": [
+            "hire_trust"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "guide_hiring_roles",
+          "text_ar": "يميز بين هداية الطريق بالخبرة وبين الاسم الشخصي الذي لا يصرح به هذا الجزء من الصحيح.",
+          "claim_ids": [
+            "hire_expertise",
+            "hire_unnamed"
+          ]
+        },
+        {
+          "objective_id": "guide_hiring_commentary",
+          "text_ar": "يعزو الحكم المستنبط إلى الشارح دون معاملته رواية ثانية.",
+          "claim_ids": [
+            "hire_fiqh_mahallab",
+            "hire_fiqh_mundhir",
+            "hire_dependence"
+          ]
+        }
+      ],
+      "related_topic_ids": [
+        "guide.name_variants",
+        "guide.appointment",
+        "source_method.dependence",
+        "source_method.voices"
+      ],
+      "further_questions_ar": [
+        "كيف اختلفت تسمية الرجل في السيرة عن طريقة وصفه في متن الصحيح؟",
+        "بماذا تكمل قطعة الموعد فعل «واعداه»؟"
+      ],
+      "open_items_ar": [
+        "لا ينفرد نقل القرطبي هنا بإسناد جديد، ولا يفحص هذا العمل أصول الاستنباط الفقهي المحال إليها."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "hire_expertise",
+        "hire_unnamed",
+        "hire_identity",
+        "hire_trust",
+        "hire_fiqh_mahallab",
+        "hire_fiqh_mundhir",
+        "hire_dependence"
+      ]
+    },
+    {
+      "core_id": "hc_guide_appointment",
+      "topic_id": "guide.appointment",
+      "reader_question_ar": "أين اتصل موعد الدليل بالراحلتين، ومن ذكرته الروايات في رفقة الخروج؟",
+      "introduction_ar": "تتوقف قطعة الاستئجار عند وواعداه وتبدأ القطعة التالية بـغار ثور؛ هما من الحديث نفسه. قراءة الطرفين معًا تعطي مكان الموعد ومدته وما ورد عن الراحلتين والرفقة، لا جدولًا دقيقًا لجميع المنازل.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_guide_appointment_01",
+          "text_ar": "بعد ائتمانه ودفع الراحلتين إليه، يكتمل فعل الموعد في قطعة عائشة التالية: غار ثور بعد ثلاث ليال، والموعد بالراحلتين صبح ثلاث. لا تعد الجملتان روايتين مستقلتين، ولا يصنع لفظ صبح ثلاث تاريخًا تقويميًا أو ساعة حديثة محددة.",
+          "claim_ids": [
+            "appt_link",
+            "appt_time"
+          ]
+        },
+        {
+          "paragraph_id": "hc_guide_appointment_02",
+          "text_ar": "تذكر تتمة الحديث انطلاق عامر بن فهيرة مع النبي ﷺ وأبي بكر والدليل، ثم أخذ الدليل بهم طريق السواحل. الوصف اتجاه مسار في هذا النص، لا إحداثيات ولا لائحة كاملة لمنازل الرحلة. وتذكر قطعة السيرة المنسوبة إلى أسماء أربعة في الرفقة وتسمي الدليل فيها باسم آخر النسبة؛ لا نستنتج من عدد الأسماء أن كل التفصيلين طريق مستقل.",
+          "claim_ids": [
+            "appt_companions",
+            "appt_coast",
+            "appt_sira_companions"
+          ]
+        },
+        {
+          "paragraph_id": "hc_guide_appointment_03",
+          "text_ar": "ينقل القرطبي عن البخاري صيغة طريق الساحل، ويضع بعدها كلام المهلب وابن المنذر في أحكام الاستئجار. صيغة الساحل في نقله لا تُبدّل السواحل في القطعة المعروضة من الصحيح؛ وهي هنا نقل معزو إلى البخاري، لا تحديد لخريطة جديدة.",
+          "claim_ids": [
+            "appt_qurtubi_variant",
+            "appt_dependence"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "appt_link",
+          "text_ar": "واعداه في قطعة الاستئجار تتصل بغار ثور بعد ثلاث ليال في القطعة التالية من الحديث الواحد.",
+          "kind": "source_continuity_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_bukhari_hire",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_guide_bukhari_coast",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "appt_time",
+          "text_ar": "تذكر التتمة الراحلتين وصبح ثلاث، دون ساعة دقيقة أو تاريخ تقويمي في هذا الانتقاء.",
+          "kind": "attributed_report_and_precision_limit",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_bukhari_coast",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "appt_companions",
+          "text_ar": "في تتمة عائشة انطلق معهما عامر بن فهيرة والدليل.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_bukhari_coast",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "appt_coast",
+          "text_ar": "الدليل في تتمة عائشة أخذ بهم طريق السواحل؛ المقطع لا يعين مواقع منازل هذا الطريق أو إحداثياته.",
+          "kind": "attributed_report_and_fragment_limit",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_bukhari_coast",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "appt_sira_companions",
+          "text_ar": "تسمي قطعة ابن إسحاق المنسوبة إلى أسماء أربعة: النبي وأبا بكر وعامر ابن فهيرة وعبد الله بن أرقط دليلهما.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_sira_name",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "appt_qurtubi_variant",
+          "text_ar": "في نقل القرطبي عن البخاري ترد عبارة طريق الساحل، مقابل طريق السواحل في قطعة الصحيح المفتوحة؛ لا يفترض من هذا اختلاف مسار محقق.",
+          "kind": "source_wording_comparison",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_qurtubi",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_guide_bukhari_coast",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "appt_dependence",
+          "text_ar": "القرطبي ينسب الخبر إلى البخاري؛ إعادة النقل ليست برهان استقلال الطريق.",
+          "kind": "source_dependence_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_guide_qurtubi",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_guide_bukhari_hire",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_guide_bukhari_hire",
+          "evidence_id": "H-1681-5899-GUIDE",
+          "scope_ar": "جزء الاستئجار من حديث عائشة في الصحيح؛ الإسناد محفوظ في بيانات السجل، والمتن ينتهي بواعداه ويستكمل في قطعة الساحل، لا طريق مستقل.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "appt_link",
+            "appt_dependence"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_guide_bukhari_coast",
+          "evidence_id": "H-1681-5899-COAST",
+          "scope_ar": "تتمة جملة الموعد من حديث عائشة نفسه عند حد الصفحة؛ أولها غار ثور، فلا تعرض وحدها جملة تامة.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "appt_link",
+            "appt_time",
+            "appt_companions",
+            "appt_coast",
+            "appt_qurtubi_variant"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_guide_sira_name",
+          "evidence_id": "H-23833-511-GUIDE",
+          "scope_ar": "قطعة من السيرة: خبر أسماء في نقل ابن إسحاق بعد خبر الهاتف السابق، ثم إضافة ابن هشام «ويقال»؛ ليست طريقين مستقلين لمجرد جزأين.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "appt_sira_companions"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_guide_qurtubi",
+          "evidence_id": "H-20855-3087-GUIDE-FIQH",
+          "scope_ar": "النقل المنسوب إلى البخاري لدى القرطبي ثم استنباطا المهلب وابن المنذر؛ أرقام الحواشي في النقل لا تعني فتح أصولها.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "referenced_by_claim_ids": [
+            "appt_qurtubi_variant",
+            "appt_dependence"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "عامر بن فهيرة",
+          "role_ar": "منطلق معهما بحسب تتمة عائشة، ومذكور في تعداد أسماء المنسوب إليها",
+          "claim_ids": [
+            "appt_companions",
+            "appt_sira_companions"
+          ]
+        },
+        {
+          "name_ar": "الدليل",
+          "role_ar": "صاحب الموعد بالراحلتين والأخذ بطريق السواحل في تتمة عائشة",
+          "claim_ids": [
+            "appt_time",
+            "appt_coast"
+          ]
+        }
+      ],
+      "place_mentions": [
+        {
+          "name_ar": "غار ثور",
+          "coordinates": null,
+          "claim_ids": [
+            "appt_link"
+          ]
+        },
+        {
+          "name_ar": "طريق السواحل",
+          "coordinates": null,
+          "claim_ids": [
+            "appt_coast"
+          ]
+        },
+        {
+          "name_ar": "المدينة",
+          "coordinates": null,
+          "claim_ids": [
+            "appt_sira_companions"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "guide_appointment_join",
+          "text_ar": "يصل الفعل المبتور بتتمته دون مضاعفة الحديث إلى طريقين.",
+          "claim_ids": [
+            "appt_link",
+            "appt_time"
+          ]
+        },
+        {
+          "objective_id": "guide_appointment_scope",
+          "text_ar": "يفصل بين رفقة الطريق ووصف اتجاهه وبين خريطة المنازل غير الموجودة في هذه القطعة.",
+          "claim_ids": [
+            "appt_companions",
+            "appt_coast",
+            "appt_sira_companions"
+          ]
+        }
+      ],
+      "related_topic_ids": [
+        "guide.hiring",
+        "guide.companions",
+        "route.coast",
+        "route.stations",
+        "chronology.departure_dates"
+      ],
+      "further_questions_ar": [
+        "ما ترتيب منازل الطريق في نص السيرة الآخر وما فروق ألفاظه؟",
+        "كيف يختلف رعي عامر في الغار عن مصاحبته في جملة الخروج؟"
+      ],
+      "open_items_ar": [
+        "لا تعيّن هذه القطعة الساحل على خريطة حديثة، ولا تجعل عبارة الصبح ساعة محددة.",
+        "رواية السيرة عن أربعة تبدأ بتتمة قصة الهاتف؛ تحتاج سياقها ولا تصلح لإثبات تفاصيل الهاتف في هذا السجل."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "appt_link",
+        "appt_time",
+        "appt_companions",
+        "appt_coast",
+        "appt_sira_companions",
+        "appt_qurtubi_variant",
+        "appt_dependence"
+      ]
+    }
+  ],
+  "source_packets": [
+    {
+      "packet_id": "sp_thawr_support",
+      "evidence_id": "H-1681-5899-CAVE",
+      "scope_ar": "انتقاء من متن رواية عائشة لأدوار المساندة؛ لا يعرض الإسناد الكامل أو بقية الحديث.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 759,
+          "page_start": 5087,
+          "page_end": 5846,
+          "source_type_ar": "حديث",
+          "speaker_ar": "عائشة في رواية الزهري عن عروة في صحيح البخاري",
+          "text_ar": "قَالَتْ: ثُمَّ لَحِقَ رَسُولُ اللهِ ﷺ وَأَبُو بَكْرٍ بِغَارٍ فِي جَبَلِ ثَوْرٍ، فَكَمَنَا فِيهِ ثَلَاثَ لَيَالٍ، يَبِيتُ عِنْدَهُمَا عَبْدُ اللهِ بْنُ أَبِي بَكْرٍ، وَهُوَ غُلَامٌ شَابٌّ، ثَقِفٌ لَقِنٌ، فَيُدْلِجُ مِنْ عِنْدِهِمَا بِسَحَرٍ، فَيُصْبِحُ مَعَ قُرَيْشٍ بِمَكَّةَ كَبَائِتٍ، فَلَا يَسْمَعُ أَمْرًا يُكْتَادَانِ بِهِ إِلَّا وَعَاهُ، حَتَّى يَأْتِيَهُمَا بِخَبَرِ ذَلِكَ حِينَ يَخْتَلِطُ الظَّلَامُ، وَيَرْعَى عَلَيْهِمَا عَامِرُ بْنُ فُهَيْرَةَ مَوْلَى أَبِي بَكْرٍ مِنْحَةً مِنْ غَنَمٍ، فَيُرِيحُهَا عَلَيْهِمَا حِينَ تَذْهَبُ سَاعَةٌ مِنَ الْعِشَاءِ، فَيَبِيتَانِ فِي رِسْلٍ، وَهُوَ لَبَنُ مِنْحَتِهِمَا وَرَضِيفِهِمَا، حَتَّى يَنْعِقَ بِهَا عَامِرُ بْنُ فُهَيْرَةَ بِغَلَسٍ، يَفْعَلُ ذَلِكَ فِي كُلِّ لَيْلَةٍ مِنْ تِلْكَ اللَّيَالِي الثَّلَاثِ،",
+          "text_sha256": "aa1b6dd7909294976b0ead5086bca42b4befe70edb5072169b15dc9204fead92"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 759,
+      "selected_text_sha256": "aa1b6dd7909294976b0ead5086bca42b4befe70edb5072169b15dc9204fead92",
+      "source_excerpt_sha256": "aa1b6dd7909294976b0ead5086bca42b4befe70edb5072169b15dc9204fead92",
+      "book_id": 1681,
+      "page_id": 5899,
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/59](https://app.turath.io/book/1681?page=5899)",
+      "source_url": "https://app.turath.io/book/1681?page=5899",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "جزء من حديث واحد؛ هذه المقاطع ليست طرقًا مستقلة",
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": null,
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false
+    },
+    {
+      "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+      "evidence_id": "H-1681-5914-HS-CAVE-1",
+      "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 263,
+          "page_start": 0,
+          "page_end": 263,
+          "source_type_ar": "إسناد داخل الانتقاء مع وسم رقمي",
+          "speaker_ar": "أنس عن أبي بكر",
+          "text_ar": "٣٩٢٢ - حَدَّثَنَا <a href=\"inr://man-6401\">مُوسَى بْنُ إِسْمَاعِيلَ: </a>حَدَّثَنَا <a href=\"inr://man-6739\">هَمَّامٌ، </a>عَنْ <a href=\"inr://man-1041\">ثَابِتٍ، </a>عَنْ <a href=\"inr://man-822\">أَنَسٍ، </a>عَنْ <a href=\"inr://man-3783\">أَبِي بَكْرٍ </a>﵁ قَالَ: ",
+          "text_sha256": "e87dac6652ea4048bdf76cd6b5c0ada3fd462f7d0e45a7c195fe4554145f9e6b"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 263,
+          "record_end": 512,
+          "page_start": 263,
+          "page_end": 512,
+          "source_type_ar": "حديث أبي بكر برواية أنس",
+          "speaker_ar": "أنس عن أبي بكر",
+          "text_ar": "<hadeeth-1622>«كُنْتُ مَعَ النَّبِيِّ ﷺ فِي الْغَارِ؟ فَرَفَعْتُ رَأْسِي فَإِذَا أَنَا بِأَقْدَامِ الْقَوْمِ؟ فَقُلْتُ: يَا نَبِيَّ اللهِ؟ لَوْ أَنَّ بَعْضَهُمْ طَأْطَأَ بَصَرَهُ رَآنَا، قَالَ: اسْكُتْ يَا أَبَا بَكْرٍ، اثْنَانِ اللهُ ثَالِثُهُمَا.»",
+          "text_sha256": "93da04809702889bbd758fa87ba6aefe4cf1739f961dd3df73df45700855ba79"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 512,
+          "record_end": 546,
+          "page_start": 512,
+          "page_end": 546,
+          "source_type_ar": "وسم رقمي ختامي",
+          "speaker_ar": "وسم مصدري لا متكلم",
+          "text_ar": "<hadeeth>\n<hadeeth-1622> <hadeeth>",
+          "text_sha256": "890b39118259e7d1c2e11009cfc2df48d0cb33138d241f0ee7fd7f67dfd276db"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 546,
+      "selected_text_sha256": "403382dbae9372c3987aef97304e590b4d4fd4b8c1fd6c7f612cf4c52ac4ee20",
+      "source_excerpt_sha256": "403382dbae9372c3987aef97304e590b4d4fd4b8c1fd6c7f612cf4c52ac4ee20",
+      "book_id": 1681,
+      "page_id": 5914,
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/65](https://app.turath.io/book/1681?page=5914)",
+      "source_url": "https://app.turath.io/book/1681?page=5914",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "ليس تكرارا لمتن مسلم ٦١٠٣ في هذه الدفعة؛ هذا لفظ البخاري في النطاق المكلّف به",
+        "فصلت حدود الصفحة المطبوعة داخل الوحدة الرقمية؛ تتصل الأجزاء ولا يركب منها نقل واحد بلا بيان الحدود",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "البخاري",
+      "edition_ar": "الكتاب: صحيح البخاري\nالمؤلف: أبو عبد الله، محمد بن إسماعيل بن إبراهيم بن المغيرة ابن بردزبه البخاري الجعفي\nتحقيق: جماعة من العلماء\nالطبعة: السلطانية، بالمطبعة الكبرى الأميرية، ببولاق مصر، ١٣١١ هـ، بأمر السلطان عبد الحميد الثاني\nثم صَوّرها بعنايته: د. محمد زهير الناصر، وطبعها الطبعة الأولى ١٤٢٢ هـ لدى دار طوق النجاة - بيروت، مع إثراء الهوامش بترقيم الأحاديث لمحمد فؤاد عبد الباقي، والإحالة لبعض المراجع المهمة\nعدد الأجزاء: ٩\n[ترقيم الكتاب موافق للمطبوع، وهو ضمن خدمة التخريج]",
+      "source_speaker_metadata_ar": "أنس عن أبي بكر",
+      "source_type_metadata_ar": "حديث مسند أو خبر الصحابي",
+      "source_page_sha256": "403382dbae9372c3987aef97304e590b4d4fd4b8c1fd6c7f612cf4c52ac4ee20",
+      "source_isnad_metadata_ar": "٣٩٢٢ - حَدَّثَنَا <a href=\"inr://man-6401\">مُوسَى بْنُ إِسْمَاعِيلَ: </a>حَدَّثَنَا <a href=\"inr://man-6739\">هَمَّامٌ، </a>عَنْ <a href=\"inr://man-1041\">ثَابِتٍ، </a>عَنْ <a href=\"inr://man-822\">أَنَسٍ، </a>عَنْ <a href=\"inr://man-3783\">أَبِي بَكْرٍ </a>﵁ قَالَ: ",
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_thawr_exp_h_7478_1001_ra_third",
+      "evidence_id": "H-7478-1001-RA-THIRD",
+      "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 381,
+          "page_start": 1426,
+          "page_end": 1807,
+          "source_type_ar": "إسناد أنس عن أبي بكر",
+          "speaker_ar": "أبو بكر برواية أنس",
+          "text_ar": "أَخْبَرَنَا أَبُو عَبْدِ اللَّه: إِسْحَاقُ بْنُ مُحَمَّدِ بْنِ يُوسُفَ السُّوسِيُّ، قَالَ: حَدَّثَنَا أَبُو الْعَبَّاسِ: مُحَمَّدُ بْنُ يَعْقُوبَ، قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ الضَّبِّيُّ، قَالَ:\nحَدَّثَنَا عَفَّانُ بْنُ مُسْلِمٍ، وَمُحَمَّدُ بْنُ سُفْيَانَ، قَالَا: حَدَّثَنَا هَمَّامٌ، قَالَ: أَخْبَرَنَا أَبُو ثَابِتٍ، عَنْ أَنَسٍ: أَنَّ أَبَا بَكْرٍ حَدَّثَهُ قَالَ ",
+          "text_sha256": "12157b78a7a9bfd96a60ca78f89bfade3bc879beea6481f1a803a0256aac35dc"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 381,
+          "record_end": 419,
+          "page_start": 1807,
+          "page_end": 1845,
+          "source_type_ar": "افتتاح كلام أبي بكر",
+          "speaker_ar": "أبو بكر برواية أنس",
+          "text_ar": "«كُنْتُ مَعَ رَسُولِ اللَّه ﵌ في الغار",
+          "text_sha256": "88757dc315465d2cd32c6d9a8dc17dd160344aeb51d1eb26e7166ad6704dc87a"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 419,
+      "selected_text_sha256": "a5bf161af2de5a10a460964f6e4d51a767dba04c65580b92541c9239130fb3a5",
+      "source_excerpt_sha256": "a5bf161af2de5a10a460964f6e4d51a767dba04c65580b92541c9239130fb3a5",
+      "book_id": 7478,
+      "page_id": 1001,
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/480](https://app.turath.io/book/7478?page=1001)",
+      "source_url": "https://app.turath.io/book/7478?page=1001",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع ممتد عبر صفحات رقمية؛ تتماته مربوطة بمعرف مجموعة النص ومعرفات المقاطع، ولا تلصق الحواشي بين التتمات",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو بكر البيهقي",
+      "edition_ar": "الكتاب: دلائل النبوة ومعرفة أحوال صاحب الشريعة\nالمؤلف: أبو بكر أحمد بن الحسين البيهقي (٣٨٤ - ٤٥٨ هـ)\nوثق أصوله وخرج حديثه وعلق عليه: د عبد المعطي قلعجي\nالناشر: دار الكتب العلمية، بيروت - لبنان\nالطبعة: الأولى، ١٤٠٥ هـ - ١٩٨٥ م\nعدد الأجزاء: ٧\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "أبو بكر برواية أنس",
+      "source_type_metadata_ar": "خبر تاريخي أو حديث مسند",
+      "source_page_sha256": "8935f9fb7b428be1e8c6e0d01a602734d0aba722384bfe9c1e06bc963546d283",
+      "source_isnad_metadata_ar": "أَخْبَرَنَا أَبُو عَبْدِ اللَّه: إِسْحَاقُ بْنُ مُحَمَّدِ بْنِ يُوسُفَ السُّوسِيُّ، قَالَ: حَدَّثَنَا أَبُو الْعَبَّاسِ: مُحَمَّدُ بْنُ يَعْقُوبَ، قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ الضَّبِّيُّ، قَالَ:\nحَدَّثَنَا عَفَّانُ بْنُ مُسْلِمٍ، وَمُحَمَّدُ بْنُ سُفْيَانَ، قَالَا: حَدَّثَنَا هَمَّامٌ، قَالَ: أَخْبَرَنَا أَبُو ثَابِتٍ، عَنْ أَنَسٍ: أَنَّ أَبَا بَكْرٍ حَدَّثَهُ قَالَ ",
+      "related_evidence_ids": [
+        "H-7478-1002-RA-THIRD"
+      ]
+    },
+    {
+      "packet_id": "sp_thawr_exp_h_7478_1002_ra_third",
+      "evidence_id": "H-7478-1002-RA-THIRD",
+      "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 108,
+          "page_start": 0,
+          "page_end": 108,
+          "source_type_ar": "كلام أبي بكر",
+          "speaker_ar": "أبو بكر برواية أنس",
+          "text_ar": "فَقُلْتُ يَا رَسُولَ اللَّه لَوْ أَنَّ أَحَدَهُمْ يَنْظُرُ إِلَى قَدَمَيْهِ لَأَبْصَرَنَا تَحْتَ قَدَمَيْهِ ",
+          "text_sha256": "95bdad5fd7121e4ba4785f0763e7b4d6f2b5e8e9107a59a0829eccc6a6fac60f"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 108,
+          "record_end": 208,
+          "page_start": 108,
+          "page_end": 208,
+          "source_type_ar": "جواب النبي في الخبر",
+          "speaker_ar": "أبو بكر برواية أنس",
+          "text_ar": "قَالَ فَقَالَ النَّبِيُّ ﵌: «يَا أَبَا بَكْرٍ! مَا ظَنُّكَ بِاثْنَيْنِ اللَّه ثَالِثُهُمَا» [(٢٩)] .",
+          "text_sha256": "488cb3dc9be687393234abc38749adaa4495f49e146c9c61f8e7554b3722ee20"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 208,
+      "selected_text_sha256": "6e1936e8f069ed1dd668d902f6fc59056429a59c461b234c5f1c695fcfd99d6a",
+      "source_excerpt_sha256": "6e1936e8f069ed1dd668d902f6fc59056429a59c461b234c5f1c695fcfd99d6a",
+      "book_id": 7478,
+      "page_id": 1002,
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/481](https://app.turath.io/book/7478?page=1002)",
+      "source_url": "https://app.turath.io/book/7478?page=1002",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع ممتد عبر صفحات رقمية؛ تتماته مربوطة بمعرف مجموعة النص ومعرفات المقاطع، ولا تلصق الحواشي بين التتمات",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو بكر البيهقي",
+      "edition_ar": "الكتاب: دلائل النبوة ومعرفة أحوال صاحب الشريعة\nالمؤلف: أبو بكر أحمد بن الحسين البيهقي (٣٨٤ - ٤٥٨ هـ)\nوثق أصوله وخرج حديثه وعلق عليه: د عبد المعطي قلعجي\nالناشر: دار الكتب العلمية، بيروت - لبنان\nالطبعة: الأولى، ١٤٠٥ هـ - ١٩٨٥ م\nعدد الأجزاء: ٧\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "أبو بكر برواية أنس",
+      "source_type_metadata_ar": "خبر تاريخي أو حديث مسند",
+      "source_page_sha256": "84eeb2bc6d5b85c3c3a9a0d318ba10de240df1bdc9ee13f076c8bdd772b06ae6",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-7478-1001-RA-THIRD"
+      ]
+    },
+    {
+      "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
+      "evidence_id": "H-7478-1002-RA-THIRD-VARIANT",
+      "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 301,
+          "page_start": 209,
+          "page_end": 510,
+          "source_type_ar": "إسناد وتعليق نحو الخبر",
+          "speaker_ar": "أبو بكر برواية أنس؛ والبيهقي في التخريج",
+          "text_ar": "وَأَخْبَرَنَا عَلِيُّ بْنُ أَحْمَدَ بْنِ عَبْدَانَ قَالَ: أَخْبَرَنَا أَحْمَدُ بْنُ عُبَيْدٍ الصَّفَّارُ قَالَ:\nحَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُعَاوِيَةَ الْقُرَشِيُّ، قَالَ: حَدَّثَنَا حَبَّانُ، قَالَ: حَدَّثَنَا هَمَّامٌ عَنِ الْبُنَانِيِّ فَذَكَرَهُ بِإِسْنَادِهِ نَحْوَهُ إِلَّا أَنَّهُ قَالَ ",
+          "text_sha256": "bd4a37a4349c9c48bb8bfcc38f4befff00f32e61b74e9921e8a55da6b56e47ef"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 301,
+          "record_end": 380,
+          "page_start": 510,
+          "page_end": 589,
+          "source_type_ar": "لفظ بديل",
+          "speaker_ar": "أبو بكر برواية أنس؛ والبيهقي في التخريج",
+          "text_ar": "«لَوْ أَنَّ أَحَدَهُمْ رَفَعَ قَدَمَهُ لَأَبْصَرَنَا مِنْ تَحْتِ قَدَمَيْهِ» .\n",
+          "text_sha256": "5ed7501850d63c3dabeae6033750d4d836771ff0e824d6cf7409279ae3595212"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 380,
+          "record_end": 600,
+          "page_start": 589,
+          "page_end": 809,
+          "source_type_ar": "تخريج البيهقي",
+          "speaker_ar": "البيهقي في التخريج؛ لا كلام أبي بكر",
+          "text_ar": "رَوَاهُ الْبُخَارِيُّ فِي الصَّحِيحِ [(٣٠)] عَنْ مُحَمَّدِ بْنِ سُفْيَانَ، وَعَنْ عَبْدِ اللَّه بْنِ مُحَمَّدٍ، عَنْ حَبَّانَ بْنِ هِلَالٍ.\nوَرَوَاهُ مُسْلِمٌ عَنْ: زُهَيْرِ بْنِ حَرْبٍ [(٣١)]، وَغَيْرِهِ، عَنْ حَبَّانَ.",
+          "text_sha256": "aa02de0f6d0f6c7e0e16c798bff92af617f062ea1c335144e90ce72ffa5eaa2f"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 600,
+      "selected_text_sha256": "8a42b120a9f85159465910cd9335e6130ff46ab4d6d6b4536b8a98c2bfe6cdc2",
+      "source_excerpt_sha256": "8a42b120a9f85159465910cd9335e6130ff46ab4d6d6b4536b8a98c2bfe6cdc2",
+      "book_id": 7478,
+      "page_id": 1002,
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/481](https://app.turath.io/book/7478?page=1002)",
+      "source_url": "https://app.turath.io/book/7478?page=1002",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو بكر البيهقي",
+      "edition_ar": "الكتاب: دلائل النبوة ومعرفة أحوال صاحب الشريعة\nالمؤلف: أبو بكر أحمد بن الحسين البيهقي (٣٨٤ - ٤٥٨ هـ)\nوثق أصوله وخرج حديثه وعلق عليه: د عبد المعطي قلعجي\nالناشر: دار الكتب العلمية، بيروت - لبنان\nالطبعة: الأولى، ١٤٠٥ هـ - ١٩٨٥ م\nعدد الأجزاء: ٧\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "أبو بكر برواية أنس؛ والبيهقي في التخريج",
+      "source_type_metadata_ar": "خبر تاريخي أو حديث مسند",
+      "source_page_sha256": "84eeb2bc6d5b85c3c3a9a0d318ba10de240df1bdc9ee13f076c8bdd772b06ae6",
+      "source_isnad_metadata_ar": "وَأَخْبَرَنَا عَلِيُّ بْنُ أَحْمَدَ بْنِ عَبْدَانَ قَالَ: أَخْبَرَنَا أَحْمَدُ بْنُ عُبَيْدٍ الصَّفَّارُ قَالَ:\nحَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُعَاوِيَةَ الْقُرَشِيُّ، قَالَ: حَدَّثَنَا حَبَّانُ، قَالَ: حَدَّثَنَا هَمَّامٌ عَنِ الْبُنَانِيِّ فَذَكَرَهُ بِإِسْنَادِهِ نَحْوَهُ إِلَّا أَنَّهُ قَالَ ",
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_thawr_exp_h_10695_75_cp6_cave_chains",
+      "evidence_id": "H-10695-75-CP6-CAVE-CHAINS",
+      "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 282,
+          "page_start": 837,
+          "page_end": 1119,
+          "source_type_ar": "إسنادان إلى همام",
+          "speaker_ar": "ابن عبد البر يسند عن أنس عن أبي بكر",
+          "text_ar": "حَدَّثَنَا أَحْمَدُ بْنُ قَاسِمِ بْنِ عَبْدِ الرَّحْمَنِ، قَالَ: حَدَّثَنَا قَاسم بْن أصبغ، قَالَ: حَدَّثَنَا الْحَارِثُ بْنُ أَبِي أُسَامَةَ. وَحَدَّثَنَا سَعِيدُ بْنُ نَصْرٍ، قَالَ: أَنْبَأَنَا قَاسِمُ بْنُ أَصْبَغَ، قَالَ: أَنْبَأَنَا مُحَمَّدُ بْنُ إِسْمَاعِيلَ التِّرْمِذِيُّ. ",
+          "text_sha256": "bbe2bb3587c80e1a85ef6500d4fb196d916158d86268ad116d259236f2f030cb"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 282,
+          "record_end": 585,
+          "page_start": 1119,
+          "page_end": 1422,
+          "source_type_ar": "حديث أبي بكر برواية أنس",
+          "speaker_ar": "أبو بكر صاحب الخبر، أنس الراوي عنه، كما يسند ابن عبد البر",
+          "text_ar": "قَالا: أَنْبَأَنَا هَمَّامٌ، قَالَ: أَخْبَرَنَا ثَابِتٌ عَنْ أَنَسٍ أَنَّ أَبَا بَكْرٍ حَدَّثَهُ، قَالَ: قُلْتُ لِلنَّبِيِّ ﵇ وَنَحْنُ فِي الْغَارِ: لَوْ كَانَ أَحَدُهُمْ نَظَرَ إِلَى قَدَمَيْهِ لأَبْصَرَنَا تَحْتَ قَدَمَيْهِ، فَقَالَ: \"يَا أَبَا بَكْرٍ مَا ظَنُّكَ بِاثْنَيْنِ اللَّهُ ثَالِثُهُمَا\" **.",
+          "text_sha256": "46ab3b8da34309d8e11d467734b53c3bf558840f8eba7d1c46ffb039921f739f"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 585,
+      "selected_text_sha256": "38b28bed160167c0759d27c7c3d854a7f689d4be0bf1038d142f74c0da80cea3",
+      "source_excerpt_sha256": "38b28bed160167c0759d27c7c3d854a7f689d4be0bf1038d142f74c0da80cea3",
+      "book_id": 10695,
+      "page_id": 75,
+      "book_ar": "الدرر في اختصار المغازي والسير",
+      "citation_ar": "[الدرر في اختصار المغازي والسير، 1/81](https://app.turath.io/book/10695?page=75)",
+      "source_url": "https://app.turath.io/book/10695?page=75",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "إضافة مصدر غير ممثل وإسنادين محليين؛ ملتقاهما همام لا طريقان مستقلان في أصل الخبر. إسناد هذا المقطع لا ينسحب على خبر الحمامة والعنكبوت السابق له.",
+        "علامة ** إحالة حاشية لم تدخل في هذا الشاهد؛ الحاشية الجدلية في 75-76 قرئت ولم تعتمد.",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن عبد البر",
+      "edition_ar": "الكتاب: الدرر في اختصار المغازي والسير\nالمؤلف: يوسف بن عبد البر النمري (٣٦٨ - ٤٦٣ هـ)\nالمحقق: د شوقي ضيف\nالناشر: دار المعارف - القاهرة\nالطبعة: الثانية، ١٤٠٣ هـ\nعدد الصفحات: ٣٥١\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن عبد البر يسند عن أنس عن أبي بكر",
+      "source_type_metadata_ar": "حديث مسند",
+      "source_page_sha256": "f8223a3bbfdba78f663b4f23a1fa5b8dd4096c3767d50e608d641b029e146c5f",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-41-1253-CAVE-HAMMAM",
+        "H-7478-1002-RA-THIRD-VARIANT"
+      ]
+    },
+    {
+      "packet_id": "sp_thawr_exp_h_9898_124_prep_2",
+      "evidence_id": "H-9898-124-prep-2",
+      "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 323,
+          "page_start": 122,
+          "page_end": 445,
+          "source_type_ar": "سرد ابن حبان عن الدليل والغار",
+          "speaker_ar": "أبو حاتم ابن حبان في سرده؛ المتكلم الداخلي كما في النص",
+          "text_ar": "قال أبو حاتم: لما أمر الله جل وعلا رسوله ﷺ بالهجرة استأجر «٢» رسول الله ﷺ رجلا من بني الديل وهو من بني عدي هاديا خريتا- والخريت: الماهر بالهداية- قد غمس حلفا في آل العاص بن وائل السهمي وهو على دين كفار قريش، فأمناه ودفعا «٣» إليه راحلتيهما وأوعداه بغار ثور بعد ثلاث، وخرج ﷺ وأبو بكر حتى أتيا الغار في جبل «٤» ثور كمنا فيه، ",
+          "text_sha256": "19c87047ecf3f8bd651c660d88e420a54001edf4577adf30fa57a40d3c1a7daa"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 323,
+          "record_end": 386,
+          "page_start": 445,
+          "page_end": 508,
+          "source_type_ar": "سرد الملاحقة",
+          "speaker_ar": "أبو حاتم ابن حبان في سرده؛ المتكلم الداخلي كما في النص",
+          "text_ar": "وخرج المشركون يطلبونهما حتى جاءوا إلى الجبل وأشرفوا على الغار، ",
+          "text_sha256": "30e1c8441bdf740365cbf6fc8efe41a416b0e243b2667fa15644a040bfba65f4"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 386,
+          "record_end": 514,
+          "page_start": 508,
+          "page_end": 636,
+          "source_type_ar": "قول أبي بكر وجواب النبي",
+          "speaker_ar": "أبو حاتم ابن حبان في سرده؛ المتكلم الداخلي كما في النص",
+          "text_ar": "فقال أبو بكر: يا رسول الله! لو أبصر أحدهم تحت قدمه «٥» لأبصرنا «٦»، فقال رسول الله ﷺ: «يا أبا بكر! ما ظنك باثنين الله ثالثهما»، ",
+          "text_sha256": "8cd21d14530ce48f5220b8e6282c9fd549855363c5ac29c3209312a2fe92b47a"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 514,
+          "record_end": 570,
+          "page_start": 636,
+          "page_end": 692,
+          "source_type_ar": "تفسير ابن حبان في السرد",
+          "speaker_ar": "أبو حاتم ابن حبان في سرده؛ المتكلم الداخلي كما في النص",
+          "text_ar": "فأعمى الله «٧» أعينهم عن رسول الله ﷺ، فلما أيسوا رجعوا، ",
+          "text_sha256": "56a8d7e4b9599830ea33ad176624ff5ed854aa2bc38f1f7b9944081772b7b96a"
+        },
+        {
+          "part_id": "p5",
+          "record_start": 570,
+          "record_end": 667,
+          "page_start": 692,
+          "page_end": 789,
+          "source_type_ar": "سرد المدة وما بعدها",
+          "speaker_ar": "أبو حاتم ابن حبان في سرده؛ المتكلم الداخلي كما في النص",
+          "text_ar": "ومكث رسول الله ﷺ وأبو بكر في الغار ثلاث ليال؛ يبيت عندهما عبد الله بن أبي بكر الصديق وهو غلام شاب",
+          "text_sha256": "ced335580e8e8d7f1bf8436ed77657ca18d328fe5b8267dd44422432863a522a"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 667,
+      "selected_text_sha256": "1e2ded1e6873bf40aeabb84ad65f7b75f2c174c323af3416b7f065e91d5d5dfa",
+      "source_excerpt_sha256": "1e2ded1e6873bf40aeabb84ad65f7b75f2c174c323af3416b7f065e91d5d5dfa",
+      "book_id": 9898,
+      "page_id": 124,
+      "book_ar": "السيرة النبوية وأخبار الخلفاء من الثقات لابن حبان",
+      "citation_ar": "[السيرة النبوية وأخبار الخلفاء من الثقات لابن حبان، 1/129](https://app.turath.io/book/9898?page=124)",
+      "source_url": "https://app.turath.io/book/9898?page=124",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "لا يعد ورود الخبر هنا طريقًا مستقلًا بمجرد اختلاف الكتاب؛ مواضع النقل المصرح بها وأسانيدها محفوظة، والسرد غير المسند في موضعه لا يلحق بها",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حبان",
+      "edition_ar": "الكتاب: السيرة النبوية وأخبار الخلفاء\nوهي سيرة النبي وخلفائه من كتاب «الثقات» للحافظ أبي حاتم [ابن حبان] البُستي (ت ٣٥٤ هـ)\nصحّحه وعلق عليه: الحافظ السيد عزيز بك، وجماعة من العلماء\nالناشر: مؤسسة الكتب الثقافية، بيروت - لبنان\nالطبعة: الأولى ١٤٠٧ هـ - ١٩٨٧ م [وأعادوا نشرها لاحقًا مرارا بنفس ترقيم الصفحات]\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "أبو حاتم ابن حبان في سرده؛ المتكلم الداخلي كما في النص",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "7228c8f54a0864247c9b60f1bb18a031f99257485473ead3620eee143e773090",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-9898-125-prep-1",
+        "H-9898-126-prep-1",
+        "H-9898-124-prep-foot-2",
+        "H-9898-124-prep-1",
+        "H-9898-124-prep-foot-7"
+      ]
+    },
+    {
+      "packet_id": "sp_thawr_exp_h_7478_1001_ra_jundub",
+      "evidence_id": "H-7478-1001-RA-JUNDUB",
+      "scope_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 325,
+          "page_start": 939,
+          "page_end": 1264,
+          "source_type_ar": "إسناد",
+          "speaker_ar": "جندب",
+          "text_ar": "أَخْبَرَنَا أَبُو عَبْدِ اللَّه الْحَافِظُ، وأَبُو سَعِيدِ بْنُ أَبِي عَمْرٍو، قَالَ: حَدَّثَنَا أَبُو الْعَبَّاسِ: مُحَمَّدُ بْنُ يَعْقُوبَ، قَالَ: حَدَّثَنَا الْعَبَّاسُ بْنُ مُحَمَّدٍ الدُّورِيُّ، قَالَ:\nحَدَّثَنَا الْأَسْوَدُ بْنُ عَامِرٍ: شَاذَانُ، قَالَ: حَدَّثَنَا إِسْرَائِيلُ، عَنِ الْأَسْوَدِ، عَنْ جُنْدُبٍ، قَالَ ",
+          "text_sha256": "5bb3d39b68fcf758c236493a077e1567fa3775dd9a2dbe5c4c34211c5fe0672d"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 325,
+          "record_end": 407,
+          "page_start": 1264,
+          "page_end": 1346,
+          "source_type_ar": "خبر جندب وفيه ضمير إصابة اليد غير المحسوم هنا",
+          "speaker_ar": "جندب",
+          "text_ar": "«كَانَ أَبُو بَكْرٍ ﵁ مَعَ رَسُولِ اللَّه ﵌ فِي الْغَارِ فَأَصَابَ يده حجر، فقال:\n",
+          "text_sha256": "f250c92aeaab16a354212ae8fc17005682b77bdeee019c9920d4e8b4cb361dd5"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 407,
+          "record_end": 486,
+          "page_start": 1346,
+          "page_end": 1425,
+          "source_type_ar": "شعر منقول في خبر جندب، لا كلام المحرر أو نسبة جديدة",
+          "speaker_ar": "قائل الشعر غير محسوم في هذا العرض؛ جندب ناقل الخبر لا تعيين القائل",
+          "text_ar": "إِنْ أَنْتَ إِلَّا أُصْبُعٌ دَمِيتِ ... وَفِي سَبِيلِ اللَّه مَا لَقِيتِ [(٢٨)]",
+          "text_sha256": "d67641129db2ff5ded38f2aa17622219aa8d6847c1392e93a69e42700159992e"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 486,
+      "selected_text_sha256": "73f4e78f6c87ac271437df030fed9cb058183016f3d1077dc59e46a03e0afd06",
+      "source_excerpt_sha256": "73f4e78f6c87ac271437df030fed9cb058183016f3d1077dc59e46a03e0afd06",
+      "book_id": 7478,
+      "page_id": 1001,
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/480](https://app.turath.io/book/7478?page=1001)",
+      "source_url": "https://app.turath.io/book/7478?page=1001",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو بكر البيهقي",
+      "edition_ar": "الكتاب: دلائل النبوة ومعرفة أحوال صاحب الشريعة\nالمؤلف: أبو بكر أحمد بن الحسين البيهقي (٣٨٤ - ٤٥٨ هـ)\nوثق أصوله وخرج حديثه وعلق عليه: د عبد المعطي قلعجي\nالناشر: دار الكتب العلمية، بيروت - لبنان\nالطبعة: الأولى، ١٤٠٥ هـ - ١٩٨٥ م\nعدد الأجزاء: ٧\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "جندب",
+      "source_type_metadata_ar": "خبر تاريخي أو حديث مسند",
+      "source_page_sha256": "8935f9fb7b428be1e8c6e0d01a602734d0aba722384bfe9c1e06bc963546d283",
+      "source_isnad_metadata_ar": "أَخْبَرَنَا أَبُو عَبْدِ اللَّه الْحَافِظُ، وأَبُو سَعِيدِ بْنُ أَبِي عَمْرٍو، قَالَ: حَدَّثَنَا أَبُو الْعَبَّاسِ: مُحَمَّدُ بْنُ يَعْقُوبَ، قَالَ: حَدَّثَنَا الْعَبَّاسُ بْنُ مُحَمَّدٍ الدُّورِيُّ، قَالَ:\nحَدَّثَنَا الْأَسْوَدُ بْنُ عَامِرٍ: شَاذَانُ، قَالَ: حَدَّثَنَا إِسْرَائِيلُ، عَنِ الْأَسْوَدِ، عَنْ جُنْدُبٍ، قَالَ ",
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_caveverse_qurtubi_verse",
+      "evidence_id": "H-20855-3085-VERSE",
+      "scope_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 362,
+          "page_start": 87,
+          "page_end": 449,
+          "source_type_ar": "قرآن منقول في التفسير",
+          "speaker_ar": "نص الآية في تفسير القرطبي",
+          "text_ar": "إِلاَّ تَنْصُرُوهُ فَقَدْ نَصَرَهُ اللَّهُ إِذْ أَخْرَجَهُ الَّذِينَ كَفَرُوا ثانِيَ اثْنَيْنِ إِذْ هُما فِي الْغارِ إِذْ يَقُولُ لِصاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنا فَأَنْزَلَ اللَّهُ سَكِينَتَهُ عَلَيْهِ وَأَيَّدَهُ بِجُنُودٍ لَمْ تَرَوْها وَجَعَلَ كَلِمَةَ الَّذِينَ كَفَرُوا السُّفْلى وَكَلِمَةُ اللَّهِ هِيَ الْعُلْيا وَاللَّهُ عَزِيزٌ حَكِيمٌ (٤٠)",
+          "text_sha256": "4280901af10cf4ad4d8aa0d7aa0c5dbf26cbdb007c67355c628311105d60f0d0"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 362,
+      "selected_text_sha256": "4280901af10cf4ad4d8aa0d7aa0c5dbf26cbdb007c67355c628311105d60f0d0",
+      "source_excerpt_sha256": "4280901af10cf4ad4d8aa0d7aa0c5dbf26cbdb007c67355c628311105d60f0d0",
+      "book_id": 20855,
+      "page_id": 3085,
+      "book_ar": "تفسير القرطبي = الجامع لأحكام القرآن",
+      "citation_ar": "[تفسير القرطبي = الجامع لأحكام القرآن، 8/143](https://app.turath.io/book/20855?page=3085)",
+      "source_url": "https://app.turath.io/book/20855?page=3085",
+      "retrieved_at": "2026-10-02T20:33:52.285869+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "القرطبي",
+      "edition_ar": "الكتاب: الجامع لأحكام القرآن\nالمؤلف: أبو عبد الله، محمد بن أحمد الأنصاري القرطبي\nتحقيق: أحمد البردوني وإبراهيم أطفيش\nالناشر: دار الكتب المصرية - القاهرة\nالطبعة: الثانية، ١٣٨٤ هـ - ١٩٦٤ م\nعدد الأجزاء: ٢٠ جزءا (في ١٠ مجلدات)\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "نص الآية في تفسير القرطبي",
+      "source_type_metadata_ar": "قرآن منقول في التفسير",
+      "source_page_sha256": "de7b4b996dec181c1a25d10c0db43ec3bc3c61c7add4bafba9e7fc21b8edd284",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_caveverse_tabari_verse_a",
+      "evidence_id": "H-43-7824-VERSE-A",
+      "scope_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 178,
+          "page_start": 21,
+          "page_end": 199,
+          "source_type_ar": "قرآن منقول في التفسير",
+          "speaker_ar": "نص الآية في تفسير الطبري",
+          "text_ar": "﴿إِلا تَنْصُرُوهُ فَقَدْ نَصَرَهُ اللَّهُ إِذْ أَخْرَجَهُ الَّذِينَ كَفَرُوا ثَانِيَ اثْنَيْنِ إِذْ هُمَا فِي الْغَارِ إِذْ يَقُولُ لِصَاحِبِهِ لا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا﴾",
+          "text_sha256": "c1df541efd52b20dfca2ef13a276bfd90a6dd0e158fa555f778d9e80b5acef71"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 178,
+      "selected_text_sha256": "c1df541efd52b20dfca2ef13a276bfd90a6dd0e158fa555f778d9e80b5acef71",
+      "source_excerpt_sha256": "c1df541efd52b20dfca2ef13a276bfd90a6dd0e158fa555f778d9e80b5acef71",
+      "book_id": 43,
+      "page_id": 7824,
+      "book_ar": "تفسير الطبري جامع البيان - ط دار التربية والتراث",
+      "citation_ar": "[تفسير الطبري جامع البيان - ط دار التربية والتراث، 14/257](https://app.turath.io/book/43?page=7824)",
+      "source_url": "https://app.turath.io/book/43?page=7824",
+      "retrieved_at": "2026-10-02T20:33:52.284317+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن جرير الطبري",
+      "edition_ar": "الكتاب: جامع البيان عن تأويل آي القرآن\nالمؤلف: أبو جعفر، محمد بن جرير الطبري (٢٢٤ - ٣١٠هـ)\nتوزيع: دار التربية والتراث - مكة المكرمة - ص.ب: ٧٧٨٠\nالطبعة: بدون تاريخ نشر\nعدد الأجزاء: ٢٤\n ١ - ١٦: مصورةٌ من تحقيق محمود محمد شاكر، الذي ينتهي بتفسير الآية ٢٧ من سورة إبراهيم\n١٧ - ٢٤  (بقية التفسير): إعادة صَف لطبعة الحلبي بنصها وحواشيها بلا أدنى إشارة!!\nتنبيهات:\n•  قد نُسِبَتْ هذه الطبعةُ لـ «مؤسسة الرسالة»  في  «نسْخةٍ إلكترونية» مشهورة النشر سابقًا! وصوابها ما ذُكر بعاليه! فلْيُصحَّح.\n• كما نَسَبَتْ تلك «النسْخة الإلكترونية» المنشورة سابقًا: تحقيق التفسير بأجزائه الــ٢٤ كاملا لأحمد شاكر! فلْيُصحَّح أيضًا\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "نص الآية في تفسير الطبري",
+      "source_type_metadata_ar": "قرآن منقول في التفسير",
+      "source_page_sha256": "744fe63f3882539c6668b6f629b7e52c3697974684e2da442f6da7fb6ade05a4",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_caveverse_tabari_verse_b",
+      "evidence_id": "H-43-7828-VERSE-B",
+      "scope_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 185,
+          "page_start": 27,
+          "page_end": 212,
+          "source_type_ar": "قرآن منقول في التفسير",
+          "speaker_ar": "نص الآية في تفسير الطبري",
+          "text_ar": "﴿فَأَنزلَ اللَّهُ سَكِينَتَهُ عَلَيْهِ وَأَيَّدَهُ بِجُنُودٍ لَمْ تَرَوْهَا وَجَعَلَ كَلِمَةَ الَّذِينَ كَفَرُوا السُّفْلَى وَكَلِمَةُ اللَّهِ هِيَ الْعُلْيَا وَاللَّهُ عَزِيزٌ حَكِيمٌ﴾",
+          "text_sha256": "a86d8d6cac294367ac85c369e41b1c7149c1718be45e6e4ddd4be484a6aa421c"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 185,
+      "selected_text_sha256": "a86d8d6cac294367ac85c369e41b1c7149c1718be45e6e4ddd4be484a6aa421c",
+      "source_excerpt_sha256": "a86d8d6cac294367ac85c369e41b1c7149c1718be45e6e4ddd4be484a6aa421c",
+      "book_id": 43,
+      "page_id": 7828,
+      "book_ar": "تفسير الطبري جامع البيان - ط دار التربية والتراث",
+      "citation_ar": "[تفسير الطبري جامع البيان - ط دار التربية والتراث، 14/261](https://app.turath.io/book/43?page=7828)",
+      "source_url": "https://app.turath.io/book/43?page=7828",
+      "retrieved_at": "2026-10-02T20:33:52.284317+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن جرير الطبري",
+      "edition_ar": "الكتاب: جامع البيان عن تأويل آي القرآن\nالمؤلف: أبو جعفر، محمد بن جرير الطبري (٢٢٤ - ٣١٠هـ)\nتوزيع: دار التربية والتراث - مكة المكرمة - ص.ب: ٧٧٨٠\nالطبعة: بدون تاريخ نشر\nعدد الأجزاء: ٢٤\n ١ - ١٦: مصورةٌ من تحقيق محمود محمد شاكر، الذي ينتهي بتفسير الآية ٢٧ من سورة إبراهيم\n١٧ - ٢٤  (بقية التفسير): إعادة صَف لطبعة الحلبي بنصها وحواشيها بلا أدنى إشارة!!\nتنبيهات:\n•  قد نُسِبَتْ هذه الطبعةُ لـ «مؤسسة الرسالة»  في  «نسْخةٍ إلكترونية» مشهورة النشر سابقًا! وصوابها ما ذُكر بعاليه! فلْيُصحَّح.\n• كما نَسَبَتْ تلك «النسْخة الإلكترونية» المنشورة سابقًا: تحقيق التفسير بأجزائه الــ٢٤ كاملا لأحمد شاكر! فلْيُصحَّح أيضًا\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "نص الآية في تفسير الطبري",
+      "source_type_metadata_ar": "قرآن منقول في التفسير",
+      "source_page_sha256": "30e877efe4003c792698743e246f7e9d129f46846c7012f39bd3349d96d35ade",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-43-7824-VERSE-A"
+      ]
+    },
+    {
+      "packet_id": "sp_caveverse_muslim",
+      "evidence_id": "H-1727-6103-CAVE",
+      "scope_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 306,
+          "page_start": 243,
+          "page_end": 549,
+          "source_type_ar": "إسناد مثبت داخل الانتقاء",
+          "speaker_ar": "المصنف في سلسلة النقل، لا شاهد حاضر جديد",
+          "text_ar": "١ - (٢٣٨١) حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ وَعَبْدُ بْنُ حميد وعبد الله بن عبد الرحمن الدارمي (قَالَ عَبْدُ اللَّهِ: أَخْبَرَنَا. وقَالَ الْآخَرَانِ: حَدَّثَنَا)\nحَبَّانُ بْنُ هِلَالٍ. حَدَّثَنَا هَمَّامٌ. حَدَّثَنَا ثَابِتٌ. حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ؛\nأَنَّ أَبَا بَكْرٍ الصِّدِّيقَ حَدَّثَهُ قَالَ: ",
+          "text_sha256": "766a4e2a60d764d3df66460afc3686f810ab908d9fe37cd907629c4d68928dbc"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 306,
+          "record_end": 548,
+          "page_start": 549,
+          "page_end": 791,
+          "source_type_ar": "حديث مسند",
+          "speaker_ar": "أبو بكر برواية أنس؛ ليس أنس شاهد الغار في هذا النص",
+          "text_ar": "نَظَرْتُ إِلَى أَقْدَامِ المشركين على رؤوسنا وَنَحْنُ فِي الْغَارِ. فَقُلْتُ: يَا رَسُولَ اللَّهِ! لَوْ أَنَّ أَحَدَهُمْ نَظَرَ إِلَى قَدَمَيْهِ أَبْصَرَنَا تَحْتَ قَدَمَيْهِ. فَقَالَ &quot;يَا أَبَا بَكْرٍ! مَا ظنك باثنين الله ثالثهما&quot;.",
+          "text_sha256": "9e95567e2f3877bfa4964d9f81c35e9d7cf80655df260fa0231be6aa98c3f28a"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 548,
+      "selected_text_sha256": "19ae810683edee0d041d1bd4f820c2cd85c99ff6e20deae7ee48e2faa7c22d2d",
+      "source_excerpt_sha256": "19ae810683edee0d041d1bd4f820c2cd85c99ff6e20deae7ee48e2faa7c22d2d",
+      "book_id": 1727,
+      "page_id": 6103,
+      "book_ar": "صحيح مسلم - ت عبد الباقي",
+      "citation_ar": "[صحيح مسلم - ت عبد الباقي، 4/1854](https://app.turath.io/book/1727?page=6103)",
+      "source_url": "https://app.turath.io/book/1727?page=6103",
+      "retrieved_at": "2026-10-02T20:33:52.277853+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "مسلم",
+      "edition_ar": "الكتاب: صحيح مسلم\nالمؤلف: أبو الحسين مسلم بن الحجاج القشيري النيسابوري (٢٠٦ - ٢٦١ هـ)\nالمحقق: محمد فؤاد عبد الباقي [ت ١٣٨٨ هـ]\nالناشر: مطبعة عيسى البابي الحلبي وشركاه، القاهرة\n(ثم صورته دار إحياء التراث العربي ببيروت، وغيرها)\nعام النشر: ١٣٧٤ هـ - ١٩٥٥ م\nعدد الأجزاء: ٥ (متسلسلة الترقيم) (الأخير فهارس)\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "مسلم يسند عن أنس عن أبي بكر",
+      "source_type_metadata_ar": "حديث مسند",
+      "source_page_sha256": "23bf78a65134ca2bf25497bde92a3da0c65caf7b283ec72f37e952930d27dd05",
+      "source_isnad_metadata_ar": "١ - (٢٣٨١) حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ وَعَبْدُ بْنُ حميد وعبد الله بن عبد الرحمن الدارمي (قَالَ عَبْدُ اللَّهِ: أَخْبَرَنَا. وقَالَ الْآخَرَانِ: حَدَّثَنَا)\nحَبَّانُ بْنُ هِلَالٍ. حَدَّثَنَا هَمَّامٌ. حَدَّثَنَا ثَابِتٌ. حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ؛\n",
+      "related_evidence_ids": [
+        "H-1681-5899-CAVE"
+      ]
+    },
+    {
+      "packet_id": "sp_guide_bukhari_hire",
+      "evidence_id": "H-1681-5899-GUIDE",
+      "scope_ar": "جزء الاستئجار من حديث عائشة في الصحيح؛ الإسناد محفوظ في بيانات السجل، والمتن ينتهي بواعداه ويستكمل في قطعة الساحل، لا طريق مستقل.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 337,
+          "page_start": 5847,
+          "page_end": 6184,
+          "source_type_ar": "حديث",
+          "speaker_ar": "عائشة في رواية الزهري عن عروة في صحيح البخاري",
+          "text_ar": "وَاسْتَأْجَرَ رَسُولُ اللهِ ﷺ وَأَبُو بَكْرٍ رَجُلًا مِنْ بَنِي الدِّيلِ، وَهُوَ مِنْ بَنِي عَبْدِ بْنِ عَدِيٍّ، هَادِيًا خِرِّيتًا، وَالْخِرِّيتُ الْمَاهِرُ بِالْهِدَايَةِ، قَدْ غَمَسَ حِلْفًا فِي آلِ الْعَاصِ بْنِ وَائِلٍ السَّهْمِيِّ، وَهُوَ عَلَى دِينِ كُفَّارِ قُرَيْشٍ، فَأَمِنَاهُ فَدَفَعَا إِلَيْهِ رَاحِلَتَيْهِمَا، وَوَاعَدَاهُ",
+          "text_sha256": "102c872c5e54cb652708816bf3f34878db74b87b876d31bc56808b047eadecce"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 337,
+      "selected_text_sha256": "102c872c5e54cb652708816bf3f34878db74b87b876d31bc56808b047eadecce",
+      "source_excerpt_sha256": "102c872c5e54cb652708816bf3f34878db74b87b876d31bc56808b047eadecce",
+      "book_id": 1681,
+      "page_id": 5899,
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/59](https://app.turath.io/book/1681?page=5899)",
+      "source_url": "https://app.turath.io/book/1681?page=5899",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "جزء من حديث واحد؛ هذه المقاطع ليست طرقًا مستقلة",
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "البخاري",
+      "edition_ar": "الكتاب: صحيح البخاري\nالمؤلف: أبو عبد الله، محمد بن إسماعيل بن إبراهيم بن المغيرة ابن بردزبه البخاري الجعفي\nتحقيق: جماعة من العلماء\nالطبعة: السلطانية، بالمطبعة الكبرى الأميرية، ببولاق مصر، ١٣١١ هـ، بأمر السلطان عبد الحميد الثاني\nثم صَوّرها بعنايته: د. محمد زهير الناصر، وطبعها الطبعة الأولى ١٤٢٢ هـ لدى دار طوق النجاة - بيروت، مع إثراء الهوامش بترقيم الأحاديث لمحمد فؤاد عبد الباقي، والإحالة لبعض المراجع المهمة\nعدد الأجزاء: ٩\n[ترقيم الكتاب موافق للمطبوع، وهو ضمن خدمة التخريج]",
+      "source_speaker_metadata_ar": "عائشة في رواية الزهري عن عروة في صحيح البخاري",
+      "source_type_metadata_ar": "حديث",
+      "source_page_sha256": "32cca1c5285b0dae54bedd6f68e28b9b3669d5d77e7a45315add33c7851bd3e8",
+      "source_isnad_metadata_ar": "حَدَّثَنَا <a href=\"inr://man-6952\">يَحْيَى بْنُ بُكَيْرٍ: </a>حَدَّثَنَا <a href=\"inr://man-5348\">اللَّيْثُ، </a>عَنْ <a href=\"inr://man-4444\">عُقَيْلٍ، </a>قَالَ <a href=\"inr://man-5917\">ابْنُ شِهَابٍ: </a>فَأَخْبَرَنِي <a href=\"inr://man-4361\">عُرْوَةُ بْنُ الزُّبَيْرِ: </a>أَنَّ <a href=\"inr://man-3026\">عَائِشَةَ </a>﵂، زَوْجَ النَّبِيِّ ﷺ، قَالَتْ:",
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_guide_bukhari_coast",
+      "evidence_id": "H-1681-5899-COAST",
+      "scope_ar": "تتمة جملة الموعد من حديث عائشة نفسه عند حد الصفحة؛ أولها غار ثور، فلا تعرض وحدها جملة تامة.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 171,
+          "page_start": 6235,
+          "page_end": 6406,
+          "source_type_ar": "حديث",
+          "speaker_ar": "عائشة في الحديث نفسه",
+          "text_ar": "غَارَ ثَوْرٍ بَعْدَ ثَلَاثِ لَيَالٍ، بِرَاحِلَتَيْهِمَا صُبْحَ ثَلَاثٍ، وَانْطَلَقَ مَعَهُمَا عَامِرُ بْنُ فُهَيْرَةَ، وَالدَّلِيلُ، فَأَخَذَ بِهِمْ طَرِيقَ السَّوَاحِلِ.»",
+          "text_sha256": "d5a0333129ed8995f736e940f1484cb04a5fd7babf5407ef93eed08029d0e632"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 171,
+      "selected_text_sha256": "d5a0333129ed8995f736e940f1484cb04a5fd7babf5407ef93eed08029d0e632",
+      "source_excerpt_sha256": "d5a0333129ed8995f736e940f1484cb04a5fd7babf5407ef93eed08029d0e632",
+      "book_id": 1681,
+      "page_id": 5899,
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5899)",
+      "source_url": "https://app.turath.io/book/1681?page=5899",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "فصل المقطع عند علامة الصفحة المطبوعة ٦٠ داخل الوحدة الرقمية؛ تتمة جملة الموعد في المقطع المرتبط",
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "البخاري",
+      "edition_ar": "الكتاب: صحيح البخاري\nالمؤلف: أبو عبد الله، محمد بن إسماعيل بن إبراهيم بن المغيرة ابن بردزبه البخاري الجعفي\nتحقيق: جماعة من العلماء\nالطبعة: السلطانية، بالمطبعة الكبرى الأميرية، ببولاق مصر، ١٣١١ هـ، بأمر السلطان عبد الحميد الثاني\nثم صَوّرها بعنايته: د. محمد زهير الناصر، وطبعها الطبعة الأولى ١٤٢٢ هـ لدى دار طوق النجاة - بيروت، مع إثراء الهوامش بترقيم الأحاديث لمحمد فؤاد عبد الباقي، والإحالة لبعض المراجع المهمة\nعدد الأجزاء: ٩\n[ترقيم الكتاب موافق للمطبوع، وهو ضمن خدمة التخريج]",
+      "source_speaker_metadata_ar": "عائشة في الحديث نفسه",
+      "source_type_metadata_ar": "حديث",
+      "source_page_sha256": "32cca1c5285b0dae54bedd6f68e28b9b3669d5d77e7a45315add33c7851bd3e8",
+      "source_isnad_metadata_ar": "حَدَّثَنَا <a href=\"inr://man-6952\">يَحْيَى بْنُ بُكَيْرٍ: </a>حَدَّثَنَا <a href=\"inr://man-5348\">اللَّيْثُ، </a>عَنْ <a href=\"inr://man-4444\">عُقَيْلٍ، </a>قَالَ <a href=\"inr://man-5917\">ابْنُ شِهَابٍ: </a>فَأَخْبَرَنِي <a href=\"inr://man-4361\">عُرْوَةُ بْنُ الزُّبَيْرِ: </a>أَنَّ <a href=\"inr://man-3026\">عَائِشَةَ </a>﵂، زَوْجَ النَّبِيِّ ﷺ، قَالَتْ:",
+      "related_evidence_ids": [
+        "H-1681-5899-GUIDE"
+      ]
+    },
+    {
+      "packet_id": "sp_guide_qurtubi",
+      "evidence_id": "H-20855-3087-GUIDE-FIQH",
+      "scope_ar": "النقل المنسوب إلى البخاري لدى القرطبي ثم استنباطا المهلب وابن المنذر؛ أرقام الحواشي في النقل لا تعني فتح أصولها.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 438,
+          "page_start": 337,
+          "page_end": 775,
+          "source_type_ar": "نقل القرطبي عن البخاري عن عائشة",
+          "speaker_ar": "القرطبي يعزو خبر عائشة إلى البخاري",
+          "text_ar": "الْخَامِسَةُ- رَوَى الْبُخَارِيُّ عَنْ عَائِشَةَ قَالَتْ: اسْتَأْجَرَ رَسُولُ اللَّهِ ﷺ وَأَبُو بَكْرٍ رَجُلًا مِنْ بَنِي الدِّيلِ هَادِيًا خِرِّيتًا «٢»، وَهُوَ عَلَى دِينِ كُفَّارِ قُرَيْشٍ فَدَفَعَا إليه راحلتيهما وأعداه غَارَ ثَوْرٍ بَعْدَ ثَلَاثِ لَيَالٍ فَأَتَاهُمَا بِرَاحِلَتَيْهِمَا صَبِيحَةَ ثَلَاثٍ فَارْتَحَلَا وَارْتَحَلَ «٣» مَعَهُمَا عَامِرُ بْنُ فُهَيْرَةَ وَالدَّلِيلُ الدِّيلِيُّ فَأَخَذَ بِهِمْ طَرِيقَ السَّاحِلِ «٤». ",
+          "text_sha256": "975a8ce058172748b33b7ef4d6655cc7710a78ec6ac2233ac8d5bb31f7b5f9d9"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 438,
+          "record_end": 692,
+          "page_start": 775,
+          "page_end": 1029,
+          "source_type_ar": "استنباط المهلب المنقول",
+          "speaker_ar": "المهلب في نقل القرطبي",
+          "text_ar": "قَالَ الْمُهَلَّبُ: فِيهِ مِنَ الْفِقْهِ ائْتِمَانُ أَهْلِ الشِّرْكِ «٥» عَلَى السِّرِّ وَالْمَالِ إِذَا عُلِمَ مِنْهُمْ وَفَاءٌ وَمُرُوءَةٌ كَمَا ائْتَمَنَ النَّبِيُّ ﷺ هَذَا الْمُشْرِكَ عَلَى سِرِّهِ فِي الْخُرُوجِ مِنْ مَكَّةَ وَعَلَى النَّاقَتَيْنِ. ",
+          "text_sha256": "5cd000c7e85f0096300ffab02cc7c1ddbca118c4a3a98b25bf3e03ff6342ff1a"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 692,
+          "record_end": 792,
+          "page_start": 1029,
+          "page_end": 1129,
+          "source_type_ar": "استنباط ابن المنذر المنقول",
+          "speaker_ar": "ابن المنذر في نقل القرطبي",
+          "text_ar": "وَقَالَ ابْنُ الْمُنْذِرِ: فِيهِ اسْتِئْجَارُ الْمُسْلِمِينَ الْكُفَّارَ عَلَى هِدَايَةِ الطَّرِيقِ.",
+          "text_sha256": "bb2e801524310d8999841e2111e5978b14975162f7e6b17f1f57c6c0db2bd6d3"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 792,
+      "selected_text_sha256": "56a95961304dd8b13f161ffe81671b121469f2f4c6a5d051a1c7e4606c458836",
+      "source_excerpt_sha256": "56a95961304dd8b13f161ffe81671b121469f2f4c6a5d051a1c7e4606c458836",
+      "book_id": 20855,
+      "page_id": 3087,
+      "book_ar": "تفسير القرطبي = الجامع لأحكام القرآن",
+      "citation_ar": "[تفسير القرطبي = الجامع لأحكام القرآن، 8/145](https://app.turath.io/book/20855?page=3087)",
+      "source_url": "https://app.turath.io/book/20855?page=3087",
+      "retrieved_at": "2026-10-02T20:33:52.285869+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "القرطبي",
+      "edition_ar": "الكتاب: الجامع لأحكام القرآن\nالمؤلف: أبو عبد الله، محمد بن أحمد الأنصاري القرطبي\nتحقيق: أحمد البردوني وإبراهيم أطفيش\nالناشر: دار الكتب المصرية - القاهرة\nالطبعة: الثانية، ١٣٨٤ هـ - ١٩٦٤ م\nعدد الأجزاء: ٢٠ جزءا (في ١٠ مجلدات)\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "القرطبي عن البخاري ثم المهلب وابن المنذر",
+      "source_type_metadata_ar": "حديث منقول وشرح",
+      "source_page_sha256": "5b5c9c49be2d231ddb10376180e6122b187a5573f34e1f02239de26e7683c582",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-1681-5899-GUIDE",
+        "H-1681-5899-COAST"
+      ]
+    },
+    {
+      "packet_id": "sp_guide_hani_name",
+      "evidence_id": "H-1054-82-CP4-GUIDE-NAME",
+      "scope_ar": "إطار هاني فقيه ثم اقتباسه عبارة ابن كثير بوسومها كما هي ثم تقييد هاني نفسه للاسم واستنباطه؛ لا ينسب التقييد إلى ابن كثير.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 12,
+          "page_start": 536,
+          "page_end": 548,
+          "source_type_ar": "إطار شرح",
+          "speaker_ar": "هاني فقيه",
+          "text_ar": "٤ ــ وقوله: ",
+          "text_sha256": "b3668246f320ef2a4810f9b67f7ff0634ca5fdb900ff99d2aab148b8f80bcfdc"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 12,
+          "record_end": 81,
+          "page_start": 548,
+          "page_end": 617,
+          "source_type_ar": "اقتباس عبارة ابن كثير مع الوسوم المصدرية",
+          "speaker_ar": "ابن كثير في اقتباس هاني فقيه",
+          "text_ar": "&quot;وقد استأجرا عبدَ الله بن أُرَيْقط وكان هاديًا خِريتًا .. &quot;",
+          "text_sha256": "51f0c1b28a5ed3031e39235f32e3ce50e93465e7ff4c7dc70061c11296438c02"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 81,
+          "record_end": 294,
+          "page_start": 617,
+          "page_end": 830,
+          "source_type_ar": "تقييد نسبة الاسم واستنباط",
+          "speaker_ar": "هاني فقيه",
+          "text_ar": ": هذا مخرج في الصحيح (^٤)، لكن دون التصريح باسمه، وإنما رجل من بني الدّيل، وقد سماه ابن إسحاق في السيرة (^٥).\nوفيه دليل على جواز استعانة المسلم بغير المسلم عند الحاجة أو الضرورة، وقد تقدمت المسألة بشواهدها مرارًا.",
+          "text_sha256": "1e0e4f1f97603e794f31a0818c3e188c3fce89879fae4e3cc6486fbf82595547"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 294,
+      "selected_text_sha256": "a14db578b69e449fe37ad1685beebb97577d2a4df808b862e7d6a64092da5591",
+      "source_excerpt_sha256": "a14db578b69e449fe37ad1685beebb97577d2a4df808b862e7d6a64092da5591",
+      "book_id": 1054,
+      "page_id": 82,
+      "book_ar": "حصول المأمول بشرح مختصر الفصول في سيرة الرسول ﷺ",
+      "citation_ar": "[حصول المأمول بشرح مختصر الفصول في سيرة الرسول ﷺ، 1/93](https://app.turath.io/book/1054?page=82)",
+      "source_url": "https://app.turath.io/book/1054?page=82",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "الشارح هنا هاني فقيه، والمصنف الذي يقتبس عبارته ابن كثير؛ لا ينسب التقييد للبخاري أو لابن كثير.",
+        "يحفظ النص الوسوم الرقمية &quot; كما وردت؛ ليس تصحيحا لاسم الدليل ولا دعوى مراجعة صحيح البخاري.",
+        "حواشي٤-٥ المحيلة على البخاري وابن هشام في سجل منفصل مرتبط؛ لا تدمج بأصل القول.",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "هانى فقيه",
+      "edition_ar": "الكتاب: حصول المأمول بشرح «مختصر الفصول في سيرة الرسول ﷺ، للحافظ إسماعيل بن عمر بن كثير الدمشقي»\nشرحه وعلق عليه: د هاني فقيه\nالناشر: نادي المدينة المنورة الأدبي\nالطبعة: الأولى، ١٤٤٠ هـ - ٢٠١٩ م\nعدد الصفحات: ٣٣٤\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "هاني فقيه يشرح كلام ابن كثير",
+      "source_type_metadata_ar": "شرح وتقييد عزو",
+      "source_page_sha256": "023e49029ae051961ab2ec776cab20a9a2be150f31360859456cef25c0e10a0c",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-1054-82-CP4-GUIDE-REFS",
+        "H-146-241-SUPPORT-AND-GUIDE"
+      ]
+    },
+    {
+      "packet_id": "sp_guide_sira_name",
+      "evidence_id": "H-23833-511-GUIDE",
+      "scope_ar": "قطعة من السيرة: خبر أسماء في نقل ابن إسحاق بعد خبر الهاتف السابق، ثم إضافة ابن هشام «ويقال»؛ ليست طريقين مستقلين لمجرد جزأين.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 334,
+          "page_start": 98,
+          "page_end": 432,
+          "source_type_ar": "خبر أسماء في نقل ابن إسحاق",
+          "speaker_ar": "ابن إسحاق عن أسماء بنت أبي بكر",
+          "text_ar": "قَالَ ابْنُ إسْحَاقَ: قَالَتْ أَسْمَاءُ بِنْتُ أَبِي بَكْرٍ ﵄: فَلَمَّا سَمِعْنَا قَوْلَهُ، عَرَفْنَا حَيْثُ وَجْهُ رَسُولِ اللَّهِ ﷺ، وَأَنَّ وَجْهَهُ إلَى الْمَدِينَةِ وَكَانُوا أَرْبَعَةً: رَسُولُ اللَّهِ ﷺ، وَأَبُو بَكْرٍ الصِّدِّيقُ ﵁، وَعَامِرُ ابْن فُهَيْرَةَ مَوْلَى أَبِي بَكْرٍ، وَعَبْدُ اللَّهِ بْنُ أَرْقَطَ دَلِيلُهُمَا.\n",
+          "text_sha256": "056af7d69d6dd5a7bccf674de46ea1f1cd66778d71124ec459bc7161c9670693"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 334,
+          "record_end": 397,
+          "page_start": 432,
+          "page_end": 495,
+          "source_type_ar": "صيغة اسم بديلة وتعقيب مؤلف",
+          "speaker_ar": "ابن هشام",
+          "text_ar": "قَالَ ابْنُ هِشَامٍ: وَيُقَالُ: عَبْدُ اللَّهِ بْنُ أُرَيْقِطٍ.",
+          "text_sha256": "1d280271b3853cbd384f206044b5fdffa75e9a9d8ed152d6cc3b1c49f8b7a103"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 397,
+      "selected_text_sha256": "35097da4fbca76075e05ebf906da256d2a1fe90485a86bc25ab5da287f1366f4",
+      "source_excerpt_sha256": "35097da4fbca76075e05ebf906da256d2a1fe90485a86bc25ab5da287f1366f4",
+      "book_id": 23833,
+      "page_id": 511,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/488](https://app.turath.io/book/23833?page=511)",
+      "source_url": "https://app.turath.io/book/23833?page=511",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "ضمير قوله يعود إلى الهاتف والشعر في المقطع المرتبط؛ لا ينقل هذا المقطع مبتورًا أو كطريق مستقل عن الرواية السابقة",
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن إسحاق ثم ابن هشام",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "21a06a55daeca36829e166a8b8d56836f31dbe2860c743058a93963ec99d90cb",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-23833-510-PHONE",
+        "H-23833-511-CORRECTION"
+      ]
+    }
+  ],
+  "packet_id": "hch_thawr:ar:r2",
+  "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
+  "source_document_sha256": "a124c03a8bfec98852481fb6e38bd8fa3fdad2588ac05abd4166d7224865ce52",
+  "question_type": "single_choice",
+  "review": {
+    "arabic_compared": true,
+    "summary_ar": "قورنت أجزاء هذا الفصل وعباراته المحتفظ بها مع دعاوى Core ومقاطعها اللازمة، وقرئت القراءات المختارة بأصواتها وتتماتها. قورنت الأسئلة التسعة وخياراتها وتعليلها وتغذيتها الراجعة، وجُرّبت حزمة الفصل في محرك التدريب الفعلي. أضيفت إلى سؤال الأخبار إحالات أدوار عامر والدليل، وحُذف تكرار من السرد، وحُفظ الفرق بين كلام أبي بكر ونقل أنس وبين الآية والحديث والألفاظ المختلفة. قراءة الموعد تجمع بداية الجملة وتتمتها. لا توجد إضافات إلى Core أو إدخال دفعة جديدة؛ هذه مقارنة للفصل لا اعتماد جديد لكل دعوى أو مقتطف غير مستخدم في نسخه المرجعية، ولا شهادة باكتمال جميع أخبار الغار. في المراجعة الثانية تغير ترتيب بعض الخيارات لإزالة دورة متوقعة لمواقع الإجابات، دون تغيير معرفات الخيارات أو معانيها؛ جددت مراجعة الفصل وربطها بعد زيادة رقم المراجعة. بقيت مقارنة المدد الأخرى وشرح الرضيف خارج هذا المثال. الحزمة عربية جاهزة داخليًا، وليست واجهة مدمجة أو إصدارًا إنجليزيًا أو نشرًا معتمدًا.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  },
+  "last_accepted": {
+    "revision": 2,
+    "source_document_sha256": "a124c03a8bfec98852481fb6e38bd8fa3fdad2588ac05abd4166d7224865ce52"
+  },
+  "source_units": [
+    {
+      "unit_id": "sp_thawr_support:p1",
+      "packet_id": "sp_thawr_support",
+      "part_id": "p1",
+      "evidence_id": "H-1681-5899-CAVE",
+      "text_ar": "قَالَتْ: ثُمَّ لَحِقَ رَسُولُ اللهِ ﷺ وَأَبُو بَكْرٍ بِغَارٍ فِي جَبَلِ ثَوْرٍ، فَكَمَنَا فِيهِ ثَلَاثَ لَيَالٍ، يَبِيتُ عِنْدَهُمَا عَبْدُ اللهِ بْنُ أَبِي بَكْرٍ، وَهُوَ غُلَامٌ شَابٌّ، ثَقِفٌ لَقِنٌ، فَيُدْلِجُ مِنْ عِنْدِهِمَا بِسَحَرٍ، فَيُصْبِحُ مَعَ قُرَيْشٍ بِمَكَّةَ كَبَائِتٍ، فَلَا يَسْمَعُ أَمْرًا يُكْتَادَانِ بِهِ إِلَّا وَعَاهُ، حَتَّى يَأْتِيَهُمَا بِخَبَرِ ذَلِكَ حِينَ يَخْتَلِطُ الظَّلَامُ، وَيَرْعَى عَلَيْهِمَا عَامِرُ بْنُ فُهَيْرَةَ مَوْلَى أَبِي بَكْرٍ مِنْحَةً مِنْ غَنَمٍ، فَيُرِيحُهَا عَلَيْهِمَا حِينَ تَذْهَبُ سَاعَةٌ مِنَ الْعِشَاءِ، فَيَبِيتَانِ فِي رِسْلٍ، وَهُوَ لَبَنُ مِنْحَتِهِمَا وَرَضِيفِهِمَا، حَتَّى يَنْعِقَ بِهَا عَامِرُ بْنُ فُهَيْرَةَ بِغَلَسٍ، يَفْعَلُ ذَلِكَ فِي كُلِّ لَيْلَةٍ مِنْ تِلْكَ اللَّيَالِي الثَّلَاثِ،",
+      "source_start": 0,
+      "source_end": 759,
+      "source_text_sha256": "aa1b6dd7909294976b0ead5086bca42b4befe70edb5072169b15dc9204fead92",
+      "kind_ar": "حديث",
+      "speaker_ar": "عائشة في رواية الزهري عن عروة في صحيح البخاري",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/59](https://app.turath.io/book/1681?page=5899)",
+      "source_url": "https://app.turath.io/book/1681?page=5899",
+      "context_note_ar": "انتقاء من متن رواية عائشة لأدوار المساندة؛ لا يعرض الإسناد الكامل أو بقية الحديث."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
+      "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+      "part_id": "p1",
+      "evidence_id": "H-1681-5914-HS-CAVE-1",
+      "text_ar": "٣٩٢٢ - حَدَّثَنَا <a href=\"inr://man-6401\">مُوسَى بْنُ إِسْمَاعِيلَ: </a>حَدَّثَنَا <a href=\"inr://man-6739\">هَمَّامٌ، </a>عَنْ <a href=\"inr://man-1041\">ثَابِتٍ، </a>عَنْ <a href=\"inr://man-822\">أَنَسٍ، </a>عَنْ <a href=\"inr://man-3783\">أَبِي بَكْرٍ </a>﵁ قَالَ: ",
+      "source_start": 0,
+      "source_end": 263,
+      "source_text_sha256": "e87dac6652ea4048bdf76cd6b5c0ada3fd462f7d0e45a7c195fe4554145f9e6b",
+      "kind_ar": "إسناد داخل الانتقاء مع وسم رقمي",
+      "speaker_ar": "أنس عن أبي بكر",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/65](https://app.turath.io/book/1681?page=5914)",
+      "source_url": "https://app.turath.io/book/1681?page=5914",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
+      "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+      "part_id": "p2",
+      "evidence_id": "H-1681-5914-HS-CAVE-1",
+      "text_ar": "<hadeeth-1622>«كُنْتُ مَعَ النَّبِيِّ ﷺ فِي الْغَارِ؟ فَرَفَعْتُ رَأْسِي فَإِذَا أَنَا بِأَقْدَامِ الْقَوْمِ؟ فَقُلْتُ: يَا نَبِيَّ اللهِ؟ لَوْ أَنَّ بَعْضَهُمْ طَأْطَأَ بَصَرَهُ رَآنَا، قَالَ: اسْكُتْ يَا أَبَا بَكْرٍ، اثْنَانِ اللهُ ثَالِثُهُمَا.»",
+      "source_start": 263,
+      "source_end": 512,
+      "source_text_sha256": "93da04809702889bbd758fa87ba6aefe4cf1739f961dd3df73df45700855ba79",
+      "kind_ar": "حديث أبي بكر برواية أنس",
+      "speaker_ar": "أنس عن أبي بكر",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/65](https://app.turath.io/book/1681?page=5914)",
+      "source_url": "https://app.turath.io/book/1681?page=5914",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_1681_5914_hs_cave_1:p3",
+      "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+      "part_id": "p3",
+      "evidence_id": "H-1681-5914-HS-CAVE-1",
+      "text_ar": "<hadeeth>\n<hadeeth-1622> <hadeeth>",
+      "source_start": 512,
+      "source_end": 546,
+      "source_text_sha256": "890b39118259e7d1c2e11009cfc2df48d0cb33138d241f0ee7fd7f67dfd276db",
+      "kind_ar": "وسم رقمي ختامي",
+      "speaker_ar": "وسم مصدري لا متكلم",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/65](https://app.turath.io/book/1681?page=5914)",
+      "source_url": "https://app.turath.io/book/1681?page=5914",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_caveverse_qurtubi_verse:p1",
+      "packet_id": "sp_caveverse_qurtubi_verse",
+      "part_id": "p1",
+      "evidence_id": "H-20855-3085-VERSE",
+      "text_ar": "إِلاَّ تَنْصُرُوهُ فَقَدْ نَصَرَهُ اللَّهُ إِذْ أَخْرَجَهُ الَّذِينَ كَفَرُوا ثانِيَ اثْنَيْنِ إِذْ هُما فِي الْغارِ إِذْ يَقُولُ لِصاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنا فَأَنْزَلَ اللَّهُ سَكِينَتَهُ عَلَيْهِ وَأَيَّدَهُ بِجُنُودٍ لَمْ تَرَوْها وَجَعَلَ كَلِمَةَ الَّذِينَ كَفَرُوا السُّفْلى وَكَلِمَةُ اللَّهِ هِيَ الْعُلْيا وَاللَّهُ عَزِيزٌ حَكِيمٌ (٤٠)",
+      "source_start": 0,
+      "source_end": 362,
+      "source_text_sha256": "4280901af10cf4ad4d8aa0d7aa0c5dbf26cbdb007c67355c628311105d60f0d0",
+      "kind_ar": "قرآن منقول في التفسير",
+      "speaker_ar": "نص الآية في تفسير القرطبي",
+      "book_ar": "تفسير القرطبي = الجامع لأحكام القرآن",
+      "citation_ar": "[تفسير القرطبي = الجامع لأحكام القرآن، 8/143](https://app.turath.io/book/20855?page=3085)",
+      "source_url": "https://app.turath.io/book/20855?page=3085",
+      "context_note_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة."
+    },
+    {
+      "unit_id": "sp_caveverse_muslim:p1",
+      "packet_id": "sp_caveverse_muslim",
+      "part_id": "p1",
+      "evidence_id": "H-1727-6103-CAVE",
+      "text_ar": "١ - (٢٣٨١) حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ وَعَبْدُ بْنُ حميد وعبد الله بن عبد الرحمن الدارمي (قَالَ عَبْدُ اللَّهِ: أَخْبَرَنَا. وقَالَ الْآخَرَانِ: حَدَّثَنَا)\nحَبَّانُ بْنُ هِلَالٍ. حَدَّثَنَا هَمَّامٌ. حَدَّثَنَا ثَابِتٌ. حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ؛\nأَنَّ أَبَا بَكْرٍ الصِّدِّيقَ حَدَّثَهُ قَالَ: ",
+      "source_start": 0,
+      "source_end": 306,
+      "source_text_sha256": "766a4e2a60d764d3df66460afc3686f810ab908d9fe37cd907629c4d68928dbc",
+      "kind_ar": "إسناد مثبت داخل الانتقاء",
+      "speaker_ar": "المصنف في سلسلة النقل، لا شاهد حاضر جديد",
+      "book_ar": "صحيح مسلم - ت عبد الباقي",
+      "citation_ar": "[صحيح مسلم - ت عبد الباقي، 4/1854](https://app.turath.io/book/1727?page=6103)",
+      "source_url": "https://app.turath.io/book/1727?page=6103",
+      "context_note_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة."
+    },
+    {
+      "unit_id": "sp_caveverse_muslim:p2",
+      "packet_id": "sp_caveverse_muslim",
+      "part_id": "p2",
+      "evidence_id": "H-1727-6103-CAVE",
+      "text_ar": "نَظَرْتُ إِلَى أَقْدَامِ المشركين على رؤوسنا وَنَحْنُ فِي الْغَارِ. فَقُلْتُ: يَا رَسُولَ اللَّهِ! لَوْ أَنَّ أَحَدَهُمْ نَظَرَ إِلَى قَدَمَيْهِ أَبْصَرَنَا تَحْتَ قَدَمَيْهِ. فَقَالَ &quot;يَا أَبَا بَكْرٍ! مَا ظنك باثنين الله ثالثهما&quot;.",
+      "source_start": 306,
+      "source_end": 548,
+      "source_text_sha256": "9e95567e2f3877bfa4964d9f81c35e9d7cf80655df260fa0231be6aa98c3f28a",
+      "kind_ar": "حديث مسند",
+      "speaker_ar": "أبو بكر برواية أنس؛ ليس أنس شاهد الغار في هذا النص",
+      "book_ar": "صحيح مسلم - ت عبد الباقي",
+      "citation_ar": "[صحيح مسلم - ت عبد الباقي، 4/1854](https://app.turath.io/book/1727?page=6103)",
+      "source_url": "https://app.turath.io/book/1727?page=6103",
+      "context_note_ar": "انتقاء الدفتر كاملًا بصوته وأجزائه؛ ليس مصحفًا مقابلًا أو كامل الصفحة أو أصلًا للمراجع المحالة."
+    },
+    {
+      "unit_id": "sp_guide_bukhari_hire:p1",
+      "packet_id": "sp_guide_bukhari_hire",
+      "part_id": "p1",
+      "evidence_id": "H-1681-5899-GUIDE",
+      "text_ar": "وَاسْتَأْجَرَ رَسُولُ اللهِ ﷺ وَأَبُو بَكْرٍ رَجُلًا مِنْ بَنِي الدِّيلِ، وَهُوَ مِنْ بَنِي عَبْدِ بْنِ عَدِيٍّ، هَادِيًا خِرِّيتًا، وَالْخِرِّيتُ الْمَاهِرُ بِالْهِدَايَةِ، قَدْ غَمَسَ حِلْفًا فِي آلِ الْعَاصِ بْنِ وَائِلٍ السَّهْمِيِّ، وَهُوَ عَلَى دِينِ كُفَّارِ قُرَيْشٍ، فَأَمِنَاهُ فَدَفَعَا إِلَيْهِ رَاحِلَتَيْهِمَا، وَوَاعَدَاهُ",
+      "source_start": 0,
+      "source_end": 337,
+      "source_text_sha256": "102c872c5e54cb652708816bf3f34878db74b87b876d31bc56808b047eadecce",
+      "kind_ar": "حديث",
+      "speaker_ar": "عائشة في رواية الزهري عن عروة في صحيح البخاري",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/59](https://app.turath.io/book/1681?page=5899)",
+      "source_url": "https://app.turath.io/book/1681?page=5899",
+      "context_note_ar": "جزء الاستئجار من حديث عائشة في الصحيح؛ الإسناد محفوظ في بيانات السجل، والمتن ينتهي بواعداه ويستكمل في قطعة الساحل، لا طريق مستقل."
+    },
+    {
+      "unit_id": "sp_guide_bukhari_coast:p1",
+      "packet_id": "sp_guide_bukhari_coast",
+      "part_id": "p1",
+      "evidence_id": "H-1681-5899-COAST",
+      "text_ar": "غَارَ ثَوْرٍ بَعْدَ ثَلَاثِ لَيَالٍ، بِرَاحِلَتَيْهِمَا صُبْحَ ثَلَاثٍ، وَانْطَلَقَ مَعَهُمَا عَامِرُ بْنُ فُهَيْرَةَ، وَالدَّلِيلُ، فَأَخَذَ بِهِمْ طَرِيقَ السَّوَاحِلِ.»",
+      "source_start": 0,
+      "source_end": 171,
+      "source_text_sha256": "d5a0333129ed8995f736e940f1484cb04a5fd7babf5407ef93eed08029d0e632",
+      "kind_ar": "حديث",
+      "speaker_ar": "عائشة في الحديث نفسه",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5899)",
+      "source_url": "https://app.turath.io/book/1681?page=5899",
+      "context_note_ar": "تتمة جملة الموعد من حديث عائشة نفسه عند حد الصفحة؛ أولها غار ثور، فلا تعرض وحدها جملة تامة."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_7478_1001_ra_third:p1",
+      "packet_id": "sp_thawr_exp_h_7478_1001_ra_third",
+      "part_id": "p1",
+      "evidence_id": "H-7478-1001-RA-THIRD",
+      "text_ar": "أَخْبَرَنَا أَبُو عَبْدِ اللَّه: إِسْحَاقُ بْنُ مُحَمَّدِ بْنِ يُوسُفَ السُّوسِيُّ، قَالَ: حَدَّثَنَا أَبُو الْعَبَّاسِ: مُحَمَّدُ بْنُ يَعْقُوبَ، قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ الضَّبِّيُّ، قَالَ:\nحَدَّثَنَا عَفَّانُ بْنُ مُسْلِمٍ، وَمُحَمَّدُ بْنُ سُفْيَانَ، قَالَا: حَدَّثَنَا هَمَّامٌ، قَالَ: أَخْبَرَنَا أَبُو ثَابِتٍ، عَنْ أَنَسٍ: أَنَّ أَبَا بَكْرٍ حَدَّثَهُ قَالَ ",
+      "source_start": 0,
+      "source_end": 381,
+      "source_text_sha256": "12157b78a7a9bfd96a60ca78f89bfade3bc879beea6481f1a803a0256aac35dc",
+      "kind_ar": "إسناد أنس عن أبي بكر",
+      "speaker_ar": "أبو بكر برواية أنس",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/480](https://app.turath.io/book/7478?page=1001)",
+      "source_url": "https://app.turath.io/book/7478?page=1001",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_7478_1001_ra_third:p2",
+      "packet_id": "sp_thawr_exp_h_7478_1001_ra_third",
+      "part_id": "p2",
+      "evidence_id": "H-7478-1001-RA-THIRD",
+      "text_ar": "«كُنْتُ مَعَ رَسُولِ اللَّه ﵌ في الغار",
+      "source_start": 381,
+      "source_end": 419,
+      "source_text_sha256": "88757dc315465d2cd32c6d9a8dc17dd160344aeb51d1eb26e7166ad6704dc87a",
+      "kind_ar": "افتتاح كلام أبي بكر",
+      "speaker_ar": "أبو بكر برواية أنس",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/480](https://app.turath.io/book/7478?page=1001)",
+      "source_url": "https://app.turath.io/book/7478?page=1001",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_7478_1002_ra_third:p1",
+      "packet_id": "sp_thawr_exp_h_7478_1002_ra_third",
+      "part_id": "p1",
+      "evidence_id": "H-7478-1002-RA-THIRD",
+      "text_ar": "فَقُلْتُ يَا رَسُولَ اللَّه لَوْ أَنَّ أَحَدَهُمْ يَنْظُرُ إِلَى قَدَمَيْهِ لَأَبْصَرَنَا تَحْتَ قَدَمَيْهِ ",
+      "source_start": 0,
+      "source_end": 108,
+      "source_text_sha256": "95bdad5fd7121e4ba4785f0763e7b4d6f2b5e8e9107a59a0829eccc6a6fac60f",
+      "kind_ar": "كلام أبي بكر",
+      "speaker_ar": "أبو بكر برواية أنس",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/481](https://app.turath.io/book/7478?page=1002)",
+      "source_url": "https://app.turath.io/book/7478?page=1002",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_7478_1002_ra_third:p2",
+      "packet_id": "sp_thawr_exp_h_7478_1002_ra_third",
+      "part_id": "p2",
+      "evidence_id": "H-7478-1002-RA-THIRD",
+      "text_ar": "قَالَ فَقَالَ النَّبِيُّ ﵌: «يَا أَبَا بَكْرٍ! مَا ظَنُّكَ بِاثْنَيْنِ اللَّه ثَالِثُهُمَا» [(٢٩)] .",
+      "source_start": 108,
+      "source_end": 208,
+      "source_text_sha256": "488cb3dc9be687393234abc38749adaa4495f49e146c9c61f8e7554b3722ee20",
+      "kind_ar": "جواب النبي في الخبر",
+      "speaker_ar": "أبو بكر برواية أنس",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/481](https://app.turath.io/book/7478?page=1002)",
+      "source_url": "https://app.turath.io/book/7478?page=1002",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_7478_1002_ra_third_variant:p1",
+      "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
+      "part_id": "p1",
+      "evidence_id": "H-7478-1002-RA-THIRD-VARIANT",
+      "text_ar": "وَأَخْبَرَنَا عَلِيُّ بْنُ أَحْمَدَ بْنِ عَبْدَانَ قَالَ: أَخْبَرَنَا أَحْمَدُ بْنُ عُبَيْدٍ الصَّفَّارُ قَالَ:\nحَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُعَاوِيَةَ الْقُرَشِيُّ، قَالَ: حَدَّثَنَا حَبَّانُ، قَالَ: حَدَّثَنَا هَمَّامٌ عَنِ الْبُنَانِيِّ فَذَكَرَهُ بِإِسْنَادِهِ نَحْوَهُ إِلَّا أَنَّهُ قَالَ ",
+      "source_start": 0,
+      "source_end": 301,
+      "source_text_sha256": "bd4a37a4349c9c48bb8bfcc38f4befff00f32e61b74e9921e8a55da6b56e47ef",
+      "kind_ar": "إسناد وتعليق نحو الخبر",
+      "speaker_ar": "أبو بكر برواية أنس؛ والبيهقي في التخريج",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/481](https://app.turath.io/book/7478?page=1002)",
+      "source_url": "https://app.turath.io/book/7478?page=1002",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_7478_1002_ra_third_variant:p2",
+      "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
+      "part_id": "p2",
+      "evidence_id": "H-7478-1002-RA-THIRD-VARIANT",
+      "text_ar": "«لَوْ أَنَّ أَحَدَهُمْ رَفَعَ قَدَمَهُ لَأَبْصَرَنَا مِنْ تَحْتِ قَدَمَيْهِ» .\n",
+      "source_start": 301,
+      "source_end": 380,
+      "source_text_sha256": "5ed7501850d63c3dabeae6033750d4d836771ff0e824d6cf7409279ae3595212",
+      "kind_ar": "لفظ بديل",
+      "speaker_ar": "أبو بكر برواية أنس؛ والبيهقي في التخريج",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/481](https://app.turath.io/book/7478?page=1002)",
+      "source_url": "https://app.turath.io/book/7478?page=1002",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    },
+    {
+      "unit_id": "sp_thawr_exp_h_7478_1002_ra_third_variant:p3",
+      "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
+      "part_id": "p3",
+      "evidence_id": "H-7478-1002-RA-THIRD-VARIANT",
+      "text_ar": "رَوَاهُ الْبُخَارِيُّ فِي الصَّحِيحِ [(٣٠)] عَنْ مُحَمَّدِ بْنِ سُفْيَانَ، وَعَنْ عَبْدِ اللَّه بْنِ مُحَمَّدٍ، عَنْ حَبَّانَ بْنِ هِلَالٍ.\nوَرَوَاهُ مُسْلِمٌ عَنْ: زُهَيْرِ بْنِ حَرْبٍ [(٣١)]، وَغَيْرِهِ، عَنْ حَبَّانَ.",
+      "source_start": 380,
+      "source_end": 600,
+      "source_text_sha256": "aa02de0f6d0f6c7e0e16c798bff92af617f062ea1c335144e90ce72ffa5eaa2f",
+      "kind_ar": "تخريج البيهقي",
+      "speaker_ar": "البيهقي في التخريج؛ لا كلام أبي بكر",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/481](https://app.turath.io/book/7478?page=1002)",
+      "source_url": "https://app.turath.io/book/7478?page=1002",
+      "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    }
+  ]
+}
