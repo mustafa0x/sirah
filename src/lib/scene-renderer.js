@@ -100,9 +100,6 @@ export async function create_scene(
     const labels = document.createElement('div')
     labels.className =
         'absolute inset-0 overflow-hidden pointer-events-none transition-opacity duration-[0.6s] ease-[ease] group-data-[started=false]/stage:invisible group-data-[started=false]/stage:opacity-0'
-    // Covers the cut between two scales of terrain.
-    const veil = document.createElement('div')
-    veil.style.cssText = 'position:absolute;inset:0;pointer-events:none;opacity:0'
     const api = {
         set_shot() {},
         set_mood() {},
@@ -140,7 +137,7 @@ export async function create_scene(
         renderer.shadowMap.enabled = true
         renderer.shadowMap.type = THREE.PCFShadowMap
         renderer.domElement.style.display = 'block'
-        host.replaceChildren(renderer.domElement, veil, labels)
+        host.replaceChildren(renderer.domElement, labels)
         scene = new THREE.Scene()
         scene.fog = new THREE.Fog(0xf6dcb2, 24, 80)
 
@@ -257,7 +254,18 @@ export async function create_scene(
             normalMap: ripples,
             normalScale: new THREE.Vector2(0.35, 0.35),
         })
-        const sea = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), sea_material)
+        const grids = await Promise.all(Object.values(world_definitions).map(load_grid))
+        if (disposed) return api
+        const landscape = build_terrain(THREE, world_definitions.region, grids[0], [
+            { definition: world_definitions.makkah, grid: grids[1] },
+            { definition: world_definitions.madinah, grid: grids[2] },
+        ])
+        scene.add(landscape.mesh)
+        const sea = new THREE.Mesh(
+            new THREE.PlaneGeometry(landscape.size_x, landscape.size_z),
+            sea_material,
+        )
+        sea.name = 'mapped-water'
         sea.rotation.x = -Math.PI / 2
         sea.receiveShadow = true
         scene.add(sea)
@@ -555,7 +563,7 @@ export async function create_scene(
             )
         }
 
-        // Worlds: one group per scale of terrain, built on first use.
+        // Local sets share one relief and projection, with their authored units retained.
         const route_materials = []
         const worlds = {}
         let active = null
@@ -565,10 +573,15 @@ export async function create_scene(
             const definition = world_definitions[name]
             const world = { name, definition, group: new THREE.Group(), routes: [], rings: [] }
             worlds[name] = world
-            world.ready = load_grid(definition).then((grid) => {
+            world.ready = Promise.resolve().then(() => {
                 if (disposed) return world
-                world.terrain = build_terrain(THREE, definition, grid)
-                world.group.add(world.terrain.mesh)
+                world.terrain = landscape.in_units(definition.km_per_unit)
+                world.scale = world.terrain.scale
+                world.group.scale.setScalar(world.scale)
+                world.bounds = [
+                    ...landscape.to_xz(definition.south, definition.west),
+                    ...landscape.to_xz(definition.north, definition.east),
+                ]
                 if (name === 'makkah') {
                     add_blocks(world, 'makkah', 260, 0.75, 11)
                     add_cave_set(world)
@@ -666,7 +679,6 @@ export async function create_scene(
                     world.evidence.get(key).ids.push(source.id)
                 }
 
-                world.group.visible = false
                 scene.add(world.group)
                 return world
             })
@@ -674,8 +686,6 @@ export async function create_scene(
         }
         const activate = (name) => {
             active = worlds[name]
-            for (const world of Object.values(worlds)) world.group.visible = world === active
-            sea.visible = active.definition.sea
         }
         const locate = (name) => {
             const place = places[name]
@@ -755,19 +765,21 @@ export async function create_scene(
                 fov: shot.fov ?? 36,
                 azimuth: shot.azimuth,
                 elevation: shot.elevation,
-                // Close shots are framed in metres and must not be pushed back.
-                distance: shot.distance * (shot === wide.portrait || shot.distance < 1 ? 1 : fit),
-                target,
+                // Close shots retain metre-scale framing in the common regional frame.
+                distance:
+                    shot.distance *
+                    worlds[places[shot.place].world].scale *
+                    (shot === wide.portrait || shot.distance < 1 ? 1 : fit),
+                target: target.multiplyScalar(worlds[places[shot.place].world].scale),
             }
         }
         const copy_view = (source) => ({ ...source, target: source.target.clone() })
         let view = resolve_shot(overview_shot)
         let flight = null
-        let cut = null
-        let veil_level = 0
         let shot_request = 0
         const begin_flight = (end, duration) => {
             const scale_change = Math.abs(Math.log10(end.distance / view.distance))
+            view.world = end.world
             flight = {
                 start: copy_view(view),
                 end,
@@ -784,22 +796,9 @@ export async function create_scene(
                 activate(end.world)
                 view = copy_view(end)
                 flight = null
-                cut = null
                 return
             }
-            if (end.world === view.world) {
-                cut = null
-                begin_flight(end, duration)
-                return
-            }
-            // Push in behind the veil, swap terrain, then descend into the new view.
-            cut = { end, at: performance.now() + 520 }
-            flight = {
-                start: copy_view(view),
-                end: { ...copy_view(view), distance: view.distance * 0.5 },
-                started: performance.now(),
-                duration: 700,
-            }
+            begin_flight(end, duration)
         }
 
         // Real links allow keyboard navigation, copying and opening places in another tab.
@@ -863,9 +862,9 @@ export async function create_scene(
             const width = host.clientWidth
             const height = host.clientHeight
             const shown = new Set()
-            if (evidence_on && veil_level < 0.5) {
+            if (evidence_on) {
                 for (const { at, ids } of active.evidence.values()) {
-                    projected.copy(at).project(camera)
+                    projected.copy(at).multiplyScalar(active.scale).project(camera)
                     if (
                         projected.z > 1 ||
                         Math.abs(projected.x) > 1.1 ||
@@ -898,14 +897,13 @@ export async function create_scene(
                 if (
                     !anchor ||
                     (poi.detail && evidence_on) ||
-                    veil_level > 0.5 ||
-                    view.distance > (poi.within ?? Infinity) ||
-                    view.distance < (poi.beyond ?? 0)
+                    view.distance > (poi.within ?? Infinity) * active.scale ||
+                    view.distance < (poi.beyond ?? 0) * active.scale
                 ) {
                     node.hidden = true
                     continue
                 }
-                projected.copy(anchor).project(camera)
+                projected.copy(anchor).multiplyScalar(active.scale).project(camera)
                 const x = ((projected.x + 1) / 2) * width
                 const y = ((1 - projected.y) / 2) * height
                 // Labels that would sit under the chapter rail or the side sheet are dropped.
@@ -937,7 +935,7 @@ export async function create_scene(
             host.dataset.dragging = 'true'
         }
         const pointer_move = (event) => {
-            if (!dragging || cut) return
+            if (!dragging) return
             flight = null
             view.azimuth -= (event.clientX - last_x) * 0.005
             view.elevation = clamp(view.elevation + (event.clientY - last_y) * 0.004, -0.6, 1.3)
@@ -950,11 +948,15 @@ export async function create_scene(
         }
         const wheel = (event) => {
             event.preventDefault()
-            if (cut) return
             flight = null
             view.distance = clamp(
-                view.distance * (1 + event.deltaY * 0.001),
-                ...active.definition.zoom,
+                view.distance * Math.exp(event.deltaY * 0.001),
+                ...world_definitions.region.zoom,
+            )
+            // An overview target can sit kilometres above ground; close orbit must not.
+            view.target.y = Math.min(
+                view.target.y,
+                landscape.height(view.target.x, view.target.z) + view.distance * 0.5,
             )
         }
         host.addEventListener('pointerdown', pointer_down)
@@ -1047,10 +1049,11 @@ export async function create_scene(
             const index = Math.min(route.count - 1, Math.floor(route.shown * route.count))
             const here = route.points[index]
             heading.subVectors(route.points[index + 1], here)
-            animal.root.position.copy(here)
-            animal.root.position.y = worlds[route.world].terrain.height(here.x, here.z)
+            const world = worlds[route.world]
+            animal.root.position.copy(here).multiplyScalar(world.scale)
+            animal.root.position.y = world.terrain.height(here.x, here.z) * world.scale
             animal.root.rotation.y = Math.atan2(-heading.z, heading.x)
-            animal.root.scale.setScalar(size)
+            animal.root.scale.setScalar(size * world.scale)
             animal.root.visible = true
         }
         const dust_points = []
@@ -1090,17 +1093,6 @@ export async function create_scene(
             previous = now
             const ease = reduced_motion ? 1 : 1 - Math.exp(-delta * 2.2)
 
-            if (cut && now >= cut.at) {
-                const { end } = cut
-                cut = null
-                activate(end.world)
-                view = {
-                    ...copy_view(end),
-                    distance: end.distance * 2.4,
-                    elevation: Math.min(end.elevation + 0.3, 1.2),
-                }
-                begin_flight(end, 1500)
-            }
             if (flight) {
                 const progress = clamp((now - flight.started) / flight.duration, 0, 1)
                 const eased = ease_in_out(progress)
@@ -1121,9 +1113,6 @@ export async function create_scene(
                 view.target.lerpVectors(start.target, end.target, reach)
                 if (progress === 1) flight = null
             }
-            veil_level = mix(veil_level, cut ? 1 : 0, reduced_motion ? 1 : 1 - Math.exp(-delta * 8))
-            veil.style.opacity = veil_level < 0.01 ? '0' : veil_level.toFixed(3)
-            veil.style.background = `#${mood.horizon.getHexString()}`
             if (cycle === null) blend_mood(ease, mood_target)
             else {
                 const phase = (cycle * 3) % 1
@@ -1150,6 +1139,18 @@ export async function create_scene(
 
             // Camera, fog and shadows all scale with how close the camera is.
             const distance = view.distance
+            const local = Object.values(worlds).find((world) => {
+                if (world.name === 'region' || distance > world.definition.zoom[1] * world.scale)
+                    return false
+                const [min_x, min_z, max_x, max_z] = world.bounds
+                return (
+                    view.target.x >= min_x &&
+                    view.target.x <= max_x &&
+                    view.target.z >= min_z &&
+                    view.target.z <= max_z
+                )
+            })
+            activate(local?.name ?? 'region')
             const azimuth =
                 view.azimuth + (reduced_motion || dragging ? 0 : Math.sin(now / 9000) * 0.035)
             const horizontal = distance * Math.cos(view.elevation)
@@ -1160,19 +1161,23 @@ export async function create_scene(
             )
             camera.position.y = Math.max(
                 camera.position.y,
-                active.terrain.height(camera.position.x, camera.position.z) + distance * 0.02,
+                landscape.height(camera.position.x, camera.position.z) + distance * 0.02,
             )
             camera.lookAt(view.target)
-            camera.near = clamp(distance * 0.02, 0.00005, 0.5)
+            camera.near = clamp(
+                distance * 0.02,
+                (METRE / world_definitions.region.km_per_unit) * 0.05,
+                0.5,
+            )
             camera.fov = view.fov
             camera.updateProjectionMatrix()
             sky.position.copy(camera.position)
             stars.position.copy(camera.position)
             const [fog_near, fog_far] = active.definition.fog
-            scene.fog.near = Math.max(fog_near, distance * 0.9)
-            scene.fog.far = Math.max(fog_far, distance * 3 + 10)
+            scene.fog.near = Math.max(fog_near * active.scale, distance * 0.9)
+            scene.fog.far = Math.max(fog_far * active.scale, distance * 3 + 10 * active.scale)
 
-            const span = clamp(distance * 1.3, 0.03, 24)
+            const span = clamp(distance * 1.3, 0.03 * active.scale, 24 * active.scale)
             sun.target.position.copy(view.target)
             sun.position.copy(view.target).addScaledVector(mood.sun_at, span * 4)
             sun.shadow.camera.left = -span
@@ -1200,7 +1205,7 @@ export async function create_scene(
                     if (Math.abs(route.shown - target) < 0.002) route.shown = target
                     route.line.geometry.instanceCount = Math.floor(route.shown * route.count)
                     // At human scale the route is a line on a map, not something in the scene.
-                    const mapped = distance > 0.3 && routes_shown
+                    const mapped = world === active && distance > 0.3 * active.scale && routes_shown
                     route.line.visible = mapped && route.shown > 0.002
                     route.trace.visible = mapped
                     if (world === active && route.shown > 0.002 && route.shown < 0.998) tip = route
@@ -1232,21 +1237,27 @@ export async function create_scene(
             // The marker shows where the line is still being drawn, not a resting place.
             traveller.visible = Boolean(tip) && !walking && !horse.root.visible
             if (tip) {
-                traveller.position.copy(tip.points[Math.floor(tip.shown * tip.count)])
+                traveller.position
+                    .copy(tip.points[Math.floor(tip.shown * tip.count)])
+                    .multiplyScalar(worlds[tip.world].scale)
                 // A following shot keeps the camera on the head of the line.
-                if (!flight && !cut && !dragging && view.follow === tip.leg) {
-                    follow_point.copy(traveller.position).setY(traveller.position.y + 0.2)
+                if (!flight && !dragging && view.follow === tip.leg) {
+                    follow_point
+                        .copy(traveller.position)
+                        .setY(traveller.position.y + 0.2 * active.scale)
                     view.target.lerp(follow_point, reduced_motion ? 1 : 1 - Math.exp(-delta * 1.6))
                 }
                 traveller.scale.setScalar(
                     distance * 0.007 * (reduced_motion ? 1 : 1 + 0.18 * Math.sin(now / 320)),
                 )
             }
-            active.rings.forEach((ring, index) => {
-                const pulse = reduced_motion ? 0 : (now / 2600 + index * 0.25) % 1
-                ring.scale.setScalar(distance * 0.012 * (1 + pulse * 0.9))
-                ring.material.opacity = 0.85 * (1 - pulse)
-            })
+            for (const world of Object.values(worlds))
+                world.rings.forEach((ring, index) => {
+                    ring.visible = world === active
+                    const pulse = reduced_motion ? 0 : (now / 2600 + index * 0.25) % 1
+                    ring.scale.setScalar((distance / world.scale) * 0.012 * (1 + pulse * 0.9))
+                    ring.material.opacity = 0.85 * (1 - pulse)
+                })
 
             ripples.offset.set(now / 90000, now / 140000)
             grade.uniforms.time.value = reduced_motion ? 0 : (now / 1000) % 10
@@ -1254,7 +1265,8 @@ export async function create_scene(
             dust.position.copy(camera.position)
             dust.scale.setScalar(distance * 0.9)
             dust.rotation.y = reduced_motion ? 0 : now / 60000
-            dust_material.opacity = 0.5 * (1 - mood.stars) * smoothstep(8, 0.5, distance)
+            dust_material.opacity =
+                0.5 * (1 - mood.stars) * smoothstep(8 * active.scale, 0.5 * active.scale, distance)
             dust_material.color.copy(mood.sun)
             composer.render()
             place_labels()
@@ -1289,7 +1301,20 @@ export async function create_scene(
         api.set_routes_shown = (on) => {
             routes_shown = on
         }
-        if (window.__capture) window.__scene = api
+        if (window.__capture) {
+            window.__scene = api
+            Object.assign(window.__capture, {
+                scene,
+                camera,
+                renderer,
+                landscape,
+                inspect: () => ({
+                    active: active.name,
+                    distance: view.distance,
+                    target: view.target.toArray(),
+                }),
+            })
+        }
         report('ready')
         // The local terrain is fetched while the learner is still on the opening screen.
         ensure_world('makkah')

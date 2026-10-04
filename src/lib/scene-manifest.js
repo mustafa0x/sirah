@@ -5,32 +5,28 @@ import region_grid from '../assets/terrain/region.bin?url'
 import { details } from '../content/details.js'
 import shelter_asset from '../../art/thawr/shelter-web-v1.glb?url'
 
-// Three nested views of real elevation data. Within a world, x runs south → north and
-// z runs west → east, in units of `km_per_unit`. Heights are exaggerated for legibility.
+// One continuous relief with finer grids around the towns. Authored camera/set values
+// retain their original units; the renderer places them in the shared regional frame.
 // Place positions are modern coordinates; routes between them are schematic.
 export const worlds = {
     region: {
         ...terrain_index.region,
         grid: region_grid,
         km_per_unit: 20,
-        exaggeration: 8,
+        exaggeration: 1.5,
         base: 0,
         sea: true,
-        mesh_step: 1,
+        mesh_step: 2,
         slope_gain: 5,
         fog: [14, 70],
-        zoom: [5, 60],
+        zoom: [0.0002, 60],
         label_lift: 0.6,
     },
     makkah: {
         ...terrain_index.makkah,
         grid: makkah_grid,
         km_per_unit: 1,
-        exaggeration: 1.5,
-        base: 240,
-        sea: false,
-        mesh_step: 1,
-        slope_gain: 1,
+        mesh_step: 2,
         fog: [6, 28],
         zoom: [0.004, 24],
         label_lift: 0.3,
@@ -39,11 +35,7 @@ export const worlds = {
         ...terrain_index.madinah,
         grid: madinah_grid,
         km_per_unit: 1,
-        exaggeration: 1.5,
-        base: 590,
-        sea: false,
-        mesh_step: 1,
-        slope_gain: 1,
+        mesh_step: 2,
         fog: [6, 28],
         zoom: [0.02, 24],
         label_lift: 0.3,

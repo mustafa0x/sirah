@@ -37,109 +37,258 @@ export async function load_grid(definition) {
     return new Int16Array(await response.arrayBuffer())
 }
 
-// Turns one elevation grid into a relief mesh plus the lookups the scene needs: world
-// position for a latitude/longitude, and ground height and slope at a world position.
-export function build_terrain(THREE, definition, grid) {
+// Every grid uses the regional projection. Local grids refine the same height field.
+export function build_terrain(THREE, definition, grid, details = []) {
     const { rows, cols, south, north, west, east, km_per_unit } = definition
     const lat0 = (south + north) / 2
     const lon0 = (west + east) / 2
     const km_per_lon = KM_PER_DEGREE * Math.cos((lat0 * Math.PI) / 180)
     const size_x = ((north - south) * KM_PER_DEGREE) / km_per_unit
     const size_z = ((east - west) * km_per_lon) / km_per_unit
-    const cell_metres = ((north - south) * KM_PER_DEGREE * 1000) / (rows - 1)
-    const per_metre = definition.exaggeration / 1000 / km_per_unit
-
-    const lift = definition.sea
-        ? (metres) => (metres > 0 ? (metres + 15) * per_metre : Math.max(metres * per_metre, -0.4))
-        : (metres) => (metres - definition.base) * per_metre
-    const metres_at = (row, col) => {
-        const r = clamp(row, 0, rows - 1.001)
-        const c = clamp(col, 0, cols - 1.001)
-        const r0 = Math.floor(r)
-        const c0 = Math.floor(c)
-        const tr = r - r0
-        const tc = c - c0
-        const index = r0 * cols + c0
-        return (
-            grid[index] * (1 - tr) * (1 - tc) +
-            grid[index + 1] * (1 - tr) * tc +
-            grid[index + cols] * tr * (1 - tc) +
-            grid[index + cols + 1] * tr * tc
-        )
-    }
-    const row_of = (x) => (x / size_x + 0.5) * (rows - 1)
-    const col_of = (z) => (z / size_z + 0.5) * (cols - 1)
-    const height = (x, z) => lift(metres_at(row_of(x), col_of(z)))
-    const slope_at = (row, col) =>
-        Math.hypot(
-            metres_at(row + 1, col) - metres_at(row - 1, col),
-            metres_at(row, col + 1) - metres_at(row, col - 1),
-        ) /
-        (2 * cell_metres)
-    const slope = (x, z) => slope_at(row_of(x), col_of(z))
     const to_xz = (lat, lon) => [
         ((lat - lat0) * KM_PER_DEGREE) / km_per_unit,
         ((lon - lon0) * km_per_lon) / km_per_unit,
     ]
-
+    const sample_grid = (source, values, stride = 1) => {
+        const [min_x, min_z] = to_xz(source.south, source.west)
+        const [max_x, max_z] = to_xz(source.north, source.east)
+        return {
+            min_x,
+            min_z,
+            max_x,
+            max_z,
+            sample(x, z) {
+                const row = clamp(
+                    ((x - min_x) / (max_x - min_x)) * (source.rows - 1),
+                    0,
+                    source.rows - 1.001,
+                )
+                const col = clamp(
+                    ((z - min_z) / (max_z - min_z)) * (source.cols - 1),
+                    0,
+                    source.cols - 1.001,
+                )
+                const r = Math.floor(row / stride) * stride
+                const c = Math.floor(col / stride) * stride
+                const r1 = Math.min(r + stride, source.rows - 1)
+                const c1 = Math.min(c + stride, source.cols - 1)
+                const tr = (row - r) / (r1 - r)
+                const tc = (col - c) / (c1 - c)
+                return (
+                    values[r * source.cols + c] * (1 - tr) * (1 - tc) +
+                    values[r * source.cols + c1] * (1 - tr) * tc +
+                    values[r1 * source.cols + c] * tr * (1 - tc) +
+                    values[r1 * source.cols + c1] * tr * tc
+                )
+            },
+        }
+    }
+    const regional = sample_grid(definition, grid, definition.mesh_step)
     const step = definition.mesh_step
-    const mesh_rows = Math.floor((rows - 1) / step) + 1
-    const mesh_cols = Math.floor((cols - 1) / step) + 1
-    const positions = new Float32Array(mesh_rows * mesh_cols * 3)
-    const colors = new Float32Array(mesh_rows * mesh_cols * 3)
+    const cell_x = (size_x / (rows - 1)) * step
+    const cell_z = (size_z / (cols - 1)) * step
+    const patches = details.map(({ definition: source, grid: values }) => {
+        const field = sample_grid(source, values)
+        // Patch borders land exactly on coarse cell edges. No overlapping coarse faces.
+        const min_r = Math.max(0, Math.floor((field.min_x + size_x / 2) / cell_x))
+        const max_r = Math.min(
+            Math.ceil((rows - 1) / step),
+            Math.ceil((field.max_x + size_x / 2) / cell_x),
+        )
+        const min_c = Math.max(0, Math.floor((field.min_z + size_z / 2) / cell_z))
+        const max_c = Math.min(
+            Math.ceil((cols - 1) / step),
+            Math.ceil((field.max_z + size_z / 2) / cell_z),
+        )
+        const min_x = -size_x / 2 + min_r * cell_x
+        const max_x = Math.min(size_x / 2, -size_x / 2 + max_r * cell_x)
+        const min_z = -size_z / 2 + min_c * cell_z
+        const max_z = Math.min(size_z / 2, -size_z / 2 + max_c * cell_z)
+        return {
+            field,
+            min_r,
+            max_r,
+            min_c,
+            max_c,
+            min_x,
+            max_x,
+            min_z,
+            max_z,
+            mesh_rows:
+                (max_r - min_r) *
+                    Math.ceil(
+                        ((cell_x / (field.max_x - field.min_x)) * (source.rows - 1)) /
+                            source.mesh_step,
+                    ) +
+                1,
+            mesh_cols:
+                (max_c - min_c) *
+                    Math.ceil(
+                        ((cell_z / (field.max_z - field.min_z)) * (source.cols - 1)) /
+                            source.mesh_step,
+                    ) +
+                1,
+        }
+    })
+    const metres = (x, z) => {
+        let value = regional.sample(x, z)
+        for (const { field } of patches) {
+            const edge = Math.min(
+                (x - field.min_x) / (field.max_x - field.min_x),
+                (field.max_x - x) / (field.max_x - field.min_x),
+                (z - field.min_z) / (field.max_z - field.min_z),
+                (field.max_z - z) / (field.max_z - field.min_z),
+            )
+            if (edge <= 0) continue
+            const weight = smoothstep(0, 0.08, edge)
+            value += (field.sample(x, z) - value) * weight
+        }
+        return value
+    }
+    const per_metre = definition.exaggeration / 1000 / km_per_unit
+    const lift = definition.sea
+        ? (value) => (value > 0 ? (value + 15) * per_metre : Math.max(value * per_metre, -0.4))
+        : (value) => (value - definition.base) * per_metre
+    const sample_distance = Math.min(cell_x, cell_z) / 20
+    const slope = (x, z) =>
+        Math.hypot(
+            metres(x + sample_distance, z) - metres(x - sample_distance, z),
+            metres(x, z + sample_distance) - metres(x, z - sample_distance),
+        ) /
+        (2 * sample_distance * km_per_unit * 1000)
+
+    const positions = []
+    const colors = []
+    const indices = []
+    const tiles = []
     const shore = new THREE.Color(0xe6d2a6)
     const sand = new THREE.Color(0xcfa974)
     const rock = new THREE.Color(0x8d6b4b)
     const high_rock = new THREE.Color(0x5e4737)
     const tint = new THREE.Color()
-    for (let r = 0; r < mesh_rows; r += 1) {
-        for (let c = 0; c < mesh_cols; c += 1) {
-            const edge = r === 0 || c === 0 || r === mesh_rows - 1 || c === mesh_cols - 1
-            // A little jitter breaks the grid so flat shading reads as carved relief.
-            const row = r * step + (edge ? 0 : (hash(r, c) - 0.5) * 0.5 * step)
-            const col = c * step + (edge ? 0 : (hash(c, r + 9) - 0.5) * 0.5 * step)
-            const metres = metres_at(row, col)
-            const index = (r * mesh_cols + c) * 3
-            positions[index] = (row / (rows - 1) - 0.5) * size_x
-            positions[index + 1] = lift(metres)
-            positions[index + 2] = (col / (cols - 1) - 0.5) * size_z
-            const relief = definition.sea ? metres : metres - definition.base
-            const steep = slope_at(row, col) * definition.slope_gain
-            tint.copy(sand)
-            if (definition.sea) tint.lerp(shore, 1 - smoothstep(0, 160, relief))
-            tint.lerp(rock, Math.max(smoothstep(0.12, 0.5, steep), smoothstep(500, 1500, relief)))
-            tint.lerp(high_rock, smoothstep(0.5, 1.1, steep) * 0.8)
-            tint.multiplyScalar(0.93 + 0.14 * fbm(row * 0.07, col * 0.07))
-            colors[index] = tint.r
-            colors[index + 1] = tint.g
-            colors[index + 2] = tint.b
+    const add_patch = (xs, zs, omit = false) => {
+        const start = positions.length / 3
+        tiles.push({ xs, zs, start })
+        for (const x of xs) {
+            for (const z of zs) {
+                const value = metres(x, z)
+                const relief = definition.sea ? value : value - definition.base
+                const steep = slope(x, z) * definition.slope_gain
+                positions.push(x, lift(value), z)
+                tint.copy(sand)
+                if (definition.sea) tint.lerp(shore, 1 - smoothstep(0, 160, relief))
+                tint.lerp(
+                    rock,
+                    Math.max(smoothstep(0.12, 0.5, steep), smoothstep(500, 1500, relief)),
+                )
+                tint.lerp(high_rock, smoothstep(0.5, 1.1, steep) * 0.8)
+                tint.multiplyScalar(0.93 + 0.14 * fbm(x * 0.7, z * 0.7))
+                colors.push(tint.r, tint.g, tint.b)
+            }
+        }
+        for (let r = 0; r < xs.length - 1; r += 1) {
+            for (let c = 0; c < zs.length - 1; c += 1) {
+                if (
+                    omit &&
+                    patches.some(
+                        (patch) =>
+                            r >= patch.min_r &&
+                            r < patch.max_r &&
+                            c >= patch.min_c &&
+                            c < patch.max_c,
+                    )
+                )
+                    continue
+                const a = start + r * zs.length + c
+                const b = a + 1
+                const d = a + zs.length
+                const e = d + 1
+                if ((r + c) % 2) indices.push(a, b, d, b, e, d)
+                else indices.push(a, b, e, a, e, d)
+            }
         }
     }
-    const indices = new Uint32Array((mesh_rows - 1) * (mesh_cols - 1) * 6)
-    let cursor = 0
-    for (let r = 0; r < mesh_rows - 1; r += 1) {
-        for (let c = 0; c < mesh_cols - 1; c += 1) {
-            const a = r * mesh_cols + c
-            const b = a + 1
-            const d = a + mesh_cols
-            const e = d + 1
-            // Alternate the diagonal so the triangles do not all lean the same way.
-            if ((r + c) % 2) indices.set([a, b, d, b, e, d], cursor)
-            else indices.set([a, b, e, a, e, d], cursor)
-            cursor += 6
-        }
+    add_patch(
+        Array.from({ length: Math.ceil((rows - 1) / step) + 1 }, (_, r) =>
+            Math.min(size_x / 2, -size_x / 2 + r * cell_x),
+        ),
+        Array.from({ length: Math.ceil((cols - 1) / step) + 1 }, (_, c) =>
+            Math.min(size_z / 2, -size_z / 2 + c * cell_z),
+        ),
+        true,
+    )
+    for (const patch of patches) {
+        add_patch(
+            Array.from(
+                { length: patch.mesh_rows },
+                (_, r) => patch.min_x + ((patch.max_x - patch.min_x) * r) / (patch.mesh_rows - 1),
+            ),
+            Array.from(
+                { length: patch.mesh_cols },
+                (_, c) => patch.min_z + ((patch.max_z - patch.min_z) * c) / (patch.mesh_cols - 1),
+            ),
+        )
     }
     const geometry = new THREE.BufferGeometry()
-    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3))
-    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3))
-    geometry.setIndex(new THREE.BufferAttribute(indices, 1))
+    geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3))
+    geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3))
+    geometry.setIndex(indices)
     geometry.computeBoundingSphere()
+    const vertex = geometry.attributes.position
+    // Ground queries follow the actual rendered triangles, including fine patch seams.
+    const height = (x, z) => {
+        const tile =
+            tiles
+                .slice(1)
+                .find(
+                    ({ xs, zs }) => x >= xs[0] && x <= xs.at(-1) && z >= zs[0] && z <= zs.at(-1),
+                ) ?? tiles[0]
+        const { xs, zs, start } = tile
+        x = clamp(x, xs[0], xs.at(-1))
+        z = clamp(z, zs[0], zs.at(-1))
+        const r = clamp(Math.floor((x - xs[0]) / (xs[1] - xs[0])), 0, xs.length - 2)
+        const c = clamp(Math.floor((z - zs[0]) / (zs[1] - zs[0])), 0, zs.length - 2)
+        const a = start + r * zs.length + c
+        const b = a + 1
+        const d = a + zs.length
+        const e = d + 1
+        const tr = clamp((x - vertex.getX(a)) / (vertex.getX(d) - vertex.getX(a)), 0, 1)
+        const tc = clamp((z - vertex.getZ(a)) / (vertex.getZ(b) - vertex.getZ(a)), 0, 1)
+        const ya = vertex.getY(a),
+            yb = vertex.getY(b),
+            yd = vertex.getY(d),
+            ye = vertex.getY(e)
+        if ((r + c) % 2) {
+            return tr + tc <= 1
+                ? ya + (yd - ya) * tr + (yb - ya) * tc
+                : ye + (yb - ye) * (1 - tr) + (yd - ye) * (1 - tc)
+        }
+        return tc >= tr
+            ? ya + (yb - ya) * tc + (ye - yb) * tr
+            : ya + (yd - ya) * tr + (ye - yd) * tc
+    }
     const mesh = new THREE.Mesh(
         geometry,
         new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: 1 }),
     )
+    mesh.name = 'landscape'
     mesh.castShadow = true
     mesh.receiveShadow = true
-
-    return { mesh, height, slope, to_xz, size_x, size_z }
+    return {
+        mesh,
+        height,
+        slope,
+        to_xz,
+        size_x,
+        size_z,
+        in_units(units) {
+            const scale = units / km_per_unit
+            return {
+                scale,
+                to_xz: (lat, lon) => to_xz(lat, lon).map((value) => value / scale),
+                height: (x, z) => height(x * scale, z * scale) / scale,
+                slope: (x, z) => slope(x * scale, z * scale),
+            }
+        },
+    }
 }
