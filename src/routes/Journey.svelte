@@ -734,11 +734,14 @@
 
 {#snippet icon(name)}
     <svg
-        class="flex-none size-[1.15em] fill-none stroke-current [stroke-width:1.8] [stroke-linecap:round] [stroke-linejoin:round]"
+        class={[
+            'flex-none size-[1.15em] fill-none stroke-current [stroke-width:1.8] [stroke-linecap:round] [stroke-linejoin:round]',
+            ['next', 'back', 'start'].includes(name) && 'rtl:-scale-x-100',
+        ]}
         viewBox="0 0 24 24"
         aria-hidden="true"
     >
-        {#if name === 'play'}
+        {#if name === 'play' || name === 'start'}
             <path d="M8 5.5v13l11-6.5z" fill="currentColor" stroke="none" />
         {:else if name === 'pause'}
             <path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor" stroke="none" />
@@ -769,11 +772,7 @@
         {:else if name === 'muted'}
             <path d="M4 9.5v5h3.5l4.5 4v-13l-4.5 4zM16 9.5l5 5M21 9.5l-5 5" />
         {:else if name === 'evidence'}
-            <circle cx="6" cy="8" r="2" /><circle cx="15" cy="6" r="2" /><circle
-                cx="17"
-                cy="15"
-                r="2"
-            /><circle cx="8" cy="17" r="2" />
+            <circle cx="6" cy="8" r="2" /><circle cx="15" cy="6" r="2" /><circle cx="17" cy="15" r="2" /><circle cx="8" cy="17" r="2" />
         {:else if name === 'timeline'}
             <path d="M3 12h18M6 9v6M11 7v10M16 10v4M20 8v8" />
         {/if}
@@ -1232,7 +1231,7 @@
                     class="{primary_button} min-h-[52px] px-6 py-3 text-[1rem]"
                     onclick={() => start('scene')}
                 >
-                    {@render icon('play')} Begin the journey
+                    {@render icon('start')} Begin the journey
                 </button>
                 <button
                     class="{ghost_button} min-h-[52px] px-6 py-3 text-[1rem]"
@@ -1652,12 +1651,7 @@
         >
             {#if sheet === 'reading'}
                 <header class={sheet_header}>
-                    <div>
-                        <p class={kicker}>
-                            Reading · stage {selected_index + 1} of {chapter.steps.length}
-                        </p>
-                        <h2 class={sheet_title} id="sheet-title">{selected_step.title}</h2>
-                    </div>
+                    <h2 class={sheet_title} id="sheet-title">{selected_step.title}</h2>
                     <button class={round_button} onclick={close_sheet} aria-label="Close reading">
                         {@render icon('close')}
                     </button>
@@ -1748,14 +1742,6 @@
                     </button>
                 </header>
                 <div class={sheet_body}>
-                    <p class="text-ink-soft text-[0.875rem] leading-[1.5]">
-                        Ask follows this chapter’s context and can research further in Turath.
-                        Answers cite opened passages and explain gaps in the evidence.
-                    </p>
-                    <p class={fine_print}>
-                        OpenAI and Turath process questions and research text. This app does not
-                        save chats.
-                    </p>
                     <form class="grid gap-[10px] justify-items-end" onsubmit={submit_question}>
                         <label
                             class="absolute size-px overflow-hidden [clip:rect(0,0,0,0)] whitespace-nowrap"
