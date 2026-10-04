@@ -1830,7 +1830,7 @@
                             data-active={source.id === active_source.id}
                         >
                             <div>
-                                <p class={kicker}>Source {source.number} · evidence</p>
+                                <p class={kicker}>Source {source.number}</p>
                                 <h3
                                     class="mt-1 font-serif text-[1.25rem] font-medium leading-[1.2]"
                                 >
