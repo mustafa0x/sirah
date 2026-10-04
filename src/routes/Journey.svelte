@@ -6,7 +6,7 @@
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
     import ChapterReader from '../lib/ChapterReader.svelte'
-    import { chapters_for_place } from '../lib/chapters.js'
+    import { chapters_for_place } from '../lib/chapters.svelte.js'
     import {
         chapter as source_chapter,
         cue_for,

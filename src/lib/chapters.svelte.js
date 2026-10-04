@@ -1,0 +1,93 @@
+import accepted from '../content/hijrah-chapters/catalog.ar.json'
+
+// Chapter payloads are large; each loads only when a reader opens it.
+const payloads = import.meta.glob('../content/hijrah-chapters/*/chapter.ar.json', {
+    import: 'default',
+})
+
+// Accepted chapters, plus any chapter still in draft, so every exported chapter can be
+// read in the app. Draft payloads load on demand rather than in the main bundle.
+export const catalog = $state({
+    chapter_order: [...accepted.chapter_order],
+    chapters: [...accepted.chapters],
+    places: accepted.places.map((place) => ({ ...place, chapter_ids: [...place.chapter_ids] })),
+})
+
+{
+    for (const [path, load] of Object.entries(payloads)) {
+        const relative = path.replace('../content/hijrah-chapters/', '')
+        if (accepted.chapters.some((item) => item.path === relative)) continue
+        load().then((payload) => {
+            catalog.chapter_order.push(payload.chapter_id)
+            catalog.chapters.push({
+                chapter_id: payload.chapter_id,
+                title_ar: payload.title_ar,
+                path: relative,
+                revision: payload.revision,
+                topic_ids: payload.topic_ids,
+            })
+            for (const link of payload.place_links ?? []) {
+                let place = catalog.places.find((item) => item.place_id === link.place_id)
+                if (!place) {
+                    catalog.places.push({
+                        place_id: link.place_id,
+                        name_ar: link.place_id,
+                        chapter_ids: [],
+                    })
+                    place = catalog.places.at(-1)
+                }
+                if (!place.chapter_ids.includes(payload.chapter_id))
+                    place.chapter_ids.push(payload.chapter_id)
+            }
+        })
+    }
+}
+
+export function load_chapter(chapter_id) {
+    const entry = catalog.chapters.find((item) => item.chapter_id === chapter_id)
+    const load = entry && payloads[`../content/hijrah-chapters/${entry.path}`]
+    return load ? load() : Promise.reject(new Error(`Unknown chapter: ${chapter_id}`))
+}
+
+// Chapters whose setting or mentions include a scene place.
+export function chapters_for_place(place_id) {
+    const place = catalog.places.find((item) => item.place_id === place_id)
+    return (place?.chapter_ids ?? []).map((id) =>
+        catalog.chapters.find((item) => item.chapter_id === id),
+    )
+}
+
+const entities = {
+    '&quot;': '"',
+    '&amp;': '&',
+    '&lt;': '<',
+    '&gt;': '>',
+    '&#39;': "'",
+    '&nbsp;': ' ',
+}
+
+// Display only: the payload keeps the literal source, including digital markup.
+export function display_text(text) {
+    return text
+        .replace(/<[^>]*>/g, '')
+        .replace(/&(quot|amp|lt|gt|#39|nbsp);/g, (match) => entities[match])
+        .replace(/[ \t]+\n/g, '\n')
+        .trim()
+}
+
+// How a part reads to a learner: the chain of narrators, the text itself, or a note.
+export function part_role(unit) {
+    const kind = unit.kind_ar ?? ''
+    if (kind.includes('إسناد')) return 'chain'
+    if (kind.includes('تخريج') || kind.includes('تعليق')) return 'note'
+    if (kind.includes('قرآن')) return 'quran'
+    return 'text'
+}
+
+// "[label](url)" → { label, url }
+export function citation(unit) {
+    const match = /^\[(.+)\]\((.+)\)$/.exec(unit.citation_ar ?? '')
+    return match
+        ? { label: match[1], url: match[2] }
+        : { label: unit.book_ar, url: unit.source_url }
+}

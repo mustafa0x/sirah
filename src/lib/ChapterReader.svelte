@@ -2,7 +2,7 @@
     // The chapter reader. Chapters are Arabic for now, so its own wording is Arabic too.
     import { tick } from 'svelte'
     import { fade, fly } from 'svelte/transition'
-    import { citation, display_text, load_chapter, part_role } from './chapters.js'
+    import { citation, display_text, load_chapter, part_role } from './chapters.svelte.js'
     import {
         create_practice,
         current_question,
