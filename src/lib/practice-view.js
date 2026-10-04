@@ -64,11 +64,17 @@ export function worded(question, wording) {
     }
 }
 
+// Questions whose displayed passage does not yet support them, recorded in
+// docs/research/hijrah/learner/DATA-ISSUES.json. Hidden until the next Arabic data release.
+const withheld = new Set(['HQ-E03'])
+
 export function questions_for(mode, { level, step_id } = {}) {
     const { levels: allowed, source_study } = mode_levels[mode] ?? mode_levels.new
-    return (level ? [level] : allowed).flatMap((item) =>
-        allowed.includes(item)
-            ? practice_questions(packet, item, { step_id, include_source_study: source_study })
-            : [],
-    )
+    return (level ? [level] : allowed)
+        .flatMap((item) =>
+            allowed.includes(item)
+                ? practice_questions(packet, item, { step_id, include_source_study: source_study })
+                : [],
+        )
+        .filter((question) => !withheld.has(question.question_id))
 }
