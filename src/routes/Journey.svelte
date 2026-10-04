@@ -5,6 +5,8 @@
     import { SvelteSet } from 'svelte/reactivity'
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
+    import ChapterReader from '../lib/ChapterReader.svelte'
+    import { chapters_for_place } from '../lib/chapters.js'
     import {
         chapter as source_chapter,
         cue_for,
@@ -193,8 +195,14 @@
         practice_tick >= 0 && practice && practice_question ? practice_feedback(practice) : null,
     )
     let practice_done = $derived(Boolean(practice) && !practice_question)
+    // The chapter open in the reader, if any.
+    let reading_chapter = $state(null)
     let card_visible = $derived(
-        journey.started && sheet !== 'reading' && !(narrow && sheet) && !practice,
+        journey.started &&
+            sheet !== 'reading' &&
+            !(narrow && sheet) &&
+            !practice &&
+            !reading_chapter,
     )
     function find_source(source_id) {
         return (
@@ -601,6 +609,16 @@
         )
     }
 
+    // Chapters for the stage on screen, and for a selected place.
+    let stage_chapters = $derived(chapters_for_place(selected_step.id))
+    let place_chapters = $derived(active_poi ? chapters_for_place(active_poi.place) : [])
+
+    function open_chapter(chapter_id) {
+        cancel_advance()
+        if (journey.is_playing) pause_playback()
+        reading_chapter = chapter_id
+    }
+
     function select_poi(poi) {
         active_poi = active_poi?.id === poi.id ? null : poi
         if (active_poi?.detail && journey.is_playing) pause_playback()
@@ -662,9 +680,12 @@
     function keydown(event) {
         if (event.key === 'Escape') {
             if (help_open) help_open = false
+            else if (reading_chapter) reading_chapter = null
             else if (sheet) close_sheet()
             return
         }
+        // Keys typed while the chapter is open belong to it, not to playback.
+        if (reading_chapter) return
         if (!journey.started || event.metaKey || event.ctrlKey || event.altKey) return
         if (event.target.closest?.('input, textarea, select, button, a, [contenteditable]')) return
         if (event.key === ' ') {
@@ -757,6 +778,18 @@
             <path d="M3 12h18M6 9v6M11 7v10M16 10v4M20 8v8" />
         {/if}
     </svg>
+{/snippet}
+
+{#snippet place_chapter_buttons()}
+    {#each place_chapters as item (item.chapter_id)}
+        <button
+            class="{primary_button} justify-self-start"
+            onclick={() => open_chapter(item.chapter_id)}
+        >
+            {@render icon('read')} Read the chapter
+            <span class="font-arabic text-[0.9375rem]" lang="ar" dir="rtl">{item.title_ar}</span>
+        </button>
+    {/each}
 {/snippet}
 
 {#snippet citations(source_ids)}
@@ -1060,7 +1093,35 @@
                 {active_detail.text}
             </p>
             {@render citations([active_poi.detail.source_id])}
+            {@render place_chapter_buttons()}
         </section>
+    {/if}
+
+    {#if active_poi && !active_poi.detail && place_chapters.length && !sheet && !reading_chapter}
+        <section
+            class="absolute z-20 top-[88px] right-6 grid gap-3 w-[min(380px,calc(100%-48px))] px-6 pt-5 pb-[18px] bg-panel border border-solid border-line-strong rounded-[20px] shadow-[0_18px_60px_rgba(0,0,0,0.35)] backdrop-blur-[18px] mobile:top-[112px] mobile:right-3 mobile:left-3 mobile:w-auto mobile:px-4 mobile:pt-4"
+            aria-labelledby="place-title"
+            transition:fly={{ x: 24, duration: 260 }}
+        >
+            <div class="flex gap-4 items-start justify-between">
+                <h2 class="font-serif text-[1.5rem] font-medium leading-[1.15]" id="place-title">
+                    {active_poi.label}
+                </h2>
+                <button
+                    class={round_button}
+                    onclick={() => (active_poi = null)}
+                    aria-label="Close detail"
+                >
+                    {@render icon('close')}
+                </button>
+            </div>
+            <p class="text-ink-soft leading-[1.55]">{active_poi.description}</p>
+            {@render place_chapter_buttons()}
+        </section>
+    {/if}
+
+    {#if reading_chapter}
+        <ChapterReader chapter_id={reading_chapter} on_close={() => (reading_chapter = null)} />
     {/if}
 
     {#if help_open}
@@ -1568,6 +1629,17 @@
                     >
                         {@render icon('ask')} Ask
                     </button>
+                    {#each stage_chapters as item (item.chapter_id)}
+                        <button
+                            class="{ghost_button} border-gold mobile:flex-[1_1_100%]"
+                            onclick={() => open_chapter(item.chapter_id)}
+                        >
+                            {@render icon('read')} Read the chapter
+                            <span class="font-arabic text-[0.9375rem]" lang="ar" dir="rtl"
+                                >{item.title_ar}</span
+                            >
+                        </button>
+                    {/each}
                 </div>
             {/if}
         </section>
