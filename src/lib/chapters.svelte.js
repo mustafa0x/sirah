@@ -1,7 +1,9 @@
 import accepted from '../content/hijrah-chapters/catalog.ar.json'
+import english from '../content/hijrah-chapters/catalog.en.json'
+import { chapter_locale, prepare_chapter } from './chapter-editions.js'
 
 // Chapter payloads are large; each loads only when a reader opens it.
-const payloads = import.meta.glob('../content/hijrah-chapters/*/chapter.ar.json', {
+const payloads = import.meta.glob('../content/hijrah-chapters/*/chapter.*.json', {
     import: 'default',
 })
 
@@ -15,6 +17,7 @@ export const catalog = $state({
 
 {
     for (const [path, load] of Object.entries(payloads)) {
+        if (!path.endsWith('/chapter.ar.json')) continue
         const relative = path.replace('../content/hijrah-chapters/', '')
         if (accepted.chapters.some((item) => item.path === relative)) continue
         load().then((payload) => {
@@ -43,11 +46,26 @@ export const catalog = $state({
     }
 }
 
-export function load_chapter(chapter_id) {
+export function chapter_title(item, requested) {
+    return chapter_locale(requested) === 'ar'
+        ? item.title_ar
+        : (english.chapters.find((entry) => entry.chapter_id === item.chapter_id)?.title ??
+              item.title_ar)
+}
+
+export async function load_chapter(chapter_id, requested = 'ar') {
     const entry = catalog.chapters.find((item) => item.chapter_id === chapter_id)
     const path = entry?.path ?? `${chapter_id}/chapter.ar.json`
     const load = payloads[`../content/hijrah-chapters/${path}`]
-    return load ? load() : Promise.reject(new Error(`Unknown chapter: ${chapter_id}`))
+    if (!load) throw new Error(`Unknown chapter: ${chapter_id}`)
+    const arabic = await load()
+    if (chapter_locale(requested) === 'ar') return prepare_chapter(arabic)
+    const translation = english.chapters.find((item) => item.chapter_id === chapter_id)
+    if (!translation) throw new Error('English edition is not available')
+    const edition = await payloads[`../content/hijrah-chapters/${translation.path}`]()
+    if (edition.english_sha256 !== translation.english_sha256)
+        throw new Error('English catalog and edition differ')
+    return prepare_chapter(arabic, edition)
 }
 
 // Chapters whose setting or mentions include a scene place.
@@ -87,8 +105,8 @@ export function part_role(unit) {
 
 // "[label](url)" → { label, url }
 export function citation(unit) {
-    const match = /^\[(.+)\]\((.+)\)$/.exec(unit.citation_ar ?? '')
+    const match = /^\[(.+)\]\((.+)\)$/.exec(unit.citation ?? unit.citation_ar ?? '')
     return match
         ? { label: match[1], url: match[2] }
-        : { label: unit.book_ar, url: unit.source_url }
+        : { label: unit.book ?? unit.book_ar, url: unit.source_url }
 }

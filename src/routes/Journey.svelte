@@ -8,7 +8,12 @@
         resolve_journey_link,
         valid_chapter_link,
     } from '../lib/journey-links.js'
-    import { chapters_for_place, load_chapter } from '../lib/chapters.svelte.js'
+    import {
+        catalog,
+        chapter_title,
+        chapters_for_place,
+        load_chapter,
+    } from '../lib/chapters.svelte.js'
 
     export const paths = journey_paths
     let checkpoint_view = () => {}
@@ -35,7 +40,7 @@
         let payload = null
         if (target.kind === 'chapter') {
             try {
-                payload = await load_chapter(target.chapter_id)
+                payload = await load_chapter(target.chapter_id, target.lang)
             } catch {
                 throw Object.assign(new Error('Page not found'), { status: 404 })
             }
@@ -790,8 +795,11 @@
         )
     }
 
-    // Chapters for the stage on screen, and for a selected place.
-    let stage_chapters = $derived(chapters_for_place(selected_step.id))
+    // A teaching stage is not a geographical place (pursuit/tent both occur on the road).
+    let stage_chapter = $derived(
+        catalog.chapters.find((item) => item.chapter_id === selected_step.reading_chapter_id) ??
+            chapters_for_place(selected_step.id)[0],
+    )
     let place_chapters = $derived(active_poi ? chapters_for_place(active_poi.place) : [])
 
     function select_poi(poi) {
@@ -1116,11 +1124,12 @@
                 route_data?.payload?.chapter_id === reading_chapter
                     ? route_data.payload
                     : (snapshot?.reader_payload ?? null)
-            if (!reader_sessions.has(reading_chapter)) {
+            const edition_key = reader_payload.packet_id
+            if (!reader_sessions.has(edition_key)) {
                 const session = $state({ practice: null, study: false, passage: [] })
-                reader_sessions.set(reading_chapter, session)
+                reader_sessions.set(edition_key, session)
             }
-            reader_session = reader_sessions.get(reading_chapter)
+            reader_session = reader_sessions.get(edition_key)
             // The address selects a reader tab/target even when the parent view is restored.
             if (target.kind === 'chapter') reader_destination = target
         }
@@ -1264,7 +1273,11 @@
     {#each place_chapters as item (item.chapter_id)}
         <a class="{primary_button} justify-self-start" href={href(`/chapters/${item.chapter_id}`)}>
             {@render icon('read')} Read the chapter
-            <span class="font-arabic text-[0.9375rem]" lang="ar" dir="rtl">{item.title_ar}</span>
+            <span
+                class="font-serif text-[0.9375rem]"
+                lang={language === 'ar' ? 'ar' : 'en'}
+                dir={language === 'ar' ? 'rtl' : 'ltr'}>{chapter_title(item, language)}</span
+            >
         </a>
     {/each}
 {/snippet}
@@ -1761,6 +1774,20 @@
                     {@render icon('read')} Read instead
                 </a>
             </div>
+            <nav
+                class="flex flex-wrap gap-x-5 gap-y-2"
+                aria-label="Hijrah chapters"
+                lang={language === 'ar' ? 'ar' : 'en'}
+                dir={language === 'ar' ? 'rtl' : 'ltr'}
+            >
+                {#each catalog.chapters as item (item.chapter_id)}
+                    <a
+                        class="font-serif text-[1rem] leading-[1.7] text-gold-bright underline decoration-gold/50 underline-offset-4 hover:decoration-gold-bright focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold"
+                        href={href(`/chapters/${item.chapter_id}`)}
+                        >{chapter_title(item, language)}</a
+                    >
+                {/each}
+            </nav>
         </section>
     {:else}
         <aside
@@ -2130,10 +2157,10 @@
                             {/if}
                         </button>
                     {/if}
-                    {#if stage_chapters.length}
+                    {#if stage_chapter}
                         <a
                             class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
-                            href={href(`/chapters/${stage_chapters[0].chapter_id}`)}
+                            href={href(`/chapters/${stage_chapter.chapter_id}`)}
                         >
                             {@render icon('read')} Read
                         </a>

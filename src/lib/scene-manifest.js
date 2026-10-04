@@ -16,7 +16,7 @@ export const worlds = {
         exaggeration: 1.5,
         base: 0,
         sea: true,
-        mesh_step: 2,
+        mesh_step: 1,
         slope_gain: 5,
         fog: [14, 70],
         zoom: [0.0002, 60],
@@ -229,9 +229,9 @@ const south = -Math.PI / 2
 const north = Math.PI / 2
 
 export const overview_shot = {
-    ...shot('region_centre', 0, 0.6, 26, 0.2),
+    ...shot('region_centre', 0, 0.65, 46, 0.2),
     // On a tall screen the route runs bottom to top instead of left to right.
-    portrait: shot('region_centre', -1.35, 0.95, 44, 0.2),
+    portrait: shot('region_centre', -1.35, 0.95, 60, 0.2, null, 44),
 }
 
 // One camera move per narrative beat. An azimuth of `north` puts the camera north of its
@@ -239,7 +239,7 @@ export const overview_shot = {
 export const beat_shots = {
     N01a: overview_shot,
     N01b: shot('makkah', -0.4, 0.5, 8),
-    N02a: shot('makkah', 0.25, 0.42, 3.4, 0.1),
+    N02a: shot('makkah', 0.25, 0.42, 4.4, 0.1),
     N02b: shot('makkah_valley', north - 0.25, 0.36, 8.5, 0.1),
     // Outside the shelter, looking at its opening.
     N09a: shot('makkah', 0.6, 0.5, 2.6, 0.1),

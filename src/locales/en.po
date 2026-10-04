@@ -82,10 +82,6 @@ msgid "Returned to the guided view."
 msgstr "Returned to the guided view."
 
 #: src/routes/Journey.svelte
-msgid "Panel closed."
-msgstr "Panel closed."
-
-#: src/routes/Journey.svelte
 msgid "A source-linked learner journey through selected stages of the Hijrah."
 msgstr "A source-linked learner journey through selected stages of the Hijrah."
 
@@ -95,8 +91,6 @@ msgid "{0} · Sirah Journey"
 msgstr "{0} · Sirah Journey"
 
 #. 0: source.number; 1: source.reference
-#. 0: source.number; 1: source.reference
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Source {0}: {1}"
 msgstr "Source {0}: {1}"
@@ -117,10 +111,6 @@ msgstr "How this works"
 #: src/routes/Journey.svelte
 msgid "<0/> Sirah Journey"
 msgstr "<0/> Sirah Journey"
-
-#: src/routes/Journey.svelte
-msgid "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place name to fly there."
-msgstr "<0>Drag</0> to look around, <1>scroll</1> to zoom, and select a place name to fly there."
 
 #: src/routes/Journey.svelte
 msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
@@ -202,7 +192,9 @@ msgstr "Play"
 msgid "Position in this stage"
 msgstr "Position in this stage"
 
+#. 0: score.correct.toLocaleString(chapter.locale); 1: score.total.toLocaleString( chapter.locale, )
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "{0} of {1}"
 msgstr "{0} of {1}"
@@ -217,6 +209,7 @@ msgstr "<0/> Complete the chapter"
 msgid "Continue: {0} <0/>"
 msgstr "Continue: {0} <0/>"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Read"
 msgstr "<0/> Read"
@@ -234,11 +227,6 @@ msgstr "<0/> Ask"
 #: src/routes/Journey.svelte
 msgid "Stage {0} of {1} · {2}"
 msgstr "Stage {0} of {1} · {2}"
-
-#. 0: selected_index + 1; 1: chapter.steps.length
-#: src/routes/Journey.svelte
-msgid "Reading · stage {0} of {1}"
-msgstr "Reading · stage {0} of {1}"
 
 #: src/routes/Journey.svelte
 msgid "Close reading"
@@ -302,20 +290,11 @@ msgstr "Your question"
 msgid "Suggested questions"
 msgstr "Suggested questions"
 
-#. 0: active_source.number
-#: src/routes/Journey.svelte
-msgid "Source {0} · evidence"
-msgstr "Source {0} · evidence"
-
 #: src/routes/Journey.svelte
 msgid "Close source"
 msgstr "Close source"
 
-#: src/routes/Journey.svelte
-msgid "Sources for this stage"
-msgstr "Sources for this stage"
-
-#. 0: active_source.volume; 1: active_source.page
+#. 0: source.volume; 1: source.page
 #: src/routes/Journey.svelte
 msgid "· vol. {0}, p. {1}"
 msgstr "· vol. {0}, p. {1}"
@@ -693,20 +672,12 @@ msgid "Chapter notes · offline"
 msgstr "Chapter notes · offline"
 
 #: src/routes/Journey.svelte
-msgid "Ask follows this chapter’s context and can research further in Turath. Answers cite opened passages and explain gaps in the evidence."
-msgstr "Ask follows this chapter’s context and can research further in Turath. Answers cite opened passages and explain gaps in the evidence."
-
-#: src/routes/Journey.svelte
 msgid "This passage is shortened. Open the original page for its full context."
 msgstr "This passage is shortened. Open the original page for its full context."
 
 #: src/lib/guide-provider.js
 msgid "The offline chapter notes do not establish an answer to that question."
 msgstr "The offline chapter notes do not establish an answer to that question."
-
-#: src/routes/Journey.svelte
-msgid "OpenAI and Turath process questions and research text. This app does not save chats."
-msgstr "OpenAI and Turath process questions and research text. This app does not save chats."
 
 #: src/routes/Journey.svelte
 msgid "From the sources"
@@ -1056,6 +1027,8 @@ msgstr "The chain stops short of an eyewitness, and some place the song at a lat
 msgid "Along the way"
 msgstr "Along the way"
 
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Close detail"
 msgstr "Close detail"
@@ -1449,6 +1422,8 @@ msgstr "Young learners"
 msgid "New to the story"
 msgstr "New to the story"
 
+#: src/lib/ChapterReader.svelte
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "In depth"
@@ -1543,28 +1518,21 @@ msgstr "Mode changed. Your place is saved."
 msgid "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 msgstr "‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ."
 
-
-
-
-
-
-
-
-
-
 #: src/lib/scene-manifest.js
 msgid "E09"
 msgstr "E09"
-
 
 #: src/content/lenses.js
 msgid "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 msgstr "In Madinah, Muslims went out to wait for the Prophet ﷺ. The arrival account tells how they welcomed him."
 
+#. 0: questions.length
 #: src/routes/Journey.svelte
 msgid "Practice opened. {0} questions."
 msgstr "Practice opened. {0} questions."
 
+#: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Correct."
 msgstr "Correct."
@@ -1577,14 +1545,17 @@ msgstr "Answer recorded."
 msgid "Level"
 msgstr "Level"
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "Beginner"
 msgstr "Beginner"
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "Intermediate"
 msgstr "Intermediate"
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "Expert"
 msgstr "Expert"
@@ -1605,10 +1576,12 @@ msgstr "Answers"
 msgid "Hide the passage"
 msgstr "Hide the passage"
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "Read the passage"
 msgstr "Read the passage"
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "I don’t know"
 msgstr "I don’t know"
@@ -1617,10 +1590,12 @@ msgstr "I don’t know"
 msgid "Open book: reading the passage is part of learning."
 msgstr "Open book: reading the passage is part of learning."
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "Skipped. Here is what the passage says."
 msgstr "Skipped. Here is what the passage says."
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "Not quite."
 msgstr "Not quite."
@@ -1629,14 +1604,17 @@ msgstr "Not quite."
 msgid "You read the passage before answering."
 msgstr "You read the passage before answering."
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "Next question"
 msgstr "Next question"
 
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "See how you did"
 msgstr "See how you did"
 
+#. 0: score.skipped
 #: src/routes/Journey.svelte
 msgid "Left for later: {0}"
 msgstr "Left for later: {0}"
@@ -1669,6 +1647,110 @@ msgstr "<0/> Practise what you learned"
 msgid "<0/> Read the chapter <1/>"
 msgstr "<0/> Read the chapter <1/>"
 
+#. 0: note.number
+#. 0: source.number
+#: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
 msgid "Source {0}"
 msgstr "Source {0}"
+
+#: src/routes/Journey.svelte
+msgid "<0>Drag</0> to look around, <1/> to zoom, and select a place name to fly there."
+msgstr "<0>Drag</0> to look around, <1/> to zoom, and select a place name to fly there."
+
+#: src/lib/ChapterReader.svelte
+msgid "Sources"
+msgstr "Sources"
+
+#: src/lib/ChapterReader.svelte
+msgid "Story"
+msgstr "Story"
+
+#: src/lib/ChapterReader.svelte
+msgid "Check your understanding"
+msgstr "Check your understanding"
+
+#: src/lib/ChapterReader.svelte
+msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
+msgstr "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
+
+#: src/lib/ChapterReader.svelte
+msgid "Arabic original and source details"
+msgstr "Arabic original and source details"
+
+#: src/lib/ChapterReader.svelte
+msgid "Choose a chapter"
+msgstr "Choose a chapter"
+
+#: src/lib/ChapterReader.svelte
+msgid "Close chapter"
+msgstr "Close chapter"
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter sections"
+msgstr "Chapter sections"
+
+#: src/lib/ChapterReader.svelte
+msgid "Loading…"
+msgstr "Loading…"
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter contents"
+msgstr "Chapter contents"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this chapter"
+msgstr "In this chapter"
+
+#: src/lib/ChapterReader.svelte
+msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
+msgstr "English translations of the selected excerpts. The original Arabic remains available with each passage."
+
+#: src/lib/ChapterReader.svelte
+msgid "English summary — not a translation"
+msgstr "English summary — not a translation"
+
+#: src/lib/ChapterReader.svelte
+msgid "This selection is shown in an earlier reading."
+msgstr "This selection is shown in an earlier reading."
+
+#: src/lib/ChapterReader.svelte
+msgid "Chain of transmission"
+msgstr "Chain of transmission"
+
+#: src/lib/ChapterReader.svelte
+msgid "Source-study questions: read the passages and compare them."
+msgstr "Source-study questions: read the passages and compare them."
+
+#. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
+#: src/lib/ChapterReader.svelte
+msgid "Question {0} of {1} · {2}"
+msgstr "Question {0} of {1} · {2}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Continue with source-study questions"
+msgstr "Continue with source-study questions"
+
+#: src/lib/ChapterReader.svelte
+msgid "Try again"
+msgstr "Try again"
+
+#: src/lib/ChapterReader.svelte
+msgid "Back to the story"
+msgstr "Back to the story"
+
+#: src/lib/ChapterReader.svelte
+msgid "Correct answers out of the questions in this set."
+msgstr "Correct answers out of the questions in this set."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah chapters"
+msgstr "Hijrah chapters"
+
+#: src/lib/ChapterReader.svelte
+msgid "This chapter is available in Arabic and English. Showing the English edition."
+msgstr "This chapter is available in Arabic and English. Showing the English edition."
+
+#: src/lib/ChapterReader.svelte
+msgid "Learning goals"
+msgstr "Learning goals"

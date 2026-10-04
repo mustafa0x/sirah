@@ -249,6 +249,7 @@ export async function create_scene(
         ripples.magFilter = THREE.LinearFilter
         ripples.needsUpdate = true
         const sea_material = new THREE.MeshStandardMaterial({
+            fog: false,
             roughness: 0.22,
             metalness: 0.05,
             normalMap: ripples,
@@ -720,7 +721,7 @@ export async function create_scene(
             new THREE.WebGLRenderTarget(1, 1, { type: THREE.HalfFloatType, samples: 4 }),
         )
         composer.addPass(new RenderPass(scene, camera))
-        const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.3, 0.7, 0.9)
+        const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.08, 0.7, 0.9)
         composer.addPass(bloom)
         const grade = new ShaderPass({
             uniforms: { tDiffuse: { value: null }, time: { value: 0 }, grain: { value: 0.022 } },
@@ -886,7 +887,7 @@ export async function create_scene(
             }
             for (const [id, node] of evidence_nodes) node.hidden = !shown.has(id)
         }
-        const insets = { left: 0, right: 0, bottom: 0 }
+        const insets = { left: 0, right: 0, bottom: 0, top: 0 }
         const inset_target = { left: 0, right: 0, bottom: 0, top: 0 }
         const projected = new THREE.Vector3()
         const place_labels = () => {
@@ -1122,7 +1123,7 @@ export async function create_scene(
             // The sky turns slowly at all times, and through three nights during the time-lapse.
             stars.rotation.set(0.6, 0, now / 400000 + (cycle ?? 0) * 3.2)
 
-            for (const key of ['left', 'right', 'bottom'])
+            for (const key of ['left', 'right', 'bottom', 'top'])
                 insets[key] = mix(insets[key], inset_target[key], reduced_motion ? 1 : ease * 1.6)
             const width = host.clientWidth
             const height = host.clientHeight
@@ -1131,7 +1132,7 @@ export async function create_scene(
                     width,
                     height,
                     -(insets.left - insets.right) / 2,
-                    insets.bottom / 2,
+                    (insets.bottom - insets.top) / 2,
                     width,
                     height,
                 )

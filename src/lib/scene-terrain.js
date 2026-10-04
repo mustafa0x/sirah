@@ -49,7 +49,7 @@ export function build_terrain(THREE, definition, grid, details = []) {
         ((lat - lat0) * KM_PER_DEGREE) / km_per_unit,
         ((lon - lon0) * km_per_lon) / km_per_unit,
     ]
-    const sample_grid = (source, values, stride = 1) => {
+    const sample_grid = (source, values, stride = 1, triangular = false) => {
         const [min_x, min_z] = to_xz(source.south, source.west)
         const [max_x, max_z] = to_xz(source.north, source.east)
         return {
@@ -74,16 +74,25 @@ export function build_terrain(THREE, definition, grid, details = []) {
                 const c1 = Math.min(c + stride, source.cols - 1)
                 const tr = (row - r) / (r1 - r)
                 const tc = (col - c) / (c1 - c)
-                return (
-                    values[r * source.cols + c] * (1 - tr) * (1 - tc) +
-                    values[r * source.cols + c1] * (1 - tr) * tc +
-                    values[r1 * source.cols + c] * tr * (1 - tc) +
-                    values[r1 * source.cols + c1] * tr * tc
-                )
+                const a = values[r * source.cols + c],
+                    b = values[r * source.cols + c1],
+                    d = values[r1 * source.cols + c],
+                    e = values[r1 * source.cols + c1]
+                if (triangular) {
+                    if ((r / stride + c / stride) % 2) {
+                        return tr + tc <= 1
+                            ? a + (d - a) * tr + (b - a) * tc
+                            : e + (b - e) * (1 - tr) + (d - e) * (1 - tc)
+                    }
+                    return tc >= tr
+                        ? a + (b - a) * tc + (e - b) * tr
+                        : a + (d - a) * tr + (e - d) * tc
+                }
+                return a * (1 - tr) * (1 - tc) + b * (1 - tr) * tc + d * tr * (1 - tc) + e * tr * tc
             },
         }
     }
-    const regional = sample_grid(definition, grid, definition.mesh_step)
+    const regional = sample_grid(definition, grid, definition.mesh_step, true)
     const step = definition.mesh_step
     const cell_x = (size_x / (rows - 1)) * step
     const cell_z = (size_z / (cols - 1)) * step
@@ -133,14 +142,14 @@ export function build_terrain(THREE, definition, grid, details = []) {
     const metres = (x, z) => {
         let value = regional.sample(x, z)
         for (const { field } of patches) {
-            const edge = Math.min(
-                (x - field.min_x) / (field.max_x - field.min_x),
-                (field.max_x - x) / (field.max_x - field.min_x),
-                (z - field.min_z) / (field.max_z - field.min_z),
-                (field.max_z - z) / (field.max_z - field.min_z),
-            )
+            const edge =
+                1 -
+                Math.hypot(
+                    (2 * x - field.min_x - field.max_x) / (field.max_x - field.min_x),
+                    (2 * z - field.min_z - field.max_z) / (field.max_z - field.min_z),
+                )
             if (edge <= 0) continue
-            const weight = smoothstep(0, 0.08, edge)
+            const weight = smoothstep(0, 0.35, edge)
             value += (field.sample(x, z) - value) * weight
         }
         return value
@@ -159,6 +168,8 @@ export function build_terrain(THREE, definition, grid, details = []) {
 
     const positions = []
     const colors = []
+    const normals = []
+    const normal = new THREE.Vector3()
     const indices = []
     const tiles = []
     const shore = new THREE.Color(0xe6d2a6)
@@ -172,9 +183,35 @@ export function build_terrain(THREE, definition, grid, details = []) {
         for (const x of xs) {
             for (const z of zs) {
                 const value = metres(x, z)
-                const relief = definition.sea ? value : value - definition.base
-                const steep = slope(x, z) * definition.slope_gain
+                // One macro colour field prevents resolution changes painting visible tiles.
+                const macro = regional.sample(x, z)
+                const relief = definition.sea ? macro : macro - definition.base
+                const steep =
+                    (Math.hypot(
+                        regional.sample(x + sample_distance, z) -
+                            regional.sample(x - sample_distance, z),
+                        regional.sample(x, z + sample_distance) -
+                            regional.sample(x, z - sample_distance),
+                    ) /
+                        (2 * sample_distance * km_per_unit * 1000)) *
+                    definition.slope_gain
                 positions.push(x, lift(value), z)
+                normal
+                    .set(
+                        -(
+                            lift(metres(x + sample_distance, z)) -
+                            lift(metres(x - sample_distance, z))
+                        ) /
+                            (2 * sample_distance),
+                        1,
+                        -(
+                            lift(metres(x, z + sample_distance)) -
+                            lift(metres(x, z - sample_distance))
+                        ) /
+                            (2 * sample_distance),
+                    )
+                    .normalize()
+                normals.push(normal.x, normal.y, normal.z)
                 tint.copy(sand)
                 if (definition.sea) tint.lerp(shore, 1 - smoothstep(0, 160, relief))
                 tint.lerp(
@@ -232,6 +269,7 @@ export function build_terrain(THREE, definition, grid, details = []) {
     const geometry = new THREE.BufferGeometry()
     geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3))
     geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3))
+    geometry.setAttribute('normal', new THREE.Float32BufferAttribute(normals, 3))
     geometry.setIndex(indices)
     geometry.computeBoundingSphere()
     const vertex = geometry.attributes.position
@@ -269,7 +307,12 @@ export function build_terrain(THREE, definition, grid, details = []) {
     }
     const mesh = new THREE.Mesh(
         geometry,
-        new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: 1 }),
+        new THREE.MeshStandardMaterial({
+            vertexColors: true,
+            flatShading: false,
+            roughness: 1,
+            fog: false,
+        }),
     )
     mesh.name = 'landscape'
     mesh.castShadow = true

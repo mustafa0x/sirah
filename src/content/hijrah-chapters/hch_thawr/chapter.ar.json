@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "chapter_id": "hch_thawr",
-  "revision": 5,
+  "revision": 6,
   "title_ar": "ثلاث ليال في ثور",
   "reader_question_ar": "من أعان النبي ﷺ وأبا بكر في الغار، وكيف واصلا الرحلة؟",
   "core_ids": [
@@ -52,17 +52,14 @@
   "overview": [
     {
       "paragraph_id": "hch_thawr_overview",
-      "text_ar": "مكث النبي ﷺ وأبو بكر ثلاث ليال في غار بجبل ثور. كان عبد الله بن أبي بكر يحمل إليهما أخبار مكة، ويأتيهما عامر بن فهيرة بالغنم واللبن. ورأى أبو بكر أقدام القوم وخشي أن يراهما أحدهم، فطمأنه النبي ﷺ. وبعد الليالي الثلاث، انطلقا مع عامر والدليل، الذي أخذ بهم طريق السواحل.",
+      "text_ar": "في هذا الفصل نتتبع ثلاث ليالٍ في غار ثور: كيف وصلت الأخبار واللبن إلى النبي ﷺ وأبي بكر، وما جرى حين رأى أبو بكر أقدام القوم، وكيف استعدا لمواصلة الرحلة.",
       "claim_ids": [
         "thawr_stay",
-        "abdullah_pattern",
         "abdullah_news",
         "amir_evening",
         "thawr_exp_fear_bukhari",
-        "appt_link",
-        "appt_time",
-        "appt_companions",
-        "appt_coast"
+        "hire_trust",
+        "appt_link"
       ]
     }
   ],
@@ -140,7 +137,7 @@
   "outline": [
     {
       "point_id": "hch_thawr_outline_stay",
-      "text_ar": "المكث في غار بجبل ثور ثلاث ليال.",
+      "text_ar": "المكث في ثور",
       "claim_ids": [
         "thawr_stay"
       ],
@@ -148,7 +145,7 @@
     },
     {
       "point_id": "hch_thawr_outline_news",
-      "text_ar": "عبد الله بن أبي بكر يبيت عندهما، ويعود إلى مكة، ثم يحمل إليهما الأخبار ليلًا.",
+      "text_ar": "عبد الله وأخبار مكة",
       "claim_ids": [
         "abdullah_pattern",
         "abdullah_news"
@@ -157,7 +154,7 @@
     },
     {
       "point_id": "hch_thawr_outline_milk",
-      "text_ar": "عامر بن فهيرة يأتي بالغنم واللبن في الليالي الثلاث.",
+      "text_ar": "عامر والغنم واللبن",
       "claim_ids": [
         "amir_evening",
         "amir_dawn_and_repetition"
@@ -166,7 +163,7 @@
     },
     {
       "point_id": "hch_thawr_outline_companionship",
-      "text_ar": "أبو بكر يرى أقدام القوم ويخشى أن يراهما أحدهم، فيطمئنه النبي ﷺ.",
+      "text_ar": "أقدام القوم عند الغار",
       "claim_ids": [
         "thawr_exp_fear_bukhari"
       ],
@@ -174,7 +171,7 @@
     },
     {
       "point_id": "hch_thawr_outline_verse",
-      "text_ar": "آية الغار: التطمين ونصر الله.",
+      "text_ar": "التطمين في آية الغار",
       "claim_ids": [
         "caveverse_text_layers"
       ],
@@ -182,7 +179,7 @@
     },
     {
       "point_id": "hch_thawr_outline_onward",
-      "text_ar": "الموعد مع الدليل، ثم الانطلاق مع عامر والدليل في طريق السواحل.",
+      "text_ar": "موعد الدليل ومواصلة الرحلة",
       "claim_ids": [
         "appt_link",
         "appt_time",
@@ -195,82 +192,74 @@
   "in_depth": [
     {
       "section_id": "hch_thawr_depth_time",
-      "title_ar": "ألفاظ الوقت والمكان",
+      "title_ar": "من العشاء إلى السحر والغلس",
       "paragraphs": [
         {
           "paragraph_id": "hch_thawr_depth_time_01",
-          "text_ar": "تحدد رواية عائشة أوقاتًا عامة: السحر والعشاء والغلس. لكنها لا تعطينا ساعات بالدقائق أو تاريخًا تقويميًا للخروج. وتسمّي جبل ثور، دون إحداثيات للغار أو مسار لرعي الغنم.",
+          "text_ar": "العشاء هنا وقت من الليل؛ يأتي عامر بالغنم بعد أن يمضي منه بعض الوقت. أما السَّحَر فآخر الليل قبيل الفجر، وهو وقت خروج عبد الله إلى مكة. والغَلَس أول الصبح مع بقاء الظلام، وفيه ينادي عامر الغنم.",
           "claim_ids": [
+            "amir_evening",
             "abdullah_pattern",
-            "time_precision_limit",
-            "appt_time",
-            "thawr_location_limit"
+            "amir_dawn_and_repetition"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_thawr_depth_vocabulary",
+      "title_ar": "كلمتان يشرحهما الحديث",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_thawr_depth_vocabulary_01",
+          "text_ar": "الرِّسل هو اللبن، كما يفسّره الحديث نفسه. فالكلام هنا عن اللبن الذي توفره الغنم للنبي ﷺ وأبي بكر في مبيتهما.",
+          "claim_ids": [
+            "milk_terms",
+            "amir_evening"
           ]
         },
         {
-          "paragraph_id": "hch_thawr_depth_time_02",
-          "text_ar": "طريق السواحل وصف للطريق الذي أخذ به الدليل رفقته، وليس قائمة بجميع منازل الرحلة. نعرف من هذا الجزء من انطلق معهم وأي طريق أخذوا، لكنه لا يكفي لرسم خريطة مفصلة لمسارهم.",
+          "paragraph_id": "hch_thawr_depth_vocabulary_02",
+          "text_ar": "وفي وصف الدليل كلمة الخِرِّيت، ومعناها الماهر بهداية الطريق. فالحديث لا يكتفي بذكر وجود دليل، بل يصف خبرته في العمل الذي استُؤجر له.",
           "claim_ids": [
-            "appt_companions",
-            "appt_coast"
+            "hire_expertise"
           ]
         }
       ]
     },
     {
       "section_id": "hch_thawr_depth_words",
-      "title_ar": "من يتكلم، وكيف تختلف الألفاظ؟",
+      "title_ar": "خوف واحد بعبارتين",
       "paragraphs": [
         {
           "paragraph_id": "hch_thawr_depth_words_01",
-          "text_ar": "صاحب الكلام في خبر الأقدام هو أبو بكر، وأنس يروي عنه. ويظهر ذلك في بداية خبر البيهقي، حيث يذكر الإسناد أن أبا بكر حدث أنسًا. ويستمر كلام أبي بكر في الصفحة التالية.",
+          "text_ar": "في المقتطف المعروض من البخاري يخشى أبو بكر أن يطأطئ أحد القوم بصره، وفي المقتطف من مسلم يخشى أن ينظر أحدهم إلى قدميه. فالخشية في الخبرين واحدة: أن يراهما أحدهم وهو ينظر إلى أسفل.",
           "claim_ids": [
             "thawr_exp_fear_bukhari",
-            "thawr_exp_fear_chain"
+            "caveverse_text_not_speech"
           ]
         },
         {
           "paragraph_id": "hch_thawr_depth_words_02",
-          "text_ar": "تختلف العبارة المتعلقة بالبصر والقدم: ففي لفظ البخاري طأطأة البصر، وعند البيهقي النظر إلى القدمين، وفي لفظ آخر يورده رفع القدم. يبقى كل لفظ منسوبًا إلى مصدره؛ فجمعها في اقتباس واحد يصنع كلامًا لا تقوله أي قراءة منها بلفظه.",
+          "text_ar": "وصاحب هذه الخشية هو أبو بكر؛ أما أنس فيروي عنه. ثم يأتي جواب النبي ﷺ موجّهًا إلى أبي بكر، فيذكّره بمعية الله في موضع الخوف.",
           "claim_ids": [
             "thawr_exp_fear_bukhari",
-            "thawr_exp_fear_chain"
-          ]
-        }
-      ]
-    },
-    {
-      "section_id": "hch_thawr_depth_verse",
-      "title_ar": "ما الذي تسميه الآية؟",
-      "paragraphs": [
-        {
-          "paragraph_id": "hch_thawr_depth_verse_01",
-          "text_ar": "تذكر الآية الغار والصاحب، ولا تسمي أبا بكر أو جبل ثور أو عدد الليالي. هذه التفاصيل تأتي من الأخبار، وتبقى منسوبة إليها. فلا تضاف إلى نص الآية، كما أن غيابها عنه لا ينفيها من الأخبار.",
-          "claim_ids": [
-            "caveverse_text_names",
-            "thawr_stay"
-          ]
-        },
-        {
-          "paragraph_id": "hch_thawr_depth_verse_02",
-          "text_ar": "الآية في قراءات هذا الفصل مأخوذة من تفسير القرطبي، لا من مصحف قابلناه مقابلة مستقلة. أما حديث مسلم فيرويه أنس عن أبي بكر. يتقارب معنى التطمين في النصين، لكن لكل منهما ألفاظه: أحدهما قرآن، والآخر حديث.",
-          "claim_ids": [
-            "caveverse_text_layers",
             "caveverse_text_not_speech"
           ]
         }
       ]
     },
     {
-      "section_id": "hch_thawr_depth_scope",
-      "title_ar": "حدود المقطع المختار",
+      "section_id": "hch_thawr_depth_verse",
+      "title_ar": "ما الذي تضيفه كل قراءة؟",
       "paragraphs": [
         {
-          "paragraph_id": "hch_thawr_depth_scope_01",
-          "text_ar": "يذكر حديث عائشة المختار الغنم واللبن، ولا يتناول محو آثار الأقدام. عدم ذكر ذلك هنا لا يثبت وقوعه ولا ينفي ورود خبره في مصدر آخر. وفي الحديث يفسَّر الرسل باللبن، أما لفظ الرضيف فمحفوظ في القراءة دون شرح هنا.",
+          "paragraph_id": "hch_thawr_depth_verse_01",
+          "text_ar": "تضع الآية مشهد الغار في سياق نصر الله لنبيه، وتبرز التطمين ومعية الله. وفي حديث عائشة نجد اسم جبل ثور والليالي الثلاث، وهما تفصيلان لا تسميهما الآية. أما حديث أبي بكر فينقل إلينا ما رآه وما قاله وجواب النبي ﷺ له.",
           "claim_ids": [
-            "footprints_fragment_limit",
-            "milk_terms"
+            "caveverse_text_layers",
+            "caveverse_text_names",
+            "thawr_stay",
+            "thawr_exp_fear_bukhari"
           ]
         }
       ]
@@ -361,7 +350,7 @@
     },
     {
       "reading_id": "hch_thawr_read_appointment",
-      "title_ar": "حديث عائشة: الدليل والموعد وتتمته ورفقة الانطلاق",
+      "title_ar": "حديث عائشة: الدليل والموعد والانطلاق",
       "role": "claim_evidence",
       "claim_ids": [
         "hire_expertise",
@@ -389,7 +378,7 @@
     },
     {
       "reading_id": "hch_thawr_read_bayhaqi_fear",
-      "title_ar": "الخبر عند البيهقي: المتكلم وتتمة كلامه واللفظ الآخر",
+      "title_ar": "للمزيد: خبر أبي بكر وألفاظه عند البيهقي",
       "role": "claim_evidence",
       "claim_ids": [
         "thawr_exp_fear_chain"
@@ -450,23 +439,23 @@
       "options": [
         {
           "option_id": "amir",
-          "text_ar": "عامر بن فهيرة",
-          "feedback_ar": "عامر هو صاحب الغنم واللبن في هذا الجزء من الحديث."
+          "text_ar": "عامر بن فهيرة.",
+          "feedback_ar": "عامر هو الذي كان يأتي بالغنم واللبن؛ أما الأخبار فكان يحملها عبد الله بن أبي بكر."
         },
         {
           "option_id": "abdullah",
-          "text_ar": "عبد الله بن أبي بكر",
-          "feedback_ar": "نعم؛ كان يحفظ الأخبار ثم يحملها إليهما."
+          "text_ar": "عبد الله بن أبي بكر.",
+          "feedback_ar": "صحيح؛ كان يحفظ ما يسمعه في مكة ثم يأتيهما بخبره ليلًا."
         },
         {
           "option_id": "guide",
-          "text_ar": "الدليل",
-          "feedback_ar": "واعدا الدليل عند الغار، ثم انطلق معهما؛ ولا ينسب إليه هذا الجزء نقل الأخبار."
+          "text_ar": "الدليل الذي استأجراه.",
+          "feedback_ar": "كان موعد الدليل أن يأتي بالراحلتين، ثم يرشد الرفقة في الطريق؛ أما نقل الأخبار فكان عمل عبد الله."
         }
       ],
       "correct_option_id": "abdullah",
-      "explanation_ar": "كان عبد الله بن أبي بكر يحفظ الأخبار ويحملها إليهما، وعامر يأتي بالغنم واللبن. أما الدليل فواعداه عند الغار، ثم انطلق معهما.",
-      "scope_note_ar": "السؤال عن أدوار الأشخاص في رواية عائشة المعروضة.",
+      "explanation_ar": "كان عبد الله يسمع في مكة ما يدبره قريش، ويحفظه، ثم يعود إلى الغار بالأخبار حين يختلط الظلام.",
+      "scope_note_ar": "كما ترويه عائشة في المقتطف المعروض.",
       "step_id": "hch_thawr",
       "source_unit_ids": [
         "sp_thawr_support:p1",
@@ -482,74 +471,200 @@
       "claim_ids": [
         "amir_evening",
         "amir_dawn_and_repetition",
-        "abdullah_news"
+        "abdullah_news",
+        "hire_trust"
       ],
       "reading_ids": [
-        "hch_thawr_read_support"
+        "hch_thawr_read_support",
+        "hch_thawr_read_appointment"
       ],
       "prompt_ar": "كيف كان عامر بن فهيرة يعين النبي ﷺ وأبا بكر أثناء المكث في الغار؟",
       "options": [
         {
           "option_id": "milk",
-          "text_ar": "رعي الغنم والإتيان بها ليتوفر اللبن",
-          "feedback_ar": "نعم؛ هذا هو العمل الذي تنسبه إليه الرواية."
+          "text_ar": "كان يأتيهما بالغنم التي توفر لهما اللبن.",
+          "feedback_ar": "صحيح؛ كان يرعى الغنم ويأتي بها إليهما ليلًا، ويتكرر ذلك في الليالي الثلاث."
         },
         {
           "option_id": "news",
-          "text_ar": "نقل أخبار قريش عند حلول الظلام",
-          "feedback_ar": "هذه مهمة عبد الله بن أبي بكر في الحديث."
+          "text_ar": "كان يأتيهما بأخبار ما يدبره قريش في مكة.",
+          "feedback_ar": "نقل الأخبار هو عمل عبد الله بن أبي بكر؛ أما عامر فكان يأتي بالغنم واللبن."
         },
         {
-          "option_id": "one_visit",
-          "text_ar": "إحضار الغنم مرة واحدة فقط",
-          "feedback_ar": "تكرر عمله في كل ليلة من الليالي الثلاث، لا مرة واحدة فقط."
+          "option_id": "camels",
+          "text_ar": "كان يحتفظ براحلتيهما إلى موعد الانطلاق.",
+          "feedback_ar": "دفع النبي ﷺ وأبو بكر الراحلتين إلى الدليل؛ أما عامر فكان يعينهما بالغنم واللبن."
         }
       ],
       "correct_option_id": "milk",
-      "explanation_ar": "كان يرعى الغنم ويأتي بها إليهما ليتوفر اللبن. وتكرر عمله في كل ليلة من الليالي الثلاث.",
-      "scope_note_ar": "السؤال عن عمل عامر في حديث عائشة المختار.",
+      "explanation_ar": "كان عامر يأتي بالغنم بعد مضيّ بعض الليل، فيتوفر لهما اللبن، ثم يناديها عند الفجر والظلام باقٍ.",
+      "scope_note_ar": "الدور المذكور هنا من حديث عائشة.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_thawr_support:p1",
+        "sp_guide_bukhari_hire:p1",
+        "sp_guide_bukhari_coast:p1"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_night_and_morning",
+      "difficulty": "intermediate",
+      "objective_id": "thawr_read_timing",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "abdullah_pattern",
+        "abdullah_news"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_support"
+      ],
+      "prompt_ar": "كان عبد الله يصبح بين قريش كأنه بات في مكة. ما الذي حدث في ليلته فعلًا؟",
+      "options": [
+        {
+          "option_id": "makkah_night",
+          "text_ar": "بات في مكة، ثم زار الغار نهارًا وعاد قبل المساء.",
+          "feedback_ar": "كان مبيته عند النبي ﷺ وأبي بكر، لا في مكة؛ ويعود إليهما بالأخبار حين يختلط الظلام."
+        },
+        {
+          "option_id": "evening_return",
+          "text_ar": "بات في الغار، ثم عاد إلى مكة مع حلول الظلام.",
+          "feedback_ar": "عودة المساء هنا في الاتجاه المعاكس: من مكة إلى الغار حاملًا الأخبار."
+        },
+        {
+          "option_id": "cave_night",
+          "text_ar": "بات عندهما في الغار، ثم خرج في السحر ليصبح في مكة.",
+          "feedback_ar": "صحيح؛ ما يبدو لقريش يختلف عما حدث: أصبح بينهم، لكنه قضى ليلته عند النبي ﷺ وأبي بكر."
+        }
+      ],
+      "correct_option_id": "cave_night",
+      "explanation_ar": "وجود عبد الله صباحًا بين قريش يوحي بأنه بات في مكة، مع أنه كان عند النبي ﷺ وأبي بكر ثم خرج في آخر الليل.",
+      "scope_note_ar": "السؤال يصل بين المبيت ليلًا والوجود في مكة صباحًا.",
       "step_id": "hch_thawr",
       "source_unit_ids": [
         "sp_thawr_support:p1"
       ]
     },
     {
-      "question_id": "hch_thawr_q_cycle",
-      "difficulty": "intermediate",
-      "objective_id": "thawr_read_timing",
+      "question_id": "hch_thawr_q_fear",
+      "difficulty": "beginner",
+      "objective_id": "thawr_exp_companionship_objective_1",
       "practice_scope": "lesson",
       "claim_ids": [
-        "abdullah_pattern",
-        "abdullah_news",
-        "time_precision_limit",
-        "amir_dawn_and_repetition"
+        "thawr_exp_fear_bukhari"
       ],
       "reading_ids": [
-        "hch_thawr_read_support"
+        "hch_thawr_read_bukhari_fear"
       ],
-      "prompt_ar": "أي ترتيب يصف حركة عبد الله بين الغار ومكة؟",
+      "prompt_ar": "ما الذي خشيه أبو بكر حين رأى أقدام القوم عند الغار؟",
       "options": [
         {
-          "option_id": "day",
-          "text_ar": "يبقى معهما طوال النهار، ثم يصبح بين قريش من غير عودة إلى مكة.",
-          "feedback_ar": "كان يخرج من عندهما ويصبح بين قريش في مكة."
+          "option_id": "guide_late",
+          "text_ar": "أن يتأخر الدليل عن موعده بالراحلتين.",
+          "feedback_ar": "الموعد مع الدليل جزء آخر من القصة؛ خوف أبي بكر هنا متعلق بأن يراهما القوم."
         },
         {
-          "option_id": "clock",
-          "text_ar": "يخرج في ساعة حديثة محددة بالدقائق، كما يثبتها النص.",
-          "feedback_ar": "الحديث يذكر السحر، ولا يحدد ساعة بالدقائق."
+          "option_id": "discovery",
+          "text_ar": "أن يراهما أحد القوم إذا خفض بصره.",
+          "feedback_ar": "صحيح؛ فقد رأى أقدامهم، وخشي أن يكشفهما نظر أحدهم إلى أسفل."
         },
         {
-          "option_id": "cycle",
-          "text_ar": "يبيت عندهما، ويصبح مع قريش بمكة، ويأتيهما بالأخبار حين يختلط الظلام.",
-          "feedback_ar": "نعم؛ هذا ترتيب المبيت والعودة وحمل الأخبار في الحديث."
+          "option_id": "news_stops",
+          "text_ar": "أن ينقطع عنهما خبر ما يجري في مكة.",
+          "feedback_ar": "نقل الأخبار من عمل عبد الله؛ أما هذا المشهد فيتعلق بخطر أن يراهما أحد القوم."
         }
       ],
-      "correct_option_id": "cycle",
-      "explanation_ar": "يبيت عندهما، ويصبح بين قريش في مكة، ثم يحمل إليهما الأخبار حين يختلط الظلام.",
-      "scope_note_ar": "الأوقات هنا كما وردت في حديث عائشة، دون تحديد ساعات بالدقائق.",
+      "correct_option_id": "discovery",
+      "explanation_ar": "حين رأى أبو بكر أقدام القوم، خشي أن ينظر أحدهم إلى أسفل فيراهما. وجاءه جواب النبي ﷺ مطمئنًا بأنهما اثنان الله ثالثهما.",
+      "scope_note_ar": "بحسب خبر أبي بكر الذي يرويه أنس عند البخاري.",
       "step_id": "hch_thawr",
       "source_unit_ids": [
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p3"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_reassurance",
+      "difficulty": "intermediate",
+      "objective_id": "hc_caveverse_text_objective_1",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "caveverse_text_layers",
+        "thawr_exp_fear_bukhari"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_verse",
+        "hch_thawr_read_bukhari_fear"
+      ],
+      "prompt_ar": "أي مقارنة تصف التطمين في الآية وحديث البخاري الواردين في القصة؟",
+      "options": [
+        {
+          "option_id": "distinct_words",
+          "text_ar": "كلاهما يذكّر بمعية الله؛ الآية تنهى عن الحزن، والحديث يذكر أن الله ثالثهما.",
+          "feedback_ar": "صحيح؛ يتقارب معنى التطمين، وتختلف العبارة التي يؤدي بها كل نص هذا المعنى."
+        },
+        {
+          "option_id": "reversed_words",
+          "text_ar": "كلاهما يذكّر بمعية الله؛ الآية تذكر أن الله ثالثهما، والحديث ينهى عن الحزن.",
+          "feedback_ar": "عُكست العبارتان: النهي عن الحزن في الآية، وذكر الاثنين اللذين الله ثالثهما في الحديث."
+        },
+        {
+          "option_id": "identical_words",
+          "text_ar": "كلاهما يذكّر بمعية الله؛ الآية والحديث يستعملان عبارة التطمين نفسها.",
+          "feedback_ar": "المعنى متقارب، لكن العبارة مختلفة؛ قارن النهي عن الحزن بذكر الاثنين اللذين الله ثالثهما."
+        }
+      ],
+      "correct_option_id": "distinct_words",
+      "explanation_ar": "تؤكد الآية معية الله مع النهي عن الحزن. وفي الحديث يطمئن النبي ﷺ أبا بكر بأنهما اثنان الله ثالثهما. فهما نصان مختلفان يجتمعان في معنى التطمين.",
+      "scope_note_ar": "المقارنة بين عبارتي التطمين المعروضتين في القصة.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_caveverse_qurtubi_verse:p1",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p3"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_onward",
+      "difficulty": "intermediate",
+      "objective_id": "guide_appointment_scope",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "appt_companions",
+        "appt_coast",
+        "hire_expertise",
+        "abdullah_news"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_appointment",
+        "hch_thawr_read_support"
+      ],
+      "prompt_ar": "أي وصف يوافق انطلاق النبي ﷺ وأبي بكر من الغار؟",
+      "options": [
+        {
+          "option_id": "abdullah_guide",
+          "text_ar": "انطلق معهما عبد الله بن أبي بكر والدليل، وسلك بهم الدليل طريق السواحل.",
+          "feedback_ar": "تذكر تتمة حديث عائشة عامر بن فهيرة مع الدليل، لا عبد الله بن أبي بكر."
+        },
+        {
+          "option_id": "amir_leads",
+          "text_ar": "انطلق معهما عامر بن فهيرة والدليل، وتولى عامر إرشاد الرفقة في الطريق.",
+          "feedback_ar": "عامر من الرفقة، لكن الذي أخذ بهم الطريق هو الدليل."
+        },
+        {
+          "option_id": "company",
+          "text_ar": "انطلق معهما عامر بن فهيرة والدليل، وسلك بهم الدليل طريق السواحل.",
+          "feedback_ar": "صحيح؛ يذكر الخبر رفقة الانطلاق، ثم يبين أن الدليل أخذ بهم طريق السواحل."
+        }
+      ],
+      "correct_option_id": "company",
+      "explanation_ar": "خرج مع النبي ﷺ وأبي بكر عامر بن فهيرة والدليل. وكان الدليل هو الذي قاد الرفقة في طريق السواحل.",
+      "scope_note_ar": "بحسب تتمة حديث عائشة في قراءة الدليل والانطلاق.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_guide_bukhari_hire:p1",
+        "sp_guide_bukhari_coast:p1",
         "sp_thawr_support:p1"
       ]
     },
@@ -565,27 +680,27 @@
       "reading_ids": [
         "hch_thawr_read_appointment"
       ],
-      "prompt_ar": "أين ومتى كان الموعد مع الدليل؟ استعن ببداية الحديث وتتمته.",
+      "prompt_ar": "اقرأ مقطع استئجار الدليل وتتمته: أين ومتى اتفقا أن يأتي بالراحلتين؟",
       "options": [
         {
+          "option_id": "makkah",
+          "text_ar": "في مكة صباحًا بعد الليالي الثلاث.",
+          "feedback_ar": "التتمة تسمي غار ثور مكانًا للموعد، لا مكة."
+        },
+        {
+          "option_id": "same_night",
+          "text_ar": "عند غار ثور في ليلة الاستئجار نفسها.",
+          "feedback_ar": "الموعد بعد ثلاث ليال، لا في ليلة الاستئجار نفسها."
+        },
+        {
           "option_id": "joined",
-          "text_ar": "عند غار ثور، بعد ثلاث ليال، بالراحلتين في الصباح.",
-          "feedback_ar": "نعم؛ الجزء الثاني يكمل مكان الموعد ووقته."
-        },
-        {
-          "option_id": "separate",
-          "text_ar": "لكل جزء موعد مختلف لا علاقة له بالآخر.",
-          "feedback_ar": "الجزء الثاني يكمل الجملة في الحديث نفسه، لا موعدًا آخر."
-        },
-        {
-          "option_id": "date",
-          "text_ar": "في تاريخ تقويمي وساعة محددة بالدقائق.",
-          "feedback_ar": "ذكر الصباح وثلاث ليال لا يحدد هنا تاريخًا تقويميًا أو ساعة بالدقائق."
+          "text_ar": "عند غار ثور صباحًا بعد الليالي الثلاث.",
+          "feedback_ar": "صحيح؛ تتصل نهاية مقطع الاستئجار بتتمته، فيتضح مكان الموعد ووقته."
         }
       ],
       "correct_option_id": "joined",
-      "explanation_ar": "تكمل الجملة في الجزء الثاني الموعد المذكور في الأول: غار ثور بعد ثلاث ليال، بالراحلتين في الصباح.",
-      "scope_note_ar": "اقرأ بداية الجملة وتتمتها معًا لفهم الموعد.",
+      "explanation_ar": "تبدأ جملة الموعد في مقطع الاستئجار، وتتم في المقطع التالي بذكر غار ثور والثلاث ليال والإتيان بالراحلتين صباحًا.",
+      "scope_note_ar": "المقطعان متتابعان من حديث عائشة نفسه.",
       "step_id": "hch_thawr",
       "source_unit_ids": [
         "sp_guide_bukhari_hire:p1",
@@ -593,205 +708,126 @@
       ]
     },
     {
-      "question_id": "hch_thawr_q_onward",
-      "difficulty": "intermediate",
-      "objective_id": "guide_appointment_scope",
-      "practice_scope": "lesson",
+      "question_id": "hch_thawr_q_compare_fear",
+      "difficulty": "expert",
+      "objective_id": "thawr_exp_companionship_objective_1",
+      "practice_scope": "source_study",
       "claim_ids": [
-        "appt_companions",
-        "appt_coast"
-      ],
-      "reading_ids": [
-        "hch_thawr_read_appointment"
-      ],
-      "prompt_ar": "ماذا يخبرنا حديث عائشة عن الانطلاق من الغار؟",
-      "options": [
-        {
-          "option_id": "alone",
-          "text_ar": "انطلق النبي ﷺ وأبو بكر وحدهما، من غير عامر أو دليل.",
-          "feedback_ar": "كان معهما عامر بن فهيرة والدليل."
-        },
-        {
-          "option_id": "company",
-          "text_ar": "انطلق معهما عامر بن فهيرة والدليل، وأخذ الدليل بهم طريق السواحل.",
-          "feedback_ar": "نعم؛ هذا ما تقوله التتمة عن الرفقة والطريق."
-        },
-        {
-          "option_id": "map",
-          "text_ar": "تحدد القطعة جميع منازل الطريق وإحداثياتها.",
-          "feedback_ar": "تذكر طريق السواحل، لا قائمة بكل المنازل أو إحداثياتها."
-        }
-      ],
-      "correct_option_id": "company",
-      "explanation_ar": "انطلق معهما عامر بن فهيرة والدليل، وأخذ الدليل بهم طريق السواحل. هذا وصف للرفقة والطريق، لا خريطة لجميع المنازل.",
-      "scope_note_ar": "السؤال عن تتمة حديث عائشة المعروضة.",
-      "step_id": "hch_thawr",
-      "source_unit_ids": [
-        "sp_guide_bukhari_hire:p1",
-        "sp_guide_bukhari_coast:p1"
-      ]
-    },
-    {
-      "question_id": "hch_thawr_q_voices",
-      "difficulty": "intermediate",
-      "objective_id": "hc_caveverse_text_objective_1",
-      "practice_scope": "lesson",
-      "claim_ids": [
-        "caveverse_text_layers",
+        "thawr_exp_fear_bukhari",
         "caveverse_text_not_speech"
       ],
       "reading_ids": [
+        "hch_thawr_read_bukhari_fear",
+        "hch_thawr_read_muslim_fear"
+      ],
+      "prompt_ar": "من صاحب مشهد الأقدام، ومن يرويه عنه؟ وأي عبارة وردت في كل مقتطف من البخاري ومسلم؟",
+      "options": [
+        {
+          "option_id": "reversed_narrators",
+          "text_ar": "أبو بكر يروي عن أنس؛ في البخاري طأطأة البصر، وفي مسلم النظر إلى القدمين.",
+          "feedback_ar": "عُكست صلة الرواية: أبو بكر صاحب المشهد، وأنس يروي عنه، لا العكس."
+        },
+        {
+          "option_id": "shared_fear",
+          "text_ar": "أنس يروي عن أبي بكر؛ في البخاري طأطأة البصر، وفي مسلم النظر إلى القدمين.",
+          "feedback_ar": "صحيح؛ أبو بكر صاحب المشهد، وأنس يروي عنه. ويختلف لفظ النظر بين المقتطفين."
+        },
+        {
+          "option_id": "reversed",
+          "text_ar": "أنس يروي عن أبي بكر؛ في البخاري النظر إلى القدمين، وفي مسلم طأطأة البصر.",
+          "feedback_ar": "صلة الرواية صحيحة، لكن اللفظين عُكسا: طأطأة البصر في مقتطف البخاري، والنظر إلى القدمين في مقتطف مسلم."
+        }
+      ],
+      "correct_option_id": "shared_fear",
+      "explanation_ar": "في المقتطف من البخاري يذكر أبو بكر طأطأة البصر، وفي المقتطف من مسلم النظر إلى القدمين. وهو صاحب المشهد الذي يرويه أنس عنه؛ والخشية في كليهما أن يراهما أحد القوم.",
+      "scope_note_ar": "المقارنة تخص هذين المقتطفين، لا جميع ألفاظ الخبر في الكتابين.",
+      "step_id": "hch_thawr",
+      "source_unit_ids": [
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
+        "sp_thawr_exp_h_1681_5914_hs_cave_1:p3",
+        "sp_caveverse_muslim:p1",
+        "sp_caveverse_muslim:p2",
+        "sp_caveverse_qurtubi_verse:p1"
+      ]
+    },
+    {
+      "question_id": "hch_thawr_q_names",
+      "difficulty": "intermediate",
+      "objective_id": "hc_caveverse_text_objective_2",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "caveverse_text_names",
+        "thawr_stay",
+        "caveverse_text_not_speech"
+      ],
+      "reading_ids": [
+        "hch_thawr_read_support",
         "hch_thawr_read_verse",
         "hch_thawr_read_muslim_fear"
       ],
-      "prompt_ar": "كيف تختلف آية الغار عن حديث أبي بكر عند مسلم؟",
+      "prompt_ar": "أي نص من النصوص المعروضة يذكر اسم الجبل ومدة المكث معًا؟",
       "options": [
         {
-          "option_id": "replace",
-          "text_ar": "يجوز أن نضع جواب النبي في الحديث بدل ألفاظ الآية.",
-          "feedback_ar": "لا تستبدل ألفاظ القرآن بألفاظ الحديث؛ لكل نص لفظه."
+          "option_id": "sources",
+          "text_ar": "حديث عائشة عند البخاري.",
+          "feedback_ar": "صحيح؛ يسمي جبل ثور ويذكر المكث ثلاث ليال."
         },
         {
-          "option_id": "eyewitness",
-          "text_ar": "الحديث وصف لما شاهده أنس بنفسه في الغار.",
-          "feedback_ar": "أنس يروي عن أبي بكر، ولا يقول هنا إنه شاهد الغار بنفسه."
+          "option_id": "verse",
+          "text_ar": "آية الغار.",
+          "feedback_ar": "تذكر الآية الغار والصاحب، لكنها لا تسمي الجبل ولا تحدد مدة المكث."
         },
         {
-          "option_id": "distinct",
-          "text_ar": "الآية قرآن، والحديث خبر يرويه أنس عن أبي بكر؛ لكل منهما لفظه.",
-          "feedback_ar": "نعم؛ نميز نوع النص وصاحبه، ولا نمزج الألفاظ."
+          "option_id": "muslim",
+          "text_ar": "حديث أبي بكر عند مسلم.",
+          "feedback_ar": "هذا المقتطف يصف الأقدام والخشية وجواب النبي ﷺ، ولا يذكر اسم الجبل ومدة المكث."
         }
       ],
-      "correct_option_id": "distinct",
-      "explanation_ar": "الآية قرآن منقول في التفسير، والحديث يرويه أنس عن أبي بكر. لكل نص ألفاظه، حتى حين يتقارب معنى التطمين فيهما.",
-      "scope_note_ar": "نقل الآية هنا من تفسير القرطبي، وليس مصحفًا قابلناه مقابلة مستقلة.",
+      "correct_option_id": "sources",
+      "explanation_ar": "تجمع رواية عائشة في المقتطف المعروض بين اسم جبل ثور والليالي الثلاث. أما الآية فتذكر الغار من غير هذين التفصيلين.",
+      "scope_note_ar": "السؤال عن النصوص المعروضة هنا، لا عن جميع روايات الكتاب.",
       "step_id": "hch_thawr",
       "source_unit_ids": [
+        "sp_thawr_support:p1",
         "sp_caveverse_qurtubi_verse:p1",
         "sp_caveverse_muslim:p1",
         "sp_caveverse_muslim:p2"
       ]
     },
     {
-      "question_id": "hch_thawr_q_speaker",
-      "difficulty": "expert",
-      "objective_id": "thawr_exp_companionship_objective_1",
-      "practice_scope": "source_study",
-      "claim_ids": [
-        "thawr_exp_fear_bukhari",
-        "thawr_exp_fear_chain"
-      ],
-      "reading_ids": [
-        "hch_thawr_read_bukhari_fear",
-        "hch_thawr_read_bayhaqi_fear"
-      ],
-      "prompt_ar": "من صاحب الكلام في خبر الأقدام، وكيف نتعامل مع اختلاف ألفاظه؟",
-      "options": [
-        {
-          "option_id": "anas",
-          "text_ar": "أنس يصف ما شاهده في الغار؛ ويمكن جمع الألفاظ في اقتباس واحد.",
-          "feedback_ar": "أنس ينقل عن أبي بكر، وجمع الألفاظ يصنع اقتباسًا جديدًا."
-        },
-        {
-          "option_id": "abubakr",
-          "text_ar": "أبو بكر يتحدث، وأنس يروي عنه؛ ونبقي كل لفظ مع مصدره.",
-          "feedback_ar": "نعم؛ هذا يحفظ صاحب الكلام والفرق بين الألفاظ."
-        },
-        {
-          "option_id": "identical",
-          "text_ar": "الألفاظ متطابقة في جميع القراءات.",
-          "feedback_ar": "تختلف العبارات بين طأطأة البصر والنظر إلى القدمين ورفع القدم."
-        }
-      ],
-      "correct_option_id": "abubakr",
-      "explanation_ar": "أبو بكر هو صاحب الكلام، وأنس يروي عنه. وتختلف عبارات البصر والقدم، فلا نجمعها في اقتباس واحد ننسبه إلى مصدر بعينه.",
-      "scope_note_ar": "قارن بداية الخبر وتتمته واللفظ الآخر، مع قراءة الإسناد.",
-      "step_id": "hch_thawr",
-      "source_unit_ids": [
-        "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
-        "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
-        "sp_thawr_exp_h_1681_5914_hs_cave_1:p3",
-        "sp_thawr_exp_h_7478_1001_ra_third:p1",
-        "sp_thawr_exp_h_7478_1001_ra_third:p2",
-        "sp_thawr_exp_h_7478_1002_ra_third:p1",
-        "sp_thawr_exp_h_7478_1002_ra_third:p2",
-        "sp_thawr_exp_h_7478_1002_ra_third_variant:p1",
-        "sp_thawr_exp_h_7478_1002_ra_third_variant:p2",
-        "sp_thawr_exp_h_7478_1002_ra_third_variant:p3"
-      ]
-    },
-    {
-      "question_id": "hch_thawr_q_names",
-      "difficulty": "expert",
-      "objective_id": "hc_caveverse_text_objective_2",
-      "practice_scope": "source_study",
-      "claim_ids": [
-        "caveverse_text_names",
-        "thawr_stay"
-      ],
-      "reading_ids": [
-        "hch_thawr_read_verse",
-        "hch_thawr_read_support"
-      ],
-      "prompt_ar": "كيف نعرف اسم الجبل وعدد الليالي، مع أن الآية لا تذكرهما؟",
-      "options": [
-        {
-          "option_id": "reject",
-          "text_ar": "غيابهما عن الآية ينفي خبر عائشة عن المكان والمدة.",
-          "feedback_ar": "عدم ذكر التفصيل في الآية لا ينفيه من الأخبار."
-        },
-        {
-          "option_id": "insert",
-          "text_ar": "نضيف اسم الجبل وعدد الليالي داخل نص الآية لتكتمل القصة.",
-          "feedback_ar": "التفاصيل من الخبر لا تضاف إلى نص الآية."
-        },
-        {
-          "option_id": "sources",
-          "text_ar": "من رواية عائشة، مع إبقاء نص الآية دون إضافة.",
-          "feedback_ar": "نعم؛ تنسب كل معلومة إلى مصدرها، ولا تغير الاقتباس."
-        }
-      ],
-      "correct_option_id": "sources",
-      "explanation_ar": "تسمي رواية عائشة جبل ثور وتذكر ثلاث ليال. أما الآية فتذكر الغار والصاحب دون هذين التفصيلين؛ يبقى كل نص بلفظه.",
-      "scope_note_ar": "غياب تفصيل عن الآية لا ينفيه من الأخبار، ولا يجيز إضافته إلى نصها.",
-      "step_id": "hch_thawr",
-      "source_unit_ids": [
-        "sp_caveverse_qurtubi_verse:p1",
-        "sp_thawr_support:p1"
-      ]
-    },
-    {
-      "question_id": "hch_thawr_q_scope",
+      "question_id": "hch_thawr_q_flock_inference",
       "difficulty": "expert",
       "objective_id": "thawr_fragment_scope",
       "practice_scope": "source_study",
       "claim_ids": [
-        "footprints_fragment_limit"
+        "footprints_fragment_limit",
+        "amir_evening"
       ],
       "reading_ids": [
         "hch_thawr_read_support"
       ],
-      "prompt_ar": "حديث عائشة المختار لا يذكر محو آثار الأقدام. ماذا نستنتج من ذلك؟",
+      "prompt_ar": "هل يكفي ذكر الغنم واللبن في المقتطف المعروض لإثبات أن عامرًا كان يمحو آثار الأقدام؟",
       "options": [
         {
-          "option_id": "local",
-          "text_ar": "أنه غير مذكور هنا؛ ولا يكفي ذلك للحكم على بقية المصادر.",
-          "feedback_ar": "نعم؛ نحكم على حدود الجزء المعروض، لا على جميع النقول."
+          "option_id": "inferred_purpose",
+          "text_ar": "نعم؛ فذكر رعي الغنم يبيّن أن هذا كان الغرض من إحضارها.",
+          "feedback_ar": "ذكر الغنم وحده لا يثبت هذا الغرض؛ المقتطف يذكر ما توفره من اللبن، ولا يتناول محو الآثار."
         },
         {
-          "option_id": "never",
-          "text_ar": "أن خبر محو الآثار لا يوجد في أي مصدر.",
-          "feedback_ar": "الجزء الواحد لا يكفي لنفي الخبر من جميع المصادر."
+          "option_id": "silence_denies",
+          "text_ar": "لا؛ فعدم ذكر محو الآثار يثبت أنه لم يحدث.",
+          "feedback_ar": "عدم ذكر تفصيل في مقتطف لا يثبت أنه لم يحدث؛ قد تتناوله نصوص أخرى."
         },
         {
-          "option_id": "proved",
-          "text_ar": "أن محو الآثار وقع، رغم أن الجزء لا يذكره.",
-          "feedback_ar": "غياب التفصيل ليس دليلًا على وقوعه."
+          "option_id": "needs_evidence",
+          "text_ar": "لا؛ فالمقتطف يذكر اللبن، ويحتاج خبر محو الآثار إلى دليل آخر.",
+          "feedback_ar": "صحيح؛ يثبت المقتطف أمر اللبن، ولا يكفي وحده لإثبات محو الآثار أو نفيه."
         }
       ],
-      "correct_option_id": "local",
-      "explanation_ar": "نستنتج أن هذا الجزء لا يذكر التفصيل. ولا يكفي غيابه هنا لإثباته أو للحكم بأنه لم يرد في مصدر آخر.",
-      "scope_note_ar": "السؤال عمّا يسمح به هذا الجزء، لا عن ثبوت خبر محو الآثار أو نفيه.",
+      "correct_option_id": "needs_evidence",
+      "explanation_ar": "نستدل بهذا المقتطف على الإتيان بالغنم وتوفر اللبن. أما محو الآثار فليس مذكورًا فيه؛ وللبحث فيه نحتاج إلى نص يتناوله.",
+      "scope_note_ar": "احكم على دلالة هذا المقتطف وحده، لا على ثبوت الخبر في جميع المصادر.",
       "step_id": "hch_thawr",
       "source_unit_ids": [
         "sp_thawr_support:p1"
@@ -806,12 +842,12 @@
         "hch_thawr_stay_01"
       ],
       "blocking": false,
-      "note_ar": "هذه حلقة مبنية على رواية عائشة في الثلاث؛ ليست جمعًا لجميع أخبار مدد الغار. تبقى مقارنة المدد الأخرى خارج نطاق هذا المثال، ولا تحول الثلاث إلى تاريخ تقويمي."
+      "note_ar": "يعتمد هذا الفصل رواية عائشة في الليالي الثلاث، ولا يستوعب جميع أخبار الغار أو يعيّن تاريخًا تقويميًا للخروج."
     },
     {
       "issue_id": "hch_thawr_issue_radif",
       "affected_ids": [
-        "hch_thawr_depth_scope_01",
+        "hch_thawr_depth_vocabulary_01",
         "hch_thawr_read_support"
       ],
       "blocking": false,
@@ -3223,20 +3259,20 @@
       ]
     }
   ],
-  "packet_id": "hch_thawr:ar:r5",
+  "packet_id": "hch_thawr:ar:r6",
   "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
-  "source_document_sha256": "b367349928f4d5ecc87dbec9a73689b23456de427b2baf510f74ff707eb54a5c",
+  "source_document_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812",
   "question_type": "single_choice",
   "review": {
     "arabic_compared": true,
-    "summary_ar": "راجعت المراجعة الخامسة بوصفها إعادة كتابة للقصة في ثلاثة مقاطع مترابطة، بعد قراءة سياق الهجرة في الرحيق المختوم، الصفحات الرقمية ١٤٤–١٥٥، وفي سيرة الندوي، الصفحات الرقمية ٢١٥–٢٣٥ حتى حد الفصل التالي. استفادت الصياغة من ترتيب السرد وإيقاعه، ولم تتخذ الكتابين بديلًا عن شواهد الفصل. قورنت الفقرات الست المعدلة مع دعاواها ومقاطعها الأصلية: الاختباء والمبيت والأخبار والغنم، وخبر الأقدام، وآية الغار، واستئجار الدليل والموعد والانطلاق. نُقلت العبارات الثلاث المقتبسة من مقاطع البخاري والقرطبي حرفيًا، وتحقق تطابقها مع أجزاء المصادر المرتبطة بكل فقرة، دون دمج ألفاظ الروايات أو تعيين ليلة لمشهد الأقدام. أُعيد توجيه روابط المخطط إلى الأقسام المدمجة. لم تتغير الدعاوى المرجعية أو النصوص المصدرية وبياناتها أو القراءات أو النظرة العامة أو التعمق أو الأسئلة وأجوبتها؛ تبقى مراجعة عرض هذه الأجزاء وأسلوبها عملًا لاحقًا. هذه مقارنة تحريرية داخلية محدودة للمادة المعدلة، لا اعتماد لغوي أو تخصصي مستقل، ولا مقابلة مستقلة للمصحف، ولا شهادة باكتمال أخبار الغار أو دمج الواجهة أو جواز النشر.",
+    "summary_ar": "راجعت المراجعة السادسة للمادة المحيطة بالقصة، مع إبقاء نص القصة العربية وترجمتها الإنجليزية دون تغيير. اختُصرت النظرة العامة والمخطط لوظيفتي التمهيد والتنقل، وصارت الشروح تبيّن ألفاظ الوقت واللبن والدليل وتقارن عبارة الخشية عند البخاري ومسلم وما تضيفه القراءات. قورنت الشروح والخيارات الصحيحة وتفسيرات الإجابات بدعاواها ومقاطعها المختارة؛ صار الاختبار عشرة أسئلة: ستة على القصة وأربعة اختيارية لقراءة المصادر، وفيها الخوف والتطمين والتمييز بين صاحب المشهد وراويه واختلاف اللفظ. أُصلح سؤال المقارنة بعد ملاحظة أن صيغته الأولى كانت تعطي هوية المتكلم والراوي في السؤال. بقيت سجلات Core وحزم المصادر وأجزاؤها الستة عشر بنصوصها وهوياتها وإزاحاتها دون تغيير. تنقية الوسوم وفك رموز التنسيق خاصان بعرض القراءة، مع إبقاء كل أصل رقمي حرفيًا في قسم قابل للفتح وفصل الإسناد والحديث والقرآن والتخريج. هذه مقارنة تحريرية داخلية للمادة المعدلة، لا اعتماد لغوي أو تخصصي مستقل، ولا مقابلة مستقلة للمصحف، ولا شهادة باكتمال أخبار الغار أو النسخة الإنجليزية أو دمج الواجهة أو جواز النشر.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false
   },
   "last_accepted": {
-    "revision": 5,
-    "source_document_sha256": "b367349928f4d5ecc87dbec9a73689b23456de427b2baf510f74ff707eb54a5c"
+    "revision": 6,
+    "source_document_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812"
   },
   "source_units": [
     {
@@ -3507,14 +3543,11 @@
       ],
       "claim_ids": [
         "thawr_stay",
-        "abdullah_pattern",
         "abdullah_news",
         "amir_evening",
         "thawr_exp_fear_bukhari",
-        "appt_link",
-        "appt_time",
-        "appt_companions",
-        "appt_coast"
+        "hire_trust",
+        "appt_link"
       ],
       "source_refs": [
         {
@@ -3569,7 +3602,11 @@
         },
         {
           "target_type": "paragraph",
-          "target_id": "hch_thawr_depth_scope_01"
+          "target_id": "hch_thawr_depth_time_01"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_depth_vocabulary_01"
         }
       ],
       "claim_ids": [
@@ -3578,7 +3615,6 @@
         "abdullah_news",
         "amir_evening",
         "amir_dawn_and_repetition",
-        "footprints_fragment_limit",
         "milk_terms"
       ],
       "source_refs": [
@@ -3681,10 +3717,6 @@
         {
           "target_type": "paragraph",
           "target_id": "hch_thawr_onward_02"
-        },
-        {
-          "target_type": "paragraph",
-          "target_id": "hch_thawr_depth_time_02"
         }
       ],
       "claim_ids": [
@@ -3701,28 +3733,19 @@
       ]
     },
     {
-      "footnote_id": "hch_thawr_fn_fa96a9f3236ceccd36a5ef6f3879a588d9992857bbf956f26e905ab2ca321337",
+      "footnote_id": "hch_thawr_fn_dbcefce904b5367a98cbee1570a487e43629c59ec7c8d6fb134edcd0dfa197e7",
       "targets": [
         {
           "target_type": "paragraph",
-          "target_id": "hch_thawr_depth_time_01"
+          "target_id": "hch_thawr_depth_vocabulary_02"
         }
       ],
       "claim_ids": [
-        "abdullah_pattern",
-        "time_precision_limit",
-        "appt_time",
-        "thawr_location_limit"
+        "hire_expertise"
       ],
       "source_refs": [
         {
-          "packet_id": "sp_thawr_support",
-          "part_ids": [
-            "p1"
-          ]
-        },
-        {
-          "packet_id": "sp_guide_bukhari_coast",
+          "packet_id": "sp_guide_bukhari_hire",
           "part_ids": [
             "p1"
           ]
@@ -3730,7 +3753,7 @@
       ]
     },
     {
-      "footnote_id": "hch_thawr_fn_c88db40378a8a2eb3c761baa1d1600356ca736cfb76bcf361580de087fe3013b",
+      "footnote_id": "hch_thawr_fn_ac6177e83e1b7dfaadd9d6edbb2ff840a5d256ad3b7f997078cd721d70fc5561",
       "targets": [
         {
           "target_type": "paragraph",
@@ -3743,7 +3766,7 @@
       ],
       "claim_ids": [
         "thawr_exp_fear_bukhari",
-        "thawr_exp_fear_chain"
+        "caveverse_text_not_speech"
       ],
       "source_refs": [
         {
@@ -3754,30 +3777,22 @@
           ]
         },
         {
-          "packet_id": "sp_thawr_exp_h_7478_1001_ra_third",
+          "packet_id": "sp_caveverse_muslim",
           "part_ids": [
             "p1",
             "p2"
           ]
         },
         {
-          "packet_id": "sp_thawr_exp_h_7478_1002_ra_third",
+          "packet_id": "sp_caveverse_qurtubi_verse",
           "part_ids": [
-            "p1",
-            "p2"
-          ]
-        },
-        {
-          "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
-          "part_ids": [
-            "p1",
-            "p2"
+            "p1"
           ]
         }
       ]
     },
     {
-      "footnote_id": "hch_thawr_fn_de2c51293661bbc887025ee644e31e25a0b3fa0d62fb17b3f16b4f6f341c50ff",
+      "footnote_id": "hch_thawr_fn_3ed10d13256bd36cb811a44c9f8355b82e02b20a42acff3985ca8c168e0036d1",
       "targets": [
         {
           "target_type": "paragraph",
@@ -3785,8 +3800,10 @@
         }
       ],
       "claim_ids": [
+        "caveverse_text_layers",
         "caveverse_text_names",
-        "thawr_stay"
+        "thawr_stay",
+        "thawr_exp_fear_bukhari"
       ],
       "source_refs": [
         {
@@ -3800,30 +3817,9 @@
           "part_ids": [
             "p1"
           ]
-        }
-      ]
-    },
-    {
-      "footnote_id": "hch_thawr_fn_d9dd0eb566b43604325a4ca741b67bc725a8ba3d473a807f77578622b20aa7d5",
-      "targets": [
-        {
-          "target_type": "paragraph",
-          "target_id": "hch_thawr_depth_verse_02"
-        }
-      ],
-      "claim_ids": [
-        "caveverse_text_layers",
-        "caveverse_text_not_speech"
-      ],
-      "source_refs": [
-        {
-          "packet_id": "sp_caveverse_qurtubi_verse",
-          "part_ids": [
-            "p1"
-          ]
         },
         {
-          "packet_id": "sp_caveverse_muslim",
+          "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
           "part_ids": [
             "p1",
             "p2"

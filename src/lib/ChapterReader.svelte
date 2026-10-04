@@ -1,10 +1,11 @@
 <script>
-    // The chapter reader. Chapters are Arabic for now, so its own wording is Arabic too.
+    // Localized wording is separate from the unchanged Arabic source evidence.
     import { onMount, tick } from 'svelte'
     import { journey_href } from './journey-links.js'
     const { route } = window.navgo
     import { fade, fly } from 'svelte/transition'
-    import { citation, display_text, part_role } from './chapters.svelte.js'
+    import { catalog, chapter_title, citation, display_text, part_role } from './chapters.svelte.js'
+    import { reading_for_note, reading_groups } from './chapter-editions.js'
     import {
         create_practice,
         current_question,
@@ -31,12 +32,11 @@
     let lit = $derived(destination.tab === 'readings' ? [destination.target_id] : [])
 
     const tabs = [
-        ['story', 'القصة'],
-        ['sources', 'المصادر'],
-        ['practice', 'اختبر فهمك'],
+        ['story', 'Story'],
+        ['sources', 'Sources'],
+        ['practice', 'Check your understanding'],
     ]
 
-    let units = $derived(new Map((chapter?.source_units ?? []).map((unit) => [unit.unit_id, unit])))
     // Footnote number for each paragraph or outline point, in reading order.
     let notes = $derived.by(() => {
         const map = new Map()
@@ -47,33 +47,7 @@
         return map
     })
 
-    // Each reading as display blocks; a packet already shown in an earlier reading is not
-    // repeated in full.
-    let readings = $derived.by(() => {
-        const seen = new Set()
-        return (chapter?.readings ?? []).map((reading) => {
-            const blocks = []
-            for (const ref of reading.source_refs) {
-                if (seen.has(ref.packet_id)) {
-                    blocks.push({ repeat: true, packet_id: ref.packet_id })
-                    continue
-                }
-                seen.add(ref.packet_id)
-                const parts = ref.part_ids
-                    .map((part) => units.get(`${ref.packet_id}:${part}`))
-                    .filter(Boolean)
-                    .map((unit) => ({
-                        unit,
-                        role: part_role(unit),
-                        text: display_text(unit.text_ar),
-                    }))
-                    .filter((part) => part.text)
-                if (parts.length)
-                    blocks.push({ packet_id: ref.packet_id, parts, cite: citation(parts[0].unit) })
-            }
-            return { ...reading, blocks }
-        })
-    })
+    let readings = $derived(chapter ? reading_groups(chapter) : [])
 
     function path(tab, id = null) {
         return `/chapters/${chapter_id}/${tab}${id ? `/${encodeURIComponent(id)}` : ''}`
@@ -84,11 +58,7 @@
     }
 
     function note_reading(note) {
-        return readings.find((reading) =>
-            reading.source_refs.some((ref) =>
-                note.source_refs.some((source) => source.packet_id === ref.packet_id),
-            ),
-        )?.reading_id
+        return reading_for_note(readings, note)
     }
 
     function select_tab(next) {
@@ -147,8 +117,6 @@
 
     function open_passage() {
         session.passage = inspect_practice_source(practice, chapter)
-            .map((unit) => ({ unit, role: part_role(unit), text: display_text(unit.text_ar) }))
-            .filter((part) => part.text && part.role !== 'chain')
         tick_count += 1
     }
 
@@ -200,7 +168,7 @@
         }
     })
 
-    const level_name = { beginner: 'مبتدئ', intermediate: 'متوسط', expert: 'متقدم' }
+    const level_name = { beginner: 'Beginner', intermediate: 'Intermediate', expert: 'Expert' }
     const paragraph = 'font-serif text-[1.1875rem] leading-[1.9] text-ink text-pretty'
     const heading = 'font-serif text-[1.375rem] font-medium text-gold-bright'
 </script>
@@ -210,32 +178,91 @@
     {#if note}
         <a
             class="ms-1 align-super px-[5px] border-0 text-[0.75rem] font-sans font-semibold text-gold bg-[rgba(232,178,87,0.12)] rounded-full hover:bg-gold hover:text-gold-ink"
-            aria-label={`المصدر ${note.number}`}
+            aria-label={`Source ${note.number}`}
             href={href('readings', note_reading(note))}>{note.number}</a
         >
     {/if}
 {/snippet}
 
+{#snippet source_part(unit)}
+    {@const role = part_role(unit)}
+    <div class="grid gap-2 scroll-mt-4" data-unit={unit.unit_id}>
+        <p class="text-[0.8125rem] leading-[1.6] text-ink-soft">{unit.kind} · {unit.speaker}</p>
+        {#if unit.text && display_text(unit.text)}
+            {#if role === 'note' || role === 'chain'}
+                <p class="font-serif text-[1rem] leading-[1.8] text-ink-soft">
+                    {display_text(unit.text)}
+                </p>
+            {:else}
+                <blockquote
+                    class="py-4 px-5 font-serif text-[1.1875rem] leading-[1.9] text-[#fff6e3] bg-[rgba(0,0,0,0.32)] border-0 border-s-[3px] border-solid rounded-e-xl data-[quran=true]:border-[#fff1c4] border-gold"
+                    data-quran={role === 'quran'}
+                >
+                    {display_text(unit.text)}
+                </blockquote>
+            {/if}
+            {#if chapter.locale === 'en' && role === 'quran'}
+                <p class="text-[0.8125rem] leading-[1.6] text-ink-soft">
+                    Translated from the supplied Qur’anic excerpt; not an official Qur’an
+                    translation or an independent collation.
+                </p>
+            {/if}
+        {/if}
+        <details class="text-ink-soft text-[0.875rem] leading-[1.7]">
+            <summary class="cursor-pointer text-gold">Arabic original and source details</summary>
+            <div class="grid gap-2 pt-3">
+                <p>{unit.context_note}</p>
+                <a
+                    class="text-gold underline underline-offset-4"
+                    href={unit.source_url}
+                    target="_blank"
+                    rel="noreferrer">{citation(unit).label}</a
+                >
+                <p lang="ar" dir="rtl" class="font-arabic">{unit.kind_ar} · {unit.speaker_ar}</p>
+                <pre
+                    lang="ar"
+                    dir="rtl"
+                    class="m-0 whitespace-pre-wrap break-words font-arabic text-[1.0625rem] leading-[1.9]">{unit.text_ar}</pre>
+                <p lang="ar" dir="rtl" class="font-arabic">{unit.citation_ar}</p>
+                <p lang="ar" dir="rtl" class="font-arabic">{unit.context_note_ar}</p>
+            </div>
+        </details>
+    </div>
+{/snippet}
+
 <aside
     class="fixed z-50 top-[76px] right-4 bottom-4 flex flex-col w-[min(760px,calc(100vw-32px))] bg-panel-solid border border-solid border-line-strong rounded-[20px] shadow-[0_24px_80px_rgba(0,0,0,0.55)] backdrop-blur-[20px] mobile:top-14 mobile:right-0 mobile:bottom-0 mobile:w-full mobile:rounded-b-none"
-    dir="rtl"
-    lang="ar"
+    dir={chapter?.locale === 'ar' ? 'rtl' : 'ltr'}
+    lang={chapter?.locale ?? 'en'}
+    style:--font-serif={chapter?.locale === 'ar'
+        ? "Amiri, 'Noto Naskh Arabic', serif"
+        : 'Newsreader, Georgia, serif'}
     aria-labelledby="chapter-title"
     transition:fly={{ x: 40, duration: 260 }}
 >
     <header class="flex gap-4 items-start justify-between px-7 pt-6 pb-3 mobile:px-5">
-        <div class="grid gap-2">
-            <p class="text-gold text-[0.8125rem] font-semibold tracking-[0.04em]">فصل من الهجرة</p>
+        <div class="grid min-w-0 flex-1 gap-2">
+            <label class="sr-only" for="chapter-select">Choose a chapter</label>
+            <select
+                id="chapter-select"
+                class="mb-1 w-full min-w-0 rounded-lg border border-solid border-line-strong bg-panel-solid px-3 py-2 font-serif text-[1rem] text-gold-bright focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                value={chapter_id}
+                onchange={(event) => on_navigate(`/chapters/${event.currentTarget.value}/story`)}
+            >
+                {#each catalog.chapters as item (item.chapter_id)}
+                    <option value={item.chapter_id}>{chapter_title(item, chapter?.locale)}</option>
+                {/each}
+            </select>
             <h2 class="font-serif text-[2rem] font-medium leading-[1.15]" id="chapter-title">
-                {chapter?.title_ar ?? ''}
+                {chapter?.title ?? ''}
             </h2>
             {#if chapter}
-                <p class="text-ink-soft text-[1rem] leading-[1.6]">{chapter.reader_question_ar}</p>
+                <p class="text-ink-soft text-[1rem] leading-[1.6]">{chapter.reader_question}</p>
             {/if}
         </div>
         <button
             class="grid flex-none size-[38px] place-items-center text-ink-soft bg-transparent border border-solid border-line-strong rounded-full hover:text-white hover:border-gold"
-            aria-label="إغلاق الفصل"
+            aria-label="Close chapter"
             onclick={on_close}
         >
             <svg
@@ -248,9 +275,15 @@
         </button>
     </header>
 
+    {#if chapter && destination.lang !== chapter.locale}
+        <p class="px-7 pb-3 text-ink-soft text-[0.9375rem] mobile:px-5">
+            This chapter is available in Arabic and English. Showing the English edition.
+        </p>
+    {/if}
+
     <nav
         class="flex gap-1 px-6 border-0 border-b border-solid border-line overflow-x-auto mobile:px-4"
-        aria-label="أقسام الفصل"
+        aria-label="Chapter sections"
     >
         {#each tabs as [id, name] (id)}
             <a
@@ -268,7 +301,7 @@
         data-scroll-id="chapter-reader"
     >
         {#if !chapter}
-            <p class="text-ink-soft">جارٍ التحميل…</p>
+            <p class="text-ink-soft">Loading…</p>
         {:else if tab === 'story'}
             <div class="grid gap-7" in:fade={{ duration: 200 }}>
                 {#each chapter.overview as block (block.paragraph_id)}
@@ -276,12 +309,20 @@
                         class="font-serif text-[1.3125rem] leading-[1.85] text-ink py-4 px-5 bg-[rgba(232,178,87,0.08)] border-0 border-s-[3px] border-solid border-gold rounded-e-xl"
                         id={block.paragraph_id}
                     >
-                        {block.text_ar}{@render marker(block.paragraph_id)}
+                        {block.text}{@render marker(block.paragraph_id)}
                     </p>
                 {/each}
+                <details class="text-ink-soft">
+                    <summary class="cursor-pointer text-[0.9375rem]">Learning goals</summary>
+                    <ul class="grid gap-2 ps-5 pt-3 leading-[1.7]">
+                        {#each chapter.objectives as objective (objective.objective_id)}
+                            <li>{objective.text}</li>
+                        {/each}
+                    </ul>
+                </details>
                 <!-- The outline doubles as the table of contents. -->
-                <nav class="grid gap-1" aria-label="محتويات الفصل">
-                    <p class="text-muted text-[0.875rem] font-semibold">في هذا الفصل</p>
+                <nav class="grid gap-1" aria-label="Chapter contents">
+                    <p class="text-muted text-[0.875rem] font-semibold">In this chapter</p>
                     <ol class="grid gap-1 list-none">
                         {#each chapter.outline as point, index (point.point_id)}
                             <li>
@@ -290,10 +331,10 @@
                                     href={href('story', point.section_id)}
                                 >
                                     <span class="min-w-5 text-gold font-semibold"
-                                        >{(index + 1).toLocaleString('ar')}</span
+                                        >{(index + 1).toLocaleString(chapter.locale)}</span
                                     >
                                     <span class="font-serif text-[1.0625rem] leading-[1.6]"
-                                        >{point.text_ar}</span
+                                        >{point.text}</span
                                     >
                                 </a>
                             </li>
@@ -306,7 +347,7 @@
                                 >
                                     <span class="min-w-5 text-gold">+</span>
                                     <span class="font-serif text-[1.0625rem] leading-[1.6]"
-                                        >للتعمق</span
+                                        >In depth</span
                                     >
                                 </a>
                             </li>
@@ -315,10 +356,10 @@
                 </nav>
                 {#each chapter.account as section (section.section_id)}
                     <section class="grid gap-3 scroll-mt-4" data-section={section.section_id}>
-                        <h3 class={heading}>{section.title_ar}</h3>
+                        <h3 class={heading}>{section.title}</h3>
                         {#each section.paragraphs as block (block.paragraph_id)}
                             <p class={paragraph} id={block.paragraph_id}>
-                                {block.text_ar}{@render marker(block.paragraph_id)}
+                                {block.text}{@render marker(block.paragraph_id)}
                             </p>
                         {/each}
                     </section>
@@ -329,16 +370,16 @@
                         class="grid gap-7 pt-6 border-0 border-t border-solid border-line scroll-mt-4"
                         data-section="in_depth"
                     >
-                        <p class="text-gold text-[0.875rem] font-semibold">للتعمق</p>
+                        <p class="text-gold text-[0.875rem] font-semibold">In depth</p>
                         {#each chapter.in_depth as section (section.section_id)}
                             <section
                                 class="grid gap-3 scroll-mt-4"
                                 data-section={section.section_id}
                             >
-                                <h3 class={heading}>{section.title_ar}</h3>
+                                <h3 class={heading}>{section.title}</h3>
                                 {#each section.paragraphs as block (block.paragraph_id)}
                                     <p class={paragraph} id={block.paragraph_id}>
-                                        {block.text_ar}{@render marker(block.paragraph_id)}
+                                        {block.text}{@render marker(block.paragraph_id)}
                                     </p>
                                 {/each}
                             </section>
@@ -348,60 +389,54 @@
             </div>
         {:else if tab === 'sources'}
             <div class="grid gap-6" in:fade={{ duration: 200 }}>
+                {#if chapter.locale === 'en'}
+                    <p class="text-ink-soft leading-[1.7]">
+                        English translations of the selected excerpts. The original Arabic remains
+                        available with each passage.
+                    </p>
+                {/if}
                 {#each readings as reading (reading.reading_id)}
                     <article
-                        class="grid gap-3 p-5 border border-solid border-line rounded-2xl scroll-mt-4 transition-[border-color,background] duration-500 data-[lit=true]:border-gold data-[lit=true]:bg-[rgba(232,178,87,0.07)]"
+                        class="grid gap-4 p-5 border border-solid border-line rounded-2xl scroll-mt-4 transition-[border-color,background] duration-500 data-[lit=true]:border-gold data-[lit=true]:bg-[rgba(232,178,87,0.07)]"
                         data-reading={reading.reading_id}
                         data-lit={lit.includes(reading.reading_id)}
                     >
                         <h3 class="font-serif text-[1.1875rem] font-medium text-ink">
-                            {reading.title_ar}
+                            {reading.title}
                         </h3>
+                        {#if reading.mode === 'arabic_with_gloss'}
+                            <p class="text-ink-soft">English summary — not a translation</p>
+                            <p class="leading-[1.7]">{reading.gloss}</p>
+                        {/if}
                         {#each reading.blocks as block, index (index)}
                             {#if block.repeat}
-                                <p class="text-muted text-[0.875rem]">
-                                    النص نفسه معروض في قراءة سابقة أعلاه.
-                                </p>
+                                <a
+                                    class="text-gold underline underline-offset-4"
+                                    href={href('readings', block.repeat)}
+                                    >This selection is shown in an earlier reading.</a
+                                >
                             {:else}
-                                {@const chain = block.parts.filter((part) => part.role === 'chain')}
+                                {@const chain = block.parts.filter(
+                                    (unit) => part_role(unit) === 'chain',
+                                )}
                                 {#if chain.length}
                                     <details class="text-ink-soft">
-                                        <summary class="cursor-pointer text-[0.875rem] text-muted"
-                                            >الإسناد</summary
+                                        <summary class="cursor-pointer text-[0.875rem]"
+                                            >Chain of transmission</summary
                                         >
-                                        {#each chain as part (part.unit.unit_id)}
-                                            <p
-                                                class="mt-2 font-arabic text-[1.0625rem] leading-[1.9]"
-                                                data-unit={part.unit.unit_id}
-                                            >
-                                                {part.text}
-                                            </p>
-                                        {/each}
+                                        <div class="grid gap-3 pt-3">
+                                            {#each chain as unit (unit.unit_id)}{@render source_part(unit)}{/each}
+                                        </div>
                                     </details>
                                 {/if}
-                                {#each block.parts.filter((part) => part.role !== 'chain') as part (part.unit.unit_id)}
-                                    {#if part.role === 'note'}
-                                        <p
-                                            class="font-arabic text-[1rem] leading-[1.9] text-muted"
-                                            data-unit={part.unit.unit_id}
-                                        >
-                                            {part.text}
-                                        </p>
-                                    {:else}
-                                        <blockquote
-                                            class="py-4 px-5 font-arabic text-[1.375rem] leading-[2] text-[#fff6e3] bg-[rgba(0,0,0,0.32)] border-0 border-s-[3px] border-solid rounded-e-xl data-[quran=true]:border-[#fff1c4] border-gold"
-                                            data-quran={part.role === 'quran'}
-                                            data-unit={part.unit.unit_id}
-                                        >
-                                            {part.text}
-                                        </blockquote>
-                                    {/if}
+                                {#each block.parts.filter((unit) => part_role(unit) !== 'chain') as unit (unit.unit_id)}
+                                    {@render source_part(unit)}
                                 {/each}
                                 <a
                                     class="justify-self-start text-[0.875rem] text-gold underline underline-offset-4"
-                                    href={block.cite.url}
+                                    href={citation(block.parts[0]).url}
                                     target="_blank"
-                                    rel="noreferrer">{block.cite.label}</a
+                                    rel="noreferrer">{citation(block.parts[0]).label}</a
                                 >
                             {/if}
                         {/each}
@@ -412,20 +447,20 @@
             <div class="grid gap-4" in:fade={{ duration: 200 }}>
                 {#if study && question}
                     <p class="text-ink-soft text-[0.9375rem]">
-                        أسئلة متقدمة على النصوص: اقرأ المقاطع وقارن بينها.
+                        Source-study questions: read the passages and compare them.
                     </p>
                 {/if}
                 {#if question}
                     {#key question.question_id}
                         <div class="grid gap-3" in:fade={{ duration: 200 }}>
                             <p class="text-gold text-[0.875rem] font-semibold">
-                                السؤال {(practice.index + 1).toLocaleString('ar')} من {practice.questions.length.toLocaleString(
-                                    'ar',
+                                Question {(practice.index + 1).toLocaleString(chapter.locale)} of {practice.questions.length.toLocaleString(
+                                    chapter.locale,
                                 )}
                                 · {level_name[question.difficulty]}
                             </p>
                             <p class="font-serif text-[1.3125rem] leading-[1.7] text-ink">
-                                {question.prompt_ar}
+                                {question.prompt}
                             </p>
                             {#each options as option (option.option_id)}
                                 {@const chosen =
@@ -442,28 +477,23 @@
                                               : 'idle'
                                         : 'idle'}
                                     disabled={Boolean(result)}
-                                    onclick={() => answer(option.option_id)}
-                                    >{option.text_ar}</button
+                                    onclick={() => answer(option.option_id)}>{option.text}</button
                                 >
                             {/each}
                             {#if !result}
                                 <div class="flex flex-wrap gap-4 items-center">
                                     <button
                                         class="py-2 px-4 text-ink bg-transparent border border-solid border-line-strong rounded-full hover:border-gold"
-                                        onclick={open_passage}>اقرأ النص</button
+                                        onclick={open_passage}>Read the passage</button
                                     >
                                     <button
                                         class="text-ink-soft bg-transparent border-0 underline underline-offset-4"
-                                        onclick={() => answer(null)}>لا أعرف</button
+                                        onclick={() => answer(null)}>I don’t know</button
                                     >
                                 </div>
                             {/if}
-                            {#each passage as part (part.unit.unit_id)}
-                                <blockquote
-                                    class="max-h-[220px] overflow-y-auto py-3 px-4 font-arabic text-[1.1875rem] leading-[1.9] text-[#fff6e3] bg-[rgba(0,0,0,0.32)] border-0 border-s-[3px] border-solid border-gold rounded-e-xl"
-                                >
-                                    {part.text}
-                                </blockquote>
+                            {#each passage as unit (unit.unit_id)}
+                                {@render source_part(unit)}
                             {/each}
                             {#if result}
                                 {@const picked = question.options.find(
@@ -473,20 +503,23 @@
                                 <div class="grid gap-2" in:fly={{ y: 8, duration: 200 }}>
                                     <p class="font-semibold">
                                         {#if result.skipped}<span class="text-ink-soft"
-                                                >هذا ما يقوله النص.</span
+                                                >Skipped. Here is what the passage says.</span
                                             >{:else if result.correct}<span class="text-[#7fd1a0]"
-                                                >إجابة صحيحة.</span
-                                            >{:else}<span class="text-[#e8a857]">ليست هذه.</span
+                                                >Correct.</span
+                                            >{:else}<span class="text-[#e8a857]">Not quite.</span
                                             >{/if}
                                     </p>
-                                    {#if picked}<p class="text-ink-soft leading-[1.7]">{picked.feedback_ar}</p>{/if}
-                                    <p class="text-ink leading-[1.7]">{question.explanation_ar}</p>
+                                    {#if picked}<p class="text-ink-soft leading-[1.7]">{picked.feedback}</p>{/if}
+                                    <p class="text-ink leading-[1.7]">{question.explanation}</p>
+                                    <p class="text-ink-soft text-[0.9375rem] leading-[1.7]">
+                                        {question.scope_note}
+                                    </p>
                                     <button
                                         class="justify-self-start mt-1 py-2 px-5 text-gold-ink font-semibold bg-gold border-0 rounded-full hover:bg-gold-bright"
                                         onclick={next}
                                         >{practice.index + 1 < practice.questions.length
-                                            ? 'السؤال التالي'
-                                            : 'النتيجة'}</button
+                                            ? 'Next question'
+                                            : 'See how you did'}</button
                                     >
                                 </div>
                             {/if}
@@ -496,26 +529,28 @@
                     {@const score = tick_count >= 0 && practice_score(practice)}
                     <div class="grid gap-3">
                         <p class="font-serif text-[2rem]">
-                            {score.correct.toLocaleString('ar')} من {score.total.toLocaleString(
-                                'ar',
+                            {score.correct.toLocaleString(chapter.locale)} of {score.total.toLocaleString(
+                                chapter.locale,
                             )}
                         </p>
-                        <p class="text-ink-soft">إجابات صحيحة من أسئلة هذه المجموعة.</p>
+                        <p class="text-ink-soft">
+                            Correct answers out of the questions in this set.
+                        </p>
                         <div class="flex flex-wrap gap-3">
                             {#if !study && study_count}
                                 <button
                                     class="py-2 px-5 text-gold-ink font-semibold bg-gold border-0 rounded-full"
                                     onclick={() => start_practice(true)}
-                                    >تابع بأسئلة متقدمة على النصوص</button
+                                    >Continue with source-study questions</button
                                 >
                             {/if}
                             <button
                                 class="py-2 px-5 text-ink bg-transparent border border-solid border-line-strong rounded-full"
-                                onclick={() => start_practice(study)}>أعد المحاولة</button
+                                onclick={() => start_practice(study)}>Try again</button
                             >
                             <button
                                 class="py-2 px-5 text-ink bg-transparent border border-solid border-line-strong rounded-full"
-                                onclick={() => select_tab('story')}>العودة إلى القصة</button
+                                onclick={() => select_tab('story')}>Back to the story</button
                             >
                         </div>
                     </div>

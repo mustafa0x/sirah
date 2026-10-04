@@ -87,6 +87,7 @@ export const chapter = {
         },
         {
             id: 'thawr',
+            reading_chapter_id: 'hch_thawr',
             title: 'Three nights at Thawr',
             scene: 'thawr',
             duration: 56,
@@ -140,6 +141,7 @@ export const chapter = {
         },
         {
             id: 'pursuit',
+            reading_chapter_id: 'hch_suraqa',
             title: 'A rider on the road',
             scene: 'overview',
             duration: 36,
@@ -164,6 +166,7 @@ export const chapter = {
         },
         {
             id: 'tent',
+            reading_chapter_id: 'hch_umm_mabad',
             title: 'The tent of Umm Ma‘bad',
             scene: 'overview',
             duration: 26,

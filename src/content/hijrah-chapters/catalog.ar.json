@@ -1,19 +1,46 @@
 {
   "chapter_order": [
-    "hch_thawr"
+    "hch_thawr",
+    "hch_suraqa",
+    "hch_umm_mabad"
   ],
   "chapters": [
     {
       "chapter_id": "hch_thawr",
       "title_ar": "ثلاث ليال في ثور",
       "path": "hch_thawr/chapter.ar.json",
-      "revision": 5,
+      "revision": 6,
       "topic_ids": [
         "thawr.nightly_support",
         "thawr.companionship",
         "cave_verse.quoted_verse",
         "guide.hiring",
         "guide.appointment"
+      ]
+    },
+    {
+      "chapter_id": "hch_suraqa",
+      "title_ar": "سراقة: من المطاردة إلى الأمان",
+      "path": "hch_suraqa/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "suraqa.reward",
+        "suraqa.pursuit",
+        "suraqa.sinking",
+        "suraqa.safety_document",
+        "suraqa.writers",
+        "suraqa.after_encounter"
+      ]
+    },
+    {
+      "chapter_id": "hch_umm_mabad",
+      "title_ar": "عند خيمتي أم معبد",
+      "path": "hch_umm_mabad/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "encounters.umm_mabad",
+        "encounters.description",
+        "encounters.routes"
       ]
     }
   ],
@@ -43,7 +70,16 @@
       "place_id": "coast",
       "name_ar": "طريق السواحل",
       "chapter_ids": [
-        "hch_thawr"
+        "hch_thawr",
+        "hch_suraqa"
+      ]
+    },
+    {
+      "place_id": "road",
+      "name_ar": "الطريق",
+      "chapter_ids": [
+        "hch_suraqa",
+        "hch_umm_mabad"
       ]
     }
   ]
