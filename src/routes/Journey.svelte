@@ -212,6 +212,15 @@
     }
 
     let active_source = $derived(journey.source_id ? find_source(journey.source_id) : null)
+    // Opening a source scrolls the list to it.
+    let source_list = $state()
+    $effect(() => {
+        const id = journey.source_id
+        if (!id || !source_list) return
+        tick().then(() =>
+            source_list?.querySelector(`[data-source="${id}"]`)?.scrollIntoView({ block: 'start' }),
+        )
+    })
     let drawer_sources = $derived(
         !active_source || visible_sources.includes(active_source)
             ? visible_sources
@@ -796,7 +805,7 @@
         {#each source_ids as source_id (source_id)}
             {@const source = find_source(source_id)}
             <button
-                class="inline-flex max-w-full min-w-0 gap-[7px] items-center py-[3px] pr-[11px] pl-1 text-start text-ink-soft bg-[rgba(232,178,87,0.08)] border border-solid border-line rounded-full text-[0.8125rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold aria-pressed:text-white aria-pressed:border-gold"
+                class="inline-flex max-w-full min-w-0 gap-[7px] items-center py-[3px] pe-[11px] ps-1 text-start text-ink-soft bg-[rgba(232,178,87,0.08)] border border-solid border-line rounded-full text-[0.8125rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold aria-pressed:text-white aria-pressed:border-gold"
                 aria-pressed={journey.source_id === source_id}
                 onclick={() => view_source(source_id)}
                 aria-label={`Source ${source.number}: ${source.reference}`}
@@ -850,18 +859,27 @@
             Sirah Journey
         </a>
         <div class="flex items-center gap-3">
-            <select
-                class="min-w-0 max-w-[12rem] rounded-full border border-line bg-panel-solid px-3 py-2 text-ink text-sm mobile:max-w-[8rem]"
-                aria-label="Interface language"
-                value={saved_language()}
-                onchange={(event) => change_language(event.currentTarget.value)}
-            >
-                {#each locales as locale (locale.code)}
-                    <option value={locale.code} lang={locale.code} dir={locale.direction}
-                        >{locale.label}</option
-                    >
-                {/each}
-            </select>
+            <div class="relative min-w-0 max-w-[12rem] text-ink mobile:max-w-[8rem]">
+                <select
+                    class="w-full appearance-none rounded-full border border-line bg-panel-solid py-2 ps-4 pe-9 text-ink text-sm text-ellipsis"
+                    aria-label="Interface language"
+                    value={saved_language()}
+                    onchange={(event) => change_language(event.currentTarget.value)}
+                >
+                    {#each locales as locale (locale.code)}
+                        <option value={locale.code} lang={locale.code} dir={locale.direction}
+                            >{locale.label}</option
+                        >
+                    {/each}
+                </select>
+                <svg
+                    class="pointer-events-none absolute end-3.5 top-1/2 size-3.5 -translate-y-1/2 fill-none stroke-current [stroke-width:2.2] [stroke-linecap:round] [stroke-linejoin:round]"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <path d="M6 9l6 6 6-6" />
+                </svg>
+            </div>
             <button
                 class={round_button}
                 aria-label={sound_on ? 'Turn sound off' : 'Turn sound on'}
@@ -1798,81 +1816,77 @@
                 </div>
             {:else if active_source}
                 <header class={sheet_header}>
-                    <div>
-                        <p class={kicker}>Source {active_source.number} · evidence</p>
-                        <h2 class={sheet_title} id="sheet-title">{active_source.reference}</h2>
-                    </div>
+                    <h2 class={sheet_title} id="sheet-title">{selected_step.title}</h2>
                     <button class={round_button} onclick={close_sheet} aria-label="Close source">
                         {@render icon('close')}
                     </button>
                 </header>
-                {#if drawer_sources.length > 1}
-                    <div
-                        class="flex flex-wrap gap-2 px-6 pt-[14px] mobile:px-[18px]"
-                        role="group"
-                        aria-label="Sources for this stage"
-                    >
-                        {#each drawer_sources as source (source.id)}
-                            <button
-                                class="min-w-[34px] h-[34px] px-2 py-0 text-ink-soft bg-transparent border border-solid border-line-strong rounded-full text-[0.875rem] font-semibold hover:border-gold aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright aria-pressed:hover:border-gold-bright"
-                                aria-pressed={source.id === active_source.id}
-                                aria-label={`Source ${source.number}: ${source.reference}`}
-                                onclick={() => view_source(source.id)}>{source.number}</button
-                            >
-                        {/each}
-                    </div>
-                {/if}
-                {#key active_source.id}
-                    <div class={sheet_body} in:fade={{ duration: 220 }}>
-                        <blockquote
-                            class="py-5 px-[22px] text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 border-r-[3px] border-solid border-gold rounded-xl font-arabic text-[1.5rem] leading-[2]"
-                            dir="rtl"
-                            lang="ar"
+                <!-- All of the stage's sources in one scroll; the one asked for is highlighted. -->
+                <div class={sheet_body} bind:this={source_list}>
+                    {#each drawer_sources as source (source.id)}
+                        <article
+                            class="grid gap-3 p-4 border border-solid border-line rounded-2xl scroll-mt-4 transition-[border-color,background] duration-500 data-[active=true]:border-gold data-[active=true]:bg-[rgba(232,178,87,0.07)]"
+                            data-source={source.id}
+                            data-active={source.id === active_source.id}
                         >
-                            {active_source.excerpt}
-                        </blockquote>
-                        <p class="mt-[-6px] text-muted text-[0.875rem]">
-                            <span
-                                class="text-ink-soft font-arabic text-[1.0625rem]"
+                            <div>
+                                <p class={kicker}>Source {source.number} · evidence</p>
+                                <h3
+                                    class="mt-1 font-serif text-[1.25rem] font-medium leading-[1.2]"
+                                >
+                                    {source.reference}
+                                </h3>
+                            </div>
+                            <blockquote
+                                class="py-4 px-5 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 border-r-[3px] border-solid border-gold rounded-xl font-arabic text-[1.375rem] leading-[2]"
+                                dir="rtl"
                                 lang="ar"
-                                dir="rtl">{active_source.work}</span
                             >
-                            {#if active_source.volume}
-                                · vol. {active_source.volume}, p. {active_source.page}{/if}
-                        </p>
-                        {#if mode === 'new' && kind_notes[active_source.kind]}
-                            <p class={fine_print}>{kind_notes[active_source.kind]}</p>
-                        {/if}
-                        {#if !active_source.retrieved}
-                            <dl
-                                class="grid gap-[14px] [&>div]:pl-[14px] [&>div]:border-0 [&>div]:border-l-2 [&>div]:border-solid [&>div]:border-[#7fae7a] [&_dt]:mb-1 [&_dt]:text-muted [&_dt]:text-[0.8125rem] [&_dt]:font-semibold [&_dt]:tracking-[0.06em] [&_dt]:uppercase [&_dd]:text-ink [&_dd]:leading-[1.55]"
-                            >
-                                <div>
-                                    <dt>What this passage supports</dt>
-                                    <dd>{active_source.explanation}</dd>
-                                </div>
-                                <div class="border-l-[#d98a5a]!">
-                                    <dt>What it does not establish</dt>
-                                    <dd>{active_source.limits}</dd>
-                                </div>
-                            </dl>
-                        {:else if active_source.truncated}
-                            <p class={fine_print}>
-                                This passage is shortened. Open the original page for its full
-                                context.
+                                {source.excerpt}
+                            </blockquote>
+                            <p class="mt-[-6px] text-muted text-[0.875rem]">
+                                <span
+                                    class="text-ink-soft font-arabic text-[1.0625rem]"
+                                    lang="ar"
+                                    dir="rtl">{source.work}</span
+                                >
+                                {#if source.volume}
+                                    · vol. {source.volume}, p. {source.page}{/if}
                             </p>
-                        {/if}
-                    </div>
-                {/key}
+                            {#if mode === 'new' && kind_notes[source.kind]}
+                                <p class={fine_print}>{kind_notes[source.kind]}</p>
+                            {/if}
+                            {#if !source.retrieved}
+                                <dl
+                                    class="grid gap-[14px] [&>div]:pl-[14px] [&>div]:border-0 [&>div]:border-l-2 [&>div]:border-solid [&>div]:border-[#7fae7a] [&_dt]:mb-1 [&_dt]:text-muted [&_dt]:text-[0.8125rem] [&_dt]:font-semibold [&_dt]:tracking-[0.06em] [&_dt]:uppercase [&_dd]:text-ink [&_dd]:leading-[1.55]"
+                                >
+                                    <div>
+                                        <dt>What this passage supports</dt>
+                                        <dd>{source.explanation}</dd>
+                                    </div>
+                                    <div class="border-l-[#d98a5a]!">
+                                        <dt>What it does not establish</dt>
+                                        <dd>{source.limits}</dd>
+                                    </div>
+                                </dl>
+                            {:else if source.truncated}
+                                <p class={fine_print}>
+                                    This passage is shortened. Open the original page for its full
+                                    context.
+                                </p>
+                            {/if}
+                            <a
+                                class="{ghost_button} justify-self-start"
+                                href={source.url}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Open the page on Turath {@render icon('external')}
+                            </a>
+                        </article>
+                    {/each}
+                </div>
                 <footer class={sheet_footer}>
-                    <a
-                        class={ghost_button}
-                        href={active_source.url}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        Open the page on Turath {@render icon('external')}
-                    </a>
                     <button class="{primary_button} min-w-0 mr-auto" onclick={close_sheet}>
                         {@render icon('back')}
                         {source_origin === 'question'
