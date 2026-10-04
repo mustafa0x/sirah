@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "chapter_id": "hch_thawr",
-  "revision": 3,
+  "revision": 4,
   "title_ar": "ثلاث ليال في ثور",
   "reader_question_ar": "من أعان النبي ﷺ وأبا بكر في الغار، وكيف واصلا الرحلة؟",
   "core_ids": [
@@ -52,7 +52,7 @@
   "overview": [
     {
       "paragraph_id": "hch_thawr_overview",
-      "text_ar": "مكث النبي ﷺ وأبو بكر ثلاث ليال في غار بجبل ثور، بحسب رواية عائشة. كان عبد الله بن أبي بكر يحمل إليهما أخبار مكة، ويأتيهما عامر بن فهيرة بالغنم واللبن. ويروي أبو بكر أنه رأى أقدام القوم وخشي أن يراهما أحدهم، فطمأنه النبي ﷺ. وبعد الليالي الثلاث، انطلقا مع عامر والدليل، الذي أخذ بهم طريق السواحل.",
+      "text_ar": "مكث النبي ﷺ وأبو بكر ثلاث ليال في غار بجبل ثور. كان عبد الله بن أبي بكر يحمل إليهما أخبار مكة، ويأتيهما عامر بن فهيرة بالغنم واللبن. ورأى أبو بكر أقدام القوم وخشي أن يراهما أحدهم، فطمأنه النبي ﷺ. وبعد الليالي الثلاث، انطلقا مع عامر والدليل، الذي أخذ بهم طريق السواحل.",
       "claim_ids": [
         "thawr_stay",
         "abdullah_pattern",
@@ -73,7 +73,7 @@
       "paragraphs": [
         {
           "paragraph_id": "hch_thawr_stay_01",
-          "text_ar": "وصل النبي ﷺ وأبو بكر إلى غار في جبل ثور، ومكثا فيه ثلاث ليال، كما تروي عائشة. وخلال هذه الليالي كان عبد الله بن أبي بكر يبيت عندهما، وكان عامر بن فهيرة يأتيهما بالغنم واللبن.",
+          "text_ar": "وصل النبي ﷺ وأبو بكر إلى غار في جبل ثور، ومكثا فيه ثلاث ليال. وخلال هذه الليالي كان عبد الله بن أبي بكر يبيت عندهما، وكان عامر بن فهيرة يأتيهما بالغنم واللبن.",
           "claim_ids": [
             "thawr_stay",
             "abdullah_pattern",
@@ -125,7 +125,7 @@
       "paragraphs": [
         {
           "paragraph_id": "hch_thawr_companionship_01",
-          "text_ar": "ويحكي أبو بكر أنه رفع رأسه في الغار، فرأى أقدام القوم. خشي أن يخفض أحدهم بصره فيراهما، فخاطب النبي ﷺ. فطمأنه النبي بأنهما اثنان الله ثالثهما.",
+          "text_ar": "ورفع أبو بكر رأسه في الغار، فرأى أقدام القوم. خشي أن يخفض أحدهم بصره فيراهما، فخاطب النبي ﷺ. فطمأنه النبي بأنهما اثنان الله ثالثهما.",
           "claim_ids": [
             "thawr_exp_fear_bukhari",
             "thawr_exp_fear_chain"
@@ -182,7 +182,7 @@
   "outline": [
     {
       "point_id": "hch_thawr_outline_stay",
-      "text_ar": "المكث في غار بجبل ثور ثلاث ليال، بحسب رواية عائشة.",
+      "text_ar": "المكث في غار بجبل ثور ثلاث ليال.",
       "claim_ids": [
         "thawr_stay"
       ],
@@ -3265,20 +3265,20 @@
       ]
     }
   ],
-  "packet_id": "hch_thawr:ar:r3",
+  "packet_id": "hch_thawr:ar:r4",
   "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
-  "source_document_sha256": "2a6a2a77ed83e833e75c20c70d3dc44839a49a0d889940847d76ce76650ef76e",
+  "source_document_sha256": "158bc10e2b3a94b71c9232f59ad8730bbbcdc0ecae650663dfaab8a4c12b9df7",
   "question_type": "single_choice",
   "review": {
     "arabic_compared": true,
-    "summary_ar": "راجعت المراجعة الثالثة استجابة لملاحظة المستخدم عن الأسلوب. أُعيدت صياغة النظرة العامة والقصة والمخطط والتعمق والأسئلة لتقديم الأحداث مباشرة، وحُذف التكرار والتعليق على طريقة قراءة المصادر من القصة. بقيت نسبة الثلاث إلى عائشة، وقول أبي بكر، والفرق بين الآية والحديث وألفاظ الخبر. قورنت العبارات المعدلة مع الدعاوى ومقاطعها اللازمة، وراجعت الخيارات وتعليل الإجابات وحدودها. النصوص المصدرية وبياناتها ومعرفات المحتوى وخيارات الإجابة ودليل التصحيح لم تتغير؛ لم تُضف أحداث أو دعاوى إلى Core. قصر السرد مقصود، لا نقص عُوّض بإنشاء. بقيت مقارنة المدد الأخرى وشرح الرضيف خارج هذا المثال. هذه مراجعة تحريرية داخلية للفصل، لا اعتماد مستقل لكل ما في نسخه المرجعية، ولا شهادة باكتمال أخبار الغار أو دمج الواجهة أو النشر.",
+    "summary_ar": "راجعت المراجعة الرابعة استجابة لطلب المستخدم نقل النسبة المعتادة إلى الهوامش. حُذفت عبارة بحسب رواية عائشة وما يماثلها من النظرة العامة والقصة والمخطط، وبقيت عائشة ظاهرة في هامش المصدر، وبقيت نسبة خبر الأقدام إلى أبي بكر برواية أنس في بيانات المصدر والتعمق. قورنت صيغ المكث ورؤية الأقدام المعدلة مع الدعاوى ومقاطعها اللازمة؛ لم تتغير الأحداث أو الدعاوى أو القراءات أو الأسئلة أو الخيارات أو دليل التصحيح. تتولد هوامش الفقرات ونقاط المخطط من دعاواها، وتحفظ مراجع الأجزاء المطلوبة وأصواتها؛ اختُبرت التغطية ومعرفات الهوامش وروابط النسخة المقروءة دون اعتبار الاختبارات دليلًا على الفهم. النصوص المصدرية وبياناتها لم تتغير، ولم يُعد فحص كل المواد غير المستخدمة في النسخ المرجعية. بقيت مقارنة المدد الأخرى وشرح الرضيف خارج هذا المثال. هذه مراجعة تحريرية داخلية محدودة، لا اعتماد لغوي أو تخصصي مستقل، ولا شهادة باكتمال أخبار الغار أو دمج الواجهة أو جواز النشر.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false
   },
   "last_accepted": {
-    "revision": 3,
-    "source_document_sha256": "2a6a2a77ed83e833e75c20c70d3dc44839a49a0d889940847d76ce76650ef76e"
+    "revision": 4,
+    "source_document_sha256": "158bc10e2b3a94b71c9232f59ad8730bbbcdc0ecae650663dfaab8a4c12b9df7"
   },
   "source_units": [
     {
@@ -3536,6 +3536,357 @@
       "citation_ar": "[دلائل النبوة - البيهقي، 2/481](https://app.turath.io/book/7478?page=1002)",
       "source_url": "https://app.turath.io/book/7478?page=1002",
       "context_note_ar": "كامل المقتطف المحفوظ في الدفتر بأصواته وأجزائه؛ لا كامل الكتاب ولا طريق مستقل بمجرد تكرر النقل."
+    }
+  ],
+  "footnotes": [
+    {
+      "footnote_id": "hch_thawr_fn_eb49708dbaa2a5bc9a892ac627003e8cf268ccf020076a96b5b37cacde9b10fa",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_overview"
+        }
+      ],
+      "claim_ids": [
+        "thawr_stay",
+        "abdullah_pattern",
+        "abdullah_news",
+        "amir_evening",
+        "thawr_exp_fear_bukhari",
+        "appt_link",
+        "appt_time",
+        "appt_companions",
+        "appt_coast"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_thawr_support",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_guide_bukhari_hire",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_guide_bukhari_coast",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_7741b86c14179ee1a8479e914c6a57a585df2cff3069b8ddacc0f31bb75cf1e3",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_stay_01"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_news_01"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_news_02"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_milk_01"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_thawr_outline_stay"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_thawr_outline_news"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_thawr_outline_milk"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_depth_scope_01"
+        }
+      ],
+      "claim_ids": [
+        "thawr_stay",
+        "abdullah_pattern",
+        "abdullah_news",
+        "amir_evening",
+        "amir_dawn_and_repetition",
+        "footprints_fragment_limit",
+        "milk_terms"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_thawr_support",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_c88db40378a8a2eb3c761baa1d1600356ca736cfb76bcf361580de087fe3013b",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_companionship_01"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_depth_words_01"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_depth_words_02"
+        }
+      ],
+      "claim_ids": [
+        "thawr_exp_fear_bukhari",
+        "thawr_exp_fear_chain"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1001_ra_third",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1002_ra_third",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_thawr_exp_h_7478_1002_ra_third_variant",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_24857e14378c2a1be3567da26900d0443357505749a706ad5a6d56f8b69a8b98",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_verse_01"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_thawr_outline_verse"
+        }
+      ],
+      "claim_ids": [
+        "caveverse_text_layers"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_caveverse_qurtubi_verse",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_447faf885a93ff5e95b717b70a1fe5d3cfc42d53433b71e23697c2cd359e1efb",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_onward_guide"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_onward_01"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_thawr_outline_onward"
+        }
+      ],
+      "claim_ids": [
+        "hire_expertise",
+        "hire_identity",
+        "hire_trust",
+        "appt_link",
+        "appt_time",
+        "appt_companions",
+        "appt_coast"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_guide_bukhari_hire",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_guide_bukhari_coast",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_fa96a9f3236ceccd36a5ef6f3879a588d9992857bbf956f26e905ab2ca321337",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_onward_02"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_depth_time_01"
+        }
+      ],
+      "claim_ids": [
+        "amir_evening",
+        "appt_companions",
+        "appt_coast",
+        "abdullah_pattern",
+        "time_precision_limit",
+        "appt_time",
+        "thawr_location_limit"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_thawr_support",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_guide_bukhari_coast",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_86dbf01cf6bf8d4ddcd27bdf6ff62494e3b0caf02e6e9dbd3b638f3d0c221826",
+      "targets": [
+        {
+          "target_type": "outline",
+          "target_id": "hch_thawr_outline_companionship"
+        }
+      ],
+      "claim_ids": [
+        "thawr_exp_fear_bukhari"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_a6103aa6fd97b1374036e6f5842e9db277204cc67aeeb3447325dba343fb50d7",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_depth_time_02"
+        }
+      ],
+      "claim_ids": [
+        "appt_companions",
+        "appt_coast"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_guide_bukhari_coast",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_de2c51293661bbc887025ee644e31e25a0b3fa0d62fb17b3f16b4f6f341c50ff",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_depth_verse_01"
+        }
+      ],
+      "claim_ids": [
+        "caveverse_text_names",
+        "thawr_stay"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_caveverse_qurtubi_verse",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_thawr_support",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_thawr_fn_d9dd0eb566b43604325a4ca741b67bc725a8ba3d473a807f77578622b20aa7d5",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_thawr_depth_verse_02"
+        }
+      ],
+      "claim_ids": [
+        "caveverse_text_layers",
+        "caveverse_text_not_speech"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_caveverse_qurtubi_verse",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_caveverse_muslim",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
     }
   ]
 }
