@@ -1,5 +1,5 @@
 {
-    "ignorePatterns": ["src/locales/**/*.js"],
+    "ignorePatterns": ["src/locales/**/*.js", "src/content/hijrah-chapters/**/*.json"],
     "singleQuote": true,
     "semi": false,
     "tabWidth": 4,

@@ -369,12 +369,12 @@
       "options": [
         {
           "option_id": "later",
-          "text": "Ne pas placer la remise des bracelets dans la scène de la poursuite ; l’événement rapporté ici se situe à l’époque d’Omar",
+          "text": "Ne pas placer le fait de faire porter les bracelets dans la scène de la poursuite ; l’événement rapporté ici se situe à l’époque d’Omar",
           "feedback": "Omar et les biens venus d’Irak constituent le contexte de l’événement dans ce passage."
         },
         {
           "option_id": "same",
-          "text": "La remise des bracelets eut lieu au moment de la rencontre de Souraqa avec le Prophète ﷺ sur la route",
+          "text": "Le fait de faire porter les bracelets à Souraqa eut lieu au moment de la rencontre de Souraqa avec le Prophète ﷺ sur la route",
           "feedback": "Cela déplace l’événement vers une époque et une scène autres que celles mentionnées ici."
         },
         {
@@ -388,5 +388,8 @@
       "scope_note": "La partie précédant le verset est présentée intégralement ; cette note ne confond pas le récit et le verset cité et ne prétend pas établir la fiabilité des informateurs."
     }
   ],
-  "translation_notes": {}
+  "translation_notes": {
+    "quiz:HQ-E03:later:text_ar": "المقصود إلباس السوارين، لا مجرد تسليمهما؛ حفظ نوع الواقعة مع إبقائها في زمن عمر لا المطاردة.",
+    "quiz:HQ-E03:same:text_ar": "حفظ الإلباس في الخيار المخالف أيضًا، فلا تتغير ماهية الواقعة عند اختبار اختلاف الزمن."
+  }
 }

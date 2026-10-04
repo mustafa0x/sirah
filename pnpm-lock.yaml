@@ -166,9 +166,6 @@ importers:
 
   .:
     dependencies:
-      navgo:
-        specifier: 6.0.12
-        version: 6.0.12(svelte@5.55.9)
       svelte:
         specifier: 5.55.9
         version: 5.55.9
@@ -191,6 +188,9 @@ importers:
       '@wuchale/svelte':
         specifier: ^0.21.4
         version: 0.21.4(svelte@5.55.9)
+      navgo:
+        specifier: 6.0.12
+        version: 6.0.12(svelte@5.55.9)
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3

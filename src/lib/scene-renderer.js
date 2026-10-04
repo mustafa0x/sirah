@@ -49,14 +49,14 @@ const moods = {
         top: 0x050818,
         sea: 0x122640,
         horizon: 0x1b2c52,
-        sun: 0xa9c0ff,
-        sun_power: 1.7,
+        sun: 0x9fb2e6,
+        sun_power: 1.15,
         sun_at: [5, 7, 8],
-        sky_light: 0x6f88d0,
-        ground_light: 0x1a2038,
-        ambient: 1.25,
+        sky_light: 0x4b5a86,
+        ground_light: 0x2a2228,
+        ambient: 0.85,
         stars: 1,
-        exposure: 1.2,
+        exposure: 1.1,
     },
     haze: {
         top: 0x54799c,
@@ -1030,6 +1030,8 @@ export async function create_scene(
             },
         })
         let actor = null
+        // Video capture can hide the route lines for scenic shots.
+        let routes_shown = true
         const heading = new THREE.Vector3()
         // Puts an animal on a route at its drawn head, facing along it.
         const stand_on = (animal, route, size) => {
@@ -1189,7 +1191,7 @@ export async function create_scene(
                     if (Math.abs(route.shown - target) < 0.002) route.shown = target
                     route.line.geometry.instanceCount = Math.floor(route.shown * route.count)
                     // At human scale the route is a line on a map, not something in the scene.
-                    const mapped = distance > 0.3
+                    const mapped = distance > 0.3 && routes_shown
                     route.line.visible = mapped && route.shown > 0.002
                     route.trace.visible = mapped
                     if (world === active && route.shown > 0.002 && route.shown < 0.998) tip = route
@@ -1273,6 +1275,12 @@ export async function create_scene(
             active_id = id
         }
         api.set_insets = (next) => Object.assign(inset_target, next)
+        // Video capture only: the capture clock (video/clock.js) is present, and the shot
+        // script drives the camera and sky directly. Never set in the app itself.
+        api.set_routes_shown = (on) => {
+            routes_shown = on
+        }
+        if (window.__capture) window.__scene = api
         report('ready')
         // The local terrain is fetched while the learner is still on the opening screen.
         ensure_world('makkah')

@@ -211,7 +211,7 @@
         {
           "option_id": "roles",
           "text": "Asma bereitet etwas zum Zubinden des Proviants und des Wasserschlauchs vor; Abd Allah bringt während des Höhlenaufenthalts Nachrichten.",
-          "feedback": "Diese Antwort bewahrt die Handlung und die Etappe, die jeweils beiden zugeschrieben werden."
+          "feedback": "Diese Antwort bewahrt die Handlung und die Etappe, die jedem von ihnen zugeschrieben werden."
         },
         {
           "option_id": "swapped",
@@ -388,5 +388,7 @@
       "scope_note": "Der dem Vers vorausgehende Teil wird vollständig gezeigt. Diese Anmerkung vermischt weder den Bericht mit dem zitierten Vers noch behauptet sie eine Prüfung der Informanten."
     }
   ],
-  "translation_notes": {}
+  "translation_notes": {
+    "quiz:HQ-I02:roles:feedback_ar": "الاختيار يحفظ الفعل والمرحلة لكل منهما على حدة؛ لا يوهم نسبة العمل نفسه إلى كليهما."
+  }
 }

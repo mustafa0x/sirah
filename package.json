@@ -17,7 +17,6 @@
     "format:check": "oxfmt --check -c .oxfmtrc.json src vite.config.js wuchale.config.js index.html tests/*.test.js"
   },
   "dependencies": {
-    "navgo": "6.0.12",
     "svelte": "5.55.9",
     "three": "0.185.1"
   },
@@ -27,6 +26,7 @@
     "@sveltejs/vite-plugin-svelte": "7.1.2",
     "@tailwindcss/vite": "4.3.3",
     "@wuchale/svelte": "^0.21.4",
+    "navgo": "6.0.12",
     "tailwindcss": "4.3.3",
     "vite": "8.0.14",
     "vite-plugin-domain": "2.0.5",
