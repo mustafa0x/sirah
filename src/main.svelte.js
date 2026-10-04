@@ -10,12 +10,16 @@ import './style.css'
         import('./routes/Journey.svelte'),
     ])
     const props = $state({ Component: null, is_404: false })
-    const router = new Navgo([['/', Journey]], {
-        after_navigate(nav) {
-            props.is_404 = nav.status === 404
-            props.Component = nav.to?.route?.[1]?.default
+    const router = new Navgo(
+        Journey.paths.map((path) => [path, Journey]),
+        {
+            scroll_to_top: false,
+            after_navigate(nav) {
+                props.is_404 = nav.status === 404
+                props.Component = nav.to?.route?.[1]?.default
+            },
         },
-    })
+    )
     await router.init()
     mount(App, { target: document.body, props })
 })().catch((error) => {

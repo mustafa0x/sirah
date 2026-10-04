@@ -2,6 +2,8 @@ import { loadLocale } from 'wuchale/load-utils'
 import { default_language, language_direction, normalize_language } from './locale-config.js'
 
 export function saved_language() {
+    const linked = new URL(location.href).searchParams.get('lang')
+    if (linked) return normalize_language(linked)
     try {
         return normalize_language(localStorage.getItem('sirah_language'))
     } catch {
@@ -22,6 +24,13 @@ export async function init_i18n() {
 
 export function change_language(language) {
     // Reload so module-level chapter data is evaluated in the selected language too.
-    localStorage.setItem('sirah_language', normalize_language(language))
-    location.reload()
+    const next = normalize_language(language)
+    try {
+        localStorage.setItem('sirah_language', next)
+    } catch {
+        // The link still works when preference storage is blocked.
+    }
+    const url = new URL(location.href)
+    url.searchParams.set('lang', next)
+    location.assign(url.href)
 }

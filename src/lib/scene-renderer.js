@@ -7,6 +7,7 @@ import {
     worlds as world_definitions,
 } from './scene-manifest.js'
 import { evidence_dot } from './evidence.js'
+import { follow_link, journey_href } from './journey-links.js'
 import { chapter } from '../content/first-chapter.js'
 import { build_terrain, fbm, hash, load_grid, shelter_bank } from './scene-terrain.js'
 
@@ -111,6 +112,7 @@ export async function create_scene(
         set_evidence() {},
         set_active() {},
         set_insets() {},
+        set_links() {},
         dispose() {
             disposed = true
         },
@@ -800,11 +802,11 @@ export async function create_scene(
             }
         }
 
-        // Place labels are real buttons, so the scene is explorable without a pointer.
+        // Real links allow keyboard navigation, copying and opening places in another tab.
         let active_id = null
         const label_nodes = scene_pois.map((poi) => {
-            const node = document.createElement('button')
-            node.type = 'button'
+            const node = document.createElement('a')
+            node.addEventListener('click', (event) => follow_link(event, () => on_poi(poi)))
             if (poi.detail) {
                 // A small diamond; its name appears on hover, focus, or when it is open.
                 node.className =
@@ -812,13 +814,12 @@ export async function create_scene(
                 node.setAttribute('aria-label', poi.label)
                 const mark = document.createElement('span')
                 mark.className =
-                    'size-[13px] rotate-45 rounded-[2px] bg-gold border border-solid border-gold-bright shadow-[0_0_0_4px_rgba(232,178,87,0.25),0_0_14px_rgba(255,214,138,0.7)] transition-transform duration-200 ease-[ease] group-hover/poi:scale-125 group-aria-pressed/poi:scale-125'
+                    'size-[13px] rotate-45 rounded-[2px] bg-gold border border-solid border-gold-bright shadow-[0_0_0_4px_rgba(232,178,87,0.25),0_0_14px_rgba(255,214,138,0.7)] transition-transform duration-200 ease-[ease] group-hover/poi:scale-125 group-data-[active=true]/poi:scale-125'
                 const name = document.createElement('span')
                 name.className =
-                    'absolute top-full py-[4px] px-[10px] text-[#fff8ea] bg-[rgba(17,14,10,0.78)] border border-solid border-[rgba(255,236,200,0.4)] rounded-full font-serif text-[0.875rem] whitespace-nowrap opacity-0 transition-opacity duration-200 ease-[ease] group-hover/poi:opacity-100 group-focus-visible/poi:opacity-100 group-aria-pressed/poi:opacity-100'
+                    'absolute top-full py-[4px] px-[10px] text-[#fff8ea] bg-[rgba(17,14,10,0.78)] border border-solid border-[rgba(255,236,200,0.4)] rounded-full font-serif text-[0.875rem] whitespace-nowrap opacity-0 transition-opacity duration-200 ease-[ease] group-hover/poi:opacity-100 group-focus-visible/poi:opacity-100 group-data-[active=true]/poi:opacity-100'
                 name.textContent = poi.label
                 node.append(mark, name)
-                node.addEventListener('click', () => on_poi(poi))
                 labels.append(node)
                 return { poi, node }
             }
@@ -826,14 +827,13 @@ export async function create_scene(
                 "group/poi absolute top-0 left-0 grid justify-items-center max-w-[15rem] pt-0 px-0 pb-[26px] bg-transparent border-0 pointer-events-auto [translate:-50%_-100%] [&[hidden]]:hidden after:absolute after:bottom-0 after:left-1/2 after:w-px after:h-6 after:bg-[linear-gradient(rgba(255,240,210,0.9),rgba(255,240,210,0))] after:content-['']"
             const name = document.createElement('span')
             name.className =
-                'py-[6px] px-[13px] text-[#fff8ea] bg-[rgba(17,14,10,0.62)] border border-solid border-[rgba(255,236,200,0.4)] rounded-full font-serif text-[1rem] font-medium whitespace-nowrap backdrop-blur-[6px] transition-[background,color,border-color] duration-200 ease-[ease] group-hover/poi:text-gold-ink group-hover/poi:bg-gold group-hover/poi:border-gold-bright group-aria-pressed/poi:text-gold-ink group-aria-pressed/poi:bg-gold group-aria-pressed/poi:border-gold-bright mobile:text-[0.875rem]'
+                'py-[6px] px-[13px] text-[#fff8ea] bg-[rgba(17,14,10,0.62)] border border-solid border-[rgba(255,236,200,0.4)] rounded-full font-serif text-[1rem] font-medium whitespace-nowrap backdrop-blur-[6px] transition-[background,color,border-color] duration-200 ease-[ease] group-hover/poi:text-gold-ink group-hover/poi:bg-gold group-hover/poi:border-gold-bright group-data-[active=true]/poi:text-gold-ink group-data-[active=true]/poi:bg-gold group-data-[active=true]/poi:border-gold-bright mobile:text-[0.875rem]'
             name.textContent = poi.label
             const note = document.createElement('span')
             note.className =
-                'hidden -order-1 mb-2 py-[9px] px-3 text-ink bg-panel-solid border border-solid border-line rounded-[10px] text-[0.8125rem] leading-[1.45] text-left group-aria-pressed/poi:block'
+                'hidden -order-1 mb-2 py-[9px] px-3 text-ink bg-panel-solid border border-solid border-line rounded-[10px] text-[0.8125rem] leading-[1.45] text-left group-data-[active=true]/poi:block'
             note.textContent = poi.description
             node.append(name, note)
-            node.addEventListener('click', () => on_poi(poi))
             labels.append(node)
             return { poi, node }
         })
@@ -841,17 +841,24 @@ export async function create_scene(
         let evidence_on = false
         const evidence_nodes = new Map(
             chapter.sources.map((source) => {
-                const node = document.createElement('button')
-                node.type = 'button'
+                const node = document.createElement('a')
                 node.className = `absolute top-0 left-0 size-[11px] p-0 rounded-full border border-solid border-[rgba(255,255,255,0.7)] pointer-events-auto [translate:-50%_-50%] transition-transform duration-150 ease-[ease] hover:scale-150 focus-visible:scale-150 [&[hidden]]:hidden ${evidence_dot[source.kind]}`
                 node.title = `${source.number}. ${source.reference}`
                 node.setAttribute('aria-label', node.title)
                 node.hidden = true
-                node.addEventListener('click', () => on_source(source.id))
+                node.addEventListener('click', (event) =>
+                    follow_link(event, () => on_source(source.id)),
+                )
                 labels.append(node)
                 return [source.id, node]
             }),
         )
+        api.set_links = (context, at) => {
+            for (const { poi, node } of label_nodes)
+                node.href = journey_href(`/places/${poi.id}`, context, at)
+            for (const [id, node] of evidence_nodes)
+                node.href = journey_href(`/journey/hijrah/sources/${id}`, context, at)
+        }
         const place_evidence = () => {
             const width = host.clientWidth
             const height = host.clientHeight
@@ -911,7 +918,9 @@ export async function create_scene(
                 node.hidden = !visible
                 if (!visible) continue
                 node.style.transform = `translate(${x}px, ${y}px)`
-                node.setAttribute('aria-pressed', String(poi.id === active_id))
+                node.dataset.active = String(poi.id === active_id)
+                if (poi.id === active_id) node.setAttribute('aria-current', 'location')
+                else node.removeAttribute('aria-current')
             }
         }
 

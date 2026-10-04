@@ -26,6 +26,31 @@ TURATH_BOOK_ALLOWLIST=930,13606,9820 mise exec -- pnpm run dev:api
 
 `cat_id=24` and the book allowlist apply to the legacy REST `/api/turath/*` endpoints, not Ask's MCP research. An explicitly empty allowlist denies direct REST book/page retrieval. `TURATH_BASE_URL`, `TURATH_CLIENT`, `API_HOST`, and `API_PORT` can be set for a deployment. Credentials never enter browser code.
 
+## Linkable destinations
+
+Copy a paused horse-scene link:
+
+```text
+/journey/hijrah/pursuit/N06b?audience=young&lang=ar
+```
+
+`audience=young|new|deep` selects teaching presentation, not inferred user traits. `lang` selects the interface; explicit URL context overrides saved defaults for that visit. Stage/beat, place, cached source, chapter section/reading/source unit/question, timeline, glossary, Ask, Help and recap destinations have Navgo URLs. Valid in-app navigation retains the canvas and private same-session answers; fresh tabs reconstruct public content, not chat or grading state. Ask links never submit automatically. Live research citations keep their original external Turath page links.
+
+See [the routing contract](docs/todo/linkable-navigation.md) for paths, public practice filters and continuity rules.
+
+### Production SPA fallback
+
+Vite dev/preview supports learner deep paths and preserves missing asset 404s. Production hosting must implement this separately, with API and static exceptions **before** the SPA fallback. For example, at the domain root in Nginx (replace the build path and API upstream):
+
+```nginx
+root /srv/sirahviz/dist;
+location /api/ { proxy_pass http://127.0.0.1:8000; }
+location /assets/ { try_files $uri =404; }
+location / { try_files $uri $uri/ /index.html; }
+```
+
+Serve only the build directory, not the repository, credentials, private artifacts or holdout fixtures. This is deployment guidance, not a verified production deployment.
+
 ## Model-backed Ask
 
 Set `OPENAI_API_KEY` in the server environment (or ignored `.mise.local.toml`), then restart the API. The guide defaults to `gpt-6-luna` (GPT‑6 Luna), configured in `mise.toml`; an explicit `GUIDE_MODEL` is preserved and overrides a shared `OPENAI_MODEL` setting. `OPENAI_BASE_URL` optionally selects an OpenAI-compatible Responses endpoint. `MCP_URL` defaults to `https://api.turath.ai/mcp`, with optional server-only `MCP_TOKEN`.
@@ -57,7 +82,7 @@ The tests cover journey freshness/detours/media tickets, legacy Turath REST boun
 
 ## Localization
 
-English is the source language. `locales.config.json` is the shared manifest for extraction, the header selector, direction, and API language validation. The app supports 20 languages, matching Turath’s original set: English, Arabic, Urdu, Persian, Indonesian, Turkish, Hindi, Bengali, Somali, Malay, German, Amharic, French, Dutch, Hausa, Pashto, Sinhala, Tamil, Swahili, and Thai. Wuchale extracts Svelte interface text and JavaScript chapter, map-label, and guide-answer text into `src/locales/{code}.po`. Arabic source quotations remain untouched. The selector saves the preference locally and reloads the app; changing languages restarts the journey. Catalogs load before chapter modules are evaluated. Arabic, Urdu, Persian, and Pashto use RTL text layout while the geographic scene retains its orientation.
+English is the source language. `locales.config.json` is the shared manifest for extraction, the header selector, direction, and API language validation. The app supports 20 languages, matching Turath’s original set: English, Arabic, Urdu, Persian, Indonesian, Turkish, Hindi, Bengali, Somali, Malay, German, Amharic, French, Dutch, Hausa, Pashto, Sinhala, Tamil, Swahili, and Thai. Wuchale extracts Svelte interface text and JavaScript chapter, map-label, and guide-answer text into `src/locales/{code}.po`. Arabic source quotations remain untouched. The selector saves the preference locally and reloads the same public destination with normalized `lang`; cold playback remains paused. The linked beat survives, but private in-memory conversations and grading sessions are not serialized across the reload. Catalogs load before chapter modules are evaluated. Arabic, Urdu, Persian, and Pashto use RTL text layout while the geographic scene retains its orientation.
 
 After editing copy, run `pnpm i18n:extract`, fill new translations in every catalog, and run `pnpm test && pnpm build`. Automatic AI translation is disabled during extraction so it does not make unexpected paid requests. Tests enforce catalog completeness and placeholder parity across all 20 languages. Commit the catalogs and generated loaders, but not `src/locales/.wuchale/`. All supported languages use the same model-backed endpoint; the model answers in the question’s language, with interface language as a fallback. Offline notes and suggested questions are translated by Wuchale; free-form offline matching remains limited to English and Arabic. The additional 18 catalogs are machine-translated drafts; all wording, like the English and Arabic drafts, still requires native-language and scholarly/editorial review.
 

@@ -1,8 +1,10 @@
 <script>
     // The chapter reader. Chapters are Arabic for now, so its own wording is Arabic too.
-    import { tick } from 'svelte'
+    import { onMount, tick } from 'svelte'
+    import { journey_href } from './journey-links.js'
+    const { route } = window.navgo
     import { fade, fly } from 'svelte/transition'
-    import { citation, display_text, load_chapter, part_role } from './chapters.svelte.js'
+    import { citation, display_text, part_role } from './chapters.svelte.js'
     import {
         create_practice,
         current_question,
@@ -14,22 +16,19 @@
         submit_practice,
     } from './hijrah-practice.js'
 
-    let { chapter_id, on_close } = $props()
-
-    let chapter = $state(null)
-    let failed = $state(false)
-    let tab = $state('story')
+    let {
+        chapter_id,
+        chapter,
+        destination,
+        session = $bindable(),
+        on_close,
+        on_navigate,
+    } = $props()
+    let tab = $derived(
+        ['readings', 'sources'].includes(destination.tab) ? 'sources' : destination.tab,
+    )
     let body = $state()
-    let lit = $state([])
-
-    $effect(() => {
-        chapter = null
-        failed = false
-        tab = 'story'
-        load_chapter(chapter_id)
-            .then((payload) => (chapter = payload))
-            .catch(() => (failed = true))
-    })
+    let lit = $derived(destination.tab === 'readings' ? [destination.target_id] : [])
 
     const tabs = [
         ['story', 'القصة'],
@@ -76,35 +75,32 @@
         })
     })
 
-    async function show_sources(note) {
-        if (!note) return
-        const packets = new Set(note.source_refs.map((ref) => ref.packet_id))
-        lit = readings
-            .filter((reading) => reading.source_refs.some((ref) => packets.has(ref.packet_id)))
-            .map((reading) => reading.reading_id)
-        tab = 'sources'
-        await tick()
-        body?.querySelector(`[data-reading="${lit[0]}"]`)?.scrollIntoView({ block: 'start' })
+    function path(tab, id = null) {
+        return `/chapters/${chapter_id}/${tab}${id ? `/${encodeURIComponent(id)}` : ''}`
     }
 
-    async function go_to_section(section_id) {
-        tab = 'story'
-        await tick()
-        body?.querySelector(`[data-section="${section_id}"]`)?.scrollIntoView({ block: 'start' })
+    function href(tab, id = null) {
+        return journey_href(path(tab, id), destination, destination.at)
+    }
+
+    function note_reading(note) {
+        return readings.find((reading) =>
+            reading.source_refs.some((ref) =>
+                note.source_refs.some((source) => source.packet_id === ref.packet_id),
+            ),
+        )?.reading_id
     }
 
     function select_tab(next) {
-        tab = next
-        lit = []
-        body?.scrollTo({ top: 0 })
+        on_navigate(path(next))
     }
 
     // Practice, on the same deterministic engine as the journey.
     // Lesson questions first; questions on reading the texts are offered after them.
-    let study = $state(false)
-    let practice = $state(null)
+    let study = $derived(Boolean(session.study))
+    let practice = $derived(session.practice ?? null)
     let tick_count = $state(0)
-    let passage = $state([])
+    let passage = $derived(session.passage ?? [])
     let question = $derived(tick_count >= 0 && practice ? current_question(practice) : null)
     let result = $derived(tick_count >= 0 && question ? practice_feedback(practice) : null)
 
@@ -135,12 +131,13 @@
     }
     let study_count = $derived(chapter ? questions_of(true).length : 0)
 
-    function start_practice(source_study = false) {
-        study = source_study
+    function start_practice(source_study = false, navigate = true) {
+        session.study = source_study
         const questions = questions_of(source_study)
-        practice = questions.length ? create_practice(chapter, questions) : null
-        passage = []
+        session.practice = questions.length ? create_practice(chapter, questions) : null
+        session.passage = []
         tick_count += 1
+        if (navigate) on_navigate(path('practice', questions[0]?.question_id))
     }
 
     function answer(option_id) {
@@ -149,7 +146,7 @@
     }
 
     function open_passage() {
-        passage = inspect_practice_source(practice, chapter)
+        session.passage = inspect_practice_source(practice, chapter)
             .map((unit) => ({ unit, role: part_role(unit), text: display_text(unit.text_ar) }))
             .filter((part) => part.text && part.role !== 'chain')
         tick_count += 1
@@ -157,12 +154,50 @@
 
     function next() {
         next_practice(practice)
-        passage = []
+        session.passage = []
         tick_count += 1
+        on_navigate(path('practice', current_question(practice)?.question_id))
     }
 
-    $effect(() => {
-        if (tab === 'practice' && chapter && !practice) start_practice()
+    onMount(() => {
+        let disposed = false
+        const unsubscribe = route.subscribe(async (current) => {
+            const key = current.url.href
+            await tick()
+            if (disposed || key !== location.href || !chapter) return
+            const target = destination.target_id
+            if (tab === 'practice') {
+                const linked = chapter.questions.find((q) => q.question_id === target)
+                if (!practice || (linked && study !== (linked.practice_scope === 'source_study')))
+                    start_practice(linked?.practice_scope === 'source_study', false)
+                if (linked)
+                    practice.index = practice.questions.findIndex((q) => q.question_id === target)
+                tick_count += 1
+            }
+            const selector =
+                destination.tab === 'story'
+                    ? 'data-section'
+                    : destination.tab === 'readings'
+                      ? 'data-reading'
+                      : 'data-unit'
+            const fragment = decodeURIComponent(current.url.hash.slice(1))
+            await tick()
+            if (disposed || key !== location.href) return
+            const element = fragment
+                ? document.getElementById(fragment)
+                : target
+                  ? body?.querySelector(`[${selector}="${CSS.escape(target)}"]`)
+                  : null
+            if (element) {
+                const details = element.closest('details')
+                if (details) details.open = true
+                element.scrollIntoView({ block: 'start' })
+            } else if (!target) body?.scrollTo({ top: 0 })
+        })
+        return () => {
+            disposed = true
+            unsubscribe()
+        }
     })
 
     const level_name = { beginner: 'مبتدئ', intermediate: 'متوسط', expert: 'متقدم' }
@@ -173,10 +208,10 @@
 {#snippet marker(id)}
     {@const note = notes.get(id)}
     {#if note}
-        <button
+        <a
             class="ms-1 align-super px-[5px] border-0 text-[0.75rem] font-sans font-semibold text-gold bg-[rgba(232,178,87,0.12)] rounded-full hover:bg-gold hover:text-gold-ink"
             aria-label={`المصدر ${note.number}`}
-            onclick={() => show_sources(note)}>{note.number}</button
+            href={href('readings', note_reading(note))}>{note.number}</a
         >
     {/if}
 {/snippet}
@@ -218,11 +253,11 @@
         aria-label="أقسام الفصل"
     >
         {#each tabs as [id, name] (id)}
-            <button
-                class="py-3 px-3 text-[0.9375rem] text-ink-soft whitespace-nowrap bg-transparent border-0 border-b-2 border-solid border-transparent hover:text-ink aria-selected:text-gold-bright aria-selected:border-gold"
-                role="tab"
-                aria-selected={tab === id}
-                onclick={() => select_tab(id)}>{name}</button
+            <a
+                class="py-3 px-3 text-[0.9375rem] text-ink-soft whitespace-nowrap bg-transparent border-0 border-b-2 border-solid border-transparent hover:text-ink data-[active=true]:text-gold-bright data-[active=true]:border-gold"
+                href={href(id)}
+                aria-current={tab === id ? 'page' : undefined}
+                data-active={tab === id}>{name}</a
             >
         {/each}
     </nav>
@@ -230,16 +265,16 @@
     <div
         class="flex-1 overflow-y-auto px-7 py-6 [scrollbar-width:thin] [scrollbar-color:#6d5529_transparent] mobile:px-5"
         bind:this={body}
+        data-scroll-id="chapter-reader"
     >
-        {#if failed}
-            <p class="text-ink-soft">تعذّر تحميل الفصل.</p>
-        {:else if !chapter}
+        {#if !chapter}
             <p class="text-ink-soft">جارٍ التحميل…</p>
         {:else if tab === 'story'}
             <div class="grid gap-7" in:fade={{ duration: 200 }}>
                 {#each chapter.overview as block (block.paragraph_id)}
                     <p
                         class="font-serif text-[1.3125rem] leading-[1.85] text-ink py-4 px-5 bg-[rgba(232,178,87,0.08)] border-0 border-s-[3px] border-solid border-gold rounded-e-xl"
+                        id={block.paragraph_id}
                     >
                         {block.text_ar}{@render marker(block.paragraph_id)}
                     </p>
@@ -250,9 +285,9 @@
                     <ol class="grid gap-1 list-none">
                         {#each chapter.outline as point, index (point.point_id)}
                             <li>
-                                <button
+                                <a
                                     class="flex gap-3 items-baseline w-full py-[6px] px-0 text-start text-ink-soft bg-transparent border-0 hover:text-gold-bright"
-                                    onclick={() => go_to_section(point.section_id)}
+                                    href={href('story', point.section_id)}
                                 >
                                     <span class="min-w-5 text-gold font-semibold"
                                         >{(index + 1).toLocaleString('ar')}</span
@@ -260,20 +295,20 @@
                                     <span class="font-serif text-[1.0625rem] leading-[1.6]"
                                         >{point.text_ar}</span
                                     >
-                                </button>
+                                </a>
                             </li>
                         {/each}
                         {#if chapter.in_depth.length}
                             <li>
-                                <button
+                                <a
                                     class="flex gap-3 items-baseline w-full py-[6px] px-0 text-start text-ink-soft bg-transparent border-0 hover:text-gold-bright"
-                                    onclick={() => go_to_section('in_depth')}
+                                    href={href('story', 'in_depth')}
                                 >
                                     <span class="min-w-5 text-gold">+</span>
                                     <span class="font-serif text-[1.0625rem] leading-[1.6]"
                                         >للتعمق</span
                                     >
-                                </button>
+                                </a>
                             </li>
                         {/if}
                     </ol>
@@ -282,7 +317,7 @@
                     <section class="grid gap-3 scroll-mt-4" data-section={section.section_id}>
                         <h3 class={heading}>{section.title_ar}</h3>
                         {#each section.paragraphs as block (block.paragraph_id)}
-                            <p class={paragraph}>
+                            <p class={paragraph} id={block.paragraph_id}>
                                 {block.text_ar}{@render marker(block.paragraph_id)}
                             </p>
                         {/each}
@@ -296,10 +331,13 @@
                     >
                         <p class="text-gold text-[0.875rem] font-semibold">للتعمق</p>
                         {#each chapter.in_depth as section (section.section_id)}
-                            <section class="grid gap-3">
+                            <section
+                                class="grid gap-3 scroll-mt-4"
+                                data-section={section.section_id}
+                            >
                                 <h3 class={heading}>{section.title_ar}</h3>
                                 {#each section.paragraphs as block (block.paragraph_id)}
-                                    <p class={paragraph}>
+                                    <p class={paragraph} id={block.paragraph_id}>
                                         {block.text_ar}{@render marker(block.paragraph_id)}
                                     </p>
                                 {/each}
@@ -334,6 +372,7 @@
                                         {#each chain as part (part.unit.unit_id)}
                                             <p
                                                 class="mt-2 font-arabic text-[1.0625rem] leading-[1.9]"
+                                                data-unit={part.unit.unit_id}
                                             >
                                                 {part.text}
                                             </p>
@@ -342,13 +381,17 @@
                                 {/if}
                                 {#each block.parts.filter((part) => part.role !== 'chain') as part (part.unit.unit_id)}
                                     {#if part.role === 'note'}
-                                        <p class="font-arabic text-[1rem] leading-[1.9] text-muted">
+                                        <p
+                                            class="font-arabic text-[1rem] leading-[1.9] text-muted"
+                                            data-unit={part.unit.unit_id}
+                                        >
                                             {part.text}
                                         </p>
                                     {:else}
                                         <blockquote
                                             class="py-4 px-5 font-arabic text-[1.375rem] leading-[2] text-[#fff6e3] bg-[rgba(0,0,0,0.32)] border-0 border-s-[3px] border-solid rounded-e-xl data-[quran=true]:border-[#fff1c4] border-gold"
                                             data-quran={part.role === 'quran'}
+                                            data-unit={part.unit.unit_id}
                                         >
                                             {part.text}
                                         </blockquote>

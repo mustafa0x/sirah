@@ -12,6 +12,8 @@
         evidence,
         active_poi_id,
         insets,
+        link_context,
+        link_at,
         on_poi,
         on_source,
     } = $props()
@@ -52,6 +54,7 @@
     $effect(() => world?.set_evidence(Boolean(evidence)))
     $effect(() => world?.set_insets(insets))
     $effect(() => world?.set_active(active_poi_id))
+    $effect(() => world?.set_links(link_context, link_at))
 </script>
 
 <div class="group/scene absolute inset-0" data-scene-status={status}>

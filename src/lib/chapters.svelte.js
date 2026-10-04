@@ -45,7 +45,8 @@ export const catalog = $state({
 
 export function load_chapter(chapter_id) {
     const entry = catalog.chapters.find((item) => item.chapter_id === chapter_id)
-    const load = entry && payloads[`../content/hijrah-chapters/${entry.path}`]
+    const path = entry?.path ?? `${chapter_id}/chapter.ar.json`
+    const load = payloads[`../content/hijrah-chapters/${path}`]
     return load ? load() : Promise.reject(new Error(`Unknown chapter: ${chapter_id}`))
 }
 

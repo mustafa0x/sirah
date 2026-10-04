@@ -1,12 +1,60 @@
+<script module>
+    import {
+        beat_position,
+        follow_link,
+        journey_href,
+        journey_paths,
+        link_context,
+        resolve_journey_link,
+        valid_chapter_link,
+    } from '../lib/journey-links.js'
+    import { chapters_for_place, load_chapter } from '../lib/chapters.svelte.js'
+
+    export const paths = journey_paths
+    let checkpoint_view = () => {}
+    export function before_route_leave() {
+        checkpoint_view()
+    }
+    function resolve_link(url) {
+        return resolve_journey_link(
+            url,
+            {
+                steps: source_chapter.steps,
+                sources: source_chapter.sources,
+                pois: scene_pois,
+                entries: timeline,
+                terms: glossary,
+                questions: questions_for,
+            },
+            { lang: saved_language(), audience: saved_mode() },
+        )
+    }
+    export async function loader({ url }) {
+        const target = resolve_link(url)
+        if (!target) throw Object.assign(new Error('Page not found'), { status: 404 })
+        let payload = null
+        if (target.kind === 'chapter') {
+            try {
+                payload = await load_chapter(target.chapter_id)
+            } catch {
+                throw Object.assign(new Error('Page not found'), { status: 404 })
+            }
+            if (!valid_chapter_link(target, payload))
+                throw Object.assign(new Error('Page not found'), { status: 404 })
+        }
+        return { target, payload, href: url.href }
+    }
+</script>
+
 <script>
     import { onMount } from 'svelte'
+    const { route } = window.navgo
     import { change_language, saved_language } from '../lib/i18n.js'
     import { locales } from '../lib/locale-config.js'
     import { SvelteSet } from 'svelte/reactivity'
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
     import ChapterReader from '../lib/ChapterReader.svelte'
-    import { chapters_for_place } from '../lib/chapters.svelte.js'
     import {
         chapter as source_chapter,
         cue_for,
@@ -18,9 +66,9 @@
         begin_navigation,
         begin_play,
         begin_question,
-        close_panel,
         commit_navigation,
         complete_chapter,
+        close_panel,
         create_journey_state,
         open_source,
         pause,
@@ -82,7 +130,7 @@
         'Is the exact route known?',
     ]
     const language = saved_language()
-    let mode = $state(saved_mode())
+    let mode = $state(link_context(new URL(location.href), { audience: saved_mode() }).audience)
     let chapter = $state(prepare_chapter(mode))
     let narrated = $derived(
         chapter.steps.some((step) => step.paragraphs.some((paragraph) => paragraph.narrated)),
@@ -197,6 +245,17 @@
     let practice_done = $derived(Boolean(practice) && !practice_question)
     // The chapter open in the reader, if any.
     let reading_chapter = $state(null)
+    let reader_destination = $state(null)
+    let reader_payload = $state(null)
+    const reader_sessions = new Map()
+    let reader_session = $state(null)
+    const view_snapshots = new Map()
+    let view_index = null
+    let view_href = ''
+    let applied_link = ''
+    let mounted = $state(false)
+    let applying_link = false
+    let writing_link = false
     let card_visible = $derived(
         journey.started &&
             sheet !== 'reading' &&
@@ -217,8 +276,12 @@
     $effect(() => {
         const id = journey.source_id
         if (!id || !source_list) return
-        tick().then(() =>
-            source_list?.querySelector(`[data-source="${id}"]`)?.scrollIntoView({ block: 'start' }),
+        tick().then(
+            () =>
+                journey.source_id === id &&
+                source_list
+                    ?.querySelector(`[data-source="${id}"]`)
+                    ?.scrollIntoView({ block: 'start' }),
         )
     })
     let drawer_sources = $derived(
@@ -236,7 +299,7 @@
     )
     let mood = $derived(journey.started ? step_scenes[selected_step.id].mood : 'gold')
     // The route is drawn as the stage plays, so scrubbing moves the journey with it.
-    let route = $derived(
+    let scene_route = $derived(
         journey.started
             ? route_at(selected_step.id, on_guided_stop ? stop_progress : 1)
             : idle_route,
@@ -309,6 +372,7 @@
 
     function select_mode(next_mode) {
         if (next_mode === mode) return
+        remember_view()
         const previous = get_step(journey.guided_position.step_id)
         const seconds = clock?.snapshot().seconds ?? journey.guided_position.seconds
         const was_playing = journey.is_playing
@@ -335,6 +399,26 @@
         )
         journey.steps = chapter.steps
         journey.guided_position.seconds = remap_position(previous, get_step(previous.id), seconds)
+        let path = location.pathname + location.hash
+        if (practice) {
+            const question_id = current_question(practice)?.question_id
+            if (!mode_levels[mode].levels.includes(practice_level)) practice_level = null
+            const questions = questions_for(mode, { level: practice_level, step_id: practice_step })
+            if (questions.length) {
+                practice.questions = questions
+                practice.index = Math.max(
+                    0,
+                    questions.findIndex((q) => q.question_id === question_id),
+                )
+            } else practice = null
+            practice_units = []
+            practice_tick += 1
+            if (path.startsWith('/journey/hijrah/practice'))
+                path = practice
+                    ? `/journey/hijrah/practice/${current_question(practice).question_id}`
+                    : scene_path()
+        }
+        write_link(path, { at: new URL(location.href).searchParams.get('at') })
         clock?.set_position(journey.guided_position.seconds)
         evidence_on = mode === 'deep'
         timeline_open = mode === 'deep'
@@ -357,13 +441,24 @@
         advance_timer = 0
     }
 
+    function clear_destinations() {
+        practice = null
+        practice_units = []
+        reading_chapter = null
+        help_open = false
+        open_term = null
+    }
+
     function start(presentation) {
+        remember_view()
+        clear_destinations()
         cancel_advance()
         active_poi = null
         chapter = prepare_chapter(mode)
         journey.steps = chapter.steps
         start_journey(journey, presentation)
         recent_turns = []
+        write_link(scene_path())
         clock?.set_position(0)
         if (presentation === 'scene') {
             set_sound(true)
@@ -412,12 +507,26 @@
         else play()
     }
 
-    function select_step(step_id, purpose = 'guided', autoplay = journey.is_playing) {
+    function select_step(
+        step_id,
+        purpose = 'guided',
+        autoplay = journey.is_playing,
+        replace = false,
+    ) {
         if (!chapter.steps.some((step) => step.id === step_id)) {
             announce('That chapter stop is not available.')
             return
         }
-        if (step_id === journey.viewed_step_id && !journey.navigation_pending) return
+        if (
+            step_id === journey.viewed_step_id &&
+            !journey.navigation_pending &&
+            !practice &&
+            !reading_chapter &&
+            !sheet
+        )
+            return
+        remember_view()
+        clear_destinations()
         cancel_advance()
         active_poi = null
         let ticket
@@ -431,6 +540,7 @@
         const timer = window.setTimeout(() => {
             pending_timers.delete(timer)
             if (!commit_navigation(journey, ticket, journey.presentation)) return
+            write_link(scene_path(), { replace })
             if (purpose === 'detour') {
                 announce('Onward stage opened. Your guided position is preserved.')
                 return
@@ -452,6 +562,7 @@
     }
 
     function resume_from_detour() {
+        remember_view()
         const ticket = begin_navigation(
             journey,
             journey.guided_position.step_id,
@@ -461,6 +572,7 @@
         const timer = window.setTimeout(() => {
             pending_timers.delete(timer)
             if (commit_navigation(journey, ticket, journey.presentation)) {
+                write_link(scene_path())
                 clock?.set_position(journey.guided_position.seconds)
                 announce('You are back where you left the guided journey. Press Play to continue.')
             }
@@ -469,11 +581,13 @@
     }
 
     function seek_to(seconds) {
+        remember_view()
         cancel_advance()
         active_poi = null
         narrator.seek()
-        clock?.seek(seconds)
         journey.guided_position.seconds = seconds
+        write_link(scene_path())
+        clock?.seek(seconds)
     }
 
     function finish_stop() {
@@ -483,14 +597,17 @@
         }
         announce('Stage complete. Continuing to the next stage.')
         const next_id = chapter.steps[selected_index + 1].id
-        advance_timer = window.setTimeout(() => select_step(next_id, 'guided', true), 1600)
+        advance_timer = window.setTimeout(() => select_step(next_id, 'guided', true, true), 1600)
     }
 
     function open_question() {
         if (journey.navigation_pending) return
+        remember_view()
+        clear_destinations()
         cancel_advance()
         clock?.pause()
         begin_question(journey, clock?.snapshot().seconds ?? journey.guided_position.seconds)
+        write_link('/journey/hijrah/ask', { at: current_cue?.id })
         tick().then(() => question_input?.focus())
     }
 
@@ -535,6 +652,34 @@
         if (event.key === 'Enter' && !event.shiftKey) submit_question(event)
     }
 
+    function toggle_help() {
+        if (help_open) return return_link('help')
+        remember_view()
+        help_open = true
+        if (journey.is_playing) pause_playback()
+        write_link('/journey/hijrah/help', { at: current_cue?.id })
+    }
+
+    function toggle_term(id) {
+        if (open_term === id) return return_link('term')
+        remember_view()
+        open_term = id
+        if (journey.is_playing) pause_playback()
+        write_link(`/journey/hijrah/glossary/${id}`, { at: current_cue?.id })
+    }
+
+    function toggle_timeline() {
+        if (timeline_open) {
+            timeline_open = false
+            if (location.pathname.includes('/timeline')) write_link(scene_path())
+        } else {
+            remember_view()
+            timeline_open = true
+            if (journey.is_playing) pause_playback()
+            write_link(`/journey/hijrah/timeline${timeline_pick ? `/${timeline_pick}` : ''}`)
+        }
+    }
+
     function toggle_evidence() {
         evidence_on = !evidence_on
         if (evidence_on) active_poi = null
@@ -551,11 +696,27 @@
     }
 
     function pick_entry(item, go = false) {
+        if (go) {
+            remember_view()
+            clear_destinations()
+            if (journey.is_playing) pause_playback()
+            if (journey.panel !== 'none') close_panel(journey)
+        }
         timeline_pick = item.id
         // Young learners follow fewer stages; an entry whose stage is left out stays in view.
         const shown = chapter.steps.some((step) => step.id === item.stage)
-        if (go && shown && item.stage !== journey.viewed_step_id)
-            select_step(item.stage, 'guided', false)
+        if (go) {
+            if (!shown) {
+                chapter = prepare_chapter(mode, [item.stage, journey.guided_position.step_id])
+                journey.steps = chapter.steps
+            }
+            if (item.stage !== journey.viewed_step_id) {
+                const ticket = begin_navigation(journey, item.stage, 'guided', 0)
+                commit_navigation(journey, ticket, journey.presentation)
+                clock?.set_position(0)
+            }
+            write_link(`/journey/hijrah/timeline/${item.id}`)
+        }
     }
 
     // Scrubbing picks the entry under the handle; letting go moves the journey there.
@@ -572,6 +733,12 @@
     function open_practice({ step_id = null, level = null } = {}) {
         const questions = questions_for(mode, { step_id, level })
         if (!questions.length) return
+        remember_view()
+        clear_destinations()
+        if (journey.panel !== 'none') {
+            close_panel(journey)
+            return_to_guided(journey)
+        }
         if (journey.is_playing) pause_playback()
         if (journey.presentation === 'reading') toggle_reading(journey)
         active_poi = null
@@ -580,6 +747,7 @@
         practice_units = []
         practice = create_practice(packet, questions)
         practice_tick += 1
+        write_link(`/journey/hijrah/practice/${questions[0].question_id}`, { at: current_cue?.id })
         announce(`Practice opened. ${questions.length} questions.`)
     }
 
@@ -598,14 +766,18 @@
     }
 
     function next_question() {
+        remember_view()
         next_practice(practice)
         practice_units = []
         practice_tick += 1
+        const question_id = current_question(practice)?.question_id
+        write_link(`/journey/hijrah/practice${question_id ? `/${question_id}` : ''}`, {
+            at: current_cue?.id,
+        })
     }
 
     function close_practice() {
-        practice = null
-        practice_units = []
+        return_link('practice')
     }
 
     // Stages whose questions were missed or skipped, to reread.
@@ -622,13 +794,13 @@
     let stage_chapters = $derived(chapters_for_place(selected_step.id))
     let place_chapters = $derived(active_poi ? chapters_for_place(active_poi.place) : [])
 
-    function open_chapter(chapter_id) {
-        cancel_advance()
-        if (journey.is_playing) pause_playback()
-        reading_chapter = chapter_id
-    }
-
     function select_poi(poi) {
+        remember_view()
+        clear_destinations()
+        if (journey.panel !== 'none') {
+            close_panel(journey)
+            return_to_guided(journey)
+        }
         active_poi = active_poi?.id === poi.id ? null : poi
         if (active_poi?.detail && journey.is_playing) pause_playback()
         announce(
@@ -636,10 +808,17 @@
                 ? `${poi.label}. ${active_detail?.text ?? poi.description}`
                 : 'Returned to the guided view.',
         )
+        write_link(active_poi ? `/places/${poi.id}` : scene_path(), {
+            at: active_poi ? current_cue?.id : null,
+        })
     }
 
     function view_source(source_id) {
         if (!source_id || !find_source(source_id)) return
+        remember_view()
+        clear_destinations()
+        journey.guide_generation += 1
+        journey.question_pending = false
         cancel_advance()
         if (journey.panel !== 'source') source_origin = journey.panel
         clock?.pause()
@@ -648,24 +827,24 @@
             source_id,
             clock?.snapshot().seconds ?? journey.guided_position.seconds,
         )
+        // Live citations use their original Turath page, not answer-local ids.
+        write_link(
+            get_source(source_id) ? `/journey/hijrah/sources/${source_id}` : '/journey/hijrah/ask',
+            { at: current_cue?.id, force: !get_source(source_id) },
+        )
     }
 
     function close_sheet() {
-        if (sheet === 'reading') {
-            toggle_reading(journey)
-            return
-        }
-        const reopen_question = sheet === 'source' && source_origin === 'question'
-        close_panel(journey)
-        if (reopen_question) journey.panel = 'question'
-        else return_to_guided(journey)
-        source_origin = 'none'
-        announce('Panel closed.')
+        return_link()
     }
 
     function open_reading() {
+        remember_view()
+        clear_destinations()
+        if (journey.panel !== 'none') close_panel(journey)
         if (journey.is_playing) pause_playback()
         if (journey.presentation !== 'reading') toggle_reading(journey)
+        write_link(scene_path())
     }
 
     function show_action() {
@@ -676,7 +855,9 @@
         if (is_last_step) {
             cancel_advance()
             clock?.pause()
+            remember_view()
             complete_chapter(journey)
+            write_link('/journey/hijrah/recap')
             return
         }
         select_step(
@@ -688,9 +869,10 @@
 
     function keydown(event) {
         if (event.key === 'Escape') {
-            if (help_open) help_open = false
-            else if (reading_chapter) reading_chapter = null
-            else if (sheet) close_sheet()
+            if (help_open) return_link('help')
+            else if (reading_chapter || sheet) return_link()
+            else if (practice) close_practice()
+            else if (open_term) return_link('term')
             return
         }
         // Keys typed while the chapter is open belong to it, not to playback.
@@ -702,6 +884,277 @@
             if (sheet !== 'reading') toggle_play()
         } else if (event.key === 'ArrowRight') move_step(1)
         else if (event.key === 'ArrowLeft') move_step(-1)
+    }
+
+    function context() {
+        return { lang: language, audience: mode, view: journey.presentation }
+    }
+
+    function href(path, at = current_cue?.id ?? selected_step.paragraphs[0]?.id) {
+        return journey_href(
+            path,
+            { ...context(), ...(practice ? { level: practice_level, practice_step } : {}) },
+            at,
+        )
+    }
+
+    function scene_path() {
+        const step = get_step(journey.viewed_step_id)
+        const seconds =
+            step.id === journey.guided_position.step_id ? journey.guided_position.seconds : 0
+        const beat = cue_for(step, seconds)?.id ?? step.paragraphs[0].id
+        return `/journey/hijrah/${step.id}/${beat}`
+    }
+
+    function remember_view() {
+        if (view_index === null) return
+        view_snapshots.set(view_index, {
+            href: view_href,
+            journey: $state.snapshot(journey),
+            active_poi_id: active_poi?.id,
+            help_open,
+            evidence_on,
+            timeline_open,
+            timeline_pick,
+            open_term,
+            source_origin,
+            practice: $state.snapshot(practice),
+            practice_step,
+            practice_level,
+            practice_units: $state.snapshot(practice_units),
+            reading_chapter,
+            reader_destination: $state.snapshot(reader_destination),
+            reader_payload: $state.snapshot(reader_payload),
+            focus_id: document.activeElement?.id,
+            focus_href: document.activeElement?.closest('a')?.getAttribute('href'),
+        })
+    }
+
+    function write_link(path, { replace = false, at = null, force = false } = {}) {
+        if (applying_link || !mounted) return
+        const url = href(path, at)
+        if (!force && url === `${location.pathname}${location.search}${location.hash}`) return
+        writing_link = true
+        window.navgo[replace ? 'replace_state' : 'push_state'](url)
+        writing_link = false
+        view_index = history.state?.__navgo?.idx ?? 0
+        view_href = location.href
+        applied_link = `${view_href}|${view_index}`
+        remember_view()
+    }
+
+    function return_link(kind = reading_chapter ? 'chapter' : (sheet ?? 'scene')) {
+        const is_parent = (view) =>
+            kind === 'chapter'
+                ? !view.reading_chapter
+                : kind === 'practice'
+                  ? !view.practice
+                  : kind === 'place'
+                    ? !view.active_poi_id
+                    : kind === 'help'
+                      ? !view.help_open
+                      : kind === 'term'
+                        ? !view.open_term
+                        : kind === 'reading'
+                          ? view.journey.presentation !== 'reading'
+                          : kind === 'source'
+                            ? view.journey.panel !== 'source'
+                            : kind === 'question'
+                              ? view.journey.panel === 'none'
+                              : true
+        for (let index = view_index - 1; index >= 0; index -= 1) {
+            const view = view_snapshots.get(index)
+            if (view && is_parent(view)) {
+                const parent_url = new URL(view.href)
+                if (link_context(parent_url).audience !== mode) {
+                    const path = view.practice
+                        ? practice
+                            ? `/journey/hijrah/practice/${current_question(practice)?.question_id ?? ''}`
+                            : scene_path()
+                        : parent_url.pathname + parent_url.hash
+                    const next = href(path, parent_url.searchParams.get('at'))
+                    view_snapshots.set(view_index + 1, {
+                        ...view,
+                        href: new URL(next, location.href).href,
+                        journey: {
+                            ...view.journey,
+                            guided_position: { ...journey.guided_position },
+                        },
+                        practice: view.practice ? $state.snapshot(practice) : null,
+                        practice_level,
+                        practice_step,
+                    })
+                    window.navgo.goto(next)
+                } else history.go(index - view_index)
+                return
+            }
+        }
+        window.navgo.goto(journey_href(scene_path(), { ...context(), view: 'scene' }))
+    }
+
+    function chapter_navigation(path) {
+        window.navgo.goto(href(path))
+    }
+
+    async function apply_link(url, route_data) {
+        const index = history.state?.__navgo?.idx ?? 0
+        const key = `${url.href}|${index}`
+        if (key === applied_link) return
+        const target = resolve_link(url)
+        if (!target) return
+        if (target.lang !== language) {
+            location.assign(url.href)
+            return
+        }
+        if (
+            target.kind === 'chapter' &&
+            route_data?.target?.chapter_id !== target.chapter_id &&
+            !view_snapshots.get(index)?.reader_payload
+        )
+            return
+        remember_view()
+        const saved = view_snapshots.get(index)
+        const snapshot = saved?.href === url.href ? saved : null
+        const old_generations = {
+            navigation_generation: journey.navigation_generation + 1,
+            guide_generation: journey.guide_generation + 1,
+            media_generation: journey.media_generation + 1,
+            source_generation: journey.source_generation + 1,
+        }
+        applying_link = true
+        applied_link = key
+        view_index = index
+        view_href = url.href
+        cancel_advance()
+        pending_timers.forEach((timer) => window.clearTimeout(timer))
+        pending_timers.clear()
+        clock?.pause()
+        mode = target.audience
+        chapter = prepare_chapter(
+            mode,
+            [
+                target.stage_id,
+                journey.guided_position.step_id,
+                snapshot?.journey.guided_position.step_id,
+                snapshot?.journey.viewed_step_id,
+            ].filter(Boolean),
+        )
+        if (snapshot) {
+            journey = {
+                ...snapshot.journey,
+                ...old_generations,
+                steps: chapter.steps,
+                is_playing: false,
+                navigation_pending: false,
+                question_pending: false,
+            }
+            active_poi = scene_pois.find((poi) => poi.id === snapshot.active_poi_id) ?? null
+            ;({
+                help_open,
+                evidence_on,
+                timeline_open,
+                timeline_pick,
+                open_term,
+                source_origin,
+                practice_step,
+                practice_level,
+            } = snapshot)
+            practice = snapshot.practice
+            practice_units = snapshot.practice_units
+            practice_tick += 1
+            reading_chapter = snapshot.reading_chapter
+            reader_destination = snapshot.reader_destination
+        } else {
+            let stage_id = target.stage_id
+            if (target.kind === 'chapter' && !target.at)
+                stage_id =
+                    route_data.payload.place_links.find((p) =>
+                        chapter.steps.some((s) => s.id === p.place_id),
+                    )?.place_id ?? stage_id
+            const step = get_step(stage_id)
+            const seconds = target.at ? beat_position(step, target.at) : 0
+            const ticket = begin_navigation(journey, stage_id, 'guided', seconds)
+            commit_navigation(journey, ticket, target.view)
+            Object.assign(journey, old_generations)
+            active_poi = null
+            practice = null
+            practice_units = []
+            reading_chapter = null
+            reader_destination = null
+            help_open = false
+            open_term = null
+            timeline_open = mode === 'deep'
+            evidence_on = mode === 'deep'
+            source_origin = 'none'
+            if (target.kind === 'home')
+                journey = { ...create_journey_state(), ...old_generations, steps: chapter.steps }
+            if (target.kind === 'place') active_poi = scene_pois.find((p) => p.id === target.poi_id)
+            if (target.kind === 'source') open_source(journey, target.source_id)
+            if (target.kind === 'ask') begin_question(journey)
+            if (target.kind === 'help') help_open = true
+            if (target.kind === 'timeline') {
+                timeline_open = true
+                timeline_pick = target.entry_id
+            }
+            if (target.kind === 'term') open_term = target.term_id
+            if (target.kind === 'recap') complete_chapter(journey)
+            if (target.kind === 'practice') {
+                open_practice({ step_id: target.practice_step, level: target.level })
+                if (target.question_id)
+                    practice.index = practice.questions.findIndex(
+                        (q) => q.question_id === target.question_id,
+                    )
+                practice_tick += 1
+            }
+            if (target.kind === 'chapter') {
+                reading_chapter = target.chapter_id
+                reader_destination = target
+            }
+        }
+        if (reading_chapter) {
+            reader_payload =
+                route_data?.payload?.chapter_id === reading_chapter
+                    ? route_data.payload
+                    : (snapshot?.reader_payload ?? null)
+            if (!reader_sessions.has(reading_chapter)) {
+                const session = $state({ practice: null, study: false, passage: [] })
+                reader_sessions.set(reading_chapter, session)
+            }
+            reader_session = reader_sessions.get(reading_chapter)
+            // The address selects a reader tab/target even when the parent view is restored.
+            if (target.kind === 'chapter') reader_destination = target
+        }
+        clock?.set_position(journey.guided_position.seconds)
+        narrator.seek()
+        applying_link = false
+        remember_view()
+        await tick()
+        if (applied_link !== key) return
+        if (target.kind === 'ask') question_input?.focus()
+        else if (snapshot?.focus_id) document.getElementById(snapshot.focus_id)?.focus()
+        else if (snapshot?.focus_href)
+            document
+                .querySelector(`a[href="${CSS.escape(snapshot.focus_href)}"]`)
+                ?.focus({ preventScroll: true })
+        else {
+            const heading = document.getElementById(
+                reading_chapter
+                    ? 'chapter-title'
+                    : help_open
+                      ? 'help-title'
+                      : open_term
+                        ? 'term-title'
+                        : active_poi
+                          ? active_poi.detail
+                              ? 'detail-title'
+                              : 'place-title'
+                          : 'sheet-title',
+            )
+            if (heading) {
+                heading.tabIndex = -1
+                heading.focus({ preventScroll: true })
+            }
+        }
     }
 
     function tick() {
@@ -717,10 +1170,29 @@
                 const was_playing = journey.is_playing
                 journey.guided_position.seconds = seconds
                 journey.is_playing = playing
+                if (
+                    playing &&
+                    !active_poi &&
+                    !sheet &&
+                    !practice &&
+                    !reading_chapter &&
+                    !help_open &&
+                    !open_term &&
+                    !location.pathname.includes('/timeline')
+                )
+                    write_link(scene_path(), { replace: true })
                 if (was_playing && !playing && seconds >= guided_step.duration) finish_stop()
             },
         })
+        checkpoint_view = remember_view
+        mounted = true
+        const unsubscribe = route.subscribe((current) => {
+            if (!writing_link) apply_link(current.url, current.matches?.at(-1)?.data)
+        })
         return () => {
+            unsubscribe()
+            mounted = false
+            checkpoint_view = () => {}
             cancel_advance()
             pending_timers.forEach((timer) => window.clearTimeout(timer))
             pending_timers.clear()
@@ -790,13 +1262,10 @@
 
 {#snippet place_chapter_buttons()}
     {#each place_chapters as item (item.chapter_id)}
-        <button
-            class="{primary_button} justify-self-start"
-            onclick={() => open_chapter(item.chapter_id)}
-        >
+        <a class="{primary_button} justify-self-start" href={href(`/chapters/${item.chapter_id}`)}>
             {@render icon('read')} Read the chapter
             <span class="font-arabic text-[0.9375rem]" lang="ar" dir="rtl">{item.title_ar}</span>
-        </button>
+        </a>
     {/each}
 {/snippet}
 
@@ -804,17 +1273,21 @@
     <div class="flex flex-wrap gap-2">
         {#each source_ids as source_id (source_id)}
             {@const source = find_source(source_id)}
-            <button
-                class="inline-flex max-w-full min-w-0 gap-[7px] items-center py-[3px] pe-[11px] ps-1 text-start text-ink-soft bg-[rgba(232,178,87,0.08)] border border-solid border-line rounded-full text-[0.8125rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold aria-pressed:text-white aria-pressed:border-gold"
-                aria-pressed={journey.source_id === source_id}
-                onclick={() => view_source(source_id)}
+            <a
+                class="inline-flex max-w-full min-w-0 gap-[7px] items-center py-[3px] pe-[11px] ps-1 text-start text-ink-soft bg-[rgba(232,178,87,0.08)] border border-solid border-line rounded-full text-[0.8125rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold data-[active=true]:text-white data-[active=true]:border-gold"
+                aria-current={journey.source_id === source_id ? 'page' : undefined}
+                data-active={journey.source_id === source_id}
+                href={get_source(source_id)
+                    ? href(`/journey/hijrah/sources/${source_id}`)
+                    : source.url}
+                onclick={(event) => follow_link(event, () => view_source(source_id))}
                 aria-label={`Source ${source.number}: ${source.reference}`}
             >
                 <span
                     class="grid shrink-0 min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
                     >{source.number}</span
                 ><span class="min-w-0 break-words" dir="auto">{source.reference}</span>
-            </button>
+            </a>
         {/each}
     </div>
 {/snippet}
@@ -829,10 +1302,12 @@
             label="Schematic relief of the route from Makkah to Madinah"
             {shot}
             {mood}
-            {route}
+            route={scene_route}
             {cycle}
             actor={current_cue && !active_poi ? (beat_actors[current_cue.id] ?? null) : null}
             {insets}
+            link_context={context()}
+            link_at={current_cue?.id ?? selected_step.paragraphs[0]?.id}
             active_poi_id={active_poi?.id ?? null}
             on_poi={select_poi}
             evidence={evidence_on}
@@ -849,7 +1324,7 @@
     >
         <a
             class="inline-flex items-center gap-[14px] text-ink font-serif text-[1.25rem] font-semibold no-underline"
-            href="/"
+            href={href('/', null)}
             aria-label="Sirah Journey home"
         >
             <span
@@ -903,10 +1378,7 @@
                     class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright mobile:hidden"
                     aria-label={timeline_open ? 'Hide timeline' : 'Show timeline'}
                     aria-pressed={timeline_open}
-                    onclick={() => {
-                        timeline_open = !timeline_open
-                        timeline_pick = null
-                    }}
+                    onclick={toggle_timeline}
                 >
                     {@render icon('timeline')}
                 </button>
@@ -915,7 +1387,7 @@
                 class={round_button}
                 aria-label="How this works"
                 aria-expanded={help_open}
-                onclick={() => (help_open = !help_open)}>?</button
+                onclick={toggle_help}>?</button
             >
         </div>
     </header>
@@ -999,17 +1471,19 @@
                             style:width={`${((item.longest - item.to) / timeline_days) * 100}%`}
                         ></div>
                     {/if}
-                    <button
-                        class="absolute h-[14px] min-w-[14px] p-0 border border-solid rounded-[4px] transition-[outline-color] duration-150 outline-2 outline-offset-2 outline-transparent hover:outline-[rgba(255,244,222,0.6)] aria-pressed:outline-gold-bright {certainty_bar[
+                    <a
+                        class="absolute h-[14px] min-w-[14px] p-0 border border-solid rounded-[4px] transition-[outline-color] duration-150 outline-2 outline-offset-2 outline-transparent hover:outline-[rgba(255,244,222,0.6)] data-[active=true]:outline-gold-bright {certainty_bar[
                             item.certainty
                         ]}"
                         style:top={`${3 + item.lane * 18}px`}
                         style:left={`${(item.from / timeline_days) * 100}%`}
                         style:width={`${((item.to - item.from) / timeline_days) * 100}%`}
-                        aria-pressed={timeline_entry.id === item.id}
+                        aria-current={timeline_entry.id === item.id ? 'date' : undefined}
+                        data-active={timeline_entry.id === item.id}
                         aria-label={`${item.title}: ${item.when}`}
-                        onclick={() => pick_entry(item, true)}
-                    ></button>
+                        href={href(`/journey/hijrah/timeline/${item.id}`, null)}
+                        onclick={(event) => follow_link(event, () => pick_entry(item, true))}
+                    ></a>
                 {/each}
                 <input
                     class="absolute start-0 end-0 bottom-[14px] h-[4px] w-full m-0 opacity-0 hover:opacity-100 focus-visible:opacity-100 accent-[#e8b257] cursor-ew-resize"
@@ -1038,12 +1512,14 @@
                         {@render citations([timeline_entry.source_id])}
                     {/if}
                     {#if timeline_entry.stage !== journey.viewed_step_id && chapter.steps.some((step) => step.id === timeline_entry.stage)}
-                        <button
+                        <a
                             class="{ghost_button} min-h-8 py-1"
-                            onclick={() => pick_entry(timeline_entry, true)}
+                            href={href(`/journey/hijrah/timeline/${timeline_entry.id}`, null)}
+                            onclick={(event) =>
+                                follow_link(event, () => pick_entry(timeline_entry, true))}
                         >
                             Go to this stage {@render icon('next')}
-                        </button>
+                        </a>
                     {/if}
                 </div>
             </div>
@@ -1100,7 +1576,7 @@
                 </div>
                 <button
                     class={round_button}
-                    onclick={() => (active_poi = null)}
+                    onclick={() => return_link('place')}
                     aria-label="Close detail"
                 >
                     {@render icon('close')}
@@ -1126,7 +1602,7 @@
                 </h2>
                 <button
                     class={round_button}
-                    onclick={() => (active_poi = null)}
+                    onclick={() => return_link('place')}
                     aria-label="Close detail"
                 >
                     {@render icon('close')}
@@ -1138,7 +1614,32 @@
     {/if}
 
     {#if reading_chapter}
-        <ChapterReader chapter_id={reading_chapter} on_close={() => (reading_chapter = null)} />
+        <ChapterReader
+            chapter_id={reading_chapter}
+            chapter={reader_payload}
+            destination={reader_destination}
+            bind:session={reader_session}
+            on_close={() => return_link('chapter')}
+            on_navigate={chapter_navigation}
+        />
+    {/if}
+
+    {#if open_term && !caption_terms.some((item) => item.id === open_term)}
+        {@const term = glossary.find((item) => item.id === open_term)}
+        <aside
+            class="absolute z-30 top-[88px] right-6 grid gap-3 w-[min(380px,calc(100%-48px))] px-6 py-5 bg-panel-solid border border-solid border-line-strong rounded-[20px] mobile:top-[112px] mobile:right-3 mobile:left-3 mobile:w-auto"
+            aria-labelledby="term-title"
+        >
+            <header class="flex gap-4 items-center justify-between">
+                <h2 class="font-serif text-[1.5rem] font-medium" id="term-title">{term.word}</h2>
+                <button
+                    class={round_button}
+                    onclick={() => return_link('term')}
+                    aria-label="Close detail">{@render icon('close')}</button
+                >
+            </header>
+            <p class="text-ink-soft leading-[1.55]">{term.meaning}</p>
+        </aside>
     {/if}
 
     {#if help_open}
@@ -1244,19 +1745,21 @@
                     </button>
                 {/each}
             </div>
-            <div class="flex flex-wrap gap-3 mb-6 mobile:mb-4 mobile:[&>button]:flex-[1_1_auto]">
-                <button
+            <div class="flex flex-wrap gap-3 mb-6 mobile:mb-4 mobile:[&>a]:flex-[1_1_auto]">
+                <a
                     class="{primary_button} min-h-[52px] px-6 py-3 text-[1rem]"
-                    onclick={() => start('scene')}
+                    href={journey_href('/journey/hijrah/setting', { ...context(), view: 'scene' })}
+                    onclick={(event) => follow_link(event, () => start('scene'))}
                 >
                     {@render icon('start')} Begin the journey
-                </button>
-                <button
+                </a>
+                <a
                     class="{ghost_button} min-h-[52px] px-6 py-3 text-[1rem]"
-                    onclick={() => start('reading')}
+                    href={journey_href('/journey/hijrah/setting', { ...context(), view: 'reading' })}
+                    onclick={(event) => follow_link(event, () => start('reading'))}
                 >
                     {@render icon('read')} Read instead
-                </button>
+                </a>
             </div>
         </section>
     {:else}
@@ -1280,9 +1783,10 @@
                         data-active={active}
                         data-done={index < selected_index}
                     >
-                        <button
+                        <a
                             class="grid grid-cols-[28px_1fr_auto] gap-3 items-center w-full py-[9px] px-2 text-muted text-start bg-transparent border-0 rounded-[10px] transition-[background,color] duration-150 ease-[ease] hover:text-ink hover:bg-[rgba(255,244,222,0.07)] group-data-[done=true]/stop:text-ink-soft group-data-[done=true]/stop:hover:text-ink-soft group-data-[active=true]/stop:text-ink group-data-[active=true]/stop:hover:text-ink group-data-[active=true]/stop:bg-[rgba(232,178,87,0.13)] group-data-[active=true]/stop:hover:bg-[rgba(232,178,87,0.13)] mobile:flex mobile:gap-2 mobile:p-1 mobile:rounded-full mobile:group-data-[active=true]/stop:pr-[14px] mobile:group-data-[active=false]/stop:grid-cols-1 mobile:group-data-[active=false]/stop:gap-0 mobile:group-data-[active=false]/stop:p-[9px]"
-                            onclick={() => select_step(step.id)}
+                            href={href(`/journey/hijrah/${step.id}`, null)}
+                            onclick={(event) => follow_link(event, () => select_step(step.id))}
                             aria-current={active ? 'step' : undefined}
                             aria-label={`Stage ${index + 1}: ${step.title}`}
                         >
@@ -1299,7 +1803,7 @@
                             <span class="text-[0.8125rem] tabular-nums mobile:hidden"
                                 >{format_time(step.duration)}</span
                             >
-                        </button>
+                        </a>
                     </li>
                 {/each}
             </ol>
@@ -1544,12 +2048,14 @@
                         <div class="flex flex-wrap gap-2 items-center text-[0.8125rem]">
                             <span class="text-muted">Terms</span>
                             {#each caption_terms as item (item.id)}
-                                <button
-                                    class="py-[2px] px-[10px] text-ink-soft bg-transparent border border-dashed border-line-strong rounded-full aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-solid"
-                                    aria-pressed={open_term === item.id}
-                                    onclick={() =>
-                                        (open_term = open_term === item.id ? null : item.id)}
-                                    >{item.word}</button
+                                <a
+                                    class="py-[2px] px-[10px] text-ink-soft bg-transparent border border-dashed border-line-strong rounded-full data-[active=true]:text-gold-ink data-[active=true]:bg-gold data-[active=true]:border-solid"
+                                    aria-current={open_term === item.id ? 'page' : undefined}
+                                    data-active={open_term === item.id}
+                                    href={href(`/journey/hijrah/glossary/${item.id}`)}
+                                    onclick={(event) =>
+                                        follow_link(event, () => toggle_term(item.id))}
+                                    >{item.word}</a
                                 >
                             {/each}
                         </div>
@@ -1625,36 +2131,40 @@
                         </button>
                     {/if}
                     {#if stage_chapters.length}
-                        <button
+                        <a
                             class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
-                            onclick={() => open_chapter(stage_chapters[0].chapter_id)}
+                            href={href(`/chapters/${stage_chapters[0].chapter_id}`)}
                         >
                             {@render icon('read')} Read
-                        </button>
+                        </a>
                     {:else}
-                        <button
+                        <a
                             class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
-                            onclick={open_reading}
+                            href={journey_href(scene_path(), { ...context(), view: 'reading' })}
+                            onclick={(event) => follow_link(event, open_reading)}
                         >
                             {@render icon('read')} Read
-                        </button>
+                        </a>
                     {/if}
-                    <button
+                    <a
                         class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
-                        onclick={() => view_source(visible_sources[0]?.id)}
+                        href={href(`/journey/hijrah/sources/${visible_sources[0]?.id}`)}
+                        onclick={(event) =>
+                            follow_link(event, () => view_source(visible_sources[0]?.id))}
                     >
                         {@render icon('sources')} Sources
                         <span
                             class="min-w-5 py-px px-[6px] text-gold-bright bg-[rgba(232,178,87,0.16)] rounded-full text-[0.75rem]"
                             >{visible_sources.length}</span
                         >
-                    </button>
-                    <button
+                    </a>
+                    <a
                         class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
-                        onclick={open_question}
+                        href={href('/journey/hijrah/ask')}
+                        onclick={(event) => follow_link(event, open_question)}
                     >
                         {@render icon('ask')} Ask
-                    </button>
+                    </a>
                 </div>
             {/if}
         </section>
@@ -1708,7 +2218,7 @@
                             </div>
                         {/if}
                         {#each selected_step.paragraphs as paragraph (paragraph.id)}
-                            <p class={prose}>{paragraph.text}</p>
+                            <p class={prose} id={paragraph.id}>{paragraph.text}</p>
                             {@render citations(paragraph.source_ids)}
                         {/each}
                         {#if mode === 'new' && why_it_matters[selected_step.id]}
@@ -1822,7 +2332,7 @@
                     </button>
                 </header>
                 <!-- All of the stage's sources in one scroll; the one asked for is highlighted. -->
-                <div class={sheet_body} bind:this={source_list}>
+                <div class={sheet_body} bind:this={source_list} data-scroll-id="journey-sources">
                     {#each drawer_sources as source (source.id)}
                         <article
                             class="grid gap-3 p-4 border border-solid border-line rounded-2xl scroll-mt-4 transition-[border-color,background] duration-500 data-[active=true]:border-gold data-[active=true]:bg-[rgba(232,178,87,0.07)]"
