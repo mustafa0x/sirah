@@ -1607,12 +1607,21 @@
                             {/if}
                         </button>
                     {/if}
-                    <button
-                        class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
-                        onclick={open_reading}
-                    >
-                        {@render icon('read')} Read
-                    </button>
+                    {#if stage_chapters.length}
+                        <button
+                            class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
+                            onclick={() => open_chapter(stage_chapters[0].chapter_id)}
+                        >
+                            {@render icon('read')} Read
+                        </button>
+                    {:else}
+                        <button
+                            class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
+                            onclick={open_reading}
+                        >
+                            {@render icon('read')} Read
+                        </button>
+                    {/if}
                     <button
                         class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
                         onclick={() => view_source(visible_sources[0]?.id)}
@@ -1629,17 +1638,6 @@
                     >
                         {@render icon('ask')} Ask
                     </button>
-                    {#each stage_chapters as item (item.chapter_id)}
-                        <button
-                            class="{ghost_button} border-gold mobile:flex-[1_1_100%]"
-                            onclick={() => open_chapter(item.chapter_id)}
-                        >
-                            {@render icon('read')} Read the chapter
-                            <span class="font-arabic text-[0.9375rem]" lang="ar" dir="rtl"
-                                >{item.title_ar}</span
-                            >
-                        </button>
-                    {/each}
                 </div>
             {/if}
         </section>

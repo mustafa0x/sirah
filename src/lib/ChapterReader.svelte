@@ -33,8 +33,6 @@
 
     const tabs = [
         ['story', 'القصة'],
-        ['outline', 'المخطط'],
-        ['depth', 'للتعمق'],
         ['sources', 'المصادر'],
         ['practice', 'اختبر فهمك'],
     ]
@@ -237,6 +235,40 @@
                         {block.text_ar}{@render marker(block.paragraph_id)}
                     </p>
                 {/each}
+                <!-- The outline doubles as the table of contents. -->
+                <nav class="grid gap-1" aria-label="محتويات الفصل">
+                    <p class="text-muted text-[0.875rem] font-semibold">في هذا الفصل</p>
+                    <ol class="grid gap-1 list-none">
+                        {#each chapter.outline as point, index (point.point_id)}
+                            <li>
+                                <button
+                                    class="flex gap-3 items-baseline w-full py-[6px] px-0 text-start text-ink-soft bg-transparent border-0 hover:text-gold-bright"
+                                    onclick={() => go_to_section(point.section_id)}
+                                >
+                                    <span class="min-w-5 text-gold font-semibold"
+                                        >{(index + 1).toLocaleString('ar')}</span
+                                    >
+                                    <span class="font-serif text-[1.0625rem] leading-[1.6]"
+                                        >{point.text_ar}</span
+                                    >
+                                </button>
+                            </li>
+                        {/each}
+                        {#if chapter.in_depth.length}
+                            <li>
+                                <button
+                                    class="flex gap-3 items-baseline w-full py-[6px] px-0 text-start text-ink-soft bg-transparent border-0 hover:text-gold-bright"
+                                    onclick={() => go_to_section('in_depth')}
+                                >
+                                    <span class="min-w-5 text-gold">+</span>
+                                    <span class="font-serif text-[1.0625rem] leading-[1.6]"
+                                        >للتعمق</span
+                                    >
+                                </button>
+                            </li>
+                        {/if}
+                    </ol>
+                </nav>
                 {#each chapter.account as section (section.section_id)}
                     <section class="grid gap-3 scroll-mt-4" data-section={section.section_id}>
                         <h3 class={heading}>{section.title_ar}</h3>
@@ -247,37 +279,25 @@
                         {/each}
                     </section>
                 {/each}
-            </div>
-        {:else if tab === 'outline'}
-            <ol class="grid gap-2 list-none" in:fade={{ duration: 200 }}>
-                {#each chapter.outline as point, index (point.point_id)}
-                    <li>
-                        <button
-                            class="flex gap-4 items-baseline w-full py-3 px-4 text-start text-ink bg-[rgba(255,244,222,0.04)] border border-solid border-line rounded-xl hover:border-gold"
-                            onclick={() => go_to_section(point.section_id)}
-                        >
-                            <span class="text-gold font-semibold"
-                                >{(index + 1).toLocaleString('ar')}</span
-                            >
-                            <span class="font-serif text-[1.125rem] leading-[1.6] text-ink"
-                                >{point.text_ar}</span
-                            >
-                        </button>
-                    </li>
-                {/each}
-            </ol>
-        {:else if tab === 'depth'}
-            <div class="grid gap-7" in:fade={{ duration: 200 }}>
-                {#each chapter.in_depth as section (section.section_id)}
-                    <section class="grid gap-3">
-                        <h3 class={heading}>{section.title_ar}</h3>
-                        {#each section.paragraphs as block (block.paragraph_id)}
-                            <p class={paragraph}>
-                                {block.text_ar}{@render marker(block.paragraph_id)}
-                            </p>
+                {#if chapter.in_depth.length}
+                    <!-- Deeper discussion closes the story rather than taking its own tab. -->
+                    <div
+                        class="grid gap-7 pt-6 border-0 border-t border-solid border-line scroll-mt-4"
+                        data-section="in_depth"
+                    >
+                        <p class="text-gold text-[0.875rem] font-semibold">للتعمق</p>
+                        {#each chapter.in_depth as section (section.section_id)}
+                            <section class="grid gap-3">
+                                <h3 class={heading}>{section.title_ar}</h3>
+                                {#each section.paragraphs as block (block.paragraph_id)}
+                                    <p class={paragraph}>
+                                        {block.text_ar}{@render marker(block.paragraph_id)}
+                                    </p>
+                                {/each}
+                            </section>
                         {/each}
-                    </section>
-                {/each}
+                    </div>
+                {/if}
             </div>
         {:else if tab === 'sources'}
             <div class="grid gap-6" in:fade={{ duration: 200 }}>
