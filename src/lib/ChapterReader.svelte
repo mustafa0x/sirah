@@ -100,6 +100,7 @@
     }
 
     // Practice, on the same deterministic engine as the journey.
+    // Lesson questions first; questions on reading the texts are offered after them.
     let study = $state(false)
     let practice = $state(null)
     let tick_count = $state(0)
@@ -122,13 +123,21 @@
             : [],
     )
 
-    function start_practice() {
-        const questions = ['beginner', 'intermediate', 'expert'].flatMap((level) =>
-            practice_questions(chapter, level, {
-                step_id: chapter.chapter_id,
-                include_source_study: study,
-            }),
-        )
+    function questions_of(source_study) {
+        return ['beginner', 'intermediate', 'expert']
+            .flatMap((level) =>
+                practice_questions(chapter, level, {
+                    step_id: chapter.chapter_id,
+                    include_source_study: source_study,
+                }),
+            )
+            .filter((item) => (item.practice_scope === 'source_study') === source_study)
+    }
+    let study_count = $derived(chapter ? questions_of(true).length : 0)
+
+    function start_practice(source_study = false) {
+        study = source_study
+        const questions = questions_of(source_study)
         practice = questions.length ? create_practice(chapter, questions) : null
         passage = []
         tick_count += 1
@@ -358,18 +367,11 @@
             </div>
         {:else if tab === 'practice'}
             <div class="grid gap-4" in:fade={{ duration: 200 }}>
-                <label class="flex gap-2 items-center text-ink-soft text-[0.9375rem]">
-                    <input
-                        type="checkbox"
-                        class="accent-[#e8b257]"
-                        checked={study}
-                        onchange={(event) => {
-                            study = event.currentTarget.checked
-                            start_practice()
-                        }}
-                    />
-                    أضف أسئلة دراسة المصادر
-                </label>
+                {#if study && question}
+                    <p class="text-ink-soft text-[0.9375rem]">
+                        أسئلة متقدمة على النصوص: اقرأ المقاطع وقارن بينها.
+                    </p>
+                {/if}
                 {#if question}
                     {#key question.question_id}
                         <div class="grid gap-3" in:fade={{ duration: 200 }}>
@@ -451,15 +453,22 @@
                     {@const score = tick_count >= 0 && practice_score(practice)}
                     <div class="grid gap-3">
                         <p class="font-serif text-[2rem]">
-                            {score.correct.toLocaleString('ar')} / {score.total.toLocaleString(
+                            {score.correct.toLocaleString('ar')} من {score.total.toLocaleString(
                                 'ar',
                             )}
                         </p>
                         <p class="text-ink-soft">إجابات صحيحة من أسئلة هذه المجموعة.</p>
-                        <div class="flex gap-3">
+                        <div class="flex flex-wrap gap-3">
+                            {#if !study && study_count}
+                                <button
+                                    class="py-2 px-5 text-gold-ink font-semibold bg-gold border-0 rounded-full"
+                                    onclick={() => start_practice(true)}
+                                    >تابع بأسئلة متقدمة على النصوص</button
+                                >
+                            {/if}
                             <button
-                                class="py-2 px-5 text-gold-ink font-semibold bg-gold border-0 rounded-full"
-                                onclick={start_practice}>أعد المحاولة</button
+                                class="py-2 px-5 text-ink bg-transparent border border-solid border-line-strong rounded-full"
+                                onclick={() => start_practice(study)}>أعد المحاولة</button
                             >
                             <button
                                 class="py-2 px-5 text-ink bg-transparent border border-solid border-line-strong rounded-full"
