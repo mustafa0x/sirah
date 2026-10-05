@@ -10,6 +10,7 @@ import { evidence_dot } from './evidence.js'
 import { follow_link, journey_href } from './journey-links.js'
 import { chapter } from '../content/first-chapter.js'
 import { build_terrain, fbm, hash, load_grid, shelter_bank } from './scene-terrain.js'
+import { build_kaaba, kaaba_landmark } from './scene-landmarks.js'
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value))
 const mix = (a, b, t) => a + (b - a) * t
@@ -267,10 +268,7 @@ export async function create_scene(
         ])
         scene.add(landscape.mesh)
         const sea = new THREE.Mesh(
-            new THREE.PlaneGeometry(
-                landscape.size_x * sea_reach,
-                landscape.size_z * sea_reach,
-            ),
+            new THREE.PlaneGeometry(landscape.size_x * sea_reach, landscape.size_z * sea_reach),
             sea_material,
         )
         sea.name = 'mapped-water'
@@ -358,6 +356,7 @@ export async function create_scene(
         // Schematic settlement: plain blocks on the level ground, no claimed architecture.
         const add_blocks = (world, place, count, radius, seed, yard = 0) => {
             const mesh = shadowed(new THREE.InstancedMesh(block_geometry, wall_material, count))
+            mesh.name = `${place}-settlement`
             const [cx, cz] = world.terrain.to_xz(places[place].lat, places[place].lon)
             for (let index = 0; index < count; index += 1) {
                 const angle = hash(index, seed) * Math.PI * 2
@@ -365,15 +364,15 @@ export async function create_scene(
                 const x = cx + reach * Math.cos(angle)
                 const z = cz + reach * Math.sin(angle)
                 const tall = 0.016 + 0.024 * hash(index, seed + 4)
-                // `yard` keeps open ground at the centre.
-                const level = world.terrain.slope(x, z) < 0.22 && reach > yard
+                const width = 0.03 + 0.035 * hash(index, seed + 2)
+                const depth = 0.03 + 0.035 * hash(index, seed + 3)
+                // Keep each building's footprint outside the clearing, not just its centre.
+                const level =
+                    world.terrain.slope(x, z) < 0.22 &&
+                    (yard === 0 || reach > yard + Math.hypot(width, depth) / 2)
                 dummy.position.set(x, world.terrain.height(x, z) + tall / 2 - 0.002, z)
                 dummy.rotation.set(0, hash(index, seed + 5) * 0.7, 0)
-                dummy.scale.set(
-                    0.03 + 0.035 * hash(index, seed + 2),
-                    level ? tall : 0,
-                    0.03 + 0.035 * hash(index, seed + 3),
-                )
+                dummy.scale.set(level ? width : 0, level ? tall : 0, level ? depth : 0)
                 dummy.updateMatrix()
                 mesh.setMatrixAt(index, dummy.matrix)
                 mesh.setColorAt(index, wall_colors[index % wall_colors.length])
@@ -591,7 +590,15 @@ export async function create_scene(
                     ...landscape.to_xz(definition.north, definition.east),
                 ]
                 if (name === 'makkah') {
-                    add_blocks(world, 'makkah', 260, 0.75, 11)
+                    add_blocks(world, 'makkah', 260, 0.75, 11, kaaba_landmark.clearing)
+                    const place = places[kaaba_landmark.place]
+                    const [x, z] = world.terrain.to_xz(place.lat, place.lon)
+                    const kaaba = build_kaaba(THREE, (dx, dz) =>
+                        world.terrain.height(x + dx, z + dz),
+                    )
+                    kaaba.position.x = x
+                    kaaba.position.z = z
+                    world.group.add(kaaba)
                     add_cave_set(world)
                 }
                 if (name === 'madinah') {
@@ -612,9 +619,21 @@ export async function create_scene(
                         false,
                         'centripetal',
                     )
-                    const count = 200
+                    const points = plan.getSpacedPoints(200)
+                    if (name === 'makkah') {
+                        const [x, z] = world.terrain.to_xz(
+                            places[kaaba_landmark.place].lat,
+                            places[kaaba_landmark.place].lon,
+                        )
+                        // A town-level route starts in open ground, not inside the symbol.
+                        while (
+                            points.length > 2 &&
+                            Math.hypot(points[0].x - x, points[0].z - z) < kaaba_landmark.clearing
+                        )
+                            points.shift()
+                    }
+                    const count = points.length - 1
                     const draped = []
-                    const points = plan.getSpacedPoints(count)
                     for (const point of points) {
                         point.y = world.terrain.height(point.x, point.z) + (regional ? 0.05 : 0.012)
                         draped.push(point.x, point.y, point.z)
@@ -633,6 +652,8 @@ export async function create_scene(
                     const trace = new Line2(new LineGeometry().setPositions(draped), trace_material)
                     trace.computeLineDistances()
                     const line = new Line2(new LineGeometry().setPositions(draped), line_material)
+                    trace.name = `${name}-route-${route.leg}-trace`
+                    line.name = `${name}-route-${route.leg}-line`
                     line.geometry.instanceCount = 0
                     world.group.add(trace, line)
                     world.routes.push({ ...route, line, trace, points, count, shown: 0 })
