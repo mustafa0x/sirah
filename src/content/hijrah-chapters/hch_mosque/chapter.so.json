@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "so",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "Sidee goobtii barxadda ahayd masjid u noqotay, sideese loo akhriyaa kala duwanaanshaha wararka lahaanshaha dhulka iyo hawsha dhismaha?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "Sidee barxaddii masjid u noqday?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "Sidee barxaddii masjid u noqday? Wararku waxay ka bilaabaan meel ay hashu ku jilba joogsatay, dabadeed waxay u gudbaan su'aasha dhulka, diyaarintiisa iyo gacmihii ka shaqeeyay. Waxaan barbar akhrinaynaa jawaabta reer Banu Najjaar ee xadiiska Anas iyo warka labada wiil ee Siirada; riwaayad walba codkeeda iyo xadkeeda ayay leedahay."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "Hashii lagu safrayay waxay ku jilba joogsatay barxad ku taal Madiina. Ibnu Isxaaq wuxuu weriyaa su’aashii dhulka laga weydiiyay iyo soo jeedintii ahayd in masjid laga dhigto; Anasna wuxuu tilmaamaa jawaabtii reer Banu Najjaar iyo diyaarintii goobta. Dabadeed Muslimiintu waxay ka qayb qaateen dhismaha."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "0f9f03eab8bd26be441509b1ed0a0bad34685a80fb267c31f20e05cfcb3682b3",
+  "translation_sha256": "b748944da3bebcbffcebf8a200a84fda755d02faed3484e71e075e5a53f8abed",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "0f9f03eab8bd26be441509b1ed0a0bad34685a80fb267c31f20e05cfcb3682b3",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 08f59933-5797-4f25-b1e0-e118f9d09fe7 across 533 Arabic/target units. Compared all 533 literal Arabic/Somali inventory units in full in 19 untruncated chunks (0–18), including direct teaching prose, outline and objectives; every question, correct answer, alternative, scope, explanation and feedback; all 69 selected source-text units, chains, poetry, attributed commentary, repeated metadata and citation URLs. No further actionable meaning, omission, language or answer discrepancy was identified in this bound draft. This bounded bilingual semantic comparison is not scholarly collation, independent language or specialist approval, or authorization for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

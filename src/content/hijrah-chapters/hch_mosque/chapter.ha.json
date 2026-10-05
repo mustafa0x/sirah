@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "ha",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "Ta yaya wurin ya koma daga marbada zuwa masallaci, kuma ta yaya za mu karanta bambancin ruwayoyin mallakar fili da aikin gini?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "Ta yaya marbada ta zama masallaci?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "Ta yaya marbada ta zama masallaci? Labaran sun fara da wurin da taguwa ta durƙusa, sannan suka koma ga batun filin, shirya shi, da hannayen masu aiki. Muna karanta amsar Banu Najjar a hadisin Anas tare da labarin yaran biyu a cikin Sira; kowace ruwaya tana da mai magana da iyakarta."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "Taguwar hawa ta durƙusa a wata marbada a Madina. Ibn Ishaq ya ruwaito tambayar da aka yi game da filin da tayin mai da shi masallaci; Anas kuwa ya bayyana amsar Banu Najjar da yadda aka shirya wurin. Daga nan Musulmi suka shiga aikin ginin."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "b308540cee9dd07c89ebe19f654ae88093d079b7c6b7f7a90e0083b113c468da",
+  "translation_sha256": "515b8c6ee51652e80c00f071c62d7cc116b51bbf6d5da437e7c85340a6acaa15",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "b308540cee9dd07c89ebe19f654ae88093d079b7c6b7f7a90e0083b113c468da",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 92b56a73-ceac-4dbc-8c10-e40ffa66af65 across 533 Arabic/target units. Compared all 533 Arabic/Hausa paired inventory units across complete chunks 0–18: teaching prose and objectives, outlines and readings, all questions/options/feedback/scope, repeated metadata and citation URLs, and full selected source passages including chains, poetry and commentary. The three meaning issues identified in the prior round (the land-price noun, the unspecified teen-night range, and the Khaybar carrying comparison) have been corrected in this bound draft; no further actionable semantic discrepancy was found. Arabic-led watchlist checked as an additional caution. This is a bounded translation comparison, not manuscript collation, specialist review, independent language approval or publication approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

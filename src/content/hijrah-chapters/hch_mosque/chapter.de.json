@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "de",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "Wie wurde der Mirbad zur Moschee, und wie lesen wir die unterschiedlichen Berichte über Eigentum und Bauarbeit?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "Wie wurde der Mirbad zur Moschee?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "Wie wurde der Mirbad, ein Trockenplatz, zur Moschee? Die Berichte setzen dort ein, wo das Reittier niederkniete, und wenden sich dann der Frage nach dem Grundstück, seiner Vorbereitung und den arbeitenden Händen zu. Wir lesen die Antwort der Banū an-Naǧǧār im Hadith des Anas neben dem Bericht über die beiden Jungen in der Sīra; jeder Bericht hat seine eigene Stimme und seine Grenzen."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "Das Reittier kniete an einem Mirbad in Medina nieder. Ibn Ishaq berichtet von der Frage nach dem Grundstück und dem Angebot, es zu einer Moschee zu machen; Anas beschreibt die Antwort der Banū an-Naǧǧār und die Vorbereitung des Geländes. Anschließend beteiligten sich die Muslime am Bau."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "757c35e3e4c2d7cc1486eaac015d605ba6ea9bbe947cee94cccd523db6c9d136",
+  "translation_sha256": "5a2717082133e083d83a9831443d54024ddbf68a6e1e6b27e9af49a38c4bc0dd",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "757c35e3e4c2d7cc1486eaac015d605ba6ea9bbe947cee94cccd523db6c9d136",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 474eaaab-87cb-4389-ba70-1ab4a76e6eed across 533 Arabic/target units. Alle 533 Einheiten der vollständigen arabischen Autorität mit der gebundenen deutschen Edition anhand der vollständigen, nicht gekürzten Paarausgaben für Chunks 0–18 direkt Arabisch–Deutsch verglichen; die arabische Watchlist zusätzlich gelesen. Geprüft wurden Kapitelprosa, Gliederung, Ziele, zehn Fragen einschließlich beider Optionen, Erklärungen, Scope und Feedback, Quellenwortlaute einschließlich Überlieferungsketten und Verse sowie Sprecher-, Kontext- und Zitationsmetadaten. Identische wiederholte Metadaten wurden semantisch gruppiert, aber jede Einheit erfasst. Keine weiteren umsetzbaren Bedeutungs-, Auslassungs-, Sprach- oder Antwortfehler festgestellt. Keine Kollation anderer Textzeugen, keine unabhängige Fach- oder Sprachfreigabe und keine Veröffentlichungserlaubnis. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

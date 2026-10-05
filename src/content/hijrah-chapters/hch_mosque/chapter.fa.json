@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "fa",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "چگونه این مکان از مربد به مسجد تبدیل شد و اختلاف روایت‌های مالکیت و کار ساخت را چگونه باید خواند؟"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "مربد چگونه مسجد شد؟"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "مربد چگونه مسجد شد؟ گزارش‌ها صحنه را از جایی آغاز می‌کنند که شتر در آن زانو زد و سپس به پرسش زمین، آماده‌سازی آن و دست‌های سازندگان می‌پردازند. پاسخ بنی‌نجار در حدیث انس را در کنار گزارش دو پسر در سیره می‌خوانیم؛ هر روایت صدای خود و حدود خود را دارد."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "شتر در مربدی در مدینه زانو زد. ابن اسحاق پرسش دربارهٔ زمین و پیشنهاد مسجد کردن آن را روایت می‌کند و انس پاسخ بنی‌نجار و آماده‌سازی محل را شرح می‌دهد. سپس مسلمانان در ساخت مسجد شرکت کردند."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "18e909fba0ab6783be254e2960878c284b7c9703e7fca083c861299731afeea7",
+  "translation_sha256": "4120f03a6cb79cf0566041d1f1227e8744e5c265079afa8ffaf74d666b058f4d",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "18e909fba0ab6783be254e2960878c284b7c9703e7fca083c861299731afeea7",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 963ddeaf-70d7-488e-aa1f-e41fb3e95d18 across 533 Arabic/target units. هر ۵۳۳ واحد موجودیِ نسخهٔ فعلی در ۱۷ قطعهٔ کامل با عربی مقایسه شد: متن درس، اهداف، طرح، پرسش‌ها و معنای گزینهٔ درست، پاسخ‌ها و بازخورد، فراداده، نشانی ارجاعات و متن کامل گزیده‌های منبع. ایراد ثبت‌شده در دور پیش دربارهٔ «بضع عشرة ليلة» اکنون با «ده‌وچند شب» برطرف شده است؛ ایراد معنایی قابل اقدام دیگری در واحدهای بررسی‌شده نیافتم. این بررسی تصحیح انتقادی منابع یا تأیید زبانی/تخصصی مستقل و اجازهٔ انتشار نیست. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

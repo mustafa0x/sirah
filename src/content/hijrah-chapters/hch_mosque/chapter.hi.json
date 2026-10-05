@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "hi",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "वह स्थान मिरबद से मस्जिद कैसे बना, और स्वामित्व तथा निर्माण-कार्य की रिवायतों में अंतर को कैसे पढ़ें?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "मिरबद मस्जिद कैसे बना?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "मिरबद मस्जिद कैसे बना? रिवायतें उस जगह से दृश्य शुरू करती हैं जहाँ सवारी का ऊँट बैठा था; फिर भूमि, उसकी तैयारी और काम करने वालों की ओर बढ़ती हैं। अनस की हदीस में बनी नज्जार का उत्तर सीरत में दो लड़कों की खबर के साथ पढ़ते हैं; हर रिवायत की अपनी आवाज़ और सीमा है।"
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "सवारी का ऊँट मदीना में एक मिरबद पर बैठ गया। इब्न इसहाक ज़मीन के बारे में सवाल और उसे मस्जिद बनाने के प्रस्ताव की रिवायत करते हैं; अनस बनी नज्जार का जवाब और जगह की तैयारी बताते हैं। फिर मुसलमानों ने निर्माण में हिस्सा लिया।"
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "4d09fa3b548b6a2c85ea6fc3aa3aeec9da1e9821838dd15a8eeaa6414488313f",
+  "translation_sha256": "cf21bc478c8a4329b5f60e47bdd3be356396c024424a0fe2e122ea1e8a6c7db2",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "4d09fa3b548b6a2c85ea6fc3aa3aeec9da1e9821838dd15a8eeaa6414488313f",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session fd823ec6-6144-4386-a91c-23523e2623ed across 533 Arabic/target units. Read the bound Arabic and Hindi JSON and compared every one of 533 paired inventory units across complete chunks 0–17: teaching text, objectives, outlines, all ten question/answer/feedback sets, source metadata and full selected texts, chains, poetry, commentary and citations. Checked the Arabic watchlist and reading modes. No remaining actionable semantic discrepancy identified in this bounded round; this is neither scholarly source collation nor independent language, specialist or publication approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

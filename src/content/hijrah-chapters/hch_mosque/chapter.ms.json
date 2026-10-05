@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "ms",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "Bagaimanakah tapak itu berubah daripada mirbad menjadi masjid, dan bagaimanakah kita membaca perbezaan riwayat tentang pemilikan dan kerja pembinaannya?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "Bagaimanakah mirbad menjadi masjid?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "Bagaimanakah mirbad menjadi masjid? Riwayat-riwayat membuka kisah di tempat unta tunggangan berhenti dan berlutut, kemudian beralih kepada persoalan tanah, penyediaannya dan mereka yang bekerja di situ. Kita membaca jawapan Bani al-Najjar dalam hadis Anas di samping kisah dua anak lelaki dalam sirah; setiap riwayat mempunyai suara dan batasnya sendiri."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "Unta tunggangan berlutut di sebuah mirbad di Madinah. Ibn Ishaq meriwayatkan pertanyaan tentang tanah itu dan tawaran untuk menjadikannya masjid, manakala Anas menerangkan jawapan Bani al-Najjar serta penyediaan tempatnya. Kemudian umat Islam turut serta dalam pembinaan."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "f1ffc4d0168e17aeb762dab61e8e65ee963de29631d8726c823c1e9a8b68da67",
+  "translation_sha256": "4e1659c4ed610ab781f5b45b3b335f89e57361e1ea3a15a26e172a3ccabf29e8",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "f1ffc4d0168e17aeb762dab61e8e65ee963de29631d8726c823c1e9a8b68da67",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 1fab68e3-05b5-402e-96eb-aac45702de47 across 533 Arabic/target units. Perbandingan semantik Arab–ms diselesaikan untuk kesemua 533 unit dalam 19 chunk, meliputi prosa pengajaran, objektif, garis besar, sepuluh soalan dengan pilihan dan maklum balas, metadata, serta teks sumber terpilih sepenuhnya termasuk sanad, syair, komentar dan URL. Tiada masalah makna atau bahasa yang boleh ditindak lanjut ditemui dalam draf terikat ini; julat belasan malam dalam konteks ‘Urwah kini dikekalkan. Semakan terbatas pada teks Arab yang dibekalkan; bukan kolasi manuskrip atau kelulusan bahasa, pakar atau penerbitan. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

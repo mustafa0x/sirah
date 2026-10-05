@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "fr",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "Comment le lieu est-il passé de marbad à mosquée, et comment lire les différences entre les récits de propriété et de travaux ?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "Comment le marbad est-il devenu une mosquée ?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "Comment le marbad est-il devenu une mosquée ? Les récits s’ouvrent sur le lieu où la monture s’est agenouillée, puis abordent la question du terrain, sa préparation et ceux qui y ont travaillé. Nous lisons la réponse des Banû al-Najjâr dans le hadith d’Anas à côté du récit des deux garçons dans la Sîra ; chaque récit a sa voix et ses limites."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "La monture s’agenouilla près d’un marbad à Médine. Ibn Ishâq rapporte la question sur le terrain et la proposition d’en faire une mosquée ; Anas décrit la réponse des Banû al-Najjâr et la préparation du lieu. Les musulmans participèrent ensuite à la construction."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "2d1dc9cb685b58b596b88234e12620ffa21b4e22ba107975cf6e3feebc1a6c06",
+  "translation_sha256": "07f16c00a0792f4221ef209991215d363fa772715cf8a8ef9eaca693f84bd7cc",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "2d1dc9cb685b58b596b88234e12620ffa21b4e22ba107975cf6e3feebc1a6c06",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session c22f6302-ad53-46e7-af1d-767bce2fb016 across 533 Arabic/target units. Comparaison directe des 533 unités de l’inventaire avec l’arabe lié, en 19 blocs complets : exposé, objectifs, plan, dix questions et leurs choix/corrigés, métadonnées, chaînes et extraits intégralement traduits. Aucune divergence de sens ou omission nécessitant une correction relevée ; aucune collation des sources externes ni approbation indépendante. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

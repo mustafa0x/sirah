@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "en",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "How did the site change from a mirbad into a mosque, and how should we read the differing accounts of ownership and work?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "How did the mirbad become a mosque?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "How did the mirbad become a mosque? The reports open at a place where the camel knelt, then turn to the question of the land, its preparation, and those who worked there. We read the reply of the Banu al-Najjar in the account of Anas alongside the account of the two boys in the Sira; each report has its own voice and limits."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "The camel knelt at a mirbad in Medina. Ibn Ishaq recounts the question about the land and the offer to make it a mosque; Anas describes the Banu al-Najjar’s reply and the preparation of the site. The Muslims then took part in building it."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "ff6448487fa82dad952a24a7ca93309c4d775608833526a485d343ebd90c39b1",
+  "translation_sha256": "6985b278deee6e9cbabb496e0299037f760aab74c5cf09391c7dca2d93c868e3",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "ff6448487fa82dad952a24a7ca93309c4d775608833526a485d343ebd90c39b1",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 36dc1875-0a45-4a1b-9fc1-3cc5eb6d35cf across 533 Arabic/target units. Compared every one of the 533 paired inventory units across all 19 complete Arabic/English chunks: teaching prose, objectives, outline, ten questions and answer/feedback meanings, source metadata and citations, and all 69 full selected source-text units. No actionable semantic, omission, or language problems found. Repeated metadata was checked by group and by individual ID. Review is limited to the selected Arabic chapter and its authored English edition; no independent collation of source books, specialist approval, or permission to publish is claimed. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

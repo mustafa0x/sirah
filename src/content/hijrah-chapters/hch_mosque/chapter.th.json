@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "th",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
   "status": "translation_wip",
   "units": [
     {
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "สถานที่แห่งนี้เปลี่ยนจากลานตากอินทผลัมเป็นมัสยิดได้อย่างไร และเราควรอ่านรายงานเรื่องกรรมสิทธิ์และการลงแรงที่แตกต่างกันอย่างไร?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "ลานตากอินทผลัมกลายเป็นมัสยิดได้อย่างไร?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "ลานตากอินทผลัมกลายเป็นมัสยิดได้อย่างไร? รายงานต่าง ๆ เริ่มเรื่อง ณ จุดที่อูฐพาหนะหมอบลง ก่อนจะกล่าวถึงการถามเรื่องที่ดิน การเตรียมพื้นที่ และผู้ที่ร่วมลงแรง เราอ่านคำตอบของชาวบนูอันนัจญารในหะดีษของอะนัสควบคู่กับเรื่องเด็กชายสองคนในหนังสือชีวประวัติ แต่ละรายงานมีผู้พูดและขอบเขตของตน"
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "อูฐพาหนะหมอบลงที่ลานตากอินทผลัมแห่งหนึ่งในมะดีนะฮ์ อิบนุอิสหากเล่าถึงคำถามเรื่องที่ดินและข้อเสนอให้ใช้เป็นมัสยิด ส่วนอะนัสอธิบายคำตอบของชาวบนูอันนัจญารและการเตรียมพื้นที่ จากนั้นชาวมุสลิมได้ร่วมกันก่อสร้าง"
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,7 +2720,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "f974000f47eefe2e2716da15c6f2c4725bff65f2c4cc8809537289041c644243",
+  "translation_sha256": "d4eeb32ee397ccc388eff68633fe87f104a78c40ebd1228fb7e87431646a8093",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

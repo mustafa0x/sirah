@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "ur",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "یہ جگہ مربد سے مسجد کیسے بنی، اور ملکیت اور کام سے متعلق روایات کے اختلاف کو کیسے پڑھیں؟"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "مربد مسجد کیسے بنا؟"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "مربد مسجد کیسے بنا؟ روایات کا منظر اس مقام سے کھلتا ہے جہاں سواری بیٹھی، پھر زمین، اس کی تیاری اور کام کرنے والوں کی طرف بات بڑھتی ہے۔ ہم انس کی حدیث میں بنو نجار کا جواب سیرت میں دو لڑکوں کی خبر کے ساتھ پڑھتے ہیں؛ ہر روایت کی اپنی آواز اور اپنا دائرہ ہے۔"
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "سواری کا اونٹ مدینہ میں ایک مربد پر بیٹھ گیا۔ ابن اسحاق زمین کے بارے میں سوال اور اسے مسجد بنانے کی پیشکش روایت کرتے ہیں، اور انس بنو نجار کا جواب اور جگہ کی تیاری بیان کرتے ہیں۔ پھر مسلمانوں نے تعمیر میں حصہ لیا۔"
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "33ddd1edd90cf7232d14dbd49e5257c5d53e414e00b94b6e92b98378662d2464",
+  "translation_sha256": "31e609036bfd47109446e9d052b66dd373fbd458899523283b1984545689677e",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "33ddd1edd90cf7232d14dbd49e5257c5d53e414e00b94b6e92b98378662d2464",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session caf936c4-d072-4e36-8895-50161fc992c5 across 533 Arabic/target units. عربی اصل اور موجودہ اردو مسودے کے تمام 533 انوینٹری یونٹ 17 مکمل جوڑیوں میں معنی بہ معنی دیکھے؛ تدریسی مواد، سوالات، میٹاڈیٹا، اسناد اور منتخب قراءات کے مکمل ماخذی اقتباسات شامل ہیں۔ پچھلے دور میں درج «جِرانها» کے ترجمے کی اصلاح موجودہ مسودے میں دیکھی؛ اس محدود تقابل میں مزید قابلِ عمل معنوی اختلاف نہیں ملا۔ یہ آزادانہ لسانی یا تخصصی منظوری، ماخذوں کی تصحیح یا اشاعت کی منظوری نہیں ہے۔ Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "ps",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "دا ځای څنګه له مربد څخه په جومات بدل شو، او د ملکیت او کار په اړه د روایتونو توپیر څنګه ولولو؟"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "مربد څنګه جومات شو؟"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "مربد څنګه جومات شو؟ روایتونه له هغه ځایه پیل کېږي چې اوښه پکې ګونډه شوه، بیا د ځمکې پوښتنې، د هغې چمتووالي او د کارکوونکو لاسونو ته راځي. د انس په حدیث کې د بني نجار ځواب د سیرت د دوو هلکانو د خبر تر څنګ لولو؛ هر روایت خپل غږ او خپل حد لري."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "د سپرلۍ اوښه په مدینه کې په یوه مربد کې ګونډه شوه. ابن اسحاق د ځمکې په اړه پوښتنه او د هغې د جومات کولو وړاندیز روایتوي، او انس د بني نجار ځواب او د ځای چمتووالی بیانوي. بیا مسلمانانو په جوړولو کې برخه واخیسته."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "c95d6f7a64d6116fdb5288c934f76263d8e9a171203fe0a03ba4eec725eb2ab9",
+  "translation_sha256": "ec101ae7058811d2ad754ca172162ed49a544f1e3c5fdf79e32067a9fbd2c1ed",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "c95d6f7a64d6116fdb5288c934f76263d8e9a171203fe0a03ba4eec725eb2ab9",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 18ad4a06-f688-475f-9db8-867c8d3aeadc across 533 Arabic/target units. د واکمن عربي متن او پښتو مسودې د ۵۳۳ واحدونو ټولې جوړې په ۱۸ بې‌پرېکونه ټوټو کې په مستقیم ډول پرتله شوې: د لوستونکي متن، موخې، سرلیکونه او لنډیز، پوښتنې، سم او ناسم انتخابونه او ځوابي څرګندونې، او د ټاکلو سرچینو بشپړ متنونه، سندونه، غږونه، تکراري میټاډېټا او استنادي پتې. د پخوانۍ ناپښتو پاتې عربي کلمې ځای اوس په پښتو کې بیان شوی او د ټوټو تسلسل خوندي دی؛ په دې محدوده معنايي کتنه کې بله د سمونې وړ ستونزه ونه موندل شوه. دا علمي نسخه‌پرتله، مستقل ژبنی یا تخصصي تصدیق او د عام خپرېدو اجازه نه ده. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

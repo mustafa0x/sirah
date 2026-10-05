@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "bn",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "কীভাবে স্থানটি মিরবদ থেকে মসজিদে পরিণত হলো, আর মালিকানা ও কাজের বর্ণনাগুলোর পার্থক্য আমরা কীভাবে বুঝব?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "মিরবদ কীভাবে মসজিদ হলো?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "মিরবদ কীভাবে মসজিদ হলো? বর্ণনাগুলোর শুরু সেই স্থানে, যেখানে বাহনটি বসেছিল; তারপর আসে জমির প্রশ্ন, জমি প্রস্তুত করা এবং কর্মীদের কথা। আনাসের হাদিসে বনু নাজ্জারের জবাবের পাশাপাশি সীরায় দুই বালকের সংবাদ পড়ি; প্রতিটি বর্ণনার নিজস্ব বক্তা ও সীমা আছে।"
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "সওয়ারির উটটি মদিনায় একটি মিরবদে বসে পড়ল। ইবন ইসহাক জমি সম্পর্কে প্রশ্ন এবং সেটিকে মসজিদ করার প্রস্তাবের কথা বর্ণনা করেন; আনাস বনু নাজ্জারের জবাব ও স্থানটি প্রস্তুত করার কথা বলেন। এরপর মুসলমানেরা নির্মাণে অংশ নেন।"
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "92dca055331db986ff926d73301f0a299c6a3175cd6d3ceec1de8763e12b0c00",
+  "translation_sha256": "53bc18290100f9a306afdfcee9623c39a98bd838f5bc00afad857864c0440586",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "92dca055331db986ff926d73301f0a299c6a3175cd6d3ceec1de8763e12b0c00",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session fb416953-0f68-4d8f-a2d3-e6898c8b51a9 across 533 Arabic/target units. Read and compared the full Arabic/Bengali text of all 533 individual inventory units across all 18 untruncated pairs.py chunks (0–17), including teaching prose, objectives, outlines, every question and answer/feedback, metadata, citation URLs and full selected source excerpts. Cross-checked answer keys, reading modes and Arabic binding. The prior jamb/door-post, juristic-argument and chain-voice problems are corrected; no further actionable semantic or language discrepancy was found in this bounded comparison. This does not collate complete historical works or confer independent language, specialist, or publication approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

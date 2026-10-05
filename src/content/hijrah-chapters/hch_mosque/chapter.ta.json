@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "ta",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
   "status": "translation_wip",
   "units": [
     {
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "களம் எவ்வாறு பள்ளிவாசலாக மாறியது? நில உரிமை மற்றும் கட்டுமானப் பணி குறித்த மாறுபட்ட அறிவிப்புகளை எவ்வாறு வாசிப்பது?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "களம் எவ்வாறு பள்ளிவாசலானது?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "களம் எவ்வாறு பள்ளிவாசலானது? ஒட்டகம் மண்டியிட்ட இடத்திலிருந்து அறிவிப்புகள் தொடங்கி, நிலம் யாருடையது, அதை எப்படித் தயாரித்தார்கள், யார் உழைத்தார்கள் என்ற கேள்விகளுக்குச் செல்கின்றன. அனஸின் ஹதீஸில் பனூ நஜ்ஜார் அளித்த பதிலையும், சீராவில் வரும் இரு சிறுவர்கள் குறித்த செய்தியையும் அருகருகே படிக்கிறோம்; ஒவ்வொரு அறிவிப்பிற்கும் தனிக் குரலும் வரம்பும் உண்டு."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "ஒட்டகம் மதீனாவில் ஒரு களத்தில் மண்டியிட்டது. நிலத்தைப் பற்றிய கேள்வியையும் அதை பள்ளிவாசலாக்கும் முன்மொழிவையும் இப்னு இஸ்ஹாக் அறிவிக்கிறார்; பனூ நஜ்ஜாரின் பதிலையும் இடத்தைத் தயாரித்ததையும் அனஸ் விவரிக்கிறார். பின்னர் முஸ்லிம்கள் கட்டுமானத்தில் பங்கேற்றனர்."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,7 +2720,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "92fd7a59eb3f417c4145e5452b19acb3d3a2ffe11fbc09f67ea27203c357c567",
+  "translation_sha256": "786b4f3934a345aeba99a1dc4bbbe82b5180287e9529e463443761ecd90251f4",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

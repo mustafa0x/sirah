@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "id",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "Bagaimana tempat itu berubah dari murbad menjadi masjid, dan bagaimana kita membaca perbedaan riwayat tentang kepemilikan serta pengerjaannya?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "Bagaimana murbad itu menjadi masjid?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "Bagaimana murbad itu menjadi masjid? Riwayat-riwayat membuka kisah di tempat unta tunggangan berhenti berlutut, lalu beralih ke persoalan tanah, penyiapannya, dan orang-orang yang bekerja. Kita membaca jawaban Bani Najjar dalam hadis Anas berdampingan dengan kisah dua anak laki-laki dalam sirah; masing-masing riwayat memiliki suara dan batasnya sendiri."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "Unta tunggangan berlutut di sebuah murbad di Madinah. Ibnu Ishaq meriwayatkan pertanyaan tentang tanah itu dan tawaran untuk menjadikannya masjid, sedangkan Anas menjelaskan jawaban Bani Najjar serta penyiapan tempatnya. Kemudian kaum Muslim ikut membangunnya."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "88e27714ecb14ff5cba8cd7b278cd858ac939fa9a7c387aaece6a2dc46699793",
+  "translation_sha256": "cb49b5376eb936a5158ee2cda71f33507edc49e912bdc201cebd0de2ec635cb7",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "88e27714ecb14ff5cba8cd7b278cd858ac939fa9a7c387aaece6a2dc46699793",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 841a7b3e-c410-4de4-a0bb-7fc41b9ffc77 across 533 Arabic/target units. Perbandingan langsung seluruh 533 unit Arab–Indonesia dalam 19 chunk lengkap (0–18), meliputi teks pengajaran, tujuan, kerangka, sembilan bacaan, sepuluh soal dengan pilihan/jawaban/umpan balik, catatan batas, metadata, URL sitasi, serta petikan sumber penuh termasuk sanad, kronologi, syair dan komentar. Dua pergeseran makna dari draf sebelumnya pada tujuan tentang mengangkut bahan dan penjelasan hukum mengenai penggubahan syair telah diperbaiki; tidak ditemukan masalah makna atau bahasa lain yang layak dilaporkan pada draf terikat ini. Ini bukan kolasi ilmiah dengan sumber luar ataupun persetujuan bahasa independen, ahli, atau distribusi publik. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

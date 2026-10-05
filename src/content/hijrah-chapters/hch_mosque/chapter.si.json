@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "si",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "මර්බද් බිම පල්ලියක් බවට පත් වූයේ කෙසේද? හිමිකාරිත්වය හා ඉදිකිරීම පිළිබඳ වාර්තාවල වෙනස්කම් අප කියවිය යුත්තේ කෙසේද?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "මර්බද් බිම පල්ලියක් වූයේ කෙසේද?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "මර්බද් බිම පල්ලියක් වූයේ කෙසේද? ඔටු දෙන දණ ගැසූ ස්ථානයෙන් වාර්තා කතාව අරඹයි; ඉන්පසු ඉඩම පිළිබඳ ප්‍රශ්නය, එය සූදානම් කිරීම හා වැඩ කළ අය වෙත යයි. අනස්ගේ හදීසයේ බනූ අන්-නජ්ජාර්ගේ පිළිතුර, සීරා කෘතියේ පිරිමි දරුවන් දෙදෙනා පිළිබඳ වාර්තාව සමඟ කියවමු; එක් එක් වාර්තාවට එයටම හිමි හඬක් හා සීමාවක් ඇත."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "ඔටු දෙන මදීනාවේ මර්බද් බිමක දණ ගැසුවාය. ඉඩම ගැන ඇසූ ප්‍රශ්නය හා එය පල්ලියක් කිරීමට කළ යෝජනාව ඉබ්න් ඉස්හාක් විස්තර කරයි; අනස් බනූ අන්-නජ්ජාර්ගේ පිළිතුර හා ස්ථානය සූදානම් කළ ආකාරය කියයි. ඉන්පසු මුස්ලිම්වරු ඉදිකිරීමට සහභාගි වූහ."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "8bd0c2c1cdb87d78273a682d1041c7eef805620a5184fab0d5f1dfc883caf22a",
+  "translation_sha256": "09f26dd1f3ca1d09aaf9289505360fd1041f75638c249d83c8770570fe5406d1",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "8bd0c2c1cdb87d78273a682d1041c7eef805620a5184fab0d5f1dfc883caf22a",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 56efcc02-19fb-4b6e-ac3a-6d4dfa5d1304 across 533 Arabic/target units. Read the complete bound Arabic–Sinhala pair outputs for all 18 numbered chunks and directly compared each of the 533 inventory units, including teaching text, objectives, outline, ten questions and their correct answers, explanations and feedback, repeated metadata and citations, and full selected source excerpts. The earlier verse-recitation scope discrepancy is corrected. No further actionable meaning, omission, language or answer discrepancy was found in this draft. This is only an internal semantic comparison, not scholarly collation, independent language or specialist approval, or authorization for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

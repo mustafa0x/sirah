@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "sw",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
   "status": "translation_wip",
   "units": [
     {
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "Eneo hilo liligeukaje kutoka uwanja wa kukaushia tende kuwa msikiti, na tusomeje tofauti za riwaya kuhusu umiliki na kazi?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "Uwanja wa kukaushia tende ulikuwaje msikiti?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "Uwanja wa kukaushia tende ulikuwaje msikiti? Habari zinaanzia mahali ambapo ngamia alipiga magoti, kisha zinaelekea kwenye suala la ardhi, kuitayarisha na mikono ya waliofanya kazi. Tunasoma jibu la Banu al-Najjar katika hadithi ya Anas sambamba na habari ya wavulana wawili katika sira; kila riwaya ina sauti na mipaka yake."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "Ngamia wa kupandwa alipiga magoti kwenye uwanja wa kukaushia tende huko Madina. Ibn Ishaq anasimulia swali kuhusu ardhi na pendekezo la kuifanya msikiti; Anas anaeleza jibu la Banu al-Najjar na maandalizi ya eneo. Kisha Waislamu walishiriki katika ujenzi."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,7 +2720,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "bb7ccfcee92a55532a09cfb3cccc27f7275fde3eee5e6285532d5cc8cfd243fc",
+  "translation_sha256": "ac584617794596587afb1a588879cc1cbb7be07e5008a3fac4b2d0a807b16ee9",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

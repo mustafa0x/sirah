@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "nl",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
-  "status": "translation_ready",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_mosque:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "Hoe veranderde de plek van een mirbad in een moskee, en hoe lezen we de uiteenlopende overleveringen over eigendom en werkzaamheden?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "Hoe werd de mirbad een moskee?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "Hoe werd de mirbad een moskee? De berichten beginnen bij een plek waar de rijdierkameel neerknielde en gaan dan over op de vraag van wie de grond was, het gereedmaken ervan en de handen die er werkten. We lezen het antwoord van de Banoe an-Najjar in de overlevering van Anas naast het bericht over de twee jongens in de sīra; elke overlevering heeft haar eigen stem en grenzen."
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "De rijdierkameel knielde neer bij een mirbad in Medina. Ibn Ishaq vertelt over de vraag naar de grond en het aanbod om er een moskee van te maken; Anas beschrijft het antwoord van de Banoe an-Najjar en het gereedmaken van het terrein. Daarna namen de moslims deel aan de bouw."
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,12 +2720,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "25a5c9faa5bc2b154e8c8bd8cd6fa769dc520b75f0d04eb78fccd95316bad8e1",
+  "translation_sha256": "e929edd546c5c83c3e2be3a4a09bd0a11e5ac31f7d887a700a86e49f9bdac00c",
   "review": {
-    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-    "translation_sha256": "25a5c9faa5bc2b154e8c8bd8cd6fa769dc520b75f0d04eb78fccd95316bad8e1",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 774a1811-3554-42f2-98fb-d57405d8eff4 across 533 Arabic/target units. Alle 533 inventariseenheden opnieuw rechtstreeks Arabisch–Nederlands vergeleken in alle 19 volledige chunks, inclusief onderwijsproza, doelstellingen, vragen, opties, juiste antwoorden, feedback, bronmetadata, citatie-URLs en alle geselecteerde bronteksten. De eerder gesignaleerde duur «بِضْعَ عَشْرَةَ لَيْلَةً» is nu vertaald als dertien tot negentien nachten. Geen verdere materiële betekenis-, weglatings-, taal- of antwoordfouten gevonden. Geen tekstkritische collatie of onafhankelijke taal-/vakinhoudelijke goedkeuring verricht. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

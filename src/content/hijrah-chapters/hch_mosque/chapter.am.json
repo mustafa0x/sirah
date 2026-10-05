@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_mosque",
-  "revision": 1,
+  "revision": 2,
   "locale": "am",
-  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
-  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
+  "arabic_sha256": "4327b9b89dd7b672f03707a65d9caa44189ecb486c6e3b9c1ddfd40915d51150",
+  "arabic_payload_sha256": "da202fdf645af3cab10f2249d7306cdd1e2522bfcb51190dd8b5e473e752aba0",
   "status": "translation_wip",
   "units": [
     {
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_mosque:reader_question_ar",
-      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
-      "text": "ቦታው ከምርበድ ወደ መስጊድ እንዴት ተለወጠ? ስለ ባለቤትነትና ሥራው የሚለያዩትን ዘገባዎችስ እንዴት እናንብብ?"
+      "source_text_sha256": "28ee6889840f139aee8ef2646568e291fa9a89003ed9fdf5d87a3795f1f856f4",
+      "text": "ምርበዱ እንዴት መስጊድ ሆነ?"
     },
     {
       "unit_id": "hch_mosque_opening:text_ar",
-      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
-      "text": "ምርበዱ እንዴት መስጊድ ሆነ? ዘገባዎቹ የሚጀምሩት ግመሏ ከተንበረከከችበት ቦታ ነው፤ ከዚያም ወደ መሬቱ ጉዳይ፣ ዝግጅቱና የሠራተኞቹ ተሳትፎ ይሸጋገራሉ። በአነስ ሐዲስ የበኑ ነጃርን መልስ በሲራው የሁለቱ ወንዶች ልጆች ዘገባ አጠገብ እናነባለን፤ እያንዳንዱ ዘገባ የራሱ ድምፅና ወሰን አለው።"
+      "source_text_sha256": "cd1b0a2314a72045c6a1f1aba5d79cb96384ade7253e6a58d86967da545fb995",
+      "text": "ግመሏ በመዲና ባለ አንድ ምርበድ ተንበረከከች። ኢብን ኢስሐቅ ስለ መሬቱ የቀረበውን ጥያቄና መስጊድ እንዲደረግ የቀረበውን ሐሳብ ይተርካል፤ አነስ ደግሞ የበኑ ነጃርን መልስና የቦታውን ዝግጅት ይገልጻል። ከዚያም ሙስሊሞች በግንባታው ተሳትፈዋል።"
     },
     {
       "unit_id": "hch_mosque_ground:title_ar",
@@ -2720,7 +2720,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "efd6f324d2bd1c4483e371a76dcfc6f829f88374b1ed213ca67b3d4d35c39c89",
+  "translation_sha256": "89d37b242a4235f57357d1a62438f4712bfd0395a8840f4b19b3936b9a87b4a8",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
