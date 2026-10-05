@@ -159,9 +159,6 @@
         chapter.steps.some((step) => step.paragraphs.some((paragraph) => paragraph.narrated)),
     )
     const narrator = create_narrator(language)
-    let total_minutes = $derived(
-        Math.round(chapter.steps.reduce((sum, step) => sum + step.duration, 0) / 60),
-    )
     // What lies beneath the home page, counted from the content at build time.
     const depth_keys = ['readings', 'passages', 'books', 'questions', 'languages']
     let depth_progress = $state(0)
@@ -2270,17 +2267,10 @@
                 The Hijrah
             </h1>
             <p
-                class="max-w-[31rem] text-ink font-serif text-[clamp(1.15rem,1.6vw,1.4rem)] leading-[1.45]"
+                class="max-w-[31rem] mb-8 text-ink font-serif text-[clamp(1.15rem,1.6vw,1.4rem)] leading-[1.45] mobile:mb-5"
             >
                 Follow the migration from Makkah to Madinah stage by stage, with every paragraph
                 linked to the passage it rests on.
-            </p>
-            <p
-                class="flex flex-wrap gap-x-0 gap-y-[6px] mt-5 mb-7 text-ink-soft text-[0.875rem] [&>span+span]:before:mx-[10px] [&>span+span]:before:text-gold [&>span+span]:before:content-['·'] mobile:mt-[14px] mobile:mb-5"
-            >
-                <span>{fmt_num(chapter.steps.length)} stages</span>
-                <span>about {fmt_num(total_minutes)} minutes</span>
-                <span>{fmt_num(chapter.sources.length)} cited passages</span>
             </p>
             <!-- One decision: begin. The audience is preset (remembered, or "new to the
                  story"), so it can be ignored, and it can be changed later from the help panel. -->
