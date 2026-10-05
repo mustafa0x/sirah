@@ -2355,9 +2355,8 @@
             bind:clientWidth={rail_width}
             in:fade
         >
-            <p class="{kicker} px-2 mobile:hidden">Chapter one</p>
             <h1
-                class="px-2 mt-1 mb-[18px] font-serif text-[2rem] font-medium tracking-[-0.02em] leading-[1.05] mobile:hidden"
+                class="px-2 mb-[18px] font-serif text-[2rem] font-medium tracking-[-0.02em] leading-[1.05] mobile:hidden"
             >
                 The Hijrah
             </h1>
