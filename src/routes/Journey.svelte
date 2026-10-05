@@ -2282,13 +2282,6 @@
                 >
                     {@render icon('start')} Begin the journey
                 </a>
-                <a
-                    class="inline-flex gap-2 items-center py-2 text-ink-soft font-semibold hover:text-gold-bright"
-                    href={journey_href('/journey/hijrah/setting', { ...context(), view: 'reading' })}
-                    onclick={(event) => follow_link(event, () => start('reading'))}
-                >
-                    {@render icon('read')} Read instead
-                </a>
             </div>
             <div
                 class="flex flex-wrap gap-1 items-center w-fit p-1 bg-[rgba(17,15,12,0.5)] border border-solid border-line rounded-full backdrop-blur-[8px]"
