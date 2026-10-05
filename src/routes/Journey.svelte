@@ -260,7 +260,8 @@
             ? 'source'
             : journey.panel === 'question'
               ? 'question'
-              : guided_visible && journey.presentation === 'reading'
+              : // A selected place shows itself; the stage reading returns when it closes.
+                guided_visible && journey.presentation === 'reading' && !active_poi
                 ? 'reading'
                 : null,
     )
@@ -896,6 +897,17 @@
                   chapter_content_locale(item, language),
               ),
     )
+    // A selected place with chapters gets its own card, top right.
+    let place_card = $derived(
+        Boolean(
+            active_poi &&
+            !active_poi.detail &&
+            place_chapters.length &&
+            !sheet &&
+            !reading_chapter &&
+            !map_open,
+        ),
+    )
     let place_chapters = $derived(
         active_poi
             ? chapters_for_place(active_poi.place).filter((item) =>
@@ -1100,7 +1112,14 @@
                 return
             }
         }
-        window.navgo.goto(journey_href(scene_path(), { ...context(), view: 'scene' }))
+        // With no earlier view to return to, keep the current presentation unless it is the
+        // reading itself that is being closed.
+        window.navgo.goto(
+            journey_href(
+                scene_path(),
+                kind === 'reading' ? { ...context(), view: 'scene' } : context(),
+            ),
+        )
     }
 
     function chapter_navigation(path) {
@@ -1422,23 +1441,28 @@
 {/snippet}
 
 {#snippet place_chapter_buttons()}
-    {#each place_chapters as item (item.chapter_id)}
-        <a
-            class="{primary_button} max-w-full justify-self-start"
-            href={href(`/chapters/${item.chapter_id}`)}
-        >
-            {@render icon('read')}
-            <span class="min-w-0 whitespace-normal">
-                <span class="block">Read the chapter</span>
-                <span
-                    class="block font-serif text-[0.9375rem]"
-                    lang={chapter_content_locale(item, language)}
-                    dir={language_direction(chapter_content_locale(item, language))}
-                    >{chapter_title(item, language)}</span
-                >
-            </span>
-        </a>
-    {/each}
+    <!-- One quiet list rather than a gold button per chapter. -->
+    <div class="grid gap-1">
+        <p class={kicker}>Read the chapter</p>
+        <ul class="grid list-none">
+            {#each place_chapters as item (item.chapter_id)}
+                <li>
+                    <a
+                        class="flex gap-2 items-baseline py-[5px] text-ink hover:text-gold-bright [&>svg]:translate-y-[2px] [&>svg]:text-gold"
+                        href={href(`/chapters/${item.chapter_id}`)}
+                    >
+                        {@render icon('read')}
+                        <span
+                            class="font-serif text-[1.0625rem] leading-[1.35]"
+                            lang={chapter_content_locale(item, language)}
+                            dir={language_direction(chapter_content_locale(item, language))}
+                            >{chapter_title(item, language)}</span
+                        >
+                    </a>
+                </li>
+            {/each}
+        </ul>
+    </div>
 {/snippet}
 
 {#snippet citations(source_ids)}
@@ -1467,6 +1491,7 @@
 <div
     class="group/stage fixed inset-0 overflow-hidden [--rail:0px] [--sheet:0px] [--sheet-width:min(480px,42vw)] data-[started=true]:[--rail:324px] data-[sheet-open=true]:[--sheet:calc(var(--sheet-width)+16px)] mobile:data-[started=true]:[--rail:0px] mobile:data-[sheet-open=true]:[--sheet:0px]"
     data-started={guided_visible}
+    data-place-card={place_card}
     data-map={map_open}
     data-sheet-open={!!sheet}
 >
@@ -1716,7 +1741,7 @@
     {#if timeline_open && guided_visible && !(narrow && sheet) && !practice}
         <section
             class="absolute z-20 top-[76px] right-6 left-[calc(var(--rail)+40px)] grid gap-2 px-5 pt-3 pb-3 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:top-[104px] mobile:right-3 mobile:left-3 mobile:px-3"
-            style:right={sheet ? 'calc(var(--sheet) + 8px)' : null}
+            style:right={sheet ? 'calc(var(--sheet) + 8px)' : place_card && !narrow ? '412px' : null}
             aria-labelledby="timeline-title"
             bind:offsetHeight={timeline_height}
             transition:fly={{ y: -10, duration: 220 }}
@@ -1826,7 +1851,7 @@
         </section>
     {/if}
 
-    {#if evidence_on && guided_visible && !sheet && !practice}
+    {#if evidence_on && guided_visible && !sheet && !practice && !place_card}
         <section
             class="absolute z-20 right-6 w-[300px] grid gap-3 px-5 pt-4 pb-4 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:hidden"
             style:top={timeline_open ? `${timeline_bottom + 16}px` : '84px'}
@@ -1891,7 +1916,7 @@
         </section>
     {/if}
 
-    {#if active_poi && !active_poi.detail && place_chapters.length && !sheet && !reading_chapter && !map_open}
+    {#if place_card}
         <section
             class="absolute z-20 top-[88px] right-6 grid gap-3 w-[min(380px,calc(100%-48px))] px-6 pt-5 pb-[18px] bg-panel border border-solid border-line-strong rounded-[20px] shadow-[0_18px_60px_rgba(0,0,0,0.35)] backdrop-blur-[18px] mobile:top-[112px] mobile:right-3 mobile:left-3 mobile:w-auto mobile:px-4 mobile:pt-4"
             aria-labelledby="place-title"

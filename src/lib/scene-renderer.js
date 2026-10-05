@@ -873,7 +873,7 @@ export async function create_scene(
             name.textContent = poi.label
             const note = document.createElement('span')
             note.className =
-                'hidden -order-1 mb-2 py-[9px] px-3 text-ink bg-panel-solid border border-solid border-line rounded-[10px] text-[0.8125rem] leading-[1.45] text-left group-data-[active=true]/poi:block'
+                'hidden -order-1 mb-2 py-[9px] px-3 text-ink bg-panel-solid border border-solid border-line rounded-[10px] text-[0.8125rem] leading-[1.45] text-left group-data-[active=true]/poi:block group-data-[place-card=true]/stage:hidden!'
             note.textContent = poi.description
             node.append(name, note)
             labels.append(node)
