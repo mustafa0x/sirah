@@ -45,6 +45,10 @@
         ['practice', 'Check your understanding'],
     ]
 
+    // Numbers in the chapter's own digits (Arabic-Indic for an Arabic chapter).
+    const local_number = (value) =>
+        value.toLocaleString(chapter?.locale === 'ar' ? 'ar-u-nu-arab' : chapter?.locale)
+
     // Footnote number for each paragraph or outline point, in reading order.
     let notes = $derived.by(() => {
         const map = new Map()
@@ -189,7 +193,7 @@
             lang={destination.lang}
             dir={language_direction(destination.lang)}
             aria-label={`Source ${note.number}`}
-            href={href('readings', note_reading(note))}>{note.number}</a
+            href={href('readings', note_reading(note))}>{local_number(note.number)}</a
         >
     {/if}
 {/snippet}
@@ -335,10 +339,6 @@
         </button>
     </header>
 
-    <p class="px-7 pb-3 text-ink-soft text-[0.8125rem] leading-[1.5] mobile:px-5" data-chapter-wip>
-        Work in progress. All editions require scholarly review before public or wide release.
-    </p>
-
     {#if chapter && destination.lang !== chapter.locale}
         <p class="px-7 pb-3 text-ink-soft text-[0.9375rem] mobile:px-5">
             A chapter edition is not ready in this language. Showing the English edition.
@@ -397,7 +397,7 @@
                                     href={href('story', point.section_id)}
                                 >
                                     <span class="min-w-5 text-gold font-semibold"
-                                        >{(index + 1).toLocaleString(chapter.locale)}</span
+                                        >{local_number(index + 1)}</span
                                     >
                                     <span
                                         class="font-serif text-[1.0625rem] leading-[1.45]"
@@ -542,8 +542,8 @@
                     {#key question.question_id}
                         <div class="grid gap-3" in:fade={{ duration: 200 }}>
                             <p class="text-gold text-[0.875rem] font-semibold">
-                                Question {(practice.index + 1).toLocaleString(chapter.locale)} of {practice.questions.length.toLocaleString(
-                                    chapter.locale,
+                                Question {local_number(practice.index + 1)} of {local_number(
+                                    practice.questions.length,
                                 )}
                                 · {level_name[question.difficulty]}
                             </p>
@@ -644,9 +644,7 @@
                     {@const score = tick_count >= 0 && practice_score(practice)}
                     <div class="grid gap-3">
                         <p class="font-serif text-[2rem]">
-                            {score.correct.toLocaleString(chapter.locale)} of {score.total.toLocaleString(
-                                chapter.locale,
-                            )}
+                            {local_number(score.correct)} of {local_number(score.total)}
                         </p>
                         <p class="text-ink-soft">
                             Correct answers out of the questions in this set.
