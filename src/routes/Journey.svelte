@@ -111,7 +111,7 @@
         remap_position,
         saved_mode,
     } from '../lib/mode.js'
-    import { glossary, kind_notes, why_it_matters } from '../content/lenses.js'
+    import { glossary, why_it_matters } from '../content/lenses.js'
     import { details } from '../content/details.js'
     import {
         create_practice,
@@ -3011,14 +3011,10 @@
                             >
                                 {source.excerpt}
                             </blockquote>
-                            {#if mode === 'new' && kind_notes[source.kind]}
-                                <p class={fine_print}>{kind_notes[source.kind]}</p>
-                            {/if}
                             {#if !source.retrieved}
                                 <p class="text-ink-soft text-[0.9375rem] leading-[1.55]">
                                     {source.explanation}
                                 </p>
-                                <p class={fine_print}>{source.limits}</p>
                             {:else if source.truncated}
                                 <p class={fine_print}>
                                     This passage is shortened. Open the original page for its full
