@@ -149,6 +149,16 @@ export function build_terrain(THREE, definition, grid, details = []) {
                     (2 * z - field.min_z - field.max_z) / (field.max_z - field.min_z),
                 ),
         )
+    // Land in a `shore_corner` sinks into the sea towards the map's south and west borders,
+    // so the border reads as a coastline rather than a straight cut.
+    const corner = definition.shore_corner
+    const shore_fade = (x, z) => {
+        if (!corner) return 1
+        const lat = lat0 + (x * km_per_unit) / KM_PER_DEGREE
+        const lon = lon0 + (z * km_per_unit) / km_per_lon
+        if (lat > corner.north || lon > corner.east) return 1
+        return smoothstep(0.1, 0.7, Math.min(lat - south, lon - west))
+    }
     const metres = (x, z) => {
         let value = regional.sample(x, z)
         for (const { field } of patches) {
@@ -156,6 +166,8 @@ export function build_terrain(THREE, definition, grid, details = []) {
             if (!weight) continue
             value += (field.sample(x, z) - value) * weight
         }
+        const fade = shore_fade(x, z)
+        if (fade < 1 && value > -250) value += (-250 - value) * (1 - fade)
         return value
     }
     const per_metre = definition.exaggeration / 1000 / km_per_unit

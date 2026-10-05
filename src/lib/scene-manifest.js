@@ -16,6 +16,9 @@ export const worlds = {
         exaggeration: 1.5,
         base: 0,
         sea: true,
+        // The border cuts through the African shore here; this corner holds only sea and
+        // Africa, never Arabia.
+        shore_corner: { north: 23, east: 38.3 },
         mesh_step: 1,
         slope_gain: 5,
         fog: [14, 70],
