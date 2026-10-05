@@ -1,26 +1,35 @@
-// Presentation-only grouping; source units remain intact and in their original order.
+// Presentation-only grouping; note scopes and literal source order stay intact.
 export function source_details(units) {
-    return {
-        notes: [...new Set(units.map((unit) => unit.context_note).filter(Boolean))],
-        groups: units.reduce((groups, unit) => {
-            const previous = groups.at(-1)
-            if (
-                previous &&
-                previous.kind === unit.kind &&
-                previous.speaker === unit.speaker &&
-                previous.source_url === unit.source_url &&
-                previous.citation === unit.citation
-            )
-                previous.units.push(unit)
-            else
-                groups.push({
-                    kind: unit.kind,
-                    speaker: unit.speaker,
-                    source_url: unit.source_url,
-                    citation: unit.citation,
-                    units: [unit],
-                })
-            return groups
-        }, []),
+    const sections = []
+    for (const unit of units) {
+        let section = sections.at(-1)
+        if (
+            !section ||
+            section.context_note !== unit.context_note ||
+            section.context_note_ar !== unit.context_note_ar
+        ) {
+            section = {
+                context_note: unit.context_note,
+                context_note_ar: unit.context_note_ar,
+                groups: [],
+            }
+            sections.push(section)
+        }
+        const group = section.groups.at(-1)
+        if (
+            group &&
+            [
+                'kind',
+                'speaker',
+                'kind_ar',
+                'speaker_ar',
+                'source_url',
+                'citation',
+                'citation_ar',
+            ].every((key) => group[0][key] === unit[key])
+        )
+            group.push(unit)
+        else section.groups.push([unit])
     }
+    return sections
 }

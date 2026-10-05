@@ -243,26 +243,45 @@
                 >Arabic original and source details</summary
             >
             <div class="grid gap-5 pt-3">
-                {#each details.groups as group, index (index)}
-                    <div class="grid gap-2">
-                        <p>{group.kind} · {group.speaker}</p>
-                        <a
-                            class="justify-self-start text-gold underline underline-offset-4"
-                            href={citation(group.units[0]).url}
-                            target="_blank"
-                            rel="noreferrer">{citation(group.units[0]).label}</a
-                        >
-                        {#each group.units as unit (unit.unit_id)}
-                            <pre
-                                data-original-unit={unit.unit_id}
-                                lang="ar"
-                                dir="rtl"
-                                class="m-0 whitespace-pre-wrap break-words font-arabic text-[1.0625rem] leading-[1.9]">{unit.text_ar}</pre>
+                {#each details as scope, index (index)}
+                    <div
+                        class="grid gap-4"
+                        data-source-scope={scope.groups
+                            .flat()
+                            .map((unit) => unit.unit_id)
+                            .join(' ')}
+                    >
+                        {#each scope.groups as group, group_index (group_index)}
+                            <div class="grid gap-2">
+                                <p>{group[0].kind} · {group[0].speaker}</p>
+                                <a
+                                    class="justify-self-start text-gold underline underline-offset-4"
+                                    href={citation(group[0]).url}
+                                    target="_blank"
+                                    rel="noreferrer">{citation(group[0]).label}</a
+                                >
+                                {#if chapter.locale !== 'ar'}
+                                    <p lang="ar" dir="rtl" class="font-arabic">
+                                        {group[0].kind_ar} · {group[0].speaker_ar}
+                                    </p>
+                                    <p lang="ar" dir="rtl" class="font-arabic break-words">
+                                        {group[0].citation_ar}
+                                    </p>
+                                {/if}
+                                {#each group as unit (unit.unit_id)}
+                                    <pre
+                                        data-original-unit={unit.unit_id}
+                                        lang="ar"
+                                        dir="rtl"
+                                        class="m-0 whitespace-pre-wrap break-words font-arabic text-[1.0625rem] leading-[1.9]">{unit.text_ar}</pre>
+                                {/each}
+                            </div>
                         {/each}
+                        {#if scope.context_note}<p>{scope.context_note}</p>{/if}
+                        {#if chapter.locale !== 'ar' && scope.context_note_ar}
+                            <p lang="ar" dir="rtl" class="font-arabic">{scope.context_note_ar}</p>
+                        {/if}
                     </div>
-                {/each}
-                {#each details.notes as note (note)}
-                    <p>{note}</p>
                 {/each}
             </div>
         </details>
