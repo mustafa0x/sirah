@@ -1256,14 +1256,14 @@ export async function create_scene(
         const follow_point = new THREE.Vector3()
 
         // Animals are plain low-poly figures, always riderless. Built one unit tall, facing +x.
-        const build_animal = ({ color, body, hump, neck, head, legs }) => {
-            const material = new THREE.MeshStandardMaterial({
-                color,
-                roughness: 1,
-                flatShading: true,
-            })
-            const part = (size, position, tilt = 0, parent) => {
-                const mesh = shadowed(new THREE.Mesh(block_geometry, material))
+        // `points` colours the head and legs apart from the body.
+        const build_animal = ({ color, points = color, body, hump, tail, neck, head, legs }) => {
+            const material = (value) =>
+                new THREE.MeshStandardMaterial({ color: value, roughness: 1, flatShading: true })
+            const coat = material(color)
+            const markings = points === color ? coat : material(points)
+            const part = (size, position, tilt = 0, parent, look = coat) => {
+                const mesh = shadowed(new THREE.Mesh(block_geometry, look))
                 mesh.scale.set(...size)
                 mesh.position.set(...position)
                 mesh.rotation.z = tilt
@@ -1275,12 +1275,13 @@ export async function create_scene(
             root.add(torso)
             part(body.size, body.at, 0, torso)
             if (hump) part(hump.size, hump.at, 0.5, torso)
+            if (tail) part(tail.size, tail.at, 0, torso)
             part(neck.size, neck.at, neck.tilt, torso)
-            part(head.size, head.at, head.tilt ?? 0, torso)
+            part(head.size, head.at, head.tilt ?? 0, torso, markings)
             const limbs = legs.at.map(([x, z]) => {
                 const hip = new THREE.Group()
                 hip.position.set(x, legs.top, z)
-                part([legs.width, legs.top, legs.width], [0, -legs.top / 2, 0], 0, hip)
+                part([legs.width, legs.top, legs.width], [0, -legs.top / 2, 0], 0, hip, markings)
                 torso.add(hip)
                 return hip
             })
@@ -1321,6 +1322,74 @@ export async function create_scene(
                 ],
             },
         })
+        // A fat-tailed ewe of the region: pale wool, brown face and legs.
+        const ewe = build_animal({
+            color: 0xeee4cf,
+            points: 0x5e3f2a,
+            body: { size: [0.74, 0.44, 0.44], at: [0, 0.58, 0] },
+            tail: { size: [0.16, 0.3, 0.3], at: [-0.42, 0.5, 0] },
+            neck: { size: [0.14, 0.26, 0.14], at: [0.38, 0.74, 0], tilt: -0.5 },
+            head: { size: [0.3, 0.18, 0.17], at: [0.52, 0.84, 0], tilt: -0.45 },
+            legs: {
+                top: 0.4,
+                width: 0.07,
+                at: [
+                    [0.24, 0.11],
+                    [0.24, -0.11],
+                    [-0.24, 0.11],
+                    [-0.24, -0.11],
+                ],
+            },
+        })
+        // A goat-hair tent, 0.85 units tall at the ridge, its open front facing +x. Its ewe and
+        // the milking vessel stand in the same frame.
+        const tent = new THREE.Group()
+        {
+            const material = (color) =>
+                new THREE.MeshStandardMaterial({ color, roughness: 1, flatShading: true })
+            const cloth = material(0x3b302a)
+            const band = material(0x8b6a48)
+            const wood = material(0x6e5238)
+            const part = (mat, size, position, tilt = 0) => {
+                const mesh = shadowed(new THREE.Mesh(block_geometry, mat))
+                mesh.scale.set(...size)
+                mesh.position.set(...position)
+                mesh.rotation.z = tilt
+                tent.add(mesh)
+                return mesh
+            }
+            // The roof falls steeply to the closed back and lifts as an awning over the front,
+            // held out by guy ropes. Pale bands run across the dark goat hair.
+            const roof = [
+                [0.9, [-0.4, 0.65], 0.46],
+                [0.84, [0.4, 0.735], -0.28],
+            ]
+            for (const [length, [x, y], tilt] of roof) {
+                part(cloth, [length, 0.04, 2.4], [x, y, 0], tilt)
+                for (const z of [-0.6, 0.6]) part(band, [length, 0.046, 0.14], [x, y, z], tilt)
+            }
+            part(cloth, [0.04, 0.46, 2.4], [-0.8, 0.23, 0])
+            for (const side of [-1.18, 1.18]) part(cloth, [0.82, 0.44, 0.04], [-0.4, 0.22, side])
+            for (const z of [-0.8, 0, 0.8]) part(wood, [0.045, 0.85, 0.045], [0, 0.425, z])
+            const rope = material(0xcbb58a)
+            for (const z of [-1.1, 0, 1.1]) {
+                part(wood, [0.04, 0.62, 0.04], [0.8, 0.31, z])
+                part(rope, [0.83, 0.012, 0.012], [1.075, 0.31, z], -0.845)
+            }
+            // A woven mat on the ground under the awning.
+            part(material(0x8a3a28), [0.6, 0.012, 1.1], [0.3, 0.006, 0])
+            ewe.root.visible = true
+            tent.add(ewe.root)
+        }
+        const vessel = shadowed(
+            new THREE.Mesh(
+                new THREE.CylinderGeometry(0.13, 0.09, 0.1, 10),
+                new THREE.MeshStandardMaterial({ color: 0x9a6a3e, roughness: 0.9 }),
+            ),
+        )
+        tent.add(vessel)
+        tent.visible = false
+        scene.add(tent)
         let actor = null
         // Video capture can hide the route lines for scenic shots.
         let routes_shown = true
@@ -1554,8 +1623,30 @@ export async function create_scene(
                 horse.torso.rotation.z = -0.2
                 horse.torso.position.y = -0.06
             }
+            // At Umm Ma‘bad's tent the ewe first lies dry beside it, then stands before the
+            // open front with the vessel at its side.
+            tent.visible = (actor === 'tent' || actor === 'ewe') && active.name === 'region'
+            if (tent.visible) {
+                const milked = actor === 'ewe'
+                // Pitched just back from the line of the route, its front towards the camera.
+                const ground = locate('tent')
+                ground.x -= Math.sin(0.1) * 0.42
+                ground.z -= Math.cos(0.1) * 0.42
+                ground.y = active.terrain.height(ground.x, ground.z)
+                tent.position.copy(ground).multiplyScalar(active.scale)
+                tent.rotation.y = 0.1 - Math.PI / 2
+                tent.scale.setScalar(0.24 * active.scale)
+                ewe.root.scale.setScalar(0.5)
+                // Side on to the camera in both beats.
+                ewe.root.position.set(1.3, 0, milked ? 0.55 : 0.75)
+                ewe.root.rotation.y = milked ? Math.PI / 2 : -Math.PI / 2
+                ewe.limbs.forEach((limb) => (limb.scale.y = milked ? 1 : 0.3))
+                ewe.torso.position.y = (ewe.limbs[0].scale.y - 1) * ewe.top
+                vessel.visible = milked
+                vessel.position.set(1.55, 0.05, 0.5)
+            }
             // The marker shows where the line is still being drawn, not a resting place.
-            traveller.visible = Boolean(tip) && !walking && !horse.root.visible
+            traveller.visible = Boolean(tip) && !walking && !horse.root.visible && !tent.visible
             if (tip) {
                 traveller.position
                     .copy(tip.points[Math.floor(tip.shown * tip.count)])

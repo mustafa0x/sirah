@@ -307,8 +307,8 @@ export const beat_shots = {
     N06a: { ...shot('road', -0.5, 0.42, 7, 0.2), follow: 1 },
     N06b: { ...shot('road', south + 0.5, 0.26, 4.2, 0.2), follow: 1 },
     N06c: { ...shot('road', south + 0.15, 0.5, 9, 0.2), follow: 1 },
-    N10a: shot('tent', -0.3, 0.42, 5, 0.2),
-    N10b: shot('tent', 0.45, 0.3, 3.2, 0.2),
+    N10a: shot('tent', -0.3, 0.42, 4, 0.2),
+    N10b: shot('tent', 0.45, 0.3, 2.3, 0.2),
     N05a: shot('quba', 0.5, 0.45, 5.2, 0.1),
     N07a: shot('quba', south + 0.35, 0.07, 0.3, 0.014),
     // Close behind the camel as she walks from Quba into the town.
@@ -345,6 +345,6 @@ export const timelapse_beats = { N03c: true }
 export const beat_passages = { N03e: 'E09' }
 
 // Beats during which an animal stands in the scene. No person is ever shown.
-export const beat_actors = { N06b: 'horse' }
+export const beat_actors = { N06b: 'horse', N10a: 'tent', N10b: 'ewe' }
 
 export { shelter_asset }
