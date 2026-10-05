@@ -645,13 +645,6 @@
                                     >
                                         {question.explanation}
                                     </p>
-                                    <p
-                                        class="text-ink-soft text-[0.9375rem] leading-[1.7]"
-                                        lang={chapter?.locale}
-                                        dir={language_direction(chapter?.locale)}
-                                    >
-                                        {question.scope_note}
-                                    </p>
                                     <button
                                         class="justify-self-start mt-1 py-2 px-5 text-gold-ink font-semibold bg-gold border-0 rounded-full hover:bg-gold-bright"
                                         onclick={next}

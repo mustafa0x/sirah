@@ -2659,7 +2659,6 @@
                                 <p class="text-ink leading-[1.55]" dir="auto">
                                     {practice_view.explanation}
                                 </p>
-                                <p class={fine_print} dir="auto">{practice_view.scope_note}</p>
                                 {#if practice_result.used_source}
                                     <p class={fine_print}>You read the passage before answering.</p>
                                 {/if}
