@@ -1435,6 +1435,55 @@ export async function create_scene(
         traveller.visible = false
         scene.add(traveller)
 
+        // ‘Abdullah's nightly visits are a lantern-like light with a fading tail, never a
+        // figure: up to the cave after dark, back down to Makkah before daybreak.
+        const lantern = new THREE.Group()
+        const lantern_geometry = new THREE.SphereGeometry(1, 12, 8)
+        for (let index = 0; index < 20; index += 1)
+            lantern.add(
+                new THREE.Mesh(
+                    lantern_geometry,
+                    new THREE.MeshBasicMaterial({
+                        color: index ? 0xffb35c : 0xffe2a8,
+                        fog: false,
+                        transparent: true,
+                        opacity: index ? 0.4 * (1 - index / 20) : 1,
+                        depthWrite: false,
+                        blending: THREE.AdditiveBlending,
+                    }),
+                ),
+            )
+        // A wide, faint glow around the light lifts it off the bright route line.
+        const halo = new THREE.Mesh(
+            lantern_geometry,
+            new THREE.MeshBasicMaterial({
+                color: 0xffc879,
+                fog: false,
+                transparent: true,
+                opacity: 0.12,
+                depthTest: false,
+                depthWrite: false,
+                blending: THREE.AdditiveBlending,
+            }),
+        )
+        lantern.visible = false
+        scene.add(lantern, halo)
+        const smooth = (value) => value * value * (3 - 2 * value)
+        // How far up the path the light is in one night's phase, or null when out of sight.
+        const visit_reach = (phase) => {
+            if (phase < 0.02 || phase > 0.48) return null
+            if (phase < 0.22) return smooth((phase - 0.02) / 0.2)
+            if (phase < 0.28) return null
+            return smooth(1 - (phase - 0.28) / 0.2)
+        }
+        const along = (route, reach, target) => {
+            const at = clamp(reach, 0, 1) * route.count
+            const index = Math.min(route.count - 1, Math.floor(at))
+            return target
+                .lerpVectors(route.points[index], route.points[index + 1], at - index)
+                .multiplyScalar(worlds[route.world].scale)
+        }
+
         const ease_in_out = (t) => (t < 0.5 ? 4 * t ** 3 : 1 - (-2 * t + 2) ** 3 / 2)
         let previous = performance.now()
         const render = (now) => {
@@ -1645,8 +1694,31 @@ export async function create_scene(
                 vessel.visible = milked
                 vessel.position.set(1.55, 0.05, 0.5)
             }
+            const cave_path = worlds.makkah?.routes.find((route) => route.leg === 0)
+            const reach =
+                actor === 'visits' && cycle !== null && cycle < 1 && active.name === 'makkah'
+                    ? visit_reach((cycle * 3) % 1)
+                    : null
+            lantern.visible = reach !== null && Boolean(cave_path)
+            if (lantern.visible) {
+                // The tail trails behind in the direction of travel.
+                const behind = (cycle * 3) % 1 < 0.25 ? -1 : 1
+                // It fades in leaving Makkah and out at the cave mouth.
+                const flicker =
+                    (reduced_motion ? 1 : 1 + 0.12 * Math.sin(now / 90)) *
+                    clamp(Math.min(reach, 1 - reach) / 0.08, 0, 1)
+                lantern.children.forEach((light, index) => {
+                    along(cave_path, reach + behind * index * 0.007, light.position)
+                    light.position.y += distance * 0.004
+                    light.scale.setScalar(distance * 0.0065 * (1 - index / 26) * flicker)
+                })
+                halo.position.copy(lantern.children[0].position)
+                halo.scale.setScalar(distance * 0.018 * flicker)
+            }
+            halo.visible = lantern.visible
             // The marker shows where the line is still being drawn, not a resting place.
-            traveller.visible = Boolean(tip) && !walking && !horse.root.visible && !tent.visible
+            traveller.visible =
+                Boolean(tip) && !walking && !horse.root.visible && !tent.visible && !lantern.visible
             if (tip) {
                 traveller.position
                     .copy(tip.points[Math.floor(tip.shown * tip.count)])

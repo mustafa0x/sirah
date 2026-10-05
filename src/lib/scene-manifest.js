@@ -295,8 +295,9 @@ export const beat_shots = {
     N09b: shot('makkah', -0.3, 0.3, 1.3, 0.05),
     N09c: shot('makkah', north - 0.2, 0.42, 4, 0.1),
     N03a: shot('cave', north + 0.15, 0.13, 0.023, 0.0018),
-    // From behind Thawr, towards Makkah.
-    N03b: shot('makkah_valley', south + 0.3, 0.3, 5, 0.1),
+    // Side on to the path, Thawr to the left and Makkah to the right, clear of the stage card:
+    // ‘Abdullah's light comes up the path each night.
+    N03b: shot('makkah_valley', 0.15, 0.42, 7, 0.1, [-0.3, 0, 0]),
     // Three nights pass over the slope.
     N03c: shot('cave', north + 0.9, 0.1, 0.06, 0.006),
     // Low view of the aperture; the generated mesh is not a navigable interior.
@@ -339,12 +340,12 @@ export function route_at(step_id, progress) {
 }
 
 // Beats during which the sky runs through three nights, driven by playback position.
-export const timelapse_beats = { N03c: true }
+export const timelapse_beats = { N03b: true, N03c: true }
 
 // Beats that set a cited passage in the scene itself.
 export const beat_passages = { N03e: 'E09' }
 
 // Beats during which an animal stands in the scene. No person is ever shown.
-export const beat_actors = { N06b: 'horse', N10a: 'tent', N10b: 'ewe' }
+export const beat_actors = { N03b: 'visits', N06b: 'horse', N10a: 'tent', N10b: 'ewe' }
 
 export { shelter_asset }
