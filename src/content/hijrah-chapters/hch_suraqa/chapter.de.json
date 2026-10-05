@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "de",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "In diesem Kapitel verfolgen wir die Jagd vom Versammlungsort der Banu Mudlidj bis auf den Weg: Was erkannte Suraqa und verschwieg es, wie handelte er, als sein Pferd stolperte, und was geschah, als die Reisegruppe anhielt, um ihm zu begegnen?"
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "Suraqa ibn Malik hörte von Reisenden, die ein Mann der Banu Mudlidj an der Küste gesehen hatte. Er erkannte sie, verschwieg es aber und verfolgte sie. Sein Pferd stolperte; später rief er den Reisenden um Sicherheit zu, und sie hielten an, um ihm zu begegnen."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "Wörter, die beim Lesen des Berichts helfen"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "Wörter zu Belohnung und Verfolgung"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "„Dschuʿl“ bezeichnet die versprochene Belohnung. Der Bericht bei al-Buchari nennt für jeden der beiden, den Propheten ﷺ und Abu Bakr, das jeweilige Blutgeld für denjenigen, der ihn tötet oder gefangen nimmt. Der Bericht Ibn Ishaqs dagegen nennt hundert Kamelstuten für denjenigen, der den Propheten ﷺ zu den Quraisch zurückbringt; Suraqa spricht darin ausdrücklich von seiner Hoffnung, die hundert zu erhalten. So siehst du, wie die Belohnung in den beiden Lesetexten jeweils beschrieben wird."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "Dschuʿl bezeichnet eine versprochene Belohnung. In al-Bucharis Bericht wird für jeden der beiden, den Propheten ﷺ und Abu Bakr, dessen Blutgeld demjenigen versprochen, der ihn tötet oder gefangen nimmt; bei Ibn Ishaq sind es hundert Kamelstuten für denjenigen, der den Propheten ﷺ zu den Quraisch zurückbringt. Suraqa sagt bei Ibn Ishaq, dass er hoffte, ihn zurückzubringen und die hundert zu erhalten."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "In Suraqas Bericht bei al-Buchari findest du den Namen Amir ibn Fuhaira und ein Stück gegerbtes Leder. Ibn Ishaqs Bericht in Ibn Hischams Sira hingegen berichtet, dass der Prophet ﷺ Abu Bakr zum Schreiben aufforderte. Anschließend ist vom Schreiben auf einen Knochen, ein Stück Schreibmaterial (ruqʿa) oder eine Tonscherbe die Rede; das Material bleibt ungewiss. Die Erzählung hier folgt bei der Person des Schreibers und dem Schreibmaterial dem Wortlaut al-Bucharis."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "In Suraqas Bericht bei al-Buchari beauftragte der Prophet ﷺ Amir ibn Fuhaira; dieser schrieb Suraqa den Sicherheitsbrief auf ein Stück Leder."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "Die Abweichung in diesen beiden Punkten ist deutlich. Keiner der Texte sagt jedoch, dass die beiden Männer gemeinsam geschrieben hätten. Deshalb lesen wir zunächst, was jeder Bericht für sich erzählt, und machen aus den beiden Namen keine Geschichte über zwei Urkunden, die keiner der Ausschnitte erwähnt."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "Im Bericht Ibn Ishaqs in Ibn Hischams Sira beauftragte der Prophet ﷺ Abu Bakr mit dem Schreiben; Suraqa erwähnt danach, dass der Brief auf einen Knochen, ein Stück Schreibmaterial oder eine Tonscherbe geschrieben wurde, wobei das Material ungewiss bleibt. Die Berichte unterscheiden sich bei Schreiber und Material; keiner erwähnt einen zweiten Brief oder gemeinsames Schreiben der beiden Männer."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "Suraqa selbst berichtet, was er in der Versammlung erkannte, wie er Pferd und Lanze vorbereitete, was ihm die Losstäbe anzeigten und was ihm bei der Begegnung durch den Kopf ging. Der Bericht Abu Bakrs, den al-Baraʾ bei al-Baihaqi überliefert, beschreibt dagegen, wie der Verfolger sie einholte und der Prophet ﷺ betete; anschließend erzählt er von Suraqas Versprechen, die Verfolger zurückzuhalten, und davon, dass er dieses einhielt. Daraus stammt der Schluss der Geschichte über das Abwenden der Verfolger."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "Suraqa selbst berichtet, was er in der Versammlung erkannte, wie er Pferd und Lanze vorbereitete, was ihm die Losstäbe anzeigten und was ihm bei der Begegnung durch den Kopf ging. Der Bericht Abu Bakrs, den al-Baraʾ bei al-Baihaqi überliefert, beschreibt das Herannahen des Verfolgers, das Gebet des Propheten ﷺ und Suraqas Versprechen, die Verfolger zurückzuschicken. Abu Bakr berichtet, dass Suraqa zurückkehrte, die Verfolger, denen er begegnete, abwies und sein Versprechen gegenüber den Reisenden hielt."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "Vergleichst du al-Bucharis Überlieferung mit Ibn Ishaqs Bericht, achte auch auf die Reihenfolge des Stolperns: Im ersten Bericht stolpert das Pferd vor der ganz nahen Annäherung, danach versinken seine Vorderbeine; im zweiten stolpert es zweimal und dann noch einmal beim Anblick der Gruppe, wobei seine Vorderbeine in den Boden geraten. Deshalb haben wir die Verfolgung in der Reihenfolge einer einzigen Überlieferung gelesen, statt die Stolperereignisse beider Texte zusammenzurechnen."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "In Suraqas Bericht bei al-Buchari stolperte das Pferd, bevor er ihnen sehr nahe kam, und er fiel; nachdem er die Rezitation des Propheten ﷺ gehört hatte, sanken seine Vorderbeine in die Erde. Bei Ibn Ishaq stolperte es zweimal, und Suraqa fiel jedes Mal; als er die Leute sah, stolperte es erneut, und seine Vorderbeine drangen in den Boden ein."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "e95de428ea7a9462ff963cd5a745e3fb67ca2edb5f9874f82353ef0300157db0",
+  "translation_sha256": "995ed811a6b65b5f20f3f179396fc260a715bd8dcf388d0e57688874490150f2",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "e95de428ea7a9462ff963cd5a745e3fb67ca2edb5f9874f82353ef0300157db0",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session cc396afc-b2e8-4536-ac12-2785c3739d08 across 314 Arabic/target units. Compared all 314 paired Arabic/German units in complete chunks 0–12, including teaching prose, headings, nine objectives, ten questions and answer meanings, explanations, feedback and scope notes, all source-unit metadata, URLs, named chains, and full selected quotations. The earlier material-specificity and sadaqa issues are resolved in this bound draft; no further actionable semantic mismatch identified. The Arabic watchlist was consulted as an additional check. This is a bounded semantic review, not manuscript collation, independent language approval, specialist approval, or publication clearance. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

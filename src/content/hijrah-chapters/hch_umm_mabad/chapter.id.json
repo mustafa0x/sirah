@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_umm_mabad",
-  "revision": 1,
+  "revision": 2,
   "locale": "id",
-  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
-  "status": "translation_ready",
+  "arabic_sha256": "5d4522d31189abc5ec8414c33bcc8c3511566d9610ae53ec807134c20ea89562",
+  "arabic_payload_sha256": "970bc2728581db59aa687150d969118744e8f404db9b90e5cc8a05a9e3437bac",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_umm_mabad:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_umm_mabad_overview:text_ar",
-      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
-      "text": "Kita mengikuti persinggahan rombongan di tempat Ummu Ma‘bad sebagaimana dikisahkan dalam riwayat Hubaish bin Khalid: permintaan makanan, kambing betina yang tertinggal di kemah, lalu percakapan suami istri setelah para tamu berangkat. Bacaan pendamping membantu memahami istilah dalam penggambaran tersebut dan memperlihatkan pembahasan Ibnu Katsir serta al-Albani tentang jalur-jalur riwayatnya, tanpa menganggap semua sanad dan redaksinya disepakati."
+      "source_text_sha256": "16036245abe45e77c557698b12ecf0c6cc4528ce4c42ecf9206dc3c725f2647e",
+      "text": "Hubaish bin Khalid meriwayatkan bahwa Nabi ﷺ dan para sahabatnya singgah di tempat Ummu Ma‘bad. Mereka meminta daging dan kurma, tetapi tidak menemukannya di sana. Nabi ﷺ lalu memerah kambing betina yang tertinggal dari kawanan karena lemah dan meninggalkan sewadah susu untuknya. Setelah mereka pergi, Abu Ma‘bad bertanya tentang susu itu, lalu istrinya menggambarkan tamu tersebut kepadanya."
     },
     {
       "unit_id": "hch_umm_mabad_tent:title_ar",
@@ -118,18 +118,18 @@
     },
     {
       "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
-      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
-      "text": "Di sini kita membedakan penilaian terhadap satu sanad tertentu dari penguatan hadis lewat berbagai jalur. Karena itu, keberatan al-Albani jangan dijadikan penolakan mutlak terhadap kisah tersebut, dan pernyataan Ibnu Katsir jangan dianggap sebagai pengesahan terperinci atas setiap redaksinya. Kisah dalam bab ini mengikuti riwayat Hubaish sebagaimana dimuat Abu Nu‘aim; bab ini bukan kajian menyeluruh atas seluruh jalur dan bukan penetapan penilaian sanad yang baru."
+      "source_text_sha256": "030109acd701f3502dbafe5b5c01f7c69962ba54820fbbb6c574aa3bb7d1787e",
+      "text": "Menurut Ibnu Katsir, jalur-jalur kisah Ummu Ma‘bad saling menguatkan; pernyataan itu tidak membahas satu per satu redaksinya. Keberatan al-Albani menyangkut kesahihan sanad yang memuat Hisyam bin Hubaish; ia tetap menyebut kemungkinan hadis itu naik ke derajat hasan atau sahih melalui jalur-jalur yang dibawakan al-Hakim. Perincian persinggahan di kemah berasal dari riwayat Hubaish bin Khalid yang dimuat Abu Nu‘aim."
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices:title_ar",
-      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
-      "text": "Siapa yang berbicara di halaman sumber?"
+      "source_text_sha256": "463af65281604b3a6367d3e6e20d7fa732ca937e18054262d0c9d07c3ccefa35",
+      "text": "Teks riwayat, rujukan Ibnu Hajar, dan catatan kaki al-Albani"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
-      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
-      "text": "Pada halaman-halaman pilihan dari Hidayat ar-Ruwah, ada teks riwayat yang disertakan penyunting dari al-Misykat, lalu atribusi Ibnu Hajar kepada al-Baihaqi, kemudian komentar al-Albani di catatan kaki. Ali al-Halabi menjelaskan dalam pengantar suntingannya bahwa ia mengambil takhrij dan komentar al-Albani untuk dilampirkan pada buku itu. Karena itu, kita tidak menisbatkan sanggahan terhadap sanad kepada Ibnu Hajar hanya karena namanya tercantum sebagai penulis buku."
+      "source_text_sha256": "9314fa0dec48ff430bb0a1bfcffe9351af57aa8cb010c97862872a9689ec9b23",
+      "text": "Dalam edisi Hidayat ar-Ruwah ini, Ali al-Halabi memasukkan teks riwayat Hubaish dari al-Misykat, lalu disusul rujukan Ibnu Hajar kepada al-Baihaqi. Keberatan terhadap kesahihan sanad dalam catatan kaki berasal dari al-Albani, bukan Ibnu Hajar; al-Halabi menyatakan dalam pengantar bahwa ia menambahkan takhrij dan komentar al-Albani ke dalam buku."
     },
     {
       "unit_id": "hch_umm_mabad_outline_request:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "38892d59c059ed6ba026686f5c1e151ecc56b655d5112ee24c0dfe8a8bd9f256",
+  "translation_sha256": "4f34b3c801f0a631232587a11ecf939dda1e781fa2337fcca44666f9ceac10e5",
   "review": {
-    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-    "translation_sha256": "38892d59c059ed6ba026686f5c1e151ecc56b655d5112ee24c0dfe8a8bd9f256",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 1c336179-488f-4fea-bc26-b261697859d0 across 382 Arabic/target units. Compared every one of the 382 paired Arabic–Indonesian inventory units across all 14 untruncated chunks (0–13): teaching prose, objectives, outlines, all question prompts/choices/correct-answer meanings/explanations/scope/feedback, metadata, citation URLs and the complete selected source texts. Identical repeated metadata was inspected individually and assessed together. The previous five meaning issues are corrected in this bound draft; no further actionable meaning, omission, language or answer problems were identified. This review is limited to the supplied digital Arabic authority; it does not constitute print collation, exhaustive scholarly isnad assessment, independent language approval or publication authorization. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

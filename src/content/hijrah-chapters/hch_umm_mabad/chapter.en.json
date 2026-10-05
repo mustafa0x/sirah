@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_umm_mabad",
-  "revision": 1,
+  "revision": 2,
   "locale": "en",
-  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
-  "status": "translation_ready",
+  "arabic_sha256": "5d4522d31189abc5ec8414c33bcc8c3511566d9610ae53ec807134c20ea89562",
+  "arabic_payload_sha256": "970bc2728581db59aa687150d969118744e8f404db9b90e5cc8a05a9e3437bac",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_umm_mabad:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_umm_mabad_overview:text_ar",
-      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
-      "text": "We follow the party's stop at Umm Mabad's as told in the report of Hubaysh ibn Khalid: their request for food, the sheep that remained in the tent, and the conversation between husband and wife after the guests left. The accompanying readings help explain the words of the description and present Ibn Kathir's and al-Albani's comments on the report's transmission routes, without treating all its chains and wordings as agreed upon."
+      "source_text_sha256": "16036245abe45e77c557698b12ecf0c6cc4528ce4c42ecf9206dc3c725f2647e",
+      "text": "Hubaysh ibn Khalid relates that the Prophet ﷺ and his companions stopped at Umm Mabad's. They sought meat and dates but found none. The Prophet ﷺ then milked the sheep that weakness had kept behind the flock and left her a vessel of milk. After they departed, Abu Mabad asked about the milk, and his wife described the visitor to him."
     },
     {
       "unit_id": "hch_umm_mabad_tent:title_ar",
@@ -118,18 +118,18 @@
     },
     {
       "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
-      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
-      "text": "The distinction is between assessing a particular chain and strengthening a report through multiple routes. We therefore do not turn al-Albani's objection into a categorical denial of the story, or Ibn Kathir's remark into a detailed authentication of every wording. The account follows Hubaysh's report in Abu Nuaym; this chapter is neither a comprehensive study of all routes nor a new judgment on its chain."
+      "source_text_sha256": "030109acd701f3502dbafe5b5c01f7c69962ba54820fbbb6c574aa3bb7d1787e",
+      "text": "Ibn Kathir says the routes of the Umm Mabad story support one another; he does not discuss each of its wordings individually. Al-Albani's objection concerns the soundness of a chain containing Hisham ibn Hubaysh, though he allows that routes cited by al-Hakim may raise the report to hasan or sahih. The details of the stop at the tent come from Hubaysh ibn Khalid's report as given by Abu Nuaym."
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices:title_ar",
-      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
-      "text": "Who is speaking on the source page?"
+      "source_text_sha256": "463af65281604b3a6367d3e6e20d7fa732ca937e18054262d0c9d07c3ccefa35",
+      "text": "The report, Ibn Hajar's source attribution and al-Albani's footnote"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
-      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
-      "text": "In the selected pages of Hidayat al-Ruwat, the editor first reproduces the report's text from al-Mishkat, then comes Ibn Hajar's attribution to al-Bayhaqi, followed by al-Albani's footnote. Ali al-Halabi explains in his editorial introduction that he took al-Albani's source references and comments to append to the book. The objection to the chain should therefore not be attributed to Ibn Hajar simply because his name appears on the book."
+      "source_text_sha256": "9314fa0dec48ff430bb0a1bfcffe9351af57aa8cb010c97862872a9689ec9b23",
+      "text": "In this edition of Hidayat al-Ruwat, Ali al-Halabi included the text of Hubaysh's report from al-Mishkat, followed by Ibn Hajar's reference to al-Bayhaqi. The objection to the chain's soundness in the footnote is al-Albani's, not Ibn Hajar's: al-Halabi says in his introduction that he added al-Albani's source references and comments to the book."
     },
     {
       "unit_id": "hch_umm_mabad_outline_request:text_ar",
@@ -1940,14 +1940,12 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "9ab21f17922a68a3e73a3a142e51829c6e04a89636fd70a305a94082abc584f9",
+  "translation_sha256": "388e71b32454b39b4239207ebafc1707f0444fca24dd59b9d6c82f20048a5ab6",
   "review": {
-    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-    "summary": "Internal AI direct Arabic-English comparison of all382 inventory units (137 teaching including all ten questions;205 metadata entries/64 distinct pairs;40 selected full source texts), followed by four corrections and a focused re-review in session e37955c9-d69e-4727-914c-d32e1091d227. Main verified the four original Arabic passages and confirmed these are the only four changed unit texts against the generated pre-correction snapshot. The supplied Hidaya reading وردت is retained with an uncertainty note, not silently corrected. Unselected source parts, print witnesses and independent scholarly/language/publication approval remain outside scope.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
-    "public_distribution_approved": false,
-    "translation_compared": true,
-    "translation_sha256": "9ab21f17922a68a3e73a3a142e51829c6e04a89636fd70a305a94082abc584f9"
+    "public_distribution_approved": false
   }
 }

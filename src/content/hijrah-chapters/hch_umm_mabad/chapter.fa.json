@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_umm_mabad",
-  "revision": 1,
+  "revision": 2,
   "locale": "fa",
-  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
-  "status": "translation_ready",
+  "arabic_sha256": "5d4522d31189abc5ec8414c33bcc8c3511566d9610ae53ec807134c20ea89562",
+  "arabic_payload_sha256": "970bc2728581db59aa687150d969118744e8f404db9b90e5cc8a05a9e3437bac",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_umm_mabad:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_umm_mabad_overview:text_ar",
-      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
-      "text": "در روایت حبیش بن خالد، توقف کاروان نزد ام‌معبد را دنبال می‌کنیم: درخواست خوراک، گوسفندی که در خیمه مانده بود، و سپس گفت‌وگوی زن و شوهر پس از رفتن مهمانان. خواندنی‌های همراه به فهم واژه‌های این توصیف کمک می‌کنند و سخنان ابن‌کثیر و آلبانی را دربارهٔ راه‌های نقل خبر نشان می‌دهند، بی‌آنکه همهٔ سندها و عبارت‌های آن را مورد اتفاق بشمارند."
+      "source_text_sha256": "16036245abe45e77c557698b12ecf0c6cc4528ce4c42ecf9206dc3c725f2647e",
+      "text": "حبیش بن خالد روایت می‌کند که پیامبر ﷺ و همراهانش نزد ام‌معبد توقف کردند. گوشت و خرما خواستند اما نزد او نیافتند. سپس پیامبر ﷺ گوسفندی را که از ناتوانی از گله بازمانده بود دوشید و ظرفی شیر نزد او گذاشت. پس از رفتنشان، ابومعبد دربارهٔ شیر پرسید و همسرش آن مهمان را برایش توصیف کرد."
     },
     {
       "unit_id": "hch_umm_mabad_tent:title_ar",
@@ -118,18 +118,18 @@
     },
     {
       "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
-      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
-      "text": "باید میان داوری دربارهٔ یک سند مشخص و سخن از تقویت حدیث با راه‌های دیگر فرق گذاشت. پس اعتراض آلبانی را انکار قطعی داستان نمی‌شماریم و عبارت ابن‌کثیر را هم تصحیح تک‌تک واژه‌های آن نمی‌گیریم. روایت فصل بر پایهٔ خبر حبیش نزد ابونعیم است؛ این فصل نه بررسی فراگیر همهٔ راه‌های نقل است و نه داوری تازه‌ای دربارهٔ سند."
+      "source_text_sha256": "030109acd701f3502dbafe5b5c01f7c69962ba54820fbbb6c574aa3bb7d1787e",
+      "text": "ابن‌کثیر می‌گوید راه‌های نقل داستان ام‌معبد یکدیگر را تقویت می‌کنند؛ سخن او دربارهٔ تک‌تک الفاظ آن نیست. اعتراض آلبانی متوجه صحت سندی است که هشام بن حبیش در آن است؛ با این حال، احتمال می‌دهد حدیث با راه‌هایی که حاکم آورده به درجهٔ حسن یا صحیح برسد. جزئیات توقف کنار خیمه در خبر حبیش بن خالد نزد ابونعیم آمده است."
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices:title_ar",
-      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
-      "text": "چه کسی در صفحهٔ منبع سخن می‌گوید؟"
+      "source_text_sha256": "463af65281604b3a6367d3e6e20d7fa732ca937e18054262d0c9d07c3ccefa35",
+      "text": "متن خبر، ارجاع ابن‌حجر و حاشیهٔ آلبانی"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
-      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
-      "text": "در صفحات برگزیدهٔ «هدایة الرواة»، ابتدا متن روایتی است که مصحح از «مشکاة» درج کرده، سپس ارجاع ابن‌حجر به بیهقی و پس از آن یادداشت آلبانی در حاشیه آمده است. علی حلبی در مقدمهٔ تصحیح توضیح می‌دهد که تخریج‌ها و یادداشت‌های آلبانی را گرفته تا به کتاب بیفزاید. بنابراین نباید اعتراض به سند را تنها به دلیل اینکه نام ابن‌حجر بر کتاب است، به او نسبت داد."
+      "source_text_sha256": "9314fa0dec48ff430bb0a1bfcffe9351af57aa8cb010c97862872a9689ec9b23",
+      "text": "علی حلبی در این چاپ از هدایة الرواة، متن خبر حبیش را از مشکاة درج کرده است و پس از آن ارجاع ابن‌حجر به بیهقی آمده است. اعتراض به صحت سند در حاشیه از آلبانی است، نه ابن‌حجر؛ حلبی در مقدمه گفته است که تخریج‌ها و یادداشت‌های آلبانی را به کتاب افزوده است."
     },
     {
       "unit_id": "hch_umm_mabad_outline_request:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "17a185da9796533758b7aaa40321eb4c26f64a8199b95d3a3cdc94038af526d2",
+  "translation_sha256": "44d860b062fe690d9aab2b5ec546357f3c22933c8d3c121c1d5d0ce9fca47456",
   "review": {
-    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-    "translation_sha256": "17a185da9796533758b7aaa40321eb4c26f64a8199b95d3a3cdc94038af526d2",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 936b6be1-8763-4bb1-92f0-c5082e397cb2 across 382 Arabic/target units. Directly compared every one of the 382 bound Arabic/Persian inventory units in all 13 full, untruncated paired chunks: teaching text, outlines, nine objectives, ten questions with all choices, correct-answer meanings and feedback, scope notes, individually inspected repeated metadata and the full 41 selected source units. The earlier location and بایعها renderings now match the Arabic; no actionable translation mismatch was found in this paired inventory. All four reading modes are translated and no questions are deferred. Arabic source packets also contain passages beyond the selected reading/source-unit inventory, including poetry and a Quran citation; their translation is not asserted or reviewed here. No printed-source collation, comprehensive isnad assessment, independent language/specialist review or distribution approval is claimed. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

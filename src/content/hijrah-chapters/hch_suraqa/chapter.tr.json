@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "tr",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "Bu bölümde Benî Müdlic meclisinden yola uzanan takibi izliyoruz: Sürâka neyi anlayıp gizledi, atı tökezleyince ne yaptı ve yolculuk edenler onunla görüşmek için durunca neler oldu?"
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "Sürâka b. Mâlik, Benî Müdlic’ten bir adamın kıyıda gördüğü yolcuların haberini aldı. Onları tanıdı ama bunu gizledi, ardından peşlerine düştü. Atı tökezledi; sonra yolculara emân diye seslendi, onlar da onunla görüşmek için durdu."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "Haberi okumayı kolaylaştıran kelimeler"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "Ödül ve takipte geçen kelimeler"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "Cu‘l, vaat edilen ödüldür. Buhârî’deki hadis, Hz. Peygamber ﷺ ile Ebû Bekir’den her birini öldürene ya da esir alana ayrı ayrı diyet miktarında ödülden söz eder. İbn İshak’ın haberiyse Peygamber’i Kureyş’e geri getirene yüz deve verileceğini ve Sürâka’nın bu yüz deveyi almayı umduğunu açıkça belirtir. İki okumadaki ödül ifadelerini böylece ayırt edebiliriz."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "Cu‘l vaat edilen ödüldür. Buhârî’deki hadiste Hz. Peygamber ﷺ ve Ebû Bekir’den her birini öldürene veya esir alana onun diyeti vaat edilir; İbn İshak’ın haberinde ise Peygamber’i ﷺ Kureyş’e geri getirene yüz dişi deve vaat edilir. Sürâka, İbn İshak’ın haberinde onu geri götürüp yüz dişi deveyi almayı umduğunu söyler."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "Buhârî’deki Sürâka hadisini okuduğumuzda Âmir b. Füheyre adıyla deri parçasını görürüz. İbn Hişâm’ın Sîre’sindeki İbn İshak haberi ise Hz. Peygamber’in ﷺ Ebû Bekir’e yazmasını emrettiğini söyler; devamında belgenin kemik, parça ya da çömlek kırığı üzerine yazıldığı aktarılır, malzeme konusunda tereddüt vardır. Buradaki anlatı, yazarın adı ve belgenin malzemesi konusunda Buhârî’nin lafzını izler."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "Buhârî’deki Sürâka hadisinde Hz. Peygamber ﷺ Âmir b. Füheyre’ye emreder; o da Sürâka için emân yazısını bir deri parçasına yazar."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "Bu iki noktadaki farklılık açıktır; ancak iki metinden hiçbiri, iki kişinin yazma işine birlikte katıldığını söylemez. Bu yüzden önce her birinin ne anlattığını anlamalı; iki adı, alıntıların hiçbirinde geçmeyen iki ayrı belge hikâyesine dönüştürmemeliyiz."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "İbn Hişâm’ın Sîre’sindeki İbn İshak haberinde Hz. Peygamber ﷺ Ebû Bekir’e yazmasını emreder; sonra Sürâka yazının kemik, bir parça veya çömlek kırığı üzerine yazıldığını, malzemesinin belirsiz olduğunu anlatır. İki haber yazarın adı ve malzeme konusunda ayrılır; hiçbiri ikinci bir belgeden ya da iki kişinin birlikte yazmasından söz etmez."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "Mecliste neyi anladığını, atını ve mızrağını nasıl hazırladığını, fal oklarından ne çıktığını ve karşılaşmada içine doğan düşünceyi Sürâka anlatır. Beyhakî’de Berâ’nın aktardığı Ebû Bekir haberi ise takipçinin onlara yetişmesini ve Hz. Peygamber’in ﷺ duasını, ardından Sürâka’nın peşlerinden gelenleri uzaklaştırma vaadini ve bu sözü tutmasını anlatır. Hikâyenin takipçileri geri çevirme sonu buradan gelir."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "Mecliste neyi anladığını, atını ve mızrağını nasıl hazırladığını, fal oklarından ne çıktığını ve karşılaşmada içine doğan düşünceyi Sürâka anlatır. Beyhakî’de Berâ’nın aktardığı Ebû Bekir haberi ise takipçinin yaklaşmasını, Hz. Peygamber’in ﷺ duasını ve Sürâka’nın takipçileri geri çevirme vaadini anlatır. Ebû Bekir, Sürâka’nın geri dönüp karşılaştığı takipçileri geri çevirdiğini ve yolculara verdiği sözü tuttuğunu söyler."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "Buhârî rivayetini İbn İshak haberiyle karşılaştırırken tökezleme sırasına da dikkat edin: İlkinde şiddetle yaklaşmadan önce tökezleme, sonra atın ön ayaklarının batması vardır; ikincisinde iki tökezleme, ardından insanları görünce atın tökezleyip ön ayaklarının yere gömülmesi vardır. Bu yüzden iki metindeki tökezlemeleri bir araya getirmek yerine takibi tek bir rivayetin sırasına göre okuduk."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "Buhârî’deki Sürâka hadisinde at, o iyice yaklaşmadan önce tökezler ve Sürâka düşer; ardından Hz. Peygamber’in ﷺ okuyuşunu duyduktan sonra atın ön ayakları yere batar. İbn İshak’ın haberinde at iki kez tökezler ve Sürâka her seferinde düşer; sonra topluluğu gördüğünde tekrar tökezler ve ön ayakları yere gömülür."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "4630ad0ed0496b0ef7d5485f8cfe88fe43dee64cd82bb0d5f0806123ee75075a",
+  "translation_sha256": "ed2e26a0b8d245be29c21f684caf6ecb5d647c6872c57b93c40e91704a650500",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "4630ad0ed0496b0ef7d5485f8cfe88fe43dee64cd82bb0d5f0806123ee75075a",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 236d2f39-3a1d-456b-bcc2-d25f532fa848 across 314 Arabic/target units. Arapça yetke ile bu Türkçe taslağın 314 biriminin tamamı, pairs.py 0–11 parçalarının eksiksiz okunmasıyla doğrudan yeniden karşılaştırıldı. Bölüm anlatısı, hedefler, plan, 10 sorunun tüm seçenekleri, cevapları, açıklamaları ve kapsam notları, 5 okumanın tam seçilmiş metinleri, rivayet zincirleri, alıntılar, yinelenen meta veriler ve atıf URL’leri incelendi; Arapça çeviri uyarıları da kontrol edildi. Bu sürümde yeni somut anlam, eksiltme veya cevap kusuru saptanmadı. Bağımsız kaynak tahkiki, dil/uzman onayı ve yayın izni kapsam dışıdır. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

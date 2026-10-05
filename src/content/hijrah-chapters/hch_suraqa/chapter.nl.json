@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "nl",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "In dit hoofdstuk volgen we de achtervolging vanaf de bijeenkomst van Banu Mudlij tot op de weg: wat Suraqa te weten kwam en verzweeg, hoe hij handelde toen zijn paard struikelde, en wat er gebeurde toen het reisgezelschap stilhield om hem te ontmoeten."
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "Suraqa ibn Malik hoorde over reizigers die een man van Banu Mudlij bij de kust had gezien. Hij herkende hen maar verzweeg dat en ging achter hen aan. Zijn paard struikelde; later riep hij de reizigers om veiligheid en zij hielden stil om hem te ontmoeten."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "Woorden die helpen bij het lezen van het bericht"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "Woorden over de beloning en de achtervolging"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "Het woord ju‘l duidt de beloofde beloning aan. In de overlevering bij al-Bukhari wordt voor zowel de Profeet ﷺ als Abu Bakr de bloedprijs genoemd voor degene die hem doodt of gevangenneemt. Het bericht van Ibn Ishaq spreekt daarentegen van honderd kamelen voor wie de Profeet ﷺ naar Quraysh terugbrengt; daarin zegt Suraqa uitdrukkelijk dat hij hoopte die honderd te krijgen. Zo zie je hoe de beloning in elk van beide lezingen is geformuleerd."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "Ju‘l is een beloofde beloning. In de hadith bij al-Bukhari wordt voor zowel de Profeet ﷺ als Abu Bakr diens bloedprijs beloofd aan wie hem doodt of gevangenneemt; bij Ibn Ishaq gaat het om honderd vrouwelijke kamelen voor wie de Profeet ﷺ naar Quraysh terugbrengt. Suraqa zegt bij Ibn Ishaq dat hij hoopte hem terug te brengen en de honderd te ontvangen."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "In Suraqa’s overlevering bij al-Bukhari vind je de naam Amir ibn Fuhayra en een stuk leer. Het bericht van Ibn Ishaq in de sira van Ibn Hisham vermeldt daarentegen dat de Profeet ﷺ Abu Bakr opdroeg te schrijven. Vervolgens staat er dat de tekst werd geschreven op een bot, een lap of een potscherf, waarbij onzekerheid bestaat over het materiaal. In dit verhaal volgen we de formulering van al-Bukhari wat betreft de schrijver en het materiaal."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "In Suraqa’s overlevering bij al-Bukhari gaf de Profeet ﷺ Amir ibn Fuhayra opdracht; die schreef Suraqa’s veiligheidsbrief op een stuk leer."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "Het verschil op deze twee punten is duidelijk, maar geen van beide teksten zegt dat de twee mannen samen schreven. Daarom lezen we eerst wat elk van beide afzonderlijk vertelt en maken we van de twee namen geen verhaal over twee documenten die in geen van de fragmenten worden genoemd."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "In het bericht van Ibn Ishaq in Ibn Hishams sira gaf de Profeet ﷺ Abu Bakr opdracht te schrijven; daarna vermeldt Suraqa dat de brief op een bot, een stukje (ruqʿa) of een potscherf werd geschreven, zonder zekerheid over het materiaal. De berichten verschillen over de schrijver en het materiaal; geen van beide noemt een tweede brief of gezamenlijk schrijven door de twee mannen."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "Suraqa vertelt zelf wat hij tijdens de bijeenkomst te weten kwam, hoe hij zijn paard en speer klaarmaakte, wat de waarzegpijlen hem aangaven en wat er bij de ontmoeting in hem omging. Het bericht van Abu Bakr, dat al-Bara bij al-Bayhaqi doorgeeft, beschrijft hoe de achtervolger hen inhaalde en hoe de Profeet ﷺ bad. Daarna beschrijft het Suraqa’s belofte de achtervolgers tegen te houden en hoe hij die nakwam. Daaruit komt het slot van het verhaal over het afwenden van de achtervolgers."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "Suraqa vertelt zelf wat hij tijdens de bijeenkomst te weten kwam, hoe hij zijn paard en speer klaarmaakte, wat de waarzegpijlen hem aangaven en wat er bij de ontmoeting in hem omging. Het bericht van Abu Bakr, dat al-Bara bij al-Bayhaqi doorgeeft, beschrijft hoe de achtervolger naderde, hoe de Profeet ﷺ bad en hoe Suraqa beloofde de achtervolgers terug te sturen. Abu Bakr vertelt dat Suraqa terugging, de achtervolgers die hij tegenkwam wegstuurde en zijn belofte aan de reizigers nakwam."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "Vergelijk je de overlevering bij al-Bukhari met het bericht van Ibn Ishaq, let dan ook op de volgorde van het struikelen: in de eerste struikelt het paard voordat hij hen heel dicht genaderd is en zinken daarna zijn voorbenen weg; in de tweede struikelt het tweemaal en vervolgens opnieuw bij het zien van de mensen, waarbij de voorbenen van het paard in de grond verdwijnen. Daarom volgen we voor de achtervolging de volgorde van één overlevering, in plaats van de struikelmomenten uit beide teksten bij elkaar op te tellen."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "In Suraqa’s overlevering bij al-Bukhari struikelde het paard voordat hij heel dichtbij kwam en viel hij; nadat hij de Profeet ﷺ had horen reciteren, zonken de voorbenen in de grond. Bij Ibn Ishaq struikelde het tweemaal en viel Suraqa beide keren; toen hij de mensen zag, struikelde het opnieuw en verdwenen de voorbenen in de grond."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "ad60cd517337766bace58d0e53b4d69b1c7f3c3e65a12afaaf5d976baf44b42c",
+  "translation_sha256": "8577eeb27b237c6e46561c998bc1ecfcbe2eabe9b3b202e432f3b59940211363",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "ad60cd517337766bace58d0e53b4d69b1c7f3c3e65a12afaaf5d976baf44b42c",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 9b305f79-2ca8-45b9-bd8b-fc46e6307293 across 314 Arabic/target units. All 314 inventory units were compared directly against the bound Arabic in the complete outputs of numbered chunks 0–12: Dutch teaching text, objectives, outline, ten questions and every option, answer meaning, explanation, scope note and feedback, repeated and unique metadata, citations/URLs, and the full selected source texts including chains, speaker boundaries, oaths and the later encounter. The prior issues about the oath in al-Bayhaqi and the lot-arrow terminology are corrected in this draft; no further actionable semantic or Dutch-language mismatch was identified. The Arabic watchlist was consulted as an additional check; its specific cases concern other chapters. This is not manuscript collation, independent language/specialist approval or publication clearance. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

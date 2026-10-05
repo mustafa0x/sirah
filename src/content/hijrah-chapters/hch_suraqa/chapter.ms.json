@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "ms",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "Dalam bab ini kita menelusuri pengejaran dari majlis Bani Mudlij hingga ke jalan: apakah yang diketahui Suraqah tetapi disembunyikannya, bagaimana tindakannya ketika kudanya tersandung, dan apakah yang berlaku ketika rombongan itu berhenti untuk menemuinya."
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "Suraqah bin Malik mendengar berita tentang rombongan yang dilihat oleh seorang lelaki Bani Mudlij berhampiran pantai. Dia mengenali mereka tetapi menyembunyikannya, lalu mengejar mereka. Kudanya tersandung; kemudian dia menyeru rombongan itu meminta keamanan, lalu mereka berhenti untuk menemuinya."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "Istilah yang membantu memahami riwayat"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "Istilah hadiah dan pengejaran"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "Ju‘l bermaksud ganjaran yang dijanjikan. Hadis al-Bukhari menyebut bayaran diyat bagi setiap seorang daripada Nabi ﷺ dan Abu Bakar kepada sesiapa yang membunuh atau menangkapnya. Adapun riwayat Ibn Ishaq menyebut seratus ekor unta bagi sesiapa yang membawa Nabi ﷺ kembali kepada Quraisy, dan Suraqah menyatakan harapannya untuk memperoleh seratus ekor itu. Demikianlah bentuk ganjaran dalam kedua-dua bacaan."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "Ju‘l ialah ganjaran yang dijanjikan. Dalam hadis al-Bukhari, diyat bagi setiap seorang daripada Nabi ﷺ dan Abu Bakar dijanjikan kepada sesiapa yang membunuh atau menangkapnya; dalam riwayat Ibn Ishaq, seratus ekor unta betina dijanjikan kepada sesiapa yang membawa Nabi ﷺ kembali kepada Quraisy. Suraqah berkata dalam riwayat Ibn Ishaq bahawa dia berharap dapat membawa baginda kembali dan memperoleh seratus ekor itu."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "Jika anda membaca hadis Suraqah dalam al-Bukhari, anda akan menemui nama Amir bin Fuhairah dan potongan kulit adim. Adapun riwayat Ibn Ishaq dalam Sirah Ibn Hisham menyebut Nabi ﷺ menyuruh Abu Bakar menulis; sambungannya menyebut penulisan pada tulang, atau sepotong lembaran, atau serpihan tembikar, dengan ketidakpastian tentang bahannya. Kisah di sini mengikuti lafaz al-Bukhari tentang nama penulis dan bahan surat itu."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "Dalam hadis Suraqah di sisi al-Bukhari, Nabi ﷺ menyuruh Amir bin Fuhairah; dia menulis surat keamanan untuk Suraqah pada sekeping kulit."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "Perbezaan pada kedua-dua perkara ini jelas, tetapi kedua-dua teks tidak mengatakan bahawa kedua-dua lelaki itu menulisnya bersama. Oleh itu, kita fahami dahulu apa yang masing-masing riwayatkan dan tidak menukar dua nama itu menjadi kisah dua surat yang tidak disebut oleh mana-mana petikan."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "Dalam riwayat Ibn Ishaq di Sirah Ibn Hisham, Nabi ﷺ menyuruh Abu Bakar menulis; kemudian Suraqah menyebut surat itu ditulis pada tulang, sepotong lembaran atau serpihan tembikar, tanpa kepastian tentang bahannya. Kedua-dua riwayat berbeza tentang penulis dan bahan surat; tiada satu pun menyebut surat kedua atau kedua-dua lelaki menulis bersama."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "Suraqah sendiri menceritakan apa yang diketahuinya di majlis, cara dia menyediakan kuda dan tombaknya, keputusan undian anak panahnya dan apa yang terlintas di hatinya ketika bertemu mereka. Adapun riwayat Abu Bakar yang disampaikan oleh al-Bara’ melalui al-Bayhaqi menggambarkan pengejar itu menyusul mereka dan doa Nabi ﷺ, kemudian janji Suraqah untuk menghalang para pengejar serta penunaiannya. Daripada riwayat inilah datangnya penutup kisah tentang halangan terhadap para pengejar."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "Suraqah sendiri menceritakan apa yang diketahuinya di majlis, cara dia menyediakan kuda dan tombaknya, keputusan undian anak panahnya serta apa yang terlintas di hatinya ketika bertemu mereka. Riwayat Abu Bakar yang disampaikan oleh al-Bara’ melalui al-Bayhaqi pula menggambarkan pengejar itu mendekat, doa Nabi ﷺ dan janji Suraqah untuk mematahkan pengejaran. Abu Bakar menyebut bahawa Suraqah berpatah balik dan menyuruh pulang para pengejar yang ditemuinya, lalu menunaikan janjinya kepada rombongan itu."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "Apabila membandingkan riwayat al-Bukhari dengan riwayat Ibn Ishaq, perhatikan juga urutan kuda tersandung: dalam riwayat pertama, ia tersandung sebelum Suraqah terlalu dekat, kemudian kaki hadapannya terbenam; dalam riwayat kedua, ia tersandung dua kali dan kemudian tersandung lagi ketika dia melihat rombongan itu, serentak kaki hadapan kuda terbenam dalam tanah. Sebab itu kita membaca pengejaran mengikut urutan satu riwayat, bukan menghimpunkan bilangan kejadian tersandung daripada kedua-dua teks."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "Dalam hadis Suraqah di sisi al-Bukhari, kuda itu tersandung sebelum dia terlalu dekat lalu dia terjatuh; selepas dia mendengar bacaan Nabi ﷺ, kaki hadapan kuda itu terbenam dalam tanah. Dalam riwayat Ibn Ishaq, kuda itu tersandung dua kali dan Suraqah terjatuh setiap kali; kemudian ia tersandung lagi apabila dia melihat rombongan itu, lalu kaki hadapannya masuk ke tanah."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "b29bca88918965f54bc624860c0103b4850c63cf3497c219f4bf4f64dd4e6b96",
+  "translation_sha256": "65a81ba4ffb8ec0adde0631a719d39423be77ab1af76cb62842a2ce388f2c90a",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "b29bca88918965f54bc624860c0103b4850c63cf3497c219f4bf4f64dd4e6b96",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 11e8c29c-5c13-47a5-9861-3aa8e470113f across 314 Arabic/target units. Compared all 314 paired Arabic/ms inventory units in the complete numbered chunks 0–12, including teaching prose, outlines, objectives, ten questions with their answers, distractors, feedback, explanations and scope notes, plus source-text translations, speaker/book/context metadata and citation URLs. The cited divination-arrow wording now keeps third-person meaning; no further actionable semantic, omission, answer or untranslated-prose issue was identified within the supplied chapter. The Arabic watchlist was checked additionally; no other-language edition was used as a pivot. This bounded comparison is not manuscript collation, independent language approval, specialist approval or permission to distribute publicly. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

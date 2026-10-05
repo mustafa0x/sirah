@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "am",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "በዚህ ምዕራፍ ማሳደዱን ከበኑ ሙድሊጅ መሰብሰቢያ እስከ መንገዱ እንከታተላለን፦ ሱራቃ ምን አውቆ ደበቀ? ፈረሱ ሲያንሸራትት ምን አደረገ? ተጓዦቹስ እሱን ለማግኘት ሲቆሙ ምን ተፈጠረ?"
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "ሱራቃ ኢብን ማሊክ ከበኑ ሙድሊጅ አንድ ሰው በባሕሩ ዳር አካባቢ ስላየው የተጓዦች ቡድን ሰማ። እነሱን አወቃቸው፣ ግን ያወቀውን ደበቀና ተከተላቸው። ፈረሱ ተደናቀፈ፤ ከዚያም ለተጓዦቹ ደኅንነትን ጠይቆ ጠራቸው፣ እነሱም ሊያገኙት ቆሙ።"
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "ዜናውን ለማንበብ የሚረዱ ቃላት"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "የሽልማቱና የማሳደዱ ቃላት"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "«ጁዕል» የተስፋ የተሰጠበት ሽልማት ነው። በቡኻሪ ሐዲሥ ነቢዩን ﷺ ወይም አቡበክርን ለሚገድል ወይም ለሚማርክ የእያንዳንዳቸው የደም ካሳ እንደሚሰጥ ይጠቀሳል። የኢብን ኢስሐቅ ዜና ግን ነቢዩን ﷺ ወደ ቁረይሾች ለሚመልስ መቶ ግመሎችን ይጠቅሳል፤ ሱራቃም መቶዎቹን ለማግኘት ተስፋ እንዳደረገ በግልጽ ይናገራል። ሽልማቱ በሁለቱ ንባቦች የቀረበበትን ልዩነት እንዲህ ታያለህ።"
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "ጁዕል የተስፋ የተሰጠ ሽልማት ነው። በቡኻሪ ሐዲሥ ነቢዩን ﷺ ወይም አቡበክርን ለሚገድል ወይም ለሚማርክ የእያንዳንዳቸው የደም ካሳ ተስፋ ተሰጥቷል፤ በኢብን ኢስሐቅ ዜና ግን ነቢዩን ﷺ ወደ ቁረይሽ ለሚመልስ መቶ ሴት ግመሎች ተጠቅሰዋል። ሱራቃ በኢብን ኢስሐቅ ዜና እርሳቸውን መልሶ መቶዎቹን ለማግኘት ተስፋ እንዳደረገ ይናገራል።"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "በቡኻሪ የተመዘገበውን የሱራቃን ሐዲሥ ብታነብ የዓሚር ኢብን ፉሀይራን ስም እና የቆዳ ቁራጩን ታገኛለህ። በኢብን ሂሻም ሲራ ያለው የኢብን ኢስሐቅ ዜና ግን ነቢዩ ﷺ አቡበክርን እንዲጽፍ እንዳዘዙ ይጠቅሳል፤ ከዚያ ጽሑፉ በአጥንት ወይም በቆዳ ቁራጭ ወይም በሸክላ ቁራጭ ላይ እንደተጻፈ ይቀጥላል፣ ቁሳቁሱ በጥርጣሬ ተገልጿል። በዚህ ታሪክ ውስጥ የጸሐፊው ስምና የጽሑፉ ቁሳቁስ ከቡኻሪ አነጋገር ተወስደዋል።"
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "በቡኻሪ የሱራቃ ሐዲሥ ነቢዩ ﷺ ዓሚር ኢብን ፉሀይራን አዘዙት፤ እሱም ለሱራቃ የደኅንነት ደብዳቤውን በቆዳ ቁራጭ ላይ ጻፈ።"
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "በሁለቱ ጉዳዮች ያለው ልዩነት ግልጽ ነው፤ ሆኖም ሁለቱም ጽሑፎች ሁለቱ ሰዎች በጋራ እንደጻፉ አይናገሩም። ስለዚህ መጀመሪያ እያንዳንዱ የሚናገረውን እንረዳ፤ ሁለቱንም ስሞች በምንጮቹ ያልተጠቀሱ የሁለት ሰነዶች ታሪክ አናድርጋቸው።"
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "በኢብን ሂሻም ሲራ ያለው የኢብን ኢስሐቅ ዜና ነቢዩ ﷺ አቡበክርን እንዲጽፍ እንዳዘዙ ይናገራል፤ ከዚያ ሱራቃ ደብዳቤው በአጥንት ወይም በቁራጭ ወይም በሸክላ ቁራጭ ላይ እንደተጻፈ ይጠቅሳል፣ ቁሳቁሱ ግን አልተረጋገጠም። ሁለቱ ዜናዎች በጸሐፊውና በቁሳቁሱ ይለያያሉ፤ አንዳቸውም ሁለተኛ ደብዳቤ ወይም የሁለቱን ሰዎች የጋራ ጽሕፈት አይጠቅሱም።"
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "ሱራቃ በሸንጎው ምን እንዳወቀ፣ ፈረሱንና ጦሩን እንዴት እንዳዘጋጀ፣ ከዕጣዎቹ ምን እንደወጣለትና ሲገናኝ በልቡ ምን እንደተሰማው ራሱ ይናገራል። በአልበይሀቂ በኩል አልበራእ የሚያስተላልፈው የአቡበክር ዜና ግን አሳዳጁ ወደ እነሱ መድረሱን፣ የነቢዩን ﷺ ዱዓ፣ ከዚያም ሱራቃ አሳዳጆችን እመልሳለሁ ብሎ መሙላቱን ይገልጻል። ስለ አሳዳጆችን መመለስ የታሪኩ መጨረሻ ከዚህ ይመጣል።"
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "ሱራቃ በሸንጎው ምን እንዳወቀ፣ ፈረሱንና ጦሩን እንዴት እንዳዘጋጀ፣ ከዕጣ ቀስቶቹ ምን እንደወጣለትና በግንኙነቱ ጊዜ በልቡ ምን እንደተነሳ ራሱ ይናገራል። በአልበይሀቂ አልበራእ የሚያስተላልፈው የአቡበክር ዜና አሳዳጁ መቅረቡን፣ የነቢዩን ﷺ ዱዓና ሱራቃ አሳዳጆችን ለመመለስ የገባውን ቃል ይገልጻል። አቡበክር ሱራቃ ተመልሶ ያገኛቸውን አሳዳጆች መልሶ ለተጓዦቹ የገባውን ቃል እንደፈጸመ ይናገራል።"
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "የቡኻሪን ትረካ ከኢብን ኢስሐቅ ዜና ስታነጻጽር የመደናቀፉን ቅደም ተከተልም ልብ በል፦ በመጀመሪያው ውስጥ እጅግ ሳይቀርብ ተደናቀፈ፣ ከዚያም የፈረሱ የፊት እግሮች ሰጠሙ። በሁለተኛው ውስጥ ሁለት መደናቀፎች ተከሰቱ፤ ከዚያ ሰዎቹን ሲያይ ፈረሱ ተደናቀፈና የፊት እግሮቹ ወደ መሬት ገቡ። ለዚህ ነው በሁለቱ ትረካዎች ያሉትን የመደናቀፍ ጊዜዎች አንድ ላይ ከመደመር ይልቅ ማሳደዱን በአንድ ትረካ ቅደም ተከተል ያነበብነው።"
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "በቡኻሪ የሱራቃ ሐዲሥ ፈረሱ እጅግ ሳይቀርብ ተደናቀፈ፣ ሱራቃም ወደቀ፤ የነቢዩን ﷺ ንባብ ከሰማ በኋላ የፈረሱ የፊት እግሮች ወደ መሬት ገቡ። በኢብን ኢስሐቅ ዜና ፈረሱ ሁለት ጊዜ ተደናቀፈ፣ ሱራቃም በእያንዳንዱ ጊዜ ወደቀ፤ ሰዎቹን ሲያይ ደግሞ ተደናቀፈ፣ የፊት እግሮቹም ወደ መሬት ገቡ።"
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "c59895f67c3b7c76be0cf065fdaad5aeb5aebce17100cb58795e3263348d9cff",
+  "translation_sha256": "5dd65ead6c128674d0d46eecf35dd1245ed9c0857f93a04df5130bf08cb23d2a",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "c59895f67c3b7c76be0cf065fdaad5aeb5aebce17100cb58795e3263348d9cff",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 61573d41-440c-4138-9433-a784d3ad0560 across 314 Arabic/target units. Compared all 314 literal Arabic–Amharic inventory units across all 11 complete numbered pairs.py chunks, including teaching narratives, objectives, outlines, all questions/options/feedback, repeated metadata and citation URLs, chains, and full selected source passages. The Arabic watchlist was read as an additional check; no other-language edition was a pivot. No remaining actionable translation-semantic discrepancy was found in this bounded pass. This is not scholarly collation, independent language or specialist approval, or permission for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

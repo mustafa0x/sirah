@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "si",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "මේ පරිච්ඡේදයේදී බනූ මුද්ලිජ්වරුන්ගේ සභාවේ සිට මාර්ගය දක්වා සිදු වූ ලුහුබැඳීම අපි සොයා බලමු: සුරාකා දැනගෙන සඟවා ගත්තේ කුමක්ද, ඔහුගේ අශ්වයා පැකිළුණු විට ඔහු කළේ කුමක්ද, ගමන් කණ්ඩායම ඔහු හමුවීමට නතර වූ විට සිදු වූයේ කුමක්ද යන්නයි."
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "බනූ මුද්ලිජ්වරුන්ගේ මිනිසෙකු වෙරළ අසල දුටු ගමන් කණ්ඩායමක් පිළිබඳ පුවත සුරාකා ඉබ්න් මාලික්ට ලැබුණි. ඔහු ඔවුන් හඳුනාගත්තද එය සඟවා ඔවුන් පසුපස ගියේය. ඔහුගේ අශ්වයා පැකිළුණි; පසුව ඔහු ආරක්ෂාව ඉල්ලා ගමන් කණ්ඩායමට හඬගැසූ විට ඔවුහු ඔහු හමුවීමට නතර වූහ."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "සිදුවීම කියවීමට උපකාරී වන වචන"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "ත්‍යාගය හා ලුහුබැඳීමේ වචන"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "'ජුඃල්' යනු පොරොන්දු වූ ත්‍යාගයයි. බුඛාරීගේ හදීසයේ නබිතුමා ﷺ හා අබූ බක්ර් යන දෙදෙනාගෙන් එක් එක් අය මරා දැමූ හෝ අල්ලා ගත් තැනැත්තාට එම එක් එක් අයගේ ජීවිත වන්දි මුදල නියම කළ බව සඳහන් වේ. එහෙත් ඉබ්න් ඉස්හාක්ගේ වාර්තාවේ නබිතුමා ﷺ කුරෛෂ්වරුන් වෙත ආපසු ගෙන එන තැනැත්තාට ඔටුවන් සියයක් බවත්, එම සියය ලබා ගැනීමට තමන් බලාපොරොත්තු වූ බව සුරාකා පැහැදිලිව කියන බවත් සඳහන් වේ. කියවීම් දෙකෙහි ත්‍යාගය දැක්වෙන ආකාරය මෙසේ වෙනස් වේ."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "ජුඃල් යනු පොරොන්දු වූ ත්‍යාගයකි. බුඛාරීගේ හදීසයේ නබිතුමා ﷺ හෝ අබූ බක්ර් යන එක් එක් අය මරා දමන හෝ අල්ලා ගන්නා තැනැත්තාට ඒ අයගේ ජීවිත වන්දිය සඳහන් වේ; ඉබ්න් ඉස්හාක්ගේ වාර්තාවේ නබිතුමා ﷺ කුරෛෂ් වෙත ආපසු ගෙන යන තැනැත්තාට ඔටු දෙනුන් සියයක් සඳහන් වේ. නබිතුමා ﷺ ආපසු ගෙන ගොස් එම සියය ලබා ගැනීමට බලාපොරොත්තු වූ බව සුරාකා ඉබ්න් ඉස්හාක්ගේ වාර්තාවේ කියයි."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "බුඛාරීහි සුරාකාගේ හදීසය කියවන විට ලේඛකයා ලෙස ආමිර් ඉබ්න් ෆුහයිරාගේ නමත්, සම් කැබැල්ලත් හමු වේ. නමුත් ඉබ්න් හිෂාම්ගේ සීරාහි ඉබ්න් ඉස්හාක්ගේ වාර්තාවේ ලියන ලෙස නබිතුමා ﷺ අබූ බක්ර්ට අණ කළ බවත්, ඉන්පසු ලිවීම සිදු වූයේ ඇට කැබැල්ලකද, කැබැල්ලකද, මැටි කැබැල්ලකද යන්න ගැන සැක සහිතව කියන බවත් සඳහන් වේ. මෙහි කතාව ලේඛකයාගේ නම සහ ලියූ ද්‍රව්‍යය සම්බන්ධයෙන් බුඛාරීගේ වචන අනුගමනය කරයි."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "බුඛාරීහි සුරාකාගේ හදීසයේ නබිතුමා ﷺ ආමිර් ඉබ්න් ෆුහයිරාට අණ කළ අතර ඔහු සුරාකා වෙනුවෙන් ආරක්ෂා ලියවිල්ල සම් කැබැල්ලක ලිවීය."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "මෙම කරුණු දෙකෙහි වෙනස පැහැදිලිය. එහෙත් දෙදෙනාම ලිවීමට එක්වූ බව වාර්තා දෙකෙන් කිසිවක් නොකියයි. එබැවින් පළමුව එක් එක් වාර්තාව පවසන දේ තේරුම් ගත යුතුය; උපුටා දැක්වූ කිසිදු කොටසක නොකියවෙන ලියවිලි දෙකක කතාවක් නම් දෙදෙනාගේ නම් ඇසුරින් නිර්මාණය නොකළ යුතුය."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "ඉබ්න් හිෂාම්ගේ සීරාහි ඉබ්න් ඉස්හාක්ගේ වාර්තාවේ නබිතුමා ﷺ අබූ බක්ර්ට ලියන්නට අණ කළේය; ඉන්පසු ලියවිල්ල ඇට කැබැල්ලක, කැබැල්ලක හෝ මැටි භාජන කැබැල්ලක ලියූ බව සුරාකා කියයි, නමුත් ද්‍රව්‍යය නිශ්චිත නොවේ. වාර්තා දෙක ලේඛකයා සහ ද්‍රව්‍යය සම්බන්ධයෙන් වෙනස් ය; දෙවැනි ලියවිල්ලක් හෝ දෙදෙනා එක්ව ලියූ බවක් කිසිවක් නොකියයි."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "සභාවේදී තමන් දැනගත් දේ, අශ්වයා හා හෙල්ලය සූදානම් කළ හැටි, අස්ලාම් කූරුවලින් ලැබුණු පිළිතුර හා හමුවේදී තම සිතට ආ දේ පවසන්නේ සුරාකාය. එහෙත් බරා විසින් අල්-බයිහකී වෙත ගෙන එන අබූ බක්ර්ගේ වාර්තාව විස්තර කරන්නේ ලුහුබඳින්නා ඔවුන්ට ළඟා වීම හා නබිතුමා ﷺ කළ ප්‍රාර්ථනයත්, පසුව ලුහුබඳින්නන් හරවා යවන බවට සුරාකා දුන් පොරොන්දුව හා එය ඉටු කිරීමත් ය. ලුහුබඳින්නන් ඉවතට හරවා යැවීම ගැන කතාවේ අවසානය එයින් ලැබේ."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "සභාවේදී තමන් දැනගත් දේ, අශ්වයා හා හෙල්ලය සූදානම් කළ හැටි, අස්ලාම් කූරුවලින් ලැබුණු පිළිතුර හා හමුවේදී තම සිතට ආ දේ පවසන්නේ සුරාකාය. අල්-බයිහකීගේ වාර්තාවේ බරා ගෙන එන අබූ බක්ර්ගේ පුවතේ ලුහුබඳින්නා ළං වීම, නබිතුමා ﷺ කළ ප්‍රාර්ථනය හා ලුහුබඳින්නන් හරවා යවන බවට සුරාකා දුන් පොරොන්දුව විස්තර වේ. සුරාකා ආපසු ගොස් හමු වූ ලුහුබඳින්නන් හරවා යවා ගමන් කණ්ඩායමට දුන් පොරොන්දුව ඉටු කළ බව අබූ බක්ර් කියයි."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "බුඛාරීගේ වාර්තාව ඉබ්න් ඉස්හාක්ගේ වාර්තාව සමඟ සසඳන විට පැකිළීම්වල පිළිවෙළත් සැලකිල්ලට ගන්න: පළමුවැන්නේ ඉතා ළං වීමට පෙර පැකිළීමක්, පසුව ඉදිරි පාද දෙක ගිලීමක් ඇත; දෙවැනි වාර්තාවේ පැකිළීම් දෙකකට පසු පිරිස දැකීමේදී අශ්වයාගේ ඉදිරි පාද පොළොවට යාමත් සමඟ තවත් පැකිළීමක් ඇත. එබැවින් අපි වාර්තා දෙකේ පැකිළීම් සියල්ල එකට එකතු නොකර, එක් වාර්තාවක අනුපිළිවෙළට අනුව ලුහුබැඳීම කියවා ඇත්තෙමු."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "බුඛාරීහි සුරාකාගේ හදීසයේ ඔහු ඉතා ළං වීමට පෙර අශ්වයා පැකිළී ඔහු වැටුණි; නබිතුමා ﷺ කියවන හඬ ඇසීමෙන් පසු එහි ඉදිරි පාද පොළොවට ගිලුණි. ඉබ්න් ඉස්හාක්ගේ වාර්තාවේ අශ්වයා දෙවරක් පැකිළුණු අතර සුරාකා සෑම වරකම වැටුණි; පිරිස දුටු විට නැවත පැකිළී එහි ඉදිරි පාද පොළොවට ගියේය."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "c5a7637f4884cd2114daea4871c9979b47b04e13aa85c9cabd6b9bf36c5be39e",
+  "translation_sha256": "e991441dd172a8f32dd4dddfcad120da5a6d423ae4ccb29723e6fedaa1362099",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "c5a7637f4884cd2114daea4871c9979b47b04e13aa85c9cabd6b9bf36c5be39e",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session a2c7477c-385f-4944-ad08-a1ca71e10e39 across 314 Arabic/target units. Compared the complete bound Arabic and Sinhala inventory pair by pair across all 12 untruncated chunks (314 units), including story, objectives, outlines, all question options and feedback, correct-answer meanings, metadata, URLs and complete selected source quotations. Checked the Arabic watchlist; all five readings are translated and no questions are deferred. No remaining actionable semantic mismatch was identified in this comparison. This is not scholarly collation or independent language, specialist or publication approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

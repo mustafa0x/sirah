@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_umm_mabad",
-  "revision": 1,
+  "revision": 2,
   "locale": "ps",
-  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
-  "status": "translation_ready",
+  "arabic_sha256": "5d4522d31189abc5ec8414c33bcc8c3511566d9610ae53ec807134c20ea89562",
+  "arabic_payload_sha256": "970bc2728581db59aa687150d969118744e8f404db9b90e5cc8a05a9e3437bac",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_umm_mabad:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_umm_mabad_overview:text_ar",
-      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
-      "text": "د حبیش بن خالد د روایت له مخې د ام معبد په ځای کې د کاروان تم کېدل څارو: د خوړو غوښتنه، هغه مېږه چې په خیمه کې پاتې وه، او د مېلمنو له تګ وروسته د مېړه او مېرمنې خبرې. مرستندویه لوستنې د وصف د الفاظو په پوهېدو کې مرسته کوي او د روایت د لارو په باب د ابن کثیر او الباني خبرې ښيي؛ خو دا نه مانا چې د روایت ټول سندونه او الفاظ د اتفاق وړ دي."
+      "source_text_sha256": "16036245abe45e77c557698b12ecf0c6cc4528ce4c42ecf9206dc3c725f2647e",
+      "text": "حبیش بن خالد روایت کوي چې نبي ﷺ او ملګري یې د ام معبد په ځای کې ودرېدل. هغوی غوښه او خرما وغوښته، خو له هغې سره یې ونه موندل. بیا نبي ﷺ هغه مېږه ولوشله چې کمزورۍ له رمې شاته پرېښې وه، او یو لوښی شیدې یې ورسره پرېښودې. تر تګ وروسته ابو معبد د شیدو پوښتنه وکړه او مېرمنې یې ورغلی مېلمه ورته وصف کړ."
     },
     {
       "unit_id": "hch_umm_mabad_tent:title_ar",
@@ -118,18 +118,18 @@
     },
     {
       "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
-      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
-      "text": "دلته د یوه ځانګړي سند په باب خبره او د بېلابېلو لارو په مرسته د حدیث د پیاوړتیا خبره سره بېلې دي. د الباني نیوکه د ټولې کیسې قطعي رد نه بولو او د ابن کثیر خبره هم د هغې د هر لفظ تفصیلي تصحیح نه ګڼو. د دې فصل بیان د ابو نعیم له خوا د حبیش روایت تعقیبوي؛ دا فصل د ټولو لارو بشپړه څېړنه او نوی سندي حکم نه دی."
+      "source_text_sha256": "030109acd701f3502dbafe5b5c01f7c69962ba54820fbbb6c574aa3bb7d1787e",
+      "text": "ابن کثیر وایي چې د ام معبد د قصې د روایت لارې یو بل پیاوړي کوي؛ دا خبره یې د هر لفظ جلا څېړنه نه ده. د الباني نیوکه د هغه سند پر صحت ده چې هشام بن حبیش پکې دی؛ خو هغه دا امکان هم یادوي چې د حاکم له راوړو لارو حدیث د حسن یا صحیح درجې ته ورسېږي. د خیمې د تم کېدو تفصیل د ابو نعیم په روایت کې د حبیش بن خالد په خبر کې دی."
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices:title_ar",
-      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
-      "text": "د سرچینې په پاڼه کې څوک خبرې کوي؟"
+      "source_text_sha256": "463af65281604b3a6367d3e6e20d7fa732ca937e18054262d0c9d07c3ccefa35",
+      "text": "د خبر متن، د ابن حجر تخریج او د الباني حاشیه"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
-      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
-      "text": "د «هدایة الرواة» په غوره شوو پاڼو کې لومړی د هغه خبر متن دی چې محقق له «المشکاة» څخه راوړی؛ ورپسې د بیهقي سرچینې ته د ابن حجر حواله ده، او بیا په حاشیه کې د الباني تبصره. علي حلبي د تحقیق په سریزه کې څرګندوي چې د الباني تخریجونه او تبصرې یې د کتاب د حاشیو لپاره اخیستې دي. نو یوازې په دې چې د ابن حجر نوم پر کتاب دی، د سند نیوکه هغه ته نه منسوبوو."
+      "source_text_sha256": "9314fa0dec48ff430bb0a1bfcffe9351af57aa8cb010c97862872a9689ec9b23",
+      "text": "علي حلبي د هدایة الرواة په دې چاپ کې د حبیش د خبر متن له مشکاة څخه راوړی، ورپسې بیهقي ته د ابن حجر حواله راځي. په حاشیه کې د سند پر صحت نیوکه د الباني ده، نه د ابن حجر؛ حلبي په سریزه کې وایي چې د الباني تخریجونه او تبصرې یې په کتاب کې ورزیاتې کړې دي."
     },
     {
       "unit_id": "hch_umm_mabad_outline_request:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "16814736a27fe30de53dc4393ca670ebe91ee6263eb69d1302117d32fcea5d30",
+  "translation_sha256": "7bcca11586ad00bf24549d1b1942abe123ecc8d90753937954ac72b52825724f",
   "review": {
-    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-    "translation_sha256": "16814736a27fe30de53dc4393ca670ebe91ee6263eb69d1302117d32fcea5d30",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session e1b208ab-9ec9-44bf-a4c9-13f444b3e817 across 382 Arabic/target units. Compared every Arabic–Pashto pair of the 382 inventory units across all 13 complete untruncated pairs.py chunks, including account and overview prose, outlines, learning objectives, all ten questions and keyed answer meanings with options/feedback/scope, open issues, metadata and citation URLs, and the complete selected source-text units. The two full-reading occurrences of بَايَعَهَا now communicate the lexical possibilities in Pashto and preserve the Arabic lemma; the separate second milking is not conflated with the preceding drinking. No further actionable semantic or untranslated-prose problem was found in this bounded comparison. This is not an external collation, independent language or specialist approval, or permission to publish. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

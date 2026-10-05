@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_umm_mabad",
-  "revision": 1,
+  "revision": 2,
   "locale": "de",
-  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
-  "status": "translation_ready",
+  "arabic_sha256": "5d4522d31189abc5ec8414c33bcc8c3511566d9610ae53ec807134c20ea89562",
+  "arabic_payload_sha256": "970bc2728581db59aa687150d969118744e8f404db9b90e5cc8a05a9e3437bac",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_umm_mabad:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_umm_mabad_overview:text_ar",
-      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
-      "text": "Wir verfolgen den Halt der Reisegruppe bei Umm Maʿbad, wie ihn der Bericht von Ḥubaisch ibn Chālid erzählt: die Bitte um Nahrung, das Schaf, das im Zelt zurückgeblieben war, und dann das Gespräch der Eheleute nach dem Aufbruch der Gäste. Ergänzende Lesetexte helfen, die Ausdrücke der Beschreibung zu verstehen, und legen dar, was Ibn Kathīr und al-Albānī über die Überlieferungswege des Berichts sagen, ohne alle seine Überliefererketten und Wortlaute als unumstritten auszugeben."
+      "source_text_sha256": "16036245abe45e77c557698b12ecf0c6cc4528ce4c42ecf9206dc3c725f2647e",
+      "text": "Ḥubaisch ibn Chālid berichtet, dass der Prophet ﷺ und seine Gefährten bei Umm Maʿbad Halt machten. Sie baten um Fleisch und Datteln, fanden aber beides nicht bei ihr. Dann molk der Prophet ﷺ das Schaf, das aus Schwäche hinter der Herde zurückgeblieben war, und ließ ihr ein Gefäß mit Milch zurück. Nach ihrer Abreise fragte Abū Maʿbad nach der Milch, und seine Frau beschrieb ihm den Besucher."
     },
     {
       "unit_id": "hch_umm_mabad_tent:title_ar",
@@ -118,18 +118,18 @@
     },
     {
       "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
-      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
-      "text": "Hier ist zwischen einer Aussage über eine bestimmte Überliefererkette und einer Stärkung des Berichts durch mehrere Wege zu unterscheiden. Deshalb behandeln wir al-Albānīs Einwand nicht als endgültige Verwerfung der Geschichte und Ibn Kathīrs Aussage nicht als detaillierte Authentifizierung jedes ihrer Wortlaute. Die Erzählung folgt Ḥubaischs Bericht bei Abū Nuʿaim; dieses Kapitel bietet weder eine umfassende Untersuchung aller Wege noch ein neues Urteil über ihre Überliefererketten."
+      "source_text_sha256": "030109acd701f3502dbafe5b5c01f7c69962ba54820fbbb6c574aa3bb7d1787e",
+      "text": "Ibn Kathīr sagt, dass die Überlieferungswege der Geschichte von Umm Maʿbad einander stützen; dabei bespricht er nicht jeden Wortlaut einzeln. Al-Albānīs Einwand betrifft die Zuverlässigkeit einer Kette mit Hischām ibn Ḥubaisch; zugleich erwähnt er die Möglichkeit, dass der Hadith durch von al-Ḥākim angeführte Wege den Grad ḥasan oder ṣaḥīḥ erreichen könnte. Die Einzelheiten des Halts am Zelt stehen in Ḥubaisch ibn Chālids Bericht bei Abū Nuʿaim."
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices:title_ar",
-      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
-      "text": "Wer spricht auf der Quellenseite?"
+      "source_text_sha256": "463af65281604b3a6367d3e6e20d7fa732ca937e18054262d0c9d07c3ccefa35",
+      "text": "Berichtstext, Ibn Ḥadschars Quellenangabe und al-Albānīs Fußnote"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
-      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
-      "text": "Auf den ausgewählten Seiten von Hidāyat ar-ruwāt folgt auf den vom Herausgeber aus al-Mischkāt übernommenen Berichtstext Ibn Ḥadschars Verweis auf al-Baihaqī und anschließend al-Albānīs Anmerkung in der Fußnote. ʿAlī al-Ḥalabī erklärt in der Einleitung seiner Ausgabe, dass er al-Albānīs Quellenzuweisungen und Kommentare zur Aufnahme in das Buch übernommen habe. Der Einwand gegen die Überliefererkette darf deshalb nicht bloß wegen Ibn Ḥadschars Namen auf dem Buch ihm zugeschrieben werden."
+      "source_text_sha256": "9314fa0dec48ff430bb0a1bfcffe9351af57aa8cb010c97862872a9689ec9b23",
+      "text": "ʿAlī al-Ḥalabī hat in diese Ausgabe von Hidāyat ar-ruwāt den Text von Ḥubaischs Bericht aus al-Mischkāt aufgenommen; darauf folgt Ibn Ḥadschars Verweis auf al-Baihaqī. Der Einwand gegen die Zuverlässigkeit der Kette in der Fußnote stammt von al-Albānī, nicht von Ibn Ḥadschar: al-Ḥalabī schreibt im Vorwort, dass er al-Albānīs Quellenangaben und Kommentare dem Buch beigefügt hat."
     },
     {
       "unit_id": "hch_umm_mabad_outline_request:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "f07ef32b468d65e472bc357d5ff9af6b2b447533fcbd31168d505ba1226166c0",
+  "translation_sha256": "3694aeb9237c60db05cbaacaa6ee4054b012a1e9264a8839e3c94822af96e758",
   "review": {
-    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-    "translation_sha256": "f07ef32b468d65e472bc357d5ff9af6b2b447533fcbd31168d505ba1226166c0",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 3fb9db14-d565-4ea0-acb2-d5001543b00f across 382 Arabic/target units. Independently compared all 382 paired Arabic/German inventory units in the complete output of numbered chunks 0–14, including chapter teaching prose, outline, objectives, all ten questions/options/correct-answer meanings/feedback, selected source texts, metadata and citation URLs. Repeated metadata was checked per occurrence and grouped semantically. Arabic lexical context and the Arabic watchlist were considered; the earlier direct-quotation bearing problem is resolved. No remaining actionable semantic or untranslated-prose findings in this bounded comparison. This is not scholarly collation, independent language/specialist approval or public-distribution approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

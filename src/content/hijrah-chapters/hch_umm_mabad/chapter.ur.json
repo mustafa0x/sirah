@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_umm_mabad",
-  "revision": 1,
+  "revision": 2,
   "locale": "ur",
-  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
-  "status": "translation_ready",
+  "arabic_sha256": "5d4522d31189abc5ec8414c33bcc8c3511566d9610ae53ec807134c20ea89562",
+  "arabic_payload_sha256": "970bc2728581db59aa687150d969118744e8f404db9b90e5cc8a05a9e3437bac",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_umm_mabad:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_umm_mabad_overview:text_ar",
-      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
-      "text": "ہم حُبیش بن خالد کی روایت کے مطابق ام معبد کے ہاں قافلے کے قیام کا احوال دیکھتے ہیں: کھانے کی طلب، خیمے میں رہ جانے والی بکری، پھر مہمانوں کی روانگی کے بعد میاں بیوی کی گفتگو۔ معاون مطالعے حلیے کے الفاظ سمجھنے میں مدد دیتے ہیں، جبکہ ابن کثیر اور البانی کی گفتگو روایت کے طرق سے متعلق ہے؛ اس سے یہ لازم نہیں آتا کہ اس کی تمام سندوں اور الفاظ پر اتفاق ہے۔"
+      "source_text_sha256": "16036245abe45e77c557698b12ecf0c6cc4528ce4c42ecf9206dc3c725f2647e",
+      "text": "حُبیش بن خالد بیان کرتے ہیں کہ نبی ﷺ اور آپ کے رفقا ام معبد کے ہاں رکے۔ انہوں نے گوشت اور کھجوریں طلب کیں مگر وہاں نہ ملیں۔ پھر نبی ﷺ نے اس بکری کا دودھ دوہا جو کمزوری کے باعث ریوڑ سے پیچھے رہ گئی تھی، اور ام معبد کے پاس دودھ کا برتن چھوڑا۔ ان کے جانے کے بعد ابو معبد نے دودھ کے بارے میں پوچھا تو ان کی بیوی نے انہیں آنے والے کا حلیہ بتایا۔"
     },
     {
       "unit_id": "hch_umm_mabad_tent:title_ar",
@@ -118,18 +118,18 @@
     },
     {
       "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
-      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
-      "text": "یہاں ایک مخصوص سند پر گفتگو اور دوسرے طرق کی مدد سے حدیث کو تقویت ملنے کے امکان میں فرق ہے۔ اس لیے البانی کے اعتراض کو قصے کی قطعی نفی نہ بنائیں اور نہ ابن کثیر کے الفاظ کو اس کے ہر لفظ کی تفصیلی تصحیح سمجھیں۔ بیانیہ ابو نعیم کے ہاں حُبیش کی روایت کی پیروی کرتا ہے؛ یہ باب تمام طرق کا جامع مطالعہ یا سند کا کوئی نیا فیصلہ نہیں ہے۔"
+      "source_text_sha256": "030109acd701f3502dbafe5b5c01f7c69962ba54820fbbb6c574aa3bb7d1787e",
+      "text": "ابن کثیر کے مطابق ام معبد کے قصے کے طرق ایک دوسرے کو تقویت دیتے ہیں؛ ان کا یہ قول اس کے ہر لفظ پر الگ الگ بحث نہیں کرتا۔ البانی کا اعتراض اس سند کی صحت پر ہے جس میں ہشام بن حُبیش ہیں؛ البتہ وہ امکان ذکر کرتے ہیں کہ حاکم کے بیان کردہ طرق سے حدیث حسن یا صحیح کے درجے تک پہنچ جائے۔ خیمے کے پاس قیام کی تفصیل ابو نعیم کے ہاں حُبیش بن خالد کی روایت میں آتی ہے۔"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices:title_ar",
-      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
-      "text": "ماخذ کے صفحے پر کون بول رہا ہے؟"
+      "source_text_sha256": "463af65281604b3a6367d3e6e20d7fa732ca937e18054262d0c9d07c3ccefa35",
+      "text": "خبر کا متن، ابن حجر کی تخریج اور البانی کا حاشیہ"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
-      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
-      "text": "«ہدایۃ الرواۃ» کے منتخب صفحات میں پہلے مشکاۃ سے وہ متن آتا ہے جو محقق نے درج کیا، پھر ابن حجر کی بیہقی کی طرف نسبت، اور پھر حاشیے میں البانی کا تبصرہ۔ علی الحلبی تحقیق کے مقدمے میں واضح کرتے ہیں کہ انہوں نے البانی کی تخریجات اور تعلیقات کتاب میں شامل کرنے کے لیے لی ہیں۔ لہٰذا صرف کتاب پر ابن حجر کا نام ہونے کی بنا پر سند پر اعتراض انہی کی طرف منسوب نہیں کیا جائے گا۔"
+      "source_text_sha256": "9314fa0dec48ff430bb0a1bfcffe9351af57aa8cb010c97862872a9689ec9b23",
+      "text": "ہدایۃ الرواۃ کے اس نسخے میں علی الحلبی نے مشکاۃ سے حُبیش کی روایت کا متن درج کیا، پھر ابن حجر کا بیہقی کی طرف حوالہ آتا ہے۔ حاشیے میں سند کی صحت پر اعتراض البانی کا ہے، ابن حجر کا نہیں؛ الحلبی نے مقدمے میں بتایا ہے کہ انہوں نے البانی کی تخریجات اور تعلیقات کتاب میں شامل کی ہیں۔"
     },
     {
       "unit_id": "hch_umm_mabad_outline_request:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "3cf615ce933a87f1e5204345b079e143dcc89e96ba287d3ce50ac033c1c6887d",
+  "translation_sha256": "45806af1528a8cc7180fb6832a41e9363e20c22122815bb5c8cf4c134b0c7950",
   "review": {
-    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-    "translation_sha256": "3cf615ce933a87f1e5204345b079e143dcc89e96ba287d3ce50ac033c1c6887d",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 9df2546c-f04a-4eb3-a9d7-841b20b1cef0 across 382 Arabic/target units. عربی باب اور اردو مسودے کی تمام ۱۳ غیر مختصر جوڑیوں میں ۳۸۲ منفرد یونٹس کا دوبارہ معنوی تقابل کیا: تدریسی متن، خاکے، نو مقاصد، دس سوالات اور ان کے درست/غلط جوابات، توضیحات، حدود اور فیڈبیک، ماخذی میٹاڈیٹا و حوالہ روابط، اور مکمل منتخب ماخذی عبارات۔ پہلے مرحلے کے تین مسائل (أراضوا، حائل، اور توصیف کے سوال کا دائرہ) موجودہ متن میں درست پائے؛ اس تقابل میں کوئی نیا قابلِ عمل معنوی مسئلہ نہیں ملا۔ غیرمنتخب ماخذی سیاق، ابو عبید کی شرح اور اصل عربی روایت سے بھی ضرورت کے مطابق معنی ملائے؛ یہ مطبوعہ نسخوں یا تمام اسانید کی مستقل تحقیق، لسانی/ماہرانہ منظوری یا اشاعت کی اجازت نہیں۔ Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

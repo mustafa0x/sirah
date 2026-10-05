@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_umm_mabad",
-  "revision": 1,
+  "revision": 2,
   "locale": "ms",
-  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
-  "status": "translation_ready",
+  "arabic_sha256": "5d4522d31189abc5ec8414c33bcc8c3511566d9610ae53ec807134c20ea89562",
+  "arabic_payload_sha256": "970bc2728581db59aa687150d969118744e8f404db9b90e5cc8a05a9e3437bac",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_umm_mabad:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_umm_mabad_overview:text_ar",
-      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
-      "text": "Kita mengikuti persinggahan rombongan di tempat Umm Ma‘bad sebagaimana dikisahkan dalam riwayat Hubaysh bin Khalid: permintaan makanan, kambing betina yang tertinggal di khemah, kemudian perbualan pasangan suami isteri selepas para tetamu berangkat. Bacaan sokongan membantu memahami istilah dalam gambaran tersebut dan menjelaskan pandangan Ibn Kathir serta al-Albani tentang jalur-jalur riwayat, tanpa menganggap semua sanad dan lafaznya disepakati."
+      "source_text_sha256": "16036245abe45e77c557698b12ecf0c6cc4528ce4c42ecf9206dc3c725f2647e",
+      "text": "Hubaysh bin Khalid meriwayatkan bahawa Nabi ﷺ dan para sahabatnya singgah di tempat Umm Ma‘bad. Mereka meminta daging dan kurma tetapi tidak mendapatinya di situ. Kemudian Nabi ﷺ memerah kambing yang tertinggal daripada kawanan kerana lemah dan meninggalkan sebekas susu untuknya. Setelah mereka berangkat, Abu Ma‘bad bertanya tentang susu itu dan isterinya menggambarkan tetamu tersebut kepadanya."
     },
     {
       "unit_id": "hch_umm_mabad_tent:title_ar",
@@ -118,18 +118,18 @@
     },
     {
       "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
-      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
-      "text": "Perlu dibezakan antara penilaian terhadap sanad tertentu dengan penguatan hadis melalui beberapa jalur. Maka bantahan al-Albani tidak dijadikan penafian mutlak terhadap kisah ini, dan ungkapan Ibn Kathir tidak dijadikan pengesahan terperinci setiap lafaznya. Penceritaan ini mengikuti riwayat Hubaysh yang dibawakan Abu Nu‘aym; bab ini bukan kajian menyeluruh semua jalur dan bukan pula keputusan baharu tentang sanad."
+      "source_text_sha256": "030109acd701f3502dbafe5b5c01f7c69962ba54820fbbb6c574aa3bb7d1787e",
+      "text": "Ibn Kathir menyatakan bahawa jalur-jalur kisah Umm Ma‘bad saling menguatkan; beliau tidak membincangkan setiap lafaznya satu demi satu. Bantahan al-Albani tertuju kepada kesahihan sanad yang mengandungi Hisham bin Hubaysh; namun beliau menyebut kemungkinan hadis itu meningkat ke darjat hasan atau sahih melalui jalur-jalur yang dibawakan al-Hakim. Perincian persinggahan di khemah terdapat dalam riwayat Hubaysh bin Khalid yang dibawakan Abu Nu‘aym."
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices:title_ar",
-      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
-      "text": "Siapakah yang berbicara pada halaman sumber?"
+      "source_text_sha256": "463af65281604b3a6367d3e6e20d7fa732ca937e18054262d0c9d07c3ccefa35",
+      "text": "Teks riwayat, rujukan Ibn Hajar dan nota kaki al-Albani"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
-      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
-      "text": "Pada halaman pilihan Hidayat al-Ruwat, terdapat teks riwayat yang dimasukkan penyunting daripada al-Mishkat, kemudian rujukan Ibn Hajar kepada al-Bayhaqi, diikuti komentar al-Albani pada catatan pinggir. ‘Ali al-Halabi menjelaskan dalam pengantar suntingannya bahawa dia mengambil takhrij dan ulasan al-Albani untuk dimasukkan ke dalam buku. Oleh itu, bantahan terhadap sanad tidak boleh dinisbahkan kepada Ibn Hajar hanya kerana namanya tertera pada buku."
+      "source_text_sha256": "9314fa0dec48ff430bb0a1bfcffe9351af57aa8cb010c97862872a9689ec9b23",
+      "text": "Dalam edisi Hidayat al-Ruwat ini, ‘Ali al-Halabi memasukkan teks riwayat Hubaysh daripada al-Mishkat, kemudian menyusul rujukan Ibn Hajar kepada al-Bayhaqi. Bantahan terhadap kesahihan sanad dalam nota kaki ialah kata-kata al-Albani, bukan Ibn Hajar; al-Halabi menyatakan dalam pengantar bahawa beliau menambahkan takhrij dan ulasan al-Albani pada buku itu."
     },
     {
       "unit_id": "hch_umm_mabad_outline_request:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "62aae6bcb94f9a09cf26e45f183c063d2d08c4b05b185480ec2c5e7f6154eca0",
+  "translation_sha256": "ded5f394a664fbc9879dcff5a554988443fdb34079bc73483ed6b47d1a568366",
   "review": {
-    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-    "translation_sha256": "62aae6bcb94f9a09cf26e45f183c063d2d08c4b05b185480ec2c5e7f6154eca0",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session e9e023cf-7886-4ea5-8a38-479038baeb10 across 382 Arabic/target units. Compared every one of the 382 bound Arabic–Malay inventory units directly in full across pairs.py chunks 0–14: all teaching text, objectives, outlines, ten questions and their options, answers, explanations, scope and feedback, source-reading metadata and complete selected source texts. Reviewed the Arabic watchlist and relevant Arabic packet context; the two semantic discrepancies observed in round 1 (the ransom idiom and negated physical traits) are corrected in this bound edition. No remaining actionable meaning, omission, answer or language finding in this limited internal comparison. This is not collation of printed sources, independent language or specialist approval, or authorization for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

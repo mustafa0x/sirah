@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "fr",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "Dans ce chapitre, nous suivons la poursuite depuis l’assemblée des Banû Mudlij jusqu’à la route : ce que Surâqa sut et dissimula, sa réaction lorsque sa jument trébucha et ce qui se passa quand le groupe s’arrêta pour le rencontrer."
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "Surâqa ibn Mâlik apprit qu’un homme des Banû Mudlij avait vu des voyageurs près de la côte. Il les reconnut mais le cacha, puis se lança à leur poursuite. Sa jument trébucha ; plus tard, il appela les voyageurs en demandant la sécurité, et ils s’arrêtèrent pour le rencontrer."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "Des mots utiles pour lire le récit"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "Les mots de la récompense et de la poursuite"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "Le ju‘l est la récompense promise. Le récit rapporté par al-Bukhârî évoque, pour qui tuerait ou capturerait l’un des deux — le Prophète ﷺ ou Abû Bakr —, la valeur du prix du sang de chacun. Le récit d’Ibn Ishâq parle quant à lui de cent chamelles pour qui ramènerait le Prophète ﷺ à Quraysh ; Surâqa y dit expressément espérer obtenir ces cent chamelles. On voit ainsi la formulation de la récompense dans chacun des deux récits."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "Le ju‘l est une récompense promise. Chez al-Bukhârî, le prix du sang de chacun des deux, le Prophète ﷺ et Abû Bakr, est promis à qui le tuerait ou le capturerait ; chez Ibn Ishâq, cent chamelles sont promises à qui ramènerait le Prophète ﷺ à Quraysh. Surâqa dit dans ce dernier récit qu’il espérait le ramener et recevoir les cent chamelles."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "Dans le récit de Surâqa chez al-Bukhârî, on trouve le nom de ‘Âmir ibn Fuhayra et un morceau de cuir. Dans celui d’Ibn Ishâq, transmis dans la Sîra d’Ibn Hishâm, le Prophète ﷺ charge Abû Bakr d’écrire ; la suite évoque une écriture sur un os, un morceau (ruq‘a) ou un tesson, sans certitude sur le support. Pour le nom du rédacteur et le support, le récit présenté ici suit la version d’al-Bukhârî."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "Dans le récit de Surâqa chez al-Bukhârî, le Prophète ﷺ charge ‘Âmir ibn Fuhayra, qui écrit pour Surâqa la lettre de sûreté sur un morceau de cuir."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "La différence sur ces deux points est nette, mais aucun des deux textes ne dit que les deux hommes ont écrit ensemble. Lisons donc d’abord ce que rapporte chacun, sans transformer ces deux noms en histoire de deux documents dont aucun des extraits ne parle."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "Dans le récit d’Ibn Ishâq transmis dans la Sîra d’Ibn Hishâm, le Prophète ﷺ charge Abû Bakr d’écrire ; Surâqa rapporte ensuite que la lettre fut écrite sur un os, un morceau ou un tesson, sans certitude sur le support. Les récits diffèrent sur le rédacteur et le support ; aucun ne mentionne une seconde lettre ni une rédaction commune aux deux hommes."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "C’est Surâqa qui raconte ce qu’il apprit à l’assemblée, comment il prépara sa jument et sa lance, ce que lui indiquèrent les baguettes divinatoires et ce qu’il ressentit lors de la rencontre. Le récit d’Abû Bakr, transmis par al-Barâ’ chez al-Bayhaqî, décrit quant à lui l’arrivée du poursuivant, l’invocation du Prophète ﷺ, puis la promesse de Surâqa de détourner ceux qui les recherchaient et la façon dont il la tint. C’est de ce récit que vient la conclusion concernant les poursuivants détournés."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "Surâqa raconte lui-même ce qu’il comprit à l’assemblée, comment il prépara sa jument et sa lance, ce que lui indiquèrent les baguettes divinatoires et ce qui lui vint à l’esprit lors de la rencontre. Le récit d’Abû Bakr, transmis par al-Barâ’ chez al-Bayhaqî, décrit l’approche du poursuivant, l’invocation du Prophète ﷺ et la promesse de Surâqa de faire rebrousser chemin à ceux qui les poursuivaient. Abû Bakr rapporte que Surâqa revint sur ses pas, détourna les poursuivants qu’il rencontrait et tint sa promesse envers les voyageurs."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "En comparant le récit d’al-Bukhârî avec celui d’Ibn Ishâq, prêtez également attention à l’ordre des chutes : dans le premier, la jument trébuche avant qu’il n’arrive tout près, puis ses pattes avant s’enfoncent ; dans le second, il y a deux chutes, puis une autre quand Surâqa aperçoit le groupe et que les pattes avant de sa jument pénètrent dans le sol. Nous avons donc suivi l’ordre d’un seul récit pour raconter la poursuite, plutôt que d’additionner les chutes des deux textes."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "Dans le récit de Surâqa chez al-Bukhârî, sa jument trébuche avant qu’il n’arrive tout près et il tombe ; après qu’il a entendu la récitation du Prophète ﷺ, ses pattes avant s’enfoncent dans le sol. Chez Ibn Ishâq, elle trébuche deux fois et Surâqa tombe chaque fois ; elle trébuche encore lorsqu’il aperçoit le groupe et ses pattes avant pénètrent dans le sol."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "3f6bc4ede5e5063e1d1c92edbb75770c81349de45c0f498e3880c02f93f43429",
+  "translation_sha256": "0ad8d725a204fa444d8a8a5e5817f27e907b954a2d1e333a97bdfc136c7c44ad",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "3f6bc4ede5e5063e1d1c92edbb75770c81349de45c0f498e3880c02f93f43429",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session fdf01daf-df6f-41a1-a2f3-5ebffed77860 across 314 Arabic/target units. Comparaison sémantique indépendante et directe de l’arabe au français pour les 314 unités : éléments pédagogiques, objectifs, questions, réponses et justifications, métadonnées, citations et textes sources sélectionnés dans leur intégralité. La liste de vigilance a également été lue. Les deux formulations du retour signalées au tour précédent sont corrigées ; aucun nouvel écart de sens nécessitant une correction n’a été relevé. Cet examen ne constitue ni une collation des témoins ni une approbation linguistique indépendante, spécialisée ou de diffusion. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

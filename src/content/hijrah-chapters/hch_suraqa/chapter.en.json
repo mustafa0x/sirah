@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "en",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "This chapter follows the pursuit from the gathering of Banu Mudlij onto the road: what Suraqa learned and concealed, how he acted when his horse stumbled, and what happened when the travelers stopped to meet him."
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "Suraqa ibn Malik heard of travelers a man of Banu Mudlij had seen by the coast. He recognized them but concealed what he knew, then set out after them. His horse stumbled; later he called to the travelers for safety, and they stopped to meet him."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "Terms that help in reading the account"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "Words for the reward and pursuit"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "Ju‘l means a promised reward. The report in al-Bukhari mentions the blood-money of each of the Prophet ﷺ and Abu Bakr for anyone who killed or captured him. Ibn Ishaq’s account instead mentions one hundred she-camels for anyone who returned the Prophet ﷺ to Quraysh, and Suraqa explicitly says he hoped to receive the hundred. These are the respective wordings of the reward in the two readings."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "Ju‘l is a promised reward. In al-Bukhari’s report, the blood-money of each of the Prophet ﷺ and Abu Bakr was offered to whoever killed or captured him; in Ibn Ishaq’s account, one hundred she-camels were offered to whoever returned the Prophet ﷺ to Quraysh. Suraqa says in Ibn Ishaq’s account that he hoped to return him and receive the hundred."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "In Suraqa’s report in al-Bukhari, the writer is Amir ibn Fuhayrah and the material is a piece of leather. In Ibn Ishaq’s account in the Sirah of Ibn Hisham, the Prophet ﷺ tells Abu Bakr to write it; the continuation says the writing was on a bone, a scrap, or a potsherd, leaving the material uncertain. This chapter’s account follows al-Bukhari’s wording for the writer and the material."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "In Suraqa’s report in al-Bukhari, the Prophet ﷺ instructed Amir ibn Fuhayrah, who wrote Suraqa’s letter of safety on a piece of leather."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "The differences on these two points are clear, but neither text says that both men took part in writing. We first read each account on its own terms rather than turning the two names into a story about two documents that neither excerpt mentions."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "In Ibn Ishaq’s account in Ibn Hisham’s Sirah, the Prophet ﷺ instructed Abu Bakr to write; Suraqa then says the letter was written on a bone, a scrap, or a potsherd, with the material uncertain. The accounts differ over the writer and material; neither mentions a second letter or both men writing together."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "Suraqa relates what he knew at the gathering, how he prepared his horse and spear, the results of his divination, and what occurred to him at the meeting. Abu Bakr’s account, transmitted by al-Bara in al-Bayhaqi, describes the pursuer catching up, the Prophet’s prayer ﷺ, and Suraqa’s promise to turn back the pursuers and his fulfillment of it. The conclusion about diverting other pursuers comes from this account."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "Suraqa relates what he knew at the gathering, how he prepared his horse and spear, what came up in his divination with arrows, and what occurred to him at the meeting. Abu Bakr’s account, transmitted by al-Bara in al-Bayhaqi, describes the pursuer drawing near, the Prophet’s prayer ﷺ, and Suraqa’s promise to turn back those in pursuit. Abu Bakr says Suraqa went back and turned away the pursuers he met, fulfilling his promise to the travelers."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "When comparing al-Bukhari’s report with Ibn Ishaq’s, note the order of the stumbles too. In the former, the horse stumbles before Suraqa comes very close, then its forelegs sink; in the latter, it stumbles twice and then stumbles as he sees the people, its forelegs going into the ground. We have followed the sequence in one account rather than adding together the stumbles in both."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "In Suraqa’s report in al-Bukhari, the horse stumbled before he came very close and he fell; after he heard the Prophet ﷺ reciting, its forelegs sank into the ground. In Ibn Ishaq’s account, it stumbled twice and Suraqa fell each time; it then stumbled when he saw the people, and its forelegs went into the ground."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,14 +1605,12 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "cac2cd617ba81aa3c57ed055df963683e6be47d5cad423c8a4c017ba4d268e8f",
+  "translation_sha256": "b6d41ec0c7ae5245bae51931b54bbd629db418c7792d7a9ac5131dfad644b889",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "summary": "Internal AI comparison of every teaching/question unit, selected full source-passage translation and distinct metadata pair against its bound Arabic inventory; repeated metadata checked for identical wording. Thawr frozen narrative preserved. Suraqa wait request, third-person lot wording and alms wording corrected and rechecked in review session 47e3cf31-a27c-4311-bb38-6e7fe28f208f. Main reconciled these concrete corrections and structural coverage. This is bounded internal comparison, not independent language/specialist approval, underlying-edition collation, rights clearance or publication permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
-    "public_distribution_approved": false,
-    "translation_compared": true,
-    "translation_sha256": "cac2cd617ba81aa3c57ed055df963683e6be47d5cad423c8a4c017ba4d268e8f"
+    "public_distribution_approved": false
   }
 }

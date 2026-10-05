@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "ha",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "A wannan babi za mu bi diddigin farautar daga majalisar Banu Mudlij zuwa kan hanya: abin da Suraqa ya sani ya ɓoye, yadda ya yi sa'ad da dokinsa ya yi tuntuɓe, da abin da ya faru lokacin da ayarin ya tsaya domin ya gamu da shi."
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "Suraqa ɗan Malik ya ji labarin wasu matafiya da wani mutum daga Banu Mudlij ya gani kusa da gabar teku. Ya gane su amma ya ɓoye abin da ya sani, sannan ya bi bayansu. Dokinsa ta yi tuntuɓe; daga baya ya kira matafiyan yana neman aminci, suka tsaya domin su sadu da shi."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "Kalmomin da ke taimakawa wajen karanta labarin"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "Kalmomin lada da farauta"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "«Ju'l» shi ne ladan da aka yi alkawarinsa. Hadisin Bukhari ya ambaci diyya ga kowane ɗaya daga Annabi ﷺ da Abu Bakr, ga wanda ya kashe shi ko ya kama shi. Amma labarin Ibn Ishaq ya ambaci raƙuma ɗari ga wanda ya mayar da Annabi ﷺ ga Quraishawa, kuma Suraqa ya bayyana fatansa na karɓar ɗarin. Haka za ka ga siffofin ladan a kowane karatu."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "Ju‘l lada ne da aka yi alkawari. A hadisin Bukhari an yi alkawarin diyyar kowane ɗaya daga Annabi ﷺ da Abu Bakr ga wanda ya kashe ko ya kama shi; a labarin Ibn Ishaq kuma an ambaci rakuma mata ɗari ga wanda ya mayar da Annabi ﷺ ga Quraysh. Suraqa ya ce a labarin Ibn Ishaq ya yi fatan mayar da shi ya karɓi ɗarin."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "Idan ka karanta hadisin Suraqa a Bukhari, za ka ga sunan Amir ɗan Fuhayra da gutsuren fata. Amma labarin Ibn Ishaq a Sirar Ibn Hisham ya ambaci umurnin Annabi ﷺ ga Abu Bakr ya rubuta, sai kuma ci gaban rubutun a ƙashi ko wani gutsure ko kan tukunya, tare da rashin tabbas kan kayan. Labarin nan ya bi lafazin Bukhari game da sunan marubucin da kayan rubutun."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "A hadisin Suraqa na Bukhari, Annabi ﷺ ya umarci Amir ɗan Fuhayra, wanda ya rubuta wa Suraqa takardar aminci a kan gutsuren fata."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "Bambancin waɗannan wurare biyu a bayyane yake, amma rubuce-rubucen biyu ba su ce mutanen biyu sun yi rubutun tare ba. Saboda haka sai mu fara fahimtar abin da kowane ɗayansu ya ruwaito, ba mu mai da sunayen biyu labarin takardu biyu da babu wani daga cikin zaɓaɓɓun sassan ya ambata ba."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "A labarin Ibn Ishaq cikin Sira ta Ibn Hisham, Annabi ﷺ ya umarci Abu Bakr ya rubuta; daga baya Suraqa ya ambaci rubuta takardar a kan ƙashi ko wani yanki ko gutsuren tukunya, ba tare da tabbatar da kayan ba. Labaran sun bambanta game da marubuci da kayan rubutu; babu wanda ya ambaci takarda ta biyu ko cewa mutanen biyu sun rubuta tare."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "Suraqa ne yake ba da labarin abin da ya gane a majalisar, yadda ya shirya dokinsa da mashinsa, abin da ƙuri'ar sandunan ta nuna masa, da abin da ya ji a zuciyarsa lokacin ganawar. Amma labarin Abu Bakr, wanda al-Bara' ya ruwaito a wurin al-Bayhaqi, ya kwatanta yadda mai farauta ya riske su da addu'ar Annabi ﷺ, sannan alƙawarin Suraqa na juyar da masu neman su da cika shi. Daga nan ne ƙarshen labarin hana masu farauta ya fito."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "Suraqa ne yake ba da labarin abin da ya gane a majalisar, yadda ya shirya dokinsa da mashinsa, abin da ƙuri’ar sandunan ta nuna masa, da abin da ya ji a zuciyarsa lokacin ganawar. Labarin Abu Bakr, wanda al-Bara’ ya ruwaito a wurin al-Bayhaqi, ya kwatanta kusatowar mai farauta, addu’ar Annabi ﷺ da alƙawarin Suraqa na juyar da masu neman su. Abu Bakr ya ce Suraqa ya koma, ya juyar da masu farauta da ya haɗu da su, ya kuma cika alƙawarinsa ga matafiyan."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "Idan ka kwatanta riwayar Bukhari da labarin Ibn Ishaq, ka kuma lura da jerin tuntuɓen: a ta farko dokin ya yi tuntuɓe kafin ya kusanto sosai, sannan ƙafafun gabansa suka nutse; a ta biyu tuntuɓe biyu suka faru, sannan wani tuntuɓen lokacin da ya ga mutanen, tare da shigar ƙafafun gaban dokin cikin ƙasa. Saboda haka muka karanta farautar bisa jerin riwaya guda, maimakon haɗa adadin tuntuɓen daga rubuce-rubucen biyu."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "A hadisin Suraqa na Bukhari, dokinsa ta yi tuntuɓe kafin ya matso sosai, sai ya faɗi; bayan ya ji karatun Annabi ﷺ, ƙafafun gabanta suka nutse cikin ƙasa. A labarin Ibn Ishaq, dokin ta yi tuntuɓe sau biyu, Suraqa ya faɗi a kowane lokaci; sannan ta sake yin tuntuɓe lokacin da ya ga mutanen, ƙafafun gabanta suka shiga ƙasa."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "d9cf55bf716bcaf55c2db951a453e5c9a9ba4e2067563066c9e1a1bb3e302198",
+  "translation_sha256": "bf0dc7825993f7f315a073f8057502c04de13850fa24ba9cd62a13c7e81af35d",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "d9cf55bf716bcaf55c2db951a453e5c9a9ba4e2067563066c9e1a1bb3e302198",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 3b34d27f-6725-49f1-bb9a-cbd3ca9e0598 across 314 Arabic/target units. Completed a new Arabic-led semantic comparison of all 314 paired inventory units in all 12 complete numbered chunks: narrative, objectives, outlines, keyed questions/options/explanations/feedback, metadata/citation URLs, and full selected sources including named chains and later encounter. The Arabic watchlist was also read. No further actionable semantic or untranslated-prose issue was found in this bound edition; an empty findings list reflects the completed comparison, not independent language approval, specialist collation, or public distribution clearance. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

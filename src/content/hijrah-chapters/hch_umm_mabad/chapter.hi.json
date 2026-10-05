@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_umm_mabad",
-  "revision": 1,
+  "revision": 2,
   "locale": "hi",
-  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
-  "status": "translation_ready",
+  "arabic_sha256": "5d4522d31189abc5ec8414c33bcc8c3511566d9610ae53ec807134c20ea89562",
+  "arabic_payload_sha256": "970bc2728581db59aa687150d969118744e8f404db9b90e5cc8a05a9e3437bac",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_umm_mabad:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_umm_mabad_overview:text_ar",
-      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
-      "text": "हुबैश बिन ख़ालिद की रिवायत के अनुसार हम उम्म माबद के यहाँ काफ़िले के ठहरने को देखते हैं: खाने की माँग, ख़ेमे में रह गई बकरी, और मेहमानों के जाने के बाद पति-पत्नी की बातचीत। सहायक पाठ वर्णन के शब्द समझने में मदद करते हैं और रिवायत की सनदों के बारे में इब्न कसीर तथा अल-अलबानी की बातें सामने रखते हैं, बिना यह मान लिए कि इसकी हर सनद और हर शब्द पर सहमति है।"
+      "source_text_sha256": "16036245abe45e77c557698b12ecf0c6cc4528ce4c42ecf9206dc3c725f2647e",
+      "text": "हुबैश बिन ख़ालिद बताते हैं कि नबी ﷺ और उनके साथी उम्म माबद के यहाँ रुके। उन्होंने गोश्त और खजूरें माँगीं, लेकिन वहाँ कुछ न मिला। फिर नबी ﷺ ने उस बकरी का दूध दुहा जो कमज़ोरी के कारण झुंड से पीछे रह गई थी, और उसके पास दूध का एक बर्तन छोड़ दिया। उनके जाने के बाद अबू माबद ने दूध के बारे में पूछा और उनकी पत्नी ने आए हुए व्यक्ति का वर्णन किया।"
     },
     {
       "unit_id": "hch_umm_mabad_tent:title_ar",
@@ -118,18 +118,18 @@
     },
     {
       "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
-      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
-      "text": "यहाँ किसी विशेष सनद पर बात करने और कई रास्तों से रिवायत के मज़बूत होने की बात करने में अंतर है। इसलिए अल-अलबानी की आपत्ति को पूरी कहानी का निर्णायक खंडन नहीं मानते, न इब्न कसीर की बात को इसके हर शब्द की अलग-अलग प्रामाणिकता का निर्णय। वृत्तांत अबू नुऐम में आई हुबैश की रिवायत का अनुसरण करता है; यह अध्याय सभी रास्तों का संपूर्ण अध्ययन या सनद पर कोई नया फ़ैसला नहीं है।"
+      "source_text_sha256": "030109acd701f3502dbafe5b5c01f7c69962ba54820fbbb6c574aa3bb7d1787e",
+      "text": "इब्न कसीर कहते हैं कि उम्म माबद की कहानी की रिवायत के रास्ते एक-दूसरे को मज़बूती देते हैं; वे इसके हर शब्द पर अलग-अलग फ़ैसला नहीं करते। अल-अलबानी की आपत्ति उस सनद की प्रामाणिकता पर है जिसमें हिशाम बिन हुबैश हैं; फिर भी वे संभावना बताते हैं कि हाकिम द्वारा लाए गए रास्तों से हदीस हसन या सहीह के दर्जे तक पहुँच सकती है। ख़ेमे पर रुकने का विवरण अबू नुऐम में आई हुबैश बिन ख़ालिद की रिवायत से है।"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices:title_ar",
-      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
-      "text": "स्रोत के पन्ने पर किसकी आवाज़ है?"
+      "source_text_sha256": "463af65281604b3a6367d3e6e20d7fa732ca937e18054262d0c9d07c3ccefa35",
+      "text": "रिवायत का पाठ, इब्न हजर का स्रोत-संकेत और अल-अलबानी की पादटिप्पणी"
     },
     {
       "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
-      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
-      "text": "‘हिदायतुर-रुवात’ के चुने हुए पन्नों में पहले वह मूल रिवायत है जिसे संपादक ने ‘मिश्कात’ से लिया, फिर इब्न हजर का बैहक़ी की ओर स्रोत-संकेत, फिर हाशिये में अल-अलबानी की टिप्पणी। अली अल-हलबी संपादन की प्रस्तावना में बताते हैं कि उन्होंने अल-अलबानी के स्रोत-संदर्भ और टिप्पणियाँ पुस्तक में जोड़ने के लिए ली थीं। इसलिए केवल पुस्तक पर इब्न हजर का नाम होने से सनद की आपत्ति उन्हीं की नहीं मानी जा सकती।"
+      "source_text_sha256": "9314fa0dec48ff430bb0a1bfcffe9351af57aa8cb010c97862872a9689ec9b23",
+      "text": "हिदायतुर-रुवात के इस संस्करण में अली अल-हलबी ने मिश्कात से हुबैश की रिवायत का पाठ शामिल किया है; इसके बाद इब्न हजर का बैहक़ी की ओर स्रोत-संकेत आता है। पादटिप्पणी में सनद की प्रामाणिकता पर आपत्ति अल-अलबानी की है, इब्न हजर की नहीं; हलबी प्रस्तावना में कहते हैं कि उन्होंने अल-अलबानी के स्रोत-संदर्भ और टिप्पणियाँ पुस्तक में जोड़ी हैं।"
     },
     {
       "unit_id": "hch_umm_mabad_outline_request:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "a36bec7b91dbf2757ad828a5025c3834daabcfceaf1ba62dcf9e057eca33f472",
+  "translation_sha256": "d9987a0938d52da2fa2bc573da66ec0e31b255f6906adc83f4b7c34c8388b104",
   "review": {
-    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
-    "translation_sha256": "a36bec7b91dbf2757ad828a5025c3834daabcfceaf1ba62dcf9e057eca33f472",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session d8a86e33-4f40-4a78-afe9-e49f87c62ab1 across 382 Arabic/target units. अरबी प्रामाणिक पाठ से हिंदी मसौदे की सभी ३८२ सूचीबद्ध इकाइयाँ १४ पूरे, बिना काटे गए जोड़ी-खंडों में सीधे मिलाईं। शिक्षण-पाठ, उद्देश्य, रूपरेखा, दस प्रश्नों के सही/गलत विकल्प व प्रतिक्रियाएँ, सभी अनूदित चयनित स्रोत-पाठ, सनद, आवृत्त मेटाडेटा, अनिश्चित लिखावट और उद्धरण-URLs देखे। इस संस्करण में कोई और स्पष्ट, कार्रवाई योग्य अर्थगत/भाषायी दोष नहीं मिला; यह परिणाम स्वतंत्र भाषायी या विशेषज्ञ अनुमोदन, मुद्रित/पांडुलिपि मिलान अथवा प्रकाशन की अनुमति नहीं है। Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

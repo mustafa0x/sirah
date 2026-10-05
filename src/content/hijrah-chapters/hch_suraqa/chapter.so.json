@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_suraqa",
-  "revision": 1,
+  "revision": 2,
   "locale": "so",
-  "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-  "arabic_payload_sha256": "44a55f06298050389edf569276e93774f92dad64bddfce2a341edd5cf3ce9137",
-  "status": "translation_ready",
+  "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+  "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -18,8 +18,8 @@
     },
     {
       "unit_id": "hch_suraqa_overview:text_ar",
-      "source_text_sha256": "6fd495819dc4023baf2314f23d72cac61681f04681ea3a6dfd2162cc872890d6",
-      "text": "Cutubkan waxa aynu baacsiga ka raacaynaa fadhigii Banu Mudlij ilaa jidka: waxa Suraaqa gartay ee uu qariyey, wixii uu sameeyey markii faraskiisu turunturooday, iyo wixii dhacay markii safarku u istaagay si ay ula kulmaan."
+      "source_text_sha256": "c5770bab2ffc5b7b53a9118128cefbfe975c81bddf78eacefca7d1db2098b518",
+      "text": "Suraaqa bin Maalik wuxuu maqlay war ku saabsan koox uu nin Banu Mudlij ahi xeebta agteeda ku arkay. Wuu gartay, laakiin wuu qariyey, dabadeedna wuu baacsaday. Faraskiisii wuu turunturooday; kaddib ayuu kooxda ugu yeeray nabadgelyo, wayna istaageen si ay ula kulmaan."
     },
     {
       "unit_id": "hch_suraqa_council:title_ar",
@@ -88,13 +88,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_terms:title_ar",
-      "source_text_sha256": "101b196b26102c9e69292e387754b9f6060404cd2babf932ecbfc72359459e14",
-      "text": "Erayo caawinaya fahamka warka"
+      "source_text_sha256": "147dc77ecc737f769e44af74387decfc1ff112ddd7e59b0133b21ce5deb0f443",
+      "text": "Erayada abaalmarinta iyo baacsiga"
     },
     {
       "unit_id": "hch_suraqa_depth_terms_reward:text_ar",
-      "source_text_sha256": "9a6e55c261fb90c18ece0cc978825cd577e8b59ad7c77670d4cc8a1df3c9b8ed",
-      "text": "Jucal waa abaalmarin la ballanqaaday. Xadiiska Bukhaari wuxuu sheegayaa magta qof kasta oo ka mid ah Nebiga ﷺ iyo Abuu Bakar, qofkii dila ama qabta. Warka Ibnu Isxaaqse wuxuu sheegayaa boqol halaad oo la siinayo qofkii Nebiga ﷺ Quraysh u soo celiya; Suraaqana wuxuu ku caddeeyaa rajadiisa helitaanka boqolkaas. Sidaas ayaad u arkaysaa qaabka abaalmarinta ee labada akhris mid walba."
+      "source_text_sha256": "a1e70f24f51b204ae3a2a1db1038253c4f7842fe1c297319d023d606acd9d9d1",
+      "text": "Jucal waa abaalmarin la ballanqaaday. Xadiiska Bukhaari, magta mid kasta oo Nebiga ﷺ iyo Abuu Bakar ka mid ah ayaa loo ballanqaaday qofkii dila ama qabta; warka Ibnu Isxaaqna boqol halaad ayaa loo ballanqaaday qofkii Nebiga ﷺ Quraysh u soo celiya. Suraaqa wuxuu warka Ibnu Isxaaq ku sheegay inuu rajaynayey inuu soo celiyo oo boqolkaas helo."
     },
     {
       "unit_id": "hch_suraqa_depth_terms_01:text_ar",
@@ -113,13 +113,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_writers_01:text_ar",
-      "source_text_sha256": "a42fe9393d8b7cac14494d83f7393aa0194a11da8469377553bbc9f6b8efdb32",
-      "text": "Xadiiska Suraaqa ee Bukhaari waxaad ka helaysaa magaca Caamir bin Fuhayra iyo cadka haragga ah. Laakiin warka Ibnu Isxaaq ee Siirada Ibnu Hishaam wuxuu xusayaa in Nebigu ﷺ Abuu Bakar amray inuu qoro; qaybta xigta waxay sheegaysaa qoraal lagu qoray laf ama warqad yar ama cad dhoobo ah, iyadoo shaki laga muujiyey walaxda. Sheekadani waxay magaca qoraaga iyo walaxda ku raacaysaa hadalka Bukhaari."
+      "source_text_sha256": "71eb8227a112d8ba2005c9f56b5b437e5f98b3f73679efe157a4955c3522abbd",
+      "text": "Xadiiska Suraaqa ee Bukhaari, Nebigu ﷺ wuxuu amray Caamir bin Fuhayra, kaas oo Suraaqa ugu qoray warqadda nabadgelyada cad harag ah."
     },
     {
       "unit_id": "hch_suraqa_depth_writers_02:text_ar",
-      "source_text_sha256": "21231b66374c9eca5af98d7ae1221b4fa0d722d61dd64d7dc418efb131cb1e9d",
-      "text": "Farqiga labadaas meelood waa cad yahay, hase yeeshee labada qoraal midna ma sheegin in labada nin wada qoreen. Sidaa darteed marka hore waxa aynu fahmaynaa waxa mid kastaa weriyey, mana ka samaynayno labada magac sheeko laba dukumenti ah oo aan midkoodna sheegin."
+      "source_text_sha256": "9687139df61f72044c2fb633f5b6ae4580efc52cbd47a70fdd65dd1b03b633ff",
+      "text": "Warka Ibnu Isxaaq ee Siirada Ibnu Hishaam, Nebigu ﷺ wuxuu Abuu Bakar amray inuu qoro; Suraaqana wuxuu markaas sheegayaa in warqadda lagu qoray laf ama cad yar ama jeex dhoobo ah, iyadoo walaxda aan la hubin. Labada war waxay ku kala duwan yihiin qoraaga iyo walaxda; midna ma xuso warqad labaad ama in labada nin wada qoreen."
     },
     {
       "unit_id": "hch_suraqa_depth_views:title_ar",
@@ -128,13 +128,13 @@
     },
     {
       "unit_id": "hch_suraqa_depth_views_01:text_ar",
-      "source_text_sha256": "1c53816c0b0fa9fb944198d8968083188e555b4c804a64bad42bed25a5902039",
-      "text": "Suraaqa ayaa ka warramaya waxa uu golaha ku gartay, sida uu faraskiisa iyo warankiisa u diyaarsaday, waxa qoryihii faalku u soo saareen iyo wixii maskaxdiisa ku soo dhacay markii ay kulmeen. Warka Abuu Bakar ee Al-Baraa' ka weriyey Bayhaqi wuxuu tilmaamayaa ninkii eryanayay oo iyaga soo gaadhay iyo ducadii Nebiga ﷺ, ka dib ballankii Suraaqa ee celinta eryadayaasha iyo sida uu u fuliyey. Halkaas ayay ka timaaddaa dhammaadka sheekada ee leexinta eryadayaasha."
+      "source_text_sha256": "b48b2da881861ebd7692179b7b93bafbb30b681c137f0d4011fc0a306cd9b5a1",
+      "text": "Suraaqa ayaa ka warramaya waxa uu golaha ku gartay, sida uu faraskiisa iyo warankiisa u diyaarsaday, waxa qoryihii faalku u soo saareen iyo wixii naftiisa ku dhacay markii ay kulmeen. Warka Abuu Bakar ee Al-Baraa’ ka weriyey Bayhaqi wuxuu sheegayaa ninkii eryanayay oo u soo dhowaaday, ducadii Nebiga ﷺ iyo ballankii Suraaqa ee ahaa inuu eryadayaasha celiyo. Abuu Bakar wuxuu sheegayaa in Suraaqa dib u noqday oo eryadayaashii uu la kulmay celiyey, ballankii uu kooxda u qaadayna oofiyey."
     },
     {
       "unit_id": "hch_suraqa_depth_views_02:text_ar",
-      "source_text_sha256": "4995b0720373f75f1a9e347eb3e21bc0f4499f803fb6b71ebf3760bf5a693483",
-      "text": "Markaad isbarbar dhigto werinta Bukhaari iyo warka Ibnu Isxaaq, u fiirso kala horreynta turunturooyinka: tan hore hal turunturo ayaa ka horraysa u dhowaanshaha weyn, dabadeedna lugihii hore ayaa dhulka gala; tan labaadna laba turunturo ayaa ka horreeya mid dhacday markuu dadka arkay, iyadoo lugihii hore ee farasku dhulka galeen. Sidaas awgeed baacsiga waxaan u raacnay kala horreynta hal werin, intii aan labada qoraal tirada turunturooyinka isku dari lahayn."
+      "source_text_sha256": "ccdf71eb7ce92baa2adac1242c003f3fa841a1e03435db1d51b97e6d7db0ae2f",
+      "text": "Xadiiska Suraaqa ee Bukhaari, farasku wuu turunturooday intuusan aad ugu dhowaan, wuuna ka dhacay; dabadeed markuu maqlay akhriska Nebiga ﷺ, lugihii hore ee faraska ayaa dhulka galay. Warka Ibnu Isxaaq, farasku laba jeer ayuu turunturooday, Suraaqana mar kasta wuu dhacay; markuu dadka arkayna haddana wuu turunturooday, lugihii horena dhulka ayay galeen."
     },
     {
       "unit_id": "hch_suraqa_depth_document:title_ar",
@@ -1605,12 +1605,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "9106d3acd99cfe13a4e6e9a0fa01cf5a170d9d7cc928b666c7a37703f3d229f5",
+  "translation_sha256": "e570e891eb0bc23f004e41b5cc199d54400a37b9db54609b402737ecf97bf554",
   "review": {
-    "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
-    "translation_sha256": "9106d3acd99cfe13a4e6e9a0fa01cf5a170d9d7cc928b666c7a37703f3d229f5",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 280a1a8b-9247-44b9-b9d0-b8f4513ffc0f across 314 Arabic/target units. Completed a fresh Arabic-led comparison of all 314 paired inventory units across the entire output of each of the 12 numbered chunks: chapter teaching text and outline, nine objectives, ten question sets with options, correct meanings, explanations and feedback, scope notes, repeated bibliographic metadata and unchanged citation URLs, and all complete selected source texts. The Arabic watchlist was also read as a separate precaution. No additional actionable semantic discrepancy was identified in this bound draft; the unclear later-scope Arabic lemma is explicitly marked uncertain, not presented as a known translation. This is neither scholarly collation nor independent language, specialist, or public-distribution approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false
