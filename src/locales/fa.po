@@ -2119,3 +2119,47 @@ msgstr "نقل‌شده در <0/><1/>"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr "، ج {0}، ص {1}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "بخش‌های متن"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "فهرست مطالب"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "در این متن"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "این متن هنوز به این زبان آماده نیست. نسخه انگلیسی نمایش داده می‌شود."
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "خواندنی‌های بیشتر"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "متن قبلی"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "متن بعدی"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "خواندنی‌ها"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "برای باز کردن هر متن، یک نشانگر کتاب را انتخاب کنید."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "خواندنی‌های هجرت"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> متن کامل، به همراه منابع و تمرین"

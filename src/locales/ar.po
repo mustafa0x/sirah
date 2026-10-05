@@ -2119,3 +2119,47 @@ msgstr "ورد في <0/><1/>"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr "، ج {0}، ص {1}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "أقسام الموضوع"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "المحتويات"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "في هذا الموضوع"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "هذا الموضوع غير متاح بهذه اللغة بعد. نعرض النسخة الإنجليزية."
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "موضوعات أخرى"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "الموضوع السابق"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "الموضوع التالي"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "موضوعات للقراءة"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "اختر علامة كتاب لفتح موضوعها."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "موضوعات الهجرة"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> الموضوع كاملًا، مع مصادره وأسئلته"

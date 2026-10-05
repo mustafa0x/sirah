@@ -2119,3 +2119,47 @@ msgstr "<0/><1/>-এ উদ্ধৃত"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", খণ্ড {0}, পৃষ্ঠা {1}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "পাঠের অংশসমূহ"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "সূচিপত্র"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "এই পাঠে"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "এই পাঠটি এখনও এই ভাষায় প্রস্তুত নয়। ইংরেজি সংস্করণ দেখানো হচ্ছে।"
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "আরও পাঠ"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "পূর্ববর্তী পাঠ"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "পরবর্তী পাঠ"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "পাঠসমূহ"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "পাঠটি খুলতে একটি বুক মার্কার নির্বাচন করুন।"
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "হিজরতের পাঠসমূহ"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> তথ্যসূত্র ও অনুশীলনসহ সম্পূর্ণ পাঠ"

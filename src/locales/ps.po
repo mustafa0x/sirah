@@ -2119,3 +2119,47 @@ msgstr "په <0/><1/> کې راغلی"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr "، {0} ټوک، {1} مخ"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "د لوست برخې"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "محتویات"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "په دې لوست کې"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "دا لوست لا په دې ژبه چمتو نه دی. انګلیسي نسخه ښودل کېږي."
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "نور لوستونه"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "مخکینی لوست"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "بل لوست"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "لوستونه"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "د لوست د پرانیستلو لپاره د کتاب یوه نښه وټاکئ."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "د هجرت لوستونه"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> بشپړ لوست، له خپلو سرچینو او تمرین سره"

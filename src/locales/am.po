@@ -2119,3 +2119,47 @@ msgstr "በ<0/><1/> የተጠቀሰ"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr "፣ ቅጽ {0}፣ ገጽ {1}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "የምንባብ ክፍሎች"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "ማውጫ"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "በዚህ ምንባብ ውስጥ"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "ይህ ምንባብ ገና በዚህ ቋንቋ አልተዘጋጀም። የእንግሊዝኛው እትም እየታየ ነው።"
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "ተጨማሪ ምንባቦች"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "ቀዳሚ ምንባብ"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "ቀጣይ ምንባብ"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "ምንባቦች"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "ምንባቡን ለመክፈት የመጽሐፍ ምልክቱን ይምረጡ።"
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "የሂጅራ ምንባቦች"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> ሙሉው ምንባብ፣ ከምንጮቹ እና ልምምዱ ጋር"

@@ -2119,3 +2119,47 @@ msgstr "อ้างอิงใน <0/><1/>"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", เล่ม {0}, หน้า {1}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "ส่วนต่าง ๆ ของบทอ่าน"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "สารบัญ"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "ในบทอ่านนี้"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "บทอ่านนี้ยังไม่พร้อมใช้งานในภาษานี้ กำลังแสดงฉบับภาษาอังกฤษ"
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "บทอ่านเพิ่มเติม"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "บทอ่านก่อนหน้า"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "บทอ่านถัดไป"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "บทอ่าน"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "เลือกเครื่องหมายรูปหนังสือเพื่อเปิดบทอ่าน"
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "บทอ่านเรื่องการฮิจเราะฮ์"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> บทอ่านฉบับเต็ม พร้อมแหล่งอ้างอิงและแบบฝึกหัด"

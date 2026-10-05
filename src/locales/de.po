@@ -2119,3 +2119,47 @@ msgstr "zitiert in <0/><1/>"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", Bd. {0}, S. {1}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "Leseabschnitte"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "Inhalt"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "In diesem Lesetext"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "Dieser Lesetext ist in dieser Sprache noch nicht verfügbar. Es wird die englische Version angezeigt."
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "Weitere Lesetexte"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "Vorheriger Lesetext"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "Nächster Lesetext"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "Lesetexte"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "Wähle eine Buchmarkierung aus, um den Lesetext zu öffnen."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "Hidschra-Lesetexte"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> Der vollständige Lesetext mit Quellen und Übungen"

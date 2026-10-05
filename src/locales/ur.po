@@ -2119,3 +2119,47 @@ msgstr "<0/><1/> میں منقول"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr "، جلد {0}، صفحہ {1}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "مطالعے کے حصے"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "فہرست"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "اس مطالعے میں"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "یہ مطالعہ ابھی اس زبان میں تیار نہیں ہے۔ انگریزی ایڈیشن دکھایا جا رہا ہے۔"
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "مزید مطالعات"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "پچھلا مطالعہ"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "اگلا مطالعہ"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "مطالعات"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "مطالعہ کھولنے کے لیے بُک مارکر منتخب کریں۔"
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "ہجرت کے مطالعات"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> مکمل مطالعہ، مآخذ اور مشق کے ساتھ"

@@ -62,6 +62,16 @@
 
     let readings = $derived(chapter ? reading_groups(chapter) : [])
 
+    // Readings in story order, for the links that close each one.
+    let neighbours = $derived.by(() => {
+        const list = available_chapters(destination.lang)
+        const index = list.findIndex((item) => item.chapter_id === chapter_id)
+        return {
+            previous: index > 0 ? list[index - 1] : null,
+            next: index >= 0 ? (list[index + 1] ?? null) : null,
+        }
+    })
+
     function path(tab, id = null) {
         return `/chapters/${chapter_id}/${tab}${id ? `/${encodeURIComponent(id)}` : ''}`
     }
@@ -300,34 +310,6 @@
 >
     <header class="flex gap-4 items-start justify-between px-7 pt-6 pb-3 mobile:px-5">
         <div class="grid min-w-0 flex-1 gap-2">
-            <label class="sr-only" for="chapter-select">Choose a chapter</label>
-            <div class="relative mb-1 min-w-0" dir={language_direction(chapter?.locale)}>
-                <select
-                    id="chapter-select"
-                    lang={chapter?.locale}
-                    dir={language_direction(chapter?.locale)}
-                    class="w-full min-w-0 appearance-none rounded-lg border border-solid border-line-strong bg-panel-solid py-2 ps-3 pe-9 font-serif text-[1rem] text-gold-bright focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                    value={chapter_id}
-                    onchange={(event) =>
-                        on_navigate(`/chapters/${event.currentTarget.value}/story`)}
-                >
-                    {#each available_chapters(destination.lang) as item (item.chapter_id)}
-                        <option
-                            value={item.chapter_id}
-                            lang={chapter_content_locale(item, destination.lang)}
-                            dir={language_direction(chapter_content_locale(item, destination.lang))}
-                            >{chapter_title(item, destination.lang)}</option
-                        >
-                    {/each}
-                </select>
-                <svg
-                    class="pointer-events-none absolute end-3 top-1/2 size-3.5 -translate-y-1/2 fill-none stroke-current text-gold-bright [stroke-width:2.2] [stroke-linecap:round] [stroke-linejoin:round]"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                >
-                    <path d="M6 9l6 6 6-6" />
-                </svg>
-            </div>
             <h2
                 class="font-serif text-[2rem] font-medium leading-[1.15]"
                 id="chapter-title"
@@ -348,7 +330,7 @@
         </div>
         <button
             class="grid flex-none size-[38px] place-items-center text-ink-soft bg-transparent border border-solid border-line-strong rounded-full hover:text-white hover:border-gold"
-            aria-label="Close chapter"
+            aria-label="Close reading"
             onclick={on_close}
         >
             <svg
@@ -363,13 +345,13 @@
 
     {#if chapter && destination.lang !== chapter.locale}
         <p class="px-7 pb-3 text-ink-soft text-[0.9375rem] mobile:px-5">
-            A chapter edition is not ready in this language. Showing the English edition.
+            This reading is not ready in this language yet. Showing the English edition.
         </p>
     {/if}
 
     <nav
         class="flex gap-1 px-6 border-0 border-b border-solid border-line overflow-x-auto mobile:px-4"
-        aria-label="Chapter sections"
+        aria-label="Reading sections"
     >
         {#each tabs as [id, name] (id)}
             <a
@@ -409,8 +391,8 @@
                     </p>
                 {/each}
                 <!-- The outline doubles as the table of contents. -->
-                <nav class="grid gap-1" aria-label="Chapter contents">
-                    <p class="text-muted text-[0.875rem] font-semibold">In this chapter</p>
+                <nav class="grid gap-1" aria-label="Contents">
+                    <p class="text-muted text-[0.875rem] font-semibold">In this reading</p>
                     <ol class="grid list-none">
                         {#each chapter.outline as point, index (point.point_id)}
                             <li>
@@ -482,6 +464,37 @@
                             </section>
                         {/each}
                     </div>
+                {/if}
+                {#if neighbours.previous || neighbours.next}
+                    <nav
+                        class="grid grid-cols-2 gap-4 pt-6 border-0 border-t border-solid border-line"
+                        aria-label="More readings"
+                    >
+                        {#each [neighbours.previous, neighbours.next] as item, index (index)}
+                            {#if item}
+                                <a
+                                    class="grid gap-1 content-start text-ink hover:text-gold-bright data-[next=true]:col-start-2 data-[next=true]:text-end"
+                                    href={journey_href(
+                                        `/chapters/${item.chapter_id}/story`,
+                                        destination,
+                                        destination.at,
+                                    )}
+                                    data-next={index === 1}
+                                >
+                                    <span class="text-muted text-[0.8125rem] font-semibold"
+                                        >{#if index === 0}Previous reading{:else}Next reading{/if}</span
+                                    >
+                                    <span
+                                        class="font-serif text-[1.0625rem] leading-[1.35]"
+                                        lang={chapter_content_locale(item, destination.lang)}
+                                        dir={language_direction(
+                                            chapter_content_locale(item, destination.lang),
+                                        )}>{chapter_title(item, destination.lang)}</span
+                                    >
+                                </a>
+                            {/if}
+                        {/each}
+                    </nav>
                 {/if}
             </div>
         {:else if tab === 'sources'}

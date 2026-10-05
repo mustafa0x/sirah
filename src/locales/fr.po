@@ -2119,3 +2119,47 @@ msgstr "cité dans <0/><1/>"
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", vol. {0}, p. {1}"
+
+#: src/lib/ChapterReader.svelte
+msgid "Reading sections"
+msgstr "Sections de lecture"
+
+#: src/lib/ChapterReader.svelte
+msgid "Contents"
+msgstr "Sommaire"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this reading"
+msgstr "Dans cette lecture"
+
+#: src/lib/ChapterReader.svelte
+msgid "This reading is not ready in this language yet. Showing the English edition."
+msgstr "Cette lecture n'est pas encore disponible dans cette langue. Affichage de la version anglaise."
+
+#: src/lib/ChapterReader.svelte
+msgid "More readings"
+msgstr "Autres lectures"
+
+#: src/lib/ChapterReader.svelte
+msgid "Previous reading"
+msgstr "Lecture précédente"
+
+#: src/lib/ChapterReader.svelte
+msgid "Next reading"
+msgstr "Lecture suivante"
+
+#: src/routes/Journey.svelte
+msgid "Readings"
+msgstr "Lectures"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to open its reading."
+msgstr "Sélectionnez un marque-page pour ouvrir la lecture."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah readings"
+msgstr "Lectures de la Hijrah"
+
+#: src/routes/Journey.svelte
+msgid "<0/> The full reading, with its sources and practice"
+msgstr "<0/> La lecture complète, avec ses sources et exercices"

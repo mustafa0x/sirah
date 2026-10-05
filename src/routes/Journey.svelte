@@ -1443,7 +1443,7 @@
 {#snippet place_chapter_buttons()}
     <!-- One quiet list rather than a gold button per chapter. -->
     <div class="grid gap-1">
-        <p class={kicker}>Read the chapter</p>
+        <p class={kicker}>Readings</p>
         <ul class="grid list-none">
             {#each place_chapters as item (item.chapter_id)}
                 <li>
@@ -1688,12 +1688,12 @@
                 >
             </div>
             <p class="mt-2 text-sm text-ink max-w-[32rem]">
-                Select a book marker to read its chapter.
+                Select a book marker to open its reading.
             </p>
         </section>
         <nav
             class="absolute z-20 bottom-5 inset-x-6 mobile:bottom-3 mobile:inset-x-3"
-            aria-label="Hijrah chapters"
+            aria-label="Hijrah readings"
         >
             <div class="flex items-center justify-between gap-3 mb-2">
                 <p class="text-sm text-ink-soft">Locations are schematic.</p>
@@ -2622,7 +2622,7 @@
                                     class="{ghost_button} justify-self-start"
                                     onclick={() => open_chapter(reading.chapter_id)}
                                 >
-                                    {@render icon('read')} The full chapter, with its sources and practice
+                                    {@render icon('read')} The full reading, with its sources and practice
                                 </button>
                             </section>
                         {/each}
