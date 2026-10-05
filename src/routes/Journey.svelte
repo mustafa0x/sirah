@@ -205,7 +205,9 @@
     let rail_width = $state(0)
     let sheet_width = $state(0)
     let card_height = $state(0)
+    let timeline_height = $state(0)
     let narrow = $derived(viewport_width <= 760)
+    let timeline_bottom = $derived((narrow ? 104 : 76) + timeline_height)
 
     let selected_step = $derived(get_step(journey.viewed_step_id))
     let guided_step = $derived(get_step(journey.guided_position.step_id))
@@ -356,7 +358,7 @@
         narrow
             ? { left: 0, right: 0, top: 120, bottom: journey.started ? card_height + 30 : 300 }
             : {
-                  top: timeline_open ? 220 : 70,
+                  top: timeline_open ? timeline_bottom + 16 : 70,
                   left: journey.started ? rail_width + 28 : viewport_width * 0.34,
                   right: sheet ? sheet_width : active_poi?.detail || evidence_on ? 340 : 0,
                   bottom: card_visible ? card_height + 40 : 0,
@@ -1408,7 +1410,7 @@
     {#if card_visible && !sheet && (passage || cycle !== null)}
         <div
             class="absolute z-10 top-[88px] right-6 left-[calc(var(--rail)+24px)] grid justify-items-center gap-2 text-center pointer-events-none mobile:top-[112px] mobile:left-6"
-            style:top={timeline_open ? (narrow ? '300px' : '250px') : null}
+            style:top={timeline_open ? `${timeline_bottom + 16}px` : null}
             transition:fade={{ duration: 900 }}
         >
             {#if passage}
@@ -1431,6 +1433,7 @@
             class="absolute z-20 top-[76px] right-6 left-[calc(var(--rail)+40px)] grid gap-2 px-5 pt-3 pb-3 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:top-[104px] mobile:right-3 mobile:left-3 mobile:px-3"
             style:right={sheet ? 'calc(var(--sheet) + 8px)' : null}
             aria-labelledby="timeline-title"
+            bind:offsetHeight={timeline_height}
             transition:fly={{ y: -10, duration: 220 }}
         >
             <div class="flex flex-wrap gap-x-4 gap-y-1 items-center">
@@ -1542,7 +1545,7 @@
     {#if evidence_on && journey.started && !sheet && !practice}
         <section
             class="absolute z-20 right-6 w-[300px] grid gap-3 px-5 pt-4 pb-4 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:hidden"
-            style:top={timeline_open ? '262px' : '84px'}
+            style:top={timeline_open ? `${timeline_bottom + 16}px` : '84px'}
             aria-labelledby="evidence-title"
             transition:fly={{ x: 16, duration: 220 }}
         >
