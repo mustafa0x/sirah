@@ -1,6 +1,7 @@
 @layer theme, base, components, utilities;
 @import 'tailwindcss/theme.css' layer(theme);
 @import 'tailwindcss/utilities.css' layer(utilities) source('./');
+@import 'tw-animate-css';
 
 /* Kitab, from Nuqayah, for Arabic interface text; its phrase set covers ﷺ and similar. */
 @font-face {
@@ -48,6 +49,15 @@
     --color-line-strong: rgba(232, 178, 87, 0.5);
     --color-panel: rgba(17, 15, 12, 0.72);
     --color-panel-solid: rgba(19, 17, 13, 0.94);
+    /* The names shadcn components use, in this palette. */
+    --color-foreground: var(--color-ink);
+    --color-background: #0f0e0c;
+    --color-popover: #16130f;
+    --color-popover-foreground: var(--color-ink);
+    --color-accent: rgba(232, 178, 87, 0.14);
+    --color-accent-foreground: var(--color-ink);
+    --color-border: var(--color-line);
+    --color-muted-foreground: var(--color-muted);
     /* Arabic inside Latin text falls through to Amiri (serif) or Kitab (sans). */
     --font-serif: Newsreader, Amiri, Georgia, serif;
     --font-sans: 'DM Sans', Kitab, system-ui, sans-serif;

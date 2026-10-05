@@ -9,7 +9,11 @@
     "skipLibCheck": true,
     "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
-    "noEmit": true
+    "noEmit": true,
+    "paths": {
+      "$lib/*": ["./src/lib/*"],
+      "$ui/*": ["./src/lib/components/ui/*"]
+    }
   },
   "include": ["src", "vite.config.js"]
 }

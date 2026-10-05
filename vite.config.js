@@ -1,11 +1,22 @@
 import tailwindcss from '@tailwindcss/vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
+import path from 'node:path'
 import { defineConfig } from 'vite'
 import domain from 'vite-plugin-domain'
 import { wuchale } from 'wuchale/vite'
 import { navigation_fallback } from './scripts/navigation-fallback.js'
+import tsconfig from './tsconfig.json' with { type: 'json' }
 
 export default defineConfig({
+    resolve: {
+        // '$lib/*': ['./src/lib/*'] => '$lib': <root>/src/lib
+        alias: Object.fromEntries(
+            Object.entries(tsconfig.compilerOptions.paths).map(([key, [target]]) => [
+                key.replace('/*', ''),
+                path.resolve(import.meta.dirname, target.replace('/*', '')),
+            ]),
+        ),
+    },
     plugins: [domain(), wuchale(), tailwindcss(), svelte({ inspector: true }), navigation_fallback],
     publicDir: false,
     build: {

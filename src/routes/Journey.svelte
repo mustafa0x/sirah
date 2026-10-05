@@ -61,6 +61,9 @@
     import { SvelteSet } from 'svelte/reactivity'
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
+    import { mergeProps } from 'bits-ui'
+    import * as DropdownMenu from '$ui/dropdown-menu/index.js'
+    import * as Tooltip from '$ui/tooltip/index.js'
     import ChapterReader from '../lib/ChapterReader.svelte'
     import {
         chapter as source_chapter,
@@ -1303,6 +1306,20 @@
 
 <svelte:window bind:innerWidth={viewport_width} onkeydown={keydown} />
 
+{#snippet tip(label, button)}
+    <Tooltip.Root>
+        <Tooltip.Trigger>
+            {#snippet child({ props })}{@render button(props)}{/snippet}
+        </Tooltip.Trigger>
+        <Tooltip.Content>{label}</Tooltip.Content>
+    </Tooltip.Root>
+{/snippet}
+
+{#snippet mode_name(item)}
+    {#if item === 'young'}Young learners{:else if item === 'new'}New to the story{:else}In
+        depth{/if}
+{/snippet}
+
 {#snippet icon(name)}
     <svg
         class={[
@@ -1350,6 +1367,8 @@
             <path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3zM9 3v15M15 6v15" />
         {:else if name === 'timeline'}
             <path d="M3 12h18M6 9v6M11 7v10M16 10v4M20 8v8" />
+        {:else if name === 'audience'}
+            <path d="M6 18v-4M12 18V9M18 18V5" />
         {/if}
     </svg>
 {/snippet}
@@ -1465,40 +1484,99 @@
                     <path d="M6 9l6 6 6-6" />
                 </svg>
             </div>
-            <button
-                class={round_button}
-                aria-label={sound_on ? 'Turn sound off' : 'Turn sound on'}
-                aria-pressed={sound_on}
-                onclick={() => set_sound(!sound_on)}
-            >
-                {@render icon(sound_on ? 'sound' : 'muted')}
-            </button>
-            {#if guided_visible}
+            {#snippet sound_button(props)}
                 <button
-                    class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright mobile:hidden"
-                    aria-label={evidence_on
-                        ? 'Hide evidence on the map'
-                        : 'Show evidence on the map'}
-                    aria-pressed={evidence_on}
-                    onclick={toggle_evidence}
+                    {...props}
+                    class={round_button}
+                    aria-label={sound_on ? 'Turn sound off' : 'Turn sound on'}
+                    aria-pressed={sound_on}
+                    onclick={() => set_sound(!sound_on)}
                 >
-                    {@render icon('evidence')}
+                    {@render icon(sound_on ? 'sound' : 'muted')}
                 </button>
-                <button
-                    class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright mobile:hidden"
-                    aria-label={timeline_open ? 'Hide timeline' : 'Show timeline'}
-                    aria-pressed={timeline_open}
-                    onclick={toggle_timeline}
-                >
-                    {@render icon('timeline')}
-                </button>
+            {/snippet}
+            {@render tip(sound_on ? 'Turn sound off' : 'Turn sound on', sound_button)}
+            {#if journey.started}
+                <!-- The audience can be changed at any point; the home page has its own switch. -->
+                <DropdownMenu.Root dir={language_direction(language)}>
+                    {#snippet audience_button(props)}
+                        <DropdownMenu.Trigger>
+                            {#snippet child({ props: menu_props })}
+                                <button
+                                    {...mergeProps(props, menu_props)}
+                                    class={round_button}
+                                    aria-label="How would you like to follow the journey?"
+                                >
+                                    {@render icon('audience')}
+                                </button>
+                            {/snippet}
+                        </DropdownMenu.Trigger>
+                    {/snippet}
+                    {@render tip('How would you like to follow the journey?', audience_button)}
+                    <DropdownMenu.Content class="w-72">
+                        <DropdownMenu.Label
+                            >How would you like to follow the journey?</DropdownMenu.Label
+                        >
+                        <DropdownMenu.RadioGroup value={mode} onValueChange={select_mode}>
+                            {#each modes as item (item)}
+                                <DropdownMenu.RadioItem value={item} class="py-2">
+                                    <span class="grid gap-[2px]">
+                                        <span class="text-ink font-medium"
+                                            >{@render mode_name(item)}</span
+                                        >
+                                        <span class="text-muted text-xs leading-[1.4]">
+                                            {#if item === 'young'}Six short stages, in simple words.{:else if item === 'new'}Terms
+                                                explained, and why each stage matters.{:else}Every
+                                                detail, with the evidence and the timeline open.{/if}
+                                        </span>
+                                    </span>
+                                </DropdownMenu.RadioItem>
+                            {/each}
+                        </DropdownMenu.RadioGroup>
+                    </DropdownMenu.Content>
+                </DropdownMenu.Root>
             {/if}
-            <button
-                class={round_button}
-                aria-label="How this works"
-                aria-expanded={help_open}
-                onclick={toggle_help}>?</button
-            >
+            {#if guided_visible}
+                {#snippet evidence_button(props)}
+                    <button
+                        {...props}
+                        class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright mobile:hidden"
+                        aria-label={evidence_on
+                            ? 'Hide evidence on the map'
+                            : 'Show evidence on the map'}
+                        aria-pressed={evidence_on}
+                        onclick={toggle_evidence}
+                    >
+                        {@render icon('evidence')}
+                    </button>
+                {/snippet}
+                {@render tip(
+                    evidence_on ? 'Hide evidence on the map' : 'Show evidence on the map',
+                    evidence_button,
+                )}
+                {#snippet timeline_button(props)}
+                    <button
+                        {...props}
+                        class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright mobile:hidden"
+                        aria-label={timeline_open ? 'Hide timeline' : 'Show timeline'}
+                        aria-pressed={timeline_open}
+                        onclick={toggle_timeline}
+                    >
+                        {@render icon('timeline')}
+                    </button>
+                {/snippet}
+                {@render tip(timeline_open ? 'Hide timeline' : 'Show timeline', timeline_button)}
+            {/if}
+            {#snippet help_button(props)}
+                <button
+                    {...props}
+                    class={round_button}
+                    aria-label="How this works"
+                    aria-expanded={help_open}
+                    onclick={toggle_help}>?</button
+                >
+            {/snippet}
+            {@render tip('How this works', help_button)}
         </div>
     </header>
 
