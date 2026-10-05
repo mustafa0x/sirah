@@ -221,7 +221,7 @@
                     </p>
                 {:else}
                     <blockquote
-                        class="py-4 px-5 font-serif text-[1.1875rem] leading-[1.9] text-[#fff6e3] bg-[rgba(0,0,0,0.32)] border-0 border-s-[3px] border-solid rounded-e-xl data-[quran=true]:border-[#fff1c4] border-gold"
+                        class="font-serif text-[1.1875rem] leading-[1.9] text-[#fff6e3] data-[quran=true]:text-[#fff1c4]"
                         data-quran={role === 'quran'}
                     >
                         {display_text(source.text)}
