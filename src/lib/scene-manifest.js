@@ -3,7 +3,7 @@ import madinah_grid from '../assets/terrain/madinah.bin?url'
 import makkah_grid from '../assets/terrain/makkah.bin?url'
 import region_grid from '../assets/terrain/region.bin?url'
 import { details } from '../content/details.js'
-import shelter_asset from '../../art/thawr/shelter-web-v1.glb?url'
+import shelter_asset from '../../art/thawr/trellis/model-web.glb?url'
 
 // One continuous relief with finer grids around the towns. Authored camera/set values
 // retain their original units; the renderer places them in the shared regional frame.
@@ -294,14 +294,14 @@ export const beat_shots = {
     N09a: shot('makkah', 0.6, 0.5, 2.6, 0.1),
     N09b: shot('makkah', -0.3, 0.3, 1.3, 0.05),
     N09c: shot('makkah', north - 0.2, 0.42, 4, 0.1),
-    N03a: shot('cave', north - 0.4, 0.13, 0.023, 0.0018),
+    N03a: shot('cave', north + 0.15, 0.13, 0.023, 0.0018),
     // From behind Thawr, towards Makkah.
     N03b: shot('makkah_valley', south + 0.3, 0.3, 8.5, 0.1),
     // Three nights pass over the slope.
     N03c: shot('cave', north + 0.9, 0.1, 0.06, 0.006),
-    // Inside the shelter, looking out and up past the overhang.
-    N03d: shot('cave', south, -0.3, 0.006, 0, [0.00703, 0.00242, 0], 85),
-    N03e: shot('cave', north - 0.15, 0.02, 0.028, 0.0045),
+    // Low view of the aperture; the generated mesh is not a navigable interior.
+    N03d: shot('cave', north + 0.2, 0.06, 0.009, 0.0012, [0.001, 0, -0.0015], 50),
+    N03e: shot('cave', north + 0.2, 0.02, 0.028, 0.0045),
     N04a: shot('thawr', 0.5, 0.5, 11, 0.1),
     N04b: { ...shot('coast', 0.2, 0.5, 9, 0.2), follow: 1 },
     N06a: { ...shot('road', -0.5, 0.42, 7, 0.2), follow: 1 },

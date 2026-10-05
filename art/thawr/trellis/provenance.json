@@ -1,0 +1,89 @@
+{
+    "status": "promoted_by_user_request",
+    "audition_status_at_original_export": "awaiting_user_mesh_review",
+    "integration": {
+        "date": "2026-10-05",
+        "source_repository": "sirahviz-marble/spikes/trellis-free",
+        "model_file_unchanged": true,
+        "new_generation_or_spend": false,
+        "rotation_y_radians": 3.141592653589793,
+        "footprint_metres": 9,
+        "historical_dimensions": false
+    },
+    "provider": "official Microsoft Hugging Face demo",
+    "space_url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+    "space_sha_at_preflight": "ebf60b20fc5a4607f90a1c11c0aab0ceeda5429d",
+    "model_documented_in_public_app_source": "microsoft/TRELLIS.2-4B",
+    "served_checkpoint_identity": "not separately reported",
+    "generation_actions": 1,
+    "extraction_actions": 1,
+    "paid_api_requests": 0,
+    "paid_spend_usd": 0,
+    "new_signup_or_purchase": false,
+    "created_at": "2026-10-04T09:02:51.694805+00:00",
+    "requested_settings": {
+        "resolution": "1024",
+        "seed": 2401,
+        "randomize": false,
+        "decimation_target": 100000,
+        "texture_size": 2048
+    },
+    "input": {
+        "path": "../thawr-v2/reference-input-v2.png",
+        "sha256": "3368bb8b69a7cf3b599b611144a7141b47f828775e83ec594f3fac426b8f3205"
+    },
+    "preprocessing": {
+        "by": "official demo",
+        "operations": "resize <=1024px, BRIA background-removal demo, foreground crop, alpha composited over black",
+        "local_pixel_capture_sha256": "c7a46aee71447f0e1565ecbc7d72eba3d7173ffac10021f9e799feabf9f772b3"
+    },
+    "source": {
+        "artist": "King Eliot",
+        "title": "Jabl e Thawr",
+        "url": "https://commons.wikimedia.org/wiki/File:Jabl_e_Thawr.jpg",
+        "declared_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "adaptation_license": "CC BY-SA 4.0",
+    "asset_records": {
+        "output/model-master.glb": {
+            "bytes": 4010888,
+            "sha256": "9863006a6eb2b02a58e2836ba2c7ae89e79931b20548322bf10d22263b0ba6b0",
+            "triangles": 98220,
+            "meshes": 1,
+            "materials": 1,
+            "embedded_images": 2,
+            "texture_dimensions": [
+                [2048, 2048],
+                [2048, 2048]
+            ],
+            "extensions_required": ["EXT_texture_webp"]
+        },
+        "model-web.glb": {
+            "bytes": 601836,
+            "sha256": "1873978104092b00327b5f1a73171a70bba4f718abf9e31335f332f0b533aff3",
+            "triangles": 49110,
+            "meshes": 1,
+            "materials": 1,
+            "embedded_images": 2,
+            "texture_dimensions": [
+                [1024, 1024],
+                [1024, 1024]
+            ],
+            "extensions_required": [
+                "EXT_meshopt_compression",
+                "EXT_texture_webp",
+                "KHR_mesh_quantization"
+            ]
+        }
+    },
+    "optimization": "Local glTF Transform 4.5.1: simplify ratio0.5/error0.001, Meshopt + quantization, 1024px WebP; no provider refinement.",
+    "control_reconciliation": "Initial native Enter produced no queue request; confirmed via completed resource timeline. One subsequent actual Generate click produced the seed, walkthrough and single inference queue entries. No inference retry.",
+    "viewer": {
+        "rotation_y_radians": 1.5707963267948966,
+        "orientation_note": "Authored viewing angle selected to expose a low aperture; not a verified canonical front.",
+        "field_of_view_degrees": 36,
+        "fit_max_footprint_nominal_units": 6,
+        "physical_phone_tested": false
+    }
+}
