@@ -17,6 +17,7 @@ export const journey_paths = [
     '/journey/hijrah/glossary/:term',
     '/journey/hijrah/ask',
     '/journey/hijrah/help',
+    '/journey/hijrah/about',
     '/journey/hijrah/recap',
     '/journey/hijrah/:stage',
     '/journey/hijrah/:stage/:beat',
@@ -155,7 +156,7 @@ export function resolve_journey_link(url, registry, defaults = {}) {
     }
     if (name === 'glossary' && id && terms.some((item) => item.id === id))
         return { ...target, kind: 'term', term_id: id }
-    if (['ask', 'help', 'recap'].includes(name) && !id)
+    if (['ask', 'help', 'about', 'recap'].includes(name) && !id)
         return {
             ...target,
             kind: name,

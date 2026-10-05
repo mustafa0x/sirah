@@ -56,6 +56,15 @@
 <script>
     import { onMount } from 'svelte'
     import depth from 'virtual:depth-stats'
+    import about_poster from '../assets/about/poster.jpg'
+    // The video for "Behind the journey": any .mp4 or .webm placed in src/assets/about/.
+    const about_video = Object.values(
+        import.meta.glob('../assets/about/*.{mp4,webm}', {
+            eager: true,
+            query: '?url',
+            import: 'default',
+        }),
+    )[0]
     const { route } = window.navgo
     import { change_language, fmt_num, saved_language } from '../lib/i18n.js'
     import { locales, language_direction } from '../lib/locale-config.js'
@@ -156,13 +165,6 @@
     // What lies beneath the home page, counted from the content at build time.
     const depth_keys = ['readings', 'passages', 'books', 'questions', 'languages']
     let depth_progress = $state(0)
-    // Set by the home page's link: the help panel opens on this section.
-    let show_beneath = $state(false)
-    $effect(() => {
-        if (!help_open || !show_beneath) return
-        document.getElementById('beneath')?.scrollIntoView({ block: 'start' })
-        show_beneath = false
-    })
     onMount(() => {
         if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
             depth_progress = 1
@@ -232,6 +234,7 @@
     let question_input = $state()
     let recent_turns = $state([])
     let help_open = $state(false)
+    let about_open = $state(false)
     let sound_on = $state(false)
     // In depth, the evidence and the timeline are open from the start.
     let evidence_on = $state(mode === 'deep')
@@ -558,6 +561,7 @@
         practice_units = []
         reading_chapter = null
         help_open = false
+        about_open = false
         open_term = null
     }
 
@@ -770,6 +774,15 @@
         help_open = true
         if (journey.is_playing) pause_playback()
         write_link('/journey/hijrah/help', { at: current_cue?.id })
+    }
+
+    function toggle_about() {
+        if (about_open) return return_link('about')
+        remember_view()
+        help_open = false
+        about_open = true
+        if (journey.is_playing) pause_playback()
+        write_link('/journey/hijrah/about', { at: current_cue?.id })
     }
 
     function toggle_term(id) {
@@ -1018,7 +1031,8 @@
 
     function keydown(event) {
         if (event.key === 'Escape') {
-            if (help_open) return_link('help')
+            if (about_open) return_link('about')
+            else if (help_open) return_link('help')
             else if (reading_chapter || sheet) return_link()
             else if (practice) close_practice()
             else if (open_term) return_link('term')
@@ -1063,6 +1077,7 @@
             active_poi_id: active_poi?.id,
             map_open,
             help_open,
+            about_open,
             evidence_on,
             timeline_open,
             timeline_pick,
@@ -1101,17 +1116,19 @@
                   ? !view.practice
                   : kind === 'place'
                     ? !view.active_poi_id
-                    : kind === 'help'
-                      ? !view.help_open
-                      : kind === 'term'
-                        ? !view.open_term
-                        : kind === 'reading'
-                          ? view.journey.presentation !== 'reading'
-                          : kind === 'source'
-                            ? view.journey.panel !== 'source'
-                            : kind === 'question'
-                              ? view.journey.panel === 'none'
-                              : true
+                    : kind === 'about'
+                      ? !view.about_open
+                      : kind === 'help'
+                        ? !view.help_open
+                        : kind === 'term'
+                          ? !view.open_term
+                          : kind === 'reading'
+                            ? view.journey.presentation !== 'reading'
+                            : kind === 'source'
+                              ? view.journey.panel !== 'source'
+                              : kind === 'question'
+                                ? view.journey.panel === 'none'
+                                : true
         for (let index = view_index - 1; index >= 0; index -= 1) {
             const view = view_snapshots.get(index)
             if (view && is_parent(view)) {
@@ -1209,6 +1226,7 @@
             ;({
                 map_open,
                 help_open,
+                about_open,
                 evidence_on,
                 timeline_open,
                 timeline_pick,
@@ -1250,6 +1268,7 @@
             reading_chapter = null
             reader_destination = null
             help_open = false
+            about_open = false
             open_term = null
             timeline_open = mode === 'deep'
             evidence_on = mode === 'deep'
@@ -1260,6 +1279,7 @@
             if (target.kind === 'source') open_source(journey, target.source_id)
             if (target.kind === 'ask') begin_question(journey)
             if (target.kind === 'help') help_open = true
+            if (target.kind === 'about') about_open = true
             if (target.kind === 'timeline') {
                 timeline_open = true
                 timeline_pick = target.entry_id
@@ -1311,15 +1331,17 @@
                     ? 'chapter-title'
                     : map_open && !active_poi
                       ? 'map-title'
-                      : help_open
-                        ? 'help-title'
-                        : open_term
-                          ? 'term-title'
-                          : active_poi
-                            ? active_poi.detail
-                                ? 'detail-title'
-                                : 'place-title'
-                            : 'sheet-title',
+                      : about_open
+                        ? 'about-title'
+                        : help_open
+                          ? 'help-title'
+                          : open_term
+                            ? 'term-title'
+                            : active_poi
+                              ? active_poi.detail
+                                  ? 'detail-title'
+                                  : 'place-title'
+                              : 'sheet-title',
             )
             if (heading) {
                 heading.tabIndex = -1
@@ -1364,6 +1386,7 @@
                     !practice &&
                     !reading_chapter &&
                     !help_open &&
+                    !about_open &&
                     !open_term &&
                     !location.pathname.includes('/timeline')
                 )
@@ -2081,8 +2104,157 @@
                     The narration is in Arabic and English, and the map is built from real elevation
                     data.
                 </p>
+                <a
+                    class="{ghost_button} justify-self-start [&>svg]:rtl:-scale-x-100"
+                    href={href('/journey/hijrah/about', null)}
+                    onclick={(event) => follow_link(event, toggle_about)}
+                >
+                    Behind the journey {@render icon('next')}
+                </a>
             </div>
         </section>
+    {/if}
+
+    {#if about_open}
+        <div
+            class="absolute z-50 inset-0 overflow-y-auto bg-[rgba(12,11,9,0.94)] backdrop-blur-[10px]"
+            transition:fade={{ duration: 200 }}
+        >
+            <article
+                class="grid gap-10 w-[min(900px,calc(100%-48px))] mx-auto pt-24 pb-20 mobile:w-[calc(100%-32px)] mobile:pt-20 mobile:gap-8"
+                aria-labelledby="about-title"
+            >
+                <header class="flex gap-6 items-start justify-between">
+                    <div class="grid gap-3">
+                        <p class={kicker}>Behind the journey</p>
+                        <h2
+                            class="font-serif text-[clamp(2.2rem,5vw,3.4rem)] font-medium leading-[1.05] tracking-[-0.02em]"
+                            id="about-title"
+                        >
+                            How this journey was made
+                        </h2>
+                        <p
+                            class="max-w-[36rem] text-ink-soft font-serif text-[1.1875rem] leading-[1.55]"
+                        >
+                            Sirah Journey tells the Hijrah stage by stage, and every part of it can
+                            be traced to the classical sources.
+                        </p>
+                    </div>
+                    <button
+                        class={round_button}
+                        onclick={() => return_link('about')}
+                        aria-label="Close"
+                    >
+                        {@render icon('close')}
+                    </button>
+                </header>
+                <!-- The project video, or a still from the scene until one is added. -->
+                <div
+                    class="overflow-hidden aspect-video bg-black border border-solid border-line rounded-2xl shadow-[0_24px_70px_rgba(0,0,0,0.5)]"
+                >
+                    {#if about_video}
+                        <video
+                            class="block w-full h-full"
+                            src={about_video}
+                            poster={about_poster}
+                            controls
+                            preload="metadata"
+                        ></video>
+                    {:else}
+                        <img class="block w-full h-full object-cover" src={about_poster} alt="" />
+                    {/if}
+                </div>
+                <dl class="flex flex-wrap gap-x-10 gap-y-4">
+                    {#each depth_keys as key (key)}
+                        <div class="grid gap-1">
+                            <dt class="order-last text-muted text-[0.8125rem]">
+                                {@render depth_label(key)}
+                            </dt>
+                            <dd class="m-0 font-serif text-[2.25rem] leading-none text-ink">
+                                {fmt_num(depth[key])}
+                            </dd>
+                        </div>
+                    {/each}
+                </dl>
+                <div class="grid grid-cols-2 gap-12 mobile:grid-cols-1 mobile:gap-8">
+                    <section class="grid gap-4 content-start" aria-labelledby="about-inside">
+                        <h3 class="font-serif text-[1.5rem] font-medium" id="about-inside">
+                            What’s inside
+                        </h3>
+                        <ul
+                            class="grid gap-3 list-none text-ink-soft leading-[1.6] [&_strong]:text-ink [&_strong]:font-semibold"
+                        >
+                            <li>
+                                <strong>A guided journey</strong> in nine stages across a map built from
+                                real elevation data, narrated in Arabic and English.
+                            </li>
+                            <li>
+                                <strong>Readings</strong> that go deeper into each part of the story,
+                                each with its source passages.
+                            </li>
+                            <li>
+                                <strong>Sources on the map</strong>, placed where they speak of, and
+                                a day-by-day timeline that shows how each date is known.
+                            </li>
+                            <li>
+                                <strong>Practice</strong>: open-book questions drawn from the same
+                                passages, with the passage one tap away.
+                            </li>
+                            <li>
+                                <strong>Ask</strong>: an AI guide that researches Turath and answers
+                                with citations.
+                            </li>
+                            <li>
+                                <strong>Three audiences</strong>, from young learners to those who
+                                want every detail, in twenty languages.
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="grid gap-4 content-start" aria-labelledby="about-method">
+                        <h3 class="font-serif text-[1.5rem] font-medium" id="about-method">
+                            How it was made
+                        </h3>
+                        <ol
+                            class="grid gap-3 list-none text-ink-soft leading-[1.6] [counter-reset:step] [&>li]:relative [&>li]:ps-8 [&>li]:[counter-increment:step] [&>li]:before:absolute [&>li]:before:start-0 [&>li]:before:top-[2px] [&>li]:before:text-gold [&>li]:before:font-semibold [&>li]:before:content-[counter(step)] [&:lang(ar)>li]:before:content-[counter(step,arabic-indic)] [&_strong]:text-ink [&_strong]:font-semibold"
+                        >
+                            <li>
+                                <strong>Gathered from the sources.</strong> Passages on the Hijrah were
+                                collected from the classical Arabic works on Turath, among them Ibn Hisham’s
+                                Sirah, Sahih al-Bukhari, Sahih Muslim, al-Bayhaqi’s Dala’il al-Nubuwwa
+                                and Ibn Kathir.
+                            </li>
+                            <li>
+                                <strong>One Arabic core.</strong> The events were set out as records and
+                                claims, each tied to the passages that support it. Everything the app
+                                says comes from this core.
+                            </li>
+                            <li>
+                                <strong>Written in Arabic first.</strong> Each reading was written in
+                                Arabic from the core, and the passages it shows are the exact source text,
+                                never retyped.
+                            </li>
+                            <li>
+                                <strong>Translated from the Arabic.</strong> The other languages are translated
+                                directly from the Arabic, not through English.
+                            </li>
+                            <li>
+                                <strong>Practice from the same evidence.</strong> Questions are built
+                                on the same claims and passages, so every answer can be checked against
+                                its source.
+                            </li>
+                            <li>
+                                <strong>Drawn with care.</strong> The terrain is real; places and routes
+                                are schematic. People are never shown, and animals appear without riders.
+                            </li>
+                            <li>
+                                <strong>AI, guided by the sources.</strong> AI tools helped draft, translate
+                                and voice the narration, always working from the Arabic sources.
+                            </li>
+                        </ol>
+                    </section>
+                </div>
+            </article>
+        </div>
     {/if}
 
     {#if !journey.started && !map_open}
@@ -2168,15 +2340,13 @@
                     </div>
                 {/each}
             </dl>
-            <button
-                class="inline-flex gap-2 items-center pb-1 text-gold text-[0.875rem] font-semibold bg-transparent border-0 hover:text-gold-bright [&>svg]:rtl:-scale-x-100"
-                onclick={() => {
-                    show_beneath = true
-                    toggle_help()
-                }}
+            <a
+                class="{ghost_button} min-h-11 px-5 [&>svg]:rtl:-scale-x-100"
+                href={href('/journey/hijrah/about', null)}
+                onclick={(event) => follow_link(event, toggle_about)}
             >
-                What's beneath the surface {@render icon('next')}
-            </button>
+                Behind the journey {@render icon('next')}
+            </a>
         </section>
     {:else if !map_open}
         <aside

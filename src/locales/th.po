@@ -2195,3 +2195,83 @@ msgstr "คำบรรยายมีทั้งภาษาอาหรับ
 #: src/routes/Journey.svelte
 msgid "What's beneath the surface <0/>"
 msgstr "มีอะไรอยู่เบื้องลึก <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Behind the journey <0/>"
+msgstr "เบื้องหลังการเดินทาง <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Behind the journey"
+msgstr "เบื้องหลังการเดินทาง"
+
+#: src/routes/Journey.svelte
+msgid "How this journey was made"
+msgstr "การเดินทางนี้สร้างขึ้นมาอย่างไร"
+
+#: src/routes/Journey.svelte
+msgid "Sirah Journey tells the Hijrah stage by stage, and every part of it can be traced to the classical sources."
+msgstr "Sirah Journey เล่าเรื่องราวการฮิจเราะห์ทีละช่วงตอน และทุกส่วนสามารถสืบค้นย้อนกลับไปยังแหล่งข้อมูลดั้งเดิมได้"
+
+#: src/routes/Journey.svelte
+msgid "Close"
+msgstr "ปิด"
+
+#: src/routes/Journey.svelte
+msgid "<0>A guided journey</0> in nine stages across a map built from real elevation data, narrated in Arabic and English."
+msgstr "<0>การเดินทางพร้อมคำบรรยาย</0> รวม 9 ช่วงตอนบนแผนที่ซึ่งสร้างจากข้อมูลระดับความสูงจริง บรรยายเป็นภาษาอาหรับและอังกฤษ"
+
+#: src/routes/Journey.svelte
+msgid "<0>Readings</0> that go deeper into each part of the story, each with its source passages."
+msgstr "<0>บทอ่าน</0>ที่เจาะลึกในแต่ละช่วงของเรื่องราว พร้อมข้อความอ้างอิงจากแหล่งข้อมูล"
+
+#: src/routes/Journey.svelte
+msgid "<0>Sources on the map</0>, placed where they speak of, and a day-by-day timeline that shows how each date is known."
+msgstr "<0>แหล่งข้อมูลบนแผนที่</0> ปรากฏตามจุดที่ระบุไว้ พร้อมไทม์ไลน์แบบวันต่อวันแสดงที่มาของแต่ละวันที่"
+
+#: src/routes/Journey.svelte
+msgid "<0>Practice</0>: open-book questions drawn from the same passages, with the passage one tap away."
+msgstr "<0>แบบฝึกหัด</0>: คำถามแบบเปิดตำราที่นำมาจากข้อความเดียวกัน พร้อมแตะดูข้อความต้นฉบับได้ทันที"
+
+#: src/routes/Journey.svelte
+msgid "<0>Ask</0>: an AI guide that researches Turath and answers with citations."
+msgstr "<0>ถามตอบ</0>: ผู้ช่วย AI ที่ค้นคว้าจากตำราตุรอษ (Turath) และตอบคำถามพร้อมระบุแหล่งอ้างอิง"
+
+#: src/routes/Journey.svelte
+msgid "<0>Three audiences</0>, from young learners to those who want every detail, in twenty languages."
+msgstr "<0>สำหรับ 3 กลุ่มผู้เรียน</0> ตั้งแต่เยาวชนไปจนถึงผู้ที่ต้องการศึกษาทุกรายละเอียด ใน 20 ภาษา"
+
+#: src/routes/Journey.svelte
+msgid "What’s inside"
+msgstr "มีอะไรอยู่ภายใน"
+
+#: src/routes/Journey.svelte
+msgid "<0>Gathered from the sources.</0> Passages on the Hijrah were collected from the classical Arabic works on Turath, among them Ibn Hisham’s Sirah, Sahih al-Bukhari, Sahih Muslim, al-Bayhaqi’s Dala’il al-Nubuwwa and Ibn Kathir."
+msgstr "<0>รวบรวมจากแหล่งข้อมูลดั้งเดิม</0> ข้อความเกี่ยวกับการฮิจเราะห์รวบรวมมาจากมรดกตำราภาษาอาหรับคลาสสิก (ตุรอษ) อาทิ ซีเราะฮ์ของอิบนุ ฮิชาม, เศาะฮีฮ์ อัลบุคอรี, เศาะฮีฮ์ มุสลิม, ดะลาอิล อันนุบุววะฮ์ ของอัลบัยฮะกี และอิบนุ กะษีร"
+
+#: src/routes/Journey.svelte
+msgid "<0>One Arabic core.</0> The events were set out as records and claims, each tied to the passages that support it. Everything the app says comes from this core."
+msgstr "<0>แกนหลักภาษาอาหรับชุดเดียว</0> เหตุการณ์ต่างๆ ถูกจัดเป็นบันทึกและข้อเท็จจริง โดยแต่ละส่วนเชื่อมโยงกับข้อความอ้างอิงที่สนับสนุน ทุกอย่างในแอปนี้ล้วนมาจากแกนหลักดังกล่าว"
+
+#: src/routes/Journey.svelte
+msgid "<0>Written in Arabic first.</0> Each reading was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
+msgstr "<0>เขียนเป็นภาษาอาหรับเป็นอันดับแรก</0> บทอ่านแต่ละบทเรียบเรียงเป็นภาษาอาหรับจากแกนหลัก และข้อความที่แสดงคือข้อความต้นฉบับจริง ไม่มีการพิมพ์ขึ้นใหม่"
+
+#: src/routes/Journey.svelte
+msgid "<0>Translated from the Arabic.</0> The other languages are translated directly from the Arabic, not through English."
+msgstr "<0>แปลจากภาษาอาหรับ</0> ภาษาอื่นๆ แปลโดยตรงจากภาษาอาหรับ ไม่ได้แปลผ่านภาษาอังกฤษ"
+
+#: src/routes/Journey.svelte
+msgid "<0>Practice from the same evidence.</0> Questions are built on the same claims and passages, so every answer can be checked against its source."
+msgstr "<0>ฝึกฝนจากหลักฐานชุดเดียวกัน</0> คำถามสร้างขึ้นจากข้อเท็จจริงและข้อความเดียวกัน เพื่อให้สามารถตรวจสอบทุกคำตอบกับแหล่งข้อมูลต้นฉบับได้"
+
+#: src/routes/Journey.svelte
+msgid "<0>Drawn with care.</0> The terrain is real; places and routes are schematic. People are never shown, and animals appear without riders."
+msgstr "<0>วาดขึ้นด้วยความใส่ใจ</0> ภูมิประเทศอิงจากของจริง สถานที่และเส้นทางเป็นแบบแผนผัง ไม่มีการแสดงภาพบุคคล และสัตว์จะปรากฏโดยไม่มีผู้ขี่"
+
+#: src/routes/Journey.svelte
+msgid "<0>AI, guided by the sources.</0> AI tools helped draft, translate and voice the narration, always working from the Arabic sources."
+msgstr "<0>AI ที่มีแหล่งข้อมูลชี้นำ</0> เครื่องมือ AI ช่วยร่าง แปล และลงเสียงบรรยาย โดยประมวลผลจากแหล่งข้อมูลภาษาอาหรับเสมอ"
+
+#: src/routes/Journey.svelte
+msgid "How it was made"
+msgstr "ขั้นตอนการจัดทำ"

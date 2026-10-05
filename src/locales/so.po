@@ -2195,3 +2195,83 @@ msgstr "Qisadu waxay ku baxaysaa Carabi iyo Ingiriisi, khariidaddana waxaa laga 
 #: src/routes/Journey.svelte
 msgid "What's beneath the surface <0/>"
 msgstr "Maxaa ku jira gunta hoose <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Behind the journey <0/>"
+msgstr "Gadaasha socdaalka <0/>"
+
+#: src/routes/Journey.svelte
+msgid "Behind the journey"
+msgstr "Gadaasha socdaalka"
+
+#: src/routes/Journey.svelte
+msgid "How this journey was made"
+msgstr "Sida socdaalkan loo sameeyay"
+
+#: src/routes/Journey.svelte
+msgid "Sirah Journey tells the Hijrah stage by stage, and every part of it can be traced to the classical sources."
+msgstr "Socdaalka Siiradu waxa uu Hijrada u tebinayaa marxalad marxalad, qayb kastaana waxa ay raadkeeda ku leedahay ilaha qadiimiga ah."
+
+#: src/routes/Journey.svelte
+msgid "Close"
+msgstr "Xidh"
+
+#: src/routes/Journey.svelte
+msgid "<0>A guided journey</0> in nine stages across a map built from real elevation data, narrated in Arabic and English."
+msgstr "<0>Socdaal hagid leh</0> oo sagaal marxaladood ah oo ku dul yaal khariidad laga dhisay xogta dhabta ah ee joogga dhulka, laguna tebiyay Carabi iyo Ingiriisi."
+
+#: src/routes/Journey.svelte
+msgid "<0>Readings</0> that go deeper into each part of the story, each with its source passages."
+msgstr "<0>Qoraallo akhris</0> oo si qoto dheer u galaya qayb kasta oo sheekada ka mid ah, mid walbana wata nuskhooyinkeedii asalka ahaa."
+
+#: src/routes/Journey.svelte
+msgid "<0>Sources on the map</0>, placed where they speak of, and a day-by-day timeline that shows how each date is known."
+msgstr "<0>Ilo ku dul yaal khariidada</0>, oo la dhigay goobihii ay ka hadlayeen, iyo jadwal maalinle ah oo muujinaya sida taariikh kasta loo ogaaday."
+
+#: src/routes/Journey.svelte
+msgid "<0>Practice</0>: open-book questions drawn from the same passages, with the passage one tap away."
+msgstr "<0>Layli</0>: su'aalo buug-furan ah oo laga soo qaatay isla qoraallada, iyadoo qoraalka lagu heli karo hal taabasho kaliya."
+
+#: src/routes/Journey.svelte
+msgid "<0>Ask</0>: an AI guide that researches Turath and answers with citations."
+msgstr "<0>Weydii</0>: hage AI ah oo baadhaya Turaathka oo jawaabaha ku bixinaya tixraacyo."
+
+#: src/routes/Journey.svelte
+msgid "<0>Three audiences</0>, from young learners to those who want every detail, in twenty languages."
+msgstr "<0>Saddex qaybood oo bartayaal ah</0>, laga bilaabo bartayaasha da'da yar ilaa kuwa raba faahfaahin kasta, oo lagu heli karo labaatan luqadood."
+
+#: src/routes/Journey.svelte
+msgid "What’s inside"
+msgstr "Maxaa ku jira"
+
+#: src/routes/Journey.svelte
+msgid "<0>Gathered from the sources.</0> Passages on the Hijrah were collected from the classical Arabic works on Turath, among them Ibn Hisham’s Sirah, Sahih al-Bukhari, Sahih Muslim, al-Bayhaqi’s Dala’il al-Nubuwwa and Ibn Kathir."
+msgstr "<0>Laga soo ururiyay ilaha.</0> Qoraallada ku saabsan Hijrada waxaa laga soo xigtay kutubta qadiimiga ah ee Carabiga ee Turaathka, kuwaas oo ay ka mid yihiin Siirada Ibnu Hishaam, Saxiix al-Bukhaari, Saxiix Muslim, Dala’il al-Nubuwwa ee al-Bayhaqi iyo Ibnu Kasiir."
+
+#: src/routes/Journey.svelte
+msgid "<0>One Arabic core.</0> The events were set out as records and claims, each tied to the passages that support it. Everything the app says comes from this core."
+msgstr "<0>Hal udub-dhexaad Carabi ah.</0> Dhacdooyinka waxaa loo habeeyay sidii diiwaanno iyo xaqiiqooyin, mid walbana wuxuu ku xidhan yahay qoraalka caddaynaya. Wax kasta oo abku leeyahay waxay ka yimaaddeen udub-dhexaadkan."
+
+#: src/routes/Journey.svelte
+msgid "<0>Written in Arabic first.</0> Each reading was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
+msgstr "<0>Waxa lagu qoray Carabi marka hore.</0> Qoraal kasta oo akhris ah waxaa Carabiga lagaga soo qoray udub-dhexaadka, qoraallada ay muujinaysana waa nuskhooyinka saxda ah ee ilaha, lagamana dhex beddelin waxba."
+
+#: src/routes/Journey.svelte
+msgid "<0>Translated from the Arabic.</0> The other languages are translated directly from the Arabic, not through English."
+msgstr "<0>Laga turjumay Carabiga.</0> Luqadaha kale waxaa si toos ah looga turjumay Carabiga, lagama soo min-guurin Ingiriiska."
+
+#: src/routes/Journey.svelte
+msgid "<0>Practice from the same evidence.</0> Questions are built on the same claims and passages, so every answer can be checked against its source."
+msgstr "<0>Ku layli isla caddaynta.</0> Su'aalaha waxaa lagu dhisay isla qoraallada iyo caddaymaha, si jawaab kasta loogu xaqiijiyo ilteeda."
+
+#: src/routes/Journey.svelte
+msgid "<0>Drawn with care.</0> The terrain is real; places and routes are schematic. People are never shown, and animals appear without riders."
+msgstr "<0>Si taxadar leh loo sawiray.</0> Joogga dhulku waa dhab; goobaha iyo waddooyinkuna waa shax. Dadka sinaba looma muujin, xayawaankuna waxay u muuqdaan iyagoo aan qofna saarnayn."
+
+#: src/routes/Journey.svelte
+msgid "<0>AI, guided by the sources.</0> AI tools helped draft, translate and voice the narration, always working from the Arabic sources."
+msgstr "<0>AI, oo ay hagayaan iluhu.</0> Qalabka AI waxa uu gacan ka geystay qorista, turjumidda iyo cod ku tebinta, isagoo mar kasta ka duulaya ilaha Carabiga."
+
+#: src/routes/Journey.svelte
+msgid "How it was made"
+msgstr "Sida loo sameeyay"
