@@ -127,6 +127,7 @@ msgstr "சீரா பயண முகப்பு"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How this works"
 msgstr "இது எவ்வாறு செயல்படுகிறது"
@@ -174,7 +175,6 @@ msgstr "<0/> பயணத்தைத் தொடங்கு"
 msgid "<0/> Read instead"
 msgstr "<0/> அதற்குப் பதிலாக வாசி"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Chapter one"
@@ -234,7 +234,7 @@ msgstr "இயக்கு"
 msgid "Position in this stage"
 msgstr "இந்த கட்டத்தில் உள்ள இடம்"
 
-#. 0: score.correct.toLocaleString(chapter.locale); 1: score.total.toLocaleString( chapter.locale, )
+#. 0: local_number(score.correct); 1: local_number(score.total)
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -359,20 +359,6 @@ msgstr "பரிந்துரைக்கப்படும் கேள்�
 msgid "Close source"
 msgstr "ஆதாரத்தை மூடு"
 
-#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
-#: src/routes/Journey.svelte
-#, ai
-msgid "· vol. {0}, p. {1}"
-msgstr "· பாகம் {0}, பக். {1}"
-
-#, ai
-#~ msgid "What this passage supports"
-#~ msgstr "இந்த உரை எதை ஆதரிக்கிறது"
-
-#, ai
-#~ msgid "What it does not establish"
-#~ msgstr "இது எதை நிறுவவில்லை"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Back to the answer"
@@ -382,10 +368,6 @@ msgstr "பதிலுக்குச் செல்லவும்"
 #, ai
 msgid "Back to the journey"
 msgstr "பயணத்திற்குத் திரும்புக"
-
-#, ai
-#~ msgid "Open the page on Turath <0/>"
-#~ msgstr "துராத் தளத்தில் பக்கத்தைத் திறக்கவும் <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -847,10 +829,12 @@ msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
 msgstr "மதீனாவை அடைந்ததும் முதல் நிறுத்தம், பனூ ‘அம்ர் இப்னு ‘அவ்ஃப் குலத்தினரிடையே."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound off"
 msgstr "ஒலியை அணைக்கவும்"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound on"
@@ -1259,6 +1243,7 @@ msgid "The chain stops short of an eyewitness, and some place the song at a late
 msgstr "இந்த அறிவிப்பாளர் தொடர் நேரில் கண்ட சாட்சியுடன் முடிவடையவில்லை, மேலும் சிலர் இப்பாடலை இந்த வருகையின் போது அல்லாமல், பிற்காலத்தில் மதீனாவிற்குத் திரும்பிய போது பாடப்பட்டது எனக் குறிப்பிடுகின்றனர்."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Along the way"
 msgstr "பயண வழியில்"
@@ -1381,20 +1366,24 @@ msgid "Evidence hidden."
 msgstr "ஆதாரங்கள் மறைக்கப்பட்டுள்ளன."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide evidence on the map"
 msgstr "வரைபடத்தில் ஆதாரங்களை மறைக்கவும்"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show evidence on the map"
 msgstr "வரைபடத்தில் ஆதாரங்களைக் காட்டவும்"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide timeline"
 msgstr "காலவரிசையை மறைக்கவும்"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show timeline"
@@ -1744,10 +1733,12 @@ msgstr "ஆரம்பகால ஆதாரங்களின் அடிப�
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Young learners"
 msgstr "இளம் கற்பவர்கள்"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1756,6 +1747,8 @@ msgstr "கதைக்குப் புதியவர்கள்"
 
 #: src/lib/ChapterReader.svelte
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1768,20 +1761,26 @@ msgid "Mode"
 msgstr "முறைமை"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How would you like to follow the journey?"
 msgstr "பயணத்தை நீங்கள் எவ்வாறு பின்பற்ற விரும்புகிறீர்கள்?"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Six short stages, in simple words."
 msgstr "எளிய சொற்களில், ஆறு குறுகிய நிலைகள்."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Terms explained, and why each stage matters."
 msgstr "கலைச்சொற்கள் விளக்கப்பட்டுள்ளன, மேலும் ஒவ்வொரு நிலையும் ஏன் முக்கியமானது என்பதும் விளக்கப்பட்டுள்ளது."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Every detail, with the evidence and the timeline open."
@@ -1932,11 +1931,6 @@ msgstr "திறந்த புத்தகம்: பத்தியைப்
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
-msgid "Skipped. Here is what the passage says."
-msgstr "தவிர்க்கப்பட்டது. பத்தி கூறுவது இதோ."
-
-#: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Not quite."
 msgstr "முற்றிலும் சரியல்ல."
 
@@ -1983,9 +1977,6 @@ msgstr "<0/> உங்கள் புரிதலைச் சோதியு�
 msgid "<0/> Practise what you learned"
 msgstr "<0/> நீங்கள் கற்றதைப் பயிற்சி செய்யுங்கள்"
 
-#~ msgid "<0/> Read the chapter <1/>"
-#~ msgstr "<0/> அத்தியாயத்தைப் படிக்கவும் <1/>"
-
 #. 0: note.number
 #: src/lib/ChapterReader.svelte
 msgid "Source {0}"
@@ -2006,10 +1997,6 @@ msgstr "கதை"
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
 msgstr "உங்கள் புரிதலைச் சோதியுங்கள்"
-
-#: src/lib/ChapterReader.svelte
-msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr "வழங்கப்பட்ட குர்ஆன் பகுதியிலிருந்து மொழிபெயர்க்கப்பட்டது; இது அதிகாரப்பூர்வ குர்ஆன் மொழிபெயர்ப்போ தனித்த உரை ஒப்பாய்வோ அல்ல."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
@@ -2039,12 +2026,6 @@ msgstr "அத்தியாய உள்ளடக்கம்"
 msgid "In this chapter"
 msgstr "இந்த அத்தியாயத்தில்"
 
-#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-#~ msgstr "தேர்ந்தெடுத்த பகுதிகளின் ஆங்கில மொழிபெயர்ப்புகள். ஒவ்வொரு பகுதியுடனும் அசல் அரபு உரை கிடைக்கும்."
-
-#~ msgid "English summary — not a translation"
-#~ msgstr "ஆங்கிலச் சுருக்கம் — மொழிபெயர்ப்பு அல்ல"
-
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
 msgstr "இந்தப் பகுதி முந்தைய வாசிப்பில் காட்டப்பட்டுள்ளது."
@@ -2057,7 +2038,7 @@ msgstr "அறிவிப்பாளர் தொடர் (இஸ்னாத
 msgid "Source-study questions: read the passages and compare them."
 msgstr "ஆதார ஆய்வுக் கேள்விகள்: பகுதிகளைப் படித்து ஒப்பிடுங்கள்."
 
-#. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
+#. 0: local_number(practice.index + 1); 1: local_number( practice.questions.length, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
 msgstr "கேள்வி {0} / {1} · {2}"
@@ -2079,16 +2060,8 @@ msgid "Correct answers out of the questions in this set."
 msgstr "இத்தொகுப்பில் உள்ள கேள்விகளில், சரியான பதில்கள்."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
 msgstr "ஹிஜ்ரத் பற்றிய அத்தியாயங்கள்"
-
-#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
-#~ msgstr "இந்த அத்தியாயம் அரபியிலும் ஆங்கிலத்திலும் கிடைக்கிறது. ஆங்கிலப் பதிப்பு காட்டப்படுகிறது."
-
-#: src/lib/ChapterReader.svelte
-msgid "Learning goals"
-msgstr "கற்றல் இலக்குகள்"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2099,7 +2072,6 @@ msgstr "Turath-இல் பக்கத்தைத் திறக்கவு
 msgid "Fit map"
 msgstr "முழு வரைபடத்தையும் காட்டு"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -2128,20 +2100,12 @@ msgid "A chapter edition is not ready in this language. Showing the English edit
 msgstr "இந்த மொழியில் அத்தியாயத்தின் பதிப்பு இன்னும் தயாராகவில்லை. ஆங்கிலப் பதிப்பு காட்டப்படுகிறது."
 
 #: src/lib/ChapterReader.svelte
-msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
-msgstr "தேர்ந்தெடுக்கப்பட்ட மேற்கோள்களுக்கான மொழிபெயர்ப்புகள் அல்லது சுருக்கங்கள் இருக்கலாம். ஒவ்வொரு பகுதிக்கும் மூல அரபு உரை தொடர்ந்து கிடைக்கும்."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "சுருக்கம் — மொழிபெயர்ப்பு அல்ல"
 
 #: src/routes/Journey.svelte
 msgid "Read the chapter"
 msgstr "அத்தியாயத்தைப் படிக்கவும்"
-
-#: src/lib/ChapterReader.svelte
-msgid "Work in progress. All editions require scholarly review before public or wide release."
-msgstr "பணி நடைபெறுகிறது. அனைத்து பதிப்புகளையும் பொதுமக்களுக்கோ பரவலாகவோ வெளியிடுவதற்கு முன் அறிஞர்களின் மதிப்பாய்வு தேவை."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"
@@ -2151,6 +2115,7 @@ msgstr "<0/> முழு அத்தியாயம், அதன் ஆதா
 msgid "read in <0/><1/>"
 msgstr "<0/><1/> இல் மேற்கோள் காட்டப்பட்டது"
 
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", பாகம் {0}, பக். {1}"

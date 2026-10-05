@@ -14,6 +14,7 @@
     } from './chapters.svelte.js'
     import { reading_for_note, reading_groups, source_part_display } from './chapter-editions.js'
     import { language_direction } from './locale-config.js'
+    import { source_details } from './source-details.js'
     import {
         create_practice,
         current_question,
@@ -207,7 +208,6 @@
         lang={chapter?.locale}
         dir={language_direction(chapter?.locale)}
     >
-        <p class="text-[0.8125rem] leading-[1.6] text-ink-soft">{unit.kind} · {unit.speaker}</p>
         {#if source.text && display_text(source.text)}
             {#if source.original}<p class="text-ink-soft">Arabic original</p>{/if}
             <div
@@ -228,42 +228,45 @@
                     </blockquote>
                 {/if}
             </div>
-            {#if chapter.locale !== 'ar' && !source.original && role === 'quran'}
-                <p
-                    class="text-[0.8125rem] leading-[1.6] text-ink-soft"
-                    lang={destination.lang}
-                    dir={language_direction(destination.lang)}
-                >
-                    Translated from the supplied Qur’anic excerpt; not an official Qur’an
-                    translation or an independent collation.
-                </p>
-            {/if}
         {/if}
-        <details class="text-ink-soft text-[0.875rem] leading-[1.7]">
+    </div>
+{/snippet}
+
+{#snippet original_details(units)}
+    {@const details = source_details(units)}
+    {#if units.length}
+        <details class="text-ink-soft text-[0.875rem] leading-[1.7]" data-source-details>
             <summary
                 class="cursor-pointer text-gold"
                 lang={destination.lang}
                 dir={language_direction(destination.lang)}
                 >Arabic original and source details</summary
             >
-            <div class="grid gap-2 pt-3">
-                <p>{unit.context_note}</p>
-                <a
-                    class="text-gold underline underline-offset-4"
-                    href={unit.source_url}
-                    target="_blank"
-                    rel="noreferrer">{citation(unit).label}</a
-                >
-                <p lang="ar" dir="rtl" class="font-arabic">{unit.kind_ar} · {unit.speaker_ar}</p>
-                <pre
-                    lang="ar"
-                    dir="rtl"
-                    class="m-0 whitespace-pre-wrap break-words font-arabic text-[1.0625rem] leading-[1.9]">{unit.text_ar}</pre>
-                <p lang="ar" dir="rtl" class="font-arabic">{unit.citation_ar}</p>
-                <p lang="ar" dir="rtl" class="font-arabic">{unit.context_note_ar}</p>
+            <div class="grid gap-5 pt-3">
+                {#each details.groups as group, index (index)}
+                    <div class="grid gap-2">
+                        <p>{group.kind} · {group.speaker}</p>
+                        <a
+                            class="justify-self-start text-gold underline underline-offset-4"
+                            href={citation(group.units[0]).url}
+                            target="_blank"
+                            rel="noreferrer">{citation(group.units[0]).label}</a
+                        >
+                        {#each group.units as unit (unit.unit_id)}
+                            <pre
+                                data-original-unit={unit.unit_id}
+                                lang="ar"
+                                dir="rtl"
+                                class="m-0 whitespace-pre-wrap break-words font-arabic text-[1.0625rem] leading-[1.9]">{unit.text_ar}</pre>
+                        {/each}
+                    </div>
+                {/each}
+                {#each details.notes as note (note)}
+                    <p>{note}</p>
+                {/each}
             </div>
         </details>
-    </div>
+    {/if}
 {/snippet}
 
 <aside
@@ -463,16 +466,11 @@
                 {/if}
             </div>
         {:else if tab === 'sources'}
-            <div class="grid gap-6" in:fade={{ duration: 200 }}>
-                {#if chapter.locale !== 'ar'}
-                    <p class="text-ink-soft leading-[1.7]">
-                        Selected excerpts may have translations or summaries. The original Arabic
-                        remains available with each passage.
-                    </p>
-                {/if}
+            <div class="grid" in:fade={{ duration: 200 }}>
                 {#each readings as reading (reading.reading_id)}
+                    <!-- Plain entries between rules; the one a footnote points to gets a gold edge. -->
                     <article
-                        class="grid gap-4 p-5 border border-solid border-line rounded-2xl scroll-mt-4 transition-[border-color,background] duration-500 data-[lit=true]:border-gold data-[lit=true]:bg-[rgba(232,178,87,0.07)]"
+                        class="grid gap-4 py-6 ps-4 border-0 border-t border-s-2 border-solid border-line border-s-transparent first:border-t-0 first:pt-1 scroll-mt-4 transition-[border-color] duration-500 data-[lit=true]:border-s-gold"
                         data-reading={reading.reading_id}
                         data-lit={lit.includes(reading.reading_id)}
                     >
@@ -495,11 +493,13 @@
                         {/if}
                         {#each reading.blocks as block, index (index)}
                             {#if block.repeat}
-                                <a
-                                    class="text-gold underline underline-offset-4"
-                                    href={href('readings', block.repeat)}
-                                    >This selection is shown in an earlier reading.</a
-                                >
+                                {#if reading.blocks.findIndex((item) => item.repeat === block.repeat) === index}
+                                    <a
+                                        class="text-gold underline underline-offset-4"
+                                        href={href('readings', block.repeat)}
+                                        >This selection is shown in an earlier reading.</a
+                                    >
+                                {/if}
                             {:else}
                                 {@const chain = block.parts.filter(
                                     (unit) => part_role(unit) === 'chain',
@@ -517,17 +517,11 @@
                                 {#each block.parts.filter((unit) => part_role(unit) !== 'chain') as unit (unit.unit_id)}
                                     {@render source_part(unit, reading.mode)}
                                 {/each}
-                                <a
-                                    class="justify-self-start text-[0.875rem] text-gold underline underline-offset-4"
-                                    href={citation(block.parts[0]).url}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    lang={chapter?.locale}
-                                    dir={language_direction(chapter?.locale)}
-                                    >{citation(block.parts[0]).label}</a
-                                >
                             {/if}
                         {/each}
+                        {@render original_details(
+                            reading.blocks.flatMap((block) => block.parts ?? []),
+                        )}
                     </article>
                 {/each}
             </div>
@@ -638,6 +632,7 @@
                             {#each passage as unit (unit.unit_id)}
                                 {@render source_part(unit)}
                             {/each}
+                            {@render original_details(passage)}
                         </div>
                     {/key}
                 {:else if practice}

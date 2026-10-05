@@ -127,6 +127,7 @@ msgstr "Sirah-reis startpagina"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How this works"
 msgstr "Hoe dit werkt"
@@ -174,7 +175,6 @@ msgstr "<0/> Begin de reis"
 msgid "<0/> Read instead"
 msgstr "<0/> In plaats daarvan lezen"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Chapter one"
@@ -234,7 +234,7 @@ msgstr "Afspelen"
 msgid "Position in this stage"
 msgstr "Positie in deze stap"
 
-#. 0: score.correct.toLocaleString(chapter.locale); 1: score.total.toLocaleString( chapter.locale, )
+#. 0: local_number(score.correct); 1: local_number(score.total)
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -359,20 +359,6 @@ msgstr "Voorgestelde vragen"
 msgid "Close source"
 msgstr "Sluit bron"
 
-#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
-#: src/routes/Journey.svelte
-#, ai
-msgid "· vol. {0}, p. {1}"
-msgstr "· vol. {0}, p. {1}"
-
-#, ai
-#~ msgid "What this passage supports"
-#~ msgstr "Wat deze passage ondersteunt"
-
-#, ai
-#~ msgid "What it does not establish"
-#~ msgstr "Wat het niet aantoont"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Back to the answer"
@@ -382,10 +368,6 @@ msgstr "Terug naar het antwoord"
 #, ai
 msgid "Back to the journey"
 msgstr "Terug naar de reis"
-
-#, ai
-#~ msgid "Open the page on Turath <0/>"
-#~ msgstr "Open de pagina op Turath <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -847,10 +829,12 @@ msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
 msgstr "De eerste stop bij het bereiken van Madinah, bij Bani ‘Amr ibn ‘Awf."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound off"
 msgstr "Geluid uitzetten"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound on"
@@ -1259,6 +1243,7 @@ msgid "The chain stops short of an eyewitness, and some place the song at a late
 msgstr "De keten van overlevering stopt v##r een ooggetuige, en sommigen plaatsen het lied bij een latere terugkeer naar Madinah, niet bij deze aankomst."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Along the way"
 msgstr "Langs de weg"
@@ -1381,20 +1366,24 @@ msgid "Evidence hidden."
 msgstr "Bewijs verborgen."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide evidence on the map"
 msgstr "Bewijs verbergen op de kaart"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show evidence on the map"
 msgstr "Bewijs tonen op de kaart"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide timeline"
 msgstr "Tijdlijn verbergen"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show timeline"
@@ -1744,10 +1733,12 @@ msgstr "De uitleg of berekening van een moderne auteur, gebaseerd op de vroege b
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Young learners"
 msgstr "Jonge leerlingen"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1756,6 +1747,8 @@ msgstr "Nieuw bij het verhaal"
 
 #: src/lib/ChapterReader.svelte
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1768,20 +1761,26 @@ msgid "Mode"
 msgstr "Modus"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How would you like to follow the journey?"
 msgstr "Hoe wil je de reis volgen?"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Six short stages, in simple words."
 msgstr "Zes korte etappes, in eenvoudige woorden."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Terms explained, and why each stage matters."
 msgstr "Uitleg van termen en waarom elke etappe belangrijk is."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Every detail, with the evidence and the timeline open."
@@ -1932,11 +1931,6 @@ msgstr "Open boek: het lezen van de passage is onderdeel van het leren."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
-msgid "Skipped. Here is what the passage says."
-msgstr "Overgeslagen. Dit is wat de passage zegt."
-
-#: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Not quite."
 msgstr "Niet helemaal."
 
@@ -1983,9 +1977,6 @@ msgstr "<0/> Controleer je begrip <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> Oefen wat je hebt geleerd"
 
-#~ msgid "<0/> Read the chapter <1/>"
-#~ msgstr "<0/> Lees het hoofdstuk <1/>"
-
 #. 0: note.number
 #: src/lib/ChapterReader.svelte
 msgid "Source {0}"
@@ -2006,10 +1997,6 @@ msgstr "Verhaal"
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
 msgstr "Controleer je begrip"
-
-#: src/lib/ChapterReader.svelte
-msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr "Vertaald uit het aangeleverde Koranfragment; geen officiële Koranvertaling of onafhankelijke tekstvergelijking."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
@@ -2039,12 +2026,6 @@ msgstr "Inhoud van het hoofdstuk"
 msgid "In this chapter"
 msgstr "In dit hoofdstuk"
 
-#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-#~ msgstr "Engelse vertalingen van de gekozen fragmenten. De Arabische brontekst blijft bij elke passage beschikbaar."
-
-#~ msgid "English summary — not a translation"
-#~ msgstr "Engelse samenvatting — geen vertaling"
-
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
 msgstr "Dit fragment is al in een eerdere lezing getoond."
@@ -2057,7 +2038,7 @@ msgstr "Overleveringsketen (isnad)"
 msgid "Source-study questions: read the passages and compare them."
 msgstr "Vragen voor bronnenstudie: lees de passages en vergelijk ze."
 
-#. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
+#. 0: local_number(practice.index + 1); 1: local_number( practice.questions.length, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
 msgstr "Vraag {0} van {1} · {2}"
@@ -2079,16 +2060,8 @@ msgid "Correct answers out of the questions in this set."
 msgstr "Juiste antwoorden, van de vragen in deze set."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
 msgstr "Hoofdstukken over de hidjra"
-
-#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
-#~ msgstr "Dit hoofdstuk is beschikbaar in het Arabisch en Engels. De Engelse editie wordt getoond."
-
-#: src/lib/ChapterReader.svelte
-msgid "Learning goals"
-msgstr "Leerdoelen"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2099,7 +2072,6 @@ msgstr "Open de pagina op Turath: {0}"
 msgid "Fit map"
 msgstr "Toon de hele kaart"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -2128,20 +2100,12 @@ msgid "A chapter edition is not ready in this language. Showing the English edit
 msgstr "Een hoofdstukeditie in deze taal is nog niet klaar. De Engelse editie wordt getoond."
 
 #: src/lib/ChapterReader.svelte
-msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
-msgstr "Bij geselecteerde fragmenten kunnen vertalingen of samenvattingen staan. De oorspronkelijke Arabische tekst blijft bij elke passage beschikbaar."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "Samenvatting — geen vertaling"
 
 #: src/routes/Journey.svelte
 msgid "Read the chapter"
 msgstr "Lees het hoofdstuk"
-
-#: src/lib/ChapterReader.svelte
-msgid "Work in progress. All editions require scholarly review before public or wide release."
-msgstr "Werk in uitvoering. Alle edities moeten vóór openbare of brede verspreiding door deskundigen worden beoordeeld."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"
@@ -2151,6 +2115,7 @@ msgstr "<0/> Het volledige hoofdstuk, met bronnen en oefeningen"
 msgid "read in <0/><1/>"
 msgstr "geciteerd in <0/><1/>"
 
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", vol. {0}, p. {1}"

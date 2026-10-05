@@ -127,6 +127,7 @@ msgstr "Laman utama Perjalanan Sirah"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How this works"
 msgstr "Cara ia berfungsi"
@@ -174,7 +175,6 @@ msgstr "<0/> Mulakan perjalanan"
 msgid "<0/> Read instead"
 msgstr "<0/> Baca sebagai ganti"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Chapter one"
@@ -234,7 +234,7 @@ msgstr "Main"
 msgid "Position in this stage"
 msgstr "Kedudukan dalam peringkat ini"
 
-#. 0: score.correct.toLocaleString(chapter.locale); 1: score.total.toLocaleString( chapter.locale, )
+#. 0: local_number(score.correct); 1: local_number(score.total)
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -359,20 +359,6 @@ msgstr "Cadangan soalan"
 msgid "Close source"
 msgstr "Tutup sumber"
 
-#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
-#: src/routes/Journey.svelte
-#, ai
-msgid "· vol. {0}, p. {1}"
-msgstr "· jil. {0}, m.s. {1}"
-
-#, ai
-#~ msgid "What this passage supports"
-#~ msgstr "Perkara yang disokong oleh petikan ini"
-
-#, ai
-#~ msgid "What it does not establish"
-#~ msgstr "Perkara yang tidak dibuktikan oleh petikan ini"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Back to the answer"
@@ -382,10 +368,6 @@ msgstr "Kembali ke jawapan"
 #, ai
 msgid "Back to the journey"
 msgstr "Kembali ke perjalanan"
-
-#, ai
-#~ msgid "Open the page on Turath <0/>"
-#~ msgstr "Buka halaman di Turath <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -847,10 +829,12 @@ msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
 msgstr "Hentian pertama apabila sampai di Madinah, dalam kalangan Bani ‘Amr ibn ‘Awf."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound off"
 msgstr "Matikan bunyi"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound on"
@@ -1259,6 +1243,7 @@ msgid "The chain stops short of an eyewitness, and some place the song at a late
 msgstr "Rantaian sanadnya terputus sebelum sampai kepada saksi mata, dan sesetengah pihak berpendapat lagu itu didendangkan semasa kepulangan baginda ke Madinah yang terkemudian, bukan semasa ketibaan ini."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Along the way"
 msgstr "Di sepanjang jalan"
@@ -1381,20 +1366,24 @@ msgid "Evidence hidden."
 msgstr "Bukti disembunyikan."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide evidence on the map"
 msgstr "Sembunyikan bukti pada peta"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show evidence on the map"
 msgstr "Tunjukkan bukti pada peta"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide timeline"
 msgstr "Sembunyikan garis masa"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show timeline"
@@ -1744,10 +1733,12 @@ msgstr "Penjelasan atau pengiraan pengarang moden, yang dibina berdasarkan sumbe
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Young learners"
 msgstr "Pelajar muda"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1756,6 +1747,8 @@ msgstr "Baru mengenali kisah ini"
 
 #: src/lib/ChapterReader.svelte
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1768,20 +1761,26 @@ msgid "Mode"
 msgstr "Mod"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How would you like to follow the journey?"
 msgstr "Bagaimanakah anda ingin mengikuti perjalanan ini?"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Six short stages, in simple words."
 msgstr "Enam peringkat pendek, dalam bahasa yang mudah."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Terms explained, and why each stage matters."
 msgstr "Istilah dijelaskan, dan mengapa setiap peringkat itu penting."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Every detail, with the evidence and the timeline open."
@@ -1932,11 +1931,6 @@ msgstr "Buku terbuka: membaca petikan adalah sebahagian daripada pembelajaran."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
-msgid "Skipped. Here is what the passage says."
-msgstr "Dilangkau. Inilah yang dinyatakan dalam petikan."
-
-#: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Not quite."
 msgstr "Kurang tepat."
 
@@ -1983,9 +1977,6 @@ msgstr "<0/> Uji kefahaman anda <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> Berlatih apa yang dipelajari"
 
-#~ msgid "<0/> Read the chapter <1/>"
-#~ msgstr "<0/> Baca bab <1/>"
-
 #. 0: note.number
 #: src/lib/ChapterReader.svelte
 msgid "Source {0}"
@@ -2006,10 +1997,6 @@ msgstr "Kisah"
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
 msgstr "Uji kefahaman anda"
-
-#: src/lib/ChapterReader.svelte
-msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr "Diterjemahkan daripada petikan al-Quran yang diberikan; bukan terjemahan rasmi al-Quran atau perbandingan teks secara bebas."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
@@ -2039,12 +2026,6 @@ msgstr "Kandungan bab"
 msgid "In this chapter"
 msgstr "Dalam bab ini"
 
-#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-#~ msgstr "Terjemahan bahasa Inggeris bagi petikan terpilih. Teks Arab asal tetap tersedia bersama setiap petikan."
-
-#~ msgid "English summary — not a translation"
-#~ msgstr "Ringkasan bahasa Inggeris — bukan terjemahan"
-
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
 msgstr "Petikan ini dipaparkan dalam bacaan terdahulu."
@@ -2057,7 +2038,7 @@ msgstr "Rantaian periwayatan (isnad)"
 msgid "Source-study questions: read the passages and compare them."
 msgstr "Soalan kajian sumber: baca petikan dan bandingkan."
 
-#. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
+#. 0: local_number(practice.index + 1); 1: local_number( practice.questions.length, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
 msgstr "Soalan {0} daripada {1} · {2}"
@@ -2079,16 +2060,8 @@ msgid "Correct answers out of the questions in this set."
 msgstr "Jawapan betul, daripada soalan dalam set ini."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
 msgstr "Bab-bab tentang Hijrah"
-
-#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
-#~ msgstr "Bab ini tersedia dalam bahasa Arab dan Inggeris. Edisi bahasa Inggeris sedang dipaparkan."
-
-#: src/lib/ChapterReader.svelte
-msgid "Learning goals"
-msgstr "Matlamat pembelajaran"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2099,7 +2072,6 @@ msgstr "Buka halaman di Turath: {0}"
 msgid "Fit map"
 msgstr "Paparkan seluruh peta"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -2128,20 +2100,12 @@ msgid "A chapter edition is not ready in this language. Showing the English edit
 msgstr "Edisi bab dalam bahasa ini belum tersedia. Edisi bahasa Inggeris dipaparkan."
 
 #: src/lib/ChapterReader.svelte
-msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
-msgstr "Petikan terpilih mungkin mempunyai terjemahan atau ringkasan. Teks Arab asal tetap tersedia bersama setiap petikan."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "Ringkasan — bukan terjemahan"
 
 #: src/routes/Journey.svelte
 msgid "Read the chapter"
 msgstr "Baca bab"
-
-#: src/lib/ChapterReader.svelte
-msgid "Work in progress. All editions require scholarly review before public or wide release."
-msgstr "Masih dalam pembangunan. Semua edisi memerlukan semakan ilmiah sebelum diterbitkan kepada umum atau diedarkan secara meluas."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"
@@ -2151,6 +2115,7 @@ msgstr "<0/> Bab penuh, berserta sumber dan latihan"
 msgid "read in <0/><1/>"
 msgstr "dipetik dalam <0/><1/>"
 
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", jil. {0}, m.s. {1}"

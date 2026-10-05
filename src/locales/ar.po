@@ -127,6 +127,7 @@ msgstr "الصفحة الرئيسية لرحلة السيرة"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How this works"
 msgstr "كيفية الاستخدام"
@@ -174,7 +175,6 @@ msgstr "<0/> ابدأ الرحلة"
 msgid "<0/> Read instead"
 msgstr "<0/> اقرأ بدلًا من ذلك"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Chapter one"
@@ -234,7 +234,7 @@ msgstr "تشغيل"
 msgid "Position in this stage"
 msgstr "الموضع في هذه المرحلة"
 
-#. 0: score.correct.toLocaleString(chapter.locale); 1: score.total.toLocaleString( chapter.locale, )
+#. 0: local_number(score.correct); 1: local_number(score.total)
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -359,20 +359,6 @@ msgstr "أسئلة مقترحة"
 msgid "Close source"
 msgstr "إغلاق المصدر"
 
-#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
-#: src/routes/Journey.svelte
-#, ai
-msgid "· vol. {0}, p. {1}"
-msgstr "· ج {0}، ص {1}"
-
-#, ai
-#~ msgid "What this passage supports"
-#~ msgstr "ما يدعمه هذا النص"
-
-#, ai
-#~ msgid "What it does not establish"
-#~ msgstr "ما لا يثبته النص"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Back to the answer"
@@ -382,10 +368,6 @@ msgstr "العودة إلى الإجابة"
 #, ai
 msgid "Back to the journey"
 msgstr "العودة إلى الرحلة"
-
-#, ai
-#~ msgid "Open the page on Turath <0/>"
-#~ msgstr "افتح الصفحة في تراث <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -847,10 +829,12 @@ msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
 msgstr "أول محطة عند الوصول إلى المدينة، في بني عمرو بن عوف."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound off"
 msgstr "إيقاف الصوت"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound on"
@@ -1259,6 +1243,7 @@ msgid "The chain stops short of an eyewitness, and some place the song at a late
 msgstr "لا يبلغ الإسناد شاهد عيان، ويجعل بعضهم هذا النشيد عند عودة لاحقة إلى المدينة لا عند هذا القدوم."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Along the way"
 msgstr "على الطريق"
@@ -1381,20 +1366,24 @@ msgid "Evidence hidden."
 msgstr "أُخفيت الأدلة."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide evidence on the map"
 msgstr "إخفاء الأدلة على الخريطة"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show evidence on the map"
 msgstr "عرض الأدلة على الخريطة"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide timeline"
 msgstr "إخفاء الخط الزمني"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show timeline"
@@ -1744,10 +1733,12 @@ msgstr "شرح أو حساب لمؤلف معاصر مبنيّ على المصا�
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Young learners"
 msgstr "للصغار"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1756,6 +1747,8 @@ msgstr "جديد على القصة"
 
 #: src/lib/ChapterReader.svelte
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1768,20 +1761,26 @@ msgid "Mode"
 msgstr "طريقة العرض"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How would you like to follow the journey?"
 msgstr "كيف تحب أن تتابع الرحلة؟"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Six short stages, in simple words."
 msgstr "ست مراحل قصيرة بكلمات سهلة."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Terms explained, and why each stage matters."
 msgstr "شرح المصطلحات، ولماذا تهمّ كل مرحلة."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Every detail, with the evidence and the timeline open."
@@ -1932,11 +1931,6 @@ msgstr "كتاب مفتوح: قراءة النص جزء من التعلّم."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
-msgid "Skipped. Here is what the passage says."
-msgstr "تم التخطي. إليك ما ورد في النص."
-
-#: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Not quite."
 msgstr "ليس تمامًا."
 
@@ -1983,9 +1977,6 @@ msgstr "<0/> تحقّق من فهمك <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> تدرّب على ما تعلّمته"
 
-#~ msgid "<0/> Read the chapter <1/>"
-#~ msgstr "<0/> اقرأ الفصل <1/>"
-
 #. 0: note.number
 #: src/lib/ChapterReader.svelte
 msgid "Source {0}"
@@ -2006,10 +1997,6 @@ msgstr "القصة"
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
 msgstr "تحقّق من فهمك"
-
-#: src/lib/ChapterReader.svelte
-msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr "مترجم من المقتطف القرآني المقدَّم؛ وليس ترجمة رسمية للقرآن ولا مقابلة مستقلة للنصوص."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
@@ -2039,12 +2026,6 @@ msgstr "محتويات الفصل"
 msgid "In this chapter"
 msgstr "في هذا الفصل"
 
-#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-#~ msgstr "ترجمات إنجليزية للمقتطفات المختارة. يبقى النص العربي الأصلي متاحًا مع كل مقطع."
-
-#~ msgid "English summary — not a translation"
-#~ msgstr "ملخص باللغة الإنجليزية — وليس ترجمة"
-
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
 msgstr "يظهر هذا المقتطف في قراءة سابقة."
@@ -2057,7 +2038,7 @@ msgstr "سلسلة الإسناد"
 msgid "Source-study questions: read the passages and compare them."
 msgstr "أسئلة دراسة المصادر: اقرأ النصوص وقارن بينها."
 
-#. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
+#. 0: local_number(practice.index + 1); 1: local_number( practice.questions.length, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
 msgstr "السؤال {0} من {1} · {2}"
@@ -2079,16 +2060,8 @@ msgid "Correct answers out of the questions in this set."
 msgstr "إجابات صحيحة، من مجموع أسئلة هذه المجموعة."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
 msgstr "فصول الهجرة"
-
-#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
-#~ msgstr "هذا الفصل متاح بالعربية والإنجليزية. تُعرض النسخة الإنجليزية."
-
-#: src/lib/ChapterReader.svelte
-msgid "Learning goals"
-msgstr "أهداف التعلّم"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2099,7 +2072,6 @@ msgstr "افتح الصفحة في تراث: {0}"
 msgid "Fit map"
 msgstr "عرض الخريطة كاملة"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -2128,20 +2100,12 @@ msgid "A chapter edition is not ready in this language. Showing the English edit
 msgstr "لم تُجهَّز بعد نسخة من الفصل بهذه اللغة. تُعرض النسخة الإنجليزية."
 
 #: src/lib/ChapterReader.svelte
-msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
-msgstr "قد تتوفر لبعض المقتطفات المختارة ترجمات أو ملخصات. ويبقى النص العربي الأصلي متاحًا مع كل مقطع."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "ملخص — وليس ترجمة"
 
 #: src/routes/Journey.svelte
 msgid "Read the chapter"
 msgstr "اقرأ الفصل"
-
-#: src/lib/ChapterReader.svelte
-msgid "Work in progress. All editions require scholarly review before public or wide release."
-msgstr "عمل قيد التطوير. تحتاج جميع الطبعات إلى مراجعة علمية متخصصة قبل النشر العام أو التوزيع الواسع."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"
@@ -2151,6 +2115,7 @@ msgstr "<0/> الفصل كاملًا، بمصادره وأسئلته"
 msgid "read in <0/><1/>"
 msgstr "ورد في <0/><1/>"
 
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr "، ج {0}، ص {1}"

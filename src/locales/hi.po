@@ -127,6 +127,7 @@ msgstr "सीरह यात्रा होम"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How this works"
 msgstr "यह कैसे काम करता है"
@@ -174,7 +175,6 @@ msgstr "<0/> यात्रा शुरू करें"
 msgid "<0/> Read instead"
 msgstr "<0/> इसके बजाय पढ़ें"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Chapter one"
@@ -234,7 +234,7 @@ msgstr "चलाएँ"
 msgid "Position in this stage"
 msgstr "इस चरण में स्थिति"
 
-#. 0: score.correct.toLocaleString(chapter.locale); 1: score.total.toLocaleString( chapter.locale, )
+#. 0: local_number(score.correct); 1: local_number(score.total)
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -359,20 +359,6 @@ msgstr "सुझाए गए प्रश्न"
 msgid "Close source"
 msgstr "स्रोत बंद करें"
 
-#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
-#: src/routes/Journey.svelte
-#, ai
-msgid "· vol. {0}, p. {1}"
-msgstr "· भाग {0}, पृष्ठ {1}"
-
-#, ai
-#~ msgid "What this passage supports"
-#~ msgstr "यह अंश किसका समर्थन करता है"
-
-#, ai
-#~ msgid "What it does not establish"
-#~ msgstr "यह क्या स्थापित नहीं करता है"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Back to the answer"
@@ -382,10 +368,6 @@ msgstr "उत्तर पर वापस जाएँ"
 #, ai
 msgid "Back to the journey"
 msgstr "यात्रा पर वापस जाएँ"
-
-#, ai
-#~ msgid "Open the page on Turath <0/>"
-#~ msgstr "Turath पर पृष्ठ खोलें <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -847,10 +829,12 @@ msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
 msgstr "मदीना पहुंचने पर पहला पड़ाव, बनी ‘अम्र इब्न ‘औफ़ के बीच।"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound off"
 msgstr "आवाज़ बंद करें"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound on"
@@ -1259,6 +1243,7 @@ msgid "The chain stops short of an eyewitness, and some place the song at a late
 msgstr "इसकी कड़ियों (इस्नाद) में कोई प्रत्यक्षदर्शी नहीं है, और कुछ लोग इस गीत को बाद में मदीना वापसी के समय का मानते हैं, न कि इस आगमन का।"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Along the way"
 msgstr "मार्ग में"
@@ -1381,20 +1366,24 @@ msgid "Evidence hidden."
 msgstr "साक्ष्य छिपाए गए।"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide evidence on the map"
 msgstr "मानचित्र पर साक्ष्य छिपाएं"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show evidence on the map"
 msgstr "मानचित्र पर साक्ष्य दिखाएं"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide timeline"
 msgstr "समय-रेखा छिपाएं"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show timeline"
@@ -1744,10 +1733,12 @@ msgstr "एक आधुनिक लेखक का स्पष्टीक�
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Young learners"
 msgstr "छोटे बच्चों के लिए"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1756,6 +1747,8 @@ msgstr "कहानी में नए लोगों के लिए"
 
 #: src/lib/ChapterReader.svelte
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1768,20 +1761,26 @@ msgid "Mode"
 msgstr "मोड"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How would you like to follow the journey?"
 msgstr "आप इस यात्रा का अनुसरण कैसे करना चाहेंगे?"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Six short stages, in simple words."
 msgstr "सरल शब्दों में, छह छोटे चरण।"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Terms explained, and why each stage matters."
 msgstr "शब्दावली की व्याख्या, और प्रत्येक चरण क्यों महत्वपूर्ण है।"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Every detail, with the evidence and the timeline open."
@@ -1932,11 +1931,6 @@ msgstr "खुली किताब: गद्यांश पढ़ना स�
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
-msgid "Skipped. Here is what the passage says."
-msgstr "छोड़ दिया गया। गद्यांश में यह बताया गया है।"
-
-#: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Not quite."
 msgstr "पूरी तरह सही नहीं।"
 
@@ -1983,9 +1977,6 @@ msgstr "<0/> अपनी समझ परखें <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> जो सीखा उसका अभ्यास करें"
 
-#~ msgid "<0/> Read the chapter <1/>"
-#~ msgstr "<0/> अध्याय पढ़ें <1/>"
-
 #. 0: note.number
 #: src/lib/ChapterReader.svelte
 msgid "Source {0}"
@@ -2006,10 +1997,6 @@ msgstr "कहानी"
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
 msgstr "अपनी समझ परखें"
-
-#: src/lib/ChapterReader.svelte
-msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr "दिए गए क़ुरआनी अंश से अनूदित; यह क़ुरआन का आधिकारिक अनुवाद या स्वतंत्र पाठ-मिलान नहीं है।"
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
@@ -2039,12 +2026,6 @@ msgstr "अध्याय की विषय-सूची"
 msgid "In this chapter"
 msgstr "इस अध्याय में"
 
-#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-#~ msgstr "चुने हुए अंशों के अंग्रेज़ी अनुवाद। हर अंश के साथ मूल अरबी पाठ उपलब्ध है।"
-
-#~ msgid "English summary — not a translation"
-#~ msgstr "अंग्रेज़ी सारांश — अनुवाद नहीं"
-
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
 msgstr "यह अंश पहले की पाठ-श्रृंखला में दिखाया गया है।"
@@ -2057,7 +2038,7 @@ msgstr "रिवायत की सनद"
 msgid "Source-study questions: read the passages and compare them."
 msgstr "स्रोत-अध्ययन के प्रश्न: अंश पढ़ें और उनकी तुलना करें।"
 
-#. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
+#. 0: local_number(practice.index + 1); 1: local_number( practice.questions.length, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
 msgstr "प्रश्न {0} / {1} · {2}"
@@ -2079,16 +2060,8 @@ msgid "Correct answers out of the questions in this set."
 msgstr "इस सेट के कुल प्रश्नों में से सही उत्तर।"
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
 msgstr "हिजरत से जुड़े अध्याय"
-
-#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
-#~ msgstr "यह अध्याय अरबी और अंग्रेज़ी में उपलब्ध है। अंग्रेज़ी संस्करण दिखाया जा रहा है।"
-
-#: src/lib/ChapterReader.svelte
-msgid "Learning goals"
-msgstr "सीखने के लक्ष्य"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2099,7 +2072,6 @@ msgstr "तुराथ पर पृष्ठ खोलें: {0}"
 msgid "Fit map"
 msgstr "पूरा मानचित्र दिखाएँ"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -2128,20 +2100,12 @@ msgid "A chapter edition is not ready in this language. Showing the English edit
 msgstr "इस भाषा में अध्याय का संस्करण अभी तैयार नहीं है। अंग्रेज़ी संस्करण दिखाया जा रहा है।"
 
 #: src/lib/ChapterReader.svelte
-msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
-msgstr "चुने हुए उद्धरणों के अनुवाद या सारांश उपलब्ध हो सकते हैं। हर अंश के साथ मूल अरबी पाठ उपलब्ध रहता है।"
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "सारांश — अनुवाद नहीं"
 
 #: src/routes/Journey.svelte
 msgid "Read the chapter"
 msgstr "अध्याय पढ़ें"
-
-#: src/lib/ChapterReader.svelte
-msgid "Work in progress. All editions require scholarly review before public or wide release."
-msgstr "कार्य अभी जारी है। सार्वजनिक या व्यापक वितरण से पहले सभी संस्करणों की विद्वानों द्वारा समीक्षा आवश्यक है।"
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"
@@ -2151,6 +2115,7 @@ msgstr "<0/> पूरा अध्याय, स्रोतों और अ�
 msgid "read in <0/><1/>"
 msgstr "<0/><1/> में उद्धृत"
 
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", भाग {0}, पृष्ठ {1}"

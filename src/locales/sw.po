@@ -127,6 +127,7 @@ msgstr "Ukurasa wa kwanza wa Safari ya Sira"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How this works"
 msgstr "Jinsi hii inavyofanya kazi"
@@ -174,7 +175,6 @@ msgstr "<0/> Anza safari"
 msgid "<0/> Read instead"
 msgstr "<0/> Soma badala yake"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Chapter one"
@@ -234,7 +234,7 @@ msgstr "Cheza"
 msgid "Position in this stage"
 msgstr "Nafasi katika hatua hii"
 
-#. 0: score.correct.toLocaleString(chapter.locale); 1: score.total.toLocaleString( chapter.locale, )
+#. 0: local_number(score.correct); 1: local_number(score.total)
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -359,20 +359,6 @@ msgstr "Maswali yanayopendekezwa"
 msgid "Close source"
 msgstr "Funga chanzo"
 
-#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
-#: src/routes/Journey.svelte
-#, ai
-msgid "· vol. {0}, p. {1}"
-msgstr "· juzuu {0}, uk. {1}"
-
-#, ai
-#~ msgid "What this passage supports"
-#~ msgstr "Kile ambacho kifungu hiki kinathibitisha"
-
-#, ai
-#~ msgid "What it does not establish"
-#~ msgstr "Kile ambacho hakithibitishwi na kifungu hiki"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Back to the answer"
@@ -382,10 +368,6 @@ msgstr "Rudi kwenye jibu"
 #, ai
 msgid "Back to the journey"
 msgstr "Rudi kwenye safari"
-
-#, ai
-#~ msgid "Open the page on Turath <0/>"
-#~ msgstr "Fungua ukurasa kwenye Turath <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -847,10 +829,12 @@ msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
 msgstr "Kituo cha kwanza baada ya kufika Madinah, miongoni mwa Bani ‘Amr ibn ‘Awf."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound off"
 msgstr "Zima sauti"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound on"
@@ -1259,6 +1243,7 @@ msgid "The chain stops short of an eyewitness, and some place the song at a late
 msgstr "Mlolongo wa wapokezi unaishia kabla ya kumfikia shuhuda wa macho, na baadhi ya watu wanaweka wimbo huo katika kurejea kwa baadaye huko Madinah, si katika kuwasili huku."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Along the way"
 msgstr "Njiani"
@@ -1381,20 +1366,24 @@ msgid "Evidence hidden."
 msgstr "Ushahidi umefichwa."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide evidence on the map"
 msgstr "Ficha ushahidi kwenye ramani"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show evidence on the map"
 msgstr "Onyesha ushahidi kwenye ramani"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide timeline"
 msgstr "Ficha mpangilio wa muda"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show timeline"
@@ -1744,10 +1733,12 @@ msgstr "Ufafanuzi au hesabu ya mwandishi wa sasa, iliyojengwa juu ya vyanzo vya 
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Young learners"
 msgstr "Wanafunzi wadogo"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1756,6 +1747,8 @@ msgstr "Mgeni kwenye kisa hiki"
 
 #: src/lib/ChapterReader.svelte
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1768,20 +1761,26 @@ msgid "Mode"
 msgstr "Mfumo"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How would you like to follow the journey?"
 msgstr "Je, ungependa kufuatilia safari hii vipi?"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Six short stages, in simple words."
 msgstr "Hatua sita fupi, kwa maneno rahisi."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Terms explained, and why each stage matters."
 msgstr "Ufafanuzi wa istilahi, na umuhimu wa kila hatua."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Every detail, with the evidence and the timeline open."
@@ -1932,11 +1931,6 @@ msgstr "Kitabu wazi: kusoma kifungu ni sehemu ya kujifunza."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
-msgid "Skipped. Here is what the passage says."
-msgstr "Imerukwa. Hivi ndivyo kifungu kinavyosema."
-
-#: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Not quite."
 msgstr "Bado kidogo."
 
@@ -1983,9 +1977,6 @@ msgstr "<0/> Pima uelewa wako <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> Fanya mazoezi ya ulichojifunza"
 
-#~ msgid "<0/> Read the chapter <1/>"
-#~ msgstr "<0/> Soma sura <1/>"
-
 #. 0: note.number
 #: src/lib/ChapterReader.svelte
 msgid "Source {0}"
@@ -2006,10 +1997,6 @@ msgstr "Hadithi"
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
 msgstr "Pima uelewa wako"
-
-#: src/lib/ChapterReader.svelte
-msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr "Imetafsiriwa kutoka dondoo la Qur’ani lililotolewa; si tafsiri rasmi ya Qur’ani wala ulinganisho huru wa maandishi."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
@@ -2039,12 +2026,6 @@ msgstr "Yaliyomo katika sura"
 msgid "In this chapter"
 msgstr "Katika sura hii"
 
-#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-#~ msgstr "Tafsiri za Kiingereza za dondoo zilizochaguliwa. Nakala asilia ya Kiarabu inapatikana pamoja na kila kifungu."
-
-#~ msgid "English summary — not a translation"
-#~ msgstr "Muhtasari wa Kiingereza — si tafsiri"
-
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
 msgstr "Dondoo hili limeonyeshwa katika somo la awali."
@@ -2057,7 +2038,7 @@ msgstr "Mnyororo wa wapokezi (isnad)"
 msgid "Source-study questions: read the passages and compare them."
 msgstr "Maswali ya uchunguzi wa vyanzo: soma vifungu na uvilinganishe."
 
-#. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
+#. 0: local_number(practice.index + 1); 1: local_number( practice.questions.length, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
 msgstr "Swali {0} kati ya {1} · {2}"
@@ -2079,16 +2060,8 @@ msgid "Correct answers out of the questions in this set."
 msgstr "Majibu sahihi, kati ya maswali katika seti hii."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
 msgstr "Sura kuhusu Hijra"
-
-#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
-#~ msgstr "Sura hii inapatikana kwa Kiarabu na Kiingereza. Toleo la Kiingereza linaonyeshwa."
-
-#: src/lib/ChapterReader.svelte
-msgid "Learning goals"
-msgstr "Malengo ya kujifunza"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2099,7 +2072,6 @@ msgstr "Fungua ukurasa katika Turath: {0}"
 msgid "Fit map"
 msgstr "Onyesha ramani nzima"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -2128,20 +2100,12 @@ msgid "A chapter edition is not ready in this language. Showing the English edit
 msgstr "Toleo la sura katika lugha hii bado haliko tayari. Toleo la Kiingereza linaonyeshwa."
 
 #: src/lib/ChapterReader.svelte
-msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
-msgstr "Dondoo zilizochaguliwa zinaweza kuwa na tafsiri au muhtasari. Maandishi asilia ya Kiarabu bado yanapatikana pamoja na kila kifungu."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "Muhtasari — si tafsiri"
 
 #: src/routes/Journey.svelte
 msgid "Read the chapter"
 msgstr "Soma sura"
-
-#: src/lib/ChapterReader.svelte
-msgid "Work in progress. All editions require scholarly review before public or wide release."
-msgstr "Kazi bado inaendelea. Matoleo yote yanahitaji mapitio ya wanazuoni kabla ya kuchapishwa kwa umma au kusambazwa kwa upana."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"
@@ -2151,6 +2115,7 @@ msgstr "<0/> Sura kamili, pamoja na vyanzo vyake na mazoezi"
 msgid "read in <0/><1/>"
 msgstr "imenukuliwa katika <0/><1/>"
 
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", juzuu {0}, uk. {1}"

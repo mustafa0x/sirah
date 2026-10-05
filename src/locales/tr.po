@@ -127,6 +127,7 @@ msgstr "Siyer Yolculuğu ana sayfası"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How this works"
 msgstr "Nasıl çalışır?"
@@ -174,7 +175,6 @@ msgstr "<0/> Yolculuğa başla"
 msgid "<0/> Read instead"
 msgstr "<0/> Bunun yerine oku"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Chapter one"
@@ -234,7 +234,7 @@ msgstr "Oynat"
 msgid "Position in this stage"
 msgstr "Bu aşamadaki konum"
 
-#. 0: score.correct.toLocaleString(chapter.locale); 1: score.total.toLocaleString( chapter.locale, )
+#. 0: local_number(score.correct); 1: local_number(score.total)
 #. 0: format_time(journey.guided_position.seconds); 1: format_time(guided_step.duration)
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -359,20 +359,6 @@ msgstr "Önerilen sorular"
 msgid "Close source"
 msgstr "Kaynağı kapat"
 
-#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
-#: src/routes/Journey.svelte
-#, ai
-msgid "· vol. {0}, p. {1}"
-msgstr "· cilt {0}, s. {1}"
-
-#, ai
-#~ msgid "What this passage supports"
-#~ msgstr "Bu metnin desteklediği hususlar"
-
-#, ai
-#~ msgid "What it does not establish"
-#~ msgstr "Bu metnin kanıtlamadığı hususlar"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Back to the answer"
@@ -382,10 +368,6 @@ msgstr "Yanıta geri dön"
 #, ai
 msgid "Back to the journey"
 msgstr "Yolculuğa geri dön"
-
-#, ai
-#~ msgid "Open the page on Turath <0/>"
-#~ msgstr "Sayfayı Turath'ta aç <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -847,10 +829,12 @@ msgid "The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf."
 msgstr "Medine'ye ulaşınca ilk durak, Beni ‘Amr bin ‘Avf yurdu."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound off"
 msgstr "Sesi kapat"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Turn sound on"
@@ -1259,6 +1243,7 @@ msgid "The chain stops short of an eyewitness, and some place the song at a late
 msgstr "Ravi zinciri görgü tanığına ulaşmamaktadır ve bazıları bu ilahinin bu varışta değil, daha sonraki bir Medine'ye dönüş sırasında söylendiğini belirtir."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Along the way"
 msgstr "Yol boyunca"
@@ -1381,20 +1366,24 @@ msgid "Evidence hidden."
 msgstr "Kanıtlar gizlendi."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide evidence on the map"
 msgstr "Haritada kanıtları gizle"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show evidence on the map"
 msgstr "Haritada kanıtları göster"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Hide timeline"
 msgstr "Zaman tünelini gizle"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Show timeline"
@@ -1744,10 +1733,12 @@ msgstr "Modern bir yazarın erken dönem kaynaklarına dayanan açıklaması vey
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Young learners"
 msgstr "Küçük yaştaki öğrenciler"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1756,6 +1747,8 @@ msgstr "Hikayeyle yeni tanışanlar"
 
 #: src/lib/ChapterReader.svelte
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
@@ -1768,20 +1761,26 @@ msgid "Mode"
 msgstr "Mod"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "How would you like to follow the journey?"
 msgstr "Yolculuğu nasıl takip etmek istersiniz?"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Six short stages, in simple words."
 msgstr "Sade kelimelerle, altı kısa aşamada."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Terms explained, and why each stage matters."
 msgstr "Terim açıklamaları ve her aşamanın neden önemli olduğu."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Every detail, with the evidence and the timeline open."
@@ -1932,11 +1931,6 @@ msgstr "Açık kitap: Metni okumak öğrenmenin bir parçasıdır."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
-msgid "Skipped. Here is what the passage says."
-msgstr "Atlandı. Metinde şöyle geçiyor:"
-
-#: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Not quite."
 msgstr "Tam olarak değil."
 
@@ -1983,9 +1977,6 @@ msgstr "<0/> Anladıklarınızı kontrol edin <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> Öğrendiklerinizi pekiştirin"
 
-#~ msgid "<0/> Read the chapter <1/>"
-#~ msgstr "<0/> Bölümü oku <1/>"
-
 #. 0: note.number
 #: src/lib/ChapterReader.svelte
 msgid "Source {0}"
@@ -2006,10 +1997,6 @@ msgstr "Hikâye"
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
 msgstr "Anladıklarınızı kontrol edin"
-
-#: src/lib/ChapterReader.svelte
-msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr "Sunulan Kur’an alıntısından çevrilmiştir; resmî bir Kur’an meali veya bağımsız bir metin karşılaştırması değildir."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
@@ -2039,12 +2026,6 @@ msgstr "Bölüm içeriği"
 msgid "In this chapter"
 msgstr "Bu bölümde"
 
-#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-#~ msgstr "Seçilen alıntıların İngilizce çevirileri. Arapça özgün metne her pasajla birlikte erişilebilir."
-
-#~ msgid "English summary — not a translation"
-#~ msgstr "İngilizce özet — çeviri değildir"
-
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
 msgstr "Bu seçki önceki bir okumada gösterildi."
@@ -2057,7 +2038,7 @@ msgstr "Rivayet zinciri (isnad)"
 msgid "Source-study questions: read the passages and compare them."
 msgstr "Kaynak inceleme soruları: pasajları okuyup karşılaştırın."
 
-#. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
+#. 0: local_number(practice.index + 1); 1: local_number( practice.questions.length, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
 msgstr "Soru {0} / {1} · {2}"
@@ -2079,16 +2060,8 @@ msgid "Correct answers out of the questions in this set."
 msgstr "Bu setteki sorular arasından doğru cevaplar."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
 msgstr "Hicretle ilgili bölümler"
-
-#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
-#~ msgstr "Bu bölüm Arapça ve İngilizce olarak sunuluyor. İngilizce sürüm gösteriliyor."
-
-#: src/lib/ChapterReader.svelte
-msgid "Learning goals"
-msgstr "Öğrenme hedefleri"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2099,7 +2072,6 @@ msgstr "Turath'ta sayfayı aç: {0}"
 msgid "Fit map"
 msgstr "Haritanın tamamını göster"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -2128,20 +2100,12 @@ msgid "A chapter edition is not ready in this language. Showing the English edit
 msgstr "Bu dilde bir bölüm sürümü henüz hazır değil. İngilizce sürüm gösteriliyor."
 
 #: src/lib/ChapterReader.svelte
-msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
-msgstr "Seçili alıntıların çevirileri veya özetleri bulunabilir. Özgün Arapça metin her pasajla birlikte erişilebilir durumdadır."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "Özet — çeviri değil"
 
 #: src/routes/Journey.svelte
 msgid "Read the chapter"
 msgstr "Bölümü oku"
-
-#: src/lib/ChapterReader.svelte
-msgid "Work in progress. All editions require scholarly review before public or wide release."
-msgstr "Çalışma devam ediyor. Tüm sürümler, kamuya açık veya geniş çaplı yayımdan önce uzmanların ilmî incelemesinden geçmelidir."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"
@@ -2151,6 +2115,7 @@ msgstr "<0/> Kaynakları ve alıştırmalarıyla tam bölüm"
 msgid "read in <0/><1/>"
 msgstr "<0/><1/> içinde aktarılan"
 
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 msgid ", vol. {0}, p. {1}"
 msgstr ", cilt {0}, s. {1}"
