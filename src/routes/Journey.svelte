@@ -381,7 +381,12 @@
             () =>
                 journey.source_id === id &&
                 source_list
-                    ?.querySelector(`[data-source="${id}"]`)
+                    ?.querySelector(
+                        // The whole list opens at the current stage's heading.
+                        source_scope === 'all'
+                            ? `[data-stage="${selected_step.id}"]`
+                            : `[data-source="${id}"]`,
+                    )
                     ?.scrollIntoView({ block: 'start' }),
         )
     })
@@ -398,6 +403,38 @@
     let drawer_sources = $derived(
         source_step ? sources_for(source_step) : active_source ? [active_source] : [],
     )
+    // 'all' lists every passage the journey cites, by stage (from the evidence legend);
+    // a chosen kind filters that list and the markers on the map.
+    let source_scope = $state('stage')
+    let evidence_kind = $state(null)
+    let drawer_groups = $derived.by(() => {
+        if (source_scope !== 'all') return [{ step: null, index: 0, sources: drawer_sources }]
+        const seen = new Set()
+        return chapter.steps
+            .map((step, index) => ({
+                step,
+                index,
+                // A stage's own passages, then those of its map details and timeline entries.
+                sources: [
+                    ...sources_for(step),
+                    ...[...details, ...timeline]
+                        .filter((item) => item.stage === step.id && item.source_id)
+                        .map((item) => find_source(item.source_id))
+                        .filter(Boolean),
+                ].filter((source) => {
+                    if (seen.has(source.id)) return false
+                    seen.add(source.id)
+                    return !evidence_kind || source.kind === evidence_kind
+                }),
+            }))
+            .filter((group) => group.sources.length)
+    })
+
+    function open_all_evidence() {
+        const first =
+            selected_step.source_ids.find((id) => find_source(id)) ?? chapter.sources[0]?.id
+        view_source(first, 'all')
+    }
 
     let shot = $derived(
         // On the map, an open chapter brings its place into view.
@@ -1012,8 +1049,9 @@
         })
     }
 
-    function view_source(source_id) {
+    function view_source(source_id, scope = 'stage') {
         if (!source_id || !find_source(source_id)) return
+        source_scope = scope
         remember_view()
         clear_destinations()
         journey.guide_generation += 1
@@ -1479,6 +1517,38 @@
         books{:else if key === 'questions'}Practice questions{:else}Languages{/if}
 {/snippet}
 
+{#snippet kind_name(kind)}
+    {#if kind === 'quran'}The Quran{:else if kind === 'hadith'}Hadith
+        collections{:else if kind === 'report'}Classical sirah and history{:else}Modern
+        authors{/if}
+{/snippet}
+
+{#snippet kind_filters(compact)}
+    <ul class={['grid list-none', compact ? 'grid-cols-2 gap-x-3 gap-y-1' : 'gap-1']}>
+        {#each evidence_kinds as kind (kind)}
+            <li>
+                <button
+                    class="flex gap-3 items-center w-full py-1 px-2 -mx-2 text-start text-[0.9375rem] text-ink bg-transparent border-0 rounded-lg hover:bg-[rgba(255,244,222,0.07)] aria-pressed:bg-[rgba(232,178,87,0.14)] data-[muted=true]:opacity-45"
+                    aria-pressed={evidence_kind === kind}
+                    data-muted={Boolean(evidence_kind) && evidence_kind !== kind}
+                    onclick={() => (evidence_kind = evidence_kind === kind ? null : kind)}
+                >
+                    <i
+                        class="size-[11px] shrink-0 rounded-full border border-solid border-[rgba(255,255,255,0.7)] {evidence_dot[
+                            kind
+                        ]}"
+                    ></i>
+                    <span class="me-auto">{@render kind_name(kind)}</span>
+                    {#if !compact}
+                        <span class="text-muted tabular-nums">{fmt_num(evidence_counts[kind])}</span
+                        >
+                    {/if}
+                </button>
+            </li>
+        {/each}
+    </ul>
+{/snippet}
+
 {#snippet icon(name)}
     <svg
         class={[
@@ -1609,6 +1679,7 @@
                       focus: selected_step.source_ids,
                       cue: current_cue?.source_ids ?? [],
                       open: journey.source_id,
+                      kind: evidence_kind,
                   }
                 : null}
             on_source={view_source}
@@ -1969,29 +2040,19 @@
             aria-labelledby="evidence-title"
             transition:fly={{ x: 16, duration: 220 }}
         >
-            <h2 class={kicker} id="evidence-title">Evidence on the map</h2>
+            <h2 class={kicker} id="evidence-title">
+                <button
+                    class="inline-flex gap-2 items-center p-0 bg-transparent border-0 uppercase tracking-[inherit] hover:text-gold-bright [&>svg]:rtl:-scale-x-100"
+                    onclick={open_all_evidence}
+                >
+                    Evidence on the map {@render icon('next')}
+                </button>
+            </h2>
             <p class="text-ink-soft text-[0.875rem] leading-[1.5]">
                 Each point of light is a passage this journey cites, placed where it speaks of.
                 Select one to read it.
             </p>
-            <ul class="grid gap-2 list-none">
-                {#each evidence_kinds as kind (kind)}
-                    <li class="flex gap-3 items-center text-[0.9375rem]">
-                        <i
-                            class="size-[11px] rounded-full border border-solid border-[rgba(255,255,255,0.7)] {evidence_dot[
-                                kind
-                            ]}"
-                        ></i>
-                        <span class="me-auto">
-                            {#if kind === 'quran'}The Quran{:else if kind === 'hadith'}Hadith
-                                collections{:else if kind === 'report'}Classical sirah and history{:else}Modern
-                                authors{/if}
-                        </span>
-                        <span class="text-muted tabular-nums">{fmt_num(evidence_counts[kind])}</span
-                        >
-                    </li>
-                {/each}
-            </ul>
+            {@render kind_filters(false)}
         </section>
     {/if}
 
@@ -3080,7 +3141,9 @@
             {:else if active_source}
                 <header class={sheet_header}>
                     <h2 class={sheet_title} id="sheet-title">
-                        {source_step?.title ?? fmt_num(active_source.reference)}
+                        {source_scope === 'all'
+                            ? 'All evidence'
+                            : (source_step?.title ?? fmt_num(active_source.reference))}
                     </h2>
                     <button class={round_button} onclick={close_sheet} aria-label="Close source">
                         {@render icon('close')}
@@ -3088,57 +3151,71 @@
                 </header>
                 <!-- All of the stage's sources in one scroll; the one asked for is highlighted. -->
                 <div class={sheet_body} bind:this={source_list} data-scroll-id="journey-sources">
-                    {#each drawer_sources as source (source.id)}
-                        <!-- The one the learner opened is marked by a gold edge. -->
-                        <article
-                            class="grid gap-3 py-5 ps-4 border-0 border-t border-s-2 border-solid border-line border-s-transparent first:border-t-0 first:pt-1 scroll-mt-4 transition-[border-color] duration-500 data-[active=true]:border-s-gold"
-                            data-source={source.id}
-                            data-active={source.id === active_source.id}
-                        >
-                            <span
-                                class="grid w-fit min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
-                                >{fmt_num(source.number)}</span
+                    {#if source_scope === 'all'}
+                        {@render kind_filters(true)}
+                    {/if}
+                    {#each drawer_groups as group (group.step?.id ?? 'stage')}
+                        {#if group.step}
+                            <h3
+                                class="{kicker} pt-5 first:pt-0 scroll-mt-4"
+                                data-stage={group.step.id}
                             >
-                            <blockquote
-                                class="py-4 px-5 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 rounded-xl font-arabic text-[1.375rem] leading-[2]"
-                                dir="rtl"
-                                lang="ar"
-                            >
-                                {source.excerpt}
-                            </blockquote>
-                            {#if !source.retrieved}
-                                <p class="text-ink-soft text-[0.9375rem] leading-[1.55]">
-                                    {source.explanation}
-                                </p>
-                            {:else if source.truncated}
-                                <p class={fine_print}>
-                                    This passage is shortened. Open the original page for its full
-                                    context.
-                                </p>
-                            {/if}
-                            <!-- One reference: what the passage is, and the book on Turath it was read
-                                 in, which is the page the link opens. -->
-                            <a
-                                class="group/ref flex flex-wrap gap-x-2 gap-y-[2px] items-baseline justify-end text-end"
-                                href={source.url}
-                                target="_blank"
-                                rel="noreferrer"
-                                title={`Open the page on Turath: ${source.reference}`}
+                                {fmt_num(group.index + 1)} · {group.step.title}
+                            </h3>
+                        {/if}
+                        {#each group.sources as source (source.id)}
+                            <!-- The one the learner opened is marked by a gold edge. -->
+                            <article
+                                class="grid gap-3 py-5 ps-4 border-0 border-t border-s-2 border-solid border-line border-s-transparent first:border-t-0 first:pt-1 scroll-mt-4 transition-[border-color] duration-500 data-[active=true]:border-s-gold"
+                                data-source={source.id}
+                                data-active={source_scope === 'stage' &&
+                                    source.id === active_source.id}
                             >
                                 <span
-                                    class="inline-flex gap-2 items-center text-gold font-semibold text-[0.9375rem] group-hover/ref:text-gold-bright"
-                                    ><span dir="auto">{fmt_num(source.reference)}</span>
-                                    {@render icon('external')}</span
+                                    class="grid w-fit min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
+                                    >{fmt_num(source.number)}</span
                                 >
-                                <span class="text-muted text-[0.8125rem]"
-                                    >read in <span
-                                        class="text-ink-soft font-arabic text-[1rem]"
-                                        lang="ar"
-                                        dir="rtl">{source.work}</span
-                                    >{#if source.volume}, vol. {fmt_num(source.volume)}, p. {fmt_num(source.page)}{/if}</span
+                                <blockquote
+                                    class="py-4 px-5 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 rounded-xl font-arabic text-[1.375rem] leading-[2]"
+                                    dir="rtl"
+                                    lang="ar"
                                 >
-                            </a>
-                        </article>
+                                    {source.excerpt}
+                                </blockquote>
+                                {#if !source.retrieved}
+                                    <p class="text-ink-soft text-[0.9375rem] leading-[1.55]">
+                                        {source.explanation}
+                                    </p>
+                                {:else if source.truncated}
+                                    <p class={fine_print}>
+                                        This passage is shortened. Open the original page for its
+                                        full context.
+                                    </p>
+                                {/if}
+                                <!-- One reference: what the passage is, and the book on Turath it was read
+                                 in, which is the page the link opens. -->
+                                <a
+                                    class="group/ref flex flex-wrap gap-x-2 gap-y-[2px] items-baseline justify-end text-end"
+                                    href={source.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    title={`Open the page on Turath: ${source.reference}`}
+                                >
+                                    <span
+                                        class="inline-flex gap-2 items-center text-gold font-semibold text-[0.9375rem] group-hover/ref:text-gold-bright"
+                                        ><span dir="auto">{fmt_num(source.reference)}</span>
+                                        {@render icon('external')}</span
+                                    >
+                                    <span class="text-muted text-[0.8125rem]"
+                                        >read in <span
+                                            class="text-ink-soft font-arabic text-[1rem]"
+                                            lang="ar"
+                                            dir="rtl">{source.work}</span
+                                        >{#if source.volume}, vol. {fmt_num(source.volume)}, p. {fmt_num(source.page)}{/if}</span
+                                    >
+                                </a>
+                            </article>
+                        {/each}
                     {/each}
                 </div>
                 <footer class={sheet_footer}>

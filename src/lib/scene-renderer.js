@@ -902,6 +902,8 @@ export async function create_scene(
         // Passages cited by the paragraph being narrated, and the one open in the panel.
         let evidence_cue = new Set()
         let evidence_open = null
+        // A kind chosen in the legend: only that kind's markers show.
+        let evidence_kind = null
         // A newly opened source whose marker is out of sight gets one pan to bring it in.
         let evidence_reveal = null
         let evidence_link = null
@@ -1132,9 +1134,12 @@ export async function create_scene(
                     // A sunflower spiral keeps a cluster readable at any size, with the
                     // current stage's passages at its centre.
                     const focused = (group) => group.ids.some((id) => evidence_focus.has(id))
+                    const kept = groups.filter(
+                        (group) => !evidence_kind || group.kind === evidence_kind,
+                    )
                     const ordered = [
-                        ...groups.filter(focused),
-                        ...groups.filter((group) => !focused(group)),
+                        ...kept.filter(focused),
+                        ...kept.filter((group) => !focused(group)),
                     ]
                     ordered.forEach((group, index) => {
                         const { node } = evidence_node(group)
@@ -1564,6 +1569,7 @@ export async function create_scene(
             const open = state?.open ?? null
             if (open && open !== evidence_open) evidence_reveal = open
             evidence_open = open
+            evidence_kind = state?.kind ?? null
             if (!evidence_on) hide_preview()
         }
         api.set_actor = (name) => {
