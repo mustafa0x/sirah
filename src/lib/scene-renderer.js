@@ -99,7 +99,7 @@ export async function create_scene(
     let scene
     const labels = document.createElement('div')
     labels.className =
-        'absolute inset-0 overflow-hidden pointer-events-none transition-opacity duration-[0.6s] ease-[ease] group-[[data-started=false][data-map=false]]/stage:invisible group-[[data-started=false][data-map=false]]/stage:opacity-0'
+        'absolute inset-0 overflow-hidden pointer-events-none transition-opacity duration-[0.6s] ease-[ease] group-[[data-started=false][data-map=false]]/stage:[&>:not([data-home])]:invisible group-[[data-started=false][data-map=false]]/stage:[&>*]:pointer-events-none'
     const api = {
         set_shot() {},
         set_mood() {},
@@ -813,6 +813,8 @@ export async function create_scene(
         let active_id = null
         const label_nodes = scene_pois.map((poi) => {
             const node = document.createElement('a')
+            // Before the journey starts only these are shown, as names rather than links.
+            if (poi.home) node.dataset.home = ''
             node.addEventListener('click', (event) => follow_link(event, () => on_poi(poi)))
             if (poi.detail) {
                 // A small diamond; its name appears on hover, focus, or when it is open.

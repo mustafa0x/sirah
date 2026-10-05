@@ -152,7 +152,14 @@
     let total_minutes = $derived(
         Math.round(chapter.steps.reduce((sum, step) => sum + step.duration, 0) / 60),
     )
-    const idle_route = [0, 0, 0]
+    // On the home page the route draws itself once, Makkah to Madinah. The short first leg
+    // (to Thawr) takes a small share of the time.
+    let home_progress = $state(0)
+    let idle_route = $derived([
+        Math.min(1, home_progress / 0.06),
+        Math.max(0, Math.min(1, (home_progress - 0.06) / 0.94)),
+        0,
+    ])
     const ambience = create_ambience()
     const button_base =
         'inline-flex gap-2 items-center justify-center min-h-10 px-4 py-2 rounded-full text-[0.875rem] font-semibold no-underline whitespace-nowrap border border-solid transition-[background,border-color,color,transform] duration-150 ease-[ease] not-disabled:active:[transform:scale(0.97)]'
@@ -1265,6 +1272,22 @@
     function tick() {
         return new Promise((resolve) => window.setTimeout(resolve))
     }
+
+    onMount(() => {
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            home_progress = 1
+            return
+        }
+        const draw_start = performance.now() + 800
+        let frame = 0
+        const draw = (now) => {
+            const t = Math.max(0, Math.min(1, (now - draw_start) / 4500))
+            home_progress = 1 - (1 - t) ** 3
+            if (t < 1) frame = requestAnimationFrame(draw)
+        }
+        frame = requestAnimationFrame(draw)
+        return () => cancelAnimationFrame(frame)
+    })
 
     onMount(() => {
         clock = create_media_clock({

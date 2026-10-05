@@ -156,6 +156,8 @@ export const scene_pois = [
         description: 'Where the chapter begins, with preparations for departure.',
         place: 'makkah',
         anchors: { region: 'region_makkah', makkah: 'makkah' },
+        // Named on the home page too, at either end of the route.
+        home: true,
         camera: { azimuth: -0.35, elevation: 0.5, distance: 6 },
     },
     {
@@ -190,6 +192,7 @@ export const scene_pois = [
         description: 'Where the chapter closes, with arrival and a new beginning.',
         place: 'madinah',
         anchors: { region: 'region_madinah', madinah: 'madinah' },
+        home: true,
         camera: { azimuth: 0.35, elevation: 0.45, distance: 6 },
     },
 ]
@@ -240,11 +243,12 @@ export const overview_shot = {
     portrait: shot('region_centre', -1.35, 0.95, 60, 0.2, null, 44),
 }
 
-// The home page looks north up the coast: the sea lies behind the title and the route
-// runs away from the viewer on the right, from Makkah towards Madinah.
+// The home page looks north up the coast: the sea lies behind the title and the route runs
+// away from the viewer on the right, Makkah to Madinah, with no map edge in frame.
 export const home_shot = {
-    ...shot('region_centre', -1.4, 1.05, 32, 0.2, [1.5, 0, -3.5]),
-    portrait: overview_shot.portrait,
+    ...shot('region_centre', -1.4, 1.28, 44, 0.2, [-0.8, 0, -3.5]),
+    // On a tall screen the text sits below, so the route fills the top half.
+    portrait: shot('region_centre', -1.4, 1.5, 90, 0.2, [-5, 0, -2.5]),
 }
 
 // One camera move per narrative beat. An azimuth of `north` puts the camera north of its
