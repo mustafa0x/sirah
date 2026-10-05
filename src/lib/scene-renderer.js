@@ -884,26 +884,76 @@ export async function create_scene(
         // stay bright; the rest dim but can still be opened.
         let evidence_on = false
         let evidence_focus = new Set()
+        // Passages cited by the paragraph being narrated, and the one open in the panel.
+        let evidence_cue = new Set()
+        let evidence_open = null
         let evidence_link = null
         const evidence_nodes = new Map()
+        // One preview card, shown above whichever marker is hovered or focused.
+        const preview = document.createElement('div')
+        preview.className =
+            'absolute top-0 left-0 z-10 grid w-64 gap-1 rounded-lg border border-solid border-line-strong bg-popover px-3 py-2 text-popover-foreground shadow-[0_8px_24px_rgba(0,0,0,0.45)] pointer-events-none [translate:-50%_calc(-100%-14px)] data-[below=true]:[translate:-50%_14px] [&[hidden]]:hidden'
+        preview.hidden = true
+        const preview_title = document.createElement('p')
+        preview_title.className = 'text-xs font-semibold'
+        const preview_text = document.createElement('p')
+        preview_text.className =
+            'line-clamp-3 font-arabic text-[0.9375rem] leading-[1.7] text-ink-soft'
+        preview_text.lang = 'ar'
+        preview_text.dir = 'rtl'
+        preview.append(preview_title, preview_text)
+        labels.append(preview)
+        let previewed = null
+        const show_preview = (entry) => {
+            previewed = entry
+            const id =
+                entry.group.ids.find((item) => evidence_focus.has(item)) ?? entry.group.ids[0]
+            const source = chapter.sources.find((item) => item.id === id)
+            preview_title.textContent = entry.group.reference
+            preview_text.textContent = source?.excerpt ?? ''
+            preview_text.hidden = !source?.excerpt
+            place_preview()
+            preview.hidden = false
+        }
+        // Above the marker, or below it in the upper part of the view, where panels sit.
+        const place_preview = () => {
+            preview.style.left = previewed.node.style.left
+            preview.style.top = previewed.node.style.top
+            preview.dataset.below = String(
+                parseFloat(previewed.node.style.top) < host.clientHeight * 0.45,
+            )
+        }
+        const hide_preview = (entry) => {
+            if (entry && previewed !== entry) return
+            previewed = null
+            preview.hidden = true
+        }
         const evidence_node = (group) => {
             if (evidence_nodes.has(group.id)) return evidence_nodes.get(group.id)
             const node = document.createElement('a')
-            node.className = `absolute top-0 left-0 size-[11px] p-0 rounded-full border border-solid border-[rgba(255,255,255,0.7)] pointer-events-auto [translate:-50%_-50%] transition-[transform,opacity] duration-200 ease-[ease] hover:scale-150 focus-visible:scale-150 data-[dim=true]:scale-75 data-[dim=true]:opacity-40 data-[dim=true]:hover:scale-125 data-[dim=true]:hover:opacity-100 [&[hidden]]:hidden ${evidence_dot[group.kind]}`
-            node.title = group.reference
+            // A ring pings around passages the narration is citing; the open one is enlarged.
+            node.className = `absolute top-0 left-0 size-[11px] p-0 rounded-full border border-solid border-[rgba(255,255,255,0.7)] pointer-events-auto [translate:-50%_-50%] transition-[transform,opacity] duration-200 ease-[ease] hover:scale-150 focus-visible:scale-150 data-[dim=true]:scale-75 data-[dim=true]:opacity-40 data-[dim=true]:hover:scale-125 data-[dim=true]:hover:opacity-100 data-[open=true]:scale-150 data-[open=true]:opacity-100 after:absolute after:-inset-[5px] after:rounded-full after:border-2 after:border-solid after:border-[rgba(255,248,234,0.85)] after:opacity-0 after:content-[''] data-[cue=true]:after:opacity-100 data-[cue=true]:after:animate-ping motion-reduce:data-[cue=true]:after:animate-none data-[open=true]:after:opacity-100 data-[open=true]:after:animate-none [&[hidden]]:hidden ${evidence_dot[group.kind]}`
             node.setAttribute('aria-label', group.reference)
             node.hidden = true
             // Open the excerpt the current stage cites, when it cites one.
             const opened = () => group.ids.find((id) => evidence_focus.has(id)) ?? group.ids[0]
-            node.addEventListener('click', (event) => follow_link(event, () => on_source(opened())))
+            node.addEventListener('click', (event) => {
+                hide_preview()
+                follow_link(event, () => on_source(opened()))
+            })
             if (evidence_link)
                 node.href = journey_href(
                     `/journey/hijrah/sources/${group.ids[0]}`,
                     ...evidence_link,
                 )
             labels.append(node)
-            evidence_nodes.set(group.id, { node, group })
-            return evidence_nodes.get(group.id)
+            const entry = { node, group }
+            node.addEventListener('pointerenter', () => show_preview(entry))
+            node.addEventListener('focus', () => show_preview(entry))
+            node.addEventListener('pointerleave', () => hide_preview(entry))
+            node.addEventListener('blur', () => hide_preview(entry))
+            evidence_nodes.set(group.id, entry)
+            return entry
         }
         api.set_links = (context, at) => {
             for (const { poi, node } of label_nodes)
@@ -1046,11 +1096,15 @@ export async function create_scene(
                         node.style.left = `${x + radius * Math.cos(angle)}px`
                         node.style.top = `${y + radius * Math.sin(angle)}px`
                         node.dataset.dim = String(!focused(group))
+                        node.dataset.cue = String(group.ids.some((id) => evidence_cue.has(id)))
+                        node.dataset.open = String(group.ids.includes(evidence_open))
                         shown.add(group.id)
                     })
                 }
             }
             for (const [key, { node }] of evidence_nodes) node.hidden = !shown.has(key)
+            if (previewed && previewed.node.hidden) hide_preview()
+            else if (previewed) place_preview()
         }
         const insets = { left: 0, right: 0, bottom: 0, top: 0 }
         const inset_target = { left: 0, right: 0, bottom: 0, top: 0 }
@@ -1453,10 +1507,14 @@ export async function create_scene(
             for (let leg = 0; leg < leg_target.length; leg += 1)
                 leg_target[leg] = progress[leg] ?? 0
         }
-        // `focus` lists the current stage's source ids; null hides the evidence.
-        api.set_evidence = (focus) => {
-            evidence_on = Boolean(focus)
-            evidence_focus = new Set(focus ?? [])
+        // `focus` lists the current stage's source ids, `cue` those the narration is citing,
+        // and `open` the source shown in the panel; null hides the evidence.
+        api.set_evidence = (state) => {
+            evidence_on = Boolean(state)
+            evidence_focus = new Set(state?.focus ?? [])
+            evidence_cue = new Set(state?.cue ?? [])
+            evidence_open = state?.open ?? null
+            if (!evidence_on) hide_preview()
         }
         api.set_actor = (name) => {
             actor = name

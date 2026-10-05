@@ -1487,7 +1487,13 @@
             link_at={current_cue?.id ?? selected_step.paragraphs[0]?.id}
             active_poi_id={active_poi?.id ?? null}
             on_poi={select_poi}
-            evidence={evidence_on && !map_open ? selected_step.source_ids : null}
+            evidence={evidence_on && !map_open
+                ? {
+                      focus: selected_step.source_ids,
+                      cue: current_cue?.source_ids ?? [],
+                      open: journey.source_id,
+                  }
+                : null}
             on_source={view_source}
         />
     </div>
