@@ -237,8 +237,10 @@ const shot = (place, azimuth, elevation, distance, height = 0.3, offset = null, 
 const south = -Math.PI / 2
 const north = Math.PI / 2
 
+// Looking north-west along the coast: the sea to the upper left, the route rising from
+// Makkah towards Madinah across the open middle of the view.
 export const overview_shot = {
-    ...shot('region_centre', 0, 0.65, 46, 0.2),
+    ...shot('region_centre', -0.5, 0.68, 34, 0.2),
     // On a tall screen the route runs bottom to top instead of left to right.
     portrait: shot('region_centre', -1.35, 0.95, 60, 0.2, null, 44),
 }
