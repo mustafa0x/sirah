@@ -1311,6 +1311,8 @@
             <path d="M7 3.5h8l4 4V20.5H7zM14.5 3.5V8H19M10 12.5h6M10 16h6" />
         {:else if name === 'ask'}
             <path d="M4.5 5.5h15v10.5H11l-4.5 3.5V16h-2z" />
+        {:else if name === 'quiz'}
+            <circle cx="12" cy="12" r="8.5" /><path d="M8.5 12.2l2.4 2.4 4.6-5.1" />
         {:else if name === 'close'}
             <path d="M6 6l12 12M18 6L6 18" />
         {:else if name === 'next'}
@@ -2078,13 +2080,14 @@
                                 aria-live="polite"
                                 in:fly={{ y: 8, duration: 220 }}
                             >
-                                <p class="font-semibold text-[0.9375rem]">
-                                    {#if practice_result.skipped}<span class="text-ink-soft"
-                                            >Skipped. Here is what the passage says.</span
-                                        >{:else if practice_result.correct}<span
-                                            class="text-[#7fd1a0]">Correct.</span
-                                        >{:else}<span class="text-[#e8a857]">Not quite.</span>{/if}
-                                </p>
+                                {#if !practice_result.skipped}
+                                    <p class="font-semibold text-[0.9375rem]">
+                                        {#if practice_result.correct}<span class="text-[#7fd1a0]"
+                                                >Correct.</span
+                                            >{:else}<span class="text-[#e8a857]">Not quite.</span
+                                            >{/if}
+                                    </p>
+                                {/if}
                                 {#if picked}
                                     <p class="text-ink-soft leading-[1.5]" dir="auto">
                                         {picked.feedback}
@@ -2267,7 +2270,7 @@
                             class="{ghost_button} border-gold mobile:flex-[1_1_100%]"
                             onclick={() => open_practice({ step_id: selected_step.id })}
                         >
-                            {@render icon('ask')} Check your understanding
+                            {@render icon('quiz')} Check your understanding
                             <span
                                 class="min-w-5 px-[6px] py-px text-gold-bright bg-[rgba(232,178,87,0.16)] rounded-full text-[0.75rem]"
                                 >{fmt_num(stage_questions.length)}</span

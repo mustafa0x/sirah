@@ -243,16 +243,28 @@
     <header class="flex gap-4 items-start justify-between px-7 pt-6 pb-3 mobile:px-5">
         <div class="grid min-w-0 flex-1 gap-2">
             <label class="sr-only" for="chapter-select">Choose a chapter</label>
-            <select
-                id="chapter-select"
-                class="mb-1 w-full min-w-0 rounded-lg border border-solid border-line-strong bg-panel-solid px-3 py-2 font-serif text-[1rem] text-gold-bright focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                value={chapter_id}
-                onchange={(event) => on_navigate(`/chapters/${event.currentTarget.value}/story`)}
-            >
-                {#each catalog.chapters as item (item.chapter_id)}
-                    <option value={item.chapter_id}>{chapter_title(item, chapter?.locale)}</option>
-                {/each}
-            </select>
+            <div class="relative mb-1 min-w-0">
+                <select
+                    id="chapter-select"
+                    class="w-full min-w-0 appearance-none rounded-lg border border-solid border-line-strong bg-panel-solid py-2 ps-3 pe-9 font-serif text-[1rem] text-gold-bright focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                    value={chapter_id}
+                    onchange={(event) =>
+                        on_navigate(`/chapters/${event.currentTarget.value}/story`)}
+                >
+                    {#each catalog.chapters as item (item.chapter_id)}
+                        <option value={item.chapter_id}
+                            >{chapter_title(item, chapter?.locale)}</option
+                        >
+                    {/each}
+                </select>
+                <svg
+                    class="pointer-events-none absolute end-3 top-1/2 size-3.5 -translate-y-1/2 fill-none stroke-current text-gold-bright [stroke-width:2.2] [stroke-linecap:round] [stroke-linejoin:round]"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <path d="M6 9l6 6 6-6" />
+                </svg>
+            </div>
             <h2 class="font-serif text-[2rem] font-medium leading-[1.15]" id="chapter-title">
                 {chapter?.title ?? ''}
             </h2>
@@ -290,7 +302,15 @@
                 class="py-3 px-3 text-[0.9375rem] text-ink-soft whitespace-nowrap bg-transparent border-0 border-b-2 border-solid border-transparent hover:text-ink data-[active=true]:text-gold-bright data-[active=true]:border-gold"
                 href={href(id)}
                 aria-current={tab === id ? 'page' : undefined}
-                data-active={tab === id}>{name}</a
+                data-active={tab === id}
+                >{#if id === 'practice'}<svg
+                        class="inline-block me-[6px] size-[1.05em] align-[-0.18em] fill-none stroke-current opacity-80 [stroke-width:1.8] [stroke-linecap:round] [stroke-linejoin:round]"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                        ><circle cx="12" cy="12" r="8.5" /><path
+                            d="M8.5 12.2l2.4 2.4 4.6-5.1"
+                        /></svg
+                    >{/if}{name}</a
             >
         {/each}
     </nav>
@@ -312,28 +332,20 @@
                         {block.text}{@render marker(block.paragraph_id)}
                     </p>
                 {/each}
-                <details class="text-ink-soft">
-                    <summary class="cursor-pointer text-[0.9375rem]">Learning goals</summary>
-                    <ul class="grid gap-2 ps-5 pt-3 leading-[1.7]">
-                        {#each chapter.objectives as objective (objective.objective_id)}
-                            <li>{objective.text}</li>
-                        {/each}
-                    </ul>
-                </details>
                 <!-- The outline doubles as the table of contents. -->
                 <nav class="grid gap-1" aria-label="Chapter contents">
                     <p class="text-muted text-[0.875rem] font-semibold">In this chapter</p>
-                    <ol class="grid gap-1 list-none">
+                    <ol class="grid list-none">
                         {#each chapter.outline as point, index (point.point_id)}
                             <li>
                                 <a
-                                    class="flex gap-3 items-baseline w-full py-[6px] px-0 text-start text-ink-soft bg-transparent border-0 hover:text-gold-bright"
+                                    class="flex gap-3 items-baseline w-full py-[3px] px-0 text-start text-ink-soft bg-transparent border-0 hover:text-gold-bright"
                                     href={href('story', point.section_id)}
                                 >
                                     <span class="min-w-5 text-gold font-semibold"
                                         >{(index + 1).toLocaleString(chapter.locale)}</span
                                     >
-                                    <span class="font-serif text-[1.0625rem] leading-[1.6]"
+                                    <span class="font-serif text-[1.0625rem] leading-[1.45]"
                                         >{point.text}</span
                                     >
                                 </a>
@@ -342,11 +354,11 @@
                         {#if chapter.in_depth.length}
                             <li>
                                 <a
-                                    class="flex gap-3 items-baseline w-full py-[6px] px-0 text-start text-ink-soft bg-transparent border-0 hover:text-gold-bright"
+                                    class="flex gap-3 items-baseline w-full py-[3px] px-0 text-start text-ink-soft bg-transparent border-0 hover:text-gold-bright"
                                     href={href('story', 'in_depth')}
                                 >
                                     <span class="min-w-5 text-gold">+</span>
-                                    <span class="font-serif text-[1.0625rem] leading-[1.6]"
+                                    <span class="font-serif text-[1.0625rem] leading-[1.45]"
                                         >In depth</span
                                     >
                                 </a>
@@ -501,14 +513,15 @@
                                         option.option_id === practice.answers[question.question_id],
                                 )}
                                 <div class="grid gap-2" in:fly={{ y: 8, duration: 200 }}>
-                                    <p class="font-semibold">
-                                        {#if result.skipped}<span class="text-ink-soft"
-                                                >Skipped. Here is what the passage says.</span
-                                            >{:else if result.correct}<span class="text-[#7fd1a0]"
-                                                >Correct.</span
-                                            >{:else}<span class="text-[#e8a857]">Not quite.</span
-                                            >{/if}
-                                    </p>
+                                    {#if !result.skipped}
+                                        <p class="font-semibold">
+                                            {#if result.correct}<span class="text-[#7fd1a0]"
+                                                    >Correct.</span
+                                                >{:else}<span class="text-[#e8a857]"
+                                                    >Not quite.</span
+                                                >{/if}
+                                        </p>
+                                    {/if}
                                     {#if picked}<p class="text-ink-soft leading-[1.7]">{picked.feedback}</p>{/if}
                                     <p class="text-ink leading-[1.7]">{question.explanation}</p>
                                     <p class="text-ink-soft text-[0.9375rem] leading-[1.7]">
