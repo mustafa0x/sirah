@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- The app's mark: a gold diamond with a soft gold ring, on a dark tile. -->
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7d28a"/>
+      <stop offset="1" stop-color="#e8b257"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0f0e0c"/>
+  <g transform="rotate(45 32 32)">
+    <rect x="14.5" y="14.5" width="35" height="35" rx="5" fill="#e8b257" fill-opacity="0.24"/>
+    <rect x="19.5" y="19.5" width="25" height="25" rx="3" fill="url(#gold)"/>
+  </g>
+</svg>
