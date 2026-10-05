@@ -1369,6 +1369,8 @@ export async function create_scene(
             previous = now
             const ease = reduced_motion ? 1 : 1 - Math.exp(-delta * 2.2)
 
+            // How far into a flight the camera is, for keeping it clear of the ground.
+            let lift = 0
             if (flight) {
                 const progress = clamp((now - flight.started) / flight.duration, 0, 1)
                 const eased = ease_in_out(progress)
@@ -1387,6 +1389,28 @@ export async function create_scene(
                 )
                 const reach = end.distance < start.distance ? 1 - (1 - eased) ** 3 : eased ** 3
                 view.target.lerpVectors(start.target, end.target, reach)
+                // A long zoom climbs to a cruising elevation and descends only within a few
+                // lengths of the close end, so it lands and takes off rather than skimming the
+                // ground. Both ends keep their authored elevation.
+                const [low, high] = start.distance < end.distance ? [start, end] : [end, start]
+                const range = Math.log(high.distance / low.distance)
+                const out = Math.log(view.distance / low.distance)
+                if (range > Math.log(8)) {
+                    const cruise = Math.max(high.elevation, 0.45)
+                    view.elevation = Math.max(
+                        view.elevation,
+                        mix(
+                            low.elevation,
+                            mix(
+                                cruise,
+                                high.elevation,
+                                smoothstep(range - Math.log(3), range, out),
+                            ),
+                            smoothstep(0, Math.log(3), out),
+                        ),
+                    )
+                }
+                lift = Math.min(1, 3 * Math.sin(Math.PI * eased))
                 if (progress === 1) flight = null
             }
             if (cycle === null) blend_mood(ease, mood_target)
@@ -1435,10 +1459,25 @@ export async function create_scene(
                 view.target.y + distance * Math.sin(view.elevation),
                 view.target.z + horizontal * Math.cos(azimuth),
             )
-            camera.position.y = Math.max(
-                camera.position.y,
-                landscape.height(camera.position.x, camera.position.z) + distance * 0.02,
-            )
+            // Keep clear of the ground. In flight, keep further clear and rise over any ridge
+            // between the camera and what it looks at; authored shots settle as they are.
+            const position = camera.position
+            let floor = landscape.height(position.x, position.z) + distance * 0.02
+            if (lift > 0) {
+                let flying = landscape.height(position.x, position.z) + distance * 0.15
+                for (let step = 1; step < 8; step++) {
+                    const along = step / 12
+                    const x = mix(position.x, view.target.x, along)
+                    const z = mix(position.z, view.target.z, along)
+                    const sight = mix(position.y, view.target.y, along)
+                    flying = Math.max(
+                        flying,
+                        position.y + (landscape.height(x, z) - sight) / (1 - along),
+                    )
+                }
+                floor = Math.max(floor, mix(position.y, flying, lift))
+            }
+            position.y = Math.max(position.y, floor)
             camera.lookAt(view.target)
             camera.near = clamp(
                 distance * 0.02,

@@ -296,7 +296,7 @@ export const beat_shots = {
     N09c: shot('makkah', north - 0.2, 0.42, 4, 0.1),
     N03a: shot('cave', north + 0.15, 0.13, 0.023, 0.0018),
     // From behind Thawr, towards Makkah.
-    N03b: shot('makkah_valley', south + 0.3, 0.3, 8.5, 0.1),
+    N03b: shot('makkah_valley', south + 0.3, 0.3, 5, 0.1),
     // Three nights pass over the slope.
     N03c: shot('cave', north + 0.9, 0.1, 0.06, 0.006),
     // Low view of the aperture; the generated mesh is not a navigable interior.
