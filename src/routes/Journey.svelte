@@ -469,8 +469,8 @@
                   left: 0,
                   // The chapter panel takes the right side while one is open.
                   right: reading_chapter && !narrow ? Math.min(776, viewport_width - 280) : 0,
-                  top: narrow ? 140 : 128,
-                  bottom: narrow ? 220 : 110,
+                  top: narrow ? 190 : 184,
+                  bottom: narrow ? 160 : 90,
               }
             : narrow
               ? { left: 0, right: 0, top: 120, bottom: journey.started ? card_height + 30 : 300 }
@@ -1756,9 +1756,21 @@
         </div>
     </header>
 
+    {#if map_open && !sheet}
+        <!-- Where "Explore the map" was: once the journey has begun, back to the stage the
+             learner was on. -->
+        <a
+            class="{ghost_button} absolute z-20 top-[80px] start-6 mobile:top-16 mobile:start-[14px] [&>svg]:rtl:-scale-x-100"
+            href={journey.started
+                ? journey_href(scene_path(), { ...context(), view: 'scene' })
+                : journey_href('/journey/hijrah/setting', { ...context(), view: 'scene' })}
+        >
+            {#if journey.started}{@render icon('back')} Back to the journey{:else}{@render icon('start')} Begin the journey{/if}
+        </a>
+    {/if}
     {#if map_open && !reading_chapter && !sheet}
         <section
-            class="absolute z-20 top-[80px] inset-x-6 mobile:top-16 mobile:inset-x-[14px]"
+            class="absolute z-20 top-[136px] inset-x-6 mobile:top-[116px] mobile:inset-x-[14px]"
             aria-labelledby="map-title"
         >
             <div class="flex items-center justify-between gap-3">
@@ -1790,13 +1802,6 @@
             style:right={reading_chapter && !narrow ? '800px' : null}
             aria-label="Hijrah chapters"
         >
-            <div class="flex items-center justify-end gap-3 mb-2">
-                <a
-                    class={ghost_button}
-                    href={journey_href('/journey/hijrah/setting', { ...context(), view: 'scene' })}
-                    ><span>Begin the journey</span></a
-                >
-            </div>
             <!-- All the chapters in story order, numbered as on the map. -->
             <ol
                 class="flex gap-2 overflow-x-auto pb-1 list-none [scrollbar-width:thin] [scrollbar-color:#6d5529_transparent]"
