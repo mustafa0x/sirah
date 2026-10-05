@@ -704,8 +704,20 @@ export async function create_scene(
                     const lift = place.set ? 0.0034 : regional ? 0.12 : 0.04
                     const key = `${ground.x.toFixed(4)},${ground.z.toFixed(4)}`
                     if (!world.evidence.has(key))
-                        world.evidence.set(key, { at: ground.setY(ground.y + lift), ids: [] })
-                    world.evidence.get(key).ids.push(source.id)
+                        world.evidence.set(key, { at: ground.setY(ground.y + lift), groups: [] })
+                    // Excerpts of one work at one place are one passage, and one marker.
+                    const groups = world.evidence.get(key).groups
+                    let group = groups.find((item) => item.reference === source.reference)
+                    if (!group) {
+                        group = {
+                            id: `${name}:${key}:${source.reference}`,
+                            reference: source.reference,
+                            kind: source.kind,
+                            ids: [],
+                        }
+                        groups.push(group)
+                    }
+                    group.ids.push(source.id)
                 }
 
                 scene.add(world.group)
@@ -867,27 +879,38 @@ export async function create_scene(
             labels.append(node)
             return { poi, node }
         })
-        // Evidence: one point of light per cited passage, clustered where they share a place.
+        // Evidence: one point of light per cited passage (excerpts of one work at one place
+        // share it), clustered where passages share a place. The current stage's passages
+        // stay bright; the rest dim but can still be opened.
         let evidence_on = false
-        const evidence_nodes = new Map(
-            chapter.sources.map((source) => {
-                const node = document.createElement('a')
-                node.className = `absolute top-0 left-0 size-[11px] p-0 rounded-full border border-solid border-[rgba(255,255,255,0.7)] pointer-events-auto [translate:-50%_-50%] transition-transform duration-150 ease-[ease] hover:scale-150 focus-visible:scale-150 [&[hidden]]:hidden ${evidence_dot[source.kind]}`
-                node.title = `${source.number}. ${source.reference}`
-                node.setAttribute('aria-label', node.title)
-                node.hidden = true
-                node.addEventListener('click', (event) =>
-                    follow_link(event, () => on_source(source.id)),
+        let evidence_focus = new Set()
+        let evidence_link = null
+        const evidence_nodes = new Map()
+        const evidence_node = (group) => {
+            if (evidence_nodes.has(group.id)) return evidence_nodes.get(group.id)
+            const node = document.createElement('a')
+            node.className = `absolute top-0 left-0 size-[11px] p-0 rounded-full border border-solid border-[rgba(255,255,255,0.7)] pointer-events-auto [translate:-50%_-50%] transition-[transform,opacity] duration-200 ease-[ease] hover:scale-150 focus-visible:scale-150 data-[dim=true]:scale-75 data-[dim=true]:opacity-40 data-[dim=true]:hover:scale-125 data-[dim=true]:hover:opacity-100 [&[hidden]]:hidden ${evidence_dot[group.kind]}`
+            node.title = group.reference
+            node.setAttribute('aria-label', group.reference)
+            node.hidden = true
+            // Open the excerpt the current stage cites, when it cites one.
+            const opened = () => group.ids.find((id) => evidence_focus.has(id)) ?? group.ids[0]
+            node.addEventListener('click', (event) => follow_link(event, () => on_source(opened())))
+            if (evidence_link)
+                node.href = journey_href(
+                    `/journey/hijrah/sources/${group.ids[0]}`,
+                    ...evidence_link,
                 )
-                labels.append(node)
-                return [source.id, node]
-            }),
-        )
+            labels.append(node)
+            evidence_nodes.set(group.id, { node, group })
+            return evidence_nodes.get(group.id)
+        }
         api.set_links = (context, at) => {
             for (const { poi, node } of label_nodes)
                 node.href = journey_href(`/places/${poi.id}`, context, at)
-            for (const [id, node] of evidence_nodes)
-                node.href = journey_href(`/journey/hijrah/sources/${id}`, context, at)
+            evidence_link = [context, at]
+            for (const { node, group } of evidence_nodes.values())
+                node.href = journey_href(`/journey/hijrah/sources/${group.ids[0]}`, context, at)
         }
         const chapter_nodes = new Map()
         api.set_chapters = (items) => {
@@ -999,7 +1022,7 @@ export async function create_scene(
             const height = host.clientHeight
             const shown = new Set()
             if (evidence_on) {
-                for (const { at, ids } of active.evidence.values()) {
+                for (const { at, groups } of active.evidence.values()) {
                     projected.copy(at).multiplyScalar(active.scale).project(camera)
                     if (
                         projected.z > 1 ||
@@ -1009,18 +1032,25 @@ export async function create_scene(
                         continue
                     const x = ((projected.x + 1) / 2) * width
                     const y = ((1 - projected.y) / 2) * height
-                    // A sunflower spiral keeps a cluster readable at any size.
-                    ids.forEach((id, index) => {
-                        const node = evidence_nodes.get(id)
+                    // A sunflower spiral keeps a cluster readable at any size, with the
+                    // current stage's passages at its centre.
+                    const focused = (group) => group.ids.some((id) => evidence_focus.has(id))
+                    const ordered = [
+                        ...groups.filter(focused),
+                        ...groups.filter((group) => !focused(group)),
+                    ]
+                    ordered.forEach((group, index) => {
+                        const { node } = evidence_node(group)
                         const radius = 9 * Math.sqrt(index)
                         const angle = index * 2.39996
                         node.style.left = `${x + radius * Math.cos(angle)}px`
                         node.style.top = `${y + radius * Math.sin(angle)}px`
-                        shown.add(id)
+                        node.dataset.dim = String(!focused(group))
+                        shown.add(group.id)
                     })
                 }
             }
-            for (const [id, node] of evidence_nodes) node.hidden = !shown.has(id)
+            for (const [key, { node }] of evidence_nodes) node.hidden = !shown.has(key)
         }
         const insets = { left: 0, right: 0, bottom: 0, top: 0 }
         const inset_target = { left: 0, right: 0, bottom: 0, top: 0 }
@@ -1423,8 +1453,10 @@ export async function create_scene(
             for (let leg = 0; leg < leg_target.length; leg += 1)
                 leg_target[leg] = progress[leg] ?? 0
         }
-        api.set_evidence = (on) => {
-            evidence_on = on
+        // `focus` lists the current stage's source ids; null hides the evidence.
+        api.set_evidence = (focus) => {
+            evidence_on = Boolean(focus)
+            evidence_focus = new Set(focus ?? [])
         }
         api.set_actor = (name) => {
             actor = name

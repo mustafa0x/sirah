@@ -54,7 +54,7 @@
     $effect(() => world?.set_route(route))
     $effect(() => world?.set_cycle(cycle))
     $effect(() => world?.set_actor(actor))
-    $effect(() => world?.set_evidence(Boolean(evidence)))
+    $effect(() => world?.set_evidence(evidence))
     $effect(() => world?.set_insets(insets))
     $effect(() => world?.set_active(active_poi_id))
     $effect(() => world?.set_links(link_context, link_at))

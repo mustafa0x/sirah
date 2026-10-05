@@ -211,10 +211,15 @@
     let timeline_open = $state(mode === 'deep')
     let open_term = $state(null)
     let timeline_pick = $state(null)
+    // Passages, as on the map: excerpts of one work at one place count once.
     const evidence_counts = Object.fromEntries(
         evidence_kinds.map((kind) => [
             kind,
-            chapter.sources.filter((source) => source.kind === kind).length,
+            new Set(
+                chapter.sources
+                    .filter((source) => source.kind === kind)
+                    .map((source) => `${source.place}|${source.reference}`),
+            ).size,
         ]),
     )
     const certainty_bar = {
@@ -1482,7 +1487,7 @@
             link_at={current_cue?.id ?? selected_step.paragraphs[0]?.id}
             active_poi_id={active_poi?.id ?? null}
             on_poi={select_poi}
-            evidence={evidence_on && !map_open}
+            evidence={evidence_on && !map_open ? selected_step.source_ids : null}
             on_source={view_source}
         />
     </div>
