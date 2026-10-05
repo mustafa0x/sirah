@@ -1,0 +1,1933 @@
+{
+  "chapter_id": "hch_early_migration",
+  "revision": 1,
+  "locale": "fa",
+  "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+  "arabic_payload_sha256": "af2f392f6b20af92126eabcea7cfb0b645f424f1e103781da5425e896b65cf86",
+  "status": "translation_ready",
+  "units": [
+    {
+      "unit_id": "hch_early_migration:title_ar",
+      "source_text_sha256": "1d6585f8b4b4df20a3078e4710f00887abe7b680886ef63b97161e9f9bc4e59f",
+      "text": "پیش از خروج پیامبر ﷺ: مهاجران و راه‌هایی که یکسان نبودند"
+    },
+    {
+      "unit_id": "hch_early_migration:reader_question_ar",
+      "source_text_sha256": "c3fe898628dbb8461475eac17078b627ac3892eaecfaadc8bfeb98d1b9dc55f2",
+      "text": "مهاجران چگونه پیش از پیامبر ﷺ به مدینه رسیدند، و برخی در راه با چه مانعی روبه‌رو شدند یا چگونه از خانواده‌شان جدا افتادند؟"
+    },
+    {
+      "unit_id": "hch_early_migration_overview_1:text_ar",
+      "source_text_sha256": "1f619fd1cfd0601b1f5ccb6f38dcf4bf223877b851b652110f2143e9b025999d",
+      "text": "هجرت کاروانی واحد نبود که در یک روز راه افتاده باشد. روایتی ابوسلمه را در شمار نخستین کسانی یاد می‌کند که رهسپار مدینه شدند، و در خبر براء، مصعب بن عمیر و ابن ام مکتوم نخستین کسانی‌اند که نزد قوم او رسیدند. پشت ترتیب نام‌ها، داستان‌هایی متفاوت از رفتن نهفته است: خانواده‌ای که بستگانشان نگذاشتند با هم بمانند، همراهانی که همگی به قرارگاه نرسیدند، و مهاجری که دارایی‌اش را داد تا راهش باز شود."
+    },
+    {
+      "unit_id": "hch_early_migration_family:title_ar",
+      "source_text_sha256": "629a04cdcc1789c4e93880afdc410d36fa856cb58fed5ae1fcb397d1ff15af11",
+      "text": "خانواده‌ای که جدا افتاد و سپس به هم پیوست"
+    },
+    {
+      "unit_id": "hch_early_migration_family_1:text_ar",
+      "source_text_sha256": "7f0ad56685c099c0a0bba8ab4e1bcfab1aba60f98b6e0f8608b55ef0f4ae3134",
+      "text": "ابن اسحاق، ابوسلمه عبدالله بن عبدالاسد را در آغاز مهاجرانِ قریش از بنی‌مخزوم به مدینه می‌آورد. او از حبشه بازگشته بود، قریش آزارش داد و خبر مسلمان شدنِ کسانی از انصار به او رسید؛ پس به سوی مدینه رفت."
+    },
+    {
+      "unit_id": "hch_early_migration_family_2:text_ar",
+      "source_text_sha256": "e89b118939e5ccd88901bbf8244123adea2beeaed02fa8a773aa3237c726bfcc",
+      "text": "ام سلمه روایت می‌کند که با پسرش سلمه بر شتر ابوسلمه سوار شد، اما مردانی از بنی‌مغیره جلوی رفتنش را گرفتند و او را نزد خود بردند؛ بنی‌عبدالاسد نیز کودک را گرفتند، در حالی که ابوسلمه به مدینه رفت. می‌گوید هر بامداد به ابطح می‌رفت و می‌گریست، تا یک سال یا نزدیک به آن گذشت."
+    },
+    {
+      "unit_id": "hch_early_migration_family_3:text_ar",
+      "source_text_sha256": "0fd4e7517912d3da73beed92d3718019e7dac38bba7869c5c1bb25a6e431c03b",
+      "text": "سپس به او اجازه دادند به شوهرش بپیوندد و پسرش را به او بازگرداندند. با فرزندش راه افتاد؛ عثمان بن طلحه در تنعیم با او روبه‌رو شد، افسار شترش را گرفت و در راه یاری‌اش کرد. در قبا، روستایی را که ابوسلمه در آن اقامت داشت به او نشان داد و سپس به مکه بازگشت. بدین‌سان، در روایت او، آنچه هنگام خروج نخست ممکن نشده بود سرانجام تحقق یافت."
+    },
+    {
+      "unit_id": "hch_early_migration_companions:title_ar",
+      "source_text_sha256": "ec665bf717c508b83fabdd4a41f069dd52c3f52e27789be79cb19d56f6ce9baa",
+      "text": "قرار سه تن و آنچه بر عیاش گذشت"
+    },
+    {
+      "unit_id": "hch_early_migration_companions_1:text_ar",
+      "source_text_sha256": "d838437619b3942c0b0e3f482be9b13a19fecc0c02aba11a1f79bf285eda6033",
+      "text": "عمر روایت می‌کند که با عیاش بن ابی‌ربیعه و هشام بن عاص بر سر جای دیداری توافق کردند تا هنگام تصمیم به هجرت آنجا جمع شوند: اگر یکی از آنان گرفتار و بازداشته شد، دو تن دیگر به راه خود بروند. عمر و عیاش حاضر شدند، اما هشام نیامد؛ سپس آن دو در میان بنی‌عمرو بن عوف در قبا فرود آمدند."
+    },
+    {
+      "unit_id": "hch_early_migration_companions_2:text_ar",
+      "source_text_sha256": "a5af8516d2d1712883f1d534a20705dfb11cce4bbcae444a420d075c09a37eec",
+      "text": "پس از رسیدن آن دو، ابوجهل و حارث بن هشام نزد عیاش آمدند و به او گفتند مادرش نذر کرده است تا او را نبیند، موی خود را شانه نکند و زیر سایه نرود. عمر به او هشدار داد و برای ماندنش نیمی از دارایی خود را پیشنهاد کرد؛ چون عیاش بر بازگشت اصرار ورزید، شترش را به او داد. آن دو در بخشی از راه او را بستند و به مکه بازگرداندند؛ رسیدن به مدینه پایان خطر برای عیاش نبود."
+    },
+    {
+      "unit_id": "hch_early_migration_price:title_ar",
+      "source_text_sha256": "ad42ef13df615d929920ebdcd8f156898cefed1f8ccabc061e2a232d8dfcd11f",
+      "text": "دارایی صهیب و راهی که گشوده شد"
+    },
+    {
+      "unit_id": "hch_early_migration_price_1:text_ar",
+      "source_text_sha256": "cc49c57ee3eb36b583bbe18af222a5e5d766cffd0c94dc041ad20b16a582fe74",
+      "text": "در خبری که ابن هشام به صورت بلاغ از ابوعثمان نهدی نقل می‌کند، صهیب می‌خواست هجرت کند، اما گروهی نگذاشتند خودش و دارایی‌اش را با هم ببرد. دارایی‌اش را به آنان پیشنهاد کرد تا رهایش کنند و پذیرفتند؛ چون خبر به پیامبر ﷺ رسید، بنا بر همین بلاغ فرمود: «صهیب سود برد، صهیب سود برد»."
+    },
+    {
+      "unit_id": "hch_early_migration_arrival:title_ar",
+      "source_text_sha256": "d4e4f4a513e4268f4cb0f755e3ec5c745c17fa9ee1ba70f8742677324cc20e19",
+      "text": "گونه‌های رسیدن"
+    },
+    {
+      "unit_id": "hch_early_migration_arrival_1:text_ar",
+      "source_text_sha256": "16f1f8e7fdbc93f71c1263ba7ff831ad058ef92218751ac645df576f54c3cd59",
+      "text": "براء در روایت بخاری می‌گوید: «نخستین کسانی که نزد ما آمدند، مصعب بن عمیر و ابن ام مکتوم بودند». در طریق دیگری نام کسانی را که پس از آنان آمدند می‌برد و سپس از آمدن عمر همراه بیست نفر، پیش از رسیدن پیامبر ﷺ، یاد می‌کند. آمدن‌ها پی‌درپی بود، نه اینکه همه همراه پیامبر ﷺ راه افتاده باشند."
+    },
+    {
+      "unit_id": "hch_early_migration_arrival_2:text_ar",
+      "source_text_sha256": "a3b66226f77d79919bda94617d10b754cd700a74d80f60639ed21558caa31739",
+      "text": "در خبر ابن عمر که بیهقی آورده است، کسانی که از مکه آمده بودند در جایی به نام «عُصبه» فرود آمدند؛ عمر، ابوعبیده و سالم، آزادشدهٔ ابوحذیفه، در میان آنان بودند. سالم پیش‌نمازشان بود، زیرا از همه بیشتر قرآن می‌دانست. روایت ابن سعد پیش‌نمازی او برای مهاجران را در قبا و پیش از آمدن پیامبر ﷺ وصف می‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_firstness:title_ar",
+      "source_text_sha256": "6af833bafc0f7ff17246fae7ad6cd4bed04cba012c49fc6c9cae4bdebeb48e61",
+      "text": "منظور از «نخستین» کدام است؟"
+    },
+    {
+      "unit_id": "hch_early_migration_depth_1:text_ar",
+      "source_text_sha256": "a89f5c4f7b11f9acb9d1ff8a946a04c661e304cc752fb3ff6a71d28e316e888f",
+      "text": "ابن اسحاق، نخستین بودن ابوسلمه را به مهاجران قریش از بنی‌مخزوم به مدینه مقید می‌کند و خروج او را یک سال پیش از بیعت اصحاب عقبه قرار می‌دهد. ابن کثیر صورت دیگری از گفتهٔ او نقل می‌کند که می‌افزاید ابوسلمه ابتدا قصد بازگشت به حبشه داشت، اما سپس راه مدینه را برگزید؛ نباید این دو صورت را در یک عبارت خلاصه کرد. براء می‌گوید «نخستین کسانی که نزد ما آمدند» و مصعب و ابن ام مکتوم را نام می‌برد؛ «نزد ما» جایگاه گوینده را مشخص می‌کند و روا نیست یکی از این دو عبارت را به فهرستی فراگیر تبدیل کنیم که دیگری را کنار بزند."
+    },
+    {
+      "unit_id": "hch_early_migration_depth_2:text_ar",
+      "source_text_sha256": "5d609b4a92bd768b41a2e3cf02c6840af7663bea04da8135549899fea392d006",
+      "text": "در خبر موسی بن عقبه از زهری، مردم دسته‌دسته بیرون رفتند. این خبر دربارهٔ نخستین زنِ مسافر با کجاوه، ام سلمه را نام می‌برد و می‌گوید بعضی ام عبدالله دختر ابی‌حثمه را نام برده‌اند، سپس می‌افزاید: «و خدا داناتر است». ابن اسحاق همسر عامر را لیلی دختر ابی‌حثمه می‌نامد. این‌ها تعبیرهای دو منبع‌اند، نه مسابقه‌ای که بتوان با کنار گذاشتن روایت ام سلمه از جدایی‌اش از ابوسلمه در آغاز سفر، نتیجه‌اش را قطعی دانست."
+    },
+    {
+      "unit_id": "hch_early_migration_voices:title_ar",
+      "source_text_sha256": "43ab7ffdc925f1dc2e86fd7a5faa5a087ac10fa7e85c37754b2a52823240008b",
+      "text": "چه کسی برای ما روایت می‌کند؟"
+    },
+    {
+      "unit_id": "hch_early_migration_depth_3:text_ar",
+      "source_text_sha256": "60f786711832eaf3cf6bf2b4716551256c6e06383e84f021d86ad0d2be684951",
+      "text": "گواهی ام سلمه در چارچوب سلسله‌راویانی که ابن اسحاق آورده، تصریح به تاریخی معین نیست: «یک سال یا نزدیک به آن» برآورد او از مدت جدایی است. بخشی از گواهی او با وصف نیک‌رفتاری عثمان با او آغاز می‌شود و بخش بعد، ماجرا را تا قبا ادامه می‌دهد؛ خواندن خبر نباید با پایان صفحه متوقف شود."
+    },
+    {
+      "unit_id": "hch_early_migration_depth_4:text_ar",
+      "source_text_sha256": "7bfaa75df4837dcf254234c01e2badc2795f8d09627b633e4ccfb47b61f66aae",
+      "text": "عمر ماجرای عیاش را روایت می‌کند، سپس ابن اسحاق برای گزارشِ نشان دادن عیاش در حالِ بسته‌شده به مردم مکه، با عبارت «یکی از خاندان عیاش آن را برایم روایت کرد» سخن را ادامه می‌دهد. راوی این افزوده نام ندارد؛ بنابراین نباید آن را سخن عمر بنامیم. همچنین خبر صهیب نزد ابن هشام با دو عبارت «برایم نقل شده» و «به من رسیده است» آغاز می‌شود؛ آن را روایت مستقیم از خود صهیب نمی‌انگاریم."
+    },
+    {
+      "unit_id": "hch_early_migration_variants:title_ar",
+      "source_text_sha256": "c97791d0066a11c1dc09c93e0eeacec72bfff0c296daedfc849a365d5c83d117",
+      "text": "تفاوت طریق‌ها و حدّ کنار هم نهادنشان"
+    },
+    {
+      "unit_id": "hch_early_migration_depth_5:text_ar",
+      "source_text_sha256": "91eedbf27ce24530fcf4e3e54f33ab37b5d0880a34d361d006d64e43131de838",
+      "text": "در روایت دیگری دربارهٔ صهیب که ابن کثیر از بیهقی نقل کرده، او قصد داشت با پیامبر ﷺ و ابوبکر بیرون رود، اما چند جوان مانعش شدند؛ صهیب مقداری طلا به اندازهٔ چند اوقیه پیشنهاد کرد و جای دو جامه را نشانشان داد، سپس در قبا نزد پیامبر ﷺ آمد. اوقیه‌ها و آن دو جامه را نباید وارد بلاغ ابوعثمان کرد که فقط از واگذاری مال می‌گوید؛ تعبیر «سودمند شد این معامله» در ادامهٔ این طریق نیز غیر از «صهیب سود برد» در آن بلاغ است."
+    },
+    {
+      "unit_id": "hch_early_migration_depth_6:text_ar",
+      "source_text_sha256": "970ecbd33a5013f3b7b056d036e89a0cdf3cbd6c6e1291005f452738325e6aa2",
+      "text": "طریق خبر عمر در بیهقی نیز از ابن اسحاق، از نافع، از ابن عمر می‌گذرد؛ در آن، نوشتار واژهٔ محل قرار و بخشی از ضبط نام آن مکان با روایت ابن هشام تفاوت دارد، نه شمار گواهی‌های عمر. از وصف نسبی محل قرار در خبر، روز دقیق یا مختصات تناضب را تعیین نمی‌کنیم."
+    },
+    {
+      "unit_id": "hch_early_migration_depth_7:text_ar",
+      "source_text_sha256": "8c4b19d8749cd155e4a5dc64f4d305e892707f4508866464c839113a0da96a93",
+      "text": "ابن کثیر از یعقوب بن سفیان خبر پیش‌نمازی سالم در عُصبه را نقل کرده و در عبارت سند آن با صورت بیهقی تفاوتی هست؛ صرفِ نقل آن در کتاب، سند تازه‌ای پدید نمی‌آورد. خبر ابن سعد، قبا را مکان پیش‌نمازی سالم پیش از آمدن پیامبر ﷺ می‌نامد، اما این بدان معنا نیست که عُصبه در همهٔ روایت‌ها نام قباست یا فهرست نمازگزاران یکسان است."
+    },
+    {
+      "unit_id": "hch_early_migration_outline_1:text_ar",
+      "source_text_sha256": "4258c41faa15285d40bed8af7bdf2653e8a650933e5fd33d063ce123f09d5875",
+      "text": "جدایی ابوسلمه، ام سلمه و فرزندشان، سپس پیوستن مادر و فرزند"
+    },
+    {
+      "unit_id": "hch_early_migration_outline_2:text_ar",
+      "source_text_sha256": "9c8f2440c58996fb2cc0163ca6c073efd2eaff08ceaeff1ee31e09debe6cc155",
+      "text": "قرار سه تن برای دیدار و بازگرداندن عیاش در حالی که بسته شده بود"
+    },
+    {
+      "unit_id": "hch_early_migration_outline_3:text_ar",
+      "source_text_sha256": "c7d39e4d548a27f00492a2d6c9234e63c6518eb7e48a8089718abd42668e49ee",
+      "text": "رسیدن گزارش صهیب و واگذاری دارایی"
+    },
+    {
+      "unit_id": "hch_early_migration_outline_4:text_ar",
+      "source_text_sha256": "683848e69366bdc7f6e37d2f36b97985e22a56aad71fc37a7aafa2a182bfda6a",
+      "text": "«نخستین کسانی که نزد ما آمدند» در خبر براء و پیش‌نمازی سالم"
+    },
+    {
+      "unit_id": "hch_early_migration_read_family:title_ar",
+      "source_text_sha256": "2a082b01257c6f28f764cb40478250b464c257ceeda0b21319f19c8173efd9c5",
+      "text": "ابوسلمه و گواهی ام سلمه تا قبا"
+    },
+    {
+      "unit_id": "hch_early_migration_read_first:title_ar",
+      "source_text_sha256": "7796b1ad2f17b26d54ae0cd95d9753680213fa9ecfa6f14b3819a43a144876fe",
+      "text": "براء و موسی بن عقبه: رسیدن و نخستین زنِ مسافر با کجاوه"
+    },
+    {
+      "unit_id": "hch_early_migration_read_umar:title_ar",
+      "source_text_sha256": "a11e25bdf9a391e62cf9326354b8cf23e75e029d2737f23d824ebe8c898a0ea5",
+      "text": "قرار دیدار و بازگرداندن عیاش"
+    },
+    {
+      "unit_id": "hch_early_migration_read_suhayb:title_ar",
+      "source_text_sha256": "e30b0d35eafc1f2bafabafb3eb1d82e61b7f6e9d9668f233fb5dd45b464347b4",
+      "text": "بلاغ صهیب و طریق روایت‌شدهٔ دیگر دربارهٔ او"
+    },
+    {
+      "unit_id": "hch_early_migration_read_salim:title_ar",
+      "source_text_sha256": "27258b3de63483a7a73f8630a7f2c75f7dacbfc3f0e7f946ff66c143b0235256",
+      "text": "پیش‌نمازی سالم در عُصبه و قبا"
+    },
+    {
+      "unit_id": "hc_earlier_exp_abu_salama_objective_1:text_ar",
+      "source_text_sha256": "1c58365c767ec8b2c8484b29cee31502656f644598bc2b25e6c644a7e38f6a51",
+      "text": "جدایی شوهر، مادر و کودک و سپس پیوستنشان را دنبال کند و مدت تقریبی و انتساب گواهی را به یاد داشته باشد."
+    },
+    {
+      "unit_id": "hc_earlier_exp_abu_salama_objective_2:text_ar",
+      "source_text_sha256": "14930997107c8e51da5f708b5d365dba9be8937a5f54c9ec19bec3cb604718eb",
+      "text": "قیدِ نخستین بودن ابوسلمه و زمینهٔ بیعت را از ترتیبی فراگیر یا تاریخی یکسان و بی‌گواه جدا کند."
+    },
+    {
+      "unit_id": "hc_earlier_exp_precedence_objective_1:text_ar",
+      "source_text_sha256": "c7ee7b2350d518e5e7ee23011b380b2937ca12db227b17502c4ff6f6fd08a01b",
+      "text": "مخاطبانِ «نزد ما آمدند» را مشخص کند و تفاوت عبارت‌ها دربارهٔ نخستین زنِ مسافر، نخستین بودن یک خاندان و تاریخ‌گذاریِ ابن سعد را بازشناسد."
+    },
+    {
+      "unit_id": "hc_earlier_exp_umar_objective_1:text_ar",
+      "source_text_sha256": "6d359152bf3343b05743008b95535628dc12162c671f35e2bf93499725830651",
+      "text": "قرار دیدار سه تن را از حضور عمر و عیاش متمایز کند و منبع تعیین محل و نبود مختصات را در نظر داشته باشد."
+    },
+    {
+      "unit_id": "hc_earlier_exp_detained_objective_1:text_ar",
+      "source_text_sha256": "b87bd70d15d0add0e3051d98f16599ef0e3df31a4ca3055f386155d16b54c73a",
+      "text": "سخنان خطاب به عیاش را از هشدار عمر، و افزودهٔ راوی نامعلوم را از گواهی عمر بازشناسد."
+    },
+    {
+      "unit_id": "hc_earlier_exp_suhayb_objective_1:text_ar",
+      "source_text_sha256": "6a59547a82f949efbcb1fe4f4b07cd3ec57f80480e195d85b87576cb7d6269e7",
+      "text": "آنچه صهیب در بلاغ پیشنهاد کرد مشخص کند، بی‌آنکه اوقیه‌های طلا و دو جامهٔ طریق دیگر را به آن وارد کند."
+    },
+    {
+      "unit_id": "hc_earlier_exp_salim_objective_1:text_ar",
+      "source_text_sha256": "05514c4297622d87e2a7b86ce6595641205042328205be5886414442804891bc",
+      "text": "پیش‌نماز یادشده و علت پیش‌نمازی او و قید مکان جماعت در هر نقل را مشخص کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:prompt_ar",
+      "source_text_sha256": "ddd5d9beb10cfc12b437f4a4ba19b873de98337c0327294ff4f34002707685d8",
+      "text": "در نخستین تلاش خانوادهٔ ابوسلمه برای خروج چه رخ داد؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:explanation_ar",
+      "source_text_sha256": "e3656598ded28f7d6f89dea3360119490f4fb079cef1c4359126ee23970092dc",
+      "text": "بنی‌مغیره مادر را گرفتند، بنی‌عبدالاسد کودک را گرفتند و ابوسلمه به راه خود رفت."
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:scope_note_ar",
+      "source_text_sha256": "5d273b4596ecacdd8ec94bc83efbaf5a9ead449ee32d41795de9d8674b544e50",
+      "text": "بنا بر گواهی ام سلمه در روایت ابن اسحاق."
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:all:text_ar",
+      "source_text_sha256": "a350f725b6f021feab2dd7caca305a6b8087bf7267e0270517a87aa87e687c40",
+      "text": "همگی با یک شتر تا قبا رفتند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:all:feedback_ar",
+      "source_text_sha256": "576fa1419d91be38db832e5d47928241d1a9a6277c72a0414431d5ad8b882110",
+      "text": "در گواهی ام سلمه، خانواده هنگام جلوگیری بستگانش از رفتنشان از هم جدا شد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:split:text_ar",
+      "source_text_sha256": "60df161f00d160ce670f13b5bf7191d1345af2ef8e4b3d22b47c9074237fc443",
+      "text": "ابوسلمه رفت، ام سلمه را بازداشتند و بستگان ابوسلمه پسرش را گرفتند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:split:feedback_ar",
+      "source_text_sha256": "b8e83258bbb90e2dc0d66b654901d33480af47e954e53c36bb7c932de0424176",
+      "text": "درست است؛ شوهر رفت و مادر را از پسرش جدا کردند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:mother:text_ar",
+      "source_text_sha256": "6860f96af70b26457eef4734c8255f9c99cd699cec3e9b5e1afbb974733023ff",
+      "text": "ام سلمه نخست همراه پسرش رفت و ابوسلمه در مکه ماند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_family:mother:feedback_ar",
+      "source_text_sha256": "e6805893a7de9b301a8479e1b13024fbdc9a26410f7a8e1a00db3e9cd29b755d",
+      "text": "ام سلمه روایت می‌کند که ابوسلمه نخست به مدینه رفت."
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:prompt_ar",
+      "source_text_sha256": "d66770b5e87b65b3f29feccde6029f9bbada035d8cff345366b7af3cce9e6c7f",
+      "text": "ام سلمه و پسرش پس از جدایی چگونه به ابوسلمه رسیدند؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:explanation_ar",
+      "source_text_sha256": "277a2d91aef41d78fbb2f770feb2294406be889a5bd17c57476ac7a851af8776",
+      "text": "گزارش خروج او با پسرش، با یاری عثمان به او و سپس رسیدن به قبا ادامه می‌یابد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:scope_note_ar",
+      "source_text_sha256": "fcbbf2ba326f2303b54aa85aa2f1b0167c759ece5553d512464e85c80bfbf6e8",
+      "text": "دو بخش به‌هم‌پیوستهٔ خبر ام سلمه را باید با هم خواند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:with_umar:text_ar",
+      "source_text_sha256": "a7deb2d942e7e10a4072f678679a256ae15269b85d0ab815438c926f58834dc8",
+      "text": "عمر از محل قرارش با عیاش تا قبا همراهشان بود."
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:with_umar:feedback_ar",
+      "source_text_sha256": "792ae15fd023f6e985af6db5e0673eb7e9a4b2467c9ec0033f7438454ac062df",
+      "text": "خبر عمر و عیاش طریق دیگری است، نه گزارشی از همراهی با ام سلمه."
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:uthman:text_ar",
+      "source_text_sha256": "9fc0ab00bc39f267dd741f7cb30047bf7d7a6dec1cb1b1eed8f8c6a598903070",
+      "text": "پسرش را به او بازگرداندند؛ سپس عثمان بن طلحه در راه کمکش کرد تا جای شوهرش را در قبا به او نشان داد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:uthman:feedback_ar",
+      "source_text_sha256": "3274c22b49b5865d8439bafdd59b2c5ed7188c5292f7f2eadb3b1a89bdf88689",
+      "text": "درست است؛ روایت می‌کند که پس از بازگرداندن پسرش، با او راه افتاد و عثمان همراهش شد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:together:text_ar",
+      "source_text_sha256": "4f00a874e15d8a6125b32adf005237eac3386acbb2e8569cbb494c9d24a38215",
+      "text": "از آغاز همراه شوهرش بیرون رفت و هرگز از او جدا نشد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_reunion:together:feedback_ar",
+      "source_text_sha256": "435b4c9ebdfcd58ffc73e8e16922e334b9d5c4c48c7d7ac428c218c61f223b56",
+      "text": "ام سلمه از جدایی‌اش از شوهر و پسرش، پیش از پیوستن به او، روایت می‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:prompt_ar",
+      "source_text_sha256": "5d4735fe052acd16284dc454b54460e4fd7518b2daa1243f41ea8d0df8274411",
+      "text": "ام سلمه مدت گریه‌اش در ابطح را چگونه بیان کرد؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:explanation_ar",
+      "source_text_sha256": "30759d47d4e5753fbfa50b933a8ea4789284477f896c25f832d7a31c4c925e23",
+      "text": "در متن خواندنی، ام سلمه می‌گوید: «یک سال یا نزدیک به آن»."
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:scope_note_ar",
+      "source_text_sha256": "7a005c6ba8892b22c45b06b99344ff34542d0c5a001b66f7e982e3c2448678af",
+      "text": "این عبارت از گواهی نقل‌شدهٔ اوست، نه اندازه‌گیری مستقلِ تقویمی."
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:exact:text_ar",
+      "source_text_sha256": "c56a664e2e103dddff0e86a68ad6ddcd2df28bc3c241652c33d6b36345f3f3c6",
+      "text": "یک سال کامل، تا روزی مشخص."
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:exact:feedback_ar",
+      "source_text_sha256": "ddd1e3d18331997b5b83e63e15a6c16b1e6d2b342406562bc4c1709b730651fd",
+      "text": "متن می‌گوید «یک سال یا نزدیک به آن» و روز معینی نام نمی‌برد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:approx:text_ar",
+      "source_text_sha256": "d9aecca3db69a830dde1b26f45f3c32cf36026fa1041e45f3f7de98b554a835c",
+      "text": "یک سال یا نزدیک به آن."
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:approx:feedback_ar",
+      "source_text_sha256": "d0d1ebac16c52dac6ae6f7527c6a082ed664c5244b41e21bdbeb0f6ba121bd85",
+      "text": "درست است؛ عبارت تقریبی است، نه تاریخی با روز و ماه مشخص."
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:three:text_ar",
+      "source_text_sha256": "7129a6543b79c2e23b1b3ced259a7b2537aec3694deea4e7a326f659720fb72c",
+      "text": "فقط سه شب."
+    },
+    {
+      "unit_id": "hch_early_migration_q_duration:three:feedback_ar",
+      "source_text_sha256": "9bb6fdb303f944c193e626febe13b0d9ca743fd0fe2ed71ea2cf82c77a0d6da7",
+      "text": "این عبارت گواهی ام سلمه دربارهٔ مدت جدایی‌اش نیست."
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:prompt_ar",
+      "source_text_sha256": "3799820e19e4c80d7b689108fb36bac9e494f2f7c898879799e2ed79729fe434",
+      "text": "با پیش آوردن ابوسلمه از سوی ابن اسحاق و گفتهٔ براء «نخستین کسانی که نزد ما آمدند» چگونه برخورد کنیم؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:explanation_ar",
+      "source_text_sha256": "319a89356cf0e687fa7d8a761aaf97791902403668ef2e72b61942c33debf8c2",
+      "text": "ابن اسحاق وصف ابوسلمه را مقید کرده و براء با گفتن «نزد ما» جایگاه دریافت‌کنندگان را مشخص کرده است."
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:scope_note_ar",
+      "source_text_sha256": "e82535f8bc647df6d39da9c0b325cb7ad8d1dbd8f8422de9dc91da28bfbf64f0",
+      "text": "این مقایسه همهٔ مسائل مربوط به ترتیب رسیدن را حل نمی‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:erase:text_ar",
+      "source_text_sha256": "0571f80cbae44cf20843f993e275faa005f18cc344624a4fc082624475dab522",
+      "text": "یکی از دو متن را کنار می‌گذاریم، چون هر دو بدون هیچ قیدی دربارهٔ همهٔ مهاجران سخن می‌گویند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:erase:feedback_ar",
+      "source_text_sha256": "ac0467e04c5d858c99b8af78711f3a25479863baecce70779fa3a19cdcb9fee2",
+      "text": "هر متن قید خود را دارد: عبارت‌بندی ابن اسحاق و مخاطبانِ براء."
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:distinct:text_ar",
+      "source_text_sha256": "0ddff904a85c6ca342e9df2bac13bc0046da70e39eb2bed920dfaea64bb1faae",
+      "text": "نخستین بودن ابوسلمه را در چارچوب قید ابن اسحاق نگه می‌داریم و «نزد ما» در سخن براء را از دیدگاه مخاطبانش می‌فهمیم."
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:distinct:feedback_ar",
+      "source_text_sha256": "0bc1af89b5f235d119fc84adbed303ccee4ade614230aac8db69488ffccb8e59",
+      "text": "درست است؛ تفاوت جایگاه گوینده مجوز تعمیم دادن یکی از دو عبارت به همه نیست."
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:together:text_ar",
+      "source_text_sha256": "71967ea08f82a86fa48da87094012f7021960c51205ad21984160560f961ff3f",
+      "text": "نتیجه می‌گیریم که ابوسلمه و مصعب با هم در یک روز رسیدند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_first:together:feedback_ar",
+      "source_text_sha256": "fa052f69cc9b696c6743aed4ee789ad29418365b25f7cdbb2963e1f54ba6a087",
+      "text": "هیچ‌یک از دو متن زمان رسیدن مشترکی ذکر نمی‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:prompt_ar",
+      "source_text_sha256": "e89abe94f9d33bdf82ab709dcaaccda2dd29e98c642970345f2b4178b766108a",
+      "text": "کدام عبارت، تفاوت گزارش دربارهٔ نخستین زنِ مسافر با کجاوه را در کنار روایت جدایی ام سلمه حفظ می‌کند؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:explanation_ar",
+      "source_text_sha256": "ec052062b47d5733fee5c6164dc55b1d38d1f213908076745027ba6a66de654f",
+      "text": "در طریق موسی عبارت «بعضی مردم می‌گویند» آمده و سپس «خدا داناتر است»؛ گواهی ام سلمه نیز جدایی‌اش از شوهرش را یاد می‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:scope_note_ar",
+      "source_text_sha256": "7eb61e9b3368d419a89711bd3343c9496796eaab261f218ca1b72bdb61f5b2cd",
+      "text": "این پرسش فقط در محدودهٔ این دو خبر است، نه حکمی کلی دربارهٔ نخستین زن مهاجر."
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:certain:text_ar",
+      "source_text_sha256": "888e9ba5752ab6f83c0adb054bdc614cabf8e4fcb5f69262eeb18dd7b4478daf",
+      "text": "از این دو متن ثابت می‌شود که ام سلمه در همان روز خروج نخست ابوسلمه تا مدینه همراهش بود."
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:certain:feedback_ar",
+      "source_text_sha256": "4fa18c9080ca441fead9c735c6e2635e8b4d8b26ba53e716a2caae06f810f75c",
+      "text": "روایت ام سلمه جدایی آن دو را در آغاز سفر وصف می‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:two:text_ar",
+      "source_text_sha256": "98439c941caab897a55f39310eb2fcc9625318175b3570e517b84f4f6b85f8c0",
+      "text": "طریق موسی هم قولی دربارهٔ ام سلمه و هم قولی دربارهٔ ام عبدالله را می‌آورد؛ از فهرست او لازم نمی‌آید که ام سلمه در روز خروج شوهرش سفر کرده باشد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:two:feedback_ar",
+      "source_text_sha256": "4922f22a4a2afcf1c28407aa081e4feeb4e7379a99fba036eac7a63da223b0a7",
+      "text": "درست است؛ خود خبر هر دو قول را می‌آورد و با احتیاط پایان می‌یابد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:none:text_ar",
+      "source_text_sha256": "1255974e63562a92fa2c5e01243c219cc264fc428e5d003ed25f49b516f3abf3",
+      "text": "هیچ منبعی زنی را در میان نخستین رسیدگان نام نمی‌برد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_woman:none:feedback_ar",
+      "source_text_sha256": "312102c9834f452322c6b7af2f0d823bfbdced6fa052036801c239cd54622c60",
+      "text": "این خبر ام سلمه و ام عبدالله را نام می‌برد و ابن اسحاق از لیلی دختر ابی‌حثمه یاد می‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:prompt_ar",
+      "source_text_sha256": "de49d887ff66f719b5a3244694e96625d421ae10b5d3fab279d25c91b2175565",
+      "text": "بنا بر خبر عمر، چه کسانی بر سر قرار حاضر شدند و توافق آن سه تن چه بود؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:explanation_ar",
+      "source_text_sha256": "55d309ed7de2048e518699ddf06d1708ec0f69b684a6bdea3ee3e4a30725aeeb",
+      "text": "عمر روایت می‌کند که قرار گذاشتند هر کس بامداد بر سر قرار نباشد، گرفتار و بازداشته به شمار آید و دو همراه دیگرش به راه بیفتند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:scope_note_ar",
+      "source_text_sha256": "657fd35754bb09a528d68e89f57e55763f0378c3c7907012e3974ff48c2c3753",
+      "text": "بر پایهٔ طریق ابن اسحاق از نافع از ابن عمر از عمر."
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:three:text_ar",
+      "source_text_sha256": "c71d4824939549a68df0ff9969c380618f4f2f133284161444801577bfc008a9",
+      "text": "عمر، عیاش و هشام هر سه حاضر شدند و منتظر کسی که عقب مانده بود ماندند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:three:feedback_ar",
+      "source_text_sha256": "a38989974418c35a638c67da9334bfd46c73f266c02ad78de13bbd9d1926a56c",
+      "text": "خبر می‌گوید هشام حاضر نشد و حاضران می‌بایست راه خود را ادامه دهند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:two:text_ar",
+      "source_text_sha256": "5d6f3fa2a924c9237bb2bfb2deba1281a698f05301b9d8f905c21561fd8d90ea",
+      "text": "عمر و عیاش حاضر شدند و چون هشام بازداشته شد، طبق قرار سه‌نفره بی‌آنکه منتظرش بمانند راه خود را ادامه دادند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:two:feedback_ar",
+      "source_text_sha256": "0a30af393132b9af7d6d573916e859a27eaf30e47b52d3a5c74ac3de522739ba",
+      "text": "درست است؛ هشام بازداشته شد و دو همراهش منتظر او نماندند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:ayyash:text_ar",
+      "source_text_sha256": "f94e47dd37ef60cb1d0f4c45c689fcacedb63f087be164d9b1ab148eee92cbd6",
+      "text": "تنها عیاش حاضر شد و تا گرد آمدن همه راه نیفتاد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_appointment:ayyash:feedback_ar",
+      "source_text_sha256": "45e5eb40bc07940ff591421bade34b131f14bc167dee365bce2dd917e69dc83f",
+      "text": "عمر نیز همراه او حاضر شد و پس از بازداشته شدن هشام هر دو راه افتادند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:prompt_ar",
+      "source_text_sha256": "48cebb4d9a8f8577a9996e36a1cfba8e201ab8634bef2f58db85491e18ebd6fb",
+      "text": "وقتی عیاش می‌خواست با ابوجهل و حارث بازگردد، عمر چه چیزی به او پیشنهاد کرد؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:explanation_ar",
+      "source_text_sha256": "ef26513430d11f9b554d9a6b494638eb842838a8615fdbea9f8498b1b8536ce0",
+      "text": "عمر به عیاش هشدار داد و نیمی از دارایی‌اش و سپس شترش را پیشنهاد کرد، اما عیاش با آن دو رفت."
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:scope_note_ar",
+      "source_text_sha256": "55e47808f7db801a6d219dc31b32eb6e7a9dd7a401608ffd5b6c7a9f88c585ad",
+      "text": "خبر عمر در اینجا غیر از افزودهٔ یکی از خاندان عیاش دربارهٔ نشان دادن او در بند است."
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:money_camel:text_ar",
+      "source_text_sha256": "ed1c63c33b73f9f4b9999dde4fdde46c1a61861a20803e711ce51e5b8b800423",
+      "text": "نیمی از دارایی‌اش برای اینکه بماند، و سپس شترش، چون بر بازگشت اصرار کرد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:money_camel:feedback_ar",
+      "source_text_sha256": "8ebba861c62ed055d57da6c0588083148ad17ea4718bbcbc34aef28256f3523f",
+      "text": "درست است؛ هشدار و پیشنهاد، پیش از آن بود که عیاش را در بند بگیرند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:gold:text_ar",
+      "source_text_sha256": "88b8096e20ae9606c4b4192e60a431bed5ba3beae076059bf73a8539240d1e5e",
+      "text": "چند اوقیه طلا و دو جامه تا بگذارند راه سفر را در پیش گیرد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:gold:feedback_ar",
+      "source_text_sha256": "58497ece13377215c14e6ca3735535f3a48d02ec0be6129388df5590f01f56c3",
+      "text": "این‌ها جزئیات طریق دیگرِ خبر صهیب است، نه خبر عیاش."
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:nothing:text_ar",
+      "source_text_sha256": "339724a431749093eb8496ad32910c35e7f8f45fec07b38735f5ee27c57e64b1",
+      "text": "نه به او پندی داد و نه چیزی پیشنهاد کرد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_ayyash:nothing:feedback_ar",
+      "source_text_sha256": "6fd07e60f63e0aeb217e5ad349468f9de112e0523241ab772bcd0b81083861d2",
+      "text": "عمر از اندرز دادن خود و سپس پیشنهاد مال و شتر روایت می‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:prompt_ar",
+      "source_text_sha256": "9e2e522aabc6d76c10920d8769fe44f213b47f6ed365062b08cd09c74bb52016",
+      "text": "افزودهٔ مربوط به نشان دادن عیاش در بند، پیش چشم مردم مکه، به چه کسی نسبت داده می‌شود؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:explanation_ar",
+      "source_text_sha256": "157cb8bc69185a9beb8f33ab7707d3c76a209eb05f2991493ae3bb952ee6fa41",
+      "text": "ابن اسحاق خبر نشان دادن او را با این عبارت ادامه می‌دهد که یکی از خاندان عیاش آن را برایش نقل کرده است."
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:scope_note_ar",
+      "source_text_sha256": "e30f60e0eaed4a9f6de79cb398cbf19bb966b03d7f49981a58565887c7919768",
+      "text": "پرسش فقط دربارهٔ گویندهٔ این افزوده است."
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:umar:text_ar",
+      "source_text_sha256": "73675f9ce7ed44163b30238c49b0d4916fb086c4e1de3a9b581524a00be39965",
+      "text": "به عمر، در همان گفتارِ دارای سندِ او."
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:umar:feedback_ar",
+      "source_text_sha256": "9e44730ba6b79ada20bd255b53b09e90d5f50814f2a851683db76ee55bf1a669",
+      "text": "این افزوده با پیوند روایی تازه‌ای از یکی از خاندان عیاش آغاز می‌شود."
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:family:text_ar",
+      "source_text_sha256": "75e2f05d62d1edc17ef6ce138f2ec38b88662bc564b9adfcd489f11ea689ccc2",
+      "text": "به یکی از افراد نام‌نبردهٔ خاندان عیاش در نقل ابن اسحاق."
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:family:feedback_ar",
+      "source_text_sha256": "38bd45b966e8325f160a4f4974ec8dcca1e2670edf39a553ccb09a13209393b4",
+      "text": "درست است؛ متن، افزودهٔ خاندان عیاش را از سخن عمر جدا می‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:suhayb:text_ar",
+      "source_text_sha256": "7dc23c691b4924f9787afd8b73abcdccc47b4a01a7168d7466d2016c7dae9b6f",
+      "text": "به صهیب در بلاغ ابوعثمان."
+    },
+    {
+      "unit_id": "hch_early_migration_q_two_voices:suhayb:feedback_ar",
+      "source_text_sha256": "614baa639aa5e54867eaec250e54f2527ee0a152241994dadb3e52dfa8cda3cd",
+      "text": "بلاغ ابوعثمان مربوط به خبر صهیب است نه عیاش."
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:prompt_ar",
+      "source_text_sha256": "a93ca72a90cc7b6b32b1cc4fb37ddc0f303a2a9a922081cdb5e41a1a68fb89bb",
+      "text": "صهیب در بلاغ ابوعثمان نزد ابن هشام چه چیزی پیشنهاد کرد، بی‌آنکه جزئیات طریق دیگر را به آن بیفزاییم؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:explanation_ar",
+      "source_text_sha256": "90a16dfdd525f18b947916e39359090e5d006ccd27fb1207a67a180373eb14e9",
+      "text": "بلاغ ابوعثمان می‌گوید صهیب مالش را به آنان واگذاشت؛ اما اوقیه‌ها و دو جامه در طریق دیگر خبر صهیب، به نقل ابن کثیر، آمده‌اند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:scope_note_ar",
+      "source_text_sha256": "97a222303de5d55ca3543cb75c481b6498476dfd4b98dfe4f0061709a718087e",
+      "text": "صورت بلاغ با «برایم نقل شده» و «به من رسیده» آغاز می‌شود."
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:wealth:text_ar",
+      "source_text_sha256": "4430e59a26d76da24331effdc797cb59b03106c63d7e3efa542b50a53bad0d72",
+      "text": "دارایی‌اش را، تا رهایش کنند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:wealth:feedback_ar",
+      "source_text_sha256": "819b850151df9045b47e7b783b31825fad6e100bbf9c6089d793d942bcd8edf8",
+      "text": "درست است؛ بلاغ تنها از دارایی یاد می‌کند و از اوقیه‌های طلا و دو جامهٔ طریق دیگر نام نمی‌برد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:camel:text_ar",
+      "source_text_sha256": "ea671d352b0b94a363131115e4859be143d48e698af2a0615fb2138b3dbc9276",
+      "text": "شتر عمر را تا به مکه بازگردد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:camel:feedback_ar",
+      "source_text_sha256": "ae305692c837d48418bd901a62e3d95e57287e2f7ad054c4ede5ee2cb4bf21d1",
+      "text": "شتر در خبر عیاش است، نه در بلاغ صهیب."
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:clothes:text_ar",
+      "source_text_sha256": "e8758d52f9959aa3bc7c00306a1c3a84ae3e92a79e2b0762fe03c0f26efb4709",
+      "text": "چند اوقیه طلا و دو جامه."
+    },
+    {
+      "unit_id": "hch_early_migration_q_suhayb:clothes:feedback_ar",
+      "source_text_sha256": "dde92cf6f0cfaed6cdbf743c26add736240f87248e4702b87979154a5c58ed8b",
+      "text": "اوقیه‌ها و دو جامه در طریق خبر صهیب به نقل ابن کثیر آمده‌اند؛ بلاغ ابوعثمان نزد ابن هشام آن‌ها را ذکر نمی‌کند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:prompt_ar",
+      "source_text_sha256": "7964777f9903e782aeadd9aa67f9e7cc672a4e86b899a5f6102860cb197dd5bc",
+      "text": "چرا سالم در خبر ابن عمر نزد بیهقی پیش‌نماز آن گروه بود؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:explanation_ar",
+      "source_text_sha256": "11985c8c79e5801b52635646383964f0b4e2ba1b9525853c08beb84188a60bbc",
+      "text": "ابن عمر پیش‌نمازی سالم را به بیشتر دانستن قرآن در میان آن گروه پیوند می‌دهد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:scope_note_ar",
+      "source_text_sha256": "f6b0951bbc0c45f19864faa54220ade5dd312095b5ca9d356e579b8797e679d3",
+      "text": "خبر، عُصبه را جای فرود آمدن آنان نام می‌برد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:age:text_ar",
+      "source_text_sha256": "ae9bdb8b908320f18dafa59a595ab5b447b1b455f62f6e2077ac07bc732580a4",
+      "text": "چون از همه سالخورده‌تر بود."
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:age:feedback_ar",
+      "source_text_sha256": "da4a126a040a27803b8671e09cd96b3d2b897dd43d2ebcf7303ea9daa65f44ce",
+      "text": "خبر سن را علت پیش‌نمازی او نمی‌داند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:host:text_ar",
+      "source_text_sha256": "b38675d485827b1ebbf4c5c3ce8e95d0f8f081507a9e167057ac9c7d20eae64d",
+      "text": "چون صاحب خانه‌ای بود که در آن فرود آمدند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:host:feedback_ar",
+      "source_text_sha256": "99eeab75c5ddada953f0aa40fda0c1645373e84651d92cd649edfd85817afd26",
+      "text": "خبر نمی‌گوید او میزبان بود."
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:quran:text_ar",
+      "source_text_sha256": "b30db6cacbde2025e2eff25b3f4af92eef14768fc00deb0585a6e2dd08a1d507",
+      "text": "چون از همه بیشتر قرآن می‌دانست."
+    },
+    {
+      "unit_id": "hch_early_migration_q_salim:quran:feedback_ar",
+      "source_text_sha256": "2371d82b0868dfa104dcd04b25a439597468dd6842150ef449e2c40cee094fa3",
+      "text": "درست است؛ این علت پیش‌نمازی او در متن ابن عمر است."
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:prompt_ar",
+      "source_text_sha256": "220e474b7491c4ee8815adb97135af5616a9dcf81349bab0adf2a436066fd5b8",
+      "text": "مکان پیش‌نمازی سالم را در متن بیهقی و ادامهٔ ابن سعد چگونه بخوانیم؟"
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:explanation_ar",
+      "source_text_sha256": "64befc1032f4da32dceaf5dfc64af057fa64a2b771ff46bc883f0fedef72a75c",
+      "text": "هر نقل برای مکان تعبیر خود را دارد؛ یاد کردن از قبا دلیلی نیست که نام عُصبه در همهٔ طریق‌ها با آن یکی باشد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:scope_note_ar",
+      "source_text_sha256": "64d8f0a7b92903297149b0181237f7117c725c3a17db759604d8aed620e375f0",
+      "text": "این سنجش دو متن خواندنی است، نه پژوهش مستقل جغرافیایی."
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:same:text_ar",
+      "source_text_sha256": "3584b3e8fd9c3116c417bfd275610c29bca3f2861a4287de4176ce19576bb948",
+      "text": "هر دو متن فقط عُصبه را نام می‌برند و فهرست یکسانی از افراد دارند."
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:same:feedback_ar",
+      "source_text_sha256": "18df70b911cc979bc0ffb72cdd06dd38df15eedd1cdf4a7dad6a191ca017c1a6",
+      "text": "بیهقی عُصبه و ابن سعد قبا را نام می‌برد و صورت فهرست افرادشان یکسان نیست."
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:different:text_ar",
+      "source_text_sha256": "d0a95f35eee8761433bcd7709bee9c67b051647ef34dbdd83d154f0ea9acf4b4",
+      "text": "خبر ابن عمر عُصبه را نام می‌برد و در ادامهٔ ابن سعد از قبا یاد می‌شود؛ تنها از این دو عبارت نمی‌توان دو مکان را یکی دانست."
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:different:feedback_ar",
+      "source_text_sha256": "865ed38d869af4b82d8f92baf020e1bf67880a468855c8ecca5eba22291383bd",
+      "text": "درست است؛ قید مکان را در هر نقل حفظ می‌کنیم."
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:no_place:text_ar",
+      "source_text_sha256": "e5af9055770dc4acea834b69701ef0e75c6b0c5648cdf5542f86c844b86b98b3",
+      "text": "هیچ‌یک مکانی را نام نمی‌برد."
+    },
+    {
+      "unit_id": "hch_early_migration_q_places:no_place:feedback_ar",
+      "source_text_sha256": "2b94c9256aa748535b530b03fb355fa8a881e0e1f354b598e98abe54fafc0c13",
+      "text": "در یکی عُصبه و در دیگری قبا آمده است."
+    },
+    {
+      "unit_id": "hch_early_migration_issue_order:note_ar",
+      "source_text_sha256": "e8c1d00d18fb61341e127401c6cd89c83e21551edb0107806644644d20bb5bc1",
+      "text": "قرار گرفتن این فصل پیش از فصل عقبه، ترتیبِ خواندن است، نه حکمی به اینکه همهٔ اخبار مهاجران یادشده پیش از هر بیعتی بوده یا همه در یک زمان راه افتاده‌اند."
+    },
+    {
+      "unit_id": "hch_early_migration_issue_scope:note_ar",
+      "source_text_sha256": "f2cf819229e44fbee148f09490ef4a1dbc87ad6ce1d4acabf53708d00d201f4d",
+      "text": "متن‌های خواندنی این فصل، اختلاف دربارهٔ نخستین زنِ مسافر با کجاوه را حل نمی‌کنند و برای روز جدایی یا پیوستن دوباره تاریخی تعیین نمی‌کنند؛ فاصلهٔ زمانی در خبر ام سلمه «یک سال یا نزدیک به آن» است."
+    },
+    {
+      "unit_id": "hch_early_migration_issue_rights:note_ar",
+      "source_text_sha256": "2381804ef3e8fe1c100ab206d7c98ce62853ea7d07e6f439742a86b637b98664",
+      "text": "مقابلهٔ داخلی به معنای تأیید مستقل تاریخی یا زبانی، یا مجوز انتشار گزیده‌ها نیست."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_491_prep_780:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_491_prep_780:p1:speaker_ar",
+      "source_text_sha256": "23bf814e5fc6b2542d4cc78fbd26964c2404f7beddfad605743cad5a872851fd",
+      "text": "ابن اسحاق در روایت ابن هشام؛ گویندهٔ درونِ متن به‌صراحت مشخص شده است"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_491_prep_780:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_491_prep_780:p1:citation_ar",
+      "source_text_sha256": "6b42cd00dc67412776662408964532eec92bd4abfb8b05bf7f1dc14b2fb59aea",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/468](https://app.turath.io/book/23833?page=491)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_491_prep_780:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_491_prep_780:p1:text_ar",
+      "source_text_sha256": "805077d8c483abd1bc697f4379bf593d7a3f8808cf9cf64fa6b6f7896e64e336",
+      "text": "پس نخستین کسی از یاران پیامبر خدا ﷺ، از میان مهاجران قریشِ بنی‌مخزوم، که به مدینه هجرت کرد، ابوسلمه پسر عبدالاسد پسر هلال پسر عبدالله پسر عمر پسر مخزوم بود؛ نامش عبدالله بود. او یک سال پیش از بیعت اصحاب عقبه به مدینه هجرت کرد. از سرزمین حبشه به مکه نزد پیامبر خدا ﷺ آمده بود؛ چون قریش آزارش داد و خبر مسلمان شدنِ کسانی از انصار به او رسید، مهاجرانه به سوی مدینه بیرون رفت."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1:speaker_ar",
+      "source_text_sha256": "6104ee10f5c1da8da0b4180d6150ba1a65d391383fea022b94e245d9568ebab3",
+      "text": "ابن اسحاق در نقل ابن کثیر"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1:citation_ar",
+      "source_text_sha256": "c19df4eb5f664df01d985e553e82d176341edf315be1ca78ddc731f2f46cdddc",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/215](https://app.turath.io/book/930?page=737)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1:text_ar",
+      "source_text_sha256": "5b40b32aedee30a5b6e0425581dbdc4b3a96a98cf2dd770f96349841c847efa0",
+      "text": "پس نخستین کسی از یاران پیامبر خدا ﷺ، از مهاجران قریشِ بنی‌مخزوم، که به مدینه هجرت کرد ابوسلمه عبدالله پسر عبدالاسد پسر هلال پسر عبدالله پسر عمر پسر مخزوم بود. هجرتش به آنجا یک سال پیش از بیعت عقبه بود، هنگامی که قریش پس از بازگشتش از حبشه آزارش داد؛ قصد کرد به حبشه بازگردد، اما سپس خبر یافت که در مدینه برادرانی دارند و قصد رفتن به آنجا کرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p1:kind_ar",
+      "source_text_sha256": "05d2bed80a89d2f23576807baa894bfef8bf671b6018ff34f33dfac1ebc37df4",
+      "text": "سند یا پیوند نقل"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p1:citation_ar",
+      "source_text_sha256": "2fac9cbbcb933549c1cbe66c0d55bebbd895a522f7ad997c8131c7dc512adabf",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/469](https://app.turath.io/book/23833?page=492)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p1:text_ar",
+      "source_text_sha256": "55e3f4ad5371b31689169cf3fd352aeafb2ce57185a864747350629b2b248d31",
+      "text": "ابن اسحاق گفت: پدرم اسحاق بن یسار از سلمه بن عبدالله بن عمر بن ابی‌سلمه، از مادربزرگش ام سلمه، همسر پیامبر ﷺ، برایم روایت کرد که گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p2:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p2:speaker_ar",
+      "source_text_sha256": "6e3d71a5213d196a0355e071e8d4997e02a7c8444ed72830736d41be47606d12",
+      "text": "ام سلمه، چنان‌که ابن اسحاق با سند پیش‌گفته از او روایت می‌کند"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p2:citation_ar",
+      "source_text_sha256": "2fac9cbbcb933549c1cbe66c0d55bebbd895a522f7ad997c8131c7dc512adabf",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/469](https://app.turath.io/book/23833?page=492)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_492_prep_cont:p2:text_ar",
+      "source_text_sha256": "6b9d318ecabab3a0eaded8cae44f81c1ff660df34e5e410459d2fd9411900c3b",
+      "text": "چون ابوسلمه تصمیم قطعی به رفتن به مدینه گرفت، شترش را برای من آماده کرد و مرا بر آن سوار کرد و پسرم سلمه بن ابی‌سلمه را در دامنم کنارم نشاند؛ سپس مرا با خود برد و افسار شترم را می‌کشید. مردان بنی‌مغیره بن عبدالله بن عمر بن مخزوم که او را دیدند، برخاستند و گفتند: «این جانِ خودت است که نتوانستیم بر آن چیره شویم؛ اما این همراه تو چه؟ چرا بگذاریم او را در شهرها با خود ببری؟» می‌گوید: افسار شتر را از دستش کشیدند و مرا از او گرفتند. آن هنگام بنی‌عبدالاسد، خویشان ابوسلمه، خشمگین شدند و گفتند: «نه به خدا، حالا که او را از همراه ما جدا کردید، پسرمان را نزد او نمی‌گذاریم.» می‌گوید: پسرم سلمه را میان خود چنان کشیدند که دستش از جا درآمد؛ بنی‌عبدالاسد او را بردند، بنی‌مغیره مرا نزد خود بازداشتند و شوهرم ابوسلمه به مدینه رفت. می‌گوید: مرا از شوهر و پسرم جدا کردند. هر بامداد بیرون می‌رفتم و در ابطح می‌نشستم و پیوسته می‌گریستم؛ یک سال یا نزدیک به آن گذشت تا مردی از پسرعموهایم، از بنی‌مغیره، از کنارم گذشت؛ حال مرا دید، دلش سوخت و به بنی‌مغیره گفت: «این زن بی‌نوا را رها نمی‌کنید؟ میان او و شوهر و فرزندش جدایی انداخته‌اید!» می‌گوید: به من گفتند: «اگر می‌خواهی، به شوهرت بپیوند.» بنی‌عبدالاسد نیز آن هنگام پسرم را به من بازگرداندند. شترم را آماده کردم، پسرم را برداشتم و در دامنم نشاندم؛ سپس به قصد رسیدن به شوهرم در مدینه راه افتادم. هیچ‌کس از خلق خدا همراهم نبود. با خود گفتم: «با هر که در راه ببینم، به پیش می‌روم تا نزد شوهرم برسم.» در تنعیم با عثمان بن طلحه بن ابی‌طلحه، از بنی‌عبدالدار، روبه‌رو شدم. گفت: «دختر ابی‌امیه، کجا می‌روی؟» گفتم: «می‌خواهم نزد شوهرم در مدینه بروم.» گفت: «کسی همراهت نیست؟» گفتم: «نه به خدا، جز خدا و همین پسر کوچکم.» گفت: «به خدا نمی‌شود تو را تنها رها کرد.» افسار شتر را گرفت و در پیشِ من به راه افتاد و مرا همراه برد. به خدا سوگند، در میان مردان عرب هرگز همراهی نداشته‌ام که گمان کنم از او بزرگوارتر بوده باشد. چون به منزلگاه می‌رسید، شتر را برایم می‌خواباند و دور می‌شد تا پیاده شوم؛ آنگاه شترم را کنار می‌برد، بار از پشتش برمی‌داشت و آن را به درخت می‌بست، سپس از من کناره می‌گرفت"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_cont:p1:kind_ar",
+      "source_text_sha256": "6470f804710f0e5d6c0effd083bc753f6ac3a3f02695f18343fe60c8f525ad1a",
+      "text": "ادامهٔ گواهی ام سلمه"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_cont:p1:speaker_ar",
+      "source_text_sha256": "836dac57d5a9698a2f3db08306d8b00614e654edc8b4d172c54fe6b5c433bea4",
+      "text": "ام سلمه"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_cont:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_cont:p1:citation_ar",
+      "source_text_sha256": "75e77c29dccfa10dd51306893d8268cfd1ba53e7639bac1016bd4fcdea6dab73",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/470](https://app.turath.io/book/23833?page=493)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_cont:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_cont:p1:text_ar",
+      "source_text_sha256": "fe2a6a13eb20ddca929198d8a0442c254193cf2f1b76eca359bfbb46de9a7b4f",
+      "text": "و زیر درختی دراز می‌کشید. چون هنگام حرکتِ عصر نزدیک می‌شد، نزد شترم می‌رفت، آن را پیش می‌آورد و برای سوار شدن آماده می‌کرد؛ سپس از من دور می‌شد و می‌گفت: «سوار شو.» چون سوار می‌شدم و بر شتر جا می‌گرفتم، می‌آمد، افسارش را می‌گرفت و آن را می‌کشید تا به منزلگاه می‌رساندم. پیوسته با من چنین رفتار می‌کرد تا مرا به مدینه رساند. وقتی آبادی بنی‌عمرو بن عوف را در قبا دید، گفت: «شوهرت در این آبادی است» ــ ابوسلمه آنجا اقامت داشت ــ «به برکت خدا وارد آن شو.» سپس رو به مکه بازگشت."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p1:kind_ar",
+      "source_text_sha256": "2158741d8dc9b7badbba6c4769fae9086fc156ae72f9116d878196f61b10eba8",
+      "text": "سند و شمارهٔ حدیث"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "صحیح بخاری، چاپ سلطانیه"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p1:citation_ar",
+      "source_text_sha256": "72b2a2f566382ddf1df69e25acdf8d0f48bb3d3850884fc6e24461910987127a",
+      "text": "[صحیح بخاری، چاپ سلطانیه، 5/65](https://app.turath.io/book/1681?page=5917)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p1:text_ar",
+      "source_text_sha256": "4e28c83d61f6510c798c061a8dc33f4178824d4f37661d903095ed2b20bf1587",
+      "text": "۳۹۲۴ ـ ابوالولید برای ما روایت کرد: شعبه برای ما روایت کرد و گفت: ابواسحاق به ما خبر داد که از براء شنید که گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p2:kind_ar",
+      "source_text_sha256": "b2327679735b154809d736e8f14cae062d8dd75444c6a4662a11cfbb947fce1a",
+      "text": "متن حدیث یا گزارش"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p2:speaker_ar",
+      "source_text_sha256": "e60e4d0d82b9ad5ac925fac3204c9822d3fb7e0dc7c946c48aff68ecfb1b0e99",
+      "text": "براء"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p2:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "صحیح بخاری، چاپ سلطانیه"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p2:citation_ar",
+      "source_text_sha256": "72b2a2f566382ddf1df69e25acdf8d0f48bb3d3850884fc6e24461910987127a",
+      "text": "[صحیح بخاری، چاپ سلطانیه، 5/65](https://app.turath.io/book/1681?page=5917)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_1:p2:text_ar",
+      "source_text_sha256": "ada838575e4d96de41177219f8a2bf9d74813594edec2abf0f9b43b3fe550a5c",
+      "text": "«نخستین کسانی که نزد ما آمدند مصعب بن عمیر و ابن ام مکتوم بودند؛ سپس عمار بن یاسر و بلال نزد ما آمدند»."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1:kind_ar",
+      "source_text_sha256": "fd15ddce93b83a4f716976ad2bdb059500a351c451434c88a4bfbb56cd4e200e",
+      "text": "ادامهٔ خاتمه و نشانه‌های دعای رضایت؛ نه گزارشی افزوده"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1:speaker_ar",
+      "source_text_sha256": "e40fc7a58c852557015b0bad341f77ffd968c4a8082898d2b72698bf61e90800",
+      "text": "دستگاه نقلِ مصنف یا توضیح او، بسته به بخش؛ نه سخنِ صحابیِ صاحبِ گزارش"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "صحیح بخاری، چاپ سلطانیه"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1:citation_ar",
+      "source_text_sha256": "e864615d201b03161357266f895c8719436ffc8de67d7d7ec2fe3ab7d607a13a",
+      "text": "[صحیح بخاری، چاپ سلطانیه، 5/٦٦](https://app.turath.io/book/1681?page=5917)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1:text_ar",
+      "source_text_sha256": "8feb7fc60e923f48b8fc854d5a49c94afb70e27f8b7980e2d54583bf472206fa",
+      "text": "رضی‌الله عنه»."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p1:kind_ar",
+      "source_text_sha256": "05d2bed80a89d2f23576807baa894bfef8bf671b6018ff34f33dfac1ebc37df4",
+      "text": "سند یا پیوند نقل"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p1:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p1:citation_ar",
+      "source_text_sha256": "5390d0b7291411592b9b11bb82e158744fb9af481cf1d979c72ec1435f2043f0",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/221](https://app.turath.io/book/930?page=743)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p1:text_ar",
+      "source_text_sha256": "94eed790bf8d54dfd3c4e673e0065971cca590cbf5b8f47d9aa539984579219f",
+      "text": "بخاری گفت: ابوالولید برای ما روایت کرد؛ شعبه برای ما روایت کرد؛ ابواسحاق به ما خبر داد که از براء شنید که گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p2:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p2:speaker_ar",
+      "source_text_sha256": "d26a32b764fd7c59e550cc6ab5aaa705b4419620accb11e07fddc682c1c464ac",
+      "text": "براء؛ بخاری در نقل ابن کثیر"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p2:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p2:citation_ar",
+      "source_text_sha256": "5390d0b7291411592b9b11bb82e158744fb9af481cf1d979c72ec1435f2043f0",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/221](https://app.turath.io/book/930?page=743)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p2:text_ar",
+      "source_text_sha256": "b1489d59413bf2333ce27d11a8d2b7d352c02b1e1819fdcc143ac39810dd5cd9",
+      "text": "نخستین کسانی که نزد ما آمدند مصعب بن عمیر و ابن ام مکتوم بودند؛ سپس عمار و بلال نزد ما آمدند."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_2:p1:kind_ar",
+      "source_text_sha256": "506a231511f970fef03b86057846db7ac9cab630e954622037b43b6085329e50",
+      "text": "سند"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_2:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_2:p1:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_2:p1:citation_ar",
+      "source_text_sha256": "5390d0b7291411592b9b11bb82e158744fb9af481cf1d979c72ec1435f2043f0",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/221](https://app.turath.io/book/930?page=743)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_2:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_2:p1:text_ar",
+      "source_text_sha256": "bfe97ab8cf3b91b2598bfe9f44b112fffbe0321296a0763781d649e3b81e0f2a",
+      "text": "و محمد بن بشار برایم روایت کرد: غندر برای ما روایت کرد، شعبه برای ما روایت کرد، از ابواسحاق؛ از براء شنیدم"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_744_prep_baraa_2:p1:kind_ar",
+      "source_text_sha256": "abe5be460f9039517da9aa83973113647b2aa229de11e816fa78ada540d86f1f",
+      "text": "خبر براء در طریق پیش‌گفته"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_744_prep_baraa_2:p1:speaker_ar",
+      "source_text_sha256": "e60e4d0d82b9ad5ac925fac3204c9822d3fb7e0dc7c946c48aff68ecfb1b0e99",
+      "text": "براء"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_744_prep_baraa_2:p1:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_744_prep_baraa_2:p1:citation_ar",
+      "source_text_sha256": "9b6236bad9230cfa16a07194c986fe7c51b81e55775e134c5bafd5bc1fa82da0",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/222](https://app.turath.io/book/930?page=744)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_744_prep_baraa_2:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_744_prep_baraa_2:p1:text_ar",
+      "source_text_sha256": "92694fca41b05d563c3e506e903e1f229ea05bec95f5d0c095230ce8e4edaf43",
+      "text": "پسر عازب که گفت: «نخستین کسانی که نزد ما آمدند مصعب بن عمیر و ابن ام مکتوم بودند و آن دو به مردم قرآن می‌آموختند. سپس بلال، سعد و عمار بن یاسر آمدند؛ آنگاه عمر بن خطاب همراه بیست تن از یاران پیامبر ﷺ آمد. پس از آن پیامبر ﷺ آمد و من ندیدم مردم مدینه از چیزی چنان شاد شوند که از آمدن پیامبر خدا ﷺ شدند؛ حتی کنیزان می‌گفتند: پیامبر خدا ﷺ آمده است.»"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p1:kind_ar",
+      "source_text_sha256": "2447317cd216c02cecbe6e0352df253426f540cc53ad6350e5aa110618d24fe3",
+      "text": "سند روایت"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p1:citation_ar",
+      "source_text_sha256": "8fdd1be58bdabbb45ecf473a83eafbc86a2f4b9b0cf4e1a28888f98abc58c4fc",
+      "text": "[دلائل النبوه، بیهقی، 2/459](https://app.turath.io/book/7478?page=980)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p1:text_ar",
+      "source_text_sha256": "01e784072aa67c97967eeb696d94079ed9a5746d8ef7f67a1179ff8c327180f0",
+      "text": "ابوالحسین بن فضل قطان در بغداد به ما خبر داد و گفت: ابوبکر بن عتاب به ما خبر داد و گفت: قاسم بن عبدالله بن مغیره به ما خبر داد و گفت: ابن ابی‌اویس برای ما روایت کرد و گفت: اسماعیل بن ابراهیم بن عقبه، از عمویش موسی بن عقبه، برای ما روایت کرد؛ و در طریق دیگر، ابوالحسین بن فضل به ما خبر داد و گفت: عبدالله بن جعفر به ما خبر داد و گفت: یعقوب بن سفیان برای ما روایت کرد و گفت: ابراهیم بن منذر برای ما روایت کرد، از محمد بن فلیح، از موسی بن عقبه، از ابن شهاب؛ و این، عبارت حدیث اسماعیل بن ابراهیم است؛ گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p2:kind_ar",
+      "source_text_sha256": "f864b55d2e52180dbc0e01a847386b010f3c737dcf8a74fc95cb67f435e288ef",
+      "text": "متن روایت"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p2:speaker_ar",
+      "source_text_sha256": "8fe7da41cdfa1e46655a891844ea3caf36d301e7d6bcdf63fab59ab432b156d7",
+      "text": "زهری به روایت موسی بن عقبه"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p2:citation_ar",
+      "source_text_sha256": "8fdd1be58bdabbb45ecf473a83eafbc86a2f4b9b0cf4e1a28888f98abc58c4fc",
+      "text": "[دلائل النبوه، بیهقی، 2/459](https://app.turath.io/book/7478?page=980)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_980_ra_musa_early:p2:text_ar",
+      "source_text_sha256": "476efef7e8ceffa3e8dae8d4bc6cecd082d684909593039b23fff2f1398f1a8b",
+      "text": "«پس چون فشار بر پیامبر خدا ﷺ و مسلمانان شدت گرفت، پیامبر خدا ﷺ فرمانشان داد که به مدینه بروند؛ آنان دسته‌دسته بیرون رفتند. از میانشان، پیش از خروج پیامبر"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_981_ra_musa_early:p1:kind_ar",
+      "source_text_sha256": "7f06c6b818e9b07021701e5f557dcdb1ed42a9312cf2c8b01dcedaec2e4932e4",
+      "text": "گزارش تاریخی یا حدیثِ دارای سند"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_981_ra_musa_early:p1:speaker_ar",
+      "source_text_sha256": "8fe7da41cdfa1e46655a891844ea3caf36d301e7d6bcdf63fab59ab432b156d7",
+      "text": "زهری به روایت موسی بن عقبه"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_981_ra_musa_early:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_981_ra_musa_early:p1:citation_ar",
+      "source_text_sha256": "8009adca1d0a59cd04de66f3a7f5fc451885c664a804e022869e2bcf0174e728",
+      "text": "[دلائل النبوه، بیهقی، 2/460](https://app.turath.io/book/7478?page=981)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_981_ra_musa_early:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_981_ra_musa_early:p1:text_ar",
+      "source_text_sha256": "90216c54c5fb6d8022038908d993b29c79878f12d750b8fd9dbe1c84a7a94144",
+      "text": "خدا ﷺ به سوی مدینه، ابوسلمه بن عبدالاسد و همسرش ام سلمه دختر ابی‌امیه، عامر بن ربیعه و همسرش ام عبدالله دختر ابی‌حثمه بیرون رفتند. گفته می‌شود نخستین زنِ مسافر با کجاوه که به مدینه رسید ام سلمه بود؛ بعضی مردم ام عبدالله را نام می‌برند، و خدا داناتر است. همچنین مصعب بن عمیر، عثمان بن مظعون، ابوحذیفه بن عتبه بن ربیعه، عبدالله بن جحش، عثمان بن شرید و عمار بن یاسر. ابوسلمه و عبدالله بن جحش در میان بنی‌عمرو بن عوف فرود آمدند. سپس عمر بن خطاب و عیاش بن ابی‌ربیعه همراه گروهی از یارانشان بیرون رفتند و در میان بنی‌عمرو بن عوف فرود آمدند. ابوجهل بن هشام، حارث بن هشام و عاص بن هشام در پی عیاش بن ابی‌ربیعه ــ که از سوی مادر برادر آنان بود ــ برآمدند؛ به مدینه رسیدند، اندوه مادرش را برایش بازگفتند و گفتند: «او سوگند خورده است تا تو را نبیند، سقف خانه بر او سایه نیفکند و به سرش روغن نزند. اگر چنین نبود سراغت نمی‌آمدیم؛ تو را دربارهٔ مادرت به خدا یادآور می‌شویم.» عیاش به مادرش مهربان بود و از محبت و دلسوزی او برای خود آگاه بود؛ گفته‌شان را باور کرد و دلش بر او سوخت. با شنیدن آنچه دربارهٔ مادرش گفتند، از همراهی آن دو خودداری کرد تا حارث بن هشام برایش پیمانی بست؛ وقتی آن دو او را همراه خود بردند، به بندش کشیدند. او آنجا ماند تا پیش از فتح مکه همراه کسانی که بیرون رفتند خارج شد؛ پیامبر خدا ﷺ برای رهایی‌اش دعا می‌کرد. راوی گفت: عبدالرحمن بن عوف نیز بیرون رفت و در میان بنی‌حارث بن خزرج نزد سعد بن ربیع فرود آمد. عثمان بن عفان، طلحه بن عبیدالله، زبیر بن عوام و گروه دیگری هم بیرون رفتند."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_781:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_781:p1:speaker_ar",
+      "source_text_sha256": "23bf814e5fc6b2542d4cc78fbd26964c2404f7beddfad605743cad5a872851fd",
+      "text": "ابن اسحاق در روایت ابن هشام؛ گویندهٔ درونِ متن به‌صراحت مشخص شده است"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_781:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_781:p1:citation_ar",
+      "source_text_sha256": "75e77c29dccfa10dd51306893d8268cfd1ba53e7639bac1016bd4fcdea6dab73",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/470](https://app.turath.io/book/23833?page=493)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_781:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_493_prep_781:p1:text_ar",
+      "source_text_sha256": "33081bb450997ad5e62251848468e9fdf263f2fb6260942fa5c102d7b527dc3f",
+      "text": "ابن اسحاق گفت: پس از ابوسلمه، نخستین مهاجری که به آنجا رسید عامر بن ربیعه، هم‌پیمان بنی‌عدی بن کعب، بود؛ همسرش لیلی دختر ابی‌حثمه پسر غانم پسر عبدالله پسر عوف پسر عبید پسر عدی پسر کعب نیز همراهش بود. سپس عبدالله پسر جحش پسر رئاب پسر یعمر پسر صبره پسر مره پسر کثیر پسر غنم پسر دودان پسر اسد پسر خزیمه، هم‌پیمان بنی‌امیه بن عبدشمس، با خانواده و برادرش عبد بن جحش راه افتاد. برادرش همان ابواحمد بود؛ ابواحمد نابینا بود، اما بدون راهنما در بالا و پایین مکه می‌گشت و شاعر بود؛ همسرش فَرَعه دختر ابوسفیان بن حرب و مادرش امیمه دختر عبدالمطلب بن هاشم بود. با هجرت آنان، خانهٔ بنی‌جحش بسته شد و عتبه بن ربیعه، عباس بن عبدالمطلب و ابوجهل بن هشام بن مغیره از کنار آن گذشتند؛ و آن خانهٔ ابان"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p1:speaker_ar",
+      "source_text_sha256": "0ea5717bed1226604f1a56810b4fb723d2529c53bec9082efeb7a46055634f99",
+      "text": "ابن اسحاق در درآمد گزارش خود"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p1:citation_ar",
+      "source_text_sha256": "5ebed9517ca2626e1cd21e21ed41eaf732da5e3966e15e86df1c0cc4859c3cf7",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/474](https://app.turath.io/book/23833?page=497)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p1:text_ar",
+      "source_text_sha256": "48d10962e9ea9c2564d633802cf1afb2496b7016b5427c648fcbc3015abdadd2",
+      "text": "ابن اسحاق گفت: سپس عمر بن خطاب و عیاش بن ابی‌ربیعه مخزومی بیرون رفتند تا به مدینه رسیدند."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p2:kind_ar",
+      "source_text_sha256": "05d2bed80a89d2f23576807baa894bfef8bf671b6018ff34f33dfac1ebc37df4",
+      "text": "سند یا پیوند نقل"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p2:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p2:citation_ar",
+      "source_text_sha256": "5ebed9517ca2626e1cd21e21ed41eaf732da5e3966e15e86df1c0cc4859c3cf7",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/474](https://app.turath.io/book/23833?page=497)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p2:text_ar",
+      "source_text_sha256": "224392d21a4d5f5c9d1cbb0a562791624491d47c28db74be5137aa34964b01ac",
+      "text": "نافع، آزادشدهٔ عبدالله بن عمر، از عبدالله بن عمر، از پدرش عمر بن خطاب برایم روایت کرد که گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p3:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p3:speaker_ar",
+      "source_text_sha256": "adc381f7fb109895b1a1d0b6cf34a263f044d6a625cba3f79a306316ab0c3075",
+      "text": "عمر در طریق پیش‌گفته از نافع از ابن عمر"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p3:citation_ar",
+      "source_text_sha256": "5ebed9517ca2626e1cd21e21ed41eaf732da5e3966e15e86df1c0cc4859c3cf7",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/474](https://app.turath.io/book/23833?page=497)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p3:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_785:p3:text_ar",
+      "source_text_sha256": "a3a20c7ba10fab5a8df154bcd0b3534fab30841177f6817461441c780e7d48dc",
+      "text": "وقتی قصد هجرت به مدینه کردیم، من و عیاش بن ابی‌ربیعه و هشام بن عاص بن وائل سهمی، در «تناضب» نزدیک آبگیر بنی‌غفار، بالاتر از سَرِف، با هم قرار گذاشتیم و گفتیم: «هر یک از ما که بامداد آنجا حاضر نشد، بازداشته شده است؛ دو همراه دیگرش راهشان را ادامه دهند.» گفت: من و عیاش بن ابی‌ربیعه بامداد در تناضب حاضر شدیم، اما هشام را از آمدن نزد ما بازداشتند و به فتنه انداختند و در فتنه افتاد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_786:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_786:p1:speaker_ar",
+      "source_text_sha256": "6d9a2305f30e0d576721703a03a2fb8090f4b5946758773921ca93c4d90e79e5",
+      "text": "عمر بن خطاب؛ ادامهٔ طریقِ پیش‌گفته در بخش قبلی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_786:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_786:p1:citation_ar",
+      "source_text_sha256": "5ebed9517ca2626e1cd21e21ed41eaf732da5e3966e15e86df1c0cc4859c3cf7",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/474](https://app.turath.io/book/23833?page=497)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_786:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_497_prep_786:p1:text_ar",
+      "source_text_sha256": "f9e3acf41d7e350484d99669aefce453b7381eba039f860dee136c3cd355d971",
+      "text": "وقتی به مدینه رسیدیم، در میان بنی‌عمرو بن عوف در قبا فرود آمدیم؛ ابوجهل بن هشام"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1:kind_ar",
+      "source_text_sha256": "2447317cd216c02cecbe6e0352df253426f540cc53ad6350e5aa110618d24fe3",
+      "text": "سند روایت"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1:citation_ar",
+      "source_text_sha256": "1b03c521d0902e71c702a06a40bcae5dcb165a88191eb370e88b8bac3c4afce4",
+      "text": "[دلائل النبوه، بیهقی، 2/461](https://app.turath.io/book/7478?page=982)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1:text_ar",
+      "source_text_sha256": "07089835849a0635b5ec04896b78787ce3477cc3802e12675f97848a3c5f9587",
+      "text": "ابوعبدالله حافظ به ما خبر داد و گفت: ابوالعباس محمد بن یعقوب برای ما روایت کرد و گفت: احمد بن عبدالجبار برای ما روایت کرد و گفت: یونس بن بکیر برای ما روایت کرد، از محمد بن اسحاق که گفت: نافع از عبدالله بن عمر، از پدرش عمر بن خطاب برایم روایت کرد که گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2:kind_ar",
+      "source_text_sha256": "f864b55d2e52180dbc0e01a847386b010f3c737dcf8a74fc95cb67f435e288ef",
+      "text": "متن روایت"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2:speaker_ar",
+      "source_text_sha256": "a9f8a9fdb8166c97278baad39272ac2d1f16e4c7150819bc65dd298458bae517",
+      "text": "عمر بن خطاب، سپس هشام بن عاص"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2:citation_ar",
+      "source_text_sha256": "1b03c521d0902e71c702a06a40bcae5dcb165a88191eb370e88b8bac3c4afce4",
+      "text": "[دلائل النبوه، بیهقی، 2/461](https://app.turath.io/book/7478?page=982)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2:text_ar",
+      "source_text_sha256": "18d1076ef9143e3bf97719d0eaf3f8fc8aa62d67cf2d3d5c0d83ddf42eaf71ce",
+      "text": "«چون تصمیم قطعی به هجرت گرفتیم، من و عیاش بن ابی‌ربیعه و هشام بن عاص بن وائل برای دیدار قرار گذاشتیم و گفتیم: قرار ما تناضب نزدیک آبگیر بنی‌غفار است؛ پس هر کس از شما بامداد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1:kind_ar",
+      "source_text_sha256": "f864b55d2e52180dbc0e01a847386b010f3c737dcf8a74fc95cb67f435e288ef",
+      "text": "متن روایت"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1:speaker_ar",
+      "source_text_sha256": "eec1ce35dcaa43714ad71a7e050bd3f8bc9776fe6478eb39d05f2d1085a2bc8f",
+      "text": "عمر در گزارش پیشین؛ گزیده با ادامهٔ سخن آغاز می‌شود"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1:citation_ar",
+      "source_text_sha256": "2f3144072681097ac8e19f2cb66cdfe0975559228f1d2f0c411c79af5bfa5a78",
+      "text": "[دلائل النبوه، بیهقی، 2/462](https://app.turath.io/book/7478?page=983)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1:text_ar",
+      "source_text_sha256": "c1f1e28a8a886b2efcfdbf5ddcb2ab7e66f5f64d1ab29921726e388769ddc8b8",
+      "text": "آنجا نرسید، بازداشته شده است و دو همراه دیگرش راه خود را ادامه دهند. من و عیاش بن ابی‌ربیعه بامداد آنجا حاضر شدیم، اما هشام را از ما بازداشتند؛ او را در معرض فتنه و فشار گذاشتند و او در آن گرفتار شد. به مدینه رسیدیم و می‌گفتیم: «خدا توبهٔ اینان را نمی‌پذیرد؛ خدا را شناختند و به او ایمان آوردند و پیامبرش را تصدیق کردند، سپس بر اثر رنجی دنیوی که به آنان رسید از آن بازگشتند.» خود آنان نیز این را دربارهٔ خود می‌گفتند. پس خداوند عزوجل درباره‌شان نازل کرد:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p1:speaker_ar",
+      "source_text_sha256": "daeaf88913fb2a570e2f201730181fff5a730b61682fe3783a35565b92a220c5",
+      "text": "عمر، در ادامهٔ گزارش پیشین خود"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p1:citation_ar",
+      "source_text_sha256": "bf57be8ce4f6c2aee72cfc8c5ce45ea937ea99c57481d6b88def53d7ab917ae5",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/475](https://app.turath.io/book/23833?page=498)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p1:text_ar",
+      "source_text_sha256": "a584d0f27a57869c017ba335fea6516b023bc4347e6a862c6a8e86da284fc777",
+      "text": "و حارث بن هشام نزد عیاش بن ابی‌ربیعه رفتند؛ عیاش پسرعموی آن دو و از سوی مادر برادرشان بود. آن دو نزد ما به مدینه آمدند، در حالی که پیامبر خدا ﷺ در مکه بود؛ با او گفت‌وگو کردند و گفتند: «مادرت نذر کرده تا تو را نبیند، شانه به سرش نزند و از آفتاب زیر سایه نرود.» دلِ عیاش برای مادرش سوخت. به او گفتم: «ای عیاش، به خدا این قوم جز این نمی‌خواهند که تو را از دینت برگردانند؛ از آنان برحذر باش. به خدا، اگر شپش مادرت را بیازارد، موهایش را شانه خواهد کرد و اگر گرمای مکه بر او سخت شود به سایه خواهد رفت.» گفت: «سوگند مادرم را برآورده می‌کنم؛ در آنجا نیز مالی دارم که آن را می‌گیرم.» گفتم: «به خدا می‌دانی که من از ثروتمندترینِ قریشم؛ نصف مال من از آن تو، فقط با آن دو نرو.» نپذیرفت و جز همراه رفتن با آن دو نمی‌خواست. چون اصرار ورزید، به او گفتم: «حال که چنین تصمیمی گرفته‌ای، این شتر مرا بگیر؛ شتری تندرو و رام است. بر پشتش بمان و اگر از آن قوم چیز مشکوکی دیدی، با همین شتر بگریز.» همراه آن دو بر شتر بیرون رفت تا در بخشی از راه ابوجهل به او گفت: «برادرزاده، به خدا شترم را کند و سنگین یافته‌ام؛ نمی‌گذاری نوبتی بر شتر تو سوار شوم؟» گفت: «چرا.» شترش را خواباند و آن دو نیز شترهایشان را خواباندند تا جابه‌جا شوند؛ چون همگی بر زمین ایستادند، بر او تاختند، محکم بستندش و در بند به مکه بردند و او را به فتنه انداختند و گرفتار فتنه شد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p2:kind_ar",
+      "source_text_sha256": "657fd13ed58612f93478e5ac9b90fbfa73ff8ed9c159cbf63a7767b105e63cbd",
+      "text": "پیوند نقل مستقلی از یکی از خاندان عیاش"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p2:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p2:citation_ar",
+      "source_text_sha256": "bf57be8ce4f6c2aee72cfc8c5ce45ea937ea99c57481d6b88def53d7ab917ae5",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/475](https://app.turath.io/book/23833?page=498)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p2:text_ar",
+      "source_text_sha256": "3ed1c03f4c169881f0ed8523998f9e2f275f0975e412e868e54d0fcf0df0c1cd",
+      "text": "ابن اسحاق گفت: یکی از خاندان عیاش بن ابی‌ربیعه این را برایم روایت کرد:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p3:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p3:speaker_ar",
+      "source_text_sha256": "afdcce9e0a4bf9d9bac7bdeafb232e9273248a189b017e5eb4c55c1b551016dc",
+      "text": "یکی از افراد نام‌نبردهٔ خاندان عیاش، در نقل ابن اسحاق"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p3:citation_ar",
+      "source_text_sha256": "bf57be8ce4f6c2aee72cfc8c5ce45ea937ea99c57481d6b88def53d7ab917ae5",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/475](https://app.turath.io/book/23833?page=498)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p3:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_498_prep_cont:p3:text_ar",
+      "source_text_sha256": "d711332c89bc852a15f3496612485981a88ad3fe4ce41585733c53fb0cb41a09",
+      "text": "وقتی آن دو عیاش را به مکه آوردند، در روشنای روز او را در حالی که در بند بود وارد کردند؛ سپس گفتند: «ای مردم مکه، با نابخردانتان چنین کنید، چنان‌که ما با این نابخرد خود کردیم.»"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p2:kind_ar",
+      "source_text_sha256": "57438c73b65ee8e9fb24f102a2e40fbb9ced01a8025997e65612e6e54121fe60",
+      "text": "سند یا بلاغ با عبارت‌بندی اصلی آن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p2:speaker_ar",
+      "source_text_sha256": "bc63d7e90c88e92fc2b2c42682d9c105b3c51e704ae18b4e1bfdefd8c4c8f342",
+      "text": "ابن هشام در پیوندِ بلاغ ابوعثمان؛ نه سند ابن اسحاق"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p2:citation_ar",
+      "source_text_sha256": "72ccb7559ca8d03a0b57f4bbc38abd2a6ad52baf31c18b67680848442e45a821",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/477](https://app.turath.io/book/23833?page=500)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p2:text_ar",
+      "source_text_sha256": "803a8e29bf8a83764b2610aaf284014aab80616b4ab170344d20b3ebfa7501a2",
+      "text": "ابن هشام گفت: از ابوعثمان نهدی برایم نقل شده است که گفته: «به من رسیده است"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p3:kind_ar",
+      "source_text_sha256": "7a6d6ddb922d067198918f1a599e75d1389fa76166d90e5c683b7c41a31d04eb",
+      "text": "گزارش تاریخی از بلاغ ابوعثمان"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p3:speaker_ar",
+      "source_text_sha256": "af1f4727c499e8f92eeed36ec15f0d72dd77605bbf33a156e4b803267adaadbc",
+      "text": "ابوعثمان نهدی؛ ابن هشام با عبارت «برایم نقل شده» و «به من رسیده است»"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "سیرهٔ ابن هشام، تصحیح سقا"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p3:citation_ar",
+      "source_text_sha256": "72ccb7559ca8d03a0b57f4bbc38abd2a6ad52baf31c18b67680848442e45a821",
+      "text": "[سیرهٔ ابن هشام، تصحیح سقا، 1/477](https://app.turath.io/book/23833?page=500)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p3:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_23833_500_prep_791:p3:text_ar",
+      "source_text_sha256": "0bacf9dacb803fc04eb0e1b431fba253292dbd34033c71fececf23453e7b5660",
+      "text": "که صهیب وقتی خواست هجرت کند، کافران قریش به او گفتند: «بی‌چیز و خوار نزد ما آمدی، در میان ما ثروتمند شدی و به این جایگاه رسیدی؛ حالا می‌خواهی با مال و جانت بروی؟ به خدا چنین نخواهد شد.» صهیب گفت: «اگر مالم را به شما بدهم، راهم را باز می‌گذارید؟» گفتند: «آری.» گفت: «پس مالم را به شما واگذار کردم.» این خبر به پیامبر خدا ﷺ رسید و فرمود: «صهیب سود برد، صهیب سود برد.»"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p1:kind_ar",
+      "source_text_sha256": "05d2bed80a89d2f23576807baa894bfef8bf671b6018ff34f33dfac1ebc37df4",
+      "text": "سند یا پیوند نقل"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p1:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p1:citation_ar",
+      "source_text_sha256": "9384f8e0c6616e6cbbed6433f15f2d69611f5555d3859813cb947b982259f393",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/223](https://app.turath.io/book/930?page=745)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p1:text_ar",
+      "source_text_sha256": "db3a42e21fc00ea710e8a5c0b6d483b1ccc6a6a7ae713f0f6b107b6cabc8c4a6",
+      "text": "بیهقی گفته است: ابوعبدالله حافظ به صورت املا برای ما روایت کرد؛ ابوالعباس اسماعیل بن عبدالله بن محمد بن میکال به ما خبر داد؛ عبدان اهوازی به ما خبر داد؛ زید بن جریش برای ما روایت کرد؛ یعقوب بن محمد زهری برای ما روایت کرد؛ حصین بن حذیفه بن صیفی بن صهیب برای ما روایت کرد و گفت: پدر و عموهایم، از سعید بن مسیب، از صهیب برایم روایت کردند که گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p2:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p2:speaker_ar",
+      "source_text_sha256": "1540ac00d8c02a5015fad211e11ae2cd256df86dfbadbdbf68810000d610b69e",
+      "text": "صهیب؛ بیهقی در نقل ابن کثیر"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p2:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p2:citation_ar",
+      "source_text_sha256": "9384f8e0c6616e6cbbed6433f15f2d69611f5555d3859813cb947b982259f393",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/223](https://app.turath.io/book/930?page=745)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_745_prep_suhayb:p2:text_ar",
+      "source_text_sha256": "0524b7cac7d6f0037ce951cca341d00b150c4467ff662dcb8119a618371ca63a",
+      "text": "پیامبر خدا ﷺ فرمود: «محل هجرت شما را در رؤیا دیده‌ام: شوره‌زاری میان دو سنگلاخ آتشفشانی؛ یا هَجَر است یا یثرب.» صهیب گفت: پیامبر خدا ﷺ به مدینه رفت و ابوبکر همراهش رفت. من هم قصد داشتم با او بیرون بروم، اما جوانانی از قریش مانعم شدند. آن شب مدام برمی‌خاستم و نمی‌نشستم. گفتند: «خدا او را با درد شکمش از شما بازداشته است.» حال آنکه بیمار نبودم؛ پس خوابیدند. بیرون رفتم، ولی پس از پیمودن مسافتی عده‌ای از آنان در پی من آمدند تا مرا برگردانند. گفتم: «اگر چند اوقیه طلا به شما بدهم، راهم را باز می‌گذارید و بر عهد خود با من می‌مانید؟» پذیرفتند و من همراهشان به مکه برگشتم. گفتم: «زیر آستانهٔ در را بکنید؛ آنجا چند اوقیه هست. نزد فلان زن هم بروید و دو جامه را بگیرید.» سپس بیرون رفتم تا پیش از آنکه پیامبر خدا ﷺ از قبا جابه‌جا شود، در قبا نزدش رسیدم؛"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_746_prep_suhayb:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_746_prep_suhayb:p1:speaker_ar",
+      "source_text_sha256": "30e80f7e6f6bfbebef5cbe71310d25e7647d501ca548ae5f60cde1e9c73519b6",
+      "text": "صهیب در طریقِ پیش‌گفتهٔ بیهقی در صفحهٔ 745"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_746_prep_suhayb:p1:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_746_prep_suhayb:p1:citation_ar",
+      "source_text_sha256": "e0a397bec092adb0a076ab815c2d0c48d5dfee9d5faa73abb4e86d1bda0bac0f",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/224](https://app.turath.io/book/930?page=746)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_746_prep_suhayb:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_746_prep_suhayb:p1:text_ar",
+      "source_text_sha256": "d68165d6e7c64ec3942e6359d377980256408f9d12ecdbb1599d89138e0a77e7",
+      "text": "وقتی مرا دید فرمود: «ای ابویحیی، این معامله سودمند شد.» گفتم: «ای پیامبر خدا، کسی پیش از من نزد تو نرسیده است؛ جز جبرئیل علیه‌السلام کسی به تو خبر نداده است.»"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_salim:p1:kind_ar",
+      "source_text_sha256": "b1e0f8fd9ac93422a0c3b2babde0a9d51b44dd8f1e5f8a0366da9248a6654dbc",
+      "text": "آغاز سندی که به خبر بخش بعد می‌پیوندد؛ نه متن ابن عمر"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_salim:p1:speaker_ar",
+      "source_text_sha256": "e40fc7a58c852557015b0bad341f77ffd968c4a8082898d2b72698bf61e90800",
+      "text": "دستگاه نقلِ مصنف یا توضیح او، بسته به بخش؛ نه سخنِ صحابیِ صاحبِ گزارش"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_salim:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_salim:p1:citation_ar",
+      "source_text_sha256": "2f3144072681097ac8e19f2cb66cdfe0975559228f1d2f0c411c79af5bfa5a78",
+      "text": "[دلائل النبوه، بیهقی، 2/462](https://app.turath.io/book/7478?page=983)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_salim:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_983_ra_salim:p1:text_ar",
+      "source_text_sha256": "9454469b3fc747dc872cd52c2ae220c9b0bc3146175eafb5d182c26804a68929",
+      "text": "ابوالحسین بن فضل قطان به ما خبر داد و گفت: عبدالله بن جعفر به ما خبر داد:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p1:kind_ar",
+      "source_text_sha256": "2447317cd216c02cecbe6e0352df253426f540cc53ad6350e5aa110618d24fe3",
+      "text": "سند روایت"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p1:citation_ar",
+      "source_text_sha256": "1abbc72cc99a524124e90ccf79553598c51d2bddf69b7148ae751118ab28393d",
+      "text": "[دلائل النبوه، بیهقی، 2/463](https://app.turath.io/book/7478?page=984)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p1:text_ar",
+      "source_text_sha256": "edd7c40b944dfe5408ff90d6533a1ad2e7af2a35db9bad9e0e9dd1b6d5c95616",
+      "text": "او گفت: یعقوب بن سفیان برای ما روایت کرد و گفت: احمد بن ابی‌بکر بن حارث بن زراره بن مصعب بن عبدالرحمن بن عوف برایم روایت کرد و گفت: عبدالعزیز بن محمد، از عبدالله، از نافع، از ابن عمر، برای ما روایت کرد که گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p2:kind_ar",
+      "source_text_sha256": "f864b55d2e52180dbc0e01a847386b010f3c737dcf8a74fc95cb67f435e288ef",
+      "text": "متن روایت"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p2:speaker_ar",
+      "source_text_sha256": "bdac234d2963a8202043b853d83ec2a36cf65c82dd9106897cd1a2d77d129a10",
+      "text": "ابن عمر"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوه، بیهقی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p2:citation_ar",
+      "source_text_sha256": "1abbc72cc99a524124e90ccf79553598c51d2bddf69b7148ae751118ab28393d",
+      "text": "[دلائل النبوه، بیهقی، 2/463](https://app.turath.io/book/7478?page=984)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_7478_984_ra_salim:p2:text_ar",
+      "source_text_sha256": "0facff1bdafbc9673c56f5be25f41baf6a8c75db4d36b97589f6c96545162b60",
+      "text": "«از مکه آمدیم و در عُصبه فرود آمدیم: عمر بن خطاب، ابوعبیده بن جراح و سالم، آزادشدهٔ ابوحذیفه. سالم، آزادشدهٔ ابوحذیفه، پیش‌نماز آنان بود، زیرا از همه‌شان بیشتر قرآن می‌دانست.»"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p1:kind_ar",
+      "source_text_sha256": "05d2bed80a89d2f23576807baa894bfef8bf671b6018ff34f33dfac1ebc37df4",
+      "text": "سند یا پیوند نقل"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p1:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p1:citation_ar",
+      "source_text_sha256": "f2a84c4e5a7a6bbd4b16d19896bf9d65733552995401f995e614f2f0309fc7d6",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/225](https://app.turath.io/book/930?page=747)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p1:text_ar",
+      "source_text_sha256": "d2c2f17f3baa4958f069cb435bba398654b2c3323b1146847591edb37edf69b9",
+      "text": "یعقوب بن سفیان گفت: احمد بن ابی‌بکر بن حارث بن زراره بن مصعب بن عبدالرحمن بن عوف برایم روایت کرد؛ عبدالعزیز بن محمد بن عبیدالله، از نافع، از ابن عمر، برای ما روایت کرد که گفت:"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p2:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "گزارش تاریخی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p2:speaker_ar",
+      "source_text_sha256": "d1709ef8400224001469226eeee6eda37810c73c4b437ddb594c7296d4ae3fc5",
+      "text": "ابن عمر؛ یعقوب بن سفیان در نقل ابن کثیر"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p2:book_ar",
+      "source_text_sha256": "ab5c16fe21d558f0eab3ef4bf318ace5424b37eeaa8252e7613e8ce2fef2aa28",
+      "text": "السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p2:citation_ar",
+      "source_text_sha256": "f2a84c4e5a7a6bbd4b16d19896bf9d65733552995401f995e614f2f0309fc7d6",
+      "text": "[السیره النبویه از البدایه و النهایه، تصحیح عبدالواحد، 2/225](https://app.turath.io/book/930?page=747)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_930_747_prep_salim:p2:text_ar",
+      "source_text_sha256": "e1eea66cd3203afa7b7bc2ae16deeb7647570f030e5ae1d2d6eb480acd57c301",
+      "text": "«از مکه آمدیم و در عُصبه فرود آمدیم: عمر بن خطاب، ابوعبیده بن جراح و سالم، آزادشدهٔ ابوحذیفه. سالم، آزادشدهٔ ابوحذیفه، پیش‌نمازشان بود، زیرا از همه بیشتر قرآن می‌دانست.»"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p1:kind_ar",
+      "source_text_sha256": "be022c21e6e6a737322ce304f6e8bdeafd81edefd8129ba1ad46464bf3a1538d",
+      "text": "سند؛ متن منبع"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p1:speaker_ar",
+      "source_text_sha256": "4a2538a9711be0864f971f7da7dd8da47d8f7fd30da556c5e23e7b7ea412038f",
+      "text": "ناقلِ سند، چنان‌که در منبع آمده؛ نه سخنِ خودِ صاحبِ متن"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p1:book_ar",
+      "source_text_sha256": "9623ec2757d6533ad2280abe64bb5d2f7443e0f68f3bd77f415724d8fb625c90",
+      "text": "الطبقات الکبری، چاپ خانجی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p1:citation_ar",
+      "source_text_sha256": "58d335dcc0c91b839fd153b77ae046e1409802d933c678ad0068c6aa2752045a",
+      "text": "[الطبقات الکبری، چاپ خانجی، 1/192](https://app.turath.io/book/146?page=237)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p1:text_ar",
+      "source_text_sha256": "0fdbb323bf6743532d89f0da5d34fd771dd123c774a65bb00136619645a25dfe",
+      "text": "محمد بن عمر اسلمی به ما خبر داد و گفت: معمر بن راشد از زهری، از ابوامامه بن سهل بن حنیف، و از عروه، از عایشه، برایم روایت کرد"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p2:kind_ar",
+      "source_text_sha256": "1ff86c684c91bb277862459cacfd0e59438dd4b78d95774910dfc2578e8684ab",
+      "text": "متن یا توضیح، بسته به انتساب در ثبت منبع"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p2:speaker_ar",
+      "source_text_sha256": "f5855e39bcd7aa38129d2e4cd5a9a35a334fa44a2b960b41d4367b2993266cc4",
+      "text": "ابن سعد از محمد بن عمر واقدی؛ سندهای گردآوری‌شده چنان‌که در منبع آمده‌اند"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p2:book_ar",
+      "source_text_sha256": "9623ec2757d6533ad2280abe64bb5d2f7443e0f68f3bd77f415724d8fb625c90",
+      "text": "الطبقات الکبری، چاپ خانجی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p2:citation_ar",
+      "source_text_sha256": "58d335dcc0c91b839fd153b77ae046e1409802d933c678ad0068c6aa2752045a",
+      "text": "[الطبقات الکبری، چاپ خانجی، 1/192](https://app.turath.io/book/146?page=237)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p2:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_237_permission:p2:text_ar",
+      "source_text_sha256": "a1d659d99cdf2962f3b05f6e18b612aa2116412696eafc536f031db1b0994884",
+      "text": "آن دو گفتند: چون آن هفتاد نفر از نزد پیامبر خدا ﷺ بازگشتند، خاطرش آسوده شد؛ خدا برای او حامیانی جنگاور، مجهز و دلیر فراهم آورده بود. با آگاهی مشرکان از قصدِ خروج مسلمانان، سختی بر مسلمانان فزونی گرفت؛ بر یارانش تنگ گرفتند، آزارشان دادند و دشنام و آزاری رساندند که پیش‌تر نمی‌رساندند. یاران پیامبر خدا ﷺ از این وضع به او شکایت کردند و برای هجرت اجازه خواستند. فرمود: «سرای هجرت شما را به من نشان داده‌اند: شوره‌زاری نخلستان‌دار میان دو زمینِ سنگلاخ، یعنی دو حَرّه، دیده‌ام؛ اگر سَرات سرزمینی با نخلستان و شوره‌زار بود، می‌گفتم همان‌جاست.» چند روزی ماند، سپس شادمان نزد یارانش رفت و فرمود: «از سرای هجرت شما به من خبر داده‌اند؛ یثرب است. هر که می‌خواهد بیرون رود، به آنجا برود.» پس مردم به آماده شدن، قرار گذاشتن، یاری دادن به یکدیگر و بیرون رفتن پرداختند و این کار را پنهان می‌کردند. نخستین کسی از یاران پیامبر خدا ﷺ که به مدینه آمد ابوسلمه بن عبدالاسد بود؛ سپس عامر بن ربیعه با همسرش لیلی دختر ابی‌حثمه آمد؛ پس او نخستین زنِ مسافر با کجاوه بود که"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:kind_ar",
+      "source_text_sha256": "7999ae3da4467de800e839934396e6db11cd10503f3af222ab95bc04700168ad",
+      "text": "گزارش تاریخی؛ ادامه"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:speaker_ar",
+      "source_text_sha256": "f5855e39bcd7aa38129d2e4cd5a9a35a334fa44a2b960b41d4367b2993266cc4",
+      "text": "ابن سعد از محمد بن عمر واقدی؛ سندهای گردآوری‌شده چنان‌که در منبع آمده‌اند"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:book_ar",
+      "source_text_sha256": "9623ec2757d6533ad2280abe64bb5d2f7443e0f68f3bd77f415724d8fb625c90",
+      "text": "الطبقات الکبری، چاپ خانجی"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:citation_ar",
+      "source_text_sha256": "942e1c11f538a0bd18c7fd94b0e4f876c8e8382c3de29e1cb9951df579c1d794",
+      "text": "[الطبقات الکبری، چاپ خانجی، 1/193](https://app.turath.io/book/146?page=238)"
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:context_note_ar",
+      "source_text_sha256": "ffbfd94f09fbce91f46162374c37c9cc28431b94036e153b74b0c96a6d86921a",
+      "text": "تمامِ گزیدهٔ دفتر با مرزهای متنی و مشخصاتش؛ این گزیده را نباید همهٔ صفحه یا همهٔ کتاب شمرد."
+    },
+    {
+      "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:text_ar",
+      "source_text_sha256": "904063dc4e2de677f4704f3ad49e2983bb233a92f331230b959495525f72300f",
+      "text": "به مدینه رسید. سپس یاران پیامبر خدا ﷺ دسته‌دسته آمدند و در خانه‌های انصار فرود آمدند؛ انصار به آنان پناه دادند، یاری‌شان کردند و با آنان همدردی و همیاری کردند. سالم، آزادشدهٔ ابوحذیفه، پیش از رسیدن پیامبر خدا ﷺ در قبا پیش‌نماز مهاجران بود. چون مسلمانان برای هجرت به مدینه بیرون رفتند، قریش نسبت به آنان سختگیر شدند، با آنان دشمنی ورزیدند و از خروج جوانان خود به خشم آمدند. گروهی از انصار در عقبهٔ دوم با پیامبر خدا ﷺ بیعت کردند و سپس به مدینه بازگشتند؛ پس از آنکه نخستین مهاجر به قبا رسید، نزد پیامبر خدا ﷺ در مکه رفتند تا همراه یارانش در هجرت به مدینه آمدند. آنان مهاجرانِ انصاری‌اند: ذکوان بن عبدقیس، عقبه بن وهب بن کلده، عباس بن عباده بن نضله و زیاد بن لبید. همهٔ مسلمانان به مدینه بیرون رفتند و از میان آنان در مکه کسی جز پیامبر خدا ﷺ، ابوبکر، علی، یا فرد گرفتار و بازداشته، یا بیمار، یا ناتوان از خروج نماند."
+    }
+  ],
+  "reading_editions": [
+    {
+      "reading_id": "hch_early_migration_read_family",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_early_migration_read_first",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_early_migration_read_umar",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_early_migration_read_suhayb",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_early_migration_read_salim",
+      "mode": "translated",
+      "gloss": ""
+    }
+  ],
+  "deferred_questions": [],
+  "translation_sha256": "f36a07a3923829c2d1746239c632c213c1385ef5f50b8b5fd5ba909a29343543",
+  "review": {
+    "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+    "translation_sha256": "f36a07a3923829c2d1746239c632c213c1385ef5f50b8b5fd5ba909a29343543",
+    "translation_compared": true,
+    "summary": "Internal AI bilingual semantic comparison attested by reviewer session f8b64958-9325-4d57-857b-9ccfc13de872 across 377 Arabic/target units. Round-2 Arabic–Persian semantic comparison completed for every one of 377 paired inventory units across all 16 complete, untruncated pairs.py chunks: chapter teaching, outlines, objectives, every question and option with answer meanings, explanations, scope and feedback, repeated source metadata and citation URLs, and the full selected source excerpts and named chains in all five translated readings. The three round-1 ambiguities in the appointment answer, Suhayb feedback and Hisham trial wording have been corrected in this bound draft; no remaining actionable inventory-level meaning, omission, language or answer problem was found. This compares supplied Arabic against Persian; it is not independent collation of source editions, specialist historical judgment, independent language approval or publication permission. Non-inventory Arabic packets and Core record material are not additional translated edition units. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  }
+}

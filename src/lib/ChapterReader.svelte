@@ -4,8 +4,16 @@
     import { journey_href } from './journey-links.js'
     const { route } = window.navgo
     import { fade, fly } from 'svelte/transition'
-    import { catalog, chapter_title, citation, display_text, part_role } from './chapters.svelte.js'
-    import { reading_for_note, reading_groups } from './chapter-editions.js'
+    import {
+        available_chapters,
+        chapter_content_locale,
+        chapter_title,
+        citation,
+        display_text,
+        part_role,
+    } from './chapters.svelte.js'
+    import { reading_for_note, reading_groups, source_part_display } from './chapter-editions.js'
+    import { language_direction } from './locale-config.js'
     import {
         create_practice,
         current_question,
@@ -178,38 +186,62 @@
     {#if note}
         <a
             class="ms-1 align-super px-[5px] border-0 text-[0.75rem] font-sans font-semibold text-gold bg-[rgba(232,178,87,0.12)] rounded-full hover:bg-gold hover:text-gold-ink"
+            lang={destination.lang}
+            dir={language_direction(destination.lang)}
             aria-label={`Source ${note.number}`}
             href={href('readings', note_reading(note))}>{note.number}</a
         >
     {/if}
 {/snippet}
 
-{#snippet source_part(unit)}
+{#snippet source_part(unit, reading_mode = null)}
     {@const role = part_role(unit)}
-    <div class="grid gap-2 scroll-mt-4" data-unit={unit.unit_id}>
+    {@const source = source_part_display(unit, chapter?.locale, reading_mode)}
+    <div
+        class="grid gap-2 scroll-mt-4"
+        data-unit={unit.unit_id}
+        lang={chapter?.locale}
+        dir={language_direction(chapter?.locale)}
+    >
         <p class="text-[0.8125rem] leading-[1.6] text-ink-soft">{unit.kind} · {unit.speaker}</p>
-        {#if unit.text && display_text(unit.text)}
-            {#if role === 'note' || role === 'chain'}
-                <p class="font-serif text-[1rem] leading-[1.8] text-ink-soft">
-                    {display_text(unit.text)}
-                </p>
-            {:else}
-                <blockquote
-                    class="py-4 px-5 font-serif text-[1.1875rem] leading-[1.9] text-[#fff6e3] bg-[rgba(0,0,0,0.32)] border-0 border-s-[3px] border-solid rounded-e-xl data-[quran=true]:border-[#fff1c4] border-gold"
-                    data-quran={role === 'quran'}
+        {#if source.text && display_text(source.text)}
+            {#if source.original}<p class="text-ink-soft">Arabic original</p>{/if}
+            <div
+                lang={source.locale}
+                dir={language_direction(source.locale)}
+                class:font-arabic={source.original}
+            >
+                {#if role === 'note' || role === 'chain'}
+                    <p class="font-serif text-[1rem] leading-[1.8] text-ink-soft">
+                        {display_text(source.text)}
+                    </p>
+                {:else}
+                    <blockquote
+                        class="py-4 px-5 font-serif text-[1.1875rem] leading-[1.9] text-[#fff6e3] bg-[rgba(0,0,0,0.32)] border-0 border-s-[3px] border-solid rounded-e-xl data-[quran=true]:border-[#fff1c4] border-gold"
+                        data-quran={role === 'quran'}
+                    >
+                        {display_text(source.text)}
+                    </blockquote>
+                {/if}
+            </div>
+            {#if chapter.locale !== 'ar' && !source.original && role === 'quran'}
+                <p
+                    class="text-[0.8125rem] leading-[1.6] text-ink-soft"
+                    lang={destination.lang}
+                    dir={language_direction(destination.lang)}
                 >
-                    {display_text(unit.text)}
-                </blockquote>
-            {/if}
-            {#if chapter.locale === 'en' && role === 'quran'}
-                <p class="text-[0.8125rem] leading-[1.6] text-ink-soft">
                     Translated from the supplied Qur’anic excerpt; not an official Qur’an
                     translation or an independent collation.
                 </p>
             {/if}
         {/if}
         <details class="text-ink-soft text-[0.875rem] leading-[1.7]">
-            <summary class="cursor-pointer text-gold">Arabic original and source details</summary>
+            <summary
+                class="cursor-pointer text-gold"
+                lang={destination.lang}
+                dir={language_direction(destination.lang)}
+                >Arabic original and source details</summary
+            >
             <div class="grid gap-2 pt-3">
                 <p>{unit.context_note}</p>
                 <a
@@ -232,9 +264,9 @@
 
 <aside
     class="fixed z-50 top-[76px] right-4 bottom-4 flex flex-col w-[min(760px,calc(100vw-32px))] bg-panel-solid border border-solid border-line-strong rounded-[20px] shadow-[0_24px_80px_rgba(0,0,0,0.55)] backdrop-blur-[20px] mobile:top-14 mobile:right-0 mobile:bottom-0 mobile:w-full mobile:rounded-b-none"
-    dir={chapter?.locale === 'ar' ? 'rtl' : 'ltr'}
-    lang={chapter?.locale ?? 'en'}
-    style:--font-serif={chapter?.locale === 'ar'
+    lang={destination.lang}
+    dir={language_direction(destination.lang)}
+    style:--font-serif={language_direction(chapter?.locale) === 'rtl'
         ? 'Amiri, Kitab, serif'
         : 'Newsreader, Georgia, serif'}
     aria-labelledby="chapter-title"
@@ -243,17 +275,22 @@
     <header class="flex gap-4 items-start justify-between px-7 pt-6 pb-3 mobile:px-5">
         <div class="grid min-w-0 flex-1 gap-2">
             <label class="sr-only" for="chapter-select">Choose a chapter</label>
-            <div class="relative mb-1 min-w-0">
+            <div class="relative mb-1 min-w-0" dir={language_direction(chapter?.locale)}>
                 <select
                     id="chapter-select"
+                    lang={chapter?.locale}
+                    dir={language_direction(chapter?.locale)}
                     class="w-full min-w-0 appearance-none rounded-lg border border-solid border-line-strong bg-panel-solid py-2 ps-3 pe-9 font-serif text-[1rem] text-gold-bright focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                     value={chapter_id}
                     onchange={(event) =>
                         on_navigate(`/chapters/${event.currentTarget.value}/story`)}
                 >
-                    {#each catalog.chapters as item (item.chapter_id)}
-                        <option value={item.chapter_id}
-                            >{chapter_title(item, chapter?.locale)}</option
+                    {#each available_chapters(destination.lang) as item (item.chapter_id)}
+                        <option
+                            value={item.chapter_id}
+                            lang={chapter_content_locale(item, destination.lang)}
+                            dir={language_direction(chapter_content_locale(item, destination.lang))}
+                            >{chapter_title(item, destination.lang)}</option
                         >
                     {/each}
                 </select>
@@ -265,11 +302,22 @@
                     <path d="M6 9l6 6 6-6" />
                 </svg>
             </div>
-            <h2 class="font-serif text-[2rem] font-medium leading-[1.15]" id="chapter-title">
+            <h2
+                class="font-serif text-[2rem] font-medium leading-[1.15]"
+                id="chapter-title"
+                lang={chapter?.locale}
+                dir={language_direction(chapter?.locale)}
+            >
                 {chapter?.title ?? ''}
             </h2>
             {#if chapter}
-                <p class="text-ink-soft text-[1rem] leading-[1.6]">{chapter.reader_question}</p>
+                <p
+                    class="text-ink-soft text-[1rem] leading-[1.6]"
+                    lang={chapter?.locale}
+                    dir={language_direction(chapter?.locale)}
+                >
+                    {chapter.reader_question}
+                </p>
             {/if}
         </div>
         <button
@@ -287,9 +335,13 @@
         </button>
     </header>
 
+    <p class="px-7 pb-3 text-ink-soft text-[0.8125rem] leading-[1.5] mobile:px-5" data-chapter-wip>
+        Work in progress. All editions require scholarly review before public or wide release.
+    </p>
+
     {#if chapter && destination.lang !== chapter.locale}
         <p class="px-7 pb-3 text-ink-soft text-[0.9375rem] mobile:px-5">
-            This chapter is available in Arabic and English. Showing the English edition.
+            A chapter edition is not ready in this language. Showing the English edition.
         </p>
     {/if}
 
@@ -328,6 +380,8 @@
                     <p
                         class="font-serif text-[1.3125rem] leading-[1.85] text-ink py-4 px-5 bg-[rgba(232,178,87,0.08)] border-0 border-s-[3px] border-solid border-gold rounded-e-xl"
                         id={block.paragraph_id}
+                        lang={chapter?.locale}
+                        dir={language_direction(chapter?.locale)}
                     >
                         {block.text}{@render marker(block.paragraph_id)}
                     </p>
@@ -345,8 +399,10 @@
                                     <span class="min-w-5 text-gold font-semibold"
                                         >{(index + 1).toLocaleString(chapter.locale)}</span
                                     >
-                                    <span class="font-serif text-[1.0625rem] leading-[1.45]"
-                                        >{point.text}</span
+                                    <span
+                                        class="font-serif text-[1.0625rem] leading-[1.45]"
+                                        lang={chapter?.locale}
+                                        dir={language_direction(chapter?.locale)}>{point.text}</span
                                     >
                                 </a>
                             </li>
@@ -367,7 +423,12 @@
                     </ol>
                 </nav>
                 {#each chapter.account as section (section.section_id)}
-                    <section class="grid gap-3 scroll-mt-4" data-section={section.section_id}>
+                    <section
+                        class="grid gap-3 scroll-mt-4"
+                        data-section={section.section_id}
+                        lang={chapter?.locale}
+                        dir={language_direction(chapter?.locale)}
+                    >
                         <h3 class={heading}>{section.title}</h3>
                         {#each section.paragraphs as block (block.paragraph_id)}
                             <p class={paragraph} id={block.paragraph_id}>
@@ -387,6 +448,8 @@
                             <section
                                 class="grid gap-3 scroll-mt-4"
                                 data-section={section.section_id}
+                                lang={chapter?.locale}
+                                dir={language_direction(chapter?.locale)}
                             >
                                 <h3 class={heading}>{section.title}</h3>
                                 {#each section.paragraphs as block (block.paragraph_id)}
@@ -401,10 +464,10 @@
             </div>
         {:else if tab === 'sources'}
             <div class="grid gap-6" in:fade={{ duration: 200 }}>
-                {#if chapter.locale === 'en'}
+                {#if chapter.locale !== 'ar'}
                     <p class="text-ink-soft leading-[1.7]">
-                        English translations of the selected excerpts. The original Arabic remains
-                        available with each passage.
+                        Selected excerpts may have translations or summaries. The original Arabic
+                        remains available with each passage.
                     </p>
                 {/if}
                 {#each readings as reading (reading.reading_id)}
@@ -413,12 +476,22 @@
                         data-reading={reading.reading_id}
                         data-lit={lit.includes(reading.reading_id)}
                     >
-                        <h3 class="font-serif text-[1.1875rem] font-medium text-ink">
+                        <h3
+                            class="font-serif text-[1.1875rem] font-medium text-ink"
+                            lang={chapter?.locale}
+                            dir={language_direction(chapter?.locale)}
+                        >
                             {reading.title}
                         </h3>
                         {#if reading.mode === 'arabic_with_gloss'}
-                            <p class="text-ink-soft">English summary — not a translation</p>
-                            <p class="leading-[1.7]">{reading.gloss}</p>
+                            <p class="text-ink-soft">Summary — not a translation</p>
+                            <p
+                                class="leading-[1.7]"
+                                lang={chapter?.locale}
+                                dir={language_direction(chapter?.locale)}
+                            >
+                                {reading.gloss}
+                            </p>
                         {/if}
                         {#each reading.blocks as block, index (index)}
                             {#if block.repeat}
@@ -437,18 +510,21 @@
                                             >Chain of transmission</summary
                                         >
                                         <div class="grid gap-3 pt-3">
-                                            {#each chain as unit (unit.unit_id)}{@render source_part(unit)}{/each}
+                                            {#each chain as unit (unit.unit_id)}{@render source_part(unit, reading.mode)}{/each}
                                         </div>
                                     </details>
                                 {/if}
                                 {#each block.parts.filter((unit) => part_role(unit) !== 'chain') as unit (unit.unit_id)}
-                                    {@render source_part(unit)}
+                                    {@render source_part(unit, reading.mode)}
                                 {/each}
                                 <a
                                     class="justify-self-start text-[0.875rem] text-gold underline underline-offset-4"
                                     href={citation(block.parts[0]).url}
                                     target="_blank"
-                                    rel="noreferrer">{citation(block.parts[0]).label}</a
+                                    rel="noreferrer"
+                                    lang={chapter?.locale}
+                                    dir={language_direction(chapter?.locale)}
+                                    >{citation(block.parts[0]).label}</a
                                 >
                             {/if}
                         {/each}
@@ -471,7 +547,11 @@
                                 )}
                                 · {level_name[question.difficulty]}
                             </p>
-                            <p class="font-serif text-[1.3125rem] leading-[1.7] text-ink">
+                            <p
+                                class="font-serif text-[1.3125rem] leading-[1.7] text-ink"
+                                lang={chapter?.locale}
+                                dir={language_direction(chapter?.locale)}
+                            >
                                 {question.prompt}
                             </p>
                             {#each options as option (option.option_id)}
@@ -488,31 +568,34 @@
                                               ? 'wrong'
                                               : 'idle'
                                         : 'idle'}
+                                    lang={chapter?.locale}
+                                    dir={language_direction(chapter?.locale)}
                                     disabled={Boolean(result)}
                                     onclick={() => answer(option.option_id)}>{option.text}</button
                                 >
                             {/each}
-                            {#if !result}
-                                <div class="flex flex-wrap gap-4 items-center">
-                                    <button
-                                        class="py-2 px-4 text-ink bg-transparent border border-solid border-line-strong rounded-full hover:border-gold"
-                                        onclick={open_passage}>Read the passage</button
-                                    >
+                            <div class="flex flex-wrap gap-4 items-center">
+                                <button
+                                    class="py-2 px-4 text-ink bg-transparent border border-solid border-line-strong rounded-full hover:border-gold"
+                                    onclick={open_passage}>Read the passage</button
+                                >
+                                {#if !result}
                                     <button
                                         class="text-ink-soft bg-transparent border-0 underline underline-offset-4"
                                         onclick={() => answer(null)}>I don’t know</button
                                     >
-                                </div>
-                            {/if}
-                            {#each passage as unit (unit.unit_id)}
-                                {@render source_part(unit)}
-                            {/each}
+                                {/if}
+                            </div>
                             {#if result}
                                 {@const picked = question.options.find(
                                     (option) =>
                                         option.option_id === practice.answers[question.question_id],
                                 )}
-                                <div class="grid gap-2" in:fly={{ y: 8, duration: 200 }}>
+                                <div
+                                    data-practice-feedback
+                                    class="grid gap-2"
+                                    in:fly={{ y: 8, duration: 200 }}
+                                >
                                     {#if !result.skipped}
                                         <p class="font-semibold">
                                             {#if result.correct}<span class="text-[#7fd1a0]"
@@ -522,9 +605,25 @@
                                                 >{/if}
                                         </p>
                                     {/if}
-                                    {#if picked}<p class="text-ink-soft leading-[1.7]">{picked.feedback}</p>{/if}
-                                    <p class="text-ink leading-[1.7]">{question.explanation}</p>
-                                    <p class="text-ink-soft text-[0.9375rem] leading-[1.7]">
+                                    {#if picked}<p
+                                            class="text-ink-soft leading-[1.7]"
+                                            lang={chapter?.locale}
+                                            dir={language_direction(chapter?.locale)}
+                                        >
+                                            {picked.feedback}
+                                        </p>{/if}
+                                    <p
+                                        class="text-ink leading-[1.7]"
+                                        lang={chapter?.locale}
+                                        dir={language_direction(chapter?.locale)}
+                                    >
+                                        {question.explanation}
+                                    </p>
+                                    <p
+                                        class="text-ink-soft text-[0.9375rem] leading-[1.7]"
+                                        lang={chapter?.locale}
+                                        dir={language_direction(chapter?.locale)}
+                                    >
                                         {question.scope_note}
                                     </p>
                                     <button
@@ -536,6 +635,9 @@
                                     >
                                 </div>
                             {/if}
+                            {#each passage as unit (unit.unit_id)}
+                                {@render source_part(unit)}
+                            {/each}
                         </div>
                     {/key}
                 {:else if practice}

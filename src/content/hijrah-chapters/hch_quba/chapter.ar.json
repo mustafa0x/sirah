@@ -1,0 +1,4092 @@
+{
+  "schema_version": 1,
+  "chapter_id": "hch_quba",
+  "revision": 1,
+  "title_ar": "قباء: انتظار ووصول ثم طريق المدينة",
+  "reader_question_ar": "كيف صار انتظار القادم لقاءً، وماذا نعرف وما لا نجزم به عن أيام قباء؟",
+  "core_ids": [
+    "hc_quba_chapter_arrival",
+    "hc_quba_chapter_hosts",
+    "hc_quba_chapter_duration",
+    "hc_quba_chapter_mosque",
+    "hc_quba_chapter_departure"
+  ],
+  "topic_ids": [
+    "quba.arrival",
+    "quba.hosts",
+    "quba.duration",
+    "quba.mosque",
+    "quba.friday_departure"
+  ],
+  "place_links": [
+    {
+      "place_id": "quba",
+      "relation": "setting",
+      "claim_ids": [
+        "quba_chapter_waiting",
+        "quba_chapter_hosts",
+        "quba_chapter_ishaq_days",
+        "quba_chapter_quba_mosque"
+      ]
+    },
+    {
+      "place_id": "madinah",
+      "relation": "mentioned",
+      "claim_ids": [
+        "quba_chapter_friday_departure",
+        "quba_chapter_different_mosques"
+      ]
+    }
+  ],
+  "related_chapter_ids": [
+    "hch_umm_mabad"
+  ],
+  "overview": [
+    {
+      "paragraph_id": "hch_quba_p01",
+      "text_ar": "من انتظار الناس على طرف الحرة إلى معرفة النبي ﷺ بين القادمين، ثم النزول في بني عمرو بن عوف، تفتح قباء باب المدينة. سنمضي مع الخبر في لقاء الناس والمنزل والمسجد ثم المغادرة، ونصغي أيضًا إلى اختلاف الروايات في مدة البقاء.",
+      "claim_ids": [
+        "quba_chapter_waiting",
+        "quba_chapter_recognition",
+        "quba_chapter_hosts",
+        "quba_chapter_ishaq_days"
+      ]
+    }
+  ],
+  "account": [
+    {
+      "section_id": "hch_quba_wait",
+      "title_ar": "أيام انتظار، ولحظة تعرف",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_quba_p02",
+          "text_ar": "خرج المسلمون ينتظرون القادم من مكة عند الحرة حتى ردهم حر الظهيرة إلى بيوتهم. ثم أبصر رجل من يهود الركب فنادى، فخرج الناس للقائه. وفي رواية ابن إسحاق يحكي رجال من الأنصار انتظارهم بعد صلاة الصبح، ثم دخولهم البيوت قبل أن يسمعوا نداء الرجل.",
+          "claim_ids": [
+            "quba_chapter_waiting"
+          ]
+        },
+        {
+          "paragraph_id": "hch_quba_p03",
+          "text_ar": "اتجه الركب إلى بني عمرو بن عوف. وقف أبو بكر للناس وجلس النبي ﷺ صامتًا؛ فحيّا بعض من جاء من الأنصار ولم يكن قد رآه أبا بكر أولًا. ولما أصابت الشمس النبي ﷺ ظلله أبو بكر بردائه فعرفوه. ويحكي رجال الاستقبال عند ابن إسحاق التعرف عند زوال الظل في خبرهم أيضًا.",
+          "claim_ids": [
+            "quba_chapter_recognition",
+            "quba_chapter_urwah_stay"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_quba_home",
+      "title_ar": "في بيوت قباء",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_quba_p04",
+          "text_ar": "ثم يذكر ابن إسحاق أن منزل النبي ﷺ كان عند كلثوم بن هدم، على ما يرويه بعضهم، ويذكر قولًا آخر بأنه نزل عند سعد بن خيثمة. ويشرح القائلون بكلثوم أن النبي كان يجلس للناس في بيت سعد، المعروف ببيت الأعزاب. ويترك ابن إسحاق القولين دون جزم باسم المضيف.",
+          "claim_ids": [
+            "quba_chapter_hosts"
+          ]
+        },
+        {
+          "paragraph_id": "hch_quba_p05",
+          "text_ar": "أما أبو بكر فينقل ابن إسحاق له منزلًا عند خبيب بن إساف، ويورد قولًا آخر عند خارجة بن زيد. يبقى خبر منزله غير خبر منزل النبي ﷺ.",
+          "claim_ids": [
+            "quba_chapter_bakr_host",
+            "quba_chapter_hosts"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_quba_days",
+      "title_ar": "أيام قباء",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_quba_p06",
+          "text_ar": "في خبر ابن إسحاق أقام النبي ﷺ بقباء الإثنين والثلاثاء والأربعاء والخميس، وخرج يوم الجمعة؛ ومع ذلك يذكر قول بني عمرو بن عوف إنه بقي بينهم أطول. ويصف عروة المكث في خبر البخاري بأنه بضع عشرة ليلة، أما أنس في رواية البيهقي فيذكر أربع عشرة ليلة.",
+          "claim_ids": [
+            "quba_chapter_ishaq_days",
+            "quba_chapter_urwah_stay",
+            "quba_chapter_anas_stay"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_quba_mosque",
+      "title_ar": "مسجد في قباء",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_quba_p08",
+          "text_ar": "يذكر ابن إسحاق تأسيس النبي ﷺ مسجده في قباء ضمن خبر إقامته، ويذكر عروة تأسيس المسجد والصلاة فيه. صار للمقيمين موضع للصلاة في قباء قبل أن يمضي الركب إلى المدينة؛ ولا يتوقف خبر المسجد على اختيار عدد واحد لليالي الإقامة.",
+          "claim_ids": [
+            "quba_chapter_quba_mosque"
+          ]
+        },
+        {
+          "paragraph_id": "hch_quba_p09",
+          "text_ar": "وبعد الانتقال إلى المدينة يصف خبر عروة موضع مسجد النبي ﷺ بأنه مربد للتمر لسهيل وسهل، ويروي مساومتهما فيه. وفي خبر أنس يطلب النبي ﷺ من بني النجار ثمن حائطهم فيجيبونه، ثم يتابع أنس خبر البناء في تتمة المقطع. كل وصف باقٍ في روايته؛ وليس هذا عمل بناء مسجد قباء.",
+          "claim_ids": [
+            "quba_chapter_different_mosques"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_quba_onward",
+      "title_ar": "إلى الجمعة في الطريق",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_quba_p10",
+          "text_ar": "خرج النبي ﷺ من قباء، وفي رواية ابن إسحاق أدركته الجمعة في بني سالم بن عوف فصلاها في مسجد الوادي. وفي خبر عروة تمضي الراحلة حتى تبرك عند موضع المسجد في المدينة. ومن هنا تبدأ أخبار المقام في المدينة، بعد أيام قباء ومسجدها.",
+          "claim_ids": [
+            "quba_chapter_friday_departure",
+            "quba_chapter_different_mosques"
+          ]
+        }
+      ]
+    }
+  ],
+  "outline": [
+    {
+      "point_id": "hch_quba_outline_wait",
+      "text_ar": "أيام انتظار، ولحظة تعرف",
+      "claim_ids": [
+        "quba_chapter_waiting"
+      ],
+      "section_id": "hch_quba_wait"
+    },
+    {
+      "point_id": "hch_quba_outline_home",
+      "text_ar": "في بيوت قباء",
+      "claim_ids": [
+        "quba_chapter_hosts"
+      ],
+      "section_id": "hch_quba_home"
+    },
+    {
+      "point_id": "hch_quba_outline_days",
+      "text_ar": "أيام قباء",
+      "claim_ids": [
+        "quba_chapter_ishaq_days",
+        "quba_chapter_urwah_stay",
+        "quba_chapter_anas_stay"
+      ],
+      "section_id": "hch_quba_days"
+    },
+    {
+      "point_id": "hch_quba_outline_mosque",
+      "text_ar": "مسجد في قباء",
+      "claim_ids": [
+        "quba_chapter_quba_mosque"
+      ],
+      "section_id": "hch_quba_mosque"
+    },
+    {
+      "point_id": "hch_quba_outline_onward",
+      "text_ar": "إلى الجمعة في الطريق",
+      "claim_ids": [
+        "quba_chapter_friday_departure",
+        "quba_chapter_different_mosques"
+      ],
+      "section_id": "hch_quba_onward"
+    }
+  ],
+  "in_depth": [
+    {
+      "section_id": "hch_quba_voices",
+      "title_ar": "أي يوم وأي مدة؟",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_quba_p11",
+          "text_ar": "لمن أراد فحص زمن الوصول: يورد ابن حجر أخبارًا تجعل القدوم في أول ربيع الأول أو بعده بأيام متفاوتة، ثم يقترح وجوهًا للجمع بينها، منها الاختلاف في رؤية الهلال، ويفترض في موضع آخر عدم احتساب يوم الدخول أو الخروج عند بعض من قصر المدة. هذه محاولات الشارح لفهم اختلاف التواريخ، لا موعدًا جديدًا ثابتًا يضاف إلى متن عروة أو عدّ ابن إسحاق.",
+          "claim_ids": [
+            "quba_chapter_date_commentary",
+            "quba_chapter_urwah_stay",
+            "quba_chapter_ishaq_days"
+          ]
+        },
+        {
+          "paragraph_id": "hch_quba_p12",
+          "text_ar": "وفي شرح آخر يعدد ابن حجر الإقامة ثلاثًا وخمسًا وأربع عشرة واثنتين وعشرين، ويقول إن قول أنس أولى بالقبول: هذا تفضيله بين الأخبار في موضعه. أما في تعليقه على اختلاف نسخ رواية بعينها، فيذكر أن لفظ المستملي والحموي أربع وعشرون، ولفظ الباقين أربع عشرة، ويصف الأخير بالصواب من هذا الوجه تحديدًا. الحكم على لفظ نسخة هنا غير المفاضلة العامة هناك.",
+          "claim_ids": [
+            "quba_chapter_duration_reading",
+            "quba_chapter_variant_24"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_quba_verse",
+      "title_ar": "تعيين المسجد المؤسس على التقوى",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_quba_p13",
+          "text_ar": "تبدأ جملة ابن حجر عن المسجد المؤسس على التقوى قبل حد الصفحة، وتستأنف بعده بتفسيره مسجد قباء. وينقل الآية ورأي الجمهور في حملها على قباء، ثم يورد جوابًا نبويًا مرويًا بتعيين مسجد النبي ﷺ، وخبرًا آخر يذكر فضل قباء مع ذلك التعيين. الآية المنقولة وجواب النبي كما يرويه الشارح والتفسير الذي يقدمه أصوات مختلفة.",
+          "claim_ids": [
+            "quba_chapter_taqwa_difference"
+          ]
+        },
+        {
+          "paragraph_id": "hch_quba_p14",
+          "text_ar": "ينقل ابن حجر تفسير القرطبي لاحتمال تخصيص مسجد النبي ﷺ بالجواب، ثم يعقّب هو بوجه آخر ويقول إن كلا المسجدين أسس على التقوى. وعند نقله خبر أبي هريرة ترد عبارة النبي ﷺ قبل لفظ الآية وتتم بعده في أهل قباء؛ وما يلي ذلك تفسير ابن حجر. ثم يذكر قول الداودي والسهيلي في الجمع. لا يصير تفسير أي شارح هنا قولًا نبويًا جديدًا أو حكمًا يصدره الفصل.",
+          "claim_ids": [
+            "quba_chapter_taqwa_difference"
+          ]
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "reading_id": "hch_quba_read_meeting",
+      "title_ar": "انتظار عروة وتعرف الأنصار في خبر ابن إسحاق",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "quba_chapter_waiting",
+        "quba_chapter_recognition",
+        "quba_chapter_urwah_stay"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_02",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_03",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_quba_read_homes",
+      "title_ar": "موضع النزول وأبو بكر: القول والقول الآخر",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "quba_chapter_hosts",
+        "quba_chapter_bakr_host"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_04",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_05",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_quba_read_days",
+      "title_ar": "أيام ابن إسحاق وإقامة أنس وشرح ابن حجر",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "quba_chapter_ishaq_days",
+        "quba_chapter_anas_stay",
+        "quba_chapter_duration_reading",
+        "quba_chapter_variant_24",
+        "quba_chapter_date_commentary"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_06",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_07",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_08",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_09",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_10",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p4_cont"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_14",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_quba_read_mosques",
+      "title_ar": "مسجد قباء وتفسير التقوى وحد مسجد المدينة",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "quba_chapter_quba_mosque",
+        "quba_chapter_taqwa_difference",
+        "quba_chapter_different_mosques"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_06",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_10",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p4_cont"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_11",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_12",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p9_qurtubi",
+            "p9_hajar",
+            "p10",
+            "p11",
+            "p11_prophet",
+            "p12",
+            "p13_prophet",
+            "p13",
+            "p14",
+            "p15"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_13",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_quba_read_leave",
+      "title_ar": "الخروج والجمعة في خبر ابن إسحاق وخبر عروة",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "quba_chapter_friday_departure"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_07",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    }
+  ],
+  "objective_ids": [
+    "quba_chapter_read_arrival",
+    "quba_chapter_read_hosts",
+    "quba_chapter_read_duration",
+    "quba_chapter_read_mosque",
+    "quba_chapter_read_departure"
+  ],
+  "questions": [
+    {
+      "question_id": "hch_quba_q_watch",
+      "difficulty": "beginner",
+      "objective_id": "quba_chapter_read_arrival",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "quba_chapter_waiting"
+      ],
+      "reading_ids": [
+        "hch_quba_read_meeting"
+      ],
+      "prompt_ar": "ما الذي قطع انتظار المسلمين عند الحرة؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "نداء رجل أبصر القادمين.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "وصول كتاب من مكة يحدد الموعد.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "انتهاء بناء مسجد المدينة.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: في خبر عروة في البخاري خرج المسلمون ينتظرون القادم، ثم أعلن رجل من يهود رؤيته، واستقبلوه عند الحرة.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_01:p1",
+        "sp_quba_chapter_01:p2",
+        "sp_quba_chapter_01:p3",
+        "sp_quba_chapter_01:p4",
+        "sp_quba_chapter_02:p1",
+        "sp_quba_chapter_02:p2",
+        "sp_quba_chapter_03:p1",
+        "sp_quba_chapter_03:p2"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_recognize",
+      "difficulty": "beginner",
+      "objective_id": "quba_chapter_read_arrival",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "quba_chapter_recognition"
+      ],
+      "reading_ids": [
+        "hch_quba_read_meeting"
+      ],
+      "prompt_ar": "بم عرف من لم يكن رأى النبي ﷺ أنه ليس أبا بكر؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "ظلله أبو بكر بردائه.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "تقدم النبي ليخطب بهم.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "سمعوا اسمه من الركب.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: في خبر عروة وعند ابن إسحاق لم يعرف بعض المستقبلين النبي ﷺ من أبي بكر أولًا؛ فلما ظلله أبو بكر بردائه عرفوه.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_01:p1",
+        "sp_quba_chapter_01:p2",
+        "sp_quba_chapter_01:p3",
+        "sp_quba_chapter_01:p4",
+        "sp_quba_chapter_02:p1",
+        "sp_quba_chapter_02:p2",
+        "sp_quba_chapter_03:p1",
+        "sp_quba_chapter_03:p2"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_hosts",
+      "difficulty": "intermediate",
+      "objective_id": "quba_chapter_read_hosts",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "quba_chapter_hosts"
+      ],
+      "reading_ids": [
+        "hch_quba_read_homes"
+      ],
+      "prompt_ar": "كيف صاغ ابن إسحاق خبر منزل النبي ﷺ؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "ذكر كلثوم فيما يذكرون ثم قول سعد وختم بالله أعلم.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "جزم بأن المنزلين كانا منزلًا واحدًا.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "قال إن أبا بكر نزل في بيت سعد.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: يورد ابن إسحاق في ابن هشام النزول على كلثوم بن هدم فيما يذكرون، ثم قولًا بالنزول على سعد بن خيثمة، وتفسيرًا للقول الثاني ببيت سعد مجلسًا للناس والأعزاب، ويختم بالله أعلم.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_04:p1",
+        "sp_quba_chapter_05:p1"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_bakr",
+      "difficulty": "beginner",
+      "objective_id": "quba_chapter_read_hosts",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "quba_chapter_bakr_host"
+      ],
+      "reading_ids": [
+        "hch_quba_read_homes"
+      ],
+      "prompt_ar": "إلى من يرجع خلاف خبيب وخارجة في القراءة؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "إلى موضع نزول أبي بكر.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "إلى كاتب عهد الجمعة.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "إلى اسم مؤسس مسجد قباء.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: يسمي ابن إسحاق في نقل ابن هشام خبيب بن إساف في منزل أبي بكر، ثم يذكر قولًا آخر يسمي خارجة بن زيد.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_04:p1",
+        "sp_quba_chapter_05:p1"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_ishaq",
+      "difficulty": "beginner",
+      "objective_id": "quba_chapter_read_duration",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "quba_chapter_ishaq_days"
+      ],
+      "reading_ids": [
+        "hch_quba_read_days"
+      ],
+      "prompt_ar": "ما الأيام التي يسميها ابن إسحاق قبل الخروج يوم الجمعة؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "الإثنين إلى الخميس.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "الإثنين إلى الأحد.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "الجمعة والسبت فقط.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: يذكر ابن إسحاق إقامة الإثنين والثلاثاء والأربعاء والخميس بقباء وتأسيس المسجد، ثم الخروج يوم الجمعة مع حفظ قول بني عمرو إن المكث أطول.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_06:p1",
+        "sp_quba_chapter_07:p1",
+        "sp_quba_chapter_08:p1",
+        "sp_quba_chapter_09:p1",
+        "sp_quba_chapter_10:p1",
+        "sp_quba_chapter_10:p2",
+        "sp_quba_chapter_10:p3",
+        "sp_quba_chapter_10:p4",
+        "sp_quba_chapter_10:p4_cont",
+        "sp_quba_chapter_14:p1"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_anas",
+      "difficulty": "beginner",
+      "objective_id": "quba_chapter_read_duration",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "quba_chapter_anas_stay"
+      ],
+      "reading_ids": [
+        "hch_quba_read_days"
+      ],
+      "prompt_ar": "ما مدة الإقامة في لفظ أنس عند البيهقي؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "أربع عشرة ليلة.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "ثلاث ليال.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "اثنتان وعشرون ليلة.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: في رواية أنس عند البيهقي إقامته ﷺ في بني عمرو بن عوف أربع عشرة ليلة ثم إرساله إلى ملأ بني النجار ومضيّه معهم.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_06:p1",
+        "sp_quba_chapter_07:p1",
+        "sp_quba_chapter_08:p1",
+        "sp_quba_chapter_09:p1",
+        "sp_quba_chapter_10:p1",
+        "sp_quba_chapter_10:p2",
+        "sp_quba_chapter_10:p3",
+        "sp_quba_chapter_10:p4",
+        "sp_quba_chapter_10:p4_cont",
+        "sp_quba_chapter_14:p1"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_hajar",
+      "difficulty": "expert",
+      "objective_id": "quba_chapter_read_duration",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "quba_chapter_variant_24"
+      ],
+      "reading_ids": [
+        "hch_quba_read_days"
+      ],
+      "prompt_ar": "في كلام ابن حجر عن اختلاف ألفاظ هذا الوجه، أي العددين عده الصواب من هذا الوجه؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "أربع عشرة ليلة عند بقية الرواة.",
+          "feedback_ar": "صحيح؛ هذا حكم ابن حجر على لفظ هذا الوجه، لا ترجيح مستقل لكل روايات المدة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "أربع وعشرون ليلة في رواية المستملي والحموي.",
+          "feedback_ar": "ذكر ابن حجر هذا اللفظ لهما، لكنه عد لفظ بقية الرواة الصواب من هذا الوجه."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "اثنتان وعشرون ليلة في نقل مجمع بن حارثة.",
+          "feedback_ar": "هذا من اختلاف المدد الذي يناقشه ابن حجر في موضع آخر، وليس اللفظ المختار من هذا الوجه."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "في تعليقه على ألفاظ هذا الوجه، يسمي ابن حجر الأربع والعشرين للمستملي والحموي، والأربع عشرة للباقين، ويصف الأخيرة بالصواب من هذا الوجه. هذا غير تفضيله الأوسع لقول أنس في شرح آخر.",
+      "scope_note_ar": "السؤال عن اختلاف ألفاظ رواة هذا الوجه عند ابن حجر، لا عن تفضيله بين الأخبار في موضع آخر.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_06:p1",
+        "sp_quba_chapter_07:p1",
+        "sp_quba_chapter_08:p1",
+        "sp_quba_chapter_09:p1",
+        "sp_quba_chapter_10:p1",
+        "sp_quba_chapter_10:p2",
+        "sp_quba_chapter_10:p3",
+        "sp_quba_chapter_10:p4",
+        "sp_quba_chapter_10:p4_cont",
+        "sp_quba_chapter_14:p1"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_mosque",
+      "difficulty": "beginner",
+      "objective_id": "quba_chapter_read_mosque",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "quba_chapter_different_mosques"
+      ],
+      "reading_ids": [
+        "hch_quba_read_mosques"
+      ],
+      "prompt_ar": "ما الذي لا ينبغي إلحاقه بمسجد قباء؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "مفاوضة بني النجار على حائط مسجد المدينة.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "الصلاة في المسجد الذي أسس هناك.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "خبر إقامة النبي ﷺ عند بني عمرو.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: يرد في خبر أنس بعد الانتقال إلى بني النجار طلب موضع مسجد بالمدينة وجوابهم ثم العمل فيه؛ وهذا غير مسجد قباء السابق في الخبر.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_01:p1",
+        "sp_quba_chapter_01:p2",
+        "sp_quba_chapter_01:p3",
+        "sp_quba_chapter_01:p4",
+        "sp_quba_chapter_06:p1",
+        "sp_quba_chapter_10:p1",
+        "sp_quba_chapter_10:p2",
+        "sp_quba_chapter_10:p3",
+        "sp_quba_chapter_10:p4",
+        "sp_quba_chapter_10:p4_cont",
+        "sp_quba_chapter_11:p1",
+        "sp_quba_chapter_11:p2",
+        "sp_quba_chapter_12:p1",
+        "sp_quba_chapter_12:p2",
+        "sp_quba_chapter_12:p3",
+        "sp_quba_chapter_12:p4",
+        "sp_quba_chapter_12:p5",
+        "sp_quba_chapter_12:p6",
+        "sp_quba_chapter_12:p7",
+        "sp_quba_chapter_12:p8",
+        "sp_quba_chapter_12:p9",
+        "sp_quba_chapter_12:p9_qurtubi",
+        "sp_quba_chapter_12:p9_hajar",
+        "sp_quba_chapter_12:p10",
+        "sp_quba_chapter_12:p11",
+        "sp_quba_chapter_12:p11_prophet",
+        "sp_quba_chapter_12:p12",
+        "sp_quba_chapter_12:p13_prophet",
+        "sp_quba_chapter_12:p13",
+        "sp_quba_chapter_12:p14",
+        "sp_quba_chapter_12:p15",
+        "sp_quba_chapter_13:p1"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_verse",
+      "difficulty": "expert",
+      "objective_id": "quba_chapter_read_mosque",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "quba_chapter_taqwa_difference"
+      ],
+      "reading_ids": [
+        "hch_quba_read_mosques"
+      ],
+      "prompt_ar": "ما الذي يرد مع قول الجمهور بقباء في شرح ابن حجر؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "جواب نبوي مروي بتعيين مسجد النبي ﷺ.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "نص قرآني يسمي قباء باسمها.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "نفي كل فضل لمسجد قباء.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: يشرح ابن حجر عبارة البخاري عن المسجد المؤسس على التقوى في قباء، ثم ينقل الآية وقول الجمهور في قباء وجوابًا نبويًا مرويًا بتعيين مسجد النبي ﷺ، ويعرض أوجه تفسير الاختلاف.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_01:p1",
+        "sp_quba_chapter_01:p2",
+        "sp_quba_chapter_01:p3",
+        "sp_quba_chapter_01:p4",
+        "sp_quba_chapter_06:p1",
+        "sp_quba_chapter_10:p1",
+        "sp_quba_chapter_10:p2",
+        "sp_quba_chapter_10:p3",
+        "sp_quba_chapter_10:p4",
+        "sp_quba_chapter_10:p4_cont",
+        "sp_quba_chapter_11:p1",
+        "sp_quba_chapter_11:p2",
+        "sp_quba_chapter_12:p1",
+        "sp_quba_chapter_12:p2",
+        "sp_quba_chapter_12:p3",
+        "sp_quba_chapter_12:p4",
+        "sp_quba_chapter_12:p5",
+        "sp_quba_chapter_12:p6",
+        "sp_quba_chapter_12:p7",
+        "sp_quba_chapter_12:p8",
+        "sp_quba_chapter_12:p9",
+        "sp_quba_chapter_12:p9_qurtubi",
+        "sp_quba_chapter_12:p9_hajar",
+        "sp_quba_chapter_12:p10",
+        "sp_quba_chapter_12:p11",
+        "sp_quba_chapter_12:p11_prophet",
+        "sp_quba_chapter_12:p12",
+        "sp_quba_chapter_12:p13_prophet",
+        "sp_quba_chapter_12:p13",
+        "sp_quba_chapter_12:p14",
+        "sp_quba_chapter_12:p15",
+        "sp_quba_chapter_13:p1"
+      ]
+    },
+    {
+      "question_id": "hch_quba_q_friday",
+      "difficulty": "beginner",
+      "objective_id": "quba_chapter_read_departure",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "quba_chapter_friday_departure"
+      ],
+      "reading_ids": [
+        "hch_quba_read_leave"
+      ],
+      "prompt_ar": "أين يقول ابن إسحاق إن الجمعة أدركت النبي ﷺ بعد خروجه من قباء؟",
+      "options": [
+        {
+          "option_id": "right",
+          "text_ar": "في بني سالم بن عوف.",
+          "feedback_ar": "نعم؛ هذا ما تسنده القراءة المحددة."
+        },
+        {
+          "option_id": "a",
+          "text_ar": "عند حائط بني النجار.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        },
+        {
+          "option_id": "b",
+          "text_ar": "في بيت سعد بن خيثمة.",
+          "feedback_ar": "راجع حدود الخبر وصوت قائله في القراءة."
+        }
+      ],
+      "correct_option_id": "right",
+      "explanation_ar": "اقرأ العبارة في موضعها: يروي ابن إسحاق الخروج يوم الجمعة وإدراك صلاة الجمعة في بني سالم بن عوف بمسجد الوادي؛ وفي خبر عروة تخرج الراحلة من بني عمرو إلى موضع المسجد بالمدينة.",
+      "scope_note_ar": "السؤال عن الألفاظ المسندة إلى أصحاب القراءات المعروضة، لا عن ترجيح مستقل لكل طرق الباب.",
+      "step_id": "hch_quba",
+      "source_unit_ids": [
+        "sp_quba_chapter_01:p1",
+        "sp_quba_chapter_01:p2",
+        "sp_quba_chapter_01:p3",
+        "sp_quba_chapter_01:p4",
+        "sp_quba_chapter_07:p1"
+      ]
+    }
+  ],
+  "unassessed_objectives": [],
+  "open_issues": [
+    {
+      "issue_id": "hch_quba_review_pending",
+      "affected_ids": [
+        "hch_quba"
+      ],
+      "blocking": false,
+      "note_ar": "هذا فصل عربي مسودّة في نطاق المقاطع المسماة؛ لم يحظ بمراجعة لغوية مستقلة أو اعتماد متخصص أو إذن نشر."
+    },
+    {
+      "issue_id": "hch_quba_end_of_excerpt",
+      "affected_ids": [
+        "hch_quba_mosque"
+      ],
+      "blocking": false,
+      "note_ar": "ينتهي منتقى عروة عند تمهيد رجز البناء بالمدينة؛ لا يستكمل شعره من خارج المقاطع المملوكة ولا ينسب إلى مسجد قباء."
+    }
+  ],
+  "locale": "ar",
+  "status": "arabic_ready",
+  "records": [
+    {
+      "core_id": "hc_quba_chapter_arrival",
+      "topic_id": "quba.arrival",
+      "reader_question_ar": "كيف انتظر الناس القادمين، وبم عرفوهم؟",
+      "introduction_ar": "كيف انتظر الناس القادمين، وبم عرفوهم؟ تُقرأ الروايات بأصواتها وحدود منتقياتها، دون جمع مددها في تقويم واحد.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_quba_chapter_arrival_p1",
+          "text_ar": "في خبر عروة في البخاري خرج المسلمون ينتظرون القادم، ثم أعلن رجل من يهود رؤيته، واستقبلوه عند الحرة.",
+          "claim_ids": [
+            "quba_chapter_waiting"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_arrival_p2",
+          "text_ar": "في خبر عروة وعند ابن إسحاق لم يعرف بعض المستقبلين النبي ﷺ من أبي بكر أولًا؛ فلما ظلله أبو بكر بردائه عرفوه.",
+          "claim_ids": [
+            "quba_chapter_recognition"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_arrival_p3",
+          "text_ar": "يذكر خبر عروة في البخاري النزول في بني عمرو بن عوف يوم الإثنين من ربيع الأول، والمكث بضع عشرة ليلة وتأسيس المسجد والصلاة فيه.",
+          "claim_ids": [
+            "quba_chapter_urwah_stay"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "quba_chapter_waiting",
+          "text_ar": "في خبر عروة في البخاري خرج المسلمون ينتظرون القادم، ثم أعلن رجل من يهود رؤيته، واستقبلوه عند الحرة.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_01",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_02",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_recognition",
+          "text_ar": "في خبر عروة وعند ابن إسحاق لم يعرف بعض المستقبلين النبي ﷺ من أبي بكر أولًا؛ فلما ظلله أبو بكر بردائه عرفوه.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_01",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_03",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_urwah_stay",
+          "text_ar": "يذكر خبر عروة في البخاري النزول في بني عمرو بن عوف يوم الإثنين من ربيع الأول، والمكث بضع عشرة ليلة وتأسيس المسجد والصلاة فيه.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_01",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "evidence_id": "H-1681-5900-QUBA",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_waiting",
+            "quba_chapter_recognition",
+            "quba_chapter_urwah_stay"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_02",
+          "evidence_id": "H-1681-5900-URWA",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_waiting"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_03",
+          "evidence_id": "H-23833-515-819",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_recognition"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [],
+      "place_mentions": [
+        {
+          "name_ar": "قباء",
+          "coordinates": null,
+          "claim_ids": [
+            "quba_chapter_waiting",
+            "quba_chapter_recognition",
+            "quba_chapter_urwah_stay"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "quba_chapter_read_arrival",
+          "text_ar": "كيف انتظر الناس القادمين، وبم عرفوهم؟",
+          "claim_ids": [
+            "quba_chapter_waiting",
+            "quba_chapter_recognition",
+            "quba_chapter_urwah_stay"
+          ]
+        }
+      ],
+      "related_topic_ids": [],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "لا يدل انتقاء الأرشيف على استيعاب جميع روايات الباب؛ ولا تعد الشروح طرقًا مستقلة."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "quba_chapter_waiting",
+        "quba_chapter_recognition",
+        "quba_chapter_urwah_stay"
+      ]
+    },
+    {
+      "core_id": "hc_quba_chapter_hosts",
+      "topic_id": "quba.hosts",
+      "reader_question_ar": "ماذا تحفظ روايات المنزل في قباء؟",
+      "introduction_ar": "ماذا تحفظ روايات المنزل في قباء؟ تُقرأ الروايات بأصواتها وحدود منتقياتها، دون جمع مددها في تقويم واحد.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_quba_chapter_hosts_p1",
+          "text_ar": "يورد ابن إسحاق في ابن هشام النزول على كلثوم بن هدم فيما يذكرون، ثم قولًا بالنزول على سعد بن خيثمة، وتفسيرًا للقول الثاني ببيت سعد مجلسًا للناس والأعزاب، ويختم بالله أعلم.",
+          "claim_ids": [
+            "quba_chapter_hosts"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_hosts_p2",
+          "text_ar": "يسمي ابن إسحاق في نقل ابن هشام خبيب بن إساف في منزل أبي بكر، ثم يذكر قولًا آخر يسمي خارجة بن زيد.",
+          "claim_ids": [
+            "quba_chapter_bakr_host"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "quba_chapter_hosts",
+          "text_ar": "يورد ابن إسحاق في ابن هشام النزول على كلثوم بن هدم فيما يذكرون، ثم قولًا بالنزول على سعد بن خيثمة، وتفسيرًا للقول الثاني ببيت سعد مجلسًا للناس والأعزاب، ويختم بالله أعلم.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_04",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_bakr_host",
+          "text_ar": "يسمي ابن إسحاق في نقل ابن هشام خبيب بن إساف في منزل أبي بكر، ثم يذكر قولًا آخر يسمي خارجة بن زيد.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_05",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_quba_chapter_04",
+          "evidence_id": "H-23833-516-820",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_hosts"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_05",
+          "evidence_id": "H-23833-516-821",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_bakr_host"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [],
+      "place_mentions": [
+        {
+          "name_ar": "قباء",
+          "coordinates": null,
+          "claim_ids": [
+            "quba_chapter_hosts",
+            "quba_chapter_bakr_host"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "quba_chapter_read_hosts",
+          "text_ar": "ماذا تحفظ روايات المنزل في قباء؟",
+          "claim_ids": [
+            "quba_chapter_hosts",
+            "quba_chapter_bakr_host"
+          ]
+        }
+      ],
+      "related_topic_ids": [],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "لا يدل انتقاء الأرشيف على استيعاب جميع روايات الباب؛ ولا تعد الشروح طرقًا مستقلة."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "quba_chapter_hosts",
+        "quba_chapter_bakr_host"
+      ]
+    },
+    {
+      "core_id": "hc_quba_chapter_duration",
+      "topic_id": "quba.duration",
+      "reader_question_ar": "كيف نقرأ اختلاف أيام الإقامة دون اختراع تاريخ؟",
+      "introduction_ar": "كيف نقرأ اختلاف أيام الإقامة دون اختراع تاريخ؟ تُقرأ الروايات بأصواتها وحدود منتقياتها، دون جمع مددها في تقويم واحد.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_quba_chapter_duration_p1",
+          "text_ar": "يذكر ابن إسحاق إقامة الإثنين والثلاثاء والأربعاء والخميس بقباء وتأسيس المسجد، ثم الخروج يوم الجمعة مع حفظ قول بني عمرو إن المكث أطول.",
+          "claim_ids": [
+            "quba_chapter_ishaq_days"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_duration_p2",
+          "text_ar": "في رواية أنس عند البيهقي إقامته ﷺ في بني عمرو بن عوف أربع عشرة ليلة ثم إرساله إلى ملأ بني النجار ومضيّه معهم.",
+          "claim_ids": [
+            "quba_chapter_anas_stay"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_duration_p3",
+          "text_ar": "يسرد ابن حجر ثلاث ليال وخمسًا وأربع عشرة واثنتين وعشرين، ويرجح بنفسه قول أنس؛ ولا يجعل هذا الترجيح جميع الأقوال خبرًا واحدًا.",
+          "claim_ids": [
+            "quba_chapter_duration_reading"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_duration_p4",
+          "text_ar": "ينقل ابن حجر اختلاف لفظ نسخة الأربع والعشرين عند المستملي والحموي عن الأربع عشرة عند بقية رواة هذا الوجه، ويسمي الأخيرة الصواب من هذا الوجه.",
+          "claim_ids": [
+            "quba_chapter_variant_24"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_duration_p5",
+          "text_ar": "يفصل ابن حجر اختلاف الأخبار في تاريخ الوصول والمكث، ويقترح جمعًا مشروطًا وتأويلًا في عدّ الأيام؛ هذه أقواله التحليلية لا تاريخ محرر لهذا الفصل.",
+          "claim_ids": [
+            "quba_chapter_date_commentary"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "quba_chapter_ishaq_days",
+          "text_ar": "يذكر ابن إسحاق إقامة الإثنين والثلاثاء والأربعاء والخميس بقباء وتأسيس المسجد، ثم الخروج يوم الجمعة مع حفظ قول بني عمرو إن المكث أطول.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_06",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_07",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_anas_stay",
+          "text_ar": "في رواية أنس عند البيهقي إقامته ﷺ في بني عمرو بن عوف أربع عشرة ليلة ثم إرساله إلى ملأ بني النجار ومضيّه معهم.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_10",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p4_cont"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_duration_reading",
+          "text_ar": "يسرد ابن حجر ثلاث ليال وخمسًا وأربع عشرة واثنتين وعشرين، ويرجح بنفسه قول أنس؛ ولا يجعل هذا الترجيح جميع الأقوال خبرًا واحدًا.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_09",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_08",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_variant_24",
+          "text_ar": "ينقل ابن حجر اختلاف لفظ نسخة الأربع والعشرين عند المستملي والحموي عن الأربع عشرة عند بقية رواة هذا الوجه، ويسمي الأخيرة الصواب من هذا الوجه.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_14",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_date_commentary",
+          "text_ar": "يفصل ابن حجر اختلاف الأخبار في تاريخ الوصول والمكث، ويقترح جمعًا مشروطًا وتأويلًا في عدّ الأيام؛ هذه أقواله التحليلية لا تاريخ محرر لهذا الفصل.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_08",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_quba_chapter_06",
+          "evidence_id": "H-23833-517-824",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_ishaq_days"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_07",
+          "evidence_id": "H-23833-517-825",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_ishaq_days"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_08",
+          "evidence_id": "H-1673-4072-DATES",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_duration_reading",
+            "quba_chapter_date_commentary"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_09",
+          "evidence_id": "H-1673-4072-STAY",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_duration_reading"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_10",
+          "evidence_id": "H-7478-1060-RA-MOSQUE-ANAS",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p4_cont"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_anas_stay"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_14",
+          "evidence_id": "H-1673-1011-HS-FOURTEEN-VARIANT-1",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_variant_24"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [],
+      "place_mentions": [
+        {
+          "name_ar": "قباء",
+          "coordinates": null,
+          "claim_ids": [
+            "quba_chapter_ishaq_days",
+            "quba_chapter_anas_stay",
+            "quba_chapter_duration_reading",
+            "quba_chapter_variant_24",
+            "quba_chapter_date_commentary"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "quba_chapter_read_duration",
+          "text_ar": "كيف نقرأ اختلاف أيام الإقامة دون اختراع تاريخ؟",
+          "claim_ids": [
+            "quba_chapter_ishaq_days",
+            "quba_chapter_anas_stay",
+            "quba_chapter_duration_reading",
+            "quba_chapter_variant_24",
+            "quba_chapter_date_commentary"
+          ]
+        }
+      ],
+      "related_topic_ids": [],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "لا يدل انتقاء الأرشيف على استيعاب جميع روايات الباب؛ ولا تعد الشروح طرقًا مستقلة."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "quba_chapter_ishaq_days",
+        "quba_chapter_anas_stay",
+        "quba_chapter_duration_reading",
+        "quba_chapter_variant_24",
+        "quba_chapter_date_commentary"
+      ]
+    },
+    {
+      "core_id": "hc_quba_chapter_mosque",
+      "topic_id": "quba.mosque",
+      "reader_question_ar": "ما الفرق بين مسجد قباء والمسجد اللاحق، وكيف فُسرت آية التقوى؟",
+      "introduction_ar": "ما الفرق بين مسجد قباء والمسجد اللاحق، وكيف فُسرت آية التقوى؟ تُقرأ الروايات بأصواتها وحدود منتقياتها، دون جمع مددها في تقويم واحد.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_quba_chapter_mosque_p1",
+          "text_ar": "يصل ابن إسحاق تأسيس مسجد قباء بأيام الإقامة؛ وخبر عروة يذكر تأسيس المسجد والصلاة فيه، ويعرض ابن حجر روايات أخرى في البناء وتفسير الأولية.",
+          "claim_ids": [
+            "quba_chapter_quba_mosque"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_mosque_p2",
+          "text_ar": "يشرح ابن حجر عبارة البخاري عن المسجد المؤسس على التقوى في قباء، ثم ينقل الآية وقول الجمهور في قباء وجوابًا نبويًا مرويًا بتعيين مسجد النبي ﷺ، ويعرض أوجه تفسير الاختلاف.",
+          "claim_ids": [
+            "quba_chapter_taqwa_difference"
+          ]
+        },
+        {
+          "paragraph_id": "hc_quba_chapter_mosque_p3",
+          "text_ar": "يرد في خبر أنس بعد الانتقال إلى بني النجار طلب موضع مسجد بالمدينة وجوابهم ثم العمل فيه؛ وهذا غير مسجد قباء السابق في الخبر.",
+          "claim_ids": [
+            "quba_chapter_different_mosques"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "quba_chapter_quba_mosque",
+          "text_ar": "يصل ابن إسحاق تأسيس مسجد قباء بأيام الإقامة؛ وخبر عروة يذكر تأسيس المسجد والصلاة فيه، ويعرض ابن حجر روايات أخرى في البناء وتفسير الأولية.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_06",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_01",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_12",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p5",
+                "p6",
+                "p7",
+                "p8",
+                "p9",
+                "p9_qurtubi",
+                "p9_hajar",
+                "p10",
+                "p11",
+                "p11_prophet",
+                "p12",
+                "p13_prophet",
+                "p13",
+                "p14",
+                "p15"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_13",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_taqwa_difference",
+          "text_ar": "يشرح ابن حجر عبارة البخاري عن المسجد المؤسس على التقوى في قباء، ثم ينقل الآية وقول الجمهور في قباء وجوابًا نبويًا مرويًا بتعيين مسجد النبي ﷺ، ويعرض أوجه تفسير الاختلاف.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_13",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_12",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p5",
+                "p6",
+                "p7",
+                "p8",
+                "p9",
+                "p9_qurtubi",
+                "p9_hajar",
+                "p10",
+                "p11",
+                "p11_prophet",
+                "p12",
+                "p13_prophet",
+                "p13",
+                "p14",
+                "p15"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "quba_chapter_different_mosques",
+          "text_ar": "يرد في خبر أنس بعد الانتقال إلى بني النجار طلب موضع مسجد بالمدينة وجوابهم ثم العمل فيه؛ وهذا غير مسجد قباء السابق في الخبر.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_10",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p4_cont"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_11",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_01",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "evidence_id": "H-1681-5900-QUBA",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_quba_mosque",
+            "quba_chapter_different_mosques"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_06",
+          "evidence_id": "H-23833-517-824",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_quba_mosque"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_10",
+          "evidence_id": "H-7478-1060-RA-MOSQUE-ANAS",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p4_cont"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_different_mosques"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_11",
+          "evidence_id": "H-7478-1061-RA-MOSQUE-ANAS",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_different_mosques"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_12",
+          "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p9_qurtubi",
+            "p9_hajar",
+            "p10",
+            "p11",
+            "p11_prophet",
+            "p12",
+            "p13_prophet",
+            "p13",
+            "p14",
+            "p15"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_quba_mosque",
+            "quba_chapter_taqwa_difference"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_13",
+          "evidence_id": "H-1673-4072-HS-QUBA-TAQWA-START-1",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_quba_mosque",
+            "quba_chapter_taqwa_difference"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [],
+      "place_mentions": [
+        {
+          "name_ar": "قباء",
+          "coordinates": null,
+          "claim_ids": [
+            "quba_chapter_quba_mosque",
+            "quba_chapter_taqwa_difference",
+            "quba_chapter_different_mosques"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "quba_chapter_read_mosque",
+          "text_ar": "ما الفرق بين مسجد قباء والمسجد اللاحق، وكيف فُسرت آية التقوى؟",
+          "claim_ids": [
+            "quba_chapter_quba_mosque",
+            "quba_chapter_taqwa_difference",
+            "quba_chapter_different_mosques"
+          ]
+        }
+      ],
+      "related_topic_ids": [],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "لا يدل انتقاء الأرشيف على استيعاب جميع روايات الباب؛ ولا تعد الشروح طرقًا مستقلة."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "quba_chapter_quba_mosque",
+        "quba_chapter_taqwa_difference",
+        "quba_chapter_different_mosques"
+      ]
+    },
+    {
+      "core_id": "hc_quba_chapter_departure",
+      "topic_id": "quba.friday_departure",
+      "reader_question_ar": "كيف انتهت الإقامة وبدأ السير إلى المدينة؟",
+      "introduction_ar": "كيف انتهت الإقامة وبدأ السير إلى المدينة؟ تُقرأ الروايات بأصواتها وحدود منتقياتها، دون جمع مددها في تقويم واحد.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_quba_chapter_departure_p1",
+          "text_ar": "يروي ابن إسحاق الخروج يوم الجمعة وإدراك صلاة الجمعة في بني سالم بن عوف بمسجد الوادي؛ وفي خبر عروة تخرج الراحلة من بني عمرو إلى موضع المسجد بالمدينة.",
+          "claim_ids": [
+            "quba_chapter_friday_departure"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "quba_chapter_friday_departure",
+          "text_ar": "يروي ابن إسحاق الخروج يوم الجمعة وإدراك صلاة الجمعة في بني سالم بن عوف بمسجد الوادي؛ وفي خبر عروة تخرج الراحلة من بني عمرو إلى موضع المسجد بالمدينة.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_quba_chapter_07",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_quba_chapter_01",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "evidence_id": "H-1681-5900-QUBA",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_friday_departure"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_quba_chapter_07",
+          "evidence_id": "H-23833-517-825",
+          "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "quba_chapter_friday_departure"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [],
+      "place_mentions": [
+        {
+          "name_ar": "قباء",
+          "coordinates": null,
+          "claim_ids": [
+            "quba_chapter_friday_departure"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "quba_chapter_read_departure",
+          "text_ar": "كيف انتهت الإقامة وبدأ السير إلى المدينة؟",
+          "claim_ids": [
+            "quba_chapter_friday_departure"
+          ]
+        }
+      ],
+      "related_topic_ids": [],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "لا يدل انتقاء الأرشيف على استيعاب جميع روايات الباب؛ ولا تعد الشروح طرقًا مستقلة."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "quba_chapter_friday_departure"
+      ]
+    }
+  ],
+  "source_packets": [
+    {
+      "packet_id": "sp_quba_chapter_01",
+      "evidence_id": "H-1681-5900-QUBA",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 1499,
+          "page_start": 2927,
+          "page_end": 4426,
+          "source_type_ar": "خبر عروة: الانتظار والوصول",
+          "speaker_ar": "عروة بن الزبير",
+          "text_ar": "يَغْدُونَ كُلَّ غَدَاةٍ إِلَى الْحَرَّةِ، فَيَنْتَظِرُونَهُ حَتَّى يَرُدَّهُمْ حَرُّ الظَّهِيرَةِ، فَانْقَلَبُوا يَوْمًا بَعْدَمَا أَطَالُوا انْتِظَارَهُمْ، فَلَمَّا أَوَوْا إِلَى بُيُوتِهِمْ، أَوْفَى رَجُلٌ مِنْ يَهُودَ عَلَى أُطُمٍ مِنْ آطَامِهِمْ، لِأَمْرٍ يَنْظُرُ إِلَيْهِ، فَبَصُرَ بِرَسُولِ اللهِ ﷺ وَأَصْحَابِهِ مُبَيَّضِينَ يَزُولُ بِهِمُ السَّرَابُ، فَلَمْ يَمْلِكِ الْيَهُودِيُّ أَنْ قَالَ بِأَعْلَى صَوْتِهِ: يَا مَعَاشِرَ الْعَرَبِ، هَذَا جَدُّكُمُ الَّذِي تَنْتَظِرُونَ، فَثَارَ الْمُسْلِمُونَ إِلَى السِّلَاحِ، فَتَلَقَّوْا رَسُولَ اللهِ ﷺ بِظَهْرِ الْحَرَّةِ، فَعَدَلَ بِهِمْ ذَاتَ الْيَمِينِ، حَتَّى نَزَلَ بِهِمْ فِي بَنِي عَمْرِو بْنِ عَوْفٍ، وَذَلِكَ يَوْمَ الاِثْنَيْنِ مِنْ شَهْرِ رَبِيعٍ الْأَوَّلِ، فَقَامَ أَبُو بَكْرٍ لِلنَّاسِ، وَجَلَسَ رَسُولُ اللهِ ﷺ صَامِتًا، فَطَفِقَ مَنْ جَاءَ مِنَ الْأَنْصَارِ مِمَّنْ لَمْ يَرَ رَسُولَ اللهِ ﷺ يُحَيِّي أَبَا بَكْرٍ، حَتَّى أَصَابَتِ الشَّمْسُ رَسُولَ اللهِ ﷺ، فَأَقْبَلَ أَبُو بَكْرٍ حَتَّى ظَلَّلَ عَلَيْهِ بِرِدَائِهِ، فَعَرَفَ النَّاسُ رَسُولَ اللهِ ﷺ عِنْدَ ذَلِكَ، فَلَبِثَ رَسُولُ اللهِ ﷺ فِي بَنِي عَمْرِو بْنِ عَوْفٍ بِضْعَ عَشْرَةَ لَيْلَةً، وَأُسِّسَ الْمَسْجِدُ الَّذِي أُسِّسَ عَلَى التَّقْوَى، وَصَلَّى فِيهِ رَسُولُ اللهِ ﷺ، ثُمَّ رَكِبَ رَاحِلَتَهُ، فَسَارَ يَمْشِي مَعَهُ النَّاسُ حَتَّى بَرَكَتْ عِنْدَ مَسْجِدِ الرَّسُولِ ﷺ بِالْمَدِينَةِ، وَهْوَ يُصَلِّي فِيهِ يَوْمَئِذٍ رِجَالٌ مِنَ الْمُسْلِمِينَ، وَكَانَ مِرْبَدًا لِلتَّمْرِ، لِسُهَيْلٍ وَسَهْلٍ غُلَامَيْنِ يَتِيمَيْنِ فِي حَجْرِ أَسْعَدَ بْنِ زُرَارَةَ، ",
+          "text_sha256": "301616d8071df9709e4f4af0e59911cb350deb36afee25f81083950c62b3b261"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 1499,
+          "record_end": 1556,
+          "page_start": 4426,
+          "page_end": 4483,
+          "source_type_ar": "تمهيد القول النبوي في خبر عروة",
+          "speaker_ar": "عروة بن الزبير",
+          "text_ar": "فَقَالَ رَسُولُ اللهِ ﷺ: حِينَ بَرَكَتْ بِهِ رَاحِلَتُهُ ",
+          "text_sha256": "9f2407f2f7b2ffaa5926e878aff13272320d1bbb13acc0f6f86d3715aecdd7da"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 1556,
+          "record_end": 1591,
+          "page_start": 4483,
+          "page_end": 4518,
+          "source_type_ar": "قول النبي ﷺ في خبر عروة",
+          "speaker_ar": "النبي ﷺ كما ينقله عروة",
+          "text_ar": "هَذَا إِنْ شَاءَ اللهُ الْمَنْزِلُ ",
+          "text_sha256": "3d50e2548eab6e42d58e1688a2b0cbace8561644efbd4709f4a99e7df49f002f"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 1591,
+          "record_end": 1872,
+          "page_start": 4518,
+          "page_end": 4799,
+          "source_type_ar": "خبر عروة: موضع المسجد بالمدينة",
+          "speaker_ar": "عروة بن الزبير",
+          "text_ar": "ثُمَّ دَعَا رَسُولُ اللهِ ﷺ الْغُلَامَيْنِ فَسَاوَمَهُمَا بِالْمِرْبَدِ لِيَتَّخِذَهُ مَسْجِدًا، فَقَالَا: لَا، بَلْ نَهَبُهُ لَكَ يَا رَسُولَ اللهِ، ثُمَّ بَنَاهُ مَسْجِدًا، وَطَفِقَ رَسُولُ اللهِ ﷺ يَنْقُلُ مَعَهُمُ اللَّبِنَ فِي بُنْيَانِهِ وَيَقُولُ، وَهُوَ يَنْقُلُ اللَّبِنَ:",
+          "text_sha256": "1584ee51e351b3787cd9b9b2edbac411974b4207c2c76d4e759507bc63236bd3"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 1872,
+      "selected_text_sha256": "3fdee69e4fab4aa28b2df5b24f2fcf2033a8091bbc2f1e4136954bda7238c84c",
+      "source_excerpt_sha256": "3fdee69e4fab4aa28b2df5b24f2fcf2033a8091bbc2f1e4136954bda7238c84c",
+      "book_id": 1681,
+      "page_id": 5900,
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/61](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "المتكلم في هذا القسم عروة لا سراقة؛ انتقل الإسناد داخل الحديث نفسه؛ بداية الرواية في المقطع المرتبط",
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "البخاري",
+      "edition_ar": "الكتاب: صحيح البخاري\nالمؤلف: أبو عبد الله، محمد بن إسماعيل بن إبراهيم بن المغيرة ابن بردزبه البخاري الجعفي\nتحقيق: جماعة من العلماء\nالطبعة: السلطانية، بالمطبعة الكبرى الأميرية، ببولاق مصر، ١٣١١ هـ، بأمر السلطان عبد الحميد الثاني\nثم صَوّرها بعنايته: د. محمد زهير الناصر، وطبعها الطبعة الأولى ١٤٢٢ هـ لدى دار طوق النجاة - بيروت، مع إثراء الهوامش بترقيم الأحاديث لمحمد فؤاد عبد الباقي، والإحالة لبعض المراجع المهمة\nعدد الأجزاء: ٩\n[ترقيم الكتاب موافق للمطبوع، وهو ضمن خدمة التخريج]",
+      "source_speaker_metadata_ar": "عروة في نقل الزهري",
+      "source_type_metadata_ar": "حديث",
+      "source_page_sha256": "41df8d410cb2456a3152e1f490832ea56b14e882fbba1921734c9e618b7f092c",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-1681-5900-URWA"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_02",
+      "evidence_id": "H-1681-5900-URWA",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 62,
+          "page_start": 2540,
+          "page_end": 2602,
+          "source_type_ar": "سند النقل",
+          "speaker_ar": "ابن شهاب",
+          "text_ar": "قَالَ ابْنُ شِهَابٍ: فَأَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ: ",
+          "text_sha256": "7d5541c17e6afc4ecd899476653a40d336534e4ed1777c43e9ab36f80f694e72"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 62,
+          "record_end": 334,
+          "page_start": 2602,
+          "page_end": 2874,
+          "source_type_ar": "خبر عروة",
+          "speaker_ar": "عروة بن الزبير",
+          "text_ar": "أَنَّ رَسُولَ اللهِ ﷺ لَقِيَ الزُّبَيْرَ فِي رَكْبٍ مِنَ الْمُسْلِمِينَ، كَانُوا تِجَارًا قَافِلِينَ مِنَ الشَّأْمِ، فَكَسَا الزُّبَيْرُ رَسُولَ اللهِ ﷺ وَأَبَا بَكْرٍ ثِيَابَ بَيَاضٍ، وَسَمِعَ الْمُسْلِمُونَ بِالْمَدِينَةِ مَخْرَجَ رَسُولِ اللهِ ﷺ مِنْ مَكَّةَ، فَكَانُوا",
+          "text_sha256": "a89133106d2c5073eebdb0d31c05f6f068b9af8ec6cad3b3bc6e9af91368730d"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 334,
+      "selected_text_sha256": "ea881c23f9f666cc21b454dc957ab64f6d0b69b1fddbadaa3372fa334e111062",
+      "source_excerpt_sha256": "ea881c23f9f666cc21b454dc957ab64f6d0b69b1fddbadaa3372fa334e111062",
+      "book_id": 1681,
+      "page_id": 5900,
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "ابتداء إسناد قسم الوصول؛ التتمة في الصفحة المطبوعة ٦١",
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "البخاري",
+      "edition_ar": "الكتاب: صحيح البخاري\nالمؤلف: أبو عبد الله، محمد بن إسماعيل بن إبراهيم بن المغيرة ابن بردزبه البخاري الجعفي\nتحقيق: جماعة من العلماء\nالطبعة: السلطانية، بالمطبعة الكبرى الأميرية، ببولاق مصر، ١٣١١ هـ، بأمر السلطان عبد الحميد الثاني\nثم صَوّرها بعنايته: د. محمد زهير الناصر، وطبعها الطبعة الأولى ١٤٢٢ هـ لدى دار طوق النجاة - بيروت، مع إثراء الهوامش بترقيم الأحاديث لمحمد فؤاد عبد الباقي، والإحالة لبعض المراجع المهمة\nعدد الأجزاء: ٩\n[ترقيم الكتاب موافق للمطبوع، وهو ضمن خدمة التخريج]",
+      "source_speaker_metadata_ar": "الزهري عن عروة",
+      "source_type_metadata_ar": "حديث",
+      "source_page_sha256": "41df8d410cb2456a3152e1f490832ea56b14e882fbba1921734c9e618b7f092c",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-1681-5900-QUBA"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_03",
+      "evidence_id": "H-23833-515-819",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 247,
+          "page_start": 515,
+          "page_end": 762,
+          "source_type_ar": "سند ابن إسحاق",
+          "speaker_ar": "ابن إسحاق",
+          "text_ar": "قَالَ ابْنُ إسْحَاقَ: فَحَدَّثَنِي مُحَمَّدُ بْنُ جَعْفَرِ بْنِ الزُّبَيْرِ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عُوَيْمِرِ بْنِ سَاعِدَةَ، قَالَ: حَدَّثَنِي رِجَالٌ مِنْ قَوْمِي مِنْ أَصْحَابِ رَسُولِ اللَّهِ ﷺ، قَالُوا: ",
+          "text_sha256": "1ec70a51d03f8032f13d9fbe238d462c568d9cc482868a968f02e459a1e20456"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 247,
+          "record_end": 1369,
+          "page_start": 762,
+          "page_end": 1884,
+          "source_type_ar": "خبر استقبال منقول",
+          "speaker_ar": "رجال من أصحاب النبي ﷺ",
+          "text_ar": "لَمَّا سَمِعْنَا بِمَخْرَجِ رَسُولِ اللَّهِ ﷺ مِنْ مَكَّةَ، وَتَوَكَّفْنَا [١] قُدُومَهُ، كُنَّا نَخْرُجُ إذَا صَلَّيْنَا الصُّبْحَ، إلَى ظَاهِرِ حَرَّتِنَا نَنْتَظِرُ رَسُول الله ﷺ، فو اللَّهِ مَا نَبْرَحُ حَتَّى تَغْلِبَنَا الشَّمْسُ عَلَى الظِّلَالِ فَإِذَا لَمْ نَجِدْ ظِلًّا دَخَلْنَا، وَذَلِكَ فِي أَيَّامٍ حَارَّةٍ. حَتَّى إذَا كَانَ الْيَوْمُ الَّذِي قَدِمَ فِيهِ رَسُولُ اللَّهِ ﷺ، جَلَسْنَا كَمَا كُنَّا نَجْلِسُ، حَتَّى إذَا لَمْ يَبْقَ ظِلٌّ دَخَلْنَا بُيُوتَنَا، وَقَدِمَ رَسُولُ اللَّهِ ﷺ حَيْنَ دَخَلْنَا الْبُيُوتَ، فَكَانَ أَوَّلُ مَنْ رَآهُ رَجُلٌ مِنْ الْيَهُودِ، وَقَدْ رَأَى مَا كُنَّا نَصْنَعُ، وَأَنَّا نَنْتَظِرُ قُدُومَ رَسُولِ اللَّهِ ﷺ عَلَيْنَا، فَصَرَخَ بِأَعْلَى صَوْتِهِ: يَا بَنِي قَيْلَةَ [٢]، هَذَا جَدُّكُمْ قَدْ جَاءَ. قَالَ:\nفَخَرَجْنَا إلَى رَسُولِ اللَّهِ ﷺ، وَهُوَ فِي ظِلِّ نَخْلَةٍ، وَمَعَهُ أَبُو بَكْرٍ ﵁ فِي مِثْلِ سِنِّهِ، وَأَكْثَرُنَا لَمْ يَكُنْ رَأَى رَسُولَ اللَّهِ ﷺ قَبْلَ ذَلِكَ، وَرَكِبَهُ النَّاسُ [٣] وَمَا يَعْرِفُونَهُ مِنْ أَبِي بَكْرٍ، حَتَّى زَالَ الظِّلُّ عَنْ رَسُولِ اللَّهِ ﷺ، فَقَامَ أَبُو بَكْرٍ فَأَظَلَّهُ بِرِدَائِهِ، فَعَرَفْنَاهُ عِنْدَ ذَلِكَ [٤] .",
+          "text_sha256": "dd11d2fe254b306e7e166629524f38762fd2db4000710203941c5080f9a6ef6d"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 1369,
+      "selected_text_sha256": "f2c1356fcb9239ee313a86c61e3d0bcdc4c64807942797286352d2221ec4d59b",
+      "source_excerpt_sha256": "f2c1356fcb9239ee313a86c61e3d0bcdc4c64807942797286352d2221ec4d59b",
+      "book_id": 23833,
+      "page_id": 515,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/492](https://app.turath.io/book/23833?page=515)",
+      "source_url": "https://app.turath.io/book/23833?page=515",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل",
+        "أرقام إحالات الحاشية باقية كما في الأصل؛ الحاشية ليست جزءًا من هذا المقطع"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "رجال من أصحاب النبي في إسناد ابن إسحاق المبين في النص",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "4bc3d2caaa7c8a057e71842aec27120c2491f01ac7b1ad9c32dbb0c542eef43a",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_quba_chapter_04",
+      "evidence_id": "H-23833-516-820",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 739,
+          "page_start": 67,
+          "page_end": 806,
+          "source_type_ar": "خبر ابن إسحاق: اختلاف المنزل",
+          "speaker_ar": "ابن إسحاق",
+          "text_ar": "قَالَ ابْنُ إسْحَاقَ: فَنَزَلَ رَسُولُ اللَّهِ ﷺ- فِيمَا يَذْكُرُونَ- عَلَى كُلْثُومِ [١] بْنِ هِدْمٍ، أَخِي بَنِي عَمْرِو بْنِ عَوْفٍ، ثُمَّ أَحَدِ بَنِي عُبَيْدٍ: وَيُقَالُ: بَلْ نَزَلَ عَلَى سَعْدِ بْنِ خَيْثمةَ. وَيَقُولُ مَنْ يَذْكُرُ أَنَّهُ نَزَلَ عَلَى كُلْثُومِ بْنِ هِدْمٍ: إنَّمَا كَانَ رَسُولُ اللَّهِ ﷺ إذَا خَرَجَ مِنْ مَنْزِلِ كُلْثُومِ بْنِ هِدْمٍ جَلَسَ لِلنَّاسِ فِي بَيْتِ سَعْدِ بْنِ خَيْثمةَ. وَذَلِكَ أَنَّهُ كَانَ عَزَبًا لَا أَهْلَ لَهُ، وَكَانَ مَنْزِلُ الْأَعْزَابِ [٢] مِنْ أَصْحَابِ رَسُولِ اللَّهِ ﷺ مِنْ الْمُهَاجِرِينَ، فَمِنْ هُنَالِكَ يُقَالُ: نَزَلَ عَلَى سَعْدِ بْنِ خَيْثمةَ، وَكَانَ يُقَالُ لِبَيْتِ سَعْدِ بْنِ خَيْثمةَ: بَيْتُ الْأَعْزَابِ. فاللَّه أَعْلَمُ أَيُّ ذَلِكَ كَانَ، كُلًّا قَدْ سَمِعْنَا.",
+          "text_sha256": "7215ff488d9ea68d4b6abaa1159643f4dc027c7a5f7a49f7740e95cd4300b0f9"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 739,
+      "selected_text_sha256": "7215ff488d9ea68d4b6abaa1159643f4dc027c7a5f7a49f7740e95cd4300b0f9",
+      "source_excerpt_sha256": "7215ff488d9ea68d4b6abaa1159643f4dc027c7a5f7a49f7740e95cd4300b0f9",
+      "book_id": 23833,
+      "page_id": 516,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/493](https://app.turath.io/book/23833?page=516)",
+      "source_url": "https://app.turath.io/book/23833?page=516",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل",
+        "أرقام إحالات الحاشية باقية كما في الأصل؛ الحاشية ليست جزءًا من هذا المقطع"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن إسحاق؛ يحتفظ النص بفيما يذكرون ويقال والله أعلم",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "b5d22fdc9ec4b033ffc248c5d80c8fa7f0e8edf16b5b9dd52e470d06b3a9ec64",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_quba_chapter_05",
+      "evidence_id": "H-23833-516-821",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 239,
+          "page_start": 883,
+          "page_end": 1122,
+          "source_type_ar": "خبر ابن إسحاق: منزل أبي بكر",
+          "speaker_ar": "ابن إسحاق",
+          "text_ar": "وَنَزَلَ أَبُو بَكْرٍ الصِّدِّيقُ ﵁ عَلَى خُبَيْبِ بْنِ إِسَافٍ، أَحَدِ بَنِي الْحَارِثِ الْخَزْرَجَ بِالسُّنْحِ. وَيَقُولُ قَائِلٌ: كَانَ مَنْزِلُهُ عَلَى خَارِجَةَ بْنِ زَيْدِ بْنِ أَبِي زُهَيْرٍ، أَخِي بَنِي الْحَارِثِ بْنِ الْخَزْرَجِ.",
+          "text_sha256": "087e1424b2862c79ec53ff4b09f07e4a29a6f8eadc2e4410be3b57fc3df61ad7"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 239,
+      "selected_text_sha256": "087e1424b2862c79ec53ff4b09f07e4a29a6f8eadc2e4410be3b57fc3df61ad7",
+      "source_excerpt_sha256": "087e1424b2862c79ec53ff4b09f07e4a29a6f8eadc2e4410be3b57fc3df61ad7",
+      "book_id": 23833,
+      "page_id": 516,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/493](https://app.turath.io/book/23833?page=516)",
+      "source_url": "https://app.turath.io/book/23833?page=516",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن إسحاق في السياق السابق",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "b5d22fdc9ec4b033ffc248c5d80c8fa7f0e8edf16b5b9dd52e470d06b3a9ec64",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_quba_chapter_06",
+      "evidence_id": "H-23833-517-824",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 202,
+          "page_start": 733,
+          "page_end": 935,
+          "source_type_ar": "خبر ابن إسحاق: الأيام والمسجد",
+          "speaker_ar": "ابن إسحاق",
+          "text_ar": "قَالَ ابْنُ إسْحَاقَ: فَأَقَامَ رَسُولُ اللَّهِ ﷺ بقُباءٍ، فِي بَنِي عَمْرِو بْنِ عَوْفٍ، يَوْمَ الِاثْنَيْنِ وَيَوْمَ الثُّلَاثَاءِ وَيَوْمَ الْأَرْبِعَاءِ وَيَوْمَ الْخَمِيسِ، وَأَسَّسَ مَسْجِدَهُ [٢]",
+          "text_sha256": "aea76b51164abe92395b4c75f84f5e9afee678f887305352b974d99f8650767c"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 202,
+      "selected_text_sha256": "aea76b51164abe92395b4c75f84f5e9afee678f887305352b974d99f8650767c",
+      "source_excerpt_sha256": "aea76b51164abe92395b4c75f84f5e9afee678f887305352b974d99f8650767c",
+      "book_id": 23833,
+      "page_id": 517,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/494](https://app.turath.io/book/23833?page=517)",
+      "source_url": "https://app.turath.io/book/23833?page=517",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل",
+        "أرقام إحالات الحاشية باقية كما في الأصل؛ الحاشية ليست جزءًا من هذا المقطع",
+        "تتمة النص مفصولة عند حد الصفحة أو عنوان المصدر؛ تراجع مع المقطع المرتبط"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن إسحاق",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "d35c5f3faba395e59788982bf68a4bdf6028e96ad621259136e13bb96b3f2448",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-23833-517-825"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_07",
+      "evidence_id": "H-23833-517-825",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 400,
+          "page_start": 1036,
+          "page_end": 1436,
+          "source_type_ar": "خبر ابن إسحاق: الخروج والجمعة",
+          "speaker_ar": "ابن إسحاق",
+          "text_ar": "ثُمَّ أَخْرَجَهُ اللَّهُ مِنْ بَيْنِ أَظْهُرِهِمْ يَوْمَ الْجُمُعَةِ. وَبَنُو عَمْرِو بْنِ عَوْفٍ يُزْعِمُونَ أَنَّهُ مَكَثَ فِيهِمْ أَكْثَرَ مِنْ ذَلِكَ، فاللَّه أَعْلَمُ أَيُّ ذَلِكَ كَانَ. فَأَدْرَكَتْ رَسُولَ اللَّهِ ﷺ الْجُمُعَةُ فِي بَنِي سَالِمِ بْنِ عَوْفٍ، فَصَلَّاهَا فِي الْمَسْجِدِ الَّذِي فِي بَطْنِ الْوَادِي، وَادِي رَانُونَاءَ [٣]، فَكَانَتْ أَوَّلَ جُمُعَةٍ صَلَّاهَا بِالْمَدِينَةِ.",
+          "text_sha256": "cfed9dd70c999dcd764d3d550e99f8b9dacb44dd291f0028b2af8e234a7119c1"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 400,
+      "selected_text_sha256": "cfed9dd70c999dcd764d3d550e99f8b9dacb44dd291f0028b2af8e234a7119c1",
+      "source_excerpt_sha256": "cfed9dd70c999dcd764d3d550e99f8b9dacb44dd291f0028b2af8e234a7119c1",
+      "book_id": 23833,
+      "page_id": 517,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/494](https://app.turath.io/book/23833?page=517)",
+      "source_url": "https://app.turath.io/book/23833?page=517",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل",
+        "أرقام إحالات الحاشية باقية كما في الأصل؛ الحاشية ليست جزءًا من هذا المقطع",
+        "المقطع متصل بسابقه؛ لا يقرأ مبتورًا عن سياقه المرتبط"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن إسحاق",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "d35c5f3faba395e59788982bf68a4bdf6028e96ad621259136e13bb96b3f2448",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-23833-517-824"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_08",
+      "evidence_id": "H-1673-4072-DATES",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 2662,
+          "page_start": 183,
+          "page_end": 2845,
+          "source_type_ar": "شرح ومقارنة تواريخ الوصول",
+          "speaker_ar": "ابن حجر",
+          "text_ar": "قَوْلُهُ: (وَذَلِكَ يَوْمَ الِاثْنَيْنِ مِنْ شَهْرِ رَبِيعٍ الْأَوَّلِ) وَهَذَا هُوَ الْمُعْتَمَدُ وَشَذَّ مَنْ قَالَ: يَوْمَ الْجُمُعَةِ، فِي رِوَايَةِ مُوسَى بْنِ عُقْبَةَ، عَنِ ابْنِ شِهَابٍ قَدِمَهَا لِهِلَالِ رَبِيعٍ الْأَوَّلِ أَيْ أَوَّلَ يَوْمٍ مِنْهُ، وَفِي رِوَايَةِ جَرِيرِ بْنِ حَازِمٍ، عَنِ ابْنِ إِسْحَاقَ قَدِمَهَا لِلَيْلَتَيْنِ خَلَتَا مِنْ شَهْرِ رَبِيعٍ الْأَوَّلِ وَنَحْوَهُ عِنْدَ أَبِي مَعْشَرٍ، لَكِنْ قَالَ: لَيْلَةَ الِاثْنَيْنِ، وَمِثْلُهُ عَنِ ابْنِ الْبَرْقِيِّ، وَثَبَتَ كَذَلِكَ فِي أَوَاخِرِ صَحِيحِ مُسْلِمٍ، وَفِي رِوَايَةِ إِبْرَاهِيمَ بْنِ سَعْدٍ، عَنِ ابْنِ إِسْحَاقَ قَدِمَهَا لِاثْنَتَيْ عَشْرَةَ لَيْلَةً خَلَتْ مِنْ رَبِيعٍ الْأَوَّلِ، وَعِنْدَ أَبِي سَعِيدٍ فِي شَرَفِ الْمُصْطَفَى مِنْ طَرِيقِ أَبِي بَكْرِ بْنِ حَزْمٍ قَدِمَ لِثَلَاثَ عَشْرَةَ مِنْ رَبِيعٍ الْأَوَّلِ.\nوَهَذَا يُجْمَعُ بَيْنَهُ وَبَيْنَ الَّذِي قَبْلَهُ بِالْحَمْلِ عَلَى الِاخْتِلَافِ فِي رُؤْيَةِ الْهِلَالِ، وَعِنْدَهُ مِنْ حَدِيثِ عُمَرَ ثُمَّ نَزَلَ عَلَى بَنِي عَمْرِو بْنِ عَوْفٍ يَوْمَ الِاثْنَيْنِ لِلَيْلَتَيْنِ بَقِيَتَا مِنْ رَبِيعٍ الْأَوَّلِ كَذَا فِيهِ، وَلَعَلَّهُ كَانَ فِيهِ خَلَتَا لِيُوَافِقَ رِوَايَةَ جَرِيرٍ، وَابْنِ حَازِمٍ، وَعِنْدَ الزُّبَيْرِ فِي خَبَرِ الْمَدِينَةِ عَنِ ابْنِ شِهَابٍ فِي نِصْفِ رَبِيعٍ الْأَوَّلِ وَقِيلَ: كَانَ قُدُومُهُ فِي سَابِعِهِ، وَجَزَمَ ابْنُ حَزْمٍ بِأَنَّهُ خَرَجَ مِنْ مَكَّةَ لِثَلَاثِ لَيَالٍ بَقِينَ مِنْ صَفَرٍ، وَهَذَا يُوَافِقُ قَوْلَ هِشَامِ بْنِ الْكَلْبِيِّ إِنَّهُ خَرَجَ مِنَ الْغَارِ لَيْلَةَ الِاثْنَيْنِ أَوَّلَ يَوْمٍ مِنْ رَبِيعٍ الْأَوَّلِ، فَإِنْ كَانَ مَحْفُوظًا فَلَعَلَّ قُدُومَهُ قُبَاءَ كَانَ يَوْمَ الِاثْنَيْنِ ثَامِنَ رَبِيعٍ الْأَوَّلِ، وَإِذَا ضُمَّ إِلَى قَوْلِ أَنَسٍ إِنَّهُ أَقَامَ بِقُبَاءَ أَرْبَعَ عَشْرَةَ لَيْلَةً خَرَجَ مِنْهُ أَنَّ دُخُولَهُ الْمَدِينَةَ كَانَ لِاثْنَيْنِ وَعِشْرِينَ مِنْهُ، لَكِنِ الْكَلْبِيُّ جَزَمَ بِأَنَّهُ دَخَلَهَا لِاثْنَتَيْ عَشْرَةَ خَلَتْ مِنْهُ، فَعَلَى قَوْلِهِ تَكُونُ إِقَامَتُهُ بِقُبَاءَ أَرْبَعَ لَيَالٍ فَقَطْ، وَبِهِ جَزَمَ ابْنُ حِبَّانَ، فَإِنَّهُ قَالَ: أَقَامَ بِهَا الثُّلَاثَاءَ وَالْأَرْبِعَاءَ وَالْخَمِيسَ يَعْنِي وَخَرَجَ يَوْمَ الْجُمُعَةِ، فَكَأَنَّهُ لَمْ يَعْتَدَّ بِيَوْمِ الْخُرُوجِ، وَكَذَا قَالَ مُوسَى بْنُ عُقْبَةَ: إِنَّهُ أَقَامَ فِيهِمْ ثَلَاثَ لَيَالٍ، فَكَأَنَّهُ لَمْ يَعْتَدَّ بِيَوْمِ الْخُرُوجِ وَلَا الدُّخُولِ، وَعَنْ قَوْمٍ مِنْ بَنِي عَمْرِو بْنِ عَوْفٍ أَنَّهُ أَقَامَ فِيهِمُ اثْنَيْنِ وَعِشْرِينَ يَوْمًا، حَكَاهُ الزُّبَيْرُ بْنُ بَكَّارٍ، وَفِي مُرْسَلِ عُرْوَةَ بْنِ الزُّبَيْرِ مَا يَقْرُبُ مِنْهُ كَمَا يُذْكَرُ عَقِبَ هَذَا، وَالْأَكْثَرُ أَنَّهُ قَدِمَ نَهَارًا، وَوَقَعَ فِي رِوَايَةِ مُسْلِمٍ لَيْلًا، وَيُجْمَعُ بِأَنَّ\nالْقُدُومَ كَانَ آخِرَ اللَّيْلِ فَدَخَلَ نَهَارًا.",
+          "text_sha256": "88f97eb71845ccf3c647c83755feff2dae0a20895fa36f08becebbefaafe0193"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 2662,
+      "selected_text_sha256": "88f97eb71845ccf3c647c83755feff2dae0a20895fa36f08becebbefaafe0193",
+      "source_excerpt_sha256": "88f97eb71845ccf3c647c83755feff2dae0a20895fa36f08becebbefaafe0193",
+      "book_id": 1673,
+      "page_id": 4072,
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/244](https://app.turath.io/book/1673?page=4072)",
+      "source_url": "https://app.turath.io/book/1673?page=4072",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "الجمع والترجيح داخل النقل لابن حجر، لا للباحث؛ الأصول التي ذكرها تحتاج فتحًا مستقلًا",
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: فتح الباري بشرح البخاري\nالمؤلف: أحمد بن علي بن حجر العسقلاني (٧٧٣ - ٨٥٢ هـ)\nرقم كتبه وأبوابه وأحاديثه: محمد فؤاد عبد الباقي [ت ١٣٨٨ هـ]\nقام بإخراجه وتصحيح تجاربه: محب الدين الخطيب [ت ١٣٨٩ هـ]\nالناشر: المكتبة السلفية - مصر\nالطبعة: «السلفية الأولى»، ١٣٨٠ - ١٣٩٠ هـ\nثم صورتها: عدة دور مثل دار المعرفة، وغيرها\nعدد الأجزاء: ١٣ (بالإضافة للمقدمة هدي الساري في جزء منفصل يكمّل ١٤)\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن حجر",
+      "source_type_metadata_ar": "شرح",
+      "source_page_sha256": "14462cd02af073e5a35b44fc7724337ff7ab5fb2d7a71298682499f8fd54cf43",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_quba_chapter_09",
+      "evidence_id": "H-1673-4072-STAY",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 739,
+          "page_start": 4114,
+          "page_end": 4853,
+          "source_type_ar": "شرح ومقارنة مدد الإقامة",
+          "speaker_ar": "ابن حجر",
+          "text_ar": "قَوْلُهُ: (فَلَبِثَ رَسُولُ اللَّهِ ﷺ فِي بَنِي عَمْرِو بْنِ عَوْفٍ بِضْعَ عَشْرَةَ لَيْلَةً) فِي حَدِيثِ أَنَسٍ الْآتِي فِي الْبَابِ الَّذِي يَلِيهِ أَنَّهُ أَقَامَ فِيهِمْ أَرْبَعَ عَشْرَةَ لَيْلَةً، وَقَدْ ذَكَرْتُ قَبْلَهُ مَا يُخَالِفُهُ، وَاللَّهُ أَعْلَمُ. قَالَ مُوسَى بْنُ عُقْبَةَ، عَنِ ابْنِ شِهَابٍ: أَقَامَ فِيهِمْ ثَلَاثًا. قَالَ: وَرَوَى ابْنُ شِهَابٍ، عَنْ مَجْمَعِ بْنِ حَارِثَةَ أَنَّهُ أَقَامَ اثْنَتيْنِ وَعِشْرِينَ لَيْلَةً. وَقَالَ ابْنُ إِسْحَاقَ: أَقَامَ فِيهِمْ خَمْسًا، وَبَنُو عَمْرِو بْنِ عَوْفٍ يَزْعُمُونَ أَكْثَرَ مِنْ ذَلِكَ. قُلْتُ: لَيْسَ أَنَسٌ مِنْ بَنِي عَمْرِو بْنِ عَوْفٍ، فَإِنَّهُمْ مِنَ الْأَوْسِ وَأَنَسٌ مِنَ الْخَزْرَجِ، وَقَدْ جَزَمَ بِمَا ذَكَرْتُهُ فَهُوَ أَوْلَى بِالْقَبُولِ مِنْ غَيْرِهِ.",
+          "text_sha256": "30befc6cf4c6790b415d9b482409f334c23cb693096c6a135ab0d9a93f5b5497"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 739,
+      "selected_text_sha256": "30befc6cf4c6790b415d9b482409f334c23cb693096c6a135ab0d9a93f5b5497",
+      "source_excerpt_sha256": "30befc6cf4c6790b415d9b482409f334c23cb693096c6a135ab0d9a93f5b5497",
+      "book_id": 1673,
+      "page_id": 4072,
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/244](https://app.turath.io/book/1673?page=4072)",
+      "source_url": "https://app.turath.io/book/1673?page=4072",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: فتح الباري بشرح البخاري\nالمؤلف: أحمد بن علي بن حجر العسقلاني (٧٧٣ - ٨٥٢ هـ)\nرقم كتبه وأبوابه وأحاديثه: محمد فؤاد عبد الباقي [ت ١٣٨٨ هـ]\nقام بإخراجه وتصحيح تجاربه: محب الدين الخطيب [ت ١٣٨٩ هـ]\nالناشر: المكتبة السلفية - مصر\nالطبعة: «السلفية الأولى»، ١٣٨٠ - ١٣٩٠ هـ\nثم صورتها: عدة دور مثل دار المعرفة، وغيرها\nعدد الأجزاء: ١٣ (بالإضافة للمقدمة هدي الساري في جزء منفصل يكمّل ١٤)\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن حجر",
+      "source_type_metadata_ar": "شرح",
+      "source_page_sha256": "14462cd02af073e5a35b44fc7724337ff7ab5fb2d7a71298682499f8fd54cf43",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-23833-517-824",
+        "H-23833-517-825",
+        "H-1681-5900-QUBA"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_10",
+      "evidence_id": "H-7478-1060-RA-MOSQUE-ANAS",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p4_cont"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 536,
+          "page_start": 458,
+          "page_end": 994,
+          "source_type_ar": "سند بطريقين مع تحويل",
+          "speaker_ar": "البيهقي عن شيوخه",
+          "text_ar": "أَخْبَرَنَا أَبُو عَبْدِ اللَّه الْحَافِظُ، قَالَ: حَدَّثَنَا أَبُو عَبْدِ اللَّه: مُحَمَّدُ بْنُ يَعْقُوبَ، قَالَ: حَدَّثَنَا يَحْيَى بْنُ مُحَمَّدِ بْنِ يَحْيَى، قَالَ: حَدَّثَنَا مُسَدَّدٌ، قَالَ: حَدَّثَنَا عَبْدُ الْوَارِثِ.\n(ح) وأَخْبَرَنَا أَبُو عَبْدِ اللَّه، قَالَ: حَدَّثَنَا أَبُو بَكْرِ بْنُ إِسْحَاقَ الْفَقِيهُ، قَالَ:\nأَخْبَرَنَا إِسْمَاعِيلُ بْنُ قُتَيْبَةَ، قَالَ: حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ: أَخْبَرَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ، قَالَ: حَدَّثَنَا أَبُو التَّيَّاحِ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ: ",
+          "text_sha256": "a8fd8dae35193e56c4116dab494c875c0973c94bfa037545de0df350cabef537"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 536,
+          "record_end": 1171,
+          "page_start": 994,
+          "page_end": 1629,
+          "source_type_ar": "خبر أنس: الإقامة والانتقال",
+          "speaker_ar": "أنس بن مالك",
+          "text_ar": "«لَمَّا قَدِمَ رَسُولُ اللَّه ﵌ الْمَدِينَةَ نَزَلَ فِي عُلُوِّ الْمَدِينَةِ فِي حَيٍّ يُقَالُ لَهُمْ: بَنُو عَمْرِو بْنِ عَوْفٍ، فَأَقَامَ فِيهِمْ أَرْبَعَ عَشْرَةَ لَيْلَةً، ثُمَّ أَرْسَلَ إِلَى مَلَأِ بَنِي النَّجَّارِ، فَجَاءُوا مُتَقَلِّدِي سُيُوفِهِمْ، قَالَ أَنَسٌ: فَكَأَنِّي أَنْظُرُ إِلَى رَسُولِ اللَّه ﵌ عَلَى رَاحِلَتِهِ وَأَبُو بَكْرٍ رِدْفُهُ، وَمَلَأُ بَنِي النَّجَّارِ حَوْلَهُ حَتَّى أَلْقَى بِفِنَاءِ أَبِي أَيُّوبَ، وَكَانَ رَسُولُ اللَّه ﵌ يُصَلِّي حَيْثُ أَدْرَكَتْهُ الصَّلَاةُ، وَيُصَلِّي فِي مَرَابِضِ الْغَنَمِ، ثُمَّ إِنَّهُ أَمَرَ بِالْمَسْجِدِ فَأَرْسَلَ إِلَى مَلَأِ بَنِي النَّجَّارِ فَجَاءُوا، فَقَالَ: ",
+          "text_sha256": "6ed9756e732b59a14955195b7bccc0bbc3668d9da8dd073eadb29dad626c6a22"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 1171,
+          "record_end": 1226,
+          "page_start": 1629,
+          "page_end": 1684,
+          "source_type_ar": "قول النبي ﷺ كما ينقله أنس",
+          "speaker_ar": "النبي ﷺ كما يرويه أنس",
+          "text_ar": "يَا بَنِي النَّجَّارِ ثَامِنُونِي بِحَائِطِكُمْ هَذَا، ",
+          "text_sha256": "0d922495208e72a3b5f21a19e8a65027c4fe36edbcc684ab28de57011de2fbfd"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 1226,
+          "record_end": 1291,
+          "page_start": 1684,
+          "page_end": 1749,
+          "source_type_ar": "جواب بني النجار في رواية أنس",
+          "speaker_ar": "بنو النجار كما ينقل أنس",
+          "text_ar": "قَالُوا: لَا، واللَّه لَا نَطْلُبُ ثَمَنَهُ إِلَّا إِلَى اللَّه، ",
+          "text_sha256": "67885d29d19c150a252a2577ceb312b48883943b0ed09dfa86582d2fe46bf5d7"
+        },
+        {
+          "part_id": "p4_cont",
+          "record_start": 1291,
+          "record_end": 1432,
+          "page_start": 1749,
+          "page_end": 1890,
+          "source_type_ar": "تتمة خبر أنس عن الموضع",
+          "speaker_ar": "أنس بن مالك",
+          "text_ar": "قَالَ فَقَالَ أَنَسٌ: فَكَانَ فِيهِ مَا أَقُولُ لَكُمْ، كَانَ فِيهِ قُبُورُ الْمُشْرِكِينَ، وَكَانَ فِيهِ خِرَبٌ، وَكَانَ فِيهِ نخل فأمر رسول",
+          "text_sha256": "12d430d434d34dc6a6c9d6832b07210d8776b8b439a6907b5cf41cd8a2459284"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 1432,
+      "selected_text_sha256": "9d174140f73b2db840a6731b45cb7f21ccac3e5f1888214254b8c6a25f2e3913",
+      "source_excerpt_sha256": "9d174140f73b2db840a6731b45cb7f21ccac3e5f1888214254b8c6a25f2e3913",
+      "book_id": 7478,
+      "page_id": 1060,
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/539](https://app.turath.io/book/7478?page=1060)",
+      "source_url": "https://app.turath.io/book/7478?page=1060",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "الأربع عشرة ليلة محفوظة مع ثلاث وثماني عشرة واثنتين وعشرين في الطرق الأخرى",
+        "مقطع ممتد عبر صفحات رقمية؛ تتماته مربوطة بمعرف مجموعة النص ومعرفات المقاطع، ولا تلصق الحواشي بين التتمات",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو بكر البيهقي",
+      "edition_ar": "الكتاب: دلائل النبوة ومعرفة أحوال صاحب الشريعة\nالمؤلف: أبو بكر أحمد بن الحسين البيهقي (٣٨٤ - ٤٥٨ هـ)\nوثق أصوله وخرج حديثه وعلق عليه: د عبد المعطي قلعجي\nالناشر: دار الكتب العلمية، بيروت - لبنان\nالطبعة: الأولى، ١٤٠٥ هـ - ١٩٨٥ م\nعدد الأجزاء: ٧\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "أنس",
+      "source_type_metadata_ar": "خبر تاريخي أو حديث مسند",
+      "source_page_sha256": "5b6dad731487eaf833966c3e518713f0fef319127543f9540474f431b34d4201",
+      "source_isnad_metadata_ar": "أَخْبَرَنَا أَبُو عَبْدِ اللَّه الْحَافِظُ، قَالَ: حَدَّثَنَا أَبُو عَبْدِ اللَّه: مُحَمَّدُ بْنُ يَعْقُوبَ، قَالَ: حَدَّثَنَا يَحْيَى بْنُ مُحَمَّدِ بْنِ يَحْيَى، قَالَ: حَدَّثَنَا مُسَدَّدٌ، قَالَ: حَدَّثَنَا عَبْدُ الْوَارِثِ.\n(ح) وأَخْبَرَنَا أَبُو عَبْدِ اللَّه، قَالَ: حَدَّثَنَا أَبُو بَكْرِ بْنُ إِسْحَاقَ الْفَقِيهُ، قَالَ:\nأَخْبَرَنَا إِسْمَاعِيلُ بْنُ قُتَيْبَةَ، قَالَ: حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ: أَخْبَرَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ، قَالَ: حَدَّثَنَا أَبُو التَّيَّاحِ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ: ",
+      "related_evidence_ids": [
+        "H-7478-1061-RA-MOSQUE-ANAS"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_14",
+      "evidence_id": "H-1673-1011-HS-FOURTEEN-VARIANT-1",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 300,
+          "page_start": 4999,
+          "page_end": 5299,
+          "source_type_ar": "شرح اختلاف اللفظ بين الرواة",
+          "speaker_ar": "ابن حجر",
+          "text_ar": "وقَوْلُهُ فِيهِ فَأَقَامَ فِيهِمْ أَرْبَعًا وَعِشْرِينَ كَذَا لِلْمُسْتَمْلِي، وَالْحَمَوِيِّ، وَلِلْبَاقِينَ أَرْبَعَ عَشْرَةَ وَهُوَ الصَّوَابُ مِنْ هَذَا الْوَجْهِ، وَكَذَا رَوَاهُ أَبُو دَاوُدَ، عَنْ مُسَدَّدٍ شَيْخِ الْبُخَارِيِّ وَفِيهِ: وَقَدِ اخْتَلَفَ فِيهِ أَهْلُ السِّيَرِ كَمَا سَيَأْتِي.",
+          "text_sha256": "d13b0206b20dafe5666d17c3ccd3ed884ff32ca292a38ec301b7a45993aa4382"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 300,
+      "selected_text_sha256": "d13b0206b20dafe5666d17c3ccd3ed884ff32ca292a38ec301b7a45993aa4382",
+      "source_excerpt_sha256": "d13b0206b20dafe5666d17c3ccd3ed884ff32ca292a38ec301b7a45993aa4382",
+      "book_id": 1673,
+      "page_id": 1011,
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 1/525](https://app.turath.io/book/1673?page=1011)",
+      "source_url": "https://app.turath.io/book/1673?page=1011",
+      "retrieved_at": "2026-10-02T20:50:57.036996+00:00",
+      "source_notes_ar": [
+        "هذا كلام ابن حجر ونقوله، لا ترجيح للباحث؛ إعادة متن الحديث في الشرح ليست طريقا مستقلا",
+        "فصلت حدود الصفحة المطبوعة داخل الوحدة الرقمية؛ تتصل الأجزاء ولا يركب منها نقل واحد بلا بيان الحدود",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: فتح الباري بشرح البخاري\nالمؤلف: أحمد بن علي بن حجر العسقلاني (٧٧٣ - ٨٥٢ هـ)\nرقم كتبه وأبوابه وأحاديثه: محمد فؤاد عبد الباقي [ت ١٣٨٨ هـ]\nقام بإخراجه وتصحيح تجاربه: محب الدين الخطيب [ت ١٣٨٩ هـ]\nالناشر: المكتبة السلفية - مصر\nالطبعة: «السلفية الأولى»، ١٣٨٠ - ١٣٩٠ هـ\nثم صورتها: عدة دور مثل دار المعرفة، وغيرها\nعدد الأجزاء: ١٣ (بالإضافة للمقدمة هدي الساري في جزء منفصل يكمّل ١٤)\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن حجر العسقلاني؛ النقول المسماة في كلامه لأصحابها",
+      "source_type_metadata_ar": "شرح ونقد وجمع منقول",
+      "source_page_sha256": "a9249ad99081d2d12657b08bf7ca164d87aa23a92232e3c2cfbc67f53ad4726b",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-1681-5925-HS-QUBA-MOSQUE-1",
+        "H-1673-4072-STAY"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_11",
+      "evidence_id": "H-7478-1061-RA-MOSQUE-ANAS",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 245,
+          "page_start": 0,
+          "page_end": 245,
+          "source_type_ar": "تتمة خبر أنس في مسجد المدينة",
+          "speaker_ar": "أنس بن مالك",
+          "text_ar": "اللَّه ﵌ بِقُبُورِ الْمُشْرِكِينَ فَنُبِشَتْ وبالخرب فسوّيت، بالنخل فَقُطِعَ، فَصَفُّوا النَّخْلَ قِبْلَةً لَهُ، وَجَعَلُوا عِضَادَتَيْهِ حِجَارَةً، وَجَعَلُوا يَنْقُلُونَ الصَّخْرَ وَهُمْ يَرْتَجِزُونَ وَرَسُولُ اللَّه ﵌ مَعَهُمْ وَيَقُولُونَ:\n",
+          "text_sha256": "168712d275ac4a008955e8dd4fb963d8de0b968216384f79fd4b8c8cbf089298"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 245,
+          "record_end": 341,
+          "page_start": 245,
+          "page_end": 341,
+          "source_type_ar": "رجز البناء المنقول",
+          "speaker_ar": "القائلون في خبر أنس",
+          "text_ar": "اللهُمَّ إِنَّهُ لَا خَيْرَ إِلَّا خَيْرَ الْآخِرَةْ ... فَانْصُرِ الْأَنْصَارَ وَالْمُهَاجِرَةْ",
+          "text_sha256": "8ebcbd88728b6ebec5b24c5e3e9028763019a019b3aa15f26f0fc28ea28d1cc2"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 341,
+      "selected_text_sha256": "9f07488ff4ae6b157c3a061ac7a0bbbfed47f133bf900ea64001b69fc2fde5bb",
+      "source_excerpt_sha256": "9f07488ff4ae6b157c3a061ac7a0bbbfed47f133bf900ea64001b69fc2fde5bb",
+      "book_id": 7478,
+      "page_id": 1061,
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/540](https://app.turath.io/book/7478?page=1061)",
+      "source_url": "https://app.turath.io/book/7478?page=1061",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "الأربع عشرة ليلة محفوظة مع ثلاث وثماني عشرة واثنتين وعشرين في الطرق الأخرى",
+        "مقطع ممتد عبر صفحات رقمية؛ تتماته مربوطة بمعرف مجموعة النص ومعرفات المقاطع، ولا تلصق الحواشي بين التتمات",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو بكر البيهقي",
+      "edition_ar": "الكتاب: دلائل النبوة ومعرفة أحوال صاحب الشريعة\nالمؤلف: أبو بكر أحمد بن الحسين البيهقي (٣٨٤ - ٤٥٨ هـ)\nوثق أصوله وخرج حديثه وعلق عليه: د عبد المعطي قلعجي\nالناشر: دار الكتب العلمية، بيروت - لبنان\nالطبعة: الأولى، ١٤٠٥ هـ - ١٩٨٥ م\nعدد الأجزاء: ٧\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "أنس",
+      "source_type_metadata_ar": "خبر تاريخي أو حديث مسند",
+      "source_page_sha256": "633dae5586c653af342da5c9adc793b78636bf2de0111a834e52201123a20244",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-7478-1060-RA-MOSQUE-ANAS"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_12",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p9_qurtubi",
+        "p9_hajar",
+        "p10",
+        "p11",
+        "p11_prophet",
+        "p12",
+        "p13_prophet",
+        "p13",
+        "p14",
+        "p15"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 1474,
+          "page_start": 0,
+          "page_end": 1474,
+          "source_type_ar": "شرح ونقل وتعليق",
+          "speaker_ar": "ابن حجر",
+          "text_ar": "عَلَى التَّقْوَى) أَيْ مَسْجِدُ قُبَاءَ، وَفِي رِوَايَةِ عَبْدِ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ قَالَ: الَّذِينَ بَنَى فِيهِمُ الْمَسْجِدَ الَّذِي أُسِّسَ عَلَى التَّقْوَى هُمْ بَنُو عَمْرِو بْنِ عَوْفٍ، وَكَذَا فِي حَدِيثِ ابْنِ عَبَّاسٍ عِنْدَ ابْنِ عَائِذٍ، وَلَفْظُهُ وَمَكَثَ فِي بَنِي عَمْرِو بْنِ عَوْفٍ ثَلَاثَ لَيَالٍ وَاتَّخَذَ مَكَانَهُ مَسْجِدًا فَكَانَ يُصَلِّي فِيهِ، ثُمَّ بَنَاهُ بَنُو عَمْرِو بْنِ عَوْفٍ فَهُوَ الَّذِي أُسِّسَ عَلَى التَّقْوَى. وَرَوَى يُونُسُ بْنُ بُكَيْرٍ فِي زِيَادَاتِ الْمَغَازِي عَنِ الْمَسْعُودِيِّ، عَنِ الْحَكَمِ بْنِ عُتَيْبَةَ قَالَ: لَمَّا قَدِمَ النَّبِيُّ ﷺ فَنَزَلَ بِقُبَاءَ قَالَ عَمَّارُ بْنُ يَاسِرٍ: مَا لِرَسُولِ اللَّهِ ﷺ بُدٌّ مِنْ أَنْ يَجْعَلَ لَهُ مَكَانًا يَسْتَظِلُّ بِهِ إِذَا اسْتَيْقَظَ وَيُصَلِّي فِيهِ، فَجَمَعَ حِجَارَةً فَبَنَى مَسْجِدَ قُبَاءَ، فَهُوَ أَوَّلُ مَسْجِدٍ بُنِيَ يَعْنِي بِالْمَدِينَةِ، وَهُوَ فِي التَّحْقِيقِ أَوَّلُ مَسْجِدٍ صَلَّى النَّبِيُّ ﷺ فِيهِ بِأَصْحَابِهِ جَمَاعَةً ظَاهِرًا، وَأَوَّلُ مَسْجِدٍ بُنِيَ لِجَمَاعَةِ الْمُسْلِمِينَ عَامَّةً، وَإِنْ كَانَ قَدْ تَقَدَّمَ بِنَاءُ غَيْرِهِ مِنَ الْمَسَاجِدِ لَكِنْ لِخُصُوصِ الَّذِي بَنَاهَا كَمَا تَقَدَّمَ فِي حَدِيثِ عَائِشَةَ فِي بِنَاءِ أَبِي بَكْرٍ مَسْجِدَهُ. وَرَوَى ابْنُ أَبِي شَيْبَةَ عَنْ جَابِرٍ قَالَ: لَقَدْ لَبِثْنَا بِالْمَدِينَةِ قَبْلَ أَنْ يَقْدَمَ عَلَيْنَا رَسُولُ اللَّهِ ﷺ بِسِنِينَ نَعْمُرُ الْمَسَاجِدَ وَنُقِيمُ الصَّلَاةَ.\nوَقَدِ اخْتُلِفَ فِي الْمُرَادِ بِقَوْلِهِ تَعَالَى: ",
+          "text_sha256": "dd71868270cdb0475ae46419b3aa94b997ed55f5d339dc668ef2936fe04f1444"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 1474,
+          "record_end": 1531,
+          "page_start": 1474,
+          "page_end": 1531,
+          "source_type_ar": "آية قرآنية منقولة في الشرح",
+          "speaker_ar": "النص القرآني المنقول",
+          "text_ar": "﴿لَمَسْجِدٌ أُسِّسَ عَلَى التَّقْوَى مِنْ أَوَّلِ يَوْمٍ﴾",
+          "text_sha256": "03545365f6bd3f3a999d0b4281cbbb3a5444a3eb7a36d8e51ebc597adf1b21fc"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 1531,
+          "record_end": 1790,
+          "page_start": 1531,
+          "page_end": 1790,
+          "source_type_ar": "شرح ونقل وتعليق",
+          "speaker_ar": "ابن حجر",
+          "text_ar": " فَالْجُمْهُورُ عَلَى أَنَّ الْمُرَادَ بِهِ مَسْجِدُ قُبَاءَ، هَذَا وهُوَ ظَاهِرُ الْآيَةِ، وَرَوَى مُسْلِمٌ مِنْ طَرِيقِ عَبْدِ الرَّحْمَنِ بْنِ أَبِي سَعِيدٍ عَنْ أَبِيهِ سَأَلْتُ رَسُولَ اللَّهِ ﷺ عَنِ الْمَسْجِدِ الَّذِي أُسِّسَ عَلَى التَّقْوَى فَقَالَ: ",
+          "text_sha256": "009667d7d99b33d44e57ec24c95daf8106913ba8518e22c58d620ac37c69b316"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 1790,
+          "record_end": 1813,
+          "page_start": 1790,
+          "page_end": 1813,
+          "source_type_ar": "جواب النبي ﷺ كما ينقله ابن حجر",
+          "speaker_ar": "النبي ﷺ في نقل ابن حجر",
+          "text_ar": "هُوَ مَسْجِدُكُمْ هَذَا",
+          "text_sha256": "529978e6e18ec20bb9224ffdb11e3bd42efdb3892d88c6c7a918fcfe24f9c4ad"
+        },
+        {
+          "part_id": "p5",
+          "record_start": 1813,
+          "record_end": 2104,
+          "page_start": 1813,
+          "page_end": 2104,
+          "source_type_ar": "شرح ونقل وتعليق",
+          "speaker_ar": "ابن حجر",
+          "text_ar": "، وَلِأَحْمَدَ، وَالتِّرْمِذِيِّ مِنْ وَجْهٍ آخَرَ عَنْ أَبِي سَعِيدٍ اخْتَلَفَ رَجُلَانِ فِي الْمَسْجِدِ الَّذِي أُسِّسَ عَلَى التَّقْوَى، فَقَالَ أَحَدُهُمَا: هُوَ مَسْجِدُ النَّبِيِّ ﷺ. وَقَالَ الْآخَرُ: هُوَ مَسْجِدُ قُبَاءَ، فَأَتَيَا رَسُولَ اللَّهِ ﷺ فَسَأَلَاهُ عَنْ ذَلِكَ فَقَالَ: ",
+          "text_sha256": "3dd67700de203b43c9dd307e0aedf48b5d7159d594f3f5cb09dff5a201d359cb"
+        },
+        {
+          "part_id": "p6",
+          "record_start": 2104,
+          "record_end": 2128,
+          "page_start": 2104,
+          "page_end": 2128,
+          "source_type_ar": "جواب النبي ﷺ كما ينقله ابن حجر",
+          "speaker_ar": "النبي ﷺ في نقل ابن حجر",
+          "text_ar": "هُوَ هَذَا، وَفِي ذَلِكَ",
+          "text_sha256": "04c4576cb024f28b88e77264de0a7f8ff441a9ea0568b26220e5f1e0b4fd8997"
+        },
+        {
+          "part_id": "p7",
+          "record_start": 2128,
+          "record_end": 2158,
+          "page_start": 2128,
+          "page_end": 2158,
+          "source_type_ar": "تفسير مدرج في نقل الحديث",
+          "speaker_ar": "تفسير الناقل",
+          "text_ar": " - يَعْنِي مَسْجِدَ قُبَاءٍ - ",
+          "text_sha256": "d8aaa2be90f18b145089e6b71c75485f2b196502222c2e365ce5d1f9b69b4b1c"
+        },
+        {
+          "part_id": "p8",
+          "record_start": 2158,
+          "record_end": 2172,
+          "page_start": 2158,
+          "page_end": 2172,
+          "source_type_ar": "جواب النبي ﷺ كما ينقله ابن حجر",
+          "speaker_ar": "النبي ﷺ في نقل ابن حجر",
+          "text_ar": "خَيْرٌ كَثِيرٌ",
+          "text_sha256": "3a1664cefa7599afe74d3fe086c5fcb1c1cd983d8b152da34056f3990bfc4857"
+        },
+        {
+          "part_id": "p9",
+          "record_start": 2172,
+          "record_end": 2315,
+          "page_start": 2172,
+          "page_end": 2315,
+          "source_type_ar": "إحالة الحديث قبل نقل تفسير القرطبي",
+          "speaker_ar": "ابن حجر",
+          "text_ar": ". وَلِأَحْمَدَ، عَنْ سَهْلِ بْنِ سَعْدٍ نَحْوَهُ، وَأَخْرَجَهُ مِنْ وَجْهٍ آخَرَ عَنْ سَهْلِ بْنِ سَعْدٍ، عَنْ أُبَيِّ بْنِ كَعْبٍ مَرْفُوعًا. ",
+          "text_sha256": "6433d4fedf0805ea921d39c5e8334a84551bc7b0a2cfc059afc9ca22effa9594"
+        },
+        {
+          "part_id": "p9_qurtubi",
+          "record_start": 2315,
+          "record_end": 2901,
+          "page_start": 2315,
+          "page_end": 2901,
+          "source_type_ar": "تفسير القرطبي المنقول مع علامة انتهاء النقل",
+          "speaker_ar": "القرطبي كما ينقله ابن حجر؛ انتهى من الشارح",
+          "text_ar": "قَالَ الْقُرْطُبِيُّ: هَذَا السُّؤَالُ صَدَرَ مِمَّنْ ظَهَرَتْ لَهُ الْمُسَاوَاةُ بَيْنَ الْمَسْجِدَيْنِ فِي اشْتِرَاكِهِمَا فِي أَنَّ كُلًّا مِنْهُمَا بَنَاهُ النَّبِيُّ ﷺ، فَلِذَلِكَ سُئِلَ النَّبِيُّ ﷺ عَنْهُ فَأَجَابَ بِأَنَّ الْمُرَادَ مَسْجِدُهُ، وَكَأَنَّ الْمَزِيَّةَ الَّتِي اقْتَضَتْ تَعْيِينَهُ دُونَ مَسْجِدِ قُبَاءَ لِكَوْنِ مَسْجِدِ قُبَاءَ لَمْ يَكُنْ بِنَاؤُهُ بِأَمْرِ جَزْمٍ مِنَ اللَّهِ لِنَبِيِّهِ، أَوْ كَانَ رَأْيًا رَآهُ بِخِلَافِ مَسْجِدِهِ، أَوْ كَانَ حَصَلَ لَهُ أَوْ لِأَصْحَابِهِ فِيهِ مِنَ الْأَحْوَالِ الْقَلْبِيَّةِ مَا لَمْ يَحْصُلْ لِغَيْرِهِ، انْتَهَى.",
+          "text_sha256": "fcbab646cc0a56a1a124262f332af97af46fefe235107591517f8a55fdadb9d5"
+        },
+        {
+          "part_id": "p9_hajar",
+          "record_start": 2901,
+          "record_end": 3268,
+          "page_start": 2901,
+          "page_end": 3268,
+          "source_type_ar": "تعقيب ابن حجر على تفسير القرطبي",
+          "speaker_ar": "ابن حجر",
+          "text_ar": "\nوَيَحْتَمِلُ أَنْ تَكُونَ الْمَزِيَّةُ لِمَا اتُّفِقَ مِنْ طُولِ إِقَامَتِهِ ﷺ بِمَسْجِدِ الْمَدِينَةِ، بِخِلَافِ مَسْجِدِ قُبَاءَ فَمَا أَقَامَ بِهِ إِلَّا أَيَّامًا قَلَائِلَ، وَكَفَى بِهَذَا مَزِيَّةً مِنْ غَيْرِ حَاجَةٍ إِلَى مَا تَكَلَّفَهُ الْقُرْطُبِيُّ، وَالْحَقُّ أَنَّ كُلًّا مِنْهُمَا أُسِّسَ عَلَى التَّقْوَى، وَقَوْلُهُ تَعَالَى فِي بَقِيَّةِ الْآيَةِ: ",
+          "text_sha256": "0dda4248504d93691799843c8bec7fbafe43fae0874616696602dc4b6dc87a87"
+        },
+        {
+          "part_id": "p10",
+          "record_start": 3268,
+          "record_end": 3313,
+          "page_start": 3268,
+          "page_end": 3313,
+          "source_type_ar": "آية قرآنية منقولة في الشرح",
+          "speaker_ar": "النص القرآني المنقول",
+          "text_ar": "﴿فِيهِ رِجَالٌ يُحِبُّونَ أَنْ يَتَطَهَّرُوا﴾",
+          "text_sha256": "471bf5a5aeb00cd804357fc06140b36dac8957d39477a743bdb947d68921a5fa"
+        },
+        {
+          "part_id": "p11",
+          "record_start": 3313,
+          "record_end": 3452,
+          "page_start": 3313,
+          "page_end": 3452,
+          "source_type_ar": "شرح ابن حجر وتمهيد نقل أبي هريرة",
+          "speaker_ar": "ابن حجر",
+          "text_ar": " - يُؤَيِّدُ كَوْنَ الْمُرَادِ مَسْجِدَ قُبَاءَ، وَعِنْدَ أَبِي دَاوُدَ بِإِسْنَادٍ صَحِيحٍ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ ﷺ قَالَ: ",
+          "text_sha256": "415bf1b851aec95ee2473fd1a59e528e5a625c3d4d9fd34c2a929622f204ea56"
+        },
+        {
+          "part_id": "p11_prophet",
+          "record_start": 3452,
+          "record_end": 3461,
+          "page_start": 3452,
+          "page_end": 3461,
+          "source_type_ar": "كلام النبي ﷺ كما ينقله ابن حجر عن أبي هريرة",
+          "speaker_ar": "النبي ﷺ في نقل أبي هريرة عند ابن حجر",
+          "text_ar": "نَزَلَتْ ",
+          "text_sha256": "b0dca5c08c00cee5a66a897fa6da336ae9b4b8202ebe1ba5833854d3722d43bf"
+        },
+        {
+          "part_id": "p12",
+          "record_start": 3461,
+          "record_end": 3506,
+          "page_start": 3461,
+          "page_end": 3506,
+          "source_type_ar": "آية قرآنية في الخبر المنقول",
+          "speaker_ar": "النص القرآني المنقول في الخبر",
+          "text_ar": "﴿فِيهِ رِجَالٌ يُحِبُّونَ أَنْ يَتَطَهَّرُوا﴾",
+          "text_sha256": "471bf5a5aeb00cd804357fc06140b36dac8957d39477a743bdb947d68921a5fa"
+        },
+        {
+          "part_id": "p13_prophet",
+          "record_start": 3506,
+          "record_end": 3526,
+          "page_start": 3506,
+          "page_end": 3526,
+          "source_type_ar": "تتمة كلام النبي ﷺ بعد الآية كما ينقله ابن حجر",
+          "speaker_ar": "النبي ﷺ في نقل أبي هريرة عند ابن حجر",
+          "text_ar": " فِي أَهْلِ قُبَاءَ،",
+          "text_sha256": "9a1ba2cae28b63bcdd6a8dc8a0eb766189c343c7a6692e72927502257b005c29"
+        },
+        {
+          "part_id": "p13",
+          "record_start": 3526,
+          "record_end": 3891,
+          "page_start": 3526,
+          "page_end": 3891,
+          "source_type_ar": "شرح ابن حجر ونقل قول الداودي والسهيلي",
+          "speaker_ar": "ابن حجر، ناقلًا قول الداودي والسهيلي",
+          "text_ar": " وَعَلَى هَذَا فَالسِّرُّ فِي جَوَابِهِ ﷺ بِأَنَّ الْمَسْجِدَ الَّذِي أُسِّسَ عَلَى التَّقْوَى مَسْجِدُهُ، رَفْعُ تَوَهُّمِ أَنَّ ذَلِكَ خَاصٌّ بِمَسْجِدِ قُبَاءَ، وَاللَّهُ أَعْلَمُ.\nقَالَ الدَّاوُدِيُّ وَغَيْرُهُ: لَيْسَ هَذَا اخْتِلَافًا، لِأَنَّ كُلًّا مِنْهُمَا أُسِّسَ عَلَى التَّقْوَى، وَكَذَا قَالَ السُّهَيْلِيُّ، وَزَادَ غَيْرُهُ أَنَّ قَوْلَهُ تَعَالَى: ",
+          "text_sha256": "f4b3bd3d19b0fde34886c0a0d4183cebf7a570267bf2508f32627aa0aa3e2ec8"
+        },
+        {
+          "part_id": "p14",
+          "record_start": 3891,
+          "record_end": 3912,
+          "page_start": 3891,
+          "page_end": 3912,
+          "source_type_ar": "آية قرآنية منقولة في الشرح",
+          "speaker_ar": "النص القرآني المنقول",
+          "text_ar": "﴿مِنْ أَوَّلِ يَوْمٍ﴾",
+          "text_sha256": "a524875cdf52c0d6547889d8278a93662095ad9357e6e12914c671f391979aae"
+        },
+        {
+          "part_id": "p15",
+          "record_start": 3912,
+          "record_end": 4053,
+          "page_start": 3912,
+          "page_end": 4053,
+          "source_type_ar": "تتمة تفسير منقول عن غير مسمى في شرح ابن حجر",
+          "speaker_ar": "غير مسمى ينقله ابن حجر",
+          "text_ar": " يَقْتَضِي أَنَّهُ مَسْجِدُ قُبَاءَ، لِأَنَّ تَأْسِيسَهُ كَانَ فِي أَوَّلِ يَوْمٍ حَلَّ النَّبِيُّ ﷺ بِدَارِ الْهِجْرَةِ، وَاللَّهُ أَعْلَمُ.",
+          "text_sha256": "ae22eb6dbeec0068145469090661a0c36a0b639a327496c252c0669c0f2ab05d"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 4053,
+      "selected_text_sha256": "b504f79b32980c35496c656f436eb2bfb9c6cac97843f5cc09296746cda28d0a",
+      "source_excerpt_sha256": "b504f79b32980c35496c656f436eb2bfb9c6cac97843f5cc09296746cda28d0a",
+      "book_id": 1673,
+      "page_id": 4073,
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "هذا كلام ابن حجر ونقوله، لا ترجيح للباحث؛ إعادة متن الحديث في الشرح ليست طريقا مستقلا",
+        "فصلت حدود الصفحة المطبوعة داخل الوحدة الرقمية؛ تتصل الأجزاء ولا يركب منها نقل واحد بلا بيان الحدود",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: فتح الباري بشرح البخاري\nالمؤلف: أحمد بن علي بن حجر العسقلاني (٧٧٣ - ٨٥٢ هـ)\nرقم كتبه وأبوابه وأحاديثه: محمد فؤاد عبد الباقي [ت ١٣٨٨ هـ]\nقام بإخراجه وتصحيح تجاربه: محب الدين الخطيب [ت ١٣٨٩ هـ]\nالناشر: المكتبة السلفية - مصر\nالطبعة: «السلفية الأولى»، ١٣٨٠ - ١٣٩٠ هـ\nثم صورتها: عدة دور مثل دار المعرفة، وغيرها\nعدد الأجزاء: ١٣ (بالإضافة للمقدمة هدي الساري في جزء منفصل يكمّل ١٤)\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن حجر العسقلاني؛ النقول المسماة في كلامه لأصحابها",
+      "source_type_metadata_ar": "شرح ونقد وجمع منقول",
+      "source_page_sha256": "cd2c69a577e4094e4cb60f495d176e4d3785f199e433fcb2bf95604e78263d8e",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-1673-4072-HS-QUBA-TAQWA-START-1"
+      ]
+    },
+    {
+      "packet_id": "sp_quba_chapter_13",
+      "evidence_id": "H-1673-4072-HS-QUBA-TAQWA-START-1",
+      "scope_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 48,
+          "page_start": 4854,
+          "page_end": 4902,
+          "source_type_ar": "شرح ابن حجر: صدر قول البخاري قبل حد الصفحة",
+          "speaker_ar": "ابن حجر",
+          "text_ar": "قَوْلُهُ: (وَأُسِّسَ الْمَسْجِدُ الَّذِي أُسِّسَ",
+          "text_sha256": "5ebaf0ce22f42f1243d2648f6663dc49cb1ea09e577f0398aaa485d59f864eb7"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 48,
+      "selected_text_sha256": "5ebaf0ce22f42f1243d2648f6663dc49cb1ea09e577f0398aaa485d59f864eb7",
+      "source_excerpt_sha256": "5ebaf0ce22f42f1243d2648f6663dc49cb1ea09e577f0398aaa485d59f864eb7",
+      "book_id": 1673,
+      "page_id": 4072,
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/244](https://app.turath.io/book/1673?page=4072)",
+      "source_url": "https://app.turath.io/book/1673?page=4072",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "هذا كلام ابن حجر ونقوله، لا ترجيح للباحث؛ إعادة متن الحديث في الشرح ليست طريقا مستقلا",
+        "فصلت حدود الصفحة المطبوعة داخل الوحدة الرقمية؛ تتصل الأجزاء ولا يركب منها نقل واحد بلا بيان الحدود",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: فتح الباري بشرح البخاري\nالمؤلف: أحمد بن علي بن حجر العسقلاني (٧٧٣ - ٨٥٢ هـ)\nرقم كتبه وأبوابه وأحاديثه: محمد فؤاد عبد الباقي [ت ١٣٨٨ هـ]\nقام بإخراجه وتصحيح تجاربه: محب الدين الخطيب [ت ١٣٨٩ هـ]\nالناشر: المكتبة السلفية - مصر\nالطبعة: «السلفية الأولى»، ١٣٨٠ - ١٣٩٠ هـ\nثم صورتها: عدة دور مثل دار المعرفة، وغيرها\nعدد الأجزاء: ١٣ (بالإضافة للمقدمة هدي الساري في جزء منفصل يكمّل ١٤)\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "ابن حجر العسقلاني؛ النقول المسماة في كلامه لأصحابها",
+      "source_type_metadata_ar": "شرح ونقد وجمع منقول",
+      "source_page_sha256": "14462cd02af073e5a35b44fc7724337ff7ab5fb2d7a71298682499f8fd54cf43",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-1673-4073-HS-QUBA-TAQWA-1"
+      ]
+    }
+  ],
+  "packet_id": "hch_quba:ar:r1",
+  "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
+  "source_document_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+  "question_type": "single_choice",
+  "review": {
+    "arabic_compared": true,
+    "summary_ar": "مقارنة داخلية بالذكاء الاصطناعي لجميع فقرات الفصل وأسئلته وأهدافه وأجزائه المصدرية مع الانتقاءات الأرشيفية المحددة في سجل مقارنة Core، ثم فحص تصحيحات الإسناد والأصوات والاقتباس والأدلة. الجلسة: f1f15ddd-82e1-4c5f-bbd1-30dec7d9c0a7. راجع النموذج الرئيسي التصحيحات الموضعية؛ ولا تعني البصمة قراءة الكتب كاملة أو اعتمادًا لغويًا أو علميًا مستقلًا أو إذن نشر.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  },
+  "last_accepted": {
+    "revision": 1,
+    "source_document_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e"
+  },
+  "source_units": [
+    {
+      "unit_id": "sp_quba_chapter_01:p1",
+      "packet_id": "sp_quba_chapter_01",
+      "part_id": "p1",
+      "evidence_id": "H-1681-5900-QUBA",
+      "text_ar": "يَغْدُونَ كُلَّ غَدَاةٍ إِلَى الْحَرَّةِ، فَيَنْتَظِرُونَهُ حَتَّى يَرُدَّهُمْ حَرُّ الظَّهِيرَةِ، فَانْقَلَبُوا يَوْمًا بَعْدَمَا أَطَالُوا انْتِظَارَهُمْ، فَلَمَّا أَوَوْا إِلَى بُيُوتِهِمْ، أَوْفَى رَجُلٌ مِنْ يَهُودَ عَلَى أُطُمٍ مِنْ آطَامِهِمْ، لِأَمْرٍ يَنْظُرُ إِلَيْهِ، فَبَصُرَ بِرَسُولِ اللهِ ﷺ وَأَصْحَابِهِ مُبَيَّضِينَ يَزُولُ بِهِمُ السَّرَابُ، فَلَمْ يَمْلِكِ الْيَهُودِيُّ أَنْ قَالَ بِأَعْلَى صَوْتِهِ: يَا مَعَاشِرَ الْعَرَبِ، هَذَا جَدُّكُمُ الَّذِي تَنْتَظِرُونَ، فَثَارَ الْمُسْلِمُونَ إِلَى السِّلَاحِ، فَتَلَقَّوْا رَسُولَ اللهِ ﷺ بِظَهْرِ الْحَرَّةِ، فَعَدَلَ بِهِمْ ذَاتَ الْيَمِينِ، حَتَّى نَزَلَ بِهِمْ فِي بَنِي عَمْرِو بْنِ عَوْفٍ، وَذَلِكَ يَوْمَ الاِثْنَيْنِ مِنْ شَهْرِ رَبِيعٍ الْأَوَّلِ، فَقَامَ أَبُو بَكْرٍ لِلنَّاسِ، وَجَلَسَ رَسُولُ اللهِ ﷺ صَامِتًا، فَطَفِقَ مَنْ جَاءَ مِنَ الْأَنْصَارِ مِمَّنْ لَمْ يَرَ رَسُولَ اللهِ ﷺ يُحَيِّي أَبَا بَكْرٍ، حَتَّى أَصَابَتِ الشَّمْسُ رَسُولَ اللهِ ﷺ، فَأَقْبَلَ أَبُو بَكْرٍ حَتَّى ظَلَّلَ عَلَيْهِ بِرِدَائِهِ، فَعَرَفَ النَّاسُ رَسُولَ اللهِ ﷺ عِنْدَ ذَلِكَ، فَلَبِثَ رَسُولُ اللهِ ﷺ فِي بَنِي عَمْرِو بْنِ عَوْفٍ بِضْعَ عَشْرَةَ لَيْلَةً، وَأُسِّسَ الْمَسْجِدُ الَّذِي أُسِّسَ عَلَى التَّقْوَى، وَصَلَّى فِيهِ رَسُولُ اللهِ ﷺ، ثُمَّ رَكِبَ رَاحِلَتَهُ، فَسَارَ يَمْشِي مَعَهُ النَّاسُ حَتَّى بَرَكَتْ عِنْدَ مَسْجِدِ الرَّسُولِ ﷺ بِالْمَدِينَةِ، وَهْوَ يُصَلِّي فِيهِ يَوْمَئِذٍ رِجَالٌ مِنَ الْمُسْلِمِينَ، وَكَانَ مِرْبَدًا لِلتَّمْرِ، لِسُهَيْلٍ وَسَهْلٍ غُلَامَيْنِ يَتِيمَيْنِ فِي حَجْرِ أَسْعَدَ بْنِ زُرَارَةَ، ",
+      "source_start": 0,
+      "source_end": 1499,
+      "source_text_sha256": "301616d8071df9709e4f4af0e59911cb350deb36afee25f81083950c62b3b261",
+      "kind_ar": "خبر عروة: الانتظار والوصول",
+      "speaker_ar": "عروة بن الزبير",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/61](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p2",
+      "packet_id": "sp_quba_chapter_01",
+      "part_id": "p2",
+      "evidence_id": "H-1681-5900-QUBA",
+      "text_ar": "فَقَالَ رَسُولُ اللهِ ﷺ: حِينَ بَرَكَتْ بِهِ رَاحِلَتُهُ ",
+      "source_start": 1499,
+      "source_end": 1556,
+      "source_text_sha256": "9f2407f2f7b2ffaa5926e878aff13272320d1bbb13acc0f6f86d3715aecdd7da",
+      "kind_ar": "تمهيد القول النبوي في خبر عروة",
+      "speaker_ar": "عروة بن الزبير",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/61](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p3",
+      "packet_id": "sp_quba_chapter_01",
+      "part_id": "p3",
+      "evidence_id": "H-1681-5900-QUBA",
+      "text_ar": "هَذَا إِنْ شَاءَ اللهُ الْمَنْزِلُ ",
+      "source_start": 1556,
+      "source_end": 1591,
+      "source_text_sha256": "3d50e2548eab6e42d58e1688a2b0cbace8561644efbd4709f4a99e7df49f002f",
+      "kind_ar": "قول النبي ﷺ في خبر عروة",
+      "speaker_ar": "النبي ﷺ كما ينقله عروة",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/61](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p4",
+      "packet_id": "sp_quba_chapter_01",
+      "part_id": "p4",
+      "evidence_id": "H-1681-5900-QUBA",
+      "text_ar": "ثُمَّ دَعَا رَسُولُ اللهِ ﷺ الْغُلَامَيْنِ فَسَاوَمَهُمَا بِالْمِرْبَدِ لِيَتَّخِذَهُ مَسْجِدًا، فَقَالَا: لَا، بَلْ نَهَبُهُ لَكَ يَا رَسُولَ اللهِ، ثُمَّ بَنَاهُ مَسْجِدًا، وَطَفِقَ رَسُولُ اللهِ ﷺ يَنْقُلُ مَعَهُمُ اللَّبِنَ فِي بُنْيَانِهِ وَيَقُولُ، وَهُوَ يَنْقُلُ اللَّبِنَ:",
+      "source_start": 1591,
+      "source_end": 1872,
+      "source_text_sha256": "1584ee51e351b3787cd9b9b2edbac411974b4207c2c76d4e759507bc63236bd3",
+      "kind_ar": "خبر عروة: موضع المسجد بالمدينة",
+      "speaker_ar": "عروة بن الزبير",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/61](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p1",
+      "packet_id": "sp_quba_chapter_02",
+      "part_id": "p1",
+      "evidence_id": "H-1681-5900-URWA",
+      "text_ar": "قَالَ ابْنُ شِهَابٍ: فَأَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ: ",
+      "source_start": 0,
+      "source_end": 62,
+      "source_text_sha256": "7d5541c17e6afc4ecd899476653a40d336534e4ed1777c43e9ab36f80f694e72",
+      "kind_ar": "سند النقل",
+      "speaker_ar": "ابن شهاب",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p2",
+      "packet_id": "sp_quba_chapter_02",
+      "part_id": "p2",
+      "evidence_id": "H-1681-5900-URWA",
+      "text_ar": "أَنَّ رَسُولَ اللهِ ﷺ لَقِيَ الزُّبَيْرَ فِي رَكْبٍ مِنَ الْمُسْلِمِينَ، كَانُوا تِجَارًا قَافِلِينَ مِنَ الشَّأْمِ، فَكَسَا الزُّبَيْرُ رَسُولَ اللهِ ﷺ وَأَبَا بَكْرٍ ثِيَابَ بَيَاضٍ، وَسَمِعَ الْمُسْلِمُونَ بِالْمَدِينَةِ مَخْرَجَ رَسُولِ اللهِ ﷺ مِنْ مَكَّةَ، فَكَانُوا",
+      "source_start": 62,
+      "source_end": 334,
+      "source_text_sha256": "a89133106d2c5073eebdb0d31c05f6f068b9af8ec6cad3b3bc6e9af91368730d",
+      "kind_ar": "خبر عروة",
+      "speaker_ar": "عروة بن الزبير",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p1",
+      "packet_id": "sp_quba_chapter_03",
+      "part_id": "p1",
+      "evidence_id": "H-23833-515-819",
+      "text_ar": "قَالَ ابْنُ إسْحَاقَ: فَحَدَّثَنِي مُحَمَّدُ بْنُ جَعْفَرِ بْنِ الزُّبَيْرِ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عُوَيْمِرِ بْنِ سَاعِدَةَ، قَالَ: حَدَّثَنِي رِجَالٌ مِنْ قَوْمِي مِنْ أَصْحَابِ رَسُولِ اللَّهِ ﷺ، قَالُوا: ",
+      "source_start": 0,
+      "source_end": 247,
+      "source_text_sha256": "1ec70a51d03f8032f13d9fbe238d462c568d9cc482868a968f02e459a1e20456",
+      "kind_ar": "سند ابن إسحاق",
+      "speaker_ar": "ابن إسحاق",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/492](https://app.turath.io/book/23833?page=515)",
+      "source_url": "https://app.turath.io/book/23833?page=515",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p2",
+      "packet_id": "sp_quba_chapter_03",
+      "part_id": "p2",
+      "evidence_id": "H-23833-515-819",
+      "text_ar": "لَمَّا سَمِعْنَا بِمَخْرَجِ رَسُولِ اللَّهِ ﷺ مِنْ مَكَّةَ، وَتَوَكَّفْنَا [١] قُدُومَهُ، كُنَّا نَخْرُجُ إذَا صَلَّيْنَا الصُّبْحَ، إلَى ظَاهِرِ حَرَّتِنَا نَنْتَظِرُ رَسُول الله ﷺ، فو اللَّهِ مَا نَبْرَحُ حَتَّى تَغْلِبَنَا الشَّمْسُ عَلَى الظِّلَالِ فَإِذَا لَمْ نَجِدْ ظِلًّا دَخَلْنَا، وَذَلِكَ فِي أَيَّامٍ حَارَّةٍ. حَتَّى إذَا كَانَ الْيَوْمُ الَّذِي قَدِمَ فِيهِ رَسُولُ اللَّهِ ﷺ، جَلَسْنَا كَمَا كُنَّا نَجْلِسُ، حَتَّى إذَا لَمْ يَبْقَ ظِلٌّ دَخَلْنَا بُيُوتَنَا، وَقَدِمَ رَسُولُ اللَّهِ ﷺ حَيْنَ دَخَلْنَا الْبُيُوتَ، فَكَانَ أَوَّلُ مَنْ رَآهُ رَجُلٌ مِنْ الْيَهُودِ، وَقَدْ رَأَى مَا كُنَّا نَصْنَعُ، وَأَنَّا نَنْتَظِرُ قُدُومَ رَسُولِ اللَّهِ ﷺ عَلَيْنَا، فَصَرَخَ بِأَعْلَى صَوْتِهِ: يَا بَنِي قَيْلَةَ [٢]، هَذَا جَدُّكُمْ قَدْ جَاءَ. قَالَ:\nفَخَرَجْنَا إلَى رَسُولِ اللَّهِ ﷺ، وَهُوَ فِي ظِلِّ نَخْلَةٍ، وَمَعَهُ أَبُو بَكْرٍ ﵁ فِي مِثْلِ سِنِّهِ، وَأَكْثَرُنَا لَمْ يَكُنْ رَأَى رَسُولَ اللَّهِ ﷺ قَبْلَ ذَلِكَ، وَرَكِبَهُ النَّاسُ [٣] وَمَا يَعْرِفُونَهُ مِنْ أَبِي بَكْرٍ، حَتَّى زَالَ الظِّلُّ عَنْ رَسُولِ اللَّهِ ﷺ، فَقَامَ أَبُو بَكْرٍ فَأَظَلَّهُ بِرِدَائِهِ، فَعَرَفْنَاهُ عِنْدَ ذَلِكَ [٤] .",
+      "source_start": 247,
+      "source_end": 1369,
+      "source_text_sha256": "dd11d2fe254b306e7e166629524f38762fd2db4000710203941c5080f9a6ef6d",
+      "kind_ar": "خبر استقبال منقول",
+      "speaker_ar": "رجال من أصحاب النبي ﷺ",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/492](https://app.turath.io/book/23833?page=515)",
+      "source_url": "https://app.turath.io/book/23833?page=515",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_04:p1",
+      "packet_id": "sp_quba_chapter_04",
+      "part_id": "p1",
+      "evidence_id": "H-23833-516-820",
+      "text_ar": "قَالَ ابْنُ إسْحَاقَ: فَنَزَلَ رَسُولُ اللَّهِ ﷺ- فِيمَا يَذْكُرُونَ- عَلَى كُلْثُومِ [١] بْنِ هِدْمٍ، أَخِي بَنِي عَمْرِو بْنِ عَوْفٍ، ثُمَّ أَحَدِ بَنِي عُبَيْدٍ: وَيُقَالُ: بَلْ نَزَلَ عَلَى سَعْدِ بْنِ خَيْثمةَ. وَيَقُولُ مَنْ يَذْكُرُ أَنَّهُ نَزَلَ عَلَى كُلْثُومِ بْنِ هِدْمٍ: إنَّمَا كَانَ رَسُولُ اللَّهِ ﷺ إذَا خَرَجَ مِنْ مَنْزِلِ كُلْثُومِ بْنِ هِدْمٍ جَلَسَ لِلنَّاسِ فِي بَيْتِ سَعْدِ بْنِ خَيْثمةَ. وَذَلِكَ أَنَّهُ كَانَ عَزَبًا لَا أَهْلَ لَهُ، وَكَانَ مَنْزِلُ الْأَعْزَابِ [٢] مِنْ أَصْحَابِ رَسُولِ اللَّهِ ﷺ مِنْ الْمُهَاجِرِينَ، فَمِنْ هُنَالِكَ يُقَالُ: نَزَلَ عَلَى سَعْدِ بْنِ خَيْثمةَ، وَكَانَ يُقَالُ لِبَيْتِ سَعْدِ بْنِ خَيْثمةَ: بَيْتُ الْأَعْزَابِ. فاللَّه أَعْلَمُ أَيُّ ذَلِكَ كَانَ، كُلًّا قَدْ سَمِعْنَا.",
+      "source_start": 0,
+      "source_end": 739,
+      "source_text_sha256": "7215ff488d9ea68d4b6abaa1159643f4dc027c7a5f7a49f7740e95cd4300b0f9",
+      "kind_ar": "خبر ابن إسحاق: اختلاف المنزل",
+      "speaker_ar": "ابن إسحاق",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/493](https://app.turath.io/book/23833?page=516)",
+      "source_url": "https://app.turath.io/book/23833?page=516",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_05:p1",
+      "packet_id": "sp_quba_chapter_05",
+      "part_id": "p1",
+      "evidence_id": "H-23833-516-821",
+      "text_ar": "وَنَزَلَ أَبُو بَكْرٍ الصِّدِّيقُ ﵁ عَلَى خُبَيْبِ بْنِ إِسَافٍ، أَحَدِ بَنِي الْحَارِثِ الْخَزْرَجَ بِالسُّنْحِ. وَيَقُولُ قَائِلٌ: كَانَ مَنْزِلُهُ عَلَى خَارِجَةَ بْنِ زَيْدِ بْنِ أَبِي زُهَيْرٍ، أَخِي بَنِي الْحَارِثِ بْنِ الْخَزْرَجِ.",
+      "source_start": 0,
+      "source_end": 239,
+      "source_text_sha256": "087e1424b2862c79ec53ff4b09f07e4a29a6f8eadc2e4410be3b57fc3df61ad7",
+      "kind_ar": "خبر ابن إسحاق: منزل أبي بكر",
+      "speaker_ar": "ابن إسحاق",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/493](https://app.turath.io/book/23833?page=516)",
+      "source_url": "https://app.turath.io/book/23833?page=516",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_06:p1",
+      "packet_id": "sp_quba_chapter_06",
+      "part_id": "p1",
+      "evidence_id": "H-23833-517-824",
+      "text_ar": "قَالَ ابْنُ إسْحَاقَ: فَأَقَامَ رَسُولُ اللَّهِ ﷺ بقُباءٍ، فِي بَنِي عَمْرِو بْنِ عَوْفٍ، يَوْمَ الِاثْنَيْنِ وَيَوْمَ الثُّلَاثَاءِ وَيَوْمَ الْأَرْبِعَاءِ وَيَوْمَ الْخَمِيسِ، وَأَسَّسَ مَسْجِدَهُ [٢]",
+      "source_start": 0,
+      "source_end": 202,
+      "source_text_sha256": "aea76b51164abe92395b4c75f84f5e9afee678f887305352b974d99f8650767c",
+      "kind_ar": "خبر ابن إسحاق: الأيام والمسجد",
+      "speaker_ar": "ابن إسحاق",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/494](https://app.turath.io/book/23833?page=517)",
+      "source_url": "https://app.turath.io/book/23833?page=517",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_07:p1",
+      "packet_id": "sp_quba_chapter_07",
+      "part_id": "p1",
+      "evidence_id": "H-23833-517-825",
+      "text_ar": "ثُمَّ أَخْرَجَهُ اللَّهُ مِنْ بَيْنِ أَظْهُرِهِمْ يَوْمَ الْجُمُعَةِ. وَبَنُو عَمْرِو بْنِ عَوْفٍ يُزْعِمُونَ أَنَّهُ مَكَثَ فِيهِمْ أَكْثَرَ مِنْ ذَلِكَ، فاللَّه أَعْلَمُ أَيُّ ذَلِكَ كَانَ. فَأَدْرَكَتْ رَسُولَ اللَّهِ ﷺ الْجُمُعَةُ فِي بَنِي سَالِمِ بْنِ عَوْفٍ، فَصَلَّاهَا فِي الْمَسْجِدِ الَّذِي فِي بَطْنِ الْوَادِي، وَادِي رَانُونَاءَ [٣]، فَكَانَتْ أَوَّلَ جُمُعَةٍ صَلَّاهَا بِالْمَدِينَةِ.",
+      "source_start": 0,
+      "source_end": 400,
+      "source_text_sha256": "cfed9dd70c999dcd764d3d550e99f8b9dacb44dd291f0028b2af8e234a7119c1",
+      "kind_ar": "خبر ابن إسحاق: الخروج والجمعة",
+      "speaker_ar": "ابن إسحاق",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/494](https://app.turath.io/book/23833?page=517)",
+      "source_url": "https://app.turath.io/book/23833?page=517",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_08:p1",
+      "packet_id": "sp_quba_chapter_08",
+      "part_id": "p1",
+      "evidence_id": "H-1673-4072-DATES",
+      "text_ar": "قَوْلُهُ: (وَذَلِكَ يَوْمَ الِاثْنَيْنِ مِنْ شَهْرِ رَبِيعٍ الْأَوَّلِ) وَهَذَا هُوَ الْمُعْتَمَدُ وَشَذَّ مَنْ قَالَ: يَوْمَ الْجُمُعَةِ، فِي رِوَايَةِ مُوسَى بْنِ عُقْبَةَ، عَنِ ابْنِ شِهَابٍ قَدِمَهَا لِهِلَالِ رَبِيعٍ الْأَوَّلِ أَيْ أَوَّلَ يَوْمٍ مِنْهُ، وَفِي رِوَايَةِ جَرِيرِ بْنِ حَازِمٍ، عَنِ ابْنِ إِسْحَاقَ قَدِمَهَا لِلَيْلَتَيْنِ خَلَتَا مِنْ شَهْرِ رَبِيعٍ الْأَوَّلِ وَنَحْوَهُ عِنْدَ أَبِي مَعْشَرٍ، لَكِنْ قَالَ: لَيْلَةَ الِاثْنَيْنِ، وَمِثْلُهُ عَنِ ابْنِ الْبَرْقِيِّ، وَثَبَتَ كَذَلِكَ فِي أَوَاخِرِ صَحِيحِ مُسْلِمٍ، وَفِي رِوَايَةِ إِبْرَاهِيمَ بْنِ سَعْدٍ، عَنِ ابْنِ إِسْحَاقَ قَدِمَهَا لِاثْنَتَيْ عَشْرَةَ لَيْلَةً خَلَتْ مِنْ رَبِيعٍ الْأَوَّلِ، وَعِنْدَ أَبِي سَعِيدٍ فِي شَرَفِ الْمُصْطَفَى مِنْ طَرِيقِ أَبِي بَكْرِ بْنِ حَزْمٍ قَدِمَ لِثَلَاثَ عَشْرَةَ مِنْ رَبِيعٍ الْأَوَّلِ.\nوَهَذَا يُجْمَعُ بَيْنَهُ وَبَيْنَ الَّذِي قَبْلَهُ بِالْحَمْلِ عَلَى الِاخْتِلَافِ فِي رُؤْيَةِ الْهِلَالِ، وَعِنْدَهُ مِنْ حَدِيثِ عُمَرَ ثُمَّ نَزَلَ عَلَى بَنِي عَمْرِو بْنِ عَوْفٍ يَوْمَ الِاثْنَيْنِ لِلَيْلَتَيْنِ بَقِيَتَا مِنْ رَبِيعٍ الْأَوَّلِ كَذَا فِيهِ، وَلَعَلَّهُ كَانَ فِيهِ خَلَتَا لِيُوَافِقَ رِوَايَةَ جَرِيرٍ، وَابْنِ حَازِمٍ، وَعِنْدَ الزُّبَيْرِ فِي خَبَرِ الْمَدِينَةِ عَنِ ابْنِ شِهَابٍ فِي نِصْفِ رَبِيعٍ الْأَوَّلِ وَقِيلَ: كَانَ قُدُومُهُ فِي سَابِعِهِ، وَجَزَمَ ابْنُ حَزْمٍ بِأَنَّهُ خَرَجَ مِنْ مَكَّةَ لِثَلَاثِ لَيَالٍ بَقِينَ مِنْ صَفَرٍ، وَهَذَا يُوَافِقُ قَوْلَ هِشَامِ بْنِ الْكَلْبِيِّ إِنَّهُ خَرَجَ مِنَ الْغَارِ لَيْلَةَ الِاثْنَيْنِ أَوَّلَ يَوْمٍ مِنْ رَبِيعٍ الْأَوَّلِ، فَإِنْ كَانَ مَحْفُوظًا فَلَعَلَّ قُدُومَهُ قُبَاءَ كَانَ يَوْمَ الِاثْنَيْنِ ثَامِنَ رَبِيعٍ الْأَوَّلِ، وَإِذَا ضُمَّ إِلَى قَوْلِ أَنَسٍ إِنَّهُ أَقَامَ بِقُبَاءَ أَرْبَعَ عَشْرَةَ لَيْلَةً خَرَجَ مِنْهُ أَنَّ دُخُولَهُ الْمَدِينَةَ كَانَ لِاثْنَيْنِ وَعِشْرِينَ مِنْهُ، لَكِنِ الْكَلْبِيُّ جَزَمَ بِأَنَّهُ دَخَلَهَا لِاثْنَتَيْ عَشْرَةَ خَلَتْ مِنْهُ، فَعَلَى قَوْلِهِ تَكُونُ إِقَامَتُهُ بِقُبَاءَ أَرْبَعَ لَيَالٍ فَقَطْ، وَبِهِ جَزَمَ ابْنُ حِبَّانَ، فَإِنَّهُ قَالَ: أَقَامَ بِهَا الثُّلَاثَاءَ وَالْأَرْبِعَاءَ وَالْخَمِيسَ يَعْنِي وَخَرَجَ يَوْمَ الْجُمُعَةِ، فَكَأَنَّهُ لَمْ يَعْتَدَّ بِيَوْمِ الْخُرُوجِ، وَكَذَا قَالَ مُوسَى بْنُ عُقْبَةَ: إِنَّهُ أَقَامَ فِيهِمْ ثَلَاثَ لَيَالٍ، فَكَأَنَّهُ لَمْ يَعْتَدَّ بِيَوْمِ الْخُرُوجِ وَلَا الدُّخُولِ، وَعَنْ قَوْمٍ مِنْ بَنِي عَمْرِو بْنِ عَوْفٍ أَنَّهُ أَقَامَ فِيهِمُ اثْنَيْنِ وَعِشْرِينَ يَوْمًا، حَكَاهُ الزُّبَيْرُ بْنُ بَكَّارٍ، وَفِي مُرْسَلِ عُرْوَةَ بْنِ الزُّبَيْرِ مَا يَقْرُبُ مِنْهُ كَمَا يُذْكَرُ عَقِبَ هَذَا، وَالْأَكْثَرُ أَنَّهُ قَدِمَ نَهَارًا، وَوَقَعَ فِي رِوَايَةِ مُسْلِمٍ لَيْلًا، وَيُجْمَعُ بِأَنَّ\nالْقُدُومَ كَانَ آخِرَ اللَّيْلِ فَدَخَلَ نَهَارًا.",
+      "source_start": 0,
+      "source_end": 2662,
+      "source_text_sha256": "88f97eb71845ccf3c647c83755feff2dae0a20895fa36f08becebbefaafe0193",
+      "kind_ar": "شرح ومقارنة تواريخ الوصول",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/244](https://app.turath.io/book/1673?page=4072)",
+      "source_url": "https://app.turath.io/book/1673?page=4072",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_09:p1",
+      "packet_id": "sp_quba_chapter_09",
+      "part_id": "p1",
+      "evidence_id": "H-1673-4072-STAY",
+      "text_ar": "قَوْلُهُ: (فَلَبِثَ رَسُولُ اللَّهِ ﷺ فِي بَنِي عَمْرِو بْنِ عَوْفٍ بِضْعَ عَشْرَةَ لَيْلَةً) فِي حَدِيثِ أَنَسٍ الْآتِي فِي الْبَابِ الَّذِي يَلِيهِ أَنَّهُ أَقَامَ فِيهِمْ أَرْبَعَ عَشْرَةَ لَيْلَةً، وَقَدْ ذَكَرْتُ قَبْلَهُ مَا يُخَالِفُهُ، وَاللَّهُ أَعْلَمُ. قَالَ مُوسَى بْنُ عُقْبَةَ، عَنِ ابْنِ شِهَابٍ: أَقَامَ فِيهِمْ ثَلَاثًا. قَالَ: وَرَوَى ابْنُ شِهَابٍ، عَنْ مَجْمَعِ بْنِ حَارِثَةَ أَنَّهُ أَقَامَ اثْنَتيْنِ وَعِشْرِينَ لَيْلَةً. وَقَالَ ابْنُ إِسْحَاقَ: أَقَامَ فِيهِمْ خَمْسًا، وَبَنُو عَمْرِو بْنِ عَوْفٍ يَزْعُمُونَ أَكْثَرَ مِنْ ذَلِكَ. قُلْتُ: لَيْسَ أَنَسٌ مِنْ بَنِي عَمْرِو بْنِ عَوْفٍ، فَإِنَّهُمْ مِنَ الْأَوْسِ وَأَنَسٌ مِنَ الْخَزْرَجِ، وَقَدْ جَزَمَ بِمَا ذَكَرْتُهُ فَهُوَ أَوْلَى بِالْقَبُولِ مِنْ غَيْرِهِ.",
+      "source_start": 0,
+      "source_end": 739,
+      "source_text_sha256": "30befc6cf4c6790b415d9b482409f334c23cb693096c6a135ab0d9a93f5b5497",
+      "kind_ar": "شرح ومقارنة مدد الإقامة",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/244](https://app.turath.io/book/1673?page=4072)",
+      "source_url": "https://app.turath.io/book/1673?page=4072",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p1",
+      "packet_id": "sp_quba_chapter_10",
+      "part_id": "p1",
+      "evidence_id": "H-7478-1060-RA-MOSQUE-ANAS",
+      "text_ar": "أَخْبَرَنَا أَبُو عَبْدِ اللَّه الْحَافِظُ، قَالَ: حَدَّثَنَا أَبُو عَبْدِ اللَّه: مُحَمَّدُ بْنُ يَعْقُوبَ، قَالَ: حَدَّثَنَا يَحْيَى بْنُ مُحَمَّدِ بْنِ يَحْيَى، قَالَ: حَدَّثَنَا مُسَدَّدٌ، قَالَ: حَدَّثَنَا عَبْدُ الْوَارِثِ.\n(ح) وأَخْبَرَنَا أَبُو عَبْدِ اللَّه، قَالَ: حَدَّثَنَا أَبُو بَكْرِ بْنُ إِسْحَاقَ الْفَقِيهُ، قَالَ:\nأَخْبَرَنَا إِسْمَاعِيلُ بْنُ قُتَيْبَةَ، قَالَ: حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ: أَخْبَرَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ، قَالَ: حَدَّثَنَا أَبُو التَّيَّاحِ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ: ",
+      "source_start": 0,
+      "source_end": 536,
+      "source_text_sha256": "a8fd8dae35193e56c4116dab494c875c0973c94bfa037545de0df350cabef537",
+      "kind_ar": "سند بطريقين مع تحويل",
+      "speaker_ar": "البيهقي عن شيوخه",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/539](https://app.turath.io/book/7478?page=1060)",
+      "source_url": "https://app.turath.io/book/7478?page=1060",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p2",
+      "packet_id": "sp_quba_chapter_10",
+      "part_id": "p2",
+      "evidence_id": "H-7478-1060-RA-MOSQUE-ANAS",
+      "text_ar": "«لَمَّا قَدِمَ رَسُولُ اللَّه ﵌ الْمَدِينَةَ نَزَلَ فِي عُلُوِّ الْمَدِينَةِ فِي حَيٍّ يُقَالُ لَهُمْ: بَنُو عَمْرِو بْنِ عَوْفٍ، فَأَقَامَ فِيهِمْ أَرْبَعَ عَشْرَةَ لَيْلَةً، ثُمَّ أَرْسَلَ إِلَى مَلَأِ بَنِي النَّجَّارِ، فَجَاءُوا مُتَقَلِّدِي سُيُوفِهِمْ، قَالَ أَنَسٌ: فَكَأَنِّي أَنْظُرُ إِلَى رَسُولِ اللَّه ﵌ عَلَى رَاحِلَتِهِ وَأَبُو بَكْرٍ رِدْفُهُ، وَمَلَأُ بَنِي النَّجَّارِ حَوْلَهُ حَتَّى أَلْقَى بِفِنَاءِ أَبِي أَيُّوبَ، وَكَانَ رَسُولُ اللَّه ﵌ يُصَلِّي حَيْثُ أَدْرَكَتْهُ الصَّلَاةُ، وَيُصَلِّي فِي مَرَابِضِ الْغَنَمِ، ثُمَّ إِنَّهُ أَمَرَ بِالْمَسْجِدِ فَأَرْسَلَ إِلَى مَلَأِ بَنِي النَّجَّارِ فَجَاءُوا، فَقَالَ: ",
+      "source_start": 536,
+      "source_end": 1171,
+      "source_text_sha256": "6ed9756e732b59a14955195b7bccc0bbc3668d9da8dd073eadb29dad626c6a22",
+      "kind_ar": "خبر أنس: الإقامة والانتقال",
+      "speaker_ar": "أنس بن مالك",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/539](https://app.turath.io/book/7478?page=1060)",
+      "source_url": "https://app.turath.io/book/7478?page=1060",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p3",
+      "packet_id": "sp_quba_chapter_10",
+      "part_id": "p3",
+      "evidence_id": "H-7478-1060-RA-MOSQUE-ANAS",
+      "text_ar": "يَا بَنِي النَّجَّارِ ثَامِنُونِي بِحَائِطِكُمْ هَذَا، ",
+      "source_start": 1171,
+      "source_end": 1226,
+      "source_text_sha256": "0d922495208e72a3b5f21a19e8a65027c4fe36edbcc684ab28de57011de2fbfd",
+      "kind_ar": "قول النبي ﷺ كما ينقله أنس",
+      "speaker_ar": "النبي ﷺ كما يرويه أنس",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/539](https://app.turath.io/book/7478?page=1060)",
+      "source_url": "https://app.turath.io/book/7478?page=1060",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4",
+      "packet_id": "sp_quba_chapter_10",
+      "part_id": "p4",
+      "evidence_id": "H-7478-1060-RA-MOSQUE-ANAS",
+      "text_ar": "قَالُوا: لَا، واللَّه لَا نَطْلُبُ ثَمَنَهُ إِلَّا إِلَى اللَّه، ",
+      "source_start": 1226,
+      "source_end": 1291,
+      "source_text_sha256": "67885d29d19c150a252a2577ceb312b48883943b0ed09dfa86582d2fe46bf5d7",
+      "kind_ar": "جواب بني النجار في رواية أنس",
+      "speaker_ar": "بنو النجار كما ينقل أنس",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/539](https://app.turath.io/book/7478?page=1060)",
+      "source_url": "https://app.turath.io/book/7478?page=1060",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4_cont",
+      "packet_id": "sp_quba_chapter_10",
+      "part_id": "p4_cont",
+      "evidence_id": "H-7478-1060-RA-MOSQUE-ANAS",
+      "text_ar": "قَالَ فَقَالَ أَنَسٌ: فَكَانَ فِيهِ مَا أَقُولُ لَكُمْ، كَانَ فِيهِ قُبُورُ الْمُشْرِكِينَ، وَكَانَ فِيهِ خِرَبٌ، وَكَانَ فِيهِ نخل فأمر رسول",
+      "source_start": 1291,
+      "source_end": 1432,
+      "source_text_sha256": "12d430d434d34dc6a6c9d6832b07210d8776b8b439a6907b5cf41cd8a2459284",
+      "kind_ar": "تتمة خبر أنس عن الموضع",
+      "speaker_ar": "أنس بن مالك",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/539](https://app.turath.io/book/7478?page=1060)",
+      "source_url": "https://app.turath.io/book/7478?page=1060",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_14:p1",
+      "packet_id": "sp_quba_chapter_14",
+      "part_id": "p1",
+      "evidence_id": "H-1673-1011-HS-FOURTEEN-VARIANT-1",
+      "text_ar": "وقَوْلُهُ فِيهِ فَأَقَامَ فِيهِمْ أَرْبَعًا وَعِشْرِينَ كَذَا لِلْمُسْتَمْلِي، وَالْحَمَوِيِّ، وَلِلْبَاقِينَ أَرْبَعَ عَشْرَةَ وَهُوَ الصَّوَابُ مِنْ هَذَا الْوَجْهِ، وَكَذَا رَوَاهُ أَبُو دَاوُدَ، عَنْ مُسَدَّدٍ شَيْخِ الْبُخَارِيِّ وَفِيهِ: وَقَدِ اخْتَلَفَ فِيهِ أَهْلُ السِّيَرِ كَمَا سَيَأْتِي.",
+      "source_start": 0,
+      "source_end": 300,
+      "source_text_sha256": "d13b0206b20dafe5666d17c3ccd3ed884ff32ca292a38ec301b7a45993aa4382",
+      "kind_ar": "شرح اختلاف اللفظ بين الرواة",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 1/525](https://app.turath.io/book/1673?page=1011)",
+      "source_url": "https://app.turath.io/book/1673?page=1011",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p1",
+      "packet_id": "sp_quba_chapter_11",
+      "part_id": "p1",
+      "evidence_id": "H-7478-1061-RA-MOSQUE-ANAS",
+      "text_ar": "اللَّه ﵌ بِقُبُورِ الْمُشْرِكِينَ فَنُبِشَتْ وبالخرب فسوّيت، بالنخل فَقُطِعَ، فَصَفُّوا النَّخْلَ قِبْلَةً لَهُ، وَجَعَلُوا عِضَادَتَيْهِ حِجَارَةً، وَجَعَلُوا يَنْقُلُونَ الصَّخْرَ وَهُمْ يَرْتَجِزُونَ وَرَسُولُ اللَّه ﵌ مَعَهُمْ وَيَقُولُونَ:\n",
+      "source_start": 0,
+      "source_end": 245,
+      "source_text_sha256": "168712d275ac4a008955e8dd4fb963d8de0b968216384f79fd4b8c8cbf089298",
+      "kind_ar": "تتمة خبر أنس في مسجد المدينة",
+      "speaker_ar": "أنس بن مالك",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/540](https://app.turath.io/book/7478?page=1061)",
+      "source_url": "https://app.turath.io/book/7478?page=1061",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p2",
+      "packet_id": "sp_quba_chapter_11",
+      "part_id": "p2",
+      "evidence_id": "H-7478-1061-RA-MOSQUE-ANAS",
+      "text_ar": "اللهُمَّ إِنَّهُ لَا خَيْرَ إِلَّا خَيْرَ الْآخِرَةْ ... فَانْصُرِ الْأَنْصَارَ وَالْمُهَاجِرَةْ",
+      "source_start": 245,
+      "source_end": 341,
+      "source_text_sha256": "8ebcbd88728b6ebec5b24c5e3e9028763019a019b3aa15f26f0fc28ea28d1cc2",
+      "kind_ar": "رجز البناء المنقول",
+      "speaker_ar": "القائلون في خبر أنس",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/540](https://app.turath.io/book/7478?page=1061)",
+      "source_url": "https://app.turath.io/book/7478?page=1061",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p1",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p1",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "عَلَى التَّقْوَى) أَيْ مَسْجِدُ قُبَاءَ، وَفِي رِوَايَةِ عَبْدِ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ قَالَ: الَّذِينَ بَنَى فِيهِمُ الْمَسْجِدَ الَّذِي أُسِّسَ عَلَى التَّقْوَى هُمْ بَنُو عَمْرِو بْنِ عَوْفٍ، وَكَذَا فِي حَدِيثِ ابْنِ عَبَّاسٍ عِنْدَ ابْنِ عَائِذٍ، وَلَفْظُهُ وَمَكَثَ فِي بَنِي عَمْرِو بْنِ عَوْفٍ ثَلَاثَ لَيَالٍ وَاتَّخَذَ مَكَانَهُ مَسْجِدًا فَكَانَ يُصَلِّي فِيهِ، ثُمَّ بَنَاهُ بَنُو عَمْرِو بْنِ عَوْفٍ فَهُوَ الَّذِي أُسِّسَ عَلَى التَّقْوَى. وَرَوَى يُونُسُ بْنُ بُكَيْرٍ فِي زِيَادَاتِ الْمَغَازِي عَنِ الْمَسْعُودِيِّ، عَنِ الْحَكَمِ بْنِ عُتَيْبَةَ قَالَ: لَمَّا قَدِمَ النَّبِيُّ ﷺ فَنَزَلَ بِقُبَاءَ قَالَ عَمَّارُ بْنُ يَاسِرٍ: مَا لِرَسُولِ اللَّهِ ﷺ بُدٌّ مِنْ أَنْ يَجْعَلَ لَهُ مَكَانًا يَسْتَظِلُّ بِهِ إِذَا اسْتَيْقَظَ وَيُصَلِّي فِيهِ، فَجَمَعَ حِجَارَةً فَبَنَى مَسْجِدَ قُبَاءَ، فَهُوَ أَوَّلُ مَسْجِدٍ بُنِيَ يَعْنِي بِالْمَدِينَةِ، وَهُوَ فِي التَّحْقِيقِ أَوَّلُ مَسْجِدٍ صَلَّى النَّبِيُّ ﷺ فِيهِ بِأَصْحَابِهِ جَمَاعَةً ظَاهِرًا، وَأَوَّلُ مَسْجِدٍ بُنِيَ لِجَمَاعَةِ الْمُسْلِمِينَ عَامَّةً، وَإِنْ كَانَ قَدْ تَقَدَّمَ بِنَاءُ غَيْرِهِ مِنَ الْمَسَاجِدِ لَكِنْ لِخُصُوصِ الَّذِي بَنَاهَا كَمَا تَقَدَّمَ فِي حَدِيثِ عَائِشَةَ فِي بِنَاءِ أَبِي بَكْرٍ مَسْجِدَهُ. وَرَوَى ابْنُ أَبِي شَيْبَةَ عَنْ جَابِرٍ قَالَ: لَقَدْ لَبِثْنَا بِالْمَدِينَةِ قَبْلَ أَنْ يَقْدَمَ عَلَيْنَا رَسُولُ اللَّهِ ﷺ بِسِنِينَ نَعْمُرُ الْمَسَاجِدَ وَنُقِيمُ الصَّلَاةَ.\nوَقَدِ اخْتُلِفَ فِي الْمُرَادِ بِقَوْلِهِ تَعَالَى: ",
+      "source_start": 0,
+      "source_end": 1474,
+      "source_text_sha256": "dd71868270cdb0475ae46419b3aa94b997ed55f5d339dc668ef2936fe04f1444",
+      "kind_ar": "شرح ونقل وتعليق",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p2",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p2",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "﴿لَمَسْجِدٌ أُسِّسَ عَلَى التَّقْوَى مِنْ أَوَّلِ يَوْمٍ﴾",
+      "source_start": 1474,
+      "source_end": 1531,
+      "source_text_sha256": "03545365f6bd3f3a999d0b4281cbbb3a5444a3eb7a36d8e51ebc597adf1b21fc",
+      "kind_ar": "آية قرآنية منقولة في الشرح",
+      "speaker_ar": "النص القرآني المنقول",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p3",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p3",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": " فَالْجُمْهُورُ عَلَى أَنَّ الْمُرَادَ بِهِ مَسْجِدُ قُبَاءَ، هَذَا وهُوَ ظَاهِرُ الْآيَةِ، وَرَوَى مُسْلِمٌ مِنْ طَرِيقِ عَبْدِ الرَّحْمَنِ بْنِ أَبِي سَعِيدٍ عَنْ أَبِيهِ سَأَلْتُ رَسُولَ اللَّهِ ﷺ عَنِ الْمَسْجِدِ الَّذِي أُسِّسَ عَلَى التَّقْوَى فَقَالَ: ",
+      "source_start": 1531,
+      "source_end": 1790,
+      "source_text_sha256": "009667d7d99b33d44e57ec24c95daf8106913ba8518e22c58d620ac37c69b316",
+      "kind_ar": "شرح ونقل وتعليق",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p4",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p4",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "هُوَ مَسْجِدُكُمْ هَذَا",
+      "source_start": 1790,
+      "source_end": 1813,
+      "source_text_sha256": "529978e6e18ec20bb9224ffdb11e3bd42efdb3892d88c6c7a918fcfe24f9c4ad",
+      "kind_ar": "جواب النبي ﷺ كما ينقله ابن حجر",
+      "speaker_ar": "النبي ﷺ في نقل ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p5",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p5",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "، وَلِأَحْمَدَ، وَالتِّرْمِذِيِّ مِنْ وَجْهٍ آخَرَ عَنْ أَبِي سَعِيدٍ اخْتَلَفَ رَجُلَانِ فِي الْمَسْجِدِ الَّذِي أُسِّسَ عَلَى التَّقْوَى، فَقَالَ أَحَدُهُمَا: هُوَ مَسْجِدُ النَّبِيِّ ﷺ. وَقَالَ الْآخَرُ: هُوَ مَسْجِدُ قُبَاءَ، فَأَتَيَا رَسُولَ اللَّهِ ﷺ فَسَأَلَاهُ عَنْ ذَلِكَ فَقَالَ: ",
+      "source_start": 1813,
+      "source_end": 2104,
+      "source_text_sha256": "3dd67700de203b43c9dd307e0aedf48b5d7159d594f3f5cb09dff5a201d359cb",
+      "kind_ar": "شرح ونقل وتعليق",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p6",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p6",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "هُوَ هَذَا، وَفِي ذَلِكَ",
+      "source_start": 2104,
+      "source_end": 2128,
+      "source_text_sha256": "04c4576cb024f28b88e77264de0a7f8ff441a9ea0568b26220e5f1e0b4fd8997",
+      "kind_ar": "جواب النبي ﷺ كما ينقله ابن حجر",
+      "speaker_ar": "النبي ﷺ في نقل ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p7",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p7",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": " - يَعْنِي مَسْجِدَ قُبَاءٍ - ",
+      "source_start": 2128,
+      "source_end": 2158,
+      "source_text_sha256": "d8aaa2be90f18b145089e6b71c75485f2b196502222c2e365ce5d1f9b69b4b1c",
+      "kind_ar": "تفسير مدرج في نقل الحديث",
+      "speaker_ar": "تفسير الناقل",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p8",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p8",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "خَيْرٌ كَثِيرٌ",
+      "source_start": 2158,
+      "source_end": 2172,
+      "source_text_sha256": "3a1664cefa7599afe74d3fe086c5fcb1c1cd983d8b152da34056f3990bfc4857",
+      "kind_ar": "جواب النبي ﷺ كما ينقله ابن حجر",
+      "speaker_ar": "النبي ﷺ في نقل ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p9",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": ". وَلِأَحْمَدَ، عَنْ سَهْلِ بْنِ سَعْدٍ نَحْوَهُ، وَأَخْرَجَهُ مِنْ وَجْهٍ آخَرَ عَنْ سَهْلِ بْنِ سَعْدٍ، عَنْ أُبَيِّ بْنِ كَعْبٍ مَرْفُوعًا. ",
+      "source_start": 2172,
+      "source_end": 2315,
+      "source_text_sha256": "6433d4fedf0805ea921d39c5e8334a84551bc7b0a2cfc059afc9ca22effa9594",
+      "kind_ar": "إحالة الحديث قبل نقل تفسير القرطبي",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_qurtubi",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p9_qurtubi",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "قَالَ الْقُرْطُبِيُّ: هَذَا السُّؤَالُ صَدَرَ مِمَّنْ ظَهَرَتْ لَهُ الْمُسَاوَاةُ بَيْنَ الْمَسْجِدَيْنِ فِي اشْتِرَاكِهِمَا فِي أَنَّ كُلًّا مِنْهُمَا بَنَاهُ النَّبِيُّ ﷺ، فَلِذَلِكَ سُئِلَ النَّبِيُّ ﷺ عَنْهُ فَأَجَابَ بِأَنَّ الْمُرَادَ مَسْجِدُهُ، وَكَأَنَّ الْمَزِيَّةَ الَّتِي اقْتَضَتْ تَعْيِينَهُ دُونَ مَسْجِدِ قُبَاءَ لِكَوْنِ مَسْجِدِ قُبَاءَ لَمْ يَكُنْ بِنَاؤُهُ بِأَمْرِ جَزْمٍ مِنَ اللَّهِ لِنَبِيِّهِ، أَوْ كَانَ رَأْيًا رَآهُ بِخِلَافِ مَسْجِدِهِ، أَوْ كَانَ حَصَلَ لَهُ أَوْ لِأَصْحَابِهِ فِيهِ مِنَ الْأَحْوَالِ الْقَلْبِيَّةِ مَا لَمْ يَحْصُلْ لِغَيْرِهِ، انْتَهَى.",
+      "source_start": 2315,
+      "source_end": 2901,
+      "source_text_sha256": "fcbab646cc0a56a1a124262f332af97af46fefe235107591517f8a55fdadb9d5",
+      "kind_ar": "تفسير القرطبي المنقول مع علامة انتهاء النقل",
+      "speaker_ar": "القرطبي كما ينقله ابن حجر؛ انتهى من الشارح",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_hajar",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p9_hajar",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "\nوَيَحْتَمِلُ أَنْ تَكُونَ الْمَزِيَّةُ لِمَا اتُّفِقَ مِنْ طُولِ إِقَامَتِهِ ﷺ بِمَسْجِدِ الْمَدِينَةِ، بِخِلَافِ مَسْجِدِ قُبَاءَ فَمَا أَقَامَ بِهِ إِلَّا أَيَّامًا قَلَائِلَ، وَكَفَى بِهَذَا مَزِيَّةً مِنْ غَيْرِ حَاجَةٍ إِلَى مَا تَكَلَّفَهُ الْقُرْطُبِيُّ، وَالْحَقُّ أَنَّ كُلًّا مِنْهُمَا أُسِّسَ عَلَى التَّقْوَى، وَقَوْلُهُ تَعَالَى فِي بَقِيَّةِ الْآيَةِ: ",
+      "source_start": 2901,
+      "source_end": 3268,
+      "source_text_sha256": "0dda4248504d93691799843c8bec7fbafe43fae0874616696602dc4b6dc87a87",
+      "kind_ar": "تعقيب ابن حجر على تفسير القرطبي",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p10",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p10",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "﴿فِيهِ رِجَالٌ يُحِبُّونَ أَنْ يَتَطَهَّرُوا﴾",
+      "source_start": 3268,
+      "source_end": 3313,
+      "source_text_sha256": "471bf5a5aeb00cd804357fc06140b36dac8957d39477a743bdb947d68921a5fa",
+      "kind_ar": "آية قرآنية منقولة في الشرح",
+      "speaker_ar": "النص القرآني المنقول",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p11",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": " - يُؤَيِّدُ كَوْنَ الْمُرَادِ مَسْجِدَ قُبَاءَ، وَعِنْدَ أَبِي دَاوُدَ بِإِسْنَادٍ صَحِيحٍ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ ﷺ قَالَ: ",
+      "source_start": 3313,
+      "source_end": 3452,
+      "source_text_sha256": "415bf1b851aec95ee2473fd1a59e528e5a625c3d4d9fd34c2a929622f204ea56",
+      "kind_ar": "شرح ابن حجر وتمهيد نقل أبي هريرة",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11_prophet",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p11_prophet",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "نَزَلَتْ ",
+      "source_start": 3452,
+      "source_end": 3461,
+      "source_text_sha256": "b0dca5c08c00cee5a66a897fa6da336ae9b4b8202ebe1ba5833854d3722d43bf",
+      "kind_ar": "كلام النبي ﷺ كما ينقله ابن حجر عن أبي هريرة",
+      "speaker_ar": "النبي ﷺ في نقل أبي هريرة عند ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p12",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p12",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "﴿فِيهِ رِجَالٌ يُحِبُّونَ أَنْ يَتَطَهَّرُوا﴾",
+      "source_start": 3461,
+      "source_end": 3506,
+      "source_text_sha256": "471bf5a5aeb00cd804357fc06140b36dac8957d39477a743bdb947d68921a5fa",
+      "kind_ar": "آية قرآنية في الخبر المنقول",
+      "speaker_ar": "النص القرآني المنقول في الخبر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13_prophet",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p13_prophet",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": " فِي أَهْلِ قُبَاءَ،",
+      "source_start": 3506,
+      "source_end": 3526,
+      "source_text_sha256": "9a1ba2cae28b63bcdd6a8dc8a0eb766189c343c7a6692e72927502257b005c29",
+      "kind_ar": "تتمة كلام النبي ﷺ بعد الآية كما ينقله ابن حجر",
+      "speaker_ar": "النبي ﷺ في نقل أبي هريرة عند ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p13",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": " وَعَلَى هَذَا فَالسِّرُّ فِي جَوَابِهِ ﷺ بِأَنَّ الْمَسْجِدَ الَّذِي أُسِّسَ عَلَى التَّقْوَى مَسْجِدُهُ، رَفْعُ تَوَهُّمِ أَنَّ ذَلِكَ خَاصٌّ بِمَسْجِدِ قُبَاءَ، وَاللَّهُ أَعْلَمُ.\nقَالَ الدَّاوُدِيُّ وَغَيْرُهُ: لَيْسَ هَذَا اخْتِلَافًا، لِأَنَّ كُلًّا مِنْهُمَا أُسِّسَ عَلَى التَّقْوَى، وَكَذَا قَالَ السُّهَيْلِيُّ، وَزَادَ غَيْرُهُ أَنَّ قَوْلَهُ تَعَالَى: ",
+      "source_start": 3526,
+      "source_end": 3891,
+      "source_text_sha256": "f4b3bd3d19b0fde34886c0a0d4183cebf7a570267bf2508f32627aa0aa3e2ec8",
+      "kind_ar": "شرح ابن حجر ونقل قول الداودي والسهيلي",
+      "speaker_ar": "ابن حجر، ناقلًا قول الداودي والسهيلي",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p14",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p14",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": "﴿مِنْ أَوَّلِ يَوْمٍ﴾",
+      "source_start": 3891,
+      "source_end": 3912,
+      "source_text_sha256": "a524875cdf52c0d6547889d8278a93662095ad9357e6e12914c671f391979aae",
+      "kind_ar": "آية قرآنية منقولة في الشرح",
+      "speaker_ar": "النص القرآني المنقول",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p15",
+      "packet_id": "sp_quba_chapter_12",
+      "part_id": "p15",
+      "evidence_id": "H-1673-4073-HS-QUBA-TAQWA-1",
+      "text_ar": " يَقْتَضِي أَنَّهُ مَسْجِدُ قُبَاءَ، لِأَنَّ تَأْسِيسَهُ كَانَ فِي أَوَّلِ يَوْمٍ حَلَّ النَّبِيُّ ﷺ بِدَارِ الْهِجْرَةِ، وَاللَّهُ أَعْلَمُ.",
+      "source_start": 3912,
+      "source_end": 4053,
+      "source_text_sha256": "ae22eb6dbeec0068145469090661a0c36a0b639a327496c252c0669c0f2ab05d",
+      "kind_ar": "تتمة تفسير منقول عن غير مسمى في شرح ابن حجر",
+      "speaker_ar": "غير مسمى ينقله ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/245](https://app.turath.io/book/1673?page=4073)",
+      "source_url": "https://app.turath.io/book/1673?page=4073",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    },
+    {
+      "unit_id": "sp_quba_chapter_13:p1",
+      "packet_id": "sp_quba_chapter_13",
+      "part_id": "p1",
+      "evidence_id": "H-1673-4072-HS-QUBA-TAQWA-START-1",
+      "text_ar": "قَوْلُهُ: (وَأُسِّسَ الْمَسْجِدُ الَّذِي أُسِّسَ",
+      "source_start": 0,
+      "source_end": 48,
+      "source_text_sha256": "5ebaf0ce22f42f1243d2648f6663dc49cb1ea09e577f0398aaa485d59f864eb7",
+      "kind_ar": "شرح ابن حجر: صدر قول البخاري قبل حد الصفحة",
+      "speaker_ar": "ابن حجر",
+      "book_ar": "فتح الباري بشرح البخاري - ط السلفية",
+      "citation_ar": "[فتح الباري بشرح البخاري - ط السلفية، 7/244](https://app.turath.io/book/1673?page=4072)",
+      "source_url": "https://app.turath.io/book/1673?page=4072",
+      "context_note_ar": "انتقاء الأرشيف كاملًا، لا كامل الصفحة أو الكتاب؛ الأجزاء حرفية متجاورة. تميَّز سلسلة النقل عن المتن والقول عن الشرح؛ وما خارج المنتقى لا يستكمل نصًّا مفترضًا."
+    }
+  ],
+  "footnotes": [
+    {
+      "footnote_id": "hch_quba_fn_a6c99b0422fa6265683459d4fc46d534a7e0a553d27a9ce8b07ddd0c1fa6b7f6",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p01"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_waiting",
+        "quba_chapter_recognition",
+        "quba_chapter_hosts",
+        "quba_chapter_ishaq_days"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_02",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_03",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_04",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_06",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_07",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_9043b4600720fcc5a384327e812dff62e992d45f0a39e083d1ca2046074f362d",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p02"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_quba_outline_wait"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_waiting"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_02",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_ab24c69dfbffbfb98c27997e319167db299a1603d1b184c7b45872c11171d358",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p03"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_recognition",
+        "quba_chapter_urwah_stay"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_03",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_97890f6c26e716381b1f98713c5a4001590d4ee5078d5e93449460c0f7e43470",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p04"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_quba_outline_home"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_hosts"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_04",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_4bc8f4cb0d64b554d35d4c3db9108dcb134cc8aaab6702dd821fb86a07e29754",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p05"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_bakr_host",
+        "quba_chapter_hosts"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_05",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_04",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_2e7754e253cf52cc40fc8bc69e088734c6cfa5e07ef3e022c85ed097ac7303b5",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p06"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_quba_outline_days"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_ishaq_days",
+        "quba_chapter_urwah_stay",
+        "quba_chapter_anas_stay"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_06",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_07",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_10",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p4_cont"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_88405da9acfd9392072c457d2d340761270d7537f8c61c06ca60bd7bc4b31f9f",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p08"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_quba_outline_mosque"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_quba_mosque"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_06",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_12",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p9_qurtubi",
+            "p9_hajar",
+            "p10",
+            "p11",
+            "p11_prophet",
+            "p12",
+            "p13_prophet",
+            "p13",
+            "p14",
+            "p15"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_13",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_3cf78d1886bc5e02a9823d663d3ffd25e2b26c8c99c3bf2cd9bfb91751db5a71",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p09"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_different_mosques"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_10",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p4_cont"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_11",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_18a16faf1c37f58bf7a79ac70a098b3af4310d3c959d35869764078bac6b41ec",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p10"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_quba_outline_onward"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_friday_departure",
+        "quba_chapter_different_mosques"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_07",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_10",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p4_cont"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_11",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_e7af0fc352773a113d751d424bebcd2041864e178ac43538fa7dc201ef0cb6e0",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p11"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_date_commentary",
+        "quba_chapter_urwah_stay",
+        "quba_chapter_ishaq_days"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_08",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_01",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_06",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_07",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_afe61285d8a121b65171b89d334d9c3d355da5a2d6a5cbabc58d6b51019e4d19",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p12"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_duration_reading",
+        "quba_chapter_variant_24"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_09",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_08",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_14",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_quba_fn_40af60e0d52ed49becd19397029dc0ad9b98c0b38e14f2cb045d0e09190ddc7b",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p13"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_quba_p14"
+        }
+      ],
+      "claim_ids": [
+        "quba_chapter_taqwa_difference"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_quba_chapter_13",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_quba_chapter_12",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p9_qurtubi",
+            "p9_hajar",
+            "p10",
+            "p11",
+            "p11_prophet",
+            "p12",
+            "p13_prophet",
+            "p13",
+            "p14",
+            "p15"
+          ]
+        }
+      ]
+    }
+  ]
+}

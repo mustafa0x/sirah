@@ -1,0 +1,1953 @@
+{
+  "chapter_id": "hch_quba",
+  "revision": 1,
+  "locale": "am",
+  "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+  "arabic_payload_sha256": "ca01465899d46eb70e5492170e76b8d3a8dd971b8777dc508ac5ab07c53f440d",
+  "status": "translation_ready",
+  "units": [
+    {
+      "unit_id": "hch_quba:title_ar",
+      "source_text_sha256": "06f05ec674c704fcd3e783f4a3b33e3496f5ababbf4074728a9204859b121cbf",
+      "text": "ቁባ፦ ጥበቃና መድረስ፣ ከዚያም ወደ መዲና የሚወስደው መንገድ"
+    },
+    {
+      "unit_id": "hch_quba:reader_question_ar",
+      "source_text_sha256": "811449a5baa9554d7512abd00c0eef4a8c6c4355ccbe622266527d97b8d0ffd1",
+      "text": "መጪውን መጠበቅ እንዴት ወደ መገናኘት ተለወጠ? በቁባ ስለቆዩባቸው ቀናት ምን እናውቃለን፣ ምንስ በእርግጠኝነት ልንናገር አንችልም?"
+    },
+    {
+      "unit_id": "hch_quba_p01:text_ar",
+      "source_text_sha256": "ab8d6f8b372b958761ac549a5168640aa5243011c6a76222a67570f311e46442",
+      "text": "ሰዎች በሐራ ጫፍ ከነበራቸው ጥበቃ ጀምሮ በመጡት መካከል ነቢዩን ﷺ እስከሚለዩበትና በበኑ ዐምር ኢብን ዐውፍ እስከሚያርፉበት ድረስ፣ ቁባ የመዲናን በር ትከፍታለች። የሰዎቹን መገናኘት፣ ማረፊያውን፣ መስጊዱንና መነሳቱን በዘገባው ተከትለን እንመለከታለን፤ ስለቆዩበት ጊዜም የሚለያዩትን ዘገባዎች እናዳምጣለን።"
+    },
+    {
+      "unit_id": "hch_quba_wait:title_ar",
+      "source_text_sha256": "fd84b4456e37f3a5c5ffd9cac09af0cf23472484f5f7b64bf660c973a240b5d7",
+      "text": "የጥበቃ ቀናትና የማወቅ ቅጽበት"
+    },
+    {
+      "unit_id": "hch_quba_p02:text_ar",
+      "source_text_sha256": "a0c63362d5f3dad2399501d579204ad42408464adf8eb3428c0529cdbbb2bdcd",
+      "text": "ሙስሊሞች ከመካ የሚመጣውን ለመጠበቅ ወደ ሐራ ይወጡ ነበር፤ እኩለ ቀን ሙቀት ወደ ቤታቸው እስኪመልሳቸው ድረስም ይጠብቁ ነበር። ከዚያም አንድ አይሁዳዊ ሰው መጪዎቹን አይቶ ጮኸ፤ ሰዎቹም ሊቀበሏቸው ወጡ። በኢብን ኢስሐቅ ዘገባ ደግሞ ከአንሷር የሆኑ ሰዎች ከጠዋት ሶላት በኋላ ሲጠብቁ፣ የሰውየውን ጥሪ ከመስማታቸው በፊትም ወደ ቤታቸው ሲገቡ ይተርካሉ።"
+    },
+    {
+      "unit_id": "hch_quba_p03:text_ar",
+      "source_text_sha256": "b72c238ae3654e03397523b693a930e83b864df44300868f5cf35721dcb29fbf",
+      "text": "ተጓዦቹ ወደ በኑ ዐምር ኢብን ዐውፍ አመሩ። አቡ በክር ለሰዎች ቆመ፣ ነቢዩ ﷺ ዝም ብለው ተቀመጡ፤ ከአንሷር መካከል ነቢዩን ከዚያ በፊት ያላዩ አንዳንዶች መጀመሪያ አቡ በክርን ሰላም አሉ። ፀሐይ ነቢዩን ﷺ ስትመታቸው አቡ በክር በልብሳቸው ጥላ ሰጧቸው፤ ከዚያም አወቋቸው። በኢብን ኢስሐቅ የተነገረው የተቀባዮች ዘገባም ጥላው ሲጠፋ እንዳወቋቸው ይተርካል።"
+    },
+    {
+      "unit_id": "hch_quba_home:title_ar",
+      "source_text_sha256": "6b2c2211770225b1098205e4cda4dde98a540a05de8cb3ab536171966c0768b8",
+      "text": "በቁባ ቤቶች"
+    },
+    {
+      "unit_id": "hch_quba_p04:text_ar",
+      "source_text_sha256": "8569c2716f033eba7372f575b155483bbff846fbc351ec7cfe82281c455314e4",
+      "text": "ኢብን ኢስሐቅ በመቀጠል፣ አንዳንዶች እንደሚናገሩት ነቢዩ ﷺ በኩልሱም ኢብን ሂድም ቤት እንዳረፉ ይጠቅሳል፤ በሰዐድ ኢብን ኸይሰማ ቤት እንዳረፉም ሌላ አባባል ያቀርባል። ኩልሱምን የሚጠቅሱት ነቢዩ ﷺ ለሰዎች በሰዐድ ቤት፣ የያላገቡ ወንዶች ቤት ተብሎ በሚታወቀው ስፍራ፣ ይቀመጡ እንደነበር ያብራራሉ። ኢብን ኢስሐቅ የአስተናጋጁን ስም ሳያረጋግጥ ሁለቱንም አባባሎች ያቀርባል።"
+    },
+    {
+      "unit_id": "hch_quba_p05:text_ar",
+      "source_text_sha256": "2433ba4ec9b766300d9df7f6a93452f79b98d7cc43987a0d502e697efd26e31d",
+      "text": "ስለ አቡ በክር ግን ኢብን ኢስሐቅ በኹበይብ ኢብን ኢሳፍ ቤት እንዳረፉ ያስተላልፋል፤ በኻሪጃ ኢብን ዘይድ ቤት ነበር የሚል ሌላ አባባልም ያቀርባል። ስለ እርሳቸው ማረፊያ የተነገረው ከነቢዩ ﷺ ማረፊያ ዘገባ የተለየ ነው።"
+    },
+    {
+      "unit_id": "hch_quba_days:title_ar",
+      "source_text_sha256": "9cbbcc1168d56e3ea1dbe028197d79abb90b59bea677ab91b89ab99011887925",
+      "text": "የቁባ ቀናት"
+    },
+    {
+      "unit_id": "hch_quba_p06:text_ar",
+      "source_text_sha256": "ab5fb91c7d9c4696aa886edeea85bfc716aef4cd7f829617245163630ed8bf41",
+      "text": "በኢብን ኢስሐቅ ዘገባ ነቢዩ ﷺ ሰኞ፣ ማክሰኞ፣ ረቡዕና ሐሙስ በቁባ ቆዩ፤ አርብ ቀንም ተነሱ። ሆኖም በኑ ዐምር ኢብን ዐውፍ ከዚያ የበለጠ እንደቆዩባቸው የሚናገሩትንም ይጠቅሳል። ዐርዋ በቡኻሪ ዘገባ ቆይታውን ከአሥር በላይ ጥቂት ሌሊቶች ሲል ይገልጸዋል፤ አነስ ግን በበይሐቂ ዘገባ አሥራ አራት ሌሊቶች ይላል።"
+    },
+    {
+      "unit_id": "hch_quba_mosque:title_ar",
+      "source_text_sha256": "ee020c078ab9422c712d64b859d2d74c3d709df2442a3b62831257252615a47f",
+      "text": "በቁባ ያለ መስጊድ"
+    },
+    {
+      "unit_id": "hch_quba_p08:text_ar",
+      "source_text_sha256": "8632813d79c47d8df795a1170ab1717a77b47b1ddc576376ff83bd9000bb8426",
+      "text": "ኢብን ኢስሐቅ ነቢዩ ﷺ በቁባ በቆዩበት ወቅት መስጊዳቸውን እንደመሠረቱ ይጠቅሳል፤ ዐርዋም መስጊዱ መመሥረቱንና በውስጡ ሶላት መስገዳቸውን ይጠቅሳል። ተጓዦቹ ወደ መዲና ከማምራታቸው በፊት በቁባ ያሉት ሰዎች መስገጃ ስፍራ ነበራቸው፤ የመስጊዱ ዘገባ ለቆይታው ሌሊቶች አንድ ቁጥር በመምረጥ ላይ አይመረኮዝም።"
+    },
+    {
+      "unit_id": "hch_quba_p09:text_ar",
+      "source_text_sha256": "3ebc0fc237b4453762dcb0a3ba8bc62f21c66bda9c8c6b678b1430702eb7a6ca",
+      "text": "ወደ መዲና ከተጓዙ በኋላ በዐርዋ ዘገባ የነቢዩ ﷺ መስጊድ ስፍራ የሱሀይልና የሰህል የቴምር ማድረቂያ ሥፍራ እንደነበር ይገለጻል፤ ከሁለቱም ጋር ስለዋጋው መደራደራቸውንም ይተርካል። በአነስ ዘገባ ነቢዩ ﷺ በኑ ነጃርን ስለ በአጥር የተከበበው መሬታቸው ዋጋ ይጠይቃሉ፣ እነሱም ይመልሳሉ፤ አነስ በቀሪው ክፍል የግንባታውን ዘገባ ይቀጥላል። እያንዳንዱ ገለጻ በራሱ ዘገባ ውስጥ ይቆያል፤ ይህ የቁባ መስጊድ ግንባታ አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_onward:title_ar",
+      "source_text_sha256": "0896c0fe3b4eb61ce01090e2c1a0f94ba9f5af96516f9d589ffa44ae4c95bd4a",
+      "text": "በመንገድ ላይ ወደ አርብ ሶላት"
+    },
+    {
+      "unit_id": "hch_quba_p10:text_ar",
+      "source_text_sha256": "34506048e7ec2bd0948bbc2e990cd4b4fd183abdaea8aec7c45e80ef7bef0ae0",
+      "text": "ነቢዩ ﷺ ከቁባ ተነሱ፤ በኢብን ኢስሐቅ ዘገባ የአርብ ሶላት ጊዜ በበኑ ሳሊም ኢብን ዐውፍ አገኛቸው፣ በሸለቆው መስጊድም ሰገዱት። በዐርዋ ዘገባ ደግሞ ግመላቸው በመዲና ያለው የመስጊድ ሥፍራ አጠገብ እስክትንበረከክ ድረስ ትጓዛለች። ከቁባ ቀናትና መስጊዷ በኋላ በመዲና የቆይታ ዘገባዎች ከዚህ ይጀምራሉ።"
+    },
+    {
+      "unit_id": "hch_quba_voices:title_ar",
+      "source_text_sha256": "3f187583cd8021443e94df7170a4df9424b20566c7c5930b36458b3b28d934e6",
+      "text": "የትኛው ቀን፣ ለምን ያህል ጊዜ?"
+    },
+    {
+      "unit_id": "hch_quba_p11:text_ar",
+      "source_text_sha256": "9f5cab83f0e1a3691cbbd01c4338e1f4705826d4183f31ac38253208fcf8438c",
+      "text": "የመድረሻ ጊዜውን መመርመር ለሚፈልግ፦ ኢብን ሐጀር መድረሱን በረቢዕ አል-አወል መጀመሪያ ወይም ከዚያ በኋላ በተለያዩ ቀናት የሚያስቀምጡ ዘገባዎችን ያቀርባል። ከዚያም ልዩነታቸውን ለማስማማት የጨረቃ መታየት ልዩነትን ጨምሮ መንገዶችን ይጠቁማል፤ በሌላ ቦታም ቆይታውን አጭር ያደረጉ አንዳንዶች የመግቢያውን ወይም የመውጫውን ቀን አልቆጠሩም ብሎ ይገምታል። እነዚህ የተለያዩ ቀኖችን ለመረዳት የተንታኙ ሙከራዎች ናቸው፤ በዐርዋ ዘገባ ወይም በኢብን ኢስሐቅ ቆጠራ ላይ የሚጨመር አዲስ የተረጋገጠ ቀን አይደሉም።"
+    },
+    {
+      "unit_id": "hch_quba_p12:text_ar",
+      "source_text_sha256": "f51a85edc7a307c9596cf2c347f209f18cb8de0cf46cf55cf99fa8e2fc345a92",
+      "text": "በሌላ ማብራሪያ ኢብን ሐጀር የቆይታውን መጠን ሦስት፣ አምስት፣ አሥራ አራትና ሃያ ሁለት ብሎ ይዘረዝራል፤ የአነስ አባባል ለመቀበል ይበልጥ ተገቢ ነው ይላል፤ ይህ በዚያ ቦታ የዘገባዎቹን ንጽጽር ተከትሎ የሰጠው ምርጫ ነው። የአንድ የተወሰነ ዘገባ ቅጂዎች ልዩነትን ሲያብራራ ግን የአል-ሙስተምሊና የአል-ሐመዊ አነባበብ ሃያ አራት ሲሆን የቀሩት አሥራ አራት መሆኑን ይጠቅሳል፣ በዚህ መተላለፊያ በተለይ ትክክለኛው የኋለኛው ነው ይላል። በዚህ የቅጂ አነባበብ ላይ የሰጠው ፍርድ ከሌላው አጠቃላይ ንጽጽሩ የተለየ ነው።"
+    },
+    {
+      "unit_id": "hch_quba_verse:title_ar",
+      "source_text_sha256": "df850c157d45a0b75366e767d44796718ab22942e728b1299a86b10603c9866d",
+      "text": "በፈሪሃ አላህ ላይ የተመሠረተውን መስጊድ መለየት"
+    },
+    {
+      "unit_id": "hch_quba_p13:text_ar",
+      "source_text_sha256": "5942ab839486544b54d84f61dd78c6d3859e4c3000f98c3282d68dcb7fe41878",
+      "text": "ኢብን ሐጀር በፈሪሃ አላህ ላይ ስለተመሠረተው መስጊድ የጀመረው ንግግር ከገጽ ወሰኑ በፊት ይጀምራል፤ ከወሰኑ በኋላም ቁባ መስጊድ ነው በሚል ማብራሪያው ይቀጥላል። አንቀጹንና ብዙኃኑ ቁባን እንደሚመለከት የሚወስዱበትን አመለካከት ያቀርባል፤ ከዚያም የነቢዩን ﷺ መስጊድ የሚለይ የተዘገበ የነቢዩን መልስ እና ያንን መለያ ሳይክድ የቁባን በጎነት የሚጠቅስ ሌላ ዘገባ ያቀርባል። የተጠቀሰው የቁርአን አንቀጽ፣ ተንታኙ እንደሚዘግበው የነቢዩ መልስና የራሱ ትርጓሜ የተለያዩ ድምጾች ናቸው።"
+    },
+    {
+      "unit_id": "hch_quba_p14:text_ar",
+      "source_text_sha256": "992a347f1c01691d6c05150de3319ee668a39f110691d17f152cea7a3a80a96e",
+      "text": "ኢብን ሐጀር ለነቢዩ ﷺ መስጊድ በመልሱ የተሰጠውን ልዩ መለያ የቁርጡቢ ማብራሪያ ያቀርባል፤ ከዚያም ራሱ ሌላ የማስረዳት መንገድ ጨምሮ ሁለቱም መስጊዶች በፈሪሃ አላህ ላይ እንደተመሠረቱ ይናገራል። የአቡ ሁረይራን ዘገባ ሲያስተላልፍ የነቢዩ ﷺ ቃል ከአንቀጹ በፊት ይጀምራል፣ ከአንቀጹ በኋላም ስለ ቁባ ሰዎች ተቀጥሎ ይጠናቀቃል፤ ከዚያ በኋላ ያለው የኢብን ሐጀር ትርጓሜ ነው። ከዚያም የዳዉዲንና የሱሀይሊን የማስማማት አባባል ይጠቅሳል። የትኛውም ተንታኝ ትርጓሜ እዚህ አዲስ የነቢዩ ቃል ወይም የዚህ ምዕራፍ የራሱ ውሳኔ አይሆንም።"
+    },
+    {
+      "unit_id": "hch_quba_outline_wait:text_ar",
+      "source_text_sha256": "fd84b4456e37f3a5c5ffd9cac09af0cf23472484f5f7b64bf660c973a240b5d7",
+      "text": "የጥበቃ ቀናትና የማወቅ ቅጽበት"
+    },
+    {
+      "unit_id": "hch_quba_outline_home:text_ar",
+      "source_text_sha256": "6b2c2211770225b1098205e4cda4dde98a540a05de8cb3ab536171966c0768b8",
+      "text": "በቁባ ቤቶች"
+    },
+    {
+      "unit_id": "hch_quba_outline_days:text_ar",
+      "source_text_sha256": "9cbbcc1168d56e3ea1dbe028197d79abb90b59bea677ab91b89ab99011887925",
+      "text": "የቁባ ቀናት"
+    },
+    {
+      "unit_id": "hch_quba_outline_mosque:text_ar",
+      "source_text_sha256": "ee020c078ab9422c712d64b859d2d74c3d709df2442a3b62831257252615a47f",
+      "text": "በቁባ ያለ መስጊድ"
+    },
+    {
+      "unit_id": "hch_quba_outline_onward:text_ar",
+      "source_text_sha256": "0896c0fe3b4eb61ce01090e2c1a0f94ba9f5af96516f9d589ffa44ae4c95bd4a",
+      "text": "በመንገድ ላይ ወደ አርብ ሶላት"
+    },
+    {
+      "unit_id": "hch_quba_read_meeting:title_ar",
+      "source_text_sha256": "46612d2f6b858d8ae7cc62629eed59e8de1197a25efa329914ed00a4f33c69cb",
+      "text": "የዐርዋ ጥበቃና በኢብን ኢስሐቅ ዘገባ የአንሷር ማወቅ"
+    },
+    {
+      "unit_id": "hch_quba_read_homes:title_ar",
+      "source_text_sha256": "132681d2dacf022ad6671bf904c6044954a8269e241ae84c067cb3ce18783d34",
+      "text": "ማረፊያውና አቡ በክር፦ አንዱ አባባልና ሌላው"
+    },
+    {
+      "unit_id": "hch_quba_read_days:title_ar",
+      "source_text_sha256": "4bbac47aa48468827f39ba427fb8038afc52dec5d668fa01a57e1ad91ec97619",
+      "text": "የኢብን ኢስሐቅ ቀናት፣ የአነስ ቆይታና የኢብን ሐጀር ማብራሪያ"
+    },
+    {
+      "unit_id": "hch_quba_read_mosques:title_ar",
+      "source_text_sha256": "cc27a66a3aa6b1ad398a1e44fc715ad83fb10b4827901fe2ff1290be7795764d",
+      "text": "የቁባ መስጊድ፣ የፈሪሃ አላህ አንቀጽ ትርጓሜና የመዲና መስጊድ ልዩነት"
+    },
+    {
+      "unit_id": "hch_quba_read_leave:title_ar",
+      "source_text_sha256": "7103b0bda8bc73a37c222d97b6fdb212480731a379907a29b4618d6a8065fef6",
+      "text": "በኢብን ኢስሐቅና በዐርዋ ዘገባ መነሳትና የአርብ ሶላት"
+    },
+    {
+      "unit_id": "quba_chapter_read_arrival:text_ar",
+      "source_text_sha256": "20f114528a038357cd53e01d7202fb693c1497b34a83d83c0de46b5e11eb2d16",
+      "text": "ሰዎች መጪዎቹን እንዴት ጠበቁ፣ እንዴትስ ለዩአቸው?"
+    },
+    {
+      "unit_id": "quba_chapter_read_hosts:text_ar",
+      "source_text_sha256": "b073b8e9b66b6a0272dae39e432e3d850748bf0c25934d136262e4a0f7915261",
+      "text": "በቁባ ስለ ማረፊያው የተነገሩት ዘገባዎች ምን ይጠብቃሉ?"
+    },
+    {
+      "unit_id": "quba_chapter_read_duration:text_ar",
+      "source_text_sha256": "a90bc09349576140dba4a073c61c31119aeb546c4f3f78c49990e9f04ba32ef4",
+      "text": "የቆይታ ቀናት ልዩነትን ያልተዘገበ ቀን ሳንፈጥር እንዴት እናንብብ?"
+    },
+    {
+      "unit_id": "quba_chapter_read_mosque:text_ar",
+      "source_text_sha256": "7aab8576fa2a6a08aa30f9fc26187f880ed0b5732ecfd3ba6093f7d5df61d8fb",
+      "text": "የቁባ መስጊድ ከኋለኛው መስጊድ በምን ይለያል፣ የፈሪሃ አላህ አንቀጽስ እንዴት ተተረጎመ?"
+    },
+    {
+      "unit_id": "quba_chapter_read_departure:text_ar",
+      "source_text_sha256": "118336f4d34a8851afdea8ae4001f06f065598ea3af89d0043b8f7a50a317a13",
+      "text": "ቆይታው እንዴት ተጠናቀቀ፣ ወደ መዲና ጉዞስ እንዴት ተጀመረ?"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:prompt_ar",
+      "source_text_sha256": "a7d9b56b4cb2d225cd516c1deed9ed3ef02c2c155e2aa3ec24545127658351f2",
+      "text": "በሐራ አጠገብ የሙስሊሞችን ጥበቃ ያቋረጠው ምን ነበር?"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:explanation_ar",
+      "source_text_sha256": "38ebeb9e7ebe3c1fd283fc2fc1b27f406c972a2ce748f69413c0c5d65061b345",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ በቡኻሪ የዐርዋ ዘገባ ሙስሊሞች መጪውን ለመጠበቅ ወጡ፤ ከዚያም አንድ አይሁዳዊ እንዳየው አወጀ፣ በሐራ አጠገብም ተቀበሉት።"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:right:text_ar",
+      "source_text_sha256": "b28aa4a2fae6b9ab577d81b67eab3a90b78d912d69417430bd4cf7b3bed22bc8",
+      "text": "መጪዎቹን ያየ ሰው ጥሪ።"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:a:text_ar",
+      "source_text_sha256": "1e12655d757db2bb6a8346cc817706d2ee910f3bf2e4e1723c60fb1fbc927dde",
+      "text": "ቀኑን የሚገልጽ ደብዳቤ ከመካ መድረስ።"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:b:text_ar",
+      "source_text_sha256": "393589e145a167564507dbf656e420abdfe560de9d3a7e23ba2ea97056651830",
+      "text": "የመዲና መስጊድ ግንባታ መጠናቀቅ።"
+    },
+    {
+      "unit_id": "hch_quba_q_watch:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:prompt_ar",
+      "source_text_sha256": "80905fef9b9c0bfbfaae14667cc79beceea55df1ba768fd803f9c34a58accf80",
+      "text": "ነቢዩን ﷺ አይተው የማያውቁ ሰዎች አቡ በክር እንዳልሆኑ እንዴት አወቁ?"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:explanation_ar",
+      "source_text_sha256": "d6cf3ecf9e4b72519153fc45d40dc3c53766287e1409ade3fcf48ea55ef5bd2f",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ በዐርዋና በኢብን ኢስሐቅ ዘገባ ከተቀባዮቹ አንዳንዶቹ ነቢዩን ﷺ ከአቡ በክር መጀመሪያ አልለዩአቸውም፤ አቡ በክር በልብሳቸው ጥላ ሲሰጧቸው ግን አወቋቸው።"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:right:text_ar",
+      "source_text_sha256": "a7d91eb7d272265d163c5674e301235fb92fc2b5aad53d34314d746dce89de49",
+      "text": "አቡ በክር በልብሳቸው ጥላ ሰጧቸው።"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:a:text_ar",
+      "source_text_sha256": "3085870f8e3cd41c3f9605e11b7bd54cc64ed7e2a93f3fb3a0bc91a345d930a3",
+      "text": "ነቢዩ ﷺ ንግግር ሊያደርጉላቸው ወደ ፊት ቀረቡ።"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:b:text_ar",
+      "source_text_sha256": "75a0e78963593cccd2808cc8dd28ac50d503c7ad44a0919814a3aed2cdc2f8e0",
+      "text": "ስማቸውን ከተጓዦቹ ሰሙ።"
+    },
+    {
+      "unit_id": "hch_quba_q_recognize:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:prompt_ar",
+      "source_text_sha256": "39474bbeaea7871873d2cd94a2d3c1bcd70cff8ae35d74483c50deef97691218",
+      "text": "ኢብን ኢስሐቅ የነቢዩን ﷺ ማረፊያ ዘገባ እንዴት አቀረበ?"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:explanation_ar",
+      "source_text_sha256": "ba91a5eec25014fc23fe0a7ab9af6ffe6b9019e69afe8bd268fd45e00376f397",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ ኢብን ኢስሐቅ በኢብን ሂሻም መዝገብ ላይ አንዳንዶች እንደሚጠቅሱት በኩልሱም ኢብን ሂድም ቤት እንዳረፉ ያቀርባል፤ ከዚያም በሰዐድ ኢብን ኸይሰማ ቤት እንዳረፉ ሌላ አባባል፣ የሰዐድ ቤት ለሰዎችና ላላገቡ ወንዶች መቀመጫ ነበር የሚል ማብራሪያ ይጨምራል፤ በመጨረሻም «አላህ ያውቃል» ይላል።"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:right:text_ar",
+      "source_text_sha256": "56acf8e2e71c9ea620a968977f6f4dfcef53715d46bc63d7845d4ec748c3b3b3",
+      "text": "እንደሚነገረው ኩልሱምን፣ ከዚያም የሰዐድን አባባል ጠቅሶ «አላህ ያውቃል» ብሎ ጨረሰ።"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:a:text_ar",
+      "source_text_sha256": "ce549c4ec514baef618e4842d648371cfe96d420ac2b1b36e946da6888b64e95",
+      "text": "ሁለቱ ማረፊያዎች አንድ ቤት እንደነበሩ በእርግጠኝነት ተናገረ።"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:b:text_ar",
+      "source_text_sha256": "90e59a6754463a9f690ed4f56b0ed4aca7477e1278af16dc157113942b99a1a3",
+      "text": "አቡ በክር በሰዐድ ቤት እንዳረፉ ተናገረ።"
+    },
+    {
+      "unit_id": "hch_quba_q_hosts:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:prompt_ar",
+      "source_text_sha256": "27581a6342d06778ff952a522f4bc3bb49b4e0da39bc849817e19f766d40ff91",
+      "text": "በንባቡ የኹበይብና የኻሪጃ ልዩነት የማንን ማረፊያ ይመለከታል?"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:explanation_ar",
+      "source_text_sha256": "6c1019054a67794608fb083e7e4b597180a38909de350b932ed928625de908a3",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ ኢብን ኢስሐቅ በኢብን ሂሻም መዝገብ የአቡ በክር ማረፊያ ኹበይብ ኢብን ኢሳፍ እንደሆነ ይጠቅሳል፤ ከዚያም ኻሪጃ ኢብን ዘይድን የሚጠቅስ ሌላ አባባል ያቀርባል።"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:right:text_ar",
+      "source_text_sha256": "f894c33df828b2551552da72c1db4a4abf83806ace99b9287aa1ddd68289f343",
+      "text": "የአቡ በክርን ማረፊያ።"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:a:text_ar",
+      "source_text_sha256": "a5b99b0ac373cd5bae97bb5ae7eb3802e35d3296d276d96a254f5b910047fb74",
+      "text": "የአርብ ስምምነት ጸሐፊን።"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:b:text_ar",
+      "source_text_sha256": "0950c871e098cb8dc6a04a2126e7fdfe4fe6052012781ec9afed0aab1f4856ad",
+      "text": "የቁባ መስጊድን መሥራች ስም።"
+    },
+    {
+      "unit_id": "hch_quba_q_bakr:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:prompt_ar",
+      "source_text_sha256": "67aefa8a9e2b0bf6382594a42c1976fe056598a62b382a87a062972c96e0f0b8",
+      "text": "አርብ ከመነሳታቸው በፊት ኢብን ኢስሐቅ የትኞቹን ቀናት ይጠቅሳል?"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:explanation_ar",
+      "source_text_sha256": "8ed6d6cc2e94e4fd8857b5c1705db77de3c5b672dcf212dfef92b50b95254a81",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ ኢብን ኢስሐቅ በቁባ ሰኞ፣ ማክሰኞ፣ ረቡዕና ሐሙስ መቆየታቸውንና መስጊዱን መመሥረታቸውን፣ ከዚያም አርብ መነሳታቸውን ይጠቅሳል፤ በኑ ዐምር ከዚያ በላይ እንደቆዩ የሚናገሩትንም ይጠብቃል።"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:right:text_ar",
+      "source_text_sha256": "fa3b1c0a03c319fc2b54bd8fb34872a04fecfc3b01c1574e034d6bf378d03b15",
+      "text": "ከሰኞ እስከ ሐሙስ።"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:a:text_ar",
+      "source_text_sha256": "d0593bd6c404ee8199035af8a8a1494192263f82eabea255cd39b7649f788c9d",
+      "text": "ከሰኞ እስከ እሑድ።"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:b:text_ar",
+      "source_text_sha256": "ea965d7bd8a3dfc8400ee6055560787ae765799a166a25928b63acf93a61d857",
+      "text": "አርብና ቅዳሜ ብቻ።"
+    },
+    {
+      "unit_id": "hch_quba_q_ishaq:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:prompt_ar",
+      "source_text_sha256": "97ec21d6877074fab538cd5ac54399d0ca40d8fa24147fe396b94668a8ea757d",
+      "text": "በበይሐቂ የአነስ አባባል የቆይታው ርዝመት ስንት ነው?"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:explanation_ar",
+      "source_text_sha256": "3edc24668abcf4f5e5ad538102a49257f918ce08b8fa2c5b932c82213f2ae12d",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ በበይሐቂ የአነስ ዘገባ ነቢዩ ﷺ በበኑ ዐምር ኢብን ዐውፍ አሥራ አራት ሌሊቶች ቆዩ፤ ከዚያም የበኑ ነጃርን መሪዎች ጠርተው አብረዋቸው ሄዱ።"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:right:text_ar",
+      "source_text_sha256": "7d24e19cca4856b462a12eee68be8a2a34981404da4e9c7e8df7771c0922f81c",
+      "text": "አሥራ አራት ሌሊቶች።"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:a:text_ar",
+      "source_text_sha256": "d2b23e1f834209f3c5612d904d605d3e9f6612a910d60f46f45d8a4153306e1b",
+      "text": "ሦስት ሌሊቶች።"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:b:text_ar",
+      "source_text_sha256": "b6571e381ad1fcbdb4661e060e4738859ea8c4f0cb0a62f975a5fd8477c36a00",
+      "text": "ሃያ ሁለት ሌሊቶች።"
+    },
+    {
+      "unit_id": "hch_quba_q_anas:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:prompt_ar",
+      "source_text_sha256": "03bf9543794d6d91d6ed2c2ca03b585d261806e86c4afc21342a4309053e7f64",
+      "text": "ኢብን ሐጀር በዚህ የዘገባ መንገድ የተለያዩ አነባበቦች ላይ ሲናገር፣ ከሁለቱ ቁጥሮች በዚህ መንገድ ትክክል ያለው የትኛውን ነው?"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:explanation_ar",
+      "source_text_sha256": "8aaefdcea8d87bba71d8bd6ec0d95a231229d6487a42473e5bb9d380c5947757",
+      "text": "በዚህ መንገድ አነባበቦች ላይ ሲያብራራ ኢብን ሐጀር ለአል-ሙስተምሊና ለአል-ሐመዊ ሃያ አራት፣ ለቀሩት አሥራ አራት ይላል፤ በዚህ መንገድ ትክክለኛው የኋለኛው ነው ብሎ ይገልጻል። ይህ በሌላ ማብራሪያ የአነስን አባባል በሰፊው መምረጡ አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:scope_note_ar",
+      "source_text_sha256": "029eb9510904bbb8d14862cb0cd14326a82d2eb380c1dbeb68cc1e93c43a998a",
+      "text": "ጥያቄው በኢብን ሐጀር ዘንድ የዚህ የዘገባ መንገድ አስተላላፊዎች የአነባበብ ልዩነትን ይመለከታል፤ በሌላ ቦታ የዘገባዎቹን ንጽጽር ተከትሎ የሰጠውን ምርጫ አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:right:text_ar",
+      "source_text_sha256": "14978e77f4fc1ed6e7636d1d43adb276231db0369c9abd2573554dfc75686d10",
+      "text": "በቀሩት አስተላላፊዎች አባባል አሥራ አራት ሌሊቶች።"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:right:feedback_ar",
+      "source_text_sha256": "41a1ed2870491112a4859414ebfcebf801b535791b75e261f8a2ff2abfb14958",
+      "text": "ትክክል ነው፤ ይህ ኢብን ሐጀር ስለዚህ የዘገባ መንገድ አነባበብ የሰጠው ፍርድ ነው፣ ስለ ሁሉም የቆይታ ዘገባዎች በግሉ የሰጠው ምርጫ አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:a:text_ar",
+      "source_text_sha256": "33a150b82c3eaba77eb688a2c9ce834715a4b94e12d913ee6468ff6a7ab568cb",
+      "text": "በአል-ሙስተምሊና በአል-ሐመዊ ዘገባ ሃያ አራት ሌሊቶች።"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:a:feedback_ar",
+      "source_text_sha256": "3828f474ac91ffa23b5c7b1024960aadcf755a9cb899175c1b4d127d815854df",
+      "text": "ኢብን ሐጀር ለሁለቱ ይህን አነባበብ ጠቅሷል፤ የቀሩትን አስተላላፊዎች አነባበብ ግን በዚህ መንገድ ትክክለኛው ነው ብሏል።"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:b:text_ar",
+      "source_text_sha256": "db827f7626fd48e4cbc49511f0ec040e982b568a0d6976669305b0e4c22a6e94",
+      "text": "በመጅመዕ ኢብን ሐሪሳ አስተላለፍ ሃያ ሁለት ሌሊቶች።"
+    },
+    {
+      "unit_id": "hch_quba_q_hajar:b:feedback_ar",
+      "source_text_sha256": "aabc8f4c0654c9905c3c9f83d61742bdfa7d8851d678e6e54747e106e4e4ef1d",
+      "text": "ይህ ኢብን ሐጀር በሌላ ቦታ ከሚወያይባቸው የቆይታ ርዝመቶች ልዩነት አንዱ ነው፤ ከዚህ መንገድ የተመረጠው አነባበብ አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:prompt_ar",
+      "source_text_sha256": "7e1465020c30089990e40f724e1e4302fc36d9cad288f8fbd7f64a74bb762720",
+      "text": "ከቁባ መስጊድ ጋር መያያዝ የሌለበት የቱ ነው?"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:explanation_ar",
+      "source_text_sha256": "9a6fb60d30ae648bc238c3153ef8df5684dc11815a3ba4c879a1e012e7213bea",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ በአነስ ዘገባ ወደ በኑ ነጃር ከሄዱ በኋላ በመዲና የመስጊድ ቦታ መጠየቃቸው፣ መልሳቸውና በቦታው መሥራታቸው ይነገራል፤ ይህ በዘገባው ቀድሞ ከተጠቀሰው የቁባ መስጊድ የተለየ ነው።"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:right:text_ar",
+      "source_text_sha256": "63734755eab3e54e310079186001d811fea161a771110a566a9fa66d8e4547a2",
+      "text": "ለመዲና መስጊድ የበኑ ነጃር አጥር ያለው መሬት ላይ የዋጋ ውይይት።"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:a:text_ar",
+      "source_text_sha256": "dbc67287920dd711cbdb10482aa703ddbf333b61e452be2b075235ac28edb104",
+      "text": "በዚያ በተመሠረተው መስጊድ ውስጥ መስገድ።"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:b:text_ar",
+      "source_text_sha256": "5df668c12dda341fab2f832f12dfe85df75fccc4e9dea28a63090b9cde166f12",
+      "text": "ነቢዩ ﷺ በበኑ ዐምር ስለቆዩበት ዘገባ።"
+    },
+    {
+      "unit_id": "hch_quba_q_mosque:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:prompt_ar",
+      "source_text_sha256": "9b29ec16d9ce0d44481042cb6ad46b9751a77e8676ac7c458a605e5f3ecf9704",
+      "text": "ኢብን ሐጀር ባቀረበው ማብራሪያ ብዙኃኑ ስለ ቁባ ከሚናገሩት ጋር ምን ይገኛል?"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:explanation_ar",
+      "source_text_sha256": "bd327598b18cb1a1b392f614b30ed6e747150f4b281e19302964f16794620358",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ ኢብን ሐጀር በፈሪሃ አላህ ላይ ስለተመሠረተው መስጊድ የቡኻሪን ቃል በቁባ አውድ ያብራራል። ከዚያም አንቀጹን፣ ብዙኃኑ ስለ ቁባ የሚናገሩትንና የነቢዩን ﷺ መስጊድ የሚለይ የተዘገበ የነቢዩን መልስ ያቀርባል፤ ልዩነቱን ለመተርጎምም መንገዶችን ያቀርባል።"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:right:text_ar",
+      "source_text_sha256": "9456a3fdbf79db548374dd4d7fce3b132e961e9cf04353529b1214d31504fc42",
+      "text": "የነቢዩን ﷺ መስጊድ የሚለይ የተዘገበ የነቢዩ መልስ።"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:a:text_ar",
+      "source_text_sha256": "545d6119b20afc86c097f79da526d4860ce21a6cd721e20cadf4696bb0b7cc37",
+      "text": "ቁባን በስሟ የሚጠራ የቁርአን ጽሑፍ።"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:b:text_ar",
+      "source_text_sha256": "e4702daacfae40dcd2120d584fcb8019e8eef0e522b4e068e7b9e072c00bdceb",
+      "text": "የቁባ መስጊድ ምንም በጎነት እንደሌለው መካድ።"
+    },
+    {
+      "unit_id": "hch_quba_q_verse:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:prompt_ar",
+      "source_text_sha256": "c6a063f118f03e10fcd555325be73b340c8d45898d4dba8b1be48e5d2421b6b0",
+      "text": "ኢብን ኢስሐቅ እንደሚለው ነቢዩ ﷺ ከቁባ ከተነሱ በኋላ የአርብ ሶላት ጊዜ የት አገኛቸው?"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:explanation_ar",
+      "source_text_sha256": "388e68d8e588eb2f91f1fce0f9b07f99437e2da263b91471a929e84cc4a3ddc7",
+      "text": "ቃሉን በራሱ አውድ አንብብ፦ ኢብን ኢስሐቅ አርብ ቀን መነሳታቸውንና የአርብ ሶላት ጊዜ በበኑ ሳሊም ኢብን ዐውፍ በሸለቆው መስጊድ እንዳገኛቸው ይተርካል፤ በዐርዋ ዘገባ ደግሞ ግመላቸው ከበኑ ዐምር ወደ መዲና መስጊድ ሥፍራ ትሄዳለች።"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:scope_note_ar",
+      "source_text_sha256": "2581050911e38d070f8b201f9003c32a9eeafe5d14b0ce201b575f45377aec19",
+      "text": "ጥያቄው በቀረቡት ንባቦች የተጠቀሱ ሰዎች የተናገሩትን ቃላት ይመለከታል፤ በዚህ ርዕስ ያሉ የዘገባ መንገዶችን ሁሉ በግል መመዘን አይደለም።"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:right:text_ar",
+      "source_text_sha256": "58a30135de736de59bf68953c4d042ffb8a70425e91fb08e3adbe58b71885e9c",
+      "text": "በበኑ ሳሊም ኢብን ዐውፍ።"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:right:feedback_ar",
+      "source_text_sha256": "a0911fdd497e602d3feccf20288897afed92bbfdd525bc9b9159b630c42a1734",
+      "text": "አዎን፤ የተመረጠው ንባብ ይህን ይደግፋል።"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:a:text_ar",
+      "source_text_sha256": "d2d3b14a51e143a339700e4706d70f595899d8cb3cd9f78e6cefeb97bd18847e",
+      "text": "በበኑ ነጃር አጥር ያለው መሬት አጠገብ።"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:a:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:b:text_ar",
+      "source_text_sha256": "bf063e2195df460f9de099846ea23b7d8e13995bd5e34ddbe40959a35f4ddc90",
+      "text": "በሰዐድ ኢብን ኸይሰማ ቤት።"
+    },
+    {
+      "unit_id": "hch_quba_q_friday:b:feedback_ar",
+      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
+      "text": "በንባቡ ውስጥ የዘገባውን ወሰንና የተናጋሪውን ድምፅ እንደገና ተመልከት።"
+    },
+    {
+      "unit_id": "hch_quba_review_pending:note_ar",
+      "source_text_sha256": "015f21c39ec0280b140327804a930576f0c3c5d8c99f136c59813dd9da9929bc",
+      "text": "ይህ በተጠቀሱት ምንጮች ወሰን ውስጥ ያለ ረቂቅ የአረብኛ ምዕራፍ ነው፤ ገለልተኛ የቋንቋ ግምገማ፣ የልዩ ባለሙያ ማጽደቅ ወይም የሕትመት ፈቃድ አላገኘም።"
+    },
+    {
+      "unit_id": "hch_quba_end_of_excerpt:note_ar",
+      "source_text_sha256": "278149db4fabff825258e0a1ae4c9d9a921754048361cdeec726403543c08454",
+      "text": "ከዐርዋ የተመረጠው ክፍል በመዲና የግንባታ ረጀዝ መግቢያ ላይ ያበቃል፤ ግጥሙን ከተመረጡት ክፍሎች ውጭ አንሞላውም፣ ለቁባ መስጊድም አናያይዘውም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p1:kind_ar",
+      "source_text_sha256": "31592312c2454a662628bfeaa6e21df924797f4cd8814deb66814fbf89bf994c",
+      "text": "የዐርዋ ዘገባ፦ ጥበቃና መድረስ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p1:speaker_ar",
+      "source_text_sha256": "e1f476ce86f848f240e87594e7053f77fa0e53701e431fd39378918e610170f0",
+      "text": "ዐርዋ ኢብን አዝ-ዙበይር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p1:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም፣ 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p1:text_ar",
+      "source_text_sha256": "301616d8071df9709e4f4af0e59911cb350deb36afee25f81083950c62b3b261",
+      "text": "በየጠዋቱ ወደ ሐራ ይሄዱና የእኩለ ቀን ሙቀት ወደ ቤታቸው እስኪመልሳቸው ድረስ ይጠብቁት ነበር። አንድ ቀን ረጅም ጊዜ ከጠበቁ በኋላ ተመለሱ። ወደ ቤታቸው እንደገቡ፣ አንድ አይሁዳዊ ሰው የሚመለከተው ጉዳይ ስለነበረው ከተመሸጉ ሕንፃዎቻቸው አንዱ ላይ ወጣ። ነቢዩን ﷺ እና ሰሐባዎቻቸውን ነጭ ልብስ ለብሰው በበረሃው ምትሃት መካከል ሲንቀሳቀሱ አያቸው። አይሁዳዊውም ራሱን መቆጣጠር አቅቶት በታላቅ ድምፅ፦ «የዐረብ ሰዎች ሆይ፣ ስትጠብቁት የነበረው ዕድላችሁ ይኸውና!» አለ። ሙስሊሞቹም መሣሪያቸውን አንስተው በሐራው ላይ ነቢዩን ﷺ ተቀበሉ። እርሳቸውም ወደ ቀኝ አዞሯቸው፣ በበኑ ዐምር ኢብን ዐውፍ ዘንድ እስኪያርፉ ድረስ። ይህም በረቢዕ አል-አወል ወር ሰኞ ቀን ነበር። አቡ በክር ለሰዎቹ ቆሙ፣ ነቢዩ ﷺ ግን ዝም ብለው ተቀመጡ። ከመጡት አንሷሮች መካከል ነቢዩን ﷺ ቀድሞ ያላዩ አንዳንዶች አቡ በክርን ሰላም ማለት ጀመሩ። ፀሐይ ነቢዩን ﷺ ስትመታቸው አቡ በክር መጥተው በመጎናጸፊያቸው ጥላ ሰጧቸው፤ ሰዎችም በዚያን ጊዜ ነቢዩን ﷺ አወቋቸው። ነቢዩ ﷺ በበኑ ዐምር ኢብን ዐውፍ ዘንድ ከአሥር በላይ ጥቂት ሌሊቶች ቆዩ። በፈሪሃ አላህ ላይ የተመሠረተው መስጊድ ተመሠረተ፣ ነቢዩ ﷺ በውስጡም ሰገዱ። ከዚያም በመጓጓዣ ግመላቸው ተቀመጡ፤ ሰዎቹ በእግር አብረዋቸው እየሄዱ ግመላዋ በመዲና በነቢዩ ﷺ መስጊድ አጠገብ እስክትንበረከክ ድረስ ሄዱ። በዚያን ጊዜ ከሙስሊሞች የሆኑ ወንዶች በዚያ ይሰግዱ ነበር። ቦታው የሱሀይልና የሰህል የተባሉ ሁለት ወላጅ አልባ ልጆች የቴምር ማድረቂያ ነበር፤ እነሱም በአስዐድ ኢብን ዙራራ እንክብካቤ ሥር ነበሩ፣"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p2:kind_ar",
+      "source_text_sha256": "9b9376711f47ab0bd216420c755a9ca223adb51dbb04b0001b2044c5c8f907cd",
+      "text": "በዐርዋ ዘገባ የነቢዩ ቃል መግቢያ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p2:speaker_ar",
+      "source_text_sha256": "e1f476ce86f848f240e87594e7053f77fa0e53701e431fd39378918e610170f0",
+      "text": "ዐርዋ ኢብን አዝ-ዙበይር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p2:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p2:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም፣ 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p2:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p2:text_ar",
+      "source_text_sha256": "9f2407f2f7b2ffaa5926e878aff13272320d1bbb13acc0f6f86d3715aecdd7da",
+      "text": "ግመላቸው ተንበርክካ ሳለ ነቢዩ ﷺ እንዲህ አሉ፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p3:kind_ar",
+      "source_text_sha256": "a5aadc581c50845344afbe8bd39cc70ec9864eb48cb4b9eb4ea12acbd975fa81",
+      "text": "በዐርዋ ዘገባ የነቢዩ ﷺ ቃል"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p3:speaker_ar",
+      "source_text_sha256": "18bff42b81c9e3cbb046f704287dff83766478819156b3190c2d55203c7d3565",
+      "text": "በዐርዋ እንደተዘገበው ነቢዩ ﷺ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p3:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p3:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም፣ 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p3:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p3:text_ar",
+      "source_text_sha256": "3d50e2548eab6e42d58e1688a2b0cbace8561644efbd4709f4a99e7df49f002f",
+      "text": "«አላህ ከፈቀደ፣ ማረፊያው ይህ ነው።»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p4:kind_ar",
+      "source_text_sha256": "027568926fcae0b65e85920dad7f831cb6d1cf34b45e3acaafb470c08c5baf33",
+      "text": "የዐርዋ ዘገባ፦ በመዲና የመስጊድ ሥፍራ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p4:speaker_ar",
+      "source_text_sha256": "e1f476ce86f848f240e87594e7053f77fa0e53701e431fd39378918e610170f0",
+      "text": "ዐርዋ ኢብን አዝ-ዙበይር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p4:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p4:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም፣ 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p4:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_01:p4:text_ar",
+      "source_text_sha256": "1584ee51e351b3787cd9b9b2edbac411974b4207c2c76d4e759507bc63236bd3",
+      "text": "ከዚያም ነቢዩ ﷺ ሁለቱን ልጆች ጠሩና ቦታውን መስጊድ ለማድረግ በማድረቂያው ዋጋ ላይ ተደራደሩአቸው። እነሱም፦ «አይደለም፣ የአላህ መልእክተኛ ሆይ፣ ለእርስዎ በነፃ እንሰጠዋለን» አሉ። ከዚያም መስጊድ አድርገው ገነቡት። ነቢዩ ﷺ በግንባታው አብረዋቸው ጡቦችን ማጓጓዝ ጀመሩ፤ ጡቦችንም ሲያጓጉዙ እንዲህ ይሉ ነበር፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p1:kind_ar",
+      "source_text_sha256": "f3c3d73754b8e51fdcd72172d9a2162b571026aa1e3ef59146c73dde0605d811",
+      "text": "የአስተላላፊዎች ሰንሰለት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p1:speaker_ar",
+      "source_text_sha256": "b68bef6e219f1ecfc79a7e71d297314b6f64dcdfd8a2c3596af24c3b293d2481",
+      "text": "ኢብን ሺሃብ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p1:citation_ar",
+      "source_text_sha256": "6e49dad4f67f7ad66976373209f4c0a177d97afd1c5cde61c7a1ad9fd4830674",
+      "text": "[ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም፣ 5/60](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p1:text_ar",
+      "source_text_sha256": "7d5541c17e6afc4ecd899476653a40d336534e4ed1777c43e9ab36f80f694e72",
+      "text": "ኢብን ሺሃብ እንዲህ አለ፦ ዐርዋ ኢብን አዝ-ዙበይር እንዲህ ብሎ ነገረኝ፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p2:kind_ar",
+      "source_text_sha256": "3953a412fae6cefd0348aa3755adc69ebbd2c1468171563f0796d1b6523170e1",
+      "text": "የዐርዋ ዘገባ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p2:speaker_ar",
+      "source_text_sha256": "e1f476ce86f848f240e87594e7053f77fa0e53701e431fd39378918e610170f0",
+      "text": "ዐርዋ ኢብን አዝ-ዙበይር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p2:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p2:citation_ar",
+      "source_text_sha256": "6e49dad4f67f7ad66976373209f4c0a177d97afd1c5cde61c7a1ad9fd4830674",
+      "text": "[ሰሒሕ አል-ቡኻሪ — የሱልጣኒያ እትም፣ 5/60](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p2:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_02:p2:text_ar",
+      "source_text_sha256": "a89133106d2c5073eebdb0d31c05f6f068b9af8ec6cad3b3bc6e9af91368730d",
+      "text": "ነቢዩ ﷺ ከሻም ተመላሽ ከነበሩ ነጋዴ ሙስሊሞች ተጓዦች ጋር ያለውን አዝ-ዙበይርን አገኙት። አዝ-ዙበይርም ለነቢዩ ﷺ እና ለአቡ በክር ነጭ ልብሶችን አለበሳቸው። በመዲና የነበሩ ሙስሊሞችም ነቢዩ ﷺ ከመካ መነሳታቸውን ሰምተው ነበር፤ ስለዚህም እነሱ ..."
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p1:kind_ar",
+      "source_text_sha256": "8b34d7cabe55bee6d6d59d3e55970ca46a830b3252644209e28c1baf887cf9ce",
+      "text": "የኢብን ኢስሐቅ የአስተላላፊዎች ሰንሰለት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p1:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ኢብን ኢስሐቅ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p1:citation_ar",
+      "source_text_sha256": "e8b2a36662aca9dcd4cc1634dc9c1ee02c44c3c2b6d08acf52dba61a144fa373",
+      "text": "[ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ፣ 1/492](https://app.turath.io/book/23833?page=515)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p1:text_ar",
+      "source_text_sha256": "1ec70a51d03f8032f13d9fbe238d462c568d9cc482868a968f02e459a1e20456",
+      "text": "ኢብን ኢስሐቅ እንዲህ አለ፦ ሙሐመድ ኢብን ጀዕፈር ኢብን አዝ-ዙበይር ከዐርዋ ኢብን አዝ-ዙበይር፣ እርሱም ከዐብዱርረሕማን ኢብን ዑወይሚር ኢብን ሳዒዳ እንዲህ ብሎ ነገረኝ፦ «ከነቢዩ ﷺ ሰሐባዎች የሆኑ የወገኔ ሰዎች እንዲህ ብለው ነገሩኝ፦»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p2:kind_ar",
+      "source_text_sha256": "45d7ba9e5f2d9b78c061939f445b7a44de21abed6ded03be112c61e9664670e8",
+      "text": "የመቀበል የተላለፈ ዘገባ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p2:speaker_ar",
+      "source_text_sha256": "6d59f6dc33a52ea6de4f06eb65125d7f2337a109b277d18f1b9b55ca8288360a",
+      "text": "ከነቢዩ ﷺ ሰሐባዎች የሆኑ ሰዎች"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p2:citation_ar",
+      "source_text_sha256": "e8b2a36662aca9dcd4cc1634dc9c1ee02c44c3c2b6d08acf52dba61a144fa373",
+      "text": "[ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ፣ 1/492](https://app.turath.io/book/23833?page=515)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p2:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_03:p2:text_ar",
+      "source_text_sha256": "dd11d2fe254b306e7e166629524f38762fd2db4000710203941c5080f9a6ef6d",
+      "text": "«ነቢዩ ﷺ ከመካ መነሳታቸውን በሰማን ጊዜ መድረሳቸውን በጉጉት እየጠበቅን [١]፣ የጠዋት ሶላትን ከሰገድን በኋላ ወደ ሐራችን ውጫዊ ክፍል እንወጣ ነበር፣ ነቢዩን ﷺ ለመጠበቅ። በአላህ እንምላለን፣ ፀሐይ ጥላዎቹን እስክታስወግድብን ድረስ ከዚያ አንነሳም ነበር፤ ጥላ ሲጠፋ ወደ ቤት እንገባ ነበር። ያም በሞቃት ቀናት ነበር። ነቢዩ ﷺ በደረሱበት ቀንም እንደወትሮው ተቀመጥን፤ ጥላ ሲያልቅ ወደ ቤታችን ገባን። ነቢዩ ﷺ የደረሱት ወደ ቤት ስንገባ ነበር። መጀመሪያ ያያቸው አንድ አይሁዳዊ ሰው ነበር። ምን እንደምናደርግና ነቢዩ ﷺ ወደ እኛ መድረሳቸውን እንደምንጠብቅ አይቶ ነበር። በታላቅ ድምፅም፦ ‘የቀይላ ልጆች ሆይ [٢]፣ ዕድላችሁ መጥቷል!’ ብሎ ጮኸ።» እንዲህ አለ፦ «እኛም ወደ ነቢዩ ﷺ ወጣን፤ እርሳቸው በዘንባባ ዛፍ ጥላ ሥር ነበሩ። አቡ በክርም ከእርሳቸው ጋር ነበሩ፣ ዕድሜያቸውም የሚመሳሰል ነበር። አብዛኞቻችን ከዚያ በፊት ነቢዩን ﷺ አይተናቸው አናውቅም። ሰዎች ተጠጉባቸው [٣]፣ ከአቡ በክር መለየትም አልቻሉም። ከነቢዩ ﷺ ላይ ጥላው ሲሸሽ አቡ በክር ቆሙና በመጎናጸፊያቸው ጥላ ሰጧቸው፤ በዚያን ጊዜ አወቅናቸው [٤]።»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_04:p1:kind_ar",
+      "source_text_sha256": "f2a08ffc128e55f686ae29b4fef89fd80150f4ae4ca1a39cb82591ac1e0f8327",
+      "text": "የኢብን ኢስሐቅ ዘገባ፦ የማረፊያው ልዩነት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_04:p1:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ኢብን ኢስሐቅ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_04:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_04:p1:citation_ar",
+      "source_text_sha256": "b45d8bc7a3c5aa678a94043cec93afe2fa033dc6c4a0435530ec7d2bbf21e023",
+      "text": "[ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ፣ 1/493](https://app.turath.io/book/23833?page=516)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_04:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_04:p1:text_ar",
+      "source_text_sha256": "7215ff488d9ea68d4b6abaa1159643f4dc027c7a5f7a49f7740e95cd4300b0f9",
+      "text": "ኢብን ኢስሐቅ እንዲህ አለ፦ ነቢዩ ﷺ፣ እንደሚነገረው፣ በበኑ ዐምር ኢብን ዐውፍ ወገን ውስጥ የበኑ ዑበይድ አባል በሆነው ኩልሱም [١] ኢብን ሂድም ቤት አረፉ። ሌላ አባባል ደግሞ፦ በሰዐድ ኢብን ኸይሰማ ቤት አረፉ ይላል። በኩልሱም ኢብን ሂድም ቤት አረፉ የሚሉት እንዲህ ይላሉ፦ ነቢዩ ﷺ ከኩልሱም ቤት ሲወጡ በሰዐድ ኢብን ኸይሰማ ቤት ለሰዎች ይቀመጡ ነበር። ምክንያቱም ሰዐድ ያላገባና ቤተሰብ የሌለው ነበር፤ ቤቱም ከሙሃጂሮች የሆኑ ያላገቡ የነቢዩ ﷺ ሰሐባዎች [٢] ማረፊያ ነበር። በዚህ ምክንያት በሰዐድ ኢብን ኸይሰማ ቤት አረፉ ይባላል፤ የሰዐድም ቤት «የያላገቡ ወንዶች ቤት» ተብሎ ይጠራ ነበር። ከሁለቱ የትኛው እንደሆነ አላህ ያውቃል፤ ሁለቱንም ሰምተናል።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_05:p1:kind_ar",
+      "source_text_sha256": "7794aff3ed9c33d15f2facb59f990ba1c7065bff1d2e4171fd37d244f10fdd1e",
+      "text": "የኢብን ኢስሐቅ ዘገባ፦ የአቡ በክር ማረፊያ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_05:p1:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ኢብን ኢስሐቅ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_05:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_05:p1:citation_ar",
+      "source_text_sha256": "b45d8bc7a3c5aa678a94043cec93afe2fa033dc6c4a0435530ec7d2bbf21e023",
+      "text": "[ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ፣ 1/493](https://app.turath.io/book/23833?page=516)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_05:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_05:p1:text_ar",
+      "source_text_sha256": "087e1424b2862c79ec53ff4b09f07e4a29a6f8eadc2e4410be3b57fc3df61ad7",
+      "text": "አቡ በክር አስ-ሲዲቅ በሱንሕ ከበኑ አል-ሐሪስ አል-ኸዝረጅ የሆነው ኹበይብ ኢብን ኢሳፍ ቤት አረፉ። አንድ ሰው ግን፦ «ማረፊያቸው ከበኑ አል-ሐሪስ ኢብን አል-ኸዝረጅ የሆነው ኻሪጃ ኢብን ዘይድ ኢብን አቢ ዙሀይር ቤት ነበር» ይላል።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_06:p1:kind_ar",
+      "source_text_sha256": "b3477202b36fab6342adaedb4cc7c1609bd9f2f1db0ad8b783f5941990c6728a",
+      "text": "የኢብን ኢስሐቅ ዘገባ፦ ቀናትና መስጊድ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_06:p1:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ኢብን ኢስሐቅ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_06:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_06:p1:citation_ar",
+      "source_text_sha256": "6381165e9f83c8cb2d440fdb2b176375a6981f3ddcdcf4e8e3946443f54cdcf5",
+      "text": "[ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ፣ 1/494](https://app.turath.io/book/23833?page=517)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_06:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_06:p1:text_ar",
+      "source_text_sha256": "aea76b51164abe92395b4c75f84f5e9afee678f887305352b974d99f8650767c",
+      "text": "ኢብን ኢስሐቅ እንዲህ አለ፦ ነቢዩ ﷺ በቁባ፣ በበኑ ዐምር ኢብን ዐውፍ ዘንድ፣ ሰኞ፣ ማክሰኞ፣ ረቡዕና ሐሙስ ቆዩ፤ መስጊዳቸውንም መሠረቱ [٢]።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_07:p1:kind_ar",
+      "source_text_sha256": "7833d49b271f152eca8981fa32df9473c8e6b4c5c83e0282ce16ab435502726b",
+      "text": "የኢብን ኢስሐቅ ዘገባ፦ መነሳትና የአርብ ሶላት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_07:p1:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ኢብን ኢስሐቅ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_07:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_07:p1:citation_ar",
+      "source_text_sha256": "6381165e9f83c8cb2d440fdb2b176375a6981f3ddcdcf4e8e3946443f54cdcf5",
+      "text": "[ሲራ ኢብን ሂሻም — በአስ-ሰቃ የተሰናዳ፣ 1/494](https://app.turath.io/book/23833?page=517)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_07:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_07:p1:text_ar",
+      "source_text_sha256": "cfed9dd70c999dcd764d3d550e99f8b9dacb44dd291f0028b2af8e234a7119c1",
+      "text": "ከዚያም አላህ አርብ ቀን ከመካከላቸው አስወጣቸው። በኑ ዐምር ኢብን ዐውፍ ግን ከዚህ በላይ በመካከላቸው እንደቆዩ ይናገራሉ፤ የትኛው እንደሆነ አላህ ያውቃል። የአርብ ሶላት ጊዜ ነቢዩን ﷺ በበኑ ሳሊም ኢብን ዐውፍ አገኛቸው፤ በራኑናእ ሸለቆ [٣] መሀል ባለው መስጊድም ሰገዱት። ይህም በመዲና የሰገዱት የመጀመሪያ የአርብ ሶላት ነበር።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_08:p1:kind_ar",
+      "source_text_sha256": "fd4935b366a59cfed31371eeeea0c5fafa6e4d2ad844ea396f45f5c28ca9538d",
+      "text": "የመድረሻ ቀኖች ማብራሪያና ንጽጽር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_08:p1:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_08:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_08:p1:citation_ar",
+      "source_text_sha256": "bf3408022aed65d0df54e5095d4a28d00ebd1ef1993703762dbe216af6d3ccf7",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/244](https://app.turath.io/book/1673?page=4072)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_08:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_08:p1:text_ar",
+      "source_text_sha256": "88f97eb71845ccf3c647c83755feff2dae0a20895fa36f08becebbefaafe0193",
+      "text": "የእርሱ አባባል፦ «ይህም በረቢዕ አል-አወል ወር ሰኞ ቀን ነበር»። የሚታመነው ይህ ነው፤ አርብ ነበር ያለው ከተለመደው ወጥቷል። በሙሳ ኢብን ዑቅባ ከኢብን ሺሃብ የተላለፈው ዘገባ መድረሱን ለረቢዕ አል-አወል አዲስ ጨረቃ ያስቀምጠዋል፣ ማለትም በመጀመሪያው ቀን። በጀሪር ኢብን ሓዚም ከኢብን ኢስሐቅ የተላለፈው ዘገባ ደግሞ ከረቢዕ አል-አወል ሁለት ሌሊቶች ካለፉ በኋላ እንደደረሰ ይላል። በአቡ መዕሸርም ተመሳሳይ ነው፣ ነገር ግን እርሱ «ሰኞ ሌሊት» ይላል። ከኢብን አል-በርቂም እንዲሁ ነው፤ በሰሒሕ ሙስሊም የመጨረሻ ክፍሎችም እንዲሁ ተመዝግቧል። በኢብራሂም ኢብን ሰዐድ ከኢብን ኢስሐቅ የተላለፈው ደግሞ ከረቢዕ አል-አወል አሥራ ሁለት ሌሊቶች ካለፉ በኋላ እንደደረሰ ይላል። በአቡ ሰዒድ «ሸረፍ አል-ሙስጠፋ» ውስጥ በአቡ በክር ኢብን ሐዝም መንገድ ደግሞ በረቢዕ አል-አወል አሥራ ሦስተኛው ቀን ደረሰ ይላል። ይህንና ቀደም ያለውን በጨረቃ መታየት ልዩነት ማስማማት ይቻላል። ከዑመር በእርሱ ዘንድ የተላለፈው ሐዲስ «ከረቢዕ አል-አወል ሁለት ሌሊቶች ሲቀሩ ሰኞ ቀን በበኑ ዐምር ኢብን ዐውፍ ዘንድ አረፈ» ይላል፤ በጽሑፉ ያለው እንዲህ ነው። ምናልባት ከጀሪር ኢብን ሓዚም ዘገባ ጋር እንዲስማማ «ሁለት ሌሊቶች ካለፉ» የሚል ነበር። በአዝ-ዙበይር «የመዲና ዘገባ» ከኢብን ሺሃብ የተላለፈው ደግሞ በረቢዕ አል-አወል አጋማሽ ይላል፤ ሰባተኛው ቀን ነበርም ተብሏል። ኢብን ሐዝም ከሰፈር ሦስት ሌሊቶች ሲቀሩ ከመካ እንደተነሳ በእርግጠኝነት ተናገረ። ይህም ሂሻም ኢብን አል-ከልቢ «በረቢዕ አል-አወል የመጀመሪያ ቀን ሰኞ ሌሊት ከዋሻው ተነሳ» ከሚለው ጋር ይስማማል። ይህ ተጠብቆ የተላለፈ ከሆነ፣ ምናልባት ወደ ቁባ የደረሰው በረቢዕ አል-አወል ስምንተኛ ቀን ሰኞ ነበር። የአነስን «በቁባ አሥራ አራት ሌሊቶች ቆየ» ከዚህ ጋር ብናገናኘው ወደ መዲና መግባቱ በወሩ ሃያ ሁለተኛው ቀን እንደነበረ ይከተላል። አል-ከልቢ ግን በወሩ አሥራ ሁለት ሌሊቶች ካለፉ በኋላ እንደገባ በእርግጠኝነት አለ። በእርሱ አባባል መሠረት በቁባ የቆየው አራት ሌሊቶች ብቻ ይሆናሉ። ኢብን ሒባንም በዚህ በእርግጠኝነት ተናግሮ፣ «ማክሰኞ፣ ረቡዕና ሐሙስ ቆየ» ብሏል፣ ማለትም አርብ ቀን ተነሳ። የመነሻውን ቀን አልቆጠረም ማለት ይመስላል። ሙሳ ኢብን ዑቅባም «ሦስት ሌሊቶች ቆየ» አለ፤ እርሱም የመነሻውንም የመድረሻውንም ቀን አልቆጠረም ማለት ይመስላል። ከበኑ ዐምር ኢብን ዐውፍ አንዳንድ ሰዎች ደግሞ በመካከላቸው ሃያ ሁለት ቀናት እንደቆየ ተናገሩ፤ ይህን አዝ-ዙበይር ኢብን በካር አስተላልፏል። የዐርዋ ኢብን አዝ-ዙበይር ሙርሰል ዘገባም በቅርቡ እንደሚጠቀሰው ለዚህ የቀረበ ነው። አብዛኞቹ በቀን እንደደረሰ ይላሉ፤ በሙስሊም ዘገባ ግን በሌሊት እንደደረሰ ተጠቅሷል። በሌሊት መጨረሻ ደርሶ በቀን ገባ በማለት ማስማማት ይቻላል።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_09:p1:kind_ar",
+      "source_text_sha256": "29f8208fad70020818bc85d65ae7f51173a982195820c434a54e9486d3e81379",
+      "text": "ስለ ቆይታ ርዝመቶች ማብራሪያና ንጽጽር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_09:p1:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_09:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_09:p1:citation_ar",
+      "source_text_sha256": "bf3408022aed65d0df54e5095d4a28d00ebd1ef1993703762dbe216af6d3ccf7",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/244](https://app.turath.io/book/1673?page=4072)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_09:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_09:p1:text_ar",
+      "source_text_sha256": "30befc6cf4c6790b415d9b482409f334c23cb693096c6a135ab0d9a93f5b5497",
+      "text": "የእርሱ አባባል፦ «ነቢዩ ﷺ በበኑ ዐምር ኢብን ዐውፍ ዘንድ ከአሥር በላይ ጥቂት ሌሊቶች ቆዩ»። በቀጣዩ ምዕራፍ በሚመጣው የአነስ ሐዲስ ግን አሥራ አራት ሌሊቶች እንደቆዩባቸው ይገለጻል። ከዚያ በፊት የሚቃረነውን ጠቅሻለሁ፤ አላህም ያውቃል። ሙሳ ኢብን ዑቅባ ከኢብን ሺሃብ፦ «በመካከላቸው ሦስት [ቀናት] ቆየ» አለ። ኢብን ሺሃብ ከመጅመዕ ኢብን ሐሪሳ በመካከላቸው ሃያ ሁለት ሌሊቶች እንደቆየ አስተላልፏልም አለ። ኢብን ኢስሐቅ «በመካከላቸው አምስት [ቀናት] ቆየ፣ በኑ ዐምር ኢብን ዐውፍ ግን ከዚያ በላይ ነበር ይላሉ» አለ። እኔም እላለሁ፦ አነስ ከበኑ ዐምር ኢብን ዐውፍ አይደለም፤ እነሱ ከአውስ ናቸው፣ አነስ ግን ከኸዝረጅ ነው። የጠቀስኩትንም በእርግጠኝነት ተናግሯል፤ ስለዚህ የእርሱ አባባል ከሌሎች ይልቅ ለመቀበል የተገባ ነው።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p1:kind_ar",
+      "source_text_sha256": "db1102245fec06f912749e3eb33d547d68c348c298be78aee99aa9218bb0f0b9",
+      "text": "ከመቀየሪያ ምልክት ጋር ሁለት የአስተላላፊዎች ሰንሰለቶች"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p1:speaker_ar",
+      "source_text_sha256": "3cc39b74d0a8be55dc61043c96f29c137c440ac6de2f26d461c5a8841edd0fc6",
+      "text": "በይሐቂ ከመምህሮቹ በማስተላለፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "ደላኢል አን-ኑቡዋ — በይሐቂ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p1:citation_ar",
+      "source_text_sha256": "203de6d86b7af81dcf23316501bc9d7972b7e1f0428aa41084f55de34e0f9d6e",
+      "text": "[ደላኢል አን-ኑቡዋ — በይሐቂ፣ 2/539](https://app.turath.io/book/7478?page=1060)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p1:text_ar",
+      "source_text_sha256": "a8fd8dae35193e56c4116dab494c875c0973c94bfa037545de0df350cabef537",
+      "text": "አቡ ዐብዱላህ አል-ሓፊዝ ነገረን፤ እንዲህ አለ፦ አቡ ዐብዱላህ ሙሐመድ ኢብን ያዕቁብ ነገረን፤ እርሱም ያሕያ ኢብን ሙሐመድ ኢብን ያሕያ ነገረን አለ፤ እርሱም ሙሰደድ ነገረን አለ፤ እርሱም ዐብዱል-ዋሪስ ነገረን አለ።\n(ሐ፣ ወደ ሌላ ሰንሰለት መቀየር) አቡ ዐብዱላህ ነገረን፤ እንዲህ አለ፦ አቡ በክር ኢብን ኢስሐቅ አል-ፈቂህ ነገረን፤ እርሱም ኢስማዒል ኢብን ቁተይባ ነገረን አለ፤ እርሱም ያሕያ ኢብን ያሕያ ነገረን አለ፤ እርሱም ዐብዱል-ዋሪስ ኢብን ሰዒድ ነገረን አለ፤ እርሱም አቡ አት-ተያሕ ከአነስ ኢብን ማሊክ ነገረን አለ፤ አነስም እንዲህ አለ፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p2:kind_ar",
+      "source_text_sha256": "451249d819f4c2395b9fc24df7fb9d5919f1e6f07ba8b91f15bea0255a5eab95",
+      "text": "የአነስ ዘገባ፦ ቆይታና መጓዝ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p2:speaker_ar",
+      "source_text_sha256": "57092ffa8dce06dc807a0c47d9949a2d7c30987a801904c0485f898c455aaf8d",
+      "text": "አነስ ኢብን ማሊክ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "ደላኢል አን-ኑቡዋ — በይሐቂ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p2:citation_ar",
+      "source_text_sha256": "203de6d86b7af81dcf23316501bc9d7972b7e1f0428aa41084f55de34e0f9d6e",
+      "text": "[ደላኢል አን-ኑቡዋ — በይሐቂ፣ 2/539](https://app.turath.io/book/7478?page=1060)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p2:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p2:text_ar",
+      "source_text_sha256": "6ed9756e732b59a14955195b7bccc0bbc3668d9da8dd073eadb29dad626c6a22",
+      "text": "«ነቢዩ ﷺ ወደ መዲና ሲደርሱ ከመዲና ከፍ ብሎ በሚገኝ በበኑ ዐምር ኢብን ዐውፍ ተብሎ በሚጠራ ሰፈር አረፉ። በመካከላቸውም አሥራ አራት ሌሊቶች ቆዩ። ከዚያም ወደ በኑ ነጃር መሪዎች መልእክት ላኩ፤ እነሱም ሰይፎቻቸውን ታጥቀው መጡ።» አነስ እንዲህ አለ፦ «አሁንም ነቢዩን ﷺ በግመላቸው ላይ፣ አቡ በክርንም ከኋላቸው ተቀምጠው፣ የበኑ ነጃርን መሪዎችም በዙሪያቸው እንደማያቸው ይመስለኛል። በአቡ አዩብ ቤት አደባባይ እስኪያርፉ ድረስ እንዲህ ነበር። ነቢዩ ﷺ የሶላት ጊዜ ባገኛቸው ሁሉ ይሰግዱ ነበር፤ በበጎች ማረፊያዎችም ይሰግዱ ነበር። ከዚያም መስጊድ እንዲሠራ አዘዙ፤ ወደ በኑ ነጃር መሪዎች መልእክት ላኩ፣ እነሱም መጡ። እንዲህም አሉ፦»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p3:kind_ar",
+      "source_text_sha256": "f8adac0d94d65843b385234d3dc0d971089bf029e3dd80a5ebe9e7368cfd8e0d",
+      "text": "በአነስ እንደተዘገበው የነቢዩ ﷺ ቃል"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p3:speaker_ar",
+      "source_text_sha256": "263b0dd9406411671b5964b704edcbf3bfb56d768e75fa8d34131a4e201b8aae",
+      "text": "ነቢዩ ﷺ በአነስ ዘገባ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p3:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "ደላኢል አን-ኑቡዋ — በይሐቂ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p3:citation_ar",
+      "source_text_sha256": "203de6d86b7af81dcf23316501bc9d7972b7e1f0428aa41084f55de34e0f9d6e",
+      "text": "[ደላኢል አን-ኑቡዋ — በይሐቂ፣ 2/539](https://app.turath.io/book/7478?page=1060)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p3:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p3:text_ar",
+      "source_text_sha256": "0d922495208e72a3b5f21a19e8a65027c4fe36edbcc684ab28de57011de2fbfd",
+      "text": "«የበኑ ነጃር ሰዎች ሆይ፣ ለዚህ በአጥር የተከበበ መሬታችሁ ዋጋ አስቀምጡልኝ።»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4:kind_ar",
+      "source_text_sha256": "461174984e0ae1c2e8948968f9d63bb6a79059771a648064d742ac7433835678",
+      "text": "በአነስ ዘገባ የበኑ ነጃር መልስ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4:speaker_ar",
+      "source_text_sha256": "13932beb272a0e99b4eda06199c803141c626076523e13ff6d436cbfd4fb048e",
+      "text": "በአነስ እንደተላለፈው በኑ ነጃር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "ደላኢል አን-ኑቡዋ — በይሐቂ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4:citation_ar",
+      "source_text_sha256": "203de6d86b7af81dcf23316501bc9d7972b7e1f0428aa41084f55de34e0f9d6e",
+      "text": "[ደላኢል አን-ኑቡዋ — በይሐቂ፣ 2/539](https://app.turath.io/book/7478?page=1060)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4:text_ar",
+      "source_text_sha256": "67885d29d19c150a252a2577ceb312b48883943b0ed09dfa86582d2fe46bf5d7",
+      "text": "እነሱም፦ «አይደለም፤ በአላህ እንምላለን፣ ክፍያውን ከአላህ ብቻ እንጠብቃለን» አሉ።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4_cont:kind_ar",
+      "source_text_sha256": "1ea214becba9dcb9dcff907b1d88806e565acd7bbbf44941deccc6112ae756b6",
+      "text": "ስለ ሥፍራው የአነስ ዘገባ ቀጣይ ክፍል"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4_cont:speaker_ar",
+      "source_text_sha256": "57092ffa8dce06dc807a0c47d9949a2d7c30987a801904c0485f898c455aaf8d",
+      "text": "አነስ ኢብን ማሊክ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4_cont:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "ደላኢል አን-ኑቡዋ — በይሐቂ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4_cont:citation_ar",
+      "source_text_sha256": "203de6d86b7af81dcf23316501bc9d7972b7e1f0428aa41084f55de34e0f9d6e",
+      "text": "[ደላኢል አን-ኑቡዋ — በይሐቂ፣ 2/539](https://app.turath.io/book/7478?page=1060)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4_cont:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_10:p4_cont:text_ar",
+      "source_text_sha256": "12d430d434d34dc6a6c9d6832b07210d8776b8b439a6907b5cf41cd8a2459284",
+      "text": "እንዲህ አለ፤ አነስም እንዲህ አለ፦ «ስለ ቦታው የምነግራችሁ ይህ ነው፤ በውስጡ የአጋሪዎች መቃብሮች፣ ፍርስራሾችና የዘንባባ ዛፎች ነበሩ። ነቢዩ»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_14:p1:kind_ar",
+      "source_text_sha256": "9f0f83026d41ea570afb483dda2e037204a8d93bdc2a4be2df4244bae191882b",
+      "text": "ስለ አስተላላፊዎች የአነባበብ ልዩነት ማብራሪያ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_14:p1:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_14:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_14:p1:citation_ar",
+      "source_text_sha256": "c690a71fe518472913815a78e2646889a3c89855f59ce853e7f9496d1ea29f34",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 1/525](https://app.turath.io/book/1673?page=1011)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_14:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_14:p1:text_ar",
+      "source_text_sha256": "d13b0206b20dafe5666d17c3ccd3ed884ff32ca292a38ec301b7a45993aa4382",
+      "text": "በዚህ ዘገባ «በመካከላቸው ሃያ አራት [ሌሊቶች] ቆዩ» የሚለው ለአል-ሙስተምሊና ለአል-ሐመዊ እንዲሁ ነው፤ በቀሩት ዘንድ ግን አሥራ አራት ነው፣ በዚህ የዘገባ መንገድም ትክክለኛው ይህ ነው። አቡ ዳዉድም ከቡኻሪ መምህር ሙሰደድ እንዲሁ አስተላልፎታል። በዚህም «የሲራ ሰዎች በዚህ ጉዳይ ተለያይተዋል፣ ከዚህ በኋላ እንደሚጠቀሰው» የሚል ቃል አለ።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p1:kind_ar",
+      "source_text_sha256": "3a578ac6ee4fe375cef874e0f906d09a8467ec56e6f2a2c14fad251c7706cd3a",
+      "text": "በመዲና ስላለው መስጊድ የአነስ ዘገባ ቀጣይ ክፍል"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p1:speaker_ar",
+      "source_text_sha256": "57092ffa8dce06dc807a0c47d9949a2d7c30987a801904c0485f898c455aaf8d",
+      "text": "አነስ ኢብን ማሊክ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "ደላኢል አን-ኑቡዋ — በይሐቂ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p1:citation_ar",
+      "source_text_sha256": "8fdf0dc510a69cf15c119109eb34e3e2dd94ad84a18d5933232ce95bb36d33bd",
+      "text": "[ደላኢል አን-ኑቡዋ — በይሐቂ፣ 2/540](https://app.turath.io/book/7478?page=1061)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p1:text_ar",
+      "source_text_sha256": "168712d275ac4a008955e8dd4fb963d8de0b968216384f79fd4b8c8cbf089298",
+      "text": "ﷺ የአጋሪዎች መቃብሮች እንዲቆፈሩ አዘዙ፣ ተቆፈሩም፤ ፍርስራሾቹ እንዲደለደሉ አዘዙ፣ ተደለደሉም፤ የዘንባባ ዛፎቹ እንዲቆረጡ አዘዙ፣ ተቆረጡም። የዘንባባውን ግንዶች ለመስጊዱ ቂብላ ተራ አድርገው አስቀመጡ፣ ሁለት የበር ምሰሶዎቹንም ከድንጋይ አደረጉ። ድንጋይ እያጓጓዙ በረጀዝ ግጥም ያዜሙ ነበር፤ ነቢዩ ﷺ ከእነሱ ጋር ነበሩ፤ እንዲህም ይሉ ነበር፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p2:kind_ar",
+      "source_text_sha256": "06411a54d124d6f6f639b9261b9d5a31af027e4279892730298f2631b920a6de",
+      "text": "በግንባታው ወቅት የተዘገበ ረጀዝ ግጥም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p2:speaker_ar",
+      "source_text_sha256": "66a6ed3345195ffc18be8db307c8e6126ae70a01d9386f5437fe62b66d6a193f",
+      "text": "በአነስ ዘገባ ግጥሙን የሚናገሩት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "ደላኢል አን-ኑቡዋ — በይሐቂ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p2:citation_ar",
+      "source_text_sha256": "8fdf0dc510a69cf15c119109eb34e3e2dd94ad84a18d5933232ce95bb36d33bd",
+      "text": "[ደላኢል አን-ኑቡዋ — በይሐቂ፣ 2/540](https://app.turath.io/book/7478?page=1061)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p2:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_11:p2:text_ar",
+      "source_text_sha256": "8ebcbd88728b6ebec5b24c5e3e9028763019a019b3aa15f26f0fc28ea28d1cc2",
+      "text": "«አላህ ሆይ፣ ከአኼራ በጎነት በቀር እውነተኛ በጎነት የለም፤ ... ስለዚህ አንሷርንና ሙሃጂሮችን እርዳ።»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p1:kind_ar",
+      "source_text_sha256": "a36ac4fb2305a83cffe8426f6839d826f0e6556b6aee15eda2e1a30424fc7afb",
+      "text": "ማብራሪያ፣ ጥቅስና አስተያየት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p1:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p1:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p1:text_ar",
+      "source_text_sha256": "dd71868270cdb0475ae46419b3aa94b997ed55f5d339dc668ef2936fe04f1444",
+      "text": "«በፈሪሃ አላህ ላይ» ማለቱ የቁባ መስጊድ ማለት ነው። በዐብዱርረዛቅ ከመዕመር፣ እርሱም ከኢብን ሺሃብ፣ እርሱም ከዐርዋ በተላለፈው ዘገባ ዐርዋ፦ «በፈሪሃ አላህ ላይ የተመሠረተው መስጊድ በመካከላቸው የተሠራላቸው ሰዎች በኑ ዐምር ኢብን ዐውፍ ናቸው» አለ። በኢብን ዓኢዝ ዘንድ በኢብን ዐባስ ሐዲስም እንዲሁ ነው፤ አባባሉም፦ «በበኑ ዐምር ኢብን ዐውፍ ዘንድ ሦስት ሌሊቶች ቆየ፤ የነበረበትንም ስፍራ መስጊድ አደረገ፣ በዚያም ይሰግድ ነበር። ከዚያም በኑ ዐምር ኢብን ዐውፍ ገነቡት፤ በፈሪሃ አላህ ላይ የተመሠረተውም እሱ ነው» የሚል ነው። ዩኑስ ኢብን ቡከይር በ«ዚያዳት አል-መጋዚ» ከአል-መስዑዲ፣ እርሱም ከአል-ሐከም ኢብን ዑተይባ እንዲህ ብሎ አስተላልፏል፦ «ነቢዩ ﷺ በቁባ ሲያርፉ ዐማር ኢብን ያሲር፦ ‘ነቢዩ ﷺ ሲነቁ ጥላ የሚያገኙበትና የሚሰግዱበት ቦታ መኖር አለበት’ አለ። ድንጋዮችንም ሰብስቦ የቁባን መስጊድ ገነባ።» ማለትም በመዲና የተሠራ የመጀመሪያው መስጊድ ነው። በትክክልም ነቢዩ ﷺ ከሰሐባዎቻቸው ጋር በግልጽ በጀመዓ የሰገዱበት የመጀመሪያው መስጊድ ነው፤ ለመላው ሙስሊም ማኅበረሰብ የተሠራ የመጀመሪያውም መስጊድ ነው። ከዚያ በፊት ሌሎች መስጊዶች ቢገነቡም ለገነቧቸው ሰዎች ልዩ ጥቅም ነበር፤ አቡ በክር መስጊዳቸውን ስለመገንባታቸው በዓኢሻ ሐዲስ ቀደም ብሎ እንደተጠቀሰው። ኢብን አቢ ሸይባ ከጃቢር እንዲህ ብሎ አስተላልፏል፦ «ነቢዩ ﷺ ወደ እኛ ከመድረሳቸው በፊት ለዓመታት በመዲና መስጊዶችን እያለማን ሶላትንም እየሰገድን ኖረናል።» ታላቁ አላህ ባለው ቃል የታሰበው ምን እንደሆነ ግን ልዩነት አለ፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p2:kind_ar",
+      "source_text_sha256": "d26b6488b84115e010032787cd341562d1790349c396105a407c1e7d324f4129",
+      "text": "በማብራሪያው የተጠቀሰ የቁርአን አንቀጽ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p2:speaker_ar",
+      "source_text_sha256": "5c9fef82d4e066e11d9e01d6e30a5a728bb76ebb682a9efd4d43fbfb2b58bd51",
+      "text": "የተጠቀሰው የቁርአን ጽሑፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p2:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p2:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p2:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p2:text_ar",
+      "source_text_sha256": "03545365f6bd3f3a999d0b4281cbbb3a5444a3eb7a36d8e51ebc597adf1b21fc",
+      "text": "﴿ከመጀመሪያው ቀን ጀምሮ በፈሪሃ አላህ ላይ የተመሠረተ መስጊድ﴾"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p3:kind_ar",
+      "source_text_sha256": "a36ac4fb2305a83cffe8426f6839d826f0e6556b6aee15eda2e1a30424fc7afb",
+      "text": "ማብራሪያ፣ ጥቅስና አስተያየት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p3:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p3:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p3:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p3:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p3:text_ar",
+      "source_text_sha256": "009667d7d99b33d44e57ec24c95daf8106913ba8518e22c58d620ac37c69b316",
+      "text": "ብዙኃኑ በዚህ የታሰበው የቁባ መስጊድ ነው ይላሉ፤ ይህም ከአንቀጹ ግልጽ አገባብ የሚታይ ነው። ሙስሊም ከዐብዱርረሕማን ኢብን አቢ ሰዒድ፣ እርሱም ከአባቱ እንዲህ ብሎ አስተላልፏል፦ «በፈሪሃ አላህ ላይ ስለተመሠረተው መስጊድ ነቢዩን ﷺ ጠየቅሁ፤ እንዲህም አሉ፦»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p4:kind_ar",
+      "source_text_sha256": "e3729f502939f278a62642df0730c30fa4860fd6d29d3c4f21dc282c87bcf15a",
+      "text": "በኢብን ሐጀር እንደተዘገበው የነቢዩ ﷺ መልስ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p4:speaker_ar",
+      "source_text_sha256": "b1a605d1c1b3124ca3711bdc3b24a0c23741759ec950fcd771ae12fadc618ea2",
+      "text": "ነቢዩ ﷺ በኢብን ሐጀር አስተላለፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p4:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p4:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p4:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p4:text_ar",
+      "source_text_sha256": "529978e6e18ec20bb9224ffdb11e3bd42efdb3892d88c6c7a918fcfe24f9c4ad",
+      "text": "«ይህ መስጊዳችሁ ነው።»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p5:kind_ar",
+      "source_text_sha256": "a36ac4fb2305a83cffe8426f6839d826f0e6556b6aee15eda2e1a30424fc7afb",
+      "text": "ማብራሪያ፣ ጥቅስና አስተያየት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p5:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p5:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p5:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p5:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p5:text_ar",
+      "source_text_sha256": "3dd67700de203b43c9dd307e0aedf48b5d7159d594f3f5cb09dff5a201d359cb",
+      "text": "አሕመድና ቲርሚዚም በሌላ መንገድ ከአቡ ሰዒድ እንዲህ ብለው አስተላልፈዋል፦ «ሁለት ሰዎች በፈሪሃ አላህ ላይ ስለተመሠረተው መስጊድ ተለያዩ። አንዱ ‘የነቢዩ ﷺ መስጊድ ነው’ አለ፤ ሌላውም ‘የቁባ መስጊድ ነው’ አለ። ሁለቱም ወደ ነቢዩ ﷺ መጥተው ስለዚህ ጠየቋቸው፤ እንዲህም አሉ፦»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p6:kind_ar",
+      "source_text_sha256": "e3729f502939f278a62642df0730c30fa4860fd6d29d3c4f21dc282c87bcf15a",
+      "text": "በኢብን ሐጀር እንደተዘገበው የነቢዩ ﷺ መልስ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p6:speaker_ar",
+      "source_text_sha256": "b1a605d1c1b3124ca3711bdc3b24a0c23741759ec950fcd771ae12fadc618ea2",
+      "text": "ነቢዩ ﷺ በኢብን ሐጀር አስተላለፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p6:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p6:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p6:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p6:text_ar",
+      "source_text_sha256": "04c4576cb024f28b88e77264de0a7f8ff441a9ea0568b26220e5f1e0b4fd8997",
+      "text": "«ይህ ነው፤ በዚያም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p7:kind_ar",
+      "source_text_sha256": "4e9d3a53332c5fffe44fe4a805e517f10e1fb14f6700b6a2a9de2f85abdd86a7",
+      "text": "በሐዲሱ ዘገባ ውስጥ የገባ ማብራሪያ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p7:speaker_ar",
+      "source_text_sha256": "76e53dc751de22556e87744e26f290c49d47c2ca8412f41ba0f8270ca0778ca2",
+      "text": "የአስተላላፊው ማብራሪያ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p7:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p7:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p7:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p7:text_ar",
+      "source_text_sha256": "d8aaa2be90f18b145089e6b71c75485f2b196502222c2e365ce5d1f9b69b4b1c",
+      "text": "— የቁባ መስጊድ ማለቱ ነው —"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p8:kind_ar",
+      "source_text_sha256": "e3729f502939f278a62642df0730c30fa4860fd6d29d3c4f21dc282c87bcf15a",
+      "text": "በኢብን ሐጀር እንደተዘገበው የነቢዩ ﷺ መልስ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p8:speaker_ar",
+      "source_text_sha256": "b1a605d1c1b3124ca3711bdc3b24a0c23741759ec950fcd771ae12fadc618ea2",
+      "text": "ነቢዩ ﷺ በኢብን ሐጀር አስተላለፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p8:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p8:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p8:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p8:text_ar",
+      "source_text_sha256": "3a1664cefa7599afe74d3fe086c5fcb1c1cd983d8b152da34056f3990bfc4857",
+      "text": "ብዙ በጎነት አለ።»"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9:kind_ar",
+      "source_text_sha256": "3b2eac7af3b90232c09d50848b07441f2f3d324644c3310fd0d7ba898c7b9d62",
+      "text": "የቁርጡቢ ማብራሪያ ከመጥቀሱ በፊት የሐዲስ ማጣቀሻ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9:text_ar",
+      "source_text_sha256": "6433d4fedf0805ea921d39c5e8334a84551bc7b0a2cfc059afc9ca22effa9594",
+      "text": "አሕመድም ከሰህል ኢብን ሰዐድ ተመሳሳይ ዘገባ አለው፤ በሌላ መንገድም ከሰህል ኢብን ሰዐድ፣ እርሱም ከኡበይ ኢብን ከዕብ፣ እስከ ነቢዩ ﷺ የደረሰ ዘገባ አውጥቶታል።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_qurtubi:kind_ar",
+      "source_text_sha256": "c5030b66b9780fc0ae8a2b8c4f4c5d6e2f6bce83786cff12d8f66a3996ebf019",
+      "text": "የቁርጡቢ የተጠቀሰ ማብራሪያ ከጥቅሱ መጨረሻ ምልክት ጋር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_qurtubi:speaker_ar",
+      "source_text_sha256": "f8db60d1b1c43562c820359eb2519338322cc7547b83a5415c346e8148a62140",
+      "text": "ቁርጡቢ በኢብን ሐጀር አስተላለፍ፤ «ተጠናቀቀ» የሚለው የተንታኙ ምልክት ነው"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_qurtubi:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_qurtubi:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_qurtubi:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_qurtubi:text_ar",
+      "source_text_sha256": "fcbab646cc0a56a1a124262f332af97af46fefe235107591517f8a55fdadb9d5",
+      "text": "ቁርጡቢ እንዲህ አለ፦ ጥያቄውን ያቀረበው ሰው ሁለቱንም መስጊዶች ነቢዩ ﷺ ስለገነቧቸው በዚህ ረገድ እኩል እንደሆኑ የተረዳ ነበር። ስለዚህ ነቢዩ ﷺ ተጠየቁ፤ እርሳቸውም የታሰበው የራሳቸው መስጊድ እንደሆነ መለሱ። ከቁባ መስጊድ ይልቅ መስጊዳቸውን ለመለየት የሚያበቃው ብልጫ ምናልባት የቁባ መስጊድ ግንባታ ከአላህ ለነቢዩ ﷺ በመጣ የጸና ትእዛዝ አለመሆኑ፣ ወይም ከራሳቸው አስተያየት መነሳቱ ሊሆን ይችላል፤ የራሳቸው መስጊድ ግን ከዚህ ይለያል። ወይም በመስጊዳቸው እርሳቸው ወይም ሰሐባዎቻቸው በሌላው ያላገኙትን የልብ ሁኔታዎች አግኝተው ይሆናል። የቁርጡቢ ጥቅስ ተጠናቀቀ።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_hajar:kind_ar",
+      "source_text_sha256": "dbba80f573107341584dbd54dbd84c7e726f6f27d0a376bf5aa9f1edc4b3d917",
+      "text": "ኢብን ሐጀር በቁርጡቢ ማብራሪያ ላይ የሰጠው አስተያየት"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_hajar:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_hajar:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_hajar:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_hajar:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p9_hajar:text_ar",
+      "source_text_sha256": "0dda4248504d93691799843c8bec7fbafe43fae0874616696602dc4b6dc87a87",
+      "text": "ሌላው የሚቻለው ማብራሪያ ደግሞ ነቢዩ ﷺ በመዲና መስጊድ ረጅም ጊዜ መቆየታቸው ብልጫው ሊሆን መቻሉ ነው፤ በቁባ መስጊድ ግን ጥቂት ቀናት ብቻ ቆዩ። ቁርጡቢ ያቀረበውን ውስብስብ ማብራሪያ ሳንፈልግ ይህ ብልጫ በቂ ነው። እውነታውም ሁለቱም በፈሪሃ አላህ ላይ እንደተመሠረቱ ነው። በቀሪው አንቀጽ ውስጥ የልዑሉ አላህ ቃል፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p10:kind_ar",
+      "source_text_sha256": "d26b6488b84115e010032787cd341562d1790349c396105a407c1e7d324f4129",
+      "text": "በማብራሪያው የተጠቀሰ የቁርአን አንቀጽ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p10:speaker_ar",
+      "source_text_sha256": "5c9fef82d4e066e11d9e01d6e30a5a728bb76ebb682a9efd4d43fbfb2b58bd51",
+      "text": "የተጠቀሰው የቁርአን ጽሑፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p10:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p10:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p10:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p10:text_ar",
+      "source_text_sha256": "471bf5a5aeb00cd804357fc06140b36dac8957d39477a743bdb947d68921a5fa",
+      "text": "﴿በውስጡ ራሳቸውን ማንጻት የሚወዱ ወንዶች አሉ﴾"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11:kind_ar",
+      "source_text_sha256": "4d55864b4ec2101334cb7a78c46c11a6bfd87e33c4a73b1a2505a3c7a649baf4",
+      "text": "የኢብን ሐጀር ማብራሪያና የአቡ ሁረይራ ዘገባ መግቢያ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11:text_ar",
+      "source_text_sha256": "415bf1b851aec95ee2473fd1a59e528e5a625c3d4d9fd34c2a929622f204ea56",
+      "text": "— የታሰበው የቁባ መስጊድ መሆኑን ይደግፋል። አቡ ዳዉድም በትክክለኛ ሰንሰለት ከአቡ ሁረይራ፣ እርሱም ከነቢዩ ﷺ እንዲህ ብለው እንደተናገሩ አስተላልፏል፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11_prophet:kind_ar",
+      "source_text_sha256": "2e6e3590ae9d9acb06005c4c808d04a4d01c07202b619aebfc12c134450d646e",
+      "text": "በኢብን ሐጀር ከአቡ ሁረይራ እንደተዘገበው የነቢዩ ﷺ ቃል"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11_prophet:speaker_ar",
+      "source_text_sha256": "b1bc4290b4bd31cb66efcacbdb7feb52fcef0689fc04ed600a75a1cb3a7c38a8",
+      "text": "ነቢዩ ﷺ በኢብን ሐጀር የአቡ ሁረይራ ዘገባ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11_prophet:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11_prophet:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11_prophet:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p11_prophet:text_ar",
+      "source_text_sha256": "b0dca5c08c00cee5a66a897fa6da336ae9b4b8202ebe1ba5833854d3722d43bf",
+      "text": "«ወረደ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p12:kind_ar",
+      "source_text_sha256": "bc64adb873e0b5d2f6840d14060a1c6f1545123bcec78895454de7534f4d2cb0",
+      "text": "በተላለፈው ዘገባ የቁርአን አንቀጽ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p12:speaker_ar",
+      "source_text_sha256": "4f6af240fd5dde88d64475f0d9f36de724850bf63e0cafcd10e797d25c3e9888",
+      "text": "በዘገባው የተጠቀሰው የቁርአን ጽሑፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p12:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p12:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p12:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p12:text_ar",
+      "source_text_sha256": "471bf5a5aeb00cd804357fc06140b36dac8957d39477a743bdb947d68921a5fa",
+      "text": "﴿በውስጡ ራሳቸውን ማንጻት የሚወዱ ወንዶች አሉ﴾"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13_prophet:kind_ar",
+      "source_text_sha256": "2cab2f2cd5b7a77abdd23135350c514b08a63d55b6ca05766901bcd5fac8d3e2",
+      "text": "በኢብን ሐጀር ከአንቀጹ በኋላ የተዘገበው የነቢዩ ﷺ ቃል ቀጣይ ክፍል"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13_prophet:speaker_ar",
+      "source_text_sha256": "b1bc4290b4bd31cb66efcacbdb7feb52fcef0689fc04ed600a75a1cb3a7c38a8",
+      "text": "ነቢዩ ﷺ በኢብን ሐጀር የአቡ ሁረይራ ዘገባ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13_prophet:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13_prophet:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13_prophet:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13_prophet:text_ar",
+      "source_text_sha256": "9a1ba2cae28b63bcdd6a8dc8a0eb766189c343c7a6692e72927502257b005c29",
+      "text": "ስለ ቁባ ሰዎች»፣"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13:kind_ar",
+      "source_text_sha256": "fd686be534bbb7424b4f683c3921164a541ededd04efce74112f00931675a74c",
+      "text": "የኢብን ሐጀር ማብራሪያና የዳዉዲና የሱሀይሊ አባባል ጥቅስ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13:speaker_ar",
+      "source_text_sha256": "4d0af88361fa8d7ff4e851baa0f5a158db0063e2bff66c6f662bf0b41185b1aa",
+      "text": "ኢብን ሐጀር፣ የዳዉዲንና የሱሀይሊን አባባል ሲያስተላልፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p13:text_ar",
+      "source_text_sha256": "f4b3bd3d19b0fde34886c0a0d4183cebf7a570267bf2508f32627aa0aa3e2ec8",
+      "text": "በዚህ መሠረት ነቢዩ ﷺ በፈሪሃ አላህ ላይ የተመሠረተው መስጊድ የራሳቸው መስጊድ መሆኑን በመመለሳቸው ያለው ምክንያት ይህ መለያ ለቁባ መስጊድ ብቻ ነው የሚለውን የተሳሳተ ግምት ማስወገድ ነው። አላህ ያውቃል።\nዳዉዲና ሌሎች እንዲህ አሉ፦ ይህ ልዩነት አይደለም፣ ምክንያቱም ሁለቱም በፈሪሃ አላህ ላይ ተመሥርተዋል። ሱሀይሊም እንዲሁ አለ። ሌላ ሰውም የልዑሉ አላህ ቃል፦"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p14:kind_ar",
+      "source_text_sha256": "d26b6488b84115e010032787cd341562d1790349c396105a407c1e7d324f4129",
+      "text": "በማብራሪያው የተጠቀሰ የቁርአን አንቀጽ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p14:speaker_ar",
+      "source_text_sha256": "5c9fef82d4e066e11d9e01d6e30a5a728bb76ebb682a9efd4d43fbfb2b58bd51",
+      "text": "የተጠቀሰው የቁርአን ጽሑፍ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p14:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p14:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p14:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p14:text_ar",
+      "source_text_sha256": "a524875cdf52c0d6547889d8278a93662095ad9357e6e12914c671f391979aae",
+      "text": "﴿ከመጀመሪያው ቀን ጀምሮ﴾"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p15:kind_ar",
+      "source_text_sha256": "f85b7ba9e954296f8669674cf2b2995e5eca8a685544d192cd110455e07e4016",
+      "text": "በኢብን ሐጀር ማብራሪያ ያልተሰየመ ሰው የተጠቀሰ ትርጓሜ ቀጣይ ክፍል"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p15:speaker_ar",
+      "source_text_sha256": "59fea8741c632d33abe82ebd0742654b6cbdac0a5cdc692f01db13e143ce7c05",
+      "text": "ኢብን ሐጀር ያስተላለፈው ያልተሰየመ ሰው"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p15:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p15:citation_ar",
+      "source_text_sha256": "592c9582bdd15cb27a3bcf08acbafb0d48dbff5d1c5bd2c7e0578a33c0f32567",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/245](https://app.turath.io/book/1673?page=4073)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p15:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_12:p15:text_ar",
+      "source_text_sha256": "ae22eb6dbeec0068145469090661a0c36a0b639a327496c252c0669c0f2ab05d",
+      "text": "የቁባ መስጊድ መሆኑን ያመለክታል፤ ምክንያቱም የተመሠረተው ነቢዩ ﷺ በሂጅራ ምድር በደረሱበት የመጀመሪያ ቀን ነው። አላህ ያውቃል።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_13:p1:kind_ar",
+      "source_text_sha256": "e21a528c88621dbbbbef57ea467ffadb55864324ac198a57fe13d6c470a223ab",
+      "text": "የኢብን ሐጀር ማብራሪያ፦ ከገጽ ወሰን በፊት የቡኻሪ አባባል መጀመሪያ"
+    },
+    {
+      "unit_id": "sp_quba_chapter_13:p1:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "ኢብን ሐጀር"
+    },
+    {
+      "unit_id": "sp_quba_chapter_13:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም"
+    },
+    {
+      "unit_id": "sp_quba_chapter_13:p1:citation_ar",
+      "source_text_sha256": "bf3408022aed65d0df54e5095d4a28d00ebd1ef1993703762dbe216af6d3ccf7",
+      "text": "[ፈትሕ አል-ባሪ፣ የቡኻሪ ማብራሪያ — የሰለፊያ እትም፣ 7/244](https://app.turath.io/book/1673?page=4072)"
+    },
+    {
+      "unit_id": "sp_quba_chapter_13:p1:context_note_ar",
+      "source_text_sha256": "66c7558ee878160b03b7a0cdbec2bb3065d8bbc691b952da0ddc2f2ada598109",
+      "text": "የማኅደሩ የተመረጠው ክፍል ሙሉ ነው፣ ግን ገጹ ወይም መጽሐፉ ሙሉ አይደለም፤ ክፍሎቹ ከዋናው ጽሑፍ ያልተቀየሩና ተከታታይ ናቸው። የአስተላላፊዎች ሰንሰለት ከዘገባው ዋና ንግግር፣ የተናገረውም ቃል ከማብራሪያው ይለያል፤ ከተመረጠው ውጭ ያለውን በመገመት አንሞላም።"
+    },
+    {
+      "unit_id": "sp_quba_chapter_13:p1:text_ar",
+      "source_text_sha256": "5ebaf0ce22f42f1243d2648f6663dc49cb1ea09e577f0398aaa485d59f864eb7",
+      "text": "የእርሱ አባባል፦ «ተመሠረተም ያ የተመሠረተው መስጊድ ...»"
+    }
+  ],
+  "reading_editions": [
+    {
+      "reading_id": "hch_quba_read_meeting",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_quba_read_homes",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_quba_read_days",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_quba_read_mosques",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_quba_read_leave",
+      "mode": "translated",
+      "gloss": ""
+    }
+  ],
+  "deferred_questions": [],
+  "translation_sha256": "097a6a56fbc87f9bad3b8b28b2c9a9e8f8e310672c33389689f96cdf12b8166d",
+  "review": {
+    "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+    "translation_sha256": "097a6a56fbc87f9bad3b8b28b2c9a9e8f8e310672c33389689f96cdf12b8166d",
+    "translation_compared": true,
+    "summary": "Internal AI bilingual semantic comparison attested by reviewer session ed1d1921-e546-41f1-b873-c61820571009 across 381 Arabic/target units. Compared all 381 Arabic–Amharic inventory units across 14 complete numbered paired chunks: reader prose, headings and outlines, learning objectives, questions and answer options with feedback, notices, named chains, source metadata and citation URLs, Qur’anic quotations, reported speech, poetry, commentary and full selected source passages. Exact recurring metadata pairs were checked together while retaining each unit ID. Reviewed the Arabic watchlist as supplementary context. No actionable semantic mismatch remains in the current draft within this bounded comparison; no external source collation, specialist assessment, independent language approval or publication permission is implied. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  }
+}

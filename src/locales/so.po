@@ -146,19 +146,19 @@ msgstr "<0>Ilo-xogeedka</0> wuxuu muujinayaa qoraalka ka dambeeya cutub kasta, i
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> daar ama haki · <1/> <2/> beddel heerka · <3>Esc</3> xidh"
 
-#. 0: chapter.steps.length
+#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} stages"
 msgstr "{0} heerarka"
 
-#. 0: total_minutes
+#. 0: fmt_num(total_minutes)
 #: src/routes/Journey.svelte
 #, ai
 msgid "about {0} minutes"
 msgstr "qiyaastii {0} daqiiqo"
 
-#. 0: chapter.sources.length
+#. 0: fmt_num(chapter.sources.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} cited passages"
@@ -271,7 +271,7 @@ msgstr "<0/> Ilaha <1/>"
 msgid "<0/> Ask"
 msgstr "<0/> Weydii"
 
-#. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
+#. 0: fmt_num(selected_index + 1); 1: fmt_num(chapter.steps.length); 2: selected_step.title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0} of {1} · {2}"
@@ -359,21 +359,19 @@ msgstr "Su'aalaha la soo jeediyay"
 msgid "Close source"
 msgstr "Xidh isha"
 
-#. 0: source.volume; 1: source.page
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 #, ai
 msgid "· vol. {0}, p. {1}"
 msgstr "· jild. {0}, b. {1}"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What this passage supports"
-msgstr "Waxa uu qoraalkani taageerayo"
+#~ msgid "What this passage supports"
+#~ msgstr "Waxa uu qoraalkani taageerayo"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What it does not establish"
-msgstr "Waxa aanu qoraalku caddaynaynin"
+#~ msgid "What it does not establish"
+#~ msgstr "Waxa aanu qoraalku caddaynaynin"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -385,10 +383,9 @@ msgstr "Ku laabo jawaabta"
 msgid "Back to the journey"
 msgstr "Ku laabo safarka"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "Open the page on Turath <0/>"
-msgstr "Ku fur bogga Turath <0/>"
+#~ msgid "Open the page on Turath <0/>"
+#~ msgstr "Ku fur bogga Turath <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -1986,141 +1983,165 @@ msgstr "<0/> Hubi fahamkaaga <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> Ku celceli waxaad baratay"
 
-#: src/routes/Journey.svelte
-msgid "<0/> Read the chapter <1/>"
-msgstr "<0/> Akhri cutubka <1/>"
+#~ msgid "<0/> Read the chapter <1/>"
+#~ msgstr "<0/> Akhri cutubka <1/>"
 
 #. 0: note.number
-#. 0: source.number
 #: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Source {0}"
 msgstr "Xigasho {0}"
 
 #: src/routes/Journey.svelte
 msgid "<0>Drag</0> to look around, <1/> to zoom, and select a place name to fly there."
-msgstr ""
+msgstr "<0>Jiid</0> si aad hareeraha u eegto, <1/> si aad u weynayso ama u yarayso, doorana magaca goobta si aad halkaas ugu duusho."
 
 #: src/lib/ChapterReader.svelte
 msgid "Sources"
-msgstr ""
+msgstr "Ilaha"
 
 #: src/lib/ChapterReader.svelte
 msgid "Story"
-msgstr ""
+msgstr "Sheekada"
 
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
-msgstr ""
+msgstr "Hubi fahamkaaga"
 
 #: src/lib/ChapterReader.svelte
 msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr ""
+msgstr "Waxaa laga tarjumay qaybta Qur’aanka ee la bixiyay; ma aha tarjumaad rasmi ah oo Qur’aanka ah ama isbarbardhig madax-bannaan oo qoraallada ah."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
-msgstr ""
+msgstr "Qoraalka Carabiga ee asalka ah iyo faahfaahinta isha"
 
 #: src/lib/ChapterReader.svelte
 msgid "Choose a chapter"
-msgstr ""
+msgstr "Dooro cutub"
 
 #: src/lib/ChapterReader.svelte
 msgid "Close chapter"
-msgstr ""
+msgstr "Xir cutubka"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter sections"
-msgstr ""
+msgstr "Qaybaha cutubka"
 
 #: src/lib/ChapterReader.svelte
 msgid "Loading…"
-msgstr ""
+msgstr "Waa la soo rarayaa…"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter contents"
-msgstr ""
+msgstr "Tusmada cutubka"
 
 #: src/lib/ChapterReader.svelte
 msgid "In this chapter"
-msgstr ""
+msgstr "Cutubkan"
 
-#: src/lib/ChapterReader.svelte
-msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-msgstr ""
+#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
+#~ msgstr "Tarjumadaha Ingiriisiga ee qaybaha la doortay. Qoraalka Carabiga ee asalka ah wuxuu la socdaa qayb kasta."
 
-#: src/lib/ChapterReader.svelte
-msgid "English summary — not a translation"
-msgstr ""
+#~ msgid "English summary — not a translation"
+#~ msgstr "Soo koobid Ingiriisi ah — ma aha tarjumaad"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
-msgstr ""
+msgstr "Qaybtan waxaa lagu muujiyay akhris hore."
 
 #: src/lib/ChapterReader.svelte
 msgid "Chain of transmission"
-msgstr ""
+msgstr "Silsiladda weriyeyaasha (isnaad)"
 
 #: src/lib/ChapterReader.svelte
 msgid "Source-study questions: read the passages and compare them."
-msgstr ""
+msgstr "Su'aalaha daraasadda ilaha: akhri qoraallada oo isbarbar dhig."
 
 #. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
-msgstr ""
+msgstr "Su'aal {0} ka mid ah {1} · {2}"
 
 #: src/lib/ChapterReader.svelte
 msgid "Continue with source-study questions"
-msgstr ""
+msgstr "U gudub su'aalaha daraasadda ilaha"
 
 #: src/lib/ChapterReader.svelte
 msgid "Try again"
-msgstr ""
+msgstr "Mar kale isku day"
 
 #: src/lib/ChapterReader.svelte
 msgid "Back to the story"
-msgstr ""
+msgstr "Ku noqo sheekada"
 
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
-msgstr ""
+msgstr "Jawaabaha saxda ah, marka loo eego su'aalaha qaybtan."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
-msgstr ""
+msgstr "Cutubyada Hijrada"
 
-#: src/lib/ChapterReader.svelte
-msgid "This chapter is available in Arabic and English. Showing the English edition."
-msgstr ""
+#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
+#~ msgstr "Cutubkan waxaa lagu heli karaa Carabi iyo Ingiriisi. Waxaa la tusayaa daabacaadda Ingiriisiga."
 
 #: src/lib/ChapterReader.svelte
 msgid "Learning goals"
-msgstr ""
+msgstr "Yoolalka waxbarashada"
 
+#. 0: source.reference
 #: src/routes/Journey.svelte
 msgid "Open the page on Turath: {0}"
 msgstr "Ka fur bogga Turath: {0}"
-
-#: src/routes/Journey.svelte
-msgid "Explore the map"
-msgstr "Sahami khariidadda"
 
 #: src/routes/Journey.svelte
 msgid "Fit map"
 msgstr "Muuji khariidadda oo dhan"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Explore the map"
+msgstr "Sahami khariidadda"
+
+#: src/routes/Journey.svelte
 msgid "Select a book marker to read its chapter."
 msgstr "Dooro calaamadda buugga si aad u akhrido cutubka."
+
+#: src/routes/Journey.svelte
+msgid "Begin the journey"
+msgstr "Bilow safarka"
 
 #: src/routes/Journey.svelte
 msgid "Locations are schematic."
 msgstr "Goobaha si tusaale ah ayaa loo muujiyey."
 
+#: src/lib/ChapterReader.svelte
+msgid "Arabic original"
+msgstr "Qoraalka Carabiga ee asalka ah"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "Nuqulka cutubkan ee afkan weli diyaar ma aha. Nuqulka Ingiriisiga ayaa la soo bandhigayaa."
+
+#: src/lib/ChapterReader.svelte
+msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
+msgstr "Qaybo la xushay waxaa laga yaabaa inay leeyihiin tarjumaado ama soo koobid. Qoraalka Carabiga ee asalka ah ayaa weli la heli karaa qayb kasta."
+
+#: src/lib/ChapterReader.svelte
+msgid "Summary — not a translation"
+msgstr "Soo koobid — ma aha tarjumaad"
+
 #: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "Bilow safarka"
+msgid "Read the chapter"
+msgstr "Akhri cutubka"
+
+#: src/lib/ChapterReader.svelte
+msgid "Work in progress. All editions require scholarly review before public or wide release."
+msgstr "Shaqadu weli way socotaa. Dhammaan daabacaadaha waxay u baahan yihiin dib-u-eegis culimo ka hor inta aan si guud ama ballaaran loo faafin."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"

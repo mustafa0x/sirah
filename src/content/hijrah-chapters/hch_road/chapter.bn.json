@@ -1,0 +1,1308 @@
+{
+  "chapter_id": "hch_road",
+  "revision": 1,
+  "locale": "bn",
+  "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+  "arabic_payload_sha256": "e9d5d12d676348d095160a148c827f78ac8545e95fd65b8ec102c39d14b68471",
+  "status": "translation_ready",
+  "units": [
+    {
+      "unit_id": "hch_road:title_ar",
+      "source_text_sha256": "79f149c74ecd57c24e37686f1b9911c1f22965ffbf7a0a66fe32e70691722a6b",
+      "text": "গুহা থেকে বেরোনোর পর পথপ্রদর্শক ও পথ"
+    },
+    {
+      "unit_id": "hch_road:reader_question_ar",
+      "source_text_sha256": "36b9d88298edd0ed8577184b6dfb3be1c17323ef005ff49e24810ea1cd968f5f",
+      "text": "পথপ্রদর্শকের দক্ষতার সঙ্গে আস্থার সম্পর্ক কী ছিল? আর সঙ্গী ও পথ সম্পর্কে পাঠে নেই এমন কোনো মানচিত্র না এঁকে আমরা কী জানতে পারি?"
+    },
+    {
+      "unit_id": "hch_road_overview:text_ar",
+      "source_text_sha256": "a30fd1102a9f7ea89d5788332e491c8bd27db8fa6df8f867831c8f73acd04ebb",
+      "text": "সাওর গুহা থেকে যাত্রা আবার শুরু করার নির্ধারিত সময় এলে, নবী ﷺ ও আবু বকর পথ চেনার জন্য যে ব্যক্তিকে নিয়োগ করেছিলেন, দুটি বাহন ছিল তাঁর কাছে। তাঁরা কীভাবে তাঁর দক্ষতার ওপর আস্থা রেখেছিলেন, কখন তাঁর আসার কথা ছিল, কারা তাঁদের সঙ্গে রওনা হয়েছিলেন এবং «উপকূলের পথ» কথাটি থেকে কতটুকু বলা যায়, তা আমরা পড়ব। অন্য একটি বর্ণনায় «পথ দেখায়» কথাটি একটি গুরুত্বপূর্ণ প্রশ্ন তোলে: সঙ্গী সম্পর্কে প্রশ্নকারীর জবাবে আবু বকর কি পথপ্রদর্শককেই বোঝাতে চেয়েছিলেন?"
+    },
+    {
+      "unit_id": "hch_road_hire:title_ar",
+      "source_text_sha256": "7d0c0926b33218e395263df9cc183f111845826347acd10f0ab0e7cdce2b83aa",
+      "text": "পথপ্রদর্শকের জিম্মায় দুটি বাহন"
+    },
+    {
+      "unit_id": "hch_road_hire_01:text_ar",
+      "source_text_sha256": "e49a241f3239c126cd7cf6c045f830049ea703b6fa15b75778f2d26cb89a50e6",
+      "text": "নবী ﷺ ও আবু বকর পথ দেখানোর জন্য বনি দিলের, বনি আবদ ইবন আদির একজনকে নিয়োগ করেছিলেন। আয়িশা তাঁকে «হাদিয়ান খির্রীতান»—অর্থাৎ পথ দেখাতে দক্ষ—বলে বর্ণনা করেছেন।"
+    },
+    {
+      "unit_id": "hch_road_hire_02:text_ar",
+      "source_text_sha256": "5a5bbe55d370bab776280c5252dd055a61a59c47c21771aa7ed7c2cdbc6eb380",
+      "text": "লোকটি ছিলেন কুরাইশের অবিশ্বাসীদের ধর্মের অনুসারী। তবু তাঁরা তাঁকে বিশ্বাস করে নিজেদের দুটি বাহন তাঁর হাতে দেন এবং তাঁর সঙ্গে সাক্ষাতের সময় ঠিক করেন।"
+    },
+    {
+      "unit_id": "hch_road_meeting:title_ar",
+      "source_text_sha256": "12b7c9d36dae29814595d24881c7a424292fa9fe87448378ca4b35a6c1f5723c",
+      "text": "সাক্ষাতের সময় ও যাত্রা"
+    },
+    {
+      "unit_id": "hch_road_meeting_01:text_ar",
+      "source_text_sha256": "922cd3efd098d2e2f96ee462575981355e76e1961f23aa7bb2ed37727dc3284e",
+      "text": "তিন রাত পর সাওর গুহায় সাক্ষাতের কথা ছিল। আয়িশার বর্ণনা অনুযায়ী, পথপ্রদর্শক সকালে দুটি বাহন নিয়ে আসেন।"
+    },
+    {
+      "unit_id": "hch_road_meeting_02:text_ar",
+      "source_text_sha256": "c926655750c83c26a06d91c0a7935f08f548543f2ef3049580ea64f6692f6293",
+      "text": "নবী ﷺ ও আবু বকরের সঙ্গে আমির ইবন ফুহাইরা এবং পথপ্রদর্শক রওনা হন; পথপ্রদর্শক তাঁদের উপকূলের পথ ধরে নিয়ে যান।"
+    },
+    {
+      "unit_id": "hch_road_answer:title_ar",
+      "source_text_sha256": "8d60e5431df6b0a94a1017a2355a24c2c881b5082be5ab16ec28f8daae1a05bc",
+      "text": "আবু বকরের জবাব"
+    },
+    {
+      "unit_id": "hch_road_answer_01:text_ar",
+      "source_text_sha256": "651a48feaeedbf0875f324c6ea6ffe4d07f1f30ba506a529a061efe53b7fca1a",
+      "text": "নবী ﷺ-র মদিনার দিকে আগমনের বিষয়ে আনাসের বর্ণনায় লোকেরা আবু বকরকে চিনত এবং তাঁর সঙ্গের ব্যক্তি সম্পর্কে জিজ্ঞেস করত। তিনি জবাব দিতেন, «এই ব্যক্তি আমাকে পথ দেখান।» শ্রোতা ভাবত তিনি চলার পথ বোঝাচ্ছেন, কিন্তু আবু বকর বোঝাতেন কল্যাণের পথ।"
+    },
+    {
+      "unit_id": "hch_road_name:title_ar",
+      "source_text_sha256": "41e497301448f9cbcc17363336ece7c060cadeeef83fb28727b878327dfafcfc",
+      "text": "পথপ্রদর্শকের নাম: কে নাম বলেছেন, কে বলেননি?"
+    },
+    {
+      "unit_id": "hch_road_name_01:text_ar",
+      "source_text_sha256": "46515e0cc2202e28dec86412454ea0a4750128d6330f68cea0dff14706100105",
+      "text": "বুখারির নিয়োগসংক্রান্ত অংশে পথপ্রদর্শকের ব্যক্তিগত নাম স্পষ্ট করে বলা হয়নি; তাঁর বংশ ও দক্ষতার কথা আছে। সিরাতের অংশে ইবন ইসহাক আসমা বিনত আবু বকরের সূত্রে চারজনের কথা এনেছেন: নবী ﷺ, আবু বকর, আমির ইবন ফুহাইরা এবং তাঁদের পথপ্রদর্শক আবদুল্লাহ ইবন আরকাত। তারপর ইবন হিশাম «এ কথাও বলা হয়» বলে নামের আরেকটি রূপ—আবদুল্লাহ ইবন উরাইকিত—যোগ করেছেন। অনিশ্চয়তাসূচক কথাকে নিশ্চিত বক্তব্য করা যায় না; শুধু নামের বানান আলাদা হওয়া থেকেও দুজন পথপ্রদর্শক ছিলেন বলা যায় না।"
+    },
+    {
+      "unit_id": "hch_road_name_02:text_ar",
+      "source_text_sha256": "5ae7ba9945e330e6cd6d9942cbc988fb64e9afa62ee8d0e8270b26f5281cfe52",
+      "text": "আসমার অংশ শুরু হয় তাঁর «যখন আমরা তাঁর কথা শুনলাম» বাক্য দিয়ে। এটি সিরাতের আগের অংশে বর্ণিত এক কণ্ঠস্বর ও কবিতার ঘটনার দিকে ইঙ্গিত করে। আমরা এটি বক্তব্যের শুরুটি বোঝার জন্য পড়ি, অদৃশ্য কণ্ঠের ঘটনা বা কবিতার সত্যতা প্রতিষ্ঠার জন্য নয়। ওই অংশের চারজনের তালিকাটি ইবন ইসহাকের উদ্ধৃত আসমার বক্তব্য; বুখারির শব্দ থেকে পাওয়া নাম নয়।"
+    },
+    {
+      "unit_id": "hch_road_name_03:text_ar",
+      "source_text_sha256": "b9cf17c7197e08ce90e515f29ace467ff974bfa461899fc753b6ede5821bba89",
+      "text": "পরবর্তী একটি ব্যাখ্যায় হানি ফকিহ ইবন কাসিরের এমন বক্তব্য উদ্ধৃত করেন, যেখানে নাম এসেছে আবদুল্লাহ ইবন উরাইকিত। এরপর হানি নিজ ভাষায় স্পষ্ট করেন: সহিহের বর্ণনায় নামটি সরাসরি নেই, সিরাতে ইবন ইসহাক তা বলেছেন। উদ্ধৃত বক্তব্যে দেওয়া নাম আর ব্যাখ্যাকারীর সীমারেখা—দুটি আলাদা কণ্ঠ। হানির মন্তব্য ইবন কাসিরের নামে চালানো যাবে না; আবার বুখারির এই অংশে নাম না থাকাকে অন্য সূত্রে নাম থাকার অস্বীকৃতিও বলা যাবে না।"
+    },
+    {
+      "unit_id": "hch_road_trust:title_ar",
+      "source_text_sha256": "14811c073f3e52a115be5512137b1be01fe21dc522852e0cc52a76c1f703aa67",
+      "text": "বর্ণনা ও তা থেকে আহরিত সিদ্ধান্ত"
+    },
+    {
+      "unit_id": "hch_road_trust_01:text_ar",
+      "source_text_sha256": "76c4e0019d7d890ee0ed5faef57d4a9eddfca45d1034c682599f5a38e415040a",
+      "text": "আয়িশার হাদিসে দক্ষতা, বিশ্বাস ও ধর্মের পার্থক্য পাশাপাশি আছে: পথপ্রদর্শকের দক্ষতার বর্ণনার পর বলা হয়েছে, কুরাইশের অবিশ্বাসীদের ধর্মে থাকা সত্ত্বেও তাঁকে দুটি বাহনের দায়িত্ব দেওয়া হয়েছিল। কুরতুবি বুখারি থেকে বর্ণনাটি তুলে ধরে তারপর মুহাল্লাবের নামে এই সিদ্ধান্ত উল্লেখ করেন যে, মুশরিকদের বিশ্বস্ততা ও মর্যাদাবোধ জানা থাকলে তাঁদের কাছে গোপন কথা ও সম্পদ আমানত রাখা যায়; আর ইবনুল মুনযিরের নামে তাঁদের পথ দেখানোর কাজে নিয়োগের বৈধতার সিদ্ধান্ত উল্লেখ করেন। এ দুটি ব্যাখ্যাকারীদের নামে উদ্ধৃত মত, আয়িশার প্রত্যক্ষ করা অতিরিক্ত ঘটনা নয়। তাফসিরে বর্ণনাটি পুনরায় এলেই শুধু গ্রন্থ আলাদা হওয়ার কারণে সেটি স্বতন্ত্র বর্ণনা হয়ে যায় না।"
+    },
+    {
+      "unit_id": "hch_road_bounds:title_ar",
+      "source_text_sha256": "fd3f417e10235174d2b6f276d8e04dc92b52d87e37a853dfe512c0b38cb082c3",
+      "text": "পথের বর্ণনায় যা নির্দিষ্ট, আর যা অনির্দিষ্ট"
+    },
+    {
+      "unit_id": "hch_road_bounds_01:text_ar",
+      "source_text_sha256": "38931de249bf5d2fc64534000140e59960f8d1b8cc51326ab1bd3623a9f759b6",
+      "text": "নিয়োগের পাতায় থাকা «তাঁরা তাঁর সঙ্গে সময় ঠিক করলেন» কথাটি একই হাদিসের পরের পাতার «তিন রাত পর সাওর গুহায়» কথার সঙ্গে যুক্ত। «তৃতীয় দিনের সকাল» বর্ণনায় সময়ের ইঙ্গিত, নির্দিষ্ট ঘড়ির সময় বা পঞ্জিকার তারিখ নয়। একইভাবে «উপকূলের পথ» এখানে পথের বর্ণনা; যাত্রাবিরতির স্থানগুলোর তালিকা বা স্থানাঙ্ক দিয়ে আঁকা রেখা নয়।"
+    },
+    {
+      "unit_id": "hch_road_bounds_02:text_ar",
+      "source_text_sha256": "95a013c141f4142b3d63f5b7d770306e63012a69ebd8966f4abb71907b93c75f",
+      "text": "বায়হাকি আবু হুরায়রার সূত্রে আরেকটি বর্ণনা দিয়েছেন, যার সনদ ও মূল বক্তব্য এক পাতায় শুরু হয়ে বাক্যটি পরের পাতায় শেষ হয়েছে। তার শেষ অংশে আবু বকর তাঁর সঙ্গী সম্পর্কে জবাব দেন: «এক পথপ্রদর্শক, আমাকে পথ দেখান।» অন্যদিকে আনাসের বর্ণনায় আছে «এই ব্যক্তি আমাকে পথ দেখান» এবং সেখানে কল্যাণের পথের অর্থ ব্যাখ্যা করা হয়েছে। আমরা প্রতিটি বর্ণনার নিজস্ব শব্দ বজায় রাখি এবং ভাঙা পাতার বাক্য পরের অংশের সঙ্গে মেলাই; এ দুটি জবাবকে নিয়োগপ্রাপ্ত পথপ্রদর্শকের কাজের সঙ্গে গুলিয়ে ফেলি না, কিংবা পাতা ভাগ হওয়াকে দুটি স্বতন্ত্র সনদ মনে করি না।"
+    },
+    {
+      "unit_id": "hch_road_outline_skill:text_ar",
+      "source_text_sha256": "9e89bd513b98bf79889fac68528ea5fc27f1cd9e6b1b0a1012a8d1d2e927affa",
+      "text": "পথ দেখাতে দক্ষ একজনকে নিয়োগ ও তাঁর জিম্মায় দুটি বাহন দেওয়া"
+    },
+    {
+      "unit_id": "hch_road_outline_time:text_ar",
+      "source_text_sha256": "971736f5f91ba4e2b46707282169f2b8f25da4ea0d4a37426adaab155530174a",
+      "text": "তিন রাত পর সাওর গুহায় সাক্ষাতের সময়"
+    },
+    {
+      "unit_id": "hch_road_outline_company:text_ar",
+      "source_text_sha256": "ff5818a39f1f081064fa8967a45c3843b5a47a8f25e1561efcd758dafd417712",
+      "text": "আমির ও পথপ্রদর্শকের তাঁদের সঙ্গে যাত্রা এবং উপকূলের পথ ধরা"
+    },
+    {
+      "unit_id": "hch_road_outline_meaning:text_ar",
+      "source_text_sha256": "fbfb1a44b9567acfd10ec73e1f7b2b853bffa6e6834a2bfceace399841bc964b",
+      "text": "নবী ﷺ সম্পর্কে আবু বকরের জবাব: কল্যাণের পথ দেখানো, নিয়োগপ্রাপ্ত পথপ্রদর্শকের কাজ নয়"
+    },
+    {
+      "unit_id": "hch_road_read_hire:title_ar",
+      "source_text_sha256": "2bda5c2534f65585d3474bc462d1e1c86051628259fa73c99e17c8a099472720",
+      "text": "আয়িশার হাদিস: নিয়োগ এবং বাক্যের শেষ অংশ"
+    },
+    {
+      "unit_id": "hch_road_read_departure:title_ar",
+      "source_text_sha256": "ee06663bcc7836b0e62968bf17297b4633e963e7c6187db1cdf4c506f626f0c3",
+      "text": "আয়িশার হাদিসের বাকি অংশ: সাক্ষাতের সময়, সঙ্গী ও উপকূলের পথ"
+    },
+    {
+      "unit_id": "hch_road_read_sira:title_ar",
+      "source_text_sha256": "06269ecb008a380716b911a6151ee7c3e4482161ce84636b528ce739de9024d5",
+      "text": "আগের অংশ, আসমার বর্ণনা ও ইবন হিশামের সংযোজন"
+    },
+    {
+      "unit_id": "hch_road_read_hani:title_ar",
+      "source_text_sha256": "cb1979d08d15468221db3ebb0a64c34dfe6e5318b7058fb730470d741ccb0266",
+      "text": "ইবন কাসিরের উদ্ধৃতি এবং তার পরে হানি ফকিহের সীমা নির্ধারণ"
+    },
+    {
+      "unit_id": "hch_road_read_fiqh:title_ar",
+      "source_text_sha256": "821d19b5a3f32b844bb93958bec205e66d91824abbf913bd7020f3a5c88d7133",
+      "text": "কুরতুবির বুখারি থেকে উদ্ধৃতি ও ব্যাখ্যাকারীদের সিদ্ধান্ত"
+    },
+    {
+      "unit_id": "hch_road_read_anas:title_ar",
+      "source_text_sha256": "1499887596d5f94ac190273a4371773195097ca546ae5ec4dd35bc7a4dd23061",
+      "text": "আনাসের সংযুক্ত বর্ণনা: কার সঙ্গী সম্পর্কে প্রশ্ন করা হয়েছিল?"
+    },
+    {
+      "unit_id": "hch_road_read_bayhaqi:title_ar",
+      "source_text_sha256": "59ec4dbb8aa65cd8c2aabe426fc56197e6f74e470b20d75b731674c7086cfd3b",
+      "text": "বায়হাকির দুই পাতায় আবু হুরায়রার বর্ণনা"
+    },
+    {
+      "unit_id": "guide_hiring_roles:text_ar",
+      "source_text_sha256": "9f67d7b8034d7bec5d67a0b5971279e5c32ccd29ceafaff8c892774b5275fbd0",
+      "text": "দক্ষতার সঙ্গে পথ দেখানো এবং সহিহের এই অংশে অনুল্লিখিত ব্যক্তিগত নামের পার্থক্য করে।"
+    },
+    {
+      "unit_id": "guide_hiring_commentary:text_ar",
+      "source_text_sha256": "69c73ef346d7e3c50d3a034ffd14ad47a25cafb76a7b3e6eea0b49012684835e",
+      "text": "আহরিত বিধানটি ব্যাখ্যাকারীর নামে উল্লেখ করে, দ্বিতীয় বর্ণনা হিসেবে ধরে না।"
+    },
+    {
+      "unit_id": "guide_name_voices:text_ar",
+      "source_text_sha256": "30075a9c5944b98f83b038238239c5e91f69a8e8f5f06d566ae585208b1e0724",
+      "text": "ইবন ইসহাকের বর্ণনা, ইবন হিশামের অনিশ্চয়তাসূচক ভাষা ও হানি ফকিহের মন্তব্য আলাদা করে।"
+    },
+    {
+      "unit_id": "guide_name_scope:text_ar",
+      "source_text_sha256": "5d5e73d2deb274f0c44988423d615a07b8d541027d21ab1dcc72e5c0457caa75",
+      "text": "বুখারির অংশ থেকে কেন নাম উদ্ধার করা যায় না, আর টীকার শিরোনামকে কেন প্রত্যক্ষ মূল পাঠ ধরা যায় না, তা বোঝে।"
+    },
+    {
+      "unit_id": "guide_appointment_join:text_ar",
+      "source_text_sha256": "cdbf10e947b3ed2efa41077adcf47e93bd71b9a559ee32c43df0f52da00c94b4",
+      "text": "অসম্পূর্ণ বাক্যটি তার পরের অংশের সঙ্গে মিলিয়ে নেয়, একই হাদিসকে দুটি সনদে পরিণত করে না।"
+    },
+    {
+      "unit_id": "guide_appointment_scope:text_ar",
+      "source_text_sha256": "8e9357d9d9dff0724e7ea468637c424dfd93d5ecf4405b7b94d5e0665fd49a0b",
+      "text": "পথের সঙ্গী ও দিকের বর্ণনাকে এই অংশে অনুপস্থিত যাত্রাবিরতির মানচিত্র থেকে পৃথক করে।"
+    },
+    {
+      "unit_id": "guide_recognition_distinct:text_ar",
+      "source_text_sha256": "711d1c25d5d5ae5364121b19d0a1bb24b9dc1ac3a609a49d90d687b2554e3830",
+      "text": "নিয়োগের বেলায় পথ দেখানো আর আবু বকরের জবাবে কল্যাণের পথ দেখানোর পার্থক্য করে।"
+    },
+    {
+      "unit_id": "guide_recognition_context:text_ar",
+      "source_text_sha256": "9e6350252fe436ff951e5be7beed0b0cbdb85d6bcbf04dd10b04ff11a7220c1f",
+      "text": "আবু হুরায়রার বর্ণনার শুরু ও শেষ যুক্ত করে, সনদের কথা ও মূল বক্তব্যের সীমা বোঝে।"
+    },
+    {
+      "unit_id": "hch_road_q_skill:prompt_ar",
+      "source_text_sha256": "a897941df779702c4f689897f3296b02905bf5b2df3e6ab48557dc6fcf4d62aa",
+      "text": "আয়িশার বর্ণনায় লোকটিকে কেন নিয়োগ করা হয়েছিল?"
+    },
+    {
+      "unit_id": "hch_road_q_skill:explanation_ar",
+      "source_text_sha256": "ac55ed3d32029643630fdc1faa11e18eb55bd1568c1e2d1861c0489a48b8663b",
+      "text": "বর্ণনায় তাঁকে «হাদিয়ান খির্রীতান» বলা হয়েছে; «খির্রীত» শব্দের ব্যাখ্যায় বলা হয়েছে পথ দেখাতে দক্ষ।"
+    },
+    {
+      "unit_id": "hch_road_q_skill:scope_note_ar",
+      "source_text_sha256": "5690759a47672be30e543ee789c96b38dd7705652daea4de05ed23ed6fa9c388",
+      "text": "প্রশ্নটি নিয়োগসংক্রান্ত অংশে পথপ্রদর্শকের কাজ যাচাই করে।"
+    },
+    {
+      "unit_id": "hch_road_q_skill:knows:text_ar",
+      "source_text_sha256": "f53cf4515ebb27323a751fe3daf05e5738ce8f0875dd09b27676bfea44c0953e",
+      "text": "পথ চিনিয়ে দেওয়ার দক্ষতার জন্য।"
+    },
+    {
+      "unit_id": "hch_road_q_skill:knows:feedback_ar",
+      "source_text_sha256": "1b98a41026d14b3d5e69c830d583f507b136adfc2f666bed0ab4deeb16a7dd39",
+      "text": "ঠিক; বর্ণনায় তাঁকে পথ দেখাতে দক্ষ বলা হয়েছে।"
+    },
+    {
+      "unit_id": "hch_road_q_skill:news:text_ar",
+      "source_text_sha256": "f9954b041fc2dac891679b47975b689add8c975efdd5b3ff41856cf7d9b6e949",
+      "text": "প্রতি রাতে মক্কার খবর বহন করার জন্য।"
+    },
+    {
+      "unit_id": "hch_road_q_skill:news:feedback_ar",
+      "source_text_sha256": "ee76de945e852291ff1930df431b4976939359f97cb85b05361b6d45c0c6f13c",
+      "text": "নিয়োগপ্রাপ্ত ব্যক্তির উল্লিখিত কাজ এটি নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_skill:poetry:text_ar",
+      "source_text_sha256": "25aa7ec865c38e7ec3b08cd3a05ce586dd683fd56be03257854ddbc98241ba49",
+      "text": "যাত্রা নিয়ে কবিতা বলার জন্য।"
+    },
+    {
+      "unit_id": "hch_road_q_skill:poetry:feedback_ar",
+      "source_text_sha256": "c48c10c7b22f308cbbb095b3b8980729a133b2f5e34285bc3748f96108907e25",
+      "text": "নিয়োগের বর্ণনা পথ চেনার বিষয়ে, কবিতার বিষয়ে নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_trust:prompt_ar",
+      "source_text_sha256": "c993d3e40d0d12f8083f13a0b95d27edf793a48b5ad1b362f7187ca56c673442",
+      "text": "পথপ্রদর্শককে নিয়োগের সময় আয়িশার বলা তথ্যগুলো কোন বক্তব্যে একসঙ্গে পাওয়া যায়?"
+    },
+    {
+      "unit_id": "hch_road_q_trust:explanation_ar",
+      "source_text_sha256": "d0ba7679f4f6305b84f5f3f3fd57fa648de37384d5f68e0aa04b5a480f07ba47",
+      "text": "বর্ণনায় ধর্মের পার্থক্যকে আস্থার অভাবের সমান করা হয়নি; তাঁর দক্ষতা ও তাঁকে বিশ্বাস করে দায়িত্ব দেওয়ার কথা পাশাপাশি এসেছে, কিন্তু তাঁর ধর্মান্তরিত হওয়ার কোনো খবর নেই।"
+    },
+    {
+      "unit_id": "hch_road_q_trust:scope_note_ar",
+      "source_text_sha256": "f58954480430a27c134b255e6dff26766efcf016e3e32a54b0f9248d0949416d",
+      "text": "শুধু দেখানো আয়িশার বর্ণনার ভাষার মধ্যে সীমাবদ্ধ।"
+    },
+    {
+      "unit_id": "hch_road_q_trust:facts:text_ar",
+      "source_text_sha256": "419298c72dc49689ab9d5d4a3bf25dc68b3d1dbbecbe151e28676cecd7328539",
+      "text": "তিনি পথ চিনতে দক্ষ ছিলেন, কুরাইশের অবিশ্বাসীদের ধর্মে ছিলেন, আর তাঁরা দুটি বাহন তাঁর জিম্মায় দিয়েছিলেন।"
+    },
+    {
+      "unit_id": "hch_road_q_trust:facts:feedback_ar",
+      "source_text_sha256": "8b5b2a37700b18b1789203709eeab5bb9c5f2454774f8460f517c9b02d565865",
+      "text": "ঠিক; এই বৈশিষ্ট্য ও কাজগুলো একই বর্ণনায় আছে।"
+    },
+    {
+      "unit_id": "hch_road_q_trust:converted:text_ar",
+      "source_text_sha256": "4c7cec8276b6a5ef41075cbd2cd03cdbaf4ef9156c3db0e7a07d36b39a0866a1",
+      "text": "তিনি পথ চিনতে দক্ষ ছিলেন, তারপর দুটি বাহন নেওয়ার আগে ইসলাম গ্রহণ করেন।"
+    },
+    {
+      "unit_id": "hch_road_q_trust:converted:feedback_ar",
+      "source_text_sha256": "4852186455d610ea97819c32c5c2df94cf881ca4a89bf55cd3caa1bb91863714",
+      "text": "অংশটিতে তাঁর ইসলাম গ্রহণের কথা নেই; বরং নিয়োগের সময় তাঁর ধর্মকে কুরাইশের অবিশ্বাসীদের ধর্ম বলা হয়েছে।"
+    },
+    {
+      "unit_id": "hch_road_q_trust:unknown:text_ar",
+      "source_text_sha256": "eb075e8803228fe561ac2196c3ef74bb4946ef6c94e3801fce920c087bf46871",
+      "text": "তাঁর দক্ষতা বা ধর্মের কথা নেই; শুধু নাম বলা হয়েছে।"
+    },
+    {
+      "unit_id": "hch_road_q_trust:unknown:feedback_ar",
+      "source_text_sha256": "f6f61ce51c4b0fc48fb10849209ff6f8455a2449fba778cfb39b25d0864b67f5",
+      "text": "অংশটিতে দক্ষতা ও ধর্মের বর্ণনা আছে, কিন্তু ব্যক্তিগত নাম স্পষ্ট করে বলা হয়নি।"
+    },
+    {
+      "unit_id": "hch_road_q_time:prompt_ar",
+      "source_text_sha256": "1d287c406def2f0b4fcf02200d68edf83f7c3ebac1893200681e17d1fc0c232d",
+      "text": "«তাঁরা তাঁর সঙ্গে সাক্ষাতের সময় ঠিক করলেন» কথাটির পরে সাক্ষাতের বর্ণনা কীভাবে সম্পূর্ণ হয়?"
+    },
+    {
+      "unit_id": "hch_road_q_time:explanation_ar",
+      "source_text_sha256": "453f64f1f1a9c066ad478005a533eb3a58757c75b3bc126c5105b7506810af9a",
+      "text": "আয়িশার একই হাদিসের দুটি অংশ পরস্পর যুক্ত: প্রথম অংশে সময় ঠিক করার ক্রিয়াপদে থামে, পরের অংশে স্থান ও সময় জানায়।"
+    },
+    {
+      "unit_id": "hch_road_q_time:scope_note_ar",
+      "source_text_sha256": "c369fe88530b2c51cc6f7b34706fdfe0848a0ab0c930db42650f3825fa8f9a26",
+      "text": "এই কথাকে পঞ্জিকার তারিখ বা ঘড়ির নির্দিষ্ট সময়ে রূপ দেওয়া হয় না।"
+    },
+    {
+      "unit_id": "hch_road_q_time:cave:text_ar",
+      "source_text_sha256": "6c8461f41afe4d72842d7d68bea817b787bb29a35fbf41a31e7b2f70dc198930",
+      "text": "তিন রাত পর সাওর গুহায়; তৃতীয় দিনের সকালে দুটি বাহন নিয়ে।"
+    },
+    {
+      "unit_id": "hch_road_q_time:cave:feedback_ar",
+      "source_text_sha256": "09efa12a295061acc20d43b3cb9e3dfeb490256514bae1d5fffb9fae8b691910",
+      "text": "ঠিক; হাদিসের পরের অংশ সাক্ষাতের স্থান বলে শুরু হয়, তারপর দুটি বাহন নিয়ে আসার সময় জানায়।"
+    },
+    {
+      "unit_id": "hch_road_q_time:first:text_ar",
+      "source_text_sha256": "edb602eee6a75ecbdc79d8d33eaccea2335fa2f2a915133a896c40887526da2e",
+      "text": "নিয়োগের রাতেই সাওর গুহায়।"
+    },
+    {
+      "unit_id": "hch_road_q_time:first:feedback_ar",
+      "source_text_sha256": "f3cd37d4e0ca95f0ea6b2f9e2296036a50ce70a875da7a48388046e99726e415",
+      "text": "বর্ণনায় তিন রাত পর এবং তৃতীয় দিনের সকালের কথা আছে।"
+    },
+    {
+      "unit_id": "hch_road_q_time:city:text_ar",
+      "source_text_sha256": "fe092375607119a3ed957aecd7fbba4a1a7a8269c17c45c45cc7d2494efc1937",
+      "text": "তিন রাত পর মদিনায়।"
+    },
+    {
+      "unit_id": "hch_road_q_time:city:feedback_ar",
+      "source_text_sha256": "70bc90acc85a651a6056d53655c01e874f7f2a96affdd88a5f196f838cef551b",
+      "text": "পরের অংশে সাক্ষাতের স্থান সাওর গুহা, মদিনা নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_company:prompt_ar",
+      "source_text_sha256": "a4bb3b6edbe810cb4c27bd6aaa223cf11a2523e7ac13fbedf58c59a1f06a3e43",
+      "text": "আয়িশার হাদিসের পরের অংশে নবী ﷺ ও আবু বকরের সঙ্গে কারা রওনা হন, আর কে তাঁদের পথ ধরে নিয়ে যান?"
+    },
+    {
+      "unit_id": "hch_road_q_company:explanation_ar",
+      "source_text_sha256": "6d179fc5eb4d231ca7e2c431a46b62521a324d8abba248648b34ae25199ae248",
+      "text": "পাঠে আমির ও পথপ্রদর্শককে তাঁদের সঙ্গে যাত্রার সঙ্গী বলা হয়েছে; তারপর পথপ্রদর্শক তাঁদের উপকূলের পথ ধরান।"
+    },
+    {
+      "unit_id": "hch_road_q_company:scope_note_ar",
+      "source_text_sha256": "93e5a0668de4141ec99ce4c5f06a1ef9ad15f9ef66685f259a6fbd159200438b",
+      "text": "এই বাক্যে উল্লিখিত সঙ্গীদের কথা, সব পর্যায়ের সব যাত্রীর তালিকা নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_company:amir_guide:text_ar",
+      "source_text_sha256": "def9268aab0609c018d09b2cc101a1395ed1f2d3411d2273f58e584de53c5217",
+      "text": "আমির ইবন ফুহাইরা ও পথপ্রদর্শক; পথপ্রদর্শকই তাঁদের উপকূলের পথ ধরে নিয়ে যান।"
+    },
+    {
+      "unit_id": "hch_road_q_company:amir_guide:feedback_ar",
+      "source_text_sha256": "2cce7b1ee97bdcb4fb315a4dfcfd247e9aebb6800c8dbfdd30dcc2759810f119",
+      "text": "ঠিক; পরের অংশে সঙ্গীদের ও পথপ্রদর্শকের ভূমিকার কথা আছে।"
+    },
+    {
+      "unit_id": "hch_road_q_company:amir_lead:text_ar",
+      "source_text_sha256": "607679dc1ec6d4a68f3134788984577bb1596bb1087cd9ab21c273f005ec9d87",
+      "text": "আমির ইবন ফুহাইরা ও পথপ্রদর্শক; আমিরই তাঁদের উপকূলের পথ ধরে নিয়ে যান।"
+    },
+    {
+      "unit_id": "hch_road_q_company:amir_lead:feedback_ar",
+      "source_text_sha256": "e0d5e48cd40fdddb45ea25873a31ccac1413225ef87ccf1d1658e89255042652",
+      "text": "আমির সঙ্গীদের একজন, কিন্তু ওই বাক্যে পথ ধরিয়ে দেন পথপ্রদর্শক।"
+    },
+    {
+      "unit_id": "hch_road_q_company:alone:text_ar",
+      "source_text_sha256": "f7d93c34e07eb7b84430f304e024fc2af4d1b4e5946b43d74960819c50f58bce",
+      "text": "শুধু পথপ্রদর্শক; পরের অংশে আমিরের কথা নেই।"
+    },
+    {
+      "unit_id": "hch_road_q_company:alone:feedback_ar",
+      "source_text_sha256": "5656d66ae815888c0befa9ce18a53aaf5c1f9e3bae6a33ff5b80df6508253d1f",
+      "text": "পরের অংশে আমিরের নাম স্পষ্ট আছে।"
+    },
+    {
+      "unit_id": "hch_road_q_good:prompt_ar",
+      "source_text_sha256": "613ceda917d91c00dacd5afe8b5dc2ad047156dbf47588b1877aaf49111e08b4",
+      "text": "আনাসের বর্ণনায় আবু বকর «আমাকে পথ দেখান» বলে কার কথা জানিয়েছিলেন?"
+    },
+    {
+      "unit_id": "hch_road_q_good:explanation_ar",
+      "source_text_sha256": "a025c6b5418e2032a5db88961c0ac28766713535088b8e5ab39aa104fa7ab2f2",
+      "text": "আনাসের মূল বর্ণনায় বোঝানো হয়েছে, শ্রোতা চলার পথ ভাবলেও আবু বকর কল্যাণের পথ বোঝান; এটি নিয়োগপ্রাপ্ত পথপ্রদর্শকের কাজ থেকে আলাদা।"
+    },
+    {
+      "unit_id": "hch_road_q_good:scope_note_ar",
+      "source_text_sha256": "cc8b91baf8134240dabb405bbd16dc32f6a13ccdbcb6fd9cdc9098a274b30ba1",
+      "text": "শুধু পথ দেখানো কথাটি দিয়ে একই ব্যক্তি বোঝানো হয়েছে বলা যায় না।"
+    },
+    {
+      "unit_id": "hch_road_q_good:prophet:text_ar",
+      "source_text_sha256": "cb0bbb21452665ab859ee83dc0dd4fa7c8de364d652952f698941680613019c0",
+      "text": "নবী ﷺ-র কথা; তাঁর উদ্দেশ্য ছিল কল্যাণের পথ।"
+    },
+    {
+      "unit_id": "hch_road_q_good:prophet:feedback_ar",
+      "source_text_sha256": "8e862714fe2b1f57be16796c522918d6143f1906bbe91edeab42d8d04fb49dc9",
+      "text": "ঠিক; প্রসঙ্গ থেকে «পথ» শব্দের উদ্দিষ্ট অর্থ বোঝা যায়।"
+    },
+    {
+      "unit_id": "hch_road_q_good:employee:text_ar",
+      "source_text_sha256": "d7eba703ff46a449ea087fe6dad8fe7e7d2a2f503dfae994f448f7cb14914b3a",
+      "text": "নিয়োগপ্রাপ্ত পথপ্রদর্শকের কথা, যাতে প্রশ্নকারী পথঘাট চিনতে পারে।"
+    },
+    {
+      "unit_id": "hch_road_q_good:employee:feedback_ar",
+      "source_text_sha256": "a1a99ef57bd95f519bb7d3633d947a118f0e795369fa081a02ab808c7619dfff",
+      "text": "নিয়োগপ্রাপ্ত পথপ্রদর্শক আয়িশার বর্ণনায় অন্য ব্যক্তি।"
+    },
+    {
+      "unit_id": "hch_road_q_good:amir:text_ar",
+      "source_text_sha256": "fbb682b91f1de1350b7c813dad9f63d6f3c1ffe6f58bcd27375957789e76a3f3",
+      "text": "আমির ইবন ফুহাইরার কথা; তাঁর সঙ্গে থাকা ভেড়াগুলো বোঝান।"
+    },
+    {
+      "unit_id": "hch_road_q_good:amir:feedback_ar",
+      "source_text_sha256": "9ab89d1bea6f33e2e4d8c63178d925c8cba9248f227e426ff5a8ed62e07750cb",
+      "text": "আনাসের বর্ণনায় প্রশ্নটি আবু বকরের সঙ্গে থাকা নবী ﷺ সম্পর্কে।"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:prompt_ar",
+      "source_text_sha256": "99f0da823c5b7d154af92a730b59b5a8e3c0d50745786a3a6e12b53c4a6be6b6",
+      "text": "কুরতুবির পাঠে কোন কথা ব্যাখ্যাকারীদের নামে উদ্ধৃত, আয়িশার বর্ণনার ভাষা নয়?"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:explanation_ar",
+      "source_text_sha256": "f9a694ad34a317ae22ac51bb17b39dfe6ea2fa80e8aca97ffbe5fed61cf5b78e",
+      "text": "নিয়োগের বর্ণনা এক বিষয়; মুহাল্লাব ও ইবনুল মুনযিরের নামে উদ্ধৃত দুটি সিদ্ধান্ত আরেক বিষয়।"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:scope_note_ar",
+      "source_text_sha256": "19ca6e99d0c65f3bc14cf911f547a9b8d2970d3c88d3a02802c9d0febdb3c5fa",
+      "text": "কুরতুবির পাঠে বুখারি থেকে উদ্ধৃত বর্ণনার সঙ্গে ফিকহি মন্তব্য আছে; নতুন কোনো ঘটনার স্বাধীন সাক্ষ্য নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:fiqh:text_ar",
+      "source_text_sha256": "5e8bf50b69199c5f978c0d1bfe34920bda25418ef21efcc0671891f59d9516b7",
+      "text": "শর্তসাপেক্ষে মুশরিকদের বিশ্বাস করে দায়িত্ব দেওয়ার বিষয়ে মুহাল্লাবের সিদ্ধান্ত এবং পথ দেখানোর কাজে নিয়োগের বিষয়ে ইবনুল মুনযিরের সিদ্ধান্ত।"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:fiqh:feedback_ar",
+      "source_text_sha256": "62f4c5a4aa00c7c693de2b954eee8e8c49497cce6c790f7f7138b22822f73ec2",
+      "text": "ঠিক; কুরতুবি বুখারির নামে বর্ণনা উল্লেখের পর দুটি মত তুলে ধরেন।"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:camels:text_ar",
+      "source_text_sha256": "ca6b481a9b8a364bd235230d6e340f2b94d174d4f1af27d0e4b73ef2464249e9",
+      "text": "কেবল পথপ্রদর্শকের কাছে দুটি বাহন দেওয়ার উল্লেখ।"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:camels:feedback_ar",
+      "source_text_sha256": "7021a888dc368ae79e7a6fc823c8f9789a457db1cc9b60edc03094737b13e340",
+      "text": "দুটি বাহন দেওয়ার কথা উদ্ধৃত বর্ণনায় আছে; প্রশ্নের দুটি আহরিত সিদ্ধান্ত তা নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:new_chain:text_ar",
+      "source_text_sha256": "d3e01c8e4024906120159337b892b4a2aff30d5e8201ea1fa5447df7abfecc01",
+      "text": "কুরতুবির তাফসিরে দ্বিতীয় একটি যাত্রার স্বতন্ত্র সনদ।"
+    },
+    {
+      "unit_id": "hch_road_q_commentary:new_chain:feedback_ar",
+      "source_text_sha256": "457695120d3542639ff6c20a1f92a22a67ebb4dc30999e968298a1c512575ade",
+      "text": "কুরতুবি বর্ণনাটি বুখারির নামে উল্লেখ করেন; শুধু পুনরায় উল্লেখ করায় স্বতন্ত্র সনদ যোগ হয় না।"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:prompt_ar",
+      "source_text_sha256": "21e588e4b97408724e7da18def360b464502764036f7a1b1354ef997e097b26d",
+      "text": "দেখানো সিরাতের অংশে পথপ্রদর্শকের নামের দুটি রূপ কীভাবে এসেছে?"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:explanation_ar",
+      "source_text_sha256": "073142cc8669ed9e81a7d2b6ecefd943c35faa807062153d57f7da82a7f95f45",
+      "text": "ইবন ইসহাকের বর্ণিত আসমার কথায় আরকাত নামটি আছে; তার পর ইবন হিশাম «এ কথাও বলা হয়» বলে উরাইকিত যোগ করেন।"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:scope_note_ar",
+      "source_text_sha256": "9ee44216c09fa701846ecb04e27cd3b8a07fd93efb4de85f106b690f69d24e90",
+      "text": "শুধু দুটি নামরূপ দেখে দুজন মানুষ বা দুটি স্বতন্ত্র উৎসের সিদ্ধান্ত নেওয়া যায় না।"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:attributed:text_ar",
+      "source_text_sha256": "a9d93ada78a5f694ea8cd5447dde418e754e93a56e6e9e1899317b34edb9193e",
+      "text": "আসমার বর্ণনায় ইবন ইসহাক তাঁকে আবদুল্লাহ ইবন আরকাত বলেন; এরপর ইবন হিশাম বলেন, «এ কথাও বলা হয়: আবদুল্লাহ ইবন উরাইকিত»।"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:attributed:feedback_ar",
+      "source_text_sha256": "a26a8313c79f82a2f8b5ac458b8915cfdae5c39f13d0387a1a08e8073efa9689",
+      "text": "ঠিক; দ্বিতীয়টি «এ কথাও বলা হয়» ভাষায় দেওয়া বিকল্প, নতুন নিশ্চিত ঘোষণা নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:reversed:text_ar",
+      "source_text_sha256": "e123525056ddd068d862a8faa7946d541c7c78e02f2ab84b37c69317500aad6d",
+      "text": "ইবন হিশাম নিশ্চিতভাবে আরকাত বলেন, তারপর ইবন ইসহাক «এ কথাও বলা হয়» বলে উরাইকিত নামটি যোগ করেন।"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:reversed:feedback_ar",
+      "source_text_sha256": "25657f351ec2be29669b5041da72668c1464155fd926fd131c603370de76acfe",
+      "text": "দুটি রূপ ও তাদের বক্তার পরিচয় উল্টো করা হয়েছে।"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:bukhari:text_ar",
+      "source_text_sha256": "5260a5c366b423be352a4ee7fef689ed51f6f854b33b47afaaee04128b0e65b8",
+      "text": "ইবন ইসহাক ও ইবন হিশাম দুজনই একই নাম বুখারির স্পষ্ট ভাষা হিসেবে দিয়েছেন।"
+    },
+    {
+      "unit_id": "hch_road_q_name_voices:bukhari:feedback_ar",
+      "source_text_sha256": "e911ccf7147cd97a73239bae5bb7bd381b1dd06b6478ed8f3612ef9ea503c931",
+      "text": "বুখারির নিয়োগসংক্রান্ত অংশে নামটি স্পষ্ট করে বলা হয়নি।"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:prompt_ar",
+      "source_text_sha256": "1f25e177d6697ce75e9ea47e3067c42d3957e02ac4774f07729add2d2cd9ca2c",
+      "text": "শুধু সহিহের নিয়োগসংক্রান্ত অংশ থেকে কি পথপ্রদর্শকের ব্যক্তিগত নাম পাওয়া যায়?"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:explanation_ar",
+      "source_text_sha256": "35db4e94e3a63ae415042ee062b129bc9e66fcf356b2364a600e470186a57820",
+      "text": "ওই অংশে বনি দিল, বনি আবদ ইবন আদি ও দক্ষতার উল্লেখ আছে, কিন্তু ব্যক্তিগত নাম স্পষ্ট নেই।"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:scope_note_ar",
+      "source_text_sha256": "a9f8c0ad9a46acfd3e22ff64e8461e6aa6a31ad0621da19822549dd113009d48",
+      "text": "এই সিদ্ধান্ত শুধু ওই উদ্ধৃত অংশের জন্য।"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:no:text_ar",
+      "source_text_sha256": "f28113116b960a83edc4bffb1b1802c078ad11cc223b795b1fe1bdf8f111cfbf",
+      "text": "না; এই অংশে তাঁর বংশ ও কাজের কথা আছে, কিন্তু ব্যক্তিগত নাম স্পষ্ট করে নেই।"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:no:feedback_ar",
+      "source_text_sha256": "2f9bfb43b5669978102cfad26e1f2f00edbb16a7fa83b55708037f31eae488f5",
+      "text": "ঠিক; এই অংশে নাম না থাকা মানে অন্য সূত্রে নাম নেই, এমন নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:yes:text_ar",
+      "source_text_sha256": "dae7e5bd76ae1081ba36e0a91b1c4c7262acabe59b24da936221e66c4504119e",
+      "text": "হ্যাঁ; «বনি দিল» কথাটিই তাঁর ব্যক্তিগত নাম।"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:yes:feedback_ar",
+      "source_text_sha256": "e56558d9b15639d147089c6d6006e12758bbed2162fa058a8b9e2f2b4d201748",
+      "text": "বনি দিল বংশপরিচয়, ব্যক্তিটির ব্যক্তিগত নাম নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:deny:text_ar",
+      "source_text_sha256": "8ba858dfb165284f2dbfae9a76614bbcc1b1e89ec099a2b623c6c06fe025a430",
+      "text": "না; এতে প্রমাণিত হয় কোনো সূত্রেই তাঁর নাম বলা হয়নি।"
+    },
+    {
+      "unit_id": "hch_road_q_name_scope:deny:feedback_ar",
+      "source_text_sha256": "7197c75a98cf31fa0813661ab7fb4a259717064370c0c1e675641bc5845b1975",
+      "text": "একটি অংশে নাম না থাকাকে সব সূত্রের ক্ষেত্রে প্রযোজ্য করা যায় না।"
+    },
+    {
+      "unit_id": "hch_road_q_hani:prompt_ar",
+      "source_text_sha256": "86df61fe38dca31536cd65aa471dcdb5841aad1c4028bbf21593097e0ae98857",
+      "text": "হানি ফকিহের ব্যাখ্যায় কে বলেন যে সহিহে পথপ্রদর্শকের নাম স্পষ্ট করে বলা হয়নি?"
+    },
+    {
+      "unit_id": "hch_road_q_hani:explanation_ar",
+      "source_text_sha256": "e14b4a1cf49345e1527a7c492982bd8812c2ef9e5090648f0ada0c984fd5ec34",
+      "text": "পাঠটি ইবন কাসিরের উদ্ধৃতি দিয়ে শুরু হয়; তারপর সহিহে নাম না থাকার এবং সিরাতে ইবন ইসহাক তা বলার সীমারেখা টানেন হানি।"
+    },
+    {
+      "unit_id": "hch_road_q_hani:scope_note_ar",
+      "source_text_sha256": "3608f0a12b7906f85a8095f7dc01ab349f101905bca1ba633410f9ca6bc1e989",
+      "text": "এটি উদ্ধৃতি ও ব্যাখ্যার বক্তাদের পার্থক্য; নামের বানান সম্পর্কে নতুন কোনো অগ্রাধিকার নির্ধারণ নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_hani:hani:text_ar",
+      "source_text_sha256": "b1681fca951da4c2aefe8446b0ee4c091ce515a4cdcaba9db1214f193b50f765",
+      "text": "হানি ফকিহ; নাম-উল্লেখকারী ইবন কাসিরের বক্তব্য উদ্ধৃত করার পরে।"
+    },
+    {
+      "unit_id": "hch_road_q_hani:hani:feedback_ar",
+      "source_text_sha256": "1aacec55776b094f21eb006aceec6617c38eda2719f5d659236783d0e6ef32e2",
+      "text": "ঠিক; উদ্ধৃতির পরের মন্তব্যটি ব্যাখ্যাকারীর নিজস্ব বক্তব্য।"
+    },
+    {
+      "unit_id": "hch_road_q_hani:ibn_kathir:text_ar",
+      "source_text_sha256": "e7788cd1d1c3bc3b016dd54e6d353e5c0ddf9b743840d08395ab1f712a011338",
+      "text": "ইবন কাসির, তাঁর উদ্ধৃত কথার মধ্যেই; হানির কোনো মন্তব্য ছাড়াই।"
+    },
+    {
+      "unit_id": "hch_road_q_hani:ibn_kathir:feedback_ar",
+      "source_text_sha256": "c4c524167c22282e98e3d0862958fda696d24ed26907a0234b4a315212585a11",
+      "text": "উদ্ধৃত বক্তব্যে ব্যক্তির নাম আছে; পরের সীমা নির্ধারণ হানির।"
+    },
+    {
+      "unit_id": "hch_road_q_hani:aisha:text_ar",
+      "source_text_sha256": "4682404990e60672f3ea4b715c0b9bd2be18a201973a594b0e679a07ab390b60",
+      "text": "ইবন কাসির থেকে উদ্ধৃত কথায় আয়িশা নিজ ভাষায় তা বলেছেন।"
+    },
+    {
+      "unit_id": "hch_road_q_hani:aisha:feedback_ar",
+      "source_text_sha256": "abf2cae994e5d04cc6da4f2b59605ae3cddb71f32f0ad0d86ed3b6d816c2af95",
+      "text": "এখানে পার্থক্যটি ইবন কাসিরের উদ্ধৃতি ও হানির মন্তব্যের মধ্যে, আয়িশার সরাসরি কথার মধ্যে নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:prompt_ar",
+      "source_text_sha256": "e2f4a6237b4ae5b51f2ffe95c6725d637b2fafbb811a7c2ccdfad15f0419aea2",
+      "text": "বায়হাকির আবু হুরায়রার বর্ণনায় প্রথম পাতার শেষ ও দ্বিতীয় পাতার শুরু কীভাবে পড়তে হবে?"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:explanation_ar",
+      "source_text_sha256": "8e58f455ef02c593c94552673604638933d3727971f91879a7574d4357d6b23e",
+      "text": "সনদ ও মূল বর্ণনার শুরু প্রথম পাতায়; বাক্যের অবশিষ্টাংশ, লোকের প্রশ্ন এবং আবু বকরের জবাব পরের পাতায় যুক্ত হয়েছে।"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:scope_note_ar",
+      "source_text_sha256": "155b88155329b6ffa4bb0668e9dfc1953353dcdacf0f1152700d89cec2600914",
+      "text": "দুটি পাতা যুক্ত হওয়া থেকেই সনদের বিশুদ্ধতা নির্ধারিত হয় না।"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:joined:text_ar",
+      "source_text_sha256": "84d9cb89166672ca55159ff8398211c5e816933242313a72e0469151e527872b",
+      "text": "দ্বিতীয় পাতা প্রথম পাতার বাক্য শেষ করে; তারপর আবু বকরের «এক পথপ্রদর্শক, আমাকে পথ দেখান» জবাবটি দেয়।"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:joined:feedback_ar",
+      "source_text_sha256": "827f381cf754f895b926955f91ddfd2295ee4ad9ca5fa04336b79848440ffe82",
+      "text": "ঠিক; শুরুতে কেটে যাওয়া অংশকে একা সম্পূর্ণ বর্ণনা ধরে পড়া যায় না।"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:independent:text_ar",
+      "source_text_sha256": "f25ed3c8c9ffdda6bef8988ba2b72de0125adb99e499a08c6b3cf5a22c71f8d0",
+      "text": "দ্বিতীয় পাতার অনুচ্ছেদটি আবু হুরায়রার বর্ণনার ওপর বায়হাকির মন্তব্য, তাঁর মূল বর্ণনার অংশ নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:independent:feedback_ar",
+      "source_text_sha256": "726c9fc0566edda9c652249799e32496207492c1dcb590153050094cbc504463",
+      "text": "বাক্যের বাকি অংশ, লোকের প্রশ্ন ও আবু বকরের জবাব আবু হুরায়রার মূল বর্ণনায় আছে; সংকলকের মন্তব্য নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:anas:text_ar",
+      "source_text_sha256": "dc288562b67c2afe3d5b96fcfb470fb1f880ad8ba6a2039abe9a993e228110f8",
+      "text": "দ্বিতীয় পাতার বাকি অংশ আনাসেরই শব্দ «এই ব্যক্তি আমাকে পথ দেখান»।"
+    },
+    {
+      "unit_id": "hch_road_q_bayhaqi:anas:feedback_ar",
+      "source_text_sha256": "28357ce1bf8936a294b3a02b3cc7821ce50be9773acde5f15f98dac2e12cbde8",
+      "text": "ওটি আনাসের বর্ণনার বাক্য; বায়হাকির আবু হুরায়রার বর্ণনার নিজস্ব শব্দ আছে।"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:prompt_ar",
+      "source_text_sha256": "b9aafbe172a4b2e35ab29306996754767b5ffeba6aeb602317b1a1699aac185e",
+      "text": "আয়িশার বর্ণনার পরের অংশের «উপকূলের পথ» থেকে কী বলা যায়?"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:explanation_ar",
+      "source_text_sha256": "08ba55edc6fe1823c5acd94faee7e603a555bc1cfffac1ec09503286fdd7d0ef",
+      "text": "পরের অংশে পথপ্রদর্শকের উপস্থিতি ও উপকূলের পথের বর্ণনা আছে; যাত্রাবিরতির স্থানগুলোর নির্ভুল মানচিত্র নেই।"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:scope_note_ar",
+      "source_text_sha256": "5ffa67b9b67196b37d4ff02998a0421630f052ee8d9132bae52bf52d729dc873",
+      "text": "এই অংশে যাত্রাবিরতির স্থান না থাকায় অন্য পাঠে তার বিস্তারিত থাকার সম্ভাবনা নাকচ হয় না।"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:bounded:text_ar",
+      "source_text_sha256": "1abdb633ea707d1c7fb04d9ca12965ac05fb987f9e602d904b1eedbe0089d08a",
+      "text": "পথপ্রদর্শক তাঁদের যে পথ ধরে নিয়েছিলেন তার বর্ণনা; এই অংশের জন্য কোনো যাত্রাবিরতির স্থান বা স্থানাঙ্ক নির্ধারণ নয়।"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:bounded:feedback_ar",
+      "source_text_sha256": "4e113ad44c1f101187abf319dad356f973c609135e0b8cd2598760f2f93bea2e",
+      "text": "ঠিক; পথের বর্ণনা আছে, যাত্রাবিরতির মানচিত্র নেই।"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:map:text_ar",
+      "source_text_sha256": "6f00c924132c77dea3d9a192c443aae47fdc211b4d483cc1ed376f64fbb1c0a3",
+      "text": "ক্রম অনুসারে সব যাত্রাবিরতির স্থান এবং তাদের মধ্যবর্তী দূরত্ব নির্ধারণ।"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:map:feedback_ar",
+      "source_text_sha256": "cdde1c771dfed8f28e7ca49feb8e755c5942b6b6b25f8113975758efe2cf06bf",
+      "text": "এই অংশে যাত্রাবিরতির স্থান বা তাদের দূরত্বের তালিকা নেই।"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:guide_absent:text_ar",
+      "source_text_sha256": "951b0658c52c9697acb0061b56382f898866f6602abe2b2b898f0a9a2c44de2b",
+      "text": "সঙ্গীরা পথপ্রদর্শক ছাড়াই গিয়েছিলেন, তা প্রমাণ করা।"
+    },
+    {
+      "unit_id": "hch_road_q_route_limit:guide_absent:feedback_ar",
+      "source_text_sha256": "6306f99aad7e0edc9adfb66d7e8632b684e16673d546ee3547de1e30b7c0c012",
+      "text": "পরের অংশে পথপ্রদর্শকের স্পষ্ট উল্লেখ আছে এবং পথ ধরানোর কাজ তাঁর বলে বলা হয়েছে।"
+    },
+    {
+      "unit_id": "hch_road_issue_route:note_ar",
+      "source_text_sha256": "9d179201e7b52c86cdba87811ba8c474089a7f2ab39f598a17c45b18620506a0",
+      "text": "এই নির্বাচিত অংশে যাত্রাবিরতির স্থানের বিস্তারিত পথরেখা বা আধুনিক অবস্থান নেই; «উপকূলের পথ» কথাটুকুই এখানে পথের বর্ণনার সীমা।"
+    },
+    {
+      "unit_id": "hch_road_issue_names:note_ar",
+      "source_text_sha256": "e091c486648457bc90ba431aff501c075cc61187a2ecb7f918c1ef11b0c13ce2",
+      "text": "সিরাত, ইবন হিশামের কথার রূপ এবং ইবন কাসিরের উদ্ধৃতিতে নামের বানান নিজ নিজ সূত্রসহ রাখা হয়েছে; এখানে আসমার বর্ণনা বা অদৃশ্য কণ্ঠের বর্ণনার সনদের বিচার করা হয়নি।"
+    },
+    {
+      "unit_id": "hch_road_issue_recognition:note_ar",
+      "source_text_sha256": "c02eff8f8041f5f2a6aad528e63da673816f9edc1d752cb41e636f79d120425e",
+      "text": "এখানে বায়হাকির বর্ণনার সনদ যাচাই করা হয়নি; আনাসের উদ্ধৃতির শেষে কেটে যাওয়া অংশ থেকে এই অধ্যায়ের উদ্দেশ্যের বাইরে থাকা আগমনের ঘটনাও পূরণ করা হয়নি।"
+    },
+    {
+      "unit_id": "hch_road_issue_rights:note_ar",
+      "source_text_sha256": "acc7bd4c55ac376f2d01a00e0122ecb214b5e3dd1dab8745122298c5cbf5e980",
+      "text": "এটি সম্পাদকীয় যাচাইয়ের জন্য আরবি খসড়া; স্বাধীন ভাষাগত বা ঐতিহাসিক পর্যালোচনা নয় এবং উদ্ধৃত অংশ প্রকাশের অনুমতিও নয়।"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_hire:p1:kind_ar",
+      "source_text_sha256": "ce197ad81fc42de7b821e429f27db926d230a6796c9f4ba09e63150c183c1121",
+      "text": "হাদিস"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_hire:p1:speaker_ar",
+      "source_text_sha256": "4e3bd1e3ba2f624197e754d3cd032bd08e19ac2e5a2b9e0641c224ea76352947",
+      "text": "সহিহ বুখারিতে উরওয়ার সূত্রে যুহরির বর্ণনায় আয়িশা"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_hire:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "সহিহ বুখারি — সুলতানিয়া সংস্করণ"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_hire:p1:citation_ar",
+      "source_text_sha256": "5da00a63c89fefd7cffb8e8fcbded227eab3b504f73b16f59d14f6a02a02015d",
+      "text": "[সহিহ বুখারি — সুলতানিয়া সংস্করণ, ৫/৫৯](https://app.turath.io/book/1681?page=5899)"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_hire:p1:context_note_ar",
+      "source_text_sha256": "3ffb89c6042a1a647924afc025ffb26c36075ca77b93aaa65d9dd9cc68c0674a",
+      "text": "সহিহে আয়িশার হাদিসের নিয়োগসংক্রান্ত অংশ; সনদ নথির তথ্যে সংরক্ষিত। মূল বক্তব্য «তাঁরা তাঁর সঙ্গে সময় ঠিক করলেন» পর্যন্ত গিয়ে থেমেছে; উপকূলসংক্রান্ত অংশে তা সম্পূর্ণ হয়, এটি স্বতন্ত্র সনদ নয়।"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_hire:p1:text_ar",
+      "source_text_sha256": "102c872c5e54cb652708816bf3f34878db74b87b876d31bc56808b047eadecce",
+      "text": "আল্লাহর রাসুল ﷺ ও আবু বকর বনি দিলের এক ব্যক্তিকে নিয়োগ করলেন; তিনি বনি আবদ ইবন আদির লোক, দক্ষ পথপ্রদর্শক। «খির্রীত» মানে পথ দেখাতে দক্ষ। তিনি সাহমি বংশের আস ইবন ওয়ায়িলের পরিবারের সঙ্গে মৈত্রীবন্ধনে আবদ্ধ ছিলেন, এবং কুরাইশের অবিশ্বাসীদের ধর্মে ছিলেন। তাঁরা তাঁকে বিশ্বাস করলেন, নিজেদের দুটি বাহন তাঁর হাতে দিলেন এবং তাঁর সঙ্গে সাক্ষাতের সময় ঠিক করলেন"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_coast:p1:kind_ar",
+      "source_text_sha256": "ce197ad81fc42de7b821e429f27db926d230a6796c9f4ba09e63150c183c1121",
+      "text": "হাদিস"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_coast:p1:speaker_ar",
+      "source_text_sha256": "e8ef6b5908555db35652901290f8d069ba73190bf430b864a95baa7c78cbc9d0",
+      "text": "একই হাদিসে আয়িশা"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_coast:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "সহিহ বুখারি — সুলতানিয়া সংস্করণ"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_coast:p1:citation_ar",
+      "source_text_sha256": "4cf076458d997ac215d91d6166326dd851f188f247c6021770db7eb8780cfd5a",
+      "text": "[সহিহ বুখারি — সুলতানিয়া সংস্করণ, ৫/৬০](https://app.turath.io/book/1681?page=5899)"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_coast:p1:context_note_ar",
+      "source_text_sha256": "6f9a6ebfeff507a5f56a123e6dd982ced264f2d16959984a1520cbcb7ba3f9e0",
+      "text": "একই আয়িশার হাদিসে পাতার সীমানায় সাক্ষাতের বাক্যের বাকি অংশ; শুরুতে «সাওর গুহায়» রয়েছে, একা এটি সম্পূর্ণ বাক্য নয়।"
+    },
+    {
+      "unit_id": "sp_guide_bukhari_coast:p1:text_ar",
+      "source_text_sha256": "d5a0333129ed8995f736e940f1484cb04a5fd7babf5407ef93eed08029d0e632",
+      "text": "তিন রাত পর সাওর গুহায়, তৃতীয় দিনের সকালে তাঁদের দুটি বাহন নিয়ে। তাঁদের সঙ্গে আমির ইবন ফুহাইরা ও পথপ্রদর্শক রওনা হলেন; তিনি তাঁদের উপকূলের পথ ধরে নিয়ে গেলেন।"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p1:kind_ar",
+      "source_text_sha256": "694656ede27d6a2eaf4f83fc4b0da2b99488e92891743154a751c3a7f0c471eb",
+      "text": "উদ্ধৃত অদৃশ্য কণ্ঠের বর্ণনা"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p1:speaker_ar",
+      "source_text_sha256": "66cf8cdac770d9567aac5c0fd814c795e30efe2a92f1e1018bbc75cce9f1f2f4",
+      "text": "ইবন ইসহাকের আগের বর্ণনায় আসমা; সংকলকের স্বাধীন সাক্ষ্য নয়"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "সিরাত ইবন হিশাম — সাক্কা সম্পাদিত"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p1:citation_ar",
+      "source_text_sha256": "ca800909a5ba37d8cd1d368d85263e67b0bc8387b8a63c88f733988170db9c84",
+      "text": "[সিরাত ইবন হিশাম — সাক্কা সম্পাদিত, ১/৪৮৭](https://app.turath.io/book/23833?page=510)"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p1:context_note_ar",
+      "source_text_sha256": "3dff6b1cd7fd1b770cad77e523334cb68b98560b28bb92c42c89e4ba41d94a2e",
+      "text": "আসমার বর্ণনায় «তাঁর কথা» কথাটির সর্বনাম বোঝার জন্য প্রয়োজনীয় পূর্ববর্তী অংশ; অদৃশ্য কণ্ঠ ও কবিতার উদ্ধৃত খবর, সত্যতা প্রতিষ্ঠিত ঘটনা বা বিশুদ্ধতার রায় নয়।"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p1:text_ar",
+      "source_text_sha256": "2801f0947e947e6029248b92609eb7f973ab4ba9d2fce8e858c182cea9b0252e",
+      "text": "তিনি বললেন: তারপর তারা ফিরে গেল। আমরা তিন রাত কাটালাম। আল্লাহর রাসুল ﷺ কোন দিকে গেছেন, তা জানতাম না। এমন সময় মক্কার নিচের দিক থেকে জিনদের একজন আরবদের গাওয়া কবিতার কয়েকটি চরণ গাইতে গাইতে এগিয়ে এল। লোকেরা তার পেছনে পেছনে চলছিল; কণ্ঠ শুনছিল কিন্তু তাকে দেখতে পাচ্ছিল না। শেষে সে মক্কার ওপরের দিক দিয়ে বেরিয়ে গেল, বলতে বলতে:"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p2:kind_ar",
+      "source_text_sha256": "d0d6dbdc1143a64924a2b840fd7b6c05ddf59285d8c02d2c523e0ed0ffdd8bd9",
+      "text": "বর্ণনায় উদ্ধৃত কবিতা, সূত্রের নির্দেশসহ"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p2:speaker_ar",
+      "source_text_sha256": "f2d708dd2f5d954991975ce7470b3e6c6117be36d64ba33a0cfbb6108d687730",
+      "text": "বর্ণনায় কণ্ঠটি অদৃশ্য বক্তার বলে উল্লেখিত; এর কিছু শব্দের আরোপ ইবন হিশামের পরবর্তী মন্তব্যে সীমিত করা হয়েছে"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "সিরাত ইবন হিশাম — সাক্কা সম্পাদিত"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p2:citation_ar",
+      "source_text_sha256": "ca800909a5ba37d8cd1d368d85263e67b0bc8387b8a63c88f733988170db9c84",
+      "text": "[সিরাত ইবন হিশাম — সাক্কা সম্পাদিত, ১/৪৮৭](https://app.turath.io/book/23833?page=510)"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p2:context_note_ar",
+      "source_text_sha256": "3dff6b1cd7fd1b770cad77e523334cb68b98560b28bb92c42c89e4ba41d94a2e",
+      "text": "আসমার বর্ণনায় «তাঁর কথা» কথাটির সর্বনাম বোঝার জন্য প্রয়োজনীয় পূর্ববর্তী অংশ; অদৃশ্য কণ্ঠ ও কবিতার উদ্ধৃত খবর, সত্যতা প্রতিষ্ঠিত ঘটনা বা বিশুদ্ধতার রায় নয়।"
+    },
+    {
+      "unit_id": "sp_guide_phone_context:p2:text_ar",
+      "source_text_sha256": "d7b8cd0020ae3da54bc6ff5271af2cb7f234005ea640a1ecef2a77866f1ca2de",
+      "text": "মানুষের রব আল্লাহ সর্বোত্তম প্রতিদান দিন সেই দুই সঙ্গীকে, যারা উম্মে মাবাদের দুই তাঁবুতে এসে থেমেছিলেন।\nতাঁরা স্থলভূমিতে অবতরণ করলেন, তারপর সন্ধ্যায় রওনা হলেন; সফল সে, যে মুহাম্মদের সঙ্গী হয়ে সন্ধ্যা কাটায়।\nবনি কাবের জন্য আনন্দের হোক তাদের কন্যার অবস্থান, আর দুই মুমিনের জন্য তাঁর নজরদারির জায়গায় বসা। [২]"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p1:kind_ar",
+      "source_text_sha256": "3a7bf1bc45460a1bc4f0abe436aef008228f81ea592b42acfdc8866214f36f59",
+      "text": "ইবন ইসহাকের সূত্রে আসমার বর্ণনা"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p1:speaker_ar",
+      "source_text_sha256": "a9a9197a23f167202fb8fed69814083b591e931ba55a3ea2b3889ede35c5fdc0",
+      "text": "ইবন ইসহাক, আসমা বিনত আবু বকরের সূত্রে"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "সিরাত ইবন হিশাম — সাক্কা সম্পাদিত"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p1:citation_ar",
+      "source_text_sha256": "9cf53d5a95f37aebe951e3c2188b9c19d5e6e8b0d002d93b3cb66d86e63376fa",
+      "text": "[সিরাত ইবন হিশাম — সাক্কা সম্পাদিত, ১/৪৮৮](https://app.turath.io/book/23833?page=511)"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p1:context_note_ar",
+      "source_text_sha256": "0fd74c461530c5be4b1898feee80d10df3c1b3380049ab32a3e8a7e6e21a576f",
+      "text": "সিরাতের অংশ: আগের অদৃশ্য কণ্ঠের বর্ণনার পর ইবন ইসহাকের সূত্রে আসমার কথা; তারপর ইবন হিশামের «এ কথাও বলা হয়» সংযোজন। দুটি অংশ বলেই দুটি স্বাধীন সনদ নয়।"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p1:text_ar",
+      "source_text_sha256": "056af7d69d6dd5a7bccf674de46ea1f1cd66778d71124ec459bc7161c9670693",
+      "text": "ইবন ইসহাক বলেছেন: আসমা বিনত আবু বকর বলেছেন: যখন আমরা তাঁর কথা শুনলাম, বুঝলাম আল্লাহর রাসুল ﷺ কোন দিকে গেছেন—তাঁর গন্তব্য মদিনা। তাঁরা ছিলেন চারজন: আল্লাহর রাসুল ﷺ, আবু বকর আস-সিদ্দিক, আবু বকরের মুক্তদাস আমির ইবন ফুহাইরা এবং তাঁদের পথপ্রদর্শক আবদুল্লাহ ইবন আরকাত।"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p2:kind_ar",
+      "source_text_sha256": "e556e62b618c97669ddac97f548c2957cc25acea320bf15b89498dd737c00ae3",
+      "text": "নামের বিকল্প রূপ ও সংকলকের মন্তব্য"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p2:speaker_ar",
+      "source_text_sha256": "556b3752822582cfbae4cc081a98b327c3948936bb26f764dc4311923a364ae5",
+      "text": "ইবন হিশাম"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "সিরাত ইবন হিশাম — সাক্কা সম্পাদিত"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p2:citation_ar",
+      "source_text_sha256": "9cf53d5a95f37aebe951e3c2188b9c19d5e6e8b0d002d93b3cb66d86e63376fa",
+      "text": "[সিরাত ইবন হিশাম — সাক্কা সম্পাদিত, ১/৪৮৮](https://app.turath.io/book/23833?page=511)"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p2:context_note_ar",
+      "source_text_sha256": "0fd74c461530c5be4b1898feee80d10df3c1b3380049ab32a3e8a7e6e21a576f",
+      "text": "সিরাতের অংশ: আগের অদৃশ্য কণ্ঠের বর্ণনার পর ইবন ইসহাকের সূত্রে আসমার কথা; তারপর ইবন হিশামের «এ কথাও বলা হয়» সংযোজন। দুটি অংশ বলেই দুটি স্বাধীন সনদ নয়।"
+    },
+    {
+      "unit_id": "sp_guide_sira_name:p2:text_ar",
+      "source_text_sha256": "1d280271b3853cbd384f206044b5fdffa75e9a9d8ed152d6cc3b1c49f8b7a103",
+      "text": "ইবন হিশাম বলেছেন: এ কথাও বলা হয়: আবদুল্লাহ ইবন উরাইকিত।"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p1:kind_ar",
+      "source_text_sha256": "662d9415a873947767f5ffc11c9b35e84f7c80cc4ae16b9a2feb89d0cae8f46f",
+      "text": "ব্যাখ্যার সূচনা"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p1:speaker_ar",
+      "source_text_sha256": "67a32d75a83dd108aaa80fa12c9ddf5c2dd751778c8a0093c6f6173665330729",
+      "text": "হানি ফকিহ"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p1:book_ar",
+      "source_text_sha256": "5b36525c27aafb61f6a4e3fdbec4203dba327ada47bb7cc197ec26342c4ad7f3",
+      "text": "হুসুলুল মামুল বি-শারহি মুখতাসারিল ফুসুল ফি সিরাতির রাসুল ﷺ"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p1:citation_ar",
+      "source_text_sha256": "5a201fa09160706ff874e31668239d1bfbfbd9527c909c9e3f938d26e197703d",
+      "text": "[হুসুলুল মামুল বি-শারহি মুখতাসারিল ফুসুল ফি সিরাতির রাসুল ﷺ, ১/৯৩](https://app.turath.io/book/1054?page=82)"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p1:context_note_ar",
+      "source_text_sha256": "38bdd7e8a2fa234d42c14f84d1ea86fd4293f5a6e08e7a26b765dfb532123fac",
+      "text": "প্রথমে হানি ফকিহের সূচনা, তারপর তাঁর উদ্ধৃত ইবন কাসিরের বক্তব্য মূলের চিহ্নসহ, এরপর নাম বিষয়ে হানির নিজস্ব সীমারেখা ও সিদ্ধান্ত। সীমারেখাটি ইবন কাসিরের নামে নয়।"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p1:text_ar",
+      "source_text_sha256": "b3668246f320ef2a4810f9b67f7ff0634ca5fdb900ff99d2aab148b8f80bcfdc",
+      "text": "৪ — আর তাঁর উক্তি:"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p2:kind_ar",
+      "source_text_sha256": "0157158c607bdae5141007cc811782092a8fccaba11df5be79bd1c3a2ff6fdb6",
+      "text": "হানির উদ্ধৃতিতে ইবন কাসিরের কথা, মূল পাঠের চিহ্নসহ"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p2:speaker_ar",
+      "source_text_sha256": "9ea50500864f52706e07c6decc945ead4101ebccc85aa26d85c5e835e1aea2e0",
+      "text": "হানি ফকিহের উদ্ধৃতিতে ইবন কাসির"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p2:book_ar",
+      "source_text_sha256": "5b36525c27aafb61f6a4e3fdbec4203dba327ada47bb7cc197ec26342c4ad7f3",
+      "text": "হুসুলুল মামুল বি-শারহি মুখতাসারিল ফুসুল ফি সিরাতির রাসুল ﷺ"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p2:citation_ar",
+      "source_text_sha256": "5a201fa09160706ff874e31668239d1bfbfbd9527c909c9e3f938d26e197703d",
+      "text": "[হুসুলুল মামুল বি-শারহি মুখতাসারিল ফুসুল ফি সিরাতির রাসুল ﷺ, ১/৯৩](https://app.turath.io/book/1054?page=82)"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p2:context_note_ar",
+      "source_text_sha256": "38bdd7e8a2fa234d42c14f84d1ea86fd4293f5a6e08e7a26b765dfb532123fac",
+      "text": "প্রথমে হানি ফকিহের সূচনা, তারপর তাঁর উদ্ধৃত ইবন কাসিরের বক্তব্য মূলের চিহ্নসহ, এরপর নাম বিষয়ে হানির নিজস্ব সীমারেখা ও সিদ্ধান্ত। সীমারেখাটি ইবন কাসিরের নামে নয়।"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p2:text_ar",
+      "source_text_sha256": "51f0c1b28a5ed3031e39235f32e3ce50e93465e7ff4c7dc70061c11296438c02",
+      "text": "«তাঁরা আবদুল্লাহ ইবন উরাইকিতকে নিয়োগ করেছিলেন; তিনি ছিলেন দক্ষ পথপ্রদর্শক ...»"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p3:kind_ar",
+      "source_text_sha256": "4298b8606812676483a311725e25dd128cf6bf8bcc0eb6d01cd2844edf791d82",
+      "text": "নামের উৎসের সীমা নির্ধারণ ও আহরিত সিদ্ধান্ত"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p3:speaker_ar",
+      "source_text_sha256": "67a32d75a83dd108aaa80fa12c9ddf5c2dd751778c8a0093c6f6173665330729",
+      "text": "হানি ফকিহ"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p3:book_ar",
+      "source_text_sha256": "5b36525c27aafb61f6a4e3fdbec4203dba327ada47bb7cc197ec26342c4ad7f3",
+      "text": "হুসুলুল মামুল বি-শারহি মুখতাসারিল ফুসুল ফি সিরাতির রাসুল ﷺ"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p3:citation_ar",
+      "source_text_sha256": "5a201fa09160706ff874e31668239d1bfbfbd9527c909c9e3f938d26e197703d",
+      "text": "[হুসুলুল মামুল বি-শারহি মুখতাসারিল ফুসুল ফি সিরাতির রাসুল ﷺ, ১/৯৩](https://app.turath.io/book/1054?page=82)"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p3:context_note_ar",
+      "source_text_sha256": "38bdd7e8a2fa234d42c14f84d1ea86fd4293f5a6e08e7a26b765dfb532123fac",
+      "text": "প্রথমে হানি ফকিহের সূচনা, তারপর তাঁর উদ্ধৃত ইবন কাসিরের বক্তব্য মূলের চিহ্নসহ, এরপর নাম বিষয়ে হানির নিজস্ব সীমারেখা ও সিদ্ধান্ত। সীমারেখাটি ইবন কাসিরের নামে নয়।"
+    },
+    {
+      "unit_id": "sp_guide_hani_name:p3:text_ar",
+      "source_text_sha256": "1e0e4f1f97603e794f31a0818c3e188c3fce89879fae4e3cc6486fbf82595547",
+      "text": ": এটি সহিহে সংকলিত (^٤), তবে সেখানে তাঁর নাম স্পষ্ট করে বলা হয়নি; শুধু বনি দিলের এক ব্যক্তি বলা হয়েছে। ইবন ইসহাক সিরাতে তাঁর নাম উল্লেখ করেছেন (^٥)। এতে প্রমাণ আছে, প্রয়োজন বা বাধ্যতার সময় মুসলিমের জন্য অমুসলিমের সাহায্য নেওয়া বৈধ; এর প্রমাণসহ বিষয়টি আগেও বহুবার আলোচনা করা হয়েছে।"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p1:kind_ar",
+      "source_text_sha256": "0d45ebeb69d94f07ea35f114baf1bebc4d7bf9417b57f6cbcf353f9bf5ab9820",
+      "text": "কুরতুবির বুখারি থেকে আয়িশার বর্ণনার উদ্ধৃতি"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p1:speaker_ar",
+      "source_text_sha256": "21b677c5cb366e5324f916127e6812a75a42ffc2aa2bbb7d81de1fbe88830190",
+      "text": "কুরতুবি আয়িশার বর্ণনাটি বুখারির নামে উদ্ধৃত করছেন"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p1:book_ar",
+      "source_text_sha256": "46580a81313f74c241b58728e709267b407c0f8f688fee82893ad715996c3672",
+      "text": "তাফসিরুল কুরতুবি = আল-জামি লি-আহকামিল কুরআন"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p1:citation_ar",
+      "source_text_sha256": "649bf2a2800d29bf3b6c2a55f7e9fad5efd2a84c04c1dbc0ed024db4e75cf923",
+      "text": "[তাফসিরুল কুরতুবি = আল-জামি লি-আহকামিল কুরআন, ৮/১৪৫](https://app.turath.io/book/20855?page=3087)"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p1:context_note_ar",
+      "source_text_sha256": "22be4c1de48271395366bd9c92a5911fc4b623d4b9ba3292f98b2fffb79331af",
+      "text": "কুরতুবির উদ্ধৃত বুখারির বর্ণনা, তারপর মুহাল্লাব ও ইবনুল মুনযিরের সিদ্ধান্ত; উদ্ধৃতিতে টীকার সংখ্যা থাকলেই তাদের মূল সূত্র এখানে খোলা হয়েছে বোঝায় না।"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p1:text_ar",
+      "source_text_sha256": "975a8ce058172748b33b7ef4d6655cc7710a78ec6ac2233ac8d5bb31f7b5f9d9",
+      "text": "পঞ্চম বিষয়—বুখারি আয়িশার সূত্রে বর্ণনা করেছেন, তিনি বলেছেন: আল্লাহর রাসুল ﷺ ও আবু বকর বনি দিলের এক দক্ষ পথপ্রদর্শককে নিয়োগ করলেন «২»। তিনি কুরাইশের অবিশ্বাসীদের ধর্মে ছিলেন। তাঁরা তাঁর হাতে নিজেদের দুটি বাহন দিলেন এবং তিন রাত পর সাওর গুহায় তাঁর সঙ্গে দেখা করার সময় নির্ধারণ করলেন। তৃতীয় দিনের সকালে তিনি তাঁদের দুটি বাহন নিয়ে এলেন। তাঁরা রওনা হলেন, এবং তাঁদের সঙ্গে «৩» আমির ইবন ফুহাইরা ও দিল গোত্রের পথপ্রদর্শকও রওনা হলেন; তিনি তাঁদের উপকূলের পথ ধরে নিয়ে গেলেন «৪»।"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p2:kind_ar",
+      "source_text_sha256": "c8010d3d905db9f30f54b1cd73828485f0a0b2a71ff845cda3a663baa285e36f",
+      "text": "উদ্ধৃত মুহাল্লাবের আহরিত সিদ্ধান্ত"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p2:speaker_ar",
+      "source_text_sha256": "b8e7ff9b0843575b94bd9f3f44d0ecf7edfce5b9410dbcda43b90e50f1f7956f",
+      "text": "কুরতুবির উদ্ধৃতিতে মুহাল্লাব"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p2:book_ar",
+      "source_text_sha256": "46580a81313f74c241b58728e709267b407c0f8f688fee82893ad715996c3672",
+      "text": "তাফসিরুল কুরতুবি = আল-জামি লি-আহকামিল কুরআন"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p2:citation_ar",
+      "source_text_sha256": "649bf2a2800d29bf3b6c2a55f7e9fad5efd2a84c04c1dbc0ed024db4e75cf923",
+      "text": "[তাফসিরুল কুরতুবি = আল-জামি লি-আহকামিল কুরআন, ৮/১৪৫](https://app.turath.io/book/20855?page=3087)"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p2:context_note_ar",
+      "source_text_sha256": "22be4c1de48271395366bd9c92a5911fc4b623d4b9ba3292f98b2fffb79331af",
+      "text": "কুরতুবির উদ্ধৃত বুখারির বর্ণনা, তারপর মুহাল্লাব ও ইবনুল মুনযিরের সিদ্ধান্ত; উদ্ধৃতিতে টীকার সংখ্যা থাকলেই তাদের মূল সূত্র এখানে খোলা হয়েছে বোঝায় না।"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p2:text_ar",
+      "source_text_sha256": "5cd000c7e85f0096300ffab02cc7c1ddbca118c4a3a98b25bf3e03ff6342ff1a",
+      "text": "মুহাল্লাব বলেছেন: এর ফিকহি শিক্ষা হলো, মুশরিকদের «৫» বিশ্বস্ততা ও মর্যাদাবোধ জানা থাকলে গোপন কথা ও সম্পদ তাঁদের জিম্মায় দেওয়া যায়। যেমন নবী ﷺ মক্কা থেকে বের হওয়ার গোপন কথা ও দুটি উটনির বিষয়ে এই মুশরিককে বিশ্বাস করেছিলেন।"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p3:kind_ar",
+      "source_text_sha256": "f0d3ed562413d8897ec047fb4412ca8ae822ad7b039c1627ed0d7a160527b271",
+      "text": "উদ্ধৃত ইবনুল মুনযিরের আহরিত সিদ্ধান্ত"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p3:speaker_ar",
+      "source_text_sha256": "bf562035e9ef662108bd2a21a3e22a9c409bd8ca306191a1113d2b111ed755ff",
+      "text": "কুরতুবির উদ্ধৃতিতে ইবনুল মুনযির"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p3:book_ar",
+      "source_text_sha256": "46580a81313f74c241b58728e709267b407c0f8f688fee82893ad715996c3672",
+      "text": "তাফসিরুল কুরতুবি = আল-জামি লি-আহকামিল কুরআন"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p3:citation_ar",
+      "source_text_sha256": "649bf2a2800d29bf3b6c2a55f7e9fad5efd2a84c04c1dbc0ed024db4e75cf923",
+      "text": "[তাফসিরুল কুরতুবি = আল-জামি লি-আহকামিল কুরআন, ৮/১৪৫](https://app.turath.io/book/20855?page=3087)"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p3:context_note_ar",
+      "source_text_sha256": "22be4c1de48271395366bd9c92a5911fc4b623d4b9ba3292f98b2fffb79331af",
+      "text": "কুরতুবির উদ্ধৃত বুখারির বর্ণনা, তারপর মুহাল্লাব ও ইবনুল মুনযিরের সিদ্ধান্ত; উদ্ধৃতিতে টীকার সংখ্যা থাকলেই তাদের মূল সূত্র এখানে খোলা হয়েছে বোঝায় না।"
+    },
+    {
+      "unit_id": "sp_guide_qurtubi:p3:text_ar",
+      "source_text_sha256": "bb2e801524310d8999841e2111e5978b14975162f7e6b17f1f57c6c0db2bd6d3",
+      "text": "আর ইবনুল মুনযির বলেছেন: এতে মুসলিমদের পথ দেখানোর জন্য অবিশ্বাসীদের নিয়োগের বিষয়টি আছে।"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p1:kind_ar",
+      "source_text_sha256": "0cddaeae0ad94f69e2067a927f6f97341e5db342bd33ec1fc79f0622d4c041c1",
+      "text": "উদ্ধৃত অংশের মধ্যে হাদিসের নম্বর ও সনদ"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p1:speaker_ar",
+      "source_text_sha256": "b529cc378d5b0317a6f3ddbcebc9b8f9e4c7e552b51c602f8068e4dd69e59fe9",
+      "text": "সহিহে যেভাবে এসেছে, আনাস পর্যন্ত সনদের বর্ণনাকারীরা"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "সহিহ বুখারি — সুলতানিয়া সংস্করণ"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p1:citation_ar",
+      "source_text_sha256": "fc37b66155b3eb87c5c9e7a0a0985a8611e1bd9a36bb527369a89341bbcc9477",
+      "text": "[সহিহ বুখারি — সুলতানিয়া সংস্করণ, ৫/৬২](https://app.turath.io/book/1681?page=5905)"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p1:context_note_ar",
+      "source_text_sha256": "a0f2ebf1ec04ba14f85f6541578a0698525ec41f24e78e243d7b472f69e86c70",
+      "text": "আনাসের বর্ণনার পূর্ণ সংরক্ষিত উদ্ধৃতি: শুরুতে নম্বর ও সনদ, তারপর চেনার ঘটনাটির পরও অশ্বারোহী ও আগমনের প্রসঙ্গ নিয়ে দীর্ঘ মূল বক্তব্য, যা আবদুল্লাহ নামটিতে গিয়ে থেমেছে। নামের বাকি অংশ আলাদা প্রসঙ্গ-নথিতে; এই পাঠের জন্য শুধু চেনার বাক্যটিকে ছেঁটে নেওয়া হয়নি।"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p1:text_ar",
+      "source_text_sha256": "57c68086053271aa5979297c5b01598446718400d003f6dba99991659d805c7a",
+      "text": "৩৯১১ — মুহাম্মদ আমাকে বর্ণনা করেছেন: আবদুস সামাদ আমাদের বর্ণনা করেছেন: আমার পিতা আমাদের বর্ণনা করেছেন: আবদুল আজিজ ইবন সুহাইব আমাদের বর্ণনা করেছেন: আনাস ইবন মালিক আমাদের বর্ণনা করেছেন; তিনি বলেছেন:"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p2:kind_ar",
+      "source_text_sha256": "6898af3794355ec3a86d8a7c16ce09ca821c0c68318b0625fc064ead82bd67a5",
+      "text": "আনাসের সংযুক্ত মূল বক্তব্য; পাতার শেষে একটি নামের শুরুতে ছেদ"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p2:speaker_ar",
+      "source_text_sha256": "908a1baf5f386cba1f4575f99a12e9bc578b0eb8de254a430877595646333358",
+      "text": "আনাস ইবন মালিক; তাঁর মূল বর্ণনায় অন্য ব্যক্তিদের কথাও উদ্ধৃত আছে"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p2:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "সহিহ বুখারি — সুলতানিয়া সংস্করণ"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p2:citation_ar",
+      "source_text_sha256": "fc37b66155b3eb87c5c9e7a0a0985a8611e1bd9a36bb527369a89341bbcc9477",
+      "text": "[সহিহ বুখারি — সুলতানিয়া সংস্করণ, ৫/৬২](https://app.turath.io/book/1681?page=5905)"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p2:context_note_ar",
+      "source_text_sha256": "a0f2ebf1ec04ba14f85f6541578a0698525ec41f24e78e243d7b472f69e86c70",
+      "text": "আনাসের বর্ণনার পূর্ণ সংরক্ষিত উদ্ধৃতি: শুরুতে নম্বর ও সনদ, তারপর চেনার ঘটনাটির পরও অশ্বারোহী ও আগমনের প্রসঙ্গ নিয়ে দীর্ঘ মূল বক্তব্য, যা আবদুল্লাহ নামটিতে গিয়ে থেমেছে। নামের বাকি অংশ আলাদা প্রসঙ্গ-নথিতে; এই পাঠের জন্য শুধু চেনার বাক্যটিকে ছেঁটে নেওয়া হয়নি।"
+    },
+    {
+      "unit_id": "sp_guide_anas_recognition:p2:text_ar",
+      "source_text_sha256": "89aa000e6833add56ce1ea10cd6ac84b1421d91cb4910d4c4ec0a9983291fbe5",
+      "text": "«আল্লাহর নবী ﷺ মদিনার দিকে আসছিলেন, আবু বকরকে তাঁর পেছনে নিয়ে। আবু বকর ছিলেন পরিচিত বয়স্ক ব্যক্তি, আর আল্লাহর নবী ﷺ ছিলেন অপরিচিত তরুণ। কেউ আবু বকরের সঙ্গে দেখা হলে বলত: হে আবু বকর, আপনার সামনে থাকা এ ব্যক্তি কে? তিনি বলতেন: এ ব্যক্তি আমাকে পথ দেখান। শ্রোতা ভাবত, তিনি চলার পথ বোঝাচ্ছেন; অথচ তাঁর উদ্দেশ্য ছিল কল্যাণের পথ। আবু বকর পেছনে তাকিয়ে দেখলেন, এক অশ্বারোহী তাঁদের ধরে ফেলেছে। তিনি বললেন: হে আল্লাহর রাসুল, এই অশ্বারোহী আমাদের ধরে ফেলেছে। আল্লাহর নবী ﷺ ফিরে তাকিয়ে বললেন: হে আল্লাহ, তাকে ফেলে দাও। ঘোড়াটি তাকে ফেলে দিল, তারপর উঠে দাঁড়িয়ে হ্রেষাধ্বনি করতে লাগল। সে বলল: হে আল্লাহর নবী, আমাকে যা ইচ্ছা নির্দেশ দিন। তিনি বললেন: এখানেই দাঁড়িয়ে থাকো; আমাদের পিছু নিতে কাউকে ছেড়ো না। দিনের শুরুতে সে আল্লাহর নবী ﷺ-র বিরুদ্ধে চেষ্টা চালাচ্ছিল, আর দিনের শেষে তাঁর জন্য পাহারাদার হয়ে গেল। আল্লাহর রাসুল ﷺ হাররার পাশে নামলেন, তারপর আনসারদের কাছে সংবাদ পাঠালেন। তাঁরা আল্লাহর নবী ﷺ-র কাছে এসে উভয়কে সালাম দিয়ে বললেন: আপনারা দুজন বাহনে উঠুন—আপনারা নিরাপদ, আপনাদের দুজনের কথাই মানা হবে। আল্লাহর নবী ﷺ ও আবু বকর উঠলেন; আনসাররা অস্ত্র নিয়ে তাঁদের দুজনকে ঘিরে রইলেন। মদিনায় বলা হলো: আল্লাহর নবী এসেছেন, আল্লাহর নবী ﷺ এসেছেন। লোকেরা উঁকি দিয়ে দেখতে লাগল এবং বলতে লাগল: আল্লাহর নবী এসেছেন, আল্লাহর নবী এসেছেন। তিনি এগিয়ে চললেন, শেষে আবু আইয়ুবের বাড়ির পাশে নামলেন। তিনি তখন পরিবারের লোকদের সঙ্গে কথা বলছিলেন, এমন সময় তাঁর খবর পেলেন আবদুল্লাহ..."
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p1:kind_ar",
+      "source_text_sha256": "4d400eed21c2de2bd08e865869debba1faeccd283c522c2e422c03d79dc95daa",
+      "text": "পাঠের মধ্যেই অন্তর্ভুক্ত সনদ"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p1:speaker_ar",
+      "source_text_sha256": "ab8aba3ca99097828bce82dda9263f9f8cbc908730d8886904a1dceeb443e5a9",
+      "text": "বায়হাকির বর্ণনায় আবু হুরায়রা পর্যন্ত সনদের বর্ণনাকারীরা"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "দালাইলুন নুবুওয়াহ — বায়হাকি"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p1:citation_ar",
+      "source_text_sha256": "49f2544e4d48279d215d9adb2385a5d2cbd3a828827178e9d212732564ec5537",
+      "text": "[দালাইলুন নুবুওয়াহ — বায়হাকি, ২/৪৮৯](https://app.turath.io/book/7478?page=1010)"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p1:context_note_ar",
+      "source_text_sha256": "600e71eb1a41a2693df8b341a914497cd3ff4979390470cec4a1bd1780acfc97",
+      "text": "বায়হাকির আবু হুরায়রার বর্ণনার প্রথম পাতা; পাঠের মধ্যে হুবহু সনদ আছে, তারপর «কারণ ... না» পর্যন্ত মূল বক্তব্য শুরু হয়েছে। একা পড়া যাবে না।"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p1:text_ar",
+      "source_text_sha256": "13a98f0a9aefff7e483c0be71a6e6cdf4d2f931f6e110dfc26da5adf4ce64165",
+      "text": "আবুল হাসান আলি ইবন আহমদ ইবন আবদান আমাদের জানিয়েছেন; তিনি বলেছেন: আহমদ ইবন উবাইদ আমাদের জানিয়েছেন; তিনি বলেছেন: ইবন আবি কুমাশ আমাদের বর্ণনা করেছেন; তিনি বলেছেন: বাগদাদে সাইদ ইবন সুলাইমান আল-ওয়াসিতি আমাদের বর্ণনা করেছেন, আবু মাশারের সূত্রে, আবু হুরায়রার মুক্তদাস আবু ওয়াহবের সূত্রে, আবু হুরায়রার সূত্রে; তিনি বলেছেন:"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p2:kind_ar",
+      "source_text_sha256": "9d4325f9b773f3dafe5a21d40ca2eb9f1466b30396c6d8c105e117c04414233d",
+      "text": "পাতার শেষে বিচ্ছিন্ন আবু হুরায়রার মূল বর্ণনার শুরু"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p2:speaker_ar",
+      "source_text_sha256": "c5df925bc01d8377b2bb0b68ef9bdc3f12a8aa06e24d6b1ac61b4b1aae1b19b6",
+      "text": "আবু হুরায়রা নবী ﷺ-র আবু বকরকে বলা কথা বর্ণনা করছেন"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "দালাইলুন নুবুওয়াহ — বায়হাকি"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p2:citation_ar",
+      "source_text_sha256": "49f2544e4d48279d215d9adb2385a5d2cbd3a828827178e9d212732564ec5537",
+      "text": "[দালাইলুন নুবুওয়াহ — বায়হাকি, ২/৪৮৯](https://app.turath.io/book/7478?page=1010)"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p2:context_note_ar",
+      "source_text_sha256": "600e71eb1a41a2693df8b341a914497cd3ff4979390470cec4a1bd1780acfc97",
+      "text": "বায়হাকির আবু হুরায়রার বর্ণনার প্রথম পাতা; পাঠের মধ্যে হুবহু সনদ আছে, তারপর «কারণ ... না» পর্যন্ত মূল বক্তব্য শুরু হয়েছে। একা পড়া যাবে না।"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_start:p2:text_ar",
+      "source_text_sha256": "f3b5cf243ecc1117894e376b67cf211b303c1c7d0afaea17fdcafdb9ee2dd8f9",
+      "text": "«মদিনায় প্রবেশকালে আল্লাহর রাসুল ﷺ আবু বকরকে বললেন: লোকদের আমার দিক থেকে অন্যদিকে ব্যস্ত রাখো, কারণ কোনো নবীর পক্ষে মিথ্যা বলা"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p1:kind_ar",
+      "source_text_sha256": "921b7d6d48408851b1de8981a55344f41f01910fc52ba940e3ab4a3546b94d44",
+      "text": "আবু হুরায়রার মূল বর্ণনার অবশিষ্ট অংশ ও আবু বকরের জবাব"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p1:speaker_ar",
+      "source_text_sha256": "08eca8e8e5e3c72be25a85e9b6c8845bf10a54a7b525e625e47f91a6598ec4e6",
+      "text": "আবু হুরায়রা আবু বকরের জবাব বর্ণনা করছেন"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "দালাইলুন নুবুওয়াহ — বায়হাকি"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p1:citation_ar",
+      "source_text_sha256": "e7fa0e17de6a3d95f166b143afddab0f0f97d91dd8ae763634138a782554b7a3",
+      "text": "[দালাইলুন নুবুওয়াহ — বায়হাকি, ২/৪৯০](https://app.turath.io/book/7478?page=1011)"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p1:context_note_ar",
+      "source_text_sha256": "33541f15545a9e7d81b1b0dcf0b4299caa7e8c1c49e0fc5ba6805ed28ec50754",
+      "text": "পরের পাতায় আবু হুরায়রার বর্ণনার বিচ্ছিন্ন বাক্যটি সম্পূর্ণ হয়েছে; সংখ্যাসূচক টীকা সংরক্ষিত পাঠের অংশ, আবু বকরের মুখের কথা নয়। অনুবাদকের টীকা: আবু বকরের জবাবে প্রদত্ত আরবি পাঠে «باع» আছে; এখানে শব্দটির উদ্দেশ্য কী, তা নিশ্চিত নয়। পাঠটি «بائع» বলে নিঃশব্দে সংশোধন করা হয়নি।"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p1:text_ar",
+      "source_text_sha256": "14fb05fde178de0035dee209154ee8bbf76a68bcdaba41adcf2eef02bd67fd6f",
+      "text": "উচিত নয়। তিনি বলেছেন: তখন আবু বকরকে জিজ্ঞেস করা হলে, «আপনি কী?» তিনি বলতেন: «باع»। আর যখন বলা হতো, «আপনার সঙ্গে কে আছেন?» তিনি বলতেন: «এক পথপ্রদর্শক, আমাকে পথ দেখান»।"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p2:kind_ar",
+      "source_text_sha256": "50a59e19aacc3db68bc8f3bd2c85c6afe2158de34652a85ddeb48a1291f7d14d",
+      "text": "মূল পাঠে টীকার চিহ্ন ও মুদ্রণসমাপ্তির চিহ্ন"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p2:speaker_ar",
+      "source_text_sha256": "3c63d393b75bf44f0a8425bf4965ed169933b9923b55fea38dad83eadb1a3571",
+      "text": "ডিজিটাল সংস্করণের সম্পাদনার চিহ্ন; আবু বকরের মুখের কথা নয়"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "দালাইলুন নুবুওয়াহ — বায়হাকি"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p2:citation_ar",
+      "source_text_sha256": "e7fa0e17de6a3d95f166b143afddab0f0f97d91dd8ae763634138a782554b7a3",
+      "text": "[দালাইলুন নুবুওয়াহ — বায়হাকি, ২/৪৯০](https://app.turath.io/book/7478?page=1011)"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p2:context_note_ar",
+      "source_text_sha256": "33541f15545a9e7d81b1b0dcf0b4299caa7e8c1c49e0fc5ba6805ed28ec50754",
+      "text": "পরের পাতায় আবু হুরায়রার বর্ণনার বিচ্ছিন্ন বাক্যটি সম্পূর্ণ হয়েছে; সংখ্যাসূচক টীকা সংরক্ষিত পাঠের অংশ, আবু বকরের মুখের কথা নয়।"
+    },
+    {
+      "unit_id": "sp_guide_bayhaqi_end:p2:text_ar",
+      "source_text_sha256": "49312739b0de1245b54eaaa1d4e37a15316976ef9c9fb20fa6b1030153107110",
+      "text": "[(১৮)]।"
+    }
+  ],
+  "reading_editions": [
+    {
+      "reading_id": "hch_road_read_hire",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_road_read_departure",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_road_read_sira",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_road_read_hani",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_road_read_fiqh",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_road_read_anas",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_road_read_bayhaqi",
+      "mode": "translated",
+      "gloss": ""
+    }
+  ],
+  "deferred_questions": [],
+  "translation_sha256": "b11f2eb89aa09f3ae6c4d939cdc545cadff2e30ee7f55307b0678bd68207c0c7",
+  "review": {
+    "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+    "translation_sha256": "b11f2eb89aa09f3ae6c4d939cdc545cadff2e30ee7f55307b0678bd68207c0c7",
+    "translation_compared": true,
+    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 7f18ecaf-49f0-4fe1-99d9-78ce52212bdf across 250 Arabic/target units. Compared every one of the 250 bound Arabic inventory units with the Bengali draft in all nine complete pairs chunks: teaching prose, outlines, objectives, all eleven questions and keyed choices/feedback, metadata/citation URLs, and full selected source passages including chains, commentary, poetry and the two-page reports. Checked the Arabic-led watchlist and Arabic Core context; the Bengali question about who led the group now tests the intended subject, and the supplied «باع» is preserved with a separate uncertainty note. No remaining actionable semantic finding identified within this bounded comparison. No scholarly collation, independent language certification or public distribution permission is implied. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  }
+}

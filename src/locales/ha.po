@@ -146,19 +146,19 @@ msgstr "<0>Madogara</0> tana nuna nassin da ke bayan kowane sakin layi, da kuma 
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> kunnawa ko dakatarwa · <1/> <2/> canza mataki · <3>Esc</3> rufewa"
 
-#. 0: chapter.steps.length
+#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} stages"
 msgstr "Matakai {0}"
 
-#. 0: total_minutes
+#. 0: fmt_num(total_minutes)
 #: src/routes/Journey.svelte
 #, ai
 msgid "about {0} minutes"
 msgstr "kusan mintuna {0}"
 
-#. 0: chapter.sources.length
+#. 0: fmt_num(chapter.sources.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} cited passages"
@@ -271,7 +271,7 @@ msgstr "<0/> Madogara <1/>"
 msgid "<0/> Ask"
 msgstr "<0/> Tambaya"
 
-#. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
+#. 0: fmt_num(selected_index + 1); 1: fmt_num(chapter.steps.length); 2: selected_step.title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0} of {1} · {2}"
@@ -359,21 +359,19 @@ msgstr "Shawarwarin tambayoyi"
 msgid "Close source"
 msgstr "Rufe madogara"
 
-#. 0: source.volume; 1: source.page
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 #, ai
 msgid "· vol. {0}, p. {1}"
 msgstr "· juzu'i {0}, shafi {1}"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What this passage supports"
-msgstr "Abin da wannan nassi yake tabbatarwa"
+#~ msgid "What this passage supports"
+#~ msgstr "Abin da wannan nassi yake tabbatarwa"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What it does not establish"
-msgstr "Abin da nassin bai tabbatar ba"
+#~ msgid "What it does not establish"
+#~ msgstr "Abin da nassin bai tabbatar ba"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -385,10 +383,9 @@ msgstr "Koma ga amsa"
 msgid "Back to the journey"
 msgstr "Koma ga tafiyar"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "Open the page on Turath <0/>"
-msgstr "Bude shafin a Turath <0/>"
+#~ msgid "Open the page on Turath <0/>"
+#~ msgstr "Bude shafin a Turath <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -1986,141 +1983,165 @@ msgstr "<0/> Gwada fahimtarka <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> Yi atisayen abin da ka koya"
 
-#: src/routes/Journey.svelte
-msgid "<0/> Read the chapter <1/>"
-msgstr "<0/> Karanta babin <1/>"
+#~ msgid "<0/> Read the chapter <1/>"
+#~ msgstr "<0/> Karanta babin <1/>"
 
 #. 0: note.number
-#. 0: source.number
 #: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Source {0}"
 msgstr "Madogara {0}"
 
 #: src/routes/Journey.svelte
 msgid "<0>Drag</0> to look around, <1/> to zoom, and select a place name to fly there."
-msgstr ""
+msgstr "<0>Jawo</0> domin duba kewaye, <1/> domin girma ko kankanta, sannan ka zabi sunan wuri domin zuwa can."
 
 #: src/lib/ChapterReader.svelte
 msgid "Sources"
-msgstr ""
+msgstr "Madogara"
 
 #: src/lib/ChapterReader.svelte
 msgid "Story"
-msgstr ""
+msgstr "Labarin"
 
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
-msgstr ""
+msgstr "Gwada fahimtarka"
 
 #: src/lib/ChapterReader.svelte
 msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr ""
+msgstr "An fassara daga ɓangaren Alƙur’ani da aka bayar; ba fassarar Alƙur’ani ta hukuma ba ce, kuma ba kwatanta rubuce-rubuce na kai tsaye ba ne."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
-msgstr ""
+msgstr "Asalin rubutun Larabci da bayanan madogara"
 
 #: src/lib/ChapterReader.svelte
 msgid "Choose a chapter"
-msgstr ""
+msgstr "Zaɓi babi"
 
 #: src/lib/ChapterReader.svelte
 msgid "Close chapter"
-msgstr ""
+msgstr "Rufe babi"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter sections"
-msgstr ""
+msgstr "Sassan babi"
 
 #: src/lib/ChapterReader.svelte
 msgid "Loading…"
-msgstr ""
+msgstr "Ana lodawa…"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter contents"
-msgstr ""
+msgstr "Abubuwan da ke cikin babi"
 
 #: src/lib/ChapterReader.svelte
 msgid "In this chapter"
-msgstr ""
+msgstr "A wannan babi"
 
-#: src/lib/ChapterReader.svelte
-msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-msgstr ""
+#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
+#~ msgstr "Fassarar Turanci ta zaɓaɓɓun ɓangarori. Asalin rubutun Larabci yana nan tare da kowane ɓangare."
 
-#: src/lib/ChapterReader.svelte
-msgid "English summary — not a translation"
-msgstr ""
+#~ msgid "English summary — not a translation"
+#~ msgstr "Taƙaitaccen bayani a Turanci — ba fassara ba"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
-msgstr ""
+msgstr "An nuna wannan zaɓin a karatun da ya gabata."
 
 #: src/lib/ChapterReader.svelte
 msgid "Chain of transmission"
-msgstr ""
+msgstr "Jerin masu riwaya (isnad)"
 
 #: src/lib/ChapterReader.svelte
 msgid "Source-study questions: read the passages and compare them."
-msgstr ""
+msgstr "Tambayoyin nazarin madogara: karanta nassosin ka kwatanta su."
 
 #. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
-msgstr ""
+msgstr "Tambaya {0} cikin {1} · {2}"
 
 #: src/lib/ChapterReader.svelte
 msgid "Continue with source-study questions"
-msgstr ""
+msgstr "Ci gaba da tambayoyin nazarin madogara"
 
 #: src/lib/ChapterReader.svelte
 msgid "Try again"
-msgstr ""
+msgstr "Sake gwadawa"
 
 #: src/lib/ChapterReader.svelte
 msgid "Back to the story"
-msgstr ""
+msgstr "Koma labarin"
 
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
-msgstr ""
+msgstr "Amsoshi daidai, daga cikin tambayoyin wannan rukuni."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
-msgstr ""
+msgstr "Babi game da Hijira"
 
-#: src/lib/ChapterReader.svelte
-msgid "This chapter is available in Arabic and English. Showing the English edition."
-msgstr ""
+#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
+#~ msgstr "Ana samun wannan babi da Larabci da Turanci. Ana nuna sigar Turanci."
 
 #: src/lib/ChapterReader.svelte
 msgid "Learning goals"
-msgstr ""
+msgstr "Manufofin koyo"
 
+#. 0: source.reference
 #: src/routes/Journey.svelte
 msgid "Open the page on Turath: {0}"
 msgstr "Buɗe shafin a Turath: {0}"
-
-#: src/routes/Journey.svelte
-msgid "Explore the map"
-msgstr "Bincika taswirar"
 
 #: src/routes/Journey.svelte
 msgid "Fit map"
 msgstr "Nuna taswirar gaba ɗaya"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Explore the map"
+msgstr "Bincika taswirar"
+
+#: src/routes/Journey.svelte
 msgid "Select a book marker to read its chapter."
 msgstr "Zaɓi alamar littafi don karanta babin."
+
+#: src/routes/Journey.svelte
+msgid "Begin the journey"
+msgstr "Fara tafiyar"
 
 #: src/routes/Journey.svelte
 msgid "Locations are schematic."
 msgstr "Wuraren an nuna su ne a matsayin zane."
 
+#: src/lib/ChapterReader.svelte
+msgid "Arabic original"
+msgstr "Asalin rubutun Larabci"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "Ba a kammala sigar babin nan a wannan harshe ba tukuna. Ana nuna sigar Turanci."
+
+#: src/lib/ChapterReader.svelte
+msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
+msgstr "Wasu zaɓaɓɓun sassa na iya samun fassara ko taƙaitawa. Asalin rubutun Larabci yana nan tare da kowane sashe."
+
+#: src/lib/ChapterReader.svelte
+msgid "Summary — not a translation"
+msgstr "Taƙaitawa — ba fassara ba ce"
+
 #: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "Fara tafiyar"
+msgid "Read the chapter"
+msgstr "Karanta babin"
+
+#: src/lib/ChapterReader.svelte
+msgid "Work in progress. All editions require scholarly review before public or wide release."
+msgstr "Ana ci gaba da aiki. Duk bugu na bukatar bitar masana kafin wallafawa ga jama’a ko yaɗawa a ko’ina."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"

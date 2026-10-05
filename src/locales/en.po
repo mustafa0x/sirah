@@ -120,17 +120,17 @@ msgstr "<0>Sources</0> shows the passage behind each paragraph, and what it does
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 
-#. 0: chapter.steps.length
+#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
 msgid "{0} stages"
 msgstr "{0} stages"
 
-#. 0: total_minutes
+#. 0: fmt_num(total_minutes)
 #: src/routes/Journey.svelte
 msgid "about {0} minutes"
 msgstr "about {0} minutes"
 
-#. 0: chapter.sources.length
+#. 0: fmt_num(chapter.sources.length)
 #: src/routes/Journey.svelte
 msgid "{0} cited passages"
 msgstr "{0} cited passages"
@@ -223,7 +223,7 @@ msgstr "<0/> Sources <1/>"
 msgid "<0/> Ask"
 msgstr "<0/> Ask"
 
-#. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
+#. 0: fmt_num(selected_index + 1); 1: fmt_num(chapter.steps.length); 2: selected_step.title
 #: src/routes/Journey.svelte
 msgid "Stage {0} of {1} · {2}"
 msgstr "Stage {0} of {1} · {2}"
@@ -294,18 +294,16 @@ msgstr "Suggested questions"
 msgid "Close source"
 msgstr "Close source"
 
-#. 0: source.volume; 1: source.page
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 msgid "· vol. {0}, p. {1}"
 msgstr "· vol. {0}, p. {1}"
 
-#: src/routes/Journey.svelte
-msgid "What this passage supports"
-msgstr "What this passage supports"
+#~ msgid "What this passage supports"
+#~ msgstr "What this passage supports"
 
-#: src/routes/Journey.svelte
-msgid "What it does not establish"
-msgstr "What it does not establish"
+#~ msgid "What it does not establish"
+#~ msgstr "What it does not establish"
 
 #: src/routes/Journey.svelte
 msgid "Back to the answer"
@@ -315,9 +313,8 @@ msgstr "Back to the answer"
 msgid "Back to the journey"
 msgstr "Back to the journey"
 
-#: src/routes/Journey.svelte
-msgid "Open the page on Turath <0/>"
-msgstr "Open the page on Turath <0/>"
+#~ msgid "Open the page on Turath <0/>"
+#~ msgstr "Open the page on Turath <0/>"
 
 #: src/lib/SceneCanvas.svelte
 msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
@@ -1643,14 +1640,11 @@ msgstr "<0/> Check your understanding <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> Practise what you learned"
 
-#: src/routes/Journey.svelte
-msgid "<0/> Read the chapter <1/>"
-msgstr "<0/> Read the chapter <1/>"
+#~ msgid "<0/> Read the chapter <1/>"
+#~ msgstr "<0/> Read the chapter <1/>"
 
 #. 0: note.number
-#. 0: source.number
 #: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Source {0}"
 msgstr "Source {0}"
 
@@ -1702,13 +1696,11 @@ msgstr "Chapter contents"
 msgid "In this chapter"
 msgstr "In this chapter"
 
-#: src/lib/ChapterReader.svelte
-msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-msgstr "English translations of the selected excerpts. The original Arabic remains available with each passage."
+#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
+#~ msgstr "English translations of the selected excerpts. The original Arabic remains available with each passage."
 
-#: src/lib/ChapterReader.svelte
-msgid "English summary — not a translation"
-msgstr "English summary — not a translation"
+#~ msgid "English summary — not a translation"
+#~ msgstr "English summary — not a translation"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
@@ -1744,40 +1736,69 @@ msgid "Correct answers out of the questions in this set."
 msgstr "Correct answers out of the questions in this set."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
 msgstr "Hijrah chapters"
 
-#: src/lib/ChapterReader.svelte
-msgid "This chapter is available in Arabic and English. Showing the English edition."
-msgstr "This chapter is available in Arabic and English. Showing the English edition."
+#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
+#~ msgstr "This chapter is available in Arabic and English. Showing the English edition."
 
 #: src/lib/ChapterReader.svelte
 msgid "Learning goals"
 msgstr "Learning goals"
 
+#. 0: source.reference
 #: src/routes/Journey.svelte
 msgid "Open the page on Turath: {0}"
 msgstr "Open the page on Turath: {0}"
-
-#: src/routes/Journey.svelte
-msgid "Explore the map"
-msgstr "Explore the map"
 
 #: src/routes/Journey.svelte
 msgid "Fit map"
 msgstr "Fit map"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Explore the map"
+msgstr "Explore the map"
+
+#: src/routes/Journey.svelte
 msgid "Select a book marker to read its chapter."
 msgstr "Select a book marker to read its chapter."
+
+#: src/routes/Journey.svelte
+msgid "Begin the journey"
+msgstr "Begin the journey"
 
 #: src/routes/Journey.svelte
 msgid "Locations are schematic."
 msgstr "Locations are schematic."
 
+#: src/lib/ChapterReader.svelte
+msgid "Arabic original"
+msgstr "Arabic original"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "A chapter edition is not ready in this language. Showing the English edition."
+
+#: src/lib/ChapterReader.svelte
+msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
+msgstr "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
+
+#: src/lib/ChapterReader.svelte
+msgid "Summary — not a translation"
+msgstr "Summary — not a translation"
+
 #: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "Begin the journey"
+msgid "Read the chapter"
+msgstr "Read the chapter"
+
+#: src/lib/ChapterReader.svelte
+msgid "Work in progress. All editions require scholarly review before public or wide release."
+msgstr "Work in progress. All editions require scholarly review before public or wide release."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"

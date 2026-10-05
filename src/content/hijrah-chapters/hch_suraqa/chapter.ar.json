@@ -1,0 +1,3346 @@
+{
+  "schema_version": 1,
+  "chapter_id": "hch_suraqa",
+  "revision": 1,
+  "title_ar": "سراقة: من المطاردة إلى الأمان",
+  "reader_question_ar": "كيف خرج سراقة في طلب النبي ﷺ، ثم عاد يصرف عنه المطاردين؟",
+  "core_ids": [
+    "hc_suraqa_pursuit",
+    "hc_suraqa_safety",
+    "hc_suraqa_readings"
+  ],
+  "topic_ids": [
+    "suraqa.reward",
+    "suraqa.pursuit",
+    "suraqa.sinking",
+    "suraqa.safety_document",
+    "suraqa.writers",
+    "suraqa.after_encounter"
+  ],
+  "place_links": [
+    {
+      "place_id": "road",
+      "relation": "setting",
+      "claim_ids": [
+        "suraqa_recitation",
+        "suraqa_turnback"
+      ]
+    },
+    {
+      "place_id": "coast",
+      "relation": "mentioned",
+      "claim_ids": [
+        "suraqa_recognition"
+      ]
+    }
+  ],
+  "related_chapter_ids": [
+    "hch_thawr"
+  ],
+  "overview": [
+    {
+      "paragraph_id": "hch_suraqa_overview",
+      "text_ar": "في هذا الفصل نتتبع المطاردة من مجلس بني مدلج إلى الطريق: ما الذي عرفه سراقة وكتمه، وكيف تصرف حين تعثرت فرسه، وما الذي جرى عندما وقف الركب للقائه.",
+      "claim_ids": [
+        "suraqa_recognition",
+        "suraqa_preparation",
+        "suraqa_first_fall",
+        "suraqa_changed_outlook"
+      ]
+    }
+  ],
+  "account": [
+    {
+      "section_id": "hch_suraqa_council",
+      "title_ar": "خبر في مجلس بني مدلج",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_suraqa_account_01",
+          "text_ar": "كان سراقة بن مالك جالسًا في مجلس قومه بني مدلج حين أقبل رجل منهم بخبر: رأى أشخاصًا بالساحل، وظنهم النبي ﷺ وأصحابه.",
+          "claim_ids": [
+            "suraqa_recognition"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_account_02",
+          "text_ar": "وكانت قريش قد جعلت مائة ناقة لمن يرد النبي ﷺ إليها، وكان سراقة يرجو أن يظفر بها. عرف سراقة أن الذين رآهم الرجل هم الركب الذي يطلبه، لكنه أنكر ذلك أمامه، وقال إنهم أناس آخرون خرجوا أمام أعينهم.",
+          "claim_ids": [
+            "suraqa_reward_motive",
+            "suraqa_recognition"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_account_03",
+          "text_ar": "بقي سراقة في المجلس مدة، ثم قام فدخل بيته، وأمر جاريته أن تخرج بفرسه وتنتظره بها. وأخذ رمحه وخرج من ظهر البيت، مخفضًا أعلاه، حتى وصل إلى الفرس فركبها وانطلق في أثر الركب.",
+          "claim_ids": [
+            "suraqa_preparation"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_suraqa_pursuit",
+      "title_ar": "الدنو من الركب",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_suraqa_account_04",
+          "text_ar": "وحين دنا منهم تعثرت فرسه، فسقط عنها. قام وأخرج الأزلام من كنانته، حافظة سهامه، ليستقسم بها في الإضرار بهم أو تركهم. فخرج له ما يكره، لكنه لم يرجع؛ ركب فرسه وخالف ما خرج له، وواصل الاقتراب.",
+          "claim_ids": [
+            "suraqa_first_fall"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_account_05",
+          "text_ar": "اقترب حتى صار يسمع قراءة النبي ﷺ. كان النبي لا يلتفت، وأبو بكر يكثر الالتفات. عندئذ غاصت قائمتا فرسه الأماميتان في الأرض إلى الركبتين، فسقط سراقة عنها. زجرها فنهضت، ولم تكد تخرج يديها من الأرض. فلما استوت قائمة، رأى ما يشبه الدخان يتصاعد من أثر يديها.",
+          "claim_ids": [
+            "suraqa_recitation",
+            "suraqa_sinking"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_suraqa_meeting",
+      "title_ar": "نداء بالأمان",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_suraqa_account_06",
+          "text_ar": "عاد سراقة إلى الأزلام، فخرج له ما يكره مرة أخرى. هذه المرة نادى الركب بالأمان، فوقفوا، وركب فرسه حتى جاءهم. ووقع في نفسه، بعد ما لقي من العجز عن الوصول إليهم، أن أمر رسول الله ﷺ سيظهر.",
+          "claim_ids": [
+            "suraqa_changed_outlook"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_account_07",
+          "text_ar": "أخبرهم سراقة بالجائزة وبما يريده الناس منهم، وعرض عليهم الزاد والمتاع، فلم يأخذ النبي ﷺ وأبو بكر منه شيئًا، وإنما قال له النبي ﷺ: «أَخْفِ عَنَّا».",
+          "claim_ids": [
+            "suraqa_offer",
+            "suraqa_concealment"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_suraqa_return",
+      "title_ar": "كتاب الأمان والرجوع",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_suraqa_account_08",
+          "text_ar": "وسأل سراقة النبي ﷺ أن يكتب له كتاب أمان. فأمر عامر بن فهيرة أن يكتبه، فكتب في رقعة من أديم، أي جلد. ثم مضى النبي ﷺ في طريقه. خرج سراقة يرجو أن يرد النبي إلى قريش، وصار الآن يحمل كتاب أمان منه.",
+          "claim_ids": [
+            "suraqa_document",
+            "suraqa_reward_motive"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_account_09",
+          "text_ar": "ورجع سراقة يرد من يلقاه من المطاردين، ويقول لهم: «قَدْ كُفِيتُمْ مَا هَهُنَا». لم يعد يسعى إلى إدراك الركب، بل صار يصرف عنه غيره.",
+          "claim_ids": [
+            "suraqa_turnback",
+            "suraqa_preparation"
+          ]
+        }
+      ]
+    }
+  ],
+  "outline": [
+    {
+      "point_id": "hch_suraqa_outline_01",
+      "text_ar": "الخبر الذي عرفه وكتمه",
+      "claim_ids": [
+        "suraqa_recognition"
+      ],
+      "section_id": "hch_suraqa_council"
+    },
+    {
+      "point_id": "hch_suraqa_outline_02",
+      "text_ar": "الخروج بعد المجلس",
+      "claim_ids": [
+        "suraqa_preparation"
+      ],
+      "section_id": "hch_suraqa_council"
+    },
+    {
+      "point_id": "hch_suraqa_outline_03",
+      "text_ar": "التعثر ثم الاقتراب",
+      "claim_ids": [
+        "suraqa_first_fall",
+        "suraqa_recitation"
+      ],
+      "section_id": "hch_suraqa_pursuit"
+    },
+    {
+      "point_id": "hch_suraqa_outline_04",
+      "text_ar": "السوخ ونداء الأمان",
+      "claim_ids": [
+        "suraqa_sinking",
+        "suraqa_changed_outlook"
+      ],
+      "section_id": "hch_suraqa_meeting"
+    },
+    {
+      "point_id": "hch_suraqa_outline_05",
+      "text_ar": "العرض وما طلبه النبي",
+      "claim_ids": [
+        "suraqa_offer",
+        "suraqa_concealment"
+      ],
+      "section_id": "hch_suraqa_meeting"
+    },
+    {
+      "point_id": "hch_suraqa_outline_06",
+      "text_ar": "الكتاب ورد المطاردين",
+      "claim_ids": [
+        "suraqa_document",
+        "suraqa_turnback"
+      ],
+      "section_id": "hch_suraqa_return"
+    }
+  ],
+  "in_depth": [
+    {
+      "section_id": "hch_suraqa_depth_terms",
+      "title_ar": "ألفاظ تعين على قراءة الخبر",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_suraqa_depth_terms_reward",
+          "text_ar": "الجُعل هو المكافأة الموعود بها. يذكر حديث البخاري دية كل واحد من النبي ﷺ وأبي بكر لمن قتله أو أسره. أما خبر ابن إسحاق فيذكر مائة ناقة لمن يرد النبي ﷺ إلى قريش، ويصرح سراقة فيه برجائه أخذ المائة. هكذا ترى صيغة الجائزة في كل من القراءتين.",
+          "claim_ids": [
+            "suraqa_reward",
+            "suraqa_reward_motive"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_depth_terms_01",
+          "text_ar": "الأزلام قداح كان سراقة يستقسم بها، فيطلب منها جوابًا في الإقدام على إيذاء الركب أو تركهم. يسميها خبر ابن إسحاق قداحًا ويذكر السهم الذي خرج له. أما الكنانة فهي حافظة السهام التي أخرج الأزلام منها.",
+          "claim_ids": [
+            "suraqa_first_fall",
+            "suraqa_lots_vocabulary"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_depth_terms_02",
+          "text_ar": "عندما يصف الخبر سوخ يدي الفرس، فالمقصود قائمتاها الأماميتان. والرقعة من الأديم قطعة من جلد. والطلب في خبر أبي بكر هم الذين يتتبعون الركب؛ يشرح الأصبهاني أن اللفظ يقع على الواحد والجمع، ويشرح التعمية بمعنى الإخفاء.",
+          "claim_ids": [
+            "suraqa_sinking",
+            "suraqa_document",
+            "suraqa_pursuit_vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_suraqa_depth_writers",
+      "title_ar": "من كتب الأمان؟",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_suraqa_depth_writers_01",
+          "text_ar": "إذا قرأت حديث سراقة في البخاري وجدت اسم عامر بن فهيرة والرقعة من الأديم. أما خبر ابن إسحاق في سيرة ابن هشام فيذكر أمر النبي ﷺ أبا بكر أن يكتب، ثم تأتي تتمة فعل الكتابة في عظم أو رقعة أو خزفة، على الشك في المادة. تسير القصة هنا على لفظ البخاري في اسم الكاتب ومادة الكتاب.",
+          "claim_ids": [
+            "suraqa_writer_difference"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_depth_writers_02",
+          "text_ar": "الاختلاف في هذين الموضعين واضح، لكن النصين لا يقولان إن الرجلين اشتركا في الكتابة. لذلك نفهم ما يرويه كل منهما أولًا، ولا نحول الاسمين إلى قصة وثيقتين لم يذكرها أي من المقتطفين.",
+          "claim_ids": [
+            "suraqa_writer_difference"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_suraqa_depth_views",
+      "title_ar": "المطارد والرفيق: زاويتان للقصة",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_suraqa_depth_views_01",
+          "text_ar": "سراقة هو الذي يحكي ما عرفه في المجلس، وكيف أعد فرسه ورمحه، وما خرج له من الأزلام، وما وقع في نفسه عند اللقاء. أما خبر أبي بكر، الذي يرويه البراء عند البيهقي، فيصف إدراك المطارد لهم ودعاء النبي ﷺ، ثم وعد سراقة برد الطلب ووفاءه بذلك. منه تأتي خاتمة القصة عن صرف المطاردين.",
+          "claim_ids": [
+            "suraqa_recognition",
+            "suraqa_preparation",
+            "suraqa_first_fall",
+            "suraqa_changed_outlook",
+            "suraqa_abu_bakr_view",
+            "suraqa_turnback"
+          ]
+        },
+        {
+          "paragraph_id": "hch_suraqa_depth_views_02",
+          "text_ar": "وحين تقارن رواية البخاري بخبر ابن إسحاق، انتبه أيضًا إلى ترتيب التعثر: في الأولى تعثر قبل الدنو الشديد، ثم سوخ اليدين؛ وفي الثانية تعثران ثم تعثر عند رؤية القوم مع ذهاب يدي الفرس في الأرض. لهذا قرأنا المطاردة بترتيب رواية واحدة، بدل جمع مرات التعثر من النصين.",
+          "claim_ids": [
+            "suraqa_stumble_difference"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_suraqa_depth_document",
+      "title_ar": "كتاب بقي إلى لقاء آخر",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_suraqa_depth_document_01",
+          "text_ar": "الكتاب في هذه القصة أمان طلبه سراقة يوم المطاردة. وتتابع رواية ابن إسحاق الحديث عنه حتى لقاء سراقة بالنبي ﷺ في الجعرانة بعد فتح مكة وحنين والطائف، وفي ذلك اللقاء تذكر إسلامه. هذه تتمة لاحقة لحياة صاحب الكتاب، لا خاتمة وقعت في الطريق يوم الهجرة.",
+          "claim_ids": [
+            "suraqa_document",
+            "suraqa_later_meeting_boundary"
+          ]
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "reading_id": "hch_suraqa_read_bukhari",
+      "title_ar": "سراقة يروي المطاردة — صحيح البخاري",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "suraqa_reward",
+        "suraqa_recognition",
+        "suraqa_preparation",
+        "suraqa_first_fall",
+        "suraqa_recitation",
+        "suraqa_sinking",
+        "suraqa_changed_outlook",
+        "suraqa_offer",
+        "suraqa_concealment",
+        "suraqa_document"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_suraqa_read_comparison",
+      "title_ar": "للمقارنة: المطاردة والكاتب عند ابن إسحاق",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "suraqa_reward_motive",
+        "suraqa_writer_difference",
+        "suraqa_stumble_difference",
+        "suraqa_lots_vocabulary"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p2",
+            "p3",
+            "p5"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_reply",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_end",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_suraqa_read_abu_bakr",
+      "title_ar": "خبر أبي بكر عن الدعاء ورد الطلب — رواية البيهقي",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "suraqa_abu_bakr_view",
+        "suraqa_turnback"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_abu_bakr",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p11"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_suraqa_read_lexicon",
+      "title_ar": "معنى الطلب والتعمية في شرح الأصبهاني",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "suraqa_pursuit_vocabulary"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_lexicon",
+          "part_ids": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_suraqa_read_later",
+      "title_ar": "لمن أراد التتمة: الكتاب في لقاء الجعرانة",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "suraqa_later_meeting_boundary"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_end",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ]
+        }
+      ]
+    }
+  ],
+  "objective_ids": [
+    "suraqa_read_concealment",
+    "suraqa_read_persistence",
+    "suraqa_read_change",
+    "suraqa_read_reward",
+    "suraqa_read_exchange",
+    "suraqa_read_turnback",
+    "suraqa_compare_perspectives",
+    "suraqa_compare_writers",
+    "suraqa_read_terms"
+  ],
+  "questions": [
+    {
+      "question_id": "hch_suraqa_q_reward_goal",
+      "difficulty": "beginner",
+      "objective_id": "suraqa_read_reward",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "suraqa_reward_motive"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_comparison"
+      ],
+      "prompt_ar": "ما الذي كان سراقة يرجو أن ينال به جائزة قريش؟",
+      "options": [
+        {
+          "option_id": "report",
+          "text_ar": "أن يخبرهم بالجهة التي سار إليها النبي ﷺ.",
+          "feedback_ar": "يرجو سراقة في خبر ابن إسحاق رد النبي ﷺ إليهم، لا مجرد الإخبار بجهة سيره."
+        },
+        {
+          "option_id": "return_prophet",
+          "text_ar": "أن يرد النبي ﷺ إليهم فيأخذ المائة ناقة.",
+          "feedback_ar": "صحيح؛ يصرح سراقة بهذا الرجاء في خبر ابن إسحاق."
+        },
+        {
+          "option_id": "mounts",
+          "text_ar": "أن يعيد إليهم الراحلتين اللتين خرج عليهما الركب.",
+          "feedback_ar": "المائة في هذا الخبر لمن يرد النبي ﷺ، لا لاستعادة الراحلتين."
+        }
+      ],
+      "correct_option_id": "return_prophet",
+      "explanation_ar": "ينص خبر ابن إسحاق على مائة ناقة لمن يرد النبي ﷺ إلى قريش، ويقول سراقة إنه كان يرجو رده وأخذ المائة.",
+      "scope_note_ar": "هذا الرجاء ولفظ الجائزة من خبر ابن إسحاق عند ابن هشام، وهو المختار لهما في القصة.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_ibn_ishaq_start:p1",
+        "sp_suraqa_ibn_ishaq_start:p2",
+        "sp_suraqa_bukhari:p2",
+        "sp_suraqa_bukhari:p3",
+        "sp_suraqa_bukhari:p5",
+        "sp_suraqa_ibn_ishaq_reply:p1",
+        "sp_suraqa_ibn_ishaq_reply:p2",
+        "sp_suraqa_ibn_ishaq_reply:p3",
+        "sp_suraqa_ibn_ishaq_reply:p4",
+        "sp_suraqa_ibn_ishaq_end:p1"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_concealment",
+      "difficulty": "intermediate",
+      "objective_id": "suraqa_read_concealment",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "suraqa_recognition",
+        "suraqa_preparation"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_bukhari"
+      ],
+      "prompt_ar": "أي وصف يبين الفرق بين ما عرفه سراقة وما قاله في المجلس؟",
+      "options": [
+        {
+          "option_id": "recognized_denied",
+          "text_ar": "عرف أنهم النبي ﷺ وأصحابه، لكنه قال للرجل إنهم غيرهم.",
+          "feedback_ar": "صحيح؛ عرف الركب من الخبر، ثم أنكر ذلك قبل أن يخرج في أثره."
+        },
+        {
+          "option_id": "doubted_agreed",
+          "text_ar": "شك في أنهم النبي ﷺ وأصحابه، لكنه وافق الرجل أمام القوم.",
+          "feedback_ar": "الخبر يقول إنه عرف أنهم هم، ثم قال العكس للرجل."
+        },
+        {
+          "option_id": "recognized_announced",
+          "text_ar": "عرف أنهم النبي ﷺ وأصحابه، وأخبر المجلس أنه سيلحق بهم.",
+          "feedback_ar": "لم يعلن لهم ذلك؛ أنكر التعرف، ومكث ثم خرج وجهز فرسه."
+        }
+      ],
+      "correct_option_id": "recognized_denied",
+      "explanation_ar": "قول سراقة في المجلس لا يكشف ما عرفه؛ فقد تعرف على الركب ثم صرف الرجل إلى تفسير آخر، وبعد مدة خرج وجهز فرسه ورمحه.",
+      "scope_note_ar": "اقرأ التعرف والجواب والخروج بوصفها أفعالًا متصلة في الخبر.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_bukhari:p1",
+        "sp_suraqa_bukhari:p2",
+        "sp_suraqa_bukhari:p3",
+        "sp_suraqa_bukhari:p4",
+        "sp_suraqa_bukhari:p5"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_persistence",
+      "difficulty": "beginner",
+      "objective_id": "suraqa_read_persistence",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "suraqa_first_fall"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_bukhari"
+      ],
+      "prompt_ar": "ماذا فعل سراقة بعد سقوطه الأول وخروج ما يكرهه من الأزلام؟",
+      "options": [
+        {
+          "option_id": "returned",
+          "text_ar": "عاد إلى قومه وترك المطاردة.",
+          "feedback_ar": "رجوعه ورد المطاردين يأتيان بعد اللقاء، لا بعد هذا التعثر الأول."
+        },
+        {
+          "option_id": "waited",
+          "text_ar": "انتظر رجل المجلس ليؤكد له هوية الركب.",
+          "feedback_ar": "كان قد عرف الركب؛ الخبر يذكر أنه ركب فرسه وواصل الاقتراب."
+        },
+        {
+          "option_id": "continued",
+          "text_ar": "ركب فرسه وخالف ما خرج له، وواصل الاقتراب.",
+          "feedback_ar": "صحيح؛ لم يرده التعثر ولا ما خرج من الأزلام عن متابعة الركب."
+        }
+      ],
+      "correct_option_id": "continued",
+      "explanation_ar": "استخرج سراقة الأزلام بعد سقوطه، ثم ركب مخالفًا ما خرج له. بهذا استمرت المطاردة حتى سمع قراءة النبي ﷺ.",
+      "scope_note_ar": "الترتيب هنا ترتيب حديث سراقة في البخاري.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_bukhari:p1",
+        "sp_suraqa_bukhari:p2",
+        "sp_suraqa_bukhari:p3",
+        "sp_suraqa_bukhari:p4",
+        "sp_suraqa_bukhari:p5"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_nearby",
+      "difficulty": "beginner",
+      "objective_id": "suraqa_read_persistence",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "suraqa_recitation"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_bukhari"
+      ],
+      "prompt_ar": "كيف وصف سراقة النبي ﷺ وأبا بكر عندما اقترب حتى سمع القراءة؟",
+      "options": [
+        {
+          "option_id": "reversed",
+          "text_ar": "كان أبو بكر يقرأ ولا يلتفت، والنبي ﷺ يكثر الالتفات.",
+          "feedback_ar": "هذا يعكس الوصف؛ القراءة وعدم الالتفات للنبي ﷺ، وكثرة الالتفات لأبي بكر."
+        },
+        {
+          "option_id": "reading",
+          "text_ar": "كان النبي ﷺ يقرأ ولا يلتفت، وأبو بكر يكثر الالتفات.",
+          "feedback_ar": "نعم؛ هذان الفعلان هما ما وصفه سراقة عند الدنو."
+        },
+        {
+          "option_id": "both",
+          "text_ar": "كان كلاهما يقطع القراءة ليلتفت إلى الفارس.",
+          "feedback_ar": "لم يقل سراقة ذلك؛ وصف النبي ﷺ بأنه لا يلتفت مع سماعه قراءته."
+        }
+      ],
+      "correct_option_id": "reading",
+      "explanation_ar": "يسمع سراقة قراءة النبي ﷺ ويذكر أنه لا يلتفت، بينما يكثر أبو بكر الالتفات.",
+      "scope_note_ar": "السؤال عما وصفه سراقة، لا عن آيات لم يسمها الخبر.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_bukhari:p1",
+        "sp_suraqa_bukhari:p2",
+        "sp_suraqa_bukhari:p3",
+        "sp_suraqa_bukhari:p4",
+        "sp_suraqa_bukhari:p5"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_change",
+      "difficulty": "intermediate",
+      "objective_id": "suraqa_read_change",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "suraqa_sinking",
+        "suraqa_changed_outlook"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_bukhari"
+      ],
+      "prompt_ar": "كيف تغيرت نظرة سراقة إلى أمر النبي ﷺ بعد ما لقيه من الحبس عن الركب؟",
+      "options": [
+        {
+          "option_id": "success",
+          "text_ar": "وقع في نفسه أن أمر النبي ﷺ سيظهر.",
+          "feedback_ar": "صحيح؛ يربط سراقة هذا الشعور بما لقيه من الحبس عنهم."
+        },
+        {
+          "option_id": "bounty",
+          "text_ar": "ازداد يقينه بأنه سيعود بالنبي ﷺ وينال الجائزة.",
+          "feedback_ar": "ذلك عكس التحول الذي يحكيه؛ نادى بالأمان ووقع في نفسه ظهور أمر النبي ﷺ."
+        },
+        {
+          "option_id": "withdrawal",
+          "text_ar": "اعتقد أن قريشًا سحبت الجائزة، فلم تعد المطاردة مجدية.",
+          "feedback_ar": "لم يذكر وصول خبر بسحب الجائزة؛ يربط تغير نظرته بما وقع له في المطاردة."
+        }
+      ],
+      "correct_option_id": "success",
+      "explanation_ar": "بعد سوخ الفرس وصعوبة إخراجها وما رآه، نادى سراقة بالأمان. وهو نفسه يخبر بأن ما حبسه عن الركب أوقع في نفسه أن أمر النبي ﷺ سيظهر.",
+      "scope_note_ar": "هذا وصف سراقة لما وقع في نفسه في روايته.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_bukhari:p1",
+        "sp_suraqa_bukhari:p2",
+        "sp_suraqa_bukhari:p3",
+        "sp_suraqa_bukhari:p4",
+        "sp_suraqa_bukhari:p5"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_request",
+      "difficulty": "beginner",
+      "objective_id": "suraqa_read_exchange",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "suraqa_offer",
+        "suraqa_concealment"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_bukhari"
+      ],
+      "prompt_ar": "عرض سراقة الزاد والمتاع، فلم يؤخذ منه شيء. ماذا طلب النبي ﷺ منه؟",
+      "options": [
+        {
+          "option_id": "guide",
+          "text_ar": "أن يتقدم الركب ليدلهم على الطريق.",
+          "feedback_ar": "لا يذكر هذا الموضع طلب الدلالة؛ الذي ينقله هو طلب إخفاء خبرهم."
+        },
+        {
+          "option_id": "horse",
+          "text_ar": "أن يترك فرسه لهم لمواصلة السفر.",
+          "feedback_ar": "لم يطلب النبي ﷺ الفرس في هذا الخبر؛ طلب إخفاء خبرهم."
+        },
+        {
+          "option_id": "conceal",
+          "text_ar": "أن يكتم خبرهم ولا يدل الناس عليهم.",
+          "feedback_ar": "نعم؛ هذا معنى قوله ﷺ في الخبر: أخف عنا."
+        }
+      ],
+      "correct_option_id": "conceal",
+      "explanation_ar": "لم تكن الاستجابة أخذ الزاد والمتاع، وإنما طلب النبي ﷺ إخفاء خبر الركب.",
+      "scope_note_ar": "معنى الطلب يؤخذ من قول النبي ﷺ في حديث سراقة.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_bukhari:p1",
+        "sp_suraqa_bukhari:p2",
+        "sp_suraqa_bukhari:p3",
+        "sp_suraqa_bukhari:p4",
+        "sp_suraqa_bukhari:p5"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_turnback",
+      "difficulty": "intermediate",
+      "objective_id": "suraqa_read_turnback",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "suraqa_turnback"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_abu_bakr"
+      ],
+      "prompt_ar": "أي فعل عند رجوع سراقة يبين أنه لم يعد يسعى إلى إدراك الركب؟",
+      "options": [
+        {
+          "option_id": "redirect",
+          "text_ar": "كان يرد من يلقاه من المطاردين عن تتبعهم في تلك الجهة.",
+          "feedback_ar": "صحيح؛ هذا ما يرويه أبو بكر، مع تصريحه بأن سراقة وفى لهم."
+        },
+        {
+          "option_id": "lead",
+          "text_ar": "صار يسير أمام الركب دليلًا لهم إلى المدينة.",
+          "feedback_ar": "الخبر يصف رجوعه ورد من يلقاه، لا سيره معهم دليلًا."
+        },
+        {
+          "option_id": "inform",
+          "text_ar": "ذهب ليخبر قريشًا بالموضع الذي قابل فيه الركب.",
+          "feedback_ar": "هذا عكس ما يذكره الخبر من رد المطاردين والوفاء."
+        }
+      ],
+      "correct_option_id": "redirect",
+      "explanation_ar": "خرج سراقة في الطلب، ثم رجع يصرف غيره عنه. ويختم أبو بكر هذا الموضع بأنه وفى لهم، فلا يبقى الوعد مجرد قول.",
+      "scope_note_ar": "الخاتمة من خبر أبي بكر برواية البراء عند البيهقي.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_abu_bakr:p1",
+        "sp_suraqa_abu_bakr:p2",
+        "sp_suraqa_abu_bakr:p3",
+        "sp_suraqa_abu_bakr:p4",
+        "sp_suraqa_abu_bakr:p5",
+        "sp_suraqa_abu_bakr:p6",
+        "sp_suraqa_abu_bakr:p7",
+        "sp_suraqa_abu_bakr:p8",
+        "sp_suraqa_abu_bakr:p9",
+        "sp_suraqa_abu_bakr:p10",
+        "sp_suraqa_abu_bakr:p11"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_perspectives",
+      "difficulty": "intermediate",
+      "objective_id": "suraqa_compare_perspectives",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "suraqa_preparation",
+        "suraqa_first_fall",
+        "suraqa_abu_bakr_view"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_bukhari",
+        "hch_suraqa_read_abu_bakr"
+      ],
+      "prompt_ar": "في القراءتين المعروضتين، من يخبر عن إعداد فرسه ورمحه واستقسامه، ومن يروي الدعاء والوفاء برد الطلب؟",
+      "options": [
+        {
+          "option_id": "reversed",
+          "text_ar": "أبو بكر يروي الأول، وسراقة يروي الثاني.",
+          "feedback_ar": "العكس هو المعروض: سراقة يحكي إعداد فرسه، وأبو بكر صاحب خبر الدعاء والوفاء الذي يرويه البراء."
+        },
+        {
+          "option_id": "voices",
+          "text_ar": "سراقة يروي الأول، وأبو بكر يروي الثاني.",
+          "feedback_ar": "صحيح؛ هذا يميز منظور المطارد عن خبر الرفيق الذي ينقله البراء."
+        },
+        {
+          "option_id": "bara",
+          "text_ar": "البراء يحكي الأمرين بوصفه صاحب المشهد.",
+          "feedback_ar": "البراء ينقل خبر أبي بكر؛ ليس صاحب الفرس والرمح، ولا صاحب ضمير فارتحلنا في هذا الخبر."
+        }
+      ],
+      "correct_option_id": "voices",
+      "explanation_ar": "سراقة يحكي ما فعله قبل وصوله إلى الركب وما وقع له. أما أبو بكر فيروي خبر إدراك الفارس والدعاء ثم الوفاء برد الطلب، والبراء هو ناقل خبره في قراءة البيهقي.",
+      "scope_note_ar": "المقارنة بين حديث سراقة في البخاري وخبر أبي بكر المختار من البيهقي.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_bukhari:p1",
+        "sp_suraqa_bukhari:p2",
+        "sp_suraqa_bukhari:p3",
+        "sp_suraqa_bukhari:p4",
+        "sp_suraqa_bukhari:p5",
+        "sp_suraqa_abu_bakr:p1",
+        "sp_suraqa_abu_bakr:p2",
+        "sp_suraqa_abu_bakr:p3",
+        "sp_suraqa_abu_bakr:p4",
+        "sp_suraqa_abu_bakr:p5",
+        "sp_suraqa_abu_bakr:p6",
+        "sp_suraqa_abu_bakr:p7",
+        "sp_suraqa_abu_bakr:p8",
+        "sp_suraqa_abu_bakr:p9",
+        "sp_suraqa_abu_bakr:p10",
+        "sp_suraqa_abu_bakr:p11"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_writers",
+      "difficulty": "expert",
+      "objective_id": "suraqa_compare_writers",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "suraqa_writer_difference"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_comparison"
+      ],
+      "prompt_ar": "أي بيان يطابق اسم الكاتب ومادة الكتاب في النصين المعروضين؟",
+      "options": [
+        {
+          "option_id": "swapped_writers",
+          "text_ar": "في البخاري أبو بكر ورقعة من أديم؛ وعند ابن إسحاق عامر وعظم أو رقعة أو خزفة.",
+          "feedback_ar": "المادتان هنا في موضعهما، لكن اسمي الكاتبين معكوسان."
+        },
+        {
+          "option_id": "swapped_materials",
+          "text_ar": "في البخاري عامر وعظم أو رقعة أو خزفة؛ وعند ابن إسحاق أبو بكر ورقعة من أديم.",
+          "feedback_ar": "الاسمان في موضعهما، لكن وصف مادة الكتاب منقول من كل نص إلى الآخر."
+        },
+        {
+          "option_id": "matched",
+          "text_ar": "في البخاري عامر ورقعة من أديم؛ وعند ابن إسحاق أبو بكر وعظم أو رقعة أو خزفة.",
+          "feedback_ar": "صحيح؛ يقترن كل اسم بما يذكره النص نفسه عن مادة الكتاب."
+        }
+      ],
+      "correct_option_id": "matched",
+      "explanation_ar": "يسمي البخاري عامر بن فهيرة ويذكر رقعة من أديم. وعند ابن إسحاق الأمر لأبي بكر، ثم تتمة الكتابة في عظم أو رقعة أو خزفة على الشك.",
+      "scope_note_ar": "نقارن ما يقوله كل نص، ولا نفترض من الاسمين مشاركة في الكتابة.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_ibn_ishaq_start:p1",
+        "sp_suraqa_ibn_ishaq_start:p2",
+        "sp_suraqa_bukhari:p2",
+        "sp_suraqa_bukhari:p3",
+        "sp_suraqa_bukhari:p5",
+        "sp_suraqa_ibn_ishaq_reply:p1",
+        "sp_suraqa_ibn_ishaq_reply:p2",
+        "sp_suraqa_ibn_ishaq_reply:p3",
+        "sp_suraqa_ibn_ishaq_reply:p4",
+        "sp_suraqa_ibn_ishaq_end:p1"
+      ]
+    },
+    {
+      "question_id": "hch_suraqa_q_pursuers",
+      "difficulty": "intermediate",
+      "objective_id": "suraqa_read_terms",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "suraqa_pursuit_vocabulary",
+        "suraqa_abu_bakr_view"
+      ],
+      "reading_ids": [
+        "hch_suraqa_read_lexicon",
+        "hch_suraqa_read_abu_bakr"
+      ],
+      "prompt_ar": "من هم الطلب في وعد سراقة بردهم، كما في خبر أبي بكر؟",
+      "options": [
+        {
+          "option_id": "pursuers",
+          "text_ar": "الذين يتعقبون الركب للظفر بهم.",
+          "feedback_ar": "صحيح؛ يوضح السياق وشرح اللفظ أن المقصود من يطاردونهم."
+        },
+        {
+          "option_id": "emigrants",
+          "text_ar": "المهاجرون الذين يلتمسون طريقًا إلى المدينة.",
+          "feedback_ar": "ليس هذا المقصود؛ سراقة يعد برد من يتعقبون الركب، لا برد المهاجرين."
+        },
+        {
+          "option_id": "petitioners",
+          "text_ar": "أصحاب الحاجات الذين يقصدون النبي ﷺ بسؤالهم.",
+          "feedback_ar": "اللفظ هنا للمطاردين، لا لعموم السائلين وأصحاب الحاجات."
+        }
+      ],
+      "correct_option_id": "pursuers",
+      "explanation_ar": "يفسر الأصبهاني الطلب بالطالِب الذي يقع لفظه على الواحد والجمع؛ ووعد سراقة وردّه من يلقاه يبينان أن المقصود طالِبو الركب ومطاردوه.",
+      "scope_note_ar": "شرح الأصبهاني يوضح الكلمة؛ وخبر أبي بكر يحدد المقصود بها في هذا السياق.",
+      "step_id": "hch_suraqa",
+      "source_unit_ids": [
+        "sp_suraqa_lexicon:p2",
+        "sp_suraqa_abu_bakr:p1",
+        "sp_suraqa_abu_bakr:p2",
+        "sp_suraqa_abu_bakr:p3",
+        "sp_suraqa_abu_bakr:p4",
+        "sp_suraqa_abu_bakr:p5",
+        "sp_suraqa_abu_bakr:p6",
+        "sp_suraqa_abu_bakr:p7",
+        "sp_suraqa_abu_bakr:p8",
+        "sp_suraqa_abu_bakr:p9",
+        "sp_suraqa_abu_bakr:p10",
+        "sp_suraqa_abu_bakr:p11"
+      ]
+    }
+  ],
+  "unassessed_objectives": [],
+  "open_issues": [
+    {
+      "issue_id": "hch_suraqa_issue_review",
+      "affected_ids": [
+        "hch_suraqa"
+      ],
+      "blocking": false,
+      "note_ar": "قورنت هذه الصياغة بنطاق المصادر المبين، ولم تحصل بعد على مراجعة لغوية مستقلة أو اعتماد متخصص أو إذن نشر."
+    },
+    {
+      "issue_id": "hch_suraqa_issue_later_scope",
+      "affected_ids": [
+        "hch_suraqa_depth_document"
+      ],
+      "blocking": false,
+      "note_ar": "اللقاء اللاحق معروض هنا بحسب تتمة ابن إسحاق وحدها؛ دراسة اختلاف توقيته وأخبار السواري خارج نطاق هذا الفصل."
+    }
+  ],
+  "locale": "ar",
+  "status": "arabic_ready",
+  "records": [
+    {
+      "core_id": "hc_suraqa_pursuit",
+      "topic_id": "suraqa.pursuit",
+      "reader_question_ar": "كيف بدأت مطاردة سراقة، وما الذي حدث عند دنوّه من الركب؟",
+      "introduction_ar": "يصل الجعل والخبر إلى سراقة، فيخفي تعرفه على الركب ثم يلحق بهم. يروي حديثه في البخاري التعثر والاستقسام وسوخ اليدين وتغير نظرته إلى ما يسعى إليه؛ ويحفظ خبر ابن إسحاق رجاء الجعل وعدًا مختلفًا للتعثر.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_suraqa_pursuit_01",
+          "text_ar": "يذكر سراقة في البخاري مجيء رسل قريش بجعل قدر دية كل واحد من النبي ﷺ وأبي بكر لمن قتله أو أسره.",
+          "claim_ids": [
+            "suraqa_reward"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_pursuit_02",
+          "text_ar": "في حديث البخاري يخبر رجل من بني مدلج برؤية أشخاص بالساحل يظنهم محمدًا وأصحابه؛ يعرف سراقة أنهم هم، لكنه يرد بأنهم غيرهم.",
+          "claim_ids": [
+            "suraqa_recognition"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_pursuit_03",
+          "text_ar": "يمكث سراقة في المجلس ثم يأمر جاريته بإخراج فرسه من وراء أكمة وحبسها له، ويخرج برمحه من ظهر البيت مخفضًا أعلاه حتى يصل إلى الفرس ويركب في الطلب.",
+          "claim_ids": [
+            "suraqa_preparation"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_pursuit_04",
+          "text_ar": "في حديث البخاري تتعثر فرس سراقة فيسقط، ويستخرج الأزلام من كنانته مستقسمًا في الإضرار بهم، ثم يخالف ما خرج له ويواصل الركوب.",
+          "claim_ids": [
+            "suraqa_first_fall"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_pursuit_05",
+          "text_ar": "يدنو سراقة حتى يسمع قراءة النبي ﷺ؛ يذكر أنه لا يلتفت وأن أبا بكر يكثر الالتفات.",
+          "claim_ids": [
+            "suraqa_recitation"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_pursuit_06",
+          "text_ar": "يصف سراقة في البخاري سوخ يدي الفرس إلى الركبتين وسقوطه ثم نهوضها بصعوبة، وارتفاع عثان من أثر يديها مثل الدخان.",
+          "claim_ids": [
+            "suraqa_sinking"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_pursuit_07",
+          "text_ar": "بعد الاستقسام مرة أخرى ينادي سراقة بالأمان فيقفون، ويأتيهم؛ ويذكر أن ما لقيه من الحبس عنهم أوقع في نفسه أن أمر رسول الله ﷺ سيظهر.",
+          "claim_ids": [
+            "suraqa_changed_outlook"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_pursuit_08",
+          "text_ar": "في خبر ابن إسحاق عند ابن هشام تجعل قريش مائة ناقة لمن يرد النبي ﷺ إليها، ويصرح سراقة برجائه رده وأخذ المائة.",
+          "claim_ids": [
+            "suraqa_reward_motive"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "suraqa_reward",
+          "text_ar": "يذكر سراقة في البخاري مجيء رسل قريش بجعل قدر دية كل واحد من النبي ﷺ وأبي بكر لمن قتله أو أسره.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_recognition",
+          "text_ar": "في حديث البخاري يخبر رجل من بني مدلج برؤية أشخاص بالساحل يظنهم محمدًا وأصحابه؛ يعرف سراقة أنهم هم، لكنه يرد بأنهم غيرهم.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_preparation",
+          "text_ar": "يمكث سراقة في المجلس ثم يأمر جاريته بإخراج فرسه من وراء أكمة وحبسها له، ويخرج برمحه من ظهر البيت مخفضًا أعلاه حتى يصل إلى الفرس ويركب في الطلب.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_first_fall",
+          "text_ar": "في حديث البخاري تتعثر فرس سراقة فيسقط، ويستخرج الأزلام من كنانته مستقسمًا في الإضرار بهم، ثم يخالف ما خرج له ويواصل الركوب.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_recitation",
+          "text_ar": "يدنو سراقة حتى يسمع قراءة النبي ﷺ؛ يذكر أنه لا يلتفت وأن أبا بكر يكثر الالتفات.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_sinking",
+          "text_ar": "يصف سراقة في البخاري سوخ يدي الفرس إلى الركبتين وسقوطه ثم نهوضها بصعوبة، وارتفاع عثان من أثر يديها مثل الدخان.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p3"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_changed_outlook",
+          "text_ar": "بعد الاستقسام مرة أخرى ينادي سراقة بالأمان فيقفون، ويأتيهم؛ ويذكر أن ما لقيه من الحبس عنهم أوقع في نفسه أن أمر رسول الله ﷺ سيظهر.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p3"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_reward_motive",
+          "text_ar": "في خبر ابن إسحاق عند ابن هشام تجعل قريش مائة ناقة لمن يرد النبي ﷺ إليها، ويصرح سراقة برجائه رده وأخذ المائة.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_ibn_ishaq_start",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "evidence_id": "H-1681-5900-SURAQA",
+          "scope_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_reward",
+            "suraqa_recognition",
+            "suraqa_preparation",
+            "suraqa_first_fall",
+            "suraqa_recitation",
+            "suraqa_sinking",
+            "suraqa_changed_outlook"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "evidence_id": "H-23833-512-815",
+          "scope_ar": "بداية خبر سراقة عند ابن إسحاق كما في سيرة ابن هشام؛ يستمر نداؤه في القطعة التالية، وتبقى الرواية متميزة عن لفظ البخاري.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_reward_motive"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "سراقة بن مالك",
+          "role_ar": "يخبر عن الجعل ومعرفته بالركب واستعداده للمطاردة وما وقع لفرسه.",
+          "claim_ids": [
+            "suraqa_reward",
+            "suraqa_recognition",
+            "suraqa_preparation",
+            "suraqa_first_fall",
+            "suraqa_recitation",
+            "suraqa_sinking",
+            "suraqa_changed_outlook",
+            "suraqa_reward_motive"
+          ]
+        },
+        {
+          "name_ar": "أبو بكر",
+          "role_ar": "يكثر الالتفات في وصف سراقة لاقترابه.",
+          "claim_ids": [
+            "suraqa_recitation"
+          ]
+        },
+        {
+          "name_ar": "النبي ﷺ",
+          "role_ar": "يسمع سراقة قراءته عند الدنو، ويذكر أنه لا يلتفت.",
+          "claim_ids": [
+            "suraqa_recitation"
+          ]
+        },
+        {
+          "name_ar": "جارية سراقة",
+          "role_ar": "يأمرها سراقة بإخراج الفرس وحبسها له.",
+          "claim_ids": [
+            "suraqa_preparation"
+          ]
+        },
+        {
+          "name_ar": "رجل من بني مدلج",
+          "role_ar": "يخبر المجلس بمن رآهم بالساحل.",
+          "claim_ids": [
+            "suraqa_recognition"
+          ]
+        }
+      ],
+      "place_mentions": [
+        {
+          "name_ar": "الساحل",
+          "coordinates": null,
+          "claim_ids": [
+            "suraqa_recognition"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "suraqa_read_concealment",
+          "text_ar": "يربط بين ما عرفه سراقة وما قاله في المجلس وكيف خرج بعده.",
+          "claim_ids": [
+            "suraqa_recognition",
+            "suraqa_preparation"
+          ]
+        },
+        {
+          "objective_id": "suraqa_read_persistence",
+          "text_ar": "يتتبع فعل سراقة بعد التعثر والاستقسام ثم اقترابه من الركب.",
+          "claim_ids": [
+            "suraqa_first_fall",
+            "suraqa_recitation"
+          ]
+        },
+        {
+          "objective_id": "suraqa_read_change",
+          "text_ar": "يربط ما وقع للفرس بتغير موقف سراقة عند لقاء الركب.",
+          "claim_ids": [
+            "suraqa_sinking",
+            "suraqa_changed_outlook"
+          ]
+        },
+        {
+          "objective_id": "suraqa_read_reward",
+          "text_ar": "يربط الجائزة التي يرجوها سراقة برد النبي ﷺ إلى قريش في خبر ابن إسحاق.",
+          "claim_ids": [
+            "suraqa_reward_motive"
+          ]
+        }
+      ],
+      "related_topic_ids": [
+        "suraqa.reward",
+        "suraqa.sinking",
+        "suraqa.safety_document"
+      ],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "يتبع سرد الفصل حديث سراقة عند البخاري في ترتيب التعثر والسوخ؛ اختلاف العد محفوظ في المقارنة لا مركب في اقتباس واحد."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "suraqa_reward",
+        "suraqa_recognition",
+        "suraqa_preparation",
+        "suraqa_first_fall",
+        "suraqa_recitation",
+        "suraqa_sinking",
+        "suraqa_changed_outlook",
+        "suraqa_reward_motive"
+      ]
+    },
+    {
+      "core_id": "hc_suraqa_safety",
+      "topic_id": "suraqa.safety_document",
+      "reader_question_ar": "كيف صار اللقاء طلبًا للأمان وكتمانًا لخبر الركب؟",
+      "introduction_ar": "يخبر سراقة الركب بما يريده الناس، ويعرض عليهم الزاد والمتاع، ثم يطلب كتاب أمن. يبين حديثه في البخاري الكتاب واسم الكاتب، ويبين خبر أبي بكر عند البيهقي وعد رد الطلب والوفاء به.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_suraqa_safety_01",
+          "text_ar": "يخبر سراقة النبي ﷺ وأبا بكر بالجعل وما يريد الناس بهم، ويعرض الزاد والمتاع فلا يأخذان منه شيئًا في حديث البخاري.",
+          "claim_ids": [
+            "suraqa_offer"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_safety_02",
+          "text_ar": "في حديث سراقة عند البخاري يرد طلب النبي ﷺ إخفاء خبرهم بلفظ أخف عنا.",
+          "claim_ids": [
+            "suraqa_concealment"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_safety_03",
+          "text_ar": "يسأل سراقة كتاب أمن، فيأمر النبي ﷺ عامر بن فهيرة فيكتب في رقعة من أديم، ثم يمضي النبي، بحسب حديث البخاري.",
+          "claim_ids": [
+            "suraqa_document"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_safety_04",
+          "text_ar": "يروي البراء خبر أبي بكر عن إدراك سراقة، ودعاء النبي عليه، ثم طلب سراقة الدعاء له مع وعد برد الطلب؛ ويذكر الخبر الدعاء والنجاة والوفاء برد المطاردين.",
+          "claim_ids": [
+            "suraqa_abu_bakr_view"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_safety_05",
+          "text_ar": "في خبر أبي بكر عند البيهقي يرجع سراقة فلا يلقى أحدًا إلا يرده ويقول قد كفيتم ما ههنا؛ وينص أبو بكر على وفائه لهم.",
+          "claim_ids": [
+            "suraqa_turnback"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "suraqa_offer",
+          "text_ar": "يخبر سراقة النبي ﷺ وأبا بكر بالجعل وما يريد الناس بهم، ويعرض الزاد والمتاع فلا يأخذان منه شيئًا في حديث البخاري.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p3"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_concealment",
+          "text_ar": "في حديث سراقة عند البخاري يرد طلب النبي ﷺ إخفاء خبرهم بلفظ أخف عنا.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p3",
+                "p4"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_document",
+          "text_ar": "يسأل سراقة كتاب أمن، فيأمر النبي ﷺ عامر بن فهيرة فيكتب في رقعة من أديم، ثم يمضي النبي، بحسب حديث البخاري.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p5"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_abu_bakr_view",
+          "text_ar": "يروي البراء خبر أبي بكر عن إدراك سراقة، ودعاء النبي عليه، ثم طلب سراقة الدعاء له مع وعد برد الطلب؛ ويذكر الخبر الدعاء والنجاة والوفاء برد المطاردين.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_abu_bakr",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p5",
+                "p6",
+                "p7",
+                "p8",
+                "p9",
+                "p10"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_turnback",
+          "text_ar": "في خبر أبي بكر عند البيهقي يرجع سراقة فلا يلقى أحدًا إلا يرده ويقول قد كفيتم ما ههنا؛ وينص أبو بكر على وفائه لهم.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_abu_bakr",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p7",
+                "p8",
+                "p9",
+                "p10"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "evidence_id": "H-1681-5900-SURAQA",
+          "scope_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_offer",
+            "suraqa_concealment",
+            "suraqa_document"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_suraqa_abu_bakr",
+          "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+          "scope_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p11"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_abu_bakr_view",
+            "suraqa_turnback"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "سراقة بن مالك",
+          "role_ar": "يعرض الزاد والمتاع ويطلب الأمان، ويرد المطاردين في خبر أبي بكر.",
+          "claim_ids": [
+            "suraqa_offer",
+            "suraqa_document",
+            "suraqa_turnback"
+          ]
+        },
+        {
+          "name_ar": "عامر بن فهيرة",
+          "role_ar": "كاتب الأمان في لفظ البخاري المختار.",
+          "claim_ids": [
+            "suraqa_document"
+          ]
+        },
+        {
+          "name_ar": "أبو بكر",
+          "role_ar": "صاحب خبر الدعاء والوفاء الذي يرويه البراء عند البيهقي.",
+          "claim_ids": [
+            "suraqa_abu_bakr_view"
+          ]
+        }
+      ],
+      "place_mentions": [
+        {
+          "name_ar": "الطريق",
+          "coordinates": null,
+          "claim_ids": [
+            "suraqa_turnback"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "suraqa_read_exchange",
+          "text_ar": "يعين ما طلبه النبي ﷺ من سراقة بعد عرض الزاد والمتاع.",
+          "claim_ids": [
+            "suraqa_offer",
+            "suraqa_concealment"
+          ]
+        },
+        {
+          "objective_id": "suraqa_read_turnback",
+          "text_ar": "يشرح كيف اختلف فعل سراقة بعد الرجوع عن دوره في المطاردة.",
+          "claim_ids": [
+            "suraqa_turnback"
+          ]
+        },
+        {
+          "objective_id": "suraqa_compare_perspectives",
+          "text_ar": "يميز ما يحكيه سراقة عن نفسه عما يرويه أبو بكر عن الدعاء ورد الطلب.",
+          "claim_ids": [
+            "suraqa_abu_bakr_view",
+            "suraqa_offer",
+            "suraqa_document"
+          ]
+        }
+      ],
+      "related_topic_ids": [
+        "suraqa.after_encounter",
+        "suraqa.writers"
+      ],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "موضع الرد على المطاردين ليس إحداثية جغرافية. عزو البيهقي إلى الصحيحين محفوظ كتخريج له، لا قراءة مستقلة لأصلين في هذا العمل."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "suraqa_offer",
+        "suraqa_concealment",
+        "suraqa_document",
+        "suraqa_abu_bakr_view",
+        "suraqa_turnback"
+      ]
+    },
+    {
+      "core_id": "hc_suraqa_readings",
+      "topic_id": "suraqa.writers",
+      "reader_question_ar": "ما الذي تبيّنه مقارنة ألفاظ المطاردة والكتاب؟",
+      "introduction_ar": "تسمح المقارنة برؤية الفرق في الكاتب ومادة الكتاب وعد التعثر، وبفهم الألفاظ التي يستعملها الخبر. ولا توحّد مواضع الاختلاف، كما تبقى تتمة لقاء سراقة بعد الفتح في زمنها اللاحق.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_suraqa_readings_01",
+          "text_ar": "يسمي حديث البخاري عامر بن فهيرة كاتبًا في رقعة من أديم. وفي رواية ابن إسحاق عند ابن هشام يأمر النبي أبا بكر بالكتابة، وتذكر التتمة عظمًا أو رقعة أو خزفة على الشك؛ لا نحول الاختلاف إلى واقعة كتابة مشتركة.",
+          "claim_ids": [
+            "suraqa_writer_difference"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_readings_02",
+          "text_ar": "يفصل حديث البخاري بين تعثر أول وسوخ اليدين عند الدنو، بينما يسوق ابن إسحاق تعثرين ثم تعثرًا عند رؤية القوم مع ذهاب يدي الفرس في الأرض؛ لا يضاف عد ابن إسحاق إلى لفظ البخاري.",
+          "claim_ids": [
+            "suraqa_stumble_difference"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_readings_03",
+          "text_ar": "تسمي رواية البخاري أدوات الاستقسام أزلامًا، ويسميها خبر ابن إسحاق قداحًا ويذكر السهم الذي يخرج؛ والرجاء الذي يذكره سراقة عند ابن إسحاق هو رد النبي وأخذ الجعل.",
+          "claim_ids": [
+            "suraqa_lots_vocabulary"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_readings_04",
+          "text_ar": "يفسر إسماعيل الأصبهاني الطلب بالطالِب الواقع على الواحد والجمع، ويفسر لأعمين بمعنى لأخفين، ويشرح السوخ بدخول قوائم الفرس في الأرض. هذا شرح مؤلف لا لفظ من الحوار.",
+          "claim_ids": [
+            "suraqa_pursuit_vocabulary"
+          ]
+        },
+        {
+          "paragraph_id": "hc_suraqa_readings_05",
+          "text_ar": "تنتقل تتمة ابن إسحاق بعد الرجوع من المطاردة إلى فتح مكة والفراغ من حنين والطائف ولقاء الجعرانة؛ فلا يقع هذا اللقاء أو الإسلام المذكور فيه في يوم المطاردة.",
+          "claim_ids": [
+            "suraqa_later_meeting_boundary"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "suraqa_writer_difference",
+          "text_ar": "يسمي حديث البخاري عامر بن فهيرة كاتبًا في رقعة من أديم. وفي رواية ابن إسحاق عند ابن هشام يأمر النبي أبا بكر بالكتابة، وتذكر التتمة عظمًا أو رقعة أو خزفة على الشك؛ لا نحول الاختلاف إلى واقعة كتابة مشتركة.",
+          "kind": "source_wording_comparison",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p5"
+              ]
+            },
+            {
+              "packet_id": "sp_suraqa_ibn_ishaq_start",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            },
+            {
+              "packet_id": "sp_suraqa_ibn_ishaq_reply",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            },
+            {
+              "packet_id": "sp_suraqa_ibn_ishaq_end",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_stumble_difference",
+          "text_ar": "يفصل حديث البخاري بين تعثر أول وسوخ اليدين عند الدنو، بينما يسوق ابن إسحاق تعثرين ثم تعثرًا عند رؤية القوم مع ذهاب يدي الفرس في الأرض؛ لا يضاف عد ابن إسحاق إلى لفظ البخاري.",
+          "kind": "source_wording_comparison",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p2",
+                "p3"
+              ]
+            },
+            {
+              "packet_id": "sp_suraqa_ibn_ishaq_start",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_lots_vocabulary",
+          "text_ar": "تسمي رواية البخاري أدوات الاستقسام أزلامًا، ويسميها خبر ابن إسحاق قداحًا ويذكر السهم الذي يخرج؛ والرجاء الذي يذكره سراقة عند ابن إسحاق هو رد النبي وأخذ الجعل.",
+          "kind": "source_wording_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_bukhari",
+              "part_ids": [
+                "p2"
+              ]
+            },
+            {
+              "packet_id": "sp_suraqa_ibn_ishaq_start",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_pursuit_vocabulary",
+          "text_ar": "يفسر إسماعيل الأصبهاني الطلب بالطالِب الواقع على الواحد والجمع، ويفسر لأعمين بمعنى لأخفين، ويشرح السوخ بدخول قوائم الفرس في الأرض. هذا شرح مؤلف لا لفظ من الحوار.",
+          "kind": "attributed_lexical_explanation",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_lexicon",
+              "part_ids": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "suraqa_later_meeting_boundary",
+          "text_ar": "تنتقل تتمة ابن إسحاق بعد الرجوع من المطاردة إلى فتح مكة والفراغ من حنين والطائف ولقاء الجعرانة؛ فلا يقع هذا اللقاء أو الإسلام المذكور فيه في يوم المطاردة.",
+          "kind": "temporal_scope_observation",
+          "source_refs": [
+            {
+              "packet_id": "sp_suraqa_ibn_ishaq_end",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p5",
+                "p6"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "evidence_id": "H-1681-5900-SURAQA",
+          "scope_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_writer_difference",
+            "suraqa_stumble_difference",
+            "suraqa_lots_vocabulary"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "evidence_id": "H-23833-512-815",
+          "scope_ar": "بداية خبر سراقة عند ابن إسحاق كما في سيرة ابن هشام؛ يستمر نداؤه في القطعة التالية، وتبقى الرواية متميزة عن لفظ البخاري.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_writer_difference",
+            "suraqa_stumble_difference",
+            "suraqa_lots_vocabulary"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_reply",
+          "evidence_id": "H-23833-513-CONT",
+          "scope_ar": "تتمة نداء سراقة وأمر الكتابة في رواية ابن إسحاق؛ تقرأ مع أول الخبر وتتمة فعل الكتابة، لا جوابًا مجهول المتكلم.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_writer_difference"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_end",
+          "evidence_id": "H-23833-513-816",
+          "scope_ar": "تتمة الكتابة ثم لقاء لاحق بعد الفتح وحنين والطائف؛ فُصل الانتقال الزمني والكلام النبوي، ولا تُنقل أحداث اللقاء اللاحق إلى يوم المطاردة.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_writer_difference",
+            "suraqa_later_meeting_boundary"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_suraqa_lexicon",
+          "evidence_id": "H-6569-33-RA-SURAQA-GLOSS",
+          "scope_ar": "شرح إسماعيل الأصبهاني لألفاظ الخبر؛ كلام شارح لا جزء من كلام أبي بكر أو سراقة. يبقى وصفه في شرحه منسوبًا إليه.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "suraqa_pursuit_vocabulary"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "عامر بن فهيرة",
+          "role_ar": "الكاتب المذكور في حديث البخاري.",
+          "claim_ids": [
+            "suraqa_writer_difference"
+          ]
+        },
+        {
+          "name_ar": "أبو بكر",
+          "role_ar": "المأمور بالكتابة في خبر ابن إسحاق عند ابن هشام.",
+          "claim_ids": [
+            "suraqa_writer_difference"
+          ]
+        },
+        {
+          "name_ar": "إسماعيل الأصبهاني",
+          "role_ar": "شارح الألفاظ، لا شاهد حاضر في المطاردة.",
+          "claim_ids": [
+            "suraqa_pursuit_vocabulary"
+          ]
+        }
+      ],
+      "place_mentions": [],
+      "learning_objectives": [
+        {
+          "objective_id": "suraqa_compare_writers",
+          "text_ar": "يعزو اسم كاتب الأمان ومادة الكتاب إلى كل من لفظ البخاري وخبر ابن إسحاق المعروضين.",
+          "claim_ids": [
+            "suraqa_writer_difference"
+          ]
+        },
+        {
+          "objective_id": "suraqa_read_terms",
+          "text_ar": "يفهم معنى الطلب في سياق المطاردة مستعينًا بالشرح المنسوب.",
+          "claim_ids": [
+            "suraqa_pursuit_vocabulary"
+          ]
+        }
+      ],
+      "related_topic_ids": [
+        "suraqa.pursuit",
+        "suraqa.sinking",
+        "later_suraqa.temporal_separation"
+      ],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "لم يُعتمد جمع لاحق بين اسمي الكاتبين واقعةً جديدة؛ دراسة ذلك الجمع وتوقيت اللقاءات اللاحقة باقية خارج قصة الفصل."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "suraqa_writer_difference",
+        "suraqa_stumble_difference",
+        "suraqa_lots_vocabulary",
+        "suraqa_pursuit_vocabulary",
+        "suraqa_later_meeting_boundary"
+      ]
+    }
+  ],
+  "source_packets": [
+    {
+      "packet_id": "sp_suraqa_bukhari",
+      "evidence_id": "H-1681-5900-SURAQA",
+      "scope_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 927,
+          "page_start": 355,
+          "page_end": 1282,
+          "source_type_ar": "حديث سراقة: الجعل والخروج",
+          "speaker_ar": "سراقة؛ ويتضمن خبر الرجل وجواب سراقة له",
+          "text_ar": "«جَاءَنَا رُسُلُ كُفَّارِ قُرَيْشٍ، يَجْعَلُونَ فِي رَسُولِ اللهِ ﷺ وَأَبِي بَكْرٍ، دِيَةَ كُلِّ وَاحِدٍ مِنْهُمَا، مَنْ قَتَلَهُ أَوْ أَسَرَهُ، فَبَيْنَمَا أَنَا جَالِسٌ فِي مَجْلِسٍ مِنْ مَجَالِسِ قَوْمِي بَنِي مُدْلِجٍ، أَقْبَلَ رَجُلٌ مِنْهُمْ، حَتَّى قَامَ عَلَيْنَا وَنَحْنُ جُلُوسٌ، فَقَالَ يَا سُرَاقَةُ: إِنِّي قَدْ رَأَيْتُ آنِفًا أَسْوِدَةً بِالسَّاحِلِ، أُرَاهَا مُحَمَّدًا وَأَصْحَابَهُ، قَالَ سُرَاقَةُ: فَعَرَفْتُ أَنَّهُمْ هُمْ، فَقُلْتُ لَهُ: إِنَّهُمْ لَيْسُوا بِهِمْ، وَلَكِنَّكَ رَأَيْتَ فُلَانًا وَفُلَانًا، انْطَلَقُوا بِأَعْيُنِنَا، ثُمَّ لَبِثْتُ فِي الْمَجْلِسِ سَاعَةً، ثُمَّ قُمْتُ فَدَخَلْتُ، فَأَمَرْتُ جَارِيَتِي أَنْ تَخْرُجَ بِفَرَسِي وَهْيَ مِنْ وَرَاءِ أَكَمَةٍ، فَتَحْبِسَهَا عَلَيَّ، وَأَخَذْتُ رُمْحِي، فَخَرَجْتُ بِهِ مِنْ ظَهْرِ الْبَيْتِ، فَحَطَطْتُ بِزُجِّهِ الْأَرْضَ، وَخَفَضْتُ عَالِيَهُ، حَتَّى أَتَيْتُ فَرَسِي فَرَكِبْتُهَا، فَرَفَعْتُهَا تُقَرِّبُ بِي، حَتَّى دَنَوْتُ مِنْهُمْ، ",
+          "text_sha256": "cb41e54515f652a540ac1504361a520cc4e54c3dfdcd07603c0c2a1544ba23ba"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 927,
+          "record_end": 1296,
+          "page_start": 1282,
+          "page_end": 1651,
+          "source_type_ar": "حديث سراقة: التعثر والاستقسام والدنو",
+          "speaker_ar": "سراقة",
+          "text_ar": "فَعَثَرَتْ بِي فَرَسِي، فَخَرَرْتُ عَنْهَا، فَقُمْتُ فَأَهْوَيْتُ يَدِي إِلَى كِنَانَتِي، فَاسْتَخْرَجْتُ مِنْهَا الْأَزْلَامَ فَاسْتَقْسَمْتُ بِهَا: أَضُرُّهُمْ أَمْ لَا، فَخَرَجَ الَّذِي أَكْرَهُ، فَرَكِبْتُ فَرَسِي، وَعَصَيْتُ الْأَزْلَامَ، تُقَرَِّبُ بِي حَتَّى إِذَا سَمِعْتُ قِرَاءَةَ رَسُولِ اللهِ ﷺ وَهْوَ لَا يَلْتَفِتُ، وَأَبُو بَكْرٍ يُكْثِرُ الِالْتِفَاتَ، ",
+          "text_sha256": "54fdd229c469b28390aef11cd82c62ed5d3da2ae98b5e79dad27ad729999422a"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 1296,
+          "record_end": 2026,
+          "page_start": 1651,
+          "page_end": 2381,
+          "source_type_ar": "حديث سراقة: السوخ ولقاء الركب",
+          "speaker_ar": "سراقة",
+          "text_ar": "سَاخَتْ يَدَا فَرَسِي فِي الْأَرْضِ، حَتَّى بَلَغَتَا الرُّكْبَتَيْنِ، فَخَرَرْتُ عَنْهَا، ثُمَّ زَجَرْتُهَا فَنَهَضَتْ، فَلَمْ تَكَدْ تُخْرِجُ يَدَيْهَا، فَلَمَّا اسْتَوَتْ قَائِمَةً، إِذَا لِأَثَرِ يَدَيْهَا عُثَانٌ سَاطِعٌ فِي السَّمَاءِ مِثْلُ الدُّخَانِ، فَاسْتَقْسَمْتُ بِالْأَزْلَامِ، فَخَرَجَ الَّذِي أَكْرَهُ، فَنَادَيْتُهُمْ بِالْأَمَانِ فَوَقَفُوا، فَرَكِبْتُ فَرَسِي حَتَّى جِئْتُهُمْ، وَوَقَعَ فِي نَفْسِي حِينَ لَقِيتُ مَا لَقِيتُ مِنَ الْحَبْسِ عَنْهُمْ، أَنْ سَيَظْهَرُ أَمْرُ رَسُولِ اللهِ ﷺ. فَقُلْتُ لَهُ: إِنَّ قَوْمَكَ قَدْ جَعَلُوا فِيكَ الدِّيَةَ، وَأَخْبَرْتُهُمْ أَخْبَارَ مَا يُرِيدُ النَّاسُ بِهِمْ، وَعَرَضْتُ عَلَيْهِمِ الزَّادَ وَالْمَتَاعَ، فَلَمْ يَرْزَآنِي وَلَمْ يَسْأَلَانِي، إِلَّا أَنْ قَالَ: ",
+          "text_sha256": "6c8e208098b0d44b97b77f796c6d1ac6f6f7e4964d28e985f1b98f2a131479ee"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 2026,
+          "record_end": 2040,
+          "page_start": 2381,
+          "page_end": 2395,
+          "source_type_ar": "كلام النبي في حديث سراقة",
+          "speaker_ar": "النبي ﷺ كما يرويه سراقة",
+          "text_ar": "أَخْفِ عَنَّا ",
+          "text_sha256": "37942c40170e20b2f30923de2c85d9c759fa0f6fd9722a613fd44c142a1036b5"
+        },
+        {
+          "part_id": "p5",
+          "record_start": 2040,
+          "record_end": 2184,
+          "page_start": 2395,
+          "page_end": 2539,
+          "source_type_ar": "حديث سراقة: كتاب الأمان",
+          "speaker_ar": "سراقة",
+          "text_ar": "فَسَأَلْتُهُ أَنْ يَكْتُبَ لِي كِتَابَ أَمْنٍ، فَأَمَرَ عَامِرَ بْنَ فُهَيْرَةَ فَكَتَبَ فِي رُقْعَةٍ مِنْ أَدِيمٍ، ثُمَّ مَضَى رَسُولُ اللهِ ﷺ.",
+          "text_sha256": "717a924f01ff5150ba6008817b2faf7263f96e2050231ae118a82b2608d8144d"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 2184,
+      "selected_text_sha256": "114452360dc19e65c8064f99653deb920eafb4b4d6386810558ed68540c299f7",
+      "source_excerpt_sha256": "114452360dc19e65c8064f99653deb920eafb4b4d6386810558ed68540c299f7",
+      "book_id": 1681,
+      "page_id": 5900,
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "retrieved_at": "2026-10-02T19:58:44.613565+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "البخاري",
+      "edition_ar": "الكتاب: صحيح البخاري\nالمؤلف: أبو عبد الله، محمد بن إسماعيل بن إبراهيم بن المغيرة ابن بردزبه البخاري الجعفي\nتحقيق: جماعة من العلماء\nالطبعة: السلطانية، بالمطبعة الكبرى الأميرية، ببولاق مصر، ١٣١١ هـ، بأمر السلطان عبد الحميد الثاني\nثم صَوّرها بعنايته: د. محمد زهير الناصر، وطبعها الطبعة الأولى ١٤٢٢ هـ لدى دار طوق النجاة - بيروت، مع إثراء الهوامش بترقيم الأحاديث لمحمد فؤاد عبد الباقي، والإحالة لبعض المراجع المهمة\nعدد الأجزاء: ٩\n[ترقيم الكتاب موافق للمطبوع، وهو ضمن خدمة التخريج]",
+      "source_speaker_metadata_ar": "سراقة في رواية الزهري",
+      "source_type_metadata_ar": "حديث",
+      "source_page_sha256": "41df8d410cb2456a3152e1f490832ea56b14e882fbba1921734c9e618b7f092c",
+      "source_isnad_metadata_ar": "قَالَ <a href=\"inr://man-5917\">ابْنُ شِهَابٍ </a>:  وَأَخْبَرَنِي <a href=\"inr://man-3392\">عَبْدُ الرَّحْمَنِ بْنُ مَالِكٍ الْمُدْلِجِيُّ، وَهْوَ ابْنُ أَخِي سُرَاقَةَ بْنِ مَالِكِ بْنِ جُعْشُمٍ </a>:  أَنَّ <a href=\"inr://man-5380\">أَبَاهُ </a>أَخْبَرَهُ: أَنَّهُ سَمِعَ <a href=\"inr://man-2269\">سُرَاقَةَ بْنَ جُعْشُمٍ </a>يَقُولُ:",
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_suraqa_ibn_ishaq_start",
+      "evidence_id": "H-23833-512-815",
+      "scope_ar": "بداية خبر سراقة عند ابن إسحاق كما في سيرة ابن هشام؛ يستمر نداؤه في القطعة التالية، وتبقى الرواية متميزة عن لفظ البخاري.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 187,
+          "page_start": 91,
+          "page_end": 278,
+          "source_type_ar": "إسناد ابن إسحاق إلى سراقة",
+          "speaker_ar": "ابن إسحاق عن الزهري عن عبد الرحمن عن أبيه عن سراقة",
+          "text_ar": "قَالَ ابْنُ إسْحَاقَ: وَحَدَّثَنِي الزُّهْرِيُّ أَنَّ عَبْدَ الرَّحْمَنِ بْنَ مَالِكِ بْنِ جُعْشُمٍ حَدَّثَهُ.\nعَنْ أَبِيهِ، عَنْ عَمِّهِ سُرَاقَةَ بْنِ مَالِكِ بْنِ جُعْشُمٍ [١]، قَالَ: ",
+          "text_sha256": "e96c20448010917cdc46886e2c14d52f50b0b732f5d50b204d1e2a08fc5fa1c2"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 187,
+          "record_end": 2195,
+          "page_start": 278,
+          "page_end": 2286,
+          "source_type_ar": "خبر سراقة عند ابن إسحاق",
+          "speaker_ar": "سراقة؛ ويتضمن كلام الرجل وجوابه",
+          "text_ar": "لَمَّا خَرَجَ رَسُولُ اللَّهِ ﷺ مِنْ مَكَّةَ مُهَاجِرًا إلَى الْمَدِينَةِ، جَعَلَتْ قُرَيْش فِيهِ مائَة نَاقَةٍ لِمَنْ رَدَّهُ عَلَيْهِمْ. قَالَ: فَبَيْنَا أَنَا جَالِسٌ فِي نَادِي قَوْمِي إذْ أَقْبَلَ رَجُلٌ مِنَّا، حَتَّى وَقَفَ عَلَيْنَا، فَقَالَ: وَاَللَّهِ لَقَدْ رَأَيْتُ رَكْبَهُ ثَلَاثَةً مَرُّوا عَلَيَّ آنِفًا، إنِّي لَأَرَاهُمْ مُحَمَّدًا وَأَصْحَابَهُ، قَالَ: فَأَوْمَأْتُ إلَيْهِ بِعَيْنِي: أَنْ اُسْكُتْ، ثُمَّ قُلْتُ: إنَّمَا هُمْ بَنُو فُلَانٍ، يَبْتَغُونَ ضَالَّةً لَهُمْ، قَالَ: لَعَلَّهُ، ثُمَّ سَكَتَ. قَالَ: ثُمَّ مَكَثْتُ قَلِيلًا، ثُمَّ قُمْتُ فَدَخَلْتُ بَيْتِي، ثُمَّ أَمَرْتُ بِفَرَسِي، فَقُيِّدَ لِي إلَى بَطْنِ الْوَادِي، وَأَمَرْتُ بِسِلَاحِي، فَأُخْرِجَ لِي مِنْ دُبُرِ حُجْرَتِي، ثُمَّ أَخَذْتُ قِدَاحِي الَّتِي أَسَتَقْسِمُ بِهَا، ثُمَّ انْطَلَقْتُ، فَلَبِسْتُ لَأْمَتِي [٢]، ثُمَّ أَخَرَجْتُ قِدَاحِي، فَاسْتَقْسَمْتُ بِهَا، فَخَرَجَ السَّهْمُ الَّذِي أَكْرَهُ «لَا يَضُرُّهُ» [٣] .\nقَالَ: وَكُنْتُ أَرْجُو أَنْ أَرُدَّهُ عَلَى قُرَيْش، فآخذ الْمِائَة النَّاقَةِ. قَالَ: فَرَكِبْتُ عَلَى أَثَرِهِ، فَبَيْنَمَا فَرَسِي يَشْتَدُّ بِي عَثَرَ بِي، فَسَقَطْتُ عَنْهُ. قَالَ: فَقُلْتُ: مَا هَذَا؟ قَالَ:\nثُمَّ أَخَرَجْتُ قِدَاحِي فَاسْتَقْسَمْتُ بِهَا، فَخَرَجَ السَّهْمُ الَّذِي أَكْرَهُ «لَا يَضُرُّهُ» . قَالَ:\nفَأَبَيْتُ إلَّا أَنْ أَتَّبِعَهُ. قَالَ: فَرَكِبْتُ فِي أَثَرِهِ، فَبَيْنَا فَرَسِي يَشْتَدُّ بِي، عَثَرَ بِي، فَسَقَطْتُ عَنْهُ. قَالَ: فَقُلْتُ: مَا هَذَا؟، قَالَ: ثُمَّ أَخَرَجْتُ قِدَاحِي فَاسْتَقْسَمْتُ بِهَا فَخَرَجَ السَّهْمُ الَّذِي أَكْرَهُ «لَا يَضُرُّهُ»، قَالَ: فَأَبَيْتُ إلَّا أَنْ أَتَّبِعَهُ، فَرَكِبْتُ فِي أَثَرِهِ.\nفَلَمَّا بَدَا لِي الْقَوْمُ وَرَأَيْتهمْ، عَثَرَ بِي فَرَسِي، فَذَهَبَتْ يَدَاهُ فِي الْأَرْضِ، وَسَقَطْتُ عَنْهُ، ثُمَّ انْتَزَعَ يَدَيْهِ مِنْ الْأَرْضِ، وَتَبِعَهُمَا دُخَانٌ كَالْإِعْصَارِ [٤] . قَالَ: فَعَرَفْتُ حَيْنَ رَأَيْتُ ذَلِكَ أَنَّهُ قَدْ مُنِعَ مِنِّي، وَأَنَّهُ ظَاهِرٌ. قَالَ: فَنَادَيْتُ الْقَوْمَ: فَقُلْتُ: أَنَا سُرَاقَةُ بْنُ جُعْشُمٍ: انظرونى أكلمكم، فو الله لَا أَرَيْبُكُمْ، وَلَا يَأْتِيكُمْ مِنِّي شَيْءٌ",
+          "text_sha256": "5cf39fc67596dd7233a6a39d29244f61683604d300456ce430a72a123643b99c"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 2195,
+      "selected_text_sha256": "e4fb5e2cfc1c30e211128b0355ca604d2b8abae79d59a0fab63383655038c2cb",
+      "source_excerpt_sha256": "e4fb5e2cfc1c30e211128b0355ca604d2b8abae79d59a0fab63383655038c2cb",
+      "book_id": 23833,
+      "page_id": 512,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/489](https://app.turath.io/book/23833?page=512)",
+      "source_url": "https://app.turath.io/book/23833?page=512",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل",
+        "أرقام إحالات الحاشية باقية كما في الأصل؛ الحاشية ليست جزءًا من هذا المقطع",
+        "تتمة النص مفصولة عند حد الصفحة أو عنوان المصدر؛ تراجع مع المقطع المرتبط"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "سراقة في رواية ابن إسحاق عن الزهري",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "da622f44d24e08ca8848cb484b21504e3af780eb66035c1922302e175c805731",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-23833-513-CONT"
+      ]
+    },
+    {
+      "packet_id": "sp_suraqa_abu_bakr",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "scope_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 340,
+          "page_start": 0,
+          "page_end": 340,
+          "source_type_ar": "إسناد خبر البراء عن أبي بكر",
+          "speaker_ar": "البيهقي بإسناده إلى زهير ثم أبي إسحاق عن البراء",
+          "text_ar": "وَأَخْبَرَنَا أَبُو عَبْدِ اللَّه الْحَافِظُ، قَالَ: أَخْبَرَنِي أَبُو الْوَلِيدِ الْفَقِيهُ، قَالَ:\nحَدَّثَنَا عَبْدُ اللَّه بْنُ مُحَمَّدٍ، قَالَ: حَدَّثَنَا سَلَمَةُ بْنُ شَبِيبٍ، قَالَ: حَدَّثَنَا الْحَسَنُ ابن مُحَمَّدِ بْنِ أَعْيَنَ، قَالَ: حَدَّثَنَا زُهَيْرٌ، قَالَ: حَدَّثَنَا أَبُو إِسْحَاقَ، قَالَ:\nسَمِعْتُ الْبَرَاءَ، يَقُولُ: ",
+          "text_sha256": "0e5f433bd3d6fa6d00687660c13f826764daf8efc0a161acbf8b3c2c4c9dca60"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 340,
+          "record_end": 415,
+          "page_start": 340,
+          "page_end": 415,
+          "source_type_ar": "تمهيد البراء للخبر",
+          "speaker_ar": "البراء",
+          "text_ar": "«جَاءَ أَبُو بَكْرٍ إِلَى أَبِي فِي مَنْزِلِهِ فَاشْتَرَى مِنْهُ- رَحْلًا- ",
+          "text_sha256": "ae745fc41c0130c30243ae292071b03e71b0acca1200c513dfdd86c1cfdf55bd"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 415,
+          "record_end": 484,
+          "page_start": 415,
+          "page_end": 484,
+          "source_type_ar": "تعليق واختصار للخبر",
+          "speaker_ar": "صوت النقل والاختصار في عرض البيهقي، لا لفظ أبي بكر",
+          "text_ar": "وَذَكَرَ الْحَدِيثَ بِمَعْنَى حَدِيثِ إِسْرَائِيلَ إِلَى أَنْ قَالَ: ",
+          "text_sha256": "c3c6fefc036fa904be5dafc671aabbf30929ed1db8a8988b3fd6550d111ce6bb"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 484,
+          "record_end": 663,
+          "page_start": 484,
+          "page_end": 663,
+          "source_type_ar": "خبر أبي بكر عن المطاردة",
+          "speaker_ar": "أبو بكر برواية البراء",
+          "text_ar": "فَارْتَحَلْنَا بَعْدَ مَا زَالَتِ الشَّمْسُ، وَاتَّبَعَنَا سُرَاقَةُ بْنُ مَالِكِ، قَالَ: وَنَحْنُ فِي جَلَدٍ [(٤)] مِنَ الْأَرْضِ، فَقُلْتُ: يَا رَسُولَ اللَّه أُتِينَا، فَقَالَ ",
+          "text_sha256": "43efee462f3f7ed7dcf6af4c5c59b212752db9fe72bb81b5c2f173c61df9a481"
+        },
+        {
+          "part_id": "p5",
+          "record_start": 663,
+          "record_end": 699,
+          "page_start": 663,
+          "page_end": 699,
+          "source_type_ar": "كلام النبي في خبر أبي بكر",
+          "speaker_ar": "النبي ﷺ في خبر أبي بكر",
+          "text_ar": "لَا تَحْزَنْ إِنَّ اللَّه مَعَنَا»، ",
+          "text_sha256": "024400ec2e76fa9bd2e9c549f8c384d93a62f44061fc26447b13aa120ecb1fb1"
+        },
+        {
+          "part_id": "p6",
+          "record_start": 699,
+          "record_end": 787,
+          "page_start": 699,
+          "page_end": 787,
+          "source_type_ar": "خبر أبي بكر: الدعاء وسوخ الفرس",
+          "speaker_ar": "أبو بكر برواية البراء",
+          "text_ar": "فَدَعَا عَلَيْهِ رَسُولُ اللَّه ﵌ فَارْتَطَمَتْ فَرَسُهُ إِلَى بَطْنِهَا [(٥)]\nفَقَالَ: ",
+          "text_sha256": "8d1b14966d4b5c9955c59dc073d4038206c65d7bfe68d0ee446506e0aab5d75a"
+        },
+        {
+          "part_id": "p7",
+          "record_start": 787,
+          "record_end": 910,
+          "page_start": 787,
+          "page_end": 910,
+          "source_type_ar": "قول سراقة ووعده برد الطلب",
+          "speaker_ar": "سراقة في خبر أبي بكر",
+          "text_ar": "إِنِّي قَدْ عَلِمْتُ أَنَّكُمَا قَدْ دَعَوْتُمَا عَلَيَّ فَادْعُوَا لِي، فَاللهُ لَكُمَا أَنْ أَرُدَّ عَنْكُمَا الطَّلَبَ، ",
+          "text_sha256": "021e3700ed055c6531249ea3f8c7956756bebf078a47d3b127cca55c0cde4e23"
+        },
+        {
+          "part_id": "p8",
+          "record_start": 910,
+          "record_end": 977,
+          "page_start": 910,
+          "page_end": 977,
+          "source_type_ar": "خبر أبي بكر: نجاة سراقة ورجوعه",
+          "speaker_ar": "أبو بكر برواية البراء",
+          "text_ar": "فَدَعَا اللَّه فَنَجَا، فَرَجَعَ لَا يَلْقَى أَحَدًا إِلَّا قَالَ: ",
+          "text_sha256": "eeedfc440829c5dfa6e1d490b0fa4bca5f7931525be55823418dcb732d62ad79"
+        },
+        {
+          "part_id": "p9",
+          "record_start": 977,
+          "record_end": 1004,
+          "page_start": 977,
+          "page_end": 1004,
+          "source_type_ar": "قول سراقة لمن لقيه",
+          "speaker_ar": "سراقة في خبر أبي بكر",
+          "text_ar": "قَدْ كُفِيتُمْ مَا هَهُنَا ",
+          "text_sha256": "665b8d1e7491a61a942c8b4d6cb1dbc00de2282b167ff564378d6a377becc0b6"
+        },
+        {
+          "part_id": "p10",
+          "record_start": 1004,
+          "record_end": 1058,
+          "page_start": 1004,
+          "page_end": 1058,
+          "source_type_ar": "خبر أبي بكر: الوفاء برد الطلب",
+          "speaker_ar": "أبو بكر برواية البراء",
+          "text_ar": "وَلَا يَلْقَى أَحَدًا إِلَّا رَدَّهُ وَوَفَى لَنَا» .\n",
+          "text_sha256": "139d3e54c36dd5e48576f6472b61c2be3ff6e7931333274cb7e5fee142d35050"
+        },
+        {
+          "part_id": "p11",
+          "record_start": 1058,
+          "record_end": 1200,
+          "page_start": 1058,
+          "page_end": 1200,
+          "source_type_ar": "تخريج البيهقي",
+          "speaker_ar": "البيهقي، لا أبو بكر ولا سراقة",
+          "text_ar": "رَوَاهُ مُسْلِمٌ فِي الصَّحِيحِ عَنْ سَلَمَةَ بْنِ شَبِيبٍ، وَأَخْرَجَهُ الْبُخَارِيُّ [(٦)] مِنْ وَجْهٍ آخَرٍ عَنْ زُهَيْرِ بْنِ مُعَاوِيَةَ.",
+          "text_sha256": "35e6bd4d209d475331efb8258c8e6c817d20244c267bc1c78e0b795fb337797a"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 1200,
+      "selected_text_sha256": "d0b5d27ca4ffedd56fa263acae5a7f0295f5db146ba13f22e78f6b4523f9a7e7",
+      "source_excerpt_sha256": "d0b5d27ca4ffedd56fa263acae5a7f0295f5db146ba13f22e78f6b4523f9a7e7",
+      "book_id": 7478,
+      "page_id": 1006,
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو بكر البيهقي",
+      "edition_ar": "الكتاب: دلائل النبوة ومعرفة أحوال صاحب الشريعة\nالمؤلف: أبو بكر أحمد بن الحسين البيهقي (٣٨٤ - ٤٥٨ هـ)\nوثق أصوله وخرج حديثه وعلق عليه: د عبد المعطي قلعجي\nالناشر: دار الكتب العلمية، بيروت - لبنان\nالطبعة: الأولى، ١٤٠٥ هـ - ١٩٨٥ م\nعدد الأجزاء: ٧\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "أبو بكر برواية البراء",
+      "source_type_metadata_ar": "خبر تاريخي أو حديث مسند",
+      "source_page_sha256": "febb347302b8e286d37474532411dbb84e8514aab6723db2d92c813d89aee0a0",
+      "source_isnad_metadata_ar": "وَأَخْبَرَنَا أَبُو عَبْدِ اللَّه الْحَافِظُ، قَالَ: أَخْبَرَنِي أَبُو الْوَلِيدِ الْفَقِيهُ، قَالَ:\nحَدَّثَنَا عَبْدُ اللَّه بْنُ مُحَمَّدٍ، قَالَ: حَدَّثَنَا سَلَمَةُ بْنُ شَبِيبٍ، قَالَ: حَدَّثَنَا الْحَسَنُ ابن مُحَمَّدِ بْنِ أَعْيَنَ، قَالَ: حَدَّثَنَا زُهَيْرٌ، قَالَ: حَدَّثَنَا أَبُو إِسْحَاقَ، قَالَ:\nسَمِعْتُ الْبَرَاءَ، يَقُولُ: ",
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_suraqa_ibn_ishaq_reply",
+      "evidence_id": "H-23833-513-CONT",
+      "scope_ar": "تتمة نداء سراقة وأمر الكتابة في رواية ابن إسحاق؛ تقرأ مع أول الخبر وتتمة فعل الكتابة، لا جوابًا مجهول المتكلم.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 64,
+          "page_start": 0,
+          "page_end": 64,
+          "source_type_ar": "تتمة نداء سراقة وتمهيد الجواب",
+          "speaker_ar": "سراقة في تتمة الخبر السابق",
+          "text_ar": "تَكْرَهُونَهُ. قَالَ: فَقَالَ رَسُولُ اللَّهِ ﷺ لِأَبِي بَكْرٍ: ",
+          "text_sha256": "ffd68a613ad2c1fa2382a4c8245f770afb3a777f403a87f11d4a33b7abaa3e1b"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 64,
+          "record_end": 99,
+          "page_start": 64,
+          "page_end": 99,
+          "source_type_ar": "كلام النبي إلى أبي بكر",
+          "speaker_ar": "النبي ﷺ في خبر سراقة",
+          "text_ar": "قُلْ لَهُ: وَمَا تَبْتَغِي مِنَّا؟ ",
+          "text_sha256": "230dc8e8d007a9c91fc598afbfab379593ba420d3cc4c98e39cffd804c9af6a4"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 99,
+          "record_end": 213,
+          "page_start": 99,
+          "page_end": 213,
+          "source_type_ar": "خبر سراقة: طلب الكتاب",
+          "speaker_ar": "سراقة",
+          "text_ar": "قَالَ: فَقَالَ ذَلِكَ أَبُو بَكْرٍ، قَالَ: قُلْتُ: تَكْتُبُ لِي كِتَابًا يَكُونُ آيَةً بَيْنِي وَبَيْنَكَ. قَالَ: ",
+          "text_sha256": "6804892020eefd651bbdee7e268d8fc57050f924d7f4fc07442968c3d4b137ec"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 213,
+          "record_end": 244,
+          "page_start": 213,
+          "page_end": 244,
+          "source_type_ar": "كلام النبي في أمر الكتابة",
+          "speaker_ar": "النبي ﷺ في خبر سراقة",
+          "text_ar": "اُكْتُبْ لَهُ يَا أَبَا بَكْرٍ.",
+          "text_sha256": "d1efa3d10526443aacf5647ea12d0585563f37b0cd10fc521b95386d9ea02a93"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 244,
+      "selected_text_sha256": "20ef166e551c3e978ad81c253484de9fdd9f30fbdec17df2665f7f0c4e8d0a45",
+      "source_excerpt_sha256": "20ef166e551c3e978ad81c253484de9fdd9f30fbdec17df2665f7f0c4e8d0a45",
+      "book_id": 23833,
+      "page_id": 513,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل",
+        "المقطع متصل بسابقه؛ لا يقرأ مبتورًا عن سياقه المرتبط",
+        "تتمة النص مفصولة عند حد الصفحة أو عنوان المصدر؛ تراجع مع المقطع المرتبط"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "سراقة في الرواية السابقة",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "7a07b542f43fefdaa03609fb4b457bad5c92ef3cbac86f03feb0f156a1676de6",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-23833-512-815",
+        "H-23833-513-816"
+      ]
+    },
+    {
+      "packet_id": "sp_suraqa_ibn_ishaq_end",
+      "evidence_id": "H-23833-513-816",
+      "scope_ar": "تتمة الكتابة ثم لقاء لاحق بعد الفتح وحنين والطائف؛ فُصل الانتقال الزمني والكلام النبوي، ولا تُنقل أحداث اللقاء اللاحق إلى يوم المطاردة.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 219,
+          "page_start": 310,
+          "page_end": 529,
+          "source_type_ar": "تتمة كتابة الأمان والرجوع",
+          "speaker_ar": "سراقة",
+          "text_ar": "(قَالَ) [١]: فَكَتَبَ لِي كِتَابًا فِي عَظْمٍ، أَوْ فِي رُقْعَةٍ، أَوْ فِي خَزَفَةٍ، ثُمَّ أَلْقَاهُ إلَيَّ، فَأَخَذَتْهُ، فَجَعَلْتُهُ فِي كِنَانَتِي، ثُمَّ رَجَعْتُ [٢]، فَسَكَتُّ فَلَمْ أَذْكُرْ شَيْئًا مِمَّا كَانَ ",
+          "text_sha256": "ecd77c18420bbbd7938e2dcb551b45f5b8547065bf770683f81388d96b27cffc"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 219,
+          "record_end": 861,
+          "page_start": 529,
+          "page_end": 1171,
+          "source_type_ar": "لقاء لاحق بعد الفتح وحنين والطائف",
+          "speaker_ar": "سراقة",
+          "text_ar": "حَتَّى إذَا كَانَ فَتْحُ مَكَّةَ عَلَى رَسُولِ اللَّهِ ﷺ، وَفَرَغَ مِنْ حُنَيْنٍ وَالطَّائِفِ، خَرَجْتُ وَمَعِي الْكِتَابَ لَأَلْقَاهُ، فَلَقِيتُهُ بِالْجِعْرَانَةِ [٣] . قَالَ: فَدَخَلْتُ فِي كَتِيبَةٍ مِنْ خَيْلِ الْأَنْصَارِ. قَالَ: فَجَعَلُوا يَقْرَعُونَنِي بِالرِّمَاحِ وَيَقُولُونَ: إلَيْكَ (إلَيْكَ) [١]، مَاذَا تُرِيدُ؟ قَالَ: فَدَنَوْتُ مِنْ رَسُولِ اللَّهِ ﷺ وَهُوَ عَلَى نَاقَتِهِ، وَاَللَّهِ لَكَأَنِّي أَنْظُرُ إلَى سَاقِهِ فِي غَرْزِهِ [٤] كَأَنَّهَا جُمَّارَةٌ. قَالَ: فَرَفَعْتُ يَدِي بِالْكِتَابِ، ثُمَّ قُلْتُ: يَا رَسُولَ اللَّهِ، هَذَا كِتَابُكَ (لِي) [١]، أَنَا سُرَاقَةُ بْنُ جُعْشُمٍ، قَالَ: فَقَالَ رَسُولُ اللَّهِ ﷺ: ",
+          "text_sha256": "5a7b1cb33738d3c5f17772ff7be1e838b15088beb2d39eec08589a875a940e80"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 861,
+          "record_end": 894,
+          "page_start": 1171,
+          "page_end": 1204,
+          "source_type_ar": "كلام النبي في اللقاء اللاحق",
+          "speaker_ar": "النبي ﷺ في خبر سراقة",
+          "text_ar": "يَوْمُ وَفَاءٍ وَبِرٍّ، ادْنُهْ. ",
+          "text_sha256": "7be20a884cfe4236dead33cf999f5042a811419ce60822a3cc5c09941fa52fcd"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 894,
+          "record_end": 1178,
+          "page_start": 1204,
+          "page_end": 1488,
+          "source_type_ar": "إسلام سراقة وسؤاله في اللقاء اللاحق",
+          "speaker_ar": "سراقة",
+          "text_ar": "قَالَ:\nفَدَنَوْتُ مِنْهُ، فَأَسْلَمْتُ. ثُمَّ تَذَكَّرْتُ شَيْئًا أَسْأَلُ رَسُولَ اللَّهِ ﷺ عَنْهُ فَمَا أَذْكُرُهُ، إلَّا أَنِّي قُلْتُ: يَا رَسُولَ اللَّهِ، الضَّالَّةُ مِنْ الْإِبِلِ تَغْشَى حِيَاضِي، وَقَدْ مَلَأْتهَا لِإِبِلِي، هَلْ لِي مِنْ أَجْرٍ فِي أَنْ أَسْقِيَهَا؟ قَالَ: ",
+          "text_sha256": "fb3b35d5b50a91226c812b8d33cbcf3433da26a317df5063384d8078e5edf578"
+        },
+        {
+          "part_id": "p5",
+          "record_start": 1178,
+          "record_end": 1224,
+          "page_start": 1488,
+          "page_end": 1534,
+          "source_type_ar": "جواب النبي عن سقي الإبل",
+          "speaker_ar": "النبي ﷺ في خبر سراقة",
+          "text_ar": "نَعَمْ، فِي كُلِّ ذَاتِ كَبِدٍ حَرَّى أَجْرٌ. ",
+          "text_sha256": "6e98da3d77cd6980aec2940afc1be38081b10576e86c3ddcd7f068ef5b071676"
+        },
+        {
+          "part_id": "p6",
+          "record_start": 1224,
+          "record_end": 1302,
+          "page_start": 1534,
+          "page_end": 1612,
+          "source_type_ar": "تتمة اللقاء اللاحق",
+          "speaker_ar": "سراقة",
+          "text_ar": "قَالَ: ثُمَّ رَجَعْتُ إلَى قَوْمِي، فَسُقْتُ إلَى رَسُولِ اللَّهِ ﷺ صَدَقَتِي.",
+          "text_sha256": "d2436f54a601435aef2100a20d0e9d1fbac4d0eacfe88bbe6207cfc859bf9c2d"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 1302,
+      "selected_text_sha256": "61582fb705a4c9d3739e966647f6248bc72d481ca4a2209600161b195d887c30",
+      "source_excerpt_sha256": "61582fb705a4c9d3739e966647f6248bc72d481ca4a2209600161b195d887c30",
+      "book_id": 23833,
+      "page_id": 513,
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع متصل منتقى من صفحة مفتوحة؛ لا حذف داخلي ولا توحيد للرسم أو التشكيل",
+        "أرقام إحالات الحاشية باقية كما في الأصل؛ الحاشية ليست جزءًا من هذا المقطع",
+        "المقطع متصل بسابقه؛ لا يقرأ مبتورًا عن سياقه المرتبط"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "عبد الملك بن هشام",
+      "edition_ar": "الكتاب: السيرة النبوية لابن هشام\nالمؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)\nتحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي\nالناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر\nالطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م\nعدد الأجزاء: ٢\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "سراقة في الرواية السابقة",
+      "source_type_metadata_ar": "خبر تاريخي",
+      "source_page_sha256": "7a07b542f43fefdaa03609fb4b457bad5c92ef3cbac86f03feb0f156a1676de6",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-23833-513-CONT"
+      ]
+    },
+    {
+      "packet_id": "sp_suraqa_lexicon",
+      "evidence_id": "H-6569-33-RA-SURAQA-GLOSS",
+      "scope_ar": "شرح إسماعيل الأصبهاني لألفاظ الخبر؛ كلام شارح لا جزء من كلام أبي بكر أو سراقة. يبقى وصفه في شرحه منسوبًا إليه.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 298,
+          "page_start": 2357,
+          "page_end": 2655,
+          "source_type_ar": "شرح ألفاظ صدر الخبر",
+          "speaker_ar": "إسماعيل الأصبهاني",
+          "text_ar": "قَالَ الْإِمَامُ ﵀ الرَّحْلُ لِلنَّاقَةِ بِمَنْزِلَةِ السِرْجِ لِلْفَرَسِ أُظْهِرْنَا دَخَلْنَا فِي وَقْتِ الظُّهْرِ وَقَائِمُ الظُّهْرِ وَقْتُ الزَّوَالِ أَنْفُضُ مَا حَوْلِي أَيْ أَنْظُرُ هَل أرى أحد اعْتَقِلُ شَاةً أَيْ أَمْسِكُ رِجْلَهَا وَكَثْبَةٌ مِنْ لَبَنٍ أَيْ كَثْرَةٌ رَوَّيْتُ مَلَأْتُ ",
+          "text_sha256": "e3981048f5d1f1142289bc46b7aa0a4053849ac4474356183adea6fb19a5bc3c"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 298,
+          "record_end": 461,
+          "page_start": 2655,
+          "page_end": 2818,
+          "source_type_ar": "شرح الطلب والسوخ والتعمية",
+          "speaker_ar": "إسماعيل الأصبهاني",
+          "text_ar": "هَذَا الطُّلَّبُ أَيِ الطَّالِبُ يَقَعُ عَلَى الْوَاحِدِ وَالْجَمْعِ فَسَاخَتْ فَرَسُهُ أَيْ دَخَلَ يَدَاهَا وَرِجْلَاهَا فِي الْأَرْضِ لَأُعَمِيَنَّ لَأُخْفِيَنَّ",
+          "text_sha256": "aa9a17e136d77821e2c96d4b52b7e48a28da5372e912784c30192b1e35bca25b"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 461,
+      "selected_text_sha256": "afb30b4260d8b5b467f5f426baa842155326304e19269c406346a61fc7aa90c7",
+      "source_excerpt_sha256": "afb30b4260d8b5b467f5f426baa842155326304e19269c406346a61fc7aa90c7",
+      "book_id": 6569,
+      "page_id": 33,
+      "book_ar": "دلائل النبوة - إسماعيل الأصبهاني",
+      "citation_ar": "[دلائل النبوة - إسماعيل الأصبهاني، 1/62](https://app.turath.io/book/6569?page=33)",
+      "source_url": "https://app.turath.io/book/6569?page=33",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "إسماعيل التيمي الأصبهاني",
+      "edition_ar": "الكتاب: كتاب دلائل النبوة\nالمؤلف: قوام السنة إسماعيل بن محمد بن الفضل التيمي الأصبهاني (٤٥٧ - ٥٣٥ هـ)\nالمحقق: أبو عبد الله محمد بن محمد الحداد\nالناشر: دار طيبة، الرياض - السعودية\nالطبعة: الأولى، ١٤٠٩ هـ - ١٩٨٨ م\nعدد الصفحات: ٢٣٦\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "إسماعيل الأصبهاني في كلام الإمام",
+      "source_type_metadata_ar": "شرح المؤلف",
+      "source_page_sha256": "495ee0651d5bc4b81700c3ea9e7dc9d52dce25f2c96a4a3087a2d90178b00a9d",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": []
+    }
+  ],
+  "packet_id": "hch_suraqa:ar:r1",
+  "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
+  "source_document_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
+  "question_type": "single_choice",
+  "review": {
+    "arabic_compared": true,
+    "summary_ar": "قورنت القصة والأقسام المساندة والأسئلة العشرة بإضافات Core ومقتطفاتها العربية في نطاق واحد. الجائزة ورجاء سراقة من خبر ابن إسحاق، وتسلسل المطاردة والكاتب من البخاري، ورد الطلب من خبر أبي بكر عند البيهقي. بقيت فروق الألفاظ والكاتب واللقاء اللاحق منسوبة ومفصولة، وحُفظت الاقتباسات والأصول حرفيًا. راجع نموذج آخر الصياغة، وعولج ملاحظته عن الجائزة، ثم لم يجد إشكالًا ملموسًا باقيًا. هذه مقارنة داخلية لا اعتماد لغوي أو تاريخي مستقل ولا إذن نشر.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  },
+  "last_accepted": {
+    "revision": 1,
+    "source_document_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b"
+  },
+  "source_units": [
+    {
+      "unit_id": "sp_suraqa_bukhari:p1",
+      "packet_id": "sp_suraqa_bukhari",
+      "part_id": "p1",
+      "evidence_id": "H-1681-5900-SURAQA",
+      "text_ar": "«جَاءَنَا رُسُلُ كُفَّارِ قُرَيْشٍ، يَجْعَلُونَ فِي رَسُولِ اللهِ ﷺ وَأَبِي بَكْرٍ، دِيَةَ كُلِّ وَاحِدٍ مِنْهُمَا، مَنْ قَتَلَهُ أَوْ أَسَرَهُ، فَبَيْنَمَا أَنَا جَالِسٌ فِي مَجْلِسٍ مِنْ مَجَالِسِ قَوْمِي بَنِي مُدْلِجٍ، أَقْبَلَ رَجُلٌ مِنْهُمْ، حَتَّى قَامَ عَلَيْنَا وَنَحْنُ جُلُوسٌ، فَقَالَ يَا سُرَاقَةُ: إِنِّي قَدْ رَأَيْتُ آنِفًا أَسْوِدَةً بِالسَّاحِلِ، أُرَاهَا مُحَمَّدًا وَأَصْحَابَهُ، قَالَ سُرَاقَةُ: فَعَرَفْتُ أَنَّهُمْ هُمْ، فَقُلْتُ لَهُ: إِنَّهُمْ لَيْسُوا بِهِمْ، وَلَكِنَّكَ رَأَيْتَ فُلَانًا وَفُلَانًا، انْطَلَقُوا بِأَعْيُنِنَا، ثُمَّ لَبِثْتُ فِي الْمَجْلِسِ سَاعَةً، ثُمَّ قُمْتُ فَدَخَلْتُ، فَأَمَرْتُ جَارِيَتِي أَنْ تَخْرُجَ بِفَرَسِي وَهْيَ مِنْ وَرَاءِ أَكَمَةٍ، فَتَحْبِسَهَا عَلَيَّ، وَأَخَذْتُ رُمْحِي، فَخَرَجْتُ بِهِ مِنْ ظَهْرِ الْبَيْتِ، فَحَطَطْتُ بِزُجِّهِ الْأَرْضَ، وَخَفَضْتُ عَالِيَهُ، حَتَّى أَتَيْتُ فَرَسِي فَرَكِبْتُهَا، فَرَفَعْتُهَا تُقَرِّبُ بِي، حَتَّى دَنَوْتُ مِنْهُمْ، ",
+      "source_start": 0,
+      "source_end": 927,
+      "source_text_sha256": "cb41e54515f652a540ac1504361a520cc4e54c3dfdcd07603c0c2a1544ba23ba",
+      "kind_ar": "حديث سراقة: الجعل والخروج",
+      "speaker_ar": "سراقة؛ ويتضمن خبر الرجل وجواب سراقة له",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص."
+    },
+    {
+      "unit_id": "sp_suraqa_bukhari:p2",
+      "packet_id": "sp_suraqa_bukhari",
+      "part_id": "p2",
+      "evidence_id": "H-1681-5900-SURAQA",
+      "text_ar": "فَعَثَرَتْ بِي فَرَسِي، فَخَرَرْتُ عَنْهَا، فَقُمْتُ فَأَهْوَيْتُ يَدِي إِلَى كِنَانَتِي، فَاسْتَخْرَجْتُ مِنْهَا الْأَزْلَامَ فَاسْتَقْسَمْتُ بِهَا: أَضُرُّهُمْ أَمْ لَا، فَخَرَجَ الَّذِي أَكْرَهُ، فَرَكِبْتُ فَرَسِي، وَعَصَيْتُ الْأَزْلَامَ، تُقَرَِّبُ بِي حَتَّى إِذَا سَمِعْتُ قِرَاءَةَ رَسُولِ اللهِ ﷺ وَهْوَ لَا يَلْتَفِتُ، وَأَبُو بَكْرٍ يُكْثِرُ الِالْتِفَاتَ، ",
+      "source_start": 927,
+      "source_end": 1296,
+      "source_text_sha256": "54fdd229c469b28390aef11cd82c62ed5d3da2ae98b5e79dad27ad729999422a",
+      "kind_ar": "حديث سراقة: التعثر والاستقسام والدنو",
+      "speaker_ar": "سراقة",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص."
+    },
+    {
+      "unit_id": "sp_suraqa_bukhari:p3",
+      "packet_id": "sp_suraqa_bukhari",
+      "part_id": "p3",
+      "evidence_id": "H-1681-5900-SURAQA",
+      "text_ar": "سَاخَتْ يَدَا فَرَسِي فِي الْأَرْضِ، حَتَّى بَلَغَتَا الرُّكْبَتَيْنِ، فَخَرَرْتُ عَنْهَا، ثُمَّ زَجَرْتُهَا فَنَهَضَتْ، فَلَمْ تَكَدْ تُخْرِجُ يَدَيْهَا، فَلَمَّا اسْتَوَتْ قَائِمَةً، إِذَا لِأَثَرِ يَدَيْهَا عُثَانٌ سَاطِعٌ فِي السَّمَاءِ مِثْلُ الدُّخَانِ، فَاسْتَقْسَمْتُ بِالْأَزْلَامِ، فَخَرَجَ الَّذِي أَكْرَهُ، فَنَادَيْتُهُمْ بِالْأَمَانِ فَوَقَفُوا، فَرَكِبْتُ فَرَسِي حَتَّى جِئْتُهُمْ، وَوَقَعَ فِي نَفْسِي حِينَ لَقِيتُ مَا لَقِيتُ مِنَ الْحَبْسِ عَنْهُمْ، أَنْ سَيَظْهَرُ أَمْرُ رَسُولِ اللهِ ﷺ. فَقُلْتُ لَهُ: إِنَّ قَوْمَكَ قَدْ جَعَلُوا فِيكَ الدِّيَةَ، وَأَخْبَرْتُهُمْ أَخْبَارَ مَا يُرِيدُ النَّاسُ بِهِمْ، وَعَرَضْتُ عَلَيْهِمِ الزَّادَ وَالْمَتَاعَ، فَلَمْ يَرْزَآنِي وَلَمْ يَسْأَلَانِي، إِلَّا أَنْ قَالَ: ",
+      "source_start": 1296,
+      "source_end": 2026,
+      "source_text_sha256": "6c8e208098b0d44b97b77f796c6d1ac6f6f7e4964d28e985f1b98f2a131479ee",
+      "kind_ar": "حديث سراقة: السوخ ولقاء الركب",
+      "speaker_ar": "سراقة",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص."
+    },
+    {
+      "unit_id": "sp_suraqa_bukhari:p4",
+      "packet_id": "sp_suraqa_bukhari",
+      "part_id": "p4",
+      "evidence_id": "H-1681-5900-SURAQA",
+      "text_ar": "أَخْفِ عَنَّا ",
+      "source_start": 2026,
+      "source_end": 2040,
+      "source_text_sha256": "37942c40170e20b2f30923de2c85d9c759fa0f6fd9722a613fd44c142a1036b5",
+      "kind_ar": "كلام النبي في حديث سراقة",
+      "speaker_ar": "النبي ﷺ كما يرويه سراقة",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص."
+    },
+    {
+      "unit_id": "sp_suraqa_bukhari:p5",
+      "packet_id": "sp_suraqa_bukhari",
+      "part_id": "p5",
+      "evidence_id": "H-1681-5900-SURAQA",
+      "text_ar": "فَسَأَلْتُهُ أَنْ يَكْتُبَ لِي كِتَابَ أَمْنٍ، فَأَمَرَ عَامِرَ بْنَ فُهَيْرَةَ فَكَتَبَ فِي رُقْعَةٍ مِنْ أَدِيمٍ، ثُمَّ مَضَى رَسُولُ اللهِ ﷺ.",
+      "source_start": 2040,
+      "source_end": 2184,
+      "source_text_sha256": "717a924f01ff5150ba6008817b2faf7263f96e2050231ae118a82b2608d8144d",
+      "kind_ar": "حديث سراقة: كتاب الأمان",
+      "speaker_ar": "سراقة",
+      "book_ar": "صحيح البخاري - ط السلطانية",
+      "citation_ar": "[صحيح البخاري - ط السلطانية، 5/60](https://app.turath.io/book/1681?page=5900)",
+      "source_url": "https://app.turath.io/book/1681?page=5900",
+      "context_note_ar": "حديث سراقة في صحيح البخاري؛ المتن منتقى متصل، وإسناده محفوظ في بيانات المصدر خارج هذا الانتقاء. فصل كلام النبي عن حكاية سراقة دون تغيير النص."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_start:p1",
+      "packet_id": "sp_suraqa_ibn_ishaq_start",
+      "part_id": "p1",
+      "evidence_id": "H-23833-512-815",
+      "text_ar": "قَالَ ابْنُ إسْحَاقَ: وَحَدَّثَنِي الزُّهْرِيُّ أَنَّ عَبْدَ الرَّحْمَنِ بْنَ مَالِكِ بْنِ جُعْشُمٍ حَدَّثَهُ.\nعَنْ أَبِيهِ، عَنْ عَمِّهِ سُرَاقَةَ بْنِ مَالِكِ بْنِ جُعْشُمٍ [١]، قَالَ: ",
+      "source_start": 0,
+      "source_end": 187,
+      "source_text_sha256": "e96c20448010917cdc46886e2c14d52f50b0b732f5d50b204d1e2a08fc5fa1c2",
+      "kind_ar": "إسناد ابن إسحاق إلى سراقة",
+      "speaker_ar": "ابن إسحاق عن الزهري عن عبد الرحمن عن أبيه عن سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/489](https://app.turath.io/book/23833?page=512)",
+      "source_url": "https://app.turath.io/book/23833?page=512",
+      "context_note_ar": "بداية خبر سراقة عند ابن إسحاق كما في سيرة ابن هشام؛ يستمر نداؤه في القطعة التالية، وتبقى الرواية متميزة عن لفظ البخاري."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_start:p2",
+      "packet_id": "sp_suraqa_ibn_ishaq_start",
+      "part_id": "p2",
+      "evidence_id": "H-23833-512-815",
+      "text_ar": "لَمَّا خَرَجَ رَسُولُ اللَّهِ ﷺ مِنْ مَكَّةَ مُهَاجِرًا إلَى الْمَدِينَةِ، جَعَلَتْ قُرَيْش فِيهِ مائَة نَاقَةٍ لِمَنْ رَدَّهُ عَلَيْهِمْ. قَالَ: فَبَيْنَا أَنَا جَالِسٌ فِي نَادِي قَوْمِي إذْ أَقْبَلَ رَجُلٌ مِنَّا، حَتَّى وَقَفَ عَلَيْنَا، فَقَالَ: وَاَللَّهِ لَقَدْ رَأَيْتُ رَكْبَهُ ثَلَاثَةً مَرُّوا عَلَيَّ آنِفًا، إنِّي لَأَرَاهُمْ مُحَمَّدًا وَأَصْحَابَهُ، قَالَ: فَأَوْمَأْتُ إلَيْهِ بِعَيْنِي: أَنْ اُسْكُتْ، ثُمَّ قُلْتُ: إنَّمَا هُمْ بَنُو فُلَانٍ، يَبْتَغُونَ ضَالَّةً لَهُمْ، قَالَ: لَعَلَّهُ، ثُمَّ سَكَتَ. قَالَ: ثُمَّ مَكَثْتُ قَلِيلًا، ثُمَّ قُمْتُ فَدَخَلْتُ بَيْتِي، ثُمَّ أَمَرْتُ بِفَرَسِي، فَقُيِّدَ لِي إلَى بَطْنِ الْوَادِي، وَأَمَرْتُ بِسِلَاحِي، فَأُخْرِجَ لِي مِنْ دُبُرِ حُجْرَتِي، ثُمَّ أَخَذْتُ قِدَاحِي الَّتِي أَسَتَقْسِمُ بِهَا، ثُمَّ انْطَلَقْتُ، فَلَبِسْتُ لَأْمَتِي [٢]، ثُمَّ أَخَرَجْتُ قِدَاحِي، فَاسْتَقْسَمْتُ بِهَا، فَخَرَجَ السَّهْمُ الَّذِي أَكْرَهُ «لَا يَضُرُّهُ» [٣] .\nقَالَ: وَكُنْتُ أَرْجُو أَنْ أَرُدَّهُ عَلَى قُرَيْش، فآخذ الْمِائَة النَّاقَةِ. قَالَ: فَرَكِبْتُ عَلَى أَثَرِهِ، فَبَيْنَمَا فَرَسِي يَشْتَدُّ بِي عَثَرَ بِي، فَسَقَطْتُ عَنْهُ. قَالَ: فَقُلْتُ: مَا هَذَا؟ قَالَ:\nثُمَّ أَخَرَجْتُ قِدَاحِي فَاسْتَقْسَمْتُ بِهَا، فَخَرَجَ السَّهْمُ الَّذِي أَكْرَهُ «لَا يَضُرُّهُ» . قَالَ:\nفَأَبَيْتُ إلَّا أَنْ أَتَّبِعَهُ. قَالَ: فَرَكِبْتُ فِي أَثَرِهِ، فَبَيْنَا فَرَسِي يَشْتَدُّ بِي، عَثَرَ بِي، فَسَقَطْتُ عَنْهُ. قَالَ: فَقُلْتُ: مَا هَذَا؟، قَالَ: ثُمَّ أَخَرَجْتُ قِدَاحِي فَاسْتَقْسَمْتُ بِهَا فَخَرَجَ السَّهْمُ الَّذِي أَكْرَهُ «لَا يَضُرُّهُ»، قَالَ: فَأَبَيْتُ إلَّا أَنْ أَتَّبِعَهُ، فَرَكِبْتُ فِي أَثَرِهِ.\nفَلَمَّا بَدَا لِي الْقَوْمُ وَرَأَيْتهمْ، عَثَرَ بِي فَرَسِي، فَذَهَبَتْ يَدَاهُ فِي الْأَرْضِ، وَسَقَطْتُ عَنْهُ، ثُمَّ انْتَزَعَ يَدَيْهِ مِنْ الْأَرْضِ، وَتَبِعَهُمَا دُخَانٌ كَالْإِعْصَارِ [٤] . قَالَ: فَعَرَفْتُ حَيْنَ رَأَيْتُ ذَلِكَ أَنَّهُ قَدْ مُنِعَ مِنِّي، وَأَنَّهُ ظَاهِرٌ. قَالَ: فَنَادَيْتُ الْقَوْمَ: فَقُلْتُ: أَنَا سُرَاقَةُ بْنُ جُعْشُمٍ: انظرونى أكلمكم، فو الله لَا أَرَيْبُكُمْ، وَلَا يَأْتِيكُمْ مِنِّي شَيْءٌ",
+      "source_start": 187,
+      "source_end": 2195,
+      "source_text_sha256": "5cf39fc67596dd7233a6a39d29244f61683604d300456ce430a72a123643b99c",
+      "kind_ar": "خبر سراقة عند ابن إسحاق",
+      "speaker_ar": "سراقة؛ ويتضمن كلام الرجل وجوابه",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/489](https://app.turath.io/book/23833?page=512)",
+      "source_url": "https://app.turath.io/book/23833?page=512",
+      "context_note_ar": "بداية خبر سراقة عند ابن إسحاق كما في سيرة ابن هشام؛ يستمر نداؤه في القطعة التالية، وتبقى الرواية متميزة عن لفظ البخاري."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_reply:p1",
+      "packet_id": "sp_suraqa_ibn_ishaq_reply",
+      "part_id": "p1",
+      "evidence_id": "H-23833-513-CONT",
+      "text_ar": "تَكْرَهُونَهُ. قَالَ: فَقَالَ رَسُولُ اللَّهِ ﷺ لِأَبِي بَكْرٍ: ",
+      "source_start": 0,
+      "source_end": 64,
+      "source_text_sha256": "ffd68a613ad2c1fa2382a4c8245f770afb3a777f403a87f11d4a33b7abaa3e1b",
+      "kind_ar": "تتمة نداء سراقة وتمهيد الجواب",
+      "speaker_ar": "سراقة في تتمة الخبر السابق",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة نداء سراقة وأمر الكتابة في رواية ابن إسحاق؛ تقرأ مع أول الخبر وتتمة فعل الكتابة، لا جوابًا مجهول المتكلم."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_reply:p2",
+      "packet_id": "sp_suraqa_ibn_ishaq_reply",
+      "part_id": "p2",
+      "evidence_id": "H-23833-513-CONT",
+      "text_ar": "قُلْ لَهُ: وَمَا تَبْتَغِي مِنَّا؟ ",
+      "source_start": 64,
+      "source_end": 99,
+      "source_text_sha256": "230dc8e8d007a9c91fc598afbfab379593ba420d3cc4c98e39cffd804c9af6a4",
+      "kind_ar": "كلام النبي إلى أبي بكر",
+      "speaker_ar": "النبي ﷺ في خبر سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة نداء سراقة وأمر الكتابة في رواية ابن إسحاق؛ تقرأ مع أول الخبر وتتمة فعل الكتابة، لا جوابًا مجهول المتكلم."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_reply:p3",
+      "packet_id": "sp_suraqa_ibn_ishaq_reply",
+      "part_id": "p3",
+      "evidence_id": "H-23833-513-CONT",
+      "text_ar": "قَالَ: فَقَالَ ذَلِكَ أَبُو بَكْرٍ، قَالَ: قُلْتُ: تَكْتُبُ لِي كِتَابًا يَكُونُ آيَةً بَيْنِي وَبَيْنَكَ. قَالَ: ",
+      "source_start": 99,
+      "source_end": 213,
+      "source_text_sha256": "6804892020eefd651bbdee7e268d8fc57050f924d7f4fc07442968c3d4b137ec",
+      "kind_ar": "خبر سراقة: طلب الكتاب",
+      "speaker_ar": "سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة نداء سراقة وأمر الكتابة في رواية ابن إسحاق؛ تقرأ مع أول الخبر وتتمة فعل الكتابة، لا جوابًا مجهول المتكلم."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_reply:p4",
+      "packet_id": "sp_suraqa_ibn_ishaq_reply",
+      "part_id": "p4",
+      "evidence_id": "H-23833-513-CONT",
+      "text_ar": "اُكْتُبْ لَهُ يَا أَبَا بَكْرٍ.",
+      "source_start": 213,
+      "source_end": 244,
+      "source_text_sha256": "d1efa3d10526443aacf5647ea12d0585563f37b0cd10fc521b95386d9ea02a93",
+      "kind_ar": "كلام النبي في أمر الكتابة",
+      "speaker_ar": "النبي ﷺ في خبر سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة نداء سراقة وأمر الكتابة في رواية ابن إسحاق؛ تقرأ مع أول الخبر وتتمة فعل الكتابة، لا جوابًا مجهول المتكلم."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_end:p1",
+      "packet_id": "sp_suraqa_ibn_ishaq_end",
+      "part_id": "p1",
+      "evidence_id": "H-23833-513-816",
+      "text_ar": "(قَالَ) [١]: فَكَتَبَ لِي كِتَابًا فِي عَظْمٍ، أَوْ فِي رُقْعَةٍ، أَوْ فِي خَزَفَةٍ، ثُمَّ أَلْقَاهُ إلَيَّ، فَأَخَذَتْهُ، فَجَعَلْتُهُ فِي كِنَانَتِي، ثُمَّ رَجَعْتُ [٢]، فَسَكَتُّ فَلَمْ أَذْكُرْ شَيْئًا مِمَّا كَانَ ",
+      "source_start": 0,
+      "source_end": 219,
+      "source_text_sha256": "ecd77c18420bbbd7938e2dcb551b45f5b8547065bf770683f81388d96b27cffc",
+      "kind_ar": "تتمة كتابة الأمان والرجوع",
+      "speaker_ar": "سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة الكتابة ثم لقاء لاحق بعد الفتح وحنين والطائف؛ فُصل الانتقال الزمني والكلام النبوي، ولا تُنقل أحداث اللقاء اللاحق إلى يوم المطاردة."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p1",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p1",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "وَأَخْبَرَنَا أَبُو عَبْدِ اللَّه الْحَافِظُ، قَالَ: أَخْبَرَنِي أَبُو الْوَلِيدِ الْفَقِيهُ، قَالَ:\nحَدَّثَنَا عَبْدُ اللَّه بْنُ مُحَمَّدٍ، قَالَ: حَدَّثَنَا سَلَمَةُ بْنُ شَبِيبٍ، قَالَ: حَدَّثَنَا الْحَسَنُ ابن مُحَمَّدِ بْنِ أَعْيَنَ، قَالَ: حَدَّثَنَا زُهَيْرٌ، قَالَ: حَدَّثَنَا أَبُو إِسْحَاقَ، قَالَ:\nسَمِعْتُ الْبَرَاءَ، يَقُولُ: ",
+      "source_start": 0,
+      "source_end": 340,
+      "source_text_sha256": "0e5f433bd3d6fa6d00687660c13f826764daf8efc0a161acbf8b3c2c4c9dca60",
+      "kind_ar": "إسناد خبر البراء عن أبي بكر",
+      "speaker_ar": "البيهقي بإسناده إلى زهير ثم أبي إسحاق عن البراء",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p2",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p2",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "«جَاءَ أَبُو بَكْرٍ إِلَى أَبِي فِي مَنْزِلِهِ فَاشْتَرَى مِنْهُ- رَحْلًا- ",
+      "source_start": 340,
+      "source_end": 415,
+      "source_text_sha256": "ae745fc41c0130c30243ae292071b03e71b0acca1200c513dfdd86c1cfdf55bd",
+      "kind_ar": "تمهيد البراء للخبر",
+      "speaker_ar": "البراء",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p3",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p3",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "وَذَكَرَ الْحَدِيثَ بِمَعْنَى حَدِيثِ إِسْرَائِيلَ إِلَى أَنْ قَالَ: ",
+      "source_start": 415,
+      "source_end": 484,
+      "source_text_sha256": "c3c6fefc036fa904be5dafc671aabbf30929ed1db8a8988b3fd6550d111ce6bb",
+      "kind_ar": "تعليق واختصار للخبر",
+      "speaker_ar": "صوت النقل والاختصار في عرض البيهقي، لا لفظ أبي بكر",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p4",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p4",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "فَارْتَحَلْنَا بَعْدَ مَا زَالَتِ الشَّمْسُ، وَاتَّبَعَنَا سُرَاقَةُ بْنُ مَالِكِ، قَالَ: وَنَحْنُ فِي جَلَدٍ [(٤)] مِنَ الْأَرْضِ، فَقُلْتُ: يَا رَسُولَ اللَّه أُتِينَا، فَقَالَ ",
+      "source_start": 484,
+      "source_end": 663,
+      "source_text_sha256": "43efee462f3f7ed7dcf6af4c5c59b212752db9fe72bb81b5c2f173c61df9a481",
+      "kind_ar": "خبر أبي بكر عن المطاردة",
+      "speaker_ar": "أبو بكر برواية البراء",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p5",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p5",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "لَا تَحْزَنْ إِنَّ اللَّه مَعَنَا»، ",
+      "source_start": 663,
+      "source_end": 699,
+      "source_text_sha256": "024400ec2e76fa9bd2e9c549f8c384d93a62f44061fc26447b13aa120ecb1fb1",
+      "kind_ar": "كلام النبي في خبر أبي بكر",
+      "speaker_ar": "النبي ﷺ في خبر أبي بكر",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p6",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p6",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "فَدَعَا عَلَيْهِ رَسُولُ اللَّه ﵌ فَارْتَطَمَتْ فَرَسُهُ إِلَى بَطْنِهَا [(٥)]\nفَقَالَ: ",
+      "source_start": 699,
+      "source_end": 787,
+      "source_text_sha256": "8d1b14966d4b5c9955c59dc073d4038206c65d7bfe68d0ee446506e0aab5d75a",
+      "kind_ar": "خبر أبي بكر: الدعاء وسوخ الفرس",
+      "speaker_ar": "أبو بكر برواية البراء",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p7",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p7",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "إِنِّي قَدْ عَلِمْتُ أَنَّكُمَا قَدْ دَعَوْتُمَا عَلَيَّ فَادْعُوَا لِي، فَاللهُ لَكُمَا أَنْ أَرُدَّ عَنْكُمَا الطَّلَبَ، ",
+      "source_start": 787,
+      "source_end": 910,
+      "source_text_sha256": "021e3700ed055c6531249ea3f8c7956756bebf078a47d3b127cca55c0cde4e23",
+      "kind_ar": "قول سراقة ووعده برد الطلب",
+      "speaker_ar": "سراقة في خبر أبي بكر",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p8",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p8",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "فَدَعَا اللَّه فَنَجَا، فَرَجَعَ لَا يَلْقَى أَحَدًا إِلَّا قَالَ: ",
+      "source_start": 910,
+      "source_end": 977,
+      "source_text_sha256": "eeedfc440829c5dfa6e1d490b0fa4bca5f7931525be55823418dcb732d62ad79",
+      "kind_ar": "خبر أبي بكر: نجاة سراقة ورجوعه",
+      "speaker_ar": "أبو بكر برواية البراء",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p9",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p9",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "قَدْ كُفِيتُمْ مَا هَهُنَا ",
+      "source_start": 977,
+      "source_end": 1004,
+      "source_text_sha256": "665b8d1e7491a61a942c8b4d6cb1dbc00de2282b167ff564378d6a377becc0b6",
+      "kind_ar": "قول سراقة لمن لقيه",
+      "speaker_ar": "سراقة في خبر أبي بكر",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p10",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p10",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "وَلَا يَلْقَى أَحَدًا إِلَّا رَدَّهُ وَوَفَى لَنَا» .\n",
+      "source_start": 1004,
+      "source_end": 1058,
+      "source_text_sha256": "139d3e54c36dd5e48576f6472b61c2be3ff6e7931333274cb7e5fee142d35050",
+      "kind_ar": "خبر أبي بكر: الوفاء برد الطلب",
+      "speaker_ar": "أبو بكر برواية البراء",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_abu_bakr:p11",
+      "packet_id": "sp_suraqa_abu_bakr",
+      "part_id": "p11",
+      "evidence_id": "H-7478-1006-RA-ZUHAYR-SURAQA",
+      "text_ar": "رَوَاهُ مُسْلِمٌ فِي الصَّحِيحِ عَنْ سَلَمَةَ بْنِ شَبِيبٍ، وَأَخْرَجَهُ الْبُخَارِيُّ [(٦)] مِنْ وَجْهٍ آخَرٍ عَنْ زُهَيْرِ بْنِ مُعَاوِيَةَ.",
+      "source_start": 1058,
+      "source_end": 1200,
+      "source_text_sha256": "35e6bd4d209d475331efb8258c8e6c817d20244c267bc1c78e0b795fb337797a",
+      "kind_ar": "تخريج البيهقي",
+      "speaker_ar": "البيهقي، لا أبو بكر ولا سراقة",
+      "book_ar": "دلائل النبوة - البيهقي",
+      "citation_ar": "[دلائل النبوة - البيهقي، 2/485](https://app.turath.io/book/7478?page=1006)",
+      "source_url": "https://app.turath.io/book/7478?page=1006",
+      "context_note_ar": "خبر أبي بكر برواية البراء في نقل البيهقي من طريق زهير؛ فصل الإسناد والاختصار والكلام النبوي وقول سراقة وتخريج المصنف. عزو البيهقي إلى الصحيحين ليس ادعاء فتح أصليهما هنا."
+    },
+    {
+      "unit_id": "sp_suraqa_lexicon:p2",
+      "packet_id": "sp_suraqa_lexicon",
+      "part_id": "p2",
+      "evidence_id": "H-6569-33-RA-SURAQA-GLOSS",
+      "text_ar": "هَذَا الطُّلَّبُ أَيِ الطَّالِبُ يَقَعُ عَلَى الْوَاحِدِ وَالْجَمْعِ فَسَاخَتْ فَرَسُهُ أَيْ دَخَلَ يَدَاهَا وَرِجْلَاهَا فِي الْأَرْضِ لَأُعَمِيَنَّ لَأُخْفِيَنَّ",
+      "source_start": 298,
+      "source_end": 461,
+      "source_text_sha256": "aa9a17e136d77821e2c96d4b52b7e48a28da5372e912784c30192b1e35bca25b",
+      "kind_ar": "شرح الطلب والسوخ والتعمية",
+      "speaker_ar": "إسماعيل الأصبهاني",
+      "book_ar": "دلائل النبوة - إسماعيل الأصبهاني",
+      "citation_ar": "[دلائل النبوة - إسماعيل الأصبهاني، 1/62](https://app.turath.io/book/6569?page=33)",
+      "source_url": "https://app.turath.io/book/6569?page=33",
+      "context_note_ar": "شرح إسماعيل الأصبهاني لألفاظ الخبر؛ كلام شارح لا جزء من كلام أبي بكر أو سراقة. يبقى وصفه في شرحه منسوبًا إليه."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_end:p2",
+      "packet_id": "sp_suraqa_ibn_ishaq_end",
+      "part_id": "p2",
+      "evidence_id": "H-23833-513-816",
+      "text_ar": "حَتَّى إذَا كَانَ فَتْحُ مَكَّةَ عَلَى رَسُولِ اللَّهِ ﷺ، وَفَرَغَ مِنْ حُنَيْنٍ وَالطَّائِفِ، خَرَجْتُ وَمَعِي الْكِتَابَ لَأَلْقَاهُ، فَلَقِيتُهُ بِالْجِعْرَانَةِ [٣] . قَالَ: فَدَخَلْتُ فِي كَتِيبَةٍ مِنْ خَيْلِ الْأَنْصَارِ. قَالَ: فَجَعَلُوا يَقْرَعُونَنِي بِالرِّمَاحِ وَيَقُولُونَ: إلَيْكَ (إلَيْكَ) [١]، مَاذَا تُرِيدُ؟ قَالَ: فَدَنَوْتُ مِنْ رَسُولِ اللَّهِ ﷺ وَهُوَ عَلَى نَاقَتِهِ، وَاَللَّهِ لَكَأَنِّي أَنْظُرُ إلَى سَاقِهِ فِي غَرْزِهِ [٤] كَأَنَّهَا جُمَّارَةٌ. قَالَ: فَرَفَعْتُ يَدِي بِالْكِتَابِ، ثُمَّ قُلْتُ: يَا رَسُولَ اللَّهِ، هَذَا كِتَابُكَ (لِي) [١]، أَنَا سُرَاقَةُ بْنُ جُعْشُمٍ، قَالَ: فَقَالَ رَسُولُ اللَّهِ ﷺ: ",
+      "source_start": 219,
+      "source_end": 861,
+      "source_text_sha256": "5a7b1cb33738d3c5f17772ff7be1e838b15088beb2d39eec08589a875a940e80",
+      "kind_ar": "لقاء لاحق بعد الفتح وحنين والطائف",
+      "speaker_ar": "سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة الكتابة ثم لقاء لاحق بعد الفتح وحنين والطائف؛ فُصل الانتقال الزمني والكلام النبوي، ولا تُنقل أحداث اللقاء اللاحق إلى يوم المطاردة."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_end:p3",
+      "packet_id": "sp_suraqa_ibn_ishaq_end",
+      "part_id": "p3",
+      "evidence_id": "H-23833-513-816",
+      "text_ar": "يَوْمُ وَفَاءٍ وَبِرٍّ، ادْنُهْ. ",
+      "source_start": 861,
+      "source_end": 894,
+      "source_text_sha256": "7be20a884cfe4236dead33cf999f5042a811419ce60822a3cc5c09941fa52fcd",
+      "kind_ar": "كلام النبي في اللقاء اللاحق",
+      "speaker_ar": "النبي ﷺ في خبر سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة الكتابة ثم لقاء لاحق بعد الفتح وحنين والطائف؛ فُصل الانتقال الزمني والكلام النبوي، ولا تُنقل أحداث اللقاء اللاحق إلى يوم المطاردة."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_end:p4",
+      "packet_id": "sp_suraqa_ibn_ishaq_end",
+      "part_id": "p4",
+      "evidence_id": "H-23833-513-816",
+      "text_ar": "قَالَ:\nفَدَنَوْتُ مِنْهُ، فَأَسْلَمْتُ. ثُمَّ تَذَكَّرْتُ شَيْئًا أَسْأَلُ رَسُولَ اللَّهِ ﷺ عَنْهُ فَمَا أَذْكُرُهُ، إلَّا أَنِّي قُلْتُ: يَا رَسُولَ اللَّهِ، الضَّالَّةُ مِنْ الْإِبِلِ تَغْشَى حِيَاضِي، وَقَدْ مَلَأْتهَا لِإِبِلِي، هَلْ لِي مِنْ أَجْرٍ فِي أَنْ أَسْقِيَهَا؟ قَالَ: ",
+      "source_start": 894,
+      "source_end": 1178,
+      "source_text_sha256": "fb3b35d5b50a91226c812b8d33cbcf3433da26a317df5063384d8078e5edf578",
+      "kind_ar": "إسلام سراقة وسؤاله في اللقاء اللاحق",
+      "speaker_ar": "سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة الكتابة ثم لقاء لاحق بعد الفتح وحنين والطائف؛ فُصل الانتقال الزمني والكلام النبوي، ولا تُنقل أحداث اللقاء اللاحق إلى يوم المطاردة."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_end:p5",
+      "packet_id": "sp_suraqa_ibn_ishaq_end",
+      "part_id": "p5",
+      "evidence_id": "H-23833-513-816",
+      "text_ar": "نَعَمْ، فِي كُلِّ ذَاتِ كَبِدٍ حَرَّى أَجْرٌ. ",
+      "source_start": 1178,
+      "source_end": 1224,
+      "source_text_sha256": "6e98da3d77cd6980aec2940afc1be38081b10576e86c3ddcd7f068ef5b071676",
+      "kind_ar": "جواب النبي عن سقي الإبل",
+      "speaker_ar": "النبي ﷺ في خبر سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة الكتابة ثم لقاء لاحق بعد الفتح وحنين والطائف؛ فُصل الانتقال الزمني والكلام النبوي، ولا تُنقل أحداث اللقاء اللاحق إلى يوم المطاردة."
+    },
+    {
+      "unit_id": "sp_suraqa_ibn_ishaq_end:p6",
+      "packet_id": "sp_suraqa_ibn_ishaq_end",
+      "part_id": "p6",
+      "evidence_id": "H-23833-513-816",
+      "text_ar": "قَالَ: ثُمَّ رَجَعْتُ إلَى قَوْمِي، فَسُقْتُ إلَى رَسُولِ اللَّهِ ﷺ صَدَقَتِي.",
+      "source_start": 1224,
+      "source_end": 1302,
+      "source_text_sha256": "d2436f54a601435aef2100a20d0e9d1fbac4d0eacfe88bbe6207cfc859bf9c2d",
+      "kind_ar": "تتمة اللقاء اللاحق",
+      "speaker_ar": "سراقة",
+      "book_ar": "سيرة ابن هشام - ت السقا",
+      "citation_ar": "[سيرة ابن هشام - ت السقا، 1/490](https://app.turath.io/book/23833?page=513)",
+      "source_url": "https://app.turath.io/book/23833?page=513",
+      "context_note_ar": "تتمة الكتابة ثم لقاء لاحق بعد الفتح وحنين والطائف؛ فُصل الانتقال الزمني والكلام النبوي، ولا تُنقل أحداث اللقاء اللاحق إلى يوم المطاردة."
+    }
+  ],
+  "footnotes": [
+    {
+      "footnote_id": "hch_suraqa_fn_71628675dd2528787479a5a0eb129c03ab20d9c9544bf4534221b440769ea914",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_overview"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_recognition",
+        "suraqa_preparation",
+        "suraqa_first_fall",
+        "suraqa_changed_outlook"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_92a95d937e87d50dc13f7e3b72227030633f84580b863c700317c9140ba1216c",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_01"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_03"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_suraqa_outline_01"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_suraqa_outline_02"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_recognition",
+        "suraqa_preparation"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_7a8cf48b5485c4c58042974b144245ed16ae9412727a959f5a5bbeb2d27f44b0",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_02"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_reward_motive",
+        "suraqa_recognition"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_dc760edd52245c06ecd17ca40a0c5c79d0a5fcb6b98de618d35acd99d3a058cb",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_04"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_suraqa_outline_03"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_first_fall",
+        "suraqa_recitation"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_fdad616711412f42d9c3e1e19c215deb03b0ae6d7c43b99b57ba9b461b7e41bb",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_05"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_recitation",
+        "suraqa_sinking"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p2",
+            "p3"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_a895eace92da15e1545289b2330376bc3206b28378cdd9bb38f55b33fe062658",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_06"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_suraqa_outline_04"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_changed_outlook",
+        "suraqa_sinking"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p3"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_a6d486c8f66797d86fedee67b8f6d24d8fc239528ba184c15d46e09842b6a4d3",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_07"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_suraqa_outline_05"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_offer",
+        "suraqa_concealment"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p3",
+            "p4"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_551c72d4a50a4fea42fe721d883c37b789e0afd17059d40276a87959139fb71e",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_08"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_document",
+        "suraqa_reward_motive"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p5"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_47ad33555408e47a19a7dfbe305181df2685a2ab0fb0ac31f643e83250388539",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_account_09"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_turnback",
+        "suraqa_preparation"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_abu_bakr",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p7",
+            "p8",
+            "p9",
+            "p10"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_c15c5fa4340b38241160f881fb9271ebd767490c2ca34db0e4cfb6e9aaa4e457",
+      "targets": [
+        {
+          "target_type": "outline",
+          "target_id": "hch_suraqa_outline_06"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_document",
+        "suraqa_turnback"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p5"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_abu_bakr",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p7",
+            "p8",
+            "p9",
+            "p10"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_3063b5d93fa9f231a0d24b6012d3c0745a47318e2d3f7622dc9d1e8051a5799f",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_depth_terms_reward"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_reward",
+        "suraqa_reward_motive"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p1"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_ae806af94add4bfd04dd61a11ae3b3c858b6c8f736f0bcbcb3f8d9ef90ab9003",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_depth_terms_01"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_first_fall",
+        "suraqa_lots_vocabulary"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_2de61b7f607bc2794acce59f9f472c378b1996551624d0e645a6c35585f9d4fc",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_depth_terms_02"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_sinking",
+        "suraqa_document",
+        "suraqa_pursuit_vocabulary"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p3",
+            "p5"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_lexicon",
+          "part_ids": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_e4a3d72d3d8bbb8279c0cf4ac404a4175360391946c6f1e3e17597dba7ad7565",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_depth_writers_01"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_depth_writers_02"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_writer_difference"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p5"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_reply",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_end",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_e71596406ecdc04c3bca5ab6bcb5b6ab88631144cb86b533b3beb65200426da1",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_depth_views_01"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_recognition",
+        "suraqa_preparation",
+        "suraqa_first_fall",
+        "suraqa_changed_outlook",
+        "suraqa_abu_bakr_view",
+        "suraqa_turnback"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_abu_bakr",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_d44c7e80dfdaa486be1fbb65392897c9ce8ef16b9eb8ab6dd90f5940fb6b57f7",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_depth_views_02"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_stumble_difference"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p2",
+            "p3"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_suraqa_fn_9c8d3dadbb44959ddd615b574cbd6679c4e0ab9c68b28e02f44186f631ba7737",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_suraqa_depth_document_01"
+        }
+      ],
+      "claim_ids": [
+        "suraqa_document",
+        "suraqa_later_meeting_boundary"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_suraqa_bukhari",
+          "part_ids": [
+            "p5"
+          ]
+        },
+        {
+          "packet_id": "sp_suraqa_ibn_ishaq_end",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ]
+        }
+      ]
+    }
+  ]
+}

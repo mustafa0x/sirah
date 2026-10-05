@@ -1,0 +1,127 @@
+{
+  "chapter_order": [
+    "hch_early_migration",
+    "hch_aqaba",
+    "hch_preparations",
+    "hch_departure",
+    "hch_thawr",
+    "hch_road",
+    "hch_suraqa",
+    "hch_umm_mabad",
+    "hch_quba",
+    "hch_madinah_arrival",
+    "hch_mosque",
+    "hch_settlement"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "hch_early_migration",
+      "title": "Before the Prophet ﷺ Departed: Migrants Whose Journeys Were Not Alike",
+      "path": "hch_early_migration/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+      "translation_sha256": "36277caf505af6a7bdfd4e941c68c669caa879fb92c5edb6cf926d458ddab091",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_aqaba",
+      "title": "From the encounter with Yathrib to the covenant at al-ʿAqaba",
+      "path": "hch_aqaba/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
+      "translation_sha256": "9a172f3e3f616e1d6029c3cc7c0f2a8b5034228e3560dcb32d2723267fc92e09",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_preparations",
+      "title": "Preparing for the Migration: Companionship, Two Mounts, and Provisions",
+      "path": "hch_preparations/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
+      "translation_sha256": "d0e2a07c14b330ad2e0afd12c3cd0dabc09574585f42945d509dd72d49823631",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_departure",
+      "title": "Departure from Mecca: The Plan, the Bed, and the Entrusted Property",
+      "path": "hch_departure/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+      "translation_sha256": "fc10956249fb22060a7ccdabf52989f51e2c40793c4414f36fe95eefb3d6cde8",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_thawr",
+      "title": "Three Nights at Thawr",
+      "path": "hch_thawr/chapter.en.json",
+      "revision": 6,
+      "arabic_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812",
+      "translation_sha256": "813484de28ac1005840c666497f5cea263720d7ea5f9e4178c631e254cbed9a1",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_road",
+      "title": "The Guide and the Road After the Cave",
+      "path": "hch_road/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+      "translation_sha256": "0833f075b954372ad4408806e1df3f52b0b7b976655427c9ddd68ababa7dbb2e",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_suraqa",
+      "title": "Suraqa: From Pursuit to Safety",
+      "path": "hch_suraqa/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
+      "translation_sha256": "cac2cd617ba81aa3c57ed055df963683e6be47d5cad423c8a4c017ba4d268e8f",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_umm_mabad",
+      "title": "At Umm Mabad's Two Tents",
+      "path": "hch_umm_mabad/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+      "translation_sha256": "9ab21f17922a68a3e73a3a142e51829c6e04a89636fd70a305a94082abc584f9",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_quba",
+      "title": "Quba: Waiting, Arrival, and the Road to Madinah",
+      "path": "hch_quba/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+      "translation_sha256": "6c7307c8b62186507ae8d97583bf73d035533231f3b9cbcabb52cfaae487e3a9",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_madinah_arrival",
+      "title": "The Welcome and First Lodging in Madinah",
+      "path": "hch_madinah_arrival/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
+      "translation_sha256": "1279402cd3420fac968710620ba7f4c8cd2a3546f834cc0a4dee192c2ace9649",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_mosque",
+      "title": "The Mirbad and the Building of the Medina Mosque",
+      "path": "hch_mosque/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+      "translation_sha256": "ff6448487fa82dad952a24a7ca93309c4d775608833526a485d343ebd90c39b1",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_settlement",
+      "title": "After arrival: families follow, and a prayer for the city",
+      "path": "hch_settlement/chapter.en.json",
+      "revision": 1,
+      "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
+      "translation_sha256": "bb99a7991c6420ac9f90fc2fbbaf2902a61b7d2f9539a51a6cec94836502b2a8",
+      "status": "translation_ready"
+    }
+  ],
+  "draft_chapter_ids": []
+}

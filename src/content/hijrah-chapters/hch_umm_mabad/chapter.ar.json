@@ -1,0 +1,4167 @@
+{
+  "schema_version": 1,
+  "chapter_id": "hch_umm_mabad",
+  "revision": 1,
+  "title_ar": "عند خيمتي أم معبد",
+  "reader_question_ar": "ماذا جرى عند أم معبد، وكيف وصفت لزوجها الزائر الذي رحل؟",
+  "core_ids": [
+    "hc_umm_mabad_visit",
+    "hc_umm_mabad_description",
+    "hc_umm_mabad_readings"
+  ],
+  "topic_ids": [
+    "encounters.umm_mabad",
+    "encounters.description",
+    "encounters.routes"
+  ],
+  "place_links": [
+    {
+      "place_id": "road",
+      "relation": "setting",
+      "claim_ids": [
+        "umm_mabad_arrival"
+      ]
+    }
+  ],
+  "related_chapter_ids": [
+    "hch_thawr",
+    "hch_suraqa"
+  ],
+  "overview": [
+    {
+      "paragraph_id": "hch_umm_mabad_overview",
+      "text_ar": "نتابع وقفة الركب عند أم معبد كما يحكيها خبر حبيش بن خالد: طلب الطعام، والشاة التي بقيت في الخيمة، ثم حديث الزوجين بعد رحيل الضيوف. وتعين القراءات المساندة على فهم ألفاظ الوصف، وتبين كلام ابن كثير والألباني في طرق الخبر من غير أن تجعل كل أسانيده وألفاظه محل اتفاق.",
+      "claim_ids": [
+        "umm_mabad_arrival",
+        "umm_mabad_goat",
+        "umm_mabad_return",
+        "umm_mabad_portrait",
+        "umm_mabad_ibn_kathir_scope",
+        "umm_mabad_albani_scope"
+      ]
+    }
+  ],
+  "account": [
+    {
+      "section_id": "hch_umm_mabad_tent",
+      "title_ar": "الشاة الباقية في الخيمة",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_umm_mabad_account_01",
+          "text_ar": "في خبر حبيش بن خالد، مرَّ النبي ﷺ بخيمتي أم معبد الخزاعية في طريق الهجرة، ومعه أبو بكر وعامر بن فهيرة ودليلهم عبد الله بن أريقط. كانت أم معبد تجلس بفناء خيمتها، تسقي وتطعم؛ لكنهم لم يجدوا عندها اللحم والتمر اللذين طلبوا شراءهما.",
+          "claim_ids": [
+            "umm_mabad_arrival",
+            "umm_mabad_scarcity"
+          ]
+        },
+        {
+          "paragraph_id": "hch_umm_mabad_account_02",
+          "text_ar": "رأى النبي ﷺ شاة في الخيمة، فسأل أم معبد عنها. كانت قد عجزت من الجهد عن اللحاق بالغنم، فبقيت هناك. وسألها إن كان بها لبن، فأجابته: «هِيَ أَجْهَدُ مِنْ ذَلِكَ». عندئذ استأذنها: «أَفَتَأْذَنِينَ لِي أَنْ أَحْلِبَهَا؟» فأذنت له أن يحلبها إن رأى بها حلبًا.",
+          "claim_ids": [
+            "umm_mabad_goat",
+            "umm_mabad_consent"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_umm_mabad_milk",
+      "title_ar": "الحلب والسقيا",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_umm_mabad_account_03",
+          "text_ar": "دعا النبي ﷺ بالشاة، ومسح ضرعها بيده، وسمّى الله ودعا. فدرّت الشاة التي لم تكن أم معبد ترجو منها لبنًا، ودعا بإناء فحلب فيه لبنًا غزيرًا. ثم سقى أم معبد حتى رويت، وسقى أصحابه حتى رووا، وشرب هو آخرهم.",
+          "claim_ids": [
+            "umm_mabad_goat",
+            "umm_mabad_milk",
+            "umm_mabad_sharing"
+          ]
+        },
+        {
+          "paragraph_id": "hch_umm_mabad_account_04",
+          "text_ar": "ولم ينته الحلب عند ما شربوا؛ فقد حلب مرة ثانية حتى ملأ الإناء. هذه المرة تركه عند أم معبد، ثم ارتحل الركب عنها، وبقي عندها اللبن الذي سيجده زوجها حين يعود.",
+          "claim_ids": [
+            "umm_mabad_remaining",
+            "umm_mabad_return"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_umm_mabad_return",
+      "title_ar": "سؤال أبي معبد",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_umm_mabad_account_05",
+          "text_ar": "وبعد رحيلهم جاء زوجها أبو معبد يسوق أعنزًا هزيلة. تعجّب حين رأى اللبن، وسألها من أين جاءها، وهو يقول إنه ليس في البيت شاة تُحلب.",
+          "claim_ids": [
+            "umm_mabad_return"
+          ]
+        },
+        {
+          "paragraph_id": "hch_umm_mabad_account_06",
+          "text_ar": "حدثته أم معبد عن رجل مرَّ بهم، وقالت إنه «رَجُلٌ مُبَارَكٌ». فطلب منها أن تصفه له، وبدأت تحكي له ما رأت من هيئته وما سمعت من كلامه.",
+          "claim_ids": [
+            "umm_mabad_host",
+            "umm_mabad_portrait"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_umm_mabad_portrait",
+      "title_ar": "صورة الزائر في كلامها",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_umm_mabad_account_07",
+          "text_ar": "وصفت له رجلًا جميل الوجه، كثيف اللحية، معتدل القامة بين الطول والقصر؛ جميلًا من بعيد وحسنًا من قريب. عليه وقار إذا صمت، وبهاء إذا تكلم. ثم وصفت حلاوة منطقه، وشبّهت كلامه بخرزات منتظمة تتحدر، يتبع بعضها بعضًا في نظام.",
+          "claim_ids": [
+            "umm_mabad_portrait"
+          ]
+        },
+        {
+          "paragraph_id": "hch_umm_mabad_account_08",
+          "text_ar": "ولم تقتصر على وصفه وحده، بل وصفت رفقاءه وهم يحفون به: إذا قال أنصتوا لقوله، وإذا أمر بادروا إلى أمره.",
+          "claim_ids": [
+            "umm_mabad_companions"
+          ]
+        },
+        {
+          "paragraph_id": "hch_umm_mabad_account_09",
+          "text_ar": "فلما سمع أبو معبد وصفها، ربط الزائر بما ذُكر لهم من أمر صاحب قريش بمكة. وقال إنه قد همَّ بصحبته، وإنه سيفعل إن وجد إلى ذلك سبيلًا. لم يشهد الزيارة، لكنه سمع من زوجته وصف الرجل الذي مرَّ بها.",
+          "claim_ids": [
+            "umm_mabad_return",
+            "umm_mabad_host",
+            "umm_mabad_recognition"
+          ]
+        }
+      ]
+    }
+  ],
+  "outline": [
+    {
+      "point_id": "hch_umm_mabad_outline_request",
+      "text_ar": "طلب طعام لم يكن عندها",
+      "claim_ids": [
+        "umm_mabad_scarcity"
+      ],
+      "section_id": "hch_umm_mabad_tent"
+    },
+    {
+      "point_id": "hch_umm_mabad_outline_goat",
+      "text_ar": "حال الشاة والإذن بحلبها",
+      "claim_ids": [
+        "umm_mabad_goat",
+        "umm_mabad_consent"
+      ],
+      "section_id": "hch_umm_mabad_tent"
+    },
+    {
+      "point_id": "hch_umm_mabad_outline_milk",
+      "text_ar": "السقيا والإناء المتروك",
+      "claim_ids": [
+        "umm_mabad_sharing",
+        "umm_mabad_remaining"
+      ],
+      "section_id": "hch_umm_mabad_milk"
+    },
+    {
+      "point_id": "hch_umm_mabad_outline_return",
+      "text_ar": "اللبن يثير سؤال الزوج",
+      "claim_ids": [
+        "umm_mabad_return"
+      ],
+      "section_id": "hch_umm_mabad_return"
+    },
+    {
+      "point_id": "hch_umm_mabad_outline_portrait",
+      "text_ar": "الهيئة والكلام والرفقاء",
+      "claim_ids": [
+        "umm_mabad_portrait",
+        "umm_mabad_companions"
+      ],
+      "section_id": "hch_umm_mabad_portrait"
+    },
+    {
+      "point_id": "hch_umm_mabad_outline_recognition",
+      "text_ar": "تعرف أبي معبد إلى الزائر",
+      "claim_ids": [
+        "umm_mabad_recognition"
+      ],
+      "section_id": "hch_umm_mabad_portrait"
+    }
+  ],
+  "in_depth": [
+    {
+      "section_id": "hch_umm_mabad_depth_scarcity",
+      "title_ar": "ضيافة في زمن القلة",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_umm_mabad_depth_scarcity_01",
+          "text_ar": "يجمع الخبر بين وصف أم معبد بأنها تسقي وتطعم، وعدم وجود اللحم والتمر المطلوبين عندها. فالمشهد ليس امتناعًا عن إطعام الضيف؛ القوم في قلة وشدة. يشرح أبو عبيد، في النقل الذي أورده أبو نعيم، المرمل بمن نفد زاده، والمسنتين بمن أصابتهم السنة، أي الأزمة والمجاعة.",
+          "claim_ids": [
+            "umm_mabad_scarcity",
+            "umm_mabad_food_terms"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_umm_mabad_depth_speech",
+      "title_ar": "ما الذي تصفه حلاوة المنطق؟",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_umm_mabad_depth_speech_01",
+          "text_ar": "تصوير الكلام بخرزات نظم تتحدر يقرب إلى القارئ انتظامه وتتابعه، لا مجرد جمال الصوت. وفي شرح أبي عبيد، النزر هو القليل والهذر هو الكثير، والوصف قصد بينهما. ثم ينتقل الوصف إلى أثر الكلام في الرفقاء: ينصتون لقوله ويبادرون إلى أمره. هكذا تتسع الصورة من هيئة الزائر إلى كلامه وصلته بمن حوله.",
+          "claim_ids": [
+            "umm_mabad_portrait",
+            "umm_mabad_companions",
+            "umm_mabad_speech_terms"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_umm_mabad_depth_judgments",
+      "title_ar": "الإسناد الواحد ومجموع الطرق",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_umm_mabad_depth_judgments_01",
+          "text_ar": "يقول ابن كثير إن القصة مشهورة مروية من طرق يشد بعضها بعضًا. أما الألباني، في الحاشية المختارة من هداية الرواة، فيعترض على صحة الإسناد بسبب هشام بن حبيش: ذُكر في الجرح والتعديل بلا جرح ولا تعديل، ولم يُذكر له راوٍ غير ابنه. ثم لا يغلق الألباني باب التقوية؛ يذكر احتمال ارتقاء الحديث إلى الحسن أو الصحة بطرق ساقها الحاكم.",
+          "claim_ids": [
+            "umm_mabad_ibn_kathir_scope",
+            "umm_mabad_albani_scope"
+          ]
+        },
+        {
+          "paragraph_id": "hch_umm_mabad_depth_judgments_02",
+          "text_ar": "التمييز هنا بين الكلام على إسناد بعينه والكلام على تقوية الحديث بالطرق. فلا نجعل اعتراض الألباني نفيًا قاطعًا للقصة، ولا نجعل عبارة ابن كثير تصحيحًا مفصلًا لكل لفظ فيها. والسرد يتبع خبر حبيش عند أبي نعيم؛ ليس هذا الفصل دراسة مستوعبة لجميع الطرق ولا حكمًا إسناديًا جديدًا.",
+          "claim_ids": [
+            "umm_mabad_ibn_kathir_scope",
+            "umm_mabad_albani_scope"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "hch_umm_mabad_depth_voices",
+      "title_ar": "من يتكلم في صفحة المصدر؟",
+      "paragraphs": [
+        {
+          "paragraph_id": "hch_umm_mabad_depth_voices_01",
+          "text_ar": "في صفحات هداية الرواة المختارة، يأتي متن الخبر الذي أثبته المحقق من المشكاة، ثم عزو ابن حجر إلى البيهقي، ثم تعليق الألباني في الحاشية. ويبين علي الحلبي في مقدمة التحقيق أنه أخذ تخريجات الألباني وتعليقاته لإلحاقها بالكتاب. لذلك لا ننسب الاعتراض على الإسناد إلى ابن حجر لمجرد أن اسمه على الكتاب.",
+          "claim_ids": [
+            "umm_mabad_albani_scope",
+            "umm_mabad_annotation_voice"
+          ]
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "reading_id": "hch_umm_mabad_read_visit",
+      "title_ar": "الركب والشاة والسقيا — خبر حبيش عند أبي نعيم",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "umm_mabad_arrival",
+        "umm_mabad_scarcity",
+        "umm_mabad_goat",
+        "umm_mabad_consent",
+        "umm_mabad_milk",
+        "umm_mabad_sharing",
+        "umm_mabad_remaining"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p11"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_umm_mabad_read_portrait",
+      "title_ar": "وصف أم معبد وجواب زوجها — تتمة الخبر",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "umm_mabad_return",
+        "umm_mabad_host",
+        "umm_mabad_portrait",
+        "umm_mabad_companions",
+        "umm_mabad_recognition"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_umm_mabad_read_language",
+      "title_ar": "مختارات من شرح أبي عبيد — القلة والكلام",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "umm_mabad_food_terms",
+        "umm_mabad_speech_terms"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_gloss",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p19",
+            "p20",
+            "p21"
+          ]
+        }
+      ]
+    },
+    {
+      "reading_id": "hch_umm_mabad_read_judgments",
+      "title_ar": "تقوية القصة وتعليق الإسناد — ابن كثير وحاشية الألباني",
+      "role": "claim_evidence",
+      "claim_ids": [
+        "umm_mabad_ibn_kathir_scope",
+        "umm_mabad_albani_scope",
+        "umm_mabad_annotation_voice"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_ibn_kathir",
+          "part_ids": [
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_end",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_albani",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_attribution",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    }
+  ],
+  "objective_ids": [
+    "umm_mabad_read_scarcity",
+    "umm_mabad_read_goat",
+    "umm_mabad_read_consent",
+    "umm_mabad_read_milk",
+    "umm_mabad_read_portrait",
+    "umm_mabad_read_recognition",
+    "umm_mabad_read_language",
+    "umm_mabad_read_judgments",
+    "umm_mabad_read_voices"
+  ],
+  "questions": [
+    {
+      "question_id": "hch_umm_mabad_q_food",
+      "difficulty": "beginner",
+      "objective_id": "umm_mabad_read_scarcity",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "umm_mabad_scarcity"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_visit"
+      ],
+      "prompt_ar": "لماذا لم يشترِ الركب اللحم والتمر من أم معبد؟",
+      "options": [
+        {
+          "option_id": "price",
+          "text_ar": "لأنهم اختلفوا معها على الثمن.",
+          "feedback_ar": "لا يذكر الخبر خلافًا على الثمن؛ يذكر أنهم لم يجدوا المطلوب عندها."
+        },
+        {
+          "option_id": "scarcity",
+          "text_ar": "لأن المطلوب لم يكن عندها.",
+          "feedback_ar": "نعم؛ طلبوا الشراء، ولم يصيبوا عندها شيئًا من اللحم والتمر."
+        },
+        {
+          "option_id": "delay",
+          "text_ar": "لأنهم انتظروا عودة زوجها ليبيعهم.",
+          "feedback_ar": "عاد أبو معبد بعد رحيلهم، ولا يذكر الخبر أنهم أخروا الشراء لأجله."
+        }
+      ],
+      "correct_option_id": "scarcity",
+      "explanation_ar": "عدم وجود المطلوب هو ما يذكره الخبر، مع وصف أم معبد بأنها تسقي وتطعم.",
+      "scope_note_ar": "السؤال في حدود خبر حبيش عند أبي نعيم كما يتبعه سرد الفصل.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_story:p1",
+        "sp_umm_mabad_story:p2",
+        "sp_umm_mabad_story:p3",
+        "sp_umm_mabad_story:p4",
+        "sp_umm_mabad_story:p5",
+        "sp_umm_mabad_story:p6",
+        "sp_umm_mabad_story:p7",
+        "sp_umm_mabad_story:p8",
+        "sp_umm_mabad_story:p9",
+        "sp_umm_mabad_story:p10",
+        "sp_umm_mabad_story:p11"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_goat",
+      "difficulty": "beginner",
+      "objective_id": "umm_mabad_read_goat",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "umm_mabad_goat"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_visit"
+      ],
+      "prompt_ar": "ما الذي أبقى الشاة في الخيمة بدل أن تخرج مع الغنم؟",
+      "options": [
+        {
+          "option_id": "weakness",
+          "text_ar": "الجهد الذي أعجزها عن اللحاق بها.",
+          "feedback_ar": "نعم؛ تقول أم معبد إن الجهد خلفها عن الغنم."
+        },
+        {
+          "option_id": "milk",
+          "text_ar": "إعدادها للحلب عند نزول الضيوف.",
+          "feedback_ar": "لم تكن أم معبد تنتظر منها لبنًا؛ أجابت بأنها أجهد من ذلك."
+        },
+        {
+          "option_id": "sale",
+          "text_ar": "عرضها للبيع على المارة.",
+          "feedback_ar": "طلب الركب اللحم والتمر، لكن بقاء هذه الشاة فسره الخبر بالجهد لا بعرضها للبيع."
+        }
+      ],
+      "correct_option_id": "weakness",
+      "explanation_ar": "بقاء الشاة من شدة جهدها، وهو ما يفسر أيضًا جواب أم معبد حين سُئلت عن لبنها.",
+      "scope_note_ar": "السؤال في حدود خبر حبيش عند أبي نعيم كما يتبعه سرد الفصل.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_story:p1",
+        "sp_umm_mabad_story:p2",
+        "sp_umm_mabad_story:p3",
+        "sp_umm_mabad_story:p4",
+        "sp_umm_mabad_story:p5",
+        "sp_umm_mabad_story:p6",
+        "sp_umm_mabad_story:p7",
+        "sp_umm_mabad_story:p8",
+        "sp_umm_mabad_story:p9",
+        "sp_umm_mabad_story:p10",
+        "sp_umm_mabad_story:p11"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_consent",
+      "difficulty": "beginner",
+      "objective_id": "umm_mabad_read_consent",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "umm_mabad_goat",
+        "umm_mabad_consent"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_visit"
+      ],
+      "prompt_ar": "بعد أن سأل عن لبن الشاة، ماذا طلب النبي ﷺ من أم معبد؟",
+      "options": [
+        {
+          "option_id": "bring",
+          "text_ar": "أن تأتي بالغنم الغائبة عن الخيمة.",
+          "feedback_ar": "اتجه الحديث إلى حلب الشاة الموجودة، لا إلى إحضار الغنم."
+        },
+        {
+          "option_id": "buy",
+          "text_ar": "أن تبيع له الشاة التي في الخيمة.",
+          "feedback_ar": "الطلب المنقول هنا إذن بالحلب، لا شراء الشاة."
+        },
+        {
+          "option_id": "permission",
+          "text_ar": "أن تأذن له في حلب الشاة.",
+          "feedback_ar": "نعم؛ جاء الحلب بعد سؤالها وإذنها."
+        }
+      ],
+      "correct_option_id": "permission",
+      "explanation_ar": "سأل أولًا عن حال الشاة، ثم استأذن في حلبها، فأذنت إن رأى بها حلبًا.",
+      "scope_note_ar": "السؤال في حدود خبر حبيش عند أبي نعيم كما يتبعه سرد الفصل.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_story:p1",
+        "sp_umm_mabad_story:p2",
+        "sp_umm_mabad_story:p3",
+        "sp_umm_mabad_story:p4",
+        "sp_umm_mabad_story:p5",
+        "sp_umm_mabad_story:p6",
+        "sp_umm_mabad_story:p7",
+        "sp_umm_mabad_story:p8",
+        "sp_umm_mabad_story:p9",
+        "sp_umm_mabad_story:p10",
+        "sp_umm_mabad_story:p11"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_sharing",
+      "difficulty": "beginner",
+      "objective_id": "umm_mabad_read_milk",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "umm_mabad_sharing"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_visit"
+      ],
+      "prompt_ar": "كيف يرد ترتيب السقيا في الخبر؟",
+      "options": [
+        {
+          "option_id": "companions_first",
+          "text_ar": "أصحابه، ثم أم معبد، ثم هو.",
+          "feedback_ar": "قدّم أم معبد في السقيا ثم سقى أصحابه."
+        },
+        {
+          "option_id": "host_first",
+          "text_ar": "أم معبد، ثم أصحابه، ثم هو.",
+          "feedback_ar": "نعم؛ سقاها حتى رويت وسقى أصحابه حتى رووا ثم شرب آخرهم."
+        },
+        {
+          "option_id": "prophet_first",
+          "text_ar": "هو، ثم أم معبد، ثم أصحابه.",
+          "feedback_ar": "ينص الخبر على أنه شرب آخرهم، لا أولهم."
+        }
+      ],
+      "correct_option_id": "host_first",
+      "explanation_ar": "سقى النبي ﷺ أم معبد أولًا، ثم أصحابه، وشرب آخرهم.",
+      "scope_note_ar": "السؤال في حدود خبر حبيش عند أبي نعيم كما يتبعه سرد الفصل.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_story:p1",
+        "sp_umm_mabad_story:p2",
+        "sp_umm_mabad_story:p3",
+        "sp_umm_mabad_story:p4",
+        "sp_umm_mabad_story:p5",
+        "sp_umm_mabad_story:p6",
+        "sp_umm_mabad_story:p7",
+        "sp_umm_mabad_story:p8",
+        "sp_umm_mabad_story:p9",
+        "sp_umm_mabad_story:p10",
+        "sp_umm_mabad_story:p11"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_remaining",
+      "difficulty": "intermediate",
+      "objective_id": "umm_mabad_read_milk",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "umm_mabad_remaining",
+        "umm_mabad_return"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_visit",
+        "hch_umm_mabad_read_portrait"
+      ],
+      "prompt_ar": "من أين جاء اللبن الذي وجده أبو معبد بعد رحيل الركب؟",
+      "options": [
+        {
+          "option_id": "husband",
+          "text_ar": "جلبه أبو معبد من الغنم عند رجوعه.",
+          "feedback_ar": "رأى أبو معبد اللبن موجودًا وتعجب منه؛ لا يصف الخبر أنه جاء به."
+        },
+        {
+          "option_id": "earlier",
+          "text_ar": "كان مخزونًا عند أم معبد قبل وصولهم.",
+          "feedback_ar": "يربط الخبر الإناء المتروك بالحلب الثاني، لا بلبن مخزون قبل الزيارة."
+        },
+        {
+          "option_id": "second",
+          "text_ar": "ملأ النبي ﷺ الإناء بحلبة ثانية وتركه عندها.",
+          "feedback_ar": "نعم؛ لم يقتصر ما ورد في الخبر على اللبن الذي شربوه."
+        }
+      ],
+      "correct_option_id": "second",
+      "explanation_ar": "بعد السقيا حلب النبي ﷺ ثانية حتى ملأ الإناء، ثم تركه عند أم معبد.",
+      "scope_note_ar": "السؤال في حدود خبر حبيش عند أبي نعيم كما يتبعه سرد الفصل.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_story:p1",
+        "sp_umm_mabad_story:p2",
+        "sp_umm_mabad_story:p3",
+        "sp_umm_mabad_story:p4",
+        "sp_umm_mabad_story:p5",
+        "sp_umm_mabad_story:p6",
+        "sp_umm_mabad_story:p7",
+        "sp_umm_mabad_story:p8",
+        "sp_umm_mabad_story:p9",
+        "sp_umm_mabad_story:p10",
+        "sp_umm_mabad_story:p11",
+        "sp_umm_mabad_story:p12",
+        "sp_umm_mabad_story:p13",
+        "sp_umm_mabad_story:p14",
+        "sp_umm_mabad_story:p15",
+        "sp_umm_mabad_story:p16",
+        "sp_umm_mabad_story:p17",
+        "sp_umm_mabad_story:p18",
+        "sp_umm_mabad_story:p19"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_portrait",
+      "difficulty": "intermediate",
+      "objective_id": "umm_mabad_read_portrait",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "umm_mabad_portrait",
+        "umm_mabad_companions"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_portrait"
+      ],
+      "prompt_ar": "ما الجوانب التي جمعتها أم معبد في وصفها للزائر؟",
+      "options": [
+        {
+          "option_id": "appearance",
+          "text_ar": "هيئته وحدها، دون كلامه أو رفقائه.",
+          "feedback_ar": "تصف الرواية منطقه ووقاره وإنصات رفقائه، لا الهيئة وحدها."
+        },
+        {
+          "option_id": "speech_only",
+          "text_ar": "كلامه وحده، دون هيئته أو رفقائه.",
+          "feedback_ar": "حلاوة المنطق جزء من صورة تشمل الهيئة والرفقاء أيضًا."
+        },
+        {
+          "option_id": "combined",
+          "text_ar": "هيئته وكلامه وصلة رفقائه به.",
+          "feedback_ar": "نعم؛ جمعت بين الجمال والوقار وحلاوة المنطق وما رأت من رفقائه."
+        }
+      ],
+      "correct_option_id": "combined",
+      "explanation_ar": "يتسع وصفها من الوجه والقامة إلى الكلام والوقار، ثم إلى إنصات أصحابه ومبادرتهم.",
+      "scope_note_ar": "السؤال في حدود خبر حبيش عند أبي نعيم كما يتبعه سرد الفصل.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_story:p11",
+        "sp_umm_mabad_story:p12",
+        "sp_umm_mabad_story:p13",
+        "sp_umm_mabad_story:p14",
+        "sp_umm_mabad_story:p15",
+        "sp_umm_mabad_story:p16",
+        "sp_umm_mabad_story:p17",
+        "sp_umm_mabad_story:p18",
+        "sp_umm_mabad_story:p19"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_recognition",
+      "difficulty": "intermediate",
+      "objective_id": "umm_mabad_read_recognition",
+      "practice_scope": "lesson",
+      "claim_ids": [
+        "umm_mabad_return",
+        "umm_mabad_host",
+        "umm_mabad_recognition"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_portrait"
+      ],
+      "prompt_ar": "كيف ربط أبو معبد زائر الخيمة بصاحب قريش؟",
+      "options": [
+        {
+          "option_id": "meeting",
+          "text_ar": "من لقاء مباشر به قبل أن يرحل الركب.",
+          "feedback_ar": "يرد رجوع أبي معبد بعد الرحيل، ثم سؤاله زوجته عن الزائر."
+        },
+        {
+          "option_id": "description",
+          "text_ar": "من وصف زوجته له بعد أن سألها.",
+          "feedback_ar": "نعم؛ يتبع قوله عن صاحب قريش وصف أم معبد له."
+        },
+        {
+          "option_id": "letter",
+          "text_ar": "من كتاب تركه الركب عند أم معبد.",
+          "feedback_ar": "المتروك هنا إناء لبن، وليس في هذا الخبر كتاب تعريف بالزائر."
+        }
+      ],
+      "correct_option_id": "description",
+      "explanation_ar": "أم معبد تصف الزيارة، وأبو معبد يسمع منها ثم يقول إنه صاحب قريش الذي ذُكر لهم أمره.",
+      "scope_note_ar": "السؤال في حدود خبر حبيش عند أبي نعيم كما يتبعه سرد الفصل.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_story:p11",
+        "sp_umm_mabad_story:p12",
+        "sp_umm_mabad_story:p13",
+        "sp_umm_mabad_story:p14",
+        "sp_umm_mabad_story:p15",
+        "sp_umm_mabad_story:p16",
+        "sp_umm_mabad_story:p17",
+        "sp_umm_mabad_story:p18",
+        "sp_umm_mabad_story:p19"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_language",
+      "difficulty": "intermediate",
+      "objective_id": "umm_mabad_read_language",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "umm_mabad_speech_terms"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_language"
+      ],
+      "prompt_ar": "كيف يشرح أبو عبيد وصف الكلام بأنه لا نزر ولا هذر؟",
+      "options": [
+        {
+          "option_id": "long",
+          "text_ar": "كلام كثير كلما طال كان أحسن.",
+          "feedback_ar": "شرح الهذر بالكثير وجعل الوصف قصدًا بين القليل والكثير."
+        },
+        {
+          "option_id": "balanced",
+          "text_ar": "كلام قصد بين القليل والكثير.",
+          "feedback_ar": "نعم؛ هذا هو المعنى الذي يبينه الشرح المختار."
+        },
+        {
+          "option_id": "quiet",
+          "text_ar": "صوت خافت لا يسمعه الرفقاء.",
+          "feedback_ar": "التفسير هنا لمقدار الكلام، لا لخفض الصوت أو عدم سماعه."
+        }
+      ],
+      "correct_option_id": "balanced",
+      "explanation_ar": "يفسر أبو عبيد النزر بالقليل والهذر بالكثير، ثم يقول إن المراد قصد بين ذلك.",
+      "scope_note_ar": "دراسة اختيارية لشرح أبي عبيد المنقول عند أبي نعيم؛ ليست عبارة تفسيرية من كلام أم معبد.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_gloss:p1",
+        "sp_umm_mabad_gloss:p2",
+        "sp_umm_mabad_gloss:p19",
+        "sp_umm_mabad_gloss:p20",
+        "sp_umm_mabad_gloss:p21"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_judgments",
+      "difficulty": "expert",
+      "objective_id": "umm_mabad_read_judgments",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "umm_mabad_ibn_kathir_scope",
+        "umm_mabad_albani_scope"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_judgments"
+      ],
+      "prompt_ar": "ما الفرق بين كلام ابن كثير وتعليق الألباني في القراءتين المختارتين؟",
+      "options": [
+        {
+          "option_id": "opposites",
+          "text_ar": "ابن كثير يصحح كل لفظ، والألباني ينفي القصة كلها.",
+          "feedback_ar": "الأول يتكلم عن تقوية القصة بالطرق، والثاني يذكر احتمال التقوية بعد اعتراضه على الإسناد."
+        },
+        {
+          "option_id": "same",
+          "text_ar": "كلاهما يصحح الإسناد المعين بلا تحفظ.",
+          "feedback_ar": "يعترض الألباني صراحة على صحة هذا الإسناد بسبب حال هشام بن حبيش."
+        },
+        {
+          "option_id": "scopes",
+          "text_ar": "ابن كثير يقوي القصة بالطرق، والألباني يعترض على الإسناد ويذكر احتمال التقوية.",
+          "feedback_ar": "نعم؛ يبقى نطاق كل كلام ودرجة الجزم فيه متميزين."
+        }
+      ],
+      "correct_option_id": "scopes",
+      "explanation_ar": "تقوية القصة بمجموع الطرق لا تعني صحة كل إسناد بمفرده، وتعليق الألباني نفسه لا يقتصر على الاعتراض بل يتبعه باحتمال التقوية.",
+      "scope_note_ar": "المقارنة لهذين الموضعين فقط، لا لحصر أحكام النقاد أو إصدار حكم إسنادي مستقل.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_ibn_kathir:p2",
+        "sp_umm_mabad_hidaya_start:p1",
+        "sp_umm_mabad_hidaya_start:p2",
+        "sp_umm_mabad_hidaya_end:p1",
+        "sp_umm_mabad_hidaya_end:p2",
+        "sp_umm_mabad_hidaya_end:p3",
+        "sp_umm_mabad_hidaya_end:p4",
+        "sp_umm_mabad_hidaya_end:p5",
+        "sp_umm_mabad_hidaya_end:p6",
+        "sp_umm_mabad_hidaya_end:p7",
+        "sp_umm_mabad_hidaya_end:p8",
+        "sp_umm_mabad_hidaya_end:p9",
+        "sp_umm_mabad_albani:p1",
+        "sp_umm_mabad_albani:p2",
+        "sp_umm_mabad_albani:p3",
+        "sp_umm_mabad_albani:p4",
+        "sp_umm_mabad_attribution:p1"
+      ]
+    },
+    {
+      "question_id": "hch_umm_mabad_q_voices",
+      "difficulty": "expert",
+      "objective_id": "umm_mabad_read_voices",
+      "practice_scope": "source_study",
+      "claim_ids": [
+        "umm_mabad_annotation_voice"
+      ],
+      "reading_ids": [
+        "hch_umm_mabad_read_judgments"
+      ],
+      "prompt_ar": "إلى من يُنسب الاعتراض على صحة إسناد خبر أم معبد في حاشية هداية الرواة المختارة؟",
+      "options": [
+        {
+          "option_id": "ibn_hajar",
+          "text_ar": "ابن حجر، صاحب هداية الرواة.",
+          "feedback_ar": "المختار من كلام ابن حجر عزو الخبر إلى البيهقي؛ الاعتراض في الحاشية الملحقة."
+        },
+        {
+          "option_id": "halabi",
+          "text_ar": "علي الحلبي، محقق هذه الطبعة.",
+          "feedback_ar": "يبين الحلبي في المقدمة أنه أخذ تخريجات شيخه وتعليقاته لإلحاقها بالكتاب."
+        },
+        {
+          "option_id": "albani",
+          "text_ar": "الألباني، صاحب التعليق الملحق.",
+          "feedback_ar": "نعم؛ تميز بيانات الطبعة والمقدمة مصدر الحاشية من أصل الكتاب."
+        }
+      ],
+      "correct_option_id": "albani",
+      "explanation_ar": "تعليق الألباني ملحق بالكتاب؛ يحفظ سياق المقدمة نسبته، ولا ينسب كل ما في الصفحة إلى مؤلف المتن.",
+      "scope_note_ar": "دراسة اختيارية لأصوات التأليف والتحقيق في هذه الطبعة، لا شاهد تاريخي جديد.",
+      "step_id": "hch_umm_mabad",
+      "source_unit_ids": [
+        "sp_umm_mabad_ibn_kathir:p2",
+        "sp_umm_mabad_hidaya_start:p1",
+        "sp_umm_mabad_hidaya_start:p2",
+        "sp_umm_mabad_hidaya_end:p1",
+        "sp_umm_mabad_hidaya_end:p2",
+        "sp_umm_mabad_hidaya_end:p3",
+        "sp_umm_mabad_hidaya_end:p4",
+        "sp_umm_mabad_hidaya_end:p5",
+        "sp_umm_mabad_hidaya_end:p6",
+        "sp_umm_mabad_hidaya_end:p7",
+        "sp_umm_mabad_hidaya_end:p8",
+        "sp_umm_mabad_hidaya_end:p9",
+        "sp_umm_mabad_albani:p1",
+        "sp_umm_mabad_albani:p2",
+        "sp_umm_mabad_albani:p3",
+        "sp_umm_mabad_albani:p4",
+        "sp_umm_mabad_attribution:p1"
+      ]
+    }
+  ],
+  "unassessed_objectives": [],
+  "open_issues": [
+    {
+      "issue_id": "hch_umm_mabad_issue_review",
+      "affected_ids": [
+        "hch_umm_mabad"
+      ],
+      "blocking": false,
+      "note_ar": "هذه صياغة ومقارنة داخلية محدودة، لا اعتماد لغوي أو تاريخي مستقل ولا إذن نشر."
+    },
+    {
+      "issue_id": "hch_umm_mabad_issue_scope",
+      "affected_ids": [
+        "hch_umm_mabad_depth_judgments",
+        "hch_umm_mabad_read_judgments"
+      ],
+      "blocking": false,
+      "note_ar": "لم تستوعب الدفعة جميع طرق خبر أم معبد وأحكام النقاد عليها؛ بقيت بقية أسرة لقاءات الطريق للتوسعة. ترتيب هذا الفصل بعد سراقة ترتيب قراءة لا تعيين لتتابع الحادثتين."
+    },
+    {
+      "issue_id": "hch_umm_mabad_issue_spelling",
+      "affected_ids": [
+        "hch_umm_mabad_read_portrait",
+        "hch_umm_mabad_read_language",
+        "hch_umm_mabad_read_judgments"
+      ],
+      "blocking": false,
+      "note_ar": "حُفظت الرسوم الرقمية، ومنها نَذْز في متن أبي نعيم مقابل نَزْر في شرح أبي عبيد، والرسم المضطرب في آخر حاشية الألباني؛ لم تقابل بمطبوع ولم تصحح في الاقتباس. شرح المعنى ليس استبدالًا بالأصل."
+    }
+  ],
+  "locale": "ar",
+  "status": "arabic_ready",
+  "records": [
+    {
+      "core_id": "hc_umm_mabad_visit",
+      "topic_id": "encounters.umm_mabad",
+      "reader_question_ar": "ماذا جرى عند طلب الطعام وحلب الشاة؟",
+      "introduction_ar": "من المرور بالخيمتين إلى ترك الإناء: هذا هو تسلسل خبر حبيش عند أبي نعيم، لا رواية جامعة لكل أخبار اللبن في الطريق.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_umm_mabad_visit_01",
+          "text_ar": "يروي حبيش بن خالد عند أبي نعيم مرور النبي ﷺ وأبي بكر وعامر بن فهيرة ودليلهم عبد الله بن أريقط بخيمتي أم معبد الخزاعية في الهجرة.",
+          "claim_ids": [
+            "umm_mabad_arrival"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_visit_02",
+          "text_ar": "يصف الخبر أم معبد بأنها تسقي وتطعم؛ طلب الركب لحمًا وتمرًا للشراء فلم يجدوه عندها، ووصف القوم بالإرمال والإسنات.",
+          "claim_ids": [
+            "umm_mabad_scarcity"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_visit_03",
+          "text_ar": "سأل النبي ﷺ عن شاة في الخيمة، فقالت أم معبد إن الجهد خلفها عن الغنم؛ ولما سأل عن اللبن أجابت بأنها أجهد من ذلك.",
+          "claim_ids": [
+            "umm_mabad_goat"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_visit_04",
+          "text_ar": "استأذن النبي ﷺ أم معبد في حلب الشاة، فأذنت إن رأى بها حلبًا.",
+          "claim_ids": [
+            "umm_mabad_consent"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_visit_05",
+          "text_ar": "يذكر خبر حبيش مسح النبي ﷺ ضرع الشاة، وتسميته الله ودعاءه، ثم درورها وحلبه في الإناء.",
+          "claim_ids": [
+            "umm_mabad_milk"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_visit_06",
+          "text_ar": "في الخبر سقى النبي ﷺ أم معبد حتى رويت، ثم أصحابه حتى رووا، وشرب آخرهم.",
+          "claim_ids": [
+            "umm_mabad_sharing"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_visit_07",
+          "text_ar": "حلب النبي ﷺ مرة ثانية حتى ملأ الإناء وتركه عند أم معبد قبل الرحيل في خبر حبيش.",
+          "claim_ids": [
+            "umm_mabad_remaining"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "umm_mabad_arrival",
+          "text_ar": "يروي حبيش بن خالد عند أبي نعيم مرور النبي ﷺ وأبي بكر وعامر بن فهيرة ودليلهم عبد الله بن أريقط بخيمتي أم معبد الخزاعية في الهجرة.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_scarcity",
+          "text_ar": "يصف الخبر أم معبد بأنها تسقي وتطعم؛ طلب الركب لحمًا وتمرًا للشراء فلم يجدوه عندها، ووصف القوم بالإرمال والإسنات.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p2",
+                "p3",
+                "p4"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_goat",
+          "text_ar": "سأل النبي ﷺ عن شاة في الخيمة، فقالت أم معبد إن الجهد خلفها عن الغنم؛ ولما سأل عن اللبن أجابت بأنها أجهد من ذلك.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p5",
+                "p6",
+                "p7",
+                "p8"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_consent",
+          "text_ar": "استأذن النبي ﷺ أم معبد في حلب الشاة، فأذنت إن رأى بها حلبًا.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p9",
+                "p10"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_milk",
+          "text_ar": "يذكر خبر حبيش مسح النبي ﷺ ضرع الشاة، وتسميته الله ودعاءه، ثم درورها وحلبه في الإناء.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p11"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_sharing",
+          "text_ar": "في الخبر سقى النبي ﷺ أم معبد حتى رويت، ثم أصحابه حتى رووا، وشرب آخرهم.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p11"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_remaining",
+          "text_ar": "حلب النبي ﷺ مرة ثانية حتى ملأ الإناء وتركه عند أم معبد قبل الرحيل في خبر حبيش.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p11"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+          "scope_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p27",
+            "p28",
+            "p29",
+            "p30",
+            "p31",
+            "p32",
+            "p33"
+          ],
+          "referenced_by_claim_ids": [
+            "umm_mabad_arrival",
+            "umm_mabad_scarcity",
+            "umm_mabad_goat",
+            "umm_mabad_consent",
+            "umm_mabad_milk",
+            "umm_mabad_sharing",
+            "umm_mabad_remaining"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "أم معبد الخزاعية",
+          "role_ar": "تجيب عن الطعام والشاة وتأذن بحلبها.",
+          "claim_ids": [
+            "umm_mabad_scarcity",
+            "umm_mabad_goat",
+            "umm_mabad_consent"
+          ]
+        },
+        {
+          "name_ar": "النبي ﷺ",
+          "role_ar": "يستأذن في الحلب ويسقي أم معبد وأصحابه ويترك إناء اللبن.",
+          "claim_ids": [
+            "umm_mabad_consent",
+            "umm_mabad_milk",
+            "umm_mabad_sharing",
+            "umm_mabad_remaining"
+          ]
+        },
+        {
+          "name_ar": "أبو بكر وعامر بن فهيرة وعبد الله بن أريقط",
+          "role_ar": "هم رفقاء النبي ﷺ المسَمَّون في صدر الخبر.",
+          "claim_ids": [
+            "umm_mabad_arrival"
+          ]
+        },
+        {
+          "name_ar": "حبيش بن خالد",
+          "role_ar": "إليه ينتهي إسناد الخبر؛ لا يجعل ذلك دعوى حضوره الزيارة.",
+          "claim_ids": [
+            "umm_mabad_arrival"
+          ]
+        }
+      ],
+      "place_mentions": [
+        {
+          "name_ar": "خيمتا أم معبد",
+          "coordinates": null,
+          "claim_ids": [
+            "umm_mabad_arrival"
+          ]
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_id": "umm_mabad_read_scarcity",
+          "text_ar": "يفهم سياق طلب الطعام وعدم وجوده عند أم معبد.",
+          "claim_ids": [
+            "umm_mabad_scarcity"
+          ]
+        },
+        {
+          "objective_id": "umm_mabad_read_goat",
+          "text_ar": "يبين لماذا بقيت الشاة في الخيمة وما ظنته أم معبد في لبنها.",
+          "claim_ids": [
+            "umm_mabad_goat"
+          ]
+        },
+        {
+          "objective_id": "umm_mabad_read_consent",
+          "text_ar": "يميز السؤال عن حال الشاة من الاستئذان في حلبها.",
+          "claim_ids": [
+            "umm_mabad_consent"
+          ]
+        },
+        {
+          "objective_id": "umm_mabad_read_milk",
+          "text_ar": "يتتبع السقيا وما تركه الركب عند أم معبد بعد الشرب.",
+          "claim_ids": [
+            "umm_mabad_milk",
+            "umm_mabad_sharing",
+            "umm_mabad_remaining"
+          ]
+        }
+      ],
+      "related_topic_ids": [],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "يتبع العرض خبر حبيش عند أبي نعيم ولا يجمع كل أخبار المرأة والشاة في حادثة واحدة."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "umm_mabad_arrival",
+        "umm_mabad_scarcity",
+        "umm_mabad_goat",
+        "umm_mabad_consent",
+        "umm_mabad_milk",
+        "umm_mabad_sharing",
+        "umm_mabad_remaining"
+      ]
+    },
+    {
+      "core_id": "hc_umm_mabad_description",
+      "topic_id": "encounters.description",
+      "reader_question_ar": "كيف وصفت أم معبد الزائر لزوجها؟",
+      "introduction_ar": "ينتقل الخبر بعد الرحيل إلى سؤال أبي معبد ثم وصف زوجته واستجابته؛ يحفظ العرض لكل منهما كلامه.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_umm_mabad_description_01",
+          "text_ar": "يأتي أبو معبد بعد ارتحال الركب يسوق أعنزًا هزيلة؛ يعجب من اللبن ويسأل عنه مع عدم وجود حلوبة في البيت.",
+          "claim_ids": [
+            "umm_mabad_return"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_description_02",
+          "text_ar": "تخبر أم معبد زوجها بأن رجلًا مباركًا مر بهم، فيطلب منها وصفه.",
+          "claim_ids": [
+            "umm_mabad_host"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_description_03",
+          "text_ar": "تصف أم معبد في الخبر جمال الزائر من بعيد وقريب وكثافة لحيته واعتدال قامته ووقاره عند الصمت وحلاوة منطقه، وتشبه كلامه بخرزات نظم تتحدر.",
+          "claim_ids": [
+            "umm_mabad_portrait"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_description_04",
+          "text_ar": "من وصف أم معبد أن للزائر رفقاء يحفون به، ينصتون إذا قال ويبادرون إذا أمر.",
+          "claim_ids": [
+            "umm_mabad_companions"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_description_05",
+          "text_ar": "بعد وصف أم معبد يقول زوجها إن الزائر صاحب قريش الذي ذُكر لهم أمره بمكة، ويذكر رغبته في صحبته إن وجد سبيلًا.",
+          "claim_ids": [
+            "umm_mabad_recognition"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "umm_mabad_return",
+          "text_ar": "يأتي أبو معبد بعد ارتحال الركب يسوق أعنزًا هزيلة؛ يعجب من اللبن ويسأل عنه مع عدم وجود حلوبة في البيت.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p11",
+                "p12",
+                "p13"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_host",
+          "text_ar": "تخبر أم معبد زوجها بأن رجلًا مباركًا مر بهم، فيطلب منها وصفه.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p14",
+                "p15"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_portrait",
+          "text_ar": "تصف أم معبد في الخبر جمال الزائر من بعيد وقريب وكثافة لحيته واعتدال قامته ووقاره عند الصمت وحلاوة منطقه، وتشبه كلامه بخرزات نظم تتحدر.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p16",
+                "p17",
+                "p18"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_companions",
+          "text_ar": "من وصف أم معبد أن للزائر رفقاء يحفون به، ينصتون إذا قال ويبادرون إذا أمر.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p16",
+                "p17",
+                "p18"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_recognition",
+          "text_ar": "بعد وصف أم معبد يقول زوجها إن الزائر صاحب قريش الذي ذُكر لهم أمره بمكة، ويذكر رغبته في صحبته إن وجد سبيلًا.",
+          "kind": "attributed_report",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_story",
+              "part_ids": [
+                "p16",
+                "p17",
+                "p18",
+                "p19"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+          "scope_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p27",
+            "p28",
+            "p29",
+            "p30",
+            "p31",
+            "p32",
+            "p33"
+          ],
+          "referenced_by_claim_ids": [
+            "umm_mabad_return",
+            "umm_mabad_host",
+            "umm_mabad_portrait",
+            "umm_mabad_companions",
+            "umm_mabad_recognition"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "أم معبد",
+          "role_ar": "تصف الزائر وهيئته وكلامه وصلته بأصحابه.",
+          "claim_ids": [
+            "umm_mabad_host",
+            "umm_mabad_portrait",
+            "umm_mabad_companions"
+          ]
+        },
+        {
+          "name_ar": "أبو معبد",
+          "role_ar": "يرجع بعد الرحيل ويسأل ثم يتعرف إلى صاحب قريش من الوصف.",
+          "claim_ids": [
+            "umm_mabad_return",
+            "umm_mabad_host",
+            "umm_mabad_recognition"
+          ]
+        }
+      ],
+      "place_mentions": [],
+      "learning_objectives": [
+        {
+          "objective_id": "umm_mabad_read_portrait",
+          "text_ar": "يربط في وصف أم معبد بين هيئة الزائر وكلامه وصلة أصحابه به.",
+          "claim_ids": [
+            "umm_mabad_portrait",
+            "umm_mabad_companions"
+          ]
+        },
+        {
+          "objective_id": "umm_mabad_read_recognition",
+          "text_ar": "يفرق بين مشاهدة أم معبد وسماع زوجها للوصف وتعرفه إلى الزائر.",
+          "claim_ids": [
+            "umm_mabad_return",
+            "umm_mabad_host",
+            "umm_mabad_recognition"
+          ]
+        }
+      ],
+      "related_topic_ids": [],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "يتبع العرض خبر حبيش عند أبي نعيم ولا يجمع كل أخبار المرأة والشاة في حادثة واحدة."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "umm_mabad_return",
+        "umm_mabad_host",
+        "umm_mabad_portrait",
+        "umm_mabad_companions",
+        "umm_mabad_recognition"
+      ]
+    },
+    {
+      "core_id": "hc_umm_mabad_readings",
+      "topic_id": "encounters.routes",
+      "reader_question_ar": "كيف نفهم الألفاظ ونقرأ الحكم على الخبر؟",
+      "introduction_ar": "يشرح أبو عبيد ألفاظًا في الخبر، ويقوي ابن كثير طرق القصة إجمالًا، ويناقش الألباني إسنادًا مع إبقاء احتمال التقوية. الأصوات والنطاقات منفصلة.",
+      "paragraphs": [
+        {
+          "paragraph_id": "hc_umm_mabad_readings_01",
+          "text_ar": "ينقل أبو نعيم عن أبي عبيد أن المرمل من نفد زاده، وأن المسنتين من أصابتهم السنة، وهي الأزمة والمجاعة.",
+          "claim_ids": [
+            "umm_mabad_food_terms"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_readings_02",
+          "text_ar": "يشرح أبو عبيد المنقول عند أبي نعيم النزر بالقليل والهذر بالكثير، ويجعل الوصف قصدًا بينهما.",
+          "claim_ids": [
+            "umm_mabad_speech_terms"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_readings_03",
+          "text_ar": "يقول ابن كثير إن قصة أم معبد مشهورة مروية من طرق يشد بعضها بعضًا؛ كلامه هنا عن القصة وطرقها إجمالًا.",
+          "claim_ids": [
+            "umm_mabad_ibn_kathir_scope"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_readings_04",
+          "text_ar": "يعترض الألباني في حاشية هداية الرواة على تصحيح الإسناد بسبب حال هشام بن حبيش، ثم يذكر احتمال ارتقاء الحديث إلى الحسن أو الصحة بطرق ساقها الحاكم. التعليق على خبر حبيش الذي يبدأ في الصفحة السابقة؛ ليس حكمًا من مؤلف هذا الفصل.",
+          "claim_ids": [
+            "umm_mabad_albani_scope"
+          ]
+        },
+        {
+          "paragraph_id": "hc_umm_mabad_readings_05",
+          "text_ar": "يصرح علي الحلبي في مقدمة التحقيق بأنه أخذ تخريجات الألباني وتعليقاته لإلحاقها بحواشي هداية الرواة؛ فالتعليق على هشام هنا للألباني، لا لابن حجر صاحب الكتاب.",
+          "claim_ids": [
+            "umm_mabad_annotation_voice"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "umm_mabad_food_terms",
+          "text_ar": "ينقل أبو نعيم عن أبي عبيد أن المرمل من نفد زاده، وأن المسنتين من أصابتهم السنة، وهي الأزمة والمجاعة.",
+          "kind": "attributed_commentary",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_gloss",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_speech_terms",
+          "text_ar": "يشرح أبو عبيد المنقول عند أبي نعيم النزر بالقليل والهذر بالكثير، ويجعل الوصف قصدًا بينهما.",
+          "kind": "attributed_commentary",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_gloss",
+              "part_ids": [
+                "p1",
+                "p19",
+                "p20",
+                "p21"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_ibn_kathir_scope",
+          "text_ar": "يقول ابن كثير إن قصة أم معبد مشهورة مروية من طرق يشد بعضها بعضًا؛ كلامه هنا عن القصة وطرقها إجمالًا.",
+          "kind": "attributed_commentary",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_ibn_kathir",
+              "part_ids": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_albani_scope",
+          "text_ar": "يعترض الألباني في حاشية هداية الرواة على تصحيح الإسناد بسبب حال هشام بن حبيش، ثم يذكر احتمال ارتقاء الحديث إلى الحسن أو الصحة بطرق ساقها الحاكم. التعليق على خبر حبيش الذي يبدأ في الصفحة السابقة؛ ليس حكمًا من مؤلف هذا الفصل.",
+          "kind": "attributed_commentary",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_hidaya_start",
+              "part_ids": [
+                "p1",
+                "p2"
+              ]
+            },
+            {
+              "packet_id": "sp_umm_mabad_hidaya_end",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p5",
+                "p6",
+                "p7",
+                "p8",
+                "p9"
+              ]
+            },
+            {
+              "packet_id": "sp_umm_mabad_albani",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            },
+            {
+              "packet_id": "sp_umm_mabad_attribution",
+              "part_ids": [
+                "p1"
+              ]
+            }
+          ]
+        },
+        {
+          "claim_id": "umm_mabad_annotation_voice",
+          "text_ar": "يصرح علي الحلبي في مقدمة التحقيق بأنه أخذ تخريجات الألباني وتعليقاته لإلحاقها بحواشي هداية الرواة؛ فالتعليق على هشام هنا للألباني، لا لابن حجر صاحب الكتاب.",
+          "kind": "attributed_commentary",
+          "source_refs": [
+            {
+              "packet_id": "sp_umm_mabad_attribution",
+              "part_ids": [
+                "p1"
+              ]
+            },
+            {
+              "packet_id": "sp_umm_mabad_albani",
+              "part_ids": [
+                "p1",
+                "p2",
+                "p3",
+                "p4"
+              ]
+            },
+            {
+              "packet_id": "sp_umm_mabad_hidaya_end",
+              "part_ids": [
+                "p9"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_packet_requests": [
+        {
+          "packet_id": "sp_umm_mabad_gloss",
+          "evidence_id": "H-10637-290-RA-UMM-GLOSS",
+          "scope_ar": "شرح أبي عبيد بإسناده كما نقله أبو نعيم، كاملًا في حدود الدفتر. الشواهد الشعرية والقول النبوي المستشهد به والاقتباس القرآني ليست من حوار الخيمة. بقيت الرسوم والظنون المنقولة بلا تصحيح صامت.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23",
+            "p24",
+            "p25"
+          ],
+          "referenced_by_claim_ids": [
+            "umm_mabad_food_terms",
+            "umm_mabad_speech_terms"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_umm_mabad_ibn_kathir",
+          "evidence_id": "H-4445-2190-CRIT-IBNKATHIRGENERAL",
+          "scope_ar": "مقطع ابن كثير كاملًا؛ أنساب وأسماء منقولة ثم تقوية إجمالية للقصة. لا يحول الحكم الإجمالي إلى تصحيح كل لفظ أو حسم اختلاف الأسماء.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "umm_mabad_ibn_kathir_scope"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_start",
+          "evidence_id": "H-12115-2296-CRIT-MABADHIDAYABEGIN",
+          "scope_ar": "بداية خبر حبيش في متن المشكاة الذي أثبته المحقق في هداية الرواة؛ تتمته في الانتقاء التالي. ليس ابتداءً مستقلاً للقصة.",
+          "required_part_ids": [
+            "p1",
+            "p2"
+          ],
+          "referenced_by_claim_ids": [
+            "umm_mabad_albani_scope"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_end",
+          "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+          "scope_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9"
+          ],
+          "referenced_by_claim_ids": [
+            "umm_mabad_albani_scope",
+            "umm_mabad_annotation_voice"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_umm_mabad_albani",
+          "evidence_id": "H-12115-2297-CRIT-MABADALBANI",
+          "scope_ar": "حاشية الألباني كاملة في نسختها الرقمية: العزو والاعتراض ثم احتمال التقوية والنقل عن الذهبي. رسم الجملة الأخيرة مضطرب ولم يقابل بمطبوع؛ لا يصحح هنا.",
+          "required_part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "referenced_by_claim_ids": [
+            "umm_mabad_albani_scope",
+            "umm_mabad_annotation_voice"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        },
+        {
+          "packet_id": "sp_umm_mabad_attribution",
+          "evidence_id": "H-12115-5-CRIT-ALBANIATTRIBUTION",
+          "scope_ar": "مقدمة الحلبي في مصدر حواشي الألباني؛ سياق لتعيين صاحب التعليق، وليس طريقًا تاريخيًا لحادثة الخيمة.",
+          "required_part_ids": [
+            "p1"
+          ],
+          "referenced_by_claim_ids": [
+            "umm_mabad_albani_scope",
+            "umm_mabad_annotation_voice"
+          ],
+          "use_role": "claim_reference_not_independent_certification"
+        }
+      ],
+      "people_roles": [
+        {
+          "name_ar": "أبو عبيد القاسم بن سلام",
+          "role_ar": "صاحب الشرح المنقول بإسناد أبي نعيم.",
+          "claim_ids": [
+            "umm_mabad_food_terms",
+            "umm_mabad_speech_terms"
+          ]
+        },
+        {
+          "name_ar": "ابن كثير",
+          "role_ar": "صاحب التقوية الإجمالية للقصة بطرقها.",
+          "claim_ids": [
+            "umm_mabad_ibn_kathir_scope"
+          ]
+        },
+        {
+          "name_ar": "الألباني",
+          "role_ar": "صاحب الحاشية المعترضة على صحة الإسناد مع احتمال التقوية.",
+          "claim_ids": [
+            "umm_mabad_albani_scope",
+            "umm_mabad_annotation_voice"
+          ]
+        },
+        {
+          "name_ar": "علي الحلبي",
+          "role_ar": "يبين في مقدمة التحقيق مصدر الحواشي الملحقة.",
+          "claim_ids": [
+            "umm_mabad_annotation_voice"
+          ]
+        }
+      ],
+      "place_mentions": [],
+      "learning_objectives": [
+        {
+          "objective_id": "umm_mabad_read_language",
+          "text_ar": "يفهم معنى الاعتدال في الكلام في شرح أبي عبيد.",
+          "claim_ids": [
+            "umm_mabad_speech_terms"
+          ]
+        },
+        {
+          "objective_id": "umm_mabad_read_judgments",
+          "text_ar": "يقارن تقوية ابن كثير للقصة واعتراض الألباني على الإسناد مع احتمال التقوية بالطرق.",
+          "claim_ids": [
+            "umm_mabad_ibn_kathir_scope",
+            "umm_mabad_albani_scope"
+          ]
+        },
+        {
+          "objective_id": "umm_mabad_read_voices",
+          "text_ar": "يميز تعليق الألباني من تخريج ابن حجر ومقدمة المحقق في الكتاب المطبوع.",
+          "claim_ids": [
+            "umm_mabad_annotation_voice"
+          ]
+        }
+      ],
+      "related_topic_ids": [],
+      "further_questions_ar": [],
+      "open_items_ar": [
+        "لم تستوعب هذه الدفعة جميع طرق الخبر أو أحكامها؛ لا اعتماد مستقل ولا ترجيح إسنادي جديد."
+      ],
+      "status": "arabic_extraction_draft_not_independently_approved",
+      "independent_language_approval": false,
+      "specialist_approval": false,
+      "public_distribution_approved": false,
+      "introduction_claim_ids": [
+        "umm_mabad_food_terms",
+        "umm_mabad_speech_terms",
+        "umm_mabad_ibn_kathir_scope",
+        "umm_mabad_albani_scope",
+        "umm_mabad_annotation_voice"
+      ]
+    }
+  ],
+  "source_packets": [
+    {
+      "packet_id": "sp_umm_mabad_story",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "scope_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32",
+        "p33"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 491,
+          "page_start": 0,
+          "page_end": 491,
+          "source_type_ar": "إسناد خبر حبيش",
+          "speaker_ar": "أبو نعيم بإسناده إلى حبيش بن خالد",
+          "text_ar": "٢٣٨ - حَدَّثَنَا سُلَيْمَانُ بْنُ أَحْمَدَ ثنا عَلِيُّ بْنُ عَبْدٍ الْعَزِيزِ وثنا أَبِي قَالَ: ثنا مُحَمَّدُ بْنُ مُحَمَّدِ بْنِ عُقْبَةَ الشَّيْبَانِيُّ وَمُحَمَّدُ بْنُ مُوسَى الْحُلْوَانِيُّ وثنا أَبُو حَامِدِ بْنُ جَبَلَةَ قَالَ مُحَمَّدُ بْنُ إِسْحَاقَ السِّرَاجُ قَالَ: ثنا مُكْرَمُ بْنُ مُحْرِزٍ الْكَعْبِيُّ الْخُزَاعِيُّ قَالَ: حَدَّثَنِي أَبِي مُحْرِزُ بْنُ مَهْدِيٍّ، عَنْ حِزَامِ بْنِ هِشَامٍ، عَنْ أَبِيهِ هِشَامٍ، عَنْ جَدِّهِ حُبَيْشِ بْنِ خَالِدٍ صَاحِبِ رَسُولِ اللَّهِ ﷺ: ",
+          "text_sha256": "dfadd169152c84c19e1fde7a992109f249a5f15939b4dadcf3f19d4f6540f295"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 491,
+          "record_end": 704,
+          "page_start": 491,
+          "page_end": 704,
+          "source_type_ar": "خبر حبيش: الركب وطلب الطعام",
+          "speaker_ar": "حبيش بن خالد في الرواية",
+          "text_ar": "أَنَّ رَسُولَ اللَّهِ ﷺ حِينَ خَرَجَ مِنْ مَكَّةَ خَرَجَ مِنْهَا مُهَاجِرًا هُوَ وَأَبُو بَكْرٍ وَمَوْلَى أَبِي بَكْرٍ عَامِرُ بْنُ فُهَيْرَةَ وَدَلِيلُهُمُ اللَّيْثِيُّ عَبْدُ اللَّهِ بْنُ أريقطٍ فَمَرُّوا عَلَى ",
+          "text_sha256": "718e6746e341ced75de10bd40e2f1f29e9b017ecbe927507050cf74a8602348a"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 704,
+          "record_end": 709,
+          "page_start": 704,
+          "page_end": 709,
+          "source_type_ar": "علامة حدود الصفحة المطبوعة",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "⦗٣٣٨⦘",
+          "text_sha256": "569691a3b53ca9449abf2c1391dc7029ce9e2c6189a6ee5cb889c30d1134bf7f"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 709,
+          "record_end": 1048,
+          "page_start": 709,
+          "page_end": 1048,
+          "source_type_ar": "خبر حبيش: الركب وطلب الطعام",
+          "speaker_ar": "حبيش بن خالد في الرواية",
+          "text_ar": " خَيْمَتَيْ أُمِّ مَعْبَدٍ الْخُزَاعِيَّةِ وَكَانَتْ بَرْزَةً جِلْدَةً تَحْتَبِي بِفِنَاءِ الْقُبَّةِ ثُمَّ تَسْقِي وَتُطْعِمُ فَسَأَلُوهَا لَحْمًا وَتَمْرًا لِيَشْتَرُوا مِنْهَا فَلَمْ يُصِيبُوا عِنْدَهَا شَيْئًا مِنْ ذَلِكَ وَكَانَ الْقَوْمُ مُرْمِلِينَ مُسْنِتِينَ فَنَظَرَ رَسُولُ اللَّهِ ﷺ إِلَى شَاةٍ فِي كِسَرِ الْخَيْمَةِ فَقَالَ: ",
+          "text_sha256": "12363b38c37b6965caea4a65f7e2f7f60efa48180331a387303a74160cccedb2"
+        },
+        {
+          "part_id": "p5",
+          "record_start": 1048,
+          "record_end": 1088,
+          "page_start": 1048,
+          "page_end": 1088,
+          "source_type_ar": "سؤال النبي عن الشاة",
+          "speaker_ar": "النبي ﷺ في خبر حبيش",
+          "text_ar": "مَا هَذِهِ الشَّاةُ يَا أُمَّ مَعْبَدٍ؟ ",
+          "text_sha256": "dd5de18b92b5a4b6d410f6a6566e1097cb0a625a96986051b6f000e35611237e"
+        },
+        {
+          "part_id": "p6",
+          "record_start": 1088,
+          "record_end": 1139,
+          "page_start": 1088,
+          "page_end": 1139,
+          "source_type_ar": "جواب أم معبد عن الشاة",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": "قَالَتْ: شَاةٌ خَلَّفَهَا الْجَهْدُ عَنِ الْغَنَمِ ",
+          "text_sha256": "815c144f56ab18ca371d68e4b6122ff66e126c4fcf97e87a34b593160282f1ae"
+        },
+        {
+          "part_id": "p7",
+          "record_start": 1139,
+          "record_end": 1165,
+          "page_start": 1139,
+          "page_end": 1165,
+          "source_type_ar": "سؤال النبي عن اللبن",
+          "speaker_ar": "النبي ﷺ في الخبر",
+          "text_ar": "قَالَ: بِهَا مِنْ لَبَنٍ؟ ",
+          "text_sha256": "744c63a64b4b856178e3c2d90e0cec6cc6354373b365a047de9a21d02926ff8b"
+        },
+        {
+          "part_id": "p8",
+          "record_start": 1165,
+          "record_end": 1200,
+          "page_start": 1165,
+          "page_end": 1200,
+          "source_type_ar": "جواب أم معبد عن اللبن",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": "قَالَتْ: هِيَ أَجْهَدُ مِنْ ذَلِكَ ",
+          "text_sha256": "24723e6ffe1ca85e28e504c2f26f6f15084bdb26907c711f671f95353a7a8551"
+        },
+        {
+          "part_id": "p9",
+          "record_start": 1200,
+          "record_end": 1244,
+          "page_start": 1200,
+          "page_end": 1244,
+          "source_type_ar": "استئذان النبي في الحلب",
+          "speaker_ar": "النبي ﷺ في الخبر",
+          "text_ar": "قَالَ أَفَتَأْذَنِينَ لِي أَنْ أَحْلِبَهَا؟ ",
+          "text_sha256": "05458871c9c377ad32609f10851fc429792b9d918dfd19db3666f7279328323d"
+        },
+        {
+          "part_id": "p10",
+          "record_start": 1244,
+          "record_end": 1325,
+          "page_start": 1244,
+          "page_end": 1325,
+          "source_type_ar": "إذن أم معبد",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": "قَالَتْ: بِأَبِي أَنْتَ وَأُمِّي نَعَمْ إِنْ رَأَيْتَ بِهَا حَلْبًا فَاحْلُبْهَا ",
+          "text_sha256": "ccac40849b59222e52f9224966227ee1a6a98273bc1a2af2f1e27327a859b700"
+        },
+        {
+          "part_id": "p11",
+          "record_start": 1325,
+          "record_end": 1794,
+          "page_start": 1325,
+          "page_end": 1794,
+          "source_type_ar": "خبر حبيش: الحلب والسقيا والرحيل",
+          "speaker_ar": "حبيش بن خالد في الرواية",
+          "text_ar": "فَدَعَا بِهَا رَسُولُ اللَّهِ ﷺ فَمَسَحَ ضَرْعَهَا بِيَدِهِ وَسَمَّى اللَّهَ ﷿ وَدَعَا لَهَا فِي شَاتِهَا فَتَفَاجَّتْ عَلَيْهِ وَدَرَّتْ وَاجْتَرَّتْ فَدَعَا بِإِنَاءٍ يَرِيْضُ الرَّهَطَ فَحَلَبَ فِيهِ ثَجًّا حَتَّى عَلَاهُ الْبَهَاءُ ثُمَّ سَقَاهَا حَتَّى رَوِيَتْ وَسَقَى أَصْحَابَهُ حَتَّى رَوُوا ثُمَّ شَرِبَ آخِرُهُمْ ﷺ ثُمَّ أَرَاضَوْا ثُمَّ حَلَبَ ثَانِيًا بَعْدَ بَدْءٍ حَتَّى مَلَأَ الْإِنَاءَ ثُمَّ غَادَرَهُ عِنْدَهَا وَبَايَعَهَا ثُمَّ ارْتَحَلُوا عَنْهَا ",
+          "text_sha256": "69664f29347931826fadcbb29fa7a2079dc1960ed57c71378c02e7b30e08934a"
+        },
+        {
+          "part_id": "p12",
+          "record_start": 1794,
+          "record_end": 1974,
+          "page_start": 1794,
+          "page_end": 1974,
+          "source_type_ar": "خبر حبيش: رجوع أبي معبد",
+          "speaker_ar": "حبيش بن خالد في الرواية",
+          "text_ar": "فَقَالَ مَا لَبِثَتْ إِذ جَاءَ زَوْجُهَا أَبُو مَعْبَدٍ يَسُوقُ أَعْنُزًا عِجَافًا يَتَسَاوَكْنَ هَزْلًا مُخُّهُنَّ قَلِيلٌ فَلَمَّا رَأَى أَبُو مَعْبَدٍ اللَّبَنَ عَجِبَ وَقَالَ: ",
+          "text_sha256": "568a590b2c5ffcc20d11a06d0b05f32e721413d7e32b0b1c73ddd29cc35ebf4c"
+        },
+        {
+          "part_id": "p13",
+          "record_start": 1974,
+          "record_end": 2055,
+          "page_start": 1974,
+          "page_end": 2055,
+          "source_type_ar": "سؤال أبي معبد عن اللبن",
+          "speaker_ar": "أبو معبد في الخبر",
+          "text_ar": "مِنْ أَيْنَ لَكِ هَذَا وَالشَّاةُ عَازِبٌ حَائِلٌ وَلَا حَلُوبَةَ فِي الْبَيْتِ؟ ",
+          "text_sha256": "065227d2d2d9fd15fabacb120520986cd1d0b57b80116bf371f2aed1af5908d2"
+        },
+        {
+          "part_id": "p14",
+          "record_start": 2055,
+          "record_end": 2149,
+          "page_start": 2055,
+          "page_end": 2149,
+          "source_type_ar": "جواب أم معبد عن الزائر",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": "قَالَتْ: لَا وَاللَّهِ إِلَّا أَنَّهُ مَرَّ بِنَا رَجُلٌ مُبَارَكٌ مِنْ حَالِهِ كَذَا وَكَذَا ",
+          "text_sha256": "841cd3fc401a9f2d984a3a4d5bff51ba13e5f112cf2b64f0f46500a59ad3fc7c"
+        },
+        {
+          "part_id": "p15",
+          "record_start": 2149,
+          "record_end": 2189,
+          "page_start": 2149,
+          "page_end": 2189,
+          "source_type_ar": "طلب أبي معبد وصف الزائر",
+          "speaker_ar": "أبو معبد في الخبر",
+          "text_ar": "فَقَالَ: صِفِيهِ لِي يَا أُمَّ مَعْبَدٍ ",
+          "text_sha256": "06349312ed5501790e733919e051c9285fe727953d62b42def1bb3ec4c0b9ff2"
+        },
+        {
+          "part_id": "p16",
+          "record_start": 2189,
+          "record_end": 2415,
+          "page_start": 2189,
+          "page_end": 2415,
+          "source_type_ar": "وصف أم معبد للزائر",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": "قَالَتْ: \" رَأَيْتُ رَجُلًا ظَاهِرَ الْوَضَاءَةِ أَبْلَجَ الْوَجْهِ حَسَنَ الْخَلْقِ لَمْ تَعِبْهُ ثَجْلَةٌ وَلَمْ تَزْرِ بِهِ صَعْلَةٌ وَسِيمٌ قَسِيمٌ فِي عَيْنَيْهِ دَعَجٌ وفِي أَشْفَارِهِ عَطَفٌ وَفِي صَوْتِهِ صَهَلٌ وَفِي ",
+          "text_sha256": "1b263049ef02a512119ae1385df1a1b480b3b17bfd881da0e985b1d660b255e0"
+        },
+        {
+          "part_id": "p17",
+          "record_start": 2415,
+          "record_end": 2420,
+          "page_start": 2415,
+          "page_end": 2420,
+          "source_type_ar": "علامة حدود الصفحة المطبوعة",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "⦗٣٣٩⦘",
+          "text_sha256": "ae20e3b7c3c71cd6fac3d3fa581be6ec0f2d62020dfb16196316b62025c7aec4"
+        },
+        {
+          "part_id": "p18",
+          "record_start": 2420,
+          "record_end": 3047,
+          "page_start": 2420,
+          "page_end": 3047,
+          "source_type_ar": "وصف أم معبد للزائر",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": " عُنُقِهِ سَطَعٌ وَفِي لِحْيَتِهِ كَثَاثَةٌ أَزَجُّ أَقْرَنُ إِنْ صَمَتَ فَعَلَيْهِ الْوَقَارُ وَإِنْ تَكَلَّمَ سَمَاهُ وَعَلَاهُ الْبَهَاءُ أَجْمَلُ النَّاسِ وَأَبْهَاهُم مِنْ بَعِيدٍ وَأَحْلَاهُ وَأَحْسَنُهُ مِنْ قَرِيبٍ حُلْوُ الْمَنْطِقِ فَصْلٌ لَا نَذْزٌ وَلَا هَذْرٌ كَأَنَّ مَنْطِقَهُ خَرَزَاتُ نَظْمٍ تحَدَّرْنَ رَبْعَةٌ لَا بَائِنُ مِنْ طُولٍ وَلَا تَقْتَحِمُهُ عَيْنٌ مِنْ قِصَرٍ غُصْنٌ بَيْنَ غُصْنَيْنِ هُوَ أَنْظَرُ الثَّلَاثَةِ مَنْظَرًا وَأَحْسَنُهُمْ قَدْرًا لَهُ رُفَقَاءُ يَحُفُّونَ بِهِ إِنْ قَالَ أَنْصَتُوا لِقَوْلِهِ وَإِنْ أَمَرَ تَبَادَرُوا إِلَى أَمْرِهِ مَحْفُودٌ مَحْشُودٌ لَا عَابِسَ وَلَا مُعْتَدَ ",
+          "text_sha256": "3df863b6372bf2ecd2137c9eace92b6031db7ca41fa22caefd9f860b5b512f71"
+        },
+        {
+          "part_id": "p19",
+          "record_start": 3047,
+          "record_end": 3243,
+          "page_start": 3047,
+          "page_end": 3243,
+          "source_type_ar": "تعرف أبي معبد ورغبته في الصحبة",
+          "speaker_ar": "أبو معبد في الخبر",
+          "text_ar": "قَالَ أَبُو مَعْبَدٍ: هُوَ وَاللَّهِ صَاحِبُ قُرَيْشٍ الَّذِي ذُكِرَ لَنَا مِنْ أَمْرِهِ مَا ذُكِرَ بِمَكَّةَ وَلَقَدْ هَمَمْتُ أَنْ أَصْحَبَهُ وَلَأَفْعَلَنَّ إِنْ وَجَدْتُ إِلَى ذَلِكَ سَبِيلًا ",
+          "text_sha256": "06a0c838c523206db450af95e30259060f00b3c76204bb784cb52573a9a14b5b"
+        },
+        {
+          "part_id": "p20",
+          "record_start": 3243,
+          "record_end": 3326,
+          "page_start": 3243,
+          "page_end": 3326,
+          "source_type_ar": "خبر الهاتف؛ خارج سرد الفصل",
+          "speaker_ar": "حبيش في الخبر المنقول",
+          "text_ar": "فَأَصْبَحَ صَوْتٌ بِمَكَّةَ عَالِيًا يَسْمَعُونَهُ وَلَا يَدْرُونَ مَنْ صَاحِبُهُ:\n",
+          "text_sha256": "34a5fa41bcc43e3f4044df466b4275350c0e9f93845b34d8c10fb9b2541288a0"
+        },
+        {
+          "part_id": "p21",
+          "record_start": 3326,
+          "record_end": 3340,
+          "page_start": 3326,
+          "page_end": 3340,
+          "source_type_ar": "وسم بحر الشعر في النسخة الرقمية؛ طبقته لم تتحقق بالمطبوع",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "[البحر الطويل]",
+          "text_sha256": "d2d828e99579d5695ae78bb2bea4361f0de41822842990054c802d2981e52aa1"
+        },
+        {
+          "part_id": "p22",
+          "record_start": 3340,
+          "record_end": 3342,
+          "page_start": 3340,
+          "page_end": 3342,
+          "source_type_ar": "خبر الهاتف؛ خارج سرد الفصل",
+          "speaker_ar": "حبيش في الخبر المنقول",
+          "text_ar": "\n\n",
+          "text_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+        },
+        {
+          "part_id": "p23",
+          "record_start": 3342,
+          "record_end": 3971,
+          "page_start": 3342,
+          "page_end": 3971,
+          "source_type_ar": "شعر منسوب إلى الهاتف في الخبر",
+          "speaker_ar": "قائل الهاتف غير مسمى في الرواية",
+          "text_ar": "جَزَى اللَّهُ رَبُّ النَّاسِ خَيْرَ جَزَائِهِ ... رَفِيقَيْنِ قَالَا خَيْمَتَيْ أُمِّ مَعْبَدِ\nهُمَا نَزَلَاهَا بِالْهُدَى وَاهْتَدَتْ بِهِ ... فَقَدْ فَازَ مَنْ أَمْسَى رَفِيقَ مُحَمَّدِ\nفَيَالَ قُصَيٍّ مَا زَوَى اللَّهِ عَنْهُمُ ... بِهِ مِنْ فِعَالٍ لَا تُجَازَى سُؤْدُدِ\nلِيَهْنِ بَنِي كَعْبٍ مَقَامُ فَتَاتِهِمْ ... وَمَقْعَدُهَا لِلْمُؤْمِنِينَ بِمَرْصَدِ\nسَلُوا أُخْتَكُمْ عَنْ شَاتِهَا وَإِنَائِهَا ... فَإِنَّكُمُ إِنْ تَسْأَلُوا الشَّاةَ تْشَهَدِ\nدَعَاهَا بِشَاةٍ حَائِلٍ فَتَحَلَّبَتْ ... عَلَيْهِ صَرِيحًا ضَرَّةُ الشَّاةِ مُزْبِدِ\nفَغَادَرهاَ رَهْنًا لَدَيْهَا لِحَالِبٍ ... يُرَدِّدُهَا فِي مَصْدَرٍ ثُمَّ مَوْرِدِ\n",
+          "text_sha256": "764b0fbbb29e9073d691a893a0722022fa493445058549aaf303bb28b5ffeee7"
+        },
+        {
+          "part_id": "p24",
+          "record_start": 3971,
+          "record_end": 3973,
+          "page_start": 3971,
+          "page_end": 3973,
+          "source_type_ar": "شعر منسوب إلى الهاتف في الخبر",
+          "speaker_ar": "قائل الهاتف غير مسمى في الرواية",
+          "text_ar": ". ",
+          "text_sha256": "8dccf256f6d5783e62bba717ef04a6cfcea41d9befffa5ade55235e0b6a0eeb0"
+        },
+        {
+          "part_id": "p25",
+          "record_start": 3973,
+          "record_end": 4018,
+          "page_start": 3973,
+          "page_end": 4018,
+          "source_type_ar": "تعليق أبي نعيم في اختلاف موضع الصوت",
+          "speaker_ar": "أبو نعيم يعرض اختلاف الرواية",
+          "text_ar": "وَفِي رِوَايَةِ أَبِي عَمْرِو بْنِ حَمْدَانَ ",
+          "text_sha256": "224a3b3d924b3560ef78197b22c70883af63e51751aee6118cb69305e94d00a5"
+        },
+        {
+          "part_id": "p26",
+          "record_start": 4018,
+          "record_end": 4125,
+          "page_start": 4018,
+          "page_end": 4125,
+          "source_type_ar": "تعليق أبي نعيم في اختلاف موضع الصوت",
+          "speaker_ar": "أبو نعيم يعرض اختلاف الرواية",
+          "text_ar": "وَأَصْبَحَ صَوْتٌ بِالْمَدِينَةِ بَيْنَ السَّمَاءِ وَالْأَرْضِ يَسْمَعُونهَُ وَلَا يَرَوْنَ مَنْ يَقُولُهُ ",
+          "text_sha256": "c862cce738543659b754bdb170e596e6844357c36b911b979087f74872db47f2"
+        },
+        {
+          "part_id": "p27",
+          "record_start": 4125,
+          "record_end": 4130,
+          "page_start": 4125,
+          "page_end": 4130,
+          "source_type_ar": "علامة حدود الصفحة المطبوعة",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "⦗٣٤٠⦘",
+          "text_sha256": "d999b4063d33d8d53415ffd28734c0e165a4b21b87a65839e4af69d54e1a9ae7"
+        },
+        {
+          "part_id": "p28",
+          "record_start": 4130,
+          "record_end": 4132,
+          "page_start": 4130,
+          "page_end": 4132,
+          "source_type_ar": "تعليق أبي نعيم في اختلاف موضع الصوت",
+          "speaker_ar": "أبو نعيم يعرض اختلاف الرواية",
+          "text_ar": ". ",
+          "text_sha256": "8dccf256f6d5783e62bba717ef04a6cfcea41d9befffa5ade55235e0b6a0eeb0"
+        },
+        {
+          "part_id": "p29",
+          "record_start": 4132,
+          "record_end": 4161,
+          "page_start": 4132,
+          "page_end": 4161,
+          "source_type_ar": "تعليق العودة إلى الرواية الأولى وخبر جواب حسان",
+          "speaker_ar": "أبو نعيم ثم الخبر المنقول",
+          "text_ar": "وَفِي الرِّوَايَةِ الْأُولَى ",
+          "text_sha256": "37cc5c359a002ebb647acbb513066d36b5028792c07100bce2a656ff4e565237"
+        },
+        {
+          "part_id": "p30",
+          "record_start": 4161,
+          "record_end": 4269,
+          "page_start": 4161,
+          "page_end": 4269,
+          "source_type_ar": "تعليق العودة إلى الرواية الأولى وخبر جواب حسان",
+          "speaker_ar": "أبو نعيم ثم الخبر المنقول",
+          "text_ar": "فَلَمَّا سَمِعَ حَسَّانُ بْنُ ثَابِتٍ الْأَنْصَارِيُّ الْهَاتِفَ شَبَّ يُجَاوِبُ الْهَاتِفَ وَهُوَ يَقُولُ:\n",
+          "text_sha256": "1e77d4b9e5976b0325a498329bfd8e4c875666c307f4904529d56f85a7a1f1ab"
+        },
+        {
+          "part_id": "p31",
+          "record_start": 4269,
+          "record_end": 4283,
+          "page_start": 4269,
+          "page_end": 4283,
+          "source_type_ar": "وسم بحر الشعر في النسخة الرقمية؛ طبقته لم تتحقق بالمطبوع",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "[البحر الطويل]",
+          "text_sha256": "d2d828e99579d5695ae78bb2bea4361f0de41822842990054c802d2981e52aa1"
+        },
+        {
+          "part_id": "p32",
+          "record_start": 4283,
+          "record_end": 4285,
+          "page_start": 4283,
+          "page_end": 4285,
+          "source_type_ar": "تعليق العودة إلى الرواية الأولى وخبر جواب حسان",
+          "speaker_ar": "أبو نعيم ثم الخبر المنقول",
+          "text_ar": "\n\n",
+          "text_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+        },
+        {
+          "part_id": "p33",
+          "record_start": 4285,
+          "record_end": 5113,
+          "page_start": 4285,
+          "page_end": 5113,
+          "source_type_ar": "شعر منسوب إلى حسان في الخبر",
+          "speaker_ar": "حسان بن ثابت بحسب نسبة الخبر",
+          "text_ar": "لَقَدْ خَابَ قَوْمٌ زَالَ عَنْهُمْ نَبِيُّهُمْ ... وَقُدِّسَ مَنْ يَسْرِي إِلَيْهِ وَيَغْتَدِي\nتَرَحَّلَ عَنْ قَوْمٍ فَضَلَّتْ عُقُولُهُمْ ... وَحَلَّ عَلَى قَوْمٍ بِنُورِ مُجَدِّدِ\nهَدَاهُمْ بِهِ بَعْدَ الضَّلَالَةِ رَبُّهُمْ ... فَأَرْشَدَهُمْ مَنْ يَتْبَعِ الْحَقَّ يَرْشُدِ\nوَهَلْ يَسْتَوِي ضُلَّالُ قَوْمٍ تَسَفَّهُوا ... عِمَايَتُهُمْ هَادٍ بِهِ كُلُّ مُهْتَدِي\nوَقَدْ نَزَلَتْ مِنْهُ عَلَى أَهْلِ يَثْرِبَ ... رِكَابُ هُدًى حَلَّتْ عَلَيْهِمْ بِأَسْعَدِ\nنَبِيُّ يَرَى مَا لَا يَرَى النَّاسُ حَوْلَهُ ... وَيَتْلُو كِتَابَ اللَّهِ فِي كُلِّ مَسْجِدِ\nوَإِنْ قَالَ فِي يَوْمٍ مَقَالَةَ غَائِبٍ ... فَتَصْدِيقُهَا فِي الْيَوْمِ أَوْ فِي ضُحَى الْغَدِ\nلِيَهْنِ أَبَا بَكْرٍ سَعَادَةُ جَدِّهِ ... بِصُحْبَتِهِ مَنْ يُسْعِدِ اللَّهُ يَسْعَدِ\nلِيَهْنِ بَنِي كَعْبٍ مَقَامُ فَتَاتِهِمْ ... وَمَقْعَدُهَا لِلْمُؤْمِنِينَ بِمَرْصَدِ",
+          "text_sha256": "eb6f649017983cd6bc43fa88512b45b4d68e63c276951b117e316776fb62f04d"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 5113,
+      "selected_text_sha256": "53ae8b094066b31afc30dd14c2b2677c42a0ee490374c43be57bba9bde53d627",
+      "source_excerpt_sha256": "53ae8b094066b31afc30dd14c2b2677c42a0ee490374c43be57bba9bde53d627",
+      "book_id": 10637,
+      "page_id": 290,
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "الإسناد يجمع طرق أبي نعيم إلى مكرم بن محرز وأبيه وحزام وهشام وحبيش، لا يستقل كل كتاب متأخر يقتبسه",
+        "حدود الصفحات المطبوعة ⦗ ⦘ محفوظة حرفيًا وموسومة داخل مكونات النص؛ رقم الصفحة في البيانات أول المقطع لا جميع صفحاته",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو نعيم الأصبهاني",
+      "edition_ar": "الكتاب: دلائل النبوة\nالمؤلف: أبو نعيم الأصبهاني (ت ٤٣٠ هـ)\nحققه: الدكتور محمد رواس قلعه جي، عبد البر عباس\nالناشر: دار النفائس، بيروت\nالطبعة: الثانية، ١٤٠٦ هـ - ١٩٨٦ م\nعدد الصفحات: ٦٤٠\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "حبيش بن خالد؛ وأم معبد وأبو معبد في المتن؛ وأبو نعيم في فروق النقل",
+      "source_type_metadata_ar": "خبر تاريخي أو حديث مسند",
+      "source_page_sha256": "dcc37eac919c970d8823d5beb832a4afedfc3528bdf379c02745175598320e6b",
+      "source_isnad_metadata_ar": "٢٣٨ - حَدَّثَنَا سُلَيْمَانُ بْنُ أَحْمَدَ ثنا عَلِيُّ بْنُ عَبْدٍ الْعَزِيزِ وثنا أَبِي قَالَ: ثنا مُحَمَّدُ بْنُ مُحَمَّدِ بْنِ عُقْبَةَ الشَّيْبَانِيُّ وَمُحَمَّدُ بْنُ مُوسَى الْحُلْوَانِيُّ وثنا أَبُو حَامِدِ بْنُ جَبَلَةَ قَالَ مُحَمَّدُ بْنُ إِسْحَاقَ السِّرَاجُ قَالَ: ثنا مُكْرَمُ بْنُ مُحْرِزٍ الْكَعْبِيُّ الْخُزَاعِيُّ قَالَ: حَدَّثَنِي أَبِي مُحْرِزُ بْنُ مَهْدِيٍّ، عَنْ حِزَامِ بْنِ هِشَامٍ، عَنْ أَبِيهِ هِشَامٍ، عَنْ جَدِّهِ حُبَيْشِ بْنِ خَالِدٍ صَاحِبِ رَسُولِ اللَّهِ ﷺ: ",
+      "related_evidence_ids": [
+        "H-6569-30-RA-UMM-HUBAYSH"
+      ]
+    },
+    {
+      "packet_id": "sp_umm_mabad_gloss",
+      "evidence_id": "H-10637-290-RA-UMM-GLOSS",
+      "scope_ar": "شرح أبي عبيد بإسناده كما نقله أبو نعيم، كاملًا في حدود الدفتر. الشواهد الشعرية والقول النبوي المستشهد به والاقتباس القرآني ليست من حوار الخيمة. بقيت الرسوم والظنون المنقولة بلا تصحيح صامت.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 154,
+          "page_start": 5371,
+          "page_end": 5525,
+          "source_type_ar": "إسناد الشرح إلى أبي عبيد",
+          "speaker_ar": "أبو نعيم بإسناده إلى أبي عبيد القاسم بن سلام",
+          "text_ar": "حَدَّثَنَا سُلَيْمَانُ بْنُ أَحْمَدَ إِمْلَاءً وَقِرَاءَةً قَالَ: ثنا عَلِيُّ بْنُ عَبْدِ الْعَزِيزِ قَالَ: قَالَ أَبُو عُبَيْدٍ الْقَاسِمُ بْنُ سَلَامٍ: ",
+          "text_sha256": "13df07cae882c803ad0e08e5d492e042003441e2e7e07b27483514e2e3f28efe"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 154,
+          "record_end": 435,
+          "page_start": 5525,
+          "page_end": 5806,
+          "source_type_ar": "شرح البرزة والإرمال والإسنات",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "الْبَرَزَةُ مِنَ النِّسَاءِ: الْجَلْدَةُ تَظْهَرُ لِلنَّاسِ وَيَجْلِسُ إِلَيْهَا الْقَوْمُ وَقَوْلُهُ: كَانَ الْقَوْمُ مُرْمِلِينَ مُسْنِتِينَ الْمُرْمِلُ: الَّذِي قَدْ نَفِدَ زَادُهُ وَقَوْلُهُ: مُسْنِتِينَ هُمُ الَّذِينَ أَصَابَتْهُمُ السَّنَةُ وَهِيَ الْأَزْمَةُ وَالْمَجَاعَةُ ",
+          "text_sha256": "fb577907420cbb30ab9c848a38f9f46dea014451c840be38b3ea85968e6685fb"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 435,
+          "record_end": 533,
+          "page_start": 5806,
+          "page_end": 5904,
+          "source_type_ar": "شرح لغوي وشاهد على الثج",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "قَالَ أَبُو عُبَيْدٍ: إِذَا قَالَ: يَالَ فُلَانٍ فَذَلِكَ فِي الِاسْتِغَاثَةِ بِالْفَتْحِ وَيَالَ ",
+          "text_sha256": "9b439859cea75f8e8a3730a0d88a2cbf5a5377fbaa432f3a4adb4ad3badad4bf"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 533,
+          "record_end": 538,
+          "page_start": 5904,
+          "page_end": 5909,
+          "source_type_ar": "علامة حدود الصفحة المطبوعة",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "⦗٣٤١⦘",
+          "text_sha256": "9148cc53998d1a5fc4b95f95dc44b738f05186ddb8c04ee376b3aca0a3cf521f"
+        },
+        {
+          "part_id": "p5",
+          "record_start": 538,
+          "record_end": 1115,
+          "page_start": 5909,
+          "page_end": 6486,
+          "source_type_ar": "شرح لغوي وشاهد على الثج",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": " الْمُسْلِمِينَ وَإِذَا أَرَادَ التَّعَجُّبَ وَالنِّدَاءَ قَالَ: يَالِ فُلَانٍ بِالْكَسْرِ وَقَوْلُهُ: كِسَرُ الْخَيْمَةِ: هُوَ مُؤَخَّرُهَا وَفِيهِ لُغَتَانِ كِسَرِ وَكَسْرِ، وَقَالَ بَعْضُهُمُ: الْكِسَرُ هُوَ فِي مُقَدَّمِ الْخَيْمَةِ وَقَوْلُهُ: فَتَفَاجَّتْ عَلَيْهِ: يَعْنِي فَرَّجَتْ رِجْلَيْهَا كَمَا تَفْعَلُ الَّتِي تُحْلَبُ وَقَوْلُهُ: بِإِنَاءِ يَرْيِضُ الرَّهَطَ أَيْ يُنَهْنِهُهُمْ مِمَّا يَجْتَرِيهِمْ لِكَثْرَتِهِ إِذَا شَرِبُوهُ وَقَوْلُهُ: فَحَلَبَ فِيهَا ثَجًّا يَعْنِي سَيْلًا وَكَذَلِكَ كُلُّ سَيْلٍ وَمِنْهُ قَوْلُهُ ﷺ وَقَدْ سُئِلَ عَنِ الْحَجِّ فَقَالَ: ",
+          "text_sha256": "8418bb202e0c9c048f7732310d15338c9ad612c07ce2dc4c37afd7e0742f334a"
+        },
+        {
+          "part_id": "p6",
+          "record_start": 1115,
+          "record_end": 1135,
+          "page_start": 6486,
+          "page_end": 6506,
+          "source_type_ar": "قول نبوي يستشهد به الشارح؛ ليس حوار الخيمة",
+          "speaker_ar": "منقول عن النبي ﷺ في شرح أبي عبيد",
+          "text_ar": "الْعَجُّ وَالثَّجُّ ",
+          "text_sha256": "cc307b106b03a0a14d90d7471541a53612c4a9db85fcae2b0c3215e18453a274"
+        },
+        {
+          "part_id": "p7",
+          "record_start": 1135,
+          "record_end": 1643,
+          "page_start": 6506,
+          "page_end": 7014,
+          "source_type_ar": "شرح الثج والإراضة والتساوك والعزوب",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "فَالْعَجُّ رَفْعُ الصَّوْتِ بِالتَّلْبِيَةِ وَالثَّجُّ سَيْلُ دِمَاءِ الْهَدْيِ وَقَوْلُهُ: أَرَاضُوا: أَصْلُ هَذَا فِي صَبِّ اللَّبَنِ عَلَى اللَّبَنِ وَمَعْنَى قَوْلِهَا أَرَاضُوا: هُوَ شُرْبُ لَبَنٍ صُبَّ عَلَى لَبَنٍ وَقَوْلُهُ فَغَادَرَهُ عِنْدَهَا: يَقُولُ: تَرَكَهُ وَقَوْلُهُ: يَسُوقُ أَعْنُزًا تَسَاوَكْنَ هُزْلًا وَالتَّسَاوُكُ: الْمَشْيُ الضَّعِيفُ وَقَوْلُهُ: وَالشَّاةُ عَازِبٌ يَعْنِي قَدْ عَزِبْنَ عَنِ الْبَيْتِ فَخَرَجْنَ إِلَى الْمَرْعَى وَقَوْلُهُ: الْحِيَّلُ الَّتِي لَيْسَتْ بِحَوَامِلَ ",
+          "text_sha256": "dd4ecd6e8749b572f5e4d88f34f7afe5a88913c49ffda96736594e6bef4b752c"
+        },
+        {
+          "part_id": "p8",
+          "record_start": 1643,
+          "record_end": 1857,
+          "page_start": 7014,
+          "page_end": 7228,
+          "source_type_ar": "شرح الوضاءة والبلج",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "وَقَوْلُهَا فِي صِفَةِ رَسُولِ اللَّهِ ﷺ: ظَاهِرُ الْوَضَاءَةِ يَعْنِي الْجَمَالَ وَالْوَضِيءُ الْجَمِيلُ وَالْمُتَبَلِّجُ: الْوَجْهُ الَّذِي فِيهِ إِضَاءَةٌ وَنُورٌ رَجُلٌ مُتَبَلِّجٌ وَأَبْلَجُ قَالَ الْأَعْشَى:\n",
+          "text_sha256": "948cf758082d4509351c457f11009d02b5d663692dc967295f4ca3ef830cb2ae"
+        },
+        {
+          "part_id": "p9",
+          "record_start": 1857,
+          "record_end": 1871,
+          "page_start": 7228,
+          "page_end": 7242,
+          "source_type_ar": "وسم بحر الشعر في النسخة الرقمية؛ طبقته لم تتحقق بالمطبوع",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "[البحر السريع]",
+          "text_sha256": "41bdf03a2f65361bf40de52ede8f502cea2d8723fadaed16329e1814736d5fba"
+        },
+        {
+          "part_id": "p10",
+          "record_start": 1871,
+          "record_end": 1873,
+          "page_start": 7242,
+          "page_end": 7244,
+          "source_type_ar": "شرح الوضاءة والبلج",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "\n\n",
+          "text_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+        },
+        {
+          "part_id": "p11",
+          "record_start": 1873,
+          "record_end": 1948,
+          "page_start": 7244,
+          "page_end": 7319,
+          "source_type_ar": "شاهد شعري منسوب إلى الأعشى",
+          "speaker_ar": "الأعشى بنقل الشارح",
+          "text_ar": "حَكَّمْتُمُوهُ فَقَضَى بَيْنَكُمْ ... أَبْلَجَ مِثْلَ الْقَمَرِ الْبَاهِرِ\n",
+          "text_sha256": "cb623cd93228143ba4459a2c025e830af8068da739fd11ae228fc360344e6a8c"
+        },
+        {
+          "part_id": "p12",
+          "record_start": 1948,
+          "record_end": 2044,
+          "page_start": 7319,
+          "page_end": 7415,
+          "source_type_ar": "شرح الثجلة والصعلة والوسامة",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "وَقَوْلُهَا: لَمْ تَعِبْهُ ثَجْلَةٌ وَمَعْنَاهُ عِظَمُ الْبَطْنِ تَقُولُ: فلَيْسَ هُوَ كَذَلِكَ ",
+          "text_sha256": "22674eeef243bd044d5398a5e75482045b8a09bef192053ea55038e6e4b555ce"
+        },
+        {
+          "part_id": "p13",
+          "record_start": 2044,
+          "record_end": 2049,
+          "page_start": 7415,
+          "page_end": 7420,
+          "source_type_ar": "علامة حدود الصفحة المطبوعة",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "⦗٣٤٢⦘",
+          "text_sha256": "7eb51eac6b58e1d2161552a60c17afdce460f9b9cf1c37642879a1a6db57337a"
+        },
+        {
+          "part_id": "p14",
+          "record_start": 2049,
+          "record_end": 2236,
+          "page_start": 7420,
+          "page_end": 7607,
+          "source_type_ar": "شرح الثجلة والصعلة والوسامة",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": " وَقَوْلُهَا: لَمْ تَزْرِ بِهِ صَعْلَةٌ تُرِيدُ صِغَرَ الرَّأْسِ يُقَالُ رَجُلٌ صَعْلٌ وَقَوْلُهَا: وَسِيمٌ قَسِيمٌ كِلَاهُمَا هُوَ الْجَمَالُ قَالَ: وَقَالَ الشَّاعِرُ يَمْدَحُ قَوْمًا:\n",
+          "text_sha256": "ec651e3cc7b3d267dc7bd4c03b1c86c16db220e4dbfda610c83e011577b20491"
+        },
+        {
+          "part_id": "p15",
+          "record_start": 2236,
+          "record_end": 2250,
+          "page_start": 7607,
+          "page_end": 7621,
+          "source_type_ar": "وسم بحر الشعر في النسخة الرقمية؛ طبقته لم تتحقق بالمطبوع",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "[البحر الطويل]",
+          "text_sha256": "d2d828e99579d5695ae78bb2bea4361f0de41822842990054c802d2981e52aa1"
+        },
+        {
+          "part_id": "p16",
+          "record_start": 2250,
+          "record_end": 2252,
+          "page_start": 7621,
+          "page_end": 7623,
+          "source_type_ar": "شرح الثجلة والصعلة والوسامة",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "\n\n",
+          "text_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+        },
+        {
+          "part_id": "p17",
+          "record_start": 2252,
+          "record_end": 2338,
+          "page_start": 7623,
+          "page_end": 7709,
+          "source_type_ar": "شاهد شعري في القسمات",
+          "speaker_ar": "شاعر غير مسمى في هذا الموضع",
+          "text_ar": "كَأَنَّ دَنَانِيرَ عَلَى قَسَمَاتِهِمْ ... وَإِنْ كَانَ قَدْ شَفَّ الْوُجُوهَ لِقَاءُ\n",
+          "text_sha256": "ade851b38693a5cb00d7b3c5840ea859b64fc74d41ea8b954867fc103d11131f"
+        },
+        {
+          "part_id": "p18",
+          "record_start": 2338,
+          "record_end": 3198,
+          "page_start": 7709,
+          "page_end": 8569,
+          "source_type_ar": "شرح صفات الوجوه والعين والصوت والحاجبين",
+          "speaker_ar": "أبو عبيد؛ وفيه ظنه في بعض الألفاظ",
+          "text_ar": "يَقُولُ: وَإِنْ كَانَ لِقَاءُ الْحَرْبِ قَدْ شَفَّهُمْ فَإِنَّ جَمَالَهُ عَلَى حَالِهِ يُرِيدُ بِالْقَسَمَاتِ الْوُجُوهَ الْحِسَانَ وَقَوْلُهَا: فِي عَيْنَيْهِ دَعَجٌ وهُوَ سَوَادُ الْحَدَقَةِ يُقَالُ: رَجُلٌ أَدْعَجُ وَامْرَأَةٌ دَعْجَاءُ وَقَوْلُهَا فِي أَشْفَارِهِ عَطَفٌ كَانَ بَعْضُ النَّاسِ يَظُنُّهَا مَعْطُوفَةً وَأَنَا أَظُنُّهَا وَطْفًا وَكَذَلِكَ كُلُّ مُسْتَطِيلٍ مُسْتَرْسِلٍ. . وَأَيْضًاالسَّحَابَةُ الدَّانِيَةُ مِنَ الْأَرْضِ وَطْفٌ وَقَوْلُهَا: فِي صَوْتِهِ صَهَلٌ إِنَّهُ صَحَلَ وَهُوَ شَبِيهٌ بِالْبَحَحِ وَلَيْسَ بِالشَّدِيدِ مِنْهُ وَلكَنَّهُ حَسَنٌ وَبِذَلِكَ تُوصَفُ الظِّبَاءُ وَقَوْلُهَا: فِي عُنُقِهِ سَطَعٌ هُوَ الطُّولُ يُقَالُ مِنْهُ رَجُلٌ أَسْطَعُ وَامْرَأَةٌ سَطْعَاءُ وَهَذَا مِمَّا يُمْدَحُ بِهِ النَّاسُ، وَقَوْلُهَا: أَزَجُّ هُوَ الْمُقَوَّسُ الْحَاجِبَيْنِ وَالْأَقْرَنُ: هُوَ الَّذِي الْتَقَى حَاجِبَاهُ بَيْنَ عَيْنَيْهِ ",
+          "text_sha256": "aab4a0b8173fa9734c7c3cd44e475531351d6b98d4379366c3c5b41c43599c60"
+        },
+        {
+          "part_id": "p19",
+          "record_start": 3198,
+          "record_end": 3438,
+          "page_start": 8569,
+          "page_end": 8809,
+          "source_type_ar": "شرح الاعتدال في الكلام والقامة",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "وقَوْلُهَا: مَنْطِقُهُ لَا نَزْرَ وَلَا هَذْرَ فَالنَّزْرُ الْقَلِيلُ وَالْهَذْرُ الْكَثِيرُ تَقُولُ: قَصْدٌ بَيْنَ ذَلِكَ وَقَوْلُهَا: لَا تقتَحِمُهُ عَيْنٌ مِنْ قِصَرٍ تَقُولُ: لَا تَزْدَرِيهِ فَتَنْبِذُهُ وَلَكِنْ تَقْبَلُهُ وَتَهَابُهُ ",
+          "text_sha256": "e3d9979e21af4ad5a70faceb1b1ab263a966fb488021643696f03337168e0813"
+        },
+        {
+          "part_id": "p20",
+          "record_start": 3438,
+          "record_end": 3443,
+          "page_start": 8809,
+          "page_end": 8814,
+          "source_type_ar": "علامة حدود الصفحة المطبوعة",
+          "speaker_ar": "تنسيق النسخة الرقمية",
+          "text_ar": "⦗٣٤٣⦘",
+          "text_sha256": "b9f4e1d2e3e57022e91ae95772946d21b454df9691d7b754eef70acaa1849684"
+        },
+        {
+          "part_id": "p21",
+          "record_start": 3443,
+          "record_end": 3444,
+          "page_start": 8814,
+          "page_end": 8815,
+          "source_type_ar": "شرح الاعتدال في الكلام والقامة",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": " ",
+          "text_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+        },
+        {
+          "part_id": "p22",
+          "record_start": 3444,
+          "record_end": 3522,
+          "page_start": 8815,
+          "page_end": 8893,
+          "source_type_ar": "شرح المحفود واستشهاد لغوي بالقرآن",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "وَقَوْلُهَا: مَحْفُودٌ مَحْشُودٌ فَالْمَحْفُودُ الْمَخْدُومُ قَالَ اللَّهُ ﷿: ",
+          "text_sha256": "fd7d98208efc4acdb42fde9562bb936e0845e7a123ab7ea1d94e9867e9b74a2c"
+        },
+        {
+          "part_id": "p23",
+          "record_start": 3522,
+          "record_end": 3542,
+          "page_start": 8893,
+          "page_end": 8913,
+          "source_type_ar": "اقتباس قرآني في شرح لغوي؛ غير مقابل بمصحف",
+          "speaker_ar": "اقتباس في شرح أبي عبيد",
+          "text_ar": "﴿بَنِينَ وَحَفَدَةً﴾",
+          "text_sha256": "52375835951d0a28fb9b0aba49413a90e8cdbc11d95b6edee4a72bb3c8a7321d"
+        },
+        {
+          "part_id": "p24",
+          "record_start": 3542,
+          "record_end": 3555,
+          "page_start": 8913,
+          "page_end": 8926,
+          "source_type_ar": "شرح المحفود واستشهاد لغوي بالقرآن",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": " [النحل: ٧٢] ",
+          "text_sha256": "af4840b5e64c5070bc04322287adae671948b51ccac5c0f5d2a2d43ac24f65eb"
+        },
+        {
+          "part_id": "p25",
+          "record_start": 3555,
+          "record_end": 3642,
+          "page_start": 8926,
+          "page_end": 9013,
+          "source_type_ar": "شرح المحشود",
+          "speaker_ar": "أبو عبيد",
+          "text_ar": "وَمَحْشُودٌ: هُوَ الَّذِي قَدْ حَشَدَهُ أَصْحَابُهُ وَحَفُّوا حَوْلَهُ وَأَطَافُوا بِهِ",
+          "text_sha256": "24fbacf85bddba21bb6f765639300a165d0f73003c19bdc787a2061616bb245e"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 3642,
+      "selected_text_sha256": "7eff0f804dfe1a5de847decf23c6d789780f31d4480a9783c102a2fc6261b79c",
+      "source_excerpt_sha256": "7eff0f804dfe1a5de847decf23c6d789780f31d4480a9783c102a2fc6261b79c",
+      "book_id": 10637,
+      "page_id": 290,
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/٣٤٠](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "retrieved_at": "2026-10-02T19:51:27.646423+00:00",
+      "source_notes_ar": [
+        "حدود الصفحات المطبوعة ⦗ ⦘ محفوظة حرفيًا وموسومة داخل مكونات النص؛ رقم الصفحة في البيانات أول المقطع لا جميع صفحاته",
+        "مقطع حرفي متصل؛ الرسم والتشكيل والاختصارات كما في الأصل الرقمي"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "أبو نعيم الأصبهاني",
+      "edition_ar": "الكتاب: دلائل النبوة\nالمؤلف: أبو نعيم الأصبهاني (ت ٤٣٠ هـ)\nحققه: الدكتور محمد رواس قلعه جي، عبد البر عباس\nالناشر: دار النفائس، بيروت\nالطبعة: الثانية، ١٤٠٦ هـ - ١٩٨٦ م\nعدد الصفحات: ٦٤٠\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "أبو عبيد القاسم بن سلام بنقل أبي نعيم",
+      "source_type_metadata_ar": "شرح منقول بإسناد",
+      "source_page_sha256": "dcc37eac919c970d8823d5beb832a4afedfc3528bdf379c02745175598320e6b",
+      "source_isnad_metadata_ar": "حَدَّثَنَا سُلَيْمَانُ بْنُ أَحْمَدَ إِمْلَاءً وَقِرَاءَةً قَالَ: ثنا عَلِيُّ بْنُ عَبْدِ الْعَزِيزِ قَالَ: قَالَ أَبُو عُبَيْدٍ الْقَاسِمُ بْنُ سَلَامٍ: ",
+      "related_evidence_ids": []
+    },
+    {
+      "packet_id": "sp_umm_mabad_ibn_kathir",
+      "evidence_id": "H-4445-2190-CRIT-IBNKATHIRGENERAL",
+      "scope_ar": "مقطع ابن كثير كاملًا؛ أنساب وأسماء منقولة ثم تقوية إجمالية للقصة. لا يحول الحكم الإجمالي إلى تصحيح كل لفظ أو حسم اختلاف الأسماء.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 602,
+          "page_start": 536,
+          "page_end": 1138,
+          "source_type_ar": "أنساب وأسماء منقولة",
+          "speaker_ar": "ابن كثير ينقل أقوال من سماهم",
+          "text_ar": "وَاجْتَازَ فِي مُرُورِهِ عَلَى أُمِّ مَعْبَدٍ بِنْتِ كَعْبٍ مِنْ بَنِي كَعْبِ بْنِ خُزَاعَةَ، قَالَهُ ابْنُ هِشَامٍ. وَقَالَ يُونُسُ، عَنِ ابْنِ إِسْحَاقَ: اسْمُهَا عَاتِكَةُ بِنْتُ خَالِدِ بْنِ مُنْقِذِ بْنِ رَبِيعَةَ بْنِ أَصْرَمَ. وَقَالَ الْأُمَوِيُّ: هِيَ عَاتِكَةُ بِنْتُ تَبِيعٍ حَلِيفِ بَنِي مُنْقِذِ بْنِ رَبِيعَةَ بْنِ أَصْرَمَ بْنِ ضَبِيسِ بْنِ حَرَامِ بْنِ حُبْشِيَّةَ بْنِ كَعْبِ بْنِ عَمْرٍو، وَلِهَذِهِ الْمَرْأَةِ مِنَ الْوَلَدِ، مَعْبَدٌ، وَنَضْرَةٌ، وَحُنَيْدَةُ، بَنُو أَبِي مَعْبَدٍ، وَاسْمُهُ أَكْثَمُ بْنُ عَبْدِ الْعُزَّى بْنِ مُنْقِذِ بْنِ رَبِيعَةَ بْنِ أَصْرَمَ بْنِ ضَبِيسٍ، ",
+          "text_sha256": "79057515c392055769d538de5c60f033de14fe98bfee3f00a96d9f8d0f68853a"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 602,
+          "record_end": 677,
+          "page_start": 1138,
+          "page_end": 1213,
+          "source_type_ar": "تقوية القصة بمجموع الطرق",
+          "speaker_ar": "ابن كثير",
+          "text_ar": "وَقِصَّتُهَا مَشْهُورَةٌ مَرْوِيَّةٌ مِنْ طَرْقٍ يَشُدُّ بَعْضُهَا بَعْضًا.",
+          "text_sha256": "6016c42b1e44dc78b64196bae33ab41f0276ad7a437838f8544f25f45e54a784"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 677,
+      "selected_text_sha256": "bf239f181713c58bd433c3270b09270ad5a30c1edbf163d6d7d839f73fe7cd19",
+      "source_excerpt_sha256": "bf239f181713c58bd433c3270b09270ad5a30c1edbf163d6d7d839f73fe7cd19",
+      "book_id": 4445,
+      "page_id": 2190,
+      "book_ar": "البداية والنهاية - ت التركي",
+      "citation_ar": "[البداية والنهاية - ت التركي، 4/472](https://app.turath.io/book/4445?page=2190)",
+      "source_url": "https://app.turath.io/book/4445?page=2190",
+      "retrieved_at": "2026-10-02T20:35:45.916252+00:00",
+      "source_notes_ar": [
+        "ملاحظة تحريرية: مقطع متصل مطابق للأصل الرقمي؛ لم تراجع صورة المطبوع"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن كثير",
+      "edition_ar": "الكتاب: البداية والنهاية\nالمؤلف: عماد الدين، أبو الفداء، إسماعيل بن عمر بن كثير القرشي الدمشقي (٧٠١ - ٧٧٤ هـ)\nتحقيق: د. عبد الله بن عبد المحسن التركي\nبالتعاون مع: مركز البحوث والدارسات العربية والإسلامية بدار هجر\nالناشر: دار هجر للطباعة والنشر والتوزيع والإعلان\nالطبعة: الأولى، (١٤١٧ - ١٤٢٠ هـ)\nعدد الأجزاء:٢١ (٢٠ والفهارس)\nوأعادتْ تصويرها: دار عالم الكتب بالرياض مِرارًا\nتنبيه: في بعض نُسَخ الكتاب الخطية زياداتٌ على ما كَتَبه ابنُ كثير، وقد أَثبَتتْها طبعاتُ الكتاب السابقة لتحقيق د التركي، ورأى هو ألّا يُثبِتَها في طبعته؛ فليس في هذه النسخة الإلكترونية نَقصٌ كما يُتوهّم\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "إسماعيل بن كثير",
+      "source_type_metadata_ar": "شرح",
+      "source_page_sha256": "b49e232e591013e92f4d22522390d13e7bfecc2c8d4a04054274fba9a6a7dd40",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-122396-208-CRIT-UMARIPATHS"
+      ]
+    },
+    {
+      "packet_id": "sp_umm_mabad_hidaya_start",
+      "evidence_id": "H-12115-2296-CRIT-MABADHIDAYABEGIN",
+      "scope_ar": "بداية خبر حبيش في متن المشكاة الذي أثبته المحقق في هداية الرواة؛ تتمته في الانتقاء التالي. ليس ابتداءً مستقلاً للقصة.",
+      "required_part_ids": [
+        "p1",
+        "p2"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 72,
+          "page_start": 591,
+          "page_end": 663,
+          "source_type_ar": "سند خبر حبيش في متن المشكاة الملحق",
+          "speaker_ar": "نقل أثبته الحلبي من المشكاة",
+          "text_ar": "٥٨٨٦ - وعن حازم بن هشام عن أبيه عن جده حبيش بن خالد - وهو أخو أم معبد - ",
+          "text_sha256": "81912169db456f2c9715baace19d12c8fb0b74fa65b0cd58f3b78543fa65a141"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 72,
+          "record_end": 326,
+          "page_start": 663,
+          "page_end": 917,
+          "source_type_ar": "صدر خبر حبيش قبل استمرار الصفحة",
+          "speaker_ar": "حبيش في النص الملحق",
+          "text_ar": "أن رسول الله ﷺ حين أخرج من مكة خرج مهاجرا إلى المدينة هو وأبو بكر ومولى أبي بكر عامر بن فهيرة ودليلهما عبد الله الليثي مروا على خيمتي أم معبد فسألوها لحما وتمرا ليشتروا منها فلم يصيبوا عندها شيئا من ذلك وكان القوم مرملين (^٤) مسنتين (^٥) فنظر رسول الله ﷺ",
+          "text_sha256": "5bbd2151c4dc27d5dd96862318e32ff6dbe7d8809c23568449b1ee1019eadf65"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 326,
+      "selected_text_sha256": "86a7b30d2da43551a72d4ce4b1688a90bb4594a843ad06f479f42846fccbf101",
+      "source_excerpt_sha256": "86a7b30d2da43551a72d4ce4b1688a90bb4594a843ad06f479f42846fccbf101",
+      "book_id": 12115,
+      "page_id": 2296,
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/357](https://app.turath.io/book/12115?page=2296)",
+      "source_url": "https://app.turath.io/book/12115?page=2296",
+      "retrieved_at": "2026-10-02T20:42:10.333037+00:00",
+      "source_notes_ar": [
+        "ملاحظة تحريرية: مقطع متصل مطابق للأصل الرقمي؛ لم تراجع صورة المطبوع"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: هداية الرواة إلى تخريج أحاديث المصابيح والمشكاة\nتصنيف: أحمد بن علي بن حجر العسقلاني (ت ٨٥٢)\nوبحاشيته: \"النقد الصريح لما انتُقد من أحاديث المصابيح\" للعلائي و\"الأجوبة على أحاديث المصابيح\" لابن حجر\nتخريج: محمد ناصر الدين الألباني [التخريج الثاني لمشكاة المصابيح]\nتحقيق: علي بن حسن بن عبد الحميد الحلبي [ت ١٤٤٢ هـ]\nالناشر: دار ابن القيِّم للنشر والتوزيع، دار ابن عفان للنشر والتوزيع\nالطبعة: الأولى، ١٤٢٢ هـ - ٢٠٠١ م\nتنبيهات:\n١ - متون الأحاديث قد أَثبَتها المحقق (علي الحلبي) مِن كتابَي \"مصابيح السنة\" للبغوي و\"مشكاة المصابيح\" للتبريزي، وأَتبَع كل حديث برقمه في مطبوعهما بين [معقوفين].\n٢ - أَعقَب كل حديث بتخريج الحافظ ابن حجر من \"هداية الراواة\" في سطر جديد مُصَدَّرا بعلامة مُربّع (استُبدِلتْ بـ\"•\" في هذه النسخة الإلكترونية)، وقام بعزو الأحاديث إلى مصادرها بالأرقام بين [معقوفين] في متن الكتاب.\n٣ - أخذ تعليقات شيخه الألباني على \"المشكاة\" وأَلحقها في الحواشي بالمواضع المناسبة من \"هداية الرواة\" وهي أكثر حواشي الكتاب، وأما تعليقاته هو -وهي قليلة- فذيّلَها بحرف (ع).\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "متن أثبته علي الحلبي من المشكاة",
+      "source_type_metadata_ar": "حديث",
+      "source_page_sha256": "71b41d01c2443c6ca2525e4876d8e97be6e4ceea28d7cc5c2a7dde239c9e7165",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-12115-2297-CRIT-MABADHIDAYAMATN"
+      ]
+    },
+    {
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "scope_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 33,
+          "page_start": 0,
+          "page_end": 33,
+          "source_type_ar": "تتمة النظر إلى الشاة",
+          "speaker_ar": "حبيش في النص الملحق",
+          "text_ar": "إلى شاة في كسر (^١) الخيمة فقال: ",
+          "text_sha256": "8041cf4a616d13d02d7fa9b07f2d79c7f4b1c8a4dbd5deb0542206a47ee6bcef"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 33,
+          "record_end": 72,
+          "page_start": 33,
+          "page_end": 72,
+          "source_type_ar": "سؤال النبي عن الشاة",
+          "speaker_ar": "النبي ﷺ في الخبر",
+          "text_ar": "&quot; ما هذه الشاة يا أم معبد؟ &quot; ",
+          "text_sha256": "a1461195800f56c2b9d1a5156e106549909a62749bc4289098baf7e32657961d"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 72,
+          "record_end": 109,
+          "page_start": 72,
+          "page_end": 109,
+          "source_type_ar": "جواب أم معبد عن الشاة",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": "قالت: شاة خلفها الجهد (^٢) عن الغنم. ",
+          "text_sha256": "186df7ecaa0dab67790b819db755cb0bbbb66dd271c6b834edc2801773f0d625"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 109,
+          "record_end": 143,
+          "page_start": 109,
+          "page_end": 143,
+          "source_type_ar": "سؤال النبي عن اللبن",
+          "speaker_ar": "النبي ﷺ في الخبر",
+          "text_ar": "قال: &quot; هل بها من لبن؟ &quot; ",
+          "text_sha256": "5c85a402ed7c9531c72eca541da598e2f5c2f98282171cd0623915f1895b1ddc"
+        },
+        {
+          "part_id": "p5",
+          "record_start": 143,
+          "record_end": 165,
+          "page_start": 143,
+          "page_end": 165,
+          "source_type_ar": "جواب أم معبد عن اللبن",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": "قالت: هي أجهد من ذلك. ",
+          "text_sha256": "1b93bd6c13ca2448af0d4a9a9366f303e1472d7653b6e72eec04eb7463a40cca"
+        },
+        {
+          "part_id": "p6",
+          "record_start": 165,
+          "record_end": 206,
+          "page_start": 165,
+          "page_end": 206,
+          "source_type_ar": "طلب النبي الإذن بالحلب",
+          "speaker_ar": "النبي ﷺ في الخبر",
+          "text_ar": "قال: &quot; أتأذنين لي أن أحلبها؟ &quot; ",
+          "text_sha256": "ecdae7d92132bd0e414188c0f8fd5f2ac4fd7faef84385d42410a43e34a7b11b"
+        },
+        {
+          "part_id": "p7",
+          "record_start": 206,
+          "record_end": 252,
+          "page_start": 206,
+          "page_end": 252,
+          "source_type_ar": "إذن أم معبد",
+          "speaker_ar": "أم معبد في الخبر",
+          "text_ar": "قالت: بأبي أنت وأمي إن رأيت بها حلبا فاحلبها. ",
+          "text_sha256": "5d1b4947b5a1d94e720fc489f335212e9dc75e7cfe2e594d5616fc29f2ebb816"
+        },
+        {
+          "part_id": "p8",
+          "record_start": 252,
+          "record_end": 556,
+          "page_start": 252,
+          "page_end": 556,
+          "source_type_ar": "خبر حبيش: الحلب والرحيل",
+          "speaker_ar": "حبيش في النص الملحق",
+          "text_ar": "فدعا بها رسول الله ﷺ فمسح بيده ضرعها وسمى الله تعالى ودعا لها في شاتها فتفاجت (^٣) عليه وردت واجترت فدعا بإناء يربض (^٤) الرهط فحلب فيه ثجا (^٥) حتى علاه البهاء (^٦) ثم سقاها حتى رويت وسقى أصحابه حتى رووا ثم شرب آخرهم ثم حلب فيه ثانيا بعد بدء حتى ملأ الإناء ثم غادره عندها وبايعها وارتحلوا عنها. [٥٩٤٣]\n\n",
+          "text_sha256": "d1f11949fcb46f7289a55ab5100537a950aef48369ac3b9258356723d986c36e"
+        },
+        {
+          "part_id": "p9",
+          "record_start": 556,
+          "record_end": 614,
+          "page_start": 556,
+          "page_end": 614,
+          "source_type_ar": "تخريج ابن حجر؛ ليس من المتن",
+          "speaker_ar": "ابن حجر في التخريج",
+          "text_ar": "• البيهقي [١/ ٢٧٦١ - ٢٧٨] (^٧) في &quot;الدلائل&quot; عنه.",
+          "text_sha256": "84d316d0e8ba6cc158372db7a0bf3fc0453a53c18b19b4785f772ce2c6ad666f"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 614,
+      "selected_text_sha256": "138e0d7a097a9928f662511ba4c0af42a18d3ce4ba484f48736ef77df1d7d277",
+      "source_excerpt_sha256": "138e0d7a097a9928f662511ba4c0af42a18d3ce4ba484f48736ef77df1d7d277",
+      "book_id": 12115,
+      "page_id": 2297,
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "retrieved_at": "2026-10-02T20:42:10.333037+00:00",
+      "source_notes_ar": [
+        "ملاحظة تحريرية: مقطع متصل مطابق للأصل الرقمي؛ لم تراجع صورة المطبوع"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: هداية الرواة إلى تخريج أحاديث المصابيح والمشكاة\nتصنيف: أحمد بن علي بن حجر العسقلاني (ت ٨٥٢)\nوبحاشيته: \"النقد الصريح لما انتُقد من أحاديث المصابيح\" للعلائي و\"الأجوبة على أحاديث المصابيح\" لابن حجر\nتخريج: محمد ناصر الدين الألباني [التخريج الثاني لمشكاة المصابيح]\nتحقيق: علي بن حسن بن عبد الحميد الحلبي [ت ١٤٤٢ هـ]\nالناشر: دار ابن القيِّم للنشر والتوزيع، دار ابن عفان للنشر والتوزيع\nالطبعة: الأولى، ١٤٢٢ هـ - ٢٠٠١ م\nتنبيهات:\n١ - متون الأحاديث قد أَثبَتها المحقق (علي الحلبي) مِن كتابَي \"مصابيح السنة\" للبغوي و\"مشكاة المصابيح\" للتبريزي، وأَتبَع كل حديث برقمه في مطبوعهما بين [معقوفين].\n٢ - أَعقَب كل حديث بتخريج الحافظ ابن حجر من \"هداية الراواة\" في سطر جديد مُصَدَّرا بعلامة مُربّع (استُبدِلتْ بـ\"•\" في هذه النسخة الإلكترونية)، وقام بعزو الأحاديث إلى مصادرها بالأرقام بين [معقوفين] في متن الكتاب.\n٣ - أخذ تعليقات شيخه الألباني على \"المشكاة\" وأَلحقها في الحواشي بالمواضع المناسبة من \"هداية الرواة\" وهي أكثر حواشي الكتاب، وأما تعليقاته هو -وهي قليلة- فذيّلَها بحرف (ع).\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "متن المشكاة وعزو ابن حجر",
+      "source_type_metadata_ar": "حديث وتخريج",
+      "source_page_sha256": "fb871fc900b2beaa3a88c3fd49c73baf58cfcabf1e7351ae362c9255ffeeefdb",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-12115-2296-CRIT-MABADHIDAYABEGIN",
+        "H-12115-2297-CRIT-MABADALBANI"
+      ]
+    },
+    {
+      "packet_id": "sp_umm_mabad_albani",
+      "evidence_id": "H-12115-2297-CRIT-MABADALBANI",
+      "scope_ar": "حاشية الألباني كاملة في نسختها الرقمية: العزو والاعتراض ثم احتمال التقوية والنقل عن الذهبي. رسم الجملة الأخيرة مضطرب ولم يقابل بمطبوع؛ لا يصحح هنا.",
+      "required_part_ids": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 57,
+          "page_start": 765,
+          "page_end": 822,
+          "source_type_ar": "عزو الألباني وحكايته التصحيح",
+          "speaker_ar": "الألباني ينقل عزوًا وحكمًا لغيره",
+          "text_ar": "(^٧) وكذلك رواه الحاكم (٢/ ٩ - ١٠) وصححه، ووافقه الذهبي!\n",
+          "text_sha256": "adb9cb3add10cc83de7b8c9db54e4f956c0c7c7aed77d85a3f793cdb52d9f20b"
+        },
+        {
+          "part_id": "p2",
+          "record_start": 57,
+          "record_end": 226,
+          "page_start": 822,
+          "page_end": 991,
+          "source_type_ar": "اعتراض الألباني على صحة الإسناد",
+          "speaker_ar": "الألباني",
+          "text_ar": "قلت: وفيه هشام بن حبيش، أورده ابن أبي حاتم في &quot;الجرح والتعديل&quot; (٩/ ٥٣/ ٢٢٧)؛ ولَم يذكر فيه جرحًا ولا تعديلًا، ولا ذكر له غير ابنه راويًا، فأنى لإسناده الصحة؟!\n",
+          "text_sha256": "65b3759d7837135a35f8115bc36ccb31cc0f29d40d405cf7159107ee9c649d79"
+        },
+        {
+          "part_id": "p3",
+          "record_start": 226,
+          "record_end": 289,
+          "page_start": 991,
+          "page_end": 1054,
+          "source_type_ar": "احتمال التقوية بالطرق عند الألباني",
+          "speaker_ar": "الألباني",
+          "text_ar": "نعم، قد يرتقي الحديث إلى الحسن - أو الصحة - بطرق ساقها الحاكم، ",
+          "text_sha256": "54441562a195a9811e7be0391e3c95d0c8e5c397bdfc2b36ea7ca6f7260cecd3"
+        },
+        {
+          "part_id": "p4",
+          "record_start": 289,
+          "record_end": 347,
+          "page_start": 1054,
+          "page_end": 1112,
+          "source_type_ar": "نقل عن الذهبي برسم رقمي مضطرب",
+          "speaker_ar": "الألباني ينقل عن الذهبي؛ لم يقابل الرسم بمطبوع",
+          "text_ar": "وَقَالَ الذهبي وإما في هذه الطرق شيء على شرط الصحيح&quot;.",
+          "text_sha256": "dc980ca869a0b989f495868a4055bd7606d1aa05029e849f43ca11716280ce33"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 347,
+      "selected_text_sha256": "6a4d20a79187451c3550d4efabb9f7918d204517c9bc6b21ea68334f75d5b7fc",
+      "source_excerpt_sha256": "6a4d20a79187451c3550d4efabb9f7918d204517c9bc6b21ea68334f75d5b7fc",
+      "book_id": 12115,
+      "page_id": 2297,
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "retrieved_at": "2026-10-02T20:42:10.333037+00:00",
+      "source_notes_ar": [
+        "ملاحظة تحريرية: تخريج المشكاة الثاني ملحق بهداية الرواة؛ حواشي الألباني غير حواشي الحلبي المذيلة بعلامة ع بحسب بيانات الكتاب ومقدمة التحقيق.",
+        "ملاحظة تحريرية: عبارة «وَقَالَ الذهبي وإما...» مضطربة في النص الرقمي؛ أبقيت كما هي وتحتاج صورة المطبوع.",
+        "ملاحظة تحريرية: مقطع متصل مطابق للأصل الرقمي؛ لم تراجع صورة المطبوع"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: هداية الرواة إلى تخريج أحاديث المصابيح والمشكاة\nتصنيف: أحمد بن علي بن حجر العسقلاني (ت ٨٥٢)\nوبحاشيته: \"النقد الصريح لما انتُقد من أحاديث المصابيح\" للعلائي و\"الأجوبة على أحاديث المصابيح\" لابن حجر\nتخريج: محمد ناصر الدين الألباني [التخريج الثاني لمشكاة المصابيح]\nتحقيق: علي بن حسن بن عبد الحميد الحلبي [ت ١٤٤٢ هـ]\nالناشر: دار ابن القيِّم للنشر والتوزيع، دار ابن عفان للنشر والتوزيع\nالطبعة: الأولى، ١٤٢٢ هـ - ٢٠٠١ م\nتنبيهات:\n١ - متون الأحاديث قد أَثبَتها المحقق (علي الحلبي) مِن كتابَي \"مصابيح السنة\" للبغوي و\"مشكاة المصابيح\" للتبريزي، وأَتبَع كل حديث برقمه في مطبوعهما بين [معقوفين].\n٢ - أَعقَب كل حديث بتخريج الحافظ ابن حجر من \"هداية الراواة\" في سطر جديد مُصَدَّرا بعلامة مُربّع (استُبدِلتْ بـ\"•\" في هذه النسخة الإلكترونية)، وقام بعزو الأحاديث إلى مصادرها بالأرقام بين [معقوفين] في متن الكتاب.\n٣ - أخذ تعليقات شيخه الألباني على \"المشكاة\" وأَلحقها في الحواشي بالمواضع المناسبة من \"هداية الرواة\" وهي أكثر حواشي الكتاب، وأما تعليقاته هو -وهي قليلة- فذيّلَها بحرف (ع).\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "محمد ناصر الدين الألباني",
+      "source_type_metadata_ar": "تعليق محقق",
+      "source_page_sha256": "fb871fc900b2beaa3a88c3fd49c73baf58cfcabf1e7351ae362c9255ffeeefdb",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-8360-7017-CRIT-MABADALBANIMATN",
+        "H-2266-4543-CRIT-HAKIMJUDGMENT"
+      ]
+    },
+    {
+      "packet_id": "sp_umm_mabad_attribution",
+      "evidence_id": "H-12115-5-CRIT-ALBANIATTRIBUTION",
+      "scope_ar": "مقدمة الحلبي في مصدر حواشي الألباني؛ سياق لتعيين صاحب التعليق، وليس طريقًا تاريخيًا لحادثة الخيمة.",
+      "required_part_ids": [
+        "p1"
+      ],
+      "parts": [
+        {
+          "part_id": "p1",
+          "record_start": 0,
+          "record_end": 376,
+          "page_start": 927,
+          "page_end": 1303,
+          "source_type_ar": "مقدمة المحقق في مصدر الحواشي",
+          "speaker_ar": "علي بن حسن الحلبي",
+          "text_ar": "فَلَقَدْ كانتْ بدايةُ العَمل العلْمِيِّ في هذا الكتَابِ قَبْلَ ما يَقْربُ مِن ثلاثِ سَنَواتٍ؛ حيثُ كنتُ قد عَرَضْتُ على شيخنا أبي عبدِ الرحمنِ محمدٍ ناصر الدين الأَلبانيِّ فِكْرَةَ تَحْقيقهِ وَنشْرِهِ؛ فوافقَ ذلكَ قَبولًا عِنْدَهُ، ورحَّبَ بِه، وَدَفَعَ إِليَّ ما عِنْدَه من تخريجاتٍ وتعليقاتٍ؛ لإلحاقها في مواضِعها من حواشي &quot;الهداية&quot;، فجزاهُ الله كلَّ خيرٍ وأكملَه.",
+          "text_sha256": "687cc773fa41b97d3ab26e3a8c416957b7e38b3b5a9efcf2dcfa8cc51b0ce857"
+        }
+      ],
+      "record_start": 0,
+      "record_end": 376,
+      "selected_text_sha256": "687cc773fa41b97d3ab26e3a8c416957b7e38b3b5a9efcf2dcfa8cc51b0ce857",
+      "source_excerpt_sha256": "687cc773fa41b97d3ab26e3a8c416957b7e38b3b5a9efcf2dcfa8cc51b0ce857",
+      "book_id": 12115,
+      "page_id": 5,
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 1/5](https://app.turath.io/book/12115?page=5)",
+      "source_url": "https://app.turath.io/book/12115?page=5",
+      "retrieved_at": "2026-10-02T20:42:10.333037+00:00",
+      "source_notes_ar": [
+        "ملاحظة تحريرية: مقطع متصل مطابق للأصل الرقمي؛ لم تراجع صورة المطبوع"
+      ],
+      "selection_note_ar": "انتقاء الدفتر كاملًا؛ ليس كامل الصفحة أو الكتاب. يبقى الإسناد الوارد في بيانات المصدر خارج المتن إذا لم يتضمنه الانتقاء.",
+      "offset_unit": "original Arabic Unicode code points; not translated-text offsets",
+      "independent_historical_approval": false,
+      "public_distribution_approved": false,
+      "author_ar": "ابن حجر العسقلاني",
+      "edition_ar": "الكتاب: هداية الرواة إلى تخريج أحاديث المصابيح والمشكاة\nتصنيف: أحمد بن علي بن حجر العسقلاني (ت ٨٥٢)\nوبحاشيته: \"النقد الصريح لما انتُقد من أحاديث المصابيح\" للعلائي و\"الأجوبة على أحاديث المصابيح\" لابن حجر\nتخريج: محمد ناصر الدين الألباني [التخريج الثاني لمشكاة المصابيح]\nتحقيق: علي بن حسن بن عبد الحميد الحلبي [ت ١٤٤٢ هـ]\nالناشر: دار ابن القيِّم للنشر والتوزيع، دار ابن عفان للنشر والتوزيع\nالطبعة: الأولى، ١٤٢٢ هـ - ٢٠٠١ م\nتنبيهات:\n١ - متون الأحاديث قد أَثبَتها المحقق (علي الحلبي) مِن كتابَي \"مصابيح السنة\" للبغوي و\"مشكاة المصابيح\" للتبريزي، وأَتبَع كل حديث برقمه في مطبوعهما بين [معقوفين].\n٢ - أَعقَب كل حديث بتخريج الحافظ ابن حجر من \"هداية الراواة\" في سطر جديد مُصَدَّرا بعلامة مُربّع (استُبدِلتْ بـ\"•\" في هذه النسخة الإلكترونية)، وقام بعزو الأحاديث إلى مصادرها بالأرقام بين [معقوفين] في متن الكتاب.\n٣ - أخذ تعليقات شيخه الألباني على \"المشكاة\" وأَلحقها في الحواشي بالمواضع المناسبة من \"هداية الرواة\" وهي أكثر حواشي الكتاب، وأما تعليقاته هو -وهي قليلة- فذيّلَها بحرف (ع).\n[ترقيم الكتاب موافق للمطبوع]",
+      "source_speaker_metadata_ar": "علي بن حسن الحلبي",
+      "source_type_metadata_ar": "مقدمة تحقيق",
+      "source_page_sha256": "61f0e8be7119011c560f27ded3afafc45f91db7e3cdad337ad3eb874edb30af2",
+      "source_isnad_metadata_ar": null,
+      "related_evidence_ids": [
+        "H-12115-2297-CRIT-MABADALBANI"
+      ]
+    }
+  ],
+  "packet_id": "hch_umm_mabad:ar:r1",
+  "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
+  "source_document_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+  "question_type": "single_choice",
+  "review": {
+    "arabic_compared": true,
+    "summary_ar": "قورنت القصة والأقسام المساندة والأسئلة العشرة مع إضافات Core ومقتطفاتها في نطاق واحد: أحد عشر انتقاءً كاملًا، سبع حزم محتفظ بها. يتبع السرد خبر حبيش عند أبي نعيم؛ يظل وصف أم معبد وجواب زوجها والشرح اللغوي وأحكام النقاد أصواتًا متميزة. حُفظت الاقتباسات والرسوم الأصلية، ولم يُحمل اعتراض الألباني على رفض القصة كلها أو احتمال التقوية على تصحيح كل لفظ. راجع نموذج آخر الصياغة، فصُححت عبارة جواب السقيا الملتبسة، ولم يجد في المتابعة إشكالًا ملموسًا باقيًا في المحتوى أو منطق النطاق. هذه مقارنة داخلية محدودة لا مراجعة لغوية أو تاريخية مستقلة ولا إذن نشر.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  },
+  "last_accepted": {
+    "revision": 1,
+    "source_document_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c"
+  },
+  "source_units": [
+    {
+      "unit_id": "sp_umm_mabad_story:p1",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p1",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "٢٣٨ - حَدَّثَنَا سُلَيْمَانُ بْنُ أَحْمَدَ ثنا عَلِيُّ بْنُ عَبْدٍ الْعَزِيزِ وثنا أَبِي قَالَ: ثنا مُحَمَّدُ بْنُ مُحَمَّدِ بْنِ عُقْبَةَ الشَّيْبَانِيُّ وَمُحَمَّدُ بْنُ مُوسَى الْحُلْوَانِيُّ وثنا أَبُو حَامِدِ بْنُ جَبَلَةَ قَالَ مُحَمَّدُ بْنُ إِسْحَاقَ السِّرَاجُ قَالَ: ثنا مُكْرَمُ بْنُ مُحْرِزٍ الْكَعْبِيُّ الْخُزَاعِيُّ قَالَ: حَدَّثَنِي أَبِي مُحْرِزُ بْنُ مَهْدِيٍّ، عَنْ حِزَامِ بْنِ هِشَامٍ، عَنْ أَبِيهِ هِشَامٍ، عَنْ جَدِّهِ حُبَيْشِ بْنِ خَالِدٍ صَاحِبِ رَسُولِ اللَّهِ ﷺ: ",
+      "source_start": 0,
+      "source_end": 491,
+      "source_text_sha256": "dfadd169152c84c19e1fde7a992109f249a5f15939b4dadcf3f19d4f6540f295",
+      "kind_ar": "إسناد خبر حبيش",
+      "speaker_ar": "أبو نعيم بإسناده إلى حبيش بن خالد",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p2",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p2",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "أَنَّ رَسُولَ اللَّهِ ﷺ حِينَ خَرَجَ مِنْ مَكَّةَ خَرَجَ مِنْهَا مُهَاجِرًا هُوَ وَأَبُو بَكْرٍ وَمَوْلَى أَبِي بَكْرٍ عَامِرُ بْنُ فُهَيْرَةَ وَدَلِيلُهُمُ اللَّيْثِيُّ عَبْدُ اللَّهِ بْنُ أريقطٍ فَمَرُّوا عَلَى ",
+      "source_start": 491,
+      "source_end": 704,
+      "source_text_sha256": "718e6746e341ced75de10bd40e2f1f29e9b017ecbe927507050cf74a8602348a",
+      "kind_ar": "خبر حبيش: الركب وطلب الطعام",
+      "speaker_ar": "حبيش بن خالد في الرواية",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p3",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p3",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "⦗٣٣٨⦘",
+      "source_start": 704,
+      "source_end": 709,
+      "source_text_sha256": "569691a3b53ca9449abf2c1391dc7029ce9e2c6189a6ee5cb889c30d1134bf7f",
+      "kind_ar": "علامة حدود الصفحة المطبوعة",
+      "speaker_ar": "تنسيق النسخة الرقمية",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p4",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p4",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": " خَيْمَتَيْ أُمِّ مَعْبَدٍ الْخُزَاعِيَّةِ وَكَانَتْ بَرْزَةً جِلْدَةً تَحْتَبِي بِفِنَاءِ الْقُبَّةِ ثُمَّ تَسْقِي وَتُطْعِمُ فَسَأَلُوهَا لَحْمًا وَتَمْرًا لِيَشْتَرُوا مِنْهَا فَلَمْ يُصِيبُوا عِنْدَهَا شَيْئًا مِنْ ذَلِكَ وَكَانَ الْقَوْمُ مُرْمِلِينَ مُسْنِتِينَ فَنَظَرَ رَسُولُ اللَّهِ ﷺ إِلَى شَاةٍ فِي كِسَرِ الْخَيْمَةِ فَقَالَ: ",
+      "source_start": 709,
+      "source_end": 1048,
+      "source_text_sha256": "12363b38c37b6965caea4a65f7e2f7f60efa48180331a387303a74160cccedb2",
+      "kind_ar": "خبر حبيش: الركب وطلب الطعام",
+      "speaker_ar": "حبيش بن خالد في الرواية",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p5",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p5",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "مَا هَذِهِ الشَّاةُ يَا أُمَّ مَعْبَدٍ؟ ",
+      "source_start": 1048,
+      "source_end": 1088,
+      "source_text_sha256": "dd5de18b92b5a4b6d410f6a6566e1097cb0a625a96986051b6f000e35611237e",
+      "kind_ar": "سؤال النبي عن الشاة",
+      "speaker_ar": "النبي ﷺ في خبر حبيش",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p6",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p6",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "قَالَتْ: شَاةٌ خَلَّفَهَا الْجَهْدُ عَنِ الْغَنَمِ ",
+      "source_start": 1088,
+      "source_end": 1139,
+      "source_text_sha256": "815c144f56ab18ca371d68e4b6122ff66e126c4fcf97e87a34b593160282f1ae",
+      "kind_ar": "جواب أم معبد عن الشاة",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p7",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p7",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "قَالَ: بِهَا مِنْ لَبَنٍ؟ ",
+      "source_start": 1139,
+      "source_end": 1165,
+      "source_text_sha256": "744c63a64b4b856178e3c2d90e0cec6cc6354373b365a047de9a21d02926ff8b",
+      "kind_ar": "سؤال النبي عن اللبن",
+      "speaker_ar": "النبي ﷺ في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p8",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p8",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "قَالَتْ: هِيَ أَجْهَدُ مِنْ ذَلِكَ ",
+      "source_start": 1165,
+      "source_end": 1200,
+      "source_text_sha256": "24723e6ffe1ca85e28e504c2f26f6f15084bdb26907c711f671f95353a7a8551",
+      "kind_ar": "جواب أم معبد عن اللبن",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p9",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p9",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "قَالَ أَفَتَأْذَنِينَ لِي أَنْ أَحْلِبَهَا؟ ",
+      "source_start": 1200,
+      "source_end": 1244,
+      "source_text_sha256": "05458871c9c377ad32609f10851fc429792b9d918dfd19db3666f7279328323d",
+      "kind_ar": "استئذان النبي في الحلب",
+      "speaker_ar": "النبي ﷺ في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p10",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p10",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "قَالَتْ: بِأَبِي أَنْتَ وَأُمِّي نَعَمْ إِنْ رَأَيْتَ بِهَا حَلْبًا فَاحْلُبْهَا ",
+      "source_start": 1244,
+      "source_end": 1325,
+      "source_text_sha256": "ccac40849b59222e52f9224966227ee1a6a98273bc1a2af2f1e27327a859b700",
+      "kind_ar": "إذن أم معبد",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p11",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p11",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "فَدَعَا بِهَا رَسُولُ اللَّهِ ﷺ فَمَسَحَ ضَرْعَهَا بِيَدِهِ وَسَمَّى اللَّهَ ﷿ وَدَعَا لَهَا فِي شَاتِهَا فَتَفَاجَّتْ عَلَيْهِ وَدَرَّتْ وَاجْتَرَّتْ فَدَعَا بِإِنَاءٍ يَرِيْضُ الرَّهَطَ فَحَلَبَ فِيهِ ثَجًّا حَتَّى عَلَاهُ الْبَهَاءُ ثُمَّ سَقَاهَا حَتَّى رَوِيَتْ وَسَقَى أَصْحَابَهُ حَتَّى رَوُوا ثُمَّ شَرِبَ آخِرُهُمْ ﷺ ثُمَّ أَرَاضَوْا ثُمَّ حَلَبَ ثَانِيًا بَعْدَ بَدْءٍ حَتَّى مَلَأَ الْإِنَاءَ ثُمَّ غَادَرَهُ عِنْدَهَا وَبَايَعَهَا ثُمَّ ارْتَحَلُوا عَنْهَا ",
+      "source_start": 1325,
+      "source_end": 1794,
+      "source_text_sha256": "69664f29347931826fadcbb29fa7a2079dc1960ed57c71378c02e7b30e08934a",
+      "kind_ar": "خبر حبيش: الحلب والسقيا والرحيل",
+      "speaker_ar": "حبيش بن خالد في الرواية",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p12",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p12",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "فَقَالَ مَا لَبِثَتْ إِذ جَاءَ زَوْجُهَا أَبُو مَعْبَدٍ يَسُوقُ أَعْنُزًا عِجَافًا يَتَسَاوَكْنَ هَزْلًا مُخُّهُنَّ قَلِيلٌ فَلَمَّا رَأَى أَبُو مَعْبَدٍ اللَّبَنَ عَجِبَ وَقَالَ: ",
+      "source_start": 1794,
+      "source_end": 1974,
+      "source_text_sha256": "568a590b2c5ffcc20d11a06d0b05f32e721413d7e32b0b1c73ddd29cc35ebf4c",
+      "kind_ar": "خبر حبيش: رجوع أبي معبد",
+      "speaker_ar": "حبيش بن خالد في الرواية",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p13",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p13",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "مِنْ أَيْنَ لَكِ هَذَا وَالشَّاةُ عَازِبٌ حَائِلٌ وَلَا حَلُوبَةَ فِي الْبَيْتِ؟ ",
+      "source_start": 1974,
+      "source_end": 2055,
+      "source_text_sha256": "065227d2d2d9fd15fabacb120520986cd1d0b57b80116bf371f2aed1af5908d2",
+      "kind_ar": "سؤال أبي معبد عن اللبن",
+      "speaker_ar": "أبو معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p14",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p14",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "قَالَتْ: لَا وَاللَّهِ إِلَّا أَنَّهُ مَرَّ بِنَا رَجُلٌ مُبَارَكٌ مِنْ حَالِهِ كَذَا وَكَذَا ",
+      "source_start": 2055,
+      "source_end": 2149,
+      "source_text_sha256": "841cd3fc401a9f2d984a3a4d5bff51ba13e5f112cf2b64f0f46500a59ad3fc7c",
+      "kind_ar": "جواب أم معبد عن الزائر",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p15",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p15",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "فَقَالَ: صِفِيهِ لِي يَا أُمَّ مَعْبَدٍ ",
+      "source_start": 2149,
+      "source_end": 2189,
+      "source_text_sha256": "06349312ed5501790e733919e051c9285fe727953d62b42def1bb3ec4c0b9ff2",
+      "kind_ar": "طلب أبي معبد وصف الزائر",
+      "speaker_ar": "أبو معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p16",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p16",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "قَالَتْ: \" رَأَيْتُ رَجُلًا ظَاهِرَ الْوَضَاءَةِ أَبْلَجَ الْوَجْهِ حَسَنَ الْخَلْقِ لَمْ تَعِبْهُ ثَجْلَةٌ وَلَمْ تَزْرِ بِهِ صَعْلَةٌ وَسِيمٌ قَسِيمٌ فِي عَيْنَيْهِ دَعَجٌ وفِي أَشْفَارِهِ عَطَفٌ وَفِي صَوْتِهِ صَهَلٌ وَفِي ",
+      "source_start": 2189,
+      "source_end": 2415,
+      "source_text_sha256": "1b263049ef02a512119ae1385df1a1b480b3b17bfd881da0e985b1d660b255e0",
+      "kind_ar": "وصف أم معبد للزائر",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p17",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p17",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "⦗٣٣٩⦘",
+      "source_start": 2415,
+      "source_end": 2420,
+      "source_text_sha256": "ae20e3b7c3c71cd6fac3d3fa581be6ec0f2d62020dfb16196316b62025c7aec4",
+      "kind_ar": "علامة حدود الصفحة المطبوعة",
+      "speaker_ar": "تنسيق النسخة الرقمية",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p18",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p18",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": " عُنُقِهِ سَطَعٌ وَفِي لِحْيَتِهِ كَثَاثَةٌ أَزَجُّ أَقْرَنُ إِنْ صَمَتَ فَعَلَيْهِ الْوَقَارُ وَإِنْ تَكَلَّمَ سَمَاهُ وَعَلَاهُ الْبَهَاءُ أَجْمَلُ النَّاسِ وَأَبْهَاهُم مِنْ بَعِيدٍ وَأَحْلَاهُ وَأَحْسَنُهُ مِنْ قَرِيبٍ حُلْوُ الْمَنْطِقِ فَصْلٌ لَا نَذْزٌ وَلَا هَذْرٌ كَأَنَّ مَنْطِقَهُ خَرَزَاتُ نَظْمٍ تحَدَّرْنَ رَبْعَةٌ لَا بَائِنُ مِنْ طُولٍ وَلَا تَقْتَحِمُهُ عَيْنٌ مِنْ قِصَرٍ غُصْنٌ بَيْنَ غُصْنَيْنِ هُوَ أَنْظَرُ الثَّلَاثَةِ مَنْظَرًا وَأَحْسَنُهُمْ قَدْرًا لَهُ رُفَقَاءُ يَحُفُّونَ بِهِ إِنْ قَالَ أَنْصَتُوا لِقَوْلِهِ وَإِنْ أَمَرَ تَبَادَرُوا إِلَى أَمْرِهِ مَحْفُودٌ مَحْشُودٌ لَا عَابِسَ وَلَا مُعْتَدَ ",
+      "source_start": 2420,
+      "source_end": 3047,
+      "source_text_sha256": "3df863b6372bf2ecd2137c9eace92b6031db7ca41fa22caefd9f860b5b512f71",
+      "kind_ar": "وصف أم معبد للزائر",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p19",
+      "packet_id": "sp_umm_mabad_story",
+      "part_id": "p19",
+      "evidence_id": "H-10637-290-RA-UMM-HUBAYSH",
+      "text_ar": "قَالَ أَبُو مَعْبَدٍ: هُوَ وَاللَّهِ صَاحِبُ قُرَيْشٍ الَّذِي ذُكِرَ لَنَا مِنْ أَمْرِهِ مَا ذُكِرَ بِمَكَّةَ وَلَقَدْ هَمَمْتُ أَنْ أَصْحَبَهُ وَلَأَفْعَلَنَّ إِنْ وَجَدْتُ إِلَى ذَلِكَ سَبِيلًا ",
+      "source_start": 3047,
+      "source_end": 3243,
+      "source_text_sha256": "06a0c838c523206db450af95e30259060f00b3c76204bb784cb52573a9a14b5b",
+      "kind_ar": "تعرف أبي معبد ورغبته في الصحبة",
+      "speaker_ar": "أبو معبد في الخبر",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/337](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "انتقاء أبي نعيم كاملًا: الإسناد، وخبر حبيش، وحوار أم معبد وزوجها، ثم الهاتف والشعر وتعليق اختلاف الرواية. السرد يتوقف قبل الهاتف؛ تمييز الشعر والتنسيق لا يحذفهما من الأصل."
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p1",
+      "packet_id": "sp_umm_mabad_gloss",
+      "part_id": "p1",
+      "evidence_id": "H-10637-290-RA-UMM-GLOSS",
+      "text_ar": "حَدَّثَنَا سُلَيْمَانُ بْنُ أَحْمَدَ إِمْلَاءً وَقِرَاءَةً قَالَ: ثنا عَلِيُّ بْنُ عَبْدِ الْعَزِيزِ قَالَ: قَالَ أَبُو عُبَيْدٍ الْقَاسِمُ بْنُ سَلَامٍ: ",
+      "source_start": 0,
+      "source_end": 154,
+      "source_text_sha256": "13df07cae882c803ad0e08e5d492e042003441e2e7e07b27483514e2e3f28efe",
+      "kind_ar": "إسناد الشرح إلى أبي عبيد",
+      "speaker_ar": "أبو نعيم بإسناده إلى أبي عبيد القاسم بن سلام",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/٣٤٠](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "شرح أبي عبيد بإسناده كما نقله أبو نعيم، كاملًا في حدود الدفتر. الشواهد الشعرية والقول النبوي المستشهد به والاقتباس القرآني ليست من حوار الخيمة. بقيت الرسوم والظنون المنقولة بلا تصحيح صامت."
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p2",
+      "packet_id": "sp_umm_mabad_gloss",
+      "part_id": "p2",
+      "evidence_id": "H-10637-290-RA-UMM-GLOSS",
+      "text_ar": "الْبَرَزَةُ مِنَ النِّسَاءِ: الْجَلْدَةُ تَظْهَرُ لِلنَّاسِ وَيَجْلِسُ إِلَيْهَا الْقَوْمُ وَقَوْلُهُ: كَانَ الْقَوْمُ مُرْمِلِينَ مُسْنِتِينَ الْمُرْمِلُ: الَّذِي قَدْ نَفِدَ زَادُهُ وَقَوْلُهُ: مُسْنِتِينَ هُمُ الَّذِينَ أَصَابَتْهُمُ السَّنَةُ وَهِيَ الْأَزْمَةُ وَالْمَجَاعَةُ ",
+      "source_start": 154,
+      "source_end": 435,
+      "source_text_sha256": "fb577907420cbb30ab9c848a38f9f46dea014451c840be38b3ea85968e6685fb",
+      "kind_ar": "شرح البرزة والإرمال والإسنات",
+      "speaker_ar": "أبو عبيد",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/٣٤٠](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "شرح أبي عبيد بإسناده كما نقله أبو نعيم، كاملًا في حدود الدفتر. الشواهد الشعرية والقول النبوي المستشهد به والاقتباس القرآني ليست من حوار الخيمة. بقيت الرسوم والظنون المنقولة بلا تصحيح صامت."
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p19",
+      "packet_id": "sp_umm_mabad_gloss",
+      "part_id": "p19",
+      "evidence_id": "H-10637-290-RA-UMM-GLOSS",
+      "text_ar": "وقَوْلُهَا: مَنْطِقُهُ لَا نَزْرَ وَلَا هَذْرَ فَالنَّزْرُ الْقَلِيلُ وَالْهَذْرُ الْكَثِيرُ تَقُولُ: قَصْدٌ بَيْنَ ذَلِكَ وَقَوْلُهَا: لَا تقتَحِمُهُ عَيْنٌ مِنْ قِصَرٍ تَقُولُ: لَا تَزْدَرِيهِ فَتَنْبِذُهُ وَلَكِنْ تَقْبَلُهُ وَتَهَابُهُ ",
+      "source_start": 3198,
+      "source_end": 3438,
+      "source_text_sha256": "e3d9979e21af4ad5a70faceb1b1ab263a966fb488021643696f03337168e0813",
+      "kind_ar": "شرح الاعتدال في الكلام والقامة",
+      "speaker_ar": "أبو عبيد",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/٣٤٠](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "شرح أبي عبيد بإسناده كما نقله أبو نعيم، كاملًا في حدود الدفتر. الشواهد الشعرية والقول النبوي المستشهد به والاقتباس القرآني ليست من حوار الخيمة. بقيت الرسوم والظنون المنقولة بلا تصحيح صامت."
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p20",
+      "packet_id": "sp_umm_mabad_gloss",
+      "part_id": "p20",
+      "evidence_id": "H-10637-290-RA-UMM-GLOSS",
+      "text_ar": "⦗٣٤٣⦘",
+      "source_start": 3438,
+      "source_end": 3443,
+      "source_text_sha256": "b9f4e1d2e3e57022e91ae95772946d21b454df9691d7b754eef70acaa1849684",
+      "kind_ar": "علامة حدود الصفحة المطبوعة",
+      "speaker_ar": "تنسيق النسخة الرقمية",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/٣٤٠](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "شرح أبي عبيد بإسناده كما نقله أبو نعيم، كاملًا في حدود الدفتر. الشواهد الشعرية والقول النبوي المستشهد به والاقتباس القرآني ليست من حوار الخيمة. بقيت الرسوم والظنون المنقولة بلا تصحيح صامت."
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p21",
+      "packet_id": "sp_umm_mabad_gloss",
+      "part_id": "p21",
+      "evidence_id": "H-10637-290-RA-UMM-GLOSS",
+      "text_ar": " ",
+      "source_start": 3443,
+      "source_end": 3444,
+      "source_text_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "kind_ar": "شرح الاعتدال في الكلام والقامة",
+      "speaker_ar": "أبو عبيد",
+      "book_ar": "دلائل النبوة - أبو نعيم الأصبهاني",
+      "citation_ar": "[دلائل النبوة - أبو نعيم الأصبهاني، 1/٣٤٠](https://app.turath.io/book/10637?page=290)",
+      "source_url": "https://app.turath.io/book/10637?page=290",
+      "context_note_ar": "شرح أبي عبيد بإسناده كما نقله أبو نعيم، كاملًا في حدود الدفتر. الشواهد الشعرية والقول النبوي المستشهد به والاقتباس القرآني ليست من حوار الخيمة. بقيت الرسوم والظنون المنقولة بلا تصحيح صامت."
+    },
+    {
+      "unit_id": "sp_umm_mabad_ibn_kathir:p2",
+      "packet_id": "sp_umm_mabad_ibn_kathir",
+      "part_id": "p2",
+      "evidence_id": "H-4445-2190-CRIT-IBNKATHIRGENERAL",
+      "text_ar": "وَقِصَّتُهَا مَشْهُورَةٌ مَرْوِيَّةٌ مِنْ طَرْقٍ يَشُدُّ بَعْضُهَا بَعْضًا.",
+      "source_start": 602,
+      "source_end": 677,
+      "source_text_sha256": "6016c42b1e44dc78b64196bae33ab41f0276ad7a437838f8544f25f45e54a784",
+      "kind_ar": "تقوية القصة بمجموع الطرق",
+      "speaker_ar": "ابن كثير",
+      "book_ar": "البداية والنهاية - ت التركي",
+      "citation_ar": "[البداية والنهاية - ت التركي، 4/472](https://app.turath.io/book/4445?page=2190)",
+      "source_url": "https://app.turath.io/book/4445?page=2190",
+      "context_note_ar": "مقطع ابن كثير كاملًا؛ أنساب وأسماء منقولة ثم تقوية إجمالية للقصة. لا يحول الحكم الإجمالي إلى تصحيح كل لفظ أو حسم اختلاف الأسماء."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p1",
+      "packet_id": "sp_umm_mabad_hidaya_start",
+      "part_id": "p1",
+      "evidence_id": "H-12115-2296-CRIT-MABADHIDAYABEGIN",
+      "text_ar": "٥٨٨٦ - وعن حازم بن هشام عن أبيه عن جده حبيش بن خالد - وهو أخو أم معبد - ",
+      "source_start": 0,
+      "source_end": 72,
+      "source_text_sha256": "81912169db456f2c9715baace19d12c8fb0b74fa65b0cd58f3b78543fa65a141",
+      "kind_ar": "سند خبر حبيش في متن المشكاة الملحق",
+      "speaker_ar": "نقل أثبته الحلبي من المشكاة",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/357](https://app.turath.io/book/12115?page=2296)",
+      "source_url": "https://app.turath.io/book/12115?page=2296",
+      "context_note_ar": "بداية خبر حبيش في متن المشكاة الذي أثبته المحقق في هداية الرواة؛ تتمته في الانتقاء التالي. ليس ابتداءً مستقلاً للقصة."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p2",
+      "packet_id": "sp_umm_mabad_hidaya_start",
+      "part_id": "p2",
+      "evidence_id": "H-12115-2296-CRIT-MABADHIDAYABEGIN",
+      "text_ar": "أن رسول الله ﷺ حين أخرج من مكة خرج مهاجرا إلى المدينة هو وأبو بكر ومولى أبي بكر عامر بن فهيرة ودليلهما عبد الله الليثي مروا على خيمتي أم معبد فسألوها لحما وتمرا ليشتروا منها فلم يصيبوا عندها شيئا من ذلك وكان القوم مرملين (^٤) مسنتين (^٥) فنظر رسول الله ﷺ",
+      "source_start": 72,
+      "source_end": 326,
+      "source_text_sha256": "5bbd2151c4dc27d5dd96862318e32ff6dbe7d8809c23568449b1ee1019eadf65",
+      "kind_ar": "صدر خبر حبيش قبل استمرار الصفحة",
+      "speaker_ar": "حبيش في النص الملحق",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/357](https://app.turath.io/book/12115?page=2296)",
+      "source_url": "https://app.turath.io/book/12115?page=2296",
+      "context_note_ar": "بداية خبر حبيش في متن المشكاة الذي أثبته المحقق في هداية الرواة؛ تتمته في الانتقاء التالي. ليس ابتداءً مستقلاً للقصة."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p1",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p1",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "إلى شاة في كسر (^١) الخيمة فقال: ",
+      "source_start": 0,
+      "source_end": 33,
+      "source_text_sha256": "8041cf4a616d13d02d7fa9b07f2d79c7f4b1c8a4dbd5deb0542206a47ee6bcef",
+      "kind_ar": "تتمة النظر إلى الشاة",
+      "speaker_ar": "حبيش في النص الملحق",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p2",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p2",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "&quot; ما هذه الشاة يا أم معبد؟ &quot; ",
+      "source_start": 33,
+      "source_end": 72,
+      "source_text_sha256": "a1461195800f56c2b9d1a5156e106549909a62749bc4289098baf7e32657961d",
+      "kind_ar": "سؤال النبي عن الشاة",
+      "speaker_ar": "النبي ﷺ في الخبر",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p3",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p3",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "قالت: شاة خلفها الجهد (^٢) عن الغنم. ",
+      "source_start": 72,
+      "source_end": 109,
+      "source_text_sha256": "186df7ecaa0dab67790b819db755cb0bbbb66dd271c6b834edc2801773f0d625",
+      "kind_ar": "جواب أم معبد عن الشاة",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p4",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p4",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "قال: &quot; هل بها من لبن؟ &quot; ",
+      "source_start": 109,
+      "source_end": 143,
+      "source_text_sha256": "5c85a402ed7c9531c72eca541da598e2f5c2f98282171cd0623915f1895b1ddc",
+      "kind_ar": "سؤال النبي عن اللبن",
+      "speaker_ar": "النبي ﷺ في الخبر",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p5",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p5",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "قالت: هي أجهد من ذلك. ",
+      "source_start": 143,
+      "source_end": 165,
+      "source_text_sha256": "1b93bd6c13ca2448af0d4a9a9366f303e1472d7653b6e72eec04eb7463a40cca",
+      "kind_ar": "جواب أم معبد عن اللبن",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p6",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p6",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "قال: &quot; أتأذنين لي أن أحلبها؟ &quot; ",
+      "source_start": 165,
+      "source_end": 206,
+      "source_text_sha256": "ecdae7d92132bd0e414188c0f8fd5f2ac4fd7faef84385d42410a43e34a7b11b",
+      "kind_ar": "طلب النبي الإذن بالحلب",
+      "speaker_ar": "النبي ﷺ في الخبر",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p7",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p7",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "قالت: بأبي أنت وأمي إن رأيت بها حلبا فاحلبها. ",
+      "source_start": 206,
+      "source_end": 252,
+      "source_text_sha256": "5d1b4947b5a1d94e720fc489f335212e9dc75e7cfe2e594d5616fc29f2ebb816",
+      "kind_ar": "إذن أم معبد",
+      "speaker_ar": "أم معبد في الخبر",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p8",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p8",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "فدعا بها رسول الله ﷺ فمسح بيده ضرعها وسمى الله تعالى ودعا لها في شاتها فتفاجت (^٣) عليه وردت واجترت فدعا بإناء يربض (^٤) الرهط فحلب فيه ثجا (^٥) حتى علاه البهاء (^٦) ثم سقاها حتى رويت وسقى أصحابه حتى رووا ثم شرب آخرهم ثم حلب فيه ثانيا بعد بدء حتى ملأ الإناء ثم غادره عندها وبايعها وارتحلوا عنها. [٥٩٤٣]\n\n",
+      "source_start": 252,
+      "source_end": 556,
+      "source_text_sha256": "d1f11949fcb46f7289a55ab5100537a950aef48369ac3b9258356723d986c36e",
+      "kind_ar": "خبر حبيش: الحلب والرحيل",
+      "speaker_ar": "حبيش في النص الملحق",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p9",
+      "packet_id": "sp_umm_mabad_hidaya_end",
+      "part_id": "p9",
+      "evidence_id": "H-12115-2297-CRIT-MABADHIDAYAMATN",
+      "text_ar": "• البيهقي [١/ ٢٧٦١ - ٢٧٨] (^٧) في &quot;الدلائل&quot; عنه.",
+      "source_start": 556,
+      "source_end": 614,
+      "source_text_sha256": "84d316d0e8ba6cc158372db7a0bf3fc0453a53c18b19b4785f772ce2c6ad666f",
+      "kind_ar": "تخريج ابن حجر؛ ليس من المتن",
+      "speaker_ar": "ابن حجر في التخريج",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "تتمة المتن الملحق ثم تخريج ابن حجر في سطر مستقل؛ تبقى حاشية الألباني منفصلة. نقل المتن من المشكاة ليس شاهدًا مستقلاً جديدًا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p1",
+      "packet_id": "sp_umm_mabad_albani",
+      "part_id": "p1",
+      "evidence_id": "H-12115-2297-CRIT-MABADALBANI",
+      "text_ar": "(^٧) وكذلك رواه الحاكم (٢/ ٩ - ١٠) وصححه، ووافقه الذهبي!\n",
+      "source_start": 0,
+      "source_end": 57,
+      "source_text_sha256": "adb9cb3add10cc83de7b8c9db54e4f956c0c7c7aed77d85a3f793cdb52d9f20b",
+      "kind_ar": "عزو الألباني وحكايته التصحيح",
+      "speaker_ar": "الألباني ينقل عزوًا وحكمًا لغيره",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "حاشية الألباني كاملة في نسختها الرقمية: العزو والاعتراض ثم احتمال التقوية والنقل عن الذهبي. رسم الجملة الأخيرة مضطرب ولم يقابل بمطبوع؛ لا يصحح هنا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p2",
+      "packet_id": "sp_umm_mabad_albani",
+      "part_id": "p2",
+      "evidence_id": "H-12115-2297-CRIT-MABADALBANI",
+      "text_ar": "قلت: وفيه هشام بن حبيش، أورده ابن أبي حاتم في &quot;الجرح والتعديل&quot; (٩/ ٥٣/ ٢٢٧)؛ ولَم يذكر فيه جرحًا ولا تعديلًا، ولا ذكر له غير ابنه راويًا، فأنى لإسناده الصحة؟!\n",
+      "source_start": 57,
+      "source_end": 226,
+      "source_text_sha256": "65b3759d7837135a35f8115bc36ccb31cc0f29d40d405cf7159107ee9c649d79",
+      "kind_ar": "اعتراض الألباني على صحة الإسناد",
+      "speaker_ar": "الألباني",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "حاشية الألباني كاملة في نسختها الرقمية: العزو والاعتراض ثم احتمال التقوية والنقل عن الذهبي. رسم الجملة الأخيرة مضطرب ولم يقابل بمطبوع؛ لا يصحح هنا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p3",
+      "packet_id": "sp_umm_mabad_albani",
+      "part_id": "p3",
+      "evidence_id": "H-12115-2297-CRIT-MABADALBANI",
+      "text_ar": "نعم، قد يرتقي الحديث إلى الحسن - أو الصحة - بطرق ساقها الحاكم، ",
+      "source_start": 226,
+      "source_end": 289,
+      "source_text_sha256": "54441562a195a9811e7be0391e3c95d0c8e5c397bdfc2b36ea7ca6f7260cecd3",
+      "kind_ar": "احتمال التقوية بالطرق عند الألباني",
+      "speaker_ar": "الألباني",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "حاشية الألباني كاملة في نسختها الرقمية: العزو والاعتراض ثم احتمال التقوية والنقل عن الذهبي. رسم الجملة الأخيرة مضطرب ولم يقابل بمطبوع؛ لا يصحح هنا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p4",
+      "packet_id": "sp_umm_mabad_albani",
+      "part_id": "p4",
+      "evidence_id": "H-12115-2297-CRIT-MABADALBANI",
+      "text_ar": "وَقَالَ الذهبي وإما في هذه الطرق شيء على شرط الصحيح&quot;.",
+      "source_start": 289,
+      "source_end": 347,
+      "source_text_sha256": "dc980ca869a0b989f495868a4055bd7606d1aa05029e849f43ca11716280ce33",
+      "kind_ar": "نقل عن الذهبي برسم رقمي مضطرب",
+      "speaker_ar": "الألباني ينقل عن الذهبي؛ لم يقابل الرسم بمطبوع",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 5/358](https://app.turath.io/book/12115?page=2297)",
+      "source_url": "https://app.turath.io/book/12115?page=2297",
+      "context_note_ar": "حاشية الألباني كاملة في نسختها الرقمية: العزو والاعتراض ثم احتمال التقوية والنقل عن الذهبي. رسم الجملة الأخيرة مضطرب ولم يقابل بمطبوع؛ لا يصحح هنا."
+    },
+    {
+      "unit_id": "sp_umm_mabad_attribution:p1",
+      "packet_id": "sp_umm_mabad_attribution",
+      "part_id": "p1",
+      "evidence_id": "H-12115-5-CRIT-ALBANIATTRIBUTION",
+      "text_ar": "فَلَقَدْ كانتْ بدايةُ العَمل العلْمِيِّ في هذا الكتَابِ قَبْلَ ما يَقْربُ مِن ثلاثِ سَنَواتٍ؛ حيثُ كنتُ قد عَرَضْتُ على شيخنا أبي عبدِ الرحمنِ محمدٍ ناصر الدين الأَلبانيِّ فِكْرَةَ تَحْقيقهِ وَنشْرِهِ؛ فوافقَ ذلكَ قَبولًا عِنْدَهُ، ورحَّبَ بِه، وَدَفَعَ إِليَّ ما عِنْدَه من تخريجاتٍ وتعليقاتٍ؛ لإلحاقها في مواضِعها من حواشي &quot;الهداية&quot;، فجزاهُ الله كلَّ خيرٍ وأكملَه.",
+      "source_start": 0,
+      "source_end": 376,
+      "source_text_sha256": "687cc773fa41b97d3ab26e3a8c416957b7e38b3b5a9efcf2dcfa8cc51b0ce857",
+      "kind_ar": "مقدمة المحقق في مصدر الحواشي",
+      "speaker_ar": "علي بن حسن الحلبي",
+      "book_ar": "هداية الرواة - مع تخريج المشكاة الثاني للألباني",
+      "citation_ar": "[هداية الرواة - مع تخريج المشكاة الثاني للألباني، 1/5](https://app.turath.io/book/12115?page=5)",
+      "source_url": "https://app.turath.io/book/12115?page=5",
+      "context_note_ar": "مقدمة الحلبي في مصدر حواشي الألباني؛ سياق لتعيين صاحب التعليق، وليس طريقًا تاريخيًا لحادثة الخيمة."
+    }
+  ],
+  "footnotes": [
+    {
+      "footnote_id": "hch_umm_mabad_fn_ab4d4a70a19cd7104ba106af5f5821bc1a86dddd6f91080a64f976ddfceaa0d3",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_overview"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_arrival",
+        "umm_mabad_goat",
+        "umm_mabad_return",
+        "umm_mabad_portrait",
+        "umm_mabad_ibn_kathir_scope",
+        "umm_mabad_albani_scope"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p11",
+            "p12",
+            "p13",
+            "p16",
+            "p17",
+            "p18"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_ibn_kathir",
+          "part_ids": [
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_end",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_albani",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_attribution",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_e6c293d5d8a1a9f799fe02ea8102e4ada9328f0e94f9d686a1e5937f88c8ae3d",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_01"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_arrival",
+        "umm_mabad_scarcity"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_2caf32aa82bf4561769fc4454f867fb433f8579078e127d3e7307c61d5cce56d",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_02"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_umm_mabad_outline_goat"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_goat",
+        "umm_mabad_consent"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_9876ab79488098b2ea47b6ad772780089a6a9a724dd9b0362a0d629e8957fb24",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_03"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_goat",
+        "umm_mabad_milk",
+        "umm_mabad_sharing"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p11"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_ffd93014e5116e0ea5dedee34b70d1ea340a6cbde8be18357ca6317d395c9d42",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_04"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_05"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_umm_mabad_outline_return"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_remaining",
+        "umm_mabad_return"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p11",
+            "p12",
+            "p13"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_d34d3dc90ea7349e9c28b5bac676d954633610d91ce13591245582eaad0f8071",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_06"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_host",
+        "umm_mabad_portrait"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_96915ce4de4786610eefbe71513630a1f0581ec6f983d0c276cd213499e5d171",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_07"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_08"
+        },
+        {
+          "target_type": "outline",
+          "target_id": "hch_umm_mabad_outline_portrait"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_portrait",
+        "umm_mabad_companions"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p16",
+            "p17",
+            "p18"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_a6498ba0d134ff5c11b31ba547f750c1b2360e69f3b0c68663feeb6efe5a6937",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_account_09"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_return",
+        "umm_mabad_host",
+        "umm_mabad_recognition"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_250951aa34e0f99bf40f894621dd716fa66b91424b845fb32bbade0ff6374acd",
+      "targets": [
+        {
+          "target_type": "outline",
+          "target_id": "hch_umm_mabad_outline_request"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_scarcity"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p2",
+            "p3",
+            "p4"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_f37aa8076fea15552424b8008780d56b8427949cee6f311bb1ebdedd41a9d9c4",
+      "targets": [
+        {
+          "target_type": "outline",
+          "target_id": "hch_umm_mabad_outline_milk"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_sharing",
+        "umm_mabad_remaining"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p11"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_623dca507e01a74bb45473cf908e7a84e4afa95b11f64fe14bd57df4b1d06455",
+      "targets": [
+        {
+          "target_type": "outline",
+          "target_id": "hch_umm_mabad_outline_recognition"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_recognition"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p16",
+            "p17",
+            "p18",
+            "p19"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_40f7ef77a1d38681920c0de2359d4cdb54acdac0adfef246c732664d3a5f9516",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_depth_scarcity_01"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_scarcity",
+        "umm_mabad_food_terms"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_gloss",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_bdd3e8c5866c9217f4fe615dd129cd7fe68d8c47288957895cf09b9acea5dd7d",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_depth_speech_01"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_portrait",
+        "umm_mabad_companions",
+        "umm_mabad_speech_terms"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_story",
+          "part_ids": [
+            "p16",
+            "p17",
+            "p18"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_gloss",
+          "part_ids": [
+            "p1",
+            "p19",
+            "p20",
+            "p21"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_ec769c5b0bf025f38fe7e6baf406f71111124478e3f1cd7af48e1aa97871f493",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_depth_judgments_01"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_depth_judgments_02"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_ibn_kathir_scope",
+        "umm_mabad_albani_scope"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_ibn_kathir",
+          "part_ids": [
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_end",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_albani",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_attribution",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    {
+      "footnote_id": "hch_umm_mabad_fn_76afdcbf2830eea92da9466aec48df200f863a74903c4f656670572a61ab2faa",
+      "targets": [
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_umm_mabad_depth_voices_01"
+        }
+      ],
+      "claim_ids": [
+        "umm_mabad_albani_scope",
+        "umm_mabad_annotation_voice"
+      ],
+      "source_refs": [
+        {
+          "packet_id": "sp_umm_mabad_hidaya_start",
+          "part_ids": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_hidaya_end",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_albani",
+          "part_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "packet_id": "sp_umm_mabad_attribution",
+          "part_ids": [
+            "p1"
+          ]
+        }
+      ]
+    }
+  ]
+}

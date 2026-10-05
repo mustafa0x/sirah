@@ -1,0 +1,127 @@
+{
+  "chapter_order": [
+    "hch_early_migration",
+    "hch_aqaba",
+    "hch_preparations",
+    "hch_departure",
+    "hch_thawr",
+    "hch_road",
+    "hch_suraqa",
+    "hch_umm_mabad",
+    "hch_quba",
+    "hch_madinah_arrival",
+    "hch_mosque",
+    "hch_settlement"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "hch_early_migration",
+      "title": "நபி ﷺ புறப்படுவதற்கு முன்: ஒரே மாதிரி அமையாத புலம்பெயர்வுப் பயணங்கள்",
+      "path": "hch_early_migration/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+      "translation_sha256": "209b9bef07ce2a00df60625949025263fbaa7c2cf0e00e910c051c3b523cde37",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_aqaba",
+      "title": "யஸ்ரிபைச் சேர்ந்தவர்களுடனான சந்திப்பிலிருந்து அகபா உடன்படிக்கை வரை",
+      "path": "hch_aqaba/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
+      "translation_sha256": "f58d56574b01798709e04d7c627c3119bd2cb9e04d00af43c489bd35d814938f",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_preparations",
+      "title": "ஹிஜ்ரத்துக்கான ஆயத்தம்: தோழமை, இரண்டு பயண ஒட்டகங்கள், பயண உணவு",
+      "path": "hch_preparations/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
+      "translation_sha256": "615a0c788a1565020418a70414c400d0485c78dc875f5a8a51f088f7470e50a9",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_departure",
+      "title": "மக்காவிலிருந்து புறப்படுதல்: திட்டம், படுக்கை, ஒப்படைக்கப்பட்ட பொருள்கள்",
+      "path": "hch_departure/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+      "translation_sha256": "53affae5fa1ed27f5a36ceae417b2abbfa2c02fec409c16eba05993f45a84737",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_thawr",
+      "title": "தவ்ர் குகையில் மூன்று இரவுகள்",
+      "path": "hch_thawr/chapter.ta.json",
+      "revision": 6,
+      "arabic_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812",
+      "translation_sha256": "041125734dc56e014985b98eee50e43ef5ad4faa998ec0562fbd79c1c9fac53f",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_road",
+      "title": "குகைக்குப் பிந்தைய வழிகாட்டியும் பாதையும்",
+      "path": "hch_road/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+      "translation_sha256": "7497aea0c698086e0076a8bea9b4b7488f0f96d291539472fd54c8bc9c61c514",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_suraqa",
+      "title": "சுராகா: துரத்தலில் இருந்து பாதுகாப்பு வரை",
+      "path": "hch_suraqa/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
+      "translation_sha256": "0912ca260c78193e5634c0c5a3c3a579c2982aeca075dd5319201368426779f7",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_umm_mabad",
+      "title": "உம்மு மஅபதின் இரு கூடாரங்களருகே",
+      "path": "hch_umm_mabad/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+      "translation_sha256": "7d2b8e4aa604e42cd19f11ec67e708ec33d6450555b110c0e161da1a0bbcc317",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_quba",
+      "title": "குபா: காத்திருப்பும் வருகையும், பின்னர் மதீனாவுக்கான பாதையும்",
+      "path": "hch_quba/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+      "translation_sha256": "255c46d37390da5c189bf182d678caf984f2fe78a30b1e7d4dc75fb20864a3a1",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_madinah_arrival",
+      "title": "மதீனாவில் வரவேற்பும் முதல் தங்குமிடமும்",
+      "path": "hch_madinah_arrival/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
+      "translation_sha256": "14169344d0cf6ada4b7e3d2795a36033650efd24f5e0f26f94c5036e7fda3284",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_mosque",
+      "title": "களமும் மதீனா பள்ளிவாசல் கட்டுமானமும்",
+      "path": "hch_mosque/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+      "translation_sha256": "92fd7a59eb3f417c4145e5452b19acb3d3a2ffe11fbc09f67ea27203c357c567",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_settlement",
+      "title": "வருகைக்குப் பின்: வந்து சேரும் குடும்பத்தினர்; அதன் நலனுக்காகப் பிரார்த்திக்கப்படும் நகரம்",
+      "path": "hch_settlement/chapter.ta.json",
+      "revision": 1,
+      "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
+      "translation_sha256": "5eb3244ad9652184883fcaa7284e3952b47d23c73ab8539075ee74f8744755f7",
+      "status": "translation_wip"
+    }
+  ],
+  "draft_chapter_ids": []
+}

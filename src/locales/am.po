@@ -146,19 +146,19 @@ msgstr "<0>ምንጮች</0> ከእያንዳንዱ አንቀጽ በስተጀር�
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> ለማጫወት ወይም ለማቆም · <1/> <2/> ምዕራፍ ለመቀየር · <3>Esc</3> ለመዝጋት"
 
-#. 0: chapter.steps.length
+#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} stages"
 msgstr "{0} ምዕራፎች"
 
-#. 0: total_minutes
+#. 0: fmt_num(total_minutes)
 #: src/routes/Journey.svelte
 #, ai
 msgid "about {0} minutes"
 msgstr "በግምት {0} ደቂቃዎች"
 
-#. 0: chapter.sources.length
+#. 0: fmt_num(chapter.sources.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} cited passages"
@@ -271,7 +271,7 @@ msgstr "<0/> ምንጮች <1/>"
 msgid "<0/> Ask"
 msgstr "<0/> ይጠይቁ"
 
-#. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
+#. 0: fmt_num(selected_index + 1); 1: fmt_num(chapter.steps.length); 2: selected_step.title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0} of {1} · {2}"
@@ -359,21 +359,19 @@ msgstr "የቀረቡ ጥያቄዎች"
 msgid "Close source"
 msgstr "ምንጭ ዝጋ"
 
-#. 0: source.volume; 1: source.page
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 #, ai
 msgid "· vol. {0}, p. {1}"
 msgstr "· ቅጽ {0}፣ ገጽ {1}"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What this passage supports"
-msgstr "ይህ ጽሑፍ የሚደግፈው"
+#~ msgid "What this passage supports"
+#~ msgstr "ይህ ጽሑፍ የሚደግፈው"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What it does not establish"
-msgstr "ጽሑፉ የማያረጋግጠው"
+#~ msgid "What it does not establish"
+#~ msgstr "ጽሑፉ የማያረጋግጠው"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -385,10 +383,9 @@ msgstr "ወደ መልሱ ተመለስ"
 msgid "Back to the journey"
 msgstr "ወደ ጉዞው ተመለስ"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "Open the page on Turath <0/>"
-msgstr "ገጹን በቱራት (Turath) ክፈት <0/>"
+#~ msgid "Open the page on Turath <0/>"
+#~ msgstr "ገጹን በቱራት (Turath) ክፈት <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -1986,141 +1983,165 @@ msgstr "<0/> ግንዛቤዎን ይፈትሹ <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> የተማሩትን ይለማመዱ"
 
-#: src/routes/Journey.svelte
-msgid "<0/> Read the chapter <1/>"
-msgstr "<0/> ምዕራፉን ያንብቡ <1/>"
+#~ msgid "<0/> Read the chapter <1/>"
+#~ msgstr "<0/> ምዕራፉን ያንብቡ <1/>"
 
 #. 0: note.number
-#. 0: source.number
 #: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Source {0}"
 msgstr "ምንጭ {0}"
 
 #: src/routes/Journey.svelte
 msgid "<0>Drag</0> to look around, <1/> to zoom, and select a place name to fly there."
-msgstr ""
+msgstr "ዙሪያውን ለማየት <0>ይጎትቱ</0>፣ ለማጉላት <1/>፣ እና ወደዚያ ለመብረር የቦታ ስም ይምረጡ።"
 
 #: src/lib/ChapterReader.svelte
 msgid "Sources"
-msgstr ""
+msgstr "ምንጮች"
 
 #: src/lib/ChapterReader.svelte
 msgid "Story"
-msgstr ""
+msgstr "ታሪክ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
-msgstr ""
+msgstr "ግንዛቤዎን ይፈትሹ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr ""
+msgstr "ከቀረበው የቁርአን ክፍል የተተረጎመ፤ ይህ ይፋዊ የቁርአን ትርጉም ወይም ገለልተኛ የጽሑፍ ንጽጽር አይደለም።"
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
-msgstr ""
+msgstr "የአረብኛ መነሻ ጽሑፍ እና የምንጭ ዝርዝሮች"
 
 #: src/lib/ChapterReader.svelte
 msgid "Choose a chapter"
-msgstr ""
+msgstr "ምዕራፍ ይምረጡ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Close chapter"
-msgstr ""
+msgstr "ምዕራፉን ዝጉ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter sections"
-msgstr ""
+msgstr "የምዕራፉ ክፍሎች"
 
 #: src/lib/ChapterReader.svelte
 msgid "Loading…"
-msgstr ""
+msgstr "በመጫን ላይ…"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter contents"
-msgstr ""
+msgstr "የምዕራፉ ይዘት"
 
 #: src/lib/ChapterReader.svelte
 msgid "In this chapter"
-msgstr ""
+msgstr "በዚህ ምዕራፍ"
 
-#: src/lib/ChapterReader.svelte
-msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-msgstr ""
+#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
+#~ msgstr "የተመረጡት ክፍሎች የእንግሊዝኛ ትርጉሞች። ዋናው የአረብኛ ጽሑፍ ከእያንዳንዱ ክፍል ጋር ይገኛል።"
 
-#: src/lib/ChapterReader.svelte
-msgid "English summary — not a translation"
-msgstr ""
+#~ msgid "English summary — not a translation"
+#~ msgstr "የእንግሊዝኛ ማጠቃለያ — ትርጉም አይደለም"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
-msgstr ""
+msgstr "ይህ ምርጫ በቀደመው ንባብ ውስጥ ታይቷል።"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chain of transmission"
-msgstr ""
+msgstr "የሐዲስ አስተላላፊዎች ሰንሰለት"
 
 #: src/lib/ChapterReader.svelte
 msgid "Source-study questions: read the passages and compare them."
-msgstr ""
+msgstr "የምንጭ ጥናት ጥያቄዎች፦ ክፍሎቹን ያንብቡና ያነጻጽሩ።"
 
 #. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
-msgstr ""
+msgstr "ጥያቄ {0} ከ {1} · {2}"
 
 #: src/lib/ChapterReader.svelte
 msgid "Continue with source-study questions"
-msgstr ""
+msgstr "በምንጭ ጥናት ጥያቄዎች ይቀጥሉ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Try again"
-msgstr ""
+msgstr "እንደገና ይሞክሩ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Back to the story"
-msgstr ""
+msgstr "ወደ ታሪኩ ይመለሱ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
-msgstr ""
+msgstr "በዚህ ስብስብ ውስጥ ካሉት ጥያቄዎች ትክክለኛ መልሶች።"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
-msgstr ""
+msgstr "የሂጅራ ምዕራፎች"
 
-#: src/lib/ChapterReader.svelte
-msgid "This chapter is available in Arabic and English. Showing the English edition."
-msgstr ""
+#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
+#~ msgstr "ይህ ምዕራፍ በአረብኛ እና በእንግሊዝኛ ይገኛል። የእንግሊዝኛው እትም እየታየ ነው።"
 
 #: src/lib/ChapterReader.svelte
 msgid "Learning goals"
-msgstr ""
+msgstr "የትምህርት ግቦች"
 
+#. 0: source.reference
 #: src/routes/Journey.svelte
 msgid "Open the page on Turath: {0}"
 msgstr "በቱራስ ላይ ገጹን ክፈት: {0}"
-
-#: src/routes/Journey.svelte
-msgid "Explore the map"
-msgstr "ካርታውን ያስሱ"
 
 #: src/routes/Journey.svelte
 msgid "Fit map"
 msgstr "ሙሉ ካርታውን አሳይ"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Explore the map"
+msgstr "ካርታውን ያስሱ"
+
+#: src/routes/Journey.svelte
 msgid "Select a book marker to read its chapter."
 msgstr "ምዕራፉን ለማንበብ የመጽሐፍ ምልክቱን ይምረጡ።"
+
+#: src/routes/Journey.svelte
+msgid "Begin the journey"
+msgstr "ጉዞውን ይጀምሩ"
 
 #: src/routes/Journey.svelte
 msgid "Locations are schematic."
 msgstr "ቦታዎቹ በምሳሌያዊ መልኩ ተሰይመዋል።"
 
+#: src/lib/ChapterReader.svelte
+msgid "Arabic original"
+msgstr "የአረብኛ መነሻ ጽሑፍ"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "በዚህ ቋንቋ የምዕራፉ እትም ገና አልተዘጋጀም። የእንግሊዝኛው እትም እየታየ ነው።"
+
+#: src/lib/ChapterReader.svelte
+msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
+msgstr "ለተመረጡ የጽሑፍ ክፍሎች ትርጉሞች ወይም ማጠቃለያዎች ሊኖሩ ይችላሉ። የአረብኛው መነሻ ጽሑፍ ከእያንዳንዱ ክፍል ጋር ይገኛል።"
+
+#: src/lib/ChapterReader.svelte
+msgid "Summary — not a translation"
+msgstr "ማጠቃለያ — ትርጉም አይደለም"
+
 #: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "ጉዞውን ይጀምሩ"
+msgid "Read the chapter"
+msgstr "ምዕራፉን ያንብቡ"
+
+#: src/lib/ChapterReader.svelte
+msgid "Work in progress. All editions require scholarly review before public or wide release."
+msgstr "ሥራው ገና በሂደት ላይ ነው። ሁሉም እትሞች ለሕዝብ ወይም በስፋት ከመሰራጨታቸው በፊት በምሁራን መገምገም አለባቸው።"
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"

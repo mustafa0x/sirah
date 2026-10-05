@@ -1,0 +1,127 @@
+{
+  "chapter_order": [
+    "hch_early_migration",
+    "hch_aqaba",
+    "hch_preparations",
+    "hch_departure",
+    "hch_thawr",
+    "hch_road",
+    "hch_suraqa",
+    "hch_umm_mabad",
+    "hch_quba",
+    "hch_madinah_arrival",
+    "hch_mosque",
+    "hch_settlement"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "hch_early_migration",
+      "title": "پیش از خروج پیامبر ﷺ: مهاجران و راه‌هایی که یکسان نبودند",
+      "path": "hch_early_migration/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+      "translation_sha256": "f36a07a3923829c2d1746239c632c213c1385ef5f50b8b5fd5ba909a29343543",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_aqaba",
+      "title": "از دیدار یثرب تا پیمان عقبه",
+      "path": "hch_aqaba/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
+      "translation_sha256": "877d903c81227ab6a910d56365d1f690d519ce1af5ad451efcf74d0e692c122b",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_preparations",
+      "title": "آمادگی برای هجرت: همراهی، دو مرکب و توشه",
+      "path": "hch_preparations/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
+      "translation_sha256": "80482cadf380a4adf0d8a029d36fc88bc5f42ae5d0b06d2fddf8ba00e522b70a",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_departure",
+      "title": "خروج از مکه: نقشه، بستر و امانت‌ها",
+      "path": "hch_departure/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+      "translation_sha256": "63003ef97a25c120ebd82509c1066dcf4acadfaa82b8d6a7d97547b1764b7b95",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_thawr",
+      "title": "سه شب در ثور",
+      "path": "hch_thawr/chapter.fa.json",
+      "revision": 6,
+      "arabic_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812",
+      "translation_sha256": "93ea2f73014fa07763ba7590c0b215674e718b6fcadfc79292e9980b59a32dde",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_road",
+      "title": "راهنما و راه پس از غار",
+      "path": "hch_road/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+      "translation_sha256": "2bdb16926aeb0a221299a214b74b73c5e43f288f1f4bdd0ba619a41df8ed6582",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_suraqa",
+      "title": "سراقه: از تعقیب تا امان",
+      "path": "hch_suraqa/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
+      "translation_sha256": "3ec8849654b2696cdb39e38a6ca0fb06bb3f97ef622e3b78f9d25a74a9c3de7f",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_umm_mabad",
+      "title": "کنار دو خیمهٔ ام‌معبد",
+      "path": "hch_umm_mabad/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+      "translation_sha256": "17a185da9796533758b7aaa40321eb4c26f64a8199b95d3a3cdc94038af526d2",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_quba",
+      "title": "قبا: انتظار و رسیدن، سپس راه مدینه",
+      "path": "hch_quba/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+      "translation_sha256": "5c13fb1ce19041532b9b615678691878fb217f45dc4cb362272f8730c822b1a6",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_madinah_arrival",
+      "title": "استقبال و نخستین اقامتگاه در مدینه",
+      "path": "hch_madinah_arrival/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
+      "translation_sha256": "d46911f67866b4a7a5e5f94e391c08a386291d4a4d3025e232818642c1226a4a",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_mosque",
+      "title": "مربد و ساخت مسجد مدینه",
+      "path": "hch_mosque/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+      "translation_sha256": "18e909fba0ab6783be254e2960878c284b7c9703e7fca083c861299731afeea7",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_settlement",
+      "title": "پس از رسیدن: خانواده‌هایی که از پی می‌آیند و شهری که برایش دعا می‌شود",
+      "path": "hch_settlement/chapter.fa.json",
+      "revision": 1,
+      "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
+      "translation_sha256": "b740f373b5a9b3b5cd9c8dcc56109b05b0085caa335ab4b887b92f0c02c8ece5",
+      "status": "translation_ready"
+    }
+  ],
+  "draft_chapter_ids": []
+}

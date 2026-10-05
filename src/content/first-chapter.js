@@ -25,6 +25,8 @@ export const chapter = {
     steps: [
         {
             id: 'setting',
+            reading_chapter_id: 'hch_early_migration',
+            additional_reading_chapter_ids: ['hch_aqaba'],
             title: 'Before the journey',
             scene: 'overview',
             duration: 24,
@@ -44,6 +46,7 @@ export const chapter = {
         },
         {
             id: 'preparations',
+            reading_chapter_id: 'hch_preparations',
             title: 'Preparing to leave',
             scene: 'overview',
             duration: 24,
@@ -63,6 +66,7 @@ export const chapter = {
         },
         {
             id: 'departure',
+            reading_chapter_id: 'hch_departure',
             title: 'The night of departure',
             scene: 'overview',
             duration: 34,
@@ -122,6 +126,7 @@ export const chapter = {
         },
         {
             id: 'onward',
+            reading_chapter_id: 'hch_road',
             title: 'The journey continues',
             scene: 'overview',
             duration: 26,
@@ -186,6 +191,7 @@ export const chapter = {
         },
         {
             id: 'quba',
+            reading_chapter_id: 'hch_quba',
             title: 'Quba: the first stop',
             scene: 'overview',
             duration: 24,
@@ -205,6 +211,8 @@ export const chapter = {
         },
         {
             id: 'arrival',
+            reading_chapter_id: 'hch_madinah_arrival',
+            additional_reading_chapter_ids: ['hch_mosque', 'hch_settlement'],
             title: 'Arrival and a new beginning',
             scene: 'overview',
             duration: 24,

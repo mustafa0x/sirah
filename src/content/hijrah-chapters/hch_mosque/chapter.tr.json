@@ -1,0 +1,2733 @@
+{
+  "chapter_id": "hch_mosque",
+  "revision": 1,
+  "locale": "tr",
+  "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+  "arabic_payload_sha256": "80b029585822826eed261c4647ec74e512de750b74c4771d1c8ebe99f4109e2c",
+  "status": "translation_ready",
+  "units": [
+    {
+      "unit_id": "hch_mosque:title_ar",
+      "source_text_sha256": "e3406a35055e882884f26dbd202b2d85ad85a36db942e09b2b7a04e4c42c128f",
+      "text": "Mirbed ve Medine mescidinin inşası"
+    },
+    {
+      "unit_id": "hch_mosque:reader_question_ar",
+      "source_text_sha256": "99ec22ff292176de10e498c4323a2b5a6138cf2e47163031813386ae719526d2",
+      "text": "Burası nasıl bir mirbedden mescide dönüştü; mülkiyet ve çalışma hakkındaki rivayetlerin farklılığını nasıl okumalıyız?"
+    },
+    {
+      "unit_id": "hch_mosque_opening:text_ar",
+      "source_text_sha256": "c4d4391f2e7e5223a552c3255e6497a77f0978b14bbbc4aefc520fde8e061c2f",
+      "text": "Mirbed nasıl mescit oldu? Rivayetler, bineğin çöktüğü yerde başlar; ardından arazi, arazinin hazırlanması ve çalışanların emeği ele alınır. Enes’in hadisinde Benî Neccâr’ın cevabını, siyer anlatısındaki iki çocukla ilgili haberin yanında okuyoruz; her rivayetin kendi sesi ve sınırı vardır."
+    },
+    {
+      "unit_id": "hch_mosque_ground:title_ar",
+      "source_text_sha256": "ef290210aa9a9c5b92cfda05abb9fc5eb6f29604ba6f86b8848cb8736df3a5a9",
+      "text": "Bineğin çöktüğü yerden mirbede"
+    },
+    {
+      "unit_id": "hch_mosque_ground_1:text_ar",
+      "source_text_sha256": "4f21da00784e9baadfb399e95fdca60d03ce45d4b5f95321179e8be1c96822f9",
+      "text": "İbn Hişâm’ın siyerinde İbn İshak, bineğin Benî Mâlik b. Neccâr mahallesindeki bir mirbedin yanında çökmesini, sonra kalkıp fazla uzaklaşmadan yürüyerek tekrar çöktüğü yere dönmesini anlatır. Mirbedin, Muâz b. Afrâ’nın himayesindeki iki yetim çocuk Sehl ve Süheyl’e ait olduğunu belirtir. Haberin devamında Peygamber ﷺ binekten iner ve eşyası Ebû Eyyûb’un evine taşınır."
+    },
+    {
+      "unit_id": "hch_mosque_ground_2:text_ar",
+      "source_text_sha256": "28d55863dbe7e3a445a446648087b46a1c0f17f9a0eabe0a8196d7e0e323fe5f",
+      "text": "Peygamber ﷺ “Mirbed kimin?” diye sordu. Muâz, iki çocuğa ait olduğunu söyleyip mirbed karşılığında onları razı edeceğini belirtti ve buranın mescit yapılmasını teklif etti. Bu soru ve teklif İbn İshak’ın haberindedir; belirli bir bedel üzerinde anlaşmanın metni değildir."
+    },
+    {
+      "unit_id": "hch_mosque_bargain:title_ar",
+      "source_text_sha256": "7bd6abf9f703947740827d3ad08b0c229cc85c2b54ff93d840d838736ba25e1f",
+      "text": "Benî Neccâr’ın cevabı"
+    },
+    {
+      "unit_id": "hch_mosque_bargain_1:text_ar",
+      "source_text_sha256": "f167a413c7f8fa28a126119021efb58c5541bd8014afa26c232b81d16ed64676",
+      "text": "Sahîh-i Müslim’de Enes, Benî Amr b. Avf’tan Ebû Eyyûb’un evinin önüne gelişi anlatır; Peygamber ﷺ namaz vakti nerede kendisine erişirse orada, koyunların yattığı yerlerde de namaz kılıyordu. Ardından mescidin yapılmasını emretti ve Benî Neccâr’ın ileri gelenlerinden bahçeleri için kendisiyle bedel üzerinde pazarlık etmelerini istedi. Onlar da bedelini yalnızca Allah’tan beklediklerini söylediler."
+    },
+    {
+      "unit_id": "hch_mosque_bargain_2:text_ar",
+      "source_text_sha256": "5860c06ac7614653215d3ba92ec57ff91e37e3816a8106ad9ea5a3c4aa7c7863",
+      "text": "Enes’in rivayetinde topluluğun cevabı kendilerine aittir; buna karşılık İbn İshak iki çocuğun adını verir ve teklifi Muâz’ın ağzından aktarır. Bu iki parça, gerçekte ne kadar ödendiğini söylemez; konuşanlardan birini ötekinin yerine de koymaz."
+    },
+    {
+      "unit_id": "hch_mosque_clearing:title_ar",
+      "source_text_sha256": "293dfee77550d43fbb84afc8a657844d21191b9f05e4cb209b3f8310321e2247",
+      "text": "Arazinin hazırlanması"
+    },
+    {
+      "unit_id": "hch_mosque_clearing_1:text_ar",
+      "source_text_sha256": "7a3998eb0fd105954e9b4a757ac4cf47cbccae35cd1ccd008efec2cec877c327",
+      "text": "Haber, ayakta duran duvarlarla başlamaz: Enes, bahçede hurma ağaçları, müşriklerin mezarları ve harabeler bulunduğunu sayar; Peygamber’in ﷺ emriyle ağaçların kesildiğini, mezarların açıldığını, harabelerin düzeltildiğini söyler. Haberde açılan mezarlar, özellikle orada anılan mezarlardır."
+    },
+    {
+      "unit_id": "hch_mosque_clearing_2:text_ar",
+      "source_text_sha256": "794c1447fbc874c4aef7362e18a960a6f9259640c4be09a4e8cf37041495855a",
+      "text": "Müslim’in rivayetinin devamına göre hurma gövdeleri kıble tarafına dizilmiş, mescidin iki sövesi taşlardan yapılmıştır. Müslim ayrıca mescit yapılmadan önce Peygamber’in ﷺ koyunların yattığı yerlerde namaz kılmasına dair kısa bir haber ve bunun benzerine atıfta bulunan, yeni ayrıntılı bir metin içermeyen bir takip rivayeti nakleder."
+    },
+    {
+      "unit_id": "hch_mosque_hands:title_ar",
+      "source_text_sha256": "e3fa17fdb5d0632f3fe11a5e431f9a888c7af36aa900a2314d266c714824ec07",
+      "text": "Çalışanlar ve söyledikleri"
+    },
+    {
+      "unit_id": "hch_mosque_hands_1:text_ar",
+      "source_text_sha256": "b95e74015d47c282bb8d7bb94c9666c26042d864d5d4ff71330936b6c9630327",
+      "text": "İbn İshak, Peygamber’in ﷺ mescitte çalıştığını, muhacirlerin ve ensarın da onunla birlikte çalıştığını söyler. Müslim’deki Enes rivayetinin devamında çalışanlar recez söylüyor, Peygamber ﷺ de onların arasındaydı; sözleri ahiret hayrına yöneliyor, ensar ve muhacirler için dua içeriyordu. Çalışmayı anlatmak için haberde geçmeyen bir şarkılı icra tasarlamaya gerek yoktur."
+    },
+    {
+      "unit_id": "hch_mosque_hands_2:text_ar",
+      "source_text_sha256": "8b67ae23841843b899ebc9d16c93ee25e6536357574a2a828bef46bcdd0e2bd8",
+      "text": "Siyerde adı belirtilmeyen bir Müslümanın, Peygamber ﷺ de çalışırken çalışmaya teşvik eden bir beyti yer alır. Siyer Müslümanların recez okuyuşunu, ahiretin hayrını ve ensar ile muhacirlere rahmeti dileyişlerini nakleder; sonra İbn Hişâm’ın bu sözlerin recez olmadığına dair edebî yorumunu ayrı tutar ve ardından Peygamber’in ﷺ başka lafızlarla söylediği bir sözü aktarır. Bunların hepsi tek bir kişinin sözleri değildir."
+    },
+    {
+      "unit_id": "hch_mosque_depth_title:title_ar",
+      "source_text_sha256": "e4a41f7d39ccd8da3ee181b7cbcfc411801b5ed70d60215fad9f9442bdd6ce64",
+      "text": "Kim kime sesleniyor?"
+    },
+    {
+      "unit_id": "hch_mosque_depth_title_1:text_ar",
+      "source_text_sha256": "f3cbb0ecf81564f256ba8826a1c879734996fb5e8cabcbea34a658cd812c190d",
+      "text": "İki haberde birbirine karıştırılmaması gereken iki anlatım vardır: İbn Hişâm’ın siyerindeki Muâz çocukları tanıtır ve onları razı etmeyi teklif eder; Müslim’de Benî Neccâr, Peygamber’in ﷺ bahçelerine bedel biçmelerini istemesi üzerine cevap verir. Buhârî’deki Urve’nin kesintisiz bağlamında —bağlamsal okumalarda karşılaştırmaya açık olan, fakat buraya bağımsız bir alıntı gibi taşınmayan metinde— çocukların kimin himayesinde olduğu farklı bir adla geçer ve çocukların hibe teklifi görünür. Bu nedenle rivayetlerin tümü için tek bir veli seçmiyor, satın alma tutarı da ilan etmiyoruz."
+    },
+    {
+      "unit_id": "hch_mosque_depth_title_musa:text_ar",
+      "source_text_sha256": "c9637be072fa5a71081c1ecb293bc1c7dff71e6ee199a0b1ef940c830ae1245a",
+      "text": "Beyhakî’nin Mûsâ b. Ukbe kanalıyla Zührî’den naklinde çocukların Es‘ad’ın himayesinde olduğu aktarılır; ardından kesinlik bildirmeyen nakil kipiyle iki ihtimal verilir: çocuklara hurma ağaçlarıyla karşılık verilmesi veya mirbedin onlardan satın alınması. Bunları bedeli belirlenmiş tek bir işleme çevirmek ya da Enes’in hadisindeki Benî Neccâr’ın sözü olarak sunmak doğru değildir."
+    },
+    {
+      "unit_id": "hch_mosque_depth_title_2:text_ar",
+      "source_text_sha256": "6e46360b397f67d46d76967495576fcd1b9bbe90c323544e95e71a7d36f5f96b",
+      "text": "Enes’in metni değil, Müslim baskısının dipnotu, İbn Sa‘d’dan Vâkıdî aracılığıyla Ebû Bekir’in ödediği on dinarlık bir meblağ nakleder. İbn Hacer ise mülk sahibi olmayanın satış yapmasını caiz sayanların bu olaya dayandırdığı fıkhî gerekçeyi ve çocukların bir yakınının pazarlığa katılmış olabileceği şeklindeki ihtimalli cevabı aktarır. Bu nakil, dipnotu Benî Neccâr’ın cevabına, ihtimali de vekilin kesin olarak belirlenmesine dönüştürmez."
+    },
+    {
+      "unit_id": "hch_mosque_depth_build:title_ar",
+      "source_text_sha256": "7a7147b1a6bd129c1c906a1efbb5172e360c5f4ab35cd274c07aa9e21daefed6",
+      "text": "Yapı malzemesi ve inşaat aşamasının sınırı"
+    },
+    {
+      "unit_id": "hch_mosque_depth_build_1:text_ar",
+      "source_text_sha256": "8be03cecf77ec1dcc73b8b0d4ad3df4b987333070c0316c8dfa37331d9ff1480",
+      "text": "İbn Hacer’in açıklamasında “leben” pişirilmemiş kerpiçtir. İbn Âiz’den önce bir çardak aşamasını, ardından üzerinin örtülmesini aktarır; Zübeyr’den ise farklı bir zamanlamayla önce hurma dalları, sonra kerpiç kullanıldığını nakleder. Bunlar farklı açıklama ve nakillerdir; tek bir plan ya da mescidin ölçüsü değildir. Önümüzdeki Müslim metni hurma ağaçlarını ve taşları zikreder, duvarların uzunluğunu veya kapı sayısını değil."
+    },
+    {
+      "unit_id": "hch_mosque_depth_build_2:text_ar",
+      "source_text_sha256": "91a3f98aae974248bee30be3a1eba67bbadbd3a9f72aa6a05ab91e1437befcd1",
+      "text": "Koyunların yattığı yerlerde namaz kılmaya dair kısa haberi, Müslim’in o habere eklediği takip rivayetinden ayırmak yararlıdır: benzer habere yapılan gönderme bize ayrıntılı ikinci bir sahne sunmaz. Daha uzun Enes haberinde mescidin yapılması emrinden önce namaz, ardından inşaat için yerin hazırlanması anlatılır."
+    },
+    {
+      "unit_id": "hch_mosque_depth_voices:title_ar",
+      "source_text_sha256": "253af20ce54eaf88313b15de15d4c2a16b3e177832816f8de8568557c59c99a1",
+      "text": "Recez söyleyenler ve açıklamaların farklı sesleri"
+    },
+    {
+      "unit_id": "hch_mosque_depth_voices_1:text_ar",
+      "source_text_sha256": "e6f71203d8c40aaf8ba90a1913d892b207caa27d6502a2de791fc431c09dc42f",
+      "text": "Enes rivayeti dua sözlerini, Peygamber ﷺ de aralarındayken recez okuyan çalışanlara nispet eder. Siyerde “Müslümanlar” ifadesi yer alır; ardından İbn İshak Peygamber’den ﷺ özel bir söz aktarır. İbn Hacer’in Zübeyr’den naklinde başka beyitler Müslümanlardan adı bilinmeyen birine ve Ali’ye nispet edilir; farklı sözleri tek bir icra saymıyor, her beyti Peygamber’e ﷺ atfetmiyoruz."
+    },
+    {
+      "unit_id": "hch_mosque_depth_voices_2:text_ar",
+      "source_text_sha256": "7184d2ed451812abb81dd6014af5dfb27cd5245e17e5fa03c6b514fb5a63bcf9",
+      "text": "İbn Hacer ise Zührî’nin yalnızca kendisine ulaşanı dile getirdiğini, recez ve şiire dair görüş ayrılığını tartışır; şiir meydana getirmekle başkasının şiirini alıntılayarak okumak arasındaki farkı açıklar. Böylece Zührî’nin iddiasını kendisine ulaşanla sınırlar; inşaat yerinden yeni bir doğrudan tanıklık nakletmez. Müslümanların ahiret hayatına dair sözleri hakkındaki İbn Hişâm yorumu onun adına yazılmış edebî bir değerlendirmedir, peygamber sözü değildir."
+    },
+    {
+      "unit_id": "hch_mosque_point_1:text_ar",
+      "source_text_sha256": "fa886328529a3ca14b03d2a5f5cc86a2280623893202f192d07d4b0e197d786c",
+      "text": "Siyer haberinde yer ve iki çocuk"
+    },
+    {
+      "unit_id": "hch_mosque_point_2:text_ar",
+      "source_text_sha256": "ed5acb712d6d1f0d040e4eae2decff791f63a4984997a656409849662dab969a",
+      "text": "Enes’in hadisinde bedel talebi ve topluluğun cevabı"
+    },
+    {
+      "unit_id": "hch_mosque_point_3:text_ar",
+      "source_text_sha256": "772d02230c045cb78a0a22249b6f65657fabcd4ae1e8eac959db5396f57fb257",
+      "text": "Hurma ağaçları, mezarlar ve harabeler; ardından yapı malzemeleri"
+    },
+    {
+      "unit_id": "hch_mosque_point_4:text_ar",
+      "source_text_sha256": "15b6471114d3fbea041dc976dba4d332bf987a163979e3e59b820136d8ef36c0",
+      "text": "Ortak çalışma, recez ve sözlerin kime ait olduğunun sınırları"
+    },
+    {
+      "unit_id": "hch_mosque_read_site:title_ar",
+      "source_text_sha256": "47a03a493811adfe6d037f9f8c44ef9281b3383700231e01e04eac22bc469422",
+      "text": "Bineğin çöktüğü yer ve mirbed sorusu — İbn İshak"
+    },
+    {
+      "unit_id": "hch_mosque_read_context:title_ar",
+      "source_text_sha256": "e72097c310636c596eb6c11aae33657e7bbea13281ee87c685bf1f8b2f214d94",
+      "text": "Buhârî’de Urve ve Enes’in paralel anlatılarının bağlamı"
+    },
+    {
+      "unit_id": "hch_mosque_read_musa:title_ar",
+      "source_text_sha256": "20cd7b89634b5ebab62cd3c37ac9062e9a45e558f244949b405c583bceddeda7",
+      "text": "Beyhakî’nin Delâil’inde Zührî’den ihtimallerle aktarılan haber"
+    },
+    {
+      "unit_id": "hch_mosque_read_offer:title_ar",
+      "source_text_sha256": "076c0cd52906492ca09f2c71619444ae19b6f4c220d410c76cea4eb85b90b1bb",
+      "text": "Bedel ve yerin hazırlanması — Müslim’deki Enes hadisi"
+    },
+    {
+      "unit_id": "hch_mosque_read_work:title_ar",
+      "source_text_sha256": "712f6c2d0cd8f190bb658bdb008d5b9566a85a5d1a87e78e47c8251b3b0fdf88",
+      "text": "İnşaat ve dua — Müslim ve siyerin devamı"
+    },
+    {
+      "unit_id": "hch_mosque_read_prayer:title_ar",
+      "source_text_sha256": "9295acd469e17151c1c9fcc5b4d9a265bb2cace87835b3fc8808ca46e43a3c68",
+      "text": "Koyunların yattığı yerlerde namaz ve takip rivayeti"
+    },
+    {
+      "unit_id": "hch_mosque_read_detail:title_ar",
+      "source_text_sha256": "c8a7deeb3ec1a1e961c5d481ceaa689a0c2ca0293f5792769140e4e83d6722fc",
+      "text": "İbn Hacer’in açıklamasında kerpicin tanımı ve inşaat aşamaları"
+    },
+    {
+      "unit_id": "hch_mosque_read_comment:title_ar",
+      "source_text_sha256": "3404bb04fb906065948746af729ef0cf8030e11d47d2f5c474d749132cbde310",
+      "text": "Recez üzerine yorum ve çalışanların beyitleri"
+    },
+    {
+      "unit_id": "hch_mosque_read_price:title_ar",
+      "source_text_sha256": "83ce19152b8d3129cd029a2016e96b72c8cb754ae4a4cd8d7e554979230e08cc",
+      "text": "Bedel hakkındaki fıkhî yorum ve dipnot"
+    },
+    {
+      "unit_id": "mosque_chapter_site:text_ar",
+      "source_text_sha256": "74bb42ff3012d3182e4a60fb39361f5919ad1804e67626f39b0266a738ef19a0",
+      "text": "İbn İshak’ın haberinde mirbedin yerini ayırt eder."
+    },
+    {
+      "unit_id": "mosque_chapter_guardian:text_ar",
+      "source_text_sha256": "b2448e8c3afcad535efe8035ba88ab8e57979f8929654cd0d9448e5869e88c0d",
+      "text": "Muâz’ın teklifini kendi haberine nispet eder; başka rivayetle karıştırmaz."
+    },
+    {
+      "unit_id": "mosque_chapter_offer:text_ar",
+      "source_text_sha256": "4a5f428da9da2afb83a328be17d090d109f0188ba26820f444dc3410d463d394",
+      "text": "Müslim’de Benî Neccâr’ın cevabını, bedel tutarı varsaymadan okur."
+    },
+    {
+      "unit_id": "mosque_chapter_prepare:text_ar",
+      "source_text_sha256": "ed955d602432b3b206f3ea2a46feabe5522ca47af7b5a3f82a69183f2dd948d4",
+      "text": "Enes’in anlattığı üzere bahçede yapılan hazırlıkları sıralar."
+    },
+    {
+      "unit_id": "mosque_chapter_materials:text_ar",
+      "source_text_sha256": "b341cbc5170dddacae756722786936cde506230b26d3613850c34c97b6354634",
+      "text": "Enes’in rivayetindeki hurma ağaçlarını ve taşları birbirinden ayırır."
+    },
+    {
+      "unit_id": "mosque_chapter_labor:text_ar",
+      "source_text_sha256": "a2644f34b6ab39c51c8b981ce947fa39f8d4a30982a6754a0730345bbf100ac6",
+      "text": "Peygamber’in ﷺ ve çalışanların inşaat malzemesi taşımaya birlikte katıldığını görür."
+    },
+    {
+      "unit_id": "mosque_chapter_words:text_ar",
+      "source_text_sha256": "8637c8762d767dcb8197fafb39d7f0865651780af2b3474f34ea01ce7bde6eb4",
+      "text": "Çalışanlara ait nakledilen sözleri Peygamber’e ait sözden ayırır."
+    },
+    {
+      "unit_id": "mosque_chapter_prayer:text_ar",
+      "source_text_sha256": "3697bd84981cf627fffff058c9c9398b8b0d90b12c4f7ffa56bf015c06056db4",
+      "text": "Koyunların yattığı yerlere dair haber metnini takip rivayetinden ayırır."
+    },
+    {
+      "unit_id": "mosque_chapter_poetry:text_ar",
+      "source_text_sha256": "065de5c66d2829376c3247b15effed42631dd95a346f79108934f8d8b7a79efc",
+      "text": "Beyti söyleyeni ve İbn Hişâm’ın yorumunu tanır."
+    },
+    {
+      "unit_id": "mosque_chapter_limits:text_ar",
+      "source_text_sha256": "19f805a10cdde2707f35347abc125004b10cd9fb652f95ab2a5a72cadb6c5862",
+      "text": "Müslim baskısının dipnotunda on dinarın hangi nakil katmanında yer aldığını belirler ve bunu metindeki Benî Neccâr’ın cevabından ayırır."
+    },
+    {
+      "unit_id": "hch_mosque_q_site:prompt_ar",
+      "source_text_sha256": "18bd3752e96b49f53b48eaf19a73ea8e9151a991f8c2ebd00656337608632b2e",
+      "text": "İbn İshak yeri nasıl betimler?"
+    },
+    {
+      "unit_id": "hch_mosque_q_site:explanation_ar",
+      "source_text_sha256": "0f2ea69b62e4205c84b2f896f0487d93725fdedc6ea093d46f23af082ee39d92",
+      "text": "Habere göre burası iki çocuğun mirbedidir."
+    },
+    {
+      "unit_id": "hch_mosque_q_site:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_site:a:text_ar",
+      "source_text_sha256": "2633300bd9ee1b698b99c9e4d79a1b84bfce05ddfe8b27a312d86a512b5991ac",
+      "text": "İki yetim çocuğun mirbedi"
+    },
+    {
+      "unit_id": "hch_mosque_q_site:a:feedback_ar",
+      "source_text_sha256": "32fd1b7f308c599086b82684af4586ea7695efdefa2836bf454837ae5e952432",
+      "text": "Doğru; habere göre iki çocuğun mirbedidir."
+    },
+    {
+      "unit_id": "hch_mosque_q_site:b:text_ar",
+      "source_text_sha256": "5708d2c3947d16f9c6d26e16668fdd483ff7467f6d07ec7253fbdd2f9951d3f3",
+      "text": "At pazarı"
+    },
+    {
+      "unit_id": "hch_mosque_q_site:b:feedback_ar",
+      "source_text_sha256": "6846419e6ae8f5eced51257d341323c2e02bfd5089f958de83b6121d495abbf3",
+      "text": "Okuma parçasına yeniden bakın: habere göre iki çocuğun mirbedidir."
+    },
+    {
+      "unit_id": "hch_mosque_q_guardian:prompt_ar",
+      "source_text_sha256": "adc8d58722cd68cf89da8ccb39f1090272dbc2837564cb3eb4549906e6fdd34f",
+      "text": "İbn İshak’ın haberinde iki çocuğun adını kim verdi ve onları razı etmeyi teklif etti?"
+    },
+    {
+      "unit_id": "hch_mosque_q_guardian:explanation_ar",
+      "source_text_sha256": "4a139a88058f79dc001f63fd2ef47985273bbf7bf3029752ac255fe971dada65",
+      "text": "Muâz’ın sözü topluluğun cevabının yerine geçmez."
+    },
+    {
+      "unit_id": "hch_mosque_q_guardian:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_guardian:a:text_ar",
+      "source_text_sha256": "2bac5085f45217948b4aefb6d44035808e6c34b5f7142ce0c746f7bd53d87a5e",
+      "text": "Muâz b. Afrâ"
+    },
+    {
+      "unit_id": "hch_mosque_q_guardian:a:feedback_ar",
+      "source_text_sha256": "556fa1a9df39ac0f2aa9a07e0016a85f53edf4cae7b04e1c137abc59b59be1c3",
+      "text": "Doğru; Muâz’ın sözü topluluğun cevabının yerine geçmez."
+    },
+    {
+      "unit_id": "hch_mosque_q_guardian:b:text_ar",
+      "source_text_sha256": "d78f5b4c2abb5d782deeed41ab20b358283c920dc28a28178d1b113ec546d4a5",
+      "text": "Benî Neccâr’ın ileri gelenleri"
+    },
+    {
+      "unit_id": "hch_mosque_q_guardian:b:feedback_ar",
+      "source_text_sha256": "05f8329d094d6920c5b5e0bc052c578be3e80de2c643d97c1edac78d6e32ce3d",
+      "text": "Okuma parçasına yeniden bakın: Muâz’ın sözü topluluğun cevabının yerine geçmez."
+    },
+    {
+      "unit_id": "hch_mosque_q_offer:prompt_ar",
+      "source_text_sha256": "7efc8c5c7903095bd8cf53e73d55c045a8de16f39efb8f4e61c96fdc85056298",
+      "text": "Peygamber ﷺ bahçeye bedel biçilmesini istediğinde Benî Neccâr ne cevap verdi?"
+    },
+    {
+      "unit_id": "hch_mosque_q_offer:explanation_ar",
+      "source_text_sha256": "77ca2243062938f3c941011f459c0f6e8992f5c079d731856c1fdbd0280120f8",
+      "text": "Cevap Enes’in metninde topluluğa aittir; dipnottaki tutar ayrı bir nakildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_offer:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_offer:a:text_ar",
+      "source_text_sha256": "dd588ca380408454cb316d610ff986e0b96666ce4e8d6a1faabe6f38781a2db5",
+      "text": "Bedelini ancak Allah’tan bekleriz."
+    },
+    {
+      "unit_id": "hch_mosque_q_offer:a:feedback_ar",
+      "source_text_sha256": "6593d2d73e15f51986b38b69d2845ede9532899623e73d73929abdb116c0c330",
+      "text": "Doğru; cevap Enes’in metninde topluluğa aittir; dipnottaki tutar ayrı bir nakildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_offer:b:text_ar",
+      "source_text_sha256": "c02746622c42b80e02d3e3cd6fbbbbebff2610003731e666c77999dc59a929a1",
+      "text": "On dinar ödedik."
+    },
+    {
+      "unit_id": "hch_mosque_q_offer:b:feedback_ar",
+      "source_text_sha256": "c5d12904137f9da2abafb50d1d85690fa769365dad99a43612ebe2b9144029df",
+      "text": "Okuma parçasına yeniden bakın: cevap Enes’in metninde topluluğa aittir; dipnottaki tutar ayrı bir nakildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_prepare:prompt_ar",
+      "source_text_sha256": "404c36043a67165d8e5df300f4d6a56683064eeaabed291fcef572a538f69e8e",
+      "text": "Enes’in hadisine göre orada ne yapılmasını emretti?"
+    },
+    {
+      "unit_id": "hch_mosque_q_prepare:explanation_ar",
+      "source_text_sha256": "d2b9511edfa8ec3cdbd27a8bbd6f575cfc35ed7c474a49d6c57ea3a7af6bf1e8",
+      "text": "Enes bu üç işi zikreder."
+    },
+    {
+      "unit_id": "hch_mosque_q_prepare:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_prepare:a:text_ar",
+      "source_text_sha256": "29da3f151002757976c00339d35f522dade917847126ee116b9b1a33ea342a28",
+      "text": "Hurma ağaçlarını kesmek, müşriklerin mezarlarını açmak ve harabeleri düzlemek"
+    },
+    {
+      "unit_id": "hch_mosque_q_prepare:a:feedback_ar",
+      "source_text_sha256": "d94f9991f8b3bf2246ceb62f147d8b9c94f50ba84e3a2d126808f4cdce2b7ba1",
+      "text": "Doğru; Enes bu üç işi zikreder."
+    },
+    {
+      "unit_id": "hch_mosque_q_prepare:b:text_ar",
+      "source_text_sha256": "274f540c33de318946c77653b53db3e2e48f5c981dcc1e4be5093a4551dd97ff",
+      "text": "Hurma ağaçlarını ve harabeleri olduğu gibi bırakmak"
+    },
+    {
+      "unit_id": "hch_mosque_q_prepare:b:feedback_ar",
+      "source_text_sha256": "73c301b1f6537d6f1bc3bb25465dc5509f0554f44b24d9720bb643718c04a4c2",
+      "text": "Okuma parçasına yeniden bakın: Enes bu üç işi zikreder."
+    },
+    {
+      "unit_id": "hch_mosque_q_materials:prompt_ar",
+      "source_text_sha256": "363f007b786acad3ed1bb796d0a04948f49ab48c55af4dc357bf007ff545335e",
+      "text": "Müslim’deki devamına göre mescidin iki sövesi hangi malzemeden yapıldı?"
+    },
+    {
+      "unit_id": "hch_mosque_q_materials:explanation_ar",
+      "source_text_sha256": "d74590885ffde4c9b09e4039c8d11703e6e4d637a9d5982ffb0318198db9c86d",
+      "text": "Devamında iki söve için taşlar zikredilir."
+    },
+    {
+      "unit_id": "hch_mosque_q_materials:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_materials:a:text_ar",
+      "source_text_sha256": "bfcff0681195523fd2bc53a5d46af83b8367ccdf7633c2290839c5d0d9062124",
+      "text": "Taşlar"
+    },
+    {
+      "unit_id": "hch_mosque_q_materials:a:feedback_ar",
+      "source_text_sha256": "df2ed264e357b9940905073f80f3f896d3cfe82b1c33ab28384ca638a7227d04",
+      "text": "Doğru; devamında iki söve için taşlar zikredilir."
+    },
+    {
+      "unit_id": "hch_mosque_q_materials:b:text_ar",
+      "source_text_sha256": "62e0cc5ce363007b58779355a908c849e8ca0fafb9bd47fded004d91a7c4a536",
+      "text": "Pişmiş tuğla"
+    },
+    {
+      "unit_id": "hch_mosque_q_materials:b:feedback_ar",
+      "source_text_sha256": "31b8d1b3b10be06bd26f983f3b527d6350a7b59111da615fd9a6b332c43a3006",
+      "text": "Okuma parçasına yeniden bakın: devamında iki söve için taşlar zikredilir."
+    },
+    {
+      "unit_id": "hch_mosque_q_labor:prompt_ar",
+      "source_text_sha256": "16a9d3e52482da3341173f39d8b39cc6334fd9a4bc717c69d6a9af1d99ad1b32",
+      "text": "Siyer haberinde çalışmaya kimler katıldı?"
+    },
+    {
+      "unit_id": "hch_mosque_q_labor:explanation_ar",
+      "source_text_sha256": "ed558224a6fc2b64d43e2154d97bb50386aa8b1cf125170f4eeca5d5a7021365",
+      "text": "Haber onların tümünün katıldığını belirtir."
+    },
+    {
+      "unit_id": "hch_mosque_q_labor:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_labor:a:text_ar",
+      "source_text_sha256": "99fd97dbfafcdd145747997644d26e8f17afc61801768a94d5a6df958aed902b",
+      "text": "Peygamber ﷺ, muhacirler ve ensar"
+    },
+    {
+      "unit_id": "hch_mosque_q_labor:a:feedback_ar",
+      "source_text_sha256": "eede58be1f2c4a6d177d075556c5080b81c6e0b926a4284694b47b8ddc32f498",
+      "text": "Doğru; haber onların tümünün katıldığını belirtir."
+    },
+    {
+      "unit_id": "hch_mosque_q_labor:b:text_ar",
+      "source_text_sha256": "3235432cba5fa345bc0f43e622bb3df88af68a2a9d9c0d03b9c72347ba349c5d",
+      "text": "Muhacirler olmadan yalnızca ensar"
+    },
+    {
+      "unit_id": "hch_mosque_q_labor:b:feedback_ar",
+      "source_text_sha256": "c068cb7dd37e99409ebb4ee8e0dc33fa6007566dc278e876735f86e4ef9ca089",
+      "text": "Okuma parçasına yeniden bakın: haber onların tümünün katıldığını belirtir."
+    },
+    {
+      "unit_id": "hch_mosque_q_words:prompt_ar",
+      "source_text_sha256": "40a40f1fe3712064600c7c4e4c2a8103a6abe58fafd1499e79a2561c25806b71",
+      "text": "Enes’in hadisi recez okunurken söylenen dua sözlerini kime nispet eder?"
+    },
+    {
+      "unit_id": "hch_mosque_q_words:explanation_ar",
+      "source_text_sha256": "46ea24d1a74273808605af732e77318cc958175345d729de898ecd4299f0b612",
+      "text": "Enes bu sözleri çalışanların söylediğini anlatır."
+    },
+    {
+      "unit_id": "hch_mosque_q_words:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_words:a:text_ar",
+      "source_text_sha256": "2df70760a05b6650bfc7930501629683084e48ea50b75b443abd99c83d11744f",
+      "text": "Çalışanlara; Resûlullah ﷺ da onların arasındaydı."
+    },
+    {
+      "unit_id": "hch_mosque_q_words:a:feedback_ar",
+      "source_text_sha256": "dff476c11483b113e7d2588c0f1f3af0c022558837cb7227042c8bf9e4b10df7",
+      "text": "Doğru; Enes bu sözleri çalışanların söylediğini anlatır."
+    },
+    {
+      "unit_id": "hch_mosque_q_words:b:text_ar",
+      "source_text_sha256": "915be96b4c267c12c25fe4e0e6198af75b5a83debb277fe0a4f03c84e8fec50f",
+      "text": "Duayı söyleyen kişi olarak İbn Hişâm’a"
+    },
+    {
+      "unit_id": "hch_mosque_q_words:b:feedback_ar",
+      "source_text_sha256": "0c4ded491172dfd7e93571d21aef6074549d785a1cd2a55530429c871a4f8655",
+      "text": "Okuma parçasına yeniden bakın: Enes bu sözleri çalışanların söylediğini anlatır."
+    },
+    {
+      "unit_id": "hch_mosque_q_poetry:prompt_ar",
+      "source_text_sha256": "d44b2a86259d8237cbf944a4df63b69a5d01581f54deb8f65093022309ff2094",
+      "text": "Siyer haberinde Müslümanların ahiret hayatıyla ilgili sözlerinin recez değil, düz söz olduğunu kim belirtir?"
+    },
+    {
+      "unit_id": "hch_mosque_q_poetry:explanation_ar",
+      "source_text_sha256": "362e91111c480854cb1805c2b51d7176f38a0327e48a9fba47d710e4471ae7b8",
+      "text": "Edebî yorum İbn Hişâm’ın adıyla aktarılır."
+    },
+    {
+      "unit_id": "hch_mosque_q_poetry:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_poetry:a:text_ar",
+      "source_text_sha256": "556b3752822582cfbae4cc081a98b327c3948936bb26f764dc4311923a364ae5",
+      "text": "İbn Hişâm"
+    },
+    {
+      "unit_id": "hch_mosque_q_poetry:a:feedback_ar",
+      "source_text_sha256": "a326099116c5d8ac0325f706a414c0959ba532072d2925dc145cdafcc1af5d65",
+      "text": "Doğru; edebî yorum İbn Hişâm’ın adıyla aktarılır."
+    },
+    {
+      "unit_id": "hch_mosque_q_poetry:b:text_ar",
+      "source_text_sha256": "f46ce1943a992e692a182cb90c4dcbb77d207879dcd8137d0be09fae4173ff6d",
+      "text": "Peygamber ﷺ"
+    },
+    {
+      "unit_id": "hch_mosque_q_poetry:b:feedback_ar",
+      "source_text_sha256": "8743d6d62e1d4b565d3f4b1e65c967a80a6d049fb9578437b4681bc0e8993051",
+      "text": "Okuma parçasına yeniden bakın: edebî yorum İbn Hişâm’ın adıyla aktarılır."
+    },
+    {
+      "unit_id": "hch_mosque_q_prayer:prompt_ar",
+      "source_text_sha256": "a5f9ad7ef446d5a3f6e90c4c8e9ace81f1b52d16065f1a4f8bb00ddc6762beae",
+      "text": "Müslim’in kısa takip rivayeti, koyunların yattığı yerlere ilişkin haberden sonra yeni ayrıntılar anlatır mı?"
+    },
+    {
+      "unit_id": "hch_mosque_q_prayer:explanation_ar",
+      "source_text_sha256": "514ca0eeab84b6a8e5763c7cc5476b62c266e6eb897ed7ad3f2cdad64b130c36",
+      "text": "Bu takip rivayeti yeni ayrıntı vermeden benzerine atıfta bulunur."
+    },
+    {
+      "unit_id": "hch_mosque_q_prayer:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_prayer:a:text_ar",
+      "source_text_sha256": "ac9db8385e6e0c1ffe73194910bfa7d10974b7468b89c1773609bd1e6ff4e2f4",
+      "text": "Yeni ayrıntılı bir metin yoktur."
+    },
+    {
+      "unit_id": "hch_mosque_q_prayer:a:feedback_ar",
+      "source_text_sha256": "b3da41ad57c9a2eb823230541e2378c0719d06c01b2b58a86b9f53c19ac1e9d2",
+      "text": "Doğru; takip rivayeti yeni ayrıntı vermeden benzerine atıfta bulunur."
+    },
+    {
+      "unit_id": "hch_mosque_q_prayer:b:text_ar",
+      "source_text_sha256": "11a90aebfffd7f79200b8190aa97176034f13520be9f9f35ba2ebc339cacee99",
+      "text": "Mescidin çatısının malzemesini belirtir."
+    },
+    {
+      "unit_id": "hch_mosque_q_prayer:b:feedback_ar",
+      "source_text_sha256": "11db79462cdc80b5bd667bb7bf0e1ea65b80aba88fe9cefdf4c3c14e4f445d64",
+      "text": "Okuma parçasına yeniden bakın: takip rivayeti yeni ayrıntı vermeden benzerine atıfta bulunur."
+    },
+    {
+      "unit_id": "hch_mosque_q_limits:prompt_ar",
+      "source_text_sha256": "7a5276d4d3cbca8af8f002bcfb6a7c55561d5ff88e70edf8890b3cbfc57f8d44",
+      "text": "Müslim’in dipnotu on dinarlık meblağı nasıl sunar?"
+    },
+    {
+      "unit_id": "hch_mosque_q_limits:explanation_ar",
+      "source_text_sha256": "ee28e79541b9e9e568daf0b31eeffa58ce6a6d5940cf3dfb918fc765aade3f2c",
+      "text": "Meblağ dipnotta bir nakildir, metinde topluluğun cevabı değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_limits:scope_note_ar",
+      "source_text_sha256": "39e062a91e719b0877875d1a850ddb9ecd434d894580b914a564bb1c91ae0f95",
+      "text": "Soru, sunulan metin ve sınırları hakkındadır; daha sonraki birleştirmeler veya bağımsız bir hüküm hakkında değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_limits:a:text_ar",
+      "source_text_sha256": "f42babfa73a5b9ac1c96311d19c5b31ff719a5f2d680dd4b44e859f161091e07",
+      "text": "İbn Sa‘d’ın Vâkıdî’den nakli olarak"
+    },
+    {
+      "unit_id": "hch_mosque_q_limits:a:feedback_ar",
+      "source_text_sha256": "f8db79fe68404cbdaf1a16fd816afab0883fdf42779ad28cf4482194b6d87cc5",
+      "text": "Doğru; meblağ dipnotta bir nakildir, metinde topluluğun cevabı değildir."
+    },
+    {
+      "unit_id": "hch_mosque_q_limits:b:text_ar",
+      "source_text_sha256": "7234edcb2afcbedb8b87799ca314296c125a9d189729fd758e55b5b9c5661012",
+      "text": "Enes’in hadisinde Benî Neccâr’ın ileri gelenlerinin doğrudan sözü olarak"
+    },
+    {
+      "unit_id": "hch_mosque_q_limits:b:feedback_ar",
+      "source_text_sha256": "fa3d5f11a6a18d61c374136ee6b43c3680ed0dda6c4f6c0287a0203b3ee7480f",
+      "text": "Okuma parçasına yeniden bakın: meblağ dipnotta bir nakildir, metinde topluluğun cevabı değildir."
+    },
+    {
+      "unit_id": "hch_mosque_scope:note_ar",
+      "source_text_sha256": "7e8f97af8f58f193e3d99603eeeccc3bed18fa788149b07aab4fc55188a28239",
+      "text": "Bu seçilmiş bir bölümdür; mescitle ilgili bütün haberleri içermez, bir satın alma tutarını veya rivayetlerin tümü için ortak bir veliyi kesinleştirmez. Bağımsız dil ve alan incelemesi ile yayımlama onayı verilmemiştir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p1:kind_ar",
+      "source_text_sha256": "c2874f24b01fb1d9c760f28eb1d72fa086482b05c18ffacaeada13636c7611cf",
+      "text": "İbn İshak’ın anlatısı: mirbedin yeri ve iki yetim"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p1:speaker_ar",
+      "source_text_sha256": "282f1b60d4a1493992e81e1dbbe09e99b69aeccd7cd1d627279581e702faa274",
+      "text": "İbn Hişâm’ın naklinde İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p1:citation_ar",
+      "source_text_sha256": "8812f3a2923b6b711327fd88519bf8364c3a3c277feac3d78843fac96cfd59f3",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/495](https://app.turath.io/book/23833?page=518)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p1:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p1:text_ar",
+      "source_text_sha256": "44c07ed6e1725286e9f4edbb095d0eb1ae6636262894fb556d9bd57a4d06eba6",
+      "text": "Nihayet bineği Benî Mâlik b. Neccâr mahallesine vardığında, o gün Benî Neccâr’dan, sonra da Benî Mâlik b. Neccâr’dan iki yetim çocuğa ait bir mirbed [١] olan mescidinin kapısı önünde çöktü. Bu iki çocuk, Muâz b. Afrâ’nın himayesindeki Amr’ın oğulları Sehl ve Süheyl idi."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p2:kind_ar",
+      "source_text_sha256": "7eecb0dc13efad325efd53cc6265442281363b50bf07e06a767d483aa402009f",
+      "text": "İbn İshak’ın anlatısı: bineğin hareketi; devamı sonraki parçada"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p2:speaker_ar",
+      "source_text_sha256": "282f1b60d4a1493992e81e1dbbe09e99b69aeccd7cd1d627279581e702faa274",
+      "text": "İbn Hişâm’ın naklinde İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p2:citation_ar",
+      "source_text_sha256": "8812f3a2923b6b711327fd88519bf8364c3a3c277feac3d78843fac96cfd59f3",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/495](https://app.turath.io/book/23833?page=518)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p2:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_site:p2:text_ar",
+      "source_text_sha256": "277e2d57280ae18bd703e2a23790ac3e975e4f8bbb91eafaba0f827d41497791",
+      "text": "Binek çökünce, üstündeki Resûlullah ﷺ henüz inmeden sıçrayıp kalktı ve pek uzak olmayan bir mesafe yürüdü. Resûlullah ﷺ onun yularını serbest bırakmış, yularla yönünü değiştirmemişti. Sonra binek arkasına baktı, ilk çöktüğü yere dönüp oraya yeniden çöktü; ardından yerleşti, homurdandı [٢] ve yere koydu..."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p1:kind_ar",
+      "source_text_sha256": "482e78b9281761ec8a68be76db6da3e0c7b8e0c4b2e59f9014942fb2804e5e38",
+      "text": "İbn İshak’ın bineği ve Peygamber’in ﷺ inişini anlatan kısmın devamı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p1:speaker_ar",
+      "source_text_sha256": "282f1b60d4a1493992e81e1dbbe09e99b69aeccd7cd1d627279581e702faa274",
+      "text": "İbn Hişâm’ın naklinde İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p1:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p1:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p1:text_ar",
+      "source_text_sha256": "5eed88372fba15a5b5d17f4b2ddd9fd7acf66561c6ceab987c100a8bbcb326ef",
+      "text": "... boynunun alt kısmını [١]. Bunun üzerine Resûlullah ﷺ üzerinden indi [٢]."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p2:kind_ar",
+      "source_text_sha256": "f17101be4eb05cba141fea67e392e24aa1af5377ba047e6c7fe07e727cc1aca8",
+      "text": "İbn İshak’ın anlatısı: Ebû Eyyûb’un evi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p2:speaker_ar",
+      "source_text_sha256": "282f1b60d4a1493992e81e1dbbe09e99b69aeccd7cd1d627279581e702faa274",
+      "text": "İbn Hişâm’ın naklinde İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p2:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p2:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p2:text_ar",
+      "source_text_sha256": "34b293f3bf26df00a52de091d3fddee420af7bed83715b537747fec747380736",
+      "text": "Ebû Eyyûb Hâlid b. Zeyd onun eşyasını taşıyıp evine koydu; Resûlullah ﷺ onun yanında konakladı."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p3:kind_ar",
+      "source_text_sha256": "13d221f94db77610c41965dcf68a7831e46d93518b38a06ee18df934c8b3dea6",
+      "text": "İbn İshak’ın anlatısı: yerin sahibine dair soru"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p3:speaker_ar",
+      "source_text_sha256": "282f1b60d4a1493992e81e1dbbe09e99b69aeccd7cd1d627279581e702faa274",
+      "text": "İbn Hişâm’ın naklinde İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p3:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p3:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p3:text_ar",
+      "source_text_sha256": "d7ef70b1999b18f4e2727de04e1b8c0fc9f1da09aed94677f49d9cc3051b3608",
+      "text": "Mirbedin kime ait olduğunu sordu."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p4:kind_ar",
+      "source_text_sha256": "d198ea8e6b04a0afd899049007188c12eb2fd36e3363992898e70824ef9b35bd",
+      "text": "Muâz’ın iki çocuk hakkında söylediği söz ve teklifi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p4:speaker_ar",
+      "source_text_sha256": "61a494737a92233c65479d7a6100ee612c5ab9fb044254ba7e7e32912010884a",
+      "text": "İbn İshak’ın naklinde Muâz b. Afrâ"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p4:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p4:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p4:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_lodging:p4:text_ar",
+      "source_text_sha256": "2fd09c91dd237f130bc4b871bc3370da0b52d9fff99134e0b450ac0e31b39454",
+      "text": "Muâz b. Afrâ ona şöyle dedi: “Ey Allah’ın Resûlü, o Amr’ın oğulları Sehl ve Süheyl’e aittir [٣]. İkisi de benim himayemdeki yetimlerdir. Mirbed karşılığında onları razı edeceğim; orayı mescit yap.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p1:kind_ar",
+      "source_text_sha256": "b01c7c5a75f611ac22a35c4330e7dbb40c5a3fb303acdf2095ef8dbdf2a8f7ff",
+      "text": "İnşaat ve çalışma anlatısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p1:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p1:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p1:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p1:text_ar",
+      "source_text_sha256": "565d982e144166a4fc5f8af7e53d7b919098bfef59c116ab03bda0b1e02cdfc5",
+      "text": "[İbn İshak] dedi ki: Resûlullah ﷺ oraya bir mescit yapılmasını emretti ve mescidini ve kalacağı yerleri inşa edene dek Ebû Eyyûb’un yanında kaldı. Müslümanları çalışmaya özendirmek için orada kendisi de çalıştı; muhacirler ve ensar da orada çalışıp durmadan emek verdiler."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p2:kind_ar",
+      "source_text_sha256": "d1bb1ef4ec6182b0ab1bad5da149ec86133b753c360eaeaea6da121bd18fb018",
+      "text": "Müslümanlardan birinin sözünün takdimi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p2:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p2:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p2:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p2:text_ar",
+      "source_text_sha256": "a1c7c7f91dc16bc952f223dce449861227edc400bbb882e19e31399a050f6e0e",
+      "text": "Bunun üzerine Müslümanlardan biri şöyle dedi:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p3:kind_ar",
+      "source_text_sha256": "6d48551248e168ed36d8c36324e858783cd843f518561b655de32fcdefdf85c9",
+      "text": "Müslümanlardan birine nispet edilen beyit"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p3:speaker_ar",
+      "source_text_sha256": "085fec2aa5db7cd8946510c0f0f7583b13bee0695d991fb24bb3b3b9c4c3395a",
+      "text": "İbn İshak’ın rivayetinde Müslümanlardan bir kişi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p3:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p3:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p3:text_ar",
+      "source_text_sha256": "2fc9854eb45a8cc8231a0de4549626530ce6aeedc5be1243253ede03cadbd045",
+      "text": "Peygamber çalışırken biz oturursak ... Bu, bizim için pek yanlış bir davranış olur."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p4:kind_ar",
+      "source_text_sha256": "c8f86bca814bab273cf98f962c1129a28cfa03754fe6de618a1d517473e30ff2",
+      "text": "Müslümanların recez okuyuşunun takdimi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p4:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p4:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p4:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p4:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p4:text_ar",
+      "source_text_sha256": "030c5b56b52746c19956aabc9446d39bd8ae75a0fdd68883d7e54cb6dddb9f10",
+      "text": "Müslümanlar orayı inşa ederken recez okuyup şöyle diyorlardı:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p5:kind_ar",
+      "source_text_sha256": "672cb1ebf104ce9990b7c12e48f5d2754b793b2287c2af4688fdddb2cbfd1410",
+      "text": "Haberde Müslümanların sözü"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p5:speaker_ar",
+      "source_text_sha256": "be23e6e3772ab704ce4fc1562c3e366b95bd51ab342f0e62782cc350398a8812",
+      "text": "İbn İshak’ın rivayetindeki Müslümanlar"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p5:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p5:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p5:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p5:text_ar",
+      "source_text_sha256": "ffb716b41022185a2e1b3a1b4efd5c8e1011e1d40a7c8b52c80ba31114776e08",
+      "text": "Gerçek hayat ancak ahiret hayatıdır ... Allah’ım, ensara ve muhacirlere rahmet et."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p6:kind_ar",
+      "source_text_sha256": "1757a42b09e6f3895d75fb981e64df5dadb098992e4af0d8ffed3c0dda7a68be",
+      "text": "Edebî değerlendirme; peygamber hadisi değil"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p6:speaker_ar",
+      "source_text_sha256": "556b3752822582cfbae4cc081a98b327c3948936bb26f764dc4311923a364ae5",
+      "text": "İbn Hişâm"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p6:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p6:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p6:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p6:text_ar",
+      "source_text_sha256": "930f474adeac86979082092de8fcb4011752c4255f0e3b1da4a1d3557f10c16f",
+      "text": "İbn Hişâm dedi ki: “Bu, recez değil, düz sözdür.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p7:kind_ar",
+      "source_text_sha256": "d0c171b0902c00b0a690c238cdbfb77802fd6b55ee9c27f4f59237fe27a7e40b",
+      "text": "Peygamber’in ﷺ sözünün takdimi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p7:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "İbn İshak"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p7:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p7:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p7:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p7:text_ar",
+      "source_text_sha256": "fc10976a22ce2d3c90fffe23b7127ca2529b179256ff75c249372acc4cbd3de6",
+      "text": "İbn İshak dedi ki: Resûlullah ﷺ da şöyle diyordu:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p8:kind_ar",
+      "source_text_sha256": "5fc95207f4b1b22fe50f9431cc10590708acf7abcc74b92c12bfcd4b8a07f8b6",
+      "text": "Nakledilen Peygamber sözü"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p8:speaker_ar",
+      "source_text_sha256": "3e03b9b012f41b259ae397e95822679c9ca4f433e8830a08ef747a47a7d7fc34",
+      "text": "İbn İshak’ın naklettiği şekliyle Peygamber ﷺ"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p8:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p8:citation_ar",
+      "source_text_sha256": "d244c398a297ad035012aa1ba15a6535fe041645dd3ad2e0dab4fecb79698b67",
+      "text": "[İbn Hişâm’ın Siyer’i — Sakkâ neşri, 1/496](https://app.turath.io/book/23833?page=519)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p8:context_note_ar",
+      "source_text_sha256": "4aea96c4d6034f313fde4af3b6d50f54e215c1c0bad6a4038c52423afde6d372",
+      "text": "İbn Hişâm’ın Siyer’i — Sakkâ neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_ishaq_work:p8:text_ar",
+      "source_text_sha256": "83886efff35ee022c02d8b6a0bbb3630140b06f3fc4b0d12c83b81f18ffa5d6f",
+      "text": "Gerçek hayat ancak ahiret hayatıdır. Allah’ım, muhacirlere ve ensara rahmet et."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_start:p1:kind_ar",
+      "source_text_sha256": "f76f8745885bcfc482fb44b4f2f1cdfdc53a15517908d51687849cee21fa9c5d",
+      "text": "Bekleyişe girişten önce Urve’nin anlatısının bağlamı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_start:p1:speaker_ar",
+      "source_text_sha256": "a6c4ad5ebadc9ae1867b0f529d9939fff7fe5c5821406b17c949b7cf81daaf1e",
+      "text": "Zührî’nin naklinde Urve"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_start:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_start:p1:citation_ar",
+      "source_text_sha256": "6e49dad4f67f7ad66976373209f4c0a177d97afd1c5cde61c7a1ad9fd4830674",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/60](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_start:p1:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_start:p1:text_ar",
+      "source_text_sha256": "ea881c23f9f666cc21b454dc957ab64f6d0b69b1fddbadaa3372fa334e111062",
+      "text": "İbn Şihâb dedi ki: Urve b. Zübeyr bana şöyle haber verdi: Resûlullah ﷺ, Şam’dan dönmekte olan Müslüman tüccarlardan oluşan bir kafilede Zübeyr ile karşılaştı. Zübeyr, Resûlullah’a ﷺ ve Ebû Bekir’e beyaz giysiler giydirdi. Medine’deki Müslümanlar, Resûlullah’ın ﷺ Mekke’den çıktığını duydular; böylece..."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p1:kind_ar",
+      "source_text_sha256": "41e6b07c484a4f456eca1569906be37888c08bec29c1151b90deef8db0f58570",
+      "text": "Kubâ’daki Urve anlatısının bağlamına giriş"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p1:speaker_ar",
+      "source_text_sha256": "a6c4ad5ebadc9ae1867b0f529d9939fff7fe5c5821406b17c949b7cf81daaf1e",
+      "text": "Zührî’nin naklinde Urve"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p1:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p1:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p1:text_ar",
+      "source_text_sha256": "95c54c2ef9eaca773dbf7349f06a0071e1904501278359c1820923eae91ae288",
+      "text": "... her sabah Harre’ye çıkıp öğle sıcağı onları geri çevirene dek onu bekliyorlardı. Bir gün uzun süre bekledikten sonra geri döndüler. Evlerine girdiklerinde bir Yahudi bir işi gözetmek için kalelerinden birinin üzerine çıktı ve serapta görüntüleri dalgalanan, beyaz giysili Resûlullah’ı ﷺ ve arkadaşlarını gördü. Yahudi kendini tutamayıp yüksek sesle, “Ey Araplar! Beklediğiniz talihiniz geldi!” diye bağırdı. Müslümanlar silahlarına koşup Harre’nin dış kesiminde Resûlullah’ı ﷺ karşıladılar. O, onlarla sağa yönelerek Benî Amr b. Avf arasında konakladı. Bu, Rebîülevvel ayında bir pazartesi günüydü. Ebû Bekir halkın karşısında ayakta dururken Resûlullah ﷺ sessizce oturdu. Resûlullah’ı ﷺ daha önce görmemiş olan ensardan gelenler Ebû Bekir’i selamlamaya başladılar. Güneş Resûlullah’ın ﷺ üzerine vurunca Ebû Bekir gelip örtüsüyle onu gölgeledi; insanlar o sırada Resûlullah’ı ﷺ tanıdılar. Resûlullah ﷺ Benî Amr b. Avf arasında on küsur gece kaldı. Takva üzerine kurulan mescidin temeli atıldı ve Resûlullah ﷺ orada namaz kıldı."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p2:kind_ar",
+      "source_text_sha256": "b7148c01d92cbfa98f7cf4bb4a08539cb05fa5179c3233bf6bc2b1f36d42b8f2",
+      "text": "Urve’nin yer değiştirme ve mirbed hakkındaki haberi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p2:speaker_ar",
+      "source_text_sha256": "a6c4ad5ebadc9ae1867b0f529d9939fff7fe5c5821406b17c949b7cf81daaf1e",
+      "text": "Zührî’nin naklinde Urve"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p2:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p2:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p2:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p2:text_ar",
+      "source_text_sha256": "08af324711e54cbea060d7436478dd8c6e4aeb3ac405f484e8c6c7abefb55591",
+      "text": "Sonra bineğine bindi; insanlar da yanında yürüdüler. Bineği Medine’de Resûlullah’ın ﷺ mescidinin yanında çöktü; o sırada Müslümanlardan bazı adamlar orada namaz kılıyorlardı. Burası, Es‘ad b. Zürâre’nin himayesinde bulunan iki yetim çocuk Süheyl ve Sehl’e ait bir hurma kurutma yeriydi."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p3:kind_ar",
+      "source_text_sha256": "915f90e42288b69e8e503bc1344be677ddf1a25d25882567b50e36e122c4ae44",
+      "text": "Bineğin çöktüğü yerde Peygamber’in ﷺ sözü"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p3:speaker_ar",
+      "source_text_sha256": "1df8a302c4f3b9aa05e2ba752ed97657b911803139de470fd5ade9b7eb9db5dc",
+      "text": "Haberdeki Peygamber ﷺ"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p3:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p3:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p3:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p3:text_ar",
+      "source_text_sha256": "67344b3125f1bb41ad4d9458d7d8e53ba2b672b67bd28868205ae17d89dacdb4",
+      "text": "Bineği orada çökünce Resûlullah ﷺ şöyle dedi: “Burası, Allah dilerse, konaklama yeridir.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p4:kind_ar",
+      "source_text_sha256": "e83f51fb0136c776d0f1d777420469e4a5e27f333e6c4a01570cd62e7499c981",
+      "text": "İki çocukla yapılan pazarlık"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p4:speaker_ar",
+      "source_text_sha256": "a6c4ad5ebadc9ae1867b0f529d9939fff7fe5c5821406b17c949b7cf81daaf1e",
+      "text": "Zührî’nin naklinde Urve"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p4:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p4:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p4:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p4:text_ar",
+      "source_text_sha256": "f74eb4e540efd43af318032b48c35bb922eb5afdf127416e35fd500e1d4313d3",
+      "text": "Sonra Resûlullah ﷺ iki çocuğu çağırdı ve yeri mescit yapmak üzere mirbed için onlarla pazarlığa girişti."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p5:kind_ar",
+      "source_text_sha256": "ade92d7d4d54a0b2d7bb52861d1705d8e314468abc19ae149c84c1195405dfd7",
+      "text": "İki çocuğun hibe teklif eden cevabı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p5:speaker_ar",
+      "source_text_sha256": "a70868e972d74b8a614206a52177f6345142aafd33231fb4911fe239c5f04a1e",
+      "text": "Urve’nin haberindeki iki çocuk"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p5:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p5:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p5:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p5:text_ar",
+      "source_text_sha256": "cafd9c2f455a0f77bfb79cdd5234a3f8c79303e02634f0de8d511b1373f41903",
+      "text": "İkisi şöyle dedi: “Hayır; onu sana bağışlıyoruz, ey Allah’ın Resûlü.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p6:kind_ar",
+      "source_text_sha256": "a811b24989a7b08736ebcaf32609797a1dcc5ca0a9d730319be09362e55ce48b",
+      "text": "Kerpiç taşıma; bağlam sözün takdiminde biter"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p6:speaker_ar",
+      "source_text_sha256": "a6c4ad5ebadc9ae1867b0f529d9939fff7fe5c5821406b17c949b7cf81daaf1e",
+      "text": "Zührî’nin naklinde Urve"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p6:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p6:citation_ar",
+      "source_text_sha256": "3325c1c102a16c7fa223329f38705b11591d50c6cc5d7a185c2fdd9f8a49ac89",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/61](https://app.turath.io/book/1681?page=5900)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p6:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_urwa_end:p6:text_ar",
+      "source_text_sha256": "55285bfb6097b46bfd96d39110c5308888d7fb105e06e3784821ecb45ff2267d",
+      "text": "Sonra onu mescit olarak inşa etti. Resûlullah ﷺ mescidin yapımında onlarla birlikte kerpiç taşımaya başladı ve kerpiç taşırken şöyle diyordu:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_chain:p1:kind_ar",
+      "source_text_sha256": "bce0f9b7b2302c345ae0c424450fde476588b383d7ad5001ae3dd9ee3ddb877f",
+      "text": "Buhârî’de Enes rivayetinin isnadı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_chain:p1:speaker_ar",
+      "source_text_sha256": "5251a0bafc7e3d8e4ce6a4ca45e476037ca2ed307e6c8274482420632312b2b3",
+      "text": "Buhârî’nin naklinde Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_chain:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_chain:p1:citation_ar",
+      "source_text_sha256": "14a222d7f85f46e77609233376cbc6ab6117c89aec93ff09af70133e76dd8a04",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/67](https://app.turath.io/book/1681?page=5925)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_chain:p1:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_chain:p1:text_ar",
+      "source_text_sha256": "2fd2bb99384d3c92441191c49ef1fca8df40226764ef3fec33e4a94f3d2ca89f",
+      "text": "3932 — Bize Müsedded anlattı: Bize Abdülvâris anlattı. Bize İshak b. Mansûr da anlattı: Bize Abdüssamed haber verdi; o, “Babamın şöyle anlattığını işittim: Bize Ebü’t-Teyyâh Yezîd b. Humeyd ed-Dubaî anlattı; o dedi ki: Bana Enes b. Mâlik anlattı” dedi."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p1:kind_ar",
+      "source_text_sha256": "69b9ef447e0e2a07a975e70fe29077bb98acb64ea4ffd0e944a07006e98c54f0",
+      "text": "Bedel isteme sözünden önce Enes rivayetinin bağlamı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p1:speaker_ar",
+      "source_text_sha256": "5251a0bafc7e3d8e4ce6a4ca45e476037ca2ed307e6c8274482420632312b2b3",
+      "text": "Buhârî’nin naklinde Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p1:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p1:citation_ar",
+      "source_text_sha256": "f1ba81dd2946f4a29aa551dc23869e466d502cd6e2d50246fd923e3f91a8ce2a",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/٦٨](https://app.turath.io/book/1681?page=5925)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p1:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p1:text_ar",
+      "source_text_sha256": "cf0677dac14d723147ed70f28abe53edae453e85263cc2b0ff2efab849c9747f",
+      "text": "O dedi ki: “Resûlullah ﷺ Medine’ye geldiğinde, Medine’nin yukarı kesimindeki Benî Amr b. Avf denilen topluluğun yanında konakladı ve aralarında on dört gece kaldı. Sonra Benî Neccâr’ın ileri gelenlerine haber gönderdi; onlar kılıçlarını kuşanmış olarak geldiler. Resûlullah’ı ﷺ bineğinin üstünde, Ebû Bekir’i arkasında, Benî Neccâr’ın ileri gelenlerini de çevresinde görür gibiyim. Sonunda Ebû Eyyûb’un evinin önüne varıp konakladı. Namaz vakti nerede erişirse orada namaz kılıyor, koyunların yattığı yerlerde de namaz kılıyordu. Ardından mescidin yapılmasını emretti. Benî Neccâr’ın ileri gelenlerine haber gönderdi, onlar da geldiler.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p2:kind_ar",
+      "source_text_sha256": "245d21fd05aaa272728e04764b134ad0409cf56ddf675b6142a77e411b7165bb",
+      "text": "Peygamber’in ﷺ bedel isteme sözü"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p2:speaker_ar",
+      "source_text_sha256": "1df8a302c4f3b9aa05e2ba752ed97657b911803139de470fd5ade9b7eb9db5dc",
+      "text": "Haberdeki Peygamber ﷺ"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p2:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p2:citation_ar",
+      "source_text_sha256": "f1ba81dd2946f4a29aa551dc23869e466d502cd6e2d50246fd923e3f91a8ce2a",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/٦٨](https://app.turath.io/book/1681?page=5925)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p2:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p2:text_ar",
+      "source_text_sha256": "3cf550f48bce520fc02caa8a0691d36554d762cf0c277283e204f3c224d53e5f",
+      "text": "Bunun üzerine şöyle dedi: “Ey Benî Neccâr! Şu bahçenize bir bedel belirleyip benimle pazarlık edin.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p3:kind_ar",
+      "source_text_sha256": "6682a4fc1bb9c9942661f1435eeb46a11ee5dc01a358de662c6a7847a8685c53",
+      "text": "Benî Neccâr’ın ileri gelenlerinin cevabı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p3:speaker_ar",
+      "source_text_sha256": "71ce7a7330fd8a3bafd653d4d5c624753b059a2fe5ad415624c7af36e593d784",
+      "text": "Enes’in haberinde Benî Neccâr"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p3:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p3:citation_ar",
+      "source_text_sha256": "f1ba81dd2946f4a29aa551dc23869e466d502cd6e2d50246fd923e3f91a8ce2a",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/٦٨](https://app.turath.io/book/1681?page=5925)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p3:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p3:text_ar",
+      "source_text_sha256": "6d2c5692b4f223461a2882c9d2b62df687bcf1df0e6a68a5a198c71fc788f907",
+      "text": "Onlar da, “Hayır, Allah’a yemin olsun, onun bedelini ancak Allah’tan bekleriz” dediler."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p4:kind_ar",
+      "source_text_sha256": "b1a3514d1222b6df34f13b75d3249aa40ce028a818808afcf677bb2e51dc91df",
+      "text": "Enes’in yerin hazırlanması hakkındaki haberi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p4:speaker_ar",
+      "source_text_sha256": "5251a0bafc7e3d8e4ce6a4ca45e476037ca2ed307e6c8274482420632312b2b3",
+      "text": "Buhârî’nin naklinde Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p4:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p4:citation_ar",
+      "source_text_sha256": "f1ba81dd2946f4a29aa551dc23869e466d502cd6e2d50246fd923e3f91a8ce2a",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/٦٨](https://app.turath.io/book/1681?page=5925)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p4:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p4:text_ar",
+      "source_text_sha256": "fa10479e09d07383160cbd0a94ca262ff5eab46ce7b1f4bf77cbefc8e6a2609a",
+      "text": "[Enes] dedi ki: “Orada, size şimdi anlatacağım şeyler vardı: müşriklerin mezarları, harabeler ve hurma ağaçları. Resûlullah ﷺ müşriklerin mezarlarının açılmasını, harabelerin düzeltilmesini ve hurma ağaçlarının kesilmesini emretti. Hurma ağaçlarını mescidin kıble tarafına dizdiler, iki sövesini de taşlardan yaptılar.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p5:kind_ar",
+      "source_text_sha256": "d4c932af340f94f6f448a9d80602f623d22a64847432f234e29e74656d75f936",
+      "text": "Çalışanların recez okuyuşuna dair haber"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p5:speaker_ar",
+      "source_text_sha256": "5251a0bafc7e3d8e4ce6a4ca45e476037ca2ed307e6c8274482420632312b2b3",
+      "text": "Buhârî’nin naklinde Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p5:book_ar",
+      "source_text_sha256": "a4a9b32caa6166fc222d33662af3c0feb98d8cfb8e829bb1cd931517f8901692",
+      "text": "Sahîh-i Buhârî — Sultâniyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p5:citation_ar",
+      "source_text_sha256": "f1ba81dd2946f4a29aa551dc23869e466d502cd6e2d50246fd923e3f91a8ce2a",
+      "text": "[Sahîh-i Buhârî — Sultâniyye baskısı, 5/٦٨](https://app.turath.io/book/1681?page=5925)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p5:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_anas_parallel:p5:text_ar",
+      "source_text_sha256": "a852b40f1ee9fc1c69470fa86137c57a8efd7048246468b9367c21ecd832a5aa",
+      "text": "[Enes] dedi ki: “O taşları taşımaya başladılar; onlar recez okuyor, Resûlullah ﷺ da aralarında bulunuyordu. Şöyle diyorlardı:\nAllah’ım, hayır ancak ahiretin hayrıdır ... Ensara ve muhacirlere yardım et.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p1:kind_ar",
+      "source_text_sha256": "22ceaffa170867faeb3731f21d7143babecaeca34932d532ce581de9cb3d3c18",
+      "text": "Mûsâ b. Ukbe’ye uzanan ilk rivayet yolu"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p1:speaker_ar",
+      "source_text_sha256": "7e073f2de4e97b83d42f5ff7238f59c432622a5760f6214637b09b8d5e9d5adc",
+      "text": "Beyhakî isnadı aktarır"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p1:citation_ar",
+      "source_text_sha256": "a51ba873e043a69c300145fb195f92c250c5a3d2d84492ee4498e8cd6eb9696b",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/538](https://app.turath.io/book/7478?page=1059)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p1:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p1:text_ar",
+      "source_text_sha256": "6df25b7f15be0df9af5d596e7a65c82a777f35ca3848fad99f332573a1f570ee",
+      "text": "Bize Bağdat’ta Ebü’l-Hüseyin b. Fadl el-Kattân haber verdi; dedi ki: Bize Ebû Bekir b. Attâb haber verdi; dedi ki: Bize Kâsım b. Abdullah b. Muğîre anlattı; dedi ki: Bize İbn Ebû Üveys anlattı; dedi ki: Bize İsmâil b. İbrâhim b. Ukbe, amcası Mûsâ b. Ukbe’den nakletti. [Rivayet yolu değişiyor.]"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p2:kind_ar",
+      "source_text_sha256": "cb81152e4ad724b72d2b3e3edc85c12d19b8d610a0071da6aca4a5a36f114a1e",
+      "text": "Zührî’ye uzanan ikinci rivayet yolu"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p2:speaker_ar",
+      "source_text_sha256": "7e073f2de4e97b83d42f5ff7238f59c432622a5760f6214637b09b8d5e9d5adc",
+      "text": "Beyhakî isnadı aktarır"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p2:citation_ar",
+      "source_text_sha256": "a51ba873e043a69c300145fb195f92c250c5a3d2d84492ee4498e8cd6eb9696b",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/538](https://app.turath.io/book/7478?page=1059)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p2:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p2:text_ar",
+      "source_text_sha256": "798fe55ff88f6093720beeb7288c23b0b9de6bd31ef580e3b5783b4e6f50bc1e",
+      "text": "Bize Hâfız Ebû Abdullah da haber verdi; dedi ki: Bana İsmâil b. Muhammed b. Fadl b. Muhammed eş-Şa‘rânî haber verdi; “Bize dedem anlattı; bize İbrâhim b. Münzir anlattı; bize Muhammed b. Füleyh, Mûsâ b. Ukbe’den, o da İbn Şihâb’dan nakletti” dedi. İbn Şihâb şöyle dedi:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p3:kind_ar",
+      "source_text_sha256": "3980b4e36ab91981531f55e8a914afdd5e1d1cd5399a29a109b57b9451f43624",
+      "text": "Zührî’den mirbed, iki çocuk ve bağış hakkında nakil"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p3:speaker_ar",
+      "source_text_sha256": "392fea17fb5412f7159a52dd2cb44452b9b1f799acd214fa2e09d89d4e3b1933",
+      "text": "Beyhakî’nin naklindeki Zührî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p3:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p3:citation_ar",
+      "source_text_sha256": "a51ba873e043a69c300145fb195f92c250c5a3d2d84492ee4498e8cd6eb9696b",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/538](https://app.turath.io/book/7478?page=1059)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p3:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p3:text_ar",
+      "source_text_sha256": "bcfff3547a57fe571454e96fdc2c98f08cdd645c803e884ce4ef0f4d34d7d7d5",
+      "text": "“Mescit, Benî Neccâr’dan iki yetim çocuk, Es‘ad b. Zürâre’nin himayesindeki Amr’ın oğulları Sehl ve Süheyl’in hurma kurutma yeriydi. Söylediklerine göre Peygamber ﷺ Medine’ye gelmeden önce Müslümanlardan bazı adamlar o mirbedde namaz kılıyordu. İki çocuk burayı Resûlullah’a ﷺ verdiler."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p4:kind_ar",
+      "source_text_sha256": "d633510df1c7a25e1da3e50b8d96634bf798fc991b925ea964e8cbb16696a07a",
+      "text": "Zührî’den nakilde hurma ağaçlarıyla karşılık verilmesi ihtimali"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p4:speaker_ar",
+      "source_text_sha256": "392fea17fb5412f7159a52dd2cb44452b9b1f799acd214fa2e09d89d4e3b1933",
+      "text": "Beyhakî’nin naklindeki Zührî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p4:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p4:citation_ar",
+      "source_text_sha256": "a51ba873e043a69c300145fb195f92c250c5a3d2d84492ee4498e8cd6eb9696b",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/538](https://app.turath.io/book/7478?page=1059)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p4:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p4:text_ar",
+      "source_text_sha256": "0790253f46c016492307ab8a5e79371ec72764fa3c4daa456db110b6f195d5b7",
+      "text": "Denildiğine göre Es‘ad b. Zürâre çocukların mirbedine karşılık onlara Benî Beyâda’daki kendi hurma ağaçlarını teklif etti."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p5:kind_ar",
+      "source_text_sha256": "1c2c01180f94654aad7b2b31fcdc2c670d1a8e2a0bb94d0f224f6cadb98615c7",
+      "text": "Zührî’nin naklinde iki çocuğun cevabı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p5:speaker_ar",
+      "source_text_sha256": "81d3cc2b97f2c0fb3a5ec69c0dcbd200905d1e136e96e5c98915a591f86bc0b4",
+      "text": "Beyhakî’de Zührî’nin naklettiği şekliyle iki çocuk"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p5:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p5:citation_ar",
+      "source_text_sha256": "a51ba873e043a69c300145fb195f92c250c5a3d2d84492ee4498e8cd6eb9696b",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/538](https://app.turath.io/book/7478?page=1059)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p5:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p5:text_ar",
+      "source_text_sha256": "18baf75feb7ee162adea2774e0cf0c9f2fb1831e2b73b3e7e47101fc8aa39de1",
+      "text": "İkisi de “Hayır, onu Resûlullah’a ﷺ verelim” dediler."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p6:kind_ar",
+      "source_text_sha256": "5b2c8c632e662547e16c3c8b94e0efeac4a7d2847851ab5c9a0ec520a1d28feb",
+      "text": "Zührî’den nakilde satın alma ihtimali"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p6:speaker_ar",
+      "source_text_sha256": "392fea17fb5412f7159a52dd2cb44452b9b1f799acd214fa2e09d89d4e3b1933",
+      "text": "Beyhakî’nin naklindeki Zührî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p6:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p6:citation_ar",
+      "source_text_sha256": "a51ba873e043a69c300145fb195f92c250c5a3d2d84492ee4498e8cd6eb9696b",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/538](https://app.turath.io/book/7478?page=1059)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p6:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p6:text_ar",
+      "source_text_sha256": "57f492d756a55c45ef11f7541319ac1425707359669603d2e7be97c9840309a0",
+      "text": "Bir başka rivayete göre Resûlullah ﷺ orayı iki çocuktan satın alıp mescit olarak inşa etti."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p7:kind_ar",
+      "source_text_sha256": "406046491784e93b33bad34ac5032f450e2955e2b66629e87c2998c40fbfada1",
+      "text": "İnşaat anlatısının ve kerpiç taşımanın devamı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p7:speaker_ar",
+      "source_text_sha256": "392fea17fb5412f7159a52dd2cb44452b9b1f799acd214fa2e09d89d4e3b1933",
+      "text": "Beyhakî’nin naklindeki Zührî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p7:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p7:citation_ar",
+      "source_text_sha256": "a51ba873e043a69c300145fb195f92c250c5a3d2d84492ee4498e8cd6eb9696b",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/538](https://app.turath.io/book/7478?page=1059)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p7:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p7:text_ar",
+      "source_text_sha256": "4d479f375a7cc5beda1e4280910670b99516bdf44ac5da819ae3eccd072b873d",
+      "text": "O ve arkadaşları kerpiç taşımaya başladılar. Arkadaşlarıyla kerpiç taşırken şöyle diyordu:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p8:kind_ar",
+      "source_text_sha256": "3c3663dd424da31ee8a1b93eb2273cc229dcf666a2ad8f32b2eda4c534fa79e9",
+      "text": "Haberde nakledilen beyit"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p8:speaker_ar",
+      "source_text_sha256": "23dd31ee52b34eab6a28cf70f42984749767ef23d35be441cb264f8097d1f7ab",
+      "text": "Beyhakî’de Zührî’nin naklettiği şekliyle Peygamber’in ﷺ sözü"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p8:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p8:citation_ar",
+      "source_text_sha256": "a51ba873e043a69c300145fb195f92c250c5a3d2d84492ee4498e8cd6eb9696b",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/538](https://app.turath.io/book/7478?page=1059)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p8:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_start:p8:text_ar",
+      "source_text_sha256": "572a51cb19e75f7d175057d59141c85c43dd1c35cb11f6aab0f8ff34962f5b20",
+      "text": "Bu taşınan yük, Hayber’in yükü değil ... Rabbimiz, bu daha erdemli ve daha temizdir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p1:kind_ar",
+      "source_text_sha256": "896baed586d62adf003d53f35804574c2353b0f261ce8479b90243048df523fd",
+      "text": "Zührî’nin haberinde Peygamber’in ﷺ inşaat sırasında söylediği sözün takdimi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p1:speaker_ar",
+      "source_text_sha256": "392fea17fb5412f7159a52dd2cb44452b9b1f799acd214fa2e09d89d4e3b1933",
+      "text": "Beyhakî’nin naklindeki Zührî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p1:citation_ar",
+      "source_text_sha256": "203de6d86b7af81dcf23316501bc9d7972b7e1f0428aa41084f55de34e0f9d6e",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/539](https://app.turath.io/book/7478?page=1060)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p1:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p1:text_ar",
+      "source_text_sha256": "1bee6dc345e084f6974720abb42936fcb433363981cffc6ad89e7d8796bcd269",
+      "text": "Ve şöyle diyordu:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p2:kind_ar",
+      "source_text_sha256": "fe80d6f3c48ae5fda5c9b33a8f0afa45104f63f14f1649bed96693de07e2d15e",
+      "text": "Zührî’nin haberinde Peygamber sözü"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p2:speaker_ar",
+      "source_text_sha256": "db16823a3caa12e7077832a48a041f7397f2a4dac5557d9ead088b946edac096",
+      "text": "Zührî’nin rivayet ettiği şekliyle Peygamber ﷺ"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p2:citation_ar",
+      "source_text_sha256": "203de6d86b7af81dcf23316501bc9d7972b7e1f0428aa41084f55de34e0f9d6e",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/539](https://app.turath.io/book/7478?page=1060)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p2:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p2:text_ar",
+      "source_text_sha256": "08fe09478c1e2e76a746df0eaeb758a8e9f214bd4671d0a976ce95ef2202adcc",
+      "text": "Allah’ım, hayır ancak ahiretin hayrıdır ... Ensara ve muhacirlere merhamet et."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p3:kind_ar",
+      "source_text_sha256": "c319a83d6d96056444afe5519526f8bdce791ac418e5069b9101675036bd660e",
+      "text": "Zührî’nin şiir ve şiirden alıntı yapmaya dair değerlendirmesi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p3:speaker_ar",
+      "source_text_sha256": "392fea17fb5412f7159a52dd2cb44452b9b1f799acd214fa2e09d89d4e3b1933",
+      "text": "Beyhakî’nin naklindeki Zührî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p3:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "Delâilü’n-nübüvve — Beyhakî"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p3:citation_ar",
+      "source_text_sha256": "203de6d86b7af81dcf23316501bc9d7972b7e1f0428aa41084f55de34e0f9d6e",
+      "text": "[Delâilü’n-nübüvve — Beyhakî, 2/539](https://app.turath.io/book/7478?page=1060)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p3:context_note_ar",
+      "source_text_sha256": "ecf098ae4c90fb3e411d4117b5a74306dcccac63d4065cebf7a1a55bd1cd3cbb",
+      "text": "Paralel veya önceki bağlamdan tam bir parça; temel alıntının hangi bölüme ait olduğunu değiştirmez."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_context_musa_end:p3:text_ar",
+      "source_text_sha256": "351969e770009de84e2eb6d96c8c491befbb9b62bc4ef7354d52aa8cb1368a8a",
+      "text": "İbn Şihâb şöyle dedi: “Resûlullah ﷺ, hadiste adı belirtilmeyen Müslüman bir adamın şiirinden alıntı yaptı. Bu beyitler dışında Resûlullah’ın ﷺ herhangi bir şiir beytini alıntıladığını bildiren bir rivayet bana ulaşmadı.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p1:kind_ar",
+      "source_text_sha256": "5dc2a8cfc36e33b2cf2f36e624a6310f2699289f9e0911c0deaea77fc9ee0f5d",
+      "text": "Müslim’in isnadı ve hadis numarası"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p1:speaker_ar",
+      "source_text_sha256": "7c978776adca5b45449e11cd84648eddeb6d455195a2f335de116b5bb69317df",
+      "text": "Müslim’in Ebü’t-Teyyâh aracılığıyla Enes’ten nakli"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p1:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p1:citation_ar",
+      "source_text_sha256": "891e765453128ab0d03cd71dbb983c8ce0226414ed2ba41fa37247e2c09de86e",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/373](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p1:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p1:text_ar",
+      "source_text_sha256": "efab2e902af27d6e04d58f826f696b729150ada6b507122fbdb7627bd27ff773",
+      "text": "9 — (524) Bize Yahyâ b. Yahyâ ve Şeybân b. Ferrûh anlattılar; ikisi de Abdülvâris’ten nakletti. Yahyâ, “Bize Abdülvâris b. Saîd, Ebü’t-Teyyâh ed-Dubaî’den haber verdi; bize Enes b. Mâlik anlattı” dedi."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p2:kind_ar",
+      "source_text_sha256": "1712fe826390221aa935bb60a099a36c6dee7bb7d10048b66a3e1c5835af7632",
+      "text": "Enes’in haberi: geliş, namaz ve soru"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p2:speaker_ar",
+      "source_text_sha256": "9e82bb991cbc1474eadc81ccb49c92b39b33febb7d95d46c6ed03835c71c9455",
+      "text": "Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p2:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p2:citation_ar",
+      "source_text_sha256": "891e765453128ab0d03cd71dbb983c8ce0226414ed2ba41fa37247e2c09de86e",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/373](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p2:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p2:text_ar",
+      "source_text_sha256": "17d72ed3b6a04e49408944621e7088ccd16efa6d94bc01e7dcd4c53176f0f2f3",
+      "text": "Resûlullah ﷺ Medine’ye geldi. Medine’nin yukarı kesimindeki Benî Amr b. Avf denilen topluluğun yanında konakladı; aralarında on dört gece kaldı. Sonra Benî Neccâr’ın ileri gelenlerine haber gönderdi. Onlar kılıçlarını kuşanmış olarak geldiler. [Enes] dedi ki: Resûlullah’ı ﷺ bineği üzerinde, Ebû Bekir’i onun arkasında ve Benî Neccâr’ın ileri gelenlerini çevresinde görür gibiyim. Sonunda Ebû Eyyûb’un evinin önüne varıp konakladı. Resûlullah ﷺ namaz vakti nerede erişirse orada, koyunların yattığı yerlerde de namaz kılıyordu. Sonra mescidin yapılmasını emretti. Benî Neccâr’ın ileri gelenlerine haber gönderdi, onlar da geldiler."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p3:kind_ar",
+      "source_text_sha256": "82f350a91fb5e7793b87188e65ed6604fbfe6948c956bac62d5fa735bae94855",
+      "text": "Peygamber’in ﷺ bahçe için pazarlık sözü"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p3:speaker_ar",
+      "source_text_sha256": "31f5825c3b392094b7212ff489ce223cf7653ead14fed4d720567d41ef3418d0",
+      "text": "Enes’in haberindeki Peygamber ﷺ"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p3:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p3:citation_ar",
+      "source_text_sha256": "891e765453128ab0d03cd71dbb983c8ce0226414ed2ba41fa37247e2c09de86e",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/373](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p3:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p3:text_ar",
+      "source_text_sha256": "a9a79d36a8f999749602f2e1913e6a51047fec9c0af5462e9113626d3997c296",
+      "text": "Şöyle dedi: “Ey Benî Neccâr! Şu bahçenize bir bedel biçip benimle pazarlık edin.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p4:kind_ar",
+      "source_text_sha256": "6682a4fc1bb9c9942661f1435eeb46a11ee5dc01a358de662c6a7847a8685c53",
+      "text": "Benî Neccâr’ın ileri gelenlerinin cevabı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p4:speaker_ar",
+      "source_text_sha256": "894a8bc90c4f54112b25acc16ed52ad72a370bb84175c9c09c9984b27b0d7893",
+      "text": "Enes’in haberinde Benî Neccâr’ın ileri gelenleri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p4:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p4:citation_ar",
+      "source_text_sha256": "891e765453128ab0d03cd71dbb983c8ce0226414ed2ba41fa37247e2c09de86e",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/373](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p4:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p4:text_ar",
+      "source_text_sha256": "a1838cbfe667ae7a3e14534a1453155b6594d61f3ef80cbc76fe71a86a839c67",
+      "text": "Onlar, “Hayır! Allah’a yemin olsun, bedelini ancak Allah’tan bekleriz” dediler."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p5:kind_ar",
+      "source_text_sha256": "347c3c9a9a57d5322d3614a286bb84022da2d35c3c225728801edb57e4d18939",
+      "text": "Enes’in yer ve yerin düzeltilmesi emri hakkındaki anlatısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p5:speaker_ar",
+      "source_text_sha256": "9e82bb991cbc1474eadc81ccb49c92b39b33febb7d95d46c6ed03835c71c9455",
+      "text": "Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p5:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p5:citation_ar",
+      "source_text_sha256": "891e765453128ab0d03cd71dbb983c8ce0226414ed2ba41fa37247e2c09de86e",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/373](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p5:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_site:p5:text_ar",
+      "source_text_sha256": "04003b856a870bfc3bdd23bdd1280bd88268982357391543b71c3af960744cfd",
+      "text": "Enes dedi ki: “Orada, şimdi size anlatacağım şeyler vardı: hurma ağaçları, müşriklerin mezarları ve harabeler. Resûlullah ﷺ hurma ağaçlarının kesilmesini, müşriklerin mezarlarının açılmasını ve harabelerin düzeltilmesini emretti.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p1:kind_ar",
+      "source_text_sha256": "ed237117d7be5f9c5c00c379d08f6898b4dcf9e13efaf0f8aa76d247cecc7d3f",
+      "text": "Enes’in rivayeti: hurma ağaçları, taşlar, çalışma ve recez"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p1:speaker_ar",
+      "source_text_sha256": "9e82bb991cbc1474eadc81ccb49c92b39b33febb7d95d46c6ed03835c71c9455",
+      "text": "Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p1:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p1:citation_ar",
+      "source_text_sha256": "f4b170c1027ae9fba5e2004a3541c87dc2a341f3c80c7fd20b3b61a33a53d181",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/٣٧٤](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p1:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p1:text_ar",
+      "source_text_sha256": "7b208dcce4af5449125edabb3a0334d655f5ad794df0fe3d5957884c26150406",
+      "text": "[Enes] dedi ki: “Hurma ağaçlarını kıble tarafına dizdiler ve iki sövesini taşlardan yaptılar.” Çalışanlar recez okuyorlardı; Resûlullah ﷺ da aralarındaydı."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p2:kind_ar",
+      "source_text_sha256": "6ce9c141e6ecaea4703fc28f9d9b41c5df07780f22bcbc47d7f3a1c8a8a70b39",
+      "text": "Enes’in rivayetinde çalışanların söylediği sözler"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p2:speaker_ar",
+      "source_text_sha256": "d02c87890894969df813733a98753cdcf727566e4c4205932073a6b3e5f86491",
+      "text": "Enes’in rivayetindeki çalışanlar"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p2:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p2:citation_ar",
+      "source_text_sha256": "f4b170c1027ae9fba5e2004a3541c87dc2a341f3c80c7fd20b3b61a33a53d181",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/٣٧٤](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p2:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_muslim_work:p2:text_ar",
+      "source_text_sha256": "51a2ea84a4422d09d18aac51f0ebfac6ac4cb4f5107b7c801d8a59b685499770",
+      "text": "Şöyle diyorlardı:\nAllah’ım! Hayır ancak ahiretin hayrıdır * Ensara ve muhacirlere yardım et."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p1:kind_ar",
+      "source_text_sha256": "303ec6ce067635167e2ef6b2ba0789010479fa818aa6f1bab27381e3663ca1e3",
+      "text": "İbn Hacer’in Zübeyr’den, Mücemma‘ yoluyla nakli"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p1:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p1:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p1:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p1:text_ar",
+      "source_text_sha256": "d0f7cbd3be8bff9cdabef10c361083d29a8ff44889ab62677da2884fcd7c2349",
+      "text": "Zübeyr, Mücemma‘ b. Yezîd yoluyla şunu aktardı: O sırada Müslümanlardan biri şöyle dedi:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p2:kind_ar",
+      "source_text_sha256": "b299b56d5b8be3941b3d491b7150bfffbcaea3309014ecf15f60cf1fae59edfa",
+      "text": "Zübeyr’in naklinde Müslümanlardan birinin sözü"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p2:speaker_ar",
+      "source_text_sha256": "4370df1f14d2cd8782c916e2887b3778352c310ff5b23252ee320f2c5f61de0c",
+      "text": "Zübeyr’in naklinde Müslümanlardan bir kişi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p2:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p2:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p2:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p2:text_ar",
+      "source_text_sha256": "823af39cb5f4f36064c4d6bc0cb8bc152edd46b5ca85ef0a1040c21c4d93c200",
+      "text": "Peygamber çalışırken biz oturursak … bu, gerçekten pek yanlış bir davranış olur."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p3:kind_ar",
+      "source_text_sha256": "150aa0161e4e1ea8d22903eace3bd4d6b6bbba7cbe6cfab096cc5bc259129210",
+      "text": "Ümmü Seleme’den gelen rivayet yolunun ve Ali’nin sözünün takdimi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p3:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p3:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p3:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p3:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p3:text_ar",
+      "source_text_sha256": "637f4e7d0d41a4f9a5161e71709c1655f95f1337d275dcca731158f208491311",
+      "text": "Ümmü Seleme’den başka bir yolla buna benzer bir rivayet gelir; şu ek de vardır: “Ali b. Ebû Tâlib şöyle dedi:”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p4:kind_ar",
+      "source_text_sha256": "ea689300ffd9e35f799474fb39a037e3ae2e672299a08ffef787b79001a127dd",
+      "text": "Ali’ye nispet edilen beyitler"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p4:speaker_ar",
+      "source_text_sha256": "bf53779203c41b3b14256ac7d24c74361e413aafc2c81f39a1e3966eaaa85257",
+      "text": "İbn Hacer’in naklinde Ali b. Ebû Tâlib"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p4:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p4:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p4:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p4:text_ar",
+      "source_text_sha256": "98615e9def8b59f6b704eb0baeb1f61c9808168b3ab2f4270c091f5a743c4775",
+      "text": "Mescitleri inşa eden, ayakta da otururken de orada çalışıp didinen kişi … üzerine toprak gelmesinden kaçınırken görülen kişiyle bir değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p5:kind_ar",
+      "source_text_sha256": "184d695a89fafbe7dfd820678d4b4623ad32c1e6f0a76a1b5f4076bf5910ec07",
+      "text": "Şârihin sonraki açıklamaya göndermesi"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p5:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p5:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p5:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p5:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_builders:p5:text_ar",
+      "source_text_sha256": "86d0441376c92716380b4d9faeac7c493dc1c7a2d4f7f4a4657fb148de5f9483",
+      "text": "Allah Teâlâ dilerse Peygamber’in ﷺ mescidi tamamlayana dek Ebû Eyyûb’un yanında nasıl kaldığı, bu bölümdeki Enes hadisinde ileride gelecektir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p1:kind_ar",
+      "source_text_sha256": "0a9196f6ded054a7ef7720f9f48ed491fcb4c0562418938237042a4cec768976",
+      "text": "Müslim’in kısa haber için isnadı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p1:speaker_ar",
+      "source_text_sha256": "919e5e93c937f0e6256d265de042b3f43f312b57d8f6622ca121d99ca2162b0e",
+      "text": "Müslim’in Enes’ten nakli"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p1:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p1:citation_ar",
+      "source_text_sha256": "f5200a14338cab7b5b0aa5e898fb7aa0284ba1af9595021b1e9736492a0bc72f",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/374](https://app.turath.io/book/1727?page=1121)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p1:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p1:text_ar",
+      "source_text_sha256": "46453b8673df91354a5c80821c0d530528535681dd6a008ad103d618b742cd63",
+      "text": "10 — (524) Bize Ubeydullah b. Muâz el-Anberî anlattı; o, “Bize babam anlattı” dedi. Babası, “Bize Şu‘be anlattı” dedi. Şu‘be de “Bana Ebü’t-Teyyâh, Enes’ten nakletti” dedi:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p2:kind_ar",
+      "source_text_sha256": "47e9b97958ed16718b2a848b0cfe9f5bc7f6ecc86f719320a44dde1ff3140716",
+      "text": "Mescidin inşasından önceki namaza dair haber"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p2:speaker_ar",
+      "source_text_sha256": "9e82bb991cbc1474eadc81ccb49c92b39b33febb7d95d46c6ed03835c71c9455",
+      "text": "Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p2:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p2:citation_ar",
+      "source_text_sha256": "f5200a14338cab7b5b0aa5e898fb7aa0284ba1af9595021b1e9736492a0bc72f",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/374](https://app.turath.io/book/1727?page=1121)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p2:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_marabid:p2:text_ar",
+      "source_text_sha256": "80433ea7ad806f4564689983330266e6dc9a9b4cb741ff8f1620c0445deaf100",
+      "text": "Resûlullah ﷺ mescit inşa edilmeden önce koyunların yattığı yerlerde namaz kılıyordu."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p1:kind_ar",
+      "source_text_sha256": "67f599fd0d582d467640bedbb132654020a228b501fe12586ed2acafd90361eb",
+      "text": "Müslim’in takip rivayetinin isnadı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p1:speaker_ar",
+      "source_text_sha256": "f4e0124d99e0e1c7f8a41484fc1171d894925649660371a96d3428d6ad1e74d5",
+      "text": "Müslim"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p1:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p1:citation_ar",
+      "source_text_sha256": "1f0ec861ec003dfa022bc77b974d3588cf52446f123000ec9e14510d6df2a0a7",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/374](https://app.turath.io/book/1727?page=1122)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p1:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p1:text_ar",
+      "source_text_sha256": "d9ca95be76757f67f678c56551dfab43deb0c707d960e464b68b004cd0dd6965",
+      "text": "(524) — Bunu bize Yahyâ b. Yahyâ da anlattı: Bize Hâlid (yani İbn Hâris), ona da Şu‘be, Ebü’t-Teyyâh’tan anlattı. Ebü’t-Teyyâh dedi ki:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p2:kind_ar",
+      "source_text_sha256": "53492bdf2bec9dce29d031156172f44a745e6487c8a40d5e5b8bab5f05c3f761",
+      "text": "Benzerine atıf; yeni ayrıntılı bir metin değil"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p2:speaker_ar",
+      "source_text_sha256": "c93ff4a2a07002fb026ec1ed619789df9d354489c441ea21552cf665b831fea4",
+      "text": "Müslim’in takip rivayetinde Enes"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p2:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p2:citation_ar",
+      "source_text_sha256": "1f0ec861ec003dfa022bc77b974d3588cf52446f123000ec9e14510d6df2a0a7",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/374](https://app.turath.io/book/1727?page=1122)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p2:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_follow:p2:text_ar",
+      "source_text_sha256": "758de3b415329d57064e248d3ec05c37907b6ecc57c895cc98a4c879396571a6",
+      "text": "Enes’in, “Resûlullah ﷺ ...” diye benzerini söylediğini işittim."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p1:kind_ar",
+      "source_text_sha256": "9241053aa8bca167d54561f73357f535a0b7b99b1b236cece881197e56bf0595",
+      "text": "Nakilde “leben” kelimesinin anlamının açıklanması"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p1:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p1:citation_ar",
+      "source_text_sha256": "103a6a20d4a7cf02900c304a513ed89ce8d4a0c300310419f6da4c79b29860e8",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/246](https://app.turath.io/book/1673?page=4074)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p1:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p1:text_ar",
+      "source_text_sha256": "635bdb6537c9f32070f30d9091408e6116ab6af2b43479bd94ac1adb52b1988b",
+      "text": "Onun “Resûlullah ﷺ onlarla birlikte kerpiç taşımaya başladı” sözündeki “başladı” fiili, işe koyuldu demektir. “Kerpiç” ise pişirilmemiş kilden yapılmış tuğla demektir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p2:kind_ar",
+      "source_text_sha256": "f2033972972cda79e6a4eccf4b22084f8fd8b700639f8cfd76fe01c52eeca9fc",
+      "text": "İbn Âiz’den Attâf yoluyla nakledilen çardak aşaması"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p2:speaker_ar",
+      "source_text_sha256": "4fce7cb9d2b3b5f805a3ded278657965cba5aa045742912bac09be365f9a3c02",
+      "text": "İbn Hacer, İbn Âiz’deki Attâf rivayetini nakleder"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p2:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p2:citation_ar",
+      "source_text_sha256": "103a6a20d4a7cf02900c304a513ed89ce8d4a0c300310419f6da4c79b29860e8",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/246](https://app.turath.io/book/1673?page=4074)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p2:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p2:text_ar",
+      "source_text_sha256": "d4cb348b581b8fa9c95efd9c62f2f3103628d73f0eaca572048c9024fa399a7b",
+      "text": "İbn Âiz’in naklettiği Attâf b. Hâlid rivayetinde, mescit bir çardakken Peygamber ﷺ orada on iki gün namaz kıldı; ardından onu inşa edip üstünü örttü."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p3:kind_ar",
+      "source_text_sha256": "2fd1f39c8e016105982405dc5782c5facae9f047bd873411a2f5214e96d74bae",
+      "text": "Zübeyr’den nakledilen hurma dalları ve kerpiç aşaması"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p3:speaker_ar",
+      "source_text_sha256": "c98f8092df403b35655a8a5ae0a08c4bdd0668c246122aab0610925a8078592f",
+      "text": "İbn Hacer’in Zübeyr’den nakli"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p3:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p3:citation_ar",
+      "source_text_sha256": "103a6a20d4a7cf02900c304a513ed89ce8d4a0c300310419f6da4c79b29860e8",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/246](https://app.turath.io/book/1673?page=4074)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p3:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_stages:p3:text_ar",
+      "source_text_sha256": "e9562a084cc2ca0209bd38d12afa8a7e2c9a914f1c92fc29e6ce95706a7b4ef0",
+      "text": "Zübeyr’in Medine haberinde Enes’ten nakline göre mescidi önce hurma dallarıyla, hicretten dört yıl sonra da kerpiçle inşa etti."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p1:kind_ar",
+      "source_text_sha256": "7119f08781fa7cbd22bf9d2d965198097d7a95c3814dc54774309a021d93e0af",
+      "text": "İbn Şihâb’ın şiirden alıntı yapmaya dair görüşünün aktarılması"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p1:speaker_ar",
+      "source_text_sha256": "1c3968e0acc47b1cafee6509f2c636b4e5c62ec0114ec68747c631f5b500f0a1",
+      "text": "İbn Hacer’in İbn Şihâb’dan nakli"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p1:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p1:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p1:text_ar",
+      "source_text_sha256": "0198017f371ef3e48dbe6c420db03fac0d35cc1e2243441a58ac395eddc4c68c",
+      "text": "Onun “İbn Şihâb, ‘Peygamber’in ﷺ bu beyitlerden başka tam bir şiir beytini alıntıladığını öğrenmedik’ dedi” sözü hakkında:"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p2:kind_ar",
+      "source_text_sha256": "9899e9d81916932b8f0eb0ef17dca271567c25c8e881d200c595683017e97de9",
+      "text": "İbn Âiz’den nakledilen ek"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p2:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p2:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p2:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p2:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p2:text_ar",
+      "source_text_sha256": "e5797e70656acd6bc1d97e84631ebab31d0325791bf986c4fb06a4dfd0db18c8",
+      "text": "İbn Âiz, haberin sonuna, “Mescidin inşasında kerpiç taşırken bu beyitlerle recez okuyordu” ifadesini ekledi."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p3:kind_ar",
+      "source_text_sha256": "c6bac464a3d6a813c3abd89d3fbaa82e28eea1a60e3115cdb8c10475f759dd13",
+      "text": "İbnü’t-Tîn’den nakledilen iki itiraz"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p3:speaker_ar",
+      "source_text_sha256": "07e9b554a280890ec2593983301668fefe8b3ab669331b9894c36d71405293a0",
+      "text": "İbn Hacer’in naklinde İbnü’t-Tîn"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p3:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p3:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p3:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p3:text_ar",
+      "source_text_sha256": "13b7f00dd1fc27471f703dd75594b574ffe3f982f8a3eff4882a0e2db38bfd90",
+      "text": "İbnü’t-Tîn dedi ki: “Zührî’ye bu hususta iki yönden itiraz edildi: Birincisi, bu recezdir, şiir değildir. Bundan dolayı söyleyene ‘râciz’, okuduğu şeye ‘recez okudu’ denir; ‘şair’ veya ‘şiir okudu’ denmez. İkincisi, âlimler Peygamber’in ﷺ şiir okuyup okumayacağı konusunda ihtilaf etmiştir. Okuyabileceği kabul edilirse bir beyit mi okuyacağı, daha fazlasını mı okuyacağı tartışılır. Tek bir beytin şiir sayılmadığı da söylenmiştir; bu tartışmalıdır.” [Alıntı sonu.]"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p4:kind_ar",
+      "source_text_sha256": "a80cfd48f19ed707eea9239404cadfda343a0d98f55f803a9b9c32de932f3881",
+      "text": "Şârihin recez ve şiir okuma konusundaki cevabı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p4:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p4:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p4:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p4:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p4:text_ar",
+      "source_text_sha256": "8e4fe24b433aa586b0689e07d6028bccf50f3559d88bbc1119042182b875997a",
+      "text": "Birinci itiraza cevap şudur: Çoğunluğa göre recez, vezinli ise şiirin türlerindendir. Peygamber’in ﷺ bunu söylerken kafiyeyi serbest bırakmayıp “tâ” harfini harekeli söylediği de ileri sürülmüştür; ancak bu sabit değildir. Hendek Gazvesi’ne dair Sehl b. Sa‘d hadisinde “Muhacirleri ve ensarı bağışla” lafzı gelecek; bu vezinli değildir. İkinci itiraza cevap ise Peygamber’e ﷺ yasak sayılanın şiir söyleyerek onu meydana getirmesi olduğu, başkasının şiirini okuması olmadığıdır. Şiiri alıntılayarak okumasının yasak olduğuna dair kanıt yoktur."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p5:kind_ar",
+      "source_text_sha256": "62a9c2ce1a40fb1378c9e4cf7447eb5cc63e286d48fdf1b17598f712d9c1220c",
+      "text": "Şârihin Zührî’nin sözünü sınırlaması"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p5:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p5:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p5:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p5:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p5:text_ar",
+      "source_text_sha256": "535c6ed7f0b2026baa22c80b2a217b35d7d9b5e169c85e51820390ff96a2e86d",
+      "text": "Zührî’nin “Bize ulaşmadı” sözüne itiraz edilemez; Peygamber’in ﷺ Zührî’nin aktardıklarından başka bir şey okuduğu sabit olsa bile. Çünkü o, yalnızca bunun kendisine ulaşmadığını söylemiştir; sözü edilen şeyi mutlak olarak reddetmemiştir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p6:kind_ar",
+      "source_text_sha256": "e52868502c717a6885368fea3c2c086b4eeabdae186ee21ea9252618d9a72c9e",
+      "text": "İbn Sa‘d ve başkalarından nakiller ve şârihin tercih ettiği nispet"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p6:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p6:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p6:citation_ar",
+      "source_text_sha256": "e2ff1b9b7ec9ad0814ebcec18dba9d4ff0a0120af5768eb0c1b606e9532fa301",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/247](https://app.turath.io/book/1673?page=4075)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p6:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_critique:p6:text_ar",
+      "source_text_sha256": "d89196020febf9a3162b5e70dad5e95c998856634a40bdfacfc5921c7cfe2163",
+      "text": "Bununla birlikte İbn Sa‘d, Affân’dan, o Mu‘temir b. Süleymân’dan, o Ma‘mer’den, o da Zührî’den nakletti: “Peygamber ﷺ kendisinden önce söylenmiş ya da başkasına nispet edilen şiirlerden yalnızca bunu söyledi.” O böyle dedi; diğerleri ise anılan şiirin Abdullah b. Revâha’ya ait olduğunu söylediler. Sanki bu ona ulaşmamıştı. Sahîh’teki ifade daha sağlamdır: “Müslümanlardan bir adamın şiiri.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p1:kind_ar",
+      "source_text_sha256": "d59154954a5a5a87db4d96af42f27e08f2a1c899c4616cbb34c873ec39d685a4",
+      "text": "Recez sözünün açıklaması ve gönderme"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p1:speaker_ar",
+      "source_text_sha256": "c07e37afb9fedd2ea6aa859dd5f6d0a7407b8575fd3a381b44fae6dcf17fd252",
+      "text": "İbn Hacer"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p1:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p1:citation_ar",
+      "source_text_sha256": "595fc59d87c30acb11922a2aee686c8ee02f42dce471cf4bf7a413c011dd88fb",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/266](https://app.turath.io/book/1673?page=4094)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p1:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p1:text_ar",
+      "source_text_sha256": "a0a0288afbb00543fb46f85d8744895f54644c5ecf3edecac68465a99b7e327e",
+      "text": "Onun “Ensara ve muhacirlere yardım et” sözüne gelince: Ebû Dâvûd da bunu bu lafızla rivayet etmiştir; bu konudaki açıklama mescitlerle ilgili bölümlerde geçmişti."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p2:kind_ar",
+      "source_text_sha256": "11f2a55bb58d923d9dd0567a2b985f8c36618348a4ef53bb61f997ebe3b4472e",
+      "text": "Nakledilen fıkhî gerekçe; olayın doğrudan tespiti değil"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p2:speaker_ar",
+      "source_text_sha256": "bc486e420956493ebd6e7e67e2ab75a52731624642a41a9fcbddb750e6a94969",
+      "text": "İbn Hacer, buna izin verenlerin gerekçesini aktarır"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p2:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p2:citation_ar",
+      "source_text_sha256": "595fc59d87c30acb11922a2aee686c8ee02f42dce471cf4bf7a413c011dd88fb",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/266](https://app.turath.io/book/1673?page=4094)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p2:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p2:text_ar",
+      "source_text_sha256": "bdc3f60f131ceb3af41153c76d0e0e82abaee6885f870611cce4a5bb05f0e0d9",
+      "text": "Mülk sahibinden başkasının satış yapmasına izin verenler, pazarlık iki çocuk dışında biriyle yapıldığı için bu olayı gerekçe gösterdiler."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p3:kind_ar",
+      "source_text_sha256": "8d6b348ab8c9218e02da5821f3f079484dc7cfb1c22448f1fd524f41a8b7e83a",
+      "text": "Nakledilen ihtimalli cevap; vekilin kim olduğunu belirlemez"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p3:speaker_ar",
+      "source_text_sha256": "d906f0ff109f4f776e0931d552e745b57a2185410a5451ea59a16f5d2e85481a",
+      "text": "İbn Hacer bir cevabı aktarır"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p3:book_ar",
+      "source_text_sha256": "3749be7f4f89281b410b4539d90b3c75299c15ae1455f699f5eaf1988ecdf1b3",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p3:citation_ar",
+      "source_text_sha256": "595fc59d87c30acb11922a2aee686c8ee02f42dce471cf4bf7a413c011dd88fb",
+      "text": "[Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısı, 7/266](https://app.turath.io/book/1673?page=4094)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p3:context_note_ar",
+      "source_text_sha256": "822b30996056f70e621a3b691672e10dc1667d4f0fd30ce3bbff1691cb3cbf4c",
+      "text": "Fethu’l-bârî bi-şerhi’l-Buhârî — Selefiyye baskısından tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_agency:p3:text_ar",
+      "source_text_sha256": "83288da40aa34fbdd8be8e7f97d9ba299d399a0798ca2426c504b3ffca09bfa9",
+      "text": "Buna şöyle bir ihtimalle cevap verildi: Çocuklar Benî Neccâr’dan olduklarından Peygamber ﷺ onlarla pazarlık etmiş ve önceki on ikinci hadiste geçtiği gibi, himayesinde bulundukları amcaları da pazarlığa katılmış olabilir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p1:kind_ar",
+      "source_text_sha256": "14dd8c9b3b4013b23408a6d1791dfded90c87ae0a707e03c152d213cb80e150e",
+      "text": "Dipnotta tekrarlanan hadis lafzı"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p1:speaker_ar",
+      "source_text_sha256": "c199f0e1de660190046d484f57c59d482bbffd866eb8a558a08cdd3aff8d4268",
+      "text": "Abdülbâkî neşrinin dipnotu"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p1:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p1:citation_ar",
+      "source_text_sha256": "f4b170c1027ae9fba5e2004a3541c87dc2a341f3c80c7fd20b3b61a33a53d181",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/٣٧٤](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p1:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p1:text_ar",
+      "source_text_sha256": "4b7535e7a583498ea7de611baed4a1b57b40911f3c1963ff63901af0745ca3b9",
+      "text": "“Onun bedelini ancak Allah’tan bekleriz.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p2:kind_ar",
+      "source_text_sha256": "dc653a6be1d2a3272c327f702613466c4a678ddccab422f9484ba91189df6111",
+      "text": "Baskı dipnotunun Nevevî’den nakli"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p2:speaker_ar",
+      "source_text_sha256": "141e769e154e3d193f0ba0e02adf81cf839844b1d2107b2aa15505d4e1a7bd49",
+      "text": "Baskının dipnotu Nevevî’den nakleder"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p2:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p2:citation_ar",
+      "source_text_sha256": "f4b170c1027ae9fba5e2004a3541c87dc2a341f3c80c7fd20b3b61a33a53d181",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/٣٧٤](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p2:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p2:text_ar",
+      "source_text_sha256": "8c4753c751003cb8fa3df482238f2c752dee5db4fd126287fb2263d7b6072e3d",
+      "text": "Nevevî dedi ki: “Bu hadis, Sahîhayn’da ve diğer eserlerde bu şekliyle yaygın olarak aktarılır.”"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p3:kind_ar",
+      "source_text_sha256": "24ae4542123562f455b03e02c43309eeccfeaf31700b32e8a59e537eef1c8b35",
+      "text": "İbn Sa‘d’dan Vâkıdî aracılığıyla yapılan, bağımsız olmayan nakil"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p3:speaker_ar",
+      "source_text_sha256": "a9c5f6143d3f8cf3b2db4b9e72de19cc66c0863d9e7851f08b8b91f4903bbae1",
+      "text": "Baskının dipnotu"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p3:book_ar",
+      "source_text_sha256": "037d27ac9120d1212603636251e6dc867e2cf8f705ac2c4b97cdd786c2d41475",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşri"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p3:citation_ar",
+      "source_text_sha256": "f4b170c1027ae9fba5e2004a3541c87dc2a341f3c80c7fd20b3b61a33a53d181",
+      "text": "[Sahîh-i Müslim — Abdülbâkî neşri, 1/٣٧٤](https://app.turath.io/book/1727?page=1120)"
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p3:context_note_ar",
+      "source_text_sha256": "427c124e5e8e474d20b6f6f092008c1ad8246139e44808e394dd91e2eec0e5b7",
+      "text": "Sahîh-i Müslim — Abdülbâkî neşrinden tam bir arşiv alıntısı; parçalar yazılışı değiştirmeden farklı konuşanları belirler; bu, sayfanın veya kitabın tamamı değildir."
+    },
+    {
+      "unit_id": "sp_mosque_chapter_price_foot:p3:text_ar",
+      "source_text_sha256": "349056f0eeaedcd969acecb4447a2369c1f11c515acf12b9c2a47d2715dca868",
+      "text": "Muhammed b. Sa‘d, Tabakât’ta Vâkıdî’den naklen Peygamber’in ﷺ orayı onlardan on dinara satın aldığını, bedeli onun adına Ebû Bekir es-Sıddîk’ın ödediğini zikretti."
+    }
+  ],
+  "reading_editions": [
+    {
+      "reading_id": "hch_mosque_read_site",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_mosque_read_context",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_mosque_read_musa",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_mosque_read_offer",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_mosque_read_work",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_mosque_read_prayer",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_mosque_read_detail",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_mosque_read_comment",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_mosque_read_price",
+      "mode": "translated",
+      "gloss": ""
+    }
+  ],
+  "deferred_questions": [],
+  "translation_sha256": "fb66b869e96b725dec057b2332cc6e8f2831a26a715d21ec07d1451db7717212",
+  "review": {
+    "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+    "translation_sha256": "fb66b869e96b725dec057b2332cc6e8f2831a26a715d21ec07d1451db7717212",
+    "translation_compared": true,
+    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 72d979ed-8e6e-44ba-a75c-32b42eeb1d04 across 533 Arabic/target units. Read and independently compared all 533 paired Arabic/Turkish inventory units in all 19 complete untruncated chunks: chapter prose, objectives, outlines, question options and feedback, metadata, citation URLs and full selected source texts. Consulted the Arabic-led watchlist. No further actionable semantic discrepancy identified in this bounded comparison; this is not scholarly collation or independent language, specialist or public-distribution approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  }
+}

@@ -1,6 +1,7 @@
 <script module>
     import {
         beat_position,
+        chapter_stage,
         follow_link,
         journey_href,
         journey_paths,
@@ -9,8 +10,8 @@
         valid_chapter_link,
     } from '../lib/journey-links.js'
     import {
-        catalog,
         available_chapters,
+        chapter_content_locale,
         chapter_title,
         chapters_for_place,
         load_chapter,
@@ -56,7 +57,7 @@
     import { onMount } from 'svelte'
     const { route } = window.navgo
     import { change_language, fmt_num, saved_language } from '../lib/i18n.js'
-    import { locales } from '../lib/locale-config.js'
+    import { locales, language_direction } from '../lib/locale-config.js'
     import { SvelteSet } from 'svelte/reactivity'
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
@@ -852,10 +853,21 @@
 
     // A teaching stage is not a geographical place (pursuit/tent both occur on the road).
     let stage_chapter = $derived(
-        catalog.chapters.find((item) => item.chapter_id === selected_step.reading_chapter_id) ??
-            chapters_for_place(selected_step.id)[0],
+        selected_step.reading_chapter_id
+            ? available_chapters(language).find(
+                  (item) => item.chapter_id === selected_step.reading_chapter_id,
+              )
+            : chapters_for_place(selected_step.id).find((item) =>
+                  chapter_content_locale(item, language),
+              ),
     )
-    let place_chapters = $derived(active_poi ? chapters_for_place(active_poi.place) : [])
+    let place_chapters = $derived(
+        active_poi
+            ? chapters_for_place(active_poi.place).filter((item) =>
+                  chapter_content_locale(item, language),
+              )
+            : [],
+    )
 
     function select_poi(poi) {
         remember_view()
@@ -1134,10 +1146,11 @@
                 target.kind === 'map' || (map_open && ['place', 'chapter'].includes(target.kind))
             let stage_id = target.stage_id
             if (target.kind === 'chapter' && !target.at)
-                stage_id =
-                    route_data.payload.place_links.find((p) =>
-                        chapter.steps.some((s) => s.id === p.place_id),
-                    )?.place_id ?? stage_id
+                stage_id = chapter_stage(
+                    chapter.steps,
+                    target.chapter_id,
+                    route_data.payload.place_links,
+                )
             const step = get_step(stage_id)
             const seconds = target.at ? beat_position(step, target.at) : 0
             if (target.kind === 'map') {
@@ -1343,13 +1356,20 @@
 
 {#snippet place_chapter_buttons()}
     {#each place_chapters as item (item.chapter_id)}
-        <a class="{primary_button} justify-self-start" href={href(`/chapters/${item.chapter_id}`)}>
-            {@render icon('read')} Read the chapter
-            <span
-                class="font-serif text-[0.9375rem]"
-                lang={language === 'ar' ? 'ar' : 'en'}
-                dir={language === 'ar' ? 'rtl' : 'ltr'}>{chapter_title(item, language)}</span
-            >
+        <a
+            class="{primary_button} max-w-full justify-self-start"
+            href={href(`/chapters/${item.chapter_id}`)}
+        >
+            {@render icon('read')}
+            <span class="min-w-0 whitespace-normal">
+                <span class="block">Read the chapter</span>
+                <span
+                    class="block font-serif text-[0.9375rem]"
+                    lang={chapter_content_locale(item, language)}
+                    dir={language_direction(chapter_content_locale(item, language))}
+                    >{chapter_title(item, language)}</span
+                >
+            </span>
         </a>
     {/each}
 {/snippet}

@@ -52,6 +52,20 @@ export function beat_position(step, beat_id) {
     return step.paragraphs[index].start ?? (index * step.duration) / step.paragraphs.length
 }
 
+export function chapter_stage(steps, chapter_id, place_links = []) {
+    const explicit = steps.find(
+        (step) =>
+            step.reading_chapter_id === chapter_id ||
+            step.additional_reading_chapter_ids?.includes(chapter_id),
+    )
+    if (explicit) return explicit.id
+    for (const place of place_links) {
+        const step = steps.find((item) => item.id === place.place_id)
+        if (step) return step.id
+    }
+    return steps[0].id
+}
+
 export function resolve_journey_link(url, registry, defaults = {}) {
     let parts
     let fragment_id
@@ -86,6 +100,7 @@ export function resolve_journey_link(url, registry, defaults = {}) {
         return {
             ...target,
             kind: 'chapter',
+            stage_id: at ? target.stage_id : chapter_stage(steps, parts[1]),
             chapter_id: parts[1],
             tab,
             target_id: parts[3] ?? null,

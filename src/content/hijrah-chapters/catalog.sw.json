@@ -1,0 +1,127 @@
+{
+  "chapter_order": [
+    "hch_early_migration",
+    "hch_aqaba",
+    "hch_preparations",
+    "hch_departure",
+    "hch_thawr",
+    "hch_road",
+    "hch_suraqa",
+    "hch_umm_mabad",
+    "hch_quba",
+    "hch_madinah_arrival",
+    "hch_mosque",
+    "hch_settlement"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "hch_early_migration",
+      "title": "Kabla ya kuondoka Mtume ﷺ: Wahamiaji na njia zisizofanana",
+      "path": "hch_early_migration/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+      "translation_sha256": "b0d5b171641e11ef26546b3438dd898d4befb2ef9e386d672af7c7ff1625c982",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_aqaba",
+      "title": "Kutoka mkutano wa Yathrib hadi ahadi ya Aqaba",
+      "path": "hch_aqaba/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
+      "translation_sha256": "8f9e8284563c5ca71ed97e80b281d97964edcfdac0cf33c80dc39ce9ba37b5b7",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_preparations",
+      "title": "Maandalizi ya kuhama: kuandamana, vipando viwili na masurufu",
+      "path": "hch_preparations/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
+      "translation_sha256": "25897cb00e8a5608ed0a0fe5565486d2ec1fc0fd088aa4548734fbf6c35f9e95",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_departure",
+      "title": "Kutoka Makka: mpango, kitanda na amana",
+      "path": "hch_departure/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+      "translation_sha256": "e2b099b48a6006675f1320ba6c1a56aec875dd33e608d5af259f1902d5b77d6f",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_thawr",
+      "title": "Usiku Tatu katika Thawr",
+      "path": "hch_thawr/chapter.sw.json",
+      "revision": 6,
+      "arabic_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812",
+      "translation_sha256": "79cd634ddeb2c35bbc90c9c1e8cc152d4c3810d8ae59da5608598f32e8355d1a",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_road",
+      "title": "Mwongozo na njia baada ya pango",
+      "path": "hch_road/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+      "translation_sha256": "3dce60afbaf26be1acf9f040da2976110e793e4c770a58eceb5a0fcb9facf923",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_suraqa",
+      "title": "Suraqa: kutoka kuwafuatilia hadi kupewa amani",
+      "path": "hch_suraqa/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
+      "translation_sha256": "62d04a786673d091bca93e0bfc5f0014b37916ccba7d23bdecbcc0401602437e",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_umm_mabad",
+      "title": "Katika mahema ya Umm Ma'bad",
+      "path": "hch_umm_mabad/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+      "translation_sha256": "5704ceb2f1c3ca6843a8cd7d16d1abd70c5269cb73d238b8236015066aa719a3",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_quba",
+      "title": "Qubaa: kusubiri, kuwasili na kisha njia ya kuelekea Madina",
+      "path": "hch_quba/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+      "translation_sha256": "50ce235373c6c2b46f6d92a7533cdeceb805bda0baf303aed9ddc7c21042cc71",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_madinah_arrival",
+      "title": "Mapokezi na makazi ya kwanza mjini Madina",
+      "path": "hch_madinah_arrival/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
+      "translation_sha256": "392789e7654f8ed93b7c78194c922b47e23ec192da8f33a54d4356ed40f2efcd",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_mosque",
+      "title": "Uwanja wa kukaushia tende na ujenzi wa msikiti wa Madina",
+      "path": "hch_mosque/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+      "translation_sha256": "bb7ccfcee92a55532a09cfb3cccc27f7275fde3eee5e6285532d5cc8cfd243fc",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_settlement",
+      "title": "Baada ya kuwasili: Familia zinafuata na dua inaombewa Madina",
+      "path": "hch_settlement/chapter.sw.json",
+      "revision": 1,
+      "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
+      "translation_sha256": "5b99c24dd8322b35b4fef0f9561d16770407e399249ffcd9d07be33385cb582f",
+      "status": "translation_wip"
+    }
+  ],
+  "draft_chapter_ids": []
+}

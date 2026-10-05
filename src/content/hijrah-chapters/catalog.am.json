@@ -1,0 +1,127 @@
+{
+  "chapter_order": [
+    "hch_early_migration",
+    "hch_aqaba",
+    "hch_preparations",
+    "hch_departure",
+    "hch_thawr",
+    "hch_road",
+    "hch_suraqa",
+    "hch_umm_mabad",
+    "hch_quba",
+    "hch_madinah_arrival",
+    "hch_mosque",
+    "hch_settlement"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "hch_early_migration",
+      "title": "ነቢዩ ﷺ ከመውጣታቸው በፊት፦ የተሰደዱ ሰዎችና ያልተመሳሰሉ መንገዶች",
+      "path": "hch_early_migration/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+      "translation_sha256": "fa2be2ae30993ea7670bef7391ccf79a3e405ff53f92fca6922c508da02c9c29",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_aqaba",
+      "title": "ከየስሪብ ሰዎች ጋር ከተደረገው ስብሰባ እስከ ዐቀባ ቃል ኪዳን",
+      "path": "hch_aqaba/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
+      "translation_sha256": "8855b3978979c09a1d52bd10fbe629a210029d10cd45dcd0b1f071d1a5a8a69b",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_preparations",
+      "title": "ለሂጅራ መዘጋጀት፦ አብሮነት፣ ሁለት መጓጓዣ ግመሎችና ስንቅ",
+      "path": "hch_preparations/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
+      "translation_sha256": "abbf06c223f8f3fe3923ce0e7f217c9020cf6bc4f2ba8712ddd5694ec9f7984c",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_departure",
+      "title": "ከመካ መውጣት፦ ዕቅዱ፣ መኝታውና አደራዎቹ",
+      "path": "hch_departure/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+      "translation_sha256": "defb774deb229453b19bfde4d7335d7f63c6248006dbd08bd8dca1cb628ac71a",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_thawr",
+      "title": "በሠውር ተራራ ሦስት ሌሊቶች",
+      "path": "hch_thawr/chapter.am.json",
+      "revision": 6,
+      "arabic_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812",
+      "translation_sha256": "139a9668388d66f196efa8bf5738d0781cd549669b47063e2831f3b60944c3cd",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_road",
+      "title": "ከዋሻው በኋላ መንገድ መሪውና መንገዱ",
+      "path": "hch_road/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+      "translation_sha256": "fbba24863fba0ccfcc82569d5a5fad2d4d8a37726b49f085fc840a04be1338f6",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_suraqa",
+      "title": "ሱራቃ፦ ከማሳደድ ወደ ደህንነት",
+      "path": "hch_suraqa/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
+      "translation_sha256": "c59895f67c3b7c76be0cf065fdaad5aeb5aebce17100cb58795e3263348d9cff",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_umm_mabad",
+      "title": "በኡም ማዕበድ ሁለት ድንኳኖች አጠገብ",
+      "path": "hch_umm_mabad/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+      "translation_sha256": "fb71cc926ac75e7bbb1be5e58d6cdc76f771f4c5bb976e02d10c8ec5dbaacd79",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_quba",
+      "title": "ቁባ፦ ጥበቃና መድረስ፣ ከዚያም ወደ መዲና የሚወስደው መንገድ",
+      "path": "hch_quba/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+      "translation_sha256": "097a6a56fbc87f9bad3b8b28b2c9a9e8f8e310672c33389689f96cdf12b8166d",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_madinah_arrival",
+      "title": "በመዲና የተደረገው አቀባበልና የመጀመሪያው ማረፊያ",
+      "path": "hch_madinah_arrival/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
+      "translation_sha256": "cd8b67164a5d106c9cd33632fa2b3127cc94a7688c2f51e82e6e89b1296a7382",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_mosque",
+      "title": "ምርበዱና የመዲና መስጊድ ግንባታ",
+      "path": "hch_mosque/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+      "translation_sha256": "efd6f324d2bd1c4483e371a76dcfc6f829f88374b1ed213ca67b3d4d35c39c89",
+      "status": "translation_wip"
+    },
+    {
+      "chapter_id": "hch_settlement",
+      "title": "ከመድረሳቸው በኋላ፦ የተከተሉ ቤተሰቦችና ለእርሷ የተደረገ ጸሎት ያላት ከተማ",
+      "path": "hch_settlement/chapter.am.json",
+      "revision": 1,
+      "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
+      "translation_sha256": "bd86d063183a804731aa5e9bef607b81c88ec6a8d62e6f327672cb8f1d697bd6",
+      "status": "translation_ready"
+    }
+  ],
+  "draft_chapter_ids": []
+}

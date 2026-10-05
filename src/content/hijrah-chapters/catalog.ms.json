@@ -1,0 +1,127 @@
+{
+  "chapter_order": [
+    "hch_early_migration",
+    "hch_aqaba",
+    "hch_preparations",
+    "hch_departure",
+    "hch_thawr",
+    "hch_road",
+    "hch_suraqa",
+    "hch_umm_mabad",
+    "hch_quba",
+    "hch_madinah_arrival",
+    "hch_mosque",
+    "hch_settlement"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "hch_early_migration",
+      "title": "Sebelum keberangkatan Nabi ﷺ: para penghijrah dan perjalanan yang tidak sama",
+      "path": "hch_early_migration/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+      "translation_sha256": "6584c8be491a1a1d7f43d3ffd143e30a6724a037ea06b3ba318e77228a59fce7",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_aqaba",
+      "title": "Daripada pertemuan Yathrib kepada perjanjian Aqabah",
+      "path": "hch_aqaba/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
+      "translation_sha256": "7649fdd7f93dbfca177f5d11424ac17175e73e02bb8be433c4e4ebe34921a445",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_preparations",
+      "title": "Persiapan hijrah: teman seperjalanan, dua tunggangan dan bekalan",
+      "path": "hch_preparations/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
+      "translation_sha256": "09c7bdcd8a9e6278af5dc43224cf014c81a4164cadafbca9db981dc69eb92fe1",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_departure",
+      "title": "Keluar dari Makkah: rancangan, tempat tidur dan barang amanah",
+      "path": "hch_departure/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+      "translation_sha256": "4fcdc8c1a8ec1b369dcb790e371deba131163e01a0126ed1cecc8d78377d394c",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_thawr",
+      "title": "Tiga Malam di Thawr",
+      "path": "hch_thawr/chapter.ms.json",
+      "revision": 6,
+      "arabic_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812",
+      "translation_sha256": "ff47f966f2de72679171c2e68575b3b9e02df17ba3e7499bfb9a9ad1c4135126",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_road",
+      "title": "Penunjuk jalan dan laluan selepas gua",
+      "path": "hch_road/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+      "translation_sha256": "e2a0f59c60359b8011de2d4f87e08fa8b619034c42c701f6ac833b36b59a3def",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_suraqa",
+      "title": "Suraqah: Daripada pengejaran kepada jaminan keselamatan",
+      "path": "hch_suraqa/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
+      "translation_sha256": "b29bca88918965f54bc624860c0103b4850c63cf3497c219f4bf4f64dd4e6b96",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_umm_mabad",
+      "title": "Di dua khemah Umm Ma‘bad",
+      "path": "hch_umm_mabad/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+      "translation_sha256": "62aae6bcb94f9a09cf26e45f183c063d2d08c4b05b185480ec2c5e7f6154eca0",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_quba",
+      "title": "Quba: Penantian dan ketibaan, kemudian perjalanan ke Madinah",
+      "path": "hch_quba/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+      "translation_sha256": "4883a9bba2524da4ea5d9c87f06605e132d30524f3b5bf96a09d52c716a1dc57",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_madinah_arrival",
+      "title": "Sambutan dan tempat tinggal pertama di Madinah",
+      "path": "hch_madinah_arrival/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
+      "translation_sha256": "48821b4c3a3969422492fe875b77a5b54cbb424da47750460fd7e52fd6eccf7e",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_mosque",
+      "title": "Al-Mirbad dan Pembinaan Masjid Madinah",
+      "path": "hch_mosque/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+      "translation_sha256": "f1ffc4d0168e17aeb762dab61e8e65ee963de29631d8726c823c1e9a8b68da67",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_settlement",
+      "title": "Selepas ketibaan: keluarga menyusul dan doa untuk Madinah",
+      "path": "hch_settlement/chapter.ms.json",
+      "revision": 1,
+      "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
+      "translation_sha256": "a053e20abc5f6e5616bc8422e18d3084322d72b0be14b9e29f26a9154ab85fa3",
+      "status": "translation_ready"
+    }
+  ],
+  "draft_chapter_ids": []
+}

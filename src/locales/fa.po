@@ -146,19 +146,19 @@ msgstr "بخش <0>منابع</0> متن پشت هر پاراگراف و آنچه
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>کلید فاصله</0> پخش یا توقف · <1/> <2/> تغییر مرحله · <3>Esc</3> بستن"
 
-#. 0: chapter.steps.length
+#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} stages"
 msgstr "{0} مرحله"
 
-#. 0: total_minutes
+#. 0: fmt_num(total_minutes)
 #: src/routes/Journey.svelte
 #, ai
 msgid "about {0} minutes"
 msgstr "حدود {0} دقیقه"
 
-#. 0: chapter.sources.length
+#. 0: fmt_num(chapter.sources.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} cited passages"
@@ -271,7 +271,7 @@ msgstr "<0/> منابع <1/>"
 msgid "<0/> Ask"
 msgstr "<0/> پرسش"
 
-#. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
+#. 0: fmt_num(selected_index + 1); 1: fmt_num(chapter.steps.length); 2: selected_step.title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0} of {1} · {2}"
@@ -359,21 +359,19 @@ msgstr "پرسش‌های پیشنهادی"
 msgid "Close source"
 msgstr "بستن منبع"
 
-#. 0: source.volume; 1: source.page
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 #, ai
 msgid "· vol. {0}, p. {1}"
 msgstr "· ج {0}، ص {1}"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What this passage supports"
-msgstr "مواردی که این متن تأیید می‌کند"
+#~ msgid "What this passage supports"
+#~ msgstr "مواردی که این متن تأیید می‌کند"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What it does not establish"
-msgstr "مواردی که این متن اثبات نمی‌کند"
+#~ msgid "What it does not establish"
+#~ msgstr "مواردی که این متن اثبات نمی‌کند"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -385,10 +383,9 @@ msgstr "بازگشت به پاسخ"
 msgid "Back to the journey"
 msgstr "بازگشت به سفر"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "Open the page on Turath <0/>"
-msgstr "باز کردن صفحه در تراث <0/>"
+#~ msgid "Open the page on Turath <0/>"
+#~ msgstr "باز کردن صفحه در تراث <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -1986,141 +1983,165 @@ msgstr "<0/> سنجش آموخته‌ها <1/>"
 msgid "<0/> Practise what you learned"
 msgstr "<0/> تمرین آنچه آموخته‌اید"
 
-#: src/routes/Journey.svelte
-msgid "<0/> Read the chapter <1/>"
-msgstr "<0/> فصل را بخوانید <1/>"
+#~ msgid "<0/> Read the chapter <1/>"
+#~ msgstr "<0/> فصل را بخوانید <1/>"
 
 #. 0: note.number
-#. 0: source.number
 #: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Source {0}"
 msgstr "منبع {0}"
 
 #: src/routes/Journey.svelte
 msgid "<0>Drag</0> to look around, <1/> to zoom, and select a place name to fly there."
-msgstr ""
+msgstr "برای چرخیدن <0>بکشید</0>، برای زوم کردن <1/> کنید، و نام یک مکان را برای رفتن به آنجا انتخاب کنید."
 
 #: src/lib/ChapterReader.svelte
 msgid "Sources"
-msgstr ""
+msgstr "منابع"
 
 #: src/lib/ChapterReader.svelte
 msgid "Story"
-msgstr ""
+msgstr "داستان"
 
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
-msgstr ""
+msgstr "سنجش آموخته‌ها"
 
 #: src/lib/ChapterReader.svelte
 msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr ""
+msgstr "ترجمه‌شده از بخش ارائه‌شدهٔ قرآن؛ نه ترجمهٔ رسمی قرآن است و نه مقابلهٔ مستقل متن."
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
-msgstr ""
+msgstr "متن اصلی عربی و جزئیات منبع"
 
 #: src/lib/ChapterReader.svelte
 msgid "Choose a chapter"
-msgstr ""
+msgstr "فصلی انتخاب کنید"
 
 #: src/lib/ChapterReader.svelte
 msgid "Close chapter"
-msgstr ""
+msgstr "بستن فصل"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter sections"
-msgstr ""
+msgstr "بخش‌های فصل"
 
 #: src/lib/ChapterReader.svelte
 msgid "Loading…"
-msgstr ""
+msgstr "در حال بارگذاری…"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter contents"
-msgstr ""
+msgstr "محتوای فصل"
 
 #: src/lib/ChapterReader.svelte
 msgid "In this chapter"
-msgstr ""
+msgstr "در این فصل"
 
-#: src/lib/ChapterReader.svelte
-msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-msgstr ""
+#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
+#~ msgstr "ترجمه‌های انگلیسی بخش‌های برگزیده. متن اصلی عربی کنار هر بخش در دسترس است."
 
-#: src/lib/ChapterReader.svelte
-msgid "English summary — not a translation"
-msgstr ""
+#~ msgid "English summary — not a translation"
+#~ msgstr "خلاصهٔ انگلیسی — نه ترجمه"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
-msgstr ""
+msgstr "این بخش در خوانش پیشین نمایش داده شده است."
 
 #: src/lib/ChapterReader.svelte
 msgid "Chain of transmission"
-msgstr ""
+msgstr "سلسلهٔ راویان (اسناد)"
 
 #: src/lib/ChapterReader.svelte
 msgid "Source-study questions: read the passages and compare them."
-msgstr ""
+msgstr "پرسش‌های مطالعهٔ منابع: متن‌ها را بخوانید و مقایسه کنید."
 
 #. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
-msgstr ""
+msgstr "پرسش {0} از {1} · {2}"
 
 #: src/lib/ChapterReader.svelte
 msgid "Continue with source-study questions"
-msgstr ""
+msgstr "ادامه با پرسش‌های مطالعهٔ منابع"
 
 #: src/lib/ChapterReader.svelte
 msgid "Try again"
-msgstr ""
+msgstr "دوباره تلاش کنید"
 
 #: src/lib/ChapterReader.svelte
 msgid "Back to the story"
-msgstr ""
+msgstr "بازگشت به داستان"
 
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
-msgstr ""
+msgstr "پاسخ‌های درست از کل پرسش‌های این بخش."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
-msgstr ""
+msgstr "فصل‌های هجرت"
 
-#: src/lib/ChapterReader.svelte
-msgid "This chapter is available in Arabic and English. Showing the English edition."
-msgstr ""
+#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
+#~ msgstr "این فصل به عربی و انگلیسی در دسترس است. نسخهٔ انگلیسی نمایش داده می‌شود."
 
 #: src/lib/ChapterReader.svelte
 msgid "Learning goals"
-msgstr ""
+msgstr "هدف‌های یادگیری"
 
+#. 0: source.reference
 #: src/routes/Journey.svelte
 msgid "Open the page on Turath: {0}"
 msgstr "باز کردن صفحه در تراث: {0}"
-
-#: src/routes/Journey.svelte
-msgid "Explore the map"
-msgstr "کاوش نقشه"
 
 #: src/routes/Journey.svelte
 msgid "Fit map"
 msgstr "نمایش کامل نقشه"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Explore the map"
+msgstr "کاوش نقشه"
+
+#: src/routes/Journey.svelte
 msgid "Select a book marker to read its chapter."
 msgstr "برای خواندن فصل، نشان کتاب را انتخاب کنید."
+
+#: src/routes/Journey.svelte
+msgid "Begin the journey"
+msgstr "آغاز سفر"
 
 #: src/routes/Journey.svelte
 msgid "Locations are schematic."
 msgstr "مکان‌ها شماتیک هستند."
 
+#: src/lib/ChapterReader.svelte
+msgid "Arabic original"
+msgstr "متن اصلی عربی"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "نسخهٔ این فصل به این زبان هنوز آماده نیست. نسخهٔ انگلیسی نمایش داده می‌شود."
+
+#: src/lib/ChapterReader.svelte
+msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
+msgstr "برای گزیده‌هایی از متن ممکن است ترجمه یا خلاصه وجود داشته باشد. متن اصلی عربی همچنان همراه هر بخش در دسترس است."
+
+#: src/lib/ChapterReader.svelte
+msgid "Summary — not a translation"
+msgstr "خلاصه — نه ترجمه"
+
 #: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "آغاز سفر"
+msgid "Read the chapter"
+msgstr "فصل را بخوانید"
+
+#: src/lib/ChapterReader.svelte
+msgid "Work in progress. All editions require scholarly review before public or wide release."
+msgstr "این کار هنوز در حال تکمیل است. همهٔ نسخه‌ها پیش از انتشار عمومی یا گسترده به بررسی علمی متخصصان نیاز دارند."
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"

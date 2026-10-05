@@ -146,19 +146,19 @@ msgstr "প্রতিটি অনুচ্ছেদের পেছনের 
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>স্পেস</0> প্লে বা পজ · <1/> <2/> ধাপ পরিবর্তন · <3>Esc</3> বন্ধ"
 
-#. 0: chapter.steps.length
+#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} stages"
 msgstr "{0}টি ধাপ"
 
-#. 0: total_minutes
+#. 0: fmt_num(total_minutes)
 #: src/routes/Journey.svelte
 #, ai
 msgid "about {0} minutes"
 msgstr "প্রায় {0} মিনিট"
 
-#. 0: chapter.sources.length
+#. 0: fmt_num(chapter.sources.length)
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} cited passages"
@@ -271,7 +271,7 @@ msgstr "<0/> উৎসসমূহ <1/>"
 msgid "<0/> Ask"
 msgstr "<0/> জিজ্ঞাসা করুন"
 
-#. 0: selected_index + 1; 1: chapter.steps.length; 2: selected_step.title
+#. 0: fmt_num(selected_index + 1); 1: fmt_num(chapter.steps.length); 2: selected_step.title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0} of {1} · {2}"
@@ -359,21 +359,19 @@ msgstr "প্রস্তাবিত প্রশ্নসমূহ"
 msgid "Close source"
 msgstr "উৎস বন্ধ করুন"
 
-#. 0: source.volume; 1: source.page
+#. 0: fmt_num(source.volume); 1: fmt_num(source.page)
 #: src/routes/Journey.svelte
 #, ai
 msgid "· vol. {0}, p. {1}"
 msgstr "· খণ্ড {0}, পৃষ্ঠা {1}"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What this passage supports"
-msgstr "এই পাঠ্যাংশ যা সমর্থন করে"
+#~ msgid "What this passage supports"
+#~ msgstr "এই পাঠ্যাংশ যা সমর্থন করে"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "What it does not establish"
-msgstr "এটি যা প্রমাণ করে না"
+#~ msgid "What it does not establish"
+#~ msgstr "এটি যা প্রমাণ করে না"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -385,10 +383,9 @@ msgstr "উত্তরে ফিরে যান"
 msgid "Back to the journey"
 msgstr "যাত্রায় ফিরে যান"
 
-#: src/routes/Journey.svelte
 #, ai
-msgid "Open the page on Turath <0/>"
-msgstr "Turath-এ পৃষ্ঠাটি খুলুন <0/>"
+#~ msgid "Open the page on Turath <0/>"
+#~ msgstr "Turath-এ পৃষ্ঠাটি খুলুন <0/>"
 
 #: src/lib/SceneCanvas.svelte
 #, ai
@@ -1986,141 +1983,165 @@ msgstr "<0/> নিজের বোঝাপড়া যাচাই করু�
 msgid "<0/> Practise what you learned"
 msgstr "<0/> যা শিখেছেন তা অনুশীলন করুন"
 
-#: src/routes/Journey.svelte
-msgid "<0/> Read the chapter <1/>"
-msgstr "<0/> অধ্যায়টি পড়ুন <1/>"
+#~ msgid "<0/> Read the chapter <1/>"
+#~ msgstr "<0/> অধ্যায়টি পড়ুন <1/>"
 
 #. 0: note.number
-#. 0: source.number
 #: src/lib/ChapterReader.svelte
-#: src/routes/Journey.svelte
 msgid "Source {0}"
 msgstr "সূত্র {0}"
 
 #: src/routes/Journey.svelte
 msgid "<0>Drag</0> to look around, <1/> to zoom, and select a place name to fly there."
-msgstr ""
+msgstr "চারপাশে দেখতে <0>টেনে ধরুন</0>, জুম করতে <1/> করুন এবং সেখানে যেতে কোনো স্থানের নাম নির্বাচন করুন।"
 
 #: src/lib/ChapterReader.svelte
 msgid "Sources"
-msgstr ""
+msgstr "উৎসসমূহ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Story"
-msgstr ""
+msgstr "কাহিনি"
 
 #: src/lib/ChapterReader.svelte
 msgid "Check your understanding"
-msgstr ""
+msgstr "নিজের বোঝাপড়া যাচাই করুন"
 
 #: src/lib/ChapterReader.svelte
 msgid "Translated from the supplied Qur’anic excerpt; not an official Qur’an translation or an independent collation."
-msgstr ""
+msgstr "প্রদত্ত কুরআনের অংশ থেকে অনূদিত; এটি কুরআনের আনুষ্ঠানিক অনুবাদ বা স্বতন্ত্র পাঠ-মিলন নয়।"
 
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original and source details"
-msgstr ""
+msgstr "মূল আরবি পাঠ ও উৎসের বিবরণ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Choose a chapter"
-msgstr ""
+msgstr "একটি অধ্যায় বেছে নিন"
 
 #: src/lib/ChapterReader.svelte
 msgid "Close chapter"
-msgstr ""
+msgstr "অধ্যায় বন্ধ করুন"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter sections"
-msgstr ""
+msgstr "অধ্যায়ের অংশসমূহ"
 
 #: src/lib/ChapterReader.svelte
 msgid "Loading…"
-msgstr ""
+msgstr "লোড হচ্ছে…"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chapter contents"
-msgstr ""
+msgstr "অধ্যায়ের বিষয়বস্তু"
 
 #: src/lib/ChapterReader.svelte
 msgid "In this chapter"
-msgstr ""
+msgstr "এই অধ্যায়ে"
 
-#: src/lib/ChapterReader.svelte
-msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
-msgstr ""
+#~ msgid "English translations of the selected excerpts. The original Arabic remains available with each passage."
+#~ msgstr "নির্বাচিত অংশগুলোর ইংরেজি অনুবাদ। প্রতিটি অংশের সঙ্গে মূল আরবি পাঠও পাওয়া যাবে।"
 
-#: src/lib/ChapterReader.svelte
-msgid "English summary — not a translation"
-msgstr ""
+#~ msgid "English summary — not a translation"
+#~ msgstr "ইংরেজি সারসংক্ষেপ — অনুবাদ নয়"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
-msgstr ""
+msgstr "এই অংশটি আগের পাঠে দেখানো হয়েছে।"
 
 #: src/lib/ChapterReader.svelte
 msgid "Chain of transmission"
-msgstr ""
+msgstr "বর্ণনাসূত্র (ইসনাদ)"
 
 #: src/lib/ChapterReader.svelte
 msgid "Source-study questions: read the passages and compare them."
-msgstr ""
+msgstr "উৎসপাঠ অধ্যয়নের প্রশ্ন: অংশগুলো পড়ুন ও তুলনা করুন।"
 
 #. 0: (practice.index + 1).toLocaleString(chapter.locale); 1: practice.questions.length.toLocaleString( chapter.locale, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
-msgstr ""
+msgstr "প্রশ্ন {0}/{1} · {2}"
 
 #: src/lib/ChapterReader.svelte
 msgid "Continue with source-study questions"
-msgstr ""
+msgstr "উৎসপাঠ অধ্যয়নের প্রশ্নে এগিয়ে যান"
 
 #: src/lib/ChapterReader.svelte
 msgid "Try again"
-msgstr ""
+msgstr "আবার চেষ্টা করুন"
 
 #: src/lib/ChapterReader.svelte
 msgid "Back to the story"
-msgstr ""
+msgstr "কাহিনিতে ফিরে যান"
 
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
-msgstr ""
+msgstr "এই সেটের প্রশ্নগুলোর মধ্যে সঠিক উত্তর।"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hijrah chapters"
-msgstr ""
+msgstr "হিজরতের অধ্যায়সমূহ"
 
-#: src/lib/ChapterReader.svelte
-msgid "This chapter is available in Arabic and English. Showing the English edition."
-msgstr ""
+#~ msgid "This chapter is available in Arabic and English. Showing the English edition."
+#~ msgstr "এই অধ্যায় আরবি ও ইংরেজিতে পাওয়া যায়। ইংরেজি সংস্করণ দেখানো হচ্ছে।"
 
 #: src/lib/ChapterReader.svelte
 msgid "Learning goals"
-msgstr ""
+msgstr "শেখার লক্ষ্য"
 
+#. 0: source.reference
 #: src/routes/Journey.svelte
 msgid "Open the page on Turath: {0}"
 msgstr "তুরাথে পৃষ্ঠাটি খুলুন: {0}"
-
-#: src/routes/Journey.svelte
-msgid "Explore the map"
-msgstr "মানচিত্র ঘুরে দেখুন"
 
 #: src/routes/Journey.svelte
 msgid "Fit map"
 msgstr "পুরো মানচিত্র দেখান"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Explore the map"
+msgstr "মানচিত্র ঘুরে দেখুন"
+
+#: src/routes/Journey.svelte
 msgid "Select a book marker to read its chapter."
 msgstr "অধ্যায় পড়তে বইয়ের চিহ্ন নির্বাচন করুন।"
+
+#: src/routes/Journey.svelte
+msgid "Begin the journey"
+msgstr "যাত্রা শুরু করুন"
 
 #: src/routes/Journey.svelte
 msgid "Locations are schematic."
 msgstr "স্থানগুলো প্রতীকীভাবে দেখানো হয়েছে।"
 
+#: src/lib/ChapterReader.svelte
+msgid "Arabic original"
+msgstr "মূল আরবি পাঠ"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "এই ভাষায় অধ্যায়টির সংস্করণ এখনো প্রস্তুত নয়। ইংরেজি সংস্করণ দেখানো হচ্ছে।"
+
+#: src/lib/ChapterReader.svelte
+msgid "Selected excerpts may have translations or summaries. The original Arabic remains available with each passage."
+msgstr "নির্বাচিত উদ্ধৃতির অনুবাদ বা সারসংক্ষেপ থাকতে পারে। প্রতিটি উদ্ধৃতির সঙ্গে মূল আরবি পাঠ পাওয়া যাবে।"
+
+#: src/lib/ChapterReader.svelte
+msgid "Summary — not a translation"
+msgstr "সারসংক্ষেপ — অনুবাদ নয়"
+
 #: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "যাত্রা শুরু করুন"
+msgid "Read the chapter"
+msgstr "অধ্যায়টি পড়ুন"
+
+#: src/lib/ChapterReader.svelte
+msgid "Work in progress. All editions require scholarly review before public or wide release."
+msgstr "কাজ চলছে। জনসাধারণের জন্য বা ব্যাপকভাবে প্রকাশের আগে সব সংস্করণের বিশেষজ্ঞদের পর্যালোচনা প্রয়োজন।"
 
 #: src/routes/Journey.svelte
 msgid "<0/> The full chapter, with its sources and practice"

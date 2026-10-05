@@ -1,0 +1,127 @@
+{
+  "chapter_order": [
+    "hch_early_migration",
+    "hch_aqaba",
+    "hch_preparations",
+    "hch_departure",
+    "hch_thawr",
+    "hch_road",
+    "hch_suraqa",
+    "hch_umm_mabad",
+    "hch_quba",
+    "hch_madinah_arrival",
+    "hch_mosque",
+    "hch_settlement"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "hch_early_migration",
+      "title": "নবী ﷺ-এর প্রস্থানের আগে: মুহাজিরদের অসমান যাত্রাপথ",
+      "path": "hch_early_migration/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
+      "translation_sha256": "2587ca4df0fc301c7c8a51559d2349b1608bc42100357171a711a8bce3c5f9e3",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_aqaba",
+      "title": "ইয়াসরিবের সাক্ষাৎ থেকে আকাবার অঙ্গীকার",
+      "path": "hch_aqaba/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
+      "translation_sha256": "a9ca65af815bd3e7c5ded54b4181b1f37d319fa0d693b573f0cf63f39645b530",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_preparations",
+      "title": "হিজরতের প্রস্তুতি: সঙ্গ, দুটি বাহন ও সফরের পাথেয়",
+      "path": "hch_preparations/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
+      "translation_sha256": "d455d3b674dad40fae63f78fef8885add023220053df2ac89e7a882fb9b97ceb",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_departure",
+      "title": "মক্কা থেকে প্রস্থান: পরিকল্পনা, বিছানা ও গচ্ছিত সম্পদ",
+      "path": "hch_departure/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+      "translation_sha256": "357d30f162aefefec963b2501a7d48b4cbdc43cba6a06149b909db39b3c05fad",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_thawr",
+      "title": "সাওর পর্বতে তিন রাত",
+      "path": "hch_thawr/chapter.bn.json",
+      "revision": 6,
+      "arabic_sha256": "fc359bd8b71d79c2971a668156f5432e2f724645a3bcbb63e6ffbed95a37b812",
+      "translation_sha256": "540cd05a67c58de0e66b0d92eb1ab7ab4bb24ab33b84a5b34024ecbefa7c9537",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_road",
+      "title": "গুহা থেকে বেরোনোর পর পথপ্রদর্শক ও পথ",
+      "path": "hch_road/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
+      "translation_sha256": "b11f2eb89aa09f3ae6c4d939cdc545cadff2e30ee7f55307b0678bd68207c0c7",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_suraqa",
+      "title": "সুরাকা: ধাওয়া থেকে নিরাপত্তা লাভ",
+      "path": "hch_suraqa/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "3860a8b2f8f434ce055bc709018f65bb4475f0f495040b5a5b642bd4839d296b",
+      "translation_sha256": "39da2bb769ce271850e889a294ad974c22b676e0183adcae474f635c1a548bfa",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_umm_mabad",
+      "title": "উম্মে মাবাদের তাঁবু দুটির কাছে",
+      "path": "hch_umm_mabad/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+      "translation_sha256": "5ae4d747bf6a2411bd0be88b9dc650bcfe57609ac9e2acf9fc29b0bdd15b3886",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_quba",
+      "title": "কুবা: অপেক্ষা, আগমন, তারপর মদিনার পথে",
+      "path": "hch_quba/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
+      "translation_sha256": "87600b832aedab47299ff2d0caa9ca005d71838cf323d867f4a3d0b669565eb7",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_madinah_arrival",
+      "title": "মদিনায় অভ্যর্থনা ও প্রথম আবাস",
+      "path": "hch_madinah_arrival/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
+      "translation_sha256": "e51633f10f40c9db0f61f107a740a6d1aca94e0535b501bea0bf77126b8ada88",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_mosque",
+      "title": "মিরবদ ও মদিনার মসজিদ নির্মাণ",
+      "path": "hch_mosque/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "bb9568fe28adcfcfd3deac7148c6cc5c49aee2e03c96b27efa1cb40ff60836fa",
+      "translation_sha256": "92dca055331db986ff926d73301f0a299c6a3175cd6d3ceec1de8763e12b0c00",
+      "status": "translation_ready"
+    },
+    {
+      "chapter_id": "hch_settlement",
+      "title": "হিজরতের পর: পরিবারের আগমন ও মদিনার জন্য দোয়া",
+      "path": "hch_settlement/chapter.bn.json",
+      "revision": 1,
+      "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
+      "translation_sha256": "60c12e07de2e6f36c3bda3442ac4eec10cc6debd5efa6fcb703997b3ed7a8b12",
+      "status": "translation_ready"
+    }
+  ],
+  "draft_chapter_ids": []
+}

@@ -1,0 +1,1953 @@
+{
+  "chapter_id": "hch_umm_mabad",
+  "revision": 1,
+  "locale": "am",
+  "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+  "arabic_payload_sha256": "798cda7fe4e7a3226331f7fb086ebf081d2c888041526e7febed03f766afde4a",
+  "status": "translation_ready",
+  "units": [
+    {
+      "unit_id": "hch_umm_mabad:title_ar",
+      "source_text_sha256": "7163ddf544aef878d184b887bf88e50cdfbfc36128b3c83231449705a5e64450",
+      "text": "በኡም ማዕበድ ሁለት ድንኳኖች አጠገብ"
+    },
+    {
+      "unit_id": "hch_umm_mabad:reader_question_ar",
+      "source_text_sha256": "dbf62e350766ea1b8723d6a03448463a50b0dd9c2afd63c2ce7e38b5b6268c0e",
+      "text": "በኡም ማዕበድ ዘንድ ምን ተከሰተ? ከሄደ በኋላስ የነበረውን እንግዳ ለባሏ እንዴት ገለጸችው?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_overview:text_ar",
+      "source_text_sha256": "224a48508acc51b4d3d1b81931026b6fa976eb8d444dc6bdf25c5af486f8214a",
+      "text": "በሑበይሽ ኢብን ኻሊድ ዘገባ መሠረት ተጓዦቹ በኡም ማዕበድ ዘንድ ሲቆሙ የተፈጸመውን እንከታተላለን፤ ምግብ መጠየቃቸውን፣ በድንኳኑ ውስጥ የቀረችውን በግ እና እንግዶቹ ከሄዱ በኋላ በባልና ሚስቱ መካከል የተደረገውን ውይይት። አጋዥ ንባቦቹ የመግለጫውን ቃላት ለመረዳት ይረዳሉ፤ ኢብን ከሢርና አል-አልባኒ ስለ ዘገባው የማስተላለፍ መንገዶች የተናገሩትንም ያሳያሉ። ይህ ግን የዘገባው ሁሉም ሰንሰለቶችና አገላለጾች ላይ ስምምነት አለ ማለት አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_tent:title_ar",
+      "source_text_sha256": "1b7613a38605d1d1c9ffc1c63c4678d4f44979f572d37edec0cd22707a27eb1d",
+      "text": "በድንኳኑ የቀረችው በግ"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_01:text_ar",
+      "source_text_sha256": "04212e8617f66b2ac3cf6f196a1b650ebf86cba2b0edfba70b9d63a16942a3eb",
+      "text": "በሑበይሽ ኢብን ኻሊድ ዘገባ፣ ነቢዩ ﷺ በስደት መንገዳቸው ላይ በኹዛዓዊቷ ኡም ማዕበድ ሁለት ድንኳኖች አጠገብ አለፉ። አቡ በክር፣ ዓሚር ኢብን ፉሀይራ እና መንገድ መሪያቸው ዐብደላህ ኢብን ኡረይቂጥ አብረዋቸው ነበሩ። ኡም ማዕበድ በድንኳኗ ፊት ተቀምጣ ለሰዎች መጠጥና ምግብ ታቀርብ ነበር፤ ነገር ግን ሊገዙ የጠየቋትን ሥጋና ተምር ከእሷ ዘንድ አላገኙም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_02:text_ar",
+      "source_text_sha256": "30584a1525a0491205f191d58f220016958dc19523ee4354e99547e03807b41a",
+      "text": "ነቢዩ ﷺ በድንኳኑ ውስጥ በግ አዩና ስለ እሷ ኡም ማዕበድን ጠየቋት። በድካም ምክንያት መንጋውን መከተል ስላልቻለች እዚያ ቀርታ ነበር። ወተት እንዳላት ሲጠይቋት «ለዚያ እጅግ ደክማለች» ብላ መለሰች። ከዚያም «በጊቱን እንዳልብ ትፈቅድልኛለሽ?» ብለው ፈቃዷን ጠየቁ። ወተት እንዳላት ካዩ እንዲያልቧት ፈቀደችላቸው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_milk:title_ar",
+      "source_text_sha256": "0471dc383d553c19e4256bf1ead08c7020c1408f1bb2b11d4683f05e35b4bf60",
+      "text": "ማለብና ወተት ማጠጣት"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_03:text_ar",
+      "source_text_sha256": "9d092489dbab7a8ff393c8e0029e4d74f66220773f6db1d944ae0b178c794662",
+      "text": "ነቢዩ ﷺ በጊቱን አስመጡ፣ ጡቷን በእጃቸው ዳሰሱ፣ የአላህን ስም ጠሩና ጸለዩ። ኡም ማዕበድ ወተት አይኖራትም ብላ ያሰበችው በግ ወተት አፈሰሰች። ከዚያም ዕቃ አስመጥተው ብዙ ወተት አለቡበት። መጀመሪያ ኡም ማዕበድን እስክትጠግብ አጠጧት፣ ከዚያ ባልንጀሮቻቸውን እስኪጠግቡ አጠጡ፤ እርሳቸውም ከሁሉ በኋላ ጠጡ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_04:text_ar",
+      "source_text_sha256": "eb2e63ea446644efe2c693757428daaa7f5c399e01d5d3183c3d2ac729a6b10e",
+      "text": "ከጠጡ በኋላም ማለቡ አላበቃም፤ ለሁለተኛ ጊዜ ዕቃው እስኪሞላ አለቡ። በዚህ ጊዜ ዕቃውን ለኡም ማዕበድ ትተውላት ተጓዦቹ ተነሱ፤ ባሏ ሲመለስ የሚያገኘው ወተት እሷ ዘንድ ቀረ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_return:title_ar",
+      "source_text_sha256": "997dcaf66e08ce79dd576bfacbb5ce8311fcc59983dfd3a77f7699fc42dfef6f",
+      "text": "የአቡ ማዕበድ ጥያቄ"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_05:text_ar",
+      "source_text_sha256": "c613e1c38ad72a1b33b80abe24a2e82dcd705ffe67e094a5b082953caadb76de",
+      "text": "እነሱ ከሄዱ በኋላ ባሏ አቡ ማዕበድ የከሱ ፍየሎችን እየነዳ መጣ። ወተቱን ሲያይ ተገርሞ፣ በቤቱ ለመታለብ የምትችል በግ እንደሌለ በመናገር ከየት እንዳመጣችው ጠየቃት።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_06:text_ar",
+      "source_text_sha256": "34c528d7c6a298ff5009001638a96f3c50b1ab2fe06e6260727dc5f9c4f8ed6e",
+      "text": "ኡም ማዕበድ በእነሱ ዘንድ ስላለፈው ሰው ነገረችው፤ «የተባረከ ሰው» መሆኑንም አለች። እሱም ሰውየውን እንድትገልጽለት ጠየቃት፤ ያየችውን መልኩንና የሰማችውን ንግግሩን ለእሱ መተረክ ጀመረች።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_portrait:title_ar",
+      "source_text_sha256": "5fdf3c907fad73bab1138c1a5f7619cd06b0dd9e5e0a71ab943c7d08dbac5366",
+      "text": "የእንግዳው ምስል በእሷ ንግግር"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_07:text_ar",
+      "source_text_sha256": "ffd00c3cdb1d4bc9a17918efc3522259942ab798e353e322852cfa6032b3814a",
+      "text": "ፊቱ የሚያምር፣ ጢሙ የተትረፈረፈ፣ ቁመቱም በረጅምና አጭር መካከል የሆነ ሰው እንደነበር ገለጸችለት፤ ከሩቅ ያማረ፣ ከቅርብም ደስ የሚል። ዝም ሲል ክብር ይታይበታል፣ ሲናገርም ድምቀት አለው። የንግግሩን ጣፋጭነት ገልጻ፣ ቃላቱን አንዱ ከአንዱ በሥርዓት እንደሚከተል በክር ላይ ተሰድረው እንደሚወርዱ ዶቃዎች አመሳሰለችው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_08:text_ar",
+      "source_text_sha256": "aa4d296070b22df9a6903d18d21ef27162c638df2a30ed3f6d62558c1664ce30",
+      "text": "እርሱን ብቻ መግለጽ ላይ አልቆመችም፤ በዙሪያው የነበሩትን ባልንጀሮቹንም ገለጸች፤ ሲናገር ንግግሩን በጥሞና ያዳምጡ ነበር፣ ሲያዝዝም ትእዛዙን ለመፈጸም ይፈጥኑ ነበር።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_account_09:text_ar",
+      "source_text_sha256": "813e39de83a1462add370b2ac106dd5580747e56caf169d4033961f62a8868de",
+      "text": "አቡ ማዕበድ መግለጫዋን ሲሰማ፣ እንግዳው በመካ ስለ እሱ ጉዳይ ከሰሙት የቁረይሽ ሰው ጋር እንደሚዛመድ ተገነዘበ። አብሮት ለመጓዝ አስቦ እንደነበርና መንገድ ካገኘ እንደሚያደርገው ተናገረ። ጉብኝቱን በዓይኑ አላየም፤ ነገር ግን ሚስቱ በእሷ ዘንድ ስላለፈው ሰው የሰጠችውን መግለጫ ሰማ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_scarcity:title_ar",
+      "source_text_sha256": "bea48b17313f373a6d559af905958b8a4249fbaf8c7ce7cba00e49fb25080fc8",
+      "text": "በእጦት ወቅት እንግዳ ተቀባይነት"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_scarcity_01:text_ar",
+      "source_text_sha256": "a141bf048bc86b4f3ac5c93eb493428f2b66991bc3d8e48d709f79d5ee5bfe05",
+      "text": "ዘገባው ኡም ማዕበድ ሰዎችን ታጠጣና ታበላ ነበር የሚለውን ከተፈለገው ሥጋና ተምር አለመኖር ጋር ያጣምራል። ስለዚህ የተከሰተው እንግዳን ለማብላት እምቢ ማለት አይደለም፤ ሰዎቹ በእጦትና በችግር ውስጥ ነበሩ። አቡ ኑዐይም ባስተላለፈው ማብራሪያ፣ አቡ ዑበይድ «ሙርሚል» የሚለውን ስንቁ ያለቀበት ሰው፣ «ሙስኒቲን» ደግሞ በድርቅ የተጠቁ፣ ማለትም በችግርና በረሃብ የተጎዱ ብሎ ያብራራል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_speech:title_ar",
+      "source_text_sha256": "35e9025fd40a51cbe263f2035a3fc6c78b6b1afe4ac0a81421e70a6010e8b131",
+      "text": "የንግግሩ ጣፋጭነት ምንን ይገልጻል?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_speech_01:text_ar",
+      "source_text_sha256": "49d9bf77de614351f0be978f4c6caa49bc8ac9c3bae3506635a81e45de1d48be",
+      "text": "ንግግሩን በሥርዓት እንደሚወርዱ የተሰደሩ ዶቃዎች ማስመሰል የንግግሩን ሥርዓትና ተከታታይነት ለአንባቢው ያስቀርባል፤ የድምፁን ውበት ብቻ አይደለም። በአቡ ዑበይድ ማብራሪያ «ነዝር» ጥቂት፣ «ሀዝር» ብዙ ማለት ነው፤ መግለጫው በሁለቱ መካከል ሚዛን ያለውን ንግግር ያመለክታል። ከዚያ መግለጫው ንግግሩ በባልንጀሮቹ ላይ ያሳደረውን ተጽዕኖ ይጠቅሳል፤ ንግግሩን ያዳምጣሉ፣ ትእዛዙንም ለመፈጸም ይቸኩላሉ። ስለዚህ ምስሉ ከእንግዳው መልክ ወደ ንግግሩና ከአካባቢው ሰዎች ጋር ወዳለው ግንኙነት ይሰፋል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_judgments:title_ar",
+      "source_text_sha256": "9d12d0eb67312c46de743a607e76cf0a2fabea91a1e97ca50fb07d4560b88cbc",
+      "text": "አንድ የዘገባ ሰንሰለትና የተለያዩ መንገዶች ስብስብ"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_judgments_01:text_ar",
+      "source_text_sha256": "1f158f7c59598b8230a8d4092c0bfbd69da486b1e7b6584fae18316c173cb6af",
+      "text": "ኢብን ከሢር ታሪኩ የታወቀና እርስ በርሳቸው በሚደጋገፉ መንገዶች የተዘገበ ነው ይላል። አል-አልባኒ ደግሞ ከ«ሂዳየት አር-ሩዋት» በተመረጠው የግርጌ ማስታወሻ ሂሻም ኢብን ሑበይሽን በማስመልከት የሰንሰለቱን ትክክለኛነት ይቃወማል፤ ሂሻም በ«አል-ጀርሕ ወት-ተዕዲል» ውስጥ ያለ ነቀፋ ወይም ማጽደቅ ተጠቅሷል፣ ከልጁም በስተቀር ከእሱ የዘገበ ሌላ ሰው አልተጠቀሰም። ከዚያም አል-አልባኒ የማጠናከር ዕድልን አይዘጋም፤ አል-ሓኪም ባቀረባቸው መንገዶች ሐዲሡ ወደ «ሐሰን» ወይም «ሰሒሕ» ደረጃ ሊደርስ እንደሚችል ይጠቅሳል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_judgments_02:text_ar",
+      "source_text_sha256": "772b788ec34fc5200bf2bbf1f401fd024f50be350505eb50429f69a579c14c6b",
+      "text": "እዚህ መለየት ያለብን ስለ አንድ የተወሰነ ሰንሰለት መናገርንና ዘገባውን በተለያዩ መንገዶች ማጠናከርን ነው። ስለዚህ የአል-አልባኒን ተቃውሞ ታሪኩን በሙሉ በቁርጥ መካድ አናደርገውም፤ የኢብን ከሢርንም ንግግር በውስጡ ያለውን እያንዳንዱን ቃል በዝርዝር ማጽደቅ አናደርገውም። ትረካው አቡ ኑዐይም ያስተላለፈውን የሑበይሽ ዘገባ ይከተላል፤ ይህ ምዕራፍ ሁሉንም መንገዶች ያሟላ ጥናት ወይም አዲስ የሰንሰለት ፍርድ አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_voices:title_ar",
+      "source_text_sha256": "4cb1ac13cfcf57235dfc6478025f61e57003afa75598dda7678ba8264f0183fa",
+      "text": "በምንጭ ገጹ ላይ የሚናገረው ማን ነው?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_depth_voices_01:text_ar",
+      "source_text_sha256": "99ad4e0ed6162ae6692f108936e2dced9bfcfcc7b7b4742797ed67225b6c4ec0",
+      "text": "በተመረጡት የ«ሂዳየት አር-ሩዋት» ገጾች፣ አርታኢው ከ«አል-ሚሽካት» ያካተተው የዘገባ ጽሑፍ፣ ከዚያም ኢብን ሐጀር ወደ አል-በይሀቂ ያደረገው ማጣቀሻ፣ ከዚያም የአል-አልባኒ የግርጌ ማስታወሻ ይመጣሉ። ዐሊ አል-ሐለቢ በመጽሐፉ መግቢያ ለመጽሐፉ እንዲጨመሩ የአል-አልባኒን የምንጭ ማጣቀሻዎችና ማብራሪያዎች እንደወሰደ ያስረዳል። ስለዚህ በመጽሐፉ ላይ የኢብን ሐጀር ስም ስላለ ብቻ በሰንሰለቱ ላይ የቀረበውን ተቃውሞ ለእሱ አንመድብም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_outline_request:text_ar",
+      "source_text_sha256": "b4a10efcb9b149abb62850f5c4c84f52eaa6111413d77bb0d1baa895aa6af289",
+      "text": "እሷ ዘንድ ያልነበረ ምግብ መጠየቅ"
+    },
+    {
+      "unit_id": "hch_umm_mabad_outline_goat:text_ar",
+      "source_text_sha256": "5397aed5271d8d40e1e8013a36596c8d33626809339bc697613ff756882151e9",
+      "text": "የበጊቱ ሁኔታና ለማለብ የተሰጠው ፈቃድ"
+    },
+    {
+      "unit_id": "hch_umm_mabad_outline_milk:text_ar",
+      "source_text_sha256": "853bce66e769f9015328704a5e124b565d092a3228efc21dc7faaf904c9f3637",
+      "text": "ወተት ማጠጣትና የተተወው ዕቃ"
+    },
+    {
+      "unit_id": "hch_umm_mabad_outline_return:text_ar",
+      "source_text_sha256": "d22da64073a59ca046b1d7ce10a1174368abdf8736cf756520ef47ebf01d2e28",
+      "text": "ወተቱ የባሏን ጥያቄ ያነሳል"
+    },
+    {
+      "unit_id": "hch_umm_mabad_outline_portrait:text_ar",
+      "source_text_sha256": "6f493a28c34a8c30064ab081c52c384a99a879952beb541e86fadf67e2d2c16b",
+      "text": "መልኩ፣ ንግግሩና ባልንጀሮቹ"
+    },
+    {
+      "unit_id": "hch_umm_mabad_outline_recognition:text_ar",
+      "source_text_sha256": "4f2f51468faa18bee0565c8e704d7740280154a6d427c7511c2807ca3adde88b",
+      "text": "አቡ ማዕበድ እንግዳውን ለየው"
+    },
+    {
+      "unit_id": "hch_umm_mabad_read_visit:title_ar",
+      "source_text_sha256": "74433f1758657c6c0f09cff5f115c1769756a3ab49c9a7c520545ae6e73991cd",
+      "text": "ተጓዦቹ፣ በጊቱና ወተት ማጠጣቱ — የሑበይሽ ዘገባ በአቡ ኑዐይም ዘንድ"
+    },
+    {
+      "unit_id": "hch_umm_mabad_read_portrait:title_ar",
+      "source_text_sha256": "f3a9b9af7aa2ddce2c534972d37d7e005bf0b0441c1d1b63c38f8c245f67cbd1",
+      "text": "የኡም ማዕበድ መግለጫና የባሏ ምላሽ — የዘገባው ቀጣይ ክፍል"
+    },
+    {
+      "unit_id": "hch_umm_mabad_read_language:title_ar",
+      "source_text_sha256": "2c7403c971278a551573185ef74f045a02147b69a202d1fc66eb090900c5f1c6",
+      "text": "ከአቡ ዑበይድ ማብራሪያ የተመረጡ ክፍሎች — እጦትና ንግግር"
+    },
+    {
+      "unit_id": "hch_umm_mabad_read_judgments:title_ar",
+      "source_text_sha256": "8da4cee367a2abf9a1078a01e18dcac8a9629e3969131fb18a85bc05cbb285f7",
+      "text": "ታሪኩን በመንገዶቹ ማጠናከርና የሰንሰለት አስተያየት — ኢብን ከሢርና የአል-አልባኒ የግርጌ ማስታወሻ"
+    },
+    {
+      "unit_id": "umm_mabad_read_scarcity:text_ar",
+      "source_text_sha256": "8d334d6113832857772c6cbf2f804c6edc37b974ec0d4922d337a66372fd8106",
+      "text": "ምግብ የተጠየቀበትንና ኡም ማዕበድ ዘንድ ያልተገኘበትን ሁኔታ ይረዳል።"
+    },
+    {
+      "unit_id": "umm_mabad_read_goat:text_ar",
+      "source_text_sha256": "ee89372d30e8b10f7ee2c7b66bdfe25955e530841157baa3c719cf61bba326af",
+      "text": "በጊቱ ለምን በድንኳኑ እንደቀረችና ኡም ማዕበድ ስለ ወተቷ ምን እንዳሰበች ያብራራል።"
+    },
+    {
+      "unit_id": "umm_mabad_read_consent:text_ar",
+      "source_text_sha256": "221583e2973df7a1422f9762c7a16e79c8304c124f3369fe654fbe8accee10d4",
+      "text": "ስለ በጊቱ ሁኔታ መጠየቅን በጊቱን ለማለብ ፈቃድ ከመጠየቅ ይለያል።"
+    },
+    {
+      "unit_id": "umm_mabad_read_milk:text_ar",
+      "source_text_sha256": "8b0a99c188f062c687c391eda165c04034dbb95e21ba61b7819b73870a4725d2",
+      "text": "የወተት ማጠጣቱንና ተጓዦቹ ከጠጡ በኋላ ለኡም ማዕበድ የተዉትን ይከታተላል።"
+    },
+    {
+      "unit_id": "umm_mabad_read_portrait:text_ar",
+      "source_text_sha256": "b704d7a8d85afa7a58d879590f76147c2dbf90d8b014016b4131239b8c38e42f",
+      "text": "በኡም ማዕበድ መግለጫ ውስጥ የእንግዳውን መልክ፣ ንግግሩንና የባልንጀሮቹን ከእሱ ጋር ያላቸውን ግንኙነት ያዛምዳል።"
+    },
+    {
+      "unit_id": "umm_mabad_read_recognition:text_ar",
+      "source_text_sha256": "1a46b3f7fa8bd9b124a2f1886ce4e05907d9fedafbf7ac30f9ba31ba988a5346",
+      "text": "ኡም ማዕበድ ያየችውን ከባሏ የመግለጫዋ ሰሚነትና እንግዳውን ማወቁ ይለያል።"
+    },
+    {
+      "unit_id": "umm_mabad_read_language:text_ar",
+      "source_text_sha256": "66488e0a8d120b64b2bad2bb33bd36b6e143a8bb1d2d0da702a1ed8c25d243ac",
+      "text": "በአቡ ዑበይድ ማብራሪያ የንግግር ሚዛናዊነትን ትርጉም ይረዳል።"
+    },
+    {
+      "unit_id": "umm_mabad_read_judgments:text_ar",
+      "source_text_sha256": "b4eaf7696741993543939367ad0c60d8f59aae4a1e4b0d7647141997e15dafcf",
+      "text": "ኢብን ከሢር ታሪኩን ማጠናከሩን ከአል-አልባኒ በሰንሰለቱ ላይ ካቀረበው ተቃውሞና በሌሎች መንገዶች ሊጠናከር እንደሚችል ከጠቀሰው ዕድል ጋር ያነጻጽራል።"
+    },
+    {
+      "unit_id": "umm_mabad_read_voices:text_ar",
+      "source_text_sha256": "11dc805a2d503fccef373a22f8fd4007212561592ed421ced547c8eef72b53fc",
+      "text": "በታተመው መጽሐፍ ውስጥ የአል-አልባኒን ማብራሪያ ከኢብን ሐጀር የምንጭ ማጣቀሻና ከአርታኢው መግቢያ ይለያል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:prompt_ar",
+      "source_text_sha256": "56aa37566e4353b287262c79aac8de169c1d835e7bae36ed764cb25b6f4a1bcd",
+      "text": "ተጓዦቹ ከኡም ማዕበድ ሥጋና ተምር ለምን አልገዙም?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:explanation_ar",
+      "source_text_sha256": "6a38bdeeb8fdc117c23c7a021404b511e60c5b3fe318e0688d5814a67ccda05f",
+      "text": "ዘገባው ኡም ማዕበድ መጠጥና ምግብ ታቀርብ እንደነበር ሲገልጽ፣ የጠየቁት ነገር እሷ ዘንድ እንዳልነበረም ይናገራል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:scope_note_ar",
+      "source_text_sha256": "c480e77c10e4e08602cc6add21514a80524808a34d87c6a9f96460639c651d61",
+      "text": "ጥያቄው አቡ ኑዐይም ያስተላለፈውን የሑበይሽ ዘገባ ምዕራፉ በሚከተለው መጠን የተወሰነ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:price:text_ar",
+      "source_text_sha256": "2045d91bbbde7609121f5aa6091a6466583d115a071ce8ec0d5954643efa334d",
+      "text": "ምክንያቱም በዋጋ ላይ ከእሷ ጋር ተጨቃጨቁ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:price:feedback_ar",
+      "source_text_sha256": "8b8cb4359408c0eed76a85524b56ca7ec0cb646b0cae3e302abfcf7340cf2ebf",
+      "text": "ዘገባው በዋጋ ላይ የተፈጠረ ክርክር አይጠቅስም፤ የፈለጉትን እሷ ዘንድ እንዳላገኙ ይናገራል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:scarcity:text_ar",
+      "source_text_sha256": "2c005e16e0f610d970351fd02cdf239ef5266f541bb6a14d9bb17a04ae8b64f6",
+      "text": "ምክንያቱም የፈለጉት ነገር እሷ ዘንድ አልነበረም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:scarcity:feedback_ar",
+      "source_text_sha256": "979400dfab6e71cbecbdcf91bb04c3a94d1dbedeea3720650bbda769322627ab",
+      "text": "አዎን፤ ለመግዛት ጠየቁ፣ ነገር ግን እሷ ዘንድ ሥጋም ሆነ ተምር አላገኙም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:delay:text_ar",
+      "source_text_sha256": "848a325eb3281916cc54a8c2697b9de15a86137cf22ef40858518f4a3ca77253",
+      "text": "ምክንያቱም ባሏ ተመልሶ እስኪሸጥላቸው ጠበቁ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_food:delay:feedback_ar",
+      "source_text_sha256": "ced3d675c090bf42a1cae0f5e7a9c7766046cb7d6dfe60f2307d71988526dea5",
+      "text": "አቡ ማዕበድ እነሱ ከሄዱ በኋላ ተመለሰ፤ ለእሱ ብለው ግዢውን እንዳዘገዩ ዘገባው አይናገርም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:prompt_ar",
+      "source_text_sha256": "15bee7a2ab4a5d10d27b0568c8f6e34ff29216da9296a88f8fe0fc9aa68356ce",
+      "text": "በጊቱ ከመንጋው ጋር ከመውጣት ይልቅ በድንኳኑ ለምን ቀረች?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:explanation_ar",
+      "source_text_sha256": "6a842cbbc29c3b3c003c3f724ed69c46937b5dcbea5254434d2890b2a2900e4d",
+      "text": "በጊቱ በከባድ ድካም ምክንያት ቀረች፤ ኡም ማዕበድ ስለ ወተቷ ስትጠየቅ የሰጠችውን መልስም ይህ ያስረዳል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:scope_note_ar",
+      "source_text_sha256": "c480e77c10e4e08602cc6add21514a80524808a34d87c6a9f96460639c651d61",
+      "text": "ጥያቄው አቡ ኑዐይም ያስተላለፈውን የሑበይሽ ዘገባ ምዕራፉ በሚከተለው መጠን የተወሰነ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:weakness:text_ar",
+      "source_text_sha256": "3f303b1501c740aa41e03eabccf591d1c993cbef67834cdfa85de4304e706a23",
+      "text": "መንጋውን እንዳትከተል ያደረጋት ድካም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:weakness:feedback_ar",
+      "source_text_sha256": "7a794e521b5eb3f27f41e6c53dbb125ece0588e484b3cd324ceaa4cb8436849c",
+      "text": "አዎን፤ ኡም ማዕበድ ድካም በጊቱን ከመንጋው አስቀርቷታል ትላለች።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:milk:text_ar",
+      "source_text_sha256": "01aea54c1e87fe0c9dd521296f47ba21b7c13ccb5cac6ee0756f4510aa01e41d",
+      "text": "እንግዶቹ ሲመጡ ለማለብ ስለተዘጋጀች።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:milk:feedback_ar",
+      "source_text_sha256": "2cba11e83da1c81b0bc0910608a370b455e1a7b00b6f03d46b8f478f5bd50ff0",
+      "text": "ኡም ማዕበድ ከእሷ ወተት አልጠበቀችም፤ ለዚያ እጅግ እንደደከመች መለሰች።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:sale:text_ar",
+      "source_text_sha256": "7e6c52295a55ce491ffb5117b636c064734f64dfa71cdbaac79e70da55c4e522",
+      "text": "ለአላፊ አግዳሚ ለሽያጭ ስለቀረበች።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_goat:sale:feedback_ar",
+      "source_text_sha256": "bb9f639ad4308ac13506688c3f9f70615085e551c5e72fb1c8ff43644122e825",
+      "text": "ተጓዦቹ ሥጋና ተምር ጠየቁ፤ ዘገባው ግን በጊቱ መቅረቷን በድካም እንጂ ለሽያጭ መቅረቧን አይደለም የሚያስረዳው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:prompt_ar",
+      "source_text_sha256": "35c649480859219d415865366778c51b9f8ce305be648f7e8d859f075775c489",
+      "text": "ነቢዩ ﷺ ስለ በጊቱ ወተት ከጠየቁ በኋላ ከኡም ማዕበድ ምን ጠየቋት?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:explanation_ar",
+      "source_text_sha256": "28e37ccb3ebb5c4f1a1c055df941263e69b14e4ea2c5c4979b28bac62262742a",
+      "text": "መጀመሪያ ስለ በጊቱ ሁኔታ ጠየቁ፣ ከዚያም ለማለብ ፈቃዷን ጠየቁ፤ ወተት እንዳላት ካዩ እንዲያልቧት ፈቀደች።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:scope_note_ar",
+      "source_text_sha256": "c480e77c10e4e08602cc6add21514a80524808a34d87c6a9f96460639c651d61",
+      "text": "ጥያቄው አቡ ኑዐይም ያስተላለፈውን የሑበይሽ ዘገባ ምዕራፉ በሚከተለው መጠን የተወሰነ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:bring:text_ar",
+      "source_text_sha256": "b78b71a8866389af3eed37fb166f3922eab839e362cd3578e8007d56e02a63a3",
+      "text": "ከድንኳኑ ውጭ የነበረውን መንጋ እንድታመጣ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:bring:feedback_ar",
+      "source_text_sha256": "9e05f69a4218c62ee27be7eae3b889aaab73af7901d48258c895a8d242266aaa",
+      "text": "ውይይቱ እዚያው ያለችውን በግ ስለማለብ ነበር፤ መንጋውን ስለማምጣት አልነበረም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:buy:text_ar",
+      "source_text_sha256": "27de6ade1edb2e55fe861a5631c87aca3e52727ee88e178976fc9f60ebac9306",
+      "text": "በድንኳኑ ያለችውን በግ እንድትሸጥላቸው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:buy:feedback_ar",
+      "source_text_sha256": "23b53e132f0025576b052340a01670544164111b608e25b55e1a58dfa0f21d4c",
+      "text": "እዚህ የተላለፈው ጥያቄ ለማለብ ፈቃድ መጠየቅ ነው፤ በጊቱን ለመግዛት አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:permission:text_ar",
+      "source_text_sha256": "26a7c0757ac6c20dcfc15f3f0c1662b2b3e1513e064a653142f5857f8758c087",
+      "text": "በጊቱን ለማለብ ፈቃድ እንድትሰጣቸው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_consent:permission:feedback_ar",
+      "source_text_sha256": "1d6340c96e3fd073237024aa2c4ada9f454ab75dcb8911be3121212eb6d948b8",
+      "text": "አዎን፤ የማለቡ ተግባር ከጠየቋትና ፈቃዷን ካገኙ በኋላ ነበር።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:prompt_ar",
+      "source_text_sha256": "41f2fd5cfb86f2d70cbd0407a5d451423c5656d4574512f71c8580dd8498305c",
+      "text": "በዘገባው የማጠጣቱ ቅደም ተከተል ምንድን ነው?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:explanation_ar",
+      "source_text_sha256": "3e18da0d642a7b92e06013237e296608f29b075df6f08f3f37ede49a9fc06aa6",
+      "text": "ነቢዩ ﷺ መጀመሪያ ኡም ማዕበድን፣ ቀጥሎ ባልንጀሮቻቸውን አጠጡ፤ እርሳቸውም ከሁሉ በኋላ ጠጡ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:scope_note_ar",
+      "source_text_sha256": "c480e77c10e4e08602cc6add21514a80524808a34d87c6a9f96460639c651d61",
+      "text": "ጥያቄው አቡ ኑዐይም ያስተላለፈውን የሑበይሽ ዘገባ ምዕራፉ በሚከተለው መጠን የተወሰነ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:companions_first:text_ar",
+      "source_text_sha256": "b7391fd40472b0b2e433df79570705bd97b1298d16b6086ebe1b9619d2e4e757",
+      "text": "ባልንጀሮቹ፣ ከዚያ ኡም ማዕበድ፣ ከዚያ እርሱ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:companions_first:feedback_ar",
+      "source_text_sha256": "6b6b64dc60ccc702c53ceab4fcdd01fd568a5022c68283fde47be7dad9bf8b61",
+      "text": "መጀመሪያ ኡም ማዕበድን አጠጧት፣ ከዚያ ባልንጀሮቻቸውን አጠጡ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:host_first:text_ar",
+      "source_text_sha256": "2e41d1d5e43dfd71dcc5bf0e9c22b94ff1acd38bab86f8e13cc18078a17c7f02",
+      "text": "ኡም ማዕበድ፣ ከዚያ ባልንጀሮቹ፣ ከዚያ እርሱ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:host_first:feedback_ar",
+      "source_text_sha256": "1d9cbc7f55e0ba88a079d5818331849af3c0ff4859b9b89f744d539ae5045713",
+      "text": "አዎን፤ እሷን እስክትጠግብ አጠጧት፣ ባልንጀሮቻቸውንም እስኪጠግቡ አጠጡ፣ ከሁሉ በኋላም ጠጡ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:prophet_first:text_ar",
+      "source_text_sha256": "63df41df6cab670b2ddf8452e20d5a7e86a766f84cb29146e0ce4bb5ccc8e0a1",
+      "text": "እርሱ፣ ከዚያ ኡም ማዕበድ፣ ከዚያ ባልንጀሮቹ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_sharing:prophet_first:feedback_ar",
+      "source_text_sha256": "de07d1c6e7f0d1b405562a99c9d94281cfe49d04673a21c799a79c1052c7bbe1",
+      "text": "ዘገባው ከሁሉ በኋላ እንጂ መጀመሪያ እንዳልጠጡ በግልጽ ይናገራል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:prompt_ar",
+      "source_text_sha256": "bc380b59024ce16f228194446d051ea8b260cad74abaf434a742e8273f7c9b4e",
+      "text": "አቡ ማዕበድ ተጓዦቹ ከሄዱ በኋላ ያገኘው ወተት ከየት መጣ?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:explanation_ar",
+      "source_text_sha256": "43cf0480497fc1eb3164099aab70c37b85237bdf20b71e540830908dc4552643",
+      "text": "ካጠጡ በኋላ ነቢዩ ﷺ ለሁለተኛ ጊዜ አለቡ፣ ዕቃውን እስኪሞላ አደረጉና ለኡም ማዕበድ ትተውት ሄዱ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:scope_note_ar",
+      "source_text_sha256": "c480e77c10e4e08602cc6add21514a80524808a34d87c6a9f96460639c651d61",
+      "text": "ጥያቄው አቡ ኑዐይም ያስተላለፈውን የሑበይሽ ዘገባ ምዕራፉ በሚከተለው መጠን የተወሰነ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:husband:text_ar",
+      "source_text_sha256": "9111862b6c10683023ca200d8a6fcb97e15734cb4e331c2669461e16cf9e979e",
+      "text": "አቡ ማዕበድ ሲመለስ ከመንጋው አመጣው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:husband:feedback_ar",
+      "source_text_sha256": "356cfb64fdd6e50b4582f237f3bd4b8562ff530f61ee1c451c10670e87e9f400",
+      "text": "አቡ ማዕበድ ወተቱን እዚያው አግኝቶ ተገረመ፤ እሱ እንዳመጣው ዘገባው አይናገርም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:earlier:text_ar",
+      "source_text_sha256": "151a5118d292a74b4bc96eec674799255f2f897395edc55f150b75ec835a8b28",
+      "text": "ተጓዦቹ ከመድረሳቸው በፊት ኡም ማዕበድ ዘንድ ተከማችቶ ነበር።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:earlier:feedback_ar",
+      "source_text_sha256": "c4973bfe6a043d074312ef3e6cdee077459e063fc0393e52897e5850e050bbfc",
+      "text": "ዘገባው የተተወውን ዕቃ ከሁለተኛው ማለብ ጋር ያዛምዳል፣ ከጉብኝቱ በፊት ከተከማቸ ወተት ጋር አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:second:text_ar",
+      "source_text_sha256": "71cfcfad6efdd6ca0dbd04cdeb267646a01119c7badf24ada0fe004a5bc14f82",
+      "text": "ነቢዩ ﷺ በሁለተኛ ማለብ ዕቃውን ሞልተው እሷ ዘንድ ተዉት።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_remaining:second:feedback_ar",
+      "source_text_sha256": "cd28a7ba1f75adbf7ce1ce610ca03a297a432f06f91fc2bf28489ee96a376959",
+      "text": "አዎን፤ ዘገባው ስለጠጡት ወተት ብቻ አይደለም የሚናገረው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:prompt_ar",
+      "source_text_sha256": "f92242e2d7b0ead7c314933b90571a81e316a0cde13de4481f16724df7392119",
+      "text": "ኡም ማዕበድ እንግዳውን ስትገልጽ ምን ምን ጎኖችን አካተተች?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:explanation_ar",
+      "source_text_sha256": "58c6fa2c615249b5dc95568e8a74255f9d8a2e93129ff5abfbc71d13639e6a21",
+      "text": "መግለጫዋ ከፊቱና ከቁመቱ ወደ ንግግሩና ክብሩ፣ ከዚያም ወደ ባልንጀሮቹ ማዳመጥና ትእዛዙን ፈጥነው መፈጸም ይሰፋል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:scope_note_ar",
+      "source_text_sha256": "c480e77c10e4e08602cc6add21514a80524808a34d87c6a9f96460639c651d61",
+      "text": "ጥያቄው አቡ ኑዐይም ያስተላለፈውን የሑበይሽ ዘገባ ምዕራፉ በሚከተለው መጠን የተወሰነ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:appearance:text_ar",
+      "source_text_sha256": "fb7cb7f7f497106dc7d55dc3e32a50f2a06df4ae50e608e2c08f0bf94477bcb6",
+      "text": "ንግግሩንና ባልንጀሮቹን ሳይጨምር፣ መልኩን ብቻ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:appearance:feedback_ar",
+      "source_text_sha256": "bb2a91580033331fc00cd1fcdc0cf2af7c307b8cf155101917dc597e7ddafbfc",
+      "text": "ዘገባው ንግግሩን፣ ክብሩንና የባልንጀሮቹን ማዳመጥ ይገልጻል፤ መልኩን ብቻ አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:speech_only:text_ar",
+      "source_text_sha256": "97a992d530e026903dd18ef65c400f92c50886edefb2175b80470652250a24c4",
+      "text": "መልኩንና ባልንጀሮቹን ሳይጨምር፣ ንግግሩን ብቻ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:speech_only:feedback_ar",
+      "source_text_sha256": "b6ef4c638b70487da15de15a10b360760c6d1ac536c5eb4ddc444bbb065034ee",
+      "text": "የንግግሩ ጣፋጭነት መልኩንና ባልንጀሮቹንም የሚያካትት ምስል አንዱ ክፍል ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:combined:text_ar",
+      "source_text_sha256": "371b5637e8d4d1c295f18f55d3373fbdf58353b9e504275f5f1d19a4208f5a0d",
+      "text": "መልኩን፣ ንግግሩንና ባልንጀሮቹ ከእሱ ጋር ያላቸውን ግንኙነት።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_portrait:combined:feedback_ar",
+      "source_text_sha256": "38ca76acf67b7634eb31882765fa4702694ca7767543102e03bf80c5b156cc13",
+      "text": "አዎን፤ ውበቱን፣ ክብሩን፣ የንግግሩን ጣፋጭነትና ስለ ባልንጀሮቹ ያየችውን አጣመረች።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:prompt_ar",
+      "source_text_sha256": "4066528c36428b7dd8fc1fac386a5fdaf7eeaa5b0d055bd58477cbd4ac09792f",
+      "text": "አቡ ማዕበድ በድንኳኑ ያለፈውን እንግዳ ከቁረይሽ ሰው ጋር እንዴት አዛመደው?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:explanation_ar",
+      "source_text_sha256": "0c6e4af9a652c64757ae0e368be4d12d2cd73e3ceccc3be251e63de7a4a49e0f",
+      "text": "ኡም ማዕበድ ስለ ጉብኝቱ ትገልጻለች፤ አቡ ማዕበድም ከእሷ ከሰማ በኋላ እሱ ስለ ጉዳዩ የተነገራቸው የቁረይሽ ሰው ነው ይላል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:scope_note_ar",
+      "source_text_sha256": "c480e77c10e4e08602cc6add21514a80524808a34d87c6a9f96460639c651d61",
+      "text": "ጥያቄው አቡ ኑዐይም ያስተላለፈውን የሑበይሽ ዘገባ ምዕራፉ በሚከተለው መጠን የተወሰነ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:meeting:text_ar",
+      "source_text_sha256": "0dd4e5c32ef001d6e3c9ac9a89006956d05de69a186098c552f68f43bcbbcb3d",
+      "text": "ተጓዦቹ ከመሄዳቸው በፊት እሱን በቀጥታ በማግኘት።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:meeting:feedback_ar",
+      "source_text_sha256": "e7933ea16f2628ec013993d1b55097b0d66ba9e46ccb4dfbd5aa8ee3adfa247a",
+      "text": "በዘገባው አቡ ማዕበድ ከተጓዦቹ መሄድ በኋላ መመለሱና ሚስቱን ስለ እንግዳው መጠየቁ ተጠቅሷል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:description:text_ar",
+      "source_text_sha256": "16f4c4342a5c437db645e0c85496b31c79de50f5672612c2cb4beb81ac43d4d2",
+      "text": "ከጠየቃት በኋላ ሚስቱ ስለ እሱ ከሰጠችው መግለጫ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:description:feedback_ar",
+      "source_text_sha256": "c2939e4e4e7633acf1da1a44be9652bdda4f32f788fd24161e01e8d7d6399468",
+      "text": "አዎን፤ ኡም ማዕበድ ከገለጸችው በኋላ እሱ ስለ ቁረይሽ ሰው ተናገረ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:letter:text_ar",
+      "source_text_sha256": "bcc7c154fa62824b19d040f1a471c9b36af7d46f844a68a7215787f6e2bb7ffa",
+      "text": "ተጓዦቹ ኡም ማዕበድ ዘንድ ከተዉት ደብዳቤ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_recognition:letter:feedback_ar",
+      "source_text_sha256": "0baea1302bae86715e19e70ccb99db3b120f7337fa34196873dc62ce49215ac2",
+      "text": "እዚያ የተተወው የወተት ዕቃ ነው፤ በዚህ ዘገባ እንግዳውን የሚያስተዋውቅ ደብዳቤ የለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:prompt_ar",
+      "source_text_sha256": "f1dcdd24b131312347c7d2401bb71a880f969e8223cfce98e144c08310342f99",
+      "text": "አቡ ዑበይድ ንግግሩ «ነዝር» ወይም «ሀዝር» አይደለም የሚለውን እንዴት ያብራራል?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:explanation_ar",
+      "source_text_sha256": "3d71130048d33c959438dba7521ff91ffc81df4aeba966d1067533893ec47f3c",
+      "text": "አቡ ዑበይድ «ነዝር» ማለት ጥቂት፣ «ሀዝር» ማለት ብዙ እንደሆነ ያብራራል፤ የታሰበውም በሁለቱ መካከል ሚዛናዊ ንግግር እንደሆነ ይናገራል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:scope_note_ar",
+      "source_text_sha256": "c5762cdfe59d86ed17103ae26469464b825f8bd3597451a11b2632acb28c9d24",
+      "text": "አቡ ኑዐይም ያስተላለፈውን የአቡ ዑበይድ ማብራሪያ ለማጥናት አማራጭ ክፍል ነው፤ የኡም ማዕበድ የራሷ ማብራሪያ አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:long:text_ar",
+      "source_text_sha256": "69d8fee5d42afea9eaf6cae336f4ad320332a296979ff25a85b01614a0b11a3c",
+      "text": "ረጅም ንግግር፤ በረዘመ ቁጥር የተሻለ የሚሆን።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:long:feedback_ar",
+      "source_text_sha256": "e0a74a0c447f3294bd11adc6123dc723ae4e2a6de9092f2b542edb94d13bd763",
+      "text": "«ሀዝር»ን ብዙ ንግግር ብሎ አብራራው፤ መግለጫውንም በጥቂትና በብዙ መካከል ሚዛናዊ አደረገው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:balanced:text_ar",
+      "source_text_sha256": "ef248b18d3c6b34e707e42c71f942367a6662806473c3b2e5ee40011e013d477",
+      "text": "በጥቂትና በብዙ መካከል ሚዛናዊ ንግግር።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:balanced:feedback_ar",
+      "source_text_sha256": "77e5cf3ddbf57db6eb133d6d443cc12bdb8596f710c4541e9d9755ae35b0e1f6",
+      "text": "አዎን፤ የተመረጠው ማብራሪያ የሚያሳየው ትርጉም ይህ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:quiet:text_ar",
+      "source_text_sha256": "287700d32f8d7cbae0986956412c5663746b7342e28def5a01dcc6082166f930",
+      "text": "ባልንጀሮቹ የማይሰሙት ዝቅተኛ ድምፅ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_language:quiet:feedback_ar",
+      "source_text_sha256": "f994c3eb2d3df654187cf2f28a02a395c09fa3faa1994f730735254e4e67cea4",
+      "text": "እዚህ ማብራሪያው የንግግሩን መጠን ነው የሚመለከተው፤ ድምፅን ማሳነስ ወይም አለመሰማትን አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:prompt_ar",
+      "source_text_sha256": "1e0ec9584e9e2af1e1266c3bfa4e7b97e3992cb10d133e2d46ee589ff77cb708",
+      "text": "በተመረጡት ሁለት ንባቦች የኢብን ከሢር ንግግር ከአል-አልባኒ አስተያየት በምን ይለያል?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:explanation_ar",
+      "source_text_sha256": "7def5ef160dbfba8f86c6d2034a25e9e6d694686dd727ff6d1550604e9359c8d",
+      "text": "በተለያዩ መንገዶች ታሪኩን ማጠናከር እያንዳንዱ ሰንሰለት በራሱ ትክክል ነው ማለት አይደለም፤ የአል-አልባኒ አስተያየትም በተቃውሞ ብቻ አይቆምም፣ ከዚያ በኋላ ሊጠናከር እንደሚችል ይጠቅሳል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:scope_note_ar",
+      "source_text_sha256": "8ecd5e29e8c25b7a2480c4050dac7d3bc625f95b956577418941b783fcb263ae",
+      "text": "ንጽጽሩ በእነዚህ ሁለት ምንባቦች ብቻ የተወሰነ ነው፤ የተቺዎችን ፍርዶች ሁሉ ለመዘርዘር ወይም ራሱን የቻለ የሰንሰለት ፍርድ ለመስጠት አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:opposites:text_ar",
+      "source_text_sha256": "3770884d0ad457f3c932afac2c74d9588ccb6a7bd45c59b579d637ce1c2d0dab",
+      "text": "ኢብን ከሢር እያንዳንዱን ቃል ያጸድቃል፤ አል-አልባኒ ታሪኩን በሙሉ ይክዳል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:opposites:feedback_ar",
+      "source_text_sha256": "f49db2c97f982e86f69a81e471149e38c3bdaef2fd486819a41cfde3894efb6f",
+      "text": "የመጀመሪያው በተለያዩ መንገዶች ታሪኩን ስለማጠናከር ይናገራል፤ ሁለተኛውም ሰንሰለቱን ከተቃወመ በኋላ ሊጠናከር እንደሚችል ይጠቅሳል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:same:text_ar",
+      "source_text_sha256": "f1d23528ad8448277120aab8018e84a9597636fe964b365a4d6525ec76920056",
+      "text": "ሁለቱም የተወሰነውን ሰንሰለት ያለ ጥርጣሬ ያጸድቃሉ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:same:feedback_ar",
+      "source_text_sha256": "ea81350655ee291c8c80b6d0d8c1648e89ef936685d1a130ba388af9dd58c224",
+      "text": "አል-አልባኒ በሂሻም ኢብን ሑበይሽ ሁኔታ ምክንያት የዚህን ሰንሰለት ትክክለኛነት በግልጽ ይቃወማል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:scopes:text_ar",
+      "source_text_sha256": "84a4531eb0a02828aad7c8196b43d4f15da83107736703ab52905419c5da2072",
+      "text": "ኢብን ከሢር ታሪኩን በመንገዶቹ ያጠናክራል፤ አል-አልባኒ ሰንሰለቱን ይቃወማል፣ ሊጠናከር እንደሚችልም ይጠቅሳል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_judgments:scopes:feedback_ar",
+      "source_text_sha256": "b6575778d2896373aaae422d297e0c46379b034384113289bb6529e39ecf2434",
+      "text": "አዎን፤ የእያንዳንዱ ንግግር ወሰንና የእርግጠኝነቱ ደረጃ የተለየ ሆኖ ይቆያል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:prompt_ar",
+      "source_text_sha256": "4a66044cbf483f3daa38177d2b3591c73d4d017043c3421a70d9e957b6515cc1",
+      "text": "በተመረጠው የ«ሂዳየት አር-ሩዋት» የግርጌ ማስታወሻ የኡም ማዕበድ ዘገባ ሰንሰለት ትክክለኛነትን የሚቃወመው ማን ነው?"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:explanation_ar",
+      "source_text_sha256": "49d8e019659b40aaf17772d7c309a23d02f5288cd0431cf6e28190de99329760",
+      "text": "የአል-አልባኒ ማብራሪያ ወደ መጽሐፉ ተጨምሯል፤ የመግቢያው አውድ ማን እንደጻፈው ያሳያል፤ በገጹ ላይ ያለው ሁሉ ለዋናው ጽሑፍ ደራሲ አይመደብም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:scope_note_ar",
+      "source_text_sha256": "cf617ce78581b1034d79f97a38f81eb1c567425573456972d92b6366004dbf59",
+      "text": "ይህ የመጽሐፉን ደራሲዎችና አርታኢውን ድምፆች ለማጥናት አማራጭ ክፍል ነው፤ ለታሪኩ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:ibn_hajar:text_ar",
+      "source_text_sha256": "0fb994966ae75c67f5925ce46c738d22c2925afddc3eb1faae35b5a17c29ae11",
+      "text": "የ«ሂዳየት አር-ሩዋት» ደራሲ ኢብን ሐጀር።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:ibn_hajar:feedback_ar",
+      "source_text_sha256": "3ef38218b3047f77b4da017bf2d33b3e8d211b50fcf84ff7af3af8a54e36ff94",
+      "text": "ከኢብን ሐጀር ንግግር የተመረጠው ዘገባውን ለአል-በይሀቂ መመደቡ ነው፤ ተቃውሞው በተጨመረው የግርጌ ማስታወሻ ውስጥ ነው።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:halabi:text_ar",
+      "source_text_sha256": "daf3616a71ebaa4d4345493c1cd8207a5a1ecde262aac14ce359da0aa56c540c",
+      "text": "የዚህ እትም አርታኢ ዐሊ አል-ሐለቢ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:halabi:feedback_ar",
+      "source_text_sha256": "65616cf9141b0432849167ff1bfb65217bfb756d1e167bfa167ea39783e01ef2",
+      "text": "አል-ሐለቢ የመምህሩን የምንጭ ማጣቀሻዎችና ማብራሪያዎች ወስዶ ወደ መጽሐፉ እንዳከለ በመግቢያው ያብራራል።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:albani:text_ar",
+      "source_text_sha256": "da89176a3c9e2db43b2ad4ce0d99e18d5bc75c16e699890a8d4d49865b65e278",
+      "text": "የተጨመረውን ማብራሪያ የጻፈው አል-አልባኒ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_q_voices:albani:feedback_ar",
+      "source_text_sha256": "5643c067dd04a8cd9a8aefbc34fd01098d1bf6c261cc4f2248f69051b8ce34be",
+      "text": "አዎን፤ የእትሙ መረጃና መግቢያው የግርጌ ማስታወሻውን ምንጭ ከዋናው መጽሐፍ ይለያሉ።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_issue_review:note_ar",
+      "source_text_sha256": "0696afc7135159d36737ae69447462bfea4e1b2c51873ae5c12dbd4f8004183c",
+      "text": "ይህ ውስን የውስጥ አጻጻፍና ንጽጽር ነው፤ ራሱን የቻለ የቋንቋ ወይም የታሪክ ማጽደቅም ሆነ የህትመት ፈቃድ አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_issue_scope:note_ar",
+      "source_text_sha256": "a8c232400f0a830664b90caf42c021f13c54bcadb68481814de86a1ec3fb55ed",
+      "text": "ይህ ዙር ሁሉንም የኡም ማዕበድ ዘገባ መንገዶችና ተቺዎች በእነሱ ላይ የሰጧቸውን ፍርዶች አላካተተም፤ በመንገድ ላይ የተደረጉ ሌሎች ግንኙነቶችም ለወደፊት ማስፋፋት ቀርተዋል። ይህ ምዕራፍ ከሱራቃ በኋላ መቀመጡ የንባብ ቅደም ተከተል ነው እንጂ የሁለቱን ክስተቶች ትክክለኛ ተከታታይነት መወሰን አይደለም።"
+    },
+    {
+      "unit_id": "hch_umm_mabad_issue_spelling:note_ar",
+      "source_text_sha256": "239e1dd7029bf463ae589ad7c97e1341b04759e9794bc914f0aff2b4ab8b4bb7",
+      "text": "የዲጂታል ጽሑፉ አጻጻፍ ተጠብቋል፤ በዚህም በአቡ ኑዐይም ዋና ጽሑፍ ያለው «نَذْز» ከአቡ ዑበይድ ማብራሪያ ያለው «نَزْر» መለየቱና በአል-አልባኒ ማስታወሻ መጨረሻ ያለው ያልተረጋጋ አጻጻፍ ይገኙበታል። ከታተመ ቅጂ ጋር አልተነጻጸሩም፤ በጥቅሱም ውስጥ አልተስተካከሉም። ትርጉሙን ማብራራት የዋናውን ጽሑፍ መተካት አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p1:kind_ar",
+      "source_text_sha256": "f065f13a93ee7327a7234c5797dce4ffa40ee3a9846db75a2db969a7aae1a7c2",
+      "text": "የሑበይሽ ዘገባ የማስተላለፍ ሰንሰለት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p1:speaker_ar",
+      "source_text_sha256": "366ca262030555b6bd6fbc0431b4a3da87398f706320eedd4078542c503507c5",
+      "text": "አቡ ኑዐይም፣ በሰንሰለቱ እስከ ሑበይሽ ኢብን ኻሊድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p1:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p1:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p1:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p1:text_ar",
+      "source_text_sha256": "dfadd169152c84c19e1fde7a992109f249a5f15939b4dadcf3f19d4f6540f295",
+      "text": "238 — ሱለይማን ኢብን አሕመድ ነገረን፤ ዐሊ ኢብን ዐብዱልዐዚዝ ነገረን፤ አባቴም ነገረን፣ እሱም «ሙሐመድ ኢብን ሙሐመድ ኢብን ዑቅባ አሽ-ሸይባኒ እና ሙሐመድ ኢብን ሙሳ አል-ሑልዋኒ ነገሩን» አለ፤ አቡ ሓሚድ ኢብን ጀበላም ነገረን፣ ሙሐመድ ኢብን ኢስሓቅ አስ-ሲራጅ «ሙክረም ኢብን ሙሕሪዝ አል-ከዕቢ አል-ኹዛዒ ነገረን» አለ። እሱም «አባቴ ሙሕሪዝ ኢብን መህዲ ከሒዛም ኢብን ሂሻም፣ እሱም ከአባቱ ሂሻም፣ እሱም ከአያቱ ከአላህ መልእክተኛ ﷺ ባልንጀራ ሑበይሽ ኢብን ኻሊድ ነገረኝ» አለ፦"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p2:kind_ar",
+      "source_text_sha256": "8951308aac2640c617a56e5480186c97c8b2c68ff371f94d4efacb99f875273a",
+      "text": "የሑበይሽ ዘገባ፦ ተጓዦቹና የምግብ ጥያቄው"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p2:speaker_ar",
+      "source_text_sha256": "3e5bcfc17f62bcae4dc30797032a55d011949f6bc4c2c66277fc2edfcc48edb1",
+      "text": "በዘገባው ውስጥ ሑበይሽ ኢብን ኻሊድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p2:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p2:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p2:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p2:text_ar",
+      "source_text_sha256": "718e6746e341ced75de10bd40e2f1f29e9b017ecbe927507050cf74a8602348a",
+      "text": "አላህ መልእክተኛው ﷺ ከመካ ወጥተው ሲሰደዱ፣ አቡ በክር፣ የአቡ በክር ነፃ የወጣ አገልጋይ ዓሚር ኢብን ፉሀይራ እና የመንገድ መሪያቸው ለይሢው ዐብደላህ ኢብን ኡረይቂጥ አብረዋቸው ወጡ። እነሱም በ..."
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p3:kind_ar",
+      "source_text_sha256": "7c34927cba8ac90cd64e9051e6d37d54f952c7fbc2df40400be592b5fbc85734",
+      "text": "የታተመው ገጽ ወሰን ምልክት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p3:speaker_ar",
+      "source_text_sha256": "7989b6263a2cae9ef87af530307cb7eff3e71fd7aa4e7077a3cf111fe2b9bd3b",
+      "text": "የዲጂታል ቅጂው ቅርጸት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p3:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p3:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p3:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p3:text_ar",
+      "source_text_sha256": "569691a3b53ca9449abf2c1391dc7029ce9e2c6189a6ee5cb889c30d1134bf7f",
+      "text": "⦗٣٣٨⦘"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p4:kind_ar",
+      "source_text_sha256": "8951308aac2640c617a56e5480186c97c8b2c68ff371f94d4efacb99f875273a",
+      "text": "የሑበይሽ ዘገባ፦ ተጓዦቹና የምግብ ጥያቄው"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p4:speaker_ar",
+      "source_text_sha256": "3e5bcfc17f62bcae4dc30797032a55d011949f6bc4c2c66277fc2edfcc48edb1",
+      "text": "በዘገባው ውስጥ ሑበይሽ ኢብን ኻሊድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p4:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p4:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p4:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p4:text_ar",
+      "source_text_sha256": "12363b38c37b6965caea4a65f7e2f7f60efa48180331a387303a74160cccedb2",
+      "text": "...በኹዛዓዊቷ ኡም ማዕበድ ሁለት ድንኳኖች አጠገብ አለፉ። እሷ ጠንካራ፣ በሰዎች ፊት የምትታይ ሴት ነበረች፤ በድንኳኑ አደባባይ እግሮቿን አቅፋ ትቀመጥ፣ ለሰዎችም መጠጥና ምግብ ትሰጥ ነበር። እነሱ ሥጋና ተምር ከእሷ ለመግዛት ጠየቋት፤ ነገር ግን ከእሷ ዘንድ ከዚያ ምንም አላገኙም። ሰዎቹ ስንቅ ያለቀባቸውና በድርቅ የተጎዱ ነበሩ። አላህ መልእክተኛው ﷺ በድንኳኑ ጎን ያለች በግ አዩና እንዲህ አሉ፦"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p5:kind_ar",
+      "source_text_sha256": "a8299c6cc9c3d8d8c96fc6fff2022cefd05109fb9ccdf906b12057bc708424d6",
+      "text": "ነቢዩ ስለ በጊቱ የጠየቁት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p5:speaker_ar",
+      "source_text_sha256": "2a1976daab1320db698bf93780c891e1bb2dfff1b76e587e73801b06d57273f2",
+      "text": "በሑበይሽ ዘገባ ውስጥ ነቢዩ ﷺ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p5:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p5:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p5:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p5:text_ar",
+      "source_text_sha256": "dd5de18b92b5a4b6d410f6a6566e1097cb0a625a96986051b6f000e35611237e",
+      "text": "«ኡም ማዕበድ ሆይ፣ ይህች በግ ምንድን ናት?»"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p6:kind_ar",
+      "source_text_sha256": "274ea144869e7e1a38ae29cfc75e33fd1e63f8ca522e8a28eed914f0c3d13d13",
+      "text": "ኡም ማዕበድ ስለ በጊቱ የሰጠችው ምላሽ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p6:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p6:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p6:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p6:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p6:text_ar",
+      "source_text_sha256": "815c144f56ab18ca371d68e4b6122ff66e126c4fcf97e87a34b593160282f1ae",
+      "text": "«ድካም ከመንጋው ያስቀራት በግ ናት» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p7:kind_ar",
+      "source_text_sha256": "4418176c5f2abd26af4920a806378d2826611404b4ca0bbd1d30bcf78b554d6b",
+      "text": "ነቢዩ ስለ ወተት የጠየቁት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p7:speaker_ar",
+      "source_text_sha256": "1df8a302c4f3b9aa05e2ba752ed97657b911803139de470fd5ade9b7eb9db5dc",
+      "text": "በዘገባው ውስጥ ነቢዩ ﷺ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p7:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p7:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p7:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p7:text_ar",
+      "source_text_sha256": "744c63a64b4b856178e3c2d90e0cec6cc6354373b365a047de9a21d02926ff8b",
+      "text": "«ወተት አላት?» አሉ።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p8:kind_ar",
+      "source_text_sha256": "7aac9c96855ca119f644b7666c4e5ef2a0ec012b02e1a3fa26c278e6ae6e8f7d",
+      "text": "ኡም ማዕበድ ስለ ወተት የሰጠችው ምላሽ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p8:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p8:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p8:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p8:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p8:text_ar",
+      "source_text_sha256": "24723e6ffe1ca85e28e504c2f26f6f15084bdb26907c711f671f95353a7a8551",
+      "text": "«ለዚያ እጅግ ደክማለች» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p9:kind_ar",
+      "source_text_sha256": "90b1faa72cd2d08b123e6f37f5c6c85a8036b20af0d1836400607f4625a4efc5",
+      "text": "ነቢዩ ለማለብ ፈቃድ መጠየቃቸው"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p9:speaker_ar",
+      "source_text_sha256": "1df8a302c4f3b9aa05e2ba752ed97657b911803139de470fd5ade9b7eb9db5dc",
+      "text": "በዘገባው ውስጥ ነቢዩ ﷺ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p9:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p9:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p9:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p9:text_ar",
+      "source_text_sha256": "05458871c9c377ad32609f10851fc429792b9d918dfd19db3666f7279328323d",
+      "text": "«ታዲያ በጊቱን እንዳልብ ትፈቅድልኛለሽ?» አሉ።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p10:kind_ar",
+      "source_text_sha256": "d730fcdb1874584d0f7d2f715009a5a345031a8ac0b0f46ee74aa3a67a553a63",
+      "text": "የኡም ማዕበድ ፈቃድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p10:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p10:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p10:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p10:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p10:text_ar",
+      "source_text_sha256": "ccac40849b59222e52f9224966227ee1a6a98273bc1a2af2f1e27327a859b700",
+      "text": "«አባቴና እናቴ ለአንተ መሥዋዕት ይሁኑ፤ አዎን፣ ወተት እንዳላት ካየህ አልባት» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p11:kind_ar",
+      "source_text_sha256": "1ac0aef431184de99c364204c591ed25fc503087024b4424477d50537ea11224",
+      "text": "የሑበይሽ ዘገባ፦ ማለብ፣ ማጠጣትና መነሳት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p11:speaker_ar",
+      "source_text_sha256": "3e5bcfc17f62bcae4dc30797032a55d011949f6bc4c2c66277fc2edfcc48edb1",
+      "text": "በዘገባው ውስጥ ሑበይሽ ኢብን ኻሊድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p11:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p11:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p11:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p11:text_ar",
+      "source_text_sha256": "69664f29347931826fadcbb29fa7a2079dc1960ed57c71378c02e7b30e08934a",
+      "text": "አላህ መልእክተኛው ﷺ በጊቱን አስመጡ፣ ጡቷን በእጃቸው ዳሰሱ፣ የአላህን ስም ጠሩና ለእሷ በበጊቷ ጉዳይ ጸለዩ። በጊቱም እግሮቿን ዘርግታ ጡቷን ሰጠች፣ ወተትም ፈሰሰና ማላመጥ ጀመረች። ለቡድኑ የሚበቃ ዕቃ አስመጥተው አረፋ እስኪሸፍነው ብዙ ወተት አለቡበት። ከዚያ እሷን እስክትጠግብ አጠጧት፣ ባልንጀሮቻቸውንም እስኪጠግቡ አጠጡ፤ እርሳቸው ﷺ ከሁሉ በኋላ ጠጡ። ከዚያም በወተት ላይ የተጨመረ ወተት ጠጡ። ቀድሞውን ማለብ ተከትለው ለሁለተኛ ጊዜ ዕቃው እስኪሞላ አለቡ። ከዚያም ዕቃውን እሷ ዘንድ ተዉት፣ ከእሷ ጋር «በይዓ» አደረጉ፣ ከዚያም ተነሱ።\n\nየተርጓሚ ማስታወሻ (የዘገባው ክፍል አይደለም)፦ «በይዓ» እዚህ የቃል ኪዳን ስምምነት ወይም የግብይት ስምምነት ማድረግን ሊያመለክት ይችላል፤ ዘገባው የትኛው እንደሆነ አይገልጽም፣ የተገዛ ነገርም አይጠቅስም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p12:kind_ar",
+      "source_text_sha256": "9a2fbb38e1c128bc53db91933a8436b9b940c0146c1b83b5d49a09643ba9cbc0",
+      "text": "የሑበይሽ ዘገባ፦ አቡ ማዕበድ መመለሱ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p12:speaker_ar",
+      "source_text_sha256": "3e5bcfc17f62bcae4dc30797032a55d011949f6bc4c2c66277fc2edfcc48edb1",
+      "text": "በዘገባው ውስጥ ሑበይሽ ኢብን ኻሊድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p12:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p12:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p12:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p12:text_ar",
+      "source_text_sha256": "568a590b2c5ffcc20d11a06d0b05f32e721413d7e32b0b1c73ddd29cc35ebf4c",
+      "text": "ብዙም ሳትቆይ፣ ባሏ አቡ ማዕበድ በከሳ ምክንያት በደካማ እርምጃ የሚሄዱ፣ በአጥንታቸውም ውስጥ ትንሽ መቅኒ ብቻ ያላቸውን የከሱ ፍየሎች እየነዳ መጣ። አቡ ማዕበድም ወተቱን ሲያይ ተደነቀና እንዲህ አለ፦"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p13:kind_ar",
+      "source_text_sha256": "efd2f0f70c3c5545e578dcae48a93ce9e0edfe06f9010048a81949fcacc7fcdc",
+      "text": "የአቡ ማዕበድ ስለ ወተት ጥያቄ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p13:speaker_ar",
+      "source_text_sha256": "c6f4af3bbd87c556dd1bce09fb05b1e3205917cd59265ac8525fa1b53f210eda",
+      "text": "በዘገባው ውስጥ አቡ ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p13:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p13:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p13:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p13:text_ar",
+      "source_text_sha256": "065227d2d2d9fd15fabacb120520986cd1d0b57b80116bf371f2aed1af5908d2",
+      "text": "«በጎቹ ከቤት ወደ ግጦሽ ወጥተዋል፣ እርጉዝም አይደሉም፤ በቤት የምትታለብ በግ የለም። ይህ ከየት መጣልሽ?»"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p14:kind_ar",
+      "source_text_sha256": "546eb87a6aa7ddf29447b95cd9362a5aa5f2b74c0371c3d2ccc34940292d150c",
+      "text": "ኡም ማዕበድ ስለ እንግዳው የሰጠችው ምላሽ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p14:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p14:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p14:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p14:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p14:text_ar",
+      "source_text_sha256": "841cd3fc401a9f2d984a3a4d5bff51ba13e5f112cf2b64f0f46500a59ad3fc7c",
+      "text": "«በአላህ እምላለሁ፣ አይደለም፤ ግን የተባረከ ሰው በእኛ ዘንድ አለፈ፤ ሁኔታውም እንዲህና እንዲያ ነበር» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p15:kind_ar",
+      "source_text_sha256": "457bcb0ae35cb58ae0da9dfb105b2b87fb85cff0f992acfc4eaedf7dfb870f08",
+      "text": "አቡ ማዕበድ እንግዳውን እንድትገልጽ መጠየቁ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p15:speaker_ar",
+      "source_text_sha256": "c6f4af3bbd87c556dd1bce09fb05b1e3205917cd59265ac8525fa1b53f210eda",
+      "text": "በዘገባው ውስጥ አቡ ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p15:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p15:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p15:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p15:text_ar",
+      "source_text_sha256": "06349312ed5501790e733919e051c9285fe727953d62b42def1bb3ec4c0b9ff2",
+      "text": "እሱም «ኡም ማዕበድ ሆይ፣ ግለጪልኝ» አለ።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p16:kind_ar",
+      "source_text_sha256": "81a8b33fa57da5ff7f6d907de00857a15594bccdaa413bebfa42f1ebe7fc7cd7",
+      "text": "የኡም ማዕበድ ስለ እንግዳው መግለጫ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p16:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p16:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p16:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p16:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p16:text_ar",
+      "source_text_sha256": "1b263049ef02a512119ae1385df1a1b480b3b17bfd881da0e985b1d660b255e0",
+      "text": "እሷም «አስደናቂ ውበት ያለው፣ ደማቅ ፊት ያለው፣ በመልኩ ያማረ ሰው አየሁ። ትልቅ ሆድ አልነበረበትም፣ ትንሽ ራስም አላሳነሰውም። ውብና ሚዛናዊ መልክ ነበረው፤ ዓይኖቹ ጥቁርና ጥልቅ ነበሩ፣ ሽፋሽፍቶቹም ረጃጅምና የተጠማዘዙ፣ ድምፁም የሚያስተጋባ ነበር፣ በ...» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p17:kind_ar",
+      "source_text_sha256": "7c34927cba8ac90cd64e9051e6d37d54f952c7fbc2df40400be592b5fbc85734",
+      "text": "የታተመው ገጽ ወሰን ምልክት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p17:speaker_ar",
+      "source_text_sha256": "7989b6263a2cae9ef87af530307cb7eff3e71fd7aa4e7077a3cf111fe2b9bd3b",
+      "text": "የዲጂታል ቅጂው ቅርጸት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p17:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p17:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p17:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p17:text_ar",
+      "source_text_sha256": "ae20e3b7c3c71cd6fac3d3fa581be6ec0f2d62020dfb16196316b62025c7aec4",
+      "text": "⦗٣٣٩⦘"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p18:kind_ar",
+      "source_text_sha256": "81a8b33fa57da5ff7f6d907de00857a15594bccdaa413bebfa42f1ebe7fc7cd7",
+      "text": "የኡም ማዕበድ ስለ እንግዳው መግለጫ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p18:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p18:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p18:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p18:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p18:text_ar",
+      "source_text_sha256": "3df863b6372bf2ecd2137c9eace92b6031db7ca41fa22caefd9f860b5b512f71",
+      "text": "«...አንገቱ ላይ ብሩህነት፣ በጢሙ ላይ ጥቅጥቅነት ነበረ። ቅንድቦቹ የተቀሱና አንድ ላይ የተገናኙ ነበሩ። ዝም ሲል ክብር ይታይበታል፤ ሲናገር ግን የላቀ ድምቀትና ውበት ይሸፍነዋል። ከሩቅ ሲታይ ከሰዎች ሁሉ የበለጠ ያማረና የተዋበ፣ ከቅርብም ይበልጥ ደስ የሚልና የሚያምር ነው። ንግግሩ ጣፋጭና ግልጽ ነው፤ አጭር አይደለም፣ የተትረፈረፈም አይደለም፤ ቃላቱ በክር የተሰደሩ ዶቃዎች እንደሚወርዱ ናቸው። ቁመቱ መካከለኛ ነው፤ በረጅምነት ከሌሎች አይለይም፣ በአጭርነትም የሚያየው ዓይን አይንቀውም። በሁለት ቅርንጫፎች መካከል ያለ ቅርንጫፍ ይመስላል፤ ከሦስቱም በመልክ የተሻለና በክብር የበለጠ ነው። በዙሪያው የሚከቡት ባልንጀሮች አሉት፤ ሲናገር ንግግሩን በጥሞና ያዳምጣሉ፣ ሲያዝዝም ለትእዛዙ ይቸኩላሉ። የተከበበና የተሰባሰቡለት ነው፤ ፊቱን የሚያጨፈግግ ወይም የሚያጠቃ አይደለም» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p19:kind_ar",
+      "source_text_sha256": "006490161b1b628c7c87bc7730973413c18ff3087ee03832fa3a74badc02896b",
+      "text": "አቡ ማዕበድ እንግዳውን ማወቁና አብሮት ለመሆን መፈለጉ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p19:speaker_ar",
+      "source_text_sha256": "c6f4af3bbd87c556dd1bce09fb05b1e3205917cd59265ac8525fa1b53f210eda",
+      "text": "በዘገባው ውስጥ አቡ ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p19:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p19:citation_ar",
+      "source_text_sha256": "da644a4d0cbb64a762daa65df23587d2e015df23385536b414679f96571929cb",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/337](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p19:context_note_ar",
+      "source_text_sha256": "d32dec26468107cde280c3547820000b108350a5ae550e65eecf3c040e9e99d6",
+      "text": "የአቡ ኑዐይም ሙሉ የተመረጠ ክፍል፦ የማስተላለፍ ሰንሰለቱ፣ የሑበይሽ ዘገባ፣ የኡም ማዕበድና የባሏ ውይይት፣ ከዚያም ያልታየ ጠሪው፣ ግጥሙና ስለ ዘገባዎች ልዩነት የተሰጠው አስተያየት። የምዕራፉ ትረካ ከጠሪው በፊት ይቆማል፤ ግጥሙንና የገጽ አቀማመጡን መለየት ከዋናው ጽሑፍ አያስወግዳቸውም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_story:p19:text_ar",
+      "source_text_sha256": "06a0c838c523206db450af95e30259060f00b3c76204bb784cb52573a9a14b5b",
+      "text": "አቡ ማዕበድ፦ «በአላህ እምላለሁ፣ እሱ በመካ ስለ ጉዳዩ የተነገረን የቁረይሽ ሰው ነው። አብሮት ለመጓዝ አስቤ ነበር፤ ለዚያም መንገድ ካገኘሁ በእርግጥ አደርገዋለሁ» አለ።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p1:kind_ar",
+      "source_text_sha256": "f688006471573dcb81d6feb3b129e3ab58e31e18f4aadd0f465a11001aeee6ec",
+      "text": "ማብራሪያውን ከአቡ ዑበይድ የሚያደርሰው ሰንሰለት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p1:speaker_ar",
+      "source_text_sha256": "93602ad2204094d30a6a5fd24be1740656d5b78c8de26c25d63a0494a9ceb175",
+      "text": "አቡ ኑዐይም፣ በሰንሰለቱ እስከ አቡ ዑበይድ አል-ቃሲም ኢብን ሰላም"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p1:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p1:citation_ar",
+      "source_text_sha256": "b75a8bdc4ced4f1565873f14305abc834e30a71d55350ce0bb6b468899e330b6",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/٣٤٠](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p1:context_note_ar",
+      "source_text_sha256": "e659b53829edf27b4f73d6b5b2270a23262f131154cba923a9476af78e7bb836",
+      "text": "አቡ ኑዐይም በሰንሰለቱ ያስተላለፈው የአቡ ዑበይድ ማብራሪያ በመዝገቡ ወሰን ሙሉ ነው። የተጠቀሱት ግጥሞች፣ እንደ ማስረጃ የተጠቀሰው የነቢዩ ንግግርና የቁርአን ጥቅስ የድንኳኑ ውይይት ክፍል አይደሉም። የተላለፉት አጻጻፎችና ጥርጣሬዎች በዝምታ ሳይስተካከሉ ቀርተዋል።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p1:text_ar",
+      "source_text_sha256": "13df07cae882c803ad0e08e5d492e042003441e2e7e07b27483514e2e3f28efe",
+      "text": "ሱለይማን ኢብን አሕመድ በማስጻፍና በንባብ ነገረን፤ «ዐሊ ኢብን ዐብዱልዐዚዝ ነገረን» አለ፤ እሱም «አቡ ዑበይድ አል-ቃሲም ኢብን ሰላም እንዲህ አለ» አለ፦"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p2:kind_ar",
+      "source_text_sha256": "6b2c966a9919d0d0fa6a42d7d00119a087c4a1fe314d68cfed0cc89315210da7",
+      "text": "«በርዛ»ን፣ «ኢርማል»ንና «ኢስናት»ን ማብራራት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p2:speaker_ar",
+      "source_text_sha256": "10ec974434762d76198897d06e256241841e3330832f46879c0abdcff4985ce3",
+      "text": "አቡ ዑበይድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p2:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p2:citation_ar",
+      "source_text_sha256": "b75a8bdc4ced4f1565873f14305abc834e30a71d55350ce0bb6b468899e330b6",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/٣٤٠](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p2:context_note_ar",
+      "source_text_sha256": "e659b53829edf27b4f73d6b5b2270a23262f131154cba923a9476af78e7bb836",
+      "text": "አቡ ኑዐይም በሰንሰለቱ ያስተላለፈው የአቡ ዑበይድ ማብራሪያ በመዝገቡ ወሰን ሙሉ ነው። የተጠቀሱት ግጥሞች፣ እንደ ማስረጃ የተጠቀሰው የነቢዩ ንግግርና የቁርአን ጥቅስ የድንኳኑ ውይይት ክፍል አይደሉም። የተላለፉት አጻጻፎችና ጥርጣሬዎች በዝምታ ሳይስተካከሉ ቀርተዋል።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p2:text_ar",
+      "source_text_sha256": "fb577907420cbb30ab9c848a38f9f46dea014451c840be38b3ea85968e6685fb",
+      "text": "ከሴቶች መካከል «በርዛ» ማለት ለሰዎች የምትታይና ሰዎች አጠገቧ ተቀምጠው የሚወያዩአት ጠንካራ ሴት ናት። «ሰዎቹ ሙርሚሊን ሙስኒቲን ነበሩ» የሚለውን በተመለከተ፣ «ሙርሚል» ስንቁ ያለቀበት ሰው ነው፤ «ሙስኒቲን» ማለት ደግሞ በድርቅ የተጠቁት፣ ማለትም በችግርና በረሃብ የተጎዱት ናቸው።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p19:kind_ar",
+      "source_text_sha256": "cc3055f72905211b22be7eb9c31a6707bc2b2affcffe3f65f18f84e0a068a2ec",
+      "text": "የንግግርንና የቁመትን ሚዛናዊነት ማብራራት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p19:speaker_ar",
+      "source_text_sha256": "10ec974434762d76198897d06e256241841e3330832f46879c0abdcff4985ce3",
+      "text": "አቡ ዑበይድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p19:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p19:citation_ar",
+      "source_text_sha256": "b75a8bdc4ced4f1565873f14305abc834e30a71d55350ce0bb6b468899e330b6",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/٣٤٠](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p19:context_note_ar",
+      "source_text_sha256": "e659b53829edf27b4f73d6b5b2270a23262f131154cba923a9476af78e7bb836",
+      "text": "አቡ ኑዐይም በሰንሰለቱ ያስተላለፈው የአቡ ዑበይድ ማብራሪያ በመዝገቡ ወሰን ሙሉ ነው። የተጠቀሱት ግጥሞች፣ እንደ ማስረጃ የተጠቀሰው የነቢዩ ንግግርና የቁርአን ጥቅስ የድንኳኑ ውይይት ክፍል አይደሉም። የተላለፉት አጻጻፎችና ጥርጣሬዎች በዝምታ ሳይስተካከሉ ቀርተዋል።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p19:text_ar",
+      "source_text_sha256": "e3d9979e21af4ad5a70faceb1b1ab263a966fb488021643696f03337168e0813",
+      "text": "«ንግግሩ ነዝርም ሀዝርም አይደለም» የሚለውን ስትናገር፣ «ነዝር» ጥቂት፣ «ሀዝር» ብዙ ማለት ነው። በሁለቱ መካከል ሚዛናዊ ነው ማለቷ ነው። «በአጭርነቱ የሚያይ ዓይን አይንቀውም» የሚለውም ተመልካች ንቆት አይተወውም፣ ይልቁንም ይቀበለዋል ያከብረዋልም ማለቷ ነው።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p20:kind_ar",
+      "source_text_sha256": "7c34927cba8ac90cd64e9051e6d37d54f952c7fbc2df40400be592b5fbc85734",
+      "text": "የታተመው ገጽ ወሰን ምልክት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p20:speaker_ar",
+      "source_text_sha256": "7989b6263a2cae9ef87af530307cb7eff3e71fd7aa4e7077a3cf111fe2b9bd3b",
+      "text": "የዲጂታል ቅጂው ቅርጸት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p20:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p20:citation_ar",
+      "source_text_sha256": "b75a8bdc4ced4f1565873f14305abc834e30a71d55350ce0bb6b468899e330b6",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/٣٤٠](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p20:context_note_ar",
+      "source_text_sha256": "e659b53829edf27b4f73d6b5b2270a23262f131154cba923a9476af78e7bb836",
+      "text": "አቡ ኑዐይም በሰንሰለቱ ያስተላለፈው የአቡ ዑበይድ ማብራሪያ በመዝገቡ ወሰን ሙሉ ነው። የተጠቀሱት ግጥሞች፣ እንደ ማስረጃ የተጠቀሰው የነቢዩ ንግግርና የቁርአን ጥቅስ የድንኳኑ ውይይት ክፍል አይደሉም። የተላለፉት አጻጻፎችና ጥርጣሬዎች በዝምታ ሳይስተካከሉ ቀርተዋል።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p20:text_ar",
+      "source_text_sha256": "b9f4e1d2e3e57022e91ae95772946d21b454df9691d7b754eef70acaa1849684",
+      "text": "⦗٣٤٣⦘"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p21:kind_ar",
+      "source_text_sha256": "cc3055f72905211b22be7eb9c31a6707bc2b2affcffe3f65f18f84e0a068a2ec",
+      "text": "የንግግርንና የቁመትን ሚዛናዊነት ማብራራት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p21:speaker_ar",
+      "source_text_sha256": "10ec974434762d76198897d06e256241841e3330832f46879c0abdcff4985ce3",
+      "text": "አቡ ዑበይድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p21:book_ar",
+      "source_text_sha256": "269992760036c01dee3bcd6ec1b219a73cd02b6482c027a30cade6af48e4aff7",
+      "text": "«ደላኢል አን-ኑቡዋ» — አቡ ኑዐይም አል-አስበሃኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p21:citation_ar",
+      "source_text_sha256": "b75a8bdc4ced4f1565873f14305abc834e30a71d55350ce0bb6b468899e330b6",
+      "text": "[ደላኢል አን-ኑቡዋ — አቡ ኑዐይም አል-አስበሃኒ፣ 1/٣٤٠](https://app.turath.io/book/10637?page=290)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_gloss:p21:context_note_ar",
+      "source_text_sha256": "e659b53829edf27b4f73d6b5b2270a23262f131154cba923a9476af78e7bb836",
+      "text": "አቡ ኑዐይም በሰንሰለቱ ያስተላለፈው የአቡ ዑበይድ ማብራሪያ በመዝገቡ ወሰን ሙሉ ነው። የተጠቀሱት ግጥሞች፣ እንደ ማስረጃ የተጠቀሰው የነቢዩ ንግግርና የቁርአን ጥቅስ የድንኳኑ ውይይት ክፍል አይደሉም። የተላለፉት አጻጻፎችና ጥርጣሬዎች በዝምታ ሳይስተካከሉ ቀርተዋል።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_ibn_kathir:p2:kind_ar",
+      "source_text_sha256": "c1c06887485972946d027e70acf3c9ac2bd3bccb79bfe07951e5990e6929bcc8",
+      "text": "በመንገዶቹ ስብስብ ታሪኩን ማጠናከር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_ibn_kathir:p2:speaker_ar",
+      "source_text_sha256": "e536a7b00cac3978226233e0e0a876ee47e73c697719a67174af07abde93c526",
+      "text": "ኢብን ከሢር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_ibn_kathir:p2:book_ar",
+      "source_text_sha256": "356c1a94d80e5aae14b87b862ba7c5d72d9153be4bfd630fadc0741fb1840f18",
+      "text": "«አል-ቢዳያ ወን-ኒሃያ» — የአት-ቱርኪ እትም"
+    },
+    {
+      "unit_id": "sp_umm_mabad_ibn_kathir:p2:citation_ar",
+      "source_text_sha256": "88eaf8b89b67cf26fbe01b7d59d819b50a83504261ae3411d96ace4782ce4bd4",
+      "text": "[አል-ቢዳያ ወን-ኒሃያ — የአት-ቱርኪ እትም፣ 4/472](https://app.turath.io/book/4445?page=2190)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_ibn_kathir:p2:context_note_ar",
+      "source_text_sha256": "be10c7467a7c78ab5f55fd58389e8a0e1653086aa7e8174e8d6fe4d68d2c29f4",
+      "text": "ሙሉ የኢብን ከሢር ምንባብ፤ የተላለፉ የዘር ሐረጎችና ስሞች፣ ከዚያም ስለ ታሪኩ አጠቃላይ ማጠናከር ይዟል። ይህ አጠቃላይ ፍርድ እያንዳንዱን ቃል ማጽደቅ ወይም በስሞች ልዩነት ላይ የመጨረሻ ውሳኔ ማለት አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_ibn_kathir:p2:text_ar",
+      "source_text_sha256": "6016c42b1e44dc78b64196bae33ab41f0276ad7a437838f8544f25f45e54a784",
+      "text": "ታሪኳ የታወቀ ነው፤ እርስ በርሳቸው በሚደጋገፉ መንገዶች ተዘግቧል።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p1:kind_ar",
+      "source_text_sha256": "6b30712856ef3c31e970f430e09cef92eb56584892bde53cd322999220055e4a",
+      "text": "በ«አል-ሚሽካት» ተጨምሮ በቀረበው ዋና ጽሑፍ የሑበይሽ ዘገባ ሰንሰለት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p1:speaker_ar",
+      "source_text_sha256": "db532833c8a215c8f679b452a77f1d1b7e1b9200b7ea4738462f52fa0c510544",
+      "text": "አል-ሐለቢ ከ«አል-ሚሽካት» ያካተተው ጽሑፍ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p1:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p1:citation_ar",
+      "source_text_sha256": "26564f6465976cf1b6be381983a4ba4513f60afc933e347bc14e0290f4f9c304",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/357](https://app.turath.io/book/12115?page=2296)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p1:context_note_ar",
+      "source_text_sha256": "46b178ea8e32bf8c934bda67d414e77dc58cc78e2ce22d2aac5b0efdd80e4255",
+      "text": "አርታኢው በ«ሂዳየት አር-ሩዋት» ውስጥ ከአል-ሚሽካት ያካተተው የሑበይሽ ዘገባ መጀመሪያ ነው፤ ቀጣዩ በሚቀጥለው የተመረጠ ክፍል አለ። ይህ ታሪኩን ከባዶ የሚጀምር የተለየ ዘገባ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p1:text_ar",
+      "source_text_sha256": "81912169db456f2c9715baace19d12c8fb0b74fa65b0cd58f3b78543fa65a141",
+      "text": "5886 — ከሓዚም ኢብን ሂሻም፣ ከአባቱ፣ ከአያቱ ሑበይሽ ኢብን ኻሊድ — እሱም የኡም ማዕበድ ወንድም ነው —"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p2:kind_ar",
+      "source_text_sha256": "d90966892b97e787e46f0f8a304f5621b2508dbc959470dd80e1ce99dd0137c1",
+      "text": "ከቀጠለው ገጽ በፊት ያለው የሑበይሽ ዘገባ መጀመሪያ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p2:speaker_ar",
+      "source_text_sha256": "f9109feac50e7adece2f894b6cc7b5126d2352449b17e5713695b07b044f5f13",
+      "text": "በተጨመረው ጽሑፍ ውስጥ ሑበይሽ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p2:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p2:citation_ar",
+      "source_text_sha256": "26564f6465976cf1b6be381983a4ba4513f60afc933e347bc14e0290f4f9c304",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/357](https://app.turath.io/book/12115?page=2296)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p2:context_note_ar",
+      "source_text_sha256": "46b178ea8e32bf8c934bda67d414e77dc58cc78e2ce22d2aac5b0efdd80e4255",
+      "text": "አርታኢው በ«ሂዳየት አር-ሩዋት» ውስጥ ከአል-ሚሽካት ያካተተው የሑበይሽ ዘገባ መጀመሪያ ነው፤ ቀጣዩ በሚቀጥለው የተመረጠ ክፍል አለ። ይህ ታሪኩን ከባዶ የሚጀምር የተለየ ዘገባ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_start:p2:text_ar",
+      "source_text_sha256": "5bbd2151c4dc27d5dd96862318e32ff6dbe7d8809c23568449b1ee1019eadf65",
+      "text": "አላህ መልእክተኛው ﷺ ከመካ ባስወጧቸው ጊዜ ወደ መዲና ተሰደዱ፤ አቡ በክር፣ የአቡ በክር ነፃ የወጣ አገልጋይ ዓሚር ኢብን ፉሀይራ፣ የሁለቱም መንገድ መሪ ዐብደላህ አል-ለይሢ አብረዋቸው ነበሩ። በኡም ማዕበድ ሁለት ድንኳኖች አጠገብ አለፉ። ሥጋና ተምር ከእሷ ለመግዛት ጠየቋት፤ ነገር ግን እሷ ዘንድ ከእነዚህ ምንም አላገኙም። ሰዎቹ ስንቃቸው ያለቀባቸው (^٤) እና በድርቅ የተጎዱ (^٥) ነበሩ። አላህ መልእክተኛው ﷺ ተመለከቱ..."
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p1:kind_ar",
+      "source_text_sha256": "d8e9359e2f3981e14c7613e0a427a7a1b9bc1c101da3aaa9d85af70e0428c566",
+      "text": "በጊቱን የማየት ቀጣይ ክፍል"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p1:speaker_ar",
+      "source_text_sha256": "f9109feac50e7adece2f894b6cc7b5126d2352449b17e5713695b07b044f5f13",
+      "text": "በተጨመረው ጽሑፍ ውስጥ ሑበይሽ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p1:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p1:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p1:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p1:text_ar",
+      "source_text_sha256": "8041cf4a616d13d02d7fa9b07f2d79c7f4b1c8a4dbd5deb0542206a47ee6bcef",
+      "text": "...በድንኳኑ ጎን (^١) ወዳለችው በግ፣ እንዲህም አሉ፦"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p2:kind_ar",
+      "source_text_sha256": "a8299c6cc9c3d8d8c96fc6fff2022cefd05109fb9ccdf906b12057bc708424d6",
+      "text": "ነቢዩ ስለ በጊቱ የጠየቁት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p2:speaker_ar",
+      "source_text_sha256": "1df8a302c4f3b9aa05e2ba752ed97657b911803139de470fd5ade9b7eb9db5dc",
+      "text": "በዘገባው ውስጥ ነቢዩ ﷺ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p2:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p2:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p2:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p2:text_ar",
+      "source_text_sha256": "a1461195800f56c2b9d1a5156e106549909a62749bc4289098baf7e32657961d",
+      "text": "«ኡም ማዕበድ ሆይ፣ ይህች በግ ምንድን ናት?»"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p3:kind_ar",
+      "source_text_sha256": "274ea144869e7e1a38ae29cfc75e33fd1e63f8ca522e8a28eed914f0c3d13d13",
+      "text": "ኡም ማዕበድ ስለ በጊቱ የሰጠችው ምላሽ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p3:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p3:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p3:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p3:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p3:text_ar",
+      "source_text_sha256": "186df7ecaa0dab67790b819db755cb0bbbb66dd271c6b834edc2801773f0d625",
+      "text": "«ድካም (^٢) ከመንጋው ያስቀራት በግ ናት» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p4:kind_ar",
+      "source_text_sha256": "4418176c5f2abd26af4920a806378d2826611404b4ca0bbd1d30bcf78b554d6b",
+      "text": "ነቢዩ ስለ ወተት የጠየቁት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p4:speaker_ar",
+      "source_text_sha256": "1df8a302c4f3b9aa05e2ba752ed97657b911803139de470fd5ade9b7eb9db5dc",
+      "text": "በዘገባው ውስጥ ነቢዩ ﷺ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p4:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p4:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p4:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p4:text_ar",
+      "source_text_sha256": "5c85a402ed7c9531c72eca541da598e2f5c2f98282171cd0623915f1895b1ddc",
+      "text": "«ወተት አላት?» አሉ።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p5:kind_ar",
+      "source_text_sha256": "7aac9c96855ca119f644b7666c4e5ef2a0ec012b02e1a3fa26c278e6ae6e8f7d",
+      "text": "ኡም ማዕበድ ስለ ወተት የሰጠችው ምላሽ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p5:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p5:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p5:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p5:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p5:text_ar",
+      "source_text_sha256": "1b93bd6c13ca2448af0d4a9a9366f303e1472d7653b6e72eec04eb7463a40cca",
+      "text": "«ለዚያ እጅግ ደክማለች» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p6:kind_ar",
+      "source_text_sha256": "25eb4a38a580b84bb68bd983a2d718d09b794da7a20a14ac7c2c7eddfe36d988",
+      "text": "ነቢዩ ለማለብ ፈቃድ መጠየቃቸው"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p6:speaker_ar",
+      "source_text_sha256": "1df8a302c4f3b9aa05e2ba752ed97657b911803139de470fd5ade9b7eb9db5dc",
+      "text": "በዘገባው ውስጥ ነቢዩ ﷺ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p6:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p6:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p6:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p6:text_ar",
+      "source_text_sha256": "ecdae7d92132bd0e414188c0f8fd5f2ac4fd7faef84385d42410a43e34a7b11b",
+      "text": "«በጊቱን እንዳልብ ትፈቅድልኛለሽ?» አሉ።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p7:kind_ar",
+      "source_text_sha256": "d730fcdb1874584d0f7d2f715009a5a345031a8ac0b0f46ee74aa3a67a553a63",
+      "text": "የኡም ማዕበድ ፈቃድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p7:speaker_ar",
+      "source_text_sha256": "a28dbbf67de68ffacc800384874cf087789e358d3b2d3985f0260f77185a1ef5",
+      "text": "በዘገባው ውስጥ ኡም ማዕበድ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p7:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p7:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p7:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p7:text_ar",
+      "source_text_sha256": "5d1b4947b5a1d94e720fc489f335212e9dc75e7cfe2e594d5616fc29f2ebb816",
+      "text": "«አባቴና እናቴ ለአንተ መሥዋዕት ይሁኑ፤ ወተት እንዳላት ካየህ አልባት» አለች።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p8:kind_ar",
+      "source_text_sha256": "21b97d0b0c5c506d89d0f7633716ab9604a44249915c4be5530d5266dc9730dc",
+      "text": "የሑበይሽ ዘገባ፦ ማለብና መነሳት"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p8:speaker_ar",
+      "source_text_sha256": "f9109feac50e7adece2f894b6cc7b5126d2352449b17e5713695b07b044f5f13",
+      "text": "በተጨመረው ጽሑፍ ውስጥ ሑበይሽ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p8:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p8:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p8:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p8:text_ar",
+      "source_text_sha256": "d1f11949fcb46f7289a55ab5100537a950aef48369ac3b9258356723d986c36e",
+      "text": "አላህ መልእክተኛው ﷺ በጊቱን አስመጡና ጡቷን በእጃቸው ዳሰሱ፣ የአላህን ስም ጠሩና ለእሷ በበጊቷ ጉዳይ ጸለዩ። በጊቱ እግሮቿን ዘረጋች (^٣)፣ ወተት ፈሰሰችና ማላመጥ ጀመረች። ቡድኑ ሊጠጣበት የሚችል ዕቃ (^٤) አስመጥተው አረፋ እስኪሸፍነው (^٦) ድረስ በብዛት (^٥) አለቡበት። እሷን እስክትጠግብ አጠጧት፣ ባልንጀሮቻቸውንም እስኪጠግቡ አጠጡ፤ እርሳቸውም ከሁሉ በኋላ ጠጡ። ከመጀመሪያው በኋላ ለሁለተኛ ጊዜ እስኪሞላ በዕቃው ውስጥ አለቡ፣ እሷ ዘንድ ተዉት፣ ከእሷም ጋር «በይዓ» አደረጉ፣ ከዚያ ተነሱ። [5943]\n\nየተርጓሚ ማስታወሻ (የዘገባው ክፍል አይደለም)፦ «በይዓ» እዚህ የቃል ኪዳን ስምምነት ወይም የግብይት ስምምነት ማድረግን ሊያመለክት ይችላል፤ ዘገባው የትኛው እንደሆነ አይገልጽም፣ የተገዛ ነገርም አይጠቅስም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p9:kind_ar",
+      "source_text_sha256": "4fa79ba91142099920f8a2f225e0ec64dd3cec44ff6033b75de373448336892d",
+      "text": "የኢብን ሐጀር ምንጭ ማጣቀሻ፤ የዘገባው ዋና ጽሑፍ አይደለም"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p9:speaker_ar",
+      "source_text_sha256": "50f573b7e843dae73c8bed5c9570543c655b6afca14646f32f402e09932a63d0",
+      "text": "ኢብን ሐጀር በምንጭ ማጣቀሻው"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p9:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p9:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p9:context_note_ar",
+      "source_text_sha256": "3237f46f01e45383b5635817c43d8d360e4e7b24f4ff3420599b3ed7e1187452",
+      "text": "በተጨመረው ጽሑፍ የዘገባው ቀጣይ ክፍል፣ ከዚያም የኢብን ሐጀር ምንጭ ማጣቀሻ በተለየ መስመር አለ፤ የአል-አልባኒ የግርጌ ማስታወሻ የተለየ ነው። ከ«አል-ሚሽካት» የተወሰደው ጽሑፍ ራሱን የቻለ አዲስ ማስረጃ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_hidaya_end:p9:text_ar",
+      "source_text_sha256": "84d316d0e8ba6cc158372db7a0bf3fc0453a53c18b19b4785f772ce2c6ad666f",
+      "text": "• አል-በይሀቂ [١/ ٢٧٦١ - ٢٧٨] (^٧) በ«አድ-ደላኢል» ከእሱ ዘግቦታል።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p1:kind_ar",
+      "source_text_sha256": "a852abf594fcd0f2e9c35bfa841b7e1f7bae78bef887ca6abdcabb6a16f281ad",
+      "text": "የአል-አልባኒ ማጣቀሻና የሌላ ሰውን ማጽደቅ ማስተላለፉ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p1:speaker_ar",
+      "source_text_sha256": "9049d23a4024eb75ea1415c0755df21e2468efb0049696a5ed34aad2af63bf90",
+      "text": "አል-አልባኒ የሌሎችን ማጣቀሻና ፍርድ ያስተላልፋል"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p1:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p1:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p1:context_note_ar",
+      "source_text_sha256": "640d628bf5382b411ee9ba0a3010c5e1e9e74f38296c3cb2b19c2b2d3e33e63f",
+      "text": "የአል-አልባኒ የግርጌ ማስታወሻ በዲጂታል ቅጂው ሙሉ ነው፦ ምንጭ ማጣቀሻ፣ ተቃውሞ፣ ከዚያ ሊጠናከር የሚችልበት ዕድልና ከአዝ-ዘሀቢ የተወሰደ ንግግር። የመጨረሻው ዓረፍተ ነገር ዲጂታል አጻጻፍ ያልተረጋጋ ነው፤ ከታተመ ቅጂ ጋር አልተነጻጸረም ስለዚህ እዚህ አይስተካከልም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p1:text_ar",
+      "source_text_sha256": "adb9cb3add10cc83de7b8c9db54e4f956c0c7c7aed77d85a3f793cdb52d9f20b",
+      "text": "(^٧) እንዲሁም አል-ሓኪም (٢/ ٩ - ١٠) ዘግቦታል፣ ትክክል ነው ብሎ አጽድቆታል፤ አዝ-ዘሀቢም ተስማምቶታል!"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p2:kind_ar",
+      "source_text_sha256": "90eb2dff24be51e2eeb7737f2032c997ace91b15b5a62343c947bbf08f05b201",
+      "text": "የአል-አልባኒ በሰንሰለቱ ትክክለኛነት ላይ ያቀረበው ተቃውሞ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p2:speaker_ar",
+      "source_text_sha256": "fae225e1966253c0b7650791c124cce4a880d40791ba274245b3e5020a613354",
+      "text": "አል-አልባኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p2:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p2:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p2:context_note_ar",
+      "source_text_sha256": "640d628bf5382b411ee9ba0a3010c5e1e9e74f38296c3cb2b19c2b2d3e33e63f",
+      "text": "የአል-አልባኒ የግርጌ ማስታወሻ በዲጂታል ቅጂው ሙሉ ነው፦ ምንጭ ማጣቀሻ፣ ተቃውሞ፣ ከዚያ ሊጠናከር የሚችልበት ዕድልና ከአዝ-ዘሀቢ የተወሰደ ንግግር። የመጨረሻው ዓረፍተ ነገር ዲጂታል አጻጻፍ ያልተረጋጋ ነው፤ ከታተመ ቅጂ ጋር አልተነጻጸረም ስለዚህ እዚህ አይስተካከልም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p2:text_ar",
+      "source_text_sha256": "65b3759d7837135a35f8115bc36ccb31cc0f29d40d405cf7159107ee9c649d79",
+      "text": "እኔ እላለሁ፦ በዚህ ሰንሰለት ሂሻም ኢብን ሑበይሽ አለ። ኢብን አቢ ሓቲም በ«አል-ጀርሕ ወት-ተዕዲል» (٩/ ٥٣/ ٢٢٧) ጠቅሶታል፤ ስለ እሱ ነቀፋም ሆነ ማጽደቅ አልጠቀሰም፣ ከልጁም በስተቀር ከእሱ የዘገበ ሌላ ሰው አልጠቀሰም። ታዲያ የእሱ ሰንሰለት እንዴት ትክክል ይሆናል?!"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p3:kind_ar",
+      "source_text_sha256": "74a600007b8f60f43a0776e606c9400adb77ccd37f93e0b64d389814370abd41",
+      "text": "በአል-አልባኒ አስተያየት በተለያዩ መንገዶች የመጠናከር ዕድል"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p3:speaker_ar",
+      "source_text_sha256": "fae225e1966253c0b7650791c124cce4a880d40791ba274245b3e5020a613354",
+      "text": "አል-አልባኒ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p3:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p3:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p3:context_note_ar",
+      "source_text_sha256": "640d628bf5382b411ee9ba0a3010c5e1e9e74f38296c3cb2b19c2b2d3e33e63f",
+      "text": "የአል-አልባኒ የግርጌ ማስታወሻ በዲጂታል ቅጂው ሙሉ ነው፦ ምንጭ ማጣቀሻ፣ ተቃውሞ፣ ከዚያ ሊጠናከር የሚችልበት ዕድልና ከአዝ-ዘሀቢ የተወሰደ ንግግር። የመጨረሻው ዓረፍተ ነገር ዲጂታል አጻጻፍ ያልተረጋጋ ነው፤ ከታተመ ቅጂ ጋር አልተነጻጸረም ስለዚህ እዚህ አይስተካከልም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p3:text_ar",
+      "source_text_sha256": "54441562a195a9811e7be0391e3c95d0c8e5c397bdfc2b36ea7ca6f7260cecd3",
+      "text": "አዎን፣ አል-ሓኪም ባቀረባቸው መንገዶች ሐዲሡ ወደ ሐሰን — ወይም ሰሒሕ — ደረጃ ሊደርስ ይችላል፤"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p4:kind_ar",
+      "source_text_sha256": "c5bf0d95a7c96edda5db4bca1987a9daf15274d1eeb47f954838af013efb489c",
+      "text": "በዲጂታል አጻጻፉ ያልተረጋጋ ከአዝ-ዘሀቢ የተወሰደ ንግግር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p4:speaker_ar",
+      "source_text_sha256": "779b93fbbefdf0acfb51a68f2552a02c320a8b750f382e9180c381dccd5b4abe",
+      "text": "አል-አልባኒ ከአዝ-ዘሀቢ ያስተላልፋል፤ አጻጻፉ ከታተመ ቅጂ ጋር አልተነጻጸረም"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p4:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p4:citation_ar",
+      "source_text_sha256": "84f269f19dfbf86b3da94106047aa9e314c177a63f2b2229e45e6a095021c3fc",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 5/358](https://app.turath.io/book/12115?page=2297)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p4:context_note_ar",
+      "source_text_sha256": "640d628bf5382b411ee9ba0a3010c5e1e9e74f38296c3cb2b19c2b2d3e33e63f",
+      "text": "የአል-አልባኒ የግርጌ ማስታወሻ በዲጂታል ቅጂው ሙሉ ነው፦ ምንጭ ማጣቀሻ፣ ተቃውሞ፣ ከዚያ ሊጠናከር የሚችልበት ዕድልና ከአዝ-ዘሀቢ የተወሰደ ንግግር። የመጨረሻው ዓረፍተ ነገር ዲጂታል አጻጻፍ ያልተረጋጋ ነው፤ ከታተመ ቅጂ ጋር አልተነጻጸረም ስለዚህ እዚህ አይስተካከልም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_albani:p4:text_ar",
+      "source_text_sha256": "dc980ca869a0b989f495868a4055bd7606d1aa05029e849f43ca11716280ce33",
+      "text": "አዝ-ዘሀቢም እንዲህ አለ፦ «وإما في هذه الطرق شيء على شرط الصحيح»፤ በቀረበው አጻጻፍ በግምት፣ «በእነዚህ መንገዶች ውስጥ በሰሒሕ መመዘኛ ላይ የሆነ አንድ ነገር ...» ይላል፤ «وإما» የሚለው አጀማመር ግን ያልተረጋጋ ስለሆነ የዓረፍተ ነገሩ አጠቃላይ አቅጣጫ አይረጋገጥም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_attribution:p1:kind_ar",
+      "source_text_sha256": "e24326bac71896c7d17caf3db59134f0bc4806ddac6bd915c77fc54b346cfea9",
+      "text": "የግርጌ ማስታወሻዎች ምንጭ ላይ የአርታኢው መግቢያ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_attribution:p1:speaker_ar",
+      "source_text_sha256": "0407cbbd2085f89d7cd45bf37d2c5ec4084c53d1d06d0bce2c26f4dc818d0f27",
+      "text": "ዐሊ ኢብን ሐሰን አል-ሐለቢ"
+    },
+    {
+      "unit_id": "sp_umm_mabad_attribution:p1:book_ar",
+      "source_text_sha256": "88cb85acb5f125200925e90dd25d2fe9883100c84ad4301b503a3f2f16d3900d",
+      "text": "«ሂዳየት አር-ሩዋት» — ከአል-አልባኒ ሁለተኛ የ«አል-ሚሽካት» ምንጭ ማጣቀሻ ጋር"
+    },
+    {
+      "unit_id": "sp_umm_mabad_attribution:p1:citation_ar",
+      "source_text_sha256": "90e28ac50a889c509ae2356ab1f7583e293345c174a364fcd4259c605aa8e866",
+      "text": "[ሂዳየት አር-ሩዋት — ከአል-አልባኒ ሁለተኛ የአል-ሚሽካት ምንጭ ማጣቀሻ ጋር፣ 1/5](https://app.turath.io/book/12115?page=5)"
+    },
+    {
+      "unit_id": "sp_umm_mabad_attribution:p1:context_note_ar",
+      "source_text_sha256": "cb434a663f1f7f7d988c1ef9de994da202b2833dce49df8ecc4cf8b5cf6de25f",
+      "text": "የአል-ሐለቢ መግቢያ የአል-አልባኒን የግርጌ ማስታወሻዎች ምንጭ ያሳያል፤ የማብራሪያውን ባለቤት ለመለየት አውድ ነው፣ ለድንኳኑ ክስተት ታሪካዊ የዘገባ መንገድ አይደለም።"
+    },
+    {
+      "unit_id": "sp_umm_mabad_attribution:p1:text_ar",
+      "source_text_sha256": "687cc773fa41b97d3ab26e3a8c416957b7e38b3b5a9efcf2dcfa8cc51b0ce857",
+      "text": "በዚህ መጽሐፍ ላይ የምርምር ሥራ ከተጀመረ ሦስት ዓመት ገደማ ሆኖታል። በዚያን ጊዜ መጽሐፉን የማጣራትና የማሳተም ሐሳብን ለመምህራችን አቡ ዐብዱርረሕማን ሙሐመድ ናስሩዲን አል-አልባኒ አቀረብኩ። እሱም ሐሳቡን ተቀብሎ በደስታ አስተናገደው፤ ያሉትንም የምንጭ ማጣቀሻዎችና ማብራሪያዎች በ«አል-ሂዳያ» የግርጌ ማስታወሻዎች ተገቢ ቦታ ላይ እንዲጨመሩ ሰጠኝ። አላህ የላቀና የተሟላ በጎ ምንዳ ይስጠው።"
+    }
+  ],
+  "reading_editions": [
+    {
+      "reading_id": "hch_umm_mabad_read_visit",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_umm_mabad_read_portrait",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_umm_mabad_read_language",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_umm_mabad_read_judgments",
+      "mode": "translated",
+      "gloss": ""
+    }
+  ],
+  "deferred_questions": [],
+  "translation_sha256": "fb71cc926ac75e7bbb1be5e58d6cdc76f771f4c5bb976e02d10c8ec5dbaacd79",
+  "review": {
+    "arabic_sha256": "58bb8c014a0ce65760e018e59e45b315700681d654e9b33d3e8e9aca372bff0c",
+    "translation_sha256": "fb71cc926ac75e7bbb1be5e58d6cdc76f771f4c5bb976e02d10c8ec5dbaacd79",
+    "translation_compared": true,
+    "summary": "Internal AI bilingual semantic comparison attested by reviewer session c65eb011-87cd-42ee-a421-68bb0e48fb9b across 382 Arabic/target units. Compared all 382 bound Arabic–Amharic inventory units in full across numbered pairs.py chunks 0–11, including teaching prose, objectives, outlines, questions, answer options, explanations and feedback, scope notes, every metadata/citation unit and full selected source texts. The newly separate Amharic translator notes explain the ambiguous bayʿa term without asserting a purchase or independently resolving the original. No further actionable semantic or untranslated-prose issue was found in this bounded comparison. Arabic watchlist consulted; this is not manuscript collation, independent language or specialist approval, nor permission for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  }
+}

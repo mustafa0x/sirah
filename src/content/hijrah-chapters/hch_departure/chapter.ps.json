@@ -1,0 +1,2248 @@
+{
+  "chapter_id": "hch_departure",
+  "revision": 1,
+  "locale": "ps",
+  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
+  "status": "translation_ready",
+  "units": [
+    {
+      "unit_id": "hch_departure:title_ar",
+      "source_text_sha256": "91acf04b1da6a7b15272dbf6d0c5116ade476a3e29e3e92524e796ffc60a7bfa",
+      "text": "له مکې څخه وتل: پلان، بستر او امانتونه"
+    },
+    {
+      "unit_id": "hch_departure:reader_question_ar",
+      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
+      "text": "د تدبیر او وتلو روایتونه موږ ته څه وایي، او د هغوی غږونه په کوم ځای کې سره بېلېږي؟"
+    },
+    {
+      "unit_id": "hch_departure_overview:text_ar",
+      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
+      "text": "دلته سفر په مکه کې د اجازې له انتظار څخه پیلېږي، بیا د قریشو له دې وېرې چې پېغمبر ﷺ به ووځي، او د علي تر بستر او هغو امانتونو رسېږي چې هغه د سپارلو لپاره پاتې شو. د ابن اسحاق روایت به تعقیبوو، او چې د خبرو حدود سره توپیر ولري، د عروه روایت او د صویاني او بیهقي نقد ته به تم کېږو؛ څو هر مشهور جزئیات په یوه قطعي صحنه بدل نه شي."
+    },
+    {
+      "unit_id": "hch_departure_waiting:title_ar",
+      "source_text_sha256": "c2b1d4e4872d2a68fe19e68af34f0adc307516f7d88a03e788d2bbd06c6d423f",
+      "text": "له وتلو مخکې"
+    },
+    {
+      "unit_id": "hch_departure_waiting1:text_ar",
+      "source_text_sha256": "e66db076b908997e953297120090b8071e6a967245842e8df5528b9dbc244a86",
+      "text": "کله چې مهاجران ووتل، د ابن اسحاق د بیان له مخې پېغمبر ﷺ په مکه کې د اجازې په تمه پاتې شو، او علي او ابوبکر هم ورسره پاتې شول. ابوبکر به ډېر ځله د اجازې غوښتنه کوله، خو پېغمبر ﷺ ورته وویل چې بیړه مه کوه؛ نو په دې خبر کې د ملګرتیا امکان لا پرانیستی پاتې شو، خو د وتلو ټاکلې نېټه پکې نشته."
+    },
+    {
+      "unit_id": "hch_departure_waiting2:text_ar",
+      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
+      "text": "د ابن اسحاق د بیان له مخې قریشو ولیدل چې مهاجرانو ته له مکې بهر د اوسېدو ځای او ملاتړ ورپه برخه شوی، نو وېرېدل چې پېغمبر ﷺ به ورسره یوځای شي. د هغه د چارې د څېړلو لپاره د دوی مشران په دارالندوه کې غونډېږي؛ دا د متن انځور دی، د غونډې نېغ په نېغه ثبت شوی صورت‌مجلس نه دی."
+    },
+    {
+      "unit_id": "hch_departure_council:title_ar",
+      "source_text_sha256": "c941c3c8829cd272e01a0f99af0c2cdaec58ad15d5853dedbc42fcc0554864d5",
+      "text": "سلا او پلان"
+    },
+    {
+      "unit_id": "hch_departure_council1:text_ar",
+      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
+      "text": "د ابن عباس په هغه خبر کې چې ابن اسحاق یې روایت کوي، لومړی د بندي کولو او بیا د شړلو وړاندیز کېږي؛ نجدي سپین‌ږیری په روایت کې دواړه نظرونه ردوي. ورپسې ابوجهل وړاندیز کوي چې د بېلابېلو قبیلو ځوانان دې په وهلو کې ګډون وکړي؛ په دې خبر کې غونډه پر همدې نظر پای ته رسېږي. د خبرو د دومره تفصیل راوړل دا نه ایجابوي چې هر بل خبر هم همدا غونډه روایت کړي."
+    },
+    {
+      "unit_id": "hch_departure_council2:text_ar",
+      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
+      "text": "په دې نقل کې د سپین‌ږیري په بڼه د ابلیس یادونه هم راغلې. صویاني په یوه ځای کې د خبر د بېلابېلو لارو له مخې د هغه د پیاوړتیا خبره نقلوي، خو په بل ځای کې د ابلیس یادونه ترې مستثنا کوي. څوک چې یوازې پیاوړتیا ولولي، دا استثنا ترې پاتې کېږي، او هم یې د هغو لارو تر منځ توپیر له پامه لوېږي چې ځینې راویان یې متروک بللي او هغه مرسل شاهد چې یې یاد کړی."
+    },
+    {
+      "unit_id": "hch_departure_bed:title_ar",
+      "source_text_sha256": "e5a4f06b9e79683faeb0c695aa14de00209f6f32874dfa91c6dd807c28fbc599",
+      "text": "بستر او د کور دروازه"
+    },
+    {
+      "unit_id": "hch_departure_bed1:text_ar",
+      "source_text_sha256": "48138875009da89db724c2889d067a66befb416cf9dad8b04139601125b6d6f3",
+      "text": "د ابن عباس په روایت کې پېغمبر ﷺ ته خبرداری ورکول کېږي چې په خپل عادي بستر کې شپه تېره نه کړي، او څارونکي یې د دروازې مخې ته راټولېږي. نو علي ته امر کوي چې پر بستر یې ویده شي او د هغه په شنه حضرمي څادر ځان وپوښي؛ او ډاډ ورکوي چې له هغوی به ورته کوم ناوړه کار ونه رسېږي."
+    },
+    {
+      "unit_id": "hch_departure_bed2:text_ar",
+      "source_text_sha256": "3daa1d7e1e8873789359a5f9c4c48b51b97292c1345caf4cf9971cab48f1d9f6",
+      "text": "په بل خبر کې چې ابن اسحاق یې له یزید بن زیاد څخه، هغه له محمد بن کعب قرظي څخه روایت کوي، ابوجهل له نورو سره د دروازې مخې ته ولاړ وي. بیا پېغمبر ﷺ د هغوی مخې ته راوځي، خاوره شیندي او د یاسین سورت آیتونه لولي. هغوی بستر ته ګوري، په څادر کې پټ کس ویني او ګومان کوي چې پېغمبر ﷺ دی؛ تر دې چې سهار علي پاڅېږي او دوی ته څرګندېږي چې پر بستر څوک و."
+    },
+    {
+      "unit_id": "hch_departure_trusts:title_ar",
+      "source_text_sha256": "80aa6755611c90c913cfcaeaff8520e35a7bf68d1c5f4af10812eab1c2d1a7e3",
+      "text": "امانتونه او بیا وررسېدل"
+    },
+    {
+      "unit_id": "hch_departure_trusts1:text_ar",
+      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
+      "text": "د ابن اسحاق په بل خبر کې د علي دنده یوازې پر بستر ویده کېدل نه وو؛ ابن اسحاق د «فِيمَا بَلَغَنِي» په بڼه وایي چې پېغمبر ﷺ علي ته د خپل وتلو خبر ورکړ او د خلکو د امانتونو د سپارلو لپاره یې د پاتې کېدو امر ورته وکړ. دا په متن کې د رسېدلي خبر صیغه ده، نه د داسې راوي نوم چې موږ یې له ځانه ورزیات کړو."
+    },
+    {
+      "unit_id": "hch_departure_trusts2:text_ar",
+      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
+      "text": "د روایت په وروستي ځای کې علي په مکه کې درې شپې او ورسره ورځې پاتې شو، تر څو یې امانتونه وسپارل؛ بیا پېغمبر ﷺ ته ورسېد او له هغه سره د کلثوم بن هدم په کور کې مېشت شو. دا د امانتونو د خبر بشپړونه ده، نه دا چې په یوه شپه کې د دواړو د وتلو ساعت وټاکي."
+    },
+    {
+      "unit_id": "hch_departure_voices:title_ar",
+      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
+      "text": "له غونډې تر لارې: د هر روایت حدود"
+    },
+    {
+      "unit_id": "hch_departure_voices1:text_ar",
+      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
+      "text": "بیهقي له عروه بن زبیر څخه د دسیسې لنډه بڼه راوړي: وژل، بندي کول، شړل یا تړل؛ ورسره د انفال آیت، د شپې غار ته د پېغمبر ﷺ او ابوبکر وتل او پر بستر د علي ویده کېدل هم راوړي. د عروه په دې انتخاب کې نه د غونډې خبرې شته او نه د خاورو لپه؛ آیت دلته د عروه په روایت کې قرآني متن دی، نه د ندوه د خبرو پاتې برخه."
+    },
+    {
+      "unit_id": "hch_departure_voices2:text_ar",
+      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
+      "text": "د عروه خبر وایي چې هغوی د شپې په تیاره کې ووتل، او د ابن عباس خبر وایي چې څارونکي د شپې په تیاره کې د پېغمبر ﷺ د کور مخې ته راټول شول. له دې دواړو څخه هېڅ یو هم د ابوبکر کور ته د ورتګ ساعت نه ښيي؛ نه د څارنې له وخت څخه د هغې لیدنې وخت اټکلول سم دي، نه د دوو کورونو پېښې یوه صحنه ګڼل."
+    },
+    {
+      "unit_id": "hch_departure_criticism:title_ar",
+      "source_text_sha256": "c187c866986f49d976960c3eba0392f45e26051a31b96b54f3273b7a5de1aa6f",
+      "text": "د نقادانو حکمونه څه وایي؟"
+    },
+    {
+      "unit_id": "hch_departure_criticism1:text_ar",
+      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
+      "text": "د صویاني یوه حاشیه د ندوه د خبر په اړه وایي چې د خپلو لارو په مټ حسن دی؛ د کلبي لاره د خوښۍ وړ نه بولي، د حسن بن عماره لاره متروکه بولي، او د قتاده مرسل شاهد او متروک واقدي یادوي. په بل متن کې د ابلیس یادونه د حدیث له ښه ګڼلو مستثنا کوي. دا حکم او استثنا همده ته منسوبوو، او د هغو سندونو خپلواکه څېړنه یې پر ځای نه ږدو چې دلته نه دي پرانیستل شوي."
+    },
+    {
+      "unit_id": "hch_departure_criticism2:text_ar",
+      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
+      "text": "صویاني پر هغه سند خبرې کوي چې ابو بلج پکې راځي؛ وایي تر څو ابو بلج په مخالف لفظ کې یوازې نه وي، سند یې «لا بأس به» دی. هغه د ځینو امامانو توثیق د بخاري له جرحې سره یوځای یادوي، چې د ده په اړه یې «فيه نظر» ویلي، او د بخاري تعبیر سخت اصطلاح ګڼي. د بلې پاڼې د خبرو دوام یې هم د نقد برخه ده؛ دا حکم نه د علي د ټولو خبرونو عمومي رد دی او نه د هغه په اړه د هر منقول لفظ تصحیح."
+    },
+    {
+      "unit_id": "hch_departure_criticism3:text_ar",
+      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
+      "text": "د ابن اسحاق په روایت کې د علي په خطاب کې پېغمبر ﷺ څادر شین حضرمي بولي، او دا وینا د بل انتخاب په پیل کې بشپړېږي. بیا ابن اسحاق د یزید بن زیاد له لارې، له محمد بن کعب څخه، د خاورو شیندلو او د یاسین د تلاوت د خبر سند پیلوي؛ نو د دې سند له مخې تلاوت د ابن عباس مخکینۍ لارې ته نه شي منسوبېدای. د دوو لارو بېلول تر دې مهم دي چې د بستر هر خبر ته ټول جزئیات ورزیات کړو."
+    },
+    {
+      "unit_id": "hch_departure_hazwara:title_ar",
+      "source_text_sha256": "02acc28bdc084c5d2bfb3571de32f29330254020aeb68b3eebf68e3e5b8199ad",
+      "text": "د حَزْوَرَې په خطاب کې مکه"
+    },
+    {
+      "unit_id": "hch_departure_hazwara1:text_ar",
+      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
+      "text": "بیهقي له عبدالله بن عدي بن الحمراء څخه روایت کوي چې پېغمبر ﷺ د مکې د بازار په حَزْوَرَه کې ولاړ و او مکې ته یې وویل چې د الله پر ځمکه تر ټولو ورته ګرانه ده او که له هغې نه وای ایستل شوی، نه به و وتلی. بیهقي دا روایت محفوظ بولي. دا خبر نه په حَزْوَرَه کې د ولاړېدو ساعت ټاکي او نه یې د کور له دروازې یا د علي له بستر سره تړي."
+    },
+    {
+      "unit_id": "hch_departure_hazwara2:text_ar",
+      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
+      "text": "د عبدالله بن عدي بن الحمراء د خبر سند د یوه انتخاب په پای او د بلې پاڼې په پیل کې خوندي شوی؛ له بشپړېدو وروسته یې د پېغمبر ﷺ وینا او د بیهقي د «محفوظ» تعقیب راځي. په ورپسې نقدي سیاق کې بیهقي د معمر روایت او د ځینو کسانو له محمد بن عمرو څخه روایت وهم بولي او د جماعت روایت غوره کوي. دا د نقل شوو بڼو تر منځ د هغه ترجیح ده، نه دا څرګندونه چې د وتلو ټول نور روایتونه یو شان دي."
+    },
+    {
+      "unit_id": "hch_departure_point_1:text_ar",
+      "source_text_sha256": "6a634bd6c65162ed486bde64e22176ddd18d8386e8a234394394b94927090530",
+      "text": "انتظار او د قریشو وېره"
+    },
+    {
+      "unit_id": "hch_departure_point_2:text_ar",
+      "source_text_sha256": "05a4251b93ec82178c6c426718628753554d4b9053310676a378e9529bbe014e",
+      "text": "د غونډې په روایت کې بدیل وړاندیزونه"
+    },
+    {
+      "unit_id": "hch_departure_point_3:text_ar",
+      "source_text_sha256": "fbb7ca3ed2badc90fd4f026cb0a398ff14a4e15df1fee52765f85fa264f66cc2",
+      "text": "څارنه او بستر"
+    },
+    {
+      "unit_id": "hch_departure_point_4:text_ar",
+      "source_text_sha256": "87b034cce2600bcddda0ca67ed84e507781dbaa99bd569a94c5df637885213b8",
+      "text": "له وتلو وروسته امانتونه"
+    },
+    {
+      "unit_id": "hch_departure_read_council:title_ar",
+      "source_text_sha256": "7e4884b8afea0b2118d9f167d9713d2f59caea2b74d9321eea52615db409d2ce",
+      "text": "غونډه د ابن اسحاق په روایت کې"
+    },
+    {
+      "unit_id": "hch_departure_read_exit:title_ar",
+      "source_text_sha256": "41cf2bd1a0b3f696f051ab47db98dce6e47d10bdf414e843c2954078c0d8ca15",
+      "text": "د محمد بن کعب د وتلو خبر"
+    },
+    {
+      "unit_id": "hch_departure_read_trust:title_ar",
+      "source_text_sha256": "7372f8184b244b341fd199f616d56953bb67520cfc2e416069014fdfb2266a65",
+      "text": "امانتونه او وررسېدل"
+    },
+    {
+      "unit_id": "hch_departure_read_urwa:title_ar",
+      "source_text_sha256": "9aaf021b509591c07d0139430f5c34b7d4828b73b612c7e685ea5a410adc5cc1",
+      "text": "د عروه لنډ روایت"
+    },
+    {
+      "unit_id": "hch_departure_read_criticism:title_ar",
+      "source_text_sha256": "3c4de24d06a24a1257b84376a2d05415b8e9fbf1e691b6296ffa8c04f1b72215",
+      "text": "د ندوه په اړه د صویاني نقد"
+    },
+    {
+      "unit_id": "hch_departure_read_balj:title_ar",
+      "source_text_sha256": "b115428e07f02b658bec755976311c925f3e7006fd9e61b01e6e1898571455ca",
+      "text": "د ابو بلج د لارې نقد"
+    },
+    {
+      "unit_id": "hch_departure_read_hazwara:title_ar",
+      "source_text_sha256": "815bac7400bca11fd4dadfa431bb6d24da00f584f6d435489ba8d5babaa056df",
+      "text": "حَزْوَرَه او د بیهقي ترجیح"
+    },
+    {
+      "unit_id": "hch_departure_read_waiting:title_ar",
+      "source_text_sha256": "2993bd1fadfce6aac1e0037772a87b90f08cdc064fc865a0b3d967892c97fe17",
+      "text": "په مکه کې انتظار"
+    },
+    {
+      "unit_id": "departure_chapter_sequence:text_ar",
+      "source_text_sha256": "035532df50cefcfff91b9a5b6bcc47b3d49c7baebf41bb7b1e2237ec3c1244da",
+      "text": "له مشورې څخه تر بستر او ورپسې پېښو د روایت لړۍ څاري."
+    },
+    {
+      "unit_id": "departure_chapter_sources:text_ar",
+      "source_text_sha256": "5b105e31999ec265876961206305bd97169aab059bc59cbe0a0ff75b505bec0c",
+      "text": "د ابن عباس لاره، د محمد بن کعب خبر او د عروه خبر بېلوي، بې له دې چې د هغوی غږونه سره ګډ کړي."
+    },
+    {
+      "unit_id": "departure_chapter_trusts:text_ar",
+      "source_text_sha256": "3dbff109a91a005fbd2481f62b10be80cff422d394183a13bdae84033cee7a90",
+      "text": "د علي د پاتې کېدو موخه او د امانتونو په خبر کې د بلاغ د صیغې حدود تشریح کوي."
+    },
+    {
+      "unit_id": "departure_chapter_critique:text_ar",
+      "source_text_sha256": "43a7bf5f8ec16c9f429082e6b413b3d8f7e5b11a6f0250f3d5102ca4b73ed66e",
+      "text": "د ندوه او د ابو بلج د لارې د نقد حدود بیانوي."
+    },
+    {
+      "unit_id": "departure_chapter_context:text_ar",
+      "source_text_sha256": "8586d37e779404ba3454cd33267711a47c78b9e50e37fb2ef1d5a5f98e6808d7",
+      "text": "د حَزْوَرَې خطاب له داسې انځور څخه بېلوي چې د خدای پامانۍ لپاره ټاکلی وخت ادعا کوي."
+    },
+    {
+      "unit_id": "hch_departure_q1:prompt_ar",
+      "source_text_sha256": "ed9be7c42d1d4f1549b8966296bfc2f66496055632b4f84ee2888ef9287033b3",
+      "text": "د ابن اسحاق په روایت کې پېغمبر ﷺ ولې تر خپلو ملګرو وروسته په مکه کې پاتې شو؟"
+    },
+    {
+      "unit_id": "hch_departure_q1:explanation_ar",
+      "source_text_sha256": "30e4cffb451725c55f441b7b64715a5f80121e485967767c1387401c99ad9b5b",
+      "text": "ابن اسحاق د اجازې انتظار بیانوي؛ علي او ابوبکر هم د نورو مهاجرانو تر وتلو وروسته په مکه کې پاتې وو."
+    },
+    {
+      "unit_id": "hch_departure_q1:scope_note_ar",
+      "source_text_sha256": "ab36f7b9b2225378034d6acbd02e016eb3abfc9719281ad88bc335f1278b783d",
+      "text": "د ابن اسحاق په خبر کې په مکه کې د انتظار موده."
+    },
+    {
+      "unit_id": "hch_departure_q1:a:text_ar",
+      "source_text_sha256": "1c5ba37c6ab7306f713713dfee85867c5f9524252c21edf5bcd3be1920fb67ea",
+      "text": "د هجرت د اجازې د انتظار لپاره"
+    },
+    {
+      "unit_id": "hch_departure_q1:a:feedback_ar",
+      "source_text_sha256": "2d734fe9323e75f81343b962bb46bbf72cb40549f07a912ccb792a2c16bb5e99",
+      "text": "ابن اسحاق وایي چې هغه د هجرت د اجازې په تمه په مکه کې پاتې شو."
+    },
+    {
+      "unit_id": "hch_departure_q1:b:text_ar",
+      "source_text_sha256": "2d2955cf15b6311d4de03373e325d13f83de0418db3eaf2a769ba6af31963121",
+      "text": "ځکه چې هغه لا له وړاندې قبا ته رسېدلی و"
+    },
+    {
+      "unit_id": "hch_departure_q1:b:feedback_ar",
+      "source_text_sha256": "132ddb8b382291ec117c6353244b604191755d69ac265271a2c80abb18ec5746",
+      "text": "قبا وروسته د علي د وررسېدو په خبر کې راځي، نه په مکه کې د پېغمبر ﷺ د پاتې کېدو د علت په توګه."
+    },
+    {
+      "unit_id": "hch_departure_q2:prompt_ar",
+      "source_text_sha256": "96a016532a4d5df816dce34ce57d85737d0a513906b62ec3f17ad24bc0f17d6b",
+      "text": "د ابن عباس په روایت کې د قریشو غونډه پر کوم نظر پای ته ورسېده؟"
+    },
+    {
+      "unit_id": "hch_departure_q2:explanation_ar",
+      "source_text_sha256": "f61ad00318ad4fcb12050aacc9e258c99b66c9e0eb236623ca91e2533aa8f11b",
+      "text": "ابوجهل د قبیلو ګډ ګډون د وینې له وېشل کېدو سره تړي؛ په متن کې د نجدي سپین‌ږیري موافقه او پر همدې نظر د خلکو تیتېدل راغلي."
+    },
+    {
+      "unit_id": "hch_departure_q2:scope_note_ar",
+      "source_text_sha256": "d7d3e0dd0737f78fd19087d7d058ee5794f14ff6cb36b34de685395114505af1",
+      "text": "د ابن عباس د غونډې د روایت پایله، نه د هغې د ټولو جزئیاتو د ثابتېدو حکم."
+    },
+    {
+      "unit_id": "hch_departure_q2:a:text_ar",
+      "source_text_sha256": "726c9032202e69bb4fd27597b9fbfea533ae3dcaa1f6e9c66c9b94061ceb1ab4",
+      "text": "دا چاره بل موسم ته ځنډول"
+    },
+    {
+      "unit_id": "hch_departure_q2:a:feedback_ar",
+      "source_text_sha256": "a36f21202df80855b3f18959ab7965049f6bedcc8d1650ff5b3ffb6f8d95cd5d",
+      "text": "په خبر کې بل موسم ته ځنډول نه دي یاد شوي؛ بلکې د قبیلو په ګډون د وژلو پر تدبیر پای ته رسېږي."
+    },
+    {
+      "unit_id": "hch_departure_q2:b:text_ar",
+      "source_text_sha256": "bfff958fa360135e7bdb690153fdae76fcc58f25335ab2b29693fe829b925cec",
+      "text": "د وژلو لپاره د قبیلو د ځوانانو ګډ ګډون"
+    },
+    {
+      "unit_id": "hch_departure_q2:b:feedback_ar",
+      "source_text_sha256": "6321248d9cd0d24da549226c846ac4ff9b25b79981f94d893ae52d8195e67f91",
+      "text": "د بندي کولو او شړلو له وړاندیزونو وروسته ابوجهل وړاندیز کوي چې د قبیلو ځوانان دې په یوه ګوزار کې ګډون وکړي."
+    },
+    {
+      "unit_id": "hch_departure_q3:prompt_ar",
+      "source_text_sha256": "85252bb09f0f87750d76b93c70b088e2aaa3aa1181f25ce2ac6d33744ae949ae",
+      "text": "د نجدي سپین‌ږیري د ابلیس په توګه یادونه څنګه ارزوې؟"
+    },
+    {
+      "unit_id": "hch_departure_q3:explanation_ar",
+      "source_text_sha256": "d8accb949b1dc07222772b7884b0519af12817338d334de18c44d6c43fc8aa23",
+      "text": "د صویاني له خوا د بېلابېلو لارو په مټ د خبر ښه ګڼل د ابلیس د یادونې په استثنا مقید دي؛ هغه د ځینو لارو او شاهدو په اړه هم مفصلې خبرې لري."
+    },
+    {
+      "unit_id": "hch_departure_q3:scope_note_ar",
+      "source_text_sha256": "64310eb154658815b8891fdd103b12dce8ea8c68b6c51cc21ec5f956cfb897aa",
+      "text": "صویاني ته منسوب ارزونه، نه د اصلي خبر په اړه خپلواک حکم."
+    },
+    {
+      "unit_id": "hch_departure_q3:a:text_ar",
+      "source_text_sha256": "d9355440441160d08629acd0f1d8ecd21ed74527f37cbf3a93b821a6bbacf1b8",
+      "text": "د هغه له حکم څخه د صویاني د دې استثنا یادونه کوم"
+    },
+    {
+      "unit_id": "hch_departure_q3:a:feedback_ar",
+      "source_text_sha256": "f071d20bb7121e78fc84e7be36415c386a0b61737c4aa8fc376838f14b02fc76",
+      "text": "صویاني د خبر د ښه ګڼلو له حکم څخه د ابلیس یادونه په څرګنده مستثنا کوي."
+    },
+    {
+      "unit_id": "hch_departure_q3:b:text_ar",
+      "source_text_sha256": "bd9db7afe2951dab171020e4c66e922cc0d146acda49327219a060a2a079028c",
+      "text": "په قطعیت وایم چې ټولو نقادانو دا روایت صحیح بللی"
+    },
+    {
+      "unit_id": "hch_departure_q3:b:feedback_ar",
+      "source_text_sha256": "4b0ad099f5bd680105205c1015d0d79f6eb540c5bc1c06a5ba010e5f507023fa",
+      "text": "د صویاني د ابلیس استثنا د هرې برخې او هر نقاد په اړه د تصحیح له تعمیم سره ټکر لري."
+    },
+    {
+      "unit_id": "hch_departure_q4:prompt_ar",
+      "source_text_sha256": "8f5dfad28acf246c2e84a52ba092df24138cbf339eeff09ad4240759bc78a8a7",
+      "text": "د خاورو د شیندلو په خبر کې ابن اسحاق کومه د سند لړۍ په څرګنده بیانوي؟"
+    },
+    {
+      "unit_id": "hch_departure_q4:explanation_ar",
+      "source_text_sha256": "033db263174e9b1bcb6ea04422a75ac01bbd48046b0621fc2a9c6c47dce50d58",
+      "text": "د خاورو د خبر لړۍ د ابن اسحاق په وینا له یزید بن زیاد څخه، او له هغه څخه له محمد بن کعب قرظي څخه پیلېږي؛ دا د ابن عباس د لارې دوام نه دی."
+    },
+    {
+      "unit_id": "hch_departure_q4:scope_note_ar",
+      "source_text_sha256": "291afdb5c032dad9a199d588432434cdea9ffa5a5fd2362282225c1ac8f3a3e3",
+      "text": "د خبر د لړۍ ترتیب، لکه د لوستنې په لومړۍ برخه کې چې ښکاري."
+    },
+    {
+      "unit_id": "hch_departure_q4:a:text_ar",
+      "source_text_sha256": "3d502c413dce74f41a17d31e2a440a916e392cbde3aacf9259075dc488506e01",
+      "text": "ابن اسحاق ← ابن عباس ← یزید بن زیاد"
+    },
+    {
+      "unit_id": "hch_departure_q4:a:feedback_ar",
+      "source_text_sha256": "8e6578e96fbc4058a7529a9d3fdd9df9693bd0aabe82ec5cc759dff74b4a6499",
+      "text": "دا انتخاب دوه لارې سره ګډوي او خبر ابن عباس ته منسوبوي؛ خو ابن اسحاق دلته له یزید بن زیاد څخه، بیا له محمد بن کعب څخه نوې لړۍ پیلوي."
+    },
+    {
+      "unit_id": "hch_departure_q4:b:text_ar",
+      "source_text_sha256": "1ea3e7f00e30f640c8faefdbf9c5e3f685cac5e90bca9cdaaf5fd63aeea11968",
+      "text": "ابن اسحاق ← یزید بن زیاد ← محمد بن کعب قرظي"
+    },
+    {
+      "unit_id": "hch_departure_q4:b:feedback_ar",
+      "source_text_sha256": "08eabf526bcc41b9b04381e52bf14aa13f05594165be41aa5c2e10ccac182d86",
+      "text": "د ابن اسحاق په خبر کې په څرګنده راغلي: «فَحَدَّثَنِي يَزِيدُ بْنُ زِيَادٍ، عَنْ مُحَمَّدِ بْنِ كَعْبٍ الْقُرَظِيِّ قَالَ:»."
+    },
+    {
+      "unit_id": "hch_departure_q5:prompt_ar",
+      "source_text_sha256": "27e5da1b296d846481bbf6de3d5d7942db2780b61d91fe37c6a0c1fbc5ca3378",
+      "text": "د عروه په لنډ خبر کې د علي په اړه څه راغلي؟"
+    },
+    {
+      "unit_id": "hch_departure_q5:explanation_ar",
+      "source_text_sha256": "257a8555d6c68785cf3f8d70c63357d2e7b606b7861c7862a4e680cde86ac70e",
+      "text": "د عروه خبر د دسیسې لارې، د غار پر لور وتل او بیا پر بستر د علي ویده کېدل راټولوي، خو د ابوجهل مفصلې خبرې پکې نشته."
+    },
+    {
+      "unit_id": "hch_departure_q5:scope_note_ar",
+      "source_text_sha256": "f8be2da3dc8ad5eea9a6682c7f607570e4a0dfe043f79661c68b1e5235f39540",
+      "text": "موخه د عروه وړاندې شوی خبر دی، نه د وتلو نور ټول روایتونه."
+    },
+    {
+      "unit_id": "hch_departure_q5:a:text_ar",
+      "source_text_sha256": "914756382ed496360cbbd244e10a60a190d43bd7ee79b4dc4f7b35b75d666eed",
+      "text": "د پېغمبر ﷺ پر بستر د هغه ویده کېدل"
+    },
+    {
+      "unit_id": "hch_departure_q5:a:feedback_ar",
+      "source_text_sha256": "eb3f4c124464c40e45496ca9d629fd70b3e6c61cc7ce36ce9f0046e015fbd9f0",
+      "text": "عروه د خپل لنډ خبر په پای کې د پېغمبر ﷺ پر بستر د علي ویده کېدل یادوي."
+    },
+    {
+      "unit_id": "hch_departure_q5:b:text_ar",
+      "source_text_sha256": "63a061cb033f6da0e7667816d89b963a88b910de716bc6bc8e06765399f4d442",
+      "text": "په غونډه کې له هر حاضر کس سره د ابوجهل خبرې"
+    },
+    {
+      "unit_id": "hch_departure_q5:b:feedback_ar",
+      "source_text_sha256": "d88892237aada1d988bd671f84305f77f1da7712b84d6c7ab8f3242f9417be0a",
+      "text": "د دروازې مخې ته د ابوجهل د خبرو تفصیل د محمد بن کعب په خبر کې دی، نه د عروه په لنډ انتخاب کې."
+    },
+    {
+      "unit_id": "hch_departure_q6:prompt_ar",
+      "source_text_sha256": "4faf5345a055d164d8788bf529d60a128135247254c21ea59a4a2dfaa3740d45",
+      "text": "ابن اسحاق د امانتونو په خبر کې کوم قید په څرګنده راوړی؟"
+    },
+    {
+      "unit_id": "hch_departure_q6:explanation_ar",
+      "source_text_sha256": "03310590c1c6b1ac07bb3212a4bed1cbbced3aeb9f9367a5c351ed20ff431000",
+      "text": "خوندي شوې صیغه «فِيمَا بَلَغَنِي» د ابن اسحاق بلاغ دی؛ دا د ورکېدلي راوي په نوم نه شي بدلول کېدای."
+    },
+    {
+      "unit_id": "hch_departure_q6:scope_note_ar",
+      "source_text_sha256": "b9af43b03c5da0ea4fbea5097e3275c47723cc7282018183d57d42cc796fed55",
+      "text": "د امانتونو په اړوند انتخاب کې د نقل قید."
+    },
+    {
+      "unit_id": "hch_departure_q6:a:text_ar",
+      "source_text_sha256": "760c4928810a4b21cf370f6afc9fe289d92c89a43e0242642bc3837d9ee39c9e",
+      "text": "په همدغه عبارت کې د نوم لرونکي راوي د اورېدو سند"
+    },
+    {
+      "unit_id": "hch_departure_q6:a:feedback_ar",
+      "source_text_sha256": "b5191bbf9763ac2a883373ff2183112e808ecabf3aa7bddd323243b8cb1e0b2c",
+      "text": "که ابن اسحاق دلته د امانتونو لپاره راوي په نوم ښودلی وای، نه به یې ویلي چې خبر په دې صیغه ورته رسېدلی."
+    },
+    {
+      "unit_id": "hch_departure_q6:b:text_ar",
+      "source_text_sha256": "dc6500918c0304c8932d0c1826b67d511f68e457820ef1de36ae4125fd16b1b5",
+      "text": "«فِيمَا بَلَغَنِي» (تر کومه چې راته رسېدلي)"
+    },
+    {
+      "unit_id": "hch_departure_q6:b:feedback_ar",
+      "source_text_sha256": "e8fc9ad0413cb00636f7bcd607c4f7c899d81e0562a0b71f7226efc3fda010be",
+      "text": "په متن کې د علي د وتلو له خبرېدو او د امانتونو د سپارلو له امر سره «فِيمَا بَلَغَنِي» بیا بیا راغلي."
+    },
+    {
+      "unit_id": "hch_departure_q7:prompt_ar",
+      "source_text_sha256": "c91a302e9ec9b5668cdd67aefb8ce34ce351a43282073489f2beb7dfd353496c",
+      "text": "د امانتونو په متن کې د علي وررسېدل کله یاد شوي؟"
+    },
+    {
+      "unit_id": "hch_departure_q7:explanation_ar",
+      "source_text_sha256": "f3d06079b3cf432d0bf8b5e618c00e7ecbc413588b34546b54ccb7357accae2d",
+      "text": "خبر وایي چې علي د امانتونو له سپارلو فارغ شو، بیا پېغمبر ﷺ ته ورسېد او له هغه سره د کلثوم بن هدم په کور کې مېشت شو."
+    },
+    {
+      "unit_id": "hch_departure_q7:scope_note_ar",
+      "source_text_sha256": "fb6f5ef642ab43473e7ed5db457034074ee213dde101b3063d0819997bcdabab",
+      "text": "د امانتونو او وررسېدو د خبر ترتیب، نه د وتلو دقیق ساعت."
+    },
+    {
+      "unit_id": "hch_departure_q7:a:text_ar",
+      "source_text_sha256": "7819dad675d223a0c67b255557b158c20aa8a0a3d1e48d077fa1dbcc6516edc4",
+      "text": "د امانتونو له سپارلو وروسته"
+    },
+    {
+      "unit_id": "hch_departure_q7:a:feedback_ar",
+      "source_text_sha256": "89e4492d144471ca4a2c55db0d49d9866cd36cb5371827da5c4e9a9d234135af",
+      "text": "متن د علي وررسېدل د هغو امانتونو له سپارلو سره تړي چې د هغوی لپاره پاتې شوی و."
+    },
+    {
+      "unit_id": "hch_departure_q7:b:text_ar",
+      "source_text_sha256": "c1d34d8fabd51a4856b010a83be657fb6b645b7af37834a3987836e5f851b138",
+      "text": "پر بستر له شپې تېرولو مخکې"
+    },
+    {
+      "unit_id": "hch_departure_q7:b:feedback_ar",
+      "source_text_sha256": "b09f96da9e30aa982a3cfad72a66de46516f4f8c937c2bb7b587212672b4cf3e",
+      "text": "دا متن د علي وررسېدل د بستر له شپې مخکې نه ږدي؛ بلکې په مکه کې د هغه درې شپې او ورځې پاتې کېدل یادوي."
+    },
+    {
+      "unit_id": "hch_departure_q8:prompt_ar",
+      "source_text_sha256": "3b066d956057820d29129a8869c8a8b7d5d24d08fde9248145e2fedb534e716b",
+      "text": "صویاني د ابو بلج د لارې په څېړنه کې کوم قید راوړی؟"
+    },
+    {
+      "unit_id": "hch_departure_q8:explanation_ar",
+      "source_text_sha256": "252f03cd438c29217bfd2a6d24fa27da72e50e1e89f53ee24f135a5274113b7b",
+      "text": "صویاني د ابو بلج په اړه توثیق او جرح دواړه راټولوي، بیا د سند ارزونه په دې پورې تړي چې په مخالف لفظ کې یوازې نه وي."
+    },
+    {
+      "unit_id": "hch_departure_q8:scope_note_ar",
+      "source_text_sha256": "c864478ffc122cee18239339a8a470b4e41792abe01bb20744bf27b1fe8aec61",
+      "text": "دا نقل شوی حکم د بحث لاندې لارې او لفظ پورې ځانګړی دی."
+    },
+    {
+      "unit_id": "hch_departure_q8:a:text_ar",
+      "source_text_sha256": "b9a533922e74b05bda9aecb61e1bacfc52abe6256dbbd43ea9edb724eabaff04",
+      "text": "د علي د ټولو خبرونو بې‌استثنا ردول"
+    },
+    {
+      "unit_id": "hch_departure_q8:a:feedback_ar",
+      "source_text_sha256": "1682bd45f781e797600e44f8dea80a3e71c29b0b9f09b3fc0483b6b9a70f8c36",
+      "text": "د ابو بلج د لارې څېړنه د علي په اړه ټول خبرونه یا یې ټول الفاظ نه باطلوي."
+    },
+    {
+      "unit_id": "hch_departure_q8:b:text_ar",
+      "source_text_sha256": "62ea4a510ae2994d88251621b80c643e73a5581efba9850a139d8773d2fb5546",
+      "text": "په مخالف لفظ کې د هغه یوازې نه پاتې کېدل"
+    },
+    {
+      "unit_id": "hch_departure_q8:b:feedback_ar",
+      "source_text_sha256": "c6fa80b769af2cf6ef5833c88179e452dd770694264764ab6f7f1c3fdb786dc9",
+      "text": "د صویاني «لا بأس به» حکم په دې مقید دی چې ابو بلج په مخالف لفظ کې یوازې نه وي."
+    },
+    {
+      "unit_id": "hch_departure_q9:prompt_ar",
+      "source_text_sha256": "cce8aed0c0edc387ce605c916ff93713bc5d866586f9e071cd6c4334199cb77d",
+      "text": "په دې فصل کې د مکې د مینې خطاب په کوم ځای کې راغلی؟"
+    },
+    {
+      "unit_id": "hch_departure_q9:explanation_ar",
+      "source_text_sha256": "a79cb949bb71530407eedfcf59652edccaaec32d96eb35f5eaae318c17969755",
+      "text": "د حَزْوَرَې خبر د مکې په بازار کې د پېغمبر ﷺ ولاړېدل او مکې ته یې خطاب روایتوي، او ورسره د بیهقي د «محفوظ» تعقیب هم شته."
+    },
+    {
+      "unit_id": "hch_departure_q9:scope_note_ar",
+      "source_text_sha256": "3763dab9dcab182ffc58f060d7c68401f4bdc38d3599d5cd4585a4df8f267dbe",
+      "text": "حَزْوَرَه د روایت ځای دی، نه د بستر د صحنې مهال‌وېش."
+    },
+    {
+      "unit_id": "hch_departure_q9:a:text_ar",
+      "source_text_sha256": "dc16f7de7f1c1ea1cec6c74cb5d4f0baca7b8fb71b8264b45a45d234b390510a",
+      "text": "د ابن عدي بن الحمراء په روایت کې د حَزْوَرَې ترڅنګ"
+    },
+    {
+      "unit_id": "hch_departure_q9:a:feedback_ar",
+      "source_text_sha256": "efca1f604074f579d955aad004d214f4070576199a4c37a10b6944068dfb741a",
+      "text": "عبدالله بن عدي بن الحمراء د حَزْوَرَې په خوا کې مکې ته د پېغمبر ﷺ وینا روایتوي."
+    },
+    {
+      "unit_id": "hch_departure_q9:b:text_ar",
+      "source_text_sha256": "4588d424e52816fca1b87187b08af7b79c0ad1c52d3b8447c4369756c759c71b",
+      "text": "د غونډې په منځ کې د ابوجهل په وړاندیز کې"
+    },
+    {
+      "unit_id": "hch_departure_q9:b:feedback_ar",
+      "source_text_sha256": "1aeeba1c32a8b8c7b5bd40ca9e733a4373d487556bbd6a3ef8eb50ddd637a862",
+      "text": "د ابوجهل وړاندیز د وژلو د تدبیر په اړه دی، نه د مکې د مینې په اړه د پېغمبر ﷺ د وینا."
+    },
+    {
+      "unit_id": "hch_departure_q10:prompt_ar",
+      "source_text_sha256": "5c46d1e99ffa2a82271b4ddb865ac17215a28a98184b4a844dd8fc5ac16d0358",
+      "text": "بیهقي د حَزْوَرَې په سیاق کې ځینې نور روایتونه څنګه بیان کړي؟"
+    },
+    {
+      "unit_id": "hch_departure_q10:explanation_ar",
+      "source_text_sha256": "baaad29af03632c24312f1fb5660bd83ec2f090ccedee5d7823f3a2776a3a032",
+      "text": "بیهقي هغه دوه لارې وهم بولي چې په نوم یې یادې کړي، او د جماعت روایت غوره کوي؛ دا حکم د وتلو د ټولو خبرونو په اړه نه کوي."
+    },
+    {
+      "unit_id": "hch_departure_q10:scope_note_ar",
+      "source_text_sha256": "7a743ef55eeb2a93e77658452eb7e8cd015dbf3f5b1f3298a9ae2f2221cb903b",
+      "text": "د بیهقي د متن په سیاق کې د حَزْوَرَې د بڼو تر منځ د هغه ترجیح."
+    },
+    {
+      "unit_id": "hch_departure_q10:a:text_ar",
+      "source_text_sha256": "ba23493dba4e83d6a41bd8b55ff08993a2a95aeefb8f686162bab2f3e12897d1",
+      "text": "داسې چې د بستر ترڅنګ د لیدنې ساعت ټاکي"
+    },
+    {
+      "unit_id": "hch_departure_q10:a:feedback_ar",
+      "source_text_sha256": "3c6a4554bf1f1b16efbbe6947527a671416b7473899d412f51887f22d9a33653",
+      "text": "د بیهقي خبره په یادو لارو کې وهم بیانوي، او د بستر ترڅنګ د لیدنې ساعت نه ټاکي."
+    },
+    {
+      "unit_id": "hch_departure_q10:b:text_ar",
+      "source_text_sha256": "10fd70bb17757c8f62967a2d032c499c40e0508cf455afb1c10ff9e775d06f9b",
+      "text": "وهم یې بولي او د جماعت روایت وړاندې ګڼي"
+    },
+    {
+      "unit_id": "hch_departure_q10:b:feedback_ar",
+      "source_text_sha256": "a3b8e10007d13998e8c6b36f329bb120fa66fe7bebdf257d62e6a91edb6e5382",
+      "text": "بیهقي د معمر او د محمد بن عمرو د لارې وهم یادوي، بیا د جماعت روایت غوره ګڼي."
+    },
+    {
+      "unit_id": "hch_departure_issue_balj:note_ar",
+      "source_text_sha256": "560521ec0bfe211ada05352569e35fdd6f1debc6f0c890d1feded62f4d05ac8e",
+      "text": "د ابو بلج د لارې نقل شوی نقد مقید دی؛ هغه روایت چې صویاني پرې بحث کړی، متن یې د دې کار په ترڅ کې نه دی استخراج شوی، نو نه یې د جزئیاتو د اثبات لپاره کاروو او نه د علي د ټولو خبرونو د رد لپاره."
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p1:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ابن اسحاق"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p1:citation_ar",
+      "source_text_sha256": "bf333fc4c495b9e6581315e06c29615fa1d1ec3222700dbcea8ed48f56011db8",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/480](https://app.turath.io/book/23833?page=503)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p1:text_ar",
+      "source_text_sha256": "7485d691f1e2e6c2ac05939d5cdcd21877190d95f8d96e02c80f60ff9645e7d6",
+      "text": "ابن اسحاق وویل: کله چې قریشو ولیدل چې د الله رسول ﷺ له دوی پرته، د دوی له ښار پرته په بل ځای کې پلویان او ملګري موندلي، او خپل مهاجر ملګري یې هغوی ته وتلي ولیدل، پوه شول چې هغوی مېنه موندلې او د هغې له خلکو څخه یې ملاتړ ترلاسه کړی دی. نو وېرېدل چې د الله رسول ﷺ به هم ور ووځي، او پوه شول چې د دوی پر ضد د جګړې هوډ شوی. د هغه په اړه په دارالندوه کې راټول شول ـ دا د قصي بن کلاب کور و او قریشو به هېڅ پرېکړه له دې پرته بل ځای نه کوله ـ هلته یې په دې سلا کوله چې له رسول الله ﷺ سره څه وکړي، کله چې ترې ووېرېدل."
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p2:kind_ar",
+      "source_text_sha256": "05d2bed80a89d2f23576807baa894bfef8bf671b6018ff34f33dfac1ebc37df4",
+      "text": "سند یا د نقل تړاو"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p2:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ابن اسحاق"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p2:citation_ar",
+      "source_text_sha256": "bf333fc4c495b9e6581315e06c29615fa1d1ec3222700dbcea8ed48f56011db8",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/480](https://app.turath.io/book/23833?page=503)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p2:text_ar",
+      "source_text_sha256": "f95160871e5c2d02cf8e8427558de5dac2ad8e565f81f87068284acc3cdeded5",
+      "text": "ابن اسحاق وویل: زموږ له هغو ملګرو څخه چې زه پرې بدګومان نه یم، یوه کس راته له عبدالله بن ابي نجیح څخه، هغه له مجاهد بن جبیر [۲] ابو الحجاج څخه، او له نورو هغو کسانو څخه چې زه پرې بدګومان نه یم، د عبدالله بن عباس ﵄ له قوله خبر راکړ؛ هغه وویل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p3:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p3:speaker_ar",
+      "source_text_sha256": "70cb0d4eacc906da9d756f50557c0a4f2f50162281d38b115453ac44a2664415",
+      "text": "ابن عباس د ابن اسحاق په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p3:citation_ar",
+      "source_text_sha256": "bf333fc4c495b9e6581315e06c29615fa1d1ec3222700dbcea8ed48f56011db8",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/480](https://app.turath.io/book/23833?page=503)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_council:p3:text_ar",
+      "source_text_sha256": "d842b0934f5bbb12d7db1832e37789423ea5a025bb0329428c19dcf8dcbeb5b3",
+      "text": "کله چې یې پر دې هوډ وکړ او دارالندوه ته د رسول الله ﷺ په اړه د سلا لپاره د ننوتلو وعده یې سره وکړه، په ټاکلې ورځ سهار ورغلل. هغې ورځې ته «یوم الزحمة» ویل کېدل. نو ابلیس د یوه درانه سپین‌ږیري په بڼه د هغوی مخې ته راغی، [۳]"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p1:speaker_ar",
+      "source_text_sha256": "70cb0d4eacc906da9d756f50557c0a4f2f50162281d38b115453ac44a2664415",
+      "text": "ابن عباس د ابن اسحاق په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p1:citation_ar",
+      "source_text_sha256": "5880cca2eb7f22baf9c817d636d421ab0b902f3150f8e876b5c3a958c6122907",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/481](https://app.turath.io/book/23833?page=504)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p1:text_ar",
+      "source_text_sha256": "9cae9a8586373b45391168f20d150b5a67d2a3214559d44174551952dbc5a6ab",
+      "text": "چې «بتله» [۱] یې پر تن وه؛ د کور په دروازه ودرېد. کله چې یې د دروازې مخې ته ولاړ ولید، ویې ویل: دا سپین‌ږیری څوک دی؟"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p2:kind_ar",
+      "source_text_sha256": "208346cb50c080c1933698fb3ef31c2eee9ec8f4bf280098b53b8f742ffcade4",
+      "text": "په خبر کې خبرې اترې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p2:speaker_ar",
+      "source_text_sha256": "01f4b00a54b14a84ec0b0532c860ba255211fa19584cdc8cdd700b7abff29d23",
+      "text": "نجدي سپین‌ږیری د ابن عباس په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p2:citation_ar",
+      "source_text_sha256": "5880cca2eb7f22baf9c817d636d421ab0b902f3150f8e876b5c3a958c6122907",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/481](https://app.turath.io/book/23833?page=504)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p2:text_ar",
+      "source_text_sha256": "821ff59e8e9d857eb14fd6975d9f08876701ef3e4116a482c9cfbf3aa4ba80b3",
+      "text": "هغه وویل: د نجد د خلکو یو سپین‌ږیری دی [۲] چې ستاسو د ټاکلې غونډې خبر یې اورېدلی؛ درسره راغلی چې ستاسو خبرې واوري، او ښایي له ده څخه له یوه نظر او مشورې بې برخې پاتې نه شئ."
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p3:kind_ar",
+      "source_text_sha256": "49fc9560436ef3606e2b8a9469bca433881da2d490136f4fd894c425e66baea2",
+      "text": "تاریخي خبر او خبرې اترې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p3:speaker_ar",
+      "source_text_sha256": "70cb0d4eacc906da9d756f50557c0a4f2f50162281d38b115453ac44a2664415",
+      "text": "ابن عباس د ابن اسحاق په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p3:citation_ar",
+      "source_text_sha256": "5880cca2eb7f22baf9c817d636d421ab0b902f3150f8e876b5c3a958c6122907",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/481](https://app.turath.io/book/23833?page=504)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p3:text_ar",
+      "source_text_sha256": "c344fb2ae7b7e22f759150334a9dbef1b0fa46397ba07f3cad37347949f0987d",
+      "text": "هغوی وویل: هو، راننوځه. له هغوی سره ننووت. هلته د قریشو مشران راټول شوي وو: له بني عبد شمس څخه عتبه بن ربیعه، شیبه بن ربیعه او ابو سفیان بن حرب؛ له بني نوفل بن عبد مناف څخه طعیمه بن عدي، جبیر بن مطعم او حارث بن عامر بن نوفل؛ له بني عبد الدار بن قصي څخه نضر بن حارث بن کلده؛ له بني اسد بن عبد العزی څخه ابو البختري بن هشام، زمعه بن اسود بن مطلب او حکیم بن حزام؛ له بني مخزوم څخه ابوجهل بن هشام؛ له بني سهم څخه د حجاج زامن نبیه او منبه؛ له بني جمح څخه امیه بن خلف؛ او هغه کسان چې ورسره وو، او نور کسان چې له قریشو نه شمېرل کېدل."
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p4:kind_ar",
+      "source_text_sha256": "208346cb50c080c1933698fb3ef31c2eee9ec8f4bf280098b53b8f742ffcade4",
+      "text": "په خبر کې خبرې اترې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p4:speaker_ar",
+      "source_text_sha256": "ce89a2fc14312d963a6fbf39f745106d2db2e6d9d332bf6d908084d7026a1571",
+      "text": "د ابن عباس په روایت کې مشران"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p4:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p4:citation_ar",
+      "source_text_sha256": "5880cca2eb7f22baf9c817d636d421ab0b902f3150f8e876b5c3a958c6122907",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/481](https://app.turath.io/book/23833?page=504)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p4:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_debate:p4:text_ar",
+      "source_text_sha256": "6c03296e86b49ef14078dcbfdd0f6a2e2fff964de0f4c7ebc8336ab40ee84f4f",
+      "text": "نو ځینو یې نورو ته وویل: تاسو د دې سړي حالت لیدلی دی. پر الله قسم، موږ په دې نه شو ډاډمن کېدای چې له هغو نورو خلکو سره چې ورپسې روان دي، پر موږ برید ونه کړي؛ نو د ده په اړه یو نظر سره وټاکئ. وایي: سلا یې وکړه، بیا یوه وویل: په اوسپنو کې یې بندي کړئ، ورپسې دروازه پرې وتړئ او د ده په څېر پخوانیو شاعرانو، زهیر او نابغه او نورو، ته چې کوم مرګ رسېدلی، د هماغه تمه ورته وکړئ، تر څو ده ته هم ورسېږي [۳]. نجدي سپین‌ږیري وویل: نه، پر الله قسم، دا ستاسو لپاره ښه نظر نه دی. پر الله قسم، که یې لکه څنګه چې وایئ بندي کړئ، د هغه دعوت به د هغې دروازې له شا څخه چې پرې مو تړلې،"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p1:kind_ar",
+      "source_text_sha256": "208346cb50c080c1933698fb3ef31c2eee9ec8f4bf280098b53b8f742ffcade4",
+      "text": "په خبر کې خبرې اترې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p1:speaker_ar",
+      "source_text_sha256": "0c5d6bdb54565ee97c348e251cd8262250cb96e6d5f0cd6516e665b4e5ae821a",
+      "text": "د ابن عباس په روایت کې نجدي سپین‌ږیری"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p1:citation_ar",
+      "source_text_sha256": "e17f33ea6c60ac1d1bc5648e8f1ae56b6decc5cae7243bf334603a116c9805f7",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/482](https://app.turath.io/book/23833?page=505)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p1:text_ar",
+      "source_text_sha256": "28a516e187f3aee21b20fa8c7385ced35de5f249362120f8d5c521cf1736b1ce",
+      "text": "د ده ملګرو ته ورسېږي؛ نږدې ده چې هغوی پر تاسو برید وکړي، هغه مو له لاسه وباسي او د هغه په ملتیا پر تاسو په شمېر ډېر شي، تر څو ستاسو په چارو کې درباندې برلاسي شي. دا ستاسو لپاره ښه نظر نه دی، بل نظر ولټوئ. بیا یې سلا وکړه."
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p2:kind_ar",
+      "source_text_sha256": "208346cb50c080c1933698fb3ef31c2eee9ec8f4bf280098b53b8f742ffcade4",
+      "text": "په خبر کې خبرې اترې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p2:speaker_ar",
+      "source_text_sha256": "7386f705116e8533a69de44ec42901b37dfc39c9b8c26dd3f23fb2fadd7946c9",
+      "text": "د ابن عباس په روایت کې مشران او سپین‌ږیری"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p2:citation_ar",
+      "source_text_sha256": "e17f33ea6c60ac1d1bc5648e8f1ae56b6decc5cae7243bf334603a116c9805f7",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/482](https://app.turath.io/book/23833?page=505)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p2:text_ar",
+      "source_text_sha256": "bd41de4d00fe006c27c1bdb72f879c5379df14a8caa523b9bcd818d7e00d4aea",
+      "text": "بیا یوه وویل: له منځه به یې وباسو او له خپل ښاره به یې وشړو؛ کله چې له موږ څخه لرې شو، پر الله قسم، پروا نه کوو چې چېرته ولاړ شي او چېرته واوسي، تر څو زموږ له مخې ورک شي او له ده فارغ شو او خپل کار او یووالی لکه پخوا برابر کړو [۱]. نجدي سپین‌ږیري وویل: نه، پر الله قسم، دا ستاسو لپاره ښه نظر نه دی. آیا د ده د خبرو ښه‌والی او د بیان خوږوالی او هغه اغېز مو نه دی لیدلی چې په خپلو خبرو د سړیو پر زړونو کوي؟ پر الله قسم، که داسې وکړئ، دا خطر به مو پاتې وي چې د عربو یوې ډلې ته ورشي، د خپلو خبرو په مټ پرې برلاسی شي او هغوی یې پیروي وکړي، بیا به یې له ځان سره ستاسو پر لور راولي او ستاسو په خپله خاوره کې به مو تر پښو لاندې کړي؛ واک به مو له لاسه واخلي او بیا به درسره چې څه غواړي هماغه وکړي. د ده په اړه له دې پرته بله لار وسنجوئ [۲]."
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p3:kind_ar",
+      "source_text_sha256": "208346cb50c080c1933698fb3ef31c2eee9ec8f4bf280098b53b8f742ffcade4",
+      "text": "په خبر کې خبرې اترې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p3:speaker_ar",
+      "source_text_sha256": "d8e8c5db2abb55c24035ed651e480f16f78de14acb97041cbefe4fff61cb5f32",
+      "text": "د ابن عباس په روایت کې ابوجهل، مشران او سپین‌ږیری"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p3:citation_ar",
+      "source_text_sha256": "e17f33ea6c60ac1d1bc5648e8f1ae56b6decc5cae7243bf334603a116c9805f7",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/482](https://app.turath.io/book/23833?page=505)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_decision:p3:text_ar",
+      "source_text_sha256": "a79da72add320c58b7b31bfa5c74dfa32c4183acd4732a3bed9a257b968905b7",
+      "text": "وایي: بیا ابوجهل بن هشام وویل: پر الله قسم، زه یې په اړه داسې نظر لرم چې تاسو لا نه دی موندلی. هغوی وویل: اې ابوالحکم، هغه څه دی؟ ویې ویل: زما نظر دا دی چې له هرې قبیلې څخه یو تکړه ځوان، د ښه نسب او په موږ کې د ښه مقام خاوند [۳] واخلو، هر یوه ته تېره توره ورکړو، بیا ټول ورشي او د یوه کس په شان په یوه ګوزار یې ووهي او ویې وژني؛ نو له ده به خلاص شو. که داسې وکړي، وینه به یې په ټولو قبیلو ووېشل شي او بني عبد مناف به د خپلو ټولو خلکو د جګړې وس ونه لري؛ له موږ څخه به په دیت راضي شي، نو دیت به ورکړو. وایي: نجدي سپین‌ږیري وویل: همدا چې دې سړي وویل، سمه خبره ده؛ له دې پرته بل مناسب نظر نشته. خلک پر همدې نظر سره، په دې هوکړه، تیت شول."
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p1:speaker_ar",
+      "source_text_sha256": "70cb0d4eacc906da9d756f50557c0a4f2f50162281d38b115453ac44a2664415",
+      "text": "ابن عباس د ابن اسحاق په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p1:citation_ar",
+      "source_text_sha256": "e17f33ea6c60ac1d1bc5648e8f1ae56b6decc5cae7243bf334603a116c9805f7",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/482](https://app.turath.io/book/23833?page=505)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p1:text_ar",
+      "source_text_sha256": "842b85aa515e4c401618aa97ffd5067e6d188e6aef16272cc0ee416b263c72de",
+      "text": "بیا جبرئیل ﵇ د الله رسول ﷺ ته راغی،"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p2:kind_ar",
+      "source_text_sha256": "0a32d1ddb5f4c2ce05bd60efb4f89652500fb82f0f4187ac479628ede90b0893",
+      "text": "د جبرئیل نقل شوې وینا"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p2:speaker_ar",
+      "source_text_sha256": "4a02e870a308bf6e2b56b7cde3981bb242025da66c0f61a233e8a15096932324",
+      "text": "جبرئیل د ابن عباس په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p2:citation_ar",
+      "source_text_sha256": "e17f33ea6c60ac1d1bc5648e8f1ae56b6decc5cae7243bf334603a116c9805f7",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/482](https://app.turath.io/book/23833?page=505)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p2:text_ar",
+      "source_text_sha256": "aa1f91cc0d7a735e3b3a62a2140112d63845a0a8b05c3878acc683dafb571a1f",
+      "text": "او ویې ویل: نن شپه پر هغه بستر مه ویده کېږه چې پخوا پرې ویده کېدې."
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p3:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p3:speaker_ar",
+      "source_text_sha256": "70cb0d4eacc906da9d756f50557c0a4f2f50162281d38b115453ac44a2664415",
+      "text": "ابن عباس د ابن اسحاق په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p3:citation_ar",
+      "source_text_sha256": "e17f33ea6c60ac1d1bc5648e8f1ae56b6decc5cae7243bf334603a116c9805f7",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/482](https://app.turath.io/book/23833?page=505)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p3:text_ar",
+      "source_text_sha256": "dd3ab45cd45a3e8cb04deb36d62df4c95b88ce33573dd9e4605c541b97dc018d",
+      "text": "وایي: کله چې د شپې تیاره شوه، هغوی د هغه د کور مخې ته راټول شول او څارل یې چې کله ویده شي، څو ورباندې برید وکړي. کله چې د الله رسول ﷺ د هغوی ځای ولید، علي بن ابي طالب ته یې وویل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p4:kind_ar",
+      "source_text_sha256": "5fc95207f4b1b22fe50f9431cc10590708acf7abcc74b92c12bfcd4b8a07f8b6",
+      "text": "د پېغمبر ﷺ نقل شوې وینا"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p4:speaker_ar",
+      "source_text_sha256": "d1c05252981f5b698ee2705d1fc90adf59274a0a1283485a081de7e65f6b56f1",
+      "text": "پېغمبر ﷺ د ابن عباس په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p4:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p4:citation_ar",
+      "source_text_sha256": "e17f33ea6c60ac1d1bc5648e8f1ae56b6decc5cae7243bf334603a116c9805f7",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/482](https://app.turath.io/book/23833?page=505)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p4:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_bed:p4:text_ar",
+      "source_text_sha256": "cf1010a0bbfc62dccbcb0934e177cf0066d8f0def5f26bfd6c28e6d1cce3ee69",
+      "text": "زما پر بستر ویده شه او زما په دې څادر کې ځان وپوښه،"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p1:kind_ar",
+      "source_text_sha256": "f8798026d90ff003e6d52ba61dca5c267f77d3ede1e5cf7ddcd24462b6072f6b",
+      "text": "د پېغمبر ﷺ د نقل شوې وینا دوام"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p1:speaker_ar",
+      "source_text_sha256": "d1c05252981f5b698ee2705d1fc90adf59274a0a1283485a081de7e65f6b56f1",
+      "text": "پېغمبر ﷺ د ابن عباس په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p1:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p1:text_ar",
+      "source_text_sha256": "de862d87253c13d2efe97616c83c219edf6271fad24692a5fcf96ab815bafb47",
+      "text": "چې شین حضرمي دی؛ په همدې کې ویده شه، ځکه له هغوی څخه به درته هېڅ داسې څه در ونه رسېږي چې نه یې خوښوې."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p2:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p2:speaker_ar",
+      "source_text_sha256": "70cb0d4eacc906da9d756f50557c0a4f2f50162281d38b115453ac44a2664415",
+      "text": "ابن عباس د ابن اسحاق په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p2:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p2:text_ar",
+      "source_text_sha256": "a3366c3be7b521b2088f8ecf56fff2a856ed54dffd985c66003a55bd75d8700b",
+      "text": "او د الله رسول ﷺ به چې ویده کېده، په همدغه څادر کې ویده کېده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p3:kind_ar",
+      "source_text_sha256": "05d2bed80a89d2f23576807baa894bfef8bf671b6018ff34f33dfac1ebc37df4",
+      "text": "سند یا د نقل تړاو"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p3:speaker_ar",
+      "source_text_sha256": "bc6dbab07a452236bd55b569b4b6e1d0f8c3cf904069b5ff0796909837a38824",
+      "text": "ابن اسحاق له یزید بن زیاد څخه، هغه له محمد بن کعب قرظي څخه"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p3:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p3:text_ar",
+      "source_text_sha256": "616bdace967e9f157093e1db151a10462525915f6936bb6d6cf90ef236c4432e",
+      "text": "ابن اسحاق وویل: یزید بن زیاد راته له محمد بن کعب قرظي څخه خبر راکړ؛ هغه وویل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p4:kind_ar",
+      "source_text_sha256": "6d1e03e70d94d636dc4967bbcd890e23635619be450273bb7cb516c84eaca5b5",
+      "text": "د ابوجهل د خبرو پېژندنه"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p4:speaker_ar",
+      "source_text_sha256": "e7d8e3ec4b87a2c5e0186bc1ba5c37379c59a1d00f518e47491e24ae6ff0b2b6",
+      "text": "محمد بن کعب قرظي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p4:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p4:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p4:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p4:text_ar",
+      "source_text_sha256": "13c448917669e28ba49b0b2724f914a13cacd8715950bfa12f0665de8ba95f11",
+      "text": "کله چې د هغه [پېغمبر ﷺ] پر ضد راټول شول او ابوجهل بن هشام هم ورسره و، نو ابوجهل، چې هغوی د پېغمبر ﷺ د کور په دروازه کې وو، وویل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p5:kind_ar",
+      "source_text_sha256": "64a535851fe06068872cfc0a15b0369f4cdcf4fec891a826d851e01e0e6c0470",
+      "text": "د ابوجهل نقل شوې خبرې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p5:speaker_ar",
+      "source_text_sha256": "2a557a6e2c7a37d37e0dec3d2360b7ea912b088a003c91ff0dd7f5f7974841a3",
+      "text": "ابوجهل د محمد بن کعب په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p5:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p5:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p5:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p5:text_ar",
+      "source_text_sha256": "ec600892fc6056671fa3741d5ee3fb5959892fc564beee5896e22ae0b05d33fe",
+      "text": "محمد ادعا کوي چې که تاسو یې د امر پیروي وکړئ، د عربو او عجمو پاچایان به شئ؛ بیا به تر مرګ وروسته راژوندي شئ او ستاسو لپاره به د اردن د باغونو په څېر جنتونه جوړ شي. او که داسې ونه کړئ، دی به مو ووژني؛ بیا به تر مرګ وروسته راژوندي شئ او ستاسو لپاره به اور وي چې پکې سوځول کېږئ."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p6:kind_ar",
+      "source_text_sha256": "139003466886b017944f148dd24aa77543e43290559b0613f4bbd8c0798115d3",
+      "text": "د پېغمبر ﷺ د ځواب پېژندنه"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p6:speaker_ar",
+      "source_text_sha256": "e7d8e3ec4b87a2c5e0186bc1ba5c37379c59a1d00f518e47491e24ae6ff0b2b6",
+      "text": "محمد بن کعب قرظي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p6:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p6:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p6:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p6:text_ar",
+      "source_text_sha256": "7934a4bf3bdc8aab93d45963308b9dd80e32195332fbbec33c3a09697155de5b",
+      "text": "وایي: د الله رسول ﷺ هغوی ته راووت، په لاس کې یې یوه لپه خاوره واخیسته، بیا یې وویل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p7:kind_ar",
+      "source_text_sha256": "5fc95207f4b1b22fe50f9431cc10590708acf7abcc74b92c12bfcd4b8a07f8b6",
+      "text": "د پېغمبر ﷺ نقل شوې وینا"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p7:speaker_ar",
+      "source_text_sha256": "16b67b8d4b7be6bff85275637e689725eb6eec79bf146c0920720d0abc2e08a9",
+      "text": "پېغمبر ﷺ د محمد بن کعب په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p7:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p7:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p7:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p7:text_ar",
+      "source_text_sha256": "f58a11b2a92054f297b5ff0c0c5fc3f86b25febef928f16386e1a87ec893a56a",
+      "text": "زه همدا وایم؛ ته هم له هغوی څخه یو یې."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p8:kind_ar",
+      "source_text_sha256": "7638cbc70266a484ce66467a391c7c1392bd1efe554c958b356b3afc1daf5864",
+      "text": "د خاورو د شیندلو او تلاوت خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p8:speaker_ar",
+      "source_text_sha256": "e7d8e3ec4b87a2c5e0186bc1ba5c37379c59a1d00f518e47491e24ae6ff0b2b6",
+      "text": "محمد بن کعب قرظي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p8:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p8:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p8:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p8:text_ar",
+      "source_text_sha256": "d3ebbe87714ba52638de625e568c7b5e9052236c948dcb2ccb33d9679410febe",
+      "text": "الله تعالی د هغه د لیدو پر وړاندې د هغوی سترګې بندې کړې؛ نو هغه یې نه لیده. هغه د هغوی پر سرونو خاوره شیندله او د یاسین سورت دا آیتونه یې لوستل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p9:kind_ar",
+      "source_text_sha256": "603409adc10c80341db080c0f5ac5974df675691a423d3f54c056a00ae0dd4e2",
+      "text": "رااخیستل شوی قرآني متن"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p9:speaker_ar",
+      "source_text_sha256": "73f837d9e0f14793f376389aced9c055e25ac74b92778f966624c1f28cabc989",
+      "text": "قرآن د محمد بن کعب په خبر کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p9:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p9:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p9:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p9:text_ar",
+      "source_text_sha256": "b2aefc68371620e679ed6dca37e26d54e6ae8278a92ec5dcf541078feb719e71",
+      "text": "یس. پر حکمت ډک قرآن قسم، بېشکه ته له رسولانو څخه یې، پر نېغه لار یې؛ دا د برلاسي او مهربان ذات له خوا نازل شوی دی."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p10:kind_ar",
+      "source_text_sha256": "552327cead633d48323ec554726d2bbe97fb4f90fe9df7b3cdf6e766995bf398",
+      "text": "د آیت د لنډون څرګندونه"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p10:speaker_ar",
+      "source_text_sha256": "77d3a272d7111537e0e1b1ac56c3e4a11f5c5f4be0b6b60cfef37202ab28bdf5",
+      "text": "د محمد بن کعب په خبر کې د سرچینې متن"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p10:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p10:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p10:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p10:text_ar",
+      "source_text_sha256": "de7e888ce984c0ba20e4b39d587ed7c0b56ff204d0733ccdfd4e38949259f802",
+      "text": "۳۶: ۱–۵ ... تر دې وینا پورې:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p11:kind_ar",
+      "source_text_sha256": "603409adc10c80341db080c0f5ac5974df675691a423d3f54c056a00ae0dd4e2",
+      "text": "رااخیستل شوی قرآني متن"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p11:speaker_ar",
+      "source_text_sha256": "73f837d9e0f14793f376389aced9c055e25ac74b92778f966624c1f28cabc989",
+      "text": "قرآن د محمد بن کعب په خبر کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p11:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p11:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p11:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p11:text_ar",
+      "source_text_sha256": "0c8f00391acc1b2881a303475afb54a1565337896ef8c72f1a2e5e8a3515c45d",
+      "text": "نو موږ یې پوښلي دي، ځکه نو هغوی نه ویني."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p12:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p12:speaker_ar",
+      "source_text_sha256": "e7d8e3ec4b87a2c5e0186bc1ba5c37379c59a1d00f518e47491e24ae6ff0b2b6",
+      "text": "محمد بن کعب قرظي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p12:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p12:citation_ar",
+      "source_text_sha256": "c4b068ed6ded1ecc31fe643d1e4de35bc3ec4d80fbb12164ec2b178e69cc5b3d",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/483](https://app.turath.io/book/23833?page=506)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p12:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_exit:p12:text_ar",
+      "source_text_sha256": "60c8618e0fe66e981a3ebc1d193dc66945fb10ca76c6597e19e382dc7c25aaa3",
+      "text": "۳۶: ۹ کله چې د الله رسول ﷺ د دې آیتونو له لوستلو فارغ شو، په هغوی کې داسې یو سړی نه و پاتې چې پر سر یې خاوره نه وي اېښې. بیا چېرته چې یې د تلو اراده وه، هلته ولاړ. له هغو کسانو څخه چې ورسره نه و، یو کس ورته راغی او ویې ویل: دلته د څه په تمه یاست؟ هغوی وویل: د محمد. ویې ویل: الله دې مو بې‌مراده کړي! پر الله قسم، محمد ستاسو له منځه ووت او ستاسو له هر یوه سره یې همدا وکړل چې خاوره یې پر سر ور واچوله، بیا په خپل کار پسې ولاړ؛ آیا پر ځانونو مو دا نه وینئ؟ وایي: هر یوه پر خپل سر لاس کېښود؛ خاوره پرې وه. بیا بستر ته ورکتل؛ علي یې د الله د رسول ﷺ په څادر کې پټ، پر بستر ولید. هغوی ویل: پر الله قسم، دا محمد دی چې ویده دی او خپل څادر یې پر ځان دی. په همدې حال کې پاتې شول تر څو سهار شو [۱]. بیا علي ﵁ له بستر څخه پاڅېد، نو هغوی وویل: پر الله قسم، هغه سړي موږ ته رښتیا ویلي وو."
+    },
+    {
+      "unit_id": "sp_departure_chapter_trust:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_trust:p1:speaker_ar",
+      "source_text_sha256": "82c29c6a45b0cba3ec98083f2e419989dfadc1deeb185891254f8e098fa0fee7",
+      "text": "ابن اسحاق؛ متن د «فِيمَا بَلَغَنِي» عبارت خوندي ساتي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_trust:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_trust:p1:citation_ar",
+      "source_text_sha256": "2b61f0ed6742c508520301dbe6ec11eec68f628aa03ad9ebd6cfd04d2f45a509",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/485](https://app.turath.io/book/23833?page=508)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_trust:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_trust:p1:text_ar",
+      "source_text_sha256": "ddbf87b20caf6ffb8b13eda7b28518990a198e32eaf99c49732630261cba2ba1",
+      "text": "ابن اسحاق وویل: تر کومه چې راته رسېدلي، کله چې د الله رسول ﷺ ووت، د هغه له وتلو پرته له علي بن ابي طالب، ابوبکر صدیق او د ابوبکر له کورنۍ بل څوک خبر نه و. علي ته د الله رسول ﷺ، تر کومه چې راته رسېدلي، د خپل وتلو خبر ورکړ او امر یې ورته وکړ چې له ده وروسته په مکه کې پاتې شي او د خلکو هغه امانتونه د رسول الله ﷺ له خوا بېرته وسپاري چې له ده سره وو. په مکه کې به هر چا چې داسې څه لرل چې د له منځه تلو وېره یې پرې وه، د رسول الله ﷺ د رښتینولۍ او امانتدارۍ له امله به یې له هغه سره اېښودل."
+    },
+    {
+      "unit_id": "sp_departure_chapter_arrival:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_arrival:p1:speaker_ar",
+      "source_text_sha256": "d67d98b688b1ed4e3e58d129f78158f7254e4dfac99c1002762f9bb6cfe553a8",
+      "text": "ابن اسحاق په مخکیني سیاق کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_arrival:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_arrival:p1:citation_ar",
+      "source_text_sha256": "b45d8bc7a3c5aa678a94043cec93afe2fa033dc6c4a0435530ec7d2bbf21e023",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/493](https://app.turath.io/book/23833?page=516)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_arrival:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_arrival:p1:text_ar",
+      "source_text_sha256": "0b9beee47e62c7b8179e5f753febfa0e39ef9047c18e677fddc0bb8f7eb5d3a9",
+      "text": "علي بن ابي طالب ﵇ په مکه کې درې شپې او د هغو ورځې پاتې شو، تر څو یې د خلکو امانتونه چې له رسول الله ﷺ سره وو د هغه له خوا وسپارل. چې له دې فارغ شو، د الله رسول ﷺ ته ورسېد او له هغه سره د کلثوم بن هدم په کور کې مېشت شو."
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p1:kind_ar",
+      "source_text_sha256": "506a231511f970fef03b86057846db7ac9cab630e954622037b43b6085329e50",
+      "text": "سند"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p1:speaker_ar",
+      "source_text_sha256": "ac50563ad08ee6e994c4f065a5826eaa2ed722861cbcbda021d57692c74971a8",
+      "text": "بیهقي تر عروه پورې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p1:citation_ar",
+      "source_text_sha256": "0e86c7b30b95babb9a7129c6b312c61de829d54eb9550463fdf1abf2c58f462e",
+      "text": "[دلائل النبوة ـ بیهقي، 2/465](https://app.turath.io/book/7478?page=986)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p1:text_ar",
+      "source_text_sha256": "44f158780984976c25af580d5198965707e96b92331be000a191ea8cafa29f38",
+      "text": "— ابو الحسین بن الفضل القطان په بغداد کې موږ ته خبر راکړ؛ ویې ویل: عبدالله بن جعفر موږ ته خبر راکړ؛ ویې ویل: یعقوب بن سفیان موږ ته روایت وکړ؛ ویې ویل: عمرو بن خالد موږ ته روایت وکړ، له ابن لهیعه څخه، هغه له ابو الاسود څخه، هغه له عروه بن زبیر څخه؛ عروه وویل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p2:kind_ar",
+      "source_text_sha256": "3953a412fae6cefd0348aa3755adc69ebbd2c1468171563f0796d1b6523170e1",
+      "text": "د عروه خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p2:speaker_ar",
+      "source_text_sha256": "e1f476ce86f848f240e87594e7053f77fa0e53701e431fd39378918e610170f0",
+      "text": "عروه بن زبیر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p2:citation_ar",
+      "source_text_sha256": "0e86c7b30b95babb9a7129c6b312c61de829d54eb9550463fdf1abf2c58f462e",
+      "text": "[دلائل النبوة ـ بیهقي، 2/465](https://app.turath.io/book/7478?page=986)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p2:text_ar",
+      "source_text_sha256": "59e697b22bc0ad1945b14f2af746f57c3578a137a477e92c69f57d547fea3763",
+      "text": "«د الله رسول ﷺ له حج وروسته د ذوالحجې پاتې موده، محرم او صفر تېر کړل. بیا د قریشو مشرکانو خپل کار او دسیسه سره جوړه کړه چې رسول الله ﷺ ونیسي: یا یې ووژني، یا یې بندي کړي، یا یې وشړي او یا یې وتړي. الله ﷿ هغه ته د دوی د دسیسې خبر ورکړ:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p3:kind_ar",
+      "source_text_sha256": "603409adc10c80341db080c0f5ac5974df675691a423d3f54c056a00ae0dd4e2",
+      "text": "رااخیستل شوی قرآني متن"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p3:speaker_ar",
+      "source_text_sha256": "d1dfc614823dce7bf5c7ae35446483b3053957809ed9c281457cf135c7f6a509",
+      "text": "قرآن د عروه په خبر کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p3:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p3:citation_ar",
+      "source_text_sha256": "0e86c7b30b95babb9a7129c6b312c61de829d54eb9550463fdf1abf2c58f462e",
+      "text": "[دلائل النبوة ـ بیهقي، 2/465](https://app.turath.io/book/7478?page=986)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p3:text_ar",
+      "source_text_sha256": "849c3f20b0c914bb56d2619504d916a1462f94b0137f71bea893b157db24301c",
+      "text": "او هغه وخت چې کافرانو ستا پر ضد دسیسه جوړوله چې تا بندي کړي، یا دې ووژني، یا دې وباسي؛ هغوی چلونه جوړوي او الله هم تدبیر کوي، او الله تر ټولو ښه تدبیر کوونکی دی."
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p4:kind_ar",
+      "source_text_sha256": "3953a412fae6cefd0348aa3755adc69ebbd2c1468171563f0796d1b6523170e1",
+      "text": "د عروه خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p4:speaker_ar",
+      "source_text_sha256": "e1f476ce86f848f240e87594e7053f77fa0e53701e431fd39378918e610170f0",
+      "text": "عروه بن زبیر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p4:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p4:citation_ar",
+      "source_text_sha256": "0e86c7b30b95babb9a7129c6b312c61de829d54eb9550463fdf1abf2c58f462e",
+      "text": "[دلائل النبوة ـ بیهقي، 2/465](https://app.turath.io/book/7478?page=986)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p4:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_urwa:p4:text_ar",
+      "source_text_sha256": "e82beaf5d588c14a44c1f71b5ffdef0d71e2f5e1af07bbee5efb5304fcb30d9d",
+      "text": "[(۲)]. نو د الله رسول ﷺ او ابوبکر د شپې له تیارو څخه د ثور غار پر لور ووتل؛ او علي ﵁ د الله د رسول ﷺ پر بستر پرېووت، څو هغه له سترګو پټ وساتي»."
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw1:p1:kind_ar",
+      "source_text_sha256": "d41fd3d76c70cbd8c678e6551e202342f46b6c95eabd7b5f4e180bc79fe6785e",
+      "text": "د حدیث نقد، د یوه حدیثي اثر لیکوال ته منسوب"
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw1:p1:speaker_ar",
+      "source_text_sha256": "95b2927c5222d078b9be4ea3f0aa636052165729fd797e66a5a6fa8072685387",
+      "text": "محمد صویاني د تخریج په حاشیه (۲) کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw1:p1:book_ar",
+      "source_text_sha256": "0d3487244928de91f20029b682d5c1ffa6847211447f2311aecf5b12ef3beb4f",
+      "text": "السيرة النبوية كما جاءت في الأحاديث الصحيحة"
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw1:p1:citation_ar",
+      "source_text_sha256": "20028e1ae17d8eca7dba4ecbba7fb4b6165ac345a53d1075c0444fd5a678bf41",
+      "text": "[السيرة النبوية كما جاءت في الأحاديث الصحيحة، 1/254](https://app.turath.io/book/123668?page=252)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw1:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw1:p1:text_ar",
+      "source_text_sha256": "1296c87ee33eb46ad398498fe83c99625cec9ae500f5250b09c05a182eda8f62",
+      "text": "(۲) دا حدیث د خپلو لارو له مخې حسن دی. ابن اسحاق روایت کړی، او طبري هم د هغه له لارې (۲/۳۷۰) په څو لارو نقل کړی چې پکې یې د اورېدو څرګندونه کړې: له کلبي څخه، هغه له ابو صالح څخه، هغه له ابن عباس څخه یې اورېدلی؛ له دې لارې څخه خوښي نه ترلاسه کېږي، ځکه کلبي پکې دی او هغه سخت کمزوری دی. دویمه لاره د حسن بن عماره له حکم بن عتیبه، هغه له مقسم او هغه له ابن عباس څخه ده؛ دا حسن متروک دی. د درېیمې لارې راویان ثقه دي: عبدالله بن ابي نجیح له مجاهد بن جبیر څخه، هغه له ابن عباس څخه راته روایت وکړ. مجاهد یو پېژندل شوی، ثقه تابعي امام دی؛ عبدالله بن ابي نجیح ثقه دی، خو کله ناکله یې تدلیس کړی، یعنې لږ تدلیس کوي. حدیث داسې شواهد لري چې بېشکه حسن یې ګرځوي: عبدالرزاق په صحیح سند له قتاده څخه (۵/۳۸۹) په مرسل ډول روایت کړی، او همدا شاهد بس دی. همدارنګه له واقدي څخه بل شاهد لري: له علي، عایشې او سراقه څخه څو سندونه؛ او واقدي متروک دی."
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw2:p1:kind_ar",
+      "source_text_sha256": "75db96d062870fac64c46dcefb9edcbc5398a8f99d79a059697f69c2f7f8f2b5",
+      "text": "په وروستۍ څېړنه کې نقد"
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw2:p1:speaker_ar",
+      "source_text_sha256": "b57ce0d8fb0f0f600ee79566491c1bca9c2f28d67c331eee00f806c4f7a4ea4a",
+      "text": "محمد صویاني"
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw2:p1:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw2:p1:citation_ar",
+      "source_text_sha256": "ee0f928ab68ff806615ecbf0ebe67903b9a6f442a40555d57ba44ce9147383e5",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/141](https://app.turath.io/book/123669?page=141)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw2:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_saw2:p1:text_ar",
+      "source_text_sha256": "029e6ec839ebb74278120c059ea8ed91dc4b85a589a883799204165658cc02b6",
+      "text": "[درجه: حدیث د ابلیس د یادونې پرته حسن دی. طبري یې په تاریخ کې (۱–۵۶۶) د ابن اسحاق له لارې روایت کړی. دا سند د خپلو لارو له مخې حسن دی: ابن اسحاق له کلبي، هغه له ابو صالح، هغه له ابن عباس څخه اورېدلی؛ له دې لارې څخه خوښي نه ترلاسه کېږي، ځکه کلبي پکې دی او هغه سخت کمزوری دی. دویمه لاره د حسن بن عماره له حکم بن عتیبه، هغه له مقسم، هغه له ابن عباس څخه ده؛ او دا حسن متروک دی. د درېیمې لارې راویان ثقه دي: عبدالله بن ابي نجیح راته له مجاهد بن جبیر، هغه له ابن عباس څخه روایت وکړ. مجاهد یو پېژندل شوی ثقه تابعي امام دی، او عبدالله بن ابي نجیح ثقه دی، خو کله ناکله یې تدلیس کړی، یعنې لږ تدلیس کوي. حدیث داسې شواهد لري چې بېشکه یې پیاوړی کوي: عبدالرزاق په صحیح سند له معمر، هغه له قتاده څخه (۵–۳۸۹) په مرسل ډول روایت کړی، او دا شاهد بس دی. همدارنګه له واقدي څخه بل شاهد لري: له علي، عایشې او سراقه څخه څو سندونه. واقدي متروک دی؛ او ۹مه شمېره حدیث وګورئ]."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p1:kind_ar",
+      "source_text_sha256": "dbf7332b2c3c3dd307826d661972296e9a2b639e63eea14d283516c9f12039b6",
+      "text": "د نقد استدلال"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p1:speaker_ar",
+      "source_text_sha256": "fffbf8c557c1147cfcc7a15cdff24fb6a82cecb0a065f0a112afd0613a7ab0d6",
+      "text": "صویاني"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p1:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p1:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p1:text_ar",
+      "source_text_sha256": "de26aa3709d7a0ca02b7d4b19c198deb16c8a7dddeb9ced3dce07c55e7ff9e34",
+      "text": "[درجه: سند یې قوي دی؛ امام احمد بن حنبل هم روایت کړی (۱–۳۳۱):"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p2:kind_ar",
+      "source_text_sha256": "56b13c619636a3d17ed713f89592b0b87314bab54483c9eec984abaf956f1b52",
+      "text": "نقل شوی د متابعت سند"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p2:speaker_ar",
+      "source_text_sha256": "3ea95990ecc85ec35a1731cc988ba5498ddcd9a77934ce8504a020aaa057cb97",
+      "text": "احمد، د صویاني په نقل"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p2:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p2:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p2:text_ar",
+      "source_text_sha256": "2a1a0ec1198531d3d70261bef61a58a23175545f5147c17957243ddcfbd0b734",
+      "text": "ابو مالک کثیر بن یحیی موږ ته روایت وکړ، ویې ویل: ابو عوانه راته له ابو بلج، هغه له عمرو بن میمون، هغه له ابن عباس څخه دې ته ورته خبر روایت کړ."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p3:kind_ar",
+      "source_text_sha256": "dbf7332b2c3c3dd307826d661972296e9a2b639e63eea14d283516c9f12039b6",
+      "text": "د نقد استدلال"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p3:speaker_ar",
+      "source_text_sha256": "fffbf8c557c1147cfcc7a15cdff24fb6a82cecb0a065f0a112afd0613a7ab0d6",
+      "text": "صویاني"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p3:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p3:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p3:text_ar",
+      "source_text_sha256": "f637f7011958882ef3e9e4cffb926ea3d60124c7bfcb8bf8516c39a722a9f90f",
+      "text": "او حاکم (۳–۵) او طبراني په المعجم الکبیر (۱۲–۹۷) کې له ابو عوانه څخه روایت کړی. دا سند، تر څو ابو بلج په مخالف لفظ کې یوازې نه وي، «لا بأس به» دی. ما یې حدیثونه پلټلي او د تشیع نښې مې پکې لیدلي، او په ځینو کې یې منکر الفاظ دي، او ("
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p4:kind_ar",
+      "source_text_sha256": "c896ef23902ba09561b4ec8216de64fe48e5724a5fad24e41bb636e727ad20db",
+      "text": "نقل شوی توثیق"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p4:speaker_ar",
+      "source_text_sha256": "13bd0d6a5f7d2246e73269b349c6c64f7d705531b0fb8c8796032fc7b11ecbeb",
+      "text": "صویاني د ابن معین او نورو په نقل"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p4:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p4:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p4:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p4:text_ar",
+      "source_text_sha256": "060213150906817f9e378bdb9c06de751de657a068420f34657e425e14e853e9",
+      "text": "اسحاق بن منصور له یحیی بن معین څخه روایت کړی چې هغه یې ثقه بللی؛ محمد بن سعد، نسائي او دارقطني هم همداسې ویلي دي."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p5:kind_ar",
+      "source_text_sha256": "18112b81f6dc4758c6fd2b5aa3a46089b6fb7e56f372af4e17e6833ac5546dc1",
+      "text": "د نقدي وینا پېژندنه"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p5:speaker_ar",
+      "source_text_sha256": "fffbf8c557c1147cfcc7a15cdff24fb6a82cecb0a065f0a112afd0613a7ab0d6",
+      "text": "صویاني"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p5:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p5:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p5:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p5:text_ar",
+      "source_text_sha256": "90a59468a3c43440024954a283eabbb562165e992c460c4cdb24b58ccc01f056",
+      "text": "او ابو حاتم وویل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p6:kind_ar",
+      "source_text_sha256": "4739f4ee73a152e37ce941018c1c94060f21fa6d3256381d8774d651148c5978",
+      "text": "نقل شوی حکم"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p6:speaker_ar",
+      "source_text_sha256": "34175c6d942e5670c9efb8f06845c1b043c8a1ac3933a1d5ebe35774f0a29c6b",
+      "text": "ابو حاتم"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p6:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p6:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p6:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p6:text_ar",
+      "source_text_sha256": "d174bf95ef0dd9dda09dc703a508892228843c40851a62bd836905fd0eeb653c",
+      "text": "په حدیث کې صالح دی، «لا بأس به»؛ یعنې د حدیث روایت یې د منلو وړ دی."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p7:kind_ar",
+      "source_text_sha256": "7f762caf77feefc2626a0c589fd5e9082247beca7751fcec103d528354a435f4",
+      "text": "د یوې حکایت نقل"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p7:speaker_ar",
+      "source_text_sha256": "63e2ddfb3c5cf05e2c8e8ae3d23d1c8d442d9c2220422fb3be71176c70e6734b",
+      "text": "صویاني له ابن سعد څخه"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p7:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p7:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p7:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p7:text_ar",
+      "source_text_sha256": "f57a9fb197884b0f7a774b4575c7826441fcd6190fff3a390b7cc75d2f11f9c5",
+      "text": "محمد بن سعد وویل: یزید بن هارون ویلي: ما ابو بلج لیدلی و، زموږ ګاونډی و؛ کوترې یې ساتلې او پرې یې زړه خوشحالوه، او ډېر به یې الله یاداوه."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p8:kind_ar",
+      "source_text_sha256": "5c80e54605ba2dc121f315e2252218dd55401502cf4ed57e24555b9245de19b5",
+      "text": "د جرحې پېژندنه"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p8:speaker_ar",
+      "source_text_sha256": "fffbf8c557c1147cfcc7a15cdff24fb6a82cecb0a065f0a112afd0613a7ab0d6",
+      "text": "صویاني"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p8:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p8:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p8:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p8:text_ar",
+      "source_text_sha256": "870541e581f660328d63187bfd8db7b36ae65659ec8de35ffd5180e176681daa",
+      "text": "خو بخاري ویلي:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p9:kind_ar",
+      "source_text_sha256": "11e9a732aff01703be67632021b4884eb524a38ec229414fb5d463a666601509",
+      "text": "نقل شوې جرحه"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p9:speaker_ar",
+      "source_text_sha256": "d1d40537e7ead2f3d3bcb6066910d8ba385b880390f33f3ba26b2cdabe07ec95",
+      "text": "بخاري"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p9:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p9:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p9:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p9:text_ar",
+      "source_text_sha256": "8740a2a3e0b9f15936cf4def8b314ad8a7740c3ae3babe531daf546e4ae9cb51",
+      "text": "«فيه نظر»؛ د ده په اړه نظر شته،"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p10:kind_ar",
+      "source_text_sha256": "20a53098f30d8ccfbc5c17b33605f5bc2d253eee840d5a5b9d48753adb2204bc",
+      "text": "نقدي تبصره چې له ورپسې برخې سره تړلې ده"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p10:speaker_ar",
+      "source_text_sha256": "fffbf8c557c1147cfcc7a15cdff24fb6a82cecb0a065f0a112afd0613a7ab0d6",
+      "text": "صویاني"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p10:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p10:citation_ar",
+      "source_text_sha256": "8b79b285c1041ac6caf4d2179cb1edeaf7f9ccbaa3b02e7f6c6086bb1b4ff235",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/142](https://app.turath.io/book/123669?page=142)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p10:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj1:p10:text_ar",
+      "source_text_sha256": "3157c871648cc23bd972512a8ed5c2d6e2b3a75d6942854fdcf4b90bd763904a",
+      "text": "او دا"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj2:p1:kind_ar",
+      "source_text_sha256": "75db96d062870fac64c46dcefb9edcbc5398a8f99d79a059697f69c2f7f8f2b5",
+      "text": "په وروستۍ څېړنه کې نقد"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj2:p1:speaker_ar",
+      "source_text_sha256": "b57ce0d8fb0f0f600ee79566491c1bca9c2f28d67c331eee00f806c4f7a4ea4a",
+      "text": "محمد صویاني"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj2:p1:book_ar",
+      "source_text_sha256": "b9a6e0ac456c49444d709fe99c6946999d21611f11cfd355373f9550f6a1a19b",
+      "text": "الصحيح من أحاديث السيرة النبوية"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj2:p1:citation_ar",
+      "source_text_sha256": "508a584a00554f1afe975944eeabfc53e80380704306511e039ca96109047dcd",
+      "text": "[الصحيح من أحاديث السيرة النبوية، 1/143](https://app.turath.io/book/123669?page=143)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj2:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_balj2:p1:text_ar",
+      "source_text_sha256": "4f87b6f21f6e581bb79aecf412e8ebc37299fe7e7b11030c1bce8a20543c26fa",
+      "text": "د بخاري له سختو اصطلاحاتو څخه ده. تهذیب الکمال (۳۳–۱۶۲). د ابو عوانه نوم وضاح بن عبدالله یشکري دی او هغه ثقه او کره راوي دی. التقریب (۲–۳۳۱). د هغه د استاد نوم یحیی بن سلیم دی او حدیث یې حسن دی که مخالفت ونه کړي. عمرو بن میمون ابو عبدالله اودي بیا مشهور مخضرم او ثقه عابد دی. التقریب (۲–۸۰)]."
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazchain:p1:kind_ar",
+      "source_text_sha256": "607e53508ca794c4c3b7251c04f94837bba908b73e5abde32803dcc43cde43ae",
+      "text": "تر عبدالله بن عدي بن الحمراء پورې سند؛ متن یې په راتلونکې برخه کې دی"
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazchain:p1:speaker_ar",
+      "source_text_sha256": "476d49adf7e9f519655f25a24d79a1e344dc0911d8db459cfe222dce57e853ca",
+      "text": "بیهقي تر عبدالله بن عدي بن الحمراء پورې سند نقلوي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazchain:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazchain:p1:citation_ar",
+      "source_text_sha256": "2cc06abd79052c07c1a33f15cb40f21a887964a31a51b28d4fbd3d8417172d85",
+      "text": "[دلائل النبوة ـ بیهقي، 2/517](https://app.turath.io/book/7478?page=1038)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazchain:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazchain:p1:text_ar",
+      "source_text_sha256": "1796f047a3ffb5b7a374a69b3aae38a17907538e095a12f0f1f98e7cf115de87",
+      "text": "ابو الحسین بن الفضل القطان موږ ته خبر راکړ؛ ویې ویل: عبدالله بن جعفر موږ ته خبر راکړ؛ ویې ویل: یعقوب بن سفیان موږ ته روایت وکړ؛ ویې ویل: ابو الیمان موږ ته روایت وکړ؛ ویې ویل: شعیب راته له زهري څخه روایت وکړ؛ زهري وویل: ابو سلمه بن عبدالرحمن راته خبر راکړ چې عبدالله بن عدي بن..."
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p1:kind_ar",
+      "source_text_sha256": "1e6692bea00f3d3a69e420f99e3d9b4bfbd667044380f252f75c0faaea47654a",
+      "text": "د سند دوام"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p1:speaker_ar",
+      "source_text_sha256": "6c723c39dd0b83ee9dc768a4ffea011248513711fc6ee994a2567f0ff1f1ac5e",
+      "text": "بیهقي تر ابن عدي پورې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p1:citation_ar",
+      "source_text_sha256": "8fbbaaa337d9d947340546f14db9a85ae738931b009ae24c441926317c4a428a",
+      "text": "[دلائل النبوة ـ بیهقي، 2/518](https://app.turath.io/book/7478?page=1039)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p1:text_ar",
+      "source_text_sha256": "9b8b16d649c26108ddd71ba3c5a2593549da6547e069bab24cf76e3769ce3efd",
+      "text": "الحمراء زهري هغه ته خبر ورکړ چې د الله رسول ﷺ یې اورېدلی و، په داسې حال کې چې د مکې د بازار په حَزْوَرَه کې ولاړ و،"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p2:kind_ar",
+      "source_text_sha256": "5fc95207f4b1b22fe50f9431cc10590708acf7abcc74b92c12bfcd4b8a07f8b6",
+      "text": "د پېغمبر ﷺ نقل شوې وینا"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p2:speaker_ar",
+      "source_text_sha256": "db7fe4078e0f90cfe8ea1487e7f9689eca24d4ff0a99d23c501f4e00dda20268",
+      "text": "پېغمبر ﷺ د ابن عدي په روایت کې"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p2:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p2:citation_ar",
+      "source_text_sha256": "8fbbaaa337d9d947340546f14db9a85ae738931b009ae24c441926317c4a428a",
+      "text": "[دلائل النبوة ـ بیهقي، 2/518](https://app.turath.io/book/7478?page=1039)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p2:text_ar",
+      "source_text_sha256": "afd1c8281efc99bb6a0aa6c0cf3fcf24d57e1bf2c69580f3e620999a5349b056",
+      "text": "«بېشکه ته د الله د ځمکو تر ټولو غوره او ماته د الله د ځمکو تر ټولو ګرانه یې؛ که له تا نه وای ایستل شوی، نه به و وتلی.»"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p3:kind_ar",
+      "source_text_sha256": "56a1f821a92d4cbea3944c5464f1b8e032d425a158019c7f9063677f598cacf8",
+      "text": "د لیکوال نقد"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p3:speaker_ar",
+      "source_text_sha256": "2304f60b7594080788152252389296e46037edd9df3ed00b6d3e5e778e680168",
+      "text": "بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p3:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p3:citation_ar",
+      "source_text_sha256": "8fbbaaa337d9d947340546f14db9a85ae738931b009ae24c441926317c4a428a",
+      "text": "[دلائل النبوة ـ بیهقي، 2/518](https://app.turath.io/book/7478?page=1039)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_haztext:p3:text_ar",
+      "source_text_sha256": "5ca68aeb56baac31851696ccda5ccd90862e8753c3f0a3496dbf060b8d983b29",
+      "text": "[(۸)]. همدا خوندي شوی روایت دی؛ یونس [(۹)] هم له عقیل څخه، هغه له زهري څخه، همداسې روایت کړی دی."
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazcrit:p1:kind_ar",
+      "source_text_sha256": "56a1f821a92d4cbea3944c5464f1b8e032d425a158019c7f9063677f598cacf8",
+      "text": "د لیکوال نقد"
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazcrit:p1:speaker_ar",
+      "source_text_sha256": "2304f60b7594080788152252389296e46037edd9df3ed00b6d3e5e778e680168",
+      "text": "بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazcrit:p1:book_ar",
+      "source_text_sha256": "a75bd743872c84e692e117b79fa04c578734243ed5590865d618160c93b63992",
+      "text": "دلائل النبوة ـ بیهقي"
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazcrit:p1:citation_ar",
+      "source_text_sha256": "8fbbaaa337d9d947340546f14db9a85ae738931b009ae24c441926317c4a428a",
+      "text": "[دلائل النبوة ـ بیهقي، 2/518](https://app.turath.io/book/7478?page=1039)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazcrit:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_hazcrit:p1:text_ar",
+      "source_text_sha256": "30bf30a7a4646a81a7d866401841b6fe134777cb9832e2f15dc4cd9c58210053",
+      "text": "او دا د معمر تېروتنه ده [او الله ښه پوهېږي] [(۱۱)]. ځینو بیا له محمد بن عمرو څخه، هغه له ابو سلمه، هغه له ابو هریره څخه روایت کړی؛ دا هم تېروتنه ده. سم روایت د جماعت روایت دی [(۱۲)]."
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p1:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p1:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ابن اسحاق"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p1:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p1:citation_ar",
+      "source_text_sha256": "bf333fc4c495b9e6581315e06c29615fa1d1ec3222700dbcea8ed48f56011db8",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/480](https://app.turath.io/book/23833?page=503)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p1:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p1:text_ar",
+      "source_text_sha256": "eb28bec94c011ec36c58c66e36a8222f6a1b797ea3ff5135a42ff31653293d8c",
+      "text": "د الله رسول ﷺ له خپلو مهاجرو ملګرو وروسته په مکه کې پاتې شو او د هجرت د اجازې انتظار یې کاوه. له هغه سره له مهاجرانو څخه په مکه کې هېڅوک پاتې نه شول، پرته له هغو چې بندي شوي یا په ازموینه کې اچول شوي وو، او له علي بن ابي طالب او ابوبکر بن ابي قحافه صدیق ﵄ څخه. ابوبکر به ډېر ځله له رسول الله ﷺ څخه د هجرت اجازه غوښتله،"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p2:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p2:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ابن اسحاق"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p2:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p2:citation_ar",
+      "source_text_sha256": "bf333fc4c495b9e6581315e06c29615fa1d1ec3222700dbcea8ed48f56011db8",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/480](https://app.turath.io/book/23833?page=503)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p2:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p2:text_ar",
+      "source_text_sha256": "a9b7a824966bf379e53455cbe68818777213e96a2ac98a0d246b46608e41134d",
+      "text": "نو د الله رسول ﷺ به ورته ویل:"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p3:kind_ar",
+      "source_text_sha256": "5fc95207f4b1b22fe50f9431cc10590708acf7abcc74b92c12bfcd4b8a07f8b6",
+      "text": "د پېغمبر ﷺ نقل شوې وینا"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p3:speaker_ar",
+      "source_text_sha256": "f46ce1943a992e692a182cb90c4dcbb77d207879dcd8137d0be09fae4173ff6d",
+      "text": "پېغمبر ﷺ"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p3:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p3:citation_ar",
+      "source_text_sha256": "bf333fc4c495b9e6581315e06c29615fa1d1ec3222700dbcea8ed48f56011db8",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/480](https://app.turath.io/book/23833?page=503)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p3:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p3:text_ar",
+      "source_text_sha256": "1df5e183d96b68cc95d2e944b44f3a52d0a4ffa0169191d15eb96640b30ac149",
+      "text": "بیړه مه کوه؛ ښایي الله درته یو ملګری برابر کړي."
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p4:kind_ar",
+      "source_text_sha256": "e73baf98a85a66a9bb370c379af8e271887ec0ced2652446b852d46148be6092",
+      "text": "تاریخي خبر"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p4:speaker_ar",
+      "source_text_sha256": "5d60da811bcb8809802cc521ac9c9591c700129d0dee2d428921468df4817d32",
+      "text": "ابن اسحاق"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p4:book_ar",
+      "source_text_sha256": "aac9df008face5db43a3c3d16d339a4ff2d3bc86f989ff5139977c9259be7396",
+      "text": "د ابن هشام سیرت ـ د سقا تصحیح"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p4:citation_ar",
+      "source_text_sha256": "bf333fc4c495b9e6581315e06c29615fa1d1ec3222700dbcea8ed48f56011db8",
+      "text": "[د ابن هشام سیرت ـ د سقا تصحیح، 1/480](https://app.turath.io/book/23833?page=503)"
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p4:context_note_ar",
+      "source_text_sha256": "0abd05a1234bb4e7b643a985ebbda34a196d04f97d764561e4ca4f8d450d076a",
+      "text": "د زېرمتون ټاکل شوې برخه په بشپړ ډول ده؛ د برخې پولې او دنننی ویونکی خوندي ساتل کېږي، د نقل د لارو خپلواکه شمېرنه نه ثابتوي او له یوې بشپړې پاڼې یا کتاب سره برابر نه ده."
+    },
+    {
+      "unit_id": "sp_departure_chapter_wait:p4:text_ar",
+      "source_text_sha256": "cc7b216ca21585311ab450b2bd3c679e05237c36f2250c22d56342991831317f",
+      "text": "نو ابوبکر هیله درلوده چې دی هماغه ملګری وي."
+    }
+  ],
+  "reading_editions": [
+    {
+      "reading_id": "hch_departure_read_council",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_departure_read_exit",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_departure_read_trust",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_departure_read_urwa",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_departure_read_criticism",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_departure_read_balj",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_departure_read_hazwara",
+      "mode": "translated",
+      "gloss": ""
+    },
+    {
+      "reading_id": "hch_departure_read_waiting",
+      "mode": "translated",
+      "gloss": ""
+    }
+  ],
+  "deferred_questions": [],
+  "translation_sha256": "c92b3302eb27b60774b65d5027ca9b9f39d49085e1e3b428805174a5e80054aa",
+  "review": {
+    "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
+    "translation_sha256": "c92b3302eb27b60774b65d5027ca9b9f39d49085e1e3b428805174a5e80054aa",
+    "translation_compared": true,
+    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 3f74cf14-56eb-43fb-acef-3fa00c697c5c across 437 Arabic/target units. Round 2 Arabic-led bilingual comparison of every one of the 437 bound inventory units in all 16 complete pairs.py chunks, including chapter prose, objectives, outlines, each question and answer/feedback, full selected sources, chains, Quran, speaker and scope metadata, and citation URLs. The earlier attendee-list mistranslation is corrected. No further actionable semantic, omission, language or answer problem was found in the supplied selected material. This does not include independent collation of whole source books, specialist assessment, independent language approval or permission to distribute. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "independent_language_approval": false,
+    "specialist_approval": false,
+    "public_distribution_approved": false
+  }
+}

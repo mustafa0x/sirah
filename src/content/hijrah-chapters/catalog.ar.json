@@ -1,10 +1,71 @@
 {
   "chapter_order": [
+    "hch_early_migration",
+    "hch_aqaba",
+    "hch_preparations",
+    "hch_departure",
     "hch_thawr",
+    "hch_road",
     "hch_suraqa",
-    "hch_umm_mabad"
+    "hch_umm_mabad",
+    "hch_quba",
+    "hch_madinah_arrival",
+    "hch_mosque",
+    "hch_settlement"
   ],
   "chapters": [
+    {
+      "chapter_id": "hch_early_migration",
+      "title_ar": "قبل خروج النبي ﷺ: مهاجرون وطرق لم تتساوَ",
+      "path": "hch_early_migration/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "earlier_emigrants.abu_salama",
+        "earlier_emigrants.precedence",
+        "earlier_emigrants.umar",
+        "earlier_emigrants.detained",
+        "earlier_emigrants.suhayb",
+        "earlier_emigrants.salim"
+      ]
+    },
+    {
+      "chapter_id": "hch_aqaba",
+      "title_ar": "من لقاء يثرب إلى عهد العقبة",
+      "path": "hch_aqaba/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "aqaba.early_contacts",
+        "aqaba.first_pledge",
+        "aqaba.teaching",
+        "aqaba.second_pledge",
+        "aqaba.aftermath"
+      ]
+    },
+    {
+      "chapter_id": "hch_preparations",
+      "title_ar": "التهيؤ للهجرة: صحبة وراحلتان وزاد",
+      "path": "hch_preparations/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "permission.waiting",
+        "permission.mounts",
+        "permission.midday_visit",
+        "permission.companionship",
+        "permission.price",
+        "provisions.preparation",
+        "provisions.waistband",
+        "provisions.abu_quhafa"
+      ]
+    },
+    {
+      "chapter_id": "hch_departure",
+      "title_ar": "الخروج من مكة: الخطة والفراش والودائع",
+      "path": "hch_departure/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "departure"
+      ]
+    },
     {
       "chapter_id": "hch_thawr",
       "title_ar": "ثلاث ليال في ثور",
@@ -16,6 +77,18 @@
         "cave_verse.quoted_verse",
         "guide.hiring",
         "guide.appointment"
+      ]
+    },
+    {
+      "chapter_id": "hch_road",
+      "title_ar": "الدليل والطريق بعد الغار",
+      "path": "hch_road/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "guide.hiring",
+        "guide.name_variants",
+        "guide.appointment",
+        "guide.recognition"
       ]
     },
     {
@@ -42,6 +115,55 @@
         "encounters.description",
         "encounters.routes"
       ]
+    },
+    {
+      "chapter_id": "hch_quba",
+      "title_ar": "قباء: انتظار ووصول ثم طريق المدينة",
+      "path": "hch_quba/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "quba.arrival",
+        "quba.hosts",
+        "quba.duration",
+        "quba.mosque",
+        "quba.friday_departure"
+      ]
+    },
+    {
+      "chapter_id": "hch_madinah_arrival",
+      "title_ar": "الاستقبال والمنزل الأول في المدينة",
+      "path": "hch_madinah_arrival/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "madinah.reception",
+        "lodging.floors"
+      ]
+    },
+    {
+      "chapter_id": "hch_mosque",
+      "title_ar": "المربد وبناء مسجد المدينة",
+      "path": "hch_mosque/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "mosque.site",
+        "mosque.building",
+        "mosque.rajaz"
+      ]
+    },
+    {
+      "chapter_id": "hch_settlement",
+      "title_ar": "بعد الوصول: أهلٌ يلحقون ومدينةٌ يُدعى لها",
+      "path": "hch_settlement/chapter.ar.json",
+      "revision": 1,
+      "topic_ids": [
+        "settlement.family_arrival",
+        "settlement.brotherhood",
+        "settlement.birth",
+        "settlement.pregnancy",
+        "settlement.aisha",
+        "settlement.fever",
+        "settlement.prayer"
+      ]
     }
   ],
   "places": [
@@ -49,6 +171,10 @@
       "place_id": "makkah",
       "name_ar": "مكة",
       "chapter_ids": [
+        "hch_early_migration",
+        "hch_aqaba",
+        "hch_preparations",
+        "hch_departure",
         "hch_thawr"
       ]
     },
@@ -56,14 +182,17 @@
       "place_id": "thawr",
       "name_ar": "جبل ثور",
       "chapter_ids": [
-        "hch_thawr"
+        "hch_thawr",
+        "hch_road"
       ]
     },
     {
       "place_id": "cave",
       "name_ar": "الغار",
       "chapter_ids": [
-        "hch_thawr"
+        "hch_preparations",
+        "hch_thawr",
+        "hch_road"
       ]
     },
     {
@@ -71,6 +200,7 @@
       "name_ar": "طريق السواحل",
       "chapter_ids": [
         "hch_thawr",
+        "hch_road",
         "hch_suraqa"
       ]
     },
@@ -78,8 +208,34 @@
       "place_id": "road",
       "name_ar": "الطريق",
       "chapter_ids": [
+        "hch_road",
         "hch_suraqa",
         "hch_umm_mabad"
+      ]
+    },
+    {
+      "place_id": "quba",
+      "name_ar": "قباء",
+      "chapter_ids": [
+        "hch_early_migration",
+        "hch_departure",
+        "hch_quba",
+        "hch_madinah_arrival",
+        "hch_settlement"
+      ]
+    },
+    {
+      "place_id": "madinah",
+      "name_ar": "المدينة",
+      "chapter_ids": [
+        "hch_early_migration",
+        "hch_aqaba",
+        "hch_preparations",
+        "hch_road",
+        "hch_quba",
+        "hch_madinah_arrival",
+        "hch_mosque",
+        "hch_settlement"
       ]
     }
   ]

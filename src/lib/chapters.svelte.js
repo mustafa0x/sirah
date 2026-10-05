@@ -1,11 +1,26 @@
 import accepted from '../content/hijrah-chapters/catalog.ar.json'
-import english from '../content/hijrah-chapters/catalog.en.json'
 import { chapter_locale, prepare_chapter } from './chapter-editions.js'
 
 // Chapter payloads are large; each loads only when a reader opens it.
 const payloads = import.meta.glob('../content/hijrah-chapters/*/chapter.*.json', {
     import: 'default',
 })
+const editions = import.meta.glob('../content/hijrah-chapters/catalog.*.json', {
+    eager: true,
+    import: 'default',
+})
+const available_for = (chapter_id) =>
+    Object.entries(editions)
+        .filter(
+            ([path, value]) =>
+                !path.endsWith('catalog.ar.json') &&
+                value.chapters.some((item) => item.chapter_id === chapter_id),
+        )
+        .map(([path]) => path.match(/catalog\.([^.]+)\.json$/)[1])
+const edition_entry = (chapter_id, locale) =>
+    editions[`../content/hijrah-chapters/catalog.${locale}.json`]?.chapters.find(
+        (item) => item.chapter_id === chapter_id,
+    )
 
 // Accepted chapters, plus any chapter still in draft, so every exported chapter can be
 // read in the app. Draft payloads load on demand rather than in the main bundle.
@@ -47,18 +62,18 @@ export const catalog = $state({
 }
 
 export function available_chapters(requested) {
-    return chapter_locale(requested) === 'ar'
-        ? catalog.chapters
-        : catalog.chapters.filter((item) =>
-              english.chapters.some((edition) => edition.chapter_id === item.chapter_id),
-          )
+    return catalog.chapters.filter((item) =>
+        chapter_locale(requested, available_for(item.chapter_id)),
+    )
+}
+
+export function chapter_content_locale(item, requested) {
+    return chapter_locale(requested, available_for(item.chapter_id))
 }
 
 export function chapter_title(item, requested) {
-    return chapter_locale(requested) === 'ar'
-        ? item.title_ar
-        : (english.chapters.find((entry) => entry.chapter_id === item.chapter_id)?.title ??
-              item.title_ar)
+    const locale = chapter_content_locale(item, requested)
+    return locale === 'ar' ? item.title_ar : (edition_entry(item.chapter_id, locale)?.title ?? null)
 }
 
 export async function load_chapter(chapter_id, requested = 'ar') {
@@ -67,12 +82,19 @@ export async function load_chapter(chapter_id, requested = 'ar') {
     const load = payloads[`../content/hijrah-chapters/${path}`]
     if (!load) throw new Error(`Unknown chapter: ${chapter_id}`)
     const arabic = await load()
-    if (chapter_locale(requested) === 'ar') return prepare_chapter(arabic)
-    const translation = english.chapters.find((item) => item.chapter_id === chapter_id)
-    if (!translation) throw new Error('English edition is not available')
+    const locale = chapter_locale(requested, available_for(chapter_id))
+    if (locale === 'ar') return prepare_chapter(arabic)
+    if (!locale) throw new Error('No complete chapter edition is available')
+    const translation = edition_entry(chapter_id, locale)
     const edition = await payloads[`../content/hijrah-chapters/${translation.path}`]()
-    if (edition.english_sha256 !== translation.english_sha256)
-        throw new Error('English catalog and edition differ')
+    if (
+        edition.translation_sha256 !== translation.translation_sha256 ||
+        edition.status !== translation.status ||
+        edition.locale !== locale ||
+        edition.arabic_sha256 !== translation.arabic_sha256 ||
+        edition.revision !== translation.revision
+    )
+        throw new Error('Translation catalog and edition differ')
     return prepare_chapter(arabic, edition)
 }
 
