@@ -2056,7 +2056,7 @@
                             <div class="grid gap-2" in:fade>
                                 {#each practice_units as unit (unit.unit_id)}
                                     <blockquote
-                                        class="max-h-[180px] overflow-y-auto py-3 px-4 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 border-r-[3px] border-solid border-gold rounded-xl font-arabic text-[1.1875rem] leading-[1.9]"
+                                        class="max-h-[180px] overflow-y-auto py-3 px-4 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 rounded-xl font-arabic text-[1.1875rem] leading-[1.9]"
                                         dir="rtl"
                                         lang="ar"
                                     >
@@ -2556,7 +2556,7 @@
                                 >{fmt_num(source.number)}</span
                             >
                             <blockquote
-                                class="py-4 px-5 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 border-r-[3px] border-solid border-gold rounded-xl font-arabic text-[1.375rem] leading-[2]"
+                                class="py-4 px-5 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 rounded-xl font-arabic text-[1.375rem] leading-[2]"
                                 dir="rtl"
                                 lang="ar"
                             >
