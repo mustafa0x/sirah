@@ -1531,7 +1531,7 @@
         class="absolute z-30 top-0 right-0 left-0 flex justify-between items-center h-[68px] px-6 mobile:h-14 mobile:px-[14px]"
     >
         <a
-            class="inline-flex items-center gap-[14px] text-ink font-serif text-[1.25rem] font-semibold no-underline"
+            class="inline-flex items-center gap-[14px] text-ink font-serif text-[1.25rem] font-semibold no-underline whitespace-nowrap mobile:gap-3 mobile:text-[1.0625rem]"
             href={href('/', null)}
             aria-label="Sirah Journey home"
         >
@@ -1541,10 +1541,10 @@
             ></span>
             Sirah Journey
         </a>
-        <div class="flex items-center gap-3">
-            <div class="relative min-w-0 max-w-[12rem] text-ink mobile:max-w-[8rem]">
+        <div class="flex items-center gap-3 mobile:gap-2">
+            <div class="relative min-w-0 max-w-[12rem] text-ink mobile:max-w-none">
                 <select
-                    class="w-full appearance-none rounded-full border border-line bg-panel-solid py-2 ps-4 pe-9 text-ink text-sm text-ellipsis"
+                    class="w-full appearance-none rounded-full border border-line bg-panel-solid py-2 ps-4 pe-9 text-ink text-sm text-ellipsis mobile:absolute mobile:inset-0 mobile:opacity-0"
                     aria-label="Interface language"
                     value={saved_language()}
                     onchange={(event) => change_language(event.currentTarget.value)}
@@ -1556,12 +1556,17 @@
                     {/each}
                 </select>
                 <svg
-                    class="pointer-events-none absolute end-3.5 top-1/2 size-3.5 -translate-y-1/2 fill-none stroke-current [stroke-width:2.2] [stroke-linecap:round] [stroke-linejoin:round]"
+                    class="pointer-events-none absolute end-3.5 top-1/2 size-3.5 -translate-y-1/2 fill-none stroke-current [stroke-width:2.2] [stroke-linecap:round] [stroke-linejoin:round] mobile:hidden"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                 >
                     <path d="M6 9l6 6 6-6" />
                 </svg>
+                <!-- On a phone the menu shows only the language code; tapping still opens it. -->
+                <span
+                    class="hidden h-[38px] min-w-[38px] items-center justify-center rounded-full border border-line bg-panel-solid px-3 text-xs font-semibold uppercase tracking-[0.06em] pointer-events-none mobile:flex"
+                    aria-hidden="true">{language}</span
+                >
             </div>
             {#snippet sound_button(props)}
                 <button
@@ -2107,7 +2112,7 @@
                 {#each chapter.steps as step, index (step.id)}
                     {@const active = journey.viewed_step_id === step.id}
                     <li
-                        class="group/stop relative [&+li]:before:absolute [&+li]:before:top-[-9px] [&+li]:before:start-[21px] [&+li]:before:w-px [&+li]:before:h-[18px] [&+li]:before:bg-line-strong [&+li]:before:content-[''] mobile:[&+li]:before:hidden mobile:data-[active=true]:flex-1 mobile:data-[active=true]:min-w-0"
+                        class="group/stop relative [&+li]:before:absolute [&+li]:before:top-[-9px] [&+li]:before:start-[21px] [&+li]:before:w-px [&+li]:before:h-[18px] [&+li]:before:bg-line-strong [&+li]:before:content-[''] mobile:[&+li]:before:hidden mobile:data-[active=true]:flex-1 mobile:data-[active=true]:min-w-0 mobile:data-[active=false]:hidden"
                         data-active={active}
                         data-done={index < selected_index}
                     >
@@ -2143,6 +2148,23 @@
                     >
                 </li>
             </ol>
+            <!-- On a phone the stages are one segmented line under the current stage. -->
+            <nav class="hidden gap-1 px-1 mobile:flex" aria-label="Chapter stages">
+                {#each chapter.steps as step, index (step.id)}
+                    <a
+                        class="group/segment flex-1 py-2"
+                        href={href(`/journey/hijrah/${step.id}`, null)}
+                        onclick={(event) => follow_link(event, () => select_step(step.id))}
+                        aria-current={journey.viewed_step_id === step.id ? 'step' : undefined}
+                        aria-label={`Stage ${index + 1}: ${step.title}`}
+                        data-on={index <= selected_index}
+                    >
+                        <span
+                            class="block h-[3px] rounded-full bg-[rgba(255,244,222,0.22)] group-data-[on=true]/segment:bg-gold"
+                        ></span>
+                    </a>
+                {/each}
+            </nav>
         </aside>
     {/if}
 
