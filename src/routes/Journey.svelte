@@ -1565,7 +1565,7 @@
                 <!-- On a phone the menu shows only the language code; tapping still opens it. -->
                 <span
                     class="hidden h-[38px] min-w-[38px] items-center justify-center rounded-full border border-line bg-panel-solid px-3 text-xs font-semibold uppercase tracking-[0.06em] pointer-events-none mobile:flex"
-                    aria-hidden="true">{language}</span
+                    aria-hidden="true">{language === 'ar' ? 'ع' : language}</span
                 >
             </div>
             {#snippet sound_button(props)}

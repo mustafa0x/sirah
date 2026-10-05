@@ -280,7 +280,7 @@ export const beat_shots = {
     N05a: shot('quba', 0.5, 0.45, 5.2, 0.1),
     N07a: shot('quba', south + 0.35, 0.07, 0.3, 0.014),
     // Close behind the camel as she walks from Quba into the town.
-    N08a: { ...shot('quba', 0.5, 0.32, 0.9, 0.03), follow: 2 },
+    N08a: { ...shot('quba', south + 0.3, 0.55, 1.8, 0.03), follow: 2 },
     N05b: shot('madinah', north - 0.6, 0.38, 0.5, 0.02),
 }
 
