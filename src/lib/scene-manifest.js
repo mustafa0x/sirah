@@ -153,7 +153,7 @@ export const scene_pois = [
     {
         id: 'makkah',
         label: 'Makkah',
-        description: 'Where the chapter begins, with preparations for departure.',
+        description: 'Where the journey begins, with preparations for departure.',
         place: 'makkah',
         anchors: { region: 'region_makkah', makkah: 'makkah' },
         // Named on the home page too, at either end of the route.
@@ -189,7 +189,7 @@ export const scene_pois = [
     {
         id: 'madinah',
         label: 'Madinah',
-        description: 'Where the chapter closes, with arrival and a new beginning.',
+        description: 'Where the journey closes, with arrival and a new beginning.',
         place: 'madinah',
         anchors: { region: 'region_madinah', madinah: 'madinah' },
         home: true,

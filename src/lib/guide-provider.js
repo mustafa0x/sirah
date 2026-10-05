@@ -1,6 +1,6 @@
 import { chapter } from '../content/first-chapter.js'
 
-// Offline chapter notes, not a substitute for model-led research.
+// Offline journey notes, not a substitute for model-led research.
 function chapter_note_answer(question, source_ids = []) {
     const text = question.trim().toLowerCase()
     const cited = (...ids) => ids.filter((source_id) => source_ids.includes(source_id))
@@ -126,7 +126,7 @@ export function local_guide_answer(question, source_ids = []) {
     return answer.citations.length
         ? { ...answer, provider: 'local', sources: [] }
         : {
-              answer: 'The offline chapter notes do not establish an answer to that question.',
+              answer: 'The offline journey notes do not establish an answer to that question.',
               status: 'local-bounded',
               provider: 'local',
               confidence: 'bounded',

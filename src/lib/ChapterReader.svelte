@@ -62,7 +62,7 @@
 
     let readings = $derived(chapter ? reading_groups(chapter) : [])
 
-    // Readings in story order, for the links that close each one.
+    // Chapters in story order, for the links that close each one.
     let neighbours = $derived.by(() => {
         const list = available_chapters(destination.lang)
         const index = list.findIndex((item) => item.chapter_id === chapter_id)
@@ -330,7 +330,7 @@
         </div>
         <button
             class="grid flex-none size-[38px] place-items-center text-ink-soft bg-transparent border border-solid border-line-strong rounded-full hover:text-white hover:border-gold"
-            aria-label="Close reading"
+            aria-label="Close chapter"
             onclick={on_close}
         >
             <svg
@@ -345,13 +345,13 @@
 
     {#if chapter && destination.lang !== chapter.locale}
         <p class="px-7 pb-3 text-ink-soft text-[0.9375rem] mobile:px-5">
-            This reading is not ready in this language yet. Showing the English edition.
+            A chapter edition is not ready in this language. Showing the English edition.
         </p>
     {/if}
 
     <nav
         class="flex gap-1 px-6 border-0 border-b border-solid border-line overflow-x-auto mobile:px-4"
-        aria-label="Reading sections"
+        aria-label="Chapter sections"
     >
         {#each tabs as [id, name] (id)}
             <a
@@ -391,8 +391,8 @@
                     </p>
                 {/each}
                 <!-- The outline doubles as the table of contents. -->
-                <nav class="grid gap-1" aria-label="Contents">
-                    <p class="text-muted text-[0.875rem] font-semibold">In this reading</p>
+                <nav class="grid gap-1" aria-label="Chapter contents">
+                    <p class="text-muted text-[0.875rem] font-semibold">In this chapter</p>
                     <ol class="grid list-none">
                         {#each chapter.outline as point, index (point.point_id)}
                             <li>
@@ -468,7 +468,7 @@
                 {#if neighbours.previous || neighbours.next}
                     <nav
                         class="grid grid-cols-2 gap-4 pt-6 border-0 border-t border-solid border-line"
-                        aria-label="More readings"
+                        aria-label="More chapters"
                     >
                         {#each [neighbours.previous, neighbours.next] as item, index (index)}
                             {#if item}
@@ -482,7 +482,7 @@
                                     data-next={index === 1}
                                 >
                                     <span class="text-muted text-[0.8125rem] font-semibold"
-                                        >{#if index === 0}Previous reading{:else}Next reading{/if}</span
+                                        >{#if index === 0}Previous chapter{:else}Next chapter{/if}</span
                                     >
                                     <span
                                         class="font-serif text-[1.0625rem] leading-[1.35]"

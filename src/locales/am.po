@@ -2275,3 +2275,95 @@ msgstr "<0>AI፣ በምንጮች የተመራ።</0> ሁልጊዜም ከአረ�
 #: src/routes/Journey.svelte
 msgid "How it was made"
 msgstr "እንዴት እንደተዘጋጀ"
+
+#: src/routes/Journey.svelte
+msgid "Reading mode selected. The same journey is available without narration."
+msgstr "የንባብ ሁነታ ተመርጧል። ይኸው ጉዞ ያለ ትረካ ይገኛል።"
+
+#: src/routes/Journey.svelte
+msgid "Journey complete. Recap opened."
+msgstr "ጉዞው ተጠናቋል። ማጠቃለያው ተከፍቷል።"
+
+#: src/routes/Journey.svelte
+msgid "Where the journey begins, with preparations for departure."
+msgstr "ጉዞው የሚጀመርበት፣ ከመነሻ ዝግጅቶች ጋር።"
+
+#: src/routes/Journey.svelte
+msgid "Where the journey closes, with arrival and a new beginning."
+msgstr "ጉዞው የሚጠናቀቅበት፣ ከመድረሻ እና ከአዲስ ጅማሬ ጋር።"
+
+#: src/routes/Journey.svelte
+msgid "The offline journey notes do not establish an answer to that question."
+msgstr "ከመስመር ውጭ ያሉት የጉዞ ማስታወሻዎች ለዚያ ጥያቄ መልስ አያካትቱም።"
+
+#: src/routes/Journey.svelte
+msgid "That stage is not available."
+msgstr "ያ ደረጃ አይገኝም።"
+
+#: src/routes/Journey.svelte
+msgid "Chapters"
+msgstr "ምዕራፎች"
+
+#: src/routes/Journey.svelte
+msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
+msgstr "እያንዳንዱ የብርሃን ነጥብ ይህ ጉዞ የጠቀሰው ምንባብ ሲሆን ስለ እርሱ በሚወሳበት ስፍራ ተቀምጧል። ለማንበብ አንዱን ይምረጡ።"
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the journey stage by stage with AI-generated narration."
+msgstr "<0>አጫውት</0> ጉዞውን በAI በተፈጠረ ትረካ ደረጃ በደረጃ ያስኬዳል።"
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the journey stage by stage. The captions keep time over a quiet wind."
+msgstr "<0>አጫውት</0> ጉዞውን ደረጃ በደረጃ ያስኬዳል። የግርጌ ጽሑፎቹ በዝምተኛው ነፋስ ላይ ጊዜያቸውን ጠብቀው ያልፋሉ።"
+
+#: src/routes/Journey.svelte
+msgid "<0>Ask</0> uses the journey’s context to research in Turath and answer with source citations."
+msgstr "<0>ጠይቅ</0> በቱራስ (Turath) ውስጥ ለመፈለግ እና ከምንጭ ጥቅሶች ጋር ምላሽ ለመስጠት የጉዞውን አውድ ይጠቀማል።"
+
+#: src/routes/Journey.svelte
+msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The chapters go deeper into each part of the story, and the practice questions are drawn from the same passages."
+msgstr "እያንዳንዱ አንቀጽ ከጥንታዊ የአረብኛ ምንጮች በተወሰደ ምንባብ ላይ የተመሰረተ ሲሆን፣ ወደ ቱራስ ገጹ የሚወስድ አገናኝም አለው። ምዕራፎቹ በእያንዳንዱ የታሪኩ ክፍል በጥልቀት የሚገቡ ሲሆን የተግባር ጥያቄዎቹም ከተመሳሳይ ምንባቦች የተወሰዱ ናቸው።"
+
+#: src/routes/Journey.svelte
+msgid "<0>Chapters</0> that go deeper into each part of the story, each with its source passages."
+msgstr "እያንዳንዳቸው ከምንጭ ጽሑፎቻቸው ጋር፣ በእያንዳንዱ የታሪኩ ክፍል በጥልቀት የሚገቡ <0>ምዕራፎች</0>።"
+
+#: src/routes/Journey.svelte
+msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
+msgstr "<0>መጀመሪያ በአረብኛ የተጻፈ።</0> እያንዳንዱ ምዕራፍ ከመሰረቱ በአረብኛ የተጻፈ ሲሆን፣ የሚያሳያቸው ጥቅሶች ትክክለኛው የመነሻ ጽሑፍ እንጂ በድጋሚ የተጻፉ አይደሉም።"
+
+#: src/routes/Journey.svelte
+msgid "Journey stages"
+msgstr "የጉዞ ደረጃዎች"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Complete the journey"
+msgstr "<0/> ጉዞውን ያጠናቅቁ"
+
+#: src/routes/Journey.svelte
+msgid "Journey complete"
+msgstr "ጉዞው ተጠናቋል"
+
+#: src/routes/Journey.svelte
+msgid "Ask about this journey…"
+msgstr "ስለዚህ ጉዞ ይጠይቁ…"
+
+#: src/routes/Journey.svelte
+msgid "Journey notes · offline"
+msgstr "የጉዞ ማስታወሻዎች · ከመስመር ውጭ"
+
+#: src/routes/Journey.svelte
+msgid "More chapters"
+msgstr "ተጨማሪ ምዕራፎች"
+
+#: src/routes/Journey.svelte
+msgid "Previous chapter"
+msgstr "ቀዳሚ ምዕራፍ"
+
+#: src/routes/Journey.svelte
+msgid "Next chapter"
+msgstr "ቀጣይ ምዕራፍ"
+
+#: src/routes/Journey.svelte
+msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
+msgstr "የ3D ምስሉ በዚህ መሣሪያ ላይ አይገኝም። ሙሉውን ጉዞ አሁንም እዚህ ማንበብ ይችላሉ።"

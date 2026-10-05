@@ -2275,3 +2275,95 @@ msgstr "<0>மூலங்களால் வழிநடத்தப்பட�
 #: src/routes/Journey.svelte
 msgid "How it was made"
 msgstr "இது எவ்வாறு உருவாக்கப்பட்டது"
+
+#: src/routes/Journey.svelte
+msgid "Reading mode selected. The same journey is available without narration."
+msgstr "வாசிப்புப் பயன்முறை தேர்ந்தெடுக்கப்பட்டது. குரல் விவரிப்பு இன்றியும் இப்பயணம் கிடைக்கிறது."
+
+#: src/routes/Journey.svelte
+msgid "Journey complete. Recap opened."
+msgstr "பயணம் நிறைவடைந்தது. மீள்பார்வை திறக்கப்பட்டது."
+
+#: src/routes/Journey.svelte
+msgid "Where the journey begins, with preparations for departure."
+msgstr "புறப்பாட்டிற்கான ஆயத்தங்களுடன் பயணம் தொடங்கும் இடம்."
+
+#: src/routes/Journey.svelte
+msgid "Where the journey closes, with arrival and a new beginning."
+msgstr "வருகையுடனும் ஒரு புதிய தொடக்கத்துடனும் பயணம் நிறைவடையும் இடம்."
+
+#: src/routes/Journey.svelte
+msgid "The offline journey notes do not establish an answer to that question."
+msgstr "ஆஃப்லைன் பயணக் குறிப்புகளில் இந்தக் கேள்விக்கான விடை இல்லை."
+
+#: src/routes/Journey.svelte
+msgid "That stage is not available."
+msgstr "அந்தக் கட்டம் கிடைக்கவில்லை."
+
+#: src/routes/Journey.svelte
+msgid "Chapters"
+msgstr "அத்தியாயங்கள்"
+
+#: src/routes/Journey.svelte
+msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
+msgstr "ஒவ்வொரு ஒளிப்புள்ளியும் இப்பயணம் மேற்கோள் காட்டும் ஒரு பகுதியாகும்; அது விவரிக்கும் இடத்திலேயே வைக்கப்பட்டுள்ளது. அதைப் படிக்க ஒன்றைத் தேர்ந்தெடுக்கவும்."
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the journey stage by stage with AI-generated narration."
+msgstr "<0>இயக்கு</0> AI உருவாக்கிய குரல் விவரிப்புடன் பயணத்தை ஒவ்வொரு கட்டமாக வழிநடத்துகிறது."
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the journey stage by stage. The captions keep time over a quiet wind."
+msgstr "<0>இயக்கு</0> பயணத்தை ஒவ்வொரு கட்டமாக வழிநடத்துகிறது. அமைதியான தென்றலின் பின்னணியில் வசனங்கள் ஒளிர்கின்றன."
+
+#: src/routes/Journey.svelte
+msgid "<0>Ask</0> uses the journey’s context to research in Turath and answer with source citations."
+msgstr "<0>கேட்கவும்</0> பயணத்தின் சூழலைப் பயன்படுத்தி துராத்தில் (Turath) ஆய்வு செய்து, மூல மேற்கோள்களுடன் பதிலளிக்கிறது."
+
+#: src/routes/Journey.svelte
+msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The chapters go deeper into each part of the story, and the practice questions are drawn from the same passages."
+msgstr "ஒவ்வொரு பத்தியும் பாரம்பரிய அரபு மூலங்களின் மேற்கோள்களை அடிப்படையாகக் கொண்டது, அத்துடன் Turath பக்கத்திற்கான இணைப்பும் உள்ளது. அத்தியாயங்கள் கதையின் ஒவ்வொரு பகுதியையும் ஆழமாக விளக்குகின்றன; பயிற்சி வினாக்களும் இதே மூலங்களிலிருந்து எடுக்கப்பட்டவை."
+
+#: src/routes/Journey.svelte
+msgid "<0>Chapters</0> that go deeper into each part of the story, each with its source passages."
+msgstr "கதையின் ஒவ்வொரு பகுதியையும் அதன் மூல மேற்கோள்களுடன் ஆழமாக விளக்கும் <0>அத்தியாயங்கள்</0>."
+
+#: src/routes/Journey.svelte
+msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
+msgstr "<0>முதலில் அரபியில் எழுதப்பட்டது.</0> ஒவ்வொரு அத்தியாயமும் அடிப்படையிலேயே அரபியில் எழுதப்பட்டது; அதில் காட்டப்படும் பகுதிகள் மூலத்தின் அசல் உரையாகும், மீண்டும் தட்டச்சு செய்யப்பட்டவை அல்ல."
+
+#: src/routes/Journey.svelte
+msgid "Journey stages"
+msgstr "பயணக் கட்டங்கள்"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Complete the journey"
+msgstr "<0/> பயணத்தை நிறைவுசெய்க"
+
+#: src/routes/Journey.svelte
+msgid "Journey complete"
+msgstr "பயணம் நிறைவடைந்தது"
+
+#: src/routes/Journey.svelte
+msgid "Ask about this journey…"
+msgstr "இப்பயணம் பற்றிக் கேட்கவும்…"
+
+#: src/routes/Journey.svelte
+msgid "Journey notes · offline"
+msgstr "பயணக் குறிப்புகள் · ஆஃப்லைன்"
+
+#: src/routes/Journey.svelte
+msgid "More chapters"
+msgstr "கூடுதல் அத்தியாயங்கள்"
+
+#: src/routes/Journey.svelte
+msgid "Previous chapter"
+msgstr "முந்தைய அத்தியாயம்"
+
+#: src/routes/Journey.svelte
+msgid "Next chapter"
+msgstr "அடுத்த அத்தியாயம்"
+
+#: src/routes/Journey.svelte
+msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
+msgstr "இந்தச் சாதனத்தில் 3D விளக்கம் கிடைக்கவில்லை. முழுப் பயணத்தையும் நீங்கள் தொடர்ந்து படிக்கலாம்."

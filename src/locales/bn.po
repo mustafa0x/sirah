@@ -2275,3 +2275,95 @@ msgstr "<0>উৎস দ্বারা পরিচালিত এআই।</0
 #: src/routes/Journey.svelte
 msgid "How it was made"
 msgstr "এটি যেভাবে তৈরি হয়েছে"
+
+#: src/routes/Journey.svelte
+msgid "Reading mode selected. The same journey is available without narration."
+msgstr "পড়ার মোড নির্বাচিত হয়েছে। বিবরণী ছাড়াই এই সফরটি পড়া যাবে।"
+
+#: src/routes/Journey.svelte
+msgid "Journey complete. Recap opened."
+msgstr "সফর সম্পন্ন হয়েছে। সারাংশ খোলা হয়েছে।"
+
+#: src/routes/Journey.svelte
+msgid "Where the journey begins, with preparations for departure."
+msgstr "যেখান থেকে সফরের সূচনা, যাত্রার প্রস্তুতি নিয়ে।"
+
+#: src/routes/Journey.svelte
+msgid "Where the journey closes, with arrival and a new beginning."
+msgstr "যেখানে সফর শেষ হয়, শুভ আগমন এবং এক নতুন সূচনার মধ্য দিয়ে।"
+
+#: src/routes/Journey.svelte
+msgid "The offline journey notes do not establish an answer to that question."
+msgstr "অফলাইন সফরের নোটে এই প্রশ্নের উত্তর পাওয়া যায়নি।"
+
+#: src/routes/Journey.svelte
+msgid "That stage is not available."
+msgstr "ঐ ধাপটি উপলব্ধ নয়।"
+
+#: src/routes/Journey.svelte
+msgid "Chapters"
+msgstr "অধ্যায়সমূহ"
+
+#: src/routes/Journey.svelte
+msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
+msgstr "আলোর প্রতিটি বিন্দু হলো এই সফরে উদ্ধৃত একেকটি পাঠ্যাংশ, যা সংশ্লিষ্ট স্থানে চিহ্নিত। পড়তে যেকোনো একটি বেছে নিন।"
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the journey stage by stage with AI-generated narration."
+msgstr "<0>প্লে</0> এআই-নির্মিত বিবরণীর সাথে ধাপে ধাপে সফরটি তুলে ধরে।"
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the journey stage by stage. The captions keep time over a quiet wind."
+msgstr "<0>প্লে</0> ধাপে ধাপে সফরটি এগিয়ে নেয়। শান্ত বাতাসের আবহে ক্যাপশনগুলো ভেসে ওঠে।"
+
+#: src/routes/Journey.svelte
+msgid "<0>Ask</0> uses the journey’s context to research in Turath and answer with source citations."
+msgstr "<0>জিজ্ঞাসা করুন</0> সফরের প্রেক্ষাপট ব্যবহার করে তুরাথ-এ অনুসন্ধান করে এবং সূত্রের উল্লেখসহ উত্তর দেয়।"
+
+#: src/routes/Journey.svelte
+msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The chapters go deeper into each part of the story, and the practice questions are drawn from the same passages."
+msgstr "প্রতিটি অনুচ্ছেদ চিরায়ত আরবি উৎসের ওপর ভিত্তি করে রচিত, যার সাথে তুরাথ-এর পৃষ্ঠার লিংক রয়েছে। অধ্যায়গুলো গল্পের প্রতিটি অংশকে আরও বিশদভাবে তুলে ধরে এবং অনুশীলনী প্রশ্নগুলোও এই মূল উৎসসমূহ থেকেই নেওয়া হয়েছে।"
+
+#: src/routes/Journey.svelte
+msgid "<0>Chapters</0> that go deeper into each part of the story, each with its source passages."
+msgstr "<0>অধ্যায়সমূহ</0> গল্পের প্রতিটি অংশকে গভীরভাবে তুলে ধরে, প্রতিটির সাথেই রয়েছে মূল উৎস।"
+
+#: src/routes/Journey.svelte
+msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
+msgstr "<0>প্রথমেই আরবিতে রচিত।</0> প্রতিটি অধ্যায় সরাসরি আরবি থেকে রচিত হয়েছে এবং প্রদর্শিত পাঠ্যাংশগুলো হুবহু মূল উৎসের পাঠ, কোনো পরিবর্তন ছাড়াই।"
+
+#: src/routes/Journey.svelte
+msgid "Journey stages"
+msgstr "সফরের ধাপসমূহ"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Complete the journey"
+msgstr "<0/> সফর সম্পন্ন করুন"
+
+#: src/routes/Journey.svelte
+msgid "Journey complete"
+msgstr "সফর সম্পন্ন"
+
+#: src/routes/Journey.svelte
+msgid "Ask about this journey…"
+msgstr "এই সফর সম্পর্কে জিজ্ঞাসা করুন…"
+
+#: src/routes/Journey.svelte
+msgid "Journey notes · offline"
+msgstr "সফরের নোট · অফলাইন"
+
+#: src/routes/Journey.svelte
+msgid "More chapters"
+msgstr "আরও অধ্যায়"
+
+#: src/routes/Journey.svelte
+msgid "Previous chapter"
+msgstr "পূর্ববর্তী অধ্যায়"
+
+#: src/routes/Journey.svelte
+msgid "Next chapter"
+msgstr "পরবর্তী অধ্যায়"
+
+#: src/routes/Journey.svelte
+msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
+msgstr "এই ডিভাইসে 3D চিত্রটি সমর্থিত নয়। তবে সম্পূর্ণ সফরটি এখানে পড়া যাবে।"

@@ -2275,3 +2275,95 @@ msgstr "<0>هوش مصنوعی، متکی به منابع.</0> ابزارهای 
 #: src/routes/Journey.svelte
 msgid "How it was made"
 msgstr "نحوه ساخت"
+
+#: src/routes/Journey.svelte
+msgid "Reading mode selected. The same journey is available without narration."
+msgstr "حالت مطالعه انتخاب شد. همین مسیر بدون روایت صوتی در دسترس است."
+
+#: src/routes/Journey.svelte
+msgid "Journey complete. Recap opened."
+msgstr "سفر کامل شد. مرور خلاصه باز شد."
+
+#: src/routes/Journey.svelte
+msgid "Where the journey begins, with preparations for departure."
+msgstr "جایی که سفر با آماده‌سازی برای عزیمت آغاز می‌شود."
+
+#: src/routes/Journey.svelte
+msgid "Where the journey closes, with arrival and a new beginning."
+msgstr "جایی که سفر با رسیدن و آغازی نو به پایان می‌رسد."
+
+#: src/routes/Journey.svelte
+msgid "The offline journey notes do not establish an answer to that question."
+msgstr "یادداشت‌های آفلاین سفر پاسخی برای این پرسش ارائه نمی‌دهند."
+
+#: src/routes/Journey.svelte
+msgid "That stage is not available."
+msgstr "این مرحله در دسترس نیست."
+
+#: src/routes/Journey.svelte
+msgid "Chapters"
+msgstr "فصل‌ها"
+
+#: src/routes/Journey.svelte
+msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
+msgstr "هر نقطه نورانی، فرازی است که در این سفر به آن استناد شده و در مکان مربوط به آن قرار دارد. یکی را برای خواندن انتخاب کنید."
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the journey stage by stage with AI-generated narration."
+msgstr "<0>پخش</0> سفر را مرحله‌به‌مرحله با روایت صوتیِ هوش مصنوعی طی می‌کند."
+
+#: src/routes/Journey.svelte
+msgid "<0>Play</0> walks the journey stage by stage. The captions keep time over a quiet wind."
+msgstr "<0>پخش</0> سفر را مرحله‌به‌مرحله پیش می‌برد. زیرنویس‌ها با صدای ملایم باد هماهنگ می‌شوند."
+
+#: src/routes/Journey.svelte
+msgid "<0>Ask</0> uses the journey’s context to research in Turath and answer with source citations."
+msgstr "<0>پرسش</0> با استفاده از بافت سفر، در «تراث» جست‌وجو کرده و با ذکر منابع پاسخ می‌دهد."
+
+#: src/routes/Journey.svelte
+msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The chapters go deeper into each part of the story, and the practice questions are drawn from the same passages."
+msgstr "هر پاراگراف بر فرازی از منابع کهن عربی متکی است و به صفحه مربوطه‌اش در «تراث» پیوند دارد. فصل‌ها عمیق‌تر به هر بخش از داستان می‌پردازند و پرسش‌های تمرینی از همان فرازها برگرفته شده‌اند."
+
+#: src/routes/Journey.svelte
+msgid "<0>Chapters</0> that go deeper into each part of the story, each with its source passages."
+msgstr "<0>فصل‌ها</0>یی که عمیق‌تر به هر بخش از داستان می‌پردازند، هر کدام همراه با فرازهای منبع."
+
+#: src/routes/Journey.svelte
+msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
+msgstr "<0>ابتدا به عربی نگاشته شده است.</0> هر فصل از اساس به عربی نوشته شده و فرازهای ارائه‌شده متن دقیق منبع هستند، بدون هیچ بازنویسی."
+
+#: src/routes/Journey.svelte
+msgid "Journey stages"
+msgstr "مراحل سفر"
+
+#: src/routes/Journey.svelte
+msgid "<0/> Complete the journey"
+msgstr "<0/> تکمیل سفر"
+
+#: src/routes/Journey.svelte
+msgid "Journey complete"
+msgstr "پایان سفر"
+
+#: src/routes/Journey.svelte
+msgid "Ask about this journey…"
+msgstr "درباره این سفر بپرسید…"
+
+#: src/routes/Journey.svelte
+msgid "Journey notes · offline"
+msgstr "یادداشت‌های سفر · آفلاین"
+
+#: src/routes/Journey.svelte
+msgid "More chapters"
+msgstr "فصل‌های بیشتر"
+
+#: src/routes/Journey.svelte
+msgid "Previous chapter"
+msgstr "فصل قبلی"
+
+#: src/routes/Journey.svelte
+msgid "Next chapter"
+msgstr "فصل بعدی"
+
+#: src/routes/Journey.svelte
+msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
+msgstr "تصویرسازی سه‌بعدی در این دستگاه در دسترس نیست. همچنان می‌توانید متن کامل سفر را بخوانید."

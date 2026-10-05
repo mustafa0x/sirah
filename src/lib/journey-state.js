@@ -81,7 +81,7 @@ export function choose_reading(state) {
     state.phase = 'guided'
     state.presentation = 'reading'
     state.panel = 'none'
-    state.announcement = 'Reading mode selected. The same chapter is available without narration.'
+    state.announcement = 'Reading mode selected. The same journey is available without narration.'
 }
 
 export function toggle_reading(state) {
@@ -234,7 +234,7 @@ export function complete_chapter(state) {
     state.phase = 'completed'
     state.panel = 'none'
     state.presentation = 'reading'
-    state.announcement = 'Chapter complete. Recap opened.'
+    state.announcement = 'Journey complete. Recap opened.'
 }
 
 export function presentation_state(state) {

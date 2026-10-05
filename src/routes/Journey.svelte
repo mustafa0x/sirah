@@ -630,7 +630,7 @@
         replace = false,
     ) {
         if (!chapter.steps.some((step) => step.id === step_id)) {
-            announce('That chapter stop is not available.')
+            announce('That stage is not available.')
             return
         }
         if (
@@ -649,7 +649,7 @@
         try {
             ticket = begin_navigation(journey, step_id, purpose, 0)
         } catch {
-            announce('That chapter stop is not available.')
+            announce('That stage is not available.')
             return
         }
         clock?.pause()
@@ -1438,7 +1438,7 @@
 {/snippet}
 
 {#snippet depth_label(key)}
-    {#if key === 'readings'}Readings{:else if key === 'passages'}Source passages{:else if key === 'books'}Source
+    {#if key === 'readings'}Chapters{:else if key === 'passages'}Source passages{:else if key === 'books'}Source
         books{:else if key === 'questions'}Practice questions{:else}Languages{/if}
 {/snippet}
 
@@ -1498,7 +1498,7 @@
 {#snippet place_chapter_buttons()}
     <!-- One quiet list rather than a gold button per chapter. -->
     <div class="grid gap-1">
-        <p class={kicker}>Readings</p>
+        <p class={kicker}>Chapters</p>
         <ul class="grid list-none">
             {#each place_chapters as item (item.chapter_id)}
                 <li>
@@ -1743,12 +1743,12 @@
                 >
             </div>
             <p class="mt-2 text-sm text-ink max-w-[32rem]">
-                Select a book marker to open its reading.
+                Select a book marker to read its chapter.
             </p>
         </section>
         <nav
             class="absolute z-20 bottom-5 inset-x-6 mobile:bottom-3 mobile:inset-x-3"
-            aria-label="Hijrah readings"
+            aria-label="Hijrah chapters"
         >
             <div class="flex items-center justify-between gap-3 mb-2">
                 <p class="text-sm text-ink-soft">Locations are schematic.</p>
@@ -1920,7 +1920,7 @@
         >
             <h2 class={kicker} id="evidence-title">Evidence on the map</h2>
             <p class="text-ink-soft text-[0.875rem] leading-[1.5]">
-                Each point of light is a passage this chapter cites, placed where it speaks of.
+                Each point of light is a passage this journey cites, placed where it speaks of.
                 Select one to read it.
             </p>
             <ul class="grid gap-2 list-none">
@@ -2042,9 +2042,9 @@
             >
                 <li>
                     {#if narrated}
-                        <strong>Play</strong> walks the chapter stage by stage with AI-generated narration.
+                        <strong>Play</strong> walks the journey stage by stage with AI-generated narration.
                     {:else}
-                        <strong>Play</strong> walks the chapter stage by stage. The captions keep time
+                        <strong>Play</strong> walks the journey stage by stage. The captions keep time
                         over a quiet wind.
                     {/if}
                 </li>
@@ -2057,7 +2057,7 @@
                     not establish.
                 </li>
                 <li>
-                    <strong>Ask</strong> uses the chapter’s context to research in Turath and answer with
+                    <strong>Ask</strong> uses the journey’s context to research in Turath and answer with
                     source citations.
                 </li>
                 <li>
@@ -2097,7 +2097,7 @@
                 </dl>
                 <p class="text-ink-soft text-[0.875rem] leading-[1.55]">
                     Every paragraph rests on a passage from the classical Arabic sources, with a
-                    link to its page on Turath. The readings go deeper into each part of the story,
+                    link to its page on Turath. The chapters go deeper into each part of the story,
                     and the practice questions are drawn from the same passages.
                 </p>
                 <p class="text-ink-soft text-[0.875rem] leading-[1.55]">
@@ -2189,7 +2189,7 @@
                                 real elevation data, narrated in Arabic and English.
                             </li>
                             <li>
-                                <strong>Readings</strong> that go deeper into each part of the story,
+                                <strong>Chapters</strong> that go deeper into each part of the story,
                                 each with its source passages.
                             </li>
                             <li>
@@ -2229,7 +2229,7 @@
                                 says comes from this core.
                             </li>
                             <li>
-                                <strong>Written in Arabic first.</strong> Each reading was written in
+                                <strong>Written in Arabic first.</strong> Each chapter was written in
                                 Arabic from the core, and the passages it shows are the exact source text,
                                 never retyped.
                             </li>
@@ -2351,7 +2351,7 @@
     {:else if !map_open}
         <aside
             class="absolute z-20 top-[84px] left-5 flex flex-col w-[284px] max-h-[calc(100%-104px)] px-4 pt-[22px] pb-[18px] bg-panel border border-solid border-line rounded-[18px] backdrop-blur-[18px] backdrop-saturate-[1.2] mobile:top-14 mobile:right-0 mobile:left-0 mobile:w-auto mobile:px-[14px] mobile:pt-[6px] mobile:pb-[10px] mobile:bg-transparent mobile:border-0 mobile:rounded-none mobile:backdrop-filter-none"
-            aria-label="Chapter stages"
+            aria-label="Journey stages"
             bind:clientWidth={rail_width}
             in:fade
         >
@@ -2404,7 +2404,7 @@
                 </li>
             </ol>
             <!-- On a phone the stages are one segmented line under the current stage. -->
-            <nav class="hidden gap-1 px-1 mobile:flex" aria-label="Chapter stages">
+            <nav class="hidden gap-1 px-1 mobile:flex" aria-label="Journey stages">
                 {#each chapter.steps as step, index (step.id)}
                     <a
                         class="group/segment flex-1 py-2"
@@ -2737,7 +2737,7 @@
                             onclick={continue_chapter}
                         >
                             {#if is_last_step}
-                                {@render icon('check')} Complete the chapter
+                                {@render icon('check')} Complete the journey
                             {:else}
                                 Continue: {chapter.steps[selected_index + 1].title}
                                 {@render icon('next')}
@@ -2805,7 +2805,7 @@
                     >
                         {#if journey.phase === 'completed' && selected_step.recap}
                             <div class={recap}>
-                                <p class={kicker}>Chapter complete</p>
+                                <p class={kicker}>Journey complete</p>
                                 <h3 class="font-serif text-[1.4rem] font-medium">
                                     What to carry forward
                                 </h3>
@@ -2877,7 +2877,7 @@
                                     class="{ghost_button} justify-self-start"
                                     onclick={() => open_chapter(reading.chapter_id)}
                                 >
-                                    {@render icon('read')} The full reading, with its sources and practice
+                                    {@render icon('read')} The full chapter, with its sources and practice
                                 </button>
                             </section>
                         {/each}
@@ -2910,7 +2910,7 @@
                     </button>
                     {#if is_last_step && journey.phase !== 'completed'}
                         <button class="{primary_button} min-w-0 mr-auto" onclick={continue_chapter}>
-                            {@render icon('check')} Complete the chapter
+                            {@render icon('check')} Complete the journey
                         </button>
                     {:else if !is_last_step}
                         <button
@@ -2952,7 +2952,7 @@
                             maxlength="1200"
                             dir="auto"
                             rows="2"
-                            placeholder="Ask about this chapter…"></textarea>
+                            placeholder="Ask about this journey…"></textarea>
                         <button
                             class={primary_button}
                             type="submit"
@@ -2976,7 +2976,7 @@
                                 <p class={kicker}>
                                     {journey.answer.provider === 'openai-turath'
                                         ? 'From the sources'
-                                        : 'Chapter notes · offline'}
+                                        : 'Journey notes · offline'}
                                 </p>
                                 <p class="{prose} whitespace-pre-wrap" dir="auto">
                                     {journey.answer.answer}

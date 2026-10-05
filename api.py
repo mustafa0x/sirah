@@ -244,7 +244,7 @@ class LocalGuideProvider:
             citations = []
             action = None
         if not citations:
-            text = 'The offline chapter notes do not establish an answer to that question.'
+            text = 'The offline journey notes do not establish an answer to that question.'
             action = None
         return {
             "answer": text,

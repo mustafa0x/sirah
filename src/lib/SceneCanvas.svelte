@@ -73,7 +73,7 @@
             class="absolute top-24 left-1/2 max-w-[30rem] py-[10px] px-4 bg-panel-solid border border-solid border-line rounded-[10px] text-[0.875rem] [transform:translateX(-50%)]"
             role="status"
         >
-            The 3D illustration is unavailable on this device. The full chapter is still here to
+            The 3D illustration is unavailable on this device. The full journey is still here to
             read.
         </p>
     {/if}
