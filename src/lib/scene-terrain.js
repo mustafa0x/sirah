@@ -159,6 +159,11 @@ export function build_terrain(THREE, definition, grid, details = []) {
         if (lat > corner.north || lon > corner.east) return 1
         return smoothstep(0.1, 0.7, Math.min(lat - south, lon - west))
     }
+    // Sunk to open-sea depth, so the corner matches the water beyond the map.
+    const sink = (x, z, value) => {
+        const fade = shore_fade(x, z)
+        return fade < 1 && value > -1500 ? value + (-1500 - value) * (1 - fade) : value
+    }
     const metres = (x, z) => {
         let value = regional.sample(x, z)
         for (const { field } of patches) {
@@ -166,13 +171,14 @@ export function build_terrain(THREE, definition, grid, details = []) {
             if (!weight) continue
             value += (field.sample(x, z) - value) * weight
         }
-        const fade = shore_fade(x, z)
-        if (fade < 1 && value > -250) value += (-250 - value) * (1 - fade)
-        return value
+        return sink(x, z, value)
     }
     const per_metre = definition.exaggeration / 1000 / km_per_unit
+    // Land stands 15 m proud of the water so the two never flicker. The rise eases in over
+    // the last 40 m below sea level, so the shoreline follows the elevation smoothly instead
+    // of stepping at every grid cell that crosses zero.
     const lift = definition.sea
-        ? (value) => (value > 0 ? (value + 15) * per_metre : Math.max(value * per_metre, -0.4))
+        ? (value) => Math.max((value + 15 * smoothstep(-40, 0, value)) * per_metre, -0.4)
         : (value) => (value - definition.base) * per_metre
     const sample_distance = Math.min(cell_x, cell_z) / 20
     const slope = (x, z) =>
@@ -193,6 +199,9 @@ export function build_terrain(THREE, definition, grid, details = []) {
     const sand = new THREE.Color(0xcfa974)
     const rock = new THREE.Color(0x8d6b4b)
     const high_rock = new THREE.Color(0x5e4737)
+    // The seabed, seen through the water: pale in the shallows, deep blue offshore.
+    const shallows = new THREE.Color(0x8fd0c2)
+    const depths = new THREE.Color(0x0c2a3e)
     const tint = new THREE.Color()
     const macro_attribute = (x, z, values) => {
         const { xs, zs } = tiles[0]
@@ -236,7 +245,7 @@ export function build_terrain(THREE, definition, grid, details = []) {
             for (const z of zs) {
                 const value = metres(x, z)
                 // One macro colour field prevents resolution changes painting visible tiles.
-                const macro = regional.sample(x, z)
+                const macro = sink(x, z, regional.sample(x, z))
                 const relief = definition.sea ? macro : macro - definition.base
                 const steep =
                     (Math.hypot(
@@ -283,6 +292,17 @@ export function build_terrain(THREE, definition, grid, details = []) {
                     Math.max(smoothstep(0.12, 0.5, steep), smoothstep(500, 1500, relief)),
                 )
                 tint.lerp(high_rock, smoothstep(0.5, 1.1, steep) * 0.8)
+                if (definition.sea && relief < 0) {
+                    // Towards the map's edges the seabed fades to open water, so it meets the
+                    // deep floor beyond without a seam.
+                    const lat = lat0 + (x * km_per_unit) / KM_PER_DEGREE
+                    const lon = lon0 + (z * km_per_unit) / km_per_lon
+                    const edge = Math.min(lat - south, north - lat, lon - west, east - lon)
+                    tint.copy(shallows).lerp(
+                        depths,
+                        Math.max(smoothstep(0, 500, -relief), 1 - smoothstep(0.1, 0.6, edge)),
+                    )
+                }
                 tint.multiplyScalar(0.93 + 0.14 * fbm(x * 0.7, z * 0.7))
                 colors.push(tint.r, tint.g, tint.b)
             }

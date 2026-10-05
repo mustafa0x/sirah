@@ -254,7 +254,10 @@ export async function create_scene(
         ripples.needsUpdate = true
         // The sea reaches well past the mapped land and fades into the horizon, so the map
         // never shows a hard edge against the sky.
+        // Translucent, so the seabed's colour shows: lighter shallows along the coast.
         const sea_material = new THREE.MeshStandardMaterial({
+            transparent: true,
+            opacity: 0.72,
             roughness: 0.22,
             metalness: 0.05,
             normalMap: ripples,
@@ -275,6 +278,15 @@ export async function create_scene(
         sea.rotation.x = -Math.PI / 2
         sea.receiveShadow = true
         scene.add(sea)
+        // Deep water beneath, past the mapped seabed, so open sea stays a uniform deep blue.
+        const sea_floor = new THREE.Mesh(
+            sea.geometry,
+            new THREE.MeshStandardMaterial({ color: 0x0c2a3e, roughness: 1 }),
+        )
+        sea_floor.name = 'open-water-floor'
+        sea_floor.rotation.x = -Math.PI / 2
+        sea_floor.position.y = -0.42
+        scene.add(sea_floor)
 
         const mood = {
             top: new THREE.Color(),
