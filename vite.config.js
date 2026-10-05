@@ -5,6 +5,7 @@ import { defineConfig } from 'vite'
 import domain from 'vite-plugin-domain'
 import { wuchale } from 'wuchale/vite'
 import { navigation_fallback } from './scripts/navigation-fallback.js'
+import { depth_stats_plugin } from './scripts/depth-stats.js'
 import tsconfig from './tsconfig.json' with { type: 'json' }
 
 export default defineConfig({
@@ -17,7 +18,14 @@ export default defineConfig({
             ]),
         ),
     },
-    plugins: [domain(), wuchale(), tailwindcss(), svelte({ inspector: true }), navigation_fallback],
+    plugins: [
+        domain(),
+        wuchale(),
+        tailwindcss(),
+        svelte({ inspector: true }),
+        navigation_fallback,
+        depth_stats_plugin(),
+    ],
     publicDir: false,
     build: {
         assetsInlineLimit: 0,

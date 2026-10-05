@@ -55,6 +55,7 @@
 
 <script>
     import { onMount } from 'svelte'
+    import depth from 'virtual:depth-stats'
     const { route } = window.navgo
     import { change_language, fmt_num, saved_language } from '../lib/i18n.js'
     import { locales, language_direction } from '../lib/locale-config.js'
@@ -152,6 +153,32 @@
     let total_minutes = $derived(
         Math.round(chapter.steps.reduce((sum, step) => sum + step.duration, 0) / 60),
     )
+    // What lies beneath the home page, counted from the content at build time.
+    const depth_keys = ['readings', 'passages', 'books', 'questions', 'languages']
+    let depth_progress = $state(0)
+    // Set by the home page's link: the help panel opens on this section.
+    let show_beneath = $state(false)
+    $effect(() => {
+        if (!help_open || !show_beneath) return
+        document.getElementById('beneath')?.scrollIntoView({ block: 'start' })
+        show_beneath = false
+    })
+    onMount(() => {
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            depth_progress = 1
+            return
+        }
+        const begin = performance.now() + 900
+        let frame = 0
+        const count = (now) => {
+            const t = Math.max(0, Math.min(1, (now - begin) / 1600))
+            depth_progress = 1 - (1 - t) ** 3
+            if (t < 1) frame = requestAnimationFrame(count)
+        }
+        frame = requestAnimationFrame(count)
+        return () => cancelAnimationFrame(frame)
+    })
+
     // On the home page the route draws itself once, Makkah to Madinah. The short first leg
     // (to Thawr) takes a small share of the time.
     let home_progress = $state(0)
@@ -1387,6 +1414,11 @@
         depth{/if}
 {/snippet}
 
+{#snippet depth_label(key)}
+    {#if key === 'readings'}Readings{:else if key === 'passages'}Source passages{:else if key === 'books'}Source
+        books{:else if key === 'questions'}Practice questions{:else}Languages{/if}
+{/snippet}
+
 {#snippet icon(name)}
     <svg
         class={[
@@ -1975,7 +2007,7 @@
 
     {#if help_open}
         <section
-            class="absolute z-40 top-16 right-6 w-[min(400px,calc(100%-32px))] p-[22px] bg-panel-solid border border-solid border-line-strong rounded-2xl shadow-[0_24px_70px_rgba(0,0,0,0.5)] backdrop-blur-[16px] mobile:top-14 mobile:right-3"
+            class="absolute z-40 top-16 right-6 w-[min(400px,calc(100%-32px))] max-h-[calc(100%-88px)] overflow-y-auto p-[22px] bg-panel-solid border border-solid border-line-strong rounded-2xl shadow-[0_24px_70px_rgba(0,0,0,0.5)] backdrop-blur-[16px] mobile:top-14 mobile:right-3"
             aria-labelledby="help-title"
             transition:fly={{ y: -8, duration: 180 }}
         >
@@ -2022,6 +2054,33 @@
                             story{:else}In depth{/if}
                     </button>
                 {/each}
+            </div>
+            <div
+                class="grid gap-3 pt-4 mt-1 border-0 border-t border-solid border-line scroll-mt-4"
+                id="beneath"
+            >
+                <p class={kicker}>Beneath the surface</p>
+                <dl class="grid grid-cols-3 gap-x-3 gap-y-2">
+                    {#each depth_keys as key (key)}
+                        <div class="grid">
+                            <dt class="order-last text-muted text-[0.75rem] leading-[1.3]">
+                                {@render depth_label(key)}
+                            </dt>
+                            <dd class="m-0 font-serif text-[1.375rem] leading-[1.1] text-ink">
+                                {fmt_num(depth[key])}
+                            </dd>
+                        </div>
+                    {/each}
+                </dl>
+                <p class="text-ink-soft text-[0.875rem] leading-[1.55]">
+                    Every paragraph rests on a passage from the classical Arabic sources, with a
+                    link to its page on Turath. The readings go deeper into each part of the story,
+                    and the practice questions are drawn from the same passages.
+                </p>
+                <p class="text-ink-soft text-[0.875rem] leading-[1.55]">
+                    The narration is in Arabic and English, and the map is built from real elevation
+                    data.
+                </p>
             </div>
         </section>
     {/if}
@@ -2091,6 +2150,33 @@
                     explained, and why each stage matters.{:else}Every detail, with the evidence and
                     the timeline open.{/if}
             </p>
+        </section>
+        <section
+            class="absolute z-20 bottom-7 left-[clamp(24px,7vw,112px)] flex flex-wrap gap-x-9 gap-y-3 items-end animate-rise mobile:hidden [@media(max-height:760px)]:hidden"
+            aria-label="Beneath the surface"
+            out:fade={{ duration: 250 }}
+        >
+            <dl class="flex flex-wrap gap-x-8 gap-y-3">
+                {#each depth_keys as key (key)}
+                    <div class="grid gap-1">
+                        <dt class="order-last text-muted text-[0.8125rem]">
+                            {@render depth_label(key)}
+                        </dt>
+                        <dd class="m-0 font-serif text-[2rem] leading-none text-ink tabular-nums">
+                            {fmt_num(Math.round(depth[key] * depth_progress))}
+                        </dd>
+                    </div>
+                {/each}
+            </dl>
+            <button
+                class="inline-flex gap-2 items-center pb-1 text-gold text-[0.875rem] font-semibold bg-transparent border-0 hover:text-gold-bright [&>svg]:rtl:-scale-x-100"
+                onclick={() => {
+                    show_beneath = true
+                    toggle_help()
+                }}
+            >
+                What's beneath the surface {@render icon('next')}
+            </button>
         </section>
     {:else if !map_open}
         <aside
