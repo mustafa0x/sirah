@@ -2551,20 +2551,10 @@
                             data-source={source.id}
                             data-active={source.id === active_source.id}
                         >
-                            <p class="flex gap-[10px] items-center text-muted text-[0.875rem]">
-                                <span
-                                    class="grid shrink-0 min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
-                                    >{fmt_num(source.number)}</span
-                                >
-                                <span class="min-w-0"
-                                    ><span
-                                        class="text-ink-soft font-arabic text-[1.0625rem]"
-                                        lang="ar"
-                                        dir="rtl">{source.work}</span
-                                    > {#if source.volume}
-                                        · vol. {fmt_num(source.volume)}, p. {fmt_num(source.page)}{/if}</span
-                                >
-                            </p>
+                            <span
+                                class="grid w-fit min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
+                                >{fmt_num(source.number)}</span
+                            >
                             <blockquote
                                 class="py-4 px-5 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 border-r-[3px] border-solid border-gold rounded-xl font-arabic text-[1.375rem] leading-[2]"
                                 dir="rtl"
@@ -2586,15 +2576,27 @@
                                     context.
                                 </p>
                             {/if}
+                            <!-- One reference: what the passage is, and the book on Turath it was read
+                                 in, which is the page the link opens. -->
                             <a
-                                class="inline-flex gap-2 items-center justify-self-end text-gold font-semibold text-[0.9375rem] hover:text-gold-bright"
+                                class="group/ref flex flex-wrap gap-x-2 gap-y-[2px] items-baseline justify-end text-end"
                                 href={source.url}
                                 target="_blank"
                                 rel="noreferrer"
                                 title={`Open the page on Turath: ${source.reference}`}
                             >
-                                <span dir="auto">{fmt_num(source.reference)}</span>
-                                {@render icon('external')}
+                                <span
+                                    class="inline-flex gap-2 items-center text-gold font-semibold text-[0.9375rem] group-hover/ref:text-gold-bright"
+                                    ><span dir="auto">{fmt_num(source.reference)}</span>
+                                    {@render icon('external')}</span
+                                >
+                                <span class="text-muted text-[0.8125rem]"
+                                    >read in <span
+                                        class="text-ink-soft font-arabic text-[1rem]"
+                                        lang="ar"
+                                        dir="rtl">{source.work}</span
+                                    >{#if source.volume}, vol. {fmt_num(source.volume)}, p. {fmt_num(source.page)}{/if}</span
+                                >
                             </a>
                         </article>
                     {/each}
