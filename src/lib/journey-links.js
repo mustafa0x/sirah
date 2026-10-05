@@ -8,6 +8,7 @@ export const journey_paths = [
     '/chapters/:chapter/:tab',
     '/chapters/:chapter/:tab/:target',
     '/journey/hijrah',
+    '/journey/hijrah/map',
     '/journey/hijrah/sources/:source',
     '/journey/hijrah/practice',
     '/journey/hijrah/practice/:question',
@@ -106,6 +107,7 @@ export function resolve_journey_link(url, registry, defaults = {}) {
             at: at ?? step?.paragraphs.find((p) => p.source_ids.includes(id))?.id,
         }
     }
+    if (name === 'map' && !id) return { ...target, kind: 'map', view: 'scene' }
     if (name === 'practice') {
         const level = url.searchParams.get('level')
         const practice_step = url.searchParams.get('stage')

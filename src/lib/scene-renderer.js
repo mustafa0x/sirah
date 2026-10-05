@@ -99,7 +99,7 @@ export async function create_scene(
     let scene
     const labels = document.createElement('div')
     labels.className =
-        'absolute inset-0 overflow-hidden pointer-events-none transition-opacity duration-[0.6s] ease-[ease] group-data-[started=false]/stage:invisible group-data-[started=false]/stage:opacity-0'
+        'absolute inset-0 overflow-hidden pointer-events-none transition-opacity duration-[0.6s] ease-[ease] group-[[data-started=false][data-map=false]]/stage:invisible group-[[data-started=false][data-map=false]]/stage:opacity-0'
     const api = {
         set_shot() {},
         set_mood() {},
@@ -110,6 +110,7 @@ export async function create_scene(
         set_active() {},
         set_insets() {},
         set_links() {},
+        set_chapters() {},
         dispose() {
             disposed = true
         },
@@ -339,7 +340,7 @@ export async function create_scene(
             boulder_position.setXYZ(index, x * swell, y * swell, z * swell)
         }
         boulder_geometry.computeVertexNormals()
-        const ring_geometry = new THREE.TorusGeometry(1, 0.09, 6, 32)
+        const ring_geometry = new THREE.TorusGeometry(1, 0.035, 6, 32)
         ring_geometry.rotateX(Math.PI / 2)
         const dummy = new THREE.Object3D()
         const shadowed = (mesh) => {
@@ -859,6 +860,111 @@ export async function create_scene(
             for (const [id, node] of evidence_nodes)
                 node.href = journey_href(`/journey/hijrah/sources/${id}`, context, at)
         }
+        const chapter_nodes = new Map()
+        api.set_chapters = (items) => {
+            for (const [id, { node, line }] of chapter_nodes) {
+                if (items.some((item) => item.id === id)) continue
+                node.remove()
+                line.remove()
+                chapter_nodes.delete(id)
+            }
+            for (const item of items) {
+                let entry = chapter_nodes.get(item.id)
+                if (!entry) {
+                    const point = places[item.place]
+                    const [x, z] = landscape.to_xz(point.lat, point.lon)
+                    const node = document.createElement('a')
+                    node.id = `map-chapter-${item.id}`
+                    node.dataset.chapter = item.id
+                    node.className =
+                        'group/book absolute left-0 top-0 grid justify-items-center pb-4 pointer-events-auto [translate:-50%_-100%] [&[hidden]]:hidden'
+                    const mark = document.createElement('span')
+                    mark.className =
+                        'relative grid size-10 place-items-center rounded-full border border-gold-bright bg-gold text-gold-ink group-hover/book:bg-gold-bright'
+                    mark.innerHTML =
+                        '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5c3-1 5.5-.5 8 1.5 2.5-2 5-2.5 8-1.5v12.5c-3-1-5.5-.5-8 1.5-2.5-2-5-2.5-8-1.5zM12 7v12.5"/></svg>'
+                    const number = document.createElement('span')
+                    number.className =
+                        'absolute -bottom-1 -right-1 grid size-[18px] place-items-center rounded-full border border-gold bg-panel-solid text-ink text-[11px]'
+                    number.textContent = item.number
+                    mark.append(number)
+                    const name = document.createElement('span')
+                    name.className =
+                        'absolute bottom-full mb-2 w-max max-w-[220px] rounded-lg border border-line-strong bg-panel-solid px-3 py-2 text-center font-serif text-sm text-ink opacity-0 pointer-events-none group-hover/book:opacity-100 group-focus-visible/book:opacity-100'
+                    name.dir = 'auto'
+                    node.append(mark, name)
+                    const line = document.createElement('span')
+                    line.className =
+                        'absolute left-0 top-0 h-px bg-gold pointer-events-none origin-left [&[hidden]]:hidden'
+                    labels.append(line, node)
+                    entry = {
+                        line,
+                        node,
+                        name,
+                        at: new THREE.Vector3(x, landscape.height(x, z) + 0.06, z),
+                    }
+                    chapter_nodes.set(item.id, entry)
+                }
+                entry.node.href = item.href
+                entry.node.setAttribute('aria-label', item.title)
+                entry.name.textContent = item.title
+            }
+        }
+        const place_chapters = () => {
+            const occupied = label_nodes
+                .filter(({ poi, node }) => !poi.detail && !node.hidden)
+                .map(({ node }) => node.getBoundingClientRect())
+            for (const { node, line, at } of chapter_nodes.values()) {
+                projected.copy(at).project(camera)
+                const x = ((projected.x + 1) / 2) * host.clientWidth
+                const y = ((1 - projected.y) / 2) * host.clientHeight
+                node.hidden =
+                    projected.z > 1 ||
+                    projected.z < -1 ||
+                    x < inset_target.left + 24 ||
+                    x > host.clientWidth - inset_target.right - 24 ||
+                    y < inset_target.top + 56 ||
+                    y > host.clientHeight - inset_target.bottom
+                line.hidden = node.hidden
+                if (node.hidden) continue
+                const offsets = [
+                    [0, 0],
+                    [56, 0],
+                    [-56, 0],
+                    [0, -56],
+                    [0, 56],
+                    [96, 0],
+                    [-96, 0],
+                ]
+                const [dx, dy] =
+                    offsets.find(([dx, dy]) => {
+                        const left = x + dx - 24,
+                            top = y + dy - 60
+                        return (
+                            left > inset_target.left &&
+                            left + 48 < host.clientWidth - inset_target.right &&
+                            top > inset_target.top &&
+                            top + 48 < host.clientHeight - inset_target.bottom &&
+                            occupied.every(
+                                (rect) =>
+                                    left + 48 < rect.left ||
+                                    left > rect.right ||
+                                    top + 48 < rect.top ||
+                                    top > rect.bottom,
+                            )
+                        )
+                    }) ?? offsets[0]
+                node.style.transform = `translate(${x + dx}px, ${y + dy}px)`
+                line.style.width = `${Math.hypot(dx, dy - 16)}px`
+                line.style.transform = `translate(${x}px, ${y}px) rotate(${Math.atan2(dy - 16, dx)}rad)`
+                occupied.push({
+                    left: x + dx - 24,
+                    right: x + dx + 24,
+                    top: y + dy - 60,
+                    bottom: y + dy - 12,
+                })
+            }
+        }
         const place_evidence = () => {
             const width = host.clientWidth
             const height = host.clientHeight
@@ -1258,9 +1364,9 @@ export async function create_scene(
             for (const world of Object.values(worlds))
                 world.rings.forEach((ring, index) => {
                     ring.visible = world === active
-                    const pulse = reduced_motion ? 0 : (now / 2600 + index * 0.25) % 1
-                    ring.scale.setScalar((distance / world.scale) * 0.012 * (1 + pulse * 0.9))
-                    ring.material.opacity = 0.85 * (1 - pulse)
+                    const pulse = reduced_motion ? 0 : (now / 4800 + index * 0.25) % 1
+                    ring.scale.setScalar((distance / world.scale) * 0.009 * (1 + pulse * 0.22))
+                    ring.material.opacity = 0.28 * (1 - pulse)
                 })
 
             ripples.offset.set(now / 90000, now / 140000)
@@ -1274,6 +1380,7 @@ export async function create_scene(
             dust_material.color.copy(mood.sun)
             composer.render()
             place_labels()
+            place_chapters()
             place_evidence()
             frame = window.requestAnimationFrame(render)
         }

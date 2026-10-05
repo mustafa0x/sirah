@@ -10,6 +10,8 @@
         cycle,
         actor,
         evidence,
+        chapters = [],
+        reset_key = 0,
         active_poi_id,
         insets,
         link_context,
@@ -44,6 +46,7 @@
 
     $effect(() => {
         if (!world || !shot) return
+        void reset_key
         world.set_shot(shot, first_shot ? 0 : 2200)
         first_shot = false
     })
@@ -55,6 +58,7 @@
     $effect(() => world?.set_insets(insets))
     $effect(() => world?.set_active(active_poi_id))
     $effect(() => world?.set_links(link_context, link_at))
+    $effect(() => world?.set_chapters(chapters))
 </script>
 
 <div class="group/scene absolute inset-0" data-scene-status={status}>

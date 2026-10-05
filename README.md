@@ -36,6 +36,8 @@ Copy a paused horse-scene link:
 
 `audience=young|new|deep` selects teaching presentation, not inferred user traits. `lang` selects the interface; explicit URL context overrides saved defaults for that visit. Stage/beat, place, cached source, chapter section/reading/source unit/question, timeline, glossary, Ask, Help and recap destinations have Navgo URLs. Valid in-app navigation retains the canvas and private same-session answers; fresh tabs reconstruct public content, not chat or grading state. Ask links never submit automatically. Live research citations keep their original external Turath page links.
 
+For free geographic browsing, choose **Explore the map** or open `/journey/hijrah/map?lang=ar&audience=new`. Book markers open available chapters directly; **Fit map** restores the overview. This mode stays paused and does not require beginning the story. Locations are schematic.
+
 See [the routing contract](docs/todo/linkable-navigation.md) for paths, public practice filters and continuity rules.
 
 ### Production SPA fallback

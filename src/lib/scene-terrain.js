@@ -139,17 +139,21 @@ export function build_terrain(THREE, definition, grid, details = []) {
                 1,
         }
     })
-    const metres = (x, z) => {
-        let value = regional.sample(x, z)
-        for (const { field } of patches) {
-            const edge =
-                1 -
+    const detail_weight = (field, x, z) =>
+        smoothstep(
+            0,
+            0.35,
+            1 -
                 Math.hypot(
                     (2 * x - field.min_x - field.max_x) / (field.max_x - field.min_x),
                     (2 * z - field.min_z - field.max_z) / (field.max_z - field.min_z),
-                )
-            if (edge <= 0) continue
-            const weight = smoothstep(0, 0.35, edge)
+                ),
+        )
+    const metres = (x, z) => {
+        let value = regional.sample(x, z)
+        for (const { field } of patches) {
+            const weight = detail_weight(field, x, z)
+            if (!weight) continue
             value += (field.sample(x, z) - value) * weight
         }
         return value
@@ -170,6 +174,7 @@ export function build_terrain(THREE, definition, grid, details = []) {
     const colors = []
     const normals = []
     const normal = new THREE.Vector3()
+    const macro_normal = new THREE.Vector3()
     const indices = []
     const tiles = []
     const shore = new THREE.Color(0xe6d2a6)
@@ -177,6 +182,41 @@ export function build_terrain(THREE, definition, grid, details = []) {
     const rock = new THREE.Color(0x8d6b4b)
     const high_rock = new THREE.Color(0x5e4737)
     const tint = new THREE.Color()
+    const macro_attribute = (x, z, values) => {
+        const { xs, zs } = tiles[0]
+        const r = clamp(Math.floor((x - xs[0]) / (xs[1] - xs[0])), 0, xs.length - 2)
+        const c = clamp(Math.floor((z - zs[0]) / (zs[1] - zs[0])), 0, zs.length - 2)
+        const a = r * zs.length + c,
+            b = a + 1,
+            d = a + zs.length,
+            e = d + 1
+        const tr = clamp(
+            (x - Math.fround(positions[a * 3])) /
+                (Math.fround(positions[d * 3]) - Math.fround(positions[a * 3])),
+            0,
+            1,
+        )
+        const tc = clamp(
+            (z - Math.fround(positions[a * 3 + 2])) /
+                (Math.fround(positions[b * 3 + 2]) - Math.fround(positions[a * 3 + 2])),
+            0,
+            1,
+        )
+        return [0, 1, 2].map((channel) => {
+            const ya = Math.fround(values[a * 3 + channel]),
+                yb = Math.fround(values[b * 3 + channel]),
+                yd = Math.fround(values[d * 3 + channel]),
+                ye = Math.fround(values[e * 3 + channel])
+            if ((r + c) % 2) {
+                return tr + tc <= 1
+                    ? ya + (yd - ya) * tr + (yb - ya) * tc
+                    : ye + (yb - ye) * (1 - tr) + (yd - ye) * (1 - tc)
+            }
+            return tc >= tr
+                ? ya + (yb - ya) * tc + (ye - yb) * tr
+                : ya + (yd - ya) * tr + (ye - yd) * tc
+        })
+    }
     const add_patch = (xs, zs, omit = false) => {
         const start = positions.length / 3
         tiles.push({ xs, zs, start })
@@ -211,6 +251,18 @@ export function build_terrain(THREE, definition, grid, details = []) {
                             (2 * sample_distance),
                     )
                     .normalize()
+                if (!omit) {
+                    const weight = Math.max(
+                        ...patches.map(({ field }) => detail_weight(field, x, z)),
+                    )
+                    macro_normal
+                        .fromArray(macro_attribute(x, z, normals))
+                        .lerp(normal, weight)
+                        .normalize()
+                    normals.push(macro_normal.x, macro_normal.y, macro_normal.z)
+                    colors.push(...macro_attribute(x, z, colors))
+                    continue
+                }
                 normals.push(normal.x, normal.y, normal.z)
                 tint.copy(sand)
                 if (definition.sea) tint.lerp(shore, 1 - smoothstep(0, 160, relief))

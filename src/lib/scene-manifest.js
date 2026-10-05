@@ -143,6 +143,9 @@ export const routes = [
 
 // `place` is where selecting the label flies to; `anchors` is where the label sits in
 // each world that shows it.
+// Representative chapter locations, not surveyed event coordinates.
+export const chapter_places = { hch_thawr: 'thawr', hch_suraqa: 'road', hch_umm_mabad: 'tent' }
+
 export const scene_pois = [
     {
         id: 'makkah',

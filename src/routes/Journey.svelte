@@ -10,6 +10,7 @@
     } from '../lib/journey-links.js'
     import {
         catalog,
+        available_chapters,
         chapter_title,
         chapters_for_place,
         load_chapter,
@@ -118,6 +119,7 @@
         beat_actors,
         beat_passages,
         beat_shots,
+        chapter_places,
         overview_shot,
         route_at,
         scene_pois,
@@ -170,6 +172,20 @@
     const card_row = 'flex flex-wrap gap-2 items-center'
 
     let journey = $state({ ...create_journey_state(), steps: chapter.steps })
+    let map_open = $state(false)
+    let map_reset = $state(0)
+    let guided_visible = $derived(journey.started && !map_open)
+    let chapter_markers = $derived(
+        available_chapters(language)
+            .filter((item) => chapter_places[item.chapter_id])
+            .map((item, index) => ({
+                id: item.chapter_id,
+                title: chapter_title(item, language),
+                place: chapter_places[item.chapter_id],
+                number: fmt_num(index + 1),
+                href: href(`/chapters/${item.chapter_id}`, null),
+            })),
+    )
     let active_poi = $state(null)
     let active_detail = $derived(active_poi?.detail ? mode_detail(active_poi.detail, mode) : null)
     let question = $state('')
@@ -226,7 +242,7 @@
             ? 'source'
             : journey.panel === 'question'
               ? 'question'
-              : journey.started && journey.presentation === 'reading'
+              : guided_visible && journey.presentation === 'reading'
                 ? 'reading'
                 : null,
     )
@@ -264,7 +280,7 @@
     let applying_link = false
     let writing_link = false
     let card_visible = $derived(
-        journey.started &&
+        guided_visible &&
             sheet !== 'reading' &&
             !(narrow && sheet) &&
             !practice &&
@@ -300,16 +316,18 @@
     let shot = $derived(
         active_poi
             ? poi_shots[active_poi.id]
-            : journey.started
+            : guided_visible
               ? beat_shots[(current_cue ?? selected_step.paragraphs[0]).id]
               : overview_shot,
     )
-    let mood = $derived(journey.started ? step_scenes[selected_step.id].mood : 'gold')
+    let mood = $derived(guided_visible ? step_scenes[selected_step.id].mood : 'gold')
     // The route is drawn as the stage plays, so scrubbing moves the journey with it.
     let scene_route = $derived(
-        journey.started
-            ? route_at(selected_step.id, on_guided_stop ? stop_progress : 1)
-            : idle_route,
+        map_open
+            ? [1, 1, 1]
+            : journey.started
+              ? route_at(selected_step.id, on_guided_stop ? stop_progress : 1)
+              : idle_route,
     )
     let cue_progress = $derived(
         !current_cue
@@ -324,7 +342,7 @@
         narrator.sync(current_cue, journey.guided_position.seconds, journey.is_playing && !sheet),
     )
     let cycle = $derived(
-        current_cue && timelapse_beats[current_cue.id] && !active_poi
+        current_cue && timelapse_beats[current_cue.id] && !active_poi && !map_open
             ? stop_finished
                 ? 1
                 : cue_progress
@@ -333,7 +351,7 @@
     $effect(() => ambience.set_mood(mood))
     let night = $derived(Math.min(3, Math.floor((cycle ?? 0) * 3) + 1))
     let passage = $derived(
-        current_cue && beat_passages[current_cue.id] && !active_poi
+        current_cue && beat_passages[current_cue.id] && !active_poi && !map_open
             ? get_source(beat_passages[current_cue.id])
             : null,
     )
@@ -355,14 +373,16 @@
             : null,
     )
     let insets = $derived(
-        narrow
-            ? { left: 0, right: 0, top: 120, bottom: journey.started ? card_height + 30 : 300 }
-            : {
-                  top: timeline_open ? timeline_bottom + 16 : 70,
-                  left: journey.started ? rail_width + 28 : viewport_width * 0.34,
-                  right: sheet ? sheet_width : active_poi?.detail || evidence_on ? 340 : 0,
-                  bottom: card_visible ? card_height + 40 : 0,
-              },
+        map_open
+            ? { left: 0, right: 0, top: narrow ? 140 : 128, bottom: narrow ? 220 : 110 }
+            : narrow
+              ? { left: 0, right: 0, top: 120, bottom: journey.started ? card_height + 30 : 300 }
+              : {
+                    top: timeline_open ? timeline_bottom + 16 : 70,
+                    left: journey.started ? rail_width + 28 : viewport_width * 0.34,
+                    right: sheet ? sheet_width : active_poi?.detail || evidence_on ? 340 : 0,
+                    bottom: card_visible ? card_height + 40 : 0,
+                },
     )
 
     function prepare_chapter(next_mode, keep_steps = []) {
@@ -887,7 +907,7 @@
         }
         // Keys typed while the chapter is open belong to it, not to playback.
         if (reading_chapter) return
-        if (!journey.started || event.metaKey || event.ctrlKey || event.altKey) return
+        if (!guided_visible || event.metaKey || event.ctrlKey || event.altKey) return
         if (event.target.closest?.('input, textarea, select, button, a, [contenteditable]')) return
         if (event.key === ' ') {
             event.preventDefault()
@@ -922,6 +942,7 @@
             href: view_href,
             journey: $state.snapshot(journey),
             active_poi_id: active_poi?.id,
+            map_open,
             help_open,
             evidence_on,
             timeline_open,
@@ -1060,6 +1081,7 @@
             }
             active_poi = scene_pois.find((poi) => poi.id === snapshot.active_poi_id) ?? null
             ;({
+                map_open,
                 help_open,
                 evidence_on,
                 timeline_open,
@@ -1075,6 +1097,8 @@
             reading_chapter = snapshot.reading_chapter
             reader_destination = snapshot.reader_destination
         } else {
+            map_open =
+                target.kind === 'map' || (map_open && ['place', 'chapter'].includes(target.kind))
             let stage_id = target.stage_id
             if (target.kind === 'chapter' && !target.at)
                 stage_id =
@@ -1083,8 +1107,15 @@
                     )?.place_id ?? stage_id
             const step = get_step(stage_id)
             const seconds = target.at ? beat_position(step, target.at) : 0
-            const ticket = begin_navigation(journey, stage_id, 'guided', seconds)
-            commit_navigation(journey, ticket, target.view)
+            if (target.kind === 'map') {
+                pause(journey)
+                close_panel(journey)
+                journey.presentation = 'scene'
+                journey.announcement = 'Explore the map'
+            } else {
+                const ticket = begin_navigation(journey, stage_id, 'guided', seconds)
+                commit_navigation(journey, ticket, target.view)
+            }
             Object.assign(journey, old_generations)
             active_poi = null
             practice = null
@@ -1151,15 +1182,17 @@
             const heading = document.getElementById(
                 reading_chapter
                     ? 'chapter-title'
-                    : help_open
-                      ? 'help-title'
-                      : open_term
-                        ? 'term-title'
-                        : active_poi
-                          ? active_poi.detail
-                              ? 'detail-title'
-                              : 'place-title'
-                          : 'sheet-title',
+                    : map_open && !active_poi
+                      ? 'map-title'
+                      : help_open
+                        ? 'help-title'
+                        : open_term
+                          ? 'term-title'
+                          : active_poi
+                            ? active_poi.detail
+                                ? 'detail-title'
+                                : 'place-title'
+                            : 'sheet-title',
             )
             if (heading) {
                 heading.tabIndex = -1
@@ -1265,6 +1298,8 @@
             <path d="M4 9.5v5h3.5l4.5 4v-13l-4.5 4zM16 9.5l5 5M21 9.5l-5 5" />
         {:else if name === 'evidence'}
             <circle cx="6" cy="8" r="2" /><circle cx="15" cy="6" r="2" /><circle cx="17" cy="15" r="2" /><circle cx="8" cy="17" r="2" />
+        {:else if name === 'map'}
+            <path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3zM9 3v15M15 6v15" />
         {:else if name === 'timeline'}
             <path d="M3 12h18M6 9v6M11 7v10M16 10v4M20 8v8" />
         {/if}
@@ -1309,7 +1344,8 @@
 
 <div
     class="group/stage fixed inset-0 overflow-hidden [--rail:0px] [--sheet:0px] [--sheet-width:min(480px,42vw)] data-[started=true]:[--rail:324px] data-[sheet-open=true]:[--sheet:calc(var(--sheet-width)+16px)] mobile:data-[started=true]:[--rail:0px] mobile:data-[sheet-open=true]:[--sheet:0px]"
-    data-started={journey.started}
+    data-started={guided_visible}
+    data-map={map_open}
     data-sheet-open={!!sheet}
 >
     <div class="absolute inset-0 bg-[linear-gradient(#2f5f8a,#f2c58c_62%,#8d6b4b_62%)]">
@@ -1319,18 +1355,22 @@
             {mood}
             route={scene_route}
             {cycle}
-            actor={current_cue && !active_poi ? (beat_actors[current_cue.id] ?? null) : null}
+            actor={current_cue && !active_poi && !map_open
+                ? (beat_actors[current_cue.id] ?? null)
+                : null}
+            chapters={map_open ? chapter_markers : []}
+            reset_key={map_reset}
             {insets}
             link_context={context()}
             link_at={current_cue?.id ?? selected_step.paragraphs[0]?.id}
             active_poi_id={active_poi?.id ?? null}
             on_poi={select_poi}
-            evidence={evidence_on}
+            evidence={evidence_on && !map_open}
             on_source={view_source}
         />
     </div>
     <div
-        class="absolute inset-0 pointer-events-none bg-[linear-gradient(180deg,rgba(9,8,6,0.72)_0,transparent_150px),linear-gradient(0deg,rgba(9,8,6,0.78)_0,transparent_46%),linear-gradient(90deg,rgba(9,8,6,0.86)_0,rgba(9,8,6,0.5)_30%,transparent_58%)] group-data-[started=true]/stage:bg-[linear-gradient(180deg,rgba(9,8,6,0.6)_0,transparent_130px),linear-gradient(0deg,rgba(9,8,6,0.74)_0,transparent_42%),linear-gradient(90deg,rgba(9,8,6,0.5)_0,transparent_30%)] mobile:bg-[linear-gradient(180deg,rgba(9,8,6,0.8)_0,transparent_190px),linear-gradient(0deg,rgba(9,8,6,0.92)_0,rgba(9,8,6,0.5)_38%,transparent_62%)]!"
+        class="absolute inset-0 pointer-events-none bg-[linear-gradient(180deg,rgba(9,8,6,0.72)_0,transparent_150px),linear-gradient(0deg,rgba(9,8,6,0.78)_0,transparent_46%),linear-gradient(90deg,rgba(9,8,6,0.86)_0,rgba(9,8,6,0.5)_30%,transparent_58%)] group-data-[started=true]/stage:bg-[linear-gradient(180deg,rgba(9,8,6,0.6)_0,transparent_130px),linear-gradient(0deg,rgba(9,8,6,0.74)_0,transparent_42%),linear-gradient(90deg,rgba(9,8,6,0.5)_0,transparent_30%)] group-data-[map=true]/stage:bg-[linear-gradient(180deg,rgba(9,8,6,0.8)_0,transparent_220px),linear-gradient(0deg,rgba(9,8,6,0.85)_0,transparent_35%)] mobile:bg-[linear-gradient(180deg,rgba(9,8,6,0.8)_0,transparent_190px),linear-gradient(0deg,rgba(9,8,6,0.92)_0,rgba(9,8,6,0.5)_38%,transparent_62%)]! mobile:group-data-[map=true]/stage:bg-[linear-gradient(180deg,rgba(9,8,6,0.8)_0,transparent_190px),linear-gradient(0deg,rgba(9,8,6,0.85)_0,transparent_35%)]!"
         aria-hidden="true"
     ></div>
 
@@ -1378,7 +1418,7 @@
             >
                 {@render icon(sound_on ? 'sound' : 'muted')}
             </button>
-            {#if journey.started}
+            {#if guided_visible}
                 <button
                     class="{round_button} aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright mobile:hidden"
                     aria-label={evidence_on
@@ -1407,6 +1447,64 @@
         </div>
     </header>
 
+    {#if map_open && !reading_chapter && !sheet}
+        <section
+            class="absolute z-20 top-[80px] inset-x-6 mobile:top-16 mobile:inset-x-[14px]"
+            aria-labelledby="map-title"
+        >
+            <div class="flex items-center justify-between gap-3">
+                <h1
+                    id="map-title"
+                    class="font-serif text-[1.75rem] font-medium mobile:text-[1.4rem]"
+                >
+                    Explore the map
+                </h1>
+                <a
+                    class={ghost_button}
+                    href={href('/journey/hijrah/map', null)}
+                    onclick={(event) =>
+                        follow_link(event, () => {
+                            active_poi = null
+                            map_reset += 1
+                            write_link('/journey/hijrah/map')
+                        })}><span>Fit map</span></a
+                >
+            </div>
+            <p class="mt-2 text-sm text-ink max-w-[32rem]">
+                Select a book marker to read its chapter.
+            </p>
+        </section>
+        <nav
+            class="absolute z-20 bottom-5 inset-x-6 mobile:bottom-3 mobile:inset-x-3"
+            aria-label="Hijrah chapters"
+        >
+            <div class="flex items-center justify-between gap-3 mb-2">
+                <p class="text-sm text-ink-soft">Locations are schematic.</p>
+                <a
+                    class={ghost_button}
+                    href={journey_href('/journey/hijrah/setting', { ...context(), view: 'scene' })}
+                    ><span>Begin the journey</span></a
+                >
+            </div>
+            <ol class="flex gap-2 list-none mobile:grid mobile:gap-1">
+                {#each chapter_markers as item (item.id)}
+                    <li class="min-w-0">
+                        <a
+                            class="flex items-center gap-3 min-h-11 px-3 py-2 rounded-xl text-ink border border-line-strong bg-panel-solid hover:border-gold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                            href={item.href}
+                        >
+                            <span
+                                class="grid shrink-0 size-6 place-items-center rounded-full bg-gold text-gold-ink text-sm"
+                                >{item.number}</span
+                            >
+                            <span class="font-serif leading-tight" dir="auto">{item.title}</span>
+                        </a>
+                    </li>
+                {/each}
+            </ol>
+        </nav>
+    {/if}
+
     {#if card_visible && !sheet && (passage || cycle !== null)}
         <div
             class="absolute z-10 top-[88px] right-6 left-[calc(var(--rail)+24px)] grid justify-items-center gap-2 text-center pointer-events-none mobile:top-[112px] mobile:left-6"
@@ -1428,7 +1526,7 @@
         </div>
     {/if}
 
-    {#if timeline_open && journey.started && !(narrow && sheet) && !practice}
+    {#if timeline_open && guided_visible && !(narrow && sheet) && !practice}
         <section
             class="absolute z-20 top-[76px] right-6 left-[calc(var(--rail)+40px)] grid gap-2 px-5 pt-3 pb-3 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:top-[104px] mobile:right-3 mobile:left-3 mobile:px-3"
             style:right={sheet ? 'calc(var(--sheet) + 8px)' : null}
@@ -1542,7 +1640,7 @@
         </section>
     {/if}
 
-    {#if evidence_on && journey.started && !sheet && !practice}
+    {#if evidence_on && guided_visible && !sheet && !practice}
         <section
             class="absolute z-20 right-6 w-[300px] grid gap-3 px-5 pt-4 pb-4 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:hidden"
             style:top={timeline_open ? `${timeline_bottom + 16}px` : '84px'}
@@ -1606,7 +1704,7 @@
         </section>
     {/if}
 
-    {#if active_poi && !active_poi.detail && place_chapters.length && !sheet && !reading_chapter}
+    {#if active_poi && !active_poi.detail && place_chapters.length && !sheet && !reading_chapter && !map_open}
         <section
             class="absolute z-20 top-[88px] right-6 grid gap-3 w-[min(380px,calc(100%-48px))] px-6 pt-5 pb-[18px] bg-panel border border-solid border-line-strong rounded-[20px] shadow-[0_18px_60px_rgba(0,0,0,0.35)] backdrop-blur-[18px] mobile:top-[112px] mobile:right-3 mobile:left-3 mobile:w-auto mobile:px-4 mobile:pt-4"
             aria-labelledby="place-title"
@@ -1711,7 +1809,7 @@
         </section>
     {/if}
 
-    {#if !journey.started}
+    {#if !journey.started && !map_open}
         <section
             class="absolute z-20 top-1/2 left-[clamp(24px,7vw,112px)] w-[min(560px,calc(100%-48px))] [transform:translateY(-50%)] animate-rise mobile:top-auto mobile:bottom-[26px] mobile:left-5 mobile:w-[calc(100%-40px)] mobile:transform-none"
             aria-labelledby="hero-title"
@@ -1763,6 +1861,10 @@
             </div>
             <div class="flex flex-wrap gap-3 mb-6 mobile:mb-4 mobile:[&>a]:flex-[1_1_auto]">
                 <a
+                    class="{ghost_button} min-h-[52px] px-6 py-3 text-[1rem]"
+                    href={href('/journey/hijrah/map', null)}><span>Explore the map</span></a
+                >
+                <a
                     class="{primary_button} min-h-[52px] px-6 py-3 text-[1rem]"
                     href={journey_href('/journey/hijrah/setting', { ...context(), view: 'scene' })}
                     onclick={(event) => follow_link(event, () => start('scene'))}
@@ -1792,7 +1894,7 @@
                 {/each}
             </nav>
         </section>
-    {:else}
+    {:else if !map_open}
         <aside
             class="absolute z-20 top-[84px] left-5 flex flex-col w-[284px] max-h-[calc(100%-104px)] px-4 pt-[22px] pb-[18px] bg-panel border border-solid border-line rounded-[18px] backdrop-blur-[18px] backdrop-saturate-[1.2] mobile:top-14 mobile:right-0 mobile:left-0 mobile:w-auto mobile:px-[14px] mobile:pt-[6px] mobile:pb-[10px] mobile:bg-transparent mobile:border-0 mobile:rounded-none mobile:backdrop-filter-none"
             aria-label="Chapter stages"
@@ -1805,6 +1907,9 @@
             >
                 The Hijrah
             </h1>
+            <a class="{ghost_button} mb-3 mobile:hidden" href={href('/journey/hijrah/map', null)}
+                ><span>Explore the map</span></a
+            >
             <ol class="grid gap-[2px] list-none mobile:flex mobile:gap-0 mobile:items-center">
                 {#each chapter.steps as step, index (step.id)}
                     {@const active = journey.viewed_step_id === step.id}
@@ -1837,11 +1942,18 @@
                         </a>
                     </li>
                 {/each}
+                <li class="hidden mobile:block">
+                    <a
+                        class="{round_button} ms-1"
+                        href={href('/journey/hijrah/map', null)}
+                        aria-label="Explore the map">{@render icon('map')}</a
+                    >
+                </li>
             </ol>
         </aside>
     {/if}
 
-    {#if practice && journey.started}
+    {#if practice && guided_visible}
         <section
             class="absolute z-20 bottom-[22px] left-[calc(var(--rail)+(100%-var(--rail)-var(--sheet))/2)] grid gap-3 w-[min(680px,calc(100%-var(--rail)-var(--sheet)-40px))] max-h-[calc(100%-110px)] overflow-y-auto px-6 pt-5 pb-[18px] bg-panel-solid border border-solid border-line-strong rounded-[20px] shadow-[0_18px_60px_rgba(0,0,0,0.4)] backdrop-blur-[18px] [translate:-50%_0] mobile:right-3 mobile:bottom-3 mobile:left-3 mobile:w-auto mobile:max-h-[calc(100%-130px)] mobile:px-4 mobile:pt-4 mobile:translate-none"
             aria-labelledby="practice-title"
@@ -2382,9 +2494,7 @@
                                         lang="ar"
                                         dir="rtl">{source.work}</span
                                     > {#if source.volume}
-                                        · vol. {fmt_num(source.volume)}, p. {fmt_num(
-                                            source.page,
-                                        )}{/if}</span
+                                        · vol. {fmt_num(source.volume)}, p. {fmt_num(source.page)}{/if}</span
                                 >
                             </p>
                             <blockquote

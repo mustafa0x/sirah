@@ -46,6 +46,14 @@ export const catalog = $state({
     }
 }
 
+export function available_chapters(requested) {
+    return chapter_locale(requested) === 'ar'
+        ? catalog.chapters
+        : catalog.chapters.filter((item) =>
+              english.chapters.some((edition) => edition.chapter_id === item.chapter_id),
+          )
+}
+
 export function chapter_title(item, requested) {
     return chapter_locale(requested) === 'ar'
         ? item.title_ar
