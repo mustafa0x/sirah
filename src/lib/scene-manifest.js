@@ -237,6 +237,13 @@ export const overview_shot = {
     portrait: shot('region_centre', -1.35, 0.95, 60, 0.2, null, 44),
 }
 
+// The home page looks north up the coast: the sea lies behind the title and the route
+// runs away from the viewer on the right, from Makkah towards Madinah.
+export const home_shot = {
+    ...shot('region_centre', -1.4, 1.05, 32, 0.2, [1.5, 0, -3.5]),
+    portrait: overview_shot.portrait,
+}
+
 // One camera move per narrative beat. An azimuth of `north` puts the camera north of its
 // target, looking south. `follow` keeps the target on the tip of that route leg.
 export const beat_shots = {

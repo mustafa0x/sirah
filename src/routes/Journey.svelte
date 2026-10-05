@@ -121,6 +121,7 @@
         beat_shots,
         chapter_places,
         overview_shot,
+        home_shot,
         route_at,
         scene_pois,
         step_scenes,
@@ -318,7 +319,9 @@
             ? poi_shots[active_poi.id]
             : guided_visible
               ? beat_shots[(current_cue ?? selected_step.paragraphs[0]).id]
-              : overview_shot,
+              : journey.started
+                ? overview_shot
+                : home_shot,
     )
     let mood = $derived(guided_visible ? step_scenes[selected_step.id].mood : 'gold')
     // The route is drawn as the stage plays, so scrubbing moves the journey with it.
@@ -1815,9 +1818,8 @@
             aria-labelledby="hero-title"
             out:fade={{ duration: 250 }}
         >
-            <p class={kicker}>Chapter one</p>
             <h1
-                class="mt-[10px] mb-5 font-serif text-[clamp(3.6rem,9vw,7rem)] font-medium tracking-[-0.035em] leading-[0.95] [text-shadow:0_2px_30px_rgba(0,0,0,0.45)]"
+                class="mb-5 font-serif text-[clamp(3.6rem,9vw,7rem)] font-medium tracking-[-0.035em] leading-[0.95] [text-shadow:0_2px_30px_rgba(0,0,0,0.45)]"
                 id="hero-title"
             >
                 The Hijrah
@@ -1835,35 +1837,9 @@
                 <span>about {fmt_num(total_minutes)} minutes</span>
                 <span>{fmt_num(chapter.sources.length)} cited passages</span>
             </p>
-            <div
-                class="grid grid-cols-3 gap-2 mb-5 mobile:grid-cols-1 mobile:mb-4"
-                role="radiogroup"
-                aria-label="How would you like to follow the journey?"
-            >
-                {#each modes as item (item)}
-                    <button
-                        class="grid gap-1 content-start py-3 px-4 text-start text-ink bg-[rgba(17,15,12,0.45)] border border-solid border-line-strong rounded-2xl backdrop-blur-[8px] transition-[border-color,background] duration-150 hover:border-gold aria-checked:bg-[rgba(232,178,87,0.16)] aria-checked:border-gold mobile:py-2"
-                        role="radio"
-                        aria-checked={item === mode}
-                        onclick={() => select_mode(item)}
-                    >
-                        <strong class="font-serif text-[1.0625rem] font-medium">
-                            {#if item === 'young'}Young learners{:else if item === 'new'}New to the
-                                story{:else}In depth{/if}
-                        </strong>
-                        <span class="text-ink-soft text-[0.8125rem] leading-[1.4] mobile:hidden">
-                            {#if item === 'young'}Six short stages, in simple words.{:else if item === 'new'}Terms
-                                explained, and why each stage matters.{:else}Every detail, with the
-                                evidence and the timeline open.{/if}
-                        </span>
-                    </button>
-                {/each}
-            </div>
-            <div class="flex flex-wrap gap-3 mb-6 mobile:mb-4 mobile:[&>a]:flex-[1_1_auto]">
-                <a
-                    class="{ghost_button} min-h-[52px] px-6 py-3 text-[1rem]"
-                    href={href('/journey/hijrah/map', null)}><span>Explore the map</span></a
-                >
+            <!-- One decision: begin. The audience is preset (remembered, or "new to the
+                 story"), so it can be ignored, and it can be changed later from the help panel. -->
+            <div class="flex flex-wrap gap-x-6 gap-y-3 items-center mb-7 mobile:mb-5">
                 <a
                     class="{primary_button} min-h-[52px] px-6 py-3 text-[1rem]"
                     href={journey_href('/journey/hijrah/setting', { ...context(), view: 'scene' })}
@@ -1872,27 +1848,35 @@
                     {@render icon('start')} Begin the journey
                 </a>
                 <a
-                    class="{ghost_button} min-h-[52px] px-6 py-3 text-[1rem]"
+                    class="inline-flex gap-2 items-center py-2 text-ink-soft font-semibold hover:text-gold-bright"
                     href={journey_href('/journey/hijrah/setting', { ...context(), view: 'reading' })}
                     onclick={(event) => follow_link(event, () => start('reading'))}
                 >
                     {@render icon('read')} Read instead
                 </a>
             </div>
-            <nav
-                class="flex flex-wrap gap-x-5 gap-y-2"
-                aria-label="Hijrah chapters"
-                lang={language === 'ar' ? 'ar' : 'en'}
-                dir={language === 'ar' ? 'rtl' : 'ltr'}
+            <div
+                class="flex flex-wrap gap-1 items-center w-fit p-1 bg-[rgba(17,15,12,0.5)] border border-solid border-line rounded-full backdrop-blur-[8px]"
+                role="radiogroup"
+                aria-label="How would you like to follow the journey?"
             >
-                {#each catalog.chapters as item (item.chapter_id)}
-                    <a
-                        class="font-serif text-[1rem] leading-[1.7] text-gold-bright underline decoration-gold/50 underline-offset-4 hover:decoration-gold-bright focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold"
-                        href={href(`/chapters/${item.chapter_id}`)}
-                        >{chapter_title(item, language)}</a
+                {#each modes as item (item)}
+                    <button
+                        class="py-[6px] px-[14px] text-ink-soft text-[0.875rem] bg-transparent border-0 rounded-full transition-[background,color] duration-150 hover:text-ink aria-checked:text-gold-ink aria-checked:bg-gold aria-checked:font-semibold"
+                        role="radio"
+                        aria-checked={item === mode}
+                        onclick={() => select_mode(item)}
                     >
+                        {#if item === 'young'}Young learners{:else if item === 'new'}New to the
+                            story{:else}In depth{/if}
+                    </button>
                 {/each}
-            </nav>
+            </div>
+            <p class="{fine_print} mt-2 ps-[18px]">
+                {#if mode === 'young'}Six short stages, in simple words.{:else if mode === 'new'}Terms
+                    explained, and why each stage matters.{:else}Every detail, with the evidence and
+                    the timeline open.{/if}
+            </p>
         </section>
     {:else if !map_open}
         <aside

@@ -243,14 +243,17 @@ export async function create_scene(
             }
         }
         const ripples = new THREE.DataTexture(ripple_data, ripple_size, ripple_size)
+        // How many map widths the sea spans; the ripples repeat with it.
+        const sea_reach = 8
         ripples.wrapS = ripples.wrapT = THREE.RepeatWrapping
-        ripples.repeat.set(140, 140)
+        ripples.repeat.set(140 * sea_reach, 140 * sea_reach)
         ripples.generateMipmaps = true
         ripples.minFilter = THREE.LinearMipmapLinearFilter
         ripples.magFilter = THREE.LinearFilter
         ripples.needsUpdate = true
+        // The sea reaches well past the mapped land and fades into the horizon, so the map
+        // never shows a hard edge against the sky.
         const sea_material = new THREE.MeshStandardMaterial({
-            fog: false,
             roughness: 0.22,
             metalness: 0.05,
             normalMap: ripples,
@@ -264,7 +267,10 @@ export async function create_scene(
         ])
         scene.add(landscape.mesh)
         const sea = new THREE.Mesh(
-            new THREE.PlaneGeometry(landscape.size_x, landscape.size_z),
+            new THREE.PlaneGeometry(
+                landscape.size_x * sea_reach,
+                landscape.size_z * sea_reach,
+            ),
             sea_material,
         )
         sea.name = 'mapped-water'
