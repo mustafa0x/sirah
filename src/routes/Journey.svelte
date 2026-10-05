@@ -57,6 +57,8 @@
     import { onMount } from 'svelte'
     import depth from 'virtual:depth-stats'
     import about_poster from '../assets/about/poster.jpg'
+    import cave_license from '../../art/thawr/trellis/MODEL-LICENSE.md?url'
+    import cave_provenance from '../../art/thawr/trellis/provenance.json'
     // The video for "Behind the journey": any .mp4 or .webm placed in src/assets/about/.
     const about_video = Object.values(
         import.meta.glob('../assets/about/*.{mp4,webm}', {
@@ -2297,6 +2299,17 @@
                         </ol>
                     </section>
                 </div>
+                <p class="text-muted text-sm">
+                    <a
+                        class="underline hover:text-ink"
+                        href={cave_license}
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        {cave_provenance.source.artist} · {cave_provenance.source.title} · {cave_provenance.source
+                            .declared_license}
+                    </a>
+                </p>
             </article>
         </div>
     {/if}

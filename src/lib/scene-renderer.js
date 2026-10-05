@@ -555,6 +555,7 @@ export async function create_scene(
                 (gltf) => {
                     if (disposed) return
                     const model = gltf.scene
+                    model.rotation.y = Math.PI
                     const box = new THREE.Box3().setFromObject(model)
                     const size = box.getSize(new THREE.Vector3())
                     const centre = box.getCenter(new THREE.Vector3())
@@ -563,14 +564,15 @@ export async function create_scene(
                         if (!child.isMesh) return
                         shadowed(child)
                         child.material.normalScale?.setScalar(0.6)
-                        child.material.color.setRGB(1, 0.8, 0.6)
                     })
-                    // About nine metres across; the model's opening faces +x, which is north.
+                    // About nine metres across; rotate the TRELLIS aperture towards +x (north).
                     const scale = (9 * METRE) / Math.max(size.x, size.z)
                     const shelter = new THREE.Group()
+                    shelter.name = 'thawr-shelter'
+                    shelter.userData = { asset: 'trellis', illustrative: true }
                     shelter.add(model)
                     shelter.scale.setScalar(scale)
-                    shelter.position.set(sx, ground(0, 0) - size.y * scale * 0.1, sz)
+                    shelter.position.set(sx, ground(0, 0) - size.y * scale * 0.02, sz)
                     world.group.add(shelter)
                 },
                 undefined,
