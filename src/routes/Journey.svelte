@@ -754,9 +754,21 @@
         )
     }
 
+    // Days in September need only the number; later days name their month, in the
+    // interface language and its digits.
+    const date_locale = language === 'ar' ? 'ar-u-nu-arab' : language
+    const day_number = new Intl.DateTimeFormat(date_locale, { day: 'numeric', timeZone: 'UTC' })
+    const day_label = new Intl.DateTimeFormat(date_locale, {
+        day: 'numeric',
+        month: 'short',
+        timeZone: 'UTC',
+    })
     function timeline_day(day) {
         const date = new Date(Date.UTC(2001, timeline_start.month - 1, timeline_start.day + day))
-        return { day: date.getUTCDate(), september: date.getUTCMonth() === 8 }
+        const september = date.getUTCMonth() === 8
+        return {
+            label: (september ? day_number : day_label).format(date),
+        }
     }
 
     function pick_entry(item, go = false) {
@@ -1702,8 +1714,7 @@
                     {#if day % 3 === 0 || day === 15}
                         <span
                             class="absolute bottom-0 text-muted text-[0.6875rem] tabular-nums whitespace-nowrap [translate:-50%_0]"
-                            style:left={`${(day / timeline_days) * 100}%`}
-                            >{fmt_num(date.day)}{date.september ? '' : ' Oct'}</span
+                            style:left={`${(day / timeline_days) * 100}%`}>{date.label}</span
                         >
                     {/if}
                 {/each}
@@ -1798,7 +1809,8 @@
                                 collections{:else if kind === 'report'}Classical sirah and history{:else}Modern
                                 authors{/if}
                         </span>
-                        <span class="text-muted tabular-nums">{evidence_counts[kind]}</span>
+                        <span class="text-muted tabular-nums">{fmt_num(evidence_counts[kind])}</span
+                        >
                     </li>
                 {/each}
             </ul>
