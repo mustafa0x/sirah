@@ -934,6 +934,25 @@
                   chapter_content_locale(item, language),
               ),
     )
+    // What the current stage's chapter holds, for the strip on the stage card.
+    let stage_facts = $state(null)
+    $effect(() => {
+        const item = stage_chapter
+        if (!item) return
+        let live = true
+        load_chapter(item.chapter_id, language)
+            .then((loaded) => {
+                if (!live) return
+                stage_facts = {
+                    id: item.chapter_id,
+                    sections: loaded.account.length,
+                    passages: new Set(loaded.source_units.map((unit) => unit.text_ar.trim())).size,
+                    questions: loaded.questions.length,
+                }
+            })
+            .catch(() => {})
+        return () => (live = false)
+    })
     // A selected place with chapters gets its own card, top right.
     let place_card = $derived(
         Boolean(
@@ -2701,6 +2720,44 @@
                         )}</span
                     >
                 </div>
+                {#if stage_chapter}
+                    <!-- The chapter behind this stage; it lights up when the stage ends. -->
+                    <a
+                        class="group/chapter flex flex-wrap gap-x-5 gap-y-2 items-center justify-between py-3 px-4 -mx-1 border border-solid border-line rounded-xl bg-[rgba(255,244,222,0.03)] transition-[border-color,background] duration-500 hover:border-gold data-[invite=true]:border-gold data-[invite=true]:bg-[rgba(232,178,87,0.1)]"
+                        href={href(`/chapters/${stage_chapter.chapter_id}`)}
+                        data-invite={stop_finished && !journey.is_playing}
+                    >
+                        <span class="grid gap-[3px] min-w-0">
+                            <span
+                                class="hidden text-gold text-[0.75rem] font-semibold tracking-[0.08em] uppercase group-data-[invite=true]/chapter:block"
+                                >Go deeper</span
+                            >
+                            <span
+                                class="flex gap-2 items-center font-serif text-[1.125rem] leading-[1.3] text-ink [&>svg]:text-gold"
+                            >
+                                {@render icon('read')}
+                                <span
+                                    lang={chapter_content_locale(stage_chapter, language)}
+                                    dir={language_direction(
+                                        chapter_content_locale(stage_chapter, language),
+                                    )}>{chapter_title(stage_chapter, language)}</span
+                                >
+                            </span>
+                            {#if stage_facts?.id === stage_chapter.chapter_id}
+                                <span class="text-muted text-[0.8125rem]"
+                                    >{fmt_num(stage_facts.sections)} sections · {fmt_num(
+                                        stage_facts.passages,
+                                    )} source passages · {fmt_num(stage_facts.questions)} questions</span
+                                >
+                            {/if}
+                        </span>
+                        <span
+                            class="inline-flex gap-2 items-center px-4 py-2 text-gold-bright text-[0.875rem] font-semibold border border-solid border-gold rounded-full group-hover/chapter:bg-gold group-hover/chapter:text-gold-ink [&>svg]:rtl:-scale-x-100"
+                        >
+                            Read the chapter {@render icon('next')}
+                        </span>
+                    </a>
+                {/if}
                 <div class={card_row}>
                     {#if stop_finished && !journey.is_playing && stage_questions.length}
                         <button
@@ -2727,14 +2784,7 @@
                             {/if}
                         </button>
                     {/if}
-                    {#if stage_chapter}
-                        <a
-                            class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
-                            href={href(`/chapters/${stage_chapter.chapter_id}`)}
-                        >
-                            {@render icon('read')} Read
-                        </a>
-                    {:else}
+                    {#if !stage_chapter}
                         <a
                             class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
                             href={journey_href(scene_path(), { ...context(), view: 'reading' })}
@@ -2838,7 +2888,9 @@
                                     {reading.title}
                                 </h3>
                                 {#each reading.account as section (section.section_id)}
-                                    <h4 class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]">
+                                    <h4
+                                        class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]"
+                                    >
                                         {section.title}
                                     </h4>
                                     {#each section.paragraphs as block (block.paragraph_id)}
@@ -2848,7 +2900,9 @@
                                 {#if mode === 'deep' && reading.in_depth.length}
                                     <p class="{kicker} pt-2">In depth</p>
                                     {#each reading.in_depth as section (section.section_id)}
-                                        <h4 class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]">
+                                        <h4
+                                            class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]"
+                                        >
                                             {section.title}
                                         </h4>
                                         {#each section.paragraphs as block (block.paragraph_id)}
@@ -2871,7 +2925,9 @@
                                 <p class={kicker}>Along the way</p>
                                 {#each stage_details as item (item.id)}
                                     <div class="grid gap-2">
-                                        <h4 class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]">
+                                        <h4
+                                            class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]"
+                                        >
                                             {item.title}
                                         </h4>
                                         <p class={prose}>{item.text}</p>
