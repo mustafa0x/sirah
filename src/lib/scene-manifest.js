@@ -147,7 +147,22 @@ export const routes = [
 // `place` is where selecting the label flies to; `anchors` is where the label sits in
 // each world that shows it.
 // Representative chapter locations, not surveyed event coordinates.
-export const chapter_places = { hch_thawr: 'thawr', hch_suraqa: 'road', hch_umm_mabad: 'tent' }
+// Where each chapter sits on the map: the setting it is told in, from its own place links.
+// The guide's chapter is about the road after the cave, so it sits on the coastal way.
+export const chapter_places = {
+    hch_early_migration: 'makkah',
+    hch_aqaba: 'makkah',
+    hch_preparations: 'makkah',
+    hch_departure: 'makkah',
+    hch_thawr: 'thawr',
+    hch_road: 'coast',
+    hch_suraqa: 'road',
+    hch_umm_mabad: 'tent',
+    hch_quba: 'quba',
+    hch_madinah_arrival: 'madinah',
+    hch_mosque: 'madinah',
+    hch_settlement: 'madinah',
+}
 
 export const scene_pois = [
     {
@@ -252,6 +267,21 @@ export const home_shot = {
     // On a tall screen the text sits below, so the route fills the top half.
     portrait: shot('region_centre', -1.4, 1.5, 90, 0.2, [-5, 0, -2.5]),
 }
+
+// Opening a chapter on the map flies to its place, keeping the regional scale: places in the
+// town views are shown at the town on the regional map.
+const regional_place = {
+    makkah: 'region_makkah',
+    thawr: 'region_makkah',
+    quba: 'region_madinah',
+    madinah: 'region_madinah',
+}
+export const chapter_focus_shots = Object.fromEntries(
+    Object.entries(chapter_places).map(([id, place]) => [
+        id,
+        shot(regional_place[place] ?? place, -0.5, 0.72, 10, 0.2),
+    ]),
+)
 
 // One camera move per narrative beat. An azimuth of `north` puts the camera north of its
 // target, looking south. `follow` keeps the target on the tip of that route leg.

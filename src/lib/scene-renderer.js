@@ -1044,14 +1044,19 @@ export async function create_scene(
                     y > host.clientHeight - inset_target.bottom
                 line.hidden = node.hidden
                 if (node.hidden) continue
+                // Below the place first, so the place's own name above stays clear; chapters
+                // sharing a place fan out in a row.
                 const offsets = [
-                    [0, 0],
+                    [0, 64],
+                    [-52, 64],
+                    [52, 64],
+                    [-104, 64],
+                    [104, 64],
+                    [0, 116],
+                    [-52, 116],
+                    [52, 116],
                     [56, 0],
                     [-56, 0],
-                    [0, -56],
-                    [0, 56],
-                    [96, 0],
-                    [-96, 0],
                 ]
                 const [dx, dy] =
                     offsets.find(([dx, dy]) => {

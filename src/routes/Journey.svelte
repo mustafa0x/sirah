@@ -136,6 +136,7 @@
         beat_shots,
         chapter_places,
         overview_shot,
+        chapter_focus_shots,
         home_shot,
         route_at,
         scene_pois,
@@ -397,13 +398,16 @@
     )
 
     let shot = $derived(
-        active_poi
-            ? poi_shots[active_poi.id]
-            : guided_visible
-              ? beat_shots[(current_cue ?? selected_step.paragraphs[0]).id]
-              : journey.started
-                ? overview_shot
-                : home_shot,
+        // On the map, an open chapter brings its place into view.
+        map_open && reading_chapter && chapter_focus_shots[reading_chapter]
+            ? chapter_focus_shots[reading_chapter]
+            : active_poi
+              ? poi_shots[active_poi.id]
+              : guided_visible
+                ? beat_shots[(current_cue ?? selected_step.paragraphs[0]).id]
+                : journey.started
+                  ? overview_shot
+                  : home_shot,
     )
     let mood = $derived(guided_visible ? step_scenes[selected_step.id].mood : 'gold')
     // The route is drawn as the stage plays, so scrubbing moves the journey with it.
@@ -459,7 +463,13 @@
     )
     let insets = $derived(
         map_open
-            ? { left: 0, right: 0, top: narrow ? 140 : 128, bottom: narrow ? 220 : 110 }
+            ? {
+                  left: 0,
+                  // The chapter panel takes the right side while one is open.
+                  right: reading_chapter && !narrow ? Math.min(776, viewport_width - 280) : 0,
+                  top: narrow ? 140 : 128,
+                  bottom: narrow ? 220 : 110,
+              }
             : narrow
               ? { left: 0, right: 0, top: 120, bottom: journey.started ? card_height + 30 : 300 }
               : {
@@ -964,6 +974,15 @@
             !map_open,
         ),
     )
+    // The open chapter's entry in the map's strip scrolls into view.
+    $effect(() => {
+        if (!map_open || !reading_chapter) return
+        tick().then(() =>
+            document
+                .querySelector('nav[aria-label] a[aria-current=page]')
+                ?.scrollIntoView({ block: 'nearest', inline: 'center' }),
+        )
+    })
     let place_chapters = $derived(
         active_poi
             ? chapters_for_place(active_poi.place).filter((item) =>
@@ -1762,30 +1781,39 @@
                 Select a book marker to read its chapter.
             </p>
         </section>
+    {/if}
+    {#if map_open && !sheet}
         <nav
             class="absolute z-20 bottom-5 inset-x-6 mobile:bottom-3 mobile:inset-x-3"
+            style:right={reading_chapter && !narrow ? '800px' : null}
             aria-label="Hijrah chapters"
         >
-            <div class="flex items-center justify-between gap-3 mb-2">
-                <p class="text-sm text-ink-soft">Locations are schematic.</p>
+            <div class="flex items-center justify-end gap-3 mb-2">
                 <a
                     class={ghost_button}
                     href={journey_href('/journey/hijrah/setting', { ...context(), view: 'scene' })}
                     ><span>Begin the journey</span></a
                 >
             </div>
-            <ol class="flex gap-2 list-none mobile:grid mobile:gap-1">
+            <!-- All the chapters in story order, numbered as on the map. -->
+            <ol
+                class="flex gap-2 overflow-x-auto pb-1 list-none [scrollbar-width:thin] [scrollbar-color:#6d5529_transparent]"
+            >
                 {#each chapter_markers as item (item.id)}
-                    <li class="min-w-0">
+                    <li class="shrink-0">
                         <a
-                            class="flex items-center gap-3 min-h-11 px-3 py-2 rounded-xl text-ink border border-line-strong bg-panel-solid hover:border-gold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                            class="flex items-center gap-3 min-h-11 w-[13.5rem] px-3 py-2 rounded-xl text-ink border border-line-strong bg-panel-solid hover:border-gold aria-[current=page]:border-gold aria-[current=page]:bg-[rgba(232,178,87,0.14)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                             href={item.href}
+                            aria-current={reading_chapter === item.id ? 'page' : undefined}
                         >
                             <span
                                 class="grid shrink-0 size-6 place-items-center rounded-full bg-gold text-gold-ink text-sm"
                                 >{item.number}</span
                             >
-                            <span class="font-serif leading-tight" dir="auto">{item.title}</span>
+                            <span
+                                class="line-clamp-2 font-serif text-[0.9375rem] leading-tight"
+                                dir="auto">{item.title}</span
+                            >
                         </a>
                     </li>
                 {/each}
