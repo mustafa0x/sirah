@@ -350,6 +350,82 @@ export function build_terrain(THREE, definition, grid, details = []) {
             ),
         )
     }
+    // Beyond the mapped area the land and sea carry on, so no view ends at a cut edge. The
+    // border's heights are averaged along the edge (wider further out, so nothing streaks),
+    // then settle to low, gently varied desert or to open sea. Inside the border the skirt
+    // drops below the map, which covers it.
+    const build_skirt = () => {
+        const reach = 60
+        const step = 0.8
+        const half_x = size_x / 2
+        const half_z = size_z / 2
+        const edge_value = (x, z) => {
+            const qx = clamp(x, -half_x, half_x)
+            const qz = clamp(z, -half_z, half_z)
+            const out = Math.hypot(x - qx, z - qz)
+            const spread = 0.8 + 0.35 * out
+            // Sample along the border near the nearest edge point, a little inside it.
+            const along_x = Math.abs(x - qx) < Math.abs(z - qz) || out === 0
+            let total = 0
+            for (let k = -3; k <= 3; k += 1) {
+                const sx = along_x ? clamp(qx + (k * spread) / 3, -half_x, half_x) : qx * 0.995
+                const sz = along_x ? qz * 0.995 : clamp(qz + (k * spread) / 3, -half_z, half_z)
+                total += metres(sx, sz)
+            }
+            const average = total / 7
+            const settled = average > 0 ? 350 + 160 * (fbm(x * 0.35, z * 0.35) - 0.5) : -1500
+            return { value: average + (settled - average) * smoothstep(0, 18, out), out }
+        }
+        const skirt_positions = []
+        const skirt_colors = []
+        const skirt_indices = []
+        const xs = []
+        const zs = []
+        for (let x = -half_x - reach; x <= half_x + reach + 1e-6; x += step) xs.push(x)
+        for (let z = -half_z - reach; z <= half_z + reach + 1e-6; z += step) zs.push(z)
+        for (const x of xs) {
+            for (const z of zs) {
+                const { value, out } = edge_value(x, z)
+                // Tucked 60 m under the map where the two overlap.
+                const y = lift(value) - (out === 0 ? 60 * per_metre : 0)
+                skirt_positions.push(x, y, z)
+                if (value < 0) tint.copy(shallows).lerp(depths, smoothstep(0, 500, -value))
+                else {
+                    tint.copy(sand).lerp(shore, 1 - smoothstep(0, 160, value))
+                    tint.lerp(rock, smoothstep(500, 1500, value) * 0.6)
+                }
+                tint.multiplyScalar(0.93 + 0.14 * fbm(x * 0.7, z * 0.7))
+                skirt_colors.push(tint.r, tint.g, tint.b)
+            }
+        }
+        const inside = (x, z) => Math.abs(x) < half_x - step && Math.abs(z) < half_z - step
+        for (let r = 0; r < xs.length - 1; r += 1) {
+            for (let c = 0; c < zs.length - 1; c += 1) {
+                // Cells well inside the map are never seen; leave them out.
+                if (inside(xs[r], zs[c]) && inside(xs[r + 1], zs[c + 1])) continue
+                const a = r * zs.length + c
+                const b = a + 1
+                const d = a + zs.length
+                const e = d + 1
+                skirt_indices.push(a, b, d, b, e, d)
+            }
+        }
+        const skirt_geometry = new THREE.BufferGeometry()
+        skirt_geometry.setAttribute(
+            'position',
+            new THREE.Float32BufferAttribute(skirt_positions, 3),
+        )
+        skirt_geometry.setAttribute('color', new THREE.Float32BufferAttribute(skirt_colors, 3))
+        skirt_geometry.setIndex(skirt_indices)
+        skirt_geometry.computeVertexNormals()
+        const skirt = new THREE.Mesh(
+            skirt_geometry,
+            new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 }),
+        )
+        skirt.name = 'landscape-skirt'
+        skirt.receiveShadow = true
+        return skirt
+    }
     const geometry = new THREE.BufferGeometry()
     geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3))
     geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3))
@@ -403,6 +479,8 @@ export function build_terrain(THREE, definition, grid, details = []) {
     mesh.receiveShadow = true
     return {
         mesh,
+        // Kept apart from `mesh`, so picking and ground queries only ever see the map.
+        skirt: definition.sea ? build_skirt() : null,
         height,
         slope,
         to_xz,

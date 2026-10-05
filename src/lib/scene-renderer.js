@@ -270,6 +270,7 @@ export async function create_scene(
             { definition: world_definitions.madinah, grid: grids[2] },
         ])
         scene.add(landscape.mesh)
+        if (landscape.skirt) scene.add(landscape.skirt)
         const sea = new THREE.Mesh(
             new THREE.PlaneGeometry(landscape.size_x * sea_reach, landscape.size_z * sea_reach),
             sea_material,
