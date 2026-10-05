@@ -887,6 +887,8 @@ export async function create_scene(
         // Passages cited by the paragraph being narrated, and the one open in the panel.
         let evidence_cue = new Set()
         let evidence_open = null
+        // A newly opened source whose marker is out of sight gets one pan to bring it in.
+        let evidence_reveal = null
         let evidence_link = null
         const evidence_nodes = new Map()
         // One preview card, shown above whichever marker is hovered or focused.
@@ -1067,6 +1069,31 @@ export async function create_scene(
                 })
             }
         }
+        // Pan, at the same angle and distance, so the opened source's marker sits in the open
+        // part of the view rather than off screen or under a panel.
+        const reveal_evidence = (width, height) => {
+            const id = evidence_reveal
+            evidence_reveal = null
+            if (!evidence_on || flight) return
+            const cluster = [...active.evidence.values()].find(({ groups }) =>
+                groups.some((group) => group.ids.includes(id)),
+            )
+            if (!cluster) return
+            const target = cluster.at.clone().multiplyScalar(active.scale)
+            projected.copy(target).project(camera)
+            const x = ((projected.x + 1) / 2) * width
+            const y = ((1 - projected.y) / 2) * height
+            const margin = 48
+            const in_view =
+                projected.z < 1 &&
+                x > inset_target.left + margin &&
+                x < width - inset_target.right - margin &&
+                y > inset_target.top + margin &&
+                y < height - inset_target.bottom - margin
+            if (in_view) return
+            if (reduced_motion) view = { ...copy_view(view), target }
+            else begin_flight({ ...copy_view(view), target }, 1400)
+        }
         const place_evidence = () => {
             const width = host.clientWidth
             const height = host.clientHeight
@@ -1103,6 +1130,7 @@ export async function create_scene(
                 }
             }
             for (const [key, { node }] of evidence_nodes) node.hidden = !shown.has(key)
+            if (evidence_reveal) reveal_evidence(width, height)
             if (previewed && previewed.node.hidden) hide_preview()
             else if (previewed) place_preview()
         }
@@ -1513,7 +1541,9 @@ export async function create_scene(
             evidence_on = Boolean(state)
             evidence_focus = new Set(state?.focus ?? [])
             evidence_cue = new Set(state?.cue ?? [])
-            evidence_open = state?.open ?? null
+            const open = state?.open ?? null
+            if (open && open !== evidence_open) evidence_reveal = open
+            evidence_open = open
             if (!evidence_on) hide_preview()
         }
         api.set_actor = (name) => {
