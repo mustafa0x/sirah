@@ -349,10 +349,18 @@
                     ?.scrollIntoView({ block: 'start' }),
         )
     })
+    // The sources panel follows the source that was opened: the current stage when it cites
+    // it, otherwise the stage that does (a map dot can belong to any stage), otherwise the
+    // source on its own.
+    let source_step = $derived(
+        !active_source
+            ? null
+            : visible_sources.includes(active_source)
+              ? selected_step
+              : (chapter.steps.find((step) => step.source_ids.includes(active_source.id)) ?? null),
+    )
     let drawer_sources = $derived(
-        !active_source || visible_sources.includes(active_source)
-            ? visible_sources
-            : [active_source, ...visible_sources],
+        source_step ? sources_for(source_step) : active_source ? [active_source] : [],
     )
 
     let shot = $derived(
@@ -2673,7 +2681,9 @@
                 </div>
             {:else if active_source}
                 <header class={sheet_header}>
-                    <h2 class={sheet_title} id="sheet-title">{selected_step.title}</h2>
+                    <h2 class={sheet_title} id="sheet-title">
+                        {source_step?.title ?? fmt_num(active_source.reference)}
+                    </h2>
                     <button class={round_button} onclick={close_sheet} aria-label="Close source">
                         {@render icon('close')}
                     </button>
