@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 2,
+  "revision": 3,
   "locale": "tr",
-  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
-  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "arabic_sha256": "3f4f17f186a93132dc800c4816c8fa19e6dfcb621248fed31db9d2c92074dd63",
+  "arabic_payload_sha256": "c39a2ee236465d2c4d352b4440cff2730510531fe8bd8b2b51f97a28e58edca5",
   "status": "translation_wip",
   "units": [
     {
@@ -288,8 +288,8 @@
     },
     {
       "unit_id": "hch_departure_q3:prompt_ar",
-      "source_text_sha256": "85252bb09f0f87750d76b93c70b088e2aaa3aa1181f25ce2ac6d33744ae949ae",
-      "text": "Necidli ihtiyarın şeytan diye anılmasına nasıl yaklaşmalısın?"
+      "source_text_sha256": "b6d158d384548fa8f6003189b3ad24403fdf26d337d915ebafa02dec0e29db8a",
+      "text": "Suyani, Necdî şeyhin rivayetini değerlendirirken hangi istisnayı belirtir?"
     },
     {
       "unit_id": "hch_departure_q3:explanation_ar",
@@ -989,7 +989,7 @@
     {
       "unit_id": "sp_departure_chapter_bed:p4:text_ar",
       "source_text_sha256": "cf1010a0bbfc62dccbcb0934e177cf0066d8f0def5f26bfd6c28e6d1cce3ee69",
-      "text": "'Benim yatağımda yat ve bu örtüme bürün [٤];'"
+      "text": "'Yatağımda yat ve bu örtüme bürün [٤]"
     },
     {
       "unit_id": "sp_departure_chapter_exit:p1:kind_ar",
@@ -1019,7 +1019,7 @@
     {
       "unit_id": "sp_departure_chapter_exit:p1:text_ar",
       "source_text_sha256": "de862d87253c13d2efe97616c83c219edf6271fad24692a5fcf96ab815bafb47",
-      "text": "'yeşil Hadramut örtüme. İçinde uyu; çünkü onlardan hoşlanmayacağın hiçbir şey sana ulaşmayacak.'"
+      "text": "—yeşil Hadramî örtüme— ve onun içinde uyu; çünkü onlardan hoşlanmayacağın hiçbir şey sana ulaşmayacak.'"
     },
     {
       "unit_id": "sp_departure_chapter_exit:p2:kind_ar",
@@ -1109,7 +1109,7 @@
     {
       "unit_id": "sp_departure_chapter_exit:p4:text_ar",
       "source_text_sha256": "13c448917669e28ba49b0b2724f914a13cacd8715950bfa12f0665de8ba95f11",
-      "text": "İçlerinde Ebû Cehil b. Hişâm da bulunarak ona karşı toplandıklarında Ebû Cehil kapısında dururlarken şöyle dedi:"
+      "text": "İçlerinde Ebû Cehil b. Hişâm da varken Peygamber’in ﷺ evinin kapısında ona karşı toplandılar. Ebû Cehil, onlar kapıdayken şöyle dedi:"
     },
     {
       "unit_id": "sp_departure_chapter_exit:p5:kind_ar",
@@ -2235,7 +2235,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "5c0a9d74175acb7c11c8a63c333bd86bb185ad19ce037e13ba3c2a082ad6dd0a",
+  "translation_sha256": "162b290ccb532fc8e15666135b677fd2ab762b7e7e9b2b9025ad09876f3e3a55",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

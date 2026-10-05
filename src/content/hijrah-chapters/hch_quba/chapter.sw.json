@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_quba",
-  "revision": 2,
+  "revision": 3,
   "locale": "sw",
-  "arabic_sha256": "1624b3405bdb7416da9645d37221abca244c79d97e4663e294d67d7aabd3e3ec",
-  "arabic_payload_sha256": "e5fe029e6bc1f126bc2a3faea9498dcf2c55cb6c46cc804a00dd6245810b86c6",
+  "arabic_sha256": "c283968eb42b6a392c485a073b97a7f3acabb0ad966df0f84e89c8c522f319ee",
+  "arabic_payload_sha256": "8dab5f7531a7ba7b8510bb2fe3f239b88ad106375e7ee940e8442e56bb057af5",
   "status": "translation_wip",
   "units": [
     {
@@ -198,8 +198,8 @@
     },
     {
       "unit_id": "hch_quba_q_watch:explanation_ar",
-      "source_text_sha256": "38ebeb9e7ebe3c1fd283fc2fc1b27f406c972a2ce748f69413c0c5d65061b345",
-      "text": "Soma kauli katika muktadha wake: katika habari ya Urwa iliyomo kwa Bukhari, Waislamu walitoka kumsubiri aliyekuwa akija, kisha mtu mmoja Myahudi akatangaza kwamba amemwona, nao wakamlaki karibu na eneo la miamba ya volkano."
+      "source_text_sha256": "76ea31bf8035cafbbda8ec0db1b23bed2fb379219b3d1180de64506d1d6ee738",
+      "text": "Katika habari ya Urwa, Waislamu walitoka kuwasubiri waliokuwa wakija; kisha mtu mmoja Myahudi akatangaza kuwa amewaona, nao wakawapokea kwenye Harra."
     },
     {
       "unit_id": "hch_quba_q_watch:scope_note_ar",
@@ -223,8 +223,8 @@
     },
     {
       "unit_id": "hch_quba_q_watch:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "e8c9bf48a9067bbc29ab2bf447e8e0d46dd51810b82bb0fe3db65760fc10a197",
+      "text": "Habari inataja Waislamu kuwasubiri waliokuwa wakija; haitaji barua kutoka Makka iliyoweka muda wa kuwasili."
     },
     {
       "unit_id": "hch_quba_q_watch:b:text_ar",
@@ -233,8 +233,8 @@
     },
     {
       "unit_id": "hch_quba_q_watch:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "75d312d4328d2a7e9233abba1e01f0e25d465669ee0966982f14a38c126e82a0",
+      "text": "Tangazo la mtu huyo lilitangulia mapokezi kwenye Harra; ujenzi wa msikiti unakuja katika sehemu ya baadaye ya habari."
     },
     {
       "unit_id": "hch_quba_q_recognize:prompt_ar",
@@ -243,8 +243,8 @@
     },
     {
       "unit_id": "hch_quba_q_recognize:explanation_ar",
-      "source_text_sha256": "d6cf3ecf9e4b72519153fc45d40dc3c53766287e1409ade3fcf48ea55ef5bd2f",
-      "text": "Soma kauli katika muktadha wake: katika habari ya Urwa na kwa Ibn Ishaq, baadhi ya waliowapokea hawakumtofautisha Mtume ﷺ na Abu Bakr mwanzoni; Abu Bakr alipomkinga kwa joho lake wakamtambua."
+      "source_text_sha256": "2193c9ddcbd7fde714e20cd59f27dadc63f8c94e9b3f0a019263421a188b1f32",
+      "text": "Watu walimtambua Mtume wa Allah ﷺ baada ya mwanzoni kuchanganyikiwa, Abu Bakr alipomtengenezea kivuli kwa kutumia joho lake."
     },
     {
       "unit_id": "hch_quba_q_recognize:scope_note_ar",
@@ -268,8 +268,8 @@
     },
     {
       "unit_id": "hch_quba_q_recognize:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "a82c1d7d97bab47decf0fe008fff0271c9d84aa72fe44a415a0f55cd1fa77bc8",
+      "text": "Maandishi yanasema Abu Bakr alimwekea Mtume wa Allah ﷺ kivuli kwa joho lake, si kwamba alijitokeza kutoa hotuba."
     },
     {
       "unit_id": "hch_quba_q_recognize:b:text_ar",
@@ -278,8 +278,8 @@
     },
     {
       "unit_id": "hch_quba_q_recognize:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "761dea4fb7f5369920e2f895e7fbdd604f962063df1d9e5cde060d6c5bc76ea0",
+      "text": "Hawakumtambua Mtume ﷺ kwa kusikia jina lake kutoka kwa msafara; habari inasema walimtambua Mtume ﷺ wakati Abu Bakr alipomwekea kivuli kwa joho lake."
     },
     {
       "unit_id": "hch_quba_q_hosts:prompt_ar",
@@ -288,8 +288,8 @@
     },
     {
       "unit_id": "hch_quba_q_hosts:explanation_ar",
-      "source_text_sha256": "ba91a5eec25014fc23fe0a7ab9af6ffe6b9019e69afe8bd268fd45e00376f397",
-      "text": "Soma kauli katika muktadha wake: Ibn Ishaq katika simulizi ya Ibn Hisham anataja kukaa kwa Kulthum bin Hidm, 'kama wanavyosimulia', kisha kauli ya kukaa kwa Sa'd bin Khaythama, na maelezo ya kauli ya pili kwamba nyumba ya Sa'd ilikuwa mahali pa kukutana na watu na wasio na wenzi; anamalizia kwa kusema 'Mwenyezi Mungu ndiye ajuaye zaidi'."
+      "source_text_sha256": "f2f0025793baaf700769701cf4cb6ed9feb5f422ee4f77f9638c4909dc076235",
+      "text": "Ibn Ishaq anataja kauli mbili kuhusu nyumba aliyofikia Mtume ﷺ: kukaa kwa Kulthum bin Hidm, na kauli nyingine kwamba alikaa kwa Sad bin Khaythama; kisha anaeleza kuketi katika nyumba ya Sad na anamalizia, “Allah ndiye anayejua zaidi lipi kati ya hayo lilitokea.”"
     },
     {
       "unit_id": "hch_quba_q_hosts:scope_note_ar",
@@ -313,8 +313,8 @@
     },
     {
       "unit_id": "hch_quba_q_hosts:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "30d50dcf979f1f129b6e553b6aaf3561ad510f13918cc44476d6a523c37c5f36",
+      "text": "Maandishi yanaeleza kauli mbili na sababu ya tofauti yake; hayathibitishi kwamba nyumba hizo mbili zilikuwa nyumba moja."
     },
     {
       "unit_id": "hch_quba_q_hosts:b:text_ar",
@@ -323,8 +323,8 @@
     },
     {
       "unit_id": "hch_quba_q_hosts:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "1f907d5e798d88d4a9de46c47c832c635fcc28690e7e4c3b3098915b7077d2fe",
+      "text": "Maandishi yanamtajia Abu Bakr nyumba nyingine ya kukaa, wala hayasemi alikaa katika nyumba ya Sad."
     },
     {
       "unit_id": "hch_quba_q_bakr:prompt_ar",
@@ -333,8 +333,8 @@
     },
     {
       "unit_id": "hch_quba_q_bakr:explanation_ar",
-      "source_text_sha256": "6c1019054a67794608fb083e7e4b597180a38909de350b932ed928625de908a3",
-      "text": "Soma kauli katika muktadha wake: Ibn Ishaq kama anavyonukuliwa na Ibn Hisham anamtaja Khubayb bin Isaf kuhusu makazi ya Abu Bakr, kisha anataja kauli nyingine inayomtaja Kharija bin Zayd."
+      "source_text_sha256": "d9a0ba1f369ac2f4358bd7907f799a00c2e831066e7b399bd1ba38617e0aacd8",
+      "text": "Ibn Ishaq anamtaja Khubayb bin Isaf kuwa mwenyeji aliyemkaribisha Abu Bakr, kisha anataja kauli nyingine inayomtaja Kharija bin Zayd."
     },
     {
       "unit_id": "hch_quba_q_bakr:scope_note_ar",
@@ -358,8 +358,8 @@
     },
     {
       "unit_id": "hch_quba_q_bakr:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "7438fa95a5ecdf4fe77a2e2fba04d02b7b05f4ff19c87baccef072404947f5ec",
+      "text": "Kauli hii inahusu nyumba aliyofikia Abu Bakr, si mwandishi wa mkataba wa Ijumaa."
     },
     {
       "unit_id": "hch_quba_q_bakr:b:text_ar",
@@ -368,8 +368,8 @@
     },
     {
       "unit_id": "hch_quba_q_bakr:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "5e3eb5514ae856db1170b592487774d08d9eb0e9c3f350ff90f815e3b884311c",
+      "text": "Kauli hii inahusu nyumba aliyofikia Abu Bakr, si jina la mwanzilishi wa msikiti wa Quba."
     },
     {
       "unit_id": "hch_quba_q_ishaq:prompt_ar",
@@ -378,8 +378,8 @@
     },
     {
       "unit_id": "hch_quba_q_ishaq:explanation_ar",
-      "source_text_sha256": "8ed6d6cc2e94e4fd8857b5c1705db77de3c5b672dcf212dfef92b50b95254a81",
-      "text": "Soma kauli katika muktadha wake: Ibn Ishaq anataja kukaa Qubaa Jumatatu, Jumanne, Jumatano na Alhamisi na kuasisi msikiti, kisha kuondoka Ijumaa huku akihifadhi kauli ya Banu Amr kwamba alikaa muda mrefu zaidi."
+      "source_text_sha256": "20c00f65877b704b5fc2b7e69604bd5a7430b17225866718f5e50be8e0d6b811",
+      "text": "Ibn Ishaq anataja Jumatatu hadi Alhamisi kuwa siku za kukaa Quba na kuanzisha msikiti, na anataja kuondoka Ijumaa; ananukuu kwamba Banu Amr walisema alikaa muda mrefu zaidi, kisha anaiachia elimu ya hilo kwa Allah."
     },
     {
       "unit_id": "hch_quba_q_ishaq:scope_note_ar",
@@ -403,8 +403,8 @@
     },
     {
       "unit_id": "hch_quba_q_ishaq:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "713c65c8951cbb5b6124d84492d7602dbb557ffaa810e0847fc7f7192e432ea5",
+      "text": "Siku anazotaja Ibn Ishaq ni Jumatatu hadi Alhamisi; hataji kukaa hadi Jumapili."
     },
     {
       "unit_id": "hch_quba_q_ishaq:b:text_ar",
@@ -413,8 +413,8 @@
     },
     {
       "unit_id": "hch_quba_q_ishaq:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "02854c7a5c1282b29250b48bd834455d8f62d4907c06b6bc6bc59e3239937c01",
+      "text": "Ibn Ishaq anataja Jumatatu hadi Alhamisi, kisha kuondoka Ijumaa; si Ijumaa na Jumamosi pekee."
     },
     {
       "unit_id": "hch_quba_q_anas:prompt_ar",
@@ -423,8 +423,8 @@
     },
     {
       "unit_id": "hch_quba_q_anas:explanation_ar",
-      "source_text_sha256": "3edc24668abcf4f5e5ad538102a49257f918ce08b8fa2c5b932c82213f2ae12d",
-      "text": "Soma kauli katika muktadha wake: katika riwaya ya Anas iliyopo kwa Bayhaqi, Mtume ﷺ alikaa usiku kumi na nne kwa Banu Amr bin Awf, kisha akatuma ujumbe kwa wakuu wa Banu Najjar na kwenda pamoja nao."
+      "source_text_sha256": "b14ff88a97335cc92473d77707c06e011ba4afb9b5a4925475578187188a58ba",
+      "text": "Katika riwaya ya Anas kwa al-Bayhaqi, kukaa kwa Banu Amr bin Awf kulidumu usiku kumi na nne kabla ya kutuma mwito kwa viongozi wa Banu al-Najjar."
     },
     {
       "unit_id": "hch_quba_q_anas:scope_note_ar",
@@ -448,8 +448,8 @@
     },
     {
       "unit_id": "hch_quba_q_anas:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "2587a50bc985d46280d4d379c2ee9164e7146f1319e10ce46ad15f8569cdd2f8",
+      "text": "Maneno ya Anas hapa ni usiku kumi na nne, si mitatu."
     },
     {
       "unit_id": "hch_quba_q_anas:b:text_ar",
@@ -458,8 +458,8 @@
     },
     {
       "unit_id": "hch_quba_q_anas:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "28fa4ddd9b2fc4d0c36dc71ed5e0287c7e556bb402228e216b007eb786c3e5f6",
+      "text": "Maneno ya Anas hapa ni usiku kumi na nne, si ishirini na miwili."
     },
     {
       "unit_id": "hch_quba_q_hajar:prompt_ar",
@@ -468,8 +468,8 @@
     },
     {
       "unit_id": "hch_quba_q_hajar:explanation_ar",
-      "source_text_sha256": "8aaefdcea8d87bba71d8bd6ec0d95a231229d6487a42473e5bb9d380c5947757",
-      "text": "Katika maoni yake juu ya lafudhi za njia hii, Ibn Hajar anataja ishirini na nne kwa al-Mustamli na al-Hamawi, na kumi na nne kwa wengine, na kueleza kwamba ya mwisho ni sahihi kwa njia hii. Hii ni tofauti na upendeleo wake mpana kwa kauli ya Anas katika ufafanuzi mwingine."
+      "source_text_sha256": "5c2915fe09e6120b32c31f452e61341fa70c69ccb3f2b853d5162cfaeaf398b0",
+      "text": "Katika njia hii ya riwaya ya Sahih al-Bukhari, Ibn Hajar anataja tofauti ya maneno kati ya al-Mustamli, al-Hamawi na wapokezi wengine, na anasema usiku kumi na nne ndilo sahihi kwa njia hii; hilo ni tofauti na upendeleo wake mpana zaidi kwa kauli ya Anas mahali pengine."
     },
     {
       "unit_id": "hch_quba_q_hajar:scope_note_ar",
@@ -513,8 +513,8 @@
     },
     {
       "unit_id": "hch_quba_q_mosque:explanation_ar",
-      "source_text_sha256": "9a6fb60d30ae648bc238c3153ef8df5684dc11815a3ba4c879a1e012e7213bea",
-      "text": "Soma kauli katika muktadha wake: katika habari ya Anas, baada ya kuhamia kwa Banu Najjar, ombi la eneo la msikiti wa Madina, jibu lao na shughuli zilizofanyika humo zinatajwa; huu si msikiti wa Qubaa uliotangulia katika habari hiyo."
+      "source_text_sha256": "00b0d3a5beed7db352b817b3ed112f16395a5f18a1dc1c5764ced05c3c2dbf43",
+      "text": "Katika habari ya Anas, baada ya kuhamia kwa Banu al-Najjar, Mtume ﷺ aliomba eneo la bustani yenye ukuta kwa ajili ya msikiti wa Madina; huu si msikiti wa Quba unaotajwa katika habari iliyotangulia."
     },
     {
       "unit_id": "hch_quba_q_mosque:scope_note_ar",
@@ -538,8 +538,8 @@
     },
     {
       "unit_id": "hch_quba_q_mosque:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "a804a8f81cc9d4e9d2dc3c3f22626e00c7b1dffe1b873c8e4cb18b6fdc903a8e",
+      "text": "Kuswali katika msikiti ulioanzishwa Quba kunatajwa katika habari iliyotangulia; swali hapa linahusu kuomba bustani yenye ukuta katika habari ya Anas."
     },
     {
       "unit_id": "hch_quba_q_mosque:b:text_ar",
@@ -548,8 +548,8 @@
     },
     {
       "unit_id": "hch_quba_q_mosque:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "a7008fe97fa93d1d9e45716ff15d58fd8ccfa2b20fa6cdcb63d4ad1871d5972e",
+      "text": "Kukaa kwa Banu Amr bin Awf ni hatua iliyotangulia; swali linahusu kuomba bustani yenye ukuta baada ya kuhamia kwa Banu al-Najjar."
     },
     {
       "unit_id": "hch_quba_q_verse:prompt_ar",
@@ -558,8 +558,8 @@
     },
     {
       "unit_id": "hch_quba_q_verse:explanation_ar",
-      "source_text_sha256": "bd327598b18cb1a1b392f614b30ed6e747150f4b281e19302964f16794620358",
-      "text": "Soma kauli katika muktadha wake: Ibn Hajar anafafanua kauli ya Bukhari juu ya msikiti ulioasisiwa kwa uchamungu huko Qubaa, kisha ananukuu aya na kauli ya wengi inayohusu Qubaa, na jibu linalosimuliwa kutoka kwa Mtume ﷺ linaloutambua msikiti wa Mtume ﷺ, na anatoa namna za kueleza tofauti hiyo."
+      "source_text_sha256": "05cda45d0f6a8be25bd9d1faedc90701e778d192d58492ea7ca32dc14ddd0cdd",
+      "text": "Ibn Hajar ananukuu maoni ya wengi kwamba msikiti uliojengwa juu ya uchamungu ni msikiti wa Quba; kisha anataja jibu la Mtume katika riwaya nyingine linaloutaja msikiti wa Mtume ﷺ, na anaeleza namna mbalimbali za kupatanisha riwaya hizo mbili."
     },
     {
       "unit_id": "hch_quba_q_verse:scope_note_ar",
@@ -583,8 +583,8 @@
     },
     {
       "unit_id": "hch_quba_q_verse:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "b5f66505d03b8c29af6f18553ac79078c1203e77bab8d78cf25b1def1eb6ba27",
+      "text": "Aya inataja msikiti uliojengwa juu ya uchamungu, lakini haiutaji Quba kwa jina; Ibn Hajar ndiye anayehusisha maoni ya Quba na walio wengi katika maelezo yake."
     },
     {
       "unit_id": "hch_quba_q_verse:b:text_ar",
@@ -593,8 +593,8 @@
     },
     {
       "unit_id": "hch_quba_q_verse:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "6f454a91fe2ff352b5f71ed24627900f0704b80178c6698f03e301a7b63965d7",
+      "text": "Maelezo hayakanushi ubora wa msikiti wa Quba; Ibn Hajar ananukuu kwamba yote miwili ilijengwa juu ya uchamungu."
     },
     {
       "unit_id": "hch_quba_q_friday:prompt_ar",
@@ -603,8 +603,8 @@
     },
     {
       "unit_id": "hch_quba_q_friday:explanation_ar",
-      "source_text_sha256": "388e68d8e588eb2f91f1fce0f9b07f99437e2da263b91471a929e84cc4a3ddc7",
-      "text": "Soma kauli katika muktadha wake: Ibn Ishaq anasimulia kuondoka siku ya Ijumaa na kuswali Ijumaa kwa Banu Salim bin Awf katika msikiti wa bondeni; katika habari ya Urwa, mnyama wa kupanda anatoka kwa Banu Amr kwenda mahali pa msikiti Madina."
+      "source_text_sha256": "65c79ebd1c51c1a87bd34a14ba42303a8bcde744b5a587e95c432cbf086583f8",
+      "text": "Ibn Ishaq anasema wakati wa swala ya Ijumaa ulimkuta Mtume ﷺ akiwa kwa Banu Salim bin Awf, naye akaswali katika msikiti wa Wadi Ranuna."
     },
     {
       "unit_id": "hch_quba_q_friday:scope_note_ar",
@@ -628,8 +628,8 @@
     },
     {
       "unit_id": "hch_quba_q_friday:a:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "2cc105c046f24a593f325417ce381b4981ba9b9efb5ed6c11d4d2607e24badc3",
+      "text": "Bustani yenye ukuta ya Banu al-Najjar ni eneo la msikiti katika habari nyingine, si mahali pa swala ya Ijumaa katika kauli ya Ibn Ishaq."
     },
     {
       "unit_id": "hch_quba_q_friday:b:text_ar",
@@ -638,8 +638,8 @@
     },
     {
       "unit_id": "hch_quba_q_friday:b:feedback_ar",
-      "source_text_sha256": "f53f6f71facfc8730aaa6495053a46bdab818afabcf8199a0439527411538abf",
-      "text": "Rejea mipaka ya taarifa na sauti ya msemaji wake katika kifungu."
+      "source_text_sha256": "d2dd2b109d8d24f75de0e254817f43ed54d71ac4aec602e6c718ed6fc574f06d",
+      "text": "Nyumba ya Sad bin Khaythama inahusiana na habari ya kufikia Quba, si swala ya Ijumaa ambayo Ibn Ishaq anaiweka kwa Banu Salim."
     },
     {
       "unit_id": "hch_quba_review_pending:note_ar",
@@ -1940,7 +1940,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "f6eb29bc43b6c00efd9e1f2c99cd52340c74ee7a297812b1096a1034ead54c92",
+  "translation_sha256": "6242e80ef72a01e2d607c5d26a81dc3f7afcf142b44bdc0d4c381d0a569268bc",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

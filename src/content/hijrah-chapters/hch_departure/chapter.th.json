@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 2,
+  "revision": 3,
   "locale": "th",
-  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
-  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "arabic_sha256": "3f4f17f186a93132dc800c4816c8fa19e6dfcb621248fed31db9d2c92074dd63",
+  "arabic_payload_sha256": "c39a2ee236465d2c4d352b4440cff2730510531fe8bd8b2b51f97a28e58edca5",
   "status": "translation_wip",
   "units": [
     {
@@ -288,8 +288,8 @@
     },
     {
       "unit_id": "hch_departure_q3:prompt_ar",
-      "source_text_sha256": "85252bb09f0f87750d76b93c70b088e2aaa3aa1181f25ce2ac6d33744ae949ae",
-      "text": "ควรจัดการกับข้อความที่บอกว่าชายชราชาวนัจด์คืออิบลีสอย่างไร?"
+      "source_text_sha256": "b6d158d384548fa8f6003189b3ad24403fdf26d337d915ebafa02dec0e29db8a",
+      "text": "อัศศุวัยยานีระบุข้อยกเว้นอะไรในการประเมินเรื่องเล่าของชายชาวนัจด์?"
     },
     {
       "unit_id": "hch_departure_q3:explanation_ar",
@@ -1979,7 +1979,7 @@
     {
       "unit_id": "sp_departure_chapter_haztext:p1:text_ar",
       "source_text_sha256": "9b8b16d649c26108ddd71ba3c5a2593549da6547e069bab24cf76e3769ce3efd",
-      "text": "อัลหัมรออ์ อัซซุฮ์รีบอกเขาว่า เขาได้ยินท่านศาสนทูตของอัลลอฮ์ ﵌ ขณะท่านยืนอยู่ที่อัลหัซวะเราะฮ์ในตลาดมักกะฮ์"
+      "text": "อัลหัมรออ์ อัซซุฮ์รี ผู้นี้แจ้งแก่อบูสะละมะฮ์ว่า ตนได้ยินท่านศาสนทูตของอัลลอฮ์ ﵌ ขณะท่านยืนอยู่ที่อัลหัซวะเราะฮ์ในตลาดมักกะฮ์"
     },
     {
       "unit_id": "sp_departure_chapter_haztext:p2:kind_ar",
@@ -2235,7 +2235,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "2e25cf01a0bcba8d0172e37dbf8d33e7e39d79966cb50fef5e8eca493c3d03f7",
+  "translation_sha256": "c9f5188eb87e5943458106c484054501450f73ce3ec90e491c693767a401c391",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

@@ -4,7 +4,7 @@
   "locale": "id",
   "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
   "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
-  "status": "translation_wip",
+  "status": "translation_ready",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -2532,10 +2532,12 @@
   "deferred_questions": [],
   "translation_sha256": "bbd3654647c46efd26f91ba330ae6f715393d23353ada6e83af443b669bb48e2",
   "review": {
-    "translation_compared": false,
-    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
+    "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+    "translation_sha256": "bbd3654647c46efd26f91ba330ae6f715393d23353ada6e83af443b669bb48e2",
+    "summary": "Dibandingkan secara langsung seluruh 494 unit inventaris dalam 18 chunk: teks ajar, tujuan, kerangka, pertanyaan dan seluruh pilihan serta umpan balik, metadata, sanad, kutipan dan teks sumber pilihan, termasuk varian lantai dan makanan. Tidak ditemukan masalah makna/kelengkapan/bahasa jawaban yang memerlukan koreksi. Ini telaah semantik mandiri atas dua snapshot terikat, bukan kolasi naskah ataupun persetujuan pakar atau penutur asli untuk distribusi luas.",
     "independent_language_approval": false,
     "specialist_approval": false,
-    "public_distribution_approved": false
+    "public_distribution_approved": false,
+    "translation_compared": true
   }
 }

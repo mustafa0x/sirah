@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 2,
+  "revision": 3,
   "locale": "fr",
-  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
-  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "arabic_sha256": "3f4f17f186a93132dc800c4816c8fa19e6dfcb621248fed31db9d2c92074dd63",
+  "arabic_payload_sha256": "c39a2ee236465d2c4d352b4440cff2730510531fe8bd8b2b51f97a28e58edca5",
   "status": "translation_wip",
   "units": [
     {
@@ -288,8 +288,8 @@
     },
     {
       "unit_id": "hch_departure_q3:prompt_ar",
-      "source_text_sha256": "85252bb09f0f87750d76b93c70b088e2aaa3aa1181f25ce2ac6d33744ae949ae",
-      "text": "Comment traiter la mention du vieillard du Najd en tant qu'Iblis ?"
+      "source_text_sha256": "b6d158d384548fa8f6003189b3ad24403fdf26d337d915ebafa02dec0e29db8a",
+      "text": "Quelle exception al-Suwayni mentionne-t-il dans son appréciation du récit du cheikh najdi ?"
     },
     {
       "unit_id": "hch_departure_q3:explanation_ar",
@@ -599,7 +599,7 @@
     {
       "unit_id": "sp_departure_chapter_council:p1:text_ar",
       "source_text_sha256": "7485d691f1e2e6c2ac05939d5cdcd21877190d95f8d96e02c80f60ff9645e7d6",
-      "text": "Ibn Ishaq dit : Quand les Quraychites virent que le Messager d'Allah ﷺ avait désormais, en dehors d'eux et hors de leur pays, des partisans et des compagnons, et qu'ils virent ses compagnons émigrer auprès d'eux, ils comprirent que ceux-ci avaient trouvé une demeure et obtenu auprès d'eux une protection. Ils craignirent donc que le Messager d'Allah ﷺ les rejoigne et comprirent qu'il s'était résolu à leur faire la guerre. Ils se réunirent alors contre lui à Dar al-Nadwa — la maison de Qusayy ibn Kilab, où les Quraychites réglaient toutes leurs affaires — afin de délibérer de ce qu'ils feraient du Messager d'Allah ﷺ, dont ils avaient peur."
+      "text": "Ibn Ishaq dit : Quand les Quraychites virent que le Messager d'Allah ﷺ avait désormais, en dehors d'eux et hors de leur pays, des partisans et des compagnons, et qu'ils virent ses compagnons émigrer auprès d'eux, ils comprirent que ceux-ci avaient trouvé une demeure et obtenu auprès d'eux une protection. Ils craignirent donc que le Messager d'Allah ﷺ les rejoigne et comprirent qu'une résolution de leur faire la guerre avait été prise. Ils se réunirent alors contre lui à Dar al-Nadwa — la maison de Qusayy ibn Kilab, le seul lieu où les Quraychites réglaient leurs affaires — afin de délibérer de ce qu'ils feraient du Messager d'Allah ﷺ, dont ils avaient peur.\n\nNote de traduction : le texte arabe fourni porte «أَنَّهُمْ قَدْ أَجَمَعَ», avec un pronom pluriel et un verbe singulier ; le sujet de cette résolution reste incertain."
     },
     {
       "unit_id": "sp_departure_chapter_council:p2:kind_ar",
@@ -869,7 +869,7 @@
     {
       "unit_id": "sp_departure_chapter_decision:p3:text_ar",
       "source_text_sha256": "a79da72add320c58b7b31bfa5c74dfa32c4183acd4732a3bed9a257b968905b7",
-      "text": "Il dit : Abu Jahl ibn Hisham déclara : « Par Allah, j'ai à son sujet un avis auquel, il me semble, vous n'êtes pas encore parvenus. » Ils demandèrent : « Lequel, Abu al-Hakam ? » Il dit : « Je propose de choisir dans chaque tribu un jeune homme vigoureux, de bonne ascendance et bien considéré [3] parmi nous ; nous donnerons à chacun une épée tranchante, puis ils l'attaqueront tous d'un même coup et le tueront. Nous serons ainsi débarrassés de lui. Si nous faisons cela, la responsabilité de son sang sera partagée entre toutes les tribus et les Banu Abd Manaf ne pourront leur faire la guerre à toutes ; ils accepteront de nous le prix du sang, que nous leur verserons. » Le vieillard du Najd dit alors : « Ce que cet homme a dit est juste. Il n'y a pas d'autre avis à suivre. » L'assemblée se sépara en accord sur ce plan."
+      "text": "Il dit : Abu Jahl ibn Hisham déclara : « Par Allah, j'ai à son sujet un avis auquel, il me semble, vous n'êtes pas encore parvenus. » Ils demandèrent : « Lequel, Abu al-Hakam ? » Il dit : « Je propose de choisir dans chaque tribu un jeune homme vigoureux, de bonne ascendance et bien considéré [3] parmi nous ; nous donnerons à chacun une épée tranchante, puis ils l'attaqueront tous d'un même coup et le tueront. Nous serons ainsi débarrassés de lui. Si ces jeunes hommes le font, la responsabilité de son sang sera partagée entre toutes les tribus et les Banu Abd Manaf ne pourront leur faire la guerre à toutes ; ils accepteront de nous le prix du sang, que nous leur verserons. » Le vieillard du Najd dit alors : « Ce que cet homme a dit est juste. Il n'y a pas d'autre avis à suivre. » L'assemblée se sépara en accord sur ce plan."
     },
     {
       "unit_id": "sp_departure_chapter_bed:p1:kind_ar",
@@ -2235,7 +2235,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "d426bdbb44f9d15db9a78437fa0a5135809661e080709e5dab2d6a6f0a6f4206",
+  "translation_sha256": "45b3f9d3b11cd379d5997b8552c77393e747cc0b942e53883b030c2fd56a0470",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

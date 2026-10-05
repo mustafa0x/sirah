@@ -4,7 +4,7 @@
   "locale": "en",
   "arabic_sha256": "7570ef243375e36b5b420f43d354dc43957ed58a80c5dc0f64a6d377451892bc",
   "arabic_payload_sha256": "8cd88dcebc55461795735f2a196af438f707768ffdbb6d9a17147daed4da4f33",
-  "status": "translation_wip",
+  "status": "translation_ready",
   "units": [
     {
       "unit_id": "hch_preparations:title_ar",
@@ -969,7 +969,7 @@
     {
       "unit_id": "sp_provisions_aisha:p1:text_ar",
       "source_text_sha256": "20f3a48e7772bd9e6e16d6131fbc0e11d808fc0fdbb479a394ce47c0d48e37c5",
-      "text": "‘A’isha said: “We equipped them with all haste and prepared travel provisions for them in a leather bag. Asma bint Abi Bakr cut a piece from her waistband and tied it around the mouth of the bag; for this she was called ‘the woman of the waistband.’”"
+      "text": "‘A’isha said: “We equipped them with all haste and prepared travel provisions for them in a bag. Asma bint Abi Bakr cut a piece from her waistband and tied it around the mouth of the bag; for this she was called ‘the woman of the waistband.’”"
     },
     {
       "unit_id": "sp_provisions_asma_house:p1:kind_ar",
@@ -1230,12 +1230,14 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "f1ab469175dfad75f0108dbb6ca5c667101fc7c3e4176dcfe354498642bad3a0",
+  "translation_sha256": "eade643fea84ff98c29146248b249dbc11389514bd4917cfec8482ad9767ddd6",
   "review": {
-    "translation_compared": false,
-    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
+    "arabic_sha256": "7570ef243375e36b5b420f43d354dc43957ed58a80c5dc0f64a6d377451892bc",
+    "translation_sha256": "eade643fea84ff98c29146248b249dbc11389514bd4917cfec8482ad9767ddd6",
+    "summary": "Independently compared all 235 bound Arabic–English inventory units across all ten complete paired chunks: teaching text, learning objectives, outlines, ten questions with answers and feedback, metadata and citations, and complete selected source passages in all nine translated readings. Checked the Arabic-led watchlist, including the preserved negation in Abu Quhafa’s speech and its separate uncertainty note; no actionable semantic, omission, language or answer discrepancy found. This internal comparison does not constitute independent native-language or scholarly approval or approval for wider public distribution.",
     "independent_language_approval": false,
     "specialist_approval": false,
-    "public_distribution_approved": false
+    "public_distribution_approved": false,
+    "translation_compared": true
   }
 }

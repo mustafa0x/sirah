@@ -4,7 +4,7 @@
   "locale": "en",
   "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
   "arabic_payload_sha256": "d3f45518a14b05faf70b1a667761e1815808c2e737692db4bd9bfabfe1e85834",
-  "status": "translation_wip",
+  "status": "translation_ready",
   "units": [
     {
       "unit_id": "hch_suraqa:title_ar",
@@ -914,7 +914,7 @@
     {
       "unit_id": "sp_suraqa_ibn_ishaq_start:p2:text_ar",
       "source_text_sha256": "5cf39fc67596dd7233a6a39d29244f61683604d300456ce430a72a123643b99c",
-      "text": "When the Messenger of Allah ﷺ left Makkah, migrating to Madinah, Quraysh offered one hundred she-camels for whoever brought him back to them. He said: As I sat in my people’s gathering, one of our men came and stood before us. He said, “By Allah, I just saw a party of three pass me; I think they are Muhammad and his companions.” I signaled with my eyes for him to be quiet, then said, “They are only members of such-and-such a family looking for a lost animal.” He said, “Perhaps so,” and fell silent. He said: I waited a little, then got up and entered my house. I ordered my horse to be tethered for me in the valley bottom and my weapons to be brought out behind my dwelling. I took the arrows with which I drew lots, set out, put on my armor [٢], then brought out my arrows and drew lots. The arrow I disliked came out: “He is not to harm him” [٣].\nHe said: I hoped to bring him back to Quraysh and take the hundred she-camels. I rode in pursuit of him; as my horse galloped with me, it stumbled and I fell. I said, “What is this?” He said:\nThen I brought out my arrows and drew lots. The arrow I disliked came out: “He is not to harm him.” He said:\nI insisted on following him. I rode after him, and while my horse galloped with me it stumbled and I fell. I said, “What is this?” He said: Then I brought out my arrows and drew lots, and the arrow I disliked came out: “He is not to harm him.” He said: I insisted on following him and rode after him.\nWhen the people came into view and I saw them, my horse stumbled, its forelegs went into the ground, and I fell off. Then it pulled its forelegs out of the ground, followed by smoke like a whirlwind [٤]. He said: When I saw that, I knew he had been protected from me and that he would prevail. I called to the people: “I am Suraqa ibn Ju‘shum. Wait for me so I can speak to you. By Allah, I will cause you no alarm, nor will anything come from me that you"
+      "text": "When the Messenger of Allah ﷺ left Makkah, migrating to Madinah, Quraysh offered one hundred she-camels for whoever brought him back to them. He said: As I sat in my people’s gathering, one of our men came and stood before us. He said, “By Allah, I just saw a party of three pass me; I think they are Muhammad and his companions.” I signaled with my eyes for him to be quiet, then said, “They are only members of such-and-such a family looking for something of theirs that they had lost.” He said, “Perhaps so,” and fell silent. He said: I waited a little, then got up and entered my house. I ordered my horse to be tethered for me in the valley bottom and my weapons to be brought out behind my dwelling. I took the arrows with which I drew lots, set out, put on my armor [٢], then brought out my arrows and drew lots. The arrow I disliked came out: “He will not harm him” [٣].\nHe said: I hoped to bring him back to Quraysh and take the hundred she-camels. I rode in pursuit of him; as my horse galloped with me, it stumbled and I fell. I said, “What is this?” He said:\nThen I brought out my arrows and drew lots. The arrow I disliked came out: “He will not harm him.” He said:\nI insisted on following him. I rode after him, and while my horse galloped with me it stumbled and I fell. I said, “What is this?” He said: Then I brought out my arrows and drew lots, and the arrow I disliked came out: “He will not harm him.” He said: I insisted on following him and rode after him.\nWhen the people came into view and I saw them, my horse stumbled, its forelegs went into the ground, and I fell off. Then it pulled its forelegs out of the ground, followed by smoke like a whirlwind [٤]. He said: When I saw that, I knew he had been protected from me and that he would prevail. I called to the people: “I am Suraqa ibn Ju‘shum. Wait for me so I can speak to you. By Allah, I will cause you no alarm, nor will anything come from me that you"
     },
     {
       "unit_id": "sp_suraqa_ibn_ishaq_reply:p1:kind_ar",
@@ -1605,12 +1605,14 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "b6d41ec0c7ae5245bae51931b54bbd629db418c7792d7a9ac5131dfad644b889",
+  "translation_sha256": "a248492e3d3cd84a3a621a8adcc3654cc6f4f9ed9b132eb8f5c5824a289c4ef7",
   "review": {
-    "translation_compared": false,
-    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
+    "arabic_sha256": "598f0f5b874436f3fcd31f453a6a83decceaa3ff5872b7f5262043d446b66217",
+    "translation_sha256": "a248492e3d3cd84a3a621a8adcc3654cc6f4f9ed9b132eb8f5c5824a289c4ef7",
+    "summary": "Prior full Arabic–English semantic comparison covered all 314 inventory units in 12 complete bounded chunks. In this same review session, read the current full edition and rechecked the sole changed source-text unit, all three occurrences of «لَا يَضُرُّهُ» and the unspecified «ضَالَّةً لَهُمْ», against the complete supplied Arabic and adjacent source context. Both prior findings are resolved; the remaining 313 inventory units are byte-for-byte identical to the originally reviewed edition, and no additional actionable defect was found in the repair. No external collation or independent native-language/scholarly approval is claimed.",
     "independent_language_approval": false,
     "specialist_approval": false,
-    "public_distribution_approved": false
+    "public_distribution_approved": false,
+    "translation_compared": true
   }
 }

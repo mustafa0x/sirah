@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "chapter_id": "hch_mosque",
-  "revision": 4,
+  "revision": 5,
   "title_ar": "المربد وبناء مسجد المدينة",
   "reader_question_ar": "كيف صار المربد مسجدًا؟",
   "core_ids": [
@@ -577,7 +577,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "هو مربد الغلامين في الخبر.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_ishaq_site:p1",
@@ -622,7 +622,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "قول معاذ لا يحل محل جواب الجماعة.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_ishaq_site:p1",
@@ -667,7 +667,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "الجواب للجماعة في متن أنس؛ مبلغ الحاشية نقل آخر.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_muslim_site:p1",
@@ -703,7 +703,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "ذكر أنس هذه الأعمال الثلاثة.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_muslim_site:p1",
@@ -739,7 +739,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "تذكر التتمة الحجارة للعضادتين.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_muslim_work:p1",
@@ -785,7 +785,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "يسمي الخبر مشاركة هؤلاء جميعًا.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_muslim_work:p1",
@@ -831,7 +831,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "يصف أنس العاملين بأنهم يقولون اللفظ.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_muslim_work:p1",
@@ -877,7 +877,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "التعقيب الأدبي مسمى باسم ابن هشام.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_critique:p1",
@@ -927,7 +927,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "هي متابعة تحيل إلى المثل دون تفصيل جديد.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_marabid:p1",
@@ -962,7 +962,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "المبلغ في الحاشية نقل، وليس جواب الجماعة في المتن.",
-      "scope_note_ar": "السؤال عن النص المعروض وحدوده، لا عن جمع لاحق أو حكم مستقل.",
+      "scope_note_ar": "",
       "step_id": "hch_mosque",
       "source_unit_ids": [
         "sp_mosque_chapter_agency:p1",
@@ -3446,20 +3446,20 @@
       ]
     }
   ],
-  "packet_id": "hch_mosque:ar:r4",
+  "packet_id": "hch_mosque:ar:r5",
   "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
-  "source_document_sha256": "b2a2dd1528078413c534566d591635dcf081ee826813f65c81abc3ec3807d638",
+  "source_document_sha256": "be8766b945367fb1b4caf0f4e3adf4792ea65207c812e65b5638d5245d6285ad",
   "question_type": "single_choice",
   "review": {
     "arabic_compared": true,
-    "summary_ar": "مقارنة داخلية بالذكاء الاصطناعي لجميع فقرات الفصل وأسئلته وأهدافه وأجزائه المصدرية مع الانتقاءات الأرشيفية المحددة في سجل مقارنة Core، ثم فحص تصحيحات الإسناد والأصوات والاقتباس والأدلة. الجلسة: d196eb16-6903-4712-aacb-811468833a2d. راجع النموذج الرئيسي التصحيحات الموضعية؛ ولا تعني البصمة قراءة الكتب كاملة أو اعتمادًا لغويًا أو علميًا مستقلًا أو إذن نشر. متابعة تحريرية من النموذج الرئيسي: الإصدار ٢ يغيّر سؤال القارئ وفقرة التمهيد فقط. قورنت الصياغة الجديدة بأدلة الموضع والعرض وجواب بني النجار وتهيئة المكان والبناء، وثبت أن بقية الفصل وألفاظ المصادر والأجوبة والمراجع لم تتغير. لا تُدّعى مقارنة جديدة مستقلة لبقية الفصل، ولا يُجدَّد اعتماد الترجمات بمجرد تحديث الربط. متابعة الإصدار ٣: حذف تعليمات القراءة والحديث عن ملكية الاستخراج والأداء المتخيّل من خمس فقرات تعليمية فقط، مع إبقاء نسب الأقوال والعرض والهبة وعدم تعيين ثمن في المقاطع المذكورة. فُحصت الصياغة العربية مقابل الأدلة المحددة، وبقيت ألفاظ المصادر والأسئلة وأجوبتها وروابط الأدلة وسائر الوحدات كما هي. هذه متابعة تحريرية محدودة، لا مقارنة مستقلة جديدة لجميع الوحدات أو اعتمادًا للترجمات. متابعة تحريرية محدودة للإصدار 4: قورنت الصياغة العربية المعدلة بأدلتها المحددة، وحذفت تعليمات القراءة العامة والمنهج الأرشيفي من 7 وحدات تعليمية مع إبقاء النسب والفروق والاحتمالات المؤثرة. ثبت عدم تغير ألفاظ المصادر وبياناتها والأسئلة والأجوبة وروابط الأدلة والوحدات الأخرى. ليست مقارنة مستقلة جديدة لجميع وحدات الفصل، ولا تجدد ربطُ الترجمات اعتمادَها.",
+    "summary_ar": "فُحص arabic-proposal-final.json وchapter-arabic-copy.json. أُعيد حساب canonical proposal digest بالطريقة المحددة في question_edits.proposal_digest (الوحدات المرتبة مع unit_id/reason/text_ar وretained_notes) فطابق binding: 2de99dc27de7701d2bb7d739d65901a9b1fe096b1f836ebca01b13aaee99c9e1. مقارنة نصوص المتعلم أظهرت تطابق جميع 70 قيمة text_ar للفصول و10 قيم legacy حرفيًا مع النسخة refined التي سبق فحصها؛ التغيير الوحيد فيها هو reason الخاص بـ hch_settlement_q_7:third:feedback_ar، وقد صار الآن يصف تعليق الواقدي الحالي بدقة. أُعيد تطبيق نسخة الفصل مرة واحدة على ملفات العربية الأصلية وحُسبت source_document_sha256 للفصول الستة؛ تطابقت كلها مع binding. لا توجد findings حالية في النصوص أو في reason المصحح. هذه مراجعة 70 وحدة عربية و10 وحدات legacy بعينها فقط، وليست اعتمادًا للطبعة الكاملة أو شهادة لغوية/علمية أو موافقة للتوزيع العام. raw refined SHA-256 السابق: 4499f7f02d656692d211d834c997792e00a9578209e86c4d531929cbba42c9bd؛ raw final SHA-256: e2c10765e6dad84b157f433b69538284474b170df47afbb3b1bebbf082457db3.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false
   },
   "last_accepted": {
-    "revision": 4,
-    "source_document_sha256": "b2a2dd1528078413c534566d591635dcf081ee826813f65c81abc3ec3807d638"
+    "revision": 5,
+    "source_document_sha256": "be8766b945367fb1b4caf0f4e3adf4792ea65207c812e65b5638d5245d6285ad"
   },
   "source_units": [
     {

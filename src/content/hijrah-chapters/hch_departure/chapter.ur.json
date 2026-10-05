@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 2,
+  "revision": 3,
   "locale": "ur",
-  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
-  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "arabic_sha256": "3f4f17f186a93132dc800c4816c8fa19e6dfcb621248fed31db9d2c92074dd63",
+  "arabic_payload_sha256": "c39a2ee236465d2c4d352b4440cff2730510531fe8bd8b2b51f97a28e58edca5",
   "status": "translation_wip",
   "units": [
     {
@@ -288,8 +288,8 @@
     },
     {
       "unit_id": "hch_departure_q3:prompt_ar",
-      "source_text_sha256": "85252bb09f0f87750d76b93c70b088e2aaa3aa1181f25ce2ac6d33744ae949ae",
-      "text": "نجدی بزرگ کے ابلیس ہونے کے ذکر سے آپ کیسے معاملہ کریں گے؟"
+      "source_text_sha256": "b6d158d384548fa8f6003189b3ad24403fdf26d337d915ebafa02dec0e29db8a",
+      "text": "شیخ نجدی کی خبر پر اپنی رائے میں صویانی کون سا استثنا بیان کرتے ہیں؟"
     },
     {
       "unit_id": "hch_departure_q3:explanation_ar",
@@ -1769,7 +1769,7 @@
     {
       "unit_id": "sp_departure_chapter_balj1:p6:text_ar",
       "source_text_sha256": "d174bf95ef0dd9dda09dc703a508892228843c40851a62bd836905fd0eeb653c",
-      "text": "ان کی حدیث درست ہے، ان میں کوئی حرج نہیں۔"
+      "text": "ابو بلج حدیث کی روایت میں قابلِ قبول ہیں؛ ان کے بارے میں کوئی حرج نہیں۔"
     },
     {
       "unit_id": "sp_departure_chapter_balj1:p7:kind_ar",
@@ -2189,7 +2189,7 @@
     {
       "unit_id": "sp_departure_chapter_wait:p4:text_ar",
       "source_text_sha256": "cc7b216ca21585311ab450b2bd3c679e05237c36f2250c22d56342991831317f",
-      "text": "اس پر ابو بکر کو امید ہوتی کہ وہ ساتھی آپ ہی ہوں گے۔"
+      "text": "اس پر ابو بکر کو امید ہوتی کہ وہ خود نبی ﷺ کے ساتھی ہوں گے۔"
     }
   ],
   "reading_editions": [
@@ -2235,7 +2235,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "115abf35f6b36cdfa93fb22fcfc5bde134c6723201f6578871786a8c50524c92",
+  "translation_sha256": "f56ad1f427058aed31b82b691066192597f06661861b21d990f979fd3148c12e",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

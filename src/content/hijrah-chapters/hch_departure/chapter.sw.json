@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 2,
+  "revision": 3,
   "locale": "sw",
-  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
-  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "arabic_sha256": "3f4f17f186a93132dc800c4816c8fa19e6dfcb621248fed31db9d2c92074dd63",
+  "arabic_payload_sha256": "c39a2ee236465d2c4d352b4440cff2730510531fe8bd8b2b51f97a28e58edca5",
   "status": "translation_wip",
   "units": [
     {
@@ -59,7 +59,7 @@
     {
       "unit_id": "hch_departure_bed1:text_ar",
       "source_text_sha256": "48138875009da89db724c2889d067a66befb416cf9dad8b04139601125b6d6f3",
-      "text": "Katika riwaya ya Ibn Abbas, Mtume ﷺ anaonywa asikeshe kwenye kitanda alichozoea kulalia; waliokuwa wakimvizia wanakusanyika mlangoni kwake. Anamwagiza Ali alale kitandani mwake na ajifunike kwa vazi lake la kijani la Hadramaut, akimhakikishia kuwa hawatamfanyia jambo analolichukia."
+      "text": "Katika riwaya ya Ibn Abbas, Mtume ﷺ anaonywa asilale usiku huo kwenye kitanda alichozoea kulalia; waliokuwa wakimvizia wanakusanyika mlangoni kwake. Anamwagiza Ali alale kitandani mwake na ajifunike kwa vazi lake la kijani la Hadramaut, akimhakikishia kuwa hawatamfanyia jambo analolichukia."
     },
     {
       "unit_id": "hch_departure_bed2:text_ar",
@@ -109,7 +109,7 @@
     {
       "unit_id": "hch_departure_criticism2:text_ar",
       "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
-      "text": "Al-Suwayyani anajadili njia ya upokezi inayompitia Abu Balj, akisema sanad yake haina tatizo kubwa isipokuwa Abu Balj awe amepokea peke yake tamko linalopingana na jingine. Anakusanya kauli za wanazuoni waliomthibitisha pamoja na ukosoaji wa al-Bukhari “fihi nazar” (anastahili kuchunguzwa), nao anataja ukali wa maana ya istilahi hiyo kwa al-Bukhari."
+      "text": "Al-Suwayyani anajadili njia ya upokezi inayompitia Abu Balj, akisema sanad yake haina tatizo kubwa isipokuwa Abu Balj awe amepokea peke yake tamko linalopingana na jingine. Anakusanya kauli za wanazuoni waliomthibitisha pamoja na ukosoaji wa al-Bukhari “fihi nazar”, ambalo al-Suwayyani analieleza kuwa tamko kali katika ukosoaji wa al-Bukhari kwa Abu Balj kama mpokezi."
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
@@ -288,8 +288,8 @@
     },
     {
       "unit_id": "hch_departure_q3:prompt_ar",
-      "source_text_sha256": "85252bb09f0f87750d76b93c70b088e2aaa3aa1181f25ce2ac6d33744ae949ae",
-      "text": "Utafanyaje kuhusu utajo wa mzee wa Najd kuwa ni Iblis?"
+      "source_text_sha256": "b6d158d384548fa8f6003189b3ad24403fdf26d337d915ebafa02dec0e29db8a",
+      "text": "Ni jambo gani la kipekee ambalo al-Suwayyani analitaja katika tathmini yake ya habari ya mzee wa Najd?"
     },
     {
       "unit_id": "hch_departure_q3:explanation_ar",
@@ -689,7 +689,7 @@
     {
       "unit_id": "sp_departure_chapter_debate:p1:text_ar",
       "source_text_sha256": "9cae9a8586373b45391168f20d150b5a67d2a3214559d44174551952dbc5a6ab",
-      "text": "akiwa amevalia batla [1]. Akasimama mlangoni mwa nyumba; walipomwona amesimama mlangoni wakauliza: “Mzee huyu ni nani?”"
+      "text": "akiwa amevaa vazi liitwalo batla [1]. Akasimama mlangoni mwa nyumba; walipomwona amesimama mlangoni wakauliza: “Mzee huyu ni nani?”"
     },
     {
       "unit_id": "sp_departure_chapter_debate:p2:kind_ar",
@@ -749,7 +749,7 @@
     {
       "unit_id": "sp_departure_chapter_debate:p3:text_ar",
       "source_text_sha256": "c344fb2ae7b7e22f759150334a9dbef1b0fa46397ba07f3cad37347949f0987d",
-      "text": "Wakasema: “Naam, ingia.” Akaingia pamoja nao. Wakuu wa Makuraishi walikuwa wamekusanyika humo: katika Banu Abd Shams walikuwa Utba ibn Rabia, Shayba ibn Rabia na Abu Sufyan ibn Harb; katika Banu Nawfal ibn Abd Manaf, Tuayma ibn Adi, Jubayr ibn Mutim na al-Harith ibn Amir ibn Nawfal; katika Banu Abd al-Dar ibn Qusayy, al-Nadr ibn al-Harith ibn Kilda; katika Banu Asad ibn Abd al-Uzza, Abu al-Bakhtari ibn Hisham, Zama ibn al-Aswad ibn al-Muttalib na Hakim ibn Hizam; katika Banu Makhzum, Abu Jahl ibn Hisham; katika Banu Sahm, Nubayh na Munabbih wana wa al-Hajjaj; na katika Banu Jumah, Umayya ibn Khalaf; pamoja na wale waliokuwa nao na wengine wa Makuraishi ambao hawajatajwa."
+      "text": "Wakasema: “Naam, ingia.” Akaingia pamoja nao. Wakuu wa Makuraishi walikuwa wamekusanyika humo: katika Banu Abd Shams walikuwa Utba ibn Rabia, Shayba ibn Rabia na Abu Sufyan ibn Harb; katika Banu Nawfal ibn Abd Manaf, Tuayma ibn Adi, Jubayr ibn Mutim na al-Harith ibn Amir ibn Nawfal; katika Banu Abd al-Dar ibn Qusayy, al-Nadr ibn al-Harith ibn Kilda; katika Banu Asad ibn Abd al-Uzza, Abu al-Bakhtari ibn Hisham, Zama ibn al-Aswad ibn al-Muttalib na Hakim ibn Hizam; katika Banu Makhzum, Abu Jahl ibn Hisham; katika Banu Sahm, Nubayh na Munabbih wana wa al-Hajjaj; na katika Banu Jumah, Umayya ibn Khalaf; pamoja na wale waliokuwa nao na wengine ambao hawahesabiwi miongoni mwa Makuraishi."
     },
     {
       "unit_id": "sp_departure_chapter_debate:p4:kind_ar",
@@ -1349,7 +1349,7 @@
     {
       "unit_id": "sp_departure_chapter_exit:p12:text_ar",
       "source_text_sha256": "60c8618e0fe66e981a3ebc1d193dc66945fb10ca76c6597e19e382dc7c25aaa3",
-      "text": "36:9. Mtume wa Mwenyezi Mungu ﷺ alipomaliza aya hizi, hakuna hata mmoja wao ambaye hakumwekea udongo kichwani. Kisha akaondoka kwenda alikotaka kwenda. Mtu mmoja ambaye hakuwa pamoja nao akawajia, akauliza: “Mnasubiri nini hapa?” Wakasema: “Muhammad.” Akasema: “Mwenyezi Mungu awanyime mlichotaka! Wallahi, Muhammad ametoka mbele yenu, na kila mmoja wenu amemwekea udongo kichwani, kisha ameenda zake. Je, hamwoni kilicho juu yenu?” Akasema: Kila mtu akaweka mkono kichwani mwake na kukuta udongo juu yake. Wakachungulia ndani, wakamwona Ali kitandani amejifunika vazi la Mtume wa Mwenyezi Mungu ﷺ. Wakasema: “Wallahi, huyu ni Muhammad amelala, amejifunika vazi lake.” Wakabaki hivyo mpaka kulipopambazuka [1]; Ali akainuka kitandani, nao wakasema: “Wallahi, mtu aliyetueleza alikuwa amesema kweli.”"
+      "text": "36:9. Mtume wa Mwenyezi Mungu ﷺ alipomaliza aya hizi, hakuna hata mmoja wao ambaye Mtume ﷺ hakumwekea udongo kichwani. Kisha akaondoka kwenda alikotaka kwenda. Mtu mmoja ambaye hakuwa pamoja nao akawajia, akauliza: “Mnasubiri nini hapa?” Wakasema: “Muhammad.” Akasema: “Mwenyezi Mungu awanyime mlichotaka! Wallahi, Muhammad ametoka kwenu, na ameweka udongo kichwani mwa kila mmoja wenu, kisha ameenda zake. Je, hamwoni kilicho juu yenu?” Akasema: Kila mtu akaweka mkono kichwani mwake na kukuta udongo juu yake. Wakachungulia ndani, wakamwona Ali kitandani amejifunika vazi la Mtume wa Mwenyezi Mungu ﷺ. Wakasema: “Wallahi, huyu ni Muhammad amelala, amejifunika vazi lake.” Wakabaki hivyo mpaka kulipopambazuka [1]; Ali akainuka kitandani, nao wakasema: “Wallahi, mtu aliyetueleza alikuwa amesema kweli.”"
     },
     {
       "unit_id": "sp_departure_chapter_trust:p1:kind_ar",
@@ -1469,7 +1469,7 @@
     {
       "unit_id": "sp_departure_chapter_urwa:p2:text_ar",
       "source_text_sha256": "59e697b22bc0ad1945b14f2af746f57c3578a137a477e92c69f57d547fea3763",
-      "text": "“Mtume wa Mwenyezi Mungu ﷺ alibaki baada ya Hija kwa sehemu iliyosalia ya Dhu al-Hijja, Muharram na Safar. Kisha washirikina wa Makuraishi wakakubaliana kwa shauri lao na hila yao kumkamata Mtume wa Mwenyezi Mungu ﷺ: ama wamuue, wamfunge, wamfukuze, au wamfungeni kwa minyororo. Mwenyezi Mungu, Mwenye nguvu na utukufu, akamjulisha hila yao:"
+      "text": "“Mtume wa Mwenyezi Mungu ﷺ alibaki baada ya Hija kwa sehemu iliyosalia ya Dhu al-Hijja, Muharram na Safar. Kisha washirikina wa Makuraishi wakakubaliana kwa shauri lao na hila yao kumkamata Mtume wa Mwenyezi Mungu ﷺ: ama wamuue, wamzuilie, wamfukuze, au wamfunge imara. Mwenyezi Mungu, Mwenye nguvu na utukufu, akamjulisha hila yao:"
     },
     {
       "unit_id": "sp_departure_chapter_urwa:p3:kind_ar",
@@ -1529,7 +1529,7 @@
     {
       "unit_id": "sp_departure_chapter_urwa:p4:text_ar",
       "source_text_sha256": "e82beaf5d588c14a44c1f71b5ffdef0d71e2f5e1af07bbee5efb5304fcb30d9d",
-      "text": "[(2)]. Basi Mtume wa Mwenyezi Mungu ﷺ na Abu Bakr wakatoka katikati ya usiku kuelekea pangoni huko Thawr; Ali akajilaza kwenye kitanda cha Mtume wa Mwenyezi Mungu ﷺ akimficha dhidi ya macho ya watu.”"
+      "text": "[(2)]. Basi Mtume wa Mwenyezi Mungu ﷺ na Abu Bakr wakatoka usiku kuelekea pangoni huko Thawr; Ali akajilaza kwenye kitanda cha Mtume wa Mwenyezi Mungu ﷺ akimficha dhidi ya macho ya watu.”"
     },
     {
       "unit_id": "sp_departure_chapter_saw1:p1:kind_ar",
@@ -1859,7 +1859,7 @@
     {
       "unit_id": "sp_departure_chapter_balj1:p9:text_ar",
       "source_text_sha256": "8740a2a3e0b9f15936cf4def8b314ad8a7740c3ae3babe531daf546e4ae9cb51",
-      "text": "“Fīhi nazar” (anastahili kuchunguzwa),"
+      "text": "“Fīhi nazar” (kwa maelezo ya al-Suwayyani, tamko kali la al-Bukhari la kumkosoa Abu Balj kama mpokezi),"
     },
     {
       "unit_id": "sp_departure_chapter_balj1:p10:kind_ar",
@@ -2235,7 +2235,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "8567e784c73dad98e5467185aae43655aee65ed1abb495b1be6a65d1afef20b6",
+  "translation_sha256": "966e518255e25291443500070b6a9155c3581edfcde71ff88622913ef12e3809",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

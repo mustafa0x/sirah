@@ -305,24 +305,29 @@
     style:--font-serif={language_direction(chapter?.locale) === 'rtl'
         ? 'Amiri, Kitab, serif'
         : 'Newsreader, Georgia, serif'}
-    aria-labelledby="chapter-title"
+    aria-labelledby={chapter?.introduction && tab === 'story'
+        ? 'orientation-title'
+        : 'chapter-title'}
     transition:fly={{ x: 40, duration: 260 }}
 >
     <header class="flex gap-4 items-start justify-between px-7 pt-6 pb-3 mobile:px-5">
         <div class="grid min-w-0 flex-1 gap-2">
             <h2
                 class="font-serif text-[2rem] font-medium leading-[1.15]"
-                id="chapter-title"
+                id={chapter?.introduction && tab === 'story' ? 'orientation-title' : 'chapter-title'}
                 lang={chapter?.locale}
                 dir={language_direction(chapter?.locale)}
             >
-                {chapter?.title ?? ''}
+                {chapter?.introduction && tab === 'story'
+                    ? chapter.introduction.title
+                    : (chapter?.title ?? '')}
             </h2>
-            {#if chapter}
+            {#if chapter && (!chapter.introduction || tab !== 'story')}
                 <p
                     class="text-ink-soft text-[1rem] leading-[1.6]"
                     lang={chapter?.locale}
                     dir={language_direction(chapter?.locale)}
+                    data-reader-question
                 >
                     {chapter.reader_question}
                 </p>
@@ -380,6 +385,38 @@
             <p class="text-ink-soft">Loading…</p>
         {:else if tab === 'story'}
             <div class="grid gap-7" in:fade={{ duration: 200 }}>
+                {#if chapter.introduction}
+                    <section aria-labelledby="orientation-title" class="grid gap-5">
+                        {#each chapter.introduction.paragraphs as block (block.paragraph_id)}
+                            <p
+                                class="font-serif text-[1.1875rem] leading-[1.9] text-ink text-pretty"
+                                id={block.paragraph_id}
+                                lang={chapter.locale}
+                                dir={language_direction(chapter.locale)}
+                            >
+                                {block.text}{@render marker(block.paragraph_id)}
+                            </p>
+                        {/each}
+                    </section>
+                    <section class="grid gap-3" aria-labelledby="chapter-title">
+                        <h2
+                            class="font-serif text-[2rem] font-medium leading-[1.15]"
+                            id="chapter-title"
+                            lang={chapter.locale}
+                            dir={language_direction(chapter.locale)}
+                        >
+                            {chapter.title}
+                        </h2>
+                        <p
+                            class="text-ink-soft text-[1rem] leading-[1.6]"
+                            lang={chapter.locale}
+                            dir={language_direction(chapter.locale)}
+                            data-reader-question
+                        >
+                            {chapter.reader_question}
+                        </p>
+                    </section>
+                {/if}
                 {#each chapter.overview as block (block.paragraph_id)}
                     <p
                         class="font-serif text-[1.3125rem] leading-[1.85] text-ink py-4 px-5 bg-[rgba(232,178,87,0.08)] border-0 border-s-[3px] border-solid border-gold rounded-e-xl"

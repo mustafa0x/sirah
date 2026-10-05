@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "chapter_id": "hch_aqaba",
-  "revision": 2,
+  "revision": 3,
   "title_ar": "من لقاء يثرب إلى عهد العقبة",
   "reader_question_ar": "كيف انتقل خبر الإسلام إلى يثرب، وماذا تغيّر بين البيعة الأولى وعهد الحماية؟",
   "core_ids": [
@@ -637,7 +637,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "نفر الخزرج هم أهل اللقاء الأول في هذا الخبر.",
-      "scope_note_ar": "الإجابة من الانتقاءات المعروضة من سيرة ابن هشام؛ لا تعميم على جميع طرق الخبر. اقرأ حدود الخبر قبل تعميمه.",
+      "scope_note_ar": "",
       "step_id": "hch_aqaba",
       "source_unit_ids": [
         "sp_aqaba_chapter_01:p1",
@@ -690,7 +690,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "يذكر ابن إسحاق أن اثني عشر رجلًا من الأنصار وافوا الموسم فبايعوا عند العقبة؛ فهذا هو العدد والوصف اللذان تسأل عنهما هذه القراءة.",
-      "scope_note_ar": "الإجابة من الانتقاءات المعروضة من سيرة ابن هشام؛ لا تعميم على جميع طرق الخبر. اقرأ حدود الخبر قبل تعميمه.",
+      "scope_note_ar": "",
       "step_id": "hch_aqaba",
       "source_unit_ids": [
         "sp_aqaba_chapter_05:p1",
@@ -772,7 +772,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "ينص خبر ابن إسحاق على الإقراء والتعليم والتفقيه.",
-      "scope_note_ar": "الإجابة من الانتقاءات المعروضة من سيرة ابن هشام؛ لا تعميم على جميع طرق الخبر. اقرأ حدود الخبر قبل تعميمه.",
+      "scope_note_ar": "",
       "step_id": "hch_aqaba",
       "source_unit_ids": [
         "sp_aqaba_chapter_08:p1",
@@ -819,7 +819,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "يصف الخبر اعتراضه أولًا ثم جلوسه وسماعه القرآن.",
-      "scope_note_ar": "الإجابة من الانتقاءات المعروضة من سيرة ابن هشام؛ لا تعميم على جميع طرق الخبر. اقرأ حدود الخبر قبل تعميمه.",
+      "scope_note_ar": "",
       "step_id": "hch_aqaba",
       "source_unit_ids": [
         "sp_aqaba_chapter_08:p1",
@@ -913,7 +913,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "يذكر كعب ثلاثة وسبعين رجلًا وامرأتين.",
-      "scope_note_ar": "الإجابة من الانتقاءات المعروضة من سيرة ابن هشام؛ لا تعميم على جميع طرق الخبر. اقرأ حدود الخبر قبل تعميمه.",
+      "scope_note_ar": "",
       "step_id": "hch_aqaba",
       "source_unit_ids": [
         "sp_aqaba_chapter_14:p1",
@@ -975,7 +975,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "هذا نص التزام الحماية في رواية كعب، لا بنود البيعة الأولى.",
-      "scope_note_ar": "الإجابة من الانتقاءات المعروضة من سيرة ابن هشام؛ لا تعميم على جميع طرق الخبر. اقرأ حدود الخبر قبل تعميمه.",
+      "scope_note_ar": "",
       "step_id": "hch_aqaba",
       "source_unit_ids": [
         "sp_aqaba_chapter_14:p1",
@@ -1159,7 +1159,7 @@
       ],
       "correct_option_id": "a",
       "explanation_ar": "تذكر تتمة كعب رفض بدء القتال والأمر بالرجوع إلى الرحال.",
-      "scope_note_ar": "الإجابة من الانتقاءات المعروضة من سيرة ابن هشام؛ لا تعميم على جميع طرق الخبر. اقرأ حدود الخبر قبل تعميمه.",
+      "scope_note_ar": "",
       "step_id": "hch_aqaba",
       "source_unit_ids": [
         "sp_aqaba_chapter_23:p1",
@@ -4784,20 +4784,20 @@
       ]
     }
   ],
-  "packet_id": "hch_aqaba:ar:r2",
+  "packet_id": "hch_aqaba:ar:r3",
   "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
-  "source_document_sha256": "6a5998e5ba82b8e28bbbef59fb1e748a90fd2fa34cf2be529108e7fc80a29976",
+  "source_document_sha256": "c84f8945ab18e8ef24f6fcbbb6c42d50781992bb9f75628e14cd30dd15e87041",
   "question_type": "single_choice",
   "review": {
     "arabic_compared": true,
-    "summary_ar": "مقارنة داخلية بالذكاء الاصطناعي لجميع فقرات الفصل وأسئلته وأهدافه وأجزائه المصدرية مع الانتقاءات الأرشيفية المحددة في سجل مقارنة Core، ثم فحص تصحيحات الإسناد والأصوات والاقتباس والأدلة. الجلسة: 4e9a3b1f-120a-409c-aff6-bee0ad857d1f. راجع النموذج الرئيسي التصحيحات الموضعية؛ ولا تعني البصمة قراءة الكتب كاملة أو اعتمادًا لغويًا أو علميًا مستقلًا أو إذن نشر. متابعة تحريرية محدودة للإصدار 2: قورنت الصياغة العربية المعدلة بأدلتها المحددة، وحذفت تعليمات القراءة العامة والمنهج الأرشيفي من 8 وحدات تعليمية مع إبقاء النسب والفروق والاحتمالات المؤثرة. ثبت عدم تغير ألفاظ المصادر وبياناتها والأسئلة والأجوبة وروابط الأدلة والوحدات الأخرى. ليست مقارنة مستقلة جديدة لجميع وحدات الفصل، ولا تجدد ربطُ الترجمات اعتمادَها.",
+    "summary_ar": "فُحص arabic-proposal-final.json وchapter-arabic-copy.json. أُعيد حساب canonical proposal digest بالطريقة المحددة في question_edits.proposal_digest (الوحدات المرتبة مع unit_id/reason/text_ar وretained_notes) فطابق binding: 2de99dc27de7701d2bb7d739d65901a9b1fe096b1f836ebca01b13aaee99c9e1. مقارنة نصوص المتعلم أظهرت تطابق جميع 70 قيمة text_ar للفصول و10 قيم legacy حرفيًا مع النسخة refined التي سبق فحصها؛ التغيير الوحيد فيها هو reason الخاص بـ hch_settlement_q_7:third:feedback_ar، وقد صار الآن يصف تعليق الواقدي الحالي بدقة. أُعيد تطبيق نسخة الفصل مرة واحدة على ملفات العربية الأصلية وحُسبت source_document_sha256 للفصول الستة؛ تطابقت كلها مع binding. لا توجد findings حالية في النصوص أو في reason المصحح. هذه مراجعة 70 وحدة عربية و10 وحدات legacy بعينها فقط، وليست اعتمادًا للطبعة الكاملة أو شهادة لغوية/علمية أو موافقة للتوزيع العام. raw refined SHA-256 السابق: 4499f7f02d656692d211d834c997792e00a9578209e86c4d531929cbba42c9bd؛ raw final SHA-256: e2c10765e6dad84b157f433b69538284474b170df47afbb3b1bebbf082457db3.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false
   },
   "last_accepted": {
-    "revision": 2,
-    "source_document_sha256": "6a5998e5ba82b8e28bbbef59fb1e748a90fd2fa34cf2be529108e7fc80a29976"
+    "revision": 3,
+    "source_document_sha256": "c84f8945ab18e8ef24f6fcbbb6c42d50781992bb9f75628e14cd30dd15e87041"
   },
   "source_units": [
     {

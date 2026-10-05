@@ -5,7 +5,7 @@ export function chapter_locale(requested, available = []) {
     const locale = normalize_language(requested)
     if (locale === 'ar') return 'ar'
     if (available.includes(locale)) return locale
-    return available.includes('en') ? 'en' : null
+    return null
 }
 
 export async function content_digest(value) {
@@ -80,6 +80,11 @@ async function wip_inventory(chapter) {
         ])
         add(unit.unit_id, unit, ['text_ar'], true)
     }
+    if (chapter.introduction) {
+        add(chapter.introduction.section_id, chapter.introduction, ['title_ar'])
+        for (const paragraph of chapter.introduction.paragraphs)
+            add(paragraph.paragraph_id, paragraph, ['text_ar'])
+    }
     return new Map(
         await Promise.all(
             [...rows].map(async ([id, text]) => [
@@ -132,10 +137,10 @@ export async function verify_edition(edition, arabic) {
         )
     )
         throw new Error('Invalid translation reading mode')
+    if (!wip_inventories.has(edition.arabic_payload_sha256))
+        wip_inventories.set(edition.arabic_payload_sha256, wip_inventory(arabic))
+    const expected = await wip_inventories.get(edition.arabic_payload_sha256)
     if (status === 'translation_wip') {
-        if (!wip_inventories.has(edition.arabic_payload_sha256))
-            wip_inventories.set(edition.arabic_payload_sha256, wip_inventory(arabic))
-        const expected = await wip_inventories.get(edition.arabic_payload_sha256)
         if (
             edition.units.length !== expected.size ||
             new Set(edition.units.map((unit) => unit.unit_id)).size !== expected.size ||
@@ -157,9 +162,24 @@ export async function verify_edition(edition, arabic) {
         )
             throw new Error('WIP translation is incomplete or its source units do not match')
     }
+    const unit_ids = new Set(edition.units.map((unit) => unit.unit_id))
+    if (
+        JSON.stringify(edition.units.map((unit) => unit.unit_id)) !==
+        JSON.stringify([...expected.keys()].filter((id) => unit_ids.has(id)))
+    )
+        throw new Error('Translation unit order changed')
 }
 
 export async function prepare_chapter(arabic, edition = null) {
+    if (
+        'introduction' in arabic &&
+        (!arabic.introduction ||
+            typeof arabic.introduction !== 'object' ||
+            Array.isArray(arabic.introduction) ||
+            Object.keys(arabic.introduction).sort().join('|') !==
+                'paragraphs|section_id|title_ar')
+    )
+        throw new Error('Introduction must be an object with its required fields')
     if (
         edition &&
         (edition.chapter_id !== arabic.chapter_id ||
@@ -221,6 +241,14 @@ export async function prepare_chapter(arabic, edition = null) {
             : arabic.packet_id,
         translation_sha256: edition?.translation_sha256,
         translation_review: edition?.review,
+        ...(arabic.introduction
+            ? {
+                  introduction: {
+                      ...words(arabic.introduction, arabic.introduction.section_id, ['title_ar']),
+                      paragraphs: arabic.introduction.paragraphs.map(paragraph),
+                  },
+              }
+            : {}),
         overview: arabic.overview.map(paragraph),
         account: arabic.account.map(section),
         outline: arabic.outline.map((item) => words(item, item.point_id, ['text_ar'])),

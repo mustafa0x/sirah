@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 2,
+  "revision": 3,
   "locale": "en",
-  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
-  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "arabic_sha256": "3f4f17f186a93132dc800c4816c8fa19e6dfcb621248fed31db9d2c92074dd63",
+  "arabic_payload_sha256": "c39a2ee236465d2c4d352b4440cff2730510531fe8bd8b2b51f97a28e58edca5",
   "status": "translation_wip",
   "units": [
     {
@@ -64,7 +64,7 @@
     {
       "unit_id": "hch_departure_bed2:text_ar",
       "source_text_sha256": "3daa1d7e1e8873789359a5f9c4c48b51b97292c1345caf4cf9971cab48f1d9f6",
-      "text": "In another account related by Ibn Ishaq from Yazid ibn Ziyad from Muhammad ibn Kab al-Qurazi, Abu Jahl stands with the men at the door. The Prophet ﷺ then goes out past them, scatters dust, and recites verses from Surat Ya-Sin. The men look toward the bed, see the person covered by the cloak and think it is the Prophet ﷺ, until Ali rises in the morning and they realize who was there."
+      "text": "In another account related by Ibn Ishaq from Yazid ibn Ziyad from Muhammad ibn Kab al-Qurazi, Abu Jahl stands with the men at the door. The Prophet ﷺ then comes out to them, scatters dust, and recites verses from Surat Ya-Sin. The men look toward the bed, see the person covered by the cloak and think it is the Prophet ﷺ, until Ali rises in the morning and they realize who was there."
     },
     {
       "unit_id": "hch_departure_trusts:title_ar",
@@ -288,8 +288,8 @@
     },
     {
       "unit_id": "hch_departure_q3:prompt_ar",
-      "source_text_sha256": "85252bb09f0f87750d76b93c70b088e2aaa3aa1181f25ce2ac6d33744ae949ae",
-      "text": "How should you handle the mention of the Najdi elder as Iblis?"
+      "source_text_sha256": "b6d158d384548fa8f6003189b3ad24403fdf26d337d915ebafa02dec0e29db8a",
+      "text": "What exception does al-Suwayani mention in his assessment of the report about the Najdi shaykh?"
     },
     {
       "unit_id": "hch_departure_q3:explanation_ar",
@@ -599,7 +599,7 @@
     {
       "unit_id": "sp_departure_chapter_council:p1:text_ar",
       "source_text_sha256": "7485d691f1e2e6c2ac05939d5cdcd21877190d95f8d96e02c80f60ff9645e7d6",
-      "text": "Ibn Ishaq said: When Quraysh saw that the Messenger of God ﷺ had acquired supporters and companions from outside their own people in a land other than their own, and saw his emigrant companions leaving to join them, they realized that they had settled in a home and found protection among them. They feared the Messenger of God ﷺ might go to join them, and knew that he had resolved to wage war against them. So they gathered to discuss him in the House of Assembly—this was the house of Qusayy ibn Kilab, where Quraysh settled all their affairs—to consult about what to do with the Messenger of God ﷺ now that they feared him."
+      "text": "Ibn Ishaq said: When Quraysh saw that the Messenger of God ﷺ had acquired supporters and companions from outside their own people in a land other than their own, and saw his emigrant companions leaving to join them, they realized that they had settled in a home and found protection among them. They feared the Messenger of God ﷺ might go to join them, and understood that there was a resolve to wage war against them. [Translator’s note: The supplied Arabic has plural “annahum” beside singular “ajmaʿa”; the subject of the resolve is uncertain.] So they gathered to discuss him in the House of Assembly—this was the house of Qusayy ibn Kilab, where Quraysh settled all their affairs—to consult about what to do with the Messenger of God ﷺ now that they feared him."
     },
     {
       "unit_id": "sp_departure_chapter_council:p2:kind_ar",
@@ -1169,7 +1169,7 @@
     {
       "unit_id": "sp_departure_chapter_exit:p6:text_ar",
       "source_text_sha256": "7934a4bf3bdc8aab93d45963308b9dd80e32195332fbbec33c3a09697155de5b",
-      "text": "He said: The Messenger of God ﷺ went out past them, taking a handful of dust in his hand, then said:"
+      "text": "He said: The Messenger of God ﷺ came out to them, took a handful of dust in his hand, then said:"
     },
     {
       "unit_id": "sp_departure_chapter_exit:p7:kind_ar",
@@ -2235,7 +2235,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "e9153bb7229651ae962eba8f934d2c928ea67a7f5a1de382e3f2dfb4896c4a0b",
+  "translation_sha256": "aa705c66dbde8f6702d2b5ed5bac60dce788fc8320aa1f9bbfea41673ef26a7a",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_settlement",
-  "revision": 2,
+  "revision": 3,
   "locale": "ps",
-  "arabic_sha256": "80c19ce1af5a2a1f7fa80fe88665a540f4318f41d3863db5d7694e98f51f435c",
-  "arabic_payload_sha256": "0a946402c38ad782effe9e40bdb3546f8c21e50ac42325e21de13e47606292d1",
+  "arabic_sha256": "df7f678628be4d18c0d2d3b0fa594338081c333842d52ef0757e5bbb05b28401",
+  "arabic_payload_sha256": "14cc0251ad9e47323e43834794e1dc142025130ae32197e0409eb935a9d8d44d",
   "status": "translation_wip",
   "units": [
     {
@@ -263,13 +263,8 @@
     },
     {
       "unit_id": "hch_settlement_q_1:explanation_ar",
-      "source_text_sha256": "d0853df92eaca54e50679cbdf99683d082a1c8c6b1bf2c6785d6655c47c00426",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. ابن اسحاق د مهاجرانو پرله‌پسې راتګ روایت کوي او د مکې په اړه په خپله وینا کې فتنه‌ځپلی او بندي مستثنا کوي."
-    },
-    {
-      "unit_id": "hch_settlement_q_1:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "28fe0e185e582844bb4bbda82d56507fc52502c33c98216f7d79f110865337c6",
+      "text": "ابن اسحاق د مهاجرینو په اړه له خپلې وینا چې په مکه کې پاتې شول، ازمویل شوي او بندیان شوي کسان مستثنا کوي."
     },
     {
       "unit_id": "hch_settlement_q_1:right:text_ar",
@@ -308,13 +303,8 @@
     },
     {
       "unit_id": "hch_settlement_q_2:explanation_ar",
-      "source_text_sha256": "e9b7b8373d3a06c1c59afbf96286415949bbc2b480d6e255af1b69f64888f40f",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. ابن حبان د سوده او د نبي ﷺ د لوڼو د راوستلو لپاره مکې ته د زید او ابو رافع لېږل روایت کوي؛ عبدالله بن ابي بکر د ابن اریقط تر پیغام وروسته د خپلې کورنۍ له غړو سره ووت."
-    },
-    {
-      "unit_id": "hch_settlement_q_2:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "a9dbbd45219d5a6d34b019df9488c6eaad74dfaada6f8d1994df3c113b38b9be",
+      "text": "ابن حبان روایتوي چې زید بن حارثه او ابو رافع مکې ته واستول شول، څو سوده او د رسول الله ﷺ لوڼې راولي؛ بیا یادوي چې ابو بکر د خپلې کورنۍ په اړه ابن اریقط ولېږه."
     },
     {
       "unit_id": "hch_settlement_q_2:right:text_ar",
@@ -353,13 +343,8 @@
     },
     {
       "unit_id": "hch_settlement_q_3:explanation_ar",
-      "source_text_sha256": "9adbf4627859529e1b01d0ba7619f468335dd6b088f54108fd117c7e214e2bda",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. د ابن حبان د روایت دوام عبدالرحمن بن عوف د سعد بن ربیع د ورورولۍ له کیسې پرته په بل سیاق کې یادوي؛ دا برخه په هغې کیسې نه شو بدلولای."
-    },
-    {
-      "unit_id": "hch_settlement_q_3:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "4ca5ed4f0ce5830c93177f0593970fbff9c20fb73a7637f7a2b4106d0ffdd10d",
+      "text": "د ابن حبان د روایت په دوام کې عبد الرحمن بن عوف یادېږي او ورپسې ویل کېږي چې له عثمان سره ورورولي ور وتړل شوه؛ دلته له سعد بن ربیع سره د ورورولۍ یادونه نشته."
     },
     {
       "unit_id": "hch_settlement_q_3:right:text_ar",
@@ -398,13 +383,8 @@
     },
     {
       "unit_id": "hch_settlement_q_4:explanation_ar",
-      "source_text_sha256": "518c1cb2a214cf721f059b405cd5a98e0a70f1280540121f784de625c523c66a",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. اسماء روایت کوي چې امیندواره راغله، عبدالله یې په قبا کې وزېږاوه، بیا یې نبي ﷺ ته راوست، هغه یې تحنیک وکړ او دعا یې ورته وکړه."
-    },
-    {
-      "unit_id": "hch_settlement_q_4:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "a1d5fcefdf4734bf5a7e85297a73092c1bfc9f3bc65a3194aa46adba0b700029",
+      "text": "اسماء وایي چې په قبا کې مېشته شوه، هلته یې عبد الله بن زبیر وزېږاوه او بیا یې رسول الله ﷺ ته ورساوه."
     },
     {
       "unit_id": "hch_settlement_q_4:right:text_ar",
@@ -443,13 +423,8 @@
     },
     {
       "unit_id": "hch_settlement_q_5:explanation_ar",
-      "source_text_sha256": "9817427d35d5fc76169d9b69ff229843aea284774bc48af45f27e0c169aa0b0e",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. د بخاري متابعت تاییدوي چې اسماء امیندواره وه کله یې چې هجرت وکړ، خو د تحنیک صحنه بیا نه روایتوي."
-    },
-    {
-      "unit_id": "hch_settlement_q_5:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "cb199fb9a7c9362ebb269a456230ee8f9c963e9f13f2394a3d02fc7b8ee70bfe",
+      "text": "د بخاري په متابعت کې زیاته شوې چې اسماء حامله د رسول الله ﷺ لور ته هجرت وکړ؛ خو د بل روایت د زېږون او تحنیک صحنه پکې نشته."
     },
     {
       "unit_id": "hch_settlement_q_5:right:text_ar",
@@ -488,13 +463,8 @@
     },
     {
       "unit_id": "hch_settlement_q_6:explanation_ar",
-      "source_text_sha256": "83feab046b1c186c03aea3f6dd277cd712b5bbc2da51405bc00aaa8561c5e73f",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. د عبدالله بن زبیر په اړه د عائشې روایت خرما او د نبي ﷺ لاړې یادوي او د زېږېدو صحنه په لنډ ډول وايي."
-    },
-    {
-      "unit_id": "hch_settlement_q_6:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "352f1ac4bac86e122ba0d6dad994626595c86a76438b5a90191220766c3cb4c7",
+      "text": "د عایشې په روایت کې رسول الله ﷺ یوه کجوره واخیسته، وژووله او د عبد الله بن زبیر خولې ته یې ورکړه؛ دا روایت د هغه د زېږېدو ځای نه بیانوي."
     },
     {
       "unit_id": "hch_settlement_q_6:right:text_ar",
@@ -533,13 +503,8 @@
     },
     {
       "unit_id": "hch_settlement_q_7:explanation_ar",
-      "source_text_sha256": "0b79f87a9a063551fe12e1f30f5f1eca3225d36ee0f9957f9a2f24af09a7e004",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. ابن حجر د اسماء د روایت ټکي تشریح کوي، لومړنی والی د مدینې مهاجرانو پورې محدودوي او د واقدي د دوهم کال د وینا پر وړاندې لومړی کال غوره ګڼي؛ دا د هغه نظر دی، دلته یو قطعي ټاکل شوی تاریخ نه دی."
-    },
-    {
-      "unit_id": "hch_settlement_q_7:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "d48c756412cb6aaf75214a9eeca53259dd544372edff161c20bb73952c6a03e4",
+      "text": "ابن حجر غوره ګڼي چې عبد الله بن زبیر په لومړي کال کې زېږېدلی و؛ د واقدي او پلویانو یې خبره برعکس ده، هغوی دویم کال په ټینګه ټاکلی. دا د ابن حجر په شرحه کې ترجیح ده، نه د اسماء په وینا کې څرګند تاریخ."
     },
     {
       "unit_id": "hch_settlement_q_7:right:text_ar",
@@ -563,13 +528,13 @@
     },
     {
       "unit_id": "hch_settlement_q_7:third:text_ar",
-      "source_text_sha256": "3e7ba7b6a693060fe90d389d69ab281db318139c429ec1a3fe827076e809f7f3",
-      "text": "د بلال بیت"
+      "source_text_sha256": "8f0c9e8fd508324e66cc89af7781c4d20d81c6068b15bd91df476723397c3b68",
+      "text": "د واقدي نظر"
     },
     {
       "unit_id": "hch_settlement_q_7:third:feedback_ar",
-      "source_text_sha256": "5b8907a1a4e8435bd691ef75dd32f4b42f5c09ed5286c11ee10a290cdad18aae",
-      "text": "غوره شوی متن دا نه وايي؛ د ویناوال غږ او د روایت حدود بیا وګورئ."
+      "source_text_sha256": "15d1e6ac6f13e5fd341f63c0ab59ab63d002cad598878a1f51be0acab1d1533d",
+      "text": "ابن حجر وایي چې واقدي او پلویانو یې دویم کال په ټینګه ټاکلی و، نه دا چې لومړی کال یې غوره ګاڼه."
     },
     {
       "unit_id": "hch_settlement_q_8:prompt_ar",
@@ -578,13 +543,8 @@
     },
     {
       "unit_id": "hch_settlement_q_8:explanation_ar",
-      "source_text_sha256": "d997514467e399a8501180caffe36f86057dbd03be8403696ce46a72be30212f",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. عائشه د ابوبکر او بلال ناروغي او د هر یوه شعر بیانوي، بیا نبي ﷺ ته خبر ورکوي؛ هغه د مدینې د مینې، روغتیا، د پیمانو د برکت او د تبې د اړولو دعا کوي."
-    },
-    {
-      "unit_id": "hch_settlement_q_8:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "cca93a42641a8bf686a4cfdf8eeb23451d6c2c3b085036c85b42cac8c45d6b3c",
+      "text": "عایشه د درې او مجنه بیتونه بلال ته منسوبوي او تر هغو مخکې د تبې په اړه د ابو بکر شعر یادوي."
     },
     {
       "unit_id": "hch_settlement_q_8:right:text_ar",
@@ -623,13 +583,8 @@
     },
     {
       "unit_id": "hch_settlement_q_9:explanation_ar",
-      "source_text_sha256": "a5d4c0651d39b5fe1979b769abf29f3e6ab9aafb85122d0887c51b65e140b83c",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. په مسلم کې عائشه د مدینې د وبا او د ابوبکر او بلال د ناروغۍ خبره کوي؛ ورپسې د روغتیا، برکت او د تبې د اړولو لپاره د نبي ﷺ دعا راځي."
-    },
-    {
-      "unit_id": "hch_settlement_q_9:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "9bcb2d333f5ec39ec99c0509774d9f1a9b39e3264740ddc8ce18b48aec8e6187",
+      "text": "د عایشې له خوا د مدینې د تبې او د ابو بکر او بلال د ناروغۍ تر بیان وروسته، هغه د رسول الله ﷺ دعا روایتوي: د مدینې مینه، روغتیا او په صاع او مد کې برکت، او د تبې لېږدول جحفه ته."
     },
     {
       "unit_id": "hch_settlement_q_9:right:text_ar",
@@ -668,13 +623,8 @@
     },
     {
       "unit_id": "hch_settlement_q_10:explanation_ar",
-      "source_text_sha256": "8b92be82cee8322cdf28571aad97c0615a21ff6ef61936b8db45091d0a58e2c5",
-      "text": "ځواب یوازې د ښودل شوي شاهد له مخې دی؛ د بل روایت یا د شارح تفصیل مه ور ګډوئ. ابن حجر له ابن اسحاق څخه نقلوي چې عائشې له عامر بن فهیره پوښتنه وکړه او د هغه بیتونه یې راوړي؛ دا د ابوبکر او بلال له شعره جلا کوي او د دې زیاتې برخې د بل سند د پرې کېدو یادونه کوي."
-    },
-    {
-      "unit_id": "hch_settlement_q_10:scope_note_ar",
-      "source_text_sha256": "71c620fe41bdf77a669b27cded963744c900ede66343628c3c2912923e9d4a39",
-      "text": "پوښتنه د ټاکلې لوستنې تر حدودو ده، نه د ټولې دورې د تاریخ په اړه."
+      "source_text_sha256": "fca8549975d63d7f46b0bf8e706ce9fac1b4a70a260f033d133ae8545817fe4c",
+      "text": "ابن حجر د ابن اسحاق هغه زیاتونه رااخلي چې عایشې له عامر بن فهیره د شعرونو پوښتنه کړې؛ بیا وایي چې د مالک دا زیاتونه له عایشې څخه په منقطع سند ده."
     },
     {
       "unit_id": "hch_settlement_q_10:right:text_ar",
@@ -3975,7 +3925,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "e978af87580272744504ebcedccd2c6931696f41fd8b6fba80d95d08d9af7180",
+  "translation_sha256": "29417bbaa7486148a06ecf6a9b2aa6548aa8b30045ecec7169cb1da289388610",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

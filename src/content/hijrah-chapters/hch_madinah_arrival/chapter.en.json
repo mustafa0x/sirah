@@ -4,7 +4,7 @@
   "locale": "en",
   "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
   "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
-  "status": "translation_wip",
+  "status": "translation_ready",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -2054,7 +2054,7 @@
     {
       "unit_id": "sp_madinah_chapter_10:p1:text_ar",
       "source_text_sha256": "22cf71f2306e5d805e194cc95e39f4020ca37fb7df6c377c267c8b86a857c7fe",
-      "text": "One of our jars containing water broke, and Umm Ayyub and I got up with a cloth of ours—the only covering we had—and soaked up the water with it, fearing that some of it might drip onto the Messenger of God ﷺ and hurt him. We used to prepare his supper and send it to him. When he sent back what remained, Umm Ayyub and I sought out the place his hand had touched and ate from it, seeking blessing by doing so. One night we sent him his supper after putting onion or garlic in it. The Messenger of God ﷺ sent it back, and I saw no trace of his hand in it. I went to him in alarm and said: ‘Messenger of God, may my father and mother be your ransom, you sent back your supper, and I did not see the place your hand had touched in it. Whenever you sent it back to us, Umm Ayyub and I sought out where your hand had touched, seeking blessing by doing so.’"
+      "text": "One of our jars containing water broke, and Umm Ayyub and I got up with a cloth of ours—the only covering we had—and soaked up the water with it, fearing that some of it might drip onto the Messenger of God ﷺ and hurt him. We used to prepare his supper and send it to him. When he sent back what remained, Umm Ayyub and I sought out the place his hand had touched and ate from it, seeking blessing by doing so. One night we sent him his supper after putting onion or garlic in it. The Messenger of God ﷺ sent it back, and I saw no trace of his hand in it. I went to him in alarm and said: ‘Messenger of God, may my father and mother be your ransom, you sent back your supper, and I did not see the place your hand had touched in it. Whenever I returned it to us, Umm Ayyub and I sought out where your hand had touched, seeking blessing by doing so.’ [Translator’s note: The supplied wording here says “I returned it to us,” though the preceding account says the Prophet ﷺ sent the remainder back.]"
     },
     {
       "unit_id": "sp_madinah_chapter_10:p2:kind_ar",
@@ -2144,7 +2144,7 @@
     {
       "unit_id": "sp_madinah_chapter_15:p1:text_ar",
       "source_text_sha256": "afac698551f4567123bd51f97b6204d19cbd5b343d915e888cd9b0846066d9ac",
-      "text": "171 — (2053) Al-Hajjaj ibn al-Sha’ir and Ahmad ibn Sa’id ibn Sakhr told me (their wording is similar). They said: Abu al-Nu’man told us; Thabit told us (in al-Hajjaj’s transmission, “Yazid Abu Zayd al-Ahwal”); Asim ibn Abd Allah ibn al-Harith told us, from Aflah, Abu Ayyub’s freedman, from Abu Ayyub:"
+      "text": "171 — (2053) Al-Hajjaj ibn al-Sha’ir and Ahmad ibn Sa’id ibn Sakhr told me (their wording is similar). They said: Abu al-Nu’man told us; Thabit told us (in the transmission of al-Hajjaj ibn Yazid: “Abu Zayd al-Ahwal”); Asim ibn Abd Allah ibn al-Harith told us, from Aflah, Abu Ayyub’s freedman, from Abu Ayyub:"
     },
     {
       "unit_id": "sp_madinah_chapter_15:p2:kind_ar",
@@ -2530,12 +2530,14 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "5df6fa2a679c59329048ae61130139dbe2164c55ef7d56a2b2fa2de22aed37f0",
+  "translation_sha256": "de8f35ce6d6dc8a8dcec9faaacbd1b9636ac86371efc5dc4552e0f69e585bd1f",
   "review": {
-    "translation_compared": false,
-    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
+    "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+    "translation_sha256": "de8f35ce6d6dc8a8dcec9faaacbd1b9636ac86371efc5dc4552e0f69e585bd1f",
+    "summary": "Same-session re-review following the prior complete Arabic-to-English semantic comparison of all 494 inventory units in 17 chunks. Read and compared both current changed source-text pairs against the supplied Arabic and adjoining source context, checked both previous findings and the full proposal, and verified the other 492 units and edition envelope are identical to the previously reviewed snapshot. Both recorded defects are addressed without silently changing source anomalies. This is not scholarly collation or independent native-language/specialist approval.",
     "independent_language_approval": false,
     "specialist_approval": false,
-    "public_distribution_approved": false
+    "public_distribution_approved": false,
+    "translation_compared": true
   }
 }

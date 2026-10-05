@@ -1,9 +1,37 @@
 {
   "schema_version": 1,
   "chapter_id": "hch_early_migration",
-  "revision": 2,
+  "revision": 4,
   "title_ar": "قبل خروج النبي ﷺ: مهاجرون وطرق لم تتساوَ",
   "reader_question_ar": "كيف سبق مهاجرون النبي ﷺ إلى المدينة، وماذا اعترض بعضهم في الطريق أو فصل بينهم وبين أهلهم؟",
+  "introduction": {
+    "section_id": "hch_early_migration_intro",
+    "title_ar": "ما الهجرة، ولماذا خرج المسلمون من مكة؟",
+    "paragraphs": [
+      {
+        "paragraph_id": "hch_early_migration_intro_1",
+        "text_ar": "الهجرة هي انتقال النبي محمد ﷺ وأصحابه من مكة إلى المدينة. كان بعض المسلمين يتعرضون للأذى في مكة، وكان في المدينة أناس قد أسلموا، فكان للقادمين من مكة مجتمع من المؤمنين ينضمون إليه.",
+        "claim_ids": [
+          "earlier_exp_abu_salama_1",
+          "earlier_exp_precedence_1",
+          "earlier_exp_abu_salama_2",
+          "earlier_exp_umar_1",
+          "earlier_exp_suhayb_2"
+        ]
+      },
+      {
+        "paragraph_id": "hch_early_migration_intro_2",
+        "text_ar": "سبق بعض أصحاب النبي ﷺ خروجه إلى المدينة. ولم يكن الخروج يسيرًا: فمنهم من فُصل عن أهله، ومنهم من أُعيد مقيّدًا، ومنهم من أعطى ماله ليخلو له الطريق.",
+        "claim_ids": [
+          "earlier_exp_abu_salama_1",
+          "earlier_exp_precedence_1",
+          "earlier_exp_abu_salama_2",
+          "earlier_exp_umar_1",
+          "earlier_exp_suhayb_2"
+        ]
+      }
+    ]
+  },
   "core_ids": [
     "hc_earlier_exp_abu_salama",
     "hc_earlier_exp_precedence",
@@ -635,7 +663,7 @@
         "hch_early_migration_read_family",
         "hch_early_migration_read_first"
       ],
-      "prompt_ar": "كيف نتعامل مع تقديم ابن إسحاق أبا سلمة وقول البراء «أَوَّلُ مَنْ قَدِمَ عَلَيْنَا»؟",
+      "prompt_ar": "كيف يختلف تقديم ابن إسحاق لأبي سلمة عن عبارة البراء «أَوَّلُ مَنْ قَدِمَ عَلَيْنَا»؟",
       "options": [
         {
           "option_id": "erase",
@@ -966,7 +994,7 @@
       "reading_ids": [
         "hch_early_migration_read_salim"
       ],
-      "prompt_ar": "كيف نقرأ موضع إمامة سالم في نص البيهقي وتتمة ابن سعد؟",
+      "prompt_ar": "ما الموضع الذي يسميه خبر ابن عمر عند البيهقي، وما الموضع الذي تسميه تتمة ابن سعد؟",
       "options": [
         {
           "option_id": "same",
@@ -6908,20 +6936,20 @@
       "related_evidence_ids": []
     }
   ],
-  "packet_id": "hch_early_migration:ar:r2",
+  "packet_id": "hch_early_migration:ar:r4",
   "source_release_id": "hijrah-topic-chapters-ar-draft-v1",
-  "source_document_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1",
+  "source_document_sha256": "e18400aaf11f81903d7ee940d609b9e61fda9a47b3bc564980e9b70a272b58f5",
   "question_type": "single_choice",
   "review": {
     "arabic_compared": true,
-    "summary_ar": "مقارنة داخلية بالذكاء الاصطناعي لجميع فقرات الفصل وأسئلته وأهدافه وأجزائه المصدرية المختارة مع Core المقبول. راجع النموذج الرئيسي التصحيحات الموضعية، ثم أعيد فحصها وفحص اختصار السرد في جلسة d44b9c1e-13b7-4e7b-babf-8bea771aa9e7. تربط هذه البصمة النسخة المقارنة؛ ولا تشمل الأجزاء المصدرية غير المختارة أو اعتمادًا مستقلًا أو إذن نشر. متابعة تحريرية محدودة للإصدار 2: قورنت الصياغة العربية المعدلة بأدلتها المحددة، وحذفت تعليمات القراءة العامة والمنهج الأرشيفي من 9 وحدات تعليمية مع إبقاء النسب والفروق والاحتمالات المؤثرة. ثبت عدم تغير ألفاظ المصادر وبياناتها والأسئلة والأجوبة وروابط الأدلة والوحدات الأخرى. ليست مقارنة مستقلة جديدة لجميع وحدات الفصل، ولا تجدد ربطُ الترجمات اعتمادَها.",
+    "summary_ar": "فُحص arabic-proposal-final.json وchapter-arabic-copy.json. أُعيد حساب canonical proposal digest بالطريقة المحددة في question_edits.proposal_digest (الوحدات المرتبة مع unit_id/reason/text_ar وretained_notes) فطابق binding: 2de99dc27de7701d2bb7d739d65901a9b1fe096b1f836ebca01b13aaee99c9e1. مقارنة نصوص المتعلم أظهرت تطابق جميع 70 قيمة text_ar للفصول و10 قيم legacy حرفيًا مع النسخة refined التي سبق فحصها؛ التغيير الوحيد فيها هو reason الخاص بـ hch_settlement_q_7:third:feedback_ar، وقد صار الآن يصف تعليق الواقدي الحالي بدقة. أُعيد تطبيق نسخة الفصل مرة واحدة على ملفات العربية الأصلية وحُسبت source_document_sha256 للفصول الستة؛ تطابقت كلها مع binding. لا توجد findings حالية في النصوص أو في reason المصحح. هذه مراجعة 70 وحدة عربية و10 وحدات legacy بعينها فقط، وليست اعتمادًا للطبعة الكاملة أو شهادة لغوية/علمية أو موافقة للتوزيع العام. raw refined SHA-256 السابق: 4499f7f02d656692d211d834c997792e00a9578209e86c4d531929cbba42c9bd؛ raw final SHA-256: e2c10765e6dad84b157f433b69538284474b170df47afbb3b1bebbf082457db3.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false
   },
   "last_accepted": {
-    "revision": 2,
-    "source_document_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1"
+    "revision": 4,
+    "source_document_sha256": "e18400aaf11f81903d7ee940d609b9e61fda9a47b3bc564980e9b70a272b58f5"
   },
   "source_units": [
     {
@@ -7556,6 +7584,14 @@
         {
           "target_type": "paragraph",
           "target_id": "hch_early_migration_overview_1"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_early_migration_intro_1"
+        },
+        {
+          "target_type": "paragraph",
+          "target_id": "hch_early_migration_intro_2"
         }
       ],
       "claim_ids": [

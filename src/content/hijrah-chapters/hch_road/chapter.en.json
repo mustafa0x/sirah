@@ -4,7 +4,7 @@
   "locale": "en",
   "arabic_sha256": "f16774c0a0d2bfb6c6443914e111b6c901fcc681699c3289bbc104a275002430",
   "arabic_payload_sha256": "88b6f9f43978720aefcf5ca22a713bbc268c0217429adf0af3704c24ea7b1132",
-  "status": "translation_wip",
+  "status": "translation_ready",
   "units": [
     {
       "unit_id": "hch_road:title_ar",
@@ -44,7 +44,7 @@
     {
       "unit_id": "hch_road_meeting_01:text_ar",
       "source_text_sha256": "922cd3efd098d2e2f96ee462575981355e76e1961f23aa7bb2ed37727dc3284e",
-      "text": "They were to meet at the cave of Thawr after three nights. The guide came with the two mounts on the morning of the third day, as ‘A’isha relates."
+      "text": "They were to meet at the cave of Thawr after three nights. The guide came with the two mounts on the morning after three nights, as ‘A’isha relates."
     },
     {
       "unit_id": "hch_road_meeting_02:text_ar",
@@ -309,7 +309,7 @@
     {
       "unit_id": "hch_road_q_time:cave:text_ar",
       "source_text_sha256": "6c8461f41afe4d72842d7d68bea817b787bb29a35fbf41a31e7b2f70dc198930",
-      "text": "At the cave of Thawr after three nights, with the two mounts on the morning of the third day."
+      "text": "At the cave of Thawr after three nights, with the two mounts on the morning after three nights."
     },
     {
       "unit_id": "hch_road_q_time:cave:feedback_ar",
@@ -774,7 +774,7 @@
     {
       "unit_id": "sp_guide_bukhari_coast:p1:text_ar",
       "source_text_sha256": "d5a0333129ed8995f736e940f1484cb04a5fd7babf5407ef93eed08029d0e632",
-      "text": "at the cave of Thawr after three nights, with their two mounts on the morning of the third. ‘Amir ibn Fuhayra and the guide set off with them, and the guide took them along the coastal route.”"
+      "text": "at the cave of Thawr after three nights, with their two mounts on the morning after three nights. ‘Amir ibn Fuhayra and the guide set off with them, and the guide took them along the coastal route.”"
     },
     {
       "unit_id": "sp_guide_phone_context:p1:kind_ar",
@@ -834,7 +834,7 @@
     {
       "unit_id": "sp_guide_phone_context:p2:text_ar",
       "source_text_sha256": "d7b8cd0020ae3da54bc6ff5271af2cb7f234005ea640a1ecef2a77866f1ca2de",
-      "text": "May God, Lord of humankind, grant the finest reward ... to two companions who stayed at Umm Ma‘bad’s tents.\nThey stopped in the open country, then traveled on ... blessed is whoever becomes Muhammad’s companion.\nLet Banu Ka‘b take joy in the place of their young woman ... and her seat at a place of watch for the two believers."
+      "text": "May God, Lord of humankind, grant the finest reward ... to two companions who stayed at Umm Ma‘bad’s tents.\nThey stopped in the open country, then traveled on ... blessed is whoever becomes Muhammad’s companion.\nLet Banu Ka‘b take joy in the place of their young woman ... and her seat at a place of watch for the two believers. [2]"
     },
     {
       "unit_id": "sp_guide_sira_name:p1:kind_ar",
@@ -984,7 +984,7 @@
     {
       "unit_id": "sp_guide_hani_name:p3:text_ar",
       "source_text_sha256": "1e0e4f1f97603e794f31a0818c3e188c3fce89879fae4e3cc6486fbf82595547",
-      "text": "This is recorded in the Sahih, but without explicitly stating his name: only a man of Banu al-Dil. Ibn Ishaq named him in the Sira. It also indicates the permissibility of a Muslim seeking help from a non-Muslim in a time of need or necessity; this issue and its supporting evidence have been discussed repeatedly already."
+      "text": "This is recorded in the Sahih (^4), but without explicitly stating his name: only a man of Banu al-Dil. Ibn Ishaq named him in the Sira (^5). It also indicates the permissibility of a Muslim seeking help from a non-Muslim in a time of need or necessity; this issue and its supporting evidence have been discussed repeatedly already."
     },
     {
       "unit_id": "sp_guide_qurtubi:p1:kind_ar",
@@ -1014,7 +1014,7 @@
     {
       "unit_id": "sp_guide_qurtubi:p1:text_ar",
       "source_text_sha256": "975a8ce058172748b33b7ef4d6655cc7710a78ec6ac2233ac8d5bb31f7b5f9d9",
-      "text": "Fifth: Al-Bukhari related from ‘A’isha that she said: “The Messenger of God ﷺ and Abu Bakr hired a man of Banu al-Dil as a skilled guide. He followed the religion of the unbelievers of Quraysh. They handed him their two mounts and appointed the cave of Thawr as their meeting place after three nights. He came to them with their mounts on the morning of the third day. They departed, as did ‘Amir ibn Fuhayra and the guide of Banu al-Dil with them; he took them along the coastal route.”"
+      "text": "Fifth: Al-Bukhari related from ‘A’isha that she said: “The Messenger of God ﷺ and Abu Bakr hired a man of Banu al-Dil as a skilled guide «2». He followed the religion of the unbelievers of Quraysh. They handed him their two mounts and appointed the cave of Thawr as their meeting place after three nights. He came to them with their mounts on the morning after three nights. They departed, as did «3» ‘Amir ibn Fuhayra and the guide of Banu al-Dil with them; he took them along the coastal route «4».”"
     },
     {
       "unit_id": "sp_guide_qurtubi:p2:kind_ar",
@@ -1044,7 +1044,7 @@
     {
       "unit_id": "sp_guide_qurtubi:p2:text_ar",
       "source_text_sha256": "5cd000c7e85f0096300ffab02cc7c1ddbca118c4a3a98b25bf3e03ff6342ff1a",
-      "text": "Al-Muhallab said: A legal inference here is that polytheists can be entrusted with secrets and property if they are known to be faithful and honorable, just as the Prophet ﷺ entrusted this polytheist with his secret departure from Mecca and with the two she-camels."
+      "text": "Al-Muhallab said: A legal inference here is that polytheists «5» can be entrusted with secrets and property if they are known to be faithful and honorable, just as the Prophet ﷺ entrusted this polytheist with his secret departure from Mecca and with the two she-camels."
     },
     {
       "unit_id": "sp_guide_qurtubi:p3:kind_ar",
@@ -1134,7 +1134,7 @@
     {
       "unit_id": "sp_guide_anas_recognition:p2:text_ar",
       "source_text_sha256": "89aa000e6833add56ce1ea10cd6ac84b1421d91cb4910d4c4ec0a9983291fbe5",
-      "text": "“The Prophet of God ﷺ approached Medina with Abu Bakr riding behind him. Abu Bakr was an older man whom people recognized, while the Prophet of God ﷺ was a young man whom they did not recognize. A man would encounter Abu Bakr and ask, ‘Abu Bakr, who is this man before you?’ He would reply, ‘This man guides me along the way.’ The listener thought he meant the road, but he meant the way of goodness. Abu Bakr turned and saw a horseman who had caught up with them. He said, ‘Messenger of God, a horseman has caught up with us!’ The Prophet of God ﷺ turned and said, ‘O God, throw him down!’ His horse threw him and then rose neighing. He said, ‘Prophet of God, command me to do whatever you wish.’ He replied, ‘Stay where you are; let no one else follow us.’ Early in the day he had fought against the Prophet of God ﷺ; by the end of the day he was guarding him. The Messenger of God ﷺ stopped beside the lava tract and sent for the Ansar. They came to the Prophet of God ﷺ, greeted the two men, and said, ‘Ride on, safe and obeyed.’ The Prophet of God ﷺ and Abu Bakr rode on, and the Ansar surrounded them with weapons. People in Medina said, ‘The Prophet of God has come! The Prophet of God ﷺ has come!’ They peered out, looking and saying, ‘The Prophet of God has come! The Prophet of God has come!’ He continued until he stopped beside Abu Ayyub’s house. While he was speaking to his family, ‘Abd Allah [the name breaks off at the excerpt boundary] heard of him.”"
+      "text": "“The Prophet of God ﷺ approached Medina with Abu Bakr riding behind him. Abu Bakr was an older man whom people recognized, while the Prophet of God ﷺ was a young man whom they did not recognize. A man would encounter Abu Bakr and ask, ‘Abu Bakr, who is this man before you?’ He would reply, ‘This man guides me along the way.’ The listener thought he meant the road, but he meant the way of goodness. Abu Bakr turned and saw a horseman who had caught up with them. He said, ‘Messenger of God, a horseman has caught up with us!’ The Prophet of God ﷺ turned and said, ‘O God, throw him down!’ His horse threw him and then rose neighing. He said, ‘Prophet of God, command me to do whatever you wish.’ He replied, ‘Stay where you are; do not let anyone catch up with us.’ Early in the day he had fought against the Prophet of God ﷺ; by the end of the day he was guarding him. The Messenger of God ﷺ stopped beside the lava tract and sent for the Ansar. They came to the Prophet of God ﷺ, greeted the two men, and said, ‘Ride on, safe and obeyed.’ The Prophet of God ﷺ and Abu Bakr rode on, and the Ansar surrounded them with weapons. People in Medina said, ‘The Prophet of God has come! The Prophet of God ﷺ has come!’ They peered out, looking and saying, ‘The Prophet of God has come! The Prophet of God has come!’ He continued until he stopped beside Abu Ayyub’s house. While he was speaking to his family, ‘Abd Allah [the name breaks off at the excerpt boundary] heard of him.”"
     },
     {
       "unit_id": "sp_guide_bayhaqi_start:p1:kind_ar",
@@ -1224,7 +1224,7 @@
     {
       "unit_id": "sp_guide_bayhaqi_end:p1:text_ar",
       "source_text_sha256": "14fb05fde178de0035dee209154ee8bbf76a68bcdaba41adcf2eef02bd67fd6f",
-      "text": "fitting for a prophet to lie.’ He said: When Abu Bakr was asked, ‘What are you?’ he replied, “Sold” [translator’s note: the Arabic reads “sold”; the intended answer to “What are you?” is unclear]. When asked, ‘Who is with you?’ he said, ‘A guide who guides me.’”"
+      "text": "fitting for a prophet to lie.’ He said: When Abu Bakr was asked, ‘What are you?’ he replied, “bāʿ” [translator’s note: the supplied Arabic is an active past verb, literally “he sold”; its intended answer to “What are you?” is unclear]. When asked, ‘Who is with you?’ he said, ‘A guide who guides me.’”"
     },
     {
       "unit_id": "sp_guide_bayhaqi_end:p2:kind_ar",
@@ -1295,12 +1295,14 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "0641eef7a696390b4212e955d731eaa3d93fb6aafa94fe27a67dbacb89cd3c23",
+  "translation_sha256": "d9d1cfc4855aecfa798769e238c98d67f4e278d26187e6175e85fe4f30d178c7",
   "review": {
-    "translation_compared": false,
-    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
+    "arabic_sha256": "f16774c0a0d2bfb6c6443914e111b6c901fcc681699c3289bbc104a275002430",
+    "translation_sha256": "d9d1cfc4855aecfa798769e238c98d67f4e278d26187e6175e85fe4f30d178c7",
+    "summary": "The original same-session full pass compared all 250 Arabic/en inventory units. Rechecked all nine actual repairs against their complete bound Arabic pairs and necessary neighboring context; the additional current repair places al-Qurtubi’s «3» with the second departure verb (“as did”). Verified the other 241 inventory unit objects, all non-text fields including source hashes on changed units, and the edition envelope are identical to the originally reviewed snapshot. Prior findings are resolved or, for stripped HTML narrator anchors, inapplicable under the plain-text translation contract. No remaining actionable semantic or answer defects found in this bound review; no independent native-language or scholarly approval, external source collation, or public-distribution approval is claimed.",
     "independent_language_approval": false,
     "specialist_approval": false,
-    "public_distribution_approved": false
+    "public_distribution_approved": false,
+    "translation_compared": true
   }
 }

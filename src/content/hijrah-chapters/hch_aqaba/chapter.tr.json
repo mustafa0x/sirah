@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_aqaba",
-  "revision": 2,
+  "revision": 3,
   "locale": "tr",
-  "arabic_sha256": "6a5998e5ba82b8e28bbbef59fb1e748a90fd2fa34cf2be529108e7fc80a29976",
-  "arabic_payload_sha256": "0dcea892d703622f07c60679d9e33d46f67b33c759d2201c47627812628d4991",
+  "arabic_sha256": "c84f8945ab18e8ef24f6fcbbb6c42d50781992bb9f75628e14cd30dd15e87041",
+  "arabic_payload_sha256": "69c20fa731498b8a97094ceadcd3067d0ae0a0218052cace31cbef0c1c16cc92",
   "status": "translation_wip",
   "units": [
     {
@@ -262,11 +262,6 @@
       "text": "Bu haberdeki ilk buluşmaya Hazrec'den birkaç kişi katılmıştır."
     },
     {
-      "unit_id": "hch_aqaba_q_01:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Yanıt, İbn Hişâm'ın Sîre'sinden sunulan seçmelere dayanır; haberin bütün rivayet yollarına genellenemez. Genellemeden önce rivayetin sınırlarını gözetin."
-    },
-    {
       "unit_id": "hch_aqaba_q_01:a:text_ar",
       "source_text_sha256": "576ae946484d92a6fb8bcb0f6c701db442c0a1e5d858d1f3257ca90ea5a83011",
       "text": "Hazrec'den birkaç kişi"
@@ -305,11 +300,6 @@
       "unit_id": "hch_aqaba_q_02:explanation_ar",
       "source_text_sha256": "d69295cd5cc117ecd8bbbd1b5e7c8ee073d73af6b69575b030830f3f0f639b00",
       "text": "İbn İshak, Ensar'dan on iki erkeğin hac mevsimine gelip Akabe'de biat ettiğini belirtir; bu okumanın sorduğu sayı ve nitelik budur."
-    },
-    {
-      "unit_id": "hch_aqaba_q_02:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Yanıt, İbn Hişâm'ın Sîre'sinden sunulan seçmelere dayanır; haberin bütün rivayet yollarına genellenemez. Genellemeden önce rivayetin sınırlarını gözetin."
     },
     {
       "unit_id": "hch_aqaba_q_02:b:text_ar",
@@ -397,11 +387,6 @@
       "text": "İbn İshak'ın haberi Kur'an okutmayı, öğretmeyi ve dinî kavrayış kazandırmayı açıkça belirtir."
     },
     {
-      "unit_id": "hch_aqaba_q_04:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Yanıt, İbn Hişâm'ın Sîre'sinden sunulan seçmelere dayanır; haberin bütün rivayet yollarına genellenemez. Genellemeden önce rivayetin sınırlarını gözetin."
-    },
-    {
       "unit_id": "hch_aqaba_q_04:a:text_ar",
       "source_text_sha256": "1035d9cf4823b36a16723138b71faff65b6d49ff9f885a70855eb30e09370158",
       "text": "Kur'an okutmak ve İslam'ı öğretmek"
@@ -440,11 +425,6 @@
       "unit_id": "hch_aqaba_q_05:explanation_ar",
       "source_text_sha256": "9b32c36803bd30fb8a7cb5e5c0e9e3faa79254980700281e8d7172587d9b1e78",
       "text": "Rivayet önce itiraz edişini, ardından oturup Kur'an'ı dinleyişini anlatır."
-    },
-    {
-      "unit_id": "hch_aqaba_q_05:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Yanıt, İbn Hişâm'ın Sîre'sinden sunulan seçmelere dayanır; haberin bütün rivayet yollarına genellenemez. Genellemeden önce rivayetin sınırlarını gözetin."
     },
     {
       "unit_id": "hch_aqaba_q_05:b:text_ar",
@@ -532,11 +512,6 @@
       "text": "Kâ‘b yetmiş üç erkek ve iki kadından söz eder."
     },
     {
-      "unit_id": "hch_aqaba_q_07:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Yanıt, İbn Hişâm'ın Sîre'sinden sunulan seçmelere dayanır; haberin bütün rivayet yollarına genellenemez. Genellemeden önce rivayetin sınırlarını gözetin."
-    },
-    {
       "unit_id": "hch_aqaba_q_07:a:text_ar",
       "source_text_sha256": "7d2ac70edfebb31cdd273f5bae7b415a92842a57d5f2084cb41329cacb4981d3",
       "text": "Kendi kadınlarından iki kişi"
@@ -575,11 +550,6 @@
       "unit_id": "hch_aqaba_q_08:explanation_ar",
       "source_text_sha256": "383806c34427bd8f71602ce20171d9b7422d7f9a7e1a3354a23d002f8f22bbd2",
       "text": "Bu, ilk biatın maddeleri değil, Kâ‘b'ın rivayetindeki koruma taahhüdünün ifadesidir."
-    },
-    {
-      "unit_id": "hch_aqaba_q_08:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Yanıt, İbn Hişâm'ın Sîre'sinden sunulan seçmelere dayanır; haberin bütün rivayet yollarına genellenemez. Genellemeden önce rivayetin sınırlarını gözetin."
     },
     {
       "unit_id": "hch_aqaba_q_08:b:text_ar",
@@ -710,11 +680,6 @@
       "unit_id": "hch_aqaba_q_11:explanation_ar",
       "source_text_sha256": "fbbb07bf4b05da0ac1a1420392dfa360a9eac9997fa86883dc613f244708e160",
       "text": "Kâ‘b'ın rivayetinin devamı, savaşı başlatmayı reddedişi ve konaklara dönme emrini anar."
-    },
-    {
-      "unit_id": "hch_aqaba_q_11:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Yanıt, İbn Hişâm'ın Sîre'sinden sunulan seçmelere dayanır; haberin bütün rivayet yollarına genellenemez. Genellemeden önce rivayetin sınırlarını gözetin."
     },
     {
       "unit_id": "hch_aqaba_q_11:b:text_ar",
@@ -1654,7 +1619,7 @@
     {
       "unit_id": "sp_aqaba_chapter_12:p1:text_ar",
       "source_text_sha256": "0a39d7ced2ed4015ff7cbd666f2fb9a5c1c8624322cad417cbbc1eaaa464330e",
-      "text": "...onun elinden aldı. «Vallahi hiçbir işe yaramadığını görüyorum» dedi ve ikisinin yanına çıktı. Sa‘d onları rahat görünce, Üseyd'in asıl amacının kendisini ikisini dinlemeye yöneltmek olduğunu anladı. Yanlarında durup hakaret etti. Ardından Es‘ad b. Zürâre'ye: «Ey Ebû Ümâme! (Vallahi) [١] aramızdaki akrabalık olmasaydı benden böyle bir şey bekleyemezdin. Yerleşim yerimize hoşlanmadığımız şeyi getirecek misin?» dedi. Es‘ad b. Zürâre ise daha önce Mus‘ab b. Umeyr'e: «Ey Mus‘ab, vallahi kavminin ardındaki önder sana geliyor; sana uyarsa onların arasından iki kişi bile senden geri kalmaz» demişti. Mus‘ab Sa‘d'a: «Oturup dinlemez misin? Hoşuna gider ve istersen kabul edersin; hoşlanmazsan istemediğin şeyi senden uzak tutarız» dedi. Sa‘d «Adil davrandın» dedi. Mızrağı yere saplayıp oturdu. Mus‘ab ona İslam'ı sundu ve Kur'an okudu. İki nakilci: «Vallahi konuşmadan önce yüzünün aydınlanıp yumuşamasından Müslüman olduğunu anladık» dedi. Ardından Sa‘d ikisine: «İslam'a girip bu dine katılınca ne yaparsınız?» diye sordu. «Yıkanıp temizlenir, elbiselerini temizler, ardından hak şehadetini getirir ve iki rekât namaz kılarsın» dediler. Sa‘d kalkıp yıkandı, elbiselerini temizledi, hak şehadetini getirdi ve iki rekât namaz kıldı. Sonra mızrağını alarak Üseyd b. Hudayr ile kavminin meclisine yöneldi. Kavmi onun gelişini görünce «Vallahi Sa‘d yanınızdan ayrıldığı yüzle dönmüyor» dedi. Karşılarına dikilince «Ey Benî Abdüleşhel! Aranızdaki yerim hakkında ne düşünüyorsunuz?» diye sordu. «Önderimiz, (bizimle bağı en güçlü olanımız) [١], görüşçe en iyimiz, sezgisi en isabetli olanımızsın» dediler. Sa‘d: «Allah'a ve Resûlüne [٢] iman edinceye kadar erkekleriniz ve kadınlarınızla konuşmam bana haramdır» dedi. İkisi dedi ki: «Vallahi o akşam Benî Abdüleşhel'in yerleşiminde Müslüman olmayan ne erkek ne kadın kaldı.» Es‘ad ile Mus‘ab, Es‘ad b. Zürâre'nin evine döndü; Mus‘ab onun yanında kalıp insanları İslam'a çağırdı. Ensar'ın evleri arasında Müslüman erkek ve kadın bulunmayan ev kalmadı; ancak Benî Ümeyye b. Zeyd, Hatme, Vâil ve Vâkıf'ın evleri bunun dışındaydı. Bunlar Evsullah'tandı ve Evs b. Hârise soyundandı. Çünkü aralarında, şairleri ve sözünü dinleyip itaat ettikleri önderleri olan, Sayfî diye bilinen Ebû Kays b. Eslet vardı. O, onları..."
+      "text": "...onun elinden aldı. «Vallahi hiçbir işe yaramadığını görüyorum» dedi ve ikisinin yanına çıktı. Sa‘d onları rahat görünce, Üseyd'in asıl amacının kendisini ikisini dinlemeye yöneltmek olduğunu anladı. Yanlarında durup hakaret etti. Ardından Es‘ad b. Zürâre'ye: «Ey Ebû Ümâme! (Vallahi) [١] aramızdaki akrabalık olmasaydı benden böyle bir şey bekleyemezdin. Yerleşim yerimize hoşlanmadığımız şeyi getirecek misin?» dedi. Es‘ad b. Zürâre ise daha önce Mus‘ab b. Umeyr'e: «Ey Mus‘ab, vallahi kavminin ardındaki önder sana geliyor; sana uyarsa onların arasından iki kişi bile senden geri kalmaz» demişti. Mus‘ab Sa‘d'a: «Oturup dinlemez misin? Hoşuna gider ve istersen kabul edersin; hoşlanmazsan istemediğin şeyi senden uzak tutarız» dedi. Sa‘d «Adil davrandın» dedi. Mızrağı yere saplayıp oturdu. Mus‘ab ona İslam'ı sundu ve Kur'an okudu. İki nakilci: «Vallahi konuşmadan önce yüzünün aydınlanıp yumuşamasından Müslüman olduğunu anladık» dedi. Ardından Sa‘d ikisine: «Bir kimse Müslüman olup bu dine girmek isterse ne yapar?» diye sordu. «Yıkanıp temizlenir, elbiselerini temizler, ardından hak şehadetini getirir ve iki rekât namaz kılarsın» dediler. Sa‘d kalkıp yıkandı, elbiselerini temizledi, hak şehadetini getirdi ve iki rekât namaz kıldı. Sonra mızrağını alarak Üseyd b. Hudayr ile kavminin meclisine yöneldi. Kavmi onun gelişini görünce «Vallahi Sa‘d yanınızdan ayrıldığı yüzle dönmüyor» dedi. Karşılarına dikilince «Ey Benî Abdüleşhel! Aranızdaki yerim hakkında ne düşünüyorsunuz?» diye sordu. «Önderimiz, (bizimle bağı en güçlü olanımız) [١], görüşçe en iyimiz, sezgisi en isabetli olanımızsın» dediler. Sa‘d: «Allah'a ve Resûlüne [٢] iman edinceye kadar erkeklerinizin ve kadınlarınızın benimle konuşması bana haramdır» dedi. İkisi dedi ki: «Vallahi o akşam Benî Abdüleşhel'in yerleşiminde Müslüman olmayan ne erkek ne kadın kaldı.» Es‘ad ile Mus‘ab, Es‘ad b. Zürâre'nin evine döndü; Mus‘ab onun yanında kalıp insanları İslam'a çağırdı. Ensar'ın evleri arasında Müslüman erkek ve kadın bulunmayan ev kalmadı; ancak Benî Ümeyye b. Zeyd, Hatme, Vâil ve Vâkıf'ın evleri bunun dışındaydı. Bunlar Evsullah'tandı ve Evs b. Hârise soyundandı. Çünkü aralarında, şairleri ve sözünü dinleyip itaat ettikleri önderleri olan, Sayfî diye bilinen Ebû Kays b. Eslet vardı. O, onları..."
     },
     {
       "unit_id": "sp_aqaba_chapter_13:p1:kind_ar",
@@ -2374,7 +2339,7 @@
     {
       "unit_id": "sp_aqaba_chapter_21:p3:text_ar",
       "source_text_sha256": "e6cca194d97a93435dfe5c502c04667ca98a6c677cc4168165bd35b2ed36f4b3",
-      "text": "Berâ b. Ma‘rûr onun elini tutup şöyle dedi: «Evet; seni hak ile (peygamber olarak) [١] gönderen Allah'a yemin olsun, kadınlarımızı [٢] koruduğumuz şeylerden seni de koruyacağız. Ey Resûlullah, biatımızı al! Vallahi biz savaşlarda yetişmiş, silah kullanmayı bilen [٤] insanlarız [٣]; bunu büyüklerimizden (kuşaktan kuşağa) [١] miras aldık.» Anlatıcı dedi ki: Berâ, Resûlullah ﷺ ile konuşurken Ebû Heysem b. Teyyihân [٥] söze girdi: «Ey Resûlullah! Bazı adamlarla aramızda bağlar var, onları koparacağız» —Yahudileri kastediyordu.— «Bunu yapıp ardından Allah sana üstünlük verirse kendi kavmine dönüp bizi bırakır mısın?» Resûlullah ﷺ tebessüm edip şöyle dedi:"
+      "text": "Berâ b. Ma‘rûr onun elini tutup şöyle dedi: «Evet; seni hak ile (peygamber olarak) [١] gönderen Allah'a yemin olsun, kadınlarımızı [٢] koruduğumuz şeylerden seni de koruyacağız. Ey Resûlullah, biatımızı al! Vallahi biz savaşlarda yetişmiş, zırh ve savaş donanımı sahibi [٤] insanlarız [٣]; bunu büyüklerimizden (kuşaktan kuşağa) [١] miras aldık.» Anlatıcı dedi ki: Berâ, Resûlullah ﷺ ile konuşurken Ebû Heysem b. Teyyihân [٥] söze girdi: «Ey Resûlullah! Bazı adamlarla aramızda bağlar var, onları koparacağız» —Yahudileri kastediyordu.— «Bunu yapıp ardından Allah sana üstünlük verirse kendi kavmine dönüp bizi bırakır mısın?» Resûlullah ﷺ tebessüm edip şöyle dedi:"
     },
     {
       "unit_id": "sp_aqaba_chapter_21:p4:kind_ar",
@@ -2404,7 +2369,7 @@
     {
       "unit_id": "sp_aqaba_chapter_21:p4:text_ar",
       "source_text_sha256": "b84ba2778b005c27da7de6a36b4a29f75306598d04e31efa5f06b89901e13e0e",
-      "text": "«Hayır; kanınız kanım, yıkımınız yıkımımdır [٦]. Ben sizdenim, siz de bendensiniz; sizin savaştıklarınızla savaşır, barış yaptıklarınızla barış yaparım.»"
+      "text": "«Hayır; kanınız kanım, dokunulmazlığınız dokunulmazlığımdır [٦]. Ben sizdenim, siz de bendensiniz; sizin savaştıklarınızla savaşır, barış yaptıklarınızla barış yaparım.» Burada «الْهَدْمَ الْهَدْمَ» için verilen dokunulmazlık karşılığı, İbn Hişâm’ın aşağıda «denir ki» diyerek aktardığı yorumlardan birini izler."
     },
     {
       "unit_id": "sp_aqaba_chapter_22:p1:kind_ar",
@@ -3064,7 +3029,7 @@
     {
       "unit_id": "sp_aqaba_chapter_28:p1:text_ar",
       "source_text_sha256": "a8c7bf611e1a9cc8e1bd62c6537334f7b8cf1745c780fb2653be67a386aea811",
-      "text": "(Anlatıcı dedi ki) [٢]: Sabah olduğunda Kureyş'in ileri gelenleri erkenden konaklarımıza geldi: «Ey Hazrecliler! Siz bizim bu adamımızı aramızdan çıkarıp bizimle savaşmak üzere ona biat etmek için gelmişsiniz diye haber aldık. Vallahi sizinle aramızda savaş çıkmasından daha çok çekindiğimiz başka bir Arap topluluğu yoktur» dediler. Kavmimizden orada bulunan müşrikler kalkıp vallahi böyle bir şey olmadığına ve bundan haberdar olmadıklarına yemin etti. Doğru söylediler; gerçekten bilmiyorlardı. Biz birbirimize bakıyorduk. Sonra topluluk ayağa kalktı; aralarında Mahzûmlu Hâris b. Hişâm b. Muğîre de vardı; ayağında yeni bir çift ayakkabı [٣] bulunuyordu. Ebû Câbir'e, sanki diğerlerinin söylediğine katılmasını ister gibi şöyle dedim: «Ey Ebû Câbir, önderlerimizden birisin; şu Kureyşli gencin ayakkabıları gibi ayakkabılar edinemiyor musun?» Hâris bunu duyup ayakkabılarını çıkararak bana attı: «Vallahi bunları giyeceksin!» dedi. Ebû Câbir: «Sus, vallahi genci kızdırdın [٤]; ayakkabılarını geri ver!» dedi. «Vallahi geri vermem [٥]; bu iyi bir alamet. Alamet doğru çıkarsa onu ganimet olarak alacağım» dedim."
+      "text": "(Anlatıcı dedi ki) [٢]: Sabah olduğunda Kureyş'in ileri gelenleri erkenden konaklarımıza geldi: «Ey Hazrecliler! Siz bizim bu adamımızı aramızdan çıkarıp bizimle savaşmak üzere ona biat etmek için gelmişsiniz diye haber aldık. Vallahi sizinle aramızda savaş çıkmasından daha çok çekindiğimiz başka bir Arap topluluğu yoktur» dediler. Kavmimizden orada bulunan müşrikler kalkıp vallahi böyle bir şey olmadığına ve bundan haberdar olmadıklarına yemin etti. Doğru söylediler; gerçekten bilmiyorlardı. Biz birbirimize bakıyorduk. Sonra topluluk ayağa kalktı; aralarında Mahzûmlu Hâris b. Hişâm b. Muğîre de vardı; ayağında yeni bir çift ayakkabı [٣] bulunuyordu. Ebû Câbir'e, sanki diğerlerinin söylediğine katılmasını ister gibi şöyle dedim: «Ey Ebû Câbir, önderlerimizden birisin; şu Kureyşli gencin ayakkabıları gibi ayakkabılar edinemiyor musun?» Hâris bunu duyup ayakkabılarını çıkararak bana attı: «Vallahi bunları giyeceksin!» dedi. Ebû Câbir: «Sus, vallahi genci kızdırdın [٤]; ayakkabılarını geri ver!» dedi. «Vallahi geri vermem [٥]; bu iyi bir alamet. Alamet doğru çıkarsa ondan ganimet alacağım» dedim."
     },
     {
       "unit_id": "sp_aqaba_chapter_28:p2:kind_ar",
@@ -3304,7 +3269,7 @@
     {
       "unit_id": "sp_aqaba_chapter_25:p1:text_ar",
       "source_text_sha256": "ffbbfcdf97adcb597ed86aebef9033b5d21715ec00242626c69fe0479e856089",
-      "text": "Resûlullah ﷺ'e biat edince şeytan, Akabe'nin tepesinden şimdiye dek duyduğum en keskin sesle haykırdı: «Ey Cübâcib halkı!» —Cübâcib, konaklama yerleridir [٣].— «Sizinle savaşmak üzere toplanmış olan şu Müzzemmem [٤] ve onun yanındaki din değiştirenlerden [٥] haberiniz var mı?» Resûlullah ﷺ şöyle dedi:"
+      "text": "Resûlullah ﷺ'e biat edince şeytan, Akabe'nin tepesinden şimdiye dek duyduğum en keskin sesle haykırdı: «Ey Cübâcib halkı!» —Cübâcib, konaklama yerleridir [٣].— «Şu Müzzemmem [٤] ve onun yanındaki din değiştirenlerle [٥] yüzleşmeye var mısınız? Onlar sizinle savaşmak üzere toplanmışlar!» Buradaki Müzzemmem, Peygamber ﷺ için kullanılan aşağılayıcı lakaptır. Resûlullah ﷺ şöyle dedi:"
     },
     {
       "unit_id": "sp_aqaba_chapter_25:p2:kind_ar",
@@ -3334,7 +3299,7 @@
     {
       "unit_id": "sp_aqaba_chapter_25:p2:text_ar",
       "source_text_sha256": "faf685f7963ed00e36d303603cd04f231fe0e476fe039843ecb78b25e26e395c",
-      "text": "«Bu, Akabe'nin Ezebb'i [٦], Ezyeb'in oğludur.»"
+      "text": "«Bu, Akabe'nin kıllı Ezebb'i [٦], Ezyeb'in oğludur.»"
     },
     {
       "unit_id": "sp_aqaba_chapter_25:p3:kind_ar",
@@ -3485,7 +3450,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "280df08a0b2485898c93e1522289c2847683f3455a46fc46e2512491ec65c5cb",
+  "translation_sha256": "5500e18c050fcecfe98fb27f595023bf5cba0e917ad615b3d79bba5579738c8c",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

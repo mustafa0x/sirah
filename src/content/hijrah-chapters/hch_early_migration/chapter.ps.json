@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_early_migration",
-  "revision": 2,
+  "revision": 4,
   "locale": "ps",
-  "arabic_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1",
-  "arabic_payload_sha256": "7026fa541f1b09909dd667f9dfd4943d1f8ad94edba11fe6f3624cb462ec7b91",
+  "arabic_sha256": "e18400aaf11f81903d7ee940d609b9e61fda9a47b3bc564980e9b70a272b58f5",
+  "arabic_payload_sha256": "9cc61dd031ad2e92931733d69e36594224652eb19b8f8d48a34a44e5cd14a075",
   "status": "translation_wip",
   "units": [
     {
@@ -348,8 +348,8 @@
     },
     {
       "unit_id": "hch_early_migration_q_first:prompt_ar",
-      "source_text_sha256": "3799820e19e4c80d7b689108fb36bac9e494f2f7c898879799e2ed79729fe434",
-      "text": "د ابن اسحاق د ابو سلمه د لومړي بللو او د براء د «لومړي کسان چې موږ ته راغلل» خبرې سره څنګه چلند کوو؟"
+      "source_text_sha256": "4ececd137bb37a9e828208d5e40ad4148d498f277826d17a80f502cd4a24d1b9",
+      "text": "د ابو سلمه په اړه د ابن اسحاق روایت د براء له دې وینا «زموږ لور ته لومړی راغلی» سره څه توپیر لري؟"
     },
     {
       "unit_id": "hch_early_migration_q_first:explanation_ar",
@@ -663,8 +663,8 @@
     },
     {
       "unit_id": "hch_early_migration_q_places:prompt_ar",
-      "source_text_sha256": "220e474b7491c4ee8815adb97135af5616a9dcf81349bab0adf2a436066fd5b8",
-      "text": "د بیهقي په متن او د ابن سعد په دوام کې د سالم د امامت ځای څنګه لولو؟"
+      "source_text_sha256": "d7d5b7d64111be6295a872e2cdfea5ed46b44529ca7e9cfa4f0dfda044b6eeaf",
+      "text": "د بیهقي له لوري د ابن عمر په روایت کې کوم ځای نومول شوی، او د ابن سعد په پاتې روایت کې کوم ځای؟"
     },
     {
       "unit_id": "hch_early_migration_q_places:explanation_ar",
@@ -1890,6 +1890,21 @@
       "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:text_ar",
       "source_text_sha256": "904063dc4e2de677f4704f3ad49e2983bb233a92f331230b959495525f72300f",
       "text": "چې مدینې ته ورسېده. بیا د رسول الله ﷺ اصحاب ډلې ډلې راغلل، د انصارو په کورونو کې مېشت شول؛ هغوی ځای ورکړ، مرسته یې وکړه او ورسره یې مال شریك کړ. د رسول الله ﷺ تر راتګ مخکې د ابو حذیفه آزادشوي سالم په قبا کې د مهاجرینو امامت کاوه (^۱). کله چې مسلمانان مدینې ته په هجرت ووتل، قریش یې په وړاندې سخت په غوسه شول او له وتونکو ځوانانو سره یې دښمني وکړه. د انصارو ځینو کسانو په وروستۍ عقبه کې له رسول الله ﷺ سره بیعت کړی او بیا مدینې ته ستانه شوي وو؛ کله چې لومړني مهاجر قبا ته ورسېدل، دوی په مکه کې رسول الله ﷺ ته ورغلل، څو له اصحابو سره یې په هجرت کې راغلل. دوی انصاري مهاجرین دي: ذکوان بن عبد قیس، عقبه بن وهب بن کلده، عباس بن عباده بن نضله او زیاد بن لبید. ټول مسلمانان مدینې ته ووتل؛ په مکه کې له دوی رسول الله ﷺ، ابو بکر او علي پاتې شول، یا هغه څوک چې په فتنه کې ایسار او بندي وو، ناروغ وو یا د وتلو وس نه درلود (^۲)."
+    },
+    {
+      "unit_id": "hch_early_migration_intro:title_ar",
+      "source_text_sha256": "01cefa2b6a6f22803e3479cd4cfff5ae6838255788a86a589b84dc2f04bef51b",
+      "text": "هجرت څه وه، او مسلمانان ولې له مکې ووتل؟"
+    },
+    {
+      "unit_id": "hch_early_migration_intro_1:text_ar",
+      "source_text_sha256": "056db821705adb992821ccc5aa196205bbdaeb04a26a8c8d368759ca24afd203",
+      "text": "هجرت د پېغمبر محمد ﷺ او د هغه د ملګرو له مکې څخه مدینې ته کډه وه. په مکه کې ځینې مسلمانان ځورول کېدل. په مدینه کې ځینو خلکو تر دې مخکې اسلام منلی و، نو له مکې راغلو کسانو د مؤمنو ملګرو یوې ټولنې ته د ورګډېدو ځای درلود."
+    },
+    {
+      "unit_id": "hch_early_migration_intro_2:text_ar",
+      "source_text_sha256": "52e1bf98306eee6827e15b295aa44698cd812704d5e14bd92cf39750eedccbb9",
+      "text": "د پېغمبر ﷺ ځینې ملګري له هغه مخکې مدینې ته ولاړل. د هغوی وتل اسانه نه وو: ځینې له خپلو کورنیو جلا شول، یو کس تړلی بېرته راوستل شو، او بل خپل مال ورکړ څو لاره ورته خلاصه شي."
     }
   ],
   "reading_editions": [
@@ -1920,7 +1935,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "3714fd93bb2cfa8bc984d157324fd9a952264557eb52ff56362ca1eabf7d88fb",
+  "translation_sha256": "da59101490700ab00158050fe6945731785835e64d83fe204021a723d59aca11",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

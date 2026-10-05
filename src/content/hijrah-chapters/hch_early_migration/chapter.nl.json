@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_early_migration",
-  "revision": 2,
+  "revision": 4,
   "locale": "nl",
-  "arabic_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1",
-  "arabic_payload_sha256": "7026fa541f1b09909dd667f9dfd4943d1f8ad94edba11fe6f3624cb462ec7b91",
+  "arabic_sha256": "e18400aaf11f81903d7ee940d609b9e61fda9a47b3bc564980e9b70a272b58f5",
+  "arabic_payload_sha256": "9cc61dd031ad2e92931733d69e36594224652eb19b8f8d48a34a44e5cd14a075",
   "status": "translation_wip",
   "units": [
     {
@@ -348,8 +348,8 @@
     },
     {
       "unit_id": "hch_early_migration_q_first:prompt_ar",
-      "source_text_sha256": "3799820e19e4c80d7b689108fb36bac9e494f2f7c898879799e2ed79729fe434",
-      "text": "Hoe moeten we omgaan met Ibn Ishaqs voorrang voor Abu Salama en al-Bara’s uitspraak ‘de eersten die bij ons aankwamen’?"
+      "source_text_sha256": "4ececd137bb37a9e828208d5e40ad4148d498f277826d17a80f502cd4a24d1b9",
+      "text": "Waarin verschilt Ibn Ishaqs weergave van Abu Salama van al-Bara’s woorden: “de eerste die bij ons aankwam”?"
     },
     {
       "unit_id": "hch_early_migration_q_first:explanation_ar",
@@ -663,8 +663,8 @@
     },
     {
       "unit_id": "hch_early_migration_q_places:prompt_ar",
-      "source_text_sha256": "220e474b7491c4ee8815adb97135af5616a9dcf81349bab0adf2a436066fd5b8",
-      "text": "Hoe lezen we de plaats waar Salim voorging in het gebed in de tekst bij al-Bayhaqi en het vervolg bij Ibn Sad?"
+      "source_text_sha256": "d7d5b7d64111be6295a872e2cdfea5ed46b44529ca7e9cfa4f0dfda044b6eeaf",
+      "text": "Welke plaats wordt genoemd in Ibn Umar’s bericht bij al-Bayhaqi, en welke in het vervolg van Ibn Sa‘d?"
     },
     {
       "unit_id": "hch_early_migration_q_places:explanation_ar",
@@ -1890,6 +1890,21 @@
       "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:text_ar",
       "source_text_sha256": "904063dc4e2de677f4704f3ad49e2983bb233a92f331230b959495525f72300f",
       "text": "die Medina bereikte. Daarna kwamen de metgezellen van de Boodschapper van God ﷺ in groepjes. Ze verbleven bij de Ansar in hun huizen; die boden hun onderdak, hielpen en ondersteunden hen. Salim, de vrijgelatene van Abu Hudhayfa, ging de migranten in Quba voor in het gebed vóór de komst van de Boodschapper van God ﷺ (1). Toen de moslims tijdens hun emigratie naar Medina vertrokken, keerden de Quraisj zich fel tegen hen, voerden strijd en waren woedend over het vertrek van hun jonge mannen. Een aantal Ansar had de Boodschapper van God ﷺ bij de laatste eed van al-Aqaba trouw gezworen en was daarna naar Medina teruggekeerd. Toen de eerste emigranten in Quba aankwamen, gingen zij naar de Boodschapper van God ﷺ in Mekka en kwamen met zijn metgezellen mee tijdens de emigratie. Zij waren dus zowel migranten als Ansar: Dhakwan ibn Abd Qays, Uqba ibn Wahb ibn Kalada, al-Abbas ibn Ubada ibn Nadla en Ziyad ibn Labid. De moslims vertrokken allen naar Medina; in Mekka bleven onder hen slechts de Boodschapper van God ﷺ, Abu Bakr en Ali achter, of mensen die door beproeving gevangen werden gehouden, ziek waren of niet sterk genoeg waren om te vertrekken (2)."
+    },
+    {
+      "unit_id": "hch_early_migration_intro:title_ar",
+      "source_text_sha256": "01cefa2b6a6f22803e3479cd4cfff5ae6838255788a86a589b84dc2f04bef51b",
+      "text": "Wat was de hidjra, en waarom verlieten moslims Mekka?"
+    },
+    {
+      "unit_id": "hch_early_migration_intro_1:text_ar",
+      "source_text_sha256": "056db821705adb992821ccc5aa196205bbdaeb04a26a8c8d368759ca24afd203",
+      "text": "De hidjra was de migratie van de Profeet Mohammed ﷺ en zijn volgelingen van Mekka naar Medina. Sommige moslims werden in Mekka slecht behandeld. In Medina hadden mensen de islam al aanvaard; wie uit Mekka kwam, kon zich daar aansluiten bij een gemeenschap van medegelovigen."
+    },
+    {
+      "unit_id": "hch_early_migration_intro_2:text_ar",
+      "source_text_sha256": "52e1bf98306eee6827e15b295aa44698cd812704d5e14bd92cf39750eedccbb9",
+      "text": "Sommige metgezellen van de Profeet ﷺ gingen vóór hem naar Medina. Hun vertrek verliep niet zonder moeilijkheden: sommigen werden van hun familie gescheiden, één werd geboeid teruggebracht en één stond zijn bezit af om vrij te kunnen vertrekken."
     }
   ],
   "reading_editions": [
@@ -1920,7 +1935,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "aab8bb864b235282dca1aa0cf8aeb1bafdacd424e2472a13296df7b709caa404",
+  "translation_sha256": "455e212039def07fdd4388c782369269327f2e5c184020170a656456dfbfba83",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

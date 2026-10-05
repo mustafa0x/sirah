@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_early_migration",
-  "revision": 2,
+  "revision": 4,
   "locale": "hi",
-  "arabic_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1",
-  "arabic_payload_sha256": "7026fa541f1b09909dd667f9dfd4943d1f8ad94edba11fe6f3624cb462ec7b91",
+  "arabic_sha256": "e18400aaf11f81903d7ee940d609b9e61fda9a47b3bc564980e9b70a272b58f5",
+  "arabic_payload_sha256": "9cc61dd031ad2e92931733d69e36594224652eb19b8f8d48a34a44e5cd14a075",
   "status": "translation_wip",
   "units": [
     {
@@ -348,8 +348,8 @@
     },
     {
       "unit_id": "hch_early_migration_q_first:prompt_ar",
-      "source_text_sha256": "3799820e19e4c80d7b689108fb36bac9e494f2f7c898879799e2ed79729fe434",
-      "text": "अबू सलमा को आगे रखने वाले इब्न इसहाक़ के कथन और बरा के ‘हमारे पास सबसे पहले आए’ के कथन को कैसे समझें?"
+      "source_text_sha256": "4ececd137bb37a9e828208d5e40ad4148d498f277826d17a80f502cd4a24d1b9",
+      "text": "अबू सलमा के आने के बारे में इब्न इसहाक़ का बयान, बरा के शब्द ‘हमारे पास सबसे पहले आने वाले’ से कैसे अलग है?"
     },
     {
       "unit_id": "hch_early_migration_q_first:explanation_ar",
@@ -663,8 +663,8 @@
     },
     {
       "unit_id": "hch_early_migration_q_places:prompt_ar",
-      "source_text_sha256": "220e474b7491c4ee8815adb97135af5616a9dcf81349bab0adf2a436066fd5b8",
-      "text": "बैहक़ी के पाठ और इब्न साद के अगले अंश में सालिम के नमाज़ पढ़ाने की जगह को कैसे पढ़ें?"
+      "source_text_sha256": "d7d5b7d64111be6295a872e2cdfea5ed46b44529ca7e9cfa4f0dfda044b6eeaf",
+      "text": "अल-बैहक़ी के यहाँ इब्न उमर की रिवायत किस जगह का नाम लेती है, और इब्न सअद का आगे का वर्णन किस जगह का?"
     },
     {
       "unit_id": "hch_early_migration_q_places:explanation_ar",
@@ -1890,6 +1890,21 @@
       "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:text_ar",
       "source_text_sha256": "904063dc4e2de677f4704f3ad49e2983bb233a92f331230b959495525f72300f",
       "text": "पहुँचीं। फिर रसूलुल्लाह ﷺ के साथी टोलियों में आए और अंसार के घरों में उनके यहाँ ठहरे। अंसार ने उन्हें आश्रय, सहायता और सहारा दिया। नबी ﷺ के पहुँचने से पहले अबू हुज़ैफ़ा के मुक्तदास सालिम क़ुबा में प्रवासियों को नमाज़ पढ़ाते थे (^१)। जब मुसलमान मदीना की हिजरत में निकले, तो क़ुरैश उनके प्रति उग्र और लड़ाई पर आमादा हो गए और अपने यहाँ से निकलने वाले युवकों पर क्रोधित हुए। अंसार के कुछ लोगों ने अंतिम अक़बा पर रसूलुल्लाह ﷺ से बैअत की थी और फिर मदीना लौट आए थे। जब सबसे पहले प्रवासी क़ुबा पहुँचे, तो वे मक्का में रसूलुल्लाह ﷺ के पास गए और उनके साथियों के साथ हिजरत करके पहुँचे। इसलिए वे प्रवासी अंसार हैं: ज़कवान बिन अब्द क़ैस, उक़बा बिन वह्ब बिन कलदा, अब्बास बिन उबादा बिन नज़ला और ज़ियाद बिन लबीद। सभी मुसलमान मदीना के लिए निकल गए। मक्का में उनमें से रसूलुल्लाह ﷺ, अबू बक्र और अली के अलावा केवल वे लोग रह गए जो परीक्षा में डालकर बंदी बनाए गए थे, बीमार थे या निकलने में असमर्थ थे (^२)।"
+    },
+    {
+      "unit_id": "hch_early_migration_intro:title_ar",
+      "source_text_sha256": "01cefa2b6a6f22803e3479cd4cfff5ae6838255788a86a589b84dc2f04bef51b",
+      "text": "हिजरत क्या थी, और मुसलमान मक्का से क्यों निकले?"
+    },
+    {
+      "unit_id": "hch_early_migration_intro_1:text_ar",
+      "source_text_sha256": "056db821705adb992821ccc5aa196205bbdaeb04a26a8c8d368759ca24afd203",
+      "text": "हिजरत पैग़म्बर मुहम्मद ﷺ और उनके साथियों का मक्का से मदीना जाना था। मक्का में कुछ मुसलमानों को तकलीफ़ पहुँचाई जाती थी। मदीना में कुछ लोग पहले ही इस्लाम स्वीकार कर चुके थे, इसलिए मक्का से आने वालों के पास जुड़ने के लिए साथी ईमान वालों का एक समुदाय था।"
+    },
+    {
+      "unit_id": "hch_early_migration_intro_2:text_ar",
+      "source_text_sha256": "52e1bf98306eee6827e15b295aa44698cd812704d5e14bd92cf39750eedccbb9",
+      "text": "नबी ﷺ के कुछ साथी उनसे पहले मदीना गए। उनका जाना आसान नहीं था: कुछ अपने परिवारों से अलग कर दिए गए, एक को बाँधकर वापस ले जाया गया, और एक ने अपना रास्ता खुलवाने के लिए अपनी संपत्ति दे दी।"
     }
   ],
   "reading_editions": [
@@ -1920,7 +1935,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "ffc5bc69e3a3235432a61e1fefb4ff59529e81dc11b6239b7d56ef4451a0f367",
+  "translation_sha256": "22e3aad8d8df4902cc9d84fd80b78ba31bce7b7e5c38fff08fc1c2ab49137154",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

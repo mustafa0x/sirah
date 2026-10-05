@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_early_migration",
-  "revision": 2,
+  "revision": 4,
   "locale": "so",
-  "arabic_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1",
-  "arabic_payload_sha256": "7026fa541f1b09909dd667f9dfd4943d1f8ad94edba11fe6f3624cb462ec7b91",
+  "arabic_sha256": "e18400aaf11f81903d7ee940d609b9e61fda9a47b3bc564980e9b70a272b58f5",
+  "arabic_payload_sha256": "9cc61dd031ad2e92931733d69e36594224652eb19b8f8d48a34a44e5cd14a075",
   "status": "translation_wip",
   "units": [
     {
@@ -348,8 +348,8 @@
     },
     {
       "unit_id": "hch_early_migration_q_first:prompt_ar",
-      "source_text_sha256": "3799820e19e4c80d7b689108fb36bac9e494f2f7c898879799e2ed79729fe434",
-      "text": "Sidee baynu u fahannaa in Ibnu Isxaaq Abuu Salama hormariyay, iyo hadalka Al-Baraa' ee “Kuwii ugu horreeyay ee noo yimid”?"
+      "source_text_sha256": "4ececd137bb37a9e828208d5e40ad4148d498f277826d17a80f502cd4a24d1b9",
+      "text": "Sidee u kala duwan yihiin sida Ibnu Isxaaq u soo hormariyey Abuu Salama iyo hadalka al-Baraa ee ah “أَوَّلُ مَنْ قَدِمَ عَلَيْنَا”?"
     },
     {
       "unit_id": "hch_early_migration_q_first:explanation_ar",
@@ -663,8 +663,8 @@
     },
     {
       "unit_id": "hch_early_migration_q_places:prompt_ar",
-      "source_text_sha256": "220e474b7491c4ee8815adb97135af5616a9dcf81349bab0adf2a436066fd5b8",
-      "text": "Sidee baynu u akhrinnaa goobtii Saalim salaadda ku tujiyay ee qoraalka Al-Bayhaqi iyo qaybta xigta ee Ibnu Sacad?"
+      "source_text_sha256": "d7d5b7d64111be6295a872e2cdfea5ed46b44529ca7e9cfa4f0dfda044b6eeaf",
+      "text": "Meesha ayuu magacaabayaa warka Ibnu Cumar ee al-Bayhaqi, meeshase ayay magacaabaysaa qaybta dheeriga ah ee Ibnu Sacd?"
     },
     {
       "unit_id": "hch_early_migration_q_places:explanation_ar",
@@ -1890,6 +1890,21 @@
       "unit_id": "sp_earlier_exp_h_146_238_early_migrants:p1:text_ar",
       "source_text_sha256": "904063dc4e2de677f4704f3ad49e2983bb233a92f331230b959495525f72300f",
       "text": "Madiina timaadda. Dabadeed saxaabadii Rasuulka Alle ﷺ waxay yimaadeen kooxo kala dambeeya, waxayna degeen guryihii Ansaarta, kuwaas oo hoy siiyay, u hiiliyay, hantidoodana la wadaagay. Saalim, mawlihii Abuu Xudayfa, ayaa muhaajiriinta Qubaa salaadda u tujin jiray ka hor inta Rasuulka Alle ﷺ iman (1). Markay muslimiintu hijradooda Madiina u baxeen, Quraysh way ku cadhoodeen oo la coloobeen kuwii dhallinyaradooda ka baxay. Waxaa jiray rag Ansaarta ka tirsan oo Rasuulka Alle ﷺ kula baycamay Caqabadii dambe, dabadeedna Madiina ku noqday; markii kuwii ugu horreeyay ee Qubaa u hijrooday yimaadeen, waxay Makka ugu tageen Rasuulka Alle ﷺ ilaa ay saxaabadiisa la yimaadeen hijrada, sidaasna waxay ahaayeen muhaajiriin Ansaar ah. Waxay ahaayeen Dhakwaan bin Cabd Qays, Cuqba bin Wahb bin Kalda, Al-Cabbaas bin Cubaada bin Nadla iyo Ziyaad bin Labiid. Muslimiintii dhammaantood Madiina ayay u baxeen; Makka kama hadhin, marka laga reebo Rasuulka Alle ﷺ, Abuu Bakar iyo Cali, ama qof fitno lagu riday oo la xiray, qof buka, ama mid tabar daran oo aan bixi karin (2)."
+    },
+    {
+      "unit_id": "hch_early_migration_intro:title_ar",
+      "source_text_sha256": "01cefa2b6a6f22803e3479cd4cfff5ae6838255788a86a589b84dc2f04bef51b",
+      "text": "Hijradu maxay ahayd, maxayse Muslimiintu Maka uga baxeen?"
+    },
+    {
+      "unit_id": "hch_early_migration_intro_1:text_ar",
+      "source_text_sha256": "056db821705adb992821ccc5aa196205bbdaeb04a26a8c8d368759ca24afd203",
+      "text": "Hijradu waxay ahayd u guuridda Nebi Muxammad ﷺ iyo raacayaashiisa ee Makka uga guureen Madiina. Muslimiinta qaarkood ayaa Makka lagu dhibi jiray. Madiina, dad ayaa hore u qaatay Islaamka, sidaas darteed dadkii Makka ka yimid waxay ku biiri kareen bulsho ay leeyihiin mu’miniinta kale."
+    },
+    {
+      "unit_id": "hch_early_migration_intro_2:text_ar",
+      "source_text_sha256": "52e1bf98306eee6827e15b295aa44698cd812704d5e14bd92cf39750eedccbb9",
+      "text": "Qaar ka mid ah saxaabadii Nebiga ﷺ ayaa isaga ka hor tegay Madiina. Safarradoodu ma sahlanayn: qaar ayaa ehelkooda laga kala geeyay, mid ayaa isagoo xidhan dib loo celiyay, mid kalena maalkiisii ayuu bixiyay si jidka loogu baneeyo."
     }
   ],
   "reading_editions": [
@@ -1920,7 +1935,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "a69d950390369a9a99b38d2c0317085f047918311293cf4a90a1cf2a8ca53952",
+  "translation_sha256": "d599e650631bffb4ceb4bec55d91edd58f23d51148df357f8efb01f0d7d753a6",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_aqaba",
-  "revision": 2,
+  "revision": 3,
   "locale": "de",
-  "arabic_sha256": "6a5998e5ba82b8e28bbbef59fb1e748a90fd2fa34cf2be529108e7fc80a29976",
-  "arabic_payload_sha256": "0dcea892d703622f07c60679d9e33d46f67b33c759d2201c47627812628d4991",
+  "arabic_sha256": "c84f8945ab18e8ef24f6fcbbb6c42d50781992bb9f75628e14cd30dd15e87041",
+  "arabic_payload_sha256": "69c20fa731498b8a97094ceadcd3067d0ae0a0218052cace31cbef0c1c16cc92",
   "status": "translation_wip",
   "units": [
     {
@@ -262,11 +262,6 @@
       "text": "Eine Gruppe aus dem Stamm Khazradsch nahm nach diesem Bericht an der ersten Begegnung teil."
     },
     {
-      "unit_id": "hch_aqaba_q_01:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Die Antwort bezieht sich auf die gezeigten Auszüge aus der Sīra Ibn Hischāms; sie gilt nicht pauschal für alle Überlieferungswege. Lies die Grenzen des Berichts, bevor du ihn verallgemeinerst."
-    },
-    {
       "unit_id": "hch_aqaba_q_01:a:text_ar",
       "source_text_sha256": "576ae946484d92a6fb8bcb0f6c701db442c0a1e5d858d1f3257ca90ea5a83011",
       "text": "Eine Gruppe aus dem Stamm Khazradsch"
@@ -305,11 +300,6 @@
       "unit_id": "hch_aqaba_q_02:explanation_ar",
       "source_text_sha256": "d69295cd5cc117ecd8bbbd1b5e7c8ee073d73af6b69575b030830f3f0f639b00",
       "text": "Ibn Isḥāq erwähnt, dass zwölf Männer der Anṣār zur Pilgersaison kamen und bei ʿAqaba das Gelöbnis leisteten; nach dieser Zahl und Beschreibung fragt diese Lektüre."
-    },
-    {
-      "unit_id": "hch_aqaba_q_02:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Die Antwort bezieht sich auf die gezeigten Auszüge aus der Sīra Ibn Hischāms; sie gilt nicht pauschal für alle Überlieferungswege. Lies die Grenzen des Berichts, bevor du ihn verallgemeinerst."
     },
     {
       "unit_id": "hch_aqaba_q_02:b:text_ar",
@@ -397,11 +387,6 @@
       "text": "Ibn Isḥāqs Bericht nennt das Vortragen des Korans, die Lehre und die Unterweisung im Glauben."
     },
     {
-      "unit_id": "hch_aqaba_q_04:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Die Antwort bezieht sich auf die gezeigten Auszüge aus der Sīra Ibn Hischāms; sie gilt nicht pauschal für alle Überlieferungswege. Lies die Grenzen des Berichts, bevor du ihn verallgemeinerst."
-    },
-    {
       "unit_id": "hch_aqaba_q_04:a:text_ar",
       "source_text_sha256": "1035d9cf4823b36a16723138b71faff65b6d49ff9f885a70855eb30e09370158",
       "text": "Den Koran vortragen und den Islam lehren"
@@ -440,11 +425,6 @@
       "unit_id": "hch_aqaba_q_05:explanation_ar",
       "source_text_sha256": "9b32c36803bd30fb8a7cb5e5c0e9e3faa79254980700281e8d7172587d9b1e78",
       "text": "Der Bericht schildert zuerst seinen Widerspruch und dann, wie er sich setzte und den Koran hörte."
-    },
-    {
-      "unit_id": "hch_aqaba_q_05:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Die Antwort bezieht sich auf die gezeigten Auszüge aus der Sīra Ibn Hischāms; sie gilt nicht pauschal für alle Überlieferungswege. Lies die Grenzen des Berichts, bevor du ihn verallgemeinerst."
     },
     {
       "unit_id": "hch_aqaba_q_05:b:text_ar",
@@ -532,11 +512,6 @@
       "text": "Kaʿb erwähnt 73 Männer und zwei Frauen."
     },
     {
-      "unit_id": "hch_aqaba_q_07:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Die Antwort bezieht sich auf die gezeigten Auszüge aus der Sīra Ibn Hischāms; sie gilt nicht pauschal für alle Überlieferungswege. Lies die Grenzen des Berichts, bevor du ihn verallgemeinerst."
-    },
-    {
       "unit_id": "hch_aqaba_q_07:a:text_ar",
       "source_text_sha256": "7d2ac70edfebb31cdd273f5bae7b415a92842a57d5f2084cb41329cacb4981d3",
       "text": "Zwei Frauen aus ihrem Kreis"
@@ -575,11 +550,6 @@
       "unit_id": "hch_aqaba_q_08:explanation_ar",
       "source_text_sha256": "383806c34427bd8f71602ce20171d9b7422d7f9a7e1a3354a23d002f8f22bbd2",
       "text": "Dies ist die Schutzverpflichtung nach Kaʿbs Überlieferung, nicht die Bestimmungen des ersten Gelöbnisses."
-    },
-    {
-      "unit_id": "hch_aqaba_q_08:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Die Antwort bezieht sich auf die gezeigten Auszüge aus der Sīra Ibn Hischāms; sie gilt nicht pauschal für alle Überlieferungswege. Lies die Grenzen des Berichts, bevor du ihn verallgemeinerst."
     },
     {
       "unit_id": "hch_aqaba_q_08:b:text_ar",
@@ -710,11 +680,6 @@
       "unit_id": "hch_aqaba_q_11:explanation_ar",
       "source_text_sha256": "fbbb07bf4b05da0ac1a1420392dfa360a9eac9997fa86883dc613f244708e160",
       "text": "Kaʿbs Fortsetzung erwähnt die Ablehnung, einen Kampf zu beginnen, und den Befehl zur Rückkehr in die Lager."
-    },
-    {
-      "unit_id": "hch_aqaba_q_11:scope_note_ar",
-      "source_text_sha256": "ca5ad6ec56a11aa7637111fbc21a0bcb136b61cd64e1a44b9b2bc6e81753284c",
-      "text": "Die Antwort bezieht sich auf die gezeigten Auszüge aus der Sīra Ibn Hischāms; sie gilt nicht pauschal für alle Überlieferungswege. Lies die Grenzen des Berichts, bevor du ihn verallgemeinerst."
     },
     {
       "unit_id": "hch_aqaba_q_11:b:text_ar",
@@ -1624,7 +1589,7 @@
     {
       "unit_id": "sp_aqaba_chapter_11:p2:text_ar",
       "source_text_sha256": "a3f2f3c8f66ece0905a6cf6ab5f5f966d245624f6c8038ee158654d07cc5caff",
-      "text": "Die beiden sagten: An einem Brunnen, der Biʾr Maraq [١] hieß, setzten sie sich in den Garten, und Männer, die den Islam angenommen hatten, versammelten sich bei ihnen. Saʿd ibn Muʿādh und Usaid ibn Ḥuḍair waren damals die beiden führenden Männer ihres Volkes, der Banū ʿAbd al-Aschhal; beide waren noch Polytheisten und folgten der Religion ihres Volkes. Als sie von ihnen hörten, sagte Saʿd ibn Muʿādh zu Usaid ibn Ḥuḍair: „Was soll das? Geh zu diesen beiden Männern, die in unser Gebiet gekommen sind, um unsere Schwachen als töricht hinzustellen. Weise sie zurecht und verbiete ihnen, wieder in unser Gebiet zu kommen. Wäre Asʿad ibn Zurāra mir nicht so verwandt, wie du weißt, würde ich das für dich erledigen. Er ist der Sohn meiner Tante, und ich kann nicht gegen ihn vorgehen.“ Usaid ibn Ḥuḍair nahm seine Lanze und ging zu ihnen. Als Asʿad ibn Zurāra ihn sah, sagte er zu Musʿab ibn ʿUmair: „Da kommt der führende Mann seines Volkes zu dir. Sei Gott gegenüber aufrichtig in deinem Umgang mit ihm!“ Musʿab sagte: „Wenn er sich setzt, werde ich mit ihm sprechen.“ Usaid blieb vor den beiden stehen und beschimpfte sie: „Was führt euch zu uns, dass ihr unsere Schwachen als töricht hinstellt? Haltet euch von uns fern, wenn euch euer Leben lieb ist!“ Musʿab antwortete: „Willst du dich nicht setzen und zuhören? Wenn dir die Sache gefällt, nimmst du sie an; wenn sie dir missfällt, lassen wir dich mit dem, was du ablehnst, in Ruhe.“ Er sagte: „Das ist gerecht.“ Er steckte seine Lanze in den Boden und setzte sich zu ihnen. Musʿab sprach mit ihm über den Islam und trug ihm den Koran vor. Die beiden sagten – wie von ihnen erzählt wird –: „Bei Gott, wir erkannten den Islam in seinem Gesicht, noch bevor er sprach, an seinem Leuchten und seiner Offenheit.“ Dann sagte er: „Wie schön und trefflich diese Worte sind! Was tut ihr, wenn ihr dieser Religion beitreten wollt?“ Sie antworteten: „Du wäschst dich und reinigst dich und deine Kleidung, sprichst dann das Bekenntnis der Wahrheit und betest.“ Er stand auf, wusch sich, reinigte seine Kleidung, sprach das Bekenntnis der Wahrheit und verrichtete zwei Gebetseinheiten. Dann sagte er zu ihnen: „Hinter mir steht ein Mann: Wenn er euch folgt, wird keiner aus seinem Volk zurückbleiben. Ich schicke ihn jetzt zu euch: Saʿd ibn Muʿādh.“ Er nahm seine Lanze und kehrte zu Saʿd und dessen Leuten zurück, die in ihrem Versammlungsort saßen. Als Saʿd ibn Muʿādh ihn kommen sah, sagte er: „Bei Gott, Usaid kommt mit einem anderen Gesicht zurück, als er von euch fortging.“ Als er bei der Versammlung stand, fragte Saʿd: „Was hast du getan?“ Er sagte: „Ich habe mit den beiden gesprochen; bei Gott, ich fand nichts Schlimmes an ihnen. Ich verbot ihnen weiterzumachen, und sie sagten: Wir tun, was du möchtest. Mir wurde aber erzählt, die Banū Ḥāritha seien ausgezogen, um Asʿad ibn Zurāra zu töten; sie wissen, dass er dein Vetter ist, und wollen so deine Schutzpflicht verletzen [٢].“ Saʿd sprang zornig auf und eilte los, besorgt wegen der Nachricht über die Banū Ḥāritha; er nahm die Lanze"
+      "text": "Die beiden sagten: An einem Brunnen, der Biʾr Maraq [١] hieß, setzten sie sich in den Garten, und Männer, die den Islam angenommen hatten, versammelten sich bei ihnen. Saʿd ibn Muʿādh und Usaid ibn Ḥuḍair waren damals die beiden führenden Männer ihres Volkes, der Banū ʿAbd al-Aschhal; beide waren noch Polytheisten und folgten der Religion ihres Volkes. Als sie von ihnen hörten, sagte Saʿd ibn Muʿādh zu Usaid ibn Ḥuḍair: „Was soll das? Geh zu diesen beiden Männern, die in unser Gebiet gekommen sind, um unsere Schwachen zu törichtem Handeln zu verleiten. Weise sie zurecht und verbiete ihnen, wieder in unser Gebiet zu kommen. Wäre Asʿad ibn Zurāra mir nicht so verwandt, wie du weißt, würde ich das für dich erledigen. Er ist der Sohn meiner Tante, und ich kann nicht gegen ihn vorgehen.“ Usaid ibn Ḥuḍair nahm seine Lanze und ging zu ihnen. Als Asʿad ibn Zurāra ihn sah, sagte er zu Musʿab ibn ʿUmair: „Da kommt der führende Mann seines Volkes zu dir. Sei Gott gegenüber aufrichtig in deinem Umgang mit ihm!“ Musʿab sagte: „Wenn er sich setzt, werde ich mit ihm sprechen.“ Usaid blieb vor den beiden stehen und beschimpfte sie: „Was führt euch zu uns, dass ihr unsere Schwachen zu törichtem Handeln verleitet? Haltet euch von uns fern, wenn euch euer Leben lieb ist!“ Musʿab antwortete: „Willst du dich nicht setzen und zuhören? Wenn dir die Sache gefällt, nimmst du sie an; wenn sie dir missfällt, lassen wir dich mit dem, was du ablehnst, in Ruhe.“ Er sagte: „Das ist gerecht.“ Er steckte seine Lanze in den Boden und setzte sich zu ihnen. Musʿab sprach mit ihm über den Islam und trug ihm den Koran vor. Die beiden sagten – wie von ihnen erzählt wird –: „Bei Gott, wir erkannten den Islam in seinem Gesicht, noch bevor er sprach, an seinem Leuchten und seiner Offenheit.“ Dann sagte er: „Wie schön und trefflich diese Worte sind! Was tut ihr, wenn ihr dieser Religion beitreten wollt?“ Sie antworteten: „Du wäschst dich und reinigst dich und deine Kleidung, sprichst dann das Bekenntnis der Wahrheit und betest.“ Er stand auf, wusch sich, reinigte seine Kleidung, sprach das Bekenntnis der Wahrheit und verrichtete zwei Gebetseinheiten. Dann sagte er zu ihnen: „Hinter mir steht ein Mann: Wenn er euch folgt, wird keiner aus seinem Volk zurückbleiben. Ich schicke ihn jetzt zu euch: Saʿd ibn Muʿādh.“ Er nahm seine Lanze und kehrte zu Saʿd und dessen Leuten zurück, die in ihrem Versammlungsort saßen. Als Saʿd ibn Muʿādh ihn kommen sah, sagte er: „Bei Gott, Usaid kommt mit einem anderen Gesicht zurück, als er von euch fortging.“ Als er bei der Versammlung stand, fragte Saʿd: „Was hast du getan?“ Er sagte: „Ich habe mit den beiden gesprochen; bei Gott, ich fand nichts Schlimmes an ihnen. Ich verbot ihnen weiterzumachen, und sie sagten: Wir tun, was du möchtest. Mir wurde aber erzählt, die Banū Ḥāritha seien ausgezogen, um Asʿad ibn Zurāra zu töten; sie wissen, dass er dein Vetter ist, und wollen so deine Schutzpflicht verletzen [٢].“ Saʿd sprang zornig auf und eilte los, besorgt wegen der Nachricht über die Banū Ḥāritha; er nahm die Lanze"
     },
     {
       "unit_id": "sp_aqaba_chapter_12:p1:kind_ar",
@@ -1654,7 +1619,7 @@
     {
       "unit_id": "sp_aqaba_chapter_12:p1:text_ar",
       "source_text_sha256": "0a39d7ced2ed4015ff7cbd666f2fb9a5c1c8624322cad417cbbc1eaaa464330e",
-      "text": "aus Usaids Hand und sagte: „Bei Gott, ich sehe nicht, dass du etwas bewirkt hast.“ Dann ging er zu den beiden. Als Saʿd sie in Ruhe vorfand, begriff er, dass Usaid ihn nur dazu bringen wollte, ihnen zuzuhören. Er blieb schimpfend vor ihnen stehen und sagte zu Asʿad ibn Zurāra: „Abū Umāma, (bei Gott) [١], gäbe es zwischen dir und mir nicht diese Verwandtschaft, hättest du es nicht gewagt, mir das anzutun! Kommst du mit etwas, das uns missfällt, in unser Gebiet?“ – Asʿad ibn Zurāra hatte zu Musʿab ibn ʿUmair gesagt: „Musʿab, bei Gott, da kommt der führende Mann seines Volkes nach ihm. Wenn er dir folgt, werden nicht einmal zwei von ihnen zurückbleiben.“ – Musʿab sagte zu Saʿd: „Willst du dich nicht setzen und zuhören? Wenn dir die Sache gefällt und du sie möchtest, nimmst du sie an; wenn sie dir missfällt, halten wir das, was du ablehnst, von dir fern.“ Saʿd sagte: „Das ist gerecht.“ Er steckte die Lanze in den Boden und setzte sich. Musʿab bot ihm den Islam an und trug ihm den Koran vor. Die beiden sagten: „Bei Gott, wir erkannten den Islam in seinem Gesicht, bevor er sprach, an seinem Leuchten und seiner Offenheit.“ Dann fragte er sie: „Was tut ihr, wenn ihr den Islam annehmt und dieser Religion beitretet?“ Sie sagten: „Du wäschst dich und reinigst dich und deine Kleidung, sprichst das Bekenntnis der Wahrheit und betest zwei Gebetseinheiten.“ Er stand auf, wusch sich, reinigte seine Kleidung, sprach das Bekenntnis der Wahrheit und betete zwei Gebetseinheiten. Dann nahm er seine Lanze und ging mit Usaid ibn Ḥuḍair zum Versammlungsort seines Volkes. Als seine Leute ihn kommen sahen, sagten sie: „Bei Gott, Saʿd kommt mit einem anderen Gesicht zurück, als er von euch fortging.“ Als er vor ihnen stand, fragte er: „Banū ʿAbd al-Aschhal, welchen Rang habe ich unter euch?“ Sie antworteten: „Du bist unser Anführer, (der uns am engsten Verbundene) [١], der mit dem besten Urteil und dem glücklichsten Gespür.“ Er sagte: „Euren Männern und Frauen werde ich nicht mehr das Wort geben, bis ihr an Gott und seinen Gesandten glaubt [٢].“ Die beiden sagten: „Bei Gott, bis zum Abend gab es im Gebiet der Banū ʿAbd al-Aschhal keinen Mann und keine Frau mehr, die nicht Muslim beziehungsweise Muslimin waren.“ Asʿad und Musʿab kehrten in Asʿad ibn Zurāras Haus zurück. Musʿab blieb bei ihm und lud die Menschen zum Islam ein, bis es kein Haus der Anṣār mehr gab, in dem nicht muslimische Männer und Frauen lebten – außer den Wohnstätten der Banū Umaiya ibn Zaid, Khaṭma, Wāʾil und Wāqif. Diese gehörten zu den Ausallāh, einem Teil der Aus ibn Ḥāritha. Unter ihnen war Abū Qais ibn al-Aslat, Ṣaifī genannt, ihr Dichter und Anführer, auf den sie hörten und dem sie gehorchten. Er hielt sie vom"
+      "text": "aus Usaids Hand und sagte: „Bei Gott, ich sehe nicht, dass du etwas bewirkt hast.“ Dann ging er zu den beiden. Als Saʿd sie in Ruhe vorfand, begriff er, dass Usaid ihn nur dazu bringen wollte, ihnen zuzuhören. Er blieb schimpfend vor ihnen stehen und sagte zu Asʿad ibn Zurāra: „Abū Umāma, (bei Gott) [١], gäbe es zwischen dir und mir nicht diese Verwandtschaft, hättest du es nicht gewagt, mir das anzutun! Kommst du mit etwas, das uns missfällt, in unser Gebiet?“ – Asʿad ibn Zurāra hatte zu Musʿab ibn ʿUmair gesagt: „Musʿab, bei Gott, da kommt der Anführer der Leute seines Stammes, die hinter ihm stehen. Wenn er dir folgt, werden nicht einmal zwei von ihnen zurückbleiben.“ – Musʿab sagte zu Saʿd: „Willst du dich nicht setzen und zuhören? Wenn dir die Sache gefällt und du sie möchtest, nimmst du sie an; wenn sie dir missfällt, halten wir das, was du ablehnst, von dir fern.“ Saʿd sagte: „Das ist gerecht.“ Er steckte die Lanze in den Boden und setzte sich. Musʿab bot ihm den Islam an und trug ihm den Koran vor. Die beiden sagten: „Bei Gott, wir erkannten den Islam in seinem Gesicht, bevor er sprach, an seinem Leuchten und seiner Offenheit.“ Dann fragte er sie: „Was tut ihr, wenn ihr den Islam annehmt und dieser Religion beitretet?“ Sie sagten: „Du wäschst dich und reinigst dich und deine Kleidung, sprichst das Bekenntnis der Wahrheit und betest zwei Gebetseinheiten.“ Er stand auf, wusch sich, reinigte seine Kleidung, sprach das Bekenntnis der Wahrheit und betete zwei Gebetseinheiten. Dann nahm er seine Lanze und ging mit Usaid ibn Ḥuḍair zum Versammlungsort seines Volkes. Als seine Leute ihn kommen sahen, sagten sie: „Bei Gott, Saʿd kommt mit einem anderen Gesicht zurück, als er von euch fortging.“ Als er vor ihnen stand, fragte er: „Banū ʿAbd al-Aschhal, welchen Rang habe ich unter euch?“ Sie antworteten: „Du bist unser Anführer, (der uns am engsten Verbundene) [١], der mit dem besten Urteil und dem glücklichsten Gespür.“ Er sagte: „Euren Männern und Frauen werde ich nicht mehr das Wort geben, bis ihr an Gott und seinen Gesandten glaubt [٢].“ Die beiden sagten: „Bei Gott, bis zum Abend gab es im Gebiet der Banū ʿAbd al-Aschhal keinen Mann und keine Frau mehr, die nicht Muslim beziehungsweise Muslimin waren.“ Asʿad und Musʿab kehrten in Asʿad ibn Zurāras Haus zurück. Musʿab blieb bei ihm und lud die Menschen zum Islam ein, bis es kein Haus der Anṣār mehr gab, in dem nicht muslimische Männer und Frauen lebten – außer den Wohnstätten der Banū Umaiya ibn Zaid, Khaṭma, Wāʾil und Wāqif. Diese gehörten zu den Ausallāh, einem Teil der Aus ibn Ḥāritha. Unter ihnen war Abū Qais ibn al-Aslat, Ṣaifī genannt, ihr Dichter und Anführer, auf den sie hörten und dem sie gehorchten. Er hielt sie vom"
     },
     {
       "unit_id": "sp_aqaba_chapter_13:p1:kind_ar",
@@ -3304,7 +3269,7 @@
     {
       "unit_id": "sp_aqaba_chapter_25:p1:text_ar",
       "source_text_sha256": "ffbbfcdf97adcb597ed86aebef9033b5d21715ec00242626c69fe0479e856089",
-      "text": "Als wir dem Gesandten Gottes ﷺ das Gelöbnis geleistet hatten, rief der Satan vom Gipfel von ʿAqaba mit der durchdringendsten Stimme, die ich je gehört habe: „Leute der Dschubādschib“ – Dschubādschib sind die Lagerstätten [٣] –, „Was haltet ihr von Mudhammam [٤] und den von eurer angestammten Religion Abgewichenen [٥] bei ihm? Sie haben sich versammelt, um Krieg gegen euch zu führen!“ Der Gesandte Gottes ﷺ sagte:"
+      "text": "Als wir dem Gesandten Gottes ﷺ das Gelöbnis geleistet hatten, rief der Satan vom Gipfel von ʿAqaba mit der durchdringendsten Stimme, die ich je gehört habe: „Leute der Dschubādschib“ – Dschubādschib sind die Lagerstätten [٣] –, „Was haltet ihr von Mudhammam [٤] und den von eurer angestammten Religion Abgewichenen [٥] bei ihm? Sie haben sich versammelt, um Krieg gegen euch zu führen!“ Mudhammam ist hier ein Schmähname für den Propheten ﷺ, etwa „der Getadelte“. Der Gesandte Gottes ﷺ sagte:"
     },
     {
       "unit_id": "sp_aqaba_chapter_25:p2:kind_ar",
@@ -3485,7 +3450,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "639b13990836e357392add94fe71167635f62849b0d0c0d52c67bc1fc8d9c7ca",
+  "translation_sha256": "581f4a112b45bd15cc3e611a332ff36e7d9aa15de92bf2fefe22887fe8fcf166",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
