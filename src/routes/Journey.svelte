@@ -1828,7 +1828,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="relative h-[58px] mx-1">
+            <div class="relative h-[70px] mx-1">
                 {#each timeline_ticks as day (day)}
                     {@const date = timeline_day(day)}
                     <div
@@ -1868,7 +1868,7 @@
                     ></a>
                 {/each}
                 <input
-                    class="absolute start-0 end-0 bottom-[14px] h-[4px] w-full m-0 opacity-60 hover:opacity-100 focus-visible:opacity-100 accent-[#e8b257] cursor-ew-resize"
+                    class="absolute start-0 end-0 bottom-[22px] h-[4px] w-full m-0 opacity-60 hover:opacity-100 focus-visible:opacity-100 accent-[#e8b257] cursor-ew-resize"
                     type="range"
                     min="0"
                     max={timeline_days}
@@ -2845,7 +2845,7 @@
                                     {reading.title}
                                 </h3>
                                 {#each reading.account as section (section.section_id)}
-                                    <h4 class="m-0 font-serif text-[1.1875rem] font-semibold">
+                                    <h4 class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]">
                                         {section.title}
                                     </h4>
                                     {#each section.paragraphs as block (block.paragraph_id)}
@@ -2855,7 +2855,7 @@
                                 {#if mode === 'deep' && reading.in_depth.length}
                                     <p class="{kicker} pt-2">In depth</p>
                                     {#each reading.in_depth as section (section.section_id)}
-                                        <h4 class="m-0 font-serif text-[1.1875rem] font-semibold">
+                                        <h4 class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]">
                                             {section.title}
                                         </h4>
                                         {#each section.paragraphs as block (block.paragraph_id)}
@@ -2878,7 +2878,7 @@
                                 <p class={kicker}>Along the way</p>
                                 {#each stage_details as item (item.id)}
                                     <div class="grid gap-2">
-                                        <h4 class="m-0 font-serif text-[1.1875rem] font-semibold">
+                                        <h4 class="m-0 font-serif text-[1.1875rem] font-semibold leading-[1.35]">
                                             {item.title}
                                         </h4>
                                         <p class={prose}>{item.text}</p>

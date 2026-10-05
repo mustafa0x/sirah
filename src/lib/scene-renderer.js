@@ -907,13 +907,13 @@ export async function create_scene(
         // One preview card, shown above whichever marker is hovered or focused.
         const preview = document.createElement('div')
         preview.className =
-            'absolute top-0 left-0 z-10 grid w-64 gap-1 rounded-lg border border-solid border-line-strong bg-popover px-3 py-2 text-popover-foreground shadow-[0_8px_24px_rgba(0,0,0,0.45)] pointer-events-none [translate:-50%_calc(-100%-14px)] data-[below=true]:[translate:-50%_14px] [&[hidden]]:hidden'
+            'absolute top-0 left-0 z-10 grid w-[22rem] gap-[6px] rounded-xl border border-solid border-line-strong bg-popover px-4 py-3 text-popover-foreground mobile:w-64 mobile:gap-1 mobile:rounded-lg mobile:px-3 mobile:py-2 shadow-[0_8px_24px_rgba(0,0,0,0.45)] pointer-events-none [translate:-50%_calc(-100%-14px)] data-[below=true]:[translate:-50%_14px] [&[hidden]]:hidden'
         preview.hidden = true
         const preview_title = document.createElement('p')
-        preview_title.className = 'text-xs font-semibold'
+        preview_title.className = 'text-[0.9375rem] font-semibold mobile:text-xs'
         const preview_text = document.createElement('p')
         preview_text.className =
-            'line-clamp-3 font-arabic text-[0.9375rem] leading-[1.7] text-ink-soft'
+            'line-clamp-4 font-arabic text-[1.1875rem] leading-[1.8] text-ink-soft mobile:line-clamp-3 mobile:text-[0.9375rem] mobile:leading-[1.7]'
         preview_text.lang = 'ar'
         preview_text.dir = 'rtl'
         preview.append(preview_title, preview_text)
