@@ -98,6 +98,7 @@
         saved_mode,
     } from '../lib/mode.js'
     import { glossary, kind_notes, why_it_matters } from '../content/lenses.js'
+    import { details } from '../content/details.js'
     import {
         create_practice,
         current_question,
@@ -269,6 +270,35 @@
     let practice_done = $derived(Boolean(practice) && !practice_question)
     // The chapter open in the reader, if any.
     let reading_chapter = $state(null)
+
+    // The written version of a stage: the narration as a summary, then the stage's
+    // chapters in a language the reader can use, then the details found along the way.
+    // Young learners keep to the short version and the details.
+    let stage_reading_ids = $derived(
+        [
+            selected_step.reading_chapter_id,
+            ...(selected_step.additional_reading_chapter_ids ?? []),
+        ].filter(Boolean),
+    )
+    let stage_readings = $state([])
+    $effect(() => {
+        const ids = sheet === 'reading' && mode !== 'young' ? stage_reading_ids : []
+        let current = true
+        stage_readings = []
+        Promise.all(ids.map((id) => load_chapter(id, language).catch(() => null))).then(
+            (loaded) => {
+                if (current) stage_readings = loaded.filter(Boolean)
+            },
+        )
+        return () => {
+            current = false
+        }
+    })
+    let stage_details = $derived(
+        details
+            .filter((item) => item.stage === selected_step.id)
+            .map((item) => mode_detail(item, mode)),
+    )
     let reader_destination = $state(null)
     let reader_payload = $state(null)
     const reader_sessions = new Map()
@@ -2355,6 +2385,60 @@
                                 <strong class="text-gold font-semibold">Why this matters:</strong>
                                 {why_it_matters[selected_step.id]}
                             </p>
+                        {/if}
+                        {#each stage_readings as reading (reading.chapter_id)}
+                            <section
+                                class="grid gap-4 pt-6 border-0 border-t border-solid border-line"
+                                lang={reading.locale}
+                                dir={reading.locale === 'ar' ? 'rtl' : 'ltr'}
+                            >
+                                <h3
+                                    class="font-serif text-[1.5rem] font-medium leading-[1.2] text-gold-bright"
+                                >
+                                    {reading.title}
+                                </h3>
+                                {#each reading.account as section (section.section_id)}
+                                    <h4 class="m-0 font-serif text-[1.1875rem] font-semibold">
+                                        {section.title}
+                                    </h4>
+                                    {#each section.paragraphs as block (block.paragraph_id)}
+                                        <p class={prose}>{block.text}</p>
+                                    {/each}
+                                {/each}
+                                {#if mode === 'deep' && reading.in_depth.length}
+                                    <p class="{kicker} pt-2">In depth</p>
+                                    {#each reading.in_depth as section (section.section_id)}
+                                        <h4 class="m-0 font-serif text-[1.1875rem] font-semibold">
+                                            {section.title}
+                                        </h4>
+                                        {#each section.paragraphs as block (block.paragraph_id)}
+                                            <p class={prose}>{block.text}</p>
+                                        {/each}
+                                    {/each}
+                                {/if}
+                                <button
+                                    class="{ghost_button} justify-self-start"
+                                    onclick={() => open_chapter(reading.chapter_id)}
+                                >
+                                    {@render icon('read')} The full chapter, with its sources and practice
+                                </button>
+                            </section>
+                        {/each}
+                        {#if stage_details.length}
+                            <section
+                                class="grid gap-4 pt-6 border-0 border-t border-solid border-line"
+                            >
+                                <p class={kicker}>Along the way</p>
+                                {#each stage_details as item (item.id)}
+                                    <div class="grid gap-2">
+                                        <h4 class="m-0 font-serif text-[1.1875rem] font-semibold">
+                                            {item.title}
+                                        </h4>
+                                        <p class={prose}>{item.text}</p>
+                                        {@render citations([item.source_id])}
+                                    </div>
+                                {/each}
+                            </section>
                         {/if}
                     </div>
                 {/key}

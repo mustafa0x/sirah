@@ -30,8 +30,25 @@ const KINDS = {
     song: 'report',
 }
 
+// The journey stage each detail belongs to, so the written version of a stage can
+// include what the scene only shows as markers.
+const STAGES = {
+    visit: 'preparations',
+    wealth: 'departure',
+    south: 'departure',
+    belts: 'thawr',
+    web: 'thawr',
+    stations: 'onward',
+    garments: 'quba',
+    friday: 'arrival',
+    camel: 'arrival',
+    ayyub: 'arrival',
+    brothers: 'arrival',
+    song: 'arrival',
+}
+
 function detail(id, title, text, limits, place, citation) {
-    return { id, title, text, limits, ...place, ...citation, kind: KINDS[id] }
+    return { id, title, text, limits, ...place, ...citation, kind: KINDS[id], stage: STAGES[id] }
 }
 
 export const details = [
