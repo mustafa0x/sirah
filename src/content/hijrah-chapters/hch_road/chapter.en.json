@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_road",
-  "revision": 1,
+  "revision": 2,
   "locale": "en",
-  "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
-  "arabic_payload_sha256": "e9d5d12d676348d095160a148c827f78ac8545e95fd65b8ec102c39d14b68471",
-  "status": "translation_ready",
+  "arabic_sha256": "f16774c0a0d2bfb6c6443914e111b6c901fcc681699c3289bbc104a275002430",
+  "arabic_payload_sha256": "88b6f9f43978720aefcf5ca22a713bbc268c0217429adf0af3704c24ea7b1132",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_road:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_road:reader_question_ar",
-      "source_text_sha256": "36b9d88298edd0ed8577184b6dfb3be1c17323ef005ff49e24810ea1cd968f5f",
-      "text": "How did trust relate to the guide’s expertise, and what can we say about the companions and the route without drawing a map the text does not provide?"
+      "source_text_sha256": "5900c3aadcb8f49f18929c61717f4352a73540c13e8ee4fa5e5f81716cbb9277",
+      "text": "How did the Prophet ﷺ and Abu Bakr entrust the two mounts to the guide, who traveled with them from the cave of Thawr, and which route did they take?"
     },
     {
       "unit_id": "hch_road_overview:text_ar",
-      "source_text_sha256": "a30fd1102a9f7ea89d5788332e491c8bd27db8fa6df8f867831c8f73acd04ebb",
-      "text": "When the time came to resume travel from the cave of Thawr, the two mounts were with a man whom the Prophet ﷺ and Abu Bakr had hired for his knowledge of the route. We read why they trusted his expertise, when they had agreed to meet, who set off with them, and what the phrase “the coastal route” allows us to say. In another account, the word “guides” raises an important question: was Abu Bakr referring to the route guide when answering a question about his companion?"
+      "source_text_sha256": "196e0420d3d970e6b78d724c797fd8f90cd1ed04461a0a0fa5f5345a4c5674d1",
+      "text": "When the time came to resume travel from the cave of Thawr, the two mounts were with a man whom the Prophet ﷺ and Abu Bakr had hired for his knowledge of the route."
     },
     {
       "unit_id": "hch_road_hire:title_ar",
@@ -68,18 +68,18 @@
     },
     {
       "unit_id": "hch_road_name_01:text_ar",
-      "source_text_sha256": "46515e0cc2202e28dec86412454ea0a4750128d6330f68cea0dff14706100105",
-      "text": "The hiring passage in al-Bukhari does not give the guide’s personal name; it gives his lineage and expertise. In the Sira excerpt, Ibn Ishaq transmits Asma bint Abi Bakr’s list of four: the Prophet ﷺ, Abu Bakr, ‘Amir ibn Fuhayra, and ‘Abd Allah ibn Arqat, their guide. Ibn Hisham then adds another spelling with the formula “it is also said”: ‘Abd Allah ibn Urayqit. A tentative formulation cannot become a certainty; the different spelling alone does not imply two guides."
+      "source_text_sha256": "384584d0f12a155432bc3cf87f9707f59dc7814f1ec10dd16d83dc76010f4e87",
+      "text": "The hiring passage in al-Bukhari does not give the guide’s personal name; it gives his lineage and expertise. In the Sira excerpt, Ibn Ishaq transmits Asma bint Abi Bakr’s list of four: the Prophet ﷺ, Abu Bakr, ‘Amir ibn Fuhayra, and ‘Abd Allah ibn Arqat, their guide. Ibn Hisham then adds another spelling with the formula “it is also said”: ‘Abd Allah ibn Urayqit."
     },
     {
       "unit_id": "hch_road_name_02:text_ar",
-      "source_text_sha256": "5ae7ba9945e330e6cd6d9942cbc988fb64e9afa62ee8d0e8270b26f5281cfe52",
-      "text": "Asma’s excerpt begins “When we heard his words.” These words refer back to an account of a voice and poetry in the preceding Sira excerpt. We read them to understand the opening, not to establish the reported mysterious voice as a fact or authenticate the poem. The list in this excerpt is attributed to Asma as transmitted by Ibn Ishaq; the name is not extracted from al-Bukhari’s wording."
+      "source_text_sha256": "fda80529b5b9bcf9ec25771b86dda8af77fb6f7202aee5beb5361690af09ca4e",
+      "text": "In the Sira, an account of a voice and poetry precedes Asma’s list. Ibn Ishaq transmits her names for the travelers, including the guide, whereas the al-Bukhari passage gives his lineage and expertise but not his name."
     },
     {
       "unit_id": "hch_road_name_03:text_ar",
-      "source_text_sha256": "b9cf17c7197e08ce90e515f29ace467ff974bfa461899fc753b6ede5821bba89",
-      "text": "In a later commentary, Hani Faqih quotes a passage from Ibn Kathir naming him ‘Abd Allah ibn Urayqit. Hani then explains in his own voice that the report in the Sahih does not state the name and that Ibn Ishaq named him in the Sira. The quoted name and the commentator’s qualification are different voices: do not attribute Hani’s remark to Ibn Kathir, or take al-Bukhari’s silence as a denial of names in other works."
+      "source_text_sha256": "578fb81281a08bba9406a12bbc5af862c7ae352cea97fd9670b28bebf4cbf6f5",
+      "text": "In a later commentary, Hani Faqih quotes a passage from Ibn Kathir naming him ‘Abd Allah ibn Urayqit. Hani then explains in his own voice that the report in the Sahih does not state the name and that Ibn Ishaq named him in the Sira."
     },
     {
       "unit_id": "hch_road_trust:title_ar",
@@ -88,23 +88,23 @@
     },
     {
       "unit_id": "hch_road_trust_01:text_ar",
-      "source_text_sha256": "76c4e0019d7d890ee0ed5faef57d4a9eddfca45d1034c682599f5a38e415040a",
-      "text": "In ‘A’isha’s hadith, expertise, trust, and difference of religion appear together: the guide is described as skilled, then entrusted with the two mounts even though he followed the religion of the unbelievers of Quraysh. Al-Qurtubi quotes the account from al-Bukhari, then attributes to al-Muhallab the inference that polytheists may be trusted with secrets and property when they are known to be faithful and honorable, and to Ibn al-Mundhir the inference that they may be hired as road guides. These are views attributed to commentators, not further details ‘A’isha witnessed. Repetition of the report in a commentary does not by itself create an independent account."
+      "source_text_sha256": "88e90a02d46c108338a4b4797206903a77292e095a919b782b00ce5e712cd1d7",
+      "text": "In ‘A’isha’s hadith, expertise, trust, and difference of religion appear together: the guide is described as skilled, then entrusted with the two mounts even though he followed the religion of the unbelievers of Quraysh. Al-Qurtubi quotes the account from al-Bukhari, then attributes to al-Muhallab the inference that polytheists may be trusted with secrets and property when they are known to be faithful and honorable, and to Ibn al-Mundhir the inference that they may be hired as road guides."
     },
     {
       "unit_id": "hch_road_bounds:title_ar",
-      "source_text_sha256": "fd3f417e10235174d2b6f276d8e04dc92b52d87e37a853dfe512c0b38cb082c3",
-      "text": "What the Route Specifies and What It Leaves Open"
+      "source_text_sha256": "73aa7b9e7b4db3a760798aa1b17d58ab78604fe44425d016fc578bab2facbf4d",
+      "text": "The Cave Appointment, the Coastal Route and Abu Bakr’s Answer"
     },
     {
       "unit_id": "hch_road_bounds_01:text_ar",
-      "source_text_sha256": "38931de249bf5d2fc64534000140e59960f8d1b8cc51326ab1bd3623a9f759b6",
-      "text": "The phrase “they arranged to meet him” on the hiring page is completed by “at the cave of Thawr after three nights” on the next page of the same hadith. “The morning of the third” gives the time in the account, not a precise clock time or a calendar date. Likewise, “the coastal route” describes their route here, not a list of stopping places or a line plotted with coordinates."
+      "source_text_sha256": "8a4d6dab6714203616be952a12718caf23933f8e94b85a35bb76745e4284096d",
+      "text": "After three nights the guide brought the two mounts to the cave of Thawr in the morning, then took them along the coastal route."
     },
     {
       "unit_id": "hch_road_bounds_02:text_ar",
-      "source_text_sha256": "95a013c141f4142b3d63f5b7d770306e63012a69ebd8966f4abb71907b93c75f",
-      "text": "Al-Bayhaqi transmits another report from Abu Hurayra: its chain and main text begin on one page and its sentence continues on the next. In that continuation Abu Bakr’s answer about his companion is “A guide who guides me.” Anas’s report, by contrast, says “This man guides me along the way” and explains that the meaning is the way of goodness. We preserve each account’s wording and join the truncated page to its continuation, without confusing either answer with the hired guide’s role or treating the page division as two independent chains."
+      "source_text_sha256": "8b8112d5cfdd4b3e9e61123718487901f134ea84e7c18833af64eb05723f68bf",
+      "text": "In al-Bayhaqi’s report from Abu Hurayra, Abu Bakr answers about his companion: “A guide who guides me.” Anas’s report says “This man guides me along the way” and explains that he means the way of goodness, not the hired guide’s role."
     },
     {
       "unit_id": "hch_road_outline_skill:text_ar",
@@ -1295,12 +1295,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "0833f075b954372ad4408806e1df3f52b0b7b976655427c9ddd68ababa7dbb2e",
+  "translation_sha256": "0641eef7a696390b4212e955d731eaa3d93fb6aafa94fe27a67dbacb89cd3c23",
   "review": {
-    "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
-    "translation_sha256": "0833f075b954372ad4408806e1df3f52b0b7b976655427c9ddd68ababa7dbb2e",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual comparison of every paired Arabic/English inventory unit, all selected source parts and metadata, teaching representations, objectives, questions/options/feedback and scope in reviewer session18575be8-d365-4955-a560-0105abe6ac9a. Main checked the flagged Arabic passages, corrected taking turns riding and arrival at Mecca, and adopted the final bounded poem wording for the supplied vocalization/preposition. Whole Arabic app payload binding also verified. Not independent linguistic, scholarly, printed-copy collation, rights or publication approval.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

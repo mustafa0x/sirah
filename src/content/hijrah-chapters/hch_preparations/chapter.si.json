@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_preparations",
-  "revision": 1,
+  "revision": 2,
   "locale": "si",
-  "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
-  "arabic_payload_sha256": "61d88395c3216dfcbee3986b27631b2f782282f4a9a7b264dd21653fb994a71b",
-  "status": "translation_ready",
+  "arabic_sha256": "7570ef243375e36b5b420f43d354dc43957ed58a80c5dc0f64a6d377451892bc",
+  "arabic_payload_sha256": "8cd88dcebc55461795735f2a196af438f707768ffdbb6d9a17147daed4da4f33",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_preparations:title_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_preparations_overview_02:text_ar",
-      "source_text_sha256": "8d794fc94baf206985265b50eccc3873c19b5f0e2fc8a50b85d8ef22ce880da5",
-      "text": "කතාව පිටත්වීමේ තීරණයෙන් නිම නොවේ: ගමන් සතකු පිරිනැමීමත්, “මිලට” යන පිළිතුරත් වාර්තාවේ දැක්වේ. ඉන්පසු ආඉෂා ගමන් ආහාර පිළියෙල කළ බව බහුවචනයෙන් කියයි; අස්මාඋ තම ඉණපටියෙන් ගමන් ආහාර සහ ජල බඳුන බැඳීමට කළ දේ තමන්ගේම හඬින් කියයි. මේ වාර්තා දෙකට වෙන වෙනම ස්ථානයක් හා හඬක් ඇත."
+      "source_text_sha256": "b09c45a48d1eef2b441e88fdb3ed3660f059f988b21174dcc62c629cf584ac28",
+      "text": "කතාව පිටත්වීමේ තීරණයෙන් නිම නොවේ: ගමන් සතකු පිරිනැමීමත්, “මිලට” යන පිළිතුරත් වාර්තාවේ දැක්වේ. ඉන්පසු ආඉෂා ගමන් ආහාර පිළියෙල කළ බව බහුවචනයෙන් කියයි; අස්මාඋ තම ඉණපටියෙන් ගමන් ආහාර සහ ජල බඳුන බැඳීමට කළ දේ තමන්ගේම හඬින් කියයි."
     },
     {
       "unit_id": "hch_preparations_waiting:title_ar",
@@ -73,8 +73,8 @@
     },
     {
       "unit_id": "hch_preparations_provisions_01:text_ar",
-      "source_text_sha256": "1ae1ba50e214f0e79d93ca213a35d5524b2f1cc5641545f65aa2df58a9b136ee",
-      "text": "ආඉෂා මෙසේ පවසයි: “ඉක්මනින්ම අපි ඔවුන් දෙදෙනා ගමනට සූදානම් කර, ඔවුන් වෙනුවෙන් මල්ලක ගමන් ආහාර පිළියෙල කළෙමු.” ඉන්පසු අස්මාඋ බින්ත් අබූ බක්ර් කළ නිශ්චිත දේ සඳහන් වේ: ඇය තම ඉණපටියෙන් කොටසක් කපා මල්ලේ කට බැන්දාය. මෙහි “සුෆ්රා” යනු ගමන් ආහාරයයි; “ජිරාබ්” යනු එය දැමූ මල්ලයි. මෙම උපුටනය එම මල්ල සාදා තිබූ ද්‍රව්‍යය සඳහන් නොකරයි."
+      "source_text_sha256": "4dc14bcf2691d72842267a4e4d03f680268b5a31e7c22f710d7f189c3d65351d",
+      "text": "ආඉෂා මෙසේ පවසයි: “ඉක්මනින්ම අපි ඔවුන් දෙදෙනා ගමනට සූදානම් කර, ඔවුන් වෙනුවෙන් මල්ලක ගමන් ආහාර පිළියෙල කළෙමු.” ඉන්පසු අස්මාඋ බින්ත් අබූ බක්ර් කළ නිශ්චිත දේ සඳහන් වේ: ඇය තම ඉණපටියෙන් කොටසක් කපා මල්ලේ කට බැන්දාය. මෙහි “සුෆ්රා” යනු ගමන් ආහාරයයි; “ජිරාබ්” යනු එය දැමූ මල්ලයි. ආඉෂා මල්ල සාදා තිබූ ද්‍රව්‍යය සඳහන් නොකරයි."
     },
     {
       "unit_id": "hch_preparations_provisions_02:text_ar",
@@ -93,13 +93,13 @@
     },
     {
       "unit_id": "hch_preparations_depth_voices_01:text_ar",
-      "source_text_sha256": "1813a0aa69b2b885167da3d4ee3136f2b3e1dc0874beb9710cceb3809178b210",
-      "text": "ආඉෂාගේ “අපි ඔවුන් දෙදෙනා සූදානම් කළෙමු” යන බහුවචනය ගමන සූදානම් කිරීමට සහභාගි වූ අය එක්ව හඳුන්වයි; එක් එක් පුද්ගලයා නම් නොකරයි, ඇයම ආහාරය ගුහාවට රැගෙන ගිය බව ද නොකියයි. ඉන්පසු අස්මාඋගේ බැඳීමේ ක්‍රියාව විශේෂයෙන් සඳහන් කරයි. අස්මාඋගේ සවිස්තර ප්‍රකාශයේ, තම පියාගේ නිවසේ ආහාරය පිළියෙල කිරීම ඇය තමාට ආරෝපණය කරයි; ජල බඳුන ද සඳහන් කරයි. බහුවචනය තනි පුද්ගල ක්‍රියාවක් බවට පත් නොකර, අස්මාඋගේ සාක්ෂියෙන් ජල බඳුන ඉවත් නොකර, දෙදෙනාගේ දායකත්වය කියවිය හැක."
+      "source_text_sha256": "1b32ba9976c5c592ee4da26aa60196fdd6af777f20c2a0413dfb6180d7427e27",
+      "text": "ආඉෂාගේ “අපි ඔවුන් දෙදෙනා සූදානම් කළෙමු” යන බහුවචනය ගමන සූදානම් කිරීමට සහභාගි වූ අය එක්ව හඳුන්වයි; එක් එක් පුද්ගලයා නම් නොකරයි, ඇයම ආහාරය ගුහාවට රැගෙන ගිය බව ද නොකියයි. ඉන්පසු අස්මාඋගේ බැඳීමේ ක්‍රියාව විශේෂයෙන් සඳහන් කරයි. අස්මාඋගේ සවිස්තර ප්‍රකාශයේ, තම පියාගේ නිවසේ ආහාරය පිළියෙල කිරීම ඇය තමාට ආරෝපණය කරයි; ජල බඳුන ද සඳහන් කරයි."
     },
     {
       "unit_id": "hch_preparations_depth_voices_02:text_ar",
-      "source_text_sha256": "ff13af70d9ab255e61977d9c178a325bf2da4ecd7367665ea24405543b8f4353",
-      "text": "ආඉෂා මල්ලක තිබූ ගමන් ආහාරයක් හා මල්ලේ කටට ඉණපටියේ කොටසක් බැඳීම සඳහන් කර “පටියේ හිමිකාරිය” යන නාමය දක්වයි. අස්මාඋ තම සවිස්තර වාර්තාවේ, ජල බඳුන සහ ආහාරය බැඳීමට පටිය දෙකට ඉරීම සඳහන් කර “පටි දෙකේ හිමිකාරිය” යන නාමය දක්වයි. මල්ල සහ ජල බඳුන එකම දෙයක් ලෙස නොගත යුතුය; වාර්තා දෙකේ නාම එකම වචනයක් ලෙස ද නොලිය යුතුය."
+      "source_text_sha256": "a701af88cec93b989e1bd94e2909a35664061ef77e7ca32b4898d085289696d5",
+      "text": "ආඉෂා මල්ලක තිබූ ගමන් ආහාරයක් හා මල්ලේ කටට ඉණපටියේ කොටසක් බැඳීම සඳහන් කර “පටියේ හිමිකාරිය” යන නාමය දක්වයි. අස්මාඋ තම සවිස්තර වාර්තාවේ, ජල බඳුන සහ ආහාරය බැඳීමට පටිය දෙකට ඉරීම සඳහන් කර “පටි දෙකේ හිමිකාරිය” යන නාමය දක්වයි."
     },
     {
       "unit_id": "hch_preparations_depth_names:title_ar",
@@ -118,8 +118,8 @@
     },
     {
       "unit_id": "hch_preparations_depth_limits_01:text_ar",
-      "source_text_sha256": "80cb1f323b99ae725821ca0478c6352fd921675ee07e1973a3ba1e73945fa030",
-      "text": "ආඉෂාගේ වාර්තාවේ මාස හතර යනු ගමන් සතුන් දෙදෙනාට ආහාර දුන් කාලයයි; එයින් පමණක් ගමන් කාලය තීරණය කළ නොහැක. ඉබ්න් ඉස්හාක්ගේ වාර්තාව සතාගේ මිල “මෙපමණ හා මෙපමණ” යැයි මිස නිශ්චිත මුදලක් නොදක්වයි. එම උපුටන මිල ගෙවීමට තෝරාගත් හේතුව ද පැහැදිලි නොකරයි. කියවීම්වල නොමැති සංඛ්‍යාවක් හෝ හේතුවක් එක් නොකළත් සංවාදය තේරුම් ගත හැක."
+      "source_text_sha256": "b93ddc4af911b13ce2c48fdcec72faf2527b209b877fbecb747aebae94bd0ae8",
+      "text": "ආඉෂාගේ වාර්තාවේ මාස හතර යනු ගමන් සතුන් දෙදෙනාට ආහාර දුන් කාලයයි; එයින් පමණක් ගමන් කාලය තීරණය කළ නොහැක. ඉබ්න් ඉස්හාක්ගේ වාර්තාව සතාගේ මිල “මෙපමණ හා මෙපමණ” යැයි මිස නිශ්චිත මුදලක් නොදක්වයි. එම උපුටන මිල ගෙවීමට තෝරාගත් හේතුව ද පැහැදිලි නොකරයි."
     },
     {
       "unit_id": "hch_preparations_depth_limits_02:text_ar",
@@ -1230,12 +1230,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "5490af9250b75d16dc1e802df1a4312798c35484e978f00ad7fab6dc1e47a59b",
+  "translation_sha256": "1374c67fd5148b4a10c82648c00c105882065155bf6a349d9f4be01708d53e08",
   "review": {
-    "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
-    "translation_sha256": "5490af9250b75d16dc1e802df1a4312798c35484e978f00ad7fab6dc1e47a59b",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session f464deea-0766-4d5c-965f-e418f89ca968 across 235 Arabic/target units. Compared all 235 teaching, metadata, question/answer/feedback, and full selected-source units against the literal Arabic in all nine untruncated chunks. The Abu Quhafa negation is retained in the quoted Sinhala, with uncertainty explicitly labeled in a separate translator note; the two-mount reference is also clear. No actionable semantic mismatch found in the bounded inventory. No other-language pivot or scholarly collation was used; this is not independent language, specialist, or public-distribution approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

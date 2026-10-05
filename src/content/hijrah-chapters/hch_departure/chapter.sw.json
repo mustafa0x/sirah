@@ -1,9 +1,9 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 1,
+  "revision": 2,
   "locale": "sw",
-  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
+  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
+  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
   "status": "translation_wip",
   "units": [
     {
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_departure:reader_question_ar",
-      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
-      "text": "Riwaya za kupanga na kuondoka zinatuambia nini, na sauti zake zinatofautiana wapi?"
+      "source_text_sha256": "74136be76cec487fefea2b99ed667e9397689d507b00edd813205480c2b10f3f",
+      "text": "Ibn Is-haq anasimulia nini kuhusu kikao cha Makuraishi na kitanda cha Mtume ﷺ alicholalia Ali, na Urwa anasimulia nini kuhusu kuondoka usiku?"
     },
     {
       "unit_id": "hch_departure_overview:text_ar",
-      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
-      "text": "Safari inaanza hapa kwa kusubiri idhini huko Makka, kisha hofu ya Makuraishi kuhusu kuondoka kwa Mtume ﷺ, na inaendelea hadi kwenye kitanda cha Ali na amana alizobaki ili azirudishe. Tutafuata riwaya ya Ibn Is-haq, na tutasimama kwenye riwaya ya Urwa na uchambuzi wa al-Suwayyani na al-Bayhaqi pale upeo wa maelezo yao unapotofautiana; si kila jambo maarufu litakalounganishwa kuwa tukio moja la hakika."
+      "source_text_sha256": "bd42dc5d578cc0d1f5559b889c98cf2bab3833dc849c38e3725d04f74a062b37",
+      "text": "Habari inaanza kwa kusubiri idhini huko Makka na hofu ya Makuraishi kwamba Mtume ﷺ ataondoka; Ali alilala kwenye kitanda cha Mtume ﷺ na akabaki kurudisha amana."
     },
     {
       "unit_id": "hch_departure_waiting:title_ar",
@@ -33,8 +33,8 @@
     },
     {
       "unit_id": "hch_departure_waiting2:text_ar",
-      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
-      "text": "Kwa mujibu wa simulizi la Ibn Is-haq, Makuraishi waliona kwamba wahamiaji walikuwa wamepata makao na ulinzi nje ya Makka, hivyo wakaogopa Mtume ﷺ angewafuata. Watu wao wanakutana Dar al-Nadwa kujadili habari zake; hii ni taswira inayosimuliwa na maandishi, si kumbukumbu ya moja kwa moja ya kikao."
+      "source_text_sha256": "82765ecfe36526c915bea340bf98d6f73d17c9766537b3c6888963b320a7e6da",
+      "text": "Kwa mujibu wa simulizi la Ibn Is-haq, Makuraishi waliona kwamba wahamiaji walikuwa wamepata makao na ulinzi nje ya Makka, hivyo wakaogopa Mtume ﷺ angewafuata. Walikusanyika Dar al-Nadwa kujadili habari zake."
     },
     {
       "unit_id": "hch_departure_council:title_ar",
@@ -43,13 +43,13 @@
     },
     {
       "unit_id": "hch_departure_council1:text_ar",
-      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
-      "text": "Katika habari ya Ibn Abbas inayosimuliwa na Ibn Is-haq, kwanza linatolewa wazo la kumfunga kisha la kumfukuza; ndani ya riwaya mzee wa Najd anayakataa yote mawili. Baadaye Abu Jahl anapendekeza vijana wa makabila washirikiane kumpiga; kwa mujibu wa habari hii kikao kinamalizika kwa kukubali wazo hilo. Maelezo hayo ya mazungumzo hayamaanishi kwamba kila habari nyingine inasimulia kikao hicho hicho."
+      "source_text_sha256": "b0924fc446a04e4e33303d2b92b94e2578f137be27f22656d379a4abb6876031",
+      "text": "Katika habari ya Ibn Abbas inayosimuliwa na Ibn Is-haq, kwanza linatolewa pendekezo la kumfunga Mtume ﷺ; mzee wa Najd analikataa. Pendekezo tofauti la kumfukuza linatolewa, nalo analikataa. Kisha Abu Jahl anapendekeza kijana kutoka kila kabila apewe upanga ili wote wampige Mtume ﷺ kwa pigo moja na kumuua. Hoja yake ni kuwa wajibu wa damu yake utagawanyika baina ya makabila, hivyo Banu Abd Manaf hawataweza kupigana na wote. Katika habari hii kikao kinakubali pendekezo la Abu Jahl."
     },
     {
       "unit_id": "hch_departure_council2:text_ar",
-      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
-      "text": "Njia hii ya upokezi pia inamtaja Iblis katika umbo la mzee. Mahali fulani al-Suwayyani anaitia nguvu habari hii kwa njia zake za upokezi, lakini mahali pengine anauondoa utajo wa Iblis katika tathmini hiyo. Anayesoma tathmini ya kuitia nguvu pekee anakosa tahadhari hiyo, na pia tofauti anayoweka baina ya njia ambazo baadhi ya wapokezi wake walielezwa kuwa wameachwa na ushahidi wa riwaya ya mursal."
+      "source_text_sha256": "86e3f65ad9921f23db4c2df8a3a04df103474b4e0c3c900815bcd50697147f30",
+      "text": "Njia hii ya upokezi pia inamtaja Iblis katika umbo la mzee. Mahali fulani al-Suwayyani anaitia nguvu habari hii kwa njia zake za upokezi, lakini mahali pengine anauondoa utajo wa Iblis katika tathmini hiyo."
     },
     {
       "unit_id": "hch_departure_bed:title_ar",
@@ -73,28 +73,28 @@
     },
     {
       "unit_id": "hch_departure_trusts1:text_ar",
-      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
-      "text": "Katika habari nyingine ya Ibn Is-haq, jukumu la Ali halikuwa kulala kitandani tu; kwa tamko la “imenifikia habari”, anaeleza kuwa Mtume ﷺ alimjulisha kuwa anaondoka na akamwamuru abaki ili kurudisha amana za watu. Tamko hili linaonyesha habari iliyomfikia, si jina la mpokezi tunaloweza kuliongeza wenyewe."
+      "source_text_sha256": "aa8aa046502c8151d94eb4889c58905a4b4af8e9da999705d28da19ee4ef6b6a",
+      "text": "Katika habari nyingine ya Ibn Is-haq, jukumu la Ali halikuwa kulala kitandani tu; kwa tamko la “imenifikia habari”, anaeleza kuwa Mtume ﷺ alimjulisha kuwa anaondoka na akamwamuru abaki ili kurudisha amana za watu."
     },
     {
       "unit_id": "hch_departure_trusts2:text_ar",
-      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
-      "text": "Sehemu ya baadaye ya riwaya inasema Ali alikaa Makka kwa siku tatu na usiku wake hadi aliporudisha amana; kisha akamfuata Mtume ﷺ na akakaa pamoja naye kwa Kulthum ibn Hadm. Hili linakamilisha habari ya amana, wala halibainishi saa ya kuondoka kwao usiku mmoja."
+      "source_text_sha256": "9363cd2f637e3fc489b4977eceb0a04132e971e1b420ce7b5a87cf20111e5985",
+      "text": "Sehemu ya baadaye ya riwaya inasema Ali alikaa Makka kwa siku tatu na usiku wake hadi aliporudisha amana; kisha akamfuata Mtume ﷺ na akakaa pamoja naye kwa Kulthum ibn Hadm."
     },
     {
       "unit_id": "hch_departure_voices:title_ar",
-      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
-      "text": "Kutoka kikaoni hadi njiani: mipaka ya kila riwaya"
+      "source_text_sha256": "d1ea0839bf8ebad820a3dfad0595d9a3c594df39dd07e834aeeb9fe4081566fc",
+      "text": "Kuondoka usiku na walinzi kwenye nyumba"
     },
     {
       "unit_id": "hch_departure_voices1:text_ar",
-      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
-      "text": "Al-Bayhaqi anasimulia kutoka kwa Urwa ibn al-Zubayr taswira fupi zaidi ya hila: kuua, kufunga, kufukuza au kufunga kwa pingu, pamoja na aya ya al-Anfal, kuondoka kwa Mtume ﷺ na Abu Bakr usiku kuelekea pangoni, na Ali kulala kitandani. Uteuzi huu wa habari ya Urwa hautaji mazungumzo ya kikao wala konzi ya udongo; aya hapa ni maandishi ya Qurani ndani ya riwaya ya Urwa, si mwendelezo wa mazungumzo ya kikao cha Nadwa."
+      "source_text_sha256": "005eaa48470a06bdb880422fb001ed51d42316fcaa658fe234586daa7848bf71",
+      "text": "Al-Bayhaqi anasimulia kutoka kwa Urwa ibn al-Zubayr taswira fupi zaidi ya hila: kuua, kufunga, kufukuza au kufunga kwa pingu, pamoja na aya ya al-Anfal, kuondoka kwa Mtume ﷺ na Abu Bakr usiku kuelekea pangoni, na Ali kulala kitandani. Habari ya Urwa haitaji mazungumzo ya Dar al-Nadwa wala kutawanya udongo; aya ya al-Anfal humo ni maandishi ya Qurani, si mwendelezo wa mazungumzo ya kikao."
     },
     {
       "unit_id": "hch_departure_voices2:text_ar",
-      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
-      "text": "Habari ya Urwa inataja kuondoka usiku, na habari ya Ibn Abbas inataja walinzi kukusanyika kwenye nyumba ya Mtume ﷺ gizani usiku. Hakuna kati ya hizo inayotaja saa ya kwenda nyumbani kwa Abu Bakr; haiwezekani kubashiri wakati wa ziara hiyo kutokana na wakati wa kuvizia, wala kuunganisha matukio ya nyumba hizo mbili kuwa tukio moja."
+      "source_text_sha256": "f900696cc357b24596d505490e13c2a68403cc4e1d7ae67c23041443c0cf3981",
+      "text": "Habari ya Urwa inataja kuondoka usiku; ya Ibn Abbas inataja walinzi kukusanyika kwenye mlango wa nyumba ya Mtume ﷺ gizani. Hakuna kati ya hizo inayotaja saa ya ziara tofauti nyumbani kwa Abu Bakr."
     },
     {
       "unit_id": "hch_departure_criticism:title_ar",
@@ -103,18 +103,18 @@
     },
     {
       "unit_id": "hch_departure_criticism1:text_ar",
-      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
-      "text": "Tanbihi ya al-Suwayyani inasema habari ya kikao cha Nadwa ni hasan kwa njia zake za upokezi; inaeleza kuwa njia ya al-Kalbi si ya kufurahiwa, njia ya al-Hasan ibn Umara imeachwa, na inataja ushahidi wa riwaya ya Qatada ya mursal na al-Waqidi aliyeachwa. Katika maandishi yake mengine anatenga utajo wa Iblis kutoka kwenye tathmini yake ya kuifanya hadithi hasan. Tunanasibisha tathmini na utengaji huo kwake, bila kuufanya uchunguzi wetu huru wa minyororo ya wapokezi ambayo haijachunguzwa hapa."
+      "source_text_sha256": "405fd6cebdc6bf99818431a2f5d2cc4d361a12b4ff6b0f2fb92ae89372c0df32",
+      "text": "Tanbihi ya al-Suwayyani inasema habari ya kikao cha Nadwa ni hasan kwa njia zake za upokezi; inaeleza kuwa njia ya al-Kalbi si ya kufurahiwa, njia ya al-Hasan ibn Umara imeachwa, na inataja ushahidi wa riwaya ya Qatada ya mursal na al-Waqidi aliyeachwa. Katika maandishi yake mengine anatenga utajo wa Iblis kutoka kwenye tathmini yake ya kuifanya hadithi hasan."
     },
     {
       "unit_id": "hch_departure_criticism2:text_ar",
-      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
-      "text": "Al-Suwayyani anajadili njia ya upokezi inayompitia Abu Balj, akisema sanad yake haina tatizo kubwa isipokuwa Abu Balj awe amepokea peke yake tamko linalopingana na jingine. Anakusanya kauli za wanazuoni waliomthibitisha pamoja na ukosoaji wa al-Bukhari “fihi nazar” (anastahili kuchunguzwa), nao anataja ukali wa maana ya istilahi hiyo kwa al-Bukhari. Mwendelezo wa maneno yake ukurasa unaofuata ni sehemu ya uhakiki huu; tathmini hii si kukataa kwa jumla habari zote za Ali, wala kuthibitisha usahihi wa kila tamko linalosimuliwa kumhusu."
+      "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
+      "text": "Al-Suwayyani anajadili njia ya upokezi inayompitia Abu Balj, akisema sanad yake haina tatizo kubwa isipokuwa Abu Balj awe amepokea peke yake tamko linalopingana na jingine. Anakusanya kauli za wanazuoni waliomthibitisha pamoja na ukosoaji wa al-Bukhari “fihi nazar” (anastahili kuchunguzwa), nao anataja ukali wa maana ya istilahi hiyo kwa al-Bukhari."
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
-      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
-      "text": "Katika maneno ya Mtume ﷺ kwa Ali yanayosimuliwa na Ibn Is-haq, vazi linaelezwa kuwa la kijani kutoka Hadramaut, na maneno haya yanakamilika mwanzoni mwa dondoo inayofuata. Kisha Ibn Is-haq anaanza sanad ya Yazid ibn Ziyad kutoka kwa Muhammad ibn Kaab kuhusu habari ya udongo na kusoma Ya Sin; hivyo usomaji huo hauwezi kunasibishwa kupitia sanad hii kwa njia ya awali ya Ibn Abbas. Kutofautisha njia hizi mbili ni muhimu kuliko kuongeza kila undani katika habari yoyote inayotaja kitanda."
+      "source_text_sha256": "3a1c8208e04699f930f7937afce7b566ad4fb7f2a6a0080ea97ba4a1b2700c53",
+      "text": "Katika riwaya ya Ibn Is-haq, Mtume ﷺ anamwambia Ali kuhusu vazi la kijani la Hadramaut. Ibn Is-haq anasimulia habari ya kutawanya udongo na kusoma Ya Sin kupitia Yazid ibn Ziyad kutoka kwa Muhammad ibn Kaab al-Qurazi."
     },
     {
       "unit_id": "hch_departure_hazwara:title_ar",
@@ -123,13 +123,13 @@
     },
     {
       "unit_id": "hch_departure_hazwara1:text_ar",
-      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
-      "text": "Katika habari inayosimuliwa na al-Bayhaqi kutoka kwa Abdullah ibn Adi ibn al-Hamra, Mtume ﷺ anaiambia Makka akiwa amesimama al-Hazwara sokoni mwake: ni ardhi anayoipenda zaidi miongoni mwa ardhi za Mwenyezi Mungu, na lau asingefukuzwa humo asingetoka. Al-Bayhaqi anaihesabu riwaya hii kuwa imehifadhiwa. Habari hiyo haibainishi saa aliyosimama al-Hazwara, wala haiihusishi na mlango wa nyumba au kitanda cha Ali."
+      "source_text_sha256": "7be7e627a4749be2ef487f4d8c12c1f10227d75be8815f33794032e59c5ba62e",
+      "text": "Katika habari inayosimuliwa na al-Bayhaqi kutoka kwa Abdullah ibn Adi ibn al-Hamra, Mtume ﷺ anaiambia Makka akiwa amesimama al-Hazwara sokoni mwake: ni ardhi bora zaidi ya Mwenyezi Mungu na ardhi anayoipenda zaidi, na lau asingefukuzwa humo asingetoka. Al-Bayhaqi anaihesabu riwaya hii kuwa imehifadhiwa. Habari hiyo haibainishi saa aliyosimama al-Hazwara, wala haiihusishi na mlango wa nyumba ya Mtume ﷺ au kitanda chake alicholalia Ali."
     },
     {
       "unit_id": "hch_departure_hazwara2:text_ar",
-      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
-      "text": "Sanad ya habari ya Abdullah ibn Adi ibn al-Hamra imehifadhiwa mwishoni mwa dondoo moja na kisha mwanzo wake kwenye ukurasa unaofuata; baada ya kukamilika kwake yanakuja maneno ya Mtume ﷺ na maoni ya al-Bayhaqi kuhusu riwaya iliyohifadhiwa. Katika mjadala unaofuata wa uhakiki, al-Bayhaqi anasema kilichopokewa na Mamar na kilichopokewa na baadhi yao kutoka kwa Muhammad ibn Amr ni makosa ya upokezi, na anaipa uzito riwaya ya kundi la wapokezi. Huu ni ulinganisho wake wa matoleo yaliyopokewa, si tamko kwamba habari nyingine zote za kuondoka zina hali moja."
+      "source_text_sha256": "e3ed539e964ba7b8ebf3754c654025484873c4f4cadc7de8db30844b417c8e9e",
+      "text": "Katika uhakiki wa habari ya al-Hazwara, al-Bayhaqi anasema riwaya ya Mamar ni kosa; kando na hiyo, anasema kilichopokewa na baadhi yao kutoka kwa Muhammad ibn Amr pia ni kosa na anaipa uzito riwaya ya kundi la wapokezi."
     },
     {
       "unit_id": "hch_departure_point_1:text_ar",
@@ -2235,7 +2235,7 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "e2b099b48a6006675f1320ba6c1a56aec875dd33e608d5af259f1902d5b77d6f",
+  "translation_sha256": "8567e784c73dad98e5467185aae43655aee65ed1abb495b1be6a65d1afef20b6",
   "review": {
     "translation_compared": false,
     "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",

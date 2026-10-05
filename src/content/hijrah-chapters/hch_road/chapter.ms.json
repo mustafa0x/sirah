@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_road",
-  "revision": 1,
+  "revision": 2,
   "locale": "ms",
-  "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
-  "arabic_payload_sha256": "e9d5d12d676348d095160a148c827f78ac8545e95fd65b8ec102c39d14b68471",
-  "status": "translation_ready",
+  "arabic_sha256": "f16774c0a0d2bfb6c6443914e111b6c901fcc681699c3289bbc104a275002430",
+  "arabic_payload_sha256": "88b6f9f43978720aefcf5ca22a713bbc268c0217429adf0af3704c24ea7b1132",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_road:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_road:reader_question_ar",
-      "source_text_sha256": "36b9d88298edd0ed8577184b6dfb3be1c17323ef005ff49e24810ea1cd968f5f",
-      "text": "Bagaimanakah kepercayaan berkait dengan kepakaran penunjuk jalan, dan apakah yang kita ketahui tentang teman seperjalanan serta laluan tanpa mereka-reka peta yang tiada dalam teks?"
+      "source_text_sha256": "5900c3aadcb8f49f18929c61717f4352a73540c13e8ee4fa5e5f81716cbb9277",
+      "text": "Bagaimanakah Nabi ﷺ dan Abu Bakar menyerahkan dua tunggangan kepada penunjuk jalan, siapakah yang bertolak bersama mereka dari Gua Thawr dan laluan manakah yang mereka ambil?"
     },
     {
       "unit_id": "hch_road_overview:text_ar",
-      "source_text_sha256": "a30fd1102a9f7ea89d5788332e491c8bd27db8fa6df8f867831c8f73acd04ebb",
-      "text": "Apabila tiba masa meneruskan perjalanan dari Gua Thawr, dua ekor tunggangan berada dalam jagaan seorang lelaki yang diupah oleh Nabi ﷺ dan Abu Bakar kerana pengetahuannya tentang jalan. Kita membaca bagaimana mereka mempercayai kepakarannya, bilakah waktu yang dijanjikan, siapa yang berangkat bersama mereka, dan sejauh mana ungkapan “jalan pesisir” membolehkan kita menggambarkan laluan itu. Dalam riwayat lain, perkataan “menunjuki” menimbulkan persoalan penting: adakah Abu Bakar merujuk kepada penunjuk jalan apabila menjawab pertanyaan tentang orang yang bersamanya?"
+      "source_text_sha256": "196e0420d3d970e6b78d724c797fd8f90cd1ed04461a0a0fa5f5345a4c5674d1",
+      "text": "Apabila tiba masa meneruskan perjalanan dari Gua Thawr, dua ekor tunggangan berada dalam jagaan seorang lelaki yang diupah oleh Nabi ﷺ dan Abu Bakar kerana pengetahuannya tentang jalan."
     },
     {
       "unit_id": "hch_road_hire:title_ar",
@@ -68,18 +68,18 @@
     },
     {
       "unit_id": "hch_road_name_01:text_ar",
-      "source_text_sha256": "46515e0cc2202e28dec86412454ea0a4750128d6330f68cea0dff14706100105",
-      "text": "Petikan tentang pengupahan dalam al-Bukhari tidak menyatakan nama peribadi penunjuk jalan; ia menyebut keturunan dan kepakarannya. Dalam petikan sirah, Ibn Ishaq menukil daripada Asma binti Abu Bakar senarai empat orang: Nabi ﷺ, Abu Bakar, Amir bin Fuhairah dan Abdullah bin Arqat, penunjuk jalan mereka berdua. Kemudian Ibn Hisham menambah ejaan nama lain dengan ungkapan “dikatakan juga”: Abdullah bin Uraiqit. Ungkapan yang menunjukkan ketidakpastian itu tidak boleh dijadikan kepastian, dan perbezaan ejaan semata-mata tidak menunjukkan adanya dua orang penunjuk jalan."
+      "source_text_sha256": "384584d0f12a155432bc3cf87f9707f59dc7814f1ec10dd16d83dc76010f4e87",
+      "text": "Petikan tentang pengupahan dalam al-Bukhari tidak menyatakan nama peribadi penunjuk jalan; ia menyebut keturunan dan kepakarannya. Dalam petikan sirah, Ibn Ishaq menukil daripada Asma binti Abu Bakar senarai empat orang: Nabi ﷺ, Abu Bakar, Amir bin Fuhairah dan Abdullah bin Arqat, penunjuk jalan mereka berdua. Kemudian Ibn Hisham menambah ejaan nama lain dengan ungkapan “dikatakan juga”: Abdullah bin Uraiqit."
     },
     {
       "unit_id": "hch_road_name_02:text_ar",
-      "source_text_sha256": "5ae7ba9945e330e6cd6d9942cbc988fb64e9afa62ee8d0e8270b26f5281cfe52",
-      "text": "Petikan Asma bermula dengan kata-katanya, “Apabila kami mendengar kata-katanya.” Ungkapan ini merujuk kepada kisah suara dan syair dalam petikan sirah sebelumnya; kita membacanya untuk memahami permulaan kisah, bukan untuk mengesahkan peristiwa suara ghaib itu atau kesahihan syair tersebut. Senarai empat orang dalam petikan itu dinisbahkan kepada Asma menurut nukilan Ibn Ishaq, bukannya nama yang diperoleh daripada lafaz al-Bukhari."
+      "source_text_sha256": "fda80529b5b9bcf9ec25771b86dda8af77fb6f7202aee5beb5361690af09ca4e",
+      "text": "Dalam sirah, kisah tentang suara dan syair mendahului senarai Asma. Ibn Ishaq menukil daripadanya nama rombongan termasuk penunjuk jalan, sedangkan petikan al-Bukhari menyebut keturunan dan kepakarannya tanpa menyebut namanya."
     },
     {
       "unit_id": "hch_road_name_03:text_ar",
-      "source_text_sha256": "b9cf17c7197e08ce90e515f29ace467ff974bfa461899fc753b6ede5821bba89",
-      "text": "Dalam sebuah syarahan yang lebih kemudian, Hani Faqih memetik ungkapan Ibn Kathir yang menamakannya Abdullah bin Uraiqit. Hani kemudian menjelaskan dengan suaranya sendiri bahawa riwayat dalam kitab Sahih tidak menyebut nama itu secara terang, sedangkan Ibn Ishaq menamakannya dalam sirah. Nama dalam petikan dan batasan yang diberikan oleh pensyarah datang daripada dua suara berbeza; kita tidak menisbahkan ulasan Hani kepada Ibn Kathir, dan tidak menganggap ketiadaan nama dalam petikan al-Bukhari sebagai penafian terhadap nama yang disebut di tempat lain."
+      "source_text_sha256": "578fb81281a08bba9406a12bbc5af862c7ae352cea97fd9670b28bebf4cbf6f5",
+      "text": "Dalam sebuah syarahan yang lebih kemudian, Hani Faqih memetik ungkapan Ibn Kathir yang menamakannya Abdullah bin Uraiqit. Hani kemudian menjelaskan dengan suaranya sendiri bahawa riwayat dalam kitab Sahih tidak menyebut nama itu secara terang, sedangkan Ibn Ishaq menamakannya dalam sirah."
     },
     {
       "unit_id": "hch_road_trust:title_ar",
@@ -88,23 +88,23 @@
     },
     {
       "unit_id": "hch_road_trust_01:text_ar",
-      "source_text_sha256": "76c4e0019d7d890ee0ed5faef57d4a9eddfca45d1034c682599f5a38e415040a",
-      "text": "Dalam hadis Aisyah, kepakaran, kepercayaan dan perbezaan agama disebut bersama: penunjuk jalan disifatkan mahir, kemudian dipercayai menjaga dua tunggangan walaupun dia menganut agama orang kafir Quraisy. Al-Qurtubi pula menukil riwayat itu daripada al-Bukhari, lalu menisbahkan kepada al-Muhallab kesimpulan bahawa penganut syirik boleh dipercayai menjaga rahsia dan harta apabila kesetiaan dan maruah mereka diketahui, serta kepada Ibn al-Mundhir kesimpulan bahawa mereka boleh diupah untuk menunjukkan jalan. Kedua-duanya ialah pandangan yang dinisbahkan kepada para pensyarah, bukan butiran tambahan yang disaksikan Aisyah; pengulangan riwayat dalam kitab tafsir tidak serta-merta menjadikannya riwayat bebas hanya kerana kitabnya berbeza."
+      "source_text_sha256": "88e90a02d46c108338a4b4797206903a77292e095a919b782b00ce5e712cd1d7",
+      "text": "Dalam hadis Aisyah, kepakaran, kepercayaan dan perbezaan agama disebut bersama: penunjuk jalan disifatkan mahir, kemudian dipercayai menjaga dua tunggangan walaupun dia menganut agama orang kafir Quraisy. Al-Qurtubi pula menukil riwayat itu daripada al-Bukhari, lalu menisbahkan kepada al-Muhallab kesimpulan bahawa penganut syirik boleh dipercayai menjaga rahsia dan harta apabila kesetiaan dan maruah mereka diketahui, serta kepada Ibn al-Mundhir kesimpulan bahawa mereka boleh diupah untuk menunjukkan jalan."
     },
     {
       "unit_id": "hch_road_bounds:title_ar",
-      "source_text_sha256": "fd3f417e10235174d2b6f276d8e04dc92b52d87e37a853dfe512c0b38cb082c3",
-      "text": "Apa yang ditentukan oleh keterangan jalan dan apa yang dibiarkan terbuka"
+      "source_text_sha256": "73aa7b9e7b4db3a760798aa1b17d58ab78604fe44425d016fc578bab2facbf4d",
+      "text": "Janji di gua, jalan pesisir dan jawapan Abu Bakar"
     },
     {
       "unit_id": "hch_road_bounds_01:text_ar",
-      "source_text_sha256": "38931de249bf5d2fc64534000140e59960f8d1b8cc51326ab1bd3623a9f759b6",
-      "text": "Kata “mereka berdua membuat janji dengannya” pada halaman tentang pengupahan bersambung dengan “Gua Thawr selepas tiga malam” pada halaman berikutnya dalam hadis yang sama. “Pagi hari ketiga” ialah keterangan waktu dalam riwayat, bukan jam tertentu atau tarikh dalam kalendar. Begitu juga “jalan pesisir” ialah gambaran laluan di sini, bukan senarai tempat persinggahan atau garis koordinat pada peta."
+      "source_text_sha256": "8a4d6dab6714203616be952a12718caf23933f8e94b85a35bb76745e4284096d",
+      "text": "Selepas tiga malam, penunjuk jalan membawa dua tunggangan ke Gua Thawr pada waktu pagi, kemudian membawa mereka melalui jalan pesisir."
     },
     {
       "unit_id": "hch_road_bounds_02:text_ar",
-      "source_text_sha256": "95a013c141f4142b3d63f5b7d770306e63012a69ebd8966f4abb71907b93c75f",
-      "text": "Al-Bayhaqi meriwayatkan kisah lain daripada Abu Hurairah; sanad dan awal matannya bermula pada satu halaman, sedangkan ayatnya bersambung pada halaman berikutnya. Dalam sambungannya, Abu Bakar menjawab soalan tentang orang yang bersamanya: “Seorang pembimbing yang membimbingku.” Adapun riwayat Anas berbunyi, “Lelaki ini menunjukiku jalan,” dan menerangkan maksud jalan kebaikan. Kita mengekalkan lafaz setiap riwayat, menyambungkan halaman yang terputus dengan sambungannya, serta tidak mencampuradukkan kedua-dua jawapan itu dengan tugas penunjuk jalan yang diupah atau menjadikan pemisahan halaman sebagai dua sanad yang berasingan."
+      "source_text_sha256": "8b8112d5cfdd4b3e9e61123718487901f134ea84e7c18833af64eb05723f68bf",
+      "text": "Dalam riwayat al-Bayhaqi daripada Abu Hurairah, Abu Bakar menjawab tentang orang yang bersamanya: “Seorang pembimbing yang membimbingku.” Riwayat Anas pula berbunyi, “Lelaki ini menunjukiku jalan,” dan menjelaskan maksud jalan kebaikan, bukan tugas penunjuk jalan yang diupah."
     },
     {
       "unit_id": "hch_road_outline_skill:text_ar",
@@ -1295,12 +1295,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "e2a0f59c60359b8011de2d4f87e08fa8b619034c42c701f6ac833b36b59a3def",
+  "translation_sha256": "0382073e297a207bcf4512b1b7a203b4eb49e000406a99f65522664237209674",
   "review": {
-    "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
-    "translation_sha256": "e2a0f59c60359b8011de2d4f87e08fa8b619034c42c701f6ac833b36b59a3def",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 0f13f09d-e728-465f-b1f4-89661ef8324d across 250 Arabic/target units. Compared every one of the 250 bound Arabic–Malay inventory units in all ten complete pairs chunks (0–9): teaching prose, objectives, outlines, questions, distractors, correct meanings, explanations, scope notes and feedback, source metadata/citation URLs, and complete selected source passages. Read the bound literal documents and the Arabic-led watchlist. The revised title, Anas riding/age description and separate translator note on باع now preserve the relevant source distinctions; no further actionable semantic discrepancy identified in the reviewed inventory. This is a translation comparison only, not independent historical collation, language/specialist certification or permission for publication. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

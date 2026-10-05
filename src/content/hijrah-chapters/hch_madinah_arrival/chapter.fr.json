@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_madinah_arrival",
-  "revision": 1,
+  "revision": 2,
   "locale": "fr",
-  "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-  "arabic_payload_sha256": "2c4db980e433dbb9f819370ee2577669a7036d49f4c4648f5dad4128dd57bc54",
-  "status": "translation_ready",
+  "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+  "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -13,8 +13,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival:reader_question_ar",
-      "source_text_sha256": "4dc5fb16bc0ee37ada9dbf59b8e8ad38cf8d4f0c7e1a3c513b57b2d9822dd754",
-      "text": "Comment l’accueil réservé au Prophète ﷺ s’est-il prolongé par son hébergement chez Abû Ayyûb, et sur quels détails de la maison les récits divergent-ils ?"
+      "source_text_sha256": "6fbe777be9bd9eb6eb7664a675fdba3d66f4d79d097c82b02d175a4052faefb6",
+      "text": "Comment les habitants de Médine accueillirent-ils le Prophète ﷺ jusqu’à son séjour chez Abû Ayyûb, et en quoi les récits d’Ibn Ishâq et d’Aflaḥ diffèrent-ils sur les étages de la maison ?"
     },
     {
       "unit_id": "hch_madinah_arrival_overview1:text_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_overview2:text_ar",
-      "source_text_sha256": "bd46f0c2bc0e60cb3dc2c8b32c1511aa00fd32f65ebc34ff89f21c5d7efb88d3",
-      "text": "De la cour à la maison d’Abû Ayyûb, le récit de l’hospitalité prend de l’ampleur : dans le récit transmis par Ibn Ishâq, Abû Ayyûb raconte que le Prophète ﷺ logeait en bas, comment les habitants de la maison prirent soin de lui lorsqu’une jarre d’eau se brisa et comment ils lui préparaient le dîner. D’autres versions de ce récit sont examinées séparément dans la section d’approfondissement."
+      "source_text_sha256": "fcdefd53220926227718589b074a71cb76869a9a6a8fc4f83c5a3b52e32e6bf2",
+      "text": "De la cour à la maison d’Abû Ayyûb, le récit de l’hospitalité prend de l’ampleur : dans le récit transmis par Ibn Ishâq, Abû Ayyûb raconte que le Prophète ﷺ logeait en bas, comment les habitants de la maison prirent soin de lui lorsqu’une jarre d’eau se brisa et comment ils lui préparaient le dîner."
     },
     {
       "unit_id": "hch_madinah_arrival_arrival:title_ar",
@@ -108,28 +108,28 @@
     },
     {
       "unit_id": "hch_madinah_arrival_first:text_ar",
-      "source_text_sha256": "d89956d6f2e80fc1b7e39d6c4f8396fb8691098afee218ee7dbd8a660c819818",
-      "text": "Al-Barâ’ décrit la joie des habitants après avoir mentionné ceux qui étaient arrivés avant le Prophète ﷺ pour leur enseigner la récitation. Dans le récit conservé par al-Bayhaqî, Anas met plutôt l’accent sur son attente avec les garçons et sur l’accueil des Ansâr. Al-Bayhaqî répartit le bref récit d’Anas sur le jour de l’entrée entre deux extraits de pages successives : le nombre approximatif donné dans son récit plus long n’est donc pas un recensement de tous les habitants de Médine, pas plus que la description du jour ne donne une date précise."
+      "source_text_sha256": "b9c59c96e73bd9ca131d1a0d8c914adc8e6709a51dbbdb320a4ddaa4c02e0589",
+      "text": "Al-Barâ’ décrit la joie des habitants après avoir mentionné ceux qui étaient arrivés avant le Prophète ﷺ pour leur enseigner la récitation. Dans le récit conservé par al-Bayhaqî, Anas met plutôt l’accent sur son attente avec les garçons et sur l’accueil des Ansâr. Dans son récit plus long, Anas mentionne quelque cinq cents Ansâr venus accueillir le Prophète ﷺ et Abou Bakr ; dans le récit plus bref, il décrit le jour de l’arrivée sans en préciser la date dans le mois."
     },
     {
       "unit_id": "hch_madinah_arrival_friday:text_ar",
-      "source_text_sha256": "d7ae807a82a35c73ce700718b1f8b56967657dfce806099f9c9a7f126c1b6f69",
-      "text": "Ibn Hajar attribue à Ibn Ishâq et Ibn ‘Â’idh le récit du départ un vendredi ; dans une autre suite, il rapporte d’après al-Hâkim que la chamelle s’agenouilla devant la porte d’Abû Ayyûb. Le hadith d’Anas chez al-Bukhârî parle, lui, de l’arrivée dans la cour d’Abû Ayyûb. Un passage voisin d’Ibn Ishâq signale une divergence entre les habitants de Qubâ’ quant à la durée du séjour : ces fragments ne nous donnent ni date du mois ni itinéraire tracé. Le récit de la construction de la mosquée ne doit pas non plus être pris pour un détail du choix de l’hôte."
+      "source_text_sha256": "b584e602ef529870ea78c3e50710a8ca1238a877aaa9f60a3616f09fdf14f151",
+      "text": "Ibn Hajar attribue à Ibn Ishâq et Ibn ‘Â’idh le récit du départ un vendredi ; il rapporte d’après al-Hâkim que la chamelle s’agenouilla devant la porte d’Abû Ayyûb. Le hadith d’Anas chez al-Bukhârî parle, lui, de l’arrivée dans la cour d’Abû Ayyûb. Ibn Ishâq situe le séjour du Prophète ﷺ à Qubâ aux lundi, mardi, mercredi et jeudi, et rapporte aussi l’affirmation des Banû ʿAmr ibn ʿAwf selon laquelle il serait resté plus longtemps parmi eux."
     },
     {
       "unit_id": "hch_madinah_arrival_variants:title_ar",
-      "source_text_sha256": "854168b2cbed56af09ed95b94ece6f65e856f46b76903b077c8961c497ceb1d9",
-      "text": "Deux étages et un repas : comment lire les divergences ?"
+      "source_text_sha256": "0d15ac13925286c9114c0da81a23c2673d39a0c99824570b6a4547f3772b16f3",
+      "text": "Les deux étages et la nourriture chez Abû Ayyûb"
     },
     {
       "unit_id": "hch_madinah_arrival_upstairs:text_ar",
-      "source_text_sha256": "5b3c2933b85962c10a8183ab1f99e9d57b4ec227fbb95275ba0bd9eddea09d71",
-      "text": "Dans le récit d’Ibn Ishâq, Abû Ayyûb et Umm Ayyûb demeurent à l’étage lorsque survient l’épisode de la jarre brisée. Dans la voie de transmission d’Aflah, d’après Abû Ayyûb, chez Muslim, les occupants de l’étage se retirent sur le côté parce qu’ils répugnent à marcher au-dessus du Prophète ﷺ ; le récit s’achève ensuite sur l’installation du Prophète ﷺ à l’étage et d’Abû Ayyûb en bas. L’épisode de l’eau figure ici dans la seule version d’Ibn Ishâq : il n’est ni un maillon manquant à ajouter à la voie d’Aflah, ni une preuve permettant de dater le passage d’un étage à l’autre."
+      "source_text_sha256": "c81287a3d14744d1c4c18784ce972b3f8757a344c1c380c0d8626425dff20b84",
+      "text": "Dans le récit d’Ibn Ishâq, Abû Ayyûb et Umm Ayyûb demeurent à l’étage lorsque survient l’épisode de la jarre brisée. Dans la voie de transmission d’Aflah, d’après Abû Ayyûb, chez Muslim, les occupants de l’étage se retirent sur le côté parce qu’ils répugnent à marcher au-dessus du Prophète ﷺ ; le récit s’achève ensuite sur l’installation du Prophète ﷺ à l’étage et d’Abû Ayyûb en bas."
     },
     {
       "unit_id": "hch_madinah_arrival_garlic:text_ar",
-      "source_text_sha256": "917524b8686a9c7b9518b9547cf2868f96de563e1d09b418bc1017513ff4686d",
-      "text": "Le récit d’Ibn Ishâq laisse planer un doute entre l’oignon et l’ail et rapporte la réponse du Prophète ﷺ au sujet de l’odeur de la plante et de ses entretiens confidentiels. Dans la voie de Simâk chez Muslim, c’est l’ail qui est nommé sans hésitation, et le Prophète ﷺ précise qu’il le déteste à cause de son odeur, non qu’il est interdit. Le texte de la voie d’Aflah chez Muslim se poursuit sur deux fragments ; dans la suite, il répond : « Non, mais je le déteste. » Quant à la transmission parallèle de Yahyâ ibn Sa‘îd d’après Shu‘ba, elle mentionne la chaîne sans répéter le texte : elle n’établit pas un autre repas."
+      "source_text_sha256": "61d0cf2e1fa5d65303003674b749c986aabfc9b3e29d5757435ec01951688026",
+      "text": "Le récit d’Ibn Ishâq laisse planer un doute entre l’oignon et l’ail et rapporte la réponse du Prophète ﷺ au sujet de l’odeur de la plante et de ses entretiens confidentiels. Dans la voie de Simâk chez Muslim, c’est l’ail qui est nommé sans hésitation, et le Prophète ﷺ précise qu’il le déteste à cause de son odeur, non qu’il est interdit. Dans la voie d’Aflah chez Muslim, il répond ﷺ : « Non, mais je le déteste. » La transmission parallèle de Yahyâ ibn Sa‘îd d’après Shu‘ba mentionne la chaîne sans répéter le texte."
     },
     {
       "unit_id": "hch_madinah_arrival_point_welcome:text_ar",
@@ -143,8 +143,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_point_arrival:text_ar",
-      "source_text_sha256": "f52bdd5378df4ff7d01949127925d802d4b7d37d85af34153f927278f49655a2",
-      "text": "L’arrivée dans la cour d’Abû Ayyûb et les limites du récit sur la mosquée."
+      "source_text_sha256": "481388d4f6bb70134e92a89cc7cad09b903a68c8f8fba58155b3d834929a4d1a",
+      "text": "L’arrivée dans la cour d’Abû Ayyûb, puis la prière et la construction de la mosquée."
     },
     {
       "unit_id": "hch_madinah_arrival_point_home:text_ar",
@@ -2530,12 +2530,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "01f364a2c53d21b82ae0195cb3a39db2be92083fc2ed3c4fedafce938b3d5d02",
+  "translation_sha256": "fe502d9bdbd729dd4323da0c3b2ef6355af73014b28e66d4ae5fc64afb67806a",
   "review": {
-    "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-    "translation_sha256": "01f364a2c53d21b82ae0195cb3a39db2be92083fc2ed3c4fedafce938b3d5d02",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 5e5d0793-0aa5-4aef-88f9-08f7c2e0d0ba across 494 Arabic/target units. Comparaison sémantique arabe-français achevée pour les 494 unités, chacune lue dans les 18 fragments complets : enseignement, objectifs, plans, questions et réponses, commentaires et limites, métadonnées et textes source intégraux, chaînes, verset, vers scandés et URLs. Les notices répétées ont été examinées individuellement. Aucun écart de sens, omission ou problème de langue nécessitant une correction n’a été constaté dans ce périmètre ; les lectures sont traduites et aucune question n’est différée. Ce constat ne constitue ni une collation savante des sources ni une approbation linguistique indépendante ou une autorisation de diffusion. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

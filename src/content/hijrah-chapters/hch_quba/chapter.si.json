@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_quba",
-  "revision": 1,
+  "revision": 2,
   "locale": "si",
-  "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-  "arabic_payload_sha256": "ca01465899d46eb70e5492170e76b8d3a8dd971b8777dc508ac5ab07c53f440d",
-  "status": "translation_ready",
+  "arabic_sha256": "1624b3405bdb7416da9645d37221abca244c79d97e4663e294d67d7aabd3e3ec",
+  "arabic_payload_sha256": "e5fe029e6bc1f126bc2a3faea9498dcf2c55cb6c46cc804a00dd6245810b86c6",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_quba:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_quba:reader_question_ar",
-      "source_text_sha256": "811449a5baa9554d7512abd00c0eef4a8c6c4355ccbe622266527d97b8d0ffd1",
-      "text": "පැමිණෙන්නා එනතුරු බලා සිටීම හමුවීමක් වූයේ කෙසේද? කුබාවේ ගත කළ දින ගැන අප දන්නේ මොනවාද, නිශ්චිතව කිව නොහැක්කේ මොනවාද?"
+      "source_text_sha256": "d4e27e050f739504bf8d31dbf36688a3d3cd8c9e7fa15ccf7bec27ff61c52cca",
+      "text": "කුබාවේ බලා සිටි අය පැමිණි පිරිස අතර නබිතුමා ﷺ හඳුනාගත්තේ කෙසේද, එතුමා කාගේ නිවසේ නැවතුණේද, වාර්තා අනුව කොපමණ කාලයක් රැඳුණේද?"
     },
     {
       "unit_id": "hch_quba_p01:text_ar",
-      "source_text_sha256": "ab8d6f8b372b958761ac549a5168640aa5243011c6a76222a67570f311e46442",
-      "text": "හර්රා නම් ගල්බිමේ අද්දර මිනිසුන් බලා සිටීමේ සිට පැමිණි පිරිස අතර නබිතුමා ﷺ හඳුනා ගැනීමත්, ඉන්පසු බනු අම්ර් ඉබ්න් අව්ෆ් අතර නවාතැන් ගැනීමත් දක්වා, කුබාව මදීනාවට පිවිසුම විවර කරයි. මිනිසුන් හමුවීම, නවාතැන, මස්ජිදය හා පිටත්වීම පිළිබඳ වාර්තාව ඔස්සේ යමින්, රැඳී සිටි කාලය ගැන වාර්තා අතර වෙනසටත් අපි සවන් දෙමු."
+      "source_text_sha256": "9f0a0f7be5389f8bc2de4c76bd3574461089387bee22a18280a51cabb24fc6b0",
+      "text": "හර්රා නම් ගල්බිමේ අද්දර මිනිසුන් බලා සිටීමේ සිට පැමිණි පිරිස අතර නබිතුමා ﷺ හඳුනා ගැනීමත්, ඉන්පසු බනු අම්ර් ඉබ්න් අව්ෆ් අතර නවාතැන් ගැනීමත් දක්වා, කුබාව මදීනාවට පිවිසුම විවර කරයි."
     },
     {
       "unit_id": "hch_quba_wait:title_ar",
@@ -93,8 +93,8 @@
     },
     {
       "unit_id": "hch_quba_p11:text_ar",
-      "source_text_sha256": "9f5cab83f0e1a3691cbbd01c4338e1f4705826d4183f31ac38253208fcf8438c",
-      "text": "පැමිණි දිනය විමසා බැලීමට කැමැත්තන් සඳහා: පැමිණීම රබීඋල් අව්වල් මාසයේ ආරම්භයේදී හෝ ඉන් විවිධ දින ගණනක් පසු වූ බව කියන වාර්තා ඉබ්න් හජර් සඳහන් කර, ඒවා ගැළපීමට ඇති ක්‍රම යෝජනා කරයි; ඒ අතර නව සඳ දැකීමේ වෙනස ද වෙයි. තවත් තැනක කෙටි කාලයක් දැක්වූ ඇතැමුන් පැමිණි දිනය හෝ පිටත් වූ දිනය ගණන් නොගත් බව උපකල්පනය කරයි. මේවා විචාරකයා දිනයන්හි වෙනස තේරුම් ගැනීමට කළ උත්සාහයන් මිස, උර්වාගේ වාර්තාවට හෝ ඉබ්න් ඉස්හාක්ගේ ගණනයට එකතු කළ යුතු අලුත් නිශ්චිත දිනයක් නොවේ."
+      "source_text_sha256": "497ad14324bee2e203442215a00fcd1a62d0977dcf093750ff709de9f13a1ef6",
+      "text": "පැමිණීම රබීඋල් අව්වල් මාසයේ ආරම්භයේදී හෝ ඉන් විවිධ දින ගණනක් පසු වූ බව කියන වාර්තා ඉබ්න් හජර් සඳහන් කර, ඒවා ගැළපීමට ඇති ක්‍රම යෝජනා කරයි; ඒ අතර නව සඳ දැකීමේ වෙනස ද වෙයි. තවත් තැනක කෙටි කාලයක් දැක්වූ ඇතැමුන් පැමිණි දිනය හෝ පිටත් වූ දිනය ගණන් නොගත් බව උපකල්පනය කරයි."
     },
     {
       "unit_id": "hch_quba_p12:text_ar",
@@ -108,13 +108,13 @@
     },
     {
       "unit_id": "hch_quba_p13:text_ar",
-      "source_text_sha256": "5942ab839486544b54d84f61dd78c6d3859e4c3000f98c3282d68dcb7fe41878",
-      "text": "භක්තිමත්භාවය මත පිහිටුවූ මස්ජිදය ගැන ඉබ්න් හජර්ගේ වාක්‍යය පිටු සීමාවට පෙර ඇරඹී ඉන්පසු එය කුබා මස්ජිදය ලෙස පැහැදිලි කරමින් ඉදිරියට යයි. ඔහු ආයතයත්, එය කුබාවට අදාළ බවට බහුතරයේ අදහසත් ගෙන එයි; ඉන්පසු නබිතුමා ﷺගේ මස්ජිදය හඳුන්වන බවට වාර්තා වූ නබිතුමාගේ පිළිතුරක් සහ එසේ හඳුන්වන අතරම කුබාවේ යහපත සඳහන් කරන තවත් වාර්තාවක් ගෙන එයි. උපුටා ගත් ආයතය, විචාරකයා වාර්තා කරන නබිතුමාගේ පිළිතුර හා ඔහු දෙන විවරණය වෙන් වෙන් හඬවල්ය."
+      "source_text_sha256": "e937df932fe1d910905c6d882bf6d8476ef1539321c53bdedf76a33e0b3deb19",
+      "text": "ඉබ්න් හජර් ආයතයත්, එය කුබාවට අදාළ බවට බහුතරයේ අදහසත් ගෙන එයි; ඉන්පසු නබිතුමා ﷺගේ මස්ජිදය හඳුන්වන බවට වාර්තා වූ නබිතුමාගේ පිළිතුරක් සහ එසේ හඳුන්වන අතරම කුබාවේ යහපත සඳහන් කරන තවත් වාර්තාවක් ගෙන එයි."
     },
     {
       "unit_id": "hch_quba_p14:text_ar",
-      "source_text_sha256": "992a347f1c01691d6c05150de3319ee668a39f110691d17f152cea7a3a80a96e",
-      "text": "නබිතුමා ﷺගේ මස්ජිදය පිළිතුරෙන් විශේෂයෙන් දැක්වීමට හේතු විය හැකි ආකාරය ගැන කුර්තුබීගේ විවරණය ඉබ්න් හජර් ගෙන එයි. ඉන්පසු ඔහුම තවත් පැහැදිලි කිරීමක් දී මස්ජිද දෙකම භක්තිමත්භාවය මත පිහිටුවූ බව කියයි. අබූ හුරයිරාගේ වාර්තාව ගෙන එද්දී ආයතයේ වචනවලට පෙර නබිතුමා ﷺගේ වචනය ඇරඹී ආයතයට පසුව කුබාවේ මිනිසුන් ගැන සඳහන් කරමින් අවසන් වෙයි; ඉන්පසු ඇති දෙය ඉබ්න් හජර්ගේ විවරණයයි. පසුව ඔහු දාවූදී හා සුහයිලීගේ ගැළපීමේ ප්‍රකාශය කියයි. මෙහි කිසිම විචාරකයකුගේ විවරණයක් නබිතුමාගේ අලුත් වචනයක් හෝ මෙම පරිච්ඡේදයේ තීන්දුවක් බවට පත් නොවේ."
+      "source_text_sha256": "631c2afc927dadc59fd769fab6977db84be160d9172f0a56565ca2b1f2461f22",
+      "text": "නබිතුමා ﷺගේ මස්ජිදය පිළිතුරෙන් විශේෂයෙන් දැක්වීමට හේතු විය හැකි ආකාරය ගැන කුර්තුබීගේ විවරණය ඉබ්න් හජර් ගෙන එයි. ඉන්පසු ඔහුම තවත් පැහැදිලි කිරීමක් දී මස්ජිද දෙකම භක්තිමත්භාවය මත පිහිටුවූ බව කියයි. ඉබ්න් හජර් අබූ දාවූද් වෙතින් අබූ හුරයිරා නබිතුමා ﷺගෙන් ගෙනෙන පුවතද උපුටයි: පිරිසිදු වීමට ප්‍රිය කරන පුරුෂයන් සඳහන් කුරානයේ ආයතය කුබාවේ මිනිසුන් ගැන පහළ වූ බවයි. නබිතුමා ﷺගේ මස්ජිදය හඳුන්වන පිළිතුර, භක්තිමත්භාවය මත පිහිටුවීම කුබා මස්ජිදයට පමණක් සීමා යන අදහස ඉවත් කරන බව ඉබ්න් හජර් පැහැදිලි කරයි; මස්ජිද දෙකම එය මත පිහිටුවූ බව දාවූදී හා සුහයිලී පැවසූ අදහසද සඳහන් කරයි."
     },
     {
       "unit_id": "hch_quba_outline_wait:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "1c4b015b2e3fcae5bc4ca52c979e0f12f7c121ee19001bdf072b56edd900cbe9",
+  "translation_sha256": "e42f05c53e3246fcd94299b426009fb9aa1cfd196f43a7bdff1726ba10c4dcca",
   "review": {
-    "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-    "translation_sha256": "1c4b015b2e3fcae5bc4ca52c979e0f12f7c121ee19001bdf072b56edd900cbe9",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 21940a27-eea2-4664-9b0b-92fa9f04d678 across 381 Arabic/target units. Independently compared all 381 Arabic–Sinhala inventory pairs in full, untruncated chunks 0–15, covering teaching text and objectives, outlines, ten questions/options/correct answers/explanations/scope/feedback, repeated metadata and unchanged citation URLs, and full selected source excerpts (chains, Quran, poetry, commentary and speakers). No remaining actionable semantic, omission, answer or language discrepancies found in the bound draft. This is only an internal comparison of supplied Arabic against Sinhala, not source collation, independent language approval, specialist review or permission to distribute. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

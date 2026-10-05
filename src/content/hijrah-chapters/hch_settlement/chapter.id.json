@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_settlement",
-  "revision": 1,
+  "revision": 2,
   "locale": "id",
-  "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-  "arabic_payload_sha256": "aea9e58189b49b74bb4a481a4b2ff3929ef167e3e5c27cc8f7af60a180ccc2f3",
-  "status": "translation_ready",
+  "arabic_sha256": "80c19ce1af5a2a1f7fa80fe88665a540f4318f41d3863db5d7694e98f51f435c",
+  "arabic_payload_sha256": "0a946402c38ad782effe9e40bdb3546f8c21e50ac42325e21de13e47606292d1",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_settlement:title_ar",
@@ -18,13 +18,13 @@
     },
     {
       "unit_id": "hch_settlement_overview1:text_ar",
-      "source_text_sha256": "e36eae2365887f6b61c12ab29e69cdd29312aecafb7e17c315c4a5c0904db3b5",
-      "text": "Setelah kedatangan, muncul sisi-sisi lain dari hijrah: para muhajir menyusul ke Madinah, sebagian anggota keluarga tiba kemudian, dan Asma menuturkan kelahiran putranya di Quba. Riwayat Aisyah menyebut sakitnya Abu Bakar dan Bilal serta doa Nabi ﷺ bagi Madinah. Kita membaca berbagai peristiwa ini berdampingan tanpa memaksakan satu tanggal yang sama atas semuanya."
+      "source_text_sha256": "9e05ac626ff537039d89de5912f6c828cfb9be05cd60c4f0cf996a00c4ac79d9",
+      "text": "Setelah kedatangan, muncul sisi-sisi lain dari hijrah: para muhajir menyusul ke Madinah, sebagian anggota keluarga tiba kemudian, dan Asma menuturkan kelahiran putranya di Quba. Riwayat Aisyah menyebut sakitnya Abu Bakar dan Bilal serta doa Nabi ﷺ bagi Madinah."
     },
     {
       "unit_id": "hch_settlement_overview2:text_ar",
-      "source_text_sha256": "d5ffbaaf1c8ce6264d79da2dec35bec4fbab794e2cab50383c945b6a5abe68dd",
-      "text": "Narasi Ibnu Hibban, kisah Asma, dan penjelasan Ibnu Hajar berbeda dalam suara dan tingkat perinciannya: masing-masing menyampaikan apa yang berada dalam batas keterangannya; penjelasan atau catatan kaki tidak boleh diubah menjadi kesaksian perempuan yang mengalami peristiwa itu."
+      "source_text_sha256": "5891d3f6b41bae4e97632bc2e37337e95758eedd790b3baf0214550d1a32120b",
+      "text": "Ibnu Hibban meriwayatkan pemersaudarakan, dan Asma menceritakan kelahiran putranya di Quba. Ibnu Hajar mengunggulkan tahun pertama untuk kelahirannya, sementara catatan kaki edisi Muslim menjelaskan gambaran Madinah sebagai tempat yang tidak sehat dan dilanda penyakit dan memuat pendapat tentang Juhfah."
     },
     {
       "unit_id": "hch_settlement_arrivals:title_ar",
@@ -33,18 +33,18 @@
     },
     {
       "unit_id": "hch_settlement_arrivals1:text_ar",
-      "source_text_sha256": "262e605d7c25224d7869a39a850055f54daaa75767a7ca17df4e7b24e2858286",
-      "text": "Kedatangan Nabi tidak menutup jalan hijrah. Ibnu Ishaq meriwayatkan bahwa para muhajir datang menyusul; dari pernyataannya tentang mereka yang tertinggal di Makkah ia mengecualikan orang yang mengalami fitnah dan yang ditahan. Dalam riwayatnya tampak rumah-rumah yang tertutup ketika penghuninya pergi, bukan gambaran yang mengharuskan setiap muhajir berangkat bersama keluarga dan hartanya."
+      "source_text_sha256": "d6ec845ff1e99961c9b5c202cea5a034e810ab581db0ee8a94e58dbd82f26a1b",
+      "text": "Kedatangan Nabi tidak menutup jalan hijrah. Ibnu Ishaq meriwayatkan bahwa para muhajir datang menyusul; dari pernyataannya tentang mereka yang tertinggal di Makkah ia mengecualikan orang yang mengalami fitnah dan yang ditahan. Dalam riwayatnya tampak rumah-rumah yang tertutup ketika penghuninya pergi."
     },
     {
       "unit_id": "hch_settlement_arrivals2:text_ar",
-      "source_text_sha256": "258caab796940fe4e28e5e1522826535506d7bb30b63141fed3e6f53c2a67f90",
-      "text": "Lalu datanglah kisah kedatangan keluarga dari Makkah. Ibnu Hibban meriwayatkan bahwa Zaid bin Haritsah dan Abu Rafi diutus untuk menjemput Saudah dan putri-putri Nabi ﷺ, sementara Abu Bakar mengutus Ibnu Uraiqith kepada putranya Abdullah agar ia datang bersama keluarganya. Riwayat ini menceritakan perjalanan susulan keluarga setelah kedatangan Nabi; bukan berarti semua nama orang yang tiba dapat diketahui dari satu kalimat itu."
+      "source_text_sha256": "0c469a9790c5960476b434c6f659ca942acad2f4202ed9bdd6605ec55582a88c",
+      "text": "Lalu datanglah kisah kedatangan keluarga dari Makkah. Ibnu Hibban meriwayatkan bahwa Zaid bin Haritsah dan Abu Rafi diutus untuk menjemput Saudah dan putri-putri Nabi ﷺ, sementara Abu Bakar mengutus Ibnu Uraiqith kepada putranya Abdullah agar ia datang bersama keluarganya."
     },
     {
       "unit_id": "hch_settlement_arrivals3:text_ar",
-      "source_text_sha256": "9d96820ab004ce7a18fe76b2060a693b1a1714de64cc8b54bf993be7ec756195",
-      "text": "Ibnu Hajar, ketika mengutip Ibnu Ishaq, menambahkan nama-nama mereka yang tiba bersama keluarga Nabi ﷺ dan keluarga Abu Bakar; kemudian ia menyebut Ruqayyah lebih dahulu berangkat bersama Utsman, sedangkan Zainab tertinggal. Dalam riwayat Ibnu Saad, Nabi ﷺ mengutus Zaid dan Abu Rafi dari rumah Abu Ayyub ke Makkah; keduanya kembali membawa sebagian keluarganya. Perincian salah satu teks ini tidak boleh dijadikan daftar yang secara eksplisit diberikan Ibnu Hibban ketika ia berkata “putri-putrinya”."
+      "source_text_sha256": "01e1109eaa7ad30f3c3abac3303de2aa7b45dc0ff518162b964c0569c71d4690",
+      "text": "Ibnu Hajar, ketika mengutip Ibnu Ishaq, menambahkan nama-nama mereka yang tiba bersama keluarga Nabi ﷺ dan keluarga Abu Bakar; kemudian ia menyebut Ruqayyah lebih dahulu berangkat bersama Utsman, sedangkan Zainab tertinggal. Dalam riwayat Ibnu Saad, Nabi ﷺ mengutus Zaid dan Abu Rafi dari rumah Abu Ayyub ke Makkah; keduanya kembali membawa sebagian keluarganya."
     },
     {
       "unit_id": "hch_settlement_brotherhood:title_ar",
@@ -53,13 +53,13 @@
     },
     {
       "unit_id": "hch_settlement_brotherhood1:text_ar",
-      "source_text_sha256": "9d5acffae4cf8c98c2d4a29acca6a99cd517a335e7b95c911dd5385e81bb46b4",
-      "text": "Selain kedatangan keluarga, kisah pemersaudarakan muncul dalam narasi Ibnu Hibban: sebelumnya ada pengumpulan orang-orang yang diundang, disusul perkataan yang dinisbatkan kepada Nabi ﷺ dan penyebutan orang-orang yang dipersaudarakan. Ini riwayat panjang yang di sini terpotong oleh batas halaman-halamannya; penulis tidak mencantumkan sanad baru untuknya di bagian ini. Karena itu, ungkapan dan nama-nama di dalamnya dibaca sebagaimana adanya, bukan sebagai putusan menyeluruh mengenai setiap ikatan persaudaraan."
+      "source_text_sha256": "6848b5fd1dc490047703514c993f2944d408f43154263020704ade9f8e397863",
+      "text": "Selain kedatangan keluarga, kisah pemersaudarakan muncul dalam narasi Ibnu Hibban: sebelumnya ada pengumpulan orang-orang yang diundang, disusul perkataan yang dinisbatkan kepada Nabi ﷺ dan penyebutan orang-orang yang dipersaudarakan. Ibnu Hibban tidak menyertakan sanad baru untuk kisah ini di bagian tersebut."
     },
     {
       "unit_id": "hch_settlement_brotherhood2:text_ar",
-      "source_text_sha256": "f3288265b7806ce9cd0f447abbb1de2ef5b7a39d7a75acbe9aceb29a469b204d",
-      "text": "Dalam kelanjutan narasi itu, Abdurrahman bin Auf disebut bersama Utsman. Adapun Saad yang disebut di sana ialah Saad bin Abi Waqqash bersama Ammar. Pembaca tidak menemukan di sini kisah persaudaraan Abdurrahman dengan Saad bin Rabi ataupun percakapan keduanya. Kisah itu dibiarkan hingga teks yang meriwayatkannya dibuka, alih-alih mengisi kekosongan dengan sesuatu yang tidak ada dalam teks ini."
+      "source_text_sha256": "7d7821d32444549b6869a002ee853783614f79df32a838a4a8d1e1994d51ee1f",
+      "text": "Dalam kelanjutan narasi itu, Abdurrahman bin Auf disebut bersama Utsman. Adapun Saad yang disebut di sana ialah Saad bin Abi Waqqash bersama Ammar. Dalam riwayat ini tidak ada kisah persaudaraan Abdurrahman dengan Saad bin Rabi ataupun percakapan keduanya."
     },
     {
       "unit_id": "hch_settlement_birth:title_ar",
@@ -73,8 +73,8 @@
     },
     {
       "unit_id": "hch_settlement_birth2:text_ar",
-      "source_text_sha256": "edbd96f2ee905b2bd1a30534407239e2ffeac519546bb1f7b4d4d7cca9f2db97",
-      "text": "Aisyah menuturkan peristiwa itu dalam riwayat lebih singkat, menyebut kurma dan air liur Nabi ﷺ. Ringkasnya kisah Aisyah bukanlah tanggal lain bagi kelahiran itu; keterangan Asma tentang Quba tetaplah kesaksiannya sendiri, dan dari urutan kalimat itu kita tidak dapat menyimpulkan hari atau bulan kelahirannya."
+      "source_text_sha256": "bcd57af9cbe3713a8d0c5f773ec1b98fb9e0ee2f7ebd0d98bce60cf00ba58749",
+      "text": "Aisyah menuturkan peristiwa itu dalam riwayat lebih singkat, menyebut kurma dan air liur Nabi ﷺ. Asma menyebut Quba sebagai tempat kelahiran tanpa menentukan hari atau bulan; Aisyah pun tidak memberi tanggal lain."
     },
     {
       "unit_id": "hch_settlement_fever:title_ar",
@@ -88,28 +88,28 @@
     },
     {
       "unit_id": "hch_settlement_fever2:text_ar",
-      "source_text_sha256": "2421d2074033ae1244c6e52765dcbbdc5d9885427dc6b3f07a002a3056aea9e7",
-      "text": "Aisyah menyampaikan kabar sakit itu kepada Nabi ﷺ. Beliau lalu berdoa agar Madinah dicintai, diberi kesehatan, diberkahi takaran sha dan mudd-nya, dan agar demamnya dipindahkan ke Juhfah. Dalam Shahih Muslim riwayat itu diringkas menjadi keluhan kedua lelaki tersebut dan doa; dalam Bukhari ada redaksi doa yang lain. Beragam redaksi di sini memberi sudut pandang terhadap riwayat, bukan perintah untuk menghitung kejadian demam sebagai peristiwa-peristiwa terpisah."
+      "source_text_sha256": "ae1acf6ea8d860752b2ba8a30371e96ea6d95235a8b42b3304f5b2a5f1758c00",
+      "text": "Aisyah menyampaikan kabar sakit itu kepada Nabi ﷺ. Beliau lalu berdoa agar Madinah dicintai, diberi kesehatan, diberkahi takaran sha dan mudd-nya, dan agar demamnya dipindahkan ke Juhfah. Dalam Shahih Muslim riwayat itu diringkas menjadi keluhan kedua lelaki tersebut dan doa; dalam Bukhari ada redaksi doa yang lain."
     },
     {
       "unit_id": "hch_settlement_family_scope:title_ar",
-      "source_text_sha256": "63cd789331e09d0abacbabd7ff2d68ba06c12d1db97ca164c4b23648496a2ba8",
-      "text": "Nama-nama yang Tiba dan Batas Narasi"
+      "source_text_sha256": "3b23424d5e365c6dbc1e4697ceae88a8b8a92cc7e78cc6c64b8a6220d7604c08",
+      "text": "Nama-nama yang Tiba"
     },
     {
       "unit_id": "hch_settlement_family_scope1:text_ar",
-      "source_text_sha256": "5ae4c490614289334c553bc09475b1694ce7a4fc35e74f6f9df77ee1fd2f667e",
-      "text": "Dalam teks pilihan Ibnu Hibban terdapat pengutusan orang ke Makkah dan keberangkatan bersama keluarga Abu Bakar. Dalam kutipan Ibnu Hajar dari Ibnu Ishaq, ada lebih banyak nama serta komentar Ibnu Hajar mengenai waktu kelahiran Abdullah. Riwayat Ibnu Saad menyebut mereka yang tiba ditempatkan di rumah Haritsah bin Numan. Kita memperlakukan ini sebagai batas narasi yang berbeda-beda, bukan satu daftar yang dipaksakan kepada setiap saksi."
+      "source_text_sha256": "836da9f8af3fcae070c5155915e81558673b96e67f7aa832998318afe92d15d5",
+      "text": "Dalam riwayat Ibnu Hibban terdapat pengutusan orang ke Makkah dan keberangkatan bersama keluarga Abu Bakar. Dalam kutipan Ibnu Hajar dari Ibnu Ishaq, ada lebih banyak nama serta komentar Ibnu Hajar mengenai waktu kelahiran Abdullah. Riwayat Ibnu Saad menyebut mereka yang tiba ditempatkan di rumah Haritsah bin Numan."
     },
     {
       "unit_id": "hch_settlement_family_scope2:text_ar",
-      "source_text_sha256": "52459ae51a5384d93944c5ae15e21b5dd0eab7a27f58d77595320d94d9d6a4e1",
-      "text": "Karena ini pembacaan tentang masa sesudah kedatangan, kisah keluarga, pemersaudarakan, bayi, dan demam ditempatkan setelah bab masjid. Ini urutan penyajian bab, bukan penanggalan semua peristiwa. Ibnu Hajar memberitakan bahwa sebagian keluarga tiba ketika Nabi ﷺ sedang membangun masjidnya; itu tidak membuktikan bahwa semua kejadian di sini berlangsung setelah pembangunan selesai."
+      "source_text_sha256": "76b2e735e2bad2c0811d30c99c2df2adcb9000ccf05c57c9761e7147853b533c",
+      "text": "Ibnu Hajar menuturkan bahwa sebagian keluarga tiba saat Nabi ﷺ membangun masjidnya. Narasi Ibnu Hibban menyebut Nabi ﷺ tinggal bersama Abu Ayyub sampai pembangunan masjid selesai."
     },
     {
       "unit_id": "hch_settlement_dates:title_ar",
-      "source_text_sha256": "1fe4a44b5d411f852235acb4c93616bd05ac7f117785d1def4e444acebf67e53",
-      "text": "Apa yang Dipastikan oleh Riwayat Asma?"
+      "source_text_sha256": "ed17507e1ab83f9d94ec29aff23368df5e5b787c4e4e1cb21fa555c321a41bbb",
+      "text": "Kelahiran Abdullah dan perbedaan penanggalannya"
     },
     {
       "unit_id": "hch_settlement_dates1:text_ar",
@@ -118,8 +118,8 @@
     },
     {
       "unit_id": "hch_settlement_dates2:text_ar",
-      "source_text_sha256": "0f37cf363b3d9eb70164695815bc1b81ea09dcae27910536ad58899fa94d4e8d",
-      "text": "Ibnu Hajar cenderung memilih tahun pertama dan menyelisihi penentuan tahun kedua setelah dua puluh bulan yang dinukil dari al-Waqidi; ia kemudian menyanggah lamanya rentang tersebut dengan mengacu pada hijrah keluarga Abu Bakar. Ini adalah pilihan seorang pensyarah dan pembahasan berbagai riwayat, bukan tanggal yang diucapkan dalam hadis Asma. Mengenai makna “yang pertama” bagi bayi itu, ia membatasinya pada muhajir yang berada di Madinah dan menyebut nama-nama lain di luar cakupan tersebut."
+      "source_text_sha256": "bc1b1207e419a94144cab3e7e573c317a37d28c945d041672c81d269685712cc",
+      "text": "Ibnu Hajar cenderung memilih tahun pertama dan menyelisihi penentuan tahun kedua setelah dua puluh bulan yang dinukil dari al-Waqidi; ia kemudian menyanggah lamanya rentang tersebut dengan mengacu pada hijrah keluarga Abu Bakar. Mengenai makna “yang pertama” bagi bayi itu, ia membatasinya pada muhajir yang berada di Madinah dan menyebut nama-nama lain di luar cakupan tersebut."
     },
     {
       "unit_id": "hch_settlement_voices:title_ar",
@@ -168,8 +168,8 @@
     },
     {
       "unit_id": "hch_settlement_read_brotherhood:title_ar",
-      "source_text_sha256": "bbda4a59f78eec163470f971ad021933abfdb970384735ec7feb0727dd00d627",
-      "text": "Narasi Ibnu Hibban tentang persaudaraan serta batasnya"
+      "source_text_sha256": "08d4ab6c459c0dff70beea52566d2797f480e9acd465a5674983a463fdd2c620",
+      "text": "Narasi Ibnu Hibban tentang persaudaraan"
     },
     {
       "unit_id": "hch_settlement_read_asma:title_ar",
@@ -3975,12 +3975,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "047147ffc20a7c806f941fbd06e379c073e4c1462b3fcf051f56ed2dd923cc07",
+  "translation_sha256": "16624de7db85b1a8bbfb9ca381db730910fb9e24d0318fff31c30bf240412b45",
   "review": {
-    "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-    "translation_sha256": "047147ffc20a7c806f941fbd06e379c073e4c1462b3fcf051f56ed2dd923cc07",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 1fc20e12-df72-410e-a8c3-850473aa1ca5 across 787 Arabic/target units. Seluruh 787 pasangan unit Arab–Indonesia dalam 28 chunk dibandingkan secara semantik, termasuk uraian, tujuan, kerangka, sepuluh soal beserta jawaban/penjelasan/umpan balik, metadata, URL, dan teks sumber terpilih lengkap dengan sanad, kutipan Al-Qur’an, syair, serta komentar. Dua temuan pada pembandingan putaran sebelumnya tentang ucapan Ali dan atribusi tahun kelahiran telah diperbaiki dalam draf sekarang; tidak ditemukan masalah makna/kelengkapan lain yang perlu koreksi. Ini bukan kolasi sumber, penilaian kesahihan, persetujuan kebahasaan independen, persetujuan spesialis, atau izin distribusi. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 1,
+  "revision": 2,
   "locale": "fr",
-  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
-  "status": "translation_ready",
+  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
+  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_departure:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_departure:reader_question_ar",
-      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
-      "text": "Que nous apprennent les récits du plan et du départ, et en quoi leurs voix divergent-elles ?"
+      "source_text_sha256": "74136be76cec487fefea2b99ed667e9397689d507b00edd813205480c2b10f3f",
+      "text": "Que rapporte Ibn Ishâq sur l’assemblée des Quraychites et la couche du Prophète ﷺ sur laquelle Ali dormit, et que rapporte Urwa sur le départ nocturne ?"
     },
     {
       "unit_id": "hch_departure_overview:text_ar",
-      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
-      "text": "Le voyage commence ici par l'attente de l'autorisation à La Mecque, puis par la crainte des Quraychites de voir partir le Prophète ﷺ ; il passe ensuite par la couche d'Ali et les dépôts confiés qu'il resta pour restituer. Nous suivrons le récit d'Ibn Ishaq, puis nous examinerons celui d'Urwa et les critiques d'al-Suwayani et d'al-Bayhaqi lorsque leurs propos n'ont pas la même portée : tous les détails connus ne doivent pas être fondus en une seule scène tenue pour certaine."
+      "source_text_sha256": "bd42dc5d578cc0d1f5559b889c98cf2bab3833dc849c38e3725d04f74a062b37",
+      "text": "Le récit commence par l’attente de l’autorisation à La Mecque et la crainte des Quraychites de voir partir le Prophète ﷺ ; Ali dormit ensuite sur la couche du Prophète ﷺ et resta pour restituer les dépôts."
     },
     {
       "unit_id": "hch_departure_waiting:title_ar",
@@ -33,8 +33,8 @@
     },
     {
       "unit_id": "hch_departure_waiting2:text_ar",
-      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
-      "text": "Selon le récit d'Ibn Ishaq, les Quraychites constatèrent que les émigrants avaient trouvé hors de La Mecque un lieu où vivre et une protection ; ils craignirent que le Prophète ﷺ ne les rejoigne. Les leurs se réunirent à Dar al-Nadwa pour délibérer à son sujet : telle est la scène rapportée par le texte, non le compte rendu direct d'une réunion."
+      "source_text_sha256": "82765ecfe36526c915bea340bf98d6f73d17c9766537b3c6888963b320a7e6da",
+      "text": "Selon le récit d'Ibn Ishaq, les Quraychites constatèrent que les émigrants avaient trouvé hors de La Mecque un lieu où vivre et une protection ; ils craignirent que le Prophète ﷺ ne les rejoigne. Ils se réunirent à Dar al-Nadwa pour délibérer à son sujet."
     },
     {
       "unit_id": "hch_departure_council:title_ar",
@@ -43,13 +43,13 @@
     },
     {
       "unit_id": "hch_departure_council1:text_ar",
-      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
-      "text": "Dans le récit d'Ibn Abbas transmis par Ibn Ishaq, on propose d'abord de l'emprisonner, puis de l'exiler ; dans ce récit, le vieillard du Najd rejette les deux propositions. Abu Jahl propose ensuite que des jeunes gens de diverses tribus participent ensemble à l'attaque contre lui ; c'est sur cet avis que l'assemblée conclut dans ce récit. La précision de ce dialogue n'implique pas que tous les autres récits relatent la même réunion."
+      "source_text_sha256": "b0924fc446a04e4e33303d2b92b94e2578f137be27f22656d379a4abb6876031",
+      "text": "Dans le récit d’Ibn Abbas transmis par Ibn Ishâq, on propose d’abord d’emprisonner le Prophète ﷺ ; le vieillard du Najd refuse. Une proposition distincte d’exil est ensuite présentée, qu’il refuse également. Abou Jahl propose alors de donner une épée à un jeune homme de chaque tribu pour qu’ils frappent ensemble le Prophète ﷺ d’un seul coup et le tuent. Selon son raisonnement, la responsabilité de son sang serait répartie entre les tribus et les Banou Abd Manaf ne pourraient pas toutes les combattre. Dans ce récit, l’assemblée adopte l’avis d’Abou Jahl."
     },
     {
       "unit_id": "hch_departure_council2:text_ar",
-      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
-      "text": "Cette voie de transmission mentionne aussi Iblis sous l'apparence d'un vieillard. Al-Suwayani rapporte à un endroit que les différentes voies renforcent le récit, puis, ailleurs, exclut de son appréciation la mention d'Iblis. Lire uniquement la première appréciation, c'est manquer cette réserve et sa distinction entre des voies dont il qualifie certains transmetteurs de délaissés et un témoignage corroborant mursal."
+      "source_text_sha256": "86e3f65ad9921f23db4c2df8a3a04df103474b4e0c3c900815bcd50697147f30",
+      "text": "Cette voie de transmission mentionne aussi Iblis sous l'apparence d'un vieillard. Al-Suwayani rapporte à un endroit que les différentes voies renforcent le récit, puis, ailleurs, exclut de son appréciation la mention d'Iblis."
     },
     {
       "unit_id": "hch_departure_bed:title_ar",
@@ -73,28 +73,28 @@
     },
     {
       "unit_id": "hch_departure_trusts1:text_ar",
-      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
-      "text": "Dans cet autre récit d'Ibn Ishaq, la tâche d'Ali ne consistait pas seulement à dormir sur la couche : au moyen de la formule « d'après ce qui m'est parvenu », Ibn Ishaq dit que le Prophète ﷺ lui annonça son départ et lui ordonna de rester pour rendre aux gens leurs dépôts. C'est une formule de transmission sans informateur nommé, non un nom de transmetteur à suppléer."
+      "source_text_sha256": "aa8aa046502c8151d94eb4889c58905a4b4af8e9da999705d28da19ee4ef6b6a",
+      "text": "Dans cet autre récit d'Ibn Ishaq, la tâche d'Ali ne consistait pas seulement à dormir sur la couche : au moyen de la formule « d'après ce qui m'est parvenu », Ibn Ishaq dit que le Prophète ﷺ lui annonça son départ et lui ordonna de rester pour rendre aux gens leurs dépôts."
     },
     {
       "unit_id": "hch_departure_trusts2:text_ar",
-      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
-      "text": "Plus loin dans le récit, Ali resta à La Mecque trois nuits et les jours correspondants, jusqu'à ce qu'il eût restitué les dépôts ; puis il rejoignit le Prophète ﷺ et logea avec lui chez Kulthum ibn Hidm. Cela complète le récit des dépôts, sans préciser l'heure à laquelle l'un et l'autre partirent au cours d'une même nuit."
+      "source_text_sha256": "9363cd2f637e3fc489b4977eceb0a04132e971e1b420ce7b5a87cf20111e5985",
+      "text": "Plus loin dans le récit, Ali resta à La Mecque trois nuits et les jours correspondants, jusqu'à ce qu'il eût restitué les dépôts ; puis il rejoignit le Prophète ﷺ et logea avec lui chez Kulthum ibn Hidm."
     },
     {
       "unit_id": "hch_departure_voices:title_ar",
-      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
-      "text": "De l'assemblée à la route : les limites de chaque récit"
+      "source_text_sha256": "d1ea0839bf8ebad820a3dfad0595d9a3c594df39dd07e834aeeb9fe4081566fc",
+      "text": "Le départ de nuit et les guetteurs près de la maison"
     },
     {
       "unit_id": "hch_departure_voices1:text_ar",
-      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
-      "text": "Al-Bayhaqi transmet d'Urwa ibn al-Zubayr un tableau plus bref du complot : tuer, emprisonner, expulser ou entraver le Prophète, avec un verset de la sourate al-Anfal, le départ nocturne du Prophète ﷺ et d'Abu Bakr en direction de la grotte et le sommeil d'Ali sur la couche. Cet extrait d'Urwa ne mentionne ni les échanges au sein de l'assemblée ni la poignée de terre ; le verset est ici un texte coranique dans le récit d'Urwa, non la suite du dialogue de Dar al-Nadwa."
+      "source_text_sha256": "005eaa48470a06bdb880422fb001ed51d42316fcaa658fe234586daa7848bf71",
+      "text": "Al-Bayhaqi transmet d'Urwa ibn al-Zubayr un tableau plus bref du complot : tuer, emprisonner, expulser ou entraver le Prophète, avec un verset de la sourate al-Anfal, le départ nocturne du Prophète ﷺ et d'Abu Bakr en direction de la grotte et le sommeil d'Ali sur la couche. Le récit d’Urwa ne mentionne ni le dialogue de Dar al-Nadwa ni la terre répandue ; le verset d’al-Anfal qui s’y trouve est un texte coranique, non la suite du dialogue de l’assemblée."
     },
     {
       "unit_id": "hch_departure_voices2:text_ar",
-      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
-      "text": "Le récit d'Urwa parle d'un départ à la faveur de la nuit ; celui d'Ibn Abbas situe le rassemblement des guetteurs près de la maison du Prophète ﷺ dans l'obscurité nocturne. Aucun des deux ne précise l'heure d'une visite à la maison d'Abu Bakr. On ne peut déduire l'heure de cette visite de celle de la surveillance ni ramener ce qui s'est passé dans les deux maisons à une scène unique."
+      "source_text_sha256": "f900696cc357b24596d505490e13c2a68403cc4e1d7ae67c23041443c0cf3981",
+      "text": "Le récit d’Urwa parle du départ nocturne ; celui d’Ibn Abbas place les guetteurs à la porte de la maison du Prophète ﷺ dans l’obscurité. Aucun ne précise l’heure de la visite distincte chez Abou Bakr."
     },
     {
       "unit_id": "hch_departure_criticism:title_ar",
@@ -103,18 +103,18 @@
     },
     {
       "unit_id": "hch_departure_criticism1:text_ar",
-      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
-      "text": "Une note d'al-Suwayani dit du récit de Dar al-Nadwa qu'il est hasan grâce à ses différentes voies ; elle juge peu satisfaisante la voie d'al-Kalbi, qualifie celle d'al-Hasan ibn Umara de délaissée et évoque le témoignage corroborant mursal de Qatada et al-Waqidi, lui-même délaissé. Dans un autre texte, al-Suwayani exclut la mention d'Iblis de son jugement favorable sur le hadith. Nous lui attribuons l'appréciation et la réserve, sans les remplacer par notre propre examen des chaînes de transmission qui n'ont pas été étudiées ici."
+      "source_text_sha256": "405fd6cebdc6bf99818431a2f5d2cc4d361a12b4ff6b0f2fb92ae89372c0df32",
+      "text": "Une note d'al-Suwayani dit du récit de Dar al-Nadwa qu'il est hasan grâce à ses différentes voies ; elle juge peu satisfaisante la voie d'al-Kalbi, qualifie celle d'al-Hasan ibn Umara de délaissée et évoque le témoignage corroborant mursal de Qatada et al-Waqidi, lui-même délaissé. Dans un autre texte, al-Suwayani exclut la mention d'Iblis de son jugement favorable sur le hadith."
     },
     {
       "unit_id": "hch_departure_criticism2:text_ar",
-      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
-      "text": "Al-Suwayani examine une chaîne passant par Abu Balj : il dit que sa chaîne n'appelle pas d'objection tant qu'Abu Balj n'est pas seul à transmettre une formulation divergente. Il juxtapose la reconnaissance de sa fiabilité par certains savants et la critique d'al-Bukhari, qui dit à son sujet « fihi nazar » (« son cas appelle examen »), formule qu'al-Suwayani décrit comme sévère dans l'usage technique d'al-Bukhari. La suite de ses propos, à la page suivante, fait partie de cette critique : ce jugement ne rejette pas en bloc tous les récits relatifs à Ali et ne valide pas toutes les formulations qu'on transmet de lui."
+      "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
+      "text": "Al-Suwayani examine une chaîne passant par Abu Balj : il dit que sa chaîne n'appelle pas d'objection tant qu'Abu Balj n'est pas seul à transmettre une formulation divergente. Il juxtapose la reconnaissance de sa fiabilité par certains savants et la critique d'al-Bukhari, qui dit à son sujet « fihi nazar » (« son cas appelle examen »), formule qu'al-Suwayani décrit comme sévère dans l'usage technique d'al-Bukhari."
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
-      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
-      "text": "Dans les paroles adressées par le Prophète ﷺ à Ali, selon Ibn Ishaq, le manteau est décrit comme vert et provenant du Hadramawt ; les paroles se terminent au début de l'extrait suivant. Ibn Ishaq introduit ensuite la chaîne de Yazid ibn Ziyad, d'après Muhammad ibn Ka'b, pour le récit de la terre répandue et de la récitation de Ya-Sin. Cette récitation n'est donc pas attribuée, par cette chaîne, à la voie précédente d'Ibn Abbas. Distinguer les deux voies importe davantage que d'ajouter chaque détail à tout récit mentionnant la couche."
+      "source_text_sha256": "3a1c8208e04699f930f7937afce7b566ad4fb7f2a6a0080ea97ba4a1b2700c53",
+      "text": "Dans le récit d’Ibn Ishâq, le Prophète ﷺ parle à Ali du manteau vert du Hadramawt. Ibn Ishâq transmet le récit de la terre répandue et de la récitation de Yâ-Sîn par Yazîd ibn Ziyâd, d’après Muhammad ibn Ka‘b al-Qurazî."
     },
     {
       "unit_id": "hch_departure_hazwara:title_ar",
@@ -123,13 +123,13 @@
     },
     {
       "unit_id": "hch_departure_hazwara1:text_ar",
-      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
-      "text": "Dans un récit transmis par al-Bayhaqi d'après Abd Allah ibn Adi ibn al-Hamra, le Prophète ﷺ, debout à al-Hazwara dans le marché de La Mecque, dit à cette ville qu'elle est la terre d'Allah qu'il aime le plus et que, s'il n'en avait pas été chassé, il ne l'aurait pas quittée. Al-Bayhaqi tient cette version pour préservée. Le récit ne précise ni l'heure de son passage à al-Hazwara ni un lien avec la porte de la maison ou la couche d'Ali."
+      "source_text_sha256": "7be7e627a4749be2ef487f4d8c12c1f10227d75be8815f33794032e59c5ba62e",
+      "text": "Dans un récit transmis par al-Bayhaqi d'après Abd Allah ibn Adi ibn al-Hamra, le Prophète ﷺ, debout à al-Hazwara dans le marché de La Mecque, dit à cette ville qu'elle est la meilleure des terres d’Allah et celle qu’il aime le plus et que, s'il n'en avait pas été chassé, il ne l'aurait pas quittée. Al-Bayhaqi tient cette version pour préservée. Le récit ne précise pas l’heure où il se tint à al-Hazwara et ne relie pas cet épisode à la porte de la maison du Prophète ﷺ ni à sa couche sur laquelle Ali dormit."
     },
     {
       "unit_id": "hch_departure_hazwara2:text_ar",
-      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
-      "text": "La chaîne du récit d'Abd Allah ibn Adi ibn al-Hamra commence à la fin d'un extrait et se poursuit au début de la page suivante ; viennent ensuite les paroles du Prophète ﷺ et l'observation d'al-Bayhaqi sur la version préservée. Dans la discussion critique qui suit, al-Bayhaqi juge entachés d'erreur ce que rapporte Ma'mar et ce que certains rapportent d'après Muhammad ibn Amr, et privilégie la version du groupe. Il s'agit de son choix entre des versions transmises, non d'un jugement selon lequel tous les autres récits du départ auraient le même statut."
+      "source_text_sha256": "e3ed539e964ba7b8ebf3754c654025484873c4f4cadc7de8db30844b417c8e9e",
+      "text": "Dans sa critique du récit d’al-Hazwara, al-Bayhaqi juge erronée la version de Ma‘mar ; il juge séparément erronée celle que certains transmettent de Muhammad ibn Amr et privilégie la version du groupe."
     },
     {
       "unit_id": "hch_departure_point_1:text_ar",
@@ -2235,12 +2235,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "40519a0f5ba0e5a3b6e5eb0dc94103a2ce047412e822dff24c1d136ea856f4e4",
+  "translation_sha256": "d426bdbb44f9d15db9a78437fa0a5135809661e080709e5dab2d6a6f0a6f4206",
   "review": {
-    "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-    "translation_sha256": "40519a0f5ba0e5a3b6e5eb0dc94103a2ce047412e822dff24c1d136ea856f4e4",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session a534131a-7f22-4b88-9812-7c9c84ceb5f9 across 437 Arabic/target units. Comparaison bilingue arabe–français directe et complète des 437 unités dans les 17 segments non tronqués : exposé, plan, objectifs, dix questions avec toutes leurs options, réponses correctes, justifications, limites et retours, métadonnées, citations avec URL et textes intégraux des huit lectures. La formulation de l'option 6a relevée au deuxième tour a été corrigée ; aucune autre divergence de sens ou lacune de traduction nécessitant une correction n'a été constatée dans le périmètre. Il ne s'agit pas d'une collation savante des sources ni d'une approbation linguistique, spécialisée ou de diffusion. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_quba",
-  "revision": 1,
+  "revision": 2,
   "locale": "ur",
-  "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-  "arabic_payload_sha256": "ca01465899d46eb70e5492170e76b8d3a8dd971b8777dc508ac5ab07c53f440d",
-  "status": "translation_ready",
+  "arabic_sha256": "1624b3405bdb7416da9645d37221abca244c79d97e4663e294d67d7aabd3e3ec",
+  "arabic_payload_sha256": "e5fe029e6bc1f126bc2a3faea9498dcf2c55cb6c46cc804a00dd6245810b86c6",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_quba:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_quba:reader_question_ar",
-      "source_text_sha256": "811449a5baa9554d7512abd00c0eef4a8c6c4355ccbe622266527d97b8d0ffd1",
-      "text": "آنے والوں کا انتظار ملاقات میں کیسے بدلا، اور قباء میں قیام کے دنوں کے بارے میں ہم کیا جانتے ہیں اور کس بات کا قطعی دعویٰ نہیں کرتے؟"
+      "source_text_sha256": "d4e27e050f739504bf8d31dbf36688a3d3cd8c9e7fa15ccf7bec27ff61c52cca",
+      "text": "قباء میں انتظار کرنے والوں نے آنے والوں میں نبی ﷺ کو کیسے پہچانا، آپ کس کے ہاں ٹھہرے، اور روایتوں کے مطابق کتنی مدت قیام کیا؟"
     },
     {
       "unit_id": "hch_quba_p01:text_ar",
-      "source_text_sha256": "ab8d6f8b372b958761ac549a5168640aa5243011c6a76222a67570f311e46442",
-      "text": "حرّہ کے کنارے لوگوں کے انتظار سے لے کر آنے والوں میں نبی ﷺ کی شناخت اور پھر بنو عمرو بن عوف کے ہاں قیام تک، قباء مدینہ کی داستان کا دروازہ کھولتا ہے۔ ہم روایت کے ساتھ لوگوں سے ملاقات، قیام گاہ، مسجد اور پھر روانگی کا ذکر کریں گے اور قیام کی مدت سے متعلق روایات کا اختلاف بھی دیکھیں گے۔"
+      "source_text_sha256": "9f0a0f7be5389f8bc2de4c76bd3574461089387bee22a18280a51cabb24fc6b0",
+      "text": "حرّہ کے کنارے لوگوں کے انتظار سے لے کر آنے والوں میں نبی ﷺ کی شناخت اور پھر بنو عمرو بن عوف کے ہاں قیام تک، قباء مدینہ کی داستان کا دروازہ کھولتا ہے۔"
     },
     {
       "unit_id": "hch_quba_wait:title_ar",
@@ -93,8 +93,8 @@
     },
     {
       "unit_id": "hch_quba_p11:text_ar",
-      "source_text_sha256": "9f5cab83f0e1a3691cbbd01c4338e1f4705826d4183f31ac38253208fcf8438c",
-      "text": "آمد کے وقت کا جائزہ لینے والے کے لیے: ابن حجر ایسی خبریں نقل کرتے ہیں جن میں آمد ربیع الاول کی ابتدا میں یا اس کے مختلف دن بعد بتائی گئی ہے؛ پھر ان میں تطبیق کی صورتیں پیش کرتے ہیں، جن میں چاند دیکھنے میں اختلاف بھی ہے۔ ایک اور مقام پر مختصر مدت بتانے والوں کے ہاں داخلے یا خروج کے دن کا شمار نہ ہونے کا امکان پیش کرتے ہیں۔ یہ مختلف تاریخیں سمجھنے کے لیے شارح کی کوششیں ہیں، نہ عروہ کے متن یا ابن اسحاق کی گنتی میں اضافہ کرنے والی کوئی نئی ثابت تاریخ۔"
+      "source_text_sha256": "497ad14324bee2e203442215a00fcd1a62d0977dcf093750ff709de9f13a1ef6",
+      "text": "ابن حجر ایسی خبریں نقل کرتے ہیں جن میں آمد ربیع الاول کی ابتدا میں یا اس کے مختلف دن بعد بتائی گئی ہے؛ پھر ان میں تطبیق کی صورتیں پیش کرتے ہیں، جن میں چاند دیکھنے میں اختلاف بھی ہے۔ ایک اور مقام پر مختصر مدت بتانے والوں کے ہاں داخلے یا خروج کے دن کا شمار نہ ہونے کا امکان پیش کرتے ہیں۔"
     },
     {
       "unit_id": "hch_quba_p12:text_ar",
@@ -108,13 +108,13 @@
     },
     {
       "unit_id": "hch_quba_p13:text_ar",
-      "source_text_sha256": "5942ab839486544b54d84f61dd78c6d3859e4c3000f98c3282d68dcb7fe41878",
-      "text": "ابن حجر کی تقویٰ پر قائم مسجد کے بارے میں عبارت صفحے کی حد سے پہلے شروع ہوتی ہے اور آگے اس کی توضیح مسجد قباء کے طور پر جاری ہے۔ وہ آیت اور جمہور کی یہ رائے نقل کرتے ہیں کہ اس سے قباء مراد ہے؛ پھر نبی ﷺ سے منقول ایک جواب لاتے ہیں جو آپ ﷺ کی مسجد کی تعیین کرتا ہے، اور ایک دوسری خبر بھی جو اس تعیین کے ساتھ قباء کی فضیلت بتاتی ہے۔ منقول آیت، شارح کے نقل کردہ نبوی جواب اور اس کی اپنی تفسیر الگ الگ آوازیں ہیں۔"
+      "source_text_sha256": "e937df932fe1d910905c6d882bf6d8476ef1539321c53bdedf76a33e0b3deb19",
+      "text": "ابن حجر آیت اور جمہور کی یہ رائے نقل کرتے ہیں کہ اس سے قباء مراد ہے؛ پھر نبی ﷺ سے منقول ایک جواب لاتے ہیں جو آپ ﷺ کی مسجد کی تعیین کرتا ہے، اور ایک دوسری خبر بھی جو اس تعیین کے ساتھ قباء کی فضیلت بتاتی ہے۔"
     },
     {
       "unit_id": "hch_quba_p14:text_ar",
-      "source_text_sha256": "992a347f1c01691d6c05150de3319ee668a39f110691d17f152cea7a3a80a96e",
-      "text": "ابن حجر قرطبی کی اس توضیح کو نقل کرتے ہیں کہ جواب میں نبی ﷺ کی مسجد کو خاص کرنے کی ایک وجہ ہو سکتی ہے؛ پھر خود ایک اور پہلو پیش کر کے کہتے ہیں کہ دونوں مسجدوں کی بنیاد تقویٰ پر رکھی گئی۔ ابو ہریرہؓ کی خبر نقل کرتے ہوئے نبی ﷺ کی عبارت آیت کے الفاظ سے پہلے آتی ہے اور اس کے بعد اہلِ قباء کے بارے میں پوری ہوتی ہے؛ اس کے بعد ابن حجر کی تفسیر ہے۔ پھر وہ داودی اور سہیلی کی تطبیق کا قول ذکر کرتے ہیں۔ یہاں کسی شارح کی تفسیر نہ نئی نبوی بات بنتی ہے، نہ اس باب کا اپنا فیصلہ۔"
+      "source_text_sha256": "631c2afc927dadc59fd769fab6977db84be160d9172f0a56565ca2b1f2461f22",
+      "text": "ابن حجر قرطبی کی اس توضیح کو نقل کرتے ہیں کہ جواب میں نبی ﷺ کی مسجد کو خاص کرنے کی ایک وجہ ہو سکتی ہے؛ پھر خود ایک اور پہلو پیش کر کے کہتے ہیں کہ دونوں مسجدوں کی بنیاد تقویٰ پر رکھی گئی۔ ابن حجر ابو داود سے ابو ہریرہ کی روایت بھی نقل کرتے ہیں کہ نبی ﷺ نے قرآن کی اس آیت کے بارے میں، جس میں پاکیزگی پسند کرنے والے مردوں کا ذکر ہے، فرمایا کہ وہ اہلِ قباء کے بارے میں نازل ہوئی۔ ابن حجر نبی ﷺ کی مسجد متعین کرنے والے جواب کی یہ توضیح کرتے ہیں کہ اس سے تقویٰ پر بنیاد کو صرف مسجدِ قباء سے خاص سمجھنے کا گمان دور ہوتا ہے؛ وہ داودی اور سہیلی کا یہ قول بھی نقل کرتے ہیں کہ دونوں مسجدوں کی بنیاد تقویٰ پر رکھی گئی۔"
     },
     {
       "unit_id": "hch_quba_outline_wait:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "e287eb39776fb9b8b5c42b3c9c54e823db7a260bcedf40ea8ccfbb196a2ccc32",
+  "translation_sha256": "fb003a5bd4b82c144c0d9df5d5faf141ee3d6fae93177ec7f36e5629b8be158a",
   "review": {
-    "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-    "translation_sha256": "e287eb39776fb9b8b5c42b3c9c54e823db7a260bcedf40ea8ccfbb196a2ccc32",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session c05f2317-a1a4-4bea-a693-b54376d9db1d across 381 Arabic/target units. Compared all 381 paired inventory units in the bound Arabic chapter and revised Urdu draft, reading every part of all 15 untruncated chunks. Scope includes teaching prose, objectives, outlines, all practice options and feedback, metadata, URLs, chains, Quran, commentary, poetry and full selected source excerpts. The four previously observed issues in chain wording, price negotiation, doorway construction and reported Prophetic speech are corrected in this draft; no further actionable semantic or language divergence was identified within this selected-text scope. This is not collation of whole books or independent language/specialist approval or publication permission. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

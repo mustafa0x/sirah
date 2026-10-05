@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_madinah_arrival",
-  "revision": 1,
+  "revision": 2,
   "locale": "en",
-  "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-  "arabic_payload_sha256": "2c4db980e433dbb9f819370ee2577669a7036d49f4c4648f5dad4128dd57bc54",
-  "status": "translation_ready",
+  "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+  "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -13,8 +13,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival:reader_question_ar",
-      "source_text_sha256": "4dc5fb16bc0ee37ada9dbf59b8e8ad38cf8d4f0c7e1a3c513b57b2d9822dd754",
-      "text": "How did the Prophet’s ﷺ welcome lead to his stay as a guest in Abu Ayyub’s house, and where do the accounts differ about the house?"
+      "source_text_sha256": "6fbe777be9bd9eb6eb7664a675fdba3d66f4d79d097c82b02d175a4052faefb6",
+      "text": "How did the people of Madinah welcome the Prophet ﷺ before he stayed in Abu Ayyub’s house, and how do Ibn Ishaq’s and Aflah’s accounts differ about the floors?"
     },
     {
       "unit_id": "hch_madinah_arrival_overview1:text_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_overview2:text_ar",
-      "source_text_sha256": "bd46f0c2bc0e60cb3dc2c8b32c1511aa00fd32f65ebc34ff89f21c5d7efb88d3",
-      "text": "From Abu Ayyub’s courtyard to his house, the account of hospitality expands: in Ibn Ishaq’s report Abu Ayyub describes the Prophet ﷺ staying on the lower floor, the household’s care when the water jar broke, and the supper they prepared for him. Other versions of this account are considered separately in the in-depth section."
+      "source_text_sha256": "fcdefd53220926227718589b074a71cb76869a9a6a8fc4f83c5a3b52e32e6bf2",
+      "text": "From Abu Ayyub’s courtyard to his house, the account of hospitality expands: in Ibn Ishaq’s report Abu Ayyub describes the Prophet ﷺ staying on the lower floor, the household’s care when the water jar broke, and the supper they prepared for him."
     },
     {
       "unit_id": "hch_madinah_arrival_arrival:title_ar",
@@ -108,28 +108,28 @@
     },
     {
       "unit_id": "hch_madinah_arrival_first:text_ar",
-      "source_text_sha256": "d89956d6f2e80fc1b7e39d6c4f8396fb8691098afee218ee7dbd8a660c819818",
-      "text": "Al-Bara’ describes the people’s joy after naming those who arrived before the Prophet ﷺ to teach them recitation; Anas’s report in al-Bayhaqi, by contrast, speaks of waiting with the boys and of the Ansar’s welcome. Al-Bayhaqi’s shorter report from Anas on the day of arrival spans selections from two pages: the approximate number in the longer report is therefore not a count of all Madinah’s residents, nor is the description of the day a precise date."
+      "source_text_sha256": "b9c59c96e73bd9ca131d1a0d8c914adc8e6709a51dbbdb320a4ddaa4c02e0589",
+      "text": "Al-Bara’ describes the people’s joy after naming those who arrived before the Prophet ﷺ to teach them recitation; Anas’s report in al-Bayhaqi, by contrast, speaks of waiting with the boys and of the Ansar’s welcome. In his longer report Anas mentions about five hundred Ansar welcoming the Prophet ﷺ and Abu Bakr; his shorter report describes the day of arrival without giving a day of the month."
     },
     {
       "unit_id": "hch_madinah_arrival_friday:text_ar",
-      "source_text_sha256": "d7ae807a82a35c73ce700718b1f8b56967657dfce806099f9c9a7f126c1b6f69",
-      "text": "Ibn Hajar attributes the account of the Friday departure to Ibn Ishaq and Ibn A’idh and, in another continuation, quotes al-Hakim on the she-camel kneeling at Abu Ayyub’s door; Anas’s hadith in al-Bukhari, however, says they reached Abu Ayyub’s courtyard. In a nearby passage Ibn Ishaq notes that the people of Quba disagreed about the length of the stay there. These passages do not give us a day of the month or a mapped route, nor do they make the mosque’s construction a detail of the choice of host."
+      "source_text_sha256": "b584e602ef529870ea78c3e50710a8ca1238a877aaa9f60a3616f09fdf14f151",
+      "text": "Ibn Hajar attributes the account of the Friday departure to Ibn Ishaq and Ibn A’idh and quotes al-Hakim on the she-camel kneeling at Abu Ayyub’s door; Anas’s hadith in al-Bukhari, however, says they reached Abu Ayyub’s courtyard. Ibn Ishaq says the Prophet ﷺ stayed in Quba on Monday, Tuesday, Wednesday and Thursday, and reports Banu Amr ibn Awf’s claim that he stayed among them longer than that."
     },
     {
       "unit_id": "hch_madinah_arrival_variants:title_ar",
-      "source_text_sha256": "854168b2cbed56af09ed95b94ece6f65e856f46b76903b077c8961c497ceb1d9",
-      "text": "Two floors and a meal: reading the differences"
+      "source_text_sha256": "0d15ac13925286c9114c0da81a23c2673d39a0c99824570b6a4547f3772b16f3",
+      "text": "The Two Floors and the Food in Abu Ayyub’s House"
     },
     {
       "unit_id": "hch_madinah_arrival_upstairs:text_ar",
-      "source_text_sha256": "5b3c2933b85962c10a8183ab1f99e9d57b4ec227fbb95275ba0bd9eddea09d71",
-      "text": "Ibn Ishaq’s report leaves Abu Ayyub and Umm Ayyub upstairs when it relates the broken jar. In the account through Aflah from Abu Ayyub in Muslim, the people upstairs moved to one side because they disliked walking above the Prophet ﷺ; the account ends with the Prophet ﷺ moving upstairs and Abu Ayyub downstairs. The water incident occurs here only in Ibn Ishaq’s version: it is neither a missing episode to insert into Aflah’s account nor evidence for the timing of the move between floors in that account."
+      "source_text_sha256": "c81287a3d14744d1c4c18784ce972b3f8757a344c1c380c0d8626425dff20b84",
+      "text": "Ibn Ishaq’s report leaves Abu Ayyub and Umm Ayyub upstairs when it relates the broken jar. In the account through Aflah from Abu Ayyub in Muslim, the people upstairs moved to one side because they disliked walking above the Prophet ﷺ; the account ends with the Prophet ﷺ moving upstairs and Abu Ayyub downstairs."
     },
     {
       "unit_id": "hch_madinah_arrival_garlic:text_ar",
-      "source_text_sha256": "917524b8686a9c7b9518b9547cf2868f96de563e1d09b418bc1017513ff4686d",
-      "text": "Ibn Ishaq’s report says onion or garlic, expressing uncertainty, and quotes the Prophet’s ﷺ reply about the smell of the plant and his intimate discourse [with God]. In Muslim’s account through Simak, garlic is named without this uncertainty, and the dislike is explained by its smell, not by a prohibition of the food. In Muslim, the account through Aflah continues across two excerpts, ending with his ﷺ reply: “No, but I dislike it.” Yahya ibn Sa’id’s corroborating chain from Shu’ba gives the transmission without repeating the text; it does not establish another meal."
+      "source_text_sha256": "61d0cf2e1fa5d65303003674b749c986aabfc9b3e29d5757435ec01951688026",
+      "text": "Ibn Ishaq’s report says onion or garlic, expressing uncertainty, and quotes the Prophet’s ﷺ reply about the smell of the plant and his private communication. In Muslim’s account through Simak, garlic is named without this uncertainty, and the dislike is explained by its smell, not by a prohibition of the food. In the account through Aflah in Muslim, his ﷺ answer is: “No, but I dislike it.” Yahya ibn Sa’id’s corroborating report from Shu’ba gives the chain without repeating the text."
     },
     {
       "unit_id": "hch_madinah_arrival_point_welcome:text_ar",
@@ -143,8 +143,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_point_arrival:text_ar",
-      "source_text_sha256": "f52bdd5378df4ff7d01949127925d802d4b7d37d85af34153f927278f49655a2",
-      "text": "The arrival at Abu Ayyub’s courtyard and the limits of the mosque account."
+      "source_text_sha256": "481388d4f6bb70134e92a89cc7cad09b903a68c8f8fba58155b3d834929a4d1a",
+      "text": "Arrival at Abu Ayyub’s courtyard, followed by prayer and the building of the mosque."
     },
     {
       "unit_id": "hch_madinah_arrival_point_home:text_ar",
@@ -2530,12 +2530,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "1279402cd3420fac968710620ba7f4c8cd2a3546f834cc0a4dee192c2ace9649",
+  "translation_sha256": "5df6fa2a679c59329048ae61130139dbe2164c55ef7d56a2b2fa2de22aed37f0",
   "review": {
-    "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-    "translation_sha256": "1279402cd3420fac968710620ba7f4c8cd2a3546f834cc0a4dee192c2ace9649",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 3b909406-83c2-485f-ba41-0b73e7fbf5e6 across 494 Arabic/target units. Compared every Arabic/English pair in all 17 bounded chunks (494 units), including teaching sections, outline, objectives, ten questions with options and feedback, all selected source text, metadata, citations and chains. The two issues identified in round 1 (narrative voice in the Aflah account and the placement of palm trunks at the qibla side) are corrected in this authored edition; no additional actionable semantic or language mismatch was found in the paired inventory. This is not scholarly collation of source editions, independent approval or authorization for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

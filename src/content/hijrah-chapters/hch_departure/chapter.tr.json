@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 1,
+  "revision": 2,
   "locale": "tr",
-  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
-  "status": "translation_ready",
+  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
+  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_departure:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_departure:reader_question_ar",
-      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
-      "text": "Hazırlık ve çıkış rivayetleri bize ne anlatır, anlatıcılarının sesleri nerede ayrılır?"
+      "source_text_sha256": "74136be76cec487fefea2b99ed667e9397689d507b00edd813205480c2b10f3f",
+      "text": "İbn İshak Kureyş’in meclisini ve Ali’nin yattığı Peygamber ﷺ yatağını nasıl anlatır; Urve gece çıkışı hakkında ne aktarır?"
     },
     {
       "unit_id": "hch_departure_overview:text_ar",
-      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
-      "text": "Yolculuk burada Mekke'de izin beklemekle, ardından Kureyş'in Hz. Peygamber'in ﷺ ayrılmasından korkmasıyla başlar; Ali'nin yattığı yatağa ve bunları iade etmek üzere geride kaldığı emanetlere uzanır. İbn İshak'ın rivayetini izleyecek, anlatılanların kapsamı değiştiğinde Urve'nin rivayetiyle Suveyânî ve Beyhakî'nin değerlendirmelerine ayrıca bakacağız; böylece yaygın her ayrıntı kesinleşmiş tek bir sahneye dönüşmeyecek."
+      "source_text_sha256": "bd42dc5d578cc0d1f5559b889c98cf2bab3833dc849c38e3725d04f74a062b37",
+      "text": "Olay Mekke’de izin beklenmesi ve Kureyş’in Peygamber’in ﷺ ayrılmasından korkmasıyla başlar; Ali Peygamber’in ﷺ yatağında uyur ve emanetleri iade etmek için geride kalır."
     },
     {
       "unit_id": "hch_departure_waiting:title_ar",
@@ -33,8 +33,8 @@
     },
     {
       "unit_id": "hch_departure_waiting2:text_ar",
-      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
-      "text": "İbn İshak'ın anlatımına göre Kureyş, muhacirlerin Mekke dışında yurt ve koruma bulduğunu gördü; Hz. Peygamber'in ﷺ de onlara katılmasından korktu. Onun hakkında ne yapacaklarını görüşmek üzere ileri gelenleri Dârünnedve'de toplandı. Bu, metnin naklettiği bir tasvirdir; toplantının doğrudan tutanağı değildir."
+      "source_text_sha256": "82765ecfe36526c915bea340bf98d6f73d17c9766537b3c6888963b320a7e6da",
+      "text": "İbn İshak'ın anlatımına göre Kureyş, muhacirlerin Mekke dışında yurt ve koruma bulduğunu gördü; Hz. Peygamber'in ﷺ de onlara katılmasından korktu. Onun hakkında görüşmek üzere Dârünnedve’de toplandılar."
     },
     {
       "unit_id": "hch_departure_council:title_ar",
@@ -43,13 +43,13 @@
     },
     {
       "unit_id": "hch_departure_council1:text_ar",
-      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
-      "text": "İbn İshak'ın aktardığı İbn Abbas haberinde önce hapsetme, sonra sürgün fikri ortaya atılır; rivayette Necidli ihtiyar her iki görüşü de reddeder. Ardından Ebû Cehil, çeşitli kabilelerden gençlerin birlikte vurmasını önerir; bu habere göre meclis o görüş üzerinde karar kılar. Konuşmanın bu ayrıntılarla tasvir edilmesi, başka her haberin aynı meclisi anlattığı anlamına gelmez."
+      "source_text_sha256": "b0924fc446a04e4e33303d2b92b94e2578f137be27f22656d379a4abb6876031",
+      "text": "İbn İshak’ın naklettiği İbn Abbas haberinde önce Peygamber’i ﷺ hapsetme önerisi ortaya atılır; Necidli ihtiyar bunu reddeder. Ardından sürgün etme önerisi ayrıca gündeme gelir; onu da reddeder. Ebû Cehil, her kabileden bir gence kılıç verilmesini ve hepsinin Peygamber’e ﷺ birlikte tek darbeyle vurup onu öldürmesini önerir. Gerekçesi, kan sorumluluğunun kabilelere dağılması ve Benî Abdümenâf’ın hepsiyle savaşamayacak olmasıdır. Bu haberde meclis Ebû Cehil’in görüşünü benimser."
     },
     {
       "unit_id": "hch_departure_council2:text_ar",
-      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
-      "text": "Bu rivayet yolunda şeytanın bir ihtiyar kılığında görünmesi de yer alır. Suveyânî bir yerde haberin farklı yollarıyla hasen olduğunu aktarır, başka bir yerde ise şeytanın zikrini bu hükmün dışında tutar. Yalnızca ilk değerlendirmeyi okuyan, bu istisnayı ve bazı ravilerini terk edilmiş saydığı rivayet yollarıyla mürsel destekleyici rivayet arasında yaptığı ayrımı kaçırır."
+      "source_text_sha256": "86e3f65ad9921f23db4c2df8a3a04df103474b4e0c3c900815bcd50697147f30",
+      "text": "Bu rivayet yolunda şeytanın bir ihtiyar kılığında görünmesi de yer alır. Suveyânî bir yerde haberin farklı yollarıyla hasen olduğunu aktarır, başka bir yerde ise şeytanın zikrini bu hükmün dışında tutar."
     },
     {
       "unit_id": "hch_departure_bed:title_ar",
@@ -73,28 +73,28 @@
     },
     {
       "unit_id": "hch_departure_trusts1:text_ar",
-      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
-      "text": "İbn İshak'ın başka bir haberinde Ali'nin görevi yalnızca yatakta uyumak değildir: İbn İshak, kendisine ulaştığı kaydıyla Hz. Peygamber'in ﷺ Ali'ye ayrılacağını haber verdiğini ve insanların emanetlerini iade etmek için geride kalmasını emrettiğini açıkça söyler. Bu, metindeki bir 'bana ulaştığına göre' ifadesidir; bizim kendimizden ekleyebileceğimiz bir ravi adı değildir."
+      "source_text_sha256": "aa8aa046502c8151d94eb4889c58905a4b4af8e9da999705d28da19ee4ef6b6a",
+      "text": "İbn İshak'ın başka bir haberinde Ali'nin görevi yalnızca yatakta uyumak değildir: İbn İshak, kendisine ulaştığı kaydıyla Hz. Peygamber'in ﷺ Ali'ye ayrılacağını haber verdiğini ve insanların emanetlerini iade etmek için geride kalmasını emrettiğini açıkça söyler."
     },
     {
       "unit_id": "hch_departure_trusts2:text_ar",
-      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
-      "text": "Rivayetin sonraki bir bölümüne göre Ali, emanetleri teslim edinceye kadar Mekke'de üç gece ve üç gün kaldı; sonra Hz. Peygamber'e ﷺ yetişerek onunla birlikte Külsûm b. Hidm'in evinde konakladı. Bu, emanetler haberinin devamıdır; ikisinin aynı gece çıkış saatini belirlemez."
+      "source_text_sha256": "9363cd2f637e3fc489b4977eceb0a04132e971e1b420ce7b5a87cf20111e5985",
+      "text": "Rivayetin sonraki bir bölümüne göre Ali, emanetleri teslim edinceye kadar Mekke'de üç gece ve üç gün kaldı; sonra Hz. Peygamber'e ﷺ yetişerek onunla birlikte Külsûm b. Hidm'in evinde konakladı."
     },
     {
       "unit_id": "hch_departure_voices:title_ar",
-      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
-      "text": "Meclisten yola: Her rivayetin sınırları"
+      "source_text_sha256": "d1ea0839bf8ebad820a3dfad0595d9a3c594df39dd07e834aeeb9fe4081566fc",
+      "text": "Gece çıkışı ve evin gözcüleri"
     },
     {
       "unit_id": "hch_departure_voices1:text_ar",
-      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
-      "text": "Beyhakî, Urve b. Zübeyr'den tuzağın daha kısa bir anlatımını nakleder: öldürme, hapsetme, çıkarma veya bağlama; Enfâl ayeti, Hz. Peygamber ﷺ ile Ebû Bekir'in gece mağara yönüne çıkışı ve Ali'nin yatakta uyuyuşu da buna eşlik eder. Urve'den alınan bu seçkide meclisteki konuşmalar ve bir avuç toprak yer almaz. Buradaki ayet, Urve rivayetindeki Kur'an metnidir; Nedve konuşmasının devamı değildir."
+      "source_text_sha256": "005eaa48470a06bdb880422fb001ed51d42316fcaa658fe234586daa7848bf71",
+      "text": "Beyhakî, Urve b. Zübeyr'den tuzağın daha kısa bir anlatımını nakleder: öldürme, hapsetme, çıkarma veya bağlama; Enfâl ayeti, Hz. Peygamber ﷺ ile Ebû Bekir'in gece mağara yönüne çıkışı ve Ali'nin yatakta uyuyuşu da buna eşlik eder. Urve’nin haberinde Dârünnedve’deki konuşmalar veya toprak saçılması yer almaz; buradaki Enfâl ayeti meclis konuşmasının devamı değil, Kur’an metnidir."
     },
     {
       "unit_id": "hch_departure_voices2:text_ar",
-      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
-      "text": "Urve haberi geceleyin çıkıldığını, İbn Abbas haberi ise gözcülerin karanlıkta Hz. Peygamber'in ﷺ evinde toplandığını belirtir. Hiçbiri Ebû Bekir'in evinin ne zaman ziyaret edildiğini bildirmez. O ziyaretin zamanını gözetleme saatinden çıkarmak veya iki evin anlatımını tek bir sahnede birleştirmek doğru olmaz."
+      "source_text_sha256": "f900696cc357b24596d505490e13c2a68403cc4e1d7ae67c23041443c0cf3981",
+      "text": "Urve haberi gece çıkışını anlatır; İbn Abbas haberinde ise gözcüler karanlıkta Peygamber’in ﷺ evinin kapısında toplanır. İkisi de Ebû Bekir’in evine yapılan ayrı ziyaretin saatini belirtmez."
     },
     {
       "unit_id": "hch_departure_criticism:title_ar",
@@ -103,18 +103,18 @@
     },
     {
       "unit_id": "hch_departure_criticism1:text_ar",
-      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
-      "text": "Suveyânî'nin bir dipnotu, Nedve haberini farklı yolları sayesinde hasen sayar; Kelbî yolunu 'pek sevindirici değil', Hasan b. Umâre yolunu 'terk edilmiş' diye nitelendirir, Katâde'nin mürsel şahidini ve rivayeti terk edilmiş Vâkıdî'yi anar. Başka bir metninde ise şeytanın zikrini haber hakkındaki hasen hükmünden ayırır. Hükmü de istisnayı da ona nispet ederiz; burada incelenmemiş isnatlara ilişkin bağımsız bir araştırmanın yerine bunları koymayız."
+      "source_text_sha256": "405fd6cebdc6bf99818431a2f5d2cc4d361a12b4ff6b0f2fb92ae89372c0df32",
+      "text": "Suveyânî'nin bir dipnotu, Nedve haberini farklı yolları sayesinde hasen sayar; Kelbî yolunu 'pek sevindirici değil', Hasan b. Umâre yolunu 'terk edilmiş' diye nitelendirir, Katâde'nin mürsel şahidini ve rivayeti terk edilmiş Vâkıdî'yi anar. Başka bir metninde ise şeytanın zikrini haber hakkındaki hasen hükmünden ayırır."
     },
     {
       "unit_id": "hch_departure_criticism2:text_ar",
-      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
-      "text": "Suveyânî, Ebû Belc'den geçen bir yolu ele alır: Ebû Belc'in aykırı bir lafızda tek başına kalmadığı sürece isnadında sakınca olmadığını söyler. Bazı imamların onu güvenilir saymasıyla Buhârî'nin 'onda incelenecek husus var' şeklindeki cerhini birlikte aktarır ve Buhârî'nin ifadesini ağır bir ıstılah olarak niteler. Eleştirisinin bir sonraki sayfadaki devamı da bunun parçasıdır: Bu hüküm ne Ali hakkındaki bütün haberleri toptan geçersiz kılar ne de ondan nakledilen her lafzı sahih sayar."
+      "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
+      "text": "Suveyânî, Ebû Belc'den geçen bir yolu ele alır: Ebû Belc'in aykırı bir lafızda tek başına kalmadığı sürece isnadında sakınca olmadığını söyler. Bazı imamların onu güvenilir saymasıyla Buhârî'nin 'onda incelenecek husus var' şeklindeki cerhini birlikte aktarır ve Buhârî'nin ifadesini ağır bir ıstılah olarak niteler."
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
-      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
-      "text": "İbn İshak'ın aktardığı Hz. Peygamber'in ﷺ Ali'ye sözlerinde örtü 'yeşil Hadramut örtüsü' olarak betimlenir; sözün devamı sonraki seçkinin başında tamamlanır. Ardından İbn İshak, toprak saçma ve Yâsîn okuma haberine Yezîd b. Ziyâd'dan, onun da Muhammed b. Kâ‘b'dan naklettiği isnatla başlar. Dolayısıyla bu isnatla aktarılan tilavet önceki İbn Abbas yoluna mal edilmez. İki yolu ayırmak, yataktan söz eden her habere bütün ayrıntıları eklemekten daha önemlidir."
+      "source_text_sha256": "3a1c8208e04699f930f7937afce7b566ad4fb7f2a6a0080ea97ba4a1b2700c53",
+      "text": "İbn İshak’ın naklettiği sözlerde Peygamber ﷺ Ali’ye yeşil Hadramî örtüyü anlatır. Toprak saçma ve Yâsîn okuma haberini ise İbn İshak, Yezîd b. Ziyâd’dan, o da Muhammed b. Kâ‘b el-Kurazî’den aktarır."
     },
     {
       "unit_id": "hch_departure_hazwara:title_ar",
@@ -123,13 +123,13 @@
     },
     {
       "unit_id": "hch_departure_hazwara1:text_ar",
-      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
-      "text": "Beyhakî'nin Abdullah b. Adî b. Hamrâ'dan naklettiği bir haberde Hz. Peygamber ﷺ, Mekke çarşısındaki Hazvere'de dururken Mekke'ye hitaben oranın kendisine Allah'ın toprakları içinde en sevgili yer olduğunu ve oradan çıkarılmasaydı ayrılmayacağını söyler. Beyhakî bu rivayeti korunmuş kabul eder. Haber, Hazvere'de ne zaman durduğunu belirlemez; bunu evin kapısına veya Ali'nin yatağına bağlamaz."
+      "source_text_sha256": "7be7e627a4749be2ef487f4d8c12c1f10227d75be8815f33794032e59c5ba62e",
+      "text": "Beyhakî'nin Abdullah b. Adî b. Hamrâ'dan naklettiği bir haberde Hz. Peygamber ﷺ, Mekke çarşısındaki Hazvere'de dururken Mekke'ye hitaben oranın Allah'ın toprakları içinde en hayırlısı ve kendisine en sevgilisi olduğunu ve oradan çıkarılmasaydı ayrılmayacağını söyler. Beyhakî bu rivayeti korunmuş kabul eder. Haber, Hazvere’de durduğu saati belirlemez; bunu Peygamber’in ﷺ evinin kapısına veya Ali’nin yattığı Peygamber ﷺ yatağına bağlamaz."
     },
     {
       "unit_id": "hch_departure_hazwara2:text_ar",
-      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
-      "text": "Abdullah b. Adî b. Hamrâ haberinin isnadı bir seçkinin sonunda başlayıp sonraki sayfanın başında tamamlanır; ardından Hz. Peygamber'in ﷺ sözü ve Beyhakî'nin korunmuş rivayet hakkındaki değerlendirmesi gelir. Sonraki eleştiri bağlamında Beyhakî, Ma‘mer'in rivayetini ve bazılarının Muhammed b. Amr'dan naklettiği rivayeti yanılgı olarak niteler ve çoğunluğun rivayetini öne çıkarır. Bu, nakledilen farklı biçimler arasındaki tercihidir; başka bütün çıkış rivayetlerinin aynı durumda olduğunu söylediği anlamına gelmez."
+      "source_text_sha256": "e3ed539e964ba7b8ebf3754c654025484873c4f4cadc7de8db30844b417c8e9e",
+      "text": "Beyhakî, Hazvere haberi üzerine değerlendirmesinde Ma‘mer’in rivayetini yanılgı sayar; ayrıca bazılarının Muhammed b. Amr’dan naklettiğini de yanılgı sayıp topluluğun rivayetini öne çıkarır."
     },
     {
       "unit_id": "hch_departure_point_1:text_ar",
@@ -2235,12 +2235,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "febe5a8fbc4df1eb12facf87504475f7442debeb0ab45791c34fabca7aa86fc2",
+  "translation_sha256": "5c0a9d74175acb7c11c8a63c333bd86bb185ad19ce037e13ba3c2a082ad6dd0a",
   "review": {
-    "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-    "translation_sha256": "febe5a8fbc4df1eb12facf87504475f7442debeb0ab45791c34fabca7aa86fc2",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session d28e9e94-5983-410b-8891-7e9d8a8f2af7 across 437 Arabic/target units. Arapça otorite ile bu turdaki Türkçe taslağın 16 parçadaki 437 envanter birimi karşılıklı ve tam olarak incelendi: öğretim metni, hedefler, taslak, 10 sorunun seçenekleri, cevap anahtarı, açıklamaları, kapsam ve geri bildirimi, sekiz tam çevrilmiş okumanın seçili kaynak metinleri, isnat/konuşmacı/kaynak metaverisi ve atıf URL’leri. Tekrarlanan metaveri anlam bakımından gruplanarak her birim yine ayrı ayrı kontrol edildi. Önceki turda saptanan dört anlam hatası düzeltilmiş; bu taslakta eylem gerektiren başka anlamsal hata bulunmadı. İnceleme yalnızca sağlanan Arapça bölüm ve seçkilerle sınırlıdır; tam eserlerin ilmî tahkiki, bağımsız dil/uzman onayı veya yayın izni değildir. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

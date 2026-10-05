@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_settlement",
-  "revision": 1,
+  "revision": 2,
   "locale": "am",
-  "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-  "arabic_payload_sha256": "aea9e58189b49b74bb4a481a4b2ff3929ef167e3e5c27cc8f7af60a180ccc2f3",
-  "status": "translation_ready",
+  "arabic_sha256": "80c19ce1af5a2a1f7fa80fe88665a540f4318f41d3863db5d7694e98f51f435c",
+  "arabic_payload_sha256": "0a946402c38ad782effe9e40bdb3546f8c21e50ac42325e21de13e47606292d1",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_settlement:title_ar",
@@ -18,13 +18,13 @@
     },
     {
       "unit_id": "hch_settlement_overview1:text_ar",
-      "source_text_sha256": "e36eae2365887f6b61c12ab29e69cdd29312aecafb7e17c315c4a5c0904db3b5",
-      "text": "ከመድረሳቸው በኋላ የሂጅራ ሌሎች ገጽታዎች ታዩ፤ ሌሎች ስደተኞች ወደ መዲና ተከትለው መጡ፣ ከቤተሰቦቻቸውም አንዳንዶቹ በኋላ ደረሱ። አስማእ ልጇን በቁባ መውለዷን ተረከች። የዓኢሻ ዘገባ ደግሞ የአቡ በክርና የቢላልን ሕመም፣ ነቢዩ ﷺ ለመዲና ያደረጉትንም ዱዓ ይጠቅሳል። ለእነዚህ ትዕይንቶች አንድ የጊዜ መስመር ሳንጫን ጎን ለጎን እናነባቸዋለን።"
+      "source_text_sha256": "9e05ac626ff537039d89de5912f6c828cfb9be05cd60c4f0cf996a00c4ac79d9",
+      "text": "ከመድረሳቸው በኋላ የሂጅራ ሌሎች ገጽታዎች ታዩ፤ ሌሎች ስደተኞች ወደ መዲና ተከትለው መጡ፣ ከቤተሰቦቻቸውም አንዳንዶቹ በኋላ ደረሱ። አስማእ ልጇን በቁባ መውለዷን ተረከች። የዓኢሻ ዘገባ ደግሞ የአቡ በክርና የቢላልን ሕመም፣ ነቢዩ ﷺ ለመዲና ያደረጉትንም ዱዓ ይጠቅሳል።"
     },
     {
       "unit_id": "hch_settlement_overview2:text_ar",
-      "source_text_sha256": "d5ffbaaf1c8ce6264d79da2dec35bec4fbab794e2cab50383c945b6a5abe68dd",
-      "text": "በኢብን ሂባን ትረካ፣ በአስማእ ዘገባና በኢብን ሐጀር ማብራሪያዎች መካከል በድምፅና በዝርዝር ልዩነት አለ፤ እያንዳንዱ በራሱ ወሰን ውስጥ ያለውን ይናገራል። ማብራሪያን ወይም የግርጌ ማስታወሻን የክስተቱ ተሳታፊ ምስክርነት አናደርግም።"
+      "source_text_sha256": "5891d3f6b41bae4e97632bc2e37337e95758eedd790b3baf0214550d1a32120b",
+      "text": "ኢብን ሂባን ስለ ወንድማማችነት ይተርካል፤ አስማእ ደግሞ ልጇ በቁባ እንደተወለደ ትናገራለች። ኢብን ሐጀር ለልደቱ የመጀመሪያውን ዓመት ይመርጣል፤ የሙስሊም እትም የግርጌ ማስታወሻ ደግሞ መዲና በበሽታ የተጠቃችና የጤና እክል ያለባት ተብላ መገለጿን ያብራራል፤ ስለ ጁሕፋም ሐሳቦችን ይጠቅሳል።"
     },
     {
       "unit_id": "hch_settlement_arrivals:title_ar",
@@ -33,18 +33,18 @@
     },
     {
       "unit_id": "hch_settlement_arrivals1:text_ar",
-      "source_text_sha256": "262e605d7c25224d7869a39a850055f54daaa75767a7ca17df4e7b24e2858286",
-      "text": "መድረሳቸው የሂጅራን በር አልዘጋውም፤ ኢብን ኢስሓቅ ስደተኞቹ ተከታትለው እንደመጡ ይተርካል። በመካ ስለቀሩት በሚናገርበት ሐረግ ነገር ግን በፈተና የተያዙትንና የታሰሩትን ይለያል። ነዋሪዎቻቸው ሲወጡ የተዘጉ ቤቶች በዘገባው ይታያሉ፤ ይህ ሁሉም ስደተኛ ቤተሰቡንና ንብረቱን ይዞ መውጣት ነበረበት የሚል ስዕል አይደለም።"
+      "source_text_sha256": "d6ec845ff1e99961c9b5c202cea5a034e810ab581db0ee8a94e58dbd82f26a1b",
+      "text": "መድረሳቸው የሂጅራን በር አልዘጋውም፤ ኢብን ኢስሓቅ ስደተኞቹ ተከታትለው እንደመጡ ይተርካል። በመካ ስለቀሩት በሚናገርበት ሐረግ ነገር ግን በፈተና የተያዙትንና የታሰሩትን ይለያል። ነዋሪዎቻቸው ሲወጡ የተዘጉ ቤቶች በዘገባው ይታያሉ።"
     },
     {
       "unit_id": "hch_settlement_arrivals2:text_ar",
-      "source_text_sha256": "258caab796940fe4e28e5e1522826535506d7bb30b63141fed3e6f53c2a67f90",
-      "text": "ቀጥሎም ቤተሰቦች ከመካ ስለመድረሳቸው ዘገባ ይመጣል። ኢብን ሂባን ሰውዳንና የነቢዩን ﷺ ሴት ልጆች ለማምጣት ዘይድ ቢን ሓሪሳን እና አቡ ራፊዕን እንደላኩ፣ አቡ በክርም ልጁ ዐብደላህ ቤተሰቡን ይዞ እንዲመጣ ኢብን ኡረይቂጥን ወደ እሱ እንደላከ ይተርካል። ይህ ከመጀመሪያው መድረስ በኋላ የቤተሰቦች ሌላ ጉዞ ነው፤ ከዚህ ሐረግ የመጡት ሁሉ ስሞች ይታወቃሉ ማለት አይደለም።"
+      "source_text_sha256": "0c469a9790c5960476b434c6f659ca942acad2f4202ed9bdd6605ec55582a88c",
+      "text": "ቀጥሎም ቤተሰቦች ከመካ ስለመድረሳቸው ዘገባ ይመጣል። ኢብን ሂባን ሰውዳንና የነቢዩን ﷺ ሴት ልጆች ለማምጣት ዘይድ ቢን ሓሪሳን እና አቡ ራፊዕን እንደላኩ፣ አቡ በክርም ልጁ ዐብደላህ ቤተሰቡን ይዞ እንዲመጣ ኢብን ኡረይቂጥን ወደ እሱ እንደላከ ይተርካል።"
     },
     {
       "unit_id": "hch_settlement_arrivals3:text_ar",
-      "source_text_sha256": "9d96820ab004ce7a18fe76b2060a693b1a1714de64cc8b54bf993be7ec756195",
-      "text": "ኢብን ሐጀር ከኢብን ኢስሓቅ በመጥቀስ ከነቢዩ ﷺ ቤተሰብና ከአቡ በክር ቤተሰብ ጋር የመጡትን ስሞች ይጨምራል፤ ሩቀያ ከዑስማን ጋር ቀድማ መሄዷንና ዘይነብ መዘግየቷንም ይጠቅሳል። በኢብን ሰዕድ ዘገባ ደግሞ ነቢዩ ﷺ ከአቡ አዩብ ቤት ዘይድንና አቡ ራፊዕን ወደ መካ ይልካሉ፤ ከቤተሰባቸው አንዳንዶቹን ይዘው ይመለሳሉ። ከእነዚህ ጽሑፎች የአንዱን ዝርዝር፣ ኢብን ሂባን «ሴት ልጆቹ» ሲል በግልጽ የዘረዘረው ዝርዝር አድርገን አንወስደውም።"
+      "source_text_sha256": "01e1109eaa7ad30f3c3abac3303de2aa7b45dc0ff518162b964c0569c71d4690",
+      "text": "ኢብን ሐጀር ከኢብን ኢስሓቅ በመጥቀስ ከነቢዩ ﷺ ቤተሰብና ከአቡ በክር ቤተሰብ ጋር የመጡትን ስሞች ይጨምራል፤ ሩቀያ ከዑስማን ጋር ቀድማ መሄዷንና ዘይነብ መዘግየቷንም ይጠቅሳል። በኢብን ሰዕድ ዘገባ ደግሞ ነቢዩ ﷺ ከአቡ አዩብ ቤት ዘይድንና አቡ ራፊዕን ወደ መካ ይልካሉ፤ ከቤተሰባቸው አንዳንዶቹን ይዘው ይመለሳሉ።"
     },
     {
       "unit_id": "hch_settlement_brotherhood:title_ar",
@@ -53,13 +53,13 @@
     },
     {
       "unit_id": "hch_settlement_brotherhood1:text_ar",
-      "source_text_sha256": "9d5acffae4cf8c98c2d4a29acca6a99cd517a335e7b95c911dd5385e81bb46b4",
-      "text": "ከቤተሰቦች መድረስ ጎን ለጎን በኢብን ሂባን ትረካ ውስጥ የወንድማማችነት ዘገባ ይገኛል፤ ከዚያ በፊት የተጠሩትን ሰዎች ማሰባሰብ ይተረካል፣ በኋላም ለነቢዩ ﷺ የተመደበ ንግግርና በመካከላቸው ወንድማማች ያደረጓቸው ሰዎች ይጠቀሳሉ። ይህ ረጅም ትረካ በዚህ ቦታ በገጾቹ ወሰን የተቆረጠ ነው፤ ጸሐፊው በዚህ ስፍራ ለእሱ አዲስ የሰነድ ሰንሰለት አላቀረበም። ስለዚህ ሐረጎቹንና ስሞቹን እንዳሉ እናነባለን፤ በሁሉም የወንድማማችነት ጉዳይ ላይ አጠቃላይ ፍርድ እንደሆኑ አይደለም።"
+      "source_text_sha256": "6848b5fd1dc490047703514c993f2944d408f43154263020704ade9f8e397863",
+      "text": "ከቤተሰቦች መድረስ ጎን ለጎን በኢብን ሂባን ትረካ ውስጥ የወንድማማችነት ዘገባ ይገኛል፤ ከዚያ በፊት የተጠሩትን ሰዎች ማሰባሰብ ይተረካል፣ በኋላም ለነቢዩ ﷺ የተመደበ ንግግርና በመካከላቸው ወንድማማች ያደረጓቸው ሰዎች ይጠቀሳሉ። ኢብን ሂባን እዚህ ለዚህ ዘገባ አዲስ እስናድ አላቀረበም።"
     },
     {
       "unit_id": "hch_settlement_brotherhood2:text_ar",
-      "source_text_sha256": "f3288265b7806ce9cd0f447abbb1de2ef5b7a39d7a75acbe9aceb29a469b204d",
-      "text": "በዚህ ትረካ ቀጣይ ክፍል ዐብዱርራሕማን ቢን ዐውፍ ከዑስማን ጋር ይጠቀሳል። በውስጡ የተጠቀሰው ሰዕድ ግን ከዐማር ጋር የተጠቀሰው ሰዕድ ቢን አቢ ወቃስ ነው፤ አንባቢው እዚህ ዐብዱርራሕማን ከሰዕድ ቢን ረቢዕ ጋር ወንድማማች ስለመሆኑ ወይም ስለ ንግግራቸው ዘገባ አያገኝም። በዚህ ጽሑፍ የሌለውን በመሙላት ፋንታ፣ ያንን ታሪክ የሚተርከው ጽሑፍ እስኪነበብ ድረስ እንተወዋለን።"
+      "source_text_sha256": "7d7821d32444549b6869a002ee853783614f79df32a838a4a8d1e1994d51ee1f",
+      "text": "በዚህ ትረካ ቀጣይ ክፍል ዐብዱርራሕማን ቢን ዐውፍ ከዑስማን ጋር ይጠቀሳል። በውስጡ የተጠቀሰው ሰዕድ ግን ከዐማር ጋር የተጠቀሰው ሰዕድ ቢን አቢ ወቃስ ነው። በዚህ ትረካ ዐብዱርራሕማን ከሰዕድ ቢን ረቢዕ ጋር ስለ ወንድማማችነቱ ወይም ስለ ንግግራቸው ዘገባ የለም።"
     },
     {
       "unit_id": "hch_settlement_birth:title_ar",
@@ -73,8 +73,8 @@
     },
     {
       "unit_id": "hch_settlement_birth2:text_ar",
-      "source_text_sha256": "edbd96f2ee905b2bd1a30534407239e2ffeac519546bb1f7b4d4d7cca9f2db97",
-      "text": "ዓኢሻ ደግሞ ትዕይንቱን በአጭር ዘገባ ትናገራለች፤ ተምሩንና የነቢዩን ﷺ ምራቅ ትጠቅሳለች። አጭር መተረኳ ለልደቱ ሌላ ቀን አይሰጥም፤ አስማእ ስለ ቁባ የተናገረችው የራሷ ምስክርነት ነው። የአረፍተ ነገሮቹን ቅደም ተከተል ተመልክተን የልደቱን ቀን ወይም ወር አንወስንም።"
+      "source_text_sha256": "bcd57af9cbe3713a8d0c5f773ec1b98fb9e0ee2f7ebd0d98bce60cf00ba58749",
+      "text": "ዓኢሻ ደግሞ ትዕይንቱን በአጭር ዘገባ ትናገራለች፤ ተምሩንና የነቢዩን ﷺ ምራቅ ትጠቅሳለች። አስማእ የልደቱ ቦታ ቁባ እንደሆነ ትናገራለች፣ ቀን ወይም ወር ግን አትጠቅስም፤ ዓኢሻም ሌላ ቀን አትሰጥም።"
     },
     {
       "unit_id": "hch_settlement_fever:title_ar",
@@ -88,28 +88,28 @@
     },
     {
       "unit_id": "hch_settlement_fever2:text_ar",
-      "source_text_sha256": "2421d2074033ae1244c6e52765dcbbdc5d9885427dc6b3f07a002a3056aea9e7",
-      "text": "ዓኢሻ የሕመማቸውን ዜና ለነቢዩ ﷺ አደረሰች። እሳቸውም መዲናን እንዲወዱ፣ ከተማዋ ጤናማ እንድትሆን፣ የሷዕና የሙድ መለኪያዎቿ በረከት እንዲያገኙ፣ ትኩሳቷም ወደ ጁሕፋ እንዲዘዋወር ዱዓ አደረጉ። በሰሒሕ ሙስሊም ዘገባው የሁለቱን ሕመምና ዱዓውን በአጭሩ ይይዛል፤ በቡኻሪ ደግሞ ሌላ የዱዓው አነጋገር አለ። የአነጋገር ልዩነት ዘገባውን ለማየት መስኮት ነው እንጂ የተለያዩ የትኩሳት ክስተቶችን እንድንቆጥር ትእዛዝ አይደለም።"
+      "source_text_sha256": "ae1acf6ea8d860752b2ba8a30371e96ea6d95235a8b42b3304f5b2a5f1758c00",
+      "text": "ዓኢሻ የሕመማቸውን ዜና ለነቢዩ ﷺ አደረሰች። እሳቸውም መዲናን እንዲወዱ፣ ከተማዋ ጤናማ እንድትሆን፣ የሷዕና የሙድ መለኪያዎቿ በረከት እንዲያገኙ፣ ትኩሳቷም ወደ ጁሕፋ እንዲዘዋወር ዱዓ አደረጉ። በሰሒሕ ሙስሊም ዘገባው የሁለቱን ሕመምና ዱዓውን በአጭሩ ይይዛል፤ በቡኻሪ ደግሞ ሌላ የዱዓው አነጋገር አለ።"
     },
     {
       "unit_id": "hch_settlement_family_scope:title_ar",
-      "source_text_sha256": "63cd789331e09d0abacbabd7ff2d68ba06c12d1db97ca164c4b23648496a2ba8",
-      "text": "የደረሱት ሰዎች ስሞችና የትረካው ወሰን"
+      "source_text_sha256": "3b23424d5e365c6dbc1e4697ceae88a8b8a92cc7e78cc6c64b8a6220d7604c08",
+      "text": "የደረሱት ሰዎች ስሞች"
     },
     {
       "unit_id": "hch_settlement_family_scope1:text_ar",
-      "source_text_sha256": "5ae4c490614289334c553bc09475b1694ce7a4fc35e74f6f9df77ee1fd2f667e",
-      "text": "በተመረጠው የኢብን ሂባን ጽሑፍ ወደ መካ መላክና የአቡ በክር ቤተሰብ መውጣት ይነገራል። ኢብን ሐጀር ከኢብን ኢስሓቅ በሚያስተላልፈው ዘገባ ተጨማሪ ስሞችና ስለ ዐብደላህ ልደት ጊዜ የራሱን አስተያየት ይጨምራል። የኢብን ሰዕድ ዘገባ ደግሞ የመጡት በሓሪሳ ቢን ኑዕማን ቤት እንደተቀመጡ ይጠቅሳል። እነዚህን የተለያዩ የትረካ ወሰኖች አድርገን እንመለከታለን፤ በሁሉም ምስክሮች ላይ የሚጫን አንድ ዝርዝር አይደሉም።"
+      "source_text_sha256": "836da9f8af3fcae070c5155915e81558673b96e67f7aa832998318afe92d15d5",
+      "text": "በኢብን ሂባን ትረካ ወደ መካ መላክና የአቡ በክር ቤተሰብ መውጣት ይነገራል። ኢብን ሐጀር ከኢብን ኢስሓቅ በሚያስተላልፈው ዘገባ ተጨማሪ ስሞችና ስለ ዐብደላህ ልደት ጊዜ የራሱን አስተያየት ይጨምራል። የኢብን ሰዕድ ዘገባ ደግሞ የመጡት በሓሪሳ ቢን ኑዕማን ቤት እንደተቀመጡ ይጠቅሳል።"
     },
     {
       "unit_id": "hch_settlement_family_scope2:text_ar",
-      "source_text_sha256": "52459ae51a5384d93944c5ae15e21b5dd0eab7a27f58d77595320d94d9d6a4e1",
-      "text": "ይህ ንባብ ከመድረስ በኋላ ስላለው ስለሆነ፣ የቤተሰብ፣ የወንድማማችነት፣ የሕፃኑና የትኩሳቱ ታሪኮች ከመስጊድ ምዕራፍ በኋላ ተቀምጠዋል። ይህ የምዕራፉ አደረጃጀት ነው፣ ለሁሉም ክስተቶች የተረጋገጠ የጊዜ ሰሌዳ አይደለም። ኢብን ሐጀር ነቢዩ ﷺ መስጊዳቸውን እየገነቡ ሳሉ ከቤተሰቡ አንዳንዶቹ እንደደረሱ ይተርካል፤ ይህም እዚህ ያሉት ክስተቶች ሁሉ ከግንባታው መጠናቀቅ በኋላ እንደተፈጸሙ አያረጋግጥም።"
+      "source_text_sha256": "76b2e735e2bad2c0811d30c99c2df2adcb9000ccf05c57c9761e7147853b533c",
+      "text": "ኢብን ሐጀር ነቢዩ ﷺ መስጊዳቸውን እየገነቡ ሳሉ ከቤተሰቡ አንዳንዶቹ እንደደረሱ ይናገራል። በኢብን ሂባን ትረካ ነቢዩ ﷺ መስጊዱ እስኪጠናቀቅ ድረስ በአቡ አዩብ ቤት ነበሩ።"
     },
     {
       "unit_id": "hch_settlement_dates:title_ar",
-      "source_text_sha256": "1fe4a44b5d411f852235acb4c93616bd05ac7f117785d1def4e444acebf67e53",
-      "text": "የአስማእ ዘገባ ምን ያረጋግጣል?"
+      "source_text_sha256": "ed17507e1ab83f9d94ec29aff23368df5e5b787c4e4e1cb21fa555c321a41bbb",
+      "text": "የዐብደላህ ልደትና ስለ ጊዜው ያለው ልዩነት"
     },
     {
       "unit_id": "hch_settlement_dates1:text_ar",
@@ -118,8 +118,8 @@
     },
     {
       "unit_id": "hch_settlement_dates2:text_ar",
-      "source_text_sha256": "0f37cf363b3d9eb70164695815bc1b81ea09dcae27910536ad58899fa94d4e8d",
-      "text": "ኢብን ሐጀር የልደቱን ጊዜ በሂጅራ የመጀመሪያ ዓመት እንደሆነ ይመርጣል፤ ከዋቂዲ የተላለፈውን ከሃያ ወራት በኋላ በሁለተኛው ዓመት ነበር የሚለውን ይቃወማል። በአቡ በክር ቤተሰብ ሂጅራ በመመርኮዝም ያ ረጅም ጊዜ ላይ ጥያቄ ያነሳል። ይህ የተለያዩ ዘገባዎችን የሚያነጻጽር የማብራሪያ ጸሐፊ ምርጫ ነው፣ በአስማእ ሐዲስ ውስጥ በቀጥታ የተነገረ የልደት ቀን አይደለም። ሕፃኑ «የመጀመሪያው» መባሉንም በመዲና ባሉ ሙሃጂሮች ይገድበዋል፣ ከዚያ ወሰን ውጭ ያሉ ሌሎች ስሞችንም ይጠቅሳል።"
+      "source_text_sha256": "bc1b1207e419a94144cab3e7e573c317a37d28c945d041672c81d269685712cc",
+      "text": "ኢብን ሐጀር የልደቱን ጊዜ በሂጅራ የመጀመሪያ ዓመት እንደሆነ ይመርጣል፤ ከዋቂዲ የተላለፈውን ከሃያ ወራት በኋላ በሁለተኛው ዓመት ነበር የሚለውን ይቃወማል። በአቡ በክር ቤተሰብ ሂጅራ በመመርኮዝም ያ ረጅም ጊዜ ላይ ጥያቄ ያነሳል። ሕፃኑ «የመጀመሪያው» መባሉንም በመዲና ባሉ ሙሃጂሮች ይገድበዋል፣ ከዚያ ወሰን ውጭ ያሉ ሌሎች ስሞችንም ይጠቅሳል።"
     },
     {
       "unit_id": "hch_settlement_voices:title_ar",
@@ -168,8 +168,8 @@
     },
     {
       "unit_id": "hch_settlement_read_brotherhood:title_ar",
-      "source_text_sha256": "bbda4a59f78eec163470f971ad021933abfdb970384735ec7feb0727dd00d627",
-      "text": "ኢብን ሂባን ስለ ወንድማማችነት የተረከውና ወሰኑ"
+      "source_text_sha256": "08d4ab6c459c0dff70beea52566d2797f480e9acd465a5674983a463fdd2c620",
+      "text": "ኢብን ሂባን ስለ ወንድማማችነት የተረከው"
     },
     {
       "unit_id": "hch_settlement_read_asma:title_ar",
@@ -3975,12 +3975,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "bd86d063183a804731aa5e9bef607b81c88ec6a8d62e6f327672cb8f1d697bd6",
+  "translation_sha256": "442bfad658df075b872fc61c436624a15f14fd41cd55f0fa3befa50805bcb39a",
   "review": {
-    "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-    "translation_sha256": "bd86d063183a804731aa5e9bef607b81c88ec6a8d62e6f327672cb8f1d697bd6",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session aa7cda90-af11-4451-b97c-4990d72153f9 across 787 Arabic/target units. Independently compared all 787 literal Arabic–Amharic inventory units in every complete numbered pair chunk 0–23, including teaching, objectives, outlines, questions, correct answers, options, explanations, scope and feedback, metadata and citation URLs, and complete selected source segments. Exact repeated pairs were grouped only after checking equality of both texts. Read the Arabic watchlist without using another-language pivot. The previously noted tahnik action is now rendered in the relevant source and teaching units. No further actionable semantic discrepancy was identified in this bound edition. This is not manuscript collation, authentication, independent language approval, specialist approval, or publication clearance. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

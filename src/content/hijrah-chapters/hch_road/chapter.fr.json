@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_road",
-  "revision": 1,
+  "revision": 2,
   "locale": "fr",
-  "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
-  "arabic_payload_sha256": "e9d5d12d676348d095160a148c827f78ac8545e95fd65b8ec102c39d14b68471",
-  "status": "translation_ready",
+  "arabic_sha256": "f16774c0a0d2bfb6c6443914e111b6c901fcc681699c3289bbc104a275002430",
+  "arabic_payload_sha256": "88b6f9f43978720aefcf5ca22a713bbc268c0217429adf0af3704c24ea7b1132",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_road:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_road:reader_question_ar",
-      "source_text_sha256": "36b9d88298edd0ed8577184b6dfb3be1c17323ef005ff49e24810ea1cd968f5f",
-      "text": "Comment la confiance s'est-elle articulée à l'expertise du guide, et que savons-nous des compagnons de voyage et de l'itinéraire sans en tracer une carte absente du texte ?"
+      "source_text_sha256": "5900c3aadcb8f49f18929c61717f4352a73540c13e8ee4fa5e5f81716cbb9277",
+      "text": "Comment le Prophète ﷺ et Abou Bakr confièrent-ils les deux montures au guide, qui partit avec eux de la grotte de Thawr et quelle route empruntèrent-ils ?"
     },
     {
       "unit_id": "hch_road_overview:text_ar",
-      "source_text_sha256": "a30fd1102a9f7ea89d5788332e491c8bd27db8fa6df8f867831c8f73acd04ebb",
-      "text": "Quand vint le moment de reprendre le voyage depuis la grotte de Thawr, les deux montures étaient confiées à un homme que le Prophète ﷺ et Abou Bakr avaient engagé pour sa connaissance du chemin. Nous examinerons pourquoi ils se sont fiés à son expertise, quand il devait venir, qui partit avec eux et ce que l'expression « route des côtes » permet d'affirmer. Dans un autre récit, le verbe « guider » soulève une question importante : Abou Bakr parlait-il du guide de la route lorsqu'il répondit à celui qui l'interrogeait sur son compagnon ?"
+      "source_text_sha256": "196e0420d3d970e6b78d724c797fd8f90cd1ed04461a0a0fa5f5345a4c5674d1",
+      "text": "Quand vint le moment de reprendre le voyage depuis la grotte de Thawr, les deux montures étaient confiées à un homme que le Prophète ﷺ et Abou Bakr avaient engagé pour sa connaissance du chemin."
     },
     {
       "unit_id": "hch_road_hire:title_ar",
@@ -68,18 +68,18 @@
     },
     {
       "unit_id": "hch_road_name_01:text_ar",
-      "source_text_sha256": "46515e0cc2202e28dec86412454ea0a4750128d6330f68cea0dff14706100105",
-      "text": "Le passage sur l'engagement du guide chez al-Bukhârî ne précise pas son nom personnel : il indique son ascendance et sa compétence. Dans un passage de la Sîra, Ibn Ishâq rapporte, d'après Asmâ bint Abou Bakr, une liste de quatre personnes : le Prophète ﷺ, Abou Bakr, Âmir ibn Fuhayra et Abd Allâh ibn Arqat, leur guide. Ibn Hichâm ajoute ensuite une autre graphie sous la forme « on dit aussi » : Abd Allâh ibn Urayqit. Cette formule hésitante n'est pas une affirmation catégorique, et la différence graphique ne suffit pas, à elle seule, à établir qu'il s'agissait de deux guides."
+      "source_text_sha256": "384584d0f12a155432bc3cf87f9707f59dc7814f1ec10dd16d83dc76010f4e87",
+      "text": "Le passage sur l'engagement du guide chez al-Bukhârî ne précise pas son nom personnel : il indique son ascendance et sa compétence. Dans un passage de la Sîra, Ibn Ishâq rapporte, d'après Asmâ bint Abou Bakr, une liste de quatre personnes : le Prophète ﷺ, Abou Bakr, Âmir ibn Fuhayra et Abd Allâh ibn Arqat, leur guide. Ibn Hichâm ajoute ensuite une autre graphie sous la forme « on dit aussi » : Abd Allâh ibn Urayqit."
     },
     {
       "unit_id": "hch_road_name_02:text_ar",
-      "source_text_sha256": "5ae7ba9945e330e6cd6d9942cbc988fb64e9afa62ee8d0e8270b26f5281cfe52",
-      "text": "Le passage attribué à Asmâ commence par « Lorsque nous entendîmes ses paroles ». Cela renvoie au récit d'une voix et de vers dans le passage précédent de la Sîra : nous le lisons pour comprendre le début de sa déclaration, non pour établir la réalité de cette voix invisible ou l'authenticité des vers. La liste y est attribuée à Asmâ dans la transmission d'Ibn Ishâq ; ce n'est pas un nom tiré du texte d'al-Bukhârî."
+      "source_text_sha256": "fda80529b5b9bcf9ec25771b86dda8af77fb6f7202aee5beb5361690af09ca4e",
+      "text": "Dans la Sîra, un récit de voix et de vers précède la liste d’Asmâ. Ibn Ishâq rapporte d’après elle les noms des compagnons de voyage, dont celui du guide ; le passage d’al-Bukhârî indique son ascendance et sa compétence, mais non son nom."
     },
     {
       "unit_id": "hch_road_name_03:text_ar",
-      "source_text_sha256": "b9cf17c7197e08ce90e515f29ace467ff974bfa461899fc753b6ede5821bba89",
-      "text": "Dans un commentaire postérieur, Hânî Faqîh cite une phrase d'Ibn Kathîr qui nomme le guide Abd Allâh ibn Urayqit. Hânî précise ensuite, en son propre nom, que le récit du Sahîh ne donne pas explicitement ce nom et qu'Ibn Ishâq l'a nommé dans la Sîra. Le nom dans la citation et la réserve du commentateur relèvent donc de deux voix distinctes : n'attribuons ni la précision de Hânî à Ibn Kathîr, ni au silence de cet extrait d'al-Bukhârî une négation des noms donnés ailleurs."
+      "source_text_sha256": "578fb81281a08bba9406a12bbc5af862c7ae352cea97fd9670b28bebf4cbf6f5",
+      "text": "Dans un commentaire postérieur, Hânî Faqîh cite une phrase d'Ibn Kathîr qui nomme le guide Abd Allâh ibn Urayqit. Hânî précise ensuite, en son propre nom, que le récit du Sahîh ne donne pas explicitement ce nom et qu'Ibn Ishâq l'a nommé dans la Sîra."
     },
     {
       "unit_id": "hch_road_trust:title_ar",
@@ -88,23 +88,23 @@
     },
     {
       "unit_id": "hch_road_trust_01:text_ar",
-      "source_text_sha256": "76c4e0019d7d890ee0ed5faef57d4a9eddfca45d1034c682599f5a38e415040a",
-      "text": "Dans le hadith d'Aïcha, compétence, confiance et différence de religion apparaissent ensemble : la compétence du guide est décrite, puis les deux montures lui sont confiées alors qu'il professait la religion des mécréants de Quraych. Al-Qurtubî, quant à lui, rapporte le récit d'après al-Bukhârî, puis attribue à al-Muhallab la déduction qu'on peut confier secrets et biens à des polythéistes dont on connaît la loyauté et la noblesse de caractère ; il attribue à Ibn al-Mundhir la déduction qu'on peut les engager comme guides. Ces deux avis appartiennent aux commentateurs cités, et ne sont pas des détails supplémentaires dont Aïcha aurait été témoin. La reprise du récit dans un commentaire coranique n'est pas, du seul fait que l'ouvrage diffère, une transmission indépendante."
+      "source_text_sha256": "88e90a02d46c108338a4b4797206903a77292e095a919b782b00ce5e712cd1d7",
+      "text": "Dans le hadith d'Aïcha, compétence, confiance et différence de religion apparaissent ensemble : la compétence du guide est décrite, puis les deux montures lui sont confiées alors qu'il professait la religion des mécréants de Quraych. Al-Qurtubî, quant à lui, rapporte le récit d'après al-Bukhârî, puis attribue à al-Muhallab la déduction qu'on peut confier secrets et biens à des polythéistes dont on connaît la loyauté et la noblesse de caractère ; il attribue à Ibn al-Mundhir la déduction qu'on peut les engager comme guides."
     },
     {
       "unit_id": "hch_road_bounds:title_ar",
-      "source_text_sha256": "fd3f417e10235174d2b6f276d8e04dc92b52d87e37a853dfe512c0b38cb082c3",
-      "text": "Ce que l'indication de route précise et ce qu'elle laisse ouvert"
+      "source_text_sha256": "73aa7b9e7b4db3a760798aa1b17d58ab78604fe44425d016fc578bab2facbf4d",
+      "text": "Le rendez-vous à la grotte, la route des côtes et la réponse d’Abou Bakr"
     },
     {
       "unit_id": "hch_road_bounds_01:text_ar",
-      "source_text_sha256": "38931de249bf5d2fc64534000140e59960f8d1b8cc51326ab1bd3623a9f759b6",
-      "text": "Le verbe « ils convinrent avec lui d'un rendez-vous », à la page de l'engagement, se poursuit par « à la grotte de Thawr, trois nuits plus tard » à la page suivante du même hadith. « Au matin du troisième jour » indique un moment dans le récit, et non une heure précise ou une date du calendrier. De même, la « route des côtes » est ici une description de l'itinéraire, pas une liste d'étapes ni un tracé géolocalisé."
+      "source_text_sha256": "8a4d6dab6714203616be952a12718caf23933f8e94b85a35bb76745e4284096d",
+      "text": "Après trois nuits, le guide apporta les deux montures à la grotte de Thawr au matin, puis les conduisit par la route des côtes."
     },
     {
       "unit_id": "hch_road_bounds_02:text_ar",
-      "source_text_sha256": "95a013c141f4142b3d63f5b7d770306e63012a69ebd8966f4abb71907b93c75f",
-      "text": "Al-Bayhaqî rapporte un autre récit d'Abou Hurayra, dont la chaîne et le texte commencent sur une page et dont la phrase s'achève sur la suivante. Dans la suite, Abou Bakr répond, à propos de celui qui l'accompagne : « Un guide qui me guide. » Le récit d'Anas dit plutôt : « Cet homme me guide sur le chemin » et explique qu'il s'agit du chemin du bien. Conservons les termes propres à chaque récit et relions la page interrompue à sa suite, sans confondre ces deux réponses avec le rôle du guide engagé ni faire de la coupure entre les pages deux chaînes indépendantes."
+      "source_text_sha256": "8b8112d5cfdd4b3e9e61123718487901f134ea84e7c18833af64eb05723f68bf",
+      "text": "Dans le récit d’al-Bayhaqî d’après Abou Hurayra, Abou Bakr répond au sujet de son compagnon : « Un guide qui me guide. » Le récit d’Anas dit plutôt : « Cet homme me guide sur le chemin » ; il s’agit du chemin du bien, et non du travail du guide engagé."
     },
     {
       "unit_id": "hch_road_outline_skill:text_ar",
@@ -1295,12 +1295,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "4d186da1d6a1518eaa4e762c1fb5a7104b28b8d9d2b1d422252ff27c10dd3e33",
+  "translation_sha256": "a16a5673b3e36646d845fd34f69f8527dcd0ff54142ecc4aee73a18e010deb21",
   "review": {
-    "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
-    "translation_sha256": "4d186da1d6a1518eaa4e762c1fb5a7104b28b8d9d2b1d422252ff27c10dd3e33",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 3b8b530d-8dbe-4f70-a0d5-b3f1b62f156f across 250 Arabic/target units. All 250 Arabic–French inventory units were directly compared in the ten complete untruncated pairs.py chunks (0–9), including teaching material, objectives, all question options and feedback, selected full source texts, named chains, poetry, commentary, metadata and citation URLs. The watchlist was checked against the Arabic. No actionable remaining meaning, omission, answer or language mismatch was found in this bound edition. Repeated metadata was checked per unit and grouped semantically. This is a translation comparison, not independent source collation, historical authentication or publication clearance. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

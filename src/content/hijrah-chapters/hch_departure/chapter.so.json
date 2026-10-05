@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 1,
+  "revision": 2,
   "locale": "so",
-  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
-  "status": "translation_ready",
+  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
+  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_departure:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_departure:reader_question_ar",
-      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
-      "text": "Maxay werimaha qorshaynta iyo bixitaanku noo sheegayaan, xaggeese codadkoodu ku kala duwan yihiin?"
+      "source_text_sha256": "74136be76cec487fefea2b99ed667e9397689d507b00edd813205480c2b10f3f",
+      "text": "Ibnu Isxaaq muxuu ka weriyey shirkii Quraysh iyo sariirtii Nebiga ﷺ ee Cali ku seexday, Curwana muxuu ka weriyey bixitaankii habeenkii?"
     },
     {
       "unit_id": "hch_departure_overview:text_ar",
-      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
-      "text": "Safarku halkan wuxuu ka bilaabmaa sugitaanka idanka ee Maka, dabadeed baqdinta Quraysh ee ah inuu Nebigu ﷺ baxo; wuxuuna gaadhaa sariirtii Cali iyo amaanooyinkii uu Cali u hadhay. Waxaan raaci doonnaa qisada Ibnu Isxaaq, annagoo joogsanayna qisada Curwa iyo naqdinta Suwayaani iyo Bayhaqi marka hadalkoodu xad ahaan kala duwanaado; sidaas darteed faahfaahin kasta oo caan ahi ma noqonayso hal dhacdo oo xaqiiqadeeda la hubo."
+      "source_text_sha256": "bd42dc5d578cc0d1f5559b889c98cf2bab3833dc849c38e3725d04f74a062b37",
+      "text": "Warku wuxuu ka bilaabmaa sugitaanka oggolaanshaha Maka iyo Quraysh oo ka baqday inuu Nebigu ﷺ baxo; Cali wuxuu seexday sariirtii Nebiga ﷺ, wuxuuna u hadhay inuu celiyo ammaanadii dadka."
     },
     {
       "unit_id": "hch_departure_waiting:title_ar",
@@ -33,8 +33,8 @@
     },
     {
       "unit_id": "hch_departure_waiting2:text_ar",
-      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
-      "text": "Sida Ibnu Isxaaq sheekadiisa ku sheegay, Quraysh waxay aragtay in muhaajiriintu heleen hoy iyo cudud difaac oo Maka ka baxsan, markaasay ka cabsatay in Nebigu ﷺ ku biiro. Odayaashoodu waxay isugu yimaadeen Daar al-Nadwa si ay arrintiisa uga tashadaan; tani waa sawirka ay qisadu werinayso, ee ma aha qoraal toos ah oo kulanka laga sameeyey."
+      "source_text_sha256": "82765ecfe36526c915bea340bf98d6f73d17c9766537b3c6888963b320a7e6da",
+      "text": "Sida Ibnu Isxaaq sheekadiisa ku sheegay, Quraysh waxay aragtay in muhaajiriintu heleen hoy iyo cudud difaac oo Maka ka baxsan, markaasay ka cabsatay in Nebigu ﷺ ku biiro. Waxay ku kulmeen Daar al-Nadwa si ay uga tashadaan arrinkiisa."
     },
     {
       "unit_id": "hch_departure_council:title_ar",
@@ -43,13 +43,13 @@
     },
     {
       "unit_id": "hch_departure_council1:text_ar",
-      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
-      "text": "Warka Ibnu Cabbaas ee Ibnu Isxaaq weriyey waxaa lagu soo jeediyey in la xidho dabadeedna la masaafuriyo; odayga reer Najd ayaa labada fikradoodba ku diiday gudaha qisada. Ka dib Abuu Jahl wuxuu soo jeediyey in dhallinyaro qabiilo kala duwan ka kala socotaa wada garaacaan; qisadan dhexdeeda goluhu fikraddaas ayuu ku dhammaaday. In wada hadalka sidaas loo faahfaahiyey micnaheedu ma aha in war kasta oo kale isla kulankaas ka warramayo."
+      "source_text_sha256": "b0924fc446a04e4e33303d2b92b94e2578f137be27f22656d379a4abb6876031",
+      "text": "Warka Ibnu Cabbaas ee Ibnu Isxaaq weriyey, marka hore waxaa la soo jeediyaa in Nebiga ﷺ la xidho; odayga Najd wuu diidaa. Dabadeed waxaa la soo jeediyaa masaafurin gooni ah; taasna wuu diidaa. Abuu Jahl wuxuu soo jeediyaa in wiil dhallinyaro ah oo qabiil kasta ka socda seef la siiyo, dabadeedna ay Nebiga ﷺ mar qura wada seef ku dhuftaan oo dilaan. Sababtiisu waa in masuuliyadda dhiiggiisu ku kala baahdo qabiillada, Banu Cabd Manaafna aanay dhammaantood la dagaallami karin. Warkan dhexdiisa goluhu wuxuu qaatay talada Abuu Jahl."
     },
     {
       "unit_id": "hch_departure_council2:text_ar",
-      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
-      "text": "Dariiqa werintani waxa kale oo ku jira in Ibliis muuqaal oday ku yimid. Suwayaani meel wuxuu werinta ugu xoojiyaa dariiqyadeeda, meel kalena xuska Ibliis ayuu ka reebaa. Qofkii xoojinta keliya akhriyaa wuxuu seegayaa reebitaankaas, sidoo kale kala saaridda dariiqyada uu qaar ka mid ah weriyayaashooda ku tilmaamay kuwo laga tegay iyo maragga mursal ah."
+      "source_text_sha256": "86e3f65ad9921f23db4c2df8a3a04df103474b4e0c3c900815bcd50697147f30",
+      "text": "Dariiqa werintani waxa kale oo ku jira in Ibliis muuqaal oday ku yimid. Suwayaani meel wuxuu werinta ugu xoojiyaa dariiqyadeeda, meel kalena xuska Ibliis ayuu ka reebaa."
     },
     {
       "unit_id": "hch_departure_bed:title_ar",
@@ -73,28 +73,28 @@
     },
     {
       "unit_id": "hch_departure_trusts1:text_ar",
-      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
-      "text": "Warka kale ee Ibnu Isxaaq, hawsha Cali ma ahayn oo keliya inuu sariirta seexdo; Ibnu Isxaaq wuxuu adeegsaday qaabka «sida ay i soo gaadhay» isagoo sheegay in Nebigu ﷺ bixitaankiisa Cali u sheegay, uuna faray inuu hadho si uu dadka amaanooyinkooda ugu celiyo. Qaabkani waa werin aan silsiladdeeda la magacaabin, ee ma aha magac weriye aynu ku dari karno."
+      "source_text_sha256": "aa8aa046502c8151d94eb4889c58905a4b4af8e9da999705d28da19ee4ef6b6a",
+      "text": "Warka kale ee Ibnu Isxaaq, hawsha Cali ma ahayn oo keliya inuu sariirta seexdo; Ibnu Isxaaq wuxuu adeegsaday qaabka «sida ay i soo gaadhay» isagoo sheegay in Nebigu ﷺ bixitaankiisa Cali u sheegay, uuna faray inuu hadho si uu dadka amaanooyinkooda ugu celiyo."
     },
     {
       "unit_id": "hch_departure_trusts2:text_ar",
-      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
-      "text": "Meel ka dambaysa qisada, Cali wuxuu Maka ku sugnaa saddex habeen iyo maalmihii la socday ilaa uu amaanooyinkii celiyey; markaas ayuu Nebiga ﷺ ku biiray oo uu la degay guriga Kulthuum bin Hadm. Arrintani waa dhammaystirka warka amaanooyinka, ee ma aha go'aan ka gaaridda saacadda ay labadoodu hal habeen ku baxeen."
+      "source_text_sha256": "9363cd2f637e3fc489b4977eceb0a04132e971e1b420ce7b5a87cf20111e5985",
+      "text": "Meel ka dambaysa qisada, Cali wuxuu Maka ku sugnaa saddex habeen iyo maalmihii la socday ilaa uu amaanooyinkii celiyey; markaas ayuu Nebiga ﷺ ku biiray oo uu la degay guriga Kulthuum bin Hadm."
     },
     {
       "unit_id": "hch_departure_voices:title_ar",
-      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
-      "text": "Golihii ilaa jidka: xadka qiso kasta"
+      "source_text_sha256": "d1ea0839bf8ebad820a3dfad0595d9a3c594df39dd07e834aeeb9fe4081566fc",
+      "text": "Bixitaankii habeenka iyo waardiyayaashii guriga"
     },
     {
       "unit_id": "hch_departure_voices1:text_ar",
-      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
-      "text": "Bayhaqi wuxuu Curwa bin al-Subayr ka soo weriyey sawir ka kooban shirqoolka: dil, xadhig, cayrin ama xidhid; waxaa weheliya aayadda al-Anfaal iyo bixitaankii habeenkii ee Nebiga ﷺ iyo Abuu Bakar oo dhanka godka u jihaystay, iyo Cali oo sariirta seexday. Qaybtan laga soo xulay Curwa ma sheegto wada hadalkii golaha iyo sacabbadii ciidda; aayaddu halkan waa qoraal Qur'aan ah oo ku dhex jira qisada Curwa, ee ma aha sii wadidda wada hadalkii golaha."
+      "source_text_sha256": "005eaa48470a06bdb880422fb001ed51d42316fcaa658fe234586daa7848bf71",
+      "text": "Bayhaqi wuxuu Curwa bin al-Subayr ka soo weriyey sawir ka kooban shirqoolka: dil, xadhig, cayrin ama xidhid; waxaa weheliya aayadda al-Anfaal iyo bixitaankii habeenkii ee Nebiga ﷺ iyo Abuu Bakar oo dhanka godka u jihaystay, iyo Cali oo sariirta seexday. Warka Curwa kuma ma xuso hadalkii Daar al-Nadwa ama ciidda la firdhiyey; aayadda al-Anfaal ee ku jirtaa waa qoraal Qur’aan ah, ma aha hadalkii golaha oo sii socda."
     },
     {
       "unit_id": "hch_departure_voices2:text_ar",
-      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
-      "text": "Warka Curwa wuxuu xusaa bixitaanka habeenkii, kan Ibnu Cabbaasna wuxuu xusaa in dadka ilaalo hayey ay mugdiga habeenkii ku uruureen guriga Nebiga ﷺ. Midkoodna ma sheego saacaddii la booqday guriga Abuu Bakar; mana habboona in saacadda booqashadaas laga soo saaro waqtiga ilaalinta ama labadii guri laga dhigo hal muuqaal."
+      "source_text_sha256": "f900696cc357b24596d505490e13c2a68403cc4e1d7ae67c23041443c0cf3981",
+      "text": "Warka Curwa wuxuu xusaa bixitaanka habeenkii, kan Ibnu Cabbaasna wuxuu sheegayaa in ilaaladii ay mugdiga ku uruureen albaabka guriga Nebiga ﷺ. Midkoodna ma sheego saacadda booqashada gaarka ah ee guriga Abuu Bakar."
     },
     {
       "unit_id": "hch_departure_criticism:title_ar",
@@ -103,18 +103,18 @@
     },
     {
       "unit_id": "hch_departure_criticism1:text_ar",
-      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
-      "text": "Faallo hoose oo Suwayaani qoray waxay sheegaysaa in warka Daar al-Nadwa dariiqyadiisa lagu tiriyo «xasan»; dariiqa al-Kalbi wuxuu ku tilmaamaa mid aan lagu farxi karin, kan al-Xasan bin Cumaara mid laga tegay; wuxuu xusaa maragga mursal ee Qataada iyo al-Waaqidi oo laga tegay. Qoraal kale oo uu leeyahay ayuu xuska Ibliis ka reebaa xukunkan wanaajinta. Xukunka iyo ka-reebista isaga ayaannu u nisbaynaynaa, mana beddelayno baaritaan madax-bannaan oo silsilado aan halkan la furin lagu sameeyey."
+      "source_text_sha256": "405fd6cebdc6bf99818431a2f5d2cc4d361a12b4ff6b0f2fb92ae89372c0df32",
+      "text": "Faallo hoose oo Suwayaani qoray waxay sheegaysaa in warka Daar al-Nadwa dariiqyadiisa lagu tiriyo «xasan»; dariiqa al-Kalbi wuxuu ku tilmaamaa mid aan lagu farxi karin, kan al-Xasan bin Cumaara mid laga tegay; wuxuu xusaa maragga mursal ee Qataada iyo al-Waaqidi oo laga tegay. Qoraal kale oo uu leeyahay ayuu xuska Ibliis ka reebaa xukunkan wanaajinta."
     },
     {
       "unit_id": "hch_departure_criticism2:text_ar",
-      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
-      "text": "Suwayaani wuxuu ka hadlayaa dariiq uu ku jiro Abuu Balj; wuxuu yidhi silsiladdiisu dhib ma leh haddii aanu Abuu Balj keligiis la iman eray ka duwan, wuxuuna soo qaataa culimo weriyenimada Abuu Balj aqbalay iyo dhaliishii Bukhaari ee «fihi nazar» (waxaa ka jira wax laga fiirsado), isaga oo weedha Bukhaari ku tilmaama eray naqdiyadeed oo adag. Hadalkiisa bogga xiga ku sii socdaa waa qayb naqdinta ka mid ah; xukunkani ma burinayo guud ahaan dhammaan wararka Cali, mana saxayo eray kasta oo laga soo weriyo."
+      "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
+      "text": "Suwayaani wuxuu ka hadlayaa dariiq uu ku jiro Abuu Balj; wuxuu yidhi silsiladdiisu dhib ma leh haddii aanu Abuu Balj keligiis la iman eray ka duwan, wuxuuna soo qaataa culimo weriyenimada Abuu Balj aqbalay iyo dhaliishii Bukhaari ee «fihi nazar» (waxaa ka jira wax laga fiirsado), isaga oo weedha Bukhaari ku tilmaama eray naqdiyadeed oo adag."
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
-      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
-      "text": "Hadalka Nebiga ﷺ ee Cali sida Ibnu Isxaaq u weriyo, go'a waxaa lagu tilmaamay mid cagaaran oo Xadrami ah; hadalkuna wuxuu ku dhammaystirmayaa bilowga qaybta xigta. Dabadeed Ibnu Isxaaq wuxuu bilaabay silsiladda Yaziid bin Siyaad oo ka soo weriyey Muxammad bin Kacab ee warka ciidda iyo akhrinta Yaasiin; sidaa darteed akhrintaas silsiladdan laguma nisbayn karo dariiqii Ibnu Cabbaas ee ka horreeyey. Kala saaridda labadan dariiq ayaa ka muhiimsan in faahfaahin kasta lagu lifaaqo war kasta oo sariirta xusaya."
+      "source_text_sha256": "3a1c8208e04699f930f7937afce7b566ad4fb7f2a6a0080ea97ba4a1b2700c53",
+      "text": "Werinta Ibnu Isxaaq, Nebigu ﷺ wuxuu Cali u sheegay go’a cagaaran oo Xadrami ah. Warka ciidda la firdhiyey iyo akhrinta Yaasiin, Ibnu Isxaaq wuxuu ka weriyey Yaziid bin Ziyaad oo ka soo xigtay Maxamed bin Kacab al-Quradi."
     },
     {
       "unit_id": "hch_departure_hazwara:title_ar",
@@ -123,13 +123,13 @@
     },
     {
       "unit_id": "hch_departure_hazwara1:text_ar",
-      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
-      "text": "War uu Bayhaqi ka soo weriyey Cabdullaahi bin Cadi bin al-Xamraa, Nebigu ﷺ wuxuu Maka kula hadlayaa isagoo jooga al-Xazwara oo suuqeeda ka tirsan: waxay u tahay dhulka Eebbe ee uu ugu jecel yahay, haddii aan laga saarina kama tegi lahayn. Bayhaqi wuxuu qisadan u arkaa mid la xafiday. Warku ma cayimayo saacadda uu al-Xazwara taagnaa, mana ku xidhayo albaabka guriga ama sariirta Cali."
+      "source_text_sha256": "7be7e627a4749be2ef487f4d8c12c1f10227d75be8815f33794032e59c5ba62e",
+      "text": "War uu Bayhaqi ka soo weriyey Cabdullaahi bin Cadi bin al-Xamraa, Nebigu ﷺ wuxuu Maka kula hadlayaa isagoo jooga al-Xazwara oo suuqeeda ka tirsan: waa dhulka Eebbe ugu wanaagsan, waana dhulka uu ugu jecel yahay, haddii aan laga saarina kama tegi lahayn. Bayhaqi wuxuu qisadan u arkaa mid la xafiday. Warku ma cayimayo saacadda uu al-Xazwara taagnaa, mana ku xidhayo albaabka guriga Nebiga ﷺ ama sariirtiisa ee Cali ku seexday."
     },
     {
       "unit_id": "hch_departure_hazwara2:text_ar",
-      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
-      "text": "Silsiladda warka Cabdullaahi bin Cadi bin al-Xamraa waxay ka bilaabataa dhammaadka qayb laga soo xulay, waxayna ku sii socotaa bilowga bogga xiga; markay dhammaystiranto waxaa imanaya hadalka Nebiga ﷺ iyo faallada Bayhaqi ee waxa la xafiday. Doodda naqdiyadeed ee xigta Bayhaqi wuxuu khalad ku tilmaamaa wixii Macmar weriyey iyo wixii ay qaar ka soo weriyeen Muxammad bin Camr, wuxuuna ka hormariyaa werinta jamaacada. Taasi waa doorashadiisa u dhexaysa qaabab la soo weriyey, ee ma aha sheegasho in war kasta oo kale oo bixitaanka ku saabsan isku xaalad yahay."
+      "source_text_sha256": "e3ed539e964ba7b8ebf3754c654025484873c4f4cadc7de8db30844b417c8e9e",
+      "text": "Naqdiga warka Xazwara, Bayhaqi wuxuu werinta Macmar ku tilmaamaa qalad; si gaar ah wuxuu qalad ugu tilmaamaa wixii qaar ka soo weriyeen Muxammad bin Camr, wuxuuna hormariyaa werinta jamaacada."
     },
     {
       "unit_id": "hch_departure_point_1:text_ar",
@@ -2235,12 +2235,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "fa6cdbf28f172c94a9a7b3b52e9e3ef3b4e8f9150693bd4644b48b6add7df2d2",
+  "translation_sha256": "221e7c13687d6782537c632ba78bc8c39508efe39f304fb09246ede4aed54da2",
   "review": {
-    "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-    "translation_sha256": "fa6cdbf28f172c94a9a7b3b52e9e3ef3b4e8f9150693bd4644b48b6add7df2d2",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 7a3edb46-87a4-455b-a0a0-38ff999dd75b across 437 Arabic/target units. Compared every one of the 437 Arabic–Somali inventory units in complete bounded chunks 0–16: chapter prose, outlines, objectives, ten questions with options, correct-answer meanings, explanations, scope and feedback, metadata, citation URLs, Quran, full selected sources and reported critical judgments. Rechecked the Arabic watchlist and found no remaining actionable semantic or language discrepancies in this draft. This is a bilingual comparison, not independent historical/isnad collation, specialist validation or publication approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

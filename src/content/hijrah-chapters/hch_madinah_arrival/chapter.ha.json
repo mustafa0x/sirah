@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_madinah_arrival",
-  "revision": 1,
+  "revision": 2,
   "locale": "ha",
-  "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-  "arabic_payload_sha256": "2c4db980e433dbb9f819370ee2577669a7036d49f4c4648f5dad4128dd57bc54",
-  "status": "translation_ready",
+  "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+  "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -13,8 +13,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival:reader_question_ar",
-      "source_text_sha256": "4dc5fb16bc0ee37ada9dbf59b8e8ad38cf8d4f0c7e1a3c513b57b2d9822dd754",
-      "text": "Ta yaya tarbar Annabi ﷺ ta kai ga saukarsa a gidan Abu Ayyub, kuma a waɗanne bayanan gidan ne riwayoyi suka bambanta?"
+      "source_text_sha256": "6fbe777be9bd9eb6eb7664a675fdba3d66f4d79d097c82b02d175a4052faefb6",
+      "text": "Ta yaya mutanen Madina suka tarbi Annabi ﷺ har ya zauna a gidan Abu Ayyub, kuma ta yaya riwayoyin Ibn Ishaq da Aflah suka bambanta kan benayen gidan?"
     },
     {
       "unit_id": "hch_madinah_arrival_overview1:text_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_overview2:text_ar",
-      "source_text_sha256": "bd46f0c2bc0e60cb3dc2c8b32c1511aa00fd32f65ebc34ff89f21c5d7efb88d3",
-      "text": "Daga farfajiyar Abu Ayyub zuwa gidansa, labarin karɓar baƙo ya faɗaɗa: a riwayar Ibn Ishaq Abu Ayyub ya ba da labarin saukar Annabi ﷺ a ƙasan gidan, kulawar iyalin lokacin da tulun ruwa ya fashe, da abincin dare da suke shirya masa. Akwai wasu siffofin wannan labari da ake karantawa dabam a ɓangaren zurfafa bayani."
+      "source_text_sha256": "fcdefd53220926227718589b074a71cb76869a9a6a8fc4f83c5a3b52e32e6bf2",
+      "text": "Daga farfajiyar Abu Ayyub zuwa gidansa, labarin karɓar baƙo ya faɗaɗa: a riwayar Ibn Ishaq Abu Ayyub ya ba da labarin saukar Annabi ﷺ a ƙasan gidan, kulawar iyalin lokacin da tulun ruwa ya fashe, da abincin dare da suke shirya masa."
     },
     {
       "unit_id": "hch_madinah_arrival_arrival:title_ar",
@@ -108,28 +108,28 @@
     },
     {
       "unit_id": "hch_madinah_arrival_first:text_ar",
-      "source_text_sha256": "d89956d6f2e80fc1b7e39d6c4f8396fb8691098afee218ee7dbd8a660c819818",
-      "text": "Al-Bara'u ya bayyana farin cikin mutane bayan ya ambaci waɗanda suka iso kafin Annabi ﷺ domin su karantar da su, yayin da Anas a riwayar Bayhaqi ya dubi abin ta fuskar jiransa tare da yara da tarbar Ansar. Bayhaqi ya raba gajeren labarin Anas na ranar shiga tsakanin zaɓaɓɓun sassa biyu a shafuka biyu; don haka adadin kimanin mutane a doguwar riwayarsa ba ƙidayar duk mutanen Madina ba ce, kuma siffanta ranar ba bayar da takamaiman kwanan wata ba ne."
+      "source_text_sha256": "b9c59c96e73bd9ca131d1a0d8c914adc8e6709a51dbbdb320a4ddaa4c02e0589",
+      "text": "Al-Bara'u ya bayyana farin cikin mutane bayan ya ambaci waɗanda suka iso kafin Annabi ﷺ domin su karantar da su, yayin da Anas a riwayar Bayhaqi ya dubi abin ta fuskar jiransa tare da yara da tarbar Ansar. A doguwar riwayarsa Anas ya ambaci kimanin Ansar ɗari biyar da suka tarbi Annabi ﷺ da Abū Bakr; a gajeriyar riwayarsa ya kwatanta ranar isowa ba tare da faɗin takamaiman ranar wata ba."
     },
     {
       "unit_id": "hch_madinah_arrival_friday:text_ar",
-      "source_text_sha256": "d7ae807a82a35c73ce700718b1f8b56967657dfce806099f9c9a7f126c1b6f69",
-      "text": "Ibn Hajar ya danganta labarin fita ranar Juma'a ga Ibn Ishaq da Ibn A'idh, kuma a wani ci gaba ya ruwaito daga Al-Hakim yadda rakumar ta durƙusa a ƙofar Abu Ayyub; hadisin Anas a Bukhari kuwa ya ambaci isowa farfajiyar Abu Ayyub. A maganar Ibn Ishaq da ke kusa akwai nuni ga sabanin mutanen Quba kan tsawon zaman; waɗannan sassan ba su ba mu takamaiman ranar wata ko wata hanyar tafiya da aka zana ba, kuma kada a mai da labarin ginin masallaci wani bayani game da zaɓen mai masauki."
+      "source_text_sha256": "b584e602ef529870ea78c3e50710a8ca1238a877aaa9f60a3616f09fdf14f151",
+      "text": "Ibn Hajar ya danganta labarin fita ranar Juma'a ga Ibn Ishaq da Ibn A'idh, kuma ya ruwaito daga Al-Hakim yadda rakumar ta durƙusa a ƙofar Abu Ayyub; hadisin Anas a Bukhari kuwa ya ambaci isowa farfajiyar Abu Ayyub. Ibn Ishaq ya ambaci zaman Annabi ﷺ a Ƙuba a ranakun Litinin, Talata, Laraba da Alhamis; ya kuma kawo maganar Banu Amr bin Auf cewa ya zauna a cikinsu fiye da haka."
     },
     {
       "unit_id": "hch_madinah_arrival_variants:title_ar",
-      "source_text_sha256": "854168b2cbed56af09ed95b94ece6f65e856f46b76903b077c8961c497ceb1d9",
-      "text": "Benaye biyu da abinci: ta yaya za mu karanta bambancin?"
+      "source_text_sha256": "0d15ac13925286c9114c0da81a23c2673d39a0c99824570b6a4547f3772b16f3",
+      "text": "Benaye biyu da abinci a gidan Abu Ayyub"
     },
     {
       "unit_id": "hch_madinah_arrival_upstairs:text_ar",
-      "source_text_sha256": "5b3c2933b85962c10a8183ab1f99e9d57b4ec227fbb95275ba0bd9eddea09d71",
-      "text": "Riwayar Ibn Ishaq ta bar Abu Ayyub da Umm Ayyub a sama lokacin da ta ba da labarin fashewar tulu. A isnadin Aflah daga Abu Ayyub a wajen Muslim, mutanen da ke sama sun matsa gefe saboda ba sa son yin tafiya a saman Annabi ﷺ; a ƙarshen hadisin, Annabi ﷺ ya koma sama, Abu Ayyub kuma ƙasa. Labarin ruwan yana cikin riwayar Ibn Ishaq kaɗai a nan; ba wani ɓataccen zango ba ne da za mu haɗa da isnadin Aflah, ko hujja kan lokacin da aka yi ƙaura tsakanin benayen."
+      "source_text_sha256": "c81287a3d14744d1c4c18784ce972b3f8757a344c1c380c0d8626425dff20b84",
+      "text": "Riwayar Ibn Ishaq ta bar Abu Ayyub da Umm Ayyub a sama lokacin da ta ba da labarin fashewar tulu. A isnadin Aflah daga Abu Ayyub a wajen Muslim, mutanen da ke sama sun matsa gefe saboda ba sa son yin tafiya a saman Annabi ﷺ; a ƙarshen hadisin, Annabi ﷺ ya koma sama, Abu Ayyub kuma ƙasa."
     },
     {
       "unit_id": "hch_madinah_arrival_garlic:text_ar",
-      "source_text_sha256": "917524b8686a9c7b9518b9547cf2868f96de563e1d09b418bc1017513ff4686d",
-      "text": "Riwayar Ibn Ishaq ta ambaci albasa ko tafarnuwa cikin rashin tabbaci, ta kuma ambaci amsar Annabi ﷺ game da ƙamshin tsiron da ganawarsa ta sirri; a isnadin Simak a wajen Muslim, tafarnuwa aka ambata ba tare da wannan kokwanto ba, tare da bayyana cewa rashin sonsa saboda ƙamshi ne, ba haramta abincin ba. Matanin isnadin Aflah a wajen Muslim ya ci gaba a sassa biyu, kuma a ci gabansa amsarsa ﷺ ita ce: “A'a, amma ni ba na son sa.” Amma riwayar bibiyar isnadi ta Yahya ibn Sa'id daga Shu'ba ta ambaci isnadin ne ba tare da maimaita matanin ba; don haka ba ta kafa wani sabon taron cin abinci ba."
+      "source_text_sha256": "61d0cf2e1fa5d65303003674b749c986aabfc9b3e29d5757435ec01951688026",
+      "text": "Riwayar Ibn Ishaq ta ambaci albasa ko tafarnuwa cikin rashin tabbaci, ta kuma ambaci amsar Annabi ﷺ game da ƙamshin tsiron da ganawarsa ta sirri; a isnadin Simak a wajen Muslim, tafarnuwa aka ambata ba tare da wannan kokwanto ba, tare da bayyana cewa rashin sonsa saboda ƙamshi ne, ba haramta abincin ba. A isnadin Aflah a wajen Muslim, amsarsa ﷺ ita ce: “A’a, amma ni ba na son sa.” Riwayar bibiyar isnadi ta Yahya ibn Sa’id daga Shu’ba ta ambaci isnadin ba tare da maimaita matanin ba."
     },
     {
       "unit_id": "hch_madinah_arrival_point_welcome:text_ar",
@@ -143,8 +143,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_point_arrival:text_ar",
-      "source_text_sha256": "f52bdd5378df4ff7d01949127925d802d4b7d37d85af34153f927278f49655a2",
-      "text": "Isa farfajiyar Abu Ayyub da iyakar labarin masallaci."
+      "source_text_sha256": "481388d4f6bb70134e92a89cc7cad09b903a68c8f8fba58155b3d834929a4d1a",
+      "text": "Isa farfajiyar Abu Ayyub, sannan salla da ginin masallaci."
     },
     {
       "unit_id": "hch_madinah_arrival_point_home:text_ar",
@@ -2530,12 +2530,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "bb5da65c2b0371f9b6efad36e9a7892b161821ca44c205ab4671ea9522d369b4",
+  "translation_sha256": "ecacd5d7291481bef4823437b8a36f10eef9d17ab0713e712b4170efe8201952",
   "review": {
-    "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-    "translation_sha256": "bb5da65c2b0371f9b6efad36e9a7892b161821ca44c205ab4671ea9522d369b4",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session b1d058b3-62a1-4eb6-b208-8005dee760cd across 494 Arabic/target units. Compared all 494 bound Arabic–Hausa inventory units directly in all 17 complete paired chunks, including teaching prose, outlines, objectives, all ten questions and answers with scope, explanations and feedback, metadata, citation URLs, and full selected source passages with named chains, Qur’anic quotation and verse. Consulted the Arabic watchlist; its specified source units are outside this chapter. No further actionable semantic, omission, language or answer discrepancy identified in this round. This is a bounded translation review, not scholarly collation, specialist approval or permission for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

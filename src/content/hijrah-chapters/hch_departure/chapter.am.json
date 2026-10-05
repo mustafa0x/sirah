@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 1,
+  "revision": 2,
   "locale": "am",
-  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
-  "status": "translation_ready",
+  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
+  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_departure:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_departure:reader_question_ar",
-      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
-      "text": "ስለ ዕቅዱና ስለ መውጣቱ የተዘገቡት ምን ይነግሩናል? የዘገባዎቹ ድምፆችስ የት ይለያያሉ?"
+      "source_text_sha256": "74136be76cec487fefea2b99ed667e9397689d507b00edd813205480c2b10f3f",
+      "text": "ኢብን ኢስሓቅ ስለ ቁረይሽ ምክር ቤትና ዐሊ ስለተኛበት የነቢዩ ﷺ መኝታ ምን ይተርካል? ዑርዋስ ስለ ሌሊቱ መውጣት ምን ይናገራል?"
     },
     {
       "unit_id": "hch_departure_overview:text_ar",
-      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
-      "text": "ጉዞው እዚህ በመካ ፈቃድን ከመጠበቅና ከዚያም ቁረይሾች ነቢዩ ﷺ ይወጣሉ ብለው ከፈሩበት ይጀምራል፤ እስከ ዐሊ መኝታና ለአደራዎቹ ሲል የቆየበት ጉዳይ ይዘልቃል። የኢብን ኢስሓቅን ዘገባ እንከተላለን፤ የትረካዎቹ ወሰን ሲለያይም የዑርዋን ዘገባ እና የሱወያኒና የበይሀቂን ትችት እንመለከታለን። በዚህም ታዋቂ የሆነ እያንዳንዱን ዝርዝር አንድ በርግጥ የተረጋገጠ ትዕይንት አናደርገውም።"
+      "source_text_sha256": "bd42dc5d578cc0d1f5559b889c98cf2bab3833dc849c38e3725d04f74a062b37",
+      "text": "ዘገባው በመካ ፈቃድን መጠበቅና ቁረይሾች ነቢዩ ﷺ ሊወጡ ይችላሉ ብለው መፍራታቸውን ይጀምራል፤ ዐሊ በነቢዩ ﷺ መኝታ ላይ ተኛ፣ አደራዎችንም ለመመለስ ቀረ።"
     },
     {
       "unit_id": "hch_departure_waiting:title_ar",
@@ -33,8 +33,8 @@
     },
     {
       "unit_id": "hch_departure_waiting2:text_ar",
-      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
-      "text": "በኢብን ኢስሓቅ ትረካ መሠረት ቁረይሾች ሙሃጂሮች ከመካ ውጭ መኖሪያና የመከላከያ ኃይል እንዳገኙ አዩ፤ ነቢዩ ﷺ ወደ እነርሱ ይሄዳሉ ብለውም ፈሩ። የቁረይሽ ሰዎች ስለ እሳቸው ለመምከር በዳር አን-ነድዋ ተሰበሰቡ። ይህ በጽሑፉ የተተረከ ምስል ነው እንጂ በቀጥታ የተያዘ የስብሰባ ቃለ ጉባኤ አይደለም።"
+      "source_text_sha256": "82765ecfe36526c915bea340bf98d6f73d17c9766537b3c6888963b320a7e6da",
+      "text": "በኢብን ኢስሓቅ ትረካ መሠረት ቁረይሾች ሙሃጂሮች ከመካ ውጭ መኖሪያና የመከላከያ ኃይል እንዳገኙ አዩ፤ ነቢዩ ﷺ ወደ እነርሱ ይሄዳሉ ብለውም ፈሩ። ስለ እሳቸው ለመምከርም በዳር አል-ነድዋ ተሰበሰቡ።"
     },
     {
       "unit_id": "hch_departure_council:title_ar",
@@ -43,13 +43,13 @@
     },
     {
       "unit_id": "hch_departure_council1:text_ar",
-      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
-      "text": "ኢብን ኢስሓቅ በዘገበው የኢብን ዐባስ ዜና መጀመሪያ የማሰር፣ ቀጥሎም የማባረር ሐሳብ ቀረበ፤ በዘገባው ውስጥ የነጅድ ሽማግሌ ሁለቱንም ሐሳቦች አልተቀበለም። ከዚያ አቡ ጀህል ከየጎሳው የመጡ ወጣቶች በአንድነት እንዲመቱት ሐሳብ አቀረበ፤ በዚህ ዜናም ምክር ቤቱ በዚህ ሐሳብ ላይ ተስማምቶ ተበተነ። ውይይቱ በዚህ ዝርዝር መገለጹ ሌሎች ዘገባዎችም ያንኑ ምክር ቤት እንደሚዘግቡ አያመለክትም።"
+      "source_text_sha256": "b0924fc446a04e4e33303d2b92b94e2578f137be27f22656d379a4abb6876031",
+      "text": "ኢብን ኢስሓቅ በዘገበው የኢብን ዐባስ ዜና መጀመሪያ ነቢዩን ﷺ ማሰር ቀረበ፤ የነጅድ ሽማግሌ አልተቀበለውም። ከዚያ ለየት ያለ የማባረር ሀሳብ ቀረበ፤ ይህንም አልተቀበለውም። አቡ ጀህል ከየጎሳው አንድ ወጣት ሰይፍ እንዲይዝ፣ ሁሉም ነቢዩን ﷺ በአንድ ላይ መትተው እንዲገድሉ ሀሳብ አቀረበ። ምክንያቱ የደሙ ተጠያቂነት በጎሳዎች መካከል እንዲከፈልና በኑ ዐብድ መናፍ ሁሉንም ለመዋጋት እንዳይችሉ ነበር። በዚህ ዜና ምክር ቤቱ የአቡ ጀህልን ሀሳብ ተቀበለ።"
     },
     {
       "unit_id": "hch_departure_council2:text_ar",
-      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
-      "text": "ይህ የትረካ መንገድ ኢብሊስን በሽማግሌ አምሳል ይጠቅሳል። ሱወያኒ በአንድ ቦታ ዜናው በተለያዩ መንገዶቹ እንደሚጠናከር ይገልጻል፤ በሌላ ቦታ ግን የኢብሊስን መጠቀስ ከዚህ ፍርድ ያስቀራል። ማጠናከሩን ብቻ የሚያነብ ይህን ልዩነት፣ እንዲሁም ከተራኪዎቹ አንዳንዶቹን የተተዉ ብሎ ከገለጻቸው መንገዶችና ከተላላኪ የተወገደበት ምስክር ዘገባ መለየቱን ያልፈዋል።"
+      "source_text_sha256": "86e3f65ad9921f23db4c2df8a3a04df103474b4e0c3c900815bcd50697147f30",
+      "text": "ይህ የትረካ መንገድ ኢብሊስን በሽማግሌ አምሳል ይጠቅሳል። ሱወያኒ በአንድ ቦታ ዜናው በተለያዩ መንገዶቹ እንደሚጠናከር ይገልጻል፤ በሌላ ቦታ ግን የኢብሊስን መጠቀስ ከዚህ ፍርድ ያስቀራል።"
     },
     {
       "unit_id": "hch_departure_bed:title_ar",
@@ -73,28 +73,28 @@
     },
     {
       "unit_id": "hch_departure_trusts1:text_ar",
-      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
-      "text": "ኢብን ኢስሓቅ በዘገበው ሌላ ዜና የዐሊ ተግባር በመኝታው ላይ መተኛት ብቻ አልነበረም፤ ነቢዩ ﷺ ስለ መውጣታቸው እንደነገሩትና የሰዎችን አደራ ለመመለስ እንዲቀር እንዳዘዙት በ«የደረሰኝ መሠረት» የሚል ቅርጽ በግልጽ ይናገራል። በጽሑፉ ይህ ያለ ስም የደረሰ ዘገባ መሆኑን ያመለክታል፤ እኛ ራሳችን የተራኪ ስም ልንጨምርለት አንችልም።"
+      "source_text_sha256": "aa8aa046502c8151d94eb4889c58905a4b4af8e9da999705d28da19ee4ef6b6a",
+      "text": "ኢብን ኢስሓቅ በዘገበው ሌላ ዜና የዐሊ ተግባር በመኝታው ላይ መተኛት ብቻ አልነበረም፤ ነቢዩ ﷺ ስለ መውጣታቸው እንደነገሩትና የሰዎችን አደራ ለመመለስ እንዲቀር እንዳዘዙት በ«የደረሰኝ መሠረት» የሚል ቅርጽ በግልጽ ይናገራል።"
     },
     {
       "unit_id": "hch_departure_trusts2:text_ar",
-      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
-      "text": "በዘገባው ቀጣይ ክፍል ዐሊ አደራዎቹን እስኪመልስ ድረስ በመካ ሦስት ቀንና ሦስት ሌሊት ቆየ፤ ከዚያም ነቢዩን ﷺ ተከትሎ በኩልሱም ኢብን ሂድም ቤት አብሯቸው አረፈ። ይህ የአደራዎቹን ዜና ያጠናቅቃል እንጂ ሁለቱም በአንድ ሌሊት በየትኛው ሰዓት እንደወጡ አይወስንም።"
+      "source_text_sha256": "9363cd2f637e3fc489b4977eceb0a04132e971e1b420ce7b5a87cf20111e5985",
+      "text": "በዘገባው ቀጣይ ክፍል ዐሊ አደራዎቹን እስኪመልስ ድረስ በመካ ሦስት ቀንና ሦስት ሌሊት ቆየ፤ ከዚያም ነቢዩን ﷺ ተከትሎ በኩልሱም ኢብን ሂድም ቤት አብሯቸው አረፈ።"
     },
     {
       "unit_id": "hch_departure_voices:title_ar",
-      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
-      "text": "ከምክር ቤቱ እስከ መንገዱ፦ የእያንዳንዱ ዘገባ ወሰን"
+      "source_text_sha256": "d1ea0839bf8ebad820a3dfad0595d9a3c594df39dd07e834aeeb9fe4081566fc",
+      "text": "የሌሊት መውጣትና የቤቱ ጠባቂዎች"
     },
     {
       "unit_id": "hch_departure_voices1:text_ar",
-      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
-      "text": "በይሀቂ ከዑርዋ ኢብን ዙበይር ያስተላለፈው አጭር የሴራ ምስል መግደልን፣ ማሰርን፣ ማስወጣትን ወይም በሰንሰለት ማሰርን ይጠቅሳል፤ ከእነዚህም ጋር የአል-አንፋልን አንቀጽ፣ ነቢዩ ﷺ ከአቡ በክር ጋር ሌሊት ወደ ዋሻው አቅጣጫ መውጣታቸውንና ዐሊ በመኝታው ላይ መተኛቱን ያካትታል። ይህ የዑርዋ የተመረጠ ክፍል የምክር ቤቱን ውይይትም ሆነ እፍኝ አፈሩን አይጠቅስም፤ እዚህ ያለው አንቀጽ በዑርዋ ዘገባ ውስጥ የተካተተ የቁርአን ጽሑፍ ነው እንጂ የነድዋው ውይይት ቀጣይ ክፍል አይደለም።"
+      "source_text_sha256": "005eaa48470a06bdb880422fb001ed51d42316fcaa658fe234586daa7848bf71",
+      "text": "በይሀቂ ከዑርዋ ኢብን ዙበይር ያስተላለፈው አጭር የሴራ ምስል መግደልን፣ ማሰርን፣ ማስወጣትን ወይም በሰንሰለት ማሰርን ይጠቅሳል፤ ከእነዚህም ጋር የአል-አንፋልን አንቀጽ፣ ነቢዩ ﷺ ከአቡ በክር ጋር ሌሊት ወደ ዋሻው አቅጣጫ መውጣታቸውንና ዐሊ በመኝታው ላይ መተኛቱን ያካትታል። በዑርዋ ዘገባ የዳር አል-ነድዋ ውይይትም ሆነ የአፈር መበተን አይጠቀስም፤ በዚያ ያለው የአል-አንፋል አንቀጽ የቁርአን ጽሑፍ ነው፣ የምክር ቤቱ ውይይት ቀጣይ አይደለም።"
     },
     {
       "unit_id": "hch_departure_voices2:text_ar",
-      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
-      "text": "የዑርዋ ዜና ሌሊቱ እየገፋ ሳለ መውጣታቸውን ይጠቅሳል፤ የኢብን ዐባስ ዜናም አድፍጠው የሚጠብቁት በጨለማ የሌሊት ጊዜ ከነቢዩ ﷺ ቤት አጠገብ መሰብሰባቸውን ይጠቅሳል። ሁለቱም ግን የአቡ በክርን ቤት የጎበኙበትን ሰዓት አይገልጹም፤ ከአድፍጦ መጠበቅ ሰዓት የጉብኝቱን ሰዓት መገመት ወይም የሁለቱን ቤቶች ዘገባ በአንድ ትዕይንት ማዋሃድ አይገባም።"
+      "source_text_sha256": "f900696cc357b24596d505490e13c2a68403cc4e1d7ae67c23041443c0cf3981",
+      "text": "የዑርዋ ዘገባ በሌሊት መውጣትን ይጠቅሳል፤ የኢብን ዐባስ ዘገባ ግን ተጠባባቂዎቹ በጨለማ ከነቢዩ ﷺ ቤት በር ላይ መሰብሰባቸውን ይጠቅሳል። አንዳቸውም ወደ አቡ በክር ቤት የተደረገውን የተለየ ጉብኝት ሰዓት አይገልጹም።"
     },
     {
       "unit_id": "hch_departure_criticism:title_ar",
@@ -103,18 +103,18 @@
     },
     {
       "unit_id": "hch_departure_criticism1:text_ar",
-      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
-      "text": "የሱወያኒ የግርጌ ማስታወሻ የነድዋውን ዜና በመንገዶቹ ምክንያት «ሐሰን» ይለዋል፤ የአል-ከልቢን መንገድ የሚያስደስት አይደለም ብሎ፣ የአል-ሐሰን ኢብን ዑማራን መንገድ ደግሞ በተተወ ተራኪ የሚያልፍ ብሎ ይገልጻል፤ ተራኪ የተዘለለበትን የቀታዳ ምስክር ዘገባና የተተወውን አል-ዋቂዲም ይጠቅሳል። በሌላ ጽሑፉ ኢብሊስ መጠቀሱን ከዜናው ማሻሻያ ያስቀራል። ፍርዱንና ልዩነቱን ለእርሱ እንጠቅሳለን፤ እዚህ ያልተመረመሩ የትረካ ሰንሰለቶችን በራሳችን የፈተሽን ያህል አንወስደውም።"
+      "source_text_sha256": "405fd6cebdc6bf99818431a2f5d2cc4d361a12b4ff6b0f2fb92ae89372c0df32",
+      "text": "የሱወያኒ የግርጌ ማስታወሻ የነድዋውን ዜና በመንገዶቹ ምክንያት «ሐሰን» ይለዋል፤ የአል-ከልቢን መንገድ የሚያስደስት አይደለም ብሎ፣ የአል-ሐሰን ኢብን ዑማራን መንገድ ደግሞ በተተወ ተራኪ የሚያልፍ ብሎ ይገልጻል፤ ተራኪ የተዘለለበትን የቀታዳ ምስክር ዘገባና የተተወውን አል-ዋቂዲም ይጠቅሳል። በሌላ ጽሑፉ ኢብሊስ መጠቀሱን ከዜናው ማሻሻያ ያስቀራል።"
     },
     {
       "unit_id": "hch_departure_criticism2:text_ar",
-      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
-      "text": "ሱወያኒ በአቡ በልጅ የሚያልፍ የትረካ መንገድን ይመረምራል። አቡ በልጅ ብቻውን ተለይቶ ሌላውን የሚቃረን ቃል እስካላመጣ ድረስ ሰንሰለቱ «ችግር የለበትም» ይላል። አንዳንድ ሊቃውንት እርሱን ያረጋገጡበትን ከቡኻሪ «በእርሱ ላይ ጥርጣሬ አለ» ከሚለው ትችት ጋር አብሮ ያቀርባል፤ የቡኻሪንም አነጋገር ጠንካራ የትችት ቃል እንደሆነ ይገልጻል። በቀጣዩ ገጽ ያለው የንግግሩ ቀሪ ክፍልም የትችቱ አካል ነው፤ ይህ ፍርድ ስለ ዐሊ የሚናገሩ ዘገባዎችን በሙሉ አይሰርዝም፣ በእርሱ የሚተላለፍ እያንዳንዱንም ቃል ትክክል አያደርግም።"
+      "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
+      "text": "ሱወያኒ በአቡ በልጅ የሚያልፍ የትረካ መንገድን ይመረምራል። አቡ በልጅ ብቻውን ተለይቶ ሌላውን የሚቃረን ቃል እስካላመጣ ድረስ ሰንሰለቱ «ችግር የለበትም» ይላል። አንዳንድ ሊቃውንት እርሱን ያረጋገጡበትን ከቡኻሪ «በእርሱ ላይ ጥርጣሬ አለ» ከሚለው ትችት ጋር አብሮ ያቀርባል፤ የቡኻሪንም አነጋገር ጠንካራ የትችት ቃል እንደሆነ ይገልጻል።"
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
-      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
-      "text": "ኢብን ኢስሓቅ እንደዘገበው ነቢዩ ﷺ ለዐሊ በነገሩት ንግግር ካባውን አረንጓዴ የሐድረማውት ካባ ብለው ይገልጹታል፤ ንግግሩም በቀጣዩ የተመረጠ ክፍል መጀመሪያ ይጠናቀቃል። ከዚያ ኢብን ኢስሓቅ ስለ አፈሩና ስለ ያሲን ንባብ ለሚናገረው ዜና ከየዚድ ኢብን ዚያድ እስከ ሙሐመድ ኢብን ከዕብ ያለውን ሰንሰለት ይጀምራል። ስለዚህ ይህን ንባብ በዚህ ሰንሰለት ለቀድሞው የኢብን ዐባስ መንገድ መመደብ አይገባም። መኝታውን በሚጠቅስ ማንኛውም ዘገባ ላይ ሁሉንም ዝርዝር ከመጫን ሁለቱን መንገዶች መለየት ይበልጣል።"
+      "source_text_sha256": "3a1c8208e04699f930f7937afce7b566ad4fb7f2a6a0080ea97ba4a1b2700c53",
+      "text": "በኢብን ኢስሓቅ ዘገባ ነቢዩ ﷺ ለዐሊ ስለ አረንጓዴው የሐድረመውት ካባ ይናገራሉ። የአፈር መበተንና የያሲን ንባብ ዜናን ኢብን ኢስሓቅ ከየዚድ ኢብን ዚያድ፣ ከሙሐመድ ኢብን ከዕብ አል-ቁረዚ ያስተላልፋል።"
     },
     {
       "unit_id": "hch_departure_hazwara:title_ar",
@@ -123,13 +123,13 @@
     },
     {
       "unit_id": "hch_departure_hazwara1:text_ar",
-      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
-      "text": "በይሀቂ ከዐብዱላህ ኢብን ዐዲ ኢብን አል-ሐምራ ባስተላለፈው ዜና፣ ነቢዩ ﷺ በመካ ገበያ በሐዝወራ ቆመው ለመካ ከአላህ ምድር ሁሉ ይልቅ እጅግ የሚወዷት መሆኗን፣ ከእርሷ እንዲወጡ ባልተገደዱ ኖሮም እንደማይለቋት ይናገራሉ። በይሀቂ ይህን ትረካ «መሕፉዝ» ተብሎ የተጠበቀ ይለዋል። ዜናው በሐዝወራ የቆሙበትን ሰዓት አይገልጽም፣ ከቤቱ ደጃፍ ወይም ከዐሊ መኝታ ጋርም አያገናኘውም።"
+      "source_text_sha256": "7be7e627a4749be2ef487f4d8c12c1f10227d75be8815f33794032e59c5ba62e",
+      "text": "በይሀቂ ከዐብዱላህ ኢብን ዐዲ ኢብን አል-ሐምራ ባስተላለፈው ዜና፣ ነቢዩ ﷺ በመካ ገበያ በሐዝወራ ቆመው ለመካ ከአላህ ምድሮች ሁሉ የላቀችና ለእሳቸው ከሁሉ የምትወደድ መሆኗን፣ ከእርሷ እንዲወጡ ባልተገደዱ ኖሮም እንደማይለቋት ይናገራሉ። በይሀቂ ይህን ትረካ «መሕፉዝ» ተብሎ የተጠበቀ ይለዋል። ዜናው በሐዝወራ የቆሙበትን ሰዓት አይገልጽም፤ ይህንም ከነቢዩ ﷺ ቤት በር ወይም ዐሊ ከተኛበት የነቢዩ ﷺ መኝታ ጋር አያገናኝም።"
     },
     {
       "unit_id": "hch_departure_hazwara2:text_ar",
-      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
-      "text": "የዐብዱላህ ኢብን ዐዲ ኢብን አል-ሐምራ ዜና ሰንሰለት ከአንዱ የተመረጠ ክፍል መጨረሻ እስከ ቀጣዩ ገጽ መጀመሪያ ይዘልቃል። ሰንሰለቱ ከተጠናቀቀ በኋላ የነቢዩ ﷺ ንግግርና በይሀቂ ስለ ተጠበቀው የሰጠው ማብራሪያ ይመጣሉ። በቀጣይ ትችት ውስጥ በይሀቂ መዕመር የዘገበውንና አንዳንዶች ከሙሐመድ ኢብን ዐምር የዘገቡትን የተሳሳቱ ይላል፤ የብዙሃኑን ትረካም ያስቀድማል። ይህ በተዘገቡ ቅርጾች መካከል የሰጠው ምርጫ ነው፤ ሌሎቹ የመውጣት ዘገባዎች ሁሉ ተመሳሳይ ደረጃ ላይ ናቸው ብሎ አልተናገረም።"
+      "source_text_sha256": "e3ed539e964ba7b8ebf3754c654025484873c4f4cadc7de8db30844b417c8e9e",
+      "text": "በሐዝወራ ዜና ላይ በሰጠው ትችት በይሀቂ የመዕመርን ዘገባ የተሳሳተ ይላል፤ በተለየ ሁኔታ አንዳንዶች ከሙሐመድ ኢብን ዐምር የዘገቡትንም የተሳሳተ ብሎ የብዙሃኑን ትረካ ያስቀድማል።"
     },
     {
       "unit_id": "hch_departure_point_1:text_ar",
@@ -2235,12 +2235,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "defb774deb229453b19bfde4d7335d7f63c6248006dbd08bd8dca1cb628ac71a",
+  "translation_sha256": "25463b4c1517e787a36361b3148d0f7f3d3f9f130118fd494f9691afaee76918",
   "review": {
-    "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-    "translation_sha256": "defb774deb229453b19bfde4d7335d7f63c6248006dbd08bd8dca1cb628ac71a",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session e3537a96-b707-43f8-95e6-e88d1ef5364c across 437 Arabic/target units. Round-2 Arabic-led semantic comparison completed for all 437 paired inventory units in all 14 entire, untruncated chunks (0–13): teaching paragraphs, headings, outline, objectives, every question/answer/explanation/scope/feedback, metadata and citation URLs, and the complete selected source texts including the Quran and named chains. Rechecked the Arabic watchlist points on the door pronoun and Abu Hatim. Prior actionable wording issues are corrected in the bound draft; no remaining actionable semantic/language/answer discrepancy identified in this bounded inventory. No independent source-book collation, historical authentication, specialist approval, or public distribution authorization is claimed. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 1,
+  "revision": 2,
   "locale": "id",
-  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
-  "status": "translation_ready",
+  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
+  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_departure:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_departure:reader_question_ar",
-      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
-      "text": "Apa yang disampaikan riwayat-riwayat tentang perencanaan dan keberangkatan, dan di mana suara masing-masing berbeda?"
+      "source_text_sha256": "74136be76cec487fefea2b99ed667e9397689d507b00edd813205480c2b10f3f",
+      "text": "Apa yang dituturkan Ibnu Ishaq tentang majelis Quraisy dan tempat tidur Nabi ﷺ yang ditempati Ali, dan apa yang dituturkan Urwah tentang keberangkatan malam hari?"
     },
     {
       "unit_id": "hch_departure_overview:text_ar",
-      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
-      "text": "Perjalanan ini bermula dari penantian izin di Makkah, kemudian kekhawatiran Quraisy bahwa Nabi ﷺ akan pergi, lalu sampai pada pembaringan Ali dan barang-barang titipan yang membuatnya tinggal. Kita akan mengikuti riwayat Ibnu Ishaq dan mencermati riwayat Urwah serta telaah kritis ash-Shuwaiyani dan al-Baihaqi ketika cakupan pembahasannya berbeda; tidak setiap rincian yang masyhur dapat disatukan menjadi satu adegan yang pasti."
+      "source_text_sha256": "bd42dc5d578cc0d1f5559b889c98cf2bab3833dc849c38e3725d04f74a062b37",
+      "text": "Kisah ini dimulai dengan menunggu izin di Makkah dan kekhawatiran Quraisy bahwa Nabi ﷺ akan pergi; Ali kemudian tidur di tempat tidur Nabi ﷺ dan tinggal untuk mengembalikan barang-barang titipan."
     },
     {
       "unit_id": "hch_departure_waiting:title_ar",
@@ -33,8 +33,8 @@
     },
     {
       "unit_id": "hch_departure_waiting2:text_ar",
-      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
-      "text": "Menurut kisah Ibnu Ishaq, Quraisy melihat kaum Muhajirin telah mendapat tempat tinggal dan perlindungan di luar Makkah, sehingga mereka takut Nabi ﷺ menyusul. Para pemuka Quraisy berkumpul di Dar an-Nadwah untuk membicarakan nasib beliau. Ini adalah gambaran yang disampaikan teks, bukan notula langsung dari pertemuan itu."
+      "source_text_sha256": "82765ecfe36526c915bea340bf98d6f73d17c9766537b3c6888963b320a7e6da",
+      "text": "Menurut kisah Ibnu Ishaq, Quraisy melihat kaum Muhajirin telah mendapat tempat tinggal dan perlindungan di luar Makkah, sehingga mereka takut Nabi ﷺ menyusul. Mereka berkumpul di Dar an-Nadwah untuk membicarakan apa yang harus dilakukan terhadapnya."
     },
     {
       "unit_id": "hch_departure_council:title_ar",
@@ -43,13 +43,13 @@
     },
     {
       "unit_id": "hch_departure_council1:text_ar",
-      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
-      "text": "Dalam berita Ibnu Abbas yang diriwayatkan Ibnu Ishaq, mula-mula diajukan usul memenjarakan, lalu mengasingkan Nabi; syekh dari Najd menolak kedua usul itu dalam riwayat tersebut. Kemudian Abu Jahl mengusulkan agar para pemuda dari berbagai kabilah bersama-sama menyerang beliau; menurut berita ini, majelis berakhir dengan menerima usul itu. Penggambaran dialog sedemikian rinci tidak berarti setiap berita lain meriwayatkan majelis yang sama."
+      "source_text_sha256": "b0924fc446a04e4e33303d2b92b94e2578f137be27f22656d379a4abb6876031",
+      "text": "Dalam berita Ibnu Abbas yang disampaikan Ibnu Ishaq, usul pertama ialah memenjarakan Nabi ﷺ; orang tua dari Najd menolaknya. Usul lain ialah mengasingkan beliau, dan ia menolaknya juga. Abu Jahl kemudian mengusulkan agar seorang pemuda dari tiap kabilah diberi pedang sehingga mereka bersama-sama menebas Nabi ﷺ dengan satu serangan dan membunuhnya. Menurut alasannya, tanggung jawab atas darah beliau akan tersebar di antara kabilah-kabilah, sehingga Bani Abd Manaf tidak sanggup memerangi semuanya. Dalam berita ini, majelis menerima usul Abu Jahl."
     },
     {
       "unit_id": "hch_departure_council2:text_ar",
-      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
-      "text": "Jalur riwayat ini juga menyebut Iblis dalam sosok seorang syekh. Di satu tempat ash-Shuwaiyani menilai berita ini hasan melalui berbagai jalurnya, tetapi di tempat lain ia mengecualikan penyebutan Iblis. Membaca penilaian pertama saja akan melewatkan pengecualian itu, juga pembedaan antara jalur yang sebagian perawinya ia nyatakan ditinggalkan dan riwayat pendukung yang mursal."
+      "source_text_sha256": "86e3f65ad9921f23db4c2df8a3a04df103474b4e0c3c900815bcd50697147f30",
+      "text": "Jalur riwayat ini juga menyebut Iblis dalam sosok seorang syekh. Di satu tempat ash-Shuwaiyani menilai berita ini hasan melalui berbagai jalurnya, tetapi di tempat lain ia mengecualikan penyebutan Iblis."
     },
     {
       "unit_id": "hch_departure_bed:title_ar",
@@ -73,28 +73,28 @@
     },
     {
       "unit_id": "hch_departure_trusts1:text_ar",
-      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
-      "text": "Dalam berita Ibnu Ishaq yang lain, tugas Ali bukan sekadar tidur di pembaringan. Dengan ungkapan “menurut berita yang sampai kepadaku” (fīmā balaghanī), ia menyatakan Nabi ﷺ memberitahu Ali tentang keberangkatan beliau dan memerintahkannya tinggal untuk mengembalikan barang-barang titipan orang. Ungkapan ini adalah bentuk penyampaian berita, bukan nama perawi yang boleh kita tambahkan sendiri."
+      "source_text_sha256": "aa8aa046502c8151d94eb4889c58905a4b4af8e9da999705d28da19ee4ef6b6a",
+      "text": "Dalam berita Ibnu Ishaq yang lain, tugas Ali bukan sekadar tidur di pembaringan. Dengan ungkapan “menurut berita yang sampai kepadaku” (fīmā balaghanī), ia menyatakan Nabi ﷺ memberitahu Ali tentang keberangkatan beliau dan memerintahkannya tinggal untuk mengembalikan barang-barang titipan orang."
     },
     {
       "unit_id": "hch_departure_trusts2:text_ar",
-      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
-      "text": "Pada bagian selanjutnya dari riwayat itu, Ali tinggal di Makkah selama tiga malam beserta siangnya sampai ia mengembalikan barang-barang titipan, lalu menyusul Nabi ﷺ dan tinggal bersama beliau di kediaman Kultsum bin Hidm. Ini melengkapi berita tentang amanat, bukan penetapan jam keberangkatan keduanya pada satu malam yang sama."
+      "source_text_sha256": "9363cd2f637e3fc489b4977eceb0a04132e971e1b420ce7b5a87cf20111e5985",
+      "text": "Pada bagian selanjutnya dari riwayat itu, Ali tinggal di Makkah selama tiga malam beserta siangnya sampai ia mengembalikan barang-barang titipan, lalu menyusul Nabi ﷺ dan tinggal bersama beliau di kediaman Kultsum bin Hidm."
     },
     {
       "unit_id": "hch_departure_voices:title_ar",
-      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
-      "text": "Dari majelis ke perjalanan: batas tiap riwayat"
+      "source_text_sha256": "d1ea0839bf8ebad820a3dfad0595d9a3c594df39dd07e834aeeb9fe4081566fc",
+      "text": "Keberangkatan malam dan para pengintai di rumah"
     },
     {
       "unit_id": "hch_departure_voices1:text_ar",
-      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
-      "text": "Al-Baihaqi menukil dari Urwah bin az-Zubair gambaran yang lebih singkat tentang rencana jahat itu: membunuh, memenjarakan, mengusir, atau membelenggu. Di dalamnya ada ayat surah al-Anfal, keberangkatan Nabi ﷺ dan Abu Bakar pada malam hari menuju gua, serta Ali berbaring di pembaringan. Petikan dari Urwah ini tidak menyebut dialog dalam majelis maupun segenggam tanah; ayat tersebut merupakan teks Al-Qur'an dalam riwayat Urwah, bukan lanjutan dialog Dar an-Nadwah."
+      "source_text_sha256": "005eaa48470a06bdb880422fb001ed51d42316fcaa658fe234586daa7848bf71",
+      "text": "Al-Baihaqi menukil dari Urwah bin az-Zubair gambaran yang lebih singkat tentang rencana jahat itu: membunuh, memenjarakan, mengusir, atau membelenggu. Di dalamnya ada ayat surah al-Anfal, keberangkatan Nabi ﷺ dan Abu Bakar pada malam hari menuju gua, serta Ali berbaring di pembaringan. Berita Urwah tidak menyebut dialog di Dar an-Nadwah atau penaburan tanah; ayat al-Anfal di dalamnya adalah teks Al-Qur'an, bukan lanjutan dialog majelis."
     },
     {
       "unit_id": "hch_departure_voices2:text_ar",
-      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
-      "text": "Berita Urwah menyebut keberangkatan pada malam hari, sedangkan berita Ibnu Abbas menyebut para pengintai berkumpul di rumah Nabi ﷺ ketika malam mulai gelap. Keduanya tidak menyebut jam kunjungan ke rumah Abu Bakar. Waktu kunjungan itu tidak boleh disimpulkan dari waktu pengintaian atau menyatukan peristiwa di kedua rumah sebagai satu adegan."
+      "source_text_sha256": "f900696cc357b24596d505490e13c2a68403cc4e1d7ae67c23041443c0cf3981",
+      "text": "Berita Urwah menyebut keberangkatan malam, sedangkan berita Ibnu Abbas menyebut para pengintai berkumpul di depan pintu rumah Nabi ﷺ dalam gelap. Keduanya tidak menentukan jam kunjungan tersendiri ke rumah Abu Bakar."
     },
     {
       "unit_id": "hch_departure_criticism:title_ar",
@@ -103,18 +103,18 @@
     },
     {
       "unit_id": "hch_departure_criticism1:text_ar",
-      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
-      "text": "Sebuah catatan kaki ash-Shuwaiyani menyatakan bahwa berita Dar an-Nadwah hasan melalui jalur-jalurnya; ia menyebut jalur al-Kalbi tidak dapat diandalkan, jalur al-Hasan bin Umarah ditinggalkan, serta mencatat riwayat pendukung Qatadah yang mursal dan al-Waqidi yang ditinggalkan. Di tulisannya yang lain ia mengecualikan penyebutan Iblis dari penilaian hasan itu. Kita menisbatkan penilaian dan pengecualian tersebut kepadanya, bukan menggantinya dengan penelitian sanad mandiri yang tidak dilakukan di sini."
+      "source_text_sha256": "405fd6cebdc6bf99818431a2f5d2cc4d361a12b4ff6b0f2fb92ae89372c0df32",
+      "text": "Sebuah catatan kaki ash-Shuwaiyani menyatakan bahwa berita Dar an-Nadwah hasan melalui jalur-jalurnya; ia menyebut jalur al-Kalbi tidak dapat diandalkan, jalur al-Hasan bin Umarah ditinggalkan, serta mencatat riwayat pendukung Qatadah yang mursal dan al-Waqidi yang ditinggalkan. Di tulisannya yang lain ia mengecualikan penyebutan Iblis dari penilaian hasan itu."
     },
     {
       "unit_id": "hch_departure_criticism2:text_ar",
-      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
-      "text": "Ash-Shuwaiyani membahas jalur melalui Abu Balj. Menurutnya, sanad itu cukup baik selama Abu Balj tidak sendirian meriwayatkan redaksi yang menyelisihi riwayat lain. Ia menyebut penilaian tepercaya dari sejumlah ulama bersama kritik al-Bukhari “fīhi nazhar” (perlu ditinjau) terhadapnya, serta menyebut istilah al-Bukhari itu sebagai istilah yang keras. Lanjutan pembahasannya di halaman berikutnya merupakan bagian dari kritik itu; penilaian ini bukan penolakan menyeluruh terhadap seluruh berita tentang Ali ataupun pembenaran setiap redaksi yang dinisbatkan kepadanya."
+      "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
+      "text": "Ash-Shuwaiyani membahas jalur melalui Abu Balj. Menurutnya, sanad itu cukup baik selama Abu Balj tidak sendirian meriwayatkan redaksi yang menyelisihi riwayat lain. Ia menyebut penilaian tepercaya dari sejumlah ulama bersama kritik al-Bukhari “fīhi nazhar” (perlu ditinjau) terhadapnya, serta menyebut istilah al-Bukhari itu sebagai istilah yang keras."
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
-      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
-      "text": "Dalam perkataan Nabi ﷺ kepada Ali sebagaimana diriwayatkan Ibnu Ishaq, kain itu digambarkan sebagai kain Hadramaut berwarna hijau; perkataan ini berlanjut pada awal petikan berikutnya. Setelah itu Ibnu Ishaq membuka sanad Yazid bin Ziyad dari Muhammad bin Ka'b bagi berita tentang tanah dan pembacaan Yasin. Karena itu, pembacaan ayat tidak boleh dinisbatkan melalui sanad tersebut kepada jalur Ibnu Abbas sebelumnya. Memisahkan kedua jalur ini lebih penting daripada melekatkan setiap rincian pada sembarang berita yang menyebut pembaringan."
+      "source_text_sha256": "3a1c8208e04699f930f7937afce7b566ad4fb7f2a6a0080ea97ba4a1b2700c53",
+      "text": "Dalam riwayat Ibnu Ishaq, Nabi ﷺ menyebut kepada Ali selimut hijau dari Hadramaut. Ibnu Ishaq meriwayatkan penaburan tanah dan pembacaan Ya-Sin melalui Yazid bin Ziyad dari Muhammad bin Ka‘b al-Qurazhi."
     },
     {
       "unit_id": "hch_departure_hazwara:title_ar",
@@ -123,13 +123,13 @@
     },
     {
       "unit_id": "hch_departure_hazwara1:text_ar",
-      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
-      "text": "Dalam berita yang diriwayatkan al-Baihaqi dari Abdullah bin Adi bin al-Hamra, Nabi ﷺ berbicara kepada Makkah ketika berdiri di al-Hazwarah di pasar kota itu: Makkah adalah negeri Allah yang paling beliau cintai, dan seandainya beliau tidak diusir darinya, beliau tidak akan pergi. Al-Baihaqi menilai riwayat ini terpelihara. Berita itu tidak menetapkan kapan beliau berdiri di al-Hazwarah dan tidak mengaitkannya dengan pintu rumah atau pembaringan Ali."
+      "source_text_sha256": "7be7e627a4749be2ef487f4d8c12c1f10227d75be8815f33794032e59c5ba62e",
+      "text": "Dalam berita yang diriwayatkan al-Baihaqi dari Abdullah bin Adi bin al-Hamra, Nabi ﷺ berbicara kepada Makkah ketika berdiri di al-Hazwarah di pasar kota itu: Makkah adalah negeri Allah yang terbaik dan yang paling beliau cintai, dan seandainya beliau tidak diusir darinya, beliau tidak akan pergi. Al-Baihaqi menilai riwayat ini terpelihara. Berita itu tidak menentukan jam beliau berdiri di al-Hazwarah dan tidak mengaitkannya dengan pintu rumah Nabi ﷺ atau tempat tidur beliau yang ditempati Ali."
     },
     {
       "unit_id": "hch_departure_hazwara2:text_ar",
-      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
-      "text": "Sanad berita Abdullah bin Adi bin al-Hamra berakhir di ujung satu petikan dan berlanjut di awal halaman berikutnya; setelah lengkap, barulah muncul sabda Nabi ﷺ dan komentar al-Baihaqi tentang riwayat yang terpelihara. Dalam pembahasan kritis berikutnya, al-Baihaqi menilai apa yang diriwayatkan Ma'mar dan apa yang diriwayatkan sebagian orang dari Muhammad bin Amr sebagai kekeliruan, serta mengutamakan riwayat sejumlah perawi. Ini adalah tarjihnya di antara redaksi yang dinukil, bukan pernyataan bahwa semua riwayat keberangkatan lainnya bernasib sama."
+      "source_text_sha256": "e3ed539e964ba7b8ebf3754c654025484873c4f4cadc7de8db30844b417c8e9e",
+      "text": "Dalam pembahasan riwayat al-Hazwarah, al-Baihaqi menilai riwayat Ma'mar keliru; secara terpisah ia juga menilai keliru apa yang diriwayatkan sebagian orang dari Muhammad bin Amr dan mengutamakan riwayat kelompok perawi."
     },
     {
       "unit_id": "hch_departure_point_1:text_ar",
@@ -2235,12 +2235,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "7dc94f39541386ed488b34f9f2a1ffebec42d39da83b5e41dcceca1ffb8232e0",
+  "translation_sha256": "daa803ef9377478c6fea9a532bf48a49cd7fbfe6792d7d960b46e2ca231a3a48",
   "review": {
-    "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-    "translation_sha256": "7dc94f39541386ed488b34f9f2a1ffebec42d39da83b5e41dcceca1ffb8232e0",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session ff385ef8-1aa4-44a0-b13a-0719e9de5ae0 across 437 Arabic/target units. Perbandingan langsung Arab–Indonesia ulang pada seluruh 437 unit dalam 17 chunk: uraian pengajaran, tujuan, garis besar, sepuluh pertanyaan beserta opsi/kunci/cakupan/penjelasan/umpan balik, metadata dan URL sitasi, serta teks lengkap delapan bacaan. Seluruh bacaan bermode translated tanpa soal ditangguhkan; penanda catatan [٣] pada petikan perdebatan kini dipertahankan. Tidak ditemukan masalah makna, penghilangan, bahasa, atau jawaban yang perlu diperbaiki dalam cakupan ini. Tidak dilakukan kolasi naskah, audit sanad independen, atau pemberian persetujuan bahasa, keahlian, maupun distribusi. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

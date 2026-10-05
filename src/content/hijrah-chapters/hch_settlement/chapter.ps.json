@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_settlement",
-  "revision": 1,
+  "revision": 2,
   "locale": "ps",
-  "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-  "arabic_payload_sha256": "aea9e58189b49b74bb4a481a4b2ff3929ef167e3e5c27cc8f7af60a180ccc2f3",
-  "status": "translation_ready",
+  "arabic_sha256": "80c19ce1af5a2a1f7fa80fe88665a540f4318f41d3863db5d7694e98f51f435c",
+  "arabic_payload_sha256": "0a946402c38ad782effe9e40bdb3546f8c21e50ac42325e21de13e47606292d1",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_settlement:title_ar",
@@ -18,13 +18,13 @@
     },
     {
       "unit_id": "hch_settlement_overview1:text_ar",
-      "source_text_sha256": "e36eae2365887f6b61c12ab29e69cdd29312aecafb7e17c315c4a5c0904db3b5",
-      "text": "له رسېدو وروسته د هجرت نور اړخونه راڅرګند شول: مهاجران مدینې ته ورپسې ورسېدل، ځینې کورنۍ وروسته راغلې، او اسماء په قبا کې د خپل زوی د زېږېدو کیسه وکړه. د عائشې روایت د ابوبکر او بلال ناروغي او د مدینې لپاره د نبي ﷺ دعا یادوي. دا صحنې څنګ په څنګ لولو، بې له دې چې ټولو ته یو تاریخ وټاکو."
+      "source_text_sha256": "9e05ac626ff537039d89de5912f6c828cfb9be05cd60c4f0cf996a00c4ac79d9",
+      "text": "له رسېدو وروسته د هجرت نور اړخونه راڅرګند شول: مهاجران مدینې ته ورپسې ورسېدل، ځینې کورنۍ وروسته راغلې، او اسماء په قبا کې د خپل زوی د زېږېدو کیسه وکړه. د عائشې روایت د ابوبکر او بلال ناروغي او د مدینې لپاره د نبي ﷺ دعا یادوي."
     },
     {
       "unit_id": "hch_settlement_overview2:text_ar",
-      "source_text_sha256": "d5ffbaaf1c8ce6264d79da2dec35bec4fbab794e2cab50383c945b6a5abe68dd",
-      "text": "د ابن حبان د روایت، د اسماء د خبر او د ابن حجر د تشریحاتو تر منځ د غږ او دقت توپیر شته: هر یو د خپل روایت په حدودو کې خبرې کوي؛ د شارح وینا یا حاشیه د پېښې د شاهدې شهادت نه ګرځي."
+      "source_text_sha256": "5891d3f6b41bae4e97632bc2e37337e95758eedd790b3baf0214550d1a32120b",
+      "text": "ابن حبان د ورورولۍ خبر ورکوي؛ اسماء په قبا کې د خپل زوی د زېږېدو کیسه کوي. ابن حجر د هغه د زېږېدو لپاره لومړی کال غوره ګڼي، او د مسلم د چاپ حاشیه د مدینې د ناروغۍ وصف تشریح کوي او د جحفه په اړه خبرې نقلوي."
     },
     {
       "unit_id": "hch_settlement_arrivals:title_ar",
@@ -33,18 +33,18 @@
     },
     {
       "unit_id": "hch_settlement_arrivals1:text_ar",
-      "source_text_sha256": "262e605d7c25224d7869a39a850055f54daaa75767a7ca17df4e7b24e2858286",
-      "text": "په مدینه کې د رسېدو په وخت د هجرت لړۍ نه وه ختمه شوې؛ ابن اسحاق روایت کوي چې مهاجران یو په بل پسې ورسېدل، خو په مکه کې له پاتې کسانو څخه فتنه‌ځپلی او بندي مستثنا کوي. د هغه په روایت کې داسې کورونه هم شته چې د اوسېدونکو له وتلو سره تړل شوي؛ دا نه ښيي چې هر مهاجر له کورنۍ او مال سره وتلی و."
+      "source_text_sha256": "d6ec845ff1e99961c9b5c202cea5a034e810ab581db0ee8a94e58dbd82f26a1b",
+      "text": "په مدینه کې د رسېدو په وخت د هجرت لړۍ نه وه ختمه شوې؛ ابن اسحاق روایت کوي چې مهاجران یو په بل پسې ورسېدل، خو په مکه کې له پاتې کسانو څخه فتنه‌ځپلی او بندي مستثنا کوي. د هغه په روایت کې داسې کورونه هم شته چې د اوسېدونکو له وتلو سره تړل شوي۔"
     },
     {
       "unit_id": "hch_settlement_arrivals2:text_ar",
-      "source_text_sha256": "258caab796940fe4e28e5e1522826535506d7bb30b63141fed3e6f53c2a67f90",
-      "text": "بیا له مکې څخه د کورنیو د راتګ خبر راځي. ابن حبان روایت کوي چې زید بن حارثه او ابو رافع د سوده او د نبي ﷺ د لوڼو د راوستلو لپاره ولېږل شول، او ابوبکر ابن اریقط خپل زوی عبدالله ته ولېږه چې له خپلې کورنۍ سره راشي. دا تر لومړني راتګ وروسته د کورنیو بل سفر دی؛ له دې یوې کرښې د ټولو راغلو کسانو نومونه نه معلومېږي."
+      "source_text_sha256": "0c469a9790c5960476b434c6f659ca942acad2f4202ed9bdd6605ec55582a88c",
+      "text": "بیا له مکې څخه د کورنیو د راتګ خبر راځي. ابن حبان روایت کوي چې زید بن حارثه او ابو رافع د سوده او د نبي ﷺ د لوڼو د راوستلو لپاره ولېږل شول، او ابوبکر ابن اریقط خپل زوی عبدالله ته ولېږه چې له خپلې کورنۍ سره راشي."
     },
     {
       "unit_id": "hch_settlement_arrivals3:text_ar",
-      "source_text_sha256": "9d96820ab004ce7a18fe76b2060a693b1a1714de64cc8b54bf993be7ec756195",
-      "text": "ابن حجر د ابن اسحاق له قوله د هغو کسانو نور نومونه زیاتوي چې د نبي ﷺ له کورنۍ او د ابوبکر له کورنۍ سره راغلي وو؛ بیا د عثمان سره د رقیې مخکینی راتګ او د زینب وروسته پاتې کېدل یادوي. خو د ابن سعد په روایت کې نبي ﷺ زید او ابو رافع د ابو ایوب له کوره مکې ته لېږي او هغوی یې د کورنۍ ځینې غړي راولي؛ د دغو روایتونو د یوه تفصیل د ابن حبان د «لوڼو» د وینا صریح نوملړ نه ګرځي."
+      "source_text_sha256": "01e1109eaa7ad30f3c3abac3303de2aa7b45dc0ff518162b964c0569c71d4690",
+      "text": "ابن حجر د ابن اسحاق له قوله د هغو کسانو نور نومونه زیاتوي چې د نبي ﷺ له کورنۍ او د ابوبکر له کورنۍ سره راغلي وو؛ بیا د عثمان سره د رقیې مخکینی راتګ او د زینب وروسته پاتې کېدل یادوي. خو د ابن سعد په روایت کې نبي ﷺ زید او ابو رافع د ابو ایوب له کوره مکې ته لېږي او هغوی یې د کورنۍ ځینې غړي راولي۔"
     },
     {
       "unit_id": "hch_settlement_brotherhood:title_ar",
@@ -53,13 +53,13 @@
     },
     {
       "unit_id": "hch_settlement_brotherhood1:text_ar",
-      "source_text_sha256": "9d5acffae4cf8c98c2d4a29acca6a99cd517a335e7b95c911dd5385e81bb46b4",
-      "text": "د کورنیو د راتګ تر څنګ د ابن حبان په روایت کې د ورورولۍ خبر هم راځي: لومړی بلل شوي کسان راټول شول، بیا نبي ﷺ ته منسوبې خبرې او د هغو کسانو نومونه راځي چې تر منځ یې ورورولي جوړه شوه. دا اوږد روایت دلته د پاڼو په پولو ټوټه شوی؛ لیکوال په دې ځای کې ورته نوی سند نه دی راوړی. نو د روایت عبارتونه او نومونه هماغسې لوستل کېږي، نه دا چې د هرې ورورولۍ په اړه ټولیزه پرېکړه وګڼل شي."
+      "source_text_sha256": "6848b5fd1dc490047703514c993f2944d408f43154263020704ade9f8e397863",
+      "text": "د کورنیو د راتګ تر څنګ د ابن حبان په روایت کې د ورورولۍ خبر هم راځي: لومړی بلل شوي کسان راټول شول، بیا نبي ﷺ ته منسوبې خبرې او د هغو کسانو نومونه راځي چې تر منځ یې ورورولي جوړه شوه. ابن حبان دلته د دې خبر لپاره نوی سند نه دی راوړی."
     },
     {
       "unit_id": "hch_settlement_brotherhood2:text_ar",
-      "source_text_sha256": "f3288265b7806ce9cd0f447abbb1de2ef5b7a39d7a75acbe9aceb29a469b204d",
-      "text": "د دې روایت په دوام کې عبدالرحمن بن عوف له عثمان سره یاد شوی. خو دلته یاد شوی سعد، سعد بن ابي وقاص دی چې له عمار سره یادېږي؛ دلته د عبدالرحمن او سعد بن ربیع د ورورولۍ یا د دوی د خبرو خبر نشته. هغه کیسه تر هغې پرېږدو چې خپل روایت یې ولوستل شي، د دې متن تشه په داسې څه نه ډکوو چې دلته نشته."
+      "source_text_sha256": "7d7821d32444549b6869a002ee853783614f79df32a838a4a8d1e1994d51ee1f",
+      "text": "د دې روایت په دوام کې عبدالرحمن بن عوف له عثمان سره یاد شوی. خو دلته یاد شوی سعد، سعد بن ابي وقاص دی چې له عمار سره یادېږي؛ په دې روایت کې د عبدالرحمن او سعد بن ربیع د ورورولۍ یا د دوی د خبرو خبر نشته."
     },
     {
       "unit_id": "hch_settlement_birth:title_ar",
@@ -73,8 +73,8 @@
     },
     {
       "unit_id": "hch_settlement_birth2:text_ar",
-      "source_text_sha256": "edbd96f2ee905b2bd1a30534407239e2ffeac519546bb1f7b4d4d7cca9f2db97",
-      "text": "عائشه دا صحنه په لنډ روایت کې نقلوي او خرما او د نبي ﷺ لاړې پکې یادوي. د دې لنډیز د زېږېدو بل تاریخ نه دی؛ د قبا په اړه د اسماء وینا د همغې خپله وینا ده، نو د جملو له ترتیب څخه د زېږېدو ورځ یا میاشت نه باسو."
+      "source_text_sha256": "bcd57af9cbe3713a8d0c5f773ec1b98fb9e0ee2f7ebd0d98bce60cf00ba58749",
+      "text": "عائشه دا صحنه په لنډ روایت کې نقلوي او خرما او د نبي ﷺ لاړې پکې یادوي. اسماء قبا د زېږېدو ځای بولي، خو ورځ یا میاشت نه ټاکي؛ عائشه هم بله نېټه نه ښيي."
     },
     {
       "unit_id": "hch_settlement_fever:title_ar",
@@ -88,28 +88,28 @@
     },
     {
       "unit_id": "hch_settlement_fever2:text_ar",
-      "source_text_sha256": "2421d2074033ae1244c6e52765dcbbdc5d9885427dc6b3f07a002a3056aea9e7",
-      "text": "عائشې د ناروغۍ خبره نبي ﷺ ته ورسوله؛ هغه د مدینې د مینې او روغتیا، د هغې په صاع او مُد کې د برکت او جحفه ته د تبې د اړولو دعا وکړه. په صحیح مسلم کې روایت د دواړو کسانو د ناروغۍ او دعا تر یادونې لنډېږي، او په بخاري کې د دعا بله بڼه ده. دلته د عبارتونو توپیر د هماغه خبر د کتلو یوه کړکۍ ده، نه دا چې حتماً جلا جلا د تبې پېښې وشمېرو."
+      "source_text_sha256": "ae1acf6ea8d860752b2ba8a30371e96ea6d95235a8b42b3304f5b2a5f1758c00",
+      "text": "عائشې د ناروغۍ خبره نبي ﷺ ته ورسوله؛ هغه د مدینې د مینې او روغتیا، د هغې په صاع او مُد کې د برکت او جحفه ته د تبې د اړولو دعا وکړه. په صحیح مسلم کې روایت د دواړو کسانو د ناروغۍ او دعا تر یادونې لنډېږي، او په بخاري کې د دعا بله بڼه ده."
     },
     {
       "unit_id": "hch_settlement_family_scope:title_ar",
-      "source_text_sha256": "63cd789331e09d0abacbabd7ff2d68ba06c12d1db97ca164c4b23648496a2ba8",
-      "text": "د راغلو کسانو نومونه او د روایت حدود"
+      "source_text_sha256": "3b23424d5e365c6dbc1e4697ceae88a8b8a92cc7e78cc6c64b8a6220d7604c08",
+      "text": "د راغلو کسانو نومونه"
     },
     {
       "unit_id": "hch_settlement_family_scope1:text_ar",
-      "source_text_sha256": "5ae4c490614289334c553bc09475b1694ce7a4fc35e74f6f9df77ee1fd2f667e",
-      "text": "د ابن حبان په غوره شوي متن کې مکې ته د کسانو د لېږلو او د ابوبکر د کورنۍ د راوتلو خبره ده؛ ابن حجر د ابن اسحاق له قوله نور نومونه راوړي او د عبدالله د زېږېدو د وخت په اړه خپله تبصره ورزیاتوي. د ابن سعد روایت د راغلو کسانو د حارثه بن نعمان په کور کې مېشتول هم یادوي. دا د روایت بېلابېل حدود ګڼو، نه داسې یو نوملړ چې پر هر شاهد یې وتپو."
+      "source_text_sha256": "836da9f8af3fcae070c5155915e81558673b96e67f7aa832998318afe92d15d5",
+      "text": "د ابن حبان په روایت کې مکې ته د کسانو د لېږلو او د ابوبکر د کورنۍ د راوتلو خبره ده؛ ابن حجر د ابن اسحاق له قوله نور نومونه راوړي او د عبدالله د زېږېدو د وخت په اړه خپله تبصره ورزیاتوي. د ابن سعد روایت د راغلو کسانو د حارثه بن نعمان په کور کې مېشتول هم یادوي."
     },
     {
       "unit_id": "hch_settlement_family_scope2:text_ar",
-      "source_text_sha256": "52459ae51a5384d93944c5ae15e21b5dd0eab7a27f58d77595320d94d9d6a4e1",
-      "text": "ځکه چې دا د راتګ نه وروسته د وخت لوستنه ده، د کورنیو، ورورولۍ، ماشوم او تبې کیسې مې د جومات تر فصل وروسته ځای پر ځای کړې دي. دا د فصل ترتیب دی، د ټولو پېښو تاریخ نه دی؛ ابن حجر د ځینو کورنیو د راتګ په اړه وايي چې نبي ﷺ هغه مهال خپل جومات جوړاوه، خو له دې نه ثابتېږي چې دلته هره پېښه د ودانۍ تر بشپړېدو وروسته شوې وه."
+      "source_text_sha256": "76b2e735e2bad2c0811d30c99c2df2adcb9000ccf05c57c9761e7147853b533c",
+      "text": "ابن حجر وايي چې ځینې کورنۍ هغه وخت ورسېدې چې نبي ﷺ خپل جومات جوړاوه. د ابن حبان په روایت کې نبي ﷺ د جومات تر بشپړېدو پورې د ابو ایوب په کور کې اوسېده."
     },
     {
       "unit_id": "hch_settlement_dates:title_ar",
-      "source_text_sha256": "1fe4a44b5d411f852235acb4c93616bd05ac7f117785d1def4e444acebf67e53",
-      "text": "د اسماء روایت څه ثابتوي؟"
+      "source_text_sha256": "ed17507e1ab83f9d94ec29aff23368df5e5b787c4e4e1cb21fa555c321a41bbb",
+      "text": "د عبدالله زېږېدنه او د وخت اختلاف یې"
     },
     {
       "unit_id": "hch_settlement_dates1:text_ar",
@@ -118,8 +118,8 @@
     },
     {
       "unit_id": "hch_settlement_dates2:text_ar",
-      "source_text_sha256": "0f37cf363b3d9eb70164695815bc1b81ea09dcae27910536ad58899fa94d4e8d",
-      "text": "ابن حجر لومړی کال غوره ګڼي او له واقدي څخه د دوهم کال او تر هجرت شل میاشتې وروسته د وخت له ټاکلو سره مخالفت کوي؛ بیا د ابوبکر د کورنۍ هجرت د دلیل په توګه راوړي او د دومره اوږدې مودې په اړه اعتراض کوي. دا د شارح ترجیح او د بېلابېلو روایتونو څېړنه ده، نه د زېږېدو یوه ورځ چې اسماء په خپل حدیث کې ښوولې وي. د ماشوم د «لومړني» والي په مانا کې دا صفت د مدینې مهاجرانو پورې محدودوي او له دې دایرې بهر نور نومونه یادوي."
+      "source_text_sha256": "bc1b1207e419a94144cab3e7e573c317a37d28c945d041672c81d269685712cc",
+      "text": "ابن حجر لومړی کال غوره ګڼي او له واقدي څخه د دوهم کال او تر هجرت شل میاشتې وروسته د وخت له ټاکلو سره مخالفت کوي؛ بیا د ابوبکر د کورنۍ هجرت د دلیل په توګه راوړي او د دومره اوږدې مودې په اړه اعتراض کوي. د ماشوم د «لومړني» والي په مانا کې دا صفت د مدینې مهاجرانو پورې محدودوي او له دې دایرې بهر نور نومونه یادوي."
     },
     {
       "unit_id": "hch_settlement_voices:title_ar",
@@ -168,8 +168,8 @@
     },
     {
       "unit_id": "hch_settlement_read_brotherhood:title_ar",
-      "source_text_sha256": "bbda4a59f78eec163470f971ad021933abfdb970384735ec7feb0727dd00d627",
-      "text": "د ابن حبان د ورورولۍ روایت او حدود یې"
+      "source_text_sha256": "08d4ab6c459c0dff70beea52566d2797f480e9acd465a5674983a463fdd2c620",
+      "text": "د ابن حبان د ورورولۍ روایت"
     },
     {
       "unit_id": "hch_settlement_read_asma:title_ar",
@@ -3975,12 +3975,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "e6ac513e864d12c6b1edd9866b2b61b535003384c24fbbf08449d3e0f88cfe04",
+  "translation_sha256": "e978af87580272744504ebcedccd2c6931696f41fd8b6fba80d95d08d9af7180",
   "review": {
-    "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-    "translation_sha256": "e6ac513e864d12c6b1edd9866b2b61b535003384c24fbbf08449d3e0f88cfe04",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session dcba426e-091b-48a7-8995-b329382422a8 across 787 Arabic/target units. Compared every one of 787 Arabic/Pashto inventory pairs in all 25 complete, untruncated numbered chunks. Checked all teaching sections, outline, objectives, ten questions and their options, answer meanings, explanations, scope and feedback, repeated metadata, six fully translated readings and complete selected source texts, quotations, chronology, speaker boundaries, named chains, Quran, poetry, commentary and citation URLs; consulted the Arabic-led watchlist. The earlier poetic morning-greeting issue is corrected. No further actionable semantic or language mismatch was identified in this bounded comparison. This is not scholarly collation, independent language or specialist approval, or permission for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

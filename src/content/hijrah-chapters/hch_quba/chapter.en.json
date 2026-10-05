@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_quba",
-  "revision": 1,
+  "revision": 2,
   "locale": "en",
-  "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-  "arabic_payload_sha256": "ca01465899d46eb70e5492170e76b8d3a8dd971b8777dc508ac5ab07c53f440d",
-  "status": "translation_ready",
+  "arabic_sha256": "1624b3405bdb7416da9645d37221abca244c79d97e4663e294d67d7aabd3e3ec",
+  "arabic_payload_sha256": "e5fe029e6bc1f126bc2a3faea9498dcf2c55cb6c46cc804a00dd6245810b86c6",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_quba:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_quba:reader_question_ar",
-      "source_text_sha256": "811449a5baa9554d7512abd00c0eef4a8c6c4355ccbe622266527d97b8d0ffd1",
-      "text": "How did waiting for the arrivals turn into a meeting, and what do we know—and not know with certainty—about the days at Quba?"
+      "source_text_sha256": "d4e27e050f739504bf8d31dbf36688a3d3cd8c9e7fa15ccf7bec27ff61c52cca",
+      "text": "How did those waiting recognize the Prophet ﷺ among the arrivals at Quba, with whom did he stay, and how long was his stay according to the accounts?"
     },
     {
       "unit_id": "hch_quba_p01:text_ar",
-      "source_text_sha256": "ab8d6f8b372b958761ac549a5168640aa5243011c6a76222a67570f311e46442",
-      "text": "From the people waiting at the edge of the lava plain to recognizing the Prophet ﷺ among the arrivals and his stay with Banu Amr ibn Awf, Quba opens the way to Madinah. We will follow the account through the meeting, the lodging, the mosque, and the departure, while listening also to the differing reports about the length of the stay."
+      "source_text_sha256": "9f0a0f7be5389f8bc2de4c76bd3574461089387bee22a18280a51cabb24fc6b0",
+      "text": "From the people waiting at the edge of the lava plain to recognizing the Prophet ﷺ among the arrivals and his stay with Banu Amr ibn Awf, Quba opens the way to Madinah."
     },
     {
       "unit_id": "hch_quba_wait:title_ar",
@@ -93,8 +93,8 @@
     },
     {
       "unit_id": "hch_quba_p11:text_ar",
-      "source_text_sha256": "9f5cab83f0e1a3691cbbd01c4338e1f4705826d4183f31ac38253208fcf8438c",
-      "text": "For anyone examining the time of arrival: Ibn Hajar cites reports placing it at the beginning of Rabi al-Awwal or varying numbers of days later, then proposes ways to reconcile them, including differences in sighting the new moon. Elsewhere he suggests that some who gave a shorter duration may not have counted the day of arrival or departure. These are the commentator’s attempts to understand differing dates, not a newly established date to add to Urwa’s account or Ibn Ishaq’s reckoning."
+      "source_text_sha256": "497ad14324bee2e203442215a00fcd1a62d0977dcf093750ff709de9f13a1ef6",
+      "text": "Ibn Hajar cites reports placing it at the beginning of Rabi al-Awwal or varying numbers of days later, then proposes ways to reconcile them, including differences in sighting the new moon. Elsewhere he suggests that some who gave a shorter duration may not have counted the day of arrival or departure."
     },
     {
       "unit_id": "hch_quba_p12:text_ar",
@@ -108,13 +108,13 @@
     },
     {
       "unit_id": "hch_quba_p13:text_ar",
-      "source_text_sha256": "5942ab839486544b54d84f61dd78c6d3859e4c3000f98c3282d68dcb7fe41878",
-      "text": "Ibn Hajar’s sentence about the mosque founded on God-consciousness begins before the page break and continues afterward with his identification of it as the Quba mosque. He quotes the verse and the majority view applying it to Quba, then relates a reported prophetic answer identifying the Prophet’s ﷺ mosque, and another report mentioning Quba’s merit alongside that identification. The quoted verse, the Prophet’s answer as reported by the commentator, and the commentator’s explanation are different voices."
+      "source_text_sha256": "e937df932fe1d910905c6d882bf6d8476ef1539321c53bdedf76a33e0b3deb19",
+      "text": "Ibn Hajar quotes the verse and the majority view applying it to Quba, then relates a reported prophetic answer identifying the Prophet’s ﷺ mosque, and another report mentioning Quba’s merit alongside that identification."
     },
     {
       "unit_id": "hch_quba_p14:text_ar",
-      "source_text_sha256": "992a347f1c01691d6c05150de3319ee668a39f110691d17f152cea7a3a80a96e",
-      "text": "Ibn Hajar cites al-Qurtubi’s explanation of why the answer might single out the Prophet’s ﷺ mosque, then offers another possibility of his own and says both mosques were founded on God-consciousness. When he relays Abu Hurayra’s report, the Prophet’s ﷺ words appear before the verse and continue after it with reference to the people of Quba; what follows is Ibn Hajar’s explanation. He then cites al-Dawudi and al-Suhayli on reconciliation. No commentator’s interpretation here becomes a new prophetic statement or a ruling issued by this chapter."
+      "source_text_sha256": "631c2afc927dadc59fd769fab6977db84be160d9172f0a56565ca2b1f2461f22",
+      "text": "Ibn Hajar cites al-Qurtubi’s explanation of why the answer might single out the Prophet’s ﷺ mosque, then offers another possibility of his own and says both mosques were founded on God-consciousness. Ibn Hajar also cites from Abu Dawud Abu Hurayra’s report from the Prophet ﷺ that the Quran verse about men who love to purify themselves was revealed concerning the people of Quba. Ibn Hajar explains that the answer identifying the Prophet’s ﷺ mosque dispels the idea that founding on God-consciousness belongs to the Quba mosque alone; he also relates al-Dawudi’s and al-Suhayli’s view that both mosques were founded on God-consciousness."
     },
     {
       "unit_id": "hch_quba_outline_wait:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "6c7307c8b62186507ae8d97583bf73d035533231f3b9cbcabb52cfaae487e3a9",
+  "translation_sha256": "e862035c4e017eaedef5c517bb88f88f7f0ca5e88628ae37a60bad219c677a82",
   "review": {
-    "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-    "translation_sha256": "6c7307c8b62186507ae8d97583bf73d035533231f3b9cbcabb52cfaae487e3a9",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 0da38cb8-92a3-48a6-9936-681453bd40e0 across 381 Arabic/target units. Compared all 381 Arabic/English inventory units across all 16 complete bounded chunks, including teaching prose, goals, questions, options, explanations, feedback, repeated metadata and citation URLs, and full selected source texts; checked adjoining excerpt boundaries, named transmitters, chronology, Quranic quotations and poetic fragments. No actionable semantic or language discrepancies identified in this draft. This is a bilingual semantic comparison of the specified Arabic authority, not source collation, independent language or specialist approval, or publication permission. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_road",
-  "revision": 1,
+  "revision": 2,
   "locale": "tr",
-  "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
-  "arabic_payload_sha256": "e9d5d12d676348d095160a148c827f78ac8545e95fd65b8ec102c39d14b68471",
-  "status": "translation_ready",
+  "arabic_sha256": "f16774c0a0d2bfb6c6443914e111b6c901fcc681699c3289bbc104a275002430",
+  "arabic_payload_sha256": "88b6f9f43978720aefcf5ca22a713bbc268c0217429adf0af3704c24ea7b1132",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_road:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_road:reader_question_ar",
-      "source_text_sha256": "36b9d88298edd0ed8577184b6dfb3be1c17323ef005ff49e24810ea1cd968f5f",
-      "text": "Rehbere duyulan güven onun yol bilgisiyle nasıl birleşti? Metinde olmayan bir harita çizmeden yol arkadaşları ve güzergâh hakkında neler biliyoruz?"
+      "source_text_sha256": "5900c3aadcb8f49f18929c61717f4352a73540c13e8ee4fa5e5f81716cbb9277",
+      "text": "Peygamber ﷺ ile Ebû Bekir iki bineği rehbere nasıl emanet etti, Sevr Mağarası’ndan onlarla kimler yola çıktı ve hangi yoldan gittiler?"
     },
     {
       "unit_id": "hch_road_overview:text_ar",
-      "source_text_sha256": "a30fd1102a9f7ea89d5788332e491c8bd27db8fa6df8f867831c8f73acd04ebb",
-      "text": "Sevr Mağarası’ndan yolculuğa devam etme vakti geldiğinde iki binek, yol bilgisi nedeniyle Hz. Peygamber ﷺ ile Ebû Bekir’in ücretle tuttuğu adamın yanındaydı. Onun uzmanlığına nasıl güvendiklerini, buluşma zamanını, onlarla kimlerin yola çıktığını ve “sahil yolları” ifadesinin ne söylememize imkân verdiğini okuyacağız. Başka bir rivayette “yol gösteriyor” sözü önemli bir soru doğurur: Ebû Bekir, yanındaki kişiyi sorana cevap verirken yol rehberini mi kastediyordu?"
+      "source_text_sha256": "196e0420d3d970e6b78d724c797fd8f90cd1ed04461a0a0fa5f5345a4c5674d1",
+      "text": "Sevr Mağarası’ndan yolculuğa devam etme vakti geldiğinde iki binek, yol bilgisi nedeniyle Hz. Peygamber ﷺ ile Ebû Bekir’in ücretle tuttuğu adamın yanındaydı."
     },
     {
       "unit_id": "hch_road_hire:title_ar",
@@ -68,18 +68,18 @@
     },
     {
       "unit_id": "hch_road_name_01:text_ar",
-      "source_text_sha256": "46515e0cc2202e28dec86412454ea0a4750128d6330f68cea0dff14706100105",
-      "text": "Buhârî’deki ücretle tutma pasajı rehberin kişisel adını açıkça vermez; soyunu ve uzmanlığını belirtir. Siyer pasajında İbn İshak, Esmâ bint Ebû Bekir’den dört kişiyi sayarak aktarır: Hz. Peygamber ﷺ, Ebû Bekir, Âmir b. Füheyre ve ikisinin rehberi Abdullah b. Arkıt. Ardından İbn Hişâm, “Bir de şöyle denir” kaydıyla başka bir yazılış ekler: Abdullah b. Uraykıt. İhtiyatlı aktarım kesin hükme dönüşmez; yazılış farkı tek başına iki rehber bulunduğunu da göstermez."
+      "source_text_sha256": "384584d0f12a155432bc3cf87f9707f59dc7814f1ec10dd16d83dc76010f4e87",
+      "text": "Buhârî’deki ücretle tutma pasajı rehberin kişisel adını açıkça vermez; soyunu ve uzmanlığını belirtir. Siyer pasajında İbn İshak, Esmâ bint Ebû Bekir’den dört kişiyi sayarak aktarır: Hz. Peygamber ﷺ, Ebû Bekir, Âmir b. Füheyre ve ikisinin rehberi Abdullah b. Arkıt. Ardından İbn Hişâm, “Bir de şöyle denir” kaydıyla başka bir yazılış ekler: Abdullah b. Uraykıt."
     },
     {
       "unit_id": "hch_road_name_02:text_ar",
-      "source_text_sha256": "5ae7ba9945e330e6cd6d9942cbc988fb64e9afa62ee8d0e8270b26f5281cfe52",
-      "text": "Esmâ’nın anlatısı “Onun sözlerini duyunca” ifadesiyle başlar. Buradaki gönderme, siyerin önceki pasajındaki bir ses ve şiir anlatısınadır. Bu anlatıyı başlangıç sözünü anlamak için okuyoruz; görünmeyen sesin yaşandığını ya da şiirin sahih olduğunu kanıtlamak için değil. O pasajdaki kişi listesi, İbn İshak’ın naklinde Esmâ’ya atfedilir; Buhârî’nin sözlerinden çıkarılmış bir ad değildir."
+      "source_text_sha256": "fda80529b5b9bcf9ec25771b86dda8af77fb6f7202aee5beb5361690af09ca4e",
+      "text": "Siyerde Esmâ’nın sayımından önce bir ses ve şiir haberi yer alır. İbn İshak, rehber dâhil yol arkadaşlarının adlarını ondan aktarır; Buhârî pasajı ise rehberin soyunu ve uzmanlığını belirtir, adını vermez."
     },
     {
       "unit_id": "hch_road_name_03:text_ar",
-      "source_text_sha256": "b9cf17c7197e08ce90e515f29ace467ff974bfa461899fc753b6ede5821bba89",
-      "text": "Daha geç tarihli bir şerhte Hânî Fakîh, İbn Kesîr’den rehberi Abdullah b. Uraykıt diye adlandıran bir ifadeyi alıntılar. Sonra kendi sözleriyle sahih rivayette adın açıkça geçmediğini ve İbn İshak’ın siyerinde adlandırdığını belirtir. Alıntıdaki ad ile şârihin koyduğu sınır iki ayrı sestir: Hânî’nin değerlendirmesini İbn Kesîr’e yüklemeyiz; Buhârî pasajının susmasını da diğer kaynaklardaki adlandırmaları inkâr saymayız."
+      "source_text_sha256": "578fb81281a08bba9406a12bbc5af862c7ae352cea97fd9670b28bebf4cbf6f5",
+      "text": "Daha geç tarihli bir şerhte Hânî Fakîh, İbn Kesîr’den rehberi Abdullah b. Uraykıt diye adlandıran bir ifadeyi alıntılar. Sonra kendi sözleriyle sahih rivayette adın açıkça geçmediğini ve İbn İshak’ın siyerinde adlandırdığını belirtir."
     },
     {
       "unit_id": "hch_road_trust:title_ar",
@@ -88,23 +88,23 @@
     },
     {
       "unit_id": "hch_road_trust_01:text_ar",
-      "source_text_sha256": "76c4e0019d7d890ee0ed5faef57d4a9eddfca45d1034c682599f5a38e415040a",
-      "text": "Âişe hadisinde uzmanlık, güven ve din farkı birlikte bulunur: rehberin becerisi anlatılır; Kureyş müşriklerinin dininde olmasına rağmen iki binek ona emanet edilir. Kurtubî ise haberi Buhârî’den nakledip, vefalı ve mürüvvetli oldukları biliniyorsa müşriklere sır ve mal emanet edilebileceği çıkarımını Mühelleb’e, onlardan yol rehberliği hizmeti satın alınabileceği çıkarımını İbnü’l-Münzir’e atfeder. Bunlar Âişe’nin gördüğü ilave ayrıntılar değil, iki şârihe atfedilen görüşlerdir; aynı haberin tefsirde tekrarlanması, kitap farklı diye onu bağımsız bir rivayet yapmaz."
+      "source_text_sha256": "88e90a02d46c108338a4b4797206903a77292e095a919b782b00ce5e712cd1d7",
+      "text": "Âişe hadisinde uzmanlık, güven ve din farkı birlikte bulunur: rehberin becerisi anlatılır; Kureyş müşriklerinin dininde olmasına rağmen iki binek ona emanet edilir. Kurtubî ise haberi Buhârî’den nakledip, vefalı ve mürüvvetli oldukları biliniyorsa müşriklere sır ve mal emanet edilebileceği çıkarımını Mühelleb’e, onlardan yol rehberliği hizmeti satın alınabileceği çıkarımını İbnü’l-Münzir’e atfeder."
     },
     {
       "unit_id": "hch_road_bounds:title_ar",
-      "source_text_sha256": "fd3f417e10235174d2b6f276d8e04dc92b52d87e37a853dfe512c0b38cb082c3",
-      "text": "Yolun belirttiği ve açık bıraktığı şeyler"
+      "source_text_sha256": "73aa7b9e7b4db3a760798aa1b17d58ab78604fe44425d016fc578bab2facbf4d",
+      "text": "Mağaradaki buluşma, sahil yolu ve Ebû Bekir’in cevabı"
     },
     {
       "unit_id": "hch_road_bounds_01:text_ar",
-      "source_text_sha256": "38931de249bf5d2fc64534000140e59960f8d1b8cc51326ab1bd3623a9f759b6",
-      "text": "Ücretle tutma sayfasındaki “Onunla buluşmak üzere sözleştiler” ifadesi, aynı hadisin sonraki sayfasındaki “Üç gece sonra Sevr Mağarası’nda” ifadesine bağlanır. “Üçün sabahı” rivayette bir zaman belirtir; kesin bir saat veya takvim tarihi değil. “Sahil yolları” da burada güzergâhın niteliğidir; durak listesi ya da koordinatlı çizilmiş bir hat değildir."
+      "source_text_sha256": "8a4d6dab6714203616be952a12718caf23933f8e94b85a35bb76745e4284096d",
+      "text": "Üç gece sonra rehber sabah iki bineği Sevr Mağarası’na getirdi, ardından onları sahil yollarından götürdü."
     },
     {
       "unit_id": "hch_road_bounds_02:text_ar",
-      "source_text_sha256": "95a013c141f4142b3d63f5b7d770306e63012a69ebd8966f4abb71907b93c75f",
-      "text": "Beyhakî’nin Ebû Hüreyre’den aktardığı bir başka haberin isnadı ve metni bir sayfada başlar, cümlesi öteki sayfada tamamlanır. Devamında Ebû Bekir yanındaki kişi için “Bana rehberlik eden biri” cevabını verir. Enes rivayetinde ise “Bu adam bana yolu gösteriyor” denir ve hayır yolu kastedildiği açıklanır. Her rivayetin kendi ifadesini korur, yarıda kalan sayfayı devamına bağlarız; bu iki cevabı ücretle tutulan rehberin göreviyle karıştırmayız, sayfa bölünmesini iki ayrı isnad saymayız."
+      "source_text_sha256": "8b8112d5cfdd4b3e9e61123718487901f134ea84e7c18833af64eb05723f68bf",
+      "text": "Beyhakî’nin Ebû Hüreyre’den aktardığı haberde Ebû Bekir yanındaki kişi için “Bana rehberlik eden biri” cevabını verir. Enes rivayetinde ise “Bu adam bana yolu gösteriyor” denir; kastedilen, ücretle tutulan rehberin görevi değil, hayır yoludur."
     },
     {
       "unit_id": "hch_road_outline_skill:text_ar",
@@ -1295,12 +1295,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "e571286c4ad8cb3ca625b11d85c2010681ab0ed7cfd0313c55073929290de731",
+  "translation_sha256": "3897f3930f3aec66c5be4fec69cd1f3b52761a70e292866a5aaa295d3b370659",
   "review": {
-    "arabic_sha256": "1c51662363f3d8f6e6e55db78287bfada046105400b7a75bb91a23e41b011d8f",
-    "translation_sha256": "e571286c4ad8cb3ca625b11d85c2010681ab0ed7cfd0313c55073929290de731",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session fe74b065-8a77-4576-8443-654f35435015 across 250 Arabic/target units. Compared all 250 Arabic–Turkish inventory units, including the full selected source texts, teaching material and metadata, against the complete Arabic chapter and translation watchlist. No actionable semantic issue remains in this draft. This is a language comparison, not source authentication, specialist approval or publication permission. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_preparations",
-  "revision": 1,
+  "revision": 2,
   "locale": "ps",
-  "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
-  "arabic_payload_sha256": "61d88395c3216dfcbee3986b27631b2f782282f4a9a7b264dd21653fb994a71b",
-  "status": "translation_ready",
+  "arabic_sha256": "7570ef243375e36b5b420f43d354dc43957ed58a80c5dc0f64a6d377451892bc",
+  "arabic_payload_sha256": "8cd88dcebc55461795735f2a196af438f707768ffdbb6d9a17147daed4da4f33",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_preparations:title_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_preparations_overview_02:text_ar",
-      "source_text_sha256": "8d794fc94baf206985265b50eccc3873c19b5f0e2fc8a50b85d8ef22ce880da5",
-      "text": "کیسه د روانېدو پر پرېکړه نه ختمېږي: روایت د یوې سپرلۍ وړاندې کول او د «په بیه» ځواب بیانوي؛ بیا عایشه د توښې چمتو کول د جمعې په صیغه روایتوي او اسماء پخپله وايي چې د سفر د توښې او د اوبو د مشک د تړلو لپاره یې له خپل کمربند سره څه وکړل. د دواړو روایتونو خپل ځای او خپل غږ دی."
+      "source_text_sha256": "b09c45a48d1eef2b441e88fdb3ed3660f059f988b21174dcc62c629cf584ac28",
+      "text": "کیسه د روانېدو پر پرېکړه نه ختمېږي: روایت د یوې سپرلۍ وړاندې کول او د «په بیه» ځواب بیانوي؛ بیا عایشه د توښې چمتو کول د جمعې په صیغه روایتوي او اسماء پخپله وايي چې د سفر د توښې او د اوبو د مشک د تړلو لپاره یې له خپل کمربند سره څه وکړل."
     },
     {
       "unit_id": "hch_preparations_waiting:title_ar",
@@ -73,8 +73,8 @@
     },
     {
       "unit_id": "hch_preparations_provisions_01:text_ar",
-      "source_text_sha256": "1ae1ba50e214f0e79d93ca213a35d5524b2f1cc5641545f65aa2df58a9b136ee",
-      "text": "عایشه روایتوي: «نو موږ هغوی دواړه په ډېره بیړه چمتو کړل او په یوه بوجۍ کې مو ورته د سفر توښه برابره کړه.» بیا د ابوبکر د لور اسماء کار مشخصوي: له خپل کمربنده یې یوه ټوټه پرې کړه او د بوجۍ خوله یې پرې وتړله. دلته «سُفرة» د سفر توښه ده او «جراب» یې بوجۍ ده؛ په دې ټاکلې برخه کې د توښې اجزا نه دي ټاکل شوي."
+      "source_text_sha256": "4dc14bcf2691d72842267a4e4d03f680268b5a31e7c22f710d7f189c3d65351d",
+      "text": "عایشه روایتوي: «نو موږ هغوی دواړه په ډېره بیړه چمتو کړل او په یوه بوجۍ کې مو ورته د سفر توښه برابره کړه.» بیا د ابوبکر د لور اسماء کار مشخصوي: له خپل کمربنده یې یوه ټوټه پرې کړه او د بوجۍ خوله یې پرې وتړله. دلته «سُفرة» د سفر توښه ده او «جراب» یې بوجۍ ده؛ عایشه نه وایي چې بوجۍ له کوم موادو جوړه وه."
     },
     {
       "unit_id": "hch_preparations_provisions_02:text_ar",
@@ -93,13 +93,13 @@
     },
     {
       "unit_id": "hch_preparations_depth_voices_01:text_ar",
-      "source_text_sha256": "1813a0aa69b2b885167da3d4ee3136f2b3e1dc0874beb9710cceb3809178b210",
-      "text": "د عایشې د «موږ هغوی دواړه چمتو کړل» ضمیر د سفر په چمتووالي کې ګډونوال راټولوي؛ نه هر کس په نوم یادوي، نه وايي چې توښه یې پخپله غار ته وړې ده. بیا د اسماء د تړلو کار په نوم یادوي. د اسماء په تفصیلي وینا کې هغه د پلار په کور کې د توښې چمتو کول ځان ته منسوبوي او د اوبو مشک هم یادوي. دواړه برخې لوستلی شو، بې له دې چې د جمعې ضمیر د یوې کس په کار واړوو یا د اسماء له شهادته د مشک تفصیل لرې کړو."
+      "source_text_sha256": "1b32ba9976c5c592ee4da26aa60196fdd6af777f20c2a0413dfb6180d7427e27",
+      "text": "د عایشې د «موږ هغوی دواړه چمتو کړل» ضمیر د سفر په چمتووالي کې ګډونوال راټولوي؛ نه هر کس په نوم یادوي، نه وايي چې توښه یې پخپله غار ته وړې ده. بیا د اسماء د تړلو کار په نوم یادوي. د اسماء په تفصیلي وینا کې هغه د پلار په کور کې د توښې چمتو کول ځان ته منسوبوي او د اوبو مشک هم یادوي."
     },
     {
       "unit_id": "hch_preparations_depth_voices_02:text_ar",
-      "source_text_sha256": "ff13af70d9ab255e61977d9c178a325bf2da4ecd7367665ea24405543b8f4353",
-      "text": "عایشه په بوجۍ کې د توښې او د بوجۍ پر خوله د کمربند د ټوټې د تړلو یادونه کوي او «ذات النطاق» لقب راوړي. اسماء په خپل تفصیلي روایت کې د مشک او توښې د تړلو لپاره د کمربند څیرل بیانوي او «ذات النطاقین» راوړي. بوجۍ او مشک یو شی نه ګڼو او دواړه لقبونه په دواړو روایتونو کې یو شان لفظ نه لیکو."
+      "source_text_sha256": "a701af88cec93b989e1bd94e2909a35664061ef77e7ca32b4898d085289696d5",
+      "text": "عایشه په بوجۍ کې د توښې او د بوجۍ پر خوله د کمربند د ټوټې د تړلو یادونه کوي او «ذات النطاق» لقب راوړي. اسماء په خپل تفصیلي روایت کې د مشک او توښې د تړلو لپاره د کمربند څیرل بیانوي او «ذات النطاقین» راوړي."
     },
     {
       "unit_id": "hch_preparations_depth_names:title_ar",
@@ -118,8 +118,8 @@
     },
     {
       "unit_id": "hch_preparations_depth_limits_01:text_ar",
-      "source_text_sha256": "80cb1f323b99ae725821ca0478c6352fd921675ee07e1973a3ba1e73945fa030",
-      "text": "د عایشې په روایت کې څلور میاشتې د دوو سپرلیو د خوراک ورکولو موده ده، نه د سفر د مودې د ټاکلو بنسټ. د ابن اسحاق د سپرلۍ د بیې په روایت کې «دومره او دومره» راغلي، نه ټاکلې شمېره؛ او دا ټوټې د بیې د غوره کولو لامل نه تشریح کوي. خبرې اترې له نورو لوستنو څخه د شمېرې یا علت ورزیاتولو پرته هم څرګندې دي."
+      "source_text_sha256": "b93ddc4af911b13ce2c48fdcec72faf2527b209b877fbecb747aebae94bd0ae8",
+      "text": "د عایشې په روایت کې څلور میاشتې د دوو سپرلیو د خوراک ورکولو موده ده، نه د سفر د مودې د ټاکلو بنسټ. د ابن اسحاق د سپرلۍ د بیې په روایت کې «دومره او دومره» راغلي، نه ټاکلې شمېره؛ او دا ټوټې د بیې د غوره کولو لامل نه تشریح کوي."
     },
     {
       "unit_id": "hch_preparations_depth_limits_02:text_ar",
@@ -1230,12 +1230,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "0ee2d5c03b76db8ed5c15205ce725911e363a26d9e2a8716fa5c559c14b6f90a",
+  "translation_sha256": "13cc17dd83ecfe4ec34661b6e6ec8113503eea3cecc306a1d0752be78e4b5edc",
   "review": {
-    "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
-    "translation_sha256": "0ee2d5c03b76db8ed5c15205ce725911e363a26d9e2a8716fa5c559c14b6f90a",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 273edb4b-af35-4041-935d-240648af6a63 across 235 Arabic/target units. Compared the literal Arabic with the revised Pashto in every one of the 235 inventory units across all nine complete pairs.py chunks: teaching sections, objectives, outline, all ten questions and answer/feedback/scope units, metadata and citation URLs, and the full selected source passages. Repeated metadata was checked semantically without omitting any unit ID. The Quhafa negation remains literal and is now separately annotated; the Asma voice boundary, provisions/container distinction, and forgotten strap are represented. No remaining actionable semantic defect identified in this bounded comparison. This is not manuscript collation, independent language or specialist approval, or publication authorization; unselected source packets and Core records are context rather than paired translation units. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

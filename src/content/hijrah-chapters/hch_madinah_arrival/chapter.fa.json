@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_madinah_arrival",
-  "revision": 1,
+  "revision": 2,
   "locale": "fa",
-  "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-  "arabic_payload_sha256": "2c4db980e433dbb9f819370ee2577669a7036d49f4c4648f5dad4128dd57bc54",
-  "status": "translation_ready",
+  "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+  "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -13,8 +13,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival:reader_question_ar",
-      "source_text_sha256": "4dc5fb16bc0ee37ada9dbf59b8e8ad38cf8d4f0c7e1a3c513b57b2d9822dd754",
-      "text": "استقبال از پیامبر ﷺ چگونه به مهمان‌نوازی در خانهٔ ابوایوب انجامید و روایت‌ها دربارهٔ جزئیات خانه چه تفاوتی دارند؟"
+      "source_text_sha256": "6fbe777be9bd9eb6eb7664a675fdba3d66f4d79d097c82b02d175a4052faefb6",
+      "text": "مردم مدینه چگونه از پیامبر ﷺ استقبال کردند تا آنکه در خانهٔ ابوایوب ماند، و گزارش‌های ابن‌اسحاق و افلح دربارهٔ طبقه‌های خانه چه تفاوتی دارند؟"
     },
     {
       "unit_id": "hch_madinah_arrival_overview1:text_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_overview2:text_ar",
-      "source_text_sha256": "bd46f0c2bc0e60cb3dc2c8b32c1511aa00fd32f65ebc34ff89f21c5d7efb88d3",
-      "text": "از حیاط خانهٔ ابوایوب تا درون آن، داستان مهمان‌نوازی گسترده‌تر می‌شود: ابوایوب در گزارش ابن اسحاق از اقامت پیامبر ﷺ در طبقهٔ پایین، مراقبت اهل خانه هنگام شکستن کوزهٔ آب، و شام‌هایی که برای ایشان تهیه می‌کردند سخن می‌گوید. صورت‌های دیگری از این گزارش نیز هست که جداگانه در بخش بررسی عمیق‌تر خوانده می‌شوند."
+      "source_text_sha256": "fcdefd53220926227718589b074a71cb76869a9a6a8fc4f83c5a3b52e32e6bf2",
+      "text": "از حیاط خانهٔ ابوایوب تا درون آن، داستان مهمان‌نوازی گسترده‌تر می‌شود: ابوایوب در گزارش ابن اسحاق از اقامت پیامبر ﷺ در طبقهٔ پایین، مراقبت اهل خانه هنگام شکستن کوزهٔ آب، و شام‌هایی که برای ایشان تهیه می‌کردند سخن می‌گوید."
     },
     {
       "unit_id": "hch_madinah_arrival_arrival:title_ar",
@@ -108,28 +108,28 @@
     },
     {
       "unit_id": "hch_madinah_arrival_first:text_ar",
-      "source_text_sha256": "d89956d6f2e80fc1b7e39d6c4f8396fb8691098afee218ee7dbd8a660c819818",
-      "text": "براء پس از یادکرد کسانی که پیش از پیامبر ﷺ برای آموزش قرآن آمده بودند شادی مردم را وصف می‌کند، اما انس در گزارش بیهقی از چشم‌انداز انتظار خود همراه پسران و استقبال انصار سخن می‌گوید. بیهقی گزارش کوتاه انس دربارهٔ روز ورود را در دو گزیده از دو صفحه آورده است؛ پس شمار تقریبی در گزارش بلندتر انس، سرشماری همهٔ مردم مدینه نیست و توصیف آن روز نیز تاریخ دقیق به دست نمی‌دهد."
+      "source_text_sha256": "b9c59c96e73bd9ca131d1a0d8c914adc8e6709a51dbbdb320a4ddaa4c02e0589",
+      "text": "براء پس از یادکرد کسانی که پیش از پیامبر ﷺ برای آموزش قرآن آمده بودند شادی مردم را وصف می‌کند، اما انس در گزارش بیهقی از چشم‌انداز انتظار خود همراه پسران و استقبال انصار سخن می‌گوید. انس در گزارش بلندترش از استقبال نزدیک به پانصد تن از انصار از پیامبر ﷺ و ابوبکر یاد می‌کند؛ در گزارش کوتاه‌تر روز ورود را وصف می‌کند، بی‌آنکه روزی از ماه را معین کند."
     },
     {
       "unit_id": "hch_madinah_arrival_friday:text_ar",
-      "source_text_sha256": "d7ae807a82a35c73ce700718b1f8b56967657dfce806099f9c9a7f126c1b6f69",
-      "text": "ابن حجر گزارش خروج در روز جمعه را به ابن اسحاق و ابن عائذ نسبت می‌دهد و در ادامه‌ای دیگر، از حاکم نقل می‌کند که شتر بر در خانهٔ ابوایوب زانو زد؛ اما حدیث انس نزد بخاری از رسیدن به حیاط خانهٔ ابوایوب می‌گوید. در سخن نزدیک به اینِ ابن اسحاق، به اختلاف مردم قبا دربارهٔ مدت اقامت اشاره شده است؛ پس این بخش‌ها نه روز معینی از ماه یا مسیر ترسیم‌شده‌ای در اختیارمان می‌گذارند و نه گزارش ساخت مسجد را جزئی از انتخاب میزبان می‌سازند."
+      "source_text_sha256": "b584e602ef529870ea78c3e50710a8ca1238a877aaa9f60a3616f09fdf14f151",
+      "text": "ابن حجر گزارش خروج در روز جمعه را به ابن اسحاق و ابن عائذ نسبت می‌دهد و از حاکم نقل می‌کند که شتر بر در خانهٔ ابوایوب زانو زد؛ اما حدیث انس نزد بخاری از رسیدن به حیاط خانهٔ ابوایوب می‌گوید. ابن‌اسحاق اقامت پیامبر ﷺ در قبا را در روزهای دوشنبه، سه‌شنبه، چهارشنبه و پنجشنبه ذکر می‌کند و سخن بنی‌عمرو بن عوف را نیز نقل می‌کند که ایشان بیش از این نزد آنان مانده است."
     },
     {
       "unit_id": "hch_madinah_arrival_variants:title_ar",
-      "source_text_sha256": "854168b2cbed56af09ed95b94ece6f65e856f46b76903b077c8961c497ceb1d9",
-      "text": "دو طبقه و غذا: تفاوت روایت‌ها را چگونه بخوانیم؟"
+      "source_text_sha256": "0d15ac13925286c9114c0da81a23c2673d39a0c99824570b6a4547f3772b16f3",
+      "text": "دو طبقه و غذا در خانهٔ ابوایوب"
     },
     {
       "unit_id": "hch_madinah_arrival_upstairs:text_ar",
-      "source_text_sha256": "5b3c2933b85962c10a8183ab1f99e9d57b4ec227fbb95275ba0bd9eddea09d71",
-      "text": "در گزارش ابن اسحاق، ابوایوب و ام ایوب هنگام روایت شکستن کوزه در طبقهٔ بالا هستند. اما در طریق افلح از ابوایوب نزد مسلم، ساکنان بالا از آن رو که خوش نداشتند بالای سر پیامبر ﷺ راه بروند به کناری رفتند؛ سپس حدیث با انتقال پیامبر ﷺ به بالا و ابوایوب به پایین پایان می‌یابد. ماجرای آب در اینجا تنها در روایت ابن اسحاق است؛ نه حلقه‌ای گمشده است که به طریق افلح بیفزاییم و نه دلیلی بر زمان جابه‌جایی در این دو گزارش."
+      "source_text_sha256": "c81287a3d14744d1c4c18784ce972b3f8757a344c1c380c0d8626425dff20b84",
+      "text": "در گزارش ابن اسحاق، ابوایوب و ام ایوب هنگام روایت شکستن کوزه در طبقهٔ بالا هستند. اما در طریق افلح از ابوایوب نزد مسلم، ساکنان بالا از آن رو که خوش نداشتند بالای سر پیامبر ﷺ راه بروند به کناری رفتند؛ سپس حدیث با انتقال پیامبر ﷺ به بالا و ابوایوب به پایین پایان می‌یابد."
     },
     {
       "unit_id": "hch_madinah_arrival_garlic:text_ar",
-      "source_text_sha256": "917524b8686a9c7b9518b9547cf2868f96de563e1d09b418bc1017513ff4686d",
-      "text": "گزارش ابن اسحاق با تردید از پیاز یا سیر نام می‌برد و پاسخ پیامبر ﷺ را دربارهٔ بوی آن گیاه و راز و نیاز کردن ایشان می‌آورد؛ اما در طریق سماک نزد مسلم، تنها سیر آمده، بی‌آن تردید، و روشن شده که ناپسند داشتن آن به سبب بویش است، نه حرام بودن غذا. متنِ طریق افلح نزد مسلم در دو بخش پیوسته است و در ادامهٔ آن پاسخ ایشان چنین است: «نه، ولی آن را خوش ندارم.» اما متابعت یحیی بن سعید از شعبه فقط سند را می‌آورد و متن را تکرار نمی‌کند؛ پس نباید از آن مجلس غذای دیگری ساخت."
+      "source_text_sha256": "61d0cf2e1fa5d65303003674b749c986aabfc9b3e29d5757435ec01951688026",
+      "text": "گزارش ابن اسحاق با تردید از پیاز یا سیر نام می‌برد و پاسخ پیامبر ﷺ را دربارهٔ بوی آن گیاه و راز و نیاز کردن ایشان می‌آورد؛ اما در طریق سماک نزد مسلم، تنها سیر آمده، بی‌آن تردید، و روشن شده که ناپسند داشتن آن به سبب بویش است، نه حرام بودن غذا. در طریق افلح نزد مسلم، پاسخ ایشان ﷺ چنین است: «نه، ولی آن را خوش ندارم.» متابعت یحیی بن سعید از شعبه فقط سند را می‌آورد و متن را تکرار نمی‌کند."
     },
     {
       "unit_id": "hch_madinah_arrival_point_welcome:text_ar",
@@ -143,8 +143,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_point_arrival:text_ar",
-      "source_text_sha256": "f52bdd5378df4ff7d01949127925d802d4b7d37d85af34153f927278f49655a2",
-      "text": "رسیدن به حیاط خانهٔ ابوایوب و حدود گزارش مسجد."
+      "source_text_sha256": "481388d4f6bb70134e92a89cc7cad09b903a68c8f8fba58155b3d834929a4d1a",
+      "text": "رسیدن به حیاط خانهٔ ابوایوب، سپس نماز و ساخت مسجد."
     },
     {
       "unit_id": "hch_madinah_arrival_point_home:text_ar",
@@ -2530,12 +2530,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "d46911f67866b4a7a5e5f94e391c08a386291d4a4d3025e232818642c1226a4a",
+  "translation_sha256": "cf79722d8b5aea2600784c591bba288f0821fb0e620f8f70c86b25d1930c9707",
   "review": {
-    "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-    "translation_sha256": "d46911f67866b4a7a5e5f94e391c08a386291d4a4d3025e232818642c1226a4a",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session aa0298ea-28f9-4dc1-a74b-da92cd2f6633 across 494 Arabic/target units. Compared all 494 paired inventory units in complete chunks 0–15 against the literal Arabic chapter and current Persian draft: teaching and reader prose, objectives, outlines, all question prompts and answer meanings with explanations and feedback, scope notes, metadata and citation URLs, and full selected source passages including transmission chains, the Qur’anic quotation and the verse of building. No remaining actionable semantic or language mismatch identified in these selected units. This is a semantic comparison of the supplied chapter and selected excerpts, not collation of underlying books or approval of historical claims or publication. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

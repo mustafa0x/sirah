@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_early_migration",
-  "revision": 1,
+  "revision": 2,
   "locale": "so",
-  "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
-  "arabic_payload_sha256": "af2f392f6b20af92126eabcea7cfb0b645f424f1e103781da5425e896b65cf86",
-  "status": "translation_ready",
+  "arabic_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1",
+  "arabic_payload_sha256": "7026fa541f1b09909dd667f9dfd4943d1f8ad94edba11fe6f3624cb462ec7b91",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_early_migration:title_ar",
@@ -88,48 +88,48 @@
     },
     {
       "unit_id": "hch_early_migration_depth_1:text_ar",
-      "source_text_sha256": "a89f5c4f7b11f9acb9d1ff8a946a04c661e304cc752fb3ff6a71d28e316e888f",
-      "text": "Ibnu Isxaaq wuxuu horraynta Abuu Salama ku xaddidayaa muhaajiriintii Madiina u baxay ee Quraysh, Banu Makhzuum, wuxuuna bixitaankiisa ka dhigay sannad ka hor baycadii dadkii Caqaba. Ibnu Kathiir wuxuu isaga ka soo tebiyay hadal kale oo raacinaya inuu markii hore go'aansaday inuu Xabasha ku noqdo dabadeedna Madiina u leexday; labada hadal hal jumlad laguma soo koobi karo. Al-Baraa' se wuxuu yidhi “Kuwii ugu horreeyay ee noo yimid” isagoo xusaya Muscab iyo Ibnu Umm Maktuum. Ereyga “noo” wuxuu tilmaamayaa cidda markhaatiga u ah; midkoodna looma rogi karo liis guud oo kan kale meesha ka saaraya."
+      "source_text_sha256": "8e524ceba31b782a258fb9335c6b945afd8b17f886bcb12f6475789f08da0278",
+      "text": "Ibnu Isxaaq wuxuu Abuu Salama ugu yeeraa muhaajirkii ugu horreeyay ee Quraysh ee Banu Makhzuum ka baxay una hijrooday Madiina, wuxuuna bixitaankiisa ka dhigaa sannad ka hor baycadii Caqaba. Ibnu Kathiir wuxuu isaga ka soo tebiyay hadal kale: Abuu Salama wuxuu rabay inuu Xabasha ku noqdo ka hor intuusan Madiina u leexan. Al-Baraa' wuxuu Muscab iyo Ibnu Umm Maktuum ku tilmaamaa «kuwii ugu horreeyay ee noo yimid»; “noo” waxay ka dhigan tahay dadkii qoomkiisa u yimid."
     },
     {
       "unit_id": "hch_early_migration_depth_2:text_ar",
-      "source_text_sha256": "5d609b4a92bd768b41a2e3cf02c6840af7663bea04da8135549899fea392d006",
-      "text": "Warka Muusa bin Cuqba ee Az-Zuhri ka soo tebiyay wuxuu sheegayaa in dadku kooxo kala dambeeya u baxeen. Warku wuxuu leeyahay waxaa la yidhaahdaa haweenaydii safarka ku timid Madiina ugu horraysay waxay ahayd Umm Salama; wuxuu xusay in qaar kale yidhaahdeen Umm Cabdullaahi bint Abii Xathma, dabadeed wuxuu raaciyay: “Alle baa og.” Ibnu Isxaaq wuxuu xaaska Caamir ku magacaabaa Layla bint Abii Xathma. Kuwani waa ereyada laba ilood; ma aha tartan lagu kala saari karo iyadoo meesha laga saarayo waxa Umm Salama ka werisay kala geyntii iyada iyo Abuu Salama bilowgii safarka."
+      "source_text_sha256": "02102d58fcef862777c8396dda1ae5b9796ca3ec37d889ab9e5b91053ce02fa4",
+      "text": "Warka Muusa bin Cuqba ee Suhri wuxuu sheegay in dadku koox-koox u baxeen. Umm Salama ayaa lagu magacaabaa haweeneydii ugu horraysay ee rati ku timid; qaar waxay magacaabaan Umm Cabdullaahi bint Abii Xathma, warkuna wuxuu raaciyaa «Ilaahay baa og». Ibnu Isxaaq xaaska Caamir wuxuu ku magacaabaa Layla bint Abii Xathma. Umm Salama waxay sheegtaa in qoysasku bilowgii safarka ka kala geeyeen ninkeeda iyo wiilkeeda."
     },
     {
       "unit_id": "hch_early_migration_voices:title_ar",
-      "source_text_sha256": "43ab7ffdc925f1dc2e86fd7a5faa5a087ac10fa7e85c37754b2a52823240008b",
-      "text": "Yaa inoo warramaya?"
+      "source_text_sha256": "5cf6a3649c6734903ad950e25f051d745ea7caa4d8e1571f6c1a11b88006fd53",
+      "text": "Kala maqnaanshaha Umm Salama iyo safarkeedii Qubaa"
     },
     {
       "unit_id": "hch_early_migration_depth_3:text_ar",
-      "source_text_sha256": "60f786711832eaf3cf6bf2b4716551256c6e06383e84f021d86ad0d2be684951",
-      "text": "Markhaatifurka Umm Salama, ee ku jira silsilad weriyayaal ah oo Ibnu Isxaaq xusay, ma sheego taariikh maalin cayiman: “Sannad ama wax u dhow” waa qiyaasteeda muddada kala maqnaanshaha. Qayb markhaatifurkeeda ka mid ahi waxay bilowdaa tilmaamidda sida Cusmaan u wanaajiyay; qaybta xigtana way sii waddaa ilaa Qubaa. Akhrisku yuusan ku joogsan halka boggu ku go'o."
+      "source_text_sha256": "ad75acfcd45677dd9b88bc1a127bd60c3e8ab8de7bf8635ec3e1abfb6d99f9a5",
+      "text": "Umm Salama muddadii ay ka maqnayd ninkeeda iyo wiilkeeda waxay ku qiyaastay «sannad ama wax u dhow». Waxay sheegtay in Cusmaan bin Dalxa jidka ku caawiyey ilaa ay Qubaa gaadhay."
     },
     {
       "unit_id": "hch_early_migration_depth_4:text_ar",
-      "source_text_sha256": "7bfaa75df4837dcf254234c01e2badc2795f8d09627b633e4ccfb47b61f66aae",
-      "text": "Cumar wuxuu ka warramaa dhacdadii Cayyaash; dabadeed Ibnu Isxaaq wuxuu warka ku saabsan in Cayyaash isagoo xiran lagu soo bandhigay dadkii Makka ku sii ambaqaadaa hadalka “Waxaa iiga warramay qaar ka tirsan ehelkii Cayyaash.” Qaybtan dheeriga ahi waxay leedahay weriye aan magaciisa la sheegin, ee yaan loo qaadan hadalkii Cumar. Sidoo kale warka Suhayb ee Ibnu Hishaam waxaa ka horreeya weedhaha “waa la ii sheegay” iyo “wuu i soo gaadhay”; kama dhigayno werin Suhayb si toos ah looga helay."
+      "source_text_sha256": "c77bf2123881bb5ffa505d0d14a0e7e5dd43be6d5cb09eb55a7f008361b5c4f8",
+      "text": "Cumar wuxuu ka warramaa wixii ku dhacay Cayyaash; Ibnu Isxaaq wuxuu ka soo weriyaa qof aan la magacaabin oo reer Cayyaash ah in Cayyaash isagoo xidhan la tusay dadka Makka. Warka Suhayb ee Ibnu Hishaam waa war si dadban uga yimid Abuu Cusmaan Al-Nahdi, ma aha markhaatifurka Suhayb."
     },
     {
       "unit_id": "hch_early_migration_variants:title_ar",
-      "source_text_sha256": "c97791d0066a11c1dc09c93e0eeacec72bfff0c296daedfc849a365d5c83d117",
-      "text": "Kala duwanaanta silsiladaha iyo xadka isu-geynta"
+      "source_text_sha256": "12a4be0ccbcacf8aa273f633772950c2cf4eef8db60a51910ac846d35e6b2992",
+      "text": "Suhayb iyo Saalim: faahfaahin ku kala duwan wararka"
     },
     {
       "unit_id": "hch_early_migration_depth_5:text_ar",
-      "source_text_sha256": "91eedbf27ce24530fcf4e3e54f33ab37b5d0880a34d361d006d64e43131de838",
-      "text": "Riwaayad kale oo ku saabsan Suhayb oo Ibnu Kathiir ka soo tebiyay Al-Bayhaqi waxay sheegaysaa inuu damacsanaa inuu la baxo Nebiga ﷺ iyo Abuu Bakar, balse dhallinyaro ay joojiyeen; wuxuu u soo bandhigay awaaqiyo dahab ah oo tusay meel ay yaallaan laba labbis oo dhammaystiran, dabadeedna Nebiga ﷺ ayuu Qubaa ugu yimid. Awaaqiyada iyo labada labbis kuma darayno warkii Abuu Cuthmaan ee kaliya sheegaya in hantida la bixiyay oo aan labadaas faahfaahin xusin. Odhaahda “Ganacsigu wuu faa'iiday” ee dhammaadka silsiladdanina ma aha odhaahda “Suhayb faa'iido ayuu helay” ee warka hore."
+      "source_text_sha256": "c6a652f51377f75e0249593d0e074ddaeacffde46174f8357ff9b5114345240a",
+      "text": "Warka kale ee Suhayb ee Ibnu Kathiir ka soo tebiyay Al-Bayhaqi, wuxuu rabay inuu la baxo Nebiga ﷺ iyo Abuu Bakr, balse dhallinyaro ayaa hor istaagtay. Wuxuu bixiyey uqiyado dahab ah oo tilmaamay laba dhar, dabadeed Nebiga ﷺ ayuu Qubaa ku gaaray. Warka dadban ee Abuu Cusmaan wuxuu bixiyaa maalkiisa, iyadoo aan uqiyadaha iyo dharka la xusin. «ganacsigii faa’iido ayuu keenay» ee jidkan way ka duwan tahay «Suhayb wuu faa’iiday» ee warka dadban."
     },
     {
       "unit_id": "hch_early_migration_depth_6:text_ar",
-      "source_text_sha256": "970ecbd33a5013f3b7b056d036e89a0cdf3cbd6c6e1291005f452738325e6aa2",
-      "text": "Silsiladda warka Cumar ee Al-Bayhaqi waxay iyaduna martaa Ibnu Isxaaq oo ka weriyay Naafic, Naaficna Ibnu Cumar; qoraalka ereyga ballanta iyo higgaadda magaca meesha qaar way kaga duwan yihiin riwaayadda Ibnu Hishaam, balse ma aha markhaatifuryo tiro badan oo Cumar leeyahay. Sharraxaadda goobta ballanta ee meelo kale loo eego lagama go'aamin karo maalinta ama isku-duwayaasha juqraafiyeed ee At-Tanaadub."
+      "source_text_sha256": "93d6b0e4690088a1556386b6180af521cef3dc85326070fd5023919d1e4f805f",
+      "text": "Warka Cumar ee Al-Bayhaqi wuxuu isna maraa Ibnu Isxaaq, Naafic iyo Ibnu Cumar. Qoraalka ereyga ballanta iyo qaar ka mid ah shaqallada magaca goobta way kaga duwan yihiin riwaayadda Ibnu Hishaam."
     },
     {
       "unit_id": "hch_early_migration_depth_7:text_ar",
-      "source_text_sha256": "8c4b19d8749cd155e4a5dc64f4d305e892707f4508866464c839113a0da96a93",
-      "text": "Ibnu Kathiir wuxuu Yacquub bin Sufyaan ka soo tebiyay warka Saalim ee salaadda Al-Cusba ku tujiyay; erayada silsiladda weriyayaasha ayaa kaga duwan qaabka Al-Bayhaqi, hase yeeshee buuggu markuu soo tebiyo taas keliya silsilad cusub ma noqoto. Warka Ibnu Sacad wuxuu Qubaa ku magacaabaa goobtii Saalim muhaajiriinta ku tujiyay ka hor imaatinkii Nebiga ﷺ; taasi ma tilmaamayso in Al-Cusba dhammaan riwaayadaha magac u tahay Qubaa, ama in liisaska dadka tukanayay isku mid yihiin."
+      "source_text_sha256": "5b38376a8d10a801303f51a762117d01ad204d4e7eae6b0657bd6172741929e8",
+      "text": "Ibnu Kathiir wuxuu Yacquub bin Sufyaan ka soo tebiyay warka Saalim ee salaadda Al-Cusba ku tujiyay; erayada isnadku way kaga duwan yihiin Al-Bayhaqi. Ibnu Sacad wuxuu Qubaa ku magacaabaa goobtii Saalim muhaajiriinta ku tujiyay ka hor imaatinkii Nebiga ﷺ; warka Ibnu Cumar wuxuu magacaabaa Al-Cusba."
     },
     {
       "unit_id": "hch_early_migration_outline_1:text_ar",
@@ -1920,12 +1920,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "78643f1d7b12ae2837c7d762e97acbab39de09d2a33f80f6c0ea15743d611fd2",
+  "translation_sha256": "a69d950390369a9a99b38d2c0317085f047918311293cf4a90a1cf2a8ca53952",
   "review": {
-    "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
-    "translation_sha256": "78643f1d7b12ae2837c7d762e97acbab39de09d2a33f80f6c0ea15743d611fd2",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 0d1499f0-c6e6-49e1-acd1-4d5b52d4c405 across 377 Arabic/target units. Arabic-led semantic comparison of all 377 paired inventory units across all 17 complete chunks, including teaching, objectives and outlines, all question answers/options/feedback/scope, metadata/citation URLs, chains and full selected source texts. Correct-answer IDs and translated reading modes were checked. No further actionable semantic or language discrepancy identified in this bounded comparison. The watchlist was read as an additional check, not a pivot; this is not scholarly source collation, independent language/specialist approval, or permission for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

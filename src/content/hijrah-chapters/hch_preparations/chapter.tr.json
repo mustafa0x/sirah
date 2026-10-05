@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_preparations",
-  "revision": 1,
+  "revision": 2,
   "locale": "tr",
-  "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
-  "arabic_payload_sha256": "61d88395c3216dfcbee3986b27631b2f782282f4a9a7b264dd21653fb994a71b",
-  "status": "translation_ready",
+  "arabic_sha256": "7570ef243375e36b5b420f43d354dc43957ed58a80c5dc0f64a6d377451892bc",
+  "arabic_payload_sha256": "8cd88dcebc55461795735f2a196af438f707768ffdbb6d9a17147daed4da4f33",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_preparations:title_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_preparations_overview_02:text_ar",
-      "source_text_sha256": "8d794fc94baf206985265b50eccc3873c19b5f0e2fc8a50b85d8ef22ce880da5",
-      "text": "Hikâye, yola çıkma kararıyla bitmez: Rivayette bir bineğin teklif edilmesi ve buna “Bedeliyle” cevabının verilmesi anlatılır. Ardından Âişe azık hazırlığını çoğul şahısla aktarırken Esmâ, azıkla su kırbasını bağlamak için kuşağıyla ne yaptığını kendi ağzından anlatır. İki rivayetin de kendine ait yeri ve sesi vardır."
+      "source_text_sha256": "b09c45a48d1eef2b441e88fdb3ed3660f059f988b21174dcc62c629cf584ac28",
+      "text": "Hikâye, yola çıkma kararıyla bitmez: Rivayette bir bineğin teklif edilmesi ve buna “Bedeliyle” cevabının verilmesi anlatılır. Ardından Âişe azık hazırlığını çoğul şahısla aktarırken Esmâ, azıkla su kırbasını bağlamak için kuşağıyla ne yaptığını kendi ağzından anlatır."
     },
     {
       "unit_id": "hch_preparations_waiting:title_ar",
@@ -73,8 +73,8 @@
     },
     {
       "unit_id": "hch_preparations_provisions_01:text_ar",
-      "source_text_sha256": "1ae1ba50e214f0e79d93ca213a35d5524b2f1cc5641545f65aa2df58a9b136ee",
-      "text": "Âişe, “İkisini hızla hazırladık ve onlara bir azık torbası içinde yol azığı yaptık” diye anlatır. Ardından Ebû Bekir'in kızı Esmâ'nın yaptığı işi belirtir: Kuşağından bir parça kesip torbanın ağzını onunla bağladı. Buradaki “sufra” yol azığı, “cirâb” ise onun konduğu torbadır; bu alıntı azığın nelerden oluştuğunu belirtmez."
+      "source_text_sha256": "4dc14bcf2691d72842267a4e4d03f680268b5a31e7c22f710d7f189c3d65351d",
+      "text": "Âişe, “İkisini hızla hazırladık ve onlara bir azık torbası içinde yol azığı yaptık” diye anlatır. Ardından Ebû Bekir'in kızı Esmâ'nın yaptığı işi belirtir: Kuşağından bir parça kesip torbanın ağzını onunla bağladı. Buradaki “sufra” yol azığı, “cirâb” ise onun konduğu torbadır; Âişe torbanın hangi maddeden yapıldığını söylemez."
     },
     {
       "unit_id": "hch_preparations_provisions_02:text_ar",
@@ -93,13 +93,13 @@
     },
     {
       "unit_id": "hch_preparations_depth_voices_01:text_ar",
-      "source_text_sha256": "1813a0aa69b2b885167da3d4ee3136f2b3e1dc0874beb9710cceb3809178b210",
-      "text": "Âişe'nin “İkisini hazırladık” sözündeki çoğul şahıs, yol hazırlığına katılanları kapsar; herkesin adını saymaz ve azığı mağaraya bizzat Âişe'nin taşıdığını söylemez. Daha sonra Esmâ'nın bağlama işini adlandırır. Esmâ ise ayrıntılı anlatımında azığı babasının evinde kendisinin hazırladığını belirtir ve su kırbasını da anar. Çoğul şahsı tek kişinin işi gibi göstermeden veya Esmâ'nın tanıklığından kırba ayrıntısını çıkarmadan her iki katılımı okuyabiliriz."
+      "source_text_sha256": "1b32ba9976c5c592ee4da26aa60196fdd6af777f20c2a0413dfb6180d7427e27",
+      "text": "Âişe'nin “İkisini hazırladık” sözündeki çoğul şahıs, yol hazırlığına katılanları kapsar; herkesin adını saymaz ve azığı mağaraya bizzat Âişe'nin taşıdığını söylemez. Daha sonra Esmâ'nın bağlama işini adlandırır. Esmâ ise ayrıntılı anlatımında azığı babasının evinde kendisinin hazırladığını belirtir ve su kırbasını da anar."
     },
     {
       "unit_id": "hch_preparations_depth_voices_02:text_ar",
-      "source_text_sha256": "ff13af70d9ab255e61977d9c178a325bf2da4ecd7367665ea24405543b8f4353",
-      "text": "Âişe, bir torbadaki azıktan, torbanın ağzına bağlanan kuşak parçasından söz eder ve “Kuşaklı” lakabını aktarır. Esmâ ise ayrıntılı rivayetinde su kırbası ile azığı bağlamak için kuşağın ikiye bölünmesini anlatır ve “İki Kuşaklı” lakabını kullanır. Torbayla su kırbasını tek bir kap saymamalı, iki rivayetteki lakapları aynı sözmüş gibi yazmamalıyız."
+      "source_text_sha256": "a701af88cec93b989e1bd94e2909a35664061ef77e7ca32b4898d085289696d5",
+      "text": "Âişe, bir torbadaki azıktan, torbanın ağzına bağlanan kuşak parçasından söz eder ve “Kuşaklı” lakabını aktarır. Esmâ ise ayrıntılı rivayetinde su kırbası ile azığı bağlamak için kuşağın ikiye bölünmesini anlatır ve “İki Kuşaklı” lakabını kullanır."
     },
     {
       "unit_id": "hch_preparations_depth_names:title_ar",
@@ -118,8 +118,8 @@
     },
     {
       "unit_id": "hch_preparations_depth_limits_01:text_ar",
-      "source_text_sha256": "80cb1f323b99ae725821ca0478c6352fd921675ee07e1973a3ba1e73945fa030",
-      "text": "Âişe rivayetindeki dört ay, iki bineğin beslenmesini niteler; tek başına yolculuğun süresini belirlemez. İbn İshak'ın binek bedeli rivayetinde belirli bir tutar değil, “şu kadar” ifadesi yer alır. Bu parçalar neden bedel ödenmesinin tercih edildiğini de açıklamaz. Diyaloğu dışarıdan rakam ya da gerekçe eklemeden anlayabiliriz."
+      "source_text_sha256": "b93ddc4af911b13ce2c48fdcec72faf2527b209b877fbecb747aebae94bd0ae8",
+      "text": "Âişe rivayetindeki dört ay, iki bineğin beslenmesini niteler; tek başına yolculuğun süresini belirlemez. İbn İshak'ın binek bedeli rivayetinde belirli bir tutar değil, “şu kadar” ifadesi yer alır. Bu parçalar neden bedel ödenmesinin tercih edildiğini de açıklamaz."
     },
     {
       "unit_id": "hch_preparations_depth_limits_02:text_ar",
@@ -1230,12 +1230,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "c0ab770d67da5af6992df4ea2521e5e440dd9c5d3782b7db633a6fc8b869c042",
+  "translation_sha256": "4e14852d1d5b5a74f7bed7d94dd23af58b8874d84e058c3d60859346b52516c2",
   "review": {
-    "arabic_sha256": "aa8b8148f7ff2fac296c79f5c7d2c4d6fb477b3ac8a59c332d5151842d4063b4",
-    "translation_sha256": "c0ab770d67da5af6992df4ea2521e5e440dd9c5d3782b7db633a6fc8b869c042",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 94f8b95c-5647-4bd2-865a-1815428aafe8 across 235 Arabic/target units. Arapça yetke, Türkçe taslak ve Arapça çeviri uyarı listesi incelendi; 10 parçanın tamamında 235 envanter birimi tek tek anlam yönünden karşılaştırıldı. Öğretici anlatım, hedefler, soru ve seçenekler, doğru cevap ve geri bildirimler, ayrıntılı seçilmiş kaynak metinler, rivayet sesleri, isnatlar, metaveriler ve atıf URL’lerinde bu taslağa özgü yeni eyleme dönük anlam hatası saptanmadı. Ebû Kuhâfe metnindeki «لَا أَرَاهُ» olumsuzluğu ve «خَيْرًا كَثِيرًا» / «هَذَا الْمَالِ» ayrımı korunmuş; çevirmen uyarısı anlatıcı sözünden işaretle ayrılmıştır. Bu karşılaştırma yazma/nüsha tahkiki, uzman onayı, bağımsız dil onayı veya kamuya dağıtım izni değildir. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

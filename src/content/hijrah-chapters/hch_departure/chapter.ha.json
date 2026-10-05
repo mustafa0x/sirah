@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 1,
+  "revision": 2,
   "locale": "ha",
-  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
-  "status": "translation_ready",
+  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
+  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_departure:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_departure:reader_question_ar",
-      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
-      "text": "Me riwayoyin shiri da fita suke gaya mana, kuma a ina muryoyinsu suka bambanta?"
+      "source_text_sha256": "74136be76cec487fefea2b99ed667e9397689d507b00edd813205480c2b10f3f",
+      "text": "Me Ibn Isḥāq ya ruwaito game da majalisar Ƙuraishawa da shimfiɗar Annabi ﷺ da Ali ya kwanta a kai, kuma me Urwa ya ruwaito game da fita cikin dare?"
     },
     {
       "unit_id": "hch_departure_overview:text_ar",
-      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
-      "text": "Tafiyar nan ta fara da jiran izini a Makka, sai tsoron Ƙuraishawa game da fitar Annabi ﷺ, ta kuma kai ga shimfiɗar Ali da amanonin da ya tsaya domin su. Za mu bi riwayar Ibn Isḥāq, mu tsaya kan riwayar Urwa da sukar al-Ṣuwayyānī da al-Bayhaqī inda iyakar maganarsu ta bambanta; don kada kowane sanannen daki-daki ya zama wani tabbataccen yanayi guda."
+      "source_text_sha256": "bd42dc5d578cc0d1f5559b889c98cf2bab3833dc849c38e3725d04f74a062b37",
+      "text": "Labarin ya fara da jiran izini a Makka da tsoron Ƙuraishawa cewa Annabi ﷺ zai fita; Ali ya kwanta a shimfiɗar Annabi ﷺ, ya kuma tsaya domin mayar da amanonin mutane."
     },
     {
       "unit_id": "hch_departure_waiting:title_ar",
@@ -33,8 +33,8 @@
     },
     {
       "unit_id": "hch_departure_waiting2:text_ar",
-      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
-      "text": "A cewar labarin Ibn Isḥāq, Ƙuraishawa sun ga cewa masu hijira sun sami mazauni da kariya a wajen Makka, sai suka ji tsoron Annabi ﷺ ya bi su. Mutanensu sun taru a Dār al-Nadwa domin tattauna batunsa; wannan hoto ne da rubutun ke bayarwa, ba takardar bayanin abin da ya gudana kai tsaye a taron ba."
+      "source_text_sha256": "82765ecfe36526c915bea340bf98d6f73d17c9766537b3c6888963b320a7e6da",
+      "text": "A cewar labarin Ibn Isḥāq, Ƙuraishawa sun ga cewa masu hijira sun sami mazauni da kariya a wajen Makka, sai suka ji tsoron Annabi ﷺ ya bi su. Sun taru a Dār al-Nadwa domin tattauna batunsa."
     },
     {
       "unit_id": "hch_departure_council:title_ar",
@@ -43,13 +43,13 @@
     },
     {
       "unit_id": "hch_departure_council1:text_ar",
-      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
-      "text": "A labarin Ibn Abbās da Ibn Isḥāq ya ruwaito, an gabatar da ra’ayin tsare shi, sannan korarsa; tsohon mutumin Najd ya ƙi ra’ayoyin biyu a cikin riwayar. Daga nan Abū Jahl ya ba da shawarar samari daga kabilu su haɗu su buge shi; a wannan labarin taron ya ƙare da amincewa da wannan ra’ayi. Bayanin tattaunawar da daki-daki haka ba ya nufin kowace riwaya tana ba da wannan labarin taron."
+      "source_text_sha256": "b0924fc446a04e4e33303d2b92b94e2578f137be27f22656d379a4abb6876031",
+      "text": "A labarin Ibn Abbās da Ibn Isḥāq ya ruwaito, da farko an ba da shawarar tsare Annabi ﷺ; dattijon Najd ya ƙi. Sai aka ba da wata shawara ta daban ta korarsa, ita ma ya ƙi. Daga nan Abū Jahl ya ba da shawarar a ba saurayi daga kowace kabila takobi, su bugi Annabi ﷺ tare da duka guda su kashe shi. Dalilinsa shi ne jinin zai rarrabu tsakanin kabilu, Banu Abd Manāf kuma ba za su iya yaƙar su duka ba. A wannan labarin taron ya amince da shawarar Abū Jahl."
     },
     {
       "unit_id": "hch_departure_council2:text_ar",
-      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
-      "text": "Wannan hanyar riwaya kuma ta ambaci Iblīs cikin siffar dattijo. Al-Ṣuwayyānī ya kawo ƙarfafa labarin ta hanyoyin riwayarsa a wani wuri, amma a wani wurin ya ware ambaton Iblīs daga hukuncin. Wanda ya karanta ƙarfafawar kaɗai zai rasa wannan togaciya da bambance-bambancen da ya yi tsakanin hanyoyin da ya ce an yi watsi da wasu masu riwayarsu da kuma shaidar riwaya mursal."
+      "source_text_sha256": "86e3f65ad9921f23db4c2df8a3a04df103474b4e0c3c900815bcd50697147f30",
+      "text": "Wannan hanyar riwaya kuma ta ambaci Iblīs cikin siffar dattijo. Al-Ṣuwayyānī ya kawo ƙarfafa labarin ta hanyoyin riwayarsa a wani wuri, amma a wani wurin ya ware ambaton Iblīs daga hukuncin."
     },
     {
       "unit_id": "hch_departure_bed:title_ar",
@@ -73,28 +73,28 @@
     },
     {
       "unit_id": "hch_departure_trusts1:text_ar",
-      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
-      "text": "A wata riwayar Ibn Isḥāq, aikin Ali ba kwanciya a shimfiɗa kaɗai ba ne; ya faɗa ta sigar «an isar masa da labari» cewa Annabi ﷺ ya sanar da shi fitarsa kuma ya umarce shi ya tsaya domin mayar da amanonin mutane. Wannan sigar isar da labari ce a rubutun, ba sunan mai riwaya da za mu iya ƙirƙira ba."
+      "source_text_sha256": "aa8aa046502c8151d94eb4889c58905a4b4af8e9da999705d28da19ee4ef6b6a",
+      "text": "A wata riwayar Ibn Isḥāq, aikin Ali ba kwanciya a shimfiɗa kaɗai ba ne; ya faɗa ta sigar «an isar masa da labari» cewa Annabi ﷺ ya sanar da shi fitarsa kuma ya umarce shi ya tsaya domin mayar da amanonin mutane."
     },
     {
       "unit_id": "hch_departure_trusts2:text_ar",
-      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
-      "text": "A wani wuri na gaba a riwayar, Ali ya zauna a Makka kwana uku da ranakunsu har ya mayar da amanonin, sannan ya bi Annabi ﷺ, ya sauka tare da shi a gidan Kulthūm ibn Hadm. Wannan ya zo ne a matsayin cikar labarin amanoni, ba kayyade lokacin fitarsu cikin dare ɗaya ba."
+      "source_text_sha256": "9363cd2f637e3fc489b4977eceb0a04132e971e1b420ce7b5a87cf20111e5985",
+      "text": "A wani wuri na gaba a riwayar, Ali ya zauna a Makka kwana uku da ranakunsu har ya mayar da amanonin, sannan ya bi Annabi ﷺ, ya sauka tare da shi a gidan Kulthūm ibn Hadm."
     },
     {
       "unit_id": "hch_departure_voices:title_ar",
-      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
-      "text": "Daga majalisa zuwa hanya: iyakar kowace riwaya"
+      "source_text_sha256": "d1ea0839bf8ebad820a3dfad0595d9a3c594df39dd07e834aeeb9fe4081566fc",
+      "text": "Fita cikin dare da masu sa ido a gidan"
     },
     {
       "unit_id": "hch_departure_voices1:text_ar",
-      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
-      "text": "Al-Bayhaqī ya ruwaito daga Urwa ibn al-Zubayr takaitaccen hoton makircin: kisa, ko ɗauri, ko kora, ko ɗaurewa, tare da ayar al-Anfāl da fitar Annabi ﷺ da Abū Bakr da dare zuwa wajen kogo, da kwanciyar Ali a shimfiɗa. Wannan zaɓaɓɓen nassi na Urwa bai ambaci tattaunawar majalisar ko tafin ƙasa ba; ayar a nan nassi ne na Alƙur’ani a riwayar Urwa, ba ragowar tattaunawar Nadwa ba."
+      "source_text_sha256": "005eaa48470a06bdb880422fb001ed51d42316fcaa658fe234586daa7848bf71",
+      "text": "Al-Bayhaqī ya ruwaito daga Urwa ibn al-Zubayr takaitaccen hoton makircin: kisa, ko ɗauri, ko kora, ko ɗaurewa, tare da ayar al-Anfāl da fitar Annabi ﷺ da Abū Bakr da dare zuwa wajen kogo, da kwanciyar Ali a shimfiɗa. Riwayar Urwa ba ta ambaci tattaunawar Dār al-Nadwa ko watsa ƙasa ba; ayar al-Anfāl a cikinta nassi ne na Alƙur’ani, ba ci gaban maganar majalisa ba."
     },
     {
       "unit_id": "hch_departure_voices2:text_ar",
-      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
-      "text": "Riwayar Urwa ta ambaci fita cikin dare, ta Ibn Abbās kuma ta ambaci taruwar masu sa ido a gidan Annabi ﷺ cikin duhun dare. Babu wacce ta ba da lokacin ziyartar gidan Abū Bakr; bai dace a ƙiyasta lokacin wannan ziyara daga lokacin sa ido ba, ko a haɗa bayanan gidajen biyu su zama abu guda ba."
+      "source_text_sha256": "f900696cc357b24596d505490e13c2a68403cc4e1d7ae67c23041443c0cf3981",
+      "text": "Riwayar Urwa ta ambaci fita cikin dare; ta Ibn Abbās ta ambaci taruwar masu sa ido a ƙofar gidan Annabi ﷺ cikin duhu. Babu wacce ta ba da sa’ar ziyara dabam zuwa gidan Abubakar."
     },
     {
       "unit_id": "hch_departure_criticism:title_ar",
@@ -103,18 +103,18 @@
     },
     {
       "unit_id": "hch_departure_criticism1:text_ar",
-      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
-      "text": "Hashiyar al-Ṣuwayyānī ta ce labarin Nadwa yana da darajar ḥasan ta hanyoyin riwayarsa; ta bayyana hanyar al-Kalbī a matsayin wadda ba abin farin ciki ba ce, ta al-Ḥasan ibn Umāra a matsayin wadda aka watsar, ta kuma ambaci shaidar mursal ta Qatāda da al-Wāqidī wanda aka watsar. A wani rubutunsa, ya ware ambaton Iblīs daga hukuncinsa na ɗaukar hadisin ḥasan. Muna jingina hukuncin da togaciyar gare shi, ba mu maye su da namu bincike mai zaman kansa kan isnād ɗin da ba a buɗe a nan ba."
+      "source_text_sha256": "405fd6cebdc6bf99818431a2f5d2cc4d361a12b4ff6b0f2fb92ae89372c0df32",
+      "text": "Hashiyar al-Ṣuwayyānī ta ce labarin Nadwa yana da darajar ḥasan ta hanyoyin riwayarsa; ta bayyana hanyar al-Kalbī a matsayin wadda ba abin farin ciki ba ce, ta al-Ḥasan ibn Umāra a matsayin wadda aka watsar, ta kuma ambaci shaidar mursal ta Qatāda da al-Wāqidī wanda aka watsar. A wani rubutunsa, ya ware ambaton Iblīs daga hukuncinsa na ɗaukar hadisin ḥasan."
     },
     {
       "unit_id": "hch_departure_criticism2:text_ar",
-      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
-      "text": "Al-Ṣuwayyānī ya tattauna hanyar riwaya da ta bi ta Abū Balj, ya ce isnād ɗinta ba laifi muddin Abū Balj bai keɓanta da wani lafazi mai saɓani ba. Ya haɗa tabbatarwar wasu malamai da sukar al-Bukhārī ta «fīhi naẓar», yana bayyana kalmar al-Bukhārī a matsayin kalma mai tsanani a ilimin masu riwaya. Ci gaban maganarsa a shafi na gaba na cikin sukar; hukuncin nan ba soke dukkan labaran Ali gaba ɗaya ba ne, kuma ba tabbatar da kowane lafazin da aka ruwaito daga gare shi ba ne."
+      "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
+      "text": "Al-Ṣuwayyānī ya tattauna hanyar riwaya da ta bi ta Abū Balj, ya ce isnād ɗinta ba laifi muddin Abū Balj bai keɓanta da wani lafazi mai saɓani ba. Ya haɗa tabbatarwar wasu malamai da sukar al-Bukhārī ta «fīhi naẓar», yana bayyana kalmar al-Bukhārī a matsayin kalma mai tsanani a ilimin masu riwaya."
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
-      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
-      "text": "A maganar Annabi ﷺ ga Ali kamar yadda Ibn Isḥāq ya ruwaito, an bayyana mayafin a matsayin kore daga Ḥaḍramawt; maganar ta cika a farkon zaɓaɓɓen nassi na gaba. Daga nan Ibn Isḥāq ya fara isnād na Yazīd ibn Ziyād daga Muḥammad ibn Kaʿb game da labarin ƙasa da karatun Yā Sīn; don haka ba a jingina karatun ta wannan isnād ga tsohuwar hanyar Ibn Abbās ba. Rarrabe hanyoyin biyun ya fi haɗa kowane daki-daki da duk wani labarin da ya ambaci shimfiɗa muhimmanci."
+      "source_text_sha256": "3a1c8208e04699f930f7937afce7b566ad4fb7f2a6a0080ea97ba4a1b2700c53",
+      "text": "A riwayar Ibn Isḥāq, Annabi ﷺ ya ambaci koren mayafin Ḥaḍramawt ga Ali. Labarin watsa ƙasa da karatun Yā Sīn, Ibn Isḥāq ya ruwaito ta hannun Yazīd ibn Ziyād daga Muḥammad ibn Kaʿb al-Quraẓī."
     },
     {
       "unit_id": "hch_departure_hazwara:title_ar",
@@ -123,13 +123,13 @@
     },
     {
       "unit_id": "hch_departure_hazwara1:text_ar",
-      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
-      "text": "A labarin da al-Bayhaqī ya ruwaito daga Abdullāh ibn Adī ibn al-Ḥamrā, Annabi ﷺ yana tsaye a Ḥazwara cikin kasuwar Makka ya ce wa Makka ita ce ƙasar Allah mafi soyuwa a gare shi, kuma da ba don an fitar da shi daga cikinta ba da bai fita ba. Al-Bayhaqī ya ɗauki wannan riwaya a matsayin maḥfūẓa (wadda aka kiyaye). Labarin bai ƙayyade sa’ar tsayuwarsa a Ḥazwara ba, kuma bai haɗa ta da ƙofar gida ko shimfiɗar Ali ba."
+      "source_text_sha256": "7be7e627a4749be2ef487f4d8c12c1f10227d75be8815f33794032e59c5ba62e",
+      "text": "A labarin da al-Bayhaqī ya ruwaito daga Abdullāh ibn Adī ibn al-Ḥamrā, Annabi ﷺ yana tsaye a Ḥazwara cikin kasuwar Makka ya ce wa Makka ita ce mafi alherin ƙasashen Allah kuma mafi soyuwa a gare shi, kuma da ba don an fitar da shi daga cikinta ba da bai fita ba. Al-Bayhaqī ya ɗauki wannan riwaya a matsayin maḥfūẓa (wadda aka kiyaye). Labarin bai ƙayyade sa’ar tsayuwarsa a Ḥazwara ba, kuma bai haɗa ta da ƙofar gidan Annabi ﷺ ko shimfiɗarsa da Ali ya kwanta a kai ba."
     },
     {
       "unit_id": "hch_departure_hazwara2:text_ar",
-      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
-      "text": "An kiyaye isnād na labarin Abdullāh ibn Adī ibn al-Ḥamrā a ƙarshen wani zaɓaɓɓen nassi sannan farkon na shafi na gaba; bayan kammalawarsa sai maganar Annabi ﷺ da sharhin al-Bayhaqī kan abin da aka kiyaye. A ci gaban tattaunawar sukar, al-Bayhaqī ya bayyana abin da Maʿmar ya ruwaito da abin da wasu suka ruwaito daga Muḥammad ibn Amr a matsayin kuskure, ya fifita riwayar jama’a. Wannan fifikon nasa ne tsakanin siffofin riwaya, ba cewa duk sauran riwayoyin fita matsayinsu iri ɗaya ne ba."
+      "source_text_sha256": "e3ed539e964ba7b8ebf3754c654025484873c4f4cadc7de8db30844b417c8e9e",
+      "text": "A sukar labarin Ḥazwara, al-Bayhaqī ya kira riwayar Maʿmar kuskure; dabam kuma ya kira abin da wasu suka ruwaito daga Muḥammad ibn Amr kuskure, ya fifita riwayar jama’a."
     },
     {
       "unit_id": "hch_departure_point_1:text_ar",
@@ -2235,12 +2235,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "5c4364eee5d424d651f57c4bebfed09a3711657a0c5588fec4db79c105744592",
+  "translation_sha256": "62adf4102c38b1d09bc855387ff51c70cf3bfb8b168c15b70810551c0397d563",
   "review": {
-    "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-    "translation_sha256": "5c4364eee5d424d651f57c4bebfed09a3711657a0c5588fec4db79c105744592",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session efe72cb1-5175-4180-83d2-c81a76ba53b6 across 437 Arabic/target units. Compared all 437 Arabic–Hausa inventory units across all 16 complete paired chunks: lesson, objectives, outline, ten question/answer sets, feedback, source-text selections, metadata, voice boundaries and citation URLs. The two localized problems identified in the earlier round (Quraysh territorial referent and the untranslated garment lemma) are corrected in this draft; no further actionable semantic or language divergence identified. This is not an independent scholarly collation, specialist review, language approval, or public-distribution authorization. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

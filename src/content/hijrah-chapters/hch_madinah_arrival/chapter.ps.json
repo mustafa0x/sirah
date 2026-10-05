@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_madinah_arrival",
-  "revision": 1,
+  "revision": 2,
   "locale": "ps",
-  "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-  "arabic_payload_sha256": "2c4db980e433dbb9f819370ee2577669a7036d49f4c4648f5dad4128dd57bc54",
-  "status": "translation_ready",
+  "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+  "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -13,8 +13,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival:reader_question_ar",
-      "source_text_sha256": "4dc5fb16bc0ee37ada9dbf59b8e8ad38cf8d4f0c7e1a3c513b57b2d9822dd754",
-      "text": "د رسول الله ﷺ هرکلی څنګه د ابو ایوب په کور کې د هغه په مېلمه پالنه بدل شو، او روایتونه د کور په کومو جزئیاتو کې سره توپیر لري؟"
+      "source_text_sha256": "6fbe777be9bd9eb6eb7664a675fdba3d66f4d79d097c82b02d175a4052faefb6",
+      "text": "د مدینې خلکو رسول الله ﷺ څنګه هرکلی وکړ تر څو چې د ابو ایوب په کور کې مېشت شو، او د کور د پوړونو په اړه د ابن اسحاق او افلح روایتونه څنګه توپیر لري؟"
     },
     {
       "unit_id": "hch_madinah_arrival_overview1:text_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_overview2:text_ar",
-      "source_text_sha256": "bd46f0c2bc0e60cb3dc2c8b32c1511aa00fd32f65ebc34ff89f21c5d7efb88d3",
-      "text": "د ابو ایوب له انګړه تر کوره د مېلمه پالنې کیسه غځېږي: ابو ایوب د ابن اسحاق په روایت کې د رسول الله ﷺ په لاندې پوړ کې مېشتېدل، د اوبو د لوښي د ماتېدو پر مهال د کورنۍ پاملرنه او هغه ماښامنۍ چې ورته یې برابروله، روایتوي. او له دې خبر پرته د نورو روایتونو بېلابېلې بڼې د ژورې څېړنې په برخه کې جلا لوستل کېږي."
+      "source_text_sha256": "fcdefd53220926227718589b074a71cb76869a9a6a8fc4f83c5a3b52e32e6bf2",
+      "text": "د ابو ایوب له انګړه تر کوره د مېلمه پالنې کیسه غځېږي: ابو ایوب د ابن اسحاق په روایت کې د رسول الله ﷺ په لاندې پوړ کې مېشتېدل، د اوبو د لوښي د ماتېدو پر مهال د کورنۍ پاملرنه او هغه ماښامنۍ چې ورته یې برابروله، روایتوي."
     },
     {
       "unit_id": "hch_madinah_arrival_arrival:title_ar",
@@ -108,28 +108,28 @@
     },
     {
       "unit_id": "hch_madinah_arrival_first:text_ar",
-      "source_text_sha256": "d89956d6f2e80fc1b7e39d6c4f8396fb8691098afee218ee7dbd8a660c819818",
-      "text": "براء د هغو کسانو تر یادولو وروسته چې تر رسول الله ﷺ مخکې د خلکو د قرآن ښوولو لپاره راغلي وو، د خلکو خوشحالي بیانوي؛ خو انس د بیهقي په خبر کې له هلکانو سره د خپل انتظار او د انصارو د هرکلي له اړخه ګوري. بیهقي د ننوتلو د ورځې په اړه د انس لنډ خبر د دوو پاڼو په دوو ټاکل شوو ټوټو کې راوړي؛ نو په اوږده خبر کې اټکلي شمېر د مدینې د ټولو خلکو سرشمېرنه نه ده، او د ورځې ستاینه هم ټاکلې نېټه نه ده."
+      "source_text_sha256": "b9c59c96e73bd9ca131d1a0d8c914adc8e6709a51dbbdb320a4ddaa4c02e0589",
+      "text": "براء د هغو کسانو تر یادولو وروسته چې تر رسول الله ﷺ مخکې د خلکو د قرآن ښوولو لپاره راغلي وو، د خلکو خوشحالي بیانوي؛ خو انس د بیهقي په خبر کې له هلکانو سره د خپل انتظار او د انصارو د هرکلي له اړخه ګوري. انس په اوږده روایت کې د هغو شاوخوا پنځه سوه انصارو یادونه کوي چې د رسول الله ﷺ او ابوبکر هرکلی یې وکړ؛ په لنډ روایت کې د ننوتلو ورځ ستایي، خو د میاشتې نېټه نه ټاکي."
     },
     {
       "unit_id": "hch_madinah_arrival_friday:text_ar",
-      "source_text_sha256": "d7ae807a82a35c73ce700718b1f8b56967657dfce806099f9c9a7f126c1b6f69",
-      "text": "ابن حجر د جمعې په ورځ د وتلو خبر ابن اسحاق او ابن عائذ ته منسوبوي، او په یوه بله تتمه کې له حاکم څخه نقلوي چې اوښه د ابو ایوب په وره کې کېناسته؛ خو د بخاري د انس حدیث د ابو ایوب انګړ ته رسېدل یادوي. د ابن اسحاق په نږدې متن کې په قباء کې د پاتې کېدو د مودې په اړه د خلکو اختلاف ته اشاره ده؛ نو دا ټوټې موږ ته نه د میاشتې نېټه راکوي او نه کره رسم شوی مسیر، او د مسجد د جوړېدو خبر د کوربه د ټاکلو جزئیات نه ګرځوي."
+      "source_text_sha256": "b584e602ef529870ea78c3e50710a8ca1238a877aaa9f60a3616f09fdf14f151",
+      "text": "ابن حجر د جمعې په ورځ د وتلو خبر ابن اسحاق او ابن عائذ ته منسوبوي، او له حاکم څخه نقلوي چې اوښه د ابو ایوب په وره کې کېناسته؛ خو د بخاري د انس حدیث د ابو ایوب انګړ ته رسېدل یادوي. ابن اسحاق په قباء کې د رسول الله ﷺ د دوشنبې، سه شنبې، چهارشنبې او پنجشنبې د تمېدو یادونه کوي؛ د بني عمرو بن عوف دا قول هم راوړي چې هغه د دوی په منځ کې تر دې ډېر پاتې شوی و."
     },
     {
       "unit_id": "hch_madinah_arrival_variants:title_ar",
-      "source_text_sha256": "854168b2cbed56af09ed95b94ece6f65e856f46b76903b077c8961c497ceb1d9",
-      "text": "دوه پوړونه او خواړه: توپیر څنګه ولوستل شي؟"
+      "source_text_sha256": "0d15ac13925286c9114c0da81a23c2673d39a0c99824570b6a4547f3772b16f3",
+      "text": "د ابو ایوب په کور کې دوه پوړونه او خواړه"
     },
     {
       "unit_id": "hch_madinah_arrival_upstairs:text_ar",
-      "source_text_sha256": "5b3c2933b85962c10a8183ab1f99e9d57b4ec227fbb95275ba0bd9eddea09d71",
-      "text": "د ابن اسحاق په خبر کې ابو ایوب او ام ایوب د مات شوي منګي د پېښې پر مهال په پورته پوړ کې پاتې دي. خو د مسلم په کتاب کې د افلح له لارې له ابو ایوبه راغلي خبر کې د پورته پوړ اوسېدونکي یوې څنډې ته شول، ځکه د رسول الله ﷺ له پاسه ګرځېدل یې نه خوښېدل؛ او په پای کې رسول الله ﷺ پورته پوړ ته او ابو ایوب لاندې پوړ ته لاړل. د اوبو خبر دلته یوازې د ابن اسحاق په روایت کې دی؛ نه یې د افلح له لارې سره د ورکې کړۍ په څېر نښلوو او نه ترې د دواړو روایتونو تر منځ د لېږد وخت ثابتوو."
+      "source_text_sha256": "c81287a3d14744d1c4c18784ce972b3f8757a344c1c380c0d8626425dff20b84",
+      "text": "د ابن اسحاق په خبر کې ابو ایوب او ام ایوب د مات شوي منګي د پېښې پر مهال په پورته پوړ کې پاتې دي. خو د مسلم په کتاب کې د افلح له لارې له ابو ایوبه راغلي خبر کې د پورته پوړ اوسېدونکي یوې څنډې ته شول، ځکه د رسول الله ﷺ له پاسه ګرځېدل یې نه خوښېدل؛ او په پای کې رسول الله ﷺ پورته پوړ ته او ابو ایوب لاندې پوړ ته لاړل."
     },
     {
       "unit_id": "hch_madinah_arrival_garlic:text_ar",
-      "source_text_sha256": "917524b8686a9c7b9518b9547cf2868f96de563e1d09b418bc1017513ff4686d",
-      "text": "د ابن اسحاق په خبر کې پیاز یا هوږه د شک په بڼه راغلي، او د رسول الله ﷺ ځواب د بوټي د بوی او د هغه د مناجات یادونه کوي؛ د مسلم په کتاب کې د سماک په لاره هوږه بې له دې شک څخه راغلې، او څرګندوي چې ناخوښي د بوی له امله وه، نه دا چې خواړه حرام وو. د مسلم په کتاب کې د افلح د لارې متن په دوو ټوټو کې سره نښلي، او په تتمه کې د رسول الله ﷺ ځواب دی: «نه، خو دا مې نه خوښېږي.» د یحیی بن سعید له شعبه څخه متابعت یوازې سند یادوي، متن نه تکراروي؛ نو ترې د خوړو بله پېښه مه جوړوئ."
+      "source_text_sha256": "61d0cf2e1fa5d65303003674b749c986aabfc9b3e29d5757435ec01951688026",
+      "text": "د ابن اسحاق په خبر کې پیاز یا هوږه د شک په بڼه راغلي، او د رسول الله ﷺ ځواب د بوټي د بوی او د هغه د مناجات یادونه کوي؛ د مسلم په کتاب کې د سماک په لاره هوږه بې له دې شک څخه راغلې، او څرګندوي چې ناخوښي د بوی له امله وه، نه دا چې خواړه حرام وو. د مسلم په کتاب کې د افلح له لارې د رسول الله ﷺ ځواب دی: «نه، خو دا مې نه خوښېږي.» د یحیی بن سعید له شعبه څخه متابعت سند یادوي، متن نه تکراروي."
     },
     {
       "unit_id": "hch_madinah_arrival_point_welcome:text_ar",
@@ -143,8 +143,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_point_arrival:text_ar",
-      "source_text_sha256": "f52bdd5378df4ff7d01949127925d802d4b7d37d85af34153f927278f49655a2",
-      "text": "د ابو ایوب انګړ ته رسېدل او د مسجد د خبر حدود."
+      "source_text_sha256": "481388d4f6bb70134e92a89cc7cad09b903a68c8f8fba58155b3d834929a4d1a",
+      "text": "د ابو ایوب انګړ ته رسېدل، بیا لمونځ او د مسجد جوړول."
     },
     {
       "unit_id": "hch_madinah_arrival_point_home:text_ar",
@@ -2530,12 +2530,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "51499e782caf635545b2cdfb7ea4588d3f186d9619a1a27897115e04d52e2ee1",
+  "translation_sha256": "5d9a3a2bdd2fc33b88e834c7e7fd3b7d893e9186781a373f97cd4d2a4271f183",
   "review": {
-    "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-    "translation_sha256": "51499e782caf635545b2cdfb7ea4588d3f186d9619a1a27897115e04d52e2ee1",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session dd3768ca-d1a8-4bd8-8a5b-8d6f39ffd5a7 across 494 Arabic/target units. Read the complete bound Arabic and Pashto and compared all 494 inventory units, including every paired chunk 0–16, teaching prose, objectives and outlines, questions/answers/feedback/scope, repeated metadata and citation URLs, full selected narrations and chains, Quran, poetry and commentary. Consulted the Arabic watchlist. No further actionable semantic or language discrepancy was identified in this bounded comparison; this is not scholarly collation, independent language certification, specialist sign-off or publication approval. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

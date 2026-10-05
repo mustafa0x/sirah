@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_settlement",
-  "revision": 1,
+  "revision": 2,
   "locale": "en",
-  "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-  "arabic_payload_sha256": "aea9e58189b49b74bb4a481a4b2ff3929ef167e3e5c27cc8f7af60a180ccc2f3",
-  "status": "translation_ready",
+  "arabic_sha256": "80c19ce1af5a2a1f7fa80fe88665a540f4318f41d3863db5d7694e98f51f435c",
+  "arabic_payload_sha256": "0a946402c38ad782effe9e40bdb3546f8c21e50ac42325e21de13e47606292d1",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_settlement:title_ar",
@@ -18,13 +18,13 @@
     },
     {
       "unit_id": "hch_settlement_overview1:text_ar",
-      "source_text_sha256": "e36eae2365887f6b61c12ab29e69cdd29312aecafb7e17c315c4a5c0904db3b5",
-      "text": "After arrival, other sides of the migration began to unfold: migrants followed one another to Medina, some family members arrived later, and Asma recounted the birth of her son at Quba. Aisha’s account mentions Abu Bakr and Bilal falling ill and the Prophet’s ﷺ prayer for Medina. We read these scenes alongside one another without imposing a single date on them."
+      "source_text_sha256": "9e05ac626ff537039d89de5912f6c828cfb9be05cd60c4f0cf996a00c4ac79d9",
+      "text": "After arrival, other sides of the migration began to unfold: migrants followed one another to Medina, some family members arrived later, and Asma recounted the birth of her son at Quba. Aisha’s account mentions Abu Bakr and Bilal falling ill and the Prophet’s ﷺ prayer for Medina."
     },
     {
       "unit_id": "hch_settlement_overview2:text_ar",
-      "source_text_sha256": "d5ffbaaf1c8ce6264d79da2dec35bec4fbab794e2cab50383c945b6a5abe68dd",
-      "text": "The narrative of Ibn Hibban, the account of Asma, and Ibn Hajar’s explanations differ in voice and precision: each says what falls within its own scope, and a commentary or marginal note does not become the eyewitness testimony of the woman concerned."
+      "source_text_sha256": "5891d3f6b41bae4e97632bc2e37337e95758eedd790b3baf0214550d1a32120b",
+      "text": "Ibn Hibban recounts the brotherhood; Asma recounts the birth of her son in Quba. Ibn Hajar favors the first year for his birth, while the note in the edition of Muslim explains the description of Medina as unhealthy and afflicted by illness and cites remarks on al-Juhfa."
     },
     {
       "unit_id": "hch_settlement_arrivals:title_ar",
@@ -33,18 +33,18 @@
     },
     {
       "unit_id": "hch_settlement_arrivals1:text_ar",
-      "source_text_sha256": "262e605d7c25224d7869a39a850055f54daaa75767a7ca17df4e7b24e2858286",
-      "text": "Arrival did not close the door on migration. Ibn Ishaq relates that the migrants arrived one after another, excepting from his statement about those who remained in Mecca people subjected to trial and people held captive. His account depicts houses left closed when their occupants departed, not a picture that requires every migrant to have left with family and property."
+      "source_text_sha256": "d6ec845ff1e99961c9b5c202cea5a034e810ab581db0ee8a94e58dbd82f26a1b",
+      "text": "Arrival did not close the door on migration. Ibn Ishaq relates that the migrants arrived one after another, excepting from his statement about those who remained in Mecca people subjected to trial and people held captive. His account depicts houses left closed when their occupants departed."
     },
     {
       "unit_id": "hch_settlement_arrivals2:text_ar",
-      "source_text_sha256": "258caab796940fe4e28e5e1522826535506d7bb30b63141fed3e6f53c2a67f90",
-      "text": "Then comes the account of families arriving from Mecca. Ibn Hibban relates that Zayd ibn Haritha and Abu Rafi were sent to bring Sawda and the Prophet’s ﷺ daughters, and that Abu Bakr sent Ibn Urayqit to his son Abd Allah to have him come with his family. In this account the families make a further journey after the arrival; the line does not tell us the names of everyone who came."
+      "source_text_sha256": "0c469a9790c5960476b434c6f659ca942acad2f4202ed9bdd6605ec55582a88c",
+      "text": "Then comes the account of families arriving from Mecca. Ibn Hibban relates that Zayd ibn Haritha and Abu Rafi were sent to bring Sawda and the Prophet’s ﷺ daughters, and that Abu Bakr sent Ibn Urayqit to his son Abd Allah to have him come with his family."
     },
     {
       "unit_id": "hch_settlement_arrivals3:text_ar",
-      "source_text_sha256": "9d96820ab004ce7a18fe76b2060a693b1a1714de64cc8b54bf993be7ec756195",
-      "text": "Ibn Hajar, citing Ibn Ishaq, adds names of those who arrived with the Prophet’s ﷺ family and Abu Bakr’s household; he then mentions Ruqayya’s earlier arrival with Uthman and Zaynab’s later arrival. In Ibn Sad’s account, by contrast, the Prophet ﷺ sends Zayd and Abu Rafi from Abu Ayyub’s house to Mecca, and they return with some of his family. The details in one of these texts do not become a list that Ibn Hibban explicitly gave when he said “his daughters.”"
+      "source_text_sha256": "01e1109eaa7ad30f3c3abac3303de2aa7b45dc0ff518162b964c0569c71d4690",
+      "text": "Ibn Hajar, citing Ibn Ishaq, adds names of those who arrived with the Prophet’s ﷺ family and Abu Bakr’s household; he then mentions Ruqayya’s earlier arrival with Uthman and Zaynab’s later arrival. In Ibn Sad’s account, by contrast, the Prophet ﷺ sends Zayd and Abu Rafi from Abu Ayyub’s house to Mecca, and they return with some of his family."
     },
     {
       "unit_id": "hch_settlement_brotherhood:title_ar",
@@ -53,13 +53,13 @@
     },
     {
       "unit_id": "hch_settlement_brotherhood1:text_ar",
-      "source_text_sha256": "9d5acffae4cf8c98c2d4a29acca6a99cd517a335e7b95c911dd5385e81bb46b4",
-      "text": "Alongside the arrival of families, the account of brotherhood appears in Ibn Hibban’s narrative: it is preceded by a gathering of those invited, followed by words attributed to the Prophet ﷺ and mention of those he paired as brothers. It is a long narrative bounded here by the limits of its pages; the author does not provide a new chain of transmission for it at this point. Its wording and names should therefore be read as they stand, not as a comprehensive ruling on every pairing of brothers."
+      "source_text_sha256": "6848b5fd1dc490047703514c993f2944d408f43154263020704ade9f8e397863",
+      "text": "Alongside the arrival of families, the account of brotherhood appears in Ibn Hibban’s narrative: it is preceded by a gathering of those invited, followed by words attributed to the Prophet ﷺ and mention of those he paired as brothers. Ibn Hibban relates the brotherhood without introducing a new chain of transmission at this point."
     },
     {
       "unit_id": "hch_settlement_brotherhood2:text_ar",
-      "source_text_sha256": "f3288265b7806ce9cd0f447abbb1de2ef5b7a39d7a75acbe9aceb29a469b204d",
-      "text": "In the continuation of this narrative Abd al-Rahman ibn Awf is named with Uthman. The Sad named there, however, is Sad ibn Abi Waqqas with Ammar; the reader does not find here an account of Abd al-Rahman’s brotherhood with Sad ibn al-Rabi or their conversation. That story is left aside until the text that actually relates it is opened, rather than filling the gap with something absent from this text."
+      "source_text_sha256": "7d7821d32444549b6869a002ee853783614f79df32a838a4a8d1e1994d51ee1f",
+      "text": "In the continuation of this narrative Abd al-Rahman ibn Awf is named with Uthman. The Sad named there, however, is Sad ibn Abi Waqqas with Ammar. This account does not include a pairing of Abd al-Rahman with Sad ibn al-Rabi or their conversation."
     },
     {
       "unit_id": "hch_settlement_birth:title_ar",
@@ -73,8 +73,8 @@
     },
     {
       "unit_id": "hch_settlement_birth2:text_ar",
-      "source_text_sha256": "edbd96f2ee905b2bd1a30534407239e2ffeac519546bb1f7b4d4d7cca9f2db97",
-      "text": "Aisha tells the scene in a shorter account, mentioning the date and the Prophet’s ﷺ saliva. Her abridgment is not a different date of birth; what Asma says about Quba remains her own testimony, and we cannot infer a day or month of birth from the order of the sentences."
+      "source_text_sha256": "bcd57af9cbe3713a8d0c5f773ec1b98fb9e0ee2f7ebd0d98bce60cf00ba58749",
+      "text": "Aisha tells the scene in a shorter account, mentioning the date and the Prophet’s ﷺ saliva. Asma places the birth at Quba without naming a day or month; Aisha gives no other date."
     },
     {
       "unit_id": "hch_settlement_fever:title_ar",
@@ -88,28 +88,28 @@
     },
     {
       "unit_id": "hch_settlement_fever2:text_ar",
-      "source_text_sha256": "2421d2074033ae1244c6e52765dcbbdc5d9885427dc6b3f07a002a3056aea9e7",
-      "text": "Aisha brought news of the illness to the Prophet ﷺ, who prayed for love of Medina, its health, blessing in its sa and mudd measures, and the transfer of its fever to al-Juhfa. Sahih Muslim condenses the account to the two men’s complaint and the prayer, while Bukhari has a different wording of the prayer. These varying formulations give us views of the account, not grounds for counting separate fever episodes."
+      "source_text_sha256": "ae1acf6ea8d860752b2ba8a30371e96ea6d95235a8b42b3304f5b2a5f1758c00",
+      "text": "Aisha brought news of the illness to the Prophet ﷺ, who prayed for love of Medina, its health, blessing in its sa and mudd measures, and the transfer of its fever to al-Juhfa. Sahih Muslim condenses the account to the two men’s complaint and the prayer, while Bukhari has a different wording of the prayer."
     },
     {
       "unit_id": "hch_settlement_family_scope:title_ar",
-      "source_text_sha256": "63cd789331e09d0abacbabd7ff2d68ba06c12d1db97ca164c4b23648496a2ba8",
-      "text": "Names of those who arrived and the limits of the narrative"
+      "source_text_sha256": "3b23424d5e365c6dbc1e4697ceae88a8b8a92cc7e78cc6c64b8a6220d7604c08",
+      "text": "Names of those who arrived"
     },
     {
       "unit_id": "hch_settlement_family_scope1:text_ar",
-      "source_text_sha256": "5ae4c490614289334c553bc09475b1694ce7a4fc35e74f6f9df77ee1fd2f667e",
-      "text": "Ibn Hibban’s selected text speaks of a mission to Mecca and Abu Bakr’s family setting out; Ibn Hajar’s citation of Ibn Ishaq gives more names, followed by Ibn Hajar’s comment on the timing of Abd Allah’s birth. Ibn Sad’s report mentions lodging those who arrived in Haritha ibn al-Numan’s house. We treat these as distinct limits of narration, not as one list imposed on every witness."
+      "source_text_sha256": "836da9f8af3fcae070c5155915e81558673b96e67f7aa832998318afe92d15d5",
+      "text": "Ibn Hibban’s account speaks of a mission to Mecca and Abu Bakr’s family setting out; Ibn Hajar’s citation of Ibn Ishaq gives more names, followed by Ibn Hajar’s comment on the timing of Abd Allah’s birth. Ibn Sad’s report mentions lodging those who arrived in Haritha ibn al-Numan’s house."
     },
     {
       "unit_id": "hch_settlement_family_scope2:text_ar",
-      "source_text_sha256": "52459ae51a5384d93944c5ae15e21b5dd0eab7a27f58d77595320d94d9d6a4e1",
-      "text": "Because this reading concerns what followed the arrival, the accounts of the families, brotherhood, the newborn and the fever are placed after the mosque chapter. That is the order of the chapter, not a dating of all the events. Ibn Hajar reports that some family members arrived while the Prophet ﷺ was building his mosque; that does not establish that every incident here occurred after the building was finished."
+      "source_text_sha256": "76b2e735e2bad2c0811d30c99c2df2adcb9000ccf05c57c9761e7147853b533c",
+      "text": "Ibn Hajar reports that some relatives arrived while the Prophet ﷺ was building his mosque. Ibn Hibban's narrative says that the Prophet ﷺ stayed with Abu Ayyub until the mosque was finished."
     },
     {
       "unit_id": "hch_settlement_dates:title_ar",
-      "source_text_sha256": "1fe4a44b5d411f852235acb4c93616bd05ac7f117785d1def4e444acebf67e53",
-      "text": "What does Asma’s account establish?"
+      "source_text_sha256": "ed17507e1ab83f9d94ec29aff23368df5e5b787c4e4e1cb21fa555c321a41bbb",
+      "text": "The birth of Abd Allah and its disputed dating"
     },
     {
       "unit_id": "hch_settlement_dates1:text_ar",
@@ -118,8 +118,8 @@
     },
     {
       "unit_id": "hch_settlement_dates2:text_ar",
-      "source_text_sha256": "0f37cf363b3d9eb70164695815bc1b81ea09dcae27910536ad58899fa94d4e8d",
-      "text": "Ibn Hajar favors the first year, disagreeing with the dating to the second year, after twenty months, attributed to al-Waqidi; he then objects to such a long interval, citing the migration of Abu Bakr’s household. This is a commentator’s preference and a discussion of different reports, not a calendar date spoken in Asma’s hadith. He limits the sense in which the child is called the “first” to the migrants in Medina, and mentions other names outside that scope."
+      "source_text_sha256": "bc1b1207e419a94144cab3e7e573c317a37d28c945d041672c81d269685712cc",
+      "text": "Ibn Hajar favors the first year, disagreeing with the dating to the second year, after twenty months, attributed to al-Waqidi; he then objects to such a long interval, citing the migration of Abu Bakr’s household. He limits the sense in which the child is called the “first” to the migrants in Medina, and mentions other names outside that scope."
     },
     {
       "unit_id": "hch_settlement_voices:title_ar",
@@ -168,8 +168,8 @@
     },
     {
       "unit_id": "hch_settlement_read_brotherhood:title_ar",
-      "source_text_sha256": "bbda4a59f78eec163470f971ad021933abfdb970384735ec7feb0727dd00d627",
-      "text": "Ibn Hibban’s narrative of brotherhood and its limits"
+      "source_text_sha256": "08d4ab6c459c0dff70beea52566d2797f480e9acd465a5674983a463fdd2c620",
+      "text": "Ibn Hibban’s narrative of brotherhood"
     },
     {
       "unit_id": "hch_settlement_read_asma:title_ar",
@@ -3975,12 +3975,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "bb99a7991c6420ac9f90fc2fbbaf2902a61b7d2f9539a51a6cec94836502b2a8",
+  "translation_sha256": "37fc2911d0e7857f4a351362fced68f49e65252ab112484d64ecd7a508760961",
   "review": {
-    "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-    "translation_sha256": "bb99a7991c6420ac9f90fc2fbbaf2902a61b7d2f9539a51a6cec94836502b2a8",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 226da4ba-bb9a-4d8d-98e4-17059f757daf across 787 Arabic/target units. Independently compared every one of 787 Arabic–English inventory units in all 28 complete bounded chunks in round 3, including teaching representations, objectives, outlines, ten questions and correct-answer meanings, options, explanations and feedback, repeated source metadata and citation URLs, full selected source texts, named chains, Quran quotations, poetry and commentary. The previously reported misattribution of Sawda as Zayd’s wife and the ambiguity about whose mouth received the date in Ibn Hajar’s commentary are corrected. No further actionable meaning, omission, language or answer issue was found in this supplied Arabic–English comparison. This is not scholarly collation, historical authentication, independent language or specialist approval, or authorization for publication. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

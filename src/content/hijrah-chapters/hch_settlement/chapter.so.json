@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_settlement",
-  "revision": 1,
+  "revision": 2,
   "locale": "so",
-  "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-  "arabic_payload_sha256": "aea9e58189b49b74bb4a481a4b2ff3929ef167e3e5c27cc8f7af60a180ccc2f3",
-  "status": "translation_ready",
+  "arabic_sha256": "80c19ce1af5a2a1f7fa80fe88665a540f4318f41d3863db5d7694e98f51f435c",
+  "arabic_payload_sha256": "0a946402c38ad782effe9e40bdb3546f8c21e50ac42325e21de13e47606292d1",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_settlement:title_ar",
@@ -18,13 +18,13 @@
     },
     {
       "unit_id": "hch_settlement_overview1:text_ar",
-      "source_text_sha256": "e36eae2365887f6b61c12ab29e69cdd29312aecafb7e17c315c4a5c0904db3b5",
-      "text": "Imaanshihii ka dib hijradu waxay yeelatay wajiyo kale: muhaajiriin ayaa Madiina ku soo biiray, ehel qaarkoodna goor dambe ayay yimaadeen, Asmaana waxay ka warrantay dhalashadii wiilkeeda ee Qubaa. Warka Caa'isha wuxuu xusaa xanuunkii Abuu Bakar iyo Bilaal iyo ducadii Nabiga ﷺ ee Madiina. Muuqaalladan waxaan u akhrinaynaa iyagoo is barbar yaal, annagoo aan ku khasbayn taariikh qudha."
+      "source_text_sha256": "9e05ac626ff537039d89de5912f6c828cfb9be05cd60c4f0cf996a00c4ac79d9",
+      "text": "Imaanshihii ka dib hijradu waxay yeelatay wajiyo kale: muhaajiriin ayaa Madiina ku soo biiray, ehel qaarkoodna goor dambe ayay yimaadeen, Asmaana waxay ka warrantay dhalashadii wiilkeeda ee Qubaa. Warka Caa'isha wuxuu xusaa xanuunkii Abuu Bakar iyo Bilaal iyo ducadii Nabiga ﷺ ee Madiina."
     },
     {
       "unit_id": "hch_settlement_overview2:text_ar",
-      "source_text_sha256": "d5ffbaaf1c8ce6264d79da2dec35bec4fbab794e2cab50383c945b6a5abe68dd",
-      "text": "Sheekada Ibnu Xibbaan, warka Asmaa iyo sharaxaadaha Ibnu Xajar way ku kala duwan yihiin cidda hadlaysa iyo heerka faahfaahinta: mid kastaa wixii uu xambaarsan yahay ayuu sheegayaa; sharaxaad iyo qoraal hoose midna looma rogo maragga qofkii dhacdada joogay."
+      "source_text_sha256": "5891d3f6b41bae4e97632bc2e37337e95758eedd790b3baf0214550d1a32120b",
+      "text": "Ibnu Xibbaan wuxuu ka warramaa walaalaynta; Asmaa waxay ka warramaysaa dhalashada wiilkeeda ee Qubaa. Ibnu Xajar wuxuu doorbidaa sannadkii koowaad dhalashadiisa, halka qoraalka hoose ee daabacaadda Muslim uu sharxayo in Madiina lagu tilmaamay meel cudur leh, kana soo xiganayo hadallo ku saabsan Juxfa."
     },
     {
       "unit_id": "hch_settlement_arrivals:title_ar",
@@ -33,18 +33,18 @@
     },
     {
       "unit_id": "hch_settlement_arrivals1:text_ar",
-      "source_text_sha256": "262e605d7c25224d7869a39a850055f54daaa75767a7ca17df4e7b24e2858286",
-      "text": "Imaanshuhu ma soo afjarin hijrada. Ibnu Isxaaq wuxuu weriyaa in muhaajiriintu is daba joogeen, isagoo hadalkiisa ku saabsan kuwii Maka ku haray ka reebaya kuwii diintooda loo fitneeyay iyo kuwii la xidhay. Warkiisa waxaa ku jira guryo la xidhay markii ehelkoodii ka tageen, mana aha sawir ku khasbaya muhaajir kasta inuu ehelkiisa iyo hantidiisa la baxay."
+      "source_text_sha256": "d6ec845ff1e99961c9b5c202cea5a034e810ab581db0ee8a94e58dbd82f26a1b",
+      "text": "Imaanshuhu ma soo afjarin hijrada. Ibnu Isxaaq wuxuu weriyaa in muhaajiriintu is daba joogeen, isagoo hadalkiisa ku saabsan kuwii Maka ku haray ka reebaya kuwii diintooda loo fitneeyay iyo kuwii la xidhay. Warkiisa waxaa ku jira guryo la xidhay markii ehelkoodii ka tageen."
     },
     {
       "unit_id": "hch_settlement_arrivals2:text_ar",
-      "source_text_sha256": "258caab796940fe4e28e5e1522826535506d7bb30b63141fed3e6f53c2a67f90",
-      "text": "Dabadeed waxaa imanaya warka ehel Maka ka yimid. Ibnu Xibbaan wuxuu weriyaa in Zayd bin Xaaritha iyo Abuu Raafic loo diray inay keenaan Sawda iyo gabdhihii Nabiga ﷺ; Abuu Bakarna uu Cabdullaahi bin Urayqid u diray wiilkiisa Cabdullaahi si uu ula yimaado ehelkiisa. Warkani waa safar kale oo qoysasku galeen imaanshihii ka dib; ma tilmaamayo in sadar keliya magacyada dhammaan kuwii yimid laga wada ogaanayo."
+      "source_text_sha256": "0c469a9790c5960476b434c6f659ca942acad2f4202ed9bdd6605ec55582a88c",
+      "text": "Dabadeed waxaa imanaya warka ehel Maka ka yimid. Ibnu Xibbaan wuxuu weriyaa in Zayd bin Xaaritha iyo Abuu Raafic loo diray inay keenaan Sawda iyo gabdhihii Nabiga ﷺ; Abuu Bakarna uu Cabdullaahi bin Urayqid u diray wiilkiisa Cabdullaahi si uu ula yimaado ehelkiisa."
     },
     {
       "unit_id": "hch_settlement_arrivals3:text_ar",
-      "source_text_sha256": "9d96820ab004ce7a18fe76b2060a693b1a1714de64cc8b54bf993be7ec756195",
-      "text": "Ibnu Xajar oo Ibnu Isxaaq ka soo xiganaya wuxuu ku daraa magacyada dadkii la yimid reerka Nabiga ﷺ iyo reerkii Abuu Bakar. Dabadeed wuxuu xusaa in Ruqayya ay Cuthmaan la hormartay, Zaynabna dib u dhacday. Warka Ibnu Sacd, Nabigu ﷺ wuxuu Zayd iyo Abuu Raafic ka diray guriga Abuu Ayyuub ilaa Maka; waxay la soo noqdeen qayb ehelkiisa ka mid ah. Faahfaahinta qoraaladan midna looma rogo liis uu Ibnu Xibbaan si cad u sheegay markuu yiri 'gabdhihiisa'."
+      "source_text_sha256": "01e1109eaa7ad30f3c3abac3303de2aa7b45dc0ff518162b964c0569c71d4690",
+      "text": "Ibnu Xajar oo Ibnu Isxaaq ka soo xiganaya wuxuu ku daraa magacyada dadkii la yimid reerka Nabiga ﷺ iyo reerkii Abuu Bakar. Dabadeed wuxuu xusaa in Ruqayya ay Cuthmaan la hormartay, Zaynabna dib u dhacday. Warka Ibnu Sacd, Nabigu ﷺ wuxuu Zayd iyo Abuu Raafic ka diray guriga Abuu Ayyuub ilaa Maka; waxay la soo noqdeen qayb ehelkiisa ka mid ah."
     },
     {
       "unit_id": "hch_settlement_brotherhood:title_ar",
@@ -53,13 +53,13 @@
     },
     {
       "unit_id": "hch_settlement_brotherhood1:text_ar",
-      "source_text_sha256": "9d5acffae4cf8c98c2d4a29acca6a99cd517a335e7b95c911dd5385e81bb46b4",
-      "text": "Imaanshaha ehelka agtiisa, sheekada Ibnu Xibbaan waxaa ku jira warka walaalaynta: waxaa ka horreeya isu keenidda dadkii loo yeedhay, waxaa ku xiga hadal loo nisbeeyay Nabiga ﷺ iyo magacyada dadkii uu walaaleeyay. Waa werin dheer oo xuduudaha bogaggeedu halkan kala gooyaan; qoraaguna halkan uguma keenin silsilad cusub oo werineed. Sidaas darteed hadallada iyo magacyada dadka ku jira sidooda ayaa loo akhriyaa, ee looma qaato go'aan guud oo ku saabsan walaalayn kasta."
+      "source_text_sha256": "6848b5fd1dc490047703514c993f2944d408f43154263020704ade9f8e397863",
+      "text": "Imaanshaha ehelka agtiisa, sheekada Ibnu Xibbaan waxaa ku jira warka walaalaynta: waxaa ka horreeya isu keenidda dadkii loo yeedhay, waxaa ku xiga hadal loo nisbeeyay Nabiga ﷺ iyo magacyada dadkii uu walaaleeyay. Ibnu Xibbaan meeshan warbixintan isnad cusub uma soo bandhigo."
     },
     {
       "unit_id": "hch_settlement_brotherhood2:text_ar",
-      "source_text_sha256": "f3288265b7806ce9cd0f447abbb1de2ef5b7a39d7a75acbe9aceb29a469b204d",
-      "text": "Qaybta dambe ee sheekadan, Cabdiraxmaan bin Cawf waxaa lagu xusaa Cuthmaan la jirkiisa. Sacd-ka halkan ku jirase waa Sacd bin Abuu Waqqaas oo lala walaaleeyay Cammaar; akhristuhu halkan kama helayo warka walaalaynta Cabdiraxmaan iyo Sacd bin Ar-Rabiic ama sheekadooda wada hadalka. Sheekadaas waxaa loo daayaa inta laga helayo qoraalkii werinayay, halkii farqiga lagu buuxin lahaa wax aan qoraalkan ku jirin."
+      "source_text_sha256": "7d7821d32444549b6869a002ee853783614f79df32a838a4a8d1e1994d51ee1f",
+      "text": "Qaybta dambe ee sheekadan, Cabdiraxmaan bin Cawf waxaa lagu xusaa Cuthmaan la jirkiisa. Sacd-ka halkan ku jirase waa Sacd bin Abuu Waqqaas oo lala walaaleeyay Cammaar. Sheekadan ma xusto walaalaynta Cabdiraxmaan iyo Sacd bin Ar-Rabiic ama wada hadalkooda."
     },
     {
       "unit_id": "hch_settlement_birth:title_ar",
@@ -73,8 +73,8 @@
     },
     {
       "unit_id": "hch_settlement_birth2:text_ar",
-      "source_text_sha256": "edbd96f2ee905b2bd1a30534407239e2ffeac519546bb1f7b4d4d7cca9f2db97",
-      "text": "Caa'isha waxay dhacdada ku sheegtaa war ka gaaban, iyadoo xusaysa timirta iyo candhuuftii Nabiga ﷺ. Soo koobiddeedu ma aha taariikh dhalasho oo kale; hadalka Asmaa ee Qubaa iyada ayaa leh, mana ka soo saarayno kala horreynta jumladaha maalin ama bil dhalasho."
+      "source_text_sha256": "bcd57af9cbe3713a8d0c5f773ec1b98fb9e0ee2f7ebd0d98bce60cf00ba58749",
+      "text": "Caa'isha waxay dhacdada ku sheegtaa war ka gaaban, iyadoo xusaysa timirta iyo candhuuftii Nabiga ﷺ. Asmaa waxay Qubaa ku sheegtaa goobta dhalashada iyada oo aan sheegin maalin ama bil; Caa'isha taariikh kale ma bixiso."
     },
     {
       "unit_id": "hch_settlement_fever:title_ar",
@@ -88,28 +88,28 @@
     },
     {
       "unit_id": "hch_settlement_fever2:text_ar",
-      "source_text_sha256": "2421d2074033ae1244c6e52765dcbbdc5d9885427dc6b3f07a002a3056aea9e7",
-      "text": "Caa'isha warka xanuunka ayay u geysay Nabiga ﷺ, wuxuuna Alle ka baryay in Madiina la jeclaado oo caafimaad qabto, in saacdeeda iyo muddeeda la barakeeyo, qandhadeedana loo wareejiyo Al-Juxfa. Saxiix Muslim warka wuxuu ku soo koobaa xanuunka labada nin iyo ducada; Bukhaarina wuxuu keenayaa qaab kale oo ducada ah. Kala duwanaanshaha erayadu waa dariiqooyin warka loo arko, mana farayo in dhacdooyin qandho oo kala gooni ah la tiriyo."
+      "source_text_sha256": "ae1acf6ea8d860752b2ba8a30371e96ea6d95235a8b42b3304f5b2a5f1758c00",
+      "text": "Caa'isha warka xanuunka ayay u geysay Nabiga ﷺ, wuxuuna Alle ka baryay in Madiina la jeclaado oo caafimaad qabto, in saacdeeda iyo muddeeda la barakeeyo, qandhadeedana loo wareejiyo Al-Juxfa. Saxiix Muslim warka wuxuu ku soo koobaa xanuunka labada nin iyo ducada; Bukhaarina wuxuu keenayaa qaab kale oo ducada ah."
     },
     {
       "unit_id": "hch_settlement_family_scope:title_ar",
-      "source_text_sha256": "63cd789331e09d0abacbabd7ff2d68ba06c12d1db97ca164c4b23648496a2ba8",
-      "text": "Magacyada dadkii yimid iyo xuduudaha sheekada"
+      "source_text_sha256": "3b23424d5e365c6dbc1e4697ceae88a8b8a92cc7e78cc6c64b8a6220d7604c08",
+      "text": "Magacyada dadkii yimid"
     },
     {
       "unit_id": "hch_settlement_family_scope1:text_ar",
-      "source_text_sha256": "5ae4c490614289334c553bc09475b1694ce7a4fc35e74f6f9df77ee1fd2f667e",
-      "text": "Qoraalka la doortay ee Ibnu Xibbaan wuxuu sheegayaa diritaan Maka loo diray iyo bixitaankii reerka Abuu Bakar; xigashada Ibnu Xajar ee Ibnu Isxaaq waxay leedahay magacyo dheeraad ah iyo faallo uu Ibnu Xajar ka bixiyay waqtigii dhalashada Cabdullaahi. Werinta Ibnu Sacd waxay sheegtaa in kuwii yimid la dejiyay guriga Xaaritha bin An-Nucmaan. Waxaan u aragnaa xuduudo sheeko oo kala duwan, ee ma aha hal liis oo marag kasta lagu khasbayo."
+      "source_text_sha256": "836da9f8af3fcae070c5155915e81558673b96e67f7aa832998318afe92d15d5",
+      "text": "Sheekada Ibnu Xibbaan wuxuu sheegayaa diritaan Maka loo diray iyo bixitaankii reerka Abuu Bakar; xigashada Ibnu Xajar ee Ibnu Isxaaq waxay leedahay magacyo dheeraad ah iyo faallo uu Ibnu Xajar ka bixiyay waqtigii dhalashada Cabdullaahi. Werinta Ibnu Sacd waxay sheegtaa in kuwii yimid la dejiyay guriga Xaaritha bin An-Nucmaan."
     },
     {
       "unit_id": "hch_settlement_family_scope2:text_ar",
-      "source_text_sha256": "52459ae51a5384d93944c5ae15e21b5dd0eab7a27f58d77595320d94d9d6a4e1",
-      "text": "Maadaama tani tahay akhris ku saabsan wixii imaanshaha ka dambeeyay, sheekooyinka qoysaska, walaalaynta, ilmaha dhashay iyo qandhada waxaan dhignay cutubka masaajidka dabadii. Waa habaynta cutubka, ma aha taariikh loo dejiyay dhammaan dhacdooyinka. Ibnu Xajar wuxuu sheegaa in ehel qaarkood yimaadeen isagoo Nabigu ﷺ dhisaya masaajidkiisa; taasi ma caddaynayso in dhacdo kasta oo halkan ku jirtaa ka dambaysay dhammaadka dhismaha."
+      "source_text_sha256": "76b2e735e2bad2c0811d30c99c2df2adcb9000ccf05c57c9761e7147853b533c",
+      "text": "Ibnu Xajar wuxuu sheegaa in ehel qaarkood yimaadeen isagoo Nabigu ﷺ dhisaya masaajidkiisa. Sheekada Ibnu Xibbaan waxay sheegaysaa in Nabigu ﷺ la joogay Abuu Ayyuub ilaa masaajidka laga dhammaystiray."
     },
     {
       "unit_id": "hch_settlement_dates:title_ar",
-      "source_text_sha256": "1fe4a44b5d411f852235acb4c93616bd05ac7f117785d1def4e444acebf67e53",
-      "text": "Muxuu warka Asmaa caddaynayaa?"
+      "source_text_sha256": "ed17507e1ab83f9d94ec29aff23368df5e5b787c4e4e1cb21fa555c321a41bbb",
+      "text": "Dhalashada Cabdullaahi iyo kala duwanaanta taariikhdeeda"
     },
     {
       "unit_id": "hch_settlement_dates1:text_ar",
@@ -118,8 +118,8 @@
     },
     {
       "unit_id": "hch_settlement_dates2:text_ar",
-      "source_text_sha256": "0f37cf363b3d9eb70164695815bc1b81ea09dcae27910536ad58899fa94d4e8d",
-      "text": "Ibnu Xajar wuxuu doorbidayaa sannadkii koowaad, isagoo ka soo horjeeda go'aaminta sannadka labaad oo labaatan bilood dabadeed ah ee Al-Waaqidi laga soo xigtay. Dabadeed wuxuu ku doodayaa in muddadaasi aad u dheer tahay, isagoo daliil ka dhigaya hijradii reerka Abuu Bakar. Taasi waa doorashada sharaxe iyo dood ku saabsan warar kala duwan, ma aha taariikh maalin oo Asmaa xadiiskeeda ku sheegtay. Macnaha 'ugu horreeyay' ee ilmaha lagu sifeeyayna wuxuu ku koobayaa muhaajiriintii Madiina, isagoo xusaya magacyo kale oo aan qaybtaas ku jirin."
+      "source_text_sha256": "bc1b1207e419a94144cab3e7e573c317a37d28c945d041672c81d269685712cc",
+      "text": "Ibnu Xajar wuxuu doorbidayaa sannadkii koowaad, isagoo ka soo horjeeda go'aaminta sannadka labaad oo labaatan bilood dabadeed ah ee Al-Waaqidi laga soo xigtay. Dabadeed wuxuu ku doodayaa in muddadaasi aad u dheer tahay, isagoo daliil ka dhigaya hijradii reerka Abuu Bakar. Macnaha 'ugu horreeyay' ee ilmaha lagu sifeeyayna wuxuu ku koobayaa muhaajiriintii Madiina, isagoo xusaya magacyo kale oo aan qaybtaas ku jirin."
     },
     {
       "unit_id": "hch_settlement_voices:title_ar",
@@ -168,8 +168,8 @@
     },
     {
       "unit_id": "hch_settlement_read_brotherhood:title_ar",
-      "source_text_sha256": "bbda4a59f78eec163470f971ad021933abfdb970384735ec7feb0727dd00d627",
-      "text": "Sheekada walaalaynta ee Ibnu Xibbaan iyo xuduudaheeda"
+      "source_text_sha256": "08d4ab6c459c0dff70beea52566d2797f480e9acd465a5674983a463fdd2c620",
+      "text": "Sheekada walaalaynta ee Ibnu Xibbaan"
     },
     {
       "unit_id": "hch_settlement_read_asma:title_ar",
@@ -3975,12 +3975,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "28494df7249430afcf07b55b1e439d3ce7ec81701794178dbd39cc147bca95d5",
+  "translation_sha256": "a25784d40e640c4d8ed02de6575eee4d5815f34c60bc332ab85e368aeddd8e11",
   "review": {
-    "arabic_sha256": "b5d075aae94135810630b56b0a689eaa29432bca98dd0e28f366f3e32ce8cb57",
-    "translation_sha256": "28494df7249430afcf07b55b1e439d3ce7ec81701794178dbd39cc147bca95d5",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 3544653d-6506-4256-8c42-ce06c008f47a across 787 Arabic/target units. Compared every one of the 787 Arabic–Somali inventory units in all 28 complete bounded chunks, including teaching representations, objectives, questions and answer/feedback meanings, metadata, citation URLs, and all selected source texts, with the Arabic watchlist as an additional check. The previously identified palate/cheek discrepancy is corrected in this bound draft; no further actionable semantic discrepancy was identified in this comparison. This does not constitute scholarly source collation, independent language approval, specialist approval, or authorization for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_quba",
-  "revision": 1,
+  "revision": 2,
   "locale": "id",
-  "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-  "arabic_payload_sha256": "ca01465899d46eb70e5492170e76b8d3a8dd971b8777dc508ac5ab07c53f440d",
-  "status": "translation_ready",
+  "arabic_sha256": "1624b3405bdb7416da9645d37221abca244c79d97e4663e294d67d7aabd3e3ec",
+  "arabic_payload_sha256": "e5fe029e6bc1f126bc2a3faea9498dcf2c55cb6c46cc804a00dd6245810b86c6",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_quba:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_quba:reader_question_ar",
-      "source_text_sha256": "811449a5baa9554d7512abd00c0eef4a8c6c4355ccbe622266527d97b8d0ffd1",
-      "text": "Bagaimana penantian berubah menjadi perjumpaan, dan apa yang kita ketahui maupun belum dapat pastikan tentang hari-hari di Quba?"
+      "source_text_sha256": "d4e27e050f739504bf8d31dbf36688a3d3cd8c9e7fa15ccf7bec27ff61c52cca",
+      "text": "Bagaimana orang-orang yang menunggu di Quba mengenali Nabi ﷺ di antara rombongan yang tiba, di rumah siapa beliau singgah, dan berapa lama beliau tinggal menurut riwayat-riwayat?"
     },
     {
       "unit_id": "hch_quba_p01:text_ar",
-      "source_text_sha256": "ab8d6f8b372b958761ac549a5168640aa5243011c6a76222a67570f311e46442",
-      "text": "Dari penantian orang-orang di tepi tanah berbatu hitam, hingga mereka mengenali Nabi ﷺ di antara para pendatang, lalu singgah di tengah Bani Amr bin Auf, Quba menjadi gerbang menuju Madinah. Kita akan mengikuti riwayat tentang pertemuan, tempat tinggal, masjid, dan keberangkatan, sambil mencermati perbedaan riwayat mengenai lamanya beliau tinggal."
+      "source_text_sha256": "9f0a0f7be5389f8bc2de4c76bd3574461089387bee22a18280a51cabb24fc6b0",
+      "text": "Dari penantian orang-orang di tepi tanah berbatu hitam, hingga mereka mengenali Nabi ﷺ di antara para pendatang, lalu singgah di tengah Bani Amr bin Auf, Quba menjadi gerbang menuju Madinah."
     },
     {
       "unit_id": "hch_quba_wait:title_ar",
@@ -93,8 +93,8 @@
     },
     {
       "unit_id": "hch_quba_p11:text_ar",
-      "source_text_sha256": "9f5cab83f0e1a3691cbbd01c4338e1f4705826d4183f31ac38253208fcf8438c",
-      "text": "Bagi yang ingin menelaah waktu kedatangan: Ibnu Hajar mengemukakan riwayat-riwayat yang menempatkan kedatangan pada awal Rabiulawal atau beberapa hari sesudahnya dengan selisih yang beragam, lalu mengajukan beberapa cara untuk mendamaikannya, antara lain perbedaan dalam melihat hilal. Di tempat lain, ia mengandaikan bahwa sebagian orang yang menyebut masa tinggal singkat tidak menghitung hari kedatangan atau keberangkatan. Ini adalah upaya pensyarah memahami perbedaan tanggal, bukan tanggal baru yang pasti untuk ditambahkan pada redaksi Urwah atau hitungan Ibnu Ishaq."
+      "source_text_sha256": "497ad14324bee2e203442215a00fcd1a62d0977dcf093750ff709de9f13a1ef6",
+      "text": "Ibnu Hajar mengemukakan riwayat-riwayat yang menempatkan kedatangan pada awal Rabiulawal atau beberapa hari sesudahnya dengan selisih yang beragam, lalu mengajukan beberapa cara untuk mendamaikannya, antara lain perbedaan dalam melihat hilal. Di tempat lain, ia mengandaikan bahwa sebagian orang yang menyebut masa tinggal singkat tidak menghitung hari kedatangan atau keberangkatan."
     },
     {
       "unit_id": "hch_quba_p12:text_ar",
@@ -108,13 +108,13 @@
     },
     {
       "unit_id": "hch_quba_p13:text_ar",
-      "source_text_sha256": "5942ab839486544b54d84f61dd78c6d3859e4c3000f98c3282d68dcb7fe41878",
-      "text": "Kalimat Ibnu Hajar mengenai masjid yang didirikan atas dasar takwa bermula sebelum pergantian halaman, lalu berlanjut sesudahnya dengan penjelasannya bahwa yang dimaksud adalah Masjid Quba. Ia mengutip ayat dan pendapat mayoritas yang memahaminya sebagai Quba, kemudian menukil jawaban Nabi yang diriwayatkan menunjuk Masjid Nabi ﷺ, serta riwayat lain yang menyebut keutamaan Quba sekaligus penunjukan tersebut. Ayat yang dikutip, jawaban Nabi sebagaimana diriwayatkan pensyarah, dan tafsir pensyarah sendiri merupakan suara yang berbeda."
+      "source_text_sha256": "e937df932fe1d910905c6d882bf6d8476ef1539321c53bdedf76a33e0b3deb19",
+      "text": "Ibnu Hajar mengutip ayat dan pendapat mayoritas yang memahaminya sebagai Quba, kemudian menukil jawaban Nabi yang diriwayatkan menunjuk Masjid Nabi ﷺ, serta riwayat lain yang menyebut keutamaan Quba sekaligus penunjukan tersebut."
     },
     {
       "unit_id": "hch_quba_p14:text_ar",
-      "source_text_sha256": "992a347f1c01691d6c05150de3319ee668a39f110691d17f152cea7a3a80a96e",
-      "text": "Ibnu Hajar menukil penjelasan al-Qurthubi mengenai kemungkinan mengapa jawaban itu secara khusus menunjuk Masjid Nabi ﷺ, kemudian ia sendiri mengajukan penjelasan lain dan mengatakan bahwa kedua masjid didirikan atas dasar takwa. Saat menukil riwayat Abu Hurairah, ucapan Nabi ﷺ muncul sebelum kutipan ayat dan berlanjut setelahnya mengenai penduduk Quba; bagian sesudah itu adalah penafsiran Ibnu Hajar. Ia lalu menyebut pandangan al-Dawudi dan al-Suhaili tentang cara mendamaikan riwayat-riwayat itu. Tafsir pensyarah mana pun di sini tidak berubah menjadi sabda Nabi yang baru ataupun keputusan yang dikeluarkan bab ini."
+      "source_text_sha256": "631c2afc927dadc59fd769fab6977db84be160d9172f0a56565ca2b1f2461f22",
+      "text": "Ibnu Hajar menukil penjelasan al-Qurthubi mengenai kemungkinan mengapa jawaban itu secara khusus menunjuk Masjid Nabi ﷺ, kemudian ia sendiri mengajukan penjelasan lain dan mengatakan bahwa kedua masjid didirikan atas dasar takwa. Ibnu Hajar juga menukil dari Abu Dawud riwayat Abu Hurairah dari Nabi ﷺ bahwa ayat Al-Quran tentang orang-orang yang mencintai kesucian turun mengenai penduduk Quba. Ibnu Hajar menafsirkan jawaban yang menunjuk Masjid Nabi ﷺ sebagai penjelasan bahwa pendirian atas dasar takwa bukan hanya milik Masjid Quba; ia juga menukil pandangan al-Dawudi dan al-Suhaili bahwa kedua masjid didirikan atas dasar takwa."
     },
     {
       "unit_id": "hch_quba_outline_wait:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "9fc0ffdcfbfbca16304c7ae56cffe59ffc06d9930acd5945f5bda7d2a10e7de8",
+  "translation_sha256": "f3d4dc90f307e4faad85f0cd42c4b66be4ae91c183cb06a5f426767cc100a130",
   "review": {
-    "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-    "translation_sha256": "9fc0ffdcfbfbca16304c7ae56cffe59ffc06d9930acd5945f5bda7d2a10e7de8",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 0bb7cdc4-4cf9-4739-a33d-bff9f05a8593 across 381 Arabic/target units. Independently compared the complete 381 paired Arabic/Indonesian inventory units, reading every output in chunks 0–16: teaching prose, objectives and outlines, all questions with options/answers/explanations/scope/feedback, repeated metadata and citation URLs, and full selected source passages including chains, Qur’an, poetry and distinct commentator/Prophet voices. The previously identified walking subject and recognition-shadow ambiguities have been corrected in this bound draft. No further actionable semantic or language discrepancy found. All five readings use full translated source text and there are no deferred questions. Limited to the supplied Arabic authority and selected excerpts: no collation against complete works, independent language or specialist approval, or publication authorization. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

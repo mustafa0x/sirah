@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_madinah_arrival",
-  "revision": 1,
+  "revision": 2,
   "locale": "nl",
-  "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-  "arabic_payload_sha256": "2c4db980e433dbb9f819370ee2577669a7036d49f4c4648f5dad4128dd57bc54",
-  "status": "translation_ready",
+  "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+  "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -13,8 +13,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival:reader_question_ar",
-      "source_text_sha256": "4dc5fb16bc0ee37ada9dbf59b8e8ad38cf8d4f0c7e1a3c513b57b2d9822dd754",
-      "text": "Hoe leidde de ontvangst van de Profeet ﷺ tot zijn verblijf als gast in het huis van Abu Ayyub, en op welke punten verschillen de overleveringen over dat huis?"
+      "source_text_sha256": "6fbe777be9bd9eb6eb7664a675fdba3d66f4d79d097c82b02d175a4052faefb6",
+      "text": "Hoe ontvingen de inwoners van Medina de Profeet ﷺ voordat hij bij Abu Ayyub verbleef, en waarin verschillen de berichten van Ibn Ishaq en Aflah over de verdiepingen?"
     },
     {
       "unit_id": "hch_madinah_arrival_overview1:text_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_overview2:text_ar",
-      "source_text_sha256": "bd46f0c2bc0e60cb3dc2c8b32c1511aa00fd32f65ebc34ff89f21c5d7efb88d3",
-      "text": "Van het erf van Abu Ayyub tot zijn huis ontvouwt zich het verhaal van de gastvrijheid: in het verslag van Ibn Ishaq vertelt Abu Ayyub dat de Profeet ﷺ beneden verbleef, hoe het huishouden handelde toen een waterkruik brak, en hoe zij zijn avondeten verzorgden. Andere versies van dit verslag worden afzonderlijk gelezen in de verdieping."
+      "source_text_sha256": "fcdefd53220926227718589b074a71cb76869a9a6a8fc4f83c5a3b52e32e6bf2",
+      "text": "Van het erf van Abu Ayyub tot zijn huis ontvouwt zich het verhaal van de gastvrijheid: in het verslag van Ibn Ishaq vertelt Abu Ayyub dat de Profeet ﷺ beneden verbleef, hoe het huishouden handelde toen een waterkruik brak, en hoe zij zijn avondeten verzorgden."
     },
     {
       "unit_id": "hch_madinah_arrival_arrival:title_ar",
@@ -108,28 +108,28 @@
     },
     {
       "unit_id": "hch_madinah_arrival_first:text_ar",
-      "source_text_sha256": "d89956d6f2e80fc1b7e39d6c4f8396fb8691098afee218ee7dbd8a660c819818",
-      "text": "Al-Bara beschrijft de vreugde van de mensen na degenen te hebben genoemd die vóór de Profeet ﷺ waren gekomen om hun de Koran te leren lezen. Anas vertelt bij al-Bayhaqi vanuit zijn wachten met de jongens en de ontvangst door de Ansar. Al-Bayhaqi verdeelt het korte bericht van Anas over de dag van de aankomst over twee geselecteerde passages op opeenvolgende pagina's. Het benaderende aantal in zijn langere bericht is dus geen telling van alle inwoners van Medina, en de beschrijving van de dag levert geen precieze datum op."
+      "source_text_sha256": "b9c59c96e73bd9ca131d1a0d8c914adc8e6709a51dbbdb320a4ddaa4c02e0589",
+      "text": "Al-Bara beschrijft de vreugde van de mensen na degenen te hebben genoemd die vóór de Profeet ﷺ waren gekomen om hun de Koran te leren lezen. Anas vertelt bij al-Bayhaqi vanuit zijn wachten met de jongens en de ontvangst door de Ansar. In zijn langere bericht noemt Anas ongeveer vijfhonderd Ansar die de Profeet ﷺ en Abu Bakr ontvingen; in het kortere beschrijft hij de dag van aankomst zonder een dag van de maand te noemen."
     },
     {
       "unit_id": "hch_madinah_arrival_friday:text_ar",
-      "source_text_sha256": "d7ae807a82a35c73ce700718b1f8b56967657dfce806099f9c9a7f126c1b6f69",
-      "text": "Ibn Hajar schrijft het bericht over het vertrek op vrijdag toe aan Ibn Ishaq en Ibn A'idh en haalt in een ander vervolg van al-Hakim aan dat de kameel bij de deur van Abu Ayyub neerknielde; de overlevering van Anas bij al-Bukhari vermeldt daarentegen het bereiken van Abu Ayyubs erf. In het nabijgelegen relaas van Ibn Ishaq wordt vermeld dat de mensen van Quba van mening verschilden over de duur van het verblijf. Deze fragmenten geven ons geen dag van de maand of uitgetekende route; de bouw van de moskee is evenmin een onderdeel van de keuze van een gastheer."
+      "source_text_sha256": "b584e602ef529870ea78c3e50710a8ca1238a877aaa9f60a3616f09fdf14f151",
+      "text": "Ibn Hajar schrijft het bericht over het vertrek op vrijdag toe aan Ibn Ishaq en Ibn A'idh en haalt van al-Hakim aan dat de kameel bij de deur van Abu Ayyub neerknielde; de overlevering van Anas bij al-Bukhari vermeldt daarentegen het bereiken van Abu Ayyubs erf. Ibn Ishaq noemt maandag, dinsdag, woensdag en donderdag als dagen van het verblijf van de Profeet ﷺ in Qubāʾ en vermeldt ook de bewering van Banū ʿAmr ibn ʿAwf dat hij langer bij hen verbleef."
     },
     {
       "unit_id": "hch_madinah_arrival_variants:title_ar",
-      "source_text_sha256": "854168b2cbed56af09ed95b94ece6f65e856f46b76903b077c8961c497ceb1d9",
-      "text": "Twee verdiepingen en een maaltijd: hoe lezen we de verschillen?"
+      "source_text_sha256": "0d15ac13925286c9114c0da81a23c2673d39a0c99824570b6a4547f3772b16f3",
+      "text": "De twee verdiepingen en het eten in Abu Ayyubs huis"
     },
     {
       "unit_id": "hch_madinah_arrival_upstairs:text_ar",
-      "source_text_sha256": "5b3c2933b85962c10a8183ab1f99e9d57b4ec227fbb95275ba0bd9eddea09d71",
-      "text": "Volgens Ibn Ishaq blijven Abu Ayyub en Umm Ayyub boven wanneer hij het verhaal over de gebroken kruik vertelt. In de overleveringslijn via Aflah, van Abu Ayyub, bij Muslim trokken de bewoners boven zich naar één kant terug omdat zij het onaangenaam vonden boven de Profeet ﷺ te lopen; het verslag eindigt ermee dat de Profeet ﷺ naar boven verhuisde en Abu Ayyub naar beneden. Het verhaal over het water komt hier alleen bij Ibn Ishaq voor: het is geen ontbrekende episode die wij aan de lijn via Aflah kunnen toevoegen, en evenmin bewijs voor het tijdstip van de verhuizing tussen beide versies."
+      "source_text_sha256": "c81287a3d14744d1c4c18784ce972b3f8757a344c1c380c0d8626425dff20b84",
+      "text": "Volgens Ibn Ishaq blijven Abu Ayyub en Umm Ayyub boven wanneer hij het verhaal over de gebroken kruik vertelt. In de overleveringslijn via Aflah, van Abu Ayyub, bij Muslim trokken de bewoners boven zich naar één kant terug omdat zij het onaangenaam vonden boven de Profeet ﷺ te lopen; het verslag eindigt ermee dat de Profeet ﷺ naar boven verhuisde en Abu Ayyub naar beneden."
     },
     {
       "unit_id": "hch_madinah_arrival_garlic:text_ar",
-      "source_text_sha256": "917524b8686a9c7b9518b9547cf2868f96de563e1d09b418bc1017513ff4686d",
-      "text": "Het verslag van Ibn Ishaq laat open of het ui of knoflook was en vermeldt het antwoord van de Profeet ﷺ over de geur van de plant en zijn vertrouwelijke gesprekken. In de lijn via Simak bij Muslim wordt zonder die twijfel knoflook genoemd; daar wordt uitgelegd dat de afkeer vanwege de geur was, niet omdat het eten verboden was. De tekst van de lijn via Aflah bij Muslim loopt door over twee fragmenten; in het vervolg antwoordt hij ﷺ: ‘Nee, maar ik heb er een afkeer van.’ De aanvullende overleveringslijn van Yahya ibn Sa'id via Shu'ba noemt de keten zonder de hoofdtekst opnieuw te geven: zij schept geen tweede maaltijd."
+      "source_text_sha256": "61d0cf2e1fa5d65303003674b749c986aabfc9b3e29d5757435ec01951688026",
+      "text": "Het verslag van Ibn Ishaq laat open of het ui of knoflook was en vermeldt het antwoord van de Profeet ﷺ over de geur van de plant en zijn vertrouwelijke gesprekken. In de lijn via Simak bij Muslim wordt zonder die twijfel knoflook genoemd; daar wordt uitgelegd dat de afkeer vanwege de geur was, niet omdat het eten verboden was. In de lijn via Aflah bij Muslim antwoordt hij ﷺ: ‘Nee, maar ik heb er een afkeer van.’ De aanvullende overleveringslijn van Yahya ibn Sa’id via Shu’ba noemt de keten zonder de hoofdtekst opnieuw te geven."
     },
     {
       "unit_id": "hch_madinah_arrival_point_welcome:text_ar",
@@ -143,8 +143,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_point_arrival:text_ar",
-      "source_text_sha256": "f52bdd5378df4ff7d01949127925d802d4b7d37d85af34153f927278f49655a2",
-      "text": "De aankomst op Abu Ayyubs erf en de grenzen van het verslag over de moskee."
+      "source_text_sha256": "481388d4f6bb70134e92a89cc7cad09b903a68c8f8fba58155b3d834929a4d1a",
+      "text": "De aankomst op Abu Ayyubs erf, gevolgd door het gebed en de bouw van de moskee."
     },
     {
       "unit_id": "hch_madinah_arrival_point_home:text_ar",
@@ -2530,12 +2530,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "dc4903b152e6694cdd5906b299811b27d6817f64ca8b1dfa7334e648db2e9125",
+  "translation_sha256": "bd3f1fce178073b3c9155e485a7c1457ef05d90d3d2295518be59a2a2cb45e4d",
   "review": {
-    "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-    "translation_sha256": "dc4903b152e6694cdd5906b299811b27d6817f64ca8b1dfa7334e648db2e9125",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session aa7dcbc9-295f-4d67-b553-643a4687da21 across 494 Arabic/target units. De volledige gebonden Arabische inventaris is rechtstreeks vergeleken met de Nederlandse tweede versie: alle 494 eenheden in de 18 integraal gelezen chunks 0–17, waaronder onderwijsproza, leerdoelen, overzichten, tien vragen met antwoordbetekenissen en feedback, alle 59 volledige bronfragmenten en 295 metadata-eenheden inclusief bronlinks. De eerdere betekenisverschillen in de maaltijdparagraaf en de uitleg van vraag 2 zijn hersteld; geen resterend concreet betekenis-, weglatings-, taal- of antwoordprobleem vastgesteld. Herhaalde metadata zijn waar identiek inhoudelijk gegroepeerd na afzonderlijke inspectie. Dit is geen vergelijking met andere taaledities, geen wetenschappelijke collatie, geen onafhankelijke taal- of specialistische goedkeuring en geen toestemming tot publicatie. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

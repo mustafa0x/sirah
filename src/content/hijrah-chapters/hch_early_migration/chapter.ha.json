@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_early_migration",
-  "revision": 1,
+  "revision": 2,
   "locale": "ha",
-  "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
-  "arabic_payload_sha256": "af2f392f6b20af92126eabcea7cfb0b645f424f1e103781da5425e896b65cf86",
-  "status": "translation_ready",
+  "arabic_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1",
+  "arabic_payload_sha256": "7026fa541f1b09909dd667f9dfd4943d1f8ad94edba11fe6f3624cb462ec7b91",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_early_migration:title_ar",
@@ -88,48 +88,48 @@
     },
     {
       "unit_id": "hch_early_migration_depth_1:text_ar",
-      "source_text_sha256": "a89f5c4f7b11f9acb9d1ff8a946a04c661e304cc752fb3ff6a71d28e316e888f",
-      "text": "Ibn Ishaq ya kayyade Abu Salama a matsayin na farkon masu hijira zuwa Madina daga Banu Makhzum na Quraysh, ya kuma sa fitarsa shekara ɗaya kafin bai'ar mutanen Aqaba. Ibn Kathir ya kawo daga gare shi wata sigar da ta ƙara cewa ya yi niyyar komawa Habasha amma sai ya juya zuwa Madina; kada a narkar da sigogin biyu zuwa magana ɗaya. Shi kuwa al-Bara' ya ce “na farkon waɗanda suka zo mana” ya ambaci Mus'ab da Ibn Umm Maktum; kalmar “mana” tana kayyade mutanen da al-Bara’ ya ce masu hijirar suka zo gare su, don haka ba daidai ba ne a juya ɗaya daga cikin furucin biyu zuwa jerin duniya da zai soke ɗayan."
+      "source_text_sha256": "8e524ceba31b782a258fb9335c6b945afd8b17f886bcb12f6475789f08da0278",
+      "text": "Ibn Ishaq ya kira Abu Salama na farkon masu hijira zuwa Madina daga Banu Makhzum na Quraysh, ya kuma sa fitarsa shekara ɗaya kafin bai'ar mutanen Aqaba. Ibn Kathir ya kawo wata sigar daga gare shi: Abu Salama ya yi niyyar komawa Habasha kafin ya juya zuwa Madina. Al-Bara' ya ambaci Mus'ab da Ibn Umm Maktum a matsayin «na farkon waɗanda suka zo mana»; “mana” na nufin zuwa wajen mutanensa."
     },
     {
       "unit_id": "hch_early_migration_depth_2:text_ar",
-      "source_text_sha256": "5d609b4a92bd768b41a2e3cf02c6840af7663bea04da8135549899fea392d006",
-      "text": "A labarin Musa bn Uqba daga al-Zuhri, mutane sun fita rukuni-rukuni. Labarin ya ce mace matafiya ta farko da ta iso Madina ita ce Umm Salama, ya kuma ambaci cewa wasu mutane sun ce ita ce Umm Abdillah bint Abi Hathma, sannan ya ce: “Allah ne mafi sani.” Ibn Ishaq ya kira matar Amir da suna Layla bint Abi Hathma. Waɗannan lafuzzan tushe biyu ne, ba gasa ba ce da za a warware ta ta hanyar watsi da riwayar Umm Salama cewa an raba ta da Abu Salama a farkon tafiyar."
+      "source_text_sha256": "02102d58fcef862777c8396dda1ae5b9796ca3ec37d889ab9e5b91053ce02fa4",
+      "text": "A labarin Musa ibn Uqba daga al-Zuhri, mutane sun fita rukuni-rukuni. An ambaci Umm Salama a matsayin mace ta farko da ta zo cikin rumfar raƙumi; wasu sun ambaci Umm Abd Allah bint Abi Hathma, labarin kuma ya ƙara “Allah ne mafi sani”. Ibn Ishaq ya kira matar Amir Layla bint Abi Hathma. Umm Salama ta ce iyalansu sun raba ta da mijinta da ɗanta lokacin fita."
     },
     {
       "unit_id": "hch_early_migration_voices:title_ar",
-      "source_text_sha256": "43ab7ffdc925f1dc2e86fd7a5faa5a087ac10fa7e85c37754b2a52823240008b",
-      "text": "Wa ke ba mu labarin?"
+      "source_text_sha256": "5cf6a3649c6734903ad950e25f051d745ea7caa4d8e1571f6c1a11b88006fd53",
+      "text": "Rabuwar Umm Salama da tafiyarta zuwa Quba"
     },
     {
       "unit_id": "hch_early_migration_depth_3:text_ar",
-      "source_text_sha256": "60f786711832eaf3cf6bf2b4716551256c6e06383e84f021d86ad0d2be684951",
-      "text": "Shaidar Umm Salama a cikin isnadin da Ibn Ishaq ya ambata ba bayyana ainihin ranar wani abu ba ne: “shekara ɗaya ko kusan haka” hasashenta ne na tsawon rabuwar. Wani yanki na shaidarta ya fara bayyana mutuncin da Uthman ya nuna mata, yanki na gaba kuma ya ƙarasa labarin har Quba; kada a tsaya karatu a inda shafi ya yanke."
+      "source_text_sha256": "ad75acfcd45677dd9b88bc1a127bd60c3e8ab8de7bf8635ec3e1abfb6d99f9a5",
+      "text": "Umm Salama ta kiyasta lokacin rabuwarta da mijinta da ɗanta da “shekara ɗaya ko kusan haka”. Ta ce Uthman ibn Talha ya taimaka mata a hanya har ta isa Quba."
     },
     {
       "unit_id": "hch_early_migration_depth_4:text_ar",
-      "source_text_sha256": "7bfaa75df4837dcf254234c01e2badc2795f8d09627b633e4ccfb47b61f66aae",
-      "text": "Umar ya ruwaito abin da ya faru da Ayyash; daga baya Ibn Ishaq ya ci gaba da cewa “wani daga iyalin Ayyash ya ba ni wannan labari” game da nuna shi a ɗaure a gaban mutanen Makka. Wannan ƙarin na mai ba da labari ne wanda ba a ambaci sunansa ba, don haka kada a jingina shi a matsayin kalaman Umar. Haka kuma, labarin Suhaib a wajen Ibn Hisham ya zo da “an ba ni labari” da “labari ya iso gare ni”; kada a mai da shi riwayar da aka ji kai tsaye daga Suhaib."
+      "source_text_sha256": "c77bf2123881bb5ffa505d0d14a0e7e5dd43be6d5cb09eb55a7f008361b5c4f8",
+      "text": "Umar ya ba da labarin abin da ya faru da Ayyash; Ibn Ishaq ya kawo labarin nuna shi daure a gaban mutanen Makka daga wani ɗan gidan Ayyash da ba a ambaci sunansa ba. Labarin Suhayb a wajen Ibn Hisham ya zo ta hanyar Abu Uthman al-Nahdi, ba shaidar Suhayb kai tsaye ba."
     },
     {
       "unit_id": "hch_early_migration_variants:title_ar",
-      "source_text_sha256": "c97791d0066a11c1dc09c93e0eeacec72bfff0c296daedfc849a365d5c83d117",
-      "text": "Bambancin hanyoyin riwaya da iyakar haɗa su"
+      "source_text_sha256": "12a4be0ccbcacf8aa273f633772950c2cf4eef8db60a51910ac846d35e6b2992",
+      "text": "Suhayb da Salim: bayanai da suka bambanta a ruwayoyi"
     },
     {
       "unit_id": "hch_early_migration_depth_5:text_ar",
-      "source_text_sha256": "91eedbf27ce24530fcf4e3e54f33ab37b5d0880a34d361d006d64e43131de838",
-      "text": "Wata riwayar Suhaib da Ibn Kathir ya nakalto daga al-Bayhaqi ta ce yana ƙoƙarin fita tare da Annabi ﷺ da Abu Bakr, sai samari suka hana shi; ya ba su tayin ma'aunan zinariya ya kuma nuna musu riguna biyu, sannan ya iso wurin Annabi ﷺ a Quba. Kada a shigar da ma'aunan zinariya da rigunan nan biyu cikin labarin Abu Uthman, wanda ya ambaci bayar da dukiya ba tare da waɗannan bayanai biyu ba; kalmar “cinikin ya ci riba” a ƙarshen wannan hanyar dabam take da “Suhaib ya ci riba” a wancan labarin."
+      "source_text_sha256": "c6a652f51377f75e0249593d0e074ddaeacffde46174f8357ff9b5114345240a",
+      "text": "A wani labarin Suhayb da Ibn Kathir ya kawo daga al-Bayhaqi, yana son fita tare da Annabi ﷺ da Abu Bakr amma matasa suka hana shi. Ya yi tayin ma’aunan zinariya, ya nuna tufafi biyu, sannan ya isa wurin Annabi ﷺ a Quba. A labarin da Abu Uthman ya ji, ya ba da dukiyarsa ba tare da ambaton ma’aunan da tufafin ba. «cinikin ya yi riba» na wannan hanya ta bambanta da «Suhayb ya yi riba» a wancan labari."
     },
     {
       "unit_id": "hch_early_migration_depth_6:text_ar",
-      "source_text_sha256": "970ecbd33a5013f3b7b056d036e89a0cdf3cbd6c6e1291005f452738325e6aa2",
-      "text": "Hanyar labarin Umar a wajen al-Bayhaqi ma ta bi ta Ibn Ishaq daga Nafi' daga Ibn Umar; rubutun kalmar wurin alƙawari da kuma yadda aka furta sunan wurin sun bambanta da riwayar Ibn Hisham, ba wai adadin shaidun Umar ne ya bambanta ba. Kada a ayyana rana ko takamaiman ma'aunin wurin al-Tanadub daga bayanin wurin alƙawarin da aka ba a dangance."
+      "source_text_sha256": "93d6b0e4690088a1556386b6180af521cef3dc85326070fd5023919d1e4f805f",
+      "text": "Labarin Umar a wajen al-Bayhaqi ma ya bi ta Ibn Ishaq daga Nafi' daga Ibn Umar. Rubutun kalmar wurin alƙawari da wasu alamomin furucin sunan wurin sun bambanta da riwayar Ibn Hisham."
     },
     {
       "unit_id": "hch_early_migration_depth_7:text_ar",
-      "source_text_sha256": "8c4b19d8749cd155e4a5dc64f4d305e892707f4508866464c839113a0da96a93",
-      "text": "Ibn Kathir ya nakalto daga Ya'qub bn Sufyan labarin shugabancin Salim a salla a al-Usba, lafazin isnadinsa kuma ya bambanta da sigar al-Bayhaqi; kar a ɗauki kwafin da littafin ya kawo kaɗai a matsayin sabon isnadi. Labarin Ibn Sa'd ya ambaci Quba a matsayin wurin da Salim ya jagoranci salla kafin isowar Annabi ﷺ; wannan ba yana nufin al-Usba sunan Quba ne a kowace riwaya ba, ko jerin masu sallar ɗaya ne."
+      "source_text_sha256": "5b38376a8d10a801303f51a762117d01ad204d4e7eae6b0657bd6172741929e8",
+      "text": "Ibn Kathir ya kawo daga Ya'qub ibn Sufyan labarin Salim yana jagorantar salla a al-Usba; lafazin isnadin ya bambanta da na al-Bayhaqi. Ibn Sa'd ya ambaci Quba a matsayin wurin da Salim ya jagoranci sallar muhajirai kafin isowar Annabi ﷺ; labarin Ibn Umar kuma ya ambaci al-Usba."
     },
     {
       "unit_id": "hch_early_migration_outline_1:text_ar",
@@ -1920,12 +1920,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "936a76758463f710846157e52b37c9b2c275e2f8b658140acc83211963f7da38",
+  "translation_sha256": "7b0091a01afdbeccfcc93d679b32bc330e2f131a1ad2b52d491c443bf14edea3",
   "review": {
-    "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
-    "translation_sha256": "936a76758463f710846157e52b37c9b2c275e2f8b658140acc83211963f7da38",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 0e70c4a8-4cdd-4117-8394-2727bf858942 across 377 Arabic/target units. Genuinely compared all 377 paired Arabic–Hausa inventory units by reading the full output of each of the 16 numbered pairs.py chunks: all teaching representations, outlines and objectives, all 11 questions with answer meanings and feedback, metadata and URL citations, and complete selected source texts. Checked the Arabic-led watchlist; its specified cases are in other chapters. The current binding retains all five fully translated readings and correct-answer distinctions, and the previously identified source-attribution ambiguity is resolved. No further actionable meaning, omission, language or answer defect was found in this bounded comparison. This is not manuscript collation, an independent language/specialist approval, or permission for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

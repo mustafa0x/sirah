@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_early_migration",
-  "revision": 1,
+  "revision": 2,
   "locale": "id",
-  "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
-  "arabic_payload_sha256": "af2f392f6b20af92126eabcea7cfb0b645f424f1e103781da5425e896b65cf86",
-  "status": "translation_ready",
+  "arabic_sha256": "5ce5352c3b38c45dcf52d7aff2c3ce0556dd7b427f8016acad0123fa6d4377b1",
+  "arabic_payload_sha256": "7026fa541f1b09909dd667f9dfd4943d1f8ad94edba11fe6f3624cb462ec7b91",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_early_migration:title_ar",
@@ -88,48 +88,48 @@
     },
     {
       "unit_id": "hch_early_migration_depth_1:text_ar",
-      "source_text_sha256": "a89f5c4f7b11f9acb9d1ff8a946a04c661e304cc752fb3ff6a71d28e316e888f",
-      "text": "Ibnu Ishaq menyebut Abu Salamah sebagai muhajir pertama dari Quraisy Bani Makhzum yang menuju Madinah, serta menempatkan keberangkatannya setahun sebelum baiat orang-orang Aqabah. Ibnu Katsir menukil redaksi lain darinya yang menambahkan bahwa Abu Salamah sempat berniat kembali ke Habasyah, lalu beralih ke Madinah; kedua redaksi ini tidak boleh dilebur menjadi satu. Adapun al-Bara' berkata “yang pertama tiba di tengah kami” dan menyebut Mush'ab serta Ibnu Ummi Maktum. Kata “kami” membatasi sudut pandang kesaksiannya; tidak tepat menjadikan salah satu ungkapan itu daftar menyeluruh yang meniadakan ungkapan lainnya."
+      "source_text_sha256": "8e524ceba31b782a258fb9335c6b945afd8b17f886bcb12f6475789f08da0278",
+      "text": "Ibnu Ishaq menyebut Abu Salamah muhajir pertama ke Madinah dari Quraisy Bani Makhzum, dan menempatkan keberangkatannya setahun sebelum baiat orang-orang Aqabah. Ibnu Katsir menukil redaksi lain darinya: Abu Salamah berniat kembali ke Habasyah sebelum beralih ke Madinah. Al-Bara’ menyebut Mush’ab dan Ibnu Ummi Maktum sebagai “yang pertama tiba kepada kami”; “kepada kami” menunjuk orang-orang di tengah kaumnya."
     },
     {
       "unit_id": "hch_early_migration_depth_2:text_ar",
-      "source_text_sha256": "5d609b4a92bd768b41a2e3cf02c6840af7663bea04da8135549899fea392d006",
-      "text": "Dalam kabar Musa bin Uqbah dari az-Zuhri, orang-orang berangkat dalam beberapa kelompok. Kabar itu menyebut Ummu Salamah sebagai perempuan pertama yang tiba dengan kendaraan, lalu menyatakan bahwa sebagian orang mengatakan Ummu Abdullah binti Abi Hatsmah, kemudian menutup dengan “Allah lebih mengetahui.” Ibnu Ishaq menamai istri Amir sebagai Laila binti Abi Hatsmah. Ini adalah redaksi dua sumber, bukan perlombaan yang bisa diputuskan dengan mengabaikan kisah Ummu Salamah mengenai perpisahannya dari Abu Salamah pada awal perjalanan."
+      "source_text_sha256": "02102d58fcef862777c8396dda1ae5b9796ca3ec37d889ab9e5b91053ce02fa4",
+      "text": "Dalam riwayat Musa bin Uqbah dari az-Zuhri, orang-orang berangkat berkelompok. Ummu Salamah disebut sebagai perempuan pertama yang tiba dalam sekedup; sebagian menyebut Ummu Abdullah binti Abi Hatsmah, lalu riwayat itu menambahkan “Allah lebih mengetahui”. Ibnu Ishaq menyebut istri Amir sebagai Laila binti Abi Hatsmah. Ummu Salamah menuturkan bahwa saat berangkat, keluarganya dan keluarga Abu Salamah memisahkannya dari suami dan putranya."
     },
     {
       "unit_id": "hch_early_migration_voices:title_ar",
-      "source_text_sha256": "43ab7ffdc925f1dc2e86fd7a5faa5a087ac10fa7e85c37754b2a52823240008b",
-      "text": "Siapa yang menuturkan kisah ini?"
+      "source_text_sha256": "5cf6a3649c6734903ad950e25f051d745ea7caa4d8e1571f6c1a11b88006fd53",
+      "text": "Perpisahan Ummu Salamah dan perjalanannya ke Quba"
     },
     {
       "unit_id": "hch_early_migration_depth_3:text_ar",
-      "source_text_sha256": "60f786711832eaf3cf6bf2b4716551256c6e06383e84f021d86ad0d2be684951",
-      "text": "Kesaksian Ummu Salamah dalam rangkaian sanad yang disebut Ibnu Ishaq tidak menetapkan tanggal tertentu: “setahun atau hampir setahun” adalah perkiraannya tentang lamanya perpisahan. Satu potongan kesaksiannya mulai mengisahkan kebaikan Utsman kepadanya, lalu potongan berikutnya melanjutkannya hingga Quba; bacaan tidak boleh berhenti pada batas halaman."
+      "source_text_sha256": "ad75acfcd45677dd9b88bc1a127bd60c3e8ab8de7bf8635ec3e1abfb6d99f9a5",
+      "text": "Ummu Salamah memperkirakan masa perpisahannya dari suami dan putranya “setahun atau hampir setahun”. Ia menuturkan bahwa Utsman bin Talhah menolongnya dalam perjalanan hingga sampai di Quba."
     },
     {
       "unit_id": "hch_early_migration_depth_4:text_ar",
-      "source_text_sha256": "7bfaa75df4837dcf254234c01e2badc2795f8d09627b633e4ccfb47b61f66aae",
-      "text": "Umar meriwayatkan peristiwa Ayyasy; kemudian Ibnu Ishaq memulai kembali dengan ungkapan “sebagian keluarga Ayyasy telah menceritakan hal itu kepadaku” untuk kabar tentang Ayyasy yang diperlihatkan dalam keadaan terikat di hadapan penduduk Makkah. Tambahan ini berasal dari penutur yang tidak disebut namanya, sehingga tidak boleh dinisbatkan sebagai ucapan Umar. Demikian pula, kabar Shuhaib menurut Ibnu Hisyam didahului ungkapan “disebutkan kepadaku” dan “sampai kepadaku”; jangan menjadikannya riwayat langsung dari Shuhaib."
+      "source_text_sha256": "c77bf2123881bb5ffa505d0d14a0e7e5dd43be6d5cb09eb55a7f008361b5c4f8",
+      "text": "Umar menuturkan peristiwa Ayyasy; Ibnu Ishaq meriwayatkan bahwa ia ditampilkan dalam keadaan terikat di hadapan penduduk Makkah dari seorang anggota keluarga Ayyasy yang tidak disebut namanya. Kabar Suhayb dalam Ibnu Hisyam adalah riwayat tidak langsung dari Abu Utsman an-Nahdi, bukan kesaksian langsung Suhayb."
     },
     {
       "unit_id": "hch_early_migration_variants:title_ar",
-      "source_text_sha256": "c97791d0066a11c1dc09c93e0eeacec72bfff0c296daedfc849a365d5c83d117",
-      "text": "Perbedaan jalur riwayat dan batas penggabungannya"
+      "source_text_sha256": "12a4be0ccbcacf8aa273f633772950c2cf4eef8db60a51910ac846d35e6b2992",
+      "text": "Suhayb dan Salim: rincian yang berbeda dalam riwayat"
     },
     {
       "unit_id": "hch_early_migration_depth_5:text_ar",
-      "source_text_sha256": "91eedbf27ce24530fcf4e3e54f33ab37b5d0880a34d361d006d64e43131de838",
-      "text": "Riwayat lain tentang Shuhaib, yang dinukil Ibnu Katsir dari al-Baihaqi, menyebut bahwa ia berniat berangkat bersama Nabi ﷺ dan Abu Bakar tetapi dihalangi sejumlah pemuda. Ia menawarkan beberapa uqiyah emas dan menunjukkan tempat dua helai pakaian, lalu tiba menemui Nabi ﷺ di Quba. Jangan masukkan rincian emas dan pakaian itu ke dalam kabar Abu Utsman yang hanya menyebut penyerahan harta; ungkapan “jual-beli itu menguntungkan” di bagian lanjutan jalur ini pun berbeda dari “Shuhaib beruntung” dalam kabar tadi."
+      "source_text_sha256": "c6a652f51377f75e0249593d0e074ddaeacffde46174f8357ff9b5114345240a",
+      "text": "Dalam riwayat lain tentang Suhayb yang dikutip Ibnu Katsir dari al-Baihaqi, ia hendak pergi bersama Nabi ﷺ dan Abu Bakr tetapi dicegah beberapa pemuda. Ia menawarkan sejumlah uqiyah emas dan menunjukkan dua pakaian, lalu menemui Nabi ﷺ di Quba. Dalam kabar tidak langsung Abu Utsman, ia menyerahkan hartanya tanpa rincian uqiyah dan pakaian itu. Ungkapan “transaksi itu menguntungkan” dalam jalur ini berbeda dari “Suhayb beruntung” dalam kabar tidak langsung itu."
     },
     {
       "unit_id": "hch_early_migration_depth_6:text_ar",
-      "source_text_sha256": "970ecbd33a5013f3b7b056d036e89a0cdf3cbd6c6e1291005f452738325e6aa2",
-      "text": "Jalur kabar Umar dalam al-Baihaqi juga melalui Ibnu Ishaq, dari Nafi', dari Ibnu Umar; ejaan kata untuk janji pertemuan dan sebagian harakat nama tempat berbeda dari riwayat Ibnu Hisyam. Ini bukan dua kesaksian Umar yang terpisah. Dari gambaran relatif tempat pertemuan dalam kabar tersebut, kita tidak menentukan harinya ataupun koordinat at-Tanadub."
+      "source_text_sha256": "93d6b0e4690088a1556386b6180af521cef3dc85326070fd5023919d1e4f805f",
+      "text": "Kabar Umar dalam al-Baihaqi juga melalui Ibnu Ishaq, dari Nafi', dari Ibnu Umar. Ejaan kata untuk janji pertemuan dan sebagian harakat nama tempat berbeda dari riwayat Ibnu Hisyam."
     },
     {
       "unit_id": "hch_early_migration_depth_7:text_ar",
-      "source_text_sha256": "8c4b19d8749cd155e4a5dc64f4d305e892707f4508866464c839113a0da96a93",
-      "text": "Ibnu Katsir mengutip dari Ya'qub bin Sufyan kabar Salim menjadi imam di al-Ushbah, dengan redaksi sanad yang berbeda dari al-Baihaqi; pengutipan dalam buku itu saja tidak menjadikannya sanad baru. Kabar Ibnu Sa'd menyebut Quba sebagai tempat Salim mengimami sebelum Nabi ﷺ tiba. Ini tidak berarti bahwa al-Ushbah dalam setiap riwayat merupakan nama lain Quba, ataupun bahwa daftar orang yang salat sama."
+      "source_text_sha256": "5b38376a8d10a801303f51a762117d01ad204d4e7eae6b0657bd6172741929e8",
+      "text": "Ibnu Katsir mengutip dari Ya‘qub bin Sufyan kabar Salim menjadi imam di al-Ushbah; redaksi sanadnya berbeda dari al-Baihaqi. Ibnu Sa‘d menyebut Quba sebagai tempat Salim mengimami para muhajir sebelum Nabi ﷺ tiba, sedangkan kabar Ibnu Umar menyebut al-Ushbah."
     },
     {
       "unit_id": "hch_early_migration_outline_1:text_ar",
@@ -1920,12 +1920,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "6f24e9105e79319484a9683488667d971ee291f2af0b4f4b5c50a31cbbcb5a19",
+  "translation_sha256": "844a77bfbb3f373dd4fafa84b1c12678bd26e7891fc7dd88f9608806cbaef8eb",
   "review": {
-    "arabic_sha256": "2684c045e901db34f5ebe28797508d985cae1de794e62cea47f4912847fc4989",
-    "translation_sha256": "6f24e9105e79319484a9683488667d971ee291f2af0b4f4b5c50a31cbbcb5a19",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 96c52bf5-ea77-4645-8e5c-cf0d6e163d5b across 377 Arabic/target units. Compared all 377 paired Arabic/Indonesian inventory units in all 17 complete pairs.py chunks, including teaching prose, objectives, outlines, 11 questions, choices, correct-answer meanings, explanations, scope and feedback, metadata and citations, and the full selected source texts. Rechecked five translated reading modes, correct-answer IDs and edition binding. No remaining actionable meaning, omission, language or answer discrepancy was found within this inventory. This is a bounded internal semantic comparison, not independent historical collation, language certification or distribution permission. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

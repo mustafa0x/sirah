@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_aqaba",
-  "revision": 1,
+  "revision": 2,
   "locale": "ps",
-  "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
-  "arabic_payload_sha256": "f14db75412420be5f85c3cde4889ec814dbeb7ebf72febac34a3ad8121e4259b",
-  "status": "translation_ready",
+  "arabic_sha256": "6a5998e5ba82b8e28bbbef59fb1e748a90fd2fa34cf2be529108e7fc80a29976",
+  "arabic_payload_sha256": "0dcea892d703622f07c60679d9e33d46f67b33c759d2201c47627812628d4991",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_aqaba:title_ar",
@@ -103,33 +103,33 @@
     },
     {
       "unit_id": "hch_aqaba_depth_reading:title_ar",
-      "source_text_sha256": "e8e2320c8d7bbcec4eaeb3103bddcb3d97efa023d31aee3c2fcef1f807a25751",
-      "text": "دوې کتنې بې له دې چې سره یو ځای شي، څنګه ولوستل شي"
+      "source_text_sha256": "a6f9da26183b49ded181b5e68f7035f99cd77874d385662e104af1c2336ef488",
+      "text": "د ښځو له بیعت څخه د ساتنې تر تړون پورې"
     },
     {
       "unit_id": "hch_aqaba_depth1:text_ar",
-      "source_text_sha256": "25fde687b2cc8c627b27bb608e293032e7c0a72881e0f0b78b716b11e9d2e09e",
-      "text": "دلته د لوست ترتیب د ډلې له کتنې څخه ښوونې ته او بیا د ساتنې غونډې ته ځي؛ دا داسې مهالوېش نه دی چې هره ورځ تثبیت کړي. په لومړۍ کتنه کې «د ښځو بیعت» د ابن اسحاق په الفاظو کې د جګړې تر فرض کېدو مخکې وخت پورې تړلی دی؛ خو هغه د ساتنې ژمنه چې رسول الله ﷺ به داسې ساتي لکه خپلې ښځې او اولادونه چې ساتي، د ورپسې کتنې په اړه د کعب په روایت کې ده. د ښځو د یادونې ورته والی د مضمون توپیر نه له منځه وړي."
+      "source_text_sha256": "91783b4a6f0983f01871fa6216778e57b9898d70885da4003e66c984dd54b23e",
+      "text": "په لومړۍ کتنه کې «د ښځو بیعت» د ابن اسحاق په الفاظو کې د جګړې تر فرض کېدو مخکې وخت پورې تړلی دی؛ خو هغه د ساتنې ژمنه چې رسول الله ﷺ به داسې ساتي لکه خپلې ښځې او اولادونه چې ساتي، د ورپسې کتنې په اړه د کعب په روایت کې ده."
     },
     {
       "unit_id": "hch_aqaba_depth2:text_ar",
-      "source_text_sha256": "6019a29eeb9ba4a600c970ea2ed4d9cd19825d2abaa0b2d8933767759c7eafa2",
-      "text": "د عباده په هغه روایت کې چې ابن اسحاق یې له یزید بن ابي حبیب څخه نقلوي، د ژمنې د کوم بند سرغړوونکي چاره الله ته سپارل شوې: که وغواړي عذاب ورکوي او که وغواړي بښنه کوي. په هغه بله بڼه کې چې له زهري څخه یې له عباده نقلوي، که پر چا په دنیا کې د هغه جرم حد جاري شي، هماغه ورته کفاره ده؛ خو د هغه چا چاره چې عمل یې پټ پاتې وي، الله ته سپارل کېږي. د دغو دوو برخو بندونه یو شان دي، خو د جزا په پای کې توپیر لري؛ او هېڅ یوه یې هم په ورپسې کتنه کې د ساتنې د تړون متن نه دی."
+      "source_text_sha256": "bcb2287f163d6577767dffe4816fc85f79609a97b5d8af9b4058ebee36ea7b62",
+      "text": "د عباده په هغه روایت کې چې ابن اسحاق یې له یزید بن ابي حبیب څخه نقلوي، د ژمنې د کوم بند سرغړوونکي چاره الله ته سپارل شوې: که وغواړي عذاب ورکوي او که وغواړي بښنه کوي. په هغه بله بڼه کې چې له زهري څخه یې له عباده نقلوي، که پر چا په دنیا کې د هغه جرم حد جاري شي، هماغه ورته کفاره ده؛ خو د هغه چا چاره چې عمل یې پټ پاتې وي، الله ته سپارل کېږي. د عباده په دواړو روایتونو بندونه یو شان دي، خو د جزا په پای کې توپیر لري؛ او هېڅ یوه یې هم په ورپسې کتنه کې د ساتنې د تړون متن نه دی."
     },
     {
       "unit_id": "hch_aqaba_depth_qibla:text_ar",
-      "source_text_sha256": "7d4b72ecd78507e27d6e7741fb25d40bf47f111bc008efd5b61b1ecd2f30a11c",
-      "text": "د حج په لاره کې براء بن معرور له ملګرو سره توپیر وکړ: هغه کعبې ته لمونځ کاوه، خو هغوی شام ته. کعب وایي چې هغه له رسول الله ﷺ څخه پوښتنه وکړه او بیا خپلې پخوانۍ قبلې ته وګرځېد او له هغوی سره یې شام ته لمونځ وکړ؛ کعب دا هم نقلوي چې د براء خپلوان ادعا کوي هغه تر مرګه کعبې ته لمونځ کاوه، او د هغوی خبره ردوي. موږ دا د کعب په روایت کې د خوندي پاتې شوي اختلاف په توګه لولو، نه د ټولو د اتفاق حکم."
+      "source_text_sha256": "4135f3d7b588a57eb25fca2492c4d4379ecb5767d04dd18a4d4120baef2f271f",
+      "text": "د حج په لاره کې براء بن معرور له ملګرو سره توپیر وکړ: هغه کعبې ته لمونځ کاوه، خو هغوی شام ته. کعب وایي چې هغه له رسول الله ﷺ څخه پوښتنه وکړه او بیا خپلې پخوانۍ قبلې ته وګرځېد او له هغوی سره یې شام ته لمونځ وکړ؛ کعب دا هم نقلوي چې د براء خپلوان ادعا کوي هغه تر مرګه کعبې ته لمونځ کاوه، او د هغوی خبره ردوي."
     },
     {
       "unit_id": "hch_aqaba_depth_limits:title_ar",
-      "source_text_sha256": "b7abe806ded0895384d2be2e6ae4412d1060744b51c5abf25c45fba19652036d",
-      "text": "غږونه او حدود"
+      "source_text_sha256": "5796410a429847517fe02a9e21a450865ddd06edc4048c50d496b9f5072eb6fa",
+      "text": "د عباس نیت او لومړی بیعت کوونکی"
     },
     {
       "unit_id": "hch_aqaba_depth3:text_ar",
-      "source_text_sha256": "1f184764aeabe710afb60f4b6536f997c04e60093fd1cd5245b3a6d50af8cfb9",
-      "text": "د خبرداري په روایت کې عاصم بن عمر بن قتاده د عباس بن عباده خبره داسې تفسیروي چې هغه غوښتل د رسول الله ﷺ لپاره تړون لا ټینګ کړي؛ خو عبدالله بن ابي بکر وایي چې هغه غوښتل خلک وځنډوي، په دې هیله چې عبدالله بن ابي هم حاضر شي. متن په دې پای ته رسېږي چې الله ښه پوهېږي کوم یو و؛ نو د دواړو راویانو له یوه تعبیر څخه د عباس حتمي نیت نه جوړوو. دلته عباس بن عباده هغه د رسول الله ﷺ تره عباس نه دی، چې د ساتنې د ضمانت په اړه یې د کعب په روایت کې خبرې کړې وې."
+      "source_text_sha256": "542c1ac9e85b7f36786d3df07ce581b27eed692c7294f733a95c456e34d27aca",
+      "text": "عاصم بن عمر بن قتاده د عباس بن عباده خبرداری د رسول الله ﷺ لپاره د تړون د ټینګولو هڅه بولي؛ عبدالله بن ابي بکر وایي هغه د عبدالله بن ابيّ د راتګ په هیله خلک ځنډول غوښتل. خبر وایي الله ښه پوهېږي کوم یو و. عباس بن عباده د رسول الله ﷺ تره عباس نه دی، چې د ساتنې د ضمانت په اړه یې د کعب په روایت کې خبرې کړې وې."
     },
     {
       "unit_id": "hch_aqaba_depth_comments:text_ar",
@@ -138,8 +138,8 @@
     },
     {
       "unit_id": "hch_aqaba_depth4:text_ar",
-      "source_text_sha256": "2a548bd458b6ce9fe748993ae499a35f0abbf9c5f2197318b0d52102786a7bb1",
-      "text": "له بیعت وروسته تر روایت مخکې په یوه برخه کې په دې اړه درې ویناوې راغلي چې لومړی چا د رسول الله ﷺ لاس ونیو: بني نجار اسعد یادوي، بني عبد الاشهل ابو الهیثم، او کعب براء یادوي. نو د «لومړي» پر بنسټ د هغې شپې کره ترتیب نه جوړوو؛ همدارنګه د روایت د پاڼو بېلې شوې برخې او یو اسناد د خپلواکو ګڼو شاهدانو معنا نه لري."
+      "source_text_sha256": "459fe6d493b5e2915ad24459dc126eccb93307683eb3b265a8baedcfce6643bb",
+      "text": "د رسول الله ﷺ لاس لومړی چا ونیو، په دې اړه ویناوې توپیر لري: بني نجار اسعد، بني عبد الاشهل ابو الهیثم، او کعب براء یادوي."
     },
     {
       "unit_id": "hch_aqaba_outline_meeting:text_ar",
@@ -193,8 +193,8 @@
     },
     {
       "unit_id": "hch_aqaba_read_after_context:title_ar",
-      "source_text_sha256": "a1e8fa76df21f2c8aac3bdf1855aefff1cefccc7705d372bc7d911c0abb5b5aa",
-      "text": "له بیعت وروسته سیاق — د دې څپرکي پوښتنې پرې نه دي ولاړې"
+      "source_text_sha256": "5311c05808c1a6f286b8d3274e560ce7a23dd24bebc6d60794daa327c5a3fe1c",
+      "text": "له بیعت وروسته سیاق"
     },
     {
       "unit_id": "aqaba_chapter_obj_contact:text_ar",
@@ -3485,12 +3485,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "22845579c06a1d83a0d102ee6b87a5e16757bfc6a9a3d013a6a2608d73d443c5",
+  "translation_sha256": "f55dbbd57aabccb10faf8225ac05dc74927113e3f5b60e536d681b117c15cf78",
   "review": {
-    "arabic_sha256": "4202f6d4b8f6cf6b099e7ce4955f378dcec9788fb5762277dc2f28b00ce16652",
-    "translation_sha256": "22845579c06a1d83a0d102ee6b87a5e16757bfc6a9a3d013a6a2608d73d443c5",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session f66642b1-b8dd-41c0-8dfd-4e033dbfc14b across 689 Arabic/target units. Independently compared every one of the 689 Arabic/Pashto inventory units in all 27 complete bounded chunks against the supplied Arabic authority, including teaching representations, objectives, outlines, all 11 question sets with options, correct-answer meanings, explanations, scope and feedback, metadata, citation URLs, full selected source passages, chains, poetry, commentary and the Aqaba watchlist loci. Individually inspected repeated metadata was assessed as a semantic group. No actionable semantic or ordinary-language errors were identified in this round. This bounded comparison is not scholarly collation, independent language approval, specialist approval or permission for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

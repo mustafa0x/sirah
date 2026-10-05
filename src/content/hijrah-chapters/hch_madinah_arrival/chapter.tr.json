@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_madinah_arrival",
-  "revision": 1,
+  "revision": 2,
   "locale": "tr",
-  "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-  "arabic_payload_sha256": "2c4db980e433dbb9f819370ee2577669a7036d49f4c4648f5dad4128dd57bc54",
-  "status": "translation_ready",
+  "arabic_sha256": "66b4b19a9d9b551c58226fe322b49e722903653be769bbd2724f7c41565e6e8a",
+  "arabic_payload_sha256": "731347c6db58765c3c137b389e0e38d3794bea7a9e5528ace87193fc2a00c10f",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_madinah_arrival:title_ar",
@@ -13,8 +13,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival:reader_question_ar",
-      "source_text_sha256": "4dc5fb16bc0ee37ada9dbf59b8e8ad38cf8d4f0c7e1a3c513b57b2d9822dd754",
-      "text": "Peygamber’in ﷺ karşılanmasından Ebû Eyyûb’un evinde ağırlanmasına nasıl geçildi ve rivayetler evin ayrıntılarında nasıl farklılaştı?"
+      "source_text_sha256": "6fbe777be9bd9eb6eb7664a675fdba3d66f4d79d097c82b02d175a4052faefb6",
+      "text": "Medineliler Peygamber ﷺ’i Ebû Eyyûb’un evinde konaklamasına dek nasıl karşıladı ve İbn İshak ile Eflah’ın rivayetleri evin katları hakkında nasıl ayrışır?"
     },
     {
       "unit_id": "hch_madinah_arrival_overview1:text_ar",
@@ -23,8 +23,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_overview2:text_ar",
-      "source_text_sha256": "bd46f0c2bc0e60cb3dc2c8b32c1511aa00fd32f65ebc34ff89f21c5d7efb88d3",
-      "text": "Ebû Eyyûb’un avlusundan evine uzanan misafirlik anlatısı genişler: İbn İshak’ın naklinde Ebû Eyyûb, Peygamber’in ﷺ alt katta kalmasını, su küpü kırıldığında ev halkının gösterdiği özeni ve onun için hazırladıkları akşam yemeğini anlatır. Bu nakilden farklı anlatımlar derinlemesine inceleme bölümünde ayrı ayrı okunur."
+      "source_text_sha256": "fcdefd53220926227718589b074a71cb76869a9a6a8fc4f83c5a3b52e32e6bf2",
+      "text": "Ebû Eyyûb’un avlusundan evine uzanan misafirlik anlatısı genişler: İbn İshak’ın naklinde Ebû Eyyûb, Peygamber’in ﷺ alt katta kalmasını, su küpü kırıldığında ev halkının gösterdiği özeni ve onun için hazırladıkları akşam yemeğini anlatır."
     },
     {
       "unit_id": "hch_madinah_arrival_arrival:title_ar",
@@ -108,28 +108,28 @@
     },
     {
       "unit_id": "hch_madinah_arrival_first:text_ar",
-      "source_text_sha256": "d89956d6f2e80fc1b7e39d6c4f8396fb8691098afee218ee7dbd8a660c819818",
-      "text": "Berâ, kendilerinden önce gelip insanlara Kur’an öğretenleri andıktan sonra halkın sevincini tasvir eder. Enes ise Beyhakî’deki nakilde çocuklarla bekleyişi ve ensarın karşılamasını esas alır. Beyhakî, Enes’in giriş gününe ilişkin kısa sözünü iki sayfadaki iki seçki arasında böler. Dolayısıyla uzun nakildeki yaklaşık sayı bütün Medine halkının sayımı olmadığı gibi, günün tasviri de kesin bir tarih vermez."
+      "source_text_sha256": "b9c59c96e73bd9ca131d1a0d8c914adc8e6709a51dbbdb320a4ddaa4c02e0589",
+      "text": "Berâ, kendilerinden önce gelip insanlara Kur’an öğretenleri andıktan sonra halkın sevincini tasvir eder. Enes ise Beyhakî’deki nakilde çocuklarla bekleyişi ve ensarın karşılamasını esas alır. Enes uzun naklinde Peygamber ﷺ ile Ebû Bekir’i karşılayan yaklaşık beş yüz ensardan söz eder; kısa naklinde ise geliş gününü ayın belirli bir tarihini vermeden tasvir eder."
     },
     {
       "unit_id": "hch_madinah_arrival_friday:text_ar",
-      "source_text_sha256": "d7ae807a82a35c73ce700718b1f8b56967657dfce806099f9c9a7f126c1b6f69",
-      "text": "İbn Hacer, cuma günü çıkış haberini İbn İshak ve İbn Âiz’e nispet eder; başka bir devam naklinde Hâkim’den devenin Ebû Eyyûb’un kapısında çöktüğünü aktarır. Buhârî’deki Enes hadisi ise Ebû Eyyûb’un avlusuna varıldığını söyler. İbn İshak’ın yakındaki sözlerinde Kubâ halkının orada kalınan süre konusunda ihtilaf ettiğine de işaret edilir. Bu parçalar bize ayın belirli bir gününü ya da çizilmiş bir güzergâhı vermez; mescidin inşası haberini de ev sahibinin seçilmesinin bir ayrıntısı hâline getirmez."
+      "source_text_sha256": "b584e602ef529870ea78c3e50710a8ca1238a877aaa9f60a3616f09fdf14f151",
+      "text": "İbn Hacer, cuma günü çıkış haberini İbn İshak ve İbn Âiz’e nispet eder; Hâkim’den devenin Ebû Eyyûb’un kapısında çöktüğünü aktarır. Buhârî’deki Enes hadisi ise Ebû Eyyûb’un avlusuna varıldığını söyler. İbn İshak, Peygamber’in ﷺ Kubâ’da pazartesi, salı, çarşamba ve perşembe günleri kaldığını belirtir; Benî Amr b. Avf’ın onun yanlarında bundan daha uzun kaldığına dair sözünü de aktarır."
     },
     {
       "unit_id": "hch_madinah_arrival_variants:title_ar",
-      "source_text_sha256": "854168b2cbed56af09ed95b94ece6f65e856f46b76903b077c8961c497ceb1d9",
-      "text": "İki kat ve yemek: Farklılıklar nasıl okunmalı?"
+      "source_text_sha256": "0d15ac13925286c9114c0da81a23c2673d39a0c99824570b6a4547f3772b16f3",
+      "text": "Ebû Eyyûb’un evindeki iki kat ve yemek"
     },
     {
       "unit_id": "hch_madinah_arrival_upstairs:text_ar",
-      "source_text_sha256": "5b3c2933b85962c10a8183ab1f99e9d57b4ec227fbb95275ba0bd9eddea09d71",
-      "text": "İbn İshak’ın nakli, kırık küp olayını anlatırken Ebû Eyyûb ile Ümmü Eyyûb’u üst katta bırakır. Müslim’deki Eflah kanalıyla Ebû Eyyûb naklinde ise üst kattakiler Peygamber’in ﷺ üstünde yürümekten hoşlanmadıkları için bir kenara çekilir; hadisin sonunda Peygamber ﷺ üst kata, Ebû Eyyûb alt kata geçer. Su olayı burada yalnız İbn İshak’ın rivayetindedir; bunu Eflah kanalına eklenen kayıp bir bölüm ya da iki anlatım arasındaki geçişin zamanını gösteren kanıt sayamayız."
+      "source_text_sha256": "c81287a3d14744d1c4c18784ce972b3f8757a344c1c380c0d8626425dff20b84",
+      "text": "İbn İshak’ın nakli, kırık küp olayını anlatırken Ebû Eyyûb ile Ümmü Eyyûb’u üst katta bırakır. Müslim’deki Eflah kanalıyla Ebû Eyyûb naklinde ise üst kattakiler Peygamber’in ﷺ üstünde yürümekten hoşlanmadıkları için bir kenara çekilir; hadisin sonunda Peygamber ﷺ üst kata, Ebû Eyyûb alt kata geçer."
     },
     {
       "unit_id": "hch_madinah_arrival_garlic:text_ar",
-      "source_text_sha256": "917524b8686a9c7b9518b9547cf2868f96de563e1d09b418bc1017513ff4686d",
-      "text": "İbn İshak’ın naklinde soğan mı sarımsak mı olduğu kesin değildir; Peygamber’in ﷺ bitkinin kokusuna ve münâcâtına ilişkin cevabı aktarılır. Müslim’deki Simâk kanalında ise bu tereddüt olmadan sarımsak geçer; yiyeceğin haram olması değil kokusu sebebiyle hoş görülmediği açıklanır. Müslim’deki Eflah kanalıyla gelen metin iki parça boyunca sürer; devamında Peygamber’in ﷺ “Hayır, fakat ondan hoşlanmıyorum” cevabı yer alır. Yahyâ b. Saîd’in Şu‘be’den takip rivayeti ise metni tekrar etmeden isnadı verir; yeni bir yemek meclisi oluşturmaz."
+      "source_text_sha256": "61d0cf2e1fa5d65303003674b749c986aabfc9b3e29d5757435ec01951688026",
+      "text": "İbn İshak’ın naklinde soğan mı sarımsak mı olduğu kesin değildir; Peygamber’in ﷺ bitkinin kokusuna ve münâcâtına ilişkin cevabı aktarılır. Müslim’deki Simâk kanalında ise bu tereddüt olmadan sarımsak geçer; yiyeceğin haram olması değil kokusu sebebiyle hoş görülmediği açıklanır. Müslim’deki Eflah kanalında Peygamber’in ﷺ cevabı şöyledir: “Hayır, fakat ondan hoşlanmıyorum.” Yahyâ b. Saîd’in Şu‘be’den takip rivayeti metni tekrar etmeden isnadı verir."
     },
     {
       "unit_id": "hch_madinah_arrival_point_welcome:text_ar",
@@ -143,8 +143,8 @@
     },
     {
       "unit_id": "hch_madinah_arrival_point_arrival:text_ar",
-      "source_text_sha256": "f52bdd5378df4ff7d01949127925d802d4b7d37d85af34153f927278f49655a2",
-      "text": "Ebû Eyyûb’un avlusuna varış ve mescit haberinin sınırları."
+      "source_text_sha256": "481388d4f6bb70134e92a89cc7cad09b903a68c8f8fba58155b3d834929a4d1a",
+      "text": "Ebû Eyyûb’un avlusuna varış, ardından namaz ve mescidin inşası."
     },
     {
       "unit_id": "hch_madinah_arrival_point_home:text_ar",
@@ -2530,12 +2530,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "fff96913c13c6fa2185f6d45f19dc340f54b602569ac80db2bb4b7a4b65b5d83",
+  "translation_sha256": "9db72b669976d8728229735b681a5d61c300aa62fd712bd60c6449198dcb8958",
   "review": {
-    "arabic_sha256": "c11020010842e200897fa31f038c796f052e4e7359452f472804747341d1540f",
-    "translation_sha256": "fff96913c13c6fa2185f6d45f19dc340f54b602569ac80db2bb4b7a4b65b5d83",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session a5b5a052-7362-4544-a747-84494cf93ddd across 494 Arabic/target units. Compared all 494 Arabic–Turkish inventory units in 17 complete bounded chunks, including teaching prose, outlines and objectives, all ten questions and options with answer meanings, explanations and feedback, distinct readings, metadata, source chains and full selected texts, poetry and Quran. Checked the complete bound Arabic and Turkish JSON, reading modes, Arabic-led watchlist and citation URLs. The two issues raised in the earlier round are corrected; no remaining actionable semantic issue was found in this comparison. Not a scholarly collation, independent language approval, specialist review, or publication authorization. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

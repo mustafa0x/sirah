@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_quba",
-  "revision": 1,
+  "revision": 2,
   "locale": "ps",
-  "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-  "arabic_payload_sha256": "ca01465899d46eb70e5492170e76b8d3a8dd971b8777dc508ac5ab07c53f440d",
-  "status": "translation_ready",
+  "arabic_sha256": "1624b3405bdb7416da9645d37221abca244c79d97e4663e294d67d7aabd3e3ec",
+  "arabic_payload_sha256": "e5fe029e6bc1f126bc2a3faea9498dcf2c55cb6c46cc804a00dd6245810b86c6",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_quba:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_quba:reader_question_ar",
-      "source_text_sha256": "811449a5baa9554d7512abd00c0eef4a8c6c4355ccbe622266527d97b8d0ffd1",
-      "text": "د راتلونکو کسانو انتظار څنګه په لیدنه بدل شو، او د قباء د ورځو په اړه څه پوهېږو او د څه په باب پرېکنده خبره نه شو کولای؟"
+      "source_text_sha256": "d4e27e050f739504bf8d31dbf36688a3d3cd8c9e7fa15ccf7bec27ff61c52cca",
+      "text": "په قباء کې منتظرو خلکو رسول الله ﷺ په راتلونکو کې څنګه وپېژاند، د چا کره تم شو، او د روایتونو له مخې څو ورځې پاتې شو؟"
     },
     {
       "unit_id": "hch_quba_p01:text_ar",
-      "source_text_sha256": "ab8d6f8b372b958761ac549a5168640aa5243011c6a76222a67570f311e46442",
-      "text": "د حرې په څنډه کې د خلکو له انتظار او د راتلونکو کسانو په منځ کې د رسول الله ﷺ تر پېژندلو، بیا د بني عمرو بن عوف په سیمه کې تر تم کېدو پورې، قباء د مدینې ور پرانیزي. د خلکو د لیدنې، استوګنځي، جومات او بیا د روانېدو خبر به تعقیبوو او د تمېدو د مودې په اړه به د روایتونو اختلاف ته هم غوږ نیسو."
+      "source_text_sha256": "9f0a0f7be5389f8bc2de4c76bd3574461089387bee22a18280a51cabb24fc6b0",
+      "text": "د حرې په څنډه کې د خلکو له انتظار او د راتلونکو کسانو په منځ کې د رسول الله ﷺ تر پېژندلو، بیا د بني عمرو بن عوف په سیمه کې تر تم کېدو پورې، قباء د مدینې ور پرانیزي."
     },
     {
       "unit_id": "hch_quba_wait:title_ar",
@@ -93,8 +93,8 @@
     },
     {
       "unit_id": "hch_quba_p11:text_ar",
-      "source_text_sha256": "9f5cab83f0e1a3691cbbd01c4338e1f4705826d4183f31ac38253208fcf8438c",
-      "text": "که څوک د رسېدو نېټه څېړل غواړي: ابن حجر داسې خبرونه راوړي چې راتګ د ربیع الاول په پیل یا له هغه څو بېلابېلې ورځې وروسته ټاکي. بیا یې د یوځای کولو لارې وړاندې کوي، چې یوه یې د میاشتې د لیدلو اختلاف دی؛ په بل ځای کې داسې انګېري چې ځینو هغو کسانو چې موده یې لنډه ښودلې، د ننوتلو یا وتلو ورځ نه ده شمېرلې. دا د شارح هڅې دي چې د نېټو اختلاف وپېژني، نه کومه نوې ثابته نېټه چې د عروه په متن یا د ابن اسحاق په شمېر ورزیاته شي."
+      "source_text_sha256": "497ad14324bee2e203442215a00fcd1a62d0977dcf093750ff709de9f13a1ef6",
+      "text": "ابن حجر داسې خبرونه راوړي چې راتګ د ربیع الاول په پیل یا له هغه څو بېلابېلې ورځې وروسته ټاکي. بیا یې د یوځای کولو لارې وړاندې کوي، چې یوه یې د میاشتې د لیدلو اختلاف دی؛ په بل ځای کې داسې انګېري چې ځینو هغو کسانو چې موده یې لنډه ښودلې، د ننوتلو یا وتلو ورځ نه ده شمېرلې."
     },
     {
       "unit_id": "hch_quba_p12:text_ar",
@@ -108,13 +108,13 @@
     },
     {
       "unit_id": "hch_quba_p13:text_ar",
-      "source_text_sha256": "5942ab839486544b54d84f61dd78c6d3859e4c3000f98c3282d68dcb7fe41878",
-      "text": "د پر تقوا د بنسټ اېښودل شوي جومات په اړه د ابن حجر جمله د پاڼې تر پولې مخکې پیلېږي او تر هغې وروسته د قباء جومات په تفسیر غځېږي. هغه آیت او د جمهور نظر راوړي چې پر قباء یې تطبیقوي، بیا یو روایت شوی نبوي ځواب نقلوي چې د رسول الله ﷺ جومات ښيي، او بل خبر راوړي چې له دې ښودنې سره د قباء فضیلت هم یادوي. نقل شوی آیت، د شارح په نقل کې نبوي ځواب، او د هغه خپل تفسیر بېلابېل غږونه دي."
+      "source_text_sha256": "e937df932fe1d910905c6d882bf6d8476ef1539321c53bdedf76a33e0b3deb19",
+      "text": "ابن حجر آیت او د جمهور نظر راوړي چې پر قباء یې تطبیقوي، بیا یو روایت شوی نبوي ځواب نقلوي چې د رسول الله ﷺ جومات ښيي، او بل خبر راوړي چې له دې ښودنې سره د قباء فضیلت هم یادوي."
     },
     {
       "unit_id": "hch_quba_p14:text_ar",
-      "source_text_sha256": "992a347f1c01691d6c05150de3319ee668a39f110691d17f152cea7a3a80a96e",
-      "text": "ابن حجر د قرطبي دا تفسیر نقلوي چې ولې ښایي په ځواب کې د رسول الله ﷺ جومات ځانګړی یاد شوی وي؛ بیا خپله بله وجه وړاندې کوي او وایي چې دواړه جوماتونه پر تقوا بنسټ شوي دي. د ابو هریره د خبر په نقل کې د رسول الله ﷺ خبره د آیت له لفظ مخکې راځي او له هغه وروسته د قباء د خلکو په باب بشپړېږي؛ تر هغې وروسته د ابن حجر تفسیر دی. بیا د داودي او سهیلي د یوځای کولو نظرونه یادوي. د هېڅ شارح تفسیر دلته نوی نبوي قول نه ګرځي او نه د دې فصل خپل حکم."
+      "source_text_sha256": "631c2afc927dadc59fd769fab6977db84be160d9172f0a56565ca2b1f2461f22",
+      "text": "ابن حجر د قرطبي دا تفسیر نقلوي چې ولې ښایي په ځواب کې د رسول الله ﷺ جومات ځانګړی یاد شوی وي؛ بیا خپله بله وجه وړاندې کوي او وایي چې دواړه جوماتونه پر تقوا بنسټ شوي دي. ابن حجر له ابو داود څخه د ابو هریره دا خبر هم نقلوي چې له رسول الله ﷺ څخه یې روایت کړی: د قرآن هغه آیت چې د پاکېدو خوښونکي سړي یادوي، د قباء د خلکو په اړه نازل شوی دی. ابن حجر د رسول الله ﷺ د جومات د ټاکلو ځواب داسې تفسیر کوي چې پر تقوا بنسټ کېدل یوازې د قباء جومات ته د ځانګړي ګڼلو ګومان لرې کوي؛ د داودي او سهیلي دا نظر هم یادوي چې دواړه جوماتونه پر تقوا بنسټ شوي دي."
     },
     {
       "unit_id": "hch_quba_outline_wait:text_ar",
@@ -1940,12 +1940,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "bbf1c0ecf71d12aa79ce60329da31d071225d739d41f0a8fb03b49d5701a7fa9",
+  "translation_sha256": "b163b36e2f2fd0123b2bac2d0abb5b49de9908cc5f9d0cc60261e3833d1c0b46",
   "review": {
-    "arabic_sha256": "d9537bef6e70a51bd3f240081eead1b8b620007a6024a340558fbb63691b1d6e",
-    "translation_sha256": "bbf1c0ecf71d12aa79ce60329da31d071225d739d41f0a8fb03b49d5701a7fa9",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session 05b8bad9-89cb-4651-862c-04d06a5c4d55 across 381 Arabic/target units. Read the complete bound Arabic and Pashto JSON and compared all 381 paired inventory units across the entire output of numbered chunks 0–14: teaching prose, outlines/objectives, quiz prompts/options/correct meanings/explanations/feedback and scope, repeated metadata and citations, full selected source texts, verse, reported speech, poetry and commentary voices. The additional Arabic watchlist was consulted. No further actionable semantic, omission, language or answer mismatch was identified in this bounded comparison. This is not scholarly collation, independent language approval, specialist approval or authorization for public distribution. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false

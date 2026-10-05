@@ -1,10 +1,10 @@
 {
   "chapter_id": "hch_departure",
-  "revision": 1,
+  "revision": 2,
   "locale": "de",
-  "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-  "arabic_payload_sha256": "0b657d6ad38e1d44fca3915ad8736658bf0d905019561467d627de1746339804",
-  "status": "translation_ready",
+  "arabic_sha256": "3be2a1daa7eb9deb80917b0a987d6549a0ab7e06e8321538c3ffc548df68655a",
+  "arabic_payload_sha256": "5fefa452f2dee7bf209a18c88c6c9300230552e361b2e4c2e16a2c25523dc066",
+  "status": "translation_wip",
   "units": [
     {
       "unit_id": "hch_departure:title_ar",
@@ -13,13 +13,13 @@
     },
     {
       "unit_id": "hch_departure:reader_question_ar",
-      "source_text_sha256": "51ec8aede7e87ae0b94b07df886c873740fe21c7a330b9a2c7a716b49c086e32",
-      "text": "Was berichten die Überlieferungen über die Planung und den Aufbruch, und wo unterscheiden sich ihre Stimmen?"
+      "source_text_sha256": "74136be76cec487fefea2b99ed667e9397689d507b00edd813205480c2b10f3f",
+      "text": "Was berichtet Ibn Ishaq über die Versammlung der Quraisch und das Lager des Propheten ﷺ, auf dem Ali schlief, und was berichtet Urwa über den nächtlichen Aufbruch?"
     },
     {
       "unit_id": "hch_departure_overview:text_ar",
-      "source_text_sha256": "ee06f65aa6b22a5c9845c89703848440b45eae05c2499aa7ac4770534b02f5ee",
-      "text": "Die Reise beginnt hier mit dem Warten auf die Erlaubnis in Mekka und der Furcht der Quraisch vor dem Aufbruch des Propheten ﷺ; sie reicht bis zu Alis Schlaflager und den anvertrauten Gütern, deretwegen er zurückblieb. Wir folgen dem Bericht Ibn Ishaqs und halten bei Urwas Bericht sowie bei der Kritik as-Suwaiyanis und al-Baihaqis inne, wo ihre Aussagen unterschiedlich weit reichen. So wird nicht jedes bekannte Detail zu einer einzigen, zweifelsfrei feststehenden Szene."
+      "source_text_sha256": "bd42dc5d578cc0d1f5559b889c98cf2bab3833dc849c38e3725d04f74a062b37",
+      "text": "Die Erzählung beginnt mit dem Warten auf die Erlaubnis in Mekka und der Furcht der Quraisch vor dem Aufbruch des Propheten ﷺ; Ali schlief auf dem Lager des Propheten ﷺ und blieb zurück, um die anvertrauten Güter zurückzugeben."
     },
     {
       "unit_id": "hch_departure_waiting:title_ar",
@@ -33,8 +33,8 @@
     },
     {
       "unit_id": "hch_departure_waiting2:text_ar",
-      "source_text_sha256": "d2fd16af606846193cd0a2a532d16f407feb9d00e199bcb3d20acfab17a34eb9",
-      "text": "Nach Ibn Ishaqs Darstellung sahen die Quraisch, dass die Auswanderer außerhalb Mekkas eine neue Heimat und Schutz gefunden hatten; sie befürchteten, der Prophet ﷺ könnte sich ihnen anschließen. Ihre Angehörigen versammelten sich im Dar an-Nadwa, um über ihn zu beraten. Das ist eine im Text erzählte Darstellung, kein unmittelbares Sitzungsprotokoll."
+      "source_text_sha256": "82765ecfe36526c915bea340bf98d6f73d17c9766537b3c6888963b320a7e6da",
+      "text": "Nach Ibn Ishaqs Darstellung sahen die Quraisch, dass die Auswanderer außerhalb Mekkas eine neue Heimat und Schutz gefunden hatten; sie befürchteten, der Prophet ﷺ könnte sich ihnen anschließen. Sie versammelten sich im Dar an-Nadwa, um über ihn zu beraten."
     },
     {
       "unit_id": "hch_departure_council:title_ar",
@@ -43,13 +43,13 @@
     },
     {
       "unit_id": "hch_departure_council1:text_ar",
-      "source_text_sha256": "21ead58b405574abbadf65c309b1bee13e2a2dce3257cb578cb8b7eafbd0db26",
-      "text": "In dem von Ibn Ishaq überlieferten Bericht Ibn Abbas' werden zunächst Gefangenschaft und dann Verbannung vorgeschlagen; der greise Mann aus Nadschd verwirft im Bericht beide Vorschläge. Danach schlägt Abu Dschahl vor, junge Männer aus verschiedenen Stämmen sollten sich gemeinsam an einem Schlag gegen ihn beteiligen. Auf diesen Vorschlag einigt sich die Versammlung in diesem Bericht. Die detaillierte Darstellung des Gesprächs bedeutet nicht, dass jeder andere Bericht dieselbe Versammlung schildert."
+      "source_text_sha256": "b0924fc446a04e4e33303d2b92b94e2578f137be27f22656d379a4abb6876031",
+      "text": "Im von Ibn Ishaq überlieferten Bericht Ibn Abbas’ wird zunächst vorgeschlagen, den Propheten ﷺ gefangen zu halten; der alte Mann aus Nadschd lehnt dies ab. Auch den gesonderten Vorschlag, ihn zu verbannen, lehnt er ab. Abu Dschahl schlägt daraufhin vor, einem jungen Mann aus jedem Stamm ein Schwert zu geben, damit sie den Propheten ﷺ gemeinsam mit einem Schlag töten. Seine Begründung: Die Verantwortung für sein Blut wäre auf die Stämme verteilt, sodass die Banu Abd Manaf nicht gegen alle Krieg führen könnten. In diesem Bericht einigt sich die Versammlung auf Abu Dschahls Plan."
     },
     {
       "unit_id": "hch_departure_council2:text_ar",
-      "source_text_sha256": "afc262d19f21cb9f8299b66af527df8684bc9b36e53f664da4af27e90600f24c",
-      "text": "Dieser Überlieferungsweg erwähnt auch Iblis in Gestalt eines alten Mannes. As-Suwaiyani bezeichnet den Bericht an einer Stelle aufgrund seiner verschiedenen Überlieferungswege als gestützt, nimmt aber an anderer Stelle die Erwähnung Iblis' davon aus. Wer nur die positive Beurteilung liest, übersieht diese Ausnahme und auch seine Unterscheidung zwischen Überlieferungswegen mit von ihm als verworfen bezeichneten Überlieferern und einem mursal-Beleg ohne durchgehende Kette."
+      "source_text_sha256": "86e3f65ad9921f23db4c2df8a3a04df103474b4e0c3c900815bcd50697147f30",
+      "text": "Dieser Überlieferungsweg erwähnt auch Iblis in Gestalt eines alten Mannes. As-Suwaiyani bezeichnet den Bericht an einer Stelle aufgrund seiner verschiedenen Überlieferungswege als gestützt, nimmt aber an anderer Stelle die Erwähnung Iblis' davon aus."
     },
     {
       "unit_id": "hch_departure_bed:title_ar",
@@ -73,28 +73,28 @@
     },
     {
       "unit_id": "hch_departure_trusts1:text_ar",
-      "source_text_sha256": "7177ad01ac4d19cf0f0673cc7ecd3c1c208d4a1e6cc0b5c6ca7b62f9cd8870b3",
-      "text": "In Ibn Ishaqs weiterem Bericht bestand Alis Aufgabe nicht nur darin, auf dem Lager zu schlafen: Mit der Formel „soweit es mich erreichte“ sagt Ibn Ishaq, der Prophet ﷺ habe Ali von seinem Aufbruch unterrichtet und ihn angewiesen zurückzubleiben, um den Menschen ihre anvertrauten Güter auszuhändigen. Die Formel bezeichnet eine Mitteilung, nicht einen Überlieferer, dessen Namen wir ergänzen dürften."
+      "source_text_sha256": "aa8aa046502c8151d94eb4889c58905a4b4af8e9da999705d28da19ee4ef6b6a",
+      "text": "In Ibn Ishaqs weiterem Bericht bestand Alis Aufgabe nicht nur darin, auf dem Lager zu schlafen: Mit der Formel „soweit es mich erreichte“ sagt Ibn Ishaq, der Prophet ﷺ habe Ali von seinem Aufbruch unterrichtet und ihn angewiesen zurückzubleiben, um den Menschen ihre anvertrauten Güter auszuhändigen."
     },
     {
       "unit_id": "hch_departure_trusts2:text_ar",
-      "source_text_sha256": "7ebbef44ec849940df1b21f907fd4eec0df8ba0ba5cc7651a7e11a8c85cda2a2",
-      "text": "An einer späteren Stelle des Berichts blieb Ali noch drei Nächte und die zugehörigen Tage in Mekka, bis er die anvertrauten Güter zurückgegeben hatte. Danach holte er den Propheten ﷺ ein und wohnte mit ihm bei Kulthum ibn Hidm. Dies ergänzt den Bericht über die anvertrauten Güter, legt aber keine genaue Uhrzeit für den Aufbruch beider in einer einzigen Nacht fest."
+      "source_text_sha256": "9363cd2f637e3fc489b4977eceb0a04132e971e1b420ce7b5a87cf20111e5985",
+      "text": "An einer späteren Stelle des Berichts blieb Ali noch drei Nächte und die zugehörigen Tage in Mekka, bis er die anvertrauten Güter zurückgegeben hatte. Danach holte er den Propheten ﷺ ein und wohnte mit ihm bei Kulthum ibn Hidm."
     },
     {
       "unit_id": "hch_departure_voices:title_ar",
-      "source_text_sha256": "adaff8c58daf59257388f1b5e30d0dbc42a06437cf7756738eb9c388029fd891",
-      "text": "Von der Versammlung zum Weg: die Grenzen der einzelnen Berichte"
+      "source_text_sha256": "d1ea0839bf8ebad820a3dfad0595d9a3c594df39dd07e834aeeb9fe4081566fc",
+      "text": "Der nächtliche Aufbruch und die Wächter am Haus"
     },
     {
       "unit_id": "hch_departure_voices1:text_ar",
-      "source_text_sha256": "16ac7e73d6de9c194791357b69944f6f76fac348754ca41348702735183f2bae",
-      "text": "Al-Baihaqi überliefert von Urwa ibn az-Zubair eine kürzere Darstellung des Plans: Tötung, Gefangenschaft, Vertreibung oder Fesselung. Dazu kommen ein Vers aus der Sure al-Anfal, der nächtliche Aufbruch des Propheten ﷺ und Abu Bakrs in Richtung der Höhle sowie Alis Liegen auf dem Lager. Dieser ausgewählte Abschnitt aus Urwas Bericht erwähnt weder das Gespräch in der Versammlung noch die Handvoll Erde. Der Vers ist hier ein Korantext in Urwas Bericht, nicht eine Fortsetzung der Debatte im Dar an-Nadwa."
+      "source_text_sha256": "005eaa48470a06bdb880422fb001ed51d42316fcaa658fe234586daa7848bf71",
+      "text": "Al-Baihaqi überliefert von Urwa ibn az-Zubair eine kürzere Darstellung des Plans: Tötung, Gefangenschaft, Vertreibung oder Fesselung. Dazu kommen ein Vers aus der Sure al-Anfal, der nächtliche Aufbruch des Propheten ﷺ und Abu Bakrs in Richtung der Höhle sowie Alis Liegen auf dem Lager. Urwas Bericht enthält weder das Gespräch im Dar an-Nadwa noch das Ausstreuen von Erde; der dortige Vers aus al-Anfal ist Korantext, keine Fortsetzung des Gesprächs der Versammlung."
     },
     {
       "unit_id": "hch_departure_voices2:text_ar",
-      "source_text_sha256": "dddd01730c429908f7046701cf5072cff4a56707f22758107c7908b0b0e193a9",
-      "text": "Urwas Bericht nennt einen Aufbruch bei Nacht, Ibn Abbas' Bericht das Zusammenkommen der Beobachter vor dem Haus des Propheten ﷺ in der Dunkelheit. Keiner der beiden nennt die Uhrzeit eines Besuchs im Haus Abu Bakrs. Die Zeit dieses Besuchs lässt sich nicht aus der Beobachtung ableiten; auch darf man die Vorgänge an beiden Häusern nicht zu einer Szene verschmelzen."
+      "source_text_sha256": "f900696cc357b24596d505490e13c2a68403cc4e1d7ae67c23041443c0cf3981",
+      "text": "Urwas Bericht nennt den nächtlichen Aufbruch; Ibn Abbas’ Bericht versammelt die Beobachter in der Dunkelheit vor der Tür des Hauses des Propheten ﷺ. Keiner von beiden nennt die Uhrzeit des gesonderten Besuchs bei Abu Bakr."
     },
     {
       "unit_id": "hch_departure_criticism:title_ar",
@@ -103,18 +103,18 @@
     },
     {
       "unit_id": "hch_departure_criticism1:text_ar",
-      "source_text_sha256": "85677c93388d37038d6f127d18eff3aedd383878de8536d3bf98c5e9c579ec3a",
-      "text": "In einer Anmerkung bezeichnet as-Suwaiyani den Bericht über die Versammlung aufgrund seiner Überlieferungswege als hasan. Er sagt, der Weg über al-Kalbi sei nicht erfreulich und der über al-Hasan ibn Umara verworfen; zudem erwähnt er den mursal-Beleg über Qatada und den als Überlieferer verworfenen al-Waqidi. In einem weiteren Text nimmt er die Erwähnung Iblis' von seiner positiven Beurteilung aus. Wir schreiben Urteil und Ausnahme ihm zu, statt sie durch eine eigene Prüfung hier nicht erschlossener Überlieferungsketten zu ersetzen."
+      "source_text_sha256": "405fd6cebdc6bf99818431a2f5d2cc4d361a12b4ff6b0f2fb92ae89372c0df32",
+      "text": "In einer Anmerkung bezeichnet as-Suwaiyani den Bericht über die Versammlung aufgrund seiner Überlieferungswege als hasan. Er sagt, der Weg über al-Kalbi sei nicht erfreulich und der über al-Hasan ibn Umara verworfen; zudem erwähnt er den mursal-Beleg über Qatada und den als Überlieferer verworfenen al-Waqidi. In einem weiteren Text nimmt er die Erwähnung Iblis' von seiner positiven Beurteilung aus."
     },
     {
       "unit_id": "hch_departure_criticism2:text_ar",
-      "source_text_sha256": "e2fc522b6b897b04acbf00b54926fe08cc5bf8944ec5c77b0af482e603a6fabc",
-      "text": "As-Suwaiyani erörtert eine Überlieferungskette über Abu Baldsch. Er hält sie für nicht bedenklich, sofern Abu Baldsch nicht allein eine abweichende Formulierung überliefert. Er stellt positive Beurteilungen einiger Gelehrter neben al-Bukharis Kritik „bei ihm besteht Prüfungsbedarf“ (fihi nazar) und bezeichnet al-Bukharis Ausdruck als einen scharfen Fachbegriff. Die Fortsetzung seiner Ausführungen auf der nächsten Seite gehört zur Kritik dazu. Dieses Urteil verwirft weder pauschal sämtliche Berichte über Ali noch bestätigt es jede über ihn überlieferte Formulierung."
+      "source_text_sha256": "fe336e4e69c5f24c8d10aeb027c813e0ffbec046bbcca2c8de915db4b04043d3",
+      "text": "As-Suwaiyani erörtert eine Überlieferungskette über Abu Baldsch. Er hält sie für nicht bedenklich, sofern Abu Baldsch nicht allein eine abweichende Formulierung überliefert. Er stellt positive Beurteilungen einiger Gelehrter neben al-Bukharis Kritik „bei ihm besteht Prüfungsbedarf“ (fihi nazar) und bezeichnet al-Bukharis Ausdruck als einen scharfen Fachbegriff."
     },
     {
       "unit_id": "hch_departure_criticism3:text_ar",
-      "source_text_sha256": "9043d15b48c7d4befa6366532892ebb2506474af5d4d567b663e5b3d1a0cf899",
-      "text": "In den von Ibn Ishaq überlieferten Worten des Propheten ﷺ an Ali wird das Manteltuch als grün und hadramitisch beschrieben; die Äußerung wird am Anfang des folgenden Ausschnitts vervollständigt. Danach beginnt Ibn Ishaq für den Bericht vom Ausstreuen der Erde und vom Rezitieren aus Ya-Sin eine Überlieferungskette über Yazid ibn Ziyad von Muhammad ibn Kab. Diese Rezitation darf nicht unter eben dieser Kette dem vorausgehenden Bericht Ibn Abbas' zugeschrieben werden. Die Unterscheidung der beiden Wege ist wichtiger, als jedes Detail irgendeinem Bericht über das Lager zuzuordnen."
+      "source_text_sha256": "3a1c8208e04699f930f7937afce7b566ad4fb7f2a6a0080ea97ba4a1b2700c53",
+      "text": "Bei Ibn Ishaq spricht der Prophet ﷺ zu Ali von dem grünen Mantel aus Hadramaut. Den Bericht vom Ausstreuen der Erde und der Rezitation von Ya-Sin überliefert Ibn Ishaq dagegen über Yazid ibn Ziyad von Muhammad ibn Kaʿb al-Qurazi."
     },
     {
       "unit_id": "hch_departure_hazwara:title_ar",
@@ -123,13 +123,13 @@
     },
     {
       "unit_id": "hch_departure_hazwara1:text_ar",
-      "source_text_sha256": "94942bce535f8a0ce25c4599e19e694e8eaaefe8f011f220a45a0dc1bea37b50",
-      "text": "In einem von al-Baihaqi überlieferten Bericht des Abd Allah ibn Adi ibn al-Hamra spricht der Prophet ﷺ zu Mekka, während er am Ort al-Hazwara auf dem Markt von Mekka steht: Es sei ihm das liebste Land Gottes, und wäre er nicht daraus vertrieben worden, wäre er nicht fortgegangen. Al-Baihaqi hält diese Fassung für die bewahrte Überlieferung. Der Bericht nennt weder die Uhrzeit seines Aufenthalts am Ort al-Hazwara noch verbindet er ihn mit der Haustür oder Alis Lager."
+      "source_text_sha256": "7be7e627a4749be2ef487f4d8c12c1f10227d75be8815f33794032e59c5ba62e",
+      "text": "In einem von al-Baihaqi überlieferten Bericht des Abd Allah ibn Adi ibn al-Hamra spricht der Prophet ﷺ zu Mekka, während er am Ort al-Hazwara auf dem Markt von Mekka steht: Es sei das beste Land Gottes und das ihm liebste, und wäre er nicht daraus vertrieben worden, wäre er nicht fortgegangen. Al-Baihaqi hält diese Fassung für die bewahrte Überlieferung. Der Bericht nennt nicht die Uhrzeit seines Aufenthalts am Ort al-Hazwara und verbindet ihn weder mit der Tür des Hauses des Propheten ﷺ noch mit dessen Lager, auf dem Ali schlief."
     },
     {
       "unit_id": "hch_departure_hazwara2:text_ar",
-      "source_text_sha256": "2bea8d6562453c71f97726a7bfd32f6c39cacf9aa022f36e123f212913a41086",
-      "text": "Die Überlieferungskette des Berichts von Abd Allah ibn Adi ibn al-Hamra wird im letzten Teil eines Ausschnitts und am Anfang des nächsten aufbewahrt. Danach folgen die Worte des Propheten ﷺ und al-Baihaqis Bemerkung zur bewahrten Fassung. Im anschließenden kritischen Zusammenhang bezeichnet al-Baihaqi die Fassungen über Mamar und über einige Gewährsleute von Muhammad ibn Amr als Irrtum und zieht die Überlieferung der Gruppe vor. Das ist seine Abwägung zwischen überlieferten Fassungen, keine Aussage darüber, dass alle übrigen Aufbruchsberichte denselben Status hätten."
+      "source_text_sha256": "e3ed539e964ba7b8ebf3754c654025484873c4f4cadc7de8db30844b417c8e9e",
+      "text": "In seiner Besprechung des Berichts über al-Hazwara bezeichnet al-Baihaqi Mamars Variante als Irrtum. Auch die von einigen über Muhammad ibn Amr überlieferte Variante nennt er gesondert einen Irrtum und zieht die Überlieferung der Gruppe vor."
     },
     {
       "unit_id": "hch_departure_point_1:text_ar",
@@ -2235,12 +2235,10 @@
     }
   ],
   "deferred_questions": [],
-  "translation_sha256": "346a1ec84d75cf68f351a92fbb82a081514a0b09933fc88cc79fe6d43a14377e",
+  "translation_sha256": "2e5a738adda398d624dccfbafea635970895fcdc3b4f8c75b3568bdac51c1c64",
   "review": {
-    "arabic_sha256": "b96c72ddfbed8dade52dde39b8724a89fe307419fce024f789201e6d34b4d3e4",
-    "translation_sha256": "346a1ec84d75cf68f351a92fbb82a081514a0b09933fc88cc79fe6d43a14377e",
-    "translation_compared": true,
-    "summary": "Internal AI bilingual semantic comparison attested by reviewer session e3a2a87f-50a5-4ea7-8317-b41748346b0a across 437 Arabic/target units. Alle 437 Inventareinheiten der gebundenen arabischen Kapitelvorlage und des deutschen Entwurfs in 17 vollständigen Paar-Chunks erneut semantisch verglichen: Lehrtext, Gliederung und Lernziele; zehn Fragen mit Optionen, Lösungssinn, Erklärungen, Umfangshinweisen und Rückmeldungen; Metadaten und Zitat-URLs; alle ausgewählten Quellentexte einschließlich Überlieferungsketten, Korantext, Sprecherwechseln und Kritik. Wiederholte Metadaten einzeln geprüft. Die in früheren Runden angesprochenen Stellen zur Tötungsdrohung und zur wiederholten Antwort stehen im gegenwärtigen Entwurf sinngerecht; keine weiteren handlungsbedürftigen Bedeutungs- oder Sprachabweichungen im geprüften Umfang festgestellt. Keine Kollation vollständiger Bücher und keine unabhängige Sprach-, Fach- oder Publikationsfreigabe. Automated technical gate of reviewer attestation; neither a human nor Main personally reread every unit. Not independent language/specialist approval or public distribution permission.",
+    "translation_compared": false,
+    "summary": "Internal comparison is pending or unresolved. Work in progress; not independently approved.",
     "independent_language_approval": false,
     "specialist_approval": false,
     "public_distribution_approved": false
