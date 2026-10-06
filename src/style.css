@@ -70,6 +70,16 @@
             translate: 0 18px;
         }
     }
+    /* A source dot the caption cites swells twice as the caption begins, then rests as a ring. */
+    --animate-cue: cue 1.5s cubic-bezier(0, 0, 0.2, 1) 2;
+
+    @keyframes cue {
+        75%,
+        100% {
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
 }
 
 /* Preserve the existing browser defaults rather than introducing Preflight. */
