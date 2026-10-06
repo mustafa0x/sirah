@@ -179,10 +179,12 @@ msgid "Side trip · {0}"
 msgstr "ተጓዳኝ ጉዞ · {0}"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Pause"
 msgstr "አቁም"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Play"
@@ -1753,10 +1755,6 @@ msgid "Expert"
 msgstr "ባለሙያ"
 
 #: src/routes/Journey.svelte
-msgid "Check your understanding <0/>"
-msgstr "ግንዛቤዎን ይፈትሹ <0/>"
-
-#: src/routes/Journey.svelte
 msgid "Close practice"
 msgstr "ልምምዱን ዝጉ"
 
@@ -1820,10 +1818,6 @@ msgstr "<0/> ወደ ጉዞው ይመለሱ"
 #: src/routes/Journey.svelte
 msgid "Correct answers, out of the questions in this set. <0/>"
 msgstr "በዚህ ስብስብ ውስጥ ካሉት ጥያቄዎች ትክክለኛ መልሶች። <0/>"
-
-#: src/routes/Journey.svelte
-msgid "<0/> Check your understanding <1/>"
-msgstr "<0/> ግንዛቤዎን ይፈትሹ <1/>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Practise what you learned"
@@ -2219,5 +2213,11 @@ msgid "<0/> Quick check <1/>"
 msgstr "<0/> ፈጣን ፍተሻ <1/>"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Follow along"
 msgstr "አብረው ይከታተሉ"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Made for the <0>AI Challenge in Service of Islamic Content</0>"
+msgstr "ለ<0>እስላማዊ ይዘትን የሚያገለግል የሰው ሰራሽ አስተውሎት ውድድር</0> የተዘጋጀ"

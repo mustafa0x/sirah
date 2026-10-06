@@ -179,10 +179,12 @@ msgid "Side trip · {0}"
 msgstr "Tafiyar gefe · {0}"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Pause"
 msgstr "Dakatarwa"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Play"
@@ -1753,10 +1755,6 @@ msgid "Expert"
 msgstr "Kwararre"
 
 #: src/routes/Journey.svelte
-msgid "Check your understanding <0/>"
-msgstr "Gwada fahimtarka <0/>"
-
-#: src/routes/Journey.svelte
 msgid "Close practice"
 msgstr "Rufe atisaye"
 
@@ -1820,10 +1818,6 @@ msgstr "<0/> Koma kan tafiyar"
 #: src/routes/Journey.svelte
 msgid "Correct answers, out of the questions in this set. <0/>"
 msgstr "Amsoshi daidai, daga cikin tambayoyin wannan rukuni. <0/>"
-
-#: src/routes/Journey.svelte
-msgid "<0/> Check your understanding <1/>"
-msgstr "<0/> Gwada fahimtarka <1/>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Practise what you learned"
@@ -2219,5 +2213,11 @@ msgid "<0/> Quick check <1/>"
 msgstr "<0/> Gwajin gaggawa <1/>"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Follow along"
 msgstr "Bi tare"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Made for the <0>AI Challenge in Service of Islamic Content</0>"
+msgstr "An yi shi don <0>Gasar AI don Hidimar Abun Cikin Musulunci</0>"

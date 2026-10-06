@@ -179,10 +179,12 @@ msgid "Side trip · {0}"
 msgstr "Détour · {0}"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Pause"
 msgstr "Pause"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Play"
@@ -1753,10 +1755,6 @@ msgid "Expert"
 msgstr "Expert"
 
 #: src/routes/Journey.svelte
-msgid "Check your understanding <0/>"
-msgstr "Vérifiez votre compréhension <0/>"
-
-#: src/routes/Journey.svelte
 msgid "Close practice"
 msgstr "Fermer l'entraînement"
 
@@ -1820,10 +1818,6 @@ msgstr "<0/> Retour au parcours"
 #: src/routes/Journey.svelte
 msgid "Correct answers, out of the questions in this set. <0/>"
 msgstr "Réponses correctes sur l'ensemble des questions de cette série. <0/>"
-
-#: src/routes/Journey.svelte
-msgid "<0/> Check your understanding <1/>"
-msgstr "<0/> Vérifiez votre compréhension <1/>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Practise what you learned"
@@ -2219,5 +2213,11 @@ msgid "<0/> Quick check <1/>"
 msgstr "<0/> Vérification rapide <1/>"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Follow along"
 msgstr "Suivre la lecture"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Made for the <0>AI Challenge in Service of Islamic Content</0>"
+msgstr "Réalisé pour le <0>Défi de l’IA au service du contenu islamique</0>"

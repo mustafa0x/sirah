@@ -179,10 +179,12 @@ msgid "Side trip · {0}"
 msgstr "අතුරු ගමන · {0}"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Pause"
 msgstr "නවතන්න"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Play"
@@ -1753,10 +1755,6 @@ msgid "Expert"
 msgstr "ප්‍රවීණ"
 
 #: src/routes/Journey.svelte
-msgid "Check your understanding <0/>"
-msgstr "ඔබේ අවබෝධය පරීක්ෂා කරන්න <0/>"
-
-#: src/routes/Journey.svelte
 msgid "Close practice"
 msgstr "පුහුණුව වසන්න"
 
@@ -1820,10 +1818,6 @@ msgstr "<0/> ගමන වෙත ආපසු"
 #: src/routes/Journey.svelte
 msgid "Correct answers, out of the questions in this set. <0/>"
 msgstr "මෙම කට්ටලයේ ප්‍රශ්න අතුරින් නිවැරදි පිළිතුරු. <0/>"
-
-#: src/routes/Journey.svelte
-msgid "<0/> Check your understanding <1/>"
-msgstr "<0/> ඔබේ අවබෝධය පරීක්ෂා කරන්න <1/>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Practise what you learned"
@@ -2219,5 +2213,11 @@ msgid "<0/> Quick check <1/>"
 msgstr "<0/> ක්ෂණික පිරික්සුම <1/>"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Follow along"
 msgstr "අනුගමනය කරන්න"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Made for the <0>AI Challenge in Service of Islamic Content</0>"
+msgstr "<0>ඉස්ලාමීය අන්තර්ගතයට සේවය කරන AI අභියෝගය</0> සඳහා නිර්මාණය කරන ලදී"

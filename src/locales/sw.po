@@ -179,10 +179,12 @@ msgid "Side trip · {0}"
 msgstr "Safari ya kando · {0}"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Pause"
 msgstr "Sitisha"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Play"
@@ -1753,10 +1755,6 @@ msgid "Expert"
 msgstr "Bingwa"
 
 #: src/routes/Journey.svelte
-msgid "Check your understanding <0/>"
-msgstr "Pima uelewa wako <0/>"
-
-#: src/routes/Journey.svelte
 msgid "Close practice"
 msgstr "Funga mazoezi"
 
@@ -1820,10 +1818,6 @@ msgstr "<0/> Rudi kwenye safari"
 #: src/routes/Journey.svelte
 msgid "Correct answers, out of the questions in this set. <0/>"
 msgstr "Majibu sahihi, kati ya maswali katika seti hii. <0/>"
-
-#: src/routes/Journey.svelte
-msgid "<0/> Check your understanding <1/>"
-msgstr "<0/> Pima uelewa wako <1/>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Practise what you learned"
@@ -2219,5 +2213,11 @@ msgid "<0/> Quick check <1/>"
 msgstr "<0/> Uhakiki wa haraka <1/>"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Follow along"
 msgstr "Fuatilia"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Made for the <0>AI Challenge in Service of Islamic Content</0>"
+msgstr "Imetengenezwa kwa ajili ya <0>Shindano la AI katika Kuhudumia Maudhui ya Kiislamu</0>"

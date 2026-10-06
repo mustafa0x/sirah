@@ -179,10 +179,12 @@ msgid "Side trip · {0}"
 msgstr "Perjalanan sampingan · {0}"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Pause"
 msgstr "Jeda"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Play"
@@ -1753,10 +1755,6 @@ msgid "Expert"
 msgstr "Mahir"
 
 #: src/routes/Journey.svelte
-msgid "Check your understanding <0/>"
-msgstr "Uji pemahamanmu <0/>"
-
-#: src/routes/Journey.svelte
 msgid "Close practice"
 msgstr "Tutup latihan"
 
@@ -1820,10 +1818,6 @@ msgstr "<0/> Kembali ke perjalanan"
 #: src/routes/Journey.svelte
 msgid "Correct answers, out of the questions in this set. <0/>"
 msgstr "Jawaban benar, dari total pertanyaan di set ini. <0/>"
-
-#: src/routes/Journey.svelte
-msgid "<0/> Check your understanding <1/>"
-msgstr "<0/> Uji pemahamanmu <1/>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Practise what you learned"
@@ -2219,5 +2213,11 @@ msgid "<0/> Quick check <1/>"
 msgstr "<0/> Cek cepat <1/>"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Follow along"
 msgstr "Ikuti"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Made for the <0>AI Challenge in Service of Islamic Content</0>"
+msgstr "Dibuat untuk <0>Tantangan AI dalam Melayani Konten Islam</0>"

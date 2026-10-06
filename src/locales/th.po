@@ -179,10 +179,12 @@ msgid "Side trip · {0}"
 msgstr "การเดินทางย่อย · {0}"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Pause"
 msgstr "หยุดชั่วคราว"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Play"
@@ -1753,10 +1755,6 @@ msgid "Expert"
 msgstr "ระดับเชี่ยวชาญ"
 
 #: src/routes/Journey.svelte
-msgid "Check your understanding <0/>"
-msgstr "ตรวจสอบความเข้าใจของคุณ <0/>"
-
-#: src/routes/Journey.svelte
 msgid "Close practice"
 msgstr "ปิดแบบฝึกหัด"
 
@@ -1820,10 +1818,6 @@ msgstr "<0/> กลับสู่การเดินทาง"
 #: src/routes/Journey.svelte
 msgid "Correct answers, out of the questions in this set. <0/>"
 msgstr "คำตอบที่ถูกต้อง จากคำถามทั้งหมดในชุดนี้ <0/>"
-
-#: src/routes/Journey.svelte
-msgid "<0/> Check your understanding <1/>"
-msgstr "<0/> ตรวจสอบความเข้าใจของคุณ <1/>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Practise what you learned"
@@ -2219,5 +2213,11 @@ msgid "<0/> Quick check <1/>"
 msgstr "<0/> ตรวจความเข้าใจ <1/>"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Follow along"
 msgstr "ติดตาม"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Made for the <0>AI Challenge in Service of Islamic Content</0>"
+msgstr "จัดทำขึ้นสำหรับ<0>การแข่งขัน AI เพื่อรับใช้เนื้อหาอิสลาม</0>"

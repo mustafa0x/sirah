@@ -179,10 +179,12 @@ msgid "Side trip · {0}"
 msgstr "جولة جانبية · {0}"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 #, ai
 msgid "Pause"
 msgstr "إيقاف مؤقت"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Play"
@@ -1753,10 +1755,6 @@ msgid "Expert"
 msgstr "خبير"
 
 #: src/routes/Journey.svelte
-msgid "Check your understanding <0/>"
-msgstr "تحقّق من فهمك <0/>"
-
-#: src/routes/Journey.svelte
 msgid "Close practice"
 msgstr "إغلاق التدريب"
 
@@ -1820,10 +1818,6 @@ msgstr "<0/> العودة إلى الرحلة"
 #: src/routes/Journey.svelte
 msgid "Correct answers, out of the questions in this set. <0/>"
 msgstr "إجابات صحيحة، من مجموع أسئلة هذه المجموعة. <0/>"
-
-#: src/routes/Journey.svelte
-msgid "<0/> Check your understanding <1/>"
-msgstr "<0/> تحقّق من فهمك <1/>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Practise what you learned"
@@ -2219,5 +2213,11 @@ msgid "<0/> Quick check <1/>"
 msgstr "<0/> مراجعة سريعة <1/>"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Follow along"
 msgstr "تابع النص"
+
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+msgid "Made for the <0>AI Challenge in Service of Islamic Content</0>"
+msgstr "أُعدّ لـ<0>تحدي الذكاء الاصطناعي في خدمة المحتوى الإسلامي</0>"

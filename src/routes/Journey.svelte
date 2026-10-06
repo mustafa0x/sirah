@@ -59,6 +59,7 @@
     import about_poster from '../assets/about/poster.jpg'
     import cave_license from '../../art/thawr/trellis/MODEL-LICENSE.md?url'
     import cave_provenance from '../../art/thawr/trellis/provenance.json'
+    const hackathon_url = 'https://islamicaich.org/'
     // The video for "Behind the journey": any .mp4 or .webm placed in src/assets/about/.
     const about_video = Object.values(
         import.meta.glob('../assets/about/*.{mp4,webm}', {
@@ -2451,6 +2452,14 @@
                         </ol>
                     </section>
                 </div>
+                <p class="text-ink-soft">
+                    Made for the <a
+                        class="underline hover:text-ink"
+                        href={hackathon_url}
+                        target="_blank"
+                        rel="noopener">AI Challenge in Service of Islamic Content</a
+                    >
+                </p>
                 <p class="text-muted text-sm">
                     <a
                         class="underline hover:text-ink"
@@ -2542,6 +2551,14 @@
             >
                 Behind the journey {@render icon('next')}
             </a>
+            <p class="{fine_print} basis-full">
+                Made for the <a
+                    class="underline hover:text-ink"
+                    href={hackathon_url}
+                    target="_blank"
+                    rel="noopener">AI Challenge in Service of Islamic Content</a
+                >
+            </p>
         </section>
     {:else if !map_open}
         <aside
