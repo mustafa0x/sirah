@@ -295,6 +295,8 @@ export const beat_shots = {
     N09a: shot('makkah', 0.6, 0.5, 2.6, 0.1),
     N09b: shot('makkah', -0.3, 0.3, 1.3, 0.05),
     N09c: shot('makkah', north - 0.2, 0.42, 4, 0.1),
+    // Out of Makkah, looking south down the valley towards Thawr.
+    N09d: shot('makkah_valley', north - 0.25, 0.36, 8.5, 0.1),
     N03a: shot('cave', north + 0.15, 0.13, 0.023, 0.0018),
     // Side on to the path, Thawr to the left and Makkah to the right, clear of the stage card:
     // ‘Abdullah's light comes up the path each night.

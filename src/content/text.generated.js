@@ -76,6 +76,14 @@ export const stage_text = {
                 },
                 source_ids: ['E20'],
             },
+            {
+                id: 'N09d',
+                text: 'Late that night the Prophet ﷺ left his house and set out with Abu Bakr, who carried all his savings with him. They did not take the road north to Madinah, but turned south, towards Yemen.',
+                young: {
+                    text: 'That night, the Prophet ﷺ and Abu Bakr quietly left Makkah. They went south, the opposite way to Madinah.',
+                },
+                source_ids: ['E34', 'E23', 'E24'],
+            },
         ],
         why: {
             text: 'Even with people plotting against him, he made sure their property was returned. His honesty did not depend on how he was treated.',
@@ -86,11 +94,11 @@ export const stage_text = {
         paragraphs: [
             {
                 id: 'N03a',
-                text: 'The Prophet ﷺ and Abu Bakr slipped into a cave on Mount Thawr and stayed out of sight. For three nights, it would be their hiding place.',
+                text: 'About five miles on, they reached Mount Thawr. They climbed to a cave in its side and slipped inside, out of sight. For three nights, it would be their hiding place.',
                 young: {
                     text: 'The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights.',
                 },
-                source_ids: ['E03'],
+                source_ids: ['E24', 'E03'],
             },
             {
                 id: 'N03b',

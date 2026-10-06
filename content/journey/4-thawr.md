@@ -5,9 +5,9 @@
 stage: thawr
 
 ## N03a
-sources: E03
+sources: E24, E03
 
-The Prophet ﷺ and Abu Bakr slipped into a cave on Mount Thawr and stayed out of sight. For three nights, it would be their hiding place.
+About five miles on, they reached Mount Thawr. They climbed to a cave in its side and slipped inside, out of sight. For three nights, it would be their hiding place.
 
 ### young
 

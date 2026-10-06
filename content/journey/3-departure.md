@@ -31,6 +31,15 @@ In Ibn Ishaq’s account, “as it reached me,” ‘Ali stayed behind for anoth
 
 ‘Ali stayed behind to return the precious things that people had left with the Prophet ﷺ.
 
+## N09d
+sources: E34, E23, E24
+
+Late that night the Prophet ﷺ left his house and set out with Abu Bakr, who carried all his savings with him. They did not take the road north to Madinah, but turned south, towards Yemen.
+
+### young
+
+That night, the Prophet ﷺ and Abu Bakr quietly left Makkah. They went south, the opposite way to Madinah.
+
 ## why
 
 Even with people plotting against him, he made sure their property was returned. His honesty did not depend on how he was treated.
