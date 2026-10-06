@@ -4,53 +4,53 @@ stage: quba
 
 ## why
 
-A mosque was founded at Quba, making worship a part of life in the new home.
+At Quba the Prophet ﷺ founded the first mosque where he prayed openly with his companions, a mosque built on God-consciousness.
 
 ## moment: garments
-title: White garments
+title: Dressed in white
 
-On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear.
+On the road they met al-Zubayr, coming home from Syria with Muslim merchants, and he dressed the Prophet ﷺ and Abu Bakr in white. It was in white, shimmering in the mirage, that they were first seen from Madinah.
 
 ### young
 
-On the way, a friend called al-Zubayr gave them new white clothes.
+On the way, their friend al-Zubayr gave them white clothes to wear.
 
 ## event: quba
 title: Arrival at Quba
-when: Monday · 8 Rabi‘ al-Awwal · 23 September 622
+when: A Monday in Rabi‘ al-Awwal · September 622
 
-The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning.
+The reports agree it was a Monday. Ibn Ishaq gives the twelfth of the month; others give other days.
 
 ## event: stay
 title: The stay at Quba
-when: Four days, or more than ten nights
+when: From four days to fourteen nights
 
-Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it.
+Ibn Ishaq counts Monday to Thursday; ‘Urwah speaks of ten nights and more, and Anas of fourteen.
 
 ## note: E16
 reference: Sahih al-Bukhari 3906
 
 > فلبث رسول الله ﷺ في بني عمرو بن عوف بضع عشرة ليلة وأسس المسجد الذي أسس على التقوى، وصلى فيه رسول الله ﷺ
 
-The account gives a stay of more than ten nights among Bani ‘Amr ibn ‘Awf and the founding of a mosque there.
+‘Urwah tells how he stayed among Banu ‘Amr ibn ‘Awf, founded the mosque built on God-consciousness, and prayed in it.
 
 ## note: E28
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > أن رسول الله ﷺ لقي الزبير في ركب من المسلمين كانوا تجارا قافلين من الشام، فكسا الزبير رسول الله ﷺ وأبا بكر ثياب بياض
 
-On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear.
+‘Urwah tells of the meeting with al-Zubayr’s caravan of Muslim merchants, and the white clothes he gave the two travellers.
 
 ## note: E37
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > حتى نزل بهم في بني عمرو بن عوف، وذلك يوم الاثنين من شهر ربيع الأول
 
-The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning.
+‘Urwah gives the day he came down among Banu ‘Amr ibn ‘Awf: a Monday in the month of Rabi‘ al-Awwal.
 
 ## note: E38
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > فأقام رسول الله ﷺ بقباء في بني عمرو بن عوف يوم الاثنين ويوم الثلاثاء ويوم الأربعاء ويوم الخميس ... قلت: وقد تقدم فيما رواه البخاري من طريق الزهري، عن عروة، أنه أقام فيهم بضع عشرة ليلة
 
-Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it.
+Ibn Kathir sets Ibn Ishaq’s four days, Monday to Thursday, beside ‘Urwah’s report of ten nights and more.

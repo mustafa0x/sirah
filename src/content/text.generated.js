@@ -38,7 +38,7 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'The Hijrah is so central that the Islamic calendar counts its years from it.',
+            text: 'A home had to be offered before anyone could leave: the pledges at al-‘Aqabah gave the believers somewhere to go.',
         },
     },
     preparations: {
@@ -82,7 +82,7 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'Trust and careful planning sit side by side: the Prophet ﷺ relied on Allah and still prepared every step.',
+            text: 'Waiting on Allah’s permission and preparing every detail went together: camels fed for months, a guide hired, food packed.',
         },
     },
     departure: {
@@ -125,7 +125,7 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'Even with people plotting against him, he made sure their property was returned. His honesty did not depend on how he was treated.',
+            text: 'His honesty held even then: on the night Quraysh plotted his death, he left ‘Ali to return all that Makkah had entrusted to him.',
         },
     },
     thawr: {
@@ -176,7 +176,7 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'In the most frightening moment, the lesson is calm trust: Allah is with us.',
+            text: 'At the most frightening moment came the calmest words: “Do not grieve; Allah is with us.”',
         },
     },
     onward: {
@@ -204,7 +204,7 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'Choosing an unexpected route was wisdom, not doubt. Muslims are taught to trust Allah and still take sensible steps.',
+            text: 'Hunted as they were, they kept to the truth: “This man guides me on the way,” Abu Bakr said, and meant the way of good.',
         },
     },
     pursuit: {
@@ -236,7 +236,7 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'A man who set out to capture them left asking for their protection. The story is full of reversals like this.',
+            text: 'Hearts can turn in a moment: the man who rode out to capture them rode back to send every pursuer home.',
         },
     },
     tent: {
@@ -268,7 +268,7 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'Hospitality from strangers, and blessing in very little, run through the whole of the Prophet’s life.',
+            text: 'Blessing came to a tent with nothing to give, and the Prophet ﷺ, who brought it, drank last of all.',
         },
     },
     quba: {
@@ -309,7 +309,7 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'A mosque was founded at Quba, making worship a part of life in the new home.',
+            text: 'At Quba the Prophet ﷺ founded the first mosque where he prayed openly with his companions, a mosque built on God-consciousness.',
         },
     },
     arrival: {
@@ -365,10 +365,10 @@ export const stage_text = {
             },
         ],
         why: {
-            text: 'Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together.',
+            text: 'Madinah became home by being built together: emigrants and Ansar raised the mosque side by side, and were made brothers.',
         },
         recap: {
-            text: 'You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance.',
+            text: 'You followed the Hijrah from a promise made by night at al-‘Aqabah to a prayer for Madinah: a long wait, three nights in a cave, a hunter turned protector, and a whole town out to welcome him.',
         },
     },
 }
@@ -376,110 +376,113 @@ export const stage_text = {
 export const places = {
     makkah: {
         label: 'Makkah',
-        description: 'Where the journey begins, with preparations for departure.',
+        description:
+            'His home, where he waited for permission and from where he slipped out by night with Abu Bakr.',
     },
     thawr: {
         label: 'Mount Thawr',
-        description: 'The account places a three-night stay in a cave here.',
+        description:
+            'Where the Prophet ﷺ and Abu Bakr hid in a cave for three nights while Quraysh searched for them.',
     },
     coast: {
         label: 'The coastal way',
         description:
-            'The guide led them by the coast. This line is schematic, not a measured route.',
+            'The guide led them down to the sea and along the shore, station after station, towards Madinah.',
     },
     quba: {
         label: 'Quba',
-        description: 'The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf.',
+        description:
+            'Where Madinah’s Muslims first met him, under a palm, and where he founded his mosque.',
     },
     madinah: {
         label: 'Madinah',
-        description: 'Where the journey closes, with arrival and a new beginning.',
+        description: 'Where his camel knelt, his mosque rose, and the emigrants made a new home.',
     },
 }
 
 export const moments = {
     ayyub: {
-        title: 'The house of Abu Ayyub',
-        text: 'He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar.',
+        title: 'Under Abu Ayyub’s roof',
+        text: 'Abu Ayyub carried the Prophet’s ﷺ saddle into his house. One day a jar of water broke upstairs, and he and his wife soaked it up with their only blanket, so that not a drop would fall on their guest.',
         young: {
-            text: 'He stayed in the house of Abu Ayyub until his mosque and his home were built.',
+            text: 'When water spilled upstairs, Abu Ayyub and his wife mopped it up with their only blanket, so none dripped on him.',
         },
     },
     belts: {
-        title: 'She of the two belts',
-        text: 'In Ibn Ishaq’s telling, when the three nights had passed, Asma brought their food but had no strap to hang the bag. She undid her waist-belt and tied it on, and so she was called She of the Two Belts.',
+        title: 'She of the two waistbands',
+        text: 'In another telling, it was at the cave that Asma’s waistband served them. She had brought their food but forgotten a strap to hang it by, so she split her waistband in two and hung the bag with one half.',
         young: {
-            text: 'Asma used her belt to tie up their food bag. People called her “the one with two belts”.',
+            text: 'Asma had nothing to tie up their food bag, so she split her waistband in two and used one half.',
         },
     },
     brothers: {
         title: 'Brothers',
-        text: 'He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on.',
+        text: 'The Prophet ﷺ made each emigrant a brother to one of the Ansar who had taken them in. Each pair stood by the other and shared what they had, and at first such brothers even inherited from one another.',
         young: {
-            text: 'He made the people who arrived and the people of Madinah brothers, to help each other.',
+            text: 'He made each newcomer a brother to someone from Madinah, so they would help each other and share.',
         },
     },
     camel: {
-        title: 'Let her go',
-        text: 'Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar.',
+        title: 'Let her go her way',
+        text: 'Even his mother’s kin, Banu ‘Adi ibn al-Najjar, called out, “Come to your mother’s people.” “Let her go her way,” he said. “She is under orders.” She walked on, and knelt among Banu Malik ibn al-Najjar.',
         young: {
-            text: 'Everyone wanted the Prophet ﷺ to stay with them. He said: let the camel go, she has been told where to stop.',
+            text: 'Everyone wanted the Prophet ﷺ to stay with them. “Let my camel go,” he said. “She knows where to stop.”',
         },
     },
     friday: {
         title: 'The first Friday',
-        text: 'After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men.',
+        text: 'He rode out of Quba on a Friday. On the way, the time for prayer came among Banu Salim ibn ‘Awf, and he prayed it in their mosque in the valley of Ranuna: his first Friday prayer in Madinah.',
         young: {
-            text: 'On his way into Madinah, the Prophet ﷺ led Friday prayer with about a hundred people.',
+            text: 'On his way into Madinah, the Prophet ﷺ stopped to lead the Friday prayer for the very first time there.',
         },
     },
     garments: {
-        title: 'White garments',
-        text: 'On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear.',
+        title: 'Dressed in white',
+        text: 'On the road they met al-Zubayr, coming home from Syria with Muslim merchants, and he dressed the Prophet ﷺ and Abu Bakr in white. It was in white, shimmering in the mirage, that they were first seen from Madinah.',
         young: {
-            text: 'On the way, a friend called al-Zubayr gave them new white clothes.',
+            text: 'On the way, their friend al-Zubayr gave them white clothes to wear.',
         },
     },
     song: {
         title: 'The full moon has risen',
-        text: 'A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there.',
+        text: 'As he came, the women and children of Madinah sang: “The full moon has risen over us, from the passes of al-Wada‘. Thanks are due from us, as long as anyone calls to Allah.”',
         young: {
-            text: 'Many people remember a happy song sung to welcome him, but we are not sure it was sung that day.',
+            text: 'The women and children sang a song of welcome: “The full moon has risen over us!”',
         },
     },
     south: {
-        title: 'Why south?',
-        text: 'Madinah lies to the north, and that is where a search would begin. They left in the opposite direction, on the road towards Yemen, for about five miles to Mount Thawr.',
+        title: 'South, not north',
+        text: 'Madinah lay to the north, but that was not the road they took. Under cover of night they turned the opposite way, south on the road towards Yemen, and went about five miles to Mount Thawr.',
         young: {
-            text: 'Madinah is to the north. They went south first, towards Mount Thawr.',
+            text: 'Madinah was to the north, but they went south first, to a mountain called Thawr.',
         },
     },
     stations: {
-        title: 'The stations of the road',
-        text: 'Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate.',
+        title: 'The road by the sea',
+        text: 'The guide led them down below Makkah and along the coast, out onto the road below ‘Usfan. Then he took them by lower Amaj, and back to the road past Qudayd, one station after another.',
         young: {
-            text: 'Their guide knew the desert well. He led them along the coast, past many places whose names we still know.',
+            text: 'Their guide knew the desert well. He led them down to the sea and along the coast, from one place to the next.',
         },
     },
     visit: {
         title: 'The noon visit',
-        text: 'At the height of noon, an hour at which he never used to come, the Prophet ﷺ arrived at Abu Bakr’s house with his face covered. He said he had been given permission to leave. Abu Bakr asked to go with him, and he said yes.',
+        text: 'In the full heat of noon, someone called to Abu Bakr: the Messenger of Allah ﷺ was at the door, his head covered, at an hour he never came. “Allah has given me permission to leave,” he said.',
         young: {
-            text: 'One hot noon, the Prophet ﷺ came to Abu Bakr’s house with big news: it was time to go. Abu Bakr asked to come too, and he said yes.',
+            text: 'One hot noon the Prophet ﷺ knocked at Abu Bakr’s door with big news: “Allah has given me permission to leave.”',
         },
     },
     wealth: {
-        title: 'Stones in the niche',
-        text: 'Abu Bakr took all his money with him, five or six thousand dirhams. Asma recounts that her blind grandfather feared the family had been left with nothing. She put stones where the money used to be kept, covered them with a cloth, and guided his hand to them so that he would be at ease.',
+        title: 'All his money',
+        text: 'When Abu Bakr slipped out with the Prophet ﷺ that night, by a small door at the back of his house, he carried all his money with him: five or six thousand dirhams.',
         young: {
-            text: 'Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see.',
+            text: 'Abu Bakr took all his money with him for the journey, thousands of silver coins.',
         },
     },
     web: {
         title: 'The spider’s web',
-        text: 'The pursuers climbed the mountain and passed the cave. Seeing a spider’s web across its opening, they said no one could have gone in there, and moved on. Ibn Kathir calls this report’s chain good.',
+        text: 'At the mountain the trail grew confused, so the searchers climbed it and passed by the cave. Seeing a spider’s web across its entrance, they said, “If anyone had gone in here, there would be no web over it.”',
         young: {
-            text: 'Some tell that the searchers saw a spider’s web across the cave’s opening, and walked on.',
+            text: 'The searchers saw a spider’s web across the cave’s opening. “No one went in there,” they said, and walked on.',
         },
     },
 }
@@ -491,25 +494,25 @@ export const timeline_text = {
             text: 'The nights before Friday, Saturday and Sunday',
         },
         note: {
-            text: 'Al-Bukhari gives three nights. Which nights of the week they were comes from a later biography.',
+            text: '‘Aishah gives three nights. Which nights of the week they were was worked out by later biographers.',
         },
     },
     friday: {
-        title: 'The first Friday, and Madinah',
+        title: 'Into Madinah, on a Friday',
         when: {
-            text: 'Friday · 12 Rabi‘ al-Awwal · 27 September 622',
+            text: 'Friday, 12 Rabi‘ al-Awwal · 27 September 622',
         },
         note: {
-            text: 'That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay.',
+            text: 'Ibn Ishaq gives the Friday he left Quba; the day of the month was worked out by a modern biographer.',
         },
     },
     guide: {
-        title: 'The guide arrives',
+        title: 'The guide comes with the camels',
         when: {
-            text: 'Night of Monday, 1 Rabi‘ al-Awwal · 16 September 622',
+            text: 'Night of 1 Rabi‘ al-Awwal · 16 September 622',
         },
         note: {
-            text: 'The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning.',
+            text: 'He came after the third night, as agreed. Later biographers date it to the night of Monday.',
         },
     },
     leave: {
@@ -518,59 +521,59 @@ export const timeline_text = {
             text: 'Night of 27 Safar · 12–13 September 622',
         },
         note: {
-            text: 'The night of departure is in the accounts. Its place in the calendar is a modern reckoning.',
+            text: 'He had stayed on in Makkah through Muharram and Safar. The exact night was worked out by a modern biographer.',
         },
     },
     quba: {
         title: 'Arrival at Quba',
         when: {
-            text: 'Monday · 8 Rabi‘ al-Awwal · 23 September 622',
+            text: 'A Monday in Rabi‘ al-Awwal · September 622',
         },
         note: {
-            text: 'The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning.',
+            text: 'The reports agree it was a Monday. Ibn Ishaq gives the twelfth of the month; others give other days.',
         },
     },
     road: {
-        title: 'On the coastal road',
+        title: 'Suraqah on their trail',
         when: {
-            text: 'About a week',
+            text: 'A Tuesday, after the noon rest at Qudayd',
         },
         note: {
-            text: 'The accounts give the order of what happened on the road, but no days. The pursuit and the tent of Umm Ma‘bad fall somewhere in this week.',
+            text: 'Ibn Sa‘d gives this day; the other reports tell what happened in order, but name no day.',
         },
     },
     stay: {
         title: 'The stay at Quba',
         when: {
-            text: 'Four days, or more than ten nights',
+            text: 'From four days to fourteen nights',
         },
         note: {
-            text: 'Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it.',
+            text: 'Ibn Ishaq counts Monday to Thursday; ‘Urwah speaks of ten nights and more, and Anas of fourteen.',
         },
     },
 }
 
 export const source_notes = {
     E01: {
-        text: 'Some Muslims moved to Madinah before this departure; the selected passage also describes Abu Bakr waiting to accompany the Prophet ﷺ.',
+        text: '‘Aishah tells how many went ahead to Madinah, while Abu Bakr held himself back to travel with the Prophet ﷺ.',
     },
     E02: {
-        text: 'The selected passage describes provisions and Asma bint Abi Bakr using part of her waist-belt to tie the bag.',
+        text: '‘Aishah recalls the family making them ready in haste, and Asma tying the food bag with a piece of her waistband.',
     },
     E03: {
         text: '‘Aishah tells how the two reached a cave on Mount Thawr and hid there for three nights.',
     },
     E04: {
-        text: '‘Aishah tells how her brother ‘Abdullah spent the nights with them and brought them news from Makkah after dark.',
+        text: '‘Aishah tells how her brother ‘Abdullah spent the nights with them, was among Quraysh by morning, and brought their news after dark.',
     },
     E05: {
-        text: '‘Aishah tells how ‘Amir ibn Fuhayrah brought the ewes to the cave each evening of the three nights.',
+        text: '‘Aishah tells how ‘Amir ibn Fuhayrah brought his milking sheep to the cave after nightfall, on each of the three nights.',
     },
     E06: {
-        text: 'The selected passage describes hiring a skilled guide, entrusting him with two riding animals, and arranging the meeting at Thawr.',
+        text: '‘Aishah tells how they hired a skilled guide of Banu al-Dil, gave him their two camels, and set the meeting at Thawr.',
     },
     E07: {
-        text: 'The selected passage says that ‘Amir and the guide went with them and that the guide led them by the coastal way.',
+        text: '‘Aishah tells how ‘Amir ibn Fuhayrah and the guide set out with them, and how the guide took them by the coast road.',
     },
     E08: {
         text: 'Abu Bakr recalls fearing that anyone who looked down at his own feet would see them.',
@@ -582,94 +585,94 @@ export const source_notes = {
         text: 'Ibn Kathir explains the verse: Allah supported and aided His Messenger, who sheltered in the cave for three days.',
     },
     E11: {
-        text: 'The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf.',
+        text: '‘Urwah tells how Madinah heard he had left Makkah, and how he stayed among Banu ‘Amr ibn ‘Awf for ten nights and more.',
     },
     E12: {
-        text: 'The selected passage describes the mosque site and the Prophet ﷺ carrying bricks with the builders.',
+        text: '‘Urwah tells how the yard was built into a mosque, with the Prophet ﷺ carrying bricks alongside the builders.',
     },
     E13: {
-        text: 'Suraqah’s account records the reward offered for each of the two, and a report that figures had been seen near the coast.',
+        text: 'Suraqah recalls the blood-money offered for each of the two, and a man who had just seen dark figures by the coast.',
     },
     E14: {
-        text: 'Suraqah describes the forelegs of his horse sinking into the ground to the knees, and being thrown.',
+        text: 'Suraqah describes hearing the Prophet ﷺ recite, Abu Bakr looking back, and his own horse sinking to its knees.',
     },
     E15: {
-        text: 'They asked only that he keep their news hidden; ‘Amir ibn Fuhayrah wrote him a guarantee of safety.',
+        text: 'Suraqah recalls that they took nothing he offered and asked only for secrecy, and that ‘Amir wrote him a letter of safety on leather.',
     },
     E16: {
-        text: 'The account gives a stay of more than ten nights among Bani ‘Amr ibn ‘Awf and the founding of a mosque there.',
+        text: '‘Urwah tells how he stayed among Banu ‘Amr ibn ‘Awf, founded the mosque built on God-consciousness, and prayed in it.',
     },
     E17: {
-        text: 'He rode on with people walking beside him until his camel knelt at the site of the mosque in Madinah.',
+        text: '‘Urwah tells how people walked beside his camel until she knelt where his mosque now stands, then a yard for drying dates.',
     },
     E18: {
-        text: 'Ibn Ishaq reports that Quraysh met in Dar al-Nadwah to consult about the Prophet ﷺ once they feared him.',
+        text: 'Ibn Ishaq tells how Quraysh, now afraid of him, met in Dar al-Nadwah, the house where they settled all their affairs.',
     },
     E19: {
-        text: 'They gathered at his door at night; he told ‘Ali to sleep in his bed under his green cloak and assured him of safety.',
+        text: 'Seeing the men at his door, the Prophet ﷺ tells ‘Ali to sleep in his bed under his green cloak, and promises him safety.',
     },
     E20: {
-        text: '‘Ali was told to stay behind until he had returned the deposits people had left with the Prophet ﷺ.',
+        text: 'Ibn Ishaq tells why ‘Ali stayed behind: anyone in Makkah who feared for something precious had left it with the Prophet ﷺ.',
     },
     E21: {
-        text: 'They stopped at Umm Ma‘bad’s tent. She said they had no food or milk-giving ewe; the report then describes milk from one of her sheep.',
+        text: 'In Ibn Ishaq’s telling she has no food and only dry ewes; he milks one until the bowl froths: “Drink, Umm Ma‘bad.”',
     },
     E22: {
-        text: 'At the height of noon, an hour at which he never used to come, the Prophet ﷺ arrived at Abu Bakr’s house with his face covered. He said he had been given permission to leave. Abu Bakr asked to go with him, and he said yes.',
+        text: '‘Aishah remembers the noon visit, and Abu Bakr asking at once to go with him: “Companionship?” “Yes.”',
     },
     E23: {
-        text: 'Abu Bakr took all his money with him, five or six thousand dirhams. Asma recounts that her blind grandfather feared the family had been left with nothing. She put stones where the money used to be kept, covered them with a cloth, and guided his hand to them so that he would be at ease.',
+        text: 'Asma recalls her father taking all his money, and the stones she laid where it had been kept, under a cloth, to calm her grandfather.',
     },
     E24: {
-        text: 'Madinah lies to the north, and that is where a search would begin. They left in the opposite direction, on the road towards Yemen, for about five miles to Mount Thawr.',
+        text: 'Al-Mubarakfuri notes that he took the very opposite road from the one expected, south of Makkah towards Yemen.',
     },
     E25: {
-        text: 'Ibn Ishaq tells how Asma tied the food bag with her waist-belt, and so was called She of the Two Belts.',
+        text: 'Ibn Ishaq places Asma’s waistband at the cave, and gives it as the reason she was called Dhat al-Nitaqayn.',
     },
     E26: {
-        text: 'The report of the spider’s web across the cave’s opening, whose chain Ibn Kathir calls good.',
+        text: 'Ibn ‘Abbas tells of the web across the cave’s mouth; Ibn Kathir counts this among the best reports of it.',
     },
     E27: {
-        text: 'Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate.',
+        text: 'Ibn Ishaq names the places on the guide’s route, one by one, from below Makkah to the road beyond Qudayd.',
     },
     E28: {
-        text: 'On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear.',
+        text: '‘Urwah tells of the meeting with al-Zubayr’s caravan of Muslim merchants, and the white clothes he gave the two travellers.',
     },
     E29: {
-        text: 'After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men.',
+        text: 'Al-Mubarakfuri tells of the first Friday prayer among Banu Salim ibn ‘Awf, with a hundred men, in the mosque in the valley.',
     },
     E30: {
-        text: 'Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar.',
+        text: 'Ibn Ishaq tells how each clan was answered, “Let her go, for she is under orders,” until she knelt among Banu Malik ibn al-Najjar.',
     },
     E31: {
-        text: 'He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar.',
+        text: 'Ibn Ishaq tells how he lodged with Abu Ayyub until his mosque and rooms were built, working on them with emigrants and Ansar.',
     },
     E32: {
-        text: 'He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on.',
+        text: 'Ibn Kathir’s heading for the brotherhood: the Prophet ﷺ paired emigrants with Ansar so each newcomer had someone to lean on.',
     },
     E33: {
-        text: 'A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there.',
+        text: "Ibn ‘A'ishah, a later narrator who does not say who told him, describes women and children singing as the Prophet ﷺ arrived.",
     },
     E34: {
-        text: 'The night of departure is in the accounts. Its place in the calendar is a modern reckoning.',
+        text: 'Al-Mubarakfuri dates the night he left his house: 27 Safar, in the fourteenth year of his prophethood.',
     },
     E35: {
-        text: 'A modern biography names the three nights: the nights before Friday, Saturday and Sunday.',
+        text: 'Al-Mubarakfuri names the three nights in the cave: the nights before Friday, Saturday and Sunday.',
     },
     E36: {
-        text: 'The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning.',
+        text: 'Al-Mubarakfuri dates the guide’s coming with the two camels to the night of Monday, the first of Rabi‘ al-Awwal.',
     },
     E37: {
-        text: 'The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning.',
+        text: '‘Urwah gives the day he came down among Banu ‘Amr ibn ‘Awf: a Monday in the month of Rabi‘ al-Awwal.',
     },
     E38: {
-        text: 'Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it.',
+        text: 'Ibn Kathir sets Ibn Ishaq’s four days, Monday to Thursday, beside ‘Urwah’s report of ten nights and more.',
     },
     E39: {
-        text: 'That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay.',
+        text: 'Al-Mubarakfuri dates his arrival among Banu al-Najjar to Friday, 12 Rabi‘ al-Awwal, in the first year of the Hijrah.',
     },
     E40: {
-        text: 'Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood.',
+        text: 'Ibn Kathir gives her name, ‘Atikah, and her family, and calls her story well known, through routes that support one another.',
     },
 }
 

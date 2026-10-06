@@ -4,18 +4,18 @@ stage: setting
 
 ## why
 
-The Hijrah is so central that the Islamic calendar counts its years from it.
+A home had to be offered before anyone could leave: the pledges at al-‘Aqabah gave the believers somewhere to go.
 
 ## note: E01
 reference: Sahih al-Bukhari 3905
 
 > فهاجر من هاجر قبل المدينة ... وتجهز أبو بكر قبل المدينة ... فحبس أبو بكر نفسه على رسول الله ﷺ ليصحبه
 
-Some Muslims moved to Madinah before this departure; the selected passage also describes Abu Bakr waiting to accompany the Prophet ﷺ.
+‘Aishah tells how many went ahead to Madinah, while Abu Bakr held himself back to travel with the Prophet ﷺ.
 
 ## note: E11
 reference: Sahih al-Bukhari 3906
 
 > فسمع المسلمون بالمدينة بمخرج رسول الله ﷺ من مكة ... حتى نزل بهم في بني عمرو بن عوف ... فلبث رسول الله ﷺ في بني عمرو بن عوف بضع عشرة ليلة
 
-The selected arrival account describes people waiting and the stay among Bani ‘Amr ibn ‘Awf.
+‘Urwah tells how Madinah heard he had left Makkah, and how he stayed among Banu ‘Amr ibn ‘Awf for ten nights and more.

@@ -4,31 +4,31 @@ stage: thawr
 
 ## why
 
-In the most frightening moment, the lesson is calm trust: Allah is with us.
+At the most frightening moment came the calmest words: “Do not grieve; Allah is with us.”
 
 ## moment: belts
-title: She of the two belts
+title: She of the two waistbands
 
-In Ibn Ishaq’s telling, when the three nights had passed, Asma brought their food but had no strap to hang the bag. She undid her waist-belt and tied it on, and so she was called She of the Two Belts.
+In another telling, it was at the cave that Asma’s waistband served them. She had brought their food but forgotten a strap to hang it by, so she split her waistband in two and hung the bag with one half.
 
 ### young
 
-Asma used her belt to tie up their food bag. People called her “the one with two belts”.
+Asma had nothing to tie up their food bag, so she split her waistband in two and used one half.
 
 ## moment: web
 title: The spider’s web
 
-The pursuers climbed the mountain and passed the cave. Seeing a spider’s web across its opening, they said no one could have gone in there, and moved on. Ibn Kathir calls this report’s chain good.
+At the mountain the trail grew confused, so the searchers climbed it and passed by the cave. Seeing a spider’s web across its entrance, they said, “If anyone had gone in here, there would be no web over it.”
 
 ### young
 
-Some tell that the searchers saw a spider’s web across the cave’s opening, and walked on.
+The searchers saw a spider’s web across the cave’s opening. “No one went in there,” they said, and walked on.
 
 ## event: cave
 title: Three nights at Thawr
 when: The nights before Friday, Saturday and Sunday
 
-Al-Bukhari gives three nights. Which nights of the week they were comes from a later biography.
+‘Aishah gives three nights. Which nights of the week they were was worked out by later biographers.
 
 ## note: E03
 reference: Sahih al-Bukhari 3905
@@ -42,14 +42,14 @@ reference: Sahih al-Bukhari 3905
 
 > يبيت عندهما عبد الله بن أبي بكر ... فيصبح مع قريش بمكة ... حتى يأتيهما بخبر ذلك حين يختلط الظلام
 
-‘Aishah tells how her brother ‘Abdullah spent the nights with them and brought them news from Makkah after dark.
+‘Aishah tells how her brother ‘Abdullah spent the nights with them, was among Quraysh by morning, and brought their news after dark.
 
 ## note: E05
 reference: Sahih al-Bukhari 3905
 
 > ويرعى عليهما عامر بن فهيرة ... فيريحها عليهما حين تذهب ساعة من العشاء ... يفعل ذلك في كل ليلة من تلك الليالي الثلاث
 
-‘Aishah tells how ‘Amir ibn Fuhayrah brought the ewes to the cave each evening of the three nights.
+‘Aishah tells how ‘Amir ibn Fuhayrah brought his milking sheep to the cave after nightfall, on each of the three nights.
 
 ## note: E08
 reference: Sahih al-Bukhari 3653
@@ -77,18 +77,18 @@ reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > وأتتهما أسماء بنت أبي بكر بسفرتهما، ونسيت أن تجعل لها عصاما ... فتحل نطاقها فتجعله عصاما ثم علقتها به. فكان يقال لها: ذات النطاقين لذلك
 
-Ibn Ishaq tells how Asma tied the food bag with her waist-belt, and so was called She of the Two Belts.
+Ibn Ishaq places Asma’s waistband at the cave, and gives it as the reason she was called Dhat al-Nitaqayn.
 
 ## note: E26
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > فصعدوا الجبل فمروا بالغار، فرأوا على بابه نسج العنكبوت، فقالوا: لو دخل ها هنا أحد لم يكن نسج العنكبوت على بابه، فمكث فيه ثلاث ليال. وهذا إسناد حسن، وهو من أجود ما روي في قصة نسج العنكبوت على فم الغار
 
-The report of the spider’s web across the cave’s opening, whose chain Ibn Kathir calls good.
+Ibn ‘Abbas tells of the web across the cave’s mouth; Ibn Kathir counts this among the best reports of it.
 
 ## note: E35
 reference: Al-Rahiq al-Makhtum
 
 > وكمنا في الغار ثلاث ليال، ليلة الجمعة وليلة السبت وليلة الأحد
 
-A modern biography names the three nights: the nights before Friday, Saturday and Sunday.
+Al-Mubarakfuri names the three nights in the cave: the nights before Friday, Saturday and Sunday.

@@ -4,40 +4,40 @@ stage: onward
 
 ## why
 
-Choosing an unexpected route was wisdom, not doubt. Muslims are taught to trust Allah and still take sensible steps.
+Hunted as they were, they kept to the truth: “This man guides me on the way,” Abu Bakr said, and meant the way of good.
 
 ## moment: stations
-title: The stations of the road
+title: The road by the sea
 
-Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate.
+The guide led them down below Makkah and along the coast, out onto the road below ‘Usfan. Then he took them by lower Amaj, and back to the road past Qudayd, one station after another.
 
 ### young
 
-Their guide knew the desert well. He led them along the coast, past many places whose names we still know.
+Their guide knew the desert well. He led them down to the sea and along the coast, from one place to the next.
 
 ## event: guide
-title: The guide arrives
-when: Night of Monday, 1 Rabi‘ al-Awwal · 16 September 622
+title: The guide comes with the camels
+when: Night of 1 Rabi‘ al-Awwal · 16 September 622
 
-The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning.
+He came after the third night, as agreed. Later biographers date it to the night of Monday.
 
 ## note: E07
 reference: Sahih al-Bukhari 3905
 
 > وانطلق معهما عامر بن فهيرة والدليل، فأخذ بهما طريق السواحل
 
-The selected passage says that ‘Amir and the guide went with them and that the guide led them by the coastal way.
+‘Aishah tells how ‘Amir ibn Fuhayrah and the guide set out with them, and how the guide took them by the coast road.
 
 ## note: E27
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > سلك بهما أسفل مكة ثم مضى بهما على الساحل حتى عارض الطريق أسفل من عسفان، ثم سلك بهما على أسفل أمج، ثم استجاز بهما حتى عارض الطريق بعد أن أجاز قديدا
 
-Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate.
+Ibn Ishaq names the places on the guide’s route, one by one, from below Makkah to the road beyond Qudayd.
 
 ## note: E36
 reference: Al-Rahiq al-Makhtum
 
 > فلما كانت ليلة الإثنين- غرة ربيع الأول سنة ١ ه/ ١٦ سبتمبر سنة ٦٢٢ م- جاءهما عبد الله بن أريقط بالراحلتين
 
-The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning.
+Al-Mubarakfuri dates the guide’s coming with the two camels to the night of Monday, the first of Rabi‘ al-Awwal.

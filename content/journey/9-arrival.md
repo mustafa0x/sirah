@@ -4,115 +4,115 @@ stage: arrival
 
 ## why
 
-Madinah became a home for the growing Muslim community, bringing newcomers and their hosts together.
+Madinah became home by being built together: emigrants and Ansar raised the mosque side by side, and were made brothers.
 
 ## recap
 
-You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance.
+You followed the Hijrah from a promise made by night at al-‘Aqabah to a prayer for Madinah: a long wait, three nights in a cave, a hunter turned protector, and a whole town out to welcome him.
 
 ## moment: friday
 title: The first Friday
 
-After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men.
+He rode out of Quba on a Friday. On the way, the time for prayer came among Banu Salim ibn ‘Awf, and he prayed it in their mosque in the valley of Ranuna: his first Friday prayer in Madinah.
 
 ### young
 
-On his way into Madinah, the Prophet ﷺ led Friday prayer with about a hundred people.
+On his way into Madinah, the Prophet ﷺ stopped to lead the Friday prayer for the very first time there.
 
 ## moment: camel
-title: Let her go
+title: Let her go her way
 
-Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar.
+Even his mother’s kin, Banu ‘Adi ibn al-Najjar, called out, “Come to your mother’s people.” “Let her go her way,” he said. “She is under orders.” She walked on, and knelt among Banu Malik ibn al-Najjar.
 
 ### young
 
-Everyone wanted the Prophet ﷺ to stay with them. He said: let the camel go, she has been told where to stop.
+Everyone wanted the Prophet ﷺ to stay with them. “Let my camel go,” he said. “She knows where to stop.”
 
 ## moment: ayyub
-title: The house of Abu Ayyub
+title: Under Abu Ayyub’s roof
 
-He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar.
+Abu Ayyub carried the Prophet’s ﷺ saddle into his house. One day a jar of water broke upstairs, and he and his wife soaked it up with their only blanket, so that not a drop would fall on their guest.
 
 ### young
 
-He stayed in the house of Abu Ayyub until his mosque and his home were built.
+When water spilled upstairs, Abu Ayyub and his wife mopped it up with their only blanket, so none dripped on him.
 
 ## moment: brothers
 title: Brothers
 
-He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on.
+The Prophet ﷺ made each emigrant a brother to one of the Ansar who had taken them in. Each pair stood by the other and shared what they had, and at first such brothers even inherited from one another.
 
 ### young
 
-He made the people who arrived and the people of Madinah brothers, to help each other.
+He made each newcomer a brother to someone from Madinah, so they would help each other and share.
 
 ## moment: song
 title: The full moon has risen
 
-A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there.
+As he came, the women and children of Madinah sang: “The full moon has risen over us, from the passes of al-Wada‘. Thanks are due from us, as long as anyone calls to Allah.”
 
 ### young
 
-Many people remember a happy song sung to welcome him, but we are not sure it was sung that day.
+The women and children sang a song of welcome: “The full moon has risen over us!”
 
 ## event: friday
-title: The first Friday, and Madinah
-when: Friday · 12 Rabi‘ al-Awwal · 27 September 622
+title: Into Madinah, on a Friday
+when: Friday, 12 Rabi‘ al-Awwal · 27 September 622
 
-That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay.
+Ibn Ishaq gives the Friday he left Quba; the day of the month was worked out by a modern biographer.
 
 ## note: E12
 reference: Sahih al-Bukhari 3906
 
 > ثم بناه مسجدًا. فطفق رسول الله ﷺ ينقل معهم اللبن في بنيانه
 
-The selected passage describes the mosque site and the Prophet ﷺ carrying bricks with the builders.
+‘Urwah tells how the yard was built into a mosque, with the Prophet ﷺ carrying bricks alongside the builders.
 
 ## note: E17
 reference: Sahih al-Bukhari 3906
 
 > ثم ركب راحلته وسار يمشي معه الناس حتى بركت عند مسجد رسول الله ﷺ بالمدينة، وهو يصلي فيه يومئذ رجال من المسلمين. وكان مربدا للتمر
 
-He rode on with people walking beside him until his camel knelt at the site of the mosque in Madinah.
+‘Urwah tells how people walked beside his camel until she knelt where his mosque now stands, then a yard for drying dates.
 
 ## note: E29
 reference: Al-Rahiq al-Makhtum
 
 > فأدركته الجمعة في بني سالم بن عوف فجمع بهم في المسجد الذي في بطن الوادي وكانوا مائة رجل
 
-After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men.
+Al-Mubarakfuri tells of the first Friday prayer among Banu Salim ibn ‘Awf, with a hundred men, in the mosque in the valley.
 
 ## note: E30
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > قال: " خلوا سبيلها فإنها مأمورة " فخلوا سبيلها. فانطلقت ... حتى إذا أتت دار بني مالك بن النجار بركت
 
-Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar.
+Ibn Ishaq tells how each clan was answered, “Let her go, for she is under orders,” until she knelt among Banu Malik ibn al-Najjar.
 
 ## note: E31
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > ونزل رسول الله ﷺ في دار أبي أيوب حتى بنى مسجده ومساكنه فعمل فيه رسول الله ﷺ والمسلمون من المهاجرين والأنصار
 
-He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar.
+Ibn Ishaq tells how he lodged with Abu Ayyub until his mosque and rooms were built, working on them with emigrants and Ansar.
 
 ## note: E32
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > فصل في مؤاخاة النبي ﷺ بين المهاجرين والانصار ليرتفق المهاجرى بالانصارى
 
-He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on.
+Ibn Kathir’s heading for the brotherhood: the Prophet ﷺ paired emigrants with Ansar so each newcomer had someone to lean on.
 
 ## note: E33
 reference: Ibn Kathir, al-Bidayah wa al-Nihayah
 
 > سمعت ابن عائشة يقول: لما قدم رسول الله ﷺ المدينة جعل النساء والصبيان يقلن: طلع البدر علينا * من ثنيات الوداع
 
-A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there.
+Ibn ‘A'ishah, a later narrator who does not say who told him, describes women and children singing as the Prophet ﷺ arrived.
 
 ## note: E39
 reference: Al-Rahiq al-Makhtum
 
 > نزول رسول الله ﷺ بالمدينة في بني النجار كان يوم الجمعة (١٢ ربيع الأول سنة ١ ه الموافق ٢٧ سبتمبر سنة ٦٢٢ م)
 
-That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay.
+Al-Mubarakfuri dates his arrival among Banu al-Najjar to Friday, 12 Rabi‘ al-Awwal, in the first year of the Hijrah.
