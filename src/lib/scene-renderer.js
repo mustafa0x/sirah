@@ -1390,7 +1390,7 @@ export async function create_scene(
             scene.add(root)
             return { root, torso, limbs, top: legs.top }
         }
-        const camel = build_animal({
+        const camel_shape = {
             color: 0xc79a62,
             body: { size: [0.95, 0.36, 0.34], at: [0, 0.74, 0] },
             hump: { size: [0.3, 0.3, 0.28], at: [-0.05, 0.96, 0] },
@@ -1406,7 +1406,11 @@ export async function create_scene(
                     [-0.36, -0.11],
                 ],
             },
-        })
+        }
+        const camel = build_animal(camel_shape)
+        // The two camels the guide brought to Thawr. From there on they travel at the head of the
+        // route in place of the four's marker: riderless, never figures.
+        const pair = [build_animal(camel_shape), build_animal(camel_shape)]
         const horse = build_animal({
             color: 0x5a4030,
             body: { size: [0.9, 0.32, 0.28], at: [0, 0.72, 0] },
@@ -1894,8 +1898,6 @@ export async function create_scene(
             // yard and kneels, and the mosque rises there (N05b), all on the narration clock.
             const town = worlds.madinah
             const in_town = active.name === 'madinah' && arrival
-            const last_leg = town?.routes.find((route) => route.leg === 2)
-            const walking = active.name === 'madinah' && !arrival && last_leg?.shown > 0.002
             camel.root.visible = false
             if (in_town && arrival.phase !== 'built') {
                 const pose = camel_pose(arrival)
@@ -1930,16 +1932,6 @@ export async function create_scene(
                 town.mosque.visible = Boolean(in_town) && arrival.phase !== 'approach'
                 if (town.mosque.visible)
                     for (const wall of town.mosque.children) wall.scale.y = arrival.build
-            }
-            if (walking) {
-                stand_on(camel, last_leg, 0.05)
-                const arrived = last_leg.shown >= 0.998
-                const stride = arrived || reduced_motion ? 0 : Math.sin(now / 170) * 0.45
-                camel.limbs.forEach((limb, index) => {
-                    limb.rotation.z = index % 3 === 0 ? stride : -stride
-                    limb.scale.y = mix(limb.scale.y, arrived ? 0.25 : 1, 1 - Math.exp(-delta * 3))
-                })
-                camel.torso.position.y = (camel.limbs[0].scale.y - 1) * camel.top
             }
             // Suraqah's horse gallops up the road from behind the four, closing on them while he
             // rides hard; as the caption reaches 'his horse sank', its forelegs sink slowly to the
@@ -2161,9 +2153,34 @@ export async function create_scene(
                 searcher.core.visible = searcher.glow.visible = true
             })
             // The marker shows where the line is still being drawn, not a resting place.
+            // On foot from Makkah to Thawr the four are a marker; from Thawr, their two camels.
+            const mounted = Boolean(tip) && tip.leg >= 1
+            const pair_shown =
+                mounted &&
+                !in_town &&
+                !tent.visible &&
+                !abdullah.group.visible &&
+                !amir.group.visible
+            pair.forEach((animal, index) => {
+                animal.root.visible = false
+                if (!pair_shown) return
+                // A steady size on screen, never smaller than Suraqah's horse close by.
+                const size = Math.max(
+                    (distance * 0.022) / worlds[tip.world].scale,
+                    horse.root.visible ? 0.2 : 0,
+                )
+                stand_on(animal, tip, size, index * size * 1.4)
+                const moving = tip.shown < 0.998 && !reduced_motion
+                const stride = moving ? Math.sin(now / 170 + index * 1.7) * 0.45 : 0
+                animal.limbs.forEach((limb, leg) => {
+                    limb.rotation.z = leg % 3 === 0 ? stride : -stride
+                    limb.scale.y = 1
+                })
+                animal.torso.position.y = 0
+            })
             traveller.visible =
                 Boolean(tip) &&
-                !walking &&
+                !mounted &&
                 !tent.visible &&
                 !abdullah.group.visible &&
                 !amir.group.visible
