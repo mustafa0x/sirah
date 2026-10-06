@@ -178,9 +178,15 @@ title: Quba: the first stop
 
 ## N05a
 from: hch_quba §1
-sources: sp_quba_chapter_01:p1, sp_quba_chapter_02:p1–p2, sp_quba_chapter_03:p1–p2
+sources: sp_quba_chapter_02:p1–p2, sp_quba_chapter_03:p1–p2
 
-Each morning the Ansar, the Muslims of Madinah, watched for him until the heat drove them in. Then a man on a fort saw the travellers in white, shimmering in the mirage: “Here is the one you have been waiting for!”
+Word had reached Madinah that the Prophet ﷺ had left Makkah. Every morning after the dawn prayer, its Muslims, the Ansar, walked out to the edge of the lava plain and watched for him, until the sun took the last of the shade and drove them home.
+
+## N05c
+from: hch_quba §1
+sources: sp_quba_chapter_01:p1, sp_quba_chapter_03:p1–p2
+
+One day, when they had already given up and gone in, the first to see him was not one of them at all. A Jewish man on one of the forts saw the travellers in white, shimmering in the mirage: “Here is the one you have been waiting for!”
 
 ## N07a
 from: hch_quba §2

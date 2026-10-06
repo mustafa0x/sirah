@@ -120,7 +120,11 @@ After they left, her husband came home. She told him of their guest: a shining f
 
 ## N05a
 
-In Madinah, people waited every morning in the hot sun. At last a man shouted: he is here!
+In Madinah, people went out every morning to wait for him, until the sun grew too hot.
+
+## N05c
+
+One day, a man up on a tower saw travellers in white coming. “He is here!” he shouted.
 
 ## N07a
 

@@ -348,6 +348,8 @@ export const beat_shots = {
     // Her description of the visitor, the riders already gone up the road.
     N10c: { ...shot('tent', south + 0.4, 0.45, 5, 0.2), follow: 1 },
     N05a: shot('quba', south + 0.5, 0.45, 5.2, 0.1),
+    // The man on the fort sees them coming in.
+    N05c: shot('quba', south + 0.5, 0.45, 5.2, 0.1),
     // Above the palms of Quba rather than among their trunks.
     N07a: shot('quba', south + 0.35, 0.6, 1.1, 0.02),
     // ‘Ali arrives, the mosque at Quba, and the ride on.
@@ -386,8 +388,8 @@ export const step_scenes = {
     pursuit: { mood: 'day', route: [one, [0.25, 0.32]] },
     tent: { mood: 'gold', route: [one, [0.32, 0.4, 0.4]] },
     // The road from the tent is drawn on the way here; the last approach into Quba, the part in
-    // the Quba view, is drawn in N05a, arriving as the man on the fort calls out.
-    quba: { mood: 'gold', route: [one, [0.97, 1, 0.7, 'N05a']] },
+    // the Quba view, is drawn as the man on the fort sees them (N05c).
+    quba: { mood: 'gold', route: [one, [0.97, 1, 0.8, 'N05c']] },
     arrival: { mood: 'day', route: [one, one, [0, 1, 0.5]] },
 }
 
