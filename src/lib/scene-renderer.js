@@ -1492,6 +1492,8 @@ export async function create_scene(
         tent.visible = false
         scene.add(tent)
         let actor = null
+        // How far the travellers' marker has grown into its size beside the horse, 0 to 1.
+        let traveller_chase = 0
         let arrival = null
         // Video capture can hide the route lines for scenic shots.
         let routes_shown = true
@@ -1934,7 +1936,7 @@ export async function create_scene(
             if (actor === 'horse' && active.name === 'region' && road_leg) {
                 const played = beat_progress ?? 1
                 const sink = smoothstep(0.62, 0.9, played)
-                stand_on(horse, road_leg, 0.22, mix(3.2, 0.45, smoothstep(0, 0.62, played)))
+                stand_on(horse, road_leg, 0.22, mix(3.8, 1.15, smoothstep(0, 0.62, played)))
                 const stride =
                     reduced_motion || sink > 0.98 ? 0 : (1 - sink) * Math.sin(now / 110) * 0.5
                 horse.limbs.forEach((limb, index) => {
@@ -2147,13 +2149,21 @@ export async function create_scene(
                     view.target.lerp(follow_point, reduced_motion ? 1 : 1 - Math.exp(-delta * 1.6))
                 }
                 // A steady size on screen; beside Suraqah's horse, never smaller than it, so the
-                // four read as the ones he is chasing.
-                const size = horse.root.visible
-                    ? Math.max(distance * 0.007, 0.16 * worlds[tip.world].scale)
-                    : distance * 0.007
+                // four read as the ones he is chasing. It grows into that size, and back, gently,
+                // and then sits on the ground rather than half in it.
+                const screen = distance * 0.007
+                const chase = horse.root.visible ? 1 : 0
+                traveller_chase +=
+                    (chase - traveller_chase) * (reduced_motion ? 1 : 1 - Math.exp(-delta * 1.6))
+                const size = mix(
+                    screen,
+                    Math.max(screen, 0.16 * worlds[tip.world].scale),
+                    traveller_chase,
+                )
                 traveller.scale.setScalar(
                     size * (reduced_motion ? 1 : 1 + 0.18 * Math.sin(now / 320)),
                 )
+                traveller.position.y += size * traveller_chase
             }
             for (const world of Object.values(worlds))
                 world.rings.forEach((ring, index) => {

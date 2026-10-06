@@ -337,7 +337,8 @@ export const beat_shots = {
     N04a: shot('thawr', south + 0.5, 0.5, 11, 0.1),
     N04b: { ...shot('coast', south + 0.5, 0.5, 9, 0.2), follow: 1 },
     N06a: { ...shot('road', south + 0.4, 0.42, 7, 0.2), follow: 1 },
-    N06b: { ...shot('road', south + 0.5, 0.26, 4.2, 0.2), follow: 1 },
+    // From the side, the road running across the view: the horse behind them on the left.
+    N06b: { ...shot('road', 0.15, 0.3, 4.2, 0.2), follow: 1 },
     N06c: { ...shot('road', south + 0.15, 0.5, 9, 0.2), follow: 1 },
     // The tent stands just north of the road, its open front to the south (scene-renderer.js);
     // these shots aim at it there, from in front.
