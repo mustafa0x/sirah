@@ -1885,13 +1885,15 @@ export async function create_scene(
             tent.visible = (actor === 'tent' || actor === 'ewe') && active.name === 'region'
             if (tent.visible) {
                 const milked = actor === 'ewe'
-                // Pitched just back from the line of the route, its front towards the camera.
                 const ground = locate('tent')
-                ground.x -= Math.sin(0.1) * 0.42
-                ground.z -= Math.cos(0.1) * 0.42
+                // The camera stands south of the tent (azimuth `facing`), so it is pitched just
+                // north of the road with its open front to the south.
+                const facing = 0.4 - Math.PI / 2
+                ground.x -= Math.sin(facing) * 0.42
+                ground.z -= Math.cos(facing) * 0.42
                 ground.y = active.terrain.height(ground.x, ground.z)
                 tent.position.copy(ground).multiplyScalar(active.scale)
-                tent.rotation.y = 0.1 - Math.PI / 2
+                tent.rotation.y = facing - Math.PI / 2
                 tent.scale.setScalar(0.24 * active.scale)
                 ewe.root.scale.setScalar(0.5)
                 // Side on to the camera in both beats.

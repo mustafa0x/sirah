@@ -292,7 +292,7 @@ const thawr_nights = shot('cave', south + 0.1, 0.2, 1.3, 0.06, [-0.45, 0, 0])
 
 export const beat_shots = {
     N01a: overview_shot,
-    N01b: shot('makkah', -0.4, 0.5, 8),
+    N01b: shot('makkah', south + 0.4, 0.5, 8),
     // The emigrants leave for Madinah: the whole road north.
     N01c: overview_shot,
     N02a: shot('makkah', south + 0.5, 0.45, 5, 0.1),
@@ -326,13 +326,13 @@ export const beat_shots = {
     N03e: shot('cave', north + 0.2, 0.02, 0.028, 0.0045),
     N04a: shot('thawr', south + 0.5, 0.5, 11, 0.1),
     N04b: { ...shot('coast', south + 0.5, 0.5, 9, 0.2), follow: 1 },
-    N06a: { ...shot('road', -0.5, 0.42, 7, 0.2), follow: 1 },
+    N06a: { ...shot('road', south + 0.4, 0.42, 7, 0.2), follow: 1 },
     N06b: { ...shot('road', south + 0.5, 0.26, 4.2, 0.2), follow: 1 },
     N06c: { ...shot('road', south + 0.15, 0.5, 9, 0.2), follow: 1 },
-    N10a: shot('tent', -0.3, 0.42, 4, 0.2),
-    N10b: shot('tent', 0.45, 0.3, 2.3, 0.2),
+    N10a: shot('tent', south + 0.2, 0.42, 4, 0.2),
+    N10b: shot('tent', south + 0.7, 0.3, 2.3, 0.2),
     // Her description of the visitor, the riders already gone up the road.
-    N10c: { ...shot('tent', -0.6, 0.45, 5, 0.2), follow: 1 },
+    N10c: { ...shot('tent', south + 0.4, 0.45, 5, 0.2), follow: 1 },
     N05a: shot('quba', south + 0.5, 0.45, 5.2, 0.1),
     // Above the palms of Quba rather than among their trunks.
     N07a: shot('quba', south + 0.35, 0.6, 1.1, 0.02),
