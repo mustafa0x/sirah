@@ -535,7 +535,7 @@
         map_open
             ? [1, 1, 1]
             : journey.started
-              ? route_at(selected_step.id, on_guided_stop ? stop_progress : 1)
+              ? route_at(selected_step.id, on_guided_stop ? stop_progress : 1, selected_step)
               : idle_route,
     )
     let cue_progress = $derived(

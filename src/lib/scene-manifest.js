@@ -312,7 +312,7 @@ export const beat_shots = {
     N09b: shot('makkah', -0.3, 0.3, 1.3, 0.05),
     N09c: shot('makkah', south + 0.3, 0.42, 3.2, 0.1),
     // Out of Makkah, looking south down the valley towards Thawr.
-    N09d: shot('makkah_valley', south - 0.25, 0.4, 9, 0.1),
+    N09d: shot('makkah_valley', south - 0.25, 0.5, 9.5, 0.1, [-1.9, 0, 0]),
     // Arriving from Makkah, high over Mount Thawr from the north, then in to the opening of
     // the shelter, which faces north, with its slope still around it.
     N03a: {
@@ -373,8 +373,9 @@ const one = [1, 1]
 export const step_scenes = {
     setting: { mood: 'gold', route: [] },
     preparations: { mood: 'dusk', route: [] },
-    departure: { mood: 'night', route: [] },
-    thawr: { mood: 'night', route: [[0, 1, 0.12]] },
+    // The road south to Thawr is drawn as they take it, in the departure's last caption.
+    departure: { mood: 'night', route: [[0, 1, 1, 'N09d']] },
+    thawr: { mood: 'night', route: [one] },
     onward: { mood: 'haze', route: [one, [0, 0.25]] },
     pursuit: { mood: 'day', route: [one, [0.25, 0.32]] },
     tent: { mood: 'gold', route: [one, [0.32, 0.4, 0.4]] },
@@ -382,10 +383,22 @@ export const step_scenes = {
     arrival: { mood: 'day', route: [one, one, [0, 1, 0.5]] },
 }
 
-export function route_at(step_id, progress) {
+// A leg may name the caption it is drawn in: it then runs across that caption only.
+export function route_at(step_id, progress, step = null) {
     return [0, 1, 2].map((leg) => {
-        const [from, to, span = 1] = step_scenes[step_id].route[leg] ?? [0, 0]
-        return from + (to - from) * Math.max(0, Math.min(1, progress / span))
+        const [from, to, span = 1, beat = null] = step_scenes[step_id].route[leg] ?? [0, 0]
+        let played = progress / span
+        const index = beat && step ? step.paragraphs.findIndex((item) => item.id === beat) : -1
+        if (index >= 0) {
+            const paragraph = step.paragraphs[index]
+            const count = step.paragraphs.length
+            const start =
+                paragraph.start !== undefined ? paragraph.start / step.duration : index / count
+            const end =
+                paragraph.end !== undefined ? paragraph.end / step.duration : (index + 1) / count
+            played = (progress - start) / Math.max(0.001, (end - start) * span)
+        }
+        return from + (to - from) * Math.max(0, Math.min(1, played))
     })
 }
 
