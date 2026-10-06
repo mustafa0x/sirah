@@ -186,7 +186,7 @@ Each morning the Ansar, the Muslims of Madinah, watched for him until the heat d
 from: hch_quba §2
 sources: sp_quba_chapter_01:p1, sp_quba_chapter_03:p1–p2
 
-They found him at Quba, a village just outside Madinah, resting under a palm with Abu Bakr. Most had never seen him, and greeted Abu Bakr, until the sun fell on the Prophet ﷺ and Abu Bakr shaded him with his cloak.
+At the cry the Muslims hurried out to meet him, and he went with them to Quba, just outside Madinah. Most had never seen him and greeted Abu Bakr, until the sun fell on the Prophet ﷺ and Abu Bakr shaded him with his cloak.
 
 ## N07b
 from: hch_quba §3–5

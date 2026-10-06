@@ -304,7 +304,7 @@ export const stage_text = {
             },
             {
                 id: 'N07a',
-                text: 'They found him at Quba, a village just outside Madinah, resting under a palm with Abu Bakr. Most had never seen him, and greeted Abu Bakr, until the sun fell on the Prophet ﷺ and Abu Bakr shaded him with his cloak.',
+                text: 'At the cry the Muslims hurried out to meet him, and he went with them to Quba, just outside Madinah. Most had never seen him and greeted Abu Bakr, until the sun fell on the Prophet ﷺ and Abu Bakr shaded him with his cloak.',
                 young: {
                     text: 'They found him resting in the shade of a palm tree at Quba, with Abu Bakr beside him.',
                 },
