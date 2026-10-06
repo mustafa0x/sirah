@@ -336,11 +336,12 @@ export async function create_scene(
         }
         const cycle_signal = playback_signal()
         const progress_signal = playback_signal()
+        // Most of each time-lapse day is night, when the visitors come and go.
         const night_phases = [
-            [0.5, 'night'],
-            [0.64, 'dusk'],
-            [0.8, 'gold'],
-            [0.92, 'dusk'],
+            [0.7, 'night'],
+            [0.78, 'dusk'],
+            [0.88, 'gold'],
+            [0.95, 'dusk'],
             [1, 'night'],
         ]
         const scratch_color = new THREE.Color()
@@ -1535,8 +1536,9 @@ export async function create_scene(
             return { group, halo, schedule }
         }
         // Night phases: up between the first pair, down between the second.
-        const abdullah = make_visitor(0xffc461, 0xff9a2e, 0xffb347, [0.02, 0.2, 0.3, 0.46])
-        const amir = make_visitor(0xb9d4ff, 0x7fa6ff, 0x9fbfff, [0.21, 0.29, 0.44, 0.54])
+        // ‘Abdullah's warm white centre stands out on the gold route line he follows.
+        const abdullah = make_visitor(0xfff3d6, 0xff9a2e, 0xffb347, [0.02, 0.42, 0.5, 0.66])
+        const amir = make_visitor(0xb9d4ff, 0x7fa6ff, 0x9fbfff, [0.36, 0.46, 0.6, 0.72])
         // ‘Amir's flock: pale specks that graze low on the slope by day and go up with him.
         const flock_material = new THREE.MeshBasicMaterial({ color: 0xeee3c8, fog: false })
         const flock = Array.from({ length: 8 }, () => {
@@ -1876,10 +1878,10 @@ export async function create_scene(
                     abdullah,
                     actor === 'visits_abdullah',
                     // The path ends at the foot of the summit; the last stretch is to the shelter.
-                    // The last stretch of the road from Makkah to the foot of the mountain, then,
-                    // for most of the way, the climb up its face to the shelter.
+                    // The whole road from Makkah, in view on the horizon, to the foot of the
+                    // mountain, then the climb up its face to the shelter.
                     (reach, target) => {
-                        if (reach <= 0.3) return along(cave_path, 0.8 + (0.2 * reach) / 0.3, target)
+                        if (reach <= 0.45) return along(cave_path, reach / 0.45, target)
                         // Up the mountain on the ground, round its east shoulder, the side the
                         // view faces; the road itself ends on the far, northern side.
                         const world = worlds.makkah
@@ -1893,7 +1895,7 @@ export async function create_scene(
                             ]),
                             [site.x, site.z],
                         ]
-                        const along_way = smooth((reach - 0.3) / 0.7) * (way.length - 1)
+                        const along_way = smooth((reach - 0.45) / 0.55) * (way.length - 1)
                         const leg = Math.min(way.length - 2, Math.floor(along_way))
                         const step = along_way - leg
                         const x = mix(way[leg][0], way[leg + 1][0], step)
@@ -1927,7 +1929,7 @@ export async function create_scene(
                 visitor.group.children.forEach((light, index) => {
                     place(reach + behind * index * 0.007, light.position)
                     light.position.y += distance * 0.004
-                    light.scale.setScalar(distance * 0.0065 * (1 - index / 26) * strength)
+                    light.scale.setScalar(distance * 0.009 * (1 - index / 26) * strength)
                 })
                 visitor.halo.position.copy(visitor.group.children[0].position)
                 visitor.halo.scale.setScalar(distance * 0.018 * strength)

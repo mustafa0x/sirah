@@ -146,6 +146,7 @@
         scene_pois,
         step_scenes,
         timelapse_beats,
+        timelapse_pace,
     } from '../lib/scene-manifest.js'
 
     const poi_shots = Object.fromEntries(
@@ -517,7 +518,7 @@
         if (!lapse || active_poi || map_open) return null
         if (stop_finished) return 1
         const [part, parts] = lapse
-        return (part + cue_progress) / parts
+        return timelapse_pace((part + cue_progress) / parts)
     })
     $effect(() => ambience.set_mood(mood))
     let night = $derived(Math.min(3, Math.floor((cycle ?? 0) * 3) + 1))

@@ -301,7 +301,13 @@ export const beat_shots = {
     N09c: shot('makkah', north - 0.2, 0.42, 4, 0.1),
     // Out of Makkah, looking south down the valley towards Thawr.
     N09d: shot('makkah_valley', north - 0.25, 0.36, 8.5, 0.1),
-    N03a: shot('cave', north + 0.15, 0.13, 0.023, 0.0018),
+    // Arriving from Makkah, high over Mount Thawr from the north, then in to the opening of
+    // the shelter, which faces north, with its slope still around it.
+    N03a: {
+        ...shot('cave', north - 0.2, 0.45, 2, 0.05),
+        push: shot('cave', north + 0.15, 0.22, 0.06, 0.005),
+        push_until: 0.85,
+    },
     // One view of the summit for both night visitors: ‘Abdullah comes up the path from Makkah,
     // ‘Amir brings the flock up from the lower slope.
     N03b: thawr_nights,
@@ -353,6 +359,9 @@ export function route_at(step_id, progress) {
 // Beats during which the sky runs through three nights, driven by playback position. The
 // nights run once across the beats sharing a time-lapse: [this beat's part, parts in all].
 export const timelapse_beats = { N03b: [0, 2], N03c: [1, 2] }
+// The first night plays slowly, to be followed; the other two pass more quickly.
+export const timelapse_pace = (played) =>
+    played < 0.7 ? played / 0.7 / 3 : 1 / 3 + ((played - 0.7) / 0.3) * (2 / 3)
 
 // Beats that set a cited passage in the scene itself.
 export const beat_passages = { N03e: 'E09' }
