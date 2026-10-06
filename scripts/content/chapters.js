@@ -12,6 +12,8 @@ import { tmpdir } from 'node:os'
 import path from 'node:path'
 import { chapter as journey } from '../../src/content/first-chapter.js'
 import { add_journey_passages, resolve, unit } from './passages.js'
+import { glossary_terms } from '../../src/content/text.generated.js'
+import { term_pattern } from '../../src/lib/terms.js'
 
 const root = path.resolve(import.meta.dirname, '../..')
 const source_dir = path.join(root, 'content/chapters')
@@ -399,6 +401,43 @@ export function compile_chapter(file) {
         }
     })
 
+    // Glossary terms: each is marked where it first appears in the chapter, in reading order,
+    // and listed as the chapter's terms.
+    const terms = []
+    const blocks = [
+        ...overview,
+        ...account.flatMap((s) => s.paragraphs),
+        ...in_depth.flatMap((s) => s.paragraphs),
+    ]
+    for (const block of blocks)
+        for (let i = 0; i < block.parts.length; i++) {
+            const part = block.parts[i]
+            if (part.text === undefined) continue
+            let first = null
+            for (const term of glossary_terms) {
+                if (term.id === 'pbuh' || terms.some((item) => item.id === term.id)) continue
+                for (const word of term.match) {
+                    const found = term_pattern(word).exec(part.text)
+                    if (found && (!first || found.index < first.index))
+                        first = { term, index: found.index, length: found[0].length }
+                }
+            }
+            if (!first) continue
+            terms.push({ id: first.term.id, word: first.term.word, meaning: first.term.meaning })
+            const before = part.text.slice(0, first.index)
+            const word = part.text.slice(first.index, first.index + first.length)
+            const after = part.text.slice(first.index + first.length)
+            block.parts.splice(
+                i,
+                1,
+                ...[
+                    before && { text: before },
+                    { text: word, term: first.term.id },
+                    after && { text: after },
+                ].filter(Boolean),
+            )
+        }
+
     const { questions, refs: question_refs } = compile_questions(
         file.replace(/\.md$/, '.questions.md'),
         chapter_id,
@@ -422,6 +461,7 @@ export function compile_chapter(file) {
             outline,
             in_depth,
             readings,
+            terms,
             source_units: [...units.values()]
                 .filter(Boolean)
                 .map((item) => ({ ...item, text: translations.get(item.unit_id) ?? null })),

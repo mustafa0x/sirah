@@ -220,6 +220,9 @@
                     href={href('readings', `${chapter_id}_n${part.note}`)}>{local_number(
                         part.note,
                     )}</a
+                >{:else if part.term}<abbr
+                    class="no-underline border-0 border-b border-dotted border-gold/70 cursor-help"
+                    title={chapter.terms?.find((item) => item.id === part.term)?.meaning}>{part.text}</abbr
                 >{:else}{part.text}{/if}{/each}
     {:else}
         {block.text}{@render marker(block.paragraph_id)}
@@ -517,6 +520,26 @@
                                 {/each}
                             </section>
                         {/each}
+                        {#if chapter.terms?.length}
+                            <section
+                                class="grid gap-3 pt-6 border-0 border-t border-solid border-line"
+                                aria-label="Terms"
+                            >
+                                <h3 class={heading}>Terms</h3>
+                                <dl class="grid gap-2">
+                                    {#each chapter.terms as term (term.id)}
+                                        <div class="grid gap-0.5">
+                                            <dt class="font-serif text-ink text-[1.0625rem]">
+                                                {term.word}
+                                            </dt>
+                                            <dd class="m-0 text-ink-soft leading-[1.6]">
+                                                {term.meaning}
+                                            </dd>
+                                        </div>
+                                    {/each}
+                                </dl>
+                            </section>
+                        {/if}
                     </div>
                 {/if}
                 {#if neighbours.previous || neighbours.next}

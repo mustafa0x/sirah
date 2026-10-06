@@ -117,6 +117,7 @@
         saved_mode,
     } from '../lib/mode.js'
     import { glossary, why_it_matters } from '../content/lenses.js'
+    import { mentions } from '../lib/terms.js'
     import { details } from '../content/details.js'
     import {
         create_practice,
@@ -535,9 +536,7 @@
     )
     // For someone new to the story: terms in the current caption, and why the stage matters.
     let caption_terms = $derived(
-        mode === 'new'
-            ? glossary.filter((item) => item.match.some((word) => story_text.includes(word)))
-            : [],
+        mode === 'new' ? glossary.filter((item) => mentions(story_text, item)) : [],
     )
     let stage_why = $derived(
         mode === 'new' && current_cue?.id === selected_step.paragraphs.at(-1)?.id

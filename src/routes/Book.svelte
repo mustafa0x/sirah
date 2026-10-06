@@ -25,6 +25,9 @@
                     class="ms-0.5 align-super px-[5px] text-[0.7rem] font-sans font-semibold text-gold bg-[rgba(232,178,87,0.12)] rounded-full no-underline hover:bg-gold hover:text-gold-ink"
                     href={`/chapters/${chapter.chapter_id}/readings/${chapter.chapter_id}_n${part.note}?lang=en`}
                     title={note_title(chapter, part.note)}>{part.note}</a
+                >{:else if part.term}<abbr
+                    class="no-underline border-0 border-b border-dotted border-gold/70 cursor-help"
+                    title={chapter.terms.find((item) => item.id === part.term)?.meaning}>{part.text}</abbr
                 >{:else}{part.text}{/if}{/each}
     </p>
 {/snippet}
@@ -80,6 +83,20 @@
                         {@render prose(chapter, block)}
                     {/each}
                 {/each}
+                {#if chapter.terms?.length}
+                    <details class="grid gap-3">
+                        <summary class="cursor-pointer text-gold font-semibold">Terms</summary>
+                        <dl class="grid gap-2 pt-3">
+                            {#each chapter.terms as term (term.id)}
+                                <div>
+                                    <dt class="inline font-serif text-ink">{term.word}</dt>
+                                    :
+                                    <dd class="inline m-0 text-ink-soft">{term.meaning}</dd>
+                                </div>
+                            {/each}
+                        </dl>
+                    </details>
+                {/if}
                 {#if chapter.in_depth.length}
                     <details class="grid gap-4 pt-4">
                         <summary class="cursor-pointer text-gold font-semibold">In depth</summary>
