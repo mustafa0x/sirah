@@ -15,7 +15,7 @@ run = 'pnpm dev'
 run = 'uv run api.py'
 
 [tasks.'dev:all']
-depends = ['dev:client', 'dev:api']
+depends = ['dev', 'dev:api']
 
 [tasks.'spikes:dev']
 run = 'pnpm --dir spikes/web dev'
