@@ -2114,8 +2114,10 @@ export async function create_scene(
         frame = window.requestAnimationFrame(render)
 
         api.set_shot = fly_to
-        api.set_mood = (name) => {
+        // `at_once` (video capture only) changes the light without easing, for a cut.
+        api.set_mood = (name, at_once = false) => {
             mood_target = moods[name] ?? moods.gold
+            if (at_once) blend_mood(1, mood_target)
         }
         api.set_route = (progress) => {
             for (let leg = 0; leg < leg_target.length; leg += 1)
