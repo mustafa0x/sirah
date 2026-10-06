@@ -7,7 +7,7 @@ stage: thawr
 ## N03a
 sources: E03
 
-The Prophet ﷺ and Abu Bakr reached a cave on Mount Thawr and hid inside it. They would stay there for three nights.
+The Prophet ﷺ and Abu Bakr slipped into a cave on Mount Thawr and stayed out of sight. For three nights, it would be their hiding place.
 
 ### young
 
@@ -16,7 +16,7 @@ The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights.
 ## N03b
 sources: E04
 
-Each night, Abu Bakr’s son ‘Abdullah slept near them. Before dawn he slipped back to Makkah, so that morning found him among Quraysh as if he had never left, and at dark he returned with any plot he had heard.
+They were not alone for long. Each night Abu Bakr’s son ‘Abdullah came after dark with whatever Quraysh were plotting, then slipped back before dawn, so that morning found him in Makkah as if he had never left.
 
 ### young
 
@@ -25,7 +25,7 @@ Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news 
 ## N03c
 sources: E05
 
-Abu Bakr’s freedman ‘Amir ibn Fuhayrah grazed a few milking ewes nearby and brought them to the cave after nightfall, so the two had milk. He did this on each of the three nights.
+And as darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought a few milking ewes to the cave, so the two had fresh milk. Every one of the three nights, he came.
 
 ### young
 
@@ -34,7 +34,7 @@ A shepherd called ‘Amir brought his sheep close every evening, so that they ha
 ## N03d
 sources: E08
 
-The searchers came so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”
+Then the searchers came close, so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”
 
 ### young
 
@@ -43,7 +43,7 @@ Abu Bakr was worried: if someone looked down, they would be seen! The Prophet �
 ## N03e
 sources: E09, E10
 
-Allah recalled this moment in the Quran: “the second of two, when they were in the cave, when he said to his companion, ‘Do not grieve; Allah is with us.’”
+Allah preserved that moment in the Quran: “the second of two, when they were in the cave, when he said to his companion, ‘Do not grieve; Allah is with us.’”
 
 ### young
 

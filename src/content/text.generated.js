@@ -86,7 +86,7 @@ export const stage_text = {
         paragraphs: [
             {
                 id: 'N03a',
-                text: 'The Prophet ﷺ and Abu Bakr reached a cave on Mount Thawr and hid inside it. They would stay there for three nights.',
+                text: 'The Prophet ﷺ and Abu Bakr slipped into a cave on Mount Thawr and stayed out of sight. For three nights, it would be their hiding place.',
                 young: {
                     text: 'The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights.',
                 },
@@ -94,7 +94,7 @@ export const stage_text = {
             },
             {
                 id: 'N03b',
-                text: 'Each night, Abu Bakr’s son ‘Abdullah slept near them. Before dawn he slipped back to Makkah, so that morning found him among Quraysh as if he had never left, and at dark he returned with any plot he had heard.',
+                text: 'They were not alone for long. Each night Abu Bakr’s son ‘Abdullah came after dark with whatever Quraysh were plotting, then slipped back before dawn, so that morning found him in Makkah as if he had never left.',
                 young: {
                     text: 'Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah.',
                 },
@@ -102,7 +102,7 @@ export const stage_text = {
             },
             {
                 id: 'N03c',
-                text: 'Abu Bakr’s freedman ‘Amir ibn Fuhayrah grazed a few milking ewes nearby and brought them to the cave after nightfall, so the two had milk. He did this on each of the three nights.',
+                text: 'And as darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought a few milking ewes to the cave, so the two had fresh milk. Every one of the three nights, he came.',
                 young: {
                     text: 'A shepherd called ‘Amir brought his sheep close every evening, so that they had milk to drink.',
                 },
@@ -110,7 +110,7 @@ export const stage_text = {
             },
             {
                 id: 'N03d',
-                text: 'The searchers came so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”',
+                text: 'Then the searchers came close, so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”',
                 young: {
                     text: 'Abu Bakr was worried: if someone looked down, they would be seen! The Prophet ﷺ calmed him.',
                 },
@@ -118,7 +118,7 @@ export const stage_text = {
             },
             {
                 id: 'N03e',
-                text: 'Allah recalled this moment in the Quran: “the second of two, when they were in the cave, when he said to his companion, ‘Do not grieve; Allah is with us.’”',
+                text: 'Allah preserved that moment in the Quran: “the second of two, when they were in the cave, when he said to his companion, ‘Do not grieve; Allah is with us.’”',
                 young: {
                     text: 'The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us.',
                 },
