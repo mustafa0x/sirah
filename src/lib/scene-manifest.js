@@ -5,6 +5,7 @@ import makkah_grid from '../assets/terrain/makkah.bin?url'
 import region_grid from '../assets/terrain/region.bin?url'
 import { details } from '../content/details.js'
 import shelter_asset from '../../art/thawr/trellis/model-web.glb?url'
+import { arrival_site } from './madinah-arrival.js'
 
 // One continuous relief with finer grids around the towns. Authored camera/set values
 // retain their original units; the renderer places them in the shared regional frame.
@@ -251,6 +252,8 @@ const shot = (place, azimuth, elevation, distance, height = 0.3, offset = null, 
 })
 
 const south = -Math.PI / 2
+// Where the camel starts her walk into the yard, relative to the town centre.
+const arrival_offset = [arrival_site.start[0], 0, arrival_site.start[1]]
 const north = Math.PI / 2
 
 // Looking north-west along the coast: the sea to the upper left, the route rising from
@@ -340,11 +343,23 @@ export const beat_shots = {
     N07b: shot('quba', south + 0.5, 0.45, 5.2, 0.1),
     // Close behind the camel as she walks from Quba into the town.
     N08a: { ...shot('quba', south + 0.3, 0.55, 1.8, 0.03), follow: 2 },
-    // The camel kneels in the town.
-    N08b: shot('madinah', south + 0.6, 0.55, 0.9, 0.02),
-    N05b: shot('madinah', south + 0.4, 0.5, 1, 0.02),
-    // The fever, and the prayer for the new home: the town from above.
-    N08c: shot('madinah', south + 0.5, 0.5, 4, 0.1),
+    // In the town: close behind the camel as she walks up from the south into the yard where
+    // dates were dried, and kneels (madinah-arrival.js).
+    N08b: {
+        ...shot('madinah', south + 0.35, 0.32, 0.07, 0.0014, arrival_offset),
+        follow: 'camel',
+        portrait: {
+            ...shot('madinah', south + 0.35, 0.38, 0.09, 0.0014, arrival_offset, 44),
+            follow: 'camel',
+        },
+    },
+    // The mosque's walls rise around the yard.
+    N05b: {
+        ...shot('madinah', south + 0.5, 0.62, 0.09, 0.001),
+        portrait: shot('madinah', south + 0.5, 0.8, 0.19, 0.001, [-0.006, 0, 0], 44),
+    },
+    // The fever, and the prayer for the new home: the town around its mosque, from above.
+    N08c: shot('madinah', south + 0.5, 0.55, 0.6, 0.01),
 }
 
 // Light and route progress per chapter step. The time of day is art direction only. Each

@@ -70,6 +70,7 @@
     )[0]
     const { route } = window.navgo
     import { change_language, fmt_num, saved_language } from '../lib/i18n.js'
+    import { arrival_state } from '../lib/madinah-arrival.js'
     import { locales, language_direction } from '../lib/locale-config.js'
     import { verified_sources_once } from '../lib/practice-binding.js'
     import { toggle_practice_source } from '../lib/practice-source.js'
@@ -531,6 +532,12 @@
               ? (stop_progress * selected_step.paragraphs.length) % 1
               : (journey.guided_position.seconds - current_cue.start) /
                 (current_cue.end - current_cue.start),
+    )
+    // The camel's arrival and the mosque in Madinah follow the narration clock.
+    let arrival = $derived(
+        current_cue && guided_visible && !active_poi
+            ? arrival_state(current_cue.id, stop_finished ? 1 : cue_progress)
+            : null,
     )
     // Narration follows the clock: the paragraph and offset it is at, and whether it runs.
     $effect(() =>
@@ -1787,6 +1794,7 @@
             actor={current_cue && !active_poi && !map_open
                 ? (beat_actors[current_cue.id] ?? null)
                 : null}
+            {arrival}
             chapters={map_open ? chapter_markers : []}
             reset_key={map_reset}
             {insets}

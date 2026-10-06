@@ -11,6 +11,8 @@ import { follow_link, journey_href } from './journey-links.js'
 import { chapter } from '../content/first-chapter.js'
 import { build_terrain, fbm, hash, load_grid, shelter_bank } from './scene-terrain.js'
 import { build_kaaba, kaaba_landmark } from './scene-landmarks.js'
+import { arrival_site, build_mosque_outline, camel_pose } from './madinah-arrival.js'
+import { build_mirbad } from './mirbad.js'
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value))
 const mix = (a, b, t) => a + (b - a) * t
@@ -108,6 +110,7 @@ export async function create_scene(
         set_cycle() {},
         set_progress() {},
         set_actor() {},
+        set_arrival() {},
         set_evidence() {},
         set_active() {},
         set_insets() {},
@@ -399,7 +402,7 @@ export async function create_scene(
         }
 
         // Schematic settlement: plain blocks on the level ground, no claimed architecture.
-        const add_blocks = (world, place, count, radius, seed, yard = 0) => {
+        const add_blocks = (world, place, count, radius, seed, yard = 0, size = 1) => {
             const mesh = shadowed(new THREE.InstancedMesh(block_geometry, wall_material, count))
             mesh.name = `${place}-settlement`
             const [cx, cz] = world.terrain.to_xz(places[place].lat, places[place].lon)
@@ -408,14 +411,14 @@ export async function create_scene(
                 const reach = radius * Math.sqrt(hash(index, seed + 1))
                 const x = cx + reach * Math.cos(angle)
                 const z = cz + reach * Math.sin(angle)
-                const tall = 0.016 + 0.024 * hash(index, seed + 4)
-                const width = 0.03 + 0.035 * hash(index, seed + 2)
-                const depth = 0.03 + 0.035 * hash(index, seed + 3)
+                const tall = (0.016 + 0.024 * hash(index, seed + 4)) * size
+                const width = (0.03 + 0.035 * hash(index, seed + 2)) * size
+                const depth = (0.03 + 0.035 * hash(index, seed + 3)) * size
                 // Keep each building's footprint outside the clearing, not just its centre.
                 const level =
                     world.terrain.slope(x, z) < 0.22 &&
                     (yard === 0 || reach > yard + Math.hypot(width, depth) / 2)
-                dummy.position.set(x, world.terrain.height(x, z) + tall / 2 - 0.002, z)
+                dummy.position.set(x, world.terrain.height(x, z) + tall / 2 - 0.002 * size, z)
                 dummy.rotation.set(0, hash(index, seed + 5) * 0.7, 0)
                 dummy.scale.set(level ? width : 0, level ? tall : 0, level ? depth : 0)
                 dummy.updateMatrix()
@@ -676,9 +679,21 @@ export async function create_scene(
                     add_cave_set(world)
                 }
                 if (name === 'madinah') {
-                    add_blocks(world, 'madinah', 150, 0.5, 41, 0.13)
+                    // Small houses of the oasis town around the clearing where the camel knelt.
+                    add_blocks(world, 'madinah', 160, 0.2, 41, 0.026, 0.15)
+                    const [x, z] = world.terrain.to_xz(places.madinah.lat, places.madinah.lon)
+                    const ground = (dx, dz) => world.terrain.height(x + dx, z + dz)
+                    world.mosque = build_mosque_outline(THREE, ground)
+                    world.mirbad = build_mirbad(THREE, ground)
+                    for (const item of [world.mosque, world.mirbad]) {
+                        item.position.x = x
+                        item.position.z = z
+                        world.group.add(item)
+                    }
                     add_palms(world, [
                         { place: 'madinah', count: 1500, inner: 0.3, radius: 1.7 },
+                        // Palms among the outer houses, behind the yard (clear of the arrival camera).
+                        { place: 'madinah', count: 80, inner: 0.12, radius: 0.26 },
                         { place: 'quba', count: 1300, inner: 0, radius: 1.1 },
                     ])
                 }
@@ -1477,6 +1492,7 @@ export async function create_scene(
         tent.visible = false
         scene.add(tent)
         let actor = null
+        let arrival = null
         // Video capture can hide the route lines for scenic shots.
         let routes_shown = true
         const heading = new THREE.Vector3()
@@ -1742,7 +1758,10 @@ export async function create_scene(
                     )
                 }
                 lift = Math.min(1, 3 * Math.sin(Math.PI * eased))
-                if (progress === 1) flight = null
+                if (progress === 1) {
+                    if (end.follow === 'camel') view.follow = 'camel'
+                    flight = null
+                }
             }
             if (cycle === null) blend_mood(ease, mood_target)
             else {
@@ -1857,10 +1876,47 @@ export async function create_scene(
                     if (world === active && route.shown > 0.002 && route.shown < 0.998) tip = route
                 }
             }
-            // The camel walks the last leg into Madinah and kneels where it ends.
-            const last_leg = worlds.madinah?.routes.find((route) => route.leg === 2)
-            const walking = active.name === 'madinah' && last_leg?.shown > 0.002
+            // The camel walks the last leg into Madinah; in the town (N08b) she comes into the
+            // yard and kneels, and the mosque rises there (N05b), all on the narration clock.
+            const town = worlds.madinah
+            const in_town = active.name === 'madinah' && arrival
+            const last_leg = town?.routes.find((route) => route.leg === 2)
+            const walking = active.name === 'madinah' && !arrival && last_leg?.shown > 0.002
             camel.root.visible = false
+            if (in_town && arrival.phase !== 'built') {
+                const pose = camel_pose(arrival)
+                const [cx, cz] = town.terrain.to_xz(places.madinah.lat, places.madinah.lon)
+                const x = cx + pose.x
+                const z = cz + pose.z
+                camel.root.position.set(
+                    x * town.scale,
+                    town.terrain.height(x, z) * town.scale,
+                    z * town.scale,
+                )
+                camel.root.rotation.set(0, pose.heading, 0)
+                camel.root.scale.setScalar(arrival_site.camel_size * town.scale)
+                camel.root.visible = true
+                camel.limbs.forEach((limb, index) => {
+                    limb.rotation.z = reduced_motion
+                        ? 0
+                        : index % 3 === 0
+                          ? pose.stride
+                          : -pose.stride
+                    limb.scale.y = pose.leg_scale
+                })
+                camel.torso.position.y = (pose.leg_scale - 1) * camel.top
+                if (!flight && !dragging && view.follow === 'camel') {
+                    follow_point.copy(camel.root.position)
+                    follow_point.y += 0.0012 * town.scale
+                    view.target.lerp(follow_point, reduced_motion ? 1 : 1 - Math.exp(-delta * 3.5))
+                }
+            }
+            if (town?.mirbad) town.mirbad.visible = Boolean(in_town) && arrival.phase === 'approach'
+            if (town?.mosque) {
+                town.mosque.visible = Boolean(in_town) && arrival.phase !== 'approach'
+                if (town.mosque.visible)
+                    for (const wall of town.mosque.children) wall.scale.y = arrival.build
+            }
             if (walking) {
                 stand_on(camel, last_leg, 0.05)
                 const arrived = last_leg.shown >= 0.998
@@ -2137,6 +2193,9 @@ export async function create_scene(
         }
         api.set_actor = (name) => {
             actor = name
+        }
+        api.set_arrival = (state) => {
+            arrival = state
         }
         api.set_progress = (value) => {
             progress_signal.set(value ?? null)

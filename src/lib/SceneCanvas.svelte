@@ -10,6 +10,7 @@
         cycle,
         progress,
         actor,
+        arrival = null,
         evidence,
         chapters = [],
         reset_key = 0,
@@ -56,6 +57,7 @@
     $effect(() => world?.set_cycle(cycle))
     $effect(() => world?.set_progress(progress))
     $effect(() => world?.set_actor(actor))
+    $effect(() => world?.set_arrival(arrival))
     $effect(() => world?.set_evidence(evidence))
     $effect(() => world?.set_insets(insets))
     $effect(() => world?.set_active(active_poi_id))
