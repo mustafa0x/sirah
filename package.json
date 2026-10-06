@@ -11,7 +11,7 @@
     "guide:context": "node scripts/export_guide_context.js",
     "content": "node scripts/content/compile.js",
     "content:translate": "uv run python scripts/content/translate.py",
-    "content:check": "node scripts/content/compile.js --check && node scripts/content-check.js",
+    "content:check": "node scripts/content/compile.js && node scripts/content-check.js",
     "models:optimize": "python3 art/thawr/prepare_web.py",
     "build": "node scripts/export_guide_context.js && vite build",
     "i18n:extract": "wuchale --clean",

@@ -121,6 +121,10 @@ export function compile() {
         glossary_terms: [],
     }
     const where = (file, line) => `${path.relative(root, file)}:${line}`
+    // Where each text came from, for the checker: "kind:id" -> { stage, at }.
+    const origin = {}
+    const from = (kind, id, stage, file, line) =>
+        (origin[`${kind}:${id}`] = { stage, at: where(file, line) })
     const seen = new Map()
     const unique = (file, section, key) => {
         if (seen.has(key))
@@ -146,7 +150,9 @@ export function compile() {
                 section.young ? { young: { text: one(errors, file, section, section.young) } } : {}
             if (kind === 'paragraph' && (key === 'why' || key === 'recap')) {
                 stage[key] = { text: one(errors, file, section, section) }
+                from(key, id, id, file, section.line)
             } else if (kind === 'paragraph') {
+                from('caption', key, id, file, section.line)
                 if (!/^N\d{2}[a-z]$/.test(key))
                     errors.push(
                         `${where(file, section.line)}: "${section.id}" is not a paragraph id (N01a), why, recap, "moment: id", "event: id" or "note: E01"`,
@@ -164,6 +170,7 @@ export function compile() {
                 })
             } else if (kind === 'moment') {
                 unique(file, section, `moment ${key}`)
+                from('moment', key, id, file, section.line)
                 result.moments[key] = {
                     title: need(errors, file, section, 'title', section.line),
                     text: one(errors, file, section, section),
@@ -171,6 +178,7 @@ export function compile() {
                 }
             } else if (kind === 'event') {
                 unique(file, section, `event ${key}`)
+                from('event', key, id, file, section.line)
                 const note = one(errors, file, section, section, true)
                 result.timeline_text[key] = {
                     title: need(errors, file, section, 'title', section.line),
@@ -181,28 +189,33 @@ export function compile() {
                 if (!/^E\d+$/.test(key))
                     errors.push(`${where(file, section.line)}: "${key}" is not a source id (E01)`)
                 unique(file, section, `note ${key}`)
+                from('note', key, id, file, section.line)
                 result.source_notes[key] = { text: one(errors, file, section, section) }
             } else errors.push(`${where(file, section.line)}: unknown section "${section.id}"`)
         }
         if (id) result.stage_text[id] = stage
+        if (id) from('stage', id, id, file, 1)
     }
 
     // Places named on the map.
     {
         const { file, doc, errors: parse_errors } = read('places.md')
         errors.push(...parse_errors)
-        for (const section of doc.sections)
+        for (const section of doc.sections) {
+            from('place', section.id, null, file, section.line)
             result.places[section.id] = {
                 label: need(errors, file, section, 'name', section.line),
                 description: one(errors, file, section, section),
             }
+        }
     }
 
     // Glossary.
     {
         const { file, doc, errors: parse_errors } = read('glossary.md')
         errors.push(...parse_errors)
-        for (const section of doc.sections)
+        for (const section of doc.sections) {
+            from('term', section.id, null, file, section.line)
             result.glossary_terms.push({
                 id: section.id,
                 word: need(errors, file, section, 'word', section.line),
@@ -212,6 +225,7 @@ export function compile() {
                     .map((item) => item.trim())
                     .filter(Boolean),
             })
+        }
     }
 
     // Stable output: notes in source order, others by id.
@@ -219,7 +233,7 @@ export function compile() {
     result.source_notes = by_id(result.source_notes, ([a], [b]) => a.slice(1) - b.slice(1))
     result.moments = by_id(result.moments, ([a], [b]) => a.localeCompare(b))
     result.timeline_text = by_id(result.timeline_text, ([a], [b]) => a.localeCompare(b))
-    return { result, errors }
+    return { result, errors, origin }
 }
 
 export function render(result) {
