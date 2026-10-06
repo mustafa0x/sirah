@@ -286,6 +286,37 @@
     let story_text = $derived(current_cue?.text ?? selected_step.paragraphs[0]?.text ?? '')
     let stop_progress = $derived(journey.guided_position.seconds / guided_step.duration)
     let stop_finished = $derived(on_guided_stop && stop_progress >= 0.999)
+    // The narrated paragraph in sentences. The narration records timings per paragraph, so the
+    // sentence being spoken is estimated from its share of the paragraph's length.
+    function sentences_of(text) {
+        return text.match(/[^.!?؟]+(?:[.!?؟]+["”’)\]]*\s*|$)/g) ?? [text]
+    }
+    let story_sentences = $derived(sentences_of(story_text))
+    let spoken_sentence = $derived.by(() => {
+        if (!current_cue || stop_finished || (!journey.is_playing && cue_progress <= 0)) return -1
+        const total = story_sentences.reduce((sum, sentence) => sum + sentence.length, 0)
+        let reached = 0
+        for (const [index, sentence] of story_sentences.entries()) {
+            reached += sentence.length
+            if (cue_progress < reached / total) return index
+        }
+        return story_sentences.length - 1
+    })
+    // The caption window keeps the spoken sentence in view.
+    let caption_window = $state()
+    $effect(() => {
+        const index = spoken_sentence
+        if (!caption_window) return
+        const node = caption_window.querySelector('[data-spoken=true]')
+        if (index <= 0 || !node) return caption_window.scrollTo({ top: 0 })
+        const box = caption_window.getBoundingClientRect()
+        const line = node.getBoundingClientRect()
+        if (line.top < box.top || line.bottom > box.bottom)
+            caption_window.scrollTo({
+                top: caption_window.scrollTop + line.top - box.top - 4,
+                behavior: 'smooth',
+            })
+    })
     let sheet = $derived(
         journey.panel === 'source' && journey.source_id
             ? 'source'
@@ -371,7 +402,7 @@
     let writing_link = false
     let card_visible = $derived(
         guided_visible &&
-            sheet !== 'reading' &&
+            (sheet !== 'reading' || !narrow) &&
             !(narrow && sheet) &&
             !practice &&
             !reading_chapter,
@@ -1106,6 +1137,27 @@
         return_link()
     }
 
+    // The whole stage as text beside the card, without stopping the narration.
+    function follow_along() {
+        if (sheet === 'reading') return close_sheet()
+        remember_view()
+        if (journey.panel !== 'none') close_panel(journey)
+        if (journey.presentation !== 'reading') toggle_reading(journey)
+        write_link(scene_path())
+    }
+
+    function paragraph_start(index) {
+        const paragraph = guided_step.paragraphs[index]
+        return paragraph.start ?? (index * guided_step.duration) / guided_step.paragraphs.length
+    }
+
+    // In the stage text, the paragraph being narrated stays in view.
+    $effect(() => {
+        const id = current_cue?.id
+        if (sheet !== 'reading' || !id) return
+        document.getElementById(id)?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
+    })
+
     function open_reading() {
         remember_view()
         clear_destinations()
@@ -1611,6 +1663,8 @@
             <path d="M19 12H5M11 6l-6 6 6 6" />
         {:else if name === 'check'}
             <path d="M5 12.5l4.5 4.5L19 7.5" />
+        {:else if name === 'expand'}
+            <path d="M4 9V4h5M20 15v5h-5M15 4h5v5M9 20H4v-5" />
         {:else if name === 'external'}
             <path d="M10 5H5v14h14v-5M14 4h6v6M20 4l-9 9" />
         {:else if name === 'replay'}
@@ -2573,7 +2627,7 @@
             <header class="flex gap-4 items-start justify-between">
                 <div class="grid gap-2">
                     <p class={kicker} id="practice-title">
-                        Check your understanding
+                        Quick check
                         {#if practice_question}
                             · {fmt_num(practice.index + 1)} / {fmt_num(practice.questions.length)}{/if}
                     </p>
@@ -2846,15 +2900,36 @@
                     </button>
                 </div>
             {:else}
-                <p class={kicker}>
-                    Stage {fmt_num(selected_index + 1)} of {fmt_num(chapter.steps.length)} · {selected_step.title}
-                </p>
+                <div class="flex gap-3 items-start justify-between">
+                    <p class={kicker}>
+                        Stage {fmt_num(selected_index + 1)} of {fmt_num(chapter.steps.length)} · {selected_step.title}
+                    </p>
+                    {#snippet follow_button(props)}
+                        <button
+                            {...props}
+                            class="grid flex-none size-8 -mt-[6px] -me-2 place-items-center p-0 text-ink-soft bg-transparent border border-solid border-line rounded-full hover:text-white hover:border-gold aria-pressed:text-gold-bright aria-pressed:border-gold"
+                            aria-label="Follow along"
+                            aria-pressed={sheet === 'reading'}
+                            onclick={follow_along}
+                        >
+                            {@render icon('expand')}
+                        </button>
+                    {/snippet}
+                    {@render tip('Follow along', follow_button)}
+                </div>
                 <div
-                    class="grid min-h-[6.6rem] content-start [&>*]:[grid-area:1/1] mobile:min-h-[8.6rem]"
+                    class="grid min-h-[6.6rem] max-h-[7.2rem] overflow-y-auto content-start [scrollbar-width:none] [&>*]:[grid-area:1/1] mobile:min-h-[8.6rem] mobile:max-h-[8.6rem]"
                     aria-live="polite"
+                    bind:this={caption_window}
                 >
                     {#key current_cue?.id ?? selected_step.paragraphs[0]?.id}
-                        <p class={caption} in:fade={{ duration: 450 }}>{story_text}</p>
+                        <p class={caption} in:fade={{ duration: 450 }}>
+                            {#each story_sentences as sentence, index (index)}<span
+                                    class="transition-opacity duration-300 data-[dim=true]:opacity-45"
+                                    data-dim={spoken_sentence >= 0 && index !== spoken_sentence}
+                                    data-spoken={index === spoken_sentence}>{sentence}</span
+                                >{/each}
+                        </p>
                     {/key}
                 </div>
                 {#if current_cue && mode !== 'young'}
@@ -2974,7 +3049,7 @@
                             class="{ghost_button} border-gold mobile:flex-[1_1_100%]"
                             onclick={() => open_practice({ step_id: selected_step.id })}
                         >
-                            {@render icon('quiz')} Check your understanding
+                            {@render icon('quiz')} Quick check
                             <span
                                 class="min-w-5 px-[6px] py-px text-gold-bright bg-[rgba(232,178,87,0.16)] rounded-full text-[0.75rem]"
                                 >{fmt_num(stage_questions.length)}</span
@@ -3074,8 +3149,28 @@
                                 </button>
                             </div>
                         {/if}
-                        {#each selected_step.paragraphs as paragraph (paragraph.id)}
-                            <p class={prose} id={paragraph.id}>{paragraph.text}</p>
+                        {#each selected_step.paragraphs as paragraph, index (paragraph.id)}
+                            {@const current = on_guided_stop && current_cue?.id === paragraph.id}
+                            <p
+                                class="{prose} -mx-3 px-3 py-1 rounded-lg scroll-my-6 transition-[background] duration-300 data-[current=true]:bg-[rgba(232,178,87,0.1)]"
+                                id={paragraph.id}
+                                data-current={current}
+                            >
+                                {#if on_guided_stop}
+                                    <button
+                                        class="block w-full p-0 text-start text-inherit bg-transparent border-0 [font:inherit] cursor-pointer"
+                                        onclick={() => seek_to(paragraph_start(index))}
+                                    >
+                                        {#if current}{#each story_sentences as sentence, part (part)}<span
+                                                    class="transition-opacity duration-300 data-[dim=true]:opacity-45"
+                                                    data-dim={spoken_sentence >= 0 &&
+                                                        part !== spoken_sentence}>{sentence}</span
+                                                >{/each}{:else}{paragraph.text}{/if}
+                                    </button>
+                                {:else}
+                                    {paragraph.text}
+                                {/if}
+                            </p>
                             {@render citations(paragraph.source_ids)}
                         {/each}
                         {#if mode === 'new' && why_it_matters[selected_step.id]}
@@ -3172,6 +3267,13 @@
                             {@render icon('next')}
                         </button>
                     {/if}
+                    <button
+                        class="{round_button} hidden compact:grid"
+                        onclick={toggle_play}
+                        aria-label={journey.is_playing ? 'Pause' : 'Play'}
+                    >
+                        {@render icon(journey.is_playing ? 'pause' : 'play')}
+                    </button>
                     <button class={ghost_button} onclick={open_question}>
                         {@render icon('ask')} Ask
                     </button>
