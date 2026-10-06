@@ -123,7 +123,7 @@ title: The journey continues
 from: hch_road §1–2
 sources: sp_guide_sira_name:p1–p2, sp_permission_h_23833_510_cont:p1, H-7478-996-RA-AISHA-LONG:p1
 
-Then the guide came with the camels, as arranged, and now there were four of them, with ‘Amir riding behind Abu Bakr. The guide led them down below Makkah and out along the coast, “by the edge of the sea.”
+Then the guide came with the camels, as arranged, and ‘Amir left his flock to go with them. The four set out: the Prophet ﷺ, Abu Bakr with ‘Amir behind him, and the guide, down along the coast, “by the edge of the sea.”
 
 ## N04b
 from: hch_road §2

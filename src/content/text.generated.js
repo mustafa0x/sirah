@@ -200,7 +200,7 @@ export const stage_text = {
         paragraphs: [
             {
                 id: 'N04a',
-                text: 'Then the guide came with the camels, as arranged, and now there were four of them, with ‘Amir riding behind Abu Bakr. The guide led them down below Makkah and out along the coast, “by the edge of the sea.”',
+                text: 'Then the guide came with the camels, as arranged, and ‘Amir left his flock to go with them. The four set out: the Prophet ﷺ, Abu Bakr with ‘Amir behind him, and the guide, down along the coast, “by the edge of the sea.”',
                 young: {
                     text: 'After three nights, their guide came with the camels, and they rode out along the coast by the sea.',
                 },
