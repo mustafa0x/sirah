@@ -38,7 +38,11 @@ function load() {
             })
     }
 
-    const archives = [path.join(research, 'evidence.jsonl')]
+    // The archive, passages added to it later (tracked), and local research batches.
+    const archives = [
+        path.join(research, 'evidence.jsonl'),
+        path.join(research, 'evidence-additions.jsonl'),
+    ]
     for (const batch of readdirSync(path.join(research, 'batches'), { withFileTypes: true }))
         if (batch.isDirectory())
             archives.push(path.join(research, 'batches', batch.name, 'evidence.jsonl'))
