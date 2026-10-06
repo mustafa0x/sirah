@@ -6,9 +6,16 @@ uv = '0.12.10'
 
 [env]
 GUIDE_MODEL = '{{ get_env(name="GUIDE_MODEL", default="gpt-6-luna") }}'
+API_PORT = '8027'
 
 [tasks.dev]
-run = 'pnpm dev:api'
+run = 'pnpm dev'
+
+[tasks.'dev:api']
+run = 'uv run api.py'
+
+[tasks.'dev:all']
+depends = ['dev:client', 'dev:api']
 
 [tasks.'spikes:dev']
 run = 'pnpm --dir spikes/web dev'
