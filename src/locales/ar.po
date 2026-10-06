@@ -101,7 +101,7 @@ msgstr "رحلة تعليمية موثّقة بالمصادر عبر مراحل 
 #: src/routes/Journey.svelte
 #, ai
 msgid "{0} · Sirah Journey"
-msgstr "{0} · رحلة السيرة"
+msgstr "{0} | رحلة السيرة"
 
 #. 0: source.number; 1: source.reference
 #: src/routes/Journey.svelte
@@ -134,7 +134,7 @@ msgstr "<0/> رحلة السيرة"
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
-msgstr "<0>المسافة</0> للتشغيل أو الإيقاف المؤقت · <1/> <2/> لتغيير المرحلة · <3>Esc</3> للإغلاق"
+msgstr "<0>المسافة</0> للتشغيل أو الإيقاف المؤقت، <1/> <2/> لتغيير المرحلة، <3>Esc</3> للإغلاق"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -176,7 +176,7 @@ msgstr "<0/> اقرأ هذه المرحلة"
 #: src/routes/Journey.svelte
 #, ai
 msgid "Side trip · {0}"
-msgstr "جولة جانبية · {0}"
+msgstr "جولة جانبية، {0}"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -229,7 +229,7 @@ msgstr "<0/> اسأل"
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0} of {1} · {2}"
-msgstr "المرحلة {0} من {1} · {2}"
+msgstr "المرحلة {0} من {1}، {2}"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -658,7 +658,7 @@ msgstr "مراجعة النشر بعد الهاكاثون"
 #: src/content/first-chapter.js
 #, ai
 msgid "Turath · book {0} · page {1} · vol. {2}, p. {3}"
-msgstr "تراث · الكتاب {0} · الصفحة {1} · ج {2}، ص {3}"
+msgstr "تراث، الكتاب {0}، الصفحة {1}، ج {2}، ص {3}"
 
 #: src/content/first-chapter.js
 #, ai
@@ -1128,7 +1128,7 @@ msgstr "الخروج من مكة"
 #: src/content/timeline.js
 #, ai
 msgid "Night of 27 Safar · 12–13 September 622"
-msgstr "ليلة ٢٧ صفر · ١٢–١٣ سبتمبر ٦٢٢"
+msgstr "ليلة ٢٧ صفر، ١٢–١٣ سبتمبر ٦٢٢"
 
 #: src/content/timeline.js
 #, ai
@@ -1153,7 +1153,7 @@ msgstr "وصول الدليل"
 #: src/content/timeline.js
 #, ai
 msgid "Night of Monday, 1 Rabi‘ al-Awwal · 16 September 622"
-msgstr "ليلة الإثنين، غرة ربيع الأول · ١٦ سبتمبر ٦٢٢"
+msgstr "ليلة الإثنين، غرة ربيع الأول، ١٦ سبتمبر ٦٢٢"
 
 #: src/content/timeline.js
 #, ai
@@ -1183,7 +1183,7 @@ msgstr "الوصول إلى قباء"
 #: src/content/timeline.js
 #, ai
 msgid "Monday · 8 Rabi‘ al-Awwal · 23 September 622"
-msgstr "الإثنين · ٨ ربيع الأول · ٢٣ سبتمبر ٦٢٢"
+msgstr "الإثنين، ٨ ربيع الأول، ٢٣ سبتمبر ٦٢٢"
 
 #: src/content/timeline.js
 #, ai
@@ -1213,7 +1213,7 @@ msgstr "أول جمعة، والمدينة"
 #: src/content/timeline.js
 #, ai
 msgid "Friday · 12 Rabi‘ al-Awwal · 27 September 622"
-msgstr "الجمعة · ١٢ ربيع الأول · ٢٧ سبتمبر ٦٢٢"
+msgstr "الجمعة، ١٢ ربيع الأول، ٢٧ سبتمبر ٦٢٢"
 
 #: src/content/timeline.js
 #, ai
@@ -1282,7 +1282,7 @@ msgstr "<0/>غير مؤرّخ"
 #: src/routes/Journey.svelte
 #, ai
 msgid "The journey day by day · September 622"
-msgstr "الرحلة يومًا بيوم · سبتمبر ٦٢٢"
+msgstr "الرحلة يومًا بيوم، سبتمبر ٦٢٢"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -1867,7 +1867,7 @@ msgstr "أسئلة دراسة المصادر: اقرأ النصوص وقارن �
 #. 0: local_number(practice.index + 1); 1: local_number( practice.questions.length, ); 2: level_name[question.difficulty]
 #: src/lib/ChapterReader.svelte
 msgid "Question {0} of {1} · {2}"
-msgstr "السؤال {0} من {1} · {2}"
+msgstr "السؤال {0} من {1}، {2}"
 
 #: src/lib/ChapterReader.svelte
 msgid "Continue with source-study questions"
@@ -2138,7 +2138,7 @@ msgstr "اسأل عن هذه الرحلة…"
 
 #: src/routes/Journey.svelte
 msgid "Journey notes · offline"
-msgstr "ملاحظات الرحلة · دون اتصال"
+msgstr "ملاحظات الرحلة، دون اتصال"
 
 #: src/lib/ChapterReader.svelte
 msgid "Close chapter"
@@ -2179,7 +2179,7 @@ msgstr "العرض ثلاثي الأبعاد غير متوفر على هذا ا�
 #. 0: fmt_num(stage_facts.sections); 1: fmt_num( stage_facts.passages, ); 2: fmt_num(stage_facts.questions)
 #: src/routes/Journey.svelte
 msgid "{0} sections · {1} source passages · {2} questions"
-msgstr "{0} أقسام · {1} نصوص مصدرية · {2} أسئلة"
+msgstr "{0} أقسام، {1} نصوص مصدرية، {2} أسئلة"
 
 #: src/routes/Journey.svelte
 msgid "Go deeper"
@@ -2341,7 +2341,7 @@ msgstr "وبعد نحو خمسة أميال بلغا جبل ثور، فصعدا 
 
 #: src/routes/Book.svelte
 msgid "The chapters · Sirah Journey"
-msgstr "الفصول · رحلة السيرة"
+msgstr "الفصول، رحلة السيرة"
 
 #: src/routes/Book.svelte
 msgid "{0} words"
@@ -2349,11 +2349,11 @@ msgstr "{0} كلمة"
 
 #: src/routes/Book.svelte
 msgid "The Hijrah · the chapters"
-msgstr "الهجرة · الفصول"
+msgstr "الهجرة، الفصول"
 
 #: src/routes/Book.svelte
 msgid "Chapter {0} · <0>open in the app</0>"
-msgstr "الفصل {0} · <0>افتح في التطبيق</0>"
+msgstr "الفصل {0}، <0>افتح في التطبيق</0>"
 
 #: src/routes/Journey.svelte
 msgid "<0/> Check your understanding <1/>"
@@ -3245,7 +3245,7 @@ msgstr "دخول المدينة يوم الجمعة"
 
 #: src/content/text.generated.js
 msgid "Friday, 12 Rabi‘ al-Awwal · 27 September 622"
-msgstr "الجمعة، 12 ربيع الأول · 27 سبتمبر 622"
+msgstr "الجمعة، 12 ربيع الأول، 27 سبتمبر 622"
 
 #: src/content/text.generated.js
 msgid "Ibn Ishaq gives the Friday he left Quba; the day of the month was worked out by a modern biographer."
@@ -3257,7 +3257,7 @@ msgstr "يصل الدليل ومعه الإبل"
 
 #: src/content/text.generated.js
 msgid "Night of 1 Rabi‘ al-Awwal · 16 September 622"
-msgstr "ليلة ١ ربيع الأول · ١٦ سبتمبر ٦٢٢"
+msgstr "ليلة ١ ربيع الأول، ١٦ سبتمبر ٦٢٢"
 
 #: src/content/text.generated.js
 msgid "He came after the third night, as agreed. Later biographers date it to the night of Monday."
@@ -3269,7 +3269,7 @@ msgstr "ظلّ في مكة خلال محرّم وصفر. وقد حدّد كات�
 
 #: src/content/text.generated.js
 msgid "A Monday in Rabi‘ al-Awwal · September 622"
-msgstr "يوم اثنين من ربيع الأول · سبتمبر ٦٢٢"
+msgstr "يوم اثنين من ربيع الأول، سبتمبر ٦٢٢"
 
 #: src/content/text.generated.js
 msgid "The reports agree it was a Monday. Ibn Ishaq gives the twelfth of the month; others give other days."
@@ -3453,7 +3453,7 @@ msgstr "أخذ أبو بكر ماله كله، فوضعت أسماء أحجار�
 
 #: src/content/text.generated.js
 msgid "Monday 12 Rabi‘ al-Awwal · September 622"
-msgstr "الاثنين ١٢ ربيع الأول · سبتمبر ٦٢٢"
+msgstr "الاثنين ١٢ ربيع الأول، سبتمبر ٦٢٢"
 
 #: src/content/text.generated.js
 msgid "Ibn Ishaq’s date. The reports agree on a Monday but differ on the day of the month."
@@ -3461,7 +3461,7 @@ msgstr "تاريخ ابن إسحاق. وتتفق الروايات على يوم 
 
 #: src/content/text.generated.js
 msgid "The Friday after Quba · Rabi‘ al-Awwal 622"
-msgstr "الجمعة بعد قباء · ربيع الأول ٦٢٢"
+msgstr "الجمعة بعد قباء، ربيع الأول ٦٢٢"
 
 #: src/content/text.generated.js
 msgid "Ibn Ishaq has him stay at Quba from Monday to Thursday and ride on to Madinah on the Friday."

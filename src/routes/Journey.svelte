@@ -3473,10 +3473,14 @@
                                 data-active={source_scope === 'stage' &&
                                     source.id === active_source.id}
                             >
-                                <span
-                                    class="grid w-fit min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
-                                    >{fmt_num(source.number)}</span
-                                >
+                                <span class="flex gap-2 items-center">
+                                    <span
+                                        class="grid w-fit min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
+                                        >{fmt_num(source.number)}</span
+                                    >{#if source.strength === 'weak'}<span
+                                            class="text-[0.75rem] text-ink-soft">Weaker report</span
+                                        >{/if}
+                                </span>
                                 <blockquote
                                     class="py-4 px-5 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 rounded-xl font-arabic text-[1.375rem] leading-[2]"
                                     dir="rtl"
