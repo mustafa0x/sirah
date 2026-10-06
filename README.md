@@ -4,6 +4,7 @@ Sirah Journey presents nine guided stages of the Hijrah and twelve in-depth chap
 
 ## Indexes
 
+- [Judging checklist and evidence](docs/judging-checklist.md) — implemented contributions and remaining evidence for all seven final criteria.
 - docs/indexes/content-review.md — current site content for the external reviewer.
 - docs/CONTENT-REVIEW-NOTES.md — version, known issues and supporting source access.
 
