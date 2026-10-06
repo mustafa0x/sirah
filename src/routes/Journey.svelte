@@ -2035,8 +2035,9 @@
 
     {#if evidence_on && guided_visible && !sheet && !practice && !place_card}
         <section
-            class="absolute z-20 right-6 w-[300px] grid gap-3 px-5 pt-4 pb-4 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:hidden"
+            class="absolute z-20 right-6 w-[300px] grid gap-3 content-start overflow-y-auto px-5 pt-4 pb-4 bg-panel border border-solid border-line rounded-[18px] shadow-[0_18px_60px_rgba(0,0,0,0.3)] backdrop-blur-[18px] mobile:hidden"
             style:top={timeline_open ? `${timeline_bottom + 16}px` : '84px'}
+            style:max-height={`calc(100% - ${timeline_open ? timeline_bottom + 16 : 84}px - ${card_visible ? card_height + 56 : 24}px)`}
             aria-labelledby="evidence-title"
             transition:fly={{ x: 16, duration: 220 }}
         >
@@ -2165,8 +2166,8 @@
                     a place name to fly there.
                 </li>
                 <li>
-                    <strong>Sources</strong> shows the passage behind each paragraph, and what it does
-                    not establish.
+                    <strong>Sources</strong> shows the passage behind each paragraph, with a link to its
+                    page on Turath.
                 </li>
                 <li>
                     <strong>Ask</strong> uses the journey’s context to research in Turath and answer with

@@ -229,7 +229,7 @@ export const chapter = {
                     source_ids: ['E12'],
                 },
             ],
-            recap: 'You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah.',
+            recap: 'You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance.',
         },
     ],
     sources: [
