@@ -1992,6 +1992,7 @@
 
     {#if card_visible && !sheet && (passage || cycle !== null)}
         <div
+            data-scene-overlay
             class="absolute z-10 top-[88px] right-6 left-[calc(var(--rail)+24px)] grid justify-items-center gap-2 text-center pointer-events-none mobile:top-[112px] mobile:left-6"
             style:top={timeline_open ? `${timeline_bottom + 16}px` : null}
             transition:fade={{ duration: 900 }}

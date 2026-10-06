@@ -1231,6 +1231,11 @@ export async function create_scene(
         const place_labels = () => {
             const width = host.clientWidth
             const height = host.clientHeight
+            // Text set over the scene (a night count, a passage) keeps its space clear.
+            const origin = host.getBoundingClientRect()
+            const overlay = [
+                ...(document.querySelector('[data-scene-overlay]')?.children ?? []),
+            ].map((child) => child.getBoundingClientRect())
             for (const { node, poi } of label_nodes) {
                 const anchor = active.anchors.get(poi.id)
                 if (
@@ -1258,7 +1263,15 @@ export async function create_scene(
                     projected.y < 1.1 &&
                     x > inset_target.left + 30 &&
                     x < width - inset_target.right - 30 &&
-                    y > inset_target.top
+                    y > inset_target.top &&
+                    // A label stands above its point, about 160 by 50 pixels.
+                    !overlay.some(
+                        (box) =>
+                            x + 80 > box.left - origin.left &&
+                            x - 80 < box.right - origin.left &&
+                            y > box.top - origin.top &&
+                            y - 50 < box.bottom - origin.top,
+                    )
                 node.hidden = !visible
                 if (!visible) continue
                 node.style.transform = `translate(${x}px, ${y}px)`
