@@ -1,36 +1,32 @@
 {
     "chapter_id": "hch_umm_mabad",
-    "locale": "en",
+    "locale": "ar",
     "status": "story",
-    "packet_id": "hch_umm_mabad:en:story",
+    "packet_id": "hch_umm_mabad:ar:story",
     "stage": "tent",
-    "title": "At Umm Ma‘bad’s Tent",
-    "reader_question": "What happened when the hungry travellers stopped at Umm Ma‘bad’s tent, and how did she describe her guest?",
+    "title": "عند خيمتي أم معبد",
+    "reader_question": "ماذا جرى حين نزل الركب الجائعون بخيمتي أم معبد، وكيف وصفت ضيفها؟",
     "overview": [
         {
             "paragraph_id": "hch_umm_mabad_o1",
-            "text": "The travellers had nothing left to eat, and it was a year of drought and hunger. On the road to Madinah they came to the two tents of Umm Ma‘bad, a woman of Khuza‘ah who gave water and food to those who passed. That day she had nothing to sell them. Her flock was out at pasture, and only one ewe was left in the tent, too weak to follow it. What happened there left a vessel of milk in her tent, and when her husband came home and asked about it, she answered him with a description of her guest that people have repeated ever since.",
+            "text": "كان الركب قد نفد زادهم، في عامِ قحطٍ ومجاعة. وفي طريقهم إلى المدينة مرّوا بخيمتي أم معبد، امرأةٍ من خزاعة كانت تسقي المارّة وتطعمهم. غير أنها لم يكن عندها يومئذ شيءٌ تبيعهم إياه. كانت غنمها قد سرحت إلى المرعى، ولم يبقَ في الخيمة إلا شاةٌ واحدة أقعدها الضعف عن اللحاق بها. وما جرى هناك ترك في خيمتها إناءً من لبن، فلما عاد زوجها وسألها عنه أجابته بوصفٍ لضيفها ما زال الناس يتناقلونه منذ ذلك اليوم.",
             "parts": [
-                {
-                    "text": "The travellers had nothing left to eat, and it was a year of drought and hunger."
-                },
+                { "text": "كان الركب قد نفد زادهم، في عامِ قحطٍ ومجاعة." },
                 { "note": 1 },
-                { "text": " On the road to " },
-                { "text": "Madinah", "term": "madinah" },
                 {
-                    "text": " they came to the two tents of Umm Ma‘bad, a woman of Khuza‘ah who gave water and food to those who passed."
+                    "text": " وفي طريقهم إلى المدينة مرّوا بخيمتي أم معبد، امرأةٍ من خزاعة كانت تسقي المارّة وتطعمهم."
                 },
                 { "note": 2 },
                 { "note": 3 },
-                { "text": " That day she had nothing to sell them." },
+                { "text": " غير أنها لم يكن عندها يومئذ شيءٌ تبيعهم إياه." },
                 { "note": 4 },
                 {
-                    "text": " Her flock was out at pasture, and only one ewe was left in the tent, too weak to follow it."
+                    "text": " كانت غنمها قد سرحت إلى المرعى، ولم يبقَ في الخيمة إلا شاةٌ واحدة أقعدها الضعف عن اللحاق بها."
                 },
                 { "note": 5 },
                 { "note": 6 },
                 {
-                    "text": " What happened there left a vessel of milk in her tent, and when her husband came home and asked about it, she answered him with a description of her guest that people have repeated ever since."
+                    "text": " وما جرى هناك ترك في خيمتها إناءً من لبن، فلما عاد زوجها وسألها عنه أجابته بوصفٍ لضيفها ما زال الناس يتناقلونه منذ ذلك اليوم."
                 },
                 { "note": 7 },
                 { "note": 8 },
@@ -41,40 +37,34 @@
     "account": [
         {
             "section_id": "hch_umm_mabad_s1",
-            "title": "Two tents by the road",
+            "title": "خيمتان على الطريق",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_s1_1",
-                    "text": "With Suraqah behind them, the travellers rode on towards Madinah: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and their guide, ‘Abdullah ibn Urayqit. Their provisions had run out, and it was a year of drought, when hunger was everywhere.",
+                    "text": "خلّف الركبُ سراقةَ وراءهم، ومضوا نحو المدينة: رسول الله ﷺ، وأبو بكر، ومولى أبي بكر عامر بن فهيرة، ودليلهم عبد الله بن أريقط. وكان زادهم قد نفد، والعام عامُ جدبٍ عمّ فيه الجوع.",
                     "parts": [
                         {
-                            "text": "With Suraqah behind them, the travellers rode on towards Madinah: the Prophet ﷺ, "
+                            "text": "خلّف الركبُ سراقةَ وراءهم، ومضوا نحو المدينة: رسول الله ﷺ، وأبو بكر، ومولى أبي بكر عامر بن فهيرة، ودليلهم عبد الله بن أريقط."
                         },
-                        { "text": "Abu Bakr", "term": "abubakr" },
-                        { "text": ", Abu Bakr's " },
-                        { "text": "freedman", "term": "freedman" },
-                        { "text": " ‘Amir ibn Fuhayrah, and their guide, ‘Abdullah ibn Urayqit." },
                         { "note": 2 },
-                        {
-                            "text": " Their provisions had run out, and it was a year of drought, when hunger was everywhere."
-                        },
+                        { "text": " وكان زادهم قد نفد، والعام عامُ جدبٍ عمّ فيه الجوع." },
                         { "note": 1 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s1_2",
-                    "text": "On the way they came to two tents belonging to Umm Ma‘bad, a woman of Khuza‘ah. Umm Ma‘bad means \"mother of Ma‘bad\", after her son; her own name was ‘Atikah. She was a strong woman who did not keep herself out of sight; people would come and sit with her. She sat in front of her tent with her knees drawn up, and gave water and food to those who passed. The travellers asked to buy meat and dates from her, but she had none of either.",
+                    "text": "وفي الطريق مرّوا بخيمتين لأم معبد، امرأةٍ من خزاعة، تُكنى بابنها معبد، واسمها عاتكة. وكانت امرأةً بَرْزةً جَلْدة، لا تحتجب عن الناس، يأتيها القوم فيجلسون إليها. وكانت تحتبي بفناء خيمتها، ثم تسقي من مرّ بها وتطعمه. فسألوها لحمًا وتمرًا يشترونه منها، فلم يجدوا عندها شيئًا من ذلك.",
                     "parts": [
                         {
-                            "text": "On the way they came to two tents belonging to Umm Ma‘bad, a woman of Khuza‘ah. Umm Ma‘bad means \"mother of Ma‘bad\", after her son; her own name was ‘Atikah."
+                            "text": "وفي الطريق مرّوا بخيمتين لأم معبد، امرأةٍ من خزاعة، تُكنى بابنها معبد، واسمها عاتكة."
                         },
                         { "note": 10 },
                         {
-                            "text": " She was a strong woman who did not keep herself out of sight; people would come and sit with her. She sat in front of her tent with her knees drawn up, and gave water and food to those who passed."
+                            "text": " وكانت امرأةً بَرْزةً جَلْدة، لا تحتجب عن الناس، يأتيها القوم فيجلسون إليها. وكانت تحتبي بفناء خيمتها، ثم تسقي من مرّ بها وتطعمه."
                         },
                         { "note": 3 },
                         {
-                            "text": " The travellers asked to buy meat and dates from her, but she had none of either."
+                            "text": " فسألوها لحمًا وتمرًا يشترونه منها، فلم يجدوا عندها شيئًا من ذلك."
                         },
                         { "note": 4 }
                     ]
@@ -83,50 +73,46 @@
         },
         {
             "section_id": "hch_umm_mabad_s2",
-            "title": "The ewe that stayed behind",
+            "title": "الشاة التي خلّفها الجهد",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_s2_1",
-                    "text": "The Prophet ﷺ noticed a ewe at the back of the tent.",
+                    "text": "ونظر رسول الله ﷺ إلى شاةٍ في كِسْر الخيمة، أي في مؤخَّرها.",
                     "parts": [
-                        { "text": "The Prophet ﷺ noticed a ewe at the back of the tent." },
+                        { "text": "ونظر رسول الله ﷺ إلى شاةٍ في كِسْر الخيمة، أي في مؤخَّرها." },
                         { "note": 5 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_2",
-                    "text": "\"What is this ewe, Umm Ma‘bad?\" he asked.",
-                    "parts": [{ "text": "\"What is this ewe, Umm Ma‘bad?\" he asked." }]
+                    "text": "فقال: «مَا هَذِهِ الشَّاةُ يَا أُمَّ مَعْبَدٍ؟»",
+                    "parts": [{ "text": "فقال: «مَا هَذِهِ الشَّاةُ يَا أُمَّ مَعْبَدٍ؟»" }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_3",
-                    "text": "\"A ewe that weakness has kept behind the flock,\" she said.",
-                    "parts": [
-                        { "text": "\"A ewe that weakness has kept behind the flock,\" she said." }
-                    ]
+                    "text": "قالت: «شَاةٌ خَلَّفَهَا الْجَهْدُ عَنِ الْغَنَمِ».",
+                    "parts": [{ "text": "قالت: «شَاةٌ خَلَّفَهَا الْجَهْدُ عَنِ الْغَنَمِ»." }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_4",
-                    "text": "\"Does she have any milk?\"",
-                    "parts": [{ "text": "\"Does she have any milk?\"" }]
+                    "text": "قال: «بِهَا مِنْ لَبَنٍ؟»",
+                    "parts": [{ "text": "قال: «بِهَا مِنْ لَبَنٍ؟»" }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_5",
-                    "text": "\"She is too worn out for that.\"",
-                    "parts": [{ "text": "\"She is too worn out for that.\"" }]
+                    "text": "قالت: «هِيَ أَجْهَدُ مِنْ ذَلِكَ».",
+                    "parts": [{ "text": "قالت: «هِيَ أَجْهَدُ مِنْ ذَلِكَ»." }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_6",
-                    "text": "\"Will you let me milk her?\"",
-                    "parts": [{ "text": "\"Will you let me milk her?\"" }]
+                    "text": "قال: «أَفَتَأْذَنِينَ لِي أَنْ أَحْلِبَهَا؟»",
+                    "parts": [{ "text": "قال: «أَفَتَأْذَنِينَ لِي أَنْ أَحْلِبَهَا؟»" }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_7",
-                    "text": "\"May my father and mother be your ransom!\" she said. \"Yes, if you see any milk in her, milk her.\"",
+                    "text": "قالت: «بِأَبِي أَنْتَ وَأُمِّي، نَعَمْ، إِنْ رَأَيْتَ بِهَا حَلْبًا فَاحْلُبْهَا».",
                     "parts": [
-                        {
-                            "text": "\"May my father and mother be your ransom!\" she said. \"Yes, if you see any milk in her, milk her.\""
-                        },
+                        { "text": "قالت: «بِأَبِي أَنْتَ وَأُمِّي، نَعَمْ، إِنْ رَأَيْتَ بِهَا حَلْبًا فَاحْلُبْهَا»." },
                         { "note": 11 }
                     ]
                 }
@@ -134,28 +120,24 @@
         },
         {
             "section_id": "hch_umm_mabad_s3",
-            "title": "A vessel filled twice",
+            "title": "إناء مُلئ مرتين",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_s3_1",
-                    "text": "He had the ewe brought to him. He passed his hand over her udder, spoke the name of Allah, and prayed for Umm Ma‘bad's ewe. The ewe planted her legs apart for milking, her milk came down, and she chewed the cud. He called for a vessel large enough to satisfy the whole party, and milked into it in a stream until froth rose over the top.",
+                    "text": "فدعا بها، فمسح ضرعها بيده، وسمّى الله، ودعا لأم معبد في شاتها. ففرّجت الشاة ما بين رجليها للحلب، ودرّ لبنها، واجترّت. ثم دعا بإناءٍ يكفي الرهط جميعًا ويُرويهم، فحلب فيه ثَجًّا حتى علته الرغوة.",
                     "parts": [
                         {
-                            "text": "He had the ewe brought to him. He passed his hand over her udder, spoke the name of "
-                        },
-                        { "text": "Allah", "term": "allah" },
-                        {
-                            "text": ", and prayed for Umm Ma‘bad's ewe. The ewe planted her legs apart for milking, her milk came down, and she chewed the cud. He called for a vessel large enough to satisfy the whole party, and milked into it in a stream until froth rose over the top."
+                            "text": "فدعا بها، فمسح ضرعها بيده، وسمّى الله، ودعا لأم معبد في شاتها. ففرّجت الشاة ما بين رجليها للحلب، ودرّ لبنها، واجترّت. ثم دعا بإناءٍ يكفي الرهط جميعًا ويُرويهم، فحلب فيه ثَجًّا حتى علته الرغوة."
                         },
                         { "note": 12 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s3_2",
-                    "text": "He gave it first to Umm Ma‘bad, and she drank until she had enough. Then he gave it to his companions, and they drank until they had enough. He drank last of all. Then they drank again. He milked the ewe a second time, until the vessel was full, and left it with her. Then they set off.",
+                    "text": "فسقى أم معبد أولًا حتى رويت، ثم سقى أصحابه حتى رووا، وشرب ﷺ آخرهم. ثم عادوا فشربوا مرةً أخرى. ثم حلب الشاة ثانيةً حتى ملأ الإناء، وتركه عندها، ثم ارتحلوا.",
                     "parts": [
                         {
-                            "text": "He gave it first to Umm Ma‘bad, and she drank until she had enough. Then he gave it to his companions, and they drank until they had enough. He drank last of all. Then they drank again. He milked the ewe a second time, until the vessel was full, and left it with her. Then they set off."
+                            "text": "فسقى أم معبد أولًا حتى رويت، ثم سقى أصحابه حتى رووا، وشرب ﷺ آخرهم. ثم عادوا فشربوا مرةً أخرى. ثم حلب الشاة ثانيةً حتى ملأ الإناء، وتركه عندها، ثم ارتحلوا."
                         },
                         { "note": 7 }
                     ]
@@ -164,95 +146,85 @@
         },
         {
             "section_id": "hch_umm_mabad_s4",
-            "title": "\"Describe him to me\"",
+            "title": "«صِفيه لي»",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_s4_1",
-                    "text": "She had not waited long when her husband, Abu Ma‘bad, came home driving a few thin goats, so weak they staggered as they walked. When he saw the milk he was amazed. \"Where did you get this,\" he asked, \"when the flock is far off at pasture, none of them is carrying young, and there is no animal in milk in the house?\"",
+                    "text": "فما لبثت إلا قليلًا حتى جاء زوجها أبو معبد يسوق أعنزًا عِجافًا يتساوكن هُزالًا، يترنّحن في مشيهن من الضعف. فلما رأى اللبن عجب، وقال: «مِنْ أَيْنَ لَكِ هَذَا، وَالشَّاةُ عَازِبٌ حَائِلٌ، وَلَا حَلُوبَةَ فِي الْبَيْتِ؟»",
                     "parts": [
                         {
-                            "text": "She had not waited long when her husband, Abu Ma‘bad, came home driving a few thin goats, so weak they staggered as they walked. When he saw the milk he was amazed. \"Where did you get this,\" he asked, \"when the flock is far off at pasture, none of them is carrying young, and there is no animal in milk in the house?\""
+                            "text": "فما لبثت إلا قليلًا حتى جاء زوجها أبو معبد يسوق أعنزًا عِجافًا يتساوكن هُزالًا، يترنّحن في مشيهن من الضعف. فلما رأى اللبن عجب، وقال: «مِنْ أَيْنَ لَكِ هَذَا، وَالشَّاةُ عَازِبٌ حَائِلٌ، وَلَا حَلُوبَةَ فِي الْبَيْتِ؟»"
                         },
                         { "note": 6 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_2",
-                    "text": "\"Nothing, by Allah,\" she said, \"except that a blessed man passed by us, and he was like this and like this.\"",
+                    "text": "قالت: «لَا وَاللَّهِ، إِلَّا أَنَّهُ مَرَّ بِنَا رَجُلٌ مُبَارَكٌ، مِنْ حَالِهِ كَذَا وَكَذَا».",
                     "parts": [
-                        {
-                            "text": "\"Nothing, by Allah,\" she said, \"except that a blessed man passed by us, and he was like this and like this.\""
-                        }
+                        { "text": "قالت: «لَا وَاللَّهِ، إِلَّا أَنَّهُ مَرَّ بِنَا رَجُلٌ مُبَارَكٌ، مِنْ حَالِهِ كَذَا وَكَذَا»." }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_3",
-                    "text": "\"Describe him to me, Umm Ma‘bad.\"",
-                    "parts": [{ "text": "\"Describe him to me, Umm Ma‘bad.\"" }, { "note": 8 }]
+                    "text": "قال: «صِفِيهِ لِي يَا أُمَّ مَعْبَدٍ».",
+                    "parts": [{ "text": "قال: «صِفِيهِ لِي يَا أُمَّ مَعْبَدٍ»." }, { "note": 8 }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_4",
-                    "text": "\"I saw a man of shining beauty,\" she said, \"his face bright, his build fine. No paunch spoiled him, and no small head made him less. He was handsome and finely featured. His eyes were deep black, his lashes curved, and his voice had a slight huskiness. His neck was long, his beard thick, his eyebrows finely arched and meeting. When he was silent, dignity sat on him; when he spoke, he stood tall, and splendour came over him. From afar he was the most beautiful and splendid of people; close up, the sweetest and the finest. His speech was sweet and clear, neither too little nor too much, as if his words were beads slipping one after another from a string. He was of middle height: not so tall that he towered over others, nor so short that the eye would look down on him. A branch between two branches, he was the finest to look at of the three, and the most highly regarded.\"",
+                    "text": "قالت: «رَأَيْتُ رَجُلًا ظَاهِرَ الْوَضَاءَةِ، أَبْلَجَ الْوَجْهِ، حَسَنَ الْخَلْقِ، لَمْ تَعِبْهُ ثَجْلَةٌ، وَلَمْ تَزْرِ بِهِ صَعْلَةٌ، وَسِيمٌ قَسِيمٌ، فِي عَيْنَيْهِ دَعَجٌ، وَفِي أَشْفَارِهِ عَطَفٌ، وَفِي صَوْتِهِ صَهَلٌ، وَفِي عُنُقِهِ سَطَعٌ، وَفِي لِحْيَتِهِ كَثَاثَةٌ، أَزَجُّ أَقْرَنُ، إِنْ صَمَتَ فَعَلَيْهِ الْوَقَارُ، وَإِنْ تَكَلَّمَ سَمَاهُ وَعَلَاهُ الْبَهَاءُ، أَجْمَلُ النَّاسِ وَأَبْهَاهُمْ مِنْ بَعِيدٍ، وَأَحْلَاهُ وَأَحْسَنُهُ مِنْ قَرِيبٍ، حُلْوُ الْمَنْطِقِ، فَصْلٌ لَا نَزْرٌ وَلَا هَذْرٌ، كَأَنَّ مَنْطِقَهُ خَرَزَاتُ نَظْمٍ تَحَدَّرْنَ، رَبْعَةٌ لَا بَائِنٌ مِنْ طُولٍ، وَلَا تَقْتَحِمُهُ عَيْنٌ مِنْ قِصَرٍ، غُصْنٌ بَيْنَ غُصْنَيْنِ، هُوَ أَنْظَرُ الثَّلَاثَةِ مَنْظَرًا، وَأَحْسَنُهُمْ قَدْرًا».",
                     "parts": [
                         {
-                            "text": "\"I saw a man of shining beauty,\" she said, \"his face bright, his build fine. No paunch spoiled him, and no small head made him less. He was handsome and finely featured. His eyes were deep black, his lashes curved, and his voice had a slight huskiness. His neck was long, his beard thick, his eyebrows finely arched and meeting. When he was silent, dignity sat on him; when he spoke, he stood tall, and splendour came over him. From afar he was the most beautiful and splendid of people; close up, the sweetest and the finest. His speech was sweet and clear, neither too little nor too much, as if his words were beads slipping one after another from a string. He was of middle height: not so tall that he towered over others, nor so short that the eye would look down on him. A branch between two branches, he was the finest to look at of the three, and the most highly regarded.\""
+                            "text": "قالت: «رَأَيْتُ رَجُلًا ظَاهِرَ الْوَضَاءَةِ، أَبْلَجَ الْوَجْهِ، حَسَنَ الْخَلْقِ، لَمْ تَعِبْهُ ثَجْلَةٌ، وَلَمْ تَزْرِ بِهِ صَعْلَةٌ، وَسِيمٌ قَسِيمٌ، فِي عَيْنَيْهِ دَعَجٌ، وَفِي أَشْفَارِهِ عَطَفٌ، وَفِي صَوْتِهِ صَهَلٌ، وَفِي عُنُقِهِ سَطَعٌ، وَفِي لِحْيَتِهِ كَثَاثَةٌ، أَزَجُّ أَقْرَنُ، إِنْ صَمَتَ فَعَلَيْهِ الْوَقَارُ، وَإِنْ تَكَلَّمَ سَمَاهُ وَعَلَاهُ الْبَهَاءُ، أَجْمَلُ النَّاسِ وَأَبْهَاهُمْ مِنْ بَعِيدٍ، وَأَحْلَاهُ وَأَحْسَنُهُ مِنْ قَرِيبٍ، حُلْوُ الْمَنْطِقِ، فَصْلٌ لَا نَزْرٌ وَلَا هَذْرٌ، كَأَنَّ مَنْطِقَهُ خَرَزَاتُ نَظْمٍ تَحَدَّرْنَ، رَبْعَةٌ لَا بَائِنٌ مِنْ طُولٍ، وَلَا تَقْتَحِمُهُ عَيْنٌ مِنْ قِصَرٍ، غُصْنٌ بَيْنَ غُصْنَيْنِ، هُوَ أَنْظَرُ الثَّلَاثَةِ مَنْظَرًا، وَأَحْسَنُهُمْ قَدْرًا»."
                         },
                         { "note": 13 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_5",
-                    "text": "Then she spoke of the men with him. \"He had companions who gathered round him. When he spoke, they fell silent to listen; when he gave an order, they hurried to carry it out. He was served and surrounded, never frowning, never overbearing.\"",
+                    "text": "ثم ذكرت مَن كان معه، فقالت: «لَهُ رُفَقَاءُ يَحُفُّونَ بِهِ، إِنْ قَالَ أَنْصَتُوا لِقَوْلِهِ، وَإِنْ أَمَرَ تَبَادَرُوا إِلَى أَمْرِهِ، مَحْفُودٌ مَحْشُودٌ، لَا عَابِسٌ وَلَا مُعْتَدٍ».",
                     "parts": [
                         {
-                            "text": "Then she spoke of the men with him. \"He had companions who gathered round him. When he spoke, they fell silent to listen; when he gave an order, they hurried to carry it out. He was served and surrounded, never frowning, never overbearing.\""
+                            "text": "ثم ذكرت مَن كان معه، فقالت: «لَهُ رُفَقَاءُ يَحُفُّونَ بِهِ، إِنْ قَالَ أَنْصَتُوا لِقَوْلِهِ، وَإِنْ أَمَرَ تَبَادَرُوا إِلَى أَمْرِهِ، مَحْفُودٌ مَحْشُودٌ، لَا عَابِسٌ وَلَا مُعْتَدٍ»."
                         },
                         { "note": 14 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_6",
-                    "text": "Abu Ma‘bad had heard enough. \"By Allah,\" he said, \"that is the man from Quraysh, the one we heard so much about in Makkah. I had meant to join him, and I will, if I find a way.\" Umm Ma‘bad herself, it is said, later emigrated, became Muslim and joined the Prophet ﷺ.",
+                    "text": "وكان أبو معبد قد سمع ما يكفيه، فقال: «هُوَ وَاللَّهِ صَاحِبُ قُرَيْشٍ الَّذِي ذُكِرَ لَنَا مِنْ أَمْرِهِ مَا ذُكِرَ بِمَكَّةَ، وَلَقَدْ هَمَمْتُ أَنْ أَصْحَبَهُ، وَلَأَفْعَلَنَّ إِنْ وَجَدْتُ إِلَى ذَلِكَ سَبِيلًا». وأما أم معبد نفسها فيُذكر أنها هاجرت بعد ذلك، وأسلمت، ولحقت برسول الله ﷺ.",
                     "parts": [
                         {
-                            "text": "Abu Ma‘bad had heard enough. \"By Allah,\" he said, \"that is the man from "
+                            "text": "وكان أبو معبد قد سمع ما يكفيه، فقال: «هُوَ وَاللَّهِ صَاحِبُ قُرَيْشٍ الَّذِي ذُكِرَ لَنَا مِنْ أَمْرِهِ مَا ذُكِرَ بِمَكَّةَ، وَلَقَدْ هَمَمْتُ أَنْ أَصْحَبَهُ، وَلَأَفْعَلَنَّ إِنْ وَجَدْتُ إِلَى ذَلِكَ سَبِيلًا»."
                         },
-                        { "text": "Quraysh", "term": "quraysh" },
-                        { "text": ", the one we heard so much about in " },
-                        { "text": "Makkah", "term": "makkah" },
-                        { "text": ". I had meant to join him, and I will, if I find a way.\"" },
                         { "note": 15 },
                         {
-                            "text": " Umm Ma‘bad herself, it is said, later emigrated, became Muslim and joined the Prophet ﷺ."
+                            "text": " وأما أم معبد نفسها فيُذكر أنها هاجرت بعد ذلك، وأسلمت، ولحقت برسول الله ﷺ."
                         },
                         { "note": 16 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_7",
-                    "text": "Quraysh, still hunting him, came that way too. They reached Umm Ma‘bad and described him to her. \"I do not know what you are talking about,\" she said. \"A man who milked a dry ewe was my guest.\" \"That is the one we want,\" they said.",
+                    "text": "ومرّت قريش بذلك الطريق أيضًا، وهي ما تزال في طلبه، حتى بلغوا أم معبد فوصفوه لها، فقالت: «مَا أَدْرِي مَا تَقُولُونَ، قَدْ ضَافَنِي حَالِبُ الْحَائِلِ». فقالت قريش: «فَذَاكَ الَّذِي نُرِيدُ».",
                     "parts": [
                         {
-                            "text": "Quraysh, still hunting him, came that way too. They reached Umm Ma‘bad and described him to her. \"I do not know what you are talking about,\" she said. \"A man who milked a dry ewe was my guest.\" \"That is the one we want,\" they said."
+                            "text": "ومرّت قريش بذلك الطريق أيضًا، وهي ما تزال في طلبه، حتى بلغوا أم معبد فوصفوه لها، فقالت: «مَا أَدْرِي مَا تَقُولُونَ، قَدْ ضَافَنِي حَالِبُ الْحَائِلِ». فقالت قريش: «فَذَاكَ الَّذِي نُرِيدُ»."
                         },
                         { "note": 17 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_8",
-                    "text": "In Makkah, Abu Bakr's family passed three nights not knowing which way he had gone. Then one of the jinn came singing up through Makkah from its lower end, with people following, hearing his voice but seeing no one, until he passed out of the upper end of the city: \"May Allah, Lord of mankind, give His best reward to two companions who stopped at the two tents of Umm Ma‘bad.\" When they heard it, they knew he was headed for Madinah. By then the man Abu Ma‘bad meant was already gone, riding on towards Madinah.",
+                    "text": "وفي مكة مكث آل أبي بكر ثلاث ليالٍ لا يدرون أين وجهُ رسول الله ﷺ، حتى أقبل رجلٌ من الجنّ من أسفل مكة يتغنّى، والناس يتبعونه، يسمعون صوته ولا يرونه، حتى خرج من أعلاها وهو يقول: «جَزَى اللَّهُ رَبُّ النَّاسِ خَيْرَ جَزَائِهِ ... رَفِيقَيْنِ حَلَّا خَيْمَتَيْ أُمِّ مَعْبَدِ». فلما سمعوا قوله عرفوا أن وجهه إلى المدينة. وكان الرجل الذي عناه أبو معبد قد مضى يومئذٍ في طريقه إلى المدينة.",
                     "parts": [
                         {
-                            "text": "In Makkah, Abu Bakr's family passed three nights not knowing which way he had gone. Then one of the "
-                        },
-                        { "text": "jinn", "term": "jinn" },
-                        {
-                            "text": " came singing up through Makkah from its lower end, with people following, hearing his voice but seeing no one, until he passed out of the upper end of the city: \"May Allah, Lord of mankind, give His best reward to two companions who stopped at the two tents of Umm Ma‘bad.\" When they heard it, they knew he was headed for Madinah."
+                            "text": "وفي مكة مكث آل أبي بكر ثلاث ليالٍ لا يدرون أين وجهُ رسول الله ﷺ، حتى أقبل رجلٌ من الجنّ من أسفل مكة يتغنّى، والناس يتبعونه، يسمعون صوته ولا يرونه، حتى خرج من أعلاها وهو يقول: «جَزَى اللَّهُ رَبُّ النَّاسِ خَيْرَ جَزَائِهِ ... رَفِيقَيْنِ حَلَّا خَيْمَتَيْ أُمِّ مَعْبَدِ». فلما سمعوا قوله عرفوا أن وجهه إلى المدينة."
                         },
                         { "note": 18 },
                         { "note": 19 },
                         {
-                            "text": " By then the man Abu Ma‘bad meant was already gone, riding on towards Madinah."
+                            "text": " وكان الرجل الذي عناه أبو معبد قد مضى يومئذٍ في طريقه إلى المدينة."
                         },
                         { "note": 7 },
                         { "note": 2 }
@@ -264,73 +236,52 @@
     "outline": [
         {
             "point_id": "hch_umm_mabad_pt1",
-            "text": "Two tents by the road",
+            "text": "خيمتان على الطريق",
             "section_id": "hch_umm_mabad_s1"
         },
         {
             "point_id": "hch_umm_mabad_pt2",
-            "text": "Nothing to sell in a year of hunger",
+            "text": "لا شيء يُشترى في عام المجاعة",
             "section_id": "hch_umm_mabad_s1"
         },
         {
             "point_id": "hch_umm_mabad_pt3",
-            "text": "The ewe that stayed behind",
+            "text": "الشاة التي خلّفها الجهد",
             "section_id": "hch_umm_mabad_s2"
         },
         {
             "point_id": "hch_umm_mabad_pt4",
-            "text": "A vessel filled twice",
+            "text": "إناء مُلئ مرتين",
             "section_id": "hch_umm_mabad_s3"
         },
         {
             "point_id": "hch_umm_mabad_pt5",
-            "text": "Abu Ma‘bad comes home",
-            "section_id": "hch_umm_mabad_s4"
+            "text": "أبو معبد يعود إلى بيته",
+            "section_id": "hch_umm_mabad_s3"
         },
-        {
-            "point_id": "hch_umm_mabad_pt6",
-            "text": "\"Describe him to me\"",
-            "section_id": "hch_umm_mabad_s4"
-        },
-        {
-            "point_id": "hch_umm_mabad_pt7",
-            "text": "The man from Quraysh",
-            "section_id": "hch_umm_mabad_s4"
-        },
-        {
-            "point_id": "hch_umm_mabad_pt8",
-            "text": "A voice over Makkah",
-            "section_id": "hch_umm_mabad_s4"
-        }
+        { "point_id": "hch_umm_mabad_pt6", "text": "«صِفيه لي»", "section_id": "hch_umm_mabad_s4" },
+        { "point_id": "hch_umm_mabad_pt7", "text": "صاحب قريش", "section_id": "hch_umm_mabad_s4" },
+        { "point_id": "hch_umm_mabad_pt8", "text": "صوتٌ فوق مكة", "section_id": "hch_umm_mabad_s4" }
     ],
     "in_depth": [
         {
             "section_id": "hch_umm_mabad_d1",
-            "title": "How strong is the story?",
+            "title": "ما مبلغ القصة من الثبوت؟",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_d1_1",
-                    "text": "Ibn Kathir sums it up in one line: the story of Umm Ma‘bad \"is well known, transmitted through routes that strengthen one another.\" The words used above come from one of those routes, the report of Hubaysh ibn Khalid, which al-Hakim also recorded and declared sound, with al-Dhahabi agreeing. The modern hadith scholar Muhammad Nasir al-Din al-Albani questions that judgment for this particular chain: it passes through Hubaysh's son Hisham, whom the critic Ibn Abi Hatim lists without any praise or criticism, and with no one but his own son reporting from him. Al-Albani still allows that the report may rise to hasan (good), or even sahih (sound), through the other routes al-Hakim gives. His remarks appear as footnotes in an edition of Ibn Hajar's Hidayat al-Ruwat, added by its editor ‘Ali al-Halabi from al-Albani's notes.",
+                    "text": "يُجمل ابن كثير أمرها في جملة واحدة، فيقول إن قصة أم معبد «مَشْهُورَةٌ مَرْوِيَّةٌ مِنْ طُرُقٍ يَشُدُّ بَعْضُهَا بَعْضًا». والألفاظ التي سيقت فيما تقدّم مأخوذة من أحد هذه الطرق، وهو رواية حبيش بن خالد، وقد أخرجها الحاكم أيضًا وصحّحها، ووافقه الذهبي. وقد نازع المحدّث المعاصر محمد ناصر الدين الألباني في هذا الحكم على هذا الإسناد بعينه: ففيه هشام بن حبيش، وقد أورده ابن أبي حاتم فلم يذكر فيه جرحًا ولا تعديلًا، ولم يذكر له راويًا غير ابنه. على أن الألباني يقرّ بأن الحديث قد يرتقي إلى الحسن، أو إلى الصحة، بالطرق الأخرى التي ساقها الحاكم. وكلامه هذا حواشٍ على طبعةٍ من «هداية الرواة» لابن حجر، ألحقها بها محققها علي الحلبي من تعليقات الألباني.",
                     "parts": [
-                        { "text": "Ibn Kathir", "term": "ibnkathir" },
                         {
-                            "text": " sums it up in one line: the story of Umm Ma‘bad \"is well known, transmitted through routes that strengthen one another.\""
+                            "text": "يُجمل ابن كثير أمرها في جملة واحدة، فيقول إن قصة أم معبد «مَشْهُورَةٌ مَرْوِيَّةٌ مِنْ طُرُقٍ يَشُدُّ بَعْضُهَا بَعْضًا»."
                         },
                         { "note": 9 },
                         {
-                            "text": " The words used above come from one of those routes, the report of Hubaysh ibn Khalid, which al-Hakim also recorded and declared sound, with al-Dhahabi agreeing. The modern "
-                        },
-                        { "text": "hadith", "term": "hadith" },
-                        {
-                            "text": " scholar Muhammad Nasir al-Din al-Albani questions that judgment for this particular chain: it passes through Hubaysh's son Hisham, whom the critic Ibn Abi Hatim lists without any praise or criticism, and with no one but his own son reporting from him. Al-Albani still allows that the report may rise to "
-                        },
-                        { "text": "hasan", "term": "hasan" },
-                        {
-                            "text": " (good), or even sahih (sound), through the other routes al-Hakim gives."
+                            "text": " والألفاظ التي سيقت فيما تقدّم مأخوذة من أحد هذه الطرق، وهو رواية حبيش بن خالد، وقد أخرجها الحاكم أيضًا وصحّحها، ووافقه الذهبي. وقد نازع المحدّث المعاصر محمد ناصر الدين الألباني في هذا الحكم على هذا الإسناد بعينه: ففيه هشام بن حبيش، وقد أورده ابن أبي حاتم فلم يذكر فيه جرحًا ولا تعديلًا، ولم يذكر له راويًا غير ابنه. على أن الألباني يقرّ بأن الحديث قد يرتقي إلى الحسن، أو إلى الصحة، بالطرق الأخرى التي ساقها الحاكم."
                         },
                         { "note": 20 },
                         {
-                            "text": " His remarks appear as footnotes in an edition of Ibn Hajar's Hidayat al-Ruwat, added by its editor ‘Ali al-Halabi from al-Albani's notes."
+                            "text": " وكلامه هذا حواشٍ على طبعةٍ من «هداية الرواة» لابن حجر، ألحقها بها محققها علي الحلبي من تعليقات الألباني."
                         },
                         { "note": 21 }
                     ]
@@ -339,26 +290,22 @@
         },
         {
             "section_id": "hch_umm_mabad_d2",
-            "title": "The family who told it",
+            "title": "الأسرة التي روت القصة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_d2_1",
-                    "text": "The report comes down through Umm Ma‘bad's own family. Hubaysh ibn Khalid, who tells it, was her brother, and it reaches Abu Nu‘aym through his son Hisham and grandson Hizam. Ibn Hisham calls her Umm Ma‘bad bint Ka‘b, of Banu Ka‘b of Khuza‘ah; in Ibn Ishaq's report through Yunus, her name is ‘Atikah bint Khalid. Ibn Kathir, quoting al-Umawi, names her husband Aktham ibn ‘Abd al-‘Uzza and their children Ma‘bad, Nadrah and Hunaydah. Abu Nu‘aym also records a report that reached ‘Abd al-Malik ibn Wahb, without a named source, that Umm Ma‘bad later emigrated, became Muslim, and joined the Prophet ﷺ.",
+                    "text": "تصل الرواية إلينا من أهل بيت أم معبد أنفسهم: فراويها حبيش بن خالد أخوها، وقد بلغت أبا نعيم من طريق ابنه هشام وحفيده حزام. ويسمّيها ابن هشام أمَّ معبد بنت كعب، من بني كعب من خزاعة، وفي رواية يونس عن ابن إسحاق أن اسمها عاتكة بنت خالد. وينقل ابن كثير عن الأموي أن زوجها أكثم بن عبد العزى، وأن ولدهما معبد ونضرة وحنيدة. ويروي أبو نعيم كذلك خبرًا بلغ عبد الملك بن وهب، دون أن يسمّي مصدره، أن أم معبد هاجرت وأسلمت ولحقت برسول الله ﷺ.",
                     "parts": [
                         {
-                            "text": "The report comes down through Umm Ma‘bad's own family. Hubaysh ibn Khalid, who tells it, was her brother, and it reaches Abu Nu‘aym through his son Hisham and grandson Hizam."
+                            "text": "تصل الرواية إلينا من أهل بيت أم معبد أنفسهم: فراويها حبيش بن خالد أخوها، وقد بلغت أبا نعيم من طريق ابنه هشام وحفيده حزام."
                         },
                         { "note": 22 },
-                        { "text": " Ibn Hisham calls her Umm Ma‘bad bint Ka‘b, of " },
-                        { "text": "Banu", "term": "banu" },
-                        { "text": " Ka‘b of Khuza‘ah; in " },
-                        { "text": "Ibn Ishaq", "term": "ibnishaq" },
                         {
-                            "text": "'s report through Yunus, her name is ‘Atikah bint Khalid. Ibn Kathir, quoting al-Umawi, names her husband Aktham ibn ‘Abd al-‘Uzza and their children Ma‘bad, Nadrah and Hunaydah."
+                            "text": " ويسمّيها ابن هشام أمَّ معبد بنت كعب، من بني كعب من خزاعة، وفي رواية يونس عن ابن إسحاق أن اسمها عاتكة بنت خالد. وينقل ابن كثير عن الأموي أن زوجها أكثم بن عبد العزى، وأن ولدهما معبد ونضرة وحنيدة."
                         },
                         { "note": 10 },
                         {
-                            "text": " Abu Nu‘aym also records a report that reached ‘Abd al-Malik ibn Wahb, without a named source, that Umm Ma‘bad later emigrated, became Muslim, and joined the Prophet ﷺ."
+                            "text": " ويروي أبو نعيم كذلك خبرًا بلغ عبد الملك بن وهب، دون أن يسمّي مصدره، أن أم معبد هاجرت وأسلمت ولحقت برسول الله ﷺ."
                         },
                         { "note": 16 }
                     ]
@@ -367,14 +314,14 @@
         },
         {
             "section_id": "hch_umm_mabad_d3",
-            "title": "Ibn Ishaq's telling",
+            "title": "رواية ابن إسحاق",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_d3_1",
-                    "text": "Ibn Ishaq tells the visit differently. In his version Umm Ma‘bad says, \"By Allah, we have no food, no animal lent to us for milk, and no ewe except dry ones.\" The Prophet ﷺ calls for one of her ewes, passes his hand over its udder, prays, and milks into a large bowl until it froths. \"Drink, Umm Ma‘bad,\" he says. \"You drink,\" she replies, \"you have more right to it.\" He hands it back, and she drinks. He then milks a second dry ewe and drinks himself, a third for the guide, and a fourth for ‘Amir. It is also Ibn Ishaq who has Quraysh reach her tent in their search, as told above.",
+                    "text": "يروي ابن إسحاق الزيارة على وجهٍ آخر. ففي روايته تقول أم معبد: «وَاللَّهِ مَا عِنْدَنَا طَعَامٌ، وَلَا لَنَا مِنْحَةٌ، وَلَا لَنَا شَاةٌ إِلَّا حَائِلٌ». فيدعو رسول الله ﷺ ببعض غنمها، فيمسح ضرعها بيده، ويدعو الله، ويحلب في العُسّ حتى تعلوه الرغوة، ويقول: «اشْرَبِي يَا أُمَّ مَعْبَدٍ»، فتقول: «اشْرَبْ فَأَنْتَ أَحَقُّ بِهِ»، فيردّه عليها فتشرب. ثم يحلب شاةً حائلًا ثانية فيشرب هو، وثالثةً فيسقي دليله، ورابعةً فيسقي عامرًا. وابن إسحاق كذلك هو الذي يذكر بلوغ قريش خيمتها في طلبه، على ما مرّ.",
                     "parts": [
                         {
-                            "text": "Ibn Ishaq tells the visit differently. In his version Umm Ma‘bad says, \"By Allah, we have no food, no animal lent to us for milk, and no ewe except dry ones.\" The Prophet ﷺ calls for one of her ewes, passes his hand over its udder, prays, and milks into a large bowl until it froths. \"Drink, Umm Ma‘bad,\" he says. \"You drink,\" she replies, \"you have more right to it.\" He hands it back, and she drinks. He then milks a second dry ewe and drinks himself, a third for the guide, and a fourth for ‘Amir. It is also Ibn Ishaq who has Quraysh reach her tent in their search, as told above."
+                            "text": "يروي ابن إسحاق الزيارة على وجهٍ آخر. ففي روايته تقول أم معبد: «وَاللَّهِ مَا عِنْدَنَا طَعَامٌ، وَلَا لَنَا مِنْحَةٌ، وَلَا لَنَا شَاةٌ إِلَّا حَائِلٌ». فيدعو رسول الله ﷺ ببعض غنمها، فيمسح ضرعها بيده، ويدعو الله، ويحلب في العُسّ حتى تعلوه الرغوة، ويقول: «اشْرَبِي يَا أُمَّ مَعْبَدٍ»، فتقول: «اشْرَبْ فَأَنْتَ أَحَقُّ بِهِ»، فيردّه عليها فتشرب. ثم يحلب شاةً حائلًا ثانية فيشرب هو، وثالثةً فيسقي دليله، ورابعةً فيسقي عامرًا. وابن إسحاق كذلك هو الذي يذكر بلوغ قريش خيمتها في طلبه، على ما مرّ."
                         },
                         { "note": 17 }
                     ]
@@ -383,14 +330,14 @@
         },
         {
             "section_id": "hch_umm_mabad_d4",
-            "title": "The woman and her son",
+            "title": "المرأة وابنها",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_d4_1",
-                    "text": "Al-Bayhaqi records a related report from Abu Bakr himself: they came at evening to a tent standing apart in a camp, where a woman said she was alone and sent them to the chief of the camp. Her son then came home with his goats, and the Prophet ﷺ milked them for her, for Abu Bakr and for himself; afterwards she called him \"the blessed one.\" Al-Bayhaqi thinks the two stories may be about the same woman, and suggests an order: first the ewe at the back of the tent, then her son with the goats, then her husband, to whom she described him.",
+                    "text": "ويروي البيهقي خبرًا قريبًا عن أبي بكر نفسه: انتهوا عند المساء إلى بيتٍ منتحٍ في حيّ من أحياء العرب، فقالت امرأةٌ فيه إنها وحدها، ودلّتهم على عظيم الحيّ. ثم جاء ابنٌ لها بأعنزٍ يسوقها، فحلبها رسول الله ﷺ لها ولأبي بكر ولنفسه، فكانت بعدُ تسمّيه «الْمُبَارَكَ». ويرى البيهقي أن القصتين قد تكونان لامرأة واحدة، ويقترح لهما ترتيبًا: الشاة التي في كِسر الخيمة أولًا، ثم ابنها بالأعنز، ثم زوجها لمّا أتى فوصفته له.",
                     "parts": [
                         {
-                            "text": "Al-Bayhaqi records a related report from Abu Bakr himself: they came at evening to a tent standing apart in a camp, where a woman said she was alone and sent them to the chief of the camp. Her son then came home with his goats, and the Prophet ﷺ milked them for her, for Abu Bakr and for himself; afterwards she called him \"the blessed one.\" Al-Bayhaqi thinks the two stories may be about the same woman, and suggests an order: first the ewe at the back of the tent, then her son with the goats, then her husband, to whom she described him."
+                            "text": "ويروي البيهقي خبرًا قريبًا عن أبي بكر نفسه: انتهوا عند المساء إلى بيتٍ منتحٍ في حيّ من أحياء العرب، فقالت امرأةٌ فيه إنها وحدها، ودلّتهم على عظيم الحيّ. ثم جاء ابنٌ لها بأعنزٍ يسوقها، فحلبها رسول الله ﷺ لها ولأبي بكر ولنفسه، فكانت بعدُ تسمّيه «الْمُبَارَكَ». ويرى البيهقي أن القصتين قد تكونان لامرأة واحدة، ويقترح لهما ترتيبًا: الشاة التي في كِسر الخيمة أولًا، ثم ابنها بالأعنز، ثم زوجها لمّا أتى فوصفته له."
                         },
                         { "note": 23 }
                     ]
@@ -399,14 +346,14 @@
         },
         {
             "section_id": "hch_umm_mabad_d5",
-            "title": "Words in the description",
+            "title": "غريب ألفاظ الوصف",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_d5_1",
-                    "text": "Several of Umm Ma‘bad's words are rare, and the early philologist Abu ‘Ubayd al-Qasim ibn Sallam explains them. Her \"neither too little nor too much\" means a middle course in speech; \"the eye would not look down on him\" means you would not dismiss him, but welcome him and hold him in awe; \"served and surrounded\" means a man whose companions wait on him and gather round him. For the lashes he prefers a reading that means long rather than curved, and he describes the huskiness of the voice as slight and pleasant.",
+                    "text": "في كلام أم معبد ألفاظٌ غريبة يشرحها اللغوي المتقدّم أبو عبيد القاسم بن سلّام. فقولها «لَا نَزْرٌ وَلَا هَذْرٌ» يعني قصدًا في الكلام بين القليل والكثير؛ وقولها «لَا تَقْتَحِمُهُ عَيْنٌ مِنْ قِصَرٍ» أي لا تزدريه العين فتنبذه، ولكن تقبله وتهابه؛ و«مَحْفُودٌ مَحْشُودٌ» هو الذي يخدمه أصحابه ويجتمعون حوله ويُطيفون به. وفي «أَشْفَارِهِ عَطَفٌ» يرجّح أن تكون «وَطَفًا»، أي أشفارًا طويلة مسترسلة لا معطوفة، ويصف ما في صوته بأنه شبيهٌ بالبُحّة، ليس بالشديد منها، ولكنه حسن.",
                     "parts": [
                         {
-                            "text": "Several of Umm Ma‘bad's words are rare, and the early philologist Abu ‘Ubayd al-Qasim ibn Sallam explains them. Her \"neither too little nor too much\" means a middle course in speech; \"the eye would not look down on him\" means you would not dismiss him, but welcome him and hold him in awe; \"served and surrounded\" means a man whose companions wait on him and gather round him. For the lashes he prefers a reading that means long rather than curved, and he describes the huskiness of the voice as slight and pleasant."
+                            "text": "في كلام أم معبد ألفاظٌ غريبة يشرحها اللغوي المتقدّم أبو عبيد القاسم بن سلّام. فقولها «لَا نَزْرٌ وَلَا هَذْرٌ» يعني قصدًا في الكلام بين القليل والكثير؛ وقولها «لَا تَقْتَحِمُهُ عَيْنٌ مِنْ قِصَرٍ» أي لا تزدريه العين فتنبذه، ولكن تقبله وتهابه؛ و«مَحْفُودٌ مَحْشُودٌ» هو الذي يخدمه أصحابه ويجتمعون حوله ويُطيفون به. وفي «أَشْفَارِهِ عَطَفٌ» يرجّح أن تكون «وَطَفًا»، أي أشفارًا طويلة مسترسلة لا معطوفة، ويصف ما في صوته بأنه شبيهٌ بالبُحّة، ليس بالشديد منها، ولكنه حسن."
                         },
                         { "note": 24 }
                     ]
@@ -415,18 +362,18 @@
         },
         {
             "section_id": "hch_umm_mabad_d6",
-            "title": "A voice over Makkah",
+            "title": "صوتٌ فوق مكة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_umm_mabad_d6_1",
-                    "text": "The voice in the story comes from Asma bint Abi Bakr, in Ibn Ishaq's report. Hubaysh's report in Abu Nu‘aym also goes on beyond Abu Ma‘bad's words: the next morning a voice was heard high over Makkah, and no one knew whose it was, reciting the same verses at greater length. One of its lines runs, \"Ask your sister about her ewe and her vessel; if you ask the ewe, it will bear witness.\" In another version the voice is heard in Madinah, between heaven and earth; in the first, Hassan ibn Thabit hears it and answers with verses of his own.",
+                    "text": "والصوت الذي في القصة من رواية أسماء بنت أبي بكر عند ابن إسحاق. ورواية حبيش عند أبي نعيم تمضي هي الأخرى إلى ما بعد كلام أبي معبد: فأصبح صوتٌ بمكة عاليًا، يسمعونه ولا يدرون مَن صاحبه، يُنشد الأبيات نفسها بأطول مما سبق، ومنها: «سَلُوا أُخْتَكُمْ عَنْ شَاتِهَا وَإِنَائِهَا ... فَإِنَّكُمُ إِنْ تَسْأَلُوا الشَّاةَ تَشْهَدِ». وفي رواية أخرى أصبح الصوت بالمدينة، بين السماء والأرض؛ وفي الرواية الأولى سمعه حسان بن ثابت فأجابه بأبياتٍ من شعره.",
                     "parts": [
                         {
-                            "text": "The voice in the story comes from Asma bint Abi Bakr, in Ibn Ishaq's report."
+                            "text": "والصوت الذي في القصة من رواية أسماء بنت أبي بكر عند ابن إسحاق."
                         },
                         { "note": 18 },
                         {
-                            "text": " Hubaysh's report in Abu Nu‘aym also goes on beyond Abu Ma‘bad's words: the next morning a voice was heard high over Makkah, and no one knew whose it was, reciting the same verses at greater length. One of its lines runs, \"Ask your sister about her ewe and her vessel; if you ask the ewe, it will bear witness.\" In another version the voice is heard in Madinah, between heaven and earth; in the first, Hassan ibn Thabit hears it and answers with verses of his own."
+                            "text": " ورواية حبيش عند أبي نعيم تمضي هي الأخرى إلى ما بعد كلام أبي معبد: فأصبح صوتٌ بمكة عاليًا، يسمعونه ولا يدرون مَن صاحبه، يُنشد الأبيات نفسها بأطول مما سبق، ومنها: «سَلُوا أُخْتَكُمْ عَنْ شَاتِهَا وَإِنَائِهَا ... فَإِنَّكُمُ إِنْ تَسْأَلُوا الشَّاةَ تَشْهَدِ». وفي رواية أخرى أصبح الصوت بالمدينة، بين السماء والأرض؛ وفي الرواية الأولى سمعه حسان بن ثابت فأجابه بأبياتٍ من شعره."
                         },
                         { "note": 19 }
                     ]
@@ -438,8 +385,8 @@
         {
             "reading_id": "hch_umm_mabad_n1",
             "number": 1,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Abu Nu‘aym, Dala'il al-Nubuwwah — Hubaysh ibn Khalid; 1/340 — Abu ‘Ubayd on murmilin (provisions run out) and musnitin (struck by a year of drought and famine)",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧؛ دلائل النبوة — حبيش بن خالد؛ ١/٣٤٠ — أبو عبيد في «مرملين» و«مسنتين»",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_story", "part_ids": ["p4"] },
@@ -449,8 +396,8 @@
         {
             "reading_id": "hch_umm_mabad_n2",
             "number": 2,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Ibn Hajar, Hidayat al-Ruwat, 5/357 — Hubaysh ibn Khalid; Hubaysh: \"emigrating to Madinah\"",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧؛ هداية الرواة، ٥/٣٥٧ — حبيش بن خالد؛ وعنده: «خرج مهاجرًا إلى المدينة»",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_story", "part_ids": ["p2"] },
@@ -461,8 +408,8 @@
         {
             "reading_id": "hch_umm_mabad_n3",
             "number": 3,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Abu Nu‘aym, Dala'il al-Nubuwwah — Hubaysh ibn Khalid; 1/340 — Abu ‘Ubayd on barzah",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧؛ دلائل النبوة — حبيش بن خالد؛ ١/٣٤٠ — أبو عبيد في «البرزة»",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_story", "part_ids": ["p4"] },
@@ -472,15 +419,15 @@
         {
             "reading_id": "hch_umm_mabad_n4",
             "number": 4,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337 — Hubaysh ibn Khalid",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧ — حبيش بن خالد",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_umm_mabad_story", "part_ids": ["p4"] }]
         },
         {
             "reading_id": "hch_umm_mabad_n5",
             "number": 5,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Abu Nu‘aym, Dala'il al-Nubuwwah — Hubaysh ibn Khalid; 1/341 — Abu ‘Ubayd",
+            "title": "دلائل النبوة، ١/٣٣٧؛ دلائل النبوة — حبيش بن خالد؛ ١/٣٤١ — أبو عبيد",
             "mode": "original",
             "strength": null,
             "source_refs": [
@@ -491,7 +438,7 @@
         {
             "reading_id": "hch_umm_mabad_n6",
             "number": 6,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Abu Nu‘aym, Dala'il al-Nubuwwah — Hubaysh ibn Khalid, quoting Abu Ma‘bad; 1/341 — Abu ‘Ubayd on tasawakna (weak walking), ‘azib (gone out to pasture) and hiyyal (not carrying young)",
+            "title": "دلائل النبوة، ١/٣٣٧؛ دلائل النبوة — حبيش بن خالد، عن قول أبي معبد؛ ١/٣٤١ — أبو عبيد في «التساوك» و«عازب» و«الحيّل»",
             "mode": "original",
             "strength": null,
             "source_refs": [
@@ -502,7 +449,7 @@
         {
             "reading_id": "hch_umm_mabad_n7",
             "number": 7,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Abu Nu‘aym, Dala'il al-Nubuwwah — Hubaysh ibn Khalid; 1/341 — Abu ‘Ubayd on araḍu (drinking milk poured on milk) and ghadarahu (left it)",
+            "title": "دلائل النبوة، ١/٣٣٧؛ دلائل النبوة — حبيش بن خالد؛ ١/٣٤١ — أبو عبيد في «أراضوا» و«غادره»",
             "mode": "original",
             "strength": null,
             "source_refs": [
@@ -513,24 +460,24 @@
         {
             "reading_id": "hch_umm_mabad_n8",
             "number": 8,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337 — Umm Ma‘bad and Abu Ma‘bad in Hubaysh's report",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧ — أم معبد وأبو معبد في رواية حبيش",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_umm_mabad_story", "part_ids": ["p14", "p15"] }]
         },
         {
             "reading_id": "hch_umm_mabad_n9",
             "number": 9,
-            "title": "Ibn Kathir, al-Bidayah wa al-Nihayah, 4/472",
-            "mode": "translated",
+            "title": "البداية والنهاية، ٤/٤٧٢",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_umm_mabad_ibn_kathir", "part_ids": ["p2"] }]
         },
         {
             "reading_id": "hch_umm_mabad_n10",
             "number": 10,
-            "title": "Ibn Kathir, al-Bidayah wa al-Nihayah, 4/472; Ibn Hisham, al-Sirah al-Nabawiyyah, 1/487 — citing Ibn Hisham, Yunus from Ibn Ishaq, and al-Umawi",
-            "mode": "translated",
+            "title": "البداية والنهاية، ٤/٤٧٢؛ سيرة ابن هشام، ١/٤٨٧ — نقلًا عن ابن هشام، ويونس عن ابن إسحاق، والأموي",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_ibn_kathir", "part_ids": ["p1"] },
@@ -540,8 +487,8 @@
         {
             "reading_id": "hch_umm_mabad_n11",
             "number": 11,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337 — the Prophet ﷺ and Umm Ma‘bad in Hubaysh's report",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧ — النبي ﷺ وأم معبد في رواية حبيش",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 {
@@ -553,7 +500,7 @@
         {
             "reading_id": "hch_umm_mabad_n12",
             "number": 12,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Abu Nu‘aym, Dala'il al-Nubuwwah — Hubaysh ibn Khalid; 1/341 — Abu ‘Ubayd on tafajjat, yurid al-rahṭ and thajj",
+            "title": "دلائل النبوة، ١/٣٣٧؛ دلائل النبوة — حبيش بن خالد؛ ١/٣٤١ — أبو عبيد في «تفاجّت» و«يُربض الرهط» و«ثجًّا»",
             "mode": "original",
             "strength": null,
             "source_refs": [
@@ -564,8 +511,8 @@
         {
             "reading_id": "hch_umm_mabad_n13",
             "number": 13,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Abu Nu‘aym, Dala'il al-Nubuwwah — Umm Ma‘bad in Hubaysh's report; 1/341–343 — Abu ‘Ubayd on her words",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧؛ دلائل النبوة — أم معبد في رواية حبيش؛ ١/٣٤١–٣٤٣ — أبو عبيد في ألفاظها",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_story", "part_ids": ["p16"] },
@@ -579,8 +526,8 @@
         {
             "reading_id": "hch_umm_mabad_n14",
             "number": 14,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337; Abu Nu‘aym, Dala'il al-Nubuwwah — Umm Ma‘bad in Hubaysh's report; 1/343 — Abu ‘Ubayd on mahfud mahshud",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧؛ دلائل النبوة — أم معبد في رواية حبيش؛ ١/٣٤٣ — أبو عبيد في «محفود محشود»",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_story", "part_ids": ["p18"] },
@@ -591,24 +538,24 @@
         {
             "reading_id": "hch_umm_mabad_n15",
             "number": 15,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337 — Abu Ma‘bad in Hubaysh's report",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧ — أبو معبد في رواية حبيش",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_umm_mabad_story", "part_ids": ["p19"] }]
         },
         {
             "reading_id": "hch_umm_mabad_n16",
             "number": 16,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/NaN–NaN — ‘Abd al-Malik ibn Wahb, \"it reached me\"",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/NaN–NaN — عبد الملك بن وهب: «بلغني»",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-10637-290-RA-UMM-MIGRATION", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_umm_mabad_n17",
             "number": 17,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/493; Ibn Kathir, al-Sirah al-Nabawiyyah, 2/257 — Ibn Ishaq through Yunus ibn Bukayr",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٩٣؛ السيرة النبوية من البداية والنهاية، ٢/٢٥٧ — ابن إسحاق من رواية يونس بن بكير",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "H-7478-1014-RA-UMM-ISHaq", "part_ids": ["p1"] },
@@ -618,8 +565,8 @@
         {
             "reading_id": "hch_umm_mabad_n18",
             "number": 18,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/487–488 — Asma bint Abi Bakr, through Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٧–٤٨٨ — أسماء بنت أبي بكر، من طريق ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "H-23833-510-PHONE", "part_ids": ["p1"] },
@@ -629,8 +576,8 @@
         {
             "reading_id": "hch_umm_mabad_n19",
             "number": 19,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337 — Hubaysh's report continued, and Abu Nu‘aym on the other version",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٣٣٧ — تتمة رواية حبيش، وأبو نعيم في الرواية الأخرى",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_story", "part_ids": ["p20"] },
@@ -642,8 +589,8 @@
         {
             "reading_id": "hch_umm_mabad_n20",
             "number": 20,
-            "title": "Ibn Hajar, Hidayat al-Ruwat, 5/358 — Ibn Hajar's reference to al-Bayhaqi, and al-Albani's footnote",
-            "mode": "translated",
+            "title": "هداية الرواة، ٥/٣٥٨ — إحالة ابن حجر إلى البيهقي، وحاشية الألباني",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_hidaya_end", "part_ids": ["p9"] },
@@ -653,16 +600,16 @@
         {
             "reading_id": "hch_umm_mabad_n21",
             "number": 21,
-            "title": "Ibn Hajar, Hidayat al-Ruwat, 1/5 — ‘Ali al-Halabi's introduction",
-            "mode": "translated",
+            "title": "هداية الرواة، ١/٥ — مقدمة علي الحلبي",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_umm_mabad_attribution", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_umm_mabad_n22",
             "number": 22,
-            "title": "Ibn Hajar, Hidayat al-Ruwat, 5/357; Abu Nu‘aym, Dala'il al-Nubuwwah, 1/337 — \"Hubaysh ibn Khalid, Umm Ma‘bad's brother\"; the chain",
-            "mode": "translated",
+            "title": "هداية الرواة، ٥/٣٥٧؛ دلائل النبوة، ١/٣٣٧ — «حبيش بن خالد، وهو أخو أم معبد»؛ الإسناد",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_hidaya_start", "part_ids": ["p1"] },
@@ -672,8 +619,8 @@
         {
             "reading_id": "hch_umm_mabad_n23",
             "number": 23,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/491–494 — ‘Abd al-Rahman ibn Abi Layla from Abu Bakr, and al-Bayhaqi's comments",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٩١–٤٩٤ — عبد الرحمن بن أبي ليلى عن أبي بكر، وتعقيب البيهقي",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "H-7478-1012-RA-WOMAN-SON", "part_ids": ["p1"] },
@@ -686,8 +633,8 @@
         {
             "reading_id": "hch_umm_mabad_n24",
             "number": 24,
-            "title": "Abu Nu‘aym, Dala'il al-Nubuwwah — Abu ‘Ubayd",
-            "mode": "translated",
+            "title": "دلائل النبوة — أبو عبيد",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_umm_mabad_gloss", "part_ids": ["p18", "p19"] },
@@ -696,60 +643,7 @@
             ]
         }
     ],
-    "terms": [
-        {
-            "id": "madinah",
-            "word": "Madinah",
-            "meaning": "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
-        },
-        {
-            "id": "abubakr",
-            "word": "Abu Bakr",
-            "meaning": "The Prophet’s closest friend and companion, who later led the Muslims after him."
-        },
-        {
-            "id": "freedman",
-            "word": "Freedman",
-            "meaning": "A former slave, set free, who remains attached to the family that freed him."
-        },
-        { "id": "allah", "word": "Allah", "meaning": "The Arabic word for God." },
-        {
-            "id": "quraysh",
-            "word": "Quraysh",
-            "meaning": "The leading tribe of Makkah. The Prophet ﷺ himself belonged to it."
-        },
-        {
-            "id": "makkah",
-            "word": "Makkah",
-            "meaning": "The city where the Prophet ﷺ was born, home of the Ka‘bah."
-        },
-        { "id": "jinn", "word": "Jinn", "meaning": "Beings created from fire, unseen by people." },
-        {
-            "id": "ibnkathir",
-            "word": "Ibn Kathir",
-            "meaning": "A scholar of the fourteenth century whose history of the Prophet’s life is widely used."
-        },
-        {
-            "id": "hadith",
-            "word": "Hadith",
-            "meaning": "A report of what the Prophet ﷺ said or did, passed on by named narrators."
-        },
-        {
-            "id": "hasan",
-            "word": "hasan",
-            "meaning": "\"Good\": a report graded reliable, a step below the soundest (sahih)."
-        },
-        {
-            "id": "banu",
-            "word": "Banu",
-            "meaning": "\"Sons of\": a clan named after its ancestor, as in Banu al-Najjar."
-        },
-        {
-            "id": "ibnishaq",
-            "word": "Ibn Ishaq",
-            "meaning": "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
-        }
-    ],
+    "terms": [],
     "source_units": [
         {
             "unit_id": "sp_umm_mabad_story:p4",
@@ -765,7 +659,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": " the two tents of Umm Mabad of Khuzaa. She was a hardy, open woman, sitting with her legs drawn up in the forecourt of her tent, giving drink and food. They asked her for meat and dates to buy, but found none of either with her. The party had run out of provisions and were afflicted by scarcity. The Messenger of Allah ﷺ noticed a sheep in the side of the tent and said:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p2",
@@ -781,7 +675,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "A barza among women is a hardy woman who appears before people and with whom the party sits. As for his words, “The party were murmilin, musnitin”: a murmil is one whose provisions have run out; musnitin means people struck by a hard year, that is, crisis and famine."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p2",
@@ -797,7 +691,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "That when the Messenger of Allah ﷺ left Makkah, he emigrated from there with Abu Bakr, Abu Bakr’s freedman Amir ibn Fuhayrah, and their Laythi guide Abd Allah ibn Urayqit (أريقط). They passed by"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_start:p2",
@@ -813,7 +707,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "357",
-            "text": "That when the Messenger of Allah ﷺ was brought out of Makkah, he left as an emigrant for Madinah with Abu Bakr, Abu Bakr’s freedman Amir ibn Fuhayrah, and their guide Abd Allah the Laythi. They passed by Umm Mabad’s two tents and asked her for meat and dates to buy, but found none with her. The party had run out of provisions (^٤) and suffered a hard year (^٥). The Messenger of Allah ﷺ then looked"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p5",
@@ -845,7 +739,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "The report says she had scarcely waited when her husband Abu Mabad came driving emaciated goats, so thin they staggered and had little marrow. When Abu Mabad saw the milk he was amazed and said:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p13",
@@ -861,7 +755,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "“Where did you get this, when the sheep are away and not pregnant, and there is no milking animal in the house?”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p7",
@@ -893,7 +787,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "The Messenger of Allah ﷺ had it brought, stroked its udder with his hand, named Allah ﷿ and prayed for her regarding her sheep. It spread its legs for him, gave milk, and chewed the cud. He called for a vessel that would suffice the group and milked copiously into it until foam rose over it. Then he gave her drink until she had enough, and his companions until they had enough; then he ﷺ drank last. Then they drank to their fill, and he milked it a second time after the first until he filled the vessel, left it with her, made a transaction with her, and they departed."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p14",
@@ -909,7 +803,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "She said: “No, by Allah, except that a blessed man passed by us, and such-and-such was his condition.”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p15",
@@ -925,7 +819,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "He said: “Describe him to me, Umm Mabad.”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_ibn_kathir:p2",
@@ -941,7 +835,7 @@
             "book_id": "4445",
             "volume": "4",
             "page": "472",
-            "text": "Her story is well known, transmitted through routes that reinforce one another."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_ibn_kathir:p1",
@@ -957,7 +851,7 @@
             "book_id": "4445",
             "volume": "4",
             "page": "472",
-            "text": "As he passed by, he came to Umm Ma‘bad, daughter of Ka‘b, of Banu Ka‘b ibn Khuza‘ah. This is what Ibn Hisham said. Yunus, reporting from Ibn Ishaq, said: Her name was ‘Atikah, daughter of Khalid ibn Munqidh ibn Rabi‘ah ibn Asram. Al-Um awi said: She was ‘Atikah, daughter of Tabee‘, an ally of Banu Munqidh ibn Rabi‘ah ibn Asram ibn Dhabis ibn Haram ibn Hubshiyyah ibn Ka‘b ibn ‘Amr. Her children were Ma‘bad, Nadrah, and Hunaidah, the children of Abu Ma‘bad, whose name was Aktham ibn ‘Abd al-‘Uzza ibn Munqidh ibn Rabi‘ah ibn Asram ibn Dhabis."
+            "text": null
         },
         {
             "unit_id": "H-23833-510-LINEAGE:p1",
@@ -973,7 +867,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "487",
-            "text": "Ibn Hisham said: Umm Ma‘bad, daughter of Ka‘b, was a woman from Banu Ka‘b of Khuza‘ah."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p5",
@@ -989,7 +883,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "“What is this sheep, Umm Mabad?”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p6",
@@ -1005,7 +899,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "She said: “A sheep that exhaustion left behind the flock.”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p7",
@@ -1021,7 +915,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "He said: “Does it have any milk?”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p8",
@@ -1037,7 +931,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "She said: “It is too exhausted for that.”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p9",
@@ -1053,7 +947,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "He said: “Will you allow me to milk it?”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p10",
@@ -1069,7 +963,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "She said: “May my father and mother be your ransom! Yes, if you see that it has milk, then milk it.”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p16",
@@ -1085,7 +979,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "She said: “I saw a man plainly radiant, bright-faced, well formed. No large belly marred him, nor did a small head diminish him. He was handsome and well proportioned, with dark eyes, curved eyelashes, a resonant voice, and"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p18",
@@ -1101,7 +995,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": " a long neck and thick beard, with arched eyebrows that met. When silent, he bore dignity; when he spoke, he rose in stature and splendor covered him. From afar he was the most beautiful and splendid of people, and from near the most pleasing and handsome. His speech was sweet and distinct, neither nadhz nor excessive; it was as though his words were beads in a string descending. He was of medium height, neither markedly tall nor so short that the eye would disdain him. A branch between two branches, he was the best-looking of the three and the most esteemed. Companions surrounded him: if he spoke, they listened to his words, and if he commanded, they hastened to obey. He was served and attended, neither frowning nor overbearing.” Translator note: The digital form نَذْز is retained here; Abu Ubayd’s explanation instead has نَزْر (“too little”)."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p8",
@@ -1117,7 +1011,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "Her description of the Messenger of Allah ﷺ, “radiant in appearance,” means handsome; “radiant” means handsome. “Bright-faced” describes a face with light and radiance; a man may be described as bright-faced or radiant. Al-A‘sha said:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p12",
@@ -1133,7 +1027,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "Her words, “No paunch made him seem unattractive,” mean that he did not have a large belly."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p14",
@@ -1149,7 +1043,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "Her words, “A small head did not make him seem unattractive,” refer to a small head; a man is called small-headed. Her words, “handsome and well-proportioned,” both mean handsome. He said: The poet praised a people, saying:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p18",
@@ -1165,7 +1059,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "He means: Even if the encounter with war has worn them down, their beauty remains unchanged. By “features,” he means handsome faces. Her words, “His eyes were intensely black,” refer to the blackness of the iris; a man is called intensely black-eyed, and a woman intensely black-eyed. Her words, “His eyelashes were curved”: Some people thought the word meant curved, but I think it means long and flowing, as does anything elongated and hanging freely. A cloud hanging low over the earth is also described as long and flowing. Her words, “There was a slight huskiness in his voice”: it was slightly hoarse, resembling a mild roughness, but not severe; rather, it was pleasant. Gazelles are described this way. Her words, “His neck was long”: this means tall; a man is called long-necked and a woman long-necked, and this is considered praiseworthy in people. Her word “arched-browed” means that his eyebrows were curved. “Joined-browed” means that his eyebrows met between his eyes."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p19",
@@ -1181,7 +1075,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "As for her words, “His speech was neither nazr (نَزْر) nor hadhr (هَذْر)”: nazr means little and hadhr means much; she means a middle course between the two. And as for her words, “The eye would not disdain him on account of shortness”: she means you would not look down on him and cast him aside, but would welcome him and hold him in awe."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p22",
@@ -1197,7 +1091,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "And her words, “attended to and surrounded”: “attended to” means served. Allah, exalted is He, said:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p25",
@@ -1213,7 +1107,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "“Surrounded” means that his companions gathered around him, closed in around him, and encircled him."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p19",
@@ -1229,7 +1123,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "Abu Mabad said: “By Allah, he is the man of Quraysh about whom we were told what we were told in Makkah. I had thought of accompanying him, and I certainly shall if I find a way to do so.”"
+            "text": null
         },
         {
             "unit_id": "H-10637-290-RA-UMM-MIGRATION:p1",
@@ -1245,7 +1139,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "٣٤٠",
-            "text": "Abu Ahmad ibn Bishr ibn Muhammad said: ‘Abd al-Malik ibn Wahb told us: I was informed that Umm Ma‘bad emigrated, accepted Islam, and joined the Messenger of Allah ﷺ. Abu Umayyah Muhammad ibn Ibrahim ibn Bishr ibn Muhammad narrated the same."
+            "text": null
         },
         {
             "unit_id": "H-7478-1014-RA-UMM-ISHaq:p1",
@@ -1261,7 +1155,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "493",
-            "text": "Abu ‘Abdullah al-Hafiz informed us, saying: Abu al-‘Abbas Muhammad ibn Ya‘qub told us, saying: Ahmad ibn ‘Abd al-Jabbar told us, saying: Yunus ibn Bukayr told us, from Ibn Ishaq, who said: “The Messenger of Allah ﷺ stopped at Umm Ma‘bad’s tent. She was the one about whom the jinn sang at the upper part of Makkah. Her name was ‘Atikah bint Khalid ibn Munqidh ibn Rabi‘ah ibn Asram. They wanted hospitality, but she said, ‘By Allah, we have no food, no milch animal, and no sheep except a ewe that is not producing milk.’ The Messenger of Allah ﷺ called for one of her sheep, rubbed its udder with his hand, prayed to Allah, and milked it into a vessel until it foamed. He said, ‘Drink, Umm Ma‘bad.’ She said, ‘You drink; you have more right to it.’ He gave it back to her, and she drank. Then he called for another ewe that was not producing milk, did the same, and drank. Then he called for another such ewe, did the same, and gave the guide a drink. Then he called for another such ewe, did the same, and gave ‘Amir a drink. Then they set off. Quraysh pursued the Messenger of Allah ﷺ until they reached Umm Ma‘bad and asked her about him. They said, ‘Did you see Muhammad, whose appearance is such-and-such?’ They described him to her, but she said, ‘I don’t know what you mean. A man who milked an ewe that was not producing milk stayed with me.’ Quraysh said, ‘That is the one we are looking for.’”"
+            "text": null
         },
         {
             "unit_id": "E21:p1",
@@ -1277,7 +1171,7 @@
             "book_id": "930",
             "volume": "2",
             "page": "257",
-            "text": "The Messenger of Allah ﷺ stopped at Umm Ma‘bad’s tent … She said, “By Allah, we have no food, no milch animal, and no sheep except a ewe that is not producing milk.” The Messenger of Allah ﷺ called for one of her sheep, rubbed its udder with his hand, prayed to Allah, and milked it into a vessel until it foamed. He said, “Drink, Umm Ma‘bad.”"
+            "text": null
         },
         {
             "unit_id": "H-23833-510-PHONE:p1",
@@ -1293,7 +1187,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "487",
-            "text": "She said: Then they departed. We stayed for three nights, not knowing which way the Messenger of Allah ﷺ had gone. Then a man from the jinn came from the lower part of Makkah, singing verses in the style of Arab songs. People followed him, hearing his voice but not seeing him, until he emerged from the upper part of Makkah, saying:\n\n“May the Lord of all people reward with the finest reward\nTwo companions who stayed at Umm Ma‘bad’s tents.\nThey stopped there in goodness, then went on at evening;\nFortunate is the one who becomes Muhammad’s companion.\nMay Banu Ka‘b rejoice in the place of their young woman,\nAnd in her resting place, where the two believers were watched over.”"
+            "text": null
         },
         {
             "unit_id": "H-23833-511-GUIDE:p1",
@@ -1309,7 +1203,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "488",
-            "text": "Ibn Ishaq said: Asma’ bint Abi Bakr said: “When we heard what he said, we knew where the Messenger of Allah ﷺ was headed, and that he was headed for Madinah. There were four of them: the Messenger of Allah ﷺ, Abu Bakr al-Siddiq, Abu Bakr’s freedman ‘Amir ibn Fuhayrah, and their guide, ‘Abdullah ibn Arqat.”\nIbn Hisham said: It is also said that he was ‘Abdullah ibn Uraiqit."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p20",
@@ -1325,7 +1219,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "By morning, a loud voice was heard in Makkah, but they could not tell who was speaking:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p23",
@@ -1341,7 +1235,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "May the Lord of all people reward with the finest reward\nTwo companions who stopped at the tent of Umm Ma‘bad.\nThey came to her with guidance, and she found guidance through them;\nFortunate is the one who became Muhammad’s companion.\nO people of Qusayy, what a noble deed Allah granted them,\nA deed whose distinction cannot be repaid!\nMay the place of your young woman bring joy to the Banu Ka‘b,\nAnd may her seat lie in wait for the believers.\nAsk your sister about her sheep and her vessel;\nIf you ask the sheep, it will bear witness.\nHe called for a barren ewe, and it yielded milk for him,\nPure, with foam rising on the ewe’s udder.\nHe left it with her as a pledge for a milker,\nWho would take it back and forth between the watering place and the spring."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p25",
@@ -1357,7 +1251,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "And in the narration of Abu ‘Amr ibn Hamdan:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p26",
@@ -1373,7 +1267,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "By morning, a voice was heard in Madinah, between heaven and earth. They heard it but could not see who was speaking."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p29",
@@ -1389,7 +1283,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "And in the first narration:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p30",
@@ -1405,7 +1299,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "When Hassan ibn Thabit al-Ansari heard the caller, he sprang up, answering the caller and saying:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_end:p9",
@@ -1421,7 +1315,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "• Al-Bayhaqi [١/ ٢٧٦١ - ٢٧٨] (^٧) in “al-Dala’il,” from him."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_albani:p1",
@@ -1437,7 +1331,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "(^٧) Al-Hakim also narrated it (٢/ ٩ - ١٠) and declared it sound, and al-Dhahabi agreed with him!"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_albani:p2",
@@ -1453,7 +1347,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "I say: Its chain includes Hisham ibn Hubaysh. Ibn Abi Hatim listed him in “al-Jarh wa-l-Tadil” (٩/ ٥٣/ ٢٢٧) but recorded neither criticism nor endorsement of him, and mentioned no narrator from him other than his son. How, then, can its chain be sound?!"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_albani:p3",
@@ -1469,7 +1363,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "Yes, the report may rise to hasan (good)—or sahih (sound)—through routes cited by al-Hakim,"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_attribution:p1",
@@ -1485,7 +1379,7 @@
             "book_id": "12115",
             "volume": "1",
             "page": "5",
-            "text": "The scholarly work on this book began nearly three years ago. At that time I proposed to our teacher Abu Abd al-Rahman Muhammad Nasir al-Din al-Albani that it be edited and published. He accepted and welcomed the idea, and gave me the source references and comments he had so that I could append them in their places in the footnotes of “al-Hidaya.” May Allah reward him with every good thing in its fullest measure."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_start:p1",
@@ -1501,7 +1395,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "357",
-            "text": "5886 — From Hazim ibn Hisham, from his father, from his grandfather Hubaysh ibn Khalid—who is Umm Mabad’s brother—"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p1",
@@ -1517,7 +1411,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "238 — Sulayman ibn Ahmad told us: Ali ibn Abd al-Aziz related to us; and my father related to us, saying: Muhammad ibn Muhammad ibn Uqba al-Shaybani and Muhammad ibn Musa al-Hulwani related to us; and Abu Hamid ibn Jabala related to us, saying: Muhammad ibn Ishaq al-Sarraj said: Mukram ibn Muhriz al-Kabi al-Khuzai related to us, saying: My father Muhriz ibn Mahdi told me, from Hizam ibn Hisham, from his father Hisham, from his grandfather Hubaysh ibn Khalid, a Companion of the Messenger of Allah ﷺ:"
+            "text": null
         },
         {
             "unit_id": "H-7478-1012-RA-WOMAN-SON:p1",
@@ -1533,7 +1427,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "491",
-            "text": "Abu al-Hasan ‘Ali ibn Ahmad ibn ‘Abdan informed us, saying: Ahmad ibn ‘Ubayd al-Saffar informed us, saying: Ahmad ibn Yahya al-Hulwani and Muhammad ibn al-Fadl ibn Jabir informed us, both saying: Muhammad ibn ‘Imran ibn Muhammad ibn ‘Abd al-Rahman ibn Abi Layla narrated to us, saying: Yahya ibn Zakariyya ibn Abi Za’idah narrated to us.\n\n(H) Abu al-Husayn ibn Bishran al-‘Adl also informed us in Baghdad—and this is his wording—saying: Abu al-Hasan ‘Ali ibn Muhammad al-Misri informed us, saying: ‘Abdullah ibn Muhammad ibn Abi Maryam narrated to us, saying: Asad ibn Musa narrated to us, saying: Yahya ibn Zakariyya ibn Abi Za’idah narrated to us, saying: Muhammad ibn ‘Abd al-Rahman ibn Abi Layla narrated to us, saying: ‘Abd al-Rahman ibn al-Asbahani narrated to us, saying: I heard ‘Abd al-Rahman ibn Abi Layla relate from Abu Bakr al-Siddiq, who said:\n\n“I set out with the Messenger of Allah ﷺ from Makkah. We came to a clan of the Arabs, and the Messenger of Allah ﷺ saw a house set apart and headed toward it. When we dismounted, there was no one inside but a woman. She said, ‘Servant of Allah, I am only a woman, and there is no one with me. If you want hospitality, you should go to the chief of the clan.’ He did not answer her. This was in the evening. Then her son came, driving some she-goats. She said to him, ‘My son, take these goats and the knife to these two men and tell them: “My mother says to you, slaughter this, eat, and feed us.”’ When he came, the Prophet ﷺ said to him"
+            "text": null
         },
         {
             "unit_id": "H-7478-1013-RA-WOMAN-SON:p1",
@@ -1549,7 +1443,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "492",
-            "text": "“Take the knife and bring me the cup.” He said, “They have been left without a male, and they have no milk.” He said, “Go.” So he went and brought a cup. The Prophet ﷺ stroked her udder, then milked her until he had filled the cup. Then he said, “Take it to your mother.” She drank until she was satisfied. Then he brought the cup back, and he said:\n\n“Take this one and bring me another.” He did so with it in the same way. Then he gave Abu Bakr a drink. Then he brought another, and he did the same with it. Then the Prophet ﷺ drank.”\n\nHe said: We spent the night there, then set out. She used to call him “the Blessed One,” and her flock grew until she drove a herd to Madinah. Abu Bakr al-Siddiq passed by, and her son saw him and recognized him. He said, “Mother, this is the man who was with the Blessed One.” She went to him and said, “Servant of Allah, who was the man with you?” He said, “Do you know who he was?” She said, “No.” He said, “He was the Prophet ﷺ.” She said, “Then take me to him.” He took her to him, and he fed her and gave her something. Ibn ‘Abdan adds in his version: She said, “Show me where he is.” She went with me and brought him some dried yogurt and other Bedouin goods. He clothed her and gave her something. I believe he said, ‘She accepted Islam.’”"
+            "text": null
         },
         {
             "unit_id": "H-7478-1013-RA-WOMAN-IDENTITY:p1",
@@ -1565,7 +1459,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "492",
-            "text": "I say: Although this account is shorter than the account of Umm Ma‘bad that we have related, and adds details in some parts, it is close to it, and it seems likely that they are one and the same. Muhammad ibn Ishaq ibn Yasar mentioned something in the account of Umm Ma‘bad that indicates that this woman and she were one and the same. Allah knows best."
+            "text": null
         },
         {
             "unit_id": "H-7478-1014-RA-UMM-RECONCILE:p1",
@@ -1581,7 +1475,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "493",
-            "text": "I say: It is possible that the first incident was the one involving the tent being taken down, as we related in the hadith of Umm Ma‘bad. Then her son returned with some she-goats, as we related in the hadith of Ibn Abi Layla. Then"
+            "text": null
         },
         {
             "unit_id": "H-7478-1015-RA-UMM-RECONCILE:p1",
@@ -1597,7 +1491,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "494",
-            "text": "when her husband came, she described him to him. Allah knows best."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p3",
@@ -1613,7 +1507,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "⦗٣٣٨⦘"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_story:p17",
@@ -1629,7 +1523,7 @@
             "book_id": "10637",
             "volume": "1",
             "page": "337",
-            "text": "⦗٣٣٩⦘"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p1",
@@ -1645,7 +1539,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "Sulayman ibn Ahmad told us, by dictation and reading. He said: Ali ibn Abd al-Aziz related to us, saying: Abu Ubayd al-Qasim ibn Sallam said:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p3",
@@ -1661,7 +1555,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "Abu ‘Ubayd said: When someone says, “Yā so-and-so,” with the alif pronounced with a fatḥah, it is a plea for help; and “Yā”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p4",
@@ -1805,7 +1699,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "As though dinars lay upon their features … even though the encounter had worn their faces thin."
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p20",
@@ -1821,7 +1715,7 @@
             "book_id": "10637",
             "volume": null,
             "page": null,
-            "text": "⦗٣٤٣⦘"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_gloss:p21",
@@ -1853,7 +1747,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "toward a sheep at the side (^١) of the tent and said:"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_end:p2",
@@ -1869,7 +1763,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "“What is this sheep, Umm Mabad?”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_end:p3",
@@ -1885,7 +1779,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "She said: “Exhaustion (^٢) kept the sheep behind the flock.”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_end:p4",
@@ -1901,7 +1795,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "He said: “Does it have any milk?”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_end:p5",
@@ -1917,7 +1811,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "She said: “It is too exhausted for that.”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_end:p6",
@@ -1933,7 +1827,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "He said: “Will you allow me to milk it?”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_end:p7",
@@ -1949,7 +1843,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "She said: “May my father and mother be your ransom; if you see that it has milk, then milk it.”"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_hidaya_end:p8",
@@ -1965,7 +1859,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "The Messenger of Allah ﷺ had it brought and stroked its udder with his hand, named Allah Most High, and prayed for her regarding her sheep. It spread its legs (^٣) for him, and “waradat” (literally “it came/approached”) [the supplied Arabic reads «وردت» here; its intended sense in this passage is uncertain], and chewed the cud. He called for a vessel that would suffice (^٤) the group and milked abundantly (^٥) into it until foam rose over it (^٦). Then he gave her drink until she was satisfied, and his companions until they were satisfied; he drank last. He milked into it again, a second time after the first, until he filled the vessel. Then he left it with her, made a transaction with her, and they departed. [٥٩٤٣]"
+            "text": null
         },
         {
             "unit_id": "sp_umm_mabad_albani:p4",
@@ -1981,7 +1875,7 @@
             "book_id": "12115",
             "volume": "5",
             "page": "358",
-            "text": "And al-Dhahabi said: “وإما in these routes something meeting the conditions of the Sahih.” Translator note: The digital form وإما makes the statement’s polarity uncertain; it has not been checked against print."
+            "text": null
         }
     ],
     "footnotes": [],
@@ -1994,25 +1888,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Why did the party not buy meat and dates from Umm Mabad?",
+            "prompt": "لماذا لم يشترِ الركب اللحم والتمر من أم معبد؟",
             "options": [
                 {
                     "option_id": "price",
-                    "text": "Because they disagreed with her over the price.",
-                    "feedback": "The report mentions no disagreement about the price; it says she did not have what they requested."
+                    "text": "لأنهم اختلفوا معها على الثمن.",
+                    "feedback": "لا يذكر الخبر خلافًا على الثمن؛ يذكر أنهم لم يجدوا المطلوب عندها."
                 },
                 {
                     "option_id": "scarcity",
-                    "text": "Because she did not have what they requested.",
-                    "feedback": "Yes. They asked to buy food but found no meat or dates with her."
+                    "text": "لأن المطلوب لم يكن عندها.",
+                    "feedback": "نعم؛ طلبوا الشراء، ولم يصيبوا عندها شيئًا من اللحم والتمر."
                 },
                 {
                     "option_id": "delay",
-                    "text": "Because they waited for her husband to return and sell it to them.",
-                    "feedback": "Abu Mabad returned after they left; the report does not say they delayed their purchase for him."
+                    "text": "لأنهم انتظروا عودة زوجها ليبيعهم.",
+                    "feedback": "عاد أبو معبد بعد رحيلهم، ولا يذكر الخبر أنهم أخروا الشراء لأجله."
                 }
             ],
-            "explanation": "The report says that what they requested was unavailable, although it also describes Umm Mabad as giving people food and drink.",
+            "explanation": "عدم وجود المطلوب هو ما يذكره الخبر، مع وصف أم معبد بأنها تسقي وتطعم.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_story:p1",
@@ -2034,25 +1928,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What kept the sheep in the tent instead of going out with the flock?",
+            "prompt": "ما الذي أبقى الشاة في الخيمة بدل أن تخرج مع الغنم؟",
             "options": [
                 {
                     "option_id": "weakness",
-                    "text": "Exhaustion that prevented it from keeping up with the flock.",
-                    "feedback": "Yes. Umm Mabad says exhaustion left it behind the flock."
+                    "text": "الجهد الذي أعجزها عن اللحاق بها.",
+                    "feedback": "نعم؛ تقول أم معبد إن الجهد خلفها عن الغنم."
                 },
                 {
                     "option_id": "milk",
-                    "text": "It had been kept ready to milk when guests arrived.",
-                    "feedback": "Umm Mabad did not expect milk from it; she said it was too exhausted for that."
+                    "text": "إعدادها للحلب عند نزول الضيوف.",
+                    "feedback": "لم تكن أم معبد تنتظر منها لبنًا؛ أجابت بأنها أجهد من ذلك."
                 },
                 {
                     "option_id": "sale",
-                    "text": "It had been put up for sale to passersby.",
-                    "feedback": "The party asked for meat and dates, but the report attributes this sheep's remaining behind to exhaustion, not to its being offered for sale."
+                    "text": "عرضها للبيع على المارة.",
+                    "feedback": "طلب الركب اللحم والتمر، لكن بقاء هذه الشاة فسره الخبر بالجهد لا بعرضها للبيع."
                 }
             ],
-            "explanation": "Exhaustion kept it there; this also explains Umm Mabad's response when asked about its milk.",
+            "explanation": "بقاء الشاة من شدة جهدها، وهو ما يفسر أيضًا جواب أم معبد حين سُئلت عن لبنها.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_story:p1",
@@ -2074,25 +1968,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "After asking about the sheep's milk, what did the Prophet ﷺ ask Umm Mabad for?",
+            "prompt": "بعد أن سأل عن لبن الشاة، ماذا طلب النبي ﷺ من أم معبد؟",
             "options": [
                 {
                     "option_id": "bring",
-                    "text": "That she bring the flock that was away from the tent.",
-                    "feedback": "The exchange concerned milking the sheep already there, not fetching the flock."
+                    "text": "أن تأتي بالغنم الغائبة عن الخيمة.",
+                    "feedback": "اتجه الحديث إلى حلب الشاة الموجودة، لا إلى إحضار الغنم."
                 },
                 {
                     "option_id": "buy",
-                    "text": "That she sell him the sheep in the tent.",
-                    "feedback": "The request reported here was for permission to milk it, not to buy it."
+                    "text": "أن تبيع له الشاة التي في الخيمة.",
+                    "feedback": "الطلب المنقول هنا إذن بالحلب، لا شراء الشاة."
                 },
                 {
                     "option_id": "permission",
-                    "text": "That she allow him to milk the sheep.",
-                    "feedback": "Yes. He milked it after asking and receiving her permission."
+                    "text": "أن تأذن له في حلب الشاة.",
+                    "feedback": "نعم؛ جاء الحلب بعد سؤالها وإذنها."
                 }
             ],
-            "explanation": "He first asked about the sheep's condition, then requested permission to milk it; she permitted him if he found milk in it.",
+            "explanation": "سأل أولًا عن حال الشاة، ثم استأذن في حلبها، فأذنت إن رأى بها حلبًا.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_story:p1",
@@ -2114,25 +2008,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "In what order does the report say they drank the milk?",
+            "prompt": "كيف يرد ترتيب السقيا في الخبر؟",
             "options": [
                 {
                     "option_id": "companions_first",
-                    "text": "His companions, then Umm Mabad, then he himself.",
-                    "feedback": "He gave Umm Mabad milk before serving his companions."
+                    "text": "أصحابه، ثم أم معبد، ثم هو.",
+                    "feedback": "قدّم أم معبد في السقيا ثم سقى أصحابه."
                 },
                 {
                     "option_id": "host_first",
-                    "text": "Umm Mabad, then his companions, then he himself.",
-                    "feedback": "Yes. He gave her drink until she was satisfied, then his companions until they were satisfied, and drank last."
+                    "text": "أم معبد، ثم أصحابه، ثم هو.",
+                    "feedback": "نعم؛ سقاها حتى رويت وسقى أصحابه حتى رووا ثم شرب آخرهم."
                 },
                 {
                     "option_id": "prophet_first",
-                    "text": "He himself, then Umm Mabad, then his companions.",
-                    "feedback": "The report explicitly says he drank last, not first."
+                    "text": "هو، ثم أم معبد، ثم أصحابه.",
+                    "feedback": "ينص الخبر على أنه شرب آخرهم، لا أولهم."
                 }
             ],
-            "explanation": "The Prophet ﷺ served Umm Mabad first, then his companions, and drank last.",
+            "explanation": "سقى النبي ﷺ أم معبد أولًا، ثم أصحابه، وشرب آخرهم.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_story:p1",
@@ -2154,25 +2048,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "Where did the milk Abu Mabad found after the party left come from?",
+            "prompt": "من أين جاء اللبن الذي وجده أبو معبد بعد رحيل الركب؟",
             "options": [
                 {
                     "option_id": "husband",
-                    "text": "Abu Mabad brought it back with the flock.",
-                    "feedback": "Abu Mabad found the milk already there and was surprised; the report does not say he brought it."
+                    "text": "جلبه أبو معبد من الغنم عند رجوعه.",
+                    "feedback": "رأى أبو معبد اللبن موجودًا وتعجب منه؛ لا يصف الخبر أنه جاء به."
                 },
                 {
                     "option_id": "earlier",
-                    "text": "Umm Mabad had stored it before their arrival.",
-                    "feedback": "The report links the vessel left behind to the second milking, not to milk stored before the visit."
+                    "text": "كان مخزونًا عند أم معبد قبل وصولهم.",
+                    "feedback": "يربط الخبر الإناء المتروك بالحلب الثاني، لا بلبن مخزون قبل الزيارة."
                 },
                 {
                     "option_id": "second",
-                    "text": "The Prophet ﷺ filled the vessel in a second milking and left it with her.",
-                    "feedback": "Yes. The report mentions more than just the milk they drank."
+                    "text": "ملأ النبي ﷺ الإناء بحلبة ثانية وتركه عندها.",
+                    "feedback": "نعم؛ لم يقتصر ما ورد في الخبر على اللبن الذي شربوه."
                 }
             ],
-            "explanation": "After they drank, the Prophet ﷺ milked the sheep again until he filled the vessel and left it with Umm Mabad.",
+            "explanation": "بعد السقيا حلب النبي ﷺ ثانية حتى ملأ الإناء، ثم تركه عند أم معبد.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_story:p1",
@@ -2203,25 +2097,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "What did Umm Mabad include in her description of the visitor?",
+            "prompt": "ما الجوانب التي جمعتها أم معبد في وصفها للزائر؟",
             "options": [
                 {
                     "option_id": "appearance",
-                    "text": "His appearance alone, without his speech or companions.",
-                    "feedback": "The report describes his speech, dignity, and companions' attention, not just his appearance."
+                    "text": "هيئته وحدها، دون كلامه أو رفقائه.",
+                    "feedback": "تصف الرواية منطقه ووقاره وإنصات رفقائه، لا الهيئة وحدها."
                 },
                 {
                     "option_id": "speech_only",
-                    "text": "His speech alone, without his appearance or companions.",
-                    "feedback": "The sweetness of his speech is part of a portrait that also includes his appearance and companions."
+                    "text": "كلامه وحده، دون هيئته أو رفقائه.",
+                    "feedback": "حلاوة المنطق جزء من صورة تشمل الهيئة والرفقاء أيضًا."
                 },
                 {
                     "option_id": "combined",
-                    "text": "His appearance, speech, and relationship with his companions.",
-                    "feedback": "Yes. She spoke of his beauty, dignity, sweet speech, and what she observed of his companions."
+                    "text": "هيئته وكلامه وصلة رفقائه به.",
+                    "feedback": "نعم؛ جمعت بين الجمال والوقار وحلاوة المنطق وما رأت من رفقائه."
                 }
             ],
-            "explanation": "Her description moves from his face and stature to his speech and dignity, and then to his companions' attentiveness and quick response.",
+            "explanation": "يتسع وصفها من الوجه والقامة إلى الكلام والوقار، ثم إلى إنصات أصحابه ومبادرتهم.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_story:p11",
@@ -2241,25 +2135,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "How did Abu Mabad connect the visitor to the man of Quraysh?",
+            "prompt": "كيف ربط أبو معبد زائر الخيمة بصاحب قريش؟",
             "options": [
                 {
                     "option_id": "meeting",
-                    "text": "By meeting him in person before the party left.",
-                    "feedback": "Abu Mabad returned after their departure and then asked his wife about the visitor."
+                    "text": "من لقاء مباشر به قبل أن يرحل الركب.",
+                    "feedback": "يرد رجوع أبي معبد بعد الرحيل، ثم سؤاله زوجته عن الزائر."
                 },
                 {
                     "option_id": "description",
-                    "text": "From his wife's description after he asked her.",
-                    "feedback": "Yes. His identification of the man of Quraysh follows Umm Mabad's description."
+                    "text": "من وصف زوجته له بعد أن سألها.",
+                    "feedback": "نعم؛ يتبع قوله عن صاحب قريش وصف أم معبد له."
                 },
                 {
                     "option_id": "letter",
-                    "text": "From a letter the party left with Umm Mabad.",
-                    "feedback": "What they left here was a vessel of milk; this report mentions no letter identifying the visitor."
+                    "text": "من كتاب تركه الركب عند أم معبد.",
+                    "feedback": "المتروك هنا إناء لبن، وليس في هذا الخبر كتاب تعريف بالزائر."
                 }
             ],
-            "explanation": "Umm Mabad described the visit, and Abu Mabad heard her account before saying the visitor was the man of Quraysh whose story had reached them.",
+            "explanation": "أم معبد تصف الزيارة، وأبو معبد يسمع منها ثم يقول إنه صاحب قريش الذي ذُكر لهم أمره.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_story:p11",
@@ -2279,25 +2173,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "How does Abu Ubayd explain the description of speech as neither nazr (نزر) nor hadhr (هذر)?",
+            "prompt": "كيف يشرح أبو عبيد وصف الكلام بأنه لا نزر ولا هذر؟",
             "options": [
                 {
                     "option_id": "long",
-                    "text": "Abundant speech that only improves the longer it goes on.",
-                    "feedback": "He explains hadhr as much and describes a middle course between little and much."
+                    "text": "كلام كثير كلما طال كان أحسن.",
+                    "feedback": "شرح الهذر بالكثير وجعل الوصف قصدًا بين القليل والكثير."
                 },
                 {
                     "option_id": "balanced",
-                    "text": "Speech that follows a middle course between little and much.",
-                    "feedback": "Yes. This is the meaning given by the selected explanation."
+                    "text": "كلام قصد بين القليل والكثير.",
+                    "feedback": "نعم؛ هذا هو المعنى الذي يبينه الشرح المختار."
                 },
                 {
                     "option_id": "quiet",
-                    "text": "A low voice that the companions cannot hear.",
-                    "feedback": "The explanation concerns the amount of speech, not its volume or whether it can be heard."
+                    "text": "صوت خافت لا يسمعه الرفقاء.",
+                    "feedback": "التفسير هنا لمقدار الكلام، لا لخفض الصوت أو عدم سماعه."
                 }
             ],
-            "explanation": "Abu Ubayd explains nazr (نزر) as little and hadhr (هذر) as much, and says that the intended meaning is a middle course between the two.",
+            "explanation": "يفسر أبو عبيد النزر بالقليل والهذر بالكثير، ثم يقول إن المراد قصد بين ذلك.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_gloss:p1",
@@ -2329,25 +2223,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "expert",
             "practice_scope": "source_study",
-            "prompt": "What is the difference between Ibn Kathir's statement and al-Albani's comment in the two selected readings?",
+            "prompt": "ما الفرق بين كلام ابن كثير وتعليق الألباني في القراءتين المختارتين؟",
             "options": [
                 {
                     "option_id": "opposites",
-                    "text": "Ibn Kathir authenticates every wording, while al-Albani rejects the entire story.",
-                    "feedback": "The first speaks of routes reinforcing the story; the second allows for possible corroboration after objecting to the chain."
+                    "text": "ابن كثير يصحح كل لفظ، والألباني ينفي القصة كلها.",
+                    "feedback": "الأول يتكلم عن تقوية القصة بالطرق، والثاني يذكر احتمال التقوية بعد اعتراضه على الإسناد."
                 },
                 {
                     "option_id": "same",
-                    "text": "Both unreservedly authenticate this particular chain.",
-                    "feedback": "Al-Albani expressly objects to the soundness of this chain because of Hisham ibn Hubaysh's status."
+                    "text": "كلاهما يصحح الإسناد المعين بلا تحفظ.",
+                    "feedback": "يعترض الألباني صراحة على صحة هذا الإسناد بسبب حال هشام بن حبيش."
                 },
                 {
                     "option_id": "scopes",
-                    "text": "Ibn Kathir regards the story as reinforced by its routes; al-Albani objects to the chain but mentions possible corroboration.",
-                    "feedback": "Yes. The scope and degree of certainty of each statement remain distinct."
+                    "text": "ابن كثير يقوي القصة بالطرق، والألباني يعترض على الإسناد ويذكر احتمال التقوية.",
+                    "feedback": "نعم؛ يبقى نطاق كل كلام ودرجة الجزم فيه متميزين."
                 }
             ],
-            "explanation": "Strengthening the story by several routes does not mean that each chain is sound on its own. Al-Albani's comment does not stop at an objection: he then allows for possible corroboration.",
+            "explanation": "تقوية القصة بمجموع الطرق لا تعني صحة كل إسناد بمفرده، وتعليق الألباني نفسه لا يقتصر على الاعتراض بل يتبعه باحتمال التقوية.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_ibn_kathir:p2",
@@ -2375,25 +2269,25 @@
             "step_id": "hch_umm_mabad",
             "difficulty": "expert",
             "practice_scope": "source_study",
-            "prompt": "To whom is the objection to the soundness of the chain of Umm Mabad's report attributed in the selected footnote to Hidayat al-Ruwat?",
+            "prompt": "إلى من يُنسب الاعتراض على صحة إسناد خبر أم معبد في حاشية هداية الرواة المختارة؟",
             "options": [
                 {
                     "option_id": "ibn_hajar",
-                    "text": "Ibn Hajar, author of Hidayat al-Ruwat.",
-                    "feedback": "The selected statement by Ibn Hajar attributes the report to al-Bayhaqi; the objection appears in the appended footnote."
+                    "text": "ابن حجر، صاحب هداية الرواة.",
+                    "feedback": "المختار من كلام ابن حجر عزو الخبر إلى البيهقي؛ الاعتراض في الحاشية الملحقة."
                 },
                 {
                     "option_id": "halabi",
-                    "text": "Ali al-Halabi, editor of this edition.",
-                    "feedback": "Al-Halabi explains in the introduction that he took his teacher's source references and comments to append to the book."
+                    "text": "علي الحلبي، محقق هذه الطبعة.",
+                    "feedback": "يبين الحلبي في المقدمة أنه أخذ تخريجات شيخه وتعليقاته لإلحاقها بالكتاب."
                 },
                 {
                     "option_id": "albani",
-                    "text": "Al-Albani, author of the appended comment.",
-                    "feedback": "Yes. The edition's details and introduction distinguish the source of the footnote from the book's main text."
+                    "text": "الألباني، صاحب التعليق الملحق.",
+                    "feedback": "نعم؛ تميز بيانات الطبعة والمقدمة مصدر الحاشية من أصل الكتاب."
                 }
             ],
-            "explanation": "Al-Albani's comment was appended to the book; the introduction identifies its author, so not everything on the page should be attributed to the author of the main text.",
+            "explanation": "تعليق الألباني ملحق بالكتاب؛ يحفظ سياق المقدمة نسبته، ولا ينسب كل ما في الصفحة إلى مؤلف المتن.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_umm_mabad_ibn_kathir:p2",

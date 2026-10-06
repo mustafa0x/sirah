@@ -1,33 +1,27 @@
 {
     "chapter_id": "hch_departure",
-    "locale": "en",
+    "locale": "ar",
     "status": "story",
-    "packet_id": "hch_departure:en:story",
+    "packet_id": "hch_departure:ar:story",
     "stage": "departure",
-    "title": "Departure from Makkah",
-    "reader_question": "How did the Prophet ﷺ leave Makkah on the night Quraysh had chosen to kill him?",
+    "title": "الخروج من مكة",
+    "reader_question": "كيف خرج النبي ﷺ من مكة في الليلة التي اختارتها قريش لقتله؟",
     "overview": [
         {
             "paragraph_id": "hch_departure_o1",
-            "text": "By now most of the Prophet's ﷺ companions had gone to Madinah, where they had found a home and people ready to protect them. Quraysh's leaders saw what that could mean: if he joined them there, he would be out of their reach, and one day perhaps at the head of an army. So they met to decide what to do with him, and the plan they chose was meant to end the matter for good. What followed was a long night of watching at his door, and a departure that almost no one in Makkah knew about.",
+            "text": "كان أكثر أصحاب النبي ﷺ قد مضَوا إلى المدينة، فنزلوا بها دارًا، ووجدوا فيها قومًا يمنعونهم. ورأى سادة قريش ما وراء ذلك: إن لحق بهم صار حيث لا تناله أيديهم، ولعله يسير إليهم يومًا على رأس جيش. فاجتمعوا يتشاورون في أمره، واختاروا رأيًا أرادوا أن يفرغوا به منه إلى الأبد. وكان ما تلاه ليلةً طويلةً من الترصّد على بابه، وخروجًا لم يعلم به في مكة أحدٌ يُذكر.",
             "parts": [
-                { "text": "By now most of the Prophet's ﷺ companions had gone to " },
-                { "text": "Madinah", "term": "madinah" },
-                { "text": ", where they had found a home and people ready to protect them. " },
-                { "text": "Quraysh", "term": "quraysh" },
                 {
-                    "text": "'s leaders saw what that could mean: if he joined them there, he would be out of their reach, and one day perhaps at the head of an army."
+                    "text": "كان أكثر أصحاب النبي ﷺ قد مضَوا إلى المدينة، فنزلوا بها دارًا، ووجدوا فيها قومًا يمنعونهم. ورأى سادة قريش ما وراء ذلك: إن لحق بهم صار حيث لا تناله أيديهم، ولعله يسير إليهم يومًا على رأس جيش."
                 },
                 { "note": 1 },
                 {
-                    "text": " So they met to decide what to do with him, and the plan they chose was meant to end the matter for good."
+                    "text": " فاجتمعوا يتشاورون في أمره، واختاروا رأيًا أرادوا أن يفرغوا به منه إلى الأبد."
                 },
                 { "note": 2 },
                 {
-                    "text": " What followed was a long night of watching at his door, and a departure that almost no one in "
+                    "text": " وكان ما تلاه ليلةً طويلةً من الترصّد على بابه، وخروجًا لم يعلم به في مكة أحدٌ يُذكر."
                 },
-                { "text": "Makkah", "term": "makkah" },
-                { "text": " knew about." },
                 { "note": 3 },
                 { "note": 4 }
             ]
@@ -36,70 +30,52 @@
     "account": [
         {
             "section_id": "hch_departure_s1",
-            "title": "The council at Dar al-Nadwah",
+            "title": "في دار الندوة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_s1_1",
-                    "text": "The Prophet ﷺ had stayed on in Makkah after the pilgrimage season, through the rest of Dhu al-Hijjah, then Muharram and Safar. All this while, Quraysh had been watching his companions go, one after another, to a town where they had found a home and protection. Their leaders feared he would soon follow them, and that those people would fight Makkah for him. So they gathered in Dar al-Nadwah, the house of Qusayy ibn Kilab, where Quraysh settled all their affairs, to decide what to do with him.",
+                    "text": "وكان النبي ﷺ قد أقام بمكة بعد الحج بقيّةَ ذي الحجة، والمحرّمَ، وصفر. وقريشٌ في ذلك كلّه ترى أصحابه يخرجون واحدًا بعد واحد إلى بلدٍ نزلوا فيه دارًا وأصابوا فيه مَنَعة. فحذر ساداتها أن يلحق بهم عمّا قريب، وأن يجتمع أولئك القوم على حربهم معه. فاجتمعوا له في دار الندوة، دار قصيّ بن كلاب التي كانت قريش لا تقضي أمرًا إلا فيها، يتشاورون ما يصنعون في أمره.",
                     "parts": [
-                        { "text": "The Prophet ﷺ had stayed on in Makkah after the " },
-                        { "text": "pilgrimage", "term": "pilgrimage" },
-                        { "text": " season, through the rest of " },
-                        { "text": "Dhu al-Hijjah", "term": "dhualhijjah" },
-                        { "text": ", then " },
-                        { "text": "Muharram", "term": "muharram" },
-                        { "text": " and " },
-                        { "text": "Safar", "term": "safar" },
-                        { "text": "." },
+                        {
+                            "text": "وكان النبي ﷺ قد أقام بمكة بعد الحج بقيّةَ ذي الحجة، والمحرّمَ، وصفر."
+                        },
                         { "note": 5 },
                         {
-                            "text": " All this while, Quraysh had been watching his companions go, one after another, to a town where they had found a home and protection. Their leaders feared he would soon follow them, and that those people would fight Makkah for him. So they gathered in "
-                        },
-                        { "text": "Dar al-Nadwah", "term": "daralnadwah" },
-                        {
-                            "text": ", the house of Qusayy ibn Kilab, where Quraysh settled all their affairs, to decide what to do with him."
+                            "text": " وقريشٌ في ذلك كلّه ترى أصحابه يخرجون واحدًا بعد واحد إلى بلدٍ نزلوا فيه دارًا وأصابوا فيه مَنَعة. فحذر ساداتها أن يلحق بهم عمّا قريب، وأن يجتمع أولئك القوم على حربهم معه. فاجتمعوا له في دار الندوة، دار قصيّ بن كلاب التي كانت قريش لا تقضي أمرًا إلا فيها، يتشاورون ما يصنعون في أمره."
                         },
                         { "note": 1 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_departure_s1_2",
-                    "text": "They met on the day they had appointed, a day known as the Day of the Crowd. The chiefs of almost every clan came: Abu Sufyan, ‘Utbah and Shaybah, Abu Jahl, Umayyah ibn Khalaf and others. At the door stood a stranger, a venerable old man in a cloak, who said he was from Najd. He had heard of their meeting, he told them, and had come to listen; perhaps he could offer some advice. They let him in.",
+                    "text": "فغدَوا في اليوم الذي تواعدوا له، وكان يُسمّى يوم الزَّحْمة. وحضر أشراف قريش من بطونها كلها تقريبًا: أبو سفيان، وعتبة وشيبة، وأبو جهل، وأمية بن خلف، وغيرهم. ووقف على باب الدار غريبٌ، شيخٌ جليلٌ عليه كساء، فلما سألوه عن نفسه قال: «شيخٌ من أهل نجد، سمع بالذي اتّعدتم له، فحضر معكم ليسمع ما تقولون، وعسى ألّا يُعدمكم منه رأيًا ونصحًا». فقالوا: «أجل، فادخل».",
                     "parts": [
                         {
-                            "text": "They met on the day they had appointed, a day known as the Day of the Crowd. The chiefs of almost every clan came: Abu Sufyan, ‘Utbah and Shaybah, Abu Jahl, Umayyah ibn Khalaf and others. At the door stood a stranger, a venerable old man in a cloak, who said he was from "
-                        },
-                        { "text": "Najd", "term": "najd" },
-                        {
-                            "text": ". He had heard of their meeting, he told them, and had come to listen; perhaps he could offer some advice. They let him in."
+                            "text": "فغدَوا في اليوم الذي تواعدوا له، وكان يُسمّى يوم الزَّحْمة. وحضر أشراف قريش من بطونها كلها تقريبًا: أبو سفيان، وعتبة وشيبة، وأبو جهل، وأمية بن خلف، وغيرهم. ووقف على باب الدار غريبٌ، شيخٌ جليلٌ عليه كساء، فلما سألوه عن نفسه قال: «شيخٌ من أهل نجد، سمع بالذي اتّعدتم له، فحضر معكم ليسمع ما تقولون، وعسى ألّا يُعدمكم منه رأيًا ونصحًا». فقالوا: «أجل، فادخل»."
                         },
                         { "note": 6 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_departure_s1_3",
-                    "text": "\"Put him in chains behind a locked door,\" one of them said, \"and wait for death to take him, as it took the poets before him, Zuhayr and al-Nabigha.\" The old man would not have it: word of him would slip out through that door, and his companions would come and take him back by force. \"Then drive him out of our land,\" said another, \"and we will not care where he goes.\" That was no plan either, said the old man: \"Have you not seen how fine his speech is, how sweet his words, and how he wins men's hearts with what he brings?\" Such a man would win over some Arab tribe, and come back at its head.",
+                    "text": "فقال قائلٌ منهم: «احبسوه في الحديد، وأغلقوا عليه بابًا، ثم تربّصوا به ما أصاب أشباهه من الشعراء الذين كانوا قبله، زهيرًا والنابغة». فأبى الشيخ ذلك: إنهم لو حبسوه لخرج أمره من وراء الباب الذي أغلقوه دونه إلى أصحابه، فأوشكوا أن يثبوا عليهم فينتزعوه من أيديهم. وقال آخر: «نُخرجه من بين أظهرنا، فننفيه من بلادنا، فإذا أُخرج عنّا فوالله ما نبالي أين ذهب». فقال الشيخ: ولا هذا برأي، «ألم تروا حُسنَ حديثه، وحلاوةَ منطقه، وغلبتَه على قلوب الرجال بما يأتي به؟» فما يأمنون أن يحلّ على حيٍّ من العرب فيغلب عليهم بقوله حتى يتابعوه، ثم يسير بهم إليهم.",
                     "parts": [
                         {
-                            "text": "\"Put him in chains behind a locked door,\" one of them said, \"and wait for death to take him, as it took the poets before him, Zuhayr and al-Nabigha.\" The old man would not have it: word of him would slip out through that door, and his companions would come and take him back by force."
+                            "text": "فقال قائلٌ منهم: «احبسوه في الحديد، وأغلقوا عليه بابًا، ثم تربّصوا به ما أصاب أشباهه من الشعراء الذين كانوا قبله، زهيرًا والنابغة». فأبى الشيخ ذلك: إنهم لو حبسوه لخرج أمره من وراء الباب الذي أغلقوه دونه إلى أصحابه، فأوشكوا أن يثبوا عليهم فينتزعوه من أيديهم."
                         },
                         { "note": 7 },
                         {
-                            "text": " \"Then drive him out of our land,\" said another, \"and we will not care where he goes.\" That was no plan either, said the old man: \"Have you not seen how fine his speech is, how sweet his words, and how he wins men's hearts with what he brings?\" Such a man would win over some Arab tribe, and come back at its head."
+                            "text": " وقال آخر: «نُخرجه من بين أظهرنا، فننفيه من بلادنا، فإذا أُخرج عنّا فوالله ما نبالي أين ذهب». فقال الشيخ: ولا هذا برأي، «ألم تروا حُسنَ حديثه، وحلاوةَ منطقه، وغلبتَه على قلوب الرجال بما يأتي به؟» فما يأمنون أن يحلّ على حيٍّ من العرب فيغلب عليهم بقوله حتى يتابعوه، ثم يسير بهم إليهم."
                         },
                         { "note": 2 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_departure_s1_4",
-                    "text": "Then Abu Jahl spoke. \"By God, I have a plan for him that I do not think you have hit upon yet.\" Take one strong young man of good family from every clan, he said, and give each of them a sharp sword. Let them strike him together, as one man. His blood would then be spread across all the clans, and his own people, Banu ‘Abd Manaf, could not fight them all; they would have to accept blood money. \"That is the plan,\" said the old man. \"There is no other.\" The council broke up, agreed.",
+                    "text": "ثم تكلّم أبو جهل فقال: «والله إن لي فيه لرأيًا ما أراكم وقعتم عليه بعد». ورأيُه أن يأخذوا من كل قبيلة فتًى شابًّا جَلْدًا نسيبًا، ويعطوا كلّ فتى منهم سيفًا صارمًا، ثم يعمدوا إليه فيضربوه ضربة رجلٍ واحد. فإذا فعلوا ذلك تفرّق دمه في القبائل جميعًا، فلم يقدر قومه بنو عبد مناف على حرب قومهم جميعًا، فرضُوا بالعَقْل، أي الدية. فقال الشيخ: «القول ما قال الرجل، هذا الرأي الذي لا رأي غيره». فتفرّق القوم على ذلك وهم مُجمعون له.",
                     "parts": [
                         {
-                            "text": "Then Abu Jahl spoke. \"By God, I have a plan for him that I do not think you have hit upon yet.\" Take one strong young man of good family from every clan, he said, and give each of them a sharp sword. Let them strike him together, as one man. His blood would then be spread across all the clans, and his own people, "
-                        },
-                        { "text": "Banu", "term": "banu" },
-                        {
-                            "text": " ‘Abd Manaf, could not fight them all; they would have to accept blood money. \"That is the plan,\" said the old man. \"There is no other.\" The council broke up, agreed."
+                            "text": "ثم تكلّم أبو جهل فقال: «والله إن لي فيه لرأيًا ما أراكم وقعتم عليه بعد». ورأيُه أن يأخذوا من كل قبيلة فتًى شابًّا جَلْدًا نسيبًا، ويعطوا كلّ فتى منهم سيفًا صارمًا، ثم يعمدوا إليه فيضربوه ضربة رجلٍ واحد. فإذا فعلوا ذلك تفرّق دمه في القبائل جميعًا، فلم يقدر قومه بنو عبد مناف على حرب قومهم جميعًا، فرضُوا بالعَقْل، أي الدية. فقال الشيخ: «القول ما قال الرجل، هذا الرأي الذي لا رأي غيره». فتفرّق القوم على ذلك وهم مُجمعون له."
                         },
                         { "note": 2 }
                     ]
@@ -108,30 +84,24 @@
         },
         {
             "section_id": "hch_departure_s2",
-            "title": "A night at the door",
+            "title": "ليلةٌ على الباب",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_s2_1",
-                    "text": "That day Jibril came to the Prophet ﷺ with a warning: \"Do not spend this night on the bed you usually sleep on.\" When darkness fell, the men gathered at his door, waiting for him to fall asleep so that they could rush in on him.",
+                    "text": "وفي ذلك اليوم أتى جبريل النبيَّ ﷺ بالنذير: «لا تبِتْ هذه الليلة على فراشك الذي كنت تبيت عليه». فلما كانت عَتَمةٌ من الليل اجتمع القوم على بابه، يرصدونه متى ينام فيثبون عليه.",
                     "parts": [
-                        { "text": "That day " },
-                        { "text": "Jibril", "term": "jibril" },
                         {
-                            "text": " came to the Prophet ﷺ with a warning: \"Do not spend this night on the bed you usually sleep on.\" When darkness fell, the men gathered at his door, waiting for him to fall asleep so that they could rush in on him."
+                            "text": "وفي ذلك اليوم أتى جبريل النبيَّ ﷺ بالنذير: «لا تبِتْ هذه الليلة على فراشك الذي كنت تبيت عليه». فلما كانت عَتَمةٌ من الليل اجتمع القوم على بابه، يرصدونه متى ينام فيثبون عليه."
                         },
                         { "note": 8 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_departure_s2_2",
-                    "text": "The Prophet ﷺ saw where they were. He turned to ‘Ali ibn Abi Talib: \"Sleep on my bed, and wrap yourself in this cloak of mine, the green one from Hadramawt. Sleep in it; nothing you dislike will reach you from them.\" It was the cloak he himself slept in.",
+                    "text": "فلما رأى النبي ﷺ مكانهم التفت إلى علي بن أبي طالب، فقال: «نَمْ على فراشي، وتسجَّ ببُردي هذا الحضرميّ الأخضر، فنَمْ فيه، فإنه لن يخلص إليك شيءٌ تكرهه منهم». وكان ذلك البُرد هو الذي ينام فيه ﷺ إذا نام.",
                     "parts": [
                         {
-                            "text": "The Prophet ﷺ saw where they were. He turned to ‘Ali ibn Abi Talib: \"Sleep on my bed, and wrap yourself in this cloak of mine, the green one from "
-                        },
-                        { "text": "Hadramawt", "term": "hadramawt" },
-                        {
-                            "text": ". Sleep in it; nothing you dislike will reach you from them.\" It was the cloak he himself slept in."
+                            "text": "فلما رأى النبي ﷺ مكانهم التفت إلى علي بن أبي طالب، فقال: «نَمْ على فراشي، وتسجَّ ببُردي هذا الحضرميّ الأخضر، فنَمْ فيه، فإنه لن يخلص إليك شيءٌ تكرهه منهم». وكان ذلك البُرد هو الذي ينام فيه ﷺ إذا نام."
                         },
                         { "note": 8 },
                         { "note": 3 }
@@ -141,42 +111,34 @@
         },
         {
             "section_id": "hch_departure_s3",
-            "title": "Through their midst",
+            "title": "بين أظهرهم",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_s3_1",
-                    "text": "Abu Jahl was among the men at the door, and he was mocking. \"Muhammad claims that if you follow him, you will be kings over Arabs and non-Arabs, and after death you will have gardens like the gardens of Jordan,\" he said. \"And if you do not, he will slaughter you, and after death you will burn in a fire.\"",
+                    "text": "وكان أبو جهل في القوم على الباب، يقول ساخرًا: «إن محمدًا يزعم أنكم إن تابعتموه على أمره كنتم ملوك العرب والعجم، ثم بُعثتم من بعد موتكم فجُعلت لكم جِنانٌ كجِنان الأردن، وإن لم تفعلوا كان له فيكم ذبح، ثم بُعثتم من بعد موتكم ثم جُعلت لكم نارٌ تُحرقون فيها».",
                     "parts": [
                         {
-                            "text": "Abu Jahl was among the men at the door, and he was mocking. \"Muhammad claims that if you follow him, you will be kings over Arabs and non-Arabs, and after death you will have gardens like the gardens of Jordan,\" he said. \"And if you do not, he will slaughter you, and after death you will burn in a fire.\""
+                            "text": "وكان أبو جهل في القوم على الباب، يقول ساخرًا: «إن محمدًا يزعم أنكم إن تابعتموه على أمره كنتم ملوك العرب والعجم، ثم بُعثتم من بعد موتكم فجُعلت لكم جِنانٌ كجِنان الأردن، وإن لم تفعلوا كان له فيكم ذبح، ثم بُعثتم من بعد موتكم ثم جُعلت لكم نارٌ تُحرقون فيها»."
                         },
                         { "note": 9 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_departure_s3_2",
-                    "text": "Then the Prophet ﷺ came out to them with a handful of dust in his hand. \"Yes, I say that,\" he said, \"and you are one of them.\" Allah took their sight from him. He walked among them, scattering the dust over their heads and reciting the opening of Surat Ya-Sin, up to the words \"So We have covered them, and they do not see.\" When he finished, there was not a man there without dust on his head. Then he went on his way.",
+                    "text": "فخرج عليهم النبي ﷺ وفي يده حفنةٌ من تراب، فقال: «أنا أقول ذلك، أنت أحدهم». وأخذ الله على أبصارهم عنه فلا يرونه، فجعل يمشي بينهم ينثر التراب على رؤوسهم، وهو يتلو صدر سورة يس، إلى قوله تعالى: ﴿فَأَغْشَيْنَاهُمْ فَهُمْ لَا يُبْصِرُونَ﴾. فلما فرغ من الآيات لم يبقَ منهم رجلٌ إلا وقد وضع على رأسه ترابًا. ثم انصرف إلى حيث أراد.",
                     "parts": [
                         {
-                            "text": "Then the Prophet ﷺ came out to them with a handful of dust in his hand. \"Yes, I say that,\" he said, \"and you are one of them.\" "
-                        },
-                        { "text": "Allah", "term": "allah" },
-                        {
-                            "text": " took their sight from him. He walked among them, scattering the dust over their heads and reciting the opening of Surat "
-                        },
-                        { "text": "Ya-Sin", "term": "yasin" },
-                        {
-                            "text": ", up to the words \"So We have covered them, and they do not see.\" When he finished, there was not a man there without dust on his head. Then he went on his way."
+                            "text": "فخرج عليهم النبي ﷺ وفي يده حفنةٌ من تراب، فقال: «أنا أقول ذلك، أنت أحدهم». وأخذ الله على أبصارهم عنه فلا يرونه، فجعل يمشي بينهم ينثر التراب على رؤوسهم، وهو يتلو صدر سورة يس، إلى قوله تعالى: ﴿فَأَغْشَيْنَاهُمْ فَهُمْ لَا يُبْصِرُونَ﴾. فلما فرغ من الآيات لم يبقَ منهم رجلٌ إلا وقد وضع على رأسه ترابًا. ثم انصرف إلى حيث أراد."
                         },
                         { "note": 10 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_departure_s3_3",
-                    "text": "Later, someone who had not been with them came by and asked what they were waiting for. \"Muhammad,\" they said. \"He has already gone out past you,\" the man told them, \"and put dust on every one of your heads. Can you not see it?\" Each of them put a hand to his head and found the dust. Yet when they looked inside, they saw someone asleep on the bed in the Prophet's ﷺ cloak. \"By God, that is Muhammad, asleep in his cloak,\" they said, and they waited there until morning. Then ‘Ali rose from the bed, and they said, \"By God, the man who told us was speaking the truth.\"",
+                    "text": "ثم أتاهم آتٍ لم يكن معهم، فقال: «ما تنتظرون هاهنا؟» قالوا: «محمدًا». فقال: «قد والله خرج عليكم محمد، ثم ما ترك منكم رجلًا إلا وقد وضع على رأسه ترابًا، وانطلق لحاجته، أفما ترون ما بكم؟» فوضع كلُّ رجلٍ منهم يده على رأسه، فإذا عليه تراب. غير أنهم جعلوا يتطلّعون إلى الداخل، فيرون على الفراش نائمًا متسجّيًا ببُرد النبي ﷺ، فيقولون: «والله إن هذا لمحمدٌ نائمًا، عليه بُرده». فلم يبرحوا كذلك حتى أصبحوا، فقام عليٌّ عن الفراش، فقالوا: «والله لقد كان صدقنا الذي حدّثنا».",
                     "parts": [
                         {
-                            "text": "Later, someone who had not been with them came by and asked what they were waiting for. \"Muhammad,\" they said. \"He has already gone out past you,\" the man told them, \"and put dust on every one of your heads. Can you not see it?\" Each of them put a hand to his head and found the dust. Yet when they looked inside, they saw someone asleep on the bed in the Prophet's ﷺ cloak. \"By God, that is Muhammad, asleep in his cloak,\" they said, and they waited there until morning. Then ‘Ali rose from the bed, and they said, \"By God, the man who told us was speaking the truth.\""
+                            "text": "ثم أتاهم آتٍ لم يكن معهم، فقال: «ما تنتظرون هاهنا؟» قالوا: «محمدًا». فقال: «قد والله خرج عليكم محمد، ثم ما ترك منكم رجلًا إلا وقد وضع على رأسه ترابًا، وانطلق لحاجته، أفما ترون ما بكم؟» فوضع كلُّ رجلٍ منهم يده على رأسه، فإذا عليه تراب. غير أنهم جعلوا يتطلّعون إلى الداخل، فيرون على الفراش نائمًا متسجّيًا ببُرد النبي ﷺ، فيقولون: «والله إن هذا لمحمدٌ نائمًا، عليه بُرده». فلم يبرحوا كذلك حتى أصبحوا، فقام عليٌّ عن الفراش، فقالوا: «والله لقد كان صدقنا الذي حدّثنا»."
                         },
                         { "note": 11 }
                     ]
@@ -185,54 +147,48 @@
         },
         {
             "section_id": "hch_departure_s4",
-            "title": "Into the night",
+            "title": "في جوف الليل",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_s4_1",
-                    "text": "Hardly anyone knew he was going. In Makkah only ‘Ali, Abu Bakr and Abu Bakr's family knew. ‘Ali was to stay behind with a task of his own: anyone in Makkah who had something precious he feared to lose had left it with the Prophet ﷺ, because they knew his honesty, and ‘Ali was to return every one of those trusts. He stayed three days and nights to do it, and only then set out after him, joining him at the house of Kulthum ibn Hidm.",
+                    "text": "ولم يكن أحدٌ يكاد يعلم بخروجه؛ فما علم به في مكة إلا عليٌّ وأبو بكر وآل أبي بكر. وكان لعليٍّ أن يتخلّف بعده لأمرٍ عهد به إليه: فلم يكن بمكة أحدٌ عنده شيءٌ يخشى عليه إلا وضعه عند النبي ﷺ، لما يعلمون من صدقه وأمانته، فأمر عليًّا أن يؤدّي عنه تلك الودائع إلى أهلها. فأقام ثلاث ليالٍ وأيامها حتى أدّاها، ثم لحق به، فنزل معه على كلثوم بن الهِدْم.",
                     "parts": [
-                        { "text": "Hardly anyone knew he was going. In Makkah only ‘Ali, " },
-                        { "text": "Abu Bakr", "term": "abubakr" },
                         {
-                            "text": " and Abu Bakr's family knew. ‘Ali was to stay behind with a task of his own: anyone in Makkah who had something precious he feared to lose had left it with the Prophet ﷺ, because they knew his honesty, and ‘Ali was to return every one of those trusts."
+                            "text": "ولم يكن أحدٌ يكاد يعلم بخروجه؛ فما علم به في مكة إلا عليٌّ وأبو بكر وآل أبي بكر. وكان لعليٍّ أن يتخلّف بعده لأمرٍ عهد به إليه: فلم يكن بمكة أحدٌ عنده شيءٌ يخشى عليه إلا وضعه عند النبي ﷺ، لما يعلمون من صدقه وأمانته، فأمر عليًّا أن يؤدّي عنه تلك الودائع إلى أهلها."
                         },
                         { "note": 4 },
                         {
-                            "text": " He stayed three days and nights to do it, and only then set out after him, joining him at the house of Kulthum ibn Hidm."
+                            "text": " فأقام ثلاث ليالٍ وأيامها حتى أدّاها، ثم لحق به، فنزل معه على كلثوم بن الهِدْم."
                         },
                         { "note": 12 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_departure_s4_2",
-                    "text": "Makkah was his home. Words he spoke once, standing at al-Hazwara in the city's market, show what leaving it meant to him: \"You are the best of Allah's lands, and the dearest of Allah's lands to me. Had I not been driven out of you, I would not have left.\"",
+                    "text": "وكانت مكة بلده. وكلماتٌ قالها مرةً وهو واقفٌ بالحَزْوَرة في سوق مكة تُنبئ بما كان يعنيه فراقها له: «إنكِ لخيرُ أرض الله، وأحبُّ أرض الله إليّ، ولولا أني أُخرجتُ منكِ ما خرجتُ».",
                     "parts": [
                         {
-                            "text": "Makkah was his home. Words he spoke once, standing at al-Hazwara in the city's market, show what leaving it meant to him: \"You are the best of Allah's lands, and the dearest of Allah's lands to me. Had I not been driven out of you, I would not have left.\""
+                            "text": "وكانت مكة بلده. وكلماتٌ قالها مرةً وهو واقفٌ بالحَزْوَرة في سوق مكة تُنبئ بما كان يعنيه فراقها له: «إنكِ لخيرُ أرض الله، وأحبُّ أرض الله إليّ، ولولا أني أُخرجتُ منكِ ما خرجتُ»."
                         },
                         { "note": 13 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_departure_s4_3",
-                    "text": "When the Prophet ﷺ had made up his mind to go, he came to Abu Bakr, and the two slipped out through a small door at the back of Abu Bakr's house. Abu Bakr took all his money with him, five or six thousand dirhams. Then, under cover of night, they set out, not on the road north to Madinah but south, towards Mount Thawr below Makkah, while ‘Ali lay on the bed to shield him from watching eyes.",
+                    "text": "فلما أجمع النبي ﷺ الخروج أتى أبا بكر، فخرجا من خَوْخةٍ لأبي بكر في ظهر بيته، أي بابٍ صغيرٍ في مؤخّره. واحتمل أبو بكر ماله كلَّه معه، خمسة آلاف درهم أو ستة آلاف. ثم مضيا تحت ستر الليل، لا على طريق المدينة شمالًا، بل جنوبًا نحو جبل ثور بأسفل مكة، وعليٌّ راقدٌ على الفراش يواري عنه العيون.",
                     "parts": [
                         {
-                            "text": "When the Prophet ﷺ had made up his mind to go, he came to Abu Bakr, and the two slipped out through a small door at the back of Abu Bakr's house."
+                            "text": "فلما أجمع النبي ﷺ الخروج أتى أبا بكر، فخرجا من خَوْخةٍ لأبي بكر في ظهر بيته، أي بابٍ صغيرٍ في مؤخّره."
                         },
                         { "note": 14 },
-                        {
-                            "text": " Abu Bakr took all his money with him, five or six thousand dirhams."
-                        },
+                        { "text": " واحتمل أبو بكر ماله كلَّه معه، خمسة آلاف درهم أو ستة آلاف." },
                         { "note": 15 },
                         {
-                            "text": " Then, under cover of night, they set out, not on the road north to Madinah but south, towards Mount "
+                            "text": " ثم مضيا تحت ستر الليل، لا على طريق المدينة شمالًا، بل جنوبًا نحو جبل ثور بأسفل مكة،"
                         },
-                        { "text": "Thawr", "term": "thawr" },
-                        { "text": " below Makkah," },
                         { "note": 14 },
                         { "note": 16 },
-                        { "text": " while ‘Ali lay on the bed to shield him from watching eyes." },
+                        { "text": " وعليٌّ راقدٌ على الفراش يواري عنه العيون." },
                         { "note": 5 }
                     ]
                 }
@@ -242,66 +198,56 @@
     "outline": [
         {
             "point_id": "hch_departure_pt1",
-            "text": "The council at Dar al-Nadwah",
+            "text": "في دار الندوة",
             "section_id": "hch_departure_s1"
         },
         {
             "point_id": "hch_departure_pt2",
-            "text": "Abu Jahl's plan",
+            "text": "رأي أبي جهل",
             "section_id": "hch_departure_s1"
         },
         {
             "point_id": "hch_departure_pt3",
-            "text": "A night at the door",
+            "text": "ليلةٌ على الباب",
             "section_id": "hch_departure_s2"
         },
         {
             "point_id": "hch_departure_pt4",
-            "text": "‘Ali in the green cloak",
+            "text": "عليٌّ في البُرد الأخضر",
             "section_id": "hch_departure_s2"
         },
-        {
-            "point_id": "hch_departure_pt5",
-            "text": "Through their midst",
-            "section_id": "hch_departure_s3"
-        },
+        { "point_id": "hch_departure_pt5", "text": "بين أظهرهم", "section_id": "hch_departure_s3" },
         {
             "point_id": "hch_departure_pt6",
-            "text": "The trusts ‘Ali stayed to return",
+            "text": "الودائع التي تخلّف عليٌّ لأدائها",
             "section_id": "hch_departure_s4"
         },
         {
             "point_id": "hch_departure_pt7",
-            "text": "Into the night, towards Thawr",
+            "text": "في جوف الليل، نحو ثور",
             "section_id": "hch_departure_s4"
         }
     ],
     "in_depth": [
         {
             "section_id": "hch_departure_d1",
-            "title": "Who was the old man from Najd?",
+            "title": "من الشيخ النجدي؟",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_d1_1",
-                    "text": "In the report Ibn Ishaq gives from Ibn ‘Abbas, the stranger at the council is Iblis, appearing as a venerable elder from Najd. The modern hadith scholar Muhammad al-Suwayani grades the report hasan, sound through its several routes: one of Ibn Ishaq's chains, from Ibn Abi Najih from Mujahid from Ibn ‘Abbas, has trustworthy men, and Qatada's report, recorded by ‘Abd al-Razzaq, supports it. He makes one exception: the mention of Iblis. Others judge the whole report weak, among them the study Marwiyyat Fada'il ‘Ali ibn Abi Talib fi al-Mustadrak, and that is the stronger view: the council, Jibril's warning and ‘Ali in the green cloak rest on a weak report. The story tells it as Ibn ‘Abbas's report, and calls the stranger only an old man from Najd.",
+                    "text": "في الرواية التي يسوقها ابن إسحاق عن ابن عباس، الغريبُ الذي حضر المجلس هو إبليس، جاءهم في هيئة شيخٍ جليلٍ من أهل نجد. ويحكم المحدّث المعاصر محمد السوياني على الرواية بأنها حسنةٌ بطرقها: فإحدى طرق ابن إسحاق، عن ابن أبي نجيح عن مجاهد عن ابن عباس، رجالها ثقات، ويشهد لها مرسل قتادة الذي رواه عبد الرزاق. ويستثني من ذلك أمرًا واحدًا: ذكر إبليس. ويضعّف غيرُه الروايةَ كلَّها، ومنهم دراسة مرويات فضائل علي بن أبي طالب في المستدرك، وهذا هو الأرجح: فخبر المجلس، ونذير جبريل، ونوم عليٍّ في البُرد الأخضر، قائمةٌ على روايةٍ ضعيفة. وتسوق القصة ذلك على أنه رواية ابن عباس، ولا تسمّي الغريب إلا شيخًا من أهل نجد.",
                     "parts": [
-                        { "text": "In the report " },
-                        { "text": "Ibn Ishaq", "term": "ibnishaq" },
                         {
-                            "text": " gives from Ibn ‘Abbas, the stranger at the council is Iblis, appearing as a venerable elder from Najd."
+                            "text": "في الرواية التي يسوقها ابن إسحاق عن ابن عباس، الغريبُ الذي حضر المجلس هو إبليس، جاءهم في هيئة شيخٍ جليلٍ من أهل نجد."
                         },
                         { "note": 6 },
-                        { "text": " The modern " },
-                        { "text": "hadith", "term": "hadith" },
-                        { "text": " scholar Muhammad al-Suwayani grades the report " },
-                        { "text": "hasan", "term": "hasan" },
                         {
-                            "text": ", sound through its several routes: one of Ibn Ishaq's chains, from Ibn Abi Najih from Mujahid from Ibn ‘Abbas, has trustworthy men, and Qatada's report, recorded by ‘Abd al-Razzaq, supports it. He makes one exception: the mention of Iblis."
+                            "text": " ويحكم المحدّث المعاصر محمد السوياني على الرواية بأنها حسنةٌ بطرقها: فإحدى طرق ابن إسحاق، عن ابن أبي نجيح عن مجاهد عن ابن عباس، رجالها ثقات، ويشهد لها مرسل قتادة الذي رواه عبد الرزاق. ويستثني من ذلك أمرًا واحدًا: ذكر إبليس."
                         },
                         { "note": 17 },
                         { "note": 18 },
                         {
-                            "text": " Others judge the whole report weak, among them the study Marwiyyat Fada'il ‘Ali ibn Abi Talib fi al-Mustadrak, and that is the stronger view: the council, Jibril's warning and ‘Ali in the green cloak rest on a weak report. The story tells it as Ibn ‘Abbas's report, and calls the stranger only an old man from Najd."
+                            "text": " ويضعّف غيرُه الروايةَ كلَّها، ومنهم دراسة مرويات فضائل علي بن أبي طالب في المستدرك، وهذا هو الأرجح: فخبر المجلس، ونذير جبريل، ونوم عليٍّ في البُرد الأخضر، قائمةٌ على روايةٍ ضعيفة. وتسوق القصة ذلك على أنه رواية ابن عباس، ولا تسمّي الغريب إلا شيخًا من أهل نجد."
                         },
                         { "note": 19 }
                     ]
@@ -310,24 +256,24 @@
         },
         {
             "section_id": "hch_departure_d2",
-            "title": "Three tellings of one night",
+            "title": "ثلاث روايات لليلة واحدة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_d2_1",
-                    "text": "The council, Jibril's warning and ‘Ali in the bed come from Ibn ‘Abbas. The dust and the verses of Ya-Sin come from a different report, by Muhammad ibn Ka‘b, a scholar of the next generation who did not see the events himself; it too is judged weak. ‘Urwah ibn al-Zubayr gives a shorter account: Quraysh resolved to kill, imprison or expel him, Allah told him of their plot, and he and Abu Bakr left by night for the cave at Thawr while ‘Ali lay on his bed to shield him from watching eyes. ‘Urwah links the plot to the verse: \"And when those who disbelieved plotted against you, to restrain you, or kill you, or drive you out: they plot, and Allah plots, and Allah is the best of planners\" (al-Anfal 8:30). The three options in the verse are the three the council debated.",
+                    "text": "خبر المجلس، ونذير جبريل، ونوم عليٍّ على الفراش، كلّها من رواية ابن عباس. أما التراب وآيات يس فمن روايةٍ أخرى، يرويها محمد بن كعب، وهو من علماء الجيل التالي لم يشهد الأحداث بنفسه، وهي أيضًا محكومٌ بضعفها. ويسوق عروة بن الزبير الخبر أوجز من ذلك: أجمع مشركو قريش أمرهم ومكرهم على أن يقتلوه أو يحبسوه أو يُخرجوه، فأخبره الله بمكرهم، فخرج هو وأبو بكر من تحت الليل قِبَل الغار بثور، ورقد عليٌّ على فراشه يواري عنه العيون. ويربط عروة هذا المكر بقوله تعالى: ﴿وَإِذْ يَمْكُرُ بِكَ الَّذِينَ كَفَرُوا لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ وَيَمْكُرُونَ وَيَمْكُرُ اللَّهُ وَاللَّهُ خَيْرُ الْمَاكِرِينَ﴾ (الأنفال: ٣٠). والخيارات الثلاثة في الآية هي الثلاثة التي تداولها المجلس.",
                     "parts": [
                         {
-                            "text": "The council, Jibril's warning and ‘Ali in the bed come from Ibn ‘Abbas."
+                            "text": "خبر المجلس، ونذير جبريل، ونوم عليٍّ على الفراش، كلّها من رواية ابن عباس."
                         },
                         { "note": 1 },
                         { "note": 8 },
                         {
-                            "text": " The dust and the verses of Ya-Sin come from a different report, by Muhammad ibn Ka‘b, a scholar of the next generation who did not see the events himself; it too is judged weak."
+                            "text": " أما التراب وآيات يس فمن روايةٍ أخرى، يرويها محمد بن كعب، وهو من علماء الجيل التالي لم يشهد الأحداث بنفسه، وهي أيضًا محكومٌ بضعفها."
                         },
                         { "note": 20 },
                         { "note": 19 },
                         {
-                            "text": " ‘Urwah ibn al-Zubayr gives a shorter account: Quraysh resolved to kill, imprison or expel him, Allah told him of their plot, and he and Abu Bakr left by night for the cave at Thawr while ‘Ali lay on his bed to shield him from watching eyes. ‘Urwah links the plot to the verse: \"And when those who disbelieved plotted against you, to restrain you, or kill you, or drive you out: they plot, and Allah plots, and Allah is the best of planners\" (al-Anfal 8:30). The three options in the verse are the three the council debated."
+                            "text": " ويسوق عروة بن الزبير الخبر أوجز من ذلك: أجمع مشركو قريش أمرهم ومكرهم على أن يقتلوه أو يحبسوه أو يُخرجوه، فأخبره الله بمكرهم، فخرج هو وأبو بكر من تحت الليل قِبَل الغار بثور، ورقد عليٌّ على فراشه يواري عنه العيون. ويربط عروة هذا المكر بقوله تعالى: ﴿وَإِذْ يَمْكُرُ بِكَ الَّذِينَ كَفَرُوا لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ وَيَمْكُرُونَ وَيَمْكُرُ اللَّهُ وَاللَّهُ خَيْرُ الْمَاكِرِينَ﴾ (الأنفال: ٣٠). والخيارات الثلاثة في الآية هي الثلاثة التي تداولها المجلس."
                         },
                         { "note": 5 }
                     ]
@@ -336,18 +282,18 @@
         },
         {
             "section_id": "hch_departure_d3",
-            "title": "\"As far as has reached me\"",
+            "title": "«فيما بلغني»",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_d3_1",
-                    "text": "Ibn Ishaq introduces the report of the trusts with the words \"as far as has reached me\": he heard it but does not name his source. The detail of ‘Ali staying three days and then joining the Prophet ﷺ at the house of Kulthum ibn Hidm comes later in his narrative.",
+                    "text": "يقدّم ابن إسحاق خبر الودائع بقوله «فيما بلغني»: أي إنه سمعه ولا يسمّي مَن حدّثه به. أما إقامة عليٍّ ثلاثة أيام ثم لحاقه بالنبي ﷺ ونزوله معه على كلثوم بن الهدم، فتأتي في موضعٍ لاحقٍ من روايته.",
                     "parts": [
                         {
-                            "text": "Ibn Ishaq introduces the report of the trusts with the words \"as far as has reached me\": he heard it but does not name his source."
+                            "text": "يقدّم ابن إسحاق خبر الودائع بقوله «فيما بلغني»: أي إنه سمعه ولا يسمّي مَن حدّثه به."
                         },
                         { "note": 4 },
                         {
-                            "text": " The detail of ‘Ali staying three days and then joining the Prophet ﷺ at the house of Kulthum ibn Hidm comes later in his narrative."
+                            "text": " أما إقامة عليٍّ ثلاثة أيام ثم لحاقه بالنبي ﷺ ونزوله معه على كلثوم بن الهدم، فتأتي في موضعٍ لاحقٍ من روايته."
                         },
                         { "note": 12 }
                     ]
@@ -356,14 +302,14 @@
         },
         {
             "section_id": "hch_departure_d4",
-            "title": "Words at al-Hazwara",
+            "title": "كلماتٌ بالحزورة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_d4_1",
-                    "text": "The words to Makkah are reported by ‘Abdullah ibn ‘Adi ibn al-Hamra, who heard them at al-Hazwara, in the market of Makkah. Al-Bayhaqi judges this chain, through al-Zuhri and Abu Salamah, to be the preserved one, and other versions of it to be mistakes. The report does not say on which day the words were spoken.",
+                    "text": "يروي الكلماتِ التي قيلت لمكة عبدُ الله بن عدي بن الحمراء، وقد سمعها بالحزورة في سوق مكة. ويحكم البيهقي بأن هذا الطريق، عن الزهري عن أبي سلمة، هو المحفوظ، وبأن ما خالفه من الروايات وَهْم. ولا تذكر الرواية في أي يومٍ قيلت هذه الكلمات.",
                     "parts": [
                         {
-                            "text": "The words to Makkah are reported by ‘Abdullah ibn ‘Adi ibn al-Hamra, who heard them at al-Hazwara, in the market of Makkah. Al-Bayhaqi judges this chain, through al-Zuhri and Abu Salamah, to be the preserved one, and other versions of it to be mistakes. The report does not say on which day the words were spoken."
+                            "text": "يروي الكلماتِ التي قيلت لمكة عبدُ الله بن عدي بن الحمراء، وقد سمعها بالحزورة في سوق مكة. ويحكم البيهقي بأن هذا الطريق، عن الزهري عن أبي سلمة، هو المحفوظ، وبأن ما خالفه من الروايات وَهْم. ولا تذكر الرواية في أي يومٍ قيلت هذه الكلمات."
                         },
                         { "note": 13 },
                         { "note": 21 }
@@ -373,17 +319,15 @@
         },
         {
             "section_id": "hch_departure_d5",
-            "title": "Another chain from Ibn ‘Abbas",
+            "title": "طريقٌ آخر عن ابن عباس",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_departure_d5_1",
-                    "text": "A similar account of the night comes through Abu Balj from ‘Amr ibn Maymun from Ibn ‘Abbas, recorded by Ahmad, al-Hakim and al-Tabarani. Al-Suwayani calls the chain strong, as long as Abu Balj is not alone in a wording that conflicts with others; scholars differed over him, and al-Bukhari said, \"There is a problem with him.\"",
+                    "text": "وتأتي روايةٌ قريبةٌ لأحداث تلك الليلة من طريق أبي بَلْج عن عمرو بن ميمون عن ابن عباس، أخرجها أحمد والحاكم والطبراني. ويقوّي السوياني إسنادها ما لم ينفرد أبو بلج بلفظٍ يخالف فيه غيره؛ وقد اختلف العلماء فيه، وقال البخاري: «فيه نظر».",
                     "parts": [
                         {
-                            "text": "A similar account of the night comes through Abu Balj from ‘Amr ibn Maymun from Ibn ‘Abbas, recorded by Ahmad, al-Hakim and al-Tabarani. Al-Suwayani calls the chain strong, as long as Abu Balj is not alone in a wording that conflicts with others; scholars differed over him, and "
+                            "text": "وتأتي روايةٌ قريبةٌ لأحداث تلك الليلة من طريق أبي بَلْج عن عمرو بن ميمون عن ابن عباس، أخرجها أحمد والحاكم والطبراني. ويقوّي السوياني إسنادها ما لم ينفرد أبو بلج بلفظٍ يخالف فيه غيره؛ وقد اختلف العلماء فيه، وقال البخاري: «فيه نظر»."
                         },
-                        { "text": "al-Bukhari", "term": "bukhari" },
-                        { "text": " said, \"There is a problem with him.\"" },
                         { "note": 22 }
                     ]
                 }
@@ -394,8 +338,8 @@
         {
             "reading_id": "hch_departure_n1",
             "number": 1,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/480 — Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٠ — ابن إسحاق",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_council", "part_ids": ["p1", "p2", "p3"] }
@@ -404,8 +348,8 @@
         {
             "reading_id": "hch_departure_n2",
             "number": 2,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/482 — Ibn ‘Abbas through Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٢ — ابن عباس، من طريق ابن إسحاق",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_decision", "part_ids": ["p2", "p3"] }
@@ -414,24 +358,24 @@
         {
             "reading_id": "hch_departure_n3",
             "number": 3,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/483 — Ibn ‘Abbas through Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٣ — ابن عباس، من طريق ابن إسحاق",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [{ "packet_id": "sp_departure_chapter_exit", "part_ids": ["p1", "p2"] }]
         },
         {
             "reading_id": "hch_departure_n4",
             "number": 4,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/485 — Ibn Ishaq, \"as far as has reached me\"",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٥ — ابن إسحاق، «فيما بلغني»",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_departure_chapter_trust", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_departure_n5",
             "number": 5,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/465 — ‘Urwah ibn al-Zubayr",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٦٥ — عروة بن الزبير",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_urwa", "part_ids": ["p1", "p2", "p3", "p4"] }
@@ -440,8 +384,8 @@
         {
             "reading_id": "hch_departure_n6",
             "number": 6,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/480–481 — Ibn ‘Abbas through Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٠–٤٨١ — ابن عباس، من طريق ابن إسحاق",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_council", "part_ids": ["p3"] },
@@ -451,8 +395,8 @@
         {
             "reading_id": "hch_departure_n7",
             "number": 7,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/481–482 — Ibn ‘Abbas through Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨١–٤٨٢ — ابن عباس، من طريق ابن إسحاق",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_debate", "part_ids": ["p4"] },
@@ -462,8 +406,8 @@
         {
             "reading_id": "hch_departure_n8",
             "number": 8,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/482 — Ibn ‘Abbas through Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٢ — ابن عباس، من طريق ابن إسحاق",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_bed", "part_ids": ["p1", "p2", "p3", "p4"] }
@@ -472,16 +416,16 @@
         {
             "reading_id": "hch_departure_n9",
             "number": 9,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/483 — Muhammad ibn Ka‘b, quoting Abu Jahl",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٣ — محمد بن كعب، يحكي قول أبي جهل",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [{ "packet_id": "sp_departure_chapter_exit", "part_ids": ["p4", "p5"] }]
         },
         {
             "reading_id": "hch_departure_n10",
             "number": 10,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/483 — Muhammad ibn Ka‘b",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٣ — محمد بن كعب",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [
                 {
@@ -493,24 +437,24 @@
         {
             "reading_id": "hch_departure_n11",
             "number": 11,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/483 — Muhammad ibn Ka‘b",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٣ — محمد بن كعب",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [{ "packet_id": "sp_departure_chapter_exit", "part_ids": ["p12"] }]
         },
         {
             "reading_id": "hch_departure_n12",
             "number": 12,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/493 — Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٩٣ — ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_departure_chapter_arrival", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_departure_n13",
             "number": 13,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/517–518 — ‘Abdullah ibn ‘Adi ibn al-Hamra, quoting the Prophet ﷺ",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٥١٧–٥١٨ — عبد الله بن عدي بن الحمراء، يحكي قول النبي ﷺ",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_hazchain", "part_ids": ["p1"] },
@@ -520,47 +464,47 @@
         {
             "reading_id": "hch_departure_n14",
             "number": 14,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/485 — Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٥ — ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-23833-508-807", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_departure_n15",
             "number": 15,
-            "title": "Ibn Kathir, al-Sirah al-Nabawiyyah, 2/236 — Asma bint Abi Bakr, through Ibn Ishaq",
-            "mode": "translated",
+            "title": "السيرة النبوية من البداية والنهاية، ٢/٢٣٦ — أسماء بنت أبي بكر، من طريق ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "E23", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_departure_n16",
             "number": 16,
-            "title": "Al-Mubarakfuri, al-Rahiq al-Makhtum, 1/148 — the road south towards Yemen, about five miles to Thawr",
-            "mode": "translated",
+            "title": "الرحيق المختوم، ١/١٤٨ — الطريق جنوبًا نحو اليمن، نحو خمسة أميال إلى ثور",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "E24", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_departure_n17",
             "number": 17,
-            "title": "Al-Suwayani, al-Sirah al-Nabawiyyah kama ja'at fi al-Ahadith al-Sahihah, 1/254",
-            "mode": "translated",
+            "title": "السيرة النبوية كما جاءت في الأحاديث الصحيحة، ١/٢٥٤",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_departure_chapter_saw1", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_departure_n18",
             "number": 18,
-            "title": "Al-Suwayani, al-Sahih min Ahadith al-Sirah al-Nabawiyyah, 1/141",
-            "mode": "translated",
+            "title": "الصحيح من أحاديث السيرة النبوية، ١/١٤١",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_departure_chapter_saw2", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_departure_n19",
             "number": 19,
-            "title": "Marwiyyat Fada'il ‘Ali ibn Abi Talib fi al-Mustadrak, on the reports of ‘Ali sleeping in the Prophet's ﷺ bed",
+            "title": "مرويات فضائل علي بن أبي طالب في المستدرك، في روايات مبيت علي على فراش النبي ﷺ",
             "mode": "original",
             "strength": null,
             "source_refs": []
@@ -568,16 +512,16 @@
         {
             "reading_id": "hch_departure_n20",
             "number": 20,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/483 — Ibn Ishaq from Yazid ibn Ziyad from Muhammad ibn Ka‘b al-Qurazi",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٣ — ابن إسحاق عن يزيد بن زياد عن محمد بن كعب القرظي",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [{ "packet_id": "sp_departure_chapter_exit", "part_ids": ["p3"] }]
         },
         {
             "reading_id": "hch_departure_n21",
             "number": 21,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/518 — al-Bayhaqi on the other versions",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٥١٨ — البيهقي في الروايات الأخرى",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_haztext", "part_ids": ["p3"] },
@@ -587,8 +531,8 @@
         {
             "reading_id": "hch_departure_n22",
             "number": 22,
-            "title": "Al-Suwayani, al-Sahih min Ahadith al-Sirah al-Nabawiyyah, 1/142–143",
-            "mode": "translated",
+            "title": "الصحيح من أحاديث السيرة النبوية، ١/١٤٢–١٤٣",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 {
@@ -599,104 +543,7 @@
             ]
         }
     ],
-    "terms": [
-        {
-            "id": "madinah",
-            "word": "Madinah",
-            "meaning": "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
-        },
-        {
-            "id": "quraysh",
-            "word": "Quraysh",
-            "meaning": "The leading tribe of Makkah. The Prophet ﷺ himself belonged to it."
-        },
-        {
-            "id": "makkah",
-            "word": "Makkah",
-            "meaning": "The city where the Prophet ﷺ was born, home of the Ka‘bah."
-        },
-        {
-            "id": "pilgrimage",
-            "word": "Pilgrimage",
-            "meaning": "The yearly gathering at Makkah and its valleys, already ancient before Islam."
-        },
-        {
-            "id": "dhualhijjah",
-            "word": "Dhu al-Hijjah",
-            "meaning": "The last month of the Arab calendar, the month of the pilgrimage."
-        },
-        {
-            "id": "muharram",
-            "word": "Muharram",
-            "meaning": "The first month of the Arab calendar."
-        },
-        {
-            "id": "safar",
-            "word": "Safar",
-            "meaning": "The second month of the Arab calendar, in which the Prophet ﷺ left Makkah."
-        },
-        {
-            "id": "daralnadwah",
-            "word": "Dar al-Nadwah",
-            "meaning": "The council house of Quraysh in Makkah, where its leaders settled their affairs."
-        },
-        {
-            "id": "najd",
-            "word": "Najd",
-            "meaning": "The high central plateau of Arabia, east of Makkah and Madinah."
-        },
-        {
-            "id": "banu",
-            "word": "Banu",
-            "meaning": "\"Sons of\": a clan named after its ancestor, as in Banu al-Najjar."
-        },
-        {
-            "id": "jibril",
-            "word": "Jibril",
-            "meaning": "The angel Gabriel, who brought revelation to the Prophet ﷺ."
-        },
-        {
-            "id": "hadramawt",
-            "word": "Hadramawt",
-            "meaning": "A region of southern Arabia, known for its cloth."
-        },
-        { "id": "allah", "word": "Allah", "meaning": "The Arabic word for God." },
-        {
-            "id": "yasin",
-            "word": "Surat Ya-Sin",
-            "meaning": "The thirty-sixth chapter (surah) of the Quran."
-        },
-        {
-            "id": "abubakr",
-            "word": "Abu Bakr",
-            "meaning": "The Prophet’s closest friend and companion, who later led the Muslims after him."
-        },
-        {
-            "id": "thawr",
-            "word": "Thawr",
-            "meaning": "A mountain south of Makkah, with a small cave near its top."
-        },
-        {
-            "id": "ibnishaq",
-            "word": "Ibn Ishaq",
-            "meaning": "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
-        },
-        {
-            "id": "hadith",
-            "word": "Hadith",
-            "meaning": "A report of what the Prophet ﷺ said or did, passed on by named narrators."
-        },
-        {
-            "id": "hasan",
-            "word": "hasan",
-            "meaning": "\"Good\": a report graded reliable, a step below the soundest (sahih)."
-        },
-        {
-            "id": "bukhari",
-            "word": "Sahih al-Bukhari",
-            "meaning": "The collection of hadith that Muslims consider the most reliable."
-        }
-    ],
+    "terms": [],
     "source_units": [
         {
             "unit_id": "sp_departure_chapter_council:p1",
@@ -712,7 +559,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "Ibn Ishaq said: When Quraysh saw that the Messenger of God ﷺ had acquired supporters and companions from outside their own people in a land other than their own, and saw his emigrant companions leaving to join them, they realized that they had settled in a home and found protection among them. They feared the Messenger of God ﷺ might go to join them, and understood that there was a resolve to wage war against them. [Translator’s note: The supplied Arabic has plural “annahum” beside singular “ajmaʿa”; the subject of the resolve is uncertain.] So they gathered to discuss him in the House of Assembly—this was the house of Qusayy ibn Kilab, where Quraysh settled all their affairs—to consult about what to do with the Messenger of God ﷺ now that they feared him."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_council:p2",
@@ -728,7 +575,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "Ibn Ishaq said: Someone among our associates whom I do not suspect told me, from Abdullah ibn Abi Najih, from Mujahid ibn Jubayr [2], Abu al-Hajjaj, and others whom I do not suspect, from Abdullah ibn Abbas, may God be pleased with them both, who said:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_council:p3",
@@ -744,7 +591,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "When they had resolved on this and arranged to enter the House of Assembly to consult there about the Messenger of God ﷺ, they went there on the appointed day. That day was called the Day of the Crowd. Iblis appeared before them in the form of a venerable elder [3]."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_decision:p2",
@@ -760,7 +607,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "482",
-            "text": "Then one of them said, “Let us drive him from among us and banish him from our land. Once he is gone, by God, we will not care where he goes or where he ends up. With him absent and ourselves rid of him, we can set our affairs right and restore our harmony as it was [1].” The Najdi elder said, “No, by God, this is not a sound plan for you. Have you not seen how fine his speech is, how appealing his words are, and how he wins men's hearts with what he brings? By God, if you do that, you cannot be sure he will not settle among an Arab tribe, win them over with his words until they follow him, then march with them against you, trample you in your own land, seize control of your affairs and do to you what he wishes. Devise [2] a different plan for him.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_decision:p3",
@@ -776,7 +623,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "482",
-            "text": "He said: Abu Jahl ibn Hisham said, “By God, I have a plan for him that I do not think you have hit upon yet.” They asked, “What is it, Abu al-Hakam?” He said, “I propose that we take from each tribe a young, hardy man of respected lineage and standing [3] among us and give each a sharp sword. Then they should go to him and strike him together as one man, killing him and relieving us of him. For if they do so, responsibility for his blood will be spread among all the tribes. Banu Abd Manaf will be unable to fight all their people, and will accept blood money from us, which we will pay them.” The Najdi elder said, “What this man has said is the right plan; there is no other.” The men parted in agreement on it."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p1",
@@ -792,7 +639,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "—the green Hadrami one. Sleep in it, for nothing you dislike will reach you from them.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p2",
@@ -808,7 +655,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "The Messenger of God ﷺ used to sleep in that cloak when he slept."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_trust:p1",
@@ -824,7 +671,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "485",
-            "text": "Ibn Ishaq said: As far as has reached me, no one knew of the Messenger of God's ﷺ departure at the time he left except Ali ibn Abi Talib, Abu Bakr al-Siddiq, and Abu Bakr's family. As for Ali, the Messenger of God ﷺ, as far as has reached me, informed him of his departure and instructed him to remain in Mecca after him so that he might return on the Messenger of God's ﷺ behalf the property people had entrusted to him. There was no one in Mecca who had something he feared might be lost who did not deposit it with the Messenger of God ﷺ, because his truthfulness and trustworthiness were well known."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_urwa:p1",
@@ -840,7 +687,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "465",
-            "text": "Abu al-Husayn ibn al-Fadl al-Qattan informed us in Baghdad, saying: Abdullah ibn Jafar informed us, saying: Yaqub ibn Sufyan told us, saying: Amr ibn Khalid told us, from Ibn Lahia, from Abu al-Aswad, from Urwa ibn al-Zubayr, who said:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_urwa:p2",
@@ -856,7 +703,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "465",
-            "text": "“The Messenger of God ﷺ remained after the pilgrimage for the rest of Dhu al-Hijja, then Muharram and Safar. Then the polytheists of Quraysh resolved on their plan and scheme to seize the Messenger of God ﷺ: either to kill him, imprison him, expel him or bind him. God, mighty and exalted, informed him of their plot:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_urwa:p3",
@@ -872,7 +719,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "465",
-            "text": "‘And when those who disbelieved were plotting against you to restrain you, kill you, or drive you out: they plot, and God plots, and God is the best of planners.’"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_urwa:p4",
@@ -888,7 +735,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "465",
-            "text": "[(2)]. The Messenger of God ﷺ and Abu Bakr went out under cover of night toward the cave at Thawr, while Ali, may God be pleased with him, deliberately lay on the Messenger of God's ﷺ bed to shield him from watching eyes.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_debate:p1",
@@ -904,7 +751,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "481",
-            "text": "He was wearing a cloak [1] and stood at the door of the house. When they saw him standing there, they asked, “Who is this elder?”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_debate:p2",
@@ -920,7 +767,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "481",
-            "text": "He replied, “An elder from Najd [2] who heard of the meeting you arranged and came to listen to what you say. Perhaps he will not leave you without advice and counsel.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_debate:p3",
@@ -936,7 +783,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "481",
-            "text": "They said, “Yes, come in.” He entered with them. Gathered there were Quraysh's leading men: from Banu Abd Shams, Utba ibn Rabia, Shayba ibn Rabia, and Abu Sufyan ibn Harb; from Banu Nawfal ibn Abd Manaf, Tuayma ibn Adi, Jubayr ibn Mutim, and al-Harith ibn Amir ibn Nawfal; from Banu Abd al-Dar ibn Qusayy, al-Nadr ibn al-Harith ibn Kilda; from Banu Asad ibn Abd al-Uzza, Abu al-Bakhtari ibn Hisham, Zama ibn al-Aswad ibn al-Muttalib, and Hakim ibn Hizam; from Banu Makhzum, Abu Jahl ibn Hisham; from Banu Sahm, Nubayh and Munabbih, the two sons of al-Hajjaj; and from Banu Jumah, Umayya ibn Khalaf, along with those who were with them and others not counted among Quraysh."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_debate:p4",
@@ -952,7 +799,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "481",
-            "text": "Some said to the others, “You have seen what has become of this man. By God, we cannot feel safe from his attacking us with those outside our people who have followed him. Agree on a plan for dealing with him.” They consulted, and one of them said, “Put him in irons, lock a door on him, then wait for the fate that befell poets like him who came before—Zuhayr, al-Nabigha, and those who have passed away: death—until it befalls him too [3].” The Najdi elder said, “No, by God, this is not a sound plan for you. By God, if you imprison him as you say, news of his cause will surely pass from behind the door you have locked—"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_decision:p1",
@@ -968,7 +815,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "482",
-            "text": "—upon him to his companions. They may well rise against you, wrest him from your hands, then outnumber you with him until they overpower you in your own affairs. This is not a sound plan for you; consider another.” So they consulted."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_bed:p1",
@@ -984,7 +831,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "482",
-            "text": "Then Gabriel, peace be upon him, came to the Messenger of God ﷺ."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_bed:p2",
@@ -1000,7 +847,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "482",
-            "text": "He said, “Do not spend this night on the bed on which you usually sleep.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_bed:p3",
@@ -1016,7 +863,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "482",
-            "text": "He said: When night had grown dark, they gathered at his door, watching for him to fall asleep so they could spring upon him. When the Messenger of God ﷺ saw where they were, he said to Ali ibn Abi Talib:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_bed:p4",
@@ -1032,7 +879,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "482",
-            "text": "“Sleep on my bed and wrap yourself [4] in this cloak of mine—"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p4",
@@ -1048,7 +895,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "When they gathered to watch for him, Abu Jahl ibn Hisham was among them. While they were at his door, he said:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p5",
@@ -1064,7 +911,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "“Muhammad claims that if you follow him in his cause, you will become kings over Arabs and non-Arabs; then you will be raised after death and given gardens like the gardens of the Jordan. But if you do not, he will slaughter you, then you will be raised after death and given a fire in which you will burn.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p6",
@@ -1080,7 +927,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "He said: The Messenger of God ﷺ came out to them, took a handful of dust in his hand, then said:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p7",
@@ -1096,7 +943,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "“That is what I say, and you are one of them.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p8",
@@ -1112,7 +959,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "God Most High veiled their sight from him so they did not see him. He began scattering the dust over their heads while reciting these verses from Ya-Sin:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p9",
@@ -1128,7 +975,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "“Ya-Sin. By the wise Quran! You are indeed one of the messengers, on a straight path, a revelation from the Almighty, the Merciful”—"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p10",
@@ -1144,7 +991,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "36:1–5 ... up to His words:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p11",
@@ -1160,7 +1007,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "“So We have covered them, and they do not see.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p12",
@@ -1176,7 +1023,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "36:9. When the Messenger of God ﷺ had finished these verses, there was not a man among them on whose head he had not put dust. Then he went on to where he intended to go. Someone who had not been with them came and asked, “What are you waiting here for?” They answered, “Muhammad.” He said, “May God confound you! By God, Muhammad has already gone out past you and put dust on every one of your heads, then gone about his business. Can you not see what is on you?” Each man put his hand on his head and found dust there. Then they looked inside and saw Ali on the bed, wrapped in the Messenger of God's ﷺ cloak. They said, “By God, this is Muhammad asleep, wearing his cloak.” They remained there until morning [1], when Ali, may God be pleased with him, got up from the bed. They said, “By God, the man who told us was speaking the truth.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_arrival:p1",
@@ -1192,7 +1039,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "493",
-            "text": "Ali ibn Abi Talib, peace be upon him, remained in Mecca for three nights and their days, until he returned on the Messenger of God's ﷺ behalf the property that people had entrusted to him. When he had finished, he joined the Messenger of God ﷺ and lodged with him at the home of Kulthum ibn Hidm."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_hazchain:p1",
@@ -1208,7 +1055,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "517",
-            "text": "Abu al-Husayn ibn al-Fadl al-Qattan informed us; he said: Abdullah ibn Jafar informed us; he said: Yaqub ibn Sufyan told us; he said: Abu al-Yaman told us; he said: Shuayb told me, from al-Zuhri, who said: Abu Salama ibn Abd al-Rahman informed me that Abdullah ibn Adi ibn—"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_haztext:p1",
@@ -1224,7 +1071,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "518",
-            "text": "—al-Hamra al-Zuhri told him that he heard the Messenger of God ﷺ, while he was standing at al-Hazwara in the market of Mecca, say:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_haztext:p2",
@@ -1240,7 +1087,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "518",
-            "text": "“You are truly the best of God's lands and the dearest of God's lands to me. Had I not been driven out of you, I would not have left.”"
+            "text": null
         },
         {
             "unit_id": "H-23833-508-807:p1",
@@ -1256,7 +1103,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "485",
-            "text": "Ibn Ishaq said: When the Messenger of Allah ﷺ resolved to set out, he went to Abu Bakr ibn Abi Quhafah. The two of them left through a small door in the back of Abu Bakr’s house, then made for a cave at Thawr—a mountain below Makkah—and entered it. Abu Bakr instructed his son, ‘Abdullah ibn Abi Bakr, to listen during the day for what people were saying about them, then come to them at nightfall with the news of the day. He instructed his freedman, ‘Amir ibn Fuhayrah, to graze his sheep during the day, then bring them to rest near the two of them, coming to them in the cave at nightfall. Asma’ bint Abi Bakr would bring them food at nightfall, whatever they needed."
+            "text": null
         },
         {
             "unit_id": "E23:p1",
@@ -1272,7 +1119,7 @@
             "book_id": "930",
             "volume": "2",
             "page": "236",
-            "text": "Abu Bakr took all his money with him, five or six thousand dirhams, and set out with it … She took some stones and put them in a niche in the house where my father used to keep his money, then covered them with a cloth."
+            "text": null
         },
         {
             "unit_id": "E24:p1",
@@ -1288,7 +1135,7 @@
             "book_id": "9820",
             "volume": "1",
             "page": "148",
-            "text": "He took a route going in exactly the opposite direction: the road south of Makkah, leading toward Yemen. He followed this road for about five miles, until he reached a mountain known as Mount Thawr."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_saw1:p1",
@@ -1304,7 +1151,7 @@
             "book_id": "123668",
             "volume": "1",
             "page": "254",
-            "text": "(2) A hadith assessed as hasan through its routes. Ibn Ishaq related it, and al-Tabari (2/370) related it through him by several routes in which Ibn Ishaq explicitly reported having heard it, including from al-Kalbi from Abu Salih from Ibn Abbas. This route is not one to welcome, because it contains al-Kalbi, who is severely discredited. As for the second route, it is al-Hasan ibn Umara from al-Hakam ibn Utayba from Miqsam from Ibn Abbas; al-Hasan is abandoned as a transmitter. As for the third route, its men are trustworthy: “Abdullah ibn Abi Najih told me, from Mujahid ibn Jubayr, from Ibn Abbas.” Mujahid is a well-known trustworthy leading Successor, and Abdullah ibn Abi Najih is trustworthy, though he may sometimes practice tadlis, that is, he does so rarely. The hadith has corroborating reports that undoubtedly make it hasan: Abd al-Razzaq related it with a sound chain from Qatada (5/389), as a mursal report, and that is a sufficient corroboration. It has another corroboration through al-Waqidi, with several chains from Ali, Aisha and Suraqa. Al-Waqidi is abandoned as a transmitter."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_saw2:p1",
@@ -1320,7 +1167,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "141",
-            "text": "[Assessment: a hasan hadith except for the mention of Iblis. Al-Tabari related it through Ibn Ishaq in the History (1–566). This chain: the hadith is hasan through its routes. Ibn Ishaq heard it from al-Kalbi from Abu Salih from Ibn Abbas, but this route is not one to welcome, because it contains al-Kalbi, who is severely discredited. The second route is al-Hasan ibn Umara from al-Hakam ibn Utayba from Miqsam from Ibn Abbas, and this al-Hasan is abandoned as a transmitter. As for the third, its men are trustworthy: “Abdullah ibn Abi Najih told me, from Mujahid ibn Jubayr, from Ibn Abbas.” Mujahid is a well-known trustworthy leading Successor and Abdullah ibn Abi Najih is trustworthy, although he may sometimes practice tadlis, that is, he does so rarely. The hadith has corroborations which undoubtedly strengthen it: Abd al-Razzaq related it with a sound chain from Mamar from Qatada (5–389) as a mursal report, a sufficient corroboration. It also has another corroboration through al-Waqidi, with several chains from Ali, Aisha and Suraqa. Al-Waqidi is abandoned as a transmitter. See also hadith no. (9).]"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_exit:p3",
@@ -1336,7 +1183,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "483",
-            "text": "Ibn Ishaq said: Yazid ibn Ziyad told me, from Muhammad ibn Kab al-Qurazi, who said:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_haztext:p3",
@@ -1352,7 +1199,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "518",
-            "text": "[(8)]. This is the preserved version, and Yunus [(9)] likewise related it from Uqayl from al-Zuhri."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_hazcrit:p1",
@@ -1368,7 +1215,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "518",
-            "text": "This is a mistake by Mamar [and God knows best] [(11)]. Some have also related it from Muhammad ibn Amr, from Abu Salama, from Abu Hurayra, and that too is a mistake. The correct version is the one related by the group [(12)]."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p1",
@@ -1384,7 +1231,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "[Assessment: its chain is strong. It was also related by Imam Ahmad ibn Hanbal (1–331):"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p2",
@@ -1400,7 +1247,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "Abu Malik Kathir ibn Yahya told us; he said: Abu Awana told us, from Abu Balj, from Amr ibn Maymun, from Ibn Abbas, something similar."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p3",
@@ -1416,7 +1263,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "And by al-Hakim (3–5) and al-Tabarani in al-Mujam al-Kabir (12–97), from Abu Awana. This chain: there is no problem with its chain as long as Abu Balj is not alone in transmitting a conflicting wording. I have examined his hadiths and found a Shiite coloring in them, and some contain objectionable wording. And ("
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p4",
@@ -1432,7 +1279,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "Ishaq ibn Mansur said that Yahya ibn Main called him trustworthy, as did Muhammad ibn Sad, al-Nasai, and al-Daraqutni."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p5",
@@ -1448,7 +1295,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "And Abu Hatim said:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p6",
@@ -1464,7 +1311,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "“Acceptable in hadith; there is no problem with him.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p7",
@@ -1480,7 +1327,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "And Muhammad ibn Sad said: Yazid ibn Harun said, “I saw Abu Balj. He was our neighbor and kept pigeons for companionship, and he remembered God often.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p8",
@@ -1496,7 +1343,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "But al-Bukhari said:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p9",
@@ -1512,7 +1359,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "“There is a problem with him,”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj1:p10",
@@ -1528,7 +1375,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "142",
-            "text": "and it is a"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_balj2:p1",
@@ -1544,7 +1391,7 @@
             "book_id": "123669",
             "volume": "1",
             "page": "143",
-            "text": "severe technical expression among al-Bukhari's terms. Tahdhib al-Kamal (33–162). Abu Awana's name is Waddah ibn Abdullah al-Yashkuri, and he is trustworthy and precise. Al-Taqrib (2–331). His teacher's name is Yahya ibn Sulaym and his hadith is hasan so long as it does not conflict with others. As for Amr ibn Maymun Abu Abdullah al-Awdi, he is a well-known mukhadram, a trustworthy and devout man. Al-Taqrib (2–80).]"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_wait:p1",
@@ -1560,7 +1407,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "The Messenger of God ﷺ remained in Mecca after his emigrant companions, waiting for permission to emigrate. No emigrant stayed behind with him in Mecca except those detained or subjected to persecution, apart from Ali ibn Abi Talib and Abu Bakr ibn Abi Quhafa al-Siddiq, may God be pleased with them both. Abu Bakr often sought the Messenger of God's ﷺ permission to emigrate."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_wait:p2",
@@ -1576,7 +1423,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "The Messenger of God ﷺ would say to him:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_wait:p3",
@@ -1592,7 +1439,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "“Do not hurry. Perhaps God will provide you with a companion.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_wait:p4",
@@ -1608,7 +1455,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "So Abu Bakr hoped that he would be that companion."
+            "text": null
         }
     ],
     "footnotes": [],
@@ -1621,20 +1468,20 @@
             "step_id": "hch_departure",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Why did the Prophet ﷺ remain in Mecca after his companions, according to Ibn Ishaq?",
+            "prompt": "لماذا بقي النبي ﷺ بمكة بعد أصحابه في رواية ابن إسحاق؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "To await permission to emigrate",
-                    "feedback": "Ibn Ishaq states that he remained in Mecca awaiting permission to emigrate."
+                    "text": "لانتظار الإذن بالهجرة",
+                    "feedback": "يقرر ابن إسحاق أنه أقام بمكة ينتظر الإذن بالهجرة."
                 },
                 {
                     "option_id": "b",
-                    "text": "Because he had already reached Quba",
-                    "feedback": "Quba appears in the later report of Ali joining him, not as a reason for the Prophet ﷺ to remain in Mecca."
+                    "text": "لأنه كان قد وصل قباء",
+                    "feedback": "قباء ترد في خبر لحاق علي لاحقًا، لا سببًا لبقاء النبي ﷺ بمكة."
                 }
             ],
-            "explanation": "Ibn Ishaq relates that he was waiting for permission, while Ali and Abu Bakr remained in Mecca after the other emigrants.",
+            "explanation": "ينقل ابن إسحاق انتظار الإذن، مع بقاء علي وأبي بكر بمكة بعد بقية المهاجرين.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_departure_chapter_wait:p1",
@@ -1649,20 +1496,20 @@
             "step_id": "hch_departure",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Which plan did the Quraysh council settle on in the account from Ibn Abbas?",
+            "prompt": "ما الفكرة التي انتهى إليها مجلس قريش في رواية ابن عباس؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "Postponing the matter until another season",
-                    "feedback": "The report does not mention postponement until a season; it ends with a plan to kill him involving the tribes."
+                    "text": "تأجيل الأمر إلى موسم آخر",
+                    "feedback": "لا يذكر الخبر تأجيلًا إلى موسم؛ بل ينتهي إلى تدبير قتله بمشاركة القبائل."
                 },
                 {
                     "option_id": "b",
-                    "text": "Young men from the tribes joining in the killing",
-                    "feedback": "After proposals to imprison and exile him, Abu Jahl proposes that young men from the tribes strike him together in a single blow."
+                    "text": "اشتراك فتيان من القبائل في القتل",
+                    "feedback": "بعد اقتراحَي الحبس والنفي، يعرض أبو جهل اشتراك فتيان من القبائل في ضربة واحدة."
                 }
             ],
-            "explanation": "Abu Jahl links the tribes' joint action to the dispersal of responsibility for bloodshed among them; the text reports the Najdi elder's approval and the men's parting in agreement on this plan.",
+            "explanation": "يربط أبو جهل اشتراك القبائل بتفرق الدم بينها؛ يورد النص موافقة الشيخ النجدي وانفضاض القوم على هذا الرأي.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_departure_chapter_council:p1",
@@ -1689,20 +1536,20 @@
             "step_id": "hch_departure",
             "difficulty": "beginner",
             "practice_scope": "source_study",
-            "prompt": "What exception does al-Suwayani mention in his assessment of the report about the Najdi shaykh?",
+            "prompt": "ما الاستثناء الذي يذكره الصوياني في تقويم خبر الشيخ النجدي؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "Mention al-Suwayani's exception to his assessment",
-                    "feedback": "Al-Suwayani explicitly excludes the mention of Iblis from his favorable assessment of the report."
+                    "text": "أذكر استثناء الصوياني له من حكمه",
+                    "feedback": "يستثني الصوياني ذكر إبليس صراحة من حكمه بتحسين الخبر."
                 },
                 {
                     "option_id": "b",
-                    "text": "Assert that all critics authenticated it",
-                    "feedback": "Al-Suwayani's exception for Iblis contradicts extending his authentication to every detail and every critic."
+                    "text": "أجزم أن كل النقاد صححوه",
+                    "feedback": "ذكر الصوياني لاستثناء إبليس يناقض تعميم تصحيحه على كل جزئية وكل ناقد."
                 }
             ],
-            "explanation": "Al-Suwayani's favorable assessment of the report through its routes is qualified by his exception of the mention of Iblis; he discusses some of its routes and corroborating reports in detail.",
+            "explanation": "تقويم الصوياني للخبر بطرقه مقيد باستثناء ذكر إبليس؛ وله كلام مفصل في بعض طرقه وشواهده.",
             "scope_note": "",
             "source_unit_ids": ["sp_departure_chapter_saw1:p1", "sp_departure_chapter_saw2:p1"],
             "correct_option_id": "a"
@@ -1712,20 +1559,20 @@
             "step_id": "hch_departure",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "Which chain does Ibn Ishaq explicitly give for the account of scattering dust?",
+            "prompt": "أي تسلسل إسناد يصرّح به ابن إسحاق في خبر نثر التراب؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "Ibn Ishaq ← Ibn Abbas ← Yazid ibn Ziyad",
-                    "feedback": "This choice conflates the two routes and attributes the account to Ibn Abbas; here Ibn Ishaq begins a different chain through Yazid ibn Ziyad from Muhammad ibn Kab."
+                    "text": "ابن إسحاق ← ابن عباس ← يزيد بن زياد",
+                    "feedback": "هذا الخيار يخلط بين الطريقين، فيسند الخبر إلى ابن عباس؛ لكن ابن إسحاق يبدأ هنا سلسلة أخرى عن يزيد بن زياد عن محمد بن كعب."
                 },
                 {
                     "option_id": "b",
-                    "text": "Ibn Ishaq ← Yazid ibn Ziyad ← Muhammad ibn Kab al-Qurazi",
-                    "feedback": "Ibn Ishaq's account states: “Yazid ibn Ziyad told me, from Muhammad ibn Kab al-Qurazi, who said:”."
+                    "text": "ابن إسحاق ← يزيد بن زياد ← محمد بن كعب القرظي",
+                    "feedback": "ينص خبر ابن إسحاق: «فَحَدَّثَنِي يَزِيدُ بْنُ زِيَادٍ، عَنْ مُحَمَّدِ بْنِ كَعْبٍ الْقُرَظِيِّ قَالَ:»."
                 }
             ],
-            "explanation": "The chain for the dust account begins with Ibn Ishaq saying that Yazid ibn Ziyad told him on the authority of Muhammad ibn Kab al-Qurazi; it is not a continuation of the route from Ibn Abbas.",
+            "explanation": "تبدأ سلسلة خبر التراب بقول ابن إسحاق إنه حدثه يزيد بن زياد عن محمد بن كعب القرظي، لا باستمرار طريق ابن عباس.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_departure_chapter_exit:p3",
@@ -1746,20 +1593,20 @@
             "step_id": "hch_departure",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "What does Urwa's brief account say about Ali?",
+            "prompt": "ماذا يرد بشأن علي في خبر عروة المختصر؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "He lay on the Prophet's ﷺ bed",
-                    "feedback": "Urwa mentions Ali's lying on the Prophet's ﷺ bed at the end of his brief account."
+                    "text": "رقاده على فراش النبي ﷺ",
+                    "feedback": "يذكر عروة رقود علي على فراش النبي ﷺ في ختام خبره الموجز."
                 },
                 {
                     "option_id": "b",
-                    "text": "Abu Jahl's dialogue with everyone present at the council",
-                    "feedback": "The detail of Abu Jahl's words at the door belongs to the report from Muhammad ibn Kab, not Urwa's shorter selection."
+                    "text": "حوار أبي جهل مع كل حاضر في المجلس",
+                    "feedback": "تفصيل كلام أبي جهل عند الباب في خبر محمد بن كعب، وليس في انتقاء عروة المختصر."
                 }
             ],
-            "explanation": "Urwa's account brings together the forms of the plot, departure toward the cave, and Ali's lying on the bed, without Abu Jahl's detailed dialogue.",
+            "explanation": "خبر عروة يجمع وجوه المكر والخروج قِبَل الغار ثم رقود علي على الفراش، دون حوار أبي جهل المفصل.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_departure_chapter_urwa:p1",
@@ -1774,20 +1621,20 @@
             "step_id": "hch_departure",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "What qualification did Ibn Ishaq explicitly give in the report about the entrusted property?",
+            "prompt": "ما القيد الذي صرح به ابن إسحاق في خبر الودائع؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "A named chain of direct hearing in the same passage",
-                    "feedback": "Had Ibn Ishaq named a transmitter for the entrusted property here, he would not have said that the report reached him in this form."
+                    "text": "إسناد سماع مسمى في نفس العبارة",
+                    "feedback": "لو سمّى ابن إسحاق راوياً للودائع هنا لما قال إنه بلغه الخبر بهذه الصيغة."
                 },
                 {
                     "option_id": "b",
-                    "text": "“As it reached me” (fima balaghani)",
-                    "feedback": "The text repeats “as it reached me” (fima balaghani) when mentioning that Ali was told of the departure and instructed to return the entrusted property."
+                    "text": "فِيمَا بَلَغَنِي",
+                    "feedback": "يتكرر في النص فِيمَا بَلَغَنِي عند ذكر إخبار علي بالخروج وأمره بأداء الودائع."
                 }
             ],
-            "explanation": "The preserved formula “as it reached me” (fima balaghani) is an unsourced report from Ibn Ishaq; it must not be converted into the name of an omitted transmitter.",
+            "explanation": "الصيغة المحفوظة فِيمَا بَلَغَنِي بلاغ من ابن إسحاق؛ لا تُحوَّل إلى اسم ناقل محذوف.",
             "scope_note": "",
             "source_unit_ids": ["sp_departure_chapter_trust:p1", "sp_departure_chapter_arrival:p1"],
             "correct_option_id": "b"
@@ -1797,20 +1644,20 @@
             "step_id": "hch_departure",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "When does the account of the entrusted property say that Ali joined him?",
+            "prompt": "متى يذكر لحاق علي في نص الودائع؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "After returning the entrusted property",
-                    "feedback": "The text links Ali's joining him to his completion of the task of returning the property for which he had stayed behind."
+                    "text": "بعد أداء الودائع",
+                    "feedback": "يربط النص لحاق علي بإتمام أداء الودائع التي بقي من أجلها."
                 },
                 {
                     "option_id": "b",
-                    "text": "Before sleeping on the bed",
-                    "feedback": "This text does not place Ali's joining him before the night of the bed; rather, it mentions his remaining in Mecca for three nights and their days."
+                    "text": "قبل المبيت في الفراش",
+                    "feedback": "لم يضع هذا النص لحاق علي قبل ليلة الفراش، بل ذكر بقاءه ثلاث ليال وأيامها بمكة."
                 }
             ],
-            "explanation": "The report says Ali finished returning the entrusted property and then joined the Prophet ﷺ and lodged with him at the home of Kulthum ibn Hidm.",
+            "explanation": "يقول الخبر إن عليًا فرغ من أداء الودائع ثم لحق بالنبي ﷺ ونزل معه على كلثوم بن هدم.",
             "scope_note": "",
             "source_unit_ids": ["sp_departure_chapter_trust:p1", "sp_departure_chapter_arrival:p1"],
             "correct_option_id": "a"
@@ -1820,20 +1667,20 @@
             "step_id": "hch_departure",
             "difficulty": "expert",
             "practice_scope": "source_study",
-            "prompt": "What condition did al-Suwayani place on his assessment of the route through Abu Balj?",
+            "prompt": "بم قيد الصوياني نظره في طريق أبي بلج؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "Rejecting all reports about Ali without exception",
-                    "feedback": "The discussion of the route through Abu Balj does not invalidate every report about Ali or all their wordings."
+                    "text": "رفض جميع أخبار علي بلا استثناء",
+                    "feedback": "مناقشة طريق أبي بلج لا تُسقط كل الأخبار عن علي أو كل ألفاظها."
                 },
                 {
                     "option_id": "b",
-                    "text": "That he not be alone in transmitting contradictory wording",
-                    "feedback": "Al-Suwayani's phrase “there is no problem with it” is qualified by the condition that Abu Balj not be alone in transmitting contradictory wording."
+                    "text": "عدم انفراده بلفظ مخالف",
+                    "feedback": "عبارة الصوياني لا بأس به مقيدة بما لم ينفرد فيه أبو بلج بلفظ مخالف."
                 }
             ],
-            "explanation": "Al-Suwayani cites both endorsements and criticism of Abu Balj, then qualifies his assessment of the chain by the absence of a wording that Abu Balj transmits alone in contradiction to others.",
+            "explanation": "يجمع الصوياني توثيقًا وجرحًا لأبي بلج ثم يقيد نظره في الإسناد بانتفاء الانفراد بلفظ مخالف.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_departure_chapter_balj1:p1",
@@ -1855,20 +1702,20 @@
             "step_id": "hch_departure",
             "difficulty": "expert",
             "practice_scope": "lesson",
-            "prompt": "Where does the address expressing love for Mecca appear in this chapter?",
+            "prompt": "أين ورد خطاب حب مكة في هذا الفصل؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "In the al-Hazwara report from Ibn Adi ibn al-Hamra",
-                    "feedback": "Abdullah ibn Adi ibn al-Hamra relates the Prophet's ﷺ words addressed to Mecca at al-Hazwara."
+                    "text": "في رواية الحزورة عن ابن عدي بن الحمراء",
+                    "feedback": "يروي عبد الله بن عدي بن الحمراء قول النبي ﷺ لمكة عند الحزورة."
                 },
                 {
                     "option_id": "b",
-                    "text": "In Abu Jahl's proposal at the council",
-                    "feedback": "Abu Jahl's proposal concerns a plan to kill him, not the Prophet's ﷺ words about his love for Mecca."
+                    "text": "في مقترح أبي جهل داخل المجلس",
+                    "feedback": "اقتراح أبي جهل يتناول تدبير القتل، لا كلام النبي ﷺ عن حب مكة."
                 }
             ],
-            "explanation": "The al-Hazwara report relates the Prophet's ﷺ standing in the Meccan market and addressing Mecca, followed by al-Bayhaqi's comment on the preserved version.",
+            "explanation": "خبر الحزورة يروي وقوف النبي ﷺ في سوق مكة وخطابه لها، مع تعقيب البيهقي على المحفوظ.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_departure_chapter_hazchain:p1",
@@ -1884,20 +1731,20 @@
             "step_id": "hch_departure",
             "difficulty": "expert",
             "practice_scope": "source_study",
-            "prompt": "How did al-Bayhaqi describe certain other narrations in the context of al-Hazwara?",
+            "prompt": "كيف وصف البيهقي بعض الروايات الأخرى في سياق الحزورة؟",
             "options": [
                 {
                     "option_id": "a",
-                    "text": "As specifying the hour of an encounter at the bed",
-                    "feedback": "Al-Bayhaqi identifies errors in the mentioned routes, not the hour of an encounter at the bed."
+                    "text": "بأنها تحدد ساعة اللقاء عند الفراش",
+                    "feedback": "قول البيهقي يصف وهمًا في الطرق المذكورة، ولا يعين ساعة لقاء عند الفراش."
                 },
                 {
                     "option_id": "b",
-                    "text": "As mistaken, while preferring the group's version",
-                    "feedback": "Al-Bayhaqi mentions an error by Mamar and the route through Muhammad ibn Amr, then prefers the group's version."
+                    "text": "بالوهم مع تقديم رواية الجماعة",
+                    "feedback": "يذكر البيهقي وهم معمر وطريق محمد بن عمرو، ثم يقدم رواية الجماعة."
                 }
             ],
-            "explanation": "Al-Bayhaqi calls the two routes he names mistaken and prefers the group's version; he does not apply this judgment to every departure account.",
+            "explanation": "البيهقي يصف الطريقين اللذين سماهما بالوهم، ويرجح رواية الجماعة؛ لا يحكم بهذا على كل أخبار الخروج.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_departure_chapter_hazchain:p1",

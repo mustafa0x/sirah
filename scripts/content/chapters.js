@@ -21,8 +21,15 @@ const output_dir = path.join(root, 'src/content/chapters')
 
 add_journey_passages(journey.sources)
 
-// English translations of passages already made for the earlier chapter editions, by passage.
+// English translations of passages: those made for the earlier chapter editions, then those in
+// content/passage-translations.en.json (scripts/translate-passages.js), by passage.
 const translations = new Map()
+try {
+    for (const [id, text] of Object.entries(
+        JSON.parse(readFileSync(path.join(root, 'content/passage-translations.en.json'), 'utf8')),
+    ))
+        translations.set(id, text)
+} catch {}
 {
     const editions = path.join(root, 'src/content/hijrah-chapters')
     for (const dir of readdirSync(editions, { withFileTypes: true })) {
@@ -101,7 +108,9 @@ function sections(file) {
     }
     return out
 }
-const books = new Map([...sections('content/books.md')].map(([id, entry]) => [id, entry.text]))
+export const books = new Map(
+    [...sections('content/books.md')].map(([id, entry]) => [id, entry.text]),
+)
 const weak = new Set()
 for (const [id, entry] of sections('content/strength.md')) {
     if (entry.fields.strength !== 'weak') continue
@@ -358,22 +367,48 @@ export function compile_chapter(file) {
     }))
 
     // Outline points link to the account section they share the most words with.
-    const words = (text) => new Set(text.toLowerCase().match(/[a-z‘’']{4,}/g) ?? [])
-    const outline = doc.outline.map((text, i) => {
-        const point = words(text)
-        let best = account[0]
-        let score = -1
-        for (const s of account) {
-            const pool = words(`${s.title} ${s.paragraphs.map((p) => p.text).join(' ')}`)
-            const hits = [...point].filter((w) => pool.has(w)).length
-            if (hits > score) [best, score] = [s, hits]
-        }
-        return {
-            point_id: `${chapter_id}_pt${i + 1}`,
-            text: plain(text),
-            section_id: best?.section_id,
-        }
+    const words = (text) =>
+        new Set(
+            text
+                .toLowerCase()
+                .normalize('NFKD')
+                .replace(/[\u064B-\u0652\u0670]/g, '')
+                .match(/[\p{L}‘’']{4,}/gu) ?? [],
+        )
+    // Outline points follow the story: each links to an account section, in order (never
+    // going back), choosing the order that shares the most words between points and sections.
+    const pools = account.map((s) =>
+        words(`${s.title} ${s.paragraphs.map((p) => p.text).join(' ')}`),
+    )
+    const overlap = doc.outline.map((text) => {
+        const point = [...words(text)]
+        return pools.map((pool) => point.filter((w) => pool.has(w)).length)
     })
+    const best = doc.outline.map(() => account.map(() => -Infinity))
+    const back = doc.outline.map(() => account.map(() => 0))
+    overlap.forEach((row, i) =>
+        row.forEach((score, j) => {
+            if (i === 0) return (best[0][j] = score)
+            for (let k = 0; k <= j; k++)
+                if (best[i - 1][k] + score > best[i][j]) {
+                    best[i][j] = best[i - 1][k] + score
+                    back[i][j] = k
+                }
+        }),
+    )
+    const chosen = []
+    if (doc.outline.length && account.length) {
+        let j = best.at(-1).indexOf(Math.max(...best.at(-1)))
+        for (let i = doc.outline.length - 1; i >= 0; i--) {
+            chosen[i] = j
+            j = back[i][j]
+        }
+    }
+    const outline = doc.outline.map((text, i) => ({
+        point_id: `${chapter_id}_pt${i + 1}`,
+        text: plain(text),
+        section_id: account[chosen[i] ?? 0]?.section_id,
+    }))
 
     // One source entry per citation, in reading order.
     const prefix = doc.fields.prefix ?? ''

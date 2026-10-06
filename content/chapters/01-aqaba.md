@@ -26,7 +26,7 @@ When they went home, the Prophet ﷺ sent Mus‘ab ibn ‘Umayr with them to tea
 
 ## A spear planted in the ground
 
-One day As‘ad brought Mus‘ab to an orchard among Banu ‘Abd al-Ashhal. The clan's two chiefs, Sa‘d ibn Mu‘adh and Usayd ibn Hudayr, still followed their people's religion, and Sa‘d sent Usayd to drive the visitors away.[[10:p1–p2, 11:p2 | ‘Ubayd Allah ibn al-Mughirah and ‘Abdullah ibn Abi Bakr]]
+One day As‘ad brought Mus‘ab towards the quarter of Banu ‘Abd al-Ashhal, into an orchard of Banu Zafar. The clan's two chiefs, Sa‘d ibn Mu‘adh and Usayd ibn Hudayr, still followed their people's religion, and Sa‘d sent Usayd to drive the visitors away.[[10:p1–p2, 11:p2 | ‘Ubayd Allah ibn al-Mughirah and ‘Abdullah ibn Abi Bakr]]
 
 Usayd stood over them with his spear, cursing. "Will you not sit and listen?" Mus‘ab asked. "If you like it, accept it. If you dislike it, we will keep it away from you." "That is fair," said Usayd. He planted his spear in the ground and sat. As Mus‘ab recited the Quran, Islam showed in Usayd's face before he said a word. "How beautiful these words are!" He washed, bore witness to the truth and prayed. When Sa‘d saw him walking back, he said: "By Allah, Usayd has come back to you with a different face from the one he left with." Usayd sent Sa‘d to them with a story that his cousin As‘ad was in danger.[[10:p1–p2, 11:p2 | ‘Ubayd Allah ibn al-Mughirah and ‘Abdullah ibn Abi Bakr]]
 

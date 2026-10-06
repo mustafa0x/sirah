@@ -1,33 +1,25 @@
 {
     "chapter_id": "hch_settlement",
-    "locale": "en",
+    "locale": "ar",
     "status": "story",
-    "packet_id": "hch_settlement:en:story",
+    "packet_id": "hch_settlement:ar:story",
     "stage": "arrival",
-    "title": "A New Home in Madinah",
-    "reader_question": "How did Madinah become home for the Prophet ﷺ, his family and the emigrants from Makkah?",
+    "title": "موطنٌ جديد في المدينة",
+    "reader_question": "كيف صارت المدينة دارًا للنبي ﷺ وأهله وللمهاجرين من مكة؟",
     "overview": [
         {
             "paragraph_id": "hch_settlement_o1",
-            "text": "The Prophet ﷺ had found a place in Madinah, and his mosque was going up. Yet his wife and daughters were still in Makkah, and so was Abu Bakr's family. One by one, the last of the emigrants were making their way to join him. Madinah had welcomed them; making it home would be harder. The town was known for its fever, and it soon laid the newcomers low, leaving them longing for the valleys and springs of Makkah.",
+            "text": "كان النبي ﷺ قد استقرّ في المدينة، وأخذ مسجده يرتفع. غير أن زوجه وبناته كنّ لا يزلن بمكة، ومعهنّ أهل أبي بكر. وكان آخر المهاجرين يلحقون به واحدًا بعد واحد. لقد استقبلتهم المدينة، أما أن تصير لهم وطنًا فأمرٌ أشقّ. فقد كانت بلدًا معروفًا بالحمّى، وما لبثت أن صرعت القادمين الجدد، وتركتهم يحنّون إلى أودية مكة ومياهها.",
             "parts": [
-                { "text": "The Prophet ﷺ had found a place in " },
-                { "text": "Madinah", "term": "madinah" },
-                { "text": ", and his mosque was going up." },
+                { "text": "كان النبي ﷺ قد استقرّ في المدينة، وأخذ مسجده يرتفع." },
                 { "note": 1 },
-                { "text": " Yet his wife and daughters were still in " },
-                { "text": "Makkah", "term": "makkah" },
-                { "text": ", and so was " },
-                { "text": "Abu Bakr", "term": "abubakr" },
-                { "text": "'s family." },
+                { "text": " غير أن زوجه وبناته كنّ لا يزلن بمكة، ومعهنّ أهل أبي بكر." },
                 { "note": 2 },
                 { "note": 3 },
-                {
-                    "text": " One by one, the last of the emigrants were making their way to join him."
-                },
+                { "text": " وكان آخر المهاجرين يلحقون به واحدًا بعد واحد." },
                 { "note": 4 },
                 {
-                    "text": " Madinah had welcomed them; making it home would be harder. The town was known for its fever, and it soon laid the newcomers low, leaving them longing for the valleys and springs of Makkah."
+                    "text": " لقد استقبلتهم المدينة، أما أن تصير لهم وطنًا فأمرٌ أشقّ. فقد كانت بلدًا معروفًا بالحمّى، وما لبثت أن صرعت القادمين الجدد، وتركتهم يحنّون إلى أودية مكة ومياهها."
                 },
                 { "note": 5 },
                 { "note": 6 },
@@ -38,36 +30,36 @@
     "account": [
         {
             "section_id": "hch_settlement_s1",
-            "title": "Families on the road",
+            "title": "أهلٌ على الطريق",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_s1_1",
-                    "text": "From Abu Ayyub's house, the Prophet ﷺ sent Zayd ibn Harithah and Abu Rafi‘ to Makkah with two camels and five hundred dirhams, to bring his family. ‘Abdullah ibn Urayqit was returning to Makkah, and Abu Bakr sent him to his son ‘Abdullah, telling him to come with the household. Talhah ibn ‘Ubaydullah travelled with them.",
+                    "text": "من دار أبي أيوب بعث النبي ﷺ زيد بن حارثة وأبا رافع إلى مكة، وأعطاهما بعيرين وخمسمائة درهم، ليأتيا بأهله. وكان عبد الله بن أريقط راجعًا إلى مكة، فبعثه أبو بكر إلى ابنه عبد الله يأمره أن يقدم بأهله. وصحبهم طلحة بن عبيد الله.",
                     "parts": [
                         {
-                            "text": "From Abu Ayyub's house, the Prophet ﷺ sent Zayd ibn Harithah and Abu Rafi‘ to Makkah with two camels and five hundred dirhams, to bring his family."
+                            "text": "من دار أبي أيوب بعث النبي ﷺ زيد بن حارثة وأبا رافع إلى مكة، وأعطاهما بعيرين وخمسمائة درهم، ليأتيا بأهله."
                         },
                         { "note": 2 },
                         {
-                            "text": " ‘Abdullah ibn Urayqit was returning to Makkah, and Abu Bakr sent him to his son ‘Abdullah, telling him to come with the household."
+                            "text": " وكان عبد الله بن أريقط راجعًا إلى مكة، فبعثه أبو بكر إلى ابنه عبد الله يأمره أن يقدم بأهله."
                         },
                         { "note": 3 },
                         { "note": 8 },
-                        { "text": " Talhah ibn ‘Ubaydullah travelled with them." },
+                        { "text": " وصحبهم طلحة بن عبيد الله." },
                         { "note": 8 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s1_2",
-                    "text": "They came together: Sawdah bint Zam‘ah, the Prophet's ﷺ wife; his daughters Fatimah and Umm Kulthum; Umm Ayman, Zayd's wife, with her son Usamah; and ‘Abdullah ibn Abi Bakr with his mother Umm Ruman and his sisters ‘Aishah and Asma. Two daughters were not among them. Ruqayyah had gone before with her husband, ‘Uthman ibn ‘Affan, and Zaynab, the eldest, stayed behind in Makkah, held back by her husband, Abu al-‘As ibn al-Rabi‘.",
+                    "text": "فقدموا جميعًا: سودة بنت زمعة زوج النبي ﷺ، وابنتاه فاطمة وأم كلثوم، وأم أيمن زوج زيد ومعها ابنها أسامة، وعبد الله بن أبي بكر ومعه أمه أم رومان وأختاه عائشة وأسماء. ولم تكن معهم ابنتان: رقية، وقد سبقت مع زوجها عثمان بن عفان، وزينب، وهي الكبرى، بقيت بمكة، حبسها زوجها أبو العاص بن الربيع.",
                     "parts": [
                         {
-                            "text": "They came together: Sawdah bint Zam‘ah, the Prophet's ﷺ wife; his daughters Fatimah and Umm Kulthum; Umm Ayman, Zayd's wife, with her son Usamah; and ‘Abdullah ibn Abi Bakr with his mother Umm Ruman and his sisters ‘Aishah and Asma."
+                            "text": "فقدموا جميعًا: سودة بنت زمعة زوج النبي ﷺ، وابنتاه فاطمة وأم كلثوم، وأم أيمن زوج زيد ومعها ابنها أسامة، وعبد الله بن أبي بكر ومعه أمه أم رومان وأختاه عائشة وأسماء."
                         },
                         { "note": 1 },
                         { "note": 2 },
                         {
-                            "text": " Two daughters were not among them. Ruqayyah had gone before with her husband, ‘Uthman ibn ‘Affan, and Zaynab, the eldest, stayed behind in Makkah, held back by her husband, Abu al-‘As ibn al-Rabi‘."
+                            "text": " ولم تكن معهم ابنتان: رقية، وقد سبقت مع زوجها عثمان بن عفان، وزينب، وهي الكبرى، بقيت بمكة، حبسها زوجها أبو العاص بن الربيع."
                         },
                         { "note": 9 },
                         { "note": 2 }
@@ -75,13 +67,11 @@
                 },
                 {
                     "paragraph_id": "hch_settlement_s1_3",
-                    "text": "They arrived while the Prophet ﷺ was still building his mosque, and he lodged them in the house of Harithah ibn al-Nu‘man.",
+                    "text": "وصلوا والنبي ﷺ ما يزال يبني مسجده، فأنزلهم في بيت حارثة بن النعمان.",
                     "parts": [
-                        {
-                            "text": "They arrived while the Prophet ﷺ was still building his mosque,"
-                        },
+                        { "text": "وصلوا والنبي ﷺ ما يزال يبني مسجده،" },
                         { "note": 1 },
-                        { "text": " and he lodged them in the house of Harithah ibn al-Nu‘man." },
+                        { "text": " فأنزلهم في بيت حارثة بن النعمان." },
                         { "note": 2 }
                     ]
                 }
@@ -89,44 +79,38 @@
         },
         {
             "section_id": "hch_settlement_s2",
-            "title": "A child born at Quba",
+            "title": "مولودٌ بقباء",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_s2_1",
-                    "text": "Asma was expecting a child. \"I set out when my pregnancy was at full term,\" she said. \"I came to Madinah, stopped at Quba, and gave birth to him at Quba.\"",
+                    "text": "وكانت أسماء حاملًا، قالت: «فَخَرَجْتُ وَأَنَا مُتِمٌّ، فَأَتَيْتُ الْمَدِينَةَ فَنَزَلْتُ بِقُبَاءٍ، فَوَلَدْتُهُ بِقُبَاءٍ».",
                     "parts": [
                         {
-                            "text": "Asma was expecting a child. \"I set out when my pregnancy was at full term,\" she said. \"I came to Madinah, stopped at "
+                            "text": "وكانت أسماء حاملًا، قالت: «فَخَرَجْتُ وَأَنَا مُتِمٌّ، فَأَتَيْتُ الْمَدِينَةَ فَنَزَلْتُ بِقُبَاءٍ، فَوَلَدْتُهُ بِقُبَاءٍ»."
                         },
-                        { "text": "Quba", "term": "quba" },
-                        { "text": ", and gave birth to him at Quba.\"" },
                         { "note": 10 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s2_2",
-                    "text": "Then she brought the baby, ‘Abdullah ibn al-Zubayr, to the Prophet ﷺ and laid him in his lap. He called for a date, chewed it and put it into the baby's mouth, so that the first thing to enter the child's stomach was the Prophet's ﷺ own saliva. He rubbed the date on the baby's palate, prayed for him and asked Allah to bless him. It was the first year after the Hijrah.",
+                    "text": "ثم أتت بالمولود، عبد الله بن الزبير، إلى النبي ﷺ فوضعته في حجره. فدعا بتمرة فمضغها، ثم تفل في فيه، فكان أول شيء دخل جوفه ريقُ رسول الله ﷺ. ثم حنّكه بالتمرة، ودعا له وبرّك عليه. وكان ذلك في السنة الأولى من الهجرة.",
                     "parts": [
                         {
-                            "text": "Then she brought the baby, ‘Abdullah ibn al-Zubayr, to the Prophet ﷺ and laid him in his lap. He called for a date, chewed it and put it into the baby's mouth, so that the first thing to enter the child's stomach was the Prophet's ﷺ own saliva. He rubbed the date on the baby's palate, prayed for him and asked "
+                            "text": "ثم أتت بالمولود، عبد الله بن الزبير، إلى النبي ﷺ فوضعته في حجره. فدعا بتمرة فمضغها، ثم تفل في فيه، فكان أول شيء دخل جوفه ريقُ رسول الله ﷺ. ثم حنّكه بالتمرة، ودعا له وبرّك عليه."
                         },
-                        { "text": "Allah", "term": "allah" },
-                        { "text": " to bless him." },
                         { "note": 10 },
                         { "note": 11 },
-                        { "text": " It was the first year after the " },
-                        { "text": "Hijrah", "term": "hijrah" },
-                        { "text": "." },
+                        { "text": " وكان ذلك في السنة الأولى من الهجرة." },
                         { "note": 12 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s2_3",
-                    "text": "\"He was the first child born in Islam,\" Asma said, meaning the first born to the emigrants in Madinah.",
+                    "text": "قالت أسماء: «وَكَانَ أَوَّلَ مَوْلُودٍ وُلِدَ فِي الْإِسْلَامِ»، تعني أول مولود للمهاجرين بالمدينة.",
                     "parts": [
-                        { "text": "\"He was the first child born in Islam,\" Asma said," },
+                        { "text": "قالت أسماء: «وَكَانَ أَوَّلَ مَوْلُودٍ وُلِدَ فِي الْإِسْلَامِ»،" },
                         { "note": 10 },
-                        { "text": " meaning the first born to the emigrants in Madinah." },
+                        { "text": " تعني أول مولود للمهاجرين بالمدينة." },
                         { "note": 13 }
                     ]
                 }
@@ -134,54 +118,38 @@
         },
         {
             "section_id": "hch_settlement_s3",
-            "title": "Brothers, and the first graves",
+            "title": "إخوةٌ، وأول القبور",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_s3_1",
-                    "text": "The Prophet ﷺ made the emigrants brothers to one another, and brothers to the Ansar, the Muslims of Madinah who had taken them in. Each pair was bound to stand by the other in what was right and to share what they had, and at first such brothers even inherited from one another, ahead of their own kin. That lasted until after Badr, when the verse \"And blood relatives are nearer to one another in the Book of Allah\" was revealed, and each man's heirs were once again his own family. Ibn Sa‘d puts them at ninety men, forty-five from each side; others said a hundred. It was done, Anas ibn Malik said, in his house.",
+                    "text": "وآخى النبي ﷺ بين المهاجرين بعضهم وبعض، وآخى بينهم وبين الأنصار، وهم مسلمو المدينة الذين آووهم. آخى بينهم على الحق والمؤاساة، وكان الأخوان في أول الأمر يتوارثان بعد الموت دون ذوي الأرحام. ودام ذلك حتى كانت وقعة بدر، ونزل قوله تعالى: ﴿وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَى بِبَعْضٍ فِي كِتَابِ اللَّهِ﴾، فرجع كل امرئ إلى نسبه، وورثه ذوو رحمه. وجعلهم ابن سعد تسعين رجلًا، خمسة وأربعين من كل فريق، وقيل: كانوا مائة. وكان ذلك، كما قال أنس بن مالك، في داره.",
                     "parts": [
                         {
-                            "text": "The Prophet ﷺ made the emigrants brothers to one another, and brothers to the "
-                        },
-                        { "text": "Ansar", "term": "ansar" },
-                        {
-                            "text": ", the Muslims of Madinah who had taken them in. Each pair was bound to stand by the other in what was right and to share what they had, and at first such brothers even inherited from one another, ahead of their own kin. That lasted until after "
-                        },
-                        { "text": "Badr", "term": "badr" },
-                        {
-                            "text": ", when the verse \"And blood relatives are nearer to one another in the Book of Allah\" was revealed, and each man's heirs were once again his own family."
+                            "text": "وآخى النبي ﷺ بين المهاجرين بعضهم وبعض، وآخى بينهم وبين الأنصار، وهم مسلمو المدينة الذين آووهم. آخى بينهم على الحق والمؤاساة، وكان الأخوان في أول الأمر يتوارثان بعد الموت دون ذوي الأرحام. ودام ذلك حتى كانت وقعة بدر، ونزل قوله تعالى: ﴿وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَى بِبَعْضٍ فِي كِتَابِ اللَّهِ﴾، فرجع كل امرئ إلى نسبه، وورثه ذوو رحمه."
                         },
                         { "note": 14 },
                         {
-                            "text": " Ibn Sa‘d puts them at ninety men, forty-five from each side; others said a hundred."
+                            "text": " وجعلهم ابن سعد تسعين رجلًا، خمسة وأربعين من كل فريق، وقيل: كانوا مائة."
                         },
                         { "note": 14 },
-                        { "text": " It was done, Anas ibn Malik said, in his house." },
+                        { "text": " وكان ذلك، كما قال أنس بن مالك، في داره." },
                         { "note": 15 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s3_2",
-                    "text": "Those months also brought loss. Al-Bara ibn Ma‘rur had died in Safar, a month before the Prophet ﷺ came, asking to be laid in his grave facing the Ka‘bah. When the Prophet ﷺ arrived in Madinah, he prayed at his grave. His host Kulthum ibn al-Hidm lived only a short while after his coming. Then As‘ad ibn Zurarah died while the mosque was still being built, taken by a sickness of the throat. He was the first Muslim to be buried in al-Baqi‘, the burial ground of Madinah.",
+                    "text": "وحملت تلك الشهور فقدًا أيضًا. فقد مات البراء بن معرور في صفر، قبل قدوم النبي ﷺ بشهر، وأوصى أن يُوجَّه في قبره إلى الكعبة. فلما قدم رسول الله ﷺ المدينة صلّى على قبره. ولم يلبث كلثوم بن الهدم، صاحب منزله، بعد مقدمه إلا يسيرًا حتى مات. ثم مات أسعد بن زرارة والمسجد يُبنى، أخذته الذبحة والشهقة، فكان أول من دُفن بالبقيع، مقبرة المدينة، من المسلمين.",
                     "parts": [
                         {
-                            "text": "Those months also brought loss. Al-Bara ibn Ma‘rur had died in "
-                        },
-                        { "text": "Safar", "term": "safar" },
-                        {
-                            "text": ", a month before the Prophet ﷺ came, asking to be laid in his grave facing the "
-                        },
-                        { "text": "Ka‘bah", "term": "kabah" },
-                        {
-                            "text": ". When the Prophet ﷺ arrived in Madinah, he prayed at his grave."
+                            "text": "وحملت تلك الشهور فقدًا أيضًا. فقد مات البراء بن معرور في صفر، قبل قدوم النبي ﷺ بشهر، وأوصى أن يُوجَّه في قبره إلى الكعبة. فلما قدم رسول الله ﷺ المدينة صلّى على قبره."
                         },
                         { "note": 16 },
                         {
-                            "text": " His host Kulthum ibn al-Hidm lived only a short while after his coming."
+                            "text": " ولم يلبث كلثوم بن الهدم، صاحب منزله، بعد مقدمه إلا يسيرًا حتى مات."
                         },
                         { "note": 17 },
                         {
-                            "text": " Then As‘ad ibn Zurarah died while the mosque was still being built, taken by a sickness of the throat. He was the first Muslim to be buried in al-Baqi‘, the burial ground of Madinah."
+                            "text": " ثم مات أسعد بن زرارة والمسجد يُبنى، أخذته الذبحة والشهقة، فكان أول من دُفن بالبقيع، مقبرة المدينة، من المسلمين."
                         },
                         { "note": 18 },
                         { "note": 17 }
@@ -189,10 +157,10 @@
                 },
                 {
                     "paragraph_id": "hch_settlement_s3_3",
-                    "text": "When the mosque was finished, the Prophet ﷺ left Abu Ayyub's house and moved into the dwelling built for him there.",
+                    "text": "فلما فرغ من المسجد، تحوّل النبي ﷺ من دار أبي أيوب إلى المسكن الذي بُني له فيه.",
                     "parts": [
                         {
-                            "text": "When the mosque was finished, the Prophet ﷺ left Abu Ayyub's house and moved into the dwelling built for him there."
+                            "text": "فلما فرغ من المسجد، تحوّل النبي ﷺ من دار أبي أيوب إلى المسكن الذي بُني له فيه."
                         },
                         { "note": 18 }
                     ]
@@ -201,89 +169,77 @@
         },
         {
             "section_id": "hch_settlement_s4",
-            "title": "The fever of Madinah",
+            "title": "حمّى المدينة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_s4_1",
-                    "text": "\"We came to Madinah when it was a land of plague,\" ‘Aishah said; in another telling, \"the most plague-ridden land of Allah.\" Its fever had been known before Islam. A newcomer who hoped to escape it, Hisham ibn ‘Urwah said, was told to bray like a donkey. Abu Bakr fell ill, and so did Bilal. ‘Aishah went in to see them. \"Father, how do you feel? Bilal, how do you feel?\" Whenever the fever took hold of Abu Bakr, he would say:",
+                    "text": "قالت عائشة: «قَدِمْنَا الْمَدِينَةَ وَهِيَ وَبِيئَةٌ»، وفي رواية أخرى: «وَهِيَ أَوْبَأُ أَرْضِ اللَّهِ». وكان وباؤها معروفًا في الجاهلية؛ قال هشام بن عروة: كان الإنسان إذا دخلها وأراد أن يسلم من وبائها قيل له: انهَقْ، فينهق كما ينهق الحمار. ووُعك أبو بكر، ووُعك بلال، فدخلت عليهما عائشة فقالت: «يَا أَبَتِ كَيْفَ تَجِدُكَ، وَيَا بِلَالُ كَيْفَ تَجِدُكَ». وكان أبو بكر إذا أخذته الحمّى يقول:",
                     "parts": [
-                        {
-                            "text": "\"We came to Madinah when it was a land of plague,\" ‘Aishah said;"
-                        },
+                        { "text": "قالت عائشة: «قَدِمْنَا الْمَدِينَةَ وَهِيَ وَبِيئَةٌ»،" },
                         { "note": 19 },
-                        {
-                            "text": " in another telling, \"the most plague-ridden land of Allah.\""
-                        },
+                        { "text": " وفي رواية أخرى: «وَهِيَ أَوْبَأُ أَرْضِ اللَّهِ»." },
                         { "note": 20 },
                         {
-                            "text": " Its fever had been known before Islam. A newcomer who hoped to escape it, Hisham ibn ‘Urwah said, was told to bray like a donkey."
+                            "text": " وكان وباؤها معروفًا في الجاهلية؛ قال هشام بن عروة: كان الإنسان إذا دخلها وأراد أن يسلم من وبائها قيل له: انهَقْ، فينهق كما ينهق الحمار."
                         },
                         { "note": 5 },
                         {
-                            "text": " Abu Bakr fell ill, and so did Bilal. ‘Aishah went in to see them. \"Father, how do you feel? Bilal, how do you feel?\" Whenever the fever took hold of Abu Bakr, he would say:"
+                            "text": " ووُعك أبو بكر، ووُعك بلال، فدخلت عليهما عائشة فقالت: «يَا أَبَتِ كَيْفَ تَجِدُكَ، وَيَا بِلَالُ كَيْفَ تَجِدُكَ». وكان أبو بكر إذا أخذته الحمّى يقول:"
                         }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s4_2",
-                    "text": "Every man is wished good morning among his family,\nand death is nearer to him than the strap of his sandal.",
+                    "text": "كُلُّ امْرِئٍ مُصَبَّحٌ فِي أَهْلِهِ\nوَالْمَوْتُ أَدْنَى مِنْ شِرَاكِ نَعْلِهِ",
                     "parts": [
-                        {
-                            "text": "Every man is wished good morning among his family,\nand death is nearer to him than the strap of his sandal."
-                        },
+                        { "text": "كُلُّ امْرِئٍ مُصَبَّحٌ فِي أَهْلِهِ\nوَالْمَوْتُ أَدْنَى مِنْ شِرَاكِ نَعْلِهِ" },
                         { "note": 6 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s4_3",
-                    "text": "\"By Allah, my father does not know what he is saying,\" ‘Aishah said. She then went to ‘Amir ibn Fuhayrah and asked how he was, and he too answered in verse: \"I have found death before I tasted it.\"",
+                    "text": "فقالت عائشة: «وَاللَّهِ مَا يَدْرِي أَبِي مَا يَقُولُ». ثم دنت من عامر بن فهيرة فسألته: كيف تجدك؟ فأجابها هو أيضًا شعرًا: «لَقَدْ وَجَدْتُ الْمَوْتَ قَبْلَ ذَوْقِهِ».",
                     "parts": [
                         {
-                            "text": "\"By Allah, my father does not know what he is saying,\" ‘Aishah said. She then went to ‘Amir ibn Fuhayrah and asked how he was, and he too answered in verse: \"I have found death before I tasted it.\""
+                            "text": "فقالت عائشة: «وَاللَّهِ مَا يَدْرِي أَبِي مَا يَقُولُ». ثم دنت من عامر بن فهيرة فسألته: كيف تجدك؟ فأجابها هو أيضًا شعرًا: «لَقَدْ وَجَدْتُ الْمَوْتَ قَبْلَ ذَوْقِهِ»."
                         },
                         { "note": 21 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s4_4",
-                    "text": "When the fever left Bilal, he would raise his voice:",
-                    "parts": [{ "text": "When the fever left Bilal, he would raise his voice:" }]
+                    "text": "وكان بلال إذا أقلعت عنه الحمّى رفع عقيرته يقول:",
+                    "parts": [{ "text": "وكان بلال إذا أقلعت عنه الحمّى رفع عقيرته يقول:" }]
                 },
                 {
                     "paragraph_id": "hch_settlement_s4_5",
-                    "text": "If only I knew whether I will spend a night again\nin a valley, with idhkhir and jalil grass around me,\nand whether one day I will come down to the waters of Majannah,\nand whether Shamah and Tafil will rise before me.",
+                    "text": "أَلَا لَيْتَ شِعْرِي هَلْ أَبِيتَنَّ لَيْلَةً\nبِوَادٍ وَحَوْلِي إِذْخِرٌ وَجَلِيلُ\nوَهَلْ أَرِدَنْ يَوْمًا مِيَاهَ مَجَِنَّةٍ\nوَهَلْ يَبْدُوَنْ لِي شَامَةٌ وَطَفِيلُ",
                     "parts": [
                         {
-                            "text": "If only I knew whether I will spend a night again\nin a valley, with "
-                        },
-                        { "text": "idhkhir", "term": "idhkhir" },
-                        {
-                            "text": " and jalil grass around me,\nand whether one day I will come down to the waters of Majannah,\nand whether Shamah and Tafil will rise before me."
+                            "text": "أَلَا لَيْتَ شِعْرِي هَلْ أَبِيتَنَّ لَيْلَةً\nبِوَادٍ وَحَوْلِي إِذْخِرٌ وَجَلِيلُ\nوَهَلْ أَرِدَنْ يَوْمًا مِيَاهَ مَجَِنَّةٍ\nوَهَلْ يَبْدُوَنْ لِي شَامَةٌ وَطَفِيلُ"
                         },
                         { "note": 6 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s4_6",
-                    "text": "These were places near Makkah: Majannah, a market a few miles from the town, and Shamah and Tafil, two mountains close by. Then he would call down a curse on the men he blamed: \"O Allah, curse ‘Utbah ibn Rabi‘ah, Shaybah ibn Rabi‘ah and Umayyah ibn Khalaf, as they drove us out to a land of plague.\"",
+                    "text": "وتلك مواضع قريبة من مكة: مِجَنّة موضعٌ على أميال منها كانت به سوق، وشامة وطفيل جبلان بقربها. ثم كان يدعو على من رآهم سبب محنتهم: «اللَّهُمَّ الْعَنْ عُتْبَةَ بْنَ رَبِيعَةَ، وَشَيْبَةَ بْنَ رَبِيعَةَ، وَأُمَيَّةَ بْنَ خَلَفٍ كَمَا أَخْرَجُونَا إِلَى أَرْضِ الْوَبَاءِ».",
                     "parts": [
                         {
-                            "text": "These were places near Makkah: Majannah, a market a few miles from the town, and Shamah and Tafil, two mountains close by."
+                            "text": "وتلك مواضع قريبة من مكة: مِجَنّة موضعٌ على أميال منها كانت به سوق، وشامة وطفيل جبلان بقربها."
                         },
                         { "note": 7 },
                         {
-                            "text": " Then he would call down a curse on the men he blamed: \"O Allah, curse ‘Utbah ibn Rabi‘ah, Shaybah ibn Rabi‘ah and Umayyah ibn Khalaf, as they drove us out to a land of plague.\""
+                            "text": " ثم كان يدعو على من رآهم سبب محنتهم: «اللَّهُمَّ الْعَنْ عُتْبَةَ بْنَ رَبِيعَةَ، وَشَيْبَةَ بْنَ رَبِيعَةَ، وَأُمَيَّةَ بْنَ خَلَفٍ كَمَا أَخْرَجُونَا إِلَى أَرْضِ الْوَبَاءِ»."
                         },
                         { "note": 22 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s4_7",
-                    "text": "‘Aishah fell ill herself. The fever kept her down for a month, and her hair fell out.",
+                    "text": "ومرضت عائشة نفسها؛ لزمتها الحمّى شهرًا، حتى تساقط شعرها.",
                     "parts": [
-                        {
-                            "text": "‘Aishah fell ill herself. The fever kept her down for a month, and her hair fell out."
-                        },
+                        { "text": "ومرضت عائشة نفسها؛ لزمتها الحمّى شهرًا، حتى تساقط شعرها." },
                         { "note": 23 },
                         { "note": 24 }
                     ]
@@ -292,41 +248,35 @@
         },
         {
             "section_id": "hch_settlement_s5",
-            "title": "A prayer for the city",
+            "title": "دعاءٌ للمدينة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_s5_1",
-                    "text": "‘Aishah went to the Prophet ﷺ and told him what she had seen. \"Messenger of Allah,\" she said, \"they are raving and do not know what they are saying, so severe is their fever.\"",
+                    "text": "جاءت عائشة رسول الله ﷺ فأخبرته بما رأت. وقالت: «يَا رَسُولَ اللَّهِ إِنَّهُمْ لَيَهْذُونَ وَمَا يَعْقِلُونَ مِنْ شِدَّةِ الْحُمَّى».",
                     "parts": [
-                        { "text": "‘Aishah went to the Prophet ﷺ and told him what she had seen." },
+                        { "text": "جاءت عائشة رسول الله ﷺ فأخبرته بما رأت." },
                         { "note": 6 },
-                        {
-                            "text": " \"Messenger of Allah,\" she said, \"they are raving and do not know what they are saying, so severe is their fever.\""
-                        },
+                        { "text": " وقالت: «يَا رَسُولَ اللَّهِ إِنَّهُمْ لَيَهْذُونَ وَمَا يَعْقِلُونَ مِنْ شِدَّةِ الْحُمَّى»." },
                         { "note": 21 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s5_2",
-                    "text": "In Makkah he had once said that it was the dearest of Allah's lands to him, and that he would never have left it had he not been driven out. Now he prayed for the town that had taken them in:",
+                    "text": "وكان قد قال لمكة يومًا إنها أحبّ أرض الله إليه، ولولا أنه أُخرج منها ما خرج. فدعا الآن للبلد الذي آواهم:",
                     "parts": [
                         {
-                            "text": "In Makkah he had once said that it was the dearest of Allah's lands to him, and that he would never have left it had he not been driven out."
+                            "text": "وكان قد قال لمكة يومًا إنها أحبّ أرض الله إليه، ولولا أنه أُخرج منها ما خرج."
                         },
                         { "note": 25 },
-                        { "text": " Now he prayed for the town that had taken them in:" }
+                        { "text": " فدعا الآن للبلد الذي آواهم:" }
                     ]
                 },
                 {
                     "paragraph_id": "hch_settlement_s5_3",
-                    "text": "\"O Allah, make Madinah dear to us as You made Makkah dear to us, or dearer. Make it healthy. Bless us in its sa‘ and its mudd, the measures of our food. And take its fever away to al-Juhfah.\"",
+                    "text": "«اللَّهُمَّ حَبِّبْ إِلَيْنَا الْمَدِينَةَ كَحُبِّنَا مَكَّةَ أَوْ أَشَدَّ، وَصَحِّحْهَا، وَبَارِكْ لَنَا فِي صَاعِهَا وَمُدِّهَا، وَانْقُلْ حُمَّاهَا فَاجْعَلْهَا بِالْجُحْفَةِ».",
                     "parts": [
                         {
-                            "text": "\"O Allah, make Madinah dear to us as You made Makkah dear to us, or dearer. Make it healthy. Bless us in its sa‘ and its "
-                        },
-                        { "text": "mudd", "term": "saamudd" },
-                        {
-                            "text": ", the measures of our food. And take its fever away to al-Juhfah.\""
+                            "text": "«اللَّهُمَّ حَبِّبْ إِلَيْنَا الْمَدِينَةَ كَحُبِّنَا مَكَّةَ أَوْ أَشَدَّ، وَصَحِّحْهَا، وَبَارِكْ لَنَا فِي صَاعِهَا وَمُدِّهَا، وَانْقُلْ حُمَّاهَا فَاجْعَلْهَا بِالْجُحْفَةِ»."
                         },
                         { "note": 19 },
                         { "note": 6 }
@@ -338,75 +288,65 @@
     "outline": [
         {
             "point_id": "hch_settlement_pt1",
-            "text": "The last emigrants leave Makkah",
+            "text": "آخر المهاجرين يخرجون من مكة",
             "section_id": "hch_settlement_s1"
         },
         {
             "point_id": "hch_settlement_pt2",
-            "text": "The Prophet's ﷺ family and Abu Bakr's arrive",
+            "text": "قدوم أهل النبي ﷺ وأهل أبي بكر",
             "section_id": "hch_settlement_s1"
         },
         {
             "point_id": "hch_settlement_pt3",
-            "text": "A child born at Quba",
+            "text": "مولودٌ بقباء",
             "section_id": "hch_settlement_s2"
         },
         {
             "point_id": "hch_settlement_pt4",
-            "text": "Brothers, and the first graves",
+            "text": "إخوةٌ، وأول القبور",
             "section_id": "hch_settlement_s3"
         },
         {
             "point_id": "hch_settlement_pt5",
-            "text": "The fever of Madinah",
-            "section_id": "hch_settlement_s4"
+            "text": "حمّى المدينة",
+            "section_id": "hch_settlement_s3"
         },
         {
             "point_id": "hch_settlement_pt6",
-            "text": "A prayer for the city",
+            "text": "دعاءٌ للمدينة",
             "section_id": "hch_settlement_s5"
         }
     ],
     "in_depth": [
         {
             "section_id": "hch_settlement_d1",
-            "title": "Who came, and when?",
+            "title": "من قدم، ومتى؟",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_d1_1",
-                    "text": "The lists differ in small ways. The clans that left Makkah with their whole households, Ibn Ishaq says, were Banu Maz‘un, Banu Jahsh and Banu al-Bukayr. Al-Tabari adds that Talhah ibn ‘Ubaydullah travelled with Abu Bakr's family. Ibn Ishaq, as Ibn Hajar cites him, names Asma among Abu Bakr's household; Ibn Hibban names ‘Abd al-Rahman ibn Abi Bakr in the household instead; Ibn Sa‘d has the two messengers carry two camels and five hundred dirhams, and lodges the families in the house of Harithah ibn al-Nu‘man. Ibn Ishaq has them arrive while the mosque was being built; Ibn Hibban tells of the mission after the Prophet ﷺ had moved into his dwelling. Al-Tabari introduces Ibn Urayqit's return and Talhah's company with \"as is reported\". ‘Abdullah ibn Urayqit is the name Ibn Hisham gives for the guide who led the Prophet ﷺ and Abu Bakr to Madinah.",
+                    "text": "تختلف القوائم في أمور يسيرة. فالذين خرجوا من مكة بأهليهم جميعًا، كما يقول ابن إسحاق، هم بنو مظعون وبنو جحش وبنو البكير. ويزيد الطبري أن طلحة بن عبيد الله صحب أهل أبي بكر. ويذكر ابن إسحاق، كما نقله ابن حجر، أسماءَ في أهل أبي بكر، ويذكر ابن حبان في مكانها عبد الرحمن بن أبي بكر؛ ويجعل ابن سعد مع الرسولين بعيرين وخمسمائة درهم، وينزل الأهل في بيت حارثة بن النعمان. وعند ابن إسحاق أنهم قدموا والمسجد يُبنى، أما ابن حبان فيذكر البعث بعد أن تحوّل النبي ﷺ إلى مسكنه. ويقدّم الطبري لرجوع ابن أريقط وصحبة طلحة بقوله: «فيما ذُكر». وعبد الله بن أريقط هو الاسم الذي يذكره ابن هشام للدليل الذي سلك بالنبي ﷺ وأبي بكر إلى المدينة.",
                     "parts": [
                         {
-                            "text": "The lists differ in small ways. The clans that left Makkah with their whole households, "
+                            "text": "تختلف القوائم في أمور يسيرة. فالذين خرجوا من مكة بأهليهم جميعًا، كما يقول ابن إسحاق، هم بنو مظعون وبنو جحش وبنو البكير."
                         },
-                        { "text": "Ibn Ishaq", "term": "ibnishaq" },
-                        { "text": " says, were " },
-                        { "text": "Banu", "term": "banu" },
-                        { "text": " Maz‘un, Banu Jahsh and Banu al-Bukayr." },
                         { "note": 4 },
-                        {
-                            "text": " Al-Tabari adds that Talhah ibn ‘Ubaydullah travelled with Abu Bakr's family."
-                        },
+                        { "text": " ويزيد الطبري أن طلحة بن عبيد الله صحب أهل أبي بكر." },
                         { "note": 8 },
                         {
-                            "text": " Ibn Ishaq, as Ibn Hajar cites him, names Asma among Abu Bakr's household; Ibn Hibban names ‘Abd al-Rahman ibn Abi Bakr in the household instead; Ibn Sa‘d has the two messengers carry two camels and five hundred dirhams, and lodges the families in the house of Harithah ibn al-Nu‘man."
+                            "text": " ويذكر ابن إسحاق، كما نقله ابن حجر، أسماءَ في أهل أبي بكر، ويذكر ابن حبان في مكانها عبد الرحمن بن أبي بكر؛ ويجعل ابن سعد مع الرسولين بعيرين وخمسمائة درهم، وينزل الأهل في بيت حارثة بن النعمان."
                         },
                         { "note": 3 },
                         { "note": 1 },
                         { "note": 2 },
-                        { "text": " Ibn Ishaq has them arrive while the mosque was being built;" },
+                        { "text": " وعند ابن إسحاق أنهم قدموا والمسجد يُبنى،" },
                         { "note": 1 },
-                        {
-                            "text": " Ibn Hibban tells of the mission after the Prophet ﷺ had moved into his dwelling."
-                        },
+                        { "text": " أما ابن حبان فيذكر البعث بعد أن تحوّل النبي ﷺ إلى مسكنه." },
                         { "note": 18 },
                         { "note": 3 },
-                        {
-                            "text": " Al-Tabari introduces Ibn Urayqit's return and Talhah's company with \"as is reported\"."
-                        },
+                        { "text": " ويقدّم الطبري لرجوع ابن أريقط وصحبة طلحة بقوله: «فيما ذُكر»." },
                         { "note": 8 },
                         {
-                            "text": " ‘Abdullah ibn Urayqit is the name Ibn Hisham gives for the guide who led the Prophet ﷺ and Abu Bakr to Madinah."
+                            "text": " وعبد الله بن أريقط هو الاسم الذي يذكره ابن هشام للدليل الذي سلك بالنبي ﷺ وأبي بكر إلى المدينة."
                         }
                     ]
                 }
@@ -414,35 +354,33 @@
         },
         {
             "section_id": "hch_settlement_d2",
-            "title": "When was ‘Abdullah ibn al-Zubayr born?",
+            "title": "متى وُلد عبد الله بن الزبير؟",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_d2_1",
-                    "text": "Asma gives a place, Quba, but no date. Ibn Hajar takes her report, together with the families' arrival during the building of the mosque, to show that the child was born in the first year after the Hijrah. He sets aside al-Waqidi's dating to the second year, twenty months after the Hijrah: the household of Abu Bakr came soon after the Prophet ﷺ had settled, he says, too soon for a delay of twenty months, or even ten. Her stopping at Quba, he adds, does not mean she reached Madinah before the Prophet ﷺ had left Quba. The \"first child born in Islam\" is the first born to the emigrants in Madinah; others are named for Abyssinia and for the Ansar. Al-Bukhari also gives a short version from ‘Aishah, and a supporting route saying that Asma migrated while pregnant. One telling of Asma's report, al-Isma‘ili's, adds that the Muslims rejoiced greatly at the birth, because the Jews had been saying, \"We have put a spell on them, so that no child will be born to them.\"",
+                    "text": "تذكر أسماء المكان، قباء، ولا تذكر التاريخ. ويستدل ابن حجر بخبرها، مع قدوم الأهل والمسجد يُبنى، على أن المولود وُلد في السنة الأولى من الهجرة. ويردّ قول الواقدي إنه وُلد في السنة الثانية بعد عشرين شهرًا من الهجرة؛ إذ قدم آل أبي بكر بعد استقرار النبي ﷺ بقليل، والمسافة أقرب من أن تحتمل تأخّر عشرين شهرًا، بل ولا عشرة أشهر. ويضيف أن نزولها بقباء لا يعني أنها وصلت المدينة قبل أن يتحوّل النبي ﷺ من قباء. و«أول مولود وُلد في الإسلام» هو أول مولود للمهاجرين بالمدينة؛ ويُذكر غيره لمن وُلد بالحبشة، ولمن وُلد للأنصار. ويروي البخاري أيضًا خبرًا قصيرًا عن عائشة، ومتابعةً فيها أن أسماء هاجرت وهي حبلى. وفي رواية من روايات خبر أسماء، عند الإسماعيلي، زيادة أن المسلمين فرحوا بالمولد فرحًا شديدًا، لأن اليهود كانوا يقولون: «سَحَرْنَاهُمْ حَتَّى لَا يُولَدَ لَهُمْ».",
                     "parts": [
                         {
-                            "text": "Asma gives a place, Quba, but no date. Ibn Hajar takes her report, together with the families' arrival during the building of the mosque, to show that the child was born in the first year after the Hijrah. He sets aside al-Waqidi's dating to the second year, twenty months after the Hijrah: the household of Abu Bakr came soon after the Prophet ﷺ had settled, he says, too soon for a delay of twenty months, or even ten."
+                            "text": "تذكر أسماء المكان، قباء، ولا تذكر التاريخ. ويستدل ابن حجر بخبرها، مع قدوم الأهل والمسجد يُبنى، على أن المولود وُلد في السنة الأولى من الهجرة. ويردّ قول الواقدي إنه وُلد في السنة الثانية بعد عشرين شهرًا من الهجرة؛ إذ قدم آل أبي بكر بعد استقرار النبي ﷺ بقليل، والمسافة أقرب من أن تحتمل تأخّر عشرين شهرًا، بل ولا عشرة أشهر."
                         },
                         { "note": 26 },
                         { "note": 12 },
                         { "note": 1 },
                         {
-                            "text": " Her stopping at Quba, he adds, does not mean she reached Madinah before the Prophet ﷺ had left Quba."
+                            "text": " ويضيف أن نزولها بقباء لا يعني أنها وصلت المدينة قبل أن يتحوّل النبي ﷺ من قباء."
                         },
                         { "note": 13 },
                         {
-                            "text": " The \"first child born in Islam\" is the first born to the emigrants in Madinah; others are named for "
+                            "text": " و«أول مولود وُلد في الإسلام» هو أول مولود للمهاجرين بالمدينة؛ ويُذكر غيره لمن وُلد بالحبشة، ولمن وُلد للأنصار."
                         },
-                        { "text": "Abyssinia", "term": "abyssinia" },
-                        { "text": " and for the Ansar." },
                         { "note": 13 },
                         {
-                            "text": " Al-Bukhari also gives a short version from ‘Aishah, and a supporting route saying that Asma migrated while pregnant."
+                            "text": " ويروي البخاري أيضًا خبرًا قصيرًا عن عائشة، ومتابعةً فيها أن أسماء هاجرت وهي حبلى."
                         },
                         { "note": 11 },
                         { "note": 27 },
                         {
-                            "text": " One telling of Asma's report, al-Isma‘ili's, adds that the Muslims rejoiced greatly at the birth, because the Jews had been saying, \"We have put a spell on them, so that no child will be born to them.\""
+                            "text": " وفي رواية من روايات خبر أسماء، عند الإسماعيلي، زيادة أن المسلمين فرحوا بالمولد فرحًا شديدًا، لأن اليهود كانوا يقولون: «سَحَرْنَاهُمْ حَتَّى لَا يُولَدَ لَهُمْ»."
                         },
                         { "note": 28 }
                     ]
@@ -451,21 +389,19 @@
         },
         {
             "section_id": "hch_settlement_d3",
-            "title": "The brotherhood",
+            "title": "المؤاخاة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_d3_1",
-                    "text": "Ibn Sa‘d's report says the pact of brotherhood came before the battle of Badr, and that inheritance between brothers ended when the verse \"And blood relatives are nearer to one another in the Book of Allah\" (al-Anfal 8:75) was revealed. Ibn Hibban gives a longer narrative, without a chain, placing the brotherhood between emigrants and Ansar in Ramadan and pairing companions by name: Abu Bakr with ‘Umar, ‘Uthman with ‘Abd al-Rahman ibn ‘Awf, Talhah with al-Zubayr, Sa‘d ibn Abi Waqqas with ‘Ammar ibn Yasir, Abu al-Darda with Salman.",
+                    "text": "في خبر ابن سعد أن المؤاخاة كانت قبل بدر، وأن التوارث بين الإخوة انقطع حين نزل قوله تعالى: ﴿وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَى بِبَعْضٍ فِي كِتَابِ اللَّهِ﴾ (الأنفال: ٧٥). ويسوق ابن حبان خبرًا أطول بلا إسناد، يجعل المؤاخاة بين المهاجرين والأنصار في شهر رمضان، ويسمّي الأزواج بأسمائهم: أبو بكر وعمر، وعثمان وعبد الرحمن بن عوف، وطلحة والزبير، وسعد بن أبي وقاص وعمار بن ياسر، وأبو الدرداء وسلمان.",
                     "parts": [
                         {
-                            "text": "Ibn Sa‘d's report says the pact of brotherhood came before the battle of Badr, and that inheritance between brothers ended when the verse \"And blood relatives are nearer to one another in the Book of Allah\" (al-Anfal 8:75) was revealed."
+                            "text": "في خبر ابن سعد أن المؤاخاة كانت قبل بدر، وأن التوارث بين الإخوة انقطع حين نزل قوله تعالى: ﴿وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَى بِبَعْضٍ فِي كِتَابِ اللَّهِ﴾ (الأنفال: ٧٥)."
                         },
                         { "note": 14 },
                         {
-                            "text": " Ibn Hibban gives a longer narrative, without a chain, placing the brotherhood between emigrants and Ansar in Ramadan and pairing companions by name: Abu Bakr with ‘Umar, ‘Uthman with ‘Abd al-Rahman ibn ‘Awf, Talhah with al-Zubayr, Sa‘d ibn Abi Waqqas with ‘Ammar ibn Yasir, Abu al-Darda with "
+                            "text": " ويسوق ابن حبان خبرًا أطول بلا إسناد، يجعل المؤاخاة بين المهاجرين والأنصار في شهر رمضان، ويسمّي الأزواج بأسمائهم: أبو بكر وعمر، وعثمان وعبد الرحمن بن عوف، وطلحة والزبير، وسعد بن أبي وقاص وعمار بن ياسر، وأبو الدرداء وسلمان."
                         },
-                        { "text": "Salman", "term": "salman" },
-                        { "text": "." },
                         { "note": 29 }
                     ]
                 }
@@ -473,35 +409,31 @@
         },
         {
             "section_id": "hch_settlement_d4",
-            "title": "The verses of the fever",
+            "title": "أشعار الحمّى",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_d4_1",
-                    "text": "Abu Bakr's line, Bilal's verses and the prayer come from ‘Aishah in al-Bukhari, through Malik. ‘Amir ibn Fuhayrah's verses and ‘Aishah's words \"they are raving\" are an addition Ibn Ishaq transmits, which Ibn Hajar quotes; Malik has ‘Amir's verse in al-Muwatta with a broken chain. Bilal's curse is in another route of the same hadith that al-Bukhari gives at the end of the Book of Pilgrimage; Ibn Hibban's version names Abu Sufyan and Abu Jahl instead of Umayyah. Ibn Hibban adds a scene without a chain: the Prophet ﷺ came into the mosque and found people praying sitting down, struck by the fever. \"The prayer of one who sits is half the prayer of one who stands,\" he told them, and they finished it on their feet. Then he said: \"O Allah, place in Madinah twice the blessing that is in Makkah.\" Ibn Hajar places Majannah a few miles from Makkah, where there was a market, and Shamah and Tafil as two mountains near Makkah; al-Khattabi came to think they were two springs.",
+                    "text": "بيت أبي بكر، وبيتا بلال، والدعاء، كلها من حديث عائشة عند البخاري من طريق مالك. أما شعر عامر بن فهيرة، وقول عائشة «إنهم ليهذون»، فزيادةٌ يرويها ابن إسحاق وينقلها ابن حجر؛ وقد روى مالك بيت عامر في «الموطأ» منقطعًا. ودعاء بلال في طريق أخرى للحديث نفسه يسوقها البخاري في آخر كتاب الحج؛ وفي رواية ابن حبان أبو سفيان وأبو جهل مكان أمية. ويزيد ابن حبان مشهدًا بلا إسناد: دخل النبي ﷺ المسجد وقد حُمّ الناس وهم يصلّون قعودًا، فقال: «صلاة القاعد على النصف من صلاة القائم»، فختم الناس الصلاة قيامًا. ثم قال: «اللهم اجعل بالمدينة ضعفي ما بمكة من البركة». ويجعل ابن حجر مِجَنّة موضعًا على أميال من مكة كانت به سوق، وشامة وطفيلًا جبلين بقرب مكة؛ أما الخطابي فانتهى إلى أنهما عينان.",
                     "parts": [
                         {
-                            "text": "Abu Bakr's line, Bilal's verses and the prayer come from ‘Aishah in "
+                            "text": "بيت أبي بكر، وبيتا بلال، والدعاء، كلها من حديث عائشة عند البخاري من طريق مالك."
                         },
-                        { "text": "al-Bukhari", "term": "bukhari" },
-                        { "text": ", through Malik." },
                         { "note": 6 },
                         {
-                            "text": " ‘Amir ibn Fuhayrah's verses and ‘Aishah's words \"they are raving\" are an addition Ibn Ishaq transmits, which Ibn Hajar quotes; Malik has ‘Amir's verse in al-Muwatta with a broken chain."
+                            "text": " أما شعر عامر بن فهيرة، وقول عائشة «إنهم ليهذون»، فزيادةٌ يرويها ابن إسحاق وينقلها ابن حجر؛ وقد روى مالك بيت عامر في «الموطأ» منقطعًا."
                         },
                         { "note": 21 },
-                        { "text": " Bilal's curse is in another route of the same " },
-                        { "text": "hadith", "term": "hadith" },
                         {
-                            "text": " that al-Bukhari gives at the end of the Book of Pilgrimage; Ibn Hibban's version names Abu Sufyan and Abu Jahl instead of Umayyah."
+                            "text": " ودعاء بلال في طريق أخرى للحديث نفسه يسوقها البخاري في آخر كتاب الحج؛ وفي رواية ابن حبان أبو سفيان وأبو جهل مكان أمية."
                         },
                         { "note": 22 },
                         { "note": 30 },
                         {
-                            "text": " Ibn Hibban adds a scene without a chain: the Prophet ﷺ came into the mosque and found people praying sitting down, struck by the fever. \"The prayer of one who sits is half the prayer of one who stands,\" he told them, and they finished it on their feet. Then he said: \"O Allah, place in Madinah twice the blessing that is in Makkah.\""
+                            "text": " ويزيد ابن حبان مشهدًا بلا إسناد: دخل النبي ﷺ المسجد وقد حُمّ الناس وهم يصلّون قعودًا، فقال: «صلاة القاعد على النصف من صلاة القائم»، فختم الناس الصلاة قيامًا. ثم قال: «اللهم اجعل بالمدينة ضعفي ما بمكة من البركة»."
                         },
                         { "note": 31 },
                         {
-                            "text": " Ibn Hajar places Majannah a few miles from Makkah, where there was a market, and Shamah and Tafil as two mountains near Makkah; al-Khattabi came to think they were two springs."
+                            "text": " ويجعل ابن حجر مِجَنّة موضعًا على أميال من مكة كانت به سوق، وشامة وطفيلًا جبلين بقرب مكة؛ أما الخطابي فانتهى إلى أنهما عينان."
                         },
                         { "note": 7 }
                     ]
@@ -510,22 +442,22 @@
         },
         {
             "section_id": "hch_settlement_d5",
-            "title": "Madinah's fever and al-Juhfah",
+            "title": "حمّى المدينة والجحفة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_settlement_d5_1",
-                    "text": "Hisham ibn ‘Urwah, through Ibn Ishaq, says the town's fever was known before Islam: a newcomer who wanted to escape it was told to bray like a donkey. The note in the edition of Muslim explains \"a land of plague\" as an unhealthy land where illness is common, especially for strangers; it adds al-Khattabi's remark that al-Juhfah was then inhabited by Jews, and al-Nawawi's that al-Juhfah was avoided from that day on. Al-Bukhari also records the prayer in a shorter wording, and Muslim in a form close to Malik's.",
+                    "text": "يقول هشام بن عروة، من طريق ابن إسحاق، إن وباء البلد كان معروفًا في الجاهلية، وإن القادم الذي يريد أن يسلم منه كان يُقال له: انهَقْ، فينهق كما ينهق الحمار. وتفسّر حاشية طبعة مسلم «وبيئة» بالأرض الوخمة التي تكثر بها الأمراض، لا سيما للغرباء؛ وتنقل قول الخطابي إن سكان الجحفة يومئذ كانوا يهودًا، وقول النووي إن الجحفة من يومئذ مجتنبة. ويروي البخاري الدعاء أيضًا بلفظ أقصر، ويرويه مسلم بلفظ قريب من لفظ مالك.",
                     "parts": [
                         {
-                            "text": "Hisham ibn ‘Urwah, through Ibn Ishaq, says the town's fever was known before Islam: a newcomer who wanted to escape it was told to bray like a donkey."
+                            "text": "يقول هشام بن عروة، من طريق ابن إسحاق، إن وباء البلد كان معروفًا في الجاهلية، وإن القادم الذي يريد أن يسلم منه كان يُقال له: انهَقْ، فينهق كما ينهق الحمار."
                         },
                         { "note": 5 },
                         {
-                            "text": " The note in the edition of Muslim explains \"a land of plague\" as an unhealthy land where illness is common, especially for strangers; it adds al-Khattabi's remark that al-Juhfah was then inhabited by Jews, and al-Nawawi's that al-Juhfah was avoided from that day on."
+                            "text": " وتفسّر حاشية طبعة مسلم «وبيئة» بالأرض الوخمة التي تكثر بها الأمراض، لا سيما للغرباء؛ وتنقل قول الخطابي إن سكان الجحفة يومئذ كانوا يهودًا، وقول النووي إن الجحفة من يومئذ مجتنبة."
                         },
                         { "note": 32 },
                         {
-                            "text": " Al-Bukhari also records the prayer in a shorter wording, and Muslim in a form close to Malik's."
+                            "text": " ويروي البخاري الدعاء أيضًا بلفظ أقصر، ويرويه مسلم بلفظ قريب من لفظ مالك."
                         },
                         { "note": 33 },
                         { "note": 19 }
@@ -538,48 +470,48 @@
         {
             "reading_id": "hch_settlement_n1",
             "number": 1,
-            "title": "Ibn Hajar, Fath al-Bari, 7/249 — Ibn Ishaq, as cited by Ibn Hajar",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٤٩ — ابن إسحاق كما نقله ابن حجر",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_03", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n2",
             "number": 2,
-            "title": "Ibn Sa‘d, al-Tabaqat al-Kubra, 1/204 — Ibn Sa‘d from al-Waqidi",
-            "mode": "translated",
+            "title": "الطبقات الكبرى، ١/٢٠٤ — ابن سعد عن الواقدي",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_24", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n3",
             "number": 3,
-            "title": "Ibn Hibban, al-Sirah al-Nabawiyyah wa Akhbar al-Khulafa', 1/144 — Ibn Hibban",
-            "mode": "translated",
+            "title": "السيرة النبوية وأخبار الخلفاء من الثقات لابن حبان، ١/١٤٤ — ابن حبان",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_02", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n4",
             "number": 4,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/499 — Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٩٩ — ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_01", "part_ids": ["p1", "p2"] }]
         },
         {
             "reading_id": "hch_settlement_n5",
             "number": 5,
-            "title": "Ibn Hajar, Fath al-Bari, 7/262 — Hisham ibn ‘Urwah through Ibn Ishaq",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٦٢ — هشام بن عروة من طريق ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_17", "part_ids": ["p2", "p3"] }]
         },
         {
             "reading_id": "hch_settlement_n6",
             "number": 6,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/66 — ‘Aishah, through Malik",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٦٦ — عائشة، من طريق مالك",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 {
@@ -591,8 +523,8 @@
         {
             "reading_id": "hch_settlement_n7",
             "number": 7,
-            "title": "Ibn Hajar, Fath al-Bari, 7/263",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٦٣",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_18", "part_ids": ["p1", "p2", "p3"] }
@@ -601,40 +533,40 @@
         {
             "reading_id": "hch_settlement_n8",
             "number": 8,
-            "title": "Al-Tabari, Tarikh al-Rusul wa al-Muluk, 2/400 — al-Tabari, \"as is reported\"",
-            "mode": "translated",
+            "title": "تاريخ الطبري = تاريخ الرسل والملوك، وصلة تاريخ الطبري، ٢/٤٠٠ — الطبري، «فيما ذُكر»",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-9783-1025-FAMILY", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n9",
             "number": 9,
-            "title": "Ibn Hajar, Fath al-Bari, 7/263",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٦٣",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_04", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n10",
             "number": 10,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/62 — Asma bint Abi Bakr",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٦٢ — أسماء بنت أبي بكر",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_07", "part_ids": ["p1", "p2"] }]
         },
         {
             "reading_id": "hch_settlement_n11",
             "number": 11,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/62 — ‘Aishah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٦٢ — عائشة",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_09", "part_ids": ["p1", "p2"] }]
         },
         {
             "reading_id": "hch_settlement_n12",
             "number": 12,
-            "title": "Ibn Hajar, Fath al-Bari, 7/249",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٤٩",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_03", "part_ids": ["p2"] },
@@ -644,16 +576,16 @@
         {
             "reading_id": "hch_settlement_n13",
             "number": 13,
-            "title": "Ibn Hajar, Fath al-Bari, 7/248",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٤٨",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_10", "part_ids": ["p2"] }]
         },
         {
             "reading_id": "hch_settlement_n14",
             "number": 14,
-            "title": "Ibn Sa‘d, al-Tabaqat al-Kubra, 1/204–205 — al-Waqidi's combined report",
-            "mode": "translated",
+            "title": "الطبقات الكبرى، ١/٢٠٤–٢٠٥ — خبر الواقدي الجامع",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "H-146-249-FRATERNITY-A", "part_ids": ["p1"] },
@@ -663,32 +595,32 @@
         {
             "reading_id": "hch_settlement_n15",
             "number": 15,
-            "title": "Ibn Sa‘d, al-Tabaqat al-Kubra, 1/205 — Anas ibn Malik",
-            "mode": "translated",
+            "title": "الطبقات الكبرى، ١/٢٠٥ — أنس بن مالك",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-146-250-FRATERNITY-ANAS", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n16",
             "number": 16,
-            "title": "Ibn Hibban, al-Sirah al-Nabawiyyah wa Akhbar al-Khulafa', 1/144",
-            "mode": "translated",
+            "title": "السيرة النبوية وأخبار الخلفاء من الثقات لابن حبان، ١/١٤٤",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_21", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n17",
             "number": 17,
-            "title": "Al-Tabari, Tarikh al-Rusul wa al-Muluk, 2/397 — al-Tabari, \"as is reported\"",
-            "mode": "translated",
+            "title": "تاريخ الطبري = تاريخ الرسل والملوك، وصلة تاريخ الطبري، ٢/٣٩٧ — الطبري، «فيما ذُكر»",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-9783-1022-FIRST-DEATHS", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n18",
             "number": 18,
-            "title": "Ibn Hibban, al-Sirah al-Nabawiyyah wa Akhbar al-Khulafa', 1/143–144 — the name As‘ad ibn Zurarah runs across the page break",
-            "mode": "translated",
+            "title": "السيرة النبوية وأخبار الخلفاء من الثقات لابن حبان، ١/١٤٣–١٤٤ — يمتد اسم أسعد بن زرارة عبر فاصل الصفحة",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_20", "part_ids": ["p1"] },
@@ -698,8 +630,8 @@
         {
             "reading_id": "hch_settlement_n19",
             "number": 19,
-            "title": "Muslim, Sahih Muslim, 2/1003 — ‘Aishah",
-            "mode": "translated",
+            "title": "صحيح مسلم، ٢/١٠٠٣ — عائشة",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_14", "part_ids": ["p1", "p2", "p3"] }
@@ -708,16 +640,16 @@
         {
             "reading_id": "hch_settlement_n20",
             "number": 20,
-            "title": "Ibn Hajar, Fath al-Bari, 7/262 — Abu Usamah's route from Hisham",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٦٢ — رواية أبي أسامة عن هشام",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_17", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n21",
             "number": 21,
-            "title": "Ibn Hajar, Fath al-Bari, 7/263 — Ibn Ishaq's addition from Hisham and ‘Amr ibn ‘Abdullah ibn ‘Urwah, from ‘Urwah, from ‘Aishah",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٦٣ — زيادة ابن إسحاق عن هشام وعمرو بن عبد الله بن عروة، عن عروة، عن عائشة",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_19", "part_ids": ["p2", "p3", "p4"] }
@@ -726,8 +658,8 @@
         {
             "reading_id": "hch_settlement_n22",
             "number": 22,
-            "title": "Ibn Hajar, Fath al-Bari, 7/263 — al-Bukhari's route through Abu Usamah, at the end of the Book of Pilgrimage",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٦٣ — رواية البخاري من طريق أبي أسامة، في آخر كتاب الحج",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_18", "part_ids": ["p4", "p5", "p6", "p7"] },
@@ -737,24 +669,24 @@
         {
             "reading_id": "hch_settlement_n23",
             "number": 23,
-            "title": "Muslim, Sahih Muslim, 2/1038 — ‘Aishah: \"I was ill with fever for a month.\"",
-            "mode": "translated",
+            "title": "صحيح مسلم، ٢/١٠٣٨ — عائشة: «فَوُعِكْتُ شَهْرًا»",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-1727-3404-HS-AISHA-FEVER-1", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n24",
             "number": 24,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/NaN–NaN — ‘Aishah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/NaN–NaN — عائشة",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-1681-5887-HS-AISHA-ARRIVAL-1", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n25",
             "number": 25,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/518 — ‘Abdullah ibn ‘Adi ibn al-Hamra, quoting the Prophet ﷺ at al-Hazwara (told in the departure chapter)",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٥١٨ — عبد الله بن عدي بن الحمراء يروي قول النبي ﷺ بالحزورة (في فصل الخروج)",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_departure_chapter_haztext", "part_ids": ["p1", "p2"] }
@@ -763,8 +695,8 @@
         {
             "reading_id": "hch_settlement_n26",
             "number": 26,
-            "title": "Ibn Hajar, Fath al-Bari, 7/248",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٤٨",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_10", "part_ids": ["p1"] },
@@ -774,16 +706,16 @@
         {
             "reading_id": "hch_settlement_n27",
             "number": 27,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/62 — Khalid ibn Makhlad's supporting route",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٦٢ — متابعة خالد بن مخلد",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_settlement_chapter_08", "part_ids": ["p1", "p2"] }]
         },
         {
             "reading_id": "hch_settlement_n28",
             "number": 28,
-            "title": "Ibn Hajar, Fath al-Bari, 7/248–249 — al-Isma‘ili's addition, through ‘Abdullah ibn al-Rumi from Abu Usamah",
-            "mode": "translated",
+            "title": "فتح الباري بشرح البخاري، ٧/٢٤٨–٢٤٩ — زيادة الإسماعيلي، من طريق عبد الله بن الرومي عن أبي أسامة",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_10", "part_ids": ["p3"] },
@@ -793,8 +725,8 @@
         {
             "reading_id": "hch_settlement_n29",
             "number": 29,
-            "title": "Ibn Hibban, al-Sirah al-Nabawiyyah wa Akhbar al-Khulafa', 1/146–149",
-            "mode": "translated",
+            "title": "السيرة النبوية وأخبار الخلفاء من الثقات لابن حبان، ١/١٤٦–١٤٩",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_22", "part_ids": ["p1"] },
@@ -872,8 +804,8 @@
         {
             "reading_id": "hch_settlement_n30",
             "number": 30,
-            "title": "Ibn Hibban, al-Sirah al-Nabawiyyah wa Akhbar al-Khulafa', 1/145–146 — Ibn Hibban's version of the fever, with ‘Amir's and Bilal's verses",
-            "mode": "translated",
+            "title": "السيرة النبوية وأخبار الخلفاء من الثقات لابن حبان، ١/١٤٥–١٤٦ — رواية ابن حبان للحمّى، وفيها شعر عامر وبلال",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "H-9898-140-prep-2", "part_ids": ["p1"] },
@@ -883,16 +815,16 @@
         {
             "reading_id": "hch_settlement_n31",
             "number": 31,
-            "title": "Ibn Hibban, al-Sirah al-Nabawiyyah wa Akhbar al-Khulafa', 1/146 — Ibn Hibban, without a chain",
-            "mode": "translated",
+            "title": "السيرة النبوية وأخبار الخلفاء من الثقات لابن حبان، ١/١٤٦ — ابن حبان، بلا إسناد",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-9898-141-prep-2", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_settlement_n32",
             "number": 32,
-            "title": "Muslim, Sahih Muslim, 2/1003 — the editor's note, quoting al-Khattabi and al-Nawawi",
-            "mode": "translated",
+            "title": "صحيح مسلم، ٢/١٠٠٣ — حاشية المحقق، نقلًا عن الخطابي والنووي",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_16", "part_ids": ["p1", "p2", "p3", "p4"] }
@@ -901,8 +833,8 @@
         {
             "reading_id": "hch_settlement_n33",
             "number": 33,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 8/80; Muslim, Sahih Muslim, 2/1003 — ‘Aishah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٨/٨٠؛ صحيح مسلم، ٢/١٠٠٣ — عائشة",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_settlement_chapter_13", "part_ids": ["p1", "p2"] },
@@ -910,94 +842,7 @@
             ]
         }
     ],
-    "terms": [
-        {
-            "id": "madinah",
-            "word": "Madinah",
-            "meaning": "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
-        },
-        {
-            "id": "makkah",
-            "word": "Makkah",
-            "meaning": "The city where the Prophet ﷺ was born, home of the Ka‘bah."
-        },
-        {
-            "id": "abubakr",
-            "word": "Abu Bakr",
-            "meaning": "The Prophet’s closest friend and companion, who later led the Muslims after him."
-        },
-        {
-            "id": "quba",
-            "word": "Quba",
-            "meaning": "A village on the edge of Madinah, where the Prophet ﷺ stopped first."
-        },
-        { "id": "allah", "word": "Allah", "meaning": "The Arabic word for God." },
-        {
-            "id": "hijrah",
-            "word": "Hijrah",
-            "meaning": "The migration of the Prophet ﷺ and his companions from Makkah to Madinah, in 622."
-        },
-        {
-            "id": "ansar",
-            "word": "Ansar",
-            "meaning": "\"The Helpers\": the Muslims of Madinah who took in the Prophet ﷺ and the emigrants."
-        },
-        {
-            "id": "badr",
-            "word": "Badr",
-            "meaning": "The first great battle between the Muslims and Quraysh, two years after the Hijrah."
-        },
-        {
-            "id": "safar",
-            "word": "Safar",
-            "meaning": "The second month of the Arab calendar, in which the Prophet ﷺ left Makkah."
-        },
-        {
-            "id": "kabah",
-            "word": "Ka‘bah",
-            "meaning": "The cube-shaped House of Allah in Makkah, which Muslims face in prayer."
-        },
-        {
-            "id": "idhkhir",
-            "word": "idhkhir",
-            "meaning": "A fragrant grass of the valleys around Makkah."
-        },
-        {
-            "id": "saamudd",
-            "word": "sa‘ and mudd",
-            "meaning": "Measures of grain: a mudd is a double handful, and four of them make a sa‘."
-        },
-        {
-            "id": "ibnishaq",
-            "word": "Ibn Ishaq",
-            "meaning": "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
-        },
-        {
-            "id": "banu",
-            "word": "Banu",
-            "meaning": "\"Sons of\": a clan named after its ancestor, as in Banu al-Najjar."
-        },
-        {
-            "id": "abyssinia",
-            "word": "Abyssinia",
-            "meaning": "The Christian kingdom across the Red Sea where early Muslims found refuge."
-        },
-        {
-            "id": "salman",
-            "word": "Salman al-Farisi",
-            "meaning": "A Persian who searched for the true religion and became a companion of the Prophet ﷺ."
-        },
-        {
-            "id": "bukhari",
-            "word": "Sahih al-Bukhari",
-            "meaning": "The collection of hadith that Muslims consider the most reliable."
-        },
-        {
-            "id": "hadith",
-            "word": "Hadith",
-            "meaning": "A report of what the Prophet ﷺ said or did, passed on by named narrators."
-        }
-    ],
+    "terms": [],
     "source_units": [
         {
             "unit_id": "sp_settlement_chapter_03:p1",
@@ -1013,7 +858,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "249",
-            "text": "Ibn Ishaq mentioned that when the Prophet ﷺ arrived in Medina he sent Zayd ibn Haritha, who brought the Prophet’s wife Sawda bint Zama, the Prophet’s daughters Fatima and Umm Kulthum, Umm Ayman (Zayd ibn Haritha’s wife), and her son Usama. Abd Allah ibn Abi Bakr went with them, accompanied by his mother Umm Ruman and his two sisters Aisha and Asma. They arrived while the Prophet ﷺ was building his mosque."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_24:p1",
@@ -1029,7 +874,7 @@
             "book_id": "146",
             "volume": "1",
             "page": "204",
-            "text": "The Messenger of God ﷺ sent Zayd ibn Haritha and Abu Rafi from Abu Ayyub’s house to Mecca, giving them two camels and five hundred dirhams. They returned to him with Fatima and Umm Kulthum, the Messenger of God’s ﷺ daughters, his wife Sawda bint Zama, and Usama ibn Zayd. The Messenger of God’s ﷺ daughter Ruqayya had already been taken away in migration by her husband Uthman ibn Affan; Abu al-As ibn al-Rabi kept back his wife Zaynab, the Messenger of God’s ﷺ daughter. Zayd ibn Haritha brought his wife Umm Ayman with her son Usama ibn Zayd. Abd Allah ibn Abi Bakr set out with them, with Abu Bakr’s family, including Aisha. They came to Medina, where he lodged them in Haritha ibn al-Numan’s house (4)."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_02:p1",
@@ -1045,7 +890,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "144",
-            "text": "Then the Messenger of God ﷺ sent Zayd ibn Haritha (3) and Abu Rafi (3) to (4) Mecca to bring back (5) his wife Sawda bint Zama (6) and his daughters. Abu Bakr al-Siddiq sent Abd Allah ibn Urayqit to Abd Allah ibn Abi Bakr, telling him to come with his family. When Ibn Urayqit reached Abd Allah ibn Abi Bakr, Abd Allah set out with Abu Bakr’s household: Aisha, Abd al-Rahman, and Umm Ruman, Aisha’s mother (7)."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_01:p1",
@@ -1061,7 +906,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "499",
-            "text": "Ibn Ishaq said: The migrants followed one another to the Messenger of God ﷺ,"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_01:p2",
@@ -1077,7 +922,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "499",
-            "text": "until none of them remained in Mecca except one subjected to trial or held captive. No group migrating from Mecca to God ﵎ and His Messenger ﷺ departed in its entirety with its families and property except the occupants of certain named houses: Banu Mazun of Banu Jumah; Banu Jahsh ibn Riab, allies of Banu Umayya; and Banu al-Bukayr of Banu Sad ibn Layth, allies of Banu Adi ibn Kab. Their houses were shut up in Mecca on account of the migration, with no one living in them."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_17:p2",
@@ -1093,7 +938,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "262",
-            "text": "Muhammad ibn Ishaq’s transmission from Hisham ibn Urwa has something similar and adds: Hisham said that its epidemic was known in the time before Islam. When a person entered it and wanted to remain safe from its epidemic, he was told, “Bray!” He would bray as a donkey brays. The poet says of this:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_17:p3",
@@ -1109,7 +954,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "262",
-            "text": "“By my life, if you brayed like a donkey for fear of death … I would indeed be alarmed.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_12:p1",
@@ -1125,7 +970,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "66",
-            "text": "3926 — Abd Allah ibn Yusuf told us: Malik informed us, from Hisham ibn Urwa, from his father, from Aisha (may God be pleased with her), who said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_12:p2",
@@ -1141,7 +986,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "66",
-            "text": "“When the Messenger of God ﷺ arrived in Medina, Abu Bakr and Bilal fell ill. I went in to see them and said: Father, how do you feel? Bilal, how do you feel? Whenever the fever seized Abu Bakr, he would say:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_12:p3",
@@ -1157,7 +1002,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "66",
-            "text": "Each man greets the morning among his family … yet death is nearer than the strap of his sandal.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_12:p4",
@@ -1173,7 +1018,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "66",
-            "text": "And when the fever left Bilal, he would raise his voice and say:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_12:p5",
@@ -1189,7 +1034,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "66",
-            "text": "“If only I knew whether I might spend a night … in a valley with idhkhir and jalil around me; and whether I might one day reach the waters of Majanna … and whether Shama and Tafil might appear before me.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_12:p6",
@@ -1205,7 +1050,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "66",
-            "text": "Aisha said: I went to the Messenger of God ﷺ and told him, and he said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_12:p7",
@@ -1221,7 +1066,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "66",
-            "text": "“O God, make Medina dear to us as Mecca is dear to us, or even dearer; make it healthy; bless us in its sa and mudd measures; and transfer its fever to al-Juhfa.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_18:p1",
@@ -1237,7 +1082,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "His words “the waters of Majanna,” with jim: it is a place a few miles from Mecca where there was a market, as explained earlier in the opening chapters of the pilgrimage. His word “appear” means become visible. Shama and Tafil are two mountains near Mecca."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_18:p2",
@@ -1253,7 +1098,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "Al-Khattabi said: “I thought they were two mountains until it became clear to me that they are two springs.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_18:p3",
@@ -1269,7 +1114,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "His words أَرِدَنْ (“I might reach”) and يَبْدُوَنْ (“might appear”) use the light emphatic nun. Shama is written with the dotted letter shin and an ungeminated mim; he claimed that the correct form uses the single-dotted ba instead of mim, but the familiar form has mim."
+            "text": null
         },
         {
             "unit_id": "H-9783-1025-FAMILY:p1",
@@ -1285,7 +1130,7 @@
             "book_id": "9783",
             "volume": "2",
             "page": "400",
-            "text": "In this year, the Prophet ﷺ sent Zayd ibn Harithah and Abu Rafi‘ to bring his daughters and his wife Sawdah bint Zam‘ah from Makkah to Madinah.\nWhen, according to the report, ‘Abdullah ibn Urayqit returned to Makkah, he told ‘Abdullah ibn Abi Bakr where his father, Abu Bakr, was. ‘Abdullah set out with his father’s family to join him. Talhah ibn ‘Ubaydullah accompanied them, along with Umm Ruman, ‘Aishah’s mother, and ‘Abdullah ibn Abi Bakr, until they arrived in Madinah."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_04:p1",
@@ -1301,7 +1146,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "It has already appeared in the preceding chapter, in the hadith of al-Bara, that Aisha too fell ill and Abu Bakr would visit her. Aisha arrived in Medina with Abu Bakr’s household, brought there in migration by her brother Abd Allah. Zayd ibn Haritha and Abu Rafi brought the Prophet’s ﷺ two daughters Fatima and Umm Kulthum, Usama ibn Zayd and his mother Umm Ayman, and Sawda bint Zama. The Prophet’s ﷺ daughter Ruqayya had arrived earlier with her husband Uthman, while Zaynab, the eldest, remained behind with her husband Abu al-As ibn al-Rabi."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_07:p1",
@@ -1317,7 +1162,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "62",
-            "text": "3909 — Zakariya ibn Yahya told me, from Abu Usama, from Hisham ibn Urwa, from his father, from Asma (may God be pleased with her):"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_07:p2",
@@ -1333,7 +1178,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "62",
-            "text": "“She had conceived Abd Allah ibn al-Zubayr. She said: I set out when my pregnancy was at term, reached Medina and stayed at Quba, where I gave birth to him. I then took him to the Prophet ﷺ and placed him in his lap. He asked for a date, chewed it, then spat into the baby’s mouth; thus the first thing to enter his stomach was the Messenger of God’s ﷺ saliva. Then he rubbed the date on his palate, prayed for him and blessed him. He was the first child born in Islam.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_09:p1",
@@ -1349,7 +1194,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "62",
-            "text": "3910 — Qutayba told us, from Abu Usama, from Hisham ibn Urwa, from his father, from Aisha (may God be pleased with her), who said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_09:p2",
@@ -1365,7 +1210,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "62",
-            "text": "“The first child born in Islam was Abd Allah ibn al-Zubayr. They brought him to the Prophet ﷺ, who took a date, chewed it, then put it in the baby’s mouth. Thus the first thing to enter the baby’s stomach was the Prophet’s ﷺ saliva.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_03:p2",
@@ -1381,7 +1226,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "249",
-            "text": "Taken together with her statement “I gave birth to him at Quba,” this indicates that Abd Allah ibn al-Zubayr was born in the first year of the Hijra, as stated earlier."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_11:p2",
@@ -1397,7 +1242,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "249",
-            "text": "Al-Waqidi also transmitted this with his own chain back to Sahl ibn Abi Hathma; something similar came from Abu al-Aswad, from Urwa."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_11:p3",
@@ -1413,7 +1258,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "249",
-            "text": "But that is contradicted by the fact that Asma, Aisha and other members of al-Siddiq’s household migrated after the Prophet ﷺ had settled in Medina: the interval is very short and cannot accommodate a delay of twenty months, or even ten months."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_10:p2",
@@ -1429,7 +1274,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "248",
-            "text": "His words “when my pregnancy was at term” mean that she had completed the usual duration of pregnancy, nine months. Mutimm is also said of a woman who gives birth at full term. His words “she stayed at Quba and gave birth to him at Quba” might suggest she reached Medina before the Prophet ﷺ moved away from Quba, but this is not so. Her words “then I brought him to the Prophet ﷺ” mean in Medina. His words “then he spat” use a ta followed by a fa; this has been explained previously in the chapters on mosques. His words “then he rubbed the baby’s palate” mean that he placed the date in the baby’s mouth and rubbed the baby’s palate with it. His words “and blessed him” mean that he said, “May God bless him,” or, “O God, bless him.” His words “he was the first child born in Islam” mean in Medina, among the Migrants. As for those born outside Medina to the Migrants, Abd Allah ibn Jafar in Abyssinia has been named. Among the Helpers in Medina, the first child born to them after the Hijra was Maslama ibn Makhlad, as Ibn Abi Shayba related, though al-Numan ibn Bashir has also been named."
+            "text": null
         },
         {
             "unit_id": "H-146-249-FRATERNITY-A:p1",
@@ -1445,7 +1290,7 @@
             "book_id": "146",
             "volume": "1",
             "page": "204",
-            "text": "Muhammad ibn ‘Umar informed us; Muhammad ibn ‘Abdullah informed us, from al-Zuhri, who said: Musa ibn Muhammad ibn Ibrahim al-Taymi narrated to us, from his father; ‘Abd al-Rahman ibn Abi al-Zinad narrated to us, from Ibrahim ibn Yahya ibn Zayd ibn Thabit; and Musa ibn Damrah ibn Sa‘id narrated to us, from his father. They said: When the Messenger of Allah ﷺ arrived in Madinah, he established bonds of brotherhood among the Emigrants, pairing some of them with others, and between the Emigrants and the Helpers. He paired them on the basis of truth and mutual support, and they inherited from one another after death, to the exclusion of their blood relatives. They numbered ninety men: forty-five Emigrants and forty-five Helpers. It is also said that they numbered one hundred, fifty from"
+            "text": null
         },
         {
             "unit_id": "H-146-250-FRATERNITY-B:p1",
@@ -1461,7 +1306,7 @@
             "book_id": "146",
             "volume": "1",
             "page": "205",
-            "text": "There were fifty of the Emigrants and fifty of the Helpers. This was before Badr. When the Battle of Badr took place, Allah, Exalted is He, revealed: “Those related by blood are closer to one another in the Book of Allah. Indeed, Allah is Knowing of all things.” (Surah al-Anfal 8:75) This verse abrogated what had preceded it, ending the inheritance bond of brotherhood. Each person returned to their own lineage, and their blood relatives inherited from them."
+            "text": null
         },
         {
             "unit_id": "H-146-250-FRATERNITY-ANAS:p1",
@@ -1477,7 +1322,7 @@
             "book_id": "146",
             "volume": "1",
             "page": "205",
-            "text": "‘Affan ibn Muslim reported to us: Hammad ibn Salamah reported to us, from ‘Asim al-Ahwal, from Anas ibn Malik, that the Messenger of Allah ﷺ established bonds of brotherhood between the Emigrants and the Helpers in Anas’s home."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_21:p1",
@@ -1493,7 +1338,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "144",
-            "text": "Al-Bara ibn Marur had died in Safar, a month before the Prophet ﷺ came to Medina. At his death he instructed that he be turned toward the Kaba when placed in his grave, and that was done. When the Messenger of God ﷺ arrived in Medina, he prayed over his grave."
+            "text": null
         },
         {
             "unit_id": "H-9783-1022-FIRST-DEATHS:p1",
@@ -1509,7 +1354,7 @@
             "book_id": "9783",
             "volume": "2",
             "page": "397",
-            "text": "Abu Ja‘far said: He ﷺ himself, together with his Companions from among the Emigrants and the Helpers, undertook the building of his mosque.\n\nIn this year, the mosque at Quba was built.\n\nThe first Muslim to die after his arrival in Madinah, according to what has been reported, was the owner of his lodging, Kulthum ibn al-Hidm. He lived only a short time after his arrival before he died.\n\nThen, in the year of his arrival, As‘ad ibn Zurarah, Abu Umamah, died. He died before the Messenger of Allah ﷺ had finished building his mosque, from quinsy and choking. Ibn Humayd reported to us: Salamah reported to us, saying: Muhammad ibn Ishaq said: ‘Abdullah ibn Abi Bakr reported to me, from Yahya ibn ‘Abdullah ibn ‘Abd al-Rahman, [that the Messenger of Allah ﷺ said: “How ill-timed was the death of Abu Umamah! The Jews and the Arab hypocrites say: ‘If Muhammad were a prophet, his companion would not have died.’ I have no power over anything from Allah for myself or my companion.”]"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_20:p1",
@@ -1525,7 +1370,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "144",
-            "text": "Zurara, while the mosque was being built (1), was seized by a gasp (2) and buried in al-Baqi; he was the first Muslim buried in al-Baqi. The Prophet ﷺ stayed with Abu Ayyub until the mosque was finished and a dwelling had been built for him in it. The Messenger of God ﷺ moved into it when the mosque and his dwelling were finished."
+            "text": null
         },
         {
             "unit_id": "H-9898-138-prep-2:p1",
@@ -1541,7 +1386,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "143",
-            "text": "Then the Messenger of Allah ﷺ and the Muslims began building the mosque. The Messenger of Allah ﷺ carried bricks with them, saying:\n\n“This is the carrier, not the carrier of Khaybar … This is more righteous [for our Lord] and purer.\n\nO Allah, goodness is the goodness of the Hereafter … so forgive the Helpers and the Emigrants.”\n\n‘Ammar ibn Yasir was short and curly-haired. He was carrying bricks, and dust had covered his chest. The Messenger of Allah ﷺ said to him: “Son of Sumayyah, the transgressing party will kill you!” Talq ibn ‘Ali arrived to join the Messenger of Allah ﷺ and helped the Muslims build the mosque. The Prophet ﷺ would say: “Bring the clay close to al-Yamami, for he is one of the best of you at handling it.” As‘ad ibn … died."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_14:p1",
@@ -1557,7 +1402,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1003",
-            "text": "480 — (1376) Abu Bakr ibn Abi Shayba told us: Abda told us, from Hisham, from his father, from Aisha. She said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_14:p2",
@@ -1573,7 +1418,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1003",
-            "text": "“We arrived in Medina when it was afflicted by an epidemic. Abu Bakr fell ill, and Bilal fell ill. When the Messenger of God ﷺ saw his Companions suffering, he said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_14:p3",
@@ -1589,7 +1434,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1003",
-            "text": "“O God! Make Medina dear to us as You made Mecca dear to us, or dearer. Make it healthy. Bless us in its sa and mudd measures. And turn its fever toward al-Juhfa.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_17:p1",
@@ -1605,7 +1450,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "262",
-            "text": "His words “We arrived in Medina”: in Abu Usama’s transmission from Hisham, “and it was the most epidemic-stricken land of God.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_19:p2",
@@ -1621,7 +1466,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "Ibn Ishaq added in his transmission from both Hisham and Amr ibn Abd Allah ibn Urwa, from Urwa, from Aisha, after her father’s words: “I said, ‘By God, my father does not know what he is saying.’” She said: “Then I drew near to Amir ibn Fuhayra—this was before the veil was imposed on us—and said, ‘How do you feel, Amir?’ He replied:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_19:p3",
@@ -1637,7 +1482,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "“I have felt death before tasting it … the coward’s death hangs over his head. Every man strives to the extent of his strength … like a bull defending its body with its horns.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_19:p4",
@@ -1653,7 +1498,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "At the end of it, she said: “I said, ‘Messenger of God, they are raving and do not understand, so severe is their fever.’” The addition concerning Amir ibn Fuhayra’s words was also transmitted by Malik in al-Muwatta, from Yahya ibn Said, from Aisha, with a broken chain. The remainder of the discussion of this hadith will appear in the Book of Supplications, God Most High willing."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_18:p4",
@@ -1669,7 +1514,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "At the end of the Book of Pilgrimage, the compiler adds, by the route of Abu Usama from Hisham with the same account, “Then Bilal would say:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_18:p5",
@@ -1685,7 +1530,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "“O God, curse Utba ibn Rabia, Shayba ibn Rabia, and Umayya ibn Khalaf for driving us out into an epidemic-stricken land.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_18:p6",
@@ -1701,7 +1546,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "Then the Messenger of God ﷺ said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_18:p7",
@@ -1717,7 +1562,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "“O God, make Medina dear to us ...” and the rest of the hadith."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_19:p1",
@@ -1733,7 +1578,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "263",
-            "text": "His words “for driving us out” mean: Remove them from Your mercy as they drove us out of our homeland."
+            "text": null
         },
         {
             "unit_id": "H-1727-3404-HS-AISHA-FEVER-1:p1",
@@ -1749,7 +1594,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1038",
-            "text": "She said: “We arrived in Madinah, and I was ill with fever for a month. My hair grew thick and long.”"
+            "text": null
         },
         {
             "unit_id": "H-1681-5887-HS-AISHA-ARRIVAL-1:p1",
@@ -1765,7 +1610,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "٥٦",
-            "text": "“We arrived in Madinah and stayed among Banu al-Harith ibn Khazraj. I fell ill, and my hair came out; then it grew thick and long.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_haztext:p1",
@@ -1781,7 +1626,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "518",
-            "text": "—al-Hamra al-Zuhri told him that he heard the Messenger of God ﷺ, while he was standing at al-Hazwara in the market of Mecca, say:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_haztext:p2",
@@ -1797,7 +1642,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "518",
-            "text": "“You are truly the best of God's lands and the dearest of God's lands to me. Had I not been driven out of you, I would not have left.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_10:p1",
@@ -1813,7 +1658,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "248",
-            "text": "The seventeenth hadith is that of Asma bint Abi Bakr: she conceived Abd Allah ibn al-Zubayr, meaning in Mecca."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_10:p3",
@@ -1829,7 +1674,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "248",
-            "text": "The hadith indicates that Abd Allah ibn al-Zubayr was born in the first year, and this is the view relied upon, contrary to al-Waqidi and those who followed him, who asserted that he was born in the second year, twenty months after the Hijra. An addition recorded by al-Ismaili"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_08:p1",
@@ -1845,7 +1690,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "62",
-            "text": "Khalid ibn Makhlad followed up this report, from Ali ibn Mushir, from Hisham, from his father, from Asma (may God be pleased with her):"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_08:p2",
@@ -1861,7 +1706,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "62",
-            "text": "That she migrated to the Prophet ﷺ while pregnant."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_11:p1",
@@ -1877,7 +1722,7 @@
             "book_id": "1673",
             "volume": "7",
             "page": "249",
-            "text": "through Abd Allah ibn al-Rumi, from Abu Usama, following the words “in Islam,” says: “The Muslims rejoiced greatly, for the Jews had been saying: We have cast a spell on them so that no children will be born to them.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_22:p1",
@@ -1893,7 +1738,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "146",
-            "text": "Then the Messenger of God ﷺ wished to join the Migrants and the Helpers in brotherhood in Ramadan. He entered the mosque and began saying: “Where is so-and-so son of so-and-so?” He kept counting them and sending for them until"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p1",
@@ -1909,7 +1754,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "They gathered around him,"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p2",
@@ -1925,7 +1770,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "and he said: “I will tell you something: remember it and tell those who come after you. God has chosen from among His creation certain beings—"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p3",
@@ -1941,7 +1786,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "Then he recited this verse:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p4",
@@ -1957,7 +1802,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "“God chooses messengers from the angels and from humankind”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p5",
@@ -1973,7 +1818,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "(1),"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p6",
@@ -1989,7 +1834,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "beings whom He admits to Paradise. I am choosing from among you those I wish to choose and joining you in brotherhood as God joined the angels in brotherhood. Stand, Abu Bakr!”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p7",
@@ -2005,7 +1850,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "He stood and was brought before him."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p8",
@@ -2021,7 +1866,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "He said: “You have done me a service for which God will reward you. If I were to take an intimate friend, I would take you as one. To me, you are like my shirt on my body”—"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p9",
@@ -2037,7 +1882,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "and he moved his shirt."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p10",
@@ -2053,7 +1898,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "Then he said: “Come closer (4), Umar!”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p11",
@@ -2069,7 +1914,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "He came closer, and he said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p12",
@@ -2085,7 +1930,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "“You were harsh in your opposition (5) to us, Abu Hafs. I prayed to God to strengthen (6) the religion through you or Abu Jahl, and God did so (7) through you; you were the dearer of the two (8) to God. You are with me the third of three from this community!”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p13",
@@ -2101,7 +1946,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "Then he stepped aside and joined him in brotherhood with Abu Bakr. He summoned Uthman ibn Affan"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p14",
@@ -2117,7 +1962,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "and said: “Come closer, Uthman! Come closer, Abu Amr.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p15",
@@ -2133,7 +1978,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "Uthman kept drawing near (9) until he pressed (10) his knee against the Prophet’s knee (11). Then the Prophet looked up to the sky and said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p16",
@@ -2149,7 +1994,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "“Glory be to God the Magnificent!”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p17",
@@ -2165,7 +2010,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "Then the Prophet looked at Uthman and saw that Uthman’s waist-wrap had come loose (12), so he fastened it for him (12)."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_05:p18",
@@ -2181,7 +2026,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "147",
-            "text": "Then he said: “Bring the two sides of your cloak together at your throat. You have a standing among the people of heaven. You are among those who will come to me at the Pool, [and] (13) your neck veins streaming"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p1",
@@ -2197,7 +2042,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "blood (1).”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p2",
@@ -2213,7 +2058,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "Then he summoned Abd al-Rahman ibn Awf"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p3",
@@ -2229,7 +2074,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "and said: “Come closer (2), trustworthy one of God (3)! May God grant power (4) over your property in accordance with what is right. Indeed, I have a prayer for you [in my keeping] (5) that I have delayed.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p4",
@@ -2245,7 +2090,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "He replied: “Choose what is best for me (6).”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p5",
@@ -2261,7 +2106,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "He said (7): “May God increase your wealth (8)!”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p6",
@@ -2277,7 +2122,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "Then he stepped aside and joined him in brotherhood with Uthman.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p7",
@@ -2293,7 +2138,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "Then he summoned (9) Talha and al-Zubayr"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p8",
@@ -2309,7 +2154,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "and said: “Come close to me (10).”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p9",
@@ -2325,7 +2170,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "They came close (11) to him, and he said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p10",
@@ -2341,7 +2186,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "“You two are my disciples as the disciples were to Jesus son of Mary!”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p11",
@@ -2357,7 +2202,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "Then he joined them in brotherhood.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p12",
@@ -2373,7 +2218,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "Then he summoned Sad ibn Abi Waqqas and Ammar ibn Yasir and said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p13",
@@ -2389,7 +2234,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "“Ammar, the rebellious party will kill you.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p14",
@@ -2405,7 +2250,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "Then he joined them in brotherhood.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p15",
@@ -2421,7 +2266,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "Then he summoned Umayr (12), known as Abu al-Darda, and Salman al-Farisi, and said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p16",
@@ -2437,7 +2282,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "“Salman, you are one of us, the People of the House; God has given you knowledge of the first and the last (13).”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p17",
@@ -2453,7 +2298,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "Then he said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p18",
@@ -2469,7 +2314,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "“Shall I recite to you (14), Abu al-Darda?”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p19",
@@ -2485,7 +2330,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "He replied:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p20",
@@ -2501,7 +2346,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "“May my father and mother be your ransom (15)! Yes.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p21",
@@ -2517,7 +2362,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "He said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_06:p22",
@@ -2533,7 +2378,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "148",
-            "text": "“If you criticize them, they will criticize you (16); and if"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p1",
@@ -2549,7 +2394,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "you leave them alone, they will not leave you alone (1). Lend them (2) your honor (3) for the day you are poor, and know that recompense lies ahead of you.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p2",
@@ -2565,7 +2410,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "Then he joined them in brotherhood; then he looked at his Companions’ faces"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p3",
@@ -2581,7 +2426,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "and said: “Rejoice and be glad: you will be the first to come to me at the Pool, and you will occupy the highest chambers.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p4",
@@ -2597,7 +2442,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "He looked at Abd Allah (4) ibn Umar and said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p5",
@@ -2613,7 +2458,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "“Praise be to God, who guides whomever He loves away from error.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p6",
@@ -2629,7 +2474,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "Ali ibn Abi Talib said: “Messenger of God! My spirit departed and my back was broken when I saw what you did with your Companions. If it was because of displeasure (5) with me, you are entitled to satisfaction and honor!”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p7",
@@ -2645,7 +2490,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "He said: “By the One who sent me with the truth, I kept you back only for myself. To me, you hold the position Aaron held to Moses, except that there is no prophet after me. You are my brother and my heir.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p8",
@@ -2661,7 +2506,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "He said: “Messenger of God, what do I inherit from you?”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p9",
@@ -2677,7 +2522,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "He said: “What the prophets before me left as inheritance.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p10",
@@ -2693,7 +2538,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "He asked: “What did the prophets before you leave as inheritance?”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p11",
@@ -2709,7 +2554,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "He said: “The Book of God and (6) the practice of their prophet (6). You will be with me in my palace in Paradise, with Fatima my daughter (7).”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p12",
@@ -2725,7 +2570,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "Then the Messenger of God ﷺ recited:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p13",
@@ -2741,7 +2586,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "“As brothers upon couches, facing one another.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_23:p14",
@@ -2757,7 +2602,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "149",
-            "text": "(8)."
+            "text": null
         },
         {
             "unit_id": "H-9898-140-prep-2:p1",
@@ -2773,7 +2618,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "145",
-            "text": "The Companions of the Messenger of Allah ﷺ suffered a severe fever. ‘Aishah went in to Abu Bakr while he was saying:\n“Everyone wakes among his family ... yet death is nearer than his sandal strap.”\nThen she went in to ‘Amir ibn Fuhayrah while he was saying:"
+            "text": null
         },
         {
             "unit_id": "H-9898-141-prep-1:p1",
@@ -2789,7 +2634,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "146",
-            "text": "“Everyone is defended by his own strength ... the bull protects its hide with its horns.”\nThen she went in to Bilal while he was saying:\n“Would that I knew whether I would spend a night in a valley, with izkhir and jalil all around me;\nAnd whether I would one day reach the waters of Majannah, and whether Shamah and Tufayl would appear to me.”\nBilal used to say: “O Allah, curse ‘Utbah ibn Rabi‘ah, Shaybah ibn Rabi‘ah, Abu Sufyan ibn Harb, and Abu Jahl ibn Hisham, just as they drove us out of Makkah.” ‘Aishah told the Prophet ﷺ what she had seen of their fever. The Prophet ﷺ said: “O Allah, make Madinah beloved to us as You made Makkah beloved to us, bless it for us as You blessed Makkah for us, bless its sa‘ and mudd, and transfer its fever to Mahya‘ah, which is al-Juhfah.”"
+            "text": null
         },
         {
             "unit_id": "H-9898-141-prep-2:p1",
@@ -2805,7 +2650,7 @@
             "book_id": "9898",
             "volume": "1",
             "page": "146",
-            "text": "The Messenger of Allah ﷺ entered the mosque while the people, overcome by the fever, were praying seated. The Prophet ﷺ said: “The prayer of one who prays seated is half the prayer of one who prays standing.” The people then completed the prayer standing. The Prophet ﷺ then said: “O Allah, grant Madinah twice the blessing You granted Makkah!”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_16:p1",
@@ -2821,7 +2666,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1003",
-            "text": "“Epidemic-stricken” means affected by an epidemic, originally widespread death. The word is also used of unhealthy land where illnesses abound, particularly among strangers who are not settled there."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_16:p2",
@@ -2837,7 +2682,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1003",
-            "text": "“And turn its fever toward al-Juhfa.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_16:p3",
@@ -2853,7 +2698,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1003",
-            "text": "Al-Khattabi and others said: The inhabitants of al-Juhfa at that time were Jews."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_16:p4",
@@ -2869,7 +2714,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1003",
-            "text": "Imam al-Nawawi said: This hadith contains a sign of our Prophet’s ﷺ prophethood. Since that day al-Juhfa has been avoided, and no one drinks its water without developing a fever."
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_13:p1",
@@ -2885,7 +2730,7 @@
             "book_id": "1681",
             "volume": "8",
             "page": "80",
-            "text": "6372 — Muhammad ibn Yusuf told us: Sufyan told us, from Hisham ibn Urwa, from his father, from Aisha (may God be pleased with her), who said: The Prophet ﷺ said:"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_13:p2",
@@ -2901,7 +2746,7 @@
             "book_id": "1681",
             "volume": "8",
             "page": "80",
-            "text": "“O God, make Medina dear to us as You made Mecca dear to us, or dearer still; transfer its fever to al-Juhfa. O God, bless our mudd and our sa.”"
+            "text": null
         },
         {
             "unit_id": "sp_settlement_chapter_15:p1",
@@ -2917,7 +2762,7 @@
             "book_id": "1727",
             "volume": "2",
             "page": "1003",
-            "text": "(1376) Abu Kurayb also told us: Abu Usama, Ibn Usama, and Ibn Numayr told us from Hisham ibn Urwa, with this chain, something similar."
+            "text": null
         }
     ],
     "footnotes": [],
@@ -2930,25 +2775,25 @@
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Whom does Ibn Ishaq except from his statement that no migrants remained in Mecca?",
+            "prompt": "ماذا يستثني ابن إسحاق من عبارته عن عدم بقاء المهاجرين بمكة؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "Those subjected to trial or held captive",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "المفتون أو المحبوس",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "Everyone who lived in Medina",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "كل من أقام بالمدينة",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "The occupants of the named houses",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "أهل الدور المسماة",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "Ibn Ishaq excludes those who were persecuted and those who were detained from his statement about the Muhajirun remaining in Makkah.",
+            "explanation": "يستثني ابن إسحاق المفتون والمحبوس من عبارته عن بقاء المهاجرين بمكة.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_01:p1",
@@ -2968,25 +2813,25 @@
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Whom did the Prophet ﷺ send in Ibn Hibban’s narrative to bring Sawda and his daughters?",
+            "prompt": "من بعث النبي ﷺ في سرد ابن حبان ليأتي بسودة وبناته؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "Zayd ibn Haritha and Abu Rafi",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "زيد بن حارثة وأبو رافع",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "Abd Allah ibn Abi Bakr alone",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "عبد الله بن أبي بكر وحده",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "Bilal and Abu Bakr",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "بلال وأبو بكر",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "Ibn Hibban recounts that Zayd ibn Haritha and Abu Rafi‘ were sent to Makkah to bring Sawda and the Prophet’s ﷺ daughters; he then mentions Abu Bakr sending Ibn Uraiqit concerning his family.",
+            "explanation": "يسرد ابن حبان بعث زيد بن حارثة وأبي رافع إلى مكة لإحضار سودة وبنات النبي ﷺ؛ ثم يذكر بعث أبي بكر ابن أريقط في شأن أهله.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_01:p1",
@@ -3006,25 +2851,25 @@
             "step_id": "hch_settlement",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "Does this passage mention Abd al-Rahman ibn Awf being made a brother to Sad ibn al-Rabi?",
+            "prompt": "هل يذكر هذا المقطع مؤاخاة عبد الرحمن بن عوف بسعد بن الربيع؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "No; it mentions him with Uthman",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "لا؛ يذكره مع عثمان",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "Yes; it recounts their conversation in the market",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "نعم؛ يروي حوارهما في السوق",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "Yes; it calls Sad his brother",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "نعم؛ يسمي سعدًا أخاه",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "In the continuation of Ibn Hibban’s report, Abd al-Rahman ibn Awf is mentioned, followed by the statement that he was paired with Uthman; this passage does not mention him being paired with Sa‘d ibn al-Rabi‘.",
+            "explanation": "في تتمة خبر ابن حبان، يذكر عبد الرحمن بن عوف ثم يقول إنه آخى بينه وبين عثمان؛ ولا يذكر في هذا الموضع مؤاخاته بسعد بن الربيع.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_05:p1",
@@ -3090,25 +2935,25 @@
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Where does Asma say she gave birth to Abd Allah ibn al-Zubayr?",
+            "prompt": "أين تقول أسماء إنها ولدت عبد الله بن الزبير؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "At Quba",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "بقباء",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "In Mecca",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "بمكة",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "At al-Juhfa",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "بالجحفة",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "Asma says that she settled in Quba and gave birth there to Abd Allah ibn al-Zubayr, then brought him to the Prophet ﷺ.",
+            "explanation": "تقول أسماء إنها نزلت بقباء وولدت عبد الله بن الزبير فيها، ثم أتت به النبي ﷺ.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_07:p1",
@@ -3125,25 +2970,25 @@
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What does the follow-up report add about Asma?",
+            "prompt": "ما الذي تضيفه المتابعة عن أسماء؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "That she migrated while pregnant",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "أنها هاجرت وهي حبلى",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "That she specified the day of birth",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "أنها حددت يوم الولادة",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "That she named the location of her house",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "أنها سمت موضع بيتها",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "Al-Bukhari’s corroborating report adds that Asma migrated to the Prophet ﷺ while pregnant; it does not include the birth and tahnik scene found in the other report.",
+            "explanation": "تضيف متابعة البخاري أن أسماء هاجرت إلى النبي ﷺ وهي حبلى؛ ولا تورد مشهد الولادة والتحنيك الوارد في الخبر الآخر.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_07:p1",
@@ -3160,25 +3005,25 @@
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What does Aisha’s account relate about the newborn?",
+            "prompt": "ما الذي يرويه خبر عائشة عن المولود؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "A date the Prophet ﷺ chewed and placed in the baby’s mouth",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "تمرة لاكها النبي ﷺ وأدخلها في فيه",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "The prayer to move the fever to al-Juhfa",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "دعاء تحويل الحمى إلى الجحفة",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "The account of brotherhood with Uthman",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "حديث المؤاخاة مع عثمان",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "In Aisha’s report, the Prophet ﷺ took a date, chewed it, then placed it in Abd Allah ibn al-Zubayr’s mouth; this report does not state where he was born.",
+            "explanation": "في خبر عائشة، أخذ النبي ﷺ تمرة فلاكها ثم أدخلها في فم عبد الله بن الزبير؛ وهذا الخبر لا يسرد مكان ولادته.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_07:p1",
@@ -3195,25 +3040,25 @@
             "step_id": "hch_settlement",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "To whom does the preference for the first year belong in the reading shown?",
+            "prompt": "لمن يرجع ترجيح السنة الأولى في القراءة المعروضة؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "Ibn Hajar, in his commentary",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "لابن حجر في شرحه",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "An explicit date in Asma’s words",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "إلى تاريخ صريح في كلام أسماء",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "According to al-Waqidi",
-                    "feedback": "According to Ibn Hajar, al-Waqidi and those who followed him were certain it was the second year; they did not prefer the first year."
+                    "text": "إلى قول الواقدي",
+                    "feedback": "ينقل ابن حجر أن الواقدي ومن تبعه جزموا بالسنة الثانية، لا أنهم رجّحوا السنة الأولى."
                 }
             ],
-            "explanation": "Ibn Hajar considers Abd Allah ibn al-Zubayr’s birth to have been in the first year, contrary to al-Waqidi and those who followed him, who were certain it was in the second year. This is Ibn Hajar’s preference in his commentary, not an explicit date in Asma’s words.",
+            "explanation": "يرجّح ابن حجر أن مولد عبد الله بن الزبير كان في السنة الأولى، خلافًا لما جزم به الواقدي ومن تبعه من السنة الثانية؛ وهذا ترجيح في شرحه، لا تاريخ صريح في كلام أسماء.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_10:p1",
@@ -3230,25 +3075,25 @@
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Who spoke the verses longing for the valley and Majanna?",
+            "prompt": "من قال أبيات الحنين إلى الوادي ومجنة؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "Bilal",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "بلال",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "Abu Bakr",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "أبو بكر",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "The Prophet ﷺ",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "النبي ﷺ",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "Aisha attributes the verses about al-Wadi and Majanna to Bilal, and mentions Abu Bakr’s verses about the fever before them.",
+            "explanation": "تنسب عائشة أبيات الوادي ومجنة إلى بلال، وتذكر قبلها شعر أبي بكر في الحمى.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_12:p1",
@@ -3272,25 +3117,25 @@
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What does the Prophet’s prayer ask for in Muslim’s version?",
+            "prompt": "ماذا يطلب الدعاء النبوي في رواية مسلم؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "Love of Medina, its health, blessing in its measures, and transfer of the fever",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "حب المدينة وصحتها وبركة مكيالها وتحويل الحمى",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "A date for the birth of Ibn al-Zubayr",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "تحديد يوم ولادة ابن الزبير",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "The migration of all migrants with their possessions",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "انتقال جميع المهاجرين مع أموالهم",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "After describing the epidemic in Madinah and the illness of Abu Bakr and Bilal, Aisha recounts the Prophet’s ﷺ prayer for love of Madinah, its health, blessing in its sa‘ and mudd, and for its fever to be moved to al-Juhfa.",
+            "explanation": "بعد وصف عائشة وباء المدينة ومرض أبي بكر وبلال، تروي دعاء النبي ﷺ بحب المدينة وصحتها والبركة في صاعها ومدها وتحويل حماها إلى الجحفة.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_12:p1",
@@ -3314,25 +3159,25 @@
             "step_id": "hch_settlement",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "To whom are the additional verses attributed in Ibn Hajar’s quotation from Ibn Ishaq?",
+            "prompt": "لمن تنسب الزيادة الشعرية في نقل ابن حجر عن ابن إسحاق؟",
             "options": [
                 {
                     "option_id": "right",
-                    "text": "Amir ibn Fuhayra",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "text": "لعامر بن فهيرة",
+                    "feedback": "صحيح؛ هذا ما تدل عليه القراءة المحددة."
                 },
                 {
                     "option_id": "other",
-                    "text": "Bilal alone",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "لبلال وحده",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 },
                 {
                     "option_id": "third",
-                    "text": "Al-Khattabi",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "text": "للخطابي",
+                    "feedback": "ليس هذا ما يورده النص المختار؛ راجع صوت المتكلم وحدود الخبر."
                 }
             ],
-            "explanation": "Ibn Hajar transmits from Ibn Ishaq an additional account in which Aisha asks Amir ibn Fuhayra and he recites his verses; he then notes that Malik’s chain for this addition from Aisha is disconnected.",
+            "explanation": "ينقل ابن حجر عن ابن إسحاق زيادة سؤال عائشة عامر بن فهيرة وأبياته؛ ثم يذكر أن طريق مالك لهذه الزيادة عن عائشة منقطع.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_16:p1",

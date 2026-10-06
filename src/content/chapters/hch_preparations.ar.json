@@ -1,37 +1,27 @@
 {
     "chapter_id": "hch_preparations",
-    "locale": "en",
+    "locale": "ar",
     "status": "story",
-    "packet_id": "hch_preparations:en:story",
+    "packet_id": "hch_preparations:ar:story",
     "stage": "preparations",
-    "title": "Permission and Preparations",
-    "reader_question": "How did the long wait for permission end, and how were the Prophet ﷺ and Abu Bakr made ready to leave?",
+    "title": "الإذن بالهجرة والتجهّز لها",
+    "reader_question": "كيف انتهى الانتظار الطويل للإذن، وكيف تجهّز النبي ﷺ وأبو بكر للخروج؟",
     "overview": [
         {
             "paragraph_id": "hch_preparations_o1",
-            "text": "After the pledges at al-‘Aqabah, the Muslims of Makkah set out for Madinah in small groups, to brothers and a home where they would be safe. The Prophet ﷺ stayed behind, waiting for Allah's permission to follow them. Abu Bakr was ready to go too, but the Prophet ﷺ asked him to wait, hinting that he might not travel alone. So Abu Bakr waited, and while he waited he fed two riding camels. Then one day, at an hour when no one expected a visitor, the Prophet ﷺ came to his door.",
+            "text": "بعد بيعتَي العقبة خرج مسلمو مكة إلى المدينة أرسالًا، إلى إخوانٍ ودارٍ يأمنون بها، وأقام النبي ﷺ بمكة ينتظر أن يأذن الله له باللحاق بهم. وتجهّز أبو بكر للخروج هو أيضًا، فاستمهله النبي ﷺ ملمّحًا إلى أنه قد لا يمضي وحده؛ فانتظر أبو بكر، وجعل في انتظاره يعلف راحلتين. ثم جاءه النبي ﷺ ذات يوم إلى بابه، في ساعةٍ لم يكن أحدٌ يرتقب فيها زائرًا.",
             "parts": [
-                { "text": "After the pledges at " },
-                { "text": "al-‘Aqabah", "term": "aqabah" },
-                { "text": ", the Muslims of " },
-                { "text": "Makkah", "term": "makkah" },
-                { "text": " set out for " },
-                { "text": "Madinah", "term": "madinah" },
                 {
-                    "text": " in small groups, to brothers and a home where they would be safe. The Prophet ﷺ stayed behind, waiting for "
+                    "text": "بعد بيعتَي العقبة خرج مسلمو مكة إلى المدينة أرسالًا، إلى إخوانٍ ودارٍ يأمنون بها، وأقام النبي ﷺ بمكة ينتظر أن يأذن الله له باللحاق بهم."
                 },
-                { "text": "Allah", "term": "allah" },
-                { "text": "'s permission to follow them." },
                 { "note": 1 },
-                { "text": " " },
-                { "text": "Abu Bakr", "term": "abubakr" },
                 {
-                    "text": " was ready to go too, but the Prophet ﷺ asked him to wait, hinting that he might not travel alone. So Abu Bakr waited, and while he waited he fed two riding camels."
+                    "text": " وتجهّز أبو بكر للخروج هو أيضًا، فاستمهله النبي ﷺ ملمّحًا إلى أنه قد لا يمضي وحده؛ فانتظر أبو بكر، وجعل في انتظاره يعلف راحلتين."
                 },
                 { "note": 2 },
                 { "note": 3 },
                 {
-                    "text": " Then one day, at an hour when no one expected a visitor, the Prophet ﷺ came to his door."
+                    "text": " ثم جاءه النبي ﷺ ذات يوم إلى بابه، في ساعةٍ لم يكن أحدٌ يرتقب فيها زائرًا."
                 },
                 { "note": 4 }
             ]
@@ -40,64 +30,58 @@
     "account": [
         {
             "section_id": "hch_preparations_s1",
-            "title": "Waiting in Makkah",
+            "title": "الانتظار في مكة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_s1_1",
-                    "text": "When the Prophet ﷺ sent the Muslims of Makkah ahead, he had told them what the place was like: \"I have been shown the land you will emigrate to, a land of palm trees between two lava fields.\" They left in small groups, and most of those who had once emigrated to Abyssinia came back and went on to Madinah as well.",
+                    "text": "وكان النبي ﷺ حين أمر مسلمي مكة بالخروج قد وصف لهم الأرض التي يقصدونها، فقال: «إني أُريتُ دارَ هجرتكم، ذاتَ نخلٍ بين لابتين»، أي بين حرّتين. فخرجوا أرسالًا، ورجع إلى المدينة كذلك عامّةُ من كان قد هاجر إلى أرض الحبشة.",
                     "parts": [
                         {
-                            "text": "When the Prophet ﷺ sent the Muslims of Makkah ahead, he had told them what the place was like: \"I have been shown the land you will emigrate to, a land of palm trees between two lava fields.\""
+                            "text": "وكان النبي ﷺ حين أمر مسلمي مكة بالخروج قد وصف لهم الأرض التي يقصدونها، فقال: «إني أُريتُ دارَ هجرتكم، ذاتَ نخلٍ بين لابتين»، أي بين حرّتين."
                         },
                         { "note": 2 },
-                        { "text": " They left in small groups," },
+                        { "text": " فخرجوا أرسالًا،" },
                         { "note": 1 },
-                        { "text": " and most of those who had once emigrated to " },
-                        { "text": "Abyssinia", "term": "abyssinia" },
-                        { "text": " came back and went on to Madinah as well." },
+                        { "text": " ورجع إلى المدينة كذلك عامّةُ من كان قد هاجر إلى أرض الحبشة." },
                         { "note": 2 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_preparations_s1_2",
-                    "text": "The Prophet ﷺ stayed behind in Makkah, waiting for his Lord to give him permission to leave. Before long, of the emigrants only ‘Ali ibn Abi Talib and Abu Bakr were left with him, apart from those who were held back by force or had been turned from their faith.",
+                    "text": "وأقام النبي ﷺ بمكة ينتظر أن يأذن له ربّه في الخروج منها. وما لبثت مكة أن خلت من المهاجرين، فلم يتخلّف معه منهم إلا عليُّ بن أبي طالب وأبو بكر، سوى من حُبِس كرهًا أو فُتِن عن دينه.",
                     "parts": [
-                        {
-                            "text": "The Prophet ﷺ stayed behind in Makkah, waiting for his Lord to give him permission to leave."
-                        },
+                        { "text": "وأقام النبي ﷺ بمكة ينتظر أن يأذن له ربّه في الخروج منها." },
                         { "note": 1 },
                         {
-                            "text": " Before long, of the emigrants only ‘Ali ibn Abi Talib and Abu Bakr were left with him, apart from those who were held back by force or had been turned from their faith."
+                            "text": " وما لبثت مكة أن خلت من المهاجرين، فلم يتخلّف معه منهم إلا عليُّ بن أبي طالب وأبو بكر، سوى من حُبِس كرهًا أو فُتِن عن دينه."
                         },
                         { "note": 3 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_preparations_s1_3",
-                    "text": "Abu Bakr asked him again and again for permission to emigrate. Each time the answer was the same: \"Do not hurry. Perhaps Allah will give you a companion.\" And each time Abu Bakr hoped that the companion would be the Prophet ﷺ himself. Once he had made himself ready to go, and the Prophet ﷺ stopped him: \"Take your time, for I hope to be given permission.\" \"Do you really hope for that, may my father be your ransom?\" Abu Bakr asked. \"Yes.\"",
+                    "text": "وكان أبو بكر كثيرًا ما يستأذنه في الهجرة، فيأتيه الجواب في كل مرة واحدًا: «لا تعجل، لعلّ الله يجعل لك صاحبًا»، فيطمع أبو بكر أن يكون ذلك الصاحبُ هو النبيَّ ﷺ نفسَه. وتجهّز مرةً للخروج، فاستوقفه النبي ﷺ قائلًا: «على رِسْلِك، فإني أرجو أن يُؤذَن لي». فقال أبو بكر: «وهل ترجو ذلك بأبي أنت؟» قال: «نعم».",
                     "parts": [
                         {
-                            "text": "Abu Bakr asked him again and again for permission to emigrate. Each time the answer was the same: \"Do not hurry. Perhaps Allah will give you a companion.\" And each time Abu Bakr hoped that the companion would be the Prophet ﷺ himself."
+                            "text": "وكان أبو بكر كثيرًا ما يستأذنه في الهجرة، فيأتيه الجواب في كل مرة واحدًا: «لا تعجل، لعلّ الله يجعل لك صاحبًا»، فيطمع أبو بكر أن يكون ذلك الصاحبُ هو النبيَّ ﷺ نفسَه."
                         },
                         { "note": 3 },
                         {
-                            "text": " Once he had made himself ready to go, and the Prophet ﷺ stopped him: \"Take your time, for I hope to be given permission.\" \"Do you really hope for that, may my father be your ransom?\" Abu Bakr asked. \"Yes.\""
+                            "text": " وتجهّز مرةً للخروج، فاستوقفه النبي ﷺ قائلًا: «على رِسْلِك، فإني أرجو أن يُؤذَن لي». فقال أبو بكر: «وهل ترجو ذلك بأبي أنت؟» قال: «نعم»."
                         },
                         { "note": 2 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_preparations_s1_4",
-                    "text": "So Abu Bakr held himself back, to travel with him. He was a man of means, and he bought two riding camels and kept them at his house. For four months he fed them on the leaves of the samur, a desert acacia, to have them ready for the day they would be needed.",
+                    "text": "فحبس أبو بكر نفسه على النبي ﷺ ليصحبه. وكان رجلًا ذا مال، فابتاع راحلتين واحتبسهما في داره. وظلّ أربعة أشهر يعلفهما ورقَ السَّمُر، وهو الخَبَط، يُعِدّهما لليوم الذي يُحتاج إليهما فيه.",
                     "parts": [
                         {
-                            "text": "So Abu Bakr held himself back, to travel with him. He was a man of means, and he bought two riding camels and kept them at his house."
+                            "text": "فحبس أبو بكر نفسه على النبي ﷺ ليصحبه. وكان رجلًا ذا مال، فابتاع راحلتين واحتبسهما في داره."
                         },
                         { "note": 5 },
-                        { "text": " For four months he fed them on the leaves of the " },
-                        { "text": "samur", "term": "samur" },
                         {
-                            "text": ", a desert acacia, to have them ready for the day they would be needed."
+                            "text": " وظلّ أربعة أشهر يعلفهما ورقَ السَّمُر، وهو الخَبَط، يُعِدّهما لليوم الذي يُحتاج إليهما فيه."
                         },
                         { "note": 2 },
                         { "note": 5 }
@@ -107,18 +91,18 @@
         },
         {
             "section_id": "hch_preparations_s2",
-            "title": "A visit at noon",
+            "title": "زيارةٌ في الظهيرة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_s2_1",
-                    "text": "Every day, without fail, the Prophet ﷺ came to Abu Bakr's house at one end of the day, in the morning or in the evening. One day ‘Aishah and her family were sitting in Abu Bakr's house in the full heat of noon when someone said to Abu Bakr, \"Here is the Messenger of Allah ﷺ, with his head covered, at an hour when he never comes to us.\" \"May my father and mother be his ransom,\" said Abu Bakr. \"By Allah, only something important brings him at this hour.\"",
+                    "text": "وكان النبي ﷺ لا يُخطئ أن يأتي بيت أبي بكر كلَّ يوم أحدَ طرفَي النهار، إما بُكرةً وإما عشيّة. فبينما عائشة وأهلها جلوسٌ يومًا في بيت أبي بكر في نحر الظهيرة، قال قائلٌ لأبي بكر: «هذا رسول الله ﷺ متقنّعًا، في ساعةٍ لم يكن يأتينا فيها». فقال أبو بكر: «فداءٌ له أبي وأمي، والله ما جاء به في هذه الساعة إلا أمر».",
                     "parts": [
                         {
-                            "text": "Every day, without fail, the Prophet ﷺ came to Abu Bakr's house at one end of the day, in the morning or in the evening."
+                            "text": "وكان النبي ﷺ لا يُخطئ أن يأتي بيت أبي بكر كلَّ يوم أحدَ طرفَي النهار، إما بُكرةً وإما عشيّة."
                         },
                         { "note": 6 },
                         {
-                            "text": " One day ‘Aishah and her family were sitting in Abu Bakr's house in the full heat of noon when someone said to Abu Bakr, \"Here is the Messenger of Allah ﷺ, with his head covered, at an hour when he never comes to us.\" \"May my father and mother be his ransom,\" said Abu Bakr. \"By Allah, only something important brings him at this hour.\""
+                            "text": " فبينما عائشة وأهلها جلوسٌ يومًا في بيت أبي بكر في نحر الظهيرة، قال قائلٌ لأبي بكر: «هذا رسول الله ﷺ متقنّعًا، في ساعةٍ لم يكن يأتينا فيها». فقال أبو بكر: «فداءٌ له أبي وأمي، والله ما جاء به في هذه الساعة إلا أمر»."
                         },
                         { "note": 6 },
                         { "note": 4 }
@@ -126,15 +110,15 @@
                 },
                 {
                     "paragraph_id": "hch_preparations_s2_2",
-                    "text": "The Prophet ﷺ asked to come in, and was let in. Abu Bakr moved back from his couch so that he could sit. Only Abu Bakr's two daughters were with him, ‘Aishah and Asma. \"Send out those who are with you,\" the Prophet ﷺ said. \"They are only my two daughters,\" Abu Bakr answered. \"What is it, may my father and mother be your ransom?\" \"Allah has given me permission to leave, and to emigrate.\"",
+                    "text": "فاستأذن النبي ﷺ فأُذن له، فلما دخل تأخّر له أبو بكر عن سريره، فجلس. ولم يكن عند أبي بكر إلا ابنتاه: عائشة وأسماء. فقال النبي ﷺ: «أخرِجْ مَن عندك». فقال أبو بكر: «إنما هما ابنتاي، وما ذاك؟ فداك أبي وأمي!» قال: «إن الله قد أذن لي في الخروج والهجرة».",
                     "parts": [
                         {
-                            "text": "The Prophet ﷺ asked to come in, and was let in. Abu Bakr moved back from his couch so that he could sit. Only Abu Bakr's two daughters were with him, ‘Aishah and Asma."
+                            "text": "فاستأذن النبي ﷺ فأُذن له، فلما دخل تأخّر له أبو بكر عن سريره، فجلس. ولم يكن عند أبي بكر إلا ابنتاه: عائشة وأسماء."
                         },
                         { "note": 6 },
                         { "note": 7 },
                         {
-                            "text": " \"Send out those who are with you,\" the Prophet ﷺ said. \"They are only my two daughters,\" Abu Bakr answered. \"What is it, may my father and mother be your ransom?\" \"Allah has given me permission to leave, and to emigrate.\""
+                            "text": " فقال النبي ﷺ: «أخرِجْ مَن عندك». فقال أبو بكر: «إنما هما ابنتاي، وما ذاك؟ فداك أبي وأمي!» قال: «إن الله قد أذن لي في الخروج والهجرة»."
                         },
                         { "note": 4 },
                         { "note": 7 }
@@ -144,28 +128,26 @@
         },
         {
             "section_id": "hch_preparations_s3",
-            "title": "Companionship",
+            "title": "الصُّحبة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_s3_1",
-                    "text": "\"Companionship, Messenger of Allah?\" Abu Bakr asked. \"Companionship,\" he answered. ‘Aishah never forgot what she saw next. \"By Allah, before that day I never knew that anyone could weep for joy,\" she said, \"until I saw Abu Bakr weeping that day.\"",
+                    "text": "فقال أبو بكر: «الصُّحبةَ يا رسول الله؟» قال: «الصُّحبة». ولم تنسَ عائشة ما رأته بعد ذلك، قالت: «فوالله ما شعرتُ قطُّ قبل ذلك اليوم أن أحدًا يبكي من الفرح، حتى رأيتُ أبا بكر يبكي يومئذ».",
                     "parts": [
-                        {
-                            "text": "\"Companionship, Messenger of Allah?\" Abu Bakr asked. \"Companionship,\" he answered."
-                        },
+                        { "text": "فقال أبو بكر: «الصُّحبةَ يا رسول الله؟» قال: «الصُّحبة»." },
                         { "note": 7 },
                         {
-                            "text": " ‘Aishah never forgot what she saw next. \"By Allah, before that day I never knew that anyone could weep for joy,\" she said, \"until I saw Abu Bakr weeping that day.\""
+                            "text": " ولم تنسَ عائشة ما رأته بعد ذلك، قالت: «فوالله ما شعرتُ قطُّ قبل ذلك اليوم أن أحدًا يبكي من الفرح، حتى رأيتُ أبا بكر يبكي يومئذ»."
                         },
                         { "note": 7 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_preparations_s3_2",
-                    "text": "Then Abu Bakr turned to the camels he had waited with for so long. \"Prophet of Allah, these are two riding camels I have kept ready for this.\" \"Take one of them,\" Abu Bakr said. \"At its price,\" the Prophet ﷺ answered.",
+                    "text": "ثم التفت أبو بكر إلى الراحلتين اللتين طال انتظاره بهما، فقال: «يا نبيَّ الله، إن هاتين راحلتان قد كنتُ أعددتُهما لهذا»، ثم قال: «فخذْ بأبي أنت يا رسول الله إحدى راحلتيَّ هاتين». فقال النبي ﷺ: «بالثمن».",
                     "parts": [
                         {
-                            "text": "Then Abu Bakr turned to the camels he had waited with for so long. \"Prophet of Allah, these are two riding camels I have kept ready for this.\" \"Take one of them,\" Abu Bakr said. \"At its price,\" the Prophet ﷺ answered."
+                            "text": "ثم التفت أبو بكر إلى الراحلتين اللتين طال انتظاره بهما، فقال: «يا نبيَّ الله، إن هاتين راحلتان قد كنتُ أعددتُهما لهذا»، ثم قال: «فخذْ بأبي أنت يا رسول الله إحدى راحلتيَّ هاتين». فقال النبي ﷺ: «بالثمن»."
                         },
                         { "note": 4 },
                         { "note": 7 }
@@ -175,33 +157,23 @@
         },
         {
             "section_id": "hch_preparations_s4",
-            "title": "A guide for the road",
+            "title": "دليلٌ للطريق",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_s4_1",
-                    "text": "The two needed someone who knew the desert roads well. They hired ‘Abdullah ibn Urayqit, of the tribe of Banu al-Dil, a khirrit, a guide skilled at finding the way. He was a sworn ally of the family of al-‘As ibn Wa'il of Quraysh, and he still followed the religion of Quraysh. Yet they trusted him. They handed their two camels over to him, and he kept and grazed them until the time they had set. They agreed where and when he would bring the camels back: at the cave of Thawr, after three nights, on the morning of the third. From there he would lead them by the coast road.",
+                    "text": "وكان لا بدّ لهما من رجلٍ خبيرٍ بدروب البادية، فاستأجرا عبد الله بن أُرَيْقِط، من بني الدِّيل، هاديًا خِرِّيتًا، والخِرِّيت الماهر بالهداية. وكان قد غمس حِلفًا في آل العاص بن وائل السهمي من قريش، وكان لا يزال على دين قريش. ومع ذلك أمِناه، فدفعا إليه راحلتيهما، فكانتا عنده يرعاهما لميعادهما. وواعداه غارَ ثور بعد ثلاث ليال، يأتيهما فيه براحلتيهما صبحَ الثالثة. ومن هناك يأخذ بهما طريق الساحل.",
                     "parts": [
                         {
-                            "text": "The two needed someone who knew the desert roads well. They hired ‘Abdullah ibn Urayqit, of the tribe of "
+                            "text": "وكان لا بدّ لهما من رجلٍ خبيرٍ بدروب البادية، فاستأجرا عبد الله بن أُرَيْقِط، من بني الدِّيل، هاديًا خِرِّيتًا، والخِرِّيت الماهر بالهداية. وكان قد غمس حِلفًا في آل العاص بن وائل السهمي من قريش، وكان لا يزال على دين قريش."
                         },
-                        { "text": "Banu", "term": "banu" },
-                        { "text": " al-Dil, a " },
-                        { "text": "khirrit", "term": "khirrit" },
-                        {
-                            "text": ", a guide skilled at finding the way. He was a sworn ally of the family of al-‘As ibn Wa'il of "
-                        },
-                        { "text": "Quraysh", "term": "quraysh" },
-                        { "text": ", and he still followed the religion of Quraysh." },
                         { "note": 7 },
                         { "note": 8 },
                         {
-                            "text": " Yet they trusted him. They handed their two camels over to him, and he kept and grazed them until the time they had set. They agreed where and when he would bring the camels back: at the cave of "
+                            "text": " ومع ذلك أمِناه، فدفعا إليه راحلتيهما، فكانتا عنده يرعاهما لميعادهما. وواعداه غارَ ثور بعد ثلاث ليال، يأتيهما فيه براحلتيهما صبحَ الثالثة."
                         },
-                        { "text": "Thawr", "term": "thawr" },
-                        { "text": ", after three nights, on the morning of the third." },
                         { "note": 7 },
                         { "note": 8 },
-                        { "text": " From there he would lead them by the coast road." },
+                        { "text": " ومن هناك يأخذ بهما طريق الساحل." },
                         { "note": 8 }
                     ]
                 }
@@ -209,40 +181,38 @@
         },
         {
             "section_id": "hch_preparations_s5",
-            "title": "Asma's waistband",
+            "title": "نطاقا أسماء",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_s5_1",
-                    "text": "At home, the family worked as quickly as they could. \"We got them ready with all speed,\" ‘Aishah said, \"and made them food for the journey in a bag.\" Asma prepared the provisions in her father's house. But when it came to tying up the bag of food and the waterskin, there was nothing to tie them with.",
+                    "text": "وفي البيت جدّ أهله في التجهيز ما وسعهم. قالت عائشة: «فجهّزناهما أحثَّ الجهاز، وصنعنا لهما سُفرةً في جِراب». وكانت أسماء هي التي صنعت الزاد في بيت أبيها، فلما جاءت تشدّ السفرة والسقاء لم تجد ما تربطهما به.",
                     "parts": [
                         {
-                            "text": "At home, the family worked as quickly as they could. \"We got them ready with all speed,\" ‘Aishah said, \"and made them food for the journey in a bag.\""
+                            "text": "وفي البيت جدّ أهله في التجهيز ما وسعهم. قالت عائشة: «فجهّزناهما أحثَّ الجهاز، وصنعنا لهما سُفرةً في جِراب»."
                         },
                         { "note": 9 },
                         {
-                            "text": " Asma prepared the provisions in her father's house. But when it came to tying up the bag of food and the waterskin, there was nothing to tie them with."
+                            "text": " وكانت أسماء هي التي صنعت الزاد في بيت أبيها، فلما جاءت تشدّ السفرة والسقاء لم تجد ما تربطهما به."
                         },
                         { "note": 10 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_preparations_s5_2",
-                    "text": "\"By Allah, I can find nothing to tie them with except my waistband,\" Asma told her father. It was the band of cloth she wore around her waist. \"Split it in two,\" Abu Bakr said. \"Tie the waterskin with one piece and the food with the other.\" She did, and from that day she was known as Dhat al-Nitaqayn, \"she of the two waistbands.\"",
+                    "text": "فقالت لأبيها: «والله ما أجد شيئًا أربط به إلا نطاقي»، والنطاق شُقّةٌ من القماش كانت تشدّها على وسطها. فقال أبو بكر: «فشُقّيه باثنين فاربطيه: بواحدٍ السقاءَ، وبالآخرِ السفرةَ». ففعلت، فسُمّيت من يومئذٍ ذاتَ النطاقين.",
                     "parts": [
                         {
-                            "text": "\"By Allah, I can find nothing to tie them with except my waistband,\" Asma told her father. It was the band of cloth she wore around her waist. \"Split it in two,\" Abu Bakr said. \"Tie the waterskin with one piece and the food with the other.\" She did, and from that day she was known as "
+                            "text": "فقالت لأبيها: «والله ما أجد شيئًا أربط به إلا نطاقي»، والنطاق شُقّةٌ من القماش كانت تشدّها على وسطها. فقال أبو بكر: «فشُقّيه باثنين فاربطيه: بواحدٍ السقاءَ، وبالآخرِ السفرةَ». ففعلت، فسُمّيت من يومئذٍ ذاتَ النطاقين."
                         },
-                        { "text": "Dhat al-Nitaqayn", "term": "nitaqayn" },
-                        { "text": ", \"she of the two waistbands.\"" },
                         { "note": 10 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_preparations_s5_3",
-                    "text": "The camels were with the guide, a companion had been granted, and the provisions were tied and ready. After months of hoping, Abu Bakr's waiting was over; the Prophet ﷺ had his permission to go.",
+                    "text": "فالراحلتان عند الدليل، والصحبة قد أُعطيت، والزاد مشدودٌ مُعَدّ. وبعد أشهرٍ من الرجاء انقضى انتظار أبي بكر، وصار للنبي ﷺ الإذنُ بالخروج.",
                     "parts": [
                         {
-                            "text": "The camels were with the guide, a companion had been granted, and the provisions were tied and ready. After months of hoping, Abu Bakr's waiting was over; the Prophet ﷺ had his permission to go."
+                            "text": "فالراحلتان عند الدليل، والصحبة قد أُعطيت، والزاد مشدودٌ مُعَدّ. وبعد أشهرٍ من الرجاء انقضى انتظار أبي بكر، وصار للنبي ﷺ الإذنُ بالخروج."
                         },
                         { "note": 4 },
                         { "note": 7 },
@@ -255,61 +225,55 @@
     "outline": [
         {
             "point_id": "hch_preparations_pt1",
-            "text": "Waiting in Makkah",
+            "text": "الانتظار في مكة",
             "section_id": "hch_preparations_s1"
         },
         {
             "point_id": "hch_preparations_pt2",
-            "text": "\"Do not hurry\": Abu Bakr's two camels",
+            "text": "«لا تعجل»: راحلتا أبي بكر",
             "section_id": "hch_preparations_s1"
         },
         {
             "point_id": "hch_preparations_pt3",
-            "text": "A visit at noon",
+            "text": "زيارةٌ في الظهيرة",
             "section_id": "hch_preparations_s2"
         },
         {
             "point_id": "hch_preparations_pt4",
-            "text": "\"Companionship\"",
+            "text": "«الصُّحبة»",
             "section_id": "hch_preparations_s3"
         },
         {
             "point_id": "hch_preparations_pt5",
-            "text": "A guide for the road",
+            "text": "دليلٌ للطريق",
             "section_id": "hch_preparations_s4"
         },
         {
             "point_id": "hch_preparations_pt6",
-            "text": "Asma's waistband",
+            "text": "نطاقا أسماء",
             "section_id": "hch_preparations_s5"
         }
     ],
     "in_depth": [
         {
             "section_id": "hch_preparations_d1",
-            "title": "Two tellings of the noon visit",
+            "title": "روايتان لزيارة الظهيرة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_d1_1",
-                    "text": "The visit comes to us from ‘Aishah through ‘Urwah ibn al-Zubayr, in two lines of transmission. In al-Zuhri's, recorded by al-Bukhari, the Prophet ﷺ comes with his head covered, Abu Bakr answers \"they are your family\", the permission is \"I have been given permission to leave\", and Abu Bakr's offer of a camel ends with \"At its price.\" In Ibn Ishaq's, which he heard from \"someone I do not suspect\" from ‘Urwah, ‘Aishah adds that the Prophet ﷺ normally came morning or evening, that she and Asma were the only ones present, and that Abu Bakr wept for joy; it has \"my two daughters\" and \"Allah has given me permission to leave, and to emigrate.\" The story above draws on both, and gives each line where it is the only one to have it.",
+                    "text": "تصلنا الزيارة عن عائشة من طريق عروة بن الزبير، في روايتين. ففي رواية الزهري التي أخرجها البخاري يأتي النبي ﷺ متقنّعًا، ويجيب أبو بكر: «إنما هم أهلك»، ويأتي الإذن بلفظ: «فإني قد أُذن لي في الخروج»، وينتهي عرض أبي بكر للراحلة بقوله ﷺ: «بالثمن». وفي رواية ابن إسحاق، وقد سمعها ممن «لا أتّهم» عن عروة، تزيد عائشة أن النبي ﷺ كان يأتيهم عادةً بُكرةً أو عشيّة، وأنه لم يكن في البيت إلا هي وأسماء، وأن أبا بكر بكى من الفرح؛ وفيها «إنما هما ابنتاي»، و«إن الله قد أذن لي في الخروج والهجرة». والقصة فيما تقدّم تجمع بين الروايتين، وتأخذ من كلٍّ منهما ما انفردت به.",
                     "parts": [
                         {
-                            "text": "The visit comes to us from ‘Aishah through ‘Urwah ibn al-Zubayr, in two lines of transmission. In al-Zuhri's, recorded by "
-                        },
-                        { "text": "al-Bukhari", "term": "bukhari" },
-                        {
-                            "text": ", the Prophet ﷺ comes with his head covered, Abu Bakr answers \"they are your family\", the permission is \"I have been given permission to leave\", and Abu Bakr's offer of a camel ends with \"At its price.\""
+                            "text": "تصلنا الزيارة عن عائشة من طريق عروة بن الزبير، في روايتين. ففي رواية الزهري التي أخرجها البخاري يأتي النبي ﷺ متقنّعًا، ويجيب أبو بكر: «إنما هم أهلك»، ويأتي الإذن بلفظ: «فإني قد أُذن لي في الخروج»، وينتهي عرض أبي بكر للراحلة بقوله ﷺ: «بالثمن»."
                         },
                         { "note": 4 },
-                        { "text": " In " },
-                        { "text": "Ibn Ishaq", "term": "ibnishaq" },
                         {
-                            "text": "'s, which he heard from \"someone I do not suspect\" from ‘Urwah, ‘Aishah adds that the Prophet ﷺ normally came morning or evening, that she and Asma were the only ones present, and that Abu Bakr wept for joy; it has \"my two daughters\" and \"Allah has given me permission to leave, and to emigrate.\""
+                            "text": " وفي رواية ابن إسحاق، وقد سمعها ممن «لا أتّهم» عن عروة، تزيد عائشة أن النبي ﷺ كان يأتيهم عادةً بُكرةً أو عشيّة، وأنه لم يكن في البيت إلا هي وأسماء، وأن أبا بكر بكى من الفرح؛ وفيها «إنما هما ابنتاي»، و«إن الله قد أذن لي في الخروج والهجرة»."
                         },
                         { "note": 6 },
                         { "note": 7 },
                         {
-                            "text": " The story above draws on both, and gives each line where it is the only one to have it."
+                            "text": " والقصة فيما تقدّم تجمع بين الروايتين، وتأخذ من كلٍّ منهما ما انفردت به."
                         }
                     ]
                 }
@@ -317,51 +281,49 @@
         },
         {
             "section_id": "hch_preparations_d2",
-            "title": "\"At its price\"",
+            "title": "«بالثمن»",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_d2_1",
-                    "text": "In al-Bukhari, the Prophet ﷺ answers Abu Bakr's offer with two words: \"At its price.\" Ibn Ishaq tells the exchange more fully, and later, at the moment Abu Bakr brought the camels to him and offered him the better one: \"I do not ride a camel that is not mine.\" \"Then it is yours.\" \"No. What did you pay for it?\" \"Such and such.\" \"I take it at that price.\" Neither report gives the amount.",
+                    "text": "في البخاري يجيب النبي ﷺ عرض أبي بكر بكلمة واحدة: «بالثمن». ويروي ابن إسحاق الحوار أتمَّ من ذلك، ويجعله في وقتٍ لاحق، حين قرّب أبو بكر الراحلتين إلى النبي ﷺ وقدّم له أفضلهما: «إني لا أركب بعيرًا ليس لي». «فهي لك يا رسول الله، بأبي أنت وأمي». «لا، ولكن ما الثمن الذي ابتعتها به؟» «كذا وكذا». «قد أخذتها به». ولا تذكر أيٌّ من الروايتين مقدار الثمن.",
                     "parts": [
-                        {
-                            "text": "In al-Bukhari, the Prophet ﷺ answers Abu Bakr's offer with two words: \"At its price.\""
-                        },
+                        { "text": "في البخاري يجيب النبي ﷺ عرض أبي بكر بكلمة واحدة: «بالثمن»." },
                         { "note": 4 },
                         {
-                            "text": " Ibn Ishaq tells the exchange more fully, and later, at the moment Abu Bakr brought the camels to him and offered him the better one: \"I do not ride a camel that is not mine.\" \"Then it is yours.\" \"No. What did you pay for it?\" \"Such and such.\" \"I take it at that price.\""
+                            "text": " ويروي ابن إسحاق الحوار أتمَّ من ذلك، ويجعله في وقتٍ لاحق، حين قرّب أبو بكر الراحلتين إلى النبي ﷺ وقدّم له أفضلهما: «إني لا أركب بعيرًا ليس لي». «فهي لك يا رسول الله، بأبي أنت وأمي». «لا، ولكن ما الثمن الذي ابتعتها به؟» «كذا وكذا». «قد أخذتها به»."
                         },
                         { "note": 11 },
-                        { "text": " Neither report gives the amount." }
+                        { "text": " ولا تذكر أيٌّ من الروايتين مقدار الثمن." }
                     ]
                 }
             ]
         },
         {
             "section_id": "hch_preparations_d3",
-            "title": "One waistband or two?",
+            "title": "نطاقٌ أم نطاقان؟",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_d3_1",
-                    "text": "The reports describe Asma's waistband differently. In ‘Aishah's words, Asma cut a piece of her waistband and tied the mouth of the food bag with it, and was called \"she of the waistband\". In Asma's own words, she split it in two, for the waterskin and the food, and was called \"she of the two waistbands\". Al-Waqidi, recorded by Ibn Sa‘d, joins the two: one piece tied the bag and the other became a strap for the waterskin's mouth. Ibn Ishaq places the waistband later, when the travellers were setting out from the cave: Asma had brought the food but forgotten a strap, so she untied her waistband and hung the food with it. Ibn Hisham adds that scholars he heard called her \"she of the two waistbands\", because she hung the food with one half and wore the other. This telling follows Asma's own account, which places the waistband at the packing in her father's house.",
+                    "text": "تختلف الروايات في وصف نطاق أسماء. ففي كلام عائشة قطعت أسماء قطعةً من نطاقها فربطت بها فمَ الجراب، فسُمّيت «ذات النطاق». وفي كلام أسماء نفسها شقّته اثنين، للسقاء والسفرة، فسُمّيت «ذات النطاقين». ويجمع الواقدي، فيما رواه عنه ابن سعد، بين الأمرين: قطعةٌ أوكت بها الجراب، وأخرى صيّرتها عِصامًا لفم القربة. ويجعل ابن إسحاق النطاق في وقتٍ لاحق، حين ارتحل الرجلان من الغار: جاءت أسماء بالسفرة ونسيت أن تجعل لها عِصامًا، فحلّت نطاقها فجعلته عِصامًا وعلّقتها به. ويضيف ابن هشام أنه سمع غير واحدٍ من أهل العلم يسمّيها «ذات النطاقين»، لأنها علّقت السفرة بشقٍّ منه وانتطقت بالآخر. وتتبع هذه القصة رواية أسماء نفسها، التي تجعل النطاق عند التجهيز في بيت أبيها.",
                     "parts": [
                         {
-                            "text": "The reports describe Asma's waistband differently. In ‘Aishah's words, Asma cut a piece of her waistband and tied the mouth of the food bag with it, and was called \"she of the waistband\"."
+                            "text": "تختلف الروايات في وصف نطاق أسماء. ففي كلام عائشة قطعت أسماء قطعةً من نطاقها فربطت بها فمَ الجراب، فسُمّيت «ذات النطاق»."
                         },
                         { "note": 9 },
                         {
-                            "text": " In Asma's own words, she split it in two, for the waterskin and the food, and was called \"she of the two waistbands\"."
+                            "text": " وفي كلام أسماء نفسها شقّته اثنين، للسقاء والسفرة، فسُمّيت «ذات النطاقين»."
                         },
                         { "note": 10 },
                         {
-                            "text": " Al-Waqidi, recorded by Ibn Sa‘d, joins the two: one piece tied the bag and the other became a strap for the waterskin's mouth."
+                            "text": " ويجمع الواقدي، فيما رواه عنه ابن سعد، بين الأمرين: قطعةٌ أوكت بها الجراب، وأخرى صيّرتها عِصامًا لفم القربة."
                         },
                         { "note": 12 },
                         {
-                            "text": " Ibn Ishaq places the waistband later, when the travellers were setting out from the cave: Asma had brought the food but forgotten a strap, so she untied her waistband and hung the food with it. Ibn Hisham adds that scholars he heard called her \"she of the two waistbands\", because she hung the food with one half and wore the other."
+                            "text": " ويجعل ابن إسحاق النطاق في وقتٍ لاحق، حين ارتحل الرجلان من الغار: جاءت أسماء بالسفرة ونسيت أن تجعل لها عِصامًا، فحلّت نطاقها فجعلته عِصامًا وعلّقتها به. ويضيف ابن هشام أنه سمع غير واحدٍ من أهل العلم يسمّيها «ذات النطاقين»، لأنها علّقت السفرة بشقٍّ منه وانتطقت بالآخر."
                         },
                         { "note": 13 },
                         {
-                            "text": " This telling follows Asma's own account, which places the waistband at the packing in her father's house."
+                            "text": " وتتبع هذه القصة رواية أسماء نفسها، التي تجعل النطاق عند التجهيز في بيت أبيها."
                         }
                     ]
                 }
@@ -369,18 +331,18 @@
         },
         {
             "section_id": "hch_preparations_d4",
-            "title": "The guide's name",
+            "title": "اسم الدليل",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_d4_1",
-                    "text": "Al-Bukhari's report does not name the guide; it calls him a man of Banu al-Dil and explains khirrit as \"one skilled at guiding\". Ibn Ishaq names him ‘Abdullah ibn Arqat and says his mother was of Banu Sahm; Ibn Hisham notes that he is also called ‘Abdullah ibn Urayqit, the form al-Waqidi uses.",
+                    "text": "لا يسمّي حديث البخاري الدليل، وإنما يقول إنه رجلٌ من بني الدِّيل، ويفسّر الخِرّيت بأنه «الماهر بالهداية». ويسمّيه ابن إسحاق عبد الله بن أرقط، ويذكر أن أمّه من بني سهم، وينبّه ابن هشام إلى أنه يقال له أيضًا عبد الله بن أُريقط، وهي الصيغة التي يستعملها الواقدي.",
                     "parts": [
                         {
-                            "text": "Al-Bukhari's report does not name the guide; it calls him a man of Banu al-Dil and explains khirrit as \"one skilled at guiding\"."
+                            "text": "لا يسمّي حديث البخاري الدليل، وإنما يقول إنه رجلٌ من بني الدِّيل، ويفسّر الخِرّيت بأنه «الماهر بالهداية»."
                         },
                         { "note": 8 },
                         {
-                            "text": " Ibn Ishaq names him ‘Abdullah ibn Arqat and says his mother was of Banu Sahm; Ibn Hisham notes that he is also called ‘Abdullah ibn Urayqit, the form al-Waqidi uses."
+                            "text": " ويسمّيه ابن إسحاق عبد الله بن أرقط، ويذكر أن أمّه من بني سهم، وينبّه ابن هشام إلى أنه يقال له أيضًا عبد الله بن أُريقط، وهي الصيغة التي يستعملها الواقدي."
                         },
                         { "note": 7 },
                         { "note": 14 },
@@ -391,14 +353,14 @@
         },
         {
             "section_id": "hch_preparations_d5",
-            "title": "Four months",
+            "title": "أربعة أشهر",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_preparations_d5_1",
-                    "text": "The four months in ‘Aishah's report are the time Abu Bakr spent feeding the camels while he waited, not the length of the journey.",
+                    "text": "الأشهر الأربعة في رواية عائشة هي المدة التي قضاها أبو بكر يعلف الراحلتين وهو ينتظر، لا مدة الرحلة.",
                     "parts": [
                         {
-                            "text": "The four months in ‘Aishah's report are the time Abu Bakr spent feeding the camels while he waited, not the length of the journey."
+                            "text": "الأشهر الأربعة في رواية عائشة هي المدة التي قضاها أبو بكر يعلف الراحلتين وهو ينتظر، لا مدة الرحلة."
                         },
                         { "note": 2 }
                     ]
@@ -410,8 +372,8 @@
         {
             "reading_id": "hch_preparations_n1",
             "number": 1,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/468 — Ibn Ishaq; the Prophet ﷺ quoted",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٦٨ — ابن إسحاق؛ وفيه قول النبي ﷺ",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_permission_h_23833_491_prep_778", "part_ids": ["p1"] }
@@ -420,16 +382,16 @@
         {
             "reading_id": "hch_preparations_n2",
             "number": 2,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/59 — ‘Aishah, through al-Zuhri from ‘Urwah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٥٩ — عائشة، من طريق الزهري عن عروة",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_permission_h_1681_5899_wait", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_preparations_n3",
             "number": 3,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/480 — Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٠ — ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_permission_h_23833_503_800", "part_ids": ["p1"] },
@@ -439,24 +401,24 @@
         {
             "reading_id": "hch_preparations_n4",
             "number": 4,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/59 — ‘Aishah, through al-Zuhri from ‘Urwah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٥٩ — عائشة، من طريق الزهري عن عروة",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_permission_h_1681_5899_visit", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_preparations_n5",
             "number": 5,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/484 — Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٤ — ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_permission_h_23833_507_804", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_preparations_n6",
             "number": 6,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/484 — ‘Aishah, through Ibn Ishaq from \"someone I do not suspect\" from ‘Urwah",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٤ — عائشة، من طريق ابن إسحاق عمّن لا يتّهم عن عروة",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_permission_h_23833_507_805", "part_ids": ["p1", "p2"] }
@@ -465,16 +427,16 @@
         {
             "reading_id": "hch_preparations_n7",
             "number": 7,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/485 — ‘Aishah, through Ibn Ishaq; the hiring of the guide",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٥ — عائشة، من طريق ابن إسحاق؛ وفيه استئجار الدليل",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_permission_h_23833_508_cont", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_preparations_n8",
             "number": 8,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/59–60 — ‘Aishah, through al-Zuhri from ‘Urwah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٥٩–٦٠ — عائشة، من طريق الزهري عن عروة",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_guide_bukhari_hire", "part_ids": ["p1"] },
@@ -484,24 +446,24 @@
         {
             "reading_id": "hch_preparations_n9",
             "number": 9,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/59 — ‘Aishah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٥٩ — عائشة",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_provisions_aisha", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_preparations_n10",
             "number": 10,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 4/54 — Asma bint Abi Bakr",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٤/٥٤ — أسماء بنت أبي بكر",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_provisions_asma_house", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_preparations_n11",
             "number": 11,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/486–487 — Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٦–٤٨٧ — ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_permission_h_23833_509_810", "part_ids": ["p1"] },
@@ -511,8 +473,8 @@
         {
             "reading_id": "hch_preparations_n12",
             "number": 12,
-            "title": "Ibn Sa‘d, al-Tabaqat al-Kubra, 1/196 — al-Waqidi",
-            "mode": "translated",
+            "title": "الطبقات الكبرى، ١/١٩٦ — الواقدي",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 {
@@ -524,8 +486,8 @@
         {
             "reading_id": "hch_preparations_n13",
             "number": 13,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/486 — Ibn Ishaq; then Ibn Hisham",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٦ — ابن إسحاق، ثم ابن هشام",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_provisions_ishaq_cave", "part_ids": ["p1"] },
@@ -535,80 +497,13 @@
         {
             "reading_id": "hch_preparations_n14",
             "number": 14,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/488 — Ibn Ishaq from Asma, naming \"‘Abdullah ibn Arqat, their guide\"",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٨ — ابن إسحاق عن أسماء، وفيه «عبد الله بن أرقط دليلهما»",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_guide_sira_name", "part_ids": ["p1", "p2"] }]
         }
     ],
-    "terms": [
-        {
-            "id": "aqabah",
-            "word": "al-‘Aqabah",
-            "meaning": "A mountain pass near Mina, where the people of Madinah pledged themselves to the Prophet ﷺ."
-        },
-        {
-            "id": "makkah",
-            "word": "Makkah",
-            "meaning": "The city where the Prophet ﷺ was born, home of the Ka‘bah."
-        },
-        {
-            "id": "madinah",
-            "word": "Madinah",
-            "meaning": "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
-        },
-        { "id": "allah", "word": "Allah", "meaning": "The Arabic word for God." },
-        {
-            "id": "abubakr",
-            "word": "Abu Bakr",
-            "meaning": "The Prophet’s closest friend and companion, who later led the Muslims after him."
-        },
-        {
-            "id": "abyssinia",
-            "word": "Abyssinia",
-            "meaning": "The Christian kingdom across the Red Sea where early Muslims found refuge."
-        },
-        {
-            "id": "samur",
-            "word": "samur",
-            "meaning": "A thorny desert acacia; its leaves are fodder for camels."
-        },
-        {
-            "id": "banu",
-            "word": "Banu",
-            "meaning": "\"Sons of\": a clan named after its ancestor, as in Banu al-Najjar."
-        },
-        {
-            "id": "khirrit",
-            "word": "khirrit",
-            "meaning": "An expert guide, who knows the desert's hidden ways."
-        },
-        {
-            "id": "quraysh",
-            "word": "Quraysh",
-            "meaning": "The leading tribe of Makkah. The Prophet ﷺ himself belonged to it."
-        },
-        {
-            "id": "thawr",
-            "word": "Thawr",
-            "meaning": "A mountain south of Makkah, with a small cave near its top."
-        },
-        {
-            "id": "nitaqayn",
-            "word": "Dhat al-Nitaqayn",
-            "meaning": "\"She of the two waistbands\": the name Asma, Abu Bakr's daughter, earned on the night of the journey."
-        },
-        {
-            "id": "bukhari",
-            "word": "Sahih al-Bukhari",
-            "meaning": "The collection of hadith that Muslims consider the most reliable."
-        },
-        {
-            "id": "ibnishaq",
-            "word": "Ibn Ishaq",
-            "meaning": "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
-        }
-    ],
+    "terms": [],
     "source_units": [
         {
             "unit_id": "sp_permission_h_23833_491_prep_778:p1",
@@ -624,7 +519,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "468",
-            "text": "Ibn Ishaq said: When Allah Most High gave him ﷺ permission to fight, and this group of the Ansar pledged allegiance to him to follow Islam and support him and those who followed him, and Muslims found refuge with them, the Messenger of Allah ﷺ instructed his Companions from among the emigrants of his people, and the Muslims with him in Makkah, to leave for Madinah, migrate there, and join their brothers among the Ansar. He said, “Allah ﷿ has given you brothers and a home where you will be safe.” So they left in successive groups, while the Messenger of Allah ﷺ remained in Makkah, waiting for his Lord to give him permission to leave Makkah and migrate to Madinah."
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_1681_5899_wait:p1",
@@ -640,7 +535,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "59",
-            "text": "The Prophet ﷺ was then in Mecca. He said to the Muslims, “I have been shown the place of your migration, a place of palms between two stony lava tracts.” Those who migrated went toward Medina, and most of those who had migrated to Abyssinia returned to Medina. Abu Bakr also prepared to go to Medina, but the Messenger of God ﷺ said to him, “Take your time, for I hope to receive permission.” Abu Bakr said, “Do you hope for that? May my father be your ransom.” He said, “Yes.” So Abu Bakr held himself back to accompany the Messenger of God ﷺ and fed two riding animals he had leaves of the samur tree, which are called khabat, for four months."
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_23833_503_800:p1",
@@ -656,7 +551,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "The Messenger of Allah ﷺ remained in Makkah after his Companions from among the emigrants, waiting for permission to migrate. None of the emigrants remained behind with him in Makkah except those who had been detained or persecuted, as well as ‘Ali ibn Abi Talib and Abu Bakr ibn Abi Quhafah al-Siddiq ﵄. Abu Bakr would often ask the Messenger of Allah ﷺ for permission to migrate, and the Messenger of Allah ﷺ would say to him, “Do not hurry; perhaps Allah will provide you with a companion.” Abu Bakr hoped that he would be that companion."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_wait:p1",
@@ -672,7 +567,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "The Messenger of God ﷺ remained in Mecca after his emigrant companions, waiting for permission to emigrate. No emigrant stayed behind with him in Mecca except those detained or subjected to persecution, apart from Ali ibn Abi Talib and Abu Bakr ibn Abi Quhafa al-Siddiq, may God be pleased with them both. Abu Bakr often sought the Messenger of God's ﷺ permission to emigrate."
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_wait:p2",
@@ -688,7 +583,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "The Messenger of God ﷺ would say to him:"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_wait:p3",
@@ -704,7 +599,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "“Do not hurry. Perhaps God will provide you with a companion.”"
+            "text": null
         },
         {
             "unit_id": "sp_departure_chapter_wait:p4",
@@ -720,7 +615,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "480",
-            "text": "So Abu Bakr hoped that he would be that companion."
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_1681_5899_visit:p1",
@@ -736,7 +631,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "59",
-            "text": "Ibn Shihab said: ‘Urwa said: ‘A’isha said: One day, while we were sitting in Abu Bakr’s house at the height of midday, someone said to Abu Bakr, “Here is the Messenger of God ﷺ, with his head covered, at an hour when he does not usually come to us.” Abu Bakr said, “May my father and mother be his ransom! By God, something important must have brought him at this hour.” She said: The Messenger of God ﷺ arrived and asked permission to enter; permission was given and he came in. The Prophet ﷺ said to Abu Bakr, “Send those with you out.” Abu Bakr said, “They are your family, may my father be your ransom, Messenger of God.” He said, “I have been given permission to depart.” Abu Bakr said, “To accompany you? May my father be your ransom, Messenger of God?” The Messenger of God ﷺ said, “Yes.” Abu Bakr said, “Then take one of these two riding animals of mine, may my father be your ransom, Messenger of God.” The Messenger of God ﷺ replied, “At its price.”"
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_23833_507_804:p1",
@@ -752,7 +647,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "484",
-            "text": "Ibn Ishaq said: Abu Bakr, may God be pleased with him, was a man of means. When he asked the Messenger of God ﷺ for permission to migrate, the Messenger of God ﷺ said, “Do not hurry. Perhaps God will provide you a companion.” Abu Bakr hoped that the Messenger of God ﷺ meant himself by this. He bought two riding animals and kept them in his house, feeding them in preparation."
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_23833_507_805:p1",
@@ -768,7 +663,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "484",
-            "text": "Ibn Ishaq said: Someone whom I do not suspect told me, from ‘Urwa ibn al-Zubayr, from ‘A’isha, Mother of the Believers, that she said:"
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_23833_507_805:p2",
@@ -784,7 +679,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "484",
-            "text": "The Messenger of God ﷺ never failed to come to Abu Bakr’s house at one end of the day, either morning or evening. But on the day he was given permission to migrate and leave Mecca from among his people, the Messenger of God ﷺ came to us at midday, at an hour when he did not usually come. When Abu Bakr saw him, he said, “The Messenger of God ﷺ would not have come at this hour unless something had happened.” When he entered, Abu Bakr moved back from his couch to make room, and the Messenger of"
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_23833_508_cont:p1",
@@ -800,7 +695,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "485",
-            "text": "God ﷺ sat down. Only my sister Asma bint Abi Bakr and I were with Abu Bakr. The Messenger of God ﷺ said, “Send away those with you.” Abu Bakr replied, “Messenger of God, they are only my two daughters [1]. What is it? May my father and mother be your ransom!” He said, “God has given me permission to depart and migrate.” Abu Bakr said, “Companionship, Messenger of God?” He said, “Companionship.” By God, before that day I had never realized someone could weep for joy, until I saw Abu Bakr weeping that day. Then he said, “Prophet of God, these are two riding animals I have prepared for this.” They hired ‘Abd Allah ibn Arqat, a man of Banu al-Du’il ibn Bakr whose mother was of Banu Sahm ibn ‘Amr and who was a polytheist, to guide them along the way. They entrusted their two mounts to him; he cared for them until their appointed time."
+            "text": null
         },
         {
             "unit_id": "sp_guide_bukhari_hire:p1",
@@ -816,7 +711,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "59",
-            "text": "The Messenger of Allah ﷺ and Abu Bakr hired a man from Banu al-Dil, who belonged to Banu Abd ibn Adi, as a khirrit guide—that is, one skilled at finding the way. He had entered into an alliance with the family of al-As ibn Wail al-Sahmi, and he followed the faith of Quraysh’s unbelievers. They trusted him, handed over their two riding camels to him, and made an appointment with him at"
+            "text": null
         },
         {
             "unit_id": "sp_guide_bukhari_coast:p1",
@@ -832,7 +727,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "60",
-            "text": "the Cave of Thawr after three nights, to bring their two riding camels on the morning of the third. Amir ibn Fuhayrah and the guide set out with them, and the guide took them along the coastal route.”"
+            "text": null
         },
         {
             "unit_id": "sp_provisions_aisha:p1",
@@ -848,7 +743,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "59",
-            "text": "‘A’isha said: “We equipped them with all haste and prepared travel provisions for them in a bag. Asma bint Abi Bakr cut a piece from her waistband and tied it around the mouth of the bag; for this she was called ‘the woman of the waistband.’”"
+            "text": null
         },
         {
             "unit_id": "sp_provisions_asma_house:p1",
@@ -864,7 +759,7 @@
             "book_id": "1681",
             "volume": "4",
             "page": "54",
-            "text": "“I made the Messenger of God’s travel provisions ﷺ in Abu Bakr’s house when he intended to migrate to Medina. We could find nothing to tie his provisions and his waterskin with. I said to Abu Bakr, ‘By God, I cannot find anything to tie them with except my waistband.’ He said, ‘Split it in two: tie the waterskin with one piece and the provisions with the other.’ I did so, and for this I was called ‘the woman of the two waistbands.’”"
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_23833_509_810:p1",
@@ -880,7 +775,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "486",
-            "text": "Ibn Ishaq said: When Abu Bakr, may God be pleased with him, brought the two riding animals to the Messenger of God ﷺ, he offered him the better one and said, “Ride, may my father and mother be your ransom.”"
+            "text": null
         },
         {
             "unit_id": "sp_permission_h_23833_510_cont:p1",
@@ -896,7 +791,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "487",
-            "text": "The Messenger of God ﷺ replied, “I do not ride a camel that is not mine.” He said, “Then it is yours, Messenger of God, may my father and mother be your ransom.” He said, “No. What price did you buy it for?” He said, “Such and such.” He said, “I have taken it for that price.” He replied, “It is yours, Messenger of God [1].” They mounted and departed, and Abu Bakr al-Siddiq, may God be pleased with him, took his freedman ‘Amir ibn Fuhayra riding behind him to serve them on the road."
+            "text": null
         },
         {
             "unit_id": "sp_thawr_exp_h_146_241_support_and_guide:p2",
@@ -912,7 +807,7 @@
             "book_id": "146",
             "volume": "1",
             "page": "196",
-            "text": "‘Aishah said: “We prepared provisions for the two of them as well as we could, and packed food for them in a leather bag. Asma’ bint Abu Bakr cut a strip from her waistband and tied the bag with it. She cut another strip and made it a tie for the mouth of the waterskin. For this reason she was called ‘the woman of the two waistbands.’”"
+            "text": null
         },
         {
             "unit_id": "sp_thawr_exp_h_146_241_support_and_guide:p3",
@@ -928,7 +823,7 @@
             "book_id": "146",
             "volume": "1",
             "page": "196",
-            "text": "The Messenger of Allah ﷺ and Abu Bakr stayed in the cave for three nights. ‘Abdullah ibn Abu Bakr would spend the night with them. Abu Bakr hired a man from Banu al-Dayl, a skilled guide, named ‘Abdullah ibn Urayqit, who followed the religion of unbelief. But the two of them trusted him. They set out, accompanied by ‘Amir ibn Fuhayrah, and Ibn Urayqit led them along a coastal route. Quraysh had no idea where the Messenger of Allah ﷺ had gone."
+            "text": null
         },
         {
             "unit_id": "sp_provisions_ishaq_cave:p1",
@@ -944,7 +839,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "486",
-            "text": "Ibn Ishaq said: The Messenger of God ﷺ stayed in the cave for three days with Abu Bakr. Quraysh offered a hundred she-camels to anyone who brought him back to them after he disappeared. ‘Abd Allah ibn Abi Bakr spent the daytime among Quraysh, hearing what they plotted and said about the Messenger of God ﷺ and Abu Bakr; at night he would go to them and give them the news. ‘Amir ibn Fuhayra, Abu Bakr’s freedman, tended livestock among the shepherds of Mecca. In the evening he drove Abu Bakr’s sheep to the two men, and they milked and slaughtered. When ‘Abd Allah ibn Abi Bakr left them for Mecca in the morning, ‘Amir ibn Fuhayra followed his tracks with the sheep to erase them. Once the three days had passed and the people ceased pursuing them, the man they had hired came to them with their two camels and one of his own. Asma bint Abi Bakr, may God be pleased with them both, brought them their travel provisions, but she had forgotten to provide a strap. When they prepared to set out, she went to hang up the provisions and found there was no strap [1]. She untied her waistband, made it into a strap, and hung them with it."
+            "text": null
         },
         {
             "unit_id": "sp_provisions_hisham_names:p1",
@@ -960,7 +855,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "486",
-            "text": "For this, Asma bint Abi Bakr was called “the woman of the waistband.”"
+            "text": null
         },
         {
             "unit_id": "sp_provisions_hisham_names:p2",
@@ -976,7 +871,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "486",
-            "text": "Ibn Hisham said: I have heard more than one scholar call her “the woman of the two waistbands.”"
+            "text": null
         },
         {
             "unit_id": "sp_provisions_hisham_names:p3",
@@ -992,7 +887,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "486",
-            "text": "The explanation is that when she wanted to hang the provisions, she split her waistband in two, hung the provisions with one piece, and wore the other around her waist."
+            "text": null
         },
         {
             "unit_id": "sp_guide_sira_name:p1",
@@ -1008,7 +903,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "488",
-            "text": "Ibn Ishaq said: Asma bint Abi Bakr, may God be pleased with them both, said: “When we heard his words, we knew which way the Messenger of God ﷺ was heading: toward Medina. They were four: the Messenger of God ﷺ, Abu Bakr al-Siddiq, may God be pleased with him, ‘Amir ibn Fuhayra, Abu Bakr’s freedman, and ‘Abd Allah ibn Arqat, their guide.”"
+            "text": null
         },
         {
             "unit_id": "sp_guide_sira_name:p2",
@@ -1024,7 +919,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "488",
-            "text": "Ibn Hisham said: It is also said: ‘Abd Allah ibn Urayqit."
+            "text": null
         },
         {
             "unit_id": "sp_provisions_quhafa:p1",
@@ -1040,7 +935,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "488",
-            "text": "Ibn Ishaq said: Yahya ibn ‘Abbad ibn ‘Abd Allah ibn al-Zubayr told me that his father ‘Abbad had told him from his grandmother Asma bint Abi Bakr:"
+            "text": null
         },
         {
             "unit_id": "sp_provisions_quhafa:p2",
@@ -1056,7 +951,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "488",
-            "text": "She said: When the Messenger of God ﷺ departed, with Abu Bakr alongside him, Abu Bakr took all his wealth; he had five thousand dirhams or six thousand with him, and took it along. My grandfather Abu Quhafa, whose sight had gone, came to us and said, “By God, I do not think he has hurt you by taking his money as well as himself.” [Translator’s note: the supplied text reads «إنِّي لَا أَرَاهُ»; the negation is unclear in this context.] I said, “No, father! He left us much good.” I took some stones, put them in a recess in the house where my father used to keep his money, and covered them with a cloth. I took his hand and said, “Father, place your hand on this money.” He placed his hand on it and said, “That is all right. If he has left you this, he has done well; this will be enough for you.” But, by God, he left us nothing. I only wanted to reassure the old man."
+            "text": null
         }
     ],
     "footnotes": [],
@@ -1069,25 +964,25 @@
             "step_id": "hch_preparations",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "How did the course of those Muslims who migrated differ from Abu Bakr’s position in ‘A’isha’s account?",
+            "prompt": "كيف اختلف مسار من هاجر من المسلمين عن موقف أبي بكر في خبر عائشة؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "Those who migrated did so; the Prophet ﷺ asked Abu Bakr to wait, and he held himself back in hope of accompanying him.",
-                    "feedback": "Yes: some Muslims began migrating while Abu Bakr waited to accompany him."
+                    "text": "هاجر من هاجر، وأمهل النبي ﷺ أبا بكر فحبس نفسه رجاء الصحبة.",
+                    "feedback": "نعم؛ الهجرة بدأت لبعض المسلمين بينما انتظر أبو بكر الصحبة."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "All the Muslims waited until Abu Bakr left first.",
-                    "feedback": "The text mentions the departure of some migrants before Abu Bakr remained behind waiting."
+                    "text": "انتظر المسلمون جميعًا حتى خرج أبو بكر أولًا.",
+                    "feedback": "النص يذكر خروج من هاجر قبل بقاء أبي بكر منتظرًا."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "Abu Bakr prevented the Muslims from migrating until the Prophet ﷺ received permission.",
-                    "feedback": "The report says nothing of preventing others; only that Abu Bakr himself waited."
+                    "text": "منع أبو بكر المسلمين من الهجرة حتى يؤذن للنبي ﷺ.",
+                    "feedback": "لا يذكر الخبر منعًا، بل يذكر انتظاره هو."
                 }
             ],
-            "explanation": "The departure of some Muslims for Medina does not negate the Prophet’s waiting for permission ﷺ or Abu Bakr’s holding back to accompany him.",
+            "explanation": "اتجاه بعض المسلمين إلى المدينة لا يلغي انتظار النبي ﷺ للإذن واحتباس أبي بكر ليصحبه.",
             "scope_note": "",
             "source_unit_ids": ["sp_permission_h_1681_5899_wait:p1"],
             "correct_option_id": "correct"
@@ -1097,25 +992,25 @@
             "step_id": "hch_preparations",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What activity do the “four months” refer to in the account of the two mounts?",
+            "prompt": "بأي عمل ترتبط «أَرْبَعَةَ أَشْهُرٍ» في خبر الراحلتين؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "Abu Bakr feeding the two mounts samur leaves.",
-                    "feedback": "Correct: the duration follows the description of feeding them."
+                    "text": "علف أبي بكر الراحلتين ورق السمر.",
+                    "feedback": "صحيح؛ تأتي المدة بعد وصف العلف."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "The journey from Mecca to Medina.",
-                    "feedback": "The report does not make it the journey’s length; it follows the feeding of the mounts."
+                    "text": "السير من مكة إلى المدينة.",
+                    "feedback": "الخبر لا يجعلها مدة السفر؛ تقع بعد علف الراحلتين."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "Their stay in the cave.",
-                    "feedback": "This is the time spent feeding them before departure, not the stay in the cave."
+                    "text": "مكثهما في الغار.",
+                    "feedback": "المدة هنا للعلف قبل الخروج، وليست مدة المكث في الغار."
                 }
             ],
-            "explanation": "Observe where the duration appears: “he fed two riding animals ... for four months.”",
+            "explanation": "تتبع موضع المدة في النص: «وَعَلَفَ رَاحِلَتَيْنِ ... أَرْبَعَةَ أَشْهُرٍ».",
             "scope_note": "",
             "source_unit_ids": ["sp_permission_h_1681_5899_wait:p1"],
             "correct_option_id": "correct"
@@ -1125,25 +1020,25 @@
             "step_id": "hch_preparations",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What made the Prophet’s arrival ﷺ at Abu Bakr’s house noteworthy in ‘A’isha’s account?",
+            "prompt": "ما الذي جعل مجيء النبي ﷺ إلى بيت أبي بكر لافتًا في خبر عائشة؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "He came at the height of midday, at an hour when he did not usually visit them.",
-                    "feedback": "Correct: the unusual time is what marks the visit in the report."
+                    "text": "جاء في نحر الظهيرة، في ساعة لم يكن يأتيهم فيها.",
+                    "feedback": "صحيح؛ الوقت غير المعتاد هو علامة الزيارة في الخبر."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "He arrived with the two mounts at the door.",
-                    "feedback": "This passage does not say he brought the mounts."
+                    "text": "جاء ومعه الراحلتان إلى باب البيت.",
+                    "feedback": "المقطع لا يذكر مجيئه بالراحلتين."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "He sent a messenger whom the report names instead of coming himself.",
-                    "feedback": "The person announced that the Prophet ﷺ was coming; the Prophet then asked permission to enter and came in."
+                    "text": "أرسل رسولًا يسميه الخبر بدل أن يأتي بنفسه.",
+                    "feedback": "ذكر القائل مجيء النبي ﷺ، ثم استأذن النبي ودخل."
                 }
             ],
-            "explanation": "The description of the time and “at an hour when he did not come to us” explain why Abu Bakr inferred that something had prompted the visit.",
+            "explanation": "وصف الوقت ولفظ «في ساعة لم يكن يأتينا فيها» يفسران استنتاج أبي بكر أن وراء مجيئه أمرًا.",
             "scope_note": "",
             "source_unit_ids": ["sp_permission_h_1681_5899_visit:p1"],
             "correct_option_id": "correct"
@@ -1153,25 +1048,25 @@
             "step_id": "hch_preparations",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Who asked to accompany the other after permission to depart was announced, and what was the reply?",
+            "prompt": "من سأل عن الصحبة بعد إعلان الإذن بالخروج، وماذا كان الجواب؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "Abu Bakr asked and the Prophet ﷺ answered yes.",
-                    "feedback": "Correct: Abu Bakr asked and the Prophet ﷺ replied."
+                    "text": "سأل أبو بكر، وأجابه النبي ﷺ بنعم.",
+                    "feedback": "صحيح؛ السؤال لأبي بكر والجواب من النبي ﷺ."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "‘A’isha asked, and Abu Bakr answered her yes.",
-                    "feedback": "‘A’isha reports the conversation; she is not the person asking in it."
+                    "text": "سألت عائشة، وأجابها أبو بكر بنعم.",
+                    "feedback": "عائشة تنقل الحوار، وليست السائلة فيه."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "The Prophet ﷺ asked about companionship, and Abu Bakr declined.",
-                    "feedback": "In the text Abu Bakr asks and the reply is yes."
+                    "text": "سأل النبي ﷺ عن الصحبة، وأجابه أبو بكر برفضها.",
+                    "feedback": "في النص أبو بكر هو الذي يسأل، والجواب نعم."
                 }
             ],
-            "explanation": "The request for companionship comes between the announcement of permission and Abu Bakr’s offer of a mount.",
+            "explanation": "جاء طلب الصحبة بين إعلان الإذن وعرض أبي بكر إحدى راحلتيه.",
             "scope_note": "",
             "source_unit_ids": ["sp_permission_h_1681_5899_visit:p1"],
             "correct_option_id": "correct"
@@ -1181,25 +1076,25 @@
             "step_id": "hch_preparations",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "Who reports Abu Bakr’s tears of joy in Ibn Ishaq’s account in Ibn Hisham?",
+            "prompt": "من تنقل خبر بكاء أبي بكر من الفرح في رواية ابن إسحاق عند ابن هشام؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "‘A’isha, who says she saw him weeping that day.",
-                    "feedback": "Correct: the text attributes this observation to ‘A’isha."
+                    "text": "عائشة، إذ تقول إنها رأته يبكي في ذلك اليوم.",
+                    "feedback": "صحيح؛ ينسب النص المشاهدة إلى عائشة."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "Ibn Hisham, as an eyewitness present in Abu Bakr’s house.",
-                    "feedback": "Ibn Hisham transmits ‘A’isha’s account and does not describe himself as a witness to the visit."
+                    "text": "ابن هشام بوصفه شاهدًا حاضرًا في بيت أبي بكر.",
+                    "feedback": "ابن هشام يورد خبر عائشة ولا يصف نفسه شاهدًا للزيارة."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "The unnamed person who announced the Prophet’s arrival ﷺ.",
-                    "feedback": "That person appears in al-Bukhari’s account of the visit, not as the narrator of the tears here."
+                    "text": "القائل غير المسمى الذي أخبر بقدوم النبي ﷺ.",
+                    "feedback": "هذا القائل في خبر الزيارة بالبخاري، لا صاحب وصف البكاء هنا."
                 }
             ],
-            "explanation": "The reading moves from Ibn Ishaq’s chain to ‘A’isha’s words, which identify who described the tears of joy.",
+            "explanation": "تنتقل القراءة من إسناد ابن إسحاق إلى قول عائشة، ومنها نعرف من وصف البكاء وفرحه.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_permission_h_1681_5899_visit:p1",
@@ -1214,25 +1109,25 @@
             "step_id": "hch_preparations",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "What does the price dialogue in Ibn Ishaq establish, without adding anything from outside it?",
+            "prompt": "ماذا يثبت حوار الثمن عند ابن إسحاق دون زيادة من خارجه؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "The Prophet ﷺ asked what the mount had cost and took it at that price; the amount is given only as “such and such.”",
-                    "feedback": "Yes: the dialogue establishes payment without specifying a number."
+                    "text": "سأل النبي ﷺ عن ثمن شراء الراحلة وأخذها به، والمبلغ مذكور «كَذَا وَكَذَا».",
+                    "feedback": "نعم؛ الحوار يثبت الأخذ بالثمن ولا يعين رقمًا."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "He accepted the mount as a gift without asking its price.",
-                    "feedback": "The text describes the offer as a gift, then its rejection and the question about price."
+                    "text": "قبل الراحلة هبة بلا سؤال عن الثمن.",
+                    "feedback": "النص يعرض الهبة ثم رفضها وسؤال الثمن."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "Abu Bakr gave an exact numerical amount preserved in the excerpt.",
-                    "feedback": "The reply preserved here is “such and such,” with no number."
+                    "text": "سمّى أبو بكر مبلغًا رقميًا معينًا حفظه المقتطف.",
+                    "feedback": "المحفوظ في الجواب «كَذَا وَكَذَا» بلا رقم."
                 }
             ],
-            "explanation": "The answer “such and such” rules out supplying a specific amount, although the decision to take the mount for a price is clear.",
+            "explanation": "يمنع جواب «كذا وكذا» من إدخال مبلغ محدد في القصة، وإن كان قرار الأخذ بالثمن واضحًا.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_permission_h_23833_509_810:p1",
@@ -1245,25 +1140,25 @@
             "step_id": "hch_preparations",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "Which description preserves the difference between the two speakers’ pronouns in the preparation accounts?",
+            "prompt": "أي وصف يحفظ فرق الضميرين في خبري التجهيز؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "‘A’isha says “we equipped them” in the plural; Asma says “I made the provisions” in her own voice.",
-                    "feedback": "Correct: this preserves both the plural and Asma’s direct action."
+                    "text": "عائشة تقول «فَجَهَّزْنَاهُمَا» بصيغة الجمع؛ وأسماء تقول «صَنَعْتُ سُفْرَةَ» بضميرها.",
+                    "feedback": "صحيح؛ هكذا يُحفظ الجمع وفعل أسماء المباشر."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "‘A’isha alone says “I made the provisions,” and Asma does not mention her work.",
-                    "feedback": "“I made” comes from Asma’s account; ‘A’isha’s uses the plural."
+                    "text": "عائشة وحدها تقول «صَنَعْتُ سُفْرَةَ»، وأسماء لا تذكر عملها.",
+                    "feedback": "لفظ صنعت من رواية أسماء، وخبر عائشة فيه ضمير الجمع."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "Both accounts attribute making the provisions solely to ‘A’isha in the singular.",
-                    "feedback": "Asma’s account uses the first-person singular; ‘A’isha’s uses the plural."
+                    "text": "كلتا الروايتين تنسب صنع السفرة وحده إلى عائشة بضمير المفرد.",
+                    "feedback": "خبر أسماء بصيغة المتكلم، وخبر عائشة بصيغة الجمع."
                 }
             ],
-            "explanation": "‘A’isha’s use of the plural does not mean she named every participant, and Asma’s own action does not erase that plural.",
+            "explanation": "لا يلزم من مشاركة عائشة بصيغة الجمع أنها عينت كل فرد، ولا من فعل أسماء أن ننفي صيغة الجمع.",
             "scope_note": "",
             "source_unit_ids": ["sp_provisions_aisha:p1", "sp_provisions_asma_house:p1"],
             "correct_option_id": "correct"
@@ -1273,25 +1168,25 @@
             "step_id": "hch_preparations",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "What difference between ‘A’isha’s and Asma’s accounts of tying the waistband should we preserve?",
+            "prompt": "ما الفرق الذي تحفظه قراءتا عائشة وأسماء في ربط النطاق؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "‘A’isha mentions a piece tied around the bag’s mouth; Asma mentions splitting the waistband to tie the waterskin and provisions.",
-                    "feedback": "Correct: the detail about the waterskin belongs to Asma’s account, not ‘A’isha’s excerpt."
+                    "text": "تذكر عائشة قطعة على فم الجراب؛ وتذكر أسماء شق النطاق لربط السقاء والسفرة.",
+                    "feedback": "صحيح؛ هذا التفصيل في قول أسماء لا في مقتطف عائشة."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "‘A’isha describes two pieces for the waterskin and provisions; Asma mentions only the bag’s mouth.",
-                    "feedback": "This reverses which account gives which details."
+                    "text": "تذكر عائشة السقاء والسفرة بقطعتين؛ وتذكر أسماء فم الجراب وحده.",
+                    "feedback": "عُكس هنا موضع التفصيل بين النصين."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "Both describe tying only the waterskin, with no provisions or bag.",
-                    "feedback": "Both readings address the provisions; Asma also specifies the waterskin."
+                    "text": "تذكر كلتاهما ربط السقاء وحده، دون سفرة أو جراب.",
+                    "feedback": "كلتا القراءتين تتناولان السفرة، وتفصل أسماء السقاء معها."
                 }
             ],
-            "explanation": "In ‘A’isha’s excerpt, “the woman of the waistband” accompanies a piece tied to the bag’s mouth; in Asma’s account, “the woman of the two waistbands” accompanies splitting it to tie two containers.",
+            "explanation": "يقترن «ذات النطاق» في مقتطف عائشة بقطعة على فم الجراب، و«ذات النطاقين» في قول أسماء بشق النطاق وربط وعاءين.",
             "scope_note": "",
             "source_unit_ids": ["sp_provisions_aisha:p1", "sp_provisions_asma_house:p1"],
             "correct_option_id": "correct"
@@ -1301,25 +1196,25 @@
             "step_id": "hch_preparations",
             "difficulty": "expert",
             "practice_scope": "source_study",
-            "prompt": "In Ibn Hisham’s continuation of the provisions scene, where does his distinct voice appear, as opposed to Ibn Ishaq’s narrative?",
+            "prompt": "في تتمة مشهد السفرة عند ابن هشام، أين يظهر صوته المميز عن سرد ابن إسحاق؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "In his statement that he heard more than one scholar say “the woman of the two waistbands,” followed by his explanation of splitting the waistband.",
-                    "feedback": "Correct: his comment follows the title at the end of the earlier narrative."
+                    "text": "في قوله إنه سمع غير واحد يقول «ذات النطاقين»، ثم تفسيره لشق النطاق.",
+                    "feedback": "صحيح؛ يظهر التعليق بعد خاتمة تسمية سرد ابن إسحاق."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "In Asma’s words “I made the provisions” as reported by al-Bukhari.",
-                    "feedback": "Those are Asma’s words in another reading, not Ibn Hisham’s comment."
+                    "text": "في قول أسماء «صَنَعْتُ سُفْرَةَ» الذي يرويه البخاري.",
+                    "feedback": "هذا قول أسماء في قراءة أخرى، وليس تعليق ابن هشام."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "In the sentence ending Ibn Ishaq’s narrative with “the woman of the waistband.”",
-                    "feedback": "That ends the narrative before Ibn Hisham’s comment."
+                    "text": "في الجملة التي تختم سرد ابن إسحاق بلفظ «ذات النطاق».",
+                    "feedback": "هذه خاتمة السرد السابق لتعليق ابن هشام."
                 }
             ],
-            "explanation": "The reading separates the end of Ibn Ishaq’s narrative from “Ibn Hisham said” and the report and interpretation that follow.",
+            "explanation": "تفصل القراءة خاتمة سرد ابن إسحاق عن «قال ابن هشام» وما يليها من سماع وتفسير.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_provisions_ishaq_cave:p1",
@@ -1335,25 +1230,25 @@
             "step_id": "hch_preparations",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "How does Asma explain placing stones where her father’s money might have been after his departure?",
+            "prompt": "كيف تفسر أسماء وضع الأحجار في موضع مال أبيها بعد خروجه؟",
             "options": [
                 {
                     "option_id": "correct",
-                    "text": "She wanted to soothe her worried grandfather and says her father left them nothing.",
-                    "feedback": "Correct: Asma ends by explaining her purpose."
+                    "text": "أرادت تسكين جدها القلق، وتقول إن أباها لم يترك لهم شيئًا.",
+                    "feedback": "صحيح؛ تختم أسماء الخبر بتفسير قصدها."
                 },
                 {
                     "option_id": "alternative_a",
-                    "text": "The stones were money Abu Bakr left for her grandfather to spend.",
-                    "feedback": "Asma explicitly says they were stones and that her father left them nothing."
+                    "text": "كانت الأحجار مالًا تركه أبو بكر ليستطيع جده إنفاقه.",
+                    "feedback": "تصرح أسماء بأنها أحجار وأنه لم يترك لهم شيئًا."
                 },
                 {
                     "option_id": "alternative_b",
-                    "text": "She wanted to prove that the amount was five thousand, not six.",
-                    "feedback": "The account wavers between five and six thousand; the stones do not prove either sum."
+                    "text": "أرادت أن تثبت أن مبلغ المال خمسة آلاف لا ستة.",
+                    "feedback": "الخبر يتردد بين خمسة آلاف وستة، ولا تجعل الأحجار دليلًا على أحدهما."
                 }
             ],
-            "explanation": "Her initial words to her grandfather were meant to reassure him, not to prove that money remained in the recess; the uncertainty between the two sums remains.",
+            "explanation": "قولها الأول للجد طمأنة، لا دليل على مال بقي في الكوة، والتردد بين المبلغين محفوظ.",
             "scope_note": "",
             "source_unit_ids": ["sp_provisions_quhafa:p1", "sp_provisions_quhafa:p2"],
             "correct_option_id": "correct"

@@ -2,7 +2,7 @@
 // direction in this file are working drafts pending scholarly/editorial approval.
 import { details } from './details.js'
 import { timeline } from './timeline.js'
-import { source_notes, stage_text } from './text.generated.js'
+import { cited_passages, source_notes, stage_text } from './text.generated.js'
 
 /** @typedef {{id: string, title: string, scene: string, duration: number, source_ids: string[], paragraphs: Array<{id: string, text: string, source_ids: string[]}>, recap?: string}} ChapterStep */
 /** @typedef {{id: string, title: string, release_id: string, release_status: string, review_status: string, language: string, objective: string, question: object, steps: ChapterStep[], sources: object[]}} Chapter */
@@ -363,6 +363,53 @@ for (const source of chapter.sources) {
     if (!source_notes[source.id]) throw new Error(`No note in content/sources.md for ${source.id}`)
     source.explanation = source_notes[source.id].text
 }
+
+// Captions derived from the chapters cite the chapters' passages (registry ids such as
+// "sp_thawr_support:p1"); each becomes a source here, numbered after the journey's own, placed
+// where its stage is.
+const stage_places = {
+    setting: 'makkah',
+    preparations: 'makkah',
+    departure: 'makkah',
+    thawr: 'cave',
+    onward: 'coast',
+    pursuit: 'road',
+    tent: 'tent',
+    quba: 'quba',
+    arrival: 'madinah',
+}
+for (const step of chapter.steps)
+    for (const id of step.paragraphs.flatMap((paragraph) => paragraph.source_ids)) {
+        const passage = cited_passages[id]
+        if (!passage || chapter.sources.some((source) => source.id === id)) continue
+        chapter.sources.push({
+            id,
+            number: chapter.sources.length + 1,
+            reference: passage.reference,
+            work: passage.book_ar,
+            locator: '',
+            excerpt: passage.excerpt,
+            explanation: '',
+            limits: '',
+            url: passage.url,
+            author: '',
+            volume: passage.volume,
+            page: passage.page,
+            heading: null,
+            book_id: passage.book_id,
+            page_id: null,
+            kind: /قرآن/.test(passage.kind_ar ?? '')
+                ? 'quran'
+                : /حديث/.test(passage.kind_ar ?? '')
+                  ? 'hadith'
+                  : 'report',
+            place: stage_places[step.id],
+        })
+    }
+for (const step of chapter.steps)
+    step.source_ids = [
+        ...new Set([...step.source_ids, ...step.paragraphs.flatMap((p) => p.source_ids)]),
+    ]
 
 function get_turath_citation(id) {
     const citations = {

@@ -8,7 +8,9 @@ import { execFileSync } from 'node:child_process'
 import { mkdtempSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
-import { build_chapters } from './chapters.js'
+import { books, build_chapters } from './chapters.js'
+import { check_derivations } from './derive.js'
+import { resolve, unit } from './passages.js'
 
 const root = path.resolve(import.meta.dirname, '../..')
 const content_dir = path.join(root, 'content')
@@ -122,6 +124,8 @@ export function compile() {
         glossary_terms: [],
     }
     const where = (file, line) => `${path.relative(root, file)}:${line}`
+    // Which chapter sections each caption retells ("from:"), checked after compiling.
+    const derived_from = {}
     // Where each text came from, for the checker: "kind:id" -> { stage, at }.
     const origin = {}
     const from = (kind, id, stage, file, line) =>
@@ -162,6 +166,7 @@ export function compile() {
                 unique(file, section, `paragraph ${key}`)
                 from('caption', key, stage, file, section.line)
                 const sources = need(errors, file, section, 'sources', section.line)
+                if (section.fields.from) derived_from[key] = section.fields.from
                 result.stage_text[stage].paragraphs.push({
                     id: key,
                     text: one(errors, file, section, section),
@@ -299,7 +304,41 @@ export function compile() {
     result.source_notes = by_id(result.source_notes, ([a], [b]) => a.slice(1) - b.slice(1))
     result.moments = by_id(result.moments, ([a], [b]) => a.localeCompare(b))
     result.timeline_text = by_id(result.timeline_text, ([a], [b]) => a.localeCompare(b))
-    return { result, errors, origin }
+    // Derived captions may cite only what their chapter sections cite; the passages they cite
+    // beyond the journey's own (E01…) are bundled for the journey's sources panel.
+    const derivation = check_derivations(
+        Object.fromEntries(
+            Object.entries(result.stage_text).map(([id, stage]) => [
+                id,
+                {
+                    ...stage,
+                    paragraphs: stage.paragraphs.map((p) => ({ ...p, from: derived_from[p.id] })),
+                },
+            ]),
+        ),
+    )
+    errors.push(...derivation.errors)
+    result.cited_passages = {}
+    for (const stage of Object.values(result.stage_text))
+        for (const paragraph of stage.paragraphs)
+            for (const token of paragraph.source_ids) {
+                if (/^E\d+$/.test(token) || result.cited_passages[token]) continue
+                const ref = resolve(token)
+                if (!ref) continue
+                const parts = ref.part_ids.map((id) => unit(ref.packet_id, id))
+                const book = books.get(String(parts[0].book_id)) ?? parts[0].book_ar
+                result.cited_passages[token] = {
+                    reference: `${book}${parts[0].volume ? `, ${parts[0].volume}/${parts[0].page}` : ''}`,
+                    excerpt: parts.map((part) => part.text_ar).join('\n'),
+                    book_id: parts[0].book_id,
+                    book_ar: parts[0].book_ar,
+                    volume: parts[0].volume,
+                    page: parts[0].page,
+                    url: parts[0].source_url,
+                    kind_ar: parts[0].kind_ar,
+                }
+            }
+    return { result, errors, origin, derivation: { ...derivation, from: derived_from } }
 }
 
 export function render(result) {

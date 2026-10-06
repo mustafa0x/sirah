@@ -919,3 +919,5 @@ export const glossary_terms = [
         match: ['Salman', 'سلمان'],
     },
 ]
+
+export const cited_passages = {}

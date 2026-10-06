@@ -1,34 +1,27 @@
 {
     "chapter_id": "hch_suraqa",
-    "locale": "en",
+    "locale": "ar",
     "status": "story",
-    "packet_id": "hch_suraqa:en:story",
+    "packet_id": "hch_suraqa:ar:story",
     "stage": "pursuit",
-    "title": "Suraqah's Pursuit",
-    "reader_question": "How did the horseman who rode out to capture the Prophet ﷺ end up turning his pursuers away?",
+    "title": "مطاردة سراقة",
+    "reader_question": "كيف صار الفارس الذي خرج ليأسر النبيَّ ﷺ هو الذي يردّ الطالبين عنه؟",
     "overview": [
         {
             "paragraph_id": "hch_suraqa_o1",
-            "text": "Quraysh had not let the Prophet ﷺ go. Their messengers went out to the tribes with an offer: the blood-money of each man, for the Prophet ﷺ and for Abu Bakr, to whoever killed or captured him. Among Banu Mudlij, Suraqah ibn Malik heard it, and he hoped to win it. So when a man of his tribe walked into their gathering saying he had seen riders by the coast, Suraqah knew at once who they were, and told no one. What happened when he caught up with them, he told afterwards in his own words.",
+            "text": "لم تكن قريش لتدع النبيَّ ﷺ يمضي. فقد بعثت رسلها إلى القبائل يجعلون في رسول الله ﷺ وفي أبي بكر ديةَ كلِّ واحد منهما لمن قتله أو أسره. وفي بني مُدلِج بلغ ذلك سراقةَ بنَ مالك، فطمع في أن يفوز به. فلمّا أقبل رجل من قومه على مجلسهم يقول إنه رأى رَكْبًا بالساحل، عرف سراقة من فوره مَن هم، وكتم ذلك عن الناس. أمّا ما جرى حين أدركهم، فقد رواه بعدُ بلسانه.",
             "parts": [
-                { "text": "Quraysh", "term": "quraysh" },
                 {
-                    "text": " had not let the Prophet ﷺ go. Their messengers went out to the tribes with an offer: the blood-money of each man, for the Prophet ﷺ and for "
+                    "text": "لم تكن قريش لتدع النبيَّ ﷺ يمضي. فقد بعثت رسلها إلى القبائل يجعلون في رسول الله ﷺ وفي أبي بكر ديةَ كلِّ واحد منهما لمن قتله أو أسره."
                 },
-                { "text": "Abu Bakr", "term": "abubakr" },
-                { "text": ", to whoever killed or captured him." },
                 { "note": 1 },
-                { "text": " Among " },
-                { "text": "Banu", "term": "banu" },
-                { "text": " Mudlij, Suraqah ibn Malik heard it, and he hoped to win it." },
+                { "text": " وفي بني مُدلِج بلغ ذلك سراقةَ بنَ مالك، فطمع في أن يفوز به." },
                 { "note": 2 },
                 {
-                    "text": " So when a man of his tribe walked into their gathering saying he had seen riders by the coast, Suraqah knew at once who they were, and told no one."
+                    "text": " فلمّا أقبل رجل من قومه على مجلسهم يقول إنه رأى رَكْبًا بالساحل، عرف سراقة من فوره مَن هم، وكتم ذلك عن الناس."
                 },
                 { "note": 1 },
-                {
-                    "text": " What happened when he caught up with them, he told afterwards in his own words."
-                },
+                { "text": " أمّا ما جرى حين أدركهم، فقد رواه بعدُ بلسانه." },
                 { "note": 1 }
             ]
         }
@@ -36,44 +29,38 @@
     "account": [
         {
             "section_id": "hch_suraqa_s1",
-            "title": "A price on their heads",
+            "title": "ديةٌ لمن يأتي بهما",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_s1_1",
-                    "text": "Suraqah remembered how the news first came: \"Messengers of the unbelievers of Quraysh came to us,\" offering, for the Messenger of Allah ﷺ and for Abu Bakr, the blood-money of each to whoever killed or captured him.",
+                    "text": "كان سراقة يذكر كيف جاءه الخبر أول مرة: «جاءنا رسلُ كفار قريش» يجعلون في رسول الله ﷺ وفي أبي بكر ديةَ كلِّ واحد منهما لمن قتله أو أسره.",
                     "parts": [
                         {
-                            "text": "Suraqah remembered how the news first came: \"Messengers of the unbelievers of Quraysh came to us,\" offering, for the Messenger of "
-                        },
-                        { "text": "Allah", "term": "allah" },
-                        {
-                            "text": " ﷺ and for Abu Bakr, the blood-money of each to whoever killed or captured him."
+                            "text": "كان سراقة يذكر كيف جاءه الخبر أول مرة: «جاءنا رسلُ كفار قريش» يجعلون في رسول الله ﷺ وفي أبي بكر ديةَ كلِّ واحد منهما لمن قتله أو أسره."
                         },
                         { "note": 1 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s1_2",
-                    "text": "One day Suraqah was sitting among his people, Banu Mudlij, when one of them came up and stood over them. \"Suraqah,\" he said, \"just now I saw dark figures by the coast. I think they are Muhammad and his companions.\"",
+                    "text": "وبينما هو جالس يومًا في مجلس من مجالس قومه بني مُدلِج، أقبل رجل منهم حتى قام عليهم، فقال: «يا سراقة، إني قد رأيت آنفًا أَسْوِدةً بالساحل، أُراها محمدًا وأصحابه».",
                     "parts": [
                         {
-                            "text": "One day Suraqah was sitting among his people, Banu Mudlij, when one of them came up and stood over them. \"Suraqah,\" he said, \"just now I saw dark figures by the coast. I think they are Muhammad and his companions.\""
+                            "text": "وبينما هو جالس يومًا في مجلس من مجالس قومه بني مُدلِج، أقبل رجل منهم حتى قام عليهم، فقال: «يا سراقة، إني قد رأيت آنفًا أَسْوِدةً بالساحل، أُراها محمدًا وأصحابه»."
                         },
                         { "note": 1 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s1_3",
-                    "text": "\"I knew that it was them,\" Suraqah said. But aloud he told the man, \"It is not them. You saw so-and-so and so-and-so, who set out before our eyes.\" In Ibn Ishaq's telling he silenced the man with a look first, then said they were only a family out searching for a lost animal. \"Perhaps,\" the man said, and fell silent. Suraqah had his own plan: \"I hoped to bring him back to Quraysh and take the hundred she-camels.\"",
+                    "text": "قال سراقة: «فعرفتُ أنهم هم». لكنه قال للرجل: «إنهم ليسوا بهم، ولكنك رأيت فلانًا وفلانًا انطلقوا بأعيننا». وفي رواية ابن إسحاق أنه أومأ إليه بعينه أولًا أنِ اسكت، ثم قال: «إنما هم بنو فلان يبتغون ضالّةً لهم». فقال الرجل: «لعلّه»، ثم سكت. وكان لسراقة في نفسه أمر: «وكنت أرجو أن أردّه على قريش، فآخذَ المئةَ الناقة».",
                     "parts": [
                         {
-                            "text": "\"I knew that it was them,\" Suraqah said. But aloud he told the man, \"It is not them. You saw so-and-so and so-and-so, who set out before our eyes.\""
+                            "text": "قال سراقة: «فعرفتُ أنهم هم». لكنه قال للرجل: «إنهم ليسوا بهم، ولكنك رأيت فلانًا وفلانًا انطلقوا بأعيننا»."
                         },
                         { "note": 1 },
-                        { "text": " In " },
-                        { "text": "Ibn Ishaq", "term": "ibnishaq" },
                         {
-                            "text": "'s telling he silenced the man with a look first, then said they were only a family out searching for a lost animal. \"Perhaps,\" the man said, and fell silent. Suraqah had his own plan: \"I hoped to bring him back to Quraysh and take the hundred she-camels.\""
+                            "text": " وفي رواية ابن إسحاق أنه أومأ إليه بعينه أولًا أنِ اسكت، ثم قال: «إنما هم بنو فلان يبتغون ضالّةً لهم». فقال الرجل: «لعلّه»، ثم سكت. وكان لسراقة في نفسه أمر: «وكنت أرجو أن أردّه على قريش، فآخذَ المئةَ الناقة»."
                         },
                         { "note": 2 }
                     ]
@@ -82,28 +69,24 @@
         },
         {
             "section_id": "hch_suraqa_s2",
-            "title": "Out by the back of the house",
+            "title": "من ظهر البيت",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_s2_1",
-                    "text": "He sat on in the gathering for a while, then rose and went inside. He told his servant girl to take his horse out and hold it for him behind a hillock. He took his spear and left by the back of the house, its butt dragging along the ground and its tip held low, until he reached his horse, mounted, and urged it on.",
+                    "text": "لبث في المجلس ساعة، ثم قام فدخل بيته، وأمر جاريته أن تخرج بفرسه فتحبسها عليه من وراء أَكَمة. وأخذ رمحه وخرج به من ظهر البيت، يخطّ بزُجّه الأرض ويخفض عاليه، حتى أتى فرسه فركبها ودفعها تُقرّب به.",
                     "parts": [
                         {
-                            "text": "He sat on in the gathering for a while, then rose and went inside. He told his servant girl to take his horse out and hold it for him behind a hillock. He took his spear and left by the back of the house, its butt dragging along the ground and its tip held low, until he reached his horse, mounted, and urged it on."
+                            "text": "لبث في المجلس ساعة، ثم قام فدخل بيته، وأمر جاريته أن تخرج بفرسه فتحبسها عليه من وراء أَكَمة. وأخذ رمحه وخرج به من ظهر البيت، يخطّ بزُجّه الأرض ويخفض عاليه، حتى أتى فرسه فركبها ودفعها تُقرّب به."
                         },
                         { "note": 1 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s2_2",
-                    "text": "He rode hard, and as he drew near them, his horse stumbled and he fell. He got up, reached into his quiver and drew out his divining arrows, the arrows he used to draw lots, and put the question to them: should I harm them or not? Out came the answer he hated. He mounted again, defying the arrows, and rode on until he could hear the Messenger of Allah ﷺ reciting. The Prophet ﷺ did not look back. Abu Bakr kept looking back.",
+                    "text": "وجدّ في السير، حتى إذا دنا منهم عثرت به فرسه فخرّ عنها. فقام وأهوى بيده إلى كِنانته، فاستخرج منها الأزلام، وهي السهام التي كان يستقسم بها، وسألها: أأضرّهم أم لا؟ فخرج الذي يكره. فركب فرسه عاصيًا الأزلام، ومضى حتى سمع قراءة رسول الله ﷺ. وكان النبي ﷺ لا يلتفت، وأبو بكر يُكثر الالتفات.",
                     "parts": [
                         {
-                            "text": "He rode hard, and as he drew near them, his horse stumbled and he fell. He got up, reached into his quiver and drew out his "
-                        },
-                        { "text": "divining arrows", "term": "arrows" },
-                        {
-                            "text": ", the arrows he used to draw lots, and put the question to them: should I harm them or not? Out came the answer he hated. He mounted again, defying the arrows, and rode on until he could hear the Messenger of Allah ﷺ reciting. The Prophet ﷺ did not look back. Abu Bakr kept looking back."
+                            "text": "وجدّ في السير، حتى إذا دنا منهم عثرت به فرسه فخرّ عنها. فقام وأهوى بيده إلى كِنانته، فاستخرج منها الأزلام، وهي السهام التي كان يستقسم بها، وسألها: أأضرّهم أم لا؟ فخرج الذي يكره. فركب فرسه عاصيًا الأزلام، ومضى حتى سمع قراءة رسول الله ﷺ. وكان النبي ﷺ لا يلتفت، وأبو بكر يُكثر الالتفات."
                         },
                         { "note": 3 }
                     ]
@@ -112,43 +95,43 @@
         },
         {
             "section_id": "hch_suraqa_s3",
-            "title": "Allah is with us",
+            "title": "إنّ الله معنا",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_s3_1",
-                    "text": "Abu Bakr remembered the same moments from in front. They had set out after midday, with people searching for them, and none caught up but Suraqah ibn Malik on his horse. They were on hard ground. \"Messenger of Allah, we have been overtaken!\" Abu Bakr said. \"Do not grieve,\" the Prophet ﷺ answered. \"Allah is with us.\"",
+                    "text": "وكان أبو بكر يذكر تلك اللحظات نفسها من الجهة الأخرى. فقد ارتحلوا بعدما زالت الشمس، والقوم يطلبونهم، فلم يدركهم أحد غير سراقة بن مالك على فرس له. وكانوا في جَلَدٍ من الأرض. فقال أبو بكر: «يا رسول الله، أُتينا!» فقال النبي ﷺ: «لا تحزن، إنّ الله معنا».",
                     "parts": [
                         {
-                            "text": "Abu Bakr remembered the same moments from in front. They had set out after midday, with people searching for them, and none caught up but Suraqah ibn Malik on his horse."
+                            "text": "وكان أبو بكر يذكر تلك اللحظات نفسها من الجهة الأخرى. فقد ارتحلوا بعدما زالت الشمس، والقوم يطلبونهم، فلم يدركهم أحد غير سراقة بن مالك على فرس له."
                         },
                         { "note": 4 },
                         { "note": 5 },
                         {
-                            "text": " They were on hard ground. \"Messenger of Allah, we have been overtaken!\" Abu Bakr said. \"Do not grieve,\" the Prophet ﷺ answered. \"Allah is with us.\""
+                            "text": " وكانوا في جَلَدٍ من الأرض. فقال أبو بكر: «يا رسول الله، أُتينا!» فقال النبي ﷺ: «لا تحزن، إنّ الله معنا»."
                         },
                         { "note": 4 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s3_2",
-                    "text": "When the horseman was only two or three spear-lengths away, Abu Bakr said it again, and wept. \"Why are you weeping?\" the Prophet ﷺ asked. \"By Allah, it is not for myself that I weep,\" Abu Bakr said, \"but for you.\" The Prophet ﷺ prayed: \"O Allah, suffice us however You will.\"",
+                    "text": "فلمّا دنا الفارس حتى لم يكن بينهم وبينه إلا قِيدُ رمحين أو ثلاثة، قال أبو بكر قوله ثانيةً، وبكى. فسأله النبي ﷺ: «ما يُبكيك؟» فقال: «أما والله ما على نفسي أبكي، ولكني إنما أبكي عليك». فدعا النبي ﷺ: «اللهمّ اكفِنا بما شئت».",
                     "parts": [
                         {
-                            "text": "When the horseman was only two or three spear-lengths away, Abu Bakr said it again, and wept. \"Why are you weeping?\" the Prophet ﷺ asked. \"By Allah, it is not for myself that I weep,\" Abu Bakr said, \"but for you.\" The Prophet ﷺ prayed: \"O Allah, suffice us however You will.\""
+                            "text": "فلمّا دنا الفارس حتى لم يكن بينهم وبينه إلا قِيدُ رمحين أو ثلاثة، قال أبو بكر قوله ثانيةً، وبكى. فسأله النبي ﷺ: «ما يُبكيك؟» فقال: «أما والله ما على نفسي أبكي، ولكني إنما أبكي عليك». فدعا النبي ﷺ: «اللهمّ اكفِنا بما شئت»."
                         },
                         { "note": 5 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s3_3",
-                    "text": "Then the ground gave way. \"My horse's forelegs sank into the earth up to the knees,\" Suraqah said, \"and I fell off it.\" He shouted at the horse and it rose, barely able to pull its forelegs free, and when it stood upright, dust rose from the marks of its legs into the sky like smoke. Abu Bakr remembered the horse sinking to its belly, and Suraqah leaping clear of it. \"Muhammad, I know this is your doing,\" Suraqah said. \"Pray to Allah to save me from what I am in, and by Allah, I will blind the pursuers behind me.\" He meant that he would hide them from those still searching.",
+                    "text": "ثم ساخت الأرض. قال سراقة: «ساخت يدا فرسي في الأرض حتى بلغتا الركبتين، فخررت عنها». ثم زجرها فنهضت، ولم تكد تُخرج يديها، فلمّا استوت قائمة إذا لأثر يديها عُثانٌ ساطع في السماء مثلُ الدخان. وذكر أبو بكر أن الفرس ساخت به إلى بطنها، فوثب عنها سراقة وقال: «يا محمد، قد علمتُ أنّ هذا عملك، فادعُ الله أن يُنجيني مما أنا فيه، فوالله لأُعمّيَنّ على مَن ورائي من الطلب». يريد أنه سيُخفي أمرهما عمّن بقي يطلبهما.",
                     "parts": [
                         {
-                            "text": "Then the ground gave way. \"My horse's forelegs sank into the earth up to the knees,\" Suraqah said, \"and I fell off it.\" He shouted at the horse and it rose, barely able to pull its forelegs free, and when it stood upright, dust rose from the marks of its legs into the sky like smoke."
+                            "text": "ثم ساخت الأرض. قال سراقة: «ساخت يدا فرسي في الأرض حتى بلغتا الركبتين، فخررت عنها». ثم زجرها فنهضت، ولم تكد تُخرج يديها، فلمّا استوت قائمة إذا لأثر يديها عُثانٌ ساطع في السماء مثلُ الدخان."
                         },
                         { "note": 6 },
                         {
-                            "text": " Abu Bakr remembered the horse sinking to its belly, and Suraqah leaping clear of it. \"Muhammad, I know this is your doing,\" Suraqah said. \"Pray to Allah to save me from what I am in, and by Allah, I will blind the pursuers behind me.\" He meant that he would hide them from those still searching."
+                            "text": " وذكر أبو بكر أن الفرس ساخت به إلى بطنها، فوثب عنها سراقة وقال: «يا محمد، قد علمتُ أنّ هذا عملك، فادعُ الله أن يُنجيني مما أنا فيه، فوالله لأُعمّيَنّ على مَن ورائي من الطلب». يريد أنه سيُخفي أمرهما عمّن بقي يطلبهما."
                         },
                         { "note": 5 },
                         { "note": 7 }
@@ -158,59 +141,59 @@
         },
         {
             "section_id": "hch_suraqa_s4",
-            "title": "\"Keep our whereabouts hidden\"",
+            "title": "«أخفِ عنّا»",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_s4_1",
-                    "text": "Once more Suraqah cast his arrows, and once more the answer was the one he hated. This time he called out to them, asking for safety, and they stopped. \"I am Suraqah ibn Ju‘shum,\" he called, in Ibn Ishaq's version. \"Wait for me so I can speak to you. By Allah, I will give you no cause for alarm, and nothing you dislike will come to you from me.\"",
+                    "text": "واستقسم سراقة بالأزلام مرة أخرى، فخرج مرة أخرى الذي يكره. فناداهم هذه المرة بالأمان، فوقفوا. وفي رواية ابن إسحاق أنه نادى: «أنا سراقة بن جُعشُم، انظروني أكلّمكم، فوالله لا أَريبُكم، ولا يأتيكم مني شيء تكرهونه».",
                     "parts": [
                         {
-                            "text": "Once more Suraqah cast his arrows, and once more the answer was the one he hated. This time he called out to them, asking for safety, and they stopped."
+                            "text": "واستقسم سراقة بالأزلام مرة أخرى، فخرج مرة أخرى الذي يكره. فناداهم هذه المرة بالأمان، فوقفوا."
                         },
                         { "note": 6 },
                         {
-                            "text": " \"I am Suraqah ibn Ju‘shum,\" he called, in Ibn Ishaq's version. \"Wait for me so I can speak to you. By Allah, I will give you no cause for alarm, and nothing you dislike will come to you from me.\""
+                            "text": " وفي رواية ابن إسحاق أنه نادى: «أنا سراقة بن جُعشُم، انظروني أكلّمكم، فوالله لا أَريبُكم، ولا يأتيكم مني شيء تكرهونه»."
                         },
                         { "note": 8 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s4_2",
-                    "text": "He rode up to them. \"When I met with what I met, being held back from them,\" he said, \"it came into my mind that the cause of the Messenger of Allah ﷺ would prevail.\"",
+                    "text": "فركب فرسه حتى جاءهم. قال: «ووقع في نفسي حين لقيتُ ما لقيتُ من الحبس عنهم أن سيظهر أمرُ رسول الله ﷺ».",
                     "parts": [
                         {
-                            "text": "He rode up to them. \"When I met with what I met, being held back from them,\" he said, \"it came into my mind that the cause of the Messenger of Allah ﷺ would prevail.\""
+                            "text": "فركب فرسه حتى جاءهم. قال: «ووقع في نفسي حين لقيتُ ما لقيتُ من الحبس عنهم أن سيظهر أمرُ رسول الله ﷺ»."
                         },
                         { "note": 6 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s4_3",
-                    "text": "He told them about the price on their heads and what people meant to do to them, and offered them provisions and goods. \"They took nothing from me and asked nothing of me,\" he said, \"except that he said: 'Keep our whereabouts hidden.'\" Abu Bakr recalled that he offered more: \"Here is my quiver; take an arrow from it. You will pass my camels and sheep at such-and-such a place; take what you need from them.\" \"We have no need of your camels and sheep,\" the Prophet ﷺ said, and he prayed for him.",
+                    "text": "فأخبرهم بالدية التي جُعلت فيهم، وبما يريد الناس بهم، وعرض عليهم الزاد والمتاع. قال: «فلم يرزآني ولم يسألاني، إلا أن قال: \"أخفِ عنّا\"». وذكر أبو بكر أنه عرض عليهم أكثر من ذلك: «وهذه كنانتي فخذ منها سهمًا، فإنك ستمرّ بإبلي وغنمي بمكان كذا وكذا، فخذ منها حاجتك». فقال النبي ﷺ: «لا حاجة لنا في إبلك وغنمك»، ودعا له.",
                     "parts": [
                         {
-                            "text": "He told them about the price on their heads and what people meant to do to them, and offered them provisions and goods. \"They took nothing from me and asked nothing of me,\" he said, \"except that he said: 'Keep our whereabouts hidden.'\""
+                            "text": "فأخبرهم بالدية التي جُعلت فيهم، وبما يريد الناس بهم، وعرض عليهم الزاد والمتاع. قال: «فلم يرزآني ولم يسألاني، إلا أن قال: \"أخفِ عنّا\"»."
                         },
                         { "note": 6 },
                         {
-                            "text": " Abu Bakr recalled that he offered more: \"Here is my quiver; take an arrow from it. You will pass my camels and sheep at such-and-such a place; take what you need from them.\" \"We have no need of your camels and sheep,\" the Prophet ﷺ said, and he prayed for him."
+                            "text": " وذكر أبو بكر أنه عرض عليهم أكثر من ذلك: «وهذه كنانتي فخذ منها سهمًا، فإنك ستمرّ بإبلي وغنمي بمكان كذا وكذا، فخذ منها حاجتك». فقال النبي ﷺ: «لا حاجة لنا في إبلك وغنمك»، ودعا له."
                         },
                         { "note": 5 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s4_4",
-                    "text": "Then Suraqah asked for a letter of safety, and at the Prophet's ﷺ word ‘Amir ibn Fuhayrah wrote it on a piece of leather. In Ibn Ishaq's version the Prophet ﷺ told Abu Bakr, \"Ask him what he wants from us,\" and Suraqah asked for \"a letter that will be a sign between you and me\". \"Write it for him, Abu Bakr,\" the Prophet ﷺ said. Abu Bakr wrote it on a bone, a scrap or a potsherd, and tossed it to him; Suraqah put it in his quiver. Then the Messenger of Allah ﷺ went on his way.",
+                    "text": "ثم سأله سراقة أن يكتب له كتاب أمن، فأمر النبي ﷺ عامرَ بنَ فُهيرة، فكتب له في رقعة من أَدِيم. وفي رواية ابن إسحاق أن النبي ﷺ قال لأبي بكر: «قل له: وما تبتغي منا؟» فسأل سراقة «كتابًا يكون آيةً بيني وبينك». فقال النبي ﷺ: «اكتب له يا أبا بكر». فكتب له أبو بكر في عظم أو رقعة أو خزفة، ثم ألقاه إليه، فجعله سراقة في كنانته. ثم مضى رسول الله ﷺ.",
                     "parts": [
                         {
-                            "text": "Then Suraqah asked for a letter of safety, and at the Prophet's ﷺ word ‘Amir ibn Fuhayrah wrote it on a piece of leather."
+                            "text": "ثم سأله سراقة أن يكتب له كتاب أمن، فأمر النبي ﷺ عامرَ بنَ فُهيرة، فكتب له في رقعة من أَدِيم."
                         },
                         { "note": 6 },
                         {
-                            "text": " In Ibn Ishaq's version the Prophet ﷺ told Abu Bakr, \"Ask him what he wants from us,\" and Suraqah asked for \"a letter that will be a sign between you and me\". \"Write it for him, Abu Bakr,\" the Prophet ﷺ said. Abu Bakr wrote it on a bone, a scrap or a potsherd, and tossed it to him; Suraqah put it in his quiver."
+                            "text": " وفي رواية ابن إسحاق أن النبي ﷺ قال لأبي بكر: «قل له: وما تبتغي منا؟» فسأل سراقة «كتابًا يكون آيةً بيني وبينك». فقال النبي ﷺ: «اكتب له يا أبا بكر». فكتب له أبو بكر في عظم أو رقعة أو خزفة، ثم ألقاه إليه، فجعله سراقة في كنانته."
                         },
                         { "note": 8 },
-                        { "text": " Then the Messenger of Allah ﷺ went on his way." },
+                        { "text": " ثم مضى رسول الله ﷺ." },
                         { "note": 6 }
                     ]
                 }
@@ -218,55 +201,43 @@
         },
         {
             "section_id": "hch_suraqa_s5",
-            "title": "The hunter turns them back",
+            "title": "الطالب يردّ الطلب",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_s5_1",
-                    "text": "Suraqah turned back. \"Allah is my witness,\" he had promised them, \"that I will turn the pursuers back from you.\" To everyone he met on the way, he said: \"You have been spared the search here.\" \"He did not meet anyone without turning him back,\" Abu Bakr said, \"and he kept his word to us.\" He told the searchers: \"Go back. I have searched this ground for you, and you know my eye for tracks.\"",
+                    "text": "ورجع سراقة، وقد عاهدهم: «فالله لكما أن أردّ عنكما الطلب». فكان لا يلقى أحدًا في طريقه إلا قال: «قد كُفيتم ما ههنا». قال أبو بكر: «ولا يلقى أحدًا إلا ردّه، ووفى لنا». وقال للطالبين: «ارجعوا، فقد استبرأتُ لكم ما ههنا، وقد عرفتم بصري بالأثر».",
                     "parts": [
+                        { "text": "ورجع سراقة، وقد عاهدهم: «فالله لكما أن أردّ عنكما الطلب»." },
+                        { "note": 9 },
                         {
-                            "text": "Suraqah turned back. \"Allah is my witness,\" he had promised them, \"that I will turn the pursuers back from you.\""
+                            "text": " فكان لا يلقى أحدًا في طريقه إلا قال: «قد كُفيتم ما ههنا». قال أبو بكر: «ولا يلقى أحدًا إلا ردّه، ووفى لنا»."
                         },
                         { "note": 9 },
                         {
-                            "text": " To everyone he met on the way, he said: \"You have been spared the search here.\" \"He did not meet anyone without turning him back,\" Abu Bakr said, \"and he kept his word to us.\""
-                        },
-                        { "note": 9 },
-                        {
-                            "text": " He told the searchers: \"Go back. I have searched this ground for you, and you know my eye for tracks.\""
+                            "text": " وقال للطالبين: «ارجعوا، فقد استبرأتُ لكم ما ههنا، وقد عرفتم بصري بالأثر»."
                         },
                         { "note": 10 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s5_2",
-                    "text": "Of what had passed between them, Suraqah said nothing to anyone. But he kept the letter. Years later, after the conquest of Makkah, Hunayn and al-Ta'if, he went with it to meet the Prophet ﷺ at al-Ji‘ranah. Horsemen of the Ansar struck at him with their spears, crying, \"Back! Back!\", until he came near, raised his hand with the letter and said, \"Messenger of Allah, this is your letter to me.\" \"A day of faithfulness and kindness,\" the Prophet ﷺ said. \"Come near.\" There Suraqah accepted Islam.",
+                    "text": "ولم يذكر سراقة لأحد شيئًا مما كان بينهم. لكنه احتفظ بالكتاب. وبعد سنين، لمّا فُتحت مكة وفرغ رسول الله ﷺ من حنين والطائف، خرج به ليلقاه، فلقيه بالجِعرانة. فدخل في كتيبة من خيل الأنصار، فجعلوا يقرعونه بالرماح ويقولون: «إليك، إليك»، حتى دنا من رسول الله ﷺ، فرفع يده بالكتاب وقال: «يا رسول الله، هذا كتابك لي». فقال رسول الله ﷺ: «يومُ وفاءٍ وبِرّ، ادنُه». فدنا منه، فأسلم.",
                     "parts": [
-                        {
-                            "text": "Of what had passed between them, Suraqah said nothing to anyone."
-                        },
+                        { "text": "ولم يذكر سراقة لأحد شيئًا مما كان بينهم." },
                         { "note": 8 },
-                        { "text": " But he kept the letter. Years later, after the conquest of " },
-                        { "text": "Makkah", "term": "makkah" },
                         {
-                            "text": ", Hunayn and al-Ta'if, he went with it to meet the Prophet ﷺ at al-Ji‘ranah. Horsemen of the "
-                        },
-                        { "text": "Ansar", "term": "ansar" },
-                        {
-                            "text": " struck at him with their spears, crying, \"Back! Back!\", until he came near, raised his hand with the letter and said, \"Messenger of Allah, this is your letter to me.\" \"A day of faithfulness and kindness,\" the Prophet ﷺ said. \"Come near.\" There Suraqah accepted Islam."
+                            "text": " لكنه احتفظ بالكتاب. وبعد سنين، لمّا فُتحت مكة وفرغ رسول الله ﷺ من حنين والطائف، خرج به ليلقاه، فلقيه بالجِعرانة. فدخل في كتيبة من خيل الأنصار، فجعلوا يقرعونه بالرماح ويقولون: «إليك، إليك»، حتى دنا من رسول الله ﷺ، فرفع يده بالكتاب وقال: «يا رسول الله، هذا كتابك لي». فقال رسول الله ﷺ: «يومُ وفاءٍ وبِرّ، ادنُه». فدنا منه، فأسلم."
                         },
                         { "note": 11 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_s5_3",
-                    "text": "That day, the Prophet ﷺ and Abu Bakr rode on towards Madinah, with the hunter behind them sending every pursuer home.",
+                    "text": "أمّا ذلك اليوم، فقد مضى النبي ﷺ وأبو بكر نحو المدينة، ومن ورائهما الطالبُ الذي صار يردّ كلَّ طالب إلى أهله.",
                     "parts": [
-                        { "text": "That day, the Prophet ﷺ and Abu Bakr rode on towards " },
-                        { "text": "Madinah", "term": "madinah" },
-                        { "text": "," },
+                        { "text": "أمّا ذلك اليوم، فقد مضى النبي ﷺ وأبو بكر نحو المدينة،" },
                         { "note": 5 },
-                        { "text": " with the hunter behind them sending every pursuer home." },
+                        { "text": " ومن ورائهما الطالبُ الذي صار يردّ كلَّ طالب إلى أهله." },
                         { "note": 9 }
                     ]
                 }
@@ -276,84 +247,66 @@
     "outline": [
         {
             "point_id": "hch_suraqa_pt1",
-            "text": "A price on their heads",
+            "text": "ديةٌ لمن يأتي بهما",
             "section_id": "hch_suraqa_s1"
         },
         {
             "point_id": "hch_suraqa_pt2",
-            "text": "Suraqah hides what he knows",
+            "text": "سراقة يكتم ما عرف",
             "section_id": "hch_suraqa_s1"
         },
+        { "point_id": "hch_suraqa_pt3", "text": "من ظهر البيت", "section_id": "hch_suraqa_s2" },
+        { "point_id": "hch_suraqa_pt4", "text": "الأزلام تقول: لا", "section_id": "hch_suraqa_s2" },
+        { "point_id": "hch_suraqa_pt5", "text": "«إنّ الله معنا»", "section_id": "hch_suraqa_s3" },
         {
-            "point_id": "hch_suraqa_pt3",
-            "text": "Out by the back of the house",
-            "section_id": "hch_suraqa_s2"
-        },
-        {
-            "point_id": "hch_suraqa_pt4",
-            "text": "The arrows say no",
-            "section_id": "hch_suraqa_s2"
-        },
-        {
-            "point_id": "hch_suraqa_pt5",
-            "text": "\"Allah is with us\"",
+            "point_id": "hch_suraqa_pt6",
+            "text": "الفرس تسوخ في الأرض",
             "section_id": "hch_suraqa_s3"
         },
-        { "point_id": "hch_suraqa_pt6", "text": "The horse sinks", "section_id": "hch_suraqa_s3" },
-        {
-            "point_id": "hch_suraqa_pt7",
-            "text": "\"Keep our whereabouts hidden\"",
-            "section_id": "hch_suraqa_s4"
-        },
-        {
-            "point_id": "hch_suraqa_pt8",
-            "text": "The hunter turns them back",
-            "section_id": "hch_suraqa_s5"
-        }
+        { "point_id": "hch_suraqa_pt7", "text": "«أخفِ عنّا»", "section_id": "hch_suraqa_s3" },
+        { "point_id": "hch_suraqa_pt8", "text": "الطالب يردّ الطلب", "section_id": "hch_suraqa_s5" }
     ],
     "in_depth": [
         {
             "section_id": "hch_suraqa_d1",
-            "title": "Two tellings of Suraqah's story",
+            "title": "روايتان لقصة سراقة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_d1_1",
-                    "text": "Ibn Ishaq's telling, like al-Bukhari's, goes back to Suraqah himself, but the two differ in their details. In al-Bukhari, Quraysh offer the blood-money of each man for killing or capturing him; Suraqah's horse stumbles once, he casts the arrows, rides on, and then its forelegs sink; ‘Amir ibn Fuhayrah writes the letter on leather. In Ibn Ishaq, and in the same story as Musa ibn ‘Uqbah heard it from al-Zuhri, the price is a hundred she-camels for bringing the Prophet ﷺ back; Suraqah puts on his armour and casts the arrows before he sets out (\"He will not harm him\"); the horse stumbles twice and he falls each time, asking \"What is this?\"; at the third fall its forelegs go into the ground; and Abu Bakr writes the letter, on a bone, a scrap or a potsherd. The story above follows al-Bukhari and names Ibn Ishaq where his version adds or differs.",
+                    "text": "ترجع رواية ابن إسحاق، كرواية البخاري، إلى سراقة نفسه، لكنهما تختلفان في التفاصيل. ففي رواية البخاري تجعل قريش دية كلِّ واحد منهما لمن قتله أو أسره، وتعثر فرس سراقة مرة واحدة، فيستقسم بالأزلام ثم يمضي، ثم تسوخ يداها؛ ويكتب عامر بن فهيرة الكتاب في أديم. وفي رواية ابن إسحاق، وفي القصة نفسها كما سمعها موسى بن عقبة من الزهري، الجائزة مئة ناقة لمن ردّ النبي ﷺ عليهم؛ ويلبس سراقة لأمته ويستقسم بالقداح قبل أن يخرج («لا يضرّه»)؛ وتعثر به الفرس مرتين فيسقط في كل مرة ويقول: «ما هذا؟»؛ وفي الثالثة تذهب يداها في الأرض؛ ويكتب أبو بكر الكتاب في عظم أو رقعة أو خزفة. والقصة أعلاه تسير على رواية البخاري، وتسمّي ابن إسحاق حيث تزيد روايته أو تخالف.",
                     "parts": [
-                        { "text": "Ibn Ishaq's telling, like " },
-                        { "text": "al-Bukhari", "term": "bukhari" },
                         {
-                            "text": "'s, goes back to Suraqah himself, but the two differ in their details."
+                            "text": "ترجع رواية ابن إسحاق، كرواية البخاري، إلى سراقة نفسه، لكنهما تختلفان في التفاصيل."
                         },
                         { "note": 1 },
                         { "note": 2 },
                         {
-                            "text": " In al-Bukhari, Quraysh offer the blood-money of each man for killing or capturing him; Suraqah's horse stumbles once, he casts the arrows, rides on, and then its forelegs sink; ‘Amir ibn Fuhayrah writes the letter on leather."
+                            "text": " ففي رواية البخاري تجعل قريش دية كلِّ واحد منهما لمن قتله أو أسره، وتعثر فرس سراقة مرة واحدة، فيستقسم بالأزلام ثم يمضي، ثم تسوخ يداها؛ ويكتب عامر بن فهيرة الكتاب في أديم."
                         },
                         { "note": 1 },
                         { "note": 3 },
                         { "note": 6 },
                         {
-                            "text": " In Ibn Ishaq, and in the same story as Musa ibn ‘Uqbah heard it from al-Zuhri, the price is a hundred she-camels for bringing the Prophet ﷺ back; Suraqah puts on his armour and casts the arrows before he sets out (\"He will not harm him\"); the horse stumbles twice and he falls each time, asking \"What is this?\"; at the third fall its forelegs go into the ground; and Abu Bakr writes the letter, on a bone, a scrap or a potsherd."
+                            "text": " وفي رواية ابن إسحاق، وفي القصة نفسها كما سمعها موسى بن عقبة من الزهري، الجائزة مئة ناقة لمن ردّ النبي ﷺ عليهم؛ ويلبس سراقة لأمته ويستقسم بالقداح قبل أن يخرج («لا يضرّه»)؛ وتعثر به الفرس مرتين فيسقط في كل مرة ويقول: «ما هذا؟»؛ وفي الثالثة تذهب يداها في الأرض؛ ويكتب أبو بكر الكتاب في عظم أو رقعة أو خزفة."
                         },
                         { "note": 2 },
                         { "note": 8 },
                         { "note": 12 },
                         {
-                            "text": " The story above follows al-Bukhari and names Ibn Ishaq where his version adds or differs."
+                            "text": " والقصة أعلاه تسير على رواية البخاري، وتسمّي ابن إسحاق حيث تزيد روايته أو تخالف."
                         }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_d1_2",
-                    "text": "Who wrote the letter is a known difference. Al-Maqrizi gives both names, Abu Bakr, \"and it is said ‘Amir ibn Fuhayrah\". A note on al-Qadi ‘Iyad's al-Shifa reports a way of reconciling them: ‘Amir wrote first, and Abu Bakr afterwards.",
+                    "text": "وفي كاتب الكتاب خلاف معروف. فقد ذكر المقريزي الاسمين: أبو بكر، «ويقال: بل كتب له عامر بن فهيرة». ونقلت حاشية على «الشفا» للقاضي عياض وجهًا في الجمع بينهما: أن ابن فهيرة كتب أولًا، وكتب أبو بكر آخرًا.",
                     "parts": [
                         {
-                            "text": "Who wrote the letter is a known difference. Al-Maqrizi gives both names, Abu Bakr, \"and it is said ‘Amir ibn Fuhayrah\"."
+                            "text": "وفي كاتب الكتاب خلاف معروف. فقد ذكر المقريزي الاسمين: أبو بكر، «ويقال: بل كتب له عامر بن فهيرة»."
                         },
                         { "note": 13 },
                         {
-                            "text": " A note on al-Qadi ‘Iyad's al-Shifa reports a way of reconciling them: ‘Amir wrote first, and Abu Bakr afterwards."
+                            "text": " ونقلت حاشية على «الشفا» للقاضي عياض وجهًا في الجمع بينهما: أن ابن فهيرة كتب أولًا، وكتب أبو بكر آخرًا."
                         },
                         { "note": 14 }
                     ]
@@ -362,23 +315,21 @@
         },
         {
             "section_id": "hch_suraqa_d2",
-            "title": "Abu Bakr's side of the story",
+            "title": "ما رآه أبو بكر",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_d2_1",
-                    "text": "Abu Bakr told his part to ‘Azib, al-Bara's father, who would not let him take home a saddle he had bought until he told how he and the Prophet ﷺ had fared on the road with the idolaters searching for them. Al-Bara heard it, and al-Bayhaqi notes that al-Bukhari and Muslim both recorded it. The two men saw the same moments from opposite ends: Suraqah tells of his arrows and his own change of heart; Abu Bakr of his fear, the Prophet's ﷺ prayer, and Suraqah's plea for a prayer in return. Suraqah says the forelegs sank to the knees; Abu Bakr says the horse sank to its belly.",
+                    "text": "حدّث أبو بكر بما جرى له عازبًا، أبا البراء، وكان قد اشترى منه رحلًا، فأبى عازب أن يدعه يحمله حتى يحدّثهم كيف صنع هو ورسول الله ﷺ حين خرجا والمشركون يطلبونهما. فسمعه البراء، وذكر البيهقي أن البخاري ومسلمًا أخرجاه كلاهما. لقد رأى الرجلان اللحظات نفسها من طرفين متقابلين: يحكي سراقة عن أزلامه وعمّا تغيّر في نفسه، ويحكي أبو بكر عن خوفه، ودعاء النبي ﷺ، وطلب سراقة أن يُدعى له في المقابل. ويقول سراقة إن يدي الفرس ساختا إلى الركبتين، ويقول أبو بكر إنها ساخت إلى بطنها.",
                     "parts": [
                         {
-                            "text": "Abu Bakr told his part to ‘Azib, al-Bara's father, who would not let him take home a saddle he had bought until he told how he and the Prophet ﷺ had fared on the road with the idolaters searching for them."
+                            "text": "حدّث أبو بكر بما جرى له عازبًا، أبا البراء، وكان قد اشترى منه رحلًا، فأبى عازب أن يدعه يحمله حتى يحدّثهم كيف صنع هو ورسول الله ﷺ حين خرجا والمشركون يطلبونهما."
                         },
                         { "note": 15 },
-                        {
-                            "text": " Al-Bara heard it, and al-Bayhaqi notes that al-Bukhari and Muslim both recorded it."
-                        },
+                        { "text": " فسمعه البراء، وذكر البيهقي أن البخاري ومسلمًا أخرجاه كلاهما." },
                         { "note": 15 },
                         { "note": 16 },
                         {
-                            "text": " The two men saw the same moments from opposite ends: Suraqah tells of his arrows and his own change of heart; Abu Bakr of his fear, the Prophet's ﷺ prayer, and Suraqah's plea for a prayer in return. Suraqah says the forelegs sank to the knees; Abu Bakr says the horse sank to its belly."
+                            "text": " لقد رأى الرجلان اللحظات نفسها من طرفين متقابلين: يحكي سراقة عن أزلامه وعمّا تغيّر في نفسه، ويحكي أبو بكر عن خوفه، ودعاء النبي ﷺ، وطلب سراقة أن يُدعى له في المقابل. ويقول سراقة إن يدي الفرس ساختا إلى الركبتين، ويقول أبو بكر إنها ساخت إلى بطنها."
                         },
                         { "note": 5 },
                         { "note": 6 },
@@ -389,19 +340,19 @@
         },
         {
             "section_id": "hch_suraqa_d3",
-            "title": "Words in the story",
+            "title": "ألفاظ في القصة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_d3_1",
-                    "text": "Azlam (in Ibn Ishaq, qidah) are the arrows Suraqah cast to draw lots, asking whether to harm the travellers or not; his kinanah is the quiver he kept them in. The tullab are the pursuers: the word, says Isma‘il al-Isbahani, is used for one pursuer or for many. Suraqah's promise la-u‘ammiyanna, \"I will blind them\", means \"I will hide you from them\".",
+                    "text": "«الأزلام» (وهي عند ابن إسحاق «القِداح») السهام التي استقسم بها سراقة يسألها أيضرّ المسافرَين أم لا، و«الكِنانة» جعبته التي كان يحفظها فيها. و«الطلب» هم الطالبون، ويقع اللفظ، كما يقول إسماعيل الأصبهاني، على الواحد والجمع. وقول سراقة «لأُعمّيَنّ» معناه: لأُخفيَنّ أمرَكما عنهم.",
                     "parts": [
                         {
-                            "text": "Azlam (in Ibn Ishaq, qidah) are the arrows Suraqah cast to draw lots, asking whether to harm the travellers or not; his kinanah is the quiver he kept them in."
+                            "text": "«الأزلام» (وهي عند ابن إسحاق «القِداح») السهام التي استقسم بها سراقة يسألها أيضرّ المسافرَين أم لا، و«الكِنانة» جعبته التي كان يحفظها فيها."
                         },
                         { "note": 3 },
                         { "note": 2 },
                         {
-                            "text": " The tullab are the pursuers: the word, says Isma‘il al-Isbahani, is used for one pursuer or for many. Suraqah's promise la-u‘ammiyanna, \"I will blind them\", means \"I will hide you from them\"."
+                            "text": " و«الطلب» هم الطالبون، ويقع اللفظ، كما يقول إسماعيل الأصبهاني، على الواحد والجمع. وقول سراقة «لأُعمّيَنّ» معناه: لأُخفيَنّ أمرَكما عنهم."
                         },
                         { "note": 7 }
                     ]
@@ -410,31 +361,25 @@
         },
         {
             "section_id": "hch_suraqa_d4",
-            "title": "Where and when",
+            "title": "المكان والزمان",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_d4_1",
-                    "text": "Ibn Sa‘d records a report, introduced only with \"it reached us\", that the Prophet ﷺ left the cave on Monday night, when four nights of Rabi‘ al-Awwal had passed, rested at midday on Tuesday at Qudayd, and was met by Suraqah after setting out from there. In this report Suraqah tells the searchers: \"Go back. I have searched this ground for you, and you know my eye for tracks.\"",
+                    "text": "روى ابن سعد خبرًا لم يُقدَّم له إلا بقوله «فبلغنا»، أن النبي ﷺ خرج من الغار ليلة الاثنين لأربع ليالٍ خلون من شهر ربيع الأول، فقال يوم الثلاثاء بقُدَيد، فلمّا راحوا منها عرض لهم سراقة. وفي هذا الخبر يقول سراقة للطالبين: «ارجعوا، فقد استبرأتُ لكم ما ههنا، وقد عرفتم بصري بالأثر».",
                     "parts": [
                         {
-                            "text": "Ibn Sa‘d records a report, introduced only with \"it reached us\", that the Prophet ﷺ left the cave on Monday night, when four nights of "
-                        },
-                        { "text": "Rabi‘ al-Awwal", "term": "rabialawwal" },
-                        {
-                            "text": " had passed, rested at midday on Tuesday at Qudayd, and was met by Suraqah after setting out from there. In this report Suraqah tells the searchers: \"Go back. I have searched this ground for you, and you know my eye for tracks.\""
+                            "text": "روى ابن سعد خبرًا لم يُقدَّم له إلا بقوله «فبلغنا»، أن النبي ﷺ خرج من الغار ليلة الاثنين لأربع ليالٍ خلون من شهر ربيع الأول، فقال يوم الثلاثاء بقُدَيد، فلمّا راحوا منها عرض لهم سراقة. وفي هذا الخبر يقول سراقة للطالبين: «ارجعوا، فقد استبرأتُ لكم ما ههنا، وقد عرفتم بصري بالأثر»."
                         },
                         { "note": 10 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_suraqa_d4_2",
-                    "text": "Scholars differed over whether Suraqah came before or after Umm Ma‘bad's tent. Al-Salihi, following Mughaltay, put Umm Ma‘bad first and called that the correct order; Ibn Hibban, al-Bayhaqi, Ibn ‘Abd al-Barr, Ibn al-Jawzi and Ibn Kathir told Suraqah first, the order this journey follows.",
+                    "text": "واختلف العلماء: أكان لقاء سراقة قبل خيمة أم معبد أم بعدها؟ فقدّم الصالحي، متابعًا مُغلطاي، قصةَ أم معبد، وقال إنه الصحيح؛ وقدّم ابن حبان والبيهقي وابن عبد البر وابن الجوزي وابن كثير قصةَ سراقة، وهو الترتيب الذي تسير عليه هذه الرحلة.",
                     "parts": [
                         {
-                            "text": "Scholars differed over whether Suraqah came before or after Umm Ma‘bad's tent. Al-Salihi, following Mughaltay, put Umm Ma‘bad first and called that the correct order; Ibn Hibban, al-Bayhaqi, Ibn ‘Abd al-Barr, Ibn al-Jawzi and "
+                            "text": "واختلف العلماء: أكان لقاء سراقة قبل خيمة أم معبد أم بعدها؟ فقدّم الصالحي، متابعًا مُغلطاي، قصةَ أم معبد، وقال إنه الصحيح؛ وقدّم ابن حبان والبيهقي وابن عبد البر وابن الجوزي وابن كثير قصةَ سراقة، وهو الترتيب الذي تسير عليه هذه الرحلة."
                         },
-                        { "text": "Ibn Kathir", "term": "ibnkathir" },
-                        { "text": " told Suraqah first, the order this journey follows." },
                         { "note": 17 }
                     ]
                 }
@@ -442,22 +387,18 @@
         },
         {
             "section_id": "hch_suraqa_d5",
-            "title": "The letter at al-Ji‘ranah",
+            "title": "الكتاب في الجِعرانة",
             "paragraphs": [
                 {
                     "paragraph_id": "hch_suraqa_d5_1",
-                    "text": "Suraqah kept the letter. In Ibn Ishaq's account he brought it to the Prophet ﷺ at al-Ji‘ranah, after the conquest of Makkah, Hunayn and al-Ta'if, held it up and said, \"Messenger of Allah, this is your letter to me.\" \"A day of faithfulness and kindness,\" the Prophet ﷺ said. \"Come near.\" There Suraqah accepted Islam. The well-known saying that Suraqah would one day wear the bracelets of Kisra belongs to that later life, not to the Hijrah; al-‘Azimi counts it among the weak reports, since its chain is broken.",
+                    "text": "احتفظ سراقة بالكتاب. وفي رواية ابن إسحاق أنه جاء به النبيَّ ﷺ بالجِعرانة، بعد فتح مكة وحنين والطائف، فرفعه بيده وقال: «يا رسول الله، هذا كتابك لي». فقال النبي ﷺ: «يومُ وفاءٍ وبِرّ، ادنُه». وهناك أسلم سراقة. أمّا الخبر المشهور أن سراقة سيلبس يومًا سوارَي كسرى، فهو من حياته بعد ذلك، لا من خبر الهجرة؛ وقد عدّه العَظيمي من الروايات الضعيفة، لانقطاع إسناده.",
                     "parts": [
                         {
-                            "text": "Suraqah kept the letter. In Ibn Ishaq's account he brought it to the Prophet ﷺ at al-Ji‘ranah, after the conquest of Makkah, Hunayn and al-Ta'if, held it up and said, \"Messenger of Allah, this is your letter to me.\" \"A day of faithfulness and kindness,\" the Prophet ﷺ said. \"Come near.\" There Suraqah accepted Islam."
+                            "text": "احتفظ سراقة بالكتاب. وفي رواية ابن إسحاق أنه جاء به النبيَّ ﷺ بالجِعرانة، بعد فتح مكة وحنين والطائف، فرفعه بيده وقال: «يا رسول الله، هذا كتابك لي». فقال النبي ﷺ: «يومُ وفاءٍ وبِرّ، ادنُه». وهناك أسلم سراقة."
                         },
                         { "note": 11 },
                         {
-                            "text": " The well-known saying that Suraqah would one day wear the bracelets of Kisra belongs to that later life, not to the "
-                        },
-                        { "text": "Hijrah", "term": "hijrah" },
-                        {
-                            "text": "; al-‘Azimi counts it among the weak reports, since its chain is broken."
+                            "text": " أمّا الخبر المشهور أن سراقة سيلبس يومًا سوارَي كسرى، فهو من حياته بعد ذلك، لا من خبر الهجرة؛ وقد عدّه العَظيمي من الروايات الضعيفة، لانقطاع إسناده."
                         },
                         { "note": 18 }
                     ]
@@ -469,64 +410,64 @@
         {
             "reading_id": "hch_suraqa_n1",
             "number": 1,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/60 — Suraqah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٦٠ — سراقة",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_suraqa_bukhari", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_suraqa_n2",
             "number": 2,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/489 — Suraqah through Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٩ — سراقة من طريق ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_suraqa_ibn_ishaq_start", "part_ids": ["p1", "p2"] }]
         },
         {
             "reading_id": "hch_suraqa_n3",
             "number": 3,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/60 — Suraqah",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٦٠ — سراقة",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_suraqa_bukhari", "part_ids": ["p2"] }]
         },
         {
             "reading_id": "hch_suraqa_n4",
             "number": 4,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/485 — Abu Bakr through al-Bara (route of Zuhayr); the Prophet ﷺ",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٨٥ — أبو بكر برواية البراء (طريق زهير)، وفيه قول النبي ﷺ",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_suraqa_abu_bakr", "part_ids": ["p4", "p5"] }]
         },
         {
             "reading_id": "hch_suraqa_n5",
             "number": 5,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/484 — Abu Bakr through al-Bara (route of Isra'il), quoting the Prophet ﷺ and Suraqah",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٨٤ — أبو بكر برواية البراء (طريق إسرائيل)، وفيه قول النبي ﷺ وسراقة",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-7478-1005-RA-BARA-SURAQA", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_suraqa_n6",
             "number": 6,
-            "title": "Al-Bukhari, Sahih al-Bukhari, 5/60 — Suraqah, quoting the Prophet ﷺ",
-            "mode": "translated",
+            "title": "صحيح البخاري، ٥/٦٠ — سراقة، وفيه قول النبي ﷺ",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_suraqa_bukhari", "part_ids": ["p3", "p4", "p5"] }]
         },
         {
             "reading_id": "hch_suraqa_n7",
             "number": 7,
-            "title": "Isma‘il al-Isbahani, Dala'il al-Nubuwwah, 1/62",
-            "mode": "translated",
+            "title": "دلائل النبوة، ١/٦٢",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "sp_suraqa_lexicon", "part_ids": ["p2"] }]
         },
         {
             "reading_id": "hch_suraqa_n8",
             "number": 8,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/489–490 — Suraqah through Ibn Ishaq",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٨٩–٤٩٠ — سراقة من طريق ابن إسحاق",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_suraqa_ibn_ishaq_start", "part_ids": ["p2"] },
@@ -537,8 +478,8 @@
         {
             "reading_id": "hch_suraqa_n9",
             "number": 9,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/485 — Abu Bakr through al-Bara (route of Zuhayr), quoting Suraqah",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٨٥ — أبو بكر برواية البراء (طريق زهير)، وفيه قول سراقة",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_suraqa_abu_bakr", "part_ids": ["p6", "p7", "p8", "p9", "p10"] }
@@ -547,16 +488,16 @@
         {
             "reading_id": "hch_suraqa_n10",
             "number": 10,
-            "title": "Ibn Sa‘d, al-Tabaqat al-Kubra, 1/199 — ‘Abd al-Malik, \"it reached us\"",
-            "mode": "translated",
+            "title": "الطبقات الكبرى، ١/١٩٩ — عبد الملك: «فبلغنا»",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-146-244-MABAD-AND-SURAQA", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_suraqa_n11",
             "number": 11,
-            "title": "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/490 — Suraqah through Ibn Ishaq, quoting the Prophet ﷺ",
-            "mode": "translated",
+            "title": "سيرة ابن هشام، ١/٤٩٠ — سراقة من طريق ابن إسحاق، وفيه قول النبي ﷺ",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_suraqa_ibn_ishaq_end", "part_ids": ["p2", "p3", "p4"] }
@@ -565,8 +506,8 @@
         {
             "reading_id": "hch_suraqa_n12",
             "number": 12,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/487–488 — Suraqah through Musa ibn ‘Uqbah from al-Zuhri",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٨٧–٤٨٨ — سراقة من طريق موسى بن عقبة عن الزهري",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "H-7478-1008-RA-MUSA-SURAQA", "part_ids": ["p1"] },
@@ -576,24 +517,24 @@
         {
             "reading_id": "hch_suraqa_n13",
             "number": 13,
-            "title": "Al-Maqrizi, Imta‘ al-Asma‘, 1/60",
-            "mode": "translated",
+            "title": "إمتاع الأسماع بما للنبي من الأحوال والأموال والحفدة والمتاع، ١/٦٠",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-1524-99-CF4-AMAN-WRITERS", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_suraqa_n14",
             "number": 14,
-            "title": "Al-Shumunni, notes on al-Shifa, 1/350 — \"it is said\"",
-            "mode": "translated",
+            "title": "الشفا بتعريف حقوق المصطفى، ١/٣٥٠ — «قيل»",
+            "mode": "original",
             "strength": null,
             "source_refs": [{ "packet_id": "H-1753-358-CP2-AMAN-WRITERS", "part_ids": ["p1"] }]
         },
         {
             "reading_id": "hch_suraqa_n15",
             "number": 15,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/483–484 — al-Bara (route of Isra'il); al-Bayhaqi on al-Bukhari and Muslim",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٨٣–٤٨٤ — البراء (طريق إسرائيل)؛ والبيهقي في تخريج البخاري ومسلم له",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "H-7478-1004-RA-BARA-SURAQA", "part_ids": ["p1"] },
@@ -603,8 +544,8 @@
         {
             "reading_id": "hch_suraqa_n16",
             "number": 16,
-            "title": "Al-Bayhaqi, Dala'il al-Nubuwwah, 2/485 — al-Bayhaqi on Muslim and al-Bukhari (route of Zuhayr)",
-            "mode": "translated",
+            "title": "دلائل النبوة، ٢/٤٨٥ — البيهقي في تخريج مسلم والبخاري له (طريق زهير)",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "sp_suraqa_abu_bakr", "part_ids": ["p1", "p2", "p3"] },
@@ -614,8 +555,8 @@
         {
             "reading_id": "hch_suraqa_n17",
             "number": 17,
-            "title": "Mughaltay, al-Isharah ila Sirat al-Mustafa, 1/162–163 — editor's note quoting al-Salihi",
-            "mode": "translated",
+            "title": "الإشارة إلى سيرة المصطفى وتاريخ من بعده من الخلفا، ١/١٦٢–١٦٣ — تعليق المحقق نقلًا عن الصالحي",
+            "mode": "original",
             "strength": null,
             "source_refs": [
                 { "packet_id": "H-122236-155-CP2-MABAD-ORDER-A", "part_ids": ["p1"] },
@@ -625,8 +566,8 @@
         {
             "reading_id": "hch_suraqa_n18",
             "number": 18,
-            "title": "Al-‘Azimi, al-Lu'lu' al-Maknun, 2/64–65",
-            "mode": "translated",
+            "title": "اللؤلؤ المكنون في سيرة النبي المأمون، ٢/٦٤–٦٥",
+            "mode": "original",
             "strength": "weak",
             "source_refs": [
                 { "packet_id": "H-38114-662-CP1-BRACELETS-A", "part_ids": ["p1"] },
@@ -634,69 +575,7 @@
             ]
         }
     ],
-    "terms": [
-        {
-            "id": "quraysh",
-            "word": "Quraysh",
-            "meaning": "The leading tribe of Makkah. The Prophet ﷺ himself belonged to it."
-        },
-        {
-            "id": "abubakr",
-            "word": "Abu Bakr",
-            "meaning": "The Prophet’s closest friend and companion, who later led the Muslims after him."
-        },
-        {
-            "id": "banu",
-            "word": "Banu",
-            "meaning": "\"Sons of\": a clan named after its ancestor, as in Banu al-Najjar."
-        },
-        { "id": "allah", "word": "Allah", "meaning": "The Arabic word for God." },
-        {
-            "id": "ibnishaq",
-            "word": "Ibn Ishaq",
-            "meaning": "An eighth-century historian whose accounts of the Prophet’s life are preserved by later writers."
-        },
-        {
-            "id": "arrows",
-            "word": "Divining arrows",
-            "meaning": "Marked arrows drawn before Islam to decide whether to act; Islam forbade them."
-        },
-        {
-            "id": "makkah",
-            "word": "Makkah",
-            "meaning": "The city where the Prophet ﷺ was born, home of the Ka‘bah."
-        },
-        {
-            "id": "ansar",
-            "word": "Ansar",
-            "meaning": "\"The Helpers\": the Muslims of Madinah who took in the Prophet ﷺ and the emigrants."
-        },
-        {
-            "id": "madinah",
-            "word": "Madinah",
-            "meaning": "Then called Yathrib: the city that welcomed the Prophet ﷺ. Its name means “the city”."
-        },
-        {
-            "id": "bukhari",
-            "word": "Sahih al-Bukhari",
-            "meaning": "The collection of hadith that Muslims consider the most reliable."
-        },
-        {
-            "id": "rabialawwal",
-            "word": "Rabi‘ al-Awwal",
-            "meaning": "The third month of the Arab calendar, in which the Prophet ﷺ reached Madinah."
-        },
-        {
-            "id": "ibnkathir",
-            "word": "Ibn Kathir",
-            "meaning": "A scholar of the fourteenth century whose history of the Prophet’s life is widely used."
-        },
-        {
-            "id": "hijrah",
-            "word": "Hijrah",
-            "meaning": "The migration of the Prophet ﷺ and his companions from Makkah to Madinah, in 622."
-        }
-    ],
+    "terms": [],
     "source_units": [
         {
             "unit_id": "sp_suraqa_bukhari:p1",
@@ -712,7 +591,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "60",
-            "text": "“Messengers of the unbelievers of Quraysh came to us, offering, for the Messenger of Allah ﷺ and Abu Bakr, the blood-money of each one to whoever killed or captured him. While I was sitting in one of the gatherings of my people, Banu Mudlij, one of them came up and stood before us as we sat. He said, ‘Suraqa, just now I saw dark figures by the coast; I think they are Muhammad and his companions.’ Suraqa said: I recognized that they were indeed the ones, but told him, ‘They are not; you saw so-and-so and so-and-so, who set out before our eyes.’ I stayed in the gathering for a while, then rose and went inside. I ordered my servant woman to take my horse out, keep it behind a hillock, and hold it there for me. Taking my spear, I left by the back of the house, dragging its butt along the ground and lowering its upper end. I came to my horse, mounted it, and urged it forward until I drew near them, "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_start:p1",
@@ -728,7 +607,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "489",
-            "text": "Ibn Ishaq said: Al-Zuhri related to me that Abd al-Rahman ibn Malik ibn Ju‘shum related to him,\nfrom his father, from his paternal uncle Suraqa ibn Malik ibn Ju‘shum [١], who said: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_start:p2",
@@ -744,7 +623,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "489",
-            "text": "When the Messenger of Allah ﷺ left Makkah, migrating to Madinah, Quraysh offered one hundred she-camels for whoever brought him back to them. He said: As I sat in my people’s gathering, one of our men came and stood before us. He said, “By Allah, I just saw a party of three pass me; I think they are Muhammad and his companions.” I signaled with my eyes for him to be quiet, then said, “They are only members of such-and-such a family looking for something of theirs that they had lost.” He said, “Perhaps so,” and fell silent. He said: I waited a little, then got up and entered my house. I ordered my horse to be tethered for me in the valley bottom and my weapons to be brought out behind my dwelling. I took the arrows with which I drew lots, set out, put on my armor [٢], then brought out my arrows and drew lots. The arrow I disliked came out: “He will not harm him” [٣].\nHe said: I hoped to bring him back to Quraysh and take the hundred she-camels. I rode in pursuit of him; as my horse galloped with me, it stumbled and I fell. I said, “What is this?” He said:\nThen I brought out my arrows and drew lots. The arrow I disliked came out: “He will not harm him.” He said:\nI insisted on following him. I rode after him, and while my horse galloped with me it stumbled and I fell. I said, “What is this?” He said: Then I brought out my arrows and drew lots, and the arrow I disliked came out: “He will not harm him.” He said: I insisted on following him and rode after him.\nWhen the people came into view and I saw them, my horse stumbled, its forelegs went into the ground, and I fell off. Then it pulled its forelegs out of the ground, followed by smoke like a whirlwind [٤]. He said: When I saw that, I knew he had been protected from me and that he would prevail. I called to the people: “I am Suraqa ibn Ju‘shum. Wait for me so I can speak to you. By Allah, I will cause you no alarm, nor will anything come from me that you"
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_bukhari:p2",
@@ -760,7 +639,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "60",
-            "text": "when my horse stumbled and I fell off. I got up, reached into my quiver, took out the divining arrows, and drew lots with them: should I harm them or not? The result was the one I disliked. I mounted my horse, defied the divining arrows, and it carried me closer until I could hear the Messenger of Allah ﷺ reciting. He did not look back, while Abu Bakr kept looking back, "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p4",
@@ -776,7 +655,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "We set out after the sun had passed its zenith, and Suraqa ibn Malik followed us. He said: We were on firm ground [(٤)], and I said, “Messenger of Allah, we have been overtaken!” He said: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p5",
@@ -792,7 +671,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "“Do not grieve; Allah is with us.” "
+            "text": null
         },
         {
             "unit_id": "H-7478-1005-RA-BARA-SURAQA:p1",
@@ -808,7 +687,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "484",
-            "text": "He said: ‘We set out while the people were pursuing us, but none of them caught up with us except Suraqah ibn Malik ibn Ju‘shum, riding his horse. I said, “The pursuers have caught up with us, Messenger of Allah!” He said, “Do not grieve; Allah is with us.” When Suraqah drew near, and there were only two or three spear-lengths between us, I said, “The pursuers have caught up with us, Messenger of Allah!” and I wept. He said, “What makes you weep?” I replied, “By Allah, I am not weeping for myself; I am weeping only for you.” The Messenger of Allah ﷺ prayed against him, saying, “O Allah, protect us from him in whatever way You will.” Suraqah’s horse sank into the ground up to its belly. He jumped off it and said, “Muhammad, I know this is your doing. Pray to Allah to rescue me from this predicament, and by Allah, I will turn away the pursuers behind me. Here is my quiver; take an arrow from it. You will pass by my camels and sheep at such-and-such a place, so take what you need from them.” The Messenger of Allah ﷺ said, “We have no need of your camels or sheep.” The Messenger of Allah ﷺ prayed for him, and Suraqah went back to his companions. The Messenger of Allah ﷺ and I continued until we arrived in Madinah at night.’"
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_bukhari:p3",
@@ -824,7 +703,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "60",
-            "text": "when my horse’s forelegs sank into the earth as far as the knees, and I fell off. I urged it on and it rose, scarcely able to pull its forelegs out. Once it stood upright, dust rose from the traces of its forelegs into the sky like smoke. I drew lots with the divining arrows, and the result was the one I disliked. I called to them asking for safe conduct, and they stopped. I mounted and came to them. When I experienced being held back from reaching them, it occurred to me that the cause of the Messenger of Allah ﷺ would prevail. I said to him, ‘Your people have offered the blood-money for you.’ I told them what people intended for them and offered them provisions and goods. They took nothing from me and asked nothing of me, except that he said: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_bukhari:p4",
@@ -840,7 +719,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "60",
-            "text": "“Keep our whereabouts hidden.” "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_bukhari:p5",
@@ -856,7 +735,7 @@
             "book_id": "1681",
             "volume": "5",
             "page": "60",
-            "text": "I asked him to have a letter of safety written for me. He instructed Amir ibn Fuhayrah, who wrote it on a piece of leather. Then the Messenger of Allah ﷺ went on his way."
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_lexicon:p2",
@@ -872,7 +751,7 @@
             "book_id": "6569",
             "volume": "1",
             "page": "62",
-            "text": "This al-tullab (الطُّلَّبُ), meaning al-talib (الطَّالِبُ), can apply to one or to several. “His horse sank” means its forelegs and hind legs entered the earth. “I shall obscure” means “I shall conceal.”"
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_reply:p1",
@@ -888,7 +767,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "490",
-            "text": "dislike.” He said: The Messenger of Allah ﷺ said to Abu Bakr: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_reply:p2",
@@ -904,7 +783,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "490",
-            "text": "“Ask him: What do you want from us?” "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_reply:p3",
@@ -920,7 +799,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "490",
-            "text": "He said: Abu Bakr said that. I said, “Write me a letter that will serve as a sign between you and me.” He said: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_reply:p4",
@@ -936,7 +815,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "490",
-            "text": "“Write it for him, Abu Bakr.”"
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_end:p1",
@@ -952,7 +831,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "490",
-            "text": "(He said) [١]: He wrote me a letter on a bone, or a scrap, or a potsherd, then tossed it to me. I took it and placed it in my quiver, then went back [٢]. I kept silent and mentioned nothing of what had "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p6",
@@ -968,7 +847,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "The Messenger of Allah ﵌ prayed against him, and his horse sank into the ground up to its belly [(٥)].\nThen he said: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p7",
@@ -984,7 +863,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "“I know that you two have prayed against me, so pray for me. Allah is my witness to you both that I will turn the pursuers back from you.” "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p8",
@@ -1000,7 +879,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "He prayed to Allah and Suraqa was saved. He went back and said to everyone he met: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p9",
@@ -1016,7 +895,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "“You need not search here; it has been taken care of.” "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p10",
@@ -1032,7 +911,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "He turned back everyone he met and kept his word to us.”\n"
+            "text": null
         },
         {
             "unit_id": "H-146-244-MABAD-AND-SURAQA:p1",
@@ -1048,7 +927,7 @@
             "book_id": "146",
             "volume": "1",
             "page": "199",
-            "text": "‘Abd al-Malik said: We were told that Umm Ma‘bad migrated to the Prophet ﷺ and accepted Islam. The Messenger of Allah ﷺ left the cave on Monday night, four nights into the month of Rabi‘ al-Awwal, and arrived at Qudayd on Tuesday. When they departed from there, Suraqah ibn Malik ibn Ju‘shum came upon them on his horse. The Messenger of Allah ﷺ prayed against him, and the horse’s legs sank into the ground. He said, “Muhammad, pray to Allah to free my horse, and I will turn back from you and turn away those behind me.” He did so, and the horse was freed. Suraqah went back and found the people searching for the Messenger of Allah ﷺ. He said, “Go back. I have searched thoroughly for you in this area, and you know how good I am at tracking.” So they turned back."
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_end:p2",
@@ -1064,7 +943,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "490",
-            "text": "When the conquest of Makkah came to the Messenger of Allah ﷺ and he had finished with Hunayn and al-Taif, I went out with the letter to meet him, and met him at al-Ji‘ranah [٣]. He said: I entered a troop of the Ansar’s cavalry. They began striking me with their spears and saying, “Back! (Back!) [١] What do you want?” He said: I approached the Messenger of Allah ﷺ while he was on his she-camel. By Allah, I can almost see his shin in the stirrup [٤], like the white inner core of a palm shoot. He said: I raised my hand holding the letter and said, “Messenger of Allah, this is your letter (to me) [١]. I am Suraqa ibn Ju‘shum.” He said: The Messenger of Allah ﷺ said: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_end:p3",
@@ -1080,7 +959,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "490",
-            "text": "“A day of fidelity and kindness. Bring him near.” "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_ibn_ishaq_end:p4",
@@ -1096,7 +975,7 @@
             "book_id": "23833",
             "volume": "1",
             "page": "490",
-            "text": "He said:\nI approached him and accepted Islam. Then I remembered something I wanted to ask the Messenger of Allah ﷺ about, though I cannot recall it; I did say, “Messenger of Allah, stray camels come to my watering troughs, which I have filled for my own camels. Is there a reward for me in giving them water?” He said: "
+            "text": null
         },
         {
             "unit_id": "H-7478-1008-RA-MUSA-SURAQA:p1",
@@ -1112,7 +991,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "487",
-            "text": "Abu al-Husayn ibn al-Fadl al-Qattan in Baghdad informed us, saying: Abu Bakr Muhammad ibn ‘Abdullah ibn ‘Attab al-‘Abdi informed us, saying: al-Qasim ibn ‘Abdullah ibn al-Mughirah told us, saying:\nIsma‘il ibn Abi Uways informed us, saying: Isma‘il ibn Ibrahim ibn ‘Uqbah told me, from his uncle Musa ibn ‘Uqbah, who said: Ibn Shihab told us, saying: ‘Abd al-Rahman ibn Malik ibn Ju‘shum al-Mudliji told me that his father Malik had informed him that his brother Suraqah ibn Ju‘shum had informed him:\n“When the Messenger of Allah ﷺ left Makkah as a migrant to Madinah, Quraysh offered one hundred she-camels to anyone who brought him back to them. He said: While I was sitting in the gathering place of my people, a man from among us came and said, ‘By Allah, I have just seen three riders pass by me. I think it was Muhammad.’ He said:"
+            "text": null
         },
         {
             "unit_id": "H-7478-1009-RA-MUSA-SURAQA:p1",
@@ -1128,7 +1007,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "488",
-            "text": "“I signaled to him with my eyes to be quiet, and said, ‘They are only so-and-so’s people, looking for a lost animal.’ He said, ‘Perhaps,’ and then fell silent.\nHe said: I stayed a little while, then got up and went into my house. I ordered my horse to be brought; it was tethered at the bottom of the valley. I took my weapons from behind my living quarters, then took my divining arrows and drew lots with them. I put on my armor, then brought out the arrows and drew lots again. The arrow I disliked came up: ‘He will not be harmed.’ Yet I hoped to bring him back and take the hundred she-camels.\nHe said: I mounted and followed his tracks. While my horse was carrying me along, it stumbled and I fell off. I brought out my arrows and drew lots again, and the arrow I disliked came up: ‘He will not be harmed.’ But I insisted on pursuing him, so I mounted. When the group came into view and I saw them, my horse stumbled; its forelegs sank into the ground, and I fell off. It pulled its forelegs free, and smoke like dust trailed after them. Then I knew that he had been protected from me and that he would prevail. I called out to them and said, ‘Wait for me! By Allah, I will not harm you, and nothing you dislike will come from me.’\nThe Messenger of Allah ﷺ said, ‘Ask him what he wants.’ I said, ‘Write me a document that will be a token between us.’ He said, ‘Write one for him, Abu Bakr.’ He wrote it for me and tossed it to me. I went back and kept quiet; I did not mention anything that had happened. When Allah, mighty and majestic is He, opened Makkah, and the Messenger of Allah ﷺ had finished with the people of Khaybar, I set out to meet the Messenger of Allah ﷺ, carrying the document he had written for me. As I was making my way to him, I entered among a company of the Ansar. They began prodding me with their spears, saying, ‘Move along, move along,’ until I drew near the Messenger of Allah ﷺ, who was on his she-camel. I could see his leg in the stirrup, like a date-palm pith. I raised the document in my hand and said, ‘Messenger of Allah, this is your document.’ The Messenger of Allah ﷺ said, ‘A day of fulfillment and kindness. Bring him near.’ He said: Then I accepted Islam.\nThen I mentioned something I wanted to ask the Messenger of Allah ﷺ about.\nIbn Shihab said: He had only asked him about the lost animals and something he had done to him when they were in that situation. I mentioned nothing except that I said, ‘Messenger of Allah, lost animals come to my watering troughs ...’”"
+            "text": null
         },
         {
             "unit_id": "H-1524-99-CF4-AMAN-WRITERS:p1",
@@ -1144,7 +1023,7 @@
             "book_id": "1524",
             "volume": "1",
             "page": "60",
-            "text": "Suraqah asked the Messenger of Allah ﷺ to write him a document. Abu Bakr wrote it for him, though it is said that ‘Amir ibn Fuhayrah wrote it for him, on a piece of leather. He then returned, telling people, “You have no need to search here,” and turning the pursuit away from them."
+            "text": null
         },
         {
             "unit_id": "H-1753-358-CP2-AMAN-WRITERS:p1",
@@ -1160,7 +1039,7 @@
             "book_id": "1753",
             "volume": "1",
             "page": "350",
-            "text": "(The phrase “Ibn Fuhayrah”): The fā’ has a dammah, the hā’ a fatḥah, and the yā’ is still. It is said that he ﷺ had more than forty scribes. The two who kept his company most closely were Zayd ibn Thābit and Mu‘āwiyah ibn Abī Sufyān after the Conquest; it is also said that it was Abu Bakr. The two reports can be reconciled by saying that Ibn Fuhayrah wrote first and the Truthful One wrote later."
+            "text": null
         },
         {
             "unit_id": "H-7478-1004-RA-BARA-SURAQA:p1",
@@ -1176,7 +1055,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "483",
-            "text": "Abu al-Husayn Muhammad ibn al-Husayn al-Qattan in Baghdad informed us, saying: ‘Abdullah ibn Ja‘far ibn Durustawayh informed us, saying: Ya‘qub ibn Sufyan narrated to us, saying: ‘Ubaydullah ibn Musa and ‘Abdullah ibn Raja’, Abu ‘Umar al-Ghudani, narrated to us, from Isra’il, from Abu Ishaq, from al-Bara’, who said: “Abu Bakr bought a saddle from ‘Azib for thirteen dirhams. Abu Bakr said to ‘Azib: ‘Tell al-Bara’ to carry it to my saddle.’ ‘Azib said to him: ‘No, not until you tell us what you and the Messenger of Allah ﷺ did when you set out and the polytheists were pursuing you.’ He said: ‘We left Makkah at night and traveled through the night and the day until the afternoon. When the midday heat set in, I looked around to see whether there was any shade where we could take shelter. I saw a rock and went to it. There was a patch of shade beside it, so I leveled it. Then I spread a fur for the Messenger of Allah ﷺ and said: “Lie down, Messenger of Allah.” He lay down. Then I went off, looking around me to see whether I could spot any pursuers. Suddenly I saw a shepherd driving his sheep toward the rock, seeking the same thing we were—the shade. I asked him, “Whose shepherd are you, young man?” He said, “A man from Quraysh,” and named him. I recognized the man and asked, “Do any of your sheep have milk?” He said, “Yes.” I asked, “Will you milk one for me?” He said, “Yes.” I told him to catch a sheep from his flock and shake the dust from its udder. Then I told him to shake his hands. He said, “Like this?” and struck one hand against the other. He milked a small amount of milk for me. I had brought a water-skin for the Messenger of Allah ﷺ, with a cloth over its opening. I poured water over the milk until the bottom of the container was cool. Then I went to the Messenger of Allah ﷺ and found that he had woken up. I said, “Will you drink, Messenger of Allah?” The Messenger of Allah ﷺ drank until I was satisfied. Then I said, “It is time to set out, Messenger of Allah.”’"
+            "text": null
         },
         {
             "unit_id": "H-7478-1005-RA-BARA-OTHER:p1",
@@ -1192,7 +1071,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "484",
-            "text": "Abu Naṣr ibn Qatādah also informed us, saying: Abu ‘Umar ibn Maṭar informed us, saying: Abu Khalīfah informed us, saying: ‘Abdullah ibn Rajā’ al-Ghudānī narrated it to us, and mentioned it in similar terms.\nAl-Bukhārī narrated it in the Ṣaḥīḥ from ‘Abdullah ibn Rajā’, and Muslim included it through another chain from Isrā’īl."
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p1",
@@ -1208,7 +1087,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "Abu Abd Allah al-Hafiz informed us, saying: Abu al-Walid al-Faqih informed me, saying:\nAbd Allah ibn Muhammad related to us, saying: Salamah ibn Shabib related to us, saying: Al-Hasan ibn Muhammad ibn A‘yan related to us, saying: Zuhayr related to us, saying: Abu Ishaq related to us, saying:\nI heard al-Bara say: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p2",
@@ -1224,7 +1103,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "“Abu Bakr came to my father at his home and bought from him a saddle— "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p3",
@@ -1240,7 +1119,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "And he recounted the report in the sense of Israil’s report, until he said: "
+            "text": null
         },
         {
             "unit_id": "sp_suraqa_abu_bakr:p11",
@@ -1256,7 +1135,7 @@
             "book_id": "7478",
             "volume": "2",
             "page": "485",
-            "text": "Muslim transmitted it in the Sahih from Salamah ibn Shabib; al-Bukhari also included it [(٦)] by another route from Zuhayr ibn Muawiyah."
+            "text": null
         },
         {
             "unit_id": "H-122236-155-CP2-MABAD-ORDER-A:p1",
@@ -1272,7 +1151,7 @@
             "book_id": "122236",
             "volume": "1",
             "page": "162",
-            "text": "Al-Ṣāliḥī said in *Al-Subul* 3/362–363: In *Al-‘Uyūn*, he mentioned the story of Suraqah before the story of Umm Ma‘bad, and at the outset stated that he was arranging the events chronologically. In *Al-Ishārah*, he mentioned her story before the story of Suraqah, and I followed him in that; this is the correct order, as a number of scholars explicitly stated. I say—"
+            "text": null
         },
         {
             "unit_id": "H-122236-156-CP2-MABAD-ORDER-B:p1",
@@ -1288,7 +1167,7 @@
             "book_id": "122236",
             "volume": "1",
             "page": "163",
-            "text": "Among those who mentioned the story of Suraqah before the story of Umm Ma‘bad are Ibn Ḥibbān in his biography, al-Bayhaqī in his *Dalā’il*, Abu ‘Umar in *Al-Durar*, Ibn al-Jawzī in *Al-Wafā’*, and Ibn Kathīr in *Al-Fuṣūl*, p. 116."
+            "text": null
         },
         {
             "unit_id": "H-38114-662-CP1-BRACELETS-A:p1",
@@ -1304,7 +1183,7 @@
             "book_id": "38114",
             "volume": "2",
             "page": "64",
-            "text": "*A well-known but weak report:*\nAs for the well-known report from Suraqah—may Allah be pleased with him—that the Messenger of Allah ﷺ said to him: “How..."
+            "text": null
         },
         {
             "unit_id": "H-38114-663-CP1-BRACELETS-B:p1",
@@ -1320,7 +1199,7 @@
             "book_id": "38114",
             "volume": "2",
             "page": "65",
-            "text": "“Will you wear the bracelets of Kisra?”\n\nDuring the caliphate of ‘Umar ibn al-Khattab, when the cities were conquered, Kisra’s two bracelets were brought to ‘Umar. He summoned Suraqah ibn Malik, put them on him, and said, “Raise your hands.” Suraqah said, “Allah is the Greatest. Praise be to Allah, who took them from Kisra ibn Hurmuz—the one who used to say, ‘I am the lord of people’—and placed them on Suraqah ibn Malik ibn Ju‘shum, a Bedouin from Banu Mudlij.”\n\nThe hadith scholar included this report in *al-Isabah*, and Ibn ‘Abd al-Barr included it in *al-Isti‘ab*, with a broken chain of transmission.\n\nI say: It is established that Kisra’s treasures were brought to ‘Umar ibn al-Khattab. Al-Baghawi related in *Sharh al-Sunnah*, with an authentic chain of transmission, from Ibrahim ibn ‘Abd al-Rahman ibn ‘Awf, who said: When Kisra’s treasures were brought to ‘Umar, ‘Abdullah ibn al-Arqam al-Zuhri said to him, “Will you not put them in the treasury until you distribute them?”\n\nHe replied, “No roof shall shelter them until I have distributed them.” He ordered them to be placed in the mosque’s courtyard, and they spent the night guarding them. In the morning, he ordered them uncovered, and he saw among them..."
+            "text": null
         }
     ],
     "footnotes": [],
@@ -1333,25 +1212,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What did Suraqa hope to do to earn Quraysh’s reward?",
+            "prompt": "ما الذي كان سراقة يرجو أن ينال به جائزة قريش؟",
             "options": [
                 {
                     "option_id": "report",
-                    "text": "Tell them which way the Prophet ﷺ had gone.",
-                    "feedback": "In Ibn Ishaq’s account, Suraqa hoped to return the Prophet ﷺ to them, not merely report his direction of travel."
+                    "text": "أن يخبرهم بالجهة التي سار إليها النبي ﷺ.",
+                    "feedback": "يرجو سراقة في خبر ابن إسحاق رد النبي ﷺ إليهم، لا مجرد الإخبار بجهة سيره."
                 },
                 {
                     "option_id": "return_prophet",
-                    "text": "Return the Prophet ﷺ to them and take the hundred she-camels.",
-                    "feedback": "Correct. Suraqa explicitly states this hope in Ibn Ishaq’s account."
+                    "text": "أن يرد النبي ﷺ إليهم فيأخذ المائة ناقة.",
+                    "feedback": "صحيح؛ يصرح سراقة بهذا الرجاء في خبر ابن إسحاق."
                 },
                 {
                     "option_id": "mounts",
-                    "text": "Return to them the two riding animals the travelers had used.",
-                    "feedback": "In this account, the hundred is for returning the Prophet ﷺ, not for recovering the two mounts."
+                    "text": "أن يعيد إليهم الراحلتين اللتين خرج عليهما الركب.",
+                    "feedback": "المائة في هذا الخبر لمن يرد النبي ﷺ، لا لاستعادة الراحلتين."
                 }
             ],
-            "explanation": "Ibn Ishaq’s account promises one hundred she-camels to whoever returns the Prophet ﷺ to Quraysh; Suraqa says he hoped to return him and take the hundred.",
+            "explanation": "ينص خبر ابن إسحاق على مائة ناقة لمن يرد النبي ﷺ إلى قريش، ويقول سراقة إنه كان يرجو رده وأخذ المائة.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_ibn_ishaq_start:p1",
@@ -1373,25 +1252,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "Which description shows the difference between what Suraqa knew and what he said at the gathering?",
+            "prompt": "أي وصف يبين الفرق بين ما عرفه سراقة وما قاله في المجلس؟",
             "options": [
                 {
                     "option_id": "recognized_denied",
-                    "text": "He knew they were the Prophet ﷺ and his companions but told the man they were others.",
-                    "feedback": "Correct. He recognized the travelers from the report, then denied it before going after them."
+                    "text": "عرف أنهم النبي ﷺ وأصحابه، لكنه قال للرجل إنهم غيرهم.",
+                    "feedback": "صحيح؛ عرف الركب من الخبر، ثم أنكر ذلك قبل أن يخرج في أثره."
                 },
                 {
                     "option_id": "doubted_agreed",
-                    "text": "He doubted they were the Prophet ﷺ and his companions but agreed with the man before the gathering.",
-                    "feedback": "The account says he knew they were the ones and then told the man the opposite."
+                    "text": "شك في أنهم النبي ﷺ وأصحابه، لكنه وافق الرجل أمام القوم.",
+                    "feedback": "الخبر يقول إنه عرف أنهم هم، ثم قال العكس للرجل."
                 },
                 {
                     "option_id": "recognized_announced",
-                    "text": "He knew they were the Prophet ﷺ and his companions and told the gathering he would follow them.",
-                    "feedback": "He did not announce it: he denied recognizing them, remained for a while, then left and prepared his horse."
+                    "text": "عرف أنهم النبي ﷺ وأصحابه، وأخبر المجلس أنه سيلحق بهم.",
+                    "feedback": "لم يعلن لهم ذلك؛ أنكر التعرف، ومكث ثم خرج وجهز فرسه."
                 }
             ],
-            "explanation": "What Suraqa said at the gathering concealed what he knew: he recognized the travelers, then directed the man to another explanation. Later he went out and prepared his horse and spear.",
+            "explanation": "قول سراقة في المجلس لا يكشف ما عرفه؛ فقد تعرف على الركب ثم صرف الرجل إلى تفسير آخر، وبعد مدة خرج وجهز فرسه ورمحه.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_bukhari:p1",
@@ -1407,25 +1286,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What did Suraqa do after his first fall and the unwelcome result from the divining arrows?",
+            "prompt": "ماذا فعل سراقة بعد سقوطه الأول وخروج ما يكرهه من الأزلام؟",
             "options": [
                 {
                     "option_id": "returned",
-                    "text": "He went back to his people and abandoned the pursuit.",
-                    "feedback": "His return and diversion of the pursuers happen after the meeting, not after this first stumble."
+                    "text": "عاد إلى قومه وترك المطاردة.",
+                    "feedback": "رجوعه ورد المطاردين يأتيان بعد اللقاء، لا بعد هذا التعثر الأول."
                 },
                 {
                     "option_id": "waited",
-                    "text": "He waited for the man from the gathering to confirm the travelers’ identity.",
-                    "feedback": "He had already recognized them. The account says he mounted and kept approaching."
+                    "text": "انتظر رجل المجلس ليؤكد له هوية الركب.",
+                    "feedback": "كان قد عرف الركب؛ الخبر يذكر أنه ركب فرسه وواصل الاقتراب."
                 },
                 {
                     "option_id": "continued",
-                    "text": "He mounted his horse, defied the result, and kept approaching.",
-                    "feedback": "Correct. Neither the stumble nor the result of the divination stopped him from following the travelers."
+                    "text": "ركب فرسه وخالف ما خرج له، وواصل الاقتراب.",
+                    "feedback": "صحيح؛ لم يرده التعثر ولا ما خرج من الأزلام عن متابعة الركب."
                 }
             ],
-            "explanation": "After falling, Suraqa drew out the divining arrows, then mounted in defiance of the result. He continued his pursuit until he heard the Prophet ﷺ reciting.",
+            "explanation": "استخرج سراقة الأزلام بعد سقوطه، ثم ركب مخالفًا ما خرج له. بهذا استمرت المطاردة حتى سمع قراءة النبي ﷺ.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_bukhari:p1",
@@ -1441,25 +1320,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "How did Suraqa describe the Prophet ﷺ and Abu Bakr when he came close enough to hear the recitation?",
+            "prompt": "كيف وصف سراقة النبي ﷺ وأبا بكر عندما اقترب حتى سمع القراءة؟",
             "options": [
                 {
                     "option_id": "reversed",
-                    "text": "Abu Bakr was reciting without looking back, while the Prophet ﷺ kept looking back.",
-                    "feedback": "That reverses the account: the Prophet ﷺ was reciting without looking back, and Abu Bakr looked back often."
+                    "text": "كان أبو بكر يقرأ ولا يلتفت، والنبي ﷺ يكثر الالتفات.",
+                    "feedback": "هذا يعكس الوصف؛ القراءة وعدم الالتفات للنبي ﷺ، وكثرة الالتفات لأبي بكر."
                 },
                 {
                     "option_id": "reading",
-                    "text": "The Prophet ﷺ was reciting without looking back, while Abu Bakr looked back often.",
-                    "feedback": "Yes. These are the two actions Suraqa describes as he approached."
+                    "text": "كان النبي ﷺ يقرأ ولا يلتفت، وأبو بكر يكثر الالتفات.",
+                    "feedback": "نعم؛ هذان الفعلان هما ما وصفه سراقة عند الدنو."
                 },
                 {
                     "option_id": "both",
-                    "text": "Both interrupted their recitation to look back at the rider.",
-                    "feedback": "Suraqa does not say that. He says he heard the Prophet ﷺ reciting and that the Prophet did not look back."
+                    "text": "كان كلاهما يقطع القراءة ليلتفت إلى الفارس.",
+                    "feedback": "لم يقل سراقة ذلك؛ وصف النبي ﷺ بأنه لا يلتفت مع سماعه قراءته."
                 }
             ],
-            "explanation": "Suraqa heard the Prophet ﷺ reciting and says he did not look back, whereas Abu Bakr looked back often.",
+            "explanation": "يسمع سراقة قراءة النبي ﷺ ويذكر أنه لا يلتفت، بينما يكثر أبو بكر الالتفات.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_bukhari:p1",
@@ -1475,25 +1354,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "How did Suraqa’s view of the Prophet’s cause ﷺ change after he found himself unable to reach the travelers?",
+            "prompt": "كيف تغيرت نظرة سراقة إلى أمر النبي ﷺ بعد ما لقيه من الحبس عن الركب؟",
             "options": [
                 {
                     "option_id": "success",
-                    "text": "It occurred to him that the Prophet’s cause ﷺ would prevail.",
-                    "feedback": "Correct. Suraqa links this thought to being held back from reaching them."
+                    "text": "وقع في نفسه أن أمر النبي ﷺ سيظهر.",
+                    "feedback": "صحيح؛ يربط سراقة هذا الشعور بما لقيه من الحبس عنهم."
                 },
                 {
                     "option_id": "bounty",
-                    "text": "He grew more certain that he would bring the Prophet ﷺ back and win the reward.",
-                    "feedback": "That reverses the change he relates: he called for safe conduct and thought the Prophet’s cause ﷺ would prevail."
+                    "text": "ازداد يقينه بأنه سيعود بالنبي ﷺ وينال الجائزة.",
+                    "feedback": "ذلك عكس التحول الذي يحكيه؛ نادى بالأمان ووقع في نفسه ظهور أمر النبي ﷺ."
                 },
                 {
                     "option_id": "withdrawal",
-                    "text": "He thought Quraysh had withdrawn the reward, making the pursuit pointless.",
-                    "feedback": "No news of a withdrawn reward is mentioned. He links his changed outlook to what happened during the pursuit."
+                    "text": "اعتقد أن قريشًا سحبت الجائزة، فلم تعد المطاردة مجدية.",
+                    "feedback": "لم يذكر وصول خبر بسحب الجائزة؛ يربط تغير نظرته بما وقع له في المطاردة."
                 }
             ],
-            "explanation": "After the horse sank, struggled to pull free, and he saw what he saw, Suraqa called for safe conduct. He himself says that being kept from the travelers made him think the Prophet’s cause ﷺ would prevail.",
+            "explanation": "بعد سوخ الفرس وصعوبة إخراجها وما رآه، نادى سراقة بالأمان. وهو نفسه يخبر بأن ما حبسه عن الركب أوقع في نفسه أن أمر النبي ﷺ سيظهر.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_bukhari:p1",
@@ -1509,25 +1388,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Suraqa offered provisions and goods, but nothing was taken from him. What did the Prophet ﷺ ask of him?",
+            "prompt": "عرض سراقة الزاد والمتاع، فلم يؤخذ منه شيء. ماذا طلب النبي ﷺ منه؟",
             "options": [
                 {
                     "option_id": "guide",
-                    "text": "To go ahead of the travelers and show them the way.",
-                    "feedback": "This passage does not mention a request to guide them; it reports a request to conceal news of them."
+                    "text": "أن يتقدم الركب ليدلهم على الطريق.",
+                    "feedback": "لا يذكر هذا الموضع طلب الدلالة؛ الذي ينقله هو طلب إخفاء خبرهم."
                 },
                 {
                     "option_id": "horse",
-                    "text": "To leave his horse for them to continue their journey.",
-                    "feedback": "The Prophet ﷺ did not ask for the horse in this account; he asked Suraqa to conceal news of them."
+                    "text": "أن يترك فرسه لهم لمواصلة السفر.",
+                    "feedback": "لم يطلب النبي ﷺ الفرس في هذا الخبر؛ طلب إخفاء خبرهم."
                 },
                 {
                     "option_id": "conceal",
-                    "text": "To keep news of them secret and not lead people to them.",
-                    "feedback": "Yes. That is the meaning of his words ﷺ in the report: “Keep our whereabouts hidden.”"
+                    "text": "أن يكتم خبرهم ولا يدل الناس عليهم.",
+                    "feedback": "نعم؛ هذا معنى قوله ﷺ في الخبر: أخف عنا."
                 }
             ],
-            "explanation": "The response was not to take provisions or goods: the Prophet ﷺ asked him to conceal news of the travelers.",
+            "explanation": "لم تكن الاستجابة أخذ الزاد والمتاع، وإنما طلب النبي ﷺ إخفاء خبر الركب.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_bukhari:p1",
@@ -1543,25 +1422,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "Which action on Suraqa’s return shows that he no longer sought to catch the travelers?",
+            "prompt": "أي فعل عند رجوع سراقة يبين أنه لم يعد يسعى إلى إدراك الركب؟",
             "options": [
                 {
                     "option_id": "redirect",
-                    "text": "He diverted the pursuers he met from searching in that direction.",
-                    "feedback": "Correct. This is what Abu Bakr relates, explicitly saying Suraqa kept his word to them."
+                    "text": "كان يرد من يلقاه من المطاردين عن تتبعهم في تلك الجهة.",
+                    "feedback": "صحيح؛ هذا ما يرويه أبو بكر، مع تصريحه بأن سراقة وفى لهم."
                 },
                 {
                     "option_id": "lead",
-                    "text": "He began riding ahead of the travelers to guide them to Madinah.",
-                    "feedback": "The account describes him turning back and diverting those he met, not guiding the travelers."
+                    "text": "صار يسير أمام الركب دليلًا لهم إلى المدينة.",
+                    "feedback": "الخبر يصف رجوعه ورد من يلقاه، لا سيره معهم دليلًا."
                 },
                 {
                     "option_id": "inform",
-                    "text": "He went to tell Quraysh where he had met the travelers.",
-                    "feedback": "That is the opposite of the reported diversion of pursuers and fulfillment of his promise."
+                    "text": "ذهب ليخبر قريشًا بالموضع الذي قابل فيه الركب.",
+                    "feedback": "هذا عكس ما يذكره الخبر من رد المطاردين والوفاء."
                 }
             ],
-            "explanation": "Suraqa set out in pursuit, then returned and turned others away. Abu Bakr closes this passage by saying that Suraqa kept his word to them, so the promise did not remain mere words.",
+            "explanation": "خرج سراقة في الطلب، ثم رجع يصرف غيره عنه. ويختم أبو بكر هذا الموضع بأنه وفى لهم، فلا يبقى الوعد مجرد قول.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_abu_bakr:p1",
@@ -1583,25 +1462,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "In the two displayed readings, who relates preparing his horse and spear and drawing lots, and who recounts the prayer and the fulfilled promise to turn back the pursuers?",
+            "prompt": "في القراءتين المعروضتين، من يخبر عن إعداد فرسه ورمحه واستقسامه، ومن يروي الدعاء والوفاء برد الطلب؟",
             "options": [
                 {
                     "option_id": "reversed",
-                    "text": "Abu Bakr relates the first; Suraqa relates the second.",
-                    "feedback": "The displayed accounts are the reverse: Suraqa relates preparing his horse, and Abu Bakr is the source of the account of the prayer and fulfilled promise transmitted by al-Bara."
+                    "text": "أبو بكر يروي الأول، وسراقة يروي الثاني.",
+                    "feedback": "العكس هو المعروض: سراقة يحكي إعداد فرسه، وأبو بكر صاحب خبر الدعاء والوفاء الذي يرويه البراء."
                 },
                 {
                     "option_id": "voices",
-                    "text": "Suraqa relates the first; Abu Bakr relates the second.",
-                    "feedback": "Correct. This distinguishes the pursuer’s perspective from the companion’s account transmitted by al-Bara."
+                    "text": "سراقة يروي الأول، وأبو بكر يروي الثاني.",
+                    "feedback": "صحيح؛ هذا يميز منظور المطارد عن خبر الرفيق الذي ينقله البراء."
                 },
                 {
                     "option_id": "bara",
-                    "text": "Al-Bara relates both as an eyewitness to the events.",
-                    "feedback": "Al-Bara transmits Abu Bakr’s account; he is not the man with the horse and spear, nor the speaker of “we set out” in this report."
+                    "text": "البراء يحكي الأمرين بوصفه صاحب المشهد.",
+                    "feedback": "البراء ينقل خبر أبي بكر؛ ليس صاحب الفرس والرمح، ولا صاحب ضمير فارتحلنا في هذا الخبر."
                 }
             ],
-            "explanation": "Suraqa relates what he did before reaching the travelers and what happened to him. Abu Bakr relates the pursuer catching up, the prayer, and the fulfilled promise to divert the pursuers; al-Bara transmits his account in the al-Bayhaqi reading.",
+            "explanation": "سراقة يحكي ما فعله قبل وصوله إلى الركب وما وقع له. أما أبو بكر فيروي خبر إدراك الفارس والدعاء ثم الوفاء برد الطلب، والبراء هو ناقل خبره في قراءة البيهقي.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_bukhari:p1",
@@ -1628,25 +1507,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "expert",
             "practice_scope": "source_study",
-            "prompt": "Which statement matches the writer’s name and the material of the letter in the two displayed texts?",
+            "prompt": "أي بيان يطابق اسم الكاتب ومادة الكتاب في النصين المعروضين؟",
             "options": [
                 {
                     "option_id": "swapped_writers",
-                    "text": "In al-Bukhari: Abu Bakr and a piece of leather; in Ibn Ishaq: Amir and a bone, scrap, or potsherd.",
-                    "feedback": "The materials are assigned to the right accounts here, but the writers’ names are reversed."
+                    "text": "في البخاري أبو بكر ورقعة من أديم؛ وعند ابن إسحاق عامر وعظم أو رقعة أو خزفة.",
+                    "feedback": "المادتان هنا في موضعهما، لكن اسمي الكاتبين معكوسان."
                 },
                 {
                     "option_id": "swapped_materials",
-                    "text": "In al-Bukhari: Amir and a bone, scrap, or potsherd; in Ibn Ishaq: Abu Bakr and a piece of leather.",
-                    "feedback": "The names are assigned correctly, but the description of the material has been transferred from one account to the other."
+                    "text": "في البخاري عامر وعظم أو رقعة أو خزفة؛ وعند ابن إسحاق أبو بكر ورقعة من أديم.",
+                    "feedback": "الاسمان في موضعهما، لكن وصف مادة الكتاب منقول من كل نص إلى الآخر."
                 },
                 {
                     "option_id": "matched",
-                    "text": "In al-Bukhari: Amir and a piece of leather; in Ibn Ishaq: Abu Bakr and a bone, scrap, or potsherd.",
-                    "feedback": "Correct. Each name is paired with what its own text says about the letter’s material."
+                    "text": "في البخاري عامر ورقعة من أديم؛ وعند ابن إسحاق أبو بكر وعظم أو رقعة أو خزفة.",
+                    "feedback": "صحيح؛ يقترن كل اسم بما يذكره النص نفسه عن مادة الكتاب."
                 }
             ],
-            "explanation": "Al-Bukhari names Amir ibn Fuhayrah and mentions a piece of leather. Ibn Ishaq has the instruction to Abu Bakr, followed by a description of the writing on a bone, a scrap, or a potsherd, with uncertainty about the material.",
+            "explanation": "يسمي البخاري عامر بن فهيرة ويذكر رقعة من أديم. وعند ابن إسحاق الأمر لأبي بكر، ثم تتمة الكتابة في عظم أو رقعة أو خزفة على الشك.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_ibn_ishaq_start:p1",
@@ -1668,25 +1547,25 @@
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "Who are the tullab (الطلب) whom Suraqa promises to turn back in Abu Bakr’s account?",
+            "prompt": "من هم الطلب في وعد سراقة بردهم، كما في خبر أبي بكر؟",
             "options": [
                 {
                     "option_id": "pursuers",
-                    "text": "Those following the travelers in order to catch them.",
-                    "feedback": "Correct. The context and explanation of the word show that these are their pursuers."
+                    "text": "الذين يتعقبون الركب للظفر بهم.",
+                    "feedback": "صحيح؛ يوضح السياق وشرح اللفظ أن المقصود من يطاردونهم."
                 },
                 {
                     "option_id": "emigrants",
-                    "text": "Emigrants seeking a route to Madinah.",
-                    "feedback": "That is not the intended group: Suraqa promises to turn back those following the travelers, not the emigrants."
+                    "text": "المهاجرون الذين يلتمسون طريقًا إلى المدينة.",
+                    "feedback": "ليس هذا المقصود؛ سراقة يعد برد من يتعقبون الركب، لا برد المهاجرين."
                 },
                 {
                     "option_id": "petitioners",
-                    "text": "People with needs who come to the Prophet ﷺ with questions.",
-                    "feedback": "Here the term means pursuers, not petitioners or people with needs in general."
+                    "text": "أصحاب الحاجات الذين يقصدون النبي ﷺ بسؤالهم.",
+                    "feedback": "اللفظ هنا للمطاردين، لا لعموم السائلين وأصحاب الحاجات."
                 }
             ],
-            "explanation": "Al-Isbahani explains al-tullab (الطلب) by al-talib (الطالب), a term that can apply to one or several. Suraqa’s promise and his diversion of those he met show that the intended people are those pursuing the travelers.",
+            "explanation": "يفسر الأصبهاني الطلب بالطالِب الذي يقع لفظه على الواحد والجمع؛ ووعد سراقة وردّه من يلقاه يبينان أن المقصود طالِبو الركب ومطاردوه.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_lexicon:p2",

@@ -50,7 +50,7 @@ She had not waited long when her husband, Abu Ma‘bad, came home driving a few 
 
 Then she spoke of the men with him. "He had companions who gathered round him. When he spoke, they fell silent to listen; when he gave an order, they hurried to carry it out. He was served and surrounded, never frowning, never overbearing."[[story:p18, gloss:p22, gloss:p25 | Umm Ma‘bad in Hubaysh's report; 1/343 — Abu ‘Ubayd on mahfud mahshud]]
 
-Abu Ma‘bad had heard enough. "By Allah," he said, "that is the man from Quraysh, the one we heard so much about in Makkah. I had meant to join him, and I will, if I find a way."[[story:p19 | Abu Ma‘bad in Hubaysh's report]] Umm Ma‘bad herself later emigrated, became Muslim and joined the Prophet ﷺ.[[H-10637-290-RA-UMM-MIGRATION | ‘Abd al-Malik ibn Wahb, "it reached me"]]
+Abu Ma‘bad had heard enough. "By Allah," he said, "that is the man from Quraysh, the one we heard so much about in Makkah. I had meant to join him, and I will, if I find a way."[[story:p19 | Abu Ma‘bad in Hubaysh's report]] Umm Ma‘bad herself, it is said, later emigrated, became Muslim and joined the Prophet ﷺ.[[H-10637-290-RA-UMM-MIGRATION | ‘Abd al-Malik ibn Wahb, "it reached me"]]
 
 Quraysh, still hunting him, came that way too. They reached Umm Ma‘bad and described him to her. "I do not know what you are talking about," she said. "A man who milked a dry ewe was my guest." "That is the one we want," they said.[[H-7478-1014-RA-UMM-ISHaq, E21 | Ibn Ishaq through Yunus ibn Bukayr]]
 

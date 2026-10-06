@@ -30,7 +30,7 @@ The Prophet ﷺ asked to come in, and was let in. Abu Bakr moved back from his c
 
 "Companionship, Messenger of Allah?" Abu Bakr asked. "Companionship," he answered.[[permission_h_23833_508_cont:p1 | ‘Aishah, through Ibn Ishaq; the hiring of the guide]] ‘Aishah never forgot what she saw next. "By Allah, before that day I never knew that anyone could weep for joy," she said, "until I saw Abu Bakr weeping that day."[[permission_h_23833_508_cont:p1 | ‘Aishah, through Ibn Ishaq; the hiring of the guide]]
 
-Then Abu Bakr turned to the camels he had waited with for so long. "Prophet of Allah, these are two riding camels I have kept ready for this." "Take one of them," he said. "At its price," the Prophet ﷺ answered.[[permission_h_1681_5899_visit:p1 | ‘Aishah, through al-Zuhri from ‘Urwah]][[permission_h_23833_508_cont:p1 | ‘Aishah, through Ibn Ishaq; the hiring of the guide]]
+Then Abu Bakr turned to the camels he had waited with for so long. "Prophet of Allah, these are two riding camels I have kept ready for this." "Take one of them," Abu Bakr said. "At its price," the Prophet ﷺ answered.[[permission_h_1681_5899_visit:p1 | ‘Aishah, through al-Zuhri from ‘Urwah]][[permission_h_23833_508_cont:p1 | ‘Aishah, through Ibn Ishaq; the hiring of the guide]]
 
 ## A guide for the road
 
