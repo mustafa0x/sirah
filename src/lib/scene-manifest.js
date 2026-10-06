@@ -294,6 +294,8 @@ export const chapter_focus_shots = Object.fromEntries(
 const thawr_nights = shot('cave', south + 0.1, 0.2, 1.3, 0.06, [-0.45, 0, 0])
 
 export const beat_shots = {
+    // The story's frame: the whole land, Makkah to Madinah.
+    N01e: overview_shot,
     N01a: overview_shot,
     // The six take Islam home to Yathrib.
     N01b: shot('madinah', south + 0.5, 0.5, 9, 0.1),

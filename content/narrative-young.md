@@ -4,21 +4,25 @@
 
 ## stage: setting
 
+## N01e
+
+In Makkah, the Prophet’s ﷺ own tribe was cruel to the Muslims. This is the story of how they found a new home.
+
 ## N01a
 
-Every year, pilgrims came to Makkah. The Prophet ﷺ told them about Allah, and six men from Yathrib listened.
+Every year, visitors came to Makkah to worship. The Prophet ﷺ told them about Allah, and six men from Yathrib listened.
 
 ## N01b
 
-Their Jewish neighbours said a prophet was coming. “This is him!” the six men said, and they became Muslims.
+Back home, their Jewish neighbours said a prophet was coming. “This is him!” the six said, and they became Muslims.
 
 ## N01d
 
-Later, many more came at night. They promised to keep him safe, just like their own families.
+Later, many more came from Yathrib at night. They promised to keep him safe, the way they kept their own families safe.
 
 ## N01c
 
-So his friends moved to Yathrib, the town we call Madinah. The Prophet ﷺ waited for Allah’s permission to follow.
+So the Muslims of Makkah moved to Yathrib, the town we call Madinah. The Prophet ﷺ waited for Allah’s permission to go.
 
 ## stage: preparations
 
@@ -38,29 +42,29 @@ Asma had nothing to tie up their food, so she split her waistband in two and use
 
 ## N09a
 
-The leaders of Makkah were afraid of the Prophet ﷺ, and they made a plan to attack him.
+At last Allah gave him permission. But the leaders of Makkah, afraid of his message, made a plan to hurt him.
 
 ## N09b
 
-That night they waited outside his door. ‘Ali lay in the Prophet’s ﷺ bed, wrapped in his green cloak.
+That night they waited outside his door. His cousin ‘Ali lay in his bed, so they would think the Prophet ﷺ was inside.
 
 ## N09c
 
-The Prophet ﷺ walked right out past them, scattering dust, and Allah kept them from seeing him.
+The Prophet ﷺ walked right out past them, throwing a handful of dust, and Allah kept them from seeing him.
 
 ## N09d
 
-He and his best friend, Abu Bakr, slipped away in the dark. They went south, the opposite way to Madinah.
+He and his best friend, Abu Bakr, slipped away in the dark. They went south first, the opposite way to Madinah.
 
 ## stage: thawr
 
 ## N03a
 
-They reached a cave on Mount Thawr. Abu Bakr went in first to make sure it was safe.
+They hid in a cave on Mount Thawr. Abu Bakr went in first to make sure it was safe.
 
 ## N03d
 
-Searchers stood right above the cave! Abu Bakr was afraid they would look down. The Prophet ﷺ calmed his friend.
+Men from Makkah searched everywhere, and stood right above the cave! Abu Bakr was afraid. The Prophet ﷺ calmed him.
 
 ## N03e
 
@@ -72,7 +76,7 @@ Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news 
 
 ## N03c
 
-Abu Bakr’s helper ‘Amir brought sheep each evening for milk. At dawn the sheep walked over ‘Abdullah’s footprints.
+Abu Bakr’s helper ‘Amir brought sheep each evening for milk. At dawn the sheep covered up ‘Abdullah’s footprints.
 
 ## stage: onward
 
@@ -88,7 +92,7 @@ People asked Abu Bakr who was with him. “He guides me on the way,” he said: 
 
 ## N06a
 
-On the road by the sea, a rider called Suraqah raced after them on his horse, hoping for a big reward.
+After three nights they rode on by the sea. A rider called Suraqah raced after them, hoping for a reward.
 
 ## N06b
 
@@ -96,21 +100,21 @@ As he came close, his horse’s legs sank into the ground, and he fell off!
 
 ## N06c
 
-Suraqah gave up the chase. They asked him only to keep their secret, and he sent the other riders home.
+Suraqah gave up the chase. They asked him to tell no one where they were, and he sent other searchers the wrong way.
 
 ## stage: tent
 
 ## N10a
 
-Hungry and far from home, they stopped at the tent of Umm Ma‘bad. She had no food to give them.
+Hungry and far from home, they stopped at the tent of a woman called Umm Ma‘bad. She had no food to give them.
 
 ## N10b
 
-Her thin sheep had no milk. The Prophet ﷺ said Allah’s name and milked her, and everyone drank!
+Her thin sheep had no milk. The Prophet ﷺ said Allah’s name and milked the sheep, and everyone drank!
 
 ## N10c
 
-When her husband came home, she told him about their guest: a shining face, and words like beads on a string.
+After they left, her husband came home. She told him of their guest: a shining face, and words like beads on a string.
 
 ## stage: quba
 
@@ -130,11 +134,11 @@ At Quba he built a mosque and prayed in it. Then he rode on into Madinah.
 
 ## N08a
 
-At last the Prophet ﷺ rode into Madinah. Family after family asked him to stay, but he let his camel walk on.
+At last the Prophet ﷺ rode into Madinah on his camel. Everyone asked him to stay, but he let the camel choose the way.
 
 ## N08b
 
-Children ran and people climbed up high to see him. His camel knelt in a yard where dates were dried.
+People climbed up high to see him. His camel knelt in a yard where dates were dried, and there he made his home.
 
 ## N05b
 
@@ -142,4 +146,4 @@ There they built a mosque, and the Prophet ﷺ carried bricks to help.
 
 ## N08c
 
-He prayed that Allah would make Madinah as dear to them as Makkah, and even dearer.
+He prayed that Allah would make the Muslims love Madinah as much as Makkah, and even more.

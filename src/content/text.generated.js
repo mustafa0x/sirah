@@ -5,26 +5,34 @@ export const stage_text = {
         title: 'Before the journey',
         paragraphs: [
             {
-                id: 'N01a',
-                text: 'Every pilgrimage season, as the tribes came to Makkah, the Prophet ﷺ went out to them and called them to Allah. One season, at a place called al-‘Aqabah, six men from Yathrib sat down to listen.',
+                id: 'N01e',
+                text: 'In Makkah, those who followed the Prophet Muhammad ﷺ were insulted and harmed by Quraysh, his own tribe, who ruled the town. This is the story of the Hijrah: how they found a new home, and how he made the journey there.',
                 young: {
-                    text: 'Every year, pilgrims came to Makkah. The Prophet ﷺ told them about Allah, and six men from Yathrib listened.',
+                    text: 'In Makkah, the Prophet’s ﷺ own tribe was cruel to the Muslims. This is the story of how they found a new home.',
+                },
+                source_ids: ['sp_earlier_exp_h_146_237_permission:p1–p2'],
+            },
+            {
+                id: 'N01a',
+                text: 'Every pilgrimage season, as tribes from across Arabia came to Makkah, the Prophet ﷺ went out to them and called them to Allah. One season, at al-‘Aqabah, six men from Yathrib, a town to the north, sat down to listen.',
+                young: {
+                    text: 'Every year, visitors came to Makkah to worship. The Prophet ﷺ told them about Allah, and six men from Yathrib listened.',
                 },
                 source_ids: ['sp_aqaba_chapter_01:p1–p9'],
             },
             {
                 id: 'N01b',
-                text: 'At home their Jewish neighbours often warned of a prophet soon to come. “By Allah,” the six said to one another, “this is the prophet they threatened us with.” They accepted Islam and took it home.',
+                text: 'Back home, their Jewish neighbours used to say a prophet would soon come, and they would follow him against them. “By Allah,” the six said to one another, “this is that prophet.” They accepted Islam and took it home.',
                 young: {
-                    text: 'Their Jewish neighbours said a prophet was coming. “This is him!” the six men said, and they became Muslims.',
+                    text: 'Back home, their Jewish neighbours said a prophet was coming. “This is him!” the six said, and they became Muslims.',
                 },
                 source_ids: ['sp_aqaba_chapter_01:p1–p9', 'sp_aqaba_chapter_02:p1'],
             },
             {
                 id: 'N01d',
-                text: 'Each year more came, until seventy-three men and two women met him there by night and pledged to protect him as they protected their own women and children. “I am of you and you are of me,” he said.',
+                text: 'Each year more came from Yathrib, until seventy-three men and two women met him there by night. They pledged to protect him, if he came, as they protected their own families. “I am of you and you are of me,” he said.',
                 young: {
-                    text: 'Later, many more came at night. They promised to keep him safe, just like their own families.',
+                    text: 'Later, many more came from Yathrib at night. They promised to keep him safe, the way they kept their own families safe.',
                 },
                 source_ids: [
                     'sp_aqaba_chapter_17:p1–p2',
@@ -34,9 +42,9 @@ export const stage_text = {
             },
             {
                 id: 'N01c',
-                text: '“It is Yathrib,” he told his companions, and group after group they slipped away to Madinah. At last, of those free to go, only he, Abu Bakr and ‘Ali were left. And he waited for Allah’s permission to follow.',
+                text: 'Their new home, he told his companions, would be Yathrib, soon to be called Madinah. Group by group these Emigrants slipped away, until few were left but him, his close friend Abu Bakr and his cousin ‘Ali.',
                 young: {
-                    text: 'So his friends moved to Yathrib, the town we call Madinah. The Prophet ﷺ waited for Allah’s permission to follow.',
+                    text: 'So the Muslims of Makkah moved to Yathrib, the town we call Madinah. The Prophet ﷺ waited for Allah’s permission to go.',
                 },
                 source_ids: [
                     'sp_earlier_exp_h_146_237_permission:p1–p2',
@@ -54,7 +62,7 @@ export const stage_text = {
         paragraphs: [
             {
                 id: 'N02a',
-                text: 'Abu Bakr asked again and again to go. “Do not hurry,” he was told. “Perhaps Allah will give you a companion.” So he waited, hoping it would be the Prophet ﷺ, and fed two camels for four months to have them ready.',
+                text: 'Abu Bakr asked again and again to go too. “Do not hurry,” the Prophet ﷺ told him. “Perhaps Allah will give you a companion.” Abu Bakr hoped it would be the Prophet ﷺ himself, and fed two camels for four months.',
                 young: {
                     text: 'Abu Bakr wanted to go too. He was told to wait: perhaps Allah would give him a companion.',
                 },
@@ -66,7 +74,7 @@ export const stage_text = {
             },
             {
                 id: 'N02b',
-                text: 'Then one day, in the full heat of noon, the Prophet ﷺ came at an hour he never came, and said, “Allah has given me permission to leave.” “Companionship?” Abu Bakr asked. “Companionship.” And Abu Bakr wept for joy.',
+                text: 'Then one noon, at an hour he never came, the Prophet ﷺ came to Abu Bakr’s house. “Allah has given me permission to leave.” “And I am to come with you?” Abu Bakr asked. “Yes.” And Abu Bakr wept for joy.',
                 young: {
                     text: 'One hot noon, the Prophet ﷺ came with the news: they could go together! Abu Bakr cried for joy.',
                 },
@@ -78,7 +86,7 @@ export const stage_text = {
             },
             {
                 id: 'N02c',
-                text: 'They hired a guide to bring the camels to the cave of Thawr after three nights. Abu Bakr’s daughter Asma had nothing to tie up their food, so she split her waistband in two, and became “she of the two waistbands”.',
+                text: 'They hired a guide to bring the camels after three nights to a cave on Mount Thawr, where they would hide. Asma, Abu Bakr’s daughter, split her waistband to tie up their food, and became “she of the two waistbands”.',
                 young: {
                     text: 'Asma had nothing to tie up their food, so she split her waistband in two and used that.',
                 },
@@ -98,9 +106,9 @@ export const stage_text = {
         paragraphs: [
             {
                 id: 'N09a',
-                text: 'In Makkah, Quraysh had watched his companions go, and feared he would follow. In Dar al-Nadwah their leaders took Abu Jahl’s plan: young men from every clan would strike him together, spreading his blood across them all.',
+                text: 'Quraysh feared the Prophet ﷺ would follow his companions. In their council house, their leaders agreed to kill him: a young man from every clan would strike at once, so that no one clan could be made to answer for it.',
                 young: {
-                    text: 'The leaders of Makkah were afraid of the Prophet ﷺ, and they made a plan to attack him.',
+                    text: 'At last Allah gave him permission. But the leaders of Makkah, afraid of his message, made a plan to hurt him.',
                 },
                 source_ids: [
                     'sp_departure_chapter_council:p1–p3',
@@ -111,23 +119,23 @@ export const stage_text = {
                 id: 'N09b',
                 text: 'That night the men gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak. “Sleep in it,” he said. “Nothing you dislike will reach you from them.”',
                 young: {
-                    text: 'That night they waited outside his door. ‘Ali lay in the Prophet’s ﷺ bed, wrapped in his green cloak.',
+                    text: 'That night they waited outside his door. His cousin ‘Ali lay in his bed, so they would think the Prophet ﷺ was inside.',
                 },
                 source_ids: ['sp_departure_chapter_bed:p1–p4', 'sp_departure_chapter_exit:p1–p2'],
             },
             {
                 id: 'N09c',
-                text: 'Then he came out to them with a handful of dust, scattering it over their heads and reciting, “So We have covered them, and they do not see.” Allah took their sight from him, and he went on his way.',
+                text: 'Then he came out to them with a handful of dust, scattering it over their heads and reciting the Quran: “So We have covered them, and they do not see.” Allah took their sight from him, and he went on his way.',
                 young: {
-                    text: 'The Prophet ﷺ walked right out past them, scattering dust, and Allah kept them from seeing him.',
+                    text: 'The Prophet ﷺ walked right out past them, throwing a handful of dust, and Allah kept them from seeing him.',
                 },
                 source_ids: ['sp_departure_chapter_exit:p6–p12'],
             },
             {
                 id: 'N09d',
-                text: 'He came to Abu Bakr, and the two slipped out by a small door at the back of the house, Abu Bakr carrying all his savings. They did not take the road north to Madinah, but turned south, towards Yemen.',
+                text: 'He came to Abu Bakr, and the two slipped out by a small door at the back of Abu Bakr’s house, Abu Bakr carrying all his savings. Madinah lay to the north, but they turned south, towards Yemen.',
                 young: {
-                    text: 'He and his best friend, Abu Bakr, slipped away in the dark. They went south, the opposite way to Madinah.',
+                    text: 'He and his best friend, Abu Bakr, slipped away in the dark. They went south first, the opposite way to Madinah.',
                 },
                 source_ids: ['H-23833-508-807:p1', 'E23', 'E24'],
             },
@@ -143,15 +151,15 @@ export const stage_text = {
                 id: 'N03a',
                 text: 'About five miles on, they reached Mount Thawr and a cave in its side. Abu Bakr went in first, feeling his way in the dark, ready to take any harm himself. For three nights, it would be their hiding place.',
                 young: {
-                    text: 'They reached a cave on Mount Thawr. Abu Bakr went in first to make sure it was safe.',
+                    text: 'They hid in a cave on Mount Thawr. Abu Bakr went in first to make sure it was safe.',
                 },
                 source_ids: ['E24', 'sp_thawr_support:p1', 'H-23833-509-CONT:p1'],
             },
             {
                 id: 'N03d',
-                text: 'The searchers came close, so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”',
+                text: 'Quraysh sent out searchers, and they came so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” “What do you think of two,” said the Prophet ﷺ, “when Allah is their third?”',
                 young: {
-                    text: 'Searchers stood right above the cave! Abu Bakr was afraid they would look down. The Prophet ﷺ calmed his friend.',
+                    text: 'Men from Makkah searched everywhere, and stood right above the cave! Abu Bakr was afraid. The Prophet ﷺ calmed him.',
                 },
                 source_ids: [
                     'sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p2',
@@ -176,9 +184,9 @@ export const stage_text = {
             },
             {
                 id: 'N03c',
-                text: 'As darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought his milking sheep to the cave, so the two had fresh milk. At dawn he drove the flock along ‘Abdullah’s trail, and the sheep wiped out his footprints.',
+                text: 'As darkness settled, ‘Amir ibn Fuhayrah, who tended Abu Bakr’s sheep, brought the flock to the cave, so the two had fresh milk. At dawn he drove it along ‘Abdullah’s trail, and the sheep wiped out ‘Abdullah’s footprints.',
                 young: {
-                    text: 'Abu Bakr’s helper ‘Amir brought sheep each evening for milk. At dawn the sheep walked over ‘Abdullah’s footprints.',
+                    text: 'Abu Bakr’s helper ‘Amir brought sheep each evening for milk. At dawn the sheep covered up ‘Abdullah’s footprints.',
                 },
                 source_ids: ['sp_thawr_support:p1', 'sp_thawr_exp_h_23833_509_808:p2–p4'],
             },
@@ -220,15 +228,15 @@ export const stage_text = {
         paragraphs: [
             {
                 id: 'N06a',
-                text: 'Quraysh had put a price on the two. A man told Suraqah ibn Malik he had seen dark figures by the coast. “I knew that it was them,” Suraqah said, but he told the man otherwise. He wanted the hundred camels for himself.',
+                text: 'Quraysh offered a hundred camels for the two. Suraqah ibn Malik, a horseman of a tribe on the coast road, heard that riders had been seen by the sea. He knew it was them, but kept quiet: he wanted the reward himself.',
                 young: {
-                    text: 'On the road by the sea, a rider called Suraqah raced after them on his horse, hoping for a big reward.',
+                    text: 'After three nights they rode on by the sea. A rider called Suraqah raced after them, hoping for a reward.',
                 },
                 source_ids: ['sp_suraqa_bukhari:p1', 'sp_suraqa_ibn_ishaq_start:p1–p2'],
             },
             {
                 id: 'N06b',
-                text: 'He rode hard until he could hear the Prophet ﷺ reciting. The Prophet ﷺ did not look back; Abu Bakr kept looking back. Then his horse’s forelegs sank into the ground up to the knees, and Suraqah fell.',
+                text: 'He rode hard until he could hear the Prophet ﷺ reciting. The Prophet ﷺ did not look back; Abu Bakr kept looking back. Then Suraqah’s horse sank into the ground up to its knees, and he fell.',
                 young: {
                     text: 'As he came close, his horse’s legs sank into the ground, and he fell off!',
                 },
@@ -236,9 +244,9 @@ export const stage_text = {
             },
             {
                 id: 'N06c',
-                text: 'Suraqah called out for safety and offered them provisions. They asked only, “Keep our whereabouts hidden.” ‘Amir wrote him a letter of safety on leather, and Suraqah rode back, turning every pursuer home.',
+                text: 'Shaken, Suraqah begged them for a promise of safety and offered them provisions. They asked only, “Keep our whereabouts hidden.” ‘Amir wrote the promise on leather, and Suraqah rode back, turning every pursuer home.',
                 young: {
-                    text: 'Suraqah gave up the chase. They asked him only to keep their secret, and he sent the other riders home.',
+                    text: 'Suraqah gave up the chase. They asked him to tell no one where they were, and he sent other searchers the wrong way.',
                 },
                 source_ids: ['sp_suraqa_bukhari:p3–p5', 'sp_suraqa_abu_bakr:p6–p10'],
             },
@@ -254,7 +262,7 @@ export const stage_text = {
                 id: 'N10a',
                 text: 'They rode on, but their food had run out in a year of drought. By the road stood the two tents of Umm Ma‘bad, a woman who gave water and food to those who passed. They asked to buy meat and dates, but she had none.',
                 young: {
-                    text: 'Hungry and far from home, they stopped at the tent of Umm Ma‘bad. She had no food to give them.',
+                    text: 'Hungry and far from home, they stopped at the tent of a woman called Umm Ma‘bad. She had no food to give them.',
                 },
                 source_ids: ['sp_umm_mabad_story:p4', 'sp_umm_mabad_gloss:p2'],
             },
@@ -262,7 +270,7 @@ export const stage_text = {
                 id: 'N10b',
                 text: 'At the back of her tent stood a ewe too weak to follow the flock. The Prophet ﷺ passed his hand over her udder, spoke the name of Allah, and milked until froth rose over the vessel. Umm Ma‘bad drank first, he drank last.',
                 young: {
-                    text: 'Her thin sheep had no milk. The Prophet ﷺ said Allah’s name and milked her, and everyone drank!',
+                    text: 'Her thin sheep had no milk. The Prophet ﷺ said Allah’s name and milked the sheep, and everyone drank!',
                 },
                 source_ids: ['sp_umm_mabad_story:p5–p11'],
             },
@@ -270,7 +278,7 @@ export const stage_text = {
                 id: 'N10c',
                 text: 'When her husband came home, she described their guest: a man of shining beauty, his words like beads slipping from a string. “By Allah,” said Abu Ma‘bad, “that is the man from Quraysh.”',
                 young: {
-                    text: 'When her husband came home, she told him about their guest: a shining face, and words like beads on a string.',
+                    text: 'After they left, her husband came home. She told him of their guest: a shining face, and words like beads on a string.',
                 },
                 source_ids: ['sp_umm_mabad_story:p14–p16', 'sp_umm_mabad_story:p18–p19'],
             },
@@ -284,7 +292,7 @@ export const stage_text = {
         paragraphs: [
             {
                 id: 'N05a',
-                text: 'Each morning the Muslims of Madinah watched for him till the heat drove them in. Then a man on a fort saw the travellers in white, shimmering in the mirage: “Here is your good fortune, the one you have been waiting for!”',
+                text: 'Each morning the Ansar, the Muslims of Madinah, watched for him until the heat drove them in. Then a man on a fort saw the travellers in white, shimmering in the mirage: “Here is the one you have been waiting for!”',
                 young: {
                     text: 'In Madinah, people waited every morning in the hot sun. At last a man shouted: he is here!',
                 },
@@ -296,7 +304,7 @@ export const stage_text = {
             },
             {
                 id: 'N07a',
-                text: 'They found him at Quba, in the shade of a palm with Abu Bakr. Most had never seen him, and they greeted Abu Bakr. Then the sun fell on the Prophet ﷺ, Abu Bakr held his cloak over him, and at that they knew him.',
+                text: 'They found him at Quba, a village just outside Madinah, resting under a palm with Abu Bakr. Most had never seen him, and greeted Abu Bakr, until the sun fell on the Prophet ﷺ and Abu Bakr shaded him with his cloak.',
                 young: {
                     text: 'They found him resting in the shade of a palm tree at Quba, with Abu Bakr beside him.',
                 },
@@ -304,7 +312,7 @@ export const stage_text = {
             },
             {
                 id: 'N07b',
-                text: 'There ‘Ali caught up with him, after three days in Makkah returning what people had left in the Prophet’s ﷺ care. The Prophet ﷺ founded his mosque at Quba and prayed in it, and on a Friday he rode on towards Madinah.',
+                text: '‘Ali caught up with him there. He had stayed three days in Makkah to return what people had left in the Prophet’s ﷺ care. At Quba the Prophet ﷺ founded his mosque, and on a Friday he rode on towards Madinah.',
                 young: {
                     text: 'At Quba he built a mosque and prayed in it. Then he rode on into Madinah.',
                 },
@@ -327,7 +335,7 @@ export const stage_text = {
                 id: 'N08a',
                 text: 'On the way he prayed his first Friday prayer in Madinah. Clan after clan came out: “Stay with us. We have the numbers and the strength.” Each time he said of his camel, “Let her go her way; she is under orders.”',
                 young: {
-                    text: 'At last the Prophet ﷺ rode into Madinah. Family after family asked him to stay, but he let his camel walk on.',
+                    text: 'At last the Prophet ﷺ rode into Madinah on his camel. Everyone asked him to stay, but he let the camel choose the way.',
                 },
                 source_ids: [
                     'sp_madinah_chapter_17:p2',
@@ -339,7 +347,7 @@ export const stage_text = {
                 id: 'N08b',
                 text: 'The whole town poured out, and women on the rooftops strained to see: “Which one is he?” At last the camel knelt in a yard where dates were laid to dry. “This, if Allah wills, is the stopping place,” he said.',
                 young: {
-                    text: 'Children ran and people climbed up high to see him. His camel knelt in a yard where dates were dried.',
+                    text: 'People climbed up high to see him. His camel knelt in a yard where dates were dried, and there he made his home.',
                 },
                 source_ids: [
                     'sp_madinah_chapter_03:p1–p2',
@@ -363,7 +371,7 @@ export const stage_text = {
                 id: 'N08c',
                 text: 'Then the fever of Madinah laid his companions low. Makkah had been the dearest of lands to him, and now he prayed for their new home: “O Allah, make Madinah dear to us as You made Makkah dear to us, or dearer.”',
                 young: {
-                    text: 'He prayed that Allah would make Madinah as dear to them as Makkah, and even dearer.',
+                    text: 'He prayed that Allah would make the Muslims love Madinah as much as Makkah, and even more.',
                 },
                 source_ids: [
                     'sp_settlement_chapter_12:p1–p7',
@@ -1037,6 +1045,17 @@ export const glossary_terms = [
 export const weak_sources = ['E26', 'E33']
 
 export const cited_passages = {
+    'sp_earlier_exp_h_146_237_permission:p1–p2': {
+        reference: 'Ibn Sa‘d, al-Tabaqat al-Kubra, 1/192',
+        excerpt:
+            'أخبرنا محمّد بن عمر الأسلمي قال: حدّثني مَعمر بن رَاشِد عن الزهريّ عن أبي أمامة بن سَهل بن حُنيف وعن عُروة عن عائشة \nقالا: لما صَدَر السبعون من عند رسول الله، - ﷺ -، طابَت نفسه وقد جعل الله له مَنعَةً وقومًا أهل حرب وعُدّة ونجدة، وجعل البلاء يشتدّ على المسلمين من المشركين لما يعلمون من الخروج فضيَّقوا على أصحَابه وتَعَبَّثوا بهم ونالوا منهم ما لم يكونوا ينالون من الشتم والأذى، فشكا ذلك أصحاب رسول الله، - ﷺ -، واستأذنوه في الهجرة، فقال: قَدْ أُرِيتُ دَارَ هِجْرَتِكُم، أُرِيتُ سَبْخَةً ذَات نخلٍ بَينَ لابَتَينِ، وهما الحرّتان، وَلَوْ كَانَتِ السّرَاةُ أرْضَ نَخْلٍ وَسِبَاخٍ لَقُلْتُ هِيَ هِيَ، ثمّ مكث أيّامًا ثمّ خرج إلى أصحابه مسرورًا فقال: قَدْ أُخْبِرْتُ بِدَارِ هِجْرَتِكُمْ وَهيَ يَثْرِبُ، فَمَنْ أرَادَ الخُرُوجَ فَلْيَخْرُجْ إلَيْهَا: فجعل القوم يتجهّزون ويتوافقون ويتواسَون ويخرجون ويُخْفون ذلك، فكان أوّل مَن قَدِم المدينة من أصحاب رسول الله، - ﷺ -، أبو سَلَمة بن عبد الأسد (^٢).\nثمّ قَدِم بعده عامر بن ربيعة معه امرأته ليلى بنت أبي حَثْمة، فهي أوّل ظعينة',
+        book_id: '146',
+        book_ar: 'الطبقات الكبرى - ط الخانجي',
+        volume: '1',
+        page: '192',
+        url: 'https://app.turath.io/book/146?page=237',
+        kind_ar: 'إسناد؛ نص المصدر',
+    },
     'sp_aqaba_chapter_01:p1–p9': {
         reference: 'Ibn Hisham, al-Sirah al-Nabawiyyah, 1/428',
         excerpt:
@@ -1091,17 +1110,6 @@ export const cited_passages = {
         page: '442',
         url: 'https://app.turath.io/book/23833?page=465',
         kind_ar: 'خبر تاريخي',
-    },
-    'sp_earlier_exp_h_146_237_permission:p1–p2': {
-        reference: 'Ibn Sa‘d, al-Tabaqat al-Kubra, 1/192',
-        excerpt:
-            'أخبرنا محمّد بن عمر الأسلمي قال: حدّثني مَعمر بن رَاشِد عن الزهريّ عن أبي أمامة بن سَهل بن حُنيف وعن عُروة عن عائشة \nقالا: لما صَدَر السبعون من عند رسول الله، - ﷺ -، طابَت نفسه وقد جعل الله له مَنعَةً وقومًا أهل حرب وعُدّة ونجدة، وجعل البلاء يشتدّ على المسلمين من المشركين لما يعلمون من الخروج فضيَّقوا على أصحَابه وتَعَبَّثوا بهم ونالوا منهم ما لم يكونوا ينالون من الشتم والأذى، فشكا ذلك أصحاب رسول الله، - ﷺ -، واستأذنوه في الهجرة، فقال: قَدْ أُرِيتُ دَارَ هِجْرَتِكُم، أُرِيتُ سَبْخَةً ذَات نخلٍ بَينَ لابَتَينِ، وهما الحرّتان، وَلَوْ كَانَتِ السّرَاةُ أرْضَ نَخْلٍ وَسِبَاخٍ لَقُلْتُ هِيَ هِيَ، ثمّ مكث أيّامًا ثمّ خرج إلى أصحابه مسرورًا فقال: قَدْ أُخْبِرْتُ بِدَارِ هِجْرَتِكُمْ وَهيَ يَثْرِبُ، فَمَنْ أرَادَ الخُرُوجَ فَلْيَخْرُجْ إلَيْهَا: فجعل القوم يتجهّزون ويتوافقون ويتواسَون ويخرجون ويُخْفون ذلك، فكان أوّل مَن قَدِم المدينة من أصحاب رسول الله، - ﷺ -، أبو سَلَمة بن عبد الأسد (^٢).\nثمّ قَدِم بعده عامر بن ربيعة معه امرأته ليلى بنت أبي حَثْمة، فهي أوّل ظعينة',
-        book_id: '146',
-        book_ar: 'الطبقات الكبرى - ط الخانجي',
-        volume: '1',
-        page: '192',
-        url: 'https://app.turath.io/book/146?page=237',
-        kind_ar: 'إسناد؛ نص المصدر',
     },
     'sp_earlier_exp_h_146_238_early_migrants:p1': {
         reference: 'Ibn Sa‘d, al-Tabaqat al-Kubra, 1/193',
