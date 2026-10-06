@@ -51,6 +51,7 @@ const STAGES = {
 
 // Each moment's wording comes from content/map.md.
 function detail(id, limits, place, citation) {
+    if (!moments[id]) throw new Error(`No "## moment: ${id}" in content/journey`)
     const { title, text } = moments[id]
     return { id, title, text, limits, ...place, ...citation, kind: KINDS[id], stage: STAGES[id] }
 }

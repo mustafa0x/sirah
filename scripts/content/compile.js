@@ -120,99 +120,82 @@ export function compile() {
         source_notes: {},
         glossary_terms: [],
     }
+    const where = (file, line) => `${path.relative(root, file)}:${line}`
+    const seen = new Map()
+    const unique = (file, section, key) => {
+        if (seen.has(key))
+            errors.push(`${where(file, section.line)}: "${section.id}" also in ${seen.get(key)}`)
+        seen.set(key, where(file, section.line))
+    }
 
-    // Journey: one file per stage.
+    // Stages: one file each, holding every text a learner reads at that stage.
     const stage_files = readdirSync(path.join(content_dir, 'journey'))
         .filter((name) => name.endsWith('.md'))
         .sort((a, b) => parseInt(a) - parseInt(b))
-    const paragraph_ids = new Set()
     for (const name of stage_files) {
         const { file, doc, errors: parse_errors } = read(`journey/${name}`)
         errors.push(...parse_errors)
         const id = need(errors, file, doc, 'stage', 1)
-        if (!doc.title) errors.push(`${path.relative(root, file)}:1: missing "# Stage title"`)
+        if (!doc.title) errors.push(`${where(file, 1)}: missing "# Stage title"`)
         const stage = { title: doc.title, paragraphs: [] }
         for (const section of doc.sections) {
-            if (section.id === 'why' || section.id === 'recap') {
-                stage[section.id] = { text: one(errors, file, section, section) }
-                continue
-            }
-            if (!/^N\d{2}[a-z]$/.test(section.id))
-                errors.push(
-                    `${path.relative(root, file)}:${section.line}: "${section.id}" is not a paragraph id (N01a), "why" or "recap"`,
-                )
-            if (paragraph_ids.has(section.id))
-                errors.push(
-                    `${path.relative(root, file)}:${section.line}: paragraph "${section.id}" appears twice`,
-                )
-            paragraph_ids.add(section.id)
-            const sources = need(errors, file, section, 'sources', section.line)
-            stage.paragraphs.push({
-                id: section.id,
-                text: one(errors, file, section, section),
-                ...(section.young
-                    ? { young: { text: one(errors, file, section, section.young) } }
-                    : {}),
-                source_ids: (sources ?? '')
-                    .split(',')
-                    .map((item) => item.trim())
-                    .filter(Boolean),
-            })
+            const [kind, key] = section.id.includes(':')
+                ? section.id.split(/:\s*/)
+                : ['paragraph', section.id]
+            const young = () =>
+                section.young ? { young: { text: one(errors, file, section, section.young) } } : {}
+            if (kind === 'paragraph' && (key === 'why' || key === 'recap')) {
+                stage[key] = { text: one(errors, file, section, section) }
+            } else if (kind === 'paragraph') {
+                if (!/^N\d{2}[a-z]$/.test(key))
+                    errors.push(
+                        `${where(file, section.line)}: "${section.id}" is not a paragraph id (N01a), why, recap, "moment: id", "event: id" or "note: E01"`,
+                    )
+                unique(file, section, `paragraph ${key}`)
+                const sources = need(errors, file, section, 'sources', section.line)
+                stage.paragraphs.push({
+                    id: key,
+                    text: one(errors, file, section, section),
+                    ...young(),
+                    source_ids: (sources ?? '')
+                        .split(',')
+                        .map((item) => item.trim())
+                        .filter(Boolean),
+                })
+            } else if (kind === 'moment') {
+                unique(file, section, `moment ${key}`)
+                result.moments[key] = {
+                    title: need(errors, file, section, 'title', section.line),
+                    text: one(errors, file, section, section),
+                    ...young(),
+                }
+            } else if (kind === 'event') {
+                unique(file, section, `event ${key}`)
+                const note = one(errors, file, section, section, true)
+                result.timeline_text[key] = {
+                    title: need(errors, file, section, 'title', section.line),
+                    when: { text: need(errors, file, section, 'when', section.line) },
+                    ...(note ? { note: { text: note } } : {}),
+                }
+            } else if (kind === 'note') {
+                if (!/^E\d+$/.test(key))
+                    errors.push(`${where(file, section.line)}: "${key}" is not a source id (E01)`)
+                unique(file, section, `note ${key}`)
+                result.source_notes[key] = { text: one(errors, file, section, section) }
+            } else errors.push(`${where(file, section.line)}: unknown section "${section.id}"`)
         }
         if (id) result.stage_text[id] = stage
     }
 
-    // Map: places and moments.
+    // Places named on the map.
     {
-        const { file, doc, errors: parse_errors } = read('map.md')
+        const { file, doc, errors: parse_errors } = read('places.md')
         errors.push(...parse_errors)
-        for (const section of doc.sections) {
-            const [kind, id] = section.id.split(/:\s*/)
-            if (kind === 'place')
-                result.places[id] = {
-                    label: need(errors, file, section, 'name', section.line),
-                    description: one(errors, file, section, section),
-                }
-            else if (kind === 'moment')
-                result.moments[id] = {
-                    title: need(errors, file, section, 'title', section.line),
-                    text: one(errors, file, section, section),
-                    ...(section.young
-                        ? { young: { text: one(errors, file, section, section.young) } }
-                        : {}),
-                }
-            else
-                errors.push(
-                    `${path.relative(root, file)}:${section.line}: expected "## place: id" or "## moment: id"`,
-                )
-        }
-    }
-
-    // Timeline.
-    {
-        const { file, doc, errors: parse_errors } = read('timeline.md')
-        errors.push(...parse_errors)
-        for (const section of doc.sections) {
-            const note = one(errors, file, section, section, true)
-            result.timeline_text[section.id] = {
-                title: need(errors, file, section, 'title', section.line),
-                when: { text: need(errors, file, section, 'when', section.line) },
-                ...(note ? { note: { text: note } } : {}),
+        for (const section of doc.sections)
+            result.places[section.id] = {
+                label: need(errors, file, section, 'name', section.line),
+                description: one(errors, file, section, section),
             }
-        }
-    }
-
-    // Source notes.
-    {
-        const { file, doc, errors: parse_errors } = read('sources.md')
-        errors.push(...parse_errors)
-        for (const section of doc.sections) {
-            if (!/^E\d+$/.test(section.id))
-                errors.push(
-                    `${path.relative(root, file)}:${section.line}: "${section.id}" is not a source id (E01)`,
-                )
-            result.source_notes[section.id] = { text: one(errors, file, section, section) }
-        }
     }
 
     // Glossary.
@@ -230,6 +213,12 @@ export function compile() {
                     .filter(Boolean),
             })
     }
+
+    // Stable output: notes in source order, others by id.
+    const by_id = (object, compare) => Object.fromEntries(Object.entries(object).sort(compare))
+    result.source_notes = by_id(result.source_notes, ([a], [b]) => a.slice(1) - b.slice(1))
+    result.moments = by_id(result.moments, ([a], [b]) => a.localeCompare(b))
+    result.timeline_text = by_id(result.timeline_text, ([a], [b]) => a.localeCompare(b))
     return { result, errors }
 }
 

@@ -287,6 +287,69 @@ export const places = {
 }
 
 export const moments = {
+    ayyub: {
+        title: 'The house of Abu Ayyub',
+        text: 'He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar.',
+        young: {
+            text: 'He stayed in the house of Abu Ayyub until his mosque and his home were built.',
+        },
+    },
+    belts: {
+        title: 'She of the two belts',
+        text: 'When the three nights had passed, Asma brought their provisions but had forgotten a strap to hang the bag. She undid her waist-belt and used it. For that she was called Dhat al-Nitaqayn, she of the two belts.',
+        young: {
+            text: 'Asma used her belt to tie up their food bag. People called her “the one with two belts”.',
+        },
+    },
+    brothers: {
+        title: 'Brothers',
+        text: 'He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on.',
+        young: {
+            text: 'He made the people who arrived and the people of Madinah brothers, to help each other.',
+        },
+    },
+    camel: {
+        title: 'Let her go',
+        text: 'Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar.',
+        young: {
+            text: 'Everyone wanted the Prophet ﷺ to stay with them. He said: let the camel go, she has been told where to stop.',
+        },
+    },
+    friday: {
+        title: 'The first Friday',
+        text: 'After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men.',
+        young: {
+            text: 'On his way into Madinah, the Prophet ﷺ led Friday prayer with about a hundred people.',
+        },
+    },
+    garments: {
+        title: 'White garments',
+        text: 'On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear.',
+        young: {
+            text: 'On the way, a friend called al-Zubayr gave them new white clothes.',
+        },
+    },
+    song: {
+        title: 'The full moon has risen',
+        text: 'A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there.',
+        young: {
+            text: 'Many people remember a happy song sung to welcome him, but we are not sure it was sung that day.',
+        },
+    },
+    south: {
+        title: 'Why south?',
+        text: 'Madinah lies to the north, and that is where a search would begin. They left in the opposite direction, on the road towards Yemen, for about five miles to Mount Thawr.',
+        young: {
+            text: 'Madinah is to the north. They went south first, towards Mount Thawr.',
+        },
+    },
+    stations: {
+        title: 'The stations of the road',
+        text: 'Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate.',
+        young: {
+            text: 'Their guide knew the desert well. He led them along the coast, past many places whose names we still know.',
+        },
+    },
     visit: {
         title: 'The noon visit',
         text: 'At the height of noon, an hour at which he never used to come, the Prophet ﷺ arrived at Abu Bakr’s house with his face covered. He said he had been given permission to leave. Abu Bakr asked to go with him, and he said yes.',
@@ -301,20 +364,6 @@ export const moments = {
             text: 'Abu Bakr took all his money for the journey. His daughter Asma put stones in its place to comfort her grandfather, who could not see.',
         },
     },
-    south: {
-        title: 'Why south?',
-        text: 'Madinah lies to the north, and that is where a search would begin. They left in the opposite direction, on the road towards Yemen, for about five miles to Mount Thawr.',
-        young: {
-            text: 'Madinah is to the north. They went south first, towards Mount Thawr.',
-        },
-    },
-    belts: {
-        title: 'She of the two belts',
-        text: 'When the three nights had passed, Asma brought their provisions but had forgotten a strap to hang the bag. She undid her waist-belt and used it. For that she was called Dhat al-Nitaqayn, she of the two belts.',
-        young: {
-            text: 'Asma used her belt to tie up their food bag. People called her “the one with two belts”.',
-        },
-    },
     web: {
         title: 'The spider’s web',
         text: 'One report says the pursuers climbed the mountain, passed the cave, and saw a spider’s web across its opening. No one could have gone in, they reasoned, and they moved on. Ibn Kathir calls its chain good, the best of what is reported on this. The scene does not draw the web.',
@@ -322,67 +371,9 @@ export const moments = {
             text: 'One report says the searchers saw a spider’s web across the cave and walked away.',
         },
     },
-    stations: {
-        title: 'The stations of the road',
-        text: 'Ibn Ishaq names the way the guide took: below Makkah, along the coast, across the road below ‘Usfan, below Amaj, past Qudayd, then al-Kharrar, Thaniyyat al-Marah, Liqf and on. Many of these names are hard to place today, so the line drawn here stays approximate.',
-        young: {
-            text: 'Their guide knew the desert well. He led them along the coast, past many places whose names we still know.',
-        },
-    },
-    garments: {
-        title: 'White garments',
-        text: 'On the way they met al-Zubayr with a group of Muslim merchants returning from Syria. He gave the Prophet ﷺ and Abu Bakr white garments to wear.',
-        young: {
-            text: 'On the way, a friend called al-Zubayr gave them new white clothes.',
-        },
-    },
-    friday: {
-        title: 'The first Friday',
-        text: 'After leaving Quba, the time for Friday prayer came while he was among Banu Salim ibn ‘Awf. He led it there, in the mosque in the bed of the valley, with about a hundred men.',
-        young: {
-            text: 'On his way into Madinah, the Prophet ﷺ led Friday prayer with about a hundred people.',
-        },
-    },
-    camel: {
-        title: 'Let her go',
-        text: 'Clan after clan took hold of his camel’s rope and invited him to stay with them. Each time he answered: let her go, for she is under command. She walked on until she knelt in the quarter of Banu Malik ibn al-Najjar.',
-        young: {
-            text: 'Everyone wanted the Prophet ﷺ to stay with them. He said: let the camel go, she has been told where to stop.',
-        },
-    },
-    ayyub: {
-        title: 'The house of Abu Ayyub',
-        text: 'He stayed in the house of Abu Ayyub until his mosque and his rooms were built, and he worked on the building himself alongside the Muhajirun and the Ansar.',
-        young: {
-            text: 'He stayed in the house of Abu Ayyub until his mosque and his home were built.',
-        },
-    },
-    brothers: {
-        title: 'Brothers',
-        text: 'He paired those who had migrated with those who received them, as brothers, so that each newcomer had someone to lean on.',
-        young: {
-            text: 'He made the people who arrived and the people of Madinah brothers, to help each other.',
-        },
-    },
-    song: {
-        title: 'The full moon has risen',
-        text: 'A well-known report says the women and children sang “The full moon has risen upon us, from the passes of al-Wada‘” when he arrived. Al-Bayhaqi relates it from Ibn ‘Aishah, a later narrator, not from someone who was there.',
-        young: {
-            text: 'Many people remember a happy song sung to welcome him, but we are not sure it was sung that day.',
-        },
-    },
 }
 
 export const timeline_text = {
-    leave: {
-        title: 'Leaving Makkah',
-        when: {
-            text: 'Night of 27 Safar · 12–13 September 622',
-        },
-        note: {
-            text: 'The night of departure is in the accounts. Its place in the calendar is a modern reckoning.',
-        },
-    },
     cave: {
         title: 'Three nights at Thawr',
         when: {
@@ -390,6 +381,15 @@ export const timeline_text = {
         },
         note: {
             text: 'Three nights is in al-Bukhari. Naming them after the days of the week follows a modern reckoning.',
+        },
+    },
+    friday: {
+        title: 'The first Friday, and Madinah',
+        when: {
+            text: 'Friday · 12 Rabi‘ al-Awwal · 27 September 622',
+        },
+        note: {
+            text: 'That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay.',
         },
     },
     guide: {
@@ -401,13 +401,13 @@ export const timeline_text = {
             text: 'The guide came with the two mounts after the third night, as arranged. The calendar date is a modern reckoning.',
         },
     },
-    road: {
-        title: 'On the coastal road',
+    leave: {
+        title: 'Leaving Makkah',
         when: {
-            text: 'About a week',
+            text: 'Night of 27 Safar · 12–13 September 622',
         },
         note: {
-            text: 'The accounts give the order of what happened on the road, but no days. The pursuit and the tent of Umm Ma‘bad fall somewhere in this week.',
+            text: 'The night of departure is in the accounts. Its place in the calendar is a modern reckoning.',
         },
     },
     quba: {
@@ -419,6 +419,15 @@ export const timeline_text = {
             text: 'The account in al-Bukhari says it was a Monday in Rabi‘ al-Awwal. The day of the month is a modern reckoning.',
         },
     },
+    road: {
+        title: 'On the coastal road',
+        when: {
+            text: 'About a week',
+        },
+        note: {
+            text: 'The accounts give the order of what happened on the road, but no days. The pursuit and the tent of Umm Ma‘bad fall somewhere in this week.',
+        },
+    },
     stay: {
         title: 'The stay at Quba',
         when: {
@@ -426,15 +435,6 @@ export const timeline_text = {
         },
         note: {
             text: 'Ibn Ishaq gives Monday to Thursday. The report in al-Bukhari says more than ten nights, and Banu ‘Amr ibn ‘Awf said eighteen. Ibn Kathir sets the reports side by side without settling it.',
-        },
-    },
-    friday: {
-        title: 'The first Friday, and Madinah',
-        when: {
-            text: 'Friday · 12 Rabi‘ al-Awwal · 27 September 622',
-        },
-        note: {
-            text: 'That it was a Friday is in the early reports. The calendar date is a modern reckoning, and it follows the four-day stay.',
         },
     },
 }

@@ -21,6 +21,7 @@ const RAHIQ = {
 function entry(id, span, lane, certainty, stage, citation = null) {
     const [from, to, longest = to] = span
     const text = timeline_text[id]
+    if (!text) throw new Error(`No "## event: ${id}" in content/journey`)
     const title = text.title
     const when = text.when.text
     const note = text.note?.text ?? ''
