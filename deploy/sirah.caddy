@@ -1,0 +1,41 @@
+sirah.nuqayah.com {
+    import common
+    tls internal
+    header Cache-Control "private, no-store"
+    header X-Robots-Tag "noindex, nofollow, noarchive"
+    encode zstd gzip
+
+    route {
+        basic_auth argon2id {
+            sirah HASH_PLACEHOLDER
+        }
+
+        root * /srv/apps/sirah/current/dist
+
+        @dotfiles path_regexp dotfiles (^|/)\.
+        handle @dotfiles {
+            respond 404
+        }
+
+        @api path /api /api/*
+        handle @api {
+            reverse_proxy 127.0.0.1:8075 {
+                header_up -Authorization
+            }
+        }
+
+        handle /assets/* {
+            file_server
+        }
+
+        @asset path_regexp asset ^/.+\.[A-Za-z0-9]+$
+        handle @asset {
+            file_server
+        }
+
+        handle {
+            try_files {path} /index.html
+            file_server
+        }
+    }
+}

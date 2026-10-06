@@ -1,0 +1,18 @@
+[Unit]
+Description=Private Sirah Journey API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=web
+WorkingDirectory=/srv/apps/sirah/current
+ExecStart=/usr/local/bin/mise run api:prod
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+Environment=PYTHONDONTWRITEBYTECODE=1
+
+[Install]
+WantedBy=multi-user.target
