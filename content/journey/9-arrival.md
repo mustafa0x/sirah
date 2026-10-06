@@ -57,9 +57,9 @@ The women and children sang a song of welcome: “The full moon has risen over u
 
 ## event: friday
 title: Into Madinah, on a Friday
-when: Friday, 12 Rabi‘ al-Awwal · 27 September 622
+when: The Friday after Quba · Rabi‘ al-Awwal 622
 
-Ibn Ishaq gives the Friday he left Quba; the day of the month was worked out by a modern biographer.
+Ibn Ishaq has him stay at Quba from Monday to Thursday and ride on to Madinah on the Friday.
 
 ## note: E12
 reference: Sahih al-Bukhari 3906

@@ -500,10 +500,10 @@ export const timeline_text = {
     friday: {
         title: 'Into Madinah, on a Friday',
         when: {
-            text: 'Friday, 12 Rabi‘ al-Awwal · 27 September 622',
+            text: 'The Friday after Quba · Rabi‘ al-Awwal 622',
         },
         note: {
-            text: 'Ibn Ishaq gives the Friday he left Quba; the day of the month was worked out by a modern biographer.',
+            text: 'Ibn Ishaq has him stay at Quba from Monday to Thursday and ride on to Madinah on the Friday.',
         },
     },
     guide: {
