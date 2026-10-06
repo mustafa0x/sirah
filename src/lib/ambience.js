@@ -48,14 +48,14 @@ export function create_ambience() {
             if (enabled && !context) build()
             if (!context) return
             if (enabled) context.resume()
-            level(enabled ? 0.16 : 0)
+            level(enabled ? 0.07 : 0)
         },
         // Night is quieter and lower; open country by day is brighter.
         set_mood(mood) {
             if (!context) return
             const night = mood === 'night'
             filter.frequency.setTargetAtTime(night ? 260 : 460, context.currentTime, 1.5)
-            if (enabled) level(night ? 0.1 : 0.16)
+            if (enabled) level(night ? 0.045 : 0.07)
         },
         dispose() {
             context?.close()

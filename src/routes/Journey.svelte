@@ -2496,7 +2496,7 @@
                     class="grid gap-2 pt-6 border-0 border-t border-solid border-line text-[0.875rem]"
                 >
                     <p class="text-ink-soft">
-                        Made for the <a
+                        Made by Mustafa Jibaly (Nuqayah) for the <a
                             class="text-inherit underline decoration-gold/50 underline-offset-4 hover:text-gold-bright hover:decoration-gold-bright"
                             href={hackathon_url}
                             target="_blank"
@@ -2596,7 +2596,7 @@
                 Behind the journey {@render icon('next')}
             </a>
             <p class="{fine_print} basis-full">
-                Made for the <a
+                Made by Mustafa Jibaly (Nuqayah) for the <a
                     class="text-inherit underline decoration-gold/50 underline-offset-4 hover:text-gold-bright hover:decoration-gold-bright"
                     href={hackathon_url}
                     target="_blank"
