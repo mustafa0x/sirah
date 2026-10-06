@@ -3,27 +3,27 @@ import packet_text from '../content/hijrah-practice.v3.ar.json?raw'
 import original from '../content/hijrah-practice.v2.ar.json'
 import original_text from '../content/hijrah-practice.v2.ar.json?raw'
 import baseline from '../content/hijrah-practice.ar.json'
-import manifest from '../../docs/research/hijrah/learner/v2/manifest.json'
-import manifest_text from '../../docs/research/hijrah/learner/v2/manifest.json?raw'
-import receipt from '../../docs/research/hijrah/learner/v3/manifest.json'
-import override from '../../docs/research/hijrah/learner/v3/assessment-v3.ar.json'
-import override_text from '../../docs/research/hijrah/learner/v3/assessment-v3.ar.json?raw'
-import arabic_review from '../../docs/research/hijrah/learner/v3/assessment-v3.ar.review.json'
-import arabic_review_text from '../../docs/research/hijrah/learner/v3/assessment-v3.ar.review.json?raw'
+import manifest from '../../content/practice/learner/v2/manifest.json'
+import manifest_text from '../../content/practice/learner/v2/manifest.json?raw'
+import receipt from '../../content/practice/learner/v3/manifest.json'
+import override from '../../content/practice/learner/v3/assessment-v3.ar.json'
+import override_text from '../../content/practice/learner/v3/assessment-v3.ar.json?raw'
+import arabic_review from '../../content/practice/learner/v3/assessment-v3.ar.review.json'
+import arabic_review_text from '../../content/practice/learner/v3/assessment-v3.ar.review.json?raw'
 import { practice_questions } from './hijrah-practice.js'
 import { valid_packet, valid_packet_v3, verify_packet_v3, verify_locale_v3_bundle, compatible_quiz, compatible_reading, source_digest, verified_sources_once } from './practice-binding.js'
 
-const translations = import.meta.glob('../../docs/research/hijrah/translations/*/quiz.json', {
+const translations = import.meta.glob('../../content/practice/translations/*/quiz.json', {
     query: '?raw', import: 'default',
 })
-const readings = import.meta.glob('../../docs/research/hijrah/translations/*/readings.json', {
+const readings = import.meta.glob('../../content/practice/translations/*/readings.json', {
     query: '?raw', import: 'default',
 })
 
-const bundles = import.meta.glob('../../docs/research/hijrah/learner/v3/quiz.*.json', {
+const bundles = import.meta.glob('../../content/practice/learner/v3/quiz.*.json', {
     query: '?raw', import: 'default',
 })
-const reviews = import.meta.glob('../../docs/research/hijrah/learner/v3/quiz.*.review.json', {
+const reviews = import.meta.glob('../../content/practice/learner/v3/quiz.*.review.json', {
     query: '?raw', import: 'default',
 })
 
@@ -46,10 +46,10 @@ export async function load_wording(language) {
         throw new Error('Practice source text or wording hash changed')
     if (language === 'ar') return null
     for (const code of [language, 'en']) {
-        const load_quiz = translations[`../../docs/research/hijrah/translations/${code}/quiz.json`]
-        const load_readings = readings[`../../docs/research/hijrah/translations/${code}/readings.json`]
-        const load_bundle = bundles[`../../docs/research/hijrah/learner/v3/quiz.${code}.json`]
-        const load_review = reviews[`../../docs/research/hijrah/learner/v3/quiz.${code}.review.json`]
+        const load_quiz = translations[`../../content/practice/translations/${code}/quiz.json`]
+        const load_readings = readings[`../../content/practice/translations/${code}/readings.json`]
+        const load_bundle = bundles[`../../content/practice/learner/v3/quiz.${code}.json`]
+        const load_review = reviews[`../../content/practice/learner/v3/quiz.${code}.review.json`]
         if (!load_quiz || !load_readings || !load_bundle || !load_review) continue
         try {
             const [quiz_text, readings_text, bundle_text, review_text] =

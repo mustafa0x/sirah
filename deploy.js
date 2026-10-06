@@ -79,8 +79,8 @@ const dirty = Boolean(execFileSync('git', ['status', '--porcelain'], { encoding:
 if (dirty && !process.argv.includes('--allow-dirty')) throw new Error('Worktree is dirty; explicitly pass --allow-dirty to deploy this snapshot')
 const commit = execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim()
 run('mise', ['exec', '--', 'pnpm', 'run', 'build'])
-// A nested mise invocation otherwise restores its old environment over the explicit test override.
-run('mise', ['exec', '--', 'env', '-u', '__MISE_DIFF', 'pnpm', 'test'])
+// A nested mise invocation otherwise restores its old environment over the explicit check override.
+run('mise', ['exec', '--', 'env', '-u', '__MISE_DIFF', 'pnpm', 'check'])
 const release_id = new Date().toISOString().replace(/[^0-9]/g, '') + '-' + randomBytes(3).toString('hex')
 const release_dir = app_root + '/releases/' + release_id
 const incoming = app_root + '/incoming/' + release_id

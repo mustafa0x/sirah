@@ -1,45 +1,37 @@
-# Private deployment
+# Deployment
 
-Target: `labs:/srv/apps/sirah`, served at `https://sirah.nuqayah.com`.
-
-The deployment follows Fihrist's setup/deploy pattern, without its database-specific machinery. It preserves dirty working-tree changes rather than committing or discarding them.
-
-## Commands
+This deployment targets `https://sirah.nuqayah.com` with Caddy and a Python service. `DEPLOY_HOST` selects the SSH host (default: the local alias `labs`).
 
 ```sh
-node deploy.js setup
-node deploy.js all
-# Explicitly deploy a working-tree snapshot:
+mise run deploy:setup
+mise run deploy
+# Only when intentionally deploying uncommitted changes:
 node deploy.js all --allow-dirty
 ```
 
-Equivalent Mise tasks: `mise run deploy:setup` and `mise run deploy`. `DEPLOY_HOST` defaults to `labs`.
+Setup requires the existing `web` account, passwordless service/install privileges, `/srv/conf/Caddyfile`, and Mise. It refuses to overwrite an existing site or environment. Configure proxied DNS and an origin certificate matching your Cloudflare TLS mode separately.
 
-Setup installs the environment and service, validates the complete Caddy configuration, and reloads Caddy. It refuses to overwrite an existing site or environment. It generates a Basic Auth password and prints it once, unless `SIRAH_AUTH_PASSWORD` is supplied. Password hashing uses stdin; the Caddy config contains only an Argon2id hash. Keep the password in a password manager, never in this repository.
+Setup prints a generated Basic Auth password once, unless `SIRAH_AUTH_PASSWORD` is supplied. Store it outside Git. Basic Auth remains enabled for pages, static assets, and API requests.
 
-Setup must finish successfully before creating DNS. Use the existing `../cf/cf_add_dns_record.js` with `--zone nuqayah.com --subdomain sirah --ip 65.108.157.120`. Omit `--dns-only`: the record is proxied. The zone uses Cloudflare Full SSL, matching the Caddy internal origin certificate; do not change this origin to Full (strict) without installing a publicly trusted or Cloudflare Origin CA certificate.
+## Environment
 
-## Runtime and release layout
+`/srv/apps/sirah/.mise.local.toml` is server-only, root-owned, group `web`, mode `0640`. Configure the OpenAI and Turnstile secrets there; see `.env.example` for names. The service listens on loopback port `8075`. Do not commit or upload local credential files.
 
-- `.mise.local.toml`: root-owned, mode 0640, server-only environment. The initial configuration explicitly clears `OPENAI_API_KEY` for offline Ask.
-- `incoming/<release>/`: private upload workspace.
-- `releases/<release>/`: checksummed build and API allowlist, frozen dependencies, and metadata recording the source commit and whether it was a dirty snapshot. Sealed root-owned after preparation.
-- `current`: atomically replaced, root-owned release link.
-- `shared/deploy.lock`: serializes preparation and activation.
-- `sirah-api.service`: enabled at boot, runs as `web`, listens only on `127.0.0.1:8075`.
-- `/srv/conf/sirah.caddy`: authentication before every content handler, including static assets and API requests. Only `current/dist` is served.
+## Releases
 
-Build/test failures prevent upload. Checksum, dependency, or import failures prevent activation. The import check requires the OpenAI provider when `OPENAI_API_KEY` is configured, otherwise the local provider; it makes no model calls. A failed service restart or health check fails the deployment and leaves the new `current` link in place. There is no rollback command or automatic rollback. Caddy and its authentication are never disabled during release changes.
+Deployment builds and checks the app, uploads an explicit file allowlist, verifies checksums, installs frozen API dependencies, checks the configured provider without a paid request, and seals the release root-owned.
 
-Production pins for Python and uv come from the repository's `mise.toml`; no host-specific installation paths are embedded. No research directories, Git metadata, or local credentials are uploaded. Incoming workspaces and old releases are retained for inspection; cleanup is manual.
+- `incoming/<release>/`: upload workspace.
+- `releases/<release>/`: static build, backend, dependencies, and release metadata.
+- `current`: atomically replaced release link.
+- `shared/deploy.lock`: serializes activation.
 
-## Verification
+A failed health check leaves the new `current` link in place and fails the command. There is no rollback path. Authentication is never disabled. Archives, research tooling, Git metadata, and local credentials are not uploaded.
 
-Unauthenticated and incorrect-password requests to pages, deep links, assets, dotfiles, and API routes must return 401. Authenticated deep links load the SPA; missing assets and dotfiles return 404. Check `/api/health` and an offline `/api/guide` response. Responses use `Cache-Control: private, no-store`; verify Cloudflare does not return authenticated assets to an unauthenticated client.
+## Verify
+
+Unauthenticated requests should return 401. With Basic Auth, verify the journey and `/api/health`; invalid guide challenge tokens must return 403.
 
 ```sh
-ssh labs 'systemctl status sirah-api.service --no-pager'
-ssh labs 'journalctl -u sirah-api.service -n 30 --no-pager'
+ssh "$DEPLOY_HOST" 'systemctl status sirah-api.service --no-pager'
 ```
-
-TLS verification may be bypassed only for explicit origin checks against the internal certificate. Public checks through Cloudflare must verify TLS normally.

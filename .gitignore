@@ -1,26 +1,14 @@
 node_modules/
-src/locales/**/.wuchale/
-.venv/
-.mise.local.toml
-.private-archive/
-__pycache__/
-.pytest_cache/
-spikes/**/output/
 dist/
-spikes/**/dist/
-art/narration/cache/
-src/assets/narration/**/*.tmp.mp3
-src/assets/narration/index.tmp.json
-
-# Research inputs that are too large for git or not ours to republish.
-refs/
-docs/research/hijrah/corpus/
-docs/research/hijrah/batches/
-docs/research/hijrah/translations/*/work/
-
-# Rendered video and frames.
-video/out/
-
-# Storyboard captures (scripts/storyboard).
-.storyboard/
-.claude
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.mise.local.toml
+.env
+.env.*
+!.env.example
+.private-archive/
+.claude/
+src/locales/.wuchale/
+src/locales/js.loader.server.js

@@ -1,14 +1,14 @@
 // The passage registry: every source passage the content can cite, by one id, with its
 // literal Arabic text, kind, speaker and citation. Passages come from three places:
-//   - Core packets (docs/research/hijrah/core/core.ar.json): "<packet_id>:<part_id>"
-//   - the evidence archive (docs/research/hijrah/evidence.jsonl and batches): "H-…"
+//   - Core packets (content/passages/core/core.ar.json): "<packet_id>:<part_id>"
+//   - the evidence archive (content/passages/evidence.jsonl and evidence-additions.jsonl): "H-…"
 //   - the journey's own passages (src/content/first-chapter.js): "E01"…
 // Literal text is never edited here; glosses and strengths live with the content that cites it.
-import { readdirSync, readFileSync } from 'node:fs'
+import { readFileSync } from 'node:fs'
 import path from 'node:path'
 
 const root = path.resolve(import.meta.dirname, '../..')
-const research = path.join(root, 'docs/research/hijrah')
+const research = path.join(root, 'content/passages')
 
 let cache = null
 
@@ -50,19 +50,11 @@ function load() {
             })
     }
 
-    // The archive, passages added to it later (tracked), and local research batches.
+    // Only tracked source registries participate in a reproducible build.
     const archives = [
         path.join(research, 'evidence.jsonl'),
         path.join(research, 'evidence-additions.jsonl'),
     ]
-    // Batches are local (untracked); a fresh clone builds from the tracked files alone.
-    let batches = []
-    try {
-        batches = readdirSync(path.join(research, 'batches'), { withFileTypes: true })
-    } catch {}
-    for (const batch of batches)
-        if (batch.isDirectory())
-            archives.push(path.join(research, 'batches', batch.name, 'evidence.jsonl'))
     for (const file of archives) {
         let text
         try {
