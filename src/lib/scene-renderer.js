@@ -1682,13 +1682,6 @@ export async function create_scene(
             const y = mix(world.terrain.height(x, z), site.y, smoothstep(0.85, 1, reach))
             return target.set(x, y, z).multiplyScalar(world.scale)
         }
-        const along = (route, reach, target) => {
-            const at = clamp(reach, 0, 1) * route.count
-            const index = Math.min(route.count - 1, Math.floor(at))
-            return target
-                .lerpVectors(route.points[index], route.points[index + 1], at - index)
-                .multiplyScalar(worlds[route.world].scale)
-        }
 
         const ease_in_out = (t) => (t < 0.5 ? 4 * t ** 3 : 1 - (-2 * t + 2) ** 3 / 2)
         let previous = performance.now()
