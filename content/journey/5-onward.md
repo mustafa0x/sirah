@@ -19,7 +19,7 @@ Their guide knew the desert well. He led them down to the sea and along the coas
 title: The guide comes with the camels
 when: Night of 1 Rabi‘ al-Awwal · 16 September 622
 
-He came after the third night, as agreed. Later biographers date it to the night of Monday.
+Al-Bukhari’s report has him come on the morning of the third day; later biographers date it to the night of Monday.
 
 ## note: E07
 reference: Sahih al-Bukhari 3905

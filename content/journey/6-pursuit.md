@@ -8,9 +8,9 @@ Hearts can turn in a moment: the man who rode out to capture them rode back to s
 
 ## event: road
 title: Suraqah on their trail
-when: A Tuesday, after the noon rest at Qudayd
+when: After the noon rest at Qudayd
 
-Ibn Sa‘d gives this day; the other reports tell what happened in order, but name no day.
+Ibn Sa‘d calls it a Tuesday, by his own count of the days; the other reports name no day.
 
 ## note: E13
 reference: Sahih al-Bukhari 3906

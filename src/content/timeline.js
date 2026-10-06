@@ -62,14 +62,15 @@ export const timeline = [
             'فلما كانت ليلة الإثنين- غرة ربيع الأول سنة ١ ه/ ١٦ سبتمبر سنة ٦٢٢ م- جاءهما عبد الله بن أريقط بالراحلتين',
     }),
     entry('road', [3.9, 11], 1, 'undated', 'pursuit'),
-    entry('quba', [11, 11.6], 0, 'stated', 'quba', {
-        ...IBN_KATHIR,
-        kind: 'hadith',
+    entry('quba', [11, 11.6], 0, 'reckoned', 'quba', {
+        ...RAHIQ,
+        kind: 'modern',
         place: 'quba',
-        page_id: '772',
-        volume: '2',
-        page: '250',
-        excerpt: 'حتى نزل بهم في بني عمرو بن عوف، وذلك يوم الاثنين من شهر ربيع الأول',
+        page_id: '152',
+        volume: '1',
+        page: '154',
+        excerpt:
+            'وفي يوم الإثنين ٨ ربيع الأول سنة ١٤ من النبوة- وهي السنة الأولى من الهجرة- الموافق ٢٣ سبتمبر سنة ٦٢٢ م نزل رسول الله ﷺ بقباء',
     }),
     entry('stay', [11.6, 15, 24], 1, 'differs', 'quba', {
         ...IBN_KATHIR,

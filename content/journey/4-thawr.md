@@ -13,7 +13,7 @@ In another telling, it was at the cave that Asma’s waistband served them. She 
 
 ### young
 
-Asma had nothing to tie up their food bag, so she split her waistband in two and used one half.
+Some say it was here that Abu Bakr’s daughter Asma split her waistband in two, to tie up their food bag.
 
 ## moment: web
 title: The spider’s web

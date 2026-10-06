@@ -38,7 +38,7 @@ The leaders of Makkah were afraid of the Prophet ﷺ, and they made a plan to at
 
 ## N09b
 
-That night they waited outside his door. ‘Ali lay in the Prophet’s bed, wrapped in his green cloak.
+That night they waited outside his door. ‘Ali lay in the Prophet’s ﷺ bed, wrapped in his green cloak.
 
 ## N09c
 
@@ -68,7 +68,7 @@ Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news 
 
 ## N03c
 
-‘Amir brought sheep every evening for milk. In the morning, the sheep walked over ‘Abdullah’s footprints.
+Abu Bakr’s helper ‘Amir brought sheep each evening for milk. At dawn the sheep walked over ‘Abdullah’s footprints.
 
 ## stage: onward
 

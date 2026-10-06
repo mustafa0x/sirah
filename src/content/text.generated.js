@@ -103,7 +103,7 @@ export const stage_text = {
                 id: 'N09b',
                 text: 'That night the men gathered at his door, waiting for him to sleep. He told ‘Ali to lie in his bed, wrapped in his green cloak. “Sleep in it,” he said. “Nothing you dislike will reach you from them.”',
                 young: {
-                    text: 'That night they waited outside his door. ‘Ali lay in the Prophet’s bed, wrapped in his green cloak.',
+                    text: 'That night they waited outside his door. ‘Ali lay in the Prophet’s ﷺ bed, wrapped in his green cloak.',
                 },
                 source_ids: ['sp_departure_chapter_bed:p1–p4', 'sp_departure_chapter_exit:p1–p2'],
             },
@@ -170,7 +170,7 @@ export const stage_text = {
                 id: 'N03c',
                 text: 'As darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought his milking sheep to the cave, so the two had fresh milk. At dawn he drove the flock along ‘Abdullah’s trail, and the sheep wiped out his footprints.',
                 young: {
-                    text: '‘Amir brought sheep every evening for milk. In the morning, the sheep walked over ‘Abdullah’s footprints.',
+                    text: 'Abu Bakr’s helper ‘Amir brought sheep each evening for milk. At dawn the sheep walked over ‘Abdullah’s footprints.',
                 },
                 source_ids: ['sp_thawr_support:p1', 'sp_thawr_exp_h_23833_509_808:p2–p4'],
             },
@@ -412,7 +412,7 @@ export const moments = {
         title: 'She of the two waistbands',
         text: 'In another telling, it was at the cave that Asma’s waistband served them. She had brought their food but forgotten a strap to hang it by, so she split her waistband in two and hung the bag with one half.',
         young: {
-            text: 'Asma had nothing to tie up their food bag, so she split her waistband in two and used one half.',
+            text: 'Some say it was here that Abu Bakr’s daughter Asma split her waistband in two, to tie up their food bag.',
         },
     },
     brothers: {
@@ -475,7 +475,7 @@ export const moments = {
         title: 'Stones under a cloth',
         text: 'Abu Bakr took all his money, five or six thousand dirhams. When his blind father came, fearing it gone, Asma laid stones in its niche under a cloth and let him feel them.',
         young: {
-            text: 'Abu Bakr took all his money. To calm her blind grandfather, Asma let him feel stones under a cloth.',
+            text: 'Abu Bakr took all his money. To calm her blind grandfather, his daughter Asma let him feel stones under a cloth.',
         },
     },
     web: {
@@ -500,10 +500,10 @@ export const timeline_text = {
     friday: {
         title: 'Into Madinah, on a Friday',
         when: {
-            text: 'The Friday after Quba · Rabi‘ al-Awwal 622',
+            text: 'Friday 12 Rabi‘ al-Awwal · 27 September 622',
         },
         note: {
-            text: 'Ibn Ishaq has him stay at Quba from Monday to Thursday and ride on to Madinah on the Friday.',
+            text: 'Ibn Ishaq has him stay at Quba Monday to Thursday and ride on the Friday; a modern biographer worked out the date.',
         },
     },
     guide: {
@@ -512,7 +512,7 @@ export const timeline_text = {
             text: 'Night of 1 Rabi‘ al-Awwal · 16 September 622',
         },
         note: {
-            text: 'He came after the third night, as agreed. Later biographers date it to the night of Monday.',
+            text: 'Al-Bukhari’s report has him come on the morning of the third day; later biographers date it to the night of Monday.',
         },
     },
     leave: {
@@ -527,19 +527,19 @@ export const timeline_text = {
     quba: {
         title: 'Arrival at Quba',
         when: {
-            text: 'Monday 12 Rabi‘ al-Awwal · September 622',
+            text: 'Monday 8 Rabi‘ al-Awwal · 23 September 622',
         },
         note: {
-            text: 'Ibn Ishaq’s date. The reports agree on a Monday but differ on the day of the month.',
+            text: 'The reports agree on a Monday. A modern biographer worked out the date; Ibn Ishaq gives the twelfth.',
         },
     },
     road: {
         title: 'Suraqah on their trail',
         when: {
-            text: 'A Tuesday, after the noon rest at Qudayd',
+            text: 'After the noon rest at Qudayd',
         },
         note: {
-            text: 'Ibn Sa‘d gives this day; the other reports tell what happened in order, but name no day.',
+            text: 'Ibn Sa‘d calls it a Tuesday, by his own count of the days; the other reports name no day.',
         },
     },
     stay: {

@@ -13,7 +13,7 @@ Abu Bakr took all his money, five or six thousand dirhams. When his blind father
 
 ### young
 
-Abu Bakr took all his money. To calm her blind grandfather, Asma let him feel stones under a cloth.
+Abu Bakr took all his money. To calm her blind grandfather, his daughter Asma let him feel stones under a cloth.
 
 ## moment: south
 title: South, not north
