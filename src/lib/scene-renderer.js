@@ -2170,7 +2170,9 @@ export async function create_scene(
                     horse.root.visible ? 0.2 : 0,
                 )
                 stand_on(animal, tip, size, index * size * 1.4)
-                const moving = tip.shown < 0.998 && !reduced_motion
+                // Walking while the line grows; standing while it rests (as at a stop).
+                const moving =
+                    !reduced_motion && Math.abs(tip.shown - (tip.last_shown ?? tip.shown)) > 1e-5
                 const stride = moving ? Math.sin(now / 170 + index * 1.7) * 0.45 : 0
                 animal.limbs.forEach((limb, leg) => {
                     limb.rotation.z = leg % 3 === 0 ? stride : -stride
@@ -2178,6 +2180,7 @@ export async function create_scene(
                 })
                 animal.torso.position.y = 0
             })
+            if (tip) tip.last_shown = tip.shown
             traveller.visible =
                 Boolean(tip) &&
                 !mounted &&

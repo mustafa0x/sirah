@@ -392,13 +392,17 @@ export const step_scenes = {
     // The road from the tent is drawn on the way here; the last approach into Quba, the part in
     // the Quba view, is drawn as the man on the fort sees them (N05c).
     quba: { mood: 'gold', route: [one, [0.97, 1, 0.8, 'N05c']] },
-    arrival: { mood: 'day', route: [one, one, [0, 1, 0.5]] },
+    // From Quba to Madinah in N08a, stopping on the way for the first Friday prayer among Banu
+    // Salim (about halfway): there by a quarter of the caption, on again from 40% of it.
+    arrival: { mood: 'day', route: [one, one, [0, 1, 1, 'N08a', [0.45, 0.25, 0.4]]] },
 }
 
 // A leg may name the caption it is drawn in: it then runs across that caption only.
 export function route_at(step_id, progress, step = null) {
     return [0, 1, 2].map((leg) => {
-        const [from, to, span = 1, beat = null] = step_scenes[step_id].route[leg] ?? [0, 0]
+        const [from, to, span = 1, beat = null, hold = null] = step_scenes[step_id].route[leg] ?? [
+            0, 0,
+        ]
         let played = progress / span
         const index = beat && step ? step.paragraphs.findIndex((item) => item.id === beat) : -1
         if (index >= 0) {
@@ -410,7 +414,18 @@ export function route_at(step_id, progress, step = null) {
                 paragraph.end !== undefined ? paragraph.end / step.duration : (index + 1) / count
             played = (progress - start) / Math.max(0.001, (end - start) * span)
         }
-        return from + (to - from) * Math.max(0, Math.min(1, played))
+        let reached = Math.max(0, Math.min(1, played))
+        // A stop on the way: [how far along, from when, until when] in the caption's time.
+        if (hold) {
+            const [at, stop, go] = hold
+            reached =
+                reached < stop
+                    ? (at * reached) / stop
+                    : reached < go
+                      ? at
+                      : at + ((1 - at) * (reached - go)) / (1 - go)
+        }
+        return from + (to - from) * reached
     })
 }
 
