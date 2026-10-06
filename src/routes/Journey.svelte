@@ -2454,7 +2454,7 @@
                 </div>
                 <p class="text-ink-soft">
                     Made for the <a
-                        class="underline hover:text-ink"
+                        class="text-inherit underline decoration-gold/50 underline-offset-4 hover:text-gold-bright hover:decoration-gold-bright"
                         href={hackathon_url}
                         target="_blank"
                         rel="noopener">AI Challenge in Service of Islamic Content</a
@@ -2462,7 +2462,7 @@
                 </p>
                 <p class="text-muted text-sm">
                     <a
-                        class="underline hover:text-ink"
+                        class="text-inherit underline decoration-gold/50 underline-offset-4 hover:text-gold-bright hover:decoration-gold-bright"
                         href={cave_license}
                         target="_blank"
                         rel="noopener"
@@ -2553,7 +2553,7 @@
             </a>
             <p class="{fine_print} basis-full">
                 Made for the <a
-                    class="underline hover:text-ink"
+                    class="text-inherit underline decoration-gold/50 underline-offset-4 hover:text-gold-bright hover:decoration-gold-bright"
                     href={hackathon_url}
                     target="_blank"
                     rel="noopener">AI Challenge in Service of Islamic Content</a
