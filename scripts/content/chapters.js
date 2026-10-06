@@ -49,21 +49,19 @@ const unformat = (text) =>
         .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
 const plain = (text) => unformat(text).trim()
 
-// "text with[^3] markers[^4][^5]" -> { text, marks: [{ at, label }] }. Formatting is removed
-// first, so each marker's position is counted in the text as it is shown.
+// "text with[^3] markers[^4][^5]" -> the paragraph as pieces in reading order,
+// [{ text }, { label }, { text }, …], with formatting removed, and its plain text.
 function marked(text) {
-    const plain_text = unformat(text)
-    const lead = plain_text.length - plain_text.trimStart().length
-    const marks = []
-    let out = ''
+    const pieces = []
     let last = 0
-    for (const match of plain_text.matchAll(/\[\^([\w-]+)\]/g)) {
-        out += plain_text.slice(last, match.index)
-        marks.push({ at: Math.max(0, out.length - lead), label: match[1] })
+    const source = unformat(text).trim()
+    for (const match of source.matchAll(/\[\^([\w-]+)\]/g)) {
+        if (match.index > last) pieces.push({ text: source.slice(last, match.index) })
+        pieces.push({ label: match[1] })
         last = match.index + match[0].length
     }
-    out += plain_text.slice(last)
-    return { text: out.trim(), marks }
+    if (last < source.length) pieces.push({ text: source.slice(last) })
+    return { text: pieces.map((piece) => piece.text ?? '').join(''), pieces }
 }
 
 // content/chapters/NN-name.questions.md: "## <question id>" with level:, scope:, answer: and
@@ -263,19 +261,16 @@ export function compile_chapter(file) {
         return order.indexOf(label) + 1
     }
     const block = (text, id) => {
-        const { text: clean, marks } = marked(text)
-        for (const mark of marks)
-            if (!doc.notes.has(mark.label)) at(1, `footnote [^${mark.label}] is not defined`)
-        for (const mark of marks)
-            if (/\p{L}/u.test(clean[mark.at - 1] ?? '') && /\p{L}/u.test(clean[mark.at] ?? ''))
-                at(
-                    1,
-                    `footnote [^${mark.label}] falls inside a word: "${clean.slice(mark.at - 12, mark.at + 8)}"`,
-                )
+        const { text: clean, pieces } = marked(text)
+        for (const piece of pieces)
+            if (piece.label && !doc.notes.has(piece.label))
+                at(1, `footnote [^${piece.label}] is not defined`)
         return {
             paragraph_id: id,
             text: clean,
-            marks: marks.map((mark) => ({ at: mark.at, note: number(mark.label) })),
+            parts: pieces.map((piece) =>
+                piece.label ? { note: number(piece.label) } : { text: piece.text },
+            ),
         }
     }
     const overview = doc.overview.map((text, i) => block(text, `${chapter_id}_o${i + 1}`))

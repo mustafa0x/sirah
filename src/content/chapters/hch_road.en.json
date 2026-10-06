@@ -10,15 +10,26 @@
         {
             "paragraph_id": "hch_road_o1",
             "text": "After three nights hidden in the cave, the camels came at last, and with them the man who would show the way. Four riders set out: two of them hunted men, one a freed slave, and one a guide who did not share their faith. He led them down to the sea. On the road, strangers who knew Abu Bakr asked him about the man riding in front of him, and one blazing noon a long rock offered shade. But the pursuit had not ended in Makkah.",
-            "marks": [
-                { "at": 109, "note": 1 },
-                { "at": 109, "note": 2 },
-                { "at": 220, "note": 3 },
-                { "at": 220, "note": 4 },
-                { "at": 249, "note": 5 },
-                { "at": 386, "note": 6 },
-                { "at": 386, "note": 7 },
-                { "at": 427, "note": 8 }
+            "parts": [
+                {
+                    "text": "After three nights hidden in the cave, the camels came at last, and with them the man who would show the way."
+                },
+                { "note": 1 },
+                { "note": 2 },
+                {
+                    "text": " Four riders set out: two of them hunted men, one a freed slave, and one a guide who did not share their faith."
+                },
+                { "note": 3 },
+                { "note": 4 },
+                { "text": " He led them down to the sea." },
+                { "note": 5 },
+                {
+                    "text": " On the road, strangers who knew Abu Bakr asked him about the man riding in front of him, and one blazing noon a long rock offered shade."
+                },
+                { "note": 6 },
+                { "note": 7 },
+                { "text": " But the pursuit had not ended in Makkah." },
+                { "note": 8 }
             ]
         }
     ],
@@ -30,10 +41,19 @@
                 {
                     "paragraph_id": "hch_road_s1_1",
                     "text": "The guide had come with the camels, and now there were four of them: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and the guide. They mounted and set off. Abu Bakr took ‘Amir up behind him on his camel, to serve them on the way, and at times let him ride it in turn. No one else went with them.",
-                    "marks": [
-                        { "at": 148, "note": 3 },
-                        { "at": 248, "note": 9 },
-                        { "at": 314, "note": 10 }
+                    "parts": [
+                        {
+                            "text": "The guide had come with the camels, and now there were four of them: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and the guide."
+                        },
+                        { "note": 3 },
+                        {
+                            "text": " They mounted and set off. Abu Bakr took ‘Amir up behind him on his camel, to serve them on the way,"
+                        },
+                        { "note": 9 },
+                        {
+                            "text": " and at times let him ride it in turn. No one else went with them."
+                        },
+                        { "note": 10 }
                     ]
                 }
             ]
@@ -45,21 +65,40 @@
                 {
                     "paragraph_id": "hch_road_s2_1",
                     "text": "The guide led them down below Makkah, then out along the coast, \"by the edge of the sea,\" as ‘Aishah described it. Along the shore they went until they came out on the road below ‘Usfan; then he took them by lower Amaj, and on through valleys and mountain passes, one after another.",
-                    "marks": [
-                        { "at": 63, "note": 5 },
-                        { "at": 114, "note": 11 },
-                        { "at": 282, "note": 5 }
+                    "parts": [
+                        {
+                            "text": "The guide led them down below Makkah, then out along the coast,"
+                        },
+                        { "note": 5 },
+                        { "text": " \"by the edge of the sea,\" as ‘Aishah described it." },
+                        { "note": 11 },
+                        {
+                            "text": " Along the shore they went until they came out on the road below ‘Usfan; then he took them by lower Amaj, and on through valleys and mountain passes, one after another."
+                        },
+                        { "note": 5 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_road_s2_2",
                     "text": "People knew Abu Bakr. His hair had turned grey, and he had often passed among the people of Madinah on his trading journeys; the Prophet ﷺ, whose hair had not greyed, they did not know. In fact, the Prophet ﷺ was the older of the two, by more than two years. Men would meet them and ask, \"Abu Bakr, who is this man in front of you?\" \"This man guides me on the way,\" he would answer. Whoever heard it thought he meant the road. He meant the way of good. The Prophet ﷺ had told Abu Bakr, \"Keep people busy away from me, for a prophet should not lie,\" and when they asked who was with him, Abu Bakr said, \"A guide who guides me.\"",
-                    "marks": [
-                        { "at": 185, "note": 6 },
-                        { "at": 185, "note": 12 },
-                        { "at": 258, "note": 13 },
-                        { "at": 452, "note": 6 },
-                        { "at": 626, "note": 14 }
+                    "parts": [
+                        {
+                            "text": "People knew Abu Bakr. His hair had turned grey, and he had often passed among the people of Madinah on his trading journeys; the Prophet ﷺ, whose hair had not greyed, they did not know."
+                        },
+                        { "note": 6 },
+                        { "note": 12 },
+                        {
+                            "text": " In fact, the Prophet ﷺ was the older of the two, by more than two years."
+                        },
+                        { "note": 13 },
+                        {
+                            "text": " Men would meet them and ask, \"Abu Bakr, who is this man in front of you?\" \"This man guides me on the way,\" he would answer. Whoever heard it thought he meant the road. He meant the way of good."
+                        },
+                        { "note": 6 },
+                        {
+                            "text": " The Prophet ﷺ had told Abu Bakr, \"Keep people busy away from me, for a prophet should not lie,\" and when they asked who was with him, Abu Bakr said, \"A guide who guides me.\""
+                        },
+                        { "note": 14 }
                     ]
                 }
             ]
@@ -71,43 +110,85 @@
                 {
                     "paragraph_id": "hch_road_s3_1",
                     "text": "Years later, Abu Bakr told the story of one day on that road. He had bought a camel saddle from ‘Azib for thirteen dirhams, and ‘Azib would not let his son al-Bara carry it home until Abu Bakr told them how he and the Prophet ﷺ had fared when they went out with the idolaters hunting them. \"Watchers had been set for us,\" Abu Bakr said, \"so we went out by night.\"",
-                    "marks": [
-                        { "at": 123, "note": 7 },
-                        { "at": 123, "note": 15 },
-                        { "at": 289, "note": 15 },
-                        { "at": 363, "note": 8 }
+                    "parts": [
+                        {
+                            "text": "Years later, Abu Bakr told the story of one day on that road. He had bought a camel saddle from ‘Azib for thirteen dirhams,"
+                        },
+                        { "note": 7 },
+                        { "note": 15 },
+                        {
+                            "text": " and ‘Azib would not let his son al-Bara carry it home until Abu Bakr told them how he and the Prophet ﷺ had fared when they went out with the idolaters hunting them."
+                        },
+                        { "note": 15 },
+                        {
+                            "text": " \"Watchers had been set for us,\" Abu Bakr said, \"so we went out by night.\""
+                        },
+                        { "note": 8 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_road_s3_2",
                     "text": "They pressed on through the night and the next day, until the sun stood at its height and the road lay empty, with no one passing on it. Abu Bakr cast his eyes about for any shade to shelter in, and a long rock rose into view, with shade the sun had not yet reached. They dismounted there. With his hand he smoothed a place in its shade where the Prophet ﷺ could sleep, spread a fur over it, and said, \"Sleep, Messenger of Allah, and I will keep watch around you.\" The Prophet ﷺ lay down, and Abu Bakr went out to see whether any of the pursuers were in sight.",
-                    "marks": [
-                        { "at": 85, "note": 8 },
-                        { "at": 136, "note": 7 },
-                        { "at": 194, "note": 15 },
-                        { "at": 464, "note": 7 },
-                        { "at": 560, "note": 15 }
+                    "parts": [
+                        {
+                            "text": "They pressed on through the night and the next day, until the sun stood at its height"
+                        },
+                        { "note": 8 },
+                        { "text": " and the road lay empty, with no one passing on it." },
+                        { "note": 7 },
+                        { "text": " Abu Bakr cast his eyes about for any shade to shelter in," },
+                        { "note": 15 },
+                        {
+                            "text": " and a long rock rose into view, with shade the sun had not yet reached. They dismounted there. With his hand he smoothed a place in its shade where the Prophet ﷺ could sleep, spread a fur over it, and said, \"Sleep, Messenger of Allah, and I will keep watch around you.\""
+                        },
+                        { "note": 7 },
+                        {
+                            "text": " The Prophet ﷺ lay down, and Abu Bakr went out to see whether any of the pursuers were in sight."
+                        },
+                        { "note": 15 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_road_s3_3",
                     "text": "What he saw was a shepherd boy driving his sheep towards the same rock, wanting from it what they had wanted: its shade. \"Whose are you, boy?\" Abu Bakr asked, and the boy named his master. \"Is there milk in your sheep?\" \"Yes.\" \"Will you milk for me?\" \"Yes.\" The boy took hold of a ewe. Abu Bakr told him to shake the dust from its udder, then to shake the dust from his hands. When al-Bara told the story, he struck one hand against the other to show how. Then the boy milked a little milk into a wooden bowl.",
-                    "marks": [
-                        { "at": 120, "note": 15 },
-                        { "at": 257, "note": 8 },
-                        { "at": 376, "note": 15 },
-                        { "at": 455, "note": 7 },
-                        { "at": 509, "note": 7 }
+                    "parts": [
+                        {
+                            "text": "What he saw was a shepherd boy driving his sheep towards the same rock, wanting from it what they had wanted: its shade."
+                        },
+                        { "note": 15 },
+                        {
+                            "text": " \"Whose are you, boy?\" Abu Bakr asked, and the boy named his master. \"Is there milk in your sheep?\" \"Yes.\" \"Will you milk for me?\" \"Yes.\""
+                        },
+                        { "note": 8 },
+                        {
+                            "text": " The boy took hold of a ewe. Abu Bakr told him to shake the dust from its udder, then to shake the dust from his hands."
+                        },
+                        { "note": 15 },
+                        {
+                            "text": " When al-Bara told the story, he struck one hand against the other to show how."
+                        },
+                        { "note": 7 },
+                        { "text": " Then the boy milked a little milk into a wooden bowl." },
+                        { "note": 7 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_road_s3_4",
                     "text": "Abu Bakr carried a leather water-flask with a cloth over its mouth, kept for the Prophet ﷺ to drink from and to make his ablutions. He poured water over the milk until it was cool to the bottom. He did not want to wake the Prophet ﷺ, but when he came back he found him already awake. \"Drink, Messenger of Allah,\" he said, and the Prophet ﷺ drank, \"until I was content,\" Abu Bakr said.",
-                    "marks": [
-                        { "at": 194, "note": 8 },
-                        { "at": 194, "note": 7 },
-                        { "at": 283, "note": 7 },
-                        { "at": 384, "note": 8 }
+                    "parts": [
+                        {
+                            "text": "Abu Bakr carried a leather water-flask with a cloth over its mouth, kept for the Prophet ﷺ to drink from and to make his ablutions. He poured water over the milk until it was cool to the bottom."
+                        },
+                        { "note": 8 },
+                        { "note": 7 },
+                        {
+                            "text": " He did not want to wake the Prophet ﷺ, but when he came back he found him already awake."
+                        },
+                        { "note": 7 },
+                        {
+                            "text": " \"Drink, Messenger of Allah,\" he said, and the Prophet ﷺ drank, \"until I was content,\" Abu Bakr said."
+                        },
+                        { "note": 8 }
                     ]
                 }
             ]
@@ -119,11 +200,19 @@
                 {
                     "paragraph_id": "hch_road_s4_1",
                     "text": "The Prophet ﷺ then asked, \"Has the time to leave not come?\" \"It has,\" Abu Bakr said. They set off once the sun had passed its height, and behind them the pursuit was on their trail. People were out searching for them, and of all of them, only one would catch up: a man on a horse.",
-                    "marks": [
-                        { "at": 84, "note": 7 },
-                        { "at": 133, "note": 7 },
-                        { "at": 181, "note": 8 },
-                        { "at": 280, "note": 15 }
+                    "parts": [
+                        {
+                            "text": "The Prophet ﷺ then asked, \"Has the time to leave not come?\" \"It has,\" Abu Bakr said."
+                        },
+                        { "note": 7 },
+                        { "text": " They set off once the sun had passed its height," },
+                        { "note": 7 },
+                        { "text": " and behind them the pursuit was on their trail." },
+                        { "note": 8 },
+                        {
+                            "text": " People were out searching for them, and of all of them, only one would catch up: a man on a horse."
+                        },
+                        { "note": 15 }
                     ]
                 }
             ]
@@ -166,10 +255,19 @@
                 {
                     "paragraph_id": "hch_road_d1_1",
                     "text": "‘Aishah's report in al-Bukhari describes the guide by his clan, Banu al-Dil, and his skill, but does not name him. The name comes from Ibn Ishaq, through Asma bint Abi Bakr, who counted the travellers as four: the Prophet ﷺ, Abu Bakr, ‘Amir ibn Fuhayrah and \"‘Abdullah ibn Arqat, their guide\". Ibn Hisham adds, \"it is also said: ‘Abdullah ibn Urayqit,\" the form used in this app. The modern commentator Hani Faqih notes the same: the Sahih has \"a man of Banu al-Dil\", and Ibn Ishaq gives the name.",
-                    "marks": [
-                        { "at": 114, "note": 4 },
-                        { "at": 379, "note": 3 },
-                        { "at": 497, "note": 16 }
+                    "parts": [
+                        {
+                            "text": "‘Aishah's report in al-Bukhari describes the guide by his clan, Banu al-Dil, and his skill, but does not name him."
+                        },
+                        { "note": 4 },
+                        {
+                            "text": " The name comes from Ibn Ishaq, through Asma bint Abi Bakr, who counted the travellers as four: the Prophet ﷺ, Abu Bakr, ‘Amir ibn Fuhayrah and \"‘Abdullah ibn Arqat, their guide\". Ibn Hisham adds, \"it is also said: ‘Abdullah ibn Urayqit,\" the form used in this app."
+                        },
+                        { "note": 3 },
+                        {
+                            "text": " The modern commentator Hani Faqih notes the same: the Sahih has \"a man of Banu al-Dil\", and Ibn Ishaq gives the name."
+                        },
+                        { "note": 16 }
                     ]
                 }
             ]
@@ -181,9 +279,15 @@
                 {
                     "paragraph_id": "hch_road_d2_1",
                     "text": "The guide followed the religion of Quraysh, yet the two trusted him with their camels and with the secret of their route. Al-Qurtubi quotes ‘Aishah's report and two scholars' conclusions from it: al-Muhallab, that people of another faith may be trusted with secrets and property when they are known to be faithful and honourable; and Ibn al-Mundhir, that Muslims may hire them as guides.",
-                    "marks": [
-                        { "at": 121, "note": 4 },
-                        { "at": 387, "note": 17 }
+                    "parts": [
+                        {
+                            "text": "The guide followed the religion of Quraysh, yet the two trusted him with their camels and with the secret of their route."
+                        },
+                        { "note": 4 },
+                        {
+                            "text": " Al-Qurtubi quotes ‘Aishah's report and two scholars' conclusions from it: al-Muhallab, that people of another faith may be trusted with secrets and property when they are known to be faithful and honourable; and Ibn al-Mundhir, that Muslims may hire them as guides."
+                        },
+                        { "note": 17 }
                     ]
                 }
             ]
@@ -195,10 +299,16 @@
                 {
                     "paragraph_id": "hch_road_d3_1",
                     "text": "Ibn Ishaq names the guide's route as a chain of places: below Makkah, along the coast, out onto the road below ‘Usfan, by lower Amaj, back to the road after Qudayd, then al-Kharrar, Thaniyyat al-Marrah, Liqf, and on through a series of valleys and passes to al-‘Arj, and from there to Batn Ri'm and Quba. Ibn Hisham records other spellings for several of the names, and adds that at al-‘Arj one of their mounts lagged, and a man of Aslam, Aws ibn Hujr, carried the Prophet ﷺ to Madinah on his camel. Musa ibn ‘Uqbah, in al-Bayhaqi, describes the opening of the route the same way: below Makkah, the coast below ‘Usfan, and past Qudayd.",
-                    "marks": [
-                        { "at": 499, "note": 5 },
-                        { "at": 499, "note": 18 },
-                        { "at": 635, "note": 10 }
+                    "parts": [
+                        {
+                            "text": "Ibn Ishaq names the guide's route as a chain of places: below Makkah, along the coast, out onto the road below ‘Usfan, by lower Amaj, back to the road after Qudayd, then al-Kharrar, Thaniyyat al-Marrah, Liqf, and on through a series of valleys and passes to al-‘Arj, and from there to Batn Ri'm and Quba. Ibn Hisham records other spellings for several of the names, and adds that at al-‘Arj one of their mounts lagged, and a man of Aslam, Aws ibn Hujr, carried the Prophet ﷺ to Madinah on his camel."
+                        },
+                        { "note": 5 },
+                        { "note": 18 },
+                        {
+                            "text": " Musa ibn ‘Uqbah, in al-Bayhaqi, describes the opening of the route the same way: below Makkah, the coast below ‘Usfan, and past Qudayd."
+                        },
+                        { "note": 10 }
                     ]
                 }
             ]
@@ -210,14 +320,23 @@
                 {
                     "paragraph_id": "hch_road_d4_1",
                     "text": "Abu Bakr's account of the noon rest reaches us through al-Bara ibn ‘Azib, in al-Bukhari, in Muslim and in al-Bayhaqi, with small differences. Asked whose he was, the shepherd answers \"so-and-so\" in al-Bukhari, \"a man of Madinah\" in Muslim, and \"a man of Quraysh\", whom Abu Bakr recognised, in al-Bayhaqi. In Muslim it is the Prophet ﷺ who asks, \"Has the time to leave not come?\"; in al-Bayhaqi, Abu Bakr says, \"The time to leave has come.\" Abu Bakr tells the journey from the night they left Makkah and does not mention the cave, so the reports do not say on which day of the road the noon rest fell. In all three, the pursuit follows right after it; in Muslim and al-Bayhaqi, the rider who catches up is Suraqah ibn Malik.",
-                    "marks": [
-                        { "at": 304, "note": 8 },
-                        { "at": 304, "note": 7 },
-                        { "at": 304, "note": 15 },
-                        { "at": 439, "note": 7 },
-                        { "at": 439, "note": 15 },
-                        { "at": 723, "note": 7 },
-                        { "at": 723, "note": 15 }
+                    "parts": [
+                        {
+                            "text": "Abu Bakr's account of the noon rest reaches us through al-Bara ibn ‘Azib, in al-Bukhari, in Muslim and in al-Bayhaqi, with small differences. Asked whose he was, the shepherd answers \"so-and-so\" in al-Bukhari, \"a man of Madinah\" in Muslim, and \"a man of Quraysh\", whom Abu Bakr recognised, in al-Bayhaqi."
+                        },
+                        { "note": 8 },
+                        { "note": 7 },
+                        { "note": 15 },
+                        {
+                            "text": " In Muslim it is the Prophet ﷺ who asks, \"Has the time to leave not come?\"; in al-Bayhaqi, Abu Bakr says, \"The time to leave has come.\""
+                        },
+                        { "note": 7 },
+                        { "note": 15 },
+                        {
+                            "text": " Abu Bakr tells the journey from the night they left Makkah and does not mention the cave, so the reports do not say on which day of the road the noon rest fell. In all three, the pursuit follows right after it; in Muslim and al-Bayhaqi, the rider who catches up is Suraqah ibn Malik."
+                        },
+                        { "note": 7 },
+                        { "note": 15 }
                     ]
                 }
             ]
@@ -229,9 +348,12 @@
                 {
                     "paragraph_id": "hch_road_d5_1",
                     "text": "Anas describes Abu Bakr as a shaykh, an older man, and the Prophet ﷺ as a shabb, a young man. Ibn Hajar explains that Abu Bakr's hair had turned grey and the Prophet's ﷺ had not, and that people knew Abu Bakr from his trading journeys. In fact, he adds, the Prophet ﷺ was the older of the two, by more than two years.",
-                    "marks": [
-                        { "at": 317, "note": 12 },
-                        { "at": 317, "note": 13 }
+                    "parts": [
+                        {
+                            "text": "Anas describes Abu Bakr as a shaykh, an older man, and the Prophet ﷺ as a shabb, a young man. Ibn Hajar explains that Abu Bakr's hair had turned grey and the Prophet's ﷺ had not, and that people knew Abu Bakr from his trading journeys. In fact, he adds, the Prophet ﷺ was the older of the two, by more than two years."
+                        },
+                        { "note": 12 },
+                        { "note": 13 }
                     ]
                 }
             ]
@@ -243,10 +365,16 @@
                 {
                     "paragraph_id": "hch_road_d6_1",
                     "text": "Al-Bayhaqi records a similar report from Abu Hurayra: the Prophet ﷺ told Abu Bakr, \"Keep people busy away from me, for a prophet should not lie.\" When Abu Bakr was asked, \"What are you?\", he answered, \"A seeker.\" When asked who was with him, he said, \"A guide who guides me.\" Both this report and Anas's set these meetings on the way into Madinah.",
-                    "marks": [
-                        { "at": 275, "note": 14 },
-                        { "at": 347, "note": 6 },
-                        { "at": 347, "note": 14 }
+                    "parts": [
+                        {
+                            "text": "Al-Bayhaqi records a similar report from Abu Hurayra: the Prophet ﷺ told Abu Bakr, \"Keep people busy away from me, for a prophet should not lie.\" When Abu Bakr was asked, \"What are you?\", he answered, \"A seeker.\" When asked who was with him, he said, \"A guide who guides me.\""
+                        },
+                        { "note": 14 },
+                        {
+                            "text": " Both this report and Anas's set these meetings on the way into Madinah."
+                        },
+                        { "note": 6 },
+                        { "note": 14 }
                     ]
                 }
             ]

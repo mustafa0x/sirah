@@ -10,16 +10,29 @@
         {
             "paragraph_id": "hch_umm_mabad_o1",
             "text": "The travellers had nothing left to eat, and it was a year of drought and hunger. On the road to Madinah they came to the two tents of Umm Ma‘bad, a woman of Khuza‘ah who gave water and food to those who passed. That day she had nothing to sell them. Her flock was out at pasture, and only one ewe was left in the tent, too weak to follow it. What happened there left a vessel of milk in her tent, and when her husband came home and asked about it, she answered him with a description of her guest that people have repeated ever since.",
-            "marks": [
-                { "at": 80, "note": 1 },
-                { "at": 210, "note": 2 },
-                { "at": 210, "note": 3 },
-                { "at": 249, "note": 4 },
-                { "at": 341, "note": 5 },
-                { "at": 341, "note": 6 },
-                { "at": 534, "note": 7 },
-                { "at": 534, "note": 8 },
-                { "at": 534, "note": 9 }
+            "parts": [
+                {
+                    "text": "The travellers had nothing left to eat, and it was a year of drought and hunger."
+                },
+                { "note": 1 },
+                {
+                    "text": " On the road to Madinah they came to the two tents of Umm Ma‘bad, a woman of Khuza‘ah who gave water and food to those who passed."
+                },
+                { "note": 2 },
+                { "note": 3 },
+                { "text": " That day she had nothing to sell them." },
+                { "note": 4 },
+                {
+                    "text": " Her flock was out at pasture, and only one ewe was left in the tent, too weak to follow it."
+                },
+                { "note": 5 },
+                { "note": 6 },
+                {
+                    "text": " What happened there left a vessel of milk in her tent, and when her husband came home and asked about it, she answered him with a description of her guest that people have repeated ever since."
+                },
+                { "note": 7 },
+                { "note": 8 },
+                { "note": 9 }
             ]
         }
     ],
@@ -31,18 +44,33 @@
                 {
                     "paragraph_id": "hch_umm_mabad_s1_1",
                     "text": "With Suraqah behind them, the travellers rode on towards Madinah: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and their guide, ‘Abdullah ibn Urayqit. Their provisions had run out, and it was a year of drought, when hunger was everywhere.",
-                    "marks": [
-                        { "at": 170, "note": 2 },
-                        { "at": 258, "note": 1 }
+                    "parts": [
+                        {
+                            "text": "With Suraqah behind them, the travellers rode on towards Madinah: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and their guide, ‘Abdullah ibn Urayqit."
+                        },
+                        { "note": 2 },
+                        {
+                            "text": " Their provisions had run out, and it was a year of drought, when hunger was everywhere."
+                        },
+                        { "note": 1 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s1_2",
                     "text": "On the way they came to two tents belonging to Umm Ma‘bad, a woman of Khuza‘ah. Umm Ma‘bad means \"mother of Ma‘bad\", after her son; her own name was ‘Atikah. She was a strong woman who did not keep herself out of sight; people would come and sit with her. She sat in front of her tent with her knees drawn up, and gave water and food to those who passed. The travellers asked to buy meat and dates from her, but she had none of either.",
-                    "marks": [
-                        { "at": 157, "note": 10 },
-                        { "at": 354, "note": 3 },
-                        { "at": 435, "note": 4 }
+                    "parts": [
+                        {
+                            "text": "On the way they came to two tents belonging to Umm Ma‘bad, a woman of Khuza‘ah. Umm Ma‘bad means \"mother of Ma‘bad\", after her son; her own name was ‘Atikah."
+                        },
+                        { "note": 10 },
+                        {
+                            "text": " She was a strong woman who did not keep herself out of sight; people would come and sit with her. She sat in front of her tent with her knees drawn up, and gave water and food to those who passed."
+                        },
+                        { "note": 3 },
+                        {
+                            "text": " The travellers asked to buy meat and dates from her, but she had none of either."
+                        },
+                        { "note": 4 }
                     ]
                 }
             ]
@@ -54,37 +82,47 @@
                 {
                     "paragraph_id": "hch_umm_mabad_s2_1",
                     "text": "The Prophet ﷺ noticed a ewe at the back of the tent.",
-                    "marks": [{ "at": 52, "note": 5 }]
+                    "parts": [
+                        { "text": "The Prophet ﷺ noticed a ewe at the back of the tent." },
+                        { "note": 5 }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_2",
                     "text": "\"What is this ewe, Umm Ma‘bad?\" he asked.",
-                    "marks": []
+                    "parts": [{ "text": "\"What is this ewe, Umm Ma‘bad?\" he asked." }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_3",
                     "text": "\"A ewe that weakness has kept behind the flock,\" she said.",
-                    "marks": []
+                    "parts": [
+                        { "text": "\"A ewe that weakness has kept behind the flock,\" she said." }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_4",
                     "text": "\"Does she have any milk?\"",
-                    "marks": []
+                    "parts": [{ "text": "\"Does she have any milk?\"" }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_5",
                     "text": "\"She is too worn out for that.\"",
-                    "marks": []
+                    "parts": [{ "text": "\"She is too worn out for that.\"" }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_6",
                     "text": "\"Will you let me milk her?\"",
-                    "marks": []
+                    "parts": [{ "text": "\"Will you let me milk her?\"" }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s2_7",
                     "text": "\"May my father and mother be your ransom!\" she said. \"Yes, if you see any milk in her, milk her.\"",
-                    "marks": [{ "at": 97, "note": 11 }]
+                    "parts": [
+                        {
+                            "text": "\"May my father and mother be your ransom!\" she said. \"Yes, if you see any milk in her, milk her.\""
+                        },
+                        { "note": 11 }
+                    ]
                 }
             ]
         },
@@ -95,12 +133,22 @@
                 {
                     "paragraph_id": "hch_umm_mabad_s3_1",
                     "text": "He had the ewe brought to him. He passed his hand over her udder, spoke the name of Allah, and prayed for Umm Ma‘bad's ewe. The ewe planted her legs apart for milking, her milk came down, and she chewed the cud. He called for a vessel large enough to satisfy the whole party, and milked into it in a stream until froth rose over the top.",
-                    "marks": [{ "at": 337, "note": 12 }]
+                    "parts": [
+                        {
+                            "text": "He had the ewe brought to him. He passed his hand over her udder, spoke the name of Allah, and prayed for Umm Ma‘bad's ewe. The ewe planted her legs apart for milking, her milk came down, and she chewed the cud. He called for a vessel large enough to satisfy the whole party, and milked into it in a stream until froth rose over the top."
+                        },
+                        { "note": 12 }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s3_2",
                     "text": "He gave it first to Umm Ma‘bad, and she drank until she had enough. Then he gave it to his companions, and they drank until they had enough. He drank last of all. Then they drank again. He milked the ewe a second time, until the vessel was full, and left it with her. Then they set off.",
-                    "marks": [{ "at": 286, "note": 7 }]
+                    "parts": [
+                        {
+                            "text": "He gave it first to Umm Ma‘bad, and she drank until she had enough. Then he gave it to his companions, and they drank until they had enough. He drank last of all. Then they drank again. He milked the ewe a second time, until the vessel was full, and left it with her. Then they set off."
+                        },
+                        { "note": 7 }
+                    ]
                 }
             ]
         },
@@ -111,49 +159,85 @@
                 {
                     "paragraph_id": "hch_umm_mabad_s4_1",
                     "text": "She had not waited long when her husband, Abu Ma‘bad, came home driving a few thin goats, so weak they staggered as they walked. When he saw the milk he was amazed. \"Where did you get this,\" he asked, \"when the flock is far off at pasture, none of them is carrying young, and there is no animal in milk in the house?\"",
-                    "marks": [{ "at": 317, "note": 6 }]
+                    "parts": [
+                        {
+                            "text": "She had not waited long when her husband, Abu Ma‘bad, came home driving a few thin goats, so weak they staggered as they walked. When he saw the milk he was amazed. \"Where did you get this,\" he asked, \"when the flock is far off at pasture, none of them is carrying young, and there is no animal in milk in the house?\""
+                        },
+                        { "note": 6 }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_2",
                     "text": "\"Nothing, by Allah,\" she said, \"except that a blessed man passed by us, and he was like this and like this.\"",
-                    "marks": []
+                    "parts": [
+                        {
+                            "text": "\"Nothing, by Allah,\" she said, \"except that a blessed man passed by us, and he was like this and like this.\""
+                        }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_3",
                     "text": "\"Describe him to me, Umm Ma‘bad.\"",
-                    "marks": [{ "at": 33, "note": 8 }]
+                    "parts": [{ "text": "\"Describe him to me, Umm Ma‘bad.\"" }, { "note": 8 }]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_4",
                     "text": "\"I saw a man of shining beauty,\" she said, \"his face bright, his build fine. No paunch spoiled him, and no small head made him less. He was handsome and finely featured. His eyes were deep black, his lashes curved, and his voice had a slight huskiness. His neck was long, his beard thick, his eyebrows finely arched and meeting. When he was silent, dignity sat on him; when he spoke, he stood tall, and splendour came over him. From afar he was the most beautiful and splendid of people; close up, the sweetest and the finest. His speech was sweet and clear, neither too little nor too much, as if his words were beads slipping one after another from a string. He was of middle height: not so tall that he towered over others, nor so short that the eye would look down on him. A branch between two branches, he was the finest to look at of the three, and the most highly regarded.\"",
-                    "marks": [{ "at": 881, "note": 13 }]
+                    "parts": [
+                        {
+                            "text": "\"I saw a man of shining beauty,\" she said, \"his face bright, his build fine. No paunch spoiled him, and no small head made him less. He was handsome and finely featured. His eyes were deep black, his lashes curved, and his voice had a slight huskiness. His neck was long, his beard thick, his eyebrows finely arched and meeting. When he was silent, dignity sat on him; when he spoke, he stood tall, and splendour came over him. From afar he was the most beautiful and splendid of people; close up, the sweetest and the finest. His speech was sweet and clear, neither too little nor too much, as if his words were beads slipping one after another from a string. He was of middle height: not so tall that he towered over others, nor so short that the eye would look down on him. A branch between two branches, he was the finest to look at of the three, and the most highly regarded.\""
+                        },
+                        { "note": 13 }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_5",
                     "text": "Then she spoke of the men with him. \"He had companions who gathered round him. When he spoke, they fell silent to listen; when he gave an order, they hurried to carry it out. He was served and surrounded, never frowning, never overbearing.\"",
-                    "marks": [{ "at": 240, "note": 14 }]
+                    "parts": [
+                        {
+                            "text": "Then she spoke of the men with him. \"He had companions who gathered round him. When he spoke, they fell silent to listen; when he gave an order, they hurried to carry it out. He was served and surrounded, never frowning, never overbearing.\""
+                        },
+                        { "note": 14 }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_6",
                     "text": "Abu Ma‘bad had heard enough. \"By Allah,\" he said, \"that is the man from Quraysh, the one we heard so much about in Makkah. I had meant to join him, and I will, if I find a way.\" Umm Ma‘bad herself later emigrated, became Muslim and joined the Prophet ﷺ.",
-                    "marks": [
-                        { "at": 177, "note": 15 },
-                        { "at": 253, "note": 16 }
+                    "parts": [
+                        {
+                            "text": "Abu Ma‘bad had heard enough. \"By Allah,\" he said, \"that is the man from Quraysh, the one we heard so much about in Makkah. I had meant to join him, and I will, if I find a way.\""
+                        },
+                        { "note": 15 },
+                        {
+                            "text": " Umm Ma‘bad herself later emigrated, became Muslim and joined the Prophet ﷺ."
+                        },
+                        { "note": 16 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_7",
                     "text": "Quraysh, still hunting him, came that way too. They reached Umm Ma‘bad and described him to her. \"I do not know what you are talking about,\" she said. \"A man who milked a dry ewe was my guest.\" \"That is the one we want,\" they said.",
-                    "marks": [{ "at": 231, "note": 17 }]
+                    "parts": [
+                        {
+                            "text": "Quraysh, still hunting him, came that way too. They reached Umm Ma‘bad and described him to her. \"I do not know what you are talking about,\" she said. \"A man who milked a dry ewe was my guest.\" \"That is the one we want,\" they said."
+                        },
+                        { "note": 17 }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_umm_mabad_s4_8",
                     "text": "In Makkah, Abu Bakr's family passed three nights not knowing which way he had gone. Then one of the jinn came singing up through Makkah from its lower end, with people following, hearing his voice but seeing no one, until he passed out of the upper end of the city: \"May Allah, Lord of mankind, give His best reward to two companions who stopped at the two tents of Umm Ma‘bad.\" When they heard it, they knew he was headed for Madinah. By then the man Abu Ma‘bad meant was already gone, riding on towards Madinah.",
-                    "marks": [
-                        { "at": 435, "note": 18 },
-                        { "at": 435, "note": 19 },
-                        { "at": 513, "note": 7 },
-                        { "at": 513, "note": 2 }
+                    "parts": [
+                        {
+                            "text": "In Makkah, Abu Bakr's family passed three nights not knowing which way he had gone. Then one of the jinn came singing up through Makkah from its lower end, with people following, hearing his voice but seeing no one, until he passed out of the upper end of the city: \"May Allah, Lord of mankind, give His best reward to two companions who stopped at the two tents of Umm Ma‘bad.\" When they heard it, they knew he was headed for Madinah."
+                        },
+                        { "note": 18 },
+                        { "note": 19 },
+                        {
+                            "text": " By then the man Abu Ma‘bad meant was already gone, riding on towards Madinah."
+                        },
+                        { "note": 7 },
+                        { "note": 2 }
                     ]
                 }
             ]
@@ -209,10 +293,19 @@
                 {
                     "paragraph_id": "hch_umm_mabad_d1_1",
                     "text": "Ibn Kathir sums it up in one line: the story of Umm Ma‘bad \"is well known, transmitted through routes that strengthen one another.\" The words used above come from one of those routes, the report of Hubaysh ibn Khalid, which al-Hakim also recorded and declared sound, with al-Dhahabi agreeing. The modern hadith scholar Muhammad Nasir al-Din al-Albani questions that judgment for this particular chain: it passes through Hubaysh's son Hisham, whom the critic Ibn Abi Hatim lists without any praise or criticism, and with no one but his own son reporting from him. Al-Albani still allows that the report may rise to hasan (good), or even sahih (sound), through the other routes al-Hakim gives. His remarks appear as footnotes in an edition of Ibn Hajar's Hidayat al-Ruwat, added by its editor ‘Ali al-Halabi from al-Albani's notes.",
-                    "marks": [
-                        { "at": 131, "note": 9 },
-                        { "at": 691, "note": 20 },
-                        { "at": 829, "note": 21 }
+                    "parts": [
+                        {
+                            "text": "Ibn Kathir sums it up in one line: the story of Umm Ma‘bad \"is well known, transmitted through routes that strengthen one another.\""
+                        },
+                        { "note": 9 },
+                        {
+                            "text": " The words used above come from one of those routes, the report of Hubaysh ibn Khalid, which al-Hakim also recorded and declared sound, with al-Dhahabi agreeing. The modern hadith scholar Muhammad Nasir al-Din al-Albani questions that judgment for this particular chain: it passes through Hubaysh's son Hisham, whom the critic Ibn Abi Hatim lists without any praise or criticism, and with no one but his own son reporting from him. Al-Albani still allows that the report may rise to hasan (good), or even sahih (sound), through the other routes al-Hakim gives."
+                        },
+                        { "note": 20 },
+                        {
+                            "text": " His remarks appear as footnotes in an edition of Ibn Hajar's Hidayat al-Ruwat, added by its editor ‘Ali al-Halabi from al-Albani's notes."
+                        },
+                        { "note": 21 }
                     ]
                 }
             ]
@@ -224,10 +317,19 @@
                 {
                     "paragraph_id": "hch_umm_mabad_d2_1",
                     "text": "The report comes down through Umm Ma‘bad's own family. Hubaysh ibn Khalid, who tells it, was her brother, and it reaches Abu Nu‘aym through his son Hisham and grandson Hizam. Ibn Hisham calls her Umm Ma‘bad bint Ka‘b, of Banu Ka‘b of Khuza‘ah; in Ibn Ishaq's report through Yunus, her name is ‘Atikah bint Khalid. Ibn Kathir, quoting al-Umawi, names her husband Aktham ibn ‘Abd al-‘Uzza and their children Ma‘bad, Nadrah and Hunaydah. Abu Nu‘aym also records a report that reached ‘Abd al-Malik ibn Wahb, without a named source, that Umm Ma‘bad later emigrated, became Muslim, and joined the Prophet ﷺ.",
-                    "marks": [
-                        { "at": 174, "note": 22 },
-                        { "at": 434, "note": 10 },
-                        { "at": 602, "note": 16 }
+                    "parts": [
+                        {
+                            "text": "The report comes down through Umm Ma‘bad's own family. Hubaysh ibn Khalid, who tells it, was her brother, and it reaches Abu Nu‘aym through his son Hisham and grandson Hizam."
+                        },
+                        { "note": 22 },
+                        {
+                            "text": " Ibn Hisham calls her Umm Ma‘bad bint Ka‘b, of Banu Ka‘b of Khuza‘ah; in Ibn Ishaq's report through Yunus, her name is ‘Atikah bint Khalid. Ibn Kathir, quoting al-Umawi, names her husband Aktham ibn ‘Abd al-‘Uzza and their children Ma‘bad, Nadrah and Hunaydah."
+                        },
+                        { "note": 10 },
+                        {
+                            "text": " Abu Nu‘aym also records a report that reached ‘Abd al-Malik ibn Wahb, without a named source, that Umm Ma‘bad later emigrated, became Muslim, and joined the Prophet ﷺ."
+                        },
+                        { "note": 16 }
                     ]
                 }
             ]
@@ -239,7 +341,12 @@
                 {
                     "paragraph_id": "hch_umm_mabad_d3_1",
                     "text": "Ibn Ishaq tells the visit differently. In his version Umm Ma‘bad says, \"By Allah, we have no food, no animal lent to us for milk, and no ewe except dry ones.\" The Prophet ﷺ calls for one of her ewes, passes his hand over its udder, prays, and milks into a large bowl until it froths. \"Drink, Umm Ma‘bad,\" he says. \"You drink,\" she replies, \"you have more right to it.\" He hands it back, and she drinks. He then milks a second dry ewe and drinks himself, a third for the guide, and a fourth for ‘Amir. It is also Ibn Ishaq who has Quraysh reach her tent in their search, as told above.",
-                    "marks": [{ "at": 584, "note": 17 }]
+                    "parts": [
+                        {
+                            "text": "Ibn Ishaq tells the visit differently. In his version Umm Ma‘bad says, \"By Allah, we have no food, no animal lent to us for milk, and no ewe except dry ones.\" The Prophet ﷺ calls for one of her ewes, passes his hand over its udder, prays, and milks into a large bowl until it froths. \"Drink, Umm Ma‘bad,\" he says. \"You drink,\" she replies, \"you have more right to it.\" He hands it back, and she drinks. He then milks a second dry ewe and drinks himself, a third for the guide, and a fourth for ‘Amir. It is also Ibn Ishaq who has Quraysh reach her tent in their search, as told above."
+                        },
+                        { "note": 17 }
+                    ]
                 }
             ]
         },
@@ -250,7 +357,12 @@
                 {
                     "paragraph_id": "hch_umm_mabad_d4_1",
                     "text": "Al-Bayhaqi records a related report from Abu Bakr himself: they came at evening to a tent standing apart in a camp, where a woman said she was alone and sent them to the chief of the camp. Her son then came home with his goats, and the Prophet ﷺ milked them for her, for Abu Bakr and for himself; afterwards she called him \"the blessed one.\" Al-Bayhaqi thinks the two stories may be about the same woman, and suggests an order: first the ewe at the back of the tent, then her son with the goats, then her husband, to whom she described him.",
-                    "marks": [{ "at": 540, "note": 23 }]
+                    "parts": [
+                        {
+                            "text": "Al-Bayhaqi records a related report from Abu Bakr himself: they came at evening to a tent standing apart in a camp, where a woman said she was alone and sent them to the chief of the camp. Her son then came home with his goats, and the Prophet ﷺ milked them for her, for Abu Bakr and for himself; afterwards she called him \"the blessed one.\" Al-Bayhaqi thinks the two stories may be about the same woman, and suggests an order: first the ewe at the back of the tent, then her son with the goats, then her husband, to whom she described him."
+                        },
+                        { "note": 23 }
+                    ]
                 }
             ]
         },
@@ -261,7 +373,12 @@
                 {
                     "paragraph_id": "hch_umm_mabad_d5_1",
                     "text": "Several of Umm Ma‘bad's words are rare, and the early philologist Abu ‘Ubayd al-Qasim ibn Sallam explains them. Her \"neither too little nor too much\" means a middle course in speech; \"the eye would not look down on him\" means you would not dismiss him, but welcome him and hold him in awe; \"served and surrounded\" means a man whose companions wait on him and gather round him. For the lashes he prefers a reading that means long rather than curved, and he describes the huskiness of the voice as slight and pleasant.",
-                    "marks": [{ "at": 516, "note": 24 }]
+                    "parts": [
+                        {
+                            "text": "Several of Umm Ma‘bad's words are rare, and the early philologist Abu ‘Ubayd al-Qasim ibn Sallam explains them. Her \"neither too little nor too much\" means a middle course in speech; \"the eye would not look down on him\" means you would not dismiss him, but welcome him and hold him in awe; \"served and surrounded\" means a man whose companions wait on him and gather round him. For the lashes he prefers a reading that means long rather than curved, and he describes the huskiness of the voice as slight and pleasant."
+                        },
+                        { "note": 24 }
+                    ]
                 }
             ]
         },
@@ -272,9 +389,15 @@
                 {
                     "paragraph_id": "hch_umm_mabad_d6_1",
                     "text": "The voice in the story comes from Asma bint Abi Bakr, in Ibn Ishaq's report. Hubaysh's report in Abu Nu‘aym also goes on beyond Abu Ma‘bad's words: the next morning a voice was heard high over Makkah, and no one knew whose it was, reciting the same verses at greater length. One of its lines runs, \"Ask your sister about her ewe and her vessel; if you ask the ewe, it will bear witness.\" In another version the voice is heard in Madinah, between heaven and earth; in the first, Hassan ibn Thabit hears it and answers with verses of his own.",
-                    "marks": [
-                        { "at": 76, "note": 18 },
-                        { "at": 540, "note": 19 }
+                    "parts": [
+                        {
+                            "text": "The voice in the story comes from Asma bint Abi Bakr, in Ibn Ishaq's report."
+                        },
+                        { "note": 18 },
+                        {
+                            "text": " Hubaysh's report in Abu Nu‘aym also goes on beyond Abu Ma‘bad's words: the next morning a voice was heard high over Makkah, and no one knew whose it was, reciting the same verses at greater length. One of its lines runs, \"Ask your sister about her ewe and her vessel; if you ask the ewe, it will bear witness.\" In another version the voice is heard in Madinah, between heaven and earth; in the first, Hassan ibn Thabit hears it and answers with verses of his own."
+                        },
+                        { "note": 19 }
                     ]
                 }
             ]

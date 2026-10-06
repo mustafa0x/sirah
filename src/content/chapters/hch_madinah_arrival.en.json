@@ -10,12 +10,24 @@
         {
             "paragraph_id": "hch_madinah_arrival_o1",
             "text": "After his days at Quba, the Prophet ﷺ rode on into Madinah, with Abu Bakr behind him and men of Banu al-Najjar around him, swords at their sides. The whole town came out to see him. People crowded the streets and climbed onto the rooftops, asking one another which of the riders he was. Clan after clan stepped into his path to offer him a home, with their numbers and strength to protect him. To every one of them he gave the same answer, and let his camel walk on.",
-            "marks": [
-                { "at": 145, "note": 1 },
-                { "at": 286, "note": 2 },
-                { "at": 286, "note": 3 },
-                { "at": 393, "note": 4 },
-                { "at": 466, "note": 5 }
+            "parts": [
+                {
+                    "text": "After his days at Quba, the Prophet ﷺ rode on into Madinah, with Abu Bakr behind him and men of Banu al-Najjar around him, swords at their sides."
+                },
+                { "note": 1 },
+                {
+                    "text": " The whole town came out to see him. People crowded the streets and climbed onto the rooftops, asking one another which of the riders he was."
+                },
+                { "note": 2 },
+                { "note": 3 },
+                {
+                    "text": " Clan after clan stepped into his path to offer him a home, with their numbers and strength to protect him."
+                },
+                { "note": 4 },
+                {
+                    "text": " To every one of them he gave the same answer, and let his camel walk on."
+                },
+                { "note": 5 }
             ]
         }
     ],
@@ -27,9 +39,13 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_s1_1",
                     "text": "It was a Friday when he rode out of Quba. On the way, the time for the Friday prayer came while he was among Banu Salim ibn ‘Awf, and he prayed it in their mosque in the bed of the valley of Ranuna. It was the first Friday prayer he prayed in Madinah.",
-                    "marks": [
-                        { "at": 41, "note": 6 },
-                        { "at": 251, "note": 7 }
+                    "parts": [
+                        { "text": "It was a Friday when he rode out of Quba." },
+                        { "note": 6 },
+                        {
+                            "text": " On the way, the time for the Friday prayer came while he was among Banu Salim ibn ‘Awf, and he prayed it in their mosque in the bed of the valley of Ranuna. It was the first Friday prayer he prayed in Madinah."
+                        },
+                        { "note": 7 }
                     ]
                 }
             ]
@@ -41,20 +57,34 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_s2_1",
                     "text": "Then ‘Itban ibn Malik and ‘Abbas ibn ‘Ubadah came to him with men of Banu Salim. \"Messenger of Allah,\" they said, \"stay with us. We have the numbers, the arms and the strength to protect you.\" He answered, speaking of his camel: \"Let her go her way; she is under orders.\" So they let her go, and she walked on.",
-                    "marks": [{ "at": 310, "note": 4 }]
+                    "parts": [
+                        {
+                            "text": "Then ‘Itban ibn Malik and ‘Abbas ibn ‘Ubadah came to him with men of Banu Salim. \"Messenger of Allah,\" they said, \"stay with us. We have the numbers, the arms and the strength to protect you.\" He answered, speaking of his camel: \"Let her go her way; she is under orders.\" So they let her go, and she walked on."
+                        },
+                        { "note": 4 }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s2_2",
                     "text": "At the homes of Banu Bayadah, Ziyad ibn Labid and Farwah ibn ‘Amr met him with their men: \"Messenger of Allah, come to us, to our numbers, our arms and our strength.\" At Banu Sa‘idah it was Sa‘d ibn ‘Ubadah and al-Mundhir ibn ‘Amr; at Banu al-Harith ibn al-Khazraj, Sa‘d ibn al-Rabi‘, Kharijah ibn Zayd and ‘Abdullah ibn Rawahah. Each time came the same offer and the same answer, and each time they stood aside. Men even began to pull at her reins.",
-                    "marks": [
-                        { "at": 412, "note": 5 },
-                        { "at": 449, "note": 8 }
+                    "parts": [
+                        {
+                            "text": "At the homes of Banu Bayadah, Ziyad ibn Labid and Farwah ibn ‘Amr met him with their men: \"Messenger of Allah, come to us, to our numbers, our arms and our strength.\" At Banu Sa‘idah it was Sa‘d ibn ‘Ubadah and al-Mundhir ibn ‘Amr; at Banu al-Harith ibn al-Khazraj, Sa‘d ibn al-Rabi‘, Kharijah ibn Zayd and ‘Abdullah ibn Rawahah. Each time came the same offer and the same answer, and each time they stood aside."
+                        },
+                        { "note": 5 },
+                        { "text": " Men even began to pull at her reins." },
+                        { "note": 8 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s2_3",
                     "text": "Then she passed the homes of Banu ‘Adi ibn al-Najjar, his own kin on his mother's side: Salma bint ‘Amr, the mother of his grandfather ‘Abd al-Muttalib, had been one of their women. \"Messenger of Allah,\" said Salit ibn Qays and Abu Salit, \"come to your mother's people.\" \"Let her go her way,\" he said again. \"She is under orders.\" And she walked on.",
-                    "marks": [{ "at": 349, "note": 9 }]
+                    "parts": [
+                        {
+                            "text": "Then she passed the homes of Banu ‘Adi ibn al-Najjar, his own kin on his mother's side: Salma bint ‘Amr, the mother of his grandfather ‘Abd al-Muttalib, had been one of their women. \"Messenger of Allah,\" said Salit ibn Qays and Abu Salit, \"come to your mother's people.\" \"Let her go her way,\" he said again. \"She is under orders.\" And she walked on."
+                        },
+                        { "note": 9 }
+                    ]
                 }
             ]
         },
@@ -65,27 +95,48 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_s3_1",
                     "text": "The town had been waiting a long time. Anas remembered running with the other boys whenever someone cried, \"Muhammad has come!\", and finding nothing there, again and again. Now he had really come. The cry went round the town, \"The Prophet of Allah has come! The Prophet of Allah has come!\", and people climbed up high to look. Anas remembered the Ansar, the Muslims of Madinah, coming out to meet the two travellers, some five hundred of them, with the words \"Go on, safe and obeyed,\" and the Prophet ﷺ and Abu Bakr riding on in their midst. The people of Madinah poured out, and young women on the rooftops strained to see him: \"Which one is he? Which one is he?\"",
-                    "marks": [
-                        { "at": 172, "note": 2 },
-                        { "at": 326, "note": 3 },
-                        { "at": 664, "note": 2 }
+                    "parts": [
+                        {
+                            "text": "The town had been waiting a long time. Anas remembered running with the other boys whenever someone cried, \"Muhammad has come!\", and finding nothing there, again and again."
+                        },
+                        { "note": 2 },
+                        {
+                            "text": " Now he had really come. The cry went round the town, \"The Prophet of Allah has come! The Prophet of Allah has come!\", and people climbed up high to look."
+                        },
+                        { "note": 3 },
+                        {
+                            "text": " Anas remembered the Ansar, the Muslims of Madinah, coming out to meet the two travellers, some five hundred of them, with the words \"Go on, safe and obeyed,\" and the Prophet ﷺ and Abu Bakr riding on in their midst. The people of Madinah poured out, and young women on the rooftops strained to see him: \"Which one is he? Which one is he?\""
+                        },
+                        { "note": 2 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s3_2",
                     "text": "The women and children sang: \"The full moon has risen over us, from the passes of al-Wada‘; thanks are due from us, as long as anyone calls to Allah.\"",
-                    "marks": [
-                        { "at": 150, "note": 10 },
-                        { "at": 150, "note": 11 }
+                    "parts": [
+                        {
+                            "text": "The women and children sang: \"The full moon has risen over us, from the passes of al-Wada‘; thanks are due from us, as long as anyone calls to Allah.\""
+                        },
+                        { "note": 10 },
+                        { "note": 11 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s3_3",
                     "text": "\"I never saw the people of Madinah rejoice over anything as they rejoiced over the Messenger of Allah ﷺ,\" said al-Bara' ibn ‘Azib, \"until even the slave girls were saying, 'The Messenger of Allah has come!'\" By the time he came, al-Bara' had already learned to recite \"Glorify the name of your Lord, the Most High\" with other surahs of the Quran. For Anas, there was never a day more beautiful or full of light. Years later, he set it beside only one other: \"I saw the day he came to us and the day he died, and I have seen no two days like them.\"",
-                    "marks": [
-                        { "at": 346, "note": 12 },
-                        { "at": 411, "note": 13 },
-                        { "at": 547, "note": 2 }
+                    "parts": [
+                        {
+                            "text": "\"I never saw the people of Madinah rejoice over anything as they rejoiced over the Messenger of Allah ﷺ,\" said al-Bara' ibn ‘Azib, \"until even the slave girls were saying, 'The Messenger of Allah has come!'\" By the time he came, al-Bara' had already learned to recite \"Glorify the name of your Lord, the Most High\" with other surahs of the Quran."
+                        },
+                        { "note": 12 },
+                        {
+                            "text": " For Anas, there was never a day more beautiful or full of light."
+                        },
+                        { "note": 13 },
+                        {
+                            "text": " Years later, he set it beside only one other: \"I saw the day he came to us and the day he died, and I have seen no two days like them.\""
+                        },
+                        { "note": 2 }
                     ]
                 }
             ]
@@ -97,27 +148,44 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_s4_1",
                     "text": "At last the camel came to the homes of Banu Malik ibn al-Najjar and knelt, at the spot where the door of his mosque would later stand. At that time it was a yard where dates were spread out to dry, and some of the Muslims used to pray there. It was Friday, 12 Rabi‘ al-Awwal in the first year of the Hijrah: 27 September 622.",
-                    "marks": [
-                        { "at": 197, "note": 14 },
-                        { "at": 197, "note": 15 },
-                        { "at": 241, "note": 15 },
-                        { "at": 325, "note": 16 }
+                    "parts": [
+                        {
+                            "text": "At last the camel came to the homes of Banu Malik ibn al-Najjar and knelt, at the spot where the door of his mosque would later stand. At that time it was a yard where dates were spread out to dry,"
+                        },
+                        { "note": 14 },
+                        { "note": 15 },
+                        { "text": " and some of the Muslims used to pray there." },
+                        { "note": 15 },
+                        {
+                            "text": " It was Friday, 12 Rabi‘ al-Awwal in the first year of the Hijrah: 27 September 622."
+                        },
+                        { "note": 16 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s4_2",
                     "text": "The Prophet ﷺ did not dismount. She sprang up and went a little way, while he left her rein slack and did not turn her with it. Then she looked behind her, went back to the place where she had first knelt, and knelt there again. She shifted, settled, and laid her neck along the ground. \"This, if Allah wills, is the stopping place,\" he said.",
-                    "marks": [
-                        { "at": 286, "note": 14 },
-                        { "at": 342, "note": 15 }
+                    "parts": [
+                        {
+                            "text": "The Prophet ﷺ did not dismount. She sprang up and went a little way, while he left her rein slack and did not turn her with it. Then she looked behind her, went back to the place where she had first knelt, and knelt there again. She shifted, settled, and laid her neck along the ground."
+                        },
+                        { "note": 14 },
+                        { "text": " \"This, if Allah wills, is the stopping place,\" he said." },
+                        { "note": 15 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s4_3",
                     "text": "He dismounted, and Abu Ayyub Khalid ibn Zayd picked up his saddle and carried it into his house, and the Prophet ﷺ became his guest. When a man asked him where he would stay, he answered, \"A man goes with his saddle, wherever it is.\"",
-                    "marks": [
-                        { "at": 132, "note": 17 },
-                        { "at": 233, "note": 18 }
+                    "parts": [
+                        {
+                            "text": "He dismounted, and Abu Ayyub Khalid ibn Zayd picked up his saddle and carried it into his house, and the Prophet ﷺ became his guest."
+                        },
+                        { "note": 17 },
+                        {
+                            "text": " When a man asked him where he would stay, he answered, \"A man goes with his saddle, wherever it is.\""
+                        },
+                        { "note": 18 }
                     ]
                 }
             ]
@@ -129,34 +197,58 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_s5_1",
                     "text": "The house had two floors. The Prophet ﷺ took the lower one, and Abu Ayyub and Umm Ayyub lived above him. Abu Ayyub could not bear it. \"Prophet of Allah, may my father and mother be your ransom,\" he said, \"I hate to be above you while you are below me. Go up and stay on the upper floor, and we will come down.\" \"Abu Ayyub,\" he answered, \"it is easier for us, and for those who come to see us, to be on the lower floor.\"",
-                    "marks": [{ "at": 419, "note": 19 }]
+                    "parts": [
+                        {
+                            "text": "The house had two floors. The Prophet ﷺ took the lower one, and Abu Ayyub and Umm Ayyub lived above him. Abu Ayyub could not bear it. \"Prophet of Allah, may my father and mother be your ransom,\" he said, \"I hate to be above you while you are below me. Go up and stay on the upper floor, and we will come down.\" \"Abu Ayyub,\" he answered, \"it is easier for us, and for those who come to see us, to be on the lower floor.\""
+                        },
+                        { "note": 19 }
+                    ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s5_2",
                     "text": "So they stayed above him. One day a jar of water broke upstairs. Abu Ayyub and Umm Ayyub soaked it up with a wrap, the only blanket they had, afraid that a drop might fall on the Messenger of Allah ﷺ and trouble him. One night Abu Ayyub woke and said, \"We are walking above the head of the Messenger of Allah ﷺ!\" and they moved to one side for the rest of the night. \"The lower floor is easier,\" the Prophet ﷺ told him again. But Abu Ayyub would not give way: \"I will not go up onto a roof with you beneath it.\" So the Prophet ﷺ moved upstairs, and Abu Ayyub moved down.",
-                    "marks": [
-                        { "at": 216, "note": 20 },
-                        { "at": 570, "note": 21 }
+                    "parts": [
+                        {
+                            "text": "So they stayed above him. One day a jar of water broke upstairs. Abu Ayyub and Umm Ayyub soaked it up with a wrap, the only blanket they had, afraid that a drop might fall on the Messenger of Allah ﷺ and trouble him."
+                        },
+                        { "note": 20 },
+                        {
+                            "text": " One night Abu Ayyub woke and said, \"We are walking above the head of the Messenger of Allah ﷺ!\" and they moved to one side for the rest of the night. \"The lower floor is easier,\" the Prophet ﷺ told him again. But Abu Ayyub would not give way: \"I will not go up onto a roof with you beneath it.\" So the Prophet ﷺ moved upstairs, and Abu Ayyub moved down."
+                        },
+                        { "note": 21 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s5_3",
                     "text": "They cooked his supper and sent it to him. When the rest came back, Abu Ayyub and Umm Ayyub looked for the place his fingers had touched and ate from there, hoping for blessing. One night they put onion or garlic in it, and it came back with no mark of his hand. Abu Ayyub went to him in alarm. \"Is it forbidden?\" he asked. \"No,\" said the Prophet ﷺ, \"but I dislike it because of its smell.\" \"Then I dislike what you dislike,\" said Abu Ayyub. After that, they never cooked that plant for him again.",
-                    "marks": [
-                        { "at": 262, "note": 22 },
-                        { "at": 441, "note": 23 },
-                        { "at": 497, "note": 22 }
+                    "parts": [
+                        {
+                            "text": "They cooked his supper and sent it to him. When the rest came back, Abu Ayyub and Umm Ayyub looked for the place his fingers had touched and ate from there, hoping for blessing. One night they put onion or garlic in it, and it came back with no mark of his hand."
+                        },
+                        { "note": 22 },
+                        {
+                            "text": " Abu Ayyub went to him in alarm. \"Is it forbidden?\" he asked. \"No,\" said the Prophet ﷺ, \"but I dislike it because of its smell.\" \"Then I dislike what you dislike,\" said Abu Ayyub."
+                        },
+                        { "note": 23 },
+                        { "text": " After that, they never cooked that plant for him again." },
+                        { "note": 22 }
                     ]
                 },
                 {
                     "paragraph_id": "hch_madinah_arrival_s5_4",
                     "text": "He stayed in Abu Ayyub's house for seven months, until his mosque and his rooms were built. Close by, where the camel had knelt, the yard of drying dates was waiting.",
-                    "marks": [
-                        { "at": 91, "note": 24 },
-                        { "at": 91, "note": 25 },
-                        { "at": 166, "note": 14 },
-                        { "at": 166, "note": 26 },
-                        { "at": 166, "note": 18 }
+                    "parts": [
+                        {
+                            "text": "He stayed in Abu Ayyub's house for seven months, until his mosque and his rooms were built."
+                        },
+                        { "note": 24 },
+                        { "note": 25 },
+                        {
+                            "text": " Close by, where the camel had knelt, the yard of drying dates was waiting."
+                        },
+                        { "note": 14 },
+                        { "note": 26 },
+                        { "note": 18 }
                     ]
                 }
             ]
@@ -207,14 +299,26 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_d1_1",
                     "text": "Ibn Ishaq and ‘Urwah ibn al-Zubayr tell the arrival in two steps: a stay among Banu ‘Amr ibn ‘Awf at Quba, then a ride into the town on a Friday, with clan after clan offering him a home until the camel knelt. Anas, in one of his reports in al-Bukhari, gives the same two steps: fourteen nights at Quba, then the ride with Banu al-Najjar around him \"until he reached Abu Ayyub's courtyard.\" In another report in al-Bukhari, Anas tells it without the stop at Quba. The Prophet ﷺ halted beside the lava field outside Madinah and sent for the Ansar. They greeted him and Abu Bakr, said \"Ride on, safe and obeyed,\" and surrounded them with weapons. He rode on until he dismounted beside Abu Ayyub's house. There he asked, \"Which of our people's houses is nearest?\" \"Mine, Prophet of Allah,\" said Abu Ayyub. \"This is my house, and this is my door.\" \"Then go and prepare a place for us to rest.\" The story above follows Ibn Ishaq's order and uses Anas's memories of the welcome without fixing the moment each one belongs to. Anas's report of the five hundred Ansar, in al-Bayhaqi, also does not mention Quba.",
-                    "marks": [
-                        { "at": 209, "note": 6 },
-                        { "at": 209, "note": 4 },
-                        { "at": 209, "note": 15 },
-                        { "at": 390, "note": 1 },
-                        { "at": 889, "note": 3 },
-                        { "at": 889, "note": 26 },
-                        { "at": 1102, "note": 2 }
+                    "parts": [
+                        {
+                            "text": "Ibn Ishaq and ‘Urwah ibn al-Zubayr tell the arrival in two steps: a stay among Banu ‘Amr ibn ‘Awf at Quba, then a ride into the town on a Friday, with clan after clan offering him a home until the camel knelt."
+                        },
+                        { "note": 6 },
+                        { "note": 4 },
+                        { "note": 15 },
+                        {
+                            "text": " Anas, in one of his reports in al-Bukhari, gives the same two steps: fourteen nights at Quba, then the ride with Banu al-Najjar around him \"until he reached Abu Ayyub's courtyard.\""
+                        },
+                        { "note": 1 },
+                        {
+                            "text": " In another report in al-Bukhari, Anas tells it without the stop at Quba. The Prophet ﷺ halted beside the lava field outside Madinah and sent for the Ansar. They greeted him and Abu Bakr, said \"Ride on, safe and obeyed,\" and surrounded them with weapons. He rode on until he dismounted beside Abu Ayyub's house. There he asked, \"Which of our people's houses is nearest?\" \"Mine, Prophet of Allah,\" said Abu Ayyub. \"This is my house, and this is my door.\" \"Then go and prepare a place for us to rest.\""
+                        },
+                        { "note": 3 },
+                        { "note": 26 },
+                        {
+                            "text": " The story above follows Ibn Ishaq's order and uses Anas's memories of the welcome without fixing the moment each one belongs to. Anas's report of the five hundred Ansar, in al-Bayhaqi, also does not mention Quba."
+                        },
+                        { "note": 2 }
                     ]
                 }
             ]
@@ -226,9 +330,15 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_d2_1",
                     "text": "When the Prophet ﷺ asked which house of \"our people\" was nearest, he meant Banu al-Najjar. Ibn Hajar explains that they were his kin through the women of the family: the mother of his grandfather ‘Abd al-Muttalib was one of them. Ibn Ishaq names her as Salma bint ‘Amr, of Banu ‘Adi ibn al-Najjar.",
-                    "marks": [
-                        { "at": 229, "note": 25 },
-                        { "at": 297, "note": 9 }
+                    "parts": [
+                        {
+                            "text": "When the Prophet ﷺ asked which house of \"our people\" was nearest, he meant Banu al-Najjar. Ibn Hajar explains that they were his kin through the women of the family: the mother of his grandfather ‘Abd al-Muttalib was one of them."
+                        },
+                        { "note": 25 },
+                        {
+                            "text": " Ibn Ishaq names her as Salma bint ‘Amr, of Banu ‘Adi ibn al-Najjar."
+                        },
+                        { "note": 9 }
                     ]
                 }
             ]
@@ -240,15 +350,31 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_d3_1",
                     "text": "Ibn Ishaq places the kneeling at the yard where the door of the mosque later stood, and has Abu Ayyub carry the saddle into his house. ‘Urwah also places it at the site of the mosque. Anas speaks of the Prophet ﷺ reaching Abu Ayyub's courtyard, or dismounting beside his house. Ibn Hajar quotes a report through al-Hakim, from Ishaq ibn Abi Talhah from Anas, in which the camel knelt at Abu Ayyub's own door. The modern hadith scholar al-Albani judges that report, in its full form, unreliable (\"munkar\"): one of its narrators, Ibrahim ibn Sirmah, is very weak. In Ibn al-Zubayr's report the camel first knelt elsewhere, rose when people urged him to stop, and knelt again where the pulpit of the mosque would be. Abu Ayyub then said, \"My house is the nearest of houses to you,\" and took his saddle.",
-                    "marks": [
-                        { "at": 134, "note": 14 },
-                        { "at": 134, "note": 17 },
-                        { "at": 183, "note": 15 },
-                        { "at": 277, "note": 1 },
-                        { "at": 277, "note": 26 },
-                        { "at": 408, "note": 27 },
-                        { "at": 561, "note": 28 },
-                        { "at": 799, "note": 18 }
+                    "parts": [
+                        {
+                            "text": "Ibn Ishaq places the kneeling at the yard where the door of the mosque later stood, and has Abu Ayyub carry the saddle into his house."
+                        },
+                        { "note": 14 },
+                        { "note": 17 },
+                        { "text": " ‘Urwah also places it at the site of the mosque." },
+                        { "note": 15 },
+                        {
+                            "text": " Anas speaks of the Prophet ﷺ reaching Abu Ayyub's courtyard, or dismounting beside his house."
+                        },
+                        { "note": 1 },
+                        { "note": 26 },
+                        {
+                            "text": " Ibn Hajar quotes a report through al-Hakim, from Ishaq ibn Abi Talhah from Anas, in which the camel knelt at Abu Ayyub's own door."
+                        },
+                        { "note": 27 },
+                        {
+                            "text": " The modern hadith scholar al-Albani judges that report, in its full form, unreliable (\"munkar\"): one of its narrators, Ibrahim ibn Sirmah, is very weak."
+                        },
+                        { "note": 28 },
+                        {
+                            "text": " In Ibn al-Zubayr's report the camel first knelt elsewhere, rose when people urged him to stop, and knelt again where the pulpit of the mosque would be. Abu Ayyub then said, \"My house is the nearest of houses to you,\" and took his saddle."
+                        },
+                        { "note": 18 }
                     ]
                 }
             ]
@@ -260,11 +386,26 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_d4_1",
                     "text": "Two songs are often told of this day. In the same report through al-Hakim, girls of Banu al-Najjar came out beating drums and singing, \"We are girls of Banu al-Najjar: what a fine neighbour Muhammad is!\" Al-Albani notes that a sounder report of girls with drums belongs to a wedding, not to the arrival. The song \"Tala‘a al-badru ‘alayna\" (\"The full moon has risen over us, from the passes of al-Wada‘\") is related by al-Bayhaqi from Ibn ‘A'ishah, one of Ahmad ibn Hanbal's teachers, who does not say who told him. Al-Bayhaqi notes that scholars tell it of this arrival from Makkah, and he also gives it at the return from Tabuk. Al-Albani judges the report weak, with three or more narrators missing from its chain, and records Ibn al-Qayyim's view that the passes of al-Wada‘ lie on the Syria side of Madinah, where no one coming from Makkah would pass. The story above leaves out the drum song, and tells \"Tala‘a al-Badru\" with its readings marked as weak.",
-                    "marks": [
-                        { "at": 203, "note": 29 },
-                        { "at": 303, "note": 28 },
-                        { "at": 514, "note": 10 },
-                        { "at": 855, "note": 11 }
+                    "parts": [
+                        {
+                            "text": "Two songs are often told of this day. In the same report through al-Hakim, girls of Banu al-Najjar came out beating drums and singing, \"We are girls of Banu al-Najjar: what a fine neighbour Muhammad is!\""
+                        },
+                        { "note": 29 },
+                        {
+                            "text": " Al-Albani notes that a sounder report of girls with drums belongs to a wedding, not to the arrival."
+                        },
+                        { "note": 28 },
+                        {
+                            "text": " The song \"Tala‘a al-badru ‘alayna\" (\"The full moon has risen over us, from the passes of al-Wada‘\") is related by al-Bayhaqi from Ibn ‘A'ishah, one of Ahmad ibn Hanbal's teachers, who does not say who told him."
+                        },
+                        { "note": 10 },
+                        {
+                            "text": " Al-Bayhaqi notes that scholars tell it of this arrival from Makkah, and he also gives it at the return from Tabuk. Al-Albani judges the report weak, with three or more narrators missing from its chain, and records Ibn al-Qayyim's view that the passes of al-Wada‘ lie on the Syria side of Madinah, where no one coming from Makkah would pass."
+                        },
+                        { "note": 11 },
+                        {
+                            "text": " The story above leaves out the drum song, and tells \"Tala‘a al-Badru\" with its readings marked as weak."
+                        }
                     ]
                 }
             ]
@@ -276,11 +417,23 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_d5_1",
                     "text": "Ibn Ishaq's report from Abu Ayyub, through Abu Ruhm, ends with the Prophet ﷺ still below and the family above; it tells the broken jar from there. In the report Muslim records through Aflah, Abu Ayyub's freed slave, the family moved to one side one night, Abu Ayyub refused to stay above him, and the Prophet ﷺ moved upstairs. Ibn Hajar cites the same ending from Abu Ayyub's report in al-Hakim: Abu Ayyub \"kept asking\" until the Prophet ﷺ moved up. The story above tells the jar while the family was still above, and the move after it.",
-                    "marks": [
-                        { "at": 146, "note": 19 },
-                        { "at": 146, "note": 20 },
-                        { "at": 326, "note": 21 },
-                        { "at": 449, "note": 25 }
+                    "parts": [
+                        {
+                            "text": "Ibn Ishaq's report from Abu Ayyub, through Abu Ruhm, ends with the Prophet ﷺ still below and the family above; it tells the broken jar from there."
+                        },
+                        { "note": 19 },
+                        { "note": 20 },
+                        {
+                            "text": " In the report Muslim records through Aflah, Abu Ayyub's freed slave, the family moved to one side one night, Abu Ayyub refused to stay above him, and the Prophet ﷺ moved upstairs."
+                        },
+                        { "note": 21 },
+                        {
+                            "text": " Ibn Hajar cites the same ending from Abu Ayyub's report in al-Hakim: Abu Ayyub \"kept asking\" until the Prophet ﷺ moved up."
+                        },
+                        { "note": 25 },
+                        {
+                            "text": " The story above tells the jar while the family was still above, and the move after it."
+                        }
                     ]
                 }
             ]
@@ -292,10 +445,16 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_d6_1",
                     "text": "Ibn Ishaq's report says \"onion or garlic\", unsure which. In it the Prophet ﷺ gives his reason as \"I am a man who speaks in private. As for you, eat it,\" and the family ate it. In Muslim's two reports it is garlic. Abu Ayyub asks whether it is forbidden, and the Prophet ﷺ says it is not, \"but I dislike it because of its smell.\" Muslim gives one more chain, from Yahya ibn Sa‘id from Shu‘bah, without repeating the text.",
-                    "marks": [
-                        { "at": 328, "note": 22 },
-                        { "at": 328, "note": 23 },
-                        { "at": 420, "note": 30 }
+                    "parts": [
+                        {
+                            "text": "Ibn Ishaq's report says \"onion or garlic\", unsure which. In it the Prophet ﷺ gives his reason as \"I am a man who speaks in private. As for you, eat it,\" and the family ate it. In Muslim's two reports it is garlic. Abu Ayyub asks whether it is forbidden, and the Prophet ﷺ says it is not, \"but I dislike it because of its smell.\""
+                        },
+                        { "note": 22 },
+                        { "note": 23 },
+                        {
+                            "text": " Muslim gives one more chain, from Yahya ibn Sa‘id from Shu‘bah, without repeating the text."
+                        },
+                        { "note": 30 }
                     ]
                 }
             ]
@@ -307,13 +466,26 @@
                 {
                     "paragraph_id": "hch_madinah_arrival_d7_1",
                     "text": "Ibn Ishaq says only that he stayed until his mosque and his rooms were built. Ibn Sa‘d, as Ibn Hajar quotes him, puts the stay at seven months. In Ibn al-Zubayr's report, he stayed twelve nights in a shaded shelter at the site until the mosque was built. Ibn Ishaq gives the day he left Quba as a Friday. A modern biographer, al-Mubarakfuri, reckons the date of his arrival among Banu al-Najjar as Friday, 12 Rabi‘ al-Awwal of the first year of the Hijrah (27 September 622).",
-                    "marks": [
-                        { "at": 77, "note": 24 },
-                        { "at": 143, "note": 18 },
-                        { "at": 143, "note": 25 },
-                        { "at": 254, "note": 18 },
-                        { "at": 304, "note": 6 },
-                        { "at": 475, "note": 16 }
+                    "parts": [
+                        {
+                            "text": "Ibn Ishaq says only that he stayed until his mosque and his rooms were built."
+                        },
+                        { "note": 24 },
+                        {
+                            "text": " Ibn Sa‘d, as Ibn Hajar quotes him, puts the stay at seven months."
+                        },
+                        { "note": 18 },
+                        { "note": 25 },
+                        {
+                            "text": " In Ibn al-Zubayr's report, he stayed twelve nights in a shaded shelter at the site until the mosque was built."
+                        },
+                        { "note": 18 },
+                        { "text": " Ibn Ishaq gives the day he left Quba as a Friday." },
+                        { "note": 6 },
+                        {
+                            "text": " A modern biographer, al-Mubarakfuri, reckons the date of his arrival among Banu al-Najjar as Friday, 12 Rabi‘ al-Awwal of the first year of the Hijrah (27 September 622)."
+                        },
+                        { "note": 16 }
                     ]
                 }
             ]

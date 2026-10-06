@@ -9,19 +9,6 @@
     })
     const chapters = index.map((item) => stories[`../content/chapters/${item.chapter_id}.en.json`])
 
-    // A paragraph with its footnote numbers where they stand in the text.
-    function parts(block) {
-        const out = []
-        let from = 0
-        for (const mark of block.marks ?? []) {
-            out.push({ text: block.text.slice(from, mark.at) })
-            out.push({ note: mark.note })
-            from = mark.at
-        }
-        out.push({ text: block.text.slice(from) })
-        return out
-    }
-
     const note_title = (chapter, number) =>
         chapter.readings.find((reading) => reading.number === number)?.title ?? ''
     const words = (chapter) =>
@@ -34,7 +21,7 @@
 
 {#snippet prose(chapter, block)}
     <p class="font-serif text-[1.1875rem] leading-[1.85] text-ink text-pretty">
-        {#each parts(block) as part, index (index)}{#if part.note}<a
+        {#each block.parts as part, index (index)}{#if part.note}<a
                     class="ms-0.5 align-super px-[5px] text-[0.7rem] font-sans font-semibold text-gold bg-[rgba(232,178,87,0.12)] rounded-full no-underline hover:bg-gold hover:text-gold-ink"
                     href={`/chapters/${chapter.chapter_id}/readings/${chapter.chapter_id}_n${part.note}?lang=en`}
                     title={note_title(chapter, part.note)}>{part.note}</a

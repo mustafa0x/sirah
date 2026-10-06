@@ -209,21 +209,18 @@
     {/if}
 {/snippet}
 
-<!-- A paragraph with its footnote markers where they stand in the text. -->
+<!-- A paragraph with its footnote numbers where they stand in the text. -->
 {#snippet prose(block)}
-    {#if block.marks?.length}
-        {#each block.marks as mark, index (index)}{block.text.slice(
-                index
-                    ? block.marks[index - 1].at
-                    : 0,
-                mark.at,
-            )}<a
-                class="ms-0.5 align-super px-[5px] border-0 text-[0.75rem] font-sans font-semibold text-gold bg-[rgba(232,178,87,0.12)] rounded-full hover:bg-gold hover:text-gold-ink"
-                lang={destination.lang}
-                dir={language_direction(destination.lang)}
-                aria-label={`Source ${mark.note}`}
-                href={href('readings', `${chapter_id}_n${mark.note}`)}>{local_number(mark.note)}</a
-            >{/each}{block.text.slice(block.marks.at(-1).at)}
+    {#if block.parts}
+        {#each block.parts as part, index (index)}{#if part.note}<a
+                    class="ms-0.5 align-super px-[5px] border-0 text-[0.75rem] font-sans font-semibold text-gold bg-[rgba(232,178,87,0.12)] rounded-full hover:bg-gold hover:text-gold-ink"
+                    lang={destination.lang}
+                    dir={language_direction(destination.lang)}
+                    aria-label={`Source ${part.note}`}
+                    href={href('readings', `${chapter_id}_n${part.note}`)}>{local_number(
+                        part.note,
+                    )}</a
+                >{:else}{part.text}{/if}{/each}
     {:else}
         {block.text}{@render marker(block.paragraph_id)}
     {/if}
