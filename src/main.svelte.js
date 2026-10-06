@@ -5,15 +5,21 @@ import './style.css'
 
 ;(async () => {
     await init_i18n()
-    const [{ default: App }, Journey, Book] = await Promise.all([
+    const [{ default: App }, Journey, Book, Narration] = await Promise.all([
         import('./App.svelte'),
         import('./routes/Journey.svelte'),
         import('./routes/Book.svelte'),
+        import('./routes/Narration.svelte'),
     ])
     const props = $state({ Component: null, is_404: false })
     const router = new Navgo(
-        // /book: the chapter stories on one page, for reading them; not linked from the app.
-        [['/book', Book], ...Journey.paths.map((path) => [path, Journey])],
+        // /book and /narration: the chapter stories and the narrated journey on one page each,
+        // for reading them; not linked from the app.
+        [
+            ['/book', Book],
+            ['/narration', Narration],
+            ...Journey.paths.map((path) => [path, Journey]),
+        ],
         {
             scroll_to_top: false,
             after_navigate(nav) {
