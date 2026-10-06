@@ -10,7 +10,6 @@
     "test": "node scripts/export_guide_context.js --check && node scripts/content/compile.js --check && node --test tests/*.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
     "guide:context": "node scripts/export_guide_context.js",
     "content": "node scripts/content/compile.js",
-    "content:translate": "uv run python scripts/content/translate.py",
     "content:check": "node scripts/content/compile.js && node scripts/content-check.js",
     "models:optimize": "python3 art/thawr/prepare_web.py",
     "build": "node scripts/export_guide_context.js && vite build",
