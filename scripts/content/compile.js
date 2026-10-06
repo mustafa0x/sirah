@@ -263,7 +263,15 @@ function formatted(text) {
 
 // Compiles and writes the generated module (or, with check, compares it). Returns errors.
 export function build_content({ check = false } = {}) {
-    const { result, errors } = compile()
+    // Never throw: a missing or half-written file is reported, not fatal (the dev server
+    // calls this on every change).
+    let compiled
+    try {
+        compiled = compile()
+    } catch (error) {
+        return [`content could not be read: ${error.message}`]
+    }
+    const { result, errors } = compiled
     if (errors.length) return errors
     const text = formatted(render(result))
     let current = ''
@@ -295,7 +303,12 @@ export function content_plugin() {
         configureServer(server) {
             server.watcher.add(content_dir)
             const rebuild = (file) => {
-                if (file.startsWith(content_dir) && file.endsWith('.md')) report(build_content())
+                if (!file.startsWith(content_dir) || !file.endsWith('.md')) return
+                try {
+                    report(build_content())
+                } catch (error) {
+                    report([String(error)])
+                }
             }
             for (const event of ['add', 'change', 'unlink']) server.watcher.on(event, rebuild)
         },
