@@ -2,332 +2,332 @@
 
 # Questions: On the Coastal Road
 
-## hch_road_q_skill
-level: beginner
-scope: lesson
-answer: knows
-sources: `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
-
-Why was the man hired in ‘A’isha’s account?
-
-### knows
-
-For his expertise in guiding them along the road.
-
-> Correct: the report describes him as skilled in finding the way.
-
-### news
-
-To bring news from Mecca every night.
-
-> That is not the task assigned to the hired man.
-
-### poetry
-
-To recite poetry about the journey.
-
-> The description of his hiring concerns knowledge of the road, not poetry.
-
-### why
-
-The report calls him a skilled guide and explains the word khirrit as someone expert in finding the way.
-
-## hch_road_q_trust
-level: intermediate
-scope: lesson
-answer: facts
-sources: `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
-
-Which statement brings together what ‘A’isha says about the guide when he was hired?
-
-### facts
-
-He knew the route, followed the religion of the unbelievers of Quraysh, and was entrusted with their two mounts.
-
-> Correct: all these descriptions and actions occur together in the account.
-
-### converted
-
-He knew the route and then embraced Islam before taking the two mounts.
-
-> The excerpt does not say he embraced Islam; it describes his religion at the time of hiring as that of the unbelievers of Quraysh.
-
-### unknown
-
-Neither his expertise nor his religion is mentioned; only his name is given.
-
-> The excerpt describes his expertise and religion, but does not state his personal name.
-
-### why
-
-The report does not equate religious difference with a lack of trust; it mentions both expertise and trust without reporting any change of religion.
-
-## hch_road_q_time
-level: intermediate
-scope: lesson
-answer: cave
-sources: `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
-
-How is the account of the appointment completed after “they arranged to meet him”?
-
-### cave
-
-At the cave of Thawr after three nights, with the two mounts on the morning after three nights.
-
-> Correct: the continuation first names the meeting place and then says when he brought the mounts.
-
-### first
-
-At the cave of Thawr on the very night they hired him.
-
-> The account says after three nights, on the morning of the third.
-
-### city
-
-In Medina after three nights.
-
-> The continuation names the cave of Thawr, not Medina.
-
-### why
-
-The two excerpts are continuous parts of the same hadith of ‘A’isha: the first stops at the verb of appointment, and the next gives its time and place.
-
 ## hch_road_q_company
 level: beginner
 scope: lesson
 answer: amir_guide
-sources: `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
+sources: `sp_guide_sira_name:p1–p2`, `sp_guide_bukhari_coast:p1`
 
-Who set off with the Prophet ﷺ and Abu Bakr in the continuation of ‘A’isha’s hadith, and who led them along the route?
+Who were the four riders who set out from the cave?
 
 ### amir_guide
 
-‘Amir ibn Fuhayra and the guide; the guide led them along the coastal route.
+The Prophet ﷺ, Abu Bakr, ‘Amir ibn Fuhayrah and the guide
 
-> Correct: the continuation names the companions and the guide’s role.
+> Right. Two hunted men, Abu Bakr's freedman, and a guide who did not share their faith.
 
-### amir_lead
+### abdullah
 
-‘Amir ibn Fuhayra and the guide; ‘Amir led them along the coastal route.
+The Prophet ﷺ, Abu Bakr, his son ‘Abdullah and the guide
 
-> ‘Amir is among the companions, but the sentence credits the guide with taking them along the route.
+> ‘Abdullah had carried news to the cave, but the fourth rider was ‘Amir ibn Fuhayrah.
 
-### alone
+### asma
 
-The guide alone; the continuation does not mention ‘Amir.
+The Prophet ﷺ, Abu Bakr, Asma and ‘Amir ibn Fuhayrah
 
-> The continuation names ‘Amir.
+> Asma brought the food bag to the cave but did not ride with them; the guide was the fourth rider.
 
 ### why
 
-The text says ‘Amir and the guide set off with them, then attributes taking the coastal route to the guide.
+Four set out: the Prophet ﷺ, Abu Bakr, ‘Amir ibn Fuhayrah, and the hired guide; no one else went with them.
+
+## hch_road_q_skill
+level: beginner
+scope: lesson
+answer: behind
+sources: `sp_permission_h_23833_510_cont:p1`, `sp_thawr_exp_h_7478_1001_ra_urwa_musa_cave:p3`
+
+How did ‘Amir ibn Fuhayrah travel on the road?
+
+### behind
+
+Behind Abu Bakr on his camel, at times riding it in turn
+
+> Right. Abu Bakr took him up behind him to serve them on the way, and at times let him ride.
+
+### guide_camel
+
+On the guide's third camel, riding ahead to scout
+
+> The guide brought a camel of his own, but ‘Amir rode with Abu Bakr; the guide was the one who led.
+
+### flock
+
+On foot, driving his flock of sheep beside them
+
+> The sheep were for the nights at the cave; on the road ‘Amir rode behind Abu Bakr.
+
+### why
+
+Abu Bakr carried his freedman ‘Amir behind him on his camel, to serve them on the way, sharing the ride in turn.
+
+## hch_road_q_time
+level: intermediate
+scope: lesson
+answer: coast
+sources: `H-23833-514-818`, `H-7478-996-RA-AISHA-LONG`
+
+Which way did the guide lead them out of Makkah?
+
+### coast
+
+Down below Makkah, then along the coast by the edge of the sea
+
+> Right. He took them along the shore to the road below ‘Usfan, then by lower Amaj and through valleys and passes.
+
+### inland
+
+Inland through the mountain passes, keeping far from the sea
+
+> The road ran first along the coast, "by the edge of the sea"; the valleys and passes came after ‘Usfan.
+
+### back_through
+
+Back past Makkah and north along the usual road
+
+> The guide took them down below Makkah and out along the coast, not along a road through the city.
+
+### why
+
+The guide led them down below Makkah and along the sea, then out past ‘Usfan and lower Amaj into the valleys beyond.
 
 ## hch_road_q_good
 level: beginner
 scope: lesson
 answer: prophet
-sources: `sp_guide_anas_recognition:p1–p2`, `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
+sources: `sp_guide_anas_recognition:p2`, `sp_guide_bayhaqi_start:p1–p2`, `sp_guide_bayhaqi_end:p1`
 
-About whom did Abu Bakr say “he guides me along the way” in Anas’s account?
+Asked who rode in front of him, Abu Bakr said, "This man guides me on the way." What did he mean?
 
 ### prophet
 
-The Prophet ﷺ; he meant the way of goodness.
+That the Prophet ﷺ guided him on the way of good
 
-> Correct: the context clarifies which way he meant.
+> Right. Listeners thought he meant the road; he meant the way of good, and so he spoke no lie.
 
-### employee
+### guide
 
-The hired guide, so the questioner would learn the routes.
+That the man was the guide they had hired for the road
 
-> The hired guide is a different man in ‘A’isha’s account.
+> The man in front was the Prophet ﷺ, not the hired guide, and Abu Bakr meant the way of good.
 
-### amir
+### stranger
 
-‘Amir ibn Fuhayra, referring to the sheep with him.
+That the man was a stranger showing him a short cut
 
-> Anas’s account asks about the Prophet ﷺ who accompanied Abu Bakr.
+> Abu Bakr was speaking of the Prophet ﷺ, and his words pointed to the way of good, not a road.
 
 ### why
 
-Anas’s main text explains that the listener thought he meant the road, but Abu Bakr meant the way of goodness; this is different from the hired guide’s job.
+The Prophet ﷺ had told Abu Bakr to keep people busy, for a prophet should not lie; his answer was true and hid who rode with him.
+
+## hch_road_q_trust
+level: intermediate
+scope: lesson
+answer: grey
+sources: `sp_guide_anas_recognition:p2`, `sp_guide_hajar_age_start:p1`, `sp_guide_hajar_age_end:p1`, `sp_guide_hajar_age_end:p4`
+
+Why did people on the road know Abu Bakr but not the Prophet ﷺ?
+
+### grey
+
+Abu Bakr had greyed and was known from his trading journeys.
+
+> Right. His grey hair and his trade had made him familiar; the Prophet ﷺ, whose hair had not greyed, they did not know.
+
+### older
+
+Abu Bakr was much the older of the two men.
+
+> He looked older because his hair had greyed, but the Prophet ﷺ was in fact older, by more than two years.
+
+### veiled
+
+The Prophet ﷺ kept his face covered on the road.
+
+> Nothing like this is told; people simply did not know him, while they knew Abu Bakr from his trade.
+
+### why
+
+Abu Bakr's grey hair and his trading journeys made him known, though the Prophet ﷺ was actually the older of the two.
+
+## hch_road_q_route_limit
+level: beginner
+scope: lesson
+answer: watch
+sources: `H-1727-7453-ROAD-A`, `H-1727-7453-ROAD-B`, `H-7478-1004-RA-BARA-SURAQA`
+
+At the long rock one blazing noon, what did Abu Bakr do?
+
+### watch
+
+Spread a fur in the shade for the Prophet ﷺ to sleep, then kept watch.
+
+> Right. He smoothed a place with his hand, said "Sleep, Messenger of Allah", and went to look for pursuers.
+
+### sleep_both
+
+Lay down beside the Prophet ﷺ while ‘Amir kept watch.
+
+> Abu Bakr stayed awake himself and went out to see whether any pursuers were in sight.
+
+### ride_on
+
+Urged the Prophet ﷺ to ride on before the pursuers arrived.
+
+> They dismounted and rested in the shade; they left only after the sun had passed its height.
+
+### why
+
+In the shade of the rock Abu Bakr made a resting place for the Prophet ﷺ and kept watch while he slept.
 
 ## hch_road_q_commentary
-level: expert
-scope: source_study
-answer: fiqh
-sources: `sp_guide_qurtubi:p1–p3`, `sp_guide_bukhari_hire:p1`
+level: intermediate
+scope: lesson
+answer: dust_water
+sources: `H-1681-5911-HS-ROAD-AND-AISHA-FEVER-1`, `H-1727-7453-ROAD-A`, `H-7478-1004-RA-BARA-SURAQA`
 
-In al-Qurtubi’s reading, which words are attributed to commentators rather than to ‘A’isha?
+How did Abu Bakr make the shepherd boy's milk fit for the Prophet ﷺ to drink?
 
-### fiqh
+### dust_water
 
-Al-Muhallab’s conditional inference about entrusting polytheists with property and secrets, and Ibn al-Mundhir’s inference about hiring them to guide a route.
+He had the dust shaken off, then poured water over the milk to cool it.
 
-> Correct: al-Qurtubi attributes both views after citing the report from al-Bukhari.
+> Right. The boy shook the dust from the udder and his hands, and Abu Bakr cooled the milk from his flask.
 
-### camels
+### boiled
 
-The mention that the two mounts were handed to the guide, by itself.
+He warmed the milk over a fire before bringing it.
 
-> Handing over the mounts belongs to the quoted report, not to the two inferences in question.
+> No fire is mentioned; he cooled the milk with water from his leather flask.
 
-### new_chain
+### own_sheep
 
-An independent chain about a second journey in al-Qurtubi’s commentary.
+He milked one of ‘Amir's sheep himself instead.
 
-> Al-Qurtubi attributes the report to al-Bukhari; merely repeating it does not add an independent route.
+> The milk came from the shepherd boy's ewe; Abu Bakr asked him to milk it.
 
 ### why
 
-The hiring report is one thing; the two inferences attributed to al-Muhallab and Ibn al-Mundhir are another.
+Abu Bakr took care over the milk: dust shaken off, water poured in until it was cool, and the Prophet ﷺ drank until content.
 
 ## hch_road_q_name_voices
 level: intermediate
+scope: lesson
+answer: saddle
+sources: `H-7478-1004-RA-BARA-SURAQA`, `H-7478-1005-RA-BARA-SURAQA`
+
+How did Abu Bakr come to tell the story of the noon rest years later?
+
+### saddle
+
+‘Azib would not let al-Bara carry home a saddle until Abu Bakr told it.
+
+> Right. Abu Bakr had bought the saddle for thirteen dirhams, and ‘Azib asked how the two had fared on the road.
+
+### pursuer
+
+Suraqah asked him about it after he became Muslim.
+
+> The rider who caught up is the next chapter's story; this account was told to ‘Azib and his son al-Bara.
+
+### sermon
+
+He told it in a sermon to the people of Madinah.
+
+> It was told privately, as the price ‘Azib asked before his son could carry the saddle home.
+
+### why
+
+The noon rest is known because ‘Azib made Abu Bakr tell it, and al-Bara, his son, passed it on.
+
+## hch_road_q_name_scope
+level: intermediate
 scope: source_study
-answer: attributed
-sources: `sp_guide_phone_context:p1–p2`, `sp_guide_sira_name:p1–p2`
+answer: ibn_ishaq
+sources: `sp_guide_bukhari_hire:p1`, `sp_guide_sira_name:p1–p2`, `sp_guide_hani_name:p1–p3`
 
-How do the two forms of the guide’s name appear in the Sira excerpt presented?
+The guide is called ‘Abdullah ibn Urayqit. Where does his name come from?
 
-### attributed
+### ibn_ishaq
 
-Ibn Ishaq calls him ‘Abd Allah ibn Arqat in Asma’s account; then Ibn Hisham says, “It is also said: ‘Abd Allah ibn Urayqit.”
+Ibn Ishaq names him Ibn Arqat; Ibn Hisham adds "also said: Ibn Urayqit".
 
-> Correct: the second form is an alternative introduced with “it is also said,” not a new assertion of certainty.
-
-### reversed
-
-Ibn Hisham asserts the name Arqat, and Ibn Ishaq adds Urayqit with “it is also said.”
-
-> This reverses the wording and its attributions.
+> Right. Ibn Ishaq has the name through Asma; Ibn Hisham gives Urayqit as an alternative.
 
 ### bukhari
 
-Ibn Ishaq and Ibn Hisham both give the same name as al-Bukhari’s explicit wording.
+‘Aishah names him in her account in al-Bukhari.
 
-> The hiring excerpt in al-Bukhari does not state the name.
+> ‘Aishah describes him only as a skilled guide of Banu al-Dil; she does not name him.
 
-### why
+### reversed
 
-Ibn Ishaq’s text attributed to Asma names Arqat; Ibn Hisham then adds Urayqit with “it is also said.”
+Ibn Ishaq names him Ibn Urayqit; Ibn Hisham adds "also said: Ibn Arqat".
 
-## hch_road_q_name_scope
-level: expert
-scope: source_study
-answer: no
-sources: `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
-
-Can the guide’s personal name be derived from the hiring excerpt in the Sahih alone?
-
-### no
-
-No. It gives his lineage and function, but does not state his personal name in this passage.
-
-> Correct: silence in this excerpt does not exclude a name in another source.
-
-### yes
-
-Yes. “Banu al-Dil” is his personal name.
-
-> Banu al-Dil is a lineage, not the man’s personal name.
-
-### deny
-
-No, and this proves no source ever named him.
-
-> One excerpt’s silence cannot be generalized to every source.
+> The forms are swapped: Ibn Ishaq's own form is Ibn Arqat, and Urayqit is Ibn Hisham's addition.
 
 ### why
 
-The excerpt describes Banu al-Dil and Banu ‘Abd ibn ‘Adi and his expertise, but gives no personal name.
+Al-Bukhari's report leaves the guide unnamed; the name comes from Ibn Ishaq, with Ibn Hisham's variant Urayqit.
 
 ## hch_road_q_hani
-level: expert
+level: intermediate
 scope: source_study
-answer: hani
-sources: `sp_guide_hani_name:p1–p3`, `sp_guide_bukhari_hire:p1`
+answer: trust
+sources: `sp_guide_qurtubi:p1–p3`, `sp_guide_bukhari_hire:p1`
 
-In Hani Faqih’s commentary, who says that the Sahih does not state the guide’s name?
+What did scholars quoted by al-Qurtubi conclude from the hiring of a guide who did not share their faith?
 
-### hani
+### trust
 
-Hani Faqih, after quoting Ibn Kathir’s passage that names him.
+He may be trusted with secrets and property, and hired as a guide.
 
-> Correct: the qualification is the commentator’s voice after the quotation.
+> Right. Al-Muhallab drew the trust, for one known to be faithful; Ibn al-Mundhir drew the hiring.
 
-### ibn_kathir
+### converted
 
-Ibn Kathir within the quoted passage, with no further comment by Hani.
+He must have accepted Islam before being trusted.
 
-> The quoted passage names the man; the later qualification is Hani’s.
+> ‘Aishah's report says he followed the religion of Quraysh; the scholars drew rulings from that, not a conversion.
 
-### aisha
+### exception
 
-‘A’isha in her own words inside the quotation from Ibn Kathir.
+The hiring was a special case, with no ruling for others.
 
-> The distinction here is between Ibn Kathir’s quotation and Hani’s comment, not ‘A’isha’s direct words.
+> Both scholars drew general rulings from it: on trusting such a person and on hiring him as a guide.
 
 ### why
 
-The reading opens with a quotation from Ibn Kathir, followed by Hani’s qualification of the name in the Sahih and its attribution to Ibn Ishaq.
+From ‘Aishah's report, al-Muhallab concluded such a man may be trusted, and Ibn al-Mundhir that he may be hired as a guide.
 
 ## hch_road_q_bayhaqi
 level: expert
 scope: source_study
-answer: joined
-sources: `sp_guide_bayhaqi_start:p1–p2`, `sp_guide_bayhaqi_end:p1–p2`
+answer: three
+sources: `H-1681-5911-HS-ROAD-AND-AISHA-FEVER-1`, `H-1727-7453-ROAD-A`, `H-1727-7453-ROAD-B`, `H-7478-1004-RA-BARA-SURAQA`, `H-7478-1005-RA-BARA-SURAQA`
 
-How should the end of the first page and start of the second be read in Abu Hurayra’s report in al-Bayhaqi?
+Asked whose he was, how does the shepherd boy answer in the three tellings of Abu Bakr's noon story?
 
-### joined
+### three
 
-The second page completes the first page’s sentence and then gives Abu Bakr’s reply, “A guide who guides me.”
+Al-Bukhari: "so-and-so"; Muslim: "a man of Madinah"; al-Bayhaqi: "a man of Quraysh"
 
-> Correct: the truncated beginning is not a complete report by itself.
+> Right. The tellings through al-Bara differ in this small detail; in al-Bayhaqi Abu Bakr knew the man.
 
-### independent
+### swapped
 
-The paragraph on the second page is al-Bayhaqi’s comment on Abu Hurayra’s report, not part of its text.
+Al-Bukhari: "a man of Quraysh"; Muslim: "so-and-so"; al-Bayhaqi: "a man of Madinah"
 
-> The completed sentence, people’s question and Abu Bakr’s answer belong to Abu Hurayra’s report, not the compiler’s comment.
+> The wordings are mixed up: "so-and-so" is al-Bukhari's, and "a man of Quraysh" is al-Bayhaqi's.
 
-### anas
+### same
 
-The second page continues with Anas’s exact words, “This man guides me along the way.”
+All three have "a man of Quraysh", whom Abu Bakr recognised.
 
-> That wording is in Anas’s report; Abu Hurayra’s report in al-Bayhaqi uses its own words.
-
-### why
-
-The chain and beginning of the main text occur on the first page; the sentence, people’s question, and Abu Bakr’s answer continue on the next.
-
-## hch_road_q_route_limit
-level: intermediate
-scope: source_study
-answer: bounded
-sources: `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
-
-What does “the coastal route” permit us to say in ‘A’isha’s continuation?
-
-### bounded
-
-It describes the route taken by the guide, without specifying stops or coordinates in this excerpt.
-
-> Correct: a route is described, but no itinerary of stops appears.
-
-### map
-
-It specifies every stop in order and the distance between them.
-
-> The passage lists neither stops nor distances.
-
-### guide_absent
-
-It proves the party traveled without a guide.
-
-> The continuation explicitly mentions the guide and says he took them along the route.
+> Only al-Bayhaqi has "a man of Quraysh"; al-Bukhari has "so-and-so" and Muslim "a man of Madinah".
 
 ### why
 
-The continuation establishes the guide’s presence and describes the coastal route; it provides no precise map of stopping places.
+The noon story reaches us through al-Bara in three collections, which agree in substance but name the boy's master differently.

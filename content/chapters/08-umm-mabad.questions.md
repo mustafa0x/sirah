@@ -3,301 +3,301 @@
 # Questions: At Umm Ma‘bad’s Tent
 
 ## hch_umm_mabad_q_food
-level: beginner
+level: intermediate
 scope: lesson
-answer: scarcity
-sources: `sp_umm_mabad_story:p1–p11`
+answer: guest
+sources: `H-7478-1014-RA-UMM-ISHaq`
 
-Why did the party not buy meat and dates from Umm Mabad?
+Quraysh, still hunting, reached Umm Ma‘bad and described the Prophet ﷺ to her. What did she tell them?
 
-### price
+### madinah
 
-Because they disagreed with her over the price.
+That the man they described had taken the road to Madinah
 
-> The report mentions no disagreement about the price; it says she did not have what they requested.
+> She pointed them nowhere. She said she did not know what they meant, and spoke only of her guest.
 
-### scarcity
+### guest
 
-Because she did not have what they requested.
+That she did not know what they meant, but a man who milked a dry ewe was her guest
 
-> Yes. They asked to buy food but found no meat or dates with her.
+> Right. "That is the one we want," they said: the miracle itself told them who had passed.
 
-### delay
+### denied
 
-Because they waited for her husband to return and sell it to them.
+That no travellers had stopped at her tents
 
-> Abu Mabad returned after they left; the report does not say they delayed their purchase for him.
+> She did not deny the visit. She told them plainly that a man who milked a dry ewe had been her guest.
 
 ### why
 
-The report says that what they requested was unavailable, although it also describes Umm Mabad as giving people food and drink.
+Umm Ma‘bad knew her guest only by what he had done, and that was enough for Quraysh to know him.
 
 ## hch_umm_mabad_q_goat
 level: beginner
 scope: lesson
 answer: weakness
-sources: `sp_umm_mabad_story:p1–p11`
+sources: `sp_umm_mabad_story:p4`, `sp_umm_mabad_gloss:p5`, `sp_umm_mabad_story:p5–p10`
 
-What kept the sheep in the tent instead of going out with the flock?
+Umm Ma‘bad's flock was out at pasture. Why was one ewe still at the back of her tent?
 
 ### weakness
 
-Exhaustion that prevented it from keeping up with the flock.
+She was too weak to keep up with the flock
 
-> Yes. Umm Mabad says exhaustion left it behind the flock.
+> Right. "A ewe that weakness has kept behind the flock," Umm Ma‘bad said.
 
 ### milk
 
-It had been kept ready to milk when guests arrived.
+She was kept back to be milked for guests
 
-> Umm Mabad did not expect milk from it; she said it was too exhausted for that.
+> She had no milk to give. Asked about it, Umm Ma‘bad said, "She is too worn out for that."
 
-### sale
+### carrying
 
-It had been put up for sale to passersby.
+She was about to give birth
 
-> The party asked for meat and dates, but the report attributes this sheep's remaining behind to exhaustion, not to its being offered for sale.
+> Abu Ma‘bad said none of the flock was carrying young. This ewe stayed behind because she was weak.
 
 ### why
 
-Exhaustion kept it there; this also explains Umm Mabad's response when asked about its milk.
+The ewe left behind was the weakest of the flock, with no milk in her, in a year of drought.
 
 ## hch_umm_mabad_q_consent
-level: beginner
+level: intermediate
 scope: lesson
-answer: permission
-sources: `sp_umm_mabad_story:p1–p11`
+answer: voice
+sources: `H-23833-510-PHONE`, `H-23833-511-GUIDE`
 
-After asking about the sheep's milk, what did the Prophet ﷺ ask Umm Mabad for?
+In Makkah, Abu Bakr's family did not know which way he had gone. How did they learn?
 
-### bring
+### quraysh
 
-That she bring the flock that was away from the tent.
+Quraysh came back from Umm Ma‘bad's tent with the news
 
-> The exchange concerned milking the sheep already there, not fetching the flock.
+> Quraysh did reach her tent, but the family's news came another way: a voice heard over Makkah.
 
-### buy
+### husband
 
-That she sell him the sheep in the tent.
+Abu Ma‘bad came to Makkah and told them of his wife's guest
 
-> The request reported here was for permission to milk it, not to buy it.
+> Abu Ma‘bad meant to join the Prophet ﷺ, but he did not carry the news to Makkah.
 
-### permission
+### voice
 
-That she allow him to milk the sheep.
+An unseen voice crossed Makkah praising the two who stopped at Umm Ma‘bad's tents
 
-> Yes. He milked it after asking and receiving her permission.
+> Right. One of the jinn passed through the city singing, heard but not seen, and they knew he was headed for Madinah.
 
 ### why
 
-He first asked about the sheep's condition, then requested permission to milk it; she permitted him if he found milk in it.
+After three nights without news, a voice from among the jinn told Makkah of Umm Ma‘bad's tents, and Abu Bakr's family knew the way to Madinah.
 
 ## hch_umm_mabad_q_sharing
 level: beginner
 scope: lesson
 answer: host_first
-sources: `sp_umm_mabad_story:p1–p11`
+sources: `sp_umm_mabad_story:p11`
 
-In what order does the report say they drank the milk?
+The Prophet ﷺ milked the ewe until the vessel frothed over. In what order did they drink?
 
 ### companions_first
 
-His companions, then Umm Mabad, then he himself.
+His companions, then Umm Ma‘bad, then the Prophet ﷺ
 
-> He gave Umm Mabad milk before serving his companions.
+> He gave the vessel first to Umm Ma‘bad, before his companions.
 
 ### host_first
 
-Umm Mabad, then his companions, then he himself.
+Umm Ma‘bad, then his companions, then the Prophet ﷺ
 
-> Yes. He gave her drink until she was satisfied, then his companions until they were satisfied, and drank last.
+> Right. She drank until she had enough, then his companions, and he drank last of all.
 
 ### prophet_first
 
-He himself, then Umm Mabad, then his companions.
+The Prophet ﷺ, then Umm Ma‘bad, then his companions
 
-> The report explicitly says he drank last, not first.
+> He did not drink first. He served his host and his companions, and drank last of all.
 
 ### why
 
-The Prophet ﷺ served Umm Mabad first, then his companions, and drank last.
+The Prophet ﷺ served his host first and himself last.
 
 ## hch_umm_mabad_q_remaining
-level: intermediate
+level: beginner
 scope: lesson
 answer: second
-sources: `sp_umm_mabad_story:p1–p11`, `sp_umm_mabad_story:p11–p19`
+sources: `sp_umm_mabad_story:p11`, `sp_umm_mabad_story:p12–p13`
 
-Where did the milk Abu Mabad found after the party left come from?
+Abu Ma‘bad came home and found milk in the tent. Where had it come from?
 
 ### husband
 
-Abu Mabad brought it back with the flock.
+He had brought it back with his thin goats
 
-> Abu Mabad found the milk already there and was surprised; the report does not say he brought it.
+> His goats were too weak even to walk well. He was amazed to find the milk, and asked where it came from.
 
 ### earlier
 
-Umm Mabad had stored it before their arrival.
+Umm Ma‘bad had saved it before the travellers came
 
-> The report links the vessel left behind to the second milking, not to milk stored before the visit.
+> There was no animal in milk in the house. The milk was what the Prophet ﷺ left behind.
 
 ### second
 
-The Prophet ﷺ filled the vessel in a second milking and left it with her.
+The Prophet ﷺ milked the ewe a second time and left the full vessel with her
 
-> Yes. The report mentions more than just the milk they drank.
+> Right. After everyone drank, he milked the ewe again until the vessel was full, left it with her, and set off.
 
 ### why
 
-After they drank, the Prophet ﷺ milked the sheep again until he filled the vessel and left it with Umm Mabad.
+The full vessel was the Prophet's ﷺ gift from the weak ewe, and it led Abu Ma‘bad to ask, "Describe him to me."
 
 ## hch_umm_mabad_q_portrait
 level: intermediate
 scope: lesson
-answer: combined
-sources: `sp_umm_mabad_story:p11–p19`
+answer: listened
+sources: `sp_umm_mabad_story:p18`, `sp_umm_mabad_gloss:p22`, `sp_umm_mabad_gloss:p25`
 
-What did Umm Mabad include in her description of the visitor?
+How did Umm Ma‘bad describe the companions around her guest?
 
-### appearance
+### apart
 
-His appearance alone, without his speech or companions.
+They kept apart from him and spoke on his behalf
 
-> The report describes his speech, dignity, and companions' attention, not just his appearance.
+> She said the opposite: they gathered round him and fell silent to listen when he spoke.
 
-### speech_only
+### talked
 
-His speech alone, without his appearance or companions.
+They talked among themselves while he sat in silence
 
-> The sweetness of his speech is part of a portrait that also includes his appearance and companions.
+> When he spoke, she said, they fell silent to listen. It was his silence that carried dignity.
 
-### combined
+### listened
 
-His appearance, speech, and relationship with his companions.
+They fell silent when he spoke and hurried to carry out his orders
 
-> Yes. She spoke of his beauty, dignity, sweet speech, and what she observed of his companions.
+> Right. "He was served and surrounded," she said, "never frowning, never overbearing."
 
 ### why
 
-Her description moves from his face and stature to his speech and dignity, and then to his companions' attentiveness and quick response.
+Umm Ma‘bad saw the guest through his companions too: they listened when he spoke and hurried when he gave an order.
 
 ## hch_umm_mabad_q_recognition
-level: intermediate
+level: beginner
 scope: lesson
-answer: description
-sources: `sp_umm_mabad_story:p11–p19`
+answer: join
+sources: `sp_umm_mabad_story:p19`
 
-How did Abu Mabad connect the visitor to the man of Quraysh?
+After hearing his wife's description, what did Abu Ma‘bad say?
 
-### meeting
+### warn
 
-By meeting him in person before the party left.
+That he must warn Quraysh that the man had passed by
 
-> Abu Mabad returned after their departure and then asked his wife about the visitor.
+> He did not side with Quraysh. He wanted to join the man himself.
 
-### description
+### join
 
-From his wife's description after he asked her.
+That this was the man from Quraysh, and he would join him if he found a way
 
-> Yes. His identification of the man of Quraysh follows Umm Mabad's description.
+> Right. "That is the man from Quraysh," he said. "I had meant to join him, and I will, if I find a way."
 
-### letter
+### doubt
 
-From a letter the party left with Umm Mabad.
+That he did not believe a dry ewe could give milk
 
-> What they left here was a vessel of milk; this report mentions no letter identifying the visitor.
+> He had the milk in front of him. Her description settled who the guest was, and he did not doubt it.
 
 ### why
 
-Umm Mabad described the visit, and Abu Mabad heard her account before saying the visitor was the man of Quraysh whose story had reached them.
+Umm Ma‘bad's description was enough for her husband to know the man from Quraysh and to want to follow him.
 
 ## hch_umm_mabad_q_language
 level: intermediate
 scope: source_study
-answer: balanced
-sources: `sp_umm_mabad_gloss:p1–p21`
+answer: long
+sources: `sp_umm_mabad_gloss:p18`
 
-How does Abu Ubayd explain the description of speech as neither nazr (نزر) nor hadhr (هذر)?
+Umm Ma‘bad said his lashes were curved. Which reading of her word does Abu ‘Ubayd prefer?
+
+### thick
+
+Thick, as dark as his eyes
+
+> Abu ‘Ubayd speaks of the black of the eyes separately. For the lashes, his concern is their length.
 
 ### long
 
-Abundant speech that only improves the longer it goes on.
+Long and flowing, like a cloud hanging low over the earth
 
-> He explains hadhr as much and describes a middle course between little and much.
+> Right. Some took the word to mean curved, but he thought it meant long and flowing, like anything hanging freely.
 
-### balanced
+### curved
 
-Speech that follows a middle course between little and much.
+Curved, as most readers took it
 
-> Yes. This is the meaning given by the selected explanation.
-
-### quiet
-
-A low voice that the companions cannot hear.
-
-> The explanation concerns the amount of speech, not its volume or whether it can be heard.
+> That is the reading he sets aside. He thought the word meant long and flowing.
 
 ### why
 
-Abu Ubayd explains nazr (نزر) as little and hadhr (هذر) as much, and says that the intended meaning is a middle course between the two.
+The story keeps the transmitted "curved", while Abu ‘Ubayd, the early philologist, read the same word as "long".
 
 ## hch_umm_mabad_q_judgments
 level: expert
 scope: source_study
-answer: scopes
-sources: `sp_umm_mabad_ibn_kathir:p2`, `sp_umm_mabad_hidaya_start:p1–p2`, `sp_umm_mabad_hidaya_end:p1–p9`, `sp_umm_mabad_albani:p1–p4`, `sp_umm_mabad_attribution:p1`
+answer: doubts
+sources: `sp_umm_mabad_ibn_kathir:p2`, `sp_umm_mabad_hidaya_end:p9`, `sp_umm_mabad_albani:p1–p3`
 
-What is the difference between Ibn Kathir's statement and al-Albani's comment in the two selected readings?
+How does al-Albani judge the chain of Hubaysh's report of the Umm Ma‘bad story?
 
-### opposites
+### rejects
 
-Ibn Kathir authenticates every wording, while al-Albani rejects the entire story.
+He rejects the whole story as unsupported
 
-> The first speaks of routes reinforcing the story; the second allows for possible corroboration after objecting to the chain.
+> He does not reject it. He questions this one chain and allows that other routes may strengthen it.
 
-### same
+### sound
 
-Both unreservedly authenticate this particular chain.
+He declares it sound, agreeing with al-Hakim and al-Dhahabi
 
-> Al-Albani expressly objects to the soundness of this chain because of Hisham ibn Hubaysh's status.
+> He questions their judgment for this chain, because it passes through Hubaysh's son Hisham, who is little known.
 
-### scopes
+### doubts
 
-Ibn Kathir regards the story as reinforced by its routes; al-Albani objects to the chain but mentions possible corroboration.
+He doubts this chain, but allows it may rise to hasan or sahih through other routes
 
-> Yes. The scope and degree of certainty of each statement remain distinct.
+> Right. This fits Ibn Kathir's view that the story is well known, through routes that strengthen one another.
 
 ### why
 
-Strengthening the story by several routes does not mean that each chain is sound on its own. Al-Albani's comment does not stop at an objection: he then allows for possible corroboration.
+A weak link in one chain does not sink a story told through several routes: al-Albani doubts Hubaysh's chain but allows the story may still be hasan or sahih.
 
 ## hch_umm_mabad_q_voices
-level: expert
+level: intermediate
 scope: source_study
-answer: albani
-sources: `sp_umm_mabad_ibn_kathir:p2`, `sp_umm_mabad_hidaya_start:p1–p2`, `sp_umm_mabad_hidaya_end:p1–p9`, `sp_umm_mabad_albani:p1–p4`, `sp_umm_mabad_attribution:p1`
+answer: four_ewes
+sources: `H-7478-1014-RA-UMM-ISHaq`, `sp_umm_mabad_story:p11`
 
-To whom is the objection to the soundness of the chain of Umm Mabad's report attributed in the selected footnote to Hidayat al-Ruwat?
+How does Ibn Ishaq's telling of the milking differ from Hubaysh's?
 
-### ibn_hajar
+### four_ewes
 
-Ibn Hajar, author of Hidayat al-Ruwat.
+The Prophet ﷺ milks four dry ewes, one after another
 
-> The selected statement by Ibn Hajar attributes the report to al-Bayhaqi; the objection appears in the appended footnote.
+> Right. In Ibn Ishaq the Prophet ﷺ milks a ewe for Umm Ma‘bad, then others for himself, the guide and ‘Amir.
 
-### halabi
+### she_milks
 
-Ali al-Halabi, editor of this edition.
+Umm Ma‘bad milks the ewe herself and serves the travellers
 
-> Al-Halabi explains in the introduction that he took his teacher's source references and comments to append to the book.
+> In both tellings it is the Prophet ﷺ who milks. Ibn Ishaq differs in how many ewes he milks.
 
-### albani
+### drinks_first
 
-Al-Albani, author of the appended comment.
+The Prophet ﷺ drinks first, then hands the bowl to Umm Ma‘bad
 
-> Yes. The edition's details and introduction distinguish the source of the footnote from the book's main text.
+> In Ibn Ishaq he offers it to her first; she says he has more right to it, and he hands it back to her.
 
 ### why
 
-Al-Albani's comment was appended to the book; the introduction identifies its author, so not everything on the page should be attributed to the author of the main text.
+Hubaysh tells of one weak ewe and a vessel filled twice; Ibn Ishaq of several dry ewes, milked in turn.

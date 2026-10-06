@@ -5,329 +5,329 @@
 ## hch_early_migration_q_family
 level: beginner
 scope: lesson
-answer: split
-sources: `sp_earlier_exp_h_23833_491_prep_780:p1`, `sp_earlier_exp_h_930_737_prep_abu_salama_date:p1`, `sp_earlier_exp_h_23833_492_prep_cont:p1–p2`, `sp_earlier_exp_h_23833_493_prep_cont:p1`
+answer: b
+sources: `sp_earlier_exp_h_23833_492_prep_cont:p1–p2`
 
-What happened to Abu Salama’s family when they first tried to leave?
+What happened when Abu Salama set out for Madinah with his wife and little son?
 
-### all
+### a
 
-They all traveled on a single camel as far as Quba.
+Quraysh stopped all three and kept them in Makkah for a year
 
-> In Umm Salama’s testimony, the family was separated when their relatives stopped them.
+> Abu Salama was not held back. He went on to Madinah alone, while his wife and son were taken.
 
-### split
+### b
 
-Abu Salama went on; Umm Salama was detained, and Abu Salama’s relatives took her son.
+Her clan took back Umm Salama, his clan took the boy, and he went on alone
 
-> Correct: the husband left, and the mother was separated from her son.
+> Right. The two clans pulled the child between them until they dislocated his arm, and the family was split three ways.
 
-### mother
+### c
 
-Umm Salama left first with the child, while Abu Salama remained in Mecca.
+They reached Quba together, riding on a single camel
 
-> Umm Salama relates that Abu Salama was the one who went on to Medina first.
+> They never left together. Banu al-Mughirah tore the halter from Abu Salama's hand before they were out of Makkah.
 
 ### why
 
-Banu al-Mughira took the mother, Banu ‘Abd al-Asad took the child, and Abu Salama went on.
+Before they were even out of Makkah, the family was torn apart: husband to Madinah, wife to her clan, son to his father's clan.
 
 ## hch_early_migration_q_reunion
 level: intermediate
 scope: lesson
-answer: uthman
-sources: `sp_earlier_exp_h_23833_491_prep_780:p1`, `sp_earlier_exp_h_930_737_prep_abu_salama_date:p1`, `sp_earlier_exp_h_23833_492_prep_cont:p1–p2`, `sp_earlier_exp_h_23833_493_prep_cont:p1`
+answer: c
+sources: `sp_earlier_exp_h_23833_492_prep_cont:p1–p2`, `sp_earlier_exp_h_23833_493_prep_cont:p1–p2`
 
-How did Umm Salama and her son reach Abu Salama after their separation?
+When Umm Salama was at last let go, who led her camel from al-Tan‘im to Quba?
 
-### with_umar
+### a
 
-‘Umar accompanied them from his meeting place with ‘Ayyash to Quba.
+Abu Salama, who came back to fetch her
 
-> The story of ‘Umar and ‘Ayyash is a separate account, not an account of Umm Salama’s escort.
+> Abu Salama was waiting at Quba. She set out alone with her son, and found him there.
 
-### uthman
+### b
 
-Her son was returned to her; then ‘Uthman ibn Talha helped her on the road and pointed out where her husband was staying in Quba.
+‘Umar ibn al-Khattab, on his way to Madinah
 
-> Correct: she relates that she departed with her son after he was returned to her, and ‘Uthman accompanied her.
+> ‘Umar travelled earlier with ‘Ayyash. Umm Salama met a different man at al-Tan‘im.
 
-### together
+### c
 
-She left with her husband at the outset and was never separated from him.
+‘Uthman ibn Talhah, who was not yet a Muslim
 
-> Umm Salama relates that she was separated from her husband and son before she rejoined him.
+> Right. "You will not be left alone," he said, and led her camel from stop to stop all the way to Quba, then turned back.
 
 ### why
 
-The account of her departure with her son goes on to describe ‘Uthman helping her and their arrival at Quba.
+‘Uthman ibn Talhah escorted her with great courtesy, and she never saw a companion more noble; he accepted Islam only at al-Hudaybiyah.
 
 ## hch_early_migration_q_duration
-level: intermediate
-scope: source_study
-answer: approx
-sources: `sp_earlier_exp_h_23833_491_prep_780:p1`, `sp_earlier_exp_h_930_737_prep_abu_salama_date:p1`, `sp_earlier_exp_h_23833_492_prep_cont:p1–p2`, `sp_earlier_exp_h_23833_493_prep_cont:p1`
+level: beginner
+scope: lesson
+answer: a
+sources: `sp_earlier_exp_h_146_237_permission:p1–p2`, `sp_earlier_exp_h_9783_994_early_migrants:p1`
 
-How did Umm Salama qualify the length of time she wept at al-Abtah?
+Once the Prophet ﷺ told them "It is Yathrib", how did the companions leave Makkah?
 
-### exact
+### a
 
-Exactly one full year, ending on a known day.
+In secret, group after group, helping one another to get ready
 
-> The text says a year or nearly that long, without naming a particular day.
+> Right. Quraysh were pressing them harder than ever, so they made ready together and slipped away in groups.
 
-### approx
+### b
 
-A year or nearly that long.
+All together in one large caravan, with the Prophet ﷺ
 
-> Correct: the phrase is approximate, not a date with a day and month.
+> The Prophet ﷺ stayed behind, waiting for permission, and the companions left in small groups, not one caravan.
 
-### three
+### c
 
-Only three nights.
+Openly, once Quraysh had agreed to let them go
 
-> That is not how Umm Salama describes the length of their separation.
+> Quraysh did not agree. They pressed the believers harder once they knew they meant to leave.
 
 ### why
 
-In the reading Umm Salama says, “a year or nearly that long.”
+The companions went quietly, a few at a time, while the Prophet ﷺ stayed in Makkah awaiting Allah's permission.
 
 ## hch_early_migration_q_first
 level: intermediate
 scope: source_study
-answer: distinct
-sources: `sp_earlier_exp_h_23833_491_prep_780:p1`, `sp_earlier_exp_h_930_737_prep_abu_salama_date:p1`, `sp_earlier_exp_h_23833_492_prep_cont:p1–p2`, `sp_earlier_exp_h_23833_493_prep_cont:p1`, `sp_earlier_exp_h_1681_5917_hs_early_short_1:p1–p2`, `sp_earlier_exp_h_1681_5917_hs_early_short_2:p1`, `sp_earlier_exp_h_930_743_prep_baraa_1:p1–p2`, `sp_earlier_exp_h_930_743_prep_baraa_2:p1`, `sp_earlier_exp_h_930_744_prep_baraa_2:p1`, `sp_earlier_exp_h_7478_980_ra_musa_early:p1–p2`, `sp_earlier_exp_h_7478_981_ra_musa_early:p1`, `sp_earlier_exp_h_23833_493_prep_781:p1`, `sp_earlier_exp_h_23833_492_prep_cont:p2`
+answer: b
+sources: `sp_earlier_exp_h_23833_491_prep_780:p1`, `sp_earlier_exp_h_930_737_prep_abu_salama_date:p1`, `sp_earlier_exp_h_930_743_prep_baraa_2:p1`, `sp_earlier_exp_h_930_744_prep_baraa_2:p1`, `sp_earlier_exp_h_1681_5917_hs_early_short_1:p1–p2`
 
-How does Ibn Ishaq’s account of Abu Salama differ from al-Bara’s wording, ‘the first to come to us’?
+Ibn Ishaq names Abu Salama as the first emigrant; al-Bara ibn ‘Azib says Mus‘ab and Ibn Umm Maktum came first. Why can both stand?
 
-### erase
+### a
 
-Discard one text, because both refer without qualification to all emigrants.
+Al-Bara is speaking of a later, second wave of emigrants
 
-> Each text has its own qualification: Ibn Ishaq’s wording and al-Bara’s audience.
+> Al-Bara is not describing a later wave. He names whom his own people saw arrive among them.
 
-### distinct
+### b
 
-Keep Abu Salama’s precedence within Ibn Ishaq’s qualification and understand “to us” in al-Bara’s words from the perspective of those addressed.
+They answer different questions: first from Quraysh, and first seen in Madinah
 
-> Correct: the different perspectives do not license applying either statement to everyone.
+> Right. Ibn Ishaq speaks of the first of the companions from Quraysh; al-Bara, a man of Madinah, of the first "to come to us".
 
-### together
+### c
 
-We conclude that Abu Salama and Mus‘ab arrived together on the same day.
+Ibn Ishaq counts only those who travelled with their families
 
-> Neither text gives a single shared date of arrival.
+> Abu Salama travelled alone in the end, after his wife and son were taken from him.
 
 ### why
 
-Ibn Ishaq qualified his description of Abu Salama, and al-Bara specified the recipients by saying “to us.”
+The reports look at "first" from different places: Ibn Ishaq from Makkah's side, al-Bara from Madinah's.
 
 ## hch_early_migration_q_woman
-level: expert
-scope: source_study
-answer: two
-sources: `sp_earlier_exp_h_1681_5917_hs_early_short_1:p1–p2`, `sp_earlier_exp_h_1681_5917_hs_early_short_2:p1`, `sp_earlier_exp_h_930_743_prep_baraa_1:p1–p2`, `sp_earlier_exp_h_930_743_prep_baraa_2:p1`, `sp_earlier_exp_h_930_744_prep_baraa_2:p1`, `sp_earlier_exp_h_7478_980_ra_musa_early:p1–p2`, `sp_earlier_exp_h_7478_981_ra_musa_early:p1`, `sp_earlier_exp_h_23833_493_prep_781:p1`, `sp_earlier_exp_h_23833_492_prep_cont:p2`, `sp_earlier_exp_h_23833_491_prep_780:p1`, `sp_earlier_exp_h_930_737_prep_abu_salama_date:p1`, `sp_earlier_exp_h_23833_492_prep_cont:p1–p2`, `sp_earlier_exp_h_23833_493_prep_cont:p1`
+level: intermediate
+scope: lesson
+answer: c
+sources: `sp_earlier_exp_h_23833_493_prep_781:p1`, `sp_earlier_exp_h_23833_494_prep_cont:p1–p7`
 
-Which wording preserves the variation in the account of the first woman in a litter alongside Umm Salama’s account of separation?
+Passing the empty house of Banu Jahsh, what did Abu Jahl blame for it?
 
-### certain
+### a
 
-The two texts establish that Umm Salama accompanied Abu Salama all the way to Medina when he first left.
+The pledge the men of Madinah had made at al-‘Aqabah
 
-> Umm Salama’s account describes their separation at the outset.
+> Abu Jahl did not speak of the pledge. He laid the blame on one man in Makkah.
 
-### two
+### b
 
-Musa’s route names Umm Salama and also reports a view naming Umm ‘Abd Allah; this list does not imply that Umm Salama traveled on the day her husband left.
+‘Utbah's own weakness in letting the family go
 
-> Correct: the account itself includes both views and ends with a reservation.
+> Abu Jahl mocked ‘Utbah for weeping, but he did not blame him for the emptied house.
 
-### none
+### c
 
-No source names any woman among the earliest arrivals.
+"This man's nephew", who had split their community
 
-> The account names Umm Salama and Umm ‘Abd Allah; Ibn Ishaq also describes Layla bint Abi Hathma.
+> Right. He said the nephew had split their community, scattered their affairs and cut the ties between them.
 
 ### why
 
-Musa’s route says “some people say” and then “God knows best”; Umm Salama’s testimony describes her separation from her husband.
+As whole households left, Quraysh's leaders saw their town emptying, and Abu Jahl blamed the Prophet ﷺ for it.
 
 ## hch_early_migration_q_appointment
 level: beginner
 scope: lesson
-answer: two
-sources: `sp_earlier_exp_h_23833_497_prep_785:p1–p3`, `sp_earlier_exp_h_23833_497_prep_786:p1`, `sp_earlier_exp_h_7478_982_ra_umar_hisham:p1–p2`, `sp_earlier_exp_h_7478_983_ra_umar_hisham:p1`, `sp_earlier_exp_h_23833_498_prep_cont:p1–p3`
+answer: a
+sources: `sp_earlier_exp_h_23833_497_prep_785:p1–p3`, `sp_earlier_exp_h_7478_982_ra_umar_hisham:p1–p2`
 
-According to ‘Umar’s account, who arrived at the rendezvous and what had the three agreed?
+‘Umar, ‘Ayyash and Hisham agreed to meet at al-Tanadub. Who was missing in the morning?
 
-### three
+### a
 
-‘Umar, ‘Ayyash and Hisham all arrived and waited for anyone missing.
+Hisham ibn al-‘As, who had been stopped and tested
 
-> The account says Hisham did not arrive and the others were to proceed.
+> Right. Hisham was held back and gave way, so by their own agreement the other two went on.
 
-### two
+### b
 
-‘Umar and ‘Ayyash arrived and proceeded as the three had agreed if one of them was detained.
+‘Ayyash ibn Abi Rabi‘ah, whose mother had made a vow
 
-> Correct: Hisham was detained, and his companions did not wait for him.
+> ‘Ayyash was there and reached Quba with ‘Umar. He was tricked back to Makkah only later.
 
-### ayyash
+### c
 
-Only ‘Ayyash arrived; he did not proceed until everyone had gathered.
+‘Umar ibn al-Khattab, who had been delayed by Quraysh
 
-> ‘Umar arrived with him, and they proceeded after Hisham was detained.
+> ‘Umar made the meeting. He and ‘Ayyash went on together to Madinah.
 
 ### why
 
-‘Umar relates that they would regard anyone not there in the morning as detained, and the other two would go on.
+"Whoever of us is not there by morning has been held back": Hisham's absence meant he had been stopped, and the other two left without him.
 
 ## hch_early_migration_q_ayyash
 level: intermediate
 scope: lesson
-answer: money_camel
-sources: `sp_earlier_exp_h_23833_497_prep_785:p1–p3`, `sp_earlier_exp_h_23833_497_prep_786:p1`, `sp_earlier_exp_h_7478_982_ra_umar_hisham:p1–p2`, `sp_earlier_exp_h_7478_983_ra_umar_hisham:p1`, `sp_earlier_exp_h_23833_498_prep_cont:p1–p3`
+answer: b
+sources: `sp_earlier_exp_h_23833_497_prep_786:p1`, `sp_earlier_exp_h_23833_498_prep_cont:p1`
 
-What did ‘Umar offer ‘Ayyash when he wanted to return with Abu Jahl and al-Harith?
+How did Abu Jahl and al-Harith get ‘Ayyash back to Makkah?
 
-### money_camel
+### a
 
-Half his wealth if he would stay, then his she-camel when he insisted on returning.
+They paid ‘Umar to release him from his promise
 
-> Correct: the warning and offer preceded his being taken in bonds.
+> ‘Umar tried to keep ‘Ayyash, offering half his wealth. The brothers won him with a vow, then a trick.
 
-### gold
+### b
 
-Measures of gold and two garments so he could travel freely.
+They spoke of his mother's vow, then seized him when the camels knelt
 
-> Those details belong to the other route about Suhayb, not to ‘Ayyash’s account.
+> Right. On the road Abu Jahl asked to ride ‘Ayyash's camel; when they dismounted, the brothers bound him.
 
-### nothing
+### c
 
-He gave him no advice and offered him nothing.
+They caught him at al-Tanadub before he could leave
 
-> ‘Umar relates that he advised him and then offered the wealth and the she-camel.
+> ‘Ayyash got away from Makkah and reached Quba. The brothers came after him there.
 
 ### why
 
-‘Umar warned ‘Ayyash and offered him half his wealth and then his she-camel, but ‘Ayyash left with the two men.
+The vow drew ‘Ayyash back towards Makkah, and on the road the brothers bound him, as ‘Umar had warned.
 
 ## hch_early_migration_q_two_voices
-level: expert
-scope: source_study
-answer: family
-sources: `sp_earlier_exp_h_23833_497_prep_785:p1–p3`, `sp_earlier_exp_h_23833_497_prep_786:p1`, `sp_earlier_exp_h_7478_982_ra_umar_hisham:p1–p2`, `sp_earlier_exp_h_7478_983_ra_umar_hisham:p1`, `sp_earlier_exp_h_23833_498_prep_cont:p1–p3`
+level: intermediate
+scope: lesson
+answer: c
+sources: `sp_earlier_exp_h_23833_498_prep_787:p1–p3`, `sp_earlier_exp_h_23833_499_prep_cont:p1–p4`, `sp_earlier_exp_h_7478_983_ra_umar_hisham:p1–p4`
 
-To whom is the addition about displaying ‘Ayyash bound before the people of Mecca attributed?
+What made Hisham ibn al-‘As, who had given way under trial, ride to join the Prophet ﷺ?
 
-### umar
+### a
 
-To ‘Umar in the same directly transmitted statement.
+A message from the Prophet ﷺ promising him safety
 
-> The addition begins with a new link of transmission from some of ‘Ayyash’s family.
+> No message of safety is told. What reached Hisham was a set of verses, written out by ‘Umar.
 
-### family
+### b
 
-To unnamed members of ‘Ayyash’s family in Ibn Ishaq’s transmission.
+‘Ayyash's escape, which showed him the road was open
 
-> Correct: the text separates the addition from ‘Ayyash’s family from ‘Umar’s words.
+> Nothing in the story ties Hisham's decision to ‘Ayyash. He was moved by verses of the Quran.
 
-### suhayb
+### c
 
-To Suhayb in Abu ‘Uthman’s report.
+Verses ‘Umar wrote out for him: "do not despair of the mercy of Allah"
 
-> Abu ‘Uthman’s report concerns Suhayb, not ‘Ayyash.
+> Right. Hisham read them at Dhu Tuwa until he understood they were about men like him, then mounted and rode.
 
 ### why
 
-Ibn Ishaq resumes the account of this display by saying that one of ‘Ayyash’s family told him of it.
+The emigrants had thought there was no repentance for those who gave way; the verses ‘Umar sent told Hisham otherwise.
 
 ## hch_early_migration_q_suhayb
 level: intermediate
 scope: lesson
-answer: wealth
-sources: `sp_earlier_exp_h_23833_500_prep_791:p2–p3`, `sp_earlier_exp_h_930_745_prep_suhayb:p1–p2`, `sp_earlier_exp_h_930_746_prep_suhayb:p1`
+answer: a
+sources: `sp_earlier_exp_h_23833_500_prep_791:p2–p3`
 
-What did Suhayb offer in Abu ‘Uthman’s report in Ibn Hisham, without importing details from the other route?
+What did Suhayb give Quraysh so that they would let him leave Makkah?
 
-### wealth
+### a
 
-His wealth in return for their letting him go.
+All the wealth he had made among them
 
-> Correct: the report mentions his wealth without specifying measures of gold or the two garments.
+> Right. He gave it all for his freedom, and the Prophet ﷺ said: "Suhayb has profited, Suhayb has profited."
 
-### camel
+### b
 
-‘Umar’s she-camel so that he could return to Mecca.
+His camel and his provisions for the road
 
-> The she-camel belongs to ‘Ayyash’s account, not the report about Suhayb.
+> Suhayb gave up far more than a camel: Quraysh would not let him leave with anything he had earned in Makkah.
 
-### clothes
+### c
 
-Measures of gold and two garments.
+A promise never to fight against them
 
-> The gold and garments occur in the route cited by Ibn Kathir, not in Abu ‘Uthman’s report in Ibn Hisham.
+> No promise is told. Quraysh's price was the wealth he had made among them.
 
 ### why
 
-Abu ‘Uthman’s report says he gave them his wealth; the measures of gold and two garments occur in the route about Suhayb quoted by Ibn Kathir.
+Suhayb traded everything he owned for the road to Madinah, and the Prophet ﷺ counted it a gain.
 
 ## hch_early_migration_q_salim
 level: beginner
 scope: lesson
-answer: quran
-sources: `sp_earlier_exp_h_7478_983_ra_salim:p1`, `sp_earlier_exp_h_7478_984_ra_salim:p1–p2`, `sp_earlier_exp_h_930_747_prep_salim:p1–p2`, `sp_earlier_exp_h_146_237_permission:p1–p2`, `sp_earlier_exp_h_146_238_early_migrants:p1`
+answer: c
+sources: `sp_earlier_exp_h_146_238_early_migrants:p1`, `sp_earlier_exp_h_7478_983_ra_salim:p1`
 
-Why did Salim lead the group in prayer in Ibn ‘Umar’s account in al-Bayhaqi?
+Why did the emigrants at Quba pray behind Salim, the freedman of Abu Hudhayfah?
 
-### age
+### a
 
-Because he was the oldest.
+He was the oldest of the emigrants
 
-> The account does not give age as the reason.
+> His age is not the reason given. He was chosen for what he knew.
 
-### host
+### b
 
-Because he owned the house in which they stayed.
+He was the host of the emigrants at Quba
 
-> The account does not say he was their host.
+> Salim was himself an emigrant; the Ansar were the hosts.
 
-### quran
+### c
 
-Because he knew the most Qur’an.
+He knew more of the Quran than any of them
 
-> Correct: that is the reason given in Ibn ‘Umar’s text.
+> Right. Until the Prophet ﷺ came, Salim led them because he knew the most Quran.
 
 ### why
 
-Ibn ‘Umar links Salim’s leading the prayer to his knowing more Qur’an than the others.
+Knowledge of the Quran, not rank, decided who led the emigrants in prayer; Salim was a freedman.
 
 ## hch_early_migration_q_places
 level: expert
 scope: source_study
-answer: different
-sources: `sp_earlier_exp_h_7478_983_ra_salim:p1`, `sp_earlier_exp_h_7478_984_ra_salim:p1–p2`, `sp_earlier_exp_h_930_747_prep_salim:p1–p2`, `sp_earlier_exp_h_146_237_permission:p1–p2`, `sp_earlier_exp_h_146_238_early_migrants:p1`
+answer: b
+sources: `sp_earlier_exp_h_146_238_early_migrants:p1`, `sp_earlier_exp_h_7478_983_ra_salim:p1`, `sp_earlier_exp_h_7478_984_ra_salim:p1–p2`, `sp_earlier_exp_h_930_747_prep_salim:p1–p2`
 
-Which place is named in Ibn Umar’s report as transmitted by al-Bayhaqi, and which place is named in the continuation by Ibn Sa‘d?
+Ibn Sa‘d and Ibn ‘Umar both say Salim led the prayer. How do their reports differ?
 
-### same
+### a
 
-Both texts name only al-‘Usba and give the same list of people.
+Ibn ‘Umar says Abu ‘Ubaydah led, not Salim
 
-> Al-Bayhaqi names al-‘Usba and Ibn Sa‘d names Quba; their lists are not worded identically.
+> Ibn ‘Umar also has Salim leading, because he knew the most Quran. The difference is in the group and the place.
 
-### different
+### b
 
-Ibn ‘Umar’s report names al-‘Usba, and Ibn Sa‘d’s continuation mentions Quba; the wording alone does not establish that the two places are identical.
+Ibn Sa‘d speaks of the emigrants at Quba; Ibn ‘Umar of a small group at al-‘Usbah
 
-> Correct: retain each report’s qualification of the location.
+> Right. Ibn ‘Umar names ‘Umar, Abu ‘Ubaydah and Salim, stopping at a place he calls al-‘Usbah.
 
-### no_place
+### c
 
-Neither names a location.
+Ibn Sa‘d places it after the Prophet ﷺ had arrived
 
-> One says al-‘Usba and the other says Quba.
+> Ibn Sa‘d says Salim led them before the Prophet ﷺ came. The difference is in who was there and where.
 
 ### why
 
-Each report describes the location in its own words; mentioning Quba does not prove that the name al-‘Usba refers to it in every route.
+Both agree on Salim and the reason; they differ on how many were with him and where they stopped.

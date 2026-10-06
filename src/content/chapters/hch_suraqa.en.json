@@ -1333,107 +1333,91 @@
             "step_id": "hch_suraqa",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What did Suraqa hope to do to earn Quraysh’s reward?",
+            "prompt": "Quraysh offered a reward for the Prophet ﷺ and Abu Bakr. What did Suraqah hope to do?",
             "options": [
                 {
                     "option_id": "report",
-                    "text": "Tell them which way the Prophet ﷺ had gone.",
-                    "feedback": "In Ibn Ishaq’s account, Suraqa hoped to return the Prophet ﷺ to them, not merely report his direction of travel."
+                    "text": "Tell Quraysh which way the Prophet ﷺ had gone",
+                    "feedback": "He wanted more than to pass on news: he meant to bring the Prophet ﷺ back himself and claim the reward."
                 },
                 {
                     "option_id": "return_prophet",
-                    "text": "Return the Prophet ﷺ to them and take the hundred she-camels.",
-                    "feedback": "Correct. Suraqa explicitly states this hope in Ibn Ishaq’s account."
+                    "text": "Bring the Prophet ﷺ back to Quraysh and take the hundred she-camels",
+                    "feedback": "Right. Suraqah said so himself: \"I hoped to bring him back to Quraysh and take the hundred she-camels.\""
                 },
                 {
-                    "option_id": "mounts",
-                    "text": "Return to them the two riding animals the travelers had used.",
-                    "feedback": "In this account, the hundred is for returning the Prophet ﷺ, not for recovering the two mounts."
+                    "option_id": "share",
+                    "text": "Lead his whole tribe out and share the reward with them",
+                    "feedback": "He did the opposite: he hid what he knew from his tribe so that the reward would be his alone."
                 }
             ],
-            "explanation": "Ibn Ishaq’s account promises one hundred she-camels to whoever returns the Prophet ﷺ to Quraysh; Suraqa says he hoped to return him and take the hundred.",
+            "explanation": "The price on the travellers' heads drew Suraqah into the chase; he hoped to bring the Prophet ﷺ back and win a hundred she-camels.",
             "scope_note": "",
             "source_unit_ids": [
+                "sp_suraqa_bukhari:p1",
                 "sp_suraqa_ibn_ishaq_start:p1",
-                "sp_suraqa_ibn_ishaq_start:p2",
-                "sp_suraqa_bukhari:p2",
-                "sp_suraqa_bukhari:p3",
-                "sp_suraqa_bukhari:p4",
-                "sp_suraqa_bukhari:p5",
-                "sp_suraqa_ibn_ishaq_reply:p1",
-                "sp_suraqa_ibn_ishaq_reply:p2",
-                "sp_suraqa_ibn_ishaq_reply:p3",
-                "sp_suraqa_ibn_ishaq_reply:p4",
-                "sp_suraqa_ibn_ishaq_end:p1"
+                "sp_suraqa_ibn_ishaq_start:p2"
             ],
             "correct_option_id": "return_prophet"
         },
         {
             "question_id": "hch_suraqa_q_concealment",
             "step_id": "hch_suraqa",
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Which description shows the difference between what Suraqa knew and what he said at the gathering?",
+            "prompt": "A man of Banu Mudlij said he had seen dark figures by the coast. What did Suraqah tell him?",
             "options": [
                 {
                     "option_id": "recognized_denied",
-                    "text": "He knew they were the Prophet ﷺ and his companions but told the man they were others.",
-                    "feedback": "Correct. He recognized the travelers from the report, then denied it before going after them."
+                    "text": "That they were other people, though he knew they were the Prophet ﷺ and his companions",
+                    "feedback": "Right. \"I knew that it was them,\" Suraqah said, but he told the man he had seen so-and-so, who had set out before their eyes."
                 },
                 {
                     "option_id": "doubted_agreed",
-                    "text": "He doubted they were the Prophet ﷺ and his companions but agreed with the man before the gathering.",
-                    "feedback": "The account says he knew they were the ones and then told the man the opposite."
+                    "text": "That he was right, and they should ride out together at once",
+                    "feedback": "Suraqah agreed with no one and asked no one along. He kept his knowledge to himself so he could go alone."
                 },
                 {
                     "option_id": "recognized_announced",
-                    "text": "He knew they were the Prophet ﷺ and his companions and told the gathering he would follow them.",
-                    "feedback": "He did not announce it: he denied recognizing them, remained for a while, then left and prepared his horse."
+                    "text": "That they were the Prophet ﷺ and his companions, and he would go after them",
+                    "feedback": "He announced nothing. He sat on in the gathering for a while, then slipped out by the back of his house."
                 }
             ],
-            "explanation": "What Suraqa said at the gathering concealed what he knew: he recognized the travelers, then directed the man to another explanation. Later he went out and prepared his horse and spear.",
+            "explanation": "Suraqah recognised the riders at once but denied it aloud: he meant to catch them himself.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_suraqa_bukhari:p1",
-                "sp_suraqa_bukhari:p2",
-                "sp_suraqa_bukhari:p3",
-                "sp_suraqa_bukhari:p4",
-                "sp_suraqa_bukhari:p5"
+                "sp_suraqa_ibn_ishaq_start:p1",
+                "sp_suraqa_ibn_ishaq_start:p2"
             ],
             "correct_option_id": "recognized_denied"
         },
         {
             "question_id": "hch_suraqa_q_persistence",
             "step_id": "hch_suraqa",
-            "difficulty": "beginner",
+            "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "What did Suraqa do after his first fall and the unwelcome result from the divining arrows?",
+            "prompt": "As Suraqah drew near, his horse stumbled and his arrows gave the answer he hated. What did he do next?",
             "options": [
                 {
                     "option_id": "returned",
-                    "text": "He went back to his people and abandoned the pursuit.",
-                    "feedback": "His return and diversion of the pursuers happen after the meeting, not after this first stumble."
+                    "text": "He gave up and rode home to his people",
+                    "feedback": "Not yet. He turned back only later, after his horse had sunk into the ground and he had spoken with the travellers."
                 },
                 {
-                    "option_id": "waited",
-                    "text": "He waited for the man from the gathering to confirm the travelers’ identity.",
-                    "feedback": "He had already recognized them. The account says he mounted and kept approaching."
+                    "option_id": "cast_again",
+                    "text": "He cast the arrows again and called out to ask for safety",
+                    "feedback": "That came later, after his horse's forelegs sank into the earth. At this first fall he was still set on the chase."
                 },
                 {
                     "option_id": "continued",
-                    "text": "He mounted his horse, defied the result, and kept approaching.",
-                    "feedback": "Correct. Neither the stumble nor the result of the divination stopped him from following the travelers."
+                    "text": "He mounted again, defying the arrows, and rode on",
+                    "feedback": "Right. He ignored the arrows and rode on until he could hear the Prophet ﷺ reciting."
                 }
             ],
-            "explanation": "After falling, Suraqa drew out the divining arrows, then mounted in defiance of the result. He continued his pursuit until he heard the Prophet ﷺ reciting.",
+            "explanation": "Neither the fall nor the arrows stopped Suraqah the first time; he defied them and closed in on the travellers.",
             "scope_note": "",
-            "source_unit_ids": [
-                "sp_suraqa_bukhari:p1",
-                "sp_suraqa_bukhari:p2",
-                "sp_suraqa_bukhari:p3",
-                "sp_suraqa_bukhari:p4",
-                "sp_suraqa_bukhari:p5"
-            ],
+            "source_unit_ids": ["sp_suraqa_bukhari:p2"],
             "correct_option_id": "continued"
         },
         {
@@ -1441,63 +1425,59 @@
             "step_id": "hch_suraqa",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "How did Suraqa describe the Prophet ﷺ and Abu Bakr when he came close enough to hear the recitation?",
+            "prompt": "When the horseman was two or three spear-lengths away, Abu Bakr wept. Why did he say he was weeping?",
             "options": [
                 {
-                    "option_id": "reversed",
-                    "text": "Abu Bakr was reciting without looking back, while the Prophet ﷺ kept looking back.",
-                    "feedback": "That reverses the account: the Prophet ﷺ was reciting without looking back, and Abu Bakr looked back often."
+                    "option_id": "himself",
+                    "text": "He feared for his own life",
+                    "feedback": "He said the opposite: \"By Allah, it is not for myself that I weep.\""
                 },
                 {
-                    "option_id": "reading",
-                    "text": "The Prophet ﷺ was reciting without looking back, while Abu Bakr looked back often.",
-                    "feedback": "Yes. These are the two actions Suraqa describes as he approached."
+                    "option_id": "prophet",
+                    "text": "He feared for the Prophet ﷺ",
+                    "feedback": "Right. \"It is not for myself that I weep,\" Abu Bakr said, \"but for you.\" The Prophet ﷺ then prayed, \"O Allah, suffice us however You will.\""
                 },
                 {
-                    "option_id": "both",
-                    "text": "Both interrupted their recitation to look back at the rider.",
-                    "feedback": "Suraqa does not say that. He says he heard the Prophet ﷺ reciting and that the Prophet did not look back."
+                    "option_id": "family",
+                    "text": "He had left his family behind in Makkah",
+                    "feedback": "His words were about the danger in front of them: \"it is not for myself that I weep, but for you.\""
                 }
             ],
-            "explanation": "Suraqa heard the Prophet ﷺ reciting and says he did not look back, whereas Abu Bakr looked back often.",
+            "explanation": "Abu Bakr's fear was for the Prophet ﷺ, who answered it with calm (\"Allah is with us\") and with prayer.",
             "scope_note": "",
             "source_unit_ids": [
-                "sp_suraqa_bukhari:p1",
-                "sp_suraqa_bukhari:p2",
-                "sp_suraqa_bukhari:p3",
-                "sp_suraqa_bukhari:p4",
-                "sp_suraqa_bukhari:p5"
+                "sp_suraqa_abu_bakr:p4",
+                "sp_suraqa_abu_bakr:p5",
+                "H-7478-1005-RA-BARA-SURAQA:p1"
             ],
-            "correct_option_id": "reading"
+            "correct_option_id": "prophet"
         },
         {
             "question_id": "hch_suraqa_q_change",
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "How did Suraqa’s view of the Prophet’s cause ﷺ change after he found himself unable to reach the travelers?",
+            "prompt": "After his horse sank into the earth and he was held back from them, what came into Suraqah's mind?",
             "options": [
                 {
                     "option_id": "success",
-                    "text": "It occurred to him that the Prophet’s cause ﷺ would prevail.",
-                    "feedback": "Correct. Suraqa links this thought to being held back from reaching them."
+                    "text": "That the cause of the Prophet ﷺ would prevail",
+                    "feedback": "Right. Being held back from them, he said, made him think the Prophet's ﷺ cause would prevail, and he asked for safety."
                 },
                 {
-                    "option_id": "bounty",
-                    "text": "He grew more certain that he would bring the Prophet ﷺ back and win the reward.",
-                    "feedback": "That reverses the change he relates: he called for safe conduct and thought the Prophet’s cause ﷺ would prevail."
+                    "option_id": "reward",
+                    "text": "That he must try once more to win the reward",
+                    "feedback": "He gave up the chase instead: he called out for safety and rode up to them as a friend."
                 },
                 {
-                    "option_id": "withdrawal",
-                    "text": "He thought Quraysh had withdrawn the reward, making the pursuit pointless.",
-                    "feedback": "No news of a withdrawn reward is mentioned. He links his changed outlook to what happened during the pursuit."
+                    "option_id": "wrong_riders",
+                    "text": "That he had been following the wrong riders",
+                    "feedback": "He never doubted who they were. It was what happened to his horse that changed his mind."
                 }
             ],
-            "explanation": "After the horse sank, struggled to pull free, and he saw what he saw, Suraqa called for safe conduct. He himself says that being kept from the travelers made him think the Prophet’s cause ﷺ would prevail.",
+            "explanation": "The horse sinking turned the hunter around: Suraqah saw that the Prophet's ﷺ cause would prevail.",
             "scope_note": "",
             "source_unit_ids": [
-                "sp_suraqa_bukhari:p1",
-                "sp_suraqa_bukhari:p2",
                 "sp_suraqa_bukhari:p3",
                 "sp_suraqa_bukhari:p4",
                 "sp_suraqa_bukhari:p5"
@@ -1509,32 +1489,31 @@
             "step_id": "hch_suraqa",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Suraqa offered provisions and goods, but nothing was taken from him. What did the Prophet ﷺ ask of him?",
+            "prompt": "Suraqah offered the travellers provisions and goods. What did the Prophet ﷺ ask of him?",
             "options": [
                 {
                     "option_id": "guide",
-                    "text": "To go ahead of the travelers and show them the way.",
-                    "feedback": "This passage does not mention a request to guide them; it reports a request to conceal news of them."
+                    "text": "To guide them on the road to Madinah",
+                    "feedback": "He asked for no guide. He asked only for silence."
                 },
                 {
-                    "option_id": "horse",
-                    "text": "To leave his horse for them to continue their journey.",
-                    "feedback": "The Prophet ﷺ did not ask for the horse in this account; he asked Suraqa to conceal news of them."
+                    "option_id": "herds",
+                    "text": "To give them an arrow and take what they needed from his herds",
+                    "feedback": "That was Suraqah's offer, not their request. \"We have no need of your camels and sheep,\" the Prophet ﷺ said."
                 },
                 {
                     "option_id": "conceal",
-                    "text": "To keep news of them secret and not lead people to them.",
-                    "feedback": "Yes. That is the meaning of his words ﷺ in the report: “Keep our whereabouts hidden.”"
+                    "text": "To keep their whereabouts hidden",
+                    "feedback": "Right. \"They took nothing from me and asked nothing of me,\" Suraqah said, \"except that he said: 'Keep our whereabouts hidden.'\""
                 }
             ],
-            "explanation": "The response was not to take provisions or goods: the Prophet ﷺ asked him to conceal news of the travelers.",
+            "explanation": "The Prophet ﷺ refused Suraqah's goods and asked one thing of him: to keep their whereabouts hidden.",
             "scope_note": "",
             "source_unit_ids": [
-                "sp_suraqa_bukhari:p1",
-                "sp_suraqa_bukhari:p2",
                 "sp_suraqa_bukhari:p3",
                 "sp_suraqa_bukhari:p4",
-                "sp_suraqa_bukhari:p5"
+                "sp_suraqa_bukhari:p5",
+                "H-7478-1005-RA-BARA-SURAQA:p1"
             ],
             "correct_option_id": "conceal"
         },
@@ -1543,38 +1522,33 @@
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "Which action on Suraqa’s return shows that he no longer sought to catch the travelers?",
+            "prompt": "What did Suraqah do on his way home after meeting the travellers?",
             "options": [
                 {
                     "option_id": "redirect",
-                    "text": "He diverted the pursuers he met from searching in that direction.",
-                    "feedback": "Correct. This is what Abu Bakr relates, explicitly saying Suraqa kept his word to them."
+                    "text": "He turned back every searcher he met, telling them the ground was already searched",
+                    "feedback": "Right. \"He did not meet anyone without turning him back,\" Abu Bakr said, \"and he kept his word to us.\""
                 },
                 {
-                    "option_id": "lead",
-                    "text": "He began riding ahead of the travelers to guide them to Madinah.",
-                    "feedback": "The account describes him turning back and diverting those he met, not guiding the travelers."
+                    "option_id": "letter",
+                    "text": "He showed the searchers his letter of safety as proof",
+                    "feedback": "He told no one what had passed between them. He kept the letter for years, until al-Ji‘ranah."
                 },
                 {
                     "option_id": "inform",
-                    "text": "He went to tell Quraysh where he had met the travelers.",
-                    "feedback": "That is the opposite of the reported diversion of pursuers and fulfillment of his promise."
+                    "text": "He told Quraysh where he had met the travellers",
+                    "feedback": "That would have broken his word. He sent pursuers home instead: \"You have been spared the search here.\""
                 }
             ],
-            "explanation": "Suraqa set out in pursuit, then returned and turned others away. Abu Bakr closes this passage by saying that Suraqa kept his word to them, so the promise did not remain mere words.",
+            "explanation": "The hunter became a shield: Suraqah used his name as a tracker to send every pursuer home.",
             "scope_note": "",
             "source_unit_ids": [
-                "sp_suraqa_abu_bakr:p1",
-                "sp_suraqa_abu_bakr:p2",
-                "sp_suraqa_abu_bakr:p3",
-                "sp_suraqa_abu_bakr:p4",
-                "sp_suraqa_abu_bakr:p5",
                 "sp_suraqa_abu_bakr:p6",
                 "sp_suraqa_abu_bakr:p7",
                 "sp_suraqa_abu_bakr:p8",
                 "sp_suraqa_abu_bakr:p9",
                 "sp_suraqa_abu_bakr:p10",
-                "sp_suraqa_abu_bakr:p11"
+                "H-146-244-MABAD-AND-SURAQA:p1"
             ],
             "correct_option_id": "redirect"
         },
@@ -1583,75 +1557,60 @@
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "In the two displayed readings, who relates preparing his horse and spear and drawing lots, and who recounts the prayer and the fulfilled promise to turn back the pursuers?",
+            "prompt": "Suraqah and Abu Bakr both told how the horse sank. How do their accounts differ?",
             "options": [
                 {
-                    "option_id": "reversed",
-                    "text": "Abu Bakr relates the first; Suraqa relates the second.",
-                    "feedback": "The displayed accounts are the reverse: Suraqa relates preparing his horse, and Abu Bakr is the source of the account of the prayer and fulfilled promise transmitted by al-Bara."
+                    "option_id": "swapped",
+                    "text": "Suraqah says it sank to its belly; Abu Bakr, its forelegs to the knees",
+                    "feedback": "This swaps them. Suraqah speaks of the forelegs to the knees; Abu Bakr of the horse sinking to its belly."
                 },
                 {
-                    "option_id": "voices",
-                    "text": "Suraqa relates the first; Abu Bakr relates the second.",
-                    "feedback": "Correct. This distinguishes the pursuer’s perspective from the companion’s account transmitted by al-Bara."
+                    "option_id": "knees_belly",
+                    "text": "Suraqah says its forelegs sank to the knees; Abu Bakr, that it sank to its belly",
+                    "feedback": "Right. The two men saw the moment from opposite ends, and each is told as he gave it."
                 },
                 {
-                    "option_id": "bara",
-                    "text": "Al-Bara relates both as an eyewitness to the events.",
-                    "feedback": "Al-Bara transmits Abu Bakr’s account; he is not the man with the horse and spear, nor the speaker of “we set out” in this report."
+                    "option_id": "stumbles",
+                    "text": "Suraqah says it stumbled twice; Abu Bakr, that it stumbled once",
+                    "feedback": "Two stumbles belong to Ibn Ishaq's telling of Suraqah's story, not to Abu Bakr's account."
                 }
             ],
-            "explanation": "Suraqa relates what he did before reaching the travelers and what happened to him. Abu Bakr relates the pursuer catching up, the prayer, and the fulfilled promise to divert the pursuers; al-Bara transmits his account in the al-Bayhaqi reading.",
+            "explanation": "The pursuer and the pursued remember the same moment differently: to the knees for Suraqah, to the belly for Abu Bakr.",
             "scope_note": "",
             "source_unit_ids": [
-                "sp_suraqa_bukhari:p1",
-                "sp_suraqa_bukhari:p2",
                 "sp_suraqa_bukhari:p3",
                 "sp_suraqa_bukhari:p4",
                 "sp_suraqa_bukhari:p5",
-                "sp_suraqa_abu_bakr:p1",
-                "sp_suraqa_abu_bakr:p2",
-                "sp_suraqa_abu_bakr:p3",
-                "sp_suraqa_abu_bakr:p4",
-                "sp_suraqa_abu_bakr:p5",
-                "sp_suraqa_abu_bakr:p6",
-                "sp_suraqa_abu_bakr:p7",
-                "sp_suraqa_abu_bakr:p8",
-                "sp_suraqa_abu_bakr:p9",
-                "sp_suraqa_abu_bakr:p10",
-                "sp_suraqa_abu_bakr:p11"
+                "H-7478-1005-RA-BARA-SURAQA:p1"
             ],
-            "correct_option_id": "voices"
+            "correct_option_id": "knees_belly"
         },
         {
             "question_id": "hch_suraqa_q_writers",
             "step_id": "hch_suraqa",
             "difficulty": "expert",
             "practice_scope": "source_study",
-            "prompt": "Which statement matches the writer’s name and the material of the letter in the two displayed texts?",
+            "prompt": "Who wrote Suraqah's letter of safety, and on what, in al-Bukhari and in Ibn Ishaq?",
             "options": [
                 {
                     "option_id": "swapped_writers",
-                    "text": "In al-Bukhari: Abu Bakr and a piece of leather; in Ibn Ishaq: Amir and a bone, scrap, or potsherd.",
-                    "feedback": "The materials are assigned to the right accounts here, but the writers’ names are reversed."
+                    "text": "Al-Bukhari: Abu Bakr, on leather; Ibn Ishaq: ‘Amir, on a bone, scrap or potsherd",
+                    "feedback": "The materials are right but the writers are swapped: al-Bukhari names ‘Amir ibn Fuhayrah, Ibn Ishaq names Abu Bakr."
                 },
                 {
                     "option_id": "swapped_materials",
-                    "text": "In al-Bukhari: Amir and a bone, scrap, or potsherd; in Ibn Ishaq: Abu Bakr and a piece of leather.",
-                    "feedback": "The names are assigned correctly, but the description of the material has been transferred from one account to the other."
+                    "text": "Al-Bukhari: ‘Amir, on a bone, scrap or potsherd; Ibn Ishaq: Abu Bakr, on leather",
+                    "feedback": "The writers are right but the materials are swapped: leather is al-Bukhari's, the bone, scrap or potsherd Ibn Ishaq's."
                 },
                 {
                     "option_id": "matched",
-                    "text": "In al-Bukhari: Amir and a piece of leather; in Ibn Ishaq: Abu Bakr and a bone, scrap, or potsherd.",
-                    "feedback": "Correct. Each name is paired with what its own text says about the letter’s material."
+                    "text": "Al-Bukhari: ‘Amir, on leather; Ibn Ishaq: Abu Bakr, on a bone, scrap or potsherd",
+                    "feedback": "Right. Al-Maqrizi gives both names, and a note on al-Shifa reports that ‘Amir wrote first and Abu Bakr afterwards."
                 }
             ],
-            "explanation": "Al-Bukhari names Amir ibn Fuhayrah and mentions a piece of leather. Ibn Ishaq has the instruction to Abu Bakr, followed by a description of the writing on a bone, a scrap, or a potsherd, with uncertainty about the material.",
+            "explanation": "The writer of the letter is a known difference: ‘Amir ibn Fuhayrah on leather in al-Bukhari, Abu Bakr on a bone, scrap or potsherd in Ibn Ishaq.",
             "scope_note": "",
             "source_unit_ids": [
-                "sp_suraqa_ibn_ishaq_start:p1",
-                "sp_suraqa_ibn_ishaq_start:p2",
-                "sp_suraqa_bukhari:p2",
                 "sp_suraqa_bukhari:p3",
                 "sp_suraqa_bukhari:p4",
                 "sp_suraqa_bukhari:p5",
@@ -1659,7 +1618,9 @@
                 "sp_suraqa_ibn_ishaq_reply:p2",
                 "sp_suraqa_ibn_ishaq_reply:p3",
                 "sp_suraqa_ibn_ishaq_reply:p4",
-                "sp_suraqa_ibn_ishaq_end:p1"
+                "sp_suraqa_ibn_ishaq_end:p1",
+                "H-1524-99-CF4-AMAN-WRITERS:p1",
+                "H-1753-358-CP2-AMAN-WRITERS:p1"
             ],
             "correct_option_id": "matched"
         },
@@ -1668,41 +1629,28 @@
             "step_id": "hch_suraqa",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "Who are the tullab (الطلب) whom Suraqa promises to turn back in Abu Bakr’s account?",
+            "prompt": "Suraqah swore \"la-u‘ammiyanna\" the tullab, \"I will blind the pursuers.\" What did he mean?",
             "options": [
                 {
-                    "option_id": "pursuers",
-                    "text": "Those following the travelers in order to catch them.",
-                    "feedback": "Correct. The context and explanation of the word show that these are their pursuers."
+                    "option_id": "hide",
+                    "text": "He would hide the travellers from those searching for them",
+                    "feedback": "Right. Isma‘il al-Isbahani explains it as \"I will hide you from them\", and Suraqah did so, turning every searcher back."
                 },
                 {
-                    "option_id": "emigrants",
-                    "text": "Emigrants seeking a route to Madinah.",
-                    "feedback": "That is not the intended group: Suraqa promises to turn back those following the travelers, not the emigrants."
+                    "option_id": "strike_blind",
+                    "text": "He would ask Allah to strike the pursuers blind",
+                    "feedback": "He was the one asking for prayer, to be freed from the sinking ground. The blinding was his promise of concealment."
                 },
                 {
-                    "option_id": "petitioners",
-                    "text": "People with needs who come to the Prophet ﷺ with questions.",
-                    "feedback": "Here the term means pursuers, not petitioners or people with needs in general."
+                    "option_id": "mislead",
+                    "text": "He would lead the pursuers off in the wrong direction by night",
+                    "feedback": "The word means hiding the travellers from them, not leading anyone on a false trail."
                 }
             ],
-            "explanation": "Al-Isbahani explains al-tullab (الطلب) by al-talib (الطالب), a term that can apply to one or several. Suraqa’s promise and his diversion of those he met show that the intended people are those pursuing the travelers.",
+            "explanation": "\"I will blind them\" was Suraqah's promise to hide the travellers; tullab can mean one pursuer or many.",
             "scope_note": "",
-            "source_unit_ids": [
-                "sp_suraqa_lexicon:p2",
-                "sp_suraqa_abu_bakr:p1",
-                "sp_suraqa_abu_bakr:p2",
-                "sp_suraqa_abu_bakr:p3",
-                "sp_suraqa_abu_bakr:p4",
-                "sp_suraqa_abu_bakr:p5",
-                "sp_suraqa_abu_bakr:p6",
-                "sp_suraqa_abu_bakr:p7",
-                "sp_suraqa_abu_bakr:p8",
-                "sp_suraqa_abu_bakr:p9",
-                "sp_suraqa_abu_bakr:p10",
-                "sp_suraqa_abu_bakr:p11"
-            ],
-            "correct_option_id": "pursuers"
+            "source_unit_ids": ["sp_suraqa_lexicon:p2", "H-7478-1005-RA-BARA-SURAQA:p1"],
+            "correct_option_id": "hide"
         }
     ]
 }

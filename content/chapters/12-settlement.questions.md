@@ -5,299 +5,299 @@
 ## hch_settlement_q_1
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_settlement_chapter_01:p1–p2`, `sp_settlement_chapter_02:p1`, `sp_settlement_chapter_03:p1–p2`, `sp_settlement_chapter_04:p1`, `sp_settlement_chapter_20:p1`, `sp_settlement_chapter_21:p1`, `sp_settlement_chapter_24:p1`
+answer: b
+sources: `sp_settlement_chapter_24:p1`, `sp_settlement_chapter_02:p1`
 
-Whom does Ibn Ishaq except from his statement that no migrants remained in Mecca?
+Whom did the Prophet ﷺ send from Abu Ayyub’s house to Makkah to bring his family?
 
-### right
+### a
 
-Those subjected to trial or held captive
+‘Abdullah ibn Urayqit, who was returning to Makkah
 
-> Correct; this is what the specified reading indicates.
+> Ibn Urayqit was sent by Abu Bakr, with word for his son ‘Abdullah to bring Abu Bakr’s household.
 
-### other
+### b
 
-Everyone who lived in Medina
+Zayd ibn Harithah and Abu Rafi‘
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Right. He sent the two of them with two camels and five hundred dirhams to bring his family.
 
-### third
+### c
 
-The occupants of the named houses
+Talhah ibn ‘Ubaydullah and ‘Abdullah ibn Abi Bakr
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> These two travelled with Abu Bakr’s household; the Prophet ﷺ sent Zayd and Abu Rafi‘ for his own.
 
 ### why
 
-Ibn Ishaq excludes those who were persecuted and those who were detained from his statement about the Muhajirun remaining in Makkah.
+Zayd ibn Harithah and Abu Rafi‘ went for the Prophet’s ﷺ family, while Abu Bakr sent word to his son through Ibn Urayqit.
 
 ## hch_settlement_q_2
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_settlement_chapter_01:p1–p2`, `sp_settlement_chapter_02:p1`, `sp_settlement_chapter_03:p1–p2`, `sp_settlement_chapter_04:p1`, `sp_settlement_chapter_20:p1`, `sp_settlement_chapter_21:p1`, `sp_settlement_chapter_24:p1`
+answer: c
+sources: `sp_settlement_chapter_04:p1`, `sp_settlement_chapter_24:p1`
 
-Whom did the Prophet ﷺ send in Ibn Hibban’s narrative to bring Sawda and his daughters?
+Zaynab, the Prophet’s ﷺ eldest daughter, was not among those who came to Madinah. Why not?
 
-### right
+### a
 
-Zayd ibn Haritha and Abu Rafi
+She had already gone ahead with her husband, ‘Uthman
 
-> Correct; this is what the specified reading indicates.
+> That was Ruqayyah, who had gone before with ‘Uthman ibn ‘Affan; Zaynab stayed behind in Makkah.
 
-### other
+### b
 
-Abd Allah ibn Abi Bakr alone
+She was too ill with fever to make the journey
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> The fever struck those already in Madinah; Zaynab stayed in Makkah because her husband held her back.
 
-### third
+### c
 
-Bilal and Abu Bakr
+Her husband, Abu al-‘As ibn al-Rabi‘, held her back in Makkah
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Right. Zaynab stayed behind, kept in Makkah by her husband.
 
 ### why
 
-Ibn Hibban recounts that Zayd ibn Haritha and Abu Rafi‘ were sent to Makkah to bring Sawda and the Prophet’s ﷺ daughters; he then mentions Abu Bakr sending Ibn Uraiqit concerning his family.
+Of the Prophet’s ﷺ daughters, Fatimah and Umm Kulthum came; Ruqayyah had gone before, and Zaynab was held back by her husband.
 
 ## hch_settlement_q_3
-level: intermediate
-scope: source_study
-answer: right
-sources: `sp_settlement_chapter_05:p1–p18`, `sp_settlement_chapter_06:p1–p22`, `sp_settlement_chapter_22:p1`, `sp_settlement_chapter_23:p1–p14`
+level: beginner
+scope: lesson
+answer: a
+sources: `sp_settlement_chapter_07:p1–p2`
 
-Does this passage mention Abd al-Rahman ibn Awf being made a brother to Sad ibn al-Rabi?
+Asma bint Abi Bakr set out when her pregnancy was at full term. Where was her son ‘Abdullah ibn al-Zubayr born?
 
-### right
+### a
 
-No; it mentions him with Uthman
+At Quba, where she stopped before Madinah
 
-> Correct; this is what the specified reading indicates.
+> Right. “I came to Madinah, stopped at Quba, and gave birth to him at Quba,” she said.
 
-### other
+### b
 
-Yes; it recounts their conversation in the market
+In Makkah, just before the family set out
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> She left Makkah still pregnant; the baby was born after she reached Quba.
 
-### third
+### c
 
-Yes; it calls Sad his brother
+In Madinah, in the house of Harithah ibn al-Nu‘man
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> The families lodged in Harithah’s house, but Asma had stopped at Quba and gave birth there.
 
 ### why
 
-In the continuation of Ibn Hibban’s report, Abd al-Rahman ibn Awf is mentioned, followed by the statement that he was paired with Uthman; this passage does not mention him being paired with Sa‘d ibn al-Rabi‘.
+Asma made the journey at full term and gave birth at Quba, on the edge of Madinah.
 
 ## hch_settlement_q_4
-level: beginner
+level: intermediate
 scope: lesson
-answer: right
-sources: `sp_settlement_chapter_07:p1–p2`, `sp_settlement_chapter_08:p1–p2`, `sp_settlement_chapter_09:p1–p2`
+answer: b
+sources: `sp_settlement_chapter_07:p1–p2`, `sp_settlement_chapter_09:p1–p2`
 
-Where does Asma say she gave birth to Abd Allah ibn al-Zubayr?
+When Asma laid her newborn in the Prophet’s ﷺ lap, what did he do?
 
-### right
+### a
 
-At Quba
+He named the baby and carried him into the mosque
 
-> Correct; this is what the specified reading indicates.
+> No naming or visit to the mosque is told; he gave the baby a chewed date and prayed for him.
 
-### other
+### b
 
-In Mecca
+He chewed a date, put it in the baby’s mouth, and prayed for him
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Right. The first thing to enter the child’s stomach was the Prophet’s ﷺ saliva, and he asked Allah to bless him.
 
-### third
+### c
 
-At al-Juhfa
+He gave him back and told her to rest at Quba
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> He kept the baby in his lap, rubbed a chewed date on his palate, and prayed for him.
 
 ### why
 
-Asma says that she settled in Quba and gave birth there to Abd Allah ibn al-Zubayr, then brought him to the Prophet ﷺ.
+The Prophet ﷺ gave ‘Abdullah ibn al-Zubayr a chewed date as his first food and prayed for blessing on him.
 
 ## hch_settlement_q_5
-level: beginner
-scope: lesson
-answer: right
-sources: `sp_settlement_chapter_07:p1–p2`, `sp_settlement_chapter_08:p1–p2`, `sp_settlement_chapter_09:p1–p2`
+level: expert
+scope: source_study
+answer: c
+sources: `sp_settlement_chapter_10:p1–p3`, `sp_settlement_chapter_11:p2–p3`, `sp_settlement_chapter_03:p1–p2`
 
-What does the follow-up report add about Asma?
+Al-Waqidi dates ‘Abdullah ibn al-Zubayr’s birth to the second year after the Hijrah. Why does Ibn Hajar prefer the first?
 
-### right
+### a
 
-That she migrated while pregnant
+Because Asma herself names the first year in her report
 
-> Correct; this is what the specified reading indicates.
+> Asma gives a place, Quba, but no date; the first year is Ibn Hajar’s conclusion.
 
-### other
+### b
 
-That she specified the day of birth
+Because al-Waqidi’s own report places the birth at Quba
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Al-Waqidi is the one Ibn Hajar sets aside; his reason is how soon Abu Bakr’s household arrived.
 
-### third
+### c
 
-That she named the location of her house
+Abu Bakr’s household came too soon after the Hijrah for a delay of twenty months
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Right. The families arrived while the mosque was being built, so the birth fell in the first year.
 
 ### why
 
-Al-Bukhari’s corroborating report adds that Asma migrated to the Prophet ﷺ while pregnant; it does not include the birth and tahnik scene found in the other report.
+Ibn Hajar ties the birth to the families’ early arrival, during the building of the mosque, and so sets aside al-Waqidi’s second year.
 
 ## hch_settlement_q_6
-level: beginner
+level: intermediate
 scope: lesson
-answer: right
-sources: `sp_settlement_chapter_07:p1–p2`, `sp_settlement_chapter_08:p1–p2`, `sp_settlement_chapter_09:p1–p2`
+answer: a
+sources: `H-146-249-FRATERNITY-A`, `H-146-250-FRATERNITY-B`
 
-What does Aisha’s account relate about the newborn?
+At first, men made brothers in the pact inherited from one another. What brought that to an end?
 
-### right
+### a
 
-A date the Prophet ﷺ chewed and placed in the baby’s mouth
+The verse “And blood relatives are nearer to one another in the Book of Allah”, after Badr
 
-> Correct; this is what the specified reading indicates.
+> Right. After the verse was revealed, each man’s heirs were once again his own family.
 
-### other
+### b
 
-The prayer to move the fever to al-Juhfa
+The arrival of the emigrants’ families from Makkah
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> The families arrived while the mosque was being built; the inheritance lasted until after Badr.
 
-### third
+### c
 
-The account of brotherhood with Uthman
+The deaths of As‘ad ibn Zurarah and Kulthum ibn al-Hidm
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Those deaths came in the first months; inheritance between brothers ended later, with a verse revealed after Badr.
 
 ### why
 
-In Aisha’s report, the Prophet ﷺ took a date, chewed it, then placed it in Abd Allah ibn al-Zubayr’s mouth; this report does not state where he was born.
+The brotherhood joined emigrants and Ansar to share what they had; inheriting from one another ended after Badr, with the verse on blood relatives.
 
 ## hch_settlement_q_7
-level: intermediate
-scope: source_study
-answer: right
-sources: `sp_settlement_chapter_10:p1–p3`, `sp_settlement_chapter_11:p1–p3`
+level: beginner
+scope: lesson
+answer: b
+sources: `sp_settlement_chapter_20:p1`, `H-9898-138-prep-2`, `H-9783-1022-FIRST-DEATHS`, `sp_settlement_chapter_21:p1`
 
-To whom does the preference for the first year belong in the reading shown?
+Who was the first Muslim to be buried in al-Baqi‘, the burial ground of Madinah?
 
-### right
+### a
 
-Ibn Hajar, in his commentary
+Al-Bara ibn Ma‘rur, who asked to face the Ka‘bah in his grave
 
-> Correct; this is what the specified reading indicates.
+> Al-Bara died a month before the Prophet ﷺ came; on arriving, the Prophet ﷺ prayed at his grave.
 
-### other
+### b
 
-An explicit date in Asma’s words
+As‘ad ibn Zurarah, who died while the mosque was being built
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Right. A sickness of the throat took him, and he was the first Muslim buried in al-Baqi‘.
 
-### third
+### c
 
-According to al-Waqidi
+Kulthum ibn al-Hidm, who had been the Prophet’s ﷺ host
 
-> According to Ibn Hajar, al-Waqidi and those who followed him were certain it was the second year; they did not prefer the first year.
+> Kulthum died a short while after the Prophet’s ﷺ coming, but the first burial in al-Baqi‘ was As‘ad’s.
 
 ### why
 
-Ibn Hajar considers Abd Allah ibn al-Zubayr’s birth to have been in the first year, contrary to al-Waqidi and those who followed him, who were certain it was in the second year. This is Ibn Hajar’s preference in his commentary, not an explicit date in Asma’s words.
+As‘ad ibn Zurarah died during the building of the mosque and was the first Muslim laid in al-Baqi‘.
 
 ## hch_settlement_q_8
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_settlement_chapter_12:p1–p7`, `sp_settlement_chapter_13:p1–p2`, `sp_settlement_chapter_14:p1–p3`, `sp_settlement_chapter_15:p1`
+answer: c
+sources: `sp_settlement_chapter_12:p1–p7`, `sp_settlement_chapter_18:p1–p3`
 
-Who spoke the verses longing for the valley and Majanna?
+Who, when the fever left him, longed aloud for a valley of idhkhir grass and the waters of Majannah?
 
-### right
-
-Bilal
-
-> Correct; this is what the specified reading indicates.
-
-### other
+### a
 
 Abu Bakr
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Abu Bakr’s line was about death being nearer than the strap of his sandal.
 
-### third
+### b
 
-The Prophet ﷺ
+‘Amir ibn Fuhayrah
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> ‘Amir answered ‘Aishah that he had found death before he tasted it.
+
+### c
+
+Bilal
+
+> Right. Bilal longed for the valleys and springs near Makkah: Majannah, Shamah and Tafil.
 
 ### why
 
-Aisha attributes the verses about al-Wadi and Majanna to Bilal, and mentions Abu Bakr’s verses about the fever before them.
+Bilal’s verses named places near Makkah he longed to see again, while the fever had the newcomers in its grip.
 
 ## hch_settlement_q_9
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_settlement_chapter_12:p1–p7`, `sp_settlement_chapter_13:p1–p2`, `sp_settlement_chapter_14:p1–p3`, `sp_settlement_chapter_15:p1`
+answer: a
+sources: `sp_settlement_chapter_14:p1–p3`, `sp_settlement_chapter_12:p1–p7`
 
-What does the Prophet’s prayer ask for in Muslim’s version?
+After ‘Aishah told him of the fever, what did the Prophet ﷺ ask Allah for Madinah?
 
-### right
+### a
 
-Love of Medina, its health, blessing in its measures, and transfer of the fever
+To make it dear to them like Makkah or dearer, healthy, and to take its fever away
 
-> Correct; this is what the specified reading indicates.
+> Right. He also asked for blessing in its sa‘ and mudd, and for the fever to go to al-Juhfah.
 
-### other
+### b
 
-A date for the birth of Ibn al-Zubayr
+To bring them back safely to Makkah once the fever passed
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> He did not pray to return; he asked that Madinah be made as dear to them as Makkah, or dearer.
 
-### third
+### c
 
-The migration of all migrants with their possessions
+To punish those who had driven them out to a land of plague
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> That was Bilal’s curse on ‘Utbah, Shaybah and Umayyah; the Prophet ﷺ prayed for the city itself.
 
 ### why
 
-After describing the epidemic in Madinah and the illness of Abu Bakr and Bilal, Aisha recounts the Prophet’s ﷺ prayer for love of Madinah, its health, blessing in its sa‘ and mudd, and for its fever to be moved to al-Juhfa.
+The Prophet ﷺ prayed for Madinah to become dear and healthy, blessed in its food, and freed of its fever.
 
 ## hch_settlement_q_10
 level: intermediate
 scope: source_study
-answer: right
-sources: `sp_settlement_chapter_16:p1–p4`, `sp_settlement_chapter_17:p1–p3`, `sp_settlement_chapter_18:p1–p7`, `sp_settlement_chapter_19:p1–p4`
+answer: b
+sources: `sp_settlement_chapter_19:p2–p4`, `sp_settlement_chapter_12:p1–p7`
 
-To whom are the additional verses attributed in Ibn Hajar’s quotation from Ibn Ishaq?
+Where do ‘Amir ibn Fuhayrah’s verse and ‘Aishah’s words “they are raving” come from?
 
-### right
+### a
 
-Amir ibn Fuhayra
+‘Aishah’s report in al-Bukhari through Malik, with Bilal’s verses
 
-> Correct; this is what the specified reading indicates.
+> That report gives Abu Bakr’s line, Bilal’s verses and the prayer, but not ‘Amir’s verse.
 
-### other
+### b
 
-Bilal alone
+An addition Ibn Ishaq transmits from ‘Aishah, quoted by Ibn Hajar
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Right. Malik has ‘Amir’s verse in al-Muwatta only with a broken chain.
 
-### third
+### c
 
-Al-Khattabi
+Ibn Hibban’s scene, without a chain, of people praying sitting down
 
-> That is not what the selected text says; check who is speaking and the limits of the account.
+> Ibn Hibban’s chainless scene tells of the prayer “twice the blessing”, not ‘Amir’s verse.
 
 ### why
 
-Ibn Hajar transmits from Ibn Ishaq an additional account in which Aisha asks Amir ibn Fuhayra and he recites his verses; he then notes that Malik’s chain for this addition from Aisha is disconnected.
+‘Amir’s verse and ‘Aishah’s “they are raving” rest on Ibn Ishaq’s addition; al-Bukhari’s report through Malik gives Abu Bakr’s and Bilal’s verses.

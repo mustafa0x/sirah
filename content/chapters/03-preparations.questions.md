@@ -5,299 +5,335 @@
 ## hch_preparations_q_waiting
 level: beginner
 scope: lesson
-answer: correct
-sources: `sp_permission_h_1681_5899_wait:p1`
+answer: b
+sources: `sp_permission_h_23833_503_800:p1`, `sp_permission_h_1681_5899_wait:p1`
 
-How did the course of those Muslims who migrated differ from Abu Bakr’s position in ‘A’isha’s account?
+Abu Bakr asked again and again for permission to emigrate. What did the Prophet ﷺ tell him?
 
-### correct
+### a
 
-Those who migrated did so; the Prophet ﷺ asked Abu Bakr to wait, and he held himself back in hope of accompanying him.
+"Go ahead; I will join you in Madinah."
 
-> Yes: some Muslims began migrating while Abu Bakr waited to accompany him.
+> Abu Bakr was not sent ahead like the others. He was asked to wait, and he stayed in Makkah.
 
-### alternative_a
+### b
 
-All the Muslims waited until Abu Bakr left first.
+"Do not hurry. Perhaps Allah will give you a companion."
 
-> The text mentions the departure of some migrants before Abu Bakr remained behind waiting.
+> Right. Each time he gave the same answer, and Abu Bakr hoped the companion would be the Prophet ﷺ himself.
 
-### alternative_b
+### c
 
-Abu Bakr prevented the Muslims from migrating until the Prophet ﷺ received permission.
+"Stay and guard the Muslims left behind in Makkah."
 
-> The report says nothing of preventing others; only that Abu Bakr himself waited.
+> Guarding others was not the reason given. The answer pointed to a companion for the road.
 
 ### why
 
-The departure of some Muslims for Medina does not negate the Prophet’s waiting for permission ﷺ or Abu Bakr’s holding back to accompany him.
+"Do not hurry" held Abu Bakr back, and the hint of a companion is what he waited for.
 
 ## hch_preparations_q_four_months
 level: beginner
 scope: lesson
-answer: correct
-sources: `sp_permission_h_1681_5899_wait:p1`
+answer: c
+sources: `sp_permission_h_1681_5899_wait:p1`, `sp_permission_h_23833_507_804:p1`
 
-What activity do the “four months” refer to in the account of the two mounts?
+What did Abu Bakr do for four months while he waited?
 
-### correct
+### a
 
-Abu Bakr feeding the two mounts samur leaves.
+He sold his trade goods to pay for the journey.
 
-> Correct: the duration follows the description of feeding them.
+> Nothing is said of selling goods. He spent his means on two camels and on keeping them fed.
 
-### alternative_a
+### b
 
-The journey from Mecca to Medina.
+He travelled to Madinah and back to prepare a house.
 
-> The report does not make it the journey’s length; it follows the feeding of the mounts.
+> Abu Bakr stayed in Makkah the whole time, waiting to travel with the Prophet ﷺ.
 
-### alternative_b
+### c
 
-Their stay in the cave.
+He fed two riding camels on samur leaves to keep them ready.
 
-> This is the time spent feeding them before departure, not the stay in the cave.
+> Right. He bought two camels, kept them at his house and fed them on samur, a desert acacia, for the day they would be needed.
+
+### d
+
+He searched the desert roads for a safe way north.
+
+> Finding the way was left to a hired guide. Abu Bakr's own work was keeping the camels ready.
 
 ### why
 
-Observe where the duration appears: “he fed two riding animals ... for four months.”
+The four months are the time Abu Bakr spent feeding the camels while he waited, not the length of the journey.
 
 ## hch_preparations_q_visit
 level: beginner
 scope: lesson
-answer: correct
-sources: `sp_permission_h_1681_5899_visit:p1`
+answer: a
+sources: `sp_permission_h_23833_507_805:p1–p2`, `sp_permission_h_1681_5899_visit:p1`
 
-What made the Prophet’s arrival ﷺ at Abu Bakr’s house noteworthy in ‘A’isha’s account?
+Why was Abu Bakr sure something important was happening when the Prophet ﷺ came to his door?
 
-### correct
+### a
 
-He came at the height of midday, at an hour when he did not usually visit them.
+He came in the full heat of noon, an hour he never came.
 
-> Correct: the unusual time is what marks the visit in the report.
+> Right. He usually came morning or evening, so a visit at noon, with his head covered, could only mean something important.
 
-### alternative_a
+### b
 
-He arrived with the two mounts at the door.
+He came with the two camels ready at the door.
 
-> This passage does not say he brought the mounts.
+> The camels were in Abu Bakr's own house. The Prophet ﷺ came alone, at an unusual hour.
 
-### alternative_b
+### c
 
-He sent a messenger whom the report names instead of coming himself.
+He sent a messenger to call Abu Bakr outside.
 
-> The person announced that the Prophet ﷺ was coming; the Prophet then asked permission to enter and came in.
+> He came himself, asked to come in and was let in.
 
 ### why
 
-The description of the time and “at an hour when he did not come to us” explain why Abu Bakr inferred that something had prompted the visit.
+The Prophet ﷺ came every day, but never at noon; the hour itself told Abu Bakr that this visit was different.
 
 ## hch_preparations_q_companionship
 level: beginner
 scope: lesson
-answer: correct
-sources: `sp_permission_h_1681_5899_visit:p1`
+answer: d
+sources: `sp_permission_h_23833_508_cont:p1`, `sp_permission_h_1681_5899_visit:p1`
 
-Who asked to accompany the other after permission to depart was announced, and what was the reply?
+When the Prophet ﷺ said that Allah had given him permission to leave, what did Abu Bakr ask?
 
-### correct
+### a
 
-Abu Bakr asked and the Prophet ﷺ answered yes.
+Whether ‘Aishah and Asma could come with them.
 
-> Correct: Abu Bakr asked and the Prophet ﷺ replied.
+> He had only told the Prophet ﷺ that the two were his daughters. His question was about himself.
 
-### alternative_a
+### b
 
-‘A’isha asked, and Abu Bakr answered her yes.
+Which road they would take to Madinah.
 
-> ‘A’isha reports the conversation; she is not the person asking in it.
+> The road came later, with the guide. Abu Bakr's first thought was whether he would go too.
 
-### alternative_b
+### c
 
-The Prophet ﷺ asked about companionship, and Abu Bakr declined.
+How long he should wait before following.
 
-> In the text Abu Bakr asks and the reply is yes.
+> He had waited long enough. He asked whether he could go now, with the Prophet ﷺ.
+
+### d
+
+"Companionship, Messenger of Allah?"
+
+> Right. He asked to go with him, and the Prophet ﷺ answered with the same word: "Companionship."
 
 ### why
 
-The request for companionship comes between the announcement of permission and Abu Bakr’s offer of a mount.
+The companion Abu Bakr had hoped for through all those months turned out to be the Prophet ﷺ himself.
 
 ## hch_preparations_q_joy
 level: intermediate
-scope: source_study
-answer: correct
-sources: `sp_permission_h_1681_5899_visit:p1`, `sp_permission_h_23833_507_805:p1–p2`, `sp_permission_h_23833_508_cont:p1`
+scope: lesson
+answer: b
+sources: `sp_permission_h_23833_508_cont:p1`
 
-Who reports Abu Bakr’s tears of joy in Ibn Ishaq’s account in Ibn Hisham?
+What did ‘Aishah say she learned that day, watching her father?
 
-### correct
+### a
 
-‘A’isha, who says she saw him weeping that day.
+That a man could keep a secret even from his own family.
 
-> Correct: the text attributes this observation to ‘A’isha.
+> The family was in the room and heard the news. What struck ‘Aishah was her father's tears.
 
-### alternative_a
+### b
 
-Ibn Hisham, as an eyewitness present in Abu Bakr’s house.
+That anyone could weep for joy.
 
-> Ibn Hisham transmits ‘A’isha’s account and does not describe himself as a witness to the visit.
+> Right. "Before that day I never knew that anyone could weep for joy," she said, "until I saw Abu Bakr weeping that day."
 
-### alternative_b
+### c
 
-The unnamed person who announced the Prophet’s arrival ﷺ.
+That her father had been afraid of the journey all along.
 
-> That person appears in al-Bukhari’s account of the visit, not as the narrator of the tears here.
+> His tears were not of fear. He had waited months for this, and he wept for joy.
 
 ### why
 
-The reading moves from Ibn Ishaq’s chain to ‘A’isha’s words, which identify who described the tears of joy.
+Abu Bakr's tears at the word "Companionship" were the moment ‘Aishah never forgot.
 
 ## hch_preparations_q_price
 level: intermediate
-scope: source_study
-answer: correct
-sources: `sp_permission_h_23833_509_810:p1`, `sp_permission_h_23833_510_cont:p1`
+scope: lesson
+answer: c
+sources: `sp_permission_h_1681_5899_visit:p1`, `sp_permission_h_23833_508_cont:p1`
 
-What does the price dialogue in Ibn Ishaq establish, without adding anything from outside it?
+Abu Bakr offered the Prophet ﷺ one of his two camels. How did he answer?
 
-### correct
+### a
 
-The Prophet ﷺ asked what the mount had cost and took it at that price; the amount is given only as “such and such.”
+He accepted it as a gift from his companion.
 
-> Yes: the dialogue establishes payment without specifying a number.
+> He did not take it for nothing. His answer set a price on it.
 
-### alternative_a
+### b
 
-He accepted the mount as a gift without asking its price.
+He refused it and chose to walk.
 
-> The text describes the offer as a gift, then its rejection and the question about price.
+> He did not refuse the camel; he agreed to take it.
 
-### alternative_b
+### c
 
-Abu Bakr gave an exact numerical amount preserved in the excerpt.
+"At its price."
 
-> The reply preserved here is “such and such,” with no number.
+> Right. He would take the camel, but only by paying for it.
+
+### d
+
+He said he would ride behind Abu Bakr.
+
+> He took a camel of his own, one of the two Abu Bakr had kept ready.
 
 ### why
 
-The answer “such and such” rules out supplying a specific amount, although the decision to take the mount for a price is clear.
+The Prophet ﷺ took the camel Abu Bakr offered, on condition that he pay for it.
 
 ## hch_preparations_q_voices
 level: intermediate
-scope: source_study
-answer: correct
-sources: `sp_provisions_aisha:p1`, `sp_provisions_asma_house:p1`
+scope: lesson
+answer: a
+sources: `sp_permission_h_23833_508_cont:p1`, `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
 
-Which description preserves the difference between the two speakers’ pronouns in the preparation accounts?
+What did the Prophet ﷺ and Abu Bakr agree with their guide, ‘Abdullah ibn Urayqit?
 
-### correct
+### a
 
-‘A’isha says “we equipped them” in the plural; Asma says “I made the provisions” in her own voice.
+To bring the camels to the cave of Thawr after three nights.
 
-> Correct: this preserves both the plural and Asma’s direct action.
+> Right. They handed him the camels, and he was to bring them to Thawr on the morning of the third, then lead them by the coast.
 
-### alternative_a
+### b
 
-‘A’isha alone says “I made the provisions,” and Asma does not mention her work.
+To lead them out of Makkah that same night.
 
-> “I made” comes from Asma’s account; ‘A’isha’s uses the plural.
+> They left Makkah without him. He kept the camels and met them later, at the cave.
 
-### alternative_b
+### c
 
-Both accounts attribute making the provisions solely to ‘A’isha in the singular.
+To ride ahead and tell Madinah they were coming.
 
-> Asma’s account uses the first-person singular; ‘A’isha’s uses the plural.
+> His task was the camels and the road, not carrying news.
+
+### d
+
+To keep the camels until ‘Ali reached Madinah.
+
+> The appointment was at Thawr, after three nights, with the Prophet ﷺ and Abu Bakr.
 
 ### why
 
-‘A’isha’s use of the plural does not mean she named every participant, and Asma’s own action does not erase that plural.
+Though he still followed the religion of Quraysh, they trusted the guide with their camels and set a time and place to meet: Thawr, after three nights.
 
 ## hch_preparations_q_waist_variants
-level: intermediate
-scope: source_study
-answer: correct
-sources: `sp_provisions_aisha:p1`, `sp_provisions_asma_house:p1`
+level: beginner
+scope: lesson
+answer: d
+sources: `sp_provisions_asma_house:p1`
 
-What difference between ‘A’isha’s and Asma’s accounts of tying the waistband should we preserve?
+How did Asma come to be called Dhat al-Nitaqayn, "she of the two waistbands"?
 
-### correct
+### a
 
-‘A’isha mentions a piece tied around the bag’s mouth; Asma mentions splitting the waistband to tie the waterskin and provisions.
+She wore two waistbands on the night of the departure.
 
-> Correct: the detail about the waterskin belongs to Asma’s account, not ‘A’isha’s excerpt.
+> She had one waistband. The name came from what she did with it.
 
-### alternative_a
+### b
 
-‘A’isha describes two pieces for the waterskin and provisions; Asma mentions only the bag’s mouth.
+Her father gave her two waistbands for packing the food.
 
-> This reverses which account gives which details.
+> Abu Bakr gave her an instruction, not a gift: "Split it in two."
 
-### alternative_b
+### c
 
-Both describe tying only the waterskin, with no provisions or bag.
+She carried food to the cave twice a day.
 
-> Both readings address the provisions; Asma also specifies the waterskin.
+> The name comes from the packing in her father's house, not from trips to the cave.
+
+### d
+
+She split her waistband to tie the waterskin and the food bag.
+
+> Right. Finding nothing else to tie them with, she split it in two on her father's word, one piece for each.
 
 ### why
 
-In ‘A’isha’s excerpt, “the woman of the waistband” accompanies a piece tied to the bag’s mouth; in Asma’s account, “the woman of the two waistbands” accompanies splitting it to tie two containers.
+With nothing to tie the provisions, Asma split her own waistband, and the name stayed with her from that day.
 
 ## hch_preparations_q_hisham_voice
 level: expert
 scope: source_study
-answer: correct
-sources: `sp_provisions_ishaq_cave:p1`, `sp_provisions_hisham_names:p1–p3`, `sp_provisions_asma_house:p1`
+answer: b
+sources: `sp_provisions_ishaq_cave:p1`, `sp_provisions_hisham_names:p1–p3`, `sp_thawr_exp_h_146_241_support_and_guide:p2–p3`
 
-In Ibn Hisham’s continuation of the provisions scene, where does his distinct voice appear, as opposed to Ibn Ishaq’s narrative?
+Ibn Ishaq places Asma's waistband at the cave. How does Ibn Hisham explain the name "she of the two waistbands"?
 
-### correct
+### a
 
-In his statement that he heard more than one scholar say “the woman of the two waistbands,” followed by his explanation of splitting the waistband.
+One half tied the bag; the other became a strap for the waterskin.
 
-> Correct: his comment follows the title at the end of the earlier narrative.
+> That is al-Waqidi's telling, recorded by Ibn Sa‘d, which joins the two other accounts.
 
-### alternative_a
+### b
 
-In Asma’s words “I made the provisions” as reported by al-Bukhari.
+She hung the food with one half and wore the other.
 
-> Those are Asma’s words in another reading, not Ibn Hisham’s comment.
+> Right. Ibn Hisham says scholars he heard gave her the name because she hung the food with one half and wore the other.
 
-### alternative_b
+### c
 
-In the sentence ending Ibn Ishaq’s narrative with “the woman of the waistband.”
+She tied the waterskin and the food bag, one piece each.
 
-> That ends the narrative before Ibn Hisham’s comment.
+> That is Asma's own account, set at the packing in her father's house.
+
+### d
+
+She cut off one piece and tied the mouth of the food bag.
+
+> That is ‘Aishah's telling, which gives the name as "she of the waistband".
 
 ### why
 
-The reading separates the end of Ibn Ishaq’s narrative from “Ibn Hisham said” and the report and interpretation that follow.
+Each account explains the waistband a little differently; Ibn Hisham's has one half for the food and the other still worn.
 
 ## hch_preparations_q_stones
 level: intermediate
 scope: source_study
-answer: correct
-sources: `sp_provisions_quhafa:p1–p2`
+answer: c
+sources: `sp_permission_h_1681_5899_visit:p1`, `sp_permission_h_23833_507_805:p1–p2`, `sp_permission_h_23833_508_cont:p1`
 
-How does Asma explain placing stones where her father’s money might have been after his departure?
+The noon visit comes from ‘Aishah in two lines, al-Zuhri's in al-Bukhari and Ibn Ishaq's. Which detail only Ibn Ishaq's line gives?
 
-### correct
+### a
 
-She wanted to soothe her worried grandfather and says her father left them nothing.
+The Prophet ﷺ came with his head covered.
 
-> Correct: Asma ends by explaining her purpose.
+> That detail is in al-Zuhri's line, recorded by al-Bukhari.
 
-### alternative_a
+### b
 
-The stones were money Abu Bakr left for her grandfather to spend.
+The Prophet ﷺ answered the offer of a camel with "At its price."
 
-> Asma explicitly says they were stones and that her father left them nothing.
+> Those two words are al-Bukhari's. Ibn Ishaq tells the price exchange more fully, and later, at the cave.
 
-### alternative_b
+### c
 
-She wanted to prove that the amount was five thousand, not six.
+Only ‘Aishah and Asma were with Abu Bakr.
 
-> The account wavers between five and six thousand; the stones do not prove either sum.
+> Right. Ibn Ishaq's line adds that the two daughters were the only ones present, as well as the daily visits and Abu Bakr's tears.
 
 ### why
 
-Her initial words to her grandfather were meant to reassure him, not to prove that money remained in the recess; the uncertainty between the two sums remains.
+The story joins both lines into one scene; the daily habit, the two daughters and the tears come from Ibn Ishaq, the covered head and "At its price" from al-Bukhari.

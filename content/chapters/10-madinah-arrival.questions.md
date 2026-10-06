@@ -5,299 +5,311 @@
 ## hch_madinah_arrival_q_01
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_madinah_chapter_06:p1–p4`
+answer: c
+sources: `sp_madinah_chapter_17:p1–p2`
 
-What does al-Bara’ describe upon the Prophet’s ﷺ arrival?
+Riding out of Quba on a Friday, where did the Prophet ﷺ pray his first Friday prayer in Madinah?
 
-### right
+### a
 
-The people of Madinah rejoiced, and even the slave girls said: “The Messenger of God ﷺ has arrived.”
+At Quba, before he set out
 
-> Yes; this is the meaning given in the reading.
+> He rode out of Quba on the Friday; the time for the prayer came later, on the road.
 
-### other
+### b
 
-The people did not know he had arrived.
+At the yard where his camel knelt
 
-> This is not what the specified text in the reading relates.
+> The camel knelt at the end of the ride, among Banu Malik ibn al-Najjar. The prayer came earlier, at the start of the road.
 
-### third
+### c
 
-The exact hour of his arrival was established.
+Among Banu Salim ibn ‘Awf, in the valley of Ranuna
 
-> This is not what the specified text in the reading relates.
+> Right. The time for the Friday prayer came while he was among Banu Salim, and he prayed it in their mosque in the bed of the valley.
+
+### d
+
+In Abu Ayyub's house, after he dismounted
+
+> Abu Ayyub's house was where he lodged at the end of the day. The Friday prayer had already been prayed among Banu Salim.
 
 ### why
 
-Al-Bara’ describes the people of Madinah rejoicing over the Messenger of God ﷺ, so much so that the slave girls would say: “The Messenger of God ﷺ has arrived.”
+The first Friday prayer the Prophet ﷺ prayed in Madinah was on the road from Quba, among Banu Salim ibn ‘Awf in the valley of Ranuna.
 
 ## hch_madinah_arrival_q_02
-level: intermediate
-scope: source_study
-answer: right
-sources: `sp_madinah_chapter_04:p1–p2`, `sp_madinah_chapter_05:p1`
+level: beginner
+scope: lesson
+answer: a
+sources: `sp_madinah_chapter_01:p1–p3`, `sp_madinah_chapter_02:p1–p6`
 
-How is Anas’s short statement about the day of arrival completed?
+Clan after clan offered the Prophet ﷺ their numbers, arms and strength. What did he answer each one?
 
-### right
+### a
 
-It begins in a selection from one page and continues on the next page.
+"Let her go her way; she is under orders."
 
-> Yes; this is the meaning given in the reading.
+> Right. He meant his camel. Each clan stood aside, and she walked on until she knelt where Allah willed.
 
-### other
+### b
 
-It is a self-contained text with no continuation.
+"I will stay with whoever reaches me first."
 
-> This is not what the specified text in the reading relates.
+> He made no such promise. He left the choice to his camel, not to the clans.
 
-### third
+### c
 
-It occurs only in Ibn Hajar’s commentary.
+"I will stay with my mother's people."
 
-> This is not what the specified text in the reading relates.
+> Banu ‘Adi ibn al-Najjar invited him as his mother's kin, but he gave them the same answer as the others.
 
 ### why
 
-In another transmission from Anas in al-Bayhaqi, he says he had never seen a day more beautiful or radiant than the day the Prophet ﷺ entered; the text breaks between selections from two pages.
+The Prophet ﷺ turned down every invitation in the same words, leaving the choice of his stopping place to the camel, which was "under orders".
 
 ## hch_madinah_arrival_q_03
-level: beginner
+level: intermediate
 scope: lesson
-answer: right
-sources: `sp_madinah_chapter_01:p1–p3`, `sp_madinah_chapter_02:p1–p9`
+answer: b
+sources: `sp_madinah_chapter_02:p7–p9`
 
-What did the clans offer as grounds for staying with them in Ibn Ishaq’s report?
+Salit ibn Qays of Banu ‘Adi ibn al-Najjar said, "Come to your mother's people." How were they the Prophet's ﷺ kin?
 
-### right
+### a
 
-Their numbers, equipment, and ability to offer protection.
+His own mother, Aminah, was born among them
 
-> Yes; this is the meaning given in the reading.
+> The link was further back: it came through his grandfather's mother.
 
-### other
+### b
 
-The price of the enclosed plot designated for the mosque.
+‘Abd al-Muttalib's mother, Salma bint ‘Amr, was one of them
 
-> This is not what the specified text in the reading relates.
+> Right. Salma bint ‘Amr, the mother of his grandfather ‘Abd al-Muttalib, was a woman of Banu ‘Adi ibn al-Najjar.
 
-### third
+### c
 
-A dish of garlic and onion.
+Abu Bakr's mother came from their clan
 
-> This is not what the specified text in the reading relates.
+> The tie was the Prophet's ﷺ own, not Abu Bakr's, through the mother of ‘Abd al-Muttalib.
 
 ### why
 
-Ibn Ishaq lists invitations to stay with Banu Salim, Banu Bayada, Banu Saida, Banu al-Harith, and Banu Adi ibn al-Najjar, with mention of their numbers, equipment, and ability to offer protection.
+Banu al-Najjar were the Prophet's ﷺ kin through Salma bint ‘Amr, his grandfather's mother; even so, he let the camel walk on past them.
 
 ## hch_madinah_arrival_q_04
-level: intermediate
-scope: source_study
-answer: right
-sources: `sp_madinah_chapter_07:p1–p4`, `sp_madinah_chapter_08:p1–p3`, `sp_madinah_chapter_17:p1–p2`, `sp_madinah_chapter_01:p1–p3`, `sp_madinah_chapter_02:p1–p9`
-
-How are those who invite him to stay answered in Ibn Ishaq’s report?
-
-### right
-
-To let the she-camel go on, because she was under orders.
-
-> Yes; this is the meaning given in the reading.
-
-### other
-
-For the Prophet ﷺ to move to the upper floor of Abu Ayyub’s house.
-
-> This is not what the specified text in the reading relates.
-
-### third
-
-For them to begin bargaining with Banu al-Najjar over the enclosed plot.
-
-> This is not what the specified text in the reading relates.
-
-### why
-
-Ibn Ishaq gives the Prophet’s ﷺ answer to those inviting him: “Let her go her way; she is under orders.” Ibn Hajar quotes other reports with differing wording and names, including a continuation from al-Hakim saying that she knelt at Abu Ayyub’s door.
-
-## hch_madinah_arrival_q_05
-level: intermediate
-scope: source_study
-answer: right
-sources: `sp_madinah_chapter_11:p1`, `sp_madinah_chapter_12:p1–p8`
-
-Where did the Prophet’s ﷺ party arrive, according to Anas’s description in al-Bukhari?
-
-### right
-
-At Abu Ayyub’s courtyard.
-
-> Yes; this is the meaning given in the reading.
-
-### other
-
-At al-Bara’s house.
-
-> This is not what the specified text in the reading relates.
-
-### third
-
-At Ibn Hajar’s gathering.
-
-> This is not what the specified text in the reading relates.
-
-### why
-
-In Anas’s hadith in al-Bukhari, a gathering of Banu al-Najjar surrounded the mount until the Prophet ﷺ reached Abu Ayyub’s courtyard; the report then moves to prayer and the building of the mosque.
-
-## hch_madinah_arrival_q_06
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_madinah_chapter_09:p1–p5`, `sp_madinah_chapter_10:p1–p3`
+answer: d
+sources: `sp_madinah_chapter_03:p1–p2`
 
-Until when does Ibn Ishaq say the Prophet ﷺ stayed in Abu Ayyub’s house?
+As the Prophet ﷺ and Abu Bakr rode into town, what did the young women on the rooftops ask?
 
-### right
+### a
 
-Until the mosque and the dwellings were built, and then he moved into them.
+"Where have they come from?"
 
-> Yes; this is the meaning given in the reading.
+> Everyone knew he was coming from Makkah. What the women did not know was what he looked like.
 
-### other
+### b
 
-Until the day when all talk of food came to an end.
+"Why has he come?"
 
-> This is not what the specified text in the reading relates.
+> The town had been waiting for him a long time; they knew why he had come.
 
-### third
+### c
 
-Until the Friday prayer among Banu Salim was over.
+"When will he stop?"
 
-> This is not what the specified text in the reading relates.
+> That was the clans' concern, as they offered him a home. The women on the rooftops were trying to see him.
+
+### d
+
+"Which one is he? Which one is he?"
+
+> Right. Two travellers rode in the middle of the crowd, and the women strained to tell which was the Prophet ﷺ.
 
 ### why
 
-Ibn Ishaq says he stayed at Abu Ayyub’s house until the mosque and the dwellings were built, then moved into them; this does not specify a duration in months.
+Most of Madinah had never seen the Prophet ﷺ, so as he and Abu Bakr rode in among the Ansar, the women on the rooftops kept asking which of the two he was.
+
+## hch_madinah_arrival_q_05
+level: beginner
+scope: lesson
+answer: a
+sources: `H-23833-518-827`, `H-1681-5900-QUBA`
+
+Among Banu Malik ibn al-Najjar the camel knelt. What was the place where she knelt?
+
+### a
+
+A yard for drying dates, where the mosque's door would stand
+
+> Right. It was a yard where dates were spread to dry and some Muslims prayed, at the spot of the mosque's later door.
+
+### b
+
+The doorway of Abu Ayyub's house
+
+> Abu Ayyub's house was nearby, and he carried the saddle in, but the camel knelt in the yard of drying dates.
+
+### c
+
+The mosque of Banu Salim in the valley of Ranuna
+
+> That was where he prayed the Friday prayer, earlier on the road, not where the camel knelt.
+
+### why
+
+The camel knelt in a yard for drying dates, where some Muslims already prayed and where the door of the Prophet's ﷺ mosque would later stand.
+
+## hch_madinah_arrival_q_06
+level: intermediate
+scope: lesson
+answer: c
+sources: `H-23833-519-CONT`, `H-7478-1030-RA-ZUBAYR-ARBOR`
+
+How did Abu Ayyub become the Prophet's ﷺ host?
+
+### a
+
+He was the first to invite him on the road
+
+> Many clan leaders invited him on the road, and each was turned down. Abu Ayyub did not win him by an invitation.
+
+### b
+
+The Prophet ﷺ chose him as head of Banu al-Najjar
+
+> He was not chosen by rank. He became host because of what he did the moment the Prophet ﷺ dismounted.
+
+### c
+
+He picked up the saddle and carried it into his house
+
+> Right. When asked where he would stay, the Prophet ﷺ said, "A man goes with his saddle, wherever it is."
+
+### why
+
+Once the Prophet ﷺ dismounted, Abu Ayyub took the saddle into his house, and the Prophet ﷺ went with it: "A man goes with his saddle, wherever it is."
 
 ## hch_madinah_arrival_q_07
-level: expert
-scope: source_study
-answer: right
-sources: `sp_madinah_chapter_15:p1–p4`, `sp_madinah_chapter_16:p1–p3`, `sp_madinah_chapter_09:p1–p5`
+level: intermediate
+scope: lesson
+answer: b
+sources: `sp_madinah_chapter_13:p1–p4`, `sp_madinah_chapter_10:p1–p3`
 
-How does the account of the two floors through Aflah in Muslim end differently?
+One night the Prophet's ﷺ supper came back untouched. Abu Ayyub asked if garlic was forbidden. What did he hear?
 
-### right
+### a
 
-The Prophet ﷺ moved upstairs and Abu Ayyub downstairs.
+Yes, and no one should cook it again
 
-> Yes; this is the meaning given in the reading.
+> The Prophet ﷺ said it was not forbidden. It was Abu Ayyub who chose never to cook it for him again.
 
-### other
+### b
 
-Abu Ayyub stayed upstairs until the jar broke in this very version.
+No, but he disliked it because of its smell
 
-> This is not what the specified text in the reading relates.
+> Right. "No," he said, "but I dislike it because of its smell." Abu Ayyub answered, "Then I dislike what you dislike."
 
-### third
+### c
 
-The hadith only states the number of nights in Quba.
+No, but it was not the food of Madinah
 
-> This is not what the specified text in the reading relates.
+> The reason he gave was its smell, not where the food came from.
 
 ### why
 
-In the account through Aflah from Abu Ayyub in Muslim, the Prophet ﷺ began on the lower floor and Abu Ayyub upstairs. Abu Ayyub says they moved aside during the night; after the Prophet ﷺ said the lower floor was more convenient, the Prophet ﷺ moved upstairs and Abu Ayyub downstairs, unlike the ending in Ibn Ishaq’s report.
+Garlic was not forbidden; the Prophet ﷺ disliked its smell, and Abu Ayyub, out of love for him, never cooked it for him again.
 
 ## hch_madinah_arrival_q_08
 level: intermediate
 scope: source_study
-answer: right
-sources: `sp_madinah_chapter_09:p1–p5`, `sp_madinah_chapter_10:p1–p3`
+answer: a
+sources: `H-1681-5905-HS-ANAS-ARRIVAL-1`, `H-1681-5905-HS-ANAS-ARRIVAL-2`, `sp_madinah_chapter_11:p1`, `sp_madinah_chapter_12:p1–p2`
 
-In which account does the jar break and the water get soaked up with a cloth?
+In one of Anas's reports in al-Bukhari, how does the arrival differ from Ibn Ishaq's telling?
 
-### right
+### a
 
-In the continuation of Abu Ayyub’s account in Ibn Ishaq.
+There is no stop at Quba: he halts by the lava field, then rides on
 
-> Yes; this is the meaning given in the reading.
+> Right. He sends for the Ansar from beside the lava field and rides on with them to dismount beside Abu Ayyub's house.
 
-### other
+### b
 
-In Muslim’s corroborating chain, which has no text.
+The camel kneels at Abu Ayyub's own door
 
-> This is not what the specified text in the reading relates.
+> That is al-Hakim's report through Ishaq ibn Abi Talhah, which al-Albani judges unreliable, not Anas's report in al-Bukhari.
 
-### third
+### c
 
-In al-Bara’s description of Madinah’s joy.
+He spends twelve nights in a shaded shelter first
 
-> This is not what the specified text in the reading relates.
+> The twelve nights in a shelter come from Ibn al-Zubayr's report, about the time before the mosque was built.
 
 ### why
 
-Abu Ayyub continues in Ibn Ishaq’s account: a water jar broke upstairs, and he and Umm Ayyub soaked up the water with a cloth lest it drip onto the Prophet ﷺ.
+Anas's other report in al-Bukhari leaves out Quba and brings the Prophet ﷺ straight from the lava field to Abu Ayyub's house, where Abu Ayyub says, "This is my house, and this is my door."
 
 ## hch_madinah_arrival_q_09
-level: intermediate
+level: expert
 scope: source_study
-answer: right
-sources: `sp_madinah_chapter_13:p1–p4`
+answer: c
+sources: `sp_madinah_chapter_09:p2–p5`, `sp_madinah_chapter_15:p1–p4`, `H-1673-4080-HS-AYYUB-LODGE-1`
 
-What reason did the Prophet ﷺ give for disliking garlic in the account through Simak in Muslim?
+Abu Ayyub's story of the two floors comes through Abu Ruhm in Ibn Ishaq and through Aflah in Muslim. How do their endings differ?
 
-### right
+### a
 
-Its smell; he did not rule that it was forbidden.
+Ibn Ishaq's has the Prophet ﷺ move up; Muslim's keeps him below
 
-> Yes; this is the meaning given in the reading.
+> It is the other way round. Ibn Ishaq's report ends with the family still above; the move upstairs is in Muslim's.
 
-### other
+### b
 
-That it was not the food of the people of Madinah.
+Ibn Ishaq's has Abu Ayyub leave the house; Muslim's keeps him upstairs
 
-> This is not what the specified text in the reading relates.
+> In neither report does Abu Ayyub leave the house; the question is only who lived on which floor.
 
-### third
+### c
 
-That the water jar broke upstairs.
+Ibn Ishaq's keeps the family above; in Muslim's the Prophet ﷺ moves up
 
-> This is not what the specified text in the reading relates.
+> Right. Through Aflah, Abu Ayyub refuses to stay above him and the Prophet ﷺ moves upstairs; al-Hakim's report agrees.
 
 ### why
 
-In the account through Simak from Jabir ibn Samura from Abu Ayyub in Muslim, garlic is mentioned without uncertainty between it and onion; the Prophet ﷺ explained his dislike by reference to garlic’s smell and did not say it was forbidden.
+The two reports share the beginning but not the end: only Muslim's, backed by al-Hakim's, has the Prophet ﷺ move upstairs, so the story tells the jar first and the move after it.
 
 ## hch_madinah_arrival_q_10
 level: expert
 scope: source_study
-answer: right
-sources: `sp_madinah_chapter_14:p1`
+answer: b
+sources: `H-7478-1027-RA-BADR`, `H-7478-2236-CRIT-BADRTABUK`, `H-12762-921-CRIT-BADR598`
 
-What is the purpose of Yahya ibn Sa’id’s corroborating chain from Shu’ba in Muslim?
+Al-Albani records Ibn al-Qayyim's doubt that "Tala‘a al-Badru" was sung at this arrival. What is Ibn al-Qayyim's point?
 
-### right
+### a
 
-To give a corroborating chain without repeating the text.
+Its chain is missing three or more narrators
 
-> Yes; this is the meaning given in the reading.
+> That is al-Albani's own reason for judging the report weak, not the point he records from Ibn al-Qayyim.
 
-### other
+### b
 
-An independent account of the household moving downstairs.
+The passes of al-Wada‘ lie on the Syria side, off the road from Makkah
 
-> This is not what the specified text in the reading relates.
+> Right. Someone arriving from Makkah would not come through the passes of al-Wada‘, which the song names.
 
-### third
+### c
 
-To state how many of the Ansar welcomed the Prophet ﷺ.
+A sounder report sets the girls' song at a wedding
 
-> This is not what the specified text in the reading relates.
+> That is al-Albani's remark on the drum song of Banu al-Najjar's girls, not on "Tala‘a al-Badru".
 
 ### why
 
-Muslim’s corroborating report gives the chain through Yahya ibn Sa’id from Shu’ba following the preceding chain, without repeating the text about the garlic dish; it should not be treated as a new meal incident.
+The song is related only from Ibn ‘A'ishah, without saying who told him; al-Albani judges it weak, and Ibn al-Qayyim notes that its passes lie on the Syria side, where al-Bayhaqi's other setting, the return from Tabuk, would come in.

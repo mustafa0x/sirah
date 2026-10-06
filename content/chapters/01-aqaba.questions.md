@@ -5,329 +5,329 @@
 ## hch_aqaba_q_01
 level: beginner
 scope: lesson
-answer: a
-sources: `sp_aqaba_chapter_01:p1–p9`, `sp_aqaba_chapter_02:p1`, `sp_aqaba_chapter_03:p1–p3`, `sp_aqaba_chapter_04:p1–p4`
+answer: b
+sources: `sp_aqaba_chapter_01:p1–p9`, `sp_aqaba_chapter_02:p1`
 
-Who heard the call at al-ʿAqaba in the account of ʿĀṣim's elders?
+Why did the six men from Yathrib recognise the Prophet ﷺ as the one they had heard about?
 
 ### a
 
-Some men of Khazraj
+Quraysh had warned them about him on the way to the pilgrimage
 
-> Correct; the men of Khazraj were the people at the first meeting in this account.
+> Quraysh play no part in the first meeting. The men knew the word "prophet" from their Jewish neighbours at home.
 
 ### b
 
-Leading men of Quraysh
+Their Jewish neighbours said a prophet was about to be sent
 
-> That is not what the reading says; the men of Khazraj were the people at the first meeting in this account.
+> Right. In every quarrel the Jews of Yathrib said a prophet's time had drawn near, so the men said: "This is the prophet the Jews threatened you with."
 
 ### c
 
-Leaders of Banū ʿAbd al-Ashhal
+Mus‘ab ibn ‘Umayr had already taught them the Quran
 
-> That is not what the reading says; the men of Khazraj were the people at the first meeting in this account.
+> Mus‘ab came later. The Prophet ﷺ sent him with the twelve men of the following year, after the first pledge.
 
 ### why
 
-The men of Khazraj were the people at the first meeting in this account.
+The men of Khazraj lived beside Jews who spoke of a coming prophet, and they resolved that the Jews should not reach him before them.
 
 ## hch_aqaba_q_02
 level: beginner
 scope: lesson
 answer: a
-sources: `sp_aqaba_chapter_05:p1`, `sp_aqaba_chapter_06:p1–p2`, `sp_aqaba_chapter_07:p1–p2`
+sources: `sp_aqaba_chapter_05:p1`, `sp_aqaba_chapter_06:p1–p2`
 
-How many pledged allegiance at the First ʿAqaba meeting according to Ibn Isḥāq?
-
-### b
-
-Seventy-three men
-
-> This passage mentions twelve men, not seventy-three.
+How many men of the Ansar made the first pledge at al-‘Aqabah, the year after the six?
 
 ### a
 
 Twelve men
 
-> Correct; Ibn Isḥāq mentions twelve men at this meeting.
+> Right. The next year twelve men met him at al-‘Aqabah and pledged, before fighting had been prescribed.
+
+### b
+
+Six men
+
+> Six was the first group, who accepted Islam and carried it home. The pledge came the following year, from twelve.
 
 ### c
 
-Twelve leaders
+Seventy-three men and two women
 
-> The passage here counts those pledging at the first meeting; it does not describe them as leaders here.
+> That was the gathering in the pass at the next pilgrimage, the second pledge, when they promised to protect him.
 
 ### why
 
-Ibn Isḥāq says twelve men of the Anṣār came to the pilgrimage season and pledged allegiance at al-ʿAqaba; that is the number and description asked about in this reading.
+Six men accepted Islam in the first season; twelve made the first pledge the next year; seventy-three men and two women pledged in the pass the year after.
 
 ## hch_aqaba_q_03
 level: expert
 scope: source_study
-answer: a
-sources: `sp_aqaba_chapter_05:p1`, `sp_aqaba_chapter_06:p1–p2`, `sp_aqaba_chapter_07:p1–p2`
+answer: c
+sources: `sp_aqaba_chapter_06:p1–p2`, `sp_aqaba_chapter_07:p1–p2`
 
-In which of the two versions from ʿUbāda is a prescribed punishment in this world described as expiation?
-
-### b
-
-Only in Yazīd's transmission from ʿUbāda
-
-> That is not what the reading says; in this selection, only the version transmitted through al-Zuhrī mentions the prescribed punishment as expiation, while the case of an act remaining concealed rests with God.
-
-### c
-
-In both, in identical words
-
-> That is not what the reading says; in this selection, only the version transmitted through al-Zuhrī mentions the prescribed punishment as expiation, while the case of an act remaining concealed rests with God.
+‘Ubadah ibn al-Samit's terms of the first pledge come in two versions. In which is a punishment suffered in this world an expiation?
 
 ### a
 
-In al-Zuhrī's transmission from ʿUbāda
+The version through Yazid ibn Abi Habib
 
-> Correct; in this selection, only the version transmitted through al-Zuhrī mentions the prescribed punishment as expiation, while the case of an act remaining concealed rests with God.
+> In that version anyone who breaks the terms is simply left to Allah, who may punish or forgive.
+
+### b
+
+Both versions, in the same words
+
+> The two differ on exactly this point: only one speaks of a worldly punishment as expiation.
+
+### c
+
+The version through al-Zuhri and Abu Idris al-Khawlani
+
+> Right. There a prescribed punishment in this world expiates the sin, and only what stays hidden is left to Allah.
 
 ### why
 
-In this selection, only the version transmitted through al-Zuhrī mentions the prescribed punishment as expiation, while the case of an act remaining concealed rests with God.
+Both versions give the same terms, but only the one through al-Zuhri separates a worldly punishment, which expiates, from what stays hidden, which is left to Allah.
 
 ## hch_aqaba_q_04
 level: beginner
 scope: lesson
-answer: a
-sources: `sp_aqaba_chapter_08:p1`, `sp_aqaba_chapter_09:p1`, `sp_aqaba_chapter_10:p1–p3`, `sp_aqaba_chapter_11:p1–p2`, `sp_aqaba_chapter_12:p1`, `sp_aqaba_chapter_13:p1–p3`
+answer: b
+sources: `sp_aqaba_chapter_08:p1`, `sp_aqaba_chapter_09:p1`
 
-For what task did the Prophet ﷺ send Muṣʿab?
+Why did the Prophet ﷺ send Mus‘ab ibn ‘Umayr home with the twelve?
 
 ### a
 
-Reciting the Quran and teaching Islam
+To arrange where the Prophet ﷺ would live in Yathrib
 
-> Correct; ibn Isḥāq's account expressly mentions reciting the Quran, teaching, and instruction in the religion.
+> Mus‘ab's task was not a lodging for the Prophet ﷺ. He stayed with As‘ad and taught the new Muslims.
 
 ### b
 
-Selecting a commander for war
+To teach them the Quran and the religion
 
-> That is not what the reading says; ibn Isḥāq's account expressly mentions reciting the Quran, teaching, and instruction in the religion.
+> Right. He taught them the Quran and the religion, and in Yathrib they called him "the reciter".
 
 ### c
 
-Setting a date for daily migration
+To choose twelve leaders for the clans
 
-> That is not what the reading says; ibn Isḥāq's account expressly mentions reciting the Quran, teaching, and instruction in the religion.
+> The twelve leaders were chosen later, on the night in the pass, at the Prophet's ﷺ own request.
 
 ### why
 
-Ibn Isḥāq's account expressly mentions reciting the Quran, teaching, and instruction in the religion.
+Mus‘ab went as a teacher; he stayed with As‘ad and led the prayer, since some of Aws and Khazraj would not be led by a man of the other tribe.
 
 ## hch_aqaba_q_05
 level: intermediate
 scope: lesson
-answer: a
-sources: `sp_aqaba_chapter_08:p1`, `sp_aqaba_chapter_09:p1`, `sp_aqaba_chapter_10:p1–p3`, `sp_aqaba_chapter_11:p1–p2`, `sp_aqaba_chapter_12:p1`, `sp_aqaba_chapter_13:p1–p3`
+answer: c
+sources: `sp_aqaba_chapter_10:p1–p2`, `sp_aqaba_chapter_11:p2`
 
-How did Usayd first respond when he met Muṣʿab and Asʿad?
-
-### b
-
-He was selected as a leader before listening
-
-> That is not what the reading says; the account describes his initial objection, followed by his sitting down and listening to the Quran.
+Usayd ibn Hudayr came to drive Mus‘ab and As‘ad away. What made him stop?
 
 ### a
 
-He objected, then sat down to listen
+As‘ad reminded him that they were cousins
 
-> Correct; the account describes his initial objection, followed by his sitting down and listening to the Quran.
+> The cousin was Sa‘d's, not Usayd's, and Usayd later used it as a story to send Sa‘d to them.
+
+### b
+
+He saw that most of his clan had already become Muslim
+
+> His clan had not yet accepted Islam; that happened only after Sa‘d ibn Mu‘adh did.
 
 ### c
 
-He wrote down the delegation's pledge
+Mus‘ab asked him to sit and listen, and to judge for himself
 
-> That is not what the reading says; the account describes his initial objection, followed by his sitting down and listening to the Quran.
+> Right. "If you like it, accept it. If you dislike it, we will keep it away from you." Usayd planted his spear and sat.
 
 ### why
 
-The account describes his initial objection, followed by his sitting down and listening to the Quran.
+Mus‘ab's fair offer turned an angry chief into a listener, and Islam showed in Usayd's face before he said a word.
 
 ## hch_aqaba_q_06
 level: intermediate
-scope: source_study
+scope: lesson
 answer: a
-sources: `sp_aqaba_chapter_08:p1`, `sp_aqaba_chapter_09:p1`, `sp_aqaba_chapter_10:p1–p3`, `sp_aqaba_chapter_11:p1–p2`, `sp_aqaba_chapter_12:p1`, `sp_aqaba_chapter_13:p1–p3`
+sources: `sp_aqaba_chapter_12:p1`, `sp_aqaba_chapter_13:p1`
 
-What prevents us from saying that Islam reached every household without exception in Muṣʿab's account?
-
-### b
-
-The account never mentions Muṣʿab teaching at all
-
-> That is not what the reading says; the end of the account explicitly excepts certain households from the general spread of Islam.
-
-### c
-
-Usayd returned to Mecca before meeting Saʿd
-
-> That is not what the reading says; the end of the account explicitly excepts certain households from the general spread of Islam.
+How did Banu ‘Abd al-Ashhal all become Muslim on the same day?
 
 ### a
 
-The text excepts households whose people Abū Qays held back
+Sa‘d ibn Mu‘adh, their chief, would not speak to any of them until they believed
 
-> Correct; the end of the account explicitly excepts certain households from the general spread of Islam.
+> Right. "You are our chief," they said, and by evening every man and woman of the clan was Muslim.
+
+### b
+
+Mus‘ab went from house to house reciting the Quran
+
+> Mus‘ab recited to Usayd and Sa‘d. It was Sa‘d's word to his clan that brought them in that day.
+
+### c
+
+The Prophet ﷺ came to Yathrib and spoke to them
+
+> The Prophet ﷺ was still in Makkah. The clan followed its own chief, Sa‘d ibn Mu‘adh.
 
 ### why
 
-The end of the account explicitly excepts certain households from the general spread of Islam.
+Once their chief had accepted Islam, Sa‘d ibn Mu‘adh used his standing to bring his whole clan with him.
 
 ## hch_aqaba_q_07
 level: beginner
 scope: lesson
-answer: a
-sources: `sp_aqaba_chapter_14:p1`, `sp_aqaba_chapter_15:p1–p2`, `sp_aqaba_chapter_16:p1–p10`, `sp_aqaba_chapter_17:p1–p2`, `sp_aqaba_chapter_18:p1`, `sp_aqaba_chapter_19:p1`, `sp_aqaba_chapter_20:p1`, `sp_aqaba_chapter_21:p1–p4`, `sp_aqaba_chapter_22:p1–p4`
+answer: b
+sources: `sp_aqaba_chapter_14:p1`, `sp_aqaba_chapter_17:p1–p2`, `sp_aqaba_chapter_18:p1`
 
-Who accompanied the men at the al-ʿAqaba assembly according to Kaʿb's account?
+Who gathered secretly in the pass at al-‘Aqabah on the night of the second pledge?
 
 ### a
 
-Two of their women
+Twelve men of the Ansar
 
-> Correct; kaʿb mentions seventy-three men and two women.
+> Twelve was the number at the first pledge. On this night the group was far larger.
 
 ### b
 
-Twelve additional men
+Seventy-three men and two women
 
-> That is not what the reading says; kaʿb mentions seventy-three men and two women.
+> Right. They slipped out of their camps after a third of the night, "quietly like sandgrouse", and gathered in the pass.
 
 ### c
 
-Leading men of Quraysh
+All the pilgrims from Yathrib
 
-> That is not what the reading says; kaʿb mentions seventy-three men and two women.
+> The idol-worshipping pilgrims of Yathrib knew nothing of it; the next morning they swore to Quraysh that nothing had happened.
 
 ### why
 
-Kaʿb mentions seventy-three men and two women.
+The Muslims of Yathrib met the Prophet ﷺ in secret at night: seventy-three men and two women, hidden even from their own people's pilgrims.
 
 ## hch_aqaba_q_08
 level: intermediate
 scope: lesson
-answer: a
-sources: `sp_aqaba_chapter_14:p1`, `sp_aqaba_chapter_15:p1–p2`, `sp_aqaba_chapter_16:p1–p10`, `sp_aqaba_chapter_17:p1–p2`, `sp_aqaba_chapter_18:p1`, `sp_aqaba_chapter_19:p1`, `sp_aqaba_chapter_20:p1`, `sp_aqaba_chapter_21:p1–p4`, `sp_aqaba_chapter_22:p1–p4`
+answer: c
+sources: `sp_aqaba_chapter_21:p1–p4`
 
-What did the Prophet ﷺ ask them to undertake at the later meeting in Kaʿb's account?
-
-### b
-
-To choose a new prayer direction for travel
-
-> That is not what the reading says; this is the wording of the undertaking of protection in Kaʿb's account, not the provisions of the first pledge.
+What did the Prophet ﷺ ask the Ansar to pledge on the night in the pass?
 
 ### a
 
-To protect him as they protected their women and children
+To associate nothing with Allah and not to steal or commit adultery
 
-> Correct; this is the wording of the undertaking of protection in Kaʿb's account, not the provisions of the first pledge.
+> Those were the terms of the first pledge, the year before, as ‘Ubadah ibn al-Samit remembered them.
+
+### b
+
+To fight Quraysh at Mina the next morning
+
+> When al-‘Abbas ibn ‘Ubadah offered that, the Prophet ﷺ answered, "We have not been commanded to do that."
 
 ### c
 
-For all to return home without a covenant
+To protect him as they protected their women and children
 
-> That is not what the reading says; this is the wording of the undertaking of protection in Kaʿb's account, not the provisions of the first pledge.
+> Right. Al-Bara' ibn Ma‘rur took his hand: "Yes, by Him who sent you with the truth. We are sons of war."
 
 ### why
 
-This is the wording of the undertaking of protection in Kaʿb's account, not the provisions of the first pledge.
+The second pledge was a promise of protection, and the Prophet ﷺ answered it with his own: "I am of you and you are of me."
 
 ## hch_aqaba_q_09
 level: expert
 scope: source_study
 answer: a
-sources: `sp_aqaba_chapter_23:p1–p4`, `sp_aqaba_chapter_24:p1–p7`, `sp_aqaba_chapter_26:p1–p3`, `sp_aqaba_chapter_27:p1–p3`, `sp_aqaba_chapter_28:p1–p3`, `sp_aqaba_chapter_29:p1`, `sp_aqaba_chapter_30:p1–p3`, `sp_aqaba_chapter_31:p1`
+sources: `sp_aqaba_chapter_24:p1–p7`
 
-Did ʿĀṣim and ʿAbd Allāh ibn Abī Bakr agree on the purpose of al-ʿAbbās ibn ʿUbāda's words?
-
-### b
-
-Yes; both agreed he meant to wait for Ibn Ubayy
-
-> That is not what the reading says; the interpretations at the end of al-ʿAbbās's account differ; neither is a definitive judgment about his intention.
-
-### c
-
-Yes; both agreed he rejected the pledge
-
-> That is not what the reading says; the interpretations at the end of al-ʿAbbās's account differ; neither is a definitive judgment about his intention.
+Why did al-‘Abbas ibn ‘Ubadah warn the Ansar about losing their wealth and nobles?
 
 ### a
 
-No; the text gives two interpretations and then says God knows best
+Reports differ, and Ibn Ishaq leaves it open: "Allah knows best which it was"
 
-> Correct; the interpretations at the end of al-ʿAbbās's account differ; neither is a definitive judgment about his intention.
+> Right. ‘Asim ibn ‘Umar says he meant to bind the pledge tighter; ‘Abdullah ibn Abi Bakr says he hoped to delay them for ‘Abdullah ibn Ubayy.
+
+### b
+
+To bind the pledge more tightly on their necks, as all the reports agree
+
+> That is ‘Asim ibn ‘Umar ibn Qatadah's reading. ‘Abdullah ibn Abi Bakr gives another, and Ibn Ishaq does not choose.
+
+### c
+
+To hold them back until ‘Abdullah ibn Ubayy could join, as all the reports agree
+
+> That is ‘Abdullah ibn Abi Bakr's reading. ‘Asim ibn ‘Umar gives another, and Ibn Ishaq does not choose.
 
 ### why
 
-The interpretations at the end of al-ʿAbbās's account differ; neither is a definitive judgment about his intention.
+The words are agreed; the purpose is not. Ibn Ishaq records both explanations and leaves the question with Allah.
 
 ## hch_aqaba_q_10
-level: expert
+level: intermediate
 scope: source_study
-answer: a
-sources: `sp_aqaba_chapter_23:p1–p4`, `sp_aqaba_chapter_24:p1–p7`, `sp_aqaba_chapter_26:p1–p3`, `sp_aqaba_chapter_27:p1–p3`, `sp_aqaba_chapter_28:p1–p3`, `sp_aqaba_chapter_29:p1`, `sp_aqaba_chapter_30:p1–p3`, `sp_aqaba_chapter_31:p1`
+answer: b
+sources: `sp_aqaba_chapter_30:p1–p3`
 
-Who was the first to strike the Prophet's ﷺ hand according to all the accounts in the passage preceding the continuation?
+Who was the first to strike the Prophet's ﷺ hand in pledge on the night in the pass?
 
 ### a
 
-The passage gives no name agreed upon by all
+Al-Bara' ibn Ma‘rur, as everyone remembered
 
-> Correct; the accounts of Banū al-Najjār, Banū ʿAbd al-Ashhal, and Kaʿb differ; they do not agree on a single name.
+> Ka‘b ibn Malik said al-Bara', but other clans named their own man.
 
 ### b
 
-Al-Barāʾ, according to all three
+Each clan named its own man, and the reports do not agree
 
-> That is not what the reading says; the accounts of Banū al-Najjār, Banū ʿAbd al-Ashhal, and Kaʿb differ; they do not agree on a single name.
+> Right. Banu al-Najjar said As‘ad ibn Zurarah, Banu ‘Abd al-Ashhal said Abu al-Haytham, and Ka‘b said al-Bara'.
 
 ### c
 
-Abū al-Haytham, according to everyone
+As‘ad ibn Zurarah, as everyone remembered
 
-> That is not what the reading says; the accounts of Banū al-Najjār, Banū ʿAbd al-Ashhal, and Kaʿb differ; they do not agree on a single name.
+> That was the claim of his own clan, Banu al-Najjar. Banu ‘Abd al-Ashhal and Ka‘b ibn Malik named others.
 
 ### why
 
-The accounts of Banū al-Najjār, Banū ʿAbd al-Ashhal, and Kaʿb differ; they do not agree on a single name.
+Ibn Ishaq records three answers, each from the clan of the man named, and does not settle which was first.
 
 ## hch_aqaba_q_11
 level: intermediate
 scope: lesson
-answer: a
-sources: `sp_aqaba_chapter_23:p1–p4`, `sp_aqaba_chapter_24:p1–p7`, `sp_aqaba_chapter_26:p1–p3`, `sp_aqaba_chapter_27:p1–p3`, `sp_aqaba_chapter_28:p1–p3`, `sp_aqaba_chapter_29:p1`, `sp_aqaba_chapter_30:p1–p3`, `sp_aqaba_chapter_31:p1`
+answer: c
+sources: `sp_aqaba_chapter_26:p1–p3`, `sp_aqaba_chapter_27:p1–p3`
 
-What did the Prophet ﷺ answer when al-ʿAbbās ibn ʿUbāda proposed fighting the people of Minā the next day?
-
-### b
-
-Fight them tomorrow
-
-> That is not what the reading says; the continuation of Kaʿb's account reports his refusal to begin fighting and his instruction to return to the camps.
+What did the Prophet ﷺ say when al-‘Abbas ibn ‘Ubadah offered to fall on the people of Mina with their swords?
 
 ### a
 
-We have not been commanded to do so
+He told him to wait until the pilgrims had left Mina
 
-> Correct; the continuation of Kaʿb's account reports his refusal to begin fighting and his instruction to return to the camps.
+> He did not put the attack off; he refused it, and sent everyone back to the camps that night.
+
+### b
+
+He agreed, if they struck before Quraysh learned of the pledge
+
+> He refused to fight at all. Quraysh did learn of the pledge later, and caught Sa‘d ibn ‘Ubadah on the road.
 
 ### c
 
-First wait for the leaders to arrive
+He refused: "We have not been commanded to do that"
 
-> That is not what the reading says; the continuation of Kaʿb's account reports his refusal to begin fighting and his instruction to return to the camps.
+> Right. He told them to go back to their camps; permission to fight had not yet been given.
 
 ### why
 
-The continuation of Kaʿb's account reports his refusal to begin fighting and his instruction to return to the camps.
+The Ansar were ready for war, but the Prophet ﷺ waited for Allah's command and sent them quietly back to their camps.

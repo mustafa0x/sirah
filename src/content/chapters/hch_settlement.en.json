@@ -2930,325 +2930,239 @@
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Whom does Ibn Ishaq except from his statement that no migrants remained in Mecca?",
+            "prompt": "Whom did the Prophet ﷺ send from Abu Ayyub’s house to Makkah to bring his family?",
             "options": [
                 {
-                    "option_id": "right",
-                    "text": "Those subjected to trial or held captive",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "option_id": "a",
+                    "text": "‘Abdullah ibn Urayqit, who was returning to Makkah",
+                    "feedback": "Ibn Urayqit was sent by Abu Bakr, with word for his son ‘Abdullah to bring Abu Bakr’s household."
                 },
                 {
-                    "option_id": "other",
-                    "text": "Everyone who lived in Medina",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "b",
+                    "text": "Zayd ibn Harithah and Abu Rafi‘",
+                    "feedback": "Right. He sent the two of them with two camels and five hundred dirhams to bring his family."
                 },
                 {
-                    "option_id": "third",
-                    "text": "The occupants of the named houses",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "c",
+                    "text": "Talhah ibn ‘Ubaydullah and ‘Abdullah ibn Abi Bakr",
+                    "feedback": "These two travelled with Abu Bakr’s household; the Prophet ﷺ sent Zayd and Abu Rafi‘ for his own."
                 }
             ],
-            "explanation": "Ibn Ishaq excludes those who were persecuted and those who were detained from his statement about the Muhajirun remaining in Makkah.",
+            "explanation": "Zayd ibn Harithah and Abu Rafi‘ went for the Prophet’s ﷺ family, while Abu Bakr sent word to his son through Ibn Urayqit.",
             "scope_note": "",
-            "source_unit_ids": [
-                "sp_settlement_chapter_01:p1",
-                "sp_settlement_chapter_01:p2",
-                "sp_settlement_chapter_02:p1",
-                "sp_settlement_chapter_03:p1",
-                "sp_settlement_chapter_03:p2",
-                "sp_settlement_chapter_04:p1",
-                "sp_settlement_chapter_20:p1",
-                "sp_settlement_chapter_21:p1",
-                "sp_settlement_chapter_24:p1"
-            ],
-            "correct_option_id": "right"
+            "source_unit_ids": ["sp_settlement_chapter_24:p1", "sp_settlement_chapter_02:p1"],
+            "correct_option_id": "b"
         },
         {
             "question_id": "hch_settlement_q_2",
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Whom did the Prophet ﷺ send in Ibn Hibban’s narrative to bring Sawda and his daughters?",
+            "prompt": "Zaynab, the Prophet’s ﷺ eldest daughter, was not among those who came to Madinah. Why not?",
             "options": [
                 {
-                    "option_id": "right",
-                    "text": "Zayd ibn Haritha and Abu Rafi",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "option_id": "a",
+                    "text": "She had already gone ahead with her husband, ‘Uthman",
+                    "feedback": "That was Ruqayyah, who had gone before with ‘Uthman ibn ‘Affan; Zaynab stayed behind in Makkah."
                 },
                 {
-                    "option_id": "other",
-                    "text": "Abd Allah ibn Abi Bakr alone",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "b",
+                    "text": "She was too ill with fever to make the journey",
+                    "feedback": "The fever struck those already in Madinah; Zaynab stayed in Makkah because her husband held her back."
                 },
                 {
-                    "option_id": "third",
-                    "text": "Bilal and Abu Bakr",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "c",
+                    "text": "Her husband, Abu al-‘As ibn al-Rabi‘, held her back in Makkah",
+                    "feedback": "Right. Zaynab stayed behind, kept in Makkah by her husband."
                 }
             ],
-            "explanation": "Ibn Hibban recounts that Zayd ibn Haritha and Abu Rafi‘ were sent to Makkah to bring Sawda and the Prophet’s ﷺ daughters; he then mentions Abu Bakr sending Ibn Uraiqit concerning his family.",
+            "explanation": "Of the Prophet’s ﷺ daughters, Fatimah and Umm Kulthum came; Ruqayyah had gone before, and Zaynab was held back by her husband.",
             "scope_note": "",
-            "source_unit_ids": [
-                "sp_settlement_chapter_01:p1",
-                "sp_settlement_chapter_01:p2",
-                "sp_settlement_chapter_02:p1",
-                "sp_settlement_chapter_03:p1",
-                "sp_settlement_chapter_03:p2",
-                "sp_settlement_chapter_04:p1",
-                "sp_settlement_chapter_20:p1",
-                "sp_settlement_chapter_21:p1",
-                "sp_settlement_chapter_24:p1"
-            ],
-            "correct_option_id": "right"
+            "source_unit_ids": ["sp_settlement_chapter_04:p1", "sp_settlement_chapter_24:p1"],
+            "correct_option_id": "c"
         },
         {
             "question_id": "hch_settlement_q_3",
             "step_id": "hch_settlement",
-            "difficulty": "intermediate",
-            "practice_scope": "source_study",
-            "prompt": "Does this passage mention Abd al-Rahman ibn Awf being made a brother to Sad ibn al-Rabi?",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "Asma bint Abi Bakr set out when her pregnancy was at full term. Where was her son ‘Abdullah ibn al-Zubayr born?",
             "options": [
                 {
-                    "option_id": "right",
-                    "text": "No; it mentions him with Uthman",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "option_id": "a",
+                    "text": "At Quba, where she stopped before Madinah",
+                    "feedback": "Right. “I came to Madinah, stopped at Quba, and gave birth to him at Quba,” she said."
                 },
                 {
-                    "option_id": "other",
-                    "text": "Yes; it recounts their conversation in the market",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "b",
+                    "text": "In Makkah, just before the family set out",
+                    "feedback": "She left Makkah still pregnant; the baby was born after she reached Quba."
                 },
                 {
-                    "option_id": "third",
-                    "text": "Yes; it calls Sad his brother",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "c",
+                    "text": "In Madinah, in the house of Harithah ibn al-Nu‘man",
+                    "feedback": "The families lodged in Harithah’s house, but Asma had stopped at Quba and gave birth there."
                 }
             ],
-            "explanation": "In the continuation of Ibn Hibban’s report, Abd al-Rahman ibn Awf is mentioned, followed by the statement that he was paired with Uthman; this passage does not mention him being paired with Sa‘d ibn al-Rabi‘.",
+            "explanation": "Asma made the journey at full term and gave birth at Quba, on the edge of Madinah.",
             "scope_note": "",
-            "source_unit_ids": [
-                "sp_settlement_chapter_05:p1",
-                "sp_settlement_chapter_05:p2",
-                "sp_settlement_chapter_05:p3",
-                "sp_settlement_chapter_05:p4",
-                "sp_settlement_chapter_05:p5",
-                "sp_settlement_chapter_05:p6",
-                "sp_settlement_chapter_05:p7",
-                "sp_settlement_chapter_05:p8",
-                "sp_settlement_chapter_05:p9",
-                "sp_settlement_chapter_05:p10",
-                "sp_settlement_chapter_05:p11",
-                "sp_settlement_chapter_05:p12",
-                "sp_settlement_chapter_05:p13",
-                "sp_settlement_chapter_05:p14",
-                "sp_settlement_chapter_05:p15",
-                "sp_settlement_chapter_05:p16",
-                "sp_settlement_chapter_05:p17",
-                "sp_settlement_chapter_05:p18",
-                "sp_settlement_chapter_06:p1",
-                "sp_settlement_chapter_06:p2",
-                "sp_settlement_chapter_06:p3",
-                "sp_settlement_chapter_06:p4",
-                "sp_settlement_chapter_06:p5",
-                "sp_settlement_chapter_06:p6",
-                "sp_settlement_chapter_06:p7",
-                "sp_settlement_chapter_06:p8",
-                "sp_settlement_chapter_06:p9",
-                "sp_settlement_chapter_06:p10",
-                "sp_settlement_chapter_06:p11",
-                "sp_settlement_chapter_06:p12",
-                "sp_settlement_chapter_06:p13",
-                "sp_settlement_chapter_06:p14",
-                "sp_settlement_chapter_06:p15",
-                "sp_settlement_chapter_06:p16",
-                "sp_settlement_chapter_06:p17",
-                "sp_settlement_chapter_06:p18",
-                "sp_settlement_chapter_06:p19",
-                "sp_settlement_chapter_06:p20",
-                "sp_settlement_chapter_06:p21",
-                "sp_settlement_chapter_06:p22",
-                "sp_settlement_chapter_22:p1",
-                "sp_settlement_chapter_23:p1",
-                "sp_settlement_chapter_23:p2",
-                "sp_settlement_chapter_23:p3",
-                "sp_settlement_chapter_23:p4",
-                "sp_settlement_chapter_23:p5",
-                "sp_settlement_chapter_23:p6",
-                "sp_settlement_chapter_23:p7",
-                "sp_settlement_chapter_23:p8",
-                "sp_settlement_chapter_23:p9",
-                "sp_settlement_chapter_23:p10",
-                "sp_settlement_chapter_23:p11",
-                "sp_settlement_chapter_23:p12",
-                "sp_settlement_chapter_23:p13",
-                "sp_settlement_chapter_23:p14"
-            ],
-            "correct_option_id": "right"
+            "source_unit_ids": ["sp_settlement_chapter_07:p1", "sp_settlement_chapter_07:p2"],
+            "correct_option_id": "a"
         },
         {
             "question_id": "hch_settlement_q_4",
             "step_id": "hch_settlement",
-            "difficulty": "beginner",
+            "difficulty": "intermediate",
             "practice_scope": "lesson",
-            "prompt": "Where does Asma say she gave birth to Abd Allah ibn al-Zubayr?",
+            "prompt": "When Asma laid her newborn in the Prophet’s ﷺ lap, what did he do?",
             "options": [
                 {
-                    "option_id": "right",
-                    "text": "At Quba",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "option_id": "a",
+                    "text": "He named the baby and carried him into the mosque",
+                    "feedback": "No naming or visit to the mosque is told; he gave the baby a chewed date and prayed for him."
                 },
                 {
-                    "option_id": "other",
-                    "text": "In Mecca",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "b",
+                    "text": "He chewed a date, put it in the baby’s mouth, and prayed for him",
+                    "feedback": "Right. The first thing to enter the child’s stomach was the Prophet’s ﷺ saliva, and he asked Allah to bless him."
                 },
                 {
-                    "option_id": "third",
-                    "text": "At al-Juhfa",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "c",
+                    "text": "He gave him back and told her to rest at Quba",
+                    "feedback": "He kept the baby in his lap, rubbed a chewed date on his palate, and prayed for him."
                 }
             ],
-            "explanation": "Asma says that she settled in Quba and gave birth there to Abd Allah ibn al-Zubayr, then brought him to the Prophet ﷺ.",
+            "explanation": "The Prophet ﷺ gave ‘Abdullah ibn al-Zubayr a chewed date as his first food and prayed for blessing on him.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_07:p1",
                 "sp_settlement_chapter_07:p2",
-                "sp_settlement_chapter_08:p1",
-                "sp_settlement_chapter_08:p2",
                 "sp_settlement_chapter_09:p1",
                 "sp_settlement_chapter_09:p2"
             ],
-            "correct_option_id": "right"
+            "correct_option_id": "b"
         },
         {
             "question_id": "hch_settlement_q_5",
             "step_id": "hch_settlement",
-            "difficulty": "beginner",
-            "practice_scope": "lesson",
-            "prompt": "What does the follow-up report add about Asma?",
-            "options": [
-                {
-                    "option_id": "right",
-                    "text": "That she migrated while pregnant",
-                    "feedback": "Correct; this is what the specified reading indicates."
-                },
-                {
-                    "option_id": "other",
-                    "text": "That she specified the day of birth",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
-                },
-                {
-                    "option_id": "third",
-                    "text": "That she named the location of her house",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
-                }
-            ],
-            "explanation": "Al-Bukhari’s corroborating report adds that Asma migrated to the Prophet ﷺ while pregnant; it does not include the birth and tahnik scene found in the other report.",
-            "scope_note": "",
-            "source_unit_ids": [
-                "sp_settlement_chapter_07:p1",
-                "sp_settlement_chapter_07:p2",
-                "sp_settlement_chapter_08:p1",
-                "sp_settlement_chapter_08:p2",
-                "sp_settlement_chapter_09:p1",
-                "sp_settlement_chapter_09:p2"
-            ],
-            "correct_option_id": "right"
-        },
-        {
-            "question_id": "hch_settlement_q_6",
-            "step_id": "hch_settlement",
-            "difficulty": "beginner",
-            "practice_scope": "lesson",
-            "prompt": "What does Aisha’s account relate about the newborn?",
-            "options": [
-                {
-                    "option_id": "right",
-                    "text": "A date the Prophet ﷺ chewed and placed in the baby’s mouth",
-                    "feedback": "Correct; this is what the specified reading indicates."
-                },
-                {
-                    "option_id": "other",
-                    "text": "The prayer to move the fever to al-Juhfa",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
-                },
-                {
-                    "option_id": "third",
-                    "text": "The account of brotherhood with Uthman",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
-                }
-            ],
-            "explanation": "In Aisha’s report, the Prophet ﷺ took a date, chewed it, then placed it in Abd Allah ibn al-Zubayr’s mouth; this report does not state where he was born.",
-            "scope_note": "",
-            "source_unit_ids": [
-                "sp_settlement_chapter_07:p1",
-                "sp_settlement_chapter_07:p2",
-                "sp_settlement_chapter_08:p1",
-                "sp_settlement_chapter_08:p2",
-                "sp_settlement_chapter_09:p1",
-                "sp_settlement_chapter_09:p2"
-            ],
-            "correct_option_id": "right"
-        },
-        {
-            "question_id": "hch_settlement_q_7",
-            "step_id": "hch_settlement",
-            "difficulty": "intermediate",
+            "difficulty": "expert",
             "practice_scope": "source_study",
-            "prompt": "To whom does the preference for the first year belong in the reading shown?",
+            "prompt": "Al-Waqidi dates ‘Abdullah ibn al-Zubayr’s birth to the second year after the Hijrah. Why does Ibn Hajar prefer the first?",
             "options": [
                 {
-                    "option_id": "right",
-                    "text": "Ibn Hajar, in his commentary",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "option_id": "a",
+                    "text": "Because Asma herself names the first year in her report",
+                    "feedback": "Asma gives a place, Quba, but no date; the first year is Ibn Hajar’s conclusion."
                 },
                 {
-                    "option_id": "other",
-                    "text": "An explicit date in Asma’s words",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "b",
+                    "text": "Because al-Waqidi’s own report places the birth at Quba",
+                    "feedback": "Al-Waqidi is the one Ibn Hajar sets aside; his reason is how soon Abu Bakr’s household arrived."
                 },
                 {
-                    "option_id": "third",
-                    "text": "According to al-Waqidi",
-                    "feedback": "According to Ibn Hajar, al-Waqidi and those who followed him were certain it was the second year; they did not prefer the first year."
+                    "option_id": "c",
+                    "text": "Abu Bakr’s household came too soon after the Hijrah for a delay of twenty months",
+                    "feedback": "Right. The families arrived while the mosque was being built, so the birth fell in the first year."
                 }
             ],
-            "explanation": "Ibn Hajar considers Abd Allah ibn al-Zubayr’s birth to have been in the first year, contrary to al-Waqidi and those who followed him, who were certain it was in the second year. This is Ibn Hajar’s preference in his commentary, not an explicit date in Asma’s words.",
+            "explanation": "Ibn Hajar ties the birth to the families’ early arrival, during the building of the mosque, and so sets aside al-Waqidi’s second year.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_10:p1",
                 "sp_settlement_chapter_10:p2",
                 "sp_settlement_chapter_10:p3",
-                "sp_settlement_chapter_11:p1",
                 "sp_settlement_chapter_11:p2",
-                "sp_settlement_chapter_11:p3"
+                "sp_settlement_chapter_11:p3",
+                "sp_settlement_chapter_03:p1",
+                "sp_settlement_chapter_03:p2"
             ],
-            "correct_option_id": "right"
+            "correct_option_id": "c"
+        },
+        {
+            "question_id": "hch_settlement_q_6",
+            "step_id": "hch_settlement",
+            "difficulty": "intermediate",
+            "practice_scope": "lesson",
+            "prompt": "At first, men made brothers in the pact inherited from one another. What brought that to an end?",
+            "options": [
+                {
+                    "option_id": "a",
+                    "text": "The verse “And blood relatives are nearer to one another in the Book of Allah”, after Badr",
+                    "feedback": "Right. After the verse was revealed, each man’s heirs were once again his own family."
+                },
+                {
+                    "option_id": "b",
+                    "text": "The arrival of the emigrants’ families from Makkah",
+                    "feedback": "The families arrived while the mosque was being built; the inheritance lasted until after Badr."
+                },
+                {
+                    "option_id": "c",
+                    "text": "The deaths of As‘ad ibn Zurarah and Kulthum ibn al-Hidm",
+                    "feedback": "Those deaths came in the first months; inheritance between brothers ended later, with a verse revealed after Badr."
+                }
+            ],
+            "explanation": "The brotherhood joined emigrants and Ansar to share what they had; inheriting from one another ended after Badr, with the verse on blood relatives.",
+            "scope_note": "",
+            "source_unit_ids": ["H-146-249-FRATERNITY-A:p1", "H-146-250-FRATERNITY-B:p1"],
+            "correct_option_id": "a"
+        },
+        {
+            "question_id": "hch_settlement_q_7",
+            "step_id": "hch_settlement",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "Who was the first Muslim to be buried in al-Baqi‘, the burial ground of Madinah?",
+            "options": [
+                {
+                    "option_id": "a",
+                    "text": "Al-Bara ibn Ma‘rur, who asked to face the Ka‘bah in his grave",
+                    "feedback": "Al-Bara died a month before the Prophet ﷺ came; on arriving, the Prophet ﷺ prayed at his grave."
+                },
+                {
+                    "option_id": "b",
+                    "text": "As‘ad ibn Zurarah, who died while the mosque was being built",
+                    "feedback": "Right. A sickness of the throat took him, and he was the first Muslim buried in al-Baqi‘."
+                },
+                {
+                    "option_id": "c",
+                    "text": "Kulthum ibn al-Hidm, who had been the Prophet’s ﷺ host",
+                    "feedback": "Kulthum died a short while after the Prophet’s ﷺ coming, but the first burial in al-Baqi‘ was As‘ad’s."
+                }
+            ],
+            "explanation": "As‘ad ibn Zurarah died during the building of the mosque and was the first Muslim laid in al-Baqi‘.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_20:p1",
+                "H-9898-138-prep-2:p1",
+                "H-9783-1022-FIRST-DEATHS:p1",
+                "sp_settlement_chapter_21:p1"
+            ],
+            "correct_option_id": "b"
         },
         {
             "question_id": "hch_settlement_q_8",
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "Who spoke the verses longing for the valley and Majanna?",
+            "prompt": "Who, when the fever left him, longed aloud for a valley of idhkhir grass and the waters of Majannah?",
             "options": [
                 {
-                    "option_id": "right",
-                    "text": "Bilal",
-                    "feedback": "Correct; this is what the specified reading indicates."
-                },
-                {
-                    "option_id": "other",
+                    "option_id": "a",
                     "text": "Abu Bakr",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "feedback": "Abu Bakr’s line was about death being nearer than the strap of his sandal."
                 },
                 {
-                    "option_id": "third",
-                    "text": "The Prophet ﷺ",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "b",
+                    "text": "‘Amir ibn Fuhayrah",
+                    "feedback": "‘Amir answered ‘Aishah that he had found death before he tasted it."
+                },
+                {
+                    "option_id": "c",
+                    "text": "Bilal",
+                    "feedback": "Right. Bilal longed for the valleys and springs near Makkah: Majannah, Shamah and Tafil."
                 }
             ],
-            "explanation": "Aisha attributes the verses about al-Wadi and Majanna to Bilal, and mentions Abu Bakr’s verses about the fever before them.",
+            "explanation": "Bilal’s verses named places near Makkah he longed to see again, while the fever had the newcomers in its grip.",
             "scope_note": "",
             "source_unit_ids": [
                 "sp_settlement_chapter_12:p1",
@@ -3258,103 +3172,89 @@
                 "sp_settlement_chapter_12:p5",
                 "sp_settlement_chapter_12:p6",
                 "sp_settlement_chapter_12:p7",
-                "sp_settlement_chapter_13:p1",
-                "sp_settlement_chapter_13:p2",
-                "sp_settlement_chapter_14:p1",
-                "sp_settlement_chapter_14:p2",
-                "sp_settlement_chapter_14:p3",
-                "sp_settlement_chapter_15:p1"
+                "sp_settlement_chapter_18:p1",
+                "sp_settlement_chapter_18:p2",
+                "sp_settlement_chapter_18:p3"
             ],
-            "correct_option_id": "right"
+            "correct_option_id": "c"
         },
         {
             "question_id": "hch_settlement_q_9",
             "step_id": "hch_settlement",
             "difficulty": "beginner",
             "practice_scope": "lesson",
-            "prompt": "What does the Prophet’s prayer ask for in Muslim’s version?",
+            "prompt": "After ‘Aishah told him of the fever, what did the Prophet ﷺ ask Allah for Madinah?",
             "options": [
                 {
-                    "option_id": "right",
-                    "text": "Love of Medina, its health, blessing in its measures, and transfer of the fever",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "option_id": "a",
+                    "text": "To make it dear to them like Makkah or dearer, healthy, and to take its fever away",
+                    "feedback": "Right. He also asked for blessing in its sa‘ and mudd, and for the fever to go to al-Juhfah."
                 },
                 {
-                    "option_id": "other",
-                    "text": "A date for the birth of Ibn al-Zubayr",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "b",
+                    "text": "To bring them back safely to Makkah once the fever passed",
+                    "feedback": "He did not pray to return; he asked that Madinah be made as dear to them as Makkah, or dearer."
                 },
                 {
-                    "option_id": "third",
-                    "text": "The migration of all migrants with their possessions",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "c",
+                    "text": "To punish those who had driven them out to a land of plague",
+                    "feedback": "That was Bilal’s curse on ‘Utbah, Shaybah and Umayyah; the Prophet ﷺ prayed for the city itself."
                 }
             ],
-            "explanation": "After describing the epidemic in Madinah and the illness of Abu Bakr and Bilal, Aisha recounts the Prophet’s ﷺ prayer for love of Madinah, its health, blessing in its sa‘ and mudd, and for its fever to be moved to al-Juhfa.",
+            "explanation": "The Prophet ﷺ prayed for Madinah to become dear and healthy, blessed in its food, and freed of its fever.",
             "scope_note": "",
             "source_unit_ids": [
+                "sp_settlement_chapter_14:p1",
+                "sp_settlement_chapter_14:p2",
+                "sp_settlement_chapter_14:p3",
                 "sp_settlement_chapter_12:p1",
                 "sp_settlement_chapter_12:p2",
                 "sp_settlement_chapter_12:p3",
                 "sp_settlement_chapter_12:p4",
                 "sp_settlement_chapter_12:p5",
                 "sp_settlement_chapter_12:p6",
-                "sp_settlement_chapter_12:p7",
-                "sp_settlement_chapter_13:p1",
-                "sp_settlement_chapter_13:p2",
-                "sp_settlement_chapter_14:p1",
-                "sp_settlement_chapter_14:p2",
-                "sp_settlement_chapter_14:p3",
-                "sp_settlement_chapter_15:p1"
+                "sp_settlement_chapter_12:p7"
             ],
-            "correct_option_id": "right"
+            "correct_option_id": "a"
         },
         {
             "question_id": "hch_settlement_q_10",
             "step_id": "hch_settlement",
             "difficulty": "intermediate",
             "practice_scope": "source_study",
-            "prompt": "To whom are the additional verses attributed in Ibn Hajar’s quotation from Ibn Ishaq?",
+            "prompt": "Where do ‘Amir ibn Fuhayrah’s verse and ‘Aishah’s words “they are raving” come from?",
             "options": [
                 {
-                    "option_id": "right",
-                    "text": "Amir ibn Fuhayra",
-                    "feedback": "Correct; this is what the specified reading indicates."
+                    "option_id": "a",
+                    "text": "‘Aishah’s report in al-Bukhari through Malik, with Bilal’s verses",
+                    "feedback": "That report gives Abu Bakr’s line, Bilal’s verses and the prayer, but not ‘Amir’s verse."
                 },
                 {
-                    "option_id": "other",
-                    "text": "Bilal alone",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "b",
+                    "text": "An addition Ibn Ishaq transmits from ‘Aishah, quoted by Ibn Hajar",
+                    "feedback": "Right. Malik has ‘Amir’s verse in al-Muwatta only with a broken chain."
                 },
                 {
-                    "option_id": "third",
-                    "text": "Al-Khattabi",
-                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                    "option_id": "c",
+                    "text": "Ibn Hibban’s scene, without a chain, of people praying sitting down",
+                    "feedback": "Ibn Hibban’s chainless scene tells of the prayer “twice the blessing”, not ‘Amir’s verse."
                 }
             ],
-            "explanation": "Ibn Hajar transmits from Ibn Ishaq an additional account in which Aisha asks Amir ibn Fuhayra and he recites his verses; he then notes that Malik’s chain for this addition from Aisha is disconnected.",
+            "explanation": "‘Amir’s verse and ‘Aishah’s “they are raving” rest on Ibn Ishaq’s addition; al-Bukhari’s report through Malik gives Abu Bakr’s and Bilal’s verses.",
             "scope_note": "",
             "source_unit_ids": [
-                "sp_settlement_chapter_16:p1",
-                "sp_settlement_chapter_16:p2",
-                "sp_settlement_chapter_16:p3",
-                "sp_settlement_chapter_16:p4",
-                "sp_settlement_chapter_17:p1",
-                "sp_settlement_chapter_17:p2",
-                "sp_settlement_chapter_17:p3",
-                "sp_settlement_chapter_18:p1",
-                "sp_settlement_chapter_18:p2",
-                "sp_settlement_chapter_18:p3",
-                "sp_settlement_chapter_18:p4",
-                "sp_settlement_chapter_18:p5",
-                "sp_settlement_chapter_18:p6",
-                "sp_settlement_chapter_18:p7",
-                "sp_settlement_chapter_19:p1",
                 "sp_settlement_chapter_19:p2",
                 "sp_settlement_chapter_19:p3",
-                "sp_settlement_chapter_19:p4"
+                "sp_settlement_chapter_19:p4",
+                "sp_settlement_chapter_12:p1",
+                "sp_settlement_chapter_12:p2",
+                "sp_settlement_chapter_12:p3",
+                "sp_settlement_chapter_12:p4",
+                "sp_settlement_chapter_12:p5",
+                "sp_settlement_chapter_12:p6",
+                "sp_settlement_chapter_12:p7"
             ],
-            "correct_option_id": "right"
+            "correct_option_id": "b"
         }
     ]
 }

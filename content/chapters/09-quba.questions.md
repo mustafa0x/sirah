@@ -5,299 +5,311 @@
 ## hch_quba_q_watch
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_quba_chapter_01:p1–p4`, `sp_quba_chapter_02:p1–p2`, `sp_quba_chapter_03:p1–p2`
+answer: b
+sources: `sp_quba_chapter_01:p1`, `sp_quba_chapter_03:p1–p2`
 
-What ended the Muslims’ wait at the lava plain?
-
-### right
-
-A call from a man who had spotted the arrivals.
-
-> Yes; the specified reading supports this.
+The Muslims of Madinah had gone home after a long morning's wait. How did they learn the Prophet ﷺ was arriving?
 
 ### a
 
-A letter arriving from Makkah that set the time.
+A rider from Makkah came ahead with the news
 
-> The report says the Muslims waited for those arriving; it does not mention a letter from Makkah setting a date.
+> No rider brought word that day. The Muslims had already gone back to their houses when the Prophet ﷺ and his companions came into view.
 
 ### b
 
-The completion of the Madinah mosque.
+A Jewish man on a fort saw the party and shouted
 
-> The man’s announcement came before the welcome at al-Harra; the mosque’s construction appears later in the report.
+> Right. He had climbed a fort for something of his own, saw them shimmering in white, and called out, "Here is your good fortune, the one you have been waiting for!"
+
+### c
+
+A lookout they had left on the lava plain called out
+
+> They left no one behind; everyone had gone home in the heat. The first to see the Prophet ﷺ was not one of the waiting Muslims at all.
 
 ### why
 
-In Urwa’s report, the Muslims went out to wait for those arriving; then a Jewish man announced that he had seen them, and they went to meet them at al-Harra.
+The Muslims had given up for the day when a Jewish man on one of the forts spotted the party in white and shouted the news, and they snatched up their weapons and ran out to meet him.
 
 ## hch_quba_q_recognize
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_quba_chapter_01:p1–p4`, `sp_quba_chapter_02:p1–p2`, `sp_quba_chapter_03:p1–p2`
+answer: c
+sources: `sp_quba_chapter_01:p1`, `sp_quba_chapter_03:p1–p2`
 
-How did those who had not seen the Prophet ﷺ realize he was not Abu Bakr?
-
-### right
-
-Abu Bakr shaded him with his cloak.
-
-> Yes; the specified reading supports this.
+Most of the Ansar had never seen the Prophet ﷺ. Under the palm tree at Quba, how did they finally know which man he was?
 
 ### a
 
-The Prophet stepped forward to address them.
+He stood up and greeted them first
 
-> The text says Abu Bakr shaded the Messenger of Allah ﷺ; it does not say he stepped forward to deliver a sermon.
+> It was Abu Bakr who stood to receive the people; the Prophet ﷺ sat in silence, and many greeted Abu Bakr thinking he was the Prophet.
 
 ### b
 
-They heard his name from the party.
+Abu Bakr called him the Messenger of Allah
 
-> They did not recognize him by hearing his name from the caravan; the report says they recognized him when Abu Bakr shaded him.
+> No words told them. The two men were about the same age, and the crowd could not tell them apart until something Abu Bakr did.
+
+### c
+
+Abu Bakr held his cloak over him to shade him
+
+> Right. When the shade moved off and the sun fell on the Prophet ﷺ, Abu Bakr shaded him with his cloak, and at that they knew him.
 
 ### why
 
-People recognized the Messenger of Allah ﷺ when Abu Bakr shaded him with his cloak, after they had initially been unsure.
+The Ansar could not tell the two men apart until the sun reached the Prophet ﷺ and Abu Bakr stood over him with his cloak, showing them whom he served.
 
 ## hch_quba_q_hosts
 level: intermediate
 scope: source_study
-answer: right
-sources: `sp_quba_chapter_04:p1`, `sp_quba_chapter_05:p1`
+answer: a
+sources: `sp_quba_chapter_04:p1`, `H-1673-4088-HS-QUBA-HOSTS-1`
 
-How did Ibn Ishaq word the account of the Prophet’s ﷺ lodging?
-
-### right
-
-He mentioned Kulthum “as they relate,” then the account of Sad, ending with “God knows best.”
-
-> Yes; the specified reading supports this.
+Ibn Ishaq heard two names for the Prophet's ﷺ host at Quba, Kulthum ibn Hidm and Sa‘d ibn Khaythamah. How does he handle them?
 
 ### a
 
-He stated definitively that the two lodgings were one house.
+He gives both, saying "Allah knows best which it was"
 
-> The text presents two accounts and explains their difference; it does not assert that the two houses were one and the same.
+> Right. He records both reports without deciding, and notes how those who name Kulthum explain Sa‘d: the Prophet ﷺ sat with people at Sa‘d's house.
 
 ### b
 
-He said Abu Bakr lodged in Sad’s house.
+He rejects Sa‘d, since Sa‘d's house was for bachelors
 
-> The text attributes a different place of stay to Abu Bakr; it does not say that he stayed in Sa‘d’s house.
+> He rejects neither. The house of the bachelors is how he explains why some named Sa‘d, not a reason to dismiss them.
+
+### c
+
+He prefers Kulthum because Ibn Shihab knew it best
+
+> That judgment is al-Hakim's, quoted by Ibn Hajar. Ibn Ishaq himself leaves the question open.
 
 ### why
 
-Ibn Ishaq gives two accounts of where the Prophet ﷺ stayed: with Kulthum ibn al-Hidm, and, in another account, with Sa‘d ibn Khaythama. He then explains the mention of sitting in Sa‘d’s house and concludes, ‘Allah knows best which of these it was.’
+Ibn Ishaq keeps both names and leaves the choice to Allah; the way of joining them, lodging with Kulthum and sitting with people at Sa‘d's, is what later scholars like Ibn Hajar adopt.
 
 ## hch_quba_q_bakr
-level: beginner
+level: intermediate
 scope: lesson
-answer: right
-sources: `sp_quba_chapter_04:p1`, `sp_quba_chapter_05:p1`
+answer: d
+sources: `sp_quba_chapter_05:p1`
 
-Whose lodging is at issue in the differing reports naming Khubayb and Kharija?
-
-### right
-
-Abu Bakr’s place of lodging.
-
-> Yes; the specified reading supports this.
+While the Prophet ﷺ lodged with Kulthum ibn Hidm, where did Abu Bakr stay?
 
 ### a
 
-The writer of a Friday covenant.
+In the same house, with Kulthum ibn Hidm
 
-> The statement concerns Abu Bakr’s place of stay, not the writer of the Friday covenant.
+> Kulthum was the Prophet's ﷺ host. Abu Bakr was lodged elsewhere at Quba.
 
 ### b
 
-The name of the founder of the Quba mosque.
+In the house of the bachelors, with Sa‘d ibn Khaythamah
 
-> The statement concerns Abu Bakr’s place of stay, not the name of the founder of Quba Mosque.
+> Sa‘d's house was where the Prophet ﷺ sat with people and where unmarried emigrants lodged, not where Abu Bakr stayed.
+
+### c
+
+With a Muslim woman who had no husband
+
+> That was ‘Ali's lodging for a night or two, where he saw Sahl ibn Hunayf bring broken idols for firewood.
+
+### d
+
+With Khubayb ibn Isaf at al-Sunh, or Kharijah ibn Zayd
+
+> Right. Abu Bakr stayed with Khubayb ibn Isaf at al-Sunh; others said with Kharijah ibn Zayd.
 
 ### why
 
-Ibn Ishaq names Khubayb ibn Isaf as Abu Bakr’s host, then mentions another account naming Kharija ibn Zayd.
+At Quba the travellers were lodged separately: the Prophet ﷺ with Kulthum, Abu Bakr with Khubayb ibn Isaf (or Kharijah ibn Zayd), and ‘Ali, when he arrived, with a Muslim woman who had no husband.
 
 ## hch_quba_q_ishaq
-level: beginner
+level: intermediate
 scope: lesson
-answer: right
-sources: `sp_quba_chapter_06:p1`, `sp_quba_chapter_07:p1`, `sp_quba_chapter_08:p1`, `sp_quba_chapter_09:p1`, `sp_quba_chapter_10:p1–p4_cont`, `sp_quba_chapter_14:p1`
+answer: b
+sources: `H-9783-1007-ALI-A`, `H-9783-1008-ALI-B`
 
-Which days does Ibn Ishaq name before the departure on Friday?
-
-### right
-
-Monday through Thursday.
-
-> Yes; the specified reading supports this.
+At Quba, ‘Ali saw a man knock at night on his hostess's door. What was Sahl ibn Hunayf bringing her?
 
 ### a
 
-Monday through Sunday.
+Food he had set aside for the emigrants
 
-> The days Ibn Ishaq names are Monday through Thursday; he does not say the stay continued until Sunday.
+> Food set aside as charity is Salman's story. Sahl brought something else, and for a different reason.
 
 ### b
 
-Friday and Saturday only.
+His people's idols, broken, for her firewood
 
-> Ibn Ishaq mentions Monday through Thursday, then departure on Friday—not Friday and Saturday alone.
+> Right. Each evening Sahl went to his people's idols, broke them and brought them to her, saying, "Use this for firewood."
+
+### c
+
+Word that the Prophet ﷺ was near Quba
+
+> By then the Prophet ﷺ was already at Quba; ‘Ali had joined him there. Sahl's visits were about the woman's need.
 
 ### why
 
-Ibn Ishaq specifies Monday through Thursday for the stay in Quba and the mosque’s founding, and mentions departure on Friday. He reports that Banu Amr said the stay lasted longer, then leaves the matter to God’s knowledge.
+Sahl knew the woman had no one to provide for her, so he broke his people's idols and gave her the wood; ‘Ali told the story of him years later, after Sahl died with him in Iraq.
 
 ## hch_quba_q_anas
-level: beginner
+level: intermediate
 scope: lesson
-answer: right
-sources: `sp_quba_chapter_06:p1`, `sp_quba_chapter_07:p1`, `sp_quba_chapter_08:p1`, `sp_quba_chapter_09:p1`, `sp_quba_chapter_10:p1–p4_cont`, `sp_quba_chapter_14:p1`
+answer: a
+sources: `H-9862-84-ISHAQ-EARLY-SALMAN-04`
 
-How long is the stay in Anas’s wording as transmitted by al-Bayhaqi?
-
-### right
-
-Fourteen nights.
-
-> Yes; the specified reading supports this.
+Salman brought the Prophet ﷺ food he called charity. What did the Prophet ﷺ do with it?
 
 ### a
 
-Three nights.
+He told his companions to eat, and did not eat himself
 
-> Anas’s wording here is fourteen nights, not three.
+> Right. He held back his hand and said "Eat" to his companions. His teacher had told Salman this prophet would not eat charity.
 
 ### b
 
-Twenty-two nights.
+He ate with his companions and thanked Salman
 
-> Anas’s wording here is fourteen nights, not twenty-two.
+> He did not eat it. That he held back was the sign Salman was looking for.
+
+### c
+
+He refused it and asked Salman to keep it
+
+> He did not turn it away; his companions ate it. Only the Prophet ﷺ himself held back.
 
 ### why
 
-In Anas’s report transmitted by al-Bayhaqi, the stay among Banu Amr ibn Awf lasted fourteen nights before the leaders of Banu al-Najjar were sent for.
+The Prophet ﷺ let his companions eat the charity but did not touch it, matching one of the signs Salman's teacher had given him of the coming prophet.
 
 ## hch_quba_q_hajar
 level: expert
 scope: source_study
-answer: right
-sources: `sp_quba_chapter_06:p1`, `sp_quba_chapter_07:p1`, `sp_quba_chapter_08:p1`, `sp_quba_chapter_09:p1`, `sp_quba_chapter_10:p1–p4_cont`, `sp_quba_chapter_14:p1`
+answer: c
+sources: `sp_quba_chapter_09:p1`, `sp_quba_chapter_10:p1–p2`, `sp_quba_chapter_14:p1`
 
-In Ibn Hajar’s discussion of variant wordings of this transmission, which of the two numbers did he judge correct for this transmission?
-
-### right
-
-Fourteen nights according to the other transmitters.
-
-> Correct; this is Ibn Hajar’s judgment about the wording of this transmission, not an independent assessment of all accounts of the duration.
+The reports of the stay at Quba run from three days to twenty-two nights. Why does Ibn Hajar prefer Anas's fourteen nights?
 
 ### a
 
-Twenty-four nights in the version of al-Mustamli and al-Hamawi.
+Anas was of Banu ‘Amr ibn ‘Awf, the Prophet's ﷺ hosts
 
-> Ibn Hajar mentions this wording for them, but judges the wording of the other transmitters correct for this transmission.
+> The reverse: Anas belonged to the Khazraj, not to Banu ‘Amr ibn ‘Awf, who were of the Aws.
 
 ### b
 
-Twenty-two nights in the report of Mujammi ibn Haritha.
+Every copy of al-Bukhari reads fourteen nights
 
-> This belongs to the differing durations Ibn Hajar discusses elsewhere, not the wording he selects for this transmission.
+> Some copies read "twenty-four". Ibn Hajar judges "fourteen" correct because the other transmitters have it.
+
+### c
+
+Anas was of the Khazraj, not the hosts, and stated it plainly
+
+> Right. Anas had no stake in lengthening the stay of Banu ‘Amr ibn ‘Awf, and he gave his number clearly.
 
 ### why
 
-In this recension of Sahih al-Bukhari, Ibn Hajar notes a difference in wording between al-Mustamli, al-Hamawi, and the other transmitters, and describes fourteen as correct in this recension. This is distinct from his broader preference for Anas’s account elsewhere.
+Ibn Hajar favours Anas because he was not of the host clan, whose own claims ran longer, and because he stated his count plainly; he explains some shorter counts as leaving out the day of arrival or departure.
 
 ## hch_quba_q_mosque
-level: beginner
+level: intermediate
 scope: lesson
-answer: right
-sources: `sp_quba_chapter_01:p1–p4`, `sp_quba_chapter_06:p1`, `sp_quba_chapter_10:p1–p4_cont`, `sp_quba_chapter_11:p1–p2`, `sp_quba_chapter_12:p1–p15`, `sp_quba_chapter_13:p1`
+answer: d
+sources: `sp_quba_chapter_12:p1`
 
-What must not be attached to the Quba mosque?
-
-### right
-
-Negotiations with Banu al-Najjar over the walled plot for the Madinah mosque.
-
-> Yes; the specified reading supports this.
+The Muslims of Madinah had kept up mosques and prayer for years. What made the mosque at Quba a first?
 
 ### a
 
-Praying in the mosque founded there.
+It was the first mosque built anywhere in Madinah
 
-> The prayer at the mosque founded in Quba belongs to an earlier report; the question here is about the request for the walled plot in Anas’s report.
+> The Muslims of Madinah already had mosques before the Prophet ﷺ came, so Quba was not the first building of its kind there.
 
 ### b
 
-The account of the Prophet’s ﷺ stay among Banu Amr.
+It was the first mosque built with stones
 
-> The stay among Banu Amr ibn Awf was an earlier stage; the question is about the request for the walled plot after moving on to Banu al-Najjar.
+> Stones are part of how ‘Ammar built it in one report, but that is not what made it first.
+
+### c
+
+It was the first place the Friday prayer was held
+
+> No Friday prayer is told at Quba; on a Friday the Prophet ﷺ rode out of Quba towards Madinah.
+
+### d
+
+The Prophet ﷺ first prayed there openly with his companions
+
+> Right. Quba was the first mosque where the Prophet ﷺ prayed openly with his companions, built by ‘Ammar or by Banu ‘Amr ibn ‘Awf.
 
 ### why
 
-In Anas’s report, after moving on to Banu al-Najjar, the Prophet ﷺ asked for the walled plot for the mosque in Madinah; this is not the Quba Mosque mentioned in the preceding report.
+Prayer and mosques were not new to Madinah, but Quba was where the Prophet ﷺ first prayed openly with his companions, which is why it is remembered as the first mosque.
 
 ## hch_quba_q_verse
 level: expert
 scope: source_study
-answer: right
-sources: `sp_quba_chapter_01:p1–p4`, `sp_quba_chapter_06:p1`, `sp_quba_chapter_10:p1–p4_cont`, `sp_quba_chapter_11:p1–p2`, `sp_quba_chapter_12:p1–p15`, `sp_quba_chapter_13:p1`
+answer: b
+sources: `sp_quba_chapter_12:p2–p3`, `sp_quba_chapter_12:p3–p9_hajar`, `sp_quba_chapter_12:p13–p15`
 
-What appears alongside the majority view favoring Quba in Ibn Hajar’s commentary?
-
-### right
-
-A reported prophetic answer identifying the Prophet’s ﷺ mosque.
-
-> Yes; the specified reading supports this.
+Most scholars read Quran 9:108's mosque "founded on God-consciousness" as Quba. What does Abu Sa‘id's report add?
 
 ### a
 
-A Quranic text that names Quba explicitly.
+The Prophet ﷺ named Quba and no other mosque
 
-> The verse mentions the mosque founded upon piety, but does not explicitly name Quba; Ibn Hajar’s commentary attributes the identification with Quba to the majority.
+> In Abu Sa‘id's report the Prophet ﷺ points to his own mosque in Madinah, and says of Quba only that there is much good in it.
 
 ### b
 
-A denial of every merit of the Quba mosque.
+The Prophet ﷺ pointed to his own mosque, praising Quba too
 
-> The commentary does not deny the merit of Quba Mosque; Ibn Hajar transmits that both were founded upon piety.
+> Right. Asked by two men who disputed it, he said, "It is this one," his mosque, "and in that one," Quba, "there is much good."
+
+### c
+
+The verse was revealed about the people of Banu al-Najjar
+
+> The report about the people who "love to purify themselves" is Abu Hurayrah's, and it names the people of Quba.
 
 ### why
 
-Ibn Hajar transmits the majority view that the mosque founded upon piety refers to Quba Mosque. He then cites a Prophetic answer in another report identifying the Prophet’s ﷺ mosque, and presents ways of reconciling the two accounts.
+Abu Sa‘id's report points the verse at the Prophet's ﷺ mosque in Madinah; Ibn Hajar, with al-Dawudi and al-Suhayli, concludes that both mosques were founded on God-consciousness.
 
 ## hch_quba_q_friday
 level: beginner
 scope: lesson
-answer: right
-sources: `sp_quba_chapter_01:p1–p4`, `sp_quba_chapter_07:p1`
+answer: c
+sources: `sp_quba_chapter_07:p1`, `sp_quba_chapter_10:p1–p2`
 
-Where does Ibn Ishaq say Friday came upon the Prophet ﷺ after he left Quba?
-
-### right
-
-Among Banu Salim ibn Awf.
-
-> Yes; the specified reading supports this.
+On the Friday he left Quba, whom did the Prophet ﷺ send for to ride with him?
 
 ### a
 
-At the walled plot of Banu al-Najjar.
+The men of Banu ‘Amr ibn ‘Awf, his hosts
 
-> The walled plot of Banu al-Najjar is the site of a mosque in another report, not the place where Friday prayer was held in Ibn Ishaq’s account.
+> Banu ‘Amr ibn ‘Awf were the clan he was leaving. He sent for another clan's men to escort him on.
 
 ### b
 
-In Sad ibn Khaythama’s house.
+The Muslim merchants returning from Syria with al-Zubayr
 
-> Sa‘d ibn Khaythama’s house is connected with the report of the stay in Quba, not the Friday prayer that Ibn Ishaq places among Banu Salim.
+> Al-Zubayr's party met him on the road before Quba and dressed him in white; they are not the escort out of Quba.
+
+### c
+
+The leading men of Banu al-Najjar
+
+> Right. They came with their swords at their sides, and rode around him as he set out with Abu Bakr behind him.
 
 ### why
 
-Ibn Ishaq says that Friday came upon the Prophet ﷺ among Banu Salim ibn Awf, and that he prayed it at the mosque in Wadi Ranuna.
+The Prophet ﷺ left Quba escorted by the leading men of Banu al-Najjar, armed, with Abu Bakr riding behind him, a sight Anas never forgot.

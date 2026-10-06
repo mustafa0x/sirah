@@ -5,239 +5,299 @@
 ## hch_mosque_q_site
 level: beginner
 scope: lesson
-answer: a
-sources: `sp_mosque_chapter_ishaq_site:p1–p2`, `sp_mosque_chapter_ishaq_lodging:p1–p4`, `sp_mosque_chapter_ishaq_work:p1–p8`
+answer: b
+sources: `sp_mosque_chapter_ishaq_site:p1`, `sp_mosque_chapter_context_urwa_end:p2`
 
-How does Ibn Ishaq describe the site?
+What kind of place was the ground where the camel knelt, and who owned it?
 
 ### a
 
-A mirbad belonging to two orphan boys
+A palm garden belonging to Abu Ayyub, the Prophet’s ﷺ host
 
-> Correct; in the report, it is the two boys’ mirbad.
+> Abu Ayyub took the Prophet’s ﷺ baggage into his house nearby, but the yard was not his.
 
 ### b
 
-A horse market
+A yard for drying dates, owned by two orphan boys, Sahl and Suhayl
 
-> Review the reading: in the report, it is the two boys’ mirbad.
+> Right. It was a mirbad, where dates were laid out to dry, and it belonged to the two sons of ‘Amr.
+
+### c
+
+An open prayer ground set aside by the leading men of Banu al-Najjar
+
+> Some Muslims already prayed there, but it was a date-drying yard owned by two orphan boys.
 
 ### why
 
-In the report, it is the two boys’ mirbad.
+The mosque began in a mirbad, a yard for drying dates, that belonged to two orphan boys of Banu al-Najjar.
 
 ## hch_mosque_q_guardian
-level: intermediate
-scope: source_study
+level: beginner
+scope: lesson
 answer: a
-sources: `sp_mosque_chapter_ishaq_site:p1–p2`, `sp_mosque_chapter_ishaq_lodging:p1–p4`, `sp_mosque_chapter_ishaq_work:p1–p8`
+sources: `sp_mosque_chapter_ishaq_lodging:p2–p4`
 
-Who named the two boys and offered to satisfy them in Ibn Ishaq’s account?
+When the Prophet ﷺ asked whose the yard was, who answered and offered to satisfy the boys for it?
 
 ### a
 
-Muadh ibn Afra
+Mu‘adh ibn ‘Afra, who had the two orphans in his care
 
-> Correct; muadh’s statement is not interchangeable with the group’s answer.
+> Right. He said the boys were in his care, promised to satisfy them, and told the Prophet ﷺ to take it for a mosque.
 
 ### b
 
-The leading men of the Banu al-Najjar
+Abu Bakr, who had travelled with the Prophet ﷺ from Makkah
 
-> Review the reading: muadh’s statement is not interchangeable with the group’s answer.
+> Abu Bakr is remembered as paying a price in one report, but it was Mu‘adh ibn ‘Afra who answered the question.
+
+### c
+
+‘Ammar ibn Yasir, who later carried two bricks at a time
+
+> ‘Ammar appears during the building, not here; Mu‘adh ibn ‘Afra answered for the two boys.
 
 ### why
 
-Muadh’s statement is not interchangeable with the group’s answer.
+Mu‘adh ibn ‘Afra named the owners, Sahl and Suhayl, said they were orphans in his care, and offered the yard for a mosque.
 
 ## hch_mosque_q_offer
-level: intermediate
-scope: source_study
-answer: a
-sources: `sp_mosque_chapter_muslim_site:p1–p5`
+level: beginner
+scope: lesson
+answer: c
+sources: `sp_mosque_chapter_muslim_site:p3–p4`, `sp_mosque_chapter_context_anas_parallel:p2–p3`
 
-What did the Banu al-Najjar reply when the Prophet ﷺ asked them to name a price for the enclosed plot?
+The Prophet ﷺ asked the leading men of Banu al-Najjar to name a price for the plot. What did they answer?
 
 ### a
 
-We seek its price only from God
+They named ten dinars, to be paid to the two boys
 
-> Correct; the answer is the group’s in Anas’s text; the sum in the footnote is another transmission.
+> Ten dinars is al-Waqidi’s figure for a purchase from the boys; the clan’s men named no price at all.
 
 ### b
 
-We paid ten dinars
+They asked for time to consult the two boys’ guardian
 
-> Review the reading: the answer is the group’s in Anas’s text; the sum in the footnote is another transmission.
+> They did not hesitate: they refused any price outright and offered the plot freely.
+
+### c
+
+“We seek its price only from Allah”
+
+> Right. They refused payment and looked to Allah alone for the plot’s price.
 
 ### why
 
-The answer is the group’s in Anas’s text; the sum in the footnote is another transmission.
+The men of Banu al-Najjar would take no money for the plot, seeking their reward only from Allah.
 
 ## hch_mosque_q_prepare
 level: beginner
 scope: lesson
 answer: a
-sources: `sp_mosque_chapter_muslim_site:p1–p5`
+sources: `sp_mosque_chapter_muslim_site:p5`, `sp_mosque_chapter_muslim_work:p1`
 
-According to Anas’s report, what did he order done at the site?
+The plot held date palms, old graves and ruins. What did the Prophet ﷺ order done with them?
 
 ### a
 
-Cut down the date palms, dig up the polytheists’ graves, and level the ruins
+The palms cut down, the graves dug up and the ruins levelled
 
-> Correct; anas mentions these three actions.
+> Right. The whole plot was cleared, and the felled palms were then set in a row along the qibla side.
 
 ### b
 
-Leave the palms and ruins as they were
+The palms left standing to shade the courtyard
 
-> Review the reading: anas mentions these three actions.
+> The palms were cut down, not left standing; their trunks were laid in a row along the qibla side.
+
+### c
+
+The ruins repaired and built into the mosque’s walls
+
+> The ruins were levelled; the walls were raised new from bricks of unfired clay.
 
 ### why
 
-Anas mentions these three actions.
+Before building could begin, the yard was cleared of its palms, graves and ruins.
 
 ## hch_mosque_q_materials
-level: beginner
+level: intermediate
 scope: lesson
-answer: a
-sources: `sp_mosque_chapter_muslim_work:p1–p2`, `sp_mosque_chapter_ishaq_work:p1–p8`, `sp_mosque_chapter_builders:p1–p5`
+answer: b
+sources: `H-7478-1063-RA-MOSQUE-UBADA`, `H-7478-1061-RA-MOSQUE-IBNUMAR`
 
-What was used for the mosque’s two doorposts in Muslim’s continuation?
+The Ansar gathered money and asked the Prophet ﷺ to build up and adorn the mosque. How did he answer?
 
 ### a
 
-Stone
+He accepted, and had the palm-frond roof replaced with timber
 
-> Correct; the continuation names stone for the two doorposts.
+> He did not accept; the mosque kept its simple roof of palm fronds on palm-trunk pillars.
 
 ### b
 
-Fired bricks
+“A shelter like the shelter of Moses”
 
-> Review the reading: the continuation names stone for the two doorposts.
+> Right. He said he had no wish to turn away from his brother Moses, and kept the mosque a simple shelter.
+
+### c
+
+He told them to give the money to the Emigrants instead
+
+> He gave no such instruction; he answered that he wanted a shelter like the shelter of Moses.
 
 ### why
 
-The continuation names stone for the two doorposts.
+The mosque stayed simple, mud brick under palm fronds, because the Prophet ﷺ wanted “a shelter like the shelter of Moses”.
 
 ## hch_mosque_q_labor
+level: intermediate
+scope: lesson
+answer: c
+sources: `H-7478-1067-RA-AMMAR-KHALID-A`, `H-7478-1068-RA-AMMAR-KHALID-B`
+
+‘Ammar carried bricks two at a time while others carried one. What reason did he give when the Prophet ﷺ asked him?
+
+### a
+
+He was younger and stronger than his companions
+
+> ‘Ammar gave no such reason; when asked why he did not carry as the others did, he spoke of the reward.
+
+### b
+
+He wanted the walls finished before the families arrived
+
+> ‘Ammar spoke of nothing so practical; he said he wanted the reward from Allah.
+
+### c
+
+“I want the reward from Allah”
+
+> Right. The Prophet ﷺ brushed the dust from him and asked why he did not carry as his companions did, and this was his answer.
+
+### why
+
+‘Ammar doubled his load for the reward from Allah, and the Prophet ﷺ brushed the dust from him as he worked.
+
+## hch_mosque_q_words
 level: beginner
 scope: lesson
 answer: a
-sources: `sp_mosque_chapter_muslim_work:p1–p2`, `sp_mosque_chapter_ishaq_work:p1–p8`, `sp_mosque_chapter_builders:p1–p5`
+sources: `sp_mosque_chapter_muslim_work:p1–p2`, `sp_mosque_chapter_context_anas_parallel:p5`
 
-Who took part in the work in the Sira account?
-
-### a
-
-The Prophet ﷺ, the Emigrants, and the Helpers
-
-> Correct; the account names all of these as participants.
-
-### b
-
-The Helpers but not the Emigrants
-
-> Review the reading: the account names all of these as participants.
-
-### why
-
-The account names all of these as participants.
-
-## hch_mosque_q_words
-level: intermediate
-scope: source_study
-answer: a
-sources: `sp_mosque_chapter_muslim_work:p1–p2`, `sp_mosque_chapter_ishaq_work:p1–p8`, `sp_mosque_chapter_builders:p1–p5`
-
-To whom does Anas’s report attribute the words of supplication during the rajaz recitation?
+As the builders hauled the stone, what did they chant, with the Prophet ﷺ among them?
 
 ### a
 
-The workers, with the Messenger of God ﷺ among them
+“There is no good but the good of the Hereafter, so help the Ansar and the Emigrants”
 
-> Correct; anas describes the workers as saying these words.
+> Right. They chanted it as rajaz, short rhythmic verse, and the Prophet ﷺ joined in.
 
 ### b
 
-Ibn Hisham as the speaker of the supplication
+“Banu al-Najjar, name me a price for this walled plot of yours”
 
-> Review the reading: anas describes the workers as saying these words.
+> These were the Prophet’s ﷺ words to the clan’s leading men about the plot, not the builders’ chant.
+
+### c
+
+“We seek its price only from Allah”
+
+> This was the clan’s answer when asked to name a price, not a chant during the building.
 
 ### why
 
-Anas describes the workers as saying these words.
+The builders worked to a chant asking Allah to help the Ansar and the Emigrants, and the Prophet ﷺ chanted with them.
 
 ## hch_mosque_q_poetry
 level: intermediate
 scope: source_study
-answer: a
-sources: `sp_mosque_chapter_critique:p1–p6`, `sp_mosque_chapter_ishaq_work:p1–p8`, `sp_mosque_chapter_builders:p1–p5`
+answer: b
+sources: `sp_mosque_chapter_ishaq_work:p4–p8`
 
-In the Sira account, who commented that the Muslims’ words about life in the Hereafter were speech, not rajaz?
+Ibn Ishaq gives the Muslims a rhymed couplet about the life of the Hereafter. What did Ibn Hisham remark about it?
 
 ### a
 
-Ibn Hisham
+That it was ‘Ali’s verse, not the Muslims’
 
-> Correct; the literary comment is explicitly attributed to Ibn Hisham.
+> ‘Ali’s lines, on the one who builds mosques, come through another route; Ibn Hisham’s remark was about the couplet’s form.
 
 ### b
 
-The Prophet ﷺ
+That it was speech, not rajaz
 
-> Review the reading: the literary comment is explicitly attributed to Ibn Hisham.
+> Right. Ibn Hisham judged the couplet to be ordinary speech rather than rajaz verse.
+
+### c
+
+That the Prophet ﷺ composed it himself
+
+> Ibn Ishaq gives the Prophet ﷺ only a plain version of the line; Ibn Hajar notes that composing poetry was denied him.
 
 ### why
 
-The literary comment is explicitly attributed to Ibn Hisham.
+The reports agree the builders chanted, but differ on the words; Ibn Hisham remarked that Ibn Ishaq’s couplet was “speech, not rajaz”.
 
 ## hch_mosque_q_prayer
-level: intermediate
+level: expert
 scope: source_study
-answer: a
-sources: `sp_mosque_chapter_marabid:p1–p2`, `sp_mosque_chapter_follow:p1–p2`
+answer: c
+sources: `H-1681-4456-AMMAR-2812`, `H-1681-753-AMMAR-447`, `H-7478-1069-RA-AMMAR-CRITIC-A`, `H-7478-1070-RA-AMMAR-CRITIC-B`
 
-Does Muslim’s short parallel transmission give new details after the sheepfold report?
+Why did al-Bayhaqi think al-Bukhari had left out the words “the rebel party will kill him” from Abu Sa‘id’s report of the building?
 
 ### a
 
-No new detailed text
+Because al-Bukhari judged the words too weak to record anywhere
 
-> Correct; it is a parallel transmission referring to a similar report, without new detail.
+> Al-Bukhari does record them, in his chapter on jihad (no. 2812) without any doubt.
 
 ### b
 
-The material used for the mosque roof
+Because Abu Sa‘id himself never mentioned ‘Ammar at all
 
-> Review the reading: it is a parallel transmission referring to a similar report, without new detail.
+> Abu Sa‘id’s report is the one that tells of ‘Ammar’s two bricks; the question was only over this phrase.
+
+### c
+
+His copy of the Sahih lacked them, as some transmissions of no. 447 do
+
+> Right. He also noted that Abu Nadrah placed the words at the Trench, and allowed they may have been said twice.
 
 ### why
 
-It is a parallel transmission referring to a similar report, without new detail.
+The words appear in al-Bukhari no. 2812 and in some transmissions of no. 447; al-Bayhaqi worked from a copy without them.
 
 ## hch_mosque_q_limits
 level: expert
 scope: source_study
 answer: a
-sources: `sp_mosque_chapter_agency:p1–p3`, `sp_mosque_chapter_price_foot:p1–p3`
+sources: `sp_mosque_chapter_muslim_site:p4`, `H-1673-1012-HS-PRICE-1`, `sp_mosque_chapter_agency:p2–p3`, `H-1673-4074-HS-MIRBAD-OWNERSHIP-1`
 
-How does the footnote in Muslim’s edition present the sum of ten dinars?
+Anas’s report suggests no price was paid, while the biographers say the yard was bought. How does Ibn Hajar reconcile them?
 
 ### a
 
-As a report from Ibn Sad from al-Waqidi
+The clan refused; he bought it from the boys, and the clan may have paid for him
 
-> Correct; the sum is a transmission in the footnote, not the group’s reply in the main text.
+> Right. When the clan named the two boys as owners, he bought from them; those who refused payment may have paid on his behalf.
 
 ### b
 
-As a direct statement of the leading men of the Banu al-Najjar in Anas’s report
+He rejects Anas’s report and accepts only the purchase for ten dinars
 
-> Review the reading: the sum is a transmission in the footnote, not the group’s reply in the main text.
+> Ibn Hajar does not reject Anas; he notes the plain sense of his words and then fits both accounts together.
+
+### c
+
+He treats them as two different plots, one given and one bought
+
+> Ibn Hajar speaks of one plot; his answer is that the clan refused payment and the boys were then paid.
 
 ### why
 
-The sum is a transmission in the footnote, not the group’s reply in the main text.
+Ibn Hajar keeps both reports: the clan refused a price, and the boys were paid, by the Prophet ﷺ or by those who had refused on his behalf.

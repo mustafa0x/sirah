@@ -6,298 +6,304 @@
 level: beginner
 scope: lesson
 answer: abdullah
-sources: `sp_thawr_support:p1`, `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
+sources: `sp_thawr_support:p1`, `sp_thawr_exp_h_23833_509_808:p2–p4`
 
-Who brought the Prophet ﷺ and Abu Bakr news of what Quraysh were plotting against them?
+Who brought the Prophet ﷺ and Abu Bakr news each night of what Quraysh were saying and planning?
 
 ### amir
 
-Amir ibn Fuhayrah.
+‘Amir ibn Fuhayrah, Abu Bakr's freedman
 
-> Amir brought the sheep and milk; Abd Allah ibn Abi Bakr brought the news.
+> ‘Amir's task was the flock: he brought the sheep to the cave for milk and drove them off before dawn.
 
 ### abdullah
 
-Abd Allah ibn Abi Bakr.
+‘Abdullah, Abu Bakr's son
 
-> Correct; he remembered what he heard in Makkah and brought them the news at night.
+> Right. He listened to Quraysh all day in Makkah, kept every word in his head, and came back to the cave after dark.
+
+### asma
+
+Asma, Abu Bakr's daughter
+
+> Asma brought them food each evening; the news of Quraysh's plans came with her brother ‘Abdullah.
 
 ### guide
 
-The guide they hired.
+‘Abdullah ibn Urayqit, the hired guide
 
-> The guide was due to bring the two riding camels and then lead the party along the route; bringing news was Abd Allah’s task.
+> The guide did not come until the morning after the third night, bringing the camels for the road.
 
 ### why
 
-Abd Allah heard what Quraysh were planning in Makkah, remembered it, and returned to the cave with the news when darkness fell.
+Abu Bakr's son ‘Abdullah was their ears in Makkah: among Quraysh by day, at the cave with the news by night.
 
 ## hch_thawr_q_milk
 level: beginner
 scope: lesson
 answer: milk
-sources: `sp_thawr_support:p1`, `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
+sources: `sp_thawr_support:p1`, `sp_thawr_exp_h_23833_509_808:p2–p4`, `sp_thawr_exp_h_7478_1001_ra_urwa_musa_cave:p1–p2`
 
-How did Amir ibn Fuhayrah help the Prophet ﷺ and Abu Bakr during their stay in the cave?
+How did ‘Amir ibn Fuhayrah help the two in the cave?
 
 ### milk
 
-He brought them sheep that supplied them with milk.
+He brought a flock of milking sheep to the cave after nightfall.
 
-> Correct; he tended the sheep and brought them to the two men at night, on each of the three nights.
+> Right. He grazed the sheep among Makkah's shepherds by day, and at night the two slept with fresh milk.
 
 ### news
 
-He brought them news of Quraysh’s plots in Makkah.
+He brought them word of what Quraysh were planning.
 
-> Bringing news was Abd Allah ibn Abi Bakr’s task; Amir brought the sheep and milk.
+> That was ‘Abdullah's task; ‘Amir's part was the flock and its milk.
 
 ### camels
 
-He kept their two riding camels until it was time to depart.
+He kept their riding camels hidden near the mountain.
 
-> The Prophet ﷺ and Abu Bakr entrusted the two camels to the guide; Amir helped them with the sheep and milk.
+> The camels came with the guide on the morning after the third night; ‘Amir looked after the sheep.
 
 ### why
 
-Amir brought the sheep after part of the night had passed, supplying them with milk, then called to the sheep at dawn while it was still dark.
+‘Amir, Abu Bakr's freedman, grazed his flock unnoticed among the shepherds and brought it to the cave each night for milk.
 
 ## hch_thawr_q_night_and_morning
 level: intermediate
 scope: lesson
 answer: cave_night
-sources: `sp_thawr_support:p1`
+sources: `sp_thawr_support:p1`, `sp_thawr_exp_h_23833_509_808:p2–p4`
 
-Abd Allah appeared among Quraysh in the morning as though he had spent the night in Makkah. Where had he actually spent it?
+How did ‘Abdullah keep Quraysh from suspecting he was in touch with the two in the cave?
 
 ### makkah_night
 
-He spent the night in Makkah, visited the cave by day, and returned before evening.
+He slept in Makkah and slipped out to the cave only by day.
 
-> He spent the night with the Prophet ﷺ and Abu Bakr, not in Makkah; he returned to them with the news when darkness fell.
-
-### evening_return
-
-He spent the night in the cave, then returned to Makkah as darkness fell.
-
-> His evening return went in the opposite direction: from Makkah to the cave, carrying news.
+> It was the reverse: by day he was in Makkah listening, and he spent his nights in the cave.
 
 ### cave_night
 
-He spent the night with them in the cave, then left in the last part of the night to be in Makkah in the morning.
+He spent each night in the cave and was back in Makkah by morning.
 
-> Correct; appearances differed from what had happened: he was among Quraysh in the morning but had spent the night with the Prophet ﷺ and Abu Bakr.
+> Right. He left in the last hours before dawn, so he was among Quraysh in the morning as if he had slept there.
+
+### messenger
+
+He never went to the cave himself, but sent word through Asma.
+
+> ‘Abdullah went to the cave himself each night; Asma brought food, not his news.
 
 ### why
 
-Abd Allah’s presence among Quraysh in the morning suggested that he had spent the night in Makkah, but he had been with the Prophet ﷺ and Abu Bakr before leaving in the last part of the night.
+By leaving the cave before dawn and appearing in Makkah each morning, ‘Abdullah seemed never to have left the city.
 
 ## hch_thawr_q_fear
 level: beginner
 scope: lesson
 answer: discovery
-sources: `sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p3`
+sources: `sp_caveverse_muslim:p1–p2`, `sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p2`
 
-What did Abu Bakr fear when he saw the men’s feet at the cave?
-
-### guide_late
-
-That the guide would be late with the two riding camels.
-
-> The appointment with the guide belongs to another part of the story; Abu Bakr’s fear here was that the men would see them.
+When Abu Bakr saw the searchers' feet above him, what did the Prophet ﷺ answer to his fear?
 
 ### discovery
 
-That one of the men would see them if he lowered his gaze.
+"Abu Bakr, what do you think of two when Allah is their third?"
 
-> Correct; he saw their feet and feared that a downward glance would reveal the two of them.
+> Right. Abu Bakr feared one man looking down would see them, and the Prophet ﷺ answered with these words.
 
-### news_stops
+### hide_deeper
 
-That news of events in Makkah would stop reaching them.
+"Move back into the dark of the cave, so they cannot see us."
 
-> Bringing news was Abd Allah’s task; this scene concerns the danger of one of the men seeing them.
+> The Prophet ﷺ gave no plan for hiding; his answer turned Abu Bakr to Allah being with them.
+
+### they_will_go
+
+"They will soon tire of searching and go back to Makkah."
+
+> The searchers did give up, but the Prophet's ﷺ answer was about Allah being their third, not about the searchers.
 
 ### why
 
-When Abu Bakr saw their feet, he feared that one of the men would look down and see them. The Prophet ﷺ reassured him that they were two and Allah was their third.
+With the searchers close enough to hear, the Prophet ﷺ calmed Abu Bakr: "what do you think of two when Allah is their third?"
 
 ## hch_thawr_q_reassurance
 level: intermediate
 scope: lesson
-answer: distinct_words
-sources: `sp_caveverse_qurtubi_verse:p1`, `sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p3`
+answer: abu_bakr
+sources: `sp_caveverse_qurtubi_verse:p1`, `sp_caveverse_sakina_ibn_abbas:p2–p3`, `sp_caveverse_baghawi_sakina:p2–p3`
 
-Which comparison describes the reassurance in the verse and the al-Bukhari hadith quoted in the story?
+The Quran says Allah sent His tranquility "upon him" in the cave. On whom did Ibn ‘Abbas say it came down?
 
-### distinct_words
+### abu_bakr
 
-Both recall Allah’s presence: the verse says not to grieve, while the hadith says Allah is their third.
+On Abu Bakr, for the Prophet ﷺ had never been without it
 
-> Correct; their reassurance is similar in meaning, but each text expresses it differently.
+> Right. It was Abu Bakr who was overcome with worry, and Ibn ‘Abbas held that the calm came down on him.
 
-### reversed_words
+### prophet
 
-Both recall Allah’s presence: the verse says Allah is their third, while the hadith says not to grieve.
+On the Prophet ﷺ, to steady him as the searchers came near
 
-> The expressions have been reversed: the injunction not to grieve is in the verse; the reference to the two whose third is Allah is in the hadith.
+> Some said this, but Ibn ‘Abbas held it meant Abu Bakr, since the Prophet ﷺ had never been without tranquility.
 
-### identical_words
+### searchers
 
-Both recall Allah’s presence: the verse and the hadith use exactly the same reassuring words.
+On the searchers, so that they turned back without looking
 
-> Their meaning is similar, but their wording differs: compare the injunction not to grieve with the mention of the two whose third is Allah.
+> The tranquility came on one of the two in the cave; the searchers were turned away by forces no one saw.
 
 ### why
 
-The verse affirms Allah’s presence and says not to grieve. In the hadith the Prophet ﷺ reassures Abu Bakr that they are two and Allah is their third. The two texts use different words to convey reassurance.
+Abu Bakr was the one afraid, and Ibn ‘Abbas explained that the tranquility came down on him, since the Prophet ﷺ always had it.
 
 ## hch_thawr_q_onward
 level: intermediate
 scope: lesson
-answer: company
-sources: `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`, `sp_thawr_support:p1`
+answer: guide_camels
+sources: `sp_thawr_exp_h_23833_509_808:p2–p4`, `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
 
-Which description matches the Prophet’s ﷺ and Abu Bakr’s departure from the cave?
+What happened on the morning after the third night?
 
-### abdullah_guide
+### guide_camels
 
-Abd Allah ibn Abi Bakr and the guide set out with them, and the guide took them along the coastal route.
+The guide came to the cave with their two camels and a third of his own.
 
-> The continuation of Aisha’s hadith names Amir ibn Fuhayrah with the guide, not Abd Allah ibn Abi Bakr.
+> Right. ‘Abdullah ibn Urayqit came as arranged, and Asma brought their bag of food for the road.
 
-### amir_leads
+### abdullah_camels
 
-Amir ibn Fuhayrah and the guide set out with them, and Amir guided the party along the route.
+‘Abdullah ibn Abi Bakr brought the camels from Abu Bakr's house.
 
-> Amir was one of the party, but the guide was the one who led them along the route.
+> ‘Abdullah brought news each night; the camels came with the hired guide, ‘Abdullah ibn Urayqit.
 
-### company
+### searchers_return
 
-Amir ibn Fuhayrah and the guide set out with them, and the guide took them along the coastal route.
+The searchers came back to the mountain for a second look.
 
-> Correct; the report names their companions at departure, then says the guide led them along the coastal route.
+> The searchers had given up and gone back, and by the third night the talk about the two had died down.
 
 ### why
 
-Amir ibn Fuhayrah and the guide set out with the Prophet ﷺ and Abu Bakr. The guide led the party along the coastal route.
+Once the talk in Makkah died down, the guide arrived as arranged with the camels, and the road to Madinah lay open.
 
 ## hch_thawr_q_appointment
 level: intermediate
 scope: source_study
-answer: joined
-sources: `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1`
+answer: urwah
+sources: `sp_thawr_support:p1`, `sp_thawr_exp_h_43_7827_three_nights:p1–p5`, `sp_thawr_exp_h_7478_1001_ra_urwa_musa_cave:p1–p2`
 
-Read the passage about hiring the guide and its continuation: where and when did they agree he would bring the two riding camels?
+Most reports give three nights in the cave. Which account has, in one version, two days and two nights?
 
-### makkah
+### urwah
 
-In Makkah in the morning after the three nights.
+‘Urwah ibn al-Zubayr's account, as recorded by al-Bayhaqi
 
-> The continuation names the Cave of Thawr, not Makkah, as the meeting place.
+> Right. One version of ‘Urwah's account has two days and two nights, while Musa ibn ‘Uqbah's version has three.
 
-### same_night
+### aishah
 
-At the Cave of Thawr on the very night they hired him.
+‘Aishah's account in al-Bukhari
 
-> The appointment was after three nights, not on the night he was hired.
+> ‘Aishah's account is the main source for three nights: they hid in a cave in Mount Thawr "three nights".
 
-### joined
+### ibn_ishaq
 
-At the Cave of Thawr in the morning after three nights.
+Ibn Ishaq's biography
 
-> Correct; the end of the hiring passage joins its continuation, making the place and time of the appointment clear.
+> Ibn Ishaq agrees with ‘Aishah, Mujahid and al-Zuhri in giving three nights.
 
 ### why
 
-The sentence about the appointment begins in the hiring passage and continues in the next passage, naming the Cave of Thawr, the three nights, and his arrival in the morning with the two riding camels.
+Three nights is the reading of ‘Aishah, Ibn Ishaq, Mujahid and al-Zuhri; only one version of ‘Urwah's account has two.
 
 ## hch_thawr_q_compare_fear
 level: expert
 scope: source_study
 answer: shared_fear
-sources: `sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p3`, `sp_caveverse_muslim:p1–p2`, `sp_caveverse_qurtubi_verse:p1`
+sources: `sp_caveverse_muslim:p1–p2`, `sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p2`, `sp_thawr_exp_h_7478_1002_ra_third_variant:p1–p3`
 
-Who experienced the scene with the feet, and who transmits his account? Which wording appears in each of the displayed excerpts from al-Bukhari and Muslim?
-
-### reversed_narrators
-
-Abu Bakr transmits from Anas; al-Bukhari has lowering the gaze and Muslim has looking at the feet.
-
-> The transmission relationship is reversed: Abu Bakr experienced the scene and Anas transmits his account, not the other way around.
+Abu Bakr's words in the cave reach us through Anas. How does al-Bukhari's wording of his fear differ from Muslim's?
 
 ### shared_fear
 
-Anas transmits from Abu Bakr; al-Bukhari has lowering the gaze and Muslim has looking at the feet.
+Al-Bukhari: one might "lower his gaze"; Muslim: one might look "at his feet".
 
-> Correct; Abu Bakr experienced the scene and Anas transmits his account. The wording about looking differs between the excerpts.
+> Right. Both describe the same fear of being seen, in different words; the story follows Muslim's.
 
 ### reversed
 
-Anas transmits from Abu Bakr; al-Bukhari has looking at the feet and Muslim has lowering the gaze.
+Al-Bukhari: one might look "at his feet"; Muslim: one might "lower his gaze".
 
-> The transmission relationship is right, but the wordings are reversed: lowering the gaze is in the al-Bukhari excerpt and looking at the feet in the Muslim excerpt.
+> The wordings are swapped: "lower his gaze" is al-Bukhari's, and looking "at his feet" is Muslim's.
+
+### raised_foot
+
+Al-Bukhari: one might "raise his foot"; Muslim: one might look "at his feet".
+
+> "If one of them raised his foot" comes from another chain recorded by al-Bayhaqi, not al-Bukhari.
 
 ### why
 
-In the al-Bukhari excerpt Abu Bakr mentions lowering one’s gaze; in the Muslim excerpt he mentions looking at one’s feet. He experienced the scene, and Anas transmits his account; in both, he feared one of the men would see them.
+Abu Bakr told of the scene and Anas passed it on; al-Bukhari has "lower his gaze", Muslim "at his feet", and al-Bayhaqi "raised his foot".
 
 ## hch_thawr_q_names
-level: intermediate
-scope: source_study
-answer: sources
-sources: `sp_thawr_support:p1`, `sp_caveverse_qurtubi_verse:p1`, `sp_caveverse_muslim:p1–p2`
-
-Which of the displayed texts names both the mountain and the length of the stay?
-
-### sources
-
-Aisha’s hadith in al-Bukhari.
-
-> Correct; it names Mount Thawr and mentions a stay of three nights.
-
-### verse
-
-The cave verse.
-
-> The verse mentions the cave and the companion but does not name the mountain or specify the duration of the stay.
-
-### muslim
-
-Abu Bakr’s hadith in Muslim.
-
-> This excerpt describes the feet, the fear, and the Prophet’s ﷺ reply; it does not name the mountain or the length of the stay.
-
-### why
-
-Aisha’s account in the displayed excerpt names Mount Thawr and the three nights. The verse mentions the cave without either detail.
-
-## hch_thawr_q_flock_inference
 level: expert
 scope: source_study
-answer: needs_evidence
-sources: `sp_thawr_support:p1`
+answer: uthman
+sources: `H-930-761-JUDGMENT`, `H-1673-4064-NARRATION`, `H-12762-1687-CRIT-UTHMAN`, `H-12762-1688-CRIT-VERSE`
 
-Is the mention of the sheep and milk in the displayed excerpt enough to establish that Amir was erasing footprints?
+Ibn Kathir and Ibn Hajar called the spider's web report hasan (good). Why did al-Albani judge it weak?
 
-### inferred_purpose
+### uthman
 
-Yes; mentioning the tending of sheep shows that this was the reason for bringing them.
+One narrator, ‘Uthman al-Jazari, was weak, and the verse speaks of forces unseen.
 
-> Mentioning sheep alone does not establish that purpose; the excerpt mentions the milk they provided, not erasing footprints.
+> Right. He faulted ‘Uthman al-Jazari, and argued that a spider's web is not a force "you did not see".
 
-### silence_denies
+### pigeons
 
-No; the absence of any mention of erasing footprints proves it did not happen.
+It came bundled with the story of the tree and the two pigeons.
 
-> A detail’s absence from an excerpt does not prove it did not happen; other texts might address it.
+> The tree and pigeons belong to a different, longer report, which al-Albani judged rejected on its own.
 
-### needs_evidence
+### late
 
-No; the excerpt mentions milk, and a claim about erasing footprints requires other evidence.
+It appears only in late biographies, not in any hadith collection.
 
-> Correct; the excerpt supports the point about milk but cannot by itself establish or rule out erasing footprints.
+> The report of Ibn ‘Abbas is recorded by Ahmad; al-Albani's objection was to a narrator and to the verse.
 
 ### why
 
-This excerpt supports the arrival of the sheep and the provision of milk. It does not mention erasing footprints; investigating that claim requires a text that addresses it.
+The web rests on Ibn ‘Abbas's report in Ahmad; graded good by Ibn Kathir and Ibn Hajar, it was judged weak by al-Albani.
+
+## hch_thawr_q_flock_inference
+level: intermediate
+scope: lesson
+answer: flock
+sources: `sp_thawr_exp_h_23833_509_808:p2–p4`
+
+When ‘Abdullah walked back to Makkah each morning, how were his footprints hidden?
+
+### flock
+
+‘Amir drove the sheep along his trail, wiping out his tracks.
+
+> Right. The flock heading back to graze trampled ‘Abdullah's footprints, leaving no trail to the cave.
+
+### night
+
+He walked only in the dark, when no one could follow.
+
+> He did leave before dawn, but it was ‘Amir's sheep, driven along his trail, that wiped out his footprints.
+
+### spider
+
+The spider's web and the rocks hid any trace near the cave.
+
+> The web was what the searchers saw at the entrance; ‘Abdullah's tracks were covered by ‘Amir's flock.
+
+### why
+
+‘Amir's flock, driven after ‘Abdullah each morning, erased the trail that could have led Quraysh to the cave.
