@@ -49,19 +49,83 @@ const unformat = (text) =>
         .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
 const plain = (text) => unformat(text).trim()
 
-// "text with[^3] markers[^4][^5]" -> the paragraph as pieces in reading order,
-// [{ text }, { label }, { text }, …], with formatting removed, and its plain text.
+// A citation where it stands in the text: [[passage ids | remark]], e.g.
+// [[council:p1–p3, debate:p4 | Ibn ‘Abbas through Ibn Ishaq]], or [[| a remark only]].
+const citation = /\[\[([^\]|]*)(?:\|([^\]]*))?\]\]/g
+
+// The paragraph as pieces in reading order, [{ text }, { cite }, { text }, …], with formatting
+// removed, and its plain text.
 function marked(text) {
     const pieces = []
     let last = 0
-    const source = unformat(text).trim()
-    for (const match of source.matchAll(/\[\^([\w-]+)\]/g)) {
-        if (match.index > last) pieces.push({ text: source.slice(last, match.index) })
-        pieces.push({ label: match[1] })
+    const source = text.trim()
+    for (const match of source.matchAll(citation)) {
+        if (match.index > last) pieces.push({ text: unformat(source.slice(last, match.index)) })
+        pieces.push({
+            cite: {
+                tokens: match[1]
+                    .split(',')
+                    .map((token) => token.trim())
+                    .filter(Boolean),
+                remark: (match[2] ?? '').trim(),
+            },
+        })
         last = match.index + match[0].length
     }
-    if (last < source.length) pieces.push({ text: source.slice(last) })
-    return { text: pieces.map((piece) => piece.text ?? '').join(''), pieces }
+    if (last < source.length) pieces.push({ text: unformat(source.slice(last)) })
+    pieces[0] && 'text' in pieces[0] && (pieces[0].text = pieces[0].text.trimStart())
+    return {
+        text: pieces
+            .map((piece) => piece.text ?? '')
+            .join('')
+            .trim(),
+        pieces,
+    }
+}
+
+// "## <id>" sections with one line or field each, for content/books.md and content/strength.md.
+function sections(file) {
+    const out = new Map()
+    let id = null
+    for (const line of readFileSync(path.join(root, file), 'utf8')
+        .replace(/<!--[\s\S]*?-->/g, '')
+        .split('\n')) {
+        if (/^## /.test(line)) out.set((id = line.slice(3).trim()), { text: '', fields: {} })
+        else if (id && line.trim()) {
+            const field = /^([a-z_]+):\s*(.+)$/.exec(line)
+            if (field) out.get(id).fields[field[1]] = field[2].trim()
+            else out.get(id).text += (out.get(id).text ? ' ' : '') + line.trim()
+        }
+    }
+    return out
+}
+const books = new Map([...sections('content/books.md')].map(([id, entry]) => [id, entry.text]))
+const weak = new Set()
+for (const [id, entry] of sections('content/strength.md')) {
+    if (entry.fields.strength !== 'weak') continue
+    const ref = resolve(id)
+    if (ref) for (const part of ref.part_ids) weak.add(`${ref.packet_id}:${part}`)
+}
+
+// "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/480–482; Ibn Hajar, Fath al-Bari, 7/246"
+function source_title(units) {
+    const groups = []
+    for (const item of units) {
+        const name = books.get(String(item.book_id)) ?? item.book_ar ?? ''
+        let group = groups.find((g) => g.name === name && g.volume === item.volume)
+        if (!group) groups.push((group = { name, volume: item.volume, pages: [] }))
+        if (item.page && !group.pages.includes(Number(item.page)))
+            group.pages.push(Number(item.page))
+    }
+    return groups
+        .map(({ name, volume, pages }) => {
+            if (!pages.length) return name
+            const low = Math.min(...pages)
+            const high = Math.max(...pages)
+            const span = low === high ? `${low}` : `${low}–${high}`
+            return `${name}, ${volume ? `${volume}/` : ''}${span}`
+        })
+        .join('; ')
 }
 
 // content/chapters/NN-name.questions.md: "## <question id>" with level:, scope:, answer: and
@@ -254,22 +318,21 @@ export function compile_chapter(file) {
     if (!doc.question) at(1, 'missing "**Question:**"')
     if (!doc.account.length) at(1, 'no account sections')
 
-    // Footnotes, numbered by first appearance in the text.
-    const order = []
-    const number = (label) => {
-        if (!order.includes(label)) order.push(label)
-        return order.indexOf(label) + 1
+    // Citations, numbered by first appearance; the same citation keeps its number.
+    const cited = []
+    const number = (cite) => {
+        const key = `${cite.tokens.join(',')}|${cite.remark}`
+        let index = cited.findIndex((item) => item.key === key)
+        if (index < 0) index = cited.push({ key, ...cite }) - 1
+        return index + 1
     }
     const block = (text, id) => {
         const { text: clean, pieces } = marked(text)
-        for (const piece of pieces)
-            if (piece.label && !doc.notes.has(piece.label))
-                at(1, `footnote [^${piece.label}] is not defined`)
         return {
             paragraph_id: id,
             text: clean,
             parts: pieces.map((piece) =>
-                piece.label ? { note: number(piece.label) } : { text: piece.text },
+                piece.cite ? { note: number(piece.cite) } : { text: piece.text },
             ),
         }
     }
@@ -303,68 +366,38 @@ export function compile_chapter(file) {
         }
     })
 
-    // Strength from the Readings table, when it has a Strength column.
-    const strength = new Map()
-    const header = doc.readings_table[0]?.split('|').map((cell) => cell.trim().toLowerCase())
-    const strength_column = header?.indexOf('strength') ?? -1
-    if (strength_column > 0)
-        for (const row of doc.readings_table.slice(1)) {
-            const cells = row.split('|').map((cell) => cell.trim())
-            const value = /^(weak|single|sound)\b/i.exec(cells[strength_column] ?? '')?.[1]
-            if (!value) continue
-            let previous = null
-            for (const token of [...(cells[2] ?? '').matchAll(/`([^`]+)`/g)].map((m) => m[1])) {
-                const ref = resolve(token, doc.prefix, previous)
-                if (!ref) continue
-                previous = ref.packet_id
-                for (const id of ref.part_ids)
-                    strength.set(`${ref.packet_id}:${id}`, value.toLowerCase())
-            }
-        }
-
-    // One source entry per footnote, in reading order.
+    // One source entry per citation, in reading order.
+    const prefix = doc.fields.prefix ?? ''
     const units = new Map()
-    const readings = order.map((label, index) => {
-        const note = doc.notes.get(label)
-        if (!note) return null
+    const readings = cited.map((cite, index) => {
         const refs = []
         let previous = null
-        for (const group of note.text.matchAll(/`([^`]+)`/g))
-            for (const token of group[1].split(/,\s*/)) {
-                const ref = resolve(token, doc.prefix, previous)
-                if (!ref) {
-                    if (/:p\d|^H-|^E\d+$|^p\d/.test(token.trim()))
-                        at(note.line, `passage "${token.trim()}" not found`)
-                    continue
-                }
-                previous = ref.packet_id
-                refs.push(ref)
-                for (const id of ref.part_ids)
-                    units.set(`${ref.packet_id}:${id}`, unit(ref.packet_id, id))
+        for (const token of cite.tokens) {
+            const ref = resolve(token, prefix, previous)
+            if (!ref) {
+                at(1, `passage "${token}" not found`)
+                continue
             }
-        const title = plain(note.text.split(/\s*\[Turath\]/)[0].replace(/\s*·.*$/, ''))
+            previous = ref.packet_id
+            refs.push(ref)
+            for (const id of ref.part_ids)
+                units.set(`${ref.packet_id}:${id}`, unit(ref.packet_id, id))
+        }
+        if (!refs.length && !cite.remark) at(1, 'a citation with neither passages nor a remark')
+        const cited_units = refs.flatMap((ref) => ref.part_ids.map((id) => unit(ref.packet_id, id)))
+        const title = [source_title(cited_units), cite.remark].filter(Boolean).join(' — ')
         const translated = refs.every((ref) =>
             ref.part_ids.every((id) => translations.has(`${ref.packet_id}:${id}`)),
-        )
-        const levels = refs.flatMap((ref) =>
-            ref.part_ids.map((id) => strength.get(`${ref.packet_id}:${id}`)),
         )
         return {
             reading_id: `${chapter_id}_n${index + 1}`,
             number: index + 1,
             title,
             mode: translated && refs.length ? 'translated' : 'original',
-            strength: levels.includes('weak')
-                ? 'weak'
-                : levels.includes('single')
-                  ? 'single'
-                  : null,
+            strength: cited_units.some((item) => weak.has(item.unit_id)) ? 'weak' : null,
             source_refs: refs,
         }
     })
-    for (const label of doc.notes.keys())
-        if (!order.includes(label))
-            at(doc.notes.get(label).line, `footnote [^${label}] is never used`)
 
     const { questions, refs: question_refs } = compile_questions(
         file.replace(/\.md$/, '.questions.md'),
@@ -388,7 +421,7 @@ export function compile_chapter(file) {
             account,
             outline,
             in_depth,
-            readings: readings.filter(Boolean),
+            readings,
             source_units: [...units.values()]
                 .filter(Boolean)
                 .map((item) => ({ ...item, text: translations.get(item.unit_id) ?? null })),

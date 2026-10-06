@@ -365,14 +365,18 @@ export function content_plugin() {
     const report = (errors) => {
         for (const error of errors) console.error(`[content] ${error}`)
     }
+    let serving = false
     return {
         name: 'content',
+        configResolved(config) {
+            serving = config.command === 'serve'
+        },
         buildStart() {
             const errors = [...build_content(), ...build_chapters()]
-            if (errors.length) {
-                report(errors)
-                this.error(`${errors.length} content errors`)
-            }
+            if (!errors.length) return
+            report(errors)
+            // A production build stops; the dev server keeps running with the last good output.
+            if (!serving) this.error(`${errors.length} content errors`)
         },
         configureServer(server) {
             server.watcher.add(content_dir)

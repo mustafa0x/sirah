@@ -12,6 +12,17 @@ const research = path.join(root, 'docs/research/hijrah')
 
 let cache = null
 
+// "[book، 1/480](https://app.turath.io/book/23833?page=503)" -> { book_id, volume, page }
+function locate(citation, url) {
+    const book_id = /book\/(\d+)|book_id=(\d+)/.exec(url ?? citation ?? '')
+    const place = /،\s*(\d+)\/(\d+)/.exec(citation ?? '')
+    return {
+        book_id: book_id ? (book_id[1] ?? book_id[2]) : null,
+        volume: place?.[1] ?? null,
+        page: place?.[2] ?? null,
+    }
+}
+
 function load() {
     if (cache) return cache
     const units = new Map() // "<packet>:<part>" -> unit
@@ -35,6 +46,7 @@ function load() {
                 citation_ar: packet.citation_ar ?? null,
                 source_url: packet.source_url ?? null,
                 evidence_id: packet.evidence_id ?? null,
+                ...locate(packet.citation_ar, packet.source_url),
             })
     }
 
@@ -75,6 +87,9 @@ function load() {
                 citation_ar: record.citation ?? null,
                 source_url: record.url ?? null,
                 evidence_id: id,
+                ...locate(record.citation, record.url),
+                ...(record.volume ? { volume: String(record.volume) } : {}),
+                ...(record.printed_page ? { page: String(record.printed_page) } : {}),
             })
         }
     }
@@ -99,6 +114,9 @@ export function add_journey_passages(sources) {
             citation_ar: source.citation_ar ?? `[${source.work}](${source.url})`,
             source_url: source.url ?? null,
             evidence_id: null,
+            ...locate(source.citation_ar, source.url),
+            ...(source.volume ? { volume: String(source.volume) } : {}),
+            ...(source.page ? { page: String(source.page) } : {}),
         })
     }
 }
