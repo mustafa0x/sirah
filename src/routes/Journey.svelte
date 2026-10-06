@@ -71,6 +71,9 @@
     const { route } = window.navgo
     import { change_language, fmt_num, saved_language } from '../lib/i18n.js'
     import { arrival_state } from '../lib/madinah-arrival.js'
+    // Verses shown over the scene as printed in the mushaf (King Fahd Complex), by passage.
+    import ayah_9_40 from '../assets/quran-9-40.svg'
+    const mushaf = { E09: ayah_9_40 }
     import { locales, language_direction } from '../lib/locale-config.js'
     import { verified_sources_once } from '../lib/practice-binding.js'
     import { toggle_practice_source } from '../lib/practice-source.js'
@@ -2051,7 +2054,15 @@
             style:top={timeline_open ? `${timeline_bottom + 16}px` : null}
             transition:fade={{ duration: 900 }}
         >
-            {#if passage}
+            {#if passage && mushaf[passage.id]}
+                <img
+                    class="block w-[min(600px,100%)] h-auto [filter:drop-shadow(0_2px_18px_rgba(0,0,0,0.8))]"
+                    src={mushaf[passage.id]}
+                    alt={passage.excerpt}
+                    lang="ar"
+                />
+                <p class={kicker}>{passage.reference}</p>
+            {:else if passage}
                 <p
                     class="max-w-[46rem] font-arabic text-[clamp(1.5rem,2.6vw,2.4rem)] leading-[1.9] text-[#fff6e3] [text-shadow:0_2px_24px_rgba(0,0,0,0.75)]"
                     dir="rtl"

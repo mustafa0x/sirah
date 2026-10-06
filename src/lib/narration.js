@@ -20,7 +20,12 @@ function clip(language, paragraph) {
         entry?.text === paragraph.text &&
         Number.isFinite(entry.seconds) &&
         entry.seconds > 0
-        ? { url, seconds: entry.seconds, sentences: entry.sentences ?? null }
+        ? {
+              url,
+              seconds: entry.seconds,
+              sentences: entry.sentences ?? null,
+              recitation_at: entry.recitation_at ?? null,
+          }
         : null
 }
 

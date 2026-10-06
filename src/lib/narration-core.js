@@ -11,6 +11,8 @@ export function time_chapter(chapter, resolve_clip) {
             paragraph.narrated = Boolean(item)
             // When each sentence starts in the clip, if the recording carries timings.
             paragraph.sentence_starts = item?.sentences ?? null
+            // Where a recited verse begins in the clip, if the caption ends with one.
+            paragraph.recitation_at = item?.recitation_at ?? null
             cursor += item ? item.seconds + PAUSE : fallback
             paragraph.end = cursor
         }
