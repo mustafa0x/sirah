@@ -58,6 +58,7 @@ export default defineConfig({
         main: svelte({ files: ['src/**/*.svelte'], heuristic, loader: 'svelte' }),
         js: vanilla({
             files: [
+                'src/content/text.generated.js',
                 'src/content/first-chapter.js',
                 'src/content/details.js',
                 'src/content/timeline.js',

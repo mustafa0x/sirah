@@ -1,3 +1,4 @@
+import { places as place_text } from '../content/text.generated.js'
 import terrain_index from '../assets/terrain/index.json'
 import madinah_grid from '../assets/terrain/madinah.bin?url'
 import makkah_grid from '../assets/terrain/makkah.bin?url'
@@ -164,11 +165,12 @@ export const chapter_places = {
     hch_settlement: 'madinah',
 }
 
+// Place names and what they mean in the story come from content/map.md.
 export const scene_pois = [
     {
         id: 'makkah',
-        label: 'Makkah',
-        description: 'Where the journey begins, with preparations for departure.',
+        label: place_text.makkah.label,
+        description: place_text.makkah.description,
         place: 'makkah',
         anchors: { region: 'region_makkah', makkah: 'makkah' },
         // Named on the home page too, at either end of the route.
@@ -177,8 +179,8 @@ export const scene_pois = [
     },
     {
         id: 'thawr',
-        label: 'Mount Thawr',
-        description: 'The account places a three-night stay in a cave here.',
+        label: place_text.thawr.label,
+        description: place_text.thawr.description,
         place: 'thawr',
         anchors: { makkah: 'thawr' },
         ring: false,
@@ -186,25 +188,24 @@ export const scene_pois = [
     },
     {
         id: 'coast',
-        label: 'The coastal way',
-        description:
-            'The guide led them by the coast. This line is schematic, not a measured route.',
+        label: place_text.coast.label,
+        description: place_text.coast.description,
         place: 'coast',
         anchors: { region: 'coast' },
         camera: { azimuth: 0.3, elevation: 0.55, distance: 14 },
     },
     {
         id: 'quba',
-        label: 'Quba',
-        description: 'The first stop on reaching Madinah, among Bani ‘Amr ibn ‘Awf.',
+        label: place_text.quba.label,
+        description: place_text.quba.description,
         place: 'quba',
         anchors: { madinah: 'quba' },
         camera: { azimuth: 0.4, elevation: 0.4, distance: 2.4 },
     },
     {
         id: 'madinah',
-        label: 'Madinah',
-        description: 'Where the journey closes, with arrival and a new beginning.',
+        label: place_text.madinah.label,
+        description: place_text.madinah.description,
         place: 'madinah',
         anchors: { region: 'region_madinah', madinah: 'madinah' },
         home: true,

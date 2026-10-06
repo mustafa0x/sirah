@@ -7,9 +7,10 @@
   "scripts": {
     "dev": "vite",
     "dev:api": "uv run api.py",
-    "test": "node scripts/export_guide_context.js --check && node --test tests/*.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
+    "test": "node scripts/export_guide_context.js --check && node scripts/content/compile.js --check && node --test tests/*.test.js && uv run python -m unittest discover -s tests -p 'test_*.py'",
     "guide:context": "node scripts/export_guide_context.js",
-    "content:check": "node scripts/content-check.js",
+    "content": "node scripts/content/compile.js",
+    "content:check": "node scripts/content/compile.js --check && node scripts/content-check.js",
     "models:optimize": "python3 art/thawr/prepare_web.py",
     "build": "node scripts/export_guide_context.js && vite build",
     "i18n:extract": "wuchale --clean",
