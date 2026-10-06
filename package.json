@@ -13,6 +13,7 @@
     "translate": "node scripts/translate.js",
     "derive": "node scripts/derive.js",
     "content:check": "node scripts/content/compile.js && node scripts/content-check.js",
+    "storyboard": "scripts/storyboard/run.sh",
     "models:optimize": "python3 art/thawr/prepare_web.py",
     "build": "node scripts/export_guide_context.js && vite build",
     "i18n:extract": "wuchale --clean",
