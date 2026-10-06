@@ -1,0 +1,32 @@
+{
+  "locale": "nl",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "Waarin verschillen de twee overgeleverde beoordelingen van de keten van overleveraars van het spinnenwebbericht?"
+    },
+    "HQ-E02": {
+      "prompt": "Wie noemt elk fragment als schrijver van de brief voor Suraqa?"
+    },
+    "HQ-E03": {
+      "prompt": "Volgens dit bericht, wanneer kreeg Suraqa de armbanden van Kisra omgedaan?",
+      "explanation": "Al-Shafi‘i vertelt op gezag van geleerden die hij hier niet bij naam noemt dat bezit uit Irak Umar bereikte; na het in de tekst geciteerde vers vroeg Umar naar Suraqa, en Suraqa werd bij Umar gebracht. Umar gaf Suraqa de twee armbanden en beval hem ze om te doen; Suraqa deed ze om. Deze passage noemt geen bepaald jaar en oordeelt niet over de betrouwbaarheid van het bericht over de belofte tijdens de achtervolging.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "In de tijd van Umar, nadat de rijkdom uit Irak was aangekomen",
+          "feedback": "Umar en het vermogen dat uit Irak kwam, vormen de context van de gebeurtenis in dit fragment."
+        },
+        "same": {
+          "text": "Tijdens Suraqa’s achtervolging van de Profeet ﷺ onderweg",
+          "feedback": "Het achtervolgingsbericht noemt het schrijven van de vrijgeleidebrief; dit bericht vertelt dat de armbanden werden omgedaan nadat was vermeld wat er uit Irak voor Umar was aangekomen."
+        },
+        "dated": {
+          "text": "Toen onderweg de vrijgeleidebrief voor Suraqa werd geschreven",
+          "feedback": "De vrijgeleidebrief wordt in het achtervolgingsbericht genoemd; deze passage vertelt over de armbanden nadat de uit Irak aangekomen rijkdom voor Umar is vermeld."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "locale": "en",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "How do the two judgments reported about the chain of the spider report differ?"
+    },
+    "HQ-E02": {
+      "prompt": "Whom does each passage name as the writer of the document for Suraqa?"
+    },
+    "HQ-E03": {
+      "prompt": "According to this account, when was Suraqa made to wear the two bracelets of Kisra?",
+      "explanation": "Al-Shafi‘i relates, on the authority of learned people whom he does not name here, that wealth from Iraq reached Umar. After the verse quoted in the text, Umar asked about Suraqa, and Suraqa was brought to Umar. Umar gave Suraqa the two bracelets and told him to put them on, and Suraqa put them on. This passage does not specify a particular year or judge whether the report of the promise during the pursuit is authentic.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "In Umar’s time, after the money arrived from Iraq",
+          "feedback": "Umar and the wealth arriving from Iraq are the context of the event in this passage."
+        },
+        "same": {
+          "text": "During Suraqa’s pursuit of the Prophet ﷺ on the road",
+          "feedback": "The pursuit account mentions the writing of the safe-conduct document; this account narrates the bracelets being put on after mentioning what reached Umar from Iraq."
+        },
+        "dated": {
+          "text": "When the safe-conduct document for Suraqa was written on the road",
+          "feedback": "The writing of the safe-conduct document appears in the pursuit account; this passage narrates the bracelets being put on after mentioning the money from Iraq that reached Umar."
+        }
+      }
+    }
+  }
+}

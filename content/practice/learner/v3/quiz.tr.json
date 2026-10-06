@@ -1,0 +1,32 @@
+{
+  "locale": "tr",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "Örümcek haberinin isnadı hakkında aktarılan iki hüküm arasındaki fark nedir?"
+    },
+    "HQ-E02": {
+      "prompt": "Her bölüm, Sürâka’ya verilen mektubu kimin yazdığını söylüyor?"
+    },
+    "HQ-E03": {
+      "prompt": "Bu rivayete göre Sürâka’ya Kisrâ’nın bilezikleri ne zaman giydirildi?",
+      "explanation": "Şâfiî, burada adlarını vermediği ilim ehlinin aktardığına göre Irak’tan gelen malın Ömer’e ulaştığını nakleder; metinde alıntılanan ayetten sonra Ömer, Sürâka’yı sorar ve Sürâka Ömer’in yanına getirilir. Ömer iki bileziği Sürâka’ya verir ve takmasını emreder; Sürâka da onları takar. Bu bölüm belirli bir yıl belirtmez ve takip sırasında verilen vaade dair haberin sahih olup olmadığına hükmetmez.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "Ömer döneminde, Irak’tan mal geldikten sonra",
+          "feedback": "Ömer ve Irak'tan gelen mallar, bu bölümde olayın bağlamını oluşturur."
+        },
+        "same": {
+          "text": "Sürâka’nın yolda Peygamber ﷺ’i takip ettiği sırada",
+          "feedback": "Takip rivayetinde güvence mektubunun yazılması anlatılır; bu rivayette ise Ömer’e Irak’tan gelenlerden söz edildikten sonra iki bileziğin giydirilmesi anlatılır."
+        },
+        "dated": {
+          "text": "Yolda Sürâka için güvence mektubu yazılırken",
+          "feedback": "Güvence mektubunun yazılması takip olayında geçer; buradaki bölüm, Irak’tan gelen mallar Ömer’e ulaştıktan sonra bileziklerin takılmasını anlatır."
+        }
+      }
+    }
+  }
+}

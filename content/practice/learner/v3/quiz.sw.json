@@ -1,0 +1,32 @@
+{
+  "locale": "sw",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "Hukumu mbili zilizonukuliwa kuhusu mlolongo wa wapokezi wa habari ya buibui zinatofautianaje?"
+    },
+    "HQ-E02": {
+      "prompt": "Kila kifungu kinamtaja nani kuwa mwandishi wa hati ya Suraqa?"
+    },
+    "HQ-E03": {
+      "prompt": "Kwa mujibu wa habari hii, Suraqa alivikwa lini bangili mbili za Kisra?",
+      "explanation": "Ash-Shafi‘i anasimulia kutoka kwa watu wenye elimu ambao hawataji kwa majina hapa kwamba mali kutoka Iraq ilimfikia Umar; baada ya aya iliyonukuliwa katika maandishi, Umar aliuliza kuhusu Suraqa, naye Suraqa akaletwa kwa Umar. Umar alimpa Suraqa bangili mbili na kumwamuru azivae; Suraqa akazivaa. Sehemu hii haitaji mwaka maalumu wala haitoi hukumu kuhusu usahihi wa taarifa ya ahadi iliyotolewa wakati wa kufuatwa.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "Katika zama za Umar, baada ya mali kufika kutoka Iraq",
+          "feedback": "Umar na mali kutoka Iraq ndiyo muktadha wa tukio katika kipande hiki."
+        },
+        "same": {
+          "text": "Wakati Suraqa alipokuwa akimfukuza Mtume ﷺ njiani",
+          "feedback": "Habari ya kufukuzana inataja kuandikwa kwa hati ya ulinzi; habari hii, kwa upande mwingine, inasimulia kuvishwa kwa bangili mbili baada ya kutaja kilichomfikia Umar kutoka Iraq."
+        },
+        "dated": {
+          "text": "Wakati hati ya kumpa Suraqa ulinzi ilipoandikwa njiani",
+          "feedback": "Kuandikwa kwa hati ya ulinzi kunatokea katika habari ya kufukuzana; lakini kifungu hiki kinasimulia kuvishwa kwa bangili mbili baada ya kutaja mali ya Iraq iliyomfikia Umar."
+        }
+      }
+    }
+  }
+}

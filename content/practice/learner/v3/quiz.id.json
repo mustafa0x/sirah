@@ -1,0 +1,32 @@
+{
+  "locale": "id",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "Apa perbedaan antara dua penilaian yang dinukil tentang sanad riwayat laba-laba?"
+    },
+    "HQ-E02": {
+      "prompt": "Siapa yang disebut tiap bagian sebagai penulis surat untuk Suraqa?"
+    },
+    "HQ-E03": {
+      "prompt": "Menurut riwayat ini, kapan Suraqa dipakaikan dua gelang Kisra?",
+      "explanation": "Asy-Syafi‘i meriwayatkan dari sejumlah ahli ilmu yang tidak ia sebutkan namanya di sini bahwa harta dari Irak sampai kepada Umar; setelah ayat yang dikutip dalam teks, Umar menanyakan Suraqah, lalu Suraqah dibawa menghadap Umar. Umar memberikan dua gelang kepada Suraqah dan memerintahkannya untuk memakainya; Suraqah pun memakainya. Bagian ini tidak menyebutkan tahun tertentu dan tidak menilai kesahihan riwayat tentang janji saat pengejaran.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "Pada masa Umar, setelah harta dari Irak tiba",
+          "feedback": "Umar dan harta yang datang dari Irak merupakan konteks peristiwa dalam bagian ini."
+        },
+        "same": {
+          "text": "Saat Suraqa mengejar Nabi ﷺ di perjalanan",
+          "feedback": "Riwayat pengejaran menyebut penulisan surat perlindungan; sedangkan riwayat ini menceritakan pemakaian gelang setelah menyebut harta dari Irak yang sampai kepada Umar."
+        },
+        "dated": {
+          "text": "Ketika surat perlindungan untuk Suraqa ditulis di perjalanan",
+          "feedback": "Penulisan surat perlindungan terdapat dalam riwayat pengejaran; bagian ini menceritakan pemakaian gelang setelah menyebut harta Irak yang tiba kepada Umar."
+        }
+      }
+    }
+  }
+}

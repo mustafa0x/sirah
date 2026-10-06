@@ -1,0 +1,32 @@
+{
+  "locale": "de",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "Worin unterscheiden sich die beiden überlieferten Beurteilungen der Überlieferungskette des Spinnenberichts?"
+    },
+    "HQ-E02": {
+      "prompt": "Wen nennt jeder Abschnitt als Schreiber des Briefes für Suraqa?"
+    },
+    "HQ-E03": {
+      "prompt": "Laut diesem Bericht: Wann wurden Suraqa die Armreifen Chosraus angelegt?",
+      "explanation": "Asch-Schafi‘i überliefert von Gelehrten, die er hier nicht namentlich nennt, dass Vermögen aus dem Irak zu Umar gelangte; nach dem im Text zitierten Vers fragte Umar nach Suraqa, und Suraqa wurde zu Umar gebracht. Umar gab Suraqa die beiden Armreifen und befahl ihm, sie anzulegen; Suraqa legte sie an. Dieser Abschnitt nennt kein bestimmtes Jahr und beurteilt nicht die Echtheit des Berichts über das Versprechen während der Verfolgung.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "Zur Zeit ʿUmars, nachdem die Abgaben aus dem Irak eingetroffen waren",
+          "feedback": "Umar und das aus dem Irak eingetroffene Vermögen bilden den Zusammenhang des Ereignisses in diesem Abschnitt."
+        },
+        "same": {
+          "text": "Während Suraqa den Propheten ﷺ unterwegs verfolgte",
+          "feedback": "Der Verfolgungsbericht erwähnt das Schreiben der Schutzurkunde; dieser Bericht erzählt vom Anlegen der beiden Armreifen, nachdem die aus dem Irak bei ʿUmar eingetroffenen Güter erwähnt wurden."
+        },
+        "dated": {
+          "text": "Als unterwegs die Schutzurkunde für Suraqa geschrieben wurde",
+          "feedback": "Das Schreiben der Schutzurkunde gehört zum Verfolgungsbericht; dieser Abschnitt schildert das Anlegen der Armreifen, nachdem die Güter aus dem Irak bei ʿUmar eingetroffen waren."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "locale": "ps",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "target_sha256": "4dea8349561c2177197ec4cf0b6eca5dbb638ffa954815804d9c82c94add0f84",
+  "question_ids": [
+    "HQ-E01",
+    "HQ-E02",
+    "HQ-E03"
+  ],
+  "findings": [],
+  "summary": "Assembly check against the existing question-clarity-target-review literal hashes: 9 changed nonempty pairs, explicitly reviewed empty scope, and unchanged later feedback retained from the hash-bound v1 package. Not a new whole-edition or native-language review.",
+  "independent_language_approval": false,
+  "specialist_approval": false,
+  "public_distribution_approved": false
+}

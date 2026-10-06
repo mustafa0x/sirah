@@ -1,0 +1,223 @@
+{
+  "schema_version": 3,
+  "packet_id": "hijrah-practice-ar-demo-v3",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document_sha256": "18417edcfd72c6bca62a5e004320325a89bee45f52f298b4fd8b1794cb877370",
+  "v2_packet_sha256": "ec13e45a7812997dc00dd060956d3f76a5db8c91e279528eadc9277cecb8b04d",
+  "v2_manifest_sha256": "0a526591ddd1676c9635a16829dbdb286664985ecb6a347792983f27fbef052f",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "arabic_review_sha256": "67722c105cbee12439da3a8e27fb9ceea3443f33423a58c9404124c349774c0c",
+  "arabic_review_target_sha256": "f47d01fd945f44250a2c9bada4f9cd98f454cb454a2746eaaa2c527e0bb4ccbd",
+  "question_ids": [
+    "HQ-E01",
+    "HQ-E02",
+    "HQ-E03"
+  ],
+  "independent_language_approval": false,
+  "specialist_approval": false,
+  "public_distribution_approved": false,
+  "outputs": {
+    "packet": "a7864f03c4543aa44885843b13228fc985b59bc94ded4f8cf1608aa1ac847c57",
+    "quiz.ar.json": "edf07cd93d40b07e8f6ae521807e18aa2dedd3a062b87d18d7394641e2c84ce9",
+    "assessment-v3.ar.json": "f47d01fd945f44250a2c9bada4f9cd98f454cb454a2746eaaa2c527e0bb4ccbd",
+    "assessment-v3.ar.review.json": "67722c105cbee12439da3a8e27fb9ceea3443f33423a58c9404124c349774c0c"
+  },
+  "arabic_review": {
+    "review_sha256": "67722c105cbee12439da3a8e27fb9ceea3443f33423a58c9404124c349774c0c",
+    "target_sha256": "f47d01fd945f44250a2c9bada4f9cd98f454cb454a2746eaaa2c527e0bb4ccbd"
+  },
+  "translations": {
+    "am": "54af27871c63d579d680a82e44ce912948c9983853e5ff701b8b7b0c0a61fb04",
+    "bn": "986b4486f8f6234c64e5028879a5bc7235c047eaa7b0d77638ff1fdf30e16f20",
+    "de": "fbd0c060c6c144d191743880d5ffbb9d784a7db42960c57c8263f7131138718d",
+    "en": "cf77c12766054bcf29f4e906d7a9985b6c62349ac4e312bfde3670ed28b6e382",
+    "fa": "de53a0ce594dda879900a650bfe3f1c6368d6445feee1fab639d978d69033e82",
+    "fr": "d462895b37db06ec5f6564d1e0a32ca1c3488f151c3213ae2905373ae09bcf36",
+    "ha": "00d1a4e59e34536a039e2c00eb55a7c566e933f2b3d22cfbd3d77c8465c10e23",
+    "hi": "42d63f3be629863ca5d9c7e390499c508e3b721233c58b68d1c9b07b39f960d2",
+    "id": "fb7218637199439c4e65b24933dadf9010ce57813450adba76ff51d1be483cdb",
+    "ms": "76c5cc630e58e8d00176eef54c91ac3ce7e4d78794e4a547c5444ea22fc77635",
+    "nl": "149cd55dd4921528a057008dbaedd76ceae255b31a858f8c349864298ffd6fe5",
+    "ps": "4dea8349561c2177197ec4cf0b6eca5dbb638ffa954815804d9c82c94add0f84",
+    "si": "087090bdc802d4c072cd0830b98fbb778ee01114c10ea2f76e3378c42fa35ad1",
+    "so": "12d914c3284ba5721c1322e7d4b4214d7c1bd5cfeadf282c31deb257b0518861",
+    "sw": "6d7dfc462b4f91261f32d22b631076a7197742d77b9f751813b705fb28216b46",
+    "ta": "5823bc02d5e5a51d46d60e2465d91f800cbfb4f6ebcfdc4804146085d30f8d3f",
+    "th": "05ebb998291bf471b9a6093d1e3c61feae9d8f5d4bd163ee37e0a4b3040d0ac0",
+    "tr": "f20b118f46eae4173e0a57eba0ffafc6ccb63a6d80a4c30a8b5ff94da47a0c6f",
+    "ur": "984e2e503ca1e917ef947a6e02ea0671f45f50bf0c75c8931e01a1c07205b7b1"
+  },
+  "translation_reviews": {
+    "am": {
+      "review_sha256": "d3a63fbe31180f079bf29d56820e2703bf462b12e4eb7f135007df0172c27d25",
+      "target_sha256": "54af27871c63d579d680a82e44ce912948c9983853e5ff701b8b7b0c0a61fb04",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "bn": {
+      "review_sha256": "5470a84f543159e872e13bfd2c1909465d1b8ace01fcd3b273cfe299280bae4a",
+      "target_sha256": "986b4486f8f6234c64e5028879a5bc7235c047eaa7b0d77638ff1fdf30e16f20",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "de": {
+      "review_sha256": "2389919b5a726701c75aa560744e8c8cc6987027e7ac19b51147d32999d77e00",
+      "target_sha256": "fbd0c060c6c144d191743880d5ffbb9d784a7db42960c57c8263f7131138718d",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "en": {
+      "review_sha256": "f85d126a6d0f05bf3b7ea99d60126221de7c6d24349605a8d9174a76187fdaf7",
+      "target_sha256": "cf77c12766054bcf29f4e906d7a9985b6c62349ac4e312bfde3670ed28b6e382",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "fa": {
+      "review_sha256": "8755c77007ea92b1b08160f63882e704449080ed6f5231a93a2bcaa99a39ae3c",
+      "target_sha256": "de53a0ce594dda879900a650bfe3f1c6368d6445feee1fab639d978d69033e82",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "fr": {
+      "review_sha256": "7c3b19400adae80a1f83a51b8d1da5b34dbb8b33e59c0ee1a7a18c6be0f4432d",
+      "target_sha256": "d462895b37db06ec5f6564d1e0a32ca1c3488f151c3213ae2905373ae09bcf36",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "ha": {
+      "review_sha256": "226c7539e6e7c48c01cf1136a56704253910d7767aadcfc1e55dd0830f0f72b3",
+      "target_sha256": "00d1a4e59e34536a039e2c00eb55a7c566e933f2b3d22cfbd3d77c8465c10e23",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "hi": {
+      "review_sha256": "41ca7ae5d9c4c1e19675ba0befa76a5c6b6f3dab50cc6518f01380cc1d458108",
+      "target_sha256": "42d63f3be629863ca5d9c7e390499c508e3b721233c58b68d1c9b07b39f960d2",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "id": {
+      "review_sha256": "3204f4cf666d2a6eb3d24bf274ff9a08a1dcf765ab18caa94716bdd7bf4a9eda",
+      "target_sha256": "fb7218637199439c4e65b24933dadf9010ce57813450adba76ff51d1be483cdb",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "ms": {
+      "review_sha256": "d4554d1e5a59ff425b3429dc43349947f4f26eb98091ae295ebcfff5387a766b",
+      "target_sha256": "76c5cc630e58e8d00176eef54c91ac3ce7e4d78794e4a547c5444ea22fc77635",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "nl": {
+      "review_sha256": "0da48c991005f97c65215cc8727a10ac6e85b887359435bc4ce0f01368bb1bb7",
+      "target_sha256": "149cd55dd4921528a057008dbaedd76ceae255b31a858f8c349864298ffd6fe5",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "ps": {
+      "review_sha256": "d236bf738e64dc324f56a78ac643d37aae899b706b3b858d52d602672bc0d21c",
+      "target_sha256": "4dea8349561c2177197ec4cf0b6eca5dbb638ffa954815804d9c82c94add0f84",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "si": {
+      "review_sha256": "f06f49f2732740b761c52994172766135b3d32bc48aab8622d44fd029a4a2ea1",
+      "target_sha256": "087090bdc802d4c072cd0830b98fbb778ee01114c10ea2f76e3378c42fa35ad1",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "so": {
+      "review_sha256": "e1fe78f555125da5941fb1d8693a9d77d7ba0fdc91a7a474ebd0dd964197ce41",
+      "target_sha256": "12d914c3284ba5721c1322e7d4b4214d7c1bd5cfeadf282c31deb257b0518861",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "sw": {
+      "review_sha256": "1df0dc735a193813a3be5397aa6129775971140ed5b44f8a184452ceed7c60e8",
+      "target_sha256": "6d7dfc462b4f91261f32d22b631076a7197742d77b9f751813b705fb28216b46",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "ta": {
+      "review_sha256": "df2960e015081171c3d0d6713fb92133ed992c389281fcfa76fb655ef636c4d7",
+      "target_sha256": "5823bc02d5e5a51d46d60e2465d91f800cbfb4f6ebcfdc4804146085d30f8d3f",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "th": {
+      "review_sha256": "53b23e4825afd6ac080561f73cc63e1c40cdcf3071d919c8cd86ecb1b785e189",
+      "target_sha256": "05ebb998291bf471b9a6093d1e3c61feae9d8f5d4bd163ee37e0a4b3040d0ac0",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "tr": {
+      "review_sha256": "18e85f9b26ae0ea4ed9eab5fe31e8ab81b02ebdb90a8237f969f98e332e19266",
+      "target_sha256": "f20b118f46eae4173e0a57eba0ffafc6ccb63a6d80a4c30a8b5ff94da47a0c6f",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    },
+    "ur": {
+      "review_sha256": "c2f379d9d2a023956c48ee4ca8edd1c71e1d36ee07a5a8bb9def2b51bf3343d2",
+      "target_sha256": "984e2e503ca1e917ef947a6e02ea0671f45f50bf0c75c8931e01a1c07205b7b1",
+      "question_ids": [
+        "HQ-E01",
+        "HQ-E02",
+        "HQ-E03"
+      ]
+    }
+  }
+}

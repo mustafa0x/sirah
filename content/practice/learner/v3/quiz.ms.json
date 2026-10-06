@@ -1,0 +1,32 @@
+{
+  "locale": "ms",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "Apakah perbezaan antara dua penilaian yang diriwayatkan terhadap sanad kisah labah-labah?"
+    },
+    "HQ-E02": {
+      "prompt": "Siapakah yang dinamakan oleh setiap petikan sebagai penulis surat untuk Suraqah?"
+    },
+    "HQ-E03": {
+      "prompt": "Menurut riwayat ini, bilakah gelang Kisra dipakaikan kepada Suraqah?",
+      "explanation": "Al-Syafi‘i meriwayatkan daripada ahli ilmu yang tidak disebut namanya di sini bahawa harta dari Iraq sampai kepada Umar; selepas ayat yang dipetik dalam teks, Umar bertanya tentang Suraqah lalu Suraqah dibawa kepada Umar. Umar memberikan dua gelang kepada Suraqah dan menyuruhnya memakainya; Suraqah pun memakainya. Petikan ini tidak menetapkan tahun tertentu dan tidak menghukum kesahihan riwayat tentang janji ketika pengejaran.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "Pada zaman ‘Umar, selepas harta tiba dari Iraq",
+          "feedback": "Umar dan harta yang datang dari Iraq merupakan konteks kejadian dalam petikan ini."
+        },
+        "same": {
+          "text": "Ketika Suraqah mengejar Nabi ﷺ di perjalanan",
+          "feedback": "Riwayat pengejaran menyebut penulisan surat jaminan keselamatan; riwayat ini pula menceritakan kedua-dua gelang dipakaikan selepas menyebut harta dari Iraq yang tiba kepada ‘Umar."
+        },
+        "dated": {
+          "text": "Ketika surat jaminan keselamatan untuk Suraqah ditulis di perjalanan",
+          "feedback": "Penulisan surat jaminan keselamatan terdapat dalam kisah pengejaran; petikan ini menceritakan gelang dipakaikan selepas harta dari Iraq tiba kepada ‘Umar."
+        }
+      }
+    }
+  }
+}

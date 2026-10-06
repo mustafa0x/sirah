@@ -1,0 +1,32 @@
+{
+  "locale": "so",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "Waa maxay farqiga u dhexeeya labada xukun ee laga weriyey silsiladda werinta warka caarada?"
+    },
+    "HQ-E02": {
+      "prompt": "Qayb kasta yaa ku magacaabaya qoraha warqaddii Suraaqa?"
+    },
+    "HQ-E03": {
+      "prompt": "Sida warkan ku xusan, goorma ayaa Suraaqa loo xidhay jijimihii Kisraa?",
+      "explanation": "Shaafici wuxuu ka weriyaa dad cilmi leh oo aanu halkan magacyadooda sheegin in maal Ciraaq ka yimid uu soo gaadhay Cumar; aayadda qoraalka lagu soo xigtay ka dib, Cumar wuxuu wax ka weydiiyey Suraaqa, waxaana Suraaqa loo keenay Cumar. Cumar wuxuu Suraaqa siiyey labadii jijimood, wuxuuna ku amray inuu xidho; Suraaqana wuu xidhay. Qaybtani ma cayimayso sannad gaar ah, mana xukunto sugnaanta warka ballankii xilligii baacsiga.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "Xilligii Cumar, markii maal ka yimid Ciraaq",
+          "feedback": "Cumar iyo maalka Ciraaq ka yimid ayaa ah macnaha guud ee dhacdada qaybtan."
+        },
+        "same": {
+          "text": "Intii Suraaqa jidka ku eryanayey Nebiga ﷺ",
+          "feedback": "Warka eryashada wuxuu sheegayaa qorista warqadda nabadgelyada; warkan se jijimaha waxaa la xidhay kaddib markii la xusay wixii Ciraaq uga yimid Cumar."
+        },
+        "dated": {
+          "text": "Markii jidka loogu qorayey Suraaqa warqaddii nabadgelyada",
+          "feedback": "Qorista warqadda nabadgelyadu waxay ku jirtaa warka eryashada; qaybtani waxay sheegaysaa jijimaha markii maal Ciraaq ka yimid Cumar."
+        }
+      }
+    }
+  }
+}

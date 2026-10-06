@@ -1,0 +1,32 @@
+{
+  "locale": "ha",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "Hukuncin biyu da aka ruwaito game da isnadin labarin gizo-gizo sun bambanta ta yaya?"
+    },
+    "HQ-E02": {
+      "prompt": "Kowane sashe ya ambaci wa a matsayin marubucin wasiƙar Suraqa?"
+    },
+    "HQ-E03": {
+      "prompt": "Bisa ga wannan ruwaya, yaushe aka sa wa Suraqa munduwa biyu na Kisra?",
+      "explanation": "Al-Shafi'i ya ruwaito daga malaman da bai ambaci sunayensu a nan ba cewa dukiya daga Iraki ta isa wurin Umar; bayan ayar da aka nakalto a rubutun, Umar ya tambayi inda Suraqa yake, sai aka kawo Suraqa wurin Umar. Umar ya ba Suraqa mundayen biyu, ya umarce shi ya sa su; Suraqa kuwa ya sa su. Wannan sashe bai ayyana wata takamaiman shekara ba, kuma bai yanke hukunci kan ingancin labarin alƙawarin da aka yi a lokacin bin sawun ba.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "A zamanin Umar, bayan dukiya ta iso daga Iraq",
+          "feedback": "Umar da dukiyar da ta zo daga Iraƙi su ne mahallin abin da ya faru a wannan sashe."
+        },
+        "same": {
+          "text": "Yayin da Suraqa ke bin Annabi ﷺ a hanya",
+          "feedback": "Ruwayar bin-sawu ta ambaci rubuta takardar aminci; amma wannan ruwayar ta kawo sa masa munduwa bayan ambaton abin da ya iso wa Umar daga Iraq."
+        },
+        "dated": {
+          "text": "Lokacin da aka rubuta wa Suraqa takardar aminci a hanya",
+          "feedback": "An ambaci takardar aminci a ruwayar bin-sawu; wannan sashe kuwa ya kawo munduwa bayan ambaton dukiyar Iraq da ta iso wa Umar."
+        }
+      }
+    }
+  }
+}

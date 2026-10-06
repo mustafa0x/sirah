@@ -1,0 +1,32 @@
+{
+  "locale": "fr",
+  "source_release_id": "hijrah-ar-v1",
+  "arabic_override_sha256": "7716cca83aaa80ff2a52afe9e01675c437058e3084282ccefcf3b8a4a7783983",
+  "questions": {
+    "HQ-E01": {
+      "prompt": "En quoi diffèrent les deux appréciations rapportées sur la chaîne de transmission du récit de l’araignée ?"
+    },
+    "HQ-E02": {
+      "prompt": "Qui chaque passage désigne-t-il comme rédacteur de la lettre destinée à Souraqua ?"
+    },
+    "HQ-E03": {
+      "prompt": "Selon ce récit, quand les bracelets de Kisra furent-ils passés à Souraqua ?",
+      "explanation": "Al-Chafi‘i rapporte, d’après des gens de savoir qu’il ne nomme pas ici, que des biens venus d’Irak parvinrent à Omar ; après le verset cité dans le texte, Omar demanda où était Suraqa, et Suraqa fut amené auprès d’Omar. Omar donna les deux bracelets à Suraqa et lui ordonna de les porter ; Suraqa les mit. Ce passage ne précise aucune année particulière et ne se prononce pas sur l’authenticité du récit de la promesse faite pendant la poursuite.",
+      "scope_note": "",
+      "options": {
+        "later": {
+          "text": "À l’époque d’Omar, après l’arrivée des richesses d’Irak",
+          "feedback": "Omar et les biens venus d’Irak constituent le contexte de l’événement dans ce passage."
+        },
+        "same": {
+          "text": "Pendant la poursuite du Prophète ﷺ par Souraqua sur la route",
+          "feedback": "Le récit de la poursuite mentionne la rédaction de la lettre de sauf-conduit ; celui-ci raconte que les bracelets furent passés après avoir mentionné ce qui était arrivé d’Irak pour Omar."
+        },
+        "dated": {
+          "text": "Lors de la rédaction de la lettre de sauf-conduit pour Souraqua sur la route",
+          "feedback": "La lettre de sauf-conduit est mentionnée dans le récit de la poursuite ; ce passage raconte plutôt les bracelets après avoir mentionné les richesses d’Irak parvenues à Omar."
+        }
+      }
+    }
+  }
+}
