@@ -55,7 +55,12 @@ function load() {
         path.join(research, 'evidence.jsonl'),
         path.join(research, 'evidence-additions.jsonl'),
     ]
-    for (const batch of readdirSync(path.join(research, 'batches'), { withFileTypes: true }))
+    // Batches are local (untracked); a fresh clone builds from the tracked files alone.
+    let batches = []
+    try {
+        batches = readdirSync(path.join(research, 'batches'), { withFileTypes: true })
+    } catch {}
+    for (const batch of batches)
         if (batch.isDirectory())
             archives.push(path.join(research, 'batches', batch.name, 'evidence.jsonl'))
     for (const file of archives) {
