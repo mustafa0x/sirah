@@ -121,14 +121,15 @@ function chapter_note_answer(question, source_ids = []) {
     }
 }
 
-export function local_guide_answer(question, source_ids = []) {
+export function local_guide_answer(question, source_ids = [], language = 'en') {
     const answer = chapter_note_answer(question, source_ids)
     return answer.citations.length
-        ? { ...answer, provider: 'local', sources: [] }
+        ? { ...answer, provider: 'local', sources: [], language: 'en' }
         : {
               answer: 'The offline journey notes do not establish an answer to that question.',
               status: 'local-bounded',
               provider: 'local',
+              language: 'en',
               confidence: 'bounded',
               citations: [],
               sources: [],
@@ -202,7 +203,7 @@ function available_action(answer, step_ids) {
 
 export async function ask_guide(question, context) {
     const fallback = available_action(
-        local_guide_answer(question, context.source_ids),
+        local_guide_answer(question, context.source_ids, context.language),
         context.available_step_ids,
     )
     try {

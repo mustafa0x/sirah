@@ -101,7 +101,8 @@ export function inspect_practice_source(practice, packet) {
         if (!unit) throw new Error('Practice source missing')
         return unit
     })
-    practice.used_source[question.question_id] = true
+    if (!Object.hasOwn(practice.answers, question.question_id))
+        practice.used_source[question.question_id] = true
     practice.source_open = true
     return units
 }

@@ -57,12 +57,6 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "የመሪው ገለጻ ለጊዜው ቆሟል። ቦታዎ ተቀምጧል።"
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "That chapter stop is not available."
-msgstr "ያ የምዕራፍ ማቆሚያ አይገኝም።"
-
-#: src/routes/Journey.svelte
 #, ai
 msgid "Onward stage opened. Your guided position is preserved."
 msgstr "የቀጣዩ ምዕራፍ ተከፍቷል። የመሪነት ቦታዎ ተጠብቋል።"
@@ -139,46 +133,14 @@ msgstr "<0/> የሲራህ ጉዞ"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
-msgstr "<0>ምንጮች</0> ከእያንዳንዱ አንቀጽ በስተጀርባ ያለውን ጥቅስ እና ምን እንደማያረጋግጥ ያሳያል።"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> ለማጫወት ወይም ለማቆም · <1/> <2/> ምዕራፍ ለመቀየር · <3>Esc</3> ለመዝጋት"
 
-#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
-#, ai
-msgid "{0} stages"
-msgstr "{0} ምዕራፎች"
-
-#. 0: fmt_num(total_minutes)
-#: src/routes/Journey.svelte
-#, ai
-msgid "about {0} minutes"
-msgstr "በግምት {0} ደቂቃዎች"
-
-#. 0: fmt_num(chapter.sources.length)
-#: src/routes/Journey.svelte
-#, ai
-msgid "{0} cited passages"
-msgstr "{0} የተጠቀሱ ጥቅሶች"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Begin the journey"
 msgstr "<0/> ጉዞውን ይጀምሩ"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Read instead"
-msgstr "<0/> ይልቁንስ ያንብቡ"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter one"
-msgstr "ምዕራፍ አንድ"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -186,12 +148,9 @@ msgstr "ምዕራፍ አንድ"
 msgid "The Hijrah"
 msgstr "ሂጅራ"
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter stages"
-msgstr "የምዕራፍ ደረጃዎች"
-
 #. 0: index + 1; 1: step.title
+#. 0: index + 1; 1: step.title
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0}: {1}"
@@ -242,19 +201,12 @@ msgstr "በዚህ ደረጃ ላይ ያለ ቦታ"
 msgid "{0} of {1}"
 msgstr "{0} ከ {1}"
 
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Complete the chapter"
-msgstr "<0/> ምዕራፉን ያጠናቅቁ"
-
 #. 0: chapter.steps[selected_index + 1].title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Continue: {0} <0/>"
 msgstr "ይቀጥሉ፦ {0} <0/>"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Read"
@@ -281,11 +233,6 @@ msgstr "ደረጃ {0} ከ {1} · {2}"
 #, ai
 msgid "Close reading"
 msgstr "ንባብ ዝጋ"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter complete"
-msgstr "ምዕራፉ ተጠናቋል"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -336,11 +283,6 @@ msgstr "ጥያቄ ዝጋ"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Ask about this chapter…"
-msgstr "ስለዚህ ምዕራፍ ይጠይቁ…"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "Ask"
 msgstr "ይጠይቁ"
 
@@ -368,11 +310,6 @@ msgstr "ወደ መልሱ ተመለስ"
 #, ai
 msgid "Back to the journey"
 msgstr "ወደ ጉዞው ተመለስ"
-
-#: src/lib/SceneCanvas.svelte
-#, ai
-msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
-msgstr "ባለ 3ዲ (3D) ምስሉ በዚህ መሣሪያ ላይ አይሰራም። ሙሉው ምዕራፍ አሁንም እዚህ ለማንበብ ይገኛል።"
 
 #: src/content/first-chapter.js
 #, ai
@@ -488,11 +425,6 @@ msgid "The account goes on to describe a date-drying yard that became the site o
 msgstr "ዘገባው በመቀጠል በመዲና የነቢዩ መስጊድ ቦታ የሆነውን የተምር ማድረቂያ ቦታ ይገልጻል። ነቢዩ መስጊዱን ከሚገነቡት ጋር ጡብ ይሸከሙ እንደነበር ይመዘግባል።"
 
 #: src/content/first-chapter.js
-#, ai
-msgid "You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah."
-msgstr "ዝግጅቶችን፣ የመጠለያ ጊዜን፣ ቀጣዩን ጉዞ እና መድረስን ተከታትለዋል። የተለያዩ የዕርዳታ ዓይነቶችን አይተዋል እንዲሁም የማረጋጊያ ዘገባዎችን አንብበዋል። ይህ የተመረጠ ዘገባ ነው እንጂ የእያንዳንዱ የሂጅራ ክስተት ወይም ውጤት የተሟላ ታሪክ አይደለም።"
-
-#: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
@@ -590,6 +522,7 @@ msgstr "የተመረጠው ጥቅስ በዋሻው ውስጥ የነበሩትን �
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
+#: src/content/first-chapter.js
 #: src/content/timeline.js
 #, ai
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
@@ -669,11 +602,6 @@ msgstr "መካ"
 
 #: src/lib/scene-manifest.js
 #, ai
-msgid "Where the chapter begins, with preparations for departure."
-msgstr "ምዕራፉ የሚጀምረው እዚህ ነው፣ ለመነሳት በሚደረጉ ዝግጅቶች።"
-
-#: src/lib/scene-manifest.js
-#, ai
 msgid "Mount Thawr"
 msgstr "የሰውር ተራራ"
 
@@ -698,11 +626,6 @@ msgstr "መሪው በባህር ዳርቻው መራቸው። ይህ መስመር 
 #, ai
 msgid "Madinah"
 msgstr "መዲና"
-
-#: src/lib/scene-manifest.js
-#, ai
-msgid "Where the chapter closes, with arrival and a new beginning."
-msgstr "ምዕራፉ እዚህ ያበቃል፣ በመድረስ እና በአዲስ ጅምር።"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -768,11 +691,6 @@ msgstr "የተመራው ቦታ ወደነበረበት ተመልሷል። ለመ�
 
 #: src/lib/journey-state.js
 #, ai
-msgid "Reading mode selected. The same chapter is available without narration."
-msgstr "የንባብ ሁነታ ተመርጧል። ያው ምዕራፍ ያለ ትረካ ይገኛል።"
-
-#: src/lib/journey-state.js
-#, ai
 msgid "Scene mode selected."
 msgstr "የዕይታ ሁነታ ተመርጧል።"
 
@@ -786,11 +704,6 @@ msgstr "ምንጩ ተከፍቷል። የሚመራው መልሶ ማጫወት ለ�
 msgid "Panel closed. Press Resume journey to return to the guided position."
 msgstr "ፓነሉ ተዘግቷል። ወደ ተመራው ቦታ ለመመለስ ጉዞውን ቀጥል የሚለውን ይጫኑ።"
 
-#: src/lib/journey-state.js
-#, ai
-msgid "Chapter complete. Recap opened."
-msgstr "ምዕራፉ ተጠናቋል። ማጠቃለያው ተከፍቷል።"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Researching in Turath…"
@@ -798,18 +711,8 @@ msgstr "በቱራሥ ውስጥ በመፈለግ ላይ…"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Chapter notes · offline"
-msgstr "የምዕራፍ ማስታወሻዎች · ከመስመር ውጭ"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "This passage is shortened. Open the original page for its full context."
 msgstr "ይህ ምንባብ አጭር ነው። ሙሉ አውዱን ለማየት ዋናውን ገጽ ይክፈቱ።"
-
-#: src/lib/guide-provider.js
-#, ai
-msgid "The offline chapter notes do not establish an answer to that question."
-msgstr "ከመስመር ውጭ የሆኑት የምዕራፍ ማስታወሻዎች ለዚያ ጥያቄ መልስ አይሰጡም።"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -878,11 +781,6 @@ msgstr "ቁባእ፡ የመጀመሪያው ማቆሚያ"
 
 #: src/content/first-chapter.js
 #, ai
-msgid "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
-msgstr "በመካከላቸው ከአሥር ሌሊቶች በላይ ቆየ። እዚያም ዘገባው በፈሪሃ አምላክነት (ተቅዋ) ላይ የተመሠረተ ነው የሚለውን መስጊድ መሠረተ፣ በውስጡም ሰገደ።"
-
-#: src/content/first-chapter.js
-#, ai
 msgid "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates."
 msgstr "ከዚያም ሰዎች ከጎኑ እየተጓዙ ጉዞውን ቀጠለ፤ ግመሉ መዲና ውስጥ አንዳንድ ሙስሊሞች ቀድመው ይሰግዱበት በነበረ ቦታ ላይ እስክትበረከክ ድረስ። ቦታው የተምር ማድረቂያ ግቢ ነበር።"
 
@@ -930,21 +828,6 @@ msgstr "እሱም ግመሉ በመዲና በሚገኘው መስጊድ ቦታ ላ
 #, ai
 msgid "It does not establish the route taken through the town or the appearance of the place."
 msgstr "በከተማዋ ውስጥ የተጓዘበትን መንገድ ወይም የቦታውን ገጽታ አይገልጽም።"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
-msgstr "<0>አጫውት</0> በOpenAI ድምፅ ትረካ አማካኝነት ምዕራፉን በደረጃ በደረጃ ይመራዎታል።"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
-msgstr "<0>አጫውት</0> ምዕራፉን በደረጃ በደረጃ ይመራዎታል። የትርጉም ጽሑፎቹ በጸጥተኛ ነፋስ ድምፅ ላይ ጊዜን ይጠብቃሉ።"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
-msgstr "<0>ጠይቅ</0> በTurath ውስጥ ለመፈለግ እና ምንጮችን በመጥቀስ ለመመለስ የክፍሉን አውድ ይጠቀማል።"
 
 #: src/content/first-chapter.js
 #, ai
@@ -1003,23 +886,8 @@ msgstr "በዚያች ሌሊት እሱ እስኪተኛ እየጠበቁ በደጃ�
 
 #: src/content/first-chapter.js
 #, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "ዓሊይ ወደ ኋላ የቀረው ለሌላም ምክንያት ነበር። የመካ ሰዎች ታማኝነቱን ስለሚያውቁ ውድ ዕቃዎቻቸውን በነቢዩ ﷺ ዘንድ በአደራ ያስቀምጡ ነበር። ዓሊይም እያንዳንዱን ዕቃ ለባለቤቶቹ መመለስ ነበረበት።"
-
-#: src/content/first-chapter.js
-#, ai
 msgid "The tent of Umm Ma‘bad"
 msgstr "የኡሙ መዕበድ ድንኳን"
-
-#: src/content/first-chapter.js
-#, ai
-msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk."
-msgstr "በመንገዳቸው ላይ የኹዛዓህ ጎሳ አባል በሆነችው በኡሙ መዕበድ ድንኳን ዘንድ አርፈው መስተንግዶ ጠየቁ። እሷም የምታቀርበው ምግብ እንደሌላትና ወተት ከማትሰጥ አንዲት በግ በስተቀር ሌላ በግ እንደሌላት ተናገረች።"
-
-#: src/content/first-chapter.js
-#, ai
-msgid "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
-msgstr "ነቢዩም ﷺ በጓን አስመጥተው፣ እጃቸውን በጡቷ ላይ አሻሹ፣ አላህንም ለመኑ። አረፋ እስኪደፍቅ ድረስ በትልቅ ዕቃ ውስጥ አለቧትና፡ ኡሙ መዕበድ ሆይ ጠጪ አሏት። ኢብን ከሲር የእሷ ታሪክ በሰፊው የሚታወቅና እርስ በርሳቸው በሚደጋገፉ መንገዶች የተላለፈ መሆኑን ጠቅሰዋል።"
 
 #: src/content/first-chapter.js
 #, ai
@@ -1045,11 +913,6 @@ msgstr "ኢብን ከሲር አል-ዋቂዲም የበርካታ ተራኪዎች�
 #, ai
 msgid "Ibn Ishaq introduces this with “as it has reached me”."
 msgstr "ኢብን ኢስሐቅ ይህንን ሲጀምሩ \"እኔ ዘንድ እንደደረሰኝ\" በማለት ነው።"
-
-#: src/content/first-chapter.js
-#, ai
-msgid "They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance."
-msgstr "በኡሙ መዕበድ ድንኳን ዘንድ አረፉ፤ እሷም ወተት የሌላት በግ ብቻ ነበራት፣ ከዚያም በጓ በብዛት ወተት ሰጠች።"
 
 #: src/content/first-chapter.js
 #, ai
@@ -1448,16 +1311,6 @@ msgstr "የቀደሙ የሲራህ እና የታሪክ መጻሕፍት"
 #, ai
 msgid "Modern authors"
 msgstr "የዘመኑ ጸሐፊዎች"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "ማስረጃዎች በካርታው ላይ"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "እያንዳንዱ የብርሃን ነጥብ ይህ ምዕራፍ የጠቀሰውና ስለዚያ ቦታ የሚናገር ጽሑፍ ነው። ለማንበብ አንዱን ይምረጡ።"
 
 #: src/content/lenses.js
 #, ai
@@ -1912,10 +1765,12 @@ msgid "Answers"
 msgstr "መልሶች"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hide the passage"
 msgstr "ምንባቡን ይደብቁ"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Read the passage"
 msgstr "ምንባቡን ያንብቡ"
@@ -1924,10 +1779,6 @@ msgstr "ምንባቡን ያንብቡ"
 #: src/routes/Journey.svelte
 msgid "I don’t know"
 msgstr "አላውቅም"
-
-#: src/routes/Journey.svelte
-msgid "Open book: reading the passage is part of learning."
-msgstr "ክፍት መጽሐፍ፦ ምንባቡን ማንበብ የመማር አንዱ አካል ነው።"
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -1961,6 +1812,7 @@ msgstr "እንደገና ማንበብ ተገቢ ነው"
 msgid "<0/> Practise again"
 msgstr "<0/> እንደገና ይለማመዱ"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Back to the journey"
 msgstr "<0/> ወደ ጉዞው ይመለሱ"
@@ -2003,28 +1855,8 @@ msgid "Arabic original and source details"
 msgstr "የአረብኛ መነሻ ጽሑፍ እና የምንጭ ዝርዝሮች"
 
 #: src/lib/ChapterReader.svelte
-msgid "Choose a chapter"
-msgstr "ምዕራፍ ይምረጡ"
-
-#: src/lib/ChapterReader.svelte
-msgid "Close chapter"
-msgstr "ምዕራፉን ዝጉ"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter sections"
-msgstr "የምዕራፉ ክፍሎች"
-
-#: src/lib/ChapterReader.svelte
 msgid "Loading…"
 msgstr "በመጫን ላይ…"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter contents"
-msgstr "የምዕራፉ ይዘት"
-
-#: src/lib/ChapterReader.svelte
-msgid "In this chapter"
-msgstr "በዚህ ምዕራፍ"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
@@ -2048,6 +1880,9 @@ msgid "Continue with source-study questions"
 msgstr "በምንጭ ጥናት ጥያቄዎች ይቀጥሉ"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Try again"
 msgstr "እንደገና ይሞክሩ"
 
@@ -2058,10 +1893,6 @@ msgstr "ወደ ታሪኩ ይመለሱ"
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
 msgstr "በዚህ ስብስብ ውስጥ ካሉት ጥያቄዎች ትክክለኛ መልሶች።"
-
-#: src/routes/Journey.svelte
-msgid "Hijrah chapters"
-msgstr "የሂጅራ ምዕራፎች"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2079,37 +1910,13 @@ msgstr "ሙሉ ካርታውን አሳይ"
 msgid "Explore the map"
 msgstr "ካርታውን ያስሱ"
 
-#: src/routes/Journey.svelte
-msgid "Select a book marker to read its chapter."
-msgstr "ምዕራፉን ለማንበብ የመጽሐፍ ምልክቱን ይምረጡ።"
-
-#: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "ጉዞውን ይጀምሩ"
-
-#: src/routes/Journey.svelte
-msgid "Locations are schematic."
-msgstr "ቦታዎቹ በምሳሌያዊ መልኩ ተሰይመዋል።"
-
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original"
 msgstr "የአረብኛ መነሻ ጽሑፍ"
 
 #: src/lib/ChapterReader.svelte
-msgid "A chapter edition is not ready in this language. Showing the English edition."
-msgstr "በዚህ ቋንቋ የምዕራፉ እትም ገና አልተዘጋጀም። የእንግሊዝኛው እትም እየታየ ነው።"
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "ማጠቃለያ — ትርጉም አይደለም"
-
-#: src/routes/Journey.svelte
-msgid "Read the chapter"
-msgstr "ምዕራፉን ያንብቡ"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full chapter, with its sources and practice"
-msgstr "<0/> ሙሉው ምዕራፍ፣ ከመረጃ ምንጮችና ልምምዶች ጋር"
 
 #: src/routes/Journey.svelte
 msgid "read in <0/><1/>"
@@ -2120,49 +1927,33 @@ msgstr "በ<0/><1/> የተጠቀሰ"
 msgid ", vol. {0}, p. {1}"
 msgstr "፣ ቅጽ {0}፣ ገጽ {1}"
 
-#: src/lib/ChapterReader.svelte
-msgid "Reading sections"
-msgstr "የምንባብ ክፍሎች"
+#: src/content/first-chapter.js
+msgid "In Ibn Ishaq’s account, “as it reached me,” ‘Ali stayed behind for another reason too. People in Makkah had left their valuables with the Prophet ﷺ for safekeeping, knowing his honesty; the report says ‘Ali was to return their deposits."
+msgstr "በኢብን ኢስሐቅ ዘገባ፣ «እንደደረሰኝ»፣ ዐሊ በሌላ ምክንያትም ቀርቶ ነበር። የመካ ሰዎች በታማኝነታቸው የተነሳ ንብረታቸውን ለጥበቃ በነቢዩ ﷺ ዘንድ ያስቀምጡ ነበር፤ ዘገባው ዐሊ የተሰጡትን አደራዎች ለባለቤቶቻቸው ሊመልስ እንደነበር ይጠቅሳል።"
 
-#: src/lib/ChapterReader.svelte
-msgid "Contents"
-msgstr "ማውጫ"
+#: src/content/first-chapter.js
+msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She said they had no food and no milk-giving ewe."
+msgstr "ከዚያም በመንገድ ላይ በኹዛዓዊቷ ኡም መዕበድ ድንኳን አረፉና መስተንግዶ ጠየቁ። እሷም ምግብም ሆነ የምትታለብ በግ እንደሌላቸው ተናገረች።"
 
-#: src/lib/ChapterReader.svelte
-msgid "In this reading"
-msgstr "በዚህ ምንባብ ውስጥ"
+#: src/content/first-chapter.js
+msgid "The report says the Prophet ﷺ called for one of her sheep, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
+msgstr "ዘገባው ነቢዩ ﷺ ከበጎቿ አንዲቱን እንዲያመጡ ጠይቀው፣ የአንዲቱን ጡት በእጃቸው ዳስሰው አላህን እንደለመኑ ይጠቅሳል። በትልቅ ዕቃ ውስጥ አለቧት፤ ወተቱም አረፋ አወጣ። ከዚያም «ጠጪ፣ ኡም መዕበድ» አሉ። ኢብን ከሢር ታሪኳ የታወቀ መሆኑንና እርስ በርስ በሚደጋገፉ የዘገባ መንገዶች መተላለፉን ይጠቅሳል።"
 
-#: src/lib/ChapterReader.svelte
-msgid "This reading is not ready in this language yet. Showing the English edition."
-msgstr "ይህ ምንባብ ገና በዚህ ቋንቋ አልተዘጋጀም። የእንግሊዝኛው እትም እየታየ ነው።"
+#: src/content/first-chapter.js
+msgid "According to ‘Urwa, he stayed among them for a few more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
+msgstr "በዑርዋ ዘገባ መሠረት ከእነሱ ጋር ከአሥር ጥቂት የሚበልጡ ሌሊቶች ቆዩ። በዚያም ዘገባው «በአላህ ፍርሃት ላይ የተመሠረተ» ብሎ የሚጠራውን መስጊድ መሠረቱና በውስጡ ሰገዱ።"
 
-#: src/lib/ChapterReader.svelte
-msgid "More readings"
-msgstr "ተጨማሪ ምንባቦች"
-
-#: src/lib/ChapterReader.svelte
-msgid "Previous reading"
-msgstr "ቀዳሚ ምንባብ"
-
-#: src/lib/ChapterReader.svelte
-msgid "Next reading"
-msgstr "ቀጣይ ምንባብ"
+#: src/content/first-chapter.js
+msgid "They stopped at Umm Ma‘bad’s tent. She said they had no food or milk-giving ewe; the report then describes milk from one of her sheep."
+msgstr "በኡም መዕበድ ድንኳን አረፉ። እሷም ምግብም ሆነ የምትታለብ በግ እንደሌላቸው ተናገረች፤ ከዚያም ዘገባው ከበጎቿ አንዳንዶቹ መታለባቸውን ይገልጻል።"
 
 #: src/routes/Journey.svelte
-msgid "Readings"
-msgstr "ምንባቦች"
+msgid "Original source ↗"
+msgstr "ዋናው ምንጭ ↗"
 
 #: src/routes/Journey.svelte
-msgid "Select a book marker to open its reading."
-msgstr "ምንባቡን ለመክፈት የመጽሐፍ ምልክቱን ይምረጡ።"
-
-#: src/routes/Journey.svelte
-msgid "Hijrah readings"
-msgstr "የሂጅራ ምንባቦች"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full reading, with its sources and practice"
-msgstr "<0/> ሙሉው ምንባብ፣ ከምንጮቹ እና ልምምዱ ጋር"
+msgid "Context"
+msgstr "አውድ"
 
 #: src/routes/Journey.svelte
 msgid "Source passages"
@@ -2181,21 +1972,15 @@ msgid "Languages"
 msgstr "ቋንቋዎች"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Beneath the surface"
 msgstr "ከገጹ በታች"
-
-#: src/routes/Journey.svelte
-msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The readings go deeper into each part of the story, and the practice questions are drawn from the same passages."
-msgstr "እያንዳንዱ አንቀጽ በጥንታዊ የአረብኛ ምንጮች ምንባብ ላይ የተመሠረተ ሲሆን፣ በቱራት (Turath) ላይ ወደሚገኘው ገጹ የሚወስድ አገናኝም አለው። ንባቦቹ በእያንዳንዱ የታሪኩ ክፍል ላይ በጥልቀት የሚያተኩሩ ሲሆን፣ የመለማመጃ ጥያቄዎቹም ከተመሳሳይ ምንባቦች የተወሰዱ ናቸው።"
 
 #: src/routes/Journey.svelte
 msgid "The narration is in Arabic and English, and the map is built from real elevation data."
 msgstr "ትረካው በአረብኛ እና በእንግሊዝኛ የቀረበ ሲሆን፣ ካርታውም ከተጨባጭ የመሬት ከፍታ መረጃ የተዘጋጀ ነው።"
 
 #: src/routes/Journey.svelte
-msgid "What's beneath the surface <0/>"
-msgstr "ከገጹ በታች ምን አለ <0/>"
-
 #: src/routes/Journey.svelte
 msgid "Behind the journey <0/>"
 msgstr "ከጉዞው ጀርባ <0/>"
@@ -2219,10 +2004,6 @@ msgstr "ዝጋ"
 #: src/routes/Journey.svelte
 msgid "<0>A guided journey</0> in nine stages across a map built from real elevation data, narrated in Arabic and English."
 msgstr "<0>የተመራ ጉዞ</0> በእውነተኛ የከፍታ መረጃ ላይ በተዘጋጀ ካርታ በዘጠኝ ደረጃዎች፣ በአረብኛ እና በእንግሊዝኛ የተተረከ።"
-
-#: src/routes/Journey.svelte
-msgid "<0>Readings</0> that go deeper into each part of the story, each with its source passages."
-msgstr "<0>ንባቦች</0> ወደ እያንዳንዱ የታሪኩ ክፍል በጥልቀት የሚገቡ፣ እያንዳንዳቸው ከምንጭ ጥቅሶቻቸው ጋር።"
 
 #: src/routes/Journey.svelte
 msgid "<0>Sources on the map</0>, placed where they speak of, and a day-by-day timeline that shows how each date is known."
@@ -2253,10 +2034,6 @@ msgid "<0>One Arabic core.</0> The events were set out as records and claims, ea
 msgstr "<0>አንድ የአረብኛ መሠረት።</0> ኩነቶቹ እንደ መዛግብት እና ማስረጃዎች የተዋቀሩ ሲሆን፣ እያንዳንዳቸውም ከሚደግፏቸው ጥቅሶች ጋር የተሳሰሩ ናቸው። መተግበሪያው የሚገልጸው ነገር ሁሉ ከዚህ መሠረት የመነጨ ነው።"
 
 #: src/routes/Journey.svelte
-msgid "<0>Written in Arabic first.</0> Each reading was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
-msgstr "<0>በመጀመሪያ በአረብኛ የተጻፈ።</0> እያንዳንዱ ንባብ ከመሠረቱ በአረብኛ የተጻፈ ሲሆን፣ የሚያሳያቸውም ጥቅሶች ትክክለኛ የምንጩ ጽሑፎች ናቸው፣ በድጋሚ የተተየቡ አይደሉም።"
-
-#: src/routes/Journey.svelte
 msgid "<0>Translated from the Arabic.</0> The other languages are translated directly from the Arabic, not through English."
 msgstr "<0>ከአረብኛ የተተረጎመ።</0> ሌሎች ቋንቋዎች በቀጥታ ከአረብኛ የተተረጎሙ ናቸው እንጂ በእንግሊዝኛ በኩል አይደለም።"
 
@@ -2276,33 +2053,43 @@ msgstr "<0>AI፣ በምንጮች የተመራ።</0> ሁልጊዜም ከአረ�
 msgid "How it was made"
 msgstr "እንዴት እንደተዘጋጀ"
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Reading mode selected. The same journey is available without narration."
 msgstr "የንባብ ሁነታ ተመርጧል። ይኸው ጉዞ ያለ ትረካ ይገኛል።"
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Journey complete. Recap opened."
 msgstr "ጉዞው ተጠናቋል። ማጠቃለያው ተከፍቷል።"
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey begins, with preparations for departure."
 msgstr "ጉዞው የሚጀመርበት፣ ከመነሻ ዝግጅቶች ጋር።"
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey closes, with arrival and a new beginning."
 msgstr "ጉዞው የሚጠናቀቅበት፣ ከመድረሻ እና ከአዲስ ጅማሬ ጋር።"
 
-#: src/routes/Journey.svelte
+#: src/lib/guide-provider.js
 msgid "The offline journey notes do not establish an answer to that question."
 msgstr "ከመስመር ውጭ ያሉት የጉዞ ማስታወሻዎች ለዚያ ጥያቄ መልስ አያካትቱም።"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "That stage is not available."
 msgstr "ያ ደረጃ አይገኝም።"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Chapters"
 msgstr "ምዕራፎች"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to read its chapter."
+msgstr "ምዕራፉን ለማንበብ የመጽሐፍ ምልክቱን ይምረጡ።"
+
+#: src/routes/Journey.svelte
+msgid "Hijrah chapters"
+msgstr "የሂጅራ ምዕራፎች"
 
 #: src/routes/Journey.svelte
 msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
@@ -2333,9 +2120,11 @@ msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from t
 msgstr "<0>መጀመሪያ በአረብኛ የተጻፈ።</0> እያንዳንዱ ምዕራፍ ከመሰረቱ በአረብኛ የተጻፈ ሲሆን፣ የሚያሳያቸው ጥቅሶች ትክክለኛው የመነሻ ጽሑፍ እንጂ በድጋሚ የተጻፉ አይደሉም።"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Journey stages"
 msgstr "የጉዞ ደረጃዎች"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Complete the journey"
 msgstr "<0/> ጉዞውን ያጠናቅቁ"
@@ -2345,6 +2134,10 @@ msgid "Journey complete"
 msgstr "ጉዞው ተጠናቋል"
 
 #: src/routes/Journey.svelte
+msgid "<0/> The full chapter, with its sources and practice"
+msgstr "<0/> ሙሉው ምዕራፍ፣ ከመረጃ ምንጮችና ልምምዶች ጋር"
+
+#: src/routes/Journey.svelte
 msgid "Ask about this journey…"
 msgstr "ስለዚህ ጉዞ ይጠይቁ…"
 
@@ -2352,22 +2145,43 @@ msgstr "ስለዚህ ጉዞ ይጠይቁ…"
 msgid "Journey notes · offline"
 msgstr "የጉዞ ማስታወሻዎች · ከመስመር ውጭ"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
+msgid "Close chapter"
+msgstr "ምዕራፉን ዝጉ"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "በዚህ ቋንቋ የምዕራፉ እትም ገና አልተዘጋጀም። የእንግሊዝኛው እትም እየታየ ነው።"
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter sections"
+msgstr "የምዕራፉ ክፍሎች"
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter contents"
+msgstr "የምዕራፉ ይዘት"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this chapter"
+msgstr "በዚህ ምዕራፍ"
+
+#: src/lib/ChapterReader.svelte
 msgid "More chapters"
 msgstr "ተጨማሪ ምዕራፎች"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Previous chapter"
 msgstr "ቀዳሚ ምዕራፍ"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Next chapter"
 msgstr "ቀጣይ ምዕራፍ"
 
-#: src/routes/Journey.svelte
+#: src/lib/SceneCanvas.svelte
 msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
 msgstr "የ3D ምስሉ በዚህ መሣሪያ ላይ አይገኝም። ሙሉውን ጉዞ አሁንም እዚህ ማንበብ ይችላሉ።"
 
+#. 0: fmt_num(stage_facts.sections); 1: fmt_num( stage_facts.passages, ); 2: fmt_num(stage_facts.questions)
 #: src/routes/Journey.svelte
 msgid "{0} sections · {1} source passages · {2} questions"
 msgstr "{0} ክፍሎች · {1} የምንጭ ምንባቦች · {2} ጥያቄዎች"

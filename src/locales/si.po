@@ -57,12 +57,6 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "මඟ පෙන්වන ඉදිරිපත් කිරීම තාවකාලිකව නතර කරන ලදී. ඔබ සිටි ස්ථානය සුරැකිණි."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "That chapter stop is not available."
-msgstr "එම පරිච්ඡේද නැවතුම ලබා ගත නොහැක."
-
-#: src/routes/Journey.svelte
 #, ai
 msgid "Onward stage opened. Your guided position is preserved."
 msgstr "ඉදිරි අදියර විවෘත විය. ඔබගේ මඟ පෙන්වන ස්ථානය සුරක්ෂිතව ඇත."
@@ -139,46 +133,14 @@ msgstr "<0/> සිරා ගමන"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
-msgstr "සෑම ඡේදයකටම පසුබිම් වූ පාඨය සහ එයින් තහවුරු නොවන දේ <0>මූලාශ්‍ර</0> මඟින් පෙන්වයි."
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> ධාවනය හෝ නැවතීම · <1/> <2/> අදියර වෙනස් කිරීම · <3>Esc</3> වැසීම"
 
-#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
-#, ai
-msgid "{0} stages"
-msgstr "අදියර {0}"
-
-#. 0: fmt_num(total_minutes)
-#: src/routes/Journey.svelte
-#, ai
-msgid "about {0} minutes"
-msgstr "විනාඩි {0} ක් පමණ"
-
-#. 0: fmt_num(chapter.sources.length)
-#: src/routes/Journey.svelte
-#, ai
-msgid "{0} cited passages"
-msgstr "උපුටා දක්වන ලද පාඨ {0}"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Begin the journey"
 msgstr "<0/> ගමන ආරම්භ කරන්න"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Read instead"
-msgstr "<0/> ඒ වෙනුවට කියවන්න"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter one"
-msgstr "පළමු පරිච්ඡේදය"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -186,12 +148,9 @@ msgstr "පළමු පරිච්ඡේදය"
 msgid "The Hijrah"
 msgstr "හිජ්රා ගමන"
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter stages"
-msgstr "පරිච්ඡේදයේ පියවර"
-
 #. 0: index + 1; 1: step.title
+#. 0: index + 1; 1: step.title
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0}: {1}"
@@ -242,19 +201,12 @@ msgstr "මෙම පියවරෙහි පිහිටීම"
 msgid "{0} of {1}"
 msgstr "{1} න් {0}"
 
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Complete the chapter"
-msgstr "<0/> පරිච්ඡේදය සම්පූර්ණ කරන්න"
-
 #. 0: chapter.steps[selected_index + 1].title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Continue: {0} <0/>"
 msgstr "දිගටම යන්න: {0} <0/>"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Read"
@@ -281,11 +233,6 @@ msgstr "{1} න් {0} වන පියවර · {2}"
 #, ai
 msgid "Close reading"
 msgstr "කියවීම වසන්න"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter complete"
-msgstr "පරිච්ඡේදය සම්පූර්ණයි"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -336,11 +283,6 @@ msgstr "ප්‍රශ්නය වසන්න"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Ask about this chapter…"
-msgstr "මෙම පරිච්ඡේදය ගැන අසන්න…"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "Ask"
 msgstr "අසන්න"
 
@@ -368,11 +310,6 @@ msgstr "පිළිතුර වෙත ආපසු"
 #, ai
 msgid "Back to the journey"
 msgstr "ගමන වෙත ආපසු"
-
-#: src/lib/SceneCanvas.svelte
-#, ai
-msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
-msgstr "මෙම උපාංගයෙහි ත්‍රිමාණ (3D) රූප සටහන නැරඹිය නොහැක. සම්පූර්ණ පරිච්ඡේදය කියවීම සඳහා තවමත් මෙහි පවතී."
 
 #: src/content/first-chapter.js
 #, ai
@@ -488,11 +425,6 @@ msgid "The account goes on to describe a date-drying yard that became the site o
 msgstr "මදීනාවේ නබිතුමාගේ පල්ලිය ඉදිවූ ස්ථානය බවට පත් වූ රටඉඳි වේලන බිමක් ගැන එම වාර්තාව තවදුරටත් විස්තර කරයි. නබිතුමා එය ගොඩනඟන අය සමඟ ගඩොල් රැගෙන ගිය බව එහි සඳහන් වේ."
 
 #: src/content/first-chapter.js
-#, ai
-msgid "You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah."
-msgstr "ඔබ සූදානම් වීම්, රැකවරණය ලැබූ කාලය, ඉදිරි ගමන සහ පැමිණීම පිළිබඳව අවධානය යොමු කළහ. ඔබට විවිධ ආකාරයේ උපකාර හමු වූ අතර අස්වැසිල්ල පිළිබඳ වාර්තා කියෙව්වාහ. මෙය තෝරාගත් විස්තරයක් පමණක් වන අතර, හිජ්රා ගමනේ සෑම සිදුවීමක් හෝ ප්‍රතිඵලයක් පිළිබඳවම වූ සම්පූර්ණ ඉතිහාසයක් නොවේ."
-
-#: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
@@ -590,6 +522,7 @@ msgstr "තෝරාගත් උපුටා ගැනීමෙන් ගුහ
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
+#: src/content/first-chapter.js
 #: src/content/timeline.js
 #, ai
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
@@ -669,11 +602,6 @@ msgstr "මක්කාව"
 
 #: src/lib/scene-manifest.js
 #, ai
-msgid "Where the chapter begins, with preparations for departure."
-msgstr "පිටත්වීම සඳහා වන සූදානම සමඟ පරිච්ඡේදය ආරම්භ වන ස්ථානය."
-
-#: src/lib/scene-manifest.js
-#, ai
 msgid "Mount Thawr"
 msgstr "සවුර් කන්ද"
 
@@ -698,11 +626,6 @@ msgstr "මඟපෙන්වන්නා ඔවුන්ව වෙරළ ඔස
 #, ai
 msgid "Madinah"
 msgstr "මදීනාව"
-
-#: src/lib/scene-manifest.js
-#, ai
-msgid "Where the chapter closes, with arrival and a new beginning."
-msgstr "පැමිණීම සහ නව ආරම්භයක් සමඟ පරිච්ඡේදය අවසන් වන ස්ථානය."
 
 #: src/routes/Journey.svelte
 #, ai
@@ -768,11 +691,6 @@ msgstr "මඟ පෙන්වන ස්ථානය යථා තත්ත්�
 
 #: src/lib/journey-state.js
 #, ai
-msgid "Reading mode selected. The same chapter is available without narration."
-msgstr "කියවීම් ප්‍රකාරය තෝරා ගන්නා ලදී. මෙම පරිච්ඡේදයම හඬ විස්තරයකින් තොරව ලබා ගත හැකිය."
-
-#: src/lib/journey-state.js
-#, ai
 msgid "Scene mode selected."
 msgstr "දර්ශන ප්‍රකාරය තෝරා ගන්නා ලදී."
 
@@ -786,11 +704,6 @@ msgstr "මූලාශ්‍රය විවෘත කරන ලදී. මඟ 
 msgid "Panel closed. Press Resume journey to return to the guided position."
 msgstr "පැනලය වසා දමන ලදී. මඟ පෙන්වන ස්ථානයට ආපසු යාමට 'ගමන නැවත අරඹන්න' ඔබන්න."
 
-#: src/lib/journey-state.js
-#, ai
-msgid "Chapter complete. Recap opened."
-msgstr "පරිච්ඡේදය සම්පූර්ණයි. සාරාංශය විවෘත කරන ලදී."
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Researching in Turath…"
@@ -798,18 +711,8 @@ msgstr "Turath හි පර්යේෂණ කරමින්…"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Chapter notes · offline"
-msgstr "පරිච්ඡේද සටහන් · නොබැඳි"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "This passage is shortened. Open the original page for its full context."
 msgstr "මෙම කොටස කෙටි කර ඇත. එහි සම්පූර්ණ සන්දර්භය සඳහා මුල් පිටුව විවෘත කරන්න."
-
-#: src/lib/guide-provider.js
-#, ai
-msgid "The offline chapter notes do not establish an answer to that question."
-msgstr "නොබැඳි පරිච්ඡේද සටහන් මඟින් එම ප්‍රශ්නයට පිළිතුරක් තහවුරු නොකරයි."
 
 #: src/routes/Journey.svelte
 #, ai
@@ -878,11 +781,6 @@ msgstr "Quba: පළමු නැවතුම"
 
 #: src/content/first-chapter.js
 #, ai
-msgid "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
-msgstr "ඔහු දස රාත්‍රියකට වඩා වැඩි කාලයක් ඔවුන් සමඟ රැඳී සිටියේය. එහිදී ඔහු දේවභක්තිය මත පදනම් වූවක් ලෙස විස්තර කෙරෙන පල්ලිය පිහිටුවා එහි සලාතය ඉටු කළේය."
-
-#: src/content/first-chapter.js
-#, ai
 msgid "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates."
 msgstr "පසුව ඔහු ඉදිරියට ගිය අතර, ජනයා ඔහු සමඟ පියනඟමින් ගියහ. අවසානයේදී ඔහුගේ ඔටුවා මදීනාවේ මුස්ලිම්වරුන් කිහිප දෙනෙකු දැනටමත් සලාතය ඉටු කරමින් සිටි ස්ථානයක දණින් වැතිරුණි. එය රටඉඳි වියළන ස්ථානයක් විය."
 
@@ -930,21 +828,6 @@ msgstr "මිනිසුන් තමා අසලින් ගමන් ක�
 #, ai
 msgid "It does not establish the route taken through the town or the appearance of the place."
 msgstr "නගරය හරහා ගමන් කළ මාර්ගය හෝ එම ස්ථානයේ ස්වරූපය මෙයින් තහවුරු නොවේ."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
-msgstr "AI මඟින් ජනනය කරන ලද විස්තර විචාරයක් සමඟින් <0>Play</0> මඟින් පරිච්ඡේදය පියවරෙන් පියවර ගෙනහැර දක්වයි."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
-msgstr "<0>Play</0> මඟින් පරිච්ඡේදය පියවරෙන් පියවර ගෙනහැර දක්වයි. මෘදු සුළඟක් හමන අතරතුර උපසිරැසි මඟින් කාලය සටහන් කරයි."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
-msgstr "<0>Ask</0> මඟින් පරිච්ඡේදයේ සන්දර්භය භාවිත කරමින් Turath හි පර්යේෂණ සිදු කර මූලාශ්‍ර උපුටා දැක්වීම් සමඟ පිළිතුරු සපයයි."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1003,23 +886,8 @@ msgstr "එදින රාත්‍රියේ ඔවුහු එතුමා
 
 #: src/content/first-chapter.js
 #, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "අලි තුමාණන් එහි නතර වීමට තවත් හේතුවක් තිබුණි. මක්කාවේ වැසියන් නබි ﷺ තුමාණන්ගේ අවංකභාවය දන්නා බැවින්, ඔවුන්ගේ වටිනා දෑ ආරක්ෂාව සඳහා එතුමා වෙත භාර දී තිබුණි. අලි තුමාණන්ට පැවරී තිබුණේ ඒවා සියල්ලම නැවත අයිතිකරුවන්ට භාර දීමටයි."
-
-#: src/content/first-chapter.js
-#, ai
 msgid "The tent of Umm Ma‘bad"
 msgstr "උම්මු මඃබද්ගේ කූඩාරම"
-
-#: src/content/first-chapter.js
-#, ai
-msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk."
-msgstr "තවදුරටත් ඉදිරියට ගිය ඔවුහු කුසාආ ගෝත්‍රයේ උම්මු මඃබද්ගේ කූඩාරම අසල නතර වී ආගන්තුක සත්කාර ඉල්ලා සිටියහ. තමා සතුව දීමට ආහාරයක් නොමැති බවත්, කිරි නොදෙන එක් බැටළුවෙකු හැර වෙනත් කිසිවක් නොමැති බවත් ඇය පැවසුවාය."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
-msgstr "නබි ﷺ තුමාණන් එම බැටළුවා කැඳවා, එහි තන පුඩු මත අත තබා අල්ලාහ් දෙවියන් යැදුවේය. එතුමා එයින් විශාල භාජනයකට පෙණ දමන තුරු කිරි දොවා: උම්මු මඃබද්, මෙය පානය කරන්න යැයි පැවසුවේය. ඇගේ මෙම කතාව ඉතා ප්‍රසිද්ධ එකක් වන අතර එය එකිනෙකා ශක්තිමත් කරන විවිධ මූලාශ්‍ර හරහා පැමිණ ඇති බව ඉබ්න් කසීර් සඳහන් කරයි."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1045,11 +913,6 @@ msgstr "ඉබ්න් කසීර් සඳහන් කරන්නේ අ�
 #, ai
 msgid "Ibn Ishaq introduces this with “as it has reached me”."
 msgstr "ඉබ්න් ඉෂාක් මෙය ආරම්භ කරන්නේ \"මට වාර්තා වී ඇති පරිදි\" යනුවෙනි."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance."
-msgstr "ඔවුහු උම්මු මඃබද්ගේ කූඩාරම අසල නතර වූහ; ඇය සතුව කිරි නොදෙන බැටළුවෙකු පමණක් සිටි අතර, පසුව ඌ බහුල ලෙස කිරි ලබා දුන්නේය."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1448,16 +1311,6 @@ msgstr "සම්භාව්‍ය සීරාවන් සහ ඉතිහා
 #, ai
 msgid "Modern authors"
 msgstr "නූතන කතුවරුන්"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "සිතියමේ ඇති සාක්ෂි"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "සෑම ආලෝක ලක්ෂ්‍යයක්ම මෙම පරිච්ඡේදයේ උපුටා දක්වන ලද පාඨයක් වන අතර, එය අදාළ වන ස්ථානයේ ස්ථානගත කර ඇත. එය කියවීමට එකක් තෝරන්න."
 
 #: src/content/lenses.js
 #, ai
@@ -1912,10 +1765,12 @@ msgid "Answers"
 msgstr "පිළිතුරු"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hide the passage"
 msgstr "පාඨය සඟවන්න"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Read the passage"
 msgstr "පාඨය කියවන්න"
@@ -1924,10 +1779,6 @@ msgstr "පාඨය කියවන්න"
 #: src/routes/Journey.svelte
 msgid "I don’t know"
 msgstr "මම දන්නේ නැහැ"
-
-#: src/routes/Journey.svelte
-msgid "Open book: reading the passage is part of learning."
-msgstr "විවෘත පොත: පාඨය කියවීම ඉගෙනීමේ කොටසකි."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -1961,6 +1812,7 @@ msgstr "නැවත කියවීම වටී"
 msgid "<0/> Practise again"
 msgstr "<0/> නැවත පුහුණු වන්න"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Back to the journey"
 msgstr "<0/> ගමන වෙත ආපසු"
@@ -2003,28 +1855,8 @@ msgid "Arabic original and source details"
 msgstr "මුල් අරාබි පාඨය සහ මූලාශ්‍ර විස්තර"
 
 #: src/lib/ChapterReader.svelte
-msgid "Choose a chapter"
-msgstr "පරිච්ඡේදයක් තෝරන්න"
-
-#: src/lib/ChapterReader.svelte
-msgid "Close chapter"
-msgstr "පරිච්ඡේදය වසන්න"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter sections"
-msgstr "පරිච්ඡේද කොටස්"
-
-#: src/lib/ChapterReader.svelte
 msgid "Loading…"
 msgstr "පූරණය වෙමින්…"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter contents"
-msgstr "පරිච්ඡේදයේ අන්තර්ගතය"
-
-#: src/lib/ChapterReader.svelte
-msgid "In this chapter"
-msgstr "මෙම පරිච්ඡේදයේ"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
@@ -2048,6 +1880,9 @@ msgid "Continue with source-study questions"
 msgstr "මූලාශ්‍ර අධ්‍යයන ප්‍රශ්න වෙත යන්න"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Try again"
 msgstr "නැවත උත්සාහ කරන්න"
 
@@ -2058,10 +1893,6 @@ msgstr "කතාවට ආපසු"
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
 msgstr "මෙම කට්ටලයේ ප්‍රශ්න අතුරින් නිවැරදි පිළිතුරු."
-
-#: src/routes/Journey.svelte
-msgid "Hijrah chapters"
-msgstr "හිජ්රා සංක්‍රමණය පිළිබඳ පරිච්ඡේද"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2079,37 +1910,13 @@ msgstr "මුළු සිතියම පෙන්වන්න"
 msgid "Explore the map"
 msgstr "සිතියම ගවේෂණය කරන්න"
 
-#: src/routes/Journey.svelte
-msgid "Select a book marker to read its chapter."
-msgstr "පරිච්ඡේදය කියවීමට පොත් සලකුණ තෝරන්න."
-
-#: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "ගමන ආරම්භ කරන්න"
-
-#: src/routes/Journey.svelte
-msgid "Locations are schematic."
-msgstr "ස්ථාන දළ සටහනක් ලෙස දැක්වේ."
-
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original"
 msgstr "මුල් අරාබි පාඨය"
 
 #: src/lib/ChapterReader.svelte
-msgid "A chapter edition is not ready in this language. Showing the English edition."
-msgstr "මෙම භාෂාවෙන් පරිච්ඡේදයේ සංස්කරණයක් තවම සූදානම් නැත. ඉංග්‍රීසි සංස්කරණය පෙන්වනු ලැබේ."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "සාරාංශය — පරිවර්තනයක් නොවේ"
-
-#: src/routes/Journey.svelte
-msgid "Read the chapter"
-msgstr "පරිච්ඡේදය කියවන්න"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full chapter, with its sources and practice"
-msgstr "<0/> මූලාශ්‍ර සහ අභ්‍යාස සමඟ සම්පූර්ණ පරිච්ඡේදය"
 
 #: src/routes/Journey.svelte
 msgid "read in <0/><1/>"
@@ -2120,49 +1927,33 @@ msgstr "<0/><1/> හි උපුටා දක්වන ලද"
 msgid ", vol. {0}, p. {1}"
 msgstr ", {0} කාණ්ඩය, {1} පිටුව"
 
-#: src/lib/ChapterReader.svelte
-msgid "Reading sections"
-msgstr "කියවීම් කොටස්"
+#: src/content/first-chapter.js
+msgid "In Ibn Ishaq’s account, “as it reached me,” ‘Ali stayed behind for another reason too. People in Makkah had left their valuables with the Prophet ﷺ for safekeeping, knowing his honesty; the report says ‘Ali was to return their deposits."
+msgstr "ඉබ්නු ඉස්හාක්ගේ වාර්තාවේ, “මට ලැබුණු පරිදි” යනුවෙන් සඳහන් කරමින්, අලි තවත් හේතුවක් නිසා පසුපස රැඳී සිටි බව කියැවේ. මක්කාවේ වැසියන් නබිතුමාගේ ﷺ විශ්වාසවන්තභාවය දැන සිටි නිසා තම දේපළ ඔහුට භාර දී තිබුණි; ඒවා නැවත හිමිකරුවන්ට භාර දීමට අලි සිටි බව වාර්තාව කියයි."
 
-#: src/lib/ChapterReader.svelte
-msgid "Contents"
-msgstr "පටුන"
+#: src/content/first-chapter.js
+msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She said they had no food and no milk-giving ewe."
+msgstr "ඉන්පසු මඟදී ඔවුහු කුසාආ ගෝත්‍රයේ උම් මාබද්ගේ කූඩාරමේ නතර වී ආගන්තුක සත්කාරය ඉල්ලා සිටියහ. තමන් ළඟ කෑමත් කිරි දෙන බැටළු දෙනකුත් නැති බව ඇය කීවාය."
 
-#: src/lib/ChapterReader.svelte
-msgid "In this reading"
-msgstr "මෙම කියවීම තුළ"
+#: src/content/first-chapter.js
+msgid "The report says the Prophet ﷺ called for one of her sheep, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
+msgstr "වාර්තාවට අනුව නබිතුමා ﷺ ඇගේ බැටළුවන්ගෙන් එකෙකු ගෙන්වා, උගේ තන බුරුල්ල අතින් පිරිමැද අල්ලාහ්ට ප්‍රාර්ථනා කළහ. විශාල භාජනයකට කිරි දොවා එය පෙණ නැඟෙන විට, “බොන්න, උම් මාබද්” යැයි පැවසූහ. ඉබ්නු කසීර් සඳහන් කරන්නේ ඇගේ කතාව ප්‍රසිද්ධ බවත් එකිනෙක ශක්තිමත් කරන සම්ප්‍රේෂණ මාර්ග ඔස්සේ එය පැමිණ ඇති බවත්ය."
 
-#: src/lib/ChapterReader.svelte
-msgid "This reading is not ready in this language yet. Showing the English edition."
-msgstr "මෙම කියවීම තවමත් මෙම භාෂාවෙන් සූදානම් නැත. ඉංග්‍රීසි සංස්කරණය පෙන්වනු ලැබේ."
+#: src/content/first-chapter.js
+msgid "According to ‘Urwa, he stayed among them for a few more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
+msgstr "උර්වාගේ වාර්තාවට අනුව ඔහු ඔවුන් අතර රාත්‍රී දහයකට වඩා තවත් කිහිපයක් ගත කළේය. එහිදී වාර්තාව භක්තිය මත පිහිටවූ බව පවසන පල්ලිය ඔහු පිහිටුවා එහි සලාතය ඉටු කළේය."
 
-#: src/lib/ChapterReader.svelte
-msgid "More readings"
-msgstr "තවත් කියවීම්"
-
-#: src/lib/ChapterReader.svelte
-msgid "Previous reading"
-msgstr "පෙර කියවීම"
-
-#: src/lib/ChapterReader.svelte
-msgid "Next reading"
-msgstr "ඊළඟ කියවීම"
+#: src/content/first-chapter.js
+msgid "They stopped at Umm Ma‘bad’s tent. She said they had no food or milk-giving ewe; the report then describes milk from one of her sheep."
+msgstr "ඔවුහු උම් මාබද්ගේ කූඩාරමේ නතර වූහ. තමන් ළඟ කෑමත් කිරි දෙන බැටළු දෙනකුත් නැති බව ඇය කීවාය; ඉන්පසු වාර්තාව ඇගේ බැටළුවන්ගෙන් එකෙකුගෙන් කිරි දොවාගත් බව විස්තර කරයි."
 
 #: src/routes/Journey.svelte
-msgid "Readings"
-msgstr "කියවීම්"
+msgid "Original source ↗"
+msgstr "මුල් මූලාශ්‍රය ↗"
 
 #: src/routes/Journey.svelte
-msgid "Select a book marker to open its reading."
-msgstr "කියවීම විවෘත කිරීමට පොත් සලකුණක් තෝරන්න."
-
-#: src/routes/Journey.svelte
-msgid "Hijrah readings"
-msgstr "හිජ්රා කියවීම්"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full reading, with its sources and practice"
-msgstr "<0/> මූලාශ්‍ර සහ අභ්‍යාස සහිත සම්පූර්ණ කියවීම"
+msgid "Context"
+msgstr "පසුබිම"
 
 #: src/routes/Journey.svelte
 msgid "Source passages"
@@ -2181,21 +1972,15 @@ msgid "Languages"
 msgstr "භාෂා"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Beneath the surface"
 msgstr "මතුපිටට යටින්"
-
-#: src/routes/Journey.svelte
-msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The readings go deeper into each part of the story, and the practice questions are drawn from the same passages."
-msgstr "සෑම ඡේදයක්ම සම්භාව්‍ය අරාබි මූලාශ්‍ර පාඨයක් මත පදනම් වන අතර, Turath හි ඊට අදාළ පිටුවට සබැඳියක්ද ඇතුළත් වේ. කියවීම් මඟින් කතාවේ එක් එක් කොටස ගැඹුරින් විමසා බලන අතර, පුහුණු ප්‍රශ්න සකසා ඇත්තේ එම පාඨයන් ඇසුරෙනි."
 
 #: src/routes/Journey.svelte
 msgid "The narration is in Arabic and English, and the map is built from real elevation data."
 msgstr "විස්තර විවරණය අරාබි සහ ඉංග්‍රීසි භාෂාවලින් යුක්ත වන අතර, සිතියම නිර්මාණය කර ඇත්තේ සැබෑ උන්නතාංශ දත්ත ඇසුරිනි."
 
 #: src/routes/Journey.svelte
-msgid "What's beneath the surface <0/>"
-msgstr "මතුපිටට යටින් ඇත්තේ කුමක්ද <0/>"
-
 #: src/routes/Journey.svelte
 msgid "Behind the journey <0/>"
 msgstr "ගමනේ පසුබිම <0/>"
@@ -2219,10 +2004,6 @@ msgstr "වසන්න"
 #: src/routes/Journey.svelte
 msgid "<0>A guided journey</0> in nine stages across a map built from real elevation data, narrated in Arabic and English."
 msgstr "සැබෑ උන්නතාංශ දත්ත මඟින් නිර්මාණය කළ සිතියමක් ඔස්සේ අදියර නවයකින් සමන්විත <0>මඟ පෙන්වන චාරිකාවක්</0>, අරාබි සහ ඉංග්‍රීසි භාෂාවෙන් විස්තර කෙරේ."
-
-#: src/routes/Journey.svelte
-msgid "<0>Readings</0> that go deeper into each part of the story, each with its source passages."
-msgstr "කතාවේ එක් එක් කොටස පිළිබඳ ගැඹුරින් විමසා බලන <0>කියවීම්</0>, ඒ සෑම එකක්ම ඊට අදාළ මූලාශ්‍ර පාඨ සමඟ ඇත."
 
 #: src/routes/Journey.svelte
 msgid "<0>Sources on the map</0>, placed where they speak of, and a day-by-day timeline that shows how each date is known."
@@ -2253,10 +2034,6 @@ msgid "<0>One Arabic core.</0> The events were set out as records and claims, ea
 msgstr "<0>එක් අරාබි මූලයක්.</0> සිදුවීම් වාර්තා සහ කරුණු ලෙස සකසා ඇති අතර, ඒ සෑම එකක්ම එය තහවුරු කරන පාඨයන් හා සම්බන්ධ කර ඇත. යෙදුමේ ඇති සියල්ල පැමිණෙන්නේ මෙම මූලයෙනි."
 
 #: src/routes/Journey.svelte
-msgid "<0>Written in Arabic first.</0> Each reading was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
-msgstr "<0>පළමුව අරාබි භාෂාවෙන් ලියන ලදි.</0> එක් එක් කියවීම මූලික කරුණු ඇසුරින් අරාබි භාෂාවෙන් ලියා ඇති අතර, එහි දැක්වෙන පාඨයන් නැවත ටයිප් නොකළ මුල් මූලාශ්‍ර පාඨයන්ම වේ."
-
-#: src/routes/Journey.svelte
 msgid "<0>Translated from the Arabic.</0> The other languages are translated directly from the Arabic, not through English."
 msgstr "<0>අරාබි භාෂාවෙන් පරිවර්තනය කරන ලදි.</0> අනෙකුත් භාෂා ඉංග්‍රීසි හරහා නොව සෘජුවම අරාබි භාෂාවෙන් පරිවර්තනය කර ඇත."
 
@@ -2276,33 +2053,43 @@ msgstr "<0>මූලාශ්‍ර මඟින් මෙහෙයවන ලද
 msgid "How it was made"
 msgstr "මෙය නිර්මාණය කළ ආකාරය"
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Reading mode selected. The same journey is available without narration."
 msgstr "කියවීම් මාදිලිය තෝරා ගන්නා ලදී. විස්තර කථනයකින් තොරව ද මෙම ගමන නැරඹිය හැකිය."
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Journey complete. Recap opened."
 msgstr "ගමන සම්පූර්ණයි. සාරාංශය විවෘත කරන ලදී."
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey begins, with preparations for departure."
 msgstr "පිටත්වීමේ සූදානම සමඟ ගමන ආරම්භ වන ස්ථානය."
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey closes, with arrival and a new beginning."
 msgstr "පැමිණීම සහ නව ආරම්භයක් සමඟ ගමන අවසන් වන ස්ථානය."
 
-#: src/routes/Journey.svelte
+#: src/lib/guide-provider.js
 msgid "The offline journey notes do not establish an answer to that question."
 msgstr "නොබැඳි ගමන් සටහන් තුළින් එම ප්‍රශ්නයට පිළිතුරක් තහවුරු නොවේ."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "That stage is not available."
 msgstr "එම අදියර ලබා ගත නොහැක."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Chapters"
 msgstr "පරිච්ඡේද"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to read its chapter."
+msgstr "පරිච්ඡේදය කියවීමට පොත් සලකුණ තෝරන්න."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah chapters"
+msgstr "හිජ්රා සංක්‍රමණය පිළිබඳ පරිච්ඡේද"
 
 #: src/routes/Journey.svelte
 msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
@@ -2333,9 +2120,11 @@ msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from t
 msgstr "<0>පළමුව අරාබි බසින් ලියන ලද්දකි.</0> සෑම පරිච්ඡේදයක්ම මුල සිටම අරාබි භාෂාවෙන් ලියා ඇති අතර, එහි දැක්වෙන පාඨ කිසි විටෙකත් නැවත ටයිප් නොකළ මුල් මූලාශ්‍ර පාඨයන්ම වේ."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Journey stages"
 msgstr "ගමන් අදියර"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Complete the journey"
 msgstr "<0/> ගමන සම්පූර්ණ කරන්න"
@@ -2345,6 +2134,10 @@ msgid "Journey complete"
 msgstr "ගමන සම්පූර්ණයි"
 
 #: src/routes/Journey.svelte
+msgid "<0/> The full chapter, with its sources and practice"
+msgstr "<0/> මූලාශ්‍ර සහ අභ්‍යාස සමඟ සම්පූර්ණ පරිච්ඡේදය"
+
+#: src/routes/Journey.svelte
 msgid "Ask about this journey…"
 msgstr "මෙම ගමන ගැන විමසන්න…"
 
@@ -2352,22 +2145,43 @@ msgstr "මෙම ගමන ගැන විමසන්න…"
 msgid "Journey notes · offline"
 msgstr "ගමන් සටහන් · නොබැඳි"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
+msgid "Close chapter"
+msgstr "පරිච්ඡේදය වසන්න"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "මෙම භාෂාවෙන් පරිච්ඡේදයේ සංස්කරණයක් තවම සූදානම් නැත. ඉංග්‍රීසි සංස්කරණය පෙන්වනු ලැබේ."
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter sections"
+msgstr "පරිච්ඡේද කොටස්"
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter contents"
+msgstr "පරිච්ඡේදයේ අන්තර්ගතය"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this chapter"
+msgstr "මෙම පරිච්ඡේදයේ"
+
+#: src/lib/ChapterReader.svelte
 msgid "More chapters"
 msgstr "තවත් පරිච්ඡේද"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Previous chapter"
 msgstr "පෙර පරිච්ඡේදය"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Next chapter"
 msgstr "ඊළඟ පරිච්ඡේදය"
 
-#: src/routes/Journey.svelte
+#: src/lib/SceneCanvas.svelte
 msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
 msgstr "මෙම උපාංගය මත 3D නිදර්ශනය ලබා ගත නොහැක. සම්පූර්ණ ගමන කියවීමට තවමත් මෙහි ඇත."
 
+#. 0: fmt_num(stage_facts.sections); 1: fmt_num( stage_facts.passages, ); 2: fmt_num(stage_facts.questions)
 #: src/routes/Journey.svelte
 msgid "{0} sections · {1} source passages · {2} questions"
 msgstr "{0} කොටස් · {1} මූලාශ්‍ර පාඨ · {2} ප්‍රශ්න"

@@ -17,7 +17,7 @@ const heuristic = (message) => {
         message.path.some(
             (scope) =>
                 scope.type === 'property' &&
-                ['id', 'source_ids', 'scene', 'place', 'context_step', 'step_id'].includes(
+                ['id', 'source_ids', 'source_unit_id', 'scene', 'place', 'context_step', 'step_id'].includes(
                     scope.name,
                 ),
         )

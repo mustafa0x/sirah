@@ -57,12 +57,6 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "Soo-bandhigiddii laguu hagayay waa la hakiyay. Booskaagii waa la kaydiyay."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "That chapter stop is not available."
-msgstr "Joogsiga cutubkaas ma heli karo."
-
-#: src/routes/Journey.svelte
 #, ai
 msgid "Onward stage opened. Your guided position is preserved."
 msgstr "Heerka xiga waa la furay. Booskaagii safarka ee laguu hagayay waa la ilaaliyay."
@@ -139,46 +133,14 @@ msgstr "<0/> Safarkii Siirada"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
-msgstr "<0>Ilo-xogeedka</0> wuxuu muujinayaa qoraalka ka dambeeya cutub kasta, iyo waxa uusan caddaynayn."
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> daar ama haki · <1/> <2/> beddel heerka · <3>Esc</3> xidh"
 
-#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
-#, ai
-msgid "{0} stages"
-msgstr "{0} heerarka"
-
-#. 0: fmt_num(total_minutes)
-#: src/routes/Journey.svelte
-#, ai
-msgid "about {0} minutes"
-msgstr "qiyaastii {0} daqiiqo"
-
-#. 0: fmt_num(chapter.sources.length)
-#: src/routes/Journey.svelte
-#, ai
-msgid "{0} cited passages"
-msgstr "{0} qoraallada la soo xigtay"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Begin the journey"
 msgstr "<0/> Bilow safarka"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Read instead"
-msgstr "<0/> Akhri beddelkeeda"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter one"
-msgstr "Cutubka kowaad"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -186,12 +148,9 @@ msgstr "Cutubka kowaad"
 msgid "The Hijrah"
 msgstr "Hijrada"
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter stages"
-msgstr "Heerar cutubka"
-
 #. 0: index + 1; 1: step.title
+#. 0: index + 1; 1: step.title
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0}: {1}"
@@ -242,19 +201,12 @@ msgstr "Booska heerkan ku saabsan"
 msgid "{0} of {1}"
 msgstr "{0} ee {1}"
 
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Complete the chapter"
-msgstr "<0/> Dhammaystir cutubka"
-
 #. 0: chapter.steps[selected_index + 1].title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Continue: {0} <0/>"
 msgstr "Sii wad: {0} <0/>"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Read"
@@ -281,11 +233,6 @@ msgstr "Heerka {0} ee {1} · {2}"
 #, ai
 msgid "Close reading"
 msgstr "Xidh akhriska"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter complete"
-msgstr "Cutubku waa dhammaaday"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -336,11 +283,6 @@ msgstr "Xidh su'aasha"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Ask about this chapter…"
-msgstr "Wax ka weydii cutubkan…"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "Ask"
 msgstr "Weydii"
 
@@ -368,11 +310,6 @@ msgstr "Ku laabo jawaabta"
 #, ai
 msgid "Back to the journey"
 msgstr "Ku laabo safarka"
-
-#: src/lib/SceneCanvas.svelte
-#, ai
-msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
-msgstr "Muuqaalka 3D-ga ah lagama heli karo aaladdan. Cutubka oo dhan wali waa diyaar in la akhriyo."
 
 #: src/content/first-chapter.js
 #, ai
@@ -488,11 +425,6 @@ msgid "The account goes on to describe a date-drying yard that became the site o
 msgstr "Warbixintu waxay sii sharraxaysaa meel timirta lagu qallajiyo oo noqotay goobtii masaajidka Nebiga ee Madiinah. Waxay qoraysaa in Nebigu uu lebenka la siday kuwii dhisayay."
 
 #: src/content/first-chapter.js
-#, ai
-msgid "You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah."
-msgstr "Waxaad raacday diyaargarowgii, xilligii gabaadka, sii wadista safarka, iyo imaatinka. Waxaad la kulantay noocyo kala duwan oo gargaar ah waxaadna akhriday warbixinno xaqiijin ah. Tani waa warbixin la xushay, ee maaha taariikh dhammaystiran oo ku saabsan dhacdo kasta ama natiijada Hijrada."
-
-#: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
@@ -590,6 +522,7 @@ msgstr "Qoraalka la doortay wuxuu xusuusinayaa labadii ku jiray godka iyo u xaqi
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
+#: src/content/first-chapter.js
 #: src/content/timeline.js
 #, ai
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
@@ -669,11 +602,6 @@ msgstr "Makkah"
 
 #: src/lib/scene-manifest.js
 #, ai
-msgid "Where the chapter begins, with preparations for departure."
-msgstr "Halkay cutubku ka bilaabmayso, iyadoo la diyaarinayo bixitaanka."
-
-#: src/lib/scene-manifest.js
-#, ai
 msgid "Mount Thawr"
 msgstr "Buur Thawr"
 
@@ -698,11 +626,6 @@ msgstr "Haguhu wuxuu ku hoggaamiyey dhanka xeebta. Khadkani waa mid guud, ee ma 
 #, ai
 msgid "Madinah"
 msgstr "Madinah"
-
-#: src/lib/scene-manifest.js
-#, ai
-msgid "Where the chapter closes, with arrival and a new beginning."
-msgstr "Halkay cutubku ku dhammaanayso, iyadoo la gaaray iyo bilow cusub."
 
 #: src/routes/Journey.svelte
 #, ai
@@ -768,11 +691,6 @@ msgstr "Mawqifkii hantidnaa waa la soo celiyay. Riix Play si aad u sii wadato."
 
 #: src/lib/journey-state.js
 #, ai
-msgid "Reading mode selected. The same chapter is available without narration."
-msgstr "Habka akhriska waa la doortay. Cutubkan oo kale waa la heli karaa isagoo aan cod lahayn."
-
-#: src/lib/journey-state.js
-#, ai
 msgid "Scene mode selected."
 msgstr "Habka muuqaalka muuqaalka ah waa la doortay."
 
@@ -786,11 +704,6 @@ msgstr "Isha xogta waa la furay. Dib-u-ciyaarista hantidnayd wali way haysataa h
 msgid "Panel closed. Press Resume journey to return to the guided position."
 msgstr "Guddigii waa la xiray. Riix Sii wad safarka si aad ugu laabato mawqifkii hantidnaa."
 
-#: src/lib/journey-state.js
-#, ai
-msgid "Chapter complete. Recap opened."
-msgstr "Cutubkii waa dhammaaday. Soo-koobiddii waa la furay."
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Researching in Turath…"
@@ -798,18 +711,8 @@ msgstr "Waxaa laga baarayaa Turath…"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Chapter notes · offline"
-msgstr "Xusuus-qorka cutubka · khadka ka baxsan"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "This passage is shortened. Open the original page for its full context."
 msgstr "Qoraalkan waa la soo gaabiyay. Fur bogga rasmiga ah si aad u hesho macnaha guud oo buuxa."
-
-#: src/lib/guide-provider.js
-#, ai
-msgid "The offline chapter notes do not establish an answer to that question."
-msgstr "Xusuus-qorka cutubka ee khadka ka baxsan ma xaqiijinayo jawaabta su'aashaas."
 
 #: src/routes/Journey.svelte
 #, ai
@@ -878,11 +781,6 @@ msgstr "Quba: goobtii ugu horreysay"
 
 #: src/content/first-chapter.js
 #, ai
-msgid "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
-msgstr "Wuxuu dhex joogay in ka badan toban habeen. Halkaas wuxuu ka aasaasay masaajidka ay warbixintu ugu yeerto kii lagu aasaasay taqwada, wuuna ku dhex tukan jiray."
-
-#: src/content/first-chapter.js
-#, ai
 msgid "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates."
 msgstr "Markaasuu fuulay, dadkuna ay dhinac socdaan, ilaa ay rati-kiisii ku fariisatay meel Madiina ka mid ah oo ay qaar ka mid ah Muslimiinta horay ugu tukan jireen. Waxay ahayd meel timirta lagu qallajiyo."
 
@@ -930,21 +828,6 @@ msgstr "Wuxuu ku kor raacay isagoo ay dadku dhinac socdaan ilaa ratiisii uu ku f
 #, ai
 msgid "It does not establish the route taken through the town or the appearance of the place."
 msgstr "Ma caddaynayso jidkii la maray magaalada dhexdeeda ama muuqaalka goobta."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
-msgstr "<0>Play</0> wuxuu cutubka ku dhex marinayaa heer-mar-heer isagoo wata sheeko uu soo saaray AI."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
-msgstr "<0>Play</0> wuxuu cutubka ku dhex marinayaa heer-mar-heer. Qoraallada hoose waxay la soconayaan dabayl aamusan."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
-msgstr "<0>Ask</0> wuxuu isticmaalayaa macnaha cutubka si uu cilmi-baaris ugu sameeyo Turath ugana jawaabo isagoo soo xiganaya ilaha."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1003,23 +886,8 @@ msgstr "Habeenkaas waxay ku soo urureen albaabkiisa, iyagoo sugaya inuu seexdo. 
 
 #: src/content/first-chapter.js
 #, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "‘Ali wuxuu u dib dhacay sabab kale darteedna. Dadka jooga Makkah waxay agabkooda qaaliga ah u reebi jireen Nabiga ﷺ si uu u ilaaliyo, sababtoo ah waxay ogaayeen runtiisa iyo ammaanadiisa. ‘Ali wuxuu ahaa inuu mid kasta oo iyaga ka mid ah u celiyo."
-
-#: src/content/first-chapter.js
-#, ai
 msgid "The tent of Umm Ma‘bad"
 msgstr "Teendhadii Umm Ma‘bad"
-
-#: src/content/first-chapter.js
-#, ai
-msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk."
-msgstr "In yar ka dib waxay ku joogsadeen teendhadii Umm Ma‘bad oo reer Khuza‘ah ah waxayna weydiisteen martisoor. Waxay tiri ma haysto wax cunto ah oo aan bixiyo, iyo wax lax ah mid aan caano lahayn mooyee."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
-msgstr "Nabigu ﷺ wuxuu u yeeray laxtii, wuxuuna mariyay gacantiisa candhadeeda isagoo baryay Allah. Wuxuu ka soo moolay weel weyn ilaa ay xumbo ka dhalatay, wuxuuna yiri: cab, Umm Ma‘bad. Ibn Kathir wuxuu xusay in sheekadeedu ay tahay mid caan ah oo ku timaada waddooyin is xoojinaya."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1045,11 +913,6 @@ msgstr "Ibn Kathir wuxuu xusay in al-Waqidi uu isna tan weriyay, isagoo isku dar
 #, ai
 msgid "Ibn Ishaq introduces this with “as it has reached me”."
 msgstr "Ibn Ishaq wuxuu tan ku bilaabay \"sida ay igu soo gaartay\"."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance."
-msgstr "Waxay ku joogsadeen teendhadii Umm Ma‘bad; waxay haysatay oo keliya lax aan caano lahayn, taas oo markaas bixisay caano aad u badan."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1448,16 +1311,6 @@ msgstr "Siirooyinka qadiimiga ah iyo taariikhda"
 #, ai
 msgid "Modern authors"
 msgstr "Qorayaasha casriga ah"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "Caddaymaha khariidadda ku yaal"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "Dhibic kasta oo ifaysa waa nuskho laga soo xigtay cutubkan, waxaana la dhigay meesha ay ka hadlayso. Dooro mid si aad u akhrisato."
 
 #: src/content/lenses.js
 #, ai
@@ -1912,10 +1765,12 @@ msgid "Answers"
 msgstr "Jawaabaha"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hide the passage"
 msgstr "Qari qoraalka"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Read the passage"
 msgstr "Akhri qoraalka"
@@ -1924,10 +1779,6 @@ msgstr "Akhri qoraalka"
 #: src/routes/Journey.svelte
 msgid "I don’t know"
 msgstr "Ma aqaan"
-
-#: src/routes/Journey.svelte
-msgid "Open book: reading the passage is part of learning."
-msgstr "Buug furan: akhrinta qoraalku waa qayb ka mid ah waxbarashada."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -1961,6 +1812,7 @@ msgstr "Waxaa mudan in dib loo akhriyo"
 msgid "<0/> Practise again"
 msgstr "<0/> Mar kale ku celceli"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Back to the journey"
 msgstr "<0/> Ku noqo socdaalka"
@@ -2003,28 +1855,8 @@ msgid "Arabic original and source details"
 msgstr "Qoraalka Carabiga ee asalka ah iyo faahfaahinta isha"
 
 #: src/lib/ChapterReader.svelte
-msgid "Choose a chapter"
-msgstr "Dooro cutub"
-
-#: src/lib/ChapterReader.svelte
-msgid "Close chapter"
-msgstr "Xir cutubka"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter sections"
-msgstr "Qaybaha cutubka"
-
-#: src/lib/ChapterReader.svelte
 msgid "Loading…"
 msgstr "Waa la soo rarayaa…"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter contents"
-msgstr "Tusmada cutubka"
-
-#: src/lib/ChapterReader.svelte
-msgid "In this chapter"
-msgstr "Cutubkan"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
@@ -2048,6 +1880,9 @@ msgid "Continue with source-study questions"
 msgstr "U gudub su'aalaha daraasadda ilaha"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Try again"
 msgstr "Mar kale isku day"
 
@@ -2058,10 +1893,6 @@ msgstr "Ku noqo sheekada"
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
 msgstr "Jawaabaha saxda ah, marka loo eego su'aalaha qaybtan."
-
-#: src/routes/Journey.svelte
-msgid "Hijrah chapters"
-msgstr "Cutubyada Hijrada"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2079,37 +1910,13 @@ msgstr "Muuji khariidadda oo dhan"
 msgid "Explore the map"
 msgstr "Sahami khariidadda"
 
-#: src/routes/Journey.svelte
-msgid "Select a book marker to read its chapter."
-msgstr "Dooro calaamadda buugga si aad u akhrido cutubka."
-
-#: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "Bilow safarka"
-
-#: src/routes/Journey.svelte
-msgid "Locations are schematic."
-msgstr "Goobaha si tusaale ah ayaa loo muujiyey."
-
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original"
 msgstr "Qoraalka Carabiga ee asalka ah"
 
 #: src/lib/ChapterReader.svelte
-msgid "A chapter edition is not ready in this language. Showing the English edition."
-msgstr "Nuqulka cutubkan ee afkan weli diyaar ma aha. Nuqulka Ingiriisiga ayaa la soo bandhigayaa."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "Soo koobid — ma aha tarjumaad"
-
-#: src/routes/Journey.svelte
-msgid "Read the chapter"
-msgstr "Akhri cutubka"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full chapter, with its sources and practice"
-msgstr "<0/> Cutubka oo dhammaystiran, oo ay la socdaan ilaha iyo layliyada"
 
 #: src/routes/Journey.svelte
 msgid "read in <0/><1/>"
@@ -2120,49 +1927,33 @@ msgstr "lagu soo qaatay <0/><1/>"
 msgid ", vol. {0}, p. {1}"
 msgstr ", jild. {0}, b. {1}"
 
-#: src/lib/ChapterReader.svelte
-msgid "Reading sections"
-msgstr "Qaybaha akhriska"
+#: src/content/first-chapter.js
+msgid "In Ibn Ishaq’s account, “as it reached me,” ‘Ali stayed behind for another reason too. People in Makkah had left their valuables with the Prophet ﷺ for safekeeping, knowing his honesty; the report says ‘Ali was to return their deposits."
+msgstr "Sida ku jirta werinta Ibnu Isxaaq, isagoo leh “sida la ii soo gaarsiiyey”, Cali wuxuu uga haray sabab kale. Reer Makka waxay hantidooda ammaan ahaan ugu dhiibi jireen Nebiga ﷺ, maadaama ay yaqaaneen aaminnimadiisa; werintu waxay sheegaysaa in Cali uu u celin lahaa wixii ay u dhiibteen."
 
-#: src/lib/ChapterReader.svelte
-msgid "Contents"
-msgstr "Tusmada"
+#: src/content/first-chapter.js
+msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She said they had no food and no milk-giving ewe."
+msgstr "Dabadeed jidka ayay ku hakadeen teendhada Ummu Macbad ee reer Khuzaaca, martigelinna way weyddiisteen. Waxay tidhi ma haystaan cunto iyo lax caano laga liso toona."
 
-#: src/lib/ChapterReader.svelte
-msgid "In this reading"
-msgstr "Akhriskan dhexdiisa"
+#: src/content/first-chapter.js
+msgid "The report says the Prophet ﷺ called for one of her sheep, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
+msgstr "Werintu waxay sheegaysaa in Nebigu ﷺ dalbaday mid ka mid ah idaha ay lahayd, candhadeeda gacanta ku salaaxay oo Alle baryay. Wuxuu ku lisay weel weyn ilaa ay xumbo samaysay, wuxuuna yidhi: “Cab, Ummu Macbad.” Ibnu Kathiir wuxuu xusay in sheekadeedu caan tahay, lagana weriyey waddooyin werineed oo is xoojiya."
 
-#: src/lib/ChapterReader.svelte
-msgid "This reading is not ready in this language yet. Showing the English edition."
-msgstr "Akhriskan weli diyaar kuma aha luuqaddan. Waxaa la muujinayaa daabacaadda Ingiriisiga."
+#: src/content/first-chapter.js
+msgid "According to ‘Urwa, he stayed among them for a few more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
+msgstr "Sida ku jirta werinta Curwa, wuxuu dhex joogay dhowr habeen oo ka badan toban. Halkaas ayuu ka dhisay masaajidka ay werintu ku tilmaantay mid lagu aasaasay Alle ka cabsasho, wuuna ku tukaday."
 
-#: src/lib/ChapterReader.svelte
-msgid "More readings"
-msgstr "Akhrisyo dheeraad ah"
-
-#: src/lib/ChapterReader.svelte
-msgid "Previous reading"
-msgstr "Akhriskii hore"
-
-#: src/lib/ChapterReader.svelte
-msgid "Next reading"
-msgstr "Akhriska xiga"
+#: src/content/first-chapter.js
+msgid "They stopped at Umm Ma‘bad’s tent. She said they had no food or milk-giving ewe; the report then describes milk from one of her sheep."
+msgstr "Waxay ku hakadeen teendhada Ummu Macbad. Waxay tidhi ma haystaan cunto iyo lax caano laga liso toona; dabadeed werintu waxay tilmaamaysaa in mid ka mid ah idaheeda caano laga lisay."
 
 #: src/routes/Journey.svelte
-msgid "Readings"
-msgstr "Akhrisyada"
+msgid "Original source ↗"
+msgstr "Isha asalka ah ↗"
 
 #: src/routes/Journey.svelte
-msgid "Select a book marker to open its reading."
-msgstr "Dooro calaamadda buugga si aad u furto akhriskiisa."
-
-#: src/routes/Journey.svelte
-msgid "Hijrah readings"
-msgstr "Akhrisyada Hijrada"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full reading, with its sources and practice"
-msgstr "<0/> Akhriska oo buuxa, oo ay weheliyaan ilaha iyo layliga"
+msgid "Context"
+msgstr "Macnaha guud"
 
 #: src/routes/Journey.svelte
 msgid "Source passages"
@@ -2181,21 +1972,15 @@ msgid "Languages"
 msgstr "Luqadaha"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Beneath the surface"
 msgstr "Gunta hoose"
-
-#: src/routes/Journey.svelte
-msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The readings go deeper into each part of the story, and the practice questions are drawn from the same passages."
-msgstr "Faqrad kasta waxay ku salaysan tahay qoraal laga soo qaatay ilaha Carabiga ee qadiimiga ah, iyadoo wadata xiriiriye ku geynaya boggeeda Turath. Qoraallada akhrisku waxay si qoto dheer u galayaan qayb kasta oo sheekada ka mid ah, su'aalaha layligana waxaa laga soo dheegtay isla qoraalladaas."
 
 #: src/routes/Journey.svelte
 msgid "The narration is in Arabic and English, and the map is built from real elevation data."
 msgstr "Qisadu waxay ku baxaysaa Carabi iyo Ingiriisi, khariidaddana waxaa laga dhisay xogta dhabta ah ee joogga dhulka."
 
 #: src/routes/Journey.svelte
-msgid "What's beneath the surface <0/>"
-msgstr "Maxaa ku jira gunta hoose <0/>"
-
 #: src/routes/Journey.svelte
 msgid "Behind the journey <0/>"
 msgstr "Gadaasha socdaalka <0/>"
@@ -2219,10 +2004,6 @@ msgstr "Xidh"
 #: src/routes/Journey.svelte
 msgid "<0>A guided journey</0> in nine stages across a map built from real elevation data, narrated in Arabic and English."
 msgstr "<0>Socdaal hagid leh</0> oo sagaal marxaladood ah oo ku dul yaal khariidad laga dhisay xogta dhabta ah ee joogga dhulka, laguna tebiyay Carabi iyo Ingiriisi."
-
-#: src/routes/Journey.svelte
-msgid "<0>Readings</0> that go deeper into each part of the story, each with its source passages."
-msgstr "<0>Qoraallo akhris</0> oo si qoto dheer u galaya qayb kasta oo sheekada ka mid ah, mid walbana wata nuskhooyinkeedii asalka ahaa."
 
 #: src/routes/Journey.svelte
 msgid "<0>Sources on the map</0>, placed where they speak of, and a day-by-day timeline that shows how each date is known."
@@ -2253,10 +2034,6 @@ msgid "<0>One Arabic core.</0> The events were set out as records and claims, ea
 msgstr "<0>Hal udub-dhexaad Carabi ah.</0> Dhacdooyinka waxaa loo habeeyay sidii diiwaanno iyo xaqiiqooyin, mid walbana wuxuu ku xidhan yahay qoraalka caddaynaya. Wax kasta oo abku leeyahay waxay ka yimaaddeen udub-dhexaadkan."
 
 #: src/routes/Journey.svelte
-msgid "<0>Written in Arabic first.</0> Each reading was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
-msgstr "<0>Waxa lagu qoray Carabi marka hore.</0> Qoraal kasta oo akhris ah waxaa Carabiga lagaga soo qoray udub-dhexaadka, qoraallada ay muujinaysana waa nuskhooyinka saxda ah ee ilaha, lagamana dhex beddelin waxba."
-
-#: src/routes/Journey.svelte
 msgid "<0>Translated from the Arabic.</0> The other languages are translated directly from the Arabic, not through English."
 msgstr "<0>Laga turjumay Carabiga.</0> Luqadaha kale waxaa si toos ah looga turjumay Carabiga, lagama soo min-guurin Ingiriiska."
 
@@ -2276,33 +2053,43 @@ msgstr "<0>AI, oo ay hagayaan iluhu.</0> Qalabka AI waxa uu gacan ka geystay qor
 msgid "How it was made"
 msgstr "Sida loo sameeyay"
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Reading mode selected. The same journey is available without narration."
 msgstr "Habka akhriska ayaa la doortay. Isla safarka waxaad heli kartaa isagoo aan cod lahayn."
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Journey complete. Recap opened."
 msgstr "Safarkii wuu dhammaaday. Soo koobiddii ayaa furantay."
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey begins, with preparations for departure."
 msgstr "Halka uu safarku ka bilaabmo, oo ay ku jiraan u diyaargarowga bixitaanka."
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey closes, with arrival and a new beginning."
 msgstr "Halka uu safarku ku xidhmo, oo ay ku jirto imaatinka iyo bilow cusub."
 
-#: src/routes/Journey.svelte
+#: src/lib/guide-provider.js
 msgid "The offline journey notes do not establish an answer to that question."
 msgstr "Qoraallada safarka ee khadka la'aanta ahi ma hayaan jawaabta su'aashaas."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "That stage is not available."
 msgstr "Heerkaas lama heli karo."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Chapters"
 msgstr "Cutubyo"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to read its chapter."
+msgstr "Dooro calaamadda buugga si aad u akhrido cutubka."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah chapters"
+msgstr "Cutubyada Hijrada"
 
 #: src/routes/Journey.svelte
 msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
@@ -2333,9 +2120,11 @@ msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from t
 msgstr "<0>Marka hore Carabiga ayaa lagu qoray.</0> Cutub kasta waxaa asal ahaan lagu qoray Carabi, meerisyada uu muujinayana waa qoraalka saxda ah ee asalka, dibna looma qorin."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Journey stages"
 msgstr "Heerarka safarka"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Complete the journey"
 msgstr "<0/> Dhammeystir safarka"
@@ -2345,6 +2134,10 @@ msgid "Journey complete"
 msgstr "Safarkii wuu dhammaaday"
 
 #: src/routes/Journey.svelte
+msgid "<0/> The full chapter, with its sources and practice"
+msgstr "<0/> Cutubka oo dhammaystiran, oo ay la socdaan ilaha iyo layliyada"
+
+#: src/routes/Journey.svelte
 msgid "Ask about this journey…"
 msgstr "Wax ka weydii safarkan…"
 
@@ -2352,22 +2145,43 @@ msgstr "Wax ka weydii safarkan…"
 msgid "Journey notes · offline"
 msgstr "Qoraallada safarka · khadka la'aan"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
+msgid "Close chapter"
+msgstr "Xir cutubka"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "Nuqulka cutubkan ee afkan weli diyaar ma aha. Nuqulka Ingiriisiga ayaa la soo bandhigayaa."
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter sections"
+msgstr "Qaybaha cutubka"
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter contents"
+msgstr "Tusmada cutubka"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this chapter"
+msgstr "Cutubkan"
+
+#: src/lib/ChapterReader.svelte
 msgid "More chapters"
 msgstr "Cutubyo kale"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Previous chapter"
 msgstr "Cutubkii hore"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Next chapter"
 msgstr "Cutubka xiga"
 
-#: src/routes/Journey.svelte
+#: src/lib/SceneCanvas.svelte
 msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
 msgstr "Muuqaalka 3D-ga lama heli karo qalabkan. Safarka oo dhan weli halkan ayaad ka akhrisan kartaa."
 
+#. 0: fmt_num(stage_facts.sections); 1: fmt_num( stage_facts.passages, ); 2: fmt_num(stage_facts.questions)
 #: src/routes/Journey.svelte
 msgid "{0} sections · {1} source passages · {2} questions"
 msgstr "{0} qaybood · {1} tuduc oo xigasho ah · {2} su'aalood"

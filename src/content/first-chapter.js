@@ -84,7 +84,7 @@ export const chapter = {
                 },
                 {
                     id: 'N09c',
-                    text: '‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them.',
+                    text: 'In Ibn Ishaq’s account, “as it reached me,” ‘Ali stayed behind for another reason too. People in Makkah had left their valuables with the Prophet ﷺ for safekeeping, knowing his honesty; the report says ‘Ali was to return their deposits.',
                     source_ids: ['E20'],
                 },
             ],
@@ -175,17 +175,17 @@ export const chapter = {
             title: 'The tent of Umm Ma‘bad',
             scene: 'overview',
             duration: 26,
-            source_ids: ['E21'],
+            source_ids: ['E21', 'E40'],
             paragraphs: [
                 {
                     id: 'N10a',
-                    text: 'Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk.',
+                    text: 'Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She said they had no food and no milk-giving ewe.',
                     source_ids: ['E21'],
                 },
                 {
                     id: 'N10b',
-                    text: 'The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another.',
-                    source_ids: ['E21'],
+                    text: 'The report says the Prophet ﷺ called for one of her sheep, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another.',
+                    source_ids: ['E21', 'E40'],
                 },
             ],
         },
@@ -204,7 +204,7 @@ export const chapter = {
                 },
                 {
                     id: 'N07a',
-                    text: 'He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it.',
+                    text: 'According to ‘Urwa, he stayed among them for a few more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it.',
                     source_ids: ['E16'],
                 },
             ],
@@ -418,8 +418,8 @@ export const chapter = {
             'Ibn Kathir, al-Bidayah wa al-Nihayah',
             'the tent',
             'فنزل رسول الله ﷺ بخيمة أم معبد',
-            'They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance.',
-            'Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood.',
+            'They stopped at Umm Ma‘bad’s tent. She said they had no food or milk-giving ewe; the report then describes milk from one of her sheep.',
+            '',
             'https://api.turath.io/page?book_id=930&pg=779',
         ),
     ],
@@ -501,6 +501,19 @@ for (const { item, citation, explanation, limits } of extras) {
         place: citation.place ?? (item.set || `detail_${item.id}`),
     })
 }
+
+const critical_source = source(
+    'E40',
+    'Ibn Kathir, al-Bidayah wa al-Nihayah',
+    'the tent',
+    '',
+    'Ibn Kathir calls the story well known, through routes that support one another. It does not fix where the tent stood.',
+    '',
+    'https://app.turath.io/book/4445?page=2190',
+)
+critical_source.kind = 'commentary'
+critical_source.place = 'tent'
+chapter.sources.push(critical_source)
 
 function get_turath_citation(id) {
     const citations = {
@@ -732,6 +745,24 @@ function get_turath_citation(id) {
             excerpt:
                 'فنزل رسول الله ﷺ بخيمة أم معبد ... فقالت: والله ما عندنا طعام ولا لنا منحة ولا لنا شاة إلا حائل. فدعا رسول الله ﷺ ببعض غنمها فمسح ضرعها بيده ودعا الله وحلب في العس حتى أرغى وقال: اشربي يا أم معبد',
         },
+        E40: {
+            book_id: '4445',
+            page_id: '2190',
+            book: 'البداية والنهاية - ت التركي',
+            author: 'ابن كثير',
+            speaker_ar: 'إسماعيل بن كثير',
+            citation_ar: 'البداية والنهاية - ت التركي، 4/472',
+            source_unit_id: 'H-4445-2190-CRIT-IBNKATHIRGENERAL:p1',
+            source_start: 0,
+            source_end: 677,
+            source_text_sha256: 'bf239f181713c58bd433c3270b09270ad5a30c1edbf163d6d7d839f73fe7cd19',
+            source_url: 'https://app.turath.io/book/4445?page=2190',
+            volume: '4',
+            page: '472',
+            heading: 'تقوية ابن كثير طرق قصة أم معبد إجمالا',
+            excerpt:
+                'وَاجْتَازَ فِي مُرُورِهِ عَلَى أُمِّ مَعْبَدٍ بِنْتِ كَعْبٍ مِنْ بَنِي كَعْبِ بْنِ خُزَاعَةَ، قَالَهُ ابْنُ هِشَامٍ. وَقَالَ يُونُسُ، عَنِ ابْنِ إِسْحَاقَ: اسْمُهَا عَاتِكَةُ بِنْتُ خَالِدِ بْنِ مُنْقِذِ بْنِ رَبِيعَةَ بْنِ أَصْرَمَ. وَقَالَ الْأُمَوِيُّ: هِيَ عَاتِكَةُ بِنْتُ تَبِيعٍ حَلِيفِ بَنِي مُنْقِذِ بْنِ رَبِيعَةَ بْنِ أَصْرَمَ بْنِ ضَبِيسِ بْنِ حَرَامِ بْنِ حُبْشِيَّةَ بْنِ كَعْبِ بْنِ عَمْرٍو، وَلِهَذِهِ الْمَرْأَةِ مِنَ الْوَلَدِ، مَعْبَدٌ، وَنَضْرَةٌ، وَحُنَيْدَةُ، بَنُو أَبِي مَعْبَدٍ، وَاسْمُهُ أَكْثَمُ بْنُ عَبْدِ الْعُزَّى بْنِ مُنْقِذِ بْنِ رَبِيعَةَ بْنِ أَصْرَمَ بْنِ ضَبِيسٍ، وَقِصَّتُهَا مَشْهُورَةٌ مَرْوِيَّةٌ مِنْ طَرْقٍ يَشُدُّ بَعْضُهَا بَعْضًا.',
+        },
     }
     return citations[id]
 }
@@ -741,9 +772,11 @@ function source(id, work, locator, excerpt, explanation, limits, url) {
     return {
         id,
         number: Number(id.slice(1)),
-        reference: /^[\d:]+$/.test(locator.split(' · ')[0])
-            ? `${work} ${locator.split(' · ')[0]}`
-            : work,
+        reference:
+            citation?.citation_ar ??
+            (/^[\d:]+$/.test(locator.split(' · ')[0])
+                ? `${work} ${locator.split(' · ')[0]}`
+                : work),
         work: citation?.book ?? work,
         locator: citation
             ? `Turath · book ${citation.book_id} · page ${citation.page_id} · vol. ${citation.volume}, p. ${citation.page}`
@@ -751,9 +784,21 @@ function source(id, work, locator, excerpt, explanation, limits, url) {
         excerpt: citation?.excerpt ?? excerpt,
         explanation,
         limits,
-        url: citation
-            ? `https://api.turath.io/page?book_id=${citation.book_id}&pg=${citation.page_id}`
-            : url,
+        url:
+            citation?.source_url ??
+            (citation
+                ? `https://api.turath.io/page?book_id=${citation.book_id}&pg=${citation.page_id}`
+                : url),
+        ...(citation?.source_unit_id
+            ? {
+                  speaker_ar: citation.speaker_ar,
+                  citation_ar: citation.citation_ar,
+                  source_unit_id: citation.source_unit_id,
+                  source_start: citation.source_start,
+                  source_end: citation.source_end,
+                  source_text_sha256: citation.source_text_sha256,
+              }
+            : {}),
         author:
             citation?.author ??
             (id === 'E10' ? 'Al-Sa‘di' : 'Attribution recorded in the cited work'),

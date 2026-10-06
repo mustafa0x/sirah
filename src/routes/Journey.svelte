@@ -70,6 +70,8 @@
     const { route } = window.navgo
     import { change_language, fmt_num, saved_language } from '../lib/i18n.js'
     import { locales, language_direction } from '../lib/locale-config.js'
+    import { verified_sources_once } from '../lib/practice-binding.js'
+    import { toggle_practice_source } from '../lib/practice-source.js'
     import { SvelteSet } from 'svelte/reactivity'
     import { fade, fly } from 'svelte/transition'
     import SceneCanvas from '../lib/SceneCanvas.svelte'
@@ -102,7 +104,7 @@
     import { ask_guide } from '../lib/guide-provider.js'
     import { create_media_clock } from '../lib/media-clock.js'
     import { create_ambience } from '../lib/ambience.js'
-    import { evidence_dot, evidence_kinds } from '../lib/evidence.js'
+    import { evidence_category, evidence_dot, evidence_kinds } from '../lib/evidence.js'
     import { timeline, timeline_days, timeline_start } from '../content/timeline.js'
     import { apply_timings, create_narrator } from '../lib/narration.js'
     import {
@@ -118,11 +120,9 @@
     import {
         create_practice,
         current_question,
-        inspect_practice_source,
         next_practice,
         practice_feedback,
         practice_score,
-        return_to_practice,
         submit_practice,
     } from '../lib/hijrah-practice.js'
     import {
@@ -130,6 +130,7 @@
         mode_levels,
         packet,
         questions_for,
+        reading_for,
         worded,
     } from '../lib/practice-view.js'
     import {
@@ -247,7 +248,7 @@
             kind,
             new Set(
                 chapter.sources
-                    .filter((source) => source.kind === kind)
+                    .filter((source) => evidence_category(source.kind) === kind)
                     .map((source) => `${source.place}|${source.reference}`),
             ).size,
         ]),
@@ -300,16 +301,27 @@
     let practice_level = $state(null)
     let practice_step = $state(null)
     let practice_units = $state([])
+    let source_error = $state(false)
     let practice_wording = $state(null)
+    let practice_ready = $state(false)
     // The practice module mutates its object; a new key is not tracked, so changes bump this.
     let practice_tick = $state(0)
-    load_wording(language).then((wording) => (practice_wording = wording))
+    load_wording(language)
+        .then((wording) => {
+            practice_wording = wording
+            practice_ready = true
+        })
+        .catch((error) => {
+            console.error(error)
+            source_error = true
+            practice_units = []
+        })
     let stage_questions = $derived(questions_for(mode, { step_id: selected_step.id }))
     let practice_question = $derived(
         practice_tick >= 0 && practice ? current_question(practice) : null,
     )
     let practice_view = $derived(
-        practice_question ? worded(practice_question, practice_wording) : null,
+        practice_ready && practice_question ? worded(practice_question, practice_wording) : null,
     )
     let practice_result = $derived(
         practice_tick >= 0 && practice && practice_question ? practice_feedback(practice) : null,
@@ -424,7 +436,7 @@
                 ].filter((source) => {
                     if (seen.has(source.id)) return false
                     seen.add(source.id)
-                    return !evidence_kind || source.kind === evidence_kind
+                    return !evidence_kind || evidence_category(source.kind) === evidence_kind
                 }),
             }))
             .filter((group) => group.sources.length)
@@ -928,6 +940,7 @@
         practice_step = step_id
         practice_level = level
         practice_units = []
+        if (practice_ready) source_error = false
         practice = create_practice(packet, questions)
         practice_tick += 1
         write_link(`/journey/hijrah/practice/${questions[0].question_id}`, { at: current_cue?.id })
@@ -940,18 +953,36 @@
         announce(practice_feedback(practice)?.correct ? 'Correct.' : 'Answer recorded.')
     }
 
-    function toggle_passage() {
-        if (practice.source_open) {
-            return_to_practice(practice)
+    async function toggle_passage() {
+        if (!practice_ready || !practice) return
+        const session = practice
+        const question_id = current_question(session)?.question_id
+        try {
+            await toggle_practice_source(
+                session,
+                () => practice,
+                packet,
+                verified_sources_once,
+                (units) => {
+                    source_error = false
+                    practice_units = units
+                    practice_tick += 1
+                },
+            )
+        } catch (error) {
+            if (practice !== session || current_question(session)?.question_id !== question_id)
+                return
+            console.error(error)
+            source_error = true
             practice_units = []
-        } else practice_units = inspect_practice_source(practice, packet)
-        practice_tick += 1
+        }
     }
 
     function next_question() {
         remember_view()
         next_practice(practice)
         practice_units = []
+        source_error = false
         practice_tick += 1
         const question_id = current_question(practice)?.question_id
         write_link(`/journey/hijrah/practice${question_id ? `/${question_id}` : ''}`, {
@@ -2568,11 +2599,21 @@
                 </button>
             </header>
 
+            {#if source_error && !practice_ready}
+                <button class={ghost_button} onclick={() => location.reload()}>Try again</button>
+            {/if}
             {#if practice_view}
                 {#key practice_question.question_id}
                     <div class="grid gap-3" in:fade={{ duration: 220 }}>
+                        {#if practice_view.language !== language}
+                            <span class={fine_print} lang={practice_view.language}
+                                >{locales.find((item) => item.code === practice_view.language)
+                                    ?.label}</span
+                            >
+                        {/if}
                         <p
                             class="text-ink font-serif text-[1.1875rem] leading-[1.5] text-pretty"
+                            lang={practice_view.language}
                             dir="auto"
                         >
                             {practice_view.prompt}
@@ -2594,6 +2635,7 @@
                                         : 'idle'}
                                     disabled={Boolean(practice_result)}
                                     aria-pressed={chosen}
+                                    lang={practice_view.language}
                                     dir="auto"
                                     onclick={() => answer_practice(option.id)}
                                 >
@@ -2616,22 +2658,11 @@
                                 >
                                     I don’t know
                                 </button>
-                            </div>
-                        {/if}
-                        {#if practice_units.length}
-                            <div class="grid gap-2" in:fade>
-                                {#each practice_units as unit (unit.unit_id)}
-                                    <blockquote
-                                        class="max-h-[180px] overflow-y-auto py-3 px-4 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 rounded-xl font-arabic text-[1.1875rem] leading-[1.9]"
-                                        dir="rtl"
-                                        lang="ar"
+                                {#if source_error}
+                                    <button class={ghost_button} onclick={() => location.reload()}
+                                        >Try again</button
                                     >
-                                        {unit.text_ar}
-                                    </blockquote>
-                                {/each}
-                                <p class={fine_print}>
-                                    Open book: reading the passage is part of learning.
-                                </p>
+                                {/if}
                             </div>
                         {/if}
                         {#if practice_result}
@@ -2653,22 +2684,94 @@
                                     </p>
                                 {/if}
                                 {#if picked}
-                                    <p class="text-ink-soft leading-[1.5]" dir="auto">
+                                    <p
+                                        class="text-ink-soft leading-[1.5]"
+                                        dir="auto"
+                                        lang={practice_view.language}
+                                    >
                                         {picked.feedback}
                                     </p>
                                 {/if}
-                                <p class="text-ink leading-[1.55]" dir="auto">
+                                <p
+                                    class="text-ink leading-[1.55]"
+                                    dir="auto"
+                                    lang={practice_view.language}
+                                >
                                     {practice_view.explanation}
                                 </p>
                                 {#if practice_result.used_source}
                                     <p class={fine_print}>You read the passage before answering.</p>
                                 {/if}
-                                <div>
+                                <div class="flex flex-wrap gap-2 items-center">
+                                    <button
+                                        class="{ghost_button} min-h-8 py-1"
+                                        onclick={toggle_passage}
+                                    >
+                                        {@render icon('sources')}
+                                        {#if practice.source_open}Hide the passage{:else}Read the passage{/if}
+                                    </button>
                                     <button class={primary_button} onclick={next_question}>
                                         {#if practice.index + 1 < practice.questions.length}Next question{:else}See how you did{/if}
                                         {@render icon('next')}
                                     </button>
+                                    {#if source_error}
+                                        <button
+                                            class={ghost_button}
+                                            onclick={() => location.reload()}>Try again</button
+                                        >
+                                    {/if}
                                 </div>
+                            </div>
+                        {/if}
+                        {#if practice_units.length}
+                            <div class="grid gap-2" in:fade>
+                                {#each practice_units as unit, index (unit.unit_id)}
+                                    {@const passage = reading_for(unit, practice_wording)}
+                                    {#if index === 0 || unit.evidence_id !== practice_units[index - 1].evidence_id}
+                                        <div
+                                            class="flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm text-ink-soft"
+                                        >
+                                            <strong lang={passage.language} dir="auto"
+                                                >{passage.book} · {passage.speaker}</strong
+                                            >
+                                            <a
+                                                href={unit.source_url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                lang={language}>Original source ↗</a
+                                            >
+                                        </div>
+                                    {/if}
+                                    {#if unit.kind_ar.includes('قرآن منقول')}
+                                        <p class={fine_print} lang={passage.language} dir="auto">
+                                            {passage.kind}
+                                        </p>
+                                    {/if}
+                                    {#if passage.language !== language && (index === 0 || reading_for(practice_units[index - 1], practice_wording).language !== passage.language)}
+                                        <span class={fine_print} lang={passage.language}
+                                            >{locales.find((item) => item.code === passage.language)
+                                                ?.label}</span
+                                        >
+                                    {/if}
+                                    <blockquote
+                                        class="max-h-[180px] overflow-y-auto py-3 px-4 text-[#fff6e3] bg-[rgba(0,0,0,0.36)] border-0 rounded-xl leading-[1.9]"
+                                        class:font-arabic={passage.language === 'ar'}
+                                        dir={language_direction(passage.language)}
+                                        lang={passage.language}
+                                    >
+                                        {passage.text}
+                                    </blockquote>
+                                    {#if index === practice_units.length - 1 || unit.evidence_id !== practice_units[index + 1].evidence_id}
+                                        {#if unit.evidence_id === 'H-1655-1021-CRIT-SHAFIIUMAR'}
+                                            <details class={fine_print} lang="ar" dir="rtl">
+                                                <summary lang={language}>Context</summary
+                                                >{unit.context_note_ar.split(
+                                                    ' تدريب على النص المعروض',
+                                                )[0]}
+                                            </details>
+                                        {/if}
+                                    {/if}
+                                {/each}
                             </div>
                         {/if}
                     </div>
@@ -3124,12 +3227,27 @@
                                         ? 'From the sources'
                                         : 'Journey notes · offline'}
                                 </p>
-                                <p class="{prose} whitespace-pre-wrap" dir="auto">
+                                {#if journey.answer.language && journey.answer.language !== language}
+                                    <span class={fine_print} lang={journey.answer.language}
+                                        >{locales.find(
+                                            (item) => item.code === journey.answer.language,
+                                        )?.label}</span
+                                    >
+                                {/if}
+                                <p
+                                    class="{prose} whitespace-pre-wrap"
+                                    dir="auto"
+                                    lang={journey.answer.language ?? language}
+                                >
                                     {journey.answer.answer}
                                 </p>
                                 {@render citations(journey.answer.citations ?? [])}
                                 {#if journey.answer.action && chapter.steps.some((step) => step.id === journey.answer.action.step_id)}
-                                    <button class={primary_button} onclick={show_action}>
+                                    <button
+                                        class={primary_button}
+                                        lang={journey.answer.language ?? language}
+                                        onclick={show_action}
+                                    >
                                         {journey.answer.action.label}
                                         {@render icon('next')}
                                     </button>

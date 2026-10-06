@@ -6,7 +6,7 @@ import {
     shelter_asset,
     worlds as world_definitions,
 } from './scene-manifest.js'
-import { evidence_dot } from './evidence.js'
+import { evidence_category, evidence_dot } from './evidence.js'
 import { follow_link, journey_href } from './journey-links.js'
 import { chapter } from '../content/first-chapter.js'
 import { build_terrain, fbm, hash, load_grid, shelter_bank } from './scene-terrain.js'
@@ -732,7 +732,7 @@ export async function create_scene(
                         group = {
                             id: `${name}:${key}:${source.reference}`,
                             reference: source.reference,
-                            kind: source.kind,
+                            kind: evidence_category(source.kind),
                             ids: [],
                         }
                         groups.push(group)

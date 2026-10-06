@@ -57,12 +57,6 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "ارائه راهنمایی‌شده متوقف شد. موقعیت شما ذخیره گردید."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "That chapter stop is not available."
-msgstr "این ایستگاه از فصل در دسترس نیست."
-
-#: src/routes/Journey.svelte
 #, ai
 msgid "Onward stage opened. Your guided position is preserved."
 msgstr "مرحله بعدی باز شد. موقعیت راهنمایی‌شده شما حفظ شده است."
@@ -139,46 +133,14 @@ msgstr "<0/> سفر سیره"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
-msgstr "بخش <0>منابع</0> متن پشت هر پاراگراف و آنچه را که اثبات نمی‌کند نشان می‌دهد."
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>کلید فاصله</0> پخش یا توقف · <1/> <2/> تغییر مرحله · <3>Esc</3> بستن"
 
-#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
-#, ai
-msgid "{0} stages"
-msgstr "{0} مرحله"
-
-#. 0: fmt_num(total_minutes)
-#: src/routes/Journey.svelte
-#, ai
-msgid "about {0} minutes"
-msgstr "حدود {0} دقیقه"
-
-#. 0: fmt_num(chapter.sources.length)
-#: src/routes/Journey.svelte
-#, ai
-msgid "{0} cited passages"
-msgstr "{0} بخش مستند"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Begin the journey"
 msgstr "<0/> آغاز سفر"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Read instead"
-msgstr "<0/> مطالعه متن به جای پخش"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter one"
-msgstr "فصل اول"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -186,12 +148,9 @@ msgstr "فصل اول"
 msgid "The Hijrah"
 msgstr "هجرت"
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter stages"
-msgstr "مراحل فصل"
-
 #. 0: index + 1; 1: step.title
+#. 0: index + 1; 1: step.title
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0}: {1}"
@@ -242,19 +201,12 @@ msgstr "موقعیت در این مرحله"
 msgid "{0} of {1}"
 msgstr "{0} از {1}"
 
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Complete the chapter"
-msgstr "<0/> تکمیل فصل"
-
 #. 0: chapter.steps[selected_index + 1].title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Continue: {0} <0/>"
 msgstr "ادامه: {0} <0/>"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Read"
@@ -281,11 +233,6 @@ msgstr "مرحله {0} از {1} · {2}"
 #, ai
 msgid "Close reading"
 msgstr "بستن مطالعه"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter complete"
-msgstr "فصل به پایان رسید"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -336,11 +283,6 @@ msgstr "بستن پرسش"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Ask about this chapter…"
-msgstr "درباره این فصل بپرسید…"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "Ask"
 msgstr "بپرسید"
 
@@ -368,11 +310,6 @@ msgstr "بازگشت به پاسخ"
 #, ai
 msgid "Back to the journey"
 msgstr "بازگشت به سفر"
-
-#: src/lib/SceneCanvas.svelte
-#, ai
-msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
-msgstr "تصویرسازی سه‌بعدی در این دستگاه در دسترس نیست. متن کامل فصل همچنان برای مطالعه در اینجا قرار دارد."
 
 #: src/content/first-chapter.js
 #, ai
@@ -488,11 +425,6 @@ msgid "The account goes on to describe a date-drying yard that became the site o
 msgstr "این روایت در ادامه، زمین خشک‌کردن خرما را توصیف می‌کند که به محل مسجد پیامبر در مدینه تبدیل شد. این متن ثبت کرده است که پیامبر همراه با کسانی که آن را می‌ساختند، خشت‌ها را حمل می‌کرد."
 
 #: src/content/first-chapter.js
-#, ai
-msgid "You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah."
-msgstr "شما آماده‌سازی‌ها، دوران پناه گرفتن، ادامه مسیر و رسیدن را دنبال کردید. با شکل‌های مختلفی از یاری روبرو شدید و روایت‌هایی از آرامش خاطر را خواندید. این یک روایت گزینش‌شده است، نه تاریخ کاملی از تک‌تک رویدادها یا پیامدهای هجرت."
-
-#: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
@@ -590,6 +522,7 @@ msgstr "بخش انتخاب‌شده، آن دو نفر را در غار و آر
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
+#: src/content/first-chapter.js
 #: src/content/timeline.js
 #, ai
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
@@ -669,11 +602,6 @@ msgstr "مکه"
 
 #: src/lib/scene-manifest.js
 #, ai
-msgid "Where the chapter begins, with preparations for departure."
-msgstr "جایی که فصل با آماده‌سازی برای حرکت آغاز می‌شود."
-
-#: src/lib/scene-manifest.js
-#, ai
 msgid "Mount Thawr"
 msgstr "کوه ثور"
 
@@ -698,11 +626,6 @@ msgstr "راهنما آن‌ها را از مسیر ساحل برد. این خط
 #, ai
 msgid "Madinah"
 msgstr "مدینه"
-
-#: src/lib/scene-manifest.js
-#, ai
-msgid "Where the chapter closes, with arrival and a new beginning."
-msgstr "جایی که فصل با ورود و آغازی نو به پایان می‌رسد."
 
 #: src/routes/Journey.svelte
 #, ai
@@ -768,11 +691,6 @@ msgstr "موقعیت هدایت‌شده بازیابی شد. برای ادام�
 
 #: src/lib/journey-state.js
 #, ai
-msgid "Reading mode selected. The same chapter is available without narration."
-msgstr "حالت مطالعه انتخاب شد. همین بخش بدون روایت صوتی در دسترس است."
-
-#: src/lib/journey-state.js
-#, ai
 msgid "Scene mode selected."
 msgstr "حالت صحنه انتخاب شد."
 
@@ -786,11 +704,6 @@ msgstr "منبع باز شد. پخش هدایت‌شده همچنان متوقف
 msgid "Panel closed. Press Resume journey to return to the guided position."
 msgstr "پنل بسته شد. برای بازگشت به موقعیت هدایت‌شده، دکمه ادامه سفر را فشار دهید."
 
-#: src/lib/journey-state.js
-#, ai
-msgid "Chapter complete. Recap opened."
-msgstr "بخش کامل شد. خلاصه باز شد."
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Researching in Turath…"
@@ -798,18 +711,8 @@ msgstr "در حال جستجو در تراث…"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Chapter notes · offline"
-msgstr "یادداشت‌های بخش · آفلاین"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "This passage is shortened. Open the original page for its full context."
 msgstr "این متن کوتاه شده است. برای مشاهده متن کامل، صفحه اصلی را باز کنید."
-
-#: src/lib/guide-provider.js
-#, ai
-msgid "The offline chapter notes do not establish an answer to that question."
-msgstr "یادداشت‌های آفلاین این بخش، پاسخی برای این سوال اثبات نمی‌کنند."
 
 #: src/routes/Journey.svelte
 #, ai
@@ -878,11 +781,6 @@ msgstr "قبا: نخستین توقفگاه"
 
 #: src/content/first-chapter.js
 #, ai
-msgid "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
-msgstr "او بیش از ده شب در میان آن‌ها اقامت گزید. در آنجا مسجدی را پایه‌گذاری کرد که در روایت‌ها مسجدی خوانده شده که بر پایه تقوا بنا شده است، و در آن نماز گزارد."
-
-#: src/content/first-chapter.js
-#, ai
 msgid "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates."
 msgstr "سپس سوار بر مرکب به راه افتاد و مردم در کنار او پیاده می‌رفتند تا اینکه شترش در مکانی در مدینه که برخی از مسلمانان در آن نماز می‌گزاردند، زانو زد. آنجا محل خشک کردن خرما بود."
 
@@ -930,21 +828,6 @@ msgstr "او سواره به راه افتاد در حالی که مردم در 
 #, ai
 msgid "It does not establish the route taken through the town or the appearance of the place."
 msgstr "این روایت مسیر طی‌شده در داخل شهر یا شکل و ظاهر آن مکان را مشخص نمی‌کند."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
-msgstr "گزینه <0>پخش</0> مراحل فصل را گام‌به‌گام با روایت صوتی تولیدشده توسط هوش مصنوعی همراهی می‌کند."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
-msgstr "گزینه <0>پخش</0> مراحل فصل را گام‌به‌گام همراهی می‌کند. زیرنویس‌ها هم‌زمان با صدای باد ملایم نمایش داده می‌شوند."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
-msgstr "گزینه <0>پرسش</0> از بافتار فصل برای جستجو در تراث (Turath) استفاده می‌کند و با ذکر منابع پاسخ می‌دهد."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1003,23 +886,8 @@ msgstr "در آن شب، آن‌ها پشت در خانه او جمع شدند �
 
 #: src/content/first-chapter.js
 #, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "علی به دلیل دیگری نیز عقب ماند. مردم مکه اموال گران‌بهای خود را به دلیل شناختی که از امانت‌داری پیامبر ﷺ داشتند، نزد ایشان به امانت می‌گذاشتند. علی باید تک‌تک آن‌ها را به صاحبانشان بازمی‌گرداند."
-
-#: src/content/first-chapter.js
-#, ai
 msgid "The tent of Umm Ma‘bad"
 msgstr "خیمه ام‌معبد"
-
-#: src/content/first-chapter.js
-#, ai
-msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk."
-msgstr "در ادامه راه، آن‌ها در خیمه ام‌معبد از قبیله خزاعه توقف کردند و خواستار مهمان‌نوازی شدند. او گفت که هیچ غذایی برای پذیرایی ندارد و هیچ گوسفندی جز یک گوسفند ماده که شیر نمی‌دهد، ندارد."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
-msgstr "پیامبر ﷺ آن گوسفند را خواست، دستش را روی پستانش کشید و خدا را خواند. او آن را در ظرفی بزرگ دوشید تا اینکه کف کرد و فرمود: بنوش، ای ام‌معبد. ابن‌کثیر اشاره می‌کند که داستان او مشهور است و از طریق راه‌هایی نقل شده که یکدیگر را تقویت می‌کنند."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1045,11 +913,6 @@ msgstr "ابن‌کثیر اشاره می‌کند که واقدی نیز این
 #, ai
 msgid "Ibn Ishaq introduces this with “as it has reached me”."
 msgstr "ابن‌اسحاق این مطلب را با عبارت «بر اساس آنچه به من رسیده» آغاز می‌کند."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance."
-msgstr "آن‌ها در خیمه ام‌معبد توقف کردند؛ او فقط یک گوسفند بدون شیر داشت که پس از آن شیر فراوانی داد."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1448,16 +1311,6 @@ msgstr "سیره و تاریخ کلاسیک"
 #, ai
 msgid "Modern authors"
 msgstr "نویسندگان معاصر"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "شواهد روی نقشه"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "هر نقطه نورانی بخشی است که در این فصل به آن استناد شده و در محل مورد نظر قرار گرفته است. برای خواندن آن، یکی را انتخاب کنید."
 
 #: src/content/lenses.js
 #, ai
@@ -1912,10 +1765,12 @@ msgid "Answers"
 msgstr "پاسخ‌ها"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hide the passage"
 msgstr "پنهان کردن متن"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Read the passage"
 msgstr "خواندن متن"
@@ -1924,10 +1779,6 @@ msgstr "خواندن متن"
 #: src/routes/Journey.svelte
 msgid "I don’t know"
 msgstr "نمی‌دانم"
-
-#: src/routes/Journey.svelte
-msgid "Open book: reading the passage is part of learning."
-msgstr "کتاب‌باز: خواندن متن بخشی از یادگیری است."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -1961,6 +1812,7 @@ msgstr "ارزش بازخوانی دارد"
 msgid "<0/> Practise again"
 msgstr "<0/> تمرین دوباره"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Back to the journey"
 msgstr "<0/> بازگشت به مسیر"
@@ -2003,28 +1855,8 @@ msgid "Arabic original and source details"
 msgstr "متن اصلی عربی و جزئیات منبع"
 
 #: src/lib/ChapterReader.svelte
-msgid "Choose a chapter"
-msgstr "فصلی انتخاب کنید"
-
-#: src/lib/ChapterReader.svelte
-msgid "Close chapter"
-msgstr "بستن فصل"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter sections"
-msgstr "بخش‌های فصل"
-
-#: src/lib/ChapterReader.svelte
 msgid "Loading…"
 msgstr "در حال بارگذاری…"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter contents"
-msgstr "محتوای فصل"
-
-#: src/lib/ChapterReader.svelte
-msgid "In this chapter"
-msgstr "در این فصل"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
@@ -2048,6 +1880,9 @@ msgid "Continue with source-study questions"
 msgstr "ادامه با پرسش‌های مطالعهٔ منابع"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Try again"
 msgstr "دوباره تلاش کنید"
 
@@ -2058,10 +1893,6 @@ msgstr "بازگشت به داستان"
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
 msgstr "پاسخ‌های درست از کل پرسش‌های این بخش."
-
-#: src/routes/Journey.svelte
-msgid "Hijrah chapters"
-msgstr "فصل‌های هجرت"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2079,37 +1910,13 @@ msgstr "نمایش کامل نقشه"
 msgid "Explore the map"
 msgstr "کاوش نقشه"
 
-#: src/routes/Journey.svelte
-msgid "Select a book marker to read its chapter."
-msgstr "برای خواندن فصل، نشان کتاب را انتخاب کنید."
-
-#: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "آغاز سفر"
-
-#: src/routes/Journey.svelte
-msgid "Locations are schematic."
-msgstr "مکان‌ها شماتیک هستند."
-
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original"
 msgstr "متن اصلی عربی"
 
 #: src/lib/ChapterReader.svelte
-msgid "A chapter edition is not ready in this language. Showing the English edition."
-msgstr "نسخهٔ این فصل به این زبان هنوز آماده نیست. نسخهٔ انگلیسی نمایش داده می‌شود."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "خلاصه — نه ترجمه"
-
-#: src/routes/Journey.svelte
-msgid "Read the chapter"
-msgstr "فصل را بخوانید"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full chapter, with its sources and practice"
-msgstr "<0/> فصل کامل، همراه با منابع و تمرین‌ها"
 
 #: src/routes/Journey.svelte
 msgid "read in <0/><1/>"
@@ -2120,49 +1927,33 @@ msgstr "نقل‌شده در <0/><1/>"
 msgid ", vol. {0}, p. {1}"
 msgstr "، ج {0}، ص {1}"
 
-#: src/lib/ChapterReader.svelte
-msgid "Reading sections"
-msgstr "بخش‌های متن"
+#: src/content/first-chapter.js
+msgid "In Ibn Ishaq’s account, “as it reached me,” ‘Ali stayed behind for another reason too. People in Makkah had left their valuables with the Prophet ﷺ for safekeeping, knowing his honesty; the report says ‘Ali was to return their deposits."
+msgstr "در روایت ابن اسحاق، با قید «چنان‌که به من رسیده است»، علی به دلیل دیگری نیز در مکه ماند. مردم مکه چون از امانت‌داری پیامبر ﷺ آگاه بودند، اموال خود را به امانت نزد او می‌گذاشتند؛ روایت می‌گوید علی قرار بود امانت‌هایشان را به آنان بازگرداند."
 
-#: src/lib/ChapterReader.svelte
-msgid "Contents"
-msgstr "فهرست مطالب"
+#: src/content/first-chapter.js
+msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She said they had no food and no milk-giving ewe."
+msgstr "سپس در راه نزد خیمهٔ ام‌معبد خزاعی فرود آمدند و از او پذیرایی خواستند. او گفت که نه خوراکی دارند و نه گوسفند شیردهی."
 
-#: src/lib/ChapterReader.svelte
-msgid "In this reading"
-msgstr "در این متن"
+#: src/content/first-chapter.js
+msgid "The report says the Prophet ﷺ called for one of her sheep, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
+msgstr "روایت می‌گوید پیامبر ﷺ خواست یکی از گوسفندان او را بیاورند، دست بر پستانش کشید و خدا را خواند. آن را در ظرفی بزرگ دوشید تا شیر کف کرد و گفت: «بنوش، ای ام‌معبد.» ابن کثیر یادآور می‌شود که داستان او مشهور است و از راه‌های روایی‌ای نقل شده که یکدیگر را تقویت می‌کنند."
 
-#: src/lib/ChapterReader.svelte
-msgid "This reading is not ready in this language yet. Showing the English edition."
-msgstr "این متن هنوز به این زبان آماده نیست. نسخه انگلیسی نمایش داده می‌شود."
+#: src/content/first-chapter.js
+msgid "According to ‘Urwa, he stayed among them for a few more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
+msgstr "بنا بر گزارش عروه، او چند شب بیش از ده شب در میان آنان ماند. در آنجا مسجدی را که روایت آن را «بنیان‌شده بر تقوا» می‌نامد بنا کرد و در آن نماز خواند."
 
-#: src/lib/ChapterReader.svelte
-msgid "More readings"
-msgstr "خواندنی‌های بیشتر"
-
-#: src/lib/ChapterReader.svelte
-msgid "Previous reading"
-msgstr "متن قبلی"
-
-#: src/lib/ChapterReader.svelte
-msgid "Next reading"
-msgstr "متن بعدی"
+#: src/content/first-chapter.js
+msgid "They stopped at Umm Ma‘bad’s tent. She said they had no food or milk-giving ewe; the report then describes milk from one of her sheep."
+msgstr "نزد خیمهٔ ام‌معبد فرود آمدند. او گفت که نه خوراکی دارند و نه گوسفند شیردهی؛ سپس روایت از دوشیدن یکی از گوسفندان او سخن می‌گوید."
 
 #: src/routes/Journey.svelte
-msgid "Readings"
-msgstr "خواندنی‌ها"
+msgid "Original source ↗"
+msgstr "منبع اصلی ↗"
 
 #: src/routes/Journey.svelte
-msgid "Select a book marker to open its reading."
-msgstr "برای باز کردن هر متن، یک نشانگر کتاب را انتخاب کنید."
-
-#: src/routes/Journey.svelte
-msgid "Hijrah readings"
-msgstr "خواندنی‌های هجرت"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full reading, with its sources and practice"
-msgstr "<0/> متن کامل، به همراه منابع و تمرین"
+msgid "Context"
+msgstr "زمینه"
 
 #: src/routes/Journey.svelte
 msgid "Source passages"
@@ -2181,21 +1972,15 @@ msgid "Languages"
 msgstr "زبان‌ها"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Beneath the surface"
 msgstr "لایه‌های زیرین"
-
-#: src/routes/Journey.svelte
-msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The readings go deeper into each part of the story, and the practice questions are drawn from the same passages."
-msgstr "هر پاراگراف بر پایه‌ی فرازی از منابع کهن عربی نگاشته شده و دارای پیوندی به صفحه‌ی آن در «تُراث» است. خواندنی‌ها به ژرفای هر بخش از داستان می‌پردازند و پرسش‌های تمرینی از دل همین فرازها طرح شده‌اند."
 
 #: src/routes/Journey.svelte
 msgid "The narration is in Arabic and English, and the map is built from real elevation data."
 msgstr "روایت به زبان‌های عربی و انگلیسی است و نقشه بر پایه‌ی داده‌های واقعی ارتفاعی ساخته شده است."
 
 #: src/routes/Journey.svelte
-msgid "What's beneath the surface <0/>"
-msgstr "آنچه در لایه‌های زیرین نهفته است <0/>"
-
 #: src/routes/Journey.svelte
 msgid "Behind the journey <0/>"
 msgstr "در پس این سفر <0/>"
@@ -2219,10 +2004,6 @@ msgstr "بستن"
 #: src/routes/Journey.svelte
 msgid "<0>A guided journey</0> in nine stages across a map built from real elevation data, narrated in Arabic and English."
 msgstr "<0>سفری هدایت‌شده</0> در ۹ مرحله بر روی نقشه‌ای برگرفته از داده‌های ارتفاعی واقعی، همراه با روایت صوتی به عربی و انگلیسی."
-
-#: src/routes/Journey.svelte
-msgid "<0>Readings</0> that go deeper into each part of the story, each with its source passages."
-msgstr "<0>خواندنی‌هایی</0> برای آشنایی عمیق‌تر با هر بخش از داستان، همراه با متون منابع اصلی."
 
 #: src/routes/Journey.svelte
 msgid "<0>Sources on the map</0>, placed where they speak of, and a day-by-day timeline that shows how each date is known."
@@ -2253,10 +2034,6 @@ msgid "<0>One Arabic core.</0> The events were set out as records and claims, ea
 msgstr "<0>یک هسته واحد به زبان عربی.</0> وقایع به‌صورت گزاره‌ها و داده‌ها تدوین شده و هر یک به متون مؤید خود متصل‌اند. تمام مطالب این برنامه از همین هسته سرچشمه می‌گیرد."
 
 #: src/routes/Journey.svelte
-msgid "<0>Written in Arabic first.</0> Each reading was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
-msgstr "<0>نخست به عربی نگاشته شد.</0> هر متن خواندنی ابتدا بر پایه این هسته به زبان عربی تألیف شد، و متونی که نمایش داده می‌شوند عیناً از متن منبع استخراج شده‌اند و هرگز بازنویسی دستی نشده‌اند."
-
-#: src/routes/Journey.svelte
 msgid "<0>Translated from the Arabic.</0> The other languages are translated directly from the Arabic, not through English."
 msgstr "<0>ترجمه‌شده از متن عربی.</0> سایر زبان‌ها مستقیماً از زبان عربی ترجمه شده‌اند، نه از طریق انگلیسی."
 
@@ -2276,33 +2053,43 @@ msgstr "<0>هوش مصنوعی، متکی به منابع.</0> ابزارهای 
 msgid "How it was made"
 msgstr "نحوه ساخت"
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Reading mode selected. The same journey is available without narration."
 msgstr "حالت مطالعه انتخاب شد. همین مسیر بدون روایت صوتی در دسترس است."
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Journey complete. Recap opened."
 msgstr "سفر کامل شد. مرور خلاصه باز شد."
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey begins, with preparations for departure."
 msgstr "جایی که سفر با آماده‌سازی برای عزیمت آغاز می‌شود."
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey closes, with arrival and a new beginning."
 msgstr "جایی که سفر با رسیدن و آغازی نو به پایان می‌رسد."
 
-#: src/routes/Journey.svelte
+#: src/lib/guide-provider.js
 msgid "The offline journey notes do not establish an answer to that question."
 msgstr "یادداشت‌های آفلاین سفر پاسخی برای این پرسش ارائه نمی‌دهند."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "That stage is not available."
 msgstr "این مرحله در دسترس نیست."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Chapters"
 msgstr "فصل‌ها"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to read its chapter."
+msgstr "برای خواندن فصل، نشان کتاب را انتخاب کنید."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah chapters"
+msgstr "فصل‌های هجرت"
 
 #: src/routes/Journey.svelte
 msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
@@ -2333,9 +2120,11 @@ msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from t
 msgstr "<0>ابتدا به عربی نگاشته شده است.</0> هر فصل از اساس به عربی نوشته شده و فرازهای ارائه‌شده متن دقیق منبع هستند، بدون هیچ بازنویسی."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Journey stages"
 msgstr "مراحل سفر"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Complete the journey"
 msgstr "<0/> تکمیل سفر"
@@ -2345,6 +2134,10 @@ msgid "Journey complete"
 msgstr "پایان سفر"
 
 #: src/routes/Journey.svelte
+msgid "<0/> The full chapter, with its sources and practice"
+msgstr "<0/> فصل کامل، همراه با منابع و تمرین‌ها"
+
+#: src/routes/Journey.svelte
 msgid "Ask about this journey…"
 msgstr "درباره این سفر بپرسید…"
 
@@ -2352,22 +2145,43 @@ msgstr "درباره این سفر بپرسید…"
 msgid "Journey notes · offline"
 msgstr "یادداشت‌های سفر · آفلاین"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
+msgid "Close chapter"
+msgstr "بستن فصل"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "نسخهٔ این فصل به این زبان هنوز آماده نیست. نسخهٔ انگلیسی نمایش داده می‌شود."
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter sections"
+msgstr "بخش‌های فصل"
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter contents"
+msgstr "محتوای فصل"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this chapter"
+msgstr "در این فصل"
+
+#: src/lib/ChapterReader.svelte
 msgid "More chapters"
 msgstr "فصل‌های بیشتر"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Previous chapter"
 msgstr "فصل قبلی"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Next chapter"
 msgstr "فصل بعدی"
 
-#: src/routes/Journey.svelte
+#: src/lib/SceneCanvas.svelte
 msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
 msgstr "تصویرسازی سه‌بعدی در این دستگاه در دسترس نیست. همچنان می‌توانید متن کامل سفر را بخوانید."
 
+#. 0: fmt_num(stage_facts.sections); 1: fmt_num( stage_facts.passages, ); 2: fmt_num(stage_facts.questions)
 #: src/routes/Journey.svelte
 msgid "{0} sections · {1} source passages · {2} questions"
 msgstr "{0} بخش · {1} متن منبع · {2} پرسش"

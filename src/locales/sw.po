@@ -57,12 +57,6 @@ msgid "Guided presentation paused. Your position is saved."
 msgstr "Uwasilishaji unaoongozwa umesitishwa. Nafasi yako imehifadhiwa."
 
 #: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "That chapter stop is not available."
-msgstr "Kituo hicho cha sura hakipatikani."
-
-#: src/routes/Journey.svelte
 #, ai
 msgid "Onward stage opened. Your guided position is preserved."
 msgstr "Hatua ya mbele imefunguliwa. Nafasi yako ya mwongozo imehifadhiwa."
@@ -139,46 +133,14 @@ msgstr "<0/> Safari ya Sira"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "<0>Sources</0> shows the passage behind each paragraph, and what it does not establish."
-msgstr "<0>Vyanzo</0> huonyesha kifungu kilicho nyuma ya kila aya, na kile ambacho hakithibitishi."
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "<0>Space</0> play or pause · <1/> <2/> change stage · <3>Esc</3> close"
 msgstr "<0>Space</0> cheza au sitisha · <1/> <2/> badilisha hatua · <3>Esc</3> funga"
 
-#. 0: fmt_num(chapter.steps.length)
 #: src/routes/Journey.svelte
-#, ai
-msgid "{0} stages"
-msgstr "Hatua {0}"
-
-#. 0: fmt_num(total_minutes)
-#: src/routes/Journey.svelte
-#, ai
-msgid "about {0} minutes"
-msgstr "takriban dakika {0}"
-
-#. 0: fmt_num(chapter.sources.length)
-#: src/routes/Journey.svelte
-#, ai
-msgid "{0} cited passages"
-msgstr "Vifungu {0} vilivyotajwa"
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Begin the journey"
 msgstr "<0/> Anza safari"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Read instead"
-msgstr "<0/> Soma badala yake"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter one"
-msgstr "Sura ya kwanza"
 
 #: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
@@ -186,12 +148,9 @@ msgstr "Sura ya kwanza"
 msgid "The Hijrah"
 msgstr "Hijrah"
 
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter stages"
-msgstr "Hatua za sura"
-
 #. 0: index + 1; 1: step.title
+#. 0: index + 1; 1: step.title
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "Stage {0}: {1}"
@@ -242,19 +201,12 @@ msgstr "Nafasi katika hatua hii"
 msgid "{0} of {1}"
 msgstr "{0} kati ya {1}"
 
-#: src/routes/Journey.svelte
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0/> Complete the chapter"
-msgstr "<0/> Kamilisha sura"
-
 #. 0: chapter.steps[selected_index + 1].title
 #: src/routes/Journey.svelte
 #, ai
 msgid "Continue: {0} <0/>"
 msgstr "Endelea: {0} <0/>"
 
-#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 #, ai
 msgid "<0/> Read"
@@ -281,11 +233,6 @@ msgstr "Hatua ya {0} kati ya {1} · {2}"
 #, ai
 msgid "Close reading"
 msgstr "Funga usomaji"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Chapter complete"
-msgstr "Sura imekamilika"
 
 #: src/routes/Journey.svelte
 #, ai
@@ -336,11 +283,6 @@ msgstr "Funga swali"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Ask about this chapter…"
-msgstr "Uliza kuhusu sura hii…"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "Ask"
 msgstr "Uliza"
 
@@ -368,11 +310,6 @@ msgstr "Rudi kwenye jibu"
 #, ai
 msgid "Back to the journey"
 msgstr "Rudi kwenye safari"
-
-#: src/lib/SceneCanvas.svelte
-#, ai
-msgid "The 3D illustration is unavailable on this device. The full chapter is still here to read."
-msgstr "Mchoro wa 3D haupatikani kwenye kifaa hiki. Sura nzima bado ipo hapa kwa ajili ya kusomwa."
 
 #: src/content/first-chapter.js
 #, ai
@@ -488,11 +425,6 @@ msgid "The account goes on to describe a date-drying yard that became the site o
 msgstr "Masimulizi hayo yanaendelea kueleza uwanja wa kukaushia tende ambao ukawa ndio eneo la msikiti wa Mtume huko Madinah. Yanasajili Mtume akibeba matofali pamoja na wale waliokuwa wakiujenga."
 
 #: src/content/first-chapter.js
-#, ai
-msgid "You followed preparations, a period of shelter, the onward journey, and arrival. You met different forms of help and read accounts of reassurance. This is a selected account, not a complete history of every episode or consequence of the Hijrah."
-msgstr "Ulifuata maandalizi, kipindi cha kujificha, kuendelea kwa safari, na kuwasili. Ulikutana na aina mbalimbali za msaada na kusoma masimulizi ya utulivu. Haya ni masimulizi yaliyochaguliwa, si historia kamili ya kila tukio au matokeo ya Hijrah."
-
-#: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
@@ -590,6 +522,7 @@ msgstr "Sehemu iliyochaguliwa inakumbusha juu ya wawili hao waliokuwa pangoni na
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
 #: src/content/first-chapter.js
+#: src/content/first-chapter.js
 #: src/content/timeline.js
 #, ai
 msgid "Ibn Kathir, al-Bidayah wa al-Nihayah"
@@ -669,11 +602,6 @@ msgstr "Makkah"
 
 #: src/lib/scene-manifest.js
 #, ai
-msgid "Where the chapter begins, with preparations for departure."
-msgstr "Ambapo sura inapoanzia, kukiwa na maandalizi ya kuondoka."
-
-#: src/lib/scene-manifest.js
-#, ai
 msgid "Mount Thawr"
 msgstr "Mlima Thawr"
 
@@ -698,11 +626,6 @@ msgstr "Kiongozi wa njia aliwaongoza kupitia pwani. Mstari huu ni wa mchoro tu, 
 #, ai
 msgid "Madinah"
 msgstr "Madinah"
-
-#: src/lib/scene-manifest.js
-#, ai
-msgid "Where the chapter closes, with arrival and a new beginning."
-msgstr "Ambapo sura inapoishia, kukiwa na kuwasili na mwanzo mpya."
 
 #: src/routes/Journey.svelte
 #, ai
@@ -768,11 +691,6 @@ msgstr "Nafasi iliyoongozwa imerejeshwa. Bonyeza Play ili kuendelea."
 
 #: src/lib/journey-state.js
 #, ai
-msgid "Reading mode selected. The same chapter is available without narration."
-msgstr "Hali ya kusoma imechaguliwa. Sura hiyo hiyo inapatikana bila usimulizi wa sauti."
-
-#: src/lib/journey-state.js
-#, ai
 msgid "Scene mode selected."
 msgstr "Hali ya mandhari imechaguliwa."
 
@@ -786,11 +704,6 @@ msgstr "Chanzo kimefunguliwa. Uchezaji unaoongozwa unabaki umesitishwa."
 msgid "Panel closed. Press Resume journey to return to the guided position."
 msgstr "Paneli imefungwa. Bonyeza Endelea na safari ili kurejea kwenye nafasi iliyoongozwa."
 
-#: src/lib/journey-state.js
-#, ai
-msgid "Chapter complete. Recap opened."
-msgstr "Sura imekamilika. Muhtasari umefunguliwa."
-
 #: src/routes/Journey.svelte
 #, ai
 msgid "Researching in Turath…"
@@ -798,18 +711,8 @@ msgstr "Inatafuta katika Turath…"
 
 #: src/routes/Journey.svelte
 #, ai
-msgid "Chapter notes · offline"
-msgstr "Maelezo ya sura · nje ya mtandao"
-
-#: src/routes/Journey.svelte
-#, ai
 msgid "This passage is shortened. Open the original page for its full context."
 msgstr "Kifungu hiki kimefupishwa. Fungua ukurasa asili kwa muktadha wake kamili."
-
-#: src/lib/guide-provider.js
-#, ai
-msgid "The offline chapter notes do not establish an answer to that question."
-msgstr "Maelezo ya sura ya nje ya mtandao hayatoi jibu la swali hilo."
 
 #: src/routes/Journey.svelte
 #, ai
@@ -878,11 +781,6 @@ msgstr "Quba: kituo cha kwanza"
 
 #: src/content/first-chapter.js
 #, ai
-msgid "He stayed among them for more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
-msgstr "Alikaa miongoni mwao kwa zaidi ya masiku kumi. Hapo alianzisha msikiti ambao simulizi inauita ule ulioanzishwa juu ya ucha Mungu, na akaswali ndani yake."
-
-#: src/content/first-chapter.js
-#, ai
 msgid "Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates."
 msgstr "Kisha akapanda mnyama na kuendelea na safari, huku watu wakitembea kando yake, hadi ngamia wake alipopiga magoti mahali fulani huko Madinah ambapo baadhi ya Waislamu walikuwa tayari wakiswali. Palikuwa ni uwanja wa kukaushia tende."
 
@@ -930,21 +828,6 @@ msgstr "Alipanda mnyama huku watu wakitembea kando yake hadi ngamia wake alipopi
 #, ai
 msgid "It does not establish the route taken through the town or the appearance of the place."
 msgstr "Haionyeshi njia iliyopitwa ndani ya mji au jinsi eneo hilo lilivyokuwa linaonekana."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage with AI-generated narration."
-msgstr "<0>Cheza</0> inakuongoza katika hatua za sura hii hatua kwa hatua kwa masimulizi yaliyozalishwa na AI."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Play</0> walks the chapter stage by stage. The captions keep time over a quiet wind."
-msgstr "<0>Cheza</0> inakuongoza katika hatua za sura hii hatua kwa hatua. Maelezo ya maandishi yanaenda sambamba na sauti ya upepo mtulivu."
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "<0>Ask</0> uses the chapter’s context to research in Turath and answer with source citations."
-msgstr "<0>Uliza</0> inatumia muktadha wa sura hii kufanya utafiti katika Turath na kujibu kwa kutaja vyanzo."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1003,23 +886,8 @@ msgstr "Usiku huo walikusanyika mlangoni kwake, wakimsubiri alale. Akamwambia �
 
 #: src/content/first-chapter.js
 #, ai
-msgid "‘Ali stayed behind for another reason too. People in Makkah left their valuables with the Prophet ﷺ for safekeeping, because they knew his honesty. ‘Ali was to return every one of them."
-msgstr "‘Ali alibaki nyuma kwa sababu nyingine pia. Watu wa Makkah walikuwa wakiacha amana zao za thamani kwa Mtume ﷺ ili azitunze, kwa sababu walijua uaminifu wake. ‘Ali alitakiwa kumrudishia kila mmoja wao amana yake."
-
-#: src/content/first-chapter.js
-#, ai
 msgid "The tent of Umm Ma‘bad"
 msgstr "Hema la Umm Ma‘bad"
-
-#: src/content/first-chapter.js
-#, ai
-msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She had no food to offer, she said, and no ewe but one that gave no milk."
-msgstr "Mbele zaidi walisimama kwenye hema la Umm Ma‘bad wa kabila la Khuza‘ah na kuomba ukarimu. Alisema hakuwa na chakula cha kuwapa, na hakuwa na kondoo jike isipokuwa mmoja tu ambaye hakuwa akitoa maziwa."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "The Prophet ﷺ called for the ewe, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
-msgstr "Mtume ﷺ alimwita kondoo huyo, akapitisha mkono wake juu ya kiwele chake na akamwomba Allah. Akamkamua maziwa kwenye chombo kikubwa hadi yakatoa povu, na akasema: kunywa, Umm Ma‘bad. Ibn Kathir anabainisha kuwa kisa chake kinajulikana sana na kinakuja kupitia njia zinazoimarishana zenyewe kwa zenyewe."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1045,11 +913,6 @@ msgstr "Ibn Kathir anabainisha kuwa al-Waqidi pia anasimulia hili, akichanganya 
 #, ai
 msgid "Ibn Ishaq introduces this with “as it has reached me”."
 msgstr "Ibn Ishaq anaanza kueleza hili kwa kusema \"kama ilivyonifikia\"."
-
-#: src/content/first-chapter.js
-#, ai
-msgid "They stopped at Umm Ma‘bad’s tent; she had only a ewe without milk, which then gave milk in abundance."
-msgstr "Walisimama kwenye hema la Umm Ma‘bad; alikuwa tu na kondoo jike asiye na maziwa, ambaye kisha alitoa maziwa kwa wingi."
 
 #: src/content/first-chapter.js
 #, ai
@@ -1448,16 +1311,6 @@ msgstr "Sira za kale na historia"
 #, ai
 msgid "Modern authors"
 msgstr "Waandishi wa sasa"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Evidence on the map"
-msgstr "Ushahidi kwenye ramani"
-
-#: src/routes/Journey.svelte
-#, ai
-msgid "Each point of light is a passage this chapter cites, placed where it speaks of. Select one to read it."
-msgstr "Kila nukta ya mwanga ni kifungu ambacho sura hii inanukuu, kilichowekwa pale inapozungumzia. Chagua kimoja ili ukisome."
 
 #: src/content/lenses.js
 #, ai
@@ -1912,10 +1765,12 @@ msgid "Answers"
 msgstr "Majibu"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Hide the passage"
 msgstr "Ficha kifungu"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "Read the passage"
 msgstr "Soma kifungu"
@@ -1924,10 +1779,6 @@ msgstr "Soma kifungu"
 #: src/routes/Journey.svelte
 msgid "I don’t know"
 msgstr "Sijui"
-
-#: src/routes/Journey.svelte
-msgid "Open book: reading the passage is part of learning."
-msgstr "Kitabu wazi: kusoma kifungu ni sehemu ya kujifunza."
 
 #: src/lib/ChapterReader.svelte
 #: src/routes/Journey.svelte
@@ -1961,6 +1812,7 @@ msgstr "Inafaa kusoma tena"
 msgid "<0/> Practise again"
 msgstr "<0/> Fanya mazoezi tena"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Back to the journey"
 msgstr "<0/> Rudi kwenye safari"
@@ -2003,28 +1855,8 @@ msgid "Arabic original and source details"
 msgstr "Nakala asilia ya Kiarabu na maelezo ya chanzo"
 
 #: src/lib/ChapterReader.svelte
-msgid "Choose a chapter"
-msgstr "Chagua sura"
-
-#: src/lib/ChapterReader.svelte
-msgid "Close chapter"
-msgstr "Funga sura"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter sections"
-msgstr "Sehemu za sura"
-
-#: src/lib/ChapterReader.svelte
 msgid "Loading…"
 msgstr "Inapakia…"
-
-#: src/lib/ChapterReader.svelte
-msgid "Chapter contents"
-msgstr "Yaliyomo katika sura"
-
-#: src/lib/ChapterReader.svelte
-msgid "In this chapter"
-msgstr "Katika sura hii"
 
 #: src/lib/ChapterReader.svelte
 msgid "This selection is shown in an earlier reading."
@@ -2048,6 +1880,9 @@ msgid "Continue with source-study questions"
 msgstr "Endelea na maswali ya uchunguzi wa vyanzo"
 
 #: src/lib/ChapterReader.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Try again"
 msgstr "Jaribu tena"
 
@@ -2058,10 +1893,6 @@ msgstr "Rudi kwenye hadithi"
 #: src/lib/ChapterReader.svelte
 msgid "Correct answers out of the questions in this set."
 msgstr "Majibu sahihi, kati ya maswali katika seti hii."
-
-#: src/routes/Journey.svelte
-msgid "Hijrah chapters"
-msgstr "Sura kuhusu Hijra"
 
 #. 0: source.reference
 #: src/routes/Journey.svelte
@@ -2079,37 +1910,13 @@ msgstr "Onyesha ramani nzima"
 msgid "Explore the map"
 msgstr "Chunguza ramani"
 
-#: src/routes/Journey.svelte
-msgid "Select a book marker to read its chapter."
-msgstr "Chagua alama ya kitabu ili kusoma sura yake."
-
-#: src/routes/Journey.svelte
-msgid "Begin the journey"
-msgstr "Anza safari"
-
-#: src/routes/Journey.svelte
-msgid "Locations are schematic."
-msgstr "Maeneo yameonyeshwa kwa mfano."
-
 #: src/lib/ChapterReader.svelte
 msgid "Arabic original"
 msgstr "Maandishi asilia ya Kiarabu"
 
 #: src/lib/ChapterReader.svelte
-msgid "A chapter edition is not ready in this language. Showing the English edition."
-msgstr "Toleo la sura katika lugha hii bado haliko tayari. Toleo la Kiingereza linaonyeshwa."
-
-#: src/lib/ChapterReader.svelte
 msgid "Summary — not a translation"
 msgstr "Muhtasari — si tafsiri"
-
-#: src/routes/Journey.svelte
-msgid "Read the chapter"
-msgstr "Soma sura"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full chapter, with its sources and practice"
-msgstr "<0/> Sura kamili, pamoja na vyanzo vyake na mazoezi"
 
 #: src/routes/Journey.svelte
 msgid "read in <0/><1/>"
@@ -2120,49 +1927,33 @@ msgstr "imenukuliwa katika <0/><1/>"
 msgid ", vol. {0}, p. {1}"
 msgstr ", juzuu {0}, uk. {1}"
 
-#: src/lib/ChapterReader.svelte
-msgid "Reading sections"
-msgstr "Sehemu za masomo"
+#: src/content/first-chapter.js
+msgid "In Ibn Ishaq’s account, “as it reached me,” ‘Ali stayed behind for another reason too. People in Makkah had left their valuables with the Prophet ﷺ for safekeeping, knowing his honesty; the report says ‘Ali was to return their deposits."
+msgstr "Katika simulizi la Ibn Ishaq, kwa maneno “kama nilivyofikiwa na habari”, Ali alibaki nyuma kwa sababu nyingine pia. Watu wa Makka walikuwa wakimwachia Mtume ﷺ mali zao azitunze kwa sababu walijua uaminifu wake; simulizi hilo linasema Ali angewarudishia amana zao."
 
-#: src/lib/ChapterReader.svelte
-msgid "Contents"
-msgstr "Yaliyomo"
+#: src/content/first-chapter.js
+msgid "Further on they stopped at the tent of Umm Ma‘bad of Khuza‘ah and asked for hospitality. She said they had no food and no milk-giving ewe."
+msgstr "Baadaye njiani walisimama kwenye hema la Umm Ma‘bad wa kabila la Khuza‘a na kuomba ukarimu. Alisema hawakuwa na chakula wala kondoo jike anayetoa maziwa."
 
-#: src/lib/ChapterReader.svelte
-msgid "In this reading"
-msgstr "Katika somo hili"
+#: src/content/first-chapter.js
+msgid "The report says the Prophet ﷺ called for one of her sheep, passed his hand over its udder and called on Allah. He milked it into a large vessel until it frothed, and said: drink, Umm Ma‘bad. Ibn Kathir notes that her story is well known and comes through routes that strengthen one another."
+msgstr "Simulizi linasema Mtume ﷺ aliomba aletwe mmoja wa kondoo wake, akapapasa kiwele chake kwa mkono na kumuomba Allah. Akamkamua ndani ya chombo kikubwa hadi maziwa yakatoa povu, akasema: “Kunywa, Umm Ma‘bad.” Ibn Kathir anataja kuwa kisa chake kinajulikana na kimesimuliwa kwa njia za mapokezi zinazotiana nguvu."
 
-#: src/lib/ChapterReader.svelte
-msgid "This reading is not ready in this language yet. Showing the English edition."
-msgstr "Somo hili bado haliko tayari katika lugha hii. Inaonyesha toleo la Kiingereza."
+#: src/content/first-chapter.js
+msgid "According to ‘Urwa, he stayed among them for a few more than ten nights. There he founded the mosque that the account calls the one founded on piety, and he prayed in it."
+msgstr "Kwa mujibu wa simulizi la ‘Urwa, alikaa nao kwa usiku zaidi ya kumi kwa kiasi cha usiku chache. Huko aliujenga msikiti ambao simulizi linautaja kuwa umejengwa juu ya uchamungu, na akaswali ndani yake."
 
-#: src/lib/ChapterReader.svelte
-msgid "More readings"
-msgstr "Masomo zaidi"
-
-#: src/lib/ChapterReader.svelte
-msgid "Previous reading"
-msgstr "Somo lililopita"
-
-#: src/lib/ChapterReader.svelte
-msgid "Next reading"
-msgstr "Somo linalofuata"
+#: src/content/first-chapter.js
+msgid "They stopped at Umm Ma‘bad’s tent. She said they had no food or milk-giving ewe; the report then describes milk from one of her sheep."
+msgstr "Walisimama kwenye hema la Umm Ma‘bad. Alisema hawakuwa na chakula wala kondoo jike anayetoa maziwa; kisha simulizi linaeleza kukamuliwa kwa mmoja wa kondoo wake."
 
 #: src/routes/Journey.svelte
-msgid "Readings"
-msgstr "Masomo"
+msgid "Original source ↗"
+msgstr "Chanzo asilia ↗"
 
 #: src/routes/Journey.svelte
-msgid "Select a book marker to open its reading."
-msgstr "Chagua alama ya kitabu ili kufungua somo lake."
-
-#: src/routes/Journey.svelte
-msgid "Hijrah readings"
-msgstr "Masomo ya Hijrah"
-
-#: src/routes/Journey.svelte
-msgid "<0/> The full reading, with its sources and practice"
-msgstr "<0/> Somo kamili, pamoja na vyanzo vyake na mazoezi"
+msgid "Context"
+msgstr "Muktadha"
 
 #: src/routes/Journey.svelte
 msgid "Source passages"
@@ -2181,21 +1972,15 @@ msgid "Languages"
 msgstr "Lugha"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Beneath the surface"
 msgstr "Chini ya uso"
-
-#: src/routes/Journey.svelte
-msgid "Every paragraph rests on a passage from the classical Arabic sources, with a link to its page on Turath. The readings go deeper into each part of the story, and the practice questions are drawn from the same passages."
-msgstr "Kila aya inategemea kifungu kutoka vyanzo vya kale vya Kiarabu, kukiwa na kiungo cha ukurasa husika kwenye Turath. Masomo haya yanaingia kwa undani katika kila sehemu ya kisa hiki, na maswali ya mazoezi yametolewa kutoka vifungu hivyo hivyo."
 
 #: src/routes/Journey.svelte
 msgid "The narration is in Arabic and English, and the map is built from real elevation data."
 msgstr "Usimulizi upo katika Kiarabu na Kiingereza, na ramani imeundwa kwa data halisi ya mwinuko."
 
 #: src/routes/Journey.svelte
-msgid "What's beneath the surface <0/>"
-msgstr "Nini kipo chini ya uso <0/>"
-
 #: src/routes/Journey.svelte
 msgid "Behind the journey <0/>"
 msgstr "Nyuma ya safari <0/>"
@@ -2219,10 +2004,6 @@ msgstr "Funga"
 #: src/routes/Journey.svelte
 msgid "<0>A guided journey</0> in nine stages across a map built from real elevation data, narrated in Arabic and English."
 msgstr "<0>Safari yenye mwongozo</0> katika hatua tisa kupitia ramani iliyoundwa kwa data halisi za mwinuko, ikisimuliwa kwa Kiarabu na Kiingereza."
-
-#: src/routes/Journey.svelte
-msgid "<0>Readings</0> that go deeper into each part of the story, each with its source passages."
-msgstr "<0>Masomo</0> yanayozama kwa kina katika kila sehemu ya kisa hiki, kila moja ikiwa na dondoo za vyanzo vyake."
 
 #: src/routes/Journey.svelte
 msgid "<0>Sources on the map</0>, placed where they speak of, and a day-by-day timeline that shows how each date is known."
@@ -2253,10 +2034,6 @@ msgid "<0>One Arabic core.</0> The events were set out as records and claims, ea
 msgstr "<0>Kiini kimoja cha Kiarabu.</0> Matukio yalipangwa kama rekodi na madai, kila moja likiwa limefungamana na dondoo zinazolithibitisha. Kila kitu kinachoelezwa kwenye programu hii kinatoka kwenye kiini hiki."
 
 #: src/routes/Journey.svelte
-msgid "<0>Written in Arabic first.</0> Each reading was written in Arabic from the core, and the passages it shows are the exact source text, never retyped."
-msgstr "<0>Imeandikwa kwa Kiarabu kwanza.</0> Kila somo liliandikwa kwa Kiarabu kutoka kwenye kiini hicho, na dondoo zinazoonyeshwa ni matini halisi ya chanzo, bila kuandikwa upya."
-
-#: src/routes/Journey.svelte
 msgid "<0>Translated from the Arabic.</0> The other languages are translated directly from the Arabic, not through English."
 msgstr "<0>Imetafsiriwa kutoka Kiarabu.</0> Lugha nyingine zimetafsiriwa moja kwa moja kutoka Kiarabu, si kupitia Kiingereza."
 
@@ -2276,33 +2053,43 @@ msgstr "<0>AI, ikiongozwa na vyanzo.</0> Zana za AI zilisaidia kuandaa rasimu, k
 msgid "How it was made"
 msgstr "Jinsi ilivyoandaliwa"
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Reading mode selected. The same journey is available without narration."
 msgstr "Hali ya kusoma imechaguliwa. Safari hii pia inapatikana bila masimulizi."
 
-#: src/routes/Journey.svelte
+#: src/lib/journey-state.js
 msgid "Journey complete. Recap opened."
 msgstr "Safari imekamilika. Muhtasari umefunguliwa."
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey begins, with preparations for departure."
 msgstr "Mahali safari inapoanzia, pamoja na maandalizi ya kuondoka."
 
-#: src/routes/Journey.svelte
+#: src/lib/scene-manifest.js
 msgid "Where the journey closes, with arrival and a new beginning."
 msgstr "Mahali safari inapokamilika, pamoja na kuwasili na mwanzo mpya."
 
-#: src/routes/Journey.svelte
+#: src/lib/guide-provider.js
 msgid "The offline journey notes do not establish an answer to that question."
 msgstr "Dokezo za safari za nje ya mtandao hazitoi jibu la swali hilo."
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "That stage is not available."
 msgstr "Hatua hiyo haipatikani."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Chapters"
 msgstr "Sura"
+
+#: src/routes/Journey.svelte
+msgid "Select a book marker to read its chapter."
+msgstr "Chagua alama ya kitabu ili kusoma sura yake."
+
+#: src/routes/Journey.svelte
+msgid "Hijrah chapters"
+msgstr "Sura kuhusu Hijra"
 
 #: src/routes/Journey.svelte
 msgid "Each point of light is a passage this journey cites, placed where it speaks of. Select one to read it."
@@ -2333,9 +2120,11 @@ msgid "<0>Written in Arabic first.</0> Each chapter was written in Arabic from t
 msgstr "<0>Imeandikwa kwa Kiarabu kwanza.</0> Kila sura iliandikwa kwa Kiarabu tangu mwanzo, na vifungu vinavyoonyeshwa ni maandishi halisi ya chanzo, bila kuandikwa upya."
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Journey stages"
 msgstr "Hatua za safari"
 
+#: src/routes/Journey.svelte
 #: src/routes/Journey.svelte
 msgid "<0/> Complete the journey"
 msgstr "<0/> Kamilisha safari"
@@ -2345,6 +2134,10 @@ msgid "Journey complete"
 msgstr "Safari imekamilika"
 
 #: src/routes/Journey.svelte
+msgid "<0/> The full chapter, with its sources and practice"
+msgstr "<0/> Sura kamili, pamoja na vyanzo vyake na mazoezi"
+
+#: src/routes/Journey.svelte
 msgid "Ask about this journey…"
 msgstr "Uliza kuhusu safari hii…"
 
@@ -2352,22 +2145,43 @@ msgstr "Uliza kuhusu safari hii…"
 msgid "Journey notes · offline"
 msgstr "Dokezo za safari · nje ya mtandao"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
+msgid "Close chapter"
+msgstr "Funga sura"
+
+#: src/lib/ChapterReader.svelte
+msgid "A chapter edition is not ready in this language. Showing the English edition."
+msgstr "Toleo la sura katika lugha hii bado haliko tayari. Toleo la Kiingereza linaonyeshwa."
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter sections"
+msgstr "Sehemu za sura"
+
+#: src/lib/ChapterReader.svelte
+msgid "Chapter contents"
+msgstr "Yaliyomo katika sura"
+
+#: src/lib/ChapterReader.svelte
+msgid "In this chapter"
+msgstr "Katika sura hii"
+
+#: src/lib/ChapterReader.svelte
 msgid "More chapters"
 msgstr "Sura zaidi"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Previous chapter"
 msgstr "Sura iliyopita"
 
-#: src/routes/Journey.svelte
+#: src/lib/ChapterReader.svelte
 msgid "Next chapter"
 msgstr "Sura inayofuata"
 
-#: src/routes/Journey.svelte
+#: src/lib/SceneCanvas.svelte
 msgid "The 3D illustration is unavailable on this device. The full journey is still here to read."
 msgstr "Kielelezo cha 3D hakipatikani kwenye kifaa hiki. Safari yote bado inapatikana hapa kwa kusoma."
 
+#. 0: fmt_num(stage_facts.sections); 1: fmt_num( stage_facts.passages, ); 2: fmt_num(stage_facts.questions)
 #: src/routes/Journey.svelte
 msgid "{0} sections · {1} source passages · {2} questions"
 msgstr "Sehemu {0} · Vifungu {1} vya vyanzo · Maswali {2}"

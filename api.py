@@ -200,7 +200,7 @@ def configured_allowlist() -> set[str]:
 class LocalGuideProvider:
     """Finite offline fallback; never presented as a researched model answer."""
 
-    def answer(self, question: str, step_id: str, source_ids: list[str]) -> dict[str, Any]:
+    def answer(self, question: str, step_id: str, source_ids: list[str], language: str = 'en') -> dict[str, Any]:
         normalized = question.lower()
 
         def cited(*ids: str) -> list[str]:
@@ -253,6 +253,7 @@ class LocalGuideProvider:
             "citations": citations,
             "action": action,
             "provider": "local",
+            "language": "en",
             "sources": [],
         }
 
@@ -292,7 +293,7 @@ def guide_response(payload: Any, provider: LocalGuideProvider | OpenAIGuideProvi
         return provider.answer(
             question.strip(), step_id, source_ids, language, recent_turns, audience
         )
-    return (provider or LocalGuideProvider()).answer(question.strip(), step_id, source_ids)
+    return (provider or LocalGuideProvider()).answer(question.strip(), step_id, source_ids, language)
 
 
 def _json(handler: BaseHTTPRequestHandler, value: Any, status: int = 200) -> None:

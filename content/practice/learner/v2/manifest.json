@@ -1,0 +1,129 @@
+{
+  "schema_version": 2,
+  "bundle_id": "hijrah-data-ar-v2",
+  "packet_id": "hijrah-practice-ar-demo-v2",
+  "source_release_id": "hijrah-ar-v1",
+  "source_document_sha256": "18417edcfd72c6bca62a5e004320325a89bee45f52f298b4fd8b1794cb877370",
+  "frozen_v1": {
+    "release_sha256": "66eecf43378519dbaf0c223cd3584e8975317f266d56c8589778892e34fd5aed",
+    "ledger_sha256": "ec77b84be3a657a18cb393a2e92e885da47f9ed24a7aaf5fbf3eb7e58af837b5",
+    "ar_manifest_sha256": "60d36edd3d2c25db0324140c16f7759f2a45a8229ac970fd4f44f34529ea1835",
+    "quiz_bank_sha256": "9c570f00f4858776dc824ded9c6e07b9877fc1c0df4e99b1749181ad9e33bf3c",
+    "practice_packet_sha256": "f1e2908eb9a28d73722db7fbf47d7e78a820f33afe2e1c9fa68a878780c8ef7e",
+    "ar_readings_sha256": "513ef1b970ade658120c314eaeab118a71bc6047d5fe6da09bf3cad7b5b73e06"
+  },
+  "outputs": {
+    "quiz.ar.json": "cf6c420bed28ce0ef14f2bee47d7df3e92b92fe6b09a0256c5a76a0439f59345",
+    "readings.ar.json": "49b7580fe61f79e1f4ab588fa24e09284674d78a6ccb69c62c714fe96ef51003",
+    "src/content/hijrah-practice.v2.ar.json": "ec13e45a7812997dc00dd060956d3f76a5db8c91e279528eadc9277cecb8b04d"
+  },
+  "e03_ordered_parts": [
+    {
+      "unit_id": "H-1655-1021-CRIT-SHAFIIUMAR:p1",
+      "source_start": 0,
+      "source_end": 1164,
+      "source_text_sha256": "8d651a8e0536779f6f93db221d297a1e5e9de4ed7e3eb59cda7ec0cc9225a4da",
+      "kind_ar": "خبر تاريخي",
+      "speaker_ar": "محمد بن إدريس الشافعي"
+    },
+    {
+      "unit_id": "H-1655-1021-CRIT-SHAFIIUMAR:p2",
+      "source_start": 1164,
+      "source_end": 1211,
+      "source_text_sha256": "7d57604ad5fe7b20cbf198a115c815576e403d15ddf3d694989e537587500875",
+      "kind_ar": "قرآن منقول ضمن خبر الشافعي",
+      "speaker_ar": "آية منقولة في المصدر؛ ليست مقابلة مستقلة للمصحف"
+    },
+    {
+      "unit_id": "H-1655-1021-CRIT-SHAFIIUMAR:p3",
+      "source_start": 1211,
+      "source_end": 1811,
+      "source_text_sha256": "d7eb323ebd6b6f46ba629d79049fcbaa09a7ee4b6922175aaa6279e7702aa028",
+      "kind_ar": "خبر تاريخي",
+      "speaker_ar": "محمد بن إدريس الشافعي"
+    }
+  ],
+  "translation_compatibility": {
+    "v1_packages": {
+      "am": {
+        "quiz.json": "de1bae78df4894c09b77683ff1902510d7f350bf4b81477f8ac52b0b2ac37bd9",
+        "readings.json": "d81885d818e1db10ba026ca8b75560aec2a1ccfde6d598fda81c0618025de588"
+      },
+      "bn": {
+        "quiz.json": "a4c36d9b9a3e88d10bfdadb2a1546e1eca0ca9960383e08a65a55d2850b80308",
+        "readings.json": "dd111acb4ec6daf359b1cd91495b1f071ed7c9015970cf2be83e630bd5327f16"
+      },
+      "de": {
+        "quiz.json": "e02b03c9730b56e61c1fad2068f177681508594b7c54243f5a028fcb8af1c852",
+        "readings.json": "5a4f6234cd9b2a1f239a266dd57d59bf3773bf0a9e264b7cdab6c0ec9cd2aa9c"
+      },
+      "en": {
+        "quiz.json": "f3ca177637b1e422faebdede66134108e78404dd14473d53c398a5ff8bb4d8ca",
+        "readings.json": "d3c2304b0a2fadc3301478128ff6a9a93e1889bd16b55acb0f2c2bbaa5694407"
+      },
+      "fa": {
+        "quiz.json": "f2598bb62e823645fe9118374fc07e8340f30116211474270ddebc638dbe2f5b",
+        "readings.json": "c14f3a479860db98de5d72fe88ee8424461009ce0e351f29101923a053a8dec7"
+      },
+      "fr": {
+        "quiz.json": "3623f229af31fc3480d2607d230af25e5b862e52faf2fb10f0d8eaa569cff2dc",
+        "readings.json": "4196234d6ee24ccc6c70af32669ea03e14feb20e77dc7e9e8a25b2a805f9e311"
+      },
+      "ha": {
+        "quiz.json": "c4671431d4aa26cc642ec58fa0a14a20ae88c5a17040560fd84c918d879a0259",
+        "readings.json": "faaac5f85a28a13b5bf5ad6d2d61975defcc8b5a305aa268a656a6b1e1931df8"
+      },
+      "hi": {
+        "quiz.json": "5dc63293c06282854ee239d6755b96773b0031b3a186a5408ae9a914f35dd5af",
+        "readings.json": "d0cb22f4f48f8e3cc89c40b163abff769c7bd54799314a84a3acad5ca066d15d"
+      },
+      "id": {
+        "quiz.json": "11c850e0e1e1842fbdc6e4be146e7cfe78012944fed03ebeadc73d367309232c",
+        "readings.json": "6bca1faee5304a2e8724c8679f404d9228e9d4af7016af83279c828dad80dd4f"
+      },
+      "ms": {
+        "quiz.json": "4e2e0f4c693dd36599ad0a063deec7aae80d3d663bf9608fdf547d84abf6cc7f",
+        "readings.json": "836d9b6b9589db38345719b712dc49442ecaccbfc14e0272026752bc141f920d"
+      },
+      "nl": {
+        "quiz.json": "9341b854c6c2aeb650d0f4713dce6b9cc20ed1b2760c3051d427645964f27e8e",
+        "readings.json": "0118e846de73c5b9fc857cb1f31bd8a5f9835b4b8fded9bddbdab85c4ad39df8"
+      },
+      "ps": {
+        "quiz.json": "f8dc9c5d614e1a107bee4f30eea131bcd4fe0cc343bd3d8383178590fcf021d7",
+        "readings.json": "6a8afd0f45b2e362f31f37caef3d5c94ee941b83131415af533bdc619ae4a1a3"
+      },
+      "si": {
+        "quiz.json": "973598ca6c7c98fe94a9691e20ea7ecf922f928f50db2e7039276401eee1188c",
+        "readings.json": "434a984601938767827eeb0251892fedf21474fea1ec6b87201dc90169e24d91"
+      },
+      "so": {
+        "quiz.json": "0119a8d7784d96204dd03830fb1a07ffae30e183c3909cbf44b030af3024c45a",
+        "readings.json": "c2e22ec9fa6811e3623cc12bdc49254acca105bcf9d37e1f774eafeeed4c93cc"
+      },
+      "sw": {
+        "quiz.json": "0672e7bfdc772b5fd10d66ce7cb5e36527a3c8a04047a0e1d90e782b07025de4",
+        "readings.json": "0a0f7f08a073d374f8acd6a2e770e92a7f1997a599fc9d08766a1cc7f49a7a38"
+      },
+      "ta": {
+        "quiz.json": "309b7105304176714b4c7d58c9504caf07e3c6c649cc173284033e49638aa643",
+        "readings.json": "07477c9d0db76bf56ef0016d423c96dd90a9130a06862cc4083582596841a4e4"
+      },
+      "th": {
+        "quiz.json": "4c105e5c2d53d7817ebc7f6549c6d990d8363d47ed7e82a14737b7efba5b82d4",
+        "readings.json": "922d378af8a2b4ba61dfaac4abcb530347be78eae70b0aed243eceb5b36b6cee"
+      },
+      "tr": {
+        "quiz.json": "ebe0fa256f3102199b4b8fdb94aa37d9b296a6e2eaadea8202ba9783eb9bd087",
+        "readings.json": "6252f4bb278cc0a5cddcbf388a3a534c1508f0a8ab27c0c39e547c4311277f1f"
+      },
+      "ur": {
+        "quiz.json": "c979b5886f75b6bf1aaf4f6ea1160442c17b3e133a4c16f6246f108ed07a5209",
+        "readings.json": "0ef635b673efdf70553cdb27ff31d60fa172ff65313a9eb19e0964b413e76dfc"
+      }
+    },
+    "baseline_ar_quiz_sha256": "9c570f00f4858776dc824ded9c6e07b9877fc1c0df4e99b1749181ad9e33bf3c",
+    "baseline_ar_readings_sha256": "513ef1b970ade658120c314eaeab118a71bc6047d5fe6da09bf3cad7b5b73e06",
+    "scope": "unchanged question/option/answer identities; v1 E03 readings p2 and p3 have no translation"
+  }
+}
