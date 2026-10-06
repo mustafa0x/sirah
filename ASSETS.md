@@ -16,4 +16,4 @@ Provider terms and attribution: [Tilezen attribution](https://github.com/tilezen
 
 The journey's geometric landmarks are authored in `src/lib/`. Brand images, the About poster, and narration clips are app assets under `src/assets/`. Third-party JavaScript packages retain their own licenses in their distributions.
 
-Source passages retain their original attributions and evidence links; their inclusion is not a blanket license for all source editions. No additional license is asserted for the application code by this notice.
+Source passages retain their original attributions and evidence links; their inclusion is not a blanket license for all source editions. Original project material is subject to the copyright reservation in [LICENSE](LICENSE). That reservation does not override third-party licenses or public-domain status, including the cave model's CC BY-SA 4.0 permissions and applicable share-alike obligations.

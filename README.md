@@ -39,3 +39,7 @@ Source identities, citations, and validation bindings are preserved in the conte
 Copy `.env.example` values into your local environment or an ignored `.mise.local.toml`. Without an OpenAI key the guide uses its local provider. Every guide request requires a valid Cloudflare Turnstile token for the configured hostname and `guide` action.
 
 See [deploy/README.md](deploy/README.md). Local credentials and `.private-archive/` are never included in deployment releases.
+
+## Copyright
+
+Copyright © 2026 Mustafa Jibaly (Nuqayah). **All rights reserved** for original project material. Third-party, separately licensed, and public-domain materials are excepted, including the CC BY-SA 4.0 cave model and covered adaptations. See [LICENSE](LICENSE) and [ASSETS.md](ASSETS.md).
