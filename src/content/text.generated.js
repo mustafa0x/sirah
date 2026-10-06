@@ -236,7 +236,7 @@ export const stage_text = {
             },
             {
                 id: 'N06b',
-                text: 'He rode hard until he could hear the Prophet ﷺ reciting. The Prophet ﷺ did not look back; Abu Bakr kept looking back. Then Suraqah’s horse sank into the ground up to its knees, and he fell.',
+                text: 'Closer and closer he came, until he could hear the Prophet ﷺ reciting. The Prophet ﷺ never looked back; Abu Bakr kept turning round. As Suraqah drew near, the ground gave way: his horse sank to its knees, and he fell.',
                 young: {
                     text: 'As he came close, his horse’s legs sank into the ground, and he fell off!',
                 },

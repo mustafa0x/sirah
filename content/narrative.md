@@ -144,7 +144,7 @@ Quraysh offered a hundred camels for the two. Suraqah ibn Malik, a horseman of a
 from: hch_suraqa §2–3
 sources: sp_suraqa_bukhari:p2–p5
 
-He rode hard until he could hear the Prophet ﷺ reciting. The Prophet ﷺ did not look back; Abu Bakr kept looking back. Then Suraqah’s horse sank into the ground up to its knees, and he fell.
+Closer and closer he came, until he could hear the Prophet ﷺ reciting. The Prophet ﷺ never looked back; Abu Bakr kept turning round. As Suraqah drew near, the ground gave way: his horse sank to its knees, and he fell.
 
 ## N06c
 from: hch_suraqa §4–5
