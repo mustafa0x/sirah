@@ -512,13 +512,13 @@
     $effect(() =>
         narrator.sync(current_cue, journey.guided_position.seconds, journey.is_playing && !sheet),
     )
-    let cycle = $derived(
-        current_cue && timelapse_beats[current_cue.id] && !active_poi && !map_open
-            ? stop_finished
-                ? 1
-                : cue_progress
-            : null,
-    )
+    let cycle = $derived.by(() => {
+        const lapse = current_cue && timelapse_beats[current_cue.id]
+        if (!lapse || active_poi || map_open) return null
+        if (stop_finished) return 1
+        const [part, parts] = lapse
+        return (part + cue_progress) / parts
+    })
     $effect(() => ambience.set_mood(mood))
     let night = $derived(Math.min(3, Math.floor((cycle ?? 0) * 3) + 1))
     let passage = $derived(

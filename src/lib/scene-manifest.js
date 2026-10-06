@@ -286,6 +286,9 @@ export const chapter_focus_shots = Object.fromEntries(
 
 // One camera move per narrative beat. An azimuth of `north` puts the camera north of its
 // target, looking south. `follow` keeps the target on the tip of that route leg.
+// The summit of Thawr at night, wide enough to see where both night visitors come from.
+const thawr_nights = shot('cave', south + 0.6, 0.45, 1.1, 0.02)
+
 export const beat_shots = {
     N01a: overview_shot,
     N01b: shot('makkah', -0.4, 0.5, 8),
@@ -298,11 +301,10 @@ export const beat_shots = {
     // Out of Makkah, looking south down the valley towards Thawr.
     N09d: shot('makkah_valley', north - 0.25, 0.36, 8.5, 0.1),
     N03a: shot('cave', north + 0.15, 0.13, 0.023, 0.0018),
-    // Side on to the path, Thawr to the left and Makkah to the right, clear of the stage card:
-    // ‘Abdullah's light comes up the path each night.
-    N03b: shot('makkah_valley', 0.15, 0.42, 7, 0.1, [-0.3, 0, 0]),
-    // Three nights pass over the slope.
-    N03c: shot('cave', north + 0.9, 0.1, 0.06, 0.006),
+    // One view of the summit for both night visitors: ‘Abdullah comes up the path from Makkah,
+    // ‘Amir brings the flock up from the lower slope.
+    N03b: thawr_nights,
+    N03c: thawr_nights,
     // The searchers spread over the mountain, then a push in to the low view of the aperture
     // as they stand above it. The generated mesh is not a navigable interior.
     N03d: {
@@ -347,15 +349,17 @@ export function route_at(step_id, progress) {
     })
 }
 
-// Beats during which the sky runs through three nights, driven by playback position.
-export const timelapse_beats = { N03b: true, N03c: true }
+// Beats during which the sky runs through three nights, driven by playback position. The
+// nights run once across the beats sharing a time-lapse: [this beat's part, parts in all].
+export const timelapse_beats = { N03b: [0, 2], N03c: [1, 2] }
 
 // Beats that set a cited passage in the scene itself.
 export const beat_passages = { N03e: 'E09' }
 
 // Beats during which an animal stands in the scene. No person is ever shown.
 export const beat_actors = {
-    N03b: 'visits',
+    N03b: 'visits_abdullah',
+    N03c: 'visits_amir',
     N03d: 'searchers',
     N06b: 'horse',
     N10a: 'tent',

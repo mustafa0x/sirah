@@ -492,6 +492,8 @@ export async function create_scene(
         // holding the shelter model at true scale. Illustrative, not a reconstruction.
         const add_cave_set = (world) => {
             const { terrain } = world
+            const set = new THREE.Group()
+            world.group.add(set)
             const [tx, tz] = terrain.to_xz(places.thawr.lat, places.thawr.lon)
             const summit = terrain.height(tx, tz)
             let best = Infinity
@@ -549,7 +551,25 @@ export async function create_scene(
             )
             patch.castShadow = true
             patch.receiveShadow = true
-            world.group.add(patch)
+            set.add(patch)
+            // The landscape mesh is coarser than this ground, and in hollows of the summit its
+            // faces pass over the set: from below they are invisible, from above they bury it.
+            // Its points under the set are lowered to just beneath the set's ground.
+            const landscape_position = landscape.mesh.geometry.attributes.position
+            for (let index = 0; index < landscape_position.count; index += 1) {
+                const north = (landscape_position.getX(index) / world.scale - sx) / METRE
+                const east = (landscape_position.getZ(index) / world.scale - sz) / METRE
+                if (Math.hypot(north, east) > 60) continue
+                landscape_position.setY(
+                    index,
+                    Math.min(
+                        landscape_position.getY(index),
+                        (ground(north, east) - 0.8 * METRE) * world.scale,
+                    ),
+                )
+            }
+            // The authored normals are kept: the lowered faces lie under the set.
+            landscape_position.needsUpdate = true
 
             const boulder = (north, east, radius, squash = 0.75, sink = 0.35) => {
                 const mesh = shadowed(new THREE.Mesh(boulder_geometry, stone_material))
@@ -560,7 +580,7 @@ export async function create_scene(
                 )
                 mesh.scale.set(radius * METRE, radius * squash * METRE, radius * METRE)
                 mesh.rotation.set(north, east, radius)
-                world.group.add(mesh)
+                set.add(mesh)
             }
             // Loose stone on the slope around the shelter.
             for (let index = 0; index < 34; index += 1) {
@@ -581,7 +601,7 @@ export async function create_scene(
             // near lights, so at this scale the intensity is effectively the illuminance / 100.
             const fill = new THREE.PointLight(0xcdd6f0, 0.012, 0.008)
             fill.position.set(sx + 2.6 * METRE, ground(0, 0) + 0.7 * METRE, sz)
-            world.group.add(fill)
+            set.add(fill)
             new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).load(
                 shelter_asset,
                 (gltf) => {
@@ -610,7 +630,7 @@ export async function create_scene(
                     shelter.add(model)
                     shelter.scale.setScalar(scale)
                     shelter.position.set(sx, ground(0, 0) - size.y * scale * 0.02, sz)
-                    world.group.add(shelter)
+                    set.add(shelter)
                     world.cave_shelter = shelter
                 },
                 undefined,
@@ -1477,39 +1497,56 @@ export async function create_scene(
         traveller.visible = false
         scene.add(traveller)
 
-        // ‘Abdullah's nightly visits are a lantern-like light with a fading tail, never a
-        // figure: up to the cave after dark, back down to Makkah before daybreak.
-        const lantern = new THREE.Group()
+        // The night visitors at Thawr are lights with a fading tail, never figures. Each night,
+        // in the order of ‘A'ishah's report: ‘Abdullah comes up from Makkah when it is dark,
+        // ‘Amir brings the flock up some time after, ‘Abdullah leaves in the last part of the
+        // night, and ‘Amir calls the flock away at the dark of dawn.
         const lantern_geometry = new THREE.SphereGeometry(1, 12, 8)
-        for (let index = 0; index < 20; index += 1)
-            lantern.add(
-                new THREE.Mesh(
-                    lantern_geometry,
-                    new THREE.MeshBasicMaterial({
-                        color: index ? 0xffb35c : 0xffe2a8,
-                        fog: false,
-                        transparent: true,
-                        opacity: index ? 0.4 * (1 - index / 20) : 1,
-                        depthWrite: false,
-                        blending: THREE.AdditiveBlending,
-                    }),
-                ),
+        const make_visitor = (head, tail, glow, schedule) => {
+            const group = new THREE.Group()
+            for (let index = 0; index < 20; index += 1)
+                group.add(
+                    new THREE.Mesh(
+                        lantern_geometry,
+                        new THREE.MeshBasicMaterial({
+                            color: index ? tail : head,
+                            fog: false,
+                            transparent: true,
+                            opacity: index ? 0.4 * (1 - index / 20) : 1,
+                            depthWrite: false,
+                            blending: THREE.AdditiveBlending,
+                        }),
+                    ),
+                )
+            // A wide, faint glow lifts the light off the bright route line and the slope.
+            const halo = new THREE.Mesh(
+                lantern_geometry,
+                new THREE.MeshBasicMaterial({
+                    color: glow,
+                    fog: false,
+                    transparent: true,
+                    opacity: 0.12,
+                    depthWrite: false,
+                    blending: THREE.AdditiveBlending,
+                }),
             )
-        // A wide, faint glow around the light lifts it off the bright route line.
-        const halo = new THREE.Mesh(
-            lantern_geometry,
-            new THREE.MeshBasicMaterial({
-                color: 0xffc879,
-                fog: false,
-                transparent: true,
-                opacity: 0.12,
-                depthTest: false,
-                depthWrite: false,
-                blending: THREE.AdditiveBlending,
-            }),
-        )
-        lantern.visible = false
-        scene.add(lantern, halo)
+            group.visible = halo.visible = false
+            scene.add(group, halo)
+            return { group, halo, schedule }
+        }
+        // Night phases: up between the first pair, down between the second.
+        const abdullah = make_visitor(0xffe2a8, 0xffb35c, 0xffc879, [0.02, 0.2, 0.3, 0.46])
+        const amir = make_visitor(0xf4f1ff, 0xc9d3ff, 0xdfe5ff, [0.21, 0.29, 0.44, 0.54])
+        // ‘Amir's flock: pale specks that graze low on the slope by day and go up with him.
+        const flock_material = new THREE.MeshBasicMaterial({ color: 0xeee3c8, fog: false })
+        const flock = Array.from({ length: 8 }, () => {
+            const sheep = new THREE.Mesh(lantern_geometry, flock_material)
+            sheep.visible = false
+            scene.add(sheep)
+            return sheep
+        })
+        // Where the flock grazes, in kilometres [north, east] of the shelter.
+        const pasture = [0.12, -0.3]
         // The searchers at Thawr are dim red lights, never figures. They comb the slopes, close
         // in on the shelter, stand over it while Abu Bakr whispers, then move off. Places are
         // metres [north, east] of the shelter; one stands on the rock above it. They
@@ -1565,12 +1602,22 @@ export async function create_scene(
         }
         const searcher_at = new THREE.Vector3()
         const smooth = (value) => value * value * (3 - 2 * value)
-        // How far up the path the light is in one night's phase, or null when out of sight.
-        const visit_reach = (phase) => {
-            if (phase < 0.02 || phase > 0.48) return null
-            if (phase < 0.22) return smooth((phase - 0.02) / 0.2)
-            if (phase < 0.28) return null
-            return smooth(1 - (phase - 0.28) / 0.2)
+        // How far up a visitor's way it is in one night's phase: 0 below, 1 at the cave.
+        const visit_reach = ([up, arrived, down, gone], phase) => {
+            if (phase < up || phase >= gone) return 0
+            if (phase < arrived) return smooth((phase - up) / (arrived - up))
+            if (phase < down) return 1
+            return smooth(1 - (phase - down) / (gone - down))
+        }
+        // ‘Amir's way runs straight up from the pasture to the shelter.
+        const pasture_way = (world, reach, target) => {
+            const site = world.cave_site
+            const north = pasture[0] * (1 - reach)
+            const east = pasture[1] * (1 - reach)
+            const x = site.x + north
+            const z = site.z + east
+            const y = mix(world.terrain.height(x, z), site.y, smoothstep(0.85, 1, reach))
+            return target.set(x, y, z).multiplyScalar(world.scale)
         }
         const along = (route, reach, target) => {
             const at = clamp(reach, 0, 1) * route.count
@@ -1811,27 +1858,73 @@ export async function create_scene(
                 vessel.position.set(1.55, 0.05, 0.5)
             }
             const cave_path = worlds.makkah?.routes.find((route) => route.leg === 0)
-            const reach =
-                actor === 'visits' && cycle !== null && cycle < 1 && active.name === 'makkah'
-                    ? visit_reach((cycle * 3) % 1)
-                    : null
-            lantern.visible = reach !== null && Boolean(cave_path)
-            if (lantern.visible) {
-                // The tail trails behind in the direction of travel.
-                const behind = (cycle * 3) % 1 < 0.25 ? -1 : 1
-                // It fades in leaving Makkah and out at the cave mouth.
+            const visiting =
+                (actor === 'visits_abdullah' || actor === 'visits_amir') &&
+                cycle !== null &&
+                cycle < 1 &&
+                active.name === 'makkah' &&
+                Boolean(cave_path && worlds.makkah.cave_site)
+            const phase = ((cycle ?? 0) * 3) % 1
+            const visitors = [
+                [
+                    abdullah,
+                    actor === 'visits_abdullah',
+                    // The path ends at the foot of the summit; the last stretch is to the shelter.
+                    // Only the last stretch of the road from Makkah is in view, and it comes over
+                    // the ridge; the second half of the way crosses the face to the shelter.
+                    (reach, target) => {
+                        along(cave_path, 0.8 + 0.2 * Math.min(1, reach / 0.5), target)
+                        if (reach <= 0.5) return target
+                        const site = worlds.makkah.cave_site
+                        return target.lerp(
+                            scratch_vector.copy(site).multiplyScalar(worlds.makkah.scale),
+                            smooth((reach - 0.5) / 0.5),
+                        )
+                    },
+                ],
+                [
+                    amir,
+                    actor === 'visits_amir',
+                    (reach, target) => pasture_way(worlds.makkah, reach, target),
+                ],
+            ]
+            for (const [visitor, focused, place] of visitors) {
+                const reach = visit_reach(visitor.schedule, phase)
+                const [, arrived, down] = visitor.schedule
+                // A light shows only on the move; at the cave and by day there is nothing.
+                visitor.group.visible = visiting && reach > 0 && reach < 1
+                visitor.halo.visible = visitor.group.visible && focused
+                if (!visitor.group.visible) continue
+                const behind = phase < arrived ? -1 : phase >= down ? 1 : 0
+                // It fades in setting out and out at the cave mouth; the other visitor's
+                // light is quieter while this paragraph is about someone else.
                 const flicker =
                     (reduced_motion ? 1 : 1 + 0.12 * Math.sin(now / 90)) *
-                    clamp(Math.min(reach, 1 - reach) / 0.08, 0, 1)
-                lantern.children.forEach((light, index) => {
-                    along(cave_path, reach + behind * index * 0.007, light.position)
+                    clamp(Math.min(reach, 1 - reach) / 0.08, 0, 1) *
+                    (focused ? 1 : 0.6)
+                visitor.group.children.forEach((light, index) => {
+                    place(reach + behind * index * 0.007, light.position)
                     light.position.y += distance * 0.004
                     light.scale.setScalar(distance * 0.0065 * (1 - index / 26) * flicker)
                 })
-                halo.position.copy(lantern.children[0].position)
-                halo.scale.setScalar(distance * 0.018 * flicker)
+                visitor.halo.position.copy(visitor.group.children[0].position)
+                visitor.halo.scale.setScalar(distance * 0.018 * flicker)
             }
-            halo.visible = lantern.visible
+            // The flock grazes on the pasture by day and moves with ‘Amir at night, waiting
+            // just below the shelter while the two drink.
+            const flock_reach = visit_reach(amir.schedule, phase) * 0.97
+            flock.forEach((sheep, index) => {
+                sheep.visible = visiting
+                if (!visiting) return
+                const drift = reduced_motion ? 0 : now / 9000
+                const angle = hash(index, 81) * Math.PI * 2 + drift * (0.3 + hash(index, 82))
+                const spread = (0.008 + 0.014 * hash(index, 83)) * (1 - flock_reach * 0.5)
+                pasture_way(worlds.makkah, flock_reach, sheep.position)
+                sheep.position.x += Math.cos(angle) * spread * worlds.makkah.scale
+                sheep.position.z += Math.sin(angle) * spread * worlds.makkah.scale
+                sheep.position.y += distance * 0.002
+                sheep.scale.setScalar(distance * 0.003)
+            })
             const thawr = worlds.makkah
             const searching =
                 actor === 'searchers' &&
@@ -1876,7 +1969,12 @@ export async function create_scene(
                     .multiplyScalar(thawr.scale)
                 const fade = arriving * (1 - leaving)
                 const flicker = reduced_motion ? 1 : 1 + 0.15 * Math.sin(now / 110 + searcher.seed)
-                const size = Math.max(distance * 0.0035, 0.12 * METRE * thawr.scale)
+                // Lights grow with distance so they stay visible, up to a metre or so across.
+                const size = clamp(
+                    distance * 0.0035,
+                    0.12 * METRE * thawr.scale,
+                    0.9 * METRE * thawr.scale,
+                )
                 searcher.core.position.copy(searcher_at)
                 searcher.glow.position.copy(searcher_at)
                 searcher.core.scale.setScalar(size * flicker * fade)
@@ -1885,7 +1983,12 @@ export async function create_scene(
             })
             // The marker shows where the line is still being drawn, not a resting place.
             traveller.visible =
-                Boolean(tip) && !walking && !horse.root.visible && !tent.visible && !lantern.visible
+                Boolean(tip) &&
+                !walking &&
+                !horse.root.visible &&
+                !tent.visible &&
+                !abdullah.group.visible &&
+                !amir.group.visible
             if (tip) {
                 traveller.position
                     .copy(tip.points[Math.floor(tip.shown * tip.count)])
