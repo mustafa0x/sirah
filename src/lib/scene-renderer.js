@@ -1573,7 +1573,7 @@ export async function create_scene(
             core.visible = glow.visible = false
             scene.add(core, glow)
             const away = Math.atan2(plan.from[1], plan.from[0]) + 0.9 + index * 0.4
-            return { ...plan, core, glow, away, seed: hash(index, 71) * 10, height: null }
+            return { ...plan, core, glow, away, height: null }
         })
         const ray = new THREE.Raycaster()
         const down = new THREE.Vector3(0, -1, 0)
@@ -1896,19 +1896,17 @@ export async function create_scene(
                 visitor.halo.visible = visitor.group.visible && focused
                 if (!visitor.group.visible) continue
                 const behind = phase < arrived ? -1 : phase >= down ? 1 : 0
-                // It fades in setting out and out at the cave mouth; the other visitor's
-                // light is quieter while this paragraph is about someone else.
-                const flicker =
-                    (reduced_motion ? 1 : 1 + 0.12 * Math.sin(now / 90)) *
-                    clamp(Math.min(reach, 1 - reach) / 0.08, 0, 1) *
-                    (focused ? 1 : 0.6)
+                // A steady light that fades in setting out and out at the cave mouth; the
+                // other visitor's is quieter while this paragraph is about someone else.
+                const strength =
+                    clamp(Math.min(reach, 1 - reach) / 0.08, 0, 1) * (focused ? 1 : 0.6)
                 visitor.group.children.forEach((light, index) => {
                     place(reach + behind * index * 0.007, light.position)
                     light.position.y += distance * 0.004
-                    light.scale.setScalar(distance * 0.0065 * (1 - index / 26) * flicker)
+                    light.scale.setScalar(distance * 0.0065 * (1 - index / 26) * strength)
                 })
                 visitor.halo.position.copy(visitor.group.children[0].position)
-                visitor.halo.scale.setScalar(distance * 0.018 * flicker)
+                visitor.halo.scale.setScalar(distance * 0.018 * strength)
             }
             // The flock grazes on the pasture by day and moves with ‘Amir at night, waiting
             // just below the shelter while the two drink.
@@ -1968,7 +1966,6 @@ export async function create_scene(
                     )
                     .multiplyScalar(thawr.scale)
                 const fade = arriving * (1 - leaving)
-                const flicker = reduced_motion ? 1 : 1 + 0.15 * Math.sin(now / 110 + searcher.seed)
                 // Lights grow with distance so they stay visible, up to a metre or so across.
                 const size = clamp(
                     distance * 0.0035,
@@ -1977,8 +1974,8 @@ export async function create_scene(
                 )
                 searcher.core.position.copy(searcher_at)
                 searcher.glow.position.copy(searcher_at)
-                searcher.core.scale.setScalar(size * flicker * fade)
-                searcher.glow.scale.setScalar(size * 2.6 * flicker * fade)
+                searcher.core.scale.setScalar(size * fade)
+                searcher.glow.scale.setScalar(size * 2.6 * fade)
                 searcher.core.visible = searcher.glow.visible = true
             })
             // The marker shows where the line is still being drawn, not a resting place.
