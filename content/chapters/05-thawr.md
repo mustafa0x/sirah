@@ -121,29 +121,29 @@ Two places are given for Asma's waistband. In ‘Aishah's account and Asma's own
 
 The chapter's Sources tab shows these, each as its Arabic original with an English heading and gloss.
 
-| Reading | Passages | Notes |
-| --- | --- | --- |
-| Three nights, the news and the sheep (‘Aishah, al-Bukhari) | `sp_thawr_support:p1` | 3, 14 |
-| The guide and the meeting at the cave (‘Aishah, al-Bukhari) | `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1` | 18 |
-| Feet at the cave (Abu Bakr, al-Bukhari) | `sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p3` | 10 |
-| "What do you think of two…?" (Abu Bakr, Muslim) | `sp_caveverse_muslim:p1–p2` | 11 |
-| The cave verse, Quran 9:40 (al-Qurtubi) | `sp_caveverse_qurtubi_verse:p1` | 13 |
-| Abu Bakr's report in al-Bayhaqi | `sp_thawr_exp_h_7478_1001_ra_third`, `…_1002_ra_third`, `…_1002_ra_third_variant` | 21 |
-| The family's tasks and the third night (Ibn Ishaq) — **new** | `sp_thawr_exp_h_23833_508_807:p2–p4`, `sp_thawr_exp_h_23833_509_808:p1–p4`, `H-23833-509-809` | 7, 15, 16, 19 |
-| Searchers at the mountain (‘Urwah, al-Bayhaqi) — **new** | `sp_thawr_exp_h_7478_999_ra_urwa_musa_cave:p2–p4`, `sp_thawr_exp_h_7478_1001_ra_urwa_musa_cave:p1–p2` | 8, 17 |
-| The way to the cave (Ibn Sirin from ‘Umar, al-Bayhaqi) — **new** | `H-7478-997-RA-IBNSIRIN-CAVE` | 1 |
-| Abu Bakr goes in first (al-Hasan al-Basri, Ibn Hisham) — **new** | `H-23833-509-CONT` | 5 |
-| Asma and Abu Jahl (Ibn Ishaq) — **new** | `H-23833-510-811` | 9 |
-| The tracks and the spider's web (Ibn ‘Abbas, Ibn Kathir) — **new** | `H-930-761-SPIDER` (`E26`), `H-930-761-JUDGMENT` | 6, 24 |
-| The searchers turn back (Ibn Hibban) — **new** | `sp_thawr_exp_h_9898_124_prep_2:p2–p4` | 12 |
-| The cave, an opening in Thawr (al-Baghawi) — **new** | `sp_thawr_exp_h_41_1252_cave_explanation:p8–p9` | 4 |
-| The road south (al-Rahiq al-Makhtum) — **new** | `E24` | 2 |
-| The guide's name (Ibn Hisham, Ibn Sa‘d) — **new** | `H-23833-511-GUIDE`, `sp_thawr_exp_h_146_241_support_and_guide` | 20 |
-| On whom the tranquility came down (Ibn ‘Abbas; al-Baghawi) — **new** | `sp_caveverse_sakina_ibn_abbas:p2–p3`, `sp_caveverse_baghawi_sakina:p2–p6` | 22–23 |
-| How the spider and pigeon reports are graded (Ibn Hajar, al-Albani, al-‘Awshan) — **new** | `H-1673-4064-NARRATION`, `H-12762-1687-CRIT-UTHMAN`, `H-12762-1688-CRIT-VERSE`, `H-12762-1684-CRIT-CAVE1128`, `H-97932-80-DISTINCTION` | 24–26 |
-| The snake story and its critics — **new** | `H-7478-998-RA-DABBA-CAVE`, `H-14572-167-CP1-BITE-3` | 27 |
-| Three nights (Mujahid, al-Zuhri, in al-Tabari) — **new** | `sp_thawr_exp_h_43_7827_three_nights:p1–p5` | 28 |
-| Dates of the stay (al-Rahiq al-Makhtum; al-Samhudi) — **new** | `E35`, `E36`, `H-23695-189-ARRIVAL-DATES-B` | 29–30 |
+| Reading | Passages | Notes | Strength |
+| --- | --- | --- | --- |
+| Three nights, the news and the sheep (‘Aishah, al-Bukhari) | `sp_thawr_support:p1` | 3, 14 |  |
+| The guide and the meeting at the cave (‘Aishah, al-Bukhari) | `sp_guide_bukhari_hire:p1`, `sp_guide_bukhari_coast:p1` | 18 |  |
+| Feet at the cave (Abu Bakr, al-Bukhari) | `sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p3` | 10 |  |
+| "What do you think of two…?" (Abu Bakr, Muslim) | `sp_caveverse_muslim:p1–p2` | 11 |  |
+| The cave verse, Quran 9:40 (al-Qurtubi) | `sp_caveverse_qurtubi_verse:p1` | 13 |  |
+| Abu Bakr's report in al-Bayhaqi | `sp_thawr_exp_h_7478_1001_ra_third`, `…_1002_ra_third`, `…_1002_ra_third_variant` | 21 |  |
+| The family's tasks and the third night (Ibn Ishaq) — **new** | `sp_thawr_exp_h_23833_508_807:p2–p4`, `sp_thawr_exp_h_23833_509_808:p1–p4`, `H-23833-509-809` | 7, 15, 16, 19 |  |
+| Searchers at the mountain (‘Urwah, al-Bayhaqi) — **new** | `sp_thawr_exp_h_7478_999_ra_urwa_musa_cave:p2–p4`, `sp_thawr_exp_h_7478_1001_ra_urwa_musa_cave:p1–p2` | 8, 17 |  |
+| The way to the cave (Ibn Sirin from ‘Umar, al-Bayhaqi) — **new** | `H-7478-997-RA-IBNSIRIN-CAVE` | 1 |  |
+| Abu Bakr goes in first (al-Hasan al-Basri, Ibn Hisham) — **new** | `H-23833-509-CONT` | 5 |  |
+| Asma and Abu Jahl (Ibn Ishaq) — **new** | `H-23833-510-811` | 9 |  |
+| The tracks and the spider's web (Ibn ‘Abbas, Ibn Kathir) — **new** | `H-930-761-SPIDER` (`E26`), `H-930-761-JUDGMENT` | 6, 24 | weak (al-Albani; Ibn Kathir and Ibn Hajar: hasan) |
+| The searchers turn back (Ibn Hibban) — **new** | `sp_thawr_exp_h_9898_124_prep_2:p2–p4` | 12 |  |
+| The cave, an opening in Thawr (al-Baghawi) — **new** | `sp_thawr_exp_h_41_1252_cave_explanation:p8–p9` | 4 |  |
+| The road south (al-Rahiq al-Makhtum) — **new** | `E24` | 2 |  |
+| The guide's name (Ibn Hisham, Ibn Sa‘d) — **new** | `H-23833-511-GUIDE`, `sp_thawr_exp_h_146_241_support_and_guide` | 20 |  |
+| On whom the tranquility came down (Ibn ‘Abbas; al-Baghawi) — **new** | `sp_caveverse_sakina_ibn_abbas:p2–p3`, `sp_caveverse_baghawi_sakina:p2–p6` | 22–23 |  |
+| How the spider and pigeon reports are graded (Ibn Hajar, al-Albani, al-‘Awshan) — **new** | `H-1673-4064-NARRATION`, `H-12762-1687-CRIT-UTHMAN`, `H-12762-1688-CRIT-VERSE`, `H-12762-1684-CRIT-CAVE1128`, `H-97932-80-DISTINCTION` | 24–26 |  |
+| The snake story and its critics — **new** | `H-7478-998-RA-DABBA-CAVE`, `H-14572-167-CP1-BITE-3` | 27 |  |
+| Three nights (Mujahid, al-Zuhri, in al-Tabari) — **new** | `sp_thawr_exp_h_43_7827_three_nights:p1–p5` | 28 |  |
+| Dates of the stay (al-Rahiq al-Makhtum; al-Samhudi) — **new** | `E35`, `E36`, `H-23695-189-ARRIVAL-DATES-B` | 29–30 |  |
 
 ---
 

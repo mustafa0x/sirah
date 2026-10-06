@@ -111,19 +111,19 @@ Passage ids omit the prefix `sp_suraqa_`.
 
 The chapter's Sources tab shows these, each as its Arabic original with an English heading and gloss.
 
-| Reading | Passages | Notes |
-| --- | --- | --- |
-| Suraqah recounts the pursuit (al-Bukhari) | `bukhari:p1–p5` | 1, 3, 6 |
-| Suraqah's account in Ibn Ishaq | `ibn_ishaq_start`, `ibn_ishaq_reply`, `ibn_ishaq_end:p1` | 2, 7 |
-| Abu Bakr on the pursuit (al-Bara, route of Zuhayr) | `abu_bakr:p1–p11` | 4, 8, 13 |
-| Abu Bakr on the pursuit (al-Bara, route of Isra'il) — **new** | `H-7478-1004-RA-BARA-SURAQA`, `H-7478-1005-RA-BARA-SURAQA`, `H-7478-1005-RA-BARA-OTHER` | 5, 12 |
-| Suraqah's account through Musa ibn ‘Uqbah — **new** | `H-7478-1008-RA-MUSA-SURAQA`, `H-7478-1009-RA-MUSA-SURAQA` | 9 |
-| The pursuers and the hiding (al-Isbahani) | `lexicon:p2` | 14 |
-| Who wrote the letter (al-Maqrizi; al-Shumunni) — **new** | `H-1524-99-CF4-AMAN-WRITERS`, `H-1753-358-CP2-AMAN-WRITERS` | 10–11 |
-| Qudayd and the searchers (Ibn Sa‘d) — **new** | `H-146-244-MABAD-AND-SURAQA` | 15 |
-| Suraqah or Umm Ma‘bad first (Mughaltay) — **new** | `H-122236-155-CP2-MABAD-ORDER-A`, `H-122236-156-CP2-MABAD-ORDER-B` | 16 |
-| The letter at al-Ji‘ranah (Ibn Ishaq) | `ibn_ishaq_end:p2–p6` | 17 |
-| The bracelets of Kisra (al-‘Azimi) — **new** | `H-38114-662-CP1-BRACELETS-A`, `H-38114-663-CP1-BRACELETS-B` | 18 |
+| Reading | Passages | Notes | Strength |
+| --- | --- | --- | --- |
+| Suraqah recounts the pursuit (al-Bukhari) | `bukhari:p1–p5` | 1, 3, 6 |  |
+| Suraqah's account in Ibn Ishaq | `ibn_ishaq_start`, `ibn_ishaq_reply`, `ibn_ishaq_end:p1` | 2, 7 |  |
+| Abu Bakr on the pursuit (al-Bara, route of Zuhayr) | `abu_bakr:p1–p11` | 4, 8, 13 |  |
+| Abu Bakr on the pursuit (al-Bara, route of Isra'il) — **new** | `H-7478-1004-RA-BARA-SURAQA`, `H-7478-1005-RA-BARA-SURAQA`, `H-7478-1005-RA-BARA-OTHER` | 5, 12 |  |
+| Suraqah's account through Musa ibn ‘Uqbah — **new** | `H-7478-1008-RA-MUSA-SURAQA`, `H-7478-1009-RA-MUSA-SURAQA` | 9 |  |
+| The pursuers and the hiding (al-Isbahani) | `lexicon:p2` | 14 |  |
+| Who wrote the letter (al-Maqrizi; al-Shumunni) — **new** | `H-1524-99-CF4-AMAN-WRITERS`, `H-1753-358-CP2-AMAN-WRITERS` | 10–11 |  |
+| Qudayd and the searchers (Ibn Sa‘d) — **new** | `H-146-244-MABAD-AND-SURAQA` | 15 |  |
+| Suraqah or Umm Ma‘bad first (Mughaltay) — **new** | `H-122236-155-CP2-MABAD-ORDER-A`, `H-122236-156-CP2-MABAD-ORDER-B` | 16 |  |
+| The letter at al-Ji‘ranah (Ibn Ishaq) | `ibn_ishaq_end:p2–p6` | 17 |  |
+| The bracelets of Kisra (al-‘Azimi) — **new** | `H-38114-662-CP1-BRACELETS-A`, `H-38114-663-CP1-BRACELETS-B` | 18 | weak (al-‘Azimi) |
 
 Journey passages `E13`–`E15` are excerpts of the same al-Bukhari report (no. 3906) as `bukhari:p1–p5`.
 

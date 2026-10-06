@@ -124,27 +124,27 @@ Passage ids omit the prefix `sp_madinah_chapter_`.
 
 The chapter's Sources tab shows these, each as its Arabic original with an English heading and gloss.
 
-| Reading | Passages | Notes |
-| --- | --- | --- |
-| Leaving Quba with Banu al-Najjar (Anas, al-Bukhari) | `11:p1`, `12:p1–p2` | 1 |
-| The Friday prayer among Banu Salim (Ibn Ishaq) | `17:p1–p2` | 2–3 |
-| The clans' invitations: "Let her go her way" (Ibn Ishaq) | `01`, `02` | 4–5, 7 |
-| The reins and the camel, in Ibn Hajar's quotations | `07`, `08` | 2, 6, 25 |
-| Waiting and welcome, the five hundred Ansar (Anas, al-Bayhaqi) | `03` | 8 |
-| "The Prophet of Allah has come!" (Anas, al-Bukhari 3911) — **new** | `H-1681-5905-HS-ANAS-ARRIVAL-1`, `-2` | 9, 16 |
-| Girls of Banu al-Najjar, in al-Hakim's report (Ibn Hajar) — **new** | `H-1673-4089-HS-RECEPTION-GIRLS-1` | 10 |
-| Madinah's joy (al-Bara', al-Bukhari) | `06` | 11 |
-| The day he entered (Anas, al-Bayhaqi) | `04`, `05` | 12 |
-| Where the camel knelt (Ibn Ishaq) — **new** | `H-23833-518-827`, `H-23833-519-CONT` | 13, 15 |
-| "This is the stopping place" (‘Urwah, al-Bukhari 3906) — **new** | `H-1681-5900-QUBA` (journey `E17`) | 14 |
-| "A man goes with his saddle" (Ibn al-Zubayr; Ibn Sa‘d in Ibn Hajar) — **new** | `H-7478-1030-RA-ZUBAYR-ARBOR`, `H-1673-4074-HS-AYYUB-DURATION-1` | 17 |
-| Abu Ayyub's house: the floors, the jar, the supper (Ibn Ishaq) | `09`, `10` | 18–19, 21, 23 |
-| The two floors and the garlic, through Aflah (Muslim) | `15`, `16` | 20, 22 |
-| The garlic, through Jabir ibn Samurah (Muslim) | `13`, `14` | 22, 29 |
-| "Our people" and the floors (Ibn Hajar) — **new** | `H-1673-4080-HS-AYYUB-LODGE-1` | 24 |
-| The girls with drums, judged (al-Albani) — **new** | `H-12762-9971-CRIT-DRUM6508`, `H-12762-9972-CRIT-DRUMCHAIN` | 26 |
-| "Tala‘a al-Badru" and how it is judged (al-Bayhaqi, al-Albani) — **new** | `H-7478-1027-RA-BADR`, `H-7478-1028-RA-BADR`, `H-7478-2236-CRIT-BADRTABUK`, `H-12762-921-CRIT-BADR598` (journey `E33`) | 27–28 |
-| The date of arrival (al-Rahiq al-Makhtum) — **new** | journey `E39` | 30 |
+| Reading | Passages | Notes | Strength |
+| --- | --- | --- | --- |
+| Leaving Quba with Banu al-Najjar (Anas, al-Bukhari) | `11:p1`, `12:p1–p2` | 1 |  |
+| The Friday prayer among Banu Salim (Ibn Ishaq) | `17:p1–p2` | 2–3 |  |
+| The clans' invitations: "Let her go her way" (Ibn Ishaq) | `01`, `02` | 4–5, 7 |  |
+| The reins and the camel, in Ibn Hajar's quotations | `07`, `08` | 2, 6, 25 |  |
+| Waiting and welcome, the five hundred Ansar (Anas, al-Bayhaqi) | `03` | 8 |  |
+| "The Prophet of Allah has come!" (Anas, al-Bukhari 3911) — **new** | `H-1681-5905-HS-ANAS-ARRIVAL-1`, `-2` | 9, 16 |  |
+| Girls of Banu al-Najjar, in al-Hakim's report (Ibn Hajar) — **new** | `H-1673-4089-HS-RECEPTION-GIRLS-1` | 10 | weak (al-Albani: munkar) |
+| Madinah's joy (al-Bara', al-Bukhari) | `06` | 11 |  |
+| The day he entered (Anas, al-Bayhaqi) | `04`, `05` | 12 |  |
+| Where the camel knelt (Ibn Ishaq) — **new** | `H-23833-518-827`, `H-23833-519-CONT` | 13, 15 |  |
+| "This is the stopping place" (‘Urwah, al-Bukhari 3906) — **new** | `H-1681-5900-QUBA` (journey `E17`) | 14 |  |
+| "A man goes with his saddle" (Ibn al-Zubayr; Ibn Sa‘d in Ibn Hajar) — **new** | `H-7478-1030-RA-ZUBAYR-ARBOR`, `H-1673-4074-HS-AYYUB-DURATION-1` | 17 |  |
+| Abu Ayyub's house: the floors, the jar, the supper (Ibn Ishaq) | `09`, `10` | 18–19, 21, 23 |  |
+| The two floors and the garlic, through Aflah (Muslim) | `15`, `16` | 20, 22 |  |
+| The garlic, through Jabir ibn Samurah (Muslim) | `13`, `14` | 22, 29 |  |
+| "Our people" and the floors (Ibn Hajar) — **new** | `H-1673-4080-HS-AYYUB-LODGE-1` | 24 |  |
+| The girls with drums, judged (al-Albani) — **new** | `H-12762-9971-CRIT-DRUM6508`, `H-12762-9972-CRIT-DRUMCHAIN` | 26 | weak (al-Albani: munkar) |
+| "Tala‘a al-Badru" and how it is judged (al-Bayhaqi, al-Albani) — **new** | `H-7478-1027-RA-BADR`, `H-7478-1028-RA-BADR`, `H-7478-2236-CRIT-BADRTABUK`, `H-12762-921-CRIT-BADR598` (journey `E33`) | 27–28 | weak (al-Albani) |
+| The date of arrival (al-Rahiq al-Makhtum) — **new** | journey `E39` | 30 |  |
 
 ---
 
