@@ -176,8 +176,7 @@ export async function prepare_chapter(arabic, edition = null) {
         (!arabic.introduction ||
             typeof arabic.introduction !== 'object' ||
             Array.isArray(arabic.introduction) ||
-            Object.keys(arabic.introduction).sort().join('|') !==
-                'paragraphs|section_id|title_ar')
+            Object.keys(arabic.introduction).sort().join('|') !== 'paragraphs|section_id|title_ar')
     )
         throw new Error('Introduction must be an object with its required fields')
     if (
@@ -304,7 +303,7 @@ export async function prepare_chapter(arabic, edition = null) {
 }
 
 export function source_part_display(unit, locale, reading_mode) {
-    const original = reading_mode === 'arabic_with_gloss'
+    const original = reading_mode === 'arabic_with_gloss' || reading_mode === 'original'
     return { text: original ? unit.text_ar : unit.text, locale: original ? 'ar' : locale, original }
 }
 

@@ -8,6 +8,7 @@ import { execFileSync } from 'node:child_process'
 import { mkdtempSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
+import { build_chapters } from './chapters.js'
 
 const root = path.resolve(import.meta.dirname, '../..')
 const content_dir = path.join(root, 'content')
@@ -367,7 +368,7 @@ export function content_plugin() {
     return {
         name: 'content',
         buildStart() {
-            const errors = build_content()
+            const errors = [...build_content(), ...build_chapters()]
             if (errors.length) {
                 report(errors)
                 this.error(`${errors.length} content errors`)
@@ -378,7 +379,11 @@ export function content_plugin() {
             const rebuild = (file) => {
                 if (!file.startsWith(content_dir) || !file.endsWith('.md')) return
                 try {
-                    report(build_content())
+                    report(
+                        file.includes(`${path.sep}chapters${path.sep}`)
+                            ? build_chapters()
+                            : build_content(),
+                    )
                 } catch (error) {
                     report([String(error)])
                 }

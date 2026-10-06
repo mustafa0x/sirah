@@ -1,6 +1,14 @@
 import accepted from '../content/hijrah-chapters/catalog.ar.json'
 import { chapter_locale, prepare_chapter } from './chapter-editions.js'
 
+// The chapter stories (content/chapters/*.md, compiled): the foundation, in English. Every
+// language but Arabic reads them until it has its own edition of the new chapters.
+import story_index from '../content/chapters/index.json'
+const stories = import.meta.glob('../content/chapters/*.en.json', { import: 'default' })
+const story_entry = (chapter_id) => story_index.find((item) => item.chapter_id === chapter_id)
+const reads_story = (chapter_id, requested) =>
+    requested !== 'ar' && Boolean(story_entry(chapter_id))
+
 // Chapter payloads are large; each loads only when a reader opens it.
 const payloads = import.meta.glob('../content/hijrah-chapters/*/chapter.*.json', {
     import: 'default',
@@ -61,22 +69,33 @@ export const catalog = $state({
     }
 }
 
+// In story order (chronology), as the chapter files are numbered.
+const story_order = (item) => story_entry(item.chapter_id)?.number ?? 99
+
 export function available_chapters(requested) {
-    return catalog.chapters.filter((item) =>
-        chapter_locale(requested, available_for(item.chapter_id)),
-    )
+    return catalog.chapters
+        .filter(
+            (item) =>
+                reads_story(item.chapter_id, requested) ||
+                chapter_locale(requested, available_for(item.chapter_id)),
+        )
+        .sort((a, b) => story_order(a) - story_order(b))
 }
 
 export function chapter_content_locale(item, requested) {
+    if (reads_story(item.chapter_id, requested)) return 'en'
     return chapter_locale(requested, available_for(item.chapter_id))
 }
 
 export function chapter_title(item, requested) {
+    if (reads_story(item.chapter_id, requested)) return story_entry(item.chapter_id).title
     const locale = chapter_content_locale(item, requested)
     return locale === 'ar' ? item.title_ar : (edition_entry(item.chapter_id, locale)?.title ?? null)
 }
 
 export async function load_chapter(chapter_id, requested = 'ar') {
+    if (reads_story(chapter_id, requested))
+        return stories[`../content/chapters/${chapter_id}.en.json`]()
     const entry = catalog.chapters.find((item) => item.chapter_id === chapter_id)
     const path = entry?.path ?? `${chapter_id}/chapter.ar.json`
     const load = payloads[`../content/hijrah-chapters/${path}`]

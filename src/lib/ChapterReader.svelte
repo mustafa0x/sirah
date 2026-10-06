@@ -209,6 +209,26 @@
     {/if}
 {/snippet}
 
+<!-- A paragraph with its footnote markers where they stand in the text. -->
+{#snippet prose(block)}
+    {#if block.marks?.length}
+        {#each block.marks as mark, index (index)}{block.text.slice(
+                index
+                    ? block.marks[index - 1].at
+                    : 0,
+                mark.at,
+            )}<a
+                class="ms-0.5 align-super px-[5px] border-0 text-[0.75rem] font-sans font-semibold text-gold bg-[rgba(232,178,87,0.12)] rounded-full hover:bg-gold hover:text-gold-ink"
+                lang={destination.lang}
+                dir={language_direction(destination.lang)}
+                aria-label={`Source ${mark.note}`}
+                href={href('readings', `${chapter_id}_n${mark.note}`)}>{local_number(mark.note)}</a
+            >{/each}{block.text.slice(block.marks.at(-1).at)}
+    {:else}
+        {block.text}{@render marker(block.paragraph_id)}
+    {/if}
+{/snippet}
+
 {#snippet source_part(unit, reading_mode = null)}
     {@const role = part_role(unit)}
     {@const source = source_part_display(unit, chapter?.locale, reading_mode)}
@@ -394,7 +414,7 @@
                                 lang={chapter.locale}
                                 dir={language_direction(chapter.locale)}
                             >
-                                {block.text}{@render marker(block.paragraph_id)}
+                                {@render prose(block)}
                             </p>
                         {/each}
                     </section>
@@ -424,7 +444,7 @@
                         lang={chapter?.locale}
                         dir={language_direction(chapter?.locale)}
                     >
-                        {block.text}{@render marker(block.paragraph_id)}
+                        {@render prose(block)}
                     </p>
                 {/each}
                 <!-- The outline doubles as the table of contents. -->
@@ -473,7 +493,7 @@
                         <h3 class={heading}>{section.title}</h3>
                         {#each section.paragraphs as block (block.paragraph_id)}
                             <p class={paragraph} id={block.paragraph_id}>
-                                {block.text}{@render marker(block.paragraph_id)}
+                                {@render prose(block)}
                             </p>
                         {/each}
                     </section>
@@ -495,7 +515,7 @@
                                 <h3 class={heading}>{section.title}</h3>
                                 {#each section.paragraphs as block (block.paragraph_id)}
                                     <p class={paragraph} id={block.paragraph_id}>
-                                        {block.text}{@render marker(block.paragraph_id)}
+                                        {@render prose(block)}
                                     </p>
                                 {/each}
                             </section>
@@ -548,8 +568,19 @@
                             lang={chapter?.locale}
                             dir={language_direction(chapter?.locale)}
                         >
-                            {reading.title}
+                            {#if reading.number}<span
+                                    class="text-gold font-sans text-[0.875rem] me-2">{local_number(
+                                        reading.number,
+                                    )}</span
+                                >{/if}{reading.title}
                         </h3>
+                        {#if reading.strength === 'weak'}
+                            <p
+                                class="justify-self-start px-2 py-0.5 text-[0.8125rem] text-ink-soft border border-solid border-line rounded-full"
+                            >
+                                Weaker report
+                            </p>
+                        {/if}
                         {#if reading.mode === 'arabic_with_gloss'}
                             <p class="text-ink-soft">Summary — not a translation</p>
                             <p
