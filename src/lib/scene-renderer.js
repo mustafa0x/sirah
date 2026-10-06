@@ -564,6 +564,11 @@ export async function create_scene(
                         if (!child.isMesh) return
                         shadowed(child)
                         child.material.normalScale?.setScalar(0.6)
+                        // Night leaves the camera-facing rock unlit; a little of the texture's own
+                        // colour keeps the stone legible, warmed towards Thawr's granite.
+                        child.material.color.setRGB(1, 0.86, 0.72)
+                        child.material.emissive.setRGB(0.32, 0.27, 0.22)
+                        child.material.emissiveMap = child.material.map
                     })
                     // About nine metres across; rotate the TRELLIS aperture towards +x (north).
                     const scale = (9 * METRE) / Math.max(size.x, size.z)
