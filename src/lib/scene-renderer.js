@@ -1960,9 +1960,9 @@ export async function create_scene(
                 tent.rotation.y = facing - Math.PI / 2
                 tent.scale.setScalar(0.24 * active.scale)
                 ewe.root.scale.setScalar(0.5)
-                // Side on to the camera in both beats.
+                // Side on to the camera, facing the same way lying dry and standing milked.
                 ewe.root.position.set(1.3, 0, milked ? 0.55 : 0.75)
-                ewe.root.rotation.y = milked ? Math.PI / 2 : -Math.PI / 2
+                ewe.root.rotation.y = Math.PI / 2
                 ewe.limbs.forEach((limb) => (limb.scale.y = milked ? 1 : 0.3))
                 ewe.torso.position.y = (ewe.limbs[0].scale.y - 1) * ewe.top
                 vessel.visible = milked
