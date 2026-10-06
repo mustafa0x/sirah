@@ -286,8 +286,9 @@ export const chapter_focus_shots = Object.fromEntries(
 
 // One camera move per narrative beat. An azimuth of `north` puts the camera north of its
 // target, looking south. `follow` keeps the target on the tip of that route leg.
-// The summit of Thawr at night, wide enough to see where both night visitors come from.
-const thawr_nights = shot('cave', south + 0.6, 0.45, 1.1, 0.02)
+// Thawr at night from the south, Makkah on the horizon: the road from Makkah comes down the
+// valley towards the viewer, and both night visitors climb the face to the shelter.
+const thawr_nights = shot('cave', south + 0.1, 0.2, 1.3, 0.06, [-0.45, 0, 0])
 
 export const beat_shots = {
     N01a: overview_shot,

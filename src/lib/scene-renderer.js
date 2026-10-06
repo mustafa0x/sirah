@@ -1535,8 +1535,8 @@ export async function create_scene(
             return { group, halo, schedule }
         }
         // Night phases: up between the first pair, down between the second.
-        const abdullah = make_visitor(0xffe2a8, 0xffb35c, 0xffc879, [0.02, 0.2, 0.3, 0.46])
-        const amir = make_visitor(0xf4f1ff, 0xc9d3ff, 0xdfe5ff, [0.21, 0.29, 0.44, 0.54])
+        const abdullah = make_visitor(0xffc461, 0xff9a2e, 0xffb347, [0.02, 0.2, 0.3, 0.46])
+        const amir = make_visitor(0xb9d4ff, 0x7fa6ff, 0x9fbfff, [0.21, 0.29, 0.44, 0.54])
         // ‘Amir's flock: pale specks that graze low on the slope by day and go up with him.
         const flock_material = new THREE.MeshBasicMaterial({ color: 0xeee3c8, fog: false })
         const flock = Array.from({ length: 8 }, () => {
@@ -1545,8 +1545,14 @@ export async function create_scene(
             scene.add(sheep)
             return sheep
         })
+        // ‘Abdullah's climb from the foot of the road to the shelter, in metres [north, east]
+        // of the shelter: round the east shoulder of the summit.
+        const climb_way = [
+            [330, 260],
+            [120, 330],
+        ]
         // Where the flock grazes, in kilometres [north, east] of the shelter.
-        const pasture = [0.12, -0.3]
+        const pasture = [-0.15, 0.25]
         // The searchers at Thawr are dim red lights, never figures. They comb the slopes, close
         // in on the shelter, stand over it while Abu Bakr whispers, then move off. Places are
         // metres [north, east] of the shelter; one stands on the rock above it. They
@@ -1870,16 +1876,34 @@ export async function create_scene(
                     abdullah,
                     actor === 'visits_abdullah',
                     // The path ends at the foot of the summit; the last stretch is to the shelter.
-                    // Only the last stretch of the road from Makkah is in view, and it comes over
-                    // the ridge; the second half of the way crosses the face to the shelter.
+                    // The last stretch of the road from Makkah to the foot of the mountain, then,
+                    // for most of the way, the climb up its face to the shelter.
                     (reach, target) => {
-                        along(cave_path, 0.8 + 0.2 * Math.min(1, reach / 0.5), target)
-                        if (reach <= 0.5) return target
-                        const site = worlds.makkah.cave_site
-                        return target.lerp(
-                            scratch_vector.copy(site).multiplyScalar(worlds.makkah.scale),
-                            smooth((reach - 0.5) / 0.5),
+                        if (reach <= 0.3) return along(cave_path, 0.8 + (0.2 * reach) / 0.3, target)
+                        // Up the mountain on the ground, round its east shoulder, the side the
+                        // view faces; the road itself ends on the far, northern side.
+                        const world = worlds.makkah
+                        const foot = cave_path.points[cave_path.count]
+                        const site = world.cave_site
+                        const way = [
+                            [foot.x, foot.z],
+                            ...climb_way.map(([north, east]) => [
+                                site.x + north * METRE,
+                                site.z + east * METRE,
+                            ]),
+                            [site.x, site.z],
+                        ]
+                        const along_way = smooth((reach - 0.3) / 0.7) * (way.length - 1)
+                        const leg = Math.min(way.length - 2, Math.floor(along_way))
+                        const step = along_way - leg
+                        const x = mix(way[leg][0], way[leg + 1][0], step)
+                        const z = mix(way[leg][1], way[leg + 1][1], step)
+                        const y = mix(
+                            world.terrain.height(x, z),
+                            site.y,
+                            smoothstep(0.92, 1, along_way / (way.length - 1)),
                         )
+                        return target.set(x, y, z).multiplyScalar(world.scale)
                     },
                 ],
                 [
