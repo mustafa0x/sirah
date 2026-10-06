@@ -11,7 +11,7 @@ The Prophet ﷺ and Abu Bakr had slipped out of Makkah by night, heading not nor
 
 ## The way to the cave
 
-Abu Bakr could not walk calmly beside him. In a report Muhammad ibn Sirin gives from ‘Umar, he kept moving, at times ahead of the Prophet ﷺ and at times behind him, until the Prophet ﷺ asked why. "Messenger of Allah," he said, "I think of those coming after you, and walk behind you; then I think of those lying in wait, and walk in front of you."[^1]
+Abu Bakr could not walk calmly beside him. In a report Muhammad ibn Sirin gives from ‘Umar, he kept moving, at times ahead of the Prophet ﷺ and at times behind him, until the Prophet ﷺ asked why. "Messenger of Allah," he said, "I think of those coming after you, and walk behind you; then I think of those lying in wait, and walk in front of you." ‘Umar would later say that this one night of Abu Bakr's was worth more than the whole family of ‘Umar.[^1]
 
 About five miles south of Makkah they reached Mount Thawr,[^2] and a cave in it,[^3] an opening in the mountainside.[^4] They came to it at night.[^5] "Stay where you are, Messenger of Allah," Abu Bakr said, "until I have checked the cave for you."[^1] He went in first and felt his way around it, to see whether a wild animal or a snake was inside, ready to take the harm himself.[^5] Then the Prophet ﷺ came in after him. For three nights, this would be their hiding place.[^3]
 
@@ -27,7 +27,7 @@ Others followed the Prophet's ﷺ tracks out of the city. At the mountain the tr
 
 Abu Bakr was overcome with worry and fear. The Prophet ﷺ told him, "Do not grieve; Allah is with us," and he prayed, and calm from Allah came down on him.[^8] In a report from Ibn ‘Abbas, the searchers saw a spider's web across the entrance and said, "If anyone had gone in here, there would be no spider's web over its entrance."[^6] Allah blinded their eyes to him, and at last the searchers gave up and went back.[^12]
 
-The Quran recalls that moment: "If you do not help him, Allah has already helped him, when those who disbelieved drove him out, the second of two, when the two were in the cave, when he said to his companion, 'Do not grieve; Allah is with us.' Then Allah sent down His tranquility upon him, and supported him with forces you did not see."[^13]
+The Quran recalls that moment: "If you do not help him, Allah has already helped him, when those who disbelieved drove him out, the second of two, when the two were in the cave, when he said to his companion, 'Do not grieve; Allah is with us.' Then Allah sent down His tranquility upon him, and supported him with forces you did not see."[^13] That tranquility, Ibn ‘Abbas said, came down on Abu Bakr, for the Prophet ﷺ had never been without it.[^22] And the forces no one saw, some explained, were angels turning the searchers' faces and eyes away from the cave.[^23]
 
 ## Visitors after dark
 
@@ -37,7 +37,7 @@ Abu Bakr's freedman, ‘Amir ibn Fuhayrah, grazed a flock of milking sheep among
 
 ## The third night
 
-At last the three nights passed, and the talk about the two died down.[^16][^17] On the morning after the third night, the guide they had hired, ‘Abdullah ibn Urayqit, came to the cave as arranged, with their two camels and a third of his own.[^16][^18][^20]
+At last the three nights passed, and the talk about the two died down.[^16][^17] On the morning after the third night, the guide they had hired, ‘Abdullah ibn Urayqit, came to the cave as arranged, with their two camels and a third of his own.[^16][^18][^20] By the reckoning of later biographers, it was the night of Monday, the first of Rabi‘ al-Awwal.[^29]
 
 Asma came too, carrying their bag of food.[^16] The camels were ready, and the road to Madinah lay ahead.[^18]
 
