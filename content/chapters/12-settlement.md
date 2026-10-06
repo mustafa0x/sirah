@@ -11,8 +11,6 @@ The Prophet ﷺ had found a place in Madinah, and his mosque was going up.[^5] Y
 
 ## Families on the road
 
-The emigrants kept coming. They followed one another to the Prophet ﷺ until none of them was left in Makkah except those held there against their will or forced from their faith. A few clans took their whole households and wealth, and their houses in Makkah stood shut, with no one living in them.[^1]
-
 From Abu Ayyub's house, the Prophet ﷺ sent Zayd ibn Harithah and Abu Rafi‘ to Makkah with two camels and five hundred dirhams, to bring his family.[^2] ‘Abdullah ibn Urayqit was returning to Makkah, and Abu Bakr sent him to his son ‘Abdullah, telling him to come with the household.[^3][^4]
 
 They came together: Sawdah bint Zam‘ah, the Prophet's ﷺ wife; his daughters Fatimah and Umm Kulthum; Umm Ayman, Zayd's wife, with her son Usamah; and ‘Abdullah ibn Abi Bakr with his mother Umm Ruman and his sisters ‘Aishah and Asma.[^5][^2] Two daughters were not among them. Ruqayyah had gone before with her husband, ‘Uthman ibn ‘Affan, and Zaynab, the eldest, stayed behind in Makkah, held back by her husband, Abu al-‘As ibn al-Rabi‘.[^6][^2]

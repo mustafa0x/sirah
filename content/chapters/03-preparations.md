@@ -11,7 +11,7 @@ After the pledges at al-‘Aqabah, the Muslims of Makkah set out for Madinah in 
 
 ## Waiting in Makkah
 
-"I have been shown the land you will emigrate to," the Prophet ﷺ told the Muslims of Makkah: "a land of palm trees between two lava fields." Those who emigrated set out for Madinah.[^2] He had told them to go and join their brothers there: "Allah has given you brothers, and a home where you will be safe." They went out in small groups, and he stayed in Makkah, waiting for his Lord to give him permission to leave.[^1] Before long, of the emigrants only ‘Ali ibn Abi Talib and Abu Bakr were left with him, apart from those who were held back by force or had been turned from their faith.[^3]
+With his companions gone ahead to Madinah, the Prophet ﷺ stayed in Makkah, waiting for his Lord to give him permission to leave.[^1] Before long, of the emigrants only ‘Ali ibn Abi Talib and Abu Bakr were left with him, apart from those who were held back by force or had been turned from their faith.[^3]
 
 Abu Bakr asked him again and again for permission to emigrate. Each time the answer was the same: "Do not hurry. Perhaps Allah will give you a companion." And each time Abu Bakr hoped that the companion would be the Prophet ﷺ himself.[^3] Once he had made himself ready to go, and the Prophet ﷺ stopped him: "Take your time, for I hope to be given permission." "Do you really hope for that, may my father be your ransom?" Abu Bakr asked. "Yes."[^2]
 

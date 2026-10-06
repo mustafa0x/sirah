@@ -11,9 +11,7 @@ After three nights hidden in the cave, the camels came at last, and with them th
 
 ## Four riders
 
-Three nights had passed, and the search around Makkah had died down.[^2] On the morning after the third night, the guide came to the cave of Thawr, as they had arranged,[^1] leading their two camels and a third camel of his own.[^2] He was the man the Prophet ﷺ and Abu Bakr had hired before they left Makkah: a man of Banu al-Dil who still followed the religion of Quraysh, but a *khirrit*, an expert at finding the way, and they had trusted him with their camels.[^3] His name was ‘Abdullah ibn Urayqit.[^4]
-
-Now there were four of them: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and the guide.[^4] They mounted and set off. Abu Bakr took ‘Amir up behind him on his camel, to serve them on the way,[^5] and at times let him ride it in turn. No one else went with them.[^6]
+The guide had come with the camels, and now there were four of them: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and the guide.[^4] They mounted and set off. Abu Bakr took ‘Amir up behind him on his camel, to serve them on the way,[^5] and at times let him ride it in turn. No one else went with them.[^6]
 
 ## The road by the sea
 

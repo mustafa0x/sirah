@@ -7,7 +7,7 @@ stage: setting
 
 ## Overview
 
-The emigrants who left Makkah went to a town that had made room for them. It had not always been ready. Every pilgrimage season the Prophet ﷺ went out to the Arab tribes and presented himself to them, and one season, at a place called al-‘Aqabah, a few men from Yathrib sat down to listen.[^1][^3] Their own people at home were torn apart by feuds.[^2] What those men carried back, and what was promised at al-‘Aqabah in the seasons that followed, would decide whether the Prophet ﷺ had anywhere to go, and what his hosts would risk for him.[^12][^15]
+Every pilgrimage season the Prophet ﷺ went out to the Arab tribes and presented himself to them, and one season, at a place called al-‘Aqabah, a few men from Yathrib sat down to listen.[^1][^3] Their own people at home were torn apart by feuds.[^2] What those men carried back, and what was promised at al-‘Aqabah in the seasons that followed, would decide whether the Prophet ﷺ had anywhere to go, and what his hosts would risk for him.[^12][^15]
 
 ## Six men at al-‘Aqabah
 
@@ -47,7 +47,7 @@ One of the Ansar, al-‘Abbas ibn ‘Ubadah, made the cost plain: they were pled
 
 In the morning the leading men of Quraysh came asking about the pledge. The idol-worshippers among the pilgrims swore that nothing had happened, and they spoke the truth, for they knew nothing of it.[^18] But once the pilgrims had left, Quraysh learned it was true and went after them. They caught Sa‘d ibn ‘Ubadah, one of the twelve leaders, tied his hands to his neck and brought him into Makkah, beating him and dragging him by his long hair.[^20] He was saved by an old bond: in Yathrib he used to protect the merchants of two men of Quraysh, Jubayr ibn Mut‘im and al-Harith ibn Harb. He called out their names, and they came and freed him.[^21]
 
-A people had now pledged to stand by the Prophet ﷺ and all who followed him. He told his companions in Makkah to go to Madinah and join their brothers of the Ansar. "Allah has given you brothers," he said, "and a home where you will be safe." They left in groups, one after another, and the Prophet ﷺ stayed in Makkah, waiting for his Lord's permission to follow.[^22]
+A people had now pledged to stand by the Prophet ﷺ and all who followed him. In Makkah, the believers could begin to go.
 
 ## Outline
 

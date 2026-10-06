@@ -11,9 +11,9 @@ By now most of the Prophet's ﷺ companions had gone to Madinah, where they had 
 
 ## The council at Dar al-Nadwah
 
-While the Prophet ﷺ waited in Makkah for permission to leave, Quraysh watched his companions go, one after another, to a town where they had found a home and protection.[^0] Their leaders feared he would soon follow them, and that those people would fight Makkah for him. So they gathered in Dar al-Nadwah, the house of Qusayy ibn Kilab, where Quraysh settled all their affairs, to decide what to do with him.[^1]
+All this while, Quraysh had been watching his companions go, one after another, to a town where they had found a home and protection. Their leaders feared he would soon follow them, and that those people would fight Makkah for him. So they gathered in Dar al-Nadwah, the house of Qusayy ibn Kilab, where Quraysh settled all their affairs, to decide what to do with him.[^1]
 
-The chiefs of almost every clan came: Abu Sufyan, ‘Utbah and Shaybah, Abu Jahl, Umayyah ibn Khalaf and others. At the door stood a stranger, an old man in a cloak, who said he was from Najd. He had heard of their meeting, he told them, and had come to listen; perhaps he could offer some advice. They let him in.[^2]
+In the report Ibn Ishaq gives from Ibn ‘Abbas, the chiefs of almost every clan came: Abu Sufyan, ‘Utbah and Shaybah, Abu Jahl, Umayyah ibn Khalaf and others. At the door stood a stranger, an old man in a cloak, who said he was from Najd. He had heard of their meeting, he told them, and had come to listen; perhaps he could offer some advice. They let him in.[^2]
 
 "Put him in chains behind a locked door," one of them said, "and wait for death to take him, as it took the poets before him." The old man would not have it: word of him would slip out through that door, and his companions would come and take him back by force.[^3] "Then drive him out of our land," said another, "and we will not care where he goes." That was no plan either, said the old man. A man who spoke as he did would win over some tribe, and come back at its head.[^4]
 
@@ -55,11 +55,11 @@ When the Prophet ﷺ had made up his mind to go, he came to Abu Bakr, and the tw
 
 ### Who was the old man from Najd?
 
-In the report Ibn Ishaq gives from Ibn ‘Abbas, the stranger at the council is Iblis, appearing as a venerable elder from Najd.[^2] The modern hadith scholar Muhammad al-Suwayani grades the report hasan, sound through its several routes: one of Ibn Ishaq's chains, from Ibn Abi Najih from Mujahid from Ibn ‘Abbas, has trustworthy men, and Qatada's report, recorded by ‘Abd al-Razzaq, supports it. He makes one exception: the mention of Iblis. That is why the story above calls him only an old man from Najd.[^18][^19]
+In the report Ibn Ishaq gives from Ibn ‘Abbas, the stranger at the council is Iblis, appearing as a venerable elder from Najd.[^2] The modern hadith scholar Muhammad al-Suwayani grades the report hasan, sound through its several routes: one of Ibn Ishaq's chains, from Ibn Abi Najih from Mujahid from Ibn ‘Abbas, has trustworthy men, and Qatada's report, recorded by ‘Abd al-Razzaq, supports it. He makes one exception: the mention of Iblis.[^18][^19] Others judge the whole report weak, among them the study *Marwiyyat Fada'il ‘Ali ibn Abi Talib fi al-Mustadrak*, and that is the stronger view: the council, Jibril's warning and ‘Ali in the green cloak rest on a weak report. The story tells it as Ibn ‘Abbas's report, and calls the stranger only an old man from Najd.[^22]
 
 ### Three tellings of one night
 
-The council, Jibril's warning and ‘Ali in the bed come from Ibn ‘Abbas.[^1][^5] The dust and the verses of Ya-Sin come from a different report, by Muhammad ibn Ka‘b, a scholar of the next generation who did not see the events himself.[^7] ‘Urwah ibn al-Zubayr gives a shorter account: Quraysh resolved to kill, imprison or expel him, Allah told him of their plot, and he and Abu Bakr left by night for the cave at Thawr while ‘Ali lay on his bed to shield him from watching eyes. ‘Urwah links the plot to the verse: "And when those who disbelieved plotted against you, to restrain you, or kill you, or drive you out: they plot, and Allah plots, and Allah is the best of planners" (al-Anfal 8:30). The three options in the verse are the three the council debated.[^17]
+The council, Jibril's warning and ‘Ali in the bed come from Ibn ‘Abbas.[^1][^5] The dust and the verses of Ya-Sin come from a different report, by Muhammad ibn Ka‘b, a scholar of the next generation who did not see the events himself; it too is judged weak.[^7][^22] ‘Urwah ibn al-Zubayr gives a shorter account: Quraysh resolved to kill, imprison or expel him, Allah told him of their plot, and he and Abu Bakr left by night for the cave at Thawr while ‘Ali lay on his bed to shield him from watching eyes. ‘Urwah links the plot to the verse: "And when those who disbelieved plotted against you, to restrain you, or kill you, or drive you out: they plot, and Allah plots, and Allah is the best of planners" (al-Anfal 8:30). The three options in the verse are the three the council debated.[^17]
 
 ### "As far as has reached me"
 
@@ -77,7 +77,6 @@ A similar account of the night comes through Abu Balj from ‘Amr ibn Maymun fro
 
 Passage ids omit the prefix `sp_departure_chapter_`.
 
-[^0]: Ibn Hisham, *al-Sirah al-Nabawiyyah* (ed. al-Saqqa), 1/480 — Ibn Ishaq. [Turath](https://app.turath.io/book/23833?page=503) · `wait:p1`
 [^1]: Ibn Hisham, *al-Sirah al-Nabawiyyah*, 1/480 — Ibn Ishaq; Ibn ‘Abbas through Ibn Ishaq. [Turath](https://app.turath.io/book/23833?page=503) · `council:p1–p3`
 [^2]: Ibn Hisham, *al-Sirah al-Nabawiyyah*, 1/480–481 — Ibn ‘Abbas through Ibn Ishaq. [Turath](https://app.turath.io/book/23833?page=504) · `council:p3`, `debate:p1–p3`
 [^3]: Ibn Hisham, *al-Sirah al-Nabawiyyah*, 1/481–482 — Ibn ‘Abbas through Ibn Ishaq. [Turath](https://app.turath.io/book/23833?page=504) · `debate:p4`, `decision:p1`
@@ -98,25 +97,25 @@ Passage ids omit the prefix `sp_departure_chapter_`.
 [^18]: Al-Suwayani, *al-Sirah al-Nabawiyyah kama ja'at fi al-Ahadith al-Sahihah*, 1/254. [Turath](https://app.turath.io/book/123668?page=252) · `saw1:p1`
 [^19]: Al-Suwayani, *al-Sahih min Ahadith al-Sirah al-Nabawiyyah*, 1/141: "hasan, except for the mention of Iblis". [Turath](https://app.turath.io/book/123669?page=141) · `saw2:p1`
 [^20]: Al-Bayhaqi, *Dala'il al-Nubuwwah*, 2/518 — al-Bayhaqi on the other versions. [Turath](https://app.turath.io/book/7478?page=1039) · `haztext:p3`, `hazcrit:p1`
+[^22]: *Marwiyyat Fada'il ‘Ali ibn Abi Talib fi al-Mustadrak*, on the reports of ‘Ali sleeping in the Prophet's ﷺ bed. Not yet in the archive: the passage is to be added; the grading is recorded in `docs/research/hijrah/chapters/STRENGTH-DECISIONS.md`.
 [^21]: Al-Suwayani, *al-Sahih min Ahadith al-Sirah al-Nabawiyyah*, 1/142–143. [Turath](https://app.turath.io/book/123669?page=142) · `balj1:p1–p10`, `balj2:p1`
 
 ## Readings
 
 The chapter's Sources tab shows these, each as its Arabic original with an English heading and gloss.
 
-| Reading | Passages | Notes |
-| --- | --- | --- |
-| The council at Dar al-Nadwah (Ibn ‘Abbas, through Ibn Ishaq) | `council`, `debate`, `decision`, `bed`, `exit:p1–p2` | 1–6 |
-| Through their midst (Muhammad ibn Ka‘b) | `exit:p3–p12` | 7–10 |
-| The trusts, and ‘Ali joining him (Ibn Ishaq) | `trust:p1`, `arrival:p1` | 11–12 |
-| The night they left (‘Urwah) | `urwa:p1–p4` | 17 |
-| Leaving by the back door (Ibn Ishaq) — **new** | `H-23833-508-807` | 14 |
-| Abu Bakr's money (Asma, in Ibn Kathir) — **new** | `E23` | 15 |
-| The road south (al-Rahiq al-Makhtum) — **new** | `E24` | 16 |
-| Words at al-Hazwara (al-Bayhaqi) | `hazchain`, `haztext`, `hazcrit` | 13, 20 |
-| How the council report is graded (al-Suwayani) | `saw1`, `saw2` | 18–19 |
-| The chain through Abu Balj (al-Suwayani) | `balj1`, `balj2` | 21 |
-| Waiting in Makkah (Ibn Ishaq) | `wait:p1–p4` | 0 |
+| Reading | Passages | Notes | Strength |
+| --- | --- | --- | --- |
+| The council at Dar al-Nadwah (Ibn ‘Abbas, through Ibn Ishaq) | `council`, `debate`, `decision`, `bed`, `exit:p1–p2` | 1–6 | weak (note 22; al-Suwayani: hasan except Iblis) |
+| Through their midst (Muhammad ibn Ka‘b) | `exit:p3–p12` | 7–10 | weak (note 22) |
+| The trusts, and ‘Ali joining him (Ibn Ishaq) | `trust:p1`, `arrival:p1` | 11–12 | single ("as far as has reached me") |
+| The night they left (‘Urwah) | `urwa:p1–p4` | 17 | single (‘Urwah did not witness it) |
+| Leaving by the back door (Ibn Ishaq) — **new** | `H-23833-508-807` | 14 | single (no chain given) |
+| Abu Bakr's money (Asma, in Ibn Kathir) — **new** | `E23` | 15 | single (to be graded) |
+| The road south (al-Rahiq al-Makhtum) — **new** | `E24` | 16 | a modern author's account |
+| Words at al-Hazwara (al-Bayhaqi) | `hazchain`, `haztext`, `hazcrit` | 13, 20 | sound (al-Bayhaqi: the preserved version) |
+| How the council report is graded (al-Suwayani) | `saw1`, `saw2` | 18–19 | — (a grading) |
+| The chain through Abu Balj (al-Suwayani) | `balj1`, `balj2` | 21 | — (a grading) |
 
 ---
 

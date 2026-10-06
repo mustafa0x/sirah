@@ -17,7 +17,7 @@ On the road the Prophet ﷺ had met al-Zubayr, coming home from Syria with a par
 
 One day, after a long wait, they went back to their houses. It was a Monday in Rabi‘ al-Awwal; the morning heat had grown fierce and the sun was nearly at its height.[^2][^4] A Jewish man had climbed one of the town's forts to look at something of his own, and he saw them: the Prophet ﷺ and his companions, dressed in white, shimmering in the mirage. He could not hold back. "People of the Arabs!" he shouted at the top of his voice. "Here is your good fortune, the one you have been waiting for!"[^2][^3]
 
-## Which one is he?
+## Under the palm tree
 
 The Muslims snatched up their weapons and met the Prophet ﷺ out on the lava plain. He turned with them to the right and stopped among Banu ‘Amr ibn ‘Awf.[^2]
 

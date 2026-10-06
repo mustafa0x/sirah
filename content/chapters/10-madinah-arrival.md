@@ -11,9 +11,7 @@ After his days at Quba, the Prophet ﷺ rode on into Madinah, with Abu Bakr behi
 
 ## Out of Quba, on a Friday
 
-After his days among Banu ‘Amr ibn ‘Awf at Quba, the Prophet ﷺ sent for the leading men of Banu al-Najjar, and they came with their swords hung at their sides. Anas ibn Malik could still see it: "the Messenger of Allah ﷺ on his mount, with Abu Bakr riding behind him and the leaders of Banu al-Najjar around him."[^1]
-
-It was a Friday.[^2] On the way, the time for the Friday prayer came while he was among Banu Salim ibn ‘Awf, and he prayed it in their mosque in the bed of the valley of Ranuna. It was the first Friday prayer he prayed in Madinah.[^3]
+It was a Friday when he rode out of Quba.[^2] On the way, the time for the Friday prayer came while he was among Banu Salim ibn ‘Awf, and he prayed it in their mosque in the bed of the valley of Ranuna. It was the first Friday prayer he prayed in Madinah.[^3]
 
 ## "Let her go her way"
 

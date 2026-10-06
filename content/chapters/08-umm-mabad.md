@@ -11,7 +11,7 @@ The travellers had nothing left to eat, and it was a year of drought and hunger.
 
 ## Two tents by the road
 
-With Suraqah behind them, the travellers rode on towards Madinah: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and their guide, ‘Abdullah ibn Urayqit of the tribe of Layth.[^1] Their provisions had run out, and it was a year of drought, when hunger was everywhere.[^2]
+With Suraqah behind them, the travellers rode on towards Madinah: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and their guide, ‘Abdullah ibn Urayqit.[^1] Their provisions had run out, and it was a year of drought, when hunger was everywhere.[^2]
 
 On the way they came to two tents belonging to Umm Ma‘bad, a woman of Khuza‘ah. She was a strong woman who did not keep herself out of sight; people would come and sit with her. She sat in front of her tent with her knees drawn up, and gave water and food to those who passed.[^3] The travellers asked to buy meat and dates from her, but she had none of either.[^4]
 

@@ -37,9 +37,9 @@ Abu Bakr's freedman, ‘Amir ibn Fuhayrah, grazed a flock of milking sheep among
 
 ## The third night
 
-At last the three nights passed, and the talk about the two died down.[^16][^17] They had hired a guide who knew the roads well, ‘Abdullah ibn Urayqit. He followed the religion of Quraysh, but they trusted him; they had left their two riding camels with him and arranged to meet him at the cave after three nights.[^18][^20] Now he came, on the morning after the third night, with their two camels and a third of his own.[^16][^18]
+At last the three nights passed, and the talk about the two died down.[^16][^17] On the morning after the third night, the guide they had hired, ‘Abdullah ibn Urayqit, came to the cave as arranged, with their two camels and a third of his own.[^16][^18][^20]
 
-Asma came too, carrying their bag of food, but she had forgotten to bring a strap to tie it on. When the two were ready to leave and she went to hang the bag, there was nothing to hang it by. She untied the waistband she wore, made it into a strap and hung the bag with it. From then on she was known as Dhat al-Nitaq, "the woman of the waistband."[^16][^19] The camels were ready, and the road to Madinah lay ahead.[^18]
+Asma came too, carrying their bag of food.[^16] The camels were ready, and the road to Madinah lay ahead.[^18]
 
 ## Outline
 

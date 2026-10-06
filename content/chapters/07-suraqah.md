@@ -11,7 +11,7 @@ Quraysh had not let the Prophet ﷺ go. Their messengers went out to the tribes 
 
 ## A price on their heads
 
-Suraqah remembered how the news first came: "Messengers of the unbelievers of Quraysh came to us," offering, for the Messenger of Allah ﷺ and for Abu Bakr, the blood-money of each to whoever killed or captured him.[^1] In the version Ibn Ishaq gives, the price was a hundred she-camels for whoever brought the Prophet ﷺ back to them.[^2]
+Suraqah remembered how the news first came: "Messengers of the unbelievers of Quraysh came to us," offering, for the Messenger of Allah ﷺ and for Abu Bakr, the blood-money of each to whoever killed or captured him.[^1]
 
 One day Suraqah was sitting among his people, Banu Mudlij, when one of them came up and stood over them. "Suraqah," he said, "just now I saw dark figures by the coast. I think they are Muhammad and his companions."[^1]
 

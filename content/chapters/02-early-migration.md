@@ -11,7 +11,7 @@ In Makkah the believers were being insulted and harmed, and now the Prophet ﷺ 
 
 ## A family torn apart
 
-Abu Salama ibn ‘Abd al-Asad, a cousin of the Prophet ﷺ, had emigrated once before, to Abyssinia, taking his wife with him.[^1] Back in Makkah, Quraysh made life hard for him, and when he heard that the believers had brothers in Madinah, he set out to join them: the first of the Prophet's ﷺ companions from Quraysh to go.[^2]
+Even before the great pledge at al-‘Aqabah, one man had set out. Abu Salama ibn ‘Abd al-Asad, a cousin of the Prophet ﷺ, had emigrated once before, to Abyssinia, taking his wife with him.[^1] Back in Makkah, Quraysh made life hard for him, and when he heard that the believers had brothers in Madinah, he set out to join them: the first of the Prophet's ﷺ companions from Quraysh to go.[^2]
 
 His wife, Umm Salama, told what happened. Abu Salama set her on his camel with their little son Salama in her lap and led it out by the halter. Men of her clan, Banu al-Mughirah, blocked his way. "You have got the better of us over yourself," they said, "but why should we let you take this woman of ours about the land?" They tore the halter from his hand and took her back. Abu Salama's clan, angry, claimed the boy, and the two clans pulled him between them until they dislocated his arm. His father's people carried him off, hers kept her, and Abu Salama went on to Madinah.[^3]
 
@@ -19,7 +19,7 @@ His wife, Umm Salama, told what happened. Abu Salama set her on his camel with t
 
 ## "It is Yathrib"
 
-In time, seventy men of Madinah pledged themselves to the Prophet ﷺ at al-‘Aqabah, and he was at ease: Allah had given him protectors, a people ready for war.[^6][^19] But Quraysh knew now that the believers meant to leave, and pressed them harder than ever. The companions asked leave to emigrate, and one day the Prophet ﷺ came out to them full of joy. "I have been told where you will emigrate: it is Yathrib. Whoever wants to leave, let him go there."[^6] "Allah has made brothers for you," he told them, "and a home where you will be safe."[^7] They made ready, helping one another, and slipped away in secret, group after group.[^6][^7]
+Then came the night when seventy men of Madinah pledged themselves to the Prophet ﷺ at al-‘Aqabah, and he was at ease: Allah had given him protectors, a people ready for war.[^6][^19] But Quraysh knew now that the believers meant to leave, and pressed them harder than ever. The companions asked leave to emigrate, and one day the Prophet ﷺ came out to them full of joy. "I have been told where you will emigrate: it is Yathrib. Whoever wants to leave, let him go there."[^6] "Allah has made brothers for you," he told them, "and a home where you will be safe."[^7] They made ready, helping one another, and slipped away in secret, group after group.[^6][^7]
 
 Whole households went. ‘Abdullah ibn Jahsh took his family and his brother Abu Ahmad, a blind poet who walked all over Makkah without a guide; their whole clan left with them, men and women.[^8][^9] One day ‘Utbah ibn Rabi‘ah, al-‘Abbas ibn ‘Abd al-Muttalib and Abu Jahl passed the house of Banu Jahsh. It stood locked and deserted, its doors swinging. ‘Utbah sighed. "The house of Banu Jahsh is empty of its people," he said. "And what are you weeping over?" said Abu Jahl. "A nobody, son of a nobody." Then he said: "This is the work of this man's nephew. He has split our community, scattered our affairs, and cut the ties between us."[^8]
 
