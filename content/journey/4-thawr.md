@@ -7,7 +7,7 @@ stage: thawr
 ## N03a
 sources: E03
 
-After the preparations, the Prophet ﷺ and Abu Bakr sheltered in a cave on Mount Thawr. ‘Aishah’s account in Sahih al-Bukhari records that they stayed there for three nights. This was a stage within the journey, not its destination.
+The Prophet ﷺ and Abu Bakr reached a cave on Mount Thawr and hid inside it. They would stay there for three nights.
 
 ### young
 
@@ -16,7 +16,7 @@ The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights.
 ## N03b
 sources: E04
 
-During the stay, ‘Abdullah ibn Abi Bakr brought news of plans against them. He came after darkness and left before daybreak, returning to Makkah. His contribution was information.
+Each night, Abu Bakr’s son ‘Abdullah slept near them. Before dawn he slipped back to Makkah, so that morning found him among Quraysh as if he had never left, and at dark he returned with any plot he had heard.
 
 ### young
 
@@ -25,7 +25,7 @@ Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news 
 ## N03c
 sources: E05
 
-‘Amir ibn Fuhayrah provided another kind of help. He tended sheep and brought them near after nightfall, making milk available. The account describes this on each of the three nights.
+Abu Bakr’s freedman ‘Amir ibn Fuhayrah grazed a few milking ewes nearby and brought them to the cave after nightfall, so the two had milk. He did this on each of the three nights.
 
 ### young
 
