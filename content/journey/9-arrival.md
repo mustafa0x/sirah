@@ -1,26 +1,6 @@
-<!-- One stage of the journey: everything a learner reads at this stage. Spec: docs/CONTENT_SPEC.md. -->
-
-# Arrival and a new beginning
+<!-- What a learner can open at this stage beside the story: why it matters, map moments, the timeline entry and the source notes. The captions are in content/narrative.md. Spec: docs/CONTENT_SPEC.md. -->
 
 stage: arrival
-
-## N08a
-sources: E17
-
-Then he rode on, with people walking beside him, until his camel knelt at a place in Madinah where some of the Muslims already prayed. It was a yard for drying dates.
-
-### young
-
-At last they reached Madinah! The Prophet’s camel walked through the town and knelt in an open yard.
-
-## N05b
-sources: E12
-
-The account goes on to describe a date-drying yard that became the site of the Prophet’s mosque in Madinah. It records the Prophet carrying bricks with those building it.
-
-### young
-
-That yard became the place of his mosque, and he carried bricks to help build it.
 
 ## why
 

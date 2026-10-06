@@ -1,26 +1,6 @@
-<!-- One stage of the journey: everything a learner reads at this stage. Spec: docs/CONTENT_SPEC.md. -->
-
-# Before the journey
+<!-- What a learner can open at this stage beside the story: why it matters, map moments, the timeline entry and the source notes. The captions are in content/narrative.md. Spec: docs/CONTENT_SPEC.md. -->
 
 stage: setting
-
-## N01a
-sources: E01, E11
-
-This chapter follows the Hijrah: the Prophet Muhammad’s ﷺ migration from Makkah to Madinah. We will follow a few connected stages, from preparations for departure to arrival in Madinah.
-
-### young
-
-This is the story of the Hijrah: when the Prophet Muhammad ﷺ travelled from Makkah to Madinah, a new home.
-
-## N01b
-sources: E01
-
-Before the Prophet departed, some Muslims had already moved to Madinah. Abu Bakr was preparing to leave too, but waited to accompany him. This was part of a wider movement, not a departure in which everyone travelled together.
-
-### young
-
-Many Muslims had already gone ahead. His best friend, Abu Bakr, waited so that they could travel together.
 
 ## why
 

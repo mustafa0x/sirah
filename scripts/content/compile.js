@@ -132,16 +132,93 @@ export function compile() {
         seen.set(key, where(file, section.line))
     }
 
-    // Stages: one file each, holding every text a learner reads at that stage.
+    // The story: content/narrative.md, one continuous text. "## stage: id" opens a stage (its
+    // title on a "title:" line); each "## N01a" paragraph is one narrated caption.
+    {
+        const { file, doc, errors: parse_errors } = read('narrative.md')
+        errors.push(...parse_errors)
+        let stage = null
+        for (const section of doc.sections) {
+            const [kind, key] = section.id.includes(':')
+                ? section.id.split(/:\s*/)
+                : ['paragraph', section.id]
+            if (kind === 'stage') {
+                unique(file, section, `stage ${key}`)
+                stage = key
+                from('stage', key, key, file, section.line)
+                result.stage_text[key] = {
+                    title: need(errors, file, section, 'title', section.line),
+                    paragraphs: [],
+                }
+                one(errors, file, section, section, true)
+            } else if (kind === 'paragraph' && /^N\d{2}[a-z]$/.test(key)) {
+                if (!stage) {
+                    errors.push(
+                        `${where(file, section.line)}: "${key}" comes before any "## stage:"`,
+                    )
+                    continue
+                }
+                unique(file, section, `paragraph ${key}`)
+                from('caption', key, stage, file, section.line)
+                const sources = need(errors, file, section, 'sources', section.line)
+                result.stage_text[stage].paragraphs.push({
+                    id: key,
+                    text: one(errors, file, section, section),
+                    source_ids: (sources ?? '')
+                        .split(',')
+                        .map((item) => item.trim())
+                        .filter(Boolean),
+                })
+            } else
+                errors.push(
+                    `${where(file, section.line)}: expected "## stage: id" or a paragraph id (N01a), not "${section.id}"`,
+                )
+        }
+    }
+
+    // The young learners' story: the same paragraphs, by id, in content/narrative-young.md.
+    {
+        const { file, doc, errors: parse_errors } = read('narrative-young.md')
+        errors.push(...parse_errors)
+        const paragraphs = new Map(
+            Object.values(result.stage_text).flatMap((stage) =>
+                stage.paragraphs.map((paragraph) => [paragraph.id, paragraph]),
+            ),
+        )
+        for (const section of doc.sections) {
+            if (section.id.startsWith('stage:')) continue
+            const paragraph = paragraphs.get(section.id)
+            if (!paragraph) {
+                errors.push(`${where(file, section.line)}: "${section.id}" is not in narrative.md`)
+                continue
+            }
+            unique(file, section, `young ${section.id}`)
+            from('young', section.id, origin[`caption:${section.id}`]?.stage, file, section.line)
+            // Keep the generated shape: id, text, young, source_ids.
+            const { source_ids, ...rest } = paragraph
+            Object.assign(paragraph, rest, { young: { text: one(errors, file, section, section) } })
+            delete paragraph.source_ids
+            paragraph.source_ids = source_ids
+        }
+    }
+
+    // Beside the story: one file per stage with why it matters, the recap, map moments,
+    // timeline events and source notes.
     const stage_files = readdirSync(path.join(content_dir, 'journey'))
         .filter((name) => name.endsWith('.md'))
         .sort((a, b) => parseInt(a) - parseInt(b))
+    const stage_ids = new Set()
     for (const name of stage_files) {
         const { file, doc, errors: parse_errors } = read(`journey/${name}`)
         errors.push(...parse_errors)
         const id = need(errors, file, doc, 'stage', 1)
-        if (!doc.title) errors.push(`${where(file, 1)}: missing "# Stage title"`)
-        const stage = { title: doc.title, paragraphs: [] }
+        if (!id) continue
+        stage_ids.add(id)
+        const stage = result.stage_text[id]
+        if (!stage) {
+            errors.push(`${where(file, 1)}: stage "${id}" is not in narrative.md`)
+            continue
+        }
         for (const section of doc.sections) {
             const [kind, key] = section.id.includes(':')
                 ? section.id.split(/:\s*/)
@@ -151,23 +228,8 @@ export function compile() {
             if (kind === 'paragraph' && (key === 'why' || key === 'recap')) {
                 stage[key] = { text: one(errors, file, section, section) }
                 from(key, id, id, file, section.line)
-            } else if (kind === 'paragraph') {
-                from('caption', key, id, file, section.line)
-                if (!/^N\d{2}[a-z]$/.test(key))
-                    errors.push(
-                        `${where(file, section.line)}: "${section.id}" is not a paragraph id (N01a), why, recap, "moment: id", "event: id" or "note: E01"`,
-                    )
-                unique(file, section, `paragraph ${key}`)
-                const sources = need(errors, file, section, 'sources', section.line)
-                stage.paragraphs.push({
-                    id: key,
-                    text: one(errors, file, section, section),
-                    ...young(),
-                    source_ids: (sources ?? '')
-                        .split(',')
-                        .map((item) => item.trim())
-                        .filter(Boolean),
-                })
+            } else if (kind === 'paragraph' && /^N\d{2}[a-z]$/.test(key)) {
+                errors.push(`${where(file, section.line)}: captions belong in content/narrative.md`)
             } else if (kind === 'moment') {
                 unique(file, section, `moment ${key}`)
                 from('moment', key, id, file, section.line)
@@ -191,11 +253,14 @@ export function compile() {
                 unique(file, section, `note ${key}`)
                 from('note', key, id, file, section.line)
                 result.source_notes[key] = { text: one(errors, file, section, section) }
-            } else errors.push(`${where(file, section.line)}: unknown section "${section.id}"`)
+            } else
+                errors.push(
+                    `${where(file, section.line)}: "${section.id}" is not why, recap, "moment: id", "event: id" or "note: E01"`,
+                )
         }
-        if (id) result.stage_text[id] = stage
-        if (id) from('stage', id, id, file, 1)
     }
+    for (const id of Object.keys(result.stage_text))
+        if (!stage_ids.has(id)) errors.push(`content/journey has no file with "stage: ${id}"`)
 
     // Places named on the map.
     {

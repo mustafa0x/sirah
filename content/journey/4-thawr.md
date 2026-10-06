@@ -1,53 +1,6 @@
-<!-- One stage of the journey: everything a learner reads at this stage. Spec: docs/CONTENT_SPEC.md. -->
-
-# Three nights at Thawr
+<!-- What a learner can open at this stage beside the story: why it matters, map moments, the timeline entry and the source notes. The captions are in content/narrative.md. Spec: docs/CONTENT_SPEC.md. -->
 
 stage: thawr
-
-## N03a
-sources: E24, E03
-
-About five miles on, they reached Mount Thawr. They climbed to a cave in its side and slipped inside, out of sight. For three nights, it would be their hiding place.
-
-### young
-
-The Prophet ﷺ and Abu Bakr hid in a cave on Mount Thawr for three nights.
-
-## N03b
-sources: E04
-
-They were not alone for long. Each night Abu Bakr’s son ‘Abdullah came after dark with whatever Quraysh were plotting, then slipped back before dawn, so that morning found him in Makkah as if he had never left.
-
-### young
-
-Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah.
-
-## N03c
-sources: E05
-
-And as darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought a few milking ewes to the cave, so the two had fresh milk. Every one of the three nights, he came.
-
-### young
-
-A shepherd called ‘Amir brought his sheep close every evening, so that they had milk to drink.
-
-## N03d
-sources: E08
-
-Then the searchers came close, so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”
-
-### young
-
-Abu Bakr was worried: if someone looked down, they would be seen! The Prophet ﷺ calmed him.
-
-## N03e
-sources: E09, E10
-
-Allah preserved that moment in the Quran: “the second of two, when they were in the cave, when he said to his companion, ‘Do not grieve; Allah is with us.’”
-
-### young
-
-The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us.
 
 ## why
 

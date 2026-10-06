@@ -1,26 +1,6 @@
-<!-- One stage of the journey: everything a learner reads at this stage. Spec: docs/CONTENT_SPEC.md. -->
-
-# The journey continues
+<!-- What a learner can open at this stage beside the story: why it matters, map moments, the timeline entry and the source notes. The captions are in content/narrative.md. Spec: docs/CONTENT_SPEC.md. -->
 
 stage: onward
-
-## N04a
-sources: E06, E07
-
-The arranged meeting with the guide connects the stay at Thawr to the next stage. When the Prophet ﷺ and Abu Bakr continued, ‘Amir ibn Fuhayrah and the guide went with them. The account says that the guide led them by the coastal way.
-
-### young
-
-After three nights, their guide brought the camels. They left the cave and travelled towards Madinah.
-
-## N04b
-sources: E07
-
-That description gives us part of the route’s character, but not every turn or stopping place. The connection shown here is schematic; it is not a measured itinerary.
-
-### young
-
-They took a route near the coast. The journey was long, with many stops along the way.
 
 ## why
 
