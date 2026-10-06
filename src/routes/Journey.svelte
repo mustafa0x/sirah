@@ -294,14 +294,22 @@
     let story_text = $derived(current_cue?.text ?? selected_step.paragraphs[0]?.text ?? '')
     let stop_progress = $derived(journey.guided_position.seconds / guided_step.duration)
     let stop_finished = $derived(on_guided_stop && stop_progress >= 0.999)
-    // The narrated paragraph in sentences. The narration records timings per paragraph, so the
-    // sentence being spoken is estimated from its share of the paragraph's length.
+    // The narrated paragraph in sentences. A clip recorded with sentence timings says when each
+    // starts; otherwise the sentence being spoken is estimated from its share of the length.
     function sentences_of(text) {
         return text.match(/[^.!?؟]+(?:[.!?؟]+["”’)\]]*\s*|$)/g) ?? [text]
     }
     let story_sentences = $derived(sentences_of(story_text))
     let spoken_sentence = $derived.by(() => {
         if (!current_cue || stop_finished || (!journey.is_playing && cue_progress <= 0)) return -1
+        // Recorded sentence timings, when the clip has them, follow the voice exactly.
+        const starts = current_cue.sentence_starts
+        if (starts?.length === story_sentences.length) {
+            const heard = journey.guided_position.seconds - current_cue.start
+            let index = 0
+            while (index + 1 < starts.length && starts[index + 1] <= heard) index += 1
+            return index
+        }
         const total = story_sentences.reduce((sum, sentence) => sum + sentence.length, 0)
         let reached = 0
         for (const [index, sentence] of story_sentences.entries()) {

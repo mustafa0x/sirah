@@ -9,6 +9,8 @@ export function time_chapter(chapter, resolve_clip) {
             const item = resolve_clip(paragraph)
             paragraph.start = cursor
             paragraph.narrated = Boolean(item)
+            // When each sentence starts in the clip, if the recording carries timings.
+            paragraph.sentence_starts = item?.sentences ?? null
             cursor += item ? item.seconds + PAUSE : fallback
             paragraph.end = cursor
         }
