@@ -14,7 +14,12 @@
     )
     const young_stages = ['setting', 'departure', 'thawr', 'pursuit', 'tent', 'arrival']
 
-    let young = $state(new URL(location.href).searchParams.get('audience') === 'young')
+    const params = new URL(location.href).searchParams
+    let young = $state(params.get('audience') === 'young')
+    // Arabic shows and plays the Arabic narration (its wording is kept with each recording).
+    let arabic = $state(params.get('lang') === 'ar')
+    let lang = $derived(arabic ? 'ar' : 'en')
+    const track = (id) => (young ? index.young : index)?.[lang]?.[id]
     let stages = $derived(
         Object.entries(stage_text)
             .filter(([id]) => !young || young_stages.includes(id))
@@ -23,7 +28,11 @@
                 title: stage.title,
                 captions: stage.paragraphs.map((paragraph) => ({
                     id: paragraph.id,
-                    text: young ? paragraph.young?.text : paragraph.text,
+                    text: arabic
+                        ? track(paragraph.id)?.text
+                        : young
+                          ? paragraph.young?.text
+                          : paragraph.text,
                 })),
             })),
     )
@@ -34,7 +43,7 @@
             0,
         ),
     )
-    const seconds = (id) => (young ? index.young?.en : index.en)?.[id]?.seconds
+    const seconds = (id) => track(id)?.seconds
 
     // One clip at a time; a caption's clip plays only if it was recorded from this wording.
     let audio = null
@@ -42,21 +51,23 @@
     async function listen(caption) {
         audio?.pause()
         if (playing === caption.id) return (playing = null)
-        const entry = (young ? index.young?.en : index.en)?.[caption.id]
-        const load = files[`../assets/narration/${young ? 'young/' : ''}en/${caption.id}.mp3`]
+        const entry = track(caption.id)
+        const load = files[`../assets/narration/${young ? 'young/' : ''}${lang}/${caption.id}.mp3`]
         if (!load || entry?.text !== caption.text) return
         audio = new Audio(await load())
         audio.onended = () => (playing = null)
         playing = caption.id
         audio.play()
     }
-    function set_young(next) {
+    function set_view(next) {
         audio?.pause()
         playing = null
-        young = next
+        ;({ young = young, arabic = arabic } = next)
         const url = new URL(location.href)
-        if (next) url.searchParams.set('audience', 'young')
+        if (young) url.searchParams.set('audience', 'young')
         else url.searchParams.delete('audience')
+        if (arabic) url.searchParams.set('lang', 'ar')
+        else url.searchParams.delete('lang')
         history.replaceState(history.state, '', url)
     }
 </script>
@@ -75,8 +86,16 @@
                     <button
                         class="py-1 px-3 text-[0.875rem] text-ink-soft bg-transparent border border-solid border-line-strong rounded-full aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
                         aria-pressed={young === option}
-                        onclick={() => set_young(option)}
+                        onclick={() => set_view({ young: option })}
                         >{#if option}Young learners{:else}Main narration{/if}</button
+                    >
+                {/each}
+                {#each [false, true] as option (option)}
+                    <button
+                        class="py-1 px-3 text-[0.875rem] text-ink-soft bg-transparent border border-solid border-line-strong rounded-full aria-pressed:text-gold-ink aria-pressed:bg-gold aria-pressed:border-gold-bright"
+                        aria-pressed={arabic === option}
+                        onclick={() => set_view({ arabic: option })}
+                        >{#if option}العربية{:else}English{/if}</button
                     >
                 {/each}
                 <span class="ms-auto text-[0.8125rem] text-ink-soft"
@@ -92,7 +111,12 @@
                 </h2>
                 {#each stage.captions as caption (caption.id)}
                     <div class="group grid grid-cols-[1fr_auto] gap-x-4 items-start">
-                        <p class="font-serif text-[1.1875rem] leading-[1.75] text-ink text-pretty">
+                        <p
+                            class="font-serif text-[1.1875rem] leading-[1.75] text-ink text-pretty"
+                            class:font-arabic={arabic}
+                            dir={arabic ? 'rtl' : 'ltr'}
+                            {lang}
+                        >
                             {caption.text}
                         </p>
                         <div class="grid gap-1 justify-items-end pt-1">
@@ -108,7 +132,7 @@
                             >
                             <a
                                 class="text-[0.75rem] text-ink-soft no-underline hover:text-gold"
-                                href={`/journey/hijrah/${stage.id}/${caption.id}?lang=en${young ? '&audience=young' : ''}`}
+                                href={`/journey/hijrah/${stage.id}/${caption.id}?lang=${lang}${young ? '&audience=young' : ''}`}
                                 >{caption.id}</a
                             >
                         </div>
