@@ -32,8 +32,6 @@ Abu Jahl was among the men at the door, and he was mocking. "Muhammad claims tha
 
 Then the Prophet ﷺ came out to them with a handful of dust in his hand. "Yes, I say that," he said, "and you are one of them." Allah took their sight from him. He walked among them, scattering the dust over their heads and reciting the opening of Surat Ya-Sin, up to the words "So We have covered them, and they do not see." When he finished, there was not a man there without dust on his head. Then he went on his way.[[exit:p6–p12 | Muhammad ibn Ka‘b]]
 
-Later, someone who had not been with them came by and asked what they were waiting for. "Muhammad," they said. "He has already gone out past you," the man told them, "and put dust on every one of your heads. Can you not see it?" Each of them put a hand to his head and found the dust. Yet when they looked inside, they saw someone asleep on the bed in the Prophet's ﷺ cloak. "By God, that is Muhammad, asleep in his cloak," they said, and they waited there until morning. Then ‘Ali rose from the bed, and they said, "By God, the man who told us was speaking the truth."[[exit:p12 | Muhammad ibn Ka‘b]]
-
 ## Into the night
 
 Hardly anyone knew he was going. In Makkah only ‘Ali, Abu Bakr and Abu Bakr's family knew. ‘Ali was to stay behind with a task of his own: anyone in Makkah who had something precious he feared to lose had left it with the Prophet ﷺ, because they knew his honesty, and ‘Ali was to return every one of those trusts.[[trust:p1 | Ibn Ishaq, "as far as has reached me"]] He stayed three days and nights to do it, and only then set out after him, joining him at the house of Kulthum ibn Hidm.[[arrival:p1 | Ibn Ishaq]]

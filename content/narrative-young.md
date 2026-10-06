@@ -54,14 +54,6 @@ He and his best friend, Abu Bakr, slipped away in the dark. They went south, the
 
 They reached a cave on Mount Thawr. Abu Bakr went in first to make sure it was safe.
 
-## N03b
-
-Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah.
-
-## N03c
-
-‘Amir brought sheep every evening for milk. In the morning, the sheep walked over ‘Abdullah’s footprints.
-
 ## N03d
 
 Searchers stood right above the cave! Abu Bakr was afraid they would look down. The Prophet ﷺ calmed his friend.
@@ -69,6 +61,14 @@ Searchers stood right above the cave! Abu Bakr was afraid they would look down. 
 ## N03e
 
 The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us.
+
+## N03b
+
+Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah.
+
+## N03c
+
+‘Amir brought sheep every evening for milk. In the morning, the sheep walked over ‘Abdullah’s footprints.
 
 ## stage: onward
 

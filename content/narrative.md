@@ -80,29 +80,29 @@ sources: E24, sp_thawr_support:p1, H-23833-509-CONT:p1
 
 About five miles on, they reached Mount Thawr and a cave in its side. Abu Bakr went in first, feeling his way in the dark, ready to take any harm himself. For three nights, it would be their hiding place.
 
-## N03b
-from: hch_thawr §4
-sources: sp_thawr_support:p1, sp_thawr_exp_h_23833_509_808:p2–p4
-
-They were not alone for long. Each night Abu Bakr’s son ‘Abdullah came after dark with whatever Quraysh were plotting, then slipped back before dawn, so that morning found him in Makkah as if he had never left.
-
-## N03c
-from: hch_thawr §4
-sources: sp_thawr_support:p1, sp_thawr_exp_h_23833_509_808:p2–p4
-
-As darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought his milking sheep to the cave, so the two had fresh milk. At dawn he drove the flock along ‘Abdullah’s trail, and the sheep wiped out his footprints.
-
 ## N03d
 from: hch_thawr §3
 sources: sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p2, sp_caveverse_muslim:p1–p2
 
-Then the searchers came close, so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”
+The searchers came close, so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”
 
 ## N03e
 from: hch_thawr §3
 sources: sp_caveverse_qurtubi_verse:p1
 
 Allah preserved that moment in the Quran: “the second of two, when they were in the cave, when he said to his companion, ‘Do not grieve; Allah is with us.’”
+
+## N03b
+from: hch_thawr §4
+sources: sp_thawr_support:p1, sp_thawr_exp_h_23833_509_808:p2–p4
+
+Nor were they alone. Each night Abu Bakr’s son ‘Abdullah came after dark with whatever Quraysh were plotting, then slipped back before dawn, so that morning found him in Makkah as if he had never left.
+
+## N03c
+from: hch_thawr §4
+sources: sp_thawr_support:p1, sp_thawr_exp_h_23833_509_808:p2–p4
+
+As darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought his milking sheep to the cave, so the two had fresh milk. At dawn he drove the flock along ‘Abdullah’s trail, and the sheep wiped out his footprints.
 
 ## stage: onward
 title: The journey continues

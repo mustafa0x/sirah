@@ -140,24 +140,8 @@ export const stage_text = {
                 source_ids: ['E24', 'sp_thawr_support:p1', 'H-23833-509-CONT:p1'],
             },
             {
-                id: 'N03b',
-                text: 'They were not alone for long. Each night Abu Bakr’s son ‘Abdullah came after dark with whatever Quraysh were plotting, then slipped back before dawn, so that morning found him in Makkah as if he had never left.',
-                young: {
-                    text: 'Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah.',
-                },
-                source_ids: ['sp_thawr_support:p1', 'sp_thawr_exp_h_23833_509_808:p2–p4'],
-            },
-            {
-                id: 'N03c',
-                text: 'As darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought his milking sheep to the cave, so the two had fresh milk. At dawn he drove the flock along ‘Abdullah’s trail, and the sheep wiped out his footprints.',
-                young: {
-                    text: '‘Amir brought sheep every evening for milk. In the morning, the sheep walked over ‘Abdullah’s footprints.',
-                },
-                source_ids: ['sp_thawr_support:p1', 'sp_thawr_exp_h_23833_509_808:p2–p4'],
-            },
-            {
                 id: 'N03d',
-                text: 'Then the searchers came close, so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”',
+                text: 'The searchers came close, so close that Abu Bakr whispered, “If one of them looked down at his feet, he would see us.” The Prophet ﷺ answered, “What do you think of two, when Allah is their third?”',
                 young: {
                     text: 'Searchers stood right above the cave! Abu Bakr was afraid they would look down. The Prophet ﷺ calmed his friend.',
                 },
@@ -173,6 +157,22 @@ export const stage_text = {
                     text: 'The Quran remembers what the Prophet ﷺ said to his friend in the cave: do not be sad, Allah is with us.',
                 },
                 source_ids: ['sp_caveverse_qurtubi_verse:p1'],
+            },
+            {
+                id: 'N03b',
+                text: 'Nor were they alone. Each night Abu Bakr’s son ‘Abdullah came after dark with whatever Quraysh were plotting, then slipped back before dawn, so that morning found him in Makkah as if he had never left.',
+                young: {
+                    text: 'Each night, Abu Bakr’s son ‘Abdullah came in the dark to tell them the news from Makkah.',
+                },
+                source_ids: ['sp_thawr_support:p1', 'sp_thawr_exp_h_23833_509_808:p2–p4'],
+            },
+            {
+                id: 'N03c',
+                text: 'As darkness settled, Abu Bakr’s freedman ‘Amir ibn Fuhayrah brought his milking sheep to the cave, so the two had fresh milk. At dawn he drove the flock along ‘Abdullah’s trail, and the sheep wiped out his footprints.',
+                young: {
+                    text: '‘Amir brought sheep every evening for milk. In the morning, the sheep walked over ‘Abdullah’s footprints.',
+                },
+                source_ids: ['sp_thawr_support:p1', 'sp_thawr_exp_h_23833_509_808:p2–p4'],
             },
         ],
         why: {
@@ -1295,17 +1295,6 @@ export const cited_passages = {
         url: 'https://app.turath.io/book/23833?page=509',
         kind_ar: 'خبر تاريخي',
     },
-    'sp_thawr_exp_h_23833_509_808:p2–p4': {
-        reference: 'Ibn Hisham, al-Sirah al-Nabawiyyah, 1/486',
-        excerpt:
-            'وَكَانَ عَبْدُ اللَّهِ بْنُ أَبِي بَكْرٍ يَكُونُ فِي قُرَيْشٍ نَهَارَهُ مَعَهُمْ، يَسْمَعُ مَا يَأْتَمِرُونَ بِهِ، وَمَا يَقُولُونَ فِي شَأْنِ رَسُولِ اللَّهِ ﷺ وَأَبِي بَكْرٍ، ثُمَّ يَأْتِيهِمَا إذَا أَمْسَى فَيُخْبِرُهُمَا الْخَبَرَ. \nوَكَانَ عَامِرُ بْنُ فُهَيْرَةَ، مَوْلَى أَبِي بَكْرٍ ﵁، يَرْعَى فِي رَعْيَانِ أَهْلِ مَكَّةَ، فَإِذَا أَمْسَى أَرَاحَ عَلَيْهِمَا غَنَمَ أَبِي بَكْرٍ، فَاحْتَلَبَا وَذَبَحَا، فَإِذَا عَبْدُ اللَّهِ بْنُ أَبِي بَكْرٍ غَدَا مِنْ عِنْدِهِمَا إلَى مَكَّةَ، اتَّبَعَ عَامِرُ بْنُ فُهَيْرَةَ أَثَرَهُ بِالْغَنَمِ حَتَّى يُعَفِّي عَلَيْهِ، \nحَتَّى إذَا مَضَتْ الثَّلَاثُ، وَسَكَنَ عَنْهُمَا النَّاسُ أَتَاهُمَا صَاحِبُهُمَا الَّذِي اسْتَأْجَرَاهُ بِبَعِيرَيْهِمَا وَبَعِيرٍ لَهُ، وَأَتَتْهُمَا أَسَمَاءُ بِنْتُ أَبِي بَكْرٍ ﵄ بِسُفْرَتِهِمَا، وَنَسِيَتْ أَنْ تَجْعَلَ لَهَا عِصَامًا فَلَمَّا ارْتَحَلَا ذَهَبَتْ لِتُعَلِّقَ السُّفْرَةَ، فَإِذَا لَيْسَ لَهَا عِصَامٌ، [١] فَتَحِلُّ نِطَاقَهَا فَتَجْعَلُهُ عِصَامًا، ثُمَّ عَلَّقَتْهَا بِهِ.',
-        book_id: '23833',
-        book_ar: 'سيرة ابن هشام - ت السقا',
-        volume: '1',
-        page: '486',
-        url: 'https://app.turath.io/book/23833?page=509',
-        kind_ar: 'سرد عبد الله في الخبر',
-    },
     'sp_thawr_exp_h_1681_5914_hs_cave_1:p1–p2': {
         reference: 'Al-Bukhari, Sahih al-Bukhari, 5/65',
         excerpt:
@@ -1338,6 +1327,17 @@ export const cited_passages = {
         page: '143',
         url: 'https://app.turath.io/book/20855?page=3085',
         kind_ar: 'قرآن منقول في التفسير',
+    },
+    'sp_thawr_exp_h_23833_509_808:p2–p4': {
+        reference: 'Ibn Hisham, al-Sirah al-Nabawiyyah, 1/486',
+        excerpt:
+            'وَكَانَ عَبْدُ اللَّهِ بْنُ أَبِي بَكْرٍ يَكُونُ فِي قُرَيْشٍ نَهَارَهُ مَعَهُمْ، يَسْمَعُ مَا يَأْتَمِرُونَ بِهِ، وَمَا يَقُولُونَ فِي شَأْنِ رَسُولِ اللَّهِ ﷺ وَأَبِي بَكْرٍ، ثُمَّ يَأْتِيهِمَا إذَا أَمْسَى فَيُخْبِرُهُمَا الْخَبَرَ. \nوَكَانَ عَامِرُ بْنُ فُهَيْرَةَ، مَوْلَى أَبِي بَكْرٍ ﵁، يَرْعَى فِي رَعْيَانِ أَهْلِ مَكَّةَ، فَإِذَا أَمْسَى أَرَاحَ عَلَيْهِمَا غَنَمَ أَبِي بَكْرٍ، فَاحْتَلَبَا وَذَبَحَا، فَإِذَا عَبْدُ اللَّهِ بْنُ أَبِي بَكْرٍ غَدَا مِنْ عِنْدِهِمَا إلَى مَكَّةَ، اتَّبَعَ عَامِرُ بْنُ فُهَيْرَةَ أَثَرَهُ بِالْغَنَمِ حَتَّى يُعَفِّي عَلَيْهِ، \nحَتَّى إذَا مَضَتْ الثَّلَاثُ، وَسَكَنَ عَنْهُمَا النَّاسُ أَتَاهُمَا صَاحِبُهُمَا الَّذِي اسْتَأْجَرَاهُ بِبَعِيرَيْهِمَا وَبَعِيرٍ لَهُ، وَأَتَتْهُمَا أَسَمَاءُ بِنْتُ أَبِي بَكْرٍ ﵄ بِسُفْرَتِهِمَا، وَنَسِيَتْ أَنْ تَجْعَلَ لَهَا عِصَامًا فَلَمَّا ارْتَحَلَا ذَهَبَتْ لِتُعَلِّقَ السُّفْرَةَ، فَإِذَا لَيْسَ لَهَا عِصَامٌ، [١] فَتَحِلُّ نِطَاقَهَا فَتَجْعَلُهُ عِصَامًا، ثُمَّ عَلَّقَتْهَا بِهِ.',
+        book_id: '23833',
+        book_ar: 'سيرة ابن هشام - ت السقا',
+        volume: '1',
+        page: '486',
+        url: 'https://app.turath.io/book/23833?page=509',
+        kind_ar: 'سرد عبد الله في الخبر',
     },
     'sp_guide_sira_name:p1–p2': {
         reference: 'Ibn Hisham, al-Sirah al-Nabawiyyah, 1/488',
