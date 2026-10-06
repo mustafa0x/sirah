@@ -6,9 +6,13 @@
 
 ## N01a
 
-One pilgrimage season, six men from the town of Yathrib listened to the Prophet Muhammad ﷺ, and believed.
+Every year, pilgrims came to Makkah. The Prophet ﷺ told them about Allah, and six men from Yathrib listened.
 
 ## N01b
+
+Their Jewish neighbours said a prophet was coming. “This is him!” the six men said, and they became Muslims.
+
+## N01d
 
 Later, many more came at night. They promised to keep him safe, just like their own families.
 

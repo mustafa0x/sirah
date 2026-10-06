@@ -7,11 +7,17 @@ title: Before the journey
 
 ## N01a
 from: hch_aqaba §1
-sources: sp_aqaba_chapter_01:p1–p9, sp_aqaba_chapter_02:p1
+sources: sp_aqaba_chapter_01:p1–p9
 
-At al-‘Aqabah one pilgrimage season, the Prophet Muhammad ﷺ recited the Quran to six men from Yathrib, who lived beside Jews. “By Allah,” they said to one another, “this is the prophet the Jews threatened you with.”
+Every pilgrimage season, as the tribes came to Makkah, the Prophet ﷺ went out to them and called them to Allah. One season, at a place called al-‘Aqabah, six men from Yathrib sat down to listen.
 
 ## N01b
+from: hch_aqaba §1
+sources: sp_aqaba_chapter_01:p1–p9, sp_aqaba_chapter_02:p1
+
+At home their Jewish neighbours often warned of a prophet soon to come. “By Allah,” the six said to one another, “this is the prophet they threatened us with.” They accepted Islam and took it home.
+
+## N01d
 from: hch_aqaba §2–4
 sources: sp_aqaba_chapter_17:p1–p2, sp_aqaba_chapter_18:p1, sp_aqaba_chapter_21:p1–p4
 

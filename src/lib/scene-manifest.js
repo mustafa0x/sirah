@@ -295,7 +295,10 @@ const thawr_nights = shot('cave', south + 0.1, 0.2, 1.3, 0.06, [-0.45, 0, 0])
 
 export const beat_shots = {
     N01a: overview_shot,
-    N01b: shot('makkah', south + 0.4, 0.5, 8),
+    // The six take Islam home to Yathrib.
+    N01b: shot('madinah', south + 0.5, 0.5, 9, 0.1),
+    // The pledges at al-‘Aqabah, outside Makkah.
+    N01d: shot('makkah', south + 0.4, 0.5, 8),
     // The emigrants leave for Madinah: the whole road north.
     N01c: overview_shot,
     N02a: shot('makkah', south + 0.5, 0.45, 5, 0.1),

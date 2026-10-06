@@ -6,14 +6,22 @@ export const stage_text = {
         paragraphs: [
             {
                 id: 'N01a',
-                text: 'At al-‘Aqabah one pilgrimage season, the Prophet Muhammad ﷺ recited the Quran to six men from Yathrib, who lived beside Jews. “By Allah,” they said to one another, “this is the prophet the Jews threatened you with.”',
+                text: 'Every pilgrimage season, as the tribes came to Makkah, the Prophet ﷺ went out to them and called them to Allah. One season, at a place called al-‘Aqabah, six men from Yathrib sat down to listen.',
                 young: {
-                    text: 'One pilgrimage season, six men from the town of Yathrib listened to the Prophet Muhammad ﷺ, and believed.',
+                    text: 'Every year, pilgrims came to Makkah. The Prophet ﷺ told them about Allah, and six men from Yathrib listened.',
+                },
+                source_ids: ['sp_aqaba_chapter_01:p1–p9'],
+            },
+            {
+                id: 'N01b',
+                text: 'At home their Jewish neighbours often warned of a prophet soon to come. “By Allah,” the six said to one another, “this is the prophet they threatened us with.” They accepted Islam and took it home.',
+                young: {
+                    text: 'Their Jewish neighbours said a prophet was coming. “This is him!” the six men said, and they became Muslims.',
                 },
                 source_ids: ['sp_aqaba_chapter_01:p1–p9', 'sp_aqaba_chapter_02:p1'],
             },
             {
-                id: 'N01b',
+                id: 'N01d',
                 text: 'Each year more came, until seventy-three men and two women met him there by night and pledged to protect him as they protected their own women and children. “I am of you and you are of me,” he said.',
                 young: {
                     text: 'Later, many more came at night. They promised to keep him safe, just like their own families.',
