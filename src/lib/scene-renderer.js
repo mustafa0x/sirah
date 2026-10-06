@@ -1497,8 +1497,12 @@ export async function create_scene(
         let routes_shown = true
         const heading = new THREE.Vector3()
         // Puts an animal on a route at its drawn head, facing along it.
-        const stand_on = (animal, route, size) => {
-            const index = Math.min(route.count - 1, Math.floor(route.shown * route.count))
+        // Stands an animal on a route: at the head of the line, or `behind` that many route
+        // units back along it.
+        const stand_on = (animal, route, size, behind = 0) => {
+            let index = Math.min(route.count - 1, Math.floor(route.shown * route.count))
+            for (let left = behind; left > 0 && index > 0; index -= 1)
+                left -= route.points[index].distanceTo(route.points[index - 1])
             const here = route.points[index]
             heading.subVectors(route.points[index + 1], here)
             const world = worlds[route.world]
@@ -1922,14 +1926,23 @@ export async function create_scene(
                 })
                 camel.torso.position.y = (camel.limbs[0].scale.y - 1) * camel.top
             }
-            // The pursuing horse stands at the head of the line, forelegs sunk to the knee.
+            // Suraqah's horse gallops up the road from behind the four, closing on them while he
+            // rides hard; as the caption reaches 'his horse sank', its forelegs sink slowly to the
+            // knee, just short of them. The four keep their marker at the head of the line.
             const road_leg = worlds.region?.routes.find((route) => route.leg === 1)
             horse.root.visible = false
             if (actor === 'horse' && active.name === 'region' && road_leg) {
-                stand_on(horse, road_leg, 0.22)
-                horse.limbs[0].scale.y = horse.limbs[1].scale.y = 0.45
-                horse.torso.rotation.z = -0.2
-                horse.torso.position.y = -0.06
+                const played = beat_progress ?? 1
+                const sink = smoothstep(0.62, 0.9, played)
+                stand_on(horse, road_leg, 0.22, mix(3.2, 0.45, smoothstep(0, 0.62, played)))
+                const stride =
+                    reduced_motion || sink > 0.98 ? 0 : (1 - sink) * Math.sin(now / 110) * 0.5
+                horse.limbs.forEach((limb, index) => {
+                    limb.rotation.z = index % 3 === 0 ? stride : -stride
+                    limb.scale.y = index < 2 ? mix(1, 0.45, sink) : 1
+                })
+                horse.torso.rotation.z = -0.2 * sink
+                horse.torso.position.y = -0.06 * sink
             }
             // At Umm Ma‘bad's tent the ewe first lies dry beside it, then stands before the
             // open front with the vessel at its side.
@@ -2119,7 +2132,6 @@ export async function create_scene(
             traveller.visible =
                 Boolean(tip) &&
                 !walking &&
-                !horse.root.visible &&
                 !tent.visible &&
                 !abdullah.group.visible &&
                 !amir.group.visible
