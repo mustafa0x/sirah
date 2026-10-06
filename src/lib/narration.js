@@ -1,11 +1,14 @@
 import index from '../assets/narration/index.json'
 import { narrator_player, time_chapter } from './narration-core.js'
 
-const files = import.meta.glob('../assets/narration/**/*.mp3', {
-    eager: true,
-    query: '?url',
-    import: 'default',
-})
+const files = import.meta.glob(
+    ['../assets/narration/**/*.mp3', '!../assets/narration/**/*.tmp.mp3'],
+    {
+        eager: true,
+        query: '?url',
+        import: 'default',
+    },
+)
 
 function clip(language, paragraph) {
     const young = paragraph.narration_variant === 'young'

@@ -5,10 +5,13 @@
     import { stage_text } from '../content/text.generated.js'
     import index from '../assets/narration/index.json'
 
-    const files = import.meta.glob('../assets/narration/**/*.mp3', {
-        query: '?url',
-        import: 'default',
-    })
+    const files = import.meta.glob(
+        ['../assets/narration/**/*.mp3', '!../assets/narration/**/*.tmp.mp3'],
+        {
+            query: '?url',
+            import: 'default',
+        },
+    )
     const young_stages = ['setting', 'departure', 'thawr', 'pursuit', 'tent', 'arrival']
 
     let young = $state(new URL(location.href).searchParams.get('audience') === 'young')
