@@ -40,26 +40,30 @@ const translations = new Map()
     }
 }
 
-const plain = (text) =>
+// Markdown emphasis, code and links reduced to their text.
+const unformat = (text) =>
     text
         .replace(/\*\*([^*]+)\*\*/g, '$1')
         .replace(/\*([^*]+)\*/g, '$1')
         .replace(/`([^`]+)`/g, '$1')
         .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-        .trim()
+const plain = (text) => unformat(text).trim()
 
-// "text with[^3] markers[^4][^5]" -> { text, marks: [{ at, label }] }
+// "text with[^3] markers[^4][^5]" -> { text, marks: [{ at, label }] }. Formatting is removed
+// first, so each marker's position is counted in the text as it is shown.
 function marked(text) {
+    const plain_text = unformat(text)
+    const lead = plain_text.length - plain_text.trimStart().length
     const marks = []
     let out = ''
     let last = 0
-    for (const match of text.matchAll(/\[\^([\w-]+)\]/g)) {
-        out += text.slice(last, match.index)
-        marks.push({ at: out.length, label: match[1] })
+    for (const match of plain_text.matchAll(/\[\^([\w-]+)\]/g)) {
+        out += plain_text.slice(last, match.index)
+        marks.push({ at: Math.max(0, out.length - lead), label: match[1] })
         last = match.index + match[0].length
     }
-    out += text.slice(last)
-    return { text: plain(out), marks }
+    out += plain_text.slice(last)
+    return { text: out.trim(), marks }
 }
 
 // content/chapters/NN-name.questions.md: "## <question id>" with level:, scope:, answer: and
@@ -262,6 +266,12 @@ export function compile_chapter(file) {
         const { text: clean, marks } = marked(text)
         for (const mark of marks)
             if (!doc.notes.has(mark.label)) at(1, `footnote [^${mark.label}] is not defined`)
+        for (const mark of marks)
+            if (/\p{L}/u.test(clean[mark.at - 1] ?? '') && /\p{L}/u.test(clean[mark.at] ?? ''))
+                at(
+                    1,
+                    `footnote [^${mark.label}] falls inside a word: "${clean.slice(mark.at - 12, mark.at + 8)}"`,
+                )
         return {
             paragraph_id: id,
             text: clean,
