@@ -1710,6 +1710,8 @@
             <path d="M5 12h14M13 6l6 6-6 6" />
         {:else if name === 'back'}
             <path d="M19 12H5M11 6l-6 6 6 6" />
+        {:else if name === 'previous'}
+            <path d="M15 6l-6 6 6 6" />
         {:else if name === 'check'}
             <path d="M5 12.5l4.5 4.5L19 7.5" />
         {:else if name === 'expand'}
@@ -3035,9 +3037,24 @@
                 </div>
             {:else}
                 <div class="flex gap-3 items-start justify-between">
-                    <p class={kicker}>
-                        Stage {fmt_num(selected_index + 1)} of {fmt_num(chapter.steps.length)} · {selected_step.title}
-                    </p>
+                    <div class="flex gap-1.5 items-start">
+                        {#if selected_index > 0}
+                            {#snippet previous_button(props)}
+                                <button
+                                    {...props}
+                                    class="grid flex-none size-6 -mt-[3px] -ms-1.5 place-items-center p-0 text-ink-soft bg-transparent border-0 rounded-full hover:text-gold-bright rtl:-scale-x-100"
+                                    aria-label="Previous stage"
+                                    onclick={() => move_step(-1)}
+                                >
+                                    {@render icon('previous')}
+                                </button>
+                            {/snippet}
+                            {@render tip('Previous stage', previous_button)}
+                        {/if}
+                        <p class={kicker}>
+                            Stage {fmt_num(selected_index + 1)} of {fmt_num(chapter.steps.length)} · {selected_step.title}
+                        </p>
+                    </div>
                     {#snippet follow_button(props)}
                         <button
                             {...props}
