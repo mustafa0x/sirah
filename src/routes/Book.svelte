@@ -42,7 +42,8 @@
     </p>
 {/snippet}
 
-<div class="min-h-screen bg-[#120d08] text-ink">
+<!-- The app locks page scrolling for the scene, so this view scrolls itself. -->
+<div class="fixed inset-0 overflow-y-auto bg-[#120d08] text-ink">
     <article class="max-w-[46rem] mx-auto px-4 py-16 grid gap-16">
         <header class="grid gap-4">
             <p class="text-gold text-[0.75rem] font-semibold tracking-[0.12em] uppercase">
