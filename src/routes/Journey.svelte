@@ -2465,7 +2465,7 @@
                         >
                     </p>
                     <p class="text-muted">
-                        <a
+                        Cave model: <a
                             class="text-inherit underline decoration-gold/50 underline-offset-4 hover:text-gold-bright hover:decoration-gold-bright"
                             href={cave_license}
                             target="_blank"
