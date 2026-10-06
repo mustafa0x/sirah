@@ -3056,19 +3056,6 @@
                             >
                         </button>
                     {/if}
-                    {#if stop_finished && !journey.is_playing}
-                        <button
-                            class="{primary_button} mr-auto mobile:flex-[1_1_100%]"
-                            onclick={continue_chapter}
-                        >
-                            {#if is_last_step}
-                                {@render icon('check')} Complete the journey
-                            {:else}
-                                Continue: {chapter.steps[selected_index + 1].title}
-                                {@render icon('next')}
-                            {/if}
-                        </button>
-                    {/if}
                     {#if !stage_chapter}
                         <a
                             class="{ghost_button} mobile:flex-[1_1_auto] mobile:px-[10px]"
@@ -3097,6 +3084,20 @@
                     >
                         {@render icon('ask')} Ask
                     </a>
+                    <!-- The way on takes the trailing edge, after the secondary actions. -->
+                    {#if stop_finished && !journey.is_playing}
+                        <button
+                            class="{primary_button} ms-auto mobile:flex-[1_1_100%] [&>svg]:rtl:-scale-x-100"
+                            onclick={continue_chapter}
+                        >
+                            {#if is_last_step}
+                                {@render icon('check')} Complete the journey
+                            {:else}
+                                Continue: {chapter.steps[selected_index + 1].title}
+                                {@render icon('next')}
+                            {/if}
+                        </button>
+                    {/if}
                 </div>
             {/if}
         </section>
