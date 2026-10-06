@@ -472,10 +472,10 @@ export const moments = {
         },
     },
     wealth: {
-        title: 'All his money',
-        text: 'When Abu Bakr slipped out with the Prophet ﷺ that night, by a small door at the back of his house, he carried all his money with him: five or six thousand dirhams.',
+        title: 'Stones under a cloth',
+        text: 'Abu Bakr took all his money, five or six thousand dirhams. When his blind father came, fearing it gone, Asma laid stones in its niche under a cloth and let him feel them.',
         young: {
-            text: 'Abu Bakr took all his money with him for the journey, thousands of silver coins.',
+            text: 'Abu Bakr took all his money. To calm her blind grandfather, Asma let him feel stones under a cloth.',
         },
     },
     web: {
@@ -527,10 +527,10 @@ export const timeline_text = {
     quba: {
         title: 'Arrival at Quba',
         when: {
-            text: 'A Monday in Rabi‘ al-Awwal · September 622',
+            text: 'Monday 12 Rabi‘ al-Awwal · September 622',
         },
         note: {
-            text: 'The reports agree it was a Monday. Ibn Ishaq gives the twelfth of the month; others give other days.',
+            text: 'Ibn Ishaq’s date. The reports agree on a Monday but differ on the day of the month.',
         },
     },
     road: {

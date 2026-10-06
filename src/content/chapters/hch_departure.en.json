@@ -378,6 +378,22 @@
                     ]
                 }
             ]
+        },
+        {
+            "section_id": "hch_departure_d6",
+            "title": "The night he left",
+            "paragraphs": [
+                {
+                    "paragraph_id": "hch_departure_d6_1",
+                    "text": "The reports give the month, not the night: he stayed on in Makkah through Muharram and Safar. Al-Mubarakfuri, a modern biographer, works the night out as 27 Safar in the fourteenth year of the prophethood, 12–13 September 622.",
+                    "parts": [
+                        {
+                            "text": "The reports give the month, not the night: he stayed on in Makkah through Muharram and Safar. Al-Mubarakfuri, a modern biographer, works the night out as 27 Safar in the fourteenth year of the prophethood, 12–13 September 622."
+                        },
+                        { "note": 22 }
+                    ]
+                }
+            ]
         }
     ],
     "readings": [
@@ -579,6 +595,14 @@
                 },
                 { "packet_id": "sp_departure_chapter_balj2", "part_ids": ["p1"] }
             ]
+        },
+        {
+            "reading_id": "hch_departure_n22",
+            "number": 22,
+            "title": "Al-Mubarakfuri, al-Rahiq al-Makhtum, 1/148 — al-Mubarakfuri",
+            "mode": "original",
+            "strength": null,
+            "source_refs": [{ "packet_id": "E34", "part_ids": ["p1"] }]
         }
     ],
     "terms": [
@@ -1527,6 +1551,22 @@
             "volume": "1",
             "page": "143",
             "text": "severe technical expression among al-Bukhari's terms. Tahdhib al-Kamal (33–162). Abu Awana's name is Waddah ibn Abdullah al-Yashkuri, and he is trustworthy and precise. Al-Taqrib (2–331). His teacher's name is Yahya ibn Sulaym and his hadith is hasan so long as it does not conflict with others. As for Amr ibn Maymun Abu Abdullah al-Awdi, he is a well-known mukhadram, a trustworthy and devout man. Al-Taqrib (2–80).]"
+        },
+        {
+            "unit_id": "E34:p1",
+            "packet_id": "E34",
+            "part_id": "p1",
+            "text_ar": "غادر رسول الله ﷺ بيته في ليلة ٢٧ من شهر صفر سنة ١٤ من النبوة الموافق ١٢/ ١٣ سبتمبر سنة ٦٢٢ م",
+            "kind_ar": null,
+            "speaker_ar": null,
+            "book_ar": "الرحيق المختوم",
+            "citation_ar": "[الرحيق المختوم](https://api.turath.io/page?book_id=9820&pg=146)",
+            "source_url": "https://api.turath.io/page?book_id=9820&pg=146",
+            "evidence_id": null,
+            "book_id": "9820",
+            "volume": "1",
+            "page": "148",
+            "text": null
         }
     ],
     "footnotes": [],

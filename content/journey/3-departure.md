@@ -7,13 +7,13 @@ stage: departure
 His honesty held even then: on the night Quraysh plotted his death, he left ‘Ali to return all that Makkah had entrusted to him.
 
 ## moment: wealth
-title: All his money
+title: Stones under a cloth
 
-When Abu Bakr slipped out with the Prophet ﷺ that night, by a small door at the back of his house, he carried all his money with him: five or six thousand dirhams.
+Abu Bakr took all his money, five or six thousand dirhams. When his blind father came, fearing it gone, Asma laid stones in its niche under a cloth and let him feel them.
 
 ### young
 
-Abu Bakr took all his money with him for the journey, thousands of silver coins.
+Abu Bakr took all his money. To calm her blind grandfather, Asma let him feel stones under a cloth.
 
 ## moment: south
 title: South, not north

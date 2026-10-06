@@ -17,9 +17,9 @@ On the way, their friend al-Zubayr gave them white clothes to wear.
 
 ## event: quba
 title: Arrival at Quba
-when: A Monday in Rabi‘ al-Awwal · September 622
+when: Monday 12 Rabi‘ al-Awwal · September 622
 
-The reports agree it was a Monday. Ibn Ishaq gives the twelfth of the month; others give other days.
+Ibn Ishaq’s date. The reports agree on a Monday but differ on the day of the month.
 
 ## event: stay
 title: The stay at Quba

@@ -322,6 +322,22 @@
                     ]
                 }
             ]
+        },
+        {
+            "section_id": "hch_departure_d6",
+            "title": "ليلة الخروج",
+            "paragraphs": [
+                {
+                    "paragraph_id": "hch_departure_d6_1",
+                    "text": "تذكر الروايات الشهر لا الليلة: فقد أقام بمكة المحرّم وصفرًا. وحدّد المباركفوري، من المعاصرين، الليلة التي غادر فيها رسول الله ﷺ بيته بليلة السابع والعشرين من صفر سنة أربع عشرة من النبوة، الموافق ١٢/١٣ سبتمبر سنة ٦٢٢م.",
+                    "parts": [
+                        {
+                            "text": "تذكر الروايات الشهر لا الليلة: فقد أقام بمكة المحرّم وصفرًا. وحدّد المباركفوري، من المعاصرين، الليلة التي غادر فيها رسول الله ﷺ بيته بليلة السابع والعشرين من صفر سنة أربع عشرة من النبوة، الموافق ١٢/١٣ سبتمبر سنة ٦٢٢م."
+                        },
+                        { "note": 22 }
+                    ]
+                }
+            ]
         }
     ],
     "readings": [
@@ -523,6 +539,14 @@
                 },
                 { "packet_id": "sp_departure_chapter_balj2", "part_ids": ["p1"] }
             ]
+        },
+        {
+            "reading_id": "hch_departure_n22",
+            "number": 22,
+            "title": "الرحيق المختوم، ١/١٤٨ — المباركفوري",
+            "mode": "original",
+            "strength": null,
+            "source_refs": [{ "packet_id": "E34", "part_ids": ["p1"] }]
         }
     ],
     "terms": [],
@@ -1373,6 +1397,22 @@
             "book_id": "123669",
             "volume": "1",
             "page": "143",
+            "text": null
+        },
+        {
+            "unit_id": "E34:p1",
+            "packet_id": "E34",
+            "part_id": "p1",
+            "text_ar": "غادر رسول الله ﷺ بيته في ليلة ٢٧ من شهر صفر سنة ١٤ من النبوة الموافق ١٢/ ١٣ سبتمبر سنة ٦٢٢ م",
+            "kind_ar": null,
+            "speaker_ar": null,
+            "book_ar": "الرحيق المختوم",
+            "citation_ar": "[الرحيق المختوم](https://api.turath.io/page?book_id=9820&pg=146)",
+            "source_url": "https://api.turath.io/page?book_id=9820&pg=146",
+            "evidence_id": null,
+            "book_id": "9820",
+            "volume": "1",
+            "page": "148",
             "text": null
         },
         {

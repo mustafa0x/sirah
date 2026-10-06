@@ -72,6 +72,11 @@ The words to Makkah are reported by ‘Abdullah ibn ‘Adi ibn al-Hamra, who hea
 
 A similar account of the night comes through Abu Balj from ‘Amr ibn Maymun from Ibn ‘Abbas, recorded by Ahmad, al-Hakim and al-Tabarani. Al-Suwayani calls the chain strong, as long as Abu Balj is not alone in a wording that conflicts with others; scholars differed over him, and al-Bukhari said, "There is a problem with him."[[balj1:p1–p10, balj2:p1]]
 
+
+### The night he left
+
+The reports give the month, not the night: he stayed on in Makkah through Muharram and Safar. Al-Mubarakfuri, a modern biographer, works the night out as 27 Safar in the fourteenth year of the prophethood, 12–13 September 622.[[E34 | al-Mubarakfuri]]
+
 ---
 ## For the reviewer
 
