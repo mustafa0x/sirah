@@ -6,35 +6,37 @@ import { readFileSync } from 'node:fs'
 import path from 'node:path'
 
 export function depth_stats(root) {
-    const read = (file) => JSON.parse(readFileSync(path.join(root, file), 'utf8'))
-    const base = 'src/content/hijrah-chapters'
-    const catalog = read(`${base}/catalog.ar.json`)
-    const titles_en = read('src/content/source-books.json')
+    const read_text = (file) => readFileSync(path.join(root, file), 'utf8')
+    const read = (file) => JSON.parse(read_text(file))
+    // English book names by Turath id, from content/books.md ("## <id>" then the name).
+    const names = new Map(
+        [...read_text('content/books.md').matchAll(/^## (\d+)\n(.+)$/gm)].map((m) => [m[1], m[2]]),
+    )
+    const index = read('src/content/chapters/index.json')
     const passages = new Set()
     const books = new Map()
     const questions = new Set()
-    for (const item of catalog.chapters) {
-        const chapter = read(`${base}/${item.path}`)
+    for (const item of index) {
+        const chapter = read(`src/content/chapters/${item.chapter_id}.en.json`)
         for (const unit of chapter.source_units ?? []) {
-            passages.add(unit.text_ar.trim())
-            if (!books.has(unit.book_ar))
-                books.set(unit.book_ar, {
-                    id: unit.source_url.match(/\/book\/(\d+)/)[1],
-                    passages: new Set(),
-                })
-            books.get(unit.book_ar).passages.add(unit.text_ar.trim())
+            const text = unit.text_ar.trim()
+            passages.add(text)
+            const id = String(unit.book_id ?? unit.source_url?.match(/\/book\/(\d+)/)?.[1] ?? '')
+            if (!id) continue
+            if (!books.has(id)) books.set(id, { title_ar: unit.book_ar, passages: new Set() })
+            books.get(id).passages.add(text)
         }
         for (const question of chapter.questions ?? []) questions.add(question.question_id)
     }
     return {
-        readings: catalog.chapters.length,
+        readings: index.length,
         passages: passages.size,
         books: books.size,
         book_list: [...books]
-            .map(([title_ar, { id, passages }]) => ({
+            .map(([id, { title_ar, passages }]) => ({
                 id,
                 title_ar,
-                title_en: titles_en[id],
+                title_en: names.get(id) ?? title_ar,
                 url: `https://app.turath.io/book/${id}`,
                 passages: passages.size,
             }))
@@ -55,8 +57,6 @@ export function depth_stats_plugin() {
         },
         resolveId: (source) => (source === id ? `\0${id}` : null),
         load: (resolved) =>
-            resolved === `\0${id}`
-                ? `export default ${JSON.stringify(depth_stats(root))}`
-                : null,
+            resolved === `\0${id}` ? `export default ${JSON.stringify(depth_stats(root))}` : null,
     }
 }

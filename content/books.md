@@ -83,3 +83,9 @@ Mughaltay, al-Isharah ila Sirat al-Mustafa
 
 ## 38114
 Al-‘Azimi, al-Lu'lu' al-Maknun
+
+## 14572
+Al-Ta‘liq ‘ala al-Rahiq al-Makhtum
+
+## 97932
+Ma Sha‘a wa Lam Yathbut fi al-Sirah al-Nabawiyyah
