@@ -106,6 +106,7 @@ export async function create_scene(
         set_mood() {},
         set_route() {},
         set_cycle() {},
+        set_progress() {},
         set_actor() {},
         set_evidence() {},
         set_active() {},
@@ -545,6 +546,7 @@ export async function create_scene(
             }
 
             world.cave_site = new THREE.Vector3(sx, ground(0, 0), sz)
+            world.cave_ground = ground
             // A faint fill so the recess reads from inside. Three clamps the falloff of very
             // near lights, so at this scale the intensity is effectively the illuminance / 100.
             const fill = new THREE.PointLight(0xcdd6f0, 0.012, 0.008)
@@ -579,6 +581,7 @@ export async function create_scene(
                     shelter.scale.setScalar(scale)
                     shelter.position.set(sx, ground(0, 0) - size.y * scale * 0.02, sz)
                     world.group.add(shelter)
+                    world.cave_shelter = shelter
                 },
                 undefined,
                 () => {
@@ -837,6 +840,10 @@ export async function create_scene(
         const copy_view = (source) => ({ ...source, target: source.target.clone() })
         let view = resolve_shot(overview_shot)
         let flight = null
+        // A shot with `push` moves from its own framing to the pushed one as the paragraph
+        // plays, until the reader takes the camera.
+        let push = null
+        let beat_progress = null
         let shot_request = 0
         const begin_flight = (end, duration) => {
             const scale_change = Math.abs(Math.log10(end.distance / view.distance))
@@ -853,6 +860,9 @@ export async function create_scene(
             await ensure_world(places[shot.place].world)
             if (disposed || request !== shot_request) return
             const end = resolve_shot(shot)
+            push = shot.push
+                ? { from: end, to: resolve_shot(shot.push), until: shot.push_until ?? 0.6 }
+                : null
             if (reduced_motion || duration === 0) {
                 activate(end.world)
                 view = copy_view(end)
@@ -1215,6 +1225,7 @@ export async function create_scene(
         const pointer_move = (event) => {
             if (!dragging) return
             flight = null
+            push = null
             view.azimuth -= (event.clientX - last_x) * 0.005
             view.elevation = clamp(view.elevation + (event.clientY - last_y) * 0.004, -0.6, 1.3)
             last_x = event.clientX
@@ -1227,6 +1238,7 @@ export async function create_scene(
         const wheel = (event) => {
             event.preventDefault()
             flight = null
+            push = null
             // A trackpad pinch arrives as ctrl+wheel in small steps; scale it to keep pace
             // with the fingers. Line-based wheels (Firefox) report lines, not pixels.
             const pixels = event.deltaY * (event.deltaMode === 1 ? 16 : 1)
@@ -1468,6 +1480,63 @@ export async function create_scene(
         )
         lantern.visible = false
         scene.add(lantern, halo)
+        // The searchers at Thawr are dim red lights, never figures. They comb the slopes, close
+        // in on the shelter, stand over it while Abu Bakr whispers, then move off. Places are
+        // metres [north, east] of the shelter; the first three stand on the rock above it. They
+        // start on the far slopes so the camera, north of the opening, sees them all.
+        const searcher_plan = [
+            { from: [-42, -30], to: [-0.5, -1.6], roof: true },
+            { from: [-30, 38], to: [0.8, 1.2], roof: true },
+            { from: [-55, 6], to: [-1.8, 0.4], roof: true },
+            { from: [-20, -52], to: [-9, -6] },
+            { from: [8, 50], to: [-5, 10] },
+            { from: [-50, 26], to: [-4, -12] },
+            { from: [10, -46], to: [-2, -13] },
+        ]
+        const searcher_glow = (color, opacity, depthTest) =>
+            new THREE.MeshBasicMaterial({
+                color,
+                fog: false,
+                transparent: true,
+                opacity,
+                depthTest,
+                depthWrite: false,
+                blending: THREE.AdditiveBlending,
+            })
+        const searchers = searcher_plan.map((plan, index) => {
+            const core = new THREE.Mesh(lantern_geometry, searcher_glow(0xffa184, 1, true))
+            const glow = new THREE.Mesh(lantern_geometry, searcher_glow(0xff2a14, 0.2, false))
+            core.visible = glow.visible = false
+            scene.add(core, glow)
+            const away = Math.atan2(plan.from[1], plan.from[0]) + 0.9 + index * 0.4
+            return { ...plan, core, glow, away, seed: hash(index, 71) * 10, height: null }
+        })
+        const ray = new THREE.Raycaster()
+        const down = new THREE.Vector3(0, -1, 0)
+        // Height of the ground or rock at a set position, in world units.
+        const cave_height = (world, north, east, roof) => {
+            const x = world.cave_site.x + north * METRE
+            const z = world.cave_site.z + east * METRE
+            const reach = Math.hypot(north, east)
+            let y =
+                reach < 55
+                    ? world.cave_ground(north, east)
+                    : mix(
+                          world.cave_ground(north, east),
+                          world.terrain.height(x, z),
+                          smoothstep(55, 70, reach),
+                      )
+            if (roof && world.cave_shelter) {
+                world.group.updateMatrixWorld()
+                const origin = new THREE.Vector3(x, y + 40 * METRE, z)
+                world.group.localToWorld(origin)
+                ray.set(origin, down)
+                const hit = ray.intersectObject(world.cave_shelter, true)[0]
+                if (hit) y = Math.max(y, world.group.worldToLocal(hit.point.clone()).y)
+            }
+            return y
+        }
+        const searcher_at = new THREE.Vector3()
         const smooth = (value) => value * value * (3 - 2 * value)
         // How far up the path the light is in one night's phase, or null when out of sight.
         const visit_reach = (phase) => {
@@ -1494,6 +1563,24 @@ export async function create_scene(
 
             // How far into a flight the camera is, for keeping it clear of the ground.
             let lift = 0
+            if (push && beat_progress !== null) {
+                const t = reduced_motion ? 1 : smoothstep(0, 1, beat_progress / push.until)
+                const { from, to } = push
+                const turn = Math.atan2(
+                    Math.sin(to.azimuth - from.azimuth),
+                    Math.cos(to.azimuth - from.azimuth),
+                )
+                const pushed = {
+                    ...from,
+                    azimuth: from.azimuth + turn * t,
+                    elevation: mix(from.elevation, to.elevation, t),
+                    fov: mix(from.fov, to.fov, t),
+                    distance: Math.exp(mix(Math.log(from.distance), Math.log(to.distance), t)),
+                    target: from.target.clone().lerp(to.target, 1 - (1 - t) ** 3),
+                }
+                if (flight) flight.end = pushed
+                else view = pushed
+            }
             if (flight) {
                 const progress = clamp((now - flight.started) / flight.duration, 0, 1)
                 const eased = ease_in_out(progress)
@@ -1716,6 +1803,54 @@ export async function create_scene(
                 halo.scale.setScalar(distance * 0.018 * flicker)
             }
             halo.visible = lantern.visible
+            const thawr = worlds.makkah
+            const searching =
+                actor === 'searchers' &&
+                beat_progress !== null &&
+                active.name === 'makkah' &&
+                Boolean(thawr?.cave_ground)
+            searchers.forEach((searcher, index) => {
+                searcher.core.visible = searcher.glow.visible = false
+                if (!searching) return
+                // Close in over the first 55%, stand still, then leave over the last fifth.
+                const delay = index * 0.025
+                const closing = smooth(clamp((beat_progress - delay) / (0.55 - delay), 0, 1))
+                const leaving = smooth(clamp((beat_progress - 0.8) / 0.2, 0, 1))
+                if (leaving >= 1) return
+                if (searcher.roof && searcher.height === null && thawr.cave_shelter)
+                    searcher.height = cave_height(thawr, ...searcher.to, true)
+                let [north, east] = searcher.to
+                if (leaving > 0) {
+                    north += Math.cos(searcher.away) * 50 * leaving
+                    east += Math.sin(searcher.away) * 50 * leaving
+                } else {
+                    // Searching, they weave across the slope rather than walking straight in.
+                    const [from_north, from_east] = searcher.from
+                    const weave = Math.sin(closing * 9 + searcher.seed) * 7 * (1 - closing)
+                    const length = Math.hypot(from_north, from_east)
+                    north = mix(from_north, north, closing) - (from_east / length) * weave
+                    east = mix(from_east, east, closing) + (from_north / length) * weave
+                }
+                const ground =
+                    searcher.roof && leaving === 0 && closing > 0.97 && searcher.height !== null
+                        ? searcher.height
+                        : cave_height(thawr, north, east, false)
+                searcher_at
+                    .set(
+                        thawr.cave_site.x + north * METRE,
+                        ground + 1.4 * METRE,
+                        thawr.cave_site.z + east * METRE,
+                    )
+                    .multiplyScalar(thawr.scale)
+                const fade = 1 - leaving
+                const flicker = reduced_motion ? 1 : 1 + 0.15 * Math.sin(now / 110 + searcher.seed)
+                const size = Math.max(distance * 0.0035, 0.12 * METRE * thawr.scale)
+                searcher.core.position.copy(searcher_at)
+                searcher.glow.position.copy(searcher_at)
+                searcher.core.scale.setScalar(size * flicker * fade)
+                searcher.glow.scale.setScalar(size * 2.6 * flicker * fade)
+                searcher.core.visible = searcher.glow.visible = true
+            })
             // The marker shows where the line is still being drawn, not a resting place.
             traveller.visible =
                 Boolean(tip) && !walking && !horse.root.visible && !tent.visible && !lantern.visible
@@ -1781,6 +1916,9 @@ export async function create_scene(
         }
         api.set_actor = (name) => {
             actor = name
+        }
+        api.set_progress = (value) => {
+            beat_progress = value
         }
         api.set_cycle = (value) => {
             cycle = value

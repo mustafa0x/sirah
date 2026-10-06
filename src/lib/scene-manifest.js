@@ -303,8 +303,13 @@ export const beat_shots = {
     N03b: shot('makkah_valley', 0.15, 0.42, 7, 0.1, [-0.3, 0, 0]),
     // Three nights pass over the slope.
     N03c: shot('cave', north + 0.9, 0.1, 0.06, 0.006),
-    // Low view of the aperture; the generated mesh is not a navigable interior.
-    N03d: shot('cave', north + 0.2, 0.06, 0.009, 0.0012, [0.001, 0, -0.0015], 50),
+    // The searchers spread over the mountain, then a push in to the low view of the aperture
+    // as they stand above it. The generated mesh is not a navigable interior.
+    N03d: {
+        ...shot('cave', north + 0.2, 0.2, 0.1, 0.006),
+        push: shot('cave', north + 0.2, 0.05, 0.02, 0.0035, [0.001, 0, -0.0015], 50),
+        push_until: 0.6,
+    },
     N03e: shot('cave', north + 0.2, 0.02, 0.028, 0.0045),
     N04a: shot('thawr', 0.5, 0.5, 11, 0.1),
     N04b: { ...shot('coast', 0.2, 0.5, 9, 0.2), follow: 1 },
@@ -349,6 +354,12 @@ export const timelapse_beats = { N03b: true, N03c: true }
 export const beat_passages = { N03e: 'E09' }
 
 // Beats during which an animal stands in the scene. No person is ever shown.
-export const beat_actors = { N03b: 'visits', N06b: 'horse', N10a: 'tent', N10b: 'ewe' }
+export const beat_actors = {
+    N03b: 'visits',
+    N03d: 'searchers',
+    N06b: 'horse',
+    N10a: 'tent',
+    N10b: 'ewe',
+}
 
 export { shelter_asset }

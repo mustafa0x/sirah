@@ -8,6 +8,7 @@
         mood,
         route,
         cycle,
+        progress,
         actor,
         evidence,
         chapters = [],
@@ -53,6 +54,7 @@
     $effect(() => world?.set_mood(mood))
     $effect(() => world?.set_route(route))
     $effect(() => world?.set_cycle(cycle))
+    $effect(() => world?.set_progress(progress))
     $effect(() => world?.set_actor(actor))
     $effect(() => world?.set_evidence(evidence))
     $effect(() => world?.set_insets(insets))

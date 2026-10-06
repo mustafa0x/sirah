@@ -1749,6 +1749,11 @@
             {mood}
             route={scene_route}
             {cycle}
+            progress={current_cue && !active_poi && !map_open
+                ? stop_finished
+                    ? 1
+                    : cue_progress
+                : null}
             actor={current_cue && !active_poi && !map_open
                 ? (beat_actors[current_cue.id] ?? null)
                 : null}
