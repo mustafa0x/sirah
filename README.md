@@ -56,7 +56,7 @@ location /assets/ { try_files $uri =404; }
 location / { try_files $uri $uri/ /index.html; }
 ```
 
-Serve only the build directory, not the repository, credentials, private artifacts or holdout fixtures. This is deployment guidance, not a verified production deployment.
+Serve only the build directory, not the repository, credentials, private artifacts or holdout fixtures. For the private `sirah.nuqayah.com` deployment, setup, verification, and rollback commands are in [deploy/README.md](deploy/README.md).
 
 ## Model-backed Ask
 

@@ -13,3 +13,12 @@ run = 'pnpm dev'
 
 [tasks.'spikes:dev']
 run = 'pnpm --dir spikes/web dev'
+
+[tasks.deploy]
+run = 'node deploy.js all'
+
+[tasks.'deploy:setup']
+run = 'node deploy.js setup'
+
+[tasks.'deploy:rollback']
+run = 'node deploy.js rollback'
