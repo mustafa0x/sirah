@@ -35,6 +35,9 @@ export default defineConfig({
         manifest: true,
     },
     server: {
+        // Agents' worktrees live under .claude/. Watching them made a new worktree's
+        // tsconfig.json clear the dependency cache and blank the running app.
+        watch: { ignored: ['**/.claude/**'] },
         host: '127.0.0.1',
         port: +(process.env.VITE_PORT || 5100),
         strictPort: true,
