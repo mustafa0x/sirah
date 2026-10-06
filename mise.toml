@@ -1,4 +1,3 @@
-# Application and spike runtimes.
 [tools]
 node = '24.21.0'
 python = '3.14.7'
@@ -9,7 +8,7 @@ uv = '0.12.10'
 GUIDE_MODEL = '{{ get_env(name="GUIDE_MODEL", default="gpt-6-luna") }}'
 
 [tasks.dev]
-run = 'pnpm dev'
+run = 'pnpm dev:api'
 
 [tasks.'spikes:dev']
 run = 'pnpm --dir spikes/web dev'
