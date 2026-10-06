@@ -742,10 +742,10 @@ export async function create_scene(
                         const [x, z] = world.terrain.to_xz(place.lat, place.lon)
                         ground.set(x, world.terrain.height(x, z), z)
                     }
-                    world.anchors.set(
-                        poi.id,
-                        ground.clone().setY(ground.y + (poi.lift ?? definition.label_lift)),
-                    )
+                    world.anchors.set(poi.id, {
+                        ground: ground.clone(),
+                        lift: poi.lift ?? definition.label_lift,
+                    })
                     if (poi.ring === false) continue
                     const ring = new THREE.Mesh(
                         ring_geometry,
@@ -1242,7 +1242,14 @@ export async function create_scene(
                     node.hidden = true
                     continue
                 }
-                projected.copy(anchor).multiplyScalar(active.scale).project(camera)
+                // A label stands its full height above the place in wide views and comes down
+                // towards it as the camera closes in, so it never floats far above the ground.
+                const reach = view.distance / active.scale / 10
+                projected
+                    .copy(anchor.ground)
+                    .setY(anchor.ground.y + anchor.lift * clamp(reach, 0.03, 1))
+                    .multiplyScalar(active.scale)
+                    .project(camera)
                 const x = ((projected.x + 1) / 2) * width
                 const y = ((1 - projected.y) / 2) * height
                 // Labels that would sit under the chapter rail or the side sheet are dropped.
@@ -1539,14 +1546,28 @@ export async function create_scene(
         // ‘Abdullah's warm white centre stands out on the gold route line he follows.
         const abdullah = make_visitor(0xfff3d6, 0xff9a2e, 0xffb347, [0.02, 0.42, 0.5, 0.66])
         const amir = make_visitor(0xb9d4ff, 0x7fa6ff, 0x9fbfff, [0.36, 0.46, 0.6, 0.72])
-        // ‘Amir's flock: pale specks that graze low on the slope by day and go up with him.
-        const flock_material = new THREE.MeshBasicMaterial({ color: 0xeee3c8, fog: false })
-        const flock = Array.from({ length: 8 }, () => {
-            const sheep = new THREE.Mesh(lantern_geometry, flock_material)
+        // ‘Amir's flock: pale, lit lumps of wool on the ground, not lights. Sheep are far
+        // smaller than a pixel at this distance, so they are drawn several times life size.
+        const flock_material = new THREE.MeshStandardMaterial({
+            color: 0xe9dfc8,
+            emissive: 0x5a5444,
+            roughness: 1,
+            flatShading: true,
+        })
+        const flock = Array.from({ length: 9 }, (_, index) => {
+            const sheep = shadowed(new THREE.Mesh(boulder_geometry, flock_material))
             sheep.visible = false
             scene.add(sheep)
-            return sheep
+            // Each grazes around its own spot in a loose spread, metres [north, east].
+            const angle = hash(index, 81) * Math.PI * 2
+            const reach = 6 + 22 * Math.sqrt(hash(index, 83))
+            return {
+                mesh: sheep,
+                home: [Math.cos(angle) * reach, Math.sin(angle) * reach],
+                seed: hash(index, 82) * 100,
+            }
         })
+        const flock_heading = new THREE.Vector3()
         // ‘Abdullah's climb from the foot of the road to the shelter, in metres [north, east]
         // of the shelter: round the east shoulder of the summit.
         const climb_way = [
@@ -1934,20 +1955,42 @@ export async function create_scene(
                 visitor.halo.position.copy(visitor.group.children[0].position)
                 visitor.halo.scale.setScalar(distance * 0.018 * strength)
             }
-            // The flock grazes on the pasture by day and moves with ‘Amir at night, waiting
-            // just below the shelter while the two drink.
-            const flock_reach = visit_reach(amir.schedule, phase) * 0.97
+            // The flock grazes on the pasture by day. At night it follows ‘Amir up in a loose
+            // line, waits just below the shelter while the two drink, and goes down ahead of
+            // him at dawn.
+            const amir_reach = visit_reach(amir.schedule, phase)
+            const going_up = phase < amir.schedule[2]
             flock.forEach((sheep, index) => {
-                sheep.visible = visiting
+                const { mesh, home, seed } = sheep
+                mesh.visible = visiting
                 if (!visiting) return
-                const drift = reduced_motion ? 0 : now / 9000
-                const angle = hash(index, 81) * Math.PI * 2 + drift * (0.3 + hash(index, 82))
-                const spread = (0.008 + 0.014 * hash(index, 83)) * (1 - flock_reach * 0.5)
-                pasture_way(worlds.makkah, flock_reach, sheep.position)
-                sheep.position.x += Math.cos(angle) * spread * worlds.makkah.scale
-                sheep.position.z += Math.sin(angle) * spread * worlds.makkah.scale
-                sheep.position.y += distance * 0.002
-                sheep.scale.setScalar(distance * 0.003)
+                const world = worlds.makkah
+                const lag = 0.035 * (index + 1)
+                const reach = clamp(going_up ? amir_reach - lag : amir_reach + lag * 0.5, 0, 0.9)
+                // Close together on the way, spread out to graze.
+                const loose = 1 - smoothstep(0, 0.15, Math.min(reach, amir_reach))
+                const slow = reduced_motion ? 0 : now / 1000
+                const wander = 3 * Math.sin(slow * 0.07 + seed)
+                const north = home[0] * mix(0.25, 1, loose) + wander
+                const east = home[1] * mix(0.25, 1, loose) + 3 * Math.cos(slow * 0.05 + seed)
+                pasture_way(world, reach, mesh.position)
+                mesh.position.x += north * METRE * world.scale
+                mesh.position.z += east * METRE * world.scale
+                mesh.position.y =
+                    world.terrain.height(
+                        mesh.position.x / world.scale,
+                        mesh.position.z / world.scale,
+                    ) * world.scale
+                // On the move they face along the way; grazing, each its own way.
+                flock_heading.set(-pasture[0], 0, -pasture[1])
+                const facing =
+                    loose < 0.5
+                        ? Math.atan2(-flock_heading.z, flock_heading.x) + (going_up ? 0 : Math.PI)
+                        : seed + Math.sin(slow * 0.03 + seed) * 0.6
+                mesh.rotation.set(0, facing, 0)
+                const size = Math.max(0.9 * METRE * world.scale, distance * 0.0022)
+                mesh.scale.set(size * 1.5, size * 0.85, size)
+                mesh.position.y += size * 0.6
             })
             const thawr = worlds.makkah
             const searching =
