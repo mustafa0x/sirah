@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "Kutipan sumber"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "Kitab rujukan"
 
@@ -2289,3 +2290,7 @@ msgstr "Riwayat tentang sarang laba-laba di mulut gua, yang sanadnya dinilai bai
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "Sebuah biografi modern menyebutkan ketiga malam tersebut: malam Jumat, Sabtu, dan Ahad."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "Angka di samping setiap kitab menunjukkan jumlah kutipan sumbernya."

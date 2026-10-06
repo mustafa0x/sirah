@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "Quellenstellen"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "Quellenwerke"
 
@@ -2289,3 +2290,7 @@ msgstr "Der Bericht über das Spinnennetz vor dem Höhleneingang, dessen Überli
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "Eine moderne Biografie nennt die drei Nächte: die Nächte vor Freitag, Samstag und Sonntag."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "Die Zahl neben jedem Buch gibt seine Quellenstellen an."

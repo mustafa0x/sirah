@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "የምንጭ ምንባቦች"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "የምንጭ መጻሕፍት"
 
@@ -2289,3 +2290,7 @@ msgstr "Ibn Kathir የሰነድ ሰንሰለቱ ጥሩ ያለው፣ በዋሻው
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "አንድ ዘመናዊ የሕይወት ታሪክ መጽሐፍ ሦስቱን ምሽቶች ይገልጻል፡ የዓርብ፣ የቅዳሜ እና የእሑድ ዋዜማ ምሽቶች።"
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "ከእያንዳንዱ መጽሐፍ አጠገብ ያለው ቁጥር የምንጭ ምንባቦቹን ብዛት ያሳያል።"

@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "Nassoshin madogara"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "Littattafan madogara"
 
@@ -2289,3 +2290,7 @@ msgstr "Ruwayar game da saƙar gizo-gizo a bakin kogon, wadda Ibn Kathir ya ce i
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "Wani littafin tarihin rayuwa na zamani ya ambaci dararen ukun: dararen da suka gabaci Juma'a, Asabar da Lahadi."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "Lambar da ke gefen kowane littafi ita ce yawan nassoshin madogararsa."

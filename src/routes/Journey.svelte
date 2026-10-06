@@ -2452,6 +2452,45 @@
                         </ol>
                     </section>
                 </div>
+                <!-- Every book the passages come from, most-quoted first, each opening on Turath. -->
+                <section class="grid gap-4" aria-labelledby="about-books">
+                    <h3 class="font-serif text-[1.5rem] font-medium" id="about-books">
+                        Source books
+                    </h3>
+                    <ol
+                        class="grid grid-cols-2 gap-x-12 list-none border-0 border-t border-solid border-line mobile:grid-cols-1"
+                    >
+                        {#each depth.book_list as book (book.id)}
+                            <li
+                                class="flex gap-4 items-baseline justify-between py-3 border-0 border-b border-solid border-line"
+                            >
+                                <a
+                                    class="grid gap-1 text-ink no-underline hover:text-gold-bright"
+                                    href={book.url}
+                                    target="_blank"
+                                    rel="noopener"
+                                >
+                                    {#if language !== 'ar'}<span>{book.title_en}</span>{/if}
+                                    <span
+                                        class={[
+                                            'justify-self-start font-arabic',
+                                            language === 'ar'
+                                                ? 'text-[1.0625rem]'
+                                                : 'text-muted text-[0.875rem]',
+                                        ]}
+                                        lang="ar"
+                                        dir="rtl">{book.title_ar}</span
+                                    >
+                                </a>
+                                <span
+                                    class="shrink-0 font-serif text-[1.125rem] text-ink-soft tabular-nums"
+                                    >{fmt_num(book.passages)}</span
+                                >
+                            </li>
+                        {/each}
+                    </ol>
+                    <p class={fine_print}>The number beside each book counts its source passages.</p>
+                </section>
                 <!-- Credits, together at the foot of the page. -->
                 <footer
                     class="grid gap-2 pt-6 border-0 border-t border-solid border-line text-[0.875rem]"

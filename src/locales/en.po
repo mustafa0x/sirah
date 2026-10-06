@@ -1644,6 +1644,7 @@ msgid "Source passages"
 msgstr "Source passages"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "Source books"
 
@@ -1979,3 +1980,7 @@ msgstr "The report of the spider’s web across the cave’s opening, whose chai
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "The number beside each book counts its source passages."

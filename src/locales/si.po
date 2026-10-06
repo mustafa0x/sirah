@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "මූලාශ්‍ර පාඨ"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "මූලාශ්‍ර ග්‍රන්ථ"
 
@@ -2289,3 +2290,7 @@ msgstr "ගුහාවේ දොරටුව හරහා තිබූ මක�
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "නූතන චරිතාපදානයක් එම රාත්‍රී තුන නම් කරයි: සිකුරාදා, සෙනසුරාදා සහ ඉරිදාට පෙර එළඹි රාත්‍රීන්ය."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "සෑම පොතක් අසල ඇති අංකය එහි මූලාශ්‍ර පාඨ ගණනයි."

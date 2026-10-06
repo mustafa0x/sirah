@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "ข้อความต้นฉบับ"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "หนังสืออ้างอิง"
 
@@ -2289,3 +2290,7 @@ msgstr "รายงานเรื่องใยแมงมุมที่ช
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "หนังสือชีวประวัติยุคใหม่ระบุชื่อของทั้งสามคืนไว้ว่า คือ คืนก่อนวันศุกร์ วันเสาร์ และวันอาทิตย์"
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "ตัวเลขข้างหนังสือแต่ละเล่มคือจำนวนข้อความต้นฉบับจากเล่มนั้น"

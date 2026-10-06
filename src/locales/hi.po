@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "स्रोत अंश"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "स्रोत पुस्तकें"
 
@@ -2289,3 +2290,7 @@ msgstr "गुफ़ा के मुहाने पर मकड़ी के 
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "एक आधुनिक जीवनी इन तीन रातों का उल्लेख करती है: जुमे (शुक्रवार), शनिवार और इतवार (रविवार) से पहले की रातें।"
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "हर पुस्तक के पास की संख्या उसके स्रोत अंशों की गिनती है।"

@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "Kaynak metinler"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "Kaynak kitaplar"
 
@@ -2289,3 +2290,7 @@ msgstr "Mağaranın girişindeki örümcek ağı rivayeti; İbn Kesir bu rivayet
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "Modern bir siyer eseri bu üç geceyi şöyle belirtir: Cuma, Cumartesi ve Pazar'a bağlayan geceler."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "Her kitabın yanındaki sayı, ondan alınan kaynak metinlerin sayısıdır."

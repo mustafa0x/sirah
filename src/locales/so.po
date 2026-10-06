@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "Qoraallada tixraaca"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "Kutubta tixraaca"
 
@@ -2289,3 +2290,7 @@ msgstr "Werinta ku saabsan shabakadda caaro-caarada ee afka godka, taas oo silsi
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "Taariikh-nololeed casri ah ayaa magacowday saddexda habeen: habeenada ka horreeyay Jimcaha, Sabtida iyo Axadda."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "Lambarka ku ag yaal buug kasta waa tirada qoraallada tixraaca ee ka yimid."

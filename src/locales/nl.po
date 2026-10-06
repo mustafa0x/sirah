@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "Bronpassages"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "Bronboeken"
 
@@ -2289,3 +2290,7 @@ msgstr "Het verslag van het spinnenweb voor de opening van de grot, waarvan Ibn 
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "Een moderne biografie noemt de drie nachten: de nachten voorafgaand aan vrijdag, zaterdag en zondag."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "Het getal naast elk boek is het aantal bronpassages daaruit."

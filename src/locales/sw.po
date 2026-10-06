@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "Vifungu vya marejeo"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "Vitabu vya marejeo"
 
@@ -2289,3 +2290,7 @@ msgstr "Riwaya ya utando wa buibui kwenye mlango wa pango, ambayo mlolongo wake 
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "Wasifu wa kisasa unazitaja usiku hizo tatu: usiku wa kuamkia Ijumaa, Jumamosi, na Jumapili."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "Namba kando ya kila kitabu ni idadi ya vifungu vyake vya marejeo."

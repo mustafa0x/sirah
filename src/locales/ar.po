@@ -1954,6 +1954,7 @@ msgid "Source passages"
 msgstr "نصوص مصدرية"
 
 #: src/routes/Journey.svelte
+#: src/routes/Journey.svelte
 msgid "Source books"
 msgstr "كتب مصدرية"
 
@@ -2289,3 +2290,7 @@ msgstr "رواية نسج العنكبوت على مدخل الغار، التي
 #: src/content/text.generated.js
 msgid "A modern biography names the three nights: the nights before Friday, Saturday and Sunday."
 msgstr "يحدد أحد كتب السيرة المعاصرة الليالي الثلاث بأنها ليالي الجمعة والسبت والأحد."
+
+#: src/routes/Journey.svelte
+msgid "The number beside each book counts its source passages."
+msgstr "الرقم بجانب كل كتاب هو عدد نصوصه المصدرية."
