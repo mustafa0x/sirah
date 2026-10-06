@@ -1712,6 +1712,8 @@
             <path d="M19 12H5M11 6l-6 6 6 6" />
         {:else if name === 'previous'}
             <path d="M15 6l-6 6 6 6" />
+        {:else if name === 'following'}
+            <path d="M9 6l6 6-6 6" />
         {:else if name === 'check'}
             <path d="M5 12.5l4.5 4.5L19 7.5" />
         {:else if name === 'expand'}
@@ -3054,6 +3056,19 @@
                         <p class={kicker}>
                             Stage {fmt_num(selected_index + 1)} of {fmt_num(chapter.steps.length)} · {selected_step.title}
                         </p>
+                        {#if selected_index < chapter.steps.length - 1}
+                            {#snippet next_button(props)}
+                                <button
+                                    {...props}
+                                    class="grid flex-none size-6 -mt-[3px] place-items-center p-0 text-ink-soft bg-transparent border-0 rounded-full hover:text-gold-bright rtl:-scale-x-100"
+                                    aria-label="Next stage"
+                                    onclick={() => move_step(1)}
+                                >
+                                    {@render icon('following')}
+                                </button>
+                            {/snippet}
+                            {@render tip('Next stage', next_button)}
+                        {/if}
                     </div>
                     {#snippet follow_button(props)}
                         <button
