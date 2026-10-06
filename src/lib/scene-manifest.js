@@ -252,6 +252,8 @@ const shot = (place, azimuth, elevation, distance, height = 0.3, offset = null, 
 })
 
 const south = -Math.PI / 2
+// Where Umm Ma‘bad's tent is pitched, relative to the tent place (see the renderer).
+const tent_offset = [0.387, 0, -0.164]
 // Where the camel starts her walk into the yard, relative to the town centre.
 const arrival_offset = [arrival_site.start[0], 0, arrival_site.start[1]]
 const north = Math.PI / 2
@@ -337,8 +339,11 @@ export const beat_shots = {
     N06a: { ...shot('road', south + 0.4, 0.42, 7, 0.2), follow: 1 },
     N06b: { ...shot('road', south + 0.5, 0.26, 4.2, 0.2), follow: 1 },
     N06c: { ...shot('road', south + 0.15, 0.5, 9, 0.2), follow: 1 },
-    N10a: shot('tent', south + 0.2, 0.42, 4, 0.2),
-    N10b: shot('tent', south + 0.7, 0.3, 2.3, 0.2),
+    // The tent stands just north of the road, its open front to the south (scene-renderer.js);
+    // these shots aim at it there, from in front.
+    N10a: shot('tent', south + 0.4, 0.42, 3.2, 0.1, tent_offset),
+    // Close on the open front: the ewe at the back of the tent, the vessel beside her.
+    N10b: shot('tent', south + 0.4, 0.36, 1.8, 0.03, tent_offset),
     // Her description of the visitor, the riders already gone up the road.
     N10c: { ...shot('tent', south + 0.4, 0.45, 5, 0.2), follow: 1 },
     N05a: shot('quba', south + 0.5, 0.45, 5.2, 0.1),
@@ -425,6 +430,8 @@ export const beat_actors = {
     N06b: 'horse',
     N10a: 'tent',
     N10b: 'ewe',
+    // The tent stays when her husband comes home, the milked ewe standing by it.
+    N10c: 'ewe',
 }
 
 export { shelter_asset }
