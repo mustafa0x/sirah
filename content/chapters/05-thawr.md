@@ -39,7 +39,7 @@ Abu Bakr's freedman, ‘Amir ibn Fuhayrah, grazed a flock of milking sheep among
 
 At last the three nights passed, and the talk about the two died down.[^16][^17] On the morning after the third night, the guide they had hired, ‘Abdullah ibn Urayqit, came to the cave as arranged, with their two camels and a third of his own.[^16][^18][^20] By the reckoning of later biographers, it was the night of Monday, the first of Rabi‘ al-Awwal.[^29]
 
-Asma came too, carrying their bag of food.[^16] The camels were ready, and the road to Madinah lay ahead.[^18]
+Asma came too, carrying their bag of food.[^16] In Ibn Ishaq's telling, she had forgotten a strap to hang it by, and when the two were ready to leave there was nothing to tie it on. So she undid the waistband she wore and made it into a strap. The scholars Ibn Hisham heard explained that she split it in two, hanging the bag with one half and keeping the other around her waist, and that is how she came to be called Dhat al-Nitaqayn, "she of the two waistbands".[^19] The camels were ready, and the road to Madinah lay ahead.[^18]
 
 ## Outline
 
