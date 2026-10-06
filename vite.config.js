@@ -6,7 +6,7 @@ import domain from 'vite-plugin-domain'
 import { wuchale } from 'wuchale/vite'
 import { navigation_fallback } from './scripts/navigation-fallback.js'
 import { depth_stats_plugin } from './scripts/depth-stats.js'
-import { content_plugin } from './scripts/content/compile.js'
+import { content_plugin } from './scripts/content/plugin.js'
 import { narration_hmr } from './scripts/narration-hmr.js'
 import tsconfig from './tsconfig.json' with { type: 'json' }
 

@@ -8,7 +8,7 @@ import { execFileSync } from 'node:child_process'
 import { mkdtempSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
-import { books, build_chapters, weak } from './chapters.js'
+import { books, weak } from './chapters.js'
 import { check_derivations } from './derive.js'
 import { resolve, unit } from './passages.js'
 
@@ -404,42 +404,6 @@ export function build_content({ check = false } = {}) {
 
 // Vite: compile when the dev server starts or a build begins, and again whenever a content
 // file changes, so edits to content/*.md show up straight away.
-export function content_plugin() {
-    const report = (errors) => {
-        for (const error of errors) console.error(`[content] ${error}`)
-    }
-    let serving = false
-    return {
-        name: 'content',
-        configResolved(config) {
-            serving = config.command === 'serve'
-        },
-        buildStart() {
-            const errors = [...build_content(), ...build_chapters()]
-            if (!errors.length) return
-            report(errors)
-            // A production build stops; the dev server keeps running with the last good output.
-            if (!serving) this.error(`${errors.length} content errors`)
-        },
-        configureServer(server) {
-            server.watcher.add(content_dir)
-            const rebuild = (file) => {
-                if (!file.startsWith(content_dir) || !file.endsWith('.md')) return
-                try {
-                    report(
-                        file.includes(`${path.sep}chapters${path.sep}`)
-                            ? build_chapters()
-                            : build_content(),
-                    )
-                } catch (error) {
-                    report([String(error)])
-                }
-            }
-            for (const event of ['add', 'change', 'unlink']) server.watcher.on(event, rebuild)
-        },
-    }
-}
-
 if (import.meta.url === `file://${process.argv[1]}`) {
     const errors = build_content({ check: process.argv.includes('--check') })
     for (const error of errors) console.error(error)
