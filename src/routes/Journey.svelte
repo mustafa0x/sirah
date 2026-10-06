@@ -320,6 +320,26 @@
                 behavior: 'smooth',
             })
     })
+    // A caption longer than its window fades at the bottom edge while more of it lies below.
+    let caption_more = $state(false)
+    function measure_caption() {
+        if (caption_window)
+            caption_more =
+                caption_window.scrollTop + caption_window.clientHeight <
+                caption_window.scrollHeight - 2
+    }
+    $effect(() => {
+        story_text
+        language
+        if (!caption_window) return
+        const frame = requestAnimationFrame(measure_caption)
+        const observer = new ResizeObserver(measure_caption)
+        observer.observe(caption_window)
+        return () => {
+            cancelAnimationFrame(frame)
+            observer.disconnect()
+        }
+    })
     let sheet = $derived(
         journey.panel === 'source' && journey.source_id
             ? 'source'
@@ -2991,8 +3011,10 @@
                     {@render tip('Follow along', follow_button)}
                 </div>
                 <div
-                    class="grid min-h-[6.6rem] max-h-[7.2rem] overflow-y-auto content-start [scrollbar-width:none] [&>*]:[grid-area:1/1] mobile:min-h-[8.6rem] mobile:max-h-[8.6rem]"
+                    class="grid min-h-[6.6rem] max-h-[7.2rem] overflow-y-auto content-start [scrollbar-width:none] [&>*]:[grid-area:1/1] data-[more=true]:[mask-image:linear-gradient(to_bottom,black_70%,transparent)] mobile:min-h-[8.6rem] mobile:max-h-[8.6rem]"
                     aria-live="polite"
+                    data-more={caption_more}
+                    onscroll={measure_caption}
                     bind:this={caption_window}
                 >
                     {#key current_cue?.id ?? selected_step.paragraphs[0]?.id}
