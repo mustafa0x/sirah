@@ -14,7 +14,7 @@ mise exec -- uv sync --frozen
 mise run dev:all
 ```
 
-The frontend uses `https://sirahviz.localhost`; the API listens on `127.0.0.1:8027`.
+Open `http://127.0.0.1:5100/`; the API listens on `127.0.0.1:8027`. With Caddy running and its local CA trusted, the domain plugin also provides HTTPS at `https://<checkout-folder>.localhost`.
 
 ## Build
 

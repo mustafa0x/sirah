@@ -33,5 +33,5 @@ A failed health check leaves the new `current` link in place and fails the comma
 Unauthenticated requests should return 401. With Basic Auth, verify the journey and `/api/health`; invalid guide challenge tokens must return 403.
 
 ```sh
-ssh "$DEPLOY_HOST" 'systemctl status sirah-api.service --no-pager'
+ssh "${DEPLOY_HOST:-labs}" 'systemctl status sirah-api.service --no-pager'
 ```
