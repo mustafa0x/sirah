@@ -110,10 +110,15 @@ for (const [id, entry] of sections('content/strength.md')) {
 }
 
 // "Ibn Hisham, al-Sirah al-Nabawiyyah, 1/480–482; Ibn Hajar, Fath al-Bari, 7/246"
-function source_title(units) {
+const arabic_digits = (text) => text.replace(/\d/g, (d) => '٠١٢٣٤٥٦٧٨٩'[d])
+
+function source_title(units, locale = 'en') {
     const groups = []
     for (const item of units) {
-        const name = books.get(String(item.book_id)) ?? item.book_ar ?? ''
+        const name =
+            locale === 'ar'
+                ? (item.book_ar ?? '').replace(/\s+-\s+.*$/, '')
+                : (books.get(String(item.book_id)) ?? item.book_ar ?? '')
         let group = groups.find((g) => g.name === name && g.volume === item.volume)
         if (!group) groups.push((group = { name, volume: item.volume, pages: [] }))
         if (item.page && !group.pages.includes(Number(item.page)))
@@ -125,9 +130,10 @@ function source_title(units) {
             const low = Math.min(...pages)
             const high = Math.max(...pages)
             const span = low === high ? `${low}` : `${low}–${high}`
-            return `${name}, ${volume ? `${volume}/` : ''}${span}`
+            const place = `${volume ? `${volume}/` : ''}${span}`
+            return locale === 'ar' ? `${name}، ${arabic_digits(place)}` : `${name}, ${place}`
         })
-        .join('; ')
+        .join(locale === 'ar' ? '؛ ' : '; ')
 }
 
 // content/chapters/NN-name.questions.md: "## <question id>" with level:, scope:, answer: and
@@ -227,6 +233,7 @@ function compile_questions(file, chapter_id, errors) {
 }
 
 export function compile_chapter(file) {
+    const locale = file.endsWith('.ar.md') ? 'ar' : 'en'
     const errors = []
     const at = (line, message) => errors.push(`${path.relative(root, file)}:${line}: ${message}`)
     const lines = readFileSync(file, 'utf8').split('\n')
@@ -387,7 +394,7 @@ export function compile_chapter(file) {
         }
         if (!refs.length && !cite.remark) at(1, 'a citation with neither passages nor a remark')
         const cited_units = refs.flatMap((ref) => ref.part_ids.map((id) => unit(ref.packet_id, id)))
-        const title = [source_title(cited_units), cite.remark].filter(Boolean).join(' — ')
+        const title = [source_title(cited_units, locale), cite.remark].filter(Boolean).join(' — ')
         const translated = refs.every((ref) =>
             ref.part_ids.every((id) => translations.has(`${ref.packet_id}:${id}`)),
         )
@@ -395,7 +402,7 @@ export function compile_chapter(file) {
             reading_id: `${chapter_id}_n${index + 1}`,
             number: index + 1,
             title,
-            mode: translated && refs.length ? 'translated' : 'original',
+            mode: locale === 'en' && translated && refs.length ? 'translated' : 'original',
             strength: cited_units.some((item) => weak.has(item.unit_id)) ? 'weak' : null,
             source_refs: refs,
         }
@@ -414,7 +421,7 @@ export function compile_chapter(file) {
             const part = block.parts[i]
             if (part.text === undefined) continue
             let first = null
-            for (const term of glossary_terms) {
+            for (const term of locale === 'en' ? glossary_terms : []) {
                 if (term.id === 'pbuh' || terms.some((item) => item.id === term.id)) continue
                 for (const word of term.match) {
                     const found = term_pattern(word).exec(part.text)
@@ -439,7 +446,7 @@ export function compile_chapter(file) {
         }
 
     const { questions, refs: question_refs } = compile_questions(
-        file.replace(/\.md$/, '.questions.md'),
+        file.replace(/(\.ar)?\.md$/, (_, ar) => `.questions${ar ?? ''}.md`),
         chapter_id,
         errors,
     )
@@ -450,9 +457,9 @@ export function compile_chapter(file) {
         errors,
         chapter: {
             chapter_id,
-            locale: 'en',
+            locale,
             status: 'story',
-            packet_id: `${chapter_id}:en:story`,
+            packet_id: `${chapter_id}:${locale}:story`,
             stage: doc.fields.stage ?? null,
             title: doc.title,
             reader_question: doc.question,
@@ -462,9 +469,10 @@ export function compile_chapter(file) {
             in_depth,
             readings,
             terms,
-            source_units: [...units.values()]
-                .filter(Boolean)
-                .map((item) => ({ ...item, text: translations.get(item.unit_id) ?? null })),
+            source_units: [...units.values()].filter(Boolean).map((item) => ({
+                ...item,
+                text: locale === 'en' ? (translations.get(item.unit_id) ?? null) : null,
+            })),
             footnotes: [],
             objectives: [],
             open_issues: [],
@@ -478,7 +486,7 @@ export function compile_chapters() {
     const errors = []
     const chapters = []
     for (const name of readdirSync(source_dir)
-        .filter((n) => /^\d+-[\w-]+\.md$/.test(n))
+        .filter((n) => /^\d+-[\w-]+(\.ar)?\.md$/.test(n))
         .sort()) {
         const result = compile_chapter(path.join(source_dir, name))
         errors.push(...result.errors)
@@ -512,17 +520,25 @@ export function build_chapters({ check = false } = {}) {
     if (errors.length) return errors
     const files = new Map()
     for (const { number, file, ...chapter } of chapters)
-        files.set(`${chapter.chapter_id}.en.json`, JSON.stringify(chapter))
+        files.set(`${chapter.chapter_id}.${chapter.locale}.json`, JSON.stringify(chapter))
     files.set(
         'index.json',
         JSON.stringify(
-            chapters.map(({ number, chapter_id, stage, title, reader_question }) => ({
-                number,
-                chapter_id,
-                stage,
-                title,
-                reader_question,
-            })),
+            chapters
+                .filter((chapter) => chapter.locale === 'en')
+                .map(({ number, chapter_id, stage, title, reader_question }) => {
+                    const arabic = chapters.find(
+                        (item) => item.chapter_id === chapter_id && item.locale === 'ar',
+                    )
+                    return {
+                        number,
+                        chapter_id,
+                        stage,
+                        title,
+                        reader_question,
+                        ...(arabic ? { title_ar: arabic.title } : {}),
+                    }
+                }),
             null,
             1,
         ),

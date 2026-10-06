@@ -1,13 +1,18 @@
 import accepted from '../content/hijrah-chapters/catalog.ar.json'
 import { chapter_locale, prepare_chapter } from './chapter-editions.js'
 
-// The chapter stories (content/chapters/*.md, compiled): the foundation, in English. Every
-// language but Arabic reads them until it has its own edition of the new chapters.
+// The chapter stories (content/chapters/*.md, compiled): the foundation, in English, with an
+// Arabic edition beside each one as it is written. Other languages read the English until they
+// have their own; Arabic reads the earlier edition until the new one exists.
 import story_index from '../content/chapters/index.json'
-const stories = import.meta.glob('../content/chapters/*.en.json', { import: 'default' })
+const stories = import.meta.glob('../content/chapters/*.{en,ar}.json', { import: 'default' })
 const story_entry = (chapter_id) => story_index.find((item) => item.chapter_id === chapter_id)
-const reads_story = (chapter_id, requested) =>
-    requested !== 'ar' && Boolean(story_entry(chapter_id))
+const story_locale = (chapter_id, requested) => {
+    if (!story_entry(chapter_id)) return null
+    if (requested !== 'ar') return 'en'
+    return stories[`../content/chapters/${chapter_id}.ar.json`] ? 'ar' : null
+}
+const reads_story = (chapter_id, requested) => Boolean(story_locale(chapter_id, requested))
 
 // Chapter payloads are large; each loads only when a reader opens it.
 const payloads = import.meta.glob('../content/hijrah-chapters/*/chapter.*.json', {
@@ -83,19 +88,21 @@ export function available_chapters(requested) {
 }
 
 export function chapter_content_locale(item, requested) {
-    if (reads_story(item.chapter_id, requested)) return 'en'
+    if (reads_story(item.chapter_id, requested)) return story_locale(item.chapter_id, requested)
     return chapter_locale(requested, available_for(item.chapter_id))
 }
 
 export function chapter_title(item, requested) {
-    if (reads_story(item.chapter_id, requested)) return story_entry(item.chapter_id).title
+    const story = story_locale(item.chapter_id, requested)
+    if (story === 'en') return story_entry(item.chapter_id).title
+    if (story === 'ar') return story_entry(item.chapter_id).title_ar
     const locale = chapter_content_locale(item, requested)
     return locale === 'ar' ? item.title_ar : (edition_entry(item.chapter_id, locale)?.title ?? null)
 }
 
 export async function load_chapter(chapter_id, requested = 'ar') {
-    if (reads_story(chapter_id, requested))
-        return stories[`../content/chapters/${chapter_id}.en.json`]()
+    const story = story_locale(chapter_id, requested)
+    if (story) return stories[`../content/chapters/${chapter_id}.${story}.json`]()
     const entry = catalog.chapters.find((item) => item.chapter_id === chapter_id)
     const path = entry?.path ?? `${chapter_id}/chapter.ar.json`
     const load = payloads[`../content/hijrah-chapters/${path}`]
