@@ -1884,7 +1884,10 @@ export async function create_scene(
                     const mapped = world === active && distance > 0.3 * active.scale && routes_shown
                     route.line.visible = mapped && route.shown > 0.002
                     route.trace.visible = mapped
-                    if (world === active && route.shown > 0.002 && route.shown < 0.998) tip = route
+                    // The four are wherever the drawn route has reached: the head of the line being
+                    // drawn, or the end of the last one drawn. Their marker stays there, so it
+                    // neither blinks out when a leg is finished nor jumps when the next begins.
+                    if (world === active && route.shown > 0.002) tip = route
                 }
             }
             // The camel walks the last leg into Madinah; in the town (N08b) she comes into the
@@ -1943,6 +1946,23 @@ export async function create_scene(
             // knee, just short of them. The four keep their marker at the head of the line.
             const road_leg = worlds.region?.routes.find((route) => route.leg === 1)
             horse.root.visible = false
+            if (actor === 'horse_back' && active.name === 'region' && road_leg) {
+                // N06c: freed, he turns back: the horse pulls its legs out of the ground, then
+                // trots back down the road, away from the four.
+                const played = beat_progress ?? 1
+                const freed = smoothstep(0.05, 0.3, played)
+                const away = smoothstep(0.45, 1, played)
+                stand_on(horse, road_leg, 0.22, mix(1.15, 4.5, away))
+                if (away > 0) horse.root.rotation.y += Math.PI
+                const stride =
+                    reduced_motion || away === 0 || away === 1 ? 0 : Math.sin(now / 150) * 0.35
+                horse.limbs.forEach((limb, index) => {
+                    limb.rotation.z = index % 3 === 0 ? stride : -stride
+                    limb.scale.y = index < 2 ? mix(0.45, 1, freed) : 1
+                })
+                horse.torso.rotation.z = -0.2 * (1 - freed)
+                horse.torso.position.y = -0.06 * (1 - freed)
+            }
             if (actor === 'horse' && active.name === 'region' && road_leg) {
                 const played = beat_progress ?? 1
                 const sink = smoothstep(0.62, 0.9, played)
@@ -2162,7 +2182,9 @@ export async function create_scene(
                 // four read as the ones he is chasing. It grows into that size, and back, gently,
                 // and then sits on the ground rather than half in it.
                 const screen = distance * 0.007
-                const chase = horse.root.visible ? 1 : 0
+                // Only in a close view of the chase; from further out it keeps its usual size.
+                const close = 1 - smoothstep(5, 8, distance / worlds[tip.world].scale)
+                const chase = horse.root.visible ? close : 0
                 traveller_chase +=
                     (chase - traveller_chase) * (reduced_motion ? 1 : 1 - Math.exp(-delta * 1.6))
                 const size = mix(

@@ -385,7 +385,9 @@ export const step_scenes = {
     onward: { mood: 'haze', route: [one, [0, 0.25]] },
     pursuit: { mood: 'day', route: [one, [0.25, 0.32]] },
     tent: { mood: 'gold', route: [one, [0.32, 0.4, 0.4]] },
-    quba: { mood: 'gold', route: [one, [0.4, 1, 0.6]] },
+    // The road from the tent is drawn on the way here; the last approach into Quba, the part in
+    // the Quba view, is drawn in N05a, arriving as the man on the fort calls out.
+    quba: { mood: 'gold', route: [one, [0.97, 1, 0.7, 'N05a']] },
     arrival: { mood: 'day', route: [one, one, [0, 1, 0.5]] },
 }
 
@@ -429,6 +431,7 @@ export const beat_actors = {
     N03c: 'visits_amir',
     N03d: 'searchers',
     N06b: 'horse',
+    N06c: 'horse_back',
     N10a: 'tent',
     N10b: 'ewe',
     // The tent stays when her husband comes home, the milked ewe standing by it.
