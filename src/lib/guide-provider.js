@@ -201,7 +201,7 @@ function available_action(answer, step_ids) {
         : answer
 }
 
-export async function ask_guide(question, context) {
+export async function ask_guide(question, context, turnstile_token) {
     const fallback = available_action(
         local_guide_answer(question, context.source_ids, context.language),
         context.available_step_ids,
@@ -210,7 +210,7 @@ export async function ask_guide(question, context) {
         const response = await fetch('/api/guide', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ question, context }),
+            body: JSON.stringify({ question, context, turnstile_token }),
             signal: AbortSignal.timeout(100000),
         })
         if (!response.ok) return fallback

@@ -296,6 +296,40 @@ def guide_response(payload: Any, provider: LocalGuideProvider | OpenAIGuideProvi
     return (provider or LocalGuideProvider()).answer(question.strip(), step_id, source_ids, language)
 
 
+def verify_turnstile(payload: Any) -> None:
+    if not isinstance(payload, dict):
+        raise BoundaryError('guide payload must be an object')
+    token = payload.get('turnstile_token')
+    if not isinstance(token, str) or not 1 <= len(token.strip()) <= 2048:
+        raise BoundaryError('Verification is required', 403)
+    secret = os.getenv('TURNSTILE_SECRET_KEY', '').strip()
+    test_secrets = {
+        '1x0000000000000000000000000000000AA',
+        '2x0000000000000000000000000000000AA',
+        '3x0000000000000000000000000000000AA',
+    }
+    if not secret or secret in test_secrets:
+        raise BoundaryError('Verification is unavailable', 503)
+    request = Request(
+        'https://challenges.cloudflare.com/turnstile/v0/siteverify',
+        data=urlencode({'secret': secret, 'response': token.strip()}).encode(),
+        headers={'Content-Type': 'application/x-www-form-urlencoded'},
+        method='POST',
+    )
+    try:
+        with urlopen(request, timeout=5) as response:
+            result = json.loads(response.read(16_000))
+    except (OSError, ValueError):
+        raise BoundaryError('Verification is unavailable', 503) from None
+    if (
+        not isinstance(result, dict)
+        or result.get('success') is not True
+        or result.get('hostname') != os.getenv('TURNSTILE_HOSTNAME', 'sirah.nuqayah.com')
+        or result.get('action') != 'guide'
+    ):
+        raise BoundaryError('Verification failed', 403)
+
+
 def _json(handler: BaseHTTPRequestHandler, value: Any, status: int = 200) -> None:
     data = json.dumps(value, ensure_ascii=False).encode("utf-8")
     handler.send_response(status)
@@ -349,6 +383,7 @@ class APIHandler(BaseHTTPRequestHandler):
             if not 0 < length <= 30_000:
                 raise BoundaryError("request is too large")
             payload = json.loads(self.rfile.read(length))
+            verify_turnstile(payload)
             _json(self, guide_response(payload, self.provider))
         except (BoundaryError, ValueError, json.JSONDecodeError) as error:
             _json(self, {"error": str(error)}, getattr(error, "status", 400))

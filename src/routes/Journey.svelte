@@ -103,6 +103,7 @@
         toggle_reading,
     } from '../lib/journey-state.js'
     import { ask_guide } from '../lib/guide-provider.js'
+    import TurnstileWidget from '../lib/TurnstileWidget.svelte'
     import { create_media_clock } from '../lib/media-clock.js'
     import { create_ambience } from '../lib/ambience.js'
     import { evidence_category, evidence_dot, evidence_kinds } from '../lib/evidence.js'
@@ -235,6 +236,7 @@
     let active_poi = $state(null)
     let active_detail = $derived(active_poi?.detail ? mode_detail(active_poi.detail, mode) : null)
     let question = $state('')
+    let verification = $state({ token: '', failed: false, reset_key: 0 })
     let question_input = $state()
     let recent_turns = $state([])
     let help_open = $state(false)
@@ -838,7 +840,7 @@
 
     async function submit_question(event) {
         event?.preventDefault()
-        if (!question.trim() || journey.question_pending) return
+        if (!question.trim() || journey.question_pending || !verification.token) return
         const ticket = begin_question(
             journey,
             clock?.snapshot().seconds ?? journey.guided_position.seconds,
@@ -855,7 +857,10 @@
             available_step_ids: chapter.steps.map((step) => step.id),
             recent_turns,
         }
-        const response = await ask_guide(submitted_question, context)
+        const token = verification.token
+        verification.token = ''
+        const response = await ask_guide(submitted_question, context, token)
+        verification.reset_key += 1
         if (answer_permission(journey, ticket).text && publish_answer(journey, ticket, response)) {
             if (response.provider === 'openai-turath') {
                 recent_turns = [
@@ -3408,10 +3413,29 @@
                             dir="auto"
                             rows="2"
                             placeholder="Ask about this journey…"></textarea>
+                        {#key verification.reset_key}
+                            <TurnstileWidget
+                                bind:token={verification.token}
+                                bind:failed={verification.failed}
+                            />
+                        {/key}
+                        {#if verification.failed}
+                            <div class="w-full flex flex-wrap items-center gap-2" role="status">
+                                <p class={fine_print}>Verification failed. Try again.</p>
+                                <button
+                                    class={ghost_button}
+                                    type="button"
+                                    onclick={() => (verification.reset_key += 1)}
+                                    >Retry verification</button
+                                >
+                            </div>
+                        {/if}
                         <button
                             class={primary_button}
                             type="submit"
-                            disabled={journey.question_pending || !question.trim()}
+                            disabled={journey.question_pending ||
+                                !question.trim() ||
+                                !verification.token}
                         >
                             {journey.question_pending ? 'Researching in Turath…' : 'Ask'}
                         </button>
@@ -3420,7 +3444,7 @@
                         {#each suggested_questions as prompt (prompt)}
                             <button
                                 class="py-[7px] px-[13px] text-ink-soft text-start bg-[rgba(255,244,222,0.05)] border border-solid border-line rounded-full text-[0.875rem] transition-[border-color,color] duration-150 ease-[ease] hover:text-white hover:border-gold"
-                                disabled={journey.question_pending}
+                                disabled={journey.question_pending || !verification.token}
                                 onclick={() => ask_suggested(prompt)}>{prompt}</button
                             >
                         {/each}
