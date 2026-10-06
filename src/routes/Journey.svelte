@@ -1729,7 +1729,12 @@
                 <span
                     class="grid shrink-0 min-w-5 h-5 place-items-center px-[5px] text-gold-ink bg-gold rounded-full text-[0.75rem] font-bold"
                     >{fmt_num(source.number)}</span
-                ><span class="min-w-0 break-words" dir="auto">{fmt_num(source.reference)}</span>
+                ><span class="min-w-0 break-words" dir="auto"
+                    >{fmt_num(source.reference)}</span
+                >{#if source.strength === 'weak'}<span
+                        class="shrink-0 ps-1.5 border-0 border-s border-solid border-line text-[0.6875rem] text-ink-soft"
+                        >Weaker report</span
+                    >{/if}
             </a>
         {/each}
     </div>

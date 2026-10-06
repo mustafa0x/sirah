@@ -2,7 +2,11 @@
 // direction in this file are working drafts pending scholarly/editorial approval.
 import { details } from './details.js'
 import { timeline } from './timeline.js'
-import { cited_passages, source_notes, stage_text } from './text.generated.js'
+import * as generated from './text.generated.js'
+// Optional exports are read with fallbacks: the compiler loads this module before writing them.
+const { source_notes, stage_text } = generated
+const cited_passages = generated.cited_passages ?? {}
+const weak_sources = generated.weak_sources ?? []
 
 /** @typedef {{id: string, title: string, scene: string, duration: number, source_ids: string[], paragraphs: Array<{id: string, text: string, source_ids: string[]}>, recap?: string}} ChapterStep */
 /** @typedef {{id: string, title: string, release_id: string, release_status: string, review_status: string, language: string, objective: string, question: object, steps: ChapterStep[], sources: object[]}} Chapter */
@@ -404,8 +408,10 @@ for (const step of chapter.steps)
                   ? 'hadith'
                   : 'report',
             place: stage_places[step.id],
+            strength: passage.strength ?? null,
         })
     }
+for (const source of chapter.sources) if (weak_sources.includes(source.id)) source.strength = 'weak'
 for (const step of chapter.steps)
     step.source_ids = [
         ...new Set([...step.source_ids, ...step.paragraphs.flatMap((p) => p.source_ids)]),

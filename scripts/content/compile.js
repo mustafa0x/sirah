@@ -8,7 +8,7 @@ import { execFileSync } from 'node:child_process'
 import { mkdtempSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
-import { books, build_chapters } from './chapters.js'
+import { books, build_chapters, weak } from './chapters.js'
 import { check_derivations } from './derive.js'
 import { resolve, unit } from './passages.js'
 
@@ -318,6 +318,9 @@ export function compile() {
         ),
     )
     errors.push(...derivation.errors)
+    result.weak_sources = [
+        ...new Set([...weak].filter((id) => /^E\d+:/.test(id)).map((id) => id.split(':')[0])),
+    ]
     result.cited_passages = {}
     for (const stage of Object.values(result.stage_text))
         for (const paragraph of stage.paragraphs)
@@ -336,6 +339,7 @@ export function compile() {
                     page: parts[0].page,
                     url: parts[0].source_url,
                     kind_ar: parts[0].kind_ar,
+                    ...(parts.some((part) => weak.has(part.unit_id)) ? { strength: 'weak' } : {}),
                 }
             }
     return { result, errors, origin, derivation: { ...derivation, from: derived_from } }

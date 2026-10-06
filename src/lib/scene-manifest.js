@@ -293,8 +293,12 @@ const thawr_nights = shot('cave', south + 0.1, 0.2, 1.3, 0.06, [-0.45, 0, 0])
 export const beat_shots = {
     N01a: overview_shot,
     N01b: shot('makkah', -0.4, 0.5, 8),
+    // The emigrants leave for Madinah: the whole road north.
+    N01c: overview_shot,
     N02a: shot('makkah', 0.25, 0.42, 4.4, 0.1),
-    N02b: shot('makkah_valley', north - 0.25, 0.36, 8.5, 0.1),
+    N02b: shot('makkah', 0.25, 0.42, 4.4, 0.1),
+    // The guide and the provisions: Makkah's valley towards Thawr.
+    N02c: shot('makkah_valley', north - 0.25, 0.36, 8.5, 0.1),
     // Outside the shelter, looking at its opening.
     N09a: shot('makkah', 0.6, 0.5, 2.6, 0.1),
     N09b: shot('makkah', -0.3, 0.3, 1.3, 0.05),
@@ -327,11 +331,19 @@ export const beat_shots = {
     N06c: { ...shot('road', south + 0.15, 0.5, 9, 0.2), follow: 1 },
     N10a: shot('tent', -0.3, 0.42, 4, 0.2),
     N10b: shot('tent', 0.45, 0.3, 2.3, 0.2),
+    // Her description of the visitor, the riders already gone up the road.
+    N10c: { ...shot('tent', -0.6, 0.45, 5, 0.2), follow: 1 },
     N05a: shot('quba', 0.5, 0.45, 5.2, 0.1),
     N07a: shot('quba', south + 0.35, 0.07, 0.3, 0.014),
+    // ‘Ali arrives, the mosque at Quba, and the ride on.
+    N07b: shot('quba', 0.5, 0.45, 5.2, 0.1),
     // Close behind the camel as she walks from Quba into the town.
     N08a: { ...shot('quba', south + 0.3, 0.55, 1.8, 0.03), follow: 2 },
-    N05b: shot('madinah', north - 0.6, 0.38, 0.5, 0.02),
+    // The camel kneels in the town.
+    N08b: shot('madinah', north - 0.6, 0.38, 0.5, 0.02),
+    N05b: shot('madinah', north - 0.3, 0.3, 0.8, 0.02),
+    // The fever, and the prayer for the new home: the town from above.
+    N08c: shot('madinah', 0.4, 0.5, 4, 0.1),
 }
 
 // Light and route progress per chapter step. The time of day is art direction only. Each

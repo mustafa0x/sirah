@@ -111,7 +111,7 @@ function sections(file) {
 export const books = new Map(
     [...sections('content/books.md')].map(([id, entry]) => [id, entry.text]),
 )
-const weak = new Set()
+export const weak = new Set()
 for (const [id, entry] of sections('content/strength.md')) {
     if (entry.fields.strength !== 'weak') continue
     const ref = resolve(id)
