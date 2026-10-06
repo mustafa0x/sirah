@@ -11,7 +11,7 @@ const host = process.env.DEPLOY_HOST || 'labs'
 const action = process.argv[2] || 'all'
 const app_root = '/srv/apps/sirah'
 if (!/^[A-Za-z0-9][A-Za-z0-9_.@-]*$/.test(host)) throw new Error('Invalid DEPLOY_HOST')
-if (!['setup', 'all', 'rollback'].includes(action)) throw new Error('Use setup, all, or rollback')
+if (!['setup', 'all'].includes(action)) throw new Error('Use setup or all')
 if (process.argv.slice(3).some((arg) => arg !== '--allow-dirty')) throw new Error('Unknown deployment option')
 
 function run(command, args, input) {
@@ -57,26 +57,10 @@ sudo -n systemctl reload caddy
 const activation = `
 exec 9>${app_root}/shared/deploy.lock
 flock -n 9
-previous=$(readlink ${app_root}/current || true)
-rollback() {
-    trap - ERR
-    sudo -n rm -f ${app_root}/current.next ${app_root}/previous.next
-    if [ -n "$previous" ]; then
-        sudo -n ln -s "$previous" ${app_root}/current.next
-        sudo -n mv -Tf ${app_root}/current.next ${app_root}/current
-        sudo -n systemctl restart sirah-api.service
-    else
-        sudo -n rm -f ${app_root}/current
-        sudo -n systemctl stop sirah-api.service
-    fi
-    echo 'Activation failed; restored previous current link.' >&2
-}
 activate() {
     test ! -e ${app_root}/current.next
-    test ! -e ${app_root}/previous.next
     sudo -n ln -s "$1" ${app_root}/current.next
     sudo -n mv -Tf ${app_root}/current.next ${app_root}/current
-    trap rollback ERR
     sudo -n systemctl restart sirah-api.service
     healthy=false
     for attempt in {1..30}; do
@@ -88,27 +72,8 @@ activate() {
     done
     test "$healthy" = true
     sudo -n systemctl is-active --quiet sirah-api.service
-    if [ -n "$previous" ]; then
-        sudo -n ln -s "$previous" ${app_root}/previous.next
-        sudo -n mv -Tf ${app_root}/previous.next ${app_root}/previous
-    fi
-    trap - ERR
 }
 `
-
-if (action === 'rollback') {
-    remote(activation + `
-target=$(readlink ${app_root}/previous)
-case "$target" in ${app_root}/releases/*) ;; *) exit 1 ;; esac
-test "$target" != "$previous"
-test -x "$target/.venv/bin/python"
-cd "$target"
-sha256sum --quiet -c checksums.sha256
-activate "$target"
-echo "Rolled back to $target"
-`)
-    process.exit(0)
-}
 
 const dirty = Boolean(execFileSync('git', ['status', '--porcelain'], { encoding: 'utf8' }).trim())
 if (dirty && !process.argv.includes('--allow-dirty')) throw new Error('Worktree is dirty; explicitly pass --allow-dirty to deploy this snapshot')
@@ -155,7 +120,7 @@ cd '${release_dir}'
 mise trust mise.toml
 mise install python uv
 mise exec -- uv sync --frozen --no-dev --no-install-project
-mise exec -- .venv/bin/python -c 'import api; assert isinstance(api.APIHandler.provider, api.LocalGuideProvider)'
+mise exec -- .venv/bin/python -c 'import os, api; assert isinstance(api.APIHandler.provider, api.OpenAIGuideProvider if os.getenv("OPENAI_API_KEY") else api.LocalGuideProvider)'
 sudo -n chown -hR root:root '${release_dir}'
 sudo -n chmod -R a+rX,u+w,go-w '${release_dir}'
 activate '${release_dir}'
