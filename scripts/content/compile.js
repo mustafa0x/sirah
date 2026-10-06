@@ -282,6 +282,14 @@ export function build_content({ check = false } = {}) {
     if (check)
         return ['src/content/text.generated.js is out of date: run node scripts/content/compile.js']
     writeFileSync(output, text)
+    // The Ask feature's server reads a snapshot of the journey; keep it in step.
+    try {
+        execFileSync(process.execPath, [path.join(root, 'scripts/export_guide_context.js')], {
+            cwd: root,
+        })
+    } catch (error) {
+        return [`guide_context.json could not be updated: ${error.message}`]
+    }
     return []
 }
 
