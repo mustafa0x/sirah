@@ -1512,12 +1512,12 @@ export async function create_scene(
         scene.add(lantern, halo)
         // The searchers at Thawr are dim red lights, never figures. They comb the slopes, close
         // in on the shelter, stand over it while Abu Bakr whispers, then move off. Places are
-        // metres [north, east] of the shelter; the first three stand on the rock above it. They
+        // metres [north, east] of the shelter; one stands on the rock above it. They
         // start on the far slopes so the camera, north of the opening, sees them all.
         const searcher_plan = [
             { from: [-42, -30], to: [-0.5, -1.6], roof: true, bend: 10 },
-            { from: [-30, 38], to: [0.8, 1.2], roof: true, bend: -12 },
-            { from: [-55, 6], to: [-1.8, 0.4], roof: true, bend: 8 },
+            { from: [-30, 38], to: [-3, 7], bend: -12 },
+            { from: [-55, 6], to: [-8, -6], bend: 8 },
             { from: [8, 50], to: [-5, 10], bend: -9 },
         ]
         const searcher_glow = (color, opacity, depthTest) =>
