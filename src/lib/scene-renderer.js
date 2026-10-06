@@ -306,6 +306,36 @@ export async function create_scene(
         let mood_target = moods.gold
         // null, or 0..1 through three nights.
         let cycle = null
+        // Playback reports its position about ten times a second. Between reports a position
+        // runs on at the rate it last moved, so motion tied to it stays smooth; a seek or a
+        // pause takes effect at once.
+        const playback_signal = () => {
+            let target = null
+            let at = 0
+            let rate = 0
+            return {
+                set(value) {
+                    const now = performance.now()
+                    const step = value === null || target === null ? null : value - target
+                    if (step === null || step < 0 || step > 0.2) rate = 0
+                    else if (step === 0) rate = 0
+                    else
+                        rate = mix(
+                            rate || step / ((now - at) / 1000),
+                            step / ((now - at) / 1000),
+                            0.5,
+                        )
+                    target = value
+                    at = now
+                },
+                read(now) {
+                    if (target === null) return null
+                    return Math.min(1, target + rate * Math.min(0.15, (now - at) / 1000))
+                },
+            }
+        }
+        const cycle_signal = playback_signal()
+        const progress_signal = playback_signal()
         const night_phases = [
             [0.5, 'night'],
             [0.64, 'dusk'],
@@ -1485,13 +1515,10 @@ export async function create_scene(
         // metres [north, east] of the shelter; the first three stand on the rock above it. They
         // start on the far slopes so the camera, north of the opening, sees them all.
         const searcher_plan = [
-            { from: [-42, -30], to: [-0.5, -1.6], roof: true },
-            { from: [-30, 38], to: [0.8, 1.2], roof: true },
-            { from: [-55, 6], to: [-1.8, 0.4], roof: true },
-            { from: [-20, -52], to: [-9, -6] },
-            { from: [8, 50], to: [-5, 10] },
-            { from: [-50, 26], to: [-4, -12] },
-            { from: [10, -46], to: [-2, -13] },
+            { from: [-42, -30], to: [-0.5, -1.6], roof: true, bend: 10 },
+            { from: [-30, 38], to: [0.8, 1.2], roof: true, bend: -12 },
+            { from: [-55, 6], to: [-1.8, 0.4], roof: true, bend: 8 },
+            { from: [8, 50], to: [-5, 10], bend: -9 },
         ]
         const searcher_glow = (color, opacity, depthTest) =>
             new THREE.MeshBasicMaterial({
@@ -1560,6 +1587,8 @@ export async function create_scene(
             const delta = clamp((now - previous) / 1000, 0, 0.1)
             previous = now
             const ease = reduced_motion ? 1 : 1 - Math.exp(-delta * 2.2)
+            cycle = cycle_signal.read(now)
+            beat_progress = progress_signal.read(now)
 
             // How far into a flight the camera is, for keeping it clear of the ground.
             let lift = 0
@@ -1812,10 +1841,13 @@ export async function create_scene(
             searchers.forEach((searcher, index) => {
                 searcher.core.visible = searcher.glow.visible = false
                 if (!searching) return
-                // Close in over the first 55%, stand still, then leave over the last fifth.
-                const delay = index * 0.025
-                const closing = smooth(clamp((beat_progress - delay) / (0.55 - delay), 0, 1))
+                // Close in over the first 55%, stand still, then leave over the last fifth. On the
+                // way in each walks a gentle curve and stops twice, as if looking about.
+                const delay = index * 0.03
+                const walked = clamp((beat_progress - delay) / (0.55 - delay), 0, 1)
+                const closing = walked - Math.sin(walked * Math.PI * 6) / (Math.PI * 6)
                 const leaving = smooth(clamp((beat_progress - 0.8) / 0.2, 0, 1))
+                const arriving = smooth(clamp((beat_progress - delay) / 0.08, 0, 1))
                 if (leaving >= 1) return
                 if (searcher.roof && searcher.height === null && thawr.cave_shelter)
                     searcher.height = cave_height(thawr, ...searcher.to, true)
@@ -1824,12 +1856,12 @@ export async function create_scene(
                     north += Math.cos(searcher.away) * 50 * leaving
                     east += Math.sin(searcher.away) * 50 * leaving
                 } else {
-                    // Searching, they weave across the slope rather than walking straight in.
                     const [from_north, from_east] = searcher.from
-                    const weave = Math.sin(closing * 9 + searcher.seed) * 7 * (1 - closing)
-                    const length = Math.hypot(from_north, from_east)
-                    north = mix(from_north, north, closing) - (from_east / length) * weave
-                    east = mix(from_east, east, closing) + (from_north / length) * weave
+                    const [to_north, to_east] = searcher.to
+                    const length = Math.hypot(from_north - to_north, from_east - to_east)
+                    const curve = (2 * closing * (1 - closing) * searcher.bend) / length
+                    north = mix(from_north, to_north, closing) - (from_east - to_east) * curve
+                    east = mix(from_east, to_east, closing) + (from_north - to_north) * curve
                 }
                 const ground =
                     searcher.roof && leaving === 0 && closing > 0.97 && searcher.height !== null
@@ -1842,7 +1874,7 @@ export async function create_scene(
                         thawr.cave_site.z + east * METRE,
                     )
                     .multiplyScalar(thawr.scale)
-                const fade = 1 - leaving
+                const fade = arriving * (1 - leaving)
                 const flicker = reduced_motion ? 1 : 1 + 0.15 * Math.sin(now / 110 + searcher.seed)
                 const size = Math.max(distance * 0.0035, 0.12 * METRE * thawr.scale)
                 searcher.core.position.copy(searcher_at)
@@ -1918,10 +1950,10 @@ export async function create_scene(
             actor = name
         }
         api.set_progress = (value) => {
-            beat_progress = value
+            progress_signal.set(value ?? null)
         }
         api.set_cycle = (value) => {
-            cycle = value
+            cycle_signal.set(value ?? null)
         }
         api.set_active = (id) => {
             active_id = id
