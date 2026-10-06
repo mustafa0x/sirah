@@ -2146,8 +2146,13 @@ export async function create_scene(
                         .setY(traveller.position.y + 0.2 * active.scale)
                     view.target.lerp(follow_point, reduced_motion ? 1 : 1 - Math.exp(-delta * 1.6))
                 }
+                // A steady size on screen; beside Suraqah's horse, never smaller than it, so the
+                // four read as the ones he is chasing.
+                const size = horse.root.visible
+                    ? Math.max(distance * 0.007, 0.16 * worlds[tip.world].scale)
+                    : distance * 0.007
                 traveller.scale.setScalar(
-                    distance * 0.007 * (reduced_motion ? 1 : 1 + 0.18 * Math.sin(now / 320)),
+                    size * (reduced_motion ? 1 : 1 + 0.18 * Math.sin(now / 320)),
                 )
             }
             for (const world of Object.values(worlds))
