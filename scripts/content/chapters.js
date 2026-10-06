@@ -62,6 +62,102 @@ function marked(text) {
     return { text: plain(out), marks }
 }
 
+// content/chapters/NN-name.questions.md: "## <question id>" with level:, scope:, answer: and
+// sources: lines, the prompt, then "### <option id>" (text, then "> feedback") and "### why".
+function compile_questions(file, chapter_id, errors) {
+    let text
+    try {
+        text = readFileSync(file, 'utf8')
+    } catch {
+        return { questions: [], refs: [] }
+    }
+    const at = (line, message) => errors.push(`${path.relative(root, file)}:${line}: ${message}`)
+    const questions = []
+    const refs = []
+    let question = null
+    let option = null
+    let buffer = []
+    const flush = () => {
+        if (!buffer.length || !question) return (buffer = [])
+        const feedback = buffer[0].startsWith('>')
+        const value = plain(buffer.map((line) => line.replace(/^> ?/, '')).join(' '))
+        buffer = []
+        if (option === 'why') question.explanation = value
+        else if (option && feedback) question.options.at(-1).feedback = value
+        else if (option) question.options.at(-1).text = value
+        else question.prompt = value
+    }
+    text.replace(/<!--[\s\S]*?-->/g, '')
+        .split('\n')
+        .forEach((raw, index) => {
+            const line = raw.trimEnd()
+            const n = index + 1
+            if (/^# /.test(line)) return
+            if (/^## /.test(line)) {
+                flush()
+                option = null
+                question = {
+                    question_id: line.slice(3).trim(),
+                    step_id: chapter_id,
+                    difficulty: 'beginner',
+                    practice_scope: 'lesson',
+                    prompt: '',
+                    options: [],
+                    explanation: '',
+                    scope_note: '',
+                    source_unit_ids: [],
+                    line: n,
+                }
+                questions.push(question)
+                return
+            }
+            if (/^### /.test(line)) {
+                flush()
+                if (!question) return at(n, 'option outside a question')
+                option = line.slice(4).trim()
+                if (option !== 'why')
+                    question.options.push({ option_id: option, text: '', feedback: '' })
+                return
+            }
+            const field =
+                !option && !buffer.length && /^(level|scope|answer|sources):\s*(.+)$/.exec(line)
+            if (field && question) {
+                if (field[1] === 'level') question.difficulty = field[2].trim()
+                if (field[1] === 'scope') question.practice_scope = field[2].trim()
+                if (field[1] === 'answer') question.correct_option_id = field[2].trim()
+                if (field[1] === 'sources')
+                    for (const token of [...field[2].matchAll(/`([^`]+)`/g)].map((m) => m[1])) {
+                        const ref = resolve(token)
+                        if (!ref) at(n, `passage "${token}" not found`)
+                        else {
+                            refs.push(ref)
+                            question.source_unit_ids.push(
+                                ...ref.part_ids.map((id) => `${ref.packet_id}:${id}`),
+                            )
+                        }
+                    }
+                return
+            }
+            if (!line.trim()) return flush()
+            if (buffer.length && line.startsWith('>') !== buffer[0].startsWith('>')) flush()
+            buffer.push(line.trim())
+        })
+    flush()
+    for (const q of questions) {
+        if (!['beginner', 'intermediate', 'expert'].includes(q.difficulty))
+            at(q.line, `unknown level "${q.difficulty}"`)
+        if (!['lesson', 'source_study'].includes(q.practice_scope))
+            at(q.line, `unknown scope "${q.practice_scope}"`)
+        if (!q.prompt) at(q.line, 'no prompt')
+        if (q.options.length < 2) at(q.line, 'fewer than two options')
+        if (!q.options.some((o) => o.option_id === q.correct_option_id))
+            at(q.line, 'answer is not one of the options')
+        if (q.options.some((o) => !o.text)) at(q.line, 'an option has no text')
+        delete q.line
+    }
+    return { questions, refs }
+}
+
 export function compile_chapter(file) {
     const errors = []
     const at = (line, message) => errors.push(`${path.relative(root, file)}:${line}: ${message}`)
@@ -265,11 +361,13 @@ export function compile_chapter(file) {
         if (!order.includes(label))
             at(doc.notes.get(label).line, `footnote [^${label}] is never used`)
 
-    const questions_file = file.replace(/\.md$/, '.questions.json')
-    let questions = []
-    try {
-        questions = JSON.parse(readFileSync(questions_file, 'utf8'))
-    } catch {}
+    const { questions, refs: question_refs } = compile_questions(
+        file.replace(/\.md$/, '.questions.md'),
+        chapter_id,
+        errors,
+    )
+    for (const ref of question_refs)
+        for (const id of ref.part_ids) units.set(`${ref.packet_id}:${id}`, unit(ref.packet_id, id))
 
     return {
         errors,

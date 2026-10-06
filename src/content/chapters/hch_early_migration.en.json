@@ -1497,11 +1497,470 @@
             "source_url": "https://app.turath.io/book/930?page=747",
             "evidence_id": "H-930-747-prep-salim",
             "text": "We arrived [from] Mecca and stayed at al-‘Usba: ‘Umar ibn al-Khattab, Abu ‘Ubayda ibn al-Jarrah, and Salim, the freedman of Abu Hudhayfa. Salim used to lead them in prayer because he knew more Qur’an than any of them."
+        },
+        {
+            "unit_id": "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1",
+            "packet_id": "sp_earlier_exp_h_1681_5917_hs_early_short_2",
+            "part_id": "p1",
+            "text_ar": "<hadeeth-1729>﵃».<hadeeth>\n<hadeeth-1729> <hadeeth>",
+            "kind_ar": "تتمة الخاتمة ورموز الترضي؛ لا خبر إضافي",
+            "speaker_ar": "جهاز نقل المصنف أو تعليقه بحسب الجزء، لا قول الصحابي صاحب الخبر",
+            "book_ar": "صحيح البخاري - ط السلطانية",
+            "citation_ar": "[صحيح البخاري - ط السلطانية، 5/٦٦](https://app.turath.io/book/1681?page=5917)",
+            "source_url": "https://app.turath.io/book/1681?page=5917",
+            "evidence_id": "H-1681-5917-HS-EARLY-SHORT-2",
+            "text": "[May God be pleased with them].” [End of report; transmission markers follow.]"
+        },
+        {
+            "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p1",
+            "packet_id": "sp_earlier_exp_h_930_743_prep_baraa_1",
+            "part_id": "p1",
+            "text_ar": "وَقَالَ الْبُخَارِيُّ: حَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، أَنْبَأَنَا أَبُو إِسْحَاقَ سَمِعَ الْبَرَاءَ قَالَ: ",
+            "kind_ar": "إسناد أو صلة نقل",
+            "speaker_ar": "ناقل الإسناد كما يظهر في المصدر؛ لا قول صاحب المتن نفسه",
+            "book_ar": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+            "citation_ar": "[السيرة النبوية من البداية والنهاية - ت عبد الواحد، 2/221](https://app.turath.io/book/930?page=743)",
+            "source_url": "https://app.turath.io/book/930?page=743",
+            "evidence_id": "H-930-743-prep-baraa-1",
+            "text": "Al-Bukhari said: Abu al-Walid told us; Shu‘ba told us; Abu Ishaq informed us that he heard al-Bara say:"
+        },
+        {
+            "unit_id": "sp_earlier_exp_h_930_743_prep_baraa_1:p2",
+            "packet_id": "sp_earlier_exp_h_930_743_prep_baraa_1",
+            "part_id": "p2",
+            "text_ar": "أَوَّلُ مَنْ قَدِمَ عَلَيْنَا مُصْعَبُ بْنُ عُمَيْرٍ وَابْنُ أُمِّ مَكْتُومٍ، ثُمَّ قَدِمَ عَلَيْنَا عَمَّارٌ وَبِلَالٌ.",
+            "kind_ar": "خبر تاريخي",
+            "speaker_ar": "البراء؛ البخاري في نقل ابن كثير",
+            "book_ar": "السيرة النبوية من البداية والنهاية - ت عبد الواحد",
+            "citation_ar": "[السيرة النبوية من البداية والنهاية - ت عبد الواحد، 2/221](https://app.turath.io/book/930?page=743)",
+            "source_url": "https://app.turath.io/book/930?page=743",
+            "evidence_id": "H-930-743-prep-baraa-1",
+            "text": "The first to come to us were Mus‘ab ibn ‘Umayr and Ibn Umm Maktum; then ‘Ammar and Bilal came to us."
         }
     ],
     "footnotes": [],
     "objectives": [],
     "open_issues": [],
     "deferred_questions": [],
-    "questions": []
+    "questions": [
+        {
+            "question_id": "hch_early_migration_q_family",
+            "step_id": "hch_early_migration",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "What happened to Abu Salama’s family when they first tried to leave?",
+            "options": [
+                {
+                    "option_id": "all",
+                    "text": "They all traveled on a single camel as far as Quba.",
+                    "feedback": "In Umm Salama’s testimony, the family was separated when their relatives stopped them."
+                },
+                {
+                    "option_id": "split",
+                    "text": "Abu Salama went on; Umm Salama was detained, and Abu Salama’s relatives took her son.",
+                    "feedback": "Correct: the husband left, and the mother was separated from her son."
+                },
+                {
+                    "option_id": "mother",
+                    "text": "Umm Salama left first with the child, while Abu Salama remained in Mecca.",
+                    "feedback": "Umm Salama relates that Abu Salama was the one who went on to Medina first."
+                }
+            ],
+            "explanation": "Banu al-Mughira took the mother, Banu ‘Abd al-Asad took the child, and Abu Salama went on.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_23833_491_prep_780:p1",
+                "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p2",
+                "sp_earlier_exp_h_23833_493_prep_cont:p1"
+            ],
+            "correct_option_id": "split"
+        },
+        {
+            "question_id": "hch_early_migration_q_reunion",
+            "step_id": "hch_early_migration",
+            "difficulty": "intermediate",
+            "practice_scope": "lesson",
+            "prompt": "How did Umm Salama and her son reach Abu Salama after their separation?",
+            "options": [
+                {
+                    "option_id": "with_umar",
+                    "text": "‘Umar accompanied them from his meeting place with ‘Ayyash to Quba.",
+                    "feedback": "The story of ‘Umar and ‘Ayyash is a separate account, not an account of Umm Salama’s escort."
+                },
+                {
+                    "option_id": "uthman",
+                    "text": "Her son was returned to her; then ‘Uthman ibn Talha helped her on the road and pointed out where her husband was staying in Quba.",
+                    "feedback": "Correct: she relates that she departed with her son after he was returned to her, and ‘Uthman accompanied her."
+                },
+                {
+                    "option_id": "together",
+                    "text": "She left with her husband at the outset and was never separated from him.",
+                    "feedback": "Umm Salama relates that she was separated from her husband and son before she rejoined him."
+                }
+            ],
+            "explanation": "The account of her departure with her son goes on to describe ‘Uthman helping her and their arrival at Quba.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_23833_491_prep_780:p1",
+                "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p2",
+                "sp_earlier_exp_h_23833_493_prep_cont:p1"
+            ],
+            "correct_option_id": "uthman"
+        },
+        {
+            "question_id": "hch_early_migration_q_duration",
+            "step_id": "hch_early_migration",
+            "difficulty": "intermediate",
+            "practice_scope": "source_study",
+            "prompt": "How did Umm Salama qualify the length of time she wept at al-Abtah?",
+            "options": [
+                {
+                    "option_id": "exact",
+                    "text": "Exactly one full year, ending on a known day.",
+                    "feedback": "The text says a year or nearly that long, without naming a particular day."
+                },
+                {
+                    "option_id": "approx",
+                    "text": "A year or nearly that long.",
+                    "feedback": "Correct: the phrase is approximate, not a date with a day and month."
+                },
+                {
+                    "option_id": "three",
+                    "text": "Only three nights.",
+                    "feedback": "That is not how Umm Salama describes the length of their separation."
+                }
+            ],
+            "explanation": "In the reading Umm Salama says, “a year or nearly that long.”",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_23833_491_prep_780:p1",
+                "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p2",
+                "sp_earlier_exp_h_23833_493_prep_cont:p1"
+            ],
+            "correct_option_id": "approx"
+        },
+        {
+            "question_id": "hch_early_migration_q_first",
+            "step_id": "hch_early_migration",
+            "difficulty": "intermediate",
+            "practice_scope": "source_study",
+            "prompt": "How does Ibn Ishaq’s account of Abu Salama differ from al-Bara’s wording, ‘the first to come to us’?",
+            "options": [
+                {
+                    "option_id": "erase",
+                    "text": "Discard one text, because both refer without qualification to all emigrants.",
+                    "feedback": "Each text has its own qualification: Ibn Ishaq’s wording and al-Bara’s audience."
+                },
+                {
+                    "option_id": "distinct",
+                    "text": "Keep Abu Salama’s precedence within Ibn Ishaq’s qualification and understand “to us” in al-Bara’s words from the perspective of those addressed.",
+                    "feedback": "Correct: the different perspectives do not license applying either statement to everyone."
+                },
+                {
+                    "option_id": "together",
+                    "text": "We conclude that Abu Salama and Mus‘ab arrived together on the same day.",
+                    "feedback": "Neither text gives a single shared date of arrival."
+                }
+            ],
+            "explanation": "Ibn Ishaq qualified his description of Abu Salama, and al-Bara specified the recipients by saying “to us.”",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_23833_491_prep_780:p1",
+                "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p2",
+                "sp_earlier_exp_h_23833_493_prep_cont:p1",
+                "sp_earlier_exp_h_1681_5917_hs_early_short_1:p1",
+                "sp_earlier_exp_h_1681_5917_hs_early_short_1:p2",
+                "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1",
+                "sp_earlier_exp_h_930_743_prep_baraa_1:p1",
+                "sp_earlier_exp_h_930_743_prep_baraa_1:p2",
+                "sp_earlier_exp_h_930_743_prep_baraa_2:p1",
+                "sp_earlier_exp_h_930_744_prep_baraa_2:p1",
+                "sp_earlier_exp_h_7478_980_ra_musa_early:p1",
+                "sp_earlier_exp_h_7478_980_ra_musa_early:p2",
+                "sp_earlier_exp_h_7478_981_ra_musa_early:p1",
+                "sp_earlier_exp_h_23833_493_prep_781:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p2"
+            ],
+            "correct_option_id": "distinct"
+        },
+        {
+            "question_id": "hch_early_migration_q_woman",
+            "step_id": "hch_early_migration",
+            "difficulty": "expert",
+            "practice_scope": "source_study",
+            "prompt": "Which wording preserves the variation in the account of the first woman in a litter alongside Umm Salama’s account of separation?",
+            "options": [
+                {
+                    "option_id": "certain",
+                    "text": "The two texts establish that Umm Salama accompanied Abu Salama all the way to Medina when he first left.",
+                    "feedback": "Umm Salama’s account describes their separation at the outset."
+                },
+                {
+                    "option_id": "two",
+                    "text": "Musa’s route names Umm Salama and also reports a view naming Umm ‘Abd Allah; this list does not imply that Umm Salama traveled on the day her husband left.",
+                    "feedback": "Correct: the account itself includes both views and ends with a reservation."
+                },
+                {
+                    "option_id": "none",
+                    "text": "No source names any woman among the earliest arrivals.",
+                    "feedback": "The account names Umm Salama and Umm ‘Abd Allah; Ibn Ishaq also describes Layla bint Abi Hathma."
+                }
+            ],
+            "explanation": "Musa’s route says “some people say” and then “God knows best”; Umm Salama’s testimony describes her separation from her husband.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_1681_5917_hs_early_short_1:p1",
+                "sp_earlier_exp_h_1681_5917_hs_early_short_1:p2",
+                "sp_earlier_exp_h_1681_5917_hs_early_short_2:p1",
+                "sp_earlier_exp_h_930_743_prep_baraa_1:p1",
+                "sp_earlier_exp_h_930_743_prep_baraa_1:p2",
+                "sp_earlier_exp_h_930_743_prep_baraa_2:p1",
+                "sp_earlier_exp_h_930_744_prep_baraa_2:p1",
+                "sp_earlier_exp_h_7478_980_ra_musa_early:p1",
+                "sp_earlier_exp_h_7478_980_ra_musa_early:p2",
+                "sp_earlier_exp_h_7478_981_ra_musa_early:p1",
+                "sp_earlier_exp_h_23833_493_prep_781:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p2",
+                "sp_earlier_exp_h_23833_491_prep_780:p1",
+                "sp_earlier_exp_h_930_737_prep_abu_salama_date:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p1",
+                "sp_earlier_exp_h_23833_492_prep_cont:p2",
+                "sp_earlier_exp_h_23833_493_prep_cont:p1"
+            ],
+            "correct_option_id": "two"
+        },
+        {
+            "question_id": "hch_early_migration_q_appointment",
+            "step_id": "hch_early_migration",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "According to ‘Umar’s account, who arrived at the rendezvous and what had the three agreed?",
+            "options": [
+                {
+                    "option_id": "three",
+                    "text": "‘Umar, ‘Ayyash and Hisham all arrived and waited for anyone missing.",
+                    "feedback": "The account says Hisham did not arrive and the others were to proceed."
+                },
+                {
+                    "option_id": "two",
+                    "text": "‘Umar and ‘Ayyash arrived and proceeded as the three had agreed if one of them was detained.",
+                    "feedback": "Correct: Hisham was detained, and his companions did not wait for him."
+                },
+                {
+                    "option_id": "ayyash",
+                    "text": "Only ‘Ayyash arrived; he did not proceed until everyone had gathered.",
+                    "feedback": "‘Umar arrived with him, and they proceeded after Hisham was detained."
+                }
+            ],
+            "explanation": "‘Umar relates that they would regard anyone not there in the morning as detained, and the other two would go on.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_23833_497_prep_785:p1",
+                "sp_earlier_exp_h_23833_497_prep_785:p2",
+                "sp_earlier_exp_h_23833_497_prep_785:p3",
+                "sp_earlier_exp_h_23833_497_prep_786:p1",
+                "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1",
+                "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2",
+                "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1",
+                "sp_earlier_exp_h_23833_498_prep_cont:p1",
+                "sp_earlier_exp_h_23833_498_prep_cont:p2",
+                "sp_earlier_exp_h_23833_498_prep_cont:p3"
+            ],
+            "correct_option_id": "two"
+        },
+        {
+            "question_id": "hch_early_migration_q_ayyash",
+            "step_id": "hch_early_migration",
+            "difficulty": "intermediate",
+            "practice_scope": "lesson",
+            "prompt": "What did ‘Umar offer ‘Ayyash when he wanted to return with Abu Jahl and al-Harith?",
+            "options": [
+                {
+                    "option_id": "money_camel",
+                    "text": "Half his wealth if he would stay, then his she-camel when he insisted on returning.",
+                    "feedback": "Correct: the warning and offer preceded his being taken in bonds."
+                },
+                {
+                    "option_id": "gold",
+                    "text": "Measures of gold and two garments so he could travel freely.",
+                    "feedback": "Those details belong to the other route about Suhayb, not to ‘Ayyash’s account."
+                },
+                {
+                    "option_id": "nothing",
+                    "text": "He gave him no advice and offered him nothing.",
+                    "feedback": "‘Umar relates that he advised him and then offered the wealth and the she-camel."
+                }
+            ],
+            "explanation": "‘Umar warned ‘Ayyash and offered him half his wealth and then his she-camel, but ‘Ayyash left with the two men.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_23833_497_prep_785:p1",
+                "sp_earlier_exp_h_23833_497_prep_785:p2",
+                "sp_earlier_exp_h_23833_497_prep_785:p3",
+                "sp_earlier_exp_h_23833_497_prep_786:p1",
+                "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1",
+                "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2",
+                "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1",
+                "sp_earlier_exp_h_23833_498_prep_cont:p1",
+                "sp_earlier_exp_h_23833_498_prep_cont:p2",
+                "sp_earlier_exp_h_23833_498_prep_cont:p3"
+            ],
+            "correct_option_id": "money_camel"
+        },
+        {
+            "question_id": "hch_early_migration_q_two_voices",
+            "step_id": "hch_early_migration",
+            "difficulty": "expert",
+            "practice_scope": "source_study",
+            "prompt": "To whom is the addition about displaying ‘Ayyash bound before the people of Mecca attributed?",
+            "options": [
+                {
+                    "option_id": "umar",
+                    "text": "To ‘Umar in the same directly transmitted statement.",
+                    "feedback": "The addition begins with a new link of transmission from some of ‘Ayyash’s family."
+                },
+                {
+                    "option_id": "family",
+                    "text": "To unnamed members of ‘Ayyash’s family in Ibn Ishaq’s transmission.",
+                    "feedback": "Correct: the text separates the addition from ‘Ayyash’s family from ‘Umar’s words."
+                },
+                {
+                    "option_id": "suhayb",
+                    "text": "To Suhayb in Abu ‘Uthman’s report.",
+                    "feedback": "Abu ‘Uthman’s report concerns Suhayb, not ‘Ayyash."
+                }
+            ],
+            "explanation": "Ibn Ishaq resumes the account of this display by saying that one of ‘Ayyash’s family told him of it.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_23833_497_prep_785:p1",
+                "sp_earlier_exp_h_23833_497_prep_785:p2",
+                "sp_earlier_exp_h_23833_497_prep_785:p3",
+                "sp_earlier_exp_h_23833_497_prep_786:p1",
+                "sp_earlier_exp_h_7478_982_ra_umar_hisham:p1",
+                "sp_earlier_exp_h_7478_982_ra_umar_hisham:p2",
+                "sp_earlier_exp_h_7478_983_ra_umar_hisham:p1",
+                "sp_earlier_exp_h_23833_498_prep_cont:p1",
+                "sp_earlier_exp_h_23833_498_prep_cont:p2",
+                "sp_earlier_exp_h_23833_498_prep_cont:p3"
+            ],
+            "correct_option_id": "family"
+        },
+        {
+            "question_id": "hch_early_migration_q_suhayb",
+            "step_id": "hch_early_migration",
+            "difficulty": "intermediate",
+            "practice_scope": "lesson",
+            "prompt": "What did Suhayb offer in Abu ‘Uthman’s report in Ibn Hisham, without importing details from the other route?",
+            "options": [
+                {
+                    "option_id": "wealth",
+                    "text": "His wealth in return for their letting him go.",
+                    "feedback": "Correct: the report mentions his wealth without specifying measures of gold or the two garments."
+                },
+                {
+                    "option_id": "camel",
+                    "text": "‘Umar’s she-camel so that he could return to Mecca.",
+                    "feedback": "The she-camel belongs to ‘Ayyash’s account, not the report about Suhayb."
+                },
+                {
+                    "option_id": "clothes",
+                    "text": "Measures of gold and two garments.",
+                    "feedback": "The gold and garments occur in the route cited by Ibn Kathir, not in Abu ‘Uthman’s report in Ibn Hisham."
+                }
+            ],
+            "explanation": "Abu ‘Uthman’s report says he gave them his wealth; the measures of gold and two garments occur in the route about Suhayb quoted by Ibn Kathir.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_23833_500_prep_791:p2",
+                "sp_earlier_exp_h_23833_500_prep_791:p3",
+                "sp_earlier_exp_h_930_745_prep_suhayb:p1",
+                "sp_earlier_exp_h_930_745_prep_suhayb:p2",
+                "sp_earlier_exp_h_930_746_prep_suhayb:p1"
+            ],
+            "correct_option_id": "wealth"
+        },
+        {
+            "question_id": "hch_early_migration_q_salim",
+            "step_id": "hch_early_migration",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "Why did Salim lead the group in prayer in Ibn ‘Umar’s account in al-Bayhaqi?",
+            "options": [
+                {
+                    "option_id": "age",
+                    "text": "Because he was the oldest.",
+                    "feedback": "The account does not give age as the reason."
+                },
+                {
+                    "option_id": "host",
+                    "text": "Because he owned the house in which they stayed.",
+                    "feedback": "The account does not say he was their host."
+                },
+                {
+                    "option_id": "quran",
+                    "text": "Because he knew the most Qur’an.",
+                    "feedback": "Correct: that is the reason given in Ibn ‘Umar’s text."
+                }
+            ],
+            "explanation": "Ibn ‘Umar links Salim’s leading the prayer to his knowing more Qur’an than the others.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_7478_983_ra_salim:p1",
+                "sp_earlier_exp_h_7478_984_ra_salim:p1",
+                "sp_earlier_exp_h_7478_984_ra_salim:p2",
+                "sp_earlier_exp_h_930_747_prep_salim:p1",
+                "sp_earlier_exp_h_930_747_prep_salim:p2",
+                "sp_earlier_exp_h_146_237_permission:p1",
+                "sp_earlier_exp_h_146_237_permission:p2",
+                "sp_earlier_exp_h_146_238_early_migrants:p1"
+            ],
+            "correct_option_id": "quran"
+        },
+        {
+            "question_id": "hch_early_migration_q_places",
+            "step_id": "hch_early_migration",
+            "difficulty": "expert",
+            "practice_scope": "source_study",
+            "prompt": "Which place is named in Ibn Umar’s report as transmitted by al-Bayhaqi, and which place is named in the continuation by Ibn Sa‘d?",
+            "options": [
+                {
+                    "option_id": "same",
+                    "text": "Both texts name only al-‘Usba and give the same list of people.",
+                    "feedback": "Al-Bayhaqi names al-‘Usba and Ibn Sa‘d names Quba; their lists are not worded identically."
+                },
+                {
+                    "option_id": "different",
+                    "text": "Ibn ‘Umar’s report names al-‘Usba, and Ibn Sa‘d’s continuation mentions Quba; the wording alone does not establish that the two places are identical.",
+                    "feedback": "Correct: retain each report’s qualification of the location."
+                },
+                {
+                    "option_id": "no_place",
+                    "text": "Neither names a location.",
+                    "feedback": "One says al-‘Usba and the other says Quba."
+                }
+            ],
+            "explanation": "Each report describes the location in its own words; mentioning Quba does not prove that the name al-‘Usba refers to it in every route.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_earlier_exp_h_7478_983_ra_salim:p1",
+                "sp_earlier_exp_h_7478_984_ra_salim:p1",
+                "sp_earlier_exp_h_7478_984_ra_salim:p2",
+                "sp_earlier_exp_h_930_747_prep_salim:p1",
+                "sp_earlier_exp_h_930_747_prep_salim:p2",
+                "sp_earlier_exp_h_146_237_permission:p1",
+                "sp_earlier_exp_h_146_237_permission:p2",
+                "sp_earlier_exp_h_146_238_early_migrants:p1"
+            ],
+            "correct_option_id": "different"
+        }
+    ]
 }

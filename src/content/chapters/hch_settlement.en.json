@@ -2254,5 +2254,437 @@
     "objectives": [],
     "open_issues": [],
     "deferred_questions": [],
-    "questions": []
+    "questions": [
+        {
+            "question_id": "hch_settlement_q_1",
+            "step_id": "hch_settlement",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "Whom does Ibn Ishaq except from his statement that no migrants remained in Mecca?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "Those subjected to trial or held captive",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "Everyone who lived in Medina",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "The occupants of the named houses",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "Ibn Ishaq excludes those who were persecuted and those who were detained from his statement about the Muhajirun remaining in Makkah.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_01:p1",
+                "sp_settlement_chapter_01:p2",
+                "sp_settlement_chapter_02:p1",
+                "sp_settlement_chapter_03:p1",
+                "sp_settlement_chapter_03:p2",
+                "sp_settlement_chapter_04:p1",
+                "sp_settlement_chapter_20:p1",
+                "sp_settlement_chapter_21:p1",
+                "sp_settlement_chapter_24:p1"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_2",
+            "step_id": "hch_settlement",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "Whom did the Prophet ﷺ send in Ibn Hibban’s narrative to bring Sawda and his daughters?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "Zayd ibn Haritha and Abu Rafi",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "Abd Allah ibn Abi Bakr alone",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "Bilal and Abu Bakr",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "Ibn Hibban recounts that Zayd ibn Haritha and Abu Rafi‘ were sent to Makkah to bring Sawda and the Prophet’s ﷺ daughters; he then mentions Abu Bakr sending Ibn Uraiqit concerning his family.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_01:p1",
+                "sp_settlement_chapter_01:p2",
+                "sp_settlement_chapter_02:p1",
+                "sp_settlement_chapter_03:p1",
+                "sp_settlement_chapter_03:p2",
+                "sp_settlement_chapter_04:p1",
+                "sp_settlement_chapter_20:p1",
+                "sp_settlement_chapter_21:p1",
+                "sp_settlement_chapter_24:p1"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_3",
+            "step_id": "hch_settlement",
+            "difficulty": "intermediate",
+            "practice_scope": "source_study",
+            "prompt": "Does this passage mention Abd al-Rahman ibn Awf being made a brother to Sad ibn al-Rabi?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "No; it mentions him with Uthman",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "Yes; it recounts their conversation in the market",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "Yes; it calls Sad his brother",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "In the continuation of Ibn Hibban’s report, Abd al-Rahman ibn Awf is mentioned, followed by the statement that he was paired with Uthman; this passage does not mention him being paired with Sa‘d ibn al-Rabi‘.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_05:p1",
+                "sp_settlement_chapter_05:p2",
+                "sp_settlement_chapter_05:p3",
+                "sp_settlement_chapter_05:p4",
+                "sp_settlement_chapter_05:p5",
+                "sp_settlement_chapter_05:p6",
+                "sp_settlement_chapter_05:p7",
+                "sp_settlement_chapter_05:p8",
+                "sp_settlement_chapter_05:p9",
+                "sp_settlement_chapter_05:p10",
+                "sp_settlement_chapter_05:p11",
+                "sp_settlement_chapter_05:p12",
+                "sp_settlement_chapter_05:p13",
+                "sp_settlement_chapter_05:p14",
+                "sp_settlement_chapter_05:p15",
+                "sp_settlement_chapter_05:p16",
+                "sp_settlement_chapter_05:p17",
+                "sp_settlement_chapter_05:p18",
+                "sp_settlement_chapter_06:p1",
+                "sp_settlement_chapter_06:p2",
+                "sp_settlement_chapter_06:p3",
+                "sp_settlement_chapter_06:p4",
+                "sp_settlement_chapter_06:p5",
+                "sp_settlement_chapter_06:p6",
+                "sp_settlement_chapter_06:p7",
+                "sp_settlement_chapter_06:p8",
+                "sp_settlement_chapter_06:p9",
+                "sp_settlement_chapter_06:p10",
+                "sp_settlement_chapter_06:p11",
+                "sp_settlement_chapter_06:p12",
+                "sp_settlement_chapter_06:p13",
+                "sp_settlement_chapter_06:p14",
+                "sp_settlement_chapter_06:p15",
+                "sp_settlement_chapter_06:p16",
+                "sp_settlement_chapter_06:p17",
+                "sp_settlement_chapter_06:p18",
+                "sp_settlement_chapter_06:p19",
+                "sp_settlement_chapter_06:p20",
+                "sp_settlement_chapter_06:p21",
+                "sp_settlement_chapter_06:p22",
+                "sp_settlement_chapter_22:p1",
+                "sp_settlement_chapter_23:p1",
+                "sp_settlement_chapter_23:p2",
+                "sp_settlement_chapter_23:p3",
+                "sp_settlement_chapter_23:p4",
+                "sp_settlement_chapter_23:p5",
+                "sp_settlement_chapter_23:p6",
+                "sp_settlement_chapter_23:p7",
+                "sp_settlement_chapter_23:p8",
+                "sp_settlement_chapter_23:p9",
+                "sp_settlement_chapter_23:p10",
+                "sp_settlement_chapter_23:p11",
+                "sp_settlement_chapter_23:p12",
+                "sp_settlement_chapter_23:p13",
+                "sp_settlement_chapter_23:p14"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_4",
+            "step_id": "hch_settlement",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "Where does Asma say she gave birth to Abd Allah ibn al-Zubayr?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "At Quba",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "In Mecca",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "At al-Juhfa",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "Asma says that she settled in Quba and gave birth there to Abd Allah ibn al-Zubayr, then brought him to the Prophet ﷺ.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_07:p1",
+                "sp_settlement_chapter_07:p2",
+                "sp_settlement_chapter_08:p1",
+                "sp_settlement_chapter_08:p2",
+                "sp_settlement_chapter_09:p1",
+                "sp_settlement_chapter_09:p2"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_5",
+            "step_id": "hch_settlement",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "What does the follow-up report add about Asma?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "That she migrated while pregnant",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "That she specified the day of birth",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "That she named the location of her house",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "Al-Bukhari’s corroborating report adds that Asma migrated to the Prophet ﷺ while pregnant; it does not include the birth and tahnik scene found in the other report.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_07:p1",
+                "sp_settlement_chapter_07:p2",
+                "sp_settlement_chapter_08:p1",
+                "sp_settlement_chapter_08:p2",
+                "sp_settlement_chapter_09:p1",
+                "sp_settlement_chapter_09:p2"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_6",
+            "step_id": "hch_settlement",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "What does Aisha’s account relate about the newborn?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "A date the Prophet ﷺ chewed and placed in the baby’s mouth",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "The prayer to move the fever to al-Juhfa",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "The account of brotherhood with Uthman",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "In Aisha’s report, the Prophet ﷺ took a date, chewed it, then placed it in Abd Allah ibn al-Zubayr’s mouth; this report does not state where he was born.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_07:p1",
+                "sp_settlement_chapter_07:p2",
+                "sp_settlement_chapter_08:p1",
+                "sp_settlement_chapter_08:p2",
+                "sp_settlement_chapter_09:p1",
+                "sp_settlement_chapter_09:p2"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_7",
+            "step_id": "hch_settlement",
+            "difficulty": "intermediate",
+            "practice_scope": "source_study",
+            "prompt": "To whom does the preference for the first year belong in the reading shown?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "Ibn Hajar, in his commentary",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "An explicit date in Asma’s words",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "According to al-Waqidi",
+                    "feedback": "According to Ibn Hajar, al-Waqidi and those who followed him were certain it was the second year; they did not prefer the first year."
+                }
+            ],
+            "explanation": "Ibn Hajar considers Abd Allah ibn al-Zubayr’s birth to have been in the first year, contrary to al-Waqidi and those who followed him, who were certain it was in the second year. This is Ibn Hajar’s preference in his commentary, not an explicit date in Asma’s words.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_10:p1",
+                "sp_settlement_chapter_10:p2",
+                "sp_settlement_chapter_10:p3",
+                "sp_settlement_chapter_11:p1",
+                "sp_settlement_chapter_11:p2",
+                "sp_settlement_chapter_11:p3"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_8",
+            "step_id": "hch_settlement",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "Who spoke the verses longing for the valley and Majanna?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "Bilal",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "Abu Bakr",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "The Prophet ﷺ",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "Aisha attributes the verses about al-Wadi and Majanna to Bilal, and mentions Abu Bakr’s verses about the fever before them.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_12:p1",
+                "sp_settlement_chapter_12:p2",
+                "sp_settlement_chapter_12:p3",
+                "sp_settlement_chapter_12:p4",
+                "sp_settlement_chapter_12:p5",
+                "sp_settlement_chapter_12:p6",
+                "sp_settlement_chapter_12:p7",
+                "sp_settlement_chapter_13:p1",
+                "sp_settlement_chapter_13:p2",
+                "sp_settlement_chapter_14:p1",
+                "sp_settlement_chapter_14:p2",
+                "sp_settlement_chapter_14:p3",
+                "sp_settlement_chapter_15:p1"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_9",
+            "step_id": "hch_settlement",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "What does the Prophet’s prayer ask for in Muslim’s version?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "Love of Medina, its health, blessing in its measures, and transfer of the fever",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "A date for the birth of Ibn al-Zubayr",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "The migration of all migrants with their possessions",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "After describing the epidemic in Madinah and the illness of Abu Bakr and Bilal, Aisha recounts the Prophet’s ﷺ prayer for love of Madinah, its health, blessing in its sa‘ and mudd, and for its fever to be moved to al-Juhfa.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_12:p1",
+                "sp_settlement_chapter_12:p2",
+                "sp_settlement_chapter_12:p3",
+                "sp_settlement_chapter_12:p4",
+                "sp_settlement_chapter_12:p5",
+                "sp_settlement_chapter_12:p6",
+                "sp_settlement_chapter_12:p7",
+                "sp_settlement_chapter_13:p1",
+                "sp_settlement_chapter_13:p2",
+                "sp_settlement_chapter_14:p1",
+                "sp_settlement_chapter_14:p2",
+                "sp_settlement_chapter_14:p3",
+                "sp_settlement_chapter_15:p1"
+            ],
+            "correct_option_id": "right"
+        },
+        {
+            "question_id": "hch_settlement_q_10",
+            "step_id": "hch_settlement",
+            "difficulty": "intermediate",
+            "practice_scope": "source_study",
+            "prompt": "To whom are the additional verses attributed in Ibn Hajar’s quotation from Ibn Ishaq?",
+            "options": [
+                {
+                    "option_id": "right",
+                    "text": "Amir ibn Fuhayra",
+                    "feedback": "Correct; this is what the specified reading indicates."
+                },
+                {
+                    "option_id": "other",
+                    "text": "Bilal alone",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                },
+                {
+                    "option_id": "third",
+                    "text": "Al-Khattabi",
+                    "feedback": "That is not what the selected text says; check who is speaking and the limits of the account."
+                }
+            ],
+            "explanation": "Ibn Hajar transmits from Ibn Ishaq an additional account in which Aisha asks Amir ibn Fuhayra and he recites his verses; he then notes that Malik’s chain for this addition from Aisha is disconnected.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_settlement_chapter_16:p1",
+                "sp_settlement_chapter_16:p2",
+                "sp_settlement_chapter_16:p3",
+                "sp_settlement_chapter_16:p4",
+                "sp_settlement_chapter_17:p1",
+                "sp_settlement_chapter_17:p2",
+                "sp_settlement_chapter_17:p3",
+                "sp_settlement_chapter_18:p1",
+                "sp_settlement_chapter_18:p2",
+                "sp_settlement_chapter_18:p3",
+                "sp_settlement_chapter_18:p4",
+                "sp_settlement_chapter_18:p5",
+                "sp_settlement_chapter_18:p6",
+                "sp_settlement_chapter_18:p7",
+                "sp_settlement_chapter_19:p1",
+                "sp_settlement_chapter_19:p2",
+                "sp_settlement_chapter_19:p3",
+                "sp_settlement_chapter_19:p4"
+            ],
+            "correct_option_id": "right"
+        }
+    ]
 }

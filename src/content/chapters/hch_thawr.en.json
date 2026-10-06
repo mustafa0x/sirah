@@ -1459,11 +1459,338 @@
             "source_url": "https://app.turath.io/book/23833?page=509",
             "evidence_id": "H-23833-509-809",
             "text": null
+        },
+        {
+            "unit_id": "sp_thawr_exp_h_1681_5914_hs_cave_1:p3",
+            "packet_id": "sp_thawr_exp_h_1681_5914_hs_cave_1",
+            "part_id": "p3",
+            "text_ar": "<hadeeth>\n<hadeeth-1622> <hadeeth>",
+            "kind_ar": "وسم رقمي ختامي",
+            "speaker_ar": "وسم مصدري لا متكلم",
+            "book_ar": "صحيح البخاري - ط السلطانية",
+            "citation_ar": "[صحيح البخاري - ط السلطانية، 5/65](https://app.turath.io/book/1681?page=5914)",
+            "source_url": "https://app.turath.io/book/1681?page=5914",
+            "evidence_id": "H-1681-5914-HS-CAVE-1",
+            "text": null
         }
     ],
     "footnotes": [],
     "objectives": [],
     "open_issues": [],
     "deferred_questions": [],
-    "questions": []
+    "questions": [
+        {
+            "question_id": "hch_thawr_q_news",
+            "step_id": "hch_thawr",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "Who brought the Prophet ﷺ and Abu Bakr news of what Quraysh were plotting against them?",
+            "options": [
+                {
+                    "option_id": "amir",
+                    "text": "Amir ibn Fuhayrah.",
+                    "feedback": "Amir brought the sheep and milk; Abd Allah ibn Abi Bakr brought the news."
+                },
+                {
+                    "option_id": "abdullah",
+                    "text": "Abd Allah ibn Abi Bakr.",
+                    "feedback": "Correct; he remembered what he heard in Makkah and brought them the news at night."
+                },
+                {
+                    "option_id": "guide",
+                    "text": "The guide they hired.",
+                    "feedback": "The guide was due to bring the two riding camels and then lead the party along the route; bringing news was Abd Allah’s task."
+                }
+            ],
+            "explanation": "Abd Allah heard what Quraysh were planning in Makkah, remembered it, and returned to the cave with the news when darkness fell.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_thawr_support:p1",
+                "sp_guide_bukhari_hire:p1",
+                "sp_guide_bukhari_coast:p1"
+            ],
+            "correct_option_id": "abdullah"
+        },
+        {
+            "question_id": "hch_thawr_q_milk",
+            "step_id": "hch_thawr",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "How did Amir ibn Fuhayrah help the Prophet ﷺ and Abu Bakr during their stay in the cave?",
+            "options": [
+                {
+                    "option_id": "milk",
+                    "text": "He brought them sheep that supplied them with milk.",
+                    "feedback": "Correct; he tended the sheep and brought them to the two men at night, on each of the three nights."
+                },
+                {
+                    "option_id": "news",
+                    "text": "He brought them news of Quraysh’s plots in Makkah.",
+                    "feedback": "Bringing news was Abd Allah ibn Abi Bakr’s task; Amir brought the sheep and milk."
+                },
+                {
+                    "option_id": "camels",
+                    "text": "He kept their two riding camels until it was time to depart.",
+                    "feedback": "The Prophet ﷺ and Abu Bakr entrusted the two camels to the guide; Amir helped them with the sheep and milk."
+                }
+            ],
+            "explanation": "Amir brought the sheep after part of the night had passed, supplying them with milk, then called to the sheep at dawn while it was still dark.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_thawr_support:p1",
+                "sp_guide_bukhari_hire:p1",
+                "sp_guide_bukhari_coast:p1"
+            ],
+            "correct_option_id": "milk"
+        },
+        {
+            "question_id": "hch_thawr_q_night_and_morning",
+            "step_id": "hch_thawr",
+            "difficulty": "intermediate",
+            "practice_scope": "lesson",
+            "prompt": "Abd Allah appeared among Quraysh in the morning as though he had spent the night in Makkah. Where had he actually spent it?",
+            "options": [
+                {
+                    "option_id": "makkah_night",
+                    "text": "He spent the night in Makkah, visited the cave by day, and returned before evening.",
+                    "feedback": "He spent the night with the Prophet ﷺ and Abu Bakr, not in Makkah; he returned to them with the news when darkness fell."
+                },
+                {
+                    "option_id": "evening_return",
+                    "text": "He spent the night in the cave, then returned to Makkah as darkness fell.",
+                    "feedback": "His evening return went in the opposite direction: from Makkah to the cave, carrying news."
+                },
+                {
+                    "option_id": "cave_night",
+                    "text": "He spent the night with them in the cave, then left in the last part of the night to be in Makkah in the morning.",
+                    "feedback": "Correct; appearances differed from what had happened: he was among Quraysh in the morning but had spent the night with the Prophet ﷺ and Abu Bakr."
+                }
+            ],
+            "explanation": "Abd Allah’s presence among Quraysh in the morning suggested that he had spent the night in Makkah, but he had been with the Prophet ﷺ and Abu Bakr before leaving in the last part of the night.",
+            "scope_note": "",
+            "source_unit_ids": ["sp_thawr_support:p1"],
+            "correct_option_id": "cave_night"
+        },
+        {
+            "question_id": "hch_thawr_q_fear",
+            "step_id": "hch_thawr",
+            "difficulty": "beginner",
+            "practice_scope": "lesson",
+            "prompt": "What did Abu Bakr fear when he saw the men’s feet at the cave?",
+            "options": [
+                {
+                    "option_id": "guide_late",
+                    "text": "That the guide would be late with the two riding camels.",
+                    "feedback": "The appointment with the guide belongs to another part of the story; Abu Bakr’s fear here was that the men would see them."
+                },
+                {
+                    "option_id": "discovery",
+                    "text": "That one of the men would see them if he lowered his gaze.",
+                    "feedback": "Correct; he saw their feet and feared that a downward glance would reveal the two of them."
+                },
+                {
+                    "option_id": "news_stops",
+                    "text": "That news of events in Makkah would stop reaching them.",
+                    "feedback": "Bringing news was Abd Allah’s task; this scene concerns the danger of one of the men seeing them."
+                }
+            ],
+            "explanation": "When Abu Bakr saw their feet, he feared that one of the men would look down and see them. The Prophet ﷺ reassured him that they were two and Allah was their third.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p3"
+            ],
+            "correct_option_id": "discovery"
+        },
+        {
+            "question_id": "hch_thawr_q_reassurance",
+            "step_id": "hch_thawr",
+            "difficulty": "intermediate",
+            "practice_scope": "lesson",
+            "prompt": "Which comparison describes the reassurance in the verse and the al-Bukhari hadith quoted in the story?",
+            "options": [
+                {
+                    "option_id": "distinct_words",
+                    "text": "Both recall Allah’s presence: the verse says not to grieve, while the hadith says Allah is their third.",
+                    "feedback": "Correct; their reassurance is similar in meaning, but each text expresses it differently."
+                },
+                {
+                    "option_id": "reversed_words",
+                    "text": "Both recall Allah’s presence: the verse says Allah is their third, while the hadith says not to grieve.",
+                    "feedback": "The expressions have been reversed: the injunction not to grieve is in the verse; the reference to the two whose third is Allah is in the hadith."
+                },
+                {
+                    "option_id": "identical_words",
+                    "text": "Both recall Allah’s presence: the verse and the hadith use exactly the same reassuring words.",
+                    "feedback": "Their meaning is similar, but their wording differs: compare the injunction not to grieve with the mention of the two whose third is Allah."
+                }
+            ],
+            "explanation": "The verse affirms Allah’s presence and says not to grieve. In the hadith the Prophet ﷺ reassures Abu Bakr that they are two and Allah is their third. The two texts use different words to convey reassurance.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_caveverse_qurtubi_verse:p1",
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p3"
+            ],
+            "correct_option_id": "distinct_words"
+        },
+        {
+            "question_id": "hch_thawr_q_onward",
+            "step_id": "hch_thawr",
+            "difficulty": "intermediate",
+            "practice_scope": "lesson",
+            "prompt": "Which description matches the Prophet’s ﷺ and Abu Bakr’s departure from the cave?",
+            "options": [
+                {
+                    "option_id": "abdullah_guide",
+                    "text": "Abd Allah ibn Abi Bakr and the guide set out with them, and the guide took them along the coastal route.",
+                    "feedback": "The continuation of Aisha’s hadith names Amir ibn Fuhayrah with the guide, not Abd Allah ibn Abi Bakr."
+                },
+                {
+                    "option_id": "amir_leads",
+                    "text": "Amir ibn Fuhayrah and the guide set out with them, and Amir guided the party along the route.",
+                    "feedback": "Amir was one of the party, but the guide was the one who led them along the route."
+                },
+                {
+                    "option_id": "company",
+                    "text": "Amir ibn Fuhayrah and the guide set out with them, and the guide took them along the coastal route.",
+                    "feedback": "Correct; the report names their companions at departure, then says the guide led them along the coastal route."
+                }
+            ],
+            "explanation": "Amir ibn Fuhayrah and the guide set out with the Prophet ﷺ and Abu Bakr. The guide led the party along the coastal route.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_guide_bukhari_hire:p1",
+                "sp_guide_bukhari_coast:p1",
+                "sp_thawr_support:p1"
+            ],
+            "correct_option_id": "company"
+        },
+        {
+            "question_id": "hch_thawr_q_appointment",
+            "step_id": "hch_thawr",
+            "difficulty": "intermediate",
+            "practice_scope": "source_study",
+            "prompt": "Read the passage about hiring the guide and its continuation: where and when did they agree he would bring the two riding camels?",
+            "options": [
+                {
+                    "option_id": "makkah",
+                    "text": "In Makkah in the morning after the three nights.",
+                    "feedback": "The continuation names the Cave of Thawr, not Makkah, as the meeting place."
+                },
+                {
+                    "option_id": "same_night",
+                    "text": "At the Cave of Thawr on the very night they hired him.",
+                    "feedback": "The appointment was after three nights, not on the night he was hired."
+                },
+                {
+                    "option_id": "joined",
+                    "text": "At the Cave of Thawr in the morning after three nights.",
+                    "feedback": "Correct; the end of the hiring passage joins its continuation, making the place and time of the appointment clear."
+                }
+            ],
+            "explanation": "The sentence about the appointment begins in the hiring passage and continues in the next passage, naming the Cave of Thawr, the three nights, and his arrival in the morning with the two riding camels.",
+            "scope_note": "",
+            "source_unit_ids": ["sp_guide_bukhari_hire:p1", "sp_guide_bukhari_coast:p1"],
+            "correct_option_id": "joined"
+        },
+        {
+            "question_id": "hch_thawr_q_compare_fear",
+            "step_id": "hch_thawr",
+            "difficulty": "expert",
+            "practice_scope": "source_study",
+            "prompt": "Who experienced the scene with the feet, and who transmits his account? Which wording appears in each of the displayed excerpts from al-Bukhari and Muslim?",
+            "options": [
+                {
+                    "option_id": "reversed_narrators",
+                    "text": "Abu Bakr transmits from Anas; al-Bukhari has lowering the gaze and Muslim has looking at the feet.",
+                    "feedback": "The transmission relationship is reversed: Abu Bakr experienced the scene and Anas transmits his account, not the other way around."
+                },
+                {
+                    "option_id": "shared_fear",
+                    "text": "Anas transmits from Abu Bakr; al-Bukhari has lowering the gaze and Muslim has looking at the feet.",
+                    "feedback": "Correct; Abu Bakr experienced the scene and Anas transmits his account. The wording about looking differs between the excerpts."
+                },
+                {
+                    "option_id": "reversed",
+                    "text": "Anas transmits from Abu Bakr; al-Bukhari has looking at the feet and Muslim has lowering the gaze.",
+                    "feedback": "The transmission relationship is right, but the wordings are reversed: lowering the gaze is in the al-Bukhari excerpt and looking at the feet in the Muslim excerpt."
+                }
+            ],
+            "explanation": "In the al-Bukhari excerpt Abu Bakr mentions lowering one’s gaze; in the Muslim excerpt he mentions looking at one’s feet. He experienced the scene, and Anas transmits his account; in both, he feared one of the men would see them.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p1",
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p2",
+                "sp_thawr_exp_h_1681_5914_hs_cave_1:p3",
+                "sp_caveverse_muslim:p1",
+                "sp_caveverse_muslim:p2",
+                "sp_caveverse_qurtubi_verse:p1"
+            ],
+            "correct_option_id": "shared_fear"
+        },
+        {
+            "question_id": "hch_thawr_q_names",
+            "step_id": "hch_thawr",
+            "difficulty": "intermediate",
+            "practice_scope": "source_study",
+            "prompt": "Which of the displayed texts names both the mountain and the length of the stay?",
+            "options": [
+                {
+                    "option_id": "sources",
+                    "text": "Aisha’s hadith in al-Bukhari.",
+                    "feedback": "Correct; it names Mount Thawr and mentions a stay of three nights."
+                },
+                {
+                    "option_id": "verse",
+                    "text": "The cave verse.",
+                    "feedback": "The verse mentions the cave and the companion but does not name the mountain or specify the duration of the stay."
+                },
+                {
+                    "option_id": "muslim",
+                    "text": "Abu Bakr’s hadith in Muslim.",
+                    "feedback": "This excerpt describes the feet, the fear, and the Prophet’s ﷺ reply; it does not name the mountain or the length of the stay."
+                }
+            ],
+            "explanation": "Aisha’s account in the displayed excerpt names Mount Thawr and the three nights. The verse mentions the cave without either detail.",
+            "scope_note": "",
+            "source_unit_ids": [
+                "sp_thawr_support:p1",
+                "sp_caveverse_qurtubi_verse:p1",
+                "sp_caveverse_muslim:p1",
+                "sp_caveverse_muslim:p2"
+            ],
+            "correct_option_id": "sources"
+        },
+        {
+            "question_id": "hch_thawr_q_flock_inference",
+            "step_id": "hch_thawr",
+            "difficulty": "expert",
+            "practice_scope": "source_study",
+            "prompt": "Is the mention of the sheep and milk in the displayed excerpt enough to establish that Amir was erasing footprints?",
+            "options": [
+                {
+                    "option_id": "inferred_purpose",
+                    "text": "Yes; mentioning the tending of sheep shows that this was the reason for bringing them.",
+                    "feedback": "Mentioning sheep alone does not establish that purpose; the excerpt mentions the milk they provided, not erasing footprints."
+                },
+                {
+                    "option_id": "silence_denies",
+                    "text": "No; the absence of any mention of erasing footprints proves it did not happen.",
+                    "feedback": "A detail’s absence from an excerpt does not prove it did not happen; other texts might address it."
+                },
+                {
+                    "option_id": "needs_evidence",
+                    "text": "No; the excerpt mentions milk, and a claim about erasing footprints requires other evidence.",
+                    "feedback": "Correct; the excerpt supports the point about milk but cannot by itself establish or rule out erasing footprints."
+                }
+            ],
+            "explanation": "This excerpt supports the arrival of the sheep and the provision of milk. It does not mention erasing footprints; investigating that claim requires a text that addresses it.",
+            "scope_note": "",
+            "source_unit_ids": ["sp_thawr_support:p1"],
+            "correct_option_id": "needs_evidence"
+        }
+    ]
 }

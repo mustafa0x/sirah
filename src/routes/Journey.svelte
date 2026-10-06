@@ -348,7 +348,6 @@
             source_error = true
             practice_units = []
         })
-    let stage_questions = $derived(questions_for(mode, { step_id: selected_step.id }))
     let practice_question = $derived(
         practice_tick >= 0 && practice ? current_question(practice) : null,
     )
@@ -2489,7 +2488,9 @@
                             </li>
                         {/each}
                     </ol>
-                    <p class={fine_print}>The number beside each book counts its source passages.</p>
+                    <p class={fine_print}>
+                        The number beside each book counts its source passages.
+                    </p>
                 </section>
                 <!-- Credits, together at the foot of the page. -->
                 <footer
@@ -3105,17 +3106,18 @@
                     </a>
                 {/if}
                 <div class={card_row}>
-                    {#if stop_finished && !journey.is_playing && stage_questions.length}
-                        <button
+                    <!-- Practice lives in the chapter: its questions follow the story it tells. -->
+                    {#if stop_finished && !journey.is_playing && stage_chapter && stage_facts?.id === stage_chapter.chapter_id && stage_facts.questions}
+                        <a
                             class="{ghost_button} border-gold mobile:flex-[1_1_100%]"
-                            onclick={() => open_practice({ step_id: selected_step.id })}
+                            href={href(`/chapters/${stage_chapter.chapter_id}/practice`)}
                         >
-                            {@render icon('quiz')} Quick check
+                            {@render icon('quiz')} Check your understanding
                             <span
                                 class="min-w-5 px-[6px] py-px text-gold-bright bg-[rgba(232,178,87,0.16)] rounded-full text-[0.75rem]"
-                                >{fmt_num(stage_questions.length)}</span
+                                >{fmt_num(stage_facts.questions)}</span
                             >
-                        </button>
+                        </a>
                     {/if}
                     {#if !stage_chapter}
                         <a
@@ -3191,9 +3193,16 @@
                                 </h3>
                                 <p class="text-ink-soft leading-[1.55]">{selected_step.recap}</p>
                                 <div class="flex flex-wrap gap-2">
-                                    <button class={primary_button} onclick={() => open_practice()}>
-                                        {@render icon('ask')} Practise what you learned
-                                    </button>
+                                    {#if stage_chapter}
+                                        <a
+                                            class={primary_button}
+                                            href={href(
+                                                `/chapters/${stage_chapter.chapter_id}/practice`,
+                                            )}
+                                        >
+                                            {@render icon('ask')} Practise what you learned
+                                        </a>
+                                    {/if}
                                     <button class={ghost_button} onclick={() => start('scene')}>
                                         {@render icon('replay')} Start again
                                     </button>
