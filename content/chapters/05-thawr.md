@@ -25,7 +25,7 @@ Some of them came to Abu Bakr's house. Asma, his daughter, went out to them, and
 
 Others followed the Prophet's ﷺ tracks out of the city. At the mountain the trail became confused, so they climbed it, and passed by the cave.[^6] They came right above it, close enough for the two inside to hear their voices.[^8] Abu Bakr looked up and saw their feet over his head. "Messenger of Allah," he said, "if one of them looked at his feet, he would see us beneath his feet." The Prophet ﷺ answered: "Abu Bakr, what do you think of two when Allah is their third?"[^10][^11]
 
-Abu Bakr was overcome with worry and fear. The Prophet ﷺ told him, "Do not grieve; Allah is with us," and he prayed, and calm from Allah came down on him.[^8] In a report from Ibn ‘Abbas, the searchers saw a spider's web across the entrance and said, "If anyone had gone in here, there would be no spider's web over its entrance."[^6] Allah blinded their eyes to him, and at last the searchers gave up and went back.[^12]
+Abu Bakr was overcome with worry and fear. The Prophet ﷺ told him, "Do not grieve; Allah is with us," and he prayed, and calm from Allah came down on him.[^8] The searchers saw a spider's web across the entrance and said, "If anyone had gone in here, there would be no spider's web over its entrance."[^6] Allah blinded their eyes to him, and at last the searchers gave up and went back.[^12]
 
 The Quran recalls that moment: "If you do not help him, Allah has already helped him, when those who disbelieved drove him out, the second of two, when the two were in the cave, when he said to his companion, 'Do not grieve; Allah is with us.' Then Allah sent down His tranquility upon him, and supported him with forces you did not see."[^13] That tranquility, Ibn ‘Abbas said, came down on Abu Bakr, for the Prophet ﷺ had never been without it.[^22] And the forces no one saw, some explained, were angels turning the searchers' faces and eyes away from the cave.[^23]
 
@@ -39,7 +39,7 @@ Abu Bakr's freedman, ‘Amir ibn Fuhayrah, grazed a flock of milking sheep among
 
 At last the three nights passed, and the talk about the two died down.[^16][^17] On the morning after the third night, the guide they had hired, ‘Abdullah ibn Urayqit, came to the cave as arranged, with their two camels and a third of his own.[^16][^18][^20] By the reckoning of later biographers, it was the night of Monday, the first of Rabi‘ al-Awwal.[^29]
 
-Asma came too, carrying their bag of food.[^16] In Ibn Ishaq's telling, she had forgotten a strap to hang it by, and when the two were ready to leave there was nothing to tie it on. So she undid the waistband she wore and made it into a strap. The scholars Ibn Hisham heard explained that she split it in two, hanging the bag with one half and keeping the other around her waist, and that is how she came to be called Dhat al-Nitaqayn, "she of the two waistbands".[^19] The camels were ready, and the road to Madinah lay ahead.[^18]
+Asma came too, carrying their bag of food, but she had forgotten a strap to hang it by, and when the two were ready to leave there was nothing to tie it on. So she undid the waistband she wore, split it in two, hung the bag with one half and kept the other around her waist. From then on she was known as Dhat al-Nitaqayn, "she of the two waistbands", a name she carried all her life.[^16][^19] The camels were ready, and the road to Madinah lay ahead.[^18]
 
 ## Outline
 

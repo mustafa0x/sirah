@@ -17,21 +17,21 @@ The guide had come with the camels, and now there were four of them: the Prophet
 
 The guide led them down below Makkah, then out along the coast,[^7] "by the edge of the sea," as ‘Aishah described it.[^8] Along the shore they went until they came out on the road below ‘Usfan; then he took them by lower Amaj, and on through valleys and mountain passes, one after another.[^7]
 
-People knew Abu Bakr. His hair had turned grey, and he had often passed among the people of Madinah on his trading journeys; the Prophet ﷺ, whose hair had not greyed, they did not know.[^9][^10] Men would meet them and ask, "Abu Bakr, who is this man in front of you?" "This man guides me on the way," he would answer. Whoever heard it thought he meant the road. He meant the way of good.[^9]
+People knew Abu Bakr. His hair had turned grey, and he had often passed among the people of Madinah on his trading journeys; the Prophet ﷺ, whose hair had not greyed, they did not know.[^9][^10] In fact, the Prophet ﷺ was the older of the two, by more than two years.[^18] Men would meet them and ask, "Abu Bakr, who is this man in front of you?" "This man guides me on the way," he would answer. Whoever heard it thought he meant the road. He meant the way of good.[^9] The Prophet ﷺ had told Abu Bakr, "Keep people busy away from me, for a prophet should not lie," and when they asked who was with him, Abu Bakr said, "A guide who guides me."[^14]
 
 ## Shade at noon
 
-Years later, Abu Bakr told the story of one day on that road. He was buying a camel saddle from ‘Azib, and ‘Azib would not let his son al-Bara carry it home until Abu Bakr told them how he and the Prophet ﷺ had fared when they went out with the idolaters hunting them.[^13] "Watchers had been set for us," Abu Bakr said, "so we went out by night."[^11]
+Years later, Abu Bakr told the story of one day on that road. He had bought a camel saddle from ‘Azib for thirteen dirhams,[^12][^13] and ‘Azib would not let his son al-Bara carry it home until Abu Bakr told them how he and the Prophet ﷺ had fared when they went out with the idolaters hunting them.[^13] "Watchers had been set for us," Abu Bakr said, "so we went out by night."[^11]
 
 They pressed on through the night and the next day, until the sun stood at its height[^11] and the road lay empty, with no one passing on it.[^12] Abu Bakr cast his eyes about for any shade to shelter in,[^13] and a long rock rose into view, with shade the sun had not yet reached. They dismounted there. With his hand he smoothed a place in its shade where the Prophet ﷺ could sleep, spread a fur over it, and said, "Sleep, Messenger of Allah, and I will keep watch around you."[^12] The Prophet ﷺ lay down, and Abu Bakr went out to see whether any of the pursuers were in sight.[^13]
 
-What he saw was a shepherd boy driving his sheep towards the same rock, wanting from it what they had wanted: its shade.[^13] "Whose are you, boy?" Abu Bakr asked, and the boy named his master. "Is there milk in your sheep?" "Yes." "Will you milk for me?" "Yes."[^11] The boy took hold of a ewe. Abu Bakr told him to shake the dust from its udder, then to shake the dust from his hands,[^13] and he milked a little milk into a wooden bowl.[^12]
+What he saw was a shepherd boy driving his sheep towards the same rock, wanting from it what they had wanted: its shade.[^13] "Whose are you, boy?" Abu Bakr asked, and the boy named his master. "Is there milk in your sheep?" "Yes." "Will you milk for me?" "Yes."[^11] The boy took hold of a ewe. Abu Bakr told him to shake the dust from its udder, then to shake the dust from his hands.[^13] When al-Bara told the story, he struck one hand against the other to show how.[^12] Then the boy milked a little milk into a wooden bowl.[^12]
 
 Abu Bakr carried a leather water-flask with a cloth over its mouth, kept for the Prophet ﷺ to drink from and to make his ablutions. He poured water over the milk until it was cool to the bottom.[^11][^12] He did not want to wake the Prophet ﷺ, but when he came back he found him already awake.[^12] "Drink, Messenger of Allah," he said, and the Prophet ﷺ drank, "until I was content," Abu Bakr said.[^11]
 
 ## On their trail
 
-Then it was time to move on.[^12][^13] They set off once the sun had passed its height,[^12] and behind them the pursuit was on their trail.[^11] People were out searching for them, and of all of them, only one would catch up: a man on a horse.[^13]
+The Prophet ﷺ then asked, "Has the time to leave not come?" "It has," Abu Bakr said.[^12] They set off once the sun had passed its height,[^12] and behind them the pursuit was on their trail.[^11] People were out searching for them, and of all of them, only one would catch up: a man on a horse.[^13]
 
 ## Outline
 

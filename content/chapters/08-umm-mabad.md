@@ -13,7 +13,7 @@ The travellers had nothing left to eat, and it was a year of drought and hunger.
 
 With Suraqah behind them, the travellers rode on towards Madinah: the Prophet ﷺ, Abu Bakr, Abu Bakr's freedman ‘Amir ibn Fuhayrah, and their guide, ‘Abdullah ibn Urayqit.[^1] Their provisions had run out, and it was a year of drought, when hunger was everywhere.[^2]
 
-On the way they came to two tents belonging to Umm Ma‘bad, a woman of Khuza‘ah. She was a strong woman who did not keep herself out of sight; people would come and sit with her. She sat in front of her tent with her knees drawn up, and gave water and food to those who passed.[^3] The travellers asked to buy meat and dates from her, but she had none of either.[^4]
+On the way they came to two tents belonging to Umm Ma‘bad, a woman of Khuza‘ah. Umm Ma‘bad means "mother of Ma‘bad", after her son; her own name was ‘Atikah.[^18] She was a strong woman who did not keep herself out of sight; people would come and sit with her. She sat in front of her tent with her knees drawn up, and gave water and food to those who passed.[^3] The travellers asked to buy meat and dates from her, but she had none of either.[^4]
 
 ## The ewe that stayed behind
 
@@ -49,7 +49,11 @@ She had not waited long when her husband, Abu Ma‘bad, came home driving a few 
 
 Then she spoke of the men with him. "He had companions who gathered round him. When he spoke, they fell silent to listen; when he gave an order, they hurried to carry it out. He was served and surrounded, never frowning, never overbearing."[^12]
 
-Abu Ma‘bad had heard enough. "By Allah," he said, "that is the man from Quraysh, the one we heard so much about in Makkah. I had meant to join him, and I will, if I find a way."[^13] But the man he meant was already gone, riding on towards Madinah.[^8][^1]
+Abu Ma‘bad had heard enough. "By Allah," he said, "that is the man from Quraysh, the one we heard so much about in Makkah. I had meant to join him, and I will, if I find a way."[^13] Umm Ma‘bad herself later emigrated, became Muslim and joined the Prophet ﷺ.[^19]
+
+Quraysh, still hunting him, came that way too. They reached Umm Ma‘bad and described him to her. "I do not know what you are talking about," she said. "A man who milked a dry ewe was my guest." "That is the one we want," they said.[^20]
+
+In Makkah, Abu Bakr's family passed three nights not knowing which way he had gone. Then one of the jinn came singing up through Makkah from its lower end, with people following, hearing his voice but seeing no one, until he passed out of the upper end of the city: "May Allah, Lord of mankind, give His best reward to two companions who stopped at the two tents of Umm Ma‘bad." When they heard it, they knew he was headed for Madinah.[^24][^23] By then the man Abu Ma‘bad meant was already gone, riding on towards Madinah.[^8][^1]
 
 ## Outline
 
@@ -60,6 +64,7 @@ Abu Ma‘bad had heard enough. "By Allah," he said, "that is the man from Qurays
 5. Abu Ma‘bad comes home
 6. "Describe him to me"
 7. The man from Quraysh
+8. A voice over Makkah
 
 ## In depth
 
@@ -73,7 +78,7 @@ The report comes down through Umm Ma‘bad's own family. Hubaysh ibn Khalid, who
 
 ### Ibn Ishaq's telling
 
-Ibn Ishaq tells the visit differently. In his version Umm Ma‘bad says, "By Allah, we have no food, no animal lent to us for milk, and no ewe except dry ones." The Prophet ﷺ calls for one of her ewes, passes his hand over its udder, prays, and milks into a large bowl until it froths. "Drink, Umm Ma‘bad," he says. "You drink," she replies, "you have more right to it." He hands it back, and she drinks. He then milks a second dry ewe and drinks himself, a third for the guide, and a fourth for ‘Amir. Ibn Ishaq adds that Quraysh, searching for him, came as far as Umm Ma‘bad and described him to her. "I do not know what you are talking about," she said. "A man who milked a dry ewe was my guest." "That is the one we want," they said.[^20]
+Ibn Ishaq tells the visit differently. In his version Umm Ma‘bad says, "By Allah, we have no food, no animal lent to us for milk, and no ewe except dry ones." The Prophet ﷺ calls for one of her ewes, passes his hand over its udder, prays, and milks into a large bowl until it froths. "Drink, Umm Ma‘bad," he says. "You drink," she replies, "you have more right to it." He hands it back, and she drinks. He then milks a second dry ewe and drinks himself, a third for the guide, and a fourth for ‘Amir. It is also Ibn Ishaq who has Quraysh reach her tent in their search, as told above.[^20]
 
 ### The woman and her son
 
@@ -85,7 +90,7 @@ Several of Umm Ma‘bad's words are rare, and the early philologist Abu ‘Ubayd
 
 ### A voice over Makkah
 
-Abu Nu‘aym's report goes on beyond Abu Ma‘bad's words: the next morning a voice was heard high over Makkah, and no one knew whose it was. It recited verses that begin, "May Allah, Lord of mankind, give His best reward to two companions who rested at the two tents of Umm Ma‘bad." In another version it is heard in Madinah, between heaven and earth; in the first, Hassan ibn Thabit hears it and answers with verses of his own.[^23] Asma bint Abi Bakr, in Ibn Ishaq's report, remembers that for three nights her family did not know which way the Prophet ﷺ had gone, until a voice, heard but unseen, passed through Makkah reciting the same verses; she says it was one of the jinn.[^24]
+The voice in the story comes from Asma bint Abi Bakr, in Ibn Ishaq's report.[^24] Hubaysh's report in Abu Nu‘aym also goes on beyond Abu Ma‘bad's words: the next morning a voice was heard high over Makkah, and no one knew whose it was, reciting the same verses at greater length. One of its lines runs, "Ask your sister about her ewe and her vessel; if you ask the ewe, it will bear witness." In another version the voice is heard in Madinah, between heaven and earth; in the first, Hassan ibn Thabit hears it and answers with verses of his own.[^23]
 
 ## Notes
 
@@ -114,7 +119,7 @@ Passage ids omit the prefix `sp_umm_mabad_`.
 [^21]: Al-Bayhaqi, *Dala'il al-Nubuwwah*, 2/491–494 — ‘Abd al-Rahman ibn Abi Layla from Abu Bakr, and al-Bayhaqi's comments. [Turath](https://app.turath.io/book/7478?page=1012) · archive `H-7478-1012-RA-WOMAN-SON`, `H-7478-1013-RA-WOMAN-SON`, `H-7478-1013-RA-WOMAN-IDENTITY`, `H-7478-1014-RA-UMM-RECONCILE`, `H-7478-1015-RA-UMM-RECONCILE` (**new reading**)
 [^22]: Abu Nu‘aym, *Dala'il al-Nubuwwah*, 1/342–343 — Abu ‘Ubayd. [Turath](https://app.turath.io/book/10637?page=290) · `gloss:p18–p19`, `gloss:p22`, `gloss:p25`
 [^23]: Abu Nu‘aym, *Dala'il al-Nubuwwah*, 1/339–340 — Hubaysh's report continued, and Abu Nu‘aym on the other version. [Turath](https://app.turath.io/book/10637?page=290) · `story:p20`, `story:p23`, `story:p25–p26`, `story:p29–p30` (**parts newly cited**)
-[^24]: Ibn Hisham, *al-Sirah al-Nabawiyyah*, 1/487 — Asma bint Abi Bakr, through Ibn Ishaq. [Turath](https://app.turath.io/book/23833?page=510) · archive `H-23833-510-PHONE` (**new reading**)
+[^24]: Ibn Hisham, *al-Sirah al-Nabawiyyah*, 1/487 — Asma bint Abi Bakr, through Ibn Ishaq. [Turath](https://app.turath.io/book/23833?page=510) · archive `H-23833-510-PHONE` (**new reading**); 1/488 — Asma: "we knew where the Messenger of Allah ﷺ was headed". [Turath](https://app.turath.io/book/23833?page=511) · archive `H-23833-511-GUIDE` (**new reading**)
 
 ## Readings
 
@@ -132,13 +137,13 @@ The chapter's Sources tab shows these, each as its Arabic original with an Engli
 | The woman and her son (al-Bayhaqi) — **new** | `H-7478-1012-RA-WOMAN-SON`, `H-7478-1013-RA-WOMAN-SON`, `H-7478-1013-RA-WOMAN-IDENTITY`, `H-7478-1014-RA-UMM-RECONCILE`, `H-7478-1015-RA-UMM-RECONCILE` | 21 |
 | Her name and people (Ibn Hisham) — **new** | `H-23833-510-LINEAGE` | 18 |
 | She emigrated and became Muslim (Abu Nu‘aym) — **new** | `H-10637-290-RA-UMM-MIGRATION` | 19 |
-| Asma and the voice over Makkah (Ibn Hisham) — **new** | `H-23833-510-PHONE` | 24 |
+| Asma and the voice over Makkah (Ibn Hisham) — **new** | `H-23833-510-PHONE`, `H-23833-511-GUIDE` | 24 |
 
 ---
 
 ## For the reviewer
 
-- **Decisions to confirm.** (1) The account follows Hubaysh's report alone (one ewe, a vessel filled twice); Ibn Ishaq's different telling (several dry ewes, "Drink, Umm Ma‘bad", Quraysh at her tent) and al-Bayhaqi's woman-and-son report are in In depth. The narrated journey's tent captions (N10a, N10b in `content/narrative.md`) currently use Ibn Ishaq's wording ("no milk-giving ewe", "drink, Umm Ma‘bad") and should be re-derived from this account. (2) Umm Ma‘bad's description is quoted almost in full, in a fresh rendering checked against the Arabic and Abu ‘Ubayd's glosses; "lashes curved" keeps the transmitted word, and Abu ‘Ubayd's preferred "long" goes in In depth. (3) The last word, *mu‘tad*, is rendered "overbearing", following the digital text; the better-known form of the description has a different word here, so check it against print. (4) *Wa baya‘aha* after the second milking ("made a pledge / an exchange with her") is left out of the account, because its sense is unclear. (5) "Ewe" for *shah*, following STYLE_GUIDE's depiction note. (6) The voice and verses are told only in In depth, because the reading's Asma passage already sits in the road chapter; the sequence plan should decide which chapter owns it.
+- **Decisions to confirm.** (1) The account follows Hubaysh's report alone (one ewe, a vessel filled twice); Ibn Ishaq's different telling (several dry ewes, "Drink, Umm Ma‘bad") and al-Bayhaqi's woman-and-son report are in In depth; only Ibn Ishaq's Quraysh-at-her-tent scene is told in the account, sourced in its footnote. Per the owner's attribution ruling, the additions carry no prose attribution; Umm Ma‘bad's later emigration (an unsourced "it reached me" from ‘Abd al-Malik ibn Wahb) is softened to "it was later said". The narrated journey's tent captions (N10a, N10b in `content/narrative.md`) currently use Ibn Ishaq's wording ("no milk-giving ewe", "drink, Umm Ma‘bad") and should be re-derived from this account. (2) Umm Ma‘bad's description is quoted almost in full, in a fresh rendering checked against the Arabic and Abu ‘Ubayd's glosses; "lashes curved" keeps the transmitted word, and Abu ‘Ubayd's preferred "long" goes in In depth. (3) The last word, *mu‘tad*, is rendered "overbearing", following the digital text; the better-known form of the description has a different word here, so check it against print. (4) *Wa baya‘aha* after the second milking ("made a pledge / an exchange with her") is left out of the account, because its sense is unclear. (5) "Ewe" for *shah*, following STYLE_GUIDE's depiction note. (6) The voice and verses are now told in the account, from Asma's report (the road chapter left them out so as not to give away this one); Hubaysh's longer version and the Madinah variant stay in In depth.
 - **New readings:** Ibn Ishaq's telling with Quraysh at her tent (al-Bayhaqi 2/493), the woman and her son with al-Bayhaqi's reconciliation (2/491–494), her lineage in Ibn Hisham (1/487), her later emigration (Abu Nu‘aym 1/340), Asma and the voice (Ibn Hisham 1/487). Parts newly cited from packets already in the chapter: `ibn_kathir:p1`, `story:p20–p30`, `gloss:p5`, `gloss:p7–p8`, `gloss:p12`, `gloss:p14`, `gloss:p18`, `gloss:p22`, `gloss:p25`.
 - **Gaps.** Where the tents stood is not told: the only support found is the modern editor's footnote in al-Bayhaqi (archive `H-7478-1014-RA-FN5`) that Abu Ma‘bad lived at Qudayd, near Makkah, which is too thin for the account. How long the travellers stayed, and the time of day, are not given in Hubaysh's report (Abu Bakr's report in al-Bayhaqi says evening and a night's stay, for what may be a different visit).
 - **Hand-overs.** The account opens "With Suraqah behind them…", picking up from `hch_suraqa`; it ends with the travellers riding on towards Madinah, ready for `hch_quba`'s opening on Madinah waiting.

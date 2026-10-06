@@ -11,7 +11,9 @@ After the pledges at al-‘Aqabah, the Muslims of Makkah set out for Madinah in 
 
 ## Waiting in Makkah
 
-With his companions gone ahead to Madinah, the Prophet ﷺ stayed in Makkah, waiting for his Lord to give him permission to leave.[^1] Before long, of the emigrants only ‘Ali ibn Abi Talib and Abu Bakr were left with him, apart from those who were held back by force or had been turned from their faith.[^3]
+When the Prophet ﷺ sent the Muslims of Makkah ahead, he had told them what the place was like: "I have been shown the land you will emigrate to, a land of palm trees between two lava fields."[^2] They left in small groups,[^1] and most of those who had once emigrated to Abyssinia came back and went on to Madinah as well.[^2]
+
+The Prophet ﷺ stayed behind in Makkah, waiting for his Lord to give him permission to leave.[^1] Before long, of the emigrants only ‘Ali ibn Abi Talib and Abu Bakr were left with him, apart from those who were held back by force or had been turned from their faith.[^3]
 
 Abu Bakr asked him again and again for permission to emigrate. Each time the answer was the same: "Do not hurry. Perhaps Allah will give you a companion." And each time Abu Bakr hoped that the companion would be the Prophet ﷺ himself.[^3] Once he had made himself ready to go, and the Prophet ﷺ stopped him: "Take your time, for I hope to be given permission." "Do you really hope for that, may my father be your ransom?" Abu Bakr asked. "Yes."[^2]
 
@@ -31,7 +33,7 @@ Then Abu Bakr turned to the camels he had waited with for so long. "Prophet of A
 
 ## A guide for the road
 
-The two needed someone who knew the desert roads well. They hired ‘Abdullah ibn Urayqit, of the tribe of Banu al-Dil, a *khirrit*, a guide skilled at finding the way. He was a sworn ally of the family of al-‘As ibn Wa'il of Quraysh, and he still followed the religion of Quraysh.[^7][^8] Yet they trusted him. They handed their two camels over to him, and he kept and grazed them until the time they had set. They agreed where and when he would bring the camels back: at the cave of Thawr, after three nights, on the morning of the third.[^7][^8]
+The two needed someone who knew the desert roads well. They hired ‘Abdullah ibn Urayqit, of the tribe of Banu al-Dil, a *khirrit*, a guide skilled at finding the way. He was a sworn ally of the family of al-‘As ibn Wa'il of Quraysh, and he still followed the religion of Quraysh.[^7][^8] Yet they trusted him. They handed their two camels over to him, and he kept and grazed them until the time they had set. They agreed where and when he would bring the camels back: at the cave of Thawr, after three nights, on the morning of the third.[^7][^8] From there he would lead them by the coast road.[^8]
 
 ## Asma's waistband
 

@@ -11,7 +11,7 @@ The Prophet ﷺ had found a place in Madinah, and his mosque was going up.[^5] Y
 
 ## Families on the road
 
-From Abu Ayyub's house, the Prophet ﷺ sent Zayd ibn Harithah and Abu Rafi‘ to Makkah with two camels and five hundred dirhams, to bring his family.[^2] ‘Abdullah ibn Urayqit was returning to Makkah, and Abu Bakr sent him to his son ‘Abdullah, telling him to come with the household.[^3][^4]
+From Abu Ayyub's house, the Prophet ﷺ sent Zayd ibn Harithah and Abu Rafi‘ to Makkah with two camels and five hundred dirhams, to bring his family.[^2] ‘Abdullah ibn Urayqit was returning to Makkah, and Abu Bakr sent him to his son ‘Abdullah, telling him to come with the household.[^3][^4] Talhah ibn ‘Ubaydullah travelled with them.[^4]
 
 They came together: Sawdah bint Zam‘ah, the Prophet's ﷺ wife; his daughters Fatimah and Umm Kulthum; Umm Ayman, Zayd's wife, with her son Usamah; and ‘Abdullah ibn Abi Bakr with his mother Umm Ruman and his sisters ‘Aishah and Asma.[^5][^2] Two daughters were not among them. Ruqayyah had gone before with her husband, ‘Uthman ibn ‘Affan, and Zaynab, the eldest, stayed behind in Makkah, held back by her husband, Abu al-‘As ibn al-Rabi‘.[^6][^2]
 
@@ -21,26 +21,26 @@ They arrived while the Prophet ﷺ was still building his mosque,[^5] and he lod
 
 Asma was expecting a child. "I set out when my pregnancy was at full term," she said. "I came to Madinah, stopped at Quba, and gave birth to him at Quba."[^7]
 
-Then she brought the baby, ‘Abdullah ibn al-Zubayr, to the Prophet ﷺ and laid him in his lap. He called for a date, chewed it and put it into the baby's mouth, so that the first thing to enter the child's stomach was the Prophet's ﷺ own saliva. He rubbed the date on the baby's palate, prayed for him and asked Allah to bless him.[^7][^8]
+Then she brought the baby, ‘Abdullah ibn al-Zubayr, to the Prophet ﷺ and laid him in his lap. He called for a date, chewed it and put it into the baby's mouth, so that the first thing to enter the child's stomach was the Prophet's ﷺ own saliva. He rubbed the date on the baby's palate, prayed for him and asked Allah to bless him.[^7][^8] It was the first year after the Hijrah.[^27]
 
-"He was the first child born in Islam," Asma said,[^7] meaning, Ibn Hajar explains, the first born to the emigrants in Madinah.[^9]
+"He was the first child born in Islam," Asma said,[^7] meaning the first born to the emigrants in Madinah.[^9]
 
 ## Brothers, and the first graves
 
-The Prophet ﷺ made the emigrants brothers to one another, and brothers to the Ansar, the Muslims of Madinah who had taken them in. Each pair was bound to stand by the other in what was right and to share what they had, and at first such brothers even inherited from one another, ahead of their own kin. Ibn Sa‘d puts them at ninety men, forty-five from each side; others said a hundred.[^11] It was done, Anas ibn Malik said, in his house.[^12]
+The Prophet ﷺ made the emigrants brothers to one another, and brothers to the Ansar, the Muslims of Madinah who had taken them in. Each pair was bound to stand by the other in what was right and to share what they had, and at first such brothers even inherited from one another, ahead of their own kin. That lasted until after Badr, when the verse "And blood relatives are nearer to one another in the Book of Allah" was revealed, and each man's heirs were once again his own family.[^11] Ibn Sa‘d puts them at ninety men, forty-five from each side; others said a hundred.[^11] It was done, Anas ibn Malik said, in his house.[^12]
 
-Those months also brought loss. Al-Bara ibn Ma‘rur had died in Safar, a month before the Prophet ﷺ came, asking to be laid in his grave facing the Ka‘bah. When the Prophet ﷺ arrived in Madinah, he prayed at his grave.[^13] His host Kulthum ibn al-Hidm lived only a short while after his coming, al-Tabari reports.[^14] Then As‘ad ibn Zurarah died while the mosque was still being built, taken by a sickness of the throat. He was the first Muslim to be buried in al-Baqi‘, the burial ground of Madinah.[^15][^14]
+Those months also brought loss. Al-Bara ibn Ma‘rur had died in Safar, a month before the Prophet ﷺ came, asking to be laid in his grave facing the Ka‘bah. When the Prophet ﷺ arrived in Madinah, he prayed at his grave.[^13] His host Kulthum ibn al-Hidm lived only a short while after his coming.[^14] Then As‘ad ibn Zurarah died while the mosque was still being built, taken by a sickness of the throat. He was the first Muslim to be buried in al-Baqi‘, the burial ground of Madinah.[^15][^14]
 
 When the mosque was finished, the Prophet ﷺ left Abu Ayyub's house and moved into the dwelling built for him there.[^15]
 
 ## The fever of Madinah
 
-"We came to Madinah when it was a land of plague," ‘Aishah said;[^16] in another telling, "the most plague-ridden land of Allah."[^17] Abu Bakr fell ill, and so did Bilal. ‘Aishah went in to see them. "Father, how do you feel? Bilal, how do you feel?" Whenever the fever took hold of Abu Bakr, he would say:
+"We came to Madinah when it was a land of plague," ‘Aishah said;[^16] in another telling, "the most plague-ridden land of Allah."[^17] Its fever had been known before Islam. A newcomer who hoped to escape it, Hisham ibn ‘Urwah said, was told to bray like a donkey.[^31] Abu Bakr fell ill, and so did Bilal. ‘Aishah went in to see them. "Father, how do you feel? Bilal, how do you feel?" Whenever the fever took hold of Abu Bakr, he would say:
 
 > Every man is wished good morning among his family,
 > and death is nearer to him than the strap of his sandal.[^18]
 
-"By Allah, my father does not know what he is saying," ‘Aishah said. In Ibn Ishaq's telling she then went to ‘Amir ibn Fuhayrah and asked how he was, and he too answered in verse: "I have found death before I tasted it."[^19]
+"By Allah, my father does not know what he is saying," ‘Aishah said. She then went to ‘Amir ibn Fuhayrah and asked how he was, and he too answered in verse: "I have found death before I tasted it."[^19]
 
 When the fever left Bilal, he would raise his voice:
 
@@ -49,7 +49,7 @@ When the fever left Bilal, he would raise his voice:
 > and whether one day I will come down to the waters of Majannah,
 > and whether Shamah and Tafil will rise before me.[^18]
 
-All of them were places near Makkah.[^20] Then he would call down a curse on the men he blamed: "O Allah, curse ‘Utbah ibn Rabi‘ah, Shaybah ibn Rabi‘ah and Umayyah ibn Khalaf, as they drove us out to a land of plague."[^21]
+These were places near Makkah: Majannah, a market a few miles from the town, and Shamah and Tafil, two mountains close by.[^20] Then he would call down a curse on the men he blamed: "O Allah, curse ‘Utbah ibn Rabi‘ah, Shaybah ibn Rabi‘ah and Umayyah ibn Khalaf, as they drove us out to a land of plague."[^21]
 
 ‘Aishah fell ill herself. The fever kept her down for a month, and her hair fell out.[^22][^23]
 

@@ -13,7 +13,7 @@ Every pilgrimage season the Prophet ﷺ went out to the Arab tribes and presente
 
 Every pilgrimage season, the Prophet ﷺ presented himself to the Arab tribes who came for it. One season, at al-‘Aqabah, he met a few men of Khazraj. "Will you not sit down, so that I can speak with you?" he asked. They sat, and he called them to Allah and recited the Qur'an to them.[^1]
 
-The word "prophet" was not new to them. At home they lived beside Jews, people of scripture, and in every quarrel the Jews would say: "A prophet is about to be sent. We will follow him, and with him we will kill you."[^1] Now the men turned to one another. "By Allah, this is the prophet the Jews threatened you with. Do not let them reach him before you."[^2]
+The word "prophet" was not new to them. At home they lived beside Jews, people of scripture, and in every quarrel the Jews would say: "A prophet is about to be sent; his time has drawn near. We will follow him, and with him we will kill you as ‘Ad and Iram were killed," peoples of old.[^1][^2] Now the men turned to one another. "By Allah, this is the prophet the Jews threatened you with. Do not let them reach him before you."[^2]
 
 They accepted Islam. "No people are as torn by enmity as ours," they told him. "Perhaps Allah will unite them through you. If He does, no man will be more honoured than you."[^2] There were six of them, among them As‘ad ibn Zurarah. Back in Yathrib they called their people to Islam, until there was not a household of the Ansar, as the people of Yathrib came to be known, in which the Prophet ﷺ was not talked about.[^3]
 
@@ -27,13 +27,15 @@ When they went home, the Prophet ﷺ sent Mus‘ab ibn ‘Umayr with them to tea
 
 One day As‘ad brought Mus‘ab to an orchard among Banu ‘Abd al-Ashhal. The clan's two chiefs, Sa‘d ibn Mu‘adh and Usayd ibn Hudayr, still followed their people's religion, and Sa‘d sent Usayd to drive the visitors away.[^7]
 
-Usayd stood over them with his spear, cursing. "Will you not sit and listen?" Mus‘ab asked. "If you like it, accept it. If you dislike it, we will keep it away from you." "That is fair," said Usayd. He planted his spear in the ground and sat. As Mus‘ab recited the Qur'an, Islam showed in Usayd's face before he said a word. "How beautiful these words are!" He washed, bore witness to the truth and prayed. Then he sent Sa‘d to them with a story that his cousin As‘ad was in danger.[^7]
+Usayd stood over them with his spear, cursing. "Will you not sit and listen?" Mus‘ab asked. "If you like it, accept it. If you dislike it, we will keep it away from you." "That is fair," said Usayd. He planted his spear in the ground and sat. As Mus‘ab recited the Qur'an, Islam showed in Usayd's face before he said a word. "How beautiful these words are!" He washed, bore witness to the truth and prayed. When Sa‘d saw him walking back, he said: "By Allah, Usayd has come back to you with a different face from the one he left with." Usayd sent Sa‘d to them with a story that his cousin As‘ad was in danger.[^7]
 
-Sa‘d came in anger, spear in hand, and was made the same offer. He too planted the spear, listened, and became Muslim. Back among his clan he asked, "What is my standing among you?" "You are our chief." "Then I will not speak to a man or woman of you until you believe in Allah and His Messenger." By evening every man and woman of Banu ‘Abd al-Ashhal was Muslim. Before long there were Muslims in every household of the Ansar but a few clans of Aws.[^8]
+Sa‘d came in anger, spear in hand, and was made the same offer. He too planted the spear, listened, and became Muslim. His clan, seeing him come, said the same of him. He asked them, "What is my standing among you?" "You are our chief." "Then I will not speak to a man or woman of you until you believe in Allah and His Messenger." By evening every man and woman of Banu ‘Abd al-Ashhal was Muslim. Before long there were Muslims in every household of the Ansar but a few clans of Aws.[^8]
 
 ## A night in the pass
 
-At the next pilgrimage the Muslims of Yathrib travelled with their people's idol-worshipping pilgrims and arranged to meet the Prophet ﷺ at al-‘Aqabah in the last days of the pilgrimage.[^9] When a third of the night had passed, they slipped out of their camps "quietly like sandgrouse," Ka‘b ibn Malik remembered, and gathered in the pass: seventy-three men and two women.[^10]
+At the next pilgrimage the Muslims of Yathrib travelled with their people's idol-worshipping pilgrims.[^9] Two of them, Ka‘b ibn Malik and their elder al-Bara' ibn Ma‘rur, had never seen the Prophet ﷺ. In Makkah they were told to look for the man sitting with his uncle al-‘Abbas in the mosque. When al-‘Abbas named Ka‘b, the Prophet ﷺ said, "The poet?" Ka‘b never forgot it.[^28]
+
+They arranged to meet him at al-‘Aqabah on the middle one of the days of Tashriq, the last days of the pilgrimage.[^9][^10] When a third of the night had passed, they slipped out of their camps "quietly like sandgrouse," Ka‘b ibn Malik remembered, and gathered in the pass: seventy-three men and two women.[^10]
 
 The Prophet ﷺ came with his uncle al-‘Abbas, who still followed his people's religion but wanted to make his nephew's position secure. "He has honour among his people and safety in his town," al-‘Abbas told them. "If you will protect him, the burden is yours. If you will hand him over once he is with you, leave him now."[^11]
 
@@ -45,7 +47,7 @@ One of the Ansar, al-‘Abbas ibn ‘Ubadah, made the cost plain: they were pled
 
 "Go back to your camps," the Prophet ﷺ told them. Al-‘Abbas ibn ‘Ubadah offered to fall on the people of Mina with their swords the next day. "We have not been commanded to do that," he answered.[^17]
 
-In the morning the leading men of Quraysh came asking about the pledge. The idol-worshippers among the pilgrims swore that nothing had happened, and they spoke the truth, for they knew nothing of it.[^18] But once the pilgrims had left, Quraysh learned it was true and went after them. They caught Sa‘d ibn ‘Ubadah, one of the twelve leaders, tied his hands to his neck and brought him into Makkah, beating him and dragging him by his long hair.[^20] He was saved by an old bond: in Yathrib he used to protect the merchants of two men of Quraysh, Jubayr ibn Mut‘im and al-Harith ibn Harb. He called out their names, and they came and freed him.[^21]
+In the morning the leading men of Quraysh came asking about the pledge. The idol-worshippers among the pilgrims swore that nothing had happened, and they spoke the truth, for they knew nothing of it. As the Qurayshi men rose, Ka‘b, as if joining in the talk, admired aloud the new sandals of the young al-Harith ibn Hisham. Al-Harith pulled them off and threw them to him, and Ka‘b would not give them back: "It is a good omen."[^18] But once the pilgrims had left, Quraysh learned it was true and went after them. They caught Sa‘d ibn ‘Ubadah, one of the twelve leaders, tied his hands to his neck and brought him into Makkah, beating him and dragging him by his long hair.[^20] He was saved by an old bond: in Yathrib he used to protect the merchants of two men of Quraysh, Jubayr ibn Mut‘im and al-Harith ibn Harb. He called out their names, and they came and freed him.[^21]
 
 A people had now pledged to stand by the Prophet ﷺ and all who followed him. In Makkah, the believers could begin to go.
 
@@ -79,7 +81,7 @@ The warning about losing wealth and nobles comes from ‘Asim ibn ‘Umar ibn Qa
 
 ### The morning after
 
-When Quraysh put the same question to ‘Abdullah ibn Ubayy, he said: "This is a grave matter. My people would not have done anything like this without me. I knew nothing of it."[^19] Ka‘b adds a small scene from that morning: among the Qurayshi men was al-Harith ibn Hisham in a pair of new sandals; when Ka‘b admired them aloud, al-Harith threw them to him, and Ka‘b kept them as "a good omen".[^18]
+When Quraysh put the same question to ‘Abdullah ibn Ubayy, he said: "This is a grave matter. My people would not have done anything like this without me. I knew nothing of it."[^19]
 
 ### Who struck his hand first?
 
@@ -87,7 +89,7 @@ Each clan remembered its own man. Banu al-Najjar said As‘ad ibn Zurarah was th
 
 ### Al-Bara' and the prayer direction
 
-On the road to that pilgrimage, al-Bara' ibn Ma‘rur, the elder of the group, decided to pray towards the Ka‘bah while his companions prayed towards Syria, as the Prophet ﷺ then did. In Makkah, Ka‘b and al-Bara' found the Prophet ﷺ sitting with al-‘Abbas in the mosque, and al-Bara' asked him about it. "You had a prayer direction, if only you had kept to it," he answered, and al-Bara' went back to praying towards Syria with them. Ka‘b rejects his family's claim that he prayed towards the Ka‘bah until he died.[^28]
+On the road to that pilgrimage, al-Bara' ibn Ma‘rur, the elder of the group, decided to pray towards the Ka‘bah while his companions prayed towards Syria, as the Prophet ﷺ then did. In Makkah, when they found the Prophet ﷺ sitting with al-‘Abbas in the mosque, al-Bara' asked him about it. "You had a prayer direction, if only you had kept to it," he answered, and al-Bara' went back to praying towards Syria with them. Ka‘b rejects his family's claim that he prayed towards the Ka‘bah until he died.[^28]
 
 ### "Blood for blood"
 
@@ -168,6 +170,6 @@ The chapter's Sources tab shows these, each as its Arabic original with an Engli
 
 - **Decisions to confirm.** (1) The account calls the town Yathrib until the last paragraph, where the Prophet ﷺ sends his companions to "Madinah"; the passages themselves call it al-Madinah throughout (STYLE_GUIDE: Yathrib only before the Hijrah). (2) "The Ansar, as the Muslims of Yathrib came to be called" glosses a term the passages use from the start; it adds no event. (3) The voice from the top of al-‘Aqabah, which Ka‘b says was Satan's, is told only in In depth; the account goes straight from the pledge to the order to return to the camps. (4) The chapter is a step back in time from `hch_early_migration`: it opens with one bridging sentence in the overview (the emigrants went to a town that had made room for them) and ends where that chapter begins, with the order to emigrate and the Prophet ﷺ waiting for permission, which hands over to `hch_preparations`. The emigrants' journeys themselves are not retold. (5) Mus‘ab's arrangement of the two conversions is told as the two transmitters tell it, including Usayd's ruse about Banu Harithah, condensed to "he must hurry to his cousin's aid".
 - **New readings:** Sa‘d ibn ‘Ubadah freed (note 21); the order to emigrate (22); the editor's note on the Pledge of the Women (24); ‘Ubadah's "pledge of war" (25); permission to fight (30); al-Zuhri's three months (31); Iyas ibn Mu‘adh and Bu‘ath (32). All are in `evidence.jsonl`.
-- **Length.** The account is about 1,070 words, over the ~900 target: the episode spans three pilgrimage seasons, two pledges, Mus‘ab's year in Yathrib and Quraysh's pursuit, and each is needed to reach the hand-over. The likeliest further cut is the Usayd and Sa‘d section.
+- **Length.** The account is about 1,200 words after the details pass, over the ~900 target: the episode spans three pilgrimage seasons, two pledges, Mus‘ab's year in Yathrib and Quraysh's pursuit, and each is needed to reach the hand-over. The likeliest further cut is the Usayd and Sa‘d section.
 - **Gaps:** none that the story needs. The account does not say where al-‘Aqabah lies beyond Mina's camps, because the passages give nothing more.
-- **Removed from the account:** genealogies and Ibn Hisham's notes on names; ‘Ubadah's two versions, al-Bara' and the prayer direction, the first to strike the hand, and the two readings of al-‘Abbas ibn ‘Ubadah's purpose (all in In depth); Abu Qays's name and poem; the names of Abu Jabir and the two women at the pledge; al-Bara''s and al-‘Abbas's longer speeches (condensed); the guarantors' charge, ‘Abdullah ibn Ubayy's denial and the sandals (moved to In depth).
+- **Removed from the account:** genealogies and Ibn Hisham's notes on names; ‘Ubadah's two versions, al-Bara' and the prayer direction, the first to strike the hand, and the two readings of al-‘Abbas ibn ‘Ubadah's purpose (all in In depth); Abu Qays's name and poem; the names of Abu Jabir and the two women at the pledge; al-Bara''s and al-‘Abbas's longer speeches (condensed); the guarantors' charge and ‘Abdullah ibn Ubayy's denial (moved to In depth). The details pass brought into the account: the Jews' "‘Ad and Iram", the "different face" of Usayd and Sa‘d, Ka‘b's first meeting ("The poet?"), the date of the meeting, and the sandals.

@@ -11,13 +11,13 @@ By now most of the Prophet's ﷺ companions had gone to Madinah, where they had 
 
 ## The council at Dar al-Nadwah
 
-All this while, Quraysh had been watching his companions go, one after another, to a town where they had found a home and protection. Their leaders feared he would soon follow them, and that those people would fight Makkah for him. So they gathered in Dar al-Nadwah, the house of Qusayy ibn Kilab, where Quraysh settled all their affairs, to decide what to do with him.[^1]
+The Prophet ﷺ had stayed on in Makkah after the pilgrimage season, through the rest of Dhu al-Hijjah, then Muharram and Safar.[^17] All this while, Quraysh had been watching his companions go, one after another, to a town where they had found a home and protection. Their leaders feared he would soon follow them, and that those people would fight Makkah for him. So they gathered in Dar al-Nadwah, the house of Qusayy ibn Kilab, where Quraysh settled all their affairs, to decide what to do with him.[^1]
 
-In the report Ibn Ishaq gives from Ibn ‘Abbas, the chiefs of almost every clan came: Abu Sufyan, ‘Utbah and Shaybah, Abu Jahl, Umayyah ibn Khalaf and others. At the door stood a stranger, an old man in a cloak, who said he was from Najd. He had heard of their meeting, he told them, and had come to listen; perhaps he could offer some advice. They let him in.[^2]
+They met on the day they had appointed, a day known as the Day of the Crowd. The chiefs of almost every clan came: Abu Sufyan, ‘Utbah and Shaybah, Abu Jahl, Umayyah ibn Khalaf and others. At the door stood a stranger, an old man in a cloak, who said he was from Najd. He had heard of their meeting, he told them, and had come to listen; perhaps he could offer some advice. They let him in.[^2]
 
-"Put him in chains behind a locked door," one of them said, "and wait for death to take him, as it took the poets before him." The old man would not have it: word of him would slip out through that door, and his companions would come and take him back by force.[^3] "Then drive him out of our land," said another, "and we will not care where he goes." That was no plan either, said the old man. A man who spoke as he did would win over some tribe, and come back at its head.[^4]
+"Put him in chains behind a locked door," one of them said, "and wait for death to take him, as it took the poets before him, Zuhayr and al-Nabigha." The old man would not have it: word of him would slip out through that door, and his companions would come and take him back by force.[^3] "Then drive him out of our land," said another, "and we will not care where he goes." That was no plan either, said the old man: "Have you not seen how fine his speech is, how sweet his words, and how he wins men's hearts with what he brings?" Such a man would win over some Arab tribe, and come back at its head.[^4]
 
-Then Abu Jahl spoke. Take one strong young man of good family from every clan, he said, and give each of them a sharp sword. Let them strike him together, as one man. His blood would then be spread across all the clans, and his own people, Banu ‘Abd Manaf, could not fight them all; they would have to accept blood money. "That is the plan," said the old man. "There is no other." The council broke up, agreed.[^4]
+Then Abu Jahl spoke. "By God, I have a plan for him that I do not think you have hit upon yet." Take one strong young man of good family from every clan, he said, and give each of them a sharp sword. Let them strike him together, as one man. His blood would then be spread across all the clans, and his own people, Banu ‘Abd Manaf, could not fight them all; they would have to accept blood money. "That is the plan," said the old man. "There is no other." The council broke up, agreed.[^4]
 
 ## A night at the door
 
@@ -27,15 +27,15 @@ The Prophet ﷺ saw where they were. He turned to ‘Ali ibn Abi Talib: "Sleep o
 
 ## Through their midst
 
-What happened next comes to us in one report, which Ibn Ishaq heard from Muhammad ibn Ka‘b al-Qurazi.[^7] Abu Jahl was among the men at the door, and he was mocking. "Muhammad claims that if you follow him, you will be kings over Arabs and non-Arabs, and after death you will have gardens like the gardens of Jordan," he said. "And if you do not, he will slaughter you, and after death you will burn in a fire."[^8]
+Abu Jahl was among the men at the door, and he was mocking. "Muhammad claims that if you follow him, you will be kings over Arabs and non-Arabs, and after death you will have gardens like the gardens of Jordan," he said. "And if you do not, he will slaughter you, and after death you will burn in a fire."[^8]
 
 Then the Prophet ﷺ came out to them with a handful of dust in his hand. "Yes, I say that," he said, "and you are one of them." Allah took their sight from him. He walked among them, scattering the dust over their heads and reciting the opening of Surat Ya-Sin, up to the words "So We have covered them, and they do not see." When he finished, there was not a man there without dust on his head. Then he went on his way.[^9]
 
-Later, someone who had not been with them came by and asked what they were waiting for. "Muhammad," they said. "He has already gone out past you," the man told them, "and put dust on every one of your heads. Can you not see it?" Each of them put a hand to his head and found the dust. Yet when they looked inside, they saw someone asleep on the bed in the Prophet's ﷺ cloak. "By God, that is Muhammad, asleep in his cloak," they said, and they waited there until morning, when ‘Ali rose from the bed.[^10]
+Later, someone who had not been with them came by and asked what they were waiting for. "Muhammad," they said. "He has already gone out past you," the man told them, "and put dust on every one of your heads. Can you not see it?" Each of them put a hand to his head and found the dust. Yet when they looked inside, they saw someone asleep on the bed in the Prophet's ﷺ cloak. "By God, that is Muhammad, asleep in his cloak," they said, and they waited there until morning. Then ‘Ali rose from the bed, and they said, "By God, the man who told us was speaking the truth."[^10]
 
 ## Into the night
 
-Hardly anyone knew he was going. In Makkah only ‘Ali, Abu Bakr and Abu Bakr's family knew. ‘Ali was to stay behind with a task of his own: anyone in Makkah who had something precious he feared to lose had left it with the Prophet ﷺ, because they knew his honesty, and ‘Ali was to return every one of those trusts.[^11] He stayed three days and nights to do it, and only then set out to join him.[^12]
+Hardly anyone knew he was going. In Makkah only ‘Ali, Abu Bakr and Abu Bakr's family knew. ‘Ali was to stay behind with a task of his own: anyone in Makkah who had something precious he feared to lose had left it with the Prophet ﷺ, because they knew his honesty, and ‘Ali was to return every one of those trusts.[^11] He stayed three days and nights to do it, and only then set out after him, joining him at the house of Kulthum ibn Hidm.[^12]
 
 Makkah was his home. Words he spoke once, standing at al-Hazwara in the city's market, show what leaving it meant to him: "You are the best of Allah's lands, and the dearest of Allah's lands to me. Had I not been driven out of you, I would not have left."[^13]
 

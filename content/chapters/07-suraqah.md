@@ -29,7 +29,7 @@ Abu Bakr remembered the same moments from in front. They had set out after midda
 
 When the horseman was only two or three spear-lengths away, Abu Bakr said it again, and wept. "Why are you weeping?" the Prophet ﷺ asked. "By Allah, it is not for myself that I weep," Abu Bakr said, "but for you." The Prophet ﷺ prayed: "O Allah, suffice us against him however You will."[^5]
 
-Then the ground gave way. "My horse's forelegs sank into the earth up to the knees," Suraqah said, "and I fell off it." He shouted at the horse and it rose, barely able to pull its forelegs free, and when it stood upright, dust rose from the marks of its legs into the sky like smoke.[^6] Abu Bakr remembered the horse sinking to its belly, and Suraqah leaping clear of it. "Muhammad, I know this is your doing," Suraqah said. "Pray to Allah to save me from what I am in, and by Allah, I will hide you from the pursuers behind me."[^5]
+Then the ground gave way. "My horse's forelegs sank into the earth up to the knees," Suraqah said, "and I fell off it." He shouted at the horse and it rose, barely able to pull its forelegs free, and when it stood upright, dust rose from the marks of its legs into the sky like smoke.[^6] Abu Bakr remembered the horse sinking to its belly, and Suraqah leaping clear of it. "Muhammad, I know this is your doing," Suraqah said. "Pray to Allah to save me from what I am in, and by Allah, I will blind the pursuers behind me." He meant that he would hide them from those still searching.[^5][^14]
 
 ## "Keep our whereabouts hidden"
 
@@ -39,13 +39,15 @@ He rode up to them. "When I met with what I met, being held back from them," he 
 
 He told them about the price on their heads and what people meant to do to them, and offered them provisions and goods. "They took nothing from me and asked nothing of me," he said, "except that he said: 'Keep our whereabouts hidden.'"[^6] Abu Bakr recalled that he offered more: "Here is my quiver; take an arrow from it. You will pass my camels and sheep at such-and-such a place; take what you need from them." "We have no need of your camels and sheep," the Prophet ﷺ said, and he prayed for him.[^5]
 
-Then Suraqah asked for a letter of safety, and at the Prophet's ﷺ word ‘Amir ibn Fuhayrah wrote it on a piece of leather.[^6] In Ibn Ishaq's version Suraqah asked for "a letter that will be a sign between you and me", and Abu Bakr wrote it, on a bone, a scrap or a potsherd, and tossed it to him; Suraqah put it in his quiver.[^7] Then the Messenger of Allah ﷺ went on his way.[^6]
+Then Suraqah asked for a letter of safety, and at the Prophet's ﷺ word ‘Amir ibn Fuhayrah wrote it on a piece of leather.[^6] In Ibn Ishaq's version the Prophet ﷺ told Abu Bakr, "Ask him what he wants from us," and Suraqah asked for "a letter that will be a sign between you and me". "Write it for him, Abu Bakr," the Prophet ﷺ said. Abu Bakr wrote it on a bone, a scrap or a potsherd, and tossed it to him; Suraqah put it in his quiver.[^7] Then the Messenger of Allah ﷺ went on his way.[^6]
 
 ## The hunter turns them back
 
-Suraqah turned back. "Allah is my witness," he had promised them, "that I will turn the pursuers back from you."[^8] To everyone he met on the way, he said: "You have been spared the search here." "He did not meet anyone without turning him back," Abu Bakr said, "and he kept his word to us."[^8] Of what had passed between them, Suraqah said nothing to anyone.[^7]
+Suraqah turned back. "Allah is my witness," he had promised them, "that I will turn the pursuers back from you."[^8] To everyone he met on the way, he said: "You have been spared the search here." "He did not meet anyone without turning him back," Abu Bakr said, "and he kept his word to us."[^8] He told the searchers: "Go back. I have searched this ground for you, and you know my eye for tracks."[^15]
 
-The Prophet ﷺ and Abu Bakr rode on towards Madinah,[^5] with the hunter behind them now sending every pursuer home.[^8]
+Of what had passed between them, Suraqah said nothing to anyone.[^7] But he kept the letter. Years later, after the conquest of Makkah, Hunayn and al-Ta'if, he went with it to meet the Prophet ﷺ at al-Ji‘ranah. Horsemen of the Ansar struck at him with their spears, crying, "Back! Back!", until he came near, raised his hand with the letter and said, "Messenger of Allah, this is your letter to me." "A day of faithfulness and kindness," the Prophet ﷺ said. "Come near." There Suraqah accepted Islam.[^17]
+
+That day, the Prophet ﷺ and Abu Bakr rode on towards Madinah,[^5] with the hunter behind them sending every pursuer home.[^8]
 
 ## Outline
 
