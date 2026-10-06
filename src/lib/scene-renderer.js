@@ -1577,7 +1577,7 @@ export async function create_scene(
         // Night phases: up between the first pair, down between the second.
         // ‘Abdullah's warm white centre stands out on the gold route line he follows.
         const abdullah = make_visitor(0xfff3d6, 0xff9a2e, 0xffb347, [0.02, 0.42, 0.5, 0.66])
-        const amir = make_visitor(0xb9d4ff, 0x7fa6ff, 0x9fbfff, [0.36, 0.46, 0.6, 0.72])
+        const amir = make_visitor(0xb9d4ff, 0x7fa6ff, 0x9fbfff, [0.24, 0.46, 0.58, 0.8])
         // ‘Amir's flock: pale, lit lumps of wool on the ground, not lights. Sheep are far
         // smaller than a pixel at this distance, so they are drawn several times life size.
         const flock_material = new THREE.MeshStandardMaterial({
@@ -1606,8 +1606,10 @@ export async function create_scene(
             [330, 260],
             [120, 330],
         ]
-        // Where the flock grazes, in kilometres [north, east] of the shelter.
-        const pasture = [-0.15, 0.25]
+        // Where the flock grazes by day with the other shepherds' flocks: in the valley below the
+        // face the camera sees, in kilometres [north, east] of the shelter, so the climb is in view.
+        // It is seen only on its way up and down.
+        const pasture = [-0.55, 0.5]
         // The searchers at Thawr are dim red lights, never figures. They comb the slopes, close
         // in on the shelter, stand over it while Abu Bakr whispers, then move off. Places are
         // metres [north, east] of the shelter; one stands on the rock above it. They
@@ -1972,11 +1974,9 @@ export async function create_scene(
                 [
                     abdullah,
                     actor === 'visits_abdullah',
-                    // The path ends at the foot of the summit; the last stretch is to the shelter.
-                    // The whole road from Makkah, in view on the horizon, to the foot of the
-                    // mountain, then the climb up its face to the shelter.
+                    // He comes into view at the foot of the mountain, where the drawn road from
+                    // Makkah ends, and climbs at a walking pace; the road shows where he came from.
                     (reach, target) => {
-                        if (reach <= 0.45) return along(cave_path, reach / 0.45, target)
                         // Up the mountain on the ground, round its east shoulder, the side the
                         // view faces; the road itself ends on the far, northern side.
                         const world = worlds.makkah
@@ -1990,7 +1990,7 @@ export async function create_scene(
                             ]),
                             [site.x, site.z],
                         ]
-                        const along_way = smooth((reach - 0.45) / 0.55) * (way.length - 1)
+                        const along_way = smooth(reach) * (way.length - 1)
                         const leg = Math.min(way.length - 2, Math.floor(along_way))
                         const step = along_way - leg
                         const x = mix(way[leg][0], way[leg + 1][0], step)
@@ -2036,8 +2036,9 @@ export async function create_scene(
             const going_up = phase < amir.schedule[2]
             flock.forEach((sheep, index) => {
                 const { mesh, home, seed } = sheep
-                mesh.visible = visiting
-                if (!visiting) return
+                // Seen only once ‘Amir brings it up at night, not grazing by day.
+                mesh.visible = visiting && amir_reach > 0
+                if (!mesh.visible) return
                 const world = worlds.makkah
                 const lag = 0.035 * (index + 1)
                 const reach = clamp(going_up ? amir_reach - lag : amir_reach + lag * 0.5, 0, 0.9)

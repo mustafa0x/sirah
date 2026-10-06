@@ -405,9 +405,14 @@ export function route_at(step_id, progress, step = null) {
 // Beats during which the sky runs through three nights, driven by playback position. The
 // nights run once across the beats sharing a time-lapse: [this beat's part, parts in all].
 export const timelapse_beats = { N03b: [0, 2], N03c: [1, 2] }
-// The first night plays slowly, to be followed; the other two pass more quickly.
+// Each visitor's caption has its own night: ‘Abdullah's (N03b) the first, ‘Amir's (N03c) the
+// second, slowly, so his climb with the flock is seen; the third passes at the end of his.
 export const timelapse_pace = (played) =>
-    played < 0.7 ? played / 0.7 / 3 : 1 / 3 + ((played - 0.7) / 0.3) * (2 / 3)
+    played < 0.5
+        ? played / 0.5 / 3
+        : played < 0.85
+          ? 1 / 3 + (played - 0.5) / 0.35 / 3
+          : 2 / 3 + (played - 0.85) / 0.15 / 3
 
 // Beats that set a cited passage in the scene itself.
 export const beat_passages = { N03e: 'E09' }
