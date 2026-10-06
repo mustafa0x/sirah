@@ -225,4 +225,4 @@ There his mosque rose, from bricks of sun-dried clay. The Prophet ﷺ carried th
 from: hch_settlement §4–5
 sources: sp_settlement_chapter_12:p1–p7, sp_settlement_chapter_14:p1–p3, sp_departure_chapter_haztext:p1–p2
 
-Then the fever of Madinah laid his companions low. Makkah had been the dearest of lands to him, and now he prayed for their new home: “O Allah, make Madinah dear to us as You made Makkah dear to us, or dearer.”
+Those first months were hard: Madinah was then a land of fever. Abu Bakr and Bilal fell ill, and Bilal longed aloud for the valleys of Makkah. So the Prophet ﷺ prayed: “O Allah, make Madinah dear to us as You made Makkah dear to us, or dearer.”

@@ -373,7 +373,7 @@ export const stage_text = {
             },
             {
                 id: 'N08c',
-                text: 'Then the fever of Madinah laid his companions low. Makkah had been the dearest of lands to him, and now he prayed for their new home: “O Allah, make Madinah dear to us as You made Makkah dear to us, or dearer.”',
+                text: 'Those first months were hard: Madinah was then a land of fever. Abu Bakr and Bilal fell ill, and Bilal longed aloud for the valleys of Makkah. So the Prophet ﷺ prayed: “O Allah, make Madinah dear to us as You made Makkah dear to us, or dearer.”',
                 young: {
                     text: 'He prayed that Allah would make the Muslims love Madinah as much as Makkah, and even more.',
                 },
