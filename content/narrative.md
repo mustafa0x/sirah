@@ -51,10 +51,16 @@ sources: sp_permission_h_23833_507_805:p1–p2, sp_permission_h_1681_5899_visit:
 Then one noon, at an hour he never came, the Prophet ﷺ came to Abu Bakr’s house. “Allah has given me permission to leave.” “And I am to come with you?” Abu Bakr asked. “Yes.” And Abu Bakr wept for joy.
 
 ## N02c
-from: hch_preparations §4–5
-sources: sp_permission_h_23833_508_cont:p1, sp_guide_bukhari_hire:p1, sp_provisions_asma_house:p1
+from: hch_preparations §3–4
+sources: sp_permission_h_1681_5899_visit:p1, sp_permission_h_23833_508_cont:p1, sp_guide_bukhari_hire:p1
 
-They hired a guide to bring the camels after three nights to a cave on Mount Thawr, where they would hide. Asma, Abu Bakr’s daughter, split her waistband to tie up their food, and became “she of the two waistbands”.
+Abu Bakr offered him one of the two camels he had kept ready. “At its price,” the Prophet ﷺ said. They handed both to a guide they had hired, to bring to Mount Thawr after three nights.
+
+## N02d
+from: hch_preparations §5
+sources: sp_provisions_aisha:p1, sp_provisions_asma_house:p1
+
+Then food was made ready for the road. There was nothing to tie the bag with, so Asma, Abu Bakr’s daughter, split her waistband in two, and from then on she was called “she of the two waistbands”.
 
 ## stage: departure
 title: The night of departure

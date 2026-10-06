@@ -36,6 +36,10 @@ One hot noon, the Prophet ﷺ came with the news: they could go together! Abu Ba
 
 ## N02c
 
+Abu Bakr gave a guide their two camels, to bring to a mountain called Thawr after three nights.
+
+## N02d
+
 Asma had nothing to tie up their food, so she split her waistband in two and used that.
 
 ## stage: departure

@@ -309,6 +309,8 @@ export const beat_shots = {
     N02b: shot('makkah', south + 0.3, 0.42, 4.4, 0.1),
     // The guide and the provisions: Makkah's valley with Thawr beyond.
     N02c: shot('makkah_valley', south - 0.25, 0.42, 9, 0.1),
+    // Asma and the food for the road: the same view, held still.
+    N02d: shot('makkah_valley', south - 0.25, 0.42, 9, 0.1),
     // Outside the shelter, looking at its opening.
     N09a: shot('makkah', south + 0.5, 0.5, 2.8, 0.1),
     N09b: shot('makkah', -0.3, 0.3, 1.3, 0.05),

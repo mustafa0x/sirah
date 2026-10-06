@@ -86,15 +86,23 @@ export const stage_text = {
             },
             {
                 id: 'N02c',
-                text: 'They hired a guide to bring the camels after three nights to a cave on Mount Thawr, where they would hide. Asma, Abu Bakr’s daughter, split her waistband to tie up their food, and became “she of the two waistbands”.',
+                text: 'Abu Bakr offered him one of the two camels he had kept ready. “At its price,” the Prophet ﷺ said. They handed both to a guide they had hired, to bring to Mount Thawr after three nights.',
+                young: {
+                    text: 'Abu Bakr gave a guide their two camels, to bring to a mountain called Thawr after three nights.',
+                },
+                source_ids: [
+                    'sp_permission_h_1681_5899_visit:p1',
+                    'sp_permission_h_23833_508_cont:p1',
+                    'sp_guide_bukhari_hire:p1',
+                ],
+            },
+            {
+                id: 'N02d',
+                text: 'Then food was made ready for the road. There was nothing to tie the bag with, so Asma, Abu Bakr’s daughter, split her waistband in two, and from then on she was called “she of the two waistbands”.',
                 young: {
                     text: 'Asma had nothing to tie up their food, so she split her waistband in two and used that.',
                 },
-                source_ids: [
-                    'sp_permission_h_23833_508_cont:p1',
-                    'sp_guide_bukhari_hire:p1',
-                    'sp_provisions_asma_house:p1',
-                ],
+                source_ids: ['sp_provisions_aisha:p1', 'sp_provisions_asma_house:p1'],
             },
         ],
         why: {
@@ -1207,6 +1215,17 @@ export const cited_passages = {
         reference: 'Al-Bukhari, Sahih al-Bukhari, 5/59',
         excerpt:
             'وَاسْتَأْجَرَ رَسُولُ اللهِ ﷺ وَأَبُو بَكْرٍ رَجُلًا مِنْ بَنِي الدِّيلِ، وَهُوَ مِنْ بَنِي عَبْدِ بْنِ عَدِيٍّ، هَادِيًا خِرِّيتًا، وَالْخِرِّيتُ الْمَاهِرُ بِالْهِدَايَةِ، قَدْ غَمَسَ حِلْفًا فِي آلِ الْعَاصِ بْنِ وَائِلٍ السَّهْمِيِّ، وَهُوَ عَلَى دِينِ كُفَّارِ قُرَيْشٍ، فَأَمِنَاهُ فَدَفَعَا إِلَيْهِ رَاحِلَتَيْهِمَا، وَوَاعَدَاهُ',
+        book_id: '1681',
+        book_ar: 'صحيح البخاري - ط السلطانية',
+        volume: '5',
+        page: '59',
+        url: 'https://app.turath.io/book/1681?page=5899',
+        kind_ar: 'حديث',
+    },
+    'sp_provisions_aisha:p1': {
+        reference: 'Al-Bukhari, Sahih al-Bukhari, 5/59',
+        excerpt:
+            'قَالَتْ عَائِشَةُ: فَجَهَّزْنَاهُمَا أَحَثَّ الْجَهَازِ، وَصَنَعْنَا لَهُمَا سُفْرَةً فِي جِرَابٍ، فَقَطَعَتْ أَسْمَاءُ بِنْتُ أَبِي بَكْرٍ قِطْعَةً مِنْ نِطَاقِهَا، فَرَبَطَتْ بِهِ عَلَى فَمِ الْجِرَابِ، فَبِذَلِكَ سُمِّيَتْ ذَاتَ النِّطَاقِ،',
         book_id: '1681',
         book_ar: 'صحيح البخاري - ط السلطانية',
         volume: '5',
