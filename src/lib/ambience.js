@@ -5,6 +5,8 @@ export function create_ambience() {
     let gain = null
     let filter = null
     let enabled = false
+    let night = false
+    let speaking = false
 
     function build() {
         context = new AudioContext()
@@ -37,7 +39,9 @@ export function create_ambience() {
         gust.start()
     }
 
-    function level(value) {
+    // A quiet bed under the narration: lower at night, lower still while the narrator speaks.
+    function level() {
+        const value = enabled ? (night ? 0.016 : 0.024) * (speaking ? 0.45 : 1) : 0
         gain?.gain.setTargetAtTime(value, context.currentTime, 0.8)
     }
 
@@ -48,14 +52,18 @@ export function create_ambience() {
             if (enabled && !context) build()
             if (!context) return
             if (enabled) context.resume()
-            level(enabled ? 0.07 : 0)
+            level()
         },
         // Night is quieter and lower; open country by day is brighter.
         set_mood(mood) {
             if (!context) return
-            const night = mood === 'night'
+            night = mood === 'night'
             filter.frequency.setTargetAtTime(night ? 260 : 460, context.currentTime, 1.5)
-            if (enabled) level(night ? 0.045 : 0.07)
+            level()
+        },
+        set_speaking(next) {
+            speaking = next
+            if (context) level()
         },
         dispose() {
             context?.close()

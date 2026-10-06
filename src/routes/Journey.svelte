@@ -243,6 +243,8 @@
     let help_open = $state(false)
     let about_open = $state(false)
     let sound_on = $state(false)
+    // Whether the reader has used the sound button; until then, pressing play turns sound on.
+    let sound_chosen = false
     // In depth, the evidence and the timeline are open from the start.
     let evidence_on = $state(mode === 'deep')
     let timeline_open = $state(mode === 'deep')
@@ -551,6 +553,8 @@
         return timelapse_pace((part + cue_progress) / parts)
     })
     $effect(() => ambience.set_mood(mood))
+    // The wind drops under the narrator's voice.
+    $effect(() => ambience.set_speaking(journey.is_playing && guided_visible))
     let night = $derived(Math.min(3, Math.floor((cycle ?? 0) * 3) + 1))
     let passage = $derived(
         current_cue && beat_passages[current_cue.id] && !active_poi && !map_open
@@ -711,6 +715,8 @@
         cancel_advance()
         active_poi = null
         if (!journey.started || journey.mode === 'completed') return start('scene')
+        // Opened from a link, the journey starts silent; play is the gesture that unlocks sound.
+        if (!sound_on && !sound_chosen) set_sound(true)
         return_to_guided(journey)
         try {
             begin_play(journey)
@@ -1865,7 +1871,10 @@
                     class={round_button}
                     aria-label={sound_on ? 'Turn sound off' : 'Turn sound on'}
                     aria-pressed={sound_on}
-                    onclick={() => set_sound(!sound_on)}
+                    onclick={() => {
+                        sound_chosen = true
+                        set_sound(!sound_on)
+                    }}
                 >
                     {@render icon(sound_on ? 'sound' : 'muted')}
                 </button>
