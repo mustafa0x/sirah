@@ -933,7 +933,7 @@ export async function create_scene(
             if (poi.detail) {
                 // A small diamond; its name appears on hover, focus, or when it is open.
                 node.className =
-                    'group/poi absolute top-0 left-0 grid justify-items-center gap-[6px] p-[6px] bg-transparent border-0 pointer-events-auto [translate:-50%_-50%] [&[hidden]]:hidden'
+                    'group/poi absolute transition-opacity duration-500 top-0 left-0 grid justify-items-center gap-[6px] p-[6px] bg-transparent border-0 pointer-events-auto [translate:-50%_-50%] [&[hidden]]:hidden'
                 node.setAttribute('aria-label', poi.label)
                 const mark = document.createElement('span')
                 mark.className =
@@ -947,7 +947,7 @@ export async function create_scene(
                 return { poi, node }
             }
             node.className =
-                "group/poi absolute top-0 left-0 grid justify-items-center max-w-[15rem] pt-0 px-0 pb-[26px] bg-transparent border-0 pointer-events-auto [translate:-50%_-100%] [&[hidden]]:hidden after:absolute after:bottom-0 after:left-1/2 after:w-px after:h-6 after:bg-[linear-gradient(rgba(255,240,210,0.9),rgba(255,240,210,0))] after:content-['']"
+                "group/poi absolute transition-opacity duration-500 top-0 left-0 grid justify-items-center max-w-[15rem] pt-0 px-0 pb-[26px] bg-transparent border-0 pointer-events-auto [translate:-50%_-100%] [&[hidden]]:hidden after:absolute after:bottom-0 after:left-1/2 after:w-px after:h-6 after:bg-[linear-gradient(rgba(255,240,210,0.9),rgba(255,240,210,0))] after:content-['']"
             const name = document.createElement('span')
             name.className =
                 'py-[6px] px-[13px] text-[#fff8ea] bg-[rgba(17,14,10,0.62)] border border-solid border-[rgba(255,236,200,0.4)] rounded-full font-serif text-[1rem] font-medium whitespace-nowrap backdrop-blur-[6px] transition-[background,color,border-color] duration-200 ease-[ease] group-hover/poi:text-gold-ink group-hover/poi:bg-gold group-hover/poi:border-gold-bright group-data-[active=true]/poi:text-gold-ink group-data-[active=true]/poi:bg-gold group-data-[active=true]/poi:border-gold-bright mobile:text-[0.875rem]'
@@ -1257,24 +1257,27 @@ export async function create_scene(
                     .project(camera)
                 const x = ((projected.x + 1) / 2) * width
                 const y = ((1 - projected.y) / 2) * height
-                // Labels that would sit under the chapter rail or the side sheet are dropped.
+                // Labels that would sit under the chapter rail, the side sheet or the top bar
+                // are dropped. A label stands above its point, about 160 by 56 pixels.
                 const visible =
                     projected.z < 1 &&
                     projected.y < 1.1 &&
                     x > inset_target.left + 30 &&
                     x < width - inset_target.right - 30 &&
-                    y > inset_target.top &&
-                    // A label stands above its point, about 160 by 50 pixels.
+                    y - 56 > inset_target.top &&
                     !overlay.some(
                         (box) =>
                             x + 80 > box.left - origin.left &&
                             x - 80 < box.right - origin.left &&
                             y > box.top - origin.top &&
-                            y - 50 < box.bottom - origin.top,
+                            y - 56 < box.bottom - origin.top,
                     )
                 node.hidden = !visible
                 if (!visible) continue
                 node.style.transform = `translate(${x}px, ${y}px)`
+                // Names fade out while the camera flies, rather than sliding across the screen.
+                node.style.opacity = flight ? '0' : ''
+                node.style.pointerEvents = flight ? 'none' : ''
                 node.dataset.active = String(poi.id === active_id)
                 if (poi.id === active_id) node.setAttribute('aria-current', 'location')
                 else node.removeAttribute('aria-current')
