@@ -1758,6 +1758,16 @@ export async function create_scene(
                         ),
                     )
                 }
+                // A journey much longer than either view's distance arcs up and over the country
+                // between, looking down more steeply at the top, rather than skimming the ground.
+                const travel = start.target.distanceTo(end.target)
+                const span = Math.sqrt(start.distance * end.distance)
+                const hop = clamp(travel / span / 4 - 0.5, 0, 6)
+                if (hop > 0) {
+                    const arc = Math.sin(Math.PI * eased)
+                    view.distance *= 1 + hop * arc
+                    view.elevation = Math.max(view.elevation, mix(view.elevation, 0.75, arc))
+                }
                 lift = Math.min(1, 3 * Math.sin(Math.PI * eased))
                 if (progress === 1) {
                     if (end.follow === 'camel') view.follow = 'camel'
