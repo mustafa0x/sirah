@@ -36,8 +36,9 @@ export default defineConfig({
     },
     server: {
         // Agents' worktrees live under .claude/. Watching them made a new worktree's
-        // tsconfig.json clear the dependency cache and blank the running app.
-        watch: { ignored: ['**/.claude/**'] },
+        // tsconfig.json clear the dependency cache and blank the running app. Only this
+        // root's own .claude/ is skipped, so a server run from a worktree still sees its files.
+        watch: { ignored: (file) => file.startsWith(path.join(import.meta.dirname, '.claude')) },
         host: '127.0.0.1',
         port: +(process.env.VITE_PORT || 5100),
         strictPort: true,
