@@ -98,7 +98,7 @@ export const stage_text = {
             },
             {
                 id: 'N02d',
-                text: 'Then food was made ready for the road. There was nothing to tie the bag with, so Asma, Abu Bakr’s daughter, split her waistband in two, and from then on she was called “she of the two waistbands”.',
+                text: 'In Abu Bakr’s house, Asma made their food for the road. Finding nothing to tie the bag and the water skin with, she told her father, “Only my waistband.” “Split it in two,” he said, and so she was called “she of the two waistbands”.',
                 young: {
                     text: 'Asma had nothing to tie up their food, so she split her waistband in two and used that.',
                 },

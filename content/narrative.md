@@ -60,7 +60,7 @@ Abu Bakr offered him one of the two camels he had kept ready. “At its price,�
 from: hch_preparations §5
 sources: sp_provisions_aisha:p1, sp_provisions_asma_house:p1
 
-Then food was made ready for the road. There was nothing to tie the bag with, so Asma, Abu Bakr’s daughter, split her waistband in two, and from then on she was called “she of the two waistbands”.
+In Abu Bakr’s house, Asma made their food for the road. Finding nothing to tie the bag and the water skin with, she told her father, “Only my waistband.” “Split it in two,” he said, and so she was called “she of the two waistbands”.
 
 ## stage: departure
 title: The night of departure
