@@ -335,7 +335,7 @@ def _json(handler: BaseHTTPRequestHandler, value: Any, status: int = 200) -> Non
     handler.send_response(status)
     handler.send_header("Content-Type", "application/json; charset=utf-8")
     handler.send_header("Content-Length", str(len(data)))
-    handler.send_header('Cache-Control', 'no-store')
+    handler.send_header('Cache-Control', 'private, no-cache, max-age=0, must-revalidate')
     handler.send_header("Access-Control-Allow-Origin", "http://127.0.0.1:5100")
     handler.end_headers()
     handler.wfile.write(data)

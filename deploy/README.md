@@ -13,6 +13,8 @@ Setup requires the existing `web` account, passwordless service/install privileg
 
 Setup prints a generated Basic Auth password once, unless `SIRAH_AUTH_PASSWORD` is supplied. Store it outside Git. Basic Auth remains enabled for pages, static assets, and API requests.
 
+Responses use `Cache-Control: private, no-cache, max-age=0, must-revalidate`; they may be stored locally but must be revalidated.
+
 ## Environment
 
 `/srv/apps/sirah/.mise.local.toml` is server-only, root-owned, group `web`, mode `0640`. Configure the OpenAI and Turnstile secrets there; see `.env.example` for names. The service listens on loopback port `8075`. Do not commit or upload local credential files.
